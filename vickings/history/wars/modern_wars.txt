@@ -1,0 +1,41 @@
+# Napoleon's invasion of Russia
+war = {
+	name = "war_1812_Russia_Invasion"	# the name can be left out, will be generated then
+	start_date = 1812.6.24
+	end_date = 1814.9.25
+	targeted_titles = {
+		k_lithuania k_esthonia
+	}
+	casus_belli = napoleon_invasion_cb
+	attackers = { 9000001 9000003 9000008 9000009 }
+	defenders = { 9000014 9000000 9000010 }
+	claimant = 9100022
+}
+
+# The Peninsular War
+war = {
+	name = "war_Peninsular"
+	start_date = 1808.5.2
+	end_date = 1814.4.17
+	targeted_titles={
+		k_spain
+	}
+	casus_belli = peninsular_cb
+	attackers = { 9121600 9000004 9000000 }
+	defenders = { 9000003 9000001 9000008 }
+	claimant = 9000017
+}
+
+# First Carlist War
+war = {
+	name = "war_Carlist"
+	start_date = 1833.9.29
+	end_date = 1840.7.6
+	#targeted_titles={
+	#	k_spain c_molina
+	#}
+	casus_belli = depose_war
+	attackers = { 9200007 9121605 9121606 }
+	defenders = { 8000019 }
+	#claimant = 9200007
+}

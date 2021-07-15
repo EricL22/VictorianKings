@@ -1,0 +1,64 @@
+﻿### Chakri Dynasty (Rattanakosin)
+6200300 = {
+	name = "Thongduang"
+	dynasty = 178221
+	religion = theravada
+	culture = thai
+	1737.3.20 = {
+		birth = yes
+	}
+	1782.4.6 = {
+		name = "Rama"
+	}
+	1809.9.7 = {
+		death = yes
+	}
+}
+6200301 = {
+	name = "Chim"
+	dynasty = 178221
+	religion = theravada
+	culture = thai
+	father = 6200300
+	1767.2.24 = {
+		birth = yes
+	}
+	1809.9.7 = {
+		name = "Rama"
+	}
+	1824.7.21 = {
+		death = yes
+	}
+}
+6200302 = {
+	name = "Nangklao"
+	dynasty = 178221
+	religion = theravada
+	culture = thai
+	father = 6200301
+	1788.3.31 = {
+		birth = yes
+	}
+	1824.7.21 = {
+		name = "Rama"
+	}
+	1851.4.2 = {
+		death = yes
+	}
+}
+6200303 = {
+	name = "Mongkut"
+	dynasty = 178221
+	religion = theravada
+	culture = thai
+	father = 6200301
+	1804.10.18 = {
+		birth = yes
+	}
+	1851.4.2 = {
+		name = "Rama"
+	}
+	1868.10.1 = {
+		death = yes
+	}
+}

@@ -1,0 +1,849 @@
+﻿### Namgyal Dynasty (Sikkim)
+6100000 = {
+	name = "Phuntsog"
+	dynasty_house = house_chogyal
+	religion = lamaism
+	culture = bodpa
+	trait = education_learning_4
+	trait = compassionate
+	trait = paragon
+	1604.1.1 = {
+		birth = yes
+	}
+	1670.1.1 = {
+		death = yes
+	}
+}
+6100001 = {
+	name = "Tensung"
+	dynasty_house = house_chogyal
+	religion = lamaism
+	culture = bodpa
+	father = 6100000
+	trait = consecrated_blood
+	1644.1.1 = {
+		birth = yes
+	}
+	1700.1.1 = {
+		death = yes
+	}
+}
+6100002 = {
+	name = "Chakdor"
+	dynasty_house = house_chogyal
+	religion = lamaism
+	culture = bodpa
+	father = 6100001
+	trait = consecrated_blood
+	1686.1.1 = {
+		birth = yes
+	}
+	1717.1.1 = {
+		death = yes
+	}
+}
+6100003 = {
+	name = "Gyurmed"
+	dynasty_house = house_chogyal
+	religion = lamaism
+	culture = bodpa
+	father = 6100002
+	trait = consecrated_blood
+	1707.1.1 = {
+		birth = yes
+	}
+	1733.1.1 = {
+		death = yes
+	}
+}
+6100004 = {
+	name = "Phuntsog"
+	dynasty_house = house_chogyal
+	religion = lamaism
+	culture = bodpa
+	father = 6100003
+	trait = consecrated_blood
+	1733.1.1 = {
+		birth = yes
+	}
+	1780.1.1 = {
+		death = yes
+	}
+}
+6100005 = {
+	name = "Tenzing"
+	dynasty_house = house_chogyal
+	religion = lamaism
+	culture = bodpa
+	father = 6100004
+	trait = consecrated_blood
+	1769.1.1 = {
+		birth = yes
+	}
+	1793.1.1 = {
+		death = yes
+	}
+}
+6100006 = {
+	name = "Tsugphud"
+	dynasty_house = house_chogyal
+	religion = lamaism
+	culture = bodpa
+	father = 6100005
+	trait = consecrated_blood
+	1785.1.1 = {
+		birth = yes
+	}
+	1863.1.1 = {
+		death = yes
+	}
+}
+6100007 = {
+	name = "Sidkeong"
+	dynasty_house = house_chogyal
+	religion = lamaism
+	culture = bodpa
+	father = 6100006
+	trait = consecrated_blood
+	1819.1.1 = {
+		birth = yes
+	}
+	1874.1.1 = {
+		death = yes
+	}
+}
+
+### Namgyal Dynasty (Ladakh) - dates here are guesswork
+6100020 = {
+	name = "Tsewang"
+	dynasty = 164275
+	religion = lamaism
+	culture = bodpa
+	1730.1.1 = {
+		birth = yes
+	}
+	1782.1.1 = {
+		death = yes
+	}
+}
+6100021 = {
+	name = "Tseten"
+	dynasty = 164275
+	religion = lamaism
+	culture = bodpa
+	father = 6100020
+	1750.1.1 = {
+		birth = yes
+	}
+	1802.1.1 = {
+		death = yes
+	}
+}
+6100022 = {
+	name = "Tsepal"
+	dynasty = 164275
+	religion = lamaism
+	culture = bodpa
+	father = 6100020
+	1775.1.1 = {
+		birth = yes
+	}
+	1840.1.1 = {
+		death = yes
+	}
+}
+6100023 = {
+	name = "BO_ndak"	# no information about the real character
+	dynasty = 164275
+	religion = lamaism
+	culture = bodpa
+	father = 6100022
+	1800.1.1 = {
+		birth = yes
+	}
+	1835.1.1 = {
+		death = yes
+	}
+}
+6100024 = {
+	name = "Kunga"
+	dynasty = 164275
+	religion = lamaism
+	culture = bodpa
+	father = 6100023
+	1820.1.1 = {
+		birth = yes
+	}
+	1845.1.1 = {
+		death = yes
+	}
+}
+
+### Druk Desi (Bhutan)
+6100050 = {
+	name = "Yeshey"
+	dynasty = 173938
+	religion = lamaism
+	culture = lhomon
+	1781.1.1 = {
+		birth = yes
+	}
+	1830.1.1 = {
+		death = yes
+	}
+}
+6100051 = {
+	name = "Chhoki"
+	dynasty = 173938
+	religion = lamaism
+	culture = lhomon
+	father = 6100050	# since he appears to share same dynasty, so add some continuity
+	1793.1.1 = {		# dates are completely guesswork
+		birth = yes
+	}
+	1850.1.1 = {
+		death = yes
+	}
+}
+
+### Ahom dynasty
+# most birthdates after this point are completely guesswork due to lack of info
+6100100 = {
+	name = "Sudangpha"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = 191573
+	1382.1.1 = {
+		birth = yes
+	}
+	1407.1.1 = {
+		death = yes
+	}
+}
+6100101 = {
+	name = "Sujangpha"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = 6100100
+	1400.1.1 = {
+		birth = yes
+	}
+	1422.1.1 = {
+		death = yes
+	}
+}
+6100102 = {
+	name = "Suphakpha"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = 6100101
+	1420.1.1 = {
+		birth = yes
+	}
+	1439.1.1 = {
+		death = yes
+	}
+}
+6100103 = {
+	name = "Susenpha"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = 6100102
+	trait = education_stewardship_3
+	1435.1.1 = {
+		birth = yes
+	}
+	1488.1.1 = {
+		death = yes
+	}
+}
+6100104 = {
+	name = "Suhenpha"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = 6100103
+	1455.1.1 = {
+		birth = yes
+	}
+	1493.1.1 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+6100105 = {
+	name = "Supimpha"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = 6100104
+	trait = vengeful
+	1475.1.1 = {
+		birth = yes
+	}
+	1497.1.1 = {
+		death = yes
+	}
+}
+6100106 = {
+	name = "Suhungmung"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = 6100104
+	1495.1.1 = {
+		birth = yes
+	}
+	1539.1.1 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+6100107 = {
+	name = "Suklenmung"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = 6100106
+	1520.1.1 = {
+		birth = yes
+	}
+	1552.1.1 = {
+		death = yes
+	}
+}
+6100108 = {
+	name = "Sukhaampha"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = 6100107
+	1540.1.1 = {
+		birth = yes
+	}
+	1603.1.1 = {
+		death = yes
+	}
+}
+6100109 = {
+	name = "Susenghpha"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = 6100108
+	1560.1.1 = {
+		birth = yes
+	}
+	1641.1.1 = {
+		death = yes
+	}
+}
+6100110 = {
+	name = "Surampha"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = 6100109
+	1580.1.1 = {
+		birth = yes
+	}
+	1644.1.1 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+6100111 = {
+	name = "Sutingpha"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = 6100109
+	1585.1.1 = {
+		birth = yes
+	}
+	1648.1.1 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+6100112 = {
+	name = "Sutamla"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = 6100111
+	1610.1.1 = {
+		birth = yes
+	}
+	1663.1.1 = {
+		death = yes
+	}
+}
+6100113 = {
+	name = "Supangmung"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = 6100133
+	1653.1.1 = {
+		birth = yes
+	}
+	1670.1.1 = {
+		death = yes
+	}
+}
+6100114 = {
+	name = "Sunyatpha"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = 6100133
+	1654.1.1 = {
+		birth = yes
+	}
+	1672.1.1 = {
+		death = {
+			death_reason = death_execution
+		}
+	}
+}
+6100115 = {
+	name = "Suklampha"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = 6100133
+	1655.1.1 = {
+		birth = yes
+	}
+	1674.1.1 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+6100116 = {
+	name = "Suhung"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = 6100135
+	1655.1.1 = {
+		birth = yes
+	}
+	1675.1.1 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+6100117 = {
+	name = "Gobar-Roja"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = 6100137
+	1655.1.1 = {
+		birth = yes
+	}
+	1675.5.23 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+6100118 = {
+	name = "Sujinpha"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = 6100109
+	1650.1.1 = {
+		birth = yes
+	}
+	1677.1.1 = {
+		death = {
+			death_reason = death_suicide
+		}
+	}
+}
+6100119 = {
+	name = "Sudoipha"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = 6100142
+	1620.1.1 = {
+		birth = yes
+	}
+	1679.1.1 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+6100120 = {
+	name = "Sulikpha"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	#father = descendant from Samaguria
+	1650.1.1 = {
+		birth = yes
+	}
+	1681.1.1 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+6100121 = {
+	name = "Supaatpha"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = 6100117
+	1675.1.1 = {
+		birth = yes
+	}
+	1696.1.1 = {
+		death = yes
+	}
+}
+6100122 = {
+	name = "Sukhrungpha"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = 6100121
+	1692.1.1 = {
+		birth = yes
+	}
+	1714.1.1 = {
+		death = yes
+	}
+}
+6100123 = {
+	name = "Sutanpha"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = 6100122
+	1712.1.1 = {
+		birth = yes
+	}
+	1744.1.1 = {
+		death = yes
+	}
+}
+6100124 = {
+	name = "Sunenpha"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = 6100122
+	1713.1.1 = {
+		birth = yes
+	}
+	1751.1.1 = {
+		death = yes
+	}
+}
+6100125 = {
+	name = "Surempha"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = 6100122
+	1714.1.1 = {
+		birth = yes
+	}
+	1769.1.1 = {
+		death = yes
+	}
+}
+6100126 = {
+	name = "Sunyeopha"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = 6100122
+	1715.1.1 = {
+		birth = yes
+	}
+	1780.1.1 = {
+		death = yes
+	}
+}
+6100127 = {
+	name = "Suhitpangpha"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = 6100126
+	1735.1.1 = {
+		birth = yes
+	}
+	1795.1.1 = {
+		death = yes
+	}
+}
+6100128 = {
+	name = "Suklingpha"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = 6100140
+	1763.1.1 = {
+		birth = yes
+	}
+	1811.1.1 = {
+		death = {
+			death_reason = death_smallpox
+		}
+	}
+}
+6100129 = {
+	name = "Sudingpha"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = 6100140
+	1797.1.1 = {
+		birth = yes
+	}
+	1839.1.1 = {
+		death = yes
+	}
+}
+6100130 = {
+	name = "Purandar-Singha"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = 6100144
+	1807.1.1 = {
+		birth = yes
+	}
+	1846.10.1 = {
+		death = yes
+	}
+}
+6100131 = {
+	name = "Jogeswar-Singha"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = 6100146
+	1765.1.1 = {
+		birth = yes
+	}
+	1825.1.1 = {
+		death = yes
+	}
+}
+
+# Ahom extended family - all birth and death dates are made up
+6100132 = {
+	name = "Suleng"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = 6100106
+	1521.1.1 = {
+		birth = yes
+	}
+	1550.1.1 = {
+		death = yes
+	}
+}
+6100133 = {
+	name = "Namrupia-Raja"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = 6100132
+	1537.1.1 = {
+		birth = yes
+	}
+	1600.1.1 = {
+		death = yes
+	}
+}
+6100134 = {
+	name = "Samaguria"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = 6100106
+	1537.1.1 = {
+		birth = yes
+	}
+	1600.1.1 = {
+		death = yes
+	}
+}
+6100135 = {
+	name = "Samagur"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = 6100134
+	1560.1.1 = {
+		birth = yes
+	}
+	1660.1.1 = {
+		death = yes
+	}
+}
+6100136 = {
+	name = "Suten"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = 6100106
+	1538.1.1 = {
+		birth = yes
+	}
+	1600.1.1 = {
+		death = yes
+	}
+}
+6100137 = {
+	name = "Saranga"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = 6100136
+	1560.1.1 = {
+		birth = yes
+	}
+	1660.1.1 = {
+		death = yes
+	}
+}
+6100138 = {
+	name = "Namrupian-Gohain"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = 6100136
+	1610.1.1 = {
+		birth = yes
+	}
+	1660.1.1 = {
+		death = yes
+	}
+}
+6100139 = {
+	name = "Lechai"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = 6100121
+	1693.1.1 = {
+		birth = yes
+	}
+	1760.1.1 = {
+		death = yes
+	}
+}
+6100140 = {
+	name = "Kadamdighala-Gohain"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = 6100139
+	1743.1.1 = {
+		birth = yes
+	}
+	1800.1.1 = {
+		death = yes
+	}
+}
+6100141 = {
+	name = "Suteng"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = 6100106
+	1522.1.1 = {
+		birth = yes
+	}
+	1600.1.1 = {
+		death = yes
+	}
+}
+6100142 = {
+	name = "Parvatia-Deka-Raja"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = 6100141
+	1572.1.1 = {
+		birth = yes
+	}
+	1642.1.1 = {
+		death = yes
+	}
+}
+6100143 = {
+	name = "Ratneswar-Saru-Gohain"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = 6100125
+	1734.1.1 = {
+		birth = yes
+	}
+	1780.1.1 = {
+		death = yes
+	}
+}
+6100144 = {
+	name = "Bijoy-Barmura-Gohain"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = 6100143
+	1750.1.1 = {
+		birth = yes
+	}
+	1810.1.1 = {
+		death = yes
+	}
+}
+6100145 = {
+	name = "Jambar-Gohain"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = 6100117
+	1675.1.1 = {
+		birth = yes
+	}
+	1720.1.1 = {
+		death = yes
+	}
+}
+6100146 = {
+	name = "Bagakonwar-Tipam-Raja"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = 6100145
+	1700.1.1 = {
+		birth = yes
+	}
+	1775.1.1 = {
+		death = yes
+	}
+}

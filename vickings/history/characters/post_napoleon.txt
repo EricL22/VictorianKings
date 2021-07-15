@@ -1,0 +1,2359 @@
+﻿8000000 = {
+	name = "Louis"	# XVIII of France
+	dynasty = 100146
+	religion = catholic
+	culture = french
+	father = 8100001
+	mother = 8100022
+	1755.11.17 = {
+		birth = "1755.11.17"
+	}
+	1814.4.11 = {
+		effect = {
+			add_realm_law_skip_effects = male_only_law
+		}
+	}
+	1824.9.16 = {
+		death = {
+			death_reason = death_obesity
+		}
+	}
+}
+
+8000001 = {
+	name = "Willem"
+	dynasty = 7248
+	religion = reformed
+	culture = dutch
+	1772.8.24 = {
+		birth = "1772.8.24"
+	}
+	1843.12.12 = {
+		death = "1843.12.12"
+	}
+}
+
+8000002 = {
+	name = "Uthman"
+	dynasty = 101035
+	religion = maturidi
+	culture = turkish
+	1763.5.27 = {
+		birth = "1763.5.27"
+	}
+	1814.12.20 = {
+		death = "1814.12.20"
+	}
+}
+
+8000003 = {
+	name = "Mahmud"
+	dynasty = 101035
+	religion = maturidi
+	culture = turkish
+	1757.7.10 = {
+		birth = "1757.7.10"
+	}
+	1814.11.21 = {
+		effect = {
+			add_realm_law_skip_effects = single_heir_dynasty_house
+		}
+	}
+	1824.3.28 = {
+		death = "1824.3.28"
+	}
+}
+
+8000004 = {
+	name = "Wilhelm" 	# Elector of Hesse
+	religion = reformed
+	culture = franconian
+	father =  9100063
+	1743.6.3 = {
+		birth = "1743.6.3"
+	}
+	1821.2.27 = {
+		death = "1821.2.27"
+	}
+}
+
+8000005 = {
+	name = "Louis"		# Grand Duke of Hesse
+	religion = protestant
+	culture = french
+	1753.6.14 = {
+		birth = "1753.6.14"
+	}
+	1830.4.6 = {
+		death = "1830.4.6"
+	}
+}
+
+8000006 = {
+	name = "Leb"
+	religion = protestant
+	culture = saxon
+	1765.2.3 = {
+		birth = "1765.2.3"
+	}
+	1845.1.1 = {
+		death = "1845.1.1"
+	}
+}
+8000007 = {
+	name = "Helmut"
+	religion = protestant
+	culture = saxon
+	1756.7.3 = {
+		birth = "1756.7.3"
+	}
+	1845.1.1 = {
+		death = "1845.1.1"
+	}
+}
+
+8000008 = {
+	name = "Charles"	# Duke of Brunswick
+	religion = protestant
+	culture = saxon
+	1804.10.30 = {
+		birth = "1804.10.30"
+	}
+	1873.8.19 = {
+		death = "1873.8.19"
+	}
+}
+
+8000009 = {
+	name = "George"
+	dynasty = 2001107
+	religion = protestant
+	culture = english
+	father = 9000000
+	1762.8.12 = {
+		birth = "1762.8.12"
+	}
+	1830.6.26 = {
+		death = {
+			death_reason = death_bleeder
+		}
+	}
+}
+
+8000010 = {
+	name = "William"
+	dynasty = 2001107
+	religion = protestant
+	culture = english
+	trait = education_stewardship_2
+	father = 9000000
+	1765.8.21 = {
+		birth = "1765.8.21"
+	}
+	1818.7.11 = {
+		add_spouse = 9100062
+	}
+	1830.6.26 = {
+		effect = {
+			add_realm_law_skip_effects = crown_authority_1
+			add_realm_law_skip_effects = equal_law
+			spawn_army = {
+				name = "1st Corps"
+				levies = 6000
+				men_at_arms = {
+					type = hussar
+					stacks = 30
+				}
+
+				men_at_arms = {
+					type = light_horsemen
+					stacks = 30
+				}
+
+				men_at_arms = {
+					type = chasseur
+					stacks = 30
+				}
+
+				men_at_arms = {
+					type = bombard
+					stacks = 30
+				}
+
+				location = 1527
+				origin = 1527
+				inheritable = yes
+			}
+
+			spawn_army = {
+				name = "2nd Division"
+				levies = 6000
+				men_at_arms = {
+					type = light_footmen
+					stacks = 30
+				}
+
+				location = 1600
+				origin = 1600
+				inheritable = yes
+			}
+
+			spawn_army = {
+				name = "3rd Division"
+				levies = 6000
+				men_at_arms = {
+					type = light_footmen
+					stacks = 30
+				}
+
+				location = 1649
+				origin = 1649
+				inheritable = yes
+			}
+
+			spawn_army = {
+				name = "4th Division"
+				levies = 6000
+				men_at_arms = {
+					type = light_footmen
+					stacks = 30
+				}
+
+				location = 28
+				origin = 28
+				inheritable = yes
+			}
+
+			spawn_army = {
+				name = "5th Division"
+				levies = 6000
+				men_at_arms = {
+					type = light_footmen
+					stacks = 30
+				}
+
+				location = 1727
+				origin = 1727
+				inheritable = yes
+			}
+		}
+	}
+	1837.6.20 = {
+		death = {
+			death_reason = death_old_age
+		}
+	}
+}
+
+8000011 = {
+	name = "Edward"
+	dynasty = 2001107
+	religion = protestant
+	culture = english
+	father = 9000000
+	1767.11.2 = {
+		birth = "1767.11.2"
+	}
+	1820.1.23 = {
+		death = "1820.1.23"
+	}
+}
+
+# The Queen herself
+8000012 = {
+	name = "Victoria"
+	dynasty = 2001107
+	religion = protestant
+	culture = english
+	father = 8000011
+	female = yes
+	1819.5.24 = {
+		birth = "1819.5.24"
+	}
+	1901.1.22 = {
+		death = "1901.1.22"
+	}
+}
+
+8000013 = {
+	name = "Alexandros"
+	dynasty = 101443
+	religion = orthodox
+	culture = greek
+	1792.12.12 = {
+		birth = "1792.12.12"
+	}
+	1821.2.21 = {
+		add_unpressed_claim = c_nicopolis
+		add_unpressed_claim = c_aetolia
+		add_unpressed_claim = c_neopatras
+	}
+	1828.1.31 = {
+		death = "1828.1.31"
+	}
+}
+
+8000014 = {
+	name = "Hurshid"
+	culture = georgian
+	religion = ashari
+	1794.6.4 = {
+		birth = "1784.6.4"
+	}
+	1812.1.1 = {
+		add_opinion = {
+			target = character:9000011
+			modifier = received_title_kingdom
+		}
+	}
+	1822.11.30 = {
+		death = "1822.11.30"
+	}
+}
+
+8000015 = {
+	name = "Ernest Augustus"
+	dynasty = 2001107
+	religion = protestant
+	culture = english
+	father = 9000000
+	1771.6.5 = {
+		birth = yes
+	}
+	1851.11.18 = {
+		death = yes
+	}
+}
+
+8000016 = {
+	name = "Ludwig"	# of Bavaria
+	dynasty = 217
+	religion = catholic
+	culture = bavarian
+	father = 9000018
+	1786.8.25 = {
+		birth = yes
+	}
+	1810.10.12 = {
+		add_spouse = 8000064
+	}
+	1825.10.13 = {
+		effect = {
+			add_realm_law_skip_effects = crown_authority_1
+		}
+	}
+	1868.2.29 = {
+		death = yes
+	}
+}
+
+8000017 = {
+	name = "Otto"	# of Greece
+	dynasty = 217
+	religion = catholic
+	culture = bavarian
+	father = 8000016
+	mother = 8000064
+	trait = education_diplomacy_1
+	1815.6.1 = {
+		birth = yes
+	}
+	1832.5.27 = {
+		trait = disinherited	# Prevented from inheriting Bavaria by Congress
+	}
+	1867.7.26 = {
+		death = yes
+	}
+}
+
+8000018 = {
+	name = "Maximilian"	# of Bavaria
+	dynasty = 217
+	religion = catholic
+	culture = bavarian
+	father = 8000016
+	mother = 8000064
+	1811.11.28 = {
+		birth = yes
+	}
+	1864.3.10 = {
+		death = yes
+	}
+}
+
+8000019 = {
+	name = "Isabel"	# II of Spain
+	dynasty = 100146
+	religion = catholic
+	culture = castilian
+	father = 9000017
+	female = yes
+	1830.10.10 = {
+		birth = yes
+	}
+	1833.9.29 = {
+		effect = {
+			set_realm_capital = title:c_madrid
+			spawn_army = {
+				name = "Ejército Cristino del Centro"
+				men_at_arms = {
+					type = armored_footmen
+					stacks = 60	# reduced from 150
+				}
+			#	men_at_arms = {
+			#		type = bombard
+			#		stacks = 30
+			#	}
+				men_at_arms = {
+					type = house_guard
+					stacks = 30
+				}
+				men_at_arms = {
+					type = light_horsemen
+					stacks = 90
+				}
+				location = 1923
+				origin = 1923
+			}
+			spawn_army = {
+				name = "Ejército del Norte"
+				men_at_arms = {
+					type = armored_footmen
+					stacks = 120
+				}
+				men_at_arms = {
+					type = bombard
+					stacks = 300
+				}
+				location = 1862
+				origin = 1862
+				inheritable = no
+			}
+		}
+	}
+	1904.4.9 = {
+		death = yes
+	}
+}
+
+8000020 = {
+	name = "Carlo-Alberto"
+	dynasty_house = house_carignano
+	religion = catholic
+	culture = italian
+	father = 8100050
+	1798.10.2 = {
+		birth = yes
+	}
+	1849.10.14 = {
+		death = yes
+	}
+}
+
+8000021 = {
+	name = "Mulay Hisham"
+	dynasty = 163132
+	religion = ibadi
+	culture = maghrebi
+	father = 9100026
+	1766.1.1 = {
+		birth = yes
+	}
+	1792.1.1 = {
+		death = yes
+	}
+}
+
+8000022 = {
+	name = "Abd al-Rahman"
+	dynasty = 163132
+	religion = ibadi
+	culture = maghrebi
+	father = 8000021
+	1778.1.1 = {
+		birth = yes
+	}
+	1859.8.28 = {
+		death = yes
+	}
+}
+
+# Der Maerchenkoenig of Bavaria
+8000023 = {
+	name = "Ludwig"
+	dynasty = 217
+	religion = catholic
+	culture = bavarian
+	father = 8000018
+	1845.8.25 = {
+		birth = yes
+	}
+	1886.6.13 = {
+		death = yes
+	}
+}
+
+8000024 = {
+	name = "Wilhelm"	# of Nassau
+	dynasty = 263
+	religion = protestant
+	culture = franconian
+	1792.6.14 = {
+		birth = yes
+	}
+	1839.8.20 = {
+		death = yes
+	}
+}
+
+8000025 = {
+	name = "Wilhelm" 	# Elector of Hesse
+	religion = reformed
+	culture = franconian
+	father = 8000004
+	1777.7.28 = {
+		birth = yes
+	}
+	1847.11.20 = {
+		death = yes
+	}
+}
+
+8000026 = {
+	name = "Louis"		# Grand Duke of Hesse
+	religion = protestant
+	culture = french
+	father = 8000005
+	1777.12.26 = {
+		birth = yes
+	}
+	1848.6.16 = {
+		death = yes
+	}
+}
+
+8000027 = {
+	name = "Al-Husayn"
+	dynasty = 101035
+	religion = maturidi
+	culture = turkish
+	father = 8000003
+	1784.3.5 = {
+		birth = yes
+	}
+	1835.5.20 = {
+		death = yes
+	}
+}
+8000028 = {
+	name = "Mustafa"
+	dynasty = 101035
+	religion = maturidi
+	culture = turkish
+	father = 8000003
+	1787.8.1 = {
+		birth = yes
+	}
+	1835.5.20 = {
+		effect = {
+			add_realm_law_skip_effects = single_heir_dynasty_house
+		}
+	}
+	1837.10.10 = {
+		death = yes
+	}
+}
+8000029 = {
+	name = "Ahmad"
+	dynasty = 101035
+	religion = maturidi
+	culture = turkish
+	father = 8000028
+	1805.12.2 = {
+		birth = yes
+	}
+	1855.5.30 = {
+		death = yes
+	}
+}
+
+8000030 = {
+	name = "Mihail"
+	#dynasty = sturdza
+	stewardship = 12
+	religion = orthodox
+	culture = vlach
+	1794.4.24 = {
+		birth = yes
+	}
+	1834.4.1 = {
+		set_realm_capital = title:c_iasi
+		effect = {
+			vassal_contract_set_obligation_level = {
+				type = religious_rights
+				level = 1	#religious_rights_protected
+			}
+			vassal_contract_set_obligation_level = {
+				type = title_revocation_rights
+				level = 1	#title_revocation_rights_protected
+			}
+		}
+	}
+	1884.5.8 = {
+		death = yes
+	}
+}
+
+8000031 = {
+	name = "Leopoldo"	# Tuscany
+	dynasty = 51
+	religion = catholic
+	culture = italian
+	father = 9177209
+	1797.10.3 = {
+		birth = yes
+	}
+	1824.6.18 = {
+		effect = {
+			add_realm_law_skip_effects = crown_authority_1
+		}
+	}
+	1870.1.29 = {
+		death = yes
+	}
+}
+
+8000032 = {
+	name = "Francis"	# Two Sicilies
+	dynasty_house = house_tts
+	religion = catholic
+	culture = sicilian
+	father = 9000010
+	1777.8.19 = {
+		birth = yes
+	}
+	1825.1.4 = {
+		effect = {
+			add_realm_law_skip_effects = crown_authority_1
+			add_realm_law_skip_effects = male_only_law
+		}
+	}
+	1830.11.8 = {
+		death = yes
+	}
+}
+
+8000033 = {
+	name = "Ferdinannu"	# Two Sicilies
+	dynasty_house = house_tts
+	religion = catholic
+	culture = sicilian
+	father = 8000032
+	1810.1.12 = {
+		birth = yes
+	}
+	1830.11.8 = {
+		effect = {
+			add_realm_law_skip_effects = crown_authority_1
+			add_realm_law_skip_effects = male_only_law
+		}
+	}
+	1859.5.22 = {
+		death = yes
+	}
+}
+
+8000034 = {
+	name = "Leopold"	# Belgium
+	dynasty_house = house_saxe_coburg
+	religion = protestant
+	culture = franconian
+	father = 9000040
+	1790.12.16 = {
+		birth = yes
+	}
+	1832.8.9 = {
+		add_spouse = 8100059
+	}
+	1865.12.10 = {
+		death = yes
+	}
+}
+
+8000035 = {
+	name = "Albert"
+	dynasty_house = house_saxe_coburg
+	religion = protestant
+	culture = franconian
+	father = 9000041
+	1819.8.26 = {
+		birth = yes
+	}
+	1840.2.10 = {
+		add_spouse = 8000012
+	}
+	1861.12.14 = {
+		death = yes
+	}
+}
+
+8000036 = {
+	name = "Ernst"
+	dynasty_house = house_saxe_coburg
+	religion = protestant
+	culture = franconian
+	father = 9000041
+	1818.6.21 = {
+		birth = yes
+	}
+	1893.8.22 = {
+		death = yes
+	}
+}
+
+8000037 = {
+	name = "Leopold"	# Belgium
+	dynasty_house = house_saxe_coburg
+	religion = catholic
+	culture = franconian
+	father = 8000034
+	mother = 8100059
+	trait = sadistic
+	trait = zealous
+	1835.4.9 = {
+		birth = yes
+	}
+	1836.1.1 = {
+		effect = {
+			set_relation_guardian = character:8100059
+		}
+	}
+	1909.12.17 = {
+		death = yes
+	}
+}
+
+8000038 = {
+	name = "William Bentinck"
+	religion = protestant
+	culture = english
+	1774.9.14 = {
+		birth = yes
+	}
+	1828.7.4 = {
+		effect = {
+			vassal_contract_set_obligation_level = {
+				type = special_contract
+				level = 4	#trade_company
+			}
+			add_realm_law_skip_effects = city_succession_law
+
+			# Bengal Army
+			spawn_army = {
+				name = "Bengal Army"
+				levies = 6000
+				men_at_arms = {
+					type = armored_footmen
+					stacks = 5
+				}
+				men_at_arms = {
+					type = light_footmen
+					stacks = 75
+				}
+				men_at_arms = {
+					type = horse_archers
+					stacks = 18
+				}
+				men_at_arms = {
+					type = bombard
+					stacks = 38
+				}
+				men_at_arms = {
+					type = armored_horsemen
+					stacks = 4
+				}
+				men_at_arms = {
+					type = light_horsemen
+					stacks = 10
+				}
+				location = 1233
+				origin = 1233
+				inheritable = yes
+			}
+		}
+	}
+	1839.6.17 = {
+		death = yes
+	}
+}
+
+8000039 = {
+	name = "Mohammad"
+	dynasty = qajar
+	religion = imami
+	culture = persian
+	father = 9100041
+	1805.1.5 = {
+		birth = yes
+	}
+	1848.9.5 = {
+		death = yes
+	}
+}
+
+8000040 = {
+	name = "George"
+	dynasty = 2001107
+	religion = protestant
+	culture = english
+	father = 8000015
+	1819.5.27 = {
+		birth = yes
+	}
+	1834.1.1 = {
+		trait = blind
+	}
+	1878.6.12 = {
+		death = yes
+	}
+}
+
+8000041 = {
+	name = "Svati Tirunal Rama Varma"
+	dynasty = 1043010
+	religion = vaishnavism
+	culture = tamil
+	mother = 9000046
+	1813.4.16 = {
+		birth = yes
+	}
+	1815.1.1 = {
+		effect = {
+			vassal_contract_set_obligation_level = {
+				type = religious_rights
+				level = 1	#religious_rights_protected
+			}
+			vassal_contract_set_obligation_level = {
+				type = special_contract
+				level = 5	#princely_state
+			}
+			vassal_contract_set_obligation_level = {
+				type = title_revocation_rights
+				level = 1	#title_revocation_rights_protected
+			}
+		}
+	}
+	1846.12.27 = {
+		death = yes
+	}
+}
+
+8000042 = {
+	name = "Rajendra Bikram"
+	dynasty = 2003035
+	religion = shaivism
+	culture = nepali
+	father = 9000059
+	1813.12.3 = {
+		birth = yes
+	}
+	1881.7.10 = {
+		death = yes
+	}
+}
+
+8000043 = {
+	name = "Nasir-ud-Din Haidar"
+	religion = imami
+	culture = hindustani
+	father = 9100043
+	1803.9.9 = {
+		birth = yes
+	}
+	1827.10.19 = {
+		effect = {
+			vassal_contract_set_obligation_level = {
+				type = religious_rights
+				level = 1	#religious_rights_protected
+			}
+			vassal_contract_set_obligation_level = {
+				type = special_contract
+				level = 5	#princely_state
+			}
+			vassal_contract_set_obligation_level = {
+				type = title_revocation_rights
+				level = 1	#title_revocation_rights_protected
+			}
+		}
+	}
+	1837.7.7 = {
+		death = {
+			death_reason = death_poison
+		}
+	}
+}
+
+8000044 = {
+	name = "Bagyidaw"
+	dynasty = 175285
+	religion = theravada
+	culture = burmese
+	father = 9100044
+	1784.7.23 = {
+		birth = yes
+	}
+	1846.10.15 = {
+		death = yes
+	}
+}
+
+8000045 = {
+	name = "Jankoji Rao"
+	dynasty = scindia
+	culture = marathi
+	religion = vaishnavism
+	1805.1.1 = {
+		birth = yes
+	}
+	1827.3.21 = {
+		effect = {
+			vassal_contract_set_obligation_level = {
+				type = religious_rights
+				level = 1	#religious_rights_protected
+			}
+			vassal_contract_set_obligation_level = {
+				type = special_contract
+				level = 5	#princely_state
+			}
+			vassal_contract_set_obligation_level = {
+				type = title_revocation_rights
+				level = 1	#title_revocation_rights_protected
+			}
+		}
+	}
+	1843.2.7 = {
+		death = yes
+	}
+}
+
+8000046 = {
+	name = "Marthand Rao"
+	dynasty = 169420
+	culture = marathi
+	religion = vaishnavism
+	1830.1.1 = {
+		birth = yes
+	}
+	1849.6.2 = {
+		death = yes
+	}
+}
+
+8000047 = {
+	name = "Hari Rao"
+	dynasty = 169420
+	culture = marathi
+	religion = vaishnavism
+	1795.1.1 = {
+		birth = yes
+	}
+	1834.4.17 = {
+		effect = {
+			vassal_contract_set_obligation_level = {
+				type = religious_rights
+				level = 1	#religious_rights_protected
+			}
+			vassal_contract_set_obligation_level = {
+				type = special_contract
+				level = 5	#princely_state
+			}
+			vassal_contract_set_obligation_level = {
+				type = title_revocation_rights
+				level = 1	#title_revocation_rights_protected
+			}
+		}
+	}
+	1843.10.24 = {
+		death = yes
+	}
+}
+
+8000048 = {
+	name = "Raghoji"
+	dynasty = bhonsle
+	culture = marathi
+	religion = vaishnavism
+	1808.1.1 = {
+		birth = yes
+	}
+	1818.6.26 = {
+		effect = {
+			vassal_contract_set_obligation_level = {
+				type = religious_rights
+				level = 1	#religious_rights_protected
+			}
+			vassal_contract_set_obligation_level = {
+				type = special_contract
+				level = 5	#princely_state
+			}
+			vassal_contract_set_obligation_level = {
+				type = title_revocation_rights
+				level = 1	#title_revocation_rights_protected
+			}
+		}
+	}
+	1853.12.11 = {
+		death = yes
+	}
+}
+
+8000049 = {
+	name = "Yeshwant"
+	dynasty = 105845
+	culture = marathi
+	religion = vaishnavism
+	father = 9000053
+	1823.1.1 = {
+		birth = yes
+	}
+	1857.5.23 = {
+		death = yes
+	}
+}
+
+8000050 = {
+	name = "Sayaji Rao"
+	dynasty = 171947
+	culture = marathi
+	religion = vaishnavism
+	1800.5.3 = {
+		birth = yes
+	}
+	1819.10.2 = {
+		effect = {
+			vassal_contract_set_obligation_level = {
+				type = religious_rights
+				level = 1	#religious_rights_protected
+			}
+			vassal_contract_set_obligation_level = {
+				type = special_contract
+				level = 5	#princely_state
+			}
+			vassal_contract_set_obligation_level = {
+				type = title_revocation_rights
+				level = 1	#title_revocation_rights_protected
+			}
+		}
+	}
+	1847.12.28 = {
+		death = yes
+	}
+}
+
+8000051 = {
+	name = "Robert Wilmot-Horton"
+	religion = protestant
+	culture = english
+	1784.12.21 = {
+		birth = yes
+	}
+	1831.10.23 = {
+		effect = {
+			add_realm_law_skip_effects = city_succession_law
+		}
+	}
+	1841.5.31 = {
+		death = yes
+	}
+}
+
+8000052 = {
+	name = "Muhammad Imaaduddeen"
+	dynasty = huraa
+	religion = ashari
+	culture = sinhala
+	father = 9000060
+	1815.1.1 = {
+		birth = yes
+	}
+	1835.1.1 = {
+		effect = {
+			vassal_contract_set_obligation_level = {
+				type = religious_rights
+				level = 1	#religious_rights_protected
+			}
+			vassal_contract_set_obligation_level = {
+				type = title_revocation_rights
+				level = 1	#title_revocation_rights_protected
+			}
+		}
+	}
+	1882.1.1 = {
+		death = yes
+	}
+}
+
+8000053 = {
+	name = "Vittorio-Emanuele"
+	dynasty_house = house_carignano
+	religion = catholic
+	culture = italian
+	father = 8000020
+	1820.3.14 = {
+		birth = yes
+	}
+	1878.1.9 = {
+		death = yes
+	}
+}
+
+8000054 = {
+	name = "Ferdinando"
+	dynasty_house = house_carignano
+	religion = catholic
+	culture = italian
+	father = 8000020
+	1822.11.15 = {
+		birth = yes
+	}
+	1855.2.10 = {
+		death = yes
+	}
+}
+
+8000055 = {
+	name = "Turki"
+	dynasty = saudi
+	religion = ashari
+	culture = bedouin
+	father = 9100045
+	1755.1.1 = {
+		birth = yes
+	}
+	1834.1.1 = {
+		death = yes
+	}
+}
+
+8000056 = {
+	name = "Faisal"
+	dynasty = saudi
+	religion = ashari
+	culture = bedouin
+	father = 8000055
+	1785.1.1 = {
+		birth = yes
+	}
+	1865.1.1 = {
+		death = yes
+	}
+}
+
+8000057 = {
+	name = "Abdullah"
+	dynasty = 1022364
+	religion = ashari
+	culture = bedouin
+	1788.1.1 = {
+		birth = yes
+	}
+	1847.4.1 = {
+		death = yes
+	}
+}
+
+8000058 = {
+	name = "Alexandr"	# II of Russia
+	dynasty = 100397
+	religion = orthodox
+	culture = russian
+	father = 9179601
+	mother = 9200013
+	1818.4.29 = {
+		birth = yes
+	}
+	1855.3.2 = {
+		set_realm_capital = title:c_vodi
+		effect = {
+			add_realm_law_skip_effects = crown_authority_3
+			add_realm_law_skip_effects = male_only_law
+			add_prestige_experience = 100
+			add_gold = 5000
+			add_character_modifier = {
+				modifier = emperor_of_russia_modifier
+			}
+
+			# Imperial Guard
+			spawn_army = {
+				name = "Imperial Guard"
+				levies = 30000
+				men_at_arms = {
+					type = light_footmen
+					stacks = 18
+				}
+				men_at_arms = {
+					type = light_horsemen
+					stacks = 12
+				}
+				men_at_arms = {
+					type = druzhina
+					stacks = 20
+				}
+				location = 169
+				origin = 169
+				inheritable = yes
+			}
+		}
+	}
+	1881.3.13 = {
+		death = yes
+	}
+}
+
+8000059 = {
+	name = "Konstantin"	# Grand Duke of Russia
+	dynasty = 100397
+	religion = orthodox
+	culture = russian
+	father = 9179601
+	mother = 9200013
+	1827.9.21 = {
+		birth = yes
+	}
+	1892.1.25 = {
+		death = yes
+	}
+}
+
+8000060 = {
+	name = "Nikolay"	# Grand Duke of Russia
+	dynasty = 100397
+	religion = orthodox
+	culture = russian
+	father = 9179601
+	mother = 9200013
+	1831.8.8 = {
+		birth = yes
+	}
+	1891.4.25 = {
+		death = yes
+	}
+}
+
+8000061 = {
+	name = "Mikhail"	# Grand Duke of Russia
+	dynasty = 100397
+	religion = orthodox
+	culture = russian
+	father = 9179601
+	mother = 9200013
+	1832.10.25 = {
+		birth = yes
+	}
+	1909.12.18 = {
+		death = yes
+	}
+}
+
+8000062 = {
+	name = "Luitpold"	# of Bavaria
+	dynasty = 217
+	religion = catholic
+	culture = bavarian
+	father = 8000016
+	mother = 8000064
+	1821.3.12 = {
+		birth = yes
+	}
+	1912.12.12 = {
+		death = yes
+	}
+}
+
+8000063 = {
+	name = "Adalbert"	# of Bavaria
+	dynasty = 217
+	religion = catholic
+	culture = bavarian
+	father = 8000016
+	mother = 8000064
+	1828.7.19 = {
+		birth = yes
+	}
+	1875.9.21 = {
+		death = yes
+	}
+}
+
+8000064 = {
+	name = "Therese"
+	religion = protestant
+	culture = saxon
+	female = yes
+	1792.7.8 = {
+		birth = yes
+	}
+	1854.10.26 = {
+		death = yes
+	}
+}
+
+8000065 = {
+	name = "Franz-Josef"	# I of Austria
+	dynasty = 51
+	religion = catholic
+	culture = bavarian
+	father = 9177201
+	1830.8.18 = {
+		birth = yes
+	}
+	1916.11.21 = {
+		death = yes
+	}
+}
+
+8000066 = {
+	name = "Maximilian"	# I of Mexico
+	dynasty = 51
+	religion = catholic
+	culture = bavarian
+	father = 9177201
+	1832.7.6 = {
+		birth = yes
+	}
+	1867.6.19 = {
+		death = {
+			death_reason = death_execution
+		}
+	}
+}
+
+8000067 = {
+	name = "Karl-Ludwig"
+	dynasty = 51
+	religion = catholic
+	culture = bavarian
+	father = 9177201
+	1833.7.30 = {
+		birth = yes
+	}
+	1896.5.19 = {
+		death = yes
+	}
+}
+
+8000068 = {
+	name = "Abdulmejid"
+	dynasty = 7
+	religion = ashari
+	culture = turkish
+	father = 9000011
+	1823.4.25 = {
+		birth = yes
+	}
+	1861.6.25 = {
+		death = yes
+	}
+}
+
+8000069 = {
+	name = "Abdulaziz"
+	dynasty = 7
+	religion = ashari
+	culture = turkish
+	father = 9000011
+	1830.2.8 = {
+		birth = yes
+	}
+	1876.6.4 = {
+		death = yes
+	}
+}
+
+# Son of Jerome Bonaparte
+8000070 = {
+	name = "Napoleon"
+	dynasty = 180405
+	religion = catholic
+	culture = french
+	father = 9100009
+	1822.9.9 = {
+		birth = yes
+	}
+	1891.3.17 = {
+		death = yes
+	}
+}
+
+# Princes Murat
+8000071 = {
+	name = "Achille"
+	#dynasty = 180405
+	religion = catholic
+	culture = french
+	father = 9000009
+	mother = 9100061
+	1801.1.21 = {
+		birth = yes
+	}
+	1805.1.1 = {
+		dynasty_house = house_murat
+	}
+	1847.4.15 = {
+		death = yes
+	}
+}
+
+8000072 = {
+	name = "Lucien"
+	#dynasty = 180405
+	religion = catholic
+	culture = french
+	father = 9000009
+	mother = 9100061
+	1803.5.16 = {
+		birth = yes
+	}
+	1805.1.1 = {
+		dynasty_house = house_murat
+	}
+	1878.4.10 = {
+		death = yes
+	}
+}
+
+8000073 = {
+	name = "Joachim"
+	dynasty_house = house_murat
+	religion = catholic
+	culture = french
+	father = 8000072
+	1834.6.21 = {
+		birth = yes
+	}
+	1901.10.23 = {
+		death = yes
+	}
+}
+
+8000074 = {
+	name = "Milan"
+	dynasty = 181542
+	religion = orthodox
+	culture = serbian
+	father = 9000028
+	1819.10.21 = {
+		birth = yes
+	}
+	1839.7.8 = {
+		death = yes
+	}
+}
+
+8000075 = {
+	name = "Mihailo"
+	dynasty = 181542
+	religion = orthodox
+	culture = serbian
+	father = 9000028
+	1823.9.16 = {
+		birth = yes
+	}
+	1868.6.10 = {
+		death = yes
+	}
+}
+
+###FRENCH REGNAL NAMES###
+8100000 = {
+	name = "Louis"	# XV of France
+	dynasty = 100146
+	religion = catholic
+	culture = french
+	father = 8100021
+	1710.2.15 = {
+		birth = "1710.2.15"
+	}
+	1774.5.10 = {
+		death = {
+			death_reason = death_smallpox
+		}
+	}
+}
+8100001 = {
+	name = "Louis"	# Dauphin of France
+	dynasty = 100146
+	religion = catholic
+	culture = french
+	father = 8100000
+	1729.9.4 = {
+		birth = "1729.9.4"
+	}
+	1741.1.10 = {
+		add_spouse = 8100022
+	}
+	1765.12.20 = {
+		death = {
+			death_reason = death_consumption
+		}
+	}
+}
+8100002 = {
+	name = "Louis"	# XVI of France
+	dynasty = 100146
+	religion = catholic
+	culture = french
+	father = 8100001
+	mother = 8100022
+	1754.8.23 = {
+		birth = "1754.8.23"
+	}
+	1793.1.21 = {
+		death = {
+			death_reason = death_execution
+		}
+	}
+}
+8100003 = {
+	name = "Louis"	# XVII of France
+	dynasty = 100146
+	religion = catholic
+	culture = french
+	father = 8100002
+	1785.3.27 = {
+		birth = "1785.3.27"
+	}
+	1795.6.8 = {
+		death = {
+			death_reason = death_consumption
+		}
+	}
+}
+8100004 = {
+	name = "Charles"	# X of France
+	dynasty = 100146
+	religion = catholic
+	culture = french
+	father = 8100001
+	mother = 8100022
+	1757.10.9 = {
+		birth = "1757.10.9"
+	}
+	1836.11.6 = {
+		death = {
+			death_reason = death_ill
+		}
+	}
+}
+
+#8100005 = {
+#	name = "Jean"
+#	dynasty = 101
+#	religion = catholic
+#	culture = french
+#	father = 455500
+#	1319.4.26 = {
+#		birth = "1319.4.26"
+#	}
+#	1364.4.8 = {
+#		death = "1364.4.8"
+#	}
+#}
+8100006 = {
+	name = "Charles"
+	dynasty = 101
+	religion = catholic
+	culture = french
+	father = 455502
+	1338.1.21 = {
+		birth = "1338.1.21"
+	}
+	1380.9.16 = {
+		death = "1380.9.16"
+	}
+}
+8100007 = {
+	name = "Charles"
+	dynasty = 101
+	religion = catholic
+	culture = french
+	father = 8100006
+	1368.12.3 = {
+		birth = "1368.12.3"
+	}
+	1422.10.21 = {
+		death = "1422.10.21"
+	}
+}
+8100008 = {
+	name = "Charles"
+	dynasty = 101
+	religion = catholic
+	culture = french
+	father = 8100007
+	1403.2.22 = {
+		birth = "1403.2.22"
+	}
+	1461.7.22 = {
+		death = "1461.7.22"
+	}
+}
+8100009 = {
+	name = "Louis"
+	dynasty = 101
+	religion = catholic
+	culture = french
+	father = 8100008
+	1423.7.3 = {
+		birth = "1423.7.3"
+	}
+	1483.8.30 = {
+		death = "1483.8.30"
+	}
+}
+8100010 = {
+	name = "Charles"
+	dynasty = 101
+	religion = catholic
+	culture = french
+	father = 8100009
+	1470.6.30 = {
+		birth = "1470.6.30"
+	}
+	1498.4.7 = {
+		death = "1498.4.7"
+	}
+}
+8100011 = {
+	name = "Louis"
+	dynasty = 101
+	religion = catholic
+	culture = french
+	1462.6.27 = {
+		birth = "1462.6.27"
+	}
+	1515.1.1 = {
+		death = "1515.1.1"
+	}
+}
+8100012 = {
+	name = "FranC_ois"
+	dynasty = 101
+	religion = catholic
+	culture = french
+	1494.9.12 = {
+		birth = "1494.9.12"
+	}
+	1547.3.31 = {
+		death = "1547.3.31"
+	}
+}
+8100013 = {
+	name = "Henri"
+	dynasty = 101
+	religion = catholic
+	culture = french
+	father = 8100012
+	1519.3.31 = {
+		birth = "1519.3.31"
+	}
+	1559.7.10 = {
+		death = "1559.7.10"
+	}
+}
+8100014 = {
+	name = "FranC_ois"
+	dynasty = 101
+	religion = catholic
+	culture = french
+	father = 8100013
+	1544.1.19 = {
+		birth = "1544.1.19"
+	}
+	1560.12.5 = {
+		death = "1560.12.5"
+	}
+}
+8100015 = {
+	name = "Charles"
+	dynasty = 101
+	religion = catholic
+	culture = french
+	father = 8100013
+	1550.6.27 = {
+		birth = "1550.6.27"
+	}
+	1574.5.30 = {
+		death = "1574.5.30"
+	}
+}
+8100016 = {
+	name = "Henri"
+	dynasty = 101
+	religion = catholic
+	culture = french
+	father = 8100013
+	1551.9.19 = {
+		birth = "1551.9.19"
+	}
+	1589.8.2 = {
+		death = "1589.8.2"
+	}
+}
+8100017 = {
+	name = "Henri"
+	dynasty = 100146
+	religion = catholic
+	culture = french
+	father = 7000005
+	1553.12.13 = {
+		birth = "1553.12.13"
+	}
+	1610.5.14 = {
+		death = "1610.5.14"
+	}
+}
+8100018 = {
+	name = "Louis"
+	dynasty = 100146
+	religion = catholic
+	culture = french
+	father = 8100017
+	1601.9.27 = {
+		birth = "1601.9.27"
+	}
+	1643.5.14 = {
+		death = "1643.5.14"
+	}
+}
+8100019 = {
+	name = "Louis"
+	dynasty = 100146
+	religion = catholic
+	culture = french
+	father = 8100018
+	1638.9.5 = {
+		birth = "1638.9.5"
+	}
+	1670.1.1 = {
+		give_nickname = nick_the_great
+	}
+	1715.9.1 = {
+		death = {
+			death_reason = death_wounded_3
+		}
+	}
+}
+8100020 = {
+	name = "Louis"
+	dynasty = 100146
+	religion = catholic
+	culture = french
+	father = 8100019
+	1661.11.1 = {
+		birth = "1661.11.1"
+	}
+	1711.4.14 = {
+		death = "1711.4.14"
+	}
+}
+8100021 = {
+	name = "Louis"
+	dynasty = 100146
+	religion = catholic
+	culture = french
+	father = 8100020
+	1682.8.16 = {
+		birth = "1682.8.16"
+	}
+	1712.2.18 = {
+		death = "1712.2.18"
+	}
+}
+8100022 = {
+	name = "Maria Josepha"
+	dynasty = 528
+	religion = catholic
+	culture = saxon
+	female = yes
+	1731.11.4 = {
+		birth = "1731.11.4"
+	}
+	1767.3.13 = {
+		death = "1767.3.13"
+	}
+}
+#########################
+
+###BRITISH REGNAL NAMES###
+8100023 = {
+	name = "George"	# I of Britain
+	dynasty = 2001107
+	religion = protestant
+	culture = english
+	1660.6.7 = {
+		birth = "1660.6.7"
+	}
+	1727.6.22 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+8100024 = {
+	name = "George" # II of Britain
+	dynasty = 2001107
+	religion = protestant
+	culture = english
+	father = 8100023
+	1683.11.9 = {
+		birth = "1683.11.9"
+	}
+	1760.10.25 = {
+		death = {
+			death_reason = death_accident
+		}
+	}
+}
+8100025 = {
+	name = "Frederick"
+	dynasty = 2001107
+	religion = protestant
+	culture = english
+	father = 8100024
+	1707.2.1 = {
+		birth = "1707.2.1"
+	}
+	1751.3.31 = {
+		death = {
+			death_reason = death_spindly
+		}
+	}
+}
+##########################
+
+###THE ORLEANS###
+8100026 = {
+	name = "Philippe"
+	dynasty = 100146
+	religion = catholic
+	culture = french
+	father = 8100018
+	1640.9.21 = {
+		birth = "1640.9.21"
+	}
+	1661.5.10 = {
+		dynasty_house = house_orleans_4
+	}
+	1701.6.9 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+8100027 = {
+	name = "Philippe"
+	dynasty_house = house_orleans_4
+	religion = catholic
+	culture = french
+	father = 8100026
+	1674.8.2 = {
+		birth = "1674.8.2"
+	}
+	1723.12.2 = {
+		death = yes
+	}
+}
+8100028 = {
+	name = "Louis"
+	dynasty_house = house_orleans_4
+	religion = catholic
+	culture = french
+	father = 8100027
+	1703.8.4 = {
+		birth = "1703.8.4"
+	}
+	1752.2.4 = {
+		death = yes
+	}
+}
+8100029 = {
+	name = "Louis-Philippe"
+	dynasty_house = house_orleans_4
+	religion = catholic
+	culture = french
+	father = 8100028
+	1725.5.12 = {
+		birth = "1725.5.12"
+	}
+	1785.11.18 = {
+		death = yes
+	}
+}
+8100030 = {
+	name = "Louis-Philippe"
+	dynasty_house = house_orleans_4
+	religion = catholic
+	culture = french
+	father = 8100029
+	1747.4.13 = {
+		birth = "1747.4.13"
+	}
+	1793.11.6 = {
+		death = {
+			death_reason = death_execution
+		}
+	}
+}
+8100031 = {
+	name = "Louis-Philippe"
+	dynasty_house = house_orleans_4
+	religion = catholic
+	culture = french
+	father = 8100030
+	1773.10.6 = {
+		birth = "1773.10.6"
+	}
+	1809.11.25 = {
+		add_spouse = 9177216
+	}
+	1830.8.2 = {
+		effect = {
+			add_realm_law_skip_effects = male_only_law
+		}
+	}
+	1850.8.26 = {
+		death = {
+			death_reason = death_old_age
+		}
+	}
+}
+#################
+
+8100032 = {
+	name = "Gregorios"
+	religion = orthodox
+	culture = greek
+	1746.1.1 = {
+		birth = yes
+	}
+	1821.4.22 = {
+		death = {
+			death_reason = death_execution
+		}
+	}
+}
+
+8100033 = {
+	name = "Gregorios"
+	religion = orthodox
+	culture = greek
+	1798.3.1 = {
+		birth = yes
+	}
+	1881.6.8 = {
+		death = yes
+	}
+}
+
+8100034 = {
+	name = "Neophytus"
+	religion = orthodox
+	culture = greek
+	1748.1.1 = {
+		birth = yes
+	}
+	# he actually resigned, but history view looks nicer if he died here
+	1801.6.29 = {	
+		death = yes
+	}
+}
+
+8100035 = {
+	name = "Callinicus"
+	religion = orthodox
+	culture = greek
+	1748.1.1 = {
+		birth = yes
+	}
+	1809.4.23 = {
+		death = yes
+	}
+}
+
+### SAVOYARD ###
+8100036 = {
+	name = "Carlo-Emanuele"
+	dynasty = 240
+	religion = catholic
+	culture = italian
+	father = 7000014
+	1562.1.12 = {
+		birth = yes
+	}
+	1630.6.26 = {
+		death = yes
+	}
+}
+
+8100037 = {
+	name = "Vittorio-Amedeo"
+	dynasty = 240
+	religion = catholic
+	culture = italian
+	father = 8100036
+	1587.5.8 = {
+		birth = yes
+	}
+	1637.10.7 = {
+		death = yes
+	}
+}
+
+8100038 = {
+	name = "Francesco Giacinto"
+	dynasty = 240
+	religion = catholic
+	culture = italian
+	father = 8100037
+	1632.9.14 = {
+		birth = yes
+	}
+	1638.10.4 = {
+		death = yes
+	}
+}
+
+8100039 = {
+	name = "Carlo-Emanuele"
+	dynasty = 240
+	religion = catholic
+	culture = italian
+	father = 8100037
+	1634.6.20 = {
+		birth = yes
+	}
+	1675.6.12 = {
+		death = yes
+	}
+}
+
+8100040 = {
+	name = "Tommaso Francesco"
+	dynasty = 240
+	religion = catholic
+	culture = italian
+	father = 8100036
+	1596.12.21 = {
+		birth = yes
+	}
+	1620.1.1 = {
+		dynasty_house = house_carignano
+	}
+	1656.1.22 = {
+		death = yes
+	}
+}
+
+8100041 = {
+	name = "Vittorio-Amedeo"
+	dynasty = 240
+	religion = catholic
+	culture = italian
+	father = 8100039
+	1666.5.14 = {
+		birth = yes
+	}
+	1732.10.31 = {
+		death = yes
+	}
+}
+
+8100042 = {
+	name = "Carlo-Emanuele"
+	dynasty = 240
+	religion = catholic
+	culture = italian
+	father = 8100041
+	1701.4.27 = {
+		birth = yes
+	}
+	1773.2.20 = {
+		death = yes
+	}
+}
+
+8100043 = {
+	name = "Vittorio-Amedeo"
+	dynasty = 240
+	religion = catholic
+	culture = italian
+	father = 8100042
+	1726.6.26 = {
+		birth = yes
+	}
+	1796.10.16 = {
+		death = yes
+	}
+}
+
+8100044 = {
+	name = "Carlo-Emanuele"
+	dynasty = 240
+	religion = catholic
+	culture = italian
+	father = 8100043
+	1751.5.24 = {
+		birth = yes
+	}
+	1819.10.6 = {
+		death = yes
+	}
+}
+
+8100045 = {
+	name = "Carlo-Felice"
+	dynasty = 240
+	religion = catholic
+	culture = italian
+	father = 8100043
+	1765.4.6 = {
+		birth = yes
+	}
+	1831.4.27 = {
+		death = yes
+	}
+}
+
+8100046 = {
+	name = "Emanuele Philibert"
+	dynasty_house = house_carignano
+	religion = catholic
+	culture = italian
+	father = 8100040
+	1628.8.20 = {
+		birth = yes
+	}
+	1709.4.21 = {
+		death = yes
+	}
+}
+
+8100047 = {
+	name = "Vittorio Amedeo"
+	dynasty_house = house_carignano
+	religion = catholic
+	culture = italian
+	father = 8100046
+	1690.3.1 = {
+		birth = yes
+	}
+	1741.4.4 = {
+		death = yes
+	}
+}
+
+8100048 = {
+	name = "Louis Vittorio"
+	dynasty_house = house_carignano
+	religion = catholic
+	culture = italian
+	father = 8100047
+	1721.9.25 = {
+		birth = yes
+	}
+	1778.12.16 = {
+		death = yes
+	}
+}
+
+8100049 = {
+	name = "Vittorio Amedeo"
+	dynasty_house = house_carignano
+	religion = catholic
+	culture = italian
+	father = 8100048
+	1743.10.31 = {
+		birth = yes
+	}
+	1780.9.10 = {
+		death = yes
+	}
+}
+
+8100050 = {
+	name = "Carlo Emanuele"
+	dynasty_house = house_carignano
+	religion = catholic
+	culture = italian
+	father = 8100049
+	1770.10.24 = {
+		birth = yes
+	}
+	1800.8.16 = {
+		death = {
+			death_reason = death_dungeon_passive
+		}
+	}
+}
+################
+
+###SPANISH BOURBONS###
+8100051 = {
+	name = "Philippe"
+	dynasty = 100146
+	religion = catholic
+	culture = french
+	father = 8100020
+	1683.12.19 = {
+		birth = yes
+	}
+	1746.7.9 = {
+		death = yes
+	}
+}
+8100052 = {
+	name = "Luis"
+	dynasty = 100146
+	religion = catholic
+	culture = castilian
+	father = 8100051
+	1707.8.25 = {
+		birth = yes
+	}
+	1724.8.31 = {
+		death = yes
+	}
+}
+8100053 = {
+	name = "Fernando"
+	dynasty = 100146
+	religion = catholic
+	culture = castilian
+	father = 8100051
+	1713.9.23 = {
+		birth = yes
+	}
+	1759.8.10 = {
+		death = yes
+	}
+}
+8100054 = {
+	name = "Carlos"
+	dynasty = 100146
+	religion = catholic
+	culture = castilian
+	father = 8100051
+	1716.1.20 = {
+		birth = yes
+	}
+	1788.12.14 = {
+		death = yes
+	}
+}
+######################
+
+8100055 = {
+	name = "Louis Antoine"	# XIX of France
+	dynasty = 100146
+	religion = catholic
+	culture = french
+	father = 8100004
+	1775.8.6 = {
+		birth = yes
+	}
+	1799.6.10 = {
+		add_spouse = 8100061
+	}
+	1844.6.3 = {
+		death = yes
+	}
+}
+8100056 = {
+	name = "Charles Ferdinand"
+	dynasty = 100146
+	religion = catholic
+	culture = french
+	father = 8100004
+	1778.1.24 = {
+		birth = yes
+	}
+	1820.2.14 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+8100057 = {
+	name = "Henri"
+	dynasty = 100146
+	religion = catholic
+	culture = french
+	father = 8100056
+	1820.9.29 = {
+		birth = yes
+	}
+	1883.8.24 = {
+		death = yes
+	}
+}
+
+8100058 = {
+	name = "Ferdinand"
+	dynasty_house = house_orleans_4
+	religion = catholic
+	culture = french
+	father = 8100031
+	mother = 9177216
+	1810.9.3 = {
+		birth = yes
+	}
+	1842.7.13 = {
+		death = yes
+	}
+}
+8100059 = {
+	name = "Louise"	# Queen of Belgium
+	dynasty_house = house_orleans_4
+	religion = catholic
+	culture = french
+	father = 8100031
+	mother = 9177216
+	female = yes
+	trait = zealous
+	1812.4.3 = {
+		birth = yes
+	}
+	1850.10.11 = {
+		death = yes
+	}
+}
+8100060 = {
+	name = "Louis"
+	dynasty_house = house_orleans_4
+	religion = catholic
+	culture = french
+	father = 8100031
+	mother = 9177216
+	1814.10.25 = {
+		birth = yes
+	}
+	1896.6.26 = {
+		death = yes
+	}
+}
+
+8100061 = {
+	name = "Marie-Thérèse"
+	dynasty = 100146
+	religion = catholic
+	culture = french
+	father = 8100002
+	female = yes
+	1778.12.19 = {
+		birth = yes
+	}
+	1851.10.19 = {
+		death = yes
+	}
+}

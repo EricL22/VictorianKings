@@ -1,0 +1,1986 @@
+﻿# TODO: add new loc keys for names which have the same Japanese pronunciation
+# but different Chinese translation
+
+### Emperors
+6300000 = {
+	name = "Morohito"
+	dynasty = 660268
+	religion = shinto
+	culture = japanese
+	1771.9.23 = {
+		birth = yes
+	}
+	1780.1.1 = {
+		effect = {
+			add_character_flag = post_name_kokaku
+			dynasty = { add_dynasty_prestige = 5000 }
+		}
+	}
+	1817.5.7 = {
+		effect = {
+			add_character_flag = daijo_tenno
+		}
+	}
+	1840.12.11 = {
+		name = "Kokaku"
+		death = yes
+	}
+}
+
+6300001 = {
+	name = "Ayahito"
+	dynasty = 660268
+	religion = shinto
+	culture = japanese
+	father = 6300000
+	1800.3.16 = {
+		birth = yes
+	}
+	1812.6.1 = {
+		effect = {
+			add_character_flag = post_name_ninko
+		}
+	}
+	1846.2.21 = {
+		name = "Ninko"
+		death = yes
+	}
+}
+
+6300002 = {
+	name = "Osahito"
+	dynasty = 660268
+	religion = shinto
+	culture = japanese
+	father = 6300001
+	1831.7.22 = {
+		birth = yes
+	}
+	1836.1.1 = {
+		effect = {
+			add_character_flag = post_name_komei
+		}
+	}
+	1867.1.30 = {
+		name = "Komei"
+		death = yes
+	}
+}
+
+### Shoguns
+6310000 = {
+	name = "Ienari"
+	dynasty = 156768
+	religion = shinto
+	culture = japanese
+	1773.11.18 = {
+		birth = yes
+	}
+	1841.3.22 = {
+		death = yes
+	}
+}
+6310001 = {
+	name = "Ieyoshi"
+	dynasty = 156768
+	religion = shinto
+	culture = japanese
+	father = 6310000
+	1793.6.22 = {
+		birth = yes
+	}
+	1853.7.27 = {
+		death = yes
+	}
+}
+6310002 = {
+	name = "Iesada"
+	dynasty = 156768
+	religion = shinto
+	culture = japanese
+	father = 6310001
+	1824.5.6 = {
+		birth = yes
+	}
+	1858.8.14 = {
+		death = yes
+	}
+}
+
+### Daimyo
+# Miyazu Domain
+6320000 = {
+	name = "Muneakira"
+	dynasty = 141873
+	religion = shinto
+	culture = japanese
+	1782.8.10 = {
+		birth = yes
+	}
+	1840.9.20 = {
+		death = yes
+	}
+}
+6320001 = {
+	name = "Munehide"
+	dynasty = 141873
+	religion = shinto
+	culture = japanese
+	father = 6320000	# adopted
+	1809.10.21 = {
+		birth = yes
+	}
+	1873.12.20 = {
+		death = yes
+	}
+}
+
+# Sasayama Domain
+6320002 = {
+	name = "Tadahiro"
+	dynasty = 174871
+	religion = shinto
+	culture = japanese
+	1768.6.22 = {
+		birth = yes
+	}
+	1836.5.12 = {
+		death = yes
+	}
+}
+6320003 = {
+	name = "Tadanaga"
+	dynasty = 174871
+	religion = shinto
+	culture = japanese
+	father = 6320002
+	1806.5.27 = {
+		birth = yes
+	}
+	1864.12.13 = {
+		death = yes
+	}
+}
+
+# Obama Domain
+6320004 = {
+	name = "Tadayoshi"
+	dynasty = 141647
+	religion = shinto
+	culture = japanese
+	1721.8.6 = {
+		birth = yes
+	}
+	1762.8.7 = {
+		death = yes
+	}
+}
+6320005 = {
+	name = "Tadatsura"
+	dynasty = 141647
+	religion = shinto
+	culture = japanese
+	father = 6320004
+	1752.12.26 = {
+		birth = yes
+	}
+	1806.3.1 = {
+		death = yes
+	}
+}
+6320006 = {
+	name = "Tadayuki"
+	dynasty = 141647
+	religion = shinto
+	culture = japanese
+	father = 6320004	# adopted? because his heir is his nephew...
+	1770.4.4 = {
+		birth = yes
+	}
+	1828.3.12 = {
+		death = yes
+	}
+}
+6320007 = {
+	name = "Tadayori"
+	dynasty = 141647
+	religion = shinto
+	culture = japanese
+	father = 6320005
+	1791.4.16 = {
+		birth = yes
+	}
+	1853.2.24 = {
+		death = yes
+	}
+}
+6320008 = {
+	name = "Tadaaki"
+	dynasty = 141647
+	religion = shinto
+	culture = japanese
+	father = 6320006
+	1813.8.4 = {
+		birth = yes
+	}
+	1873.12.5 = {
+		death = yes
+	}
+}
+
+# Hikone Domain
+6320009 = {
+	name = "Naonaka"
+	dynasty = 161969
+	religion = shinto
+	culture = japanese
+	1766.7.17 = {
+		birth = yes
+	}
+	1831.7.4 = {
+		death = yes
+	}
+}
+6320010 = {
+	name = "Naoaki"
+	dynasty = 161969
+	religion = shinto
+	culture = japanese
+	father = 6320009
+	1794.7.7 = {
+		birth = yes
+	}
+	1850.11.4 = {
+		death = yes
+	}
+}
+6320011 = {
+	name = "Naosuke"
+	dynasty = 161969
+	religion = shinto
+	culture = japanese
+	father = 6320009
+	1815.11.29 = {
+		birth = yes
+	}
+	1860.3.24 = {
+		death = yes
+	}
+}
+
+# Koriyama Domain
+6320012 = {
+	name = "Yasuhiro"
+	dynasty = 151200
+	religion = shinto
+	culture = japanese
+	1783.1.25 = {
+		birth = yes
+	}
+	1838.7.16 = {
+		death = yes
+	}
+}
+6320013 = {
+	name = "Yasuoki"
+	dynasty = 151200
+	religion = shinto
+	culture = japanese
+	father = 6320012
+	1815.7.23 = {
+		birth = yes
+	}
+	1848.9.18 = {
+		death = yes
+	}
+}
+
+# Takatsuki Domain
+6320014 = {
+	name = "Naonobu"
+	dynasty = 168018
+	religion = shinto
+	culture = japanese
+	1761.1.1 = {
+		birth = yes
+	}
+	1835.3.12 = {
+		death = yes
+	}
+}
+6320015 = {
+	name = "Naotomo"
+	dynasty = 168018
+	religion = shinto
+	culture = japanese
+	father = 6320014
+	1785.6.4 = {
+		birth = yes
+	}
+	1846.8.28 = {
+		death = yes
+	}
+}
+6320016 = {
+	name = "Naoteru"
+	dynasty = 168018
+	religion = shinto
+	culture = japanese
+	father = 6320015
+	1827.7.22 = {
+		birth = yes
+	}
+	1874.6.1 = {
+		death = yes
+	}
+}
+
+# Kishiwada Domain
+6320017 = {
+	name = "Nagachika"
+	dynasty = 156125
+	religion = shinto
+	culture = japanese
+	1787.4.17 = {
+		birth = yes
+	}
+	1859.1.28 = {
+		death = yes
+	}
+}
+6320018 = {
+	name = "Nagayori"
+	dynasty = 156125
+	religion = shinto
+	culture = japanese
+	father = 6320017
+	1807.8.6 = {
+		birth = yes
+	}
+	1850.10.29 = {
+		death = yes
+	}
+}
+6320019 = {
+	name = "Nagayuki"
+	dynasty = 156125
+	religion = shinto
+	culture = japanese
+	father = 6320017
+	1834.10.23 = {
+		birth = yes
+	}
+	1855.3.21 = {
+		death = yes
+	}
+}
+6320020 = {
+	name = "Nagahiro"
+	dynasty = 156125
+	religion = shinto
+	culture = japanese
+	father = 6320017
+	1809.4.27 = {
+		birth = yes
+	}
+	1887.2.3 = {
+		death = yes
+	}
+}
+
+# Kishu Domain
+6320021 = {
+	name = "Harutomi"
+	dynasty_house = house_tokugawa_kishu
+	religion = shinto
+	culture = japanese
+	1771.7.29 = {
+		birth = yes
+	}
+	1853.1.16 = {
+		death = yes
+	}
+}
+6320022 = {
+	name = "Nariyuki"
+	dynasty = 156768
+	religion = shinto
+	culture = japanese
+	father = 6310000
+	1801.10.16 = {
+		birth = yes
+	}
+	1846.6.1 = {
+		death = yes
+	}
+}
+6320023 = {
+	name = "Narikatsu"
+	dynasty = 156768
+	religion = shinto
+	culture = japanese
+	father = 6310000
+	1820.6.8 = {
+		birth = yes
+	}
+	1849.3.24 = {
+		death = yes
+	}
+}
+
+# Tokushima Domain
+6320024 = {
+	name = "Haruaki"
+	dynasty = 850880
+	religion = shinto
+	culture = japanese
+	1758.1.3 = {
+		birth = yes
+	}
+	1814.5.13 = {
+		death = yes
+	}
+}
+6320025 = {
+	name = "Narimasa"
+	dynasty = 850880
+	religion = shinto
+	culture = japanese
+	father = 6320024
+	1795.8.24 = {
+		birth = yes
+	}
+	1859.10.8 = {
+		death = yes
+	}
+}
+
+# Takamatsu Domain
+6320026 = {
+	name = "Yorinori"
+	dynasty = 141873
+	religion = shinto
+	culture = japanese
+	1775.12.4 = {
+		birth = yes
+	}
+	1829.9.22 = {
+		death = yes
+	}
+}
+6320027 = {
+	name = "Yorihiro"
+	dynasty = 141873
+	religion = shinto
+	culture = japanese
+	father = 6320026	# adopted
+	1798.8.4 = {
+		birth = yes
+	}
+	1842.5.25 = {
+		death = yes
+	}
+}
+6320028 = {
+	name = "Yoritane"
+	dynasty = 141873
+	religion = shinto
+	culture = japanese
+	father = 6320026
+	1811.1.16 = {
+		birth = yes
+	}
+	1877.12.30 = {
+		death = yes
+	}
+}
+6320029 = {
+	name = "Yoritoshi"
+	dynasty = 141873
+	religion = shinto
+	culture = japanese
+	father = 6320027
+	1834.9.6 = {
+		birth = yes
+	}
+	1903.10.17 = {
+		death = yes
+	}
+}
+
+# Tosa Domain
+6320030 = {
+	name = "Toyosuke"
+	dynasty = 160068
+	religion = shinto
+	culture = japanese
+	1794.11.9 = {
+		birth = yes
+	}
+	1872.2.12 = {
+		death = yes
+	}
+}
+6320031 = {
+	name = "Toyoteru"
+	dynasty = 160068
+	religion = shinto
+	culture = japanese
+	father = 6320030
+	1815.4.8 = {
+		birth = yes
+	}
+	1848.8.8 = {
+		death = yes
+	}
+}
+6320032 = {
+	name = "Toyoatsu"
+	dynasty = 160068
+	religion = shinto
+	culture = japanese
+	father = 6320030
+	1824.7.2 = {
+		birth = yes
+	}
+	1848.10.14 = {
+		death = yes
+	}
+}
+
+# Iyo-Matsuyama Domain
+6320033 = {
+	name = "Sadamichi"
+	dynasty = 141873
+	religion = shinto
+	culture = japanese
+	1805.1.9 = {
+		birth = yes
+	}
+	1835.6.24 = {
+		death = yes
+	}
+}
+6320034 = {
+	name = "Katsuyoshi"
+	dynasty = 141873
+	religion = shinto
+	culture = japanese
+	father = 6320033	# adopted
+	1817.8.11 = {
+		birth = yes
+	}
+	1856.9.9 = {
+		death = yes
+	}
+}
+6320035 = {
+	name = "Katsushige"
+	dynasty = 141873
+	religion = shinto
+	culture = japanese
+	father = 6320027
+	1832.7.21 = {
+		birth = yes
+	}
+	1912.2.8 = {
+		death = yes
+	}
+}
+
+# Izushi Domain
+6320036 = {
+	name = "Hisamichi"
+	dynasty = 158350
+	religion = shinto
+	culture = japanese
+	1774.6.20 = {
+		birth = yes
+	}
+	1834.10.6 = {
+		death = yes
+	}
+}
+6320037 = {
+	name = "Masamisu"
+	dynasty = 158350
+	religion = shinto
+	culture = japanese
+	father = 6320036
+	1797.11.17 = {
+		birth = yes
+	}
+	1824.5.30 = {
+		death = yes
+	}
+}
+6320038 = {
+	name = "Hisatoshi"
+	dynasty = 158350
+	religion = shinto
+	culture = japanese
+	father = 6320036
+	1820.4.5 = {
+		birth = yes
+	}
+	1897.6.6 = {
+		death = yes
+	}
+}
+
+# Tottori Domain
+6320039 = {
+	name = "Naritoshi"
+	dynasty = 112128
+	religion = shinto
+	culture = japanese
+	1788.8.11 = {
+		birth = yes
+	}
+	1830.6.22 = {
+		death = yes
+	}
+}
+6320040 = {
+	name = "Narimichi"
+	dynasty = 112128
+	religion = shinto
+	culture = japanese
+	father = 6320039
+	1820.9.2 = {
+		birth = yes
+	}
+	1841.7.4 = {
+		death = yes
+	}
+}
+
+# Matsue Domain
+6320041 = {
+	name = "Naritsune"
+	dynasty = 141873
+	religion = shinto
+	culture = japanese
+	1791.10.3 = {
+		birth = yes
+	}
+	1822.5.12 = {
+		death = yes
+	}
+}
+6320042 = {
+	name = "Naritoki"
+	dynasty = 141873
+	religion = shinto
+	culture = japanese
+	father = 6320041
+	1815.4.27 = {
+		birth = yes
+	}
+	1863.5.1 = {
+		death = yes
+	}
+}
+
+# Hamada Domain
+6320043 = {
+	name = "Yasuto"
+	dynasty = 141873
+	religion = shinto
+	culture = japanese
+	1780.6.20 = {
+		birth = yes
+	}
+	1841.9.7 = {
+		death = yes
+	}
+}
+6320044 = {
+	name = "Yasutaka"
+	dynasty = 141873
+	religion = shinto
+	culture = japanese
+	father = 6320043
+	1810.7.7 = {
+		birth = yes
+	}
+	1868.6.27 = {
+		death = yes
+	}
+}
+
+# Himeji Domain
+6320045 = {
+	name = "Tadazane"
+	dynasty = 141647
+	religion = shinto
+	culture = japanese
+	1756.1.24 = {
+		birth = yes
+	}
+	1790.8.27 = {
+		death = yes
+	}
+}
+6320046 = {
+	name = "Tadamichi"
+	dynasty = 141647
+	religion = shinto
+	culture = japanese
+	father = 6320045
+	1777.10.10 = {
+		birth = yes
+	}
+	1837.8.23 = {
+		death = yes
+	}
+}
+6320047 = {
+	name = "Tadamitsu"
+	dynasty = 141647
+	religion = shinto
+	culture = japanese
+	father = 6320045
+	1779.11.20 = {
+		birth = yes
+	}
+	1848.6.27 = {
+		death = yes
+	}
+}
+6320048 = {
+	name = "Tadanori"
+	dynasty = 141647
+	religion = shinto
+	culture = japanese
+	father = 6320046
+	1809.1.2 = {
+		birth = yes
+	}
+	1844.11.19 = {
+		death = yes
+	}
+}
+
+# Tsuyama Domain
+6320049 = {
+	name = "Naritaka"
+	dynasty = 141873
+	religion = shinto
+	culture = japanese
+	1788.2.9 = {
+		birth = yes
+	}
+	1838.2.26 = {
+		death = yes
+	}
+}
+6320050 = {
+	name = "Naritami"
+	dynasty = 156768
+	religion = shinto
+	culture = japanese
+	father = 6310000
+	1814.9.12 = {
+		birth = yes
+	}
+	1891.3.23 = {
+		death = yes
+	}
+}
+6320051 = {
+	name = "Yoshitomi"
+	dynasty = 141873
+	religion = shinto
+	culture = japanese
+	father = 6320049
+	1827.7.28 = {
+		birth = yes
+	}
+	1871.9.10 = {
+		death = yes
+	}
+}
+
+# Okayama Domain
+6320052 = {
+	name = "Qizheng"	# 齐政 Narimasa
+	dynasty = 112128
+	religion = shinto
+	culture = japanese
+	1773.5.28 = {
+		birth = yes
+	}
+	1833.8.11 = {
+		death = yes
+	}
+}
+6320053 = {
+	name = "Qimin"		# 齐敏 Naritoshi
+	dynasty = 112128
+	religion = shinto
+	culture = japanese
+	father = 6320052	# adopted
+	1811.5.29 = {
+		birth = yes
+	}
+	1842.3.11 = {
+		death = yes
+	}
+}
+
+# Bitchu-Matsuyama Domain
+6320054 = {
+	name = "Katsutsune"
+	dynasty = 156181
+	religion = shinto
+	culture = japanese
+	1803.8.17 = {
+		birth = yes
+	}
+	1849.10.9 = {
+		death = yes
+	}
+}
+
+# Fukuyama Domain
+6320055 = {
+	name = "Masakiyo"
+	dynasty = 794185
+	religion = shinto
+	culture = japanese
+	1775.1.25 = {
+		birth = yes
+	}
+	1826.7.24 = {
+		death = yes
+	}
+}
+6320056 = {
+	name = "Masayasu"
+	dynasty = 794185
+	religion = shinto
+	culture = japanese
+	father = 6320055
+	1809.12.1 = {
+		birth = yes
+	}
+	1870.7.28 = {
+		death = yes
+	}
+}
+6320057 = {
+	name = "Masahiro"
+	dynasty = 794185
+	religion = shinto
+	culture = japanese
+	father = 6320055
+	1819.12.3 = {
+		birth = yes
+	}
+	1857.8.6 = {
+		death = yes
+	}
+}
+
+# Hiroshima Domain
+6320058 = {
+	name = "Narikata"
+	dynasty = 122168
+	religion = shinto
+	culture = japanese
+	1773.11.5 = {
+		birth = yes
+	}
+	1831.1.4 = {
+		death = yes
+	}
+}
+6320059 = {
+	name = "Qisu"		# 齐肃 Naritaka
+	dynasty = 122168
+	religion = shinto
+	culture = japanese
+	father = 6320058
+	1817.11.7 = {
+		birth = yes
+	}
+	1868.2.5 = {
+		death = yes
+	}
+}
+
+# Choshu Domain
+6320060 = {
+	name = "Shigetaka"
+	dynasty = 153086
+	religion = shinto
+	culture = japanese
+	1725.10.15 = {
+		birth = yes
+	}
+	1789.11.23 = {
+		death = yes
+	}
+}
+6320061 = {
+	name = "Haruchika"
+	dynasty = 153086
+	religion = shinto
+	culture = japanese
+	father = 6320060
+	1754.8.3 = {
+		birth = yes
+	}
+	1791.7.12 = {
+		death = yes
+	}
+}
+6320062 = {
+	name = "Narifusa"
+	dynasty = 153086
+	religion = shinto
+	culture = japanese
+	father = 6320061
+	1782.12.24 = {
+		birth = yes
+	}
+	1809.3.29 = {
+		death = yes
+	}
+}
+6320063 = {
+	name = "Narihiro"
+	dynasty = 153086
+	religion = shinto
+	culture = japanese
+	father = 6320061
+	1784.1.1 = {
+		birth = yes
+	}
+	1836.6.27 = {
+		death = yes
+	}
+}
+6320064 = {
+	name = "Chikaaki"
+	dynasty = 153086
+	religion = shinto
+	culture = japanese
+	father = 6320060
+	1766.1.1 = {
+		birth = yes
+	}
+	1800.1.1 = {
+		death = yes
+	}
+}
+6320065 = {
+	name = "Narimoto"
+	dynasty = 153086
+	religion = shinto
+	culture = japanese
+	father = 6320064
+	1794.4.23 = {
+		birth = yes
+	}
+	1836.10.17 = {
+		death = yes
+	}
+}
+6320066 = {
+	name = "Narito"
+	dynasty = 153086
+	religion = shinto
+	culture = japanese
+	father = 6320063
+	1814.7.3 = {
+		birth = yes
+	}
+	1837.2.4 = {
+		death = yes
+	}
+}
+6320067 = {
+	name = "Takachika"
+	dynasty = 153086
+	religion = shinto
+	culture = japanese
+	father = 6320065
+	1819.3.5 = {
+		birth = yes
+	}
+	1871.5.17 = {
+		death = yes
+	}
+}
+
+# Satsuma Domain
+6320068 = {
+	name = "Narioki"
+	dynasty = 119647
+	religion = shinto
+	culture = japanese
+	1791.12.1 = {
+		birth = yes
+	}
+	1859.10.7 = {
+		death = yes
+	}
+}
+6320069 = {
+	name = "Nariakira"
+	dynasty = 119647
+	religion = shinto
+	culture = japanese
+	father = 6320068
+	1809.4.28 = {
+		birth = yes
+	}
+	1858.8.24 = {
+		death = yes
+	}
+}
+6320070 = {
+	name = "Hisamitsu"
+	dynasty = 119647
+	religion = shinto
+	culture = japanese
+	father = 6320069
+	1817.11.28 = {
+		birth = yes
+	}
+	1887.12.6 = {
+		death = yes
+	}
+}
+
+# Nobeoka Domain
+6320071 = {
+	name = "Masayori"
+	dynasty = 143114
+	religion = shinto
+	culture = japanese
+	1796.3.23 = {
+		birth = yes
+	}
+	1834.9.23 = {
+		death = yes
+	}
+}
+6320072 = {
+	name = "Masayoshi"
+	dynasty = 143114
+	religion = shinto
+	culture = japanese
+	father = 6320071	# adopted
+	1820.4.15 = {
+		birth = yes
+	}
+	1888.11.18 = {
+		death = yes
+	}
+}
+
+# Kokura Domain
+6320073 = {
+	name = "Tadakata"
+	dynasty = 160067
+	religion = shinto
+	culture = japanese
+	1770.10.22 = {
+		birth = yes
+	}
+	1843.6.9 = {
+		death = yes
+	}
+}
+6320074 = {
+	name = "Tadaakira"
+	dynasty = 160067
+	religion = shinto
+	culture = japanese
+	father = 6320073
+	1808.11.29 = {
+		birth = yes
+	}
+	1856.6.14 = {
+		death = yes
+	}
+}
+
+# Oka Domain
+6320075 = {
+	name = "Hisataka"
+	dynasty = 160067
+	religion = shinto
+	culture = japanese
+	1787.5.18 = {
+		birth = yes
+	}
+	1824.12.10 = {
+		death = yes
+	}
+}
+6320076 = {
+	name = "Hisanori"
+	dynasty = 160067
+	religion = shinto
+	culture = japanese
+	father = 6320075	# adopted
+	1800.8.20 = {
+		birth = yes
+	}
+	1840.10.23 = {
+		death = yes
+	}
+}
+
+# Fukuoka Domain
+6320077 = {
+	name = "Narikiyo"
+	dynasty = 406016
+	religion = shinto
+	culture = japanese
+	1795.3.26 = {
+		birth = yes
+	}
+	1851.2.26 = {
+		death = yes
+	}
+}
+6320078 = {
+	name = "Changpu"	# 长溥 Nagahiro
+	dynasty = 406016
+	religion = shinto
+	culture = japanese
+	father = 6320077	# adopted
+	1811.4.23 = {
+		birth = yes
+	}
+	1887.3.7 = {
+		death = yes
+	}
+}
+
+# Kurume Domain
+6320079 = {
+	name = "Laide"		# 赖德 Yorinori
+	dynasty = 941873
+	religion = shinto
+	culture = japanese
+	1797.7.16 = {
+		birth = yes
+	}
+	1844.5.19 = {
+		death = yes
+	}
+}
+6320080 = {
+	name = "Yorito"
+	dynasty = 941873
+	religion = shinto
+	culture = japanese
+	father = 6320079
+	1822.5.15 = {
+		birth = yes
+	}
+	1846.8.24 = {
+		death = yes
+	}
+}
+6320081 = {
+	name = "Yorishige"
+	dynasty = 941873
+	religion = shinto
+	culture = japanese
+	father = 6320079
+	1828.8.27 = {
+		birth = yes
+	}
+	1881.5.21 = {
+		death = yes
+	}
+}
+
+# Hirado Domain
+6320082 = {
+	name = "Hiromu"
+	dynasty = 120067
+	religion = shinto
+	culture = japanese
+	1791.5.13 = {
+		birth = yes
+	}
+	1867.7.28 = {
+		death = yes
+	}
+}
+6320083 = {
+	name = "Terasu"
+	dynasty = 120067
+	religion = shinto
+	culture = japanese
+	father = 6320082
+	1812.9.26 = {
+		birth = yes
+	}
+	1858.8.5 = {
+		death = yes
+	}
+}
+
+# Kumamoto Domain
+6320084 = {
+	name = "Naritatsu"
+	dynasty = 201315
+	religion = shinto
+	culture = japanese
+	1797.2.9 = {
+		birth = yes
+	}
+	1826.3.20 = {
+		death = yes
+	}
+}
+6320085 = {
+	name = "Narimori"
+	dynasty = 201315
+	religion = shinto
+	culture = japanese
+	father = 6320084	# adopted
+	1804.10.19 = {
+		birth = yes
+	}
+	1860.6.6 = {
+		death = yes
+	}
+}
+6320086 = {
+	name = "Yoshikuni"
+	dynasty = 201315
+	religion = shinto
+	culture = japanese
+	father = 6320085
+	1835.7.23 = {
+		birth = yes
+	}
+	1876.10.23 = {
+		death = yes
+	}
+}
+
+# Tsushima Domain
+6320087 = {
+	name = "Yoshikatsu"
+	dynasty = 131987
+	religion = shinto
+	culture = japanese
+	1773.3.21 = {
+		birth = yes
+	}
+	1813.6.15 = {
+		death = yes
+	}
+}
+6320088 = {
+	name = "Yoshikata"
+	dynasty = 131987
+	religion = shinto
+	culture = japanese
+	father = 6320087
+	1800.8.22 = {
+		birth = yes
+	}
+	1838.9.27 = {
+		death = yes
+	}
+}
+6320089 = {
+	name = "Yoshiaya"
+	dynasty = 131987
+	religion = shinto
+	culture = japanese
+	father = 6320088
+	1818.1.2 = {
+		birth = yes
+	}
+	1842.7.7 = {
+		death = yes
+	}
+}
+6320090 = {
+	name = "Yoshiyori"
+	dynasty = 131987
+	religion = shinto
+	culture = japanese
+	father = 6320088
+	1818.9.4 = {
+		birth = yes
+	}
+	1890.8.13 = {
+		death = yes
+	}
+}
+
+# Tsu Domain
+6320091 = {
+	name = "Takasawa"
+	dynasty = 158571
+	religion = shinto
+	culture = japanese
+	1781.4.25 = {
+		birth = yes
+	}
+	1825.2.4 = {
+		death = yes
+	}
+}
+6320092 = {
+	name = "Takayuki"
+	dynasty = 158571
+	religion = shinto
+	culture = japanese
+	father = 6320091
+	1813.3.11 = {
+		birth = yes
+	}
+	1895.2.9 = {
+		death = yes
+	}
+}
+
+# Toba Domain
+6320093 = {
+	name = "Nagatsugu"
+	dynasty = 146986
+	religion = shinto
+	culture = japanese
+	1771.9.23 = {
+		birth = yes
+	}
+	1819.1.24 = {
+		death = yes
+	}
+}
+6320094 = {
+	name = "Nagakata"
+	dynasty = 146986
+	religion = shinto
+	culture = japanese
+	father = 6320093
+	1807.9.19 = {
+		birth = yes
+	}
+	1847.3.30 = {
+		death = yes
+	}
+}
+6320095 = {
+	name = "Nagaakira"
+	dynasty = 146986
+	religion = shinto
+	culture = japanese
+	father = 6320094
+	1830.7.2 = {
+		birth = yes
+	}
+	1866.11.6 = {
+		death = yes
+	}
+}
+
+# Owari Domain
+6320096 = {
+	name = "Naritomo"
+	dynasty_house = house_tokugawa_owari
+	religion = shinto
+	culture = japanese
+	1793.9.27 = {
+		birth = yes
+	}
+	1850.5.11 = {
+		death = yes
+	}
+}
+6320097 = {
+	name = "Nariharu"
+	dynasty = 156768
+	religion = shinto
+	culture = japanese
+	father = 6310000
+	1819.7.20 = {
+		birth = yes
+	}
+	1839.5.3 = {
+		death = yes
+	}
+}
+6320098 = {
+	name = "Qizhuang"	# 齐庄 Naritaka
+	dynasty = 156768
+	religion = shinto
+	culture = japanese
+	father = 6310000
+	1810.7.14 = {
+		birth = yes
+	}
+	1845.8.8 = {
+		death = yes
+	}
+}
+
+# Mito Domain
+6320099 = {
+	name = "Harutoshi"
+	dynasty_house = house_tokugawa_mito
+	religion = shinto
+	culture = japanese
+	1773.12.7 = {
+		birth = yes
+	}
+	1816.10.10 = {
+		death = yes
+	}
+}
+6320100 = {
+	name = "Narinobu"
+	dynasty_house = house_tokugawa_mito
+	religion = shinto
+	culture = japanese
+	father = 6320099
+	1797.4.12 = {
+		birth = yes
+	}
+	1829.10.31 = {
+		death = yes
+	}
+}
+6320101 = {
+	name = "Nariaki"
+	dynasty_house = house_tokugawa_mito
+	religion = shinto
+	culture = japanese
+	father = 6320099
+	1800.4.4 = {
+		birth = yes
+	}
+	1860.9.29 = {
+		death = yes
+	}
+}
+6320102 = {
+	name = "Yoshiatsu"
+	dynasty_house = house_tokugawa_mito
+	religion = shinto
+	culture = japanese
+	father = 6320101
+	1832.6.1 = {
+		birth = yes
+	}
+	1868.4.27 = {
+		death = yes
+	}
+}
+
+# Ogaki Domain
+6320103 = {
+	name = "Ujitsune"
+	dynasty = 123006
+	religion = shinto
+	culture = japanese
+	1780.5.6 = {
+		birth = yes
+	}
+	1841.5.9 = {
+		death = yes
+	}
+}
+6320104 = {
+	name = "Ujimasa"
+	dynasty = 123006
+	religion = shinto
+	culture = japanese
+	father = 6320103
+	1814.1.9 = {
+		birth = yes
+	}
+	1876.6.28 = {
+		death = yes
+	}
+}
+6320105 = {
+	name = "Ujiakira"
+	dynasty = 123006
+	religion = shinto
+	culture = japanese
+	father = 6320104
+	1831.6.20 = {
+		birth = yes
+	}
+	1865.9.27 = {
+		death = yes
+	}
+}
+
+# Matsushiro Domain
+6320106 = {
+	name = "Yukitaka"
+	dynasty = 161547
+	religion = shinto
+	culture = japanese
+	1770.1.1 = {
+		birth = yes
+	}
+	1828.8.27 = {
+		death = yes
+	}
+}
+6320107 = {
+	name = "Yukitsura"
+	dynasty = 161547
+	religion = shinto
+	culture = japanese
+	father = 6320106	# adopted
+	1791.9.29 = {
+		birth = yes
+	}
+	1852.7.24 = {
+		death = yes
+	}
+}
+
+# Aizu Domain
+6320108 = {
+	name = "Katahiro"
+	dynasty = 141873
+	religion = shinto
+	culture = japanese
+	1803.10.30 = {
+		birth = yes
+	}
+	1822.4.20 = {
+		death = yes
+	}
+}
+6320109 = {
+	name = "Katataka"
+	dynasty = 141873
+	religion = shinto
+	culture = japanese
+	1806.6.14 = {
+		birth = yes
+	}
+	1852.2.29 = {
+		death = yes
+	}
+}
+
+# Sendai Domain
+6320110 = {
+	name = "Narimune"
+	dynasty = 118971
+	religion = shinto
+	culture = japanese
+	1796.10.15 = {
+		birth = yes
+	}
+	1819.10.15 = {
+		death = yes
+	}
+}
+6320111 = {
+	name = "Nariyoshi"
+	dynasty = 118971
+	religion = shinto
+	culture = japanese
+	father = 6320110	# adopted
+	1798.4.22 = {
+		birth = yes
+	}
+	1828.1.13 = {
+		death = yes
+	}
+}
+6320112 = {
+	name = "Narikuni"
+	dynasty = 118971
+	religion = shinto
+	culture = japanese
+	father = 6320111	# adopted
+	1817.11.6 = {
+		birth = yes
+	}
+	1841.9.9 = {
+		death = yes
+	}
+}
+
+# Morioka Domain
+6320113 = {
+	name = "Toshitaka"
+	dynasty = 700868
+	religion = shinto
+	culture = japanese
+	1782.11.4 = {	#1796.10.15
+		birth = yes
+	}
+	1820.7.12 = {	#1819.10.15
+		death = yes
+	}
+}
+6320114 = {
+	name = "Toshimochi"
+	dynasty = 700868
+	religion = shinto
+	culture = japanese
+	father = 6320113
+	1803.12.19 = {
+		birth = yes
+	}
+	1825.8.21 = {
+		death = yes
+	}
+}
+6320115 = {
+	name = "Toshitada"
+	dynasty = 700868
+	religion = shinto
+	culture = japanese
+	1797.10.18 = {
+		birth = yes
+	}
+	1855.5.29 = {
+		death = yes
+	}
+}
+6320116 = {
+	name = "Toshitomo"
+	dynasty = 700868
+	religion = shinto
+	culture = japanese
+	father = 6320115
+	1824.1.12 = {
+		birth = yes
+	}
+	1888.8.21 = {
+		death = yes
+	}
+}
+6320117 = {
+	name = "Toshihisa"
+	dynasty = 700868
+	religion = shinto
+	culture = japanese
+	father = 6320115
+	1826.1.25 = {
+		birth = yes
+	}
+	1896.10.30 = {
+		death = yes
+	}
+}
+
+# Hirosaki Domain
+6320118 = {
+	name = "Yasuchika"
+	dynasty = 159073
+	religion = shinto
+	culture = japanese
+	trait = poet
+	1765.3.8 = {
+		birth = yes
+	}
+	1833.7.30 = {
+		death = yes
+	}
+}
+6320119 = {
+	name = "Nobuyuki"
+	dynasty = 159073
+	religion = shinto
+	culture = japanese
+	father = 6320118
+	1800.4.18 = {
+		birth = yes
+	}
+	1862.12.5 = {
+		death = yes
+	}
+}
+
+# Kubota Domain
+6320120 = {
+	name = "Yoshimasa"
+	dynasty = 121873
+	religion = shinto
+	culture = japanese
+	1775.1.31 = {
+		birth = yes
+	}
+	1815.8.12 = {
+		death = yes
+	}
+}
+6320121 = {
+	name = "Yoshihiro"
+	dynasty = 121873
+	religion = shinto
+	culture = japanese
+	father = 6320120
+	1812.8.23 = {
+		birth = yes
+	}
+	1846.10.27 = {
+		death = yes
+	}
+}
+
+# Shonai Domain
+6320122 = {
+	name = "Zhongqi"	# 忠器 Tadakata
+	dynasty = 141647
+	religion = shinto
+	culture = japanese
+	1790.4.2 = {
+		birth = yes
+	}
+	1854.4.17 = {
+		death = yes
+	}
+}
+6320123 = {
+	name = "Zhongfa"	# 忠发 Tadaaki
+	dynasty = 141647
+	religion = shinto
+	culture = japanese
+	father = 6320122
+	1812.10.17 = {
+		birth = yes
+	}
+	1876.2.12 = {
+		death = yes
+	}
+}
+
+# Fukui Domain
+6320124 = {
+	name = "Haruyoshi"
+	dynasty = 141873
+	religion = shinto
+	culture = japanese
+	1768.5.11 = {
+		birth = yes
+	}
+	1826.1.8 = {
+		death = yes
+	}
+}
+6320125 = {
+	name = "Naritsugu"
+	dynasty = 141873
+	religion = shinto
+	culture = japanese
+	father = 6320124
+	1811.3.5 = {
+		birth = yes
+	}
+	1835.7.27 = {
+		death = yes
+	}
+}
+6320126 = {
+	name = "Narisawa"
+	dynasty = 141873	# adopted
+	religion = shinto
+	culture = japanese
+	father = 6310000
+	1820.10.31 = {
+		birth = yes
+	}
+	1838.9.15 = {
+		death = yes
+	}
+}
+
+# Kaga Domain
+6320127 = {
+	name = "Narinaga"
+	dynasty = 186850
+	religion = shinto
+	culture = japanese
+	1782.9.5 = {
+		birth = yes
+	}
+	1824.8.4 = {
+		death = yes
+	}
+}
+6320128 = {
+	name = "Nariyasu"
+	dynasty = 186850
+	religion = shinto
+	culture = japanese
+	father = 6320127
+	1811.8.28 = {
+		birth = yes
+	}
+	1884.1.16 = {
+		death = yes
+	}
+}
+6320129 = {
+	name = "Yoshiyasu"
+	dynasty = 186850
+	religion = shinto
+	culture = japanese
+	father = 6320128
+	1830.6.24 = {
+		birth = yes
+	}
+	1874.5.22 = {
+		death = yes
+	}
+}
+
+# Takada Domain
+6320130 = {
+	name = "Masanori"
+	dynasty = 915841
+	religion = shinto
+	culture = japanese
+	trait = education_stewardship_4
+	1776.4.26 = {
+		birth = yes
+	}
+	1861.8.5 = {
+		death = yes
+	}
+}
+6320131 = {
+	name = "Zhengyang"	# 政养 Masakiyo
+	dynasty = 915841
+	religion = shinto
+	culture = japanese
+	father = 6320130
+	1798.4.10 = {
+		birth = yes
+	}
+	1846.10.11 = {
+		death = yes
+	}
+}
+6320132 = {
+	name = "Masachika"
+	dynasty = 915841
+	religion = shinto
+	culture = japanese
+	father = 6320131
+	1814.2.5 = {
+		birth = yes
+	}
+	1861.9.16 = {
+		death = yes
+	}
+}
+
+# Matsumae Domain
+6320133 = {
+	name = "Akihiro"
+	dynasty = 159078
+	religion = shinto
+	culture = japanese
+	1775.8.25 = {
+		birth = yes
+	}
+	1833.11.6 = {
+		death = yes
+	}
+}
+6320134 = {
+	name = "Chikahiro"
+	dynasty = 159078
+	religion = shinto
+	culture = japanese
+	father = 6320133
+	1805.1.1 = {
+		birth = yes
+	}
+	1827.9.20 = {
+		death = yes
+	}
+}
+6320135 = {
+	name = "Yoshirou"	# before loc: Yoshiro
+	dynasty = 159078
+	religion = shinto
+	culture = japanese
+	father = 6320134
+	1823.7.1 = {
+		birth = yes
+	}
+	1833.11.6 = {
+		effect = {
+			vassal_contract_set_obligation_level = {
+				type = special_contract
+				level = 2	#special_contract_march
+			}
+		}
+	}
+	1839.10.1 = {
+		death = yes
+	}
+}
+6320136 = {
+	name = "Changguang"	# 昌广 Masahiro
+	dynasty = 159078
+	religion = shinto
+	culture = japanese
+	father = 6320134
+	1825.10.9 = {
+		birth = yes
+	}
+	1853.9.10 = {
+		death = yes
+	}
+}
+6320137 = {
+	name = "Takahiro"
+	dynasty = 159078
+	religion = shinto
+	culture = japanese
+	father = 6320133
+	1829.12.10 = {
+		birth = yes
+	}
+	1866.6.9 = {
+		death = yes
+	}
+}
+
+### Kings of Ryukyu
+6330000 = {
+	name = "Kou"
+	dynasty = 146979
+	religion = shinto
+	culture = japanese
+	1787.7.14 = {
+		birth = yes
+	}
+	1834.7.5 = {
+		death = yes
+	}
+}
+6330001 = {
+	name = "Iku"
+	dynasty = 146979
+	religion = shinto
+	culture = japanese
+	father = 6330000
+	1813.8.19 = {
+		birth = yes
+	}
+	1847.10.25 = {
+		death = yes
+	}
+}

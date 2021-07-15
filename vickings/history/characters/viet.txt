@@ -1,0 +1,100 @@
+﻿# 1000400-- Viet Historical
+
+### Nguyen Dynasty
+
+1000400 = {
+	name = "Phúc Ánh"
+	dynasty = 180283
+	religion = sanjiaoheliu
+	culture = "viet"
+	trait = education_martial_4
+	trait = zealous	# strict orthodoxy
+	trait = diligent
+	1762.2.8 = {
+		birth = yes
+	}
+	1802.6.1 = {
+		effect = {
+			add_character_flag = temple_name_shizu
+		}
+	}
+	1820.2.3 = {
+		name = "The-To"
+		death = yes
+	}
+}
+
+1000401 = {
+	name = "Phúc Đảm"
+	dynasty = 180283
+	religion = sanjiaoheliu
+	culture = "viet"
+	trait = education_martial_3
+	father = 1000400
+	1791.5.25 = {
+		birth = yes
+	}
+	1812.6.1 = {
+		effect = {
+			add_character_flag = temple_name_shengzu
+		}
+	}
+	1841.1.20 = {
+		name = "Thanh-To"
+		death = yes
+	}
+}
+
+1000402 = {
+	name = "Phúc Miên Tông"
+	dynasty = 180283
+	religion = sanjiaoheliu
+	culture = "viet"
+	father = 1000401
+	1807.6.16 = {
+		birth = yes
+	}
+	1812.6.1 = {
+		effect = {
+			add_character_flag = temple_name_xianzu
+		}
+	}
+	1847.10.4 = {
+		name = "Hien-To"
+		death = yes
+	}
+}
+
+1000403 = {
+	name = "Phúc Hồng Nhậm"
+	dynasty = 180283
+	religion = sanjiaoheliu
+	culture = "viet"
+	father = 1000402
+	1829.9.22 = {
+		birth = yes
+	}
+	1836.1.1 = {
+		effect = {
+			add_character_flag = temple_name_yizong
+		}
+	}
+	1883.7.19 = {
+		name = "Duc-Tong"
+		death = yes
+	}
+}
+
+1000404 = {
+	name = "Phúc Hồng Y"
+	dynasty = 180283
+	religion = sanjiaoheliu
+	culture = "viet"
+	father = 1000402
+	1833.9.11 = {
+		birth = yes
+	}
+	1877.2.23 = {
+		death = yes
+	}
+}

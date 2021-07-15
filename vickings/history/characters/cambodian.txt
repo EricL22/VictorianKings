@@ -1,0 +1,83 @@
+﻿### Varman Dynasty
+6200200 = {
+	name = "Eng"
+	dynasty_house = house_ang
+	religion = theravada
+	culture = khmer
+	1773.1.1 = {
+		birth = yes
+	}
+	1779.8.1 = {
+		name = "Neareay-Reachea"
+	}
+	1796.5.5 = {
+		death = yes
+	}
+}
+6200201 = {
+	name = "Chan"
+	dynasty_house = house_ang
+	religion = theravada
+	culture = khmer
+	father = 6200200
+	1791.1.1 = {
+		birth = yes
+	}
+	1797.11.18 = {
+		name = "Outey-Reachea"
+		effect = {
+			dynasty = { add_dynasty_prestige = 4000 }
+		}
+	}
+	1835.1.7 = {
+		death = yes
+	}
+}
+6200202 = {
+	name = "Mey"
+	dynasty_house = house_ang
+	religion = theravada
+	culture = khmer
+	father = 6200201
+	female = yes
+	1815.1.1 = {
+		birth = yes
+	}
+	1835.1.9 = {
+		effect = {
+			dynasty = { add_dynasty_prestige = 4000 }
+		}
+	}
+	1874.12.1 = {
+		death = yes
+	}
+}
+6200203 = {
+	name = "Duong"
+	dynasty_house = house_ang
+	religion = theravada
+	culture = khmer
+	father = 6200200
+	1796.6.12 = {
+		birth = yes
+	}
+	1840.1.1 = {
+		name = "Harihak-Reamea"
+	}
+	1860.10.19 = {
+		death = yes
+	}
+}
+6200250 = {
+	name = "Em"
+	dynasty_house = house_ang
+	religion = theravada
+	culture = khmer
+	father = 6200200
+	1794.1.1 = {
+		birth = yes
+	}
+	1843.1.1 = {
+		death = yes
+	}
+}

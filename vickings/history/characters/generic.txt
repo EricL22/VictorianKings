@@ -1,0 +1,931 @@
+﻿modern01 = {
+	name = "Fakar"
+	culture = bedouin
+	religion = ashari
+	1741.3.6 = {
+		birth = "1741.3.6"
+	}
+	1823.1.1 = {
+		death = "1823.1.1"
+	}
+}
+
+modern02 = {
+	name = "Dasad"
+	culture = bedouin
+	religion = ashari
+	1741.3.6 = {
+		birth = "1741.3.6"
+	}
+	1823.1.1 = {
+		death = "1823.1.1"
+	}
+}
+
+modern03 = {
+	name = "Rusassad"
+	culture = russian
+	religion = orthodox
+	1768.4.4 = {
+		birth = "1768.4.4"
+	}
+	1836.8.6 = {
+		death = "1836.8.6"
+	}
+}
+
+modern04 = {
+	name = "Berajs"
+	culture = russian
+	religion = orthodox
+	1784.8.28 = {
+		birth = "1784.8.28"
+	}
+	1847.6.4 = {
+		death = "1847.6.4"
+	}
+}
+
+modern05 = {
+	name = "Kappa"
+	culture = turkish
+	religion = ashari
+	1790.1.1 = {
+		birth = "1790.1.1"
+	}
+	1864.1.1 = {
+		death = "1864.1.1"
+	}
+}
+
+modern06 = {
+	name = "Messi"
+	culture = turkish
+	religion = ashari
+	1790.1.1 = {
+		birth = "1790.1.1"
+	}
+	1830.1.1 = {
+		death = "1830.1.1"
+	}
+}
+
+modern07 = {
+	name = "Akbar"
+	culture = gujurati
+	religion = ashari
+	1741.3.6 = {
+		birth = yes
+	}
+	1819.3.25 = {
+		death = yes
+	}
+}
+
+rusgovbury = {
+	name = "Rusgovbury"
+	culture = russian
+	religion = orthodox
+	1749.8.6 = {
+		birth = "1749.8.6"
+	}
+	1842.7.4 = {
+		death = "1842.7.4"
+	}
+}
+
+rusgovsib = {
+	name = "Rusgovsib"
+	culture = russian
+	religion = orthodox
+	1789.6.4 = {
+		birth = "1789.6.4"
+	}
+	1845.1.1 = {
+		death = "1845.1.1"
+	}
+}
+
+rusgovural01 = {
+	name = "Vladimir"
+	culture = russian
+	religion = orthodox
+	1789.6.4 = {
+		birth = "1789.6.4"
+	}
+	1845.1.1 = {
+		death = "1845.1.1"
+	}
+}
+
+rusgovural02 = {
+	name = "Vladimir"
+	culture = russian
+	religion = orthodox
+	1789.6.4 = {
+		birth = "1789.6.4"
+	}
+	1845.1.1 = {
+		death = "1845.1.1"
+	}
+}
+
+rusgovural03 = {
+	name = "Vladimir"
+	culture = russian
+	religion = orthodox
+	1789.6.4 = {
+		birth = "1789.6.4"
+	}
+	1845.1.1 = {
+		death = "1845.1.1"
+	}
+}
+
+rusgovural04 = {
+	name = "Vladimir"
+	culture = russian
+	religion = orthodox
+	1789.6.4 = {
+		birth = "1789.6.4"
+	}
+	1845.1.1 = {
+		death = "1845.1.1"
+	}
+}
+
+rusgovural05 = {
+	name = "Donv"
+	culture = khazar
+	religion = orthodox
+	1789.6.4 = {
+		birth = "1789.6.4"
+	}
+	1845.1.1 = {
+		death = "1845.1.1"
+	}
+}
+
+rusgovural06 = {
+	name = "Vladimir"
+	culture = russian
+	religion = orthodox
+	1789.6.4 = {
+		birth = "1789.6.4"
+	}
+	1845.1.1 = {
+		death = "1845.1.1"
+	}
+}
+
+rusgovural07 = {
+	name = "Vladimir"
+	culture = russian
+	religion = orthodox
+	1789.6.4 = {
+		birth = "1789.6.4"
+	}
+	1845.1.1 = {
+		death = "1845.1.1"
+	}
+}
+
+rusgovural08 = {
+	name = "Vladimir"
+	culture = russian
+	religion = orthodox
+	1789.6.4 = {
+		birth = "1789.6.4"
+	}
+	1845.1.1 = {
+		death = "1845.1.1"
+	}
+}
+
+fragov_norman = {
+	name = "Naman-di"
+	culture = french
+	religion = catholic
+	1790.1.1 = {
+		birth = "1790.1.1"
+	}
+	1845.1.1 = {
+		death = "1845.1.1"
+	}
+}
+
+fragov_burgund = {
+	name = "Burgund"
+	culture = french
+	religion = catholic
+	1790.1.1 = {
+		birth = "1790.1.1"
+	}
+	1845.1.1 = {
+		death = "1845.1.1"
+	}
+}
+
+fragov_nw = {
+	name = "Brieton"
+	culture = french
+	religion = catholic
+	1790.1.1 = {
+		birth = "1790.1.1"
+	}
+	1845.1.1 = {
+		death = "1845.1.1"
+	}
+}
+
+fragov_aquitaine = {
+	name = "Cogqtoufle"
+	culture = french
+	religion = catholic
+	1790.1.1 = {
+		birth = "1790.1.1"
+	}
+	1845.1.1 = {
+		death = "1845.1.1"
+	}
+}
+
+turgov01 = {
+	name = "Antatan"
+	culture = turkish
+	religion = ashari
+	1790.1.1 = {
+		birth = "1790.1.1"
+	}
+	1864.1.1 = {
+		death = "1864.1.1"
+	}
+}
+turgov02 = {
+	name = "Kanamr"
+	culture = turkish
+	religion = ashari
+	stewardship = 15
+	1790.1.1 = {
+		birth = "1790.1.1"
+	}
+	1864.1.1 = {
+		death = "1864.1.1"
+	}
+}
+turgov03 = {
+	name = "Andadan"
+	culture = turkish
+	religion = ashari
+	1790.1.1 = {
+		birth = "1790.1.1"
+	}
+	1812.1.1 = {
+		add_opinion = {
+			target = character:9000011
+			modifier = received_title_kingdom
+		}
+	}
+	1864.1.1 = {
+		death = "1864.1.1"
+	}
+}
+turgov04 = {
+	name = "Rumadan"
+	culture = turkish
+	religion = ashari
+	1790.1.1 = {
+		birth = "1790.1.1"
+	}
+	1864.1.1 = {
+		death = "1864.1.1"
+	}
+}
+turgov05 = {
+	name = "Trabzong"
+	culture = turkish
+	religion = ashari
+	1790.1.1 = {
+		birth = "1790.1.1"
+	}
+	1864.1.1 = {
+		death = "1864.1.1"
+	}
+}
+turgov06 = {
+	name = "Erzurumadan"
+	culture = turkish
+	religion = ashari
+	stewardship = 15
+	1790.1.1 = {
+		birth = "1790.1.1"
+	}
+	1864.1.1 = {
+		death = "1864.1.1"
+	}
+}
+turgov07 = {
+	name = "Vam"
+	culture = turkish
+	religion = ashari
+	1790.1.1 = {
+		birth = "1790.1.1"
+	}
+	1864.1.1 = {
+		death = "1864.1.1"
+	}
+}
+
+# WARNING! NOT TURKISH!
+turgov08 = {
+	name = "Karms"
+	culture = georgian
+	religion = orthodox
+	1790.1.1 = {
+		birth = "1790.1.1"
+	}
+	1808.7.28 = {
+		effect = {
+			vassal_contract_set_obligation_level = {
+				type = religious_rights
+				level = 1	#religious_rights_protected
+			}
+		}
+	}
+	1864.1.1 = {
+		death = "1864.1.1"
+	}
+}
+#######################
+
+turgov09 = {
+	name = "Dulkadius"
+	dynasty = 7362
+	culture = turkish
+	religion = ashari
+	1790.1.1 = {
+		birth = "1790.1.1"
+	}
+	1864.1.1 = {
+		death = "1864.1.1"
+	}
+}
+turgov10 = {
+	name = "Raksas"
+	dynasty = 7362
+	culture = turkish
+	religion = ashari
+	1790.1.1 = {
+		birth = "1790.1.1"
+	}
+	1864.1.1 = {
+		death = "1864.1.1"
+	}
+}
+turgov11 = {
+	name = "Bekr"
+	culture = turkish
+	religion = ashari
+	stewardship = 10
+	1790.1.1 = {
+		birth = "1790.1.1"
+	}
+	1864.1.1 = {
+		death = "1864.1.1"
+	}
+}
+turgov12 = {
+	name = "Mosl"
+	culture = turkish
+	religion = ashari
+	stewardship = 10
+	1790.1.1 = {
+		birth = "1790.1.1"
+	}
+	1864.1.1 = {
+		death = "1864.1.1"
+	}
+}
+turgov13 = {
+	name = "Rizor"
+	culture = turkish
+	religion = ashari
+	1790.1.1 = {
+		birth = "1790.1.1"
+	}
+	1864.1.1 = {
+		death = "1864.1.1"
+	}
+}
+turgov14 = {
+	name = "Baghdsa"
+	culture = turkish
+	religion = ashari
+	1790.1.1 = {
+		birth = "1790.1.1"
+	}
+	1864.1.1 = {
+		death = "1864.1.1"
+	}
+}
+turgov15 = {
+	name = "Bashsa"
+	culture = turkish
+	religion = ashari
+	1790.1.1 = {
+		birth = "1790.1.1"
+	}
+	1864.1.1 = {
+		death = "1864.1.1"
+	}
+}
+turgov16 = {
+	name = "Krte"
+	culture = turkish
+	religion = ashari
+	1790.1.1 = {
+		birth = "1790.1.1"
+	}
+	1864.1.1 = {
+		death = "1864.1.1"
+	}
+}
+turgov17 = {
+	name = "Kypro"
+	culture = turkish
+	religion = ashari
+	1790.1.1 = {
+		birth = "1790.1.1"
+	}
+	1864.1.1 = {
+		death = "1864.1.1"
+	}
+}
+turgov18 = {
+	name = "Allpro"
+	culture = turkish
+	religion = ashari
+	1790.1.1 = {
+		birth = "1790.1.1"
+	}
+	1864.1.1 = {
+		death = "1864.1.1"
+	}
+}
+turgov19 = {
+	name = "Triplevan"
+	culture = turkish
+	religion = ashari
+	1790.1.1 = {
+		birth = "1790.1.1"
+	}
+	1864.1.1 = {
+		death = "1864.1.1"
+	}
+}
+turgov20 = {
+	name = "Damascu"
+	culture = turkish
+	religion = ashari
+	1790.1.1 = {
+		birth = "1790.1.1"
+	}
+	1864.1.1 = {
+		death = "1864.1.1"
+	}
+}
+turgov21 = {
+	name = "Greikch"
+	culture = turkish
+	religion = ashari
+	1790.1.1 = {
+		birth = "1790.1.1"
+	}
+	1864.1.1 = {
+		death = "1864.1.1"
+	}
+}
+turgov22 = {
+	name = "Hjaxz"
+	culture = turkish
+	religion = ashari
+	1790.1.1 = {
+		birth = "1790.1.1"
+	}
+	1812.1.1 = {
+		add_opinion = {
+			target = character:9000011
+			modifier = received_title_kingdom
+		}
+	}
+	1824.1.1 = {
+		add_opinion = {
+			modifier = perk_negotiated_alliance_opinion
+			target = character:9000021
+		}
+	}
+	1864.1.1 = {
+		death = "1864.1.1"
+	}
+}
+turgov23 = {
+	name = "Bosman"
+	culture = turkish
+	religion = ashari
+	1790.1.1 = {
+		birth = "1790.1.1"
+	}
+	1864.1.1 = {
+		death = "1864.1.1"
+	}
+}
+turgov24 = {
+	name = "Huddy"
+	culture = turkish
+	religion = ashari
+	1810.1.1 = {
+		birth = "1810.1.1"
+	}
+	1864.1.1 = {
+		death = "1864.1.1"
+	}
+}
+turgov25 = {
+	name = "Kassy"
+	culture = turkish
+	religion = ashari
+	1810.1.1 = {
+		birth = "1810.1.1"
+	}
+	1864.1.1 = {
+		death = "1864.1.1"
+	}
+}
+
+turorthodox01 = {
+	name = "Bugchris"
+	culture = bulgarian
+	religion = orthodox
+	1790.1.1 = {
+		birth = "1790.1.1"
+	}
+	1808.7.28 = {
+		effect = {
+			vassal_contract_set_obligation_level = {
+				type = religious_rights
+				level = 1	#religious_rights_protected
+			}
+		}
+	}
+	1864.1.1 = {
+		death = "1864.1.1"
+	}
+}
+turorthodox02 = {
+	name = "Erumlia"
+	culture = bulgarian
+	religion = orthodox
+	1790.1.1 = {
+		birth = "1790.1.1"
+	}
+	1808.7.28 = {
+		effect = {
+			vassal_contract_set_obligation_level = {
+				type = religious_rights
+				level = 1	#religious_rights_protected
+			}
+		}
+	}
+	1864.1.1 = {
+		death = "1864.1.1"
+	}
+}
+turorthodox03 = {
+	name = "Silstra"
+	culture = bulgarian
+	religion = orthodox
+	1790.1.1 = {
+		birth = "1790.1.1"
+	}
+	1808.7.28 = {
+		effect = {
+			vassal_contract_set_obligation_level = {
+				type = religious_rights
+				level = 1	#religious_rights_protected
+			}
+		}
+	}
+	1864.1.1 = {
+		death = "1864.1.1"
+	}
+}
+
+# WARNING! THIS IS NOT AN ORTHODOX CHARACTER!
+turorthodox04 = {
+	name = "Tolgreich"
+	culture = greek
+	religion = ashari
+	1790.1.1 = {
+		birth = "1790.1.1"
+	}
+	#1808.7.28 = {
+	#	effect = {
+	#		vassal_contract_set_obligation_level = {
+	#			type = religious_rights
+	#			level = 1	#religious_rights_protected
+	#		}
+	#	}
+	#}
+	1864.1.1 = {
+		death = "1864.1.1"
+	}
+}
+#############################################
+
+turorthodox05 = {
+	name = "Iskander"
+	culture = greek
+	religion = orthodox
+	1790.1.1 = {
+		birth = "1790.1.1"
+	}
+	1808.7.28 = {
+		effect = {
+			vassal_contract_set_obligation_level = {
+				type = religious_rights
+				level = 1	#religious_rights_protected
+			}
+		}
+	}
+	1864.1.1 = {
+		death = "1864.1.1"
+	}
+}
+turorthodox06 = {
+	name = "Ertunsmyr"
+	culture = greek
+	religion = orthodox
+	1790.1.1 = {
+		birth = "1790.1.1"
+	}
+	1808.7.28 = {
+		effect = {
+			vassal_contract_set_obligation_level = {
+				type = religious_rights
+				level = 1	#religious_rights_protected
+			}
+		}
+	}
+	1864.1.1 = {
+		death = "1864.1.1"
+	}
+}
+
+septinsularguy = {
+	name = "Septimus Minmaxius"
+	culture = greek
+	religion = orthodox
+	1790.1.1 = {
+		birth = yes
+	}
+	1814.5.30 = {
+		effect = {
+			vassal_contract_set_obligation_level = {
+				type = religious_rights
+				level = 1	#religious_rights_protected
+			}
+			vassal_contract_set_obligation_level = {
+				type = title_revocation_rights
+				level = 1	#title_revocation_rights_protected
+			}
+		}
+	}
+	1864.5.2 = {
+		death = yes
+	}
+}
+
+greek01 = {
+	name = "Adrianos"
+	culture = greek
+	religion = orthodox
+	trait = zealous
+	1790.1.1 = {
+		birth = yes
+	}
+	1862.10.23 = {
+		death = yes
+	}
+}
+
+chinese01 = {
+	name = "Dasong"
+	culture="han"
+	religion=sanjiaoheliu
+	trait = content
+	1799.4.3 = {
+		birth=yes
+	}
+	1873.12.19 = {
+		death=yes
+	}
+}
+chinese02 = {
+	name = "Yu"
+	culture="han"
+	religion=sanjiaoheliu
+	trait = content
+	1799.4.3 = {
+		birth=yes
+	}
+	1873.12.19 = {
+		death=yes
+	}
+}
+chinese03 = {
+	name = "Wenhu"
+	culture="han"
+	religion=sanjiaoheliu
+	trait = content
+	1799.4.3 = {
+		birth=yes
+	}
+	1873.12.19 = {
+		death=yes
+	}
+}
+chinese04 = {
+	name = "Chang"
+	culture="han"
+	religion=sanjiaoheliu
+	trait = content
+	1799.4.3 = {
+		birth=yes
+	}
+	1873.12.19 = {
+		death=yes
+	}
+}
+chinese05 = {
+	name = "Jinsu"
+	culture="han"
+	religion=sanjiaoheliu
+	trait = content
+	1799.4.3 = {
+		birth=yes
+	}
+	1873.12.19 = {
+		death=yes
+	}
+}
+chinese06 = {
+	name = "Xing"
+	culture="han"
+	religion=sanjiaoheliu
+	trait = content
+	1799.4.3 = {
+		birth=yes
+	}
+	1873.12.19 = {
+		death=yes
+	}
+}
+chinese07 = {
+	name = "Long"
+	culture="han"
+	religion=sanjiaoheliu
+	trait = content
+	1799.4.3 = {
+		birth=yes
+	}
+	1873.12.19 = {
+		death=yes
+	}
+}
+chinese08 = {
+	name = "Yue"
+	culture="han"
+	religion=sanjiaoheliu
+	trait = content
+	1799.4.3 = {
+		birth=yes
+	}
+	1873.12.19 = {
+		death=yes
+	}
+}
+chinese09 = {
+	name = "Chang"
+	culture="han"
+	religion=sanjiaoheliu
+	trait = content
+	1799.4.3 = {
+		birth=yes
+	}
+	1873.12.19 = {
+		death=yes
+	}
+}
+chinese10 = {
+	name = "Fan"
+	culture="han"
+	religion=sanjiaoheliu
+	trait = content
+	1799.4.3 = {
+		birth=yes
+	}
+	1873.12.19 = {
+		death=yes
+	}
+}
+chinese11 = {
+	name = "Zhi"
+	culture="han"
+	religion=sanjiaoheliu
+	trait = content
+	1799.4.3 = {
+		birth=yes
+	}
+	1873.12.19 = {
+		death=yes
+	}
+}
+chinese12 = {
+	name = "Rui"
+	culture="han"
+	religion=sanjiaoheliu
+	trait = content
+	1799.4.3 = {
+		birth=yes
+	}
+	1873.12.19 = {
+		death=yes
+	}
+}
+chinese13 = {
+	name = "Zhuo"
+	culture="han"
+	religion=sanjiaoheliu
+	trait = content
+	1799.4.3 = {
+		birth=yes
+	}
+	1873.12.19 = {
+		death=yes
+	}
+}
+chinese14 = {
+	name = "Guan"
+	culture="han"
+	religion=shangqing
+	1799.4.3 = {
+		birth=yes
+	}
+	1873.12.19 = {
+		death=yes
+	}
+}
+chinese15 = {
+	name = "Heng"
+	culture="han"
+	religion=shangqing
+	1799.4.3 = {
+		birth=yes
+	}
+	1873.12.19 = {
+		death=yes
+	}
+}
+chinese16 = {
+	name = "Tan"
+	culture="han"
+	religion=shangqing
+	1799.4.3 = {
+		birth=yes
+	}
+	1873.12.19 = {
+		death=yes
+	}
+}
+chinese17 = {
+	name = "Chan"
+	culture="han"
+	religion=shangqing
+	1799.4.3 = {
+		birth=yes
+	}
+	1873.12.19 = {
+		death=yes
+	}
+}
+chinese18 = {
+	name = "Tian"
+	culture="han"
+	religion=shangqing
+	1799.4.3 = {
+		birth=yes
+	}
+	1873.12.19 = {
+		death=yes
+	}
+}

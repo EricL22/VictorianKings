@@ -1,0 +1,349 @@
+﻿# 1000200-- Korean Historical
+
+### Yi Dynasty (Joseon)
+
+1000218 = {
+	name = "Jong"
+	dynasty = 139210
+	religion = lixue
+	culture = korean
+	1595.12.7 = {
+		birth = yes
+	}
+	1649.6.17 = {
+		name = "Injo"
+		death = yes
+	}
+}
+
+1000219 = {
+	name = "Ho"
+	dynasty = 139210
+	religion = lixue
+	culture = korean
+	father = 1000218
+	1619.7.3 = {
+		birth = yes
+	}
+	1659.6.23 = {
+		name = "Hyojong"
+		death = yes
+	}
+}
+
+1000220 = {
+	name = "Yeon"
+	dynasty = 139210
+	religion = lixue
+	culture = korean
+	father = 1000219
+	1641.3.14 = {
+		birth = yes
+	}
+	1674.9.17 = {
+		name = "Hyeonjong"
+		death = yes
+	}
+}
+
+1000221 = {
+	name = "Sun"
+	dynasty = 139210
+	religion = lixue
+	culture = korean
+	father = 1000220
+	1661.10.7 = {
+		birth = yes
+	}
+	1720.7.12 = {
+		name = "Sukjong"
+		death = yes
+	}
+}
+
+1000222 = {
+	name = "Yun"
+	dynasty = 139210
+	religion = lixue
+	culture = korean
+	father = 1000221
+	1688.11.20 = {
+		birth = yes
+	}
+	1724.10.11 = {
+		name = "Gyeongjong"
+		death = yes
+	}
+}
+
+1000223 = {
+	name = "Geum"
+	dynasty = 139210
+	religion = lixue
+	culture = korean
+	father = 1000221
+	1694.10.31 = {
+		birth = yes
+	}
+	1776.4.22 = {
+		name = "Yeongjo"
+		death = yes
+	}
+}
+
+1000224 = {
+	name = "Seon"
+	dynasty = 139210
+	religion = lixue
+	culture = korean
+	father = 1000223
+	1735.2.13 = {
+		birth = yes
+	}
+	1762.7.12 = {
+		death = yes
+	}
+}
+
+1000225 = {
+	name = "San"
+	dynasty = 139210
+	religion = lixue
+	culture = korean
+	father = 1000224
+	1752.10.28 = {
+		birth = yes
+	}
+	1800.8.18 = {
+		name = "Jeongjo"
+		death = yes
+	}
+}
+
+1000226 = {
+	name = "Gong"
+	dynasty = 139210
+	religion = lixue
+	culture = korean
+	father = 1000225
+	1790.7.29 = {
+		birth = yes
+	}
+	1800.8.18 = {
+		effect = {
+			add_character_flag = temple_name_chunzu
+		}
+	}
+	1834.12.13 = {
+		name = "Sunjo"
+		death = yes
+	}
+}
+
+1000227 = {
+	name = "Yeong"
+	dynasty = 139210
+	religion = lixue
+	culture = korean
+	father = 1000226
+	1809.9.18 = {
+		birth = yes
+	}
+	1830.6.25 = {
+		death = yes
+	}
+}
+
+1000228 = {
+	name = "Hwan"
+	dynasty = 139210
+	religion = lixue
+	culture = korean
+	father = 1000227
+	1827.9.8 = {
+		birth = yes
+	}
+	1830.8.18 = {
+		effect = {
+			add_character_flag = temple_name_xianzong
+		}
+	}
+	1849.7.25 = {
+		name = "Heonjong"
+		death = yes
+	}
+}
+
+1000229 = {
+	name = "In"
+	dynasty = 139210
+	religion = lixue
+	culture = korean
+	father = 1000224
+	1754.5.29 = {
+		birth = yes
+	}
+	1801.6.30 = {
+		death = yes
+	}
+}
+
+1000230 = {
+	name = "Kwang"
+	dynasty = 139210
+	religion = lixue
+	culture = korean
+	father = 1000229
+	1785.3.21 = {
+		birth = yes
+	}
+	1841.11.2 = {
+		death = yes
+	}
+}
+
+1000231 = {
+	name = "Wonbeom"
+	dynasty = 139210
+	religion = lixue
+	culture = korean
+	father = 1000230
+	1831.7.25 = {
+		birth = yes
+	}
+	1831.8.18 = {
+		effect = {
+			add_character_flag = temple_name_zhezong
+		}
+	}
+	1864.1.16 = {
+		name = "Cheoljong"
+		death = yes
+	}
+}
+
+1000232 = {
+	name = "Haeng"
+	dynasty = 139210
+	religion = lixue
+	culture = korean
+	father = 1000223
+	1719.2.15 = {
+		birth = yes
+	}
+	1728.11.16 = {
+		death = yes
+	}
+}
+
+1000233 = {
+	name = "Yo"
+	dynasty = 139210
+	religion = lixue
+	culture = korean
+	father = 1000218
+	1622.12.10 = {
+		birth = yes
+	}
+	1658.5.13 = {
+		death = yes
+	}
+}
+
+1000234 = {
+	name = "Wook"
+	dynasty = 139210
+	religion = lixue
+	culture = korean
+	father = 1000233
+	1639.1.1 = {
+		birth = yes
+	}
+	1670.10.15 = {
+		death = yes
+	}
+}
+
+1000235 = {
+	name = "Hyuk"
+	dynasty = 139210
+	religion = lixue
+	culture = korean
+	father = 1000234
+	1661.6.13 = {
+		birth = yes
+	}
+	1722.11.12 = {
+		death = yes
+	}
+}
+
+1000236 = {
+	name = "Sook"
+	dynasty = 139210
+	religion = lixue
+	culture = korean
+	father = 1000235
+	1693.10.9 = {
+		birth = yes
+	}
+	1768.4.7 = {
+		death = yes
+	}
+}
+
+1000237 = {
+	name = "Jinik"
+	dynasty = 139210
+	religion = lixue
+	culture = korean
+	father = 1000236
+	1728.9.25 = {
+		birth = yes
+	}
+	1796.4.26 = {
+		death = yes
+	}
+}
+
+1000238 = {
+	name = "Byeongwon"
+	dynasty = 139210
+	religion = lixue
+	culture = korean
+	father = 1000237
+	1752.4.6 = {
+		birth = yes
+	}
+	1822.11.11 = {
+		death = yes
+	}
+}
+
+1000239 = {
+	name = "Gu"
+	dynasty = 139210
+	religion = lixue
+	culture = korean
+	father = 1000238
+	1788.8.22 = {
+		birth = yes
+	}
+	1836.3.19 = {
+		death = yes
+	}
+}
+
+1000240 = {
+	name = "Ha-eung"
+	dynasty = 139210
+	religion = lixue
+	culture = korean
+	father = 1000239
+	1820.12.21 = {
+		birth = yes
+	}
+	1898.2.22 = {
+		death = yes
+	}
+}

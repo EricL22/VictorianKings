@@ -1,0 +1,143 @@
+﻿### Khun Lo Dynasty
+# Luang Prabang
+6200000 = {
+	name = "Anurutha"
+	dynasty = 178075
+	religion = theravada
+	culture = lao
+	1737.1.1 = {
+		birth = yes
+	}
+	1819.12.31 = {
+		death = yes
+	}
+}
+6200001 = {
+	name = "Manthaturath"
+	dynasty = 178075
+	religion = theravada
+	culture = lao
+	father = 6200000
+	1772.1.1 = {
+		birth = yes
+	}
+	1837.3.7 = {
+		death = yes
+	}
+}
+6200002 = {
+	name = "Sukkhasoem"
+	dynasty = 178075
+	religion = theravada
+	culture = lao
+	father = 6200001
+	1797.1.1 = {
+		birth = yes
+	}
+	1850.9.23 = {
+		death = yes
+	}
+}
+6200003 = {
+	name = "Chantharath"
+	dynasty = 178075
+	religion = theravada
+	culture = lao
+	father = 6200001
+	1799.1.1 = {
+		birth = yes
+	}
+	1870.8.23 = {
+		death = yes
+	}
+}
+6200004 = {
+	name = "Oun Kham"
+	dynasty = 178075
+	religion = theravada
+	culture = lao
+	father = 6200001
+	1811.6.5 = {
+		birth = yes
+	}
+	1895.12.15 = {
+		death = yes
+	}
+}
+
+# Vientiane
+6200050 = {
+	name = "Anouvong"
+	dynasty = 178075
+	religion = theravada
+	culture = lao
+	1767.1.1 = {
+		birth = yes
+	}
+	1828.11.12 = {
+		death = yes
+	}
+}
+6200051 = {
+	name = "Ngao"
+	dynasty = 178075
+	religion = theravada
+	culture = lao
+	father = 6200050
+	1802.1.1 = {
+		birth = yes
+	}
+	1830.1.1 = {
+		death = yes
+	}
+}
+6200052 = {
+	name = "Nyô"
+	dynasty = 178075
+	religion = theravada
+	culture = lao
+	father = 6200050
+	1804.1.1 = {
+		birth = yes
+	}
+	1828.1.1 = {
+		death = yes
+	}
+}
+
+# Champasak - some dates are guesswork due to lack of information
+6200100 = {
+	name = "No Muong"
+	religion = theravada
+	culture = lao
+	1792.1.1 = {
+		birth = yes
+	}
+	1813.1.1 = {
+		death = yes
+	}
+}
+6200101 = {
+	name = "Huy"
+	dynasty = 178075
+	religion = theravada
+	culture = lao
+	1780.1.1 = {
+		birth = yes
+	}
+	1840.1.1 = {
+		death = yes
+	}
+}
+6200102 = {
+	name = "Manoi"
+	dynasty = 178075
+	religion = theravada
+	culture = lao
+	1792.1.1 = {
+		birth = yes
+	}
+	1820.1.1 = {
+		death = yes
+	}
+}
