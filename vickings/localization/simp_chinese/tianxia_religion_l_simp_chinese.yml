@@ -1,0 +1,5 @@
+﻿l_simp_chinese:
+
+ take_concubine_taoism:0 "你必须是中国的正统皇帝才能持有更多[CHARACTER.Custom('Concubines Consorts')]"
+ doctrine_chinese_concubines_name:0 "中国皇室纳妾"
+ doctrine_chinese_concubines_desc:0 "被尊为天子的中国皇帝，最多可能有1000个妃子。 该信仰的其他追随者仅限于 3 个配偶。"

@@ -1,0 +1,15 @@
+﻿l_simp_chinese:
+ # MAJOR RIVERS
+ river_yellow:0 "黄河"
+ river_yangtze:0 "长江"
+ 
+ # SEA ZONES
+ sea_gulf_of_tonkin:0 "北部湾"
+ sea_pearl_river_delta:0 "珠江三角洲"
+ sea_taiwan_strait:0 "台湾海峡"
+ sea_yangtze_river_delta:0 "长江三角洲"
+ sea_west_yellow_sea:0 "黄海西部"
+ sea_east_yellow_sea:0 "黄海东部"
+ sea_korea_bay:0 "西朝鲜湾"
+ sea_bohai_sea:0 "渤海"
+ sea_andaman:0 "晏陀蛮海"

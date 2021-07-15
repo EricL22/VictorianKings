@@ -1,0 +1,11 @@
+﻿l_simp_chinese:
+
+ IS_CIVILIAN_GOVERNOR_NO_WAR:0 "[TARGET_CHARACTER.GetShortUIName|U]在外交政策中不能独立于他的[liege|E]"
+ IS_CIVILIAN_GOVERNOR_NO_WAR_REVERSE:0 "你必须在低[crown_authority|E]的领域中才能调用[TARGET_CHARACTER.GetShortUIName|U]到战争"
+
+ recently_passed_reform:0 "你最近通过了一项改革"
+ requires_absolutism_innovation:0 "你还没有发现绝对主义"
+ reform_independent_requirement:0 "你必须是一个独立的统治者才能通过改革"
+ centralized_no_free_war_contract:0 "只有保护国才能在中央集权国家独立宣战"
+
+ MY_PRESTIGE_LEVEL_IS_NOT_AT_LEAST_FOUR:1 "你的[prestige_level|E]不够高"

@@ -1,0 +1,11 @@
+﻿l_english:
+
+ IS_CIVILIAN_GOVERNOR_NO_WAR:0 "[TARGET_CHARACTER.GetShortUIName|U] cannot act independently of his [liege|E] in foreign policy"
+ IS_CIVILIAN_GOVERNOR_NO_WAR_REVERSE:0 "You must be in a realm with Low [crown_authority|E] to call [TARGET_CHARACTER.GetShortUIName|U] to the war"
+
+ recently_passed_reform:0 "You have recently passed a reform"
+ requires_absolutism_innovation:0 "You have not yet discovered Absolutism"
+ reform_independent_requirement:0 "You must be an independent ruler to pass reforms"
+ centralized_no_free_war_contract:0 "Only Protectorates can independently declare war in a centralized state"
+
+ MY_PRESTIGE_LEVEL_IS_NOT_AT_LEAST_FOUR:1 "Your [prestige_level|E] is not high enough"

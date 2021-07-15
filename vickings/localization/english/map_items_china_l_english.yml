@@ -1,0 +1,15 @@
+﻿l_english:
+ # MAJOR RIVERS
+ river_yellow:0 "Yellow"
+ river_yangtze:0 "Yangtze"
+ 
+ # SEA ZONES
+ sea_gulf_of_tonkin:0 "Gulf of Tonkin"
+ sea_pearl_river_delta:0 "Pearl River Delta"
+ sea_taiwan_strait:0 "Taiwan Strait"
+ sea_yangtze_river_delta:0 "Yangtze River Delta"
+ sea_west_yellow_sea:0 "West Yellow Sea"
+ sea_east_yellow_sea:0 "East Yellow Sea"
+ sea_korea_bay:0 "Korea Bay"
+ sea_bohai_sea:0 "Bohai Sea"
+ sea_andaman:0 "Andaman Sea"

@@ -1,0 +1,17 @@
+﻿l_simp_chinese:
+ # Chinese
+ baron_feudal_male_chinese_group:0 "县令"
+ baron_feudal_female_chinese_group:0 "县令"
+ barony_feudal_chinese_group:0 "县"
+ count_feudal_male_chinese_group:0 "刺史"
+ count_feudal_female_chinese_group:0 "刺史"
+ county_feudal_chinese_group:0 ""
+ duke_feudal_male_chinese_group:0 "节度使"
+ duke_feudal_female_chinese_group:0 "节度使"
+ duchy_feudal_chinese_group:0 "军"
+ king_feudal_male_chinese_group:0 "王"
+ king_feudal_female_chinese_group:0 "王后"
+ kingdom_feudal_chinese_group:0 "国"
+ emperor_feudal_male_chinese_group:0 "皇帝"
+ emperor_feudal_female_chinese_group:0 "皇后"
+ empire_feudal_chinese_group:0 ""

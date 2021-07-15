@@ -1,0 +1,5 @@
+﻿l_english:
+
+ take_concubine_taoism:0 "You must be the rightful Emperor of China to hold more [CHARACTER.Custom('ConcubinesConsorts')]"
+ doctrine_chinese_concubines_name:0 "Imperial Chinese Concubinage"
+ doctrine_chinese_concubines_desc:0 "The Emperor of China, worshipped as the Son of Heaven, may take up to 1000 consorts. Other followers of the faith are limited to 3 consorts."

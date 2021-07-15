@@ -1,0 +1,32 @@
+﻿l_english:
+
+ same_culture_none_factionalism_double_different:0 "[vassals|E] of your [culture|E] are no longer inclined to join [independence_factions|E], but those of a different culture will be much more inclined"
+ absolutism_vassal_restriction:0 "Unlocks the #P Government Reforms#!"
+
+#####################
+# Renaissance Era #
+#####################
+
+ #Military
+ innovation_overseas_exploration:0 "Overseas Exploration"
+ innovation_overseas_exploration_desc:0 "With the discovery of the New World, our Navy may focus on developing new technologies to better traverse the vast expanse of ocean."
+
+ #Civic
+ innovation_absolutism:0 "Absolutism"
+ innovation_absolutism_desc:0 "A new national identity for our people has signalled a shift away from the rule of local lords. The model for a centralized state, with a central governmental authority, now seems like a viable option by which to administer the realm."
+
+ #Regional
+
+#####################
+# Industrial Era #
+##################### 
+ 
+ #Military
+ innovation_strategic_mobility:0 "Strategic Mobility"
+ innovation_strategic_mobility_desc:0 "We should look at developing survival equipment and gear which will enhance the movement of our army in any type of terrain."
+
+ #Civic
+ innovation_nationalism_n_imperialism:0 "Nationalism and Imperialism"
+ innovation_nationalism_n_imperialism_desc:0 "One state. One people. Our glorious nation will no longer be bound by old oaths between vassal and lord, but by obligation to defend a culture and civilize all lesser ones."
+
+ #Regional
