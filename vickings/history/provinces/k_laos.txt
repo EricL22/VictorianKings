@@ -1,0 +1,139 @@
+9783 = {
+	culture = lao
+	religion = theravada
+}
+
+11118 = {
+	culture = lao
+	religion = theravada
+}
+
+11119 = {
+	culture = lao
+	religion = theravada
+}
+
+11120 = {
+	culture = lao
+	religion = theravada
+}
+
+11121= {
+	culture = lao
+	religion = theravada
+}
+
+11122 = {
+	culture = lao
+	religion = theravada
+}
+
+11123 = {
+	culture = lao
+	religion = theravada
+}
+
+11124 = {
+	culture = lao
+	religion = theravada
+}
+
+11125 = {
+	culture = lao
+	religion = theravada
+}
+
+11126 = {
+	culture = lao
+	religion = theravada
+}
+
+11127 = {
+	culture = lao
+	religion = theravada
+}
+
+11128 = {
+	culture = lao
+	religion = theravada
+}
+
+11129 = {
+	culture = lao
+	religion = theravada
+}
+
+11130 = {
+	culture = lao
+	religion = theravada
+}
+
+11131 = {
+	culture = lao
+	religion = theravada
+}
+
+11132 = {
+	culture = lao
+	religion = theravada
+}
+
+11133 = {
+	culture = lao
+	religion = theravada
+}
+
+11134 = {
+	culture = lao
+	religion = theravada
+}
+
+11135 = {
+	culture = lao
+	religion = theravada
+}
+
+11136 = {
+	culture = lao
+	religion = theravada
+}
+
+11137 = {
+	culture = lao
+	religion = theravada
+}
+
+11138 = {
+	culture = lao
+	religion = theravada
+}
+
+11139 = {
+	culture = lao
+	religion = theravada
+}
+
+11140 = {
+	culture = lao
+	religion = theravada
+}
+
+11141 = {
+	culture = lao
+	religion = theravada
+}
+
+11142 = {
+	culture = lao
+	religion = theravada
+}
+
+11143 = {
+	culture = lao
+	religion = theravada
+}
+
+11144 = {
+	culture = lao
+	religion = theravada
+}

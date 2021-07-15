@@ -1,0 +1,859 @@
+11229 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11230 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11231 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11232 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11233 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11234 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11235 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11236 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11237 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11238 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11239 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11240 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11241 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11242 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11243 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11244 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11245 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11246 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11247 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11248 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11249 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11250 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11251 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11252 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11253 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11254 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11255 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11256 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11257 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11258 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11259 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11260 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11261 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11262 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11263 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11264 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11265 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11266 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11267 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11268 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11269 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11270 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11271 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11272 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11273 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11274 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11275 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11276 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11277 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11278 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11279 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11280 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11281 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11282 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11283 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11284 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11285 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11286 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11287 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11288 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11289 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11290 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11291 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11292 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11293 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11294 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11295 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11296 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11297 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11298 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11299 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11300 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11301 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11302 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11303 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11304 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11305 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11306 = {
+	
+	# Misc
+	culture = ainu
+	religion = ainuism
+	
+	# History
+
+}
+
+11307 = {
+	
+	# Misc
+	culture = ainu
+	religion = ainuism
+	
+	# History
+
+}
+
+11308 = {
+	
+	# Misc
+	culture = ainu
+	religion = ainuism
+	
+	# History
+
+}
+
+11309 = {
+	
+	# Misc
+	culture = ainu
+	religion = ainuism
+	
+	# History
+
+}
+
+11310 = {
+	
+	# Misc
+	culture = ainu
+	religion = ainuism
+	
+	# History
+
+}
+
+11311 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11312 = {
+	
+	# Misc
+	culture = ainu
+	religion = ainuism
+	
+	# History
+
+}
+
+11313 = {
+	
+	# Misc
+	culture = ainu
+	religion = ainuism
+	
+	# History
+
+}
+
+11323 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}

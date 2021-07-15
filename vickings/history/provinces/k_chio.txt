@@ -1,0 +1,141 @@
+#k_chio
+##d_muan
+###c_dam
+9925 = { # Changsha
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_mjieu
+9931 = { # Shaoyang
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_haang
+9933 = { # Hengyang
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_weng
+9939 = { # Lingling
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_dao
+9943 = { # Hongdao
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_trim
+9948 = { # Chen
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_lien
+9953 = { # Guiyang
+	culture = han
+	religion = sanjiaoheliu
+}
+
+##d_driungngie
+###c_dsiang
+10301 = { # Xiangyang
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_dbuk
+10291 = { # Mianyang
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_yieng
+10294 = { # Changshou
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_sue
+10297 = { # Sui
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_ddang
+10308 = { # Biyang
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_buang
+10313 = { # Fangling
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_gun
+10317 = { # Wudang
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_ddzng
+10320 = { # Rang
+	culture = han
+	religion = sanjiaoheliu
+}
+
+##d_giengnam
+###c_gongling
+10022 = { # Jiangling
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_lang
+10016 = { # Wuling
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_lei
+10018 = { # Liyang
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_hap
+10030 = { # Yiling
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_ggui
+10034 = { # Zigui
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_guz
+10037 = { # Fengjie
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_gmuan
+10041 = { # Nanpu
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_driung
+10044 = { # Linjiang
+	culture = han
+	religion = sanjiaoheliu
+}

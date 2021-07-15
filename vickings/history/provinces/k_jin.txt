@@ -1,0 +1,104 @@
+10931 = {	# SHIWEI
+	
+	# Misc
+	culture = jurchen
+	religion = tengri_pagan
+
+	holding = tribal_holding
+	
+	# History
+
+}
+
+10932 = {	# DONGHAI
+	
+	# Misc
+	culture = jurchen
+	religion = tengri_pagan
+	
+	# History
+
+}
+
+10933 = {	# HARBIN
+	
+	# Misc
+	culture = jurchen
+	religion = tengri_pagan
+	
+	# History
+
+}
+
+10934 = {	# DAQING
+	
+	# Misc
+	culture = jurchen
+	religion = tengri_pagan
+	
+	# History
+
+}
+
+10935 = {	# QIQIHAR
+	
+	# Misc
+	culture = jurchen
+	religion = tengri_pagan
+	
+	# History
+
+}
+
+10936 = {	# DAXING
+	
+	# Misc
+	culture = jurchen
+	religion = tengri_pagan
+	
+	# History
+
+}
+
+10937 = {	# HUANGLONG
+	
+	# Misc
+	culture = jurchen
+	religion = tengri_pagan
+	
+	# History
+
+}
+
+10938 = {	# HULUNBUIR
+	
+	# Misc
+	culture = jurchen
+	religion = tengri_pagan
+	
+	# History
+
+}
+
+10913 = {	# AMUR
+	
+	# Misc
+	culture = jurchen
+	religion = tengri_pagan
+	1650.1.1 = {
+		culture = kamchatkan
+	}
+	
+	# History
+
+}
+
+10969 = {	# AIGUN
+	
+	# Misc
+	culture = jurchen
+	religion = tengri_pagan
+	
+	# History
+
+}

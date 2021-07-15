@@ -1,0 +1,32 @@
+10947 = {
+	
+	# Misc
+	culture = korean
+	religion = mahayana
+	
+	# History
+	1650.1.1 = { religion = lixue }
+
+}
+
+10948 = {
+	
+	# Misc
+	culture = korean
+	religion = mahayana
+	
+	# History
+	1650.1.1 = { religion = lixue }
+
+}
+
+11032 = {
+	
+	# Misc
+	culture = korean
+	religion = mahayana
+	
+	# History
+	1650.1.1 = { religion = lixue }
+
+}

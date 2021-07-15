@@ -1,0 +1,114 @@
+11099 = {
+	culture = viet
+	religion = mahayana
+}
+
+11100 = {
+	culture = viet
+	religion = mahayana
+}
+
+11101 = {
+	culture = viet
+	religion = mahayana
+}
+
+11102 = {
+	culture = viet
+	religion = mahayana
+}
+
+11103= {
+	culture = viet
+	religion = mahayana
+}
+
+11104 = {
+	culture = viet
+	religion = mahayana
+}
+
+11105 = {
+	culture = viet
+	religion = mahayana
+}
+
+11106 = {
+	culture = viet
+	religion = mahayana
+}
+
+11107 = {
+	culture = cham
+	religion = mahayana
+}
+
+11108 = {
+	culture = viet
+	religion = mahayana
+}
+
+11109 = {
+	culture = viet
+	religion = mahayana
+}
+
+11110 = {
+	culture = viet
+	religion = mahayana
+}
+
+11111 = {
+	culture = viet
+	religion = mahayana
+}
+
+11112 = {
+	culture = viet
+	religion = mahayana
+}
+
+11113 = {
+	culture = viet
+	religion = mahayana
+}
+
+11114 = {
+	culture = viet
+	religion = mahayana
+}
+
+11115 = {
+	culture = viet
+	religion = mahayana
+}
+
+11116 = {
+	culture = viet
+	religion = mahayana
+}
+
+11117 = {
+	culture = viet
+	religion = mahayana
+}
+
+11145 = {
+	culture = viet
+	religion = mahayana
+}
+
+11146 = {
+	culture = viet
+	religion = mahayana
+}
+
+11147 = {
+	culture = viet
+	religion = mahayana
+}
+
+11148 = {
+	culture = viet
+	religion = mahayana
+}

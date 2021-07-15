@@ -1,0 +1,529 @@
+11046 = {
+	
+	# Misc
+	culture = mon
+	religion = theravada
+	
+	# History
+
+}
+
+11047 = {
+	
+	# Misc
+	culture = mon
+	religion = theravada
+	
+	# History
+
+}
+
+11048 = {
+	
+	# Misc
+	culture = mon
+	religion = theravada
+	
+	# History
+
+}
+
+11049 = {
+	
+	# Misc
+	culture = mon
+	religion = theravada
+	
+	# History
+
+}
+
+11050 = {
+	
+	# Misc
+	culture = mon
+	religion = theravada
+	
+	# History
+
+}
+
+11051 = {
+	
+	# Misc
+	culture = mon
+	religion = theravada
+	
+	# History
+
+}
+
+11052 = {
+	
+	# Misc
+	culture = mon
+	religion = theravada
+	
+	# History
+
+}
+
+11053 = {
+	
+	# Misc
+	culture = mon
+	religion = theravada
+	
+	# History
+
+}
+
+11054 = {
+	
+	# Misc
+	culture = mon
+	religion = theravada
+	
+	# History
+
+}
+
+11055 = {
+	
+	# Misc
+	culture = mon
+	religion = theravada
+	
+	# History
+
+}
+
+11056 = {
+	
+	# Misc
+	culture = mon
+	religion = theravada
+	
+	# History
+
+}
+
+11057 = {
+	
+	# Misc
+	culture = mon
+	religion = theravada
+	
+	# History
+
+}
+
+11058 = {
+	
+	# Misc
+	culture = shan
+	religion = theravada
+	
+	# History
+
+}
+
+11059 = {
+	
+	# Misc
+	culture = shan
+	religion = theravada
+	
+	# History
+
+}
+
+11060 = {
+	
+	# Misc
+	culture = shan
+	religion = theravada
+	
+	# History
+
+}
+
+11061 = {
+	
+	# Misc
+	culture = shan
+	religion = theravada
+	
+	# History
+
+}
+
+11062 = {
+	
+	# Misc
+	culture = shan
+	religion = theravada
+	
+	# History
+
+}
+
+11063 = {
+	
+	# Misc
+	culture = shan
+	religion = theravada
+	
+	# History
+
+}
+
+11064 = {
+	
+	# Misc
+	culture = shan
+	religion = theravada
+	
+	# History
+
+}
+
+11065 = {
+	
+	# Misc
+	culture = shan
+	religion = theravada
+	
+	# History
+
+}
+
+11066 = {
+	
+	# Misc
+	culture = shan
+	religion = theravada
+	
+	# History
+
+}
+
+11067 = {
+	
+	# Misc
+	culture = shan
+	religion = theravada
+	
+	# History
+
+}
+
+11068 = {
+	
+	# Misc
+	culture = shan
+	religion = theravada
+	
+	# History
+
+}
+
+11069 = {
+	
+	# Misc
+	culture = shan
+	religion = theravada
+	
+	# History
+
+}
+
+11070 = {
+	
+	# Misc
+	culture = shan
+	religion = theravada
+	
+	# History
+
+}
+
+11071 = {
+	
+	# Misc
+	culture = shan
+	religion = theravada
+	
+	# History
+
+}
+
+11072 = {
+	
+	# Misc
+	culture = shan
+	religion = theravada
+	
+	# History
+
+}
+
+11073 = {
+	
+	# Misc
+	culture = shan
+	religion = theravada
+	
+	# History
+
+}
+
+11074 = {
+	
+	# Misc
+	culture = shan
+	religion = theravada
+	
+	# History
+
+}
+
+11075 = {
+	
+	# Misc
+	culture = shan
+	religion = theravada
+	
+	# History
+
+}
+
+11076 = {
+	
+	# Misc
+	culture = shan
+	religion = theravada
+	
+	# History
+
+}
+
+11077 = {
+	
+	# Misc
+	culture = shan
+	religion = theravada
+	
+	# History
+
+}
+
+11078 = {
+	
+	# Misc
+	culture = shan
+	religion = theravada
+	
+	# History
+
+}
+
+11079 = {
+	
+	# Misc
+	culture = shan
+	religion = theravada
+	
+	# History
+
+}
+
+11080 = {
+	
+	# Misc
+	culture = shan
+	religion = theravada
+	
+	# History
+
+}
+
+11081 = {
+	
+	# Misc
+	culture = shan
+	religion = theravada
+	
+	# History
+
+}
+
+11082 = {
+	
+	# Misc
+	culture = shan
+	religion = theravada
+	
+	# History
+
+}
+
+11083 = {
+	
+	# Misc
+	culture = shan
+	religion = theravada
+	
+	# History
+
+}
+
+11084 = {
+	
+	# Misc
+	culture = shan
+	religion = theravada
+	
+	# History
+
+}
+
+11085 = {
+	
+	# Misc
+	culture = shan
+	religion = theravada
+	
+	# History
+
+}
+
+11086 = {
+	
+	# Misc
+	culture = shan
+	religion = theravada
+	
+	# History
+
+}
+
+11087 = {
+	
+	# Misc
+	culture = shan
+	religion = theravada
+	
+	# History
+
+}
+
+11088 = {
+	
+	# Misc
+	culture = shan
+	religion = theravada
+	
+	# History
+
+}
+
+11089 = {
+	
+	# Misc
+	culture = shan
+	religion = theravada
+	
+	# History
+
+}
+
+11090 = {
+	
+	# Misc
+	culture = shan
+	religion = theravada
+	
+	# History
+
+}
+
+11091 = {
+	
+	# Misc
+	culture = shan
+	religion = theravada
+	
+	# History
+
+}
+
+11092 = {
+	
+	# Misc
+	culture = shan
+	religion = theravada
+	
+	# History
+
+}
+
+11093 = {
+	
+	# Misc
+	culture = shan
+	religion = theravada
+	
+	# History
+
+}
+
+11094 = {
+	
+	# Misc
+	culture = shan
+	religion = theravada
+	
+	# History
+
+}
+
+11095 = {
+	
+	# Misc
+	culture = shan
+	religion = theravada
+	
+	# History
+
+}
+
+11096 = {
+	
+	# Misc
+	culture = shan
+	religion = theravada
+	
+	# History
+
+}
+
+11097 = {
+	
+	# Misc
+	culture = shan
+	religion = theravada
+	
+	# History
+
+}
+
+11098 = {
+	
+	# Misc
+	culture = shan
+	religion = theravada
+	
+	# History
+
+}

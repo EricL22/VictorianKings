@@ -1,0 +1,68 @@
+#k_en
+##d_loliong
+###c_you
+10808 = { # Ji
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_lyieng
+10792 = { # Hejian
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_mak
+10797 = { # Mo
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_drok
+10803 = { # Fanyang
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_gue
+10817 = { # Huairong
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_gei
+10818 = { # Yuyang
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_ldan
+10821 = { # Miyun
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_bieng
+10823 = { # Lulong
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_lyzeng
+10826 = { # Liucheng
+	culture = han
+	religion = sanjiaoheliu
+}
+
+##d_ngiemu
+###c_deng
+10757 = { # Anxi
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_yiek
+10766 = { # Yi
+	culture = han
+	religion = sanjiaoheliu
+}

@@ -1,0 +1,94 @@
+11149 = {
+	culture = khmer
+	religion = theravada
+}
+
+11150 = {
+	culture = khmer
+	religion = theravada
+}
+
+11151 = {
+	culture = khmer
+	religion = theravada
+}
+
+11152 = {
+	culture = khmer
+	religion = theravada
+}
+
+11153 = {
+	culture = khmer
+	religion = theravada
+}
+
+11154 = {
+	culture = khmer
+	religion = theravada
+}
+
+11155 = {
+	culture = khmer
+	religion = theravada
+}
+
+11156 = {
+	culture = khmer
+	religion = theravada
+}
+
+11157 = {
+	culture = khmer
+	religion = theravada
+}
+
+11158 = {
+	culture = khmer
+	religion = theravada
+}
+
+11159 = {
+	culture = khmer
+	religion = theravada
+}
+
+11160 = {
+	culture = khmer
+	religion = theravada
+}
+
+11161 = {
+	culture = khmer
+	religion = theravada
+}
+
+11162 = {
+	culture = khmer
+	religion = theravada
+}
+
+11163 = {
+	culture = khmer
+	religion = theravada
+}
+
+11164 = {
+	culture = khmer
+	religion = theravada
+}
+
+11165 = {
+	culture = khmer
+	religion = theravada
+}
+
+11166 = {
+	culture = khmer
+	religion = theravada
+}
+
+11167 = {
+	culture = khmer
+	religion = theravada
+}

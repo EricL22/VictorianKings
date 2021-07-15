@@ -1,0 +1,83 @@
+10987 = {
+	
+	# Misc
+	culture = buryat
+	religion = tengri_pagan
+	1650.1.1 = {
+		culture = kamchatkan
+		
+	}
+	
+	# History
+
+}
+
+10988 = {
+	
+	# Misc
+	culture = buryat
+	religion = tengri_pagan
+	1650.1.1 = {
+		culture = kamchatkan
+		
+	}
+	
+	# History
+
+}
+
+10989 = {
+	
+	# Misc
+	culture = buryat
+	religion = tengri_pagan
+	1650.1.1 = {
+		culture = kamchatkan
+		
+	}
+	
+	# History
+
+}
+
+10990 = {
+	
+	# Misc
+	culture = buryat
+	religion = tengri_pagan
+	1650.1.1 = {
+		culture = kamchatkan
+		
+	}
+	
+	# History
+
+}
+
+10991 = {
+	
+	# Misc
+	culture = buryat
+	religion = tengri_pagan
+	1650.1.1 = {
+		culture = kamchatkan
+		
+	}
+	
+	# History
+
+}
+
+11029 = {
+	
+	# Misc
+	culture = buryat
+	religion = tengri_pagan
+	1650.1.1 = {
+		culture = kamchatkan
+		
+	}
+	
+	# History
+
+}

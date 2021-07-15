@@ -1,0 +1,89 @@
+10939 = {	# KANGGYE
+	
+	# Misc
+	culture = jurchen
+	religion = tengri_pagan
+	
+	# History
+	1150.1.1 = { religion = sanjiaoheliu }
+	1650.1.1 = { culture = korean }
+
+}
+
+10940 = {	# CHONGJIN
+	
+	# Misc
+	culture = jurchen
+	religion = tengri_pagan
+	
+	# History
+	1150.1.1 = { religion = sanjiaoheliu }
+	1650.1.1 = { culture = korean }
+
+}
+
+10941 = {	# CHANGCHUN
+	
+	# Misc
+	culture = jurchen
+	religion = tengri_pagan
+	
+	# History
+	1750.1.1 = { religion = sanjiaoheliu }
+
+}
+
+10942 = {	# JIANZHOU
+	
+	# Misc
+	culture = jurchen
+	religion = tengri_pagan
+	
+	# History
+	1750.1.1 = { religion = sanjiaoheliu }
+
+}
+
+10943 = {	# JIXI
+	
+	# Misc
+	culture = jurchen
+	religion = tengri_pagan
+	
+	# History
+	1750.1.1 = { religion = sanjiaoheliu }
+
+}
+
+10944 = {	# YANBIAN
+	
+	# Misc
+	culture = jurchen
+	religion = tengri_pagan
+	
+	# History
+	1750.1.1 = { religion = sanjiaoheliu }
+
+}
+
+10945 = {	# MUDAN
+	
+	# Misc
+	culture = jurchen
+	religion = tengri_pagan
+	
+	# History
+	1750.1.1 = { religion = sanjiaoheliu }
+
+}
+
+10946 = {	# ANBIAN
+	
+	# Misc
+	culture = jurchen
+	religion = tengri_pagan
+	
+	# History
+	1750.1.1 = { religion = sanjiaoheliu }
+
+}

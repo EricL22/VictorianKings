@@ -1,0 +1,114 @@
+10912 = {	#Tungo
+	culture = buryat
+	religion = tengri_pagan
+	holding = tribal_holding
+}
+
+10914 = {	#Linhuang
+	culture = mongol
+	religion = tengri_pagan
+	holding = tribal_holding
+}
+10915 = {	#Zubu
+	culture = mongol
+	religion = tengri_pagan
+	holding = tribal_holding
+}
+10918 = {	#Zusan
+	#Entirely fictional
+	culture = mongol
+	religion = tengri_pagan
+	holding = tribal_holding
+}
+10920 = {	#Zhenzhou
+	culture = mongol
+	religion = tengri_pagan
+	holding = tribal_holding
+}
+10921 = {	#Dilie
+	culture = mongol
+	religion = tengri_pagan
+	holding = tribal_holding
+}
+10922 = {	#Xioulie
+	#Entirely fictional
+	culture = mongol
+	religion = tengri_pagan
+	holding = tribal_holding
+}
+10923 = {	#Wuhuan
+	#Named after local river
+	culture = mongol
+	religion = tengri_pagan
+	holding = tribal_holding
+}
+10924 = {	#Wugu
+	culture = mongol
+	religion = tengri_pagan
+	holding = tribal_holding
+}
+10925 = {	#Wuchun
+	#Entirely fictional
+	culture = mongol
+	religion = tengri_pagan
+	holding = tribal_holding
+}
+10926 = {	#Tumed Right Banner
+	#Provincial district
+	culture = mongol
+	religion = tengri_pagan
+	holding = tribal_holding
+}
+10927 = {	#Ulanqab
+	#Provincial district
+	culture = mongol
+	religion = tengri_pagan
+	holding = tribal_holding
+}
+
+10928 = {	#Chengde
+	#Local city
+	culture = khitan
+	religion = tengri_pagan
+}
+10929 = {	#Zhangjiakou
+	#Provincial district
+	culture = khitan
+	religion = tengri_pagan
+}
+10930 = {	#Xiouzhou
+	#Entirely fictional
+	culture = khitan
+	religion = tengri_pagan
+}
+
+10965 = {	#Mogochin
+	#local settlement
+	culture = buryat
+	religion = tengri_pagan
+	holding = tribal_holding
+}
+10966 = {	#Tungiro
+	#local settlement
+	culture = buryat
+	religion = tengri_pagan
+	holding = tribal_holding
+}
+10967 = {	#Kalarsky
+	#local settlement
+	culture = buryat
+	religion = tengri_pagan
+	holding = tribal_holding
+}
+10968 = {	#Gyrshelunki
+	#Named after local river
+	culture = buryat
+	religion = tengri_pagan
+	holding = tribal_holding
+}
+
+11218 = {	#Xilingol
+	culture = mongol
+	religion = tengri_pagan
+	holding = tribal_holding
+}

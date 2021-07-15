@@ -1,0 +1,164 @@
+10949 = {
+	
+	# Misc
+	culture = korean
+	religion = mahayana
+	
+	# History
+	1650.1.1 = { religion = lixue }
+
+}
+
+10950 = {
+	
+	# Misc
+	culture = korean
+	religion = mahayana
+	
+	# History
+	1650.1.1 = { religion = lixue }
+
+}
+
+10951 = {
+	
+	# Misc
+	culture = korean
+	religion = mahayana
+	
+	# History
+	1650.1.1 = { religion = lixue }
+
+}
+
+10952 = {
+	
+	# Misc
+	culture = korean
+	religion = mahayana
+	
+	# History
+	1650.1.1 = { religion = lixue }
+
+}
+
+10953 = {
+	
+	# Misc
+	culture = korean
+	religion = mahayana
+	
+	# History
+	1650.1.1 = { religion = lixue }
+
+}
+
+10954 = {
+	
+	# Misc
+	culture = korean
+	religion = mahayana
+	
+	# History
+	1650.1.1 = { religion = lixue }
+
+}
+
+10955 = {
+	
+	# Misc
+	culture = korean
+	religion = mahayana
+	
+	# History
+	1650.1.1 = { religion = lixue }
+
+}
+
+10956 = {
+	
+	# Misc
+	culture = korean
+	religion = mahayana
+	
+	# History
+	1650.1.1 = { religion = lixue }
+
+}
+
+10957 = {
+	
+	# Misc
+	culture = korean
+	religion = mahayana
+	
+	# History
+	1650.1.1 = { religion = lixue }
+
+}
+
+10958 = {
+	
+	# Misc
+	culture = korean
+	religion = mahayana
+	
+	# History
+	1650.1.1 = { religion = lixue }
+
+}
+
+10959 = {
+	
+	# Misc
+	culture = korean
+	religion = mahayana
+	
+	# History
+	1650.1.1 = { religion = lixue }
+
+}
+
+11033 = {
+	
+	# Misc
+	culture = korean
+	religion = mahayana
+	
+	# History
+	1650.1.1 = { religion = lixue }
+
+}
+
+11034 = {
+	
+	# Misc
+	culture = korean
+	religion = mahayana
+	
+	# History
+	1650.1.1 = { religion = lixue }
+
+}
+
+11035 = {
+	
+	# Misc
+	culture = korean
+	religion = mahayana
+	
+	# History
+	1650.1.1 = { religion = lixue }
+
+}
+
+11036 = {
+	
+	# Misc
+	culture = korean
+	religion = mahayana
+	
+	# History
+	1650.1.1 = { religion = lixue }
+
+}
