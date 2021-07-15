@@ -1,0 +1,15 @@
+﻿l_russian:
+ # MAJOR RIVERS
+ river_yellow:0 "Хуанхэ"
+ river_yangtze:0 "Янцзы"
+ 
+ # SEA ZONES
+ sea_gulf_of_tonkin:0 "Тонкинский залив"
+ sea_pearl_river_delta:0 "Дельта Жемчужной реки"
+ sea_taiwan_strait:0 "Тайваньский пролив"
+ sea_yangtze_river_delta:0 "Дельта Янцзы"
+ sea_west_yellow_sea:0 "Западное Желтое море"
+ sea_east_yellow_sea:0 "Восточное Желтое море"
+ sea_korea_bay:0 "Корейский залив"
+ sea_bohai_sea:0 "Бохайское море"
+ sea_andaman:0 "Андаманское море"

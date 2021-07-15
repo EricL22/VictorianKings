@@ -1,0 +1,11 @@
+﻿l_russian:
+
+ IS_CIVILIAN_GOVERNOR_NO_WAR:0 "[TARGET_CHARACTER.GetShortUIName|U] не может действовать независимо от своего [сеньора|E] во внешней политике"
+ IS_CIVILIAN_GOVERNOR_NO_WAR_REVERSE:0 "Вы должны находиться в области с Низким [crown_authority|E], чтобы вызвать [TARGET_CHARACTER.GetShortUIName|U] на войну"
+
+ recently_passed_reform:0 "Вы недавно прошли реформу"
+ requires_absolutism_innovation:0 "Вы еще не открыли для себя абсолютизм"
+ form_independent_requirement:0 "Вы должны быть независимым правителем, чтобы проводить реформы"
+ centralized_no_free_war_contract:0 "Только протектораты могут самостоятельно объявлять войну в централизованном государстве"
+
+ MY_PRESTIGE_LEVEL_IS_NOT_AT_LEAST_FOUR:1 "Ваш [prestige_level|E] недостаточно высок"

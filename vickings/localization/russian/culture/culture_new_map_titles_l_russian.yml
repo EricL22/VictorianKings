@@ -1,0 +1,17 @@
+﻿l_russian:
+ # Chinese
+ baron_feudal_male_chinese_group:0 "Сянь-линь"
+ baron_feudal_female_chinese_group:0 "Сянь-линь"
+ barony_feudal_chinese_group:0 "Сиань"
+ count_feudal_male_chinese_group:0 "Сиши"
+ count_feudal_female_chinese_group:0 "Сиши"
+ county_feudal_chinese_group:0 "Чжоу"
+ duke_feudal_male_chinese_group:0 "Цзедуши"
+ duke_feudal_female_chinese_group:0 "Цзедуши"
+ duchy_feudal_chinese_group:0 "Июн"
+ king_feudal_male_chinese_group:0 "Король"
+ king_feudal_female_chinese_group:0 "Королева"
+ kingdom_feudal_chinese_group:0 "Царство"
+ emperor_feudal_male_chinese_group:0 "Император"
+ emperor_feudal_female_chinese_group:0 "Императрица"
+ empire_feudal_chinese_group:0 "Династия"

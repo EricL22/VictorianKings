@@ -1,0 +1,5 @@
+﻿l_russian:
+
+ take_concubine_taoism:0 "Вы должны быть законным императором Китая, чтобы иметь больше [CHARACTER.Custom('ConcubinesConsorts')]"
+ doctrine_chinese_concubines_name:0 "Императорское китайское сожительство"
+ doctrine_chinese_concubines_desc:0 "Император Китая, которому поклоняются как Сыну Неба, может иметь до 1000 супругов. Другие последователи веры ограничены 3 супругами."
