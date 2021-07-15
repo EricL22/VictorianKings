@@ -1,0 +1,60 @@
+k_siam = {
+	#Chakri Dynasty
+	1782.4.6 = {
+		name = RATTANAKOSIN
+		holder = 6200300 #Rama I
+	}
+	1809.9.7 = {
+		holder = 6200301 #Rama II
+	}
+	1824.7.21 = {
+		holder = 6200302 #Rama III
+	}
+	1851.4.2 = {
+		holder = 6200303 #Rama IV
+	}
+}
+
+d_bangkok = {
+	1800.1.1 = { change_development_level = 22 }
+}
+
+c_bangkok = {
+	1800.1.1 = { change_development_level = 54 }
+}
+
+d_nakhon_ratchasima = {
+	1800.1.1 = { change_development_level = 18 }
+}
+
+d_chiang_mai = {
+	1800.1.1 = { change_development_level = 16 }
+}
+
+c_nan = {
+	1800.1.1 = { change_development_level = 14 }
+}
+
+c_chiang_rai = {
+	1800.1.1 = { change_development_level = 18 }
+}
+
+c_chiang_mai = {
+	1800.1.1 = { change_development_level = 30 }
+}
+
+d_sukhothai = {
+	1800.1.1 = { change_development_level = 18 }
+}
+
+c_sukhothai = {
+	1800.1.1 = { change_development_level = 24 }
+}
+
+d_chaiya = {
+	1800.1.1 = { change_development_level = 14 }
+}
+
+d_kelantan = {
+	1800.1.1 = { change_development_level = 22 }
+}
