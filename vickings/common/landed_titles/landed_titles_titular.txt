@@ -1,0 +1,221 @@
+﻿@always_primary_score = 1000
+
+e_khitan = {
+	color = { 33 86 22 }
+	color2= { 255 255 255 }
+	can_be_named_after_dynasty = no
+	
+	capital = c_linhuang
+	
+	can_create = {
+		always = no
+	}
+	
+	ai_primary_priority = {
+		add = @always_primary_score
+	}
+}
+
+e_jurchen_china = { # Jin dynasty
+	color = { 86 33 22 }
+	color2= { 113 157 108 }
+	can_be_named_after_dynasty = no
+	
+	capital = c_you
+	
+	can_create = {
+		always = no # Created through special circumstances only
+	}
+
+	ai_primary_priority = {
+		add = @always_primary_score
+	}
+}
+
+k_chrysanthemum_throne = {
+	color = { 140 0 0 }
+	color2 = { 220 220 0 }
+	definite_form = yes
+	ruler_uses_title_name = no
+	landless = yes
+	
+	capital = c_yamashiro
+	
+	ai_primary_priority = {
+		add = @always_primary_score
+	}
+	
+	destroy_if_invalid_heir = yes
+	no_automatic_claims = yes
+	always_follows_primary_heir = yes
+	de_jure_drift_disabled = yes
+	can_be_named_after_dynasty = no
+}
+
+d_temple_names_progenitor = {
+	color = { 33 86 22 }
+	color2= { 255 255 255 }
+	definite_form = yes
+	ruler_uses_title_name = no
+	landless = yes
+	
+	capital = c_you
+	
+	ai_primary_priority = {
+		add = @always_primary_score
+	}
+
+	destroy_if_invalid_heir = yes
+	no_automatic_claims = yes
+	always_follows_primary_heir = yes
+	de_jure_drift_disabled = yes
+
+	male_names = { Chengzu Gaozu Jingzu Liezu Shizu Shengzu Xianzu Zhaozu }
+}
+
+d_temple_names_ancestor = {
+	color = { 33 86 22 }
+	color2= { 255 255 255 }
+	definite_form = yes
+	ruler_uses_title_name = no
+	landless = yes
+	
+	capital = c_you
+	
+	ai_primary_priority = {
+		add = @always_primary_score
+	}
+
+	destroy_if_invalid_heir = yes
+	no_automatic_claims = yes
+	always_follows_primary_heir = yes
+	de_jure_drift_disabled = yes
+
+	male_names = { Aizong Anzong Changzong Chengzong Chongzong Daizong Daozong Dezong Dingzong Duanzong Duzong Gongzong Guangzong Huanzong Huizong Jingzong Jinzong Kangzong Liezong Lizong Mingzong Muzong Ningzong Pingzong Qinzong Renzong Ruizong Gaozong Shaozong Shengzong Shenzong Shizong Shunzong Sizong Suzong Wenzong Wuzong Xiangzong Xianzong Xiaozong Xingzong Xizong Xuanzong Yanzong Yingzong Yizong Zhangzong Zhaozong Zhenzong Zhezong Zhizong Zhongzong Zhuangzong }
+}
+
+d_viet_temple_names_progenitor = {
+	color = { 33 86 22 }
+	color2= { 255 255 255 }
+	definite_form = yes
+	ruler_uses_title_name = no
+	landless = yes
+	
+	capital = c_gaao
+	
+	ai_primary_priority = {
+		add = @always_primary_score
+	}
+
+	destroy_if_invalid_heir = yes
+	no_automatic_claims = yes
+	always_follows_primary_heir = yes
+	de_jure_drift_disabled = yes
+
+	male_names = { Thanh-To Cao-To Canh-To Liet-To The-To Thai-To Hien-To Trieu-To }
+}
+
+d_viet_temple_names_ancestor = {
+	color = { 33 86 22 }
+	color2= { 255 255 255 }
+	definite_form = yes
+	ruler_uses_title_name = no
+	landless = yes
+	
+	capital = c_gaao
+	
+	ai_primary_priority = {
+		add = @always_primary_score
+	}
+
+	destroy_if_invalid_heir = yes
+	no_automatic_claims = yes
+	always_follows_primary_heir = yes
+	de_jure_drift_disabled = yes
+
+	male_names = { Ai-Tong An-Tong Chang-Tong Thanh-Tong Sung-Tong Dai-Tong Dao-Tong Duc-Tong Dinh-Tong Doan-Tong Do-Tong Cung-Tong Quang-Tong Hoan-Tong Hue-Tong Canh-Tong Jin-Tong Khang-Tong Liet-Tong Ly-Tong Minh-Tong Muc-Tong Ninh-Tong Binh-Tong Kham-Tong Nhan-Tong Due-Tong Cao-Tong Thieu-Tong Than-Tong The-Tong Thuan-Tong Tu-Tong Tuc-Tong Van-Tong Vu-Tong Tuong-Tong Hien-Tong Hieu-Tong Hung-Tong Hy-Tong Tuyen-Tong Y-Tong Anh-Tong Nghe-Tong Chuong-Tong Chieu-Tong Chan-Tong Triet-Tong Chat-Tong Trung-Tong Trang-Tong }
+}
+
+d_korean_temple_names_progenitor = {
+	color = { 33 86 22 }
+	color2= { 255 255 255 }
+	definite_form = yes
+	ruler_uses_title_name = no
+	landless = yes
+	
+	capital = c_you
+	
+	ai_primary_priority = {
+		add = @always_primary_score
+	}
+
+	destroy_if_invalid_heir = yes
+	no_automatic_claims = yes
+	always_follows_primary_heir = yes
+	de_jure_drift_disabled = yes
+
+	male_names = { Seongjo Gojo Gyeongjo Yeoljo Sejo Dojo Hyeonjo Sojo }
+}
+
+d_korean_temple_names_ancestor = {
+	color = { 33 86 22 }
+	color2= { 255 255 255 }
+	definite_form = yes
+	ruler_uses_title_name = no
+	landless = yes
+	
+	capital = c_you
+	
+	ai_primary_priority = {
+		add = @always_primary_score
+	}
+
+	destroy_if_invalid_heir = yes
+	no_automatic_claims = yes
+	always_follows_primary_heir = yes
+	de_jure_drift_disabled = yes
+
+	male_names = { Aejong Anjong Jangjong Seongjong Sungjong Daejong Dojong Deokjong Jeongjong Danjong Sunjong Gongjong Gwangjong Hwanjong Hyejong Gyeongjong Jinjong Gangjong Yeoljong Yijong Myeongjong Mokjong Yeongjong Pyeongjong Heumjong Injong Yejong Gojong Sojong Sinjong Sejong Shunjong Sajong Sukjong Munjong Mujong Yangjong Hyeonjong Heonjong Hyojong Heungjong Huijong Seonjong Neoljong Uijong Cheoljong Jiljong Jungjong }
+}
+
+d_era_name_rama = {
+	color = { 33 86 22 }
+	color2= { 255 255 255 }
+	definite_form = yes
+	ruler_uses_title_name = no
+	landless = yes
+	
+	capital = c_bangkok
+	
+	ai_primary_priority = {
+		add = @always_primary_score
+	}
+
+	destroy_if_invalid_heir = yes
+	no_automatic_claims = yes
+	always_follows_primary_heir = yes
+	de_jure_drift_disabled = yes
+
+	male_names = { Rama }
+}
+
+d_japanese_posthumous_names = {	# these also double as era names if the Meiji Restoration has happened
+	color = { 33 86 22 }
+	color2= { 255 255 255 }
+	definite_form = yes
+	ruler_uses_title_name = no
+	landless = yes
+	
+	capital = c_yamashiro
+	
+	ai_primary_priority = {
+		add = @always_primary_score
+	}
+
+	destroy_if_invalid_heir = yes
+	no_automatic_claims = yes
+	always_follows_primary_heir = yes
+	de_jure_drift_disabled = yes
+
+	male_names = { Heisei Kokaku Komei Ninko Reiwa Showa Taisho Koga Koji Johei Koken Kanga Kinho Roko Botoku Koka Kaei Ansei Genji Keio }
+}

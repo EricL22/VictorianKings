@@ -1,0 +1,363 @@
+﻿## These are really not in numeric order... sorry...
+174685 = {
+	prefix = "dynnp_di"
+	name = "dynn_Buonaparte"
+	culture = "italian"
+}
+180405 = {
+	name = "dynn_Bonaparte"
+	culture = "french"
+}
+
+378212 = {
+	name = "dynn_Wellesley"
+	culture = "english"
+}
+
+221513 = {
+	name = "dynn_Callimachi"
+	culture = "vlach"
+}
+
+180553 = {
+	name = "dynn_Alawiyya"
+	culture = egyptian
+}
+
+181542 = {
+	name = "dynn_Obrenovic"
+	culture = "serbian"
+}
+
+128550 = {
+	prefix = "dynnp_von"
+	name = "dynn_Dalberg"
+	culture = franconian
+}
+
+181800 = {
+	name = "dynn_Bernadotte"
+	culture = swedish
+}
+
+qajar = {
+	name = "dynn_Qajar"
+	culture = persian
+}
+
+100024 = {
+	name = "dynn_Gyatso"
+	culture = bodpa
+}
+
+bhonsle = {
+	name = "dynn_Bhonsle"
+	culture = marathi
+}
+
+169420 = {
+	name = "dynn_Holkar"
+	culture = marathi
+}
+
+scindia = {
+	name = "dynn_Shinde"
+	culture = marathi
+}
+
+171947 = {
+	name = "dynn_Gaekwad"
+	culture = marathi
+}
+
+800000 = {
+	name = "dynn_Timurid"
+	culture = hindustani
+}
+
+175285 = {
+	name = "dynn_Konbaung"
+	culture = burmese
+}
+
+saudi = {
+	name = "dynn_Saud"
+	culture = bedouin
+}
+
+174719 = {
+	name = "dynn_Durrani"
+	culture = afghan
+}
+
+182373 = {
+	name = "dynn_Barakzai"
+	culture = afghan
+}
+
+161612 = {
+	name = "dynn_Aisin_Gioro"
+	culture = jurchen
+}
+
+180283 = {
+	name = "dynn_Nguyen"
+	culture = viet
+}
+
+173621 = {
+	prefix = "dynnp_de"
+	name = "dynn_Talleyrand_Reims"
+	culture = french
+}
+
+176139 = {
+	prefix = "dynnp_de"
+	name = "dynn_Latil_Reims"
+	culture = french
+}
+
+139210 = {
+	name = "dynn_Yii"
+	culture = korean
+}
+
+164275 = {
+	name = "dynn_Namgyal"
+	culture = bodpa
+}
+
+173938 = {
+	name = "dynn_Gyaltshen"
+	culture = lhomon
+}
+
+178075 = {
+	name = "dynn_Khun"
+	culture = lao
+}
+
+177021 = {
+	name = "dynn_Varman"
+	culture = khmer
+}
+
+178221 = {
+	name = "dynn_Chakri"
+	culture = thai
+}
+
+talpur = {
+	name = "dynn_Talpur"
+	culture = baloch
+}
+
+141055 = {
+	name = "dynn_Ahmadzai"
+	culture = baloch
+}
+
+179949 = {
+	name = "dynn_Sandhawalia"
+	culture = "punjabi"
+}
+
+163132 = {
+	name = "dynn_Alaouite"
+	culture = "maghrebi"
+}
+
+191124 = {
+	name = "dynn_Bogd"
+	culture = mongol
+}
+
+660268 = {
+	name = "dynn_Yamato"
+	culture = japanese
+}
+
+156768 = {
+	name = "dynn_Tokugawa"
+	culture = japanese
+}
+
+141873 = {
+	name = "dynn_Matsudaira"
+	culture = japanese
+}
+
+174871 = {
+	name = "dynn_Aoyama"
+	culture = japanese
+}
+
+141647 = {
+	name = "dynn_Sakai"
+	culture = japanese
+}
+
+161969 = {
+	name = "dynn_Ii"
+	culture = japanese
+}
+
+151200 = {
+	name = "dynn_Yanagisawa"
+	culture = japanese
+}
+
+168018 = {
+	name = "dynn_Nagai"
+	culture = japanese
+}
+
+156125 = {
+	name = "dynn_Okabe"
+	culture = japanese
+}
+
+850880 = {
+	name = "dynn_Hachisuka"
+	culture = japanese
+}
+
+160068 = {
+	name = "dynn_Yamauchi"
+	culture = japanese
+}
+
+158350 = {
+	name = "dynn_Sengoku"
+	culture = japanese
+}
+
+112128 = {
+	name = "dynn_Ikeda"
+	culture = japanese
+}
+
+156181 = {
+	name = "dynn_Itakura"
+	culture = japanese
+}
+
+794185 = {
+	name = "dynn_Abe"
+	culture = japanese
+}
+
+122168 = {
+	name = "dynn_Asano"
+	culture = japanese
+}
+
+153086 = {
+	name = "dynn_Mori"
+	culture = japanese
+}
+
+119647 = {
+	name = "dynn_Shimazu"
+	culture = japanese
+}
+
+143114 = {
+	name = "dynn_Naitou"
+	culture = japanese
+}
+
+160067 = {
+	name = "dynn_Ogasawara"
+	culture = japanese
+}
+
+199293 = {
+	name = "dynn_Nakagawa"
+	culture = japanese
+}
+
+406016 = {
+	name = "dynn_Kuroda"
+	culture = japanese
+}
+
+941873 = {
+	name = "dynn_Arima"
+	culture = japanese
+}
+
+120067 = {
+	name = "dynn_Matsuura"
+	culture = japanese
+}
+
+201315 = {
+	name = "dynn_Hosokawa"
+	culture = japanese
+}
+
+131987 = {
+	name = "dynn_Sou"
+	culture = japanese
+}
+
+158571 = {
+	name = "dynn_Todo"
+	culture = japanese
+}
+
+146986 = {
+	name = "dynn_Inagaki"
+	culture = japanese
+}
+
+123006 = {
+	name = "dynn_Toda"
+	culture = japanese
+}
+
+161547 = {
+	name = "dynn_Sanada"
+	culture = japanese
+}
+
+118971 = {
+	name = "dynn_Date"
+	culture = japanese
+}
+
+700868 = {
+	name = "dynn_Nanbu"
+	culture = japanese
+}
+
+159073 = {
+	name = "dynn_Tsugaru"
+	culture = japanese
+}
+
+121873 = {
+	name = "dynn_Satake"
+	culture = japanese
+}
+
+186850 = {
+	name = "dynn_Maeda"
+	culture = japanese
+}
+
+915841 = {
+	name = "dynn_Sakakibara"
+	culture = japanese
+}
+
+159078 = {
+	name = "dynn_Matsumae"
+	culture = japanese
+}
+
+146979 = {
+	name = "dynn_Shou"
+	culture = japanese
+}

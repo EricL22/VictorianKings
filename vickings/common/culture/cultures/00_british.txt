@@ -1,0 +1,772 @@
+﻿british_group = {
+	graphical_cultures = {
+		english_coa_gfx
+		western_building_gfx
+		western_clothing_gfx
+		western_unit_gfx
+	}
+
+	english = {
+		
+		
+		color = { 153 0 0 }
+
+		cadet_dynasty_names = {
+			{ "dynnp_de" "dynn_Bohun" }
+			{ "dynnp_de" "dynn_Vere" }
+			{ "dynnp_de" "dynn_Gand" }
+			{ "dynnp_de" "dynn_Turberville" }
+			{ "dynnp_de" "dynn_Holland" }
+			{ "dynnp_of" "dynn_Thornham" }
+			{ "dynnp_de" "dynn_Camville" }
+			{ "dynnp_of" "dynn_Itchington" }
+			{ "dynnp_of" "dynn_Northall" }
+			{ "dynnp_de" "dynn_Montagu" }
+			{ "dynnp_de" "dynn_Umfraville" }
+			{ "dynnp_of" "dynn_Warwick" }
+			{ "dynnp_de" "dynn_Beauchamp" }
+			{ "dynnp_of" "dynn_Ilchester" }
+			{ "dynnp_de" "dynn_Raleigh" }
+			{ "dynnp_de" "dynn_Stratford" }
+			{ "dynnp_de" "dynn_la_Pole" }
+		}
+
+		dynasty_names = {
+			"dynn_Myall"
+			"dynn_Butler"
+			"dynn_Breakspear"
+			"dynn_FitzPeter"
+			"dynn_Belles-mains"
+			"dynn_FitzAlan"
+			"dynn_Becket"
+			#####################New Dinasties
+			"dynn_Allenby"
+			"dynn_Beatty"
+			"dynn_Beresford"
+			"dynn_Brown"
+			"dynn_Buller"
+			"dynn_Butler"
+			"dynn_Campbell"
+			"dynn_Cardigan"
+			"dynn_Churchill"
+			"dynn_Cochrane"
+			"dynn_Cockburn"
+			"dynn_Dundas"
+			"dynn_Fisher"
+			"dynn_French"
+			"dynn_Gough"
+			"dynn_Grant"
+			"dynn_Grenfell"
+			"dynn_Haig"
+			"dynn_Murphy"
+			"dynn_Hamilton"
+			"dynn_Hardinge"
+			"dynn_Havelock"
+			"dynn_Hope"
+			"dynn_Jellicoe"
+			"dynn_Kitchener"
+			"dynn_Lyons"
+			"dynn_Madden"
+			"dynn_Milne"
+			"dynn_Montgomery"
+			"dynn_Moresby"
+			"dynn_Mundy"
+			"dynn_Napier"
+			"dynn_Plummer"
+			"dynn_Ragland"
+			"dynn_Roberts"
+			"dynn_Seaton"
+			"dynn_Seymour"
+			"dynn_Collin"
+			"dynn_Smith"
+			"dynn_Stewart"
+			"dynn_Thesiger"
+			"dynn_Tyron"
+			"dynn_Tyrwhitt"
+			"dynn_Williams"
+			"dynn_Wolseley"
+			"dynn_Wood"
+			"dynn_Leiper"
+			"dynn_Washington"
+			"dynn_Sherman"
+			"dynn_Chamberlain"
+			"dynn_Powell"
+			"dynn_Clemens"
+			"dynn_Abbott"
+			"dynn_Abercrombie"
+			"dynn_Allen"
+			"dynn_Ames"
+			"dynn_Anderson"
+			"dynn_Barkhauer"
+			"dynn_Andrews"
+			"dynn_Appleton"
+			"dynn_Armstrong"
+			"dynn_Arthur"
+			"dynn_Atkins"
+			"dynn_Asboth"
+			"dynn_Babcock"
+			"dynn_Baker"
+			"dynn_Pope"
+			"dynn_Banks"
+			"dynn_Barnard"
+			"dynn_Barnes"
+			"dynn_Barnum"
+			"dynn_Barry"
+			"dynn_Barstow"
+			"dynn_Bartlett"
+			"dynn_Bates"
+			"dynn_Baxter"
+			"dynn_Belknap"
+			"dynn_Benton"
+			"dynn_Blair"
+			"dynn_Blunt"
+			"dynn_Bradley"
+			"dynn_Buell"
+			"dynn_Buford"
+			"dynn_Burnside"
+			"dynn_Caldwell"
+			"dynn_Carr"
+			"dynn_Chapman"
+			"dynn_Chipman"
+			"dynn_Clayton"
+			"dynn_Coburn"
+			"dynn_Connor"
+			"dynn_Conrad"
+			"dynn_Cook"
+			"dynn_Cooper"
+			"dynn_Crittenden"
+			"dynn_Custer"
+			"dynn_Davies"
+			"dynn_Davis"
+			"dynn_Doubleday"
+			"dynn_Ewing"
+			"dynn_Farnsworth"
+			"dynn_Ford"
+			"dynn_Forsyth"
+			"dynn_Foster"
+			"dynn_Franklin"
+			"dynn_Fry"
+			"dynn_Gilbert"
+			"dynn_Gregg"
+			"dynn_Griffin"
+			"dynn_Halleck"
+			"dynn_Hamlin"
+			"dynn_Hancock"
+			"dynn_Harrison"
+			"dynn_Hatch"
+			"dynn_Hayes"
+			"dynn_Heintzelman"
+			"dynn_Hooker"
+			"dynn_Howard"
+			"dynn_Hunter"
+			"dynn_Jackson"
+			"dynn_Johnson"
+			"dynn_Jones"
+			"dynn_Keyes"
+			"dynn_Kimball"
+			"dynn_Lyon"
+			"dynn_Meade"
+			"dynn_Mitchell"
+			"dynn_Morgan"
+			"dynn_Paine"
+			"dynn_Phelps"
+			"dynn_Porter"
+			"dynn_Reynolds"
+			"dynn_Rice"
+			"dynn_Rhodes"
+			"dynn_Robinson"
+			"dynn_Rosencrans"
+			"dynn_Saloman"
+			"dynn_Schenck"
+			"dynn_Schofield"
+			"dynn_Scott"
+			"dynn_Sedgwick"
+			"dynn_Seward"
+			"dynn_Sheridan"
+			"dynn_Sickles"
+			"dynn_Sprague"
+			"dynn_Stevens"
+			"dynn_Stevenson"
+			"dynn_Stone"
+			"dynn_Sullivan"
+			"dynn_Tyler"
+			"dynn_Wade"
+			"dynn_Wadsworth"
+			"dynn_Wallace"
+			"dynn_Ward"
+			"dynn_Warner"
+			"dynn_Wilson"
+			"dynn_Wright"
+			"dynn_Young"
+			"dynn_Lee"
+			"dynn_Beauregard"
+			"dynn_Stuart"
+			"dynn_Longstreet"
+			"dynn_Forrest"
+			"dynn_Pickett"
+			"dynn_Mosby"
+			"dynn_Cleburne"
+			"dynn_Hood"
+			"dynn_Breckenridge"
+			"dynn_Bragg"
+			"dynn_Barksdale"
+			"dynn_Early"
+			"dynn_Hill"
+			"dynn_Ewell"
+			"dynn_Armistead"
+			"dynn_Semmes"
+			"dynn_Hampton"
+			"dynn_Polk"
+			"dynn_Cheatham"
+			"dynn_Wheeler"
+			"dynn_Pemberton"
+			"dynn_Gordon"
+			"dynn_Hardee"
+			"dynn_Floyd"
+			"dynn_Price"
+			"dynn_Wise"
+			"dynn_Loring"
+			"dynn_Buckner"
+			"dynn_Taylor"
+			"dynn_Gibbs"
+			"dynn_Hindman"
+			"dynn_Sibley"
+			"dynn_Garnett"
+			"dynn_Magruder"
+			"dynn_Pillow"
+			"dynn_Rodes"
+			"dynn_Heth"
+			"dynn_Pender"
+			"dynn_Trimble"
+			"dynn_Kershaw"
+			"dynn_Wofford"
+			"dynn_Kemper"
+			"dynn_Law"
+			"dynn_Robertson"
+			"dynn_Benning"
+			"dynn_Hays"
+			"dynn_Walker"
+			"dynn_Iverson"
+			"dynn_Wilcox"
+			"dynn_Pettigrew"
+			"dynn_Mahone"
+			"dynn_Archer"
+			"dynn_Lane"
+			"dynn_Posey"
+			"dynn_Scales"
+			"dynn_Imboden"
+			"dynn_Jenkins"
+			"dynn_Bee"
+			"dynn_Ector"
+			"dynn_Gano"
+			"dynn_Carson"
+			"dynn_Granbury"
+			"dynn_Green"
+			"dynn_Greer"
+			"dynn_Hardeman"
+			"dynn_Johnston"
+			"dynn_King"
+			"dynn_Mabry"
+			"dynn_Maxey"
+			"dynn_Moore"
+			"dynn_Nelson"
+			"dynn_Randal"
+			"dynn_Ross"
+			"dynn_Rosser"
+			"dynn_Scurry"
+			"dynn_Steele"
+			"dynn_Terrell"
+			"dynn_Waterhouse"
+			"dynn_Waul"
+			"dynn_Wharton"
+			"dynn_Whitfield"
+			"dynn_Wigfall"
+			"dynn_Travis"
+			"dynn_Bowie"
+			"dynn_Houston"
+			"dynn_Wells"
+			"dynn_Holmgren"
+			"dynn_Foss"
+			"dynn_Boyington"
+			"dynn_Preddy"
+			"dynn_Gabreski"
+			"dynn_Bong"
+			"dynn_Gentile"
+			"dynn_Christensen"
+			"dynn_Lynch"
+			"dynn_Westbrook"
+			"dynn_Fleming"
+			"dynn_Nooy"
+			"dynn_Vraciu"
+			"dynn_Benko"
+			"dynn_lovecraft"
+			"dynn_Herbst"
+			"dynn_Thornell"
+			"dynn_Godfrey"
+			"dynn_Varnell"
+			"dynn_Miller"
+			"dynn_Harris"
+			"dynn_Beerbower"
+			"dynn_Brunel"
+			"dynn_Darwin"
+			"dynn_Shakespeare"
+			"dynn_Newton"
+			"dynn_Lennon"
+			"dynn_Tudor"
+			"dynn_Cromwell"
+			"dynn_Windsor"
+			"dynn_Peacock"
+			"dynn_Fortune"
+			"dynn_Valentine"
+			"dynn_Pollitt"
+			"dynn_Beckett"
+			"dynn_Henderson"
+			"dynn_Attlee"
+			"dynn_Kerr"
+			"dynn_Aitken"
+			"dynn_Bevin"
+			"dynn_Orwell"
+			"dynn_Pankhurst"
+			"dynn_Mosley"
+			"dynn_Menzies"
+			"dynn_Turing"
+			"dynn_Vickers"
+			"dynn_English"
+			"dynn_Vauxhall"
+			"dynn_Somerville"
+			"dynn_Phillips"
+			"dynn_Dowding"
+			"dynn_Chadwick"
+			"dynn_Whittle"
+			"dynn_Vereker"
+			"dynn_Ironside"
+			"dynn_Brooke"
+			"dynn_Chatfield"
+			"dynn_Pound"
+			"dynn_Cunningham"
+			"dynn_Newall"
+			"dynn_Portal"
+			"dynn_Ellington"
+			"dynn_Wavell"
+			"dynn_Auchinleck"
+			"dynn_Bowhill"
+			"dynn_Douglas"
+			"dynn_Mountbatten"
+			"dynn_Harwood"
+			"dynn_Horton"
+			"dynn_Stirling"
+			"dynn_Roosevelt"
+			"dynn_Truman"
+			"dynn_Landon"
+			"dynn_Wilkie"
+			"dynn_Dewey"
+			"dynn_Browder"
+			"dynn_Pelley"
+			"dynn_Hilt"
+			"dynn_Lindbergh"
+			"dynn_Marmon"
+			"dynn_Herrington"
+			"dynn_Chrysler"
+			"dynn_Boeing"
+			"dynn_Grumman"
+			"dynn_Springfield"
+			"dynn_Oppenheimer"
+			"dynn_Goddard"
+			"dynn_Patton"
+			"dynn_Ramsey"
+			"dynn_Mercenary"
+			"dynn_BlackHeart"
+			"dynn_DarkGreen"
+		}
+		
+		# Does not exist in 1066 - is the result of cultural amalgamation between Saxon and Norman through events
+		male_names = {
+			14 = { # most common
+				William
+			}
+			8 = { # second most common
+				John
+			}
+			48 = { # other common names
+				Adam Geoffrey Henry Hugh Nicholas Peter Ralph Richard Robert Roger Simon Thomas Walter
+			}
+			30 = { # everything else
+				Alan Albert Alexander Alfred Andrew Anselm Arnold Arthur Aubrey Baldrick Christopher David Edmund Edward Eric Eustace Fulk George Gerald Gilbert
+				Godfrey Gregory Guy Harold Humphrey Jocelyn Jordan Laurence Lionel Mark Martin Matthew Maurice Michael Paul Philip
+				Randolph Reginald Roderick Samuel Stephen Theobald Waleran
+			}
+			0 = { # translated versions of other culture names
+				Blethin Duncan Douglas Fergus Findlay Griffith Kenneth Patrick Teague Howell Meredith Owen Tristan Cecil Sweeney Cedric Merlin Sebastian Zachary
+			}
+			
+		}
+		female_names = {
+			Adela Adelaide Alice Amice Anne Aveline Beatrice Blanche Catherine Cecilia Constance Edith Ela Eleanor Elizabeth Emma Hawise Isabel
+			Isabella Joan Joanna Juliana Mahaut Margaret Mary Matilda Maud Philippa Sybilla
+		}
+		dynasty_of_location_prefix = "dynnp_of"
+		bastard_dynasty_prefix = "dynnp_fitz"
+
+		patronym_suffix_male = "dynnpat_suf_s"
+		patronym_suffix_female = "dynnpat_suf_s"
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+		
+		ethnicities = {
+			25 = caucasian_blond
+			15 = caucasian_ginger
+			35 = caucasian_brown_hair
+			25 = caucasian_dark_hair
+		}
+
+		mercenary_names = {
+			{ name = "mercenary_company_white_company" coat_of_arms = "mc_white_company" }
+			{ name = "mercenary_company_hawkwoods_band" }
+		}
+	}
+	
+scottish = {
+		graphical_cultures = {
+			scottish_coa_gfx
+		}
+		
+		color = hsv{ 199  175  12 }
+
+		cadet_dynasty_names = {
+			{ "dynnp_de" "dynn_Kald" }
+			{ "dynnp_de" "dynn_la_Haya" }
+			{ "dynnp_de" "dynn_Lindsay" }
+			{ "dynnp_de" "dynn_Loudoun" }
+			{ "dynnp_de" "dynn_Ramsay" }
+			{ "dynnp_of" "dynn_Angus" }
+			{ "dynnp_of" "dynn_Carrick" }
+			{ "dynnp_of" "dynn_Galloway" }
+			{ "dynnp_of" "dynn_Galloway" }
+			{ "dynnp_of" "dynn_Scotland" }
+			{ "dynnp_of" "dynn_Strathearn" }
+			{ "dynnp_of" "dynn_Tullibardine" }
+		}
+
+		dynasty_names = {
+			dynn_Abernethy
+			dynn_Arbuthnot
+			dynn_Archil
+			dynn_Armstrong
+			dynn_Ballantyne
+			dynn_Bannock
+			dynn_Barclay
+			dynn_Blackadder
+			dynn_Borthwick
+			dynn_Bradnigh
+			dynn_Branain
+			dynn_Bruce
+			dynn_Buchan
+			dynn_Cameron
+			dynn_Campbell
+			dynn_Camshron
+			dynn_Carrun
+			dynn_Cockburn
+			dynn_Cosmungho
+			dynn_Craigies
+			dynn_Dean
+			dynn_Douglas
+			dynn_Errol
+			dynn_Forbes
+			dynn_Fothriff
+			dynn_Fraser
+			dynn_Friseal
+			dynn_Gillespie
+			dynn_Glenklochar
+			dynn_Gordon
+			dynn_Graham
+			dynn_Grant
+			dynn_Johnston
+			dynn_Kennoway
+			dynn_Kyle
+			dynn_Lochore
+			dynn_Lowden
+			dynn_Menteith
+			dynn_Murray
+			dynn_Olifard
+			dynn_Rannaire
+			dynn_Saint-Clair
+			dynn_Scoine
+			dynn_Strathearn
+			dynn_Turnbull
+			dynn_Wallace
+			"dynn_Cynfyn"
+			"dynn_Caereinion"
+			"dynn_Glastenning"
+			"dynn_Lleyn"
+			"dynn_Mostyn"
+			"dynn_Rhufoniog"
+			"dynn_Maelor"
+			"dynn_Penllyn"
+			"dynn_Tewdwr"
+			"dynn_Meilyr"
+			"dynn_Mochnant"
+			"dynn_Buellt"
+			"dynn_Llewellyn"
+			"dynn_Mechain"
+			"dynn_Cedewain"
+			"dynn_Penweddig"
+			"dynn_IA_l"
+			"dynn_Amwythig"
+			"dynn_Caerloyw"
+			"dynn_Emlyn"
+			"dynn_Ystrad_Tywi"
+			"dynn_Rhuddlan"
+			"dynn_Llwydiarth"
+			"dynn_Aberavon"
+			"dynn_Dunoding"
+			"dynn_Pebidiog"
+			"dynn_Deugleddyf"
+			"dynn_Deheuwynt"
+			"dynn_Eginog"
+			"dynn_Gorfynydd"
+			"dynn_Gwyr"
+			"dynn_Senghenydd"
+			"dynn_Crwthor"
+			"dynn_Arfon"
+			"dynn_Gwynn"
+			"dynn_Cadfeal"
+			"dynn_Cannevet"
+			"dynn_Llyn"
+			"dynn_Gwarthaf"
+			"dynn_Aeron"
+			"dynn_Emlyn"
+			"dynn_Cedweli"
+			"dynn_Gwrinydd"
+			"dynn_Talgarth"
+			"dynn_Pengwern"
+			"dynn_Penrhys"
+			"dynn_Lloyd"
+			"dynn_Llifon"
+			"dynn_Abermenai"
+			"dynn_Penfro"
+			"dynn_Gilmyn"
+			"dynn_Conwy"
+			"dynn_Clwyd"
+			"dynn_Tal-y-bont"
+			"dynn_Isaled"
+			"dynn_Talhaiarn"
+			"dynn_Brynffenigl"
+			"dynn_Llechwedd"
+			"dynn_Cefeliog"
+			"dynn_Carmarthen"
+			"dynn_Caenogion"
+			"dynn_Maelienydd"
+			"dynn_Elfael"
+			"dynn_Mynydd"
+			"dynn_Bangor"
+			"dynn_Mynyw"
+			"dynn_Llandaff"
+			"dynn_Arllechwedd"
+			"dynn_Tegaingl"
+			"dynn_Anwyl"
+			"dynn_Cyfeiliog"
+			"dynn_Fane"
+			"dynn_Ynys_Cybi"
+			"dynn_Gruffydd"
+			"dynn_Tegaingl"
+			"dynn_Coel"
+			"dynn_Glywysing"
+			"dynn_Llywelin"
+			"dynn_Cynllibiwg"
+			"dynn_Evans"
+			"dynn_Maelienydd"
+			"dynn_Rhosyr"
+			"dynn_Cemais"
+			"dynn_Meirionydd"
+			"dynn_Ynys_Enlli"
+			"dynn_Aberdaron"
+			"dynn_PenmO_n"
+			"dynn_Ystrad_Clud"
+			"dynn_Buellt"
+			"dynn_Llwydiarth"
+			"dynn_Caerloyw"
+			"dynn_Brogyntyn"
+			########New Dinasties
+			"dynn_Corres"
+			"dynn_Correia"
+			"dynn_Correii"
+			"dynn_Correid"
+			"dynn_Divicus"
+			"dynn_Divica"
+			"dynn_Divicii"
+			"dynn_Divicid"
+			"dynn_Duratus"
+			"dynn_Durata"
+			"dynn_Duratii"
+			"dynn_Duratid"
+			"dynn_Elitoves"
+			"dynn_Elitova"
+			"dynn_Elitovii"
+			"dynn_Elitovid"
+			"dynn_Galbus"
+			"dynn_Galba"
+			"dynn_Galbi"
+			"dynn_Galbid"
+			"dynn_Iacus"
+			"dynn_Iaca"
+			"dynn_Iacii"
+			"dynn_Iacian"
+			"dynn_Marganus"
+			"dynn_Margana"
+			"dynn_Marganii"
+			"dynn_Marganian"
+			"dynn_Sinatus"
+			"dynn_Sinata"
+			"dynn_Sinatii"
+			"dynn_Sinatian"
+			"dynn_Vodenosus"
+			"dynn_Vodenosa"
+			"dynn_Vodenosi"
+			"dynn_Vodenosian"
+			"dynn_Caractacus"
+			"dynn_Caracta"
+			"dynn_Caractii"
+			"dynn_Caractian"
+			"dynn_Venutus"
+			"dynn_Venuta"
+			"dynn_Venutii"
+			"dynn_Venutian"
+			"dynn_Bolgius"
+			"dynn_Bolgia"
+			"dynn_Bolgii"
+			"dynn_Bolgian"
+			"dynn_Celatus"
+			"dynn_Celata"
+			"dynn_Celatii"
+			"dynn_Celatid"
+			"dynn_Accus"
+			"dynn_Acca"
+			"dynn_Accii"
+			"dynn_Accian"
+			"dynn_Sinorus"
+			"dynn_Sinora"
+			"dynn_Sinori"
+			"dynn_Sinorian"
+			"dynn_Crescus"
+			"dynn_Cresca"
+			"dynn_Crescii"
+			"dynn_Crescian"
+			"dynn_Inammices"
+			"dynn_Inammica"
+			"dynn_Inammici"
+			"dynn_Inammicid"
+			"dynn_Urcus"
+			"dynn_Urceia"
+			"dynn_Urcii"
+			"dynn_Urcid"
+			"dynn_Oconus"
+			"dynn_Oconia"
+			"dynn_Oconii"
+			"dynn_Oconian"
+			"dynn_Velbus"
+			"dynn_Velba"
+			"dynn_Velbii"
+			"dynn_Velbian"
+			"dynn_Orgetorus"
+			"dynn_Orgetora"
+			"dynn_Orgetorii"
+			"dynn_Orgetorid"
+			"dynn_Bolgi"
+			"dynn_Bolgian"
+			"dynn_Cruitini"
+			"dynn_Cruitinian"
+			"dynn_Dairini"
+			"dynn_Dairene"
+			"dynn_Deblanni"
+			"dynn_Deblanian"
+			"dynn_Deirgtini"
+			"dynn_Deirgtinian"
+			"dynn_Domgnanni"
+			"dynn_Domgnannid"
+			"dynn_Ecmacti"
+			"dynn_Emactid"
+			"dynn_Eranni"
+			"dynn_Erannian"
+			"dynn_Gamagnragni"
+			"dynn_Gamagnragnid"
+			"dynn_Laggigni"
+			"dynn_Laggidnid"
+			"dynn_Laiggisi"
+			"dynn_Laiggisinid"
+			"dynn_Moggagni"
+			"dynn_Moggagnid"
+			"dynn_Sogagni"
+			"dynn_Sogagnid"
+			"dynn_Tadegni"
+			"dynn_Tadegnid"
+			"dynn_Uaitani"
+			"dynn_Uatinid"
+			"dynn_Ultacci"
+			"dynn_Ultacca"
+			"dynn_Ultaccian"
+			"dynn_Iceni"
+		}
+		
+
+		male_names = {
+			Adam Alpin Alan Alastair Alexander Andrew
+			Angus Archibald Arthur Arran Aulay Beathan Brian Brice Cailean Calum Carbrey Colban
+			Colin Conall Conan Constantine David Dermid Donald Douglas Duff Dugald
+			Duncan Edgar Edward Edwin Eric Evander Ewan Farquhar Fergus Fingal Findlay Frang
+			Gavin Gilbert Gilbride Gilchrist Gillespie Gilpatrick Gilroy Giric Glenn Godfrey Gregor
+			Hamish Hector Henry Hugh Iain Indulf James John Kenneth Kentigern Lachlan Laurence Lennon
+			Lulach Macbeth Magnus Malcolm Maldoven Maldred Malise Malmure Maoilios Marcas Malsnectan
+			Matad Matthew Michael Morgan Muir Mungo Murdoch Murray Neil Ninian Oscar
+			Patrick Paul Peter Philip Radulf Ranald Richard Robert Roderick Ronald Rory Ross Roy
+			Shaw Sholto Simon Somerled Stephan Sweeny Taig Talore Thomas Torquil Uhtred Uisdean Walan
+			Waldeve Walter William
+		}
+		female_names = {
+			Ada Affraic Agnes Aileen Alice Anna Annabella Aufrica Barabal Beileag Beitris Beathoc Bride
+			Catriona Cecilia Christina Deirdre Derilla Dervorgilla Donada Donella
+			Edith Edna Effie Eilionoir Eimhir Eithne Ela Eleanor Elspeth Euna Eva Fenella Fingola Flora
+			Forflissa Galiena Glenna Gormelia Gruoch Helen Innes Iona Isabel Isla Isobel Jean Julia
+			Kenna Kentigerna Kirstin Lillias Lorna Malmure Maisie Malina Margaret Mariota Marjory Mary
+			Martha Marthoc Maud Maura Mirren Mor Morag Morna Moyna Muriel
+			Murron Nuala Orabilia Peigi Rhonda Rodina Ronalda Ros Saundra Sheena Shona Slaine Sorcha Steacy Una
+		}
+		
+		dynasty_of_location_prefix = "dynnp_de"
+		prefix = yes
+		
+		patronym_prefix_male = "dynnpat_pre_Mc"
+		patronym_prefix_female = "dynnpat_pre_Mc"
+		
+		
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 15
+		father_name_chance = 5
+		
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 15
+		mother_name_chance = 10
+		
+		ethnicities = {
+			25 = caucasian_blond
+			15 = caucasian_ginger
+			35 = caucasian_brown_hair
+			25 = caucasian_dark_hair
+		}
+
+		mercenary_names = {
+			{ name = mercenary_company_border_reivers }
+			{ name = mercenary_company_warband_of_the_great_hall }
+			{ name = mercenary_company_company_of_the_kings_son }
+		}
+	}
+}
+
+

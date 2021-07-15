@@ -1,0 +1,256 @@
+﻿@correct_culture_primary_score = 100
+@better_than_the_alternatives_score = 50
+@always_primary_score = 1000
+
+e_turkey = {
+	color = { 247 145 30 }
+	capital = c_byzantion
+	definite_form = yes
+	can_be_named_after_dynasty = no
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture_group = culture_group:turkic_group
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+}
+
+e_austria = {
+	color = { 240 240 240 }
+	color2 = { 255 255 255 }
+	definite_form = yes
+	capital = c_vienna
+
+#	roman = "Noricum"
+
+	can_create = {
+		NOT = {
+			has_government = republic_government
+		}
+	}
+}
+
+e_cdr = {
+	color = { 255 255 255 }
+	color2 = { 0 0 0 }
+
+	capital = c_frankfurt
+	definite_form = yes
+		
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture_group = culture_group:central_germanic_group
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+}
+
+k_prussia = {
+	color = { 110 110 160 }
+	color2 = { 220 220 20 }
+	
+	capital = c_berlin
+	
+	ai_primary_priority = {
+		if = {
+			limit = {
+				OR = {
+					culture = culture:saxon
+					culture = culture:pommeranian
+					culture = culture:german
+				}
+			}
+			add = @better_than_the_alternatives_score
+		}
+		if = {
+			limit = {
+				dynasty = dynasty:12476
+			}
+			add = @always_primary_score
+		}
+	}
+}
+
+#k_saxony = {
+#	color = { 110 110 160 }
+#	color2 = { 220 220 20 }
+#}
+
+d_baden = {
+	color = { 117  161  67 }
+	
+	capital = c_baden
+}
+
+d_berg = {
+	color = { 240 205 140 }
+
+	capital = c_bergh
+}
+
+d_wurzburg = {
+	color = { 147  146  106 }
+
+	capital = c_wurzburg
+}
+
+k_wurttemberg = {
+	color = { 111  162  128 }
+
+	capital = c_wurttemberg
+}
+
+k_westfalia = {
+	color = { 231  230  138 }
+
+	capital = c_kassel
+}
+
+d_warsaw = {
+	color = { 150 23 23 }
+	color2 = { 200 0 0 }
+	
+	capital = c_czerska
+}
+
+k_hanover = {
+	color = { 164  217  127 }
+
+	capital = c_hannover
+}
+
+k_belgium = {
+	color = { 235 200 127 }
+
+	capital = c_brabant
+}
+
+k_british_east_indies = {
+	color = { 172 22 22 }
+	color2 = { 255 255 255 }
+	
+	capital = c_saptagrama
+	definite_form = yes
+}
+
+k_travancore = {
+	color = { 134 166 117 }
+
+	capital = c_venadu
+}
+
+k_hyderabad = {
+	color = { 89 141 140 }
+
+	capital = c_kalyani
+}
+
+e_maratha = {
+	color = { 67 124 181 }
+
+	capital = c_kondana
+	definite_form = yes
+}
+
+k_oudh = {
+	color = { 119 130 145 }
+
+	capital = c_lakhnau
+}
+
+k_jaipur = {
+	color = { 79 89 182 }
+
+	capital = c_vairata
+}
+
+k_jaisalmer = {
+	color = { 99 137 153 }
+
+	capital = c_ludrava
+}
+
+d_maldives = {
+	color = { 191 25 25 }
+
+	capital = c_maldives
+}
+
+k_lodomeria = {
+	color = { 255 53 94 }
+
+	capital = c_lviv
+}
+
+d_macedonia = {
+	color = { 72 89 87 }
+
+	capital = c_skopje
+}
+
+k_romania = {
+	color = { 200 190 126 }
+
+	capital = c_bucuresti
+}
+
+k_far_east = {
+	color = { 209 51 55 }
+	color2= { 255 255 255 }
+	
+	capital = c_aigun
+
+	d_amur = {
+		color = {65 71 60}
+		color2 = {63 63 63}
+	
+		capital = c_shiwei # Kushe
+
+		c_amur = {
+			color = { 75 155 170 }
+			color2= { 255 255 255 }
+			
+			b_amur = {
+				province = 10913
+				
+				color = { 75 155 170 }
+				color2= { 255 255 255 }
+			}
+		}
+	}
+
+	d_primorskaya = {
+		color = {65 71 60}
+		color2 = {63 63 63}
+		
+		capital = c_aigun
+
+		c_udsky = {
+			color = { 75 155 170 }
+			color2= { 255 255 255 }
+				
+			b_udsky = {
+				province = 10970
+				
+				color = { 75 155 170 }
+				color2= { 255 255 255 }
+			}
+		}
+	}
+}
+
+k_sikkim = {
+	color = { 139 138 160 }
+
+	capital = c_chungthang
+
+	d_sikkim = {
+		color = { 139 138 160 }
+
+		capital = c_chungthang
+	}
+}

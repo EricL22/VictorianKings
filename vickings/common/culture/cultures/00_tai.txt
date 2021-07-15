@@ -1,0 +1,159 @@
+﻿tai_group = {
+	graphical_cultures = {
+		chinese_group_coa_gfx
+		indian_building_gfx
+		mongol_clothing_gfx
+		mongol_unit_gfx
+	}
+
+	thai = {
+		color = { 105 93 0 }
+
+		cadet_dynasty_names = {
+			"dyn_Lavachakkaraj"
+			"dyn_Phanya_Coeng"
+			"dyn_Cao_Khun_Fong"
+			"dyn_Phra_Ruang"
+			"dyn_Phayao"
+			"dyn_U-Thong"
+			"dyn_Thanasukolwit"
+			"dyn_Hlai"
+			"dyn_Kra"
+			"dyn_Qabiao"
+			"dyn_Laha"
+		}
+
+		dynasty_names = {
+			"dyn_Lavachakkaraj"
+			"dyn_Phanya_Coeng"
+			"dyn_Cao_Khun_Fong"
+			"dyn_Phra_Ruang"
+			"dyn_Phayao"
+			"dyn_U-Thong"
+			"dyn_Thanasukolwit"
+			"dyn_Hlai"
+			"dyn_Kra"
+			"dyn_Qabiao"
+			"dyn_Laha"
+		}
+
+		male_names = {
+			Aran Aroon Chanarong Daw Kamol Kasem Khemkhaeng Kiet Klahan Mongkut Niran Som Sunan Virote
+		}
+		female_names = {
+			Isra Kanya Kulap Lawan Mali Pakpao Phailin Phueng Ratana Somchai Somsri Suchin Sukhon Sumalee Tasanee Thurian Tola Vanida
+		}
+		
+		dynasty_of_location_prefix = "dynnp_of"
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 0	#50
+		mat_grf_name_chance = 0	#25
+		father_name_chance = 0	#25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 25
+		mat_grm_name_chance = 25
+		mother_name_chance = 0
+		
+		#castes = yes
+		
+		ethnicities = {
+			10 = asian
+		}
+	}
+
+	lao = {
+		color = { 100 85 0 }
+
+		cadet_dynasty_names = {
+			"dyn_Phra"
+			"dyn_Dao"
+			"dyn_Phou"
+			"dyn_Keo"
+			"dyn_Khanthavong"
+		}
+
+		dynasty_names = {
+			"dyn_Phra"
+			"dyn_Dao"
+			"dyn_Phou"
+			"dyn_Keo"
+			"dyn_Khanthavong"
+		}
+
+		male_names = {
+			Akamu Analu Aron Fuseni Havika Ikaika Kaipo Khampeng Khamsone Leilani Noi Palani Papep Pekelo Phaivanh Phettakoun Sand Sounanxay Tay Xaikeo
+		}
+		female_names = {
+			Aelan Ailani Akela Haimi Iokina Ipo Kalea Lari Mahina Makala Mimio Olina Onaona Palila Sallymata Sasilvia So-Yeon Ululani Wanika
+		}
+		
+		dynasty_of_location_prefix = "dynnp_of"
+		dynasty_title_names = yes
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 25
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 25
+		mat_grm_name_chance = 25
+		mother_name_chance = 0
+		
+		#castes = yes
+		
+		ethnicities = {
+			10 = asian
+		}
+	}
+
+	shan = {
+		color = { 128 105 43 }
+
+		cadet_dynasty_names = {
+			"dyn_Myinsaing"
+			"dyn_Sagaing"
+			"dyn_Minbyauk"
+			"dyn_Mogaung"
+			"dyn_Kengtung"
+			"dyn_Mookjai"
+			"dyn_Ahom"
+		}
+
+		dynasty_names = {
+			"dyn_Myinsaing"
+			"dyn_Sagaing"
+			"dyn_Minbyauk"
+			"dyn_Mogaung"
+			"dyn_Kengtung"
+			"dyn_Mookjai"
+			"dyn_Ahom"
+		}
+
+		male_names = {
+			Aran Aroon Chanarong Daw Kamol Kasem Khemkhaeng Kiet Klahan Mongkut Niran Som Sunan Virote
+		}
+		female_names = {
+			Isra Kanya Kulap Lawan Mali Pakpao Phailin Phueng Ratana Somchai Somsri Suchin Sukhon Sumalee Tasanee Thurian Tola Vanida
+		}
+		
+		dynasty_of_location_prefix = "dynnp_of"
+		dynasty_title_names = yes
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 25
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 25
+		mat_grm_name_chance = 25
+		mother_name_chance = 0
+		
+		ethnicities = {
+			10 = asian
+		}
+	}
+}

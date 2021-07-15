@@ -1,0 +1,274 @@
+﻿# Accepted categories are: governments, cultures, culture_groups, faiths, religions
+# A Flavorization will apply if ALL specified categories have ANY of their entries
+# represented in the character/title
+# So for example:
+# governments = { feudal_government }
+# culture_groups = { mongolic_group central_germanic_group }
+# religions = { christianity_religion }
+# cultures = { norse }
+# faiths = { catholicism }
+# For this to apply a character MUST BE feudal, AND must also be EITHER altaic OR germanic
+# priority is used to determine priority, if they are the same then the LAST will be selected,
+# and honorifics will be prefered over landed titles. Default priority is 1
+# If a flavorization does not have a tier it can apply to all tiers of characters, too many non-tiered
+# flavorizations is bad for performance though, YOU HAVE BEEN WARNED!
+# 'top_liege = no' means that its the holder of the title causing the honorific that is tested for
+# the various categories, so for a prince it is the king that is tested, for a queen mother it is her son
+# if this is not specified ( or 'top_liege = yes' the default ) then it is the top liege of that character
+# that is tested, this means that most title flavor comes from the top liege of the title not the holder
+
+#sultan = { #Example
+#	gender = male
+#	special = holder
+#	tier = kingdom
+	#	governments = { feudal_government clan_government }
+#	religions = { islam_religion }
+#}
+
+#############################################
+
+prince_primate = {
+	type = character
+	gender = male
+	special = holder
+	priority = 147
+	titles = { e_cdr }
+	top_liege = no
+}
+princess_primate = {
+	type = character
+	gender = female
+	special = holder
+	priority = 147
+	titles = { e_cdr }
+	top_liege = no
+}
+
+
+director = {
+	type = character
+	gender = male
+	special = holder
+	priority = 147
+	titles = { k_british_east_indies }
+	top_liege = no
+}
+directress = {
+	type = character
+	gender = female
+	special = holder
+	priority = 147
+	titles = { k_british_east_indies }
+	top_liege = no
+}
+
+king_feudal_male_uk = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 146
+	governments = { feudal_government }
+	titles = { e_britannia }
+	top_liege = no
+}
+king_feudal_female_uk = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 146
+	governments = { feudal_government }
+	titles = { e_britannia }
+	top_liege = no
+}
+
+archduchy = {
+	type = title
+	tier = kingdom
+	titles = { k_austria }
+	priority = 47
+	governments = { feudal_government }
+	top_liege = no
+}
+
+
+kingtier_emperor_feudal_male_etenno = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	titles = { k_chrysanthemum_throne }
+	priority = 301
+	governments = { feudal_government }
+	top_liege = no
+}
+kingtier_emperor_feudal_male_e = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	titles = { k_dai_nam }
+	priority = 301
+	governments = { feudal_government }
+	top_liege = no
+}
+kingtier_emperor_feudal_female_e = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	titles = { k_dai_nam k_chrysanthemum_throne }
+	priority = 301
+	governments = { feudal_government }
+	top_liege = no
+}
+kingtier_emperor_feudal_male_ktenno = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	titles = { k_chrysanthemum_throne }
+	priority = 301
+	governments = { feudal_government }
+	top_liege = no
+}
+kingtier_emperor_feudal_male_k = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	titles = { k_dai_nam }
+	priority = 301
+	governments = { feudal_government }
+	top_liege = no
+}
+kingtier_emperor_feudal_female_k = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	titles = { k_dai_nam k_chrysanthemum_throne }
+	priority = 301
+	governments = { feudal_government }
+	top_liege = no
+}
+kingtier_empire_feudal = {
+	type = title
+	tier = kingdom
+	titles = { k_dai_nam }
+	priority = 301
+	governments = { feudal_government }
+	top_liege = no
+}
+
+duchy_republic_prefectural = {
+	type = title
+	tier = duchy
+	top_liege = no
+	priority = 28
+	governments = { republic_government }
+	culture_groups = { japanese_group }
+}
+duchy_republic_departmental = {
+	type = title
+	tier = duchy
+	top_liege = no
+	priority = 28
+	governments = { republic_government }
+	culture_groups = { frankish_group }
+}
+duchy_republic_provincial = {
+	type = title
+	tier = duchy
+	top_liege = no
+	priority = 28
+	governments = { republic_government }
+}
+duchy_republic = {
+	type = title
+	tier = duchy
+	priority = 28
+	top_liege = no
+	governments = { republic_government }
+	only_independent = yes
+}
+king_republic_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 47
+	top_liege = no
+	governments = { republic_government }
+	only_independent = yes
+}
+king_republic_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 47
+	top_liege = no
+	governments = { republic_government }
+	only_independent = yes
+}
+kingdom_republic = {
+	type = title
+	tier = kingdom
+	top_liege = no
+	priority = 47
+	governments = { republic_government }
+	only_independent = yes
+}
+
+republic_governor = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 47
+	governments = { republic_government }
+	top_liege = no
+}
+republic_governor_wife = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 47
+	governments = { republic_government }
+	top_liege = no
+}
+republic_governor_kingdom = {
+	type = title
+	tier = kingdom
+	top_liege = no
+	priority = 47
+	governments = { republic_government }
+}
+
+
+shogun_feudal_male = {
+	type = character
+	gender = male
+	special = holder
+	titles = { e_shogunate }
+	priority = 141
+	top_liege = no
+}
+shogun_feudal_female = {
+	type = character
+	gender = female
+	special = holder
+	titles = { e_shogunate }
+	priority = 141
+	top_liege = no
+}
+shogun_empire_feudal = {
+	type = title
+	tier = empire
+	titles = { e_shogunate }
+	priority = 141
+	top_liege = no
+}

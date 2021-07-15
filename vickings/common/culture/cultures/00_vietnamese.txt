@@ -1,0 +1,194 @@
+﻿vietnamese_group = {
+	graphical_cultures = {
+		chinese_group_coa_gfx
+		indian_building_gfx
+		mongol_clothing_gfx
+		mongol_unit_gfx
+	}
+	
+	viet = {
+		
+		dynasty_name_first = yes
+		
+		color = { 243 133 12 }
+
+        cadet_dynasty_names = {
+            "dyn_Lac_ruw"
+            "dyn_Nguyen_wny"
+            "dyn_Phuc_hpn"
+            "dyn_Thai_xzs"
+            "dyn_That_vse"
+            "dyn_Thua_pdv"
+            "dyn_Vo_idd"
+            "dyn_Vu_wmw"
+        }
+
+        dynasty_names = {
+            "dyn_Bui_tmi"
+            "dyn_Dang_lvl"
+            "dyn_Duong_ikt"
+            "dyn_Han_wif"
+            "dyn_Ho_lmv"
+            "dyn_Hoang_zlt"
+            "dyn_Khuc_hms"
+            "dyn_Kieu_slx"
+            "dyn_La_kvi"
+            "dyn_Le_qsf"
+            "dyn_Ly_dzw"
+            "dyn_Ngo_cqv"
+            "dyn_Nguyen_rnl"
+            "dyn_Pham_gqp"
+            "dyn_Phan_lwt"
+            "dyn_Ton_jem"
+            "dyn_Tran_dtx"
+            "dyn_Trieu_ohy"
+            "dyn_Trinh_nhn"
+            "dyn_Vu_fci"
+        }
+
+        male_names = {
+             "pp_Bach_Ho_fxe"  "pp_Bang_kqo"  "pp_Bao_hqi"  "pp_Bien_ngc"  "pp_Binh_gaj"  "pp_Bo_Linh_wpr"  "pp_Bong__tey"  "pp_Canh_Thac_rkc"  "pp_Cao_apg"  "pp_Chinh_hkz"  "pp_Chuong_bsx"  "pp_Cong_Han_onz"  "pp_Du_yxs"  "pp_Duat_fmf"  "pp_Duong_lzs"  "pp_Hoan_ocj"  "pp_Huy_abr"  "pp_Khoan_tte"  "pp_Khue_bzf" 
+              "pp_Lam_ray"  "pp_Loi_acu"  "pp_Lu_vvx"  "pp_Nhac_ziq"  "pp_Nhat_Khanh_llz"  "pp_Quyen_kjp"  "pp_Son_jao"  "pp_Thuyet_vjv"  "pp_Tiep_doy"  "pp_Xuong_Xi_tsr"         }
+
+        female_names = {
+             "pp_Bich_Chau_ayv"  "pp_Chieu_Duong_gsp"  "pp_Cuc_kom"  "pp_Dao_yui"  "pp_Giang_kgj"  "pp_Ha_yne"  "pp_Hang_jau"  "pp_Hoa_Dung_ckx"  "pp_Hong_kkd"  "pp_Kim_Hang_ajt"  "pp_Le_Uyen_rrk"  "pp_Linh_kbe"  "pp_Loan_zwf"  "pp_Minh_Thuc_qon"  "pp_My_Nga_rvk"  "pp_Ngan_Hoa_dul"  "pp_Ngoc_Bach_uhr"  "pp_Ngoc_Dinh_vnv"  "pp_Ngoc_Hoan_een"  "pp_Ngoc_Lu_zft" 
+              "pp_Ngoc_Oanh_fia"  "pp_Ngoc_Vien_suy"  "pp_Nguyet_hfj"  "pp_Nhat_Le_lul"  "pp_Phat_Kim_csv"  "pp_Thuc_Giang_nlg"  "pp_Thuc_My_gxp"  "pp_Thuy_Chau_zjm"  "pp_Tu_Hue_bqu"  "pp_Van_Nga_dcg"         }
+
+
+		dynasty_title_names = no
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 0	#50
+		mat_grf_name_chance = 0	#25
+		father_name_chance = 0	#25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 25
+		mat_grm_name_chance = 25
+		mother_name_chance = 0
+
+		ethnicities = {
+			10 = asian
+		}
+	}
+
+	khmer = {
+		
+		dynasty_name_first = yes
+		
+		color = { 90 93 0 }
+
+		cadet_dynasty_names = {
+			"dyn_Vyadhapura"
+			"dyn_Jayadevi"
+			"dyn_Sambhupura"
+			"dyn_Baladityapura"
+			"dyn_Tambralinga"
+			"dyn_Mahidharapura"
+			"dyn_Tribhuvanaditya"
+			"dyn_Indravarman"
+			"dyn_Trasac_Paem"
+			"dyn_Oc_Eo"
+		}
+
+		dynasty_names = {
+			"dyn_Vyadhapura"
+			"dyn_Jayadevi"
+			"dyn_Sambhupura"
+			"dyn_Baladityapura"
+			"dyn_Tambralinga"
+			"dyn_Mahidharapura"
+			"dyn_Tribhuvanaditya"
+			"dyn_Indravarman"
+			"dyn_Trasac_Paem"
+			"dyn_Oc_Eo"
+		}
+
+		male_names = {
+			Amara Anol Arun Bona Bora Bourey Chea Dara Kong Kou Lee Lim Munny Nhean Pheakdet Phirun Pich Rithisak Sakngea Samnang Saron Sereyuth Sokheng Sokyana Somnang
+			Sopheak Sopheap Sothorn Sovann Teige Toto Veasna Vibol Viphop
+		}
+		female_names = {
+			Botum Boupha Champei Champey Chan Channary Chantou Chantrea Chenda Chhean Darareaksmey Elita Jorani Kalliyan Kanha Kolab Kunthea Maly Mealea Pheakkley
+			Phhoung Puthykol Raksa Seab Solyna Sreykeo Sreyneang Thida Vatey Veata
+		}
+		
+		dynasty_of_location_prefix = "dynnp_of"
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 25
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 25
+		mat_grm_name_chance = 25
+		mother_name_chance = 0
+		
+		#castes = yes
+		
+		ethnicities = {
+			10 = asian
+		}
+	}
+
+	cham = {
+		
+		dynasty_name_first = yes
+
+		color = { 105 167 0 }
+
+		cadet_dynasty_names = {
+			"dyn_Ce"
+			"dyn_Yang_Mai"
+			"dyn_Amaravati"
+			"dyn_Kauthara"
+			"dyn_Bhrigu"
+			"dyn_Vijaya"
+			"dyn_Ceh"
+			"dyn_Ceh-Vijaya"
+			"dyn_Jaya-Indravarman"
+			"dyn_Ceh-Panduranga"
+			"dyn_Suryajayavarman"
+			"dyn_Suryavarman"
+			"dyn_Nang"
+			"dyn_A_Nan"
+			"dyn_Ishtana"
+			"dyn_Marip"
+		}
+
+		dynasty_names = {
+			"dyn_Ce"
+			"dyn_Yang_Mai"
+			"dyn_Amaravati"
+			"dyn_Kauthara"
+			"dyn_Bhrigu"
+			"dyn_Vijaya"
+			"dyn_Ceh"
+			"dyn_Ceh-Vijaya"
+			"dyn_Jaya-Indravarman"
+			"dyn_Ceh-Panduranga"
+			"dyn_Suryajayavarman"
+			"dyn_Suryavarman"
+			"dyn_Nang"
+			"dyn_A_Nan"
+			"dyn_Ishtana"
+			"dyn_Marip"
+		}
+        
+		male_names = {
+			Amu Anan Angsaraja Asa-ari Binasuor Birthuor Brei Bunga Chan Char Cheng Chong Fat Ganvuh Garai He Isvan Khai Klong Krei Ku Kubah Lach Lathun Ling Ma Me Mo Moeun Muno Niga Nik Patra Peang Phaow Raden Rame Rattirai Ro Rome Sahinu Saktirai Saut Sumat Ta Tat Tathun Thuttirai Tithun Tithuntirai Tuon Yurath
+		}
+		female_names = {
+			Hara Inu Kalichip Kanitha Kaut Lagia Maly Man Nagar Putri Ratna Riya Sary Sokha Sros Uroja Yan Ye
+		}
+
+		dynasty_of_location_prefix = "dynnp_of"
+		
+		#castes = yes
+		
+		ethnicities = {
+			10 = asian
+		}
+	}
+}

@@ -1,0 +1,1361 @@
+﻿@correct_culture_primary_score = 100
+
+e_shogunate = {
+	color = { 55 65 200 }
+	color2 = { 0 65 200 }
+
+	capital = c_musashi
+	
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture = culture:japanese
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+
+	k_honshu = {
+		color = { 224 124 125 }
+		color2 = { 63 63 63 }
+	
+		capital = c_yamashiro
+
+		cultural_names = {
+			ainu = "Sisam Moshir"
+			korean = "Ilbon"
+			han = cn_riben
+			bai = cn_riben
+			qiang = cn_riben
+			mongol = cn_yapon
+			khitan = cn_yapon
+			jurchen = cn_yapon
+			bedouin = cn_wakwak
+			maghrebi = cn_wakwak
+			levantine = cn_wakwak
+			egyptian = cn_wakwak
+			andalusian = cn_wakwak
+		}
+		
+		can_create = {
+			always = no
+		}
+		can_create_on_partition = {
+			NOR = {
+				exists = title:e_japan.holder
+				exists = title:e_shogunate.holder
+			}
+		}
+
+		d_kinai = { #Rokuhara Tandai
+			color = {111 97 131 }
+			color2 = {63 63 63}
+			
+			capital = c_yamashiro
+			
+			c_yamato = {
+				color = { 204 134 135 }
+				color2 = { 63 63 63 }
+				
+				b_yamato = {
+					province = 11238
+					
+					color = { 204 134 135 }
+					color2 = { 63 63 63 }
+				}
+			}
+			c_yamashiro = {
+				color = {224 124 125 }
+				color2 = { 63 63 63 }
+				
+				b_kyoto = {
+					province = 11229
+					
+					color = {224 124 125 }
+					color2 = { 63 63 63 }
+				}
+			}
+			c_settsu = {
+				color = {111 97 131}
+				color2 = {63 63 63}
+				
+				b_settsu = {
+					province = 11235
+					
+					color = {111 97 131}
+					color2 = { 63 63 63 }
+				}
+			}
+			c_izumi = {
+				color = {97 111 131}
+				color2 = {63 63 63}
+				
+				b_izumi = {
+					province = 11236
+					
+					color = {97 111 131}
+					color2 = { 63 63 63 }
+				}
+			}
+			c_kawachi = {
+				color = {45 101 171}
+				color2 = {63 63 63}
+				
+				b_kawachi = {
+					province = 11237
+					
+					color = {45 101 171}
+					color2 = { 63 63 63 }
+				}
+			}
+		}
+
+		
+		d_tosan = {
+			color = {143 141 6}
+			color2 = {63 63 63}
+			
+			capital = c_omi
+			
+			c_omi = {
+				color = { 214 134 135 }
+				color2 = { 63 63 63 }
+				
+				b_omi = {
+					province = 11234
+					
+					color = { 214 134 135 }
+					color2 = {63 63 63}
+				}
+			}
+			c_mino = {
+				color = {179 178 81}
+				color2 = {63 63 63}
+				
+				b_mino = {
+					province = 11284
+					
+					color = {179 178 81}
+					color2 = {63 63 63}
+				}
+			}
+			c_hida = {
+				color = {242 241 175}
+				color2 = {63 63 63}
+				
+				b_hida = {
+					province = 11285
+					
+					color = {242 241 175}
+					color2 = {63 63 63}
+				}
+			}
+			c_shinano = {
+				color = { 254 124 155 }
+				color2 = { 63 63 63 }
+				
+				b_shinano = {
+					province = 11286
+					
+					color = { 254 124 155 }
+					color2 = {63 63 63}
+				}
+			}
+		}
+
+		d_keno = {
+			color = { 220 247 74}
+			color2 = {63 63 63}
+	
+			capital = c_kozuke
+			
+			c_kozuke = {
+				color = {176 208 0}
+				color2 = {63 63 63}
+				
+				b_kozuke = {
+					province = 11287
+					
+					color = {176 208 0}
+					color2 = {63 63 63}
+				}
+			}
+			c_shimotsuke = {
+				color = { 214 94 140 }
+				color2 = { 63 63 63 }
+				
+				b_shimotsuke = {
+					province = 11288
+					
+					color = { 214 94 140 }
+					color2 = {63 63 63}
+				}
+			}
+		}
+		
+		d_sanyo = { #or Kibi, Chugoku
+			color = { 191 63 210 }
+			color2 = {63 63 63 }
+		
+			capital = c_bizen
+
+			c_bizen = {
+				color = { 194 124 195 }
+				color2 = { 63 63 63 }
+				
+				b_bizen = {
+					province = 11252
+					
+					color = { 194 124 195 }
+					color2 = {63 63 63}
+				}
+			}
+			c_bitchu = {
+				color = { 204 104 195}
+				color2 = {63 63 63}
+
+				b_bitchu = {
+					province = 11253
+					
+					color = { 204 104 195}
+					color2 = {63 63 63}
+				}			 
+			}
+			c_bingo = {
+				color = { 204 154 195 }
+				color2 = { 63 63 63 }
+				
+				b_bingo = {
+					province = 11254
+					
+					color = { 204 154 195 }
+					color2 = {63 63 63}
+				}
+			}
+			c_mimasaka = {
+				color = { 184 104 215 }
+				color2 = {63 63 63 }
+				
+				b_mimasaka = {
+					province = 11251
+					
+					color = { 184 104 215 }
+					color2 = {63 63 63}
+				}
+			}
+			c_harima = {
+				color = {215 104 184 }
+				color2 = {63 63 63 }
+				
+				b_harima = {
+					province = 11250
+					
+					color = {215 104 184 }
+					color2 = {63 63 63}
+				}
+			}
+			c_nagato = {
+				color = { 254 144 145 }
+				color2 = { 63 63 63 }
+				
+				b_nagato = {
+					province = 11257
+					
+					color = { 254 144 145 }
+					color2 = {63 63 63}
+				}
+			}	
+			c_suo = {
+				color = { 220 164 165 }
+				color2 = {63 63 63 }
+	
+				b_suo = {
+					province = 11256
+					
+					color = { 220 164 165 }
+					color2 = {63 63 63}
+				}
+			}
+			c_aki = {
+				color = { 254 134 135 }
+				color2 = { 63 63 63 }
+				
+				b_aki = {
+					province = 11255
+					
+					color = { 254 134 135 }
+					color2 = {63 63 63}
+				}
+			}
+		}
+		
+		d_sanin = {
+			color = {204 124 125}
+			color2 = {63 63 63}
+			
+			capital = c_inaba
+			
+			c_inaba = {
+				color = {192 145 145}
+				color2 = {63 63 63}
+				
+				b_inaba = {
+					province = 11246
+					
+					color = {192 145 145}
+					color2 = {63 63 63}
+				}
+			}
+			c_hoki = {
+				color = { 202 125 165}
+				color2 = {63 63 63}
+				
+				b_hoki = {
+					province = 11247
+					
+					color = { 202 125 165}
+					color2 = {63 63 63}
+				}
+			}
+			c_izumo = {
+				color = { 254 114 115 }
+				color2 = { 63 63 63 }
+				
+				b_izumo = {
+					province = 11248
+					
+					color = { 254 114 115 }
+					color2 = {63 63 63}
+				}
+			}
+			c_iwami = {
+				color = {104 224 225}
+				color2 = {63 63 63}
+				
+				b_iwami = {
+					province = 11249
+					
+					color = {104 224 225}
+					color2 = {63 63 63}
+				}
+			}
+			c_oki = {
+				color = {232 115 145}
+				color2 = {63 63 63}
+				
+				b_oki = {
+					province = 11230
+					
+					color = {232 115 145}
+					color2 = {63 63 63}
+				}
+			}
+			c_tanba = {
+				color = {19 18 88}
+				color2 = {63 63 63}
+				
+				b_tanba = {
+					province = 11232
+					
+					color = {19 18 88}
+					color2 = {63 63 63}
+				}
+			}
+			c_tango = {
+				color = {88 38 88}
+				color2 = {63 63 63}
+
+				b_tango = {
+					province = 11231
+					
+					color = {88 38 88}
+					color2 = {63 63 63}
+				}
+			}
+			c_tajima = {
+				color = {88 18 69}
+				color2 = {63 63 63}
+				
+				b_tajima = {
+					province = 11245
+					
+					color = {88 18 69}
+					color2 = {63 63 63}
+				}
+			}
+		}
+		
+		d_owari = {
+			color = {230 79 2}
+			color2 = {63 63 63}
+		
+			capital = c_ise
+			
+			c_ise = {
+				color = { 214 134 145 }
+				color2 = { 63 63 63 }
+				
+				b_ise = {
+					province = 11270
+					
+					color = { 214 134 145 }
+					color2 = {63 63 63}
+				}
+			}
+			c_iga = {
+				color = { 241 143 62}
+				color2 = {63 63 63}
+		
+				b_iga = {
+					province = 11269
+					
+					color = { 241 143 62}
+					color2 = {63 63 63}
+				}
+			}
+			c_shima = {
+				color = { 146 66 10 }
+				color2 = {63 63 63}
+				
+				b_shima = {
+					province = 11271
+					
+					color = { 146 66 10 }
+					color2 = {63 63 63}
+				}
+			}
+			
+			c_owari = {
+				color = {138 105 15}
+				color2 = {63 63 63}
+
+				b_owari = {
+					province = 11272
+					
+					color = {138 105 15}
+					color2 = {63 63 63}
+				}
+			}
+		}
+		
+		d_tokai = {
+			color = { 255 116 0 }
+			color2 = {63 63 63}
+			
+			capital = c_suruga
+			
+			c_mikawa = {
+				color = { 233 234 132 }
+				color2 = {63 63 63}
+				
+				b_mikawa = {
+					province = 11273
+					
+					color = { 233 234 132 }
+					color2 = {63 63 63}
+				}
+			}
+			c_totomi = {
+				color = {43 54 153}
+				color2 = {63 63 63}
+				
+				b_totomi = {
+					province = 11274
+					
+					color = {43 54 153}
+					color2 = {63 63 63}
+				}
+			}
+			c_suruga = {
+				color = {6 15 90}
+				color2 = {63 63 63}
+				
+				b_suruga = {
+					province = 11275
+					
+					color = {6 15 90}
+					color2 = {63 63 63}
+				}
+			}
+			c_izu = {
+				color = {159 168 245}
+				color2 = {63 63 63}
+				
+				b_izu = {
+					province = 11276
+					
+					color = {159 168 245}
+					color2 = {63 63 63}
+				}
+			}
+			c_jiafei = {
+				color = {74 78 115}
+				color2 = {63 63 63}
+				
+				b_jiafei = {
+					province = 11278
+					
+					color = {74 78 115}
+					color2 = {63 63 63}
+				}
+			}
+		}
+
+		d_edo = {
+			color = {255 186 0}
+			color2 = {63 63 63}
+		
+			capital = c_musashi
+		
+			c_musashi = {
+				color = { 224 124 135 }
+				color2 = { 63 63 63 }
+				
+				b_musashi = {
+					province = 11279
+					
+					color = { 224 124 135 }
+					color2 = {63 63 63}
+				}
+			}
+			c_sagami = {
+				color = { 112 131 22 }
+				color2 = {63 63 63}
+				
+				b_sagami = {
+					province = 11277
+					
+					color = { 112 131 22 }
+					color2 = {63 63 63}
+				}
+			}
+		}
+		
+		d_fusa = {
+			color = { 230 230 0 }
+			color2 = {63 63 63}
+			
+			capital = c_shimosa
+		
+			c_hitachi = {
+				color = { 204 104 105 }
+				color2 = { 63 63 63 }
+			
+				b_hitachi = {
+					province = 11283
+					
+					color = { 204 104 105 }
+					color2 = {63 63 63}
+				}
+			}
+			c_shimosa = {
+				color = {151 70 16}
+				color2 = {63 63 63}
+				
+				b_shimosa = {
+					province = 11282
+					
+					color = {151 70 16}
+					color2 = {63 63 63}
+				}
+			}
+			c_kazusa = {
+				color = {184 146 121}
+				color2 = {63 63 63}
+				
+				b_kazusa = {
+					province = 11281
+					
+					color = {184 146 121}
+					color2 = {63 63 63}
+				}
+			}
+			c_anfang = {
+				color = {87 35 1}
+				color2 = {63 63 63}
+
+				b_anfang = {
+					province = 11280
+					
+					color = {87 35 1}
+					color2 = {63 63 63}
+				}
+			}		
+		}
+		
+		d_mutsu = {
+			color = { 219 116 121}
+			color2 = {63 63 63}
+		
+			capital = c_iwaki
+			
+			cultural_names = {
+				ainu = "Hitakami"
+			}
+			
+			c_iwashiro = {
+				color = {110 115 84}
+				color2 = {63 63 63}
+
+				b_iwashiro = {
+					province = 11289
+					
+					color = {110 115 84}
+					color2 = {63 63 63}
+				}
+			}
+			c_iwaki = {
+				color = {200 100 100}
+				color2 = {63 63 63}
+	
+				b_iwaki = {
+					province = 11290
+					
+					color = {200 100 100}
+					color2 = {63 63 63}
+				}
+			}
+			c_rikuzen = {
+				color = {100 200 100}
+				color2 = {63 63 63}
+				
+				b_rikuzen = {
+					province = 11291
+					
+					color = {100 200 100}
+					color2 = {63 63 63}
+				}
+			}
+			c_rikutyu = {
+				color = { 214 94 130 }
+				color2 = { 63 63 63 }
+				
+				b_rikutyu = {
+					province = 11292
+					
+					color = { 214 94 130 }
+					color2 = {63 63 63}
+				}
+			}
+			c_rikuo = {
+				color = { 214 134 130 }
+				color2 = { 63 63 63 }
+				
+				b_rikuo = {
+					province = 11293
+					
+					color = { 214 134 130 }
+					color2 = {63 63 63}
+				}
+			}
+			c_tsugaru = {
+				color = {214 100 120}
+				color2 = {63 63 63}
+				
+				b_tsugaru = {
+					province = 11294
+					
+					color = {214 100 120}
+					color2 = {63 63 63}
+				}
+			}
+		}
+		
+		d_dewa = {
+			color = {255 0 12}
+			color2 = {63 63 63}
+
+			capital = c_yuqian
+			
+			c_ugo = {
+				color = { 230 0 120}
+				color2 = {63 63 63}
+				
+				b_ugo = {
+					province = 11295
+					
+					color = { 230 0 120}
+					color2 = {63 63 63}
+				}
+			}
+			c_yuqian = {
+				color = {230 105 150}
+				color2 = {63 63 63}
+				
+				b_yuqian = {
+					province = 11296
+					
+					color = {230 105 150}
+					color2 = {63 63 63}
+				}
+			}
+		}
+
+		d_hokuriku = {
+			color = {39 5 106}
+			color2 = { 63 63 63}
+			
+			capital = c_echizen
+
+			c_wakasa = {
+				color = {105 86 143}
+				color2 = {63 63 63}
+				
+				b_wakasa = {
+					province = 11233
+					
+					color = {105 86 143}
+					color2 = {63 63 63}
+				}
+			}
+			c_echizen = {
+				color = {191 163 245}
+				color2 = {63 63 63}
+				
+				b_echizen = {
+					province = 11297
+					
+					color = {191 163 245}
+					color2 = {63 63 63}
+				}
+			}
+			c_kaga = {
+				color= {246 10 255}
+				color2 = {63 63 63}
+				
+				b_kaga = {
+					province = 11298
+					
+					color = {246 10 255}
+					color2 = {63 63 63}
+				}
+			}
+			c_noto = {
+				color = {142 18 147}
+				color2 = {63 63 63}
+				
+				b_noto = {
+					province = 11299
+					
+					color = {142 18 147}
+					color2 = {63 63 63}
+				}
+			}
+			c_etchu = {
+				color = {222 152 225}
+				color2 = {63 63 63}
+				
+				b_etchu = {
+					province = 11300
+					
+					color = {222 152 225}
+					color2 = {63 63 63}
+				}
+			}
+			c_echigo = {
+				color = { 234 104 105 }
+				color2 = { 63 63 63 }
+				
+				b_echigo = {
+					province = 11301
+					
+					color = { 234 104 105 }
+					color2 = {63 63 63}
+				}
+			}
+			c_sado = {
+				color = {226 208 255}
+				color2 = {63 63 63}
+				
+				b_sado = {
+					province = 11302
+					
+					color = {226 208 255}
+					color2 = {63 63 63}
+				}
+			}
+		}
+
+		# Modern Prefectures
+		d_yamaguchi = {
+			color = { 240 140 51 }
+			color2 = { 163 90 52 }
+	
+			capital = c_nagato
+		}
+
+		d_hiroshima = {
+			color = { 230 130 61 }
+			color2 = { 163 90 52 }
+	
+			capital = c_aki
+		}
+
+		d_okayama = {
+			color = { 220 120 71 }
+			color2 = { 163 90 52 }
+	
+			capital = c_bizen
+		}
+
+		d_tottori = {
+			color = { 210 110 81 }
+			color2 = { 163 90 52 }
+	
+			capital = c_inaba
+		}
+
+		d_shimane = {
+			color = { 200 100 91 }
+			color2 = { 163 90 52 }
+	
+			capital = c_izumo
+		}
+
+		d_ishikawa = {
+			color = { 20 200 191 }
+			color2 = { 63 90 152 }
+	
+			capital = c_kaga
+		}
+
+		d_toyama = {
+			color = { 40 200 191 }
+			color2 = { 63 90 152 }
+	
+			capital = c_etchu
+		}
+
+		d_niigata = {
+			color = { 50 200 191 }
+			color2 = { 63 90 152 }
+	
+			capital = c_echigo
+		}
+
+		d_aichi = {
+			color = { 60 200 191 }
+			color2 = { 63 90 152 }
+	
+			capital = c_owari
+		}
+
+		d_aomori = {
+			color = { 214 214 51 }
+			color2 = { 163 152 50 }
+	
+			capital = c_tsugaru
+		}
+
+		d_fukushima = {
+			color = { 204 204 61 }
+			color2 = { 163 152 50 }
+	
+			capital = c_iwaki
+		}
+	}
+	
+	k_shikoku = {
+		color = { 124 124 225 }
+		color2 = { 63 63 63 }
+	
+		capital = c_awa
+
+		d_nankai = {
+			color = { 214 134 125 }
+			color2 = { 63 63 63 }
+			
+			capital = c_awa
+			
+			c_awaji = {
+				color = { 174 154 185 }
+				color2 = { 63 63 63 }
+
+				b_awaji = {
+					province = 11240
+					
+					color = { 174 154 185 }
+					color2 = { 63 63 63 }
+				}
+			}
+			c_kii = {
+				color = { 214 134 123 }
+				color2 = { 63 63 63 }
+				
+				b_kii = {
+					province = 11239
+					
+					color = { 214 134 123 }
+					color2 = { 63 63 63 }
+				}
+			}
+			c_awa = {
+				color = { 194 154 155 }
+				color2 = { 63 63 63 }
+				
+				b_awa = {
+					province = 11242
+					
+					color = { 194 154 155 }
+					color2 = { 63 63 63 }
+				}
+			}
+			c_sanuki = {
+				color = { 134 184 185 }
+				color2 = {63 63 63 }
+				
+				b_sanuki = {
+					province = 11241
+					
+					color = { 134 184 185 }
+					color2 = { 63 63 63 }
+				}
+			}
+			c_iyo = {
+				color = { 194 134 135 }
+				color2 = { 63 63 63 }
+				
+				b_iyo = {
+					province = 11244
+					
+					color = { 194 134 135 }
+					color2 = { 63 63 63 }
+				}
+			}
+			c_tosa = {
+				color = { 194 144 145 }
+				color2 = { 63 63 63 }
+				
+				b_tosa = {
+					province = 11243
+					
+					color = { 194 144 145 }
+					color2 = { 63 63 63 }
+				}
+			}
+		}
+	}
+	
+	k_kyushu = {
+		color = { 194 134 155 }
+		color2 = { 63 63 63 }
+	
+		capital = c_satsuma
+	
+		d_chinzei = { #Dazaifu, Kyushu Tandai
+			color = { 160 5 238 }
+			color2 = { 63 63 63 }
+	
+			capital = c_chikuzen
+			
+			c_chikuzen = {
+				color = { 132 31 102 }
+				color2 = {63 63 63 }
+
+				b_chikuzen = {
+					province = 11263
+					
+					color = { 132 31 102 }
+					color2 = { 63 63 63 }
+				}
+			}
+			c_chikugo = {
+				color = { 150 134 125 }
+				color2 = {63 63 63 }
+				
+				b_chikugo = {
+					province = 11264
+					
+					color = { 150 134 125 }
+					color2 = { 63 63 63 }
+				}
+			}
+			c_buzen = {
+				color = { 180 140 135 }
+				color2 = { 63 63 63 }
+				
+				b_buzen = {
+					province = 11261
+					
+					color = { 180 140 135 }
+					color2 = { 63 63 63 }
+				}
+			}
+			c_bungo = {
+				color = {190 150 125}
+				color2 = {63 63 63}
+
+				b_bungo = {
+					province = 11262
+					
+					color = {190 150 125}
+					color2 = { 63 63 63 }
+				}
+			}
+		}
+		
+		d_kyushu = {
+			color = { 130 5 198 }
+			color2 = { 63 63 63 }
+	
+			capital = c_satsuma
+		
+			c_satsuma = {
+				color = { 184 94 95 }
+				color2 = { 63 63 63 }
+				
+				b_satsuma = {
+					province = 11259
+					
+					color = { 184 94 95 }
+					color2 = { 63 63 63 }
+				}
+			}
+			c_osumi = {
+				color = {194 94 115}
+				color2 = {63 63 63 }
+				
+				b_osumi = {
+					province = 11258
+					
+					color = {194 94 115}
+					color2 = { 63 63 63 }
+				}
+			}
+			c_hyuga = {
+				color = { 184 104 105 }
+				color2 = { 63 63 63 }
+				
+				b_hyuga = {
+					province = 11260
+					
+					color = { 184 104 105 }
+					color2 = { 63 63 63 }
+				}
+			}
+			c_amami = {
+				color = { 214 114 125 }
+				color2 = { 63 90 152 }
+				
+				b_amami = {
+					province = 11323
+					
+					color = { 214 114 125 }
+					color2 = { 63 63 63 }
+				}
+			}
+		}
+		
+		d_saikai = {
+			color = { 190 5 198 }
+			color2 = {63 63 63}
+			
+			capital = c_hizen
+			
+			c_hizen = {
+				color = { 255 1 148 }
+				color2 = { 63 63 63 }
+				
+				b_hizen = {
+					province = 11265
+					
+					color = { 255 1 148 }
+					color2 = { 63 63 63 }
+				}
+			}
+			c_higo = {
+				color = { 245 245 188 }
+				color2 = {63 63 63 }
+				
+				b_higo = {
+					province = 11266
+					
+					color = { 245 245 188 }
+					color2 = { 63 63 63 }
+				}
+			}
+			c_iki = {
+				color = { 225 245 168 }
+				color2 = {63 63 63}
+				
+				b_iki = {
+					province = 11267
+					
+					color = { 225 245 168 }
+					color2 = { 63 63 63 }
+				}
+			}
+			c_tsushima = {
+				color = { 178 255 168 }
+				color2 = {63 63 63}
+				
+				b_tsushima = {
+					province = 11268
+					
+					color = { 178 255 168 }
+					color2 = { 63 63 63 }
+				}
+			}
+		}
+	}
+	
+	k_yezo = { # Yezo 
+		color = { 127 0 0 }
+		color2 = { 63 63 63 }
+
+		capital = c_oshima
+	
+		cultural_names = {
+			#nivkh = "Kugi Mif"
+			ainu = "Ainu Moshir"
+			japanese = "Ezo"
+			korean = "Hai"
+			han = "Xiayi"
+			bai = "Xiayi"
+			qiang = "Xiayi"
+			mongol = "Eizo"
+			khitan = "Eizo"
+			jurchen = "Eizo"
+		}
+
+		d_hokkaido = {
+			color = { 225 51 0 }
+			color2 = { 63 63 63 }
+			
+			capital = c_kamikawa
+			
+			c_tokachi = {
+				color = { 214 111 110 }
+				color2 = { 63 63 63 }
+				
+				b_tokachi = {
+					province = 11312
+					
+					color = { 214 111 110 }
+					color2 = { 63 63 63 }
+				}
+			}
+			c_kamikawa = {
+				color = {127 81 199}
+				color2 = {63 63 63}
+				
+				b_kamikawa = {
+					province = 11310
+					
+					color = {127 81 199}
+					color2 = { 63 63 63 }
+				}
+			}
+			c_kushiro = {
+				color = { 149 21 112}
+				color2 = {63 63 63}
+		
+				b_kushiro = {
+					province = 11313
+					
+					color = { 149 21 112}
+					color2 = { 63 63 63 }
+				}
+			}
+		}
+
+		d_matsumae = {
+			color = { 140 203 207 }
+			color2 = { 63 63 63 }
+			
+			capital = c_oshima
+			
+			c_oshima = {
+				color = { 142 5 42 }
+				color2 = {63 63 63}
+				
+				b_oshima = {
+					province = 11303
+					
+					color = { 142 5 42 }
+					color2 = { 63 63 63 }
+				}
+			}
+			c_shiribeshi = {
+				color = { 201 40 0}
+				color2 = {63 63 63}
+				
+				b_shiribeshi = {
+					province = 11304
+					
+					color = { 201 40 0}
+					color2 = { 63 63 63 }
+				}
+			}
+			c_ishikari = {
+				color = { 214 101 15 }
+				color2 = { 63 63 63 }
+				
+				b_ishikari = {
+					province = 11306
+					
+					color = { 214 101 15 }
+					color2 = { 63 63 63 }
+				}
+			}
+			c_teshio = {
+				color = { 185 25 21}
+				color2 = {63 63 63}
+				
+				b_teshio = {
+					province = 11307
+					
+					color = { 185 25 21}
+					color2 = { 63 63 63 }
+				}
+			}
+			c_iburi = {
+				color = {243 72 198}
+				color2 = {63 63 63}
+				
+				b_iburi = {
+					province = 11305
+					
+					color = {243 72 198}
+					color2 = { 63 63 63 }
+				}
+			}
+			c_hidaka = {
+				color = { 214 84 110 }
+				color2 = { 63 63 63 }
+				
+				b_hidaka = {
+					province = 11311
+					
+					color = { 214 84 110 }
+					color2 = { 63 63 63 }
+				}
+			}
+			c_nemuro = {
+				color = {169 81 72}
+				color2 = {63 63 63}
+				
+				b_nemuro = {
+					province = 11309
+					
+					color = {169 81 72}
+					color2 = { 63 63 63 }
+				}
+			}
+			c_kitami = {
+				color = {43 72 198}
+				color2 = {63 63 63}
+				
+				b_kitami = {
+					province = 11308
+					
+					color = {43 72 198}
+					color2 = { 63 63 63 }
+				}
+			}
+		}
+	
+	#	d_kuril = {
+	#		color = { 249 51 12}
+	#		color2 = {63 63 63}
+			
+	#		capital = c_cupka
+			
+	#		japanese = "Chishima"
+	#		yamato = "Chishima"
+	#		wako = "Chishima"
+			
+	#		c_cupka = { #Cupka
+	#			color = {149 51 122}
+	#			color2 = {63 63 63}
+				
+	#			japanese = "Chishima"
+	#			yamato = "Chishima"
+	#			wako = "Chishima"
+				
+	#			b_cupka = {
+	#			}
+	#		}
+	#	}
+	}
+	
+	k_ryukyu = {
+		color = { 214 124 105 }
+		color2 = { 63 90 152 }
+		can_be_named_after_dynasty = no
+	
+		capital = c_shuri
+		
+		d_ryukyu = {
+			color = { 214 114 115 }
+			color2 = { 63 90 152 }
+	
+			capital = c_shuri
+			
+			c_shuri = {
+				color = { 214 124 115 }
+				color2 = { 63 90 152 }
+				
+				b_shuri = {
+					province = 11324
+					
+					color = { 214 124 115 }
+					color2 = { 63 63 63 }
+				}
+			}			
+			c_sakishima = {
+				color = {149 160 240}
+				color2 = {63 90 152}
+				
+				b_sakishima = {
+					province = 11325
+					
+					color = {149 160 240}
+					color2 = { 63 63 63 }
+				}
+			}
+		}
+	}
+}
+
+e_japan = {
+	color = { 200 55 55 }
+	color2 = { 200 55 0 }
+	can_be_named_after_dynasty = no
+	
+	can_create = {
+		trigger_if = {
+			limit = {
+				is_ai = yes
+			}
+			has_culture_group = culture_group:japanese_group
+		}
+	}
+	
+	capital = c_musashi
+	
+	cultural_names = {
+		ainu = "Sisam Moshir"
+		korean = "Ilbon"
+		han = cn_riben
+		bai = cn_riben
+		qiang = cn_riben
+		mongol = cn_yapon
+		khitan = cn_yapon
+		jurchen = cn_yapon
+		bedouin = cn_wakwak
+		maghrebi = cn_wakwak
+		levantine = cn_wakwak
+		egyptian = cn_wakwak
+		andalusian = cn_wakwak
+	}
+	
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture = culture:japanese
+			}
+			add = @correct_culture_primary_score
+		}
+	}	
+}

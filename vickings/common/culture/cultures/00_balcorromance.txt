@@ -1,0 +1,1513 @@
+﻿balcorromance_group = {
+	
+	graphical_cultures = {
+		latin_group_coa_gfx
+		western_coa_gfx
+		byzantine_clothing_gfx
+		eastern_unit_gfx
+		western_building_gfx
+	}
+	
+	mercenary_names = {
+			{ name = "mercenary_company_sheperds_of_the_romans" }
+		}
+	
+	vlach = {
+
+		color = { 161  126  128 }
+
+		cadet_dynasty_names = {
+			{ "dynnp_din" "dynn_Craiova" }
+			{ "dynnp_din" "dynn_Calafat" }
+			{ "dynnp_din" "dynn_Severin" }
+			{ "dynnp_din" "dynn_TarguJiu" }
+			{ "dynnp_din" "dynn_Oltenia" }
+			{ "dynnp_din" "dynn_Muntenia" }
+			{ "dynnp_din" "dynn_Braila" }
+			{ "dynnp_din" "dynn_Buzau" }
+			{ "dynnp_din" "dynn_Calarasi" }
+			{ "dynnp_din" "dynn_Tirgoviste" }
+			{ "dynnp_din" "dynn_Giurgiu" }
+			{ "dynnp_din" "dynn_TablaButii" }
+			{ "dynnp_din" "dynn_Polovragi" }
+			{ "dynnp_din" "dynn_Campulung" }
+			{ "dynnp_din" "dynn_Ardelean" }
+			{ "dynnp_din" "dynn_TaraRomaneasca" }
+			{ "dynnp_din" "dynn_Moldova" }
+			{ "dynnp_din" "dynn_Iasi" }
+			{ "dynnp_din" "dynn_Orhei" }
+			{ "dynnp_din" "dynn_Soroca" }
+			{ "dynnp_din" "dynn_Barlad" }
+			{ "dynnp_din" "dynn_Stoenesti" }
+			{ "dynnp_din" "dynn_Galati" }
+			{ "dynnp_din" "dynn_Ungaria" }
+			{ "dynnp_din" "dynn_Balcani" }
+			{ "dynnp_din" "dynn_Bizantul" }
+			{ "dynnp_din" "dynn_Greaca" }
+			{ "dynnp_din" "dynn_Albania" }
+			{ "dynnp_din" "dynn_Bulgaria" }
+			{ "dynnp_din" "dynn_Dunarea" }
+			{ "dynnp_din" "dynn_Bosnia" }
+			{ "dynnp_din" "dynn_Serbia" }
+			{ "dynnp_din" "dynn_Croatia" }
+			{ "dynnp_din" "dynn_Slovenia" }
+			{ "dynnp_din" "dynn_Vidin" }
+			{ "dynnp_din" "dynn_Branicevo" }
+			{ "dynnp_din" "dynn_Moesia" }
+			{ "dynnp_din" "dynn_Tarnovgrad" }
+			{ "dynnp_din" "dynn_Sredete" }
+			{ "dynnp_din" "dynn_Nikopolis" }
+			{ "dynnp_din" "dynn_Silistra" }
+			{ "dynnp_din" "dynn_Vratsa" }
+			{ "dynnp_din" "dynn_Aytos" }
+			{ "dynnp_din" "dynn_Constanta" }
+			{ "dynnp_din" "dynn_Mesembria" }
+			{ "dynnp_din" "dynn_Dobrogea" }
+			{ "dynnp_din" "dynn_Naissus" }
+			{ "dynnp_din" "dynn_Velbajd" }
+			{ "dynnp_din" "dynn_Pirin" }
+			{ "dynnp_din" "dynn_Strumica" }
+			{ "dynnp_din" "dynn_Skopje" }
+			{ "dynnp_din" "dynn_Ohrid" }
+			{ "dynnp_din" "dynn_Philippopolis" }
+			{ "dynnp_din" "dynn_Macara" }
+			{ "dynnp_din" "dynn_Beroe" }
+			{ "dynnp_din" "dynn_Burgas" }
+			{ "dynnp_din" "dynn_Adrianopolis" }
+			{ "dynnp_din" "dynn_Zherkovo" }
+			{ "dynnp_din" "dynn_Rhodopes" }
+			{ "dynnp_din" "dynn_Dalmația" }
+			{ "dynnp_din" "dynn_Zadar" }
+			{ "dynnp_din" "dynn_Knin" }
+			{ "dynnp_din" "dynn_Ketine" }
+			{ "dynnp_din" "dynn_Gacka" }
+			{ "dynnp_din" "dynn_Egal" }
+			{ "dynnp_din" "dynn_Charso" }
+			{ "dynnp_din" "dynn_Modrus" }
+			{ "dynnp_din" "dynn_Slavonia" }
+			{ "dynnp_din" "dynn_Zagreb" }
+			{ "dynnp_din" "dynn_Zagorje" }
+			{ "dynnp_din" "dynn_Pozega" }
+			{ "dynnp_din" "dynn_Vukovar" }
+			{ "dynnp_din" "dynn_Ramura" }
+			{ "dynnp_din" "dynn_DonjiKraji" }
+			{ "dynnp_din" "dynn_Vhrbosna" }
+			{ "dynnp_din" "dynn_Pset" }
+			{ "dynnp_din" "dynn_Singur" }
+			{ "dynnp_din" "dynn_Usora" }
+			{ "dynnp_din" "dynn_Tara" }
+			{ "dynnp_din" "dynn_Vrbas" }
+			{ "dynnp_din" "dynn_Zachlumia" }
+			{ "dynnp_din" "dynn_Zelengora" }
+			{ "dynnp_din" "dynn_Sfarsit" }
+			{ "dynnp_din" "dynn_Paganija" }
+			{ "dynnp_din" "dynn_Dubrovnik" }
+			{ "dynnp_din" "dynn_Ragusa" }
+			{ "dynnp_din" "dynn_Nicosia" }
+			{ "dynnp_din" "dynn_Famagusta" }
+			{ "dynnp_din" "dynn_Cipru" }
+			{ "dynnp_din" "dynn_Epir" }
+			{ "dynnp_din" "dynn_Nicpolis" }
+			{ "dynnp_din" "dynn_Epeiros" }
+			{ "dynnp_din" "dynn_Aetolia" }
+			{ "dynnp_din" "dynn_Metzovo" }
+			{ "dynnp_din" "dynn_Dyrrachion" }
+			{ "dynnp_din" "dynn_Arbanon" }
+			{ "dynnp_din" "dynn_Batand" }
+			{ "dynnp_din" "dynn_Opozitie" }
+			{ "dynnp_din" "dynn_Avlonas" }
+			{ "dynnp_din" "dynn_Cefalonia" }
+			{ "dynnp_din" "dynn_Buthrotum" }
+			{ "dynnp_din" "dynn_Atena" }
+			{ "dynnp_din" "dynn_Attica" }
+			{ "dynnp_din" "dynn_Beotie" }
+			{ "dynnp_din" "dynn_Eubea" }
+			{ "dynnp_din" "dynn_Achaia" }
+			{ "dynnp_din" "dynn_Korinthos" }
+			{ "dynnp_din" "dynn_Mesenia" }
+			{ "dynnp_din" "dynn_Laconia" }
+			{ "dynnp_din" "dynn_Rashka" }
+			{ "dynnp_din" "dynn_Zlatibor" }
+			{ "dynnp_din" "dynn_Sumadija" }
+			{ "dynnp_din" "dynn_Podrinje" }
+			{ "dynnp_din" "dynn_Hvosno" }
+			{ "dynnp_din" "dynn_Sabie" }
+			{ "dynnp_din" "dynn_Belgrad" }
+			{ "dynnp_din" "dynn_Duklja" }
+			{ "dynnp_din" "dynn_Marea" }
+			{ "dynnp_din" "dynn_Pajisti" }
+			{ "dynnp_din" "dynn_Tracia" }
+			{ "dynnp_din" "dynn_Kalliopolis" }
+			{ "dynnp_din" "dynn_Atingeti" }
+			{ "dynnp_din" "dynn_Strymon" }
+			{ "dynnp_din" "dynn_Mossinopolis" }
+			{ "dynnp_din" "dynn_Sere" }
+			{ "dynnp_din" "dynn_Naxos" }
+			{ "dynnp_din" "dynn_Abydos" }
+			{ "dynnp_din" "dynn_Lesbo" }
+			{ "dynnp_din" "dynn_Chios" }
+			{ "dynnp_din" "dynn_Rhodos" }
+			{ "dynnp_din" "dynn_Chalcidice" }
+			{ "dynnp_din" "dynn_Vedea" }
+			{ "dynnp_din" "dynn_Thessaluses" }
+			{ "dynnp_din" "dynn_Demetrias" }
+			{ "dynnp_din" "dynn_Tesalia" }
+			{ "dynnp_din" "dynn_Neopatras" }
+			{ "dynnp_din" "dynn_Thessaliotis" }
+			{ "dynnp_din" "dynn_Romania" }
+		}
+
+		dynasty_names = {
+			"dynn_Basarab"
+			"dynn_Dragusin"
+			"dynn_Basarab"
+			"dynn_Litovoi"
+			"dynn_SelimoviC_"
+			"dynn_CsA_ky"
+			"dynn_DezsO_fi"
+			"dynn_Guthi-OrszA_gh"
+			"dynn_MarczaltO_vi"
+			"dynn_Petenye"
+			"dynn_Tibai"
+			"dynn_ZA_ch"
+			"dynn_Szapolyai"
+			"dynn_VA_rdai"
+			"dynn_ProdaniC_"
+			"dynn_Odescalchi"
+			"dynn_Costin"
+			"dynn_BA_dA_rA_u"
+			"dynn_BA_lA_ceanu"
+			"dynn_Bosie"
+			"dynn_BrA_iloi"
+			"dynn_BuS_ilA_"
+			"dynn_Calerghi"
+			"dynn_Callimachi"
+			"dynn_Cantemir"
+			"dynn_Carianopol"
+			"dynn_Crihan"
+			"dynn_Carionfil"
+			"dynn_Cristescu"
+			"dynn_Casassovici"
+			"dynn_Cesianu"
+			"dynn_ChinteS_ti"
+			"dynn_Chirescu"
+			"dynn_CoteS_ti"
+			"dynn_CraioveS_tilor"
+			"dynn_CrA_snaru"
+			"dynn_Dinastia"
+			"dynn_DA_neS_tilor"
+			"dynn_Diamandy"
+			"dynn_DrA_culeS_tilor"
+			"dynn_DrugA_"
+			"dynn_Eliescu"
+			"dynn_Emandi"
+			"dynn_Filipescu"
+			"dynn_Florescu"
+			"dynn_FundA_T_eni"
+			"dynn_Giosani"
+			"dynn_Golescu"
+			"dynn_GrA_diS_teanu"
+			"dynn_Greceanu"
+			"dynn_Hagi"
+			"dynn_HA_jdA_u"
+			"dynn_Jianu"
+			"dynn_Korne"
+			"dynn_Lecca"
+			"dynn_LereS_ti"
+			"dynn_Magheru"
+			"dynn_Marineanu"
+			"dynn_Miclescu"
+			"dynn_MovilA_"
+			"dynn_MA_nA_stireanu"
+			"dynn_Niculescu_DorobanT_u"
+			"dynn_PA_cleanu"
+			"dynn_Pisoschi"
+			"dynn_PleS_ia"
+			"dynn_PleS_nilA_"
+			"dynn_PleS_oianu"
+			"dynn_RacovitzA_"
+			"dynn_RA_S_canu"
+			"dynn_Rallet"
+			"dynn_Rosetti"
+			"dynn_RusA_neS_ti"
+			"dynn_Savoia"
+			"dynn_Stoicescu"
+			"dynn_S_oarec"
+			"dynn_S_oldan"
+			"dynn_TurbureS_ti"
+			"dynn_UrlA_T_eni"
+			"dynn_VidraS_cu"
+			"dynn_Yarka"
+			##############New Dinasties
+			"dynn_Chifu"
+			"dynn_Angelescu"
+			"dynn_Antonescu"
+			"dynn_Argetoianu"
+			"dynn_Averescu"
+			"dynn_Baldescu"
+			"dynn_Barozzi"
+			"dynn_Berindei"
+			"dynn_Cernat"
+			"dynn_Christecu"
+			"dynn_Cihoski"
+			"dynn_Ciuperca"
+			"dynn_Coanda"
+			"dynn_Crainiceanu"
+			"dynn_Critescu"
+			"dynn_Culcer"
+			"dynn_Cuza"
+			"dynn_Dona"
+			"dynn_Dragalina"
+			"dynn_Dumitrescu"
+			"dynn_Falcoianu"
+			"dynn_Florescu"
+			"dynn_Gardescu"
+			"dynn_Grigorescu"
+			"dynn_Froza"
+			"dynn_Harjeu"
+			"dynn_Holban"
+			"dynn_Iancovescu"
+			"dynn_Iliasevici"
+			"dynn_Iliescu"
+			"dynn_Ionascu"
+			"dynn_Ionescu"
+			"dynn_Ionitiu"
+			"dynn_Koslinski"
+			"dynn_Lahovary"
+			"dynn_Lupescu"
+			"dynn_Mardarescu"
+			"dynn_Murgescu"
+			"dynn_Poenaru"
+			"dynn_Prezan"
+			"dynn_Salajan"
+			"dynn_Samsonovici"
+			"dynn_Schitiu"
+			"dynn_Scodrea"
+			"dynn_Slaniceanu"
+			"dynn_Steflea"
+			"dynn_Tatarascu"
+			"dynn_Tenescu"
+			"dynn_Vaitoianu"
+			"dynn_Zottu"
+			"dynn_Cristea"
+			"dynn_Selei"
+			"dynn_Catana"
+			"dynn_Burileanu"
+			"dynn_Bratianu"
+			"dynn_Dusescu"
+			"dynn_Tifrea"
+			"dynn_Cordescu"
+			"dynn_Nicoara"
+			"dynn_Popescu"
+			"dynn_Vornica"
+			"dynn_Ursachi"
+			"dynn_Tutuianu"
+			"dynn_Reinek"
+			"dynn_Alexiu"
+			"dynn_Stefanescu"
+			"dynn_Pomut"
+			"dynn_Muresan"
+			"dynn_Moraru"
+			"dynn_Panaite"
+			"dynn_Mihordea"
+			"dynn_Cameceanu"
+			"dynn_Dirjan"
+			"dynn_Scurtu"
+			"dynn_Radulescu"
+			"dynn_Cocebas"
+			"dynn_Greceanu"
+			"dynn_Ciocanel"
+			"dynn_Polizu"
+			"dynn_Micsunesti"
+			"dynn_Zabava"
+			"dynn_Malacescu"
+			"dynn_Maga"
+			"dynn_Vinca"
+			"dynn_Gavriliu"
+			"dynn_Dicezare"
+			"dynn_Lungulescu"
+			"dynn_Chirvasuta"
+			"dynn_Rozariu"
+			"dynn_Milu"
+			"dynn_Serbanescu"
+			"dynn_Adamescu"
+			"dynn_Aldea"
+			"dynn_Anestin"
+			"dynn_Baciu"
+			"dynn_Balitiu"
+			"dynn_Barbu"
+			"dynn_Biolan"
+			"dynn_Blaga"
+			"dynn_Boldea"
+			"dynn_Borsan"
+			"dynn_Branza"
+			"dynn_Butucel"
+			"dynn_Cazacu"
+			"dynn_CelTradat"
+			"dynn_Ciobanu"
+			"dynn_Ciubotaru"
+			"dynn_Codreanu"
+			"dynn_Comaneci"
+			"dynn_Comanici"
+			"dynn_Costea"
+			"dynn_Costiniu"
+			"dynn_Creanga"
+			"dynn_Dagau"
+			"dynn_Dantis"
+			"dynn_Dinu"
+			"dynn_Dracula"
+			"dynn_Dragan"
+			"dynn_Enescu"
+			"dynn_Evian"
+			"dynn_Fising"
+			"dynn_Floarea"
+			"dynn_Ghibasan"
+			"dynn_Gilca"
+			"dynn_Hila"
+			"dynn_Iliese"
+			"dynn_Iorgovan"
+			"dynn_Ivas"
+			"dynn_Kohlrus"
+			"dynn_Lacusta"
+			"dynn_Lazarescu"
+			"dynn_Maior"
+			"dynn_Manole"
+			"dynn_Marandici"
+			"dynn_Marin"
+			"dynn_Matei"
+			"dynn_Mitrea"
+			"dynn_Murea"
+			"dynn_Murgulescu"
+			"dynn_Nastaca"
+			"dynn_Nedelcu"
+			"dynn_Nistor"
+			"dynn_Onofrei"
+			"dynn_Palarie"
+			"dynn_Pogonat"
+			"dynn_Popa"
+			"dynn_Pricop"
+			"dynn_Prosie"
+			"dynn_Puscas"
+			"dynn_Radu"
+			"dynn_Roman"
+			"dynn_Ruican"
+			"dynn_Segarceanu"
+			"dynn_Soryan"
+			"dynn_Suta"
+			"dynn_Tanase"
+			"dynn_Tarniceriu"
+			"dynn_Tchaikova"
+			"dynn_Tessler"
+			"dynn_Timmar"
+			"dynn_Ungureanu"
+			"dynn_Vacarescu"
+			"dynn_Vlad"
+			"dynn_Vulpe"
+			"dynn_Zamfir"
+			"dynn_Zugravescu"
+			"dynn_Tatarescu"
+			"dynn_Parhon"
+			"dynn_Calinescu"
+			"dynn_Goga"
+			"dynn_Iacobici"
+			"dynn_Racovita"
+			"dynn_Avramescu"
+			"dynn_Manoliu"
+			"dynn_Atanasiu"
+			"dynn_Constantinescu"
+			"dynn_Teodorini"
+			"dynn_Damaceanu"
+			"dynn_Macellariu"
+			"dynn_Costachescu"
+			"dynn_Popovici"
+			"dynn_Borcescu"
+			"dynn_Petrescu"
+			"dynn_Balotescu"
+			"dynn_Mercenar"
+			"dynn_Paunescu"
+			"dynn_Basescu"
+			"dynn_Pop"
+			"dynn_Diaconescu"
+			"dynn_Dmitru"
+			"dynn_Ciuca"
+			"dynn_Foca"
+			"dynn_Badalan"
+			"dynn_Manci"
+			"dynn_Mirsu"
+			"dynn_Ciucas"
+			"dynn_Scarlat"
+			"dynn_Harabagiu"
+			"dynn_Botea"
+			"dynn_Suta"
+			"dynn_Damian"
+			"dynn_Petrache"
+			"dynn_Soci"
+			"dynn_Ufaleanu"
+			"dynn_Anastasof"
+			"dynn_Capatina"
+			"dynn_Iacoblev"
+			"dynn_Coman"
+			"dynn_Mitric"
+			"dynn_Savulescu"
+			"dynn_Rogozan"
+			"dynn_Simionov"
+			"dynn_Popoiu"
+			"dynn_Buzdugan"
+			"dynn_Borodin"
+			"dynn_Salogor"
+			"dynn_Simian"
+			"dynn_Cazacliu"
+			"dynn_Pantea"
+			"dynn_Sinicliu"
+			"dynn_Cutie"
+			"dynn_Ohladciuc"
+			"dynn_Buclis"
+			"dynn_Nitrean"
+			"dynn_Timofti"
+		}
+
+		male_names = {
+			Adrian Alexandru Anghel Aron Bajan Balc Barbat Basarab Bogdan Carol Ciprian Ciubar Claudiu
+			Corneliu Costin Damjan Dan Dragos Dumitru Emerik Florin Franjo Gavril Gheorghe Grigore Iacob
+			Iancu Ieremia Ilie Ioan Iorghu Iosif Iuga Janos Ladislau Latcu Laurentiu Litovoi Lucian Marin
+			Mihai Milos Mircea Moise Nicolaie Petre Pirvu Radovan Radu Roman Sas Seneslav Sergiu Simion
+			Stefan Stelian Teodor Tepes Tibor Tihomir Timotei Tudor Valentin Valeriu Vasile Veaceslav
+			Victor Vilhelm Vintila Vlad
+		}
+		female_names = {
+			Adelina Adriana Afina Alexandra Alexia Ana Anastasia Angela Arina Christina Clara Dana Ecatarina
+			Elena Elisabeta Emilia Eufroysina Felicia Floarea Iacoba Ioana Ionela Irina Iulia Maria Monica
+			Natalia Olimpia Paraschiva Petra Roxana Ruxandra Smaranda Sophia Stana Stefana Stefania Teodora
+			Tereza Vasilica Violeta Voica Zina
+			
+		}
+		
+		dynasty_of_location_prefix = "dynnp_din"
+		
+		patronym_suffix_male = "dynnpat_suf_escu"
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 40
+		mat_grf_name_chance = 10
+		father_name_chance = 10
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+
+		ethnicities = {
+			10 = mediterranean_byzantine
+			10 = caucasian_blond
+			10 = caucasian_ginger
+			10 = caucasian_brown_hair
+			10 = caucasian_dark_hair
+			10 = slavic_northern_blond
+			10 = slavic_northern_ginger
+			10 = slavic_northern_brown_hair
+			10 = slavic_northern_dark_hair
+			10 = asian
+		}
+
+     }
+
+
+moldavian = {
+
+		color = { 136  157  23 }
+
+		cadet_dynasty_names = {
+			{ "dynnp_din" "dynn_Craiova" }
+			{ "dynnp_din" "dynn_Calafat" }
+			{ "dynnp_din" "dynn_Severin" }
+			{ "dynnp_din" "dynn_TarguJiu" }
+			{ "dynnp_din" "dynn_Oltenia" }
+			{ "dynnp_din" "dynn_Muntenia" }
+			{ "dynnp_din" "dynn_Braila" }
+			{ "dynnp_din" "dynn_Buzau" }
+			{ "dynnp_din" "dynn_Calarasi" }
+			{ "dynnp_din" "dynn_Tirgoviste" }
+			{ "dynnp_din" "dynn_Giurgiu" }
+			{ "dynnp_din" "dynn_TablaButii" }
+			{ "dynnp_din" "dynn_Polovragi" }
+			{ "dynnp_din" "dynn_Campulung" }
+			{ "dynnp_din" "dynn_Ardelean" }
+			{ "dynnp_din" "dynn_TaraRomaneasca" }
+			{ "dynnp_din" "dynn_Moldova" }
+			{ "dynnp_din" "dynn_Iasi" }
+			{ "dynnp_din" "dynn_Orhei" }
+			{ "dynnp_din" "dynn_Soroca" }
+			{ "dynnp_din" "dynn_Barlad" }
+			{ "dynnp_din" "dynn_Stoenesti" }
+			{ "dynnp_din" "dynn_Galati" }
+			{ "dynnp_din" "dynn_Ungaria" }
+			{ "dynnp_din" "dynn_Balcani" }
+			{ "dynnp_din" "dynn_Bizantul" }
+			{ "dynnp_din" "dynn_Greaca" }
+			{ "dynnp_din" "dynn_Albania" }
+			{ "dynnp_din" "dynn_Bulgaria" }
+			{ "dynnp_din" "dynn_Dunarea" }
+			{ "dynnp_din" "dynn_Bosnia" }
+			{ "dynnp_din" "dynn_Serbia" }
+			{ "dynnp_din" "dynn_Croatia" }
+			{ "dynnp_din" "dynn_Slovenia" }
+			{ "dynnp_din" "dynn_Vidin" }
+			{ "dynnp_din" "dynn_Branicevo" }
+			{ "dynnp_din" "dynn_Moesia" }
+			{ "dynnp_din" "dynn_Tarnovgrad" }
+			{ "dynnp_din" "dynn_Sredete" }
+			{ "dynnp_din" "dynn_Nikopolis" }
+			{ "dynnp_din" "dynn_Silistra" }
+			{ "dynnp_din" "dynn_Vratsa" }
+			{ "dynnp_din" "dynn_Aytos" }
+			{ "dynnp_din" "dynn_Constanta" }
+			{ "dynnp_din" "dynn_Mesembria" }
+			{ "dynnp_din" "dynn_Dobrogea" }
+			{ "dynnp_din" "dynn_Naissus" }
+			{ "dynnp_din" "dynn_Velbajd" }
+			{ "dynnp_din" "dynn_Pirin" }
+			{ "dynnp_din" "dynn_Strumica" }
+			{ "dynnp_din" "dynn_Skopje" }
+			{ "dynnp_din" "dynn_Ohrid" }
+			{ "dynnp_din" "dynn_Philippopolis" }
+			{ "dynnp_din" "dynn_Macara" }
+			{ "dynnp_din" "dynn_Beroe" }
+			{ "dynnp_din" "dynn_Burgas" }
+			{ "dynnp_din" "dynn_Adrianopolis" }
+			{ "dynnp_din" "dynn_Zherkovo" }
+			{ "dynnp_din" "dynn_Rhodopes" }
+			{ "dynnp_din" "dynn_Dalmația" }
+			{ "dynnp_din" "dynn_Zadar" }
+			{ "dynnp_din" "dynn_Knin" }
+			{ "dynnp_din" "dynn_Ketine" }
+			{ "dynnp_din" "dynn_Gacka" }
+			{ "dynnp_din" "dynn_Egal" }
+			{ "dynnp_din" "dynn_Charso" }
+			{ "dynnp_din" "dynn_Modrus" }
+			{ "dynnp_din" "dynn_Slavonia" }
+			{ "dynnp_din" "dynn_Zagreb" }
+			{ "dynnp_din" "dynn_Zagorje" }
+			{ "dynnp_din" "dynn_Pozega" }
+			{ "dynnp_din" "dynn_Vukovar" }
+			{ "dynnp_din" "dynn_Ramura" }
+			{ "dynnp_din" "dynn_DonjiKraji" }
+			{ "dynnp_din" "dynn_Vhrbosna" }
+			{ "dynnp_din" "dynn_Pset" }
+			{ "dynnp_din" "dynn_Singur" }
+			{ "dynnp_din" "dynn_Usora" }
+			{ "dynnp_din" "dynn_Tara" }
+			{ "dynnp_din" "dynn_Vrbas" }
+			{ "dynnp_din" "dynn_Zachlumia" }
+			{ "dynnp_din" "dynn_Zelengora" }
+			{ "dynnp_din" "dynn_Sfarsit" }
+			{ "dynnp_din" "dynn_Paganija" }
+			{ "dynnp_din" "dynn_Dubrovnik" }
+			{ "dynnp_din" "dynn_Ragusa" }
+			{ "dynnp_din" "dynn_Nicosia" }
+			{ "dynnp_din" "dynn_Famagusta" }
+			{ "dynnp_din" "dynn_Cipru" }
+			{ "dynnp_din" "dynn_Epir" }
+			{ "dynnp_din" "dynn_Nicpolis" }
+			{ "dynnp_din" "dynn_Epeiros" }
+			{ "dynnp_din" "dynn_Aetolia" }
+			{ "dynnp_din" "dynn_Metzovo" }
+			{ "dynnp_din" "dynn_Dyrrachion" }
+			{ "dynnp_din" "dynn_Arbanon" }
+			{ "dynnp_din" "dynn_Batand" }
+			{ "dynnp_din" "dynn_Opozitie" }
+			{ "dynnp_din" "dynn_Avlonas" }
+			{ "dynnp_din" "dynn_Cefalonia" }
+			{ "dynnp_din" "dynn_Buthrotum" }
+			{ "dynnp_din" "dynn_Atena" }
+			{ "dynnp_din" "dynn_Attica" }
+			{ "dynnp_din" "dynn_Beotie" }
+			{ "dynnp_din" "dynn_Eubea" }
+			{ "dynnp_din" "dynn_Achaia" }
+			{ "dynnp_din" "dynn_Korinthos" }
+			{ "dynnp_din" "dynn_Mesenia" }
+			{ "dynnp_din" "dynn_Laconia" }
+			{ "dynnp_din" "dynn_Rashka" }
+			{ "dynnp_din" "dynn_Zlatibor" }
+			{ "dynnp_din" "dynn_Sumadija" }
+			{ "dynnp_din" "dynn_Podrinje" }
+			{ "dynnp_din" "dynn_Hvosno" }
+			{ "dynnp_din" "dynn_Sabie" }
+			{ "dynnp_din" "dynn_Belgrad" }
+			{ "dynnp_din" "dynn_Duklja" }
+			{ "dynnp_din" "dynn_Marea" }
+			{ "dynnp_din" "dynn_Pajisti" }
+			{ "dynnp_din" "dynn_Tracia" }
+			{ "dynnp_din" "dynn_Kalliopolis" }
+			{ "dynnp_din" "dynn_Atingeti" }
+			{ "dynnp_din" "dynn_Strymon" }
+			{ "dynnp_din" "dynn_Mossinopolis" }
+			{ "dynnp_din" "dynn_Sere" }
+			{ "dynnp_din" "dynn_Naxos" }
+			{ "dynnp_din" "dynn_Abydos" }
+			{ "dynnp_din" "dynn_Lesbo" }
+			{ "dynnp_din" "dynn_Chios" }
+			{ "dynnp_din" "dynn_Rhodos" }
+			{ "dynnp_din" "dynn_Chalcidice" }
+			{ "dynnp_din" "dynn_Vedea" }
+			{ "dynnp_din" "dynn_Thessaluses" }
+			{ "dynnp_din" "dynn_Demetrias" }
+			{ "dynnp_din" "dynn_Tesalia" }
+			{ "dynnp_din" "dynn_Neopatras" }
+			{ "dynnp_din" "dynn_Thessaliotis" }
+			{ "dynnp_din" "dynn_Romania" }
+		}
+
+		dynasty_names = {
+			"dynn_Basarab"
+			"dynn_Dragusin"
+			"dynn_Basarab"
+			"dynn_Litovoi"
+			"dynn_SelimoviC_"
+			"dynn_CsA_ky"
+			"dynn_DezsO_fi"
+			"dynn_Guthi-OrszA_gh"
+			"dynn_MarczaltO_vi"
+			"dynn_Petenye"
+			"dynn_Tibai"
+			"dynn_ZA_ch"
+			"dynn_Szapolyai"
+			"dynn_VA_rdai"
+			"dynn_ProdaniC_"
+			"dynn_Odescalchi"
+			"dynn_Costin"
+			"dynn_BA_dA_rA_u"
+			"dynn_BA_lA_ceanu"
+			"dynn_Bosie"
+			"dynn_BrA_iloi"
+			"dynn_BuS_ilA_"
+			"dynn_Calerghi"
+			"dynn_Callimachi"
+			"dynn_Cantemir"
+			"dynn_Carianopol"
+			"dynn_Crihan"
+			"dynn_Carionfil"
+			"dynn_Cristescu"
+			"dynn_Casassovici"
+			"dynn_Cesianu"
+			"dynn_ChinteS_ti"
+			"dynn_Chirescu"
+			"dynn_CoteS_ti"
+			"dynn_CraioveS_tilor"
+			"dynn_CrA_snaru"
+			"dynn_Dinastia"
+			"dynn_DA_neS_tilor"
+			"dynn_Diamandy"
+			"dynn_DrA_culeS_tilor"
+			"dynn_DrugA_"
+			"dynn_Eliescu"
+			"dynn_Emandi"
+			"dynn_Filipescu"
+			"dynn_Florescu"
+			"dynn_FundA_T_eni"
+			"dynn_Giosani"
+			"dynn_Golescu"
+			"dynn_GrA_diS_teanu"
+			"dynn_Greceanu"
+			"dynn_Hagi"
+			"dynn_HA_jdA_u"
+			"dynn_Jianu"
+			"dynn_Korne"
+			"dynn_Lecca"
+			"dynn_LereS_ti"
+			"dynn_Magheru"
+			"dynn_Marineanu"
+			"dynn_Miclescu"
+			"dynn_MovilA_"
+			"dynn_MA_nA_stireanu"
+			"dynn_Niculescu_DorobanT_u"
+			"dynn_PA_cleanu"
+			"dynn_Pisoschi"
+			"dynn_PleS_ia"
+			"dynn_PleS_nilA_"
+			"dynn_PleS_oianu"
+			"dynn_RacovitzA_"
+			"dynn_RA_S_canu"
+			"dynn_Rallet"
+			"dynn_Rosetti"
+			"dynn_RusA_neS_ti"
+			"dynn_Savoia"
+			"dynn_Stoicescu"
+			"dynn_S_oarec"
+			"dynn_S_oldan"
+			"dynn_TurbureS_ti"
+			"dynn_UrlA_T_eni"
+			"dynn_VidraS_cu"
+			"dynn_Yarka"
+			##############New Dinasties
+			"dynn_Chifu"
+			"dynn_Angelescu"
+			"dynn_Antonescu"
+			"dynn_Argetoianu"
+			"dynn_Averescu"
+			"dynn_Baldescu"
+			"dynn_Barozzi"
+			"dynn_Berindei"
+			"dynn_Cernat"
+			"dynn_Christecu"
+			"dynn_Cihoski"
+			"dynn_Ciuperca"
+			"dynn_Coanda"
+			"dynn_Crainiceanu"
+			"dynn_Critescu"
+			"dynn_Culcer"
+			"dynn_Cuza"
+			"dynn_Dona"
+			"dynn_Dragalina"
+			"dynn_Dumitrescu"
+			"dynn_Falcoianu"
+			"dynn_Florescu"
+			"dynn_Gardescu"
+			"dynn_Grigorescu"
+			"dynn_Froza"
+			"dynn_Harjeu"
+			"dynn_Holban"
+			"dynn_Iancovescu"
+			"dynn_Iliasevici"
+			"dynn_Iliescu"
+			"dynn_Ionascu"
+			"dynn_Ionescu"
+			"dynn_Ionitiu"
+			"dynn_Koslinski"
+			"dynn_Lahovary"
+			"dynn_Lupescu"
+			"dynn_Mardarescu"
+			"dynn_Murgescu"
+			"dynn_Poenaru"
+			"dynn_Prezan"
+			"dynn_Salajan"
+			"dynn_Samsonovici"
+			"dynn_Schitiu"
+			"dynn_Scodrea"
+			"dynn_Slaniceanu"
+			"dynn_Steflea"
+			"dynn_Tatarascu"
+			"dynn_Tenescu"
+			"dynn_Vaitoianu"
+			"dynn_Zottu"
+			"dynn_Cristea"
+			"dynn_Selei"
+			"dynn_Catana"
+			"dynn_Burileanu"
+			"dynn_Bratianu"
+			"dynn_Dusescu"
+			"dynn_Tifrea"
+			"dynn_Cordescu"
+			"dynn_Nicoara"
+			"dynn_Popescu"
+			"dynn_Vornica"
+			"dynn_Ursachi"
+			"dynn_Tutuianu"
+			"dynn_Reinek"
+			"dynn_Alexiu"
+			"dynn_Stefanescu"
+			"dynn_Pomut"
+			"dynn_Muresan"
+			"dynn_Moraru"
+			"dynn_Panaite"
+			"dynn_Mihordea"
+			"dynn_Cameceanu"
+			"dynn_Dirjan"
+			"dynn_Scurtu"
+			"dynn_Radulescu"
+			"dynn_Cocebas"
+			"dynn_Greceanu"
+			"dynn_Ciocanel"
+			"dynn_Polizu"
+			"dynn_Micsunesti"
+			"dynn_Zabava"
+			"dynn_Malacescu"
+			"dynn_Maga"
+			"dynn_Vinca"
+			"dynn_Gavriliu"
+			"dynn_Dicezare"
+			"dynn_Lungulescu"
+			"dynn_Chirvasuta"
+			"dynn_Rozariu"
+			"dynn_Milu"
+			"dynn_Serbanescu"
+			"dynn_Adamescu"
+			"dynn_Aldea"
+			"dynn_Anestin"
+			"dynn_Baciu"
+			"dynn_Balitiu"
+			"dynn_Barbu"
+			"dynn_Biolan"
+			"dynn_Blaga"
+			"dynn_Boldea"
+			"dynn_Borsan"
+			"dynn_Branza"
+			"dynn_Butucel"
+			"dynn_Cazacu"
+			"dynn_CelTradat"
+			"dynn_Ciobanu"
+			"dynn_Ciubotaru"
+			"dynn_Codreanu"
+			"dynn_Comaneci"
+			"dynn_Comanici"
+			"dynn_Costea"
+			"dynn_Costiniu"
+			"dynn_Creanga"
+			"dynn_Dagau"
+			"dynn_Dantis"
+			"dynn_Dinu"
+			"dynn_Dracula"
+			"dynn_Dragan"
+			"dynn_Enescu"
+			"dynn_Evian"
+			"dynn_Fising"
+			"dynn_Floarea"
+			"dynn_Ghibasan"
+			"dynn_Gilca"
+			"dynn_Hila"
+			"dynn_Iliese"
+			"dynn_Iorgovan"
+			"dynn_Ivas"
+			"dynn_Kohlrus"
+			"dynn_Lacusta"
+			"dynn_Lazarescu"
+			"dynn_Maior"
+			"dynn_Manole"
+			"dynn_Marandici"
+			"dynn_Marin"
+			"dynn_Matei"
+			"dynn_Mitrea"
+			"dynn_Murea"
+			"dynn_Murgulescu"
+			"dynn_Nastaca"
+			"dynn_Nedelcu"
+			"dynn_Nistor"
+			"dynn_Onofrei"
+			"dynn_Palarie"
+			"dynn_Pogonat"
+			"dynn_Popa"
+			"dynn_Pricop"
+			"dynn_Prosie"
+			"dynn_Puscas"
+			"dynn_Radu"
+			"dynn_Roman"
+			"dynn_Ruican"
+			"dynn_Segarceanu"
+			"dynn_Soryan"
+			"dynn_Suta"
+			"dynn_Tanase"
+			"dynn_Tarniceriu"
+			"dynn_Tchaikova"
+			"dynn_Tessler"
+			"dynn_Timmar"
+			"dynn_Ungureanu"
+			"dynn_Vacarescu"
+			"dynn_Vlad"
+			"dynn_Vulpe"
+			"dynn_Zamfir"
+			"dynn_Zugravescu"
+			"dynn_Tatarescu"
+			"dynn_Parhon"
+			"dynn_Calinescu"
+			"dynn_Goga"
+			"dynn_Iacobici"
+			"dynn_Racovita"
+			"dynn_Avramescu"
+			"dynn_Manoliu"
+			"dynn_Atanasiu"
+			"dynn_Constantinescu"
+			"dynn_Teodorini"
+			"dynn_Damaceanu"
+			"dynn_Macellariu"
+			"dynn_Costachescu"
+			"dynn_Popovici"
+			"dynn_Borcescu"
+			"dynn_Petrescu"
+			"dynn_Balotescu"
+			"dynn_Mercenar"
+			"dynn_Paunescu"
+			"dynn_Basescu"
+			"dynn_Pop"
+			"dynn_Diaconescu"
+			"dynn_Dmitru"
+			"dynn_Ciuca"
+			"dynn_Foca"
+			"dynn_Badalan"
+			"dynn_Manci"
+			"dynn_Mirsu"
+			"dynn_Ciucas"
+			"dynn_Scarlat"
+			"dynn_Harabagiu"
+			"dynn_Botea"
+			"dynn_Suta"
+			"dynn_Damian"
+			"dynn_Petrache"
+			"dynn_Soci"
+			"dynn_Ufaleanu"
+			"dynn_Anastasof"
+			"dynn_Capatina"
+			"dynn_Iacoblev"
+			"dynn_Coman"
+			"dynn_Mitric"
+			"dynn_Savulescu"
+			"dynn_Rogozan"
+			"dynn_Simionov"
+			"dynn_Popoiu"
+			"dynn_Buzdugan"
+			"dynn_Borodin"
+			"dynn_Salogor"
+			"dynn_Simian"
+			"dynn_Cazacliu"
+			"dynn_Pantea"
+			"dynn_Sinicliu"
+			"dynn_Cutie"
+			"dynn_Ohladciuc"
+			"dynn_Buclis"
+			"dynn_Nitrean"
+			"dynn_Timofti"
+		}
+
+		male_names = {
+			Adrian Alexandru Anghel Aron Bajan Balc Barbat Basarab Bogdan Carol Ciprian Ciubar Claudiu
+			Corneliu Costin Damjan Dan Dragos Dumitru Emerik Florin Franjo Gavril Gheorghe Grigore Iacob
+			Iancu Ieremia Ilie Ioan Iorghu Iosif Iuga Janos Ladislau Latcu Laurentiu Litovoi Lucian Marin
+			Mihai Milos Mircea Moise Nicolaie Petre Pirvu Radovan Radu Roman Sas Seneslav Sergiu Simion
+			Stefan Stelian Teodor Tepes Tibor Tihomir Timotei Tudor Valentin Valeriu Vasile Veaceslav
+			Victor Vilhelm Vintila Vlad
+		}
+		female_names = {
+			Adelina Adriana Afina Alexandra Alexia Ana Anastasia Angela Arina Christina Clara Dana Ecatarina
+			Elena Elisabeta Emilia Eufroysina Felicia Floarea Iacoba Ioana Ionela Irina Iulia Maria Monica
+			Natalia Olimpia Paraschiva Petra Roxana Ruxandra Smaranda Sophia Stana Stefana Stefania Teodora
+			Tereza Vasilica Violeta Voica Zina
+			
+		}
+		
+		dynasty_of_location_prefix = "dynnp_din"
+		
+		patronym_suffix_male = "dynnpat_suf_escu"
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 40
+		mat_grf_name_chance = 10
+		father_name_chance = 10
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+
+		ethnicities = {
+			10 = mediterranean_byzantine
+			10 = caucasian_blond
+			10 = caucasian_ginger
+			10 = caucasian_brown_hair
+			10 = caucasian_dark_hair
+			10 = slavic_northern_blond
+			10 = slavic_northern_ginger
+			10 = slavic_northern_brown_hair
+			10 = slavic_northern_dark_hair
+			10 = asian
+		}
+
+     }
+	 
+	 
+romanian = {
+
+		color = { 21  96  178 }
+
+		cadet_dynasty_names = {
+			{ "dynnp_din" "dynn_Craiova" }
+			{ "dynnp_din" "dynn_Calafat" }
+			{ "dynnp_din" "dynn_Severin" }
+			{ "dynnp_din" "dynn_TarguJiu" }
+			{ "dynnp_din" "dynn_Oltenia" }
+			{ "dynnp_din" "dynn_Muntenia" }
+			{ "dynnp_din" "dynn_Braila" }
+			{ "dynnp_din" "dynn_Buzau" }
+			{ "dynnp_din" "dynn_Calarasi" }
+			{ "dynnp_din" "dynn_Tirgoviste" }
+			{ "dynnp_din" "dynn_Giurgiu" }
+			{ "dynnp_din" "dynn_TablaButii" }
+			{ "dynnp_din" "dynn_Polovragi" }
+			{ "dynnp_din" "dynn_Campulung" }
+			{ "dynnp_din" "dynn_Ardelean" }
+			{ "dynnp_din" "dynn_TaraRomaneasca" }
+			{ "dynnp_din" "dynn_Moldova" }
+			{ "dynnp_din" "dynn_Iasi" }
+			{ "dynnp_din" "dynn_Orhei" }
+			{ "dynnp_din" "dynn_Soroca" }
+			{ "dynnp_din" "dynn_Barlad" }
+			{ "dynnp_din" "dynn_Stoenesti" }
+			{ "dynnp_din" "dynn_Galati" }
+			{ "dynnp_din" "dynn_Ungaria" }
+			{ "dynnp_din" "dynn_Balcani" }
+			{ "dynnp_din" "dynn_Bizantul" }
+			{ "dynnp_din" "dynn_Greaca" }
+			{ "dynnp_din" "dynn_Albania" }
+			{ "dynnp_din" "dynn_Bulgaria" }
+			{ "dynnp_din" "dynn_Dunarea" }
+			{ "dynnp_din" "dynn_Bosnia" }
+			{ "dynnp_din" "dynn_Serbia" }
+			{ "dynnp_din" "dynn_Croatia" }
+			{ "dynnp_din" "dynn_Slovenia" }
+			{ "dynnp_din" "dynn_Vidin" }
+			{ "dynnp_din" "dynn_Branicevo" }
+			{ "dynnp_din" "dynn_Moesia" }
+			{ "dynnp_din" "dynn_Tarnovgrad" }
+			{ "dynnp_din" "dynn_Sredete" }
+			{ "dynnp_din" "dynn_Nikopolis" }
+			{ "dynnp_din" "dynn_Silistra" }
+			{ "dynnp_din" "dynn_Vratsa" }
+			{ "dynnp_din" "dynn_Aytos" }
+			{ "dynnp_din" "dynn_Constanta" }
+			{ "dynnp_din" "dynn_Mesembria" }
+			{ "dynnp_din" "dynn_Dobrogea" }
+			{ "dynnp_din" "dynn_Naissus" }
+			{ "dynnp_din" "dynn_Velbajd" }
+			{ "dynnp_din" "dynn_Pirin" }
+			{ "dynnp_din" "dynn_Strumica" }
+			{ "dynnp_din" "dynn_Skopje" }
+			{ "dynnp_din" "dynn_Ohrid" }
+			{ "dynnp_din" "dynn_Philippopolis" }
+			{ "dynnp_din" "dynn_Macara" }
+			{ "dynnp_din" "dynn_Beroe" }
+			{ "dynnp_din" "dynn_Burgas" }
+			{ "dynnp_din" "dynn_Adrianopolis" }
+			{ "dynnp_din" "dynn_Zherkovo" }
+			{ "dynnp_din" "dynn_Rhodopes" }
+			{ "dynnp_din" "dynn_Dalmația" }
+			{ "dynnp_din" "dynn_Zadar" }
+			{ "dynnp_din" "dynn_Knin" }
+			{ "dynnp_din" "dynn_Ketine" }
+			{ "dynnp_din" "dynn_Gacka" }
+			{ "dynnp_din" "dynn_Egal" }
+			{ "dynnp_din" "dynn_Charso" }
+			{ "dynnp_din" "dynn_Modrus" }
+			{ "dynnp_din" "dynn_Slavonia" }
+			{ "dynnp_din" "dynn_Zagreb" }
+			{ "dynnp_din" "dynn_Zagorje" }
+			{ "dynnp_din" "dynn_Pozega" }
+			{ "dynnp_din" "dynn_Vukovar" }
+			{ "dynnp_din" "dynn_Ramura" }
+			{ "dynnp_din" "dynn_DonjiKraji" }
+			{ "dynnp_din" "dynn_Vhrbosna" }
+			{ "dynnp_din" "dynn_Pset" }
+			{ "dynnp_din" "dynn_Singur" }
+			{ "dynnp_din" "dynn_Usora" }
+			{ "dynnp_din" "dynn_Tara" }
+			{ "dynnp_din" "dynn_Vrbas" }
+			{ "dynnp_din" "dynn_Zachlumia" }
+			{ "dynnp_din" "dynn_Zelengora" }
+			{ "dynnp_din" "dynn_Sfarsit" }
+			{ "dynnp_din" "dynn_Paganija" }
+			{ "dynnp_din" "dynn_Dubrovnik" }
+			{ "dynnp_din" "dynn_Ragusa" }
+			{ "dynnp_din" "dynn_Nicosia" }
+			{ "dynnp_din" "dynn_Famagusta" }
+			{ "dynnp_din" "dynn_Cipru" }
+			{ "dynnp_din" "dynn_Epir" }
+			{ "dynnp_din" "dynn_Nicpolis" }
+			{ "dynnp_din" "dynn_Epeiros" }
+			{ "dynnp_din" "dynn_Aetolia" }
+			{ "dynnp_din" "dynn_Metzovo" }
+			{ "dynnp_din" "dynn_Dyrrachion" }
+			{ "dynnp_din" "dynn_Arbanon" }
+			{ "dynnp_din" "dynn_Batand" }
+			{ "dynnp_din" "dynn_Opozitie" }
+			{ "dynnp_din" "dynn_Avlonas" }
+			{ "dynnp_din" "dynn_Cefalonia" }
+			{ "dynnp_din" "dynn_Buthrotum" }
+			{ "dynnp_din" "dynn_Atena" }
+			{ "dynnp_din" "dynn_Attica" }
+			{ "dynnp_din" "dynn_Beotie" }
+			{ "dynnp_din" "dynn_Eubea" }
+			{ "dynnp_din" "dynn_Achaia" }
+			{ "dynnp_din" "dynn_Korinthos" }
+			{ "dynnp_din" "dynn_Mesenia" }
+			{ "dynnp_din" "dynn_Laconia" }
+			{ "dynnp_din" "dynn_Rashka" }
+			{ "dynnp_din" "dynn_Zlatibor" }
+			{ "dynnp_din" "dynn_Sumadija" }
+			{ "dynnp_din" "dynn_Podrinje" }
+			{ "dynnp_din" "dynn_Hvosno" }
+			{ "dynnp_din" "dynn_Sabie" }
+			{ "dynnp_din" "dynn_Belgrad" }
+			{ "dynnp_din" "dynn_Duklja" }
+			{ "dynnp_din" "dynn_Marea" }
+			{ "dynnp_din" "dynn_Pajisti" }
+			{ "dynnp_din" "dynn_Tracia" }
+			{ "dynnp_din" "dynn_Kalliopolis" }
+			{ "dynnp_din" "dynn_Atingeti" }
+			{ "dynnp_din" "dynn_Strymon" }
+			{ "dynnp_din" "dynn_Mossinopolis" }
+			{ "dynnp_din" "dynn_Sere" }
+			{ "dynnp_din" "dynn_Naxos" }
+			{ "dynnp_din" "dynn_Abydos" }
+			{ "dynnp_din" "dynn_Lesbo" }
+			{ "dynnp_din" "dynn_Chios" }
+			{ "dynnp_din" "dynn_Rhodos" }
+			{ "dynnp_din" "dynn_Chalcidice" }
+			{ "dynnp_din" "dynn_Vedea" }
+			{ "dynnp_din" "dynn_Thessaluses" }
+			{ "dynnp_din" "dynn_Demetrias" }
+			{ "dynnp_din" "dynn_Tesalia" }
+			{ "dynnp_din" "dynn_Neopatras" }
+			{ "dynnp_din" "dynn_Thessaliotis" }
+			{ "dynnp_din" "dynn_Romania" }
+		}
+
+		dynasty_names = {
+			"dynn_Basarab"
+			"dynn_Dragusin"
+			"dynn_Basarab"
+			"dynn_Litovoi"
+			"dynn_SelimoviC_"
+			"dynn_CsA_ky"
+			"dynn_DezsO_fi"
+			"dynn_Guthi-OrszA_gh"
+			"dynn_MarczaltO_vi"
+			"dynn_Petenye"
+			"dynn_Tibai"
+			"dynn_ZA_ch"
+			"dynn_Szapolyai"
+			"dynn_VA_rdai"
+			"dynn_ProdaniC_"
+			"dynn_Odescalchi"
+			"dynn_Costin"
+			"dynn_BA_dA_rA_u"
+			"dynn_BA_lA_ceanu"
+			"dynn_Bosie"
+			"dynn_BrA_iloi"
+			"dynn_BuS_ilA_"
+			"dynn_Calerghi"
+			"dynn_Callimachi"
+			"dynn_Cantemir"
+			"dynn_Carianopol"
+			"dynn_Crihan"
+			"dynn_Carionfil"
+			"dynn_Cristescu"
+			"dynn_Casassovici"
+			"dynn_Cesianu"
+			"dynn_ChinteS_ti"
+			"dynn_Chirescu"
+			"dynn_CoteS_ti"
+			"dynn_CraioveS_tilor"
+			"dynn_CrA_snaru"
+			"dynn_Dinastia"
+			"dynn_DA_neS_tilor"
+			"dynn_Diamandy"
+			"dynn_DrA_culeS_tilor"
+			"dynn_DrugA_"
+			"dynn_Eliescu"
+			"dynn_Emandi"
+			"dynn_Filipescu"
+			"dynn_Florescu"
+			"dynn_FundA_T_eni"
+			"dynn_Giosani"
+			"dynn_Golescu"
+			"dynn_GrA_diS_teanu"
+			"dynn_Greceanu"
+			"dynn_Hagi"
+			"dynn_HA_jdA_u"
+			"dynn_Jianu"
+			"dynn_Korne"
+			"dynn_Lecca"
+			"dynn_LereS_ti"
+			"dynn_Magheru"
+			"dynn_Marineanu"
+			"dynn_Miclescu"
+			"dynn_MovilA_"
+			"dynn_MA_nA_stireanu"
+			"dynn_Niculescu_DorobanT_u"
+			"dynn_PA_cleanu"
+			"dynn_Pisoschi"
+			"dynn_PleS_ia"
+			"dynn_PleS_nilA_"
+			"dynn_PleS_oianu"
+			"dynn_RacovitzA_"
+			"dynn_RA_S_canu"
+			"dynn_Rallet"
+			"dynn_Rosetti"
+			"dynn_RusA_neS_ti"
+			"dynn_Savoia"
+			"dynn_Stoicescu"
+			"dynn_S_oarec"
+			"dynn_S_oldan"
+			"dynn_TurbureS_ti"
+			"dynn_UrlA_T_eni"
+			"dynn_VidraS_cu"
+			"dynn_Yarka"
+			##############New Dinasties
+			"dynn_Chifu"
+			"dynn_Angelescu"
+			"dynn_Antonescu"
+			"dynn_Argetoianu"
+			"dynn_Averescu"
+			"dynn_Baldescu"
+			"dynn_Barozzi"
+			"dynn_Berindei"
+			"dynn_Cernat"
+			"dynn_Christecu"
+			"dynn_Cihoski"
+			"dynn_Ciuperca"
+			"dynn_Coanda"
+			"dynn_Crainiceanu"
+			"dynn_Critescu"
+			"dynn_Culcer"
+			"dynn_Cuza"
+			"dynn_Dona"
+			"dynn_Dragalina"
+			"dynn_Dumitrescu"
+			"dynn_Falcoianu"
+			"dynn_Florescu"
+			"dynn_Gardescu"
+			"dynn_Grigorescu"
+			"dynn_Froza"
+			"dynn_Harjeu"
+			"dynn_Holban"
+			"dynn_Iancovescu"
+			"dynn_Iliasevici"
+			"dynn_Iliescu"
+			"dynn_Ionascu"
+			"dynn_Ionescu"
+			"dynn_Ionitiu"
+			"dynn_Koslinski"
+			"dynn_Lahovary"
+			"dynn_Lupescu"
+			"dynn_Mardarescu"
+			"dynn_Murgescu"
+			"dynn_Poenaru"
+			"dynn_Prezan"
+			"dynn_Salajan"
+			"dynn_Samsonovici"
+			"dynn_Schitiu"
+			"dynn_Scodrea"
+			"dynn_Slaniceanu"
+			"dynn_Steflea"
+			"dynn_Tatarascu"
+			"dynn_Tenescu"
+			"dynn_Vaitoianu"
+			"dynn_Zottu"
+			"dynn_Cristea"
+			"dynn_Selei"
+			"dynn_Catana"
+			"dynn_Burileanu"
+			"dynn_Bratianu"
+			"dynn_Dusescu"
+			"dynn_Tifrea"
+			"dynn_Cordescu"
+			"dynn_Nicoara"
+			"dynn_Popescu"
+			"dynn_Vornica"
+			"dynn_Ursachi"
+			"dynn_Tutuianu"
+			"dynn_Reinek"
+			"dynn_Alexiu"
+			"dynn_Stefanescu"
+			"dynn_Pomut"
+			"dynn_Muresan"
+			"dynn_Moraru"
+			"dynn_Panaite"
+			"dynn_Mihordea"
+			"dynn_Cameceanu"
+			"dynn_Dirjan"
+			"dynn_Scurtu"
+			"dynn_Radulescu"
+			"dynn_Cocebas"
+			"dynn_Greceanu"
+			"dynn_Ciocanel"
+			"dynn_Polizu"
+			"dynn_Micsunesti"
+			"dynn_Zabava"
+			"dynn_Malacescu"
+			"dynn_Maga"
+			"dynn_Vinca"
+			"dynn_Gavriliu"
+			"dynn_Dicezare"
+			"dynn_Lungulescu"
+			"dynn_Chirvasuta"
+			"dynn_Rozariu"
+			"dynn_Milu"
+			"dynn_Serbanescu"
+			"dynn_Adamescu"
+			"dynn_Aldea"
+			"dynn_Anestin"
+			"dynn_Baciu"
+			"dynn_Balitiu"
+			"dynn_Barbu"
+			"dynn_Biolan"
+			"dynn_Blaga"
+			"dynn_Boldea"
+			"dynn_Borsan"
+			"dynn_Branza"
+			"dynn_Butucel"
+			"dynn_Cazacu"
+			"dynn_CelTradat"
+			"dynn_Ciobanu"
+			"dynn_Ciubotaru"
+			"dynn_Codreanu"
+			"dynn_Comaneci"
+			"dynn_Comanici"
+			"dynn_Costea"
+			"dynn_Costiniu"
+			"dynn_Creanga"
+			"dynn_Dagau"
+			"dynn_Dantis"
+			"dynn_Dinu"
+			"dynn_Dracula"
+			"dynn_Dragan"
+			"dynn_Enescu"
+			"dynn_Evian"
+			"dynn_Fising"
+			"dynn_Floarea"
+			"dynn_Ghibasan"
+			"dynn_Gilca"
+			"dynn_Hila"
+			"dynn_Iliese"
+			"dynn_Iorgovan"
+			"dynn_Ivas"
+			"dynn_Kohlrus"
+			"dynn_Lacusta"
+			"dynn_Lazarescu"
+			"dynn_Maior"
+			"dynn_Manole"
+			"dynn_Marandici"
+			"dynn_Marin"
+			"dynn_Matei"
+			"dynn_Mitrea"
+			"dynn_Murea"
+			"dynn_Murgulescu"
+			"dynn_Nastaca"
+			"dynn_Nedelcu"
+			"dynn_Nistor"
+			"dynn_Onofrei"
+			"dynn_Palarie"
+			"dynn_Pogonat"
+			"dynn_Popa"
+			"dynn_Pricop"
+			"dynn_Prosie"
+			"dynn_Puscas"
+			"dynn_Radu"
+			"dynn_Roman"
+			"dynn_Ruican"
+			"dynn_Segarceanu"
+			"dynn_Soryan"
+			"dynn_Suta"
+			"dynn_Tanase"
+			"dynn_Tarniceriu"
+			"dynn_Tchaikova"
+			"dynn_Tessler"
+			"dynn_Timmar"
+			"dynn_Ungureanu"
+			"dynn_Vacarescu"
+			"dynn_Vlad"
+			"dynn_Vulpe"
+			"dynn_Zamfir"
+			"dynn_Zugravescu"
+			"dynn_Tatarescu"
+			"dynn_Parhon"
+			"dynn_Calinescu"
+			"dynn_Goga"
+			"dynn_Iacobici"
+			"dynn_Racovita"
+			"dynn_Avramescu"
+			"dynn_Manoliu"
+			"dynn_Atanasiu"
+			"dynn_Constantinescu"
+			"dynn_Teodorini"
+			"dynn_Damaceanu"
+			"dynn_Macellariu"
+			"dynn_Costachescu"
+			"dynn_Popovici"
+			"dynn_Borcescu"
+			"dynn_Petrescu"
+			"dynn_Balotescu"
+			"dynn_Mercenar"
+			"dynn_Paunescu"
+			"dynn_Basescu"
+			"dynn_Pop"
+			"dynn_Diaconescu"
+			"dynn_Dmitru"
+			"dynn_Ciuca"
+			"dynn_Foca"
+			"dynn_Badalan"
+			"dynn_Manci"
+			"dynn_Mirsu"
+			"dynn_Ciucas"
+			"dynn_Scarlat"
+			"dynn_Harabagiu"
+			"dynn_Botea"
+			"dynn_Suta"
+			"dynn_Damian"
+			"dynn_Petrache"
+			"dynn_Soci"
+			"dynn_Ufaleanu"
+			"dynn_Anastasof"
+			"dynn_Capatina"
+			"dynn_Iacoblev"
+			"dynn_Coman"
+			"dynn_Mitric"
+			"dynn_Savulescu"
+			"dynn_Rogozan"
+			"dynn_Simionov"
+			"dynn_Popoiu"
+			"dynn_Buzdugan"
+			"dynn_Borodin"
+			"dynn_Salogor"
+			"dynn_Simian"
+			"dynn_Cazacliu"
+			"dynn_Pantea"
+			"dynn_Sinicliu"
+			"dynn_Cutie"
+			"dynn_Ohladciuc"
+			"dynn_Buclis"
+			"dynn_Nitrean"
+			"dynn_Timofti"
+		}
+
+		male_names = {
+			Adrian Alexandru Anghel Aron Bajan Balc Barbat Basarab Bogdan Carol Ciprian Ciubar Claudiu
+			Corneliu Costin Damjan Dan Dragos Dumitru Emerik Florin Franjo Gavril Gheorghe Grigore Iacob
+			Iancu Ieremia Ilie Ioan Iorghu Iosif Iuga Janos Ladislau Latcu Laurentiu Litovoi Lucian Marin
+			Mihai Milos Mircea Moise Nicolaie Petre Pirvu Radovan Radu Roman Sas Seneslav Sergiu Simion
+			Stefan Stelian Teodor Tepes Tibor Tihomir Timotei Tudor Valentin Valeriu Vasile Veaceslav
+			Victor Vilhelm Vintila Vlad
+		}
+		female_names = {
+			Adelina Adriana Afina Alexandra Alexia Ana Anastasia Angela Arina Christina Clara Dana Ecatarina
+			Elena Elisabeta Emilia Eufroysina Felicia Floarea Iacoba Ioana Ionela Irina Iulia Maria Monica
+			Natalia Olimpia Paraschiva Petra Roxana Ruxandra Smaranda Sophia Stana Stefana Stefania Teodora
+			Tereza Vasilica Violeta Voica Zina
+			
+		}
+		
+		dynasty_of_location_prefix = "dynnp_din"
+		
+		patronym_suffix_male = "dynnpat_suf_escu"
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 40
+		mat_grf_name_chance = 10
+		father_name_chance = 10
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+
+		ethnicities = {
+			10 = mediterranean_byzantine
+			10 = caucasian_blond
+			10 = caucasian_ginger
+			10 = caucasian_brown_hair
+			10 = caucasian_dark_hair
+			10 = slavic_northern_blond
+			10 = slavic_northern_ginger
+			10 = slavic_northern_brown_hair
+			10 = slavic_northern_dark_hair
+			10 = asian
+		}
+
+     }
+}

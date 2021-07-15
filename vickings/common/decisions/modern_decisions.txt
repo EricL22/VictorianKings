@@ -1,0 +1,1441 @@
+﻿# When e_turkey is no longer held by Ottomans
+change_turkey_name_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_destiny_goal.dds"
+	ai_check_interval = 1
+	desc = change_turkey_name_desc
+	major = yes
+
+	is_shown = {
+		has_title = title:e_turkey
+		NOT = {
+			dynasty = dynasty:7
+		}
+		NOT = {  #Can only do it once.
+			is_target_in_global_variable_list = {
+				name = otturks
+				target = flag:flag_changed_to_turkey
+			}
+		}
+	}
+
+	is_valid = {
+		prestige >= minor_prestige_value
+	}
+
+	is_valid_showing_failures_only = {
+		is_capable_adult = yes
+		is_imprisoned = no
+		is_independent_ruler = yes
+		#is_at_war = no
+	}
+
+	effect = {
+		title:e_turkey = {
+			reset_title_name = yes
+			reset_title_prefix = yes
+			set_definitive_form = no
+		}
+		hidden_effect = {
+			add_to_global_variable_list = {
+				name = otturks
+				target = flag:flag_changed_to_turkey
+			}
+		}
+		if = {
+			limit = {
+				has_government = republic_government
+				exists = faith.religious_head_title.holder
+			}
+			destroy_title = faith.religious_head_title
+		}
+	}
+	
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+
+unite_the_two_sicilies_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
+	major = yes
+	ai_check_interval = 12
+	desc = unite_the_two_sicilies_decision_desc
+
+	is_shown = {
+		has_culture_group = culture_group:latin_group
+		game_start_date >= 1800.1.1
+		title:k_naples = { any_in_de_jure_hierarchy = { tier = tier_county } }
+		OR = {
+			title:k_sicily = { any_in_de_jure_hierarchy = { tier = tier_county } }
+			title:k_trinacria = { any_in_de_jure_hierarchy = { tier = tier_county } }
+		}
+		NOT = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:unite_the_two_sicilies_decision
+			}
+		}
+		highest_held_title_tier < tier_empire
+	}
+
+	is_valid = {
+		has_culture_group = culture_group:latin_group
+		has_title = title:k_sicily
+		has_title = title:k_naples
+		trigger_if = {
+			limit = { title:k_sicily = { any_in_de_jure_hierarchy = { tier = tier_county } } } #Has de jure land
+			completely_controls = title:c_messina
+			completely_controls = title:c_palermo
+			completely_controls = title:c_agrigento
+			completely_controls = title:c_siracusa
+		}
+		trigger_if = {
+			limit = { title:k_naples = { any_in_de_jure_hierarchy = { tier = tier_county } } } #Has de jure land
+			completely_controls = title:k_naples
+		}
+		trigger_if = {
+			limit = { title:k_trinacria = { any_in_de_jure_hierarchy = { tier = tier_county } } } #Has de jure land
+			completely_controls = title:c_messina
+			completely_controls = title:c_palermo
+			completely_controls = title:c_agrigento
+			completely_controls = title:c_siracusa
+		}
+		OR = {
+			has_primary_title = title:k_sicily
+			has_primary_title = title:k_naples
+		}
+		prestige >= massive_prestige_value
+	}
+
+	is_valid_showing_failures_only = {
+		OR = {
+			has_primary_title = title:k_sicily
+			has_primary_title = title:k_naples
+		}
+	}
+
+	effect = {
+		save_scope_as = sicilies_uniter
+
+		#show_as_tooltip = { unite_the_two_sicilies_decision_effects = yes } #Show effects of moderntimes.2
+
+		#Events
+		trigger_event = moderntimes.2
+		every_player = {
+			limit = {
+				NOT = { this = scope:sicilies_uniter }
+				in_diplomatic_range = scope:sicilies_uniter
+			}
+			trigger_event = moderntimes.3
+		}
+
+		#Can only be done once
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:unite_the_two_sicilies_decision
+		}
+	}
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+
+crown_empress_of_india_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
+	major = yes
+	ai_check_interval = 12
+	desc = crown_empress_of_india_desc
+
+	is_shown = {
+		has_title = title:e_britannia
+		NOT = {  #Can only do it once.
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:empress_of_india
+			}
+		}
+	}
+
+	is_valid = {
+		OR = {
+			culture = { has_innovation = innovation_nationalism_n_imperialism }
+			AND = {
+				is_ai = yes
+				current_date > 1876.1.1
+			}
+		}
+		prestige >= 400
+		completely_controls = title:d_kalinga
+		completely_controls = title:c_tagadur
+		completely_controls = title:d_vanga
+		completely_controls = title:d_gurjara_mandala
+		completely_controls = title:c_delhi
+		completely_controls = title:d_konkana
+		completely_controls = title:d_lahore
+	}
+
+	effect = {
+		random_vassal = {
+			limit = {
+				has_title = title:k_british_east_indies
+			}
+			hidden_effect = {
+				vassal_contract_set_obligation_level = {
+					type = special_contract
+					level = 0	#special_contract_none
+				}
+			}
+			destroy_title = title:k_british_east_indies
+			hidden_effect = {
+				every_held_title = {
+					limit = {
+						tier = tier_kingdom
+					}
+					root = { destroy_title = prev }
+				}
+			}
+		}
+
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:empress_of_india
+		}
+
+		#India is united, so Chakravarti decision should not be available
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:become_chakravarti_decision
+		}
+
+		custom_tooltip = become_chakravarti_decision_indian_empires_unite_effect
+		show_as_tooltip = {
+			add_prestige = 200
+			add_prestige_level = 2
+		}
+
+		save_scope_as = british_chakravarti
+
+		trigger_event = moderntimes.5 #I became the Emperor of India
+
+		every_vassal_or_below = {
+			trigger_event = moderntimes.6 #My ruler created the Emperor of India
+		}
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+
+dissolve_india_company_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
+	major = yes
+	ai_check_interval = 2
+	desc = dissolve_india_company_desc
+
+	is_shown = {
+		has_title = title:e_britannia
+		exists = title:k_british_east_indies.holder
+		NOT = {
+			title:k_british_east_indies.holder = {
+				is_vassal_of = root
+			}
+		}
+	}
+
+	is_valid = {
+		prestige >= 100
+	}
+
+	effect = {
+		random_ruler = {
+			limit = {
+				has_title = title:k_british_east_indies
+			}
+			destroy_title = title:k_british_east_indies
+		}
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+
+ita_conquer_rome_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
+	major = yes
+	ai_check_interval = 2
+	desc = ita_conquer_rome_desc
+
+	is_shown = {
+		OR = {
+			has_title = title:k_italy
+			has_title = title:e_italy
+		}
+		NOT = {
+			completely_controls = title:c_roma
+		}
+		NOT = { has_truce = title:k_papal_state.holder }
+		title:c_roma = {
+			holder = {
+				has_title = title:k_papal_state
+			}
+		}
+		NOT = { is_at_war_with = title:k_papal_state.holder }
+	}
+
+	is_valid = {
+		prestige >= 100
+	}
+
+	effect = {
+		start_war = {
+			cb = conquer_papal_rome_cb
+			target = title:k_papal_state.holder
+			claimant = root
+			target_title = title:d_latium
+		}
+		title:k_papal_state.holder = {
+			if = { limit = { NOT = { has_title = title:d_latium } } get_title = title:d_latium }
+		}
+		spawn_army = {
+			name = "National Army"	# troops to use against Austria
+			uses_supply = no
+			levies = 4000
+			men_at_arms = {
+				type = light_horsemen
+				stacks = 8
+			}
+			men_at_arms = {
+				type = light_footmen
+				stacks = 90
+			}
+			men_at_arms = {
+				type = bombard
+				stacks = 2
+			}
+			location = capital_province
+			inheritable = no
+		}
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+
+return_ionian_islands_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
+	major = yes
+	ai_check_interval = 4
+	desc = return_ionian_islands_desc
+
+	is_shown = {
+		has_title = title:e_britannia
+		any_vassal = {
+			any_held_title = { this = title:d_cephalonia }
+		}
+		any_ruler = {
+			any_held_title = { this = title:k_hellas }
+			has_religion = religion:christianity_religion
+		}
+		NOT = { has_truce = title:k_hellas.holder }
+	}
+
+	is_valid = {
+		OR = {
+			culture = { has_innovation = innovation_nationalism_n_imperialism }
+			AND = {
+				is_ai = yes
+				current_date > 1864.1.1
+			}
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_at_war = no
+	}
+
+	effect = {
+		create_title_and_vassal_change = {
+			type = independency
+			save_scope_as = change
+		}
+		random_ruler = {
+			limit = {
+				any_held_title = { this = title:d_cephalonia }
+			}
+			every_held_title = {
+				limit = {
+					NOT = {
+						target_is_de_jure_liege_or_above = title:e_byzantium
+					}
+				}
+				add_to_temporary_list = cede_titles
+			}
+			every_vassal_or_below = {
+				limit = { is_ai = yes }
+				every_held_title = {
+					limit = {
+						NOT = {
+							target_is_de_jure_liege_or_above = title:e_byzantium
+						}
+					}
+					add_to_temporary_list = cede_titles
+				}
+			}
+			change_liege = {
+				liege = title:k_hellas.holder
+				change = scope:change
+			}
+		}
+		every_in_list = {
+			list = cede_titles
+			change_title_holder = {
+				holder = root
+				change = scope:change
+			}
+		}
+		resolve_title_and_vassal_change = scope:change
+		add_opinion = {
+			target = title:k_hellas.holder
+			modifier = granted_vassal
+			years = 20
+		}
+		add_prestige = medium_prestige_value
+		add_hook = {
+			target = title:k_hellas.holder
+			type = favor_hook
+		}
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+
+de_jure_poland_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
+	major = yes
+	ai_check_interval = 2
+	desc = de_jure_poland_desc
+
+	is_shown = {
+		culture = culture:polish
+		is_independent_ruler = yes
+		NOT = {  #Check for Prussian Posen (which is only set in history)
+			title:d_wielkopolska = {
+				de_jure_liege = title:k_poland
+			}
+		}
+		NOT = {  #Can only do it once.
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_pol_de_jure_restored
+			}
+		}
+	}
+
+	is_valid = {
+		prestige >= medium_prestige_value
+		OR = {
+			has_title = title:k_poland
+			NOT = {
+				exists = title:k_poland.holder
+			}
+		}
+		OR = {
+			AND = {
+				completely_controls = title:d_lesser_poland
+				completely_controls = title:d_kuyavia
+			}
+			completely_controls = title:d_mazovia
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_capable_adult = yes
+		is_imprisoned = no
+		is_at_war = no
+	}
+
+	effect = {
+		custom_tooltip = reset_poland_de_jure_effect
+		reset_poland_de_jure_effect = yes
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:flag_pol_de_jure_restored
+		}
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+
+create_alsace_lorraine_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
+	major = yes
+	ai_check_interval = 1
+	desc = create_alsace_lorraine_desc
+
+	is_shown = {
+		culture_group = culture_group:central_germanic_group
+		OR = {
+			AND = {
+				is_independent_ruler = yes
+				has_title = title:d_alsace
+			}
+			primary_title = { tier >= tier_kingdom }
+		}
+		NOT = {  #Check for de jure counties
+			title:c_metz = {
+				target_is_de_jure_liege_or_above = title:d_alsace
+			}
+		}
+	}
+
+	is_valid = {
+		trigger_if = {
+			limit = {
+				NOT = {
+					primary_title = { tier >= tier_kingdom }
+				}
+			}
+			completely_controls = title:d_alsace
+			completely_controls = title:c_puttlingen
+			completely_controls = title:c_metz
+			completely_controls = title:c_briey
+		}
+		trigger_else = {
+			completely_controls = title:d_baden
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_capable_adult = yes
+		is_imprisoned = no
+		is_at_war = no
+	}
+
+	effect = {
+		title:d_upper_lorraine = {
+			set_capital_county = title:c_nancy
+		}
+		title:c_puttlingen = {
+			set_de_jure_liege_title = title:d_alsace
+		}
+		title:c_metz = {
+			set_de_jure_liege_title = title:d_alsace
+		}
+		title:c_briey = {
+			set_de_jure_liege_title = title:d_alsace
+		}
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+
+form_romania_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
+	major = yes
+	ai_check_interval = 12
+	desc = form_romania_desc
+
+	is_shown = {
+		culture = culture:vlach
+		OR = {
+			has_primary_title = title:k_dacia
+			has_primary_title = title:k_moldavia
+		}
+		NOT = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:form_romania_decision
+			}
+		}
+	}
+
+	is_valid = {
+		is_independent_ruler = yes
+		trigger_if = {
+			limit = {
+				has_primary_title = title:k_dacia
+			}
+			completely_controls = title:k_dacia
+			has_title = title:k_moldavia
+		}
+		trigger_if = {
+			limit = {
+				has_primary_title = title:k_moldavia
+			}
+			completely_controls = title:k_moldavia
+			has_title = title:k_dacia
+		}
+		completely_controls = title:c_constanta
+		prestige >= 450
+	}
+
+	is_valid_showing_failures_only = {
+		is_capable_adult = yes
+		is_imprisoned = no
+		is_at_war = no
+	}
+
+	effect = {
+		save_scope_as = vlach_uniter
+
+		show_as_tooltip = { form_romania_decision_effects = yes } #Actually applied in moderntimes.7 - prestige, laws, title, innovation effects
+
+		#Events
+		trigger_event = moderntimes.7
+		every_player = {
+			limit = {
+				NOT = { this = scope:vlach_uniter }
+				in_diplomatic_range = scope:vlach_uniter
+			}
+			trigger_event = moderntimes.8
+		}
+
+		#Can only be done once
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:form_romania_decision
+		}
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+	
+peking_convention_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
+	major = yes
+	ai_check_interval = 2
+	desc = peking_convention_desc
+
+	is_shown = {
+		has_title = title:e_russia
+		exists = title:e_china.holder
+		NOT = {
+			is_at_war_with = title:e_china.holder
+		}
+		NOT = {  #Can only do it once.
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:peking_convention
+			}
+		}
+		any_realm_county = {
+			any_neighboring_county = {
+				title_province = {
+					geographical_region = world_outer_manchuria
+				}
+				holder = {
+					target_is_same_character_or_above = title:e_china.holder
+				}
+			}
+		}
+	}
+	
+	is_valid = {
+		title:e_china.holder = {
+			any_character_war = {
+				is_defender = title:e_china.holder
+				is_war_leader = title:e_china.holder
+				defender_war_score <= -20
+			}
+		}
+		current_date > 1850.1.1
+	}
+	
+	effect = {
+		#Can only be done once
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:peking_convention
+		}
+
+		title:e_china.holder = {
+			trigger_event = moderntimes.11
+		}
+		add_prestige = 2
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+
+cavours_diplomacy_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
+	major = yes
+	ai_check_interval = 2
+	desc = cavours_diplomacy_desc
+
+	is_shown = {
+		OR = {
+			AND = { 
+				has_title = title:k_italy
+				NOT = { exists = title:k_sardinia.holder }
+			}
+			AND = { 
+				has_title = title:k_sardinia
+				NOT = { exists = title:k_italy.holder }
+			}
+			has_title = title:e_italy
+		}
+		NOT = {  #Can only do it once.
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:cavour_has_done_his
+			}
+		}
+		OR = {
+			any_realm_county = { this = title:c_nice }
+			any_realm_county = { this = title:c_savoie }
+			any_realm_county = { this = title:c_faucigny }
+		}
+		OR = {
+			exists = title:k_france.holder
+			exists = title:e_france.holder
+		}
+	}
+
+	is_valid = {
+#		trigger_if = {
+#			limit = { exists = title:e_france.holder }
+#			reverse_opinion = {
+#				target = title:e_france.holder
+#				value >= 75
+#			}
+#		}
+#		trigger_else = {
+#			reverse_opinion = {
+#				target = title:k_france.holder
+#				value >= 75
+#			}
+#		}
+		completely_controls = title:d_lombardia
+		completely_controls = title:d_emilia
+		completely_controls = title:d_verona
+	}
+
+	is_valid_showing_failures_only = {
+		trigger_if = {
+			limit = { exists = title:e_france.holder }
+			title:e_france.holder = { has_any_bad_relationship_with_root_trigger = no }
+		}
+		trigger_else = {
+			title:k_france.holder = { has_any_bad_relationship_with_root_trigger = no }
+		}
+		is_imprisoned = no
+		is_at_war = no
+	}
+		
+	effect = {
+		add_prestige = 20
+		if = {
+			limit = { exists = title:e_france.holder }
+			reverse_add_opinion = {
+				target = title:e_france.holder
+				modifier = opinion_ceded_rightful_lands
+				years = 10
+			}
+			title:e_france.holder = { save_scope_as = french_recipient }
+			hidden_effect = {
+				if = {
+					limit = { NOT = { title:d_corsica = { target_is_de_jure_liege_or_above = title:e_france } } }
+					title:d_corsica = { set_de_jure_liege_title = title:k_france }
+				}
+			}
+		}
+		else = {
+			reverse_add_opinion = {
+				target = title:k_france.holder
+				modifier = opinion_ceded_rightful_lands
+				years = 10
+			}
+			title:k_france.holder = { save_scope_as = french_recipient }
+		}
+
+		create_title_and_vassal_change = {
+			type = granted
+			save_scope_as = change
+			add_claim_on_loss = no
+		}
+		if = {
+			limit = { any_realm_county = { this = title:c_nice } }
+			title:c_nice = {
+				change_title_holder = {
+					holder = scope:french_recipient
+					change = scope:change
+				}
+			}
+		}
+		if = {
+			limit = { any_realm_county = { this = title:c_savoie } }
+			title:c_savoie = {
+				change_title_holder = {
+					holder = scope:french_recipient
+					change = scope:change
+				}
+			}
+		}
+		if = {
+			limit = { any_realm_county = { this = title:c_faucigny } }
+			title:c_faucigny = {
+				change_title_holder = {
+					holder = scope:french_recipient
+					change = scope:change
+				}
+			}
+		}
+		resolve_title_and_vassal_change = scope:change
+
+		if = { limit = { exists = title:d_savoie.holder } destroy_title = title:d_savoie }
+
+		#Can only be done once
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:cavour_has_done_his
+		}
+
+		save_scope_as = cavour
+		scope:french_recipient = { trigger_event = moderntimes.24 }
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+
+ai_italy_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
+	major = yes
+	ai_check_interval = 4
+	desc = cavours_diplomacy_desc
+
+	is_shown = {
+		is_ai = yes
+		highest_held_title_tier = tier_kingdom
+		has_culture_group = culture_group:latin_group
+		NOT = { has_title = title:k_italy }
+		NOT = {  #Can only do it once.
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:ai_italy_creation
+			}
+		}
+	}
+
+	is_valid = {
+		OR = {
+			NOT = { exists = title:k_sicily.holder }
+			has_title = title:k_sicily
+		}
+		completely_controls = title:d_romagna
+		completely_controls = title:d_ancona
+		completely_controls = title:d_spoleto
+		completely_controls = title:d_verona
+		completely_controls = title:d_emilia
+		completely_controls = title:d_venice
+		completely_controls = title:d_pisa
+	}
+
+	is_valid_showing_failures_only = {
+		is_imprisoned = no
+		is_at_war = no
+		OR = {
+			gold > 500
+			prestige > 1000
+		}
+	}
+		
+	effect = {
+		if = { limit = { gold > 500 } remove_short_term_gold = 500 }
+
+		create_title_and_vassal_change = {
+			type = created
+			save_scope_as = change
+			add_claim_on_loss = no
+		}
+		title:k_italy = {
+			change_title_holder = {
+				holder = root
+				change = scope:change
+			}
+		}
+		resolve_title_and_vassal_change = scope:change
+
+		#Can only be done once
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:ai_italy_creation
+		}
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+
+unite_laos_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
+	major = yes
+	ai_check_interval = 12
+	desc = unite_laos_desc
+
+	is_shown = {
+		OR = {
+			has_culture = culture:lao
+			any_vassal = {
+				OR = {
+					has_title = title:k_luang_prabang
+					has_title = title:k_vientiane
+					has_title = title:k_champasak
+				}
+			}
+		}
+		NOT = {  #Can only do it once.
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:unite_laos_decision
+			}
+		}
+	}
+
+	is_valid = {
+		completely_controls = title:d_vientiane
+		completely_controls = title:d_muang_phuan
+		completely_controls = title:d_muang_mang
+		completely_controls = title:c_luang_prabang
+		completely_controls = title:d_champasak
+	}
+
+	is_valid_showing_failures_only = {
+		is_imprisoned = no
+		is_at_war = no
+	}
+		
+	effect = {
+		if = {
+			limit = { has_culture = culture:lao }
+			save_scope_as = laos_king
+		}
+		else_if = {
+			limit = { any_vassal = { has_title = title:k_luang_prabang } }
+			random_vassal = {
+				limit = { has_title = title:k_luang_prabang }
+				save_scope_as = laos_king
+			}
+		}
+		else_if = {
+			limit = { any_vassal = { has_title = title:k_vientiane } }
+			random_vassal = {
+				limit = { has_title = title:k_vientiane }
+				save_scope_as = laos_king
+			}
+		}
+		else = {
+			random_vassal = {
+				limit = { has_title = title:k_champasak }
+				save_scope_as = laos_king
+			}
+		}
+		create_title_and_vassal_change = {
+			type = created
+			save_scope_as = change
+			add_claim_on_loss = no
+		}
+		title:k_laos = {
+			change_title_holder = {
+				holder = scope:laos_king
+				change = scope:change
+			}
+		}
+		resolve_title_and_vassal_change = scope:change
+
+		scope:laos_king = {
+			if = {
+				limit = { is_independent_ruler = no }
+				vassal_contract_set_obligation_level = {
+					type = religious_rights
+					level = 1	#religious_rights_protected
+				}
+				vassal_contract_set_obligation_level = {
+					type = title_revocation_rights
+					level = 1	#title_revocation_rights_protected
+				}
+			}
+		}
+
+		#Handle other Kingdom titles
+		title:k_luang_prabang = { add_to_list = lao_kingdoms }
+		title:k_vientiane = { add_to_list = lao_kingdoms }
+		title:k_champasak = { add_to_list = lao_kingdoms }
+
+		custom_tooltip = unite_laos_decision_titles_tt
+		hidden_effect = {
+			every_in_list = {
+				list = lao_kingdoms
+
+				#De jure shift all held spanish titles into your primary title
+				every_in_de_jure_hierarchy = {
+					limit = { tier = tier_duchy }
+					set_de_jure_liege_title = title:k_laos
+				}
+
+				holder = {
+					if = {
+						limit = {
+							is_independent_ruler = yes
+							is_ai = no
+							NOT = { this = root }
+						}
+					}
+					trigger_event = moderntimes.20
+				}
+
+				#Destroys them all!
+				root = { destroy_title = prev }
+			}
+			create_title_and_vassal_change = {
+				type = granted
+				save_scope_as = change
+			}
+			if = {
+				limit = { NOT = { has_culture = culture:lao } }
+				title:d_nakhon_phanom = {
+					set_de_jure_liege_title = title:k_siam
+					every_in_de_jure_hierarchy = {
+						limit = {
+							exists = title:k_siam.holder
+							tier = tier_county
+							holder = {
+								is_ai = yes
+								NOT = { target_is_same_character_or_above = title:k_siam.holder }
+							}
+						}
+						change_title_holder = {
+							holder = title:k_siam.holder
+							change = scope:change
+						}
+					}
+				}
+				title:d_isan = {
+					set_de_jure_liege_title = title:k_siam
+					every_in_de_jure_hierarchy = {
+						limit = {
+							exists = title:k_siam.holder
+							tier = tier_county
+							holder = {
+								is_ai = yes
+								NOT = { target_is_same_character_or_above = title:k_siam.holder }
+							}
+						}
+						change_title_holder = {
+							holder = title:k_siam.holder
+							change = scope:change
+						}
+					}
+				}
+			}
+			resolve_title_and_vassal_change = scope:change
+		}
+
+		#Can only be done once
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:unite_laos_decision
+		}
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+
+restore_french_empire_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
+	major = yes
+	ai_check_interval = 12
+	desc = restore_french_empire_desc
+
+	is_shown = {
+		has_title = title:k_france
+		NOT = { exists = title:e_france.holder }
+		dynasty = dynasty:180405
+		has_government = republic_government
+		NOT = {  #Can only do it once.
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:second_french_empire
+			}
+		}
+	}
+
+	is_valid = {
+		prestige_level >= 1
+		prestige >= major_prestige_value
+	}
+
+	is_valid_showing_failures_only = {
+		is_capable_adult = yes
+		is_independent_ruler = yes
+		is_imprisoned = no
+		is_at_war = no
+	}
+		
+	effect = {
+		create_title_and_vassal_change = {
+			type = created
+			save_scope_as = change
+			add_claim_on_loss = no
+		}
+		title:e_france = {
+			change_title_holder = {
+				holder = root
+				change = scope:change
+			}
+		}
+		resolve_title_and_vassal_change = scope:change
+
+		destroy_title = title:k_france
+		change_government = feudal_government
+		add_realm_law = single_heir_succession_law
+
+		#Can only be done once
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:second_french_empire
+		}
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+
+ai_napoleonic_coup_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
+	major = yes
+	ai_check_interval = 1
+	desc = cavours_diplomacy_desc
+
+	is_shown = {
+		is_ai = yes
+		primary_title = title:k_france
+		NOT = { exists = title:e_france.holder }
+		dynasty = dynasty:180405
+		has_government = republic_government
+		NOT = {  #Can only do it once.
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:second_french_republic_coup
+			}
+		}
+	}
+
+	is_valid = {
+		current_date > 1851.12.1
+	}
+
+	is_valid_showing_failures_only = {
+		is_imprisoned = no
+		is_at_war = no
+	}
+		
+	effect = {
+		primary_title = {
+			clear_term_limit_reforms = yes
+			add_to_variable_list = { name = enacted_laws_list target = flag:life_title_term }
+		}
+
+		add_prestige = 300
+
+		#Can only be done once
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:second_french_republic_coup
+		}
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+
+japan_westernization_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
+	major = yes
+	ai_check_interval = 1
+	desc = JAP_westernization_desc
+
+	is_shown = {
+		OR = {
+			has_title = title:e_shogunate
+			has_title = title:k_chrysanthemum_throne
+		}
+		has_culture_group = culture_group:japanese_group
+		NOT = {  #Can only do it once.
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:japanese_westernization
+			}
+		}
+	}
+
+	is_valid = {
+		current_date > 1854.4.1
+		trigger_if = {
+			limit = { has_title = title:k_chrysanthemum_throne }
+			prestige_level >= 2
+		}
+		trigger_else = {
+			prestige_level >= 4
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_imprisoned = no
+		is_at_war = no
+	}
+		
+	effect = {
+		if = {
+			limit = {
+				has_title = title:k_chrysanthemum_throne
+				NOT = { exists = title:e_japan.holder }
+				exists = title:e_shogunate.holder
+			}
+			spawn_army = {
+				name = "Imperial Army"
+				uses_supply = no
+				levies = 3500
+				men_at_arms = {
+					type = light_horsemen
+					stacks = 5
+				}
+				men_at_arms = {
+					type = light_footmen
+					stacks = 5
+				}
+				men_at_arms = {
+					type = bombard
+					stacks = 50
+				}
+				location = capital_province
+			}
+			add_pressed_claim = title:e_shogunate
+		}
+		culture = {
+			add_innovation = innovation_bombard
+			add_innovation = innovation_primogeniture
+			add_innovation = innovation_absolutism
+		}
+
+		add_prestige = 300
+
+		#Can only be done once
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:japanese_westernization
+		}
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+
+japan_admin_reform_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
+	major = yes
+	ai_check_interval = 1
+	desc = japan_admin_reform_desc
+
+	is_shown = {
+		has_title = title:e_japan
+		has_title = title:k_chrysanthemum_throne
+		any_vassal = {
+			has_government = feudal_government
+			NOT = { vassal_contract_has_flag = vassal_contract_cannot_revoke_titles }
+		}
+		is_target_in_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:meiji_restoration
+		}
+#		NOT = { has_character_flag = meiji_reform_passed }
+	}
+
+	is_valid = {
+		trigger_if = {
+			limit = { is_ai = yes }
+			current_date > 1871.8.1
+		}
+		completely_controls = title:d_ryukyu
+	}
+
+	is_valid_showing_failures_only = {
+		is_imprisoned = no
+	}
+		
+	effect = {
+		custom_tooltip = meiji_admin_effect
+		hidden_effect = {
+			create_japanese_prefectures_effect = yes
+
+			every_vassal = {
+				limit = {
+					has_government = feudal_government
+					NOT = { vassal_contract_has_flag = vassal_contract_cannot_revoke_titles }
+				}
+				change_government = republic_government
+				add_realm_law = city_succession_law
+			}
+		}
+#		add_character_flag = meiji_reform_passed
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+
+create_taiwan_province_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
+	major = yes
+	ai_check_interval = 3
+	desc = create_taiwan_province_desc
+
+	is_shown = {
+		has_title = title:e_china
+		completely_controls = title:d_taiwan
+		NOT = {  #Check for de jure counties
+			title:d_taiwan = {
+				target_is_de_jure_liege_or_above = title:k_taiwan
+			}
+		}
+		current_date > 1885.9.1
+	}
+
+	is_valid = {
+	}
+
+	is_valid_showing_failures_only = {
+		is_imprisoned = no
+		is_at_war = no
+	}
+		
+	effect = {
+		custom_tooltip = taiwan_creation_effect
+		hidden_effect = {
+		title:c_taibei = {
+			set_de_jure_liege_title = title:d_taipeh
+		}
+		title:d_taiwan = {
+			set_capital_county = title:c_taizhong
+			set_de_jure_liege_title = title:k_taiwan
+		}
+		title:c_chiayi = {
+			set_de_jure_liege_title = title:d_tainan
+		}
+		title:c_tainan = {
+			set_de_jure_liege_title = title:d_tainan
+		}
+		title:c_gaoxiong = {
+			set_de_jure_liege_title = title:d_tainan
+		}
+		title:c_fengshan = {
+			set_de_jure_liege_title = title:d_tainan
+		}
+		random_vassal_or_below = {
+			limit = {
+				primary_title = { target_is_de_jure_liege_or_above = title:k_taiwan }
+				NOT = { any_held_title = { NOT = { target_is_de_jure_liege_or_above = title:k_taiwan } } }
+			}
+			save_scope_as = first_governor
+			create_title_and_vassal_change = {
+				type = granted
+				save_scope_as = change
+				add_claim_on_loss = no
+			}
+			title:k_taiwan = {
+				change_title_holder_include_vassals = {
+					holder = scope:first_governor
+					change = scope:change
+				}
+			}
+			every_realm_county = {
+				limit = {
+					target_is_de_jure_liege_or_above = title:k_taiwan
+					NOT = { holder.liege = scope:first_governor }
+				}
+				change_title_holder = {
+					holder = scope:first_governor
+					change = scope:change
+				}
+			}
+			resolve_title_and_vassal_change = scope:change
+			if = {
+				limit = { NOT = { has_realm_law = city_succession_law } }
+				add_realm_law = city_succession_law
+			}
+		}
+		}
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+
+change_ideology_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
+	ai_check_interval = 3
+	desc = change_ideology_desc
+
+	is_shown = {
+		OR = {
+			has_government = republic_government
+			liege = { has_government = republic_government }
+		}
+	}
+
+	is_valid = {
+		is_landed = yes
+		primary_title.tier > tier_barony
+	}
+
+	is_valid_showing_failures_only = {
+		is_capable_adult = yes
+		is_imprisoned = no
+		is_at_war = no
+	}
+		
+	effect = {
+		custom_tooltip = change_ideology_effect
+		trigger_event = ideology.1
+	}
+
+	ai_will_do = {
+		base = 100
+		modifier = {
+			factor = 0
+			has_any_political_party = yes
+		}
+	}
+}

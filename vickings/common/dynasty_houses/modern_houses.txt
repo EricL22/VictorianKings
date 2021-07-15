@@ -1,0 +1,84 @@
+﻿house_murat = {
+	name = "dynn_Murat"
+	dynasty = 180405 # Bonaparte
+}
+
+house_habs_este = {
+	name = "dynn_Habs_Este"
+	dynasty = 51	# Habsburg
+}
+
+house_hols_gott = {
+	name = "dynn_Hols_Gott"
+	dynasty = 224	# Oldenburg
+}
+
+house_orleans_4 = {
+	name = "dynn_Bb_Orleans"
+	dynasty = 100146	# Bourbon
+}
+
+house_tts = {
+	name = "dynn_Bb_Sicilies"
+	dynasty = 100146	# Bourbon
+}
+
+house_saxe_weimar = {
+	name = "dynn_Saxe_Weimar"
+	dynasty = 528	# Wettin
+}
+
+house_saxe_coburg = {
+	name = "dynn_Saxe_Coburg"
+	dynasty = 528	# Wettin
+}
+
+house_saxe_meiningen = {
+	name = "dynn_Saxe_Meiningen"
+	dynasty = 528	# Wettin
+}
+
+house_carignano = {
+	name = "dynn_Carignano"
+	dynasty = 240	# Savoie
+}
+
+house_schles_hols_beck = {
+	name = "dynn_Schles_Hols_Beck"
+	dynasty = 224	# Oldenburg
+}
+
+house_schles_hols_gluck = {
+	name = "dynn_Schles_Hols_Gluck"
+	dynasty = 224	# Oldenburg
+}
+
+house_ang = {
+	name = "dynn_Ang"
+	dynasty = 177021	# Varman
+}
+
+house_chogyal = {
+	name = "dynn_Namgyal_Chogyal"
+	dynasty = 164275	# Namgyal
+}
+
+house_bogd = {
+	name = "dynn_Bogd"
+	dynasty = 191124	# Bogd
+}
+
+house_tokugawa_kishu = {
+	name = "dynn_Tokugawa_Kishu"
+	dynasty = 156768	# Tokugawa
+}
+
+house_tokugawa_owari = {
+	name = "dynn_Tokugawa_Owari"
+	dynasty = 156768	# Tokugawa
+}
+
+house_tokugawa_mito = {
+	name = "dynn_Tokugawa_Mito"
+	dynasty = 156768	# Tokugawa
+}

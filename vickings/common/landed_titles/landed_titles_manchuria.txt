@@ -1,0 +1,31 @@
+﻿@correct_culture_primary_score = 100
+
+e_manchuria = {
+	color = { 86 33 22 }
+	color2={ 113 157 108 }
+	
+	capital = c_shiwei # should be Lyongcheon
+	
+	can_create = {
+		any_held_title = {
+			tier = tier_kingdom
+			#NOT = { this = title:k_yezo }
+			#NOT = { this = title:k_balhae }
+			#NOT = { this = title:k_dongxia }
+			NOT = { this = title:k_jin }
+		}
+		trigger_if = {
+			limit = { dynasty = dynasty:1045082 }
+			any_held_title = {
+				NOT = { this = title:k_mongolia }
+			}
+		}
+	}
+	
+	ai_primary_priority = {
+		if = {
+			limit = { culture = culture:jurchen }
+			add = @correct_culture_primary_score
+		}
+	}
+}

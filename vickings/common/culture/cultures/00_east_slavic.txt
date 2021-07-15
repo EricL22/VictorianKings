@@ -1,0 +1,2102 @@
+﻿east_slavic_group = {
+	
+	graphical_cultures = {
+		western_coa_gfx
+		east_slavic_group_coa_gfx
+		western_building_gfx
+		northern_clothing_gfx
+		eastern_unit_gfx
+	}
+
+	mercenary_names = {
+		{ name = "mercenary_company_kievan_band" }
+		{ name = "mercenary_company_host_of_varangians" }
+		{ name = "mercenary_company_raiders_of_caspia" }
+		{ name = "mercenary_company_company_of_rus" }
+		{ name = "mercenary_company_company_of_oleg" }
+	}
+
+	russian = {
+		
+		color = { 0 70 10 }
+
+		cadet_dynasty_names = {
+			{ "dynnp_iz" "dynn_Hrodna" }
+			{ "dynnp_iz" "dynn_Vaukavysk" }
+			{ "dynnp_iz" "dynn_Navahrudak" }
+			{ "dynnp_iz" "dynn_Pinsk" }
+			{ "dynnp_iz" "dynn_Sluck" }
+			{ "dynnp_iz" "dynn_Klieck" }
+			{ "dynnp_iz" "dynn_Babrujsk" }
+			{ "dynnp_iz" "dynn_Miensk" }
+			{ "dynnp_iz" "dynn_Orsa" }
+			{ "dynnp_iz" "dynn_Polack" }
+			{ "dynnp_iz" "dynn_Lukomi" }
+			{ "dynnp_iz" "dynn_Viciebsk" }
+			{ "dynnp_iz" "dynn_Smaliensk" }
+			{ "dynnp_iz" "dynn_Hniezdavannie" }
+			{ "dynnp_iz" "dynn_Roslau" }
+			{ "dynnp_iz" "dynn_Mazajsk" }
+			{ "dynnp_iz" "dynn_Bielarus" }
+			{ "dynnp_iz" "dynn_Tarapiec" }
+			{ "dynnp_iz" "dynn_Yaroslavl" }
+			{ "dynnp_iz" "dynn_Vladimir" }
+			{ "dynnp_iz" "dynn_Sozdannyy" }
+			{ "dynnp_iz" "dynn_Tver" }
+			{ "dynnp_iz" "dynn_Moskva" }
+			{ "dynnp_iz" "dynn_Opolye" }
+			{ "dynnp_iz" "dynn_Ryazan" }
+			{ "dynnp_iz" "dynn_Tula" }
+			{ "dynnp_iz" "dynn_Murom" }
+			{ "dynnp_iz" "dynn_Nizhny" }
+			{ "dynnp_iz" "dynn_Plos" }
+			{ "dynnp_iz" "dynn_Manturovo" }
+			{ "dynnp_iz" "dynn_Kyyiv" }
+			{ "dynnp_iz" "dynn_Zhytomyr" }
+			{ "dynnp_iz" "dynn_Zvyahel" }
+			{ "dynnp_iz" "dynn_Chornobyl" }
+			{ "dynnp_iz" "dynn_Ushytsya" }
+			{ "dynnp_iz" "dynn_Korsun" }
+			{ "dynnp_iz" "dynn_Ruteniya" }
+			{ "dynnp_iz" "dynn_Turiv" }
+			{ "dynnp_iz" "dynn_Korosten" }
+			{ "dynnp_iz" "dynn_Dubrovytsya" }
+			{ "dynnp_iz" "dynn_Pereyaslavl" }
+			{ "dynnp_iz" "dynn_Hradyzk" }
+			{ "dynnp_iz" "dynn_Chernihiv" }
+			{ "dynnp_iz" "dynn_Starodub" }
+			{ "dynnp_iz" "dynn_Siverskyy" }
+			{ "dynnp_iz" "dynn_Putyvl" }
+			{ "dynnp_iz" "dynn_Kursk" }
+			{ "dynnp_iz" "dynn_Karachev" }
+			{ "dynnp_iz" "dynn_Kozelsk" }
+			{ "dynnp_iz" "dynn_Sevsk" }
+			{ "dynnp_iz" "dynn_Novosyl" }
+			{ "dynnp_iz" "dynn_Odoev" }
+			{ "dynnp_iz" "dynn_Novgorod" }
+			{ "dynnp_iz" "dynn_Russkiy" }
+			{ "dynnp_iz" "dynn_Pskov" }
+			{ "dynnp_iz" "dynn_Sebezh" }
+			{ "dynnp_iz" "dynn_Vodi" }
+			{ "dynnp_iz" "dynn_Vepsiya" }
+			{ "dynnp_iz" "dynn_Beloozero" }
+			{ "dynnp_iz" "dynn_Tikhvin" }
+			{ "dynnp_iz" "dynn_Vyangi" }
+			{ "dynnp_iz" "dynn_Luki" }
+			{ "dynnp_iz" "dynn_Valday" }
+			{ "dynnp_iz" "dynn_Bezichi" }
+			{ "dynnp_iz" "dynn_Volyn" }
+			{ "dynnp_iz" "dynn_Volodymyr" }
+			{ "dynnp_iz" "dynn_Peresopnytsya" }
+			{ "dynnp_iz" "dynn_Berestya" }
+			{ "dynnp_iz" "dynn_Dorohychyn" }
+			{ "dynnp_iz" "dynn_Halych" }
+			{ "dynnp_iz" "dynn_Lviv" }
+			{ "dynnp_iz" "dynn_Terebovl" }
+			{ "dynnp_iz" "dynn_Zaslavl" }
+			{ "dynnp_iz" "dynn_Chervonyy" }
+			{ "dynnp_iz" "dynn_Belz" }
+			{ "dynnp_iz" "dynn_Peremyshl" }
+			{ "dynnp_iz" "dynn_Ukrayina" }
+			{ "dynnp_iz" "dynn_Biarmiya" }
+			{ "dynnp_iz" "dynn_Kareliya" }
+			{ "dynnp_iz" "dynn_Kholmogory" }
+			{ "dynnp_iz" "dynn_Onega" }
+			{ "dynnp_iz" "dynn_Povenets" }
+			{ "dynnp_iz" "dynn_Pudozh" }
+			{ "dynnp_iz" "dynn_Kargopol" }
+			{ "dynnp_iz" "dynn_Kirillov" }
+			{ "dynnp_iz" "dynn_Totma" }
+			{ "dynnp_iz" "dynn_Chudia" }
+			{ "dynnp_iz" "dynn_Vologda" }
+			{ "dynnp_iz" "dynn_Lyubim" }
+			{ "dynnp_iz" "dynn_Onstia" }
+			{ "dynnp_iz" "dynn_Choklema" }
+			{ "dynnp_iz" "dynn_Ustyug" }
+			{ "dynnp_iz" "dynn_Velsk" }
+			{ "dynnp_iz" "dynn_Keurola" }	
+			{ "dynnp_iz" "dynn_Bolgar" }
+			{ "dynnp_iz" "dynn_Ashli" }
+			{ "dynnp_iz" "dynn_Karbolam" }
+			{ "dynnp_iz" "dynn_Samar" }
+			{ "dynnp_iz" "dynn_Kazan" }
+			{ "dynnp_iz" "dynn_Yoshkar" }
+			{ "dynnp_iz" "dynn_Elabuga" }
+			{ "dynnp_iz" "dynn_Jalmat" }
+			{ "dynnp_iz" "dynn_Belebey" }
+			{ "dynnp_iz" "dynn_Bugurslan" }
+			{ "dynnp_iz" "dynn_Salavat" }
+			{ "dynnp_iz" "dynn_Martyuba" }
+			{ "dynnp_iz" "dynn_Cykma" }
+			{ "dynnp_iz" "dynn_Cheboksary" }
+			{ "dynnp_iz" "dynn_Kozlov" }
+			{ "dynnp_iz" "dynn_Saran" }
+			{ "dynnp_iz" "dynn_Voronezh" }
+			{ "dynnp_iz" "dynn_Karatayak" }
+			{ "dynnp_iz" "dynn_Oskol" }
+			{ "dynnp_iz" "dynn_Mordoviya" }
+			{ "dynnp_iz" "dynn_Chuvashiya" }
+			{ "dynnp_iz" "dynn_Saratov" }
+			{ "dynnp_iz" "dynn_Penza" }
+			{ "dynnp_iz" "dynn_Atkarsk" }
+			{ "dynnp_iz" "dynn_Petrovsk" }
+			{ "dynnp_iz" "dynn_Khopyor" }
+			{ "dynnp_iz" "dynn_Tuluchezeva" }
+			{ "dynnp_iz" "dynn_Balachev" }
+			{ "dynnp_iz" "dynn_Tambov" }
+			{ "dynnp_iz" "dynn_Durovka" }
+			{ "dynnp_iz" "dynn_Perm" }
+			{ "dynnp_iz" "dynn_Sebur" }
+			{ "dynnp_iz" "dynn_Lysva" }
+			{ "dynnp_iz" "dynn_Kumych" }
+			{ "dynnp_iz" "dynn_Permiya" }
+			{ "dynnp_iz" "dynn_Ural" }
+			{ "dynnp_iz" "dynn_Votkinsk" }
+			{ "dynnp_iz" "dynn_Kerken" }
+			{ "dynnp_iz" "dynn_Udmurtiya" }
+			{ "dynnp_iz" "dynn_Kargedan" }
+			{ "dynnp_iz" "dynn_Gorelki" }
+			{ "dynnp_iz" "dynn_Glazov" }
+			{ "dynnp_iz" "dynn_Kolyn" }
+			{ "dynnp_iz" "dynn_Bashkiriya" }
+			{ "dynnp_iz" "dynn_Yanokul" }
+			{ "dynnp_iz" "dynn_Sakmara" }
+			{ "dynnp_iz" "dynn_Uraltau" }
+			{ "dynnp_iz" "dynn_Karabash" }
+			{ "dynnp_iz" "dynn_Uyska" }
+			{ "dynnp_iz" "dynn_Voguliya" }
+			{ "dynnp_iz" "dynn_Yekaterinburg" }
+			{ "dynnp_iz" "dynn_Chelabinsk" }
+			{ "dynnp_iz" "dynn_Chadrinsk" }
+			{ "dynnp_iz" "dynn_Cherepakha" }
+			{ "dynnp_iz" "dynn_Zhetesu" }
+			{ "dynnp_iz" "dynn_Kamenistyy" }
+			{ "dynnp_iz" "dynn_Almaty" }
+			{ "dynnp_iz" "dynn_Copical" }
+			{ "dynnp_iz" "dynn_Kaskelen" }
+			{ "dynnp_iz" "dynn_Aksuyek" }
+			{ "dynnp_iz" "dynn_Uchkul" }
+			{ "dynnp_iz" "dynn_Alakol" }
+			{ "dynnp_iz" "dynn_Chuguchak" }
+			{ "dynnp_iz" "dynn_Kokpekty" }
+			{ "dynnp_iz" "dynn_Guzko" }
+			{ "dynnp_iz" "dynn_Lepsink" }
+			{ "dynnp_iz" "dynn_Tarbagatai" }
+			{ "dynnp_iz" "dynn_Emiliya" }
+			{ "dynnp_iz" "dynn_Dzhinsko" }
+			{ "dynnp_iz" "dynn_Karamay" }
+			{ "dynnp_iz" "dynn_Obrustye" }
+			{ "dynnp_iz" "dynn_Kimek" }
+			{ "dynnp_iz" "dynn_Kash" }
+			{ "dynnp_iz" "dynn_Mugodzhar" }
+			{ "dynnp_iz" "dynn_Podnyat" }
+			{ "dynnp_iz" "dynn_Aqtobe" }
+			{ "dynnp_iz" "dynn_Orenburg" }
+			{ "dynnp_iz" "dynn_Atomsk" }
+			{ "dynnp_iz" "dynn_Atyrau" }
+			{ "dynnp_iz" "dynn_Otstavat" }
+			{ "dynnp_iz" "dynn_Mantou" }
+			{ "dynnp_iz" "dynn_Meshok" }
+			{ "dynnp_iz" "dynn_Pochta" }
+			{ "dynnp_iz" "dynn_Kumaniya" }
+			{ "dynnp_iz" "dynn_Tumar" }
+			{ "dynnp_iz" "dynn_Turgad" }
+			{ "dynnp_iz" "dynn_Jilali" }
+			{ "dynnp_iz" "dynn_Jitanjik" }
+			{ "dynnp_iz" "dynn_Kurgan" }
+			{ "dynnp_iz" "dynn_Sabakyul" }
+			{ "dynnp_iz" "dynn_Petropavl" }
+			{ "dynnp_iz" "dynn_Varagashi" }
+			{ "dynnp_iz" "dynn_Karasu" }
+			{ "dynnp_iz" "dynn_Saryarka" }
+			{ "dynnp_iz" "dynn_Nezhnyy" }
+			{ "dynnp_iz" "dynn_Ulytau" }
+			{ "dynnp_iz" "dynn_Faska" }
+			{ "dynnp_iz" "dynn_Kazakhskiy" }
+			{ "dynnp_iz" "dynn_Astana" }
+			{ "dynnp_iz" "dynn_Atbasar" }
+			{ "dynnp_iz" "dynn_Shchuchinsk" }
+			{ "dynnp_iz" "dynn_Semey" }
+			{ "dynnp_iz" "dynn_Kipchak" }
+			{ "dynnp_iz" "dynn_Jinghiz" }
+			{ "dynnp_iz" "dynn_Zagolovok" }
+			{ "dynnp_iz" "dynn_Sredstva" }
+			{ "dynnp_iz" "dynn_Kalbin" }
+			{ "dynnp_iz" "dynn_Kentarlau" }
+			{ "dynnp_iz" "dynn_Karkaraly" }
+			{ "dynnp_iz" "dynn_Tokumbay" }
+			{ "dynnp_iz" "dynn_Nurtay" }
+			{ "dynnp_iz" "dynn_Karabas" }
+			{ "dynnp_iz" "dynn_Uliuty" }
+			{ "dynnp_iz" "dynn_Betpa" }
+			{ "dynnp_iz" "dynn_Tara" }
+			{ "dynnp_iz" "dynn_Utyug" }
+			{ "dynnp_iz" "dynn_Beshbalik" }
+			{ "dynnp_iz" "dynn_Yangjibaliq" }
+			{ "dynnp_iz" "dynn_Barkul" }
+			{ "dynnp_iz" "dynn_Chamil" }
+			{ "dynnp_iz" "dynn_Altay" }
+			{ "dynnp_iz" "dynn_Qinggil" }
+			{ "dynnp_iz" "dynn_Agairik" }
+			{ "dynnp_iz" "dynn_Narym" }
+			{ "dynnp_iz" "dynn_Hoboksar" }
+			{ "dynnp_iz" "dynn_Balgun" }
+			{ "dynnp_iz" "dynn_Gurbantunggut" }
+			{ "dynnp_iz" "dynn_Sibir" }
+			{ "dynnp_iz" "dynn_Yugra" }
+			{ "dynnp_iz" "dynn_Ostyaki" }
+			{ "dynnp_iz" "dynn_Tyumen" }
+			{ "dynnp_iz" "dynn_Loya" }
+			{ "dynnp_iz" "dynn_Tabari" }
+			{ "dynnp_iz" "dynn_Neramkary" }
+			{ "dynnp_iz" "dynn_Posledovatelnyy" }
+			{ "dynnp_iz" "dynn_Kariora" }
+			{ "dynnp_iz" "dynn_Pestik" }
+			{ "dynnp_iz" "dynn_Lodka" }
+			{ "dynnp_iz" "dynn_Kazym" }
+			{ "dynnp_iz" "dynn_Sosva" }
+			{ "dynnp_iz" "dynn_Tobol" }
+			{ "dynnp_iz" "dynn_Belogorye" }
+			{ "dynnp_iz" "dynn_Steklo" }
+			{ "dynnp_iz" "dynn_Ishim" }
+			{ "dynnp_iz" "dynn_Dolgujar" }
+			{ "dynnp_iz" "dynn_Kazanskoye" }
+			{ "dynnp_iz" "dynn_Petropavolsk" }
+			{ "dynnp_iz" "dynn_Lanikaz" }
+			{ "dynnp_iz" "dynn_Omsk" }
+			{ "dynnp_iz" "dynn_Kainsk" }
+			{ "dynnp_iz" "dynn_Pavlodar" }
+			{ "dynnp_iz" "dynn_Torema" }
+			{ "dynnp_iz" "dynn_Sorok" }
+			{ "dynnp_iz" "dynn_Kondoma" }
+			{ "dynnp_iz" "dynn_Salair" }
+			{ "dynnp_iz" "dynn_Terektai" }
+			{ "dynnp_iz" "dynn_Tomsk" }
+			{ "dynnp_iz" "dynn_Taskyl" }
+			{ "dynnp_iz" "dynn_Kojuk" }
+			{ "dynnp_iz" "dynn_Chulym" }
+			{ "dynnp_iz" "dynn_Narim" }
+			{ "dynnp_iz" "dynn_Sochur" }
+			{ "dynnp_iz" "dynn_Yenisei" }
+			{ "dynnp_iz" "dynn_Vasyugan" }
+			{ "dynnp_iz" "dynn_Umiai" }
+			{ "dynnp_iz" "dynn_Kolyvan" }
+			{ "dynnp_iz" "dynn_Sartlan" }
+			{ "dynnp_iz" "dynn_Igaran" }
+			{ "dynnp_iz" "dynn_Konda" }
+			{ "dynnp_iz" "dynn_Kulunda" }
+			{ "dynnp_iz" "dynn_Barnaul" }
+			{ "dynnp_iz" "dynn_Kuchuk" }
+			{ "dynnp_iz" "dynn_Zaporozhye" }
+			{ "dynnp_iz" "dynn_Khazariya" }
+			{ "dynnp_iz" "dynn_Odessa" }
+			{ "dynnp_iz" "dynn_Ledizyn" }
+			{ "dynnp_iz" "dynn_Chelovek" }
+			{ "dynnp_iz" "dynn_Cherkassy" }
+			{ "dynnp_iz" "dynn_Kherson" }
+			{ "dynnp_iz" "dynn_Dnepr" }
+			{ "dynnp_iz" "dynn_Yedisan" }
+			{ "dynnp_iz" "dynn_Levediya" }
+			{ "dynnp_iz" "dynn_Khortitsiya" }
+			{ "dynnp_iz" "dynn_Oleshye" }
+			{ "dynnp_iz" "dynn_Bakhmut" }
+			{ "dynnp_iz" "dynn_Samar" }
+			{ "dynnp_iz" "dynn_Kazanskaya" }
+			{ "dynnp_iz" "dynn_Sarysyn" }
+			{ "dynnp_iz" "dynn_Krym" }
+			{ "dynnp_iz" "dynn_Kerch" }
+			{ "dynnp_iz" "dynn_Perekop" }
+			{ "dynnp_iz" "dynn_Sarkel" }
+			{ "dynnp_iz" "dynn_Kavkaz" }
+			{ "dynnp_iz" "dynn_Astrakhan" }
+			{ "dynnp_iz" "dynn_Beksima" }
+			{ "dynnp_iz" "dynn_Azov" }
+			{ "dynnp_iz" "dynn_Tmutarakan" }
+			{ "dynnp_iz" "dynn_Khumar" }
+			{ "dynnp_iz" "dynn_Alaniya" }
+			{ "dynnp_iz" "dynn_Maghas" }
+			{ "dynnp_iz" "dynn_Cabardinia" }
+			{ "dynnp_iz" "dynn_Zichia" }
+			{ "dynnp_iz" "dynn_Ciscaucasia" }
+			{ "dynnp_iz" "dynn_Derbent" }
+			{ "dynnp_iz" "dynn_Samander" }
+			{ "dynnp_iz" "dynn_Samiran" }
+			{ "dynnp_iz" "dynn_Saqsin" }
+			{ "dynnp_iz" "dynn_Uzen" }
+			{ "dynnp_iz" "dynn_Pecheneg" }
+			{ "dynnp_iz" "dynn_Jambalar" }
+			{ "dynnp_iz" "dynn_Yaitsk" }
+			
+		}
+
+		dynasty_names = {
+			"dynn_Mikhailovich"
+			"dynn_Fyodyorov"
+			"dynn_Lukinich"
+			"dynn_Andreievich"
+			"dynn_Dobrynich"
+			"dynn_Petrilov"
+			"dynn_Borisov"
+			"dynn_Kievskiy"
+			"dynn_Kholmsky"
+			"dynn_Izyaslavich"
+			"dynn_Ivannikov"
+			"dynn_Mikulinich"
+			"dynn_Miroslavich"
+			"dynn_Ivankovich"
+			"dynn_Tverdiatich"
+			"dynn_Zakharyinich"
+			"dynn_Nerevinich"
+			"dynn_Stepanovich"
+			"dynn_Nezdinich"
+			"dynn_Feofilaktovich"
+			"dynn_Klimovich"
+			"dynn_Konstantinov"
+			"dynn_Tolstoy"
+			"dynn_Oksakov"
+			"dynn_Ovinov"
+			"dynn_Romanov"
+			"dynn_Okolnichy"
+			"dynn_Yenikeyev"
+			"dynn_Bakunin"
+			"dynn_Balashov"
+			"dynn_Rumyanets"
+			"dynn_Matveev"
+			"dynn_Artamonovich"
+			"dynn_Osipovich"
+			"dynn_Ignatiev"
+			"dynn_Bestuzhev-Ryumin"
+			"dynn_Chernyshev"
+			"dynn_Galitsyn"
+			"dynn_Dashkov"
+			"dynn_Sobakin"
+			"dynn_Gurielov"
+			"dynn_Khitrov"
+			"dynn_Khovansky"
+			"dynn_Kobylin"
+			"dynn_Lopukhin"
+			"dynn_Rumyantsev"
+			"dynn_Matveyev"
+			"dynn_Menshikov"
+			"dynn_Morozov"
+			"dynn_Naryshkin"
+			"dynn_Poluektovich"
+			"dynn_Pankeyev"
+			"dynn_Pushkin"
+			"dynn_Rtishchev"
+			"dynn_Shein"
+			"dynn_Shemyaka"
+			"dynn_Sheremetev"
+			"dynn_Shuvalov"
+			"dynn_Stolnik"
+			"dynn_Trubetskoy"
+			"dynn_Uvarov"
+			"dynn_Turgenev"
+			"dynn_Valuyev"
+			"dynn_Vogak"
+			"dynn_Andreievich"
+			"dynn_Bryachislavich"
+			"dynn_Igorevich"
+			"dynn_Ivanovich"
+			"dynn_Iziaslavich"
+			"dynn_Mikhailovich"
+			"dynn_Mstislavich"
+			"dynn_Nikitich"
+			"dynn_Rostislavich"
+			"dynn_Sviatoslavich"
+			"dynn_Vasilievich"
+			"dynn_Viacheslavich"
+			"dynn_Vladimirovich"
+			"dynn_Vseslavich"
+			"dynn_Vsevolodovich"
+			"dynn_Vysheslavich"
+			"dynn_Yaroslavich"
+			"dynn_Yurievich"
+			"dynn_Dmitrievich"
+			"dynn_Fedorovich"
+			"dynn_Davidovich"
+			"dynn_Vsevolodich"
+			"dynn_Karpivin"
+			"dynn_Danilovich"
+			"dynn_Kromsky"
+			#############HOI4
+			"dynn_Alexseyev"
+			"dynn_Antonov"
+			"dynn_Azarov"
+			"dynn_Badanov"
+			"dynn_Chibisov"
+			"dynn_Dragomirov"
+			"dynn_Frolov"
+			"dynn_Golivin"
+			"dynn_Grishin"
+			"dynn_Gurko"
+			"dynn_Ivanov"
+			"dynn_Ivannikov"
+			"dynn_Kriuchenkin"
+			"dynn_Konstantinov"
+			"dynn_Biryukov"
+			"dynn_Lazarev"
+			"dynn_Makarov"
+			"dynn_Menshikov"
+			"dynn_Nakhimov"
+			"dynn_Nebogatov"
+			"dynn_Nikolaevich"
+			"dynn_Nikitin"
+			"dynn_Ostrovsky"
+			"dynn_Pavlov"
+			"dynn_Putyatin"
+			"dynn_Rozhestvensky"
+			"dynn_Skobelev"
+			"dynn_Shuvalov"
+			"dynn_Surkov"
+			"dynn_Nevzhinsky"
+			"dynn_Yegorov"
+			"dynn_Yudenich"
+			"dynn_Vorontsov"
+			"dynn_Zavoyko"
+			"dynn_Danilov"
+			"dynn_Moskalenko"
+			"dynn_Tanaschishin"
+			"dynn_Zakharchenko"
+			"dynn_Novikov"
+			"dynn_Volkhin"
+			"dynn_Udovichenko"
+			"dynn_Skornyakov"
+			"dynn_Shcheglov"
+			"dynn_Shabunin"
+			"dynn_Cherkasov"
+			"dynn_Chernykh"
+			"dynn_Filippov"
+			"dynn_Ukhov"
+			"dynn_Kapranov"
+			"dynn_Zhuravlev"
+			"dynn_Kostenitsyn"
+			"dynn_Savchuk"
+			"dynn_Glushchenko"
+			"dynn_Glebov"
+			"dynn_Kravchenko"
+			"dynn_Onufriev"
+			"dynn_Kniazev"
+			"dynn_Zubarev"
+			"dynn_Dodonov"
+			"dynn_Ignatov"
+			"dynn_Bubnov"
+			"dynn_Bystrik"
+			"dynn_Lebedenko"
+			"dynn_Denisenko"
+			"dynn_Safiulin"
+			"dynn_Kolorutin"
+			"dynn_Pesochin"
+			"dynn_Gurov"
+			"dynn_Isaev"
+			"dynn_Putin"
+			"dynn_Zyuganov"
+			"dynn_Kiriyenko"
+			"dynn_Yavlinski"
+			"dynn_Navalny"
+			"dynn_Kasyanov"
+			"dynn_Semigin"
+			"dynn_Mironov"
+			"dynn_Zhirinovsky"
+			"dynn_Savelyev"
+			"dynn_Sergeyev"
+			"dynn_Gerasimov"
+			"dynn_Salyukov"
+			"dynn_Dvornikov"
+			"dynn_Chayko"
+			"dynn_Serdyukov"
+			"dynn_Pankov"
+			"dynn_Shamanov"
+			"dynn_Bondarev"
+			"dynn_Golovko"
+			"dynn_Karakaev"
+			"dynn_Kolpachenko"
+			"dynn_Fomin"
+			"dynn_Popov"
+			"dynn_Bulgakov"
+			"dynn_Konaschenkow"
+			"dynn_Sadovenko"
+			"dynn_Shoygu"
+			"dynn_Sergun"
+			"dynn_Grachev"
+			"dynn_Kartapolov"
+			"dynn_Zarudnitsky"
+			"dynn_Surovikin"
+			"dynn_Bakin"
+			"dynn_Korolev"
+			"dynn_Nosatov"
+			"dynn_Evmenov"
+			"dynn_Vitko"
+			"dynn_Pinchuk"
+			"dynn_Chirkov"
+			"dynn_Vysotskiy"
+			"dynn_Slabunova"
+			"dynn_Titov"
+			"dynn_Kuchma"
+			"dynn_Yarosh"
+			"dynn_Tyahnybok"
+			"dynn_Boyko"
+			"dynn_Rybak"
+			"dynn_Yushchenko"
+			"dynn_Lyashko"
+			"dynn_Moskal"
+			"dynn_Moroz"
+			"dynn_Symonenko"
+			"dynn_Muzhenko"
+			"dynn_Popko"
+			"dynn_Shevchenko"
+			"dynn_Zabrodskyi"
+			"dynn_Lokota"
+			"dynn_Drozdov"
+			"dynn_Shaptala"
+			"dynn_Zubanich"
+			"dynn_Nikolyuk"
+			"dynn_Shvorak"
+			"dynn_Voronchenko"
+			"dynn_Hayduk"
+			"dynn_Poroshenko"
+			"dynn_Yanukovych"
+			"dynn_Lukashenko"
+			"dynn_Gaidukevich"
+			"dynn_Viacorka"
+			"dynn_Sieviaryniets"
+			"dynn_Kazulin"
+			"dynn_Novosiad"
+			"dynn_Alexandrovich"
+			"dynn_Karpenko"
+			"dynn_Ravkov"
+			"dynn_Belokonev"
+			"dynn_Potapenko"
+			"dynn_Lotenkov"
+			"dynn_Kireyev"
+			"dynn_Hrenin"
+			"dynn_Kosygin"
+			"dynn_Zhuk"
+			"dynn_Bulavko"
+			"dynn_Fedin"
+			"dynn_Vladimir"
+			"dynn_Volfovich"
+			"dynn_Gnilozub"
+			"dynn_Kulazhin"
+			"dynn_Kuzmuk"
+			"dynn_Denisenko"
+			"dynn_Danilchik"
+			"dynn_Starkov"
+			"dynn_Lukyanenko"
+			"dynn_Dvigalev"
+			"dynn_Trus"
+			"dynn_Golub"
+			"dynn_Karev"
+			"dynn_Shevchenko"
+			"dynn_Astrauh"
+			"dynn_Panfyorov"
+			"dynn_Stalin"
+			"dynn_Rodzaevsky"
+			"dynn_Kerensky"
+			"dynn_Baydalakov"
+			"dynn_Bronstein"
+			"dynn_Trotskiy"
+			"dynn_Ulianov"
+			"dynn_Lenin"
+			"dynn_Morozov"
+			"dynn_Ilyushin"
+			"dynn_Tupolev"
+			"dynn_Yakovlev"
+			"dynn_Korolev"
+			"dynn_Kurchatov"
+			"dynn_Zhukov"
+			"dynn_Rokossovsky"
+			"dynn_Vasilevsky"
+			"dynn_Shaposhnikov"
+			"dynn_Vatutin"
+			"dynn_Konev"
+			"dynn_Timoshenko"
+			"dynn_Voroshilov"
+			"dynn_Tukhachevsky"
+			"dynn_Blyukher"
+			"dynn_Budyonny"
+			"dynn_Chernyakhovsky"
+			"dynn_Pliyev"
+			"dynn_Govorov"
+			"dynn_Kulik"
+			"dynn_Meretskov"
+			"dynn_Golikov"
+			"dynn_Yeryomenko"
+			"dynn_Zakharov"
+			"dynn_Cherevichenko"
+			"dynn_Reyter"
+			"dynn_Chibisov"
+			"dynn_Kuznetsov"
+			"dynn_Vlasov"
+			"dynn_Fedyuninsky"
+			"dynn_Purkayev"
+			"dynn_Galitsky"
+			"dynn_Berzarin"
+			"dynn_Gorbatov"
+			"dynn_Moskalenko"
+			"dynn_Lelyushenko"
+			"dynn_Grechko"
+			"dynn_Malinovsky"
+			"dynn_Sokolovsky"
+			"dynn_Chuikov"
+			"dynn_Batov"
+			"dynn_Gordov"
+			"dynn_Shumilov"
+			"dynn_Maslennikov"
+			"dynn_Oktyabrskiy"
+			"dynn_Levchenko"
+			"dynn_Golovko"
+			"dynn_Kasatonov"
+			"dynn_Zakhaev"
+			"dynn_Voronin"
+			"dynn_Sokolov"
+			"dynn_Pevelovna"
+			"dynn_Badanov"
+			"dynn_Koslov"
+			"dynn_Petrenko"
+			"dynn_Reznov"
+			"dynn_Russkiy"
+			"dynn_Ukrainets"
+			"dynn_Belorusskiy"
+			"dynn_Malorossiya"
+			"dynn_Sibir"
+			"dynn_Yakovlev"
+		}
+
+		male_names = {
+			Afanasiy Alexandr Alexei Andrei Boris Briachislav Daniil Davyd Demid Dmitriy Dobrynia Fedot Feodor Gavriil Gleb
+			Grigoriy Iakov Igor Iliya Ingvar Ivan Iziaslav Kirill Konstantin Koz_ma Lev Matfei Mikhail Mitrofan Mstislav
+			Nikita Oleg Pavel Putiata Radoslav Rodislav Rogvolod Roman Rostislav Rurik Ruslan Simeon Stanislav Stepan Sudislav
+			Svetozar Sviatopolk Sviatoslav Terentiy Trifon Vasiliy Vasilko Viacheslav Vladimir Vladislav Voislav Volodar Vseslav
+			Vsevolod Vyshata Vysheslav Yaropolk Yaroslav Yefimiy Yelisey Yemelyan Yeremey Yevstafiy Yuriy
+			Aristarkh
+			Briachislav Demid Dobrynia Fedot Gleb Igor Iliya Iziaslav Lev Mitrofan Mstislav
+			Nikita Putiata Radoslav Rodislav Rogvolod Rostislav Ruslan Stanislav Sudislav Svetozar Sviatopolk Sviatoslav Terentiy Trifon Viacheslav Vladimir Vladislav Voislav Volodar Vseslav
+			Vsevolod Vyshata Vysheslav Yaropolk Yaroslav Yefimiy Yelisey Yeremey Yevstafiy
+		}
+		female_names = {
+			Agafya Agrafena Alexandra Anastasia Anna Boleslava Darya Dobrava Dobronega Dobroslava Yefimia Yefrosinia Yekaterina
+			Yelizaveta Yevdokia Yevpraxia Feodora Feodosia Fevronia Gorislava Gradislava Gremislava Irina Xenia Liubava
+			Liudmila Malfrida Malusha Maria Marina Olena Olga Pereyaslava Praskovya Praxida Prebrana Predslava Premyslava
+			Pribislava Rogneda Rostislava Sbyslava Sofia Sviatoslava Tatyana Ulita Ulyana Varvara Vasilisa Veleslava Verkhoslava
+			Vseslava Viacheslava Yaroslava Zabava Zvenislava
+			Boleslava Darya Dobrava Dobronega Dobroslava Yefimia Yefrosinia Fevronia Gorislava Gradislava Gremislava
+			Liubava Liudmila Malfrida Malusha Maria Marina Olena Olga Pereyaslava Praskovya Praxida Prebrana Predslava
+			Premyslava Pribislava Rogneda Rostislava Sbyslava Sviatoslava Tatyana Ulita Ulyana Varvara Vasilisa Veleslava Verkhoslava
+			Vseslava Viacheslava Yaroslava Zabava Zvenislava
+		}
+		dynasty_of_location_prefix = "dynnp_iz"
+		
+		patronym_suffix_male = "dynnpat_suf_ovich"
+		patronym_suffix_female = "dynnpat_suf_ovna"
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 50
+		father_name_chance = 50
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 50
+		mat_grm_name_chance = 50
+		mother_name_chance = 50
+
+		ethnicities = {
+			60 = slavic_northern_blond
+			5 = slavic_northern_ginger
+			25 = slavic_northern_brown_hair
+			10 = slavic_northern_dark_hair
+		}
+	}
+		
+	ukrainian = {
+		
+		color = { 160 160 60 }
+
+		cadet_dynasty_names = {
+			{ "dynnp_z" "dynn_Hrodna" }
+			{ "dynnp_z" "dynn_Vaukavysk" }
+			{ "dynnp_z" "dynn_Navahrudak" }
+			{ "dynnp_z" "dynn_Pinsk" }
+			{ "dynnp_z" "dynn_Sluck" }
+			{ "dynnp_z" "dynn_Klieck" }
+			{ "dynnp_z" "dynn_Babrujsk" }
+			{ "dynnp_z" "dynn_Miensk" }
+			{ "dynnp_z" "dynn_Orsa" }
+			{ "dynnp_z" "dynn_Polack" }
+			{ "dynnp_z" "dynn_Lukomi" }
+			{ "dynnp_z" "dynn_Viciebsk" }
+			{ "dynnp_z" "dynn_Smaliensk" }
+			{ "dynnp_z" "dynn_Hniezdavannie" }
+			{ "dynnp_z" "dynn_Roslau" }
+			{ "dynnp_z" "dynn_Mazajsk" }
+			{ "dynnp_z" "dynn_Bielarus" }
+			{ "dynnp_z" "dynn_Tarapiec" }
+			{ "dynnp_z" "dynn_Yaroslavl" }
+			{ "dynnp_z" "dynn_Vladimir" }
+			{ "dynnp_z" "dynn_Sozdannyy" }
+			{ "dynnp_z" "dynn_Tver" }
+			{ "dynnp_z" "dynn_Moskva" }
+			{ "dynnp_z" "dynn_Opolye" }
+			{ "dynnp_z" "dynn_Ryazan" }
+			{ "dynnp_z" "dynn_Tula" }
+			{ "dynnp_z" "dynn_Murom" }
+			{ "dynnp_z" "dynn_Nizhny" }
+			{ "dynnp_z" "dynn_Plos" }
+			{ "dynnp_z" "dynn_Manturovo" }
+			{ "dynnp_z" "dynn_Kyyiv" }
+			{ "dynnp_z" "dynn_Zhytomyr" }
+			{ "dynnp_z" "dynn_Zvyahel" }
+			{ "dynnp_z" "dynn_Chornobyl" }
+			{ "dynnp_z" "dynn_Ushytsya" }
+			{ "dynnp_z" "dynn_Korsun" }
+			{ "dynnp_z" "dynn_Ruteniya" }
+			{ "dynnp_z" "dynn_Turiv" }
+			{ "dynnp_z" "dynn_Korosten" }
+			{ "dynnp_z" "dynn_Dubrovytsya" }
+			{ "dynnp_z" "dynn_Pereyaslavl" }
+			{ "dynnp_z" "dynn_Hradyzk" }
+			{ "dynnp_z" "dynn_Chernihiv" }
+			{ "dynnp_z" "dynn_Starodub" }
+			{ "dynnp_z" "dynn_Siverskyy" }
+			{ "dynnp_z" "dynn_Putyvl" }
+			{ "dynnp_z" "dynn_Kursk" }
+			{ "dynnp_z" "dynn_Karachev" }
+			{ "dynnp_z" "dynn_Kozelsk" }
+			{ "dynnp_z" "dynn_Sevsk" }
+			{ "dynnp_z" "dynn_Novosyl" }
+			{ "dynnp_z" "dynn_Odoev" }
+			{ "dynnp_z" "dynn_Novgorod" }
+			{ "dynnp_z" "dynn_Russkiy" }
+			{ "dynnp_z" "dynn_Pskov" }
+			{ "dynnp_z" "dynn_Sebezh" }
+			{ "dynnp_z" "dynn_Vodi" }
+			{ "dynnp_z" "dynn_Vepsiya" }
+			{ "dynnp_z" "dynn_Beloozero" }
+			{ "dynnp_z" "dynn_Tikhvin" }
+			{ "dynnp_z" "dynn_Vyangi" }
+			{ "dynnp_z" "dynn_Luki" }
+			{ "dynnp_z" "dynn_Valday" }
+			{ "dynnp_z" "dynn_Bezichi" }
+			{ "dynnp_z" "dynn_Volyn" }
+			{ "dynnp_z" "dynn_Volodymyr" }
+			{ "dynnp_z" "dynn_Peresopnytsya" }
+			{ "dynnp_z" "dynn_Berestya" }
+			{ "dynnp_z" "dynn_Dorohychyn" }
+			{ "dynnp_z" "dynn_Halych" }
+			{ "dynnp_z" "dynn_Lviv" }
+			{ "dynnp_z" "dynn_Terebovl" }
+			{ "dynnp_z" "dynn_Zaslavl" }
+			{ "dynnp_z" "dynn_Chervonyy" }
+			{ "dynnp_z" "dynn_Belz" }
+			{ "dynnp_z" "dynn_Peremyshl" }
+			{ "dynnp_z" "dynn_Ukrayina" }
+			{ "dynnp_z" "dynn_Biarmiya" }
+			{ "dynnp_z" "dynn_Kareliya" }
+			{ "dynnp_z" "dynn_Kholmogory" }
+			{ "dynnp_z" "dynn_Onega" }
+			{ "dynnp_z" "dynn_Povenets" }
+			{ "dynnp_z" "dynn_Pudozh" }
+			{ "dynnp_z" "dynn_Kargopol" }
+			{ "dynnp_z" "dynn_Kirillov" }
+			{ "dynnp_z" "dynn_Totma" }
+			{ "dynnp_z" "dynn_Chudia" }
+			{ "dynnp_z" "dynn_Vologda" }
+			{ "dynnp_z" "dynn_Lyubim" }
+			{ "dynnp_z" "dynn_Onstia" }
+			{ "dynnp_z" "dynn_Choklema" }
+			{ "dynnp_z" "dynn_Ustyug" }
+			{ "dynnp_z" "dynn_Velsk" }
+			{ "dynnp_z" "dynn_Keurola" }	
+			{ "dynnp_z" "dynn_Zaporozhye" }
+			{ "dynnp_z" "dynn_Khazariya" }
+			{ "dynnp_z" "dynn_Odessa" }
+			{ "dynnp_z" "dynn_Ledizyn" }
+			{ "dynnp_z" "dynn_Chelovek" }
+			{ "dynnp_z" "dynn_Cherkassy" }
+			{ "dynnp_z" "dynn_Kherson" }
+			{ "dynnp_z" "dynn_Dnepr" }
+			{ "dynnp_z" "dynn_Yedisan" }
+			{ "dynnp_z" "dynn_Levediya" }
+			{ "dynnp_z" "dynn_Khortitsiya" }
+			{ "dynnp_z" "dynn_Oleshye" }
+			{ "dynnp_z" "dynn_Bakhmut" }
+			{ "dynnp_z" "dynn_Samar" }
+			{ "dynnp_z" "dynn_Kazanskaya" }
+			{ "dynnp_z" "dynn_Sarysyn" }
+			{ "dynnp_z" "dynn_Krym" }
+			{ "dynnp_z" "dynn_Kerch" }
+			{ "dynnp_z" "dynn_Perekop" }
+			{ "dynnp_z" "dynn_Sarkel" }
+			{ "dynnp_z" "dynn_Kavkaz" }
+			{ "dynnp_z" "dynn_Astrakhan" }
+			{ "dynnp_z" "dynn_Beksima" }
+			{ "dynnp_z" "dynn_Azov" }
+			{ "dynnp_z" "dynn_Tmutarakan" }
+			{ "dynnp_z" "dynn_Khumar" }
+			{ "dynnp_z" "dynn_Alaniya" }
+			{ "dynnp_z" "dynn_Maghas" }
+			{ "dynnp_z" "dynn_Cabardinia" }
+			{ "dynnp_z" "dynn_Zichia" }
+			{ "dynnp_z" "dynn_Ciscaucasia" }
+			{ "dynnp_z" "dynn_Derbent" }
+			{ "dynnp_z" "dynn_Samander" }
+			{ "dynnp_z" "dynn_Samiran" }
+			{ "dynnp_z" "dynn_Saqsin" }
+			{ "dynnp_z" "dynn_Uzen" }
+			{ "dynnp_z" "dynn_Pecheneg" }
+			{ "dynnp_z" "dynn_Jambalar" }
+			{ "dynnp_z" "dynn_Yaitsk" }
+			#############polish
+			"dynn_S_widnicki"
+			"dynn_Branicki"
+			"dynn_Borkowic"
+			"dynn_GL_ogowski"
+			"dynn_Bogorski"
+			"dynn_Lisy"
+			"dynn_Lewicki"
+			"dynn_Wielkopolski"
+			"dynn_Opolski"
+			"dynn_Czartoryski"
+			"dynn_Opawski"
+			"dynn_Halicki"
+			"dynn_Zahumski"
+			"dynn_Kujawski"
+			"dynn_SubisL_awowic"
+			"dynn_Wolin"
+			"dynn_Koter"
+			"dynn_Woewodskij"
+			"dynn_Maciejewski"
+			"dynn_Urban"
+			"dynn_Starosz"
+			"dynn_SzczepaN_czyk"
+			"dynn_Jankowski"
+			"dynn_Nowak"
+			"dynn_Rudolf"
+			"dynn_Majek"
+			"dynn_PowaL_a"
+			"dynn_Kujawski"
+			"dynn_Chodkiewicz"
+			"dynn_JabL_onowski"
+			"dynn_Korecki"
+			"dynn_Lubomirski"
+			"dynn_MaL_achowski"
+			"dynn_Olelkowicz"
+			"dynn_Ostrogski"
+			"dynn_Poniatowski"
+			"dynn_Potocki"
+			"dynn_RadziwiL_L_"
+			"dynn_Rzewuski"
+			"dynn_Sanguszko"
+			"dynn_Sapieha"
+			"dynn_Sobieski"
+			"dynn_WiS_niowiecki"
+			"dynn_Zamojski"
+			"dynn_Zbaraski"
+			"dynn_Awdaniec"
+			"dynn_CzetwertyN_ski"
+			"dynn_Skarbek"
+			"dynn_Brochwicz"
+			"dynn_DA_browa"
+			"dynn_DoL_E_ga"
+			"dynn_Doliwa"
+			"dynn_Godziemba"
+			"dynn_Gryf"
+			"dynn_Leliwa"
+			"dynn_Nowina"
+			"dynn_OdrowA_Z_"
+			"dynn_OgoN_czyk"
+			"dynn_PO_L_kozic"
+			"dynn_Pomian"
+			"dynn_Radwan"
+			"dynn_Rawicz"
+			"dynn_Rogala"
+			"dynn_Sulima"
+			"dynn_Szeliga"
+			"dynn_TrA_ba"
+			"dynn_DL_ugosz"
+			"dynn_Kmita"
+			"dynn_S_winka"
+			"dynn_Sypniewski"
+			"dynn_OdrowA_Z_"
+			"dynn_LanckoroN_ski"
+			"dynn_Taczanowski"
+			"dynn_LubraN_ski"
+			"dynn_Tarnowski"
+			"dynn_Giese"
+			"dynn_Kolanka"
+			"dynn_Gamrat"
+			"dynn_MielZ_yN_ski"
+			"dynn_OgiN_ski"
+			"dynn_Dmowski"
+			
+		}
+
+		dynasty_names = {
+			"dynn_Mikhailovich"
+			"dynn_Fyodyorov"
+			"dynn_Lukinich"
+			"dynn_Andreievich"
+			"dynn_Dobrynich"
+			"dynn_Petrilov"
+			"dynn_Borisov"
+			"dynn_Kievskiy"
+			"dynn_Kholmsky"
+			"dynn_Izyaslavich"
+			"dynn_Ivannikov"
+			"dynn_Mikulinich"
+			"dynn_Miroslavich"
+			"dynn_Ivankovich"
+			"dynn_Tverdiatich"
+			"dynn_Zakharyinich"
+			"dynn_Nerevinich"
+			"dynn_Stepanovich"
+			"dynn_Nezdinich"
+			"dynn_Feofilaktovich"
+			"dynn_Klimovich"
+			"dynn_Konstantinov"
+			"dynn_Tolstoy"
+			"dynn_Oksakov"
+			"dynn_Ovinov"
+			"dynn_Romanov"
+			"dynn_Okolnichy"
+			"dynn_Yenikeyev"
+			"dynn_Bakunin"
+			"dynn_Balashov"
+			"dynn_Rumyanets"
+			"dynn_Matveev"
+			"dynn_Artamonovich"
+			"dynn_Osipovich"
+			"dynn_Ignatiev"
+			"dynn_Bestuzhev-Ryumin"
+			"dynn_Chernyshev"
+			"dynn_Galitsyn"
+			"dynn_Dashkov"
+			"dynn_Sobakin"
+			"dynn_Gurielov"
+			"dynn_Khitrov"
+			"dynn_Khovansky"
+			"dynn_Kobylin"
+			"dynn_Lopukhin"
+			"dynn_Rumyantsev"
+			"dynn_Matveyev"
+			"dynn_Menshikov"
+			"dynn_Morozov"
+			"dynn_Naryshkin"
+			"dynn_Poluektovich"
+			"dynn_Pankeyev"
+			"dynn_Pushkin"
+			"dynn_Rtishchev"
+			"dynn_Shein"
+			"dynn_Shemyaka"
+			"dynn_Sheremetev"
+			"dynn_Shuvalov"
+			"dynn_Stolnik"
+			"dynn_Trubetskoy"
+			"dynn_Uvarov"
+			"dynn_Turgenev"
+			"dynn_Valuyev"
+			"dynn_Vogak"
+			"dynn_Andreievich"
+			"dynn_Bryachislavich"
+			"dynn_Igorevich"
+			"dynn_Ivanovich"
+			"dynn_Iziaslavich"
+			"dynn_Mikhailovich"
+			"dynn_Mstislavich"
+			"dynn_Nikitich"
+			"dynn_Rostislavich"
+			"dynn_Sviatoslavich"
+			"dynn_Vasilievich"
+			"dynn_Viacheslavich"
+			"dynn_Vladimirovich"
+			"dynn_Vseslavich"
+			"dynn_Vsevolodovich"
+			"dynn_Vysheslavich"
+			"dynn_Yaroslavich"
+			"dynn_Yurievich"
+			"dynn_Dmitrievich"
+			"dynn_Fedorovich"
+			"dynn_Davidovich"
+			"dynn_Vsevolodich"
+			"dynn_Karpivin"
+			"dynn_Danilovich"
+			"dynn_Kromsky"
+			#############HOI4
+			"dynn_Alexseyev"
+			"dynn_Antonov"
+			"dynn_Azarov"
+			"dynn_Badanov"
+			"dynn_Chibisov"
+			"dynn_Dragomirov"
+			"dynn_Frolov"
+			"dynn_Golivin"
+			"dynn_Grishin"
+			"dynn_Gurko"
+			"dynn_Ivanov"
+			"dynn_Ivannikov"
+			"dynn_Kriuchenkin"
+			"dynn_Konstantinov"
+			"dynn_Biryukov"
+			"dynn_Lazarev"
+			"dynn_Makarov"
+			"dynn_Menshikov"
+			"dynn_Nakhimov"
+			"dynn_Nebogatov"
+			"dynn_Nikolaevich"
+			"dynn_Nikitin"
+			"dynn_Ostrovsky"
+			"dynn_Pavlov"
+			"dynn_Putyatin"
+			"dynn_Rozhestvensky"
+			"dynn_Skobelev"
+			"dynn_Shuvalov"
+			"dynn_Surkov"
+			"dynn_Nevzhinsky"
+			"dynn_Yegorov"
+			"dynn_Yudenich"
+			"dynn_Vorontsov"
+			"dynn_Zavoyko"
+			"dynn_Danilov"
+			"dynn_Moskalenko"
+			"dynn_Tanaschishin"
+			"dynn_Zakharchenko"
+			"dynn_Novikov"
+			"dynn_Volkhin"
+			"dynn_Udovichenko"
+			"dynn_Skornyakov"
+			"dynn_Shcheglov"
+			"dynn_Shabunin"
+			"dynn_Cherkasov"
+			"dynn_Chernykh"
+			"dynn_Filippov"
+			"dynn_Ukhov"
+			"dynn_Kapranov"
+			"dynn_Zhuravlev"
+			"dynn_Kostenitsyn"
+			"dynn_Savchuk"
+			"dynn_Glushchenko"
+			"dynn_Glebov"
+			"dynn_Kravchenko"
+			"dynn_Onufriev"
+			"dynn_Kniazev"
+			"dynn_Zubarev"
+			"dynn_Dodonov"
+			"dynn_Ignatov"
+			"dynn_Bubnov"
+			"dynn_Bystrik"
+			"dynn_Lebedenko"
+			"dynn_Denisenko"
+			"dynn_Safiulin"
+			"dynn_Kolorutin"
+			"dynn_Pesochin"
+			"dynn_Gurov"
+			"dynn_Isaev"
+			"dynn_Putin"
+			"dynn_Zyuganov"
+			"dynn_Kiriyenko"
+			"dynn_Yavlinski"
+			"dynn_Navalny"
+			"dynn_Kasyanov"
+			"dynn_Semigin"
+			"dynn_Mironov"
+			"dynn_Zhirinovsky"
+			"dynn_Savelyev"
+			"dynn_Sergeyev"
+			"dynn_Gerasimov"
+			"dynn_Salyukov"
+			"dynn_Dvornikov"
+			"dynn_Chayko"
+			"dynn_Serdyukov"
+			"dynn_Pankov"
+			"dynn_Shamanov"
+			"dynn_Bondarev"
+			"dynn_Golovko"
+			"dynn_Karakaev"
+			"dynn_Kolpachenko"
+			"dynn_Fomin"
+			"dynn_Popov"
+			"dynn_Bulgakov"
+			"dynn_Konaschenkow"
+			"dynn_Sadovenko"
+			"dynn_Shoygu"
+			"dynn_Sergun"
+			"dynn_Grachev"
+			"dynn_Kartapolov"
+			"dynn_Zarudnitsky"
+			"dynn_Surovikin"
+			"dynn_Bakin"
+			"dynn_Korolev"
+			"dynn_Nosatov"
+			"dynn_Evmenov"
+			"dynn_Vitko"
+			"dynn_Pinchuk"
+			"dynn_Chirkov"
+			"dynn_Vysotskiy"
+			"dynn_Slabunova"
+			"dynn_Titov"
+			"dynn_Kuchma"
+			"dynn_Yarosh"
+			"dynn_Tyahnybok"
+			"dynn_Boyko"
+			"dynn_Rybak"
+			"dynn_Yushchenko"
+			"dynn_Lyashko"
+			"dynn_Moskal"
+			"dynn_Moroz"
+			"dynn_Symonenko"
+			"dynn_Muzhenko"
+			"dynn_Popko"
+			"dynn_Shevchenko"
+			"dynn_Zabrodskyi"
+			"dynn_Lokota"
+			"dynn_Drozdov"
+			"dynn_Shaptala"
+			"dynn_Zubanich"
+			"dynn_Nikolyuk"
+			"dynn_Shvorak"
+			"dynn_Voronchenko"
+			"dynn_Hayduk"
+			"dynn_Poroshenko"
+			"dynn_Yanukovych"
+			"dynn_Lukashenko"
+			"dynn_Gaidukevich"
+			"dynn_Viacorka"
+			"dynn_Sieviaryniets"
+			"dynn_Kazulin"
+			"dynn_Novosiad"
+			"dynn_Alexandrovich"
+			"dynn_Karpenko"
+			"dynn_Ravkov"
+			"dynn_Belokonev"
+			"dynn_Potapenko"
+			"dynn_Lotenkov"
+			"dynn_Kireyev"
+			"dynn_Hrenin"
+			"dynn_Kosygin"
+			"dynn_Zhuk"
+			"dynn_Bulavko"
+			"dynn_Fedin"
+			"dynn_Vladimir"
+			"dynn_Volfovich"
+			"dynn_Gnilozub"
+			"dynn_Kulazhin"
+			"dynn_Kuzmuk"
+			"dynn_Denisenko"
+			"dynn_Danilchik"
+			"dynn_Starkov"
+			"dynn_Lukyanenko"
+			"dynn_Dvigalev"
+			"dynn_Trus"
+			"dynn_Golub"
+			"dynn_Karev"
+			"dynn_Shevchenko"
+			"dynn_Astrauh"
+			"dynn_Panfyorov"
+			"dynn_Stalin"
+			"dynn_Rodzaevsky"
+			"dynn_Kerensky"
+			"dynn_Baydalakov"
+			"dynn_Bronstein"
+			"dynn_Trotskiy"
+			"dynn_Ulianov"
+			"dynn_Lenin"
+			"dynn_Morozov"
+			"dynn_Ilyushin"
+			"dynn_Tupolev"
+			"dynn_Yakovlev"
+			"dynn_Korolev"
+			"dynn_Kurchatov"
+			"dynn_Zhukov"
+			"dynn_Rokossovsky"
+			"dynn_Vasilevsky"
+			"dynn_Shaposhnikov"
+			"dynn_Vatutin"
+			"dynn_Konev"
+			"dynn_Timoshenko"
+			"dynn_Voroshilov"
+			"dynn_Tukhachevsky"
+			"dynn_Blyukher"
+			"dynn_Budyonny"
+			"dynn_Chernyakhovsky"
+			"dynn_Pliyev"
+			"dynn_Govorov"
+			"dynn_Kulik"
+			"dynn_Meretskov"
+			"dynn_Golikov"
+			"dynn_Yeryomenko"
+			"dynn_Zakharov"
+			"dynn_Cherevichenko"
+			"dynn_Reyter"
+			"dynn_Chibisov"
+			"dynn_Kuznetsov"
+			"dynn_Vlasov"
+			"dynn_Fedyuninsky"
+			"dynn_Purkayev"
+			"dynn_Galitsky"
+			"dynn_Berzarin"
+			"dynn_Gorbatov"
+			"dynn_Moskalenko"
+			"dynn_Lelyushenko"
+			"dynn_Grechko"
+			"dynn_Malinovsky"
+			"dynn_Sokolovsky"
+			"dynn_Chuikov"
+			"dynn_Batov"
+			"dynn_Gordov"
+			"dynn_Shumilov"
+			"dynn_Maslennikov"
+			"dynn_Oktyabrskiy"
+			"dynn_Levchenko"
+			"dynn_Golovko"
+			"dynn_Kasatonov"
+			"dynn_Zakhaev"
+			"dynn_Voronin"
+			"dynn_Sokolov"
+			"dynn_Pevelovna"
+			"dynn_Badanov"
+			"dynn_Koslov"
+			"dynn_Petrenko"
+			"dynn_Reznov"
+			"dynn_Russkiy"
+			"dynn_Ukrainets"
+			"dynn_Belorusskiy"
+			"dynn_Malorossiya"
+			"dynn_Sibir"
+			"dynn_Yakovlev"
+		}
+
+		male_names = {
+			Aleksander Andrzej Bartosz Bezprym BoguchwaL_ BogumiL_ BolesL_aw BoN_cza BorzysL_aw BoZ_ydar Borzywoj Budziwuj CzcibO_r Czyrzniech
+			Dalimir Daniel DobiesL_aw Dobrogost Dobromir Doman Domawuj Dytryk Eustachy Gaudenty Gierolt Gniewomir Gniewosz GoS_ciwuj Goszczon Henryk Imran
+			Izbor JO_zef Jacek Jaksa Jakub Jakusz Jan JanisL_aw Janko Janusz JarosL_aw Jerzy Karol Kazimierz Konrad Krystyn KrzesL_aw Lambert Leszek
+			Maciej MaC_ko MaL_owuj Marcin MasL_aw Mateusz Mieszko MikoL_aj MiL_obrat MiL_osz MirosL_aw MS_ciwO_j Mszczuj Nadbor NiezamysL_ Odon PaweL_ PeL_ka
+			Piotr Piskla Prendota PrzemysL_aw PrzybO_r Sambor SE_dziej SE_dzimir Sieciech SiemomysL_ Siemowit Skarbimir Snowid Spytko StanisL_aw
+			Stefan Stoigniew Strasz SulisL_aw Sulistryj S_wiE_topeL_k S_wiE_tosL_aw SzczE_sny Tomasz Trojden Twardomir US_ciech WacL_aw WaN_ko Wawrzyniec
+			WielisL_aw WiesL_aw Wincenty Wit Witosz WL_adysL_aw Wojciech Wojuta WszebO_r Zbigniew Zbyszko Z_egota Z_elibrat
+			Zygmunt
+			Briachislav Demid Dobrynia Fedot Gleb Igor Iliya Iziaslav Lev Mitrofan Mstislav
+			Nikita Putiata Radoslav Rodislav Rogvolod Rostislav Ruslan Stanislav Sudislav Svetozar Sviatopolk Sviatoslav Terentiy Trifon Viacheslav Vladimir Vladislav Voislav Volodar Vseslav
+			Vsevolod Vyshata Vysheslav Yaropolk Yaroslav Yefimiy Yelisey Yeremey Yevstafiy
+		}
+		female_names = {
+			Adelajda Adleta Agnieszka Aldona Alicja Anastazja Anna Barbara Beata BoZZena Danuta Diana Dobrawa Dobroniega ElZ_bieta Eufemia Eufrozyna Eugenia Gabriela Gertruda GrzymisL_awa
+			Helena Jadwiga Jolanta Judyta Katarzyna Kazimiera Kenna Kinga Konstancja Krystyna Kunegunda L_ucja LudmiL_a Magdalena MaL_gorzata Maria
+			Matylda Milena Nadzieja Nawoja Pechna Rycheza Ryksa Salomea Samboja Scholastyka S_miechna StanisL_awa S_wiE_tosL_awa WisL_awa WojsL_awa
+			WolisL_awa Wszebora WszemiL_a Zofia ZwinisL_awa
+			Boleslava Darya Dobrava Dobronega Dobroslava Yefimia Yefrosinia Fevronia Gorislava Gradislava Gremislava
+			Liubava Liudmila Malfrida Malusha Maria Marina Olena Olga Pereyaslava Praskovya Praxida Prebrana Predslava
+			Premyslava Pribislava Rogneda Rostislava Sbyslava Sviatoslava Tatyana Ulita Ulyana Varvara Vasilisa Veleslava Verkhoslava
+			Vseslava Viacheslava Yaroslava Zabava Zvenislava
+		}
+		dynasty_of_location_prefix = "dynnp_z"
+		
+		patronym_suffix_male = "dynnpat_suf_ovich"
+		patronym_suffix_female = "dynnpat_suf_ovna"
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 50
+		father_name_chance = 50
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 50
+		mat_grm_name_chance = 50
+		mother_name_chance = 50
+
+		ethnicities = {
+			60 = slavic_northern_blond
+			5 = slavic_northern_ginger
+			25 = slavic_northern_brown_hair
+			10 = slavic_northern_dark_hair
+		}
+	}
+	
+	
+byelorussian = {
+		
+		color = { 100 140 110 }
+
+		cadet_dynasty_names = {
+			{ "dynnp_z" "dynn_Hrodna" }
+			{ "dynnp_z" "dynn_Vaukavysk" }
+			{ "dynnp_z" "dynn_Navahrudak" }
+			{ "dynnp_z" "dynn_Pinsk" }
+			{ "dynnp_z" "dynn_Sluck" }
+			{ "dynnp_z" "dynn_Klieck" }
+			{ "dynnp_z" "dynn_Babrujsk" }
+			{ "dynnp_z" "dynn_Miensk" }
+			{ "dynnp_z" "dynn_Orsa" }
+			{ "dynnp_z" "dynn_Polack" }
+			{ "dynnp_z" "dynn_Lukomi" }
+			{ "dynnp_z" "dynn_Viciebsk" }
+			{ "dynnp_z" "dynn_Smaliensk" }
+			{ "dynnp_z" "dynn_Hniezdavannie" }
+			{ "dynnp_z" "dynn_Roslau" }
+			{ "dynnp_z" "dynn_Mazajsk" }
+			{ "dynnp_z" "dynn_Bielarus" }
+			{ "dynnp_z" "dynn_Tarapiec" }
+			{ "dynnp_z" "dynn_Yaroslavl" }
+			{ "dynnp_z" "dynn_Vladimir" }
+			{ "dynnp_z" "dynn_Sozdannyy" }
+			{ "dynnp_z" "dynn_Tver" }
+			{ "dynnp_z" "dynn_Moskva" }
+			{ "dynnp_z" "dynn_Opolye" }
+			{ "dynnp_z" "dynn_Ryazan" }
+			{ "dynnp_z" "dynn_Tula" }
+			{ "dynnp_z" "dynn_Murom" }
+			{ "dynnp_z" "dynn_Nizhny" }
+			{ "dynnp_z" "dynn_Plos" }
+			{ "dynnp_z" "dynn_Manturovo" }
+			{ "dynnp_z" "dynn_Kyyiv" }
+			{ "dynnp_z" "dynn_Zhytomyr" }
+			{ "dynnp_z" "dynn_Zvyahel" }
+			{ "dynnp_z" "dynn_Chornobyl" }
+			{ "dynnp_z" "dynn_Ushytsya" }
+			{ "dynnp_z" "dynn_Korsun" }
+			{ "dynnp_z" "dynn_Ruteniya" }
+			{ "dynnp_z" "dynn_Turiv" }
+			{ "dynnp_z" "dynn_Korosten" }
+			{ "dynnp_z" "dynn_Dubrovytsya" }
+			{ "dynnp_z" "dynn_Pereyaslavl" }
+			{ "dynnp_z" "dynn_Hradyzk" }
+			{ "dynnp_z" "dynn_Chernihiv" }
+			{ "dynnp_z" "dynn_Starodub" }
+			{ "dynnp_z" "dynn_Siverskyy" }
+			{ "dynnp_z" "dynn_Putyvl" }
+			{ "dynnp_z" "dynn_Kursk" }
+			{ "dynnp_z" "dynn_Karachev" }
+			{ "dynnp_z" "dynn_Kozelsk" }
+			{ "dynnp_z" "dynn_Sevsk" }
+			{ "dynnp_z" "dynn_Novosyl" }
+			{ "dynnp_z" "dynn_Odoev" }
+			{ "dynnp_z" "dynn_Novgorod" }
+			{ "dynnp_z" "dynn_Russkiy" }
+			{ "dynnp_z" "dynn_Pskov" }
+			{ "dynnp_z" "dynn_Sebezh" }
+			{ "dynnp_z" "dynn_Vodi" }
+			{ "dynnp_z" "dynn_Vepsiya" }
+			{ "dynnp_z" "dynn_Beloozero" }
+			{ "dynnp_z" "dynn_Tikhvin" }
+			{ "dynnp_z" "dynn_Vyangi" }
+			{ "dynnp_z" "dynn_Luki" }
+			{ "dynnp_z" "dynn_Valday" }
+			{ "dynnp_z" "dynn_Bezichi" }
+			{ "dynnp_z" "dynn_Volyn" }
+			{ "dynnp_z" "dynn_Volodymyr" }
+			{ "dynnp_z" "dynn_Peresopnytsya" }
+			{ "dynnp_z" "dynn_Berestya" }
+			{ "dynnp_z" "dynn_Dorohychyn" }
+			{ "dynnp_z" "dynn_Halych" }
+			{ "dynnp_z" "dynn_Lviv" }
+			{ "dynnp_z" "dynn_Terebovl" }
+			{ "dynnp_z" "dynn_Zaslavl" }
+			{ "dynnp_z" "dynn_Chervonyy" }
+			{ "dynnp_z" "dynn_Belz" }
+			{ "dynnp_z" "dynn_Peremyshl" }
+			{ "dynnp_z" "dynn_Ukrayina" }
+			{ "dynnp_z" "dynn_Biarmiya" }
+			{ "dynnp_z" "dynn_Kareliya" }
+			{ "dynnp_z" "dynn_Kholmogory" }
+			{ "dynnp_z" "dynn_Onega" }
+			{ "dynnp_z" "dynn_Povenets" }
+			{ "dynnp_z" "dynn_Pudozh" }
+			{ "dynnp_z" "dynn_Kargopol" }
+			{ "dynnp_z" "dynn_Kirillov" }
+			{ "dynnp_z" "dynn_Totma" }
+			{ "dynnp_z" "dynn_Chudia" }
+			{ "dynnp_z" "dynn_Vologda" }
+			{ "dynnp_z" "dynn_Lyubim" }
+			{ "dynnp_z" "dynn_Onstia" }
+			{ "dynnp_z" "dynn_Choklema" }
+			{ "dynnp_z" "dynn_Ustyug" }
+			{ "dynnp_z" "dynn_Velsk" }
+			{ "dynnp_z" "dynn_Keurola" }	
+			{ "dynnp_z" "dynn_Zaporozhye" }
+			{ "dynnp_z" "dynn_Khazariya" }
+			{ "dynnp_z" "dynn_Odessa" }
+			{ "dynnp_z" "dynn_Ledizyn" }
+			{ "dynnp_z" "dynn_Chelovek" }
+			{ "dynnp_z" "dynn_Cherkassy" }
+			{ "dynnp_z" "dynn_Kherson" }
+			{ "dynnp_z" "dynn_Dnepr" }
+			{ "dynnp_z" "dynn_Yedisan" }
+			{ "dynnp_z" "dynn_Levediya" }
+			{ "dynnp_z" "dynn_Khortitsiya" }
+			{ "dynnp_z" "dynn_Oleshye" }
+			{ "dynnp_z" "dynn_Bakhmut" }
+			{ "dynnp_z" "dynn_Samar" }
+			{ "dynnp_z" "dynn_Kazanskaya" }
+			{ "dynnp_z" "dynn_Sarysyn" }
+			{ "dynnp_z" "dynn_Krym" }
+			{ "dynnp_z" "dynn_Kerch" }
+			{ "dynnp_z" "dynn_Perekop" }
+			{ "dynnp_z" "dynn_Sarkel" }
+			{ "dynnp_z" "dynn_Kavkaz" }
+			{ "dynnp_z" "dynn_Astrakhan" }
+			{ "dynnp_z" "dynn_Beksima" }
+			{ "dynnp_z" "dynn_Azov" }
+			{ "dynnp_z" "dynn_Tmutarakan" }
+			{ "dynnp_z" "dynn_Khumar" }
+			{ "dynnp_z" "dynn_Alaniya" }
+			{ "dynnp_z" "dynn_Maghas" }
+			{ "dynnp_z" "dynn_Cabardinia" }
+			{ "dynnp_z" "dynn_Zichia" }
+			{ "dynnp_z" "dynn_Ciscaucasia" }
+			{ "dynnp_z" "dynn_Derbent" }
+			{ "dynnp_z" "dynn_Samander" }
+			{ "dynnp_z" "dynn_Samiran" }
+			{ "dynnp_z" "dynn_Saqsin" }
+			{ "dynnp_z" "dynn_Uzen" }
+			{ "dynnp_z" "dynn_Pecheneg" }
+			{ "dynnp_z" "dynn_Jambalar" }
+			{ "dynnp_z" "dynn_Yaitsk" }
+			#############lithuanian
+			"dynn_Smetona"
+			"dynn_Snieckus"
+			"dynn_Voldemaras"
+			"dynn_Grinius"
+			"dynn_Rastikis"
+			"dynn_Skucas"
+			"dynn_Cernius"
+			"dynn_Vitkauskas"
+			"dynn_Gustaitis"
+			"dynn_Kaskelis"
+			"dynn_Paksas"
+			"dynn_Paulauskas"
+			"dynn_Brazauskas"
+			"dynn_Kubilius"
+			"dynn_Sakalnikas"
+			"dynn_Gervaldas"
+			"dynn_Ozolas"
+			"dynn_Puteikis"
+			"dynn_Karbauskis"
+			"dynn_Petruzis"
+			"dynn_Gediminaitis"
+			"dynn_Rimsa"
+			"dynn_Jagelavicius"
+			"dynn_Grauziniene"
+			"dynn_Zukas"
+			"dynn_Landsbergis"
+			"dynn_Pocius"
+			"dynn_Vaiksnoras"
+			"dynn_Snarskis"
+			"dynn_Rupsys"
+			"dynn_Polekauskas"
+			"dynn_Zurauskas"
+			"dynn_Tamosaitis"
+			"dynn_Steponavicius"
+			"dynn_Siuparis"
+			"dynn_Buikus"
+			"dynn_Masaitis"
+			"dynn_Jasinskas"
+			"dynn_Masiulis"
+			"dynn_Bagdonas"
+			"dynn_Baronas"
+			"dynn_Mockunas"
+			"dynn_Grachauskas"
+			"dynn_Kazokas"
+			"dynn_Martusevicius"
+			"dynn_Kackaukas"
+			"dynn_Navickas"
+			"dynn_Tamosiunas"
+			"dynn_Pilitauskas"
+			"dynn_Mockus"
+			"dynn_Bandzevicius"
+			"dynn_Samdinys"
+			"dynn_Adamkus"
+			"dynn_Almenas"
+			"dynn_Avizienis"
+			"dynn_Baltrusaitis"
+			"dynn_Basanavicius"
+			"dynn_Birutis"
+			"dynn_Bradziunas"
+			"dynn_Buga"
+			"dynn_Ciurlionis"
+			"dynn_Danauskas"
+			"dynn_Daukantas"
+			"dynn_Dobkevicius"
+			"dynn_Dubeneckis"
+			"dynn_Dvarionas"
+			"dynn_Galdikas"
+			"dynn_Griskevicius"
+			"dynn_Ivanauskas"
+			"dynn_Jablonskis"
+			"dynn_Jucys"
+			"dynn_Krupavicius"
+			"dynn_Lozoraitis"
+			"dynn_Merkys"
+			"dynn_Paleckis"
+			"dynn_Petrauskas"
+			"dynn_Piskarkas"
+			"dynn_Pozela"
+			"dynn_Radvila"
+			"dynn_Sabaniauskas"
+			"dynn_Schatz"
+			"dynn_Simonavicius"
+			"dynn_Sirvydas"
+			"dynn_Slezevicius"
+			"dynn_Semtona"
+			"dynn_Stauaitis"
+			"dynn_Straizys"
+			"dynn_Stulginkis"
+			"dynn_Svedas"
+			"dynn_Terleckas"
+			"dynn_Urbsys"
+			"dynn_Vagnorius"
+			"dynn_Valeska"
+			"dynn_Zemaitis"
+			"dynn_Zuokas"
+			"dynn_Ilgauskas"
+			"dynn_Lietuvis"
+			"dynn_Pabaltijo"
+			"dynn_Prusai"
+			
+		}
+
+		dynasty_names = {
+			"dynn_Mikhailovich"
+			"dynn_Fyodyorov"
+			"dynn_Lukinich"
+			"dynn_Andreievich"
+			"dynn_Dobrynich"
+			"dynn_Petrilov"
+			"dynn_Borisov"
+			"dynn_Kievskiy"
+			"dynn_Kholmsky"
+			"dynn_Izyaslavich"
+			"dynn_Ivannikov"
+			"dynn_Mikulinich"
+			"dynn_Miroslavich"
+			"dynn_Ivankovich"
+			"dynn_Tverdiatich"
+			"dynn_Zakharyinich"
+			"dynn_Nerevinich"
+			"dynn_Stepanovich"
+			"dynn_Nezdinich"
+			"dynn_Feofilaktovich"
+			"dynn_Klimovich"
+			"dynn_Konstantinov"
+			"dynn_Tolstoy"
+			"dynn_Oksakov"
+			"dynn_Ovinov"
+			"dynn_Romanov"
+			"dynn_Okolnichy"
+			"dynn_Yenikeyev"
+			"dynn_Bakunin"
+			"dynn_Balashov"
+			"dynn_Rumyanets"
+			"dynn_Matveev"
+			"dynn_Artamonovich"
+			"dynn_Osipovich"
+			"dynn_Ignatiev"
+			"dynn_Bestuzhev-Ryumin"
+			"dynn_Chernyshev"
+			"dynn_Galitsyn"
+			"dynn_Dashkov"
+			"dynn_Sobakin"
+			"dynn_Gurielov"
+			"dynn_Khitrov"
+			"dynn_Khovansky"
+			"dynn_Kobylin"
+			"dynn_Lopukhin"
+			"dynn_Rumyantsev"
+			"dynn_Matveyev"
+			"dynn_Menshikov"
+			"dynn_Morozov"
+			"dynn_Naryshkin"
+			"dynn_Poluektovich"
+			"dynn_Pankeyev"
+			"dynn_Pushkin"
+			"dynn_Rtishchev"
+			"dynn_Shein"
+			"dynn_Shemyaka"
+			"dynn_Sheremetev"
+			"dynn_Shuvalov"
+			"dynn_Stolnik"
+			"dynn_Trubetskoy"
+			"dynn_Uvarov"
+			"dynn_Turgenev"
+			"dynn_Valuyev"
+			"dynn_Vogak"
+			"dynn_Andreievich"
+			"dynn_Bryachislavich"
+			"dynn_Igorevich"
+			"dynn_Ivanovich"
+			"dynn_Iziaslavich"
+			"dynn_Mikhailovich"
+			"dynn_Mstislavich"
+			"dynn_Nikitich"
+			"dynn_Rostislavich"
+			"dynn_Sviatoslavich"
+			"dynn_Vasilievich"
+			"dynn_Viacheslavich"
+			"dynn_Vladimirovich"
+			"dynn_Vseslavich"
+			"dynn_Vsevolodovich"
+			"dynn_Vysheslavich"
+			"dynn_Yaroslavich"
+			"dynn_Yurievich"
+			"dynn_Dmitrievich"
+			"dynn_Fedorovich"
+			"dynn_Davidovich"
+			"dynn_Vsevolodich"
+			"dynn_Karpivin"
+			"dynn_Danilovich"
+			"dynn_Kromsky"
+			#############HOI4
+			"dynn_Alexseyev"
+			"dynn_Antonov"
+			"dynn_Azarov"
+			"dynn_Badanov"
+			"dynn_Chibisov"
+			"dynn_Dragomirov"
+			"dynn_Frolov"
+			"dynn_Golivin"
+			"dynn_Grishin"
+			"dynn_Gurko"
+			"dynn_Ivanov"
+			"dynn_Ivannikov"
+			"dynn_Kriuchenkin"
+			"dynn_Konstantinov"
+			"dynn_Biryukov"
+			"dynn_Lazarev"
+			"dynn_Makarov"
+			"dynn_Menshikov"
+			"dynn_Nakhimov"
+			"dynn_Nebogatov"
+			"dynn_Nikolaevich"
+			"dynn_Nikitin"
+			"dynn_Ostrovsky"
+			"dynn_Pavlov"
+			"dynn_Putyatin"
+			"dynn_Rozhestvensky"
+			"dynn_Skobelev"
+			"dynn_Shuvalov"
+			"dynn_Surkov"
+			"dynn_Nevzhinsky"
+			"dynn_Yegorov"
+			"dynn_Yudenich"
+			"dynn_Vorontsov"
+			"dynn_Zavoyko"
+			"dynn_Danilov"
+			"dynn_Moskalenko"
+			"dynn_Tanaschishin"
+			"dynn_Zakharchenko"
+			"dynn_Novikov"
+			"dynn_Volkhin"
+			"dynn_Udovichenko"
+			"dynn_Skornyakov"
+			"dynn_Shcheglov"
+			"dynn_Shabunin"
+			"dynn_Cherkasov"
+			"dynn_Chernykh"
+			"dynn_Filippov"
+			"dynn_Ukhov"
+			"dynn_Kapranov"
+			"dynn_Zhuravlev"
+			"dynn_Kostenitsyn"
+			"dynn_Savchuk"
+			"dynn_Glushchenko"
+			"dynn_Glebov"
+			"dynn_Kravchenko"
+			"dynn_Onufriev"
+			"dynn_Kniazev"
+			"dynn_Zubarev"
+			"dynn_Dodonov"
+			"dynn_Ignatov"
+			"dynn_Bubnov"
+			"dynn_Bystrik"
+			"dynn_Lebedenko"
+			"dynn_Denisenko"
+			"dynn_Safiulin"
+			"dynn_Kolorutin"
+			"dynn_Pesochin"
+			"dynn_Gurov"
+			"dynn_Isaev"
+			"dynn_Putin"
+			"dynn_Zyuganov"
+			"dynn_Kiriyenko"
+			"dynn_Yavlinski"
+			"dynn_Navalny"
+			"dynn_Kasyanov"
+			"dynn_Semigin"
+			"dynn_Mironov"
+			"dynn_Zhirinovsky"
+			"dynn_Savelyev"
+			"dynn_Sergeyev"
+			"dynn_Gerasimov"
+			"dynn_Salyukov"
+			"dynn_Dvornikov"
+			"dynn_Chayko"
+			"dynn_Serdyukov"
+			"dynn_Pankov"
+			"dynn_Shamanov"
+			"dynn_Bondarev"
+			"dynn_Golovko"
+			"dynn_Karakaev"
+			"dynn_Kolpachenko"
+			"dynn_Fomin"
+			"dynn_Popov"
+			"dynn_Bulgakov"
+			"dynn_Konaschenkow"
+			"dynn_Sadovenko"
+			"dynn_Shoygu"
+			"dynn_Sergun"
+			"dynn_Grachev"
+			"dynn_Kartapolov"
+			"dynn_Zarudnitsky"
+			"dynn_Surovikin"
+			"dynn_Bakin"
+			"dynn_Korolev"
+			"dynn_Nosatov"
+			"dynn_Evmenov"
+			"dynn_Vitko"
+			"dynn_Pinchuk"
+			"dynn_Chirkov"
+			"dynn_Vysotskiy"
+			"dynn_Slabunova"
+			"dynn_Titov"
+			"dynn_Kuchma"
+			"dynn_Yarosh"
+			"dynn_Tyahnybok"
+			"dynn_Boyko"
+			"dynn_Rybak"
+			"dynn_Yushchenko"
+			"dynn_Lyashko"
+			"dynn_Moskal"
+			"dynn_Moroz"
+			"dynn_Symonenko"
+			"dynn_Muzhenko"
+			"dynn_Popko"
+			"dynn_Shevchenko"
+			"dynn_Zabrodskyi"
+			"dynn_Lokota"
+			"dynn_Drozdov"
+			"dynn_Shaptala"
+			"dynn_Zubanich"
+			"dynn_Nikolyuk"
+			"dynn_Shvorak"
+			"dynn_Voronchenko"
+			"dynn_Hayduk"
+			"dynn_Poroshenko"
+			"dynn_Yanukovych"
+			"dynn_Lukashenko"
+			"dynn_Gaidukevich"
+			"dynn_Viacorka"
+			"dynn_Sieviaryniets"
+			"dynn_Kazulin"
+			"dynn_Novosiad"
+			"dynn_Alexandrovich"
+			"dynn_Karpenko"
+			"dynn_Ravkov"
+			"dynn_Belokonev"
+			"dynn_Potapenko"
+			"dynn_Lotenkov"
+			"dynn_Kireyev"
+			"dynn_Hrenin"
+			"dynn_Kosygin"
+			"dynn_Zhuk"
+			"dynn_Bulavko"
+			"dynn_Fedin"
+			"dynn_Vladimir"
+			"dynn_Volfovich"
+			"dynn_Gnilozub"
+			"dynn_Kulazhin"
+			"dynn_Kuzmuk"
+			"dynn_Denisenko"
+			"dynn_Danilchik"
+			"dynn_Starkov"
+			"dynn_Lukyanenko"
+			"dynn_Dvigalev"
+			"dynn_Trus"
+			"dynn_Golub"
+			"dynn_Karev"
+			"dynn_Shevchenko"
+			"dynn_Astrauh"
+			"dynn_Panfyorov"
+			"dynn_Stalin"
+			"dynn_Rodzaevsky"
+			"dynn_Kerensky"
+			"dynn_Baydalakov"
+			"dynn_Bronstein"
+			"dynn_Trotskiy"
+			"dynn_Ulianov"
+			"dynn_Lenin"
+			"dynn_Morozov"
+			"dynn_Ilyushin"
+			"dynn_Tupolev"
+			"dynn_Yakovlev"
+			"dynn_Korolev"
+			"dynn_Kurchatov"
+			"dynn_Zhukov"
+			"dynn_Rokossovsky"
+			"dynn_Vasilevsky"
+			"dynn_Shaposhnikov"
+			"dynn_Vatutin"
+			"dynn_Konev"
+			"dynn_Timoshenko"
+			"dynn_Voroshilov"
+			"dynn_Tukhachevsky"
+			"dynn_Blyukher"
+			"dynn_Budyonny"
+			"dynn_Chernyakhovsky"
+			"dynn_Pliyev"
+			"dynn_Govorov"
+			"dynn_Kulik"
+			"dynn_Meretskov"
+			"dynn_Golikov"
+			"dynn_Yeryomenko"
+			"dynn_Zakharov"
+			"dynn_Cherevichenko"
+			"dynn_Reyter"
+			"dynn_Chibisov"
+			"dynn_Kuznetsov"
+			"dynn_Vlasov"
+			"dynn_Fedyuninsky"
+			"dynn_Purkayev"
+			"dynn_Galitsky"
+			"dynn_Berzarin"
+			"dynn_Gorbatov"
+			"dynn_Moskalenko"
+			"dynn_Lelyushenko"
+			"dynn_Grechko"
+			"dynn_Malinovsky"
+			"dynn_Sokolovsky"
+			"dynn_Chuikov"
+			"dynn_Batov"
+			"dynn_Gordov"
+			"dynn_Shumilov"
+			"dynn_Maslennikov"
+			"dynn_Oktyabrskiy"
+			"dynn_Levchenko"
+			"dynn_Golovko"
+			"dynn_Kasatonov"
+			"dynn_Zakhaev"
+			"dynn_Voronin"
+			"dynn_Sokolov"
+			"dynn_Pevelovna"
+			"dynn_Badanov"
+			"dynn_Koslov"
+			"dynn_Petrenko"
+			"dynn_Reznov"
+			"dynn_Russkiy"
+			"dynn_Ukrainets"
+			"dynn_Belorusskiy"
+			"dynn_Malorossiya"
+			"dynn_Sibir"
+			"dynn_Yakovlev"
+		}
+
+		male_names = {
+			Afanasiy Alexandr Alexei Andrei Boris Briachislav Daniil Davyd Demid Dmitriy Dobrynia Fedot Feodor Gavriil Gleb
+			Grigoriy Iakov Igor Iliya Ingvar Ivan Iziaslav Kirill Konstantin Koz_ma Lev Matfei Mikhail Mitrofan Mstislav
+			Nikita Oleg Pavel Putiata Radoslav Rodislav Rogvolod Roman Rostislav Rurik Ruslan Simeon Stanislav Stepan Sudislav
+			Svetozar Sviatopolk Sviatoslav Terentiy Trifon Vasiliy Vasilko Viacheslav Vladimir Vladislav Voislav Volodar Vseslav
+			Vsevolod Vyshata Vysheslav Yaropolk Yaroslav Yefimiy Yelisey Yemelyan Yeremey Yevstafiy Yuriy
+			Aristarkh
+			Algirdas Antanas Antavas Aras Arunas Azuolas Budrys Bukantas Butavas Butigeidis Butvydas Daugvilas Daumantas Dausprungas Dravenis Erdenis Erdvilas Gedigaudas
+			Gediminas Gedivilas Gintaras Gintautas Girdenis Irmantas Jaunutis Jogaila Jovirdas Kantibutas Karijotas Kesgaila Kestutis Korigaila Korybutas
+			Lasukas Lingvenis Liudas Lubartas Lutuveras Merkelis Mindaugas Minigaila Mantvydas Movkoldas Narimantas Povilas Pukuveras Rimantas
+			Rimgaila Rimvydas Ringaudas Sarunas Skirgaila Songaila Svarnas Svitrigaila Tarvydas Tovtivilas Traidenis Treniotas Vainius Vaisvilkas Valimantas
+			Vidmantas Vingoldas Virmantas Visvaldis Vizgirdas Vykintas Vytautas Vytenis Zivinbudas Zygimantas
+		}
+		female_names = {
+			Agafya Agrafena Alexandra Anastasia Anna Boleslava Darya Dobrava Dobronega Dobroslava Yefimia Yefrosinia Yekaterina
+			Yelizaveta Yevdokia Yevpraxia Feodora Feodosia Fevronia Gorislava Gradislava Gremislava Irina Xenia Liubava
+			Liudmila Malfrida Malusha Maria Marina Olena Olga Pereyaslava Praskovya Praxida Prebrana Predslava Premyslava
+			Pribislava Rogneda Rostislava Sbyslava Sofia Sviatoslava Tatyana Ulita Ulyana Varvara Vasilisa Veleslava Verkhoslava
+			Vseslava Viacheslava Yaroslava Zabava Zvenislava
+			Aldona Anele Audra Ausra Birute Dannila Danute Evalda Gaudimante Giedre Gintare Jevna Kenna Laima Mikova Roze Saule Svajone Vida
+		}
+		dynasty_of_location_prefix = "dynnp_z"
+		
+		patronym_suffix_male = "dynnpat_suf_ovich"
+		patronym_suffix_female = "dynnpat_suf_ovna"
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 50
+		father_name_chance = 50
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 50
+		mat_grm_name_chance = 50
+		mother_name_chance = 50
+
+		ethnicities = {
+			60 = slavic_northern_blond
+			5 = slavic_northern_ginger
+			25 = slavic_northern_brown_hair
+			10 = slavic_northern_dark_hair
+		}
+	}
+	
+	
+	ilmenian = {
+		
+		color = { 0.45 0.6 0.2 }
+
+		cadet_dynasty_names = {
+			"dynn_Poloch"
+			"dynn_Izbor"
+			"dynn_Tversky"
+			"dynn_Lukisky"
+			"dynn_Pleskov"
+			"dynn_Toropetsky"
+			"dynn_Dukhovsky"
+		}
+
+		dynasty_names = {
+			"dynn_Poloch"
+			"dynn_Izbor"
+			"dynn_Tversky"
+			"dynn_Lukisky"
+			"dynn_Pleskov"
+			"dynn_Toropetsky"
+			"dynn_Dukhovsky"
+		}
+
+		male_names = {
+			Briachislav Demid Dobrynia Fedot Gleb Igor Iliya Iziaslav Lev Mitrofan Mstislav
+			Nikita Putiata Radoslav Rodislav Rogvolod Rostislav Ruslan Stanislav Sudislav Svetozar Sviatopolk Sviatoslav Terentiy Trifon Viacheslav Vladimir Vladislav Voislav Volodar Vseslav
+			Vsevolod Vyshata Vysheslav Yaropolk Yaroslav Yefimiy Yelisey Yeremey Yevstafiy
+		}
+		female_names = {
+			Boleslava Darya Dobrava Dobronega Dobroslava Yefimia Yefrosinia Fevronia Gorislava Gradislava Gremislava
+			Liubava Liudmila Malfrida Malusha Maria Marina Olena Olga Pereyaslava Praskovya Praxida Prebrana Predslava
+			Premyslava Pribislava Rogneda Rostislava Sbyslava Sviatoslava Tatyana Ulita Ulyana Varvara Vasilisa Veleslava Verkhoslava
+			Vseslava Viacheslava Yaroslava Zabava Zvenislava
+		}
+		dynasty_of_location_prefix = "dynnp_of"
+		
+		patronym_suffix_male = "dynnpat_suf_ovich"
+		patronym_suffix_female = "dynnpat_suf_ovna"
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 40
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		ethnicities = {
+			60 = slavic_northern_blond
+			5 = slavic_northern_ginger
+			25 = slavic_northern_brown_hair
+			10 = slavic_northern_dark_hair
+		}
+	}
+	severian = {
+		
+		color = { 0.5 0.8 0.3 }
+
+		cadet_dynasty_names = {
+			"dynn_Polan"
+			"dynn_Drevl"
+			"dynn_Lyubech"
+			"dynn_Roslavsky"
+			"dynn_Koroviev"
+			"dynn_Woland"
+		}
+
+		dynasty_names = {
+			"dynn_Polan"
+			"dynn_Drevl"
+			"dynn_Lyubech"
+			"dynn_Roslavsky"
+			"dynn_Koroviev"
+			"dynn_Woland"
+		}
+
+		male_names = {
+			Briachislav Demid Dobrynia Fedot Gleb Igor Iliya Iziaslav Lev Mitrofan Mstislav
+			Nikita Putiata Radoslav Rodislav Rogvolod Rostislav Ruslan Stanislav Sudislav Svetozar Sviatopolk Sviatoslav Terentiy Trifon Viacheslav Vladimir Vladislav Voislav Volodar Vseslav
+			Vsevolod Vyshata Vysheslav Yaropolk Yaroslav Yefimiy Yelisey Yeremey Yevstafiy
+		}
+		female_names = {
+			Boleslava Darya Dobrava Dobronega Dobroslava Yefimia Yefrosinia Fevronia Gorislava Gradislava Gremislava
+			Liubava Liudmila Malfrida Malusha Maria Marina Olena Olga Pereyaslava Praskovya Praxida Prebrana Predslava
+			Premyslava Pribislava Rogneda Rostislava Sbyslava Sviatoslava Tatyana Ulita Ulyana Varvara Vasilisa Veleslava Verkhoslava
+			Vseslava Viacheslava Yaroslava Zabava Zvenislava
+		}
+		dynasty_of_location_prefix = "dynnp_of"
+		
+		patronym_suffix_male = "dynnpat_suf_ovich"
+		patronym_suffix_female = "dynnpat_suf_ovna"
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 40
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		ethnicities = {
+			60 = slavic_northern_blond
+			5 = slavic_northern_ginger
+			25 = slavic_northern_brown_hair
+			10 = slavic_northern_dark_hair
+		}
+	}
+	volhynian = {
+		
+		color = { 0.65 0.8 0.3 }
+
+		cadet_dynasty_names = {
+			"dynn_Tyvertsky"
+			"dynn_Buzhansky"
+			"dynn_Slutsky"
+			"dynn_Pinesky"
+			"dynn_Zhytomyrsky"
+			"dynn_Vynnytsky"
+		}
+
+		dynasty_names = {
+			"dynn_Tyvertsky"
+			"dynn_Buzhansky"
+			"dynn_Slutsky"
+			"dynn_Pinesky"
+			"dynn_Zhytomyrsky"
+			"dynn_Vynnytsky"
+		}
+
+		male_names = {
+			Briachislav Demid Dobrynia Fedot Gleb Igor Iliya Iziaslav Lev Mitrofan Mstislav
+			Nikita Putiata Radoslav Rodislav Rogvolod Rostislav Ruslan Stanislav Sudislav Svetozar Sviatopolk Sviatoslav Terentiy Trifon Viacheslav Vladimir Vladislav Voislav Volodar Vseslav
+			Vsevolod Vyshata Vysheslav Yaropolk Yaroslav Yefimiy Yelisey Yeremey Yevstafiy
+		}
+		female_names = {
+			Boleslava Darya Dobrava Dobronega Dobroslava Yefimia Yefrosinia Fevronia Gorislava Gradislava Gremislava
+			Liubava Liudmila Malfrida Malusha Maria Marina Olena Olga Pereyaslava Praskovya Praxida Prebrana Predslava
+			Premyslava Pribislava Rogneda Rostislava Sbyslava Sviatoslava Tatyana Ulita Ulyana Varvara Vasilisa Veleslava Verkhoslava
+			Vseslava Viacheslava Yaroslava Zabava Zvenislava
+		}
+		dynasty_of_location_prefix = "dynnp_of"
+		
+		patronym_suffix_male = "dynnpat_suf_ovich"
+		patronym_suffix_female = "dynnpat_suf_ovna"
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 40
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		ethnicities = {
+			60 = slavic_northern_blond
+			5 = slavic_northern_ginger
+			25 = slavic_northern_brown_hair
+			10 = slavic_northern_dark_hair
+		}
+	}
+}
