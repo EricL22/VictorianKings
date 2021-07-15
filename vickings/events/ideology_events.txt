@@ -1,0 +1,170 @@
+﻿namespace = ideology
+
+# Playable characters choose an ideology
+ideology.1 = {
+	type = character_event
+	title = ideology.1.name
+	desc = ideology.1.desc
+	theme = realm
+	left_portrait = {
+		character = root
+		animation = idle
+	}
+
+	immediate = {
+		hidden_effect = {
+			remove_character_flag = liberal_party
+			remove_character_flag = socialist_party
+			remove_character_flag = reactionary_party
+			remove_character_flag = fascist_party
+			remove_character_flag = conservative_party
+			remove_character_flag = communist_party
+			remove_character_flag = anarchist_party
+			remove_character_modifier = liberal_party_modifier
+			remove_character_modifier = socialist_party_modifier
+			remove_character_modifier = reactionary_party_modifier
+			remove_character_modifier = fascist_party_modifier
+			remove_character_modifier = conservative_party_modifier
+			remove_character_modifier = communist_party_modifier
+			remove_character_modifier = anarchist_party_modifier
+		}
+	}
+	
+	option = {
+		name = ideology.1.a
+		add_character_flag = liberal_party
+		add_character_modifier = liberal_party_modifier
+		ai_chance = {
+			base = 1
+			modifier = {
+				factor = 2
+				has_trait = just
+			}
+			modifier = {
+				add = 1
+				current_date > 1960.1.1
+			}
+		}
+	}
+	option = {
+		name = ideology.1.b
+		add_character_flag = socialist_party
+		add_character_modifier = socialist_party_modifier
+		ai_chance = {
+			base = 1
+			modifier = {
+				factor = 2
+				has_trait = impatient
+				has_trait = cynical
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					has_trait = zealous
+					has_trait = arrogant
+				}
+			}
+		}
+	}
+	option = {
+		name = ideology.1.c
+		add_character_flag = reactionary_party
+		add_character_modifier = reactionary_party_modifier
+		ai_chance = {
+			base = 1
+			modifier = {
+				factor = 2
+				OR = {
+					has_trait = ambitious
+					has_trait = zealous
+				}
+			}
+			modifier = {
+				factor = 0
+				has_trait = cynical
+			}
+			modifier = {
+				factor = 2
+				NOT = { has_realm_law = city_succession_law }
+				ai_boldness > 60
+				ai_energy > 0
+			}
+		}
+	}
+	option = {
+		name = ideology.1.d
+		add_character_flag = fascist_party
+		add_character_modifier = fascist_party_modifier
+		ai_chance = {
+			base = 1
+			modifier = {
+				factor = 2
+				has_trait = arbitrary
+				OR = {
+					has_trait = callous
+					has_trait = sadistic
+				}
+			}
+			modifier = {
+				factor = 0
+				has_trait = compassionate
+			}
+		}
+	}
+	option = {
+		name = ideology.1.e
+		add_character_flag = conservative_party
+		add_character_modifier = conservative_party_modifier
+		ai_chance = {
+			base = 1
+			modifier = {
+				factor = 3
+				has_trait = content
+			}
+			modifier = {
+				add = 1
+				current_date < 1960.1.1
+			}
+			modifier = {
+				add = 2
+				NOT = { has_realm_law = city_succession_law }
+			}
+		}
+	}
+	option = {
+		name = ideology.1.f
+		add_character_flag = communist_party
+		add_character_modifier = communist_party_modifier
+		ai_chance = {
+			base = 1
+			modifier = {
+				factor = 2
+				has_trait = arbitrary
+				has_trait = cynical
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					has_trait = zealous
+					has_trait = arrogant
+				}
+			}
+		}
+	}
+	option = {
+		name = ideology.1.g
+		add_character_flag = anarchist_party
+		add_character_modifier = anarchist_party_modifier
+		ai_chance = {
+			base = 0
+			modifier = {
+				add = 2
+				has_trait = lazy
+			}
+			modifier = {
+				factor = 0
+				has_trait = ambitious
+			}
+		}
+	}
+}

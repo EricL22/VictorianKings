@@ -1,0 +1,1082 @@
+﻿namespace = congress_of_vienna
+
+# Defender win the War of the Sixth Coalition
+congress_of_vienna.1 = {
+	type = character_event
+	title = congress_of_vienna.1.name
+	desc = congress_of_vienna.1.desc
+	theme = realm
+
+#	trigger = {
+#	}
+
+	immediate = {
+		trigger_event = congress_of_vienna.2	# bavaria
+		trigger_event = congress_of_vienna.3	# saxony
+		trigger_event = congress_of_vienna.4	# italy
+
+		if = {
+			limit = {
+				character:8000001 = { is_alive = yes }
+			}
+			character:8000001 = {
+				save_scope_as = attacker
+			}
+		}
+		else = {
+			random_ruler = {
+				limit = {
+					primary_title = {
+						OR = {
+							target_is_de_jure_liege_or_above = title:d_holland
+							target_is_de_jure_liege_or_above = title:d_utrecht
+							target_is_de_jure_liege_or_above = title:d_gelre
+							target_is_de_jure_liege_or_above = title:d_frisia
+						}
+					}
+				}
+				save_scope_as = attacker
+			}
+		}
+
+		if = {
+			limit = {
+				character:8000004 = { is_alive = yes }
+			}
+			character:8000004 = { save_scope_as = hessian }
+		}
+		else = {
+			random_ruler = {
+				limit = {
+					primary_title = {
+						target_is_de_jure_liege_or_above = title:d_hesse
+					}
+				}
+				save_scope_as = hessian
+			}
+		}
+
+		if = {
+			limit = {
+				character:8000005 = { is_alive = yes }
+			}
+			character:8000005 = { save_scope_as = franconian }
+		}
+		else = {
+			random_ruler = {
+				limit = {
+					primary_title = {
+						target_is_de_jure_liege_or_above = title:d_west_franconia
+					}
+				}
+				save_scope_as = franconian
+			}
+		}
+
+		if = {
+			limit = {
+				character:8000008 = { is_alive = yes }
+			}
+			character:8000008 = { save_scope_as = brunswickian }
+		}
+		else = {
+			random_ruler = {
+				limit = {
+					has_title = title:c_brunswick
+					NOT = { has_title = title:e_france }
+				}
+				save_scope_as = brunswickian
+			}
+		}
+
+		if = {
+			limit = {
+				character:9177214 = { is_alive = yes }
+			}
+			character:9177214 = {
+				save_scope_as = modenan
+				if = {
+					limit = { is_landed = yes }
+					create_title_and_vassal_change = {
+						type = conquest
+						save_scope_as = change
+						add_claim_on_loss = no
+					}
+					every_held_title = {
+						change_title_holder = {
+							holder = title:e_austria.holder
+							change = scope:change
+						}
+					}
+					resolve_title_and_vassal_change = scope:change
+				}
+			}
+		}
+		else = {
+			random_ruler = {
+				limit = {
+					has_title = title:c_modena
+					NOT = { has_title = title:k_italy }
+				}
+				save_scope_as = modenan
+			}
+		}
+
+		if = {
+			limit = {
+				character:9200001 = { is_alive = yes }
+			}
+			character:9200001 = { save_scope_as = parman }
+		}
+		else = {
+			random_ruler = {
+				limit = {
+					has_title = title:c_parma
+					NOT = { has_title = title:k_italy }
+				}
+				save_scope_as = parman
+			}
+		}
+	}
+	left_portrait = {
+		character = scope:defender
+		animation = idle
+	}
+	right_portrait = {
+		character = root
+		animation = war_over_win
+	}
+	
+	option = {
+		name = congress_of_vienna.1.a
+	}
+	option = {
+		name = congress_of_vienna.1.b
+
+		random_ruler = {
+			limit = {
+				any_held_title = { this = title:e_france }
+			}
+			depose = yes
+		}
+
+		ai_chance = {
+			base = 1
+			modifier = {
+				factor = 2
+				current_date > 1815.1.1
+			}
+			modifier = {
+				factor = 4
+				current_date > 1816.1.1
+			}
+			modifier = {
+				factor = 5
+				current_date > 1817.1.1
+			}
+		}
+	}
+
+	after = {
+		random_ruler = {
+			limit = {
+				any_held_title = { this = title:e_france }
+			}
+			save_scope_as = defender
+		}
+		custom_tooltip = frankfurt_treaty_desc
+		hidden_effect = {
+		create_title_and_vassal_change = {
+			type = conquest
+			save_scope_as = title_change
+			add_claim_on_loss = no
+		}
+		scope:defender = {
+			every_vassal = {
+				limit = {
+					primary_title = { target_is_de_jure_liege_or_above = title:k_epirus }
+				}
+			}
+			change_liege = {
+				liege = title:e_britannia.holder
+				change = scope:title_change
+			}
+		}
+		title:c_ostfriesland = {
+			set_de_jure_liege_title = title:d_angria
+			change_title_holder = {
+				holder = title:e_britannia.holder
+				change = scope:title_change
+			}
+		}
+		title:d_holland = {
+			conquest_cb_title_transfer = {
+				RELIGIOUS_WAR = no
+			}
+		}
+		title:d_utrecht = {
+			conquest_cb_title_transfer = {
+				RELIGIOUS_WAR = no
+			}
+		}
+		title:d_gelre = {
+			conquest_cb_title_transfer = {
+				RELIGIOUS_WAR = no
+			}
+		}
+		title:d_frisia = {
+			conquest_cb_title_transfer = {
+				RELIGIOUS_WAR = no
+			}
+		}
+		title:k_frisia = {
+			change_title_holder = {
+				holder = scope:attacker
+				change = scope:title_change
+			}
+		}
+		every_in_list = {
+			list = vassals_taken
+			change_liege = {
+				liege = scope:attacker
+				change = scope:title_change
+			}
+		}
+		every_in_list = {
+			list = titles_taken
+			change_title_holder = {
+				holder = scope:attacker
+				change = scope:title_change
+				take_baronies = yes
+			}
+		}
+
+	#	title:e_austria.holder = {
+	#		save_scope_as = title:e_austria.holder
+	#	}
+		clear_local_variable_list = vassals_taken
+		clear_local_variable_list = titles_taken
+		clear_variable_list = potential_vassals
+		title:e_byzantium = {
+			every_in_de_jure_hierarchy = {
+				limit = { tier = tier_duchy }
+				add_to_temporary_list = target_titles
+			}
+		}
+		title:e_austria = {
+			every_in_de_jure_hierarchy = {
+				limit = { tier = tier_duchy }
+				add_to_temporary_list = target_titles
+			}
+		}
+		# go through the dejure hierarchy under target titles, transfer eligible vassals and sieze counties from ineligible ones
+		every_in_list = {
+			list = target_titles
+			custom_tooltip = CONQUEST_CB_TITLE
+
+			conquest_cb_title_transfer = {
+				RELIGIOUS_WAR = no
+			}
+		}
+		every_in_list = {
+			list = vassals_taken
+			change_liege = {
+				liege = title:e_austria.holder
+				change = scope:title_change
+			}
+		}
+		every_in_list = {
+			list = titles_taken
+			change_title_holder = {
+				holder = title:e_austria.holder
+				change = scope:title_change
+				take_baronies = yes
+			}
+		}
+		title:c_terebovl = {
+			change_title_holder = {
+				holder = title:e_austria.holder
+				change = scope:title_change
+			}
+		}
+		title:c_tetina = {
+			change_title_holder = {
+				holder = title:e_austria.holder
+				change = scope:title_change
+			}
+		}
+		title:k_venice = {
+			change_title_holder = {
+				holder = title:e_austria.holder
+				change = scope:title_change
+			}
+		}
+		title:c_stendal = {
+			change_title_holder = {
+				holder = title:k_prussia.holder
+				change = scope:title_change
+			}
+		}
+
+	#	title:k_denmark.holder = {
+	#		save_scope_as = title:k_denmark.holder
+	#	}
+		title:c_ditmarschen = {
+			change_title_holder = {
+				holder = title:k_denmark.holder
+				change = scope:title_change
+			}
+		}
+
+		if = {
+			limit = {
+				title:c_lubeck.holder = { is_vassal_or_below_of = scope:defender }
+			}
+			title:c_lubeck.holder = {
+				becomes_independent = { change = scope:title_change }
+			}
+		}
+		if = {
+			limit = {
+				title:c_hamburg.holder = { is_vassal_or_below_of = scope:defender }
+			}
+			title:c_hamburg.holder = {
+				becomes_independent = { change = scope:title_change }
+			}
+		}
+
+	#	title:e_britannia.holder = {
+	#		save_scope_as = title:e_britannia.holder
+	#	}
+		clear_local_variable_list = target_titles
+		clear_local_variable_list = vassals_taken
+		clear_local_variable_list = titles_taken
+		clear_variable_list = potential_vassals
+		title:d_angria = {
+			add_to_temporary_list = target_titles
+			set_de_jure_liege_title = title:k_hanover
+		}
+		title:d_ostfalen = {
+			set_de_jure_liege_title = title:k_hanover
+		}
+		title:d_westfalen = {
+			set_de_jure_liege_title = title:k_hanover
+		}
+		title:k_hanover = {
+			set_de_jure_liege_title = title:e_germany
+			change_title_holder = {
+				holder = title:e_britannia.holder
+				change = scope:title_change
+			}
+		}
+		# go through the dejure hierarchy under target titles, transfer eligible vassals and sieze counties from ineligible ones
+		every_in_list = {
+			list = target_titles
+			custom_tooltip = CONQUEST_CB_TITLE
+
+			conquest_cb_title_transfer = {
+				RELIGIOUS_WAR = no
+			}
+		}
+		every_in_list = {
+			list = vassals_taken
+			change_liege = {
+				liege = title:e_britannia.holder
+				change = scope:title_change
+			}
+		}
+		every_in_list = {
+			list = titles_taken
+			change_title_holder = {
+				holder = title:e_britannia.holder
+				change = scope:title_change
+				take_baronies = yes
+			}
+		}
+		title:c_osnabruck = {
+			change_title_holder = {
+				holder = title:e_britannia.holder
+				change = scope:title_change
+			}
+		}
+		title:c_tecklenburg = {
+			change_title_holder = {
+				holder = title:e_britannia.holder
+				change = scope:title_change
+			}
+		}
+		title:c_stade = {
+			set_de_jure_liege_title = title:d_angria
+			change_title_holder = {
+				holder = title:e_britannia.holder
+				change = scope:title_change
+			}
+		}
+		title:c_gottingen = {
+			change_title_holder = {
+				holder = title:e_britannia.holder
+				change = scope:title_change
+			}
+		}
+
+	#	title:k_prussia.holder = {
+	#		save_scope_as = title:k_prussia.holder
+	#	}
+		clear_local_variable_list = target_titles
+		clear_local_variable_list = vassals_taken
+		clear_local_variable_list = titles_taken
+		clear_variable_list = potential_vassals
+		title:d_westfalen = {
+			add_to_temporary_list = target_titles
+		}
+		# go through the dejure hierarchy under target titles, transfer eligible vassals and sieze counties from ineligible ones
+		every_in_list = {
+			list = target_titles
+			custom_tooltip = CONQUEST_CB_TITLE
+
+			conquest_cb_title_transfer = {
+				RELIGIOUS_WAR = no
+			}
+		}
+		every_in_list = {
+			list = vassals_taken
+			change_liege = {
+				liege = title:k_prussia.holder
+				change = scope:title_change
+			}
+		}
+		every_in_list = {
+			list = titles_taken
+			change_title_holder = {
+				holder = title:k_prussia.holder
+				change = scope:title_change
+				take_baronies = yes
+			}
+		}
+		title:c_waldeck = {
+			change_title_holder = {
+				holder = title:k_prussia.holder
+				change = scope:title_change
+			}
+		}
+		title:c_paderborn = {
+			change_title_holder = {
+				holder = title:k_prussia.holder
+				change = scope:title_change
+			}
+		}
+#		title:c_sayn = {
+#			change_title_holder = {
+#				holder = title:k_prussia.holder
+#				change = scope:title_change
+#			}
+#		}
+#		title:c_berg = {
+#			change_title_holder = {
+#				holder = title:k_prussia.holder
+#				change = scope:title_change
+#			}
+#		}
+		title:c_dortmund = {
+			change_title_holder = {
+				holder = title:k_prussia.holder
+				change = scope:title_change
+			}
+		}
+
+		title:d_wielkopolska = {
+			set_de_jure_liege_title = title:k_prussia
+			change_title_holder = {
+				holder = title:k_prussia.holder
+				change = scope:title_change
+			}
+		}
+		title:c_poznanska = {
+			change_title_holder = {
+				holder = title:k_prussia.holder
+				change = scope:title_change
+			}
+		}
+		title:c_gnieznienska = {
+			change_title_holder = {
+				holder = title:k_prussia.holder
+				change = scope:title_change
+			}
+		}
+		title:c_kaliska = {
+			change_title_holder = {
+				holder = title:k_prussia.holder
+				change = scope:title_change
+			}
+		}
+		title:c_wschowska = {
+			change_title_holder = {
+				holder = title:k_prussia.holder
+				change = scope:title_change
+			}
+		}
+		title:c_krajna = {
+			change_title_holder = {
+				holder = title:k_prussia.holder
+				change = scope:title_change
+			}
+		}
+		title:d_wielkopolska = { set_capital_county = title:c_leczycka }
+		title:c_kujawy = {
+			set_de_jure_liege_title = title:d_wielkopolska
+			change_title_holder = {
+				holder = title:k_prussia.holder
+				change = scope:title_change
+			}
+		}
+		title:c_dobrzynska = {
+			set_de_jure_liege_title = title:d_wielkopolska
+			change_title_holder = {
+				holder = title:k_prussia.holder
+				change = scope:title_change
+			}
+		}
+		title:c_wielunska = {
+			set_de_jure_liege_title = title:d_wielkopolska
+			change_title_holder = {
+				holder = title:k_prussia.holder
+				change = scope:title_change
+			}
+		}
+
+
+		clear_local_variable_list = target_titles
+		clear_local_variable_list = vassals_taken
+		clear_local_variable_list = titles_taken
+		clear_variable_list = potential_vassals
+		title:e_spain = {
+			every_in_de_jure_hierarchy = {
+				limit = { tier = tier_duchy }
+				add_to_temporary_list = target_titles
+			}
+		}
+		# go through the dejure hierarchy under target titles, transfer eligible vassals and sieze counties from ineligible ones
+		every_in_list = {
+			list = target_titles
+			custom_tooltip = CONQUEST_CB_TITLE
+
+			conquest_cb_title_transfer = {
+				RELIGIOUS_WAR = no
+			}
+		}
+		every_in_list = {
+			list = vassals_taken
+			change_liege = {
+				liege = title:k_spain.holder
+				change = scope:title_change
+			}
+		}
+		every_in_list = {
+			list = titles_taken
+			change_title_holder = {
+				holder = title:k_spain.holder
+				change = scope:title_change
+				take_baronies = yes
+			}
+		}
+
+
+		clear_local_variable_list = target_titles
+		clear_local_variable_list = vassals_taken
+		clear_local_variable_list = titles_taken
+		clear_variable_list = potential_vassals
+		title:k_romagna = {
+			every_in_de_jure_hierarchy = {
+				limit = { tier = tier_duchy }
+				add_to_temporary_list = target_titles
+			}
+		}
+		# go through the dejure hierarchy under target titles, transfer eligible vassals and sieze counties from ineligible ones
+		every_in_list = {
+			list = target_titles
+			custom_tooltip = CONQUEST_CB_TITLE
+
+			conquest_cb_title_transfer = {
+				RELIGIOUS_WAR = no
+			}
+		}
+		every_in_list = {
+			list = vassals_taken
+			change_liege = {
+				liege = title:k_papal_state.holder
+				change = scope:title_change
+			}
+		}
+		every_in_list = {
+			list = titles_taken
+			change_title_holder = {
+				holder = title:k_papal_state.holder
+				change = scope:title_change
+				take_baronies = yes
+			}
+		}
+		title:k_romagna = {
+			change_title_holder = {
+				holder = title:k_papal_state.holder
+				change = scope:title_change
+			}
+		}
+
+
+		clear_local_variable_list = target_titles
+		clear_local_variable_list = vassals_taken
+		clear_local_variable_list = titles_taken
+		clear_variable_list = potential_vassals
+		title:d_piedmonte = {
+			add_to_temporary_list = target_titles
+		}
+		title:d_genoa = {
+			add_to_temporary_list = target_titles
+		}
+		# go through the dejure hierarchy under target titles, transfer eligible vassals and sieze counties from ineligible ones
+		every_in_list = {
+			list = target_titles
+			custom_tooltip = CONQUEST_CB_TITLE
+
+			conquest_cb_title_transfer = {
+				RELIGIOUS_WAR = no
+			}
+		}
+		every_in_list = {
+			list = vassals_taken
+			change_liege = {
+				liege = title:k_sardinia.holder
+				change = scope:title_change
+			}
+		}
+		every_in_list = {
+			list = titles_taken
+			change_title_holder = {
+				holder = title:k_sardinia.holder
+				change = scope:title_change
+				take_baronies = yes
+			}
+		}
+		title:c_tortona = {
+			change_title_holder = {
+				holder = title:k_sardinia.holder
+				change = scope:title_change
+			}
+		}
+
+
+		clear_local_variable_list = target_titles
+		clear_local_variable_list = vassals_taken
+		clear_local_variable_list = titles_taken
+		clear_variable_list = potential_vassals
+		title:d_pisa = {
+			add_to_temporary_list = target_titles
+		}
+		title:d_toscana = {
+			add_to_temporary_list = target_titles
+		}
+		# go through the dejure hierarchy under target titles, transfer eligible vassals and sieze counties from ineligible ones
+		every_in_list = {
+			list = target_titles
+			custom_tooltip = CONQUEST_CB_TITLE
+	
+			conquest_cb_title_transfer = {
+				RELIGIOUS_WAR = no
+			}
+		}
+		every_in_list = {
+			list = vassals_taken
+			change_liege = {
+				liege = title:d_wurzburg.holder
+				change = scope:title_change
+			}
+		}
+		every_in_list = {
+			list = titles_taken
+			change_title_holder = {
+				holder = title:d_wurzburg.holder
+				change = scope:title_change
+				take_baronies = yes
+			}
+		}
+		title:d_wurzburg.holder = {
+			every_held_title = {
+				limit = { target_is_de_jure_liege_or_above = title:e_germany }
+				change_title_holder = {
+					holder = title:k_bavaria.holder
+					change = scope:title_change
+					take_baronies = yes
+				}
+			}
+			if = {
+				limit = { NOT = { has_title = title:d_toscana } }
+				title:d_toscana = {
+					change_title_holder = {
+						holder = title:d_wurzburg.holder
+						change = scope:title_change
+					}
+				}
+			}
+		}
+
+
+		clear_local_variable_list = target_titles
+		clear_local_variable_list = vassals_taken
+		clear_local_variable_list = titles_taken
+		clear_variable_list = potential_vassals
+		clear_saved_scope = defender
+
+		title:d_berg.holder = {
+			every_held_title = {
+				limit = { target_is_de_jure_liege_or_above = title:e_germany }
+				change_title_holder = {
+					holder = title:k_prussia.holder
+					change = scope:title_change
+					take_baronies = yes
+				}
+			}
+		}
+
+		if = {
+			limit = { exists = title:k_poland.holder }
+		title:k_poland.holder = {
+			if = {
+				limit = { NOT = { has_title = title:c_krakowska } }
+				title:c_krakowska = {
+					change_title_holder = {
+						holder = title:k_poland.holder
+						change = scope:title_change
+					}
+				}
+			}
+			every_held_title = {
+				limit = { NOT = { this = title:c_krakowska } }
+				change_title_holder = {
+					holder = title:e_russia.holder
+					change = scope:title_change
+					take_baronies = yes
+				}
+			}
+		}
+		}
+		else_if = {
+			limit = { exists = title:d_warsaw.holder }
+		title:d_warsaw.holder = {
+			if = {
+				limit = { NOT = { has_title = title:c_krakowska } }
+				title:c_krakowska = {
+					change_title_holder = {
+						holder = title:d_warsaw.holder
+						change = scope:title_change
+					}
+				}
+			}
+			every_held_title = {
+				limit = { NOT = { this = title:c_krakowska } }
+				change_title_holder = {
+					holder = title:e_russia.holder
+					change = scope:title_change
+					take_baronies = yes
+				}
+			}
+		}
+		}
+
+		title:k_poland = {
+			change_title_holder_include_vassals = {
+				holder = title:e_russia.holder
+				change = scope:title_change
+				take_baronies = yes
+			}
+		}
+
+		title:d_west_franconia.holder = {
+			every_held_title = {
+				change_title_holder = {
+					holder = scope:franconian
+					change = scope:title_change
+				}
+			}
+		}
+		title:d_hesse.holder = {
+			every_realm_county = {
+				limit = {
+					OR = {
+						target_is_de_jure_liege_or_above = title:d_angria
+						target_is_de_jure_liege_or_above = title:d_ostfalen
+					}
+			#		NOT = { this = title:c_stendal }
+				}
+				change_title_holder = {
+					holder = title:e_britannia.holder
+					change = scope:title_change
+				}				
+			}
+			every_sub_realm_county = {
+				limit = {
+					target_is_de_jure_liege_or_above = title:d_anhalt
+				}
+				change_title_holder = {
+					holder = title:k_prussia.holder
+					change = scope:title_change
+				}				
+			}
+			every_held_title = {
+				change_title_holder = {
+					holder = scope:hessian
+					change = scope:title_change
+				}
+			}
+		}
+
+		if = {
+			limit = { exists = scope:brunswickian }
+			title:c_brunswick = {
+				change_title_holder = {
+					holder = scope:brunswickian
+					change = scope:title_change
+				}
+			}
+		}
+
+		if = {
+			limit = { exists = scope:modenan }
+			title:c_modena = {
+				change_title_holder = {
+					holder = scope:modenan
+					change = scope:title_change
+				}
+				scope:modenan = { becomes_independent = { change = scope:title_change } }
+			}
+		}
+
+		if = {
+			limit = { exists = scope:parman }
+			title:c_parma = {
+				change_title_holder = {
+					holder = scope:parman
+					change = scope:title_change
+				}
+				scope:parman = { becomes_independent = { change = scope:title_change } }
+			}
+		}
+
+		title:c_coburg.holder = {
+			if = {
+				limit = { exists = liege }
+				becomes_independent = { change = scope:title_change }
+			}
+		}
+
+		resolve_title_and_vassal_change = scope:title_change
+		destroy_title = title:e_cdr
+		destroy_title = title:d_warsaw
+		destroy_title = title:d_wurzburg
+		destroy_title = title:d_berg
+		destroy_title = title:k_westfalia
+
+		title:k_sicily.holder = {
+			add_pressed_claim = title:k_naples
+		}
+		title:c_krakowska.holder = {
+			if = {
+				limit = { is_ai = yes }
+				change_government = republic_government
+			}
+		}
+		title:k_hanover = {
+			add_title_law = male_only_law
+		}
+		}
+	}
+}
+
+congress_of_vienna.2 = {
+	type = character_event
+	hidden = yes
+	
+	immediate = {
+		create_title_and_vassal_change = {
+			type = conquest
+			save_scope_as = title_change
+			add_claim_on_loss = no
+		}
+		title:c_eschenlohe = {
+			set_de_jure_liege_title = title:d_tyrol
+		}
+		title:c_alpsee = {
+			set_de_jure_liege_title = title:d_tyrol
+		}
+		title:c_ravensburg = {
+			set_de_jure_liege_title = title:d_tyrol
+		}
+		title:e_austria.holder = { save_scope_as = attacker }
+		random_ruler = {
+			limit = {
+				any_held_title = { this = title:k_bavaria }
+			}
+			save_scope_as = defender
+		}
+		title:d_salzburg = {
+			add_to_temporary_list = target_titles
+		}
+		title:d_tyrol = {
+			add_to_temporary_list = target_titles
+		}
+		# go through the dejure hierarchy under target titles, transfer eligible vassals and sieze counties from ineligible ones
+		every_in_list = {
+			list = target_titles
+			custom_tooltip = CONQUEST_CB_TITLE
+	
+			conquest_cb_title_transfer = {
+				RELIGIOUS_WAR = no
+			}
+		}
+		every_in_list = {
+			list = vassals_taken
+			change_liege = {
+				liege = title:e_austria.holder
+				change = scope:title_change
+			}
+		}
+		every_in_list = {
+			list = titles_taken
+			change_title_holder = {
+				holder = title:e_austria.holder
+				change = scope:title_change
+				take_baronies = yes
+			}
+		}
+		resolve_title_and_vassal_change = scope:title_change
+	}
+}
+
+congress_of_vienna.3 = {
+	type = character_event
+	hidden = yes
+	
+	immediate = {
+		create_title_and_vassal_change = {
+			type = conquest
+			save_scope_as = title_change
+			add_claim_on_loss = no
+		}
+		title:k_prussia.holder = { save_scope_as = attacker }
+		random_ruler = {
+			limit = {
+				any_held_title = { this = title:k_saxony }
+			}
+			save_scope_as = defender
+		}
+		title:d_lausitz = {
+			add_to_temporary_list = target_titles
+		}
+		# go through the dejure hierarchy under target titles, transfer eligible vassals and sieze counties from ineligible ones
+		every_in_list = {
+			list = target_titles
+			custom_tooltip = CONQUEST_CB_TITLE
+	
+			conquest_cb_title_transfer = {
+				RELIGIOUS_WAR = no
+			}
+		}
+		every_in_list = {
+			list = vassals_taken
+			change_liege = {
+				liege = title:k_prussia.holder
+				change = scope:title_change
+			}
+		}
+		every_in_list = {
+			list = titles_taken
+			change_title_holder = {
+				holder = title:k_prussia.holder
+				change = scope:title_change
+				take_baronies = yes
+			}
+		}
+		resolve_title_and_vassal_change = scope:title_change
+	}
+}
+
+congress_of_vienna.4 = {
+	type = character_event
+	hidden = yes
+	
+	immediate = {
+		create_title_and_vassal_change = {
+			type = conquest
+			save_scope_as = title_change
+			add_claim_on_loss = no
+		}
+		title:k_papal_state.holder = { save_scope_as = attacker }
+		random_ruler = {
+			limit = {
+				any_held_title = { this = title:k_italy }
+			}
+			save_scope_as = defender
+		}
+		title:k_romagna = {
+			every_in_de_jure_hierarchy = {
+				limit = { tier = tier_duchy }
+				add_to_temporary_list = target_titles
+			}
+		}
+		# go through the dejure hierarchy under target titles, transfer eligible vassals and sieze counties from ineligible ones
+		every_in_list = {
+			list = target_titles
+			custom_tooltip = CONQUEST_CB_TITLE
+
+			conquest_cb_title_transfer = {
+				RELIGIOUS_WAR = no
+			}
+		}
+		every_in_list = {
+			list = vassals_taken
+			change_liege = {
+				liege = title:k_papal_state.holder
+				change = scope:title_change
+			}
+		}
+		every_in_list = {
+			list = titles_taken
+			change_title_holder = {
+				holder = title:k_papal_state.holder
+				change = scope:title_change
+				take_baronies = yes
+			}
+		}
+
+
+		clear_local_variable_list = target_titles
+		clear_local_variable_list = vassals_taken
+		clear_local_variable_list = titles_taken
+		clear_variable_list = potential_vassals
+		title:k_italy.holder = {
+			every_realm_county = {
+				limit = { target_is_de_jure_liege_or_above = title:d_piedmonte }
+				change_title_holder = {
+					holder = title:k_sardinia.holder
+					change = scope:title_change
+				}
+			}
+		}
+
+
+		clear_local_variable_list = target_titles
+		clear_local_variable_list = vassals_taken
+		clear_local_variable_list = titles_taken
+		clear_variable_list = potential_vassals
+		title:k_italy.holder = {
+			every_held_title = {
+				change_title_holder_include_vassals = {
+					holder = title:e_austria.holder
+					change = scope:title_change
+					take_baronies = yes
+				}
+			}
+		}
+		resolve_title_and_vassal_change = scope:title_change
+		destroy_title = title:k_italy
+	}
+}

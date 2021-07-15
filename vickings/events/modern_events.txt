@@ -1,0 +1,1491 @@
+﻿namespace = moderntimes
+
+# e_cdr and d_warsaw ally with France
+moderntimes.1 = {
+	type = character_event
+	title = moderntimes.1.name
+	desc = moderntimes.1.desc
+	theme = realm
+
+	trigger = {
+		OR = {
+			any_held_title = { this = title:e_cdr }
+			any_held_title = { this = title:d_warsaw }
+		}
+		any_ruler = {
+			any_held_title = { this = title:e_france }
+			#OR = {
+			#	is_married = yes
+			#	is_betrothed = yes
+			#}
+			NOT = { is_allied_to = root }
+			dynasty = {
+				any_dynasty_member = {
+					is_close_or_extended_family_of = character:9000001
+				}
+			}
+		}
+	}
+
+	immediate = {
+		random_ruler = {
+			limit = {
+				any_held_title = { this = title:e_france }
+			}
+			save_scope_as = french_emperor
+			#primary_spouse = {
+			#	save_scope_as = fr_spouse
+			#}
+			create_alliance = root
+		}
+
+		#create_alliance = {
+		#	target = scope:french_emperor
+		#	allied_through_owner = scope:french_emperor
+		#	allied_through_target = scope:fr_spouse
+		#}
+
+		# This opinion modifier controls the interaction, and is removed when breaking the alliance in any way (though on_actions)
+		add_opinion = {
+			modifier = perk_negotiated_alliance_opinion
+			target = scope:french_emperor
+		}
+	}
+	override_background = {
+		event_background = throne_room
+	}
+	left_portrait = {
+		character = scope:french_emperor
+		animation = idle
+	}
+	right_portrait = {
+		character = root
+		animation = beg
+	}
+	
+	option = {
+		name = name_i_see
+	}
+}
+
+#I have united the Two Sicilies!
+moderntimes.2 = {
+	type = character_event
+	title = moderntimes.2.t
+	desc = moderntimes.2.desc
+	theme = realm
+	left_portrait = {
+		character = scope:sicilies_uniter
+		animation = personality_bold
+	}
+
+	immediate = {
+		play_music_cue = "mx_cue_positive_effect"
+		unite_the_two_sicilies_decision_effects = yes
+	}
+	
+	option = {
+		name = moderntimes.2.a
+	}
+}
+
+#Someone united the Two Sicilies!
+moderntimes.3 = {
+	type = character_event
+	title = moderntimes.2.t
+	desc = {
+		desc = moderntimes.3.start.desc
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					has_RelationToMe_relation = { CHARACTER = scope:sicilies_uniter }
+				}
+				desc = moderntimes.3.relation_former.desc
+			}
+			desc = moderntimes.3.former.desc
+		}	
+		desc = moderntimes.3.end.desc		
+	}
+	theme = realm
+	left_portrait = {
+		character = scope:sicilies_uniter
+		animation = personality_bold
+	}
+	
+	option = {
+		name = name_i_see
+	}
+}
+
+moderntimes.4 = {
+	type = character_event
+	title = moderntimes.4.t
+	desc = moderntimes.4.desc
+	theme = realm
+
+	trigger = {
+		any_held_title = { this = title:e_britannia }
+		NOT = { any_held_title = { this = title:k_hanover } }
+		any_ruler = {
+			any_held_title = { this = title:k_hanover }
+			dynasty = {
+				any_dynasty_member = {
+					even_if_dead = yes
+					is_close_or_extended_family_of = root
+				}
+			}
+			is_vassal_of = root
+		}
+	}
+
+	immediate = {
+		create_title_and_vassal_change = {
+			type = independency
+			save_scope_as = change
+		}
+		random_ruler = {
+			limit = {
+				any_held_title = { this = title:k_hanover }
+			}
+			save_scope_as = hanoverian
+			every_held_title = {
+				limit = {
+					tier > tier_barony
+					target_is_de_jure_liege_or_above = title:e_britannia
+				}
+				add_to_temporary_list = british_titles
+			}
+			every_vassal_or_below = {
+				limit = { is_ai = yes }
+				every_held_title = {
+					limit = {
+						NOT = {
+							target_is_de_jure_liege_or_above = title:e_germany
+						}
+					}
+					add_to_temporary_list = british_titles
+				}
+			}
+			becomes_independent = { change = scope:change }
+		}
+		every_in_list = {
+			list = british_titles
+			change_title_holder = {
+				holder = root
+				change = scope:change
+			}
+		}
+		resolve_title_and_vassal_change = scope:change
+
+		if = {
+			limit = { has_claim_on = title:k_hanover }
+			remove_claim = title:k_hanover
+		}
+
+		add_realm_law_skip_effects = male_preference_law
+	}
+	left_portrait = {
+		character = root
+		animation = idle
+	}
+	right_portrait = {
+		character = scope:hanoverian
+		animation = idle
+	}
+	
+	option = {
+		name = name_i_see
+	}
+}
+
+#I united India
+moderntimes.5 = {
+	type = character_event
+	title = moderntimes.5.t
+	desc = moderntimes.5.desc
+	theme = realm
+	left_portrait = {
+		character = root
+		animation = personality_bold
+	}
+	
+	immediate = {
+		play_music_cue = "mx_cue_epic_sacral_moment"
+		british_raj_decision_effect = yes
+	}
+
+	option = {
+		name = moderntimes.5.a
+		add_prestige = 200
+		add_prestige_level = 2
+	}
+}
+
+
+#My ruler united India
+moderntimes.6 = {
+	type = character_event
+	title = moderntimes.6.t
+	desc = moderntimes.6.desc
+	theme = realm
+	left_portrait = {
+		character = scope:british_chakravarti
+		animation = personality_bold
+	}
+	
+	immediate = {
+		play_music_cue = "mx_cue_epic_sacral_moment"
+	}
+
+	option = {
+		name = moderntimes.6.a
+	}
+}
+
+#I have united Romania!
+moderntimes.7 = {
+	type = character_event
+	title = moderntimes.7.t
+	desc = moderntimes.7.desc
+	theme = realm
+	left_portrait = {
+		character = scope:vlach_uniter
+		animation = personality_bold
+	}
+
+	immediate = {
+		play_music_cue = "mx_cue_positive_effect"
+		form_romania_decision_effects = yes
+	}
+	
+	option = {
+		name = moderntimes.7.a
+	}
+}
+
+#Someone united Romania!
+moderntimes.8 = {
+	type = character_event
+	title = moderntimes.7.t
+	desc = {
+		desc = moderntimes.8.start.desc
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					has_RelationToMe_relation = { CHARACTER = scope:vlach_uniter }
+				}
+				desc = moderntimes.8.relation_former.desc
+			}
+			desc = moderntimes.8.former.desc
+		}	
+		desc = moderntimes.8.end.desc		
+	}
+	theme = realm
+	left_portrait = {
+		character = scope:vlach_uniter
+		animation = personality_bold
+	}
+	
+	option = {
+		name = name_i_see
+	}
+}
+
+#Republic of Thailand - name change
+moderntimes.9 = {
+	type = character_event
+	hidden = yes
+
+	trigger = {
+		has_government = republic_government
+		NOT = {
+			is_target_in_global_variable_list = {
+				name = republic_name
+				target = flag:flag_changed_to_thailand
+			}
+		}
+	}
+
+	immediate = {
+		title:k_siam = {
+			set_title_name = THAILAND
+		}
+		hidden_effect = {
+			add_to_global_variable_list = {
+				name = republic_name
+				target = flag:flag_changed_to_thailand
+			}
+		}
+	}
+}
+
+#Republic of Iran - name change
+moderntimes.10 = {
+	type = character_event
+	hidden = yes
+
+	trigger = {
+		has_government = republic_government
+		NOT = {
+			is_target_in_global_variable_list = {
+				name = republic_name
+				target = flag:flag_changed_to_iran
+			}
+		}
+	}
+
+	immediate = {
+		title:e_persia = {
+			set_title_name = IRAN
+		}
+		hidden_effect = {
+			add_to_global_variable_list = {
+				name = republic_name
+				target = flag:flag_changed_to_iran
+			}
+		}
+	}
+}
+
+# Convention of Peking
+moderntimes.11 = {
+	type = character_event
+	title = "EVTNAME80000"
+	desc = "EVTDESC80000"
+	theme = diplomacy
+	left_portrait = {
+		character = title:e_russia.holder
+		animation = personality_bold
+	}
+	right_portrait = {
+		character = root
+		animation = fear
+	}
+	
+	option = {
+		name = "EVTOPTA80000"
+		title:c_shiwei = {
+			set_de_jure_liege_title = title:d_amur
+		}
+		title:c_aigun = {
+			set_de_jure_liege_title = title:d_primorskaya
+		}
+		title:c_anbian = {
+			set_de_jure_liege_title = title:d_primorskaya
+		}
+		title:c_haishenwai = {
+			set_de_jure_liege_title = title:d_primorskaya
+		}
+		title:c_donghai = {
+			set_de_jure_liege_title = title:d_primorskaya
+		}
+		create_title_and_vassal_change = {
+			type = conquest
+			save_scope_as = change
+			add_claim_on_loss = no
+		}
+		every_realm_county = {
+			limit = {
+				target_is_de_jure_liege_or_above = title:k_far_east
+			}
+			change_title_holder = {
+				holder = title:e_russia.holder
+				change = scope:change
+			}
+		}
+		resolve_title_and_vassal_change = scope:change
+		trigger_event = { id = moderntimes.14 months = 48 }
+		add_character_flag = waiting_for_tarbagatai
+		ai_chance = {
+			base = 90
+		}
+	}
+	
+	option = {
+		name = "EVTOPTB80000"
+		title:e_russia.holder = {
+			trigger_event = moderntimes.12
+		}
+	#	add_casus_belli = {
+	#		target = RUS
+	#		type = acquire_core_state
+	#		months = 60
+	#	}		
+		ai_chance = {
+			base = 10
+		}
+	}
+}
+
+# China refuses
+moderntimes.12 = {
+	type = character_event
+	title = "EVTNAME80001"
+	desc = "EVTDESC80000"
+	theme = diplomacy
+	left_portrait = {
+		character = title:e_china.holder
+		animation = personality_bold
+	}
+	right_portrait = {
+		character = root
+		animation = anger
+	}
+	
+	option = {
+		name = "EVTOPTA80001"
+		reverse_add_opinion = {
+			target = title:e_china.holder
+			modifier = insult_opinion
+			opinion = very_high_negative_opinion
+		}
+		add_pressed_claim = title:c_shiwei
+		add_pressed_claim = title:c_aigun
+		add_pressed_claim = title:c_anbian
+		add_pressed_claim = title:c_haishenwai
+		add_pressed_claim = title:c_donghai
+	}
+}
+
+#Republic of Austria - name change
+moderntimes.13 = {
+	type = character_event
+	hidden = yes
+
+	trigger = {
+		has_government = republic_government
+	}
+
+	immediate = {
+		destroy_title = title:e_austria
+		if = {
+			limit = {
+				NOT = { has_title = title:k_austria }
+			}
+			get_title = title:k_austria
+		}
+		set_primary_title_to = title:k_austria
+	}
+}
+
+# Treaty of Tarbagatai
+moderntimes.14 = {
+	type = character_event
+	title = moderntimes.14.t
+	desc = moderntimes.14.desc
+	theme = diplomacy
+	left_portrait = {
+		character = title:e_russia.holder
+		animation = personality_bold
+	}
+	right_portrait = {
+		character = root
+		animation = fear
+	}
+
+	trigger = {
+		is_alive = yes
+		has_title = title:e_china
+		any_realm_county = {
+			OR = {
+				target_is_de_jure_liege_or_above = d_zhetysu
+				target_is_de_jure_liege_or_above = d_alakol
+			}
+		}
+	}
+
+	on_trigger_fail = {
+		if = {
+			limit = {
+				OR = {
+					is_alive = no
+					NOT = { has_title = title:e_china }
+				}
+			}
+			title:e_china.holder = { trigger_event = moderntimes.14 }
+		}
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				has_character_flag = waiting_for_tarbagatai
+			}
+			remove_character_flag = waiting_for_tarbagatai
+		}
+	}
+	
+	option = {
+		name = moderntimes.14.a
+		create_title_and_vassal_change = {
+			type = conquest
+			save_scope_as = change
+			add_claim_on_loss = no
+		}
+		every_realm_county = {
+			limit = {
+				OR = {
+					target_is_de_jure_liege_or_above = d_zhetysu
+					target_is_de_jure_liege_or_above = d_alakol
+					target_is_de_jure_liege_or_above = k_kimek
+					target_is_de_jure_liege_or_above = k_cuman
+					target_is_de_jure_liege_or_above = k_kipchak
+					target_is_de_jure_liege_or_above = k_syr_darya
+				}
+			}
+			change_title_holder = {
+				holder = title:e_russia.holder
+				change = scope:change
+			}
+		}
+		if = {
+			limit = {
+				exists = title:k_zhetysu.holder
+			}
+			destroy_title = title:k_zhetysu
+		}
+		resolve_title_and_vassal_change = scope:change
+		title:e_russia.holder = {
+			if = {
+				limit = {
+					is_ai = no
+				}
+				trigger_event = moderntimes.16
+			}
+		}
+		ai_chance = {
+			base = 90
+		}
+	}
+
+	option = {
+		name = moderntimes.14.b
+		every_realm_county = {
+			limit = {
+				OR = {
+					target_is_de_jure_liege_or_above = d_zhetysu
+					target_is_de_jure_liege_or_above = d_alakol
+					target_is_de_jure_liege_or_above = k_kimek
+					target_is_de_jure_liege_or_above = k_cuman
+					target_is_de_jure_liege_or_above = k_kipchak
+					target_is_de_jure_liege_or_above = k_syr_darya
+				}
+			}
+			title:e_russia.holder = {
+				add_pressed_claim = PREV
+			}
+		}
+		title:e_russia.holder = {
+			add_opinion = {
+				target = title:e_china.holder
+				modifier = insult_opinion
+				opinion = very_high_negative_opinion
+			}
+			if = {
+				limit = {
+					is_ai = no
+				}
+				trigger_event = moderntimes.16
+			}
+		}
+		ai_chance = {
+			base = 10
+		}
+	}
+}
+
+# Treaty of Tarbagatai - Russia player notification
+moderntimes.15 = {
+	type = character_event
+	title = moderntimes.15.t
+	desc = moderntimes.15.desc
+	theme = diplomacy
+	left_portrait = {
+		character = root
+		animation = personality_bold
+	}
+	right_portrait = {
+		character = title:e_china.holder
+		animation = fear
+	}
+	
+	option = {
+		name = moderntimes.15.a
+	}
+}
+
+# Treaty of Tarbagatai - China refuses
+moderntimes.16 = {
+	type = character_event
+	title = moderntimes.16.t
+	desc = moderntimes.16.desc
+	theme = diplomacy
+	left_portrait = {
+		character = title:e_china.holder
+		animation = personality_bold
+	}
+	right_portrait = {
+		character = root
+		animation = anger
+	}
+	
+	option = {
+		name = moderntimes.16.a
+	}
+}
+
+#United Kingdom - name change
+moderntimes.17 = {
+	type = character_event
+	hidden = yes
+
+	immediate = {
+		if = {
+			limit = {
+				OR = {
+					has_government = republic_government
+					NOT = { has_culture = culture:english }
+				}
+			}
+			title:e_britannia = {
+				reset_title_name = yes
+				reset_title_prefix = yes
+				set_definitive_form = no
+			}
+		}
+		else = {
+			title:e_britannia = {
+				set_title_name = UNITEDKINGDOM
+				set_definitive_form = yes
+			}
+		
+			create_title_and_vassal_change = {
+				type = usurped
+				save_scope_as = change
+				add_claim_on_loss = no
+			}
+			every_ruler = {
+				if = {
+					limit = {
+						has_title = title:k_england
+					}
+					title:k_england = {
+						change_title_holder_include_vassals = {
+							holder = root
+							change = scope:change
+						}
+					}
+				}
+				if = {
+					limit = {
+						has_title = title:k_scotland
+					}
+					title:k_scotland = {
+						change_title_holder_include_vassals = {
+							holder = root
+							change = scope:change
+						}
+					}
+				}
+				if = {
+					limit = {
+						has_title = title:k_ireland
+					}
+					title:k_ireland = {
+						change_title_holder_include_vassals = {
+							holder = root
+							change = scope:change
+						}
+					}
+				}
+			}
+			resolve_title_and_vassal_change = scope:change
+		}
+	}
+}
+
+# The Bonapartes return!
+moderntimes.18 = {
+	type = character_event
+	title = moderntimes.18.t
+	desc = moderntimes.18.desc
+	theme = diplomacy
+	left_portrait = {
+		character = scope:bonapartist_claimant
+		animation = personality_bold
+	}
+	right_portrait = {
+		character = root
+		animation = anger
+	}
+
+	trigger = {
+		has_government = republic_government
+		NOT = { dynasty = dynasty:180405 }
+		OR = {
+			character:9100007 = {
+				is_alive = yes
+				is_ruler = no
+			}
+			dynasty:180405 = {
+				any_dynasty_member = {
+					is_alive = yes
+					is_ruler = no
+					is_male = yes
+					age > 12
+					matrilinear_marriage = no
+				}
+			}
+		}
+	}
+
+	immediate = {
+		if = {
+			limit = { character:9100007 = { is_alive = yes } }
+			character:9100007 = { save_scope_as = bonapartist_claimant }
+		}
+		else = {
+			dynasty:180405 = {
+				ordered_dynasty_member = {
+					limit = {
+						is_male = yes
+						matrilinear_marriage = no
+						age > 12
+						is_ruler = no
+					}
+					order_by = diplomacy
+					position = 0
+
+					save_scope_as = bonapartist_claimant
+				}
+			}
+		}
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:flag_bonaparte_election
+		}
+	}
+	
+	option = {
+		name = moderntimes.18.a
+		trigger_event = { id = moderntimes.19 days = 40 }
+	}
+}
+
+# Election of 1848
+moderntimes.19 = {
+	type = character_event
+	title = moderntimes.19.t
+	desc = {
+		desc = moderntimes.19.start.desc
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					scope:bonapartist_claimant = { has_character_flag = election_victor }
+				}
+				desc = moderntimes.19.monarchist_win.desc
+			}
+			desc = moderntimes.19.republican_win.desc
+		}		
+	}
+	theme = diplomacy
+	left_portrait = {
+		character = scope:bonapartist_claimant
+		animation = personality_bold
+	}
+	right_portrait = {
+		character = root
+		animation = idle
+	}
+
+	trigger = {
+		scope:bonapartist_claimant = { is_alive = yes }
+	}
+
+	immediate = {
+		scope:bonapartist_claimant = {
+			random = {
+				chance = 20
+				compare_modifier = {
+					value = diplomacy
+					multiplier = 2
+				}
+				compare_modifier = {
+					value = intrigue
+					multiplier = 2
+				}
+				save_scope_as = election_victor
+				add_character_flag = election_victor
+			}
+		}
+	}
+	
+	option = {
+		trigger = { scope:bonapartist_claimant = { has_character_flag = election_victor } }
+		name = moderntimes.19.a
+		create_title_and_vassal_change = {
+			type = granted
+			save_scope_as = change
+			add_claim_on_loss = no
+		}
+		every_held_title = {
+			change_title_holder = {
+				holder = scope:bonapartist_claimant
+				change = scope:change
+			}
+		}
+		resolve_title_and_vassal_change = scope:change
+		scope:bonapartist_claimant = {
+			remove_character_flag = election_victor
+			if = {
+				limit = { NOT = { has_government = republic_government } }
+				change_government = republic_government
+				add_realm_law = city_succession_law
+				add_realm_law_skip_effects = crown_authority_1
+			}
+			add_prestige = 150
+			if = {
+				limit = { prestige < 100 }
+				add_prestige = 300
+			}
+			if = {
+				limit = { matrilinear_marriage = yes }
+				primary_spouse = { save_temporary_scope_as = matrilinal_spouse }
+				divorce_effect = {
+					DIVORCER = scope:bonapartist_claimant
+					DIVORCEE = scope:matrilinal_spouse
+				}
+				add_piety = { subtract = divorce_cost }
+				scope:matrilinal_spouse = {
+					trigger_event = marriage_interaction.0030
+				}
+			}
+		}
+		if = {
+			limit = { is_ai = no }
+			set_player_character = scope:bonapartist_claimant
+		}
+	}
+	option = {
+		trigger = { scope:bonapartist_claimant = { NOT = { has_character_flag = election_victor } } }
+		name = moderntimes.19.b
+	}
+}
+
+# Laotian Kingdom Destruction notification
+moderntimes.20 = {
+	type = character_event
+	title = moderntimes.20.t
+	desc = moderntimes.20.desc
+	theme = diplomacy
+	left_portrait = {
+		character = root
+		animation = idle
+	}
+	right_portrait = {
+		character = scope:laos_king
+		animation = idle
+	}
+	
+	option = {
+		name = moderntimes.20.a
+	}
+}
+
+# Creation of Dai Nam puppet emperor
+moderntimes.21 = {
+	type = character_event
+	title = moderntimes.21.t
+	desc = moderntimes.21.desc
+	theme = diplomacy
+	left_portrait = {
+		character = root
+		animation = idle
+	}
+	right_portrait = {
+		character = title:e_vietnam.holder
+		animation = idle
+	}
+	
+	option = {
+		name = moderntimes.21.a
+		create_title_and_vassal_change = {
+			type = swear_fealty
+			save_scope_as = change
+			add_claim_on_loss = no
+		}
+		title:e_vietnam.holder = {
+			every_vassal = {
+				change_liege = {
+					liege = root
+					change = scope:change
+				}
+			}
+			title:c_hue = {
+				change_title_holder = {
+					holder = PREV
+					change = scope:change
+				}
+			}
+			title:k_dai_nam = {
+				change_title_holder = {
+					holder = PREV
+					change = scope:change
+				}
+			}
+			destroy_title = title:e_vietnam
+			every_held_title = {
+				limit = { NOT = { this = title:c_hue } }
+				change_title_holder = {
+					holder = root
+					change = scope:change
+				}
+			}
+			change_liege = {
+				liege = root
+				change = scope:change
+			}
+		}
+		resolve_title_and_vassal_change = scope:change
+		title:k_dai_nam.holder = {
+			vassal_contract_set_obligation_level = {
+				type = religious_rights
+				level = 1	#religious_rights_protected
+			}
+			vassal_contract_set_obligation_level = {
+				type = title_revocation_rights
+				level = 1	#title_revocation_rights_protected
+			}
+			if = {
+				limit = { is_ai = no }
+				trigger_event = { id = moderntimes.23 days = 1 }
+			}
+		}
+	}
+	option = {
+		name = moderntimes.21.b
+		ai_chance = {
+			base = 0
+		}
+	}
+}
+
+# Creation of Dai Nam puppet emperor - hidden duel
+moderntimes.22 = {
+	type = character_event
+	hidden = yes
+	
+	immediate = {
+		if = {
+			limit = { exists = cp:councillor_chancellor }
+			cp:councillor_chancellor = { save_scope_as = defender_chancellor }
+		}
+		else = {
+			save_scope_as = defender_chancellor
+		}
+
+		scope:attacker = {
+			if = {
+				limit = { exists = cp:councillor_chancellor }
+				cp:councillor_chancellor = { save_scope_as = attacker_chancellor }
+			}
+			else = {
+				save_scope_as = attacker_chancellor
+			}
+		}
+
+		scope:attacker_chancellor = {
+			duel = {
+				skill = diplomacy
+				target = scope:defender_chancellor
+				10 = { #Success.
+					compare_modifier = {
+						value = scope:duel_value
+						multiplier = 1
+					}
+					desc = tooltip.5010.b.success
+					scope:attacker = { trigger_event = { id = moderntimes.21 days = { 1 5 } } }
+				}
+				10 = { #Fail.
+					compare_modifier = {
+						value = scope:duel_value
+						multiplier = -0.75
+					}
+					desc = tooltip.5010.b.fail
+				}
+			}
+		}
+	}
+}
+
+# Creation of Dai Nam puppet emperor - Player notification
+moderntimes.23 = {
+	type = character_event
+	title = moderntimes.21.t
+	desc = {
+		desc = moderntimes.23.start.desc
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					scope:defender_chancellor = root
+				}
+				desc = moderntimes.23.own_chancellor.desc
+			}
+			desc = moderntimes.23.normal_chancellor.desc
+		}		
+	}
+	theme = diplomacy
+	left_portrait = {
+		character = scope:defender_chancellor
+		animation = beg
+	}
+	right_portrait = {
+		character = scope:attacker_chancellor
+		animation = personality_bold
+	}
+	lower_right_portrait = {
+		character = scope:defender
+		animation = idle
+	}
+	
+	option = {
+		name = moderntimes.20.a
+	}
+}
+
+# Cavour's Diplomacy - player notification
+moderntimes.24 = {
+	type = character_event
+	title = moderntimes.24.t
+	desc = moderntimes.24.desc
+	theme = diplomacy
+	left_portrait = {
+		character = scope:french_recipient
+		animation = idle
+	}
+	right_portrait = {
+		character = scope:cavour
+		animation = idle
+	}
+	
+	option = {
+		name = moderntimes.24.a
+	}
+}
+
+# Mongolian Revolution
+moderntimes.25 = {
+	type = character_event
+	title = moderntimes.25.t
+	desc = moderntimes.25.desc
+	theme = realm
+	left_portrait = {
+		character = root
+		animation = idle
+	}
+	right_portrait = {
+		character = scope:bogd_khan
+		animation = personality_bold
+	}
+
+	immediate = {
+		title:c_ulaanbaatar.title_province = {
+			save_scope_as = bogd_residence
+		}
+		create_character = {
+			name = "Bogd" # AKA: Agvaanl Uvsanchoijinyam Danzan Vanchug
+			location = scope:bogd_residence
+			template = bogd_khan_character_template
+			save_scope_as = bogd_khan
+		}
+	}
+	
+	option = {
+		name = moderntimes.25.a
+		set_character_faith_with_conversion = faith:lamaism
+		convert_family_culture_and_notify_vassals_effect = {
+			CONVERTER = root
+			OLD_CULTURE = root.culture
+			NEW_CULTURE = culture:mongol
+		}
+		ai_chance = {
+			base = 0
+		}
+	}
+	option = {
+		name = stress_threshold.3411.l
+		create_title_and_vassal_change = {
+			type = swear_fealty
+			save_scope_as = change
+			add_claim_on_loss = no
+		}
+		every_vassal = {
+			limit = {
+				is_ai = yes
+				culture_group = culture_group:chinese_group
+				NOT = { has_faith = faith:lamaism }
+			}
+			every_held_title = {
+				change_title_holder = {
+					holder = scope:bogd_khan
+					change = scope:change
+				}
+			}
+		}
+		every_held_title = {
+			change_title_holder = {
+				holder = scope:bogd_khan
+				change = scope:change
+			}
+		}
+		resolve_title_and_vassal_change = scope:change
+		if = {
+			limit = { is_ai = no }
+			set_player_character = scope:bogd_khan
+		}
+		title:k_mongolia = {
+			set_capital_county = title:c_ulaanbaatar
+			holder = { save_scope_as = mongol_khan }
+		}
+		title:e_china.holder = { trigger_event = { id = china_dyn.40 days = 7 } }
+	}
+}
+
+# Tuvan Conversion
+moderntimes.26 = {
+	type = character_event
+	title = moderntimes.26.t
+	desc = moderntimes.26.desc
+	theme = realm
+	left_portrait = {
+		character = root
+		animation = personality_bold
+	}
+	
+	option = {
+		name = moderntimes.26.a
+		set_character_faith_with_conversion = faith:lamaism
+		convert_family_culture_and_notify_vassals_effect = {
+			CONVERTER = root
+			OLD_CULTURE = root.culture
+			NEW_CULTURE = culture:uriankhai
+		}
+	}
+}
+
+# The Meiji Restoration
+moderntimes.27 = {
+	type = character_event
+	title = moderntimes.27.t
+	desc = moderntimes.27.desc
+	theme = realm
+	left_portrait = {
+		character = root
+		animation = personality_bold
+	}
+	right_portrait = {
+		character = scope:previous_holder
+		animation = shame
+	}
+
+	immediate = {
+		play_music_cue = "mx_cue_epic_sacral_moment"
+		save_scope_as = meiji
+	}
+	
+	option = {
+		name = moderntimes.27.a
+		add_realm_law = male_only_law
+		set_nickname_effect = { NICKNAME = nick_the_great }
+		# Send narrative fluff to other players (if any).
+		every_player = {
+			limit = {
+				NOT = { this = root }
+				top_liege = root
+			}
+			trigger_event = moderntimes.28
+		}
+	}
+}
+
+moderntimes.28 = {
+	type = character_event
+	title = moderntimes.27.t
+	desc = moderntimes.28.desc
+	theme = realm
+	left_portrait = {
+		character = scope:meiji
+		animation = personality_bold
+	}
+	right_portrait = {
+		character = scope:previous_holder
+		animation = beg
+	}
+	
+	option = {
+		name = moderntimes.28.a
+	}
+}
+
+# Radical Faction Demand
+moderntimes.0101 = {
+	type = letter_event
+	sender = scope:faction_leader
+	opening = {
+		desc = "FACTION_DEMAND_RADICAL"
+	}
+	desc = "FACTION_DEMAND_RADICAL_DESC"
+	
+	trigger = {
+		exists = scope:faction
+	}
+
+	option = {
+		name = "FACTION_DEMAND_ACCEPT"
+
+		add_dread = medium_dread_loss
+		
+		change_government = republic_government
+		if = { limit = { NOT = { has_realm_law = city_succession_law } } add_realm_law = city_succession_law }
+		if = {
+			limit = {
+				root = faith.religious_head_title.holder
+			}
+			destroy_title = faith.religious_head_title
+		}
+
+		if = {
+			limit = { has_title = title:e_shogunate }
+			abolish_japanese_shogunate_effect = yes
+		}
+
+		depose = yes
+		add_prestige = -200
+
+		add_character_flag = {
+			flag = recent_radical_faction_war
+			years = 10
+		}
+
+		scope:faction_leader = {
+			trigger_event = {
+				id = moderntimes.0102
+			}
+		}
+
+		scope:faction = {
+			add_faction_discontent = -200
+			destroy_faction = yes
+		}
+
+		ai_chance = {
+			base = 1
+			modifier = {
+				add = 90
+				scope:faction = { faction_power >= 100 }
+			}
+			modifier = {
+				add = 50
+				scope:faction = { faction_power >= 125 }
+			}
+			modifier = {
+				add = 50
+				scope:faction = { faction_power >= 150 }
+			}
+			modifier = {
+				add = 50
+				scope:faction = { faction_power >= 200 }
+			}
+			modifier = {
+				add = 50
+				any_character_war = {
+					is_war_leader = root
+					is_defender = root
+				}
+			}
+			modifier = {
+				factor = 0.1
+				any_ally = {
+					NOT = {
+						is_vassal_or_below_of = root
+					}
+					max_military_strength > root.max_military_strength
+				}
+			}
+			compare_modifier = {
+				value = debt_level
+				multiplier = 25
+			}
+		}
+	}
+
+	option = {
+		name = "FACTION_DEMAND_REFUSE"
+
+		show_as_tooltip = {
+			scope:faction = {
+				faction_start_war = {}
+			}
+		}
+		
+		scope:faction_leader = {
+			trigger_event = {
+				id = moderntimes.0103
+				days = 1
+			}
+		}
+
+		ai_chance = {
+			base = 100
+			ai_value_modifier = {
+				ai_boldness = 4.0
+			}
+			modifier = {
+				add = 50
+				scope:faction = { faction_power < 80 }
+			}
+			modifier = {
+				add = 100
+				scope:faction = { faction_power < 60 }
+			}
+			modifier = {
+				add = 1000
+				scope:faction = { faction_power < 40 }
+			}
+			compare_modifier = {
+				value = debt_level
+				multiplier = -25
+			}
+		}
+	}
+}
+
+# Radical Faction Demand Accepted
+moderntimes.0102 = {
+	type = letter_event
+	sender = scope:faction_target
+	opening = {
+		desc = "FACTION_DEMAND_RADICAL_ACCEPTED"
+	}
+	desc = "FACTION_DEMAND_LIBERTY_ACCEPTED_DESC"
+
+	option = {
+		name = "FACTION_DEMAND_ACCEPTED_OPT"
+		custom_tooltip = moderntimes.0102.tt
+	}
+}
+
+# Radical Faction Demand Refused
+moderntimes.0103 = {
+	type = letter_event
+	sender = scope:faction_target
+	opening = {
+		desc = "FACTION_DEMAND_RADICAL_REFUSED"
+	}
+	desc = "FACTION_DEMAND_LIBERTY_REFUSED_DESC"
+
+	option = {
+		name = "FACTION_DEMAND_REFUSED_OPT"
+		scope:faction = {
+			faction_start_war = {}
+			
+			every_faction_member = {
+				limit = { NOT = { this = scope:faction.faction_leader } }
+				trigger_event = moderntimes.0104
+			}
+		}
+	}
+}
+
+# Radical Faction Demand Refused Member Notice
+moderntimes.0104 = {
+	type = letter_event
+	sender = scope:faction_target
+	opening = {
+		desc = "FACTION_DEMAND_RADICAL_REFUSED"
+	}
+	desc = "FACTION_DEMAND_LIBERTY_REFUSED_DESC"
+
+	option = {
+		name = "FACTION_DEMAND_REFUSED_OPT"	
+	}
+}
+
+# Radical Faction Demand Send Notice
+moderntimes.0105 = {
+	type = letter_event
+	sender = scope:faction_leader
+	opening = {
+		desc = "FACTION_DEMAND_LIBERTY_SEND_DEMAND_NOTIFICATION"
+	}
+	desc = "FACTION_DEMAND_LIBERTY_SEND_DEMAND_NOTIFICATION_DESC"
+
+	option = {
+		name = "FACTION_DEMAND_SEND_DEMAND_NOTIFICATION_OPT"	
+	}
+}
+
+
+# Test event
+moderntimes.200 = {
+	type = character_event
+	hidden = yes
+	
+	immediate = {
+		abolish_japanese_shogunate_effect = yes
+	}
+}
+
+# Republic setup laws
+moderntimes.300 = {
+	type = character_event
+	hidden = yes
+	
+	trigger = {
+		has_government = republic_government
+		primary_title.tier >= tier_duchy
+	}
+
+	immediate = {
+		primary_title = {
+			if = {
+				limit = {
+					NOR = {
+						is_target_in_variable_list = { name = enacted_laws_list target = flag:four_year_term }
+						is_target_in_variable_list = { name = enacted_laws_list target = flag:five_year_term }
+						is_target_in_variable_list = { name = enacted_laws_list target = flag:six_year_term }
+						is_target_in_variable_list = { name = enacted_laws_list target = flag:seven_year_term }
+						is_target_in_variable_list = { name = enacted_laws_list target = flag:life_title_term }
+					}
+				}
+				if = {
+					limit = {
+						OR = {
+							this = title:k_italy
+							this = title:e_france
+						}
+					}
+					add_to_variable_list = { name = enacted_laws_list target = flag:seven_year_term }
+				}
+				else = {
+					add_to_variable_list = { name = enacted_laws_list target = flag:five_year_term }
+				}
+			}
+		}
+		if = {
+			limit = {
+				primary_title = title:e_india
+				NOR = {
+					has_faith = faith:vaishnavism
+					has_culture_group = culture_group:indo_aryan_group
+				}
+			}
+			set_character_faith_with_conversion = faith:vaishnavism
+			convert_family_culture_and_notify_vassals_effect = {
+				CONVERTER = root
+				OLD_CULTURE = root.culture
+				NEW_CULTURE = culture:hindustani
+			}
+		}
+	}
+}

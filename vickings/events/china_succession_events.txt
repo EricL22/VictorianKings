@@ -1,0 +1,636 @@
+﻿namespace = china_dyn
+
+# on_death event to set random temple names
+china_dyn.36 = {
+	type = character_event
+	hidden = yes
+	
+	trigger = {
+		OR = {
+			has_culture_group = culture_group:chinese_group
+			has_culture = culture:shatuo
+		}
+		OR = {
+			has_title = title:e_china
+			has_character_flag = taishang_huang
+			has_character_flag = new_chinese_pretender
+		}
+		NOT = { has_government = republic_government }
+	}
+	
+	immediate = {
+		# Historical EoCs (that held e_china) get their historical temple name
+		# Qing
+		if = {
+			limit = {
+				has_character_flag = temple_name_renzong
+			}
+			create_title_and_vassal_change = {
+				type = created
+				save_scope_as = change
+				add_claim_on_loss = no
+			}
+			title:d_temple_name_renzong = {
+				change_title_holder = {
+					holder = root
+					change = scope:change
+				}
+			}
+			resolve_title_and_vassal_change = scope:change
+			destroy_title = title:d_temple_name_renzong
+			add_character_flag = temple_name_given
+		}
+		else_if = {
+			limit = {
+				has_character_flag = temple_name_xuanzong
+			}
+			create_title_and_vassal_change = {
+				type = created
+				save_scope_as = change
+				add_claim_on_loss = no
+			}
+			title:d_temple_name_xuanzong = {
+				change_title_holder = {
+					holder = root
+					change = scope:change
+				}
+			}
+			resolve_title_and_vassal_change = scope:change
+			destroy_title = title:d_temple_name_xuanzong
+			add_character_flag = temple_name_given
+		}
+		else_if = {
+			limit = {
+				has_character_flag = temple_name_wenzong
+			}
+			create_title_and_vassal_change = {
+				type = created
+				save_scope_as = change
+				add_claim_on_loss = no
+			}
+			title:d_temple_name_wenzong = {
+				change_title_holder = {
+					holder = root
+					change = scope:change
+				}
+			}
+			resolve_title_and_vassal_change = scope:change
+			destroy_title = title:d_temple_name_wenzong
+			add_character_flag = temple_name_given
+		}
+		
+		# Dynasty founders get a dynasty founder temple name
+		if = {
+			limit = {
+				has_character_flag = new_chinese_imperial_dynasty
+				NOT = {
+					has_character_flag = temple_name_given
+				}
+			}
+			random_list = {
+				2 = {
+					create_title_and_vassal_change = {
+						type = created
+						save_scope_as = change
+						add_claim_on_loss = no
+					}
+					title:d_temple_name_taizu = {
+						change_title_holder = {
+							holder = root
+							change = scope:change
+						}
+					}
+					resolve_title_and_vassal_change = scope:change
+					destroy_title = title:d_temple_name_taizu
+				}
+				1 = {
+					create_title_and_vassal_change = {
+						type = created
+						save_scope_as = change
+						add_claim_on_loss = no
+					}
+					title:d_temple_names_progenitor = {
+						change_title_holder = {
+							holder = root
+							change = scope:change
+						}
+					}
+					resolve_title_and_vassal_change = scope:change
+					destroy_title = title:d_temple_names_progenitor
+				}
+			}
+		}
+		
+		# Other EoCs (pretenders and otherwise) get a regular temple name
+		# TODO: Avoid duplicates by tracking flags?
+		else_if = {
+			limit = {
+				NOT = {
+					has_character_flag = temple_name_given
+				}
+			}
+			create_title_and_vassal_change = {
+				type = created
+				save_scope_as = change
+				add_claim_on_loss = no
+			}
+			title:d_temple_names_ancestor = {
+				change_title_holder = {
+					holder = root
+					change = scope:change
+				}
+			}
+			resolve_title_and_vassal_change = scope:change
+
+
+			destroy_title = title:d_temple_names_ancestor
+		}
+	}
+}
+
+china_dyn.38 = {
+	type = character_event
+	hidden = yes
+
+	trigger = {
+		culture_group = culture_group:vietnamese_group
+		OR = {
+			AND = {
+				has_title = title:k_annam
+				NOT = { exists = title:e_vietnam.holder }
+			}
+			AND = {
+				has_title = title:k_dai_nam
+				NOT = { exists = title:e_vietnam.holder }
+			}
+			has_title = title:e_vietnam
+			has_character_flag = thai_thuong_hoang
+		}
+		NOT = { has_government = republic_government }
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				has_character_flag = temple_name_shizu
+			}
+			create_title_and_vassal_change = {
+				type = created
+				save_scope_as = change
+				add_claim_on_loss = no
+			}
+			title:d_viet_temple_name_shizu = {
+				change_title_holder = {
+					holder = root
+					change = scope:change
+				}
+			}
+			resolve_title_and_vassal_change = scope:change
+			destroy_title = title:d_viet_temple_name_shizu
+			add_character_flag = temple_name_given
+		}
+		else_if = {
+			limit = {
+				has_character_flag = temple_name_shengzu
+			}
+			create_title_and_vassal_change = {
+				type = created
+				save_scope_as = change
+				add_claim_on_loss = no
+			}
+			title:d_viet_temple_name_shengzu = {
+				change_title_holder = {
+					holder = root
+					change = scope:change
+				}
+			}
+			resolve_title_and_vassal_change = scope:change
+			destroy_title = title:d_viet_temple_name_shengzu
+			add_character_flag = temple_name_given
+		}
+		else_if = {
+			limit = {
+				has_character_flag = temple_name_xianzu
+			}
+			create_title_and_vassal_change = {
+				type = created
+				save_scope_as = change
+				add_claim_on_loss = no
+			}
+			title:d_viet_temple_name_xianzu = {
+				change_title_holder = {
+					holder = root
+					change = scope:change
+				}
+			}
+			resolve_title_and_vassal_change = scope:change
+			destroy_title = title:d_viet_temple_name_xianzu
+			add_character_flag = temple_name_given
+		}
+		else_if = {
+			limit = {
+				has_character_flag = temple_name_yizong
+			}
+			create_title_and_vassal_change = {
+				type = created
+				save_scope_as = change
+				add_claim_on_loss = no
+			}
+			title:d_viet_temple_name_yizong = {
+				change_title_holder = {
+					holder = root
+					change = scope:change
+				}
+			}
+			resolve_title_and_vassal_change = scope:change
+			destroy_title = title:d_viet_temple_name_yizong
+			add_character_flag = temple_name_given
+		}
+		# Dynasty founders get a dynasty founder temple name
+		if = {
+			limit = {
+				has_character_flag = new_viet_imperial_dynasty
+				NOT = {
+					has_character_flag = temple_name_given
+				}
+			}
+			random_list = {
+				2 = {
+					create_title_and_vassal_change = {
+						type = created
+						save_scope_as = change
+						add_claim_on_loss = no
+					}
+					title:d_viet_temple_name_taizu = {
+						change_title_holder = {
+							holder = root
+							change = scope:change
+						}
+					}
+					resolve_title_and_vassal_change = scope:change
+					destroy_title = title:d_viet_temple_name_taizu
+				}
+				1 = {
+					create_title_and_vassal_change = {
+						type = created
+						save_scope_as = change
+						add_claim_on_loss = no
+					}
+					title:d_viet_temple_names_progenitor = {
+						change_title_holder = {
+							holder = root
+							change = scope:change
+						}
+					}
+					resolve_title_and_vassal_change = scope:change
+					destroy_title = title:d_viet_temple_names_progenitor
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_character_flag = temple_name_given
+				}
+			}
+			create_title_and_vassal_change = {
+				type = created
+				save_scope_as = change
+				add_claim_on_loss = no
+			}
+			title:d_viet_temple_names_ancestor = {
+				change_title_holder = {
+					holder = root
+					change = scope:change
+				}
+			}
+			resolve_title_and_vassal_change = scope:change
+			destroy_title = title:d_viet_temple_names_ancestor
+		}
+	}
+}
+
+china_dyn.39 = {
+	type = character_event
+	hidden = yes
+
+	trigger = {
+		culture_group = culture_group:korean_group
+		OR = {
+			AND = {
+				has_title = title:k_joseon
+				NOT = { exists = title:e_korea.holder }
+			}
+			has_title = title:e_korea
+			has_character_flag = taesang_hwang
+		}
+		NOT = { has_government = republic_government }
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				has_character_flag = temple_name_chunzu
+			}
+			create_title_and_vassal_change = {
+				type = created
+				save_scope_as = change
+				add_claim_on_loss = no
+			}
+			title:d_korean_temple_name_chunzu = {
+				change_title_holder = {
+					holder = root
+					change = scope:change
+				}
+			}
+			resolve_title_and_vassal_change = scope:change
+			destroy_title = title:d_korean_temple_name_chunzu
+			add_character_flag = temple_name_given
+		}
+		else_if = {
+			limit = {
+				has_character_flag = temple_name_xianzong
+			}
+			create_title_and_vassal_change = {
+				type = created
+				save_scope_as = change
+				add_claim_on_loss = no
+			}
+			title:d_korean_temple_name_xianzong = {
+				change_title_holder = {
+					holder = root
+					change = scope:change
+				}
+			}
+			resolve_title_and_vassal_change = scope:change
+			destroy_title = title:d_korean_temple_name_xianzong
+			add_character_flag = temple_name_given
+		}
+		else_if = {
+			limit = {
+				has_character_flag = temple_name_zhezong
+			}
+			create_title_and_vassal_change = {
+				type = created
+				save_scope_as = change
+				add_claim_on_loss = no
+			}
+			title:d_korean_temple_name_zhezong = {
+				change_title_holder = {
+					holder = root
+					change = scope:change
+				}
+			}
+			resolve_title_and_vassal_change = scope:change
+			destroy_title = title:d_korean_temple_name_zhezong
+			add_character_flag = temple_name_given
+		}
+		# Dynasty founders get a dynasty founder temple name
+		if = {
+			limit = {
+				has_character_flag = new_korean_imperial_dynasty
+				NOT = {
+					has_character_flag = temple_name_given
+				}
+			}
+			random_list = {
+				2 = {
+					create_title_and_vassal_change = {
+						type = created
+						save_scope_as = change
+						add_claim_on_loss = no
+					}
+					title:d_korean_temple_name_taizu = {
+						change_title_holder = {
+							holder = root
+							change = scope:change
+						}
+					}
+					resolve_title_and_vassal_change = scope:change
+					destroy_title = title:d_korean_temple_name_taizu
+				}
+				1 = {
+					create_title_and_vassal_change = {
+						type = created
+						save_scope_as = change
+						add_claim_on_loss = no
+					}
+					title:d_korean_temple_names_progenitor = {
+						change_title_holder = {
+							holder = root
+							change = scope:change
+						}
+					}
+					resolve_title_and_vassal_change = scope:change
+					destroy_title = title:d_korean_temple_names_progenitor
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_character_flag = temple_name_given
+				}
+			}
+			create_title_and_vassal_change = {
+				type = created
+				save_scope_as = change
+				add_claim_on_loss = no
+			}
+			title:d_korean_temple_names_ancestor = {
+				change_title_holder = {
+					holder = root
+					change = scope:change
+				}
+			}
+			resolve_title_and_vassal_change = scope:change
+			destroy_title = title:d_korean_temple_names_ancestor
+		}
+	}
+}
+
+china_dyn.40 = {
+	type = character_event
+	title = china_dyn.40.name
+	desc = china_dyn.40.desc
+	theme = realm
+	left_portrait = {
+		character = root
+		animation = idle
+	}
+	right_portrait = {
+		character = scope:mongol_khan
+		animation = idle
+	}
+
+	trigger = {
+		NOR = {
+			any_realm_county = { target_is_de_jure_liege_or_above = title:d_tendzk }
+			any_realm_county = { target_is_de_jure_liege_or_above = title:d_hohhot }
+			any_realm_county = { target_is_de_jure_liege_or_above = title:d_chengde }
+			any_realm_county = { target_is_de_jure_liege_or_above = title:d_linhuang }
+			any_realm_county = { target_is_de_jure_liege_or_above = title:d_zubu }
+		}
+	}
+
+	option = {
+		name = china_dyn.40.a
+		if = {
+			limit = { exists = title:d_tendzk.holder }
+			add_pressed_claim = title:d_tendzk
+		}
+		else = {
+			title:d_tendzk = {
+				every_in_de_jure_hierarchy = {
+					limit = { tier = tier_county }
+					root = { add_pressed_claim = PREV }
+				}
+			}
+		}
+
+		if = {
+			limit = { exists = title:d_hohhot.holder }
+			add_pressed_claim = title:d_hohhot
+		}
+		else = {
+			title:d_hohhot = {
+				every_in_de_jure_hierarchy = {
+					limit = { tier = tier_county }
+					root = { add_pressed_claim = PREV }
+				}
+			}
+		}
+
+		if = {
+			limit = { exists = title:d_chengde.holder }
+			add_pressed_claim = title:d_chengde
+		}
+		else = {
+			title:d_chengde = {
+				every_in_de_jure_hierarchy = {
+					limit = { tier = tier_county }
+					root = { add_pressed_claim = PREV }
+				}
+			}
+		}
+
+		if = {
+			limit = { exists = title:d_linhuang.holder }
+			add_pressed_claim = title:d_linhuang
+		}
+		else = {
+			title:d_linhuang = {
+				every_in_de_jure_hierarchy = {
+					limit = { tier = tier_county }
+					root = { add_pressed_claim = PREV }
+				}
+			}
+		}
+
+		if = {
+			limit = { exists = title:d_zubu.holder }
+			add_pressed_claim = title:d_zubu
+		}
+		else = {
+			title:d_zubu = {
+				every_in_de_jure_hierarchy = {
+					limit = { tier = tier_county }
+					root = { add_pressed_claim = PREV }
+				}
+			}
+		}
+	}
+}
+
+china_dyn.50 = {
+	type = character_event
+	hidden = yes
+
+	trigger = {
+		OR = {
+			has_title = title:k_chrysanthemum_throne
+			has_character_flag = daijo_tenno
+		}
+		NOT = { has_government = republic_government }
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				has_character_flag = post_name_kokaku
+			}
+			create_title_and_vassal_change = {
+				type = created
+				save_scope_as = change
+				add_claim_on_loss = no
+			}
+			title:d_post_name_kokaku = {
+				change_title_holder = {
+					holder = root
+					change = scope:change
+				}
+			}
+			resolve_title_and_vassal_change = scope:change
+			destroy_title = title:d_post_name_kokaku
+			add_character_flag = temple_name_given
+		}
+		else_if = {
+			limit = {
+				has_character_flag = post_name_ninko
+			}
+			create_title_and_vassal_change = {
+				type = created
+				save_scope_as = change
+				add_claim_on_loss = no
+			}
+			title:d_post_name_ninko = {
+				change_title_holder = {
+					holder = root
+					change = scope:change
+				}
+			}
+			resolve_title_and_vassal_change = scope:change
+			destroy_title = title:d_post_name_ninko
+			add_character_flag = temple_name_given
+		}
+		else_if = {
+			limit = {
+				has_character_flag = post_name_komei
+			}
+			create_title_and_vassal_change = {
+				type = created
+				save_scope_as = change
+				add_claim_on_loss = no
+			}
+			title:d_post_name_komei = {
+				change_title_holder = {
+					holder = root
+					change = scope:change
+				}
+			}
+			resolve_title_and_vassal_change = scope:change
+			destroy_title = title:d_post_name_komei
+			add_character_flag = temple_name_given
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_character_flag = temple_name_given
+				}
+			}
+			create_title_and_vassal_change = {
+				type = created
+				save_scope_as = change
+				add_claim_on_loss = no
+			}
+			title:d_japanese_posthumous_names = {
+				change_title_holder = {
+					holder = root
+					change = scope:change
+				}
+			}
+			resolve_title_and_vassal_change = scope:change
+			destroy_title = title:d_japanese_posthumous_names
+		}
+	}
+}

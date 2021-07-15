@@ -1,0 +1,519 @@
+﻿namespace = republic_election
+
+# fired from on_yearly_global_pulse
+republic_election.1 = {
+	type = character_event
+	title = republic_election.1.t
+	desc = republic_election.1.desc
+	theme = diplomacy
+	left_portrait = {
+		character = root
+		animation = idle
+	}
+	
+	trigger = {
+		has_government = republic_government
+	}
+	
+	option = {
+		name = republic_election.1.a
+		save_scope_as = root_election_candidate
+		trigger_event = { id = republic_election.3 days = { 7 14 } }
+		ai_chance = {
+			base = 1
+			ai_value_modifier = {
+				ai_boldness = 0.1
+				ai_energy = 0.1
+			}
+		}
+	}
+	option = {
+		name = republic_election.1.b
+		trigger_event = { id = republic_election.2 days = { 2 7 } }
+	}
+}
+
+republic_election.2 = {
+	type = character_event
+	title = republic_election.2.t
+	desc = republic_election.2.desc
+	theme = diplomacy
+	left_portrait = {
+		character = scope:candidate_1
+		animation = idle
+	}
+	right_portrait = {
+		character = scope:candidate_2
+		animation = idle
+	}
+	
+	trigger = {
+		has_government = republic_government
+	}
+
+	immediate = {
+		random_vassal = {
+			limit = {
+				has_same_political_party_as_root_trigger = yes
+				reverse_opinion = {
+					target = root
+					value >= 0
+				}
+				trigger_if = {
+					limit = { current_date < 2012.1.1 }
+					is_female = no
+				}
+			}
+			save_scope_as = candidate_1
+		}
+		if = {
+			limit = {
+				has_education_diplomacy_trigger = yes
+			}
+			create_character = {
+				location = root.capital_province
+				template = pool_repopulate_diplomacy
+				culture = root.culture
+				faith = root.faith
+				save_scope_as = candidate_2
+			}
+		}
+		else_if = {
+			limit = {
+				has_education_stewardship_trigger = yes
+			}
+			create_character = {
+				location = root.capital_province
+				template = pool_repopulate_stewardship
+				culture = root.culture
+				faith = root.faith
+				save_scope_as = candidate_2
+			}
+		}
+		else_if = {
+			limit = {
+				has_education_intrigue_trigger = yes
+			}
+			create_character = {
+				location = root.capital_province
+				template = pool_repopulate_intrigue
+				culture = root.culture
+				faith = root.faith
+				save_scope_as = candidate_2
+			}
+		}
+		else_if = {
+			limit = {
+				has_education_martial_trigger = yes
+			}
+			create_character = {
+				location = root.capital_province
+				template = pool_repopulate_martial
+				culture = root.culture
+				faith = root.faith
+				save_scope_as = candidate_2
+			}
+		}
+		else = {
+			create_character = {
+				location = root.capital_province
+				template = pool_repopulate_learning
+				culture = root.culture
+				faith = root.faith
+				save_scope_as = candidate_2
+			}
+		}
+	}
+
+	option = {
+		trigger = { exists = scope:candidate_1 }
+		name = republic_election.2.a
+		scope:candidate_1 = {
+			save_scope_as = root_election_candidate
+			if = {
+				limit = { is_ai = no }
+				trigger_event = republic_election.10
+			}
+		}
+		trigger_event = { id = republic_election.3 days = { 7 14 } }
+	}
+	option = {
+		name = republic_election.2.b
+		scope:candidate_2 = { save_scope_as = root_election_candidate }
+		trigger_event = { id = republic_election.3 days = { 7 14 } }
+		ai_chance = {
+			base = 1
+			modifier = {
+				factor = 0
+				scope:candidate_2 = { is_female = yes }
+				current_date < 2012.1.1
+			}
+		}
+	}
+}
+
+republic_election.3 = {
+	type = character_event
+	title = republic_election.3.t
+	desc = republic_election.3.desc
+	theme = diplomacy
+	left_portrait = {
+		character = scope:root_election_candidate
+		animation = idle
+	}
+	right_portrait = {
+		character = scope:opposing_election_candidate
+		animation = idle
+	}
+	
+	trigger = {
+		has_government = republic_government
+	}
+
+	immediate = {
+		random_vassal = {
+			limit = {
+				NOT = { has_same_political_party_as_root_trigger = yes }
+				reverse_opinion = {
+					target = root
+					value <= -20
+				}
+				health >= 3.0
+				trigger_if = {
+					limit = { current_date < 2012.1.1 }
+					is_female = no
+				}
+			}
+			save_scope_as = opposing_election_candidate
+			if = {
+				limit = { is_ai = no }
+				trigger_event = republic_election.10
+			}
+		}
+		if = {
+			limit = {
+				NOT = { exists = scope:opposing_election_candidate }
+			}
+			random_list = {
+				1 = {
+					trigger = { has_education_diplomacy_trigger = no }
+					create_character = {
+						location = root.capital_province
+						template = pool_repopulate_diplomacy
+						culture = root.culture
+						faith = root.faith
+						save_scope_as = opposing_election_candidate
+					}
+				}
+				1 = {
+					trigger = { has_education_stewardship_trigger = no }
+					create_character = {
+						location = root.capital_province
+						template = pool_repopulate_stewardship
+						culture = root.culture
+						faith = root.faith
+						save_scope_as = opposing_election_candidate
+					}
+				}
+				1 = {
+					trigger = { has_education_intrigue_trigger = no }
+					create_character = {
+						location = root.capital_province
+						template = pool_repopulate_intrigue
+						culture = root.culture
+						faith = root.faith
+						save_scope_as = opposing_election_candidate
+					}
+				}
+				1 = {
+					trigger = { has_education_martial_trigger = no }
+					create_character = {
+						location = root.capital_province
+						template = pool_repopulate_martial
+						culture = root.culture
+						faith = root.faith
+						save_scope_as = opposing_election_candidate
+					}
+				}
+				1 = {
+					trigger = { has_education_learning_trigger = no }
+					create_character = {
+						location = root.capital_province
+						template = pool_repopulate_learning
+						culture = root.culture
+						faith = root.faith
+						save_scope_as = opposing_election_candidate
+					}
+				}
+				1 = {
+					trigger = {
+						primary_title = title:k_france
+						NOT = { exists = title:e_france.holder }
+						NOT = { dynasty = dynasty:180405 }
+						OR = {
+							character:9100007 = {
+								is_alive = yes
+								is_ruler = no
+							}
+							dynasty:180405 = {
+								any_dynasty_member = {
+									is_alive = yes
+									is_ruler = no
+									is_male = yes
+									age > 12
+									matrilinear_marriage = no
+								}
+							}
+						}
+					}
+					if = {
+						limit = { character:9100007 = { is_alive = yes } }
+						character:9100007 = { save_scope_as = opposing_election_candidate }
+					}
+					else = {
+						dynasty:180405 = {
+							ordered_dynasty_member = {
+								limit = {
+									is_male = yes
+									matrilinear_marriage = no
+									age > 12
+									is_ruler = no
+								}
+								order_by = diplomacy
+								position = 0
+
+								save_scope_as = opposing_election_candidate
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = republic_election.3.a
+		if = {
+			limit = { scope:root_election_candidate = { is_landed = yes } }
+			scope:root_election_candidate = { trigger_event = { id = republic_election.4 days = { 14 21 } } }
+		}
+		else = {
+			trigger_event = { id = republic_election.4 days = { 14 21 } }
+		}
+	}
+}
+
+# the actual challenge! root = root_election_candidate if he is landed
+republic_election.4 = {
+	type = character_event
+	title = republic_election.4.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { root = scope:root_election_candidate }
+				}
+				desc = republic_election.4.not_former.desc
+			}
+			desc = republic_election.4.former.desc
+		}
+	}
+	theme = diplomacy
+	left_portrait = {
+		character = scope:root_election_candidate
+		animation = idle
+	}
+	right_portrait = {
+		character = scope:opposing_election_candidate
+		animation = idle
+	}
+
+	option = {
+		name = republic_election.4.a
+		duel = {
+			skill = diplomacy
+			target = scope:opposing_election_candidate
+			10 = { #Success.
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 1
+				}
+				desc = tooltip.republic_election_victory
+				scope:root_election_candidate = { save_scope_as = victor }
+			}
+			10 = { #Fail.
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -0.75
+				}
+				desc = tooltip.republic_election_defeat
+				scope:opposing_election_candidate = { save_scope_as = victor }
+			}
+		}
+		top_liege = { trigger_event = { id = republic_election.5 months = 1 } }
+	}
+	option = {
+		trigger = { intrigue >= 10 }
+		name = republic_election.4.b
+		duel = {
+			skill = intrigue
+			target = scope:opposing_election_candidate
+			10 = { #Success.
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 1
+				}
+				desc = tooltip.republic_election_intrigue_victory
+				scope:root_election_candidate = { save_scope_as = victor }
+			}
+			10 = { #Fail.
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -0.75
+				}
+				desc = tooltip.republic_election_intrigue_defeat
+				scope:opposing_election_candidate = { save_scope_as = victor }
+			}
+		}
+		top_liege = { trigger_event = { id = republic_election.5 months = 1 } }
+		ai_chance = {
+			base = 1
+			modifier = {
+				factor = 2
+				intrigue > scope:opposing_election_candidate.intrigue
+				diplomacy < scope:opposing_election_candidate.diplomacy
+			}
+		}
+	}
+}
+
+# handles title switching
+republic_election.5 = {
+	type = character_event
+	title = republic_election.5.t
+	desc = {
+		desc = moderntimes.19.start.desc
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					root = scope:victor
+				}
+				desc = republic_election.5.incumbent_victory.desc
+			}
+			triggered_desc = {
+				trigger = {
+					scope:victor = scope:root_election_candidate
+				}
+				desc = republic_election.5.root_victory.desc
+			}
+			desc = republic_election.5.root_defeat.desc
+		}
+	}
+	theme = diplomacy
+	left_portrait = {
+		character = scope:victor
+		animation = personality_bold
+	}
+	
+	trigger = {
+		has_government = republic_government
+	}
+	
+	option = {
+		name = republic_election.5.a
+		scope:victor = {
+			add_character_flag = {
+				flag = ignore_copy_reforms
+				days = 3
+			}
+		}
+		if = {
+			limit = { NOT = { root = scope:victor } }
+			create_title_and_vassal_change = {
+				type = granted
+				save_scope_as = change
+				add_claim_on_loss = no
+			}
+			every_held_title = {
+				limit = { tier > tier_barony }
+				change_title_holder = {
+					holder = scope:victor
+					change = scope:change
+				}
+			}
+			resolve_title_and_vassal_change = scope:change
+		}
+		scope:victor = {
+			if = {
+				limit = { NOT = { has_government = republic_government } }
+				change_government = republic_government
+				add_realm_law = city_succession_law
+				add_realm_law_skip_effects = crown_authority_1
+			}
+			every_vassal_or_below = {
+				limit = { is_ai = no }
+				trigger_event = republic_election.6
+			}
+			if = {
+				limit = {
+					scope:victor = scope:root_election_candidate
+					has_any_political_party = no
+				}
+				copy_root_political_party_effect = yes
+			}
+		}
+		if = {
+			limit = {
+				NOT = { root = scope:victor }
+				is_ai = no
+			}
+			set_player_character = scope:victor
+		}
+	}
+}
+
+# player notification of which candidate won
+republic_election.6 = {
+	type = character_event
+	title = republic_election.5.t
+	desc = republic_election.6.desc
+	theme = diplomacy
+	left_portrait = {
+		character = scope:victor
+		animation = personality_bold
+	}
+	
+	option = {
+		name = republic_election.5.a
+	}
+}
+
+# player notification that he is a candidate
+republic_election.10 = {
+	type = character_event
+	title = republic_election.10.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					exists = scope:root_election_candidate
+				}
+				desc = republic_election.10.opponent_nomination.desc
+			}
+			desc = republic_election.10.president_nomination.desc
+		}
+	}
+	theme = diplomacy
+	left_portrait = {
+		character = root
+		animation = idle
+	}
+	right_portrait = {
+		character = liege
+		animation = idle
+	}
+	
+	option = {
+		name = republic_election.5.a
+	}
+}
