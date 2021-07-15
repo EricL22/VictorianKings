@@ -1,0 +1,154 @@
+#k_ngo
+##d_huainam
+###c_yiang
+10005 = { # Jiangdu
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_hgoang
+9980 = { # Dingcheng
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_xio
+9984 = { # Huaining
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_jiu
+9989 = { # Shouchun
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_lio
+9994 = { # Hefei
+	culture = han
+	religion = sanjiaoheliu
+}
+
+##c_drio
+9999 = { # Qingliu
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_hoa
+10002 = { # Liyang
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_chio
+10012 = { # Shanyang
+	culture = han
+	religion = sanjiaoheliu
+}
+
+##d_muqiang
+###c_ngak
+9956 = { # Jiangxia
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_ngok
+9963 = { # Baling
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_an
+9967 = { # Anlu
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_xin
+9971 = { # Yiyang
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_hoang
+9974 = { # Huanggang
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_gi
+9977 = { # Qichun
+	culture = han
+	religion = sanjiaoheliu
+}
+
+##d_nenggozk
+###c_suen
+9871 = { # Xuancheng
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_drie
+9878 = { # Qiupu
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_xiep
+9883 = { # Xuancheng
+	culture = han
+	religion = sanjiaoheliu
+}
+
+##d_drinnam
+###c_hung
+9900 = { # Nanchang
+	culture = han
+	religion = sanjiaoheliu	
+}
+
+###c_nyieu
+9889 = { # Poyang
+	culture = han
+	religion = sanjiaoheliu	
+}
+
+###c_sin
+9893 = { # Shangrao
+	culture = han
+	religion = sanjiaoheliu	
+}
+
+###c_gong
+9897 = { # Xunyang
+	culture = han
+	religion = sanjiaoheliu	
+}
+
+###c_pu
+9907 = { # Linchuan
+	culture = han
+	religion = sanjiaoheliu	
+}
+
+###c_wan
+9911 = { # Yichun
+	culture = han
+	religion = sanjiaoheliu	
+}
+
+###c_git
+9914 = { # Luling
+	culture = han
+	religion = sanjiaoheliu	
+}
+
+###c_gien
+9919 = { # Gan
+	culture = han
+	religion = sanjiaoheliu	
+}

@@ -1,0 +1,68 @@
+#k_seiliang
+##d_guingie
+###c_shaa
+9481 = { # Dunhuang
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_gaam
+9513 = { # Zhangye
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_gsiuk
+9498 = { # Jiuquan
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_guaa
+9487 = { # Jinchang
+	culture = han
+	religion = sanjiaoheliu
+}
+
+##d_liangjiu
+###c_liang
+9525 = { # Guzang
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_ltao
+9442 = { # Lintan
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_lha
+9528 = { # Fuhan
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_lim
+9533 = { # Didao
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_lan
+9527 = { # Wuquan
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_tjien
+9418 = { # Huangshui
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_koak
+9419 = { # Guangwei
+	culture = han
+	religion = sanjiaoheliu
+}

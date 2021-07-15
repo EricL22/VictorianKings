@@ -1,0 +1,117 @@
+#k_wat
+##d_drinhai
+###c_nyun
+9864 = { # Dantu
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_xing
+9867 = { # Shangyuan
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_hang
+9843 = { # Qiantang
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_mzuk
+9839 = { # Jiande
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_ho
+9848 = { # Wucheng
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_so
+9852 = { # Wuxian
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_djiang
+9859 = { # Jinling
+	culture = han
+	religion = sanjiaoheliu
+}
+
+##d_drindung
+###c_wat
+9830 = { # Kuaiji
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_ozn
+9810 = { # Yongjia
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_qio
+9814 = { # Lishui
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_gu
+9818 = { # Xi'an
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_tai
+9821 = { # Linhai
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_mu
+9826 = { # Jinhua
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_mieng
+9835 = { # Maoxian
+	culture = han
+	religion = sanjiaoheliu
+}
+
+##d_wimu
+###c_buk
+9794 = { # Minxian
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_jiang
+9786 = { # Longxi
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_zuen
+9789 = { # Jinjiang
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_teng
+9801 = { # Changting
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_gian
+9804 = { # Jian'an
+	culture = han
+	religion = sanjiaoheliu
+}

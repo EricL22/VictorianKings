@@ -1,0 +1,431 @@
+#k_xia
+##d_xia
+##d_shokbuang
+###c_leng
+9546 = { # Huile
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_syiem
+9545 = { # Wuyuan
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_swi
+9534 = { # Mingsha
+	culture = tuyuhun
+	religion = mahayana
+}
+
+##d_dengnan
+###c_haa
+10789 = { # Shuofang
+	culture = tangut
+	religion = vajrayana
+}
+
+###c_dsuz
+10782 = { # Longfu
+	culture = tangut
+	religion = vajrayana
+}
+
+###c_ngin
+10785 = { # Rulin
+	culture = tangut
+	religion = vajrayana
+}
+
+###c_dyu
+10788 = { # Changze
+	culture = tangut
+	religion = vajrayana
+}
+
+
+##d_zhenfan
+###c_zhenfan (Minqin/Sogo Khoto)
+9519 = {	# Jiahe
+	holding = none #farmlands
+}
+
+###c_tenggeli (Tengger)
+9535 = {	# Chaogetuhure
+	holding = none #nomad
+}
+
+###c_alxa
+9520 = {	# Yabulai
+	holding = none
+}
+9549 = {	# Tamusubulage
+	holding = none
+}
+
+
+##d_liangzhou
+###c_liangzhou (Wuwei)
+9523 = {	# Gulang
+	# Misc
+	culture = han
+	religion = mahayana
+	
+	holding = castle_holding
+	
+	# History
+	900.1.1 = {
+		culture = bodpa
+		religion = lamaism
+	}
+	1032.1.1 = {
+		culture = tangut
+		religion = vajrayana
+	}
+	1250.1.1 = {
+		culture = han
+		religion = mahayana
+	}#Tangut culture begins to be absorbed
+}
+9521 = {	# Liangzhou (Wuwei)
+	holding = city_holding
+}
+9522 = {	# Huangcheng
+	holding = church_holding
+}
+
+###c_dajing
+9525 = {	# Dajing
+	# Misc
+	culture = han
+	religion = mahayana
+	
+	holding = castle_holding
+	
+	# History
+	1032.1.1 = {
+		culture = tangut
+		religion = vajrayana
+	}
+	1250.1.1 = {
+		culture = han
+		religion = mahayana
+	}#Tangut culture begins to be absorbed
+}
+9529 = {	# Jingtai
+	holding = city_holding
+}
+
+###c_baiyin
+9531 = {	# Baiyin
+	# Misc
+	culture = han
+	religion = mahayana
+	
+	holding = castle_holding
+	
+	# History
+}
+9530 = {	# Gaolan
+	holding = church_holding
+}
+
+###c_yongdeng
+9528 = {	# Yongdeng
+	# Misc
+	culture = han
+	religion = mahayana
+	
+	holding = castle_holding
+	
+	# History
+}
+9524 = {	# Tianzhu
+	holding = church_holding
+}
+
+
+##d_shanzhou
+###c_shanzhou / tsongkha
+9418 = {	# Shanzhou/Zongge (Ping'an)
+	# Misc
+	culture = han
+	religion = mahayana
+	
+	holding = castle_holding
+	
+	# History
+	800.1.1 = {
+		religion = lamaism
+	} #Tibetans overtake the Xining area
+	1140.1.1 = {
+		religion = vajrayana
+	} #Xi Xia
+}
+9417 = {	# Chuankou (Minhe)
+	holding = city_holding
+}
+9416 = {	# Ledu
+	holding = church_holding
+}
+9415 = {	# Gonlung/Gönlung/Huzhu
+	holding = church_holding
+}
+
+###c_kuozhou
+9419 = {	# Kuozhou
+	# Misc
+	culture = tuyuhun
+	religion = tengri_pagan
+	
+	holding = castle_holding
+	
+	# History
+	700.1.1 = {
+		religion = ashari
+		culture = turkish #Salar
+	}
+}
+9420 = {	# Yadzi (Xunhu)
+	holding = church_holding
+}
+
+
+##d_qilin
+###c_qilin
+9511 = {	# Babao (Qilin)
+	# Misc
+	culture = tuyuhun
+	religion = tengri_pagan
+	
+	holding = tribal_holding
+	
+	# History
+	894.1.1 = {
+		culture = yughur
+		religion = lamaism
+	}
+}
+
+###c_yalong
+9490 = {	# Yalong
+	# Misc
+	culture = tuyuhun
+	religion = tengri_pagan
+	
+	holding = tribal_holding
+	
+	# History
+	894.1.1 = {
+		culture = yughur
+		religion = manichean
+	}
+}
+
+
+##d_ganzhou
+###c_ganzhou
+9513 = {	# Ganzhou (Zhangye)
+	# Misc
+	culture = han
+	religion = mahayana
+	
+	holding = castle_holding
+	
+	# History
+	894.1.1 = {
+		culture = yughur
+	}
+	926.1.1 = { #To reflect the new ruler's faith and ensure capital is the same
+		religion = vajrayana
+	}
+}
+9515 = {	# Minle
+	holding = church_holding
+}
+
+###c_linze
+9503 = {	# Pingchuan
+	holding = church_holding
+}
+
+9499 = {	# Sunan
+	holding = church_holding
+}
+
+###c_suzhou
+9493 = {	# Jiayuguan
+	# Misc
+	culture = han
+	religion = mahayana
+	
+	holding = castle_holding
+	
+	# History
+	894.1.1 = {
+		culture = yughur
+	}
+
+}
+9494 = {	# Suzhou (Jiuquan)
+	holding = city_holding
+}
+
+###c_yumen
+9491 = {	# Chijin
+	# Misc
+	culture = han
+	religion = mahayana
+	
+	holding = castle_holding
+	
+	# History
+	894.1.1 = {
+		culture = yughur
+	}
+}
+9487 = {	# Yumen
+	holding = castle_holding
+}
+9492 = {	# Huahai
+	holding = church_holding
+}
+
+
+##d_yijinai
+9507 = {	# Juyan
+	holding = none #nomad - initially a church_holding, but changed due to holder being tribal
+	
+	# History
+	1032.1.1 = {
+		holding = church_holding
+	}
+}
+
+###c_mazongshan
+9508 = {	# Saihantaolai
+	holding = none #nomad
+}
+
+
+##d_guiyi
+###c_guazhou
+9481 = {	# Guazhou
+	holding = castle_holding
+}
+9478 = {	# Yulin
+	holding = city_holding
+}
+
+###c_changma
+9485 = {	# Changma
+	# Misc
+	culture = han
+	religion = mahayana
+	
+	holding = castle_holding
+	
+	# History
+}
+9486 = {	# Hedong
+	holding = city_holding
+}
+
+###c_hongliuyuan
+9483 = {	# Hongliuyuan
+	# Misc
+	culture = han
+	religion = mahayana
+	
+	holding = castle_holding
+	
+	# History
+}
+9488 = {	# Qidun
+	holding = city_holding
+}
+9484 = {	# Xihu
+	holding = church_holding
+}
+
+###c_shazhou
+9476 = {	# Shazhou (Dunhuang/Dukhan)
+	# Misc
+	culture = sogdian
+	religion = mahayana
+	
+	holding = castle_holding
+	
+	# History
+	1050.1.1 = {
+		culture = tangut
+	}
+}
+9477 = {	# Mogao
+	holding = city_holding
+}
+
+###c_yumenguan
+9474 = {	# Yumenguan
+	# Misc
+	culture = han
+	religion = mahayana
+	
+	holding = castle_holding
+	
+	# History
+}
+9473 = {	# Yangguan
+	holding = castle_holding
+}
+9475 = {	# Akeqi
+	holding = church_holding
+}
+
+###c_subei
+9479 = {	# Subei
+	# Misc
+	culture = tuyuhun
+	religion = vajrayana
+	
+	holding = castle_holding
+	
+	# History
+}
+9480 = {	# Yanchiwan
+	holding = church_holding
+}
+
+
+##d_aksay
+###c_aksay
+9472 = {	# Aksay (Gonghe)
+	# Misc
+	culture = tuyuhun
+	religion = vajrayana
+	
+	holding = tribal_holding
+	
+	# History
+}
+9471 = {	# Hahaeci
+	culture = tuyuhun
+	religion = vajrayana
+
+	holding = tribal_holding
+}
+
+###c_haltang
+9469 = {	# Haltang (Dahaleteng)
+	# Misc
+	culture = tuyuhun
+	religion = tengri_pagan
+	
+	holding = tribal_holding #nomad
+	
+	# History
+}
+9470 = {	# Takoerpasitao, Jianshe
+	holding = none #nomad
+}

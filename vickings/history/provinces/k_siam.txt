@@ -1,0 +1,249 @@
+11168 = {
+	culture = thai
+	religion = theravada
+}
+
+11169 = {
+	culture = thai
+	religion = theravada
+}
+
+11170 = {
+	culture = thai
+	religion = theravada
+}
+
+11171 = {
+	culture = thai
+	religion = theravada
+}
+
+11172 = {
+	culture = thai
+	religion = theravada
+}
+
+11173 = {
+	culture = thai
+	religion = theravada
+}
+
+11174 = {
+	culture = thai
+	religion = theravada
+}
+
+11175 = {
+	culture = thai
+	religion = theravada
+}
+
+11176 = {
+	culture = thai
+	religion = theravada
+}
+
+11177 = {
+	culture = thai
+	religion = theravada
+}
+
+11178 = {
+	culture = thai
+	religion = theravada
+}
+
+11179 = {
+	culture = thai
+	religion = theravada
+}
+
+11180 = {
+	culture = thai
+	religion = theravada
+}
+
+11181 = {
+	culture = thai
+	religion = theravada
+}
+
+11182 = {
+	culture = thai
+	religion = theravada
+}
+
+11183 = {
+	culture = thai
+	religion = theravada
+}
+
+11184 = {
+	culture = thai
+	religion = theravada
+}
+
+11185 = {
+	culture = thai
+	religion = theravada
+}
+
+11186 = {
+	culture = thai
+	religion = theravada
+}
+
+11187 = {
+	culture = thai
+	religion = theravada
+}
+
+11188 = {
+	culture = thai
+	religion = theravada
+}
+
+11189 = {
+	culture = thai
+	religion = theravada
+}
+
+11190 = {
+	culture = thai
+	religion = theravada
+}
+
+11191 = {
+	culture = thai
+	religion = theravada
+}
+
+11192 = {
+	culture = thai
+	religion = theravada
+}
+
+11193 = {
+	culture = thai
+	religion = theravada
+}
+
+11194 = {
+	culture = thai
+	religion = theravada
+}
+
+11195 = {
+	culture = thai
+	religion = theravada
+}
+
+11196 = {
+	culture = thai
+	religion = theravada
+}
+
+11197 = {
+	culture = thai
+	religion = theravada
+}
+
+11198 = {
+	culture = thai
+	religion = theravada
+}
+
+11199 = {
+	culture = thai
+	religion = theravada
+}
+
+11200 = {
+	culture = thai
+	religion = theravada
+}
+
+11201 = {
+	culture = thai
+	religion = theravada
+}
+
+11202 = {
+	culture = thai
+	religion = theravada
+}
+
+11203 = {
+	culture = thai
+	religion = theravada
+}
+
+11204 = {
+	culture = thai
+	religion = theravada
+}
+
+11205 = {
+	culture = thai
+	religion = theravada
+}
+
+11206 = {
+	culture = thai
+	religion = theravada
+}
+
+11207 = {
+	culture = thai
+	religion = theravada
+}
+
+11208 = {
+	culture = thai
+	religion = theravada
+}
+
+11209 = {
+	culture = thai
+	religion = theravada
+}
+
+11210 = {
+	culture = thai
+	religion = theravada
+}
+
+11211 = {
+	culture = thai
+	religion = theravada
+}
+
+11212 = {
+	culture = thai
+	religion = theravada
+}
+
+11213 = {
+	culture = thai
+	religion = theravada
+}
+
+11214 = {
+	culture = thai
+	religion = theravada
+}
+
+11215 = {
+	culture = thai
+	religion = theravada
+}
+
+11216 = {
+	culture = thai
+	religion = theravada
+}
+
+11217 = {
+	culture = thai
+	religion = theravada
+}

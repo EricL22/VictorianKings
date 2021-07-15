@@ -1,0 +1,75 @@
+#k_zei
+##d_bienglo
+###c_ceng
+10462 = { # Yidu
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_zhi
+10469 = { # Zichuan
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_zei
+10473 = { # Licheng
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_lai
+10479 = { # Ye
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_bdzng
+10483 = { # Penglai
+	culture = han
+	religion = sanjiaoheliu
+}
+
+##d_tenbieng
+###c_wzn
+10421 = { # Xuchang
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_zao
+10415 = { # Jiyin
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###_tbuk
+10428 = { # Juancheng
+	culture = han
+	religion = sanjiaoheliu
+}
+
+##d_taaineng
+###c_yuen
+10433 = { # Xiaqiu
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_ngzi
+10440 = { # Linyi
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_hai
+10445 = { # Qushan
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_mit
+10449 = { # Zhucheng
+	culture = han
+	religion = sanjiaoheliu
+}

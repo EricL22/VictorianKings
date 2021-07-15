@@ -1,0 +1,35 @@
+10909 = {	# 9682 - LIAOYANG
+	
+	# Misc
+	culture = jurchen
+	religion = tengri_pagan
+	
+	# History
+	1450.1.1 = { religion = quanzhen }
+	1750.1.1 = { religion = sanjiaoheliu }
+
+}
+
+10910 = {	# 9683 - SHENYANG
+	
+	# Misc
+	culture = jurchen
+	religion = tengri_pagan
+	
+	# History
+	1450.1.1 = { religion = quanzhen }
+	1750.1.1 = { religion = sanjiaoheliu }
+
+}
+
+10911 = {	# 9684 - DALIAN
+	
+	# Misc
+	culture = jurchen
+	religion = tengri_pagan
+	
+	# History
+	1450.1.1 = { religion = quanzhen }
+	1750.1.1 = { religion = sanjiaoheliu }
+
+}

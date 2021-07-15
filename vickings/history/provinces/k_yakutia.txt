@@ -1,0 +1,307 @@
+10970 = {
+	
+	# Misc
+	culture = buryat
+	religion = tengri_pagan
+	1650.1.1 = {
+		culture = kamchatkan
+	}
+	
+	# History
+
+}
+
+10981 = {
+	
+	# Misc
+	culture = buryat
+	religion = tengri_pagan
+	1650.1.1 = {
+		culture = kamchatkan
+	}
+	
+	# History
+
+}
+
+10982 = {
+	
+	# Misc
+	culture = jurchen
+	religion = tengri_pagan
+	1650.1.1 = {
+		culture = kamchatkan
+	}
+	
+	# History
+
+}
+
+10983 = {
+	
+	# Misc
+	culture = jurchen
+	religion = tengri_pagan
+	1650.1.1 = {
+		culture = kamchatkan
+	}
+	
+	# History
+
+}
+
+10984 = {
+	
+	# Misc
+	culture = jurchen
+	religion = tengri_pagan
+	1650.1.1 = {
+		culture = kamchatkan
+	}
+	
+	# History
+
+}
+
+10985 = {
+	
+	# Misc
+	culture = jurchen
+	religion = tengri_pagan
+	1650.1.1 = {
+		culture = kamchatkan
+	}
+	
+	# History
+
+}
+
+10986 = {
+	
+	# Misc
+	culture = buryat
+	religion = tengri_pagan
+	1650.1.1 = {
+		culture = kamchatkan
+	}
+	
+	# History
+
+}
+
+11013 = {
+	
+	# Misc
+	culture = jurchen
+	religion = tengri_pagan
+	1650.1.1 = {
+		culture = kamchatkan
+	}
+	
+	# History
+
+}
+
+11014 = {
+	
+	# Misc
+	culture = jurchen
+	religion = tengri_pagan
+	1650.1.1 = {
+		culture = kamchatkan
+	}
+	
+	# History
+
+}
+
+11015 = {
+	
+	# Misc
+	culture = jurchen
+	religion = tengri_pagan
+	1650.1.1 = {
+		culture = kamchatkan
+	}
+	
+	# History
+
+}
+
+11016 = {
+	
+	# Misc
+	culture = jurchen
+	religion = tengri_pagan
+	1650.1.1 = {
+		culture = kamchatkan
+	}
+	
+	# History
+
+}
+
+11017 = {
+	
+	# Misc
+	culture = jurchen
+	religion = tengri_pagan
+	1650.1.1 = {
+		culture = kamchatkan
+	}
+	
+	# History
+
+}
+
+11018 = {
+	
+	# Misc
+	culture = jurchen
+	religion = tengri_pagan
+	1650.1.1 = {
+		culture = kamchatkan
+	}
+	
+	# History
+
+}
+
+11019 = {
+	
+	# Misc
+	culture = jurchen
+	religion = tengri_pagan
+	1650.1.1 = {
+		culture = kamchatkan
+	}
+	
+	# History
+
+}
+
+11020 = {
+	
+	# Misc
+	culture = jurchen
+	religion = tengri_pagan
+	1650.1.1 = {
+		culture = kamchatkan
+		
+	}
+	
+	# History
+
+}
+
+11022 = {
+	
+	# Misc
+	culture = jurchen
+	religion = tengri_pagan
+	1650.1.1 = {
+		culture = kamchatkan
+		
+	}
+	
+	# History
+
+}
+
+11023 = {
+	
+	# Misc
+	culture = jurchen
+	religion = tengri_pagan
+	1650.1.1 = {
+		culture = kamchatkan
+		
+	}
+	
+	# History
+
+}
+
+11025 = {
+	
+	# Misc
+	culture = buryat
+	religion = tengri_pagan
+	1650.1.1 = {
+		culture = kamchatkan
+		
+	}
+	
+	# History
+
+}
+
+11026 = {
+	
+	# Misc
+	culture = buryat
+	religion = tengri_pagan
+	1650.1.1 = {
+		culture = kamchatkan
+		
+	}
+	
+	# History
+
+}
+
+11027 = {
+	
+	# Misc
+	culture = buryat
+	religion = tengri_pagan
+	1650.1.1 = {
+		culture = kamchatkan
+		
+	}
+	
+	# History
+
+}
+
+11028 = {
+	
+	# Misc
+	culture = buryat
+	religion = tengri_pagan
+	1650.1.1 = {
+		culture = kamchatkan
+		
+	}
+	
+	# History
+
+}
+
+11030 = {
+	
+	# Misc
+	culture = buryat
+	religion = tengri_pagan
+	1650.1.1 = {
+		culture = kamchatkan
+		
+	}
+	
+	# History
+
+}
+
+11031 = {
+	
+	# Misc
+	culture = jurchen
+	religion = tengri_pagan
+	1650.1.1 = {
+		culture = kamchatkan
+		
+	}
+	
+	# History
+
+}

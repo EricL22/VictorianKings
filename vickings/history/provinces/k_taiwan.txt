@@ -1,0 +1,49 @@
+#k_taiwan
+##d_taiwan
+###c_fengshan
+11037 = { # Fengshan
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_gaoxiong
+11038 = { # Kaohsiung
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_tainan
+11039 = { # Tainan
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_chiayi
+11040 = { # Chiayi
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_zhanghua
+11041 = { # Changhwa
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_taizhong
+11042 = { # Taichung
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_miaoli
+11043 = { # Miaoli
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_taibei
+11044 = { # Taipei
+	culture = han
+	religion = sanjiaoheliu
+}

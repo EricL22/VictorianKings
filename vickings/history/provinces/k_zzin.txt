@@ -1,0 +1,131 @@
+#k_zzin
+##d_hadung
+###c_taainguan
+10614 = { # Taiyuan
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_cim
+10606 = { # Qinyuan
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_buzn
+10609 = { # Xihe
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_leu
+10623 = { # Liaoshan
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_jiek
+10626 = { # Lishi
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_lam
+10629 = { # Yifang
+	culture = han
+	religion = sanjiaoheliu
+}
+
+##d_hogozk
+###c_hadriung
+10571 = { # Hedong
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_hgong
+10580 = { # Zhengping
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_hzi
+10586 = { # Jichang
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_zin
+10589 = { # Linfen
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_sip
+10596 = { # Xi
+	culture = han
+	religion = sanjiaoheliu
+}
+
+##d_daibzk
+###c_dai
+10635 = { # Yanmen
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_shok
+10640 = { # Shanyang
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_dwzn
+10645 = { # Yunzhong
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_hin
+10633 = { # Xiurong
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_wzt
+10642 = { # Lingqiu
+	culture = han
+	religion = sanjiaoheliu
+}
+
+##d_jinmu
+###c_jienwu
+10772 = { # East Shouxiangcheng
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_jxing
+10774 = { # Yulin
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_lin
+10776 = { # Xinqin
+	culture = han
+	religion = sanjiaoheliu
+}
+
+##d_tendzk
+###c_tendzk
+10779 = { # Tiande
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_pung
+9538 = { # Jiuyuan
+	culture = han
+	religion = sanjiaoheliu
+}

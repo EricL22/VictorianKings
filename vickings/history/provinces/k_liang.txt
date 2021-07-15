@@ -1,0 +1,114 @@
+#k_liang
+##d_suenmu
+###c_bien
+10345 = { # Junyi
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_yzeng
+10351 = { # Ruyin
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_bak
+10355 = { # Qiao
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_song
+10361 = { # Songcheng
+	culture = han
+	religion = sanjiaoheliu
+}
+
+##d_yugozk
+###c_hanam
+10380 = { # Henan
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_nyio
+10391 = { # Liang
+	culture = han
+	religion = sanjiaoheliu
+}
+
+##d_driungmu
+###c_hio
+10332 = { # Changshe
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_caai
+10326 = { # Ruyang
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_drin
+10339 = { # Wanqiu
+	culture = han
+	religion = sanjiaoheliu
+}
+
+##d_ngiejieng
+###c_huat
+10368 = { # Baima
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_drieng
+10374 = { # Guangcheng
+	culture = han
+	religion = sanjiaoheliu
+}
+
+##d_muneng
+###c_msio
+10397 = { # Pengcheng
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_hao
+10404 = { # Zhongli
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_siuk
+10407 = { # Fuli
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_sz
+10411 = { # Linhuai
+	culture = han
+	religion = sanjiaoheliu
+}
+
+##d_hayiang
+###c_maang
+10453 = { # Heyang
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_huai
+10457 = { # Henei
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_draak
+10600 = { # Jincheng
+	culture = han
+	religion = sanjiaoheliu
+}

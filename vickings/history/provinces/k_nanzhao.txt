@@ -1,0 +1,165 @@
+#k_nanzhao
+##d_yiangsiaamie
+###c_yiangsiaamie
+10897 = { # Jumie
+	culture = bai
+	religion = ari
+}
+
+##d_hooaiquen
+###c_hooaiquen
+10877 = { # Huichuan
+	culture = bai
+	religion = ari
+}
+
+###c_gianqiang
+10881 = { # Jianchang
+	culture = bai
+	religion = ari
+}
+
+###c_daidzng
+10906 = { # Taideng
+	culture = bai
+	religion = ari
+}
+
+##d_giamquen
+###c_giamquen
+10855 = { # Jianchuan
+	culture = bai
+	religion = ari
+}
+
+###c_hiangjieng
+10860 = { # Kunming
+	culture = bai
+	religion = ari
+}
+
+###c_tetgieu
+9317 = { # Tieqiao
+	culture = bai
+	religion = ari
+}
+
+##d_lungdung
+###c_lungdung
+10894 = { # Nongdong
+	culture = bai
+	religion = ari
+}
+
+###c_jieksang
+10896 = { # Luchuan
+	culture = bai
+	religion = ari
+}
+
+##d_takdung
+###c_jienqien
+10888 = { # Tuodong
+	culture = bai
+	religion = ari
+}
+
+###c_dungquen
+10886 = { # Dongchuan
+	culture = bai
+	religion = ari
+}
+
+###c_omung
+9500 = { # Wumeng
+	culture = bai
+	religion = ari
+}
+
+###c_jiekjieng
+9501 = { # Shicheng
+	culture = bai
+	religion = ari
+}
+
+##d_tunghai
+###c_tunghai
+10900 = { # Tonghai
+	culture = bai
+	religion = ari
+}
+
+###c_leuzi
+10903 = { # Liaozi
+	culture = bai
+	religion = ari
+}
+
+###c_hoamaan
+10904 = { # Heman
+	culture = bai
+	religion = ari
+}
+
+##d_nginshaang
+###c_nginshaang
+10828 = { # Yinsheng
+	culture = bai
+	religion = ari
+}
+
+###c_bonyit
+10833 = { # Buri
+	culture = bai
+	religion = ari
+}
+
+###c_hzkqi
+10836 = { # Lan Na
+	culture = bai
+	religion = ari
+}
+
+##d_wengqiang
+###c_wengqiang
+10873 = { # Yongchang
+	culture = bai
+	religion = ari
+}
+
+###c_taknam
+10864 = { # Tuonan
+	culture = bai
+	religion = ari
+}
+
+###c_nyuenhuaa
+10871 = { # Ruanhua
+	culture = bai
+	religion = ari
+}
+
+###c_watlei
+10868 = { # Yueli
+	culture = bai
+	religion = ari
+}
+
+##d_leixuz
+###c_leixuz
+10841 = { # Lishui
+	culture = bai
+	religion = ari
+}
+
+###c_gimshaang
+10848 = { # Jinsheng
+	culture = bai
+	religion = ari
+}
+
+###c_gimbao
+10844 = { # Jinbao
+	culture = bai
+	religion = ari
+}

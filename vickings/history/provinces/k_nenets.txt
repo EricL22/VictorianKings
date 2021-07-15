@@ -1,0 +1,121 @@
+10971 = {
+	
+	# Misc
+	culture = russian
+	religion = orthodox
+	
+	# History
+
+}
+
+10972 = {
+	
+	# Misc
+	culture = khanty
+	religion = siberian_pagan
+	1444.1.1 = {
+		culture = russian
+		religion = orthodox
+	}
+	
+	# History
+
+}
+
+10973 = {
+	
+	# Misc
+	culture = russian
+	religion = orthodox
+	
+	# History
+
+}
+
+10974 = {
+	
+	# Misc
+	culture = russian
+	religion = orthodox
+	
+	# History
+
+}
+
+10975 = {
+	
+	# Misc
+	culture = russian
+	religion = orthodox
+	
+	# History
+
+}
+
+10976 = {
+	
+	# Misc
+	culture = russian
+	religion = orthodox
+	
+	# History
+
+}
+
+10977 = {
+	
+	# Misc
+	culture = russian
+	religion = orthodox
+	
+	# History
+
+}
+
+10978 = {
+	
+	# Misc
+	culture = russian
+	religion = orthodox
+	
+	# History
+
+}
+
+10992 = {
+	
+	# Misc
+	culture = russian
+	religion = orthodox
+	
+	# History
+
+}
+
+10993 = {
+	
+	# Misc
+	culture = khanty
+	religion = siberian_pagan
+	1444.1.1 = {
+		culture = russian
+		religion = orthodox
+	}
+	
+	# History
+
+}
+
+10994 = {
+	
+	# Misc
+	culture = khanty
+	religion = siberian_pagan
+	1444.1.1 = {
+		culture = russian
+		religion = orthodox
+	}
+	
+	# History
+
+}

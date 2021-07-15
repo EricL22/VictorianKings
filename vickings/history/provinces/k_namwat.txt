@@ -1,0 +1,240 @@
+#k_namwat
+##d_cienghai
+###c_goang
+9670 = { # Nanhai
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_drieu
+9660 = { # Haiyang
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_sun
+9663 = { # Guishan
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_jieu
+9677 = { # Qujiang
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_doan
+9680 = { # Gaoyao
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_zn
+9684 = { # Enping
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_loai
+9688 = { # Haikang
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_ngie
+9692 = { # Shecheng
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_daam
+9695 = { # Yilun
+	culture = han
+	religion = sanjiaoheliu
+}
+
+##d_nengwan
+###c_yiong
+9698 = { # Puning
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_dzng
+9702 = { # Xinjin
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_siu
+9703 = { # Changlin
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_liem
+9707 = { # Hepu
+	culture = han
+	religion = sanjiaoheliu
+}
+
+##d_zienggong
+###c_guei
+9713 = { # Lingui
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_ha
+9709 = { # Linhe
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_ngo
+9720 = { # Cangwu
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_siang
+9723 = { # Yangshou
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_yiung
+9726 = { # Rongshui
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_liu
+9730 = { # Maping
+	culture = han
+	religion = sanjiaoheliu
+}
+
+##d_gianmu
+###c_yong
+9734 = { # Xuanhua
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_draang
+9740 = { # Shanglin
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_gui
+9744 = { # Yulin
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_kim
+9748 = { # Qinjiang
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_lung
+9751 = { # Wuqin
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_den
+9753 = { # Dujiu
+	culture = han
+	religion = sanjiaoheliu
+}
+
+##d_zienghai
+###c_gaao
+9760 = { # Songping
+	culture = viet
+	religion = mahayana
+}
+
+###c_piong
+9764 = { # Jianing
+	culture = viet
+	religion = mahayana
+}
+
+###c_liuk
+9755 = { # Wulei
+	culture = han
+	religion = sanjiaoheliu
+}
+
+9756 = { # Ninghai
+	culture = viet
+	religion = mahayana
+}
+
+9757 = { # Sumao
+	culture = viet
+	religion = mahayana
+}
+
+9776 = { # Siling
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_muan
+9758 = { # Wu'an
+	culture = viet
+	religion = mahayana
+}
+
+###c_tang
+9766 = { # Tangquan
+	culture = viet
+	religion = mahayana
+}
+
+###c_gaamdang
+9769 = { # Gantang
+	culture = viet
+	religion = mahayana
+}
+
+###c_goangnguan
+9772 = { # Guangyuan
+	culture = viet
+	religion = mahayana
+}
+
+9773 = { # Ande
+	culture = han
+	religion = sanjiaoheliu
+}
+
+9774 = { # Longcheng
+	culture = han
+	religion = sanjiaoheliu
+}
+
+###c_ai
+9777 = { # Jiuzhen
+	culture = viet
+	religion = mahayana
+}
+
+###c_hoan
+9780 = { # Jiude
+	culture = viet
+	religion = mahayana
+}
+
+###c_danglim
+9784 = { # Tanglin
+	culture = viet
+	religion = mahayana
+}

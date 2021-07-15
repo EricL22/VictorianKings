@@ -1,0 +1,277 @@
+10979 = {
+	
+	# Misc
+	culture = khanty
+	religion = siberian_pagan
+	1650.1.1 = {
+		culture = siberian
+	}
+	
+	# History
+
+}
+
+10980 = {
+	
+	# Misc
+	culture = khanty
+	religion = siberian_pagan
+	1650.1.1 = {
+		culture = siberian
+	}
+	
+	# History
+
+}
+
+10995 = {
+	
+	# Misc
+	culture = khanty
+	religion = siberian_pagan
+	1650.1.1 = {
+		culture = siberian
+		
+	}
+	
+	# History
+
+}
+
+10996 = {
+	
+	# Misc
+	culture = khanty
+	religion = siberian_pagan
+	1650.1.1 = {
+		culture = siberian
+		
+	}
+	
+	# History
+
+}
+
+10997 = {
+	
+	# Misc
+	culture = khanty
+	religion = siberian_pagan
+	1650.1.1 = {
+		culture = siberian
+		
+	}
+	
+	# History
+
+}
+
+10998 = {
+	
+	# Misc
+	culture = khanty
+	religion = siberian_pagan
+	1650.1.1 = {
+		culture = siberian
+		
+	}
+	
+	# History
+
+}
+
+10999 = {
+	
+	# Misc
+	culture = khanty
+	religion = siberian_pagan
+	1650.1.1 = {
+		culture = siberian
+		
+	}
+	
+	# History
+
+}
+
+11000 = {
+	
+	# Misc
+	culture = khanty
+	religion = siberian_pagan
+	1650.1.1 = {
+		culture = siberian
+		
+	}
+	
+	# History
+
+}
+
+11001 = {
+	
+	# Misc
+	culture = khanty
+	religion = siberian_pagan
+	1650.1.1 = {
+		culture = siberian
+		
+	}
+	
+	# History
+
+}
+
+11002 = {
+	
+	# Misc
+	culture = khanty
+	religion = siberian_pagan
+	1650.1.1 = {
+		culture = siberian
+		
+	}
+	
+	# History
+
+}
+
+11003 = {
+	
+	# Misc
+	culture = khanty
+	religion = siberian_pagan
+	1650.1.1 = {
+		culture = siberian
+		
+	}
+	
+	# History
+
+}
+
+11004 = {
+	
+	# Misc
+	culture = buryat
+	religion = siberian_pagan
+	1650.1.1 = {
+		culture = siberian
+		
+	}
+	
+	# History
+
+}
+
+11005 = {
+	
+	# Misc
+	culture = buryat
+	religion = siberian_pagan
+	1650.1.1 = {
+		culture = siberian
+		
+	}
+	
+	# History
+
+}
+
+11006 = {
+	
+	# Misc
+	culture = buryat
+	religion = siberian_pagan
+	1650.1.1 = {
+		culture = siberian
+		
+	}
+	
+	# History
+
+}
+
+11007 = {
+	
+	# Misc
+	culture = buryat
+	religion = siberian_pagan
+	1650.1.1 = {
+		culture = siberian
+		
+	}
+	
+	# History
+
+}
+
+11008 = {
+	
+	# Misc
+	culture = buryat
+	religion = siberian_pagan
+	1650.1.1 = {
+		culture = siberian
+		
+	}
+	
+	# History
+
+}
+
+11009 = {
+	
+	# Misc
+	culture = buryat
+	religion = siberian_pagan
+	1650.1.1 = {
+		culture = siberian
+		
+	}
+	
+	# History
+
+}
+
+11010 = {
+	
+	# Misc
+	culture = buryat
+	religion = siberian_pagan
+	1650.1.1 = {
+		culture = siberian
+		
+	}
+	
+	# History
+
+}
+
+11011 = {
+	
+	# Misc
+	culture = buryat
+	religion = siberian_pagan
+	1650.1.1 = {
+		culture = siberian
+		
+	}
+	
+	# History
+
+}
+
+11012 = {
+	
+	# Misc
+	culture = buryat
+	religion = siberian_pagan
+	1650.1.1 = {
+		culture = siberian
+		
+	}
+	
+	# History
+
+}
