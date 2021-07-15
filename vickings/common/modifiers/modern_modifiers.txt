@@ -1,0 +1,42 @@
+﻿### Special modifiers used in the starting scenarios...
+
+emperor_of_russia_modifier = {
+	icon = prestige_positive
+	army_maintenance_mult = -0.5
+	domain_tax_mult = 1.0
+	vassal_tax_mult = 0.1
+	same_culture_opinion = 10
+	monthly_prestige_gain_mult = 0.2
+	owned_hostile_scheme_success_chance_add = 10
+	movement_speed = 1.0
+}
+
+empress_of_russia_modifier = {
+	icon = prestige_positive
+	army_maintenance_mult = -0.5
+	same_culture_opinion = 10
+	monthly_prestige_gain_mult = 0.1
+	enemy_hostile_scheme_success_chance_add = -10
+}
+
+liberal_party_modifier = {
+	icon = diplomacy_positive
+}
+socialist_party_modifier = {
+	icon = diplomacy_positive
+}
+reactionary_party_modifier = {
+	icon = diplomacy_positive
+}
+fascist_party_modifier = {
+	icon = diplomacy_positive
+}
+conservative_party_modifier = {
+	icon = diplomacy_positive
+}
+communist_party_modifier = {
+	icon = diplomacy_positive
+}
+anarchist_party_modifier = {
+	icon = diplomacy_positive
+}

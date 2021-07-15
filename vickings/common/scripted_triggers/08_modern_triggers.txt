@@ -1,0 +1,168 @@
+﻿can_change_from_republican_succession_law_trigger = {
+	trigger_if = {
+		limit = {
+			has_realm_law = city_succession_law
+		}
+		OR = {
+			prestige_level >= 4
+			AND = {
+				is_independent_ruler = yes
+				prestige_level >= 2
+			}
+		}
+	}
+}
+
+historical_succession_access_city_succession_law_trigger = {
+	OR = {
+		is_chinese_civilian_governor_trigger = yes
+		has_title = title:k_mongolia
+		has_title = title:k_tuva
+		has_title = title:k_dzungaria
+		has_title = title:k_amdo
+	}
+}
+
+war_declarer_needs_hook_on_liege = {
+	scope:actor = {
+		trigger_if = {
+			limit = {
+				is_independent_ruler = no
+				liege = scope:recipient.liege
+				NOT = { liege = scope:recipient }
+				liege = { has_realm_law_flag = vassal_internal_wars_banned }
+				NOT = {
+					vassal_contract_has_flag = vassal_contract_war_override
+				}
+			}
+			always = yes
+		}
+		trigger_else_if = {
+			limit = {
+				is_independent_ruler = no
+				NOT = { liege = scope:recipient }
+				liege = { has_realm_law_flag = vassal_all_wars_banned }
+				NOT = {
+					vassal_contract_has_flag = vassal_contract_war_override
+				}
+			}
+			always = yes
+		}
+		trigger_else_if = {
+			limit = {
+				is_independent_ruler = no
+				NOT = { liege = scope:recipient }
+				has_title = title:k_british_east_indies
+				NOT = {
+					scope:recipient = {
+						OR = {
+							any_realm_province = {
+								geographical_region = world_india
+							}
+							any_realm_county = {
+								target_is_de_jure_liege_or_above = title:k_pagan
+							}
+						}
+					}
+				}
+				NOT = {
+					vassal_contract_has_flag = vassal_contract_war_override
+				}
+			}
+			always = yes
+		}
+		trigger_else = {
+			always = no
+		}
+	}
+}
+
+holds_valid_merchant_republic = {
+	exists = primary_title
+	has_government = republic_government
+	primary_title.tier >= tier_duchy
+	OR = {
+		is_independent_ruler = yes
+		liege = { has_government = feudal_government }
+	}
+}
+
+has_centralized_realm = {
+	primary_title = {
+		is_target_in_variable_list = { name = enacted_laws_list target = flag:admin_centralized }
+	}
+}
+
+can_pass_government_reforms = {
+	custom_description = {
+		text = "reform_independent_requirement"
+		subject = root
+		is_independent_ruler = yes
+	}
+	custom_description = {
+		text = "recently_passed_reform"
+		subject = root
+		primary_title = {
+			NOT = { has_variable = recent_reform_passed }
+		}
+	}
+}
+
+has_any_political_party = {
+	OR = {
+		has_character_flag = liberal_party
+		has_character_flag = socialist_party
+		has_character_flag = reactionary_party
+		has_character_flag = fascist_party
+		has_character_flag = conservative_party
+		has_character_flag = communist_party
+		has_character_flag = anarchist_party
+	}
+}
+
+has_same_political_party_as_root_trigger = {
+	OR = {
+		AND = {
+			has_character_flag = liberal_party
+			root = {
+				has_character_flag = liberal_party
+			}
+		}
+		AND = {
+			has_character_flag = socialist_party
+			root = {
+				has_character_flag = socialist_party
+			}
+		}
+		AND = {
+			has_character_flag = reactionary_party
+			root = {
+				has_character_flag = reactionary_party
+			}
+		}
+		AND = {
+			has_character_flag = fascist_party
+			root = {
+				has_character_flag = fascist_party
+			}
+		}
+		AND = {
+			has_character_flag = conservative_party
+			root = {
+				has_character_flag = conservative_party
+			}
+		}
+		AND = {
+			has_character_flag = communist_party
+			root = {
+				has_character_flag = communist_party
+			}
+		}
+		AND = {
+			has_character_flag = anarchist_party
+			root = {
+				has_character_flag = anarchist_party
+			}
+		}
+	}
+}

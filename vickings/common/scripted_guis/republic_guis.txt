@@ -1,0 +1,280 @@
+﻿has_republic_government = {
+	scope = character
+	is_shown = {
+		OR = {
+			holds_valid_merchant_republic = yes
+			liege = {
+				holds_valid_merchant_republic = yes
+			}
+		}
+	}
+}
+
+can_pass_four_year_limit = {
+	scope = character
+	is_valid = {
+		holds_valid_merchant_republic = yes
+		custom_description = {
+			text = "recently_passed_reform"
+			subject = root
+			primary_title = {
+				NOT = { has_variable = recent_reform_passed }
+			}
+		}
+		primary_title = {
+			NOT = { is_target_in_variable_list = { name = enacted_laws_list target = flag:four_year_term } }
+		}
+	}
+	effect = {
+		custom_tooltip = enact_term_limit
+		primary_title = {
+			clear_term_limit_reforms = yes
+			add_to_variable_list = { name = enacted_laws_list target = flag:four_year_term }
+			set_variable = { name = recent_reform_passed value = flag:recent_reform_passed years = 5 }
+		}
+	}
+}
+has_four_year_term_limit = {
+	is_valid = {
+		holds_valid_merchant_republic = yes
+		primary_title = {
+			is_target_in_variable_list = { name = enacted_laws_list target = flag:four_year_term }
+		}
+	}
+}
+
+can_pass_five_year_limit = {
+	scope = character
+	is_valid = {
+		holds_valid_merchant_republic = yes
+		custom_description = {
+			text = "recently_passed_reform"
+			subject = root
+			primary_title = {
+				NOT = { has_variable = recent_reform_passed }
+			}
+		}
+		primary_title = {
+			NOT = { is_target_in_variable_list = { name = enacted_laws_list target = flag:five_year_term } }
+		}
+	}
+	effect = {
+		custom_tooltip = enact_term_limit
+		primary_title = {
+			clear_term_limit_reforms = yes
+			add_to_variable_list = { name = enacted_laws_list target = flag:five_year_term }
+			set_variable = { name = recent_reform_passed value = flag:recent_reform_passed years = 5 }
+		}
+	}
+}
+has_five_year_term_limit = {
+	is_valid = {
+		holds_valid_merchant_republic = yes
+		primary_title = {
+			is_target_in_variable_list = { name = enacted_laws_list target = flag:five_year_term }
+		}
+	}
+}
+
+can_pass_six_year_limit = {
+	scope = character
+	is_valid = {
+		holds_valid_merchant_republic = yes
+		custom_description = {
+			text = "recently_passed_reform"
+			subject = root
+			primary_title = {
+				NOT = { has_variable = recent_reform_passed }
+			}
+		}
+		primary_title = {
+			NOT = { is_target_in_variable_list = { name = enacted_laws_list target = flag:six_year_term } }
+		}
+	}
+	effect = {
+		custom_tooltip = enact_term_limit
+		primary_title = {
+			clear_term_limit_reforms = yes
+			add_to_variable_list = { name = enacted_laws_list target = flag:six_year_term }
+			set_variable = { name = recent_reform_passed value = flag:recent_reform_passed years = 5 }
+		}
+	}
+}
+has_six_year_term_limit = {
+	is_valid = {
+		holds_valid_merchant_republic = yes
+		primary_title = {
+			is_target_in_variable_list = { name = enacted_laws_list target = flag:six_year_term }
+		}
+	}
+}
+
+can_pass_seven_year_limit = {
+	scope = character
+	is_valid = {
+		holds_valid_merchant_republic = yes
+		custom_description = {
+			text = "recently_passed_reform"
+			subject = root
+			primary_title = {
+				NOT = { has_variable = recent_reform_passed }
+			}
+		}
+		primary_title = {
+			NOT = { is_target_in_variable_list = { name = enacted_laws_list target = flag:seven_year_term } }
+		}
+	}
+	effect = {
+		custom_tooltip = enact_term_limit
+		primary_title = {
+			clear_term_limit_reforms = yes
+			add_to_variable_list = { name = enacted_laws_list target = flag:seven_year_term }
+			set_variable = { name = recent_reform_passed value = flag:recent_reform_passed years = 5 }
+		}
+	}
+}
+has_seven_year_term_limit = {
+	is_valid = {
+		holds_valid_merchant_republic = yes
+		primary_title = {
+			is_target_in_variable_list = { name = enacted_laws_list target = flag:seven_year_term }
+		}
+	}
+}
+
+can_pass_limit_off = {
+	scope = character
+	is_valid = {
+		holds_valid_merchant_republic = yes
+		custom_description = {
+			text = "recently_passed_reform"
+			subject = root
+			primary_title = {
+				NOT = { has_variable = recent_reform_passed }
+			}
+		}
+		primary_title = {
+			NOT = { is_target_in_variable_list = { name = enacted_laws_list target = flag:life_title_term } }
+		}
+		custom_description = {
+			text = "prestige_level_greater_or_equal_four"
+			subject = root
+			prestige_level >= 4
+		}
+	}
+	effect = {
+		custom_tooltip = enact_term_limit
+		primary_title = {
+			clear_term_limit_reforms = yes
+			add_to_variable_list = { name = enacted_laws_list target = flag:life_title_term }
+			set_variable = { name = recent_reform_passed value = flag:recent_reform_passed years = 5 }
+		}
+	}
+}
+has_term_limit_off = {
+	is_valid = {
+		holds_valid_merchant_republic = yes
+		primary_title = {
+			is_target_in_variable_list = { name = enacted_laws_list target = flag:life_title_term }
+		}
+	}
+}
+
+can_pass_admin_feudal = {
+	scope = character
+	is_valid = {
+		can_pass_government_reforms = yes
+		primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:admin_centralized } }
+	}
+	effect = {
+		custom_tooltip = enact_admin_feudal
+		primary_title = {
+			remove_list_variable = { name = enacted_laws_list target = flag:admin_centralized }
+			set_variable = { name = recent_reform_passed value = flag:recent_reform_passed years = 5 }
+		}
+	}
+}
+has_admin_feudal = {
+	is_valid = {
+		top_liege.primary_title = {
+			NOT = { is_target_in_variable_list = { name = enacted_laws_list target = flag:admin_centralized } }
+		}
+	}
+}
+
+can_pass_admin_centralized = {
+	scope = character
+	is_valid = {
+		can_pass_government_reforms = yes
+		primary_title = { NOT = { is_target_in_variable_list = { name = enacted_laws_list target = flag:admin_centralized } } }
+		custom_description = {
+			text = "requires_absolutism_innovation"
+			subject = root
+			OR = {
+				has_culture = culture:han
+				culture = { has_innovation = innovation_absolutism }
+			}
+		}
+	}
+	effect = {
+		custom_tooltip = enact_admin_centralized
+		primary_title = {
+			add_to_variable_list = { name = enacted_laws_list target = flag:admin_centralized }
+			set_variable = { name = recent_reform_passed value = flag:recent_reform_passed years = 5 }
+		}
+	}
+}
+has_admin_centralized = {
+	is_valid = {
+		top_liege.primary_title = {
+			is_target_in_variable_list = { name = enacted_laws_list target = flag:admin_centralized }
+		}
+	}
+}
+
+root_no_political_party = {
+	is_valid = {
+		has_any_political_party = no
+		OR = {
+			has_government = republic_government
+			liege = {
+				has_government = republic_government
+			}
+		}
+	}
+}
+root_is_reactionary = {
+	is_valid = {
+		has_character_flag = reactionary_party
+	}
+}
+root_is_fascist = {
+	is_valid = {
+		has_character_flag = fascist_party
+	}
+}
+root_is_conservative = {
+	is_valid = {
+		has_character_flag = conservative_party
+	}
+}
+root_is_liberal = {
+	is_valid = {
+		has_character_flag = liberal_party
+	}
+}
+root_is_socialist = {
+	is_valid = {
+		has_character_flag = socialist_party
+	}
+}
+root_is_communist = {
+	is_valid = {
+		has_character_flag = communist_party
+	}
+}
+root_is_anarchist = {
+	is_valid = {
+		has_character_flag = anarchist_party
+	}
+}

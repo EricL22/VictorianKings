@@ -1,0 +1,257 @@
+﻿#############
+# Other
+#############
+
+# Confucianism
+
+changan = {
+	county = c_giengdrieu
+	barony = b_driangan
+
+	character_modifier = {
+		name = holy_site_changan_effect_name
+		vassal_limit = 5
+		army_maintenance_mult = -0.05
+	}
+}
+
+luoyang = {
+	county = c_hanam
+	barony = b_lakyiang
+
+	character_modifier = {
+		name = holy_site_luoyang_effect_name
+		monthly_piety_gain_mult = 0.2
+	}
+}
+
+qufu = {
+	county = c_yuen
+	barony = b_kiokbu
+
+	character_modifier = {
+		name = holy_site_qufu_effect_name
+		clergy_opinion = 5
+		learning_per_piety_level = 1
+	}
+}
+
+guangchuan = {
+	county = c_jgi
+
+	character_modifier = {
+		name = holy_site_guangchuan_effect_name
+		monthly_county_control_change_factor = 0.1
+	}
+}
+
+zhangqiu = {
+	county = c_zei
+	barony = b_jiangkiu
+
+	character_modifier = {
+		name = holy_site_zhangqiu_effect_name
+		vassal_opinion = 5
+	}
+}
+
+luyi = {
+	county = c_bak
+	barony = b_lukyip
+
+	character_modifier = {
+		name = holy_site_luyi_effect_name
+		religious_vassal_opinion = 10
+	}
+}
+
+jinling = {
+	county = c_xing
+	barony = b_jiangnguan
+
+	character_modifier = {
+		name = holy_site_jinling_effect_name
+		stress_loss_mult = 0.2
+	}
+}
+
+yingdao = {
+	county = c_dao
+	barony = b_hozngdao
+
+	character_modifier = {
+		name = holy_site_yingdao_effect_name
+		piety_level_impact_mult = 0.2
+	}
+}
+
+linchuan = {
+	county = c_pu
+	barony = b_limquen
+
+	character_modifier = {
+		name = holy_site_linchuan_effect_name
+		stewardship_per_piety_level = 1
+		vassal_tax_mult = 0.05
+	}
+}
+
+yichuan = {
+	county = c_hanam
+	barony = b_yikuat
+
+	character_modifier = {
+		name = holy_site_yichuan_effect_name
+		short_reign_duration_mult = -0.1
+		long_reign_bonus_mult = 0.1
+	}
+}
+
+youxi = {
+	county = c_buk
+	barony = b_yukei
+
+	character_modifier = {
+		name = holy_site_youxi_effect_name
+		tyranny_gain_mult = -0.2
+	}
+}
+
+# Taoism
+
+maoshan = {
+	county = c_xing
+	barony = b_gouyiong
+
+	character_modifier = {
+		name = holy_site_maoshan_effect_name
+		monthly_piety_gain_mult = 0.2
+	}
+}
+
+rencheng = {
+	county = c_yuen
+	barony = b_nyimjieng
+
+	character_modifier = {
+		name = holy_site_rencheng_effect_name
+		learning_per_piety_level = 1
+	}
+}
+
+songshan = {
+	county = c_hanam
+	barony = b_dzngbiong
+
+	character_modifier = {
+		name = holy_site_songshan_effect_name
+		diplomacy = 1
+		liege_opinion = 5
+	}
+}
+
+wangwu = {
+	county = c_hanam
+	barony = b_wangwuk
+
+	character_modifier = {
+		name = holy_site_wangwu_effect_name
+		health = 0.1
+	}
+}
+
+longhushan = {
+	county = c_sin
+	barony = b_guikei
+
+	character_modifier = {
+		name = holy_site_longhushan_effect_name
+		monthly_prestige_gain_mult = 0.2
+		same_faith_opinion = 5
+	}
+}
+
+gezaoshan = {
+	county = c_git
+	barony = b_singam
+
+	character_modifier = {
+		name = holy_site_gezaoshan_effect_name
+		health = 0.1
+	}
+}
+
+hanzhong = {
+	county = c_hingnguan
+	barony = b_namdrieng
+
+	character_modifier = {
+		name = holy_site_hanzhong_effect_name
+		monthly_stewardship_lifestyle_xp_gain_mult = 0.2
+	}
+}
+
+hemingshan = {
+	county = c_giong
+	barony = b_daaiyip
+
+	character_modifier = {
+		name = holy_site_hemingshan_effect_name
+		learning_per_piety_level = 1
+		diplomacy = 1
+	}
+}
+
+yonglegong = {
+	county = c_xiem
+	barony = b_nyueijieng
+
+	character_modifier = {
+		name = holy_site_yonglegong_effect_name
+		martial = 1
+		learning = 1
+	}
+}
+
+chongyanggong = {
+	county = c_giengdrieu
+	barony = b_hohzen
+
+	character_modifier = {
+		name = holy_site_chongyanggong_effect_name
+		learning_per_piety_level = 1
+		monthly_piety_gain_mult = 0.1
+	}
+}
+
+baiyunguan = {
+	county = c_you
+	barony = b_geihzen
+
+	character_modifier = {
+		name = holy_site_baiyunguan_effect_name
+		liege_opinion = 5
+		stewardship = 1
+	}
+}
+
+ninghai = {
+	county = c_bdzng
+	barony = b_mzubieng
+
+	character_modifier = {
+		name = holy_site_ninghai_effect_name
+		same_faith_opinion = 5
+		monthly_prestige_gain_mult = 0.1
+	}
+}
+
+luling = {
+	county = c_git
+	barony = b_lioling
+
+	character_modifier = {
+		name = holy_site_luling_effect_name
+		stress_loss_mult = 0.2
+	}
+}

@@ -1,0 +1,10 @@
+﻿opinion_chinese_imperial_tributary = {
+	opinion = -10
+}
+opinion_broke_chinese_tributary = {
+	opinion = 10
+	decaying = yes
+}
+opinion_ceded_rightful_lands = {
+	opinion = 25
+}

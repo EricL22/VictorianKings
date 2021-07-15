@@ -1,0 +1,24 @@
+﻿
+is_chinese_civilian_governor_trigger = {
+	OR = {
+		has_title = title:k_guangxi
+		has_title = title:k_guangdong
+		has_title = title:k_fujian
+		has_title = title:k_zhejiang
+		has_title = title:k_jiangxi
+		has_title = title:k_hunan
+		has_title = title:k_hubei
+		has_title = title:k_anhui
+		has_title = title:k_sichuan
+		has_title = title:k_shanxi
+		has_title = title:k_jingxi
+		has_title = title:k_henan
+		has_title = title:k_jiangsu
+		has_title = title:k_shandong
+		has_title = title:k_hebei
+		has_title = title:k_shaanxi
+		has_title = title:k_liaoning
+		has_title = title:k_gansu
+		has_title = title:k_yunnan
+	}
+}

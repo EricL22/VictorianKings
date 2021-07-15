@@ -1,0 +1,115 @@
+﻿# character just about to die in root scope
+# if a killer is know, it's set as scope:killer
+#Triggered by code
+
+on_death = {
+	effect = {
+		if = {
+			limit = {
+				has_character_flag = semi_salic_law
+				NOT = {
+					root.dynasty = primary_heir.dynasty
+				}
+				has_realm_law = male_only_law
+			}
+			add_realm_law = male_preference_law
+		}
+		if = {
+			limit = {
+				has_character_flag = semi_salic_law
+			}
+			primary_heir = { add_character_flag = semi_salic_law }
+		}
+		if = {
+			limit = {
+				has_character_flag = waiting_for_tarbagatai
+			}
+			primary_heir = { trigger_event = { id = moderntimes.14 days = { 7 14 } } }
+		}
+	}
+	events = {
+		china_dyn.36		# Temple names
+		china_dyn.38		# Temple names
+		china_dyn.39		# Temple names
+		china_dyn.50		# Posthumous names
+	}
+}
+
+on_game_start = {
+	on_actions = {
+		prepare_government_reforms
+	}
+}
+
+prepare_government_reforms = {
+	effect = {
+		every_independent_ruler = {
+			limit = {
+				OR = {
+					has_culture = culture:han
+					culture = { has_innovation = innovation_absolutism }
+				}
+			}
+			primary_title = {
+				add_to_variable_list = { name = enacted_laws_list target = flag:admin_centralized }
+			}
+		}
+	}
+}
+
+four_year_elections = {
+	effect = {
+		every_independent_ruler = {
+			limit = { holds_valid_merchant_republic = yes primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:four_year_term } }
+				is_at_war_as_attacker = no
+			}
+			trigger_event = { id = republic_election.1 days = { 6 12 } }
+		}
+	}
+	on_actions = {
+		delay = { years = 4 }
+		four_year_elections
+	}
+}
+five_year_elections = {
+	effect = {
+		every_independent_ruler = {
+			limit = { holds_valid_merchant_republic = yes primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:five_year_term } }
+				is_at_war_as_attacker = no
+			}
+			trigger_event = { id = republic_election.1 days = { 6 12 } }
+		}
+	}
+	on_actions = {
+		delay = { years = 5 }
+		five_year_elections
+	}
+}
+six_year_elections = {
+	effect = {
+		every_independent_ruler = {
+			limit = { holds_valid_merchant_republic = yes primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:six_year_term } }
+				is_at_war_as_attacker = no
+			}
+			trigger_event = { id = republic_election.1 days = { 6 12 } }
+		}
+	}
+	on_actions = {
+		delay = { years = 6 }
+		six_year_elections
+	}
+}
+seven_year_elections = {
+	effect = {
+		every_independent_ruler = {
+			limit = { holds_valid_merchant_republic = yes primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:seven_year_term } }
+				is_at_war_as_attacker = no
+			}
+			trigger_event = { id = republic_election.1 days = { 6 12 } }
+		}
+	}
+	on_actions = {
+		delay = { years = 7 }
+		seven_year_elections
+	}
+}

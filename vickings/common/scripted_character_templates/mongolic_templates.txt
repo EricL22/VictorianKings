@@ -1,0 +1,13 @@
+﻿
+bogd_khan_character_template = {
+	age = 43 # age around 1912
+	gender = male
+	dynasty_house=house_bogd
+	faith = "lamaism"
+	culture = culture:mongol
+	trait = ambitious
+	trait = diligent
+	trait = zealous
+	trait = shrewd
+	trait = education_learning_3
+}

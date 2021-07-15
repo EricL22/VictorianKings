@@ -1,0 +1,1034 @@
+﻿unite_the_two_sicilies_decision_effects = {
+	#Prestige
+	add_prestige = massive_prestige_gain
+
+	#Laws
+	if = {
+		limit = { has_realm_law = crown_authority_0 }
+		add_realm_law_skip_effects = crown_authority_2
+	}
+	else_if = {
+		limit = {
+			OR = {
+				has_realm_law = crown_authority_1
+				has_realm_law = crown_authority_2
+			}
+		}
+		add_realm_law_skip_effects = crown_authority_3
+	}
+
+	#Handle other Kingdom titles
+	title:k_sicily = { add_to_list = sicilian_kingdoms }
+	title:k_naples = { add_to_list = sicilian_kingdoms }
+	title:k_trinacria = { add_to_list = sicilian_kingdoms }
+
+	custom_tooltip = unite_the_two_sicilies_decision_titles_tt
+	hidden_effect = {
+		every_in_list = {
+			list = sicilian_kingdoms
+			limit = {
+				NOT = { this = scope:sicilies_uniter.primary_title }
+				#scope:sicilies_uniter = { completely_controls = prev }
+			}
+
+			#De jure shift all held spanish titles into your primary title
+			every_in_de_jure_hierarchy = {
+				limit = { tier = tier_duchy }
+				set_de_jure_liege_title = scope:sicilies_uniter.primary_title
+			}
+
+			#Destroys them all!
+			scope:sicilies_uniter = { destroy_title = prev }
+		}
+	}
+	scope:sicilies_uniter.primary_title = {
+		set_title_name = k_tts
+	}
+}
+
+british_raj_decision_effect = {
+	#Create the title
+	create_title_and_vassal_change = {
+		type = created
+		save_scope_as = title_change
+		add_claim_on_loss = no
+	}
+	title:e_india = {
+		change_title_holder = {
+			holder = root
+			change = scope:title_change
+		}
+	}
+	resolve_title_and_vassal_change = scope:title_change
+
+	title:e_rajastan = { add_to_list = indian_empire }
+	title:e_deccan = { add_to_list = indian_empire }
+	title:e_bengal = { add_to_list = indian_empire }
+
+	every_in_list = {
+		list = indian_empire
+		every_in_de_jure_hierarchy = {
+			limit = {
+				tier = tier_kingdom
+			}
+			set_de_jure_liege_title = title:e_india
+		}
+	}
+
+	hidden_effect = {
+		if = {
+			limit = { has_title = title:e_rajastan }
+			destroy_title = title:e_rajastan
+		}
+		if = {
+			limit = { has_title = title:e_deccan }
+			destroy_title = title:e_deccan
+		}
+		if = {
+			limit = { has_title = title:e_bengal }
+			destroy_title = title:e_bengal
+		}
+	}
+}
+
+reset_poland_de_jure_effect = {
+	title:c_wielunska = {
+		set_de_jure_liege_title = title:d_kuyavia
+	}
+	title:c_kujawy = {
+		set_de_jure_liege_title = title:d_kuyavia
+	}
+	title:c_dobrzynska = {
+		set_de_jure_liege_title = title:d_kuyavia
+	}
+	title:d_kuyavia = {
+		set_capital_county = title:c_kujawy
+	}
+	title:d_wielkopolska = {
+		set_de_jure_liege_title = title:k_poland
+	}
+	title:d_pomerelia = {
+		set_de_jure_liege_title = title:k_poland
+	}
+
+	title:c_lubusz = {
+		set_de_jure_liege_title = title:d_lower_silesia
+	}
+	title:c_slupsk = {
+		set_de_jure_liege_title = title:d_pommerania
+	}
+	title:c_miastko = {
+		set_de_jure_liege_title = title:d_pommerania
+	}
+	title:c_belz = {
+		set_de_jure_liege_title = title:d_cherven_cities
+	}
+	title:c_peremyshl = {
+		set_de_jure_liege_title = title:d_cherven_cities
+	}
+	title:c_sacz = {
+		set_de_jure_liege_title = title:d_lesser_poland
+	}
+	title:c_tarnowska = {
+		set_de_jure_liege_title = title:d_lesser_poland
+	}
+	title:c_zaslavl = {
+		set_de_jure_liege_title = title:d_halych
+	}
+
+	title:d_halych = {
+		set_de_jure_liege_title = title:k_galicia-volhynia
+	}
+
+	if = {
+		limit = { exists = title:k_lodomeria.holder }
+		destroy_title = title:k_lodomeria
+	}
+	add_pressed_claim = title:c_bethen
+}
+
+add_ai_national_cb_titles = {
+	scope:defender = {
+		every_realm_de_jure_duchy = {
+			limit = {
+				NOT = { is_in_list = target_titles }
+				target_is_de_jure_liege_or_above = scope:attacker.primary_title.de_jure_liege
+	
+				# SPECIAL CASES
+				# you cannot conquer Rome through this cb or else the Papacy will be destroyed
+				trigger_if = {
+					limit = {
+						title:c_roma.holder = title:k_papal_state.holder
+					}
+					NOT = { this = title:d_latium }
+				}
+
+				# Friuli will have a single county conquered, not the entire duchy
+				NOT = { this = title:d_friuli }
+
+				# you cannot conquer low countries or neutral swiss
+				NOT = {
+					OR = {
+						de_jure_liege = title:k_belgium
+						de_jure_liege = title:k_frisia
+						de_jure_liege = title:k_switzerland
+					}
+				}
+			}
+			add_to_list = target_titles
+		}
+		every_realm_county = {
+			limit = {
+				NOT = { is_in_list = target_titles }
+
+				# for historical accuracy
+				this = title:c_friuli
+				target_is_de_jure_liege_or_above = scope:attacker.primary_title.de_jure_liege
+			}
+			add_to_list = target_titles
+		}
+	}
+}
+
+form_romania_decision_effects = {
+	#Prestige
+	add_prestige = massive_prestige_gain
+
+	#Laws
+	if = {
+		limit = { has_realm_law = crown_authority_0 }
+		add_realm_law_skip_effects = crown_authority_2
+	}
+	else_if = {
+		limit = {
+			OR = {
+				has_realm_law = crown_authority_1
+				has_realm_law = crown_authority_2
+			}
+		}
+		add_realm_law_skip_effects = crown_authority_3
+	}
+
+	#Create the title and make it primary
+	create_title_and_vassal_change = {
+		type = created
+		save_scope_as = title_change
+		add_claim_on_loss = no
+	}
+	title:k_romania = {
+		change_title_holder = {
+			holder = root
+			change = scope:title_change
+		}
+	}
+	resolve_title_and_vassal_change = scope:title_change
+
+	set_primary_title_to = title:k_romania
+	title:k_romania = { save_scope_as = romania } #For localisation
+
+	#Handle other Kingdom titles
+	title:k_dacia = { add_to_list = romanian_kingdoms }
+	title:k_moldavia = { add_to_list = romanian_kingdoms }
+
+	custom_tooltip = form_romania_decision_titles_tt
+	hidden_effect = {
+		every_in_list = {
+			list = romanian_kingdoms
+
+			#De jure shift all held spanish titles into your primary title
+			every_in_de_jure_hierarchy = {
+				limit = { tier = tier_duchy }
+				set_de_jure_liege_title = scope:vlach_uniter.primary_title
+			}
+
+			#Destroys them all!
+			scope:vlach_uniter = { destroy_title = prev }
+		}
+	}
+}
+
+start_british_invasion_effect = {
+	save_temporary_scope_as = mongol_conqueror
+	if = {
+		limit = {
+			current_date < 1960.1.1
+			any_neighboring_top_liege_realm_owner = {
+				has_title = title:e_maratha
+				NOT = { scope:mongol_conqueror = { has_truce = PREV } }
+				scope:mongol_conqueror.max_military_strength > this.max_military_strength
+			}
+		}
+		random_neighboring_top_liege_realm_owner = {
+			limit = {
+				has_title = title:e_maratha
+			}
+			save_temporary_scope_as = first_target
+		}
+		scope:mongol_conqueror = {
+			start_war = {
+				cb = indian_hegemony_cb
+				target = scope:first_target
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			current_date > 1870.1.1
+			current_date < 1960.1.1
+			any_neighboring_top_liege_realm_owner = {
+				any_sub_realm_county = {
+					target_is_de_jure_liege_or_above = title:k_pagan
+				}
+				NOT = { scope:mongol_conqueror = { has_truce = PREV } }
+				scope:mongol_conqueror.max_military_strength > this.max_military_strength
+			}
+		}
+		random_neighboring_top_liege_realm_owner = {
+			limit = {
+				any_sub_realm_county = {
+					target_is_de_jure_liege_or_above = title:k_pagan
+				}
+			}
+			save_temporary_scope_as = first_target
+		}
+		scope:mongol_conqueror = {
+			start_war = {
+				cb = invasion_war
+				target = scope:first_target
+				target_title = title:k_pagan
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			current_date > 1824.1.1
+			any_neighboring_top_liege_realm_owner = {
+				any_sub_realm_county = {
+					target_is_de_jure_liege_or_above = title:d_arakan
+				}
+				NOT = { scope:mongol_conqueror = { has_truce = PREV } }
+				NOT = { scope:mongol_conqueror = { is_allied_to = PREV } }
+				scope:mongol_conqueror.max_military_strength > this.max_military_strength
+			}
+		}
+		random_neighboring_top_liege_realm_owner = {
+			limit = {
+				any_sub_realm_county = {
+					target_is_de_jure_liege_or_above = title:d_arakan
+				}
+			}
+			save_temporary_scope_as = first_target
+		}
+		scope:mongol_conqueror = {
+			start_war = {
+				cb = duchy_conquest_cb
+				target = scope:first_target
+				target_title = title:d_arakan
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			current_date > 1824.1.1
+			any_neighboring_top_liege_realm_owner = {
+				any_sub_realm_county = {
+					target_is_de_jure_liege_or_above = title:d_tenasserim
+				}
+				NOT = { scope:mongol_conqueror = { has_truce = PREV } }
+				NOT = { scope:mongol_conqueror = { is_allied_to = PREV } }
+				scope:mongol_conqueror.max_military_strength > this.max_military_strength
+			}
+		}
+		random_neighboring_top_liege_realm_owner = {
+			limit = {
+				any_sub_realm_county = {
+					target_is_de_jure_liege_or_above = title:d_tenasserim
+				}
+			}
+			save_temporary_scope_as = first_target
+		}
+		scope:mongol_conqueror = {
+			start_war = {
+				cb = duchy_conquest_cb
+				target = scope:first_target
+				target_title = title:d_tenasserim
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			current_date > 1840.1.1
+			current_date < 1960.1.1
+			any_neighboring_top_liege_realm_owner = {
+				any_sub_realm_county = {
+					target_is_de_jure_liege_or_above = title:k_maryul
+				}
+				NOT = { scope:mongol_conqueror = { has_truce = PREV } }
+				scope:mongol_conqueror.max_military_strength > this.max_military_strength
+			}
+		}
+		random_neighboring_top_liege_realm_owner = {
+			limit = {
+				any_sub_realm_county = {
+					target_is_de_jure_liege_or_above = title:k_maryul
+				}
+			}
+			save_temporary_scope_as = first_target
+		}
+		scope:mongol_conqueror = {
+			start_war = {
+				cb = invasion_war
+				target = scope:first_target
+				target_title = title:k_maryul
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			current_date > 1840.1.1
+			current_date < 1960.1.1
+			any_neighboring_top_liege_realm_owner = {
+				any_sub_realm_county = {
+					target_is_de_jure_liege_or_above = title:k_kashmir
+				}
+				NOT = { scope:mongol_conqueror = { has_truce = PREV } }
+				scope:mongol_conqueror.max_military_strength > this.max_military_strength
+			}
+		}
+		random_neighboring_top_liege_realm_owner = {
+			limit = {
+				any_sub_realm_county = {
+					target_is_de_jure_liege_or_above = title:k_kashmir
+				}
+			}
+			save_temporary_scope_as = first_target
+		}
+		scope:mongol_conqueror = {
+			start_war = {
+				cb = invasion_war
+				target = scope:first_target
+				target_title = title:k_kashmir
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			current_date > 1840.1.1
+			current_date < 1960.1.1
+			any_neighboring_top_liege_realm_owner = {
+				any_sub_realm_county = {
+					target_is_de_jure_liege_or_above = title:k_punjab
+				}
+				NOT = { scope:mongol_conqueror = { has_truce = PREV } }
+				NOT = { scope:mongol_conqueror = { is_allied_to = PREV } }
+				scope:mongol_conqueror.max_military_strength > this.max_military_strength
+			}
+		}
+		random_neighboring_top_liege_realm_owner = {
+			limit = {
+				any_sub_realm_county = {
+					target_is_de_jure_liege_or_above = title:k_punjab
+				}
+			}
+			save_temporary_scope_as = first_target
+		}
+		scope:mongol_conqueror = {
+			start_war = {
+				cb = invasion_war
+				target = scope:first_target
+				target_title = title:k_punjab
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			current_date > 1850.1.1
+			any_neighboring_top_liege_realm_owner = {
+				any_sub_realm_county = {
+					target_is_de_jure_liege_or_above = title:d_ramannadesa
+				}
+				NOT = { scope:mongol_conqueror = { has_truce = PREV } }
+				NOT = { scope:mongol_conqueror = { is_allied_to = PREV } }
+				scope:mongol_conqueror.max_military_strength > this.max_military_strength
+			}
+		}
+		random_neighboring_top_liege_realm_owner = {
+			limit = {
+				any_sub_realm_county = {
+					target_is_de_jure_liege_or_above = title:d_ramannadesa
+				}
+			}
+			save_temporary_scope_as = first_target
+		}
+		scope:mongol_conqueror = {
+			start_war = {
+				cb = duchy_conquest_cb
+				target = scope:first_target
+				target_title = title:d_ramannadesa
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			current_date > 1850.1.1
+			any_neighboring_top_liege_realm_owner = {
+				any_sub_realm_county = {
+					target_is_de_jure_liege_or_above = title:d_karen
+				}
+				NOT = { scope:mongol_conqueror = { has_truce = PREV } }
+				NOT = { scope:mongol_conqueror = { is_allied_to = PREV } }
+				scope:mongol_conqueror.max_military_strength > this.max_military_strength
+			}
+		}
+		random_neighboring_top_liege_realm_owner = {
+			limit = {
+				any_sub_realm_county = {
+					target_is_de_jure_liege_or_above = title:d_karen
+				}
+			}
+			save_temporary_scope_as = first_target
+		}
+		scope:mongol_conqueror = {
+			start_war = {
+				cb = duchy_conquest_cb
+				target = scope:first_target
+				target_title = title:d_karen
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			current_date > 1850.1.1
+			any_neighboring_top_liege_realm_owner = {
+				any_sub_realm_county = {
+					target_is_de_jure_liege_or_above = title:d_sriksetra
+				}
+				NOT = { scope:mongol_conqueror = { has_truce = PREV } }
+				NOT = { scope:mongol_conqueror = { is_allied_to = PREV } }
+				scope:mongol_conqueror.max_military_strength > this.max_military_strength
+			}
+		}
+		random_neighboring_top_liege_realm_owner = {
+			limit = {
+				any_sub_realm_county = {
+					target_is_de_jure_liege_or_above = title:d_sriksetra
+				}
+			}
+			save_temporary_scope_as = first_target
+		}
+		scope:mongol_conqueror = {
+			start_war = {
+				cb = duchy_conquest_cb
+				target = scope:first_target
+				target_title = title:d_sriksetra
+			}
+		}
+	}
+}
+
+start_unification_war_effect = {
+	save_temporary_scope_as = mongol_conqueror
+	if = {
+		limit = {
+			any_neighboring_top_liege_realm_owner = {
+				NOR = {
+					has_title = title:k_france
+					has_title = title:e_france
+				}
+				scope:mongol_conqueror = {
+					has_cb_on = {
+						target = PREV
+						cb = nationalism_cb
+					}
+				}
+				NOT = { scope:mongol_conqueror = { has_truce = PREV } }
+				scope:mongol_conqueror.max_military_strength > this.max_military_strength
+			}
+		}
+		random_neighboring_top_liege_realm_owner = {
+			limit = {
+				NOR = {
+					has_title = title:k_france
+					has_title = title:e_france
+				}
+				scope:mongol_conqueror = {
+					has_cb_on = {
+						target = PREV
+						cb = nationalism_cb
+					}
+				}
+			}
+			save_temporary_scope_as = first_target
+		}
+		scope:mongol_conqueror = {
+			start_war = {
+				cb = nationalism_cb
+				target = scope:first_target
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			current_date > 1860.1.1
+			has_title = title:k_prussia
+			any_neighboring_top_liege_realm_owner = {
+				any_sub_realm_county = {
+					target_is_de_jure_liege_or_above = title:d_holstein
+				}
+				NOT = { scope:mongol_conqueror = { has_truce = PREV } }
+				scope:mongol_conqueror.max_military_strength > this.max_military_strength
+			}
+		}
+		random_neighboring_top_liege_realm_owner = {
+			limit = {
+				any_sub_realm_county = {
+					target_is_de_jure_liege_or_above = title:d_holstein
+				}
+			}
+			save_temporary_scope_as = first_target
+		}
+		scope:mongol_conqueror = {
+			start_war = {
+				cb = duchy_conquest_cb
+				target = scope:first_target
+				target_title = title:d_holstein
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			current_date > 1860.1.1
+			current_date < 1920.1.1
+			has_title = title:k_prussia
+			any_neighboring_top_liege_realm_owner = {
+				any_sub_realm_county = {
+					target_is_de_jure_liege_or_above = title:d_slesvig
+				}
+				NOT = { scope:mongol_conqueror = { has_truce = PREV } }
+				scope:mongol_conqueror.max_military_strength > this.max_military_strength
+			}
+		}
+		random_neighboring_top_liege_realm_owner = {
+			limit = {
+				any_sub_realm_county = {
+					target_is_de_jure_liege_or_above = title:d_slesvig
+				}
+			}
+			save_temporary_scope_as = first_target
+		}
+		scope:mongol_conqueror = {
+			start_war = {
+				cb = duchy_conquest_cb
+				target = scope:first_target
+				target_title = title:d_slesvig
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			any_neighboring_top_liege_realm_owner = {
+				OR = {
+					has_title = title:k_france
+					has_title = title:e_france
+				}
+				scope:mongol_conqueror = {
+					has_cb_on = {
+						target = PREV
+						cb = nationalism_cb
+					}
+				}
+				NOT = { scope:mongol_conqueror = { has_truce = PREV } }
+				scope:mongol_conqueror.max_military_strength > this.max_military_strength
+			}
+		}
+		random_neighboring_top_liege_realm_owner = {
+			limit = {
+				OR = {
+					has_title = title:k_france
+					has_title = title:e_france
+				}
+				scope:mongol_conqueror = {
+					has_cb_on = {
+						target = PREV
+						cb = nationalism_cb
+					}
+				}
+			}
+			save_temporary_scope_as = first_target
+		}
+		scope:mongol_conqueror = {
+			start_war = {
+				cb = nationalism_cb
+				target = scope:first_target
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			title:c_metz = {
+				target_is_de_jure_liege_or_above = title:d_alsace
+			}
+			current_date < 1920.1.1
+			has_title = title:e_germany
+			any_neighboring_top_liege_realm_owner = {
+				any_sub_realm_county = {
+					target_is_de_jure_liege_or_above = title:d_alsace
+				}
+				NOT = { scope:mongol_conqueror = { has_truce = PREV } }
+				scope:mongol_conqueror.max_military_strength > this.max_military_strength
+			}
+		}
+		random_neighboring_top_liege_realm_owner = {
+			limit = {
+				any_sub_realm_county = {
+					target_is_de_jure_liege_or_above = title:d_alsace
+				}
+			}
+			save_temporary_scope_as = first_target
+		}
+		scope:mongol_conqueror = {
+			start_war = {
+				cb = individual_duchy_de_jure_cb
+				target = scope:first_target
+				target_title = title:d_alsace
+			}
+		}
+	}
+}
+
+clear_term_limit_reforms = {
+	remove_list_variable = { name = enacted_laws_list target = flag:four_year_term }
+	remove_list_variable = { name = enacted_laws_list target = flag:five_year_term }
+	remove_list_variable = { name = enacted_laws_list target = flag:six_year_term }
+	remove_list_variable = { name = enacted_laws_list target = flag:seven_year_term }
+	remove_list_variable = { name = enacted_laws_list target = flag:life_title_term }
+}
+
+initialize_global_election_terms = {
+	if = {
+		limit = { NOT = { exists = global_var:set_up_global_election_terms } }
+		set_global_variable = {
+			name = set_up_global_election_terms
+			value = yes
+		}
+		trigger_event = {
+			on_action = seven_year_elections
+			years = 7
+		}
+		trigger_event = {
+			on_action = six_year_elections
+			years = 6
+		}
+		trigger_event = {
+			on_action = five_year_elections
+			years = 5
+		}
+		trigger_event = {
+			on_action = four_year_elections
+			years = 4
+		}
+	}
+}
+
+copy_government_reforms_new_title = {
+	if = {
+		limit = {
+			has_character_flag = rank_change_copy_reforms
+			NOT = { has_character_flag = ignore_copy_reforms }
+		}
+		if = {
+			limit = {
+				scope:title = {
+					is_target_in_variable_list = { name = enacted_laws_list target = flag:admin_centralized }
+				}
+				NOT = {
+					primary_title = {
+						is_target_in_variable_list = { name = enacted_laws_list target = flag:admin_centralized }
+					}
+				}
+			}
+			primary_title = {
+				add_to_variable_list = { name = enacted_laws_list target = flag:admin_centralized }
+			}
+		}
+
+		if = {
+			limit = {
+				scope:title = {
+					NOT = { is_target_in_variable_list = { name = enacted_laws_list target = flag:admin_centralized } }
+				}
+				primary_title = {
+					is_target_in_variable_list = { name = enacted_laws_list target = flag:admin_centralized }
+				}
+			}
+			primary_title = {
+				remove_list_variable = { name = enacted_laws_list target = flag:admin_centralized }
+			}
+		}
+	}
+	else = {
+		if = {
+			limit = {
+				scope:title = {
+					is_target_in_variable_list = { name = enacted_laws_list target = flag:admin_centralized }
+				}
+				NOT = {
+					primary_title = {
+						is_target_in_variable_list = { name = enacted_laws_list target = flag:admin_centralized }
+					}
+				}
+			}
+			scope:title = {
+				remove_list_variable = { name = enacted_laws_list target = flag:admin_centralized }
+			}
+		}
+
+		if = {
+			limit = {
+				scope:title = {
+					NOT = { is_target_in_variable_list = { name = enacted_laws_list target = flag:admin_centralized } }
+				}
+				primary_title = {
+					is_target_in_variable_list = { name = enacted_laws_list target = flag:admin_centralized }
+				}
+			}
+			scope:title = {
+				add_to_variable_list = { name = enacted_laws_list target = flag:admin_centralized }
+			}
+		}
+	}
+}
+
+abolish_japanese_shogunate_effect = {
+	create_title_and_vassal_change = {
+		type = created
+		save_scope_as = title_change
+		add_claim_on_loss = no
+	}
+	title:e_japan = {
+		change_title_holder = {
+			holder = root
+			change = scope:title_change
+		}
+	}
+	resolve_title_and_vassal_change = scope:title_change
+	title:e_shogunate = {
+		every_in_de_jure_hierarchy = {
+			limit = { tier = tier_kingdom }
+			set_de_jure_liege_title = title:e_japan
+		}
+	}
+	destroy_title = title:e_shogunate
+}
+
+create_japanese_prefectures_effect = {
+	title:d_matsumae = {
+		every_in_de_jure_hierarchy = {
+			limit = { tier = tier_county }
+			set_de_jure_liege_title = title:d_hokkaido
+		}
+		if = {
+			limit = { exists = holder }
+			holder = { get_title = title:d_hokkaido }
+			root = { destroy_title = title:d_matsumae }
+		}
+	}
+
+	if = {
+		limit = {
+			exists = title:k_ryukyu.holder
+			NOT = { title:k_ryukyu.holder = { has_title = title:d_ryukyu } }
+		}
+		title:k_ryukyu.holder = { get_title = title:d_ryukyu }
+		destroy_title = title:k_ryukyu
+	}
+
+	title:c_hyuga = {
+		set_de_jure_liege_title = title:d_chinzei
+	}
+	title:c_higo = {
+		set_de_jure_liege_title = title:d_chinzei
+	}
+
+	title:c_tango = {
+		set_de_jure_liege_title = title:d_kinai
+	}
+	title:c_tanba = {
+		set_de_jure_liege_title = title:d_kinai
+	}
+	title:c_tajima = {
+		set_de_jure_liege_title = title:d_kinai
+	}
+	title:c_harima = {
+		set_de_jure_liege_title = title:d_kinai
+	}
+	title:c_kii = {
+		set_de_jure_liege_title = title:d_kinai
+	}
+	title:c_awaji = {
+		set_de_jure_liege_title = title:d_kinai
+	}
+
+	title:c_owari = {
+		set_de_jure_liege_title = title:d_aichi
+	}
+	title:c_mikawa = {
+		set_de_jure_liege_title = title:d_aichi
+	}
+	title:c_hitachi = {
+		set_de_jure_liege_title = title:d_keno
+	}
+
+	title:c_nagato = {
+		set_de_jure_liege_title = title:d_yamaguchi
+	}
+	title:c_suo = {
+		set_de_jure_liege_title = title:d_yamaguchi
+	}
+
+	title:c_aki = {
+		set_de_jure_liege_title = title:d_hiroshima
+	}
+	title:c_bingo = {
+		set_de_jure_liege_title = title:d_hiroshima
+	}
+
+	title:c_bitchu = {
+		set_de_jure_liege_title = title:d_okayama
+	}
+	title:c_mimasaka = {
+		set_de_jure_liege_title = title:d_okayama
+	}
+	title:c_bizen = {
+		set_de_jure_liege_title = title:d_okayama
+	}
+
+	title:c_inaba = {
+		set_de_jure_liege_title = title:d_tottori
+	}
+	title:c_hoki = {
+		set_de_jure_liege_title = title:d_tottori
+	}
+
+	title:c_izumo = {
+		set_de_jure_liege_title = title:d_shimane
+	}
+	title:c_iwami = {
+		set_de_jure_liege_title = title:d_shimane
+	}
+	title:c_oki = {
+		set_de_jure_liege_title = title:d_shimane
+	}
+
+	title:c_wakasa = {
+		set_de_jure_liege_title = title:d_hokuriku
+	}
+	title:c_echizen = {
+		set_de_jure_liege_title = title:d_hokuriku
+	}
+
+	title:c_kaga = {
+		set_de_jure_liege_title = title:d_ishikawa
+	}
+	title:c_noto = {
+		set_de_jure_liege_title = title:d_ishikawa
+	}
+
+	title:c_etchu = {
+		set_de_jure_liege_title = title:d_toyama
+	}
+
+	title:c_echigo = {
+		set_de_jure_liege_title = title:d_niigata
+	}
+	title:c_sado = {
+		set_de_jure_liege_title = title:d_niigata
+	}
+
+	title:c_tsugaru = {
+		set_de_jure_liege_title = title:d_aomori
+	}
+	title:c_rikuo = {
+		set_de_jure_liege_title = title:d_aomori
+	}
+
+	title:d_mutsu = {
+		set_capital_county = title:c_rikutyu
+	}
+	title:c_iwaki = {
+		set_de_jure_liege_title = title:d_fukushima
+	}
+	title:c_iwashiro = {
+		set_de_jure_liege_title = title:d_fukushima
+	}
+
+	if = {
+		limit = { exists = title:d_sanin.holder }
+		destroy_title = title:d_sanin
+	}
+	if = {
+		limit = { exists = title:d_sanyo.holder }
+		destroy_title = title:d_sanyo
+	}
+
+	# rename prefectures
+	title:d_saikai = {
+		set_title_name = nagasaki
+	}
+	title:d_kyushu = {
+		set_title_name = kagoshima
+	}
+	title:d_ryukyu = {
+		set_title_name = okinawa
+	}
+	title:d_hokuriku = {
+		set_title_name = fukui
+	}
+	title:d_owari = {
+		set_title_name = mie
+	}
+	title:d_fusa = {
+		set_title_name = chiba
+	}
+	title:d_edo = {
+		set_title_name = tokyo
+	}
+}
+
+copy_root_political_party_effect = {
+	if = {
+		limit = { root = { has_character_flag = liberal_party } }
+		add_character_flag = liberal_party
+		add_character_modifier = liberal_party_modifier
+	}
+	if = {
+		limit = { root = { has_character_flag = socialist_party } }
+		add_character_flag = socialist_party
+		add_character_modifier = socialist_party_modifier
+	}
+	if = {
+		limit = { root = { has_character_flag = reactionary_party } }
+		add_character_flag = reactionary_party
+		add_character_modifier = reactionary_party_modifier
+	}
+	if = {
+		limit = { root = { has_character_flag = fascist_party } }
+		add_character_flag = fascist_party
+		add_character_modifier = fascist_party_modifier
+	}
+	if = {
+		limit = { root = { has_character_flag = conservative_party } }
+		add_character_flag = conservative_party
+		add_character_modifier = conservative_party_modifier
+	}
+	if = {
+		limit = { root = { has_character_flag = communist_party } }
+		add_character_flag = communist_party
+		add_character_modifier = communist_party_modifier
+	}
+	if = {
+		limit = { root = { has_character_flag = anarchist_party } }
+		add_character_flag = anarchist_party
+		add_character_modifier = anarchist_party_modifier
+	}
+}
