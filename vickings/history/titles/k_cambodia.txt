@@ -1,0 +1,57 @@
+k_cambodia = {
+	1779.8.1 = {
+		holder = 6200200 #Ang Eng
+	}
+	1796.5.5 = {
+		holder = 6200201 #Ang Chan II
+	}
+	1835.1.9 = {
+		holder = 6200202 #Ang Mey
+	}
+	1840.1.1 = {
+		holder = 6200203 #Ang Duong
+	}
+}
+
+d_inner_cambodia = {
+	1795.1.1 = {
+		holder = 6200300
+	}
+	1809.9.7 = {
+		holder = 6200301
+	}
+	1824.7.21 = {
+		holder = 6200302
+	}
+	1851.4.2 = {
+		holder = 6200303
+	}
+}
+
+d_vat_nokor = {
+	1800.1.1 = { change_development_level = 10 }
+}
+
+d_cambodia = {
+	1800.1.1 = { change_development_level = 8 }
+}
+
+d_angkor_borei = {
+	1800.1.1 = { change_development_level = 8 }
+}
+
+c_oudong = {
+	1800.1.1 = { change_development_level = 14 }
+}
+
+c_phnom_penh = {
+	1800.1.1 = { change_development_level = 21 }
+}
+
+c_battambang = {
+	1800.1.1 = { change_development_level = 8 }
+}
+
+c_siem_reap = {
+	1800.1.1 = { change_development_level = 18 }
+}

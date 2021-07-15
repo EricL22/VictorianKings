@@ -1,0 +1,315 @@
+k_hebei = {
+	1800.1.1 = {
+		change_development_level = 12
+	}
+	1640.1.1 = {
+		name = zhili
+	}
+}
+
+c_you = {
+	1800.1.1 = { change_development_level = 44 }
+}
+
+k_shandong = {
+	1800.1.1 = {
+		change_development_level = 16
+	}
+	1800.1.1 = {
+		holder = chinese01
+		liege = e_china
+	}
+}
+
+k_liaoning = {
+	1800.1.1 = {
+		change_development_level = 8
+	}
+	1620.1.1 = {
+		name = liaodong
+	}
+	1800.1.1 = {
+		holder = chinese02
+		liege = e_china
+	}
+}
+
+k_gansu = {
+	1800.1.1 = {
+		change_development_level = 8
+	}
+	1800.1.1 = {
+		holder = chinese03
+		liege = e_china
+	}
+}
+
+k_shaanxi = {
+	1800.1.1 = {
+		change_development_level = 11
+	}
+	1800.1.1 = {
+		holder = chinese04
+		liege = e_china
+	}
+}
+
+c_giengdrieu = {
+	1800.1.1 = {
+		change_development_level = 24
+	}
+}
+
+k_shanxi = {
+	1800.1.1 = {
+		change_development_level = 12
+	}
+	1800.1.1 = {
+		holder = chinese05
+		liege = e_china
+	}
+}
+
+k_sichuan = {
+	1800.1.1 = {
+		change_development_level = 9
+	}
+	1800.1.1 = {
+		holder = chinese06
+		liege = e_china
+	}
+}
+
+c_jiengdo = {
+	1800.1.1 = {
+		change_development_level = 30
+	}
+}
+
+c_yu = {
+	1800.1.1 = {
+		change_development_level = 28
+	}
+}
+
+k_guizhou = {
+	1800.1.1 = {
+		change_development_level = 7
+	}
+	1800.1.1 = {
+		holder = chinese07
+		liege = e_china
+	}
+}
+
+k_yunnan = {
+	1800.1.1 = {
+		change_development_level = 7
+	}
+	1800.1.1 = {
+		holder = chinese08
+		liege = e_china
+	}
+}
+
+c_jienqien = {
+	1800.1.1 = {
+		change_development_level = 20
+	}
+}
+
+c_yiangsiaamie = {
+	1800.1.1 = {
+		change_development_level = 13
+	}
+}
+
+k_guangdong = {
+	1800.1.1 = {
+		change_development_level = 16
+	}
+	1800.1.1 = {
+		holder = chinese09
+		liege = e_china
+	}
+}
+
+d_hainan = {
+	1800.1.1 = {
+		change_development_level = 4
+	}
+}
+
+c_goang = {
+	1800.1.1 = {
+		change_development_level = 38
+	}
+}
+
+k_guangxi = {
+	1800.1.1 = {
+		change_development_level = 7
+	}
+	1800.1.1 = {
+		holder = chinese10
+		liege = e_china
+	}
+}
+
+k_fujian = {
+	1800.1.1 = {
+		change_development_level = 8
+	}
+	1800.1.1 = {
+		holder = chinese11
+		liege = e_china
+	}
+}
+
+c_buk = {
+	1800.1.1 = {
+		change_development_level = 27
+	}
+}
+
+c_zuen = {
+	1800.1.1 = {
+		change_development_level = 27
+	}
+}
+
+k_jiangsu = {
+	1800.1.1 = {
+		change_development_level = 14
+	}
+	1800.1.1 = {
+		holder = chinese12
+		liege = e_china
+	}
+}
+
+c_xing = {
+	1800.1.1 = {
+		change_development_level = 46
+	}
+}
+
+c_yiang = {
+	1800.1.1 = {
+		change_development_level = 36
+	}
+}
+
+c_so = {
+	1800.1.1 = {
+		change_development_level = 28
+	}
+}
+
+k_anhui = {
+	1800.1.1 = {
+		change_development_level = 12
+	}
+	1800.1.1 = {
+		holder = chinese13
+		liege = e_china
+	}
+}
+
+c_xio = {
+	1800.1.1 = {
+		change_development_level = 20
+	}
+}
+
+c_lio = {
+	1800.1.1 = {
+		change_development_level = 15
+	}
+}
+
+k_zhejiang = {
+	1800.1.1 = {
+		change_development_level = 16
+	}
+	1800.1.1 = {
+		holder = chinese14
+		liege = e_china
+	}
+}
+
+c_hang = {
+	1800.1.1 = {
+		change_development_level = 38
+	}
+}
+
+k_jiangxi = {
+	1800.1.1 = {
+		change_development_level = 13
+	}
+	1800.1.1 = {
+		holder = chinese15
+		liege = e_china
+	}
+}
+
+c_hung = {
+	1800.1.1 = {
+		change_development_level = 21
+	}
+}
+
+k_hunan = {
+	1800.1.1 = {
+		change_development_level = 12
+	}
+	1800.1.1 = {
+		holder = chinese16
+		liege = e_china
+	}
+}
+
+c_dam = {
+	1800.1.1 = {
+		change_development_level = 22
+	}
+}
+
+k_hubei = {
+	1800.1.1 = {
+		change_development_level = 11
+	}
+	1800.1.1 = {
+		holder = chinese17
+		liege = e_china
+	}
+}
+
+c_ngak = {
+	1800.1.1 = {
+		change_development_level = 27
+	}
+}
+
+k_henan = {
+	1800.1.1 = {
+		change_development_level = 13
+	}
+	1800.1.1 = {
+		holder = chinese18
+		liege = e_china
+	}
+}
+
+c_hanam = {
+	1800.1.1 = {
+		change_development_level = 18
+	}
+}
+
+c_bien = {
+	1800.1.1 = {
+		change_development_level = 28
+	}
+}

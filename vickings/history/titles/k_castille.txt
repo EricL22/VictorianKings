@@ -1,0 +1,1046 @@
+
+k_castille = {
+	867.1.1 = { change_development_level = 6 }
+	1066.1.1 = { change_development_level = 8 }
+	
+	1037.9.4 = {
+		insert_title_history = k_leon
+	}
+	1037.9.5 = {
+		holder = 107510 # Fernando I Jimena
+	}
+	1065.12.27 = {
+		holder = 107500 # Sancho II Jimena
+	}
+	1072.10.7 = {
+		holder = 108500 # Alfonso VI Jimena
+	}
+	1109.6.30 = {
+		holder = 207660 # Urraca Alfónsez Jimena
+	}
+	1126.3.8 = {
+		holder = 207500 # Alfonso VII de Borgoña
+	}
+	1157.8.21 = {
+		holder = 207520 # Sancho III de Borgoña
+	}
+	1158.8.31 = {
+		holder = 207510 # Alfonso VIII de Borgoña
+	}
+
+	1188.1.20 = {
+		holder = 208500 # Fernando II de Borgoña (posthumously honored as King of Castile)
+	}
+	1188.1.21 = {
+		holder = 207510
+	}
+
+	1214.10.8 = {
+		holder = 70230 # Enrique Alfónsez de Borgoña
+	}
+	1217.6.6 = {
+		holder = 457651 # Berenguela Alfónsez de Borgoña
+	}
+	1217.8.31 = {
+		holder = 457620 # Fernando III de Borgoña
+	}
+	
+	1230.9.22 = {
+		holder = 457650 # Alfonso IX of Leon (posthumously honored as King of Castile)
+	}
+	1230.9.23 = {
+		holder = 457620
+	}
+
+	1252.5.30 = {
+		holder = 457540 # Alfonso X de Borgoña
+	}
+	1284.4.4 = {
+		holder = 457530 # Sancho IV de Borgoña
+	}	
+	1295.4.25 = {
+		holder = 457520 # Fernando IV de Borgoña
+	}
+	1312.9.7 = {
+		holder = 457500 # Alfonso XI de Borgoña
+	}
+	1350.3.26 = {
+		holder = 457501 # Pedro de Borgoña
+	}
+	1369.3.23 = {
+		holder = 457510 # Enrique II de Trastámara
+	}
+	1379.5.29 = {
+		holder = 7000034 # Juan I de Trastámara
+	}
+	1390.10.9 = {
+		holder = 7000035 # Enrique III de Trastámara
+	}
+	1406.12.25 = {
+		holder = 7000036 # Juan II de Trastámara
+	}
+	1454.7.22 = {
+		holder = 7000037 # Enrique IV de Trastámara
+	}
+	1474.12.11 = {
+		holder = 7000038 # Isabel I de Trastámara
+	}
+	1475.1.15 = {
+		holder = 7000039 # Fernando V de Trastámara
+	}
+	1504.11.25 = {
+		holder = 7000038
+	}
+	1504.11.26 = {
+		holder = 7000040 # Juana de Trastámara
+	}
+	1506.7.12 = {
+		holder = 7000047 # Philipp I de Austria
+	}
+	1506.9.25 = {
+		holder = 7000040 # Juana de Trastámara
+	}
+	1516.3.13 = {
+		holder = 7000048 # Karl I de Austria
+	}
+	1555.4.11 = {
+		holder = 7000040 # Juana de Trastámara
+	}
+	1555.4.12 = {
+		holder = 7000048 # Karl I de Austria
+	}
+	1556.1.16 = {
+		holder = 7000049 # Felipe II de Austria
+	}
+	1598.9.13 = {
+		holder = 7000050 # Felipe III de Austria
+	}
+	1621.3.31 = {
+		holder = 7000051 # Felipe IV de Austria
+	}
+	1665.9.17 = {
+		holder = 7000052 # Carlos II de Austria
+	}
+	1700.11.1 = {
+		holder = 8100051 # Felipe V de Borbón
+	}
+	1715.6.9 = {
+		holder = 0
+	}
+}
+
+
+d_cantabria = {
+	867.1.1 = { change_development_level = 6 }
+	1066.1.1 = { change_development_level = 9 }
+	
+	711.1.1 = {
+		de_jure_liege = k_asturias
+	}
+	860.1.1 = {
+		holder = 73763 # Rodrigo Ramírez de Castilla
+		liege = k_asturias
+	}
+	873.10.3 = {
+		holder = 73765 # Diego Rodríguez Porcelos
+	}
+	885.1.31 = {
+		holder = 0
+	}
+	924.1.1 = {
+		de_jure_liege = k_leon
+	}
+	931.1.1 = {
+		holder = 107680 # Fernán González de Lara
+		liege = k_leon
+	}
+	944.1.1 = {
+		holder = 72550 # Ansur Fernández Ansúrez
+	}
+	945.1.1 = {
+		holder = 107680 # Fernán González de Lara
+		liege = 0
+	}
+	970.6.1 = {
+		holder = 107670 # García Fernández de Lara
+	}
+	995.1.1 = {
+		holder = 107660 # Sancho García de Lara
+	}
+	1017.2.5 = {
+		holder = 70286 # García Sánchez de Lara
+	}
+	1029.5.13 = {
+		holder = 107510 # Fernando Sánchez Jimena
+		liege = k_navarra
+	}
+	1030.1.1 = {
+		liege = 0
+	}
+	1037.9.4 = {
+		holder = 0
+		de_jure_liege = k_castille
+	}
+	1715.6.9 = {
+		de_jure_liege = k_spain
+	}
+}
+
+
+c_asturias_de_santillana = {
+	718.1.1 = {
+		holder = 70010 # Pedro de Cantabria
+		liege = k_asturias
+	}
+	720.1.1 = {
+		holder = 70003 # Alfonso I de Cantabria
+	}
+	739.6.15 = {
+		holder = 70011 # Fruela Pérez de Cantabria
+	}
+	768.1.1 = {
+		holder = 70013 # Bermudo I de Cantabria
+	}
+	791.1.1 = {
+		holder = 70015 # Ramiro I de Cantabria
+	}
+	850.2.1 = {
+		holder = 70017 # Ordoño I de Cantabria
+	}
+	860.1.1 = {
+		holder = 73763 # Rodrigo Ramírez de Castilla
+		liege = d_castilla
+	}
+	873.10.3 = {
+		holder = 73765 # Diego Rodríguez Porcelos
+	}
+	885.1.31 = {
+		holder = 200066 # Munio Nuñez de Lara
+		liege = k_asturias
+	}
+	901.1.1 = {
+		holder = 200071 # Gonzalo Téllez
+	}
+	904.1.1 = {
+		holder = 200066 # Munio Nuñez de Lara
+	}
+	910.12.20 = {
+		liege = k_leon
+	}
+	912.1.1 = {
+		holder = 73769 # Gonzalo FernAndez de Lara
+	}
+	916.1.1 = {
+		holder = 72549 # Fernando Ansúrez
+	}
+	920.1.1 = {
+		holder = 200069 # Nuño FernAndez de Lara
+	}
+	927.1.1 = {
+		holder = 72549 # Fernando Ansúrez
+	}
+	930.1.1 = {
+		holder = 107680 # FernAn GonzAlez de Lara
+	}
+	931.1.1 = {
+		liege = d_castilla
+	}
+	944.1.1 = {
+		holder = 72550 # Ansur FernAndez Ansúrez
+	}
+	945.1.1 = {
+		holder = 107680 # FernAn GonzAlez de Lara
+	}
+	970.6.1 = {
+		holder = 107670 # García FernAndez de Lara
+	}
+	995.1.1 = {
+		holder = 107660 # Sancho García de Lara
+	}
+	1017.2.5 = {
+		holder = 70286 # García SAnchez de Lara
+	}
+	1029.5.13 = {
+		holder = 107510 # Fernando SAnchez Jimena
+	}
+	1037.9.4 = {
+		holder = 70265 # Munio GonzAlez de Lara
+		liege = k_castille
+	}
+	1082.1.1 = {
+		holder = 70268 # Jimena Muñoz de Lara
+	}
+	1085.1.1 = {
+		holder = 72894 # Fruela Díaz
+	}
+	1121.12.2 = {
+		holder = 72897 # Diego Froilaz
+	}
+	1140.6.26 = {
+		holder = 72899 # Ramiro Froilaz I
+	}
+	1172.9.13 = {
+		holder = 72905 # Diego Ramírez I
+	}
+	1185.8.1 = {
+		holder = 72906 # Fruela Ramírez
+	}
+	1202.9.9 = {
+		holder = 72915 # Nuño Froilaz
+	}
+	1217.1.1 = {
+		holder = 72916 # Ramiro Froilaz II
+	}
+	1240.1.1 = {
+		holder = 72921 # Gonzalo Ramírez
+	}
+	1259.1.1 = {
+		holder = 72925 # Ramiro Froilaz III
+	}
+	1268.1.1 = {
+		holder = 72927 # Diego Ramírez II
+	}
+	1330.1.1 = {
+		holder = 72933 # Rodrigo Díaz
+	}
+	1808.6.6 = {
+		holder = 9000003
+	}
+	1813.12.11 = {
+		holder = 9000017
+	}
+}
+
+
+c_amaya = {
+	718.1.1 = {
+		holder = 70010 # Pedro de Cantabria
+		liege = k_asturias
+	}
+	720.1.1 = {
+		holder = 70003 # Alfonso I de Cantabria
+	}
+	739.6.15 = {
+		holder = 70011 # Fruela Pérez de Cantabria
+	}
+	768.1.1 = {
+		holder = 70013 # Bermudo I de Cantabria
+	}
+	791.1.1 = {
+		holder = 70015 # Ramiro I de Cantabria
+	}
+	850.2.1 = {
+		holder = 70017 # Ordoño I de Cantabria
+	}
+	860.1.1 = {
+		holder = 73763 # Rodrigo Ramírez de Castilla
+		liege = d_castilla
+	}
+	873.10.3 = {
+		holder = 73765 # Diego Rodríguez Porcelos
+	}
+	885.1.31 = {
+		holder = 200066 # Munio Nuñez de Lara
+		liege = k_asturias
+	}
+	901.1.1 = {
+		holder = 200071 # Gonzalo Téllez
+	}
+	904.1.1 = {
+		holder = 200066 # Munio Nuñez de Lara
+	}
+	910.12.20 = {
+		liege = k_leon
+	}
+	912.1.1 = {
+		holder = 73769 # Gonzalo Fernández de Lara
+	}
+	916.1.1 = {
+		holder = 72549 # Fernando Ansúrez
+	}
+	920.1.1 = {
+		holder = 200069 # Nuño Fernández de Lara
+	}
+	927.1.1 = {
+		holder = 72549 # Fernando Ansúrez
+	}
+	930.1.1 = {
+		holder = 107680 # Fernán González de Lara
+	}
+	931.1.1 = {
+		liege = d_castilla
+	}
+	944.1.1 = {
+		holder = 72550 # Ansur Fernández Ansúrez
+	}
+	945.1.1 = {
+		holder = 107680 # Fernán González de Lara
+	}
+	970.6.1 = {
+		holder = 107670 # García Fernández de Lara
+	}
+	995.1.1 = {
+		holder = 107660 # Sancho García de Lara
+	}
+	1017.2.5 = {
+		holder = 70286 # García Sánchez de Lara
+	}
+	1029.5.13 = {
+		holder = 107510 # Fernando Sánchez Jimena
+	}
+	1037.9.4 = {
+		holder = 70265 # Munio González de Lara
+		liege = k_castille
+	}
+	1082.1.1 = {
+		holder = 70268 # Jimena Muñoz de Lara
+	}
+	1085.1.1 = {
+		holder = 72894 # Fruela Díaz
+	}
+	1121.12.2 = {
+		holder = 72897 # Diego Froilaz
+	}
+	1140.6.26 = {
+		holder = 72899 # Ramiro Froilaz I
+	}
+	1172.9.13 = {
+		holder = 72905 # Diego Ramírez I
+	}
+	1185.8.1 = {
+		holder = 72906 # Fruela Ramírez
+	}
+	1202.9.9 = {
+		holder = 72915 # Nuño Froilaz
+	}
+	1217.1.1 = {
+		holder = 72916 # Ramiro Froilaz II
+	}
+	1240.1.1 = {
+		holder = 72921 # Gonzalo Ramírez
+	}
+	1259.1.1 = {
+		holder = 72925 # Ramiro Froilaz III
+	}
+	1268.1.1 = {
+		holder = 72927 # Diego Ramírez II
+	}
+	1330.1.1 = {
+		holder = 72933 # Rodrigo Díaz
+	}
+	1808.6.6 = {
+		holder = 9000003
+	}
+	1813.12.11 = {
+		holder = 9000017
+	}
+}
+
+
+d_castilla = {
+	711.1.1 = {
+		de_jure_liege = k_asturias
+	}
+	860.1.1 = {
+		holder = 73763 # Rodrigo Ramírez de Castilla
+		liege = k_asturias
+	}
+	873.10.3 = {
+		holder = 73765 # Diego Rodríguez Porcelos
+	}
+	885.1.31 = {
+		holder = 0
+	}
+	924.1.1 = {
+		de_jure_liege = k_leon
+	}
+	931.1.1 = {
+		holder = 107680 # Fernán González de Lara
+		liege = k_leon
+	}
+	944.1.1 = {
+		holder = 72550 # Ansur Fernández Ansúrez
+	}
+	945.1.1 = {
+		holder = 107680 # Fernán González de Lara
+		liege = 0
+	}
+	970.6.1 = {
+		holder = 107670 # García Fernández de Lara
+	}
+	995.1.1 = {
+		holder = 107660 # Sancho García de Lara
+	}
+	1017.2.5 = {
+		holder = 70286 # García Sánchez de Lara
+	}
+	1029.5.13 = {
+		holder = 107510 # Fernando Sánchez Jimena
+		liege = k_navarra
+	}
+	1030.1.1 = {
+		liege = 0
+	}
+	1037.9.4 = {
+		holder = 0
+		de_jure_liege = k_castille
+	}
+	1715.6.9 = {
+		de_jure_liege = k_spain
+	}
+}
+
+
+c_burgos = {
+	867.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+	
+	754.1.1 = {
+		holder = 70003 # Alfonso I de Cantabria
+		liege = k_asturias
+	}
+	757.1.1 = {
+		holder = 70004 # Fruela I de Asturias
+	}
+	768.1.1 = {
+		holder = 70012 # Aurelio Froilaz de Cantabria
+	}
+	773.1.1 = {
+		holder = 70118 # Silo, King of Asturias
+	}
+	783.1.1 = {
+		holder = 73867 # Hermenegildo Mauregatez de Cantabria
+	}
+	812.1.1 = {
+		holder = 73868 # Mauregato Hermenegíldez de Cantabria
+	}
+	860.1.1 = {
+		holder = 73763 # Rodrigo Ramírez de Castilla
+		liege = d_castilla
+	}
+	873.10.3 = {
+		holder = 73765 # Diego Rodríguez Porcelos
+	}
+	885.1.31 = {
+		holder = 73769 # Gonzalo Fernández de Lara
+		liege = k_leon
+	}
+	912.1.1 = {
+		holder = 200071 # Gonzalo Téllez
+	}
+	915.1.1 = {
+		holder = 200160 # Munio Velaz
+	}
+	922.1.1 = {
+		holder = 200069 # Nuño Fernández de Lara
+	}
+	927.1.1 = {
+		holder = 200070 # Gutierre Núñez de Lara
+	}
+	930.1.1 = {
+		holder = 107680 # Fernán González de Lara
+	}
+	931.1.1 = {
+		liege = d_castilla
+	}
+	944.1.1 = {
+		holder = 72550 # Ansur Fernández Ansúrez
+	}
+	945.1.1 = {
+		holder = 107680 # Fernán González de Lara
+	}
+	970.6.1 = {
+		holder = 107670 # García Fernández de Lara
+	}
+	995.1.1 = {
+		holder = 107660 # Sancho García de Lara
+	}
+	1017.2.5 = {
+		holder = 70286 # García Sánchez de Lara
+	}
+	1029.5.13 = {
+		holder = 107510 # Fernando I Jimena
+	}
+	1037.9.4 = {
+		liege = k_castille
+	}
+	1065.12.27 = {
+		holder = 107500 # Sancho II Jimena
+	}
+	1072.10.7 = {
+		holder = 108500 # Alfonso VI Jimena
+	}
+	1073.1.1 = {
+		holder = 107570 # Gonzalo Núñez de Lara
+	}
+	1105.12.12 = {
+		holder = 207539 # Pedro González de Lara
+	}
+	1130.10.16 = {
+		holder = 207545 # Nuño Pérez de Lara
+	}
+	1177.6.1 = {
+		holder = 207548 # Fernando Núñez de Lara
+	}
+	1217.1.1 = {
+		holder = 72516 # Fernando Fernández de Lara
+	}
+	1230.1.1 = {
+		holder = 72517 # Alvar Fernández de Lara
+	}
+	1240.7.24 = {
+		holder = 72541 # Nuño González de Lara
+	}
+	1275.5.1 = {
+		holder = 72544 # Juan Núñez de Lara I
+	}
+	1294.4.1 = {
+		holder = 72546 # Juan Núñez de Lara II
+	}
+	1315.9.16 = {
+		holder = 457680 # Juana Núñez de Lara
+	}
+	1808.6.6 = {
+		holder = 9000003
+	}
+	1813.12.11 = {
+		holder = 9000017
+	}
+}
+
+
+c_valladolid = {
+	769.1.1 = {
+		holder = 200020 # Suleyman b. Abd al-Rahman Umayyad
+		liege = d_toledo
+		government = clan_government
+	}
+	800.1.1 = {
+		holder = 73681 # al-Hakam Umayyad
+		liege = k_andalusia
+	}
+	822.5.21 = {
+		holder = 73682 # Abd ar-Rahman II Umayyad
+	}
+	852.9.22 = {
+		holder = 73683 # Muhammad I Ummayyad
+	}
+	867.1.1 = {
+		holder = 73928 # al-Hakam Umayyad
+		liege = d_toledo
+	}
+	890.1.1 = {
+		holder = 70019 # Alfonso III de Cantabria
+		liege = k_asturias
+	}
+	900.1.1 = {
+		holder = 70020 # García I de Cantabria
+		liege = d_leon
+	}
+	910.12.20 = {
+		liege = k_leon
+	}
+	914.1.19 = {
+		holder = 70021 # Ordoño II de León
+	}
+	924.1.1 = {
+		holder = 70030 # Fruela II de Cantabria
+	}
+	925.7.1 = {
+		holder = 70023 # Alfonso IV de León
+	}
+	931.1.1 = {
+		holder = 107680 # Fernán González de Lara
+		liege = d_castilla
+	}
+	944.1.1 = {
+		holder = 72550 # Ansur Fernández Ansúrez
+	}
+	945.1.1 = {
+		holder = 107680 # Fernán González de Lara
+	}
+	970.6.1 = {
+		holder = 107670 # García Fernández de Lara
+	}
+	995.1.1 = {
+		holder = 107660 # Sancho García de Lara
+	}
+	1017.2.5 = {
+		holder = 70286 # García Sánchez de Lara
+	}
+	1029.5.13 = {
+		holder = 107510 # Fernando Sánchez Jimena
+	}
+	1037.9.4 = {
+		liege = k_castille
+	}
+	1060.1.1 = {
+		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+	}
+	1065.12.27 = {
+		holder = 107640 # Pedro Ansúrez
+	}
+	1072.10.7 = {
+		liege = k_castille
+	}
+	1093.12.8 = {
+		holder = 107644 # Mayor Pérez
+	}
+	1148.4.23 = {
+		holder = 71390 # Eylo Alvarez
+	}
+	1153.7.23 = {
+		holder = 71397 # Fernando Rodríguez de Castro I
+	}
+	1185.8.16 = {
+		holder = 71399 # Pedro Fernández de Castro I
+	}
+	1214.8.18 = {
+		holder = 72389 # Alvar Pérez de Castro
+	}
+	1240.3.1 = {
+		holder = 72390 # Eylo Pérez de Castro
+	}
+	1243.2.10 = {
+		holder = 72211 # Rodrigo Giráldez de Castro
+	}
+	1259.1.1 = {
+		holder = 72214 # Fernando Rodríguez de Castro II
+	}
+	1280.1.1 = {
+		holder = 72215 # Pedro Fernández de Castro II
+	}
+	1287.1.1 = {
+		holder = 72333 # Giraldo Guillén
+	}
+	1296.1.1 = {
+		holder = 72449 # Sancho Pérez de Borgoña
+	}
+	1312.1.1 = {
+		holder = 457531 # Pedro Sánchez de Borgoña
+	}
+	1319.7.25 = {
+		holder = 457532 # Blanca Pérez de Borgoña
+	}
+	1808.6.6 = {
+		holder = 9000003
+	}
+	1813.12.11 = {
+		holder = 9000017
+	}
+}
+
+
+c_soria = {
+	757.1.1 = {
+		holder = 200041 # Yusuf Yusufid
+		liege = k_andalusia
+	}
+	777.1.1 = {
+		holder = 73679 # Abd al-Rahman I Umayyad
+	}
+	788.10.7 = {
+		holder = 73680 # Hisham I Umayyad
+	}
+	796.6.12 = {
+		holder = 73681 # al-Hakam Umayyad
+	}
+	822.5.21 = {
+		holder = 73682 # Abd ar-Rahman II Umayyad
+	}
+	852.9.22 = {
+		holder = 73683 # Muhammad I Ummayyad
+	}
+	867.1.1 = {
+		holder = 73869 # Alfonso Betótez
+		liege = k_asturias
+	}
+	895.1.1 = {
+		holder = 73870 # Gonzalo Alfonsez Betótez
+	}
+	910.12.20 = {
+		liege = k_leon
+	}
+	929.1.1 = {
+		holder = 70242 # Pelayo Betótez
+	}
+	931.1.1 = {
+		liege = d_castilla
+	}
+	959.1.1 = {
+		holder = 107680 # Fernán González de Lara
+	}
+	970.6.1 = {
+		holder = 107670 # García Fernández de Lara
+	}
+	995.1.1 = {
+		holder = 107660 # Sancho García de Lara
+	}
+	1017.2.5 = {
+		holder = 70286 # García Sánchez de Lara
+	}
+	1029.5.13 = {
+		holder = 107510 # Fernando I Jimena
+	}
+	1037.9.4 = {
+		liege = k_castille
+	}
+	1065.12.27 = {
+		holder = 107500 # Sancho II Jimena
+	}
+	1072.10.7 = {
+		holder = 108500 # Alfonso VI Jimena
+	}
+	1109.6.30 = {
+		holder = 207660 # Urraca Alfónsez Jimena
+	}
+	1126.3.8 = {
+		holder = 207500 # Alfonso VII de Borgoña
+	}
+	1157.8.21 = {
+		holder = 207520 # Sancho III de Borgoña
+	}
+	1158.8.31 = {
+		holder = 207510 # Alfonso VIII de Borgoña
+	}
+	1214.10.8 = {
+		holder = 70230 # Enrique Alfónsez de Borgoña
+	}
+	1217.6.6 = {
+		holder = 457651 # Berenguela Alfónsez de Borgoña
+	}
+	1217.8.31 = {
+		holder = 457660 # Alfonso Alfónsez de Borgoña
+	}
+	1272.1.6 = {
+		holder = 457540 # Alfonso X de Borgoña
+	}
+	1284.4.4 = {
+		holder = 457630 # Juan Manuel de Villena
+	}
+	1808.6.6 = {
+		holder = 9000003
+	}
+	1813.12.11 = {
+		holder = 9000017
+	}
+}
+
+
+c_cuellar = {
+	757.1.1 = {
+		holder = 200041 # Yusuf Yusufid
+		liege = k_andalusia
+	}
+	777.1.1 = {
+		holder = 73679 # Abd al-Rahman I Umayyad
+	}
+	788.10.7 = {
+		holder = 73680 # Hisham I Umayyad
+	}
+	796.6.12 = {
+		holder = 73681 # al-Hakam Umayyad
+	}
+	822.5.21 = {
+		holder = 73682 # Abd ar-Rahman II Umayyad
+	}
+	852.9.22 = {
+		holder = 73683 # Muhammad I Ummayyad
+	}
+	867.1.1 = {
+		holder = 73869 # Alfonso Betótez
+		liege = k_asturias
+	}
+	895.1.1 = {
+		holder = 73870 # Gonzalo Alfonsez Betótez
+	}
+	910.12.20 = {
+		liege = k_leon
+	}
+	929.1.1 = {
+		holder = 70242 # Pelayo Betótez
+	}
+	931.1.1 = {
+		liege = d_castilla
+	}
+	959.1.1 = {
+		holder = 107680 # Fernán González de Lara
+	}
+	970.6.1 = {
+		holder = 107670 # García Fernández de Lara
+	}
+	995.1.1 = {
+		holder = 107660 # Sancho García de Lara
+	}
+	1017.2.5 = {
+		holder = 70286 # García Sánchez de Lara
+	}
+	1029.5.13 = {
+		holder = 107510 # Fernando I Jimena
+	}
+	1037.9.4 = {
+		liege = k_castille
+	}
+	1065.12.27 = {
+		holder = 107500 # Sancho II Jimena
+	}
+	1072.10.7 = {
+		holder = 108500 # Alfonso VI Jimena
+	}
+	1109.6.30 = {
+		holder = 207660 # Urraca Alfónsez Jimena
+	}
+	1126.3.8 = {
+		holder = 207500 # Alfonso VII de Borgoña
+	}
+	1157.8.21 = {
+		holder = 207520 # Sancho III de Borgoña
+	}
+	1158.8.31 = {
+		holder = 207510 # Alfonso VIII de Borgoña
+	}
+	1214.10.8 = {
+		holder = 70230 # Enrique Alfónsez de Borgoña
+	}
+	1217.6.6 = {
+		holder = 457651 # Berenguela Alfónsez de Borgoña
+	}
+	1217.8.31 = {
+		holder = 457660 # Alfonso Alfónsez de Borgoña
+	}
+	1272.1.6 = {
+		holder = 457540 # Alfonso X de Borgoña
+	}
+	1284.4.4 = {
+		holder = 457630 # Juan Manuel de Villena
+	}
+	1808.6.6 = {
+		holder = 9000003
+	}
+	1813.12.11 = {
+		holder = 9000017
+	}
+}
+
+
+c_olmedo = {
+	769.1.1 = {
+		holder = 200020 # Suleyman b. Abd al-Rahman Umayyad
+		liege = d_toledo
+		government = clan_government
+	}
+	800.1.1 = {
+		holder = 73681 # al-Hakam Umayyad
+		liege = k_andalusia
+	}
+	822.5.21 = {
+		holder = 73682 # Abd ar-Rahman II Umayyad
+	}
+	852.9.22 = {
+		holder = 73683 # Muhammad I Ummayyad
+	}
+	867.1.1 = {
+		holder = 73928 # al-Hakam Umayyad
+		liege = d_toledo
+	}
+	890.1.1 = {
+		holder = 70019 # Alfonso III de Cantabria
+		liege = k_asturias
+	}
+	900.1.1 = {
+		holder = 70020 # García I de Cantabria
+		liege = d_leon
+	}
+	910.12.20 = {
+		liege = k_leon
+	}
+	914.1.19 = {
+		holder = 70021 # Ordoño II de León
+	}
+	924.1.1 = {
+		holder = 70030 # Fruela II de Cantabria
+	}
+	925.7.1 = {
+		holder = 70023 # Alfonso IV de León
+	}
+	931.1.1 = {
+		holder = 107680 # Fernán González de Lara
+		liege = d_castilla
+	}
+	944.1.1 = {
+		holder = 72550 # Ansur Fernández Ansúrez
+	}
+	945.1.1 = {
+		holder = 107680 # Fernán González de Lara
+	}
+	970.6.1 = {
+		holder = 107670 # García Fernández de Lara
+	}
+	995.1.1 = {
+		holder = 107660 # Sancho García de Lara
+	}
+	1017.2.5 = {
+		holder = 70286 # García Sánchez de Lara
+	}
+	1029.5.13 = {
+		holder = 107510 # Fernando Sánchez Jimena
+	}
+	1037.9.4 = {
+		liege = k_castille
+	}
+	1060.1.1 = {
+		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+	}
+	1065.12.27 = {
+		holder = 107640 # Pedro Ansúrez
+	}
+	1072.10.7 = {
+		liege = k_castille
+	}
+	1093.12.8 = {
+		holder = 107644 # Mayor Pérez
+	}
+	1148.4.23 = {
+		holder = 71390 # Eylo Alvarez
+	}
+	1153.7.23 = {
+		holder = 71397 # Fernando Rodríguez de Castro I
+	}
+	1185.8.16 = {
+		holder = 71399 # Pedro Fernández de Castro I
+	}
+	1214.8.18 = {
+		holder = 72389 # Alvar Pérez de Castro
+	}
+	1240.3.1 = {
+		holder = 72390 # Eylo Pérez de Castro
+	}
+	1243.2.10 = {
+		holder = 72211 # Rodrigo Giráldez de Castro
+	}
+	1259.1.1 = {
+		holder = 72214 # Fernando Rodríguez de Castro II
+	}
+	1280.1.1 = {
+		holder = 72215 # Pedro Fernández de Castro II
+	}
+	1287.1.1 = {
+		holder = 72333 # Giraldo Guillén
+	}
+	1296.1.1 = {
+		holder = 72449 # Sancho Pérez de Borgoña
+	}
+	1312.1.1 = {
+		holder = 457531 # Pedro Sánchez de Borgoña
+	}
+	1319.7.25 = {
+		holder = 457532 # Blanca Pérez de Borgoña
+	}
+	1808.6.6 = {
+		holder = 9000003
+	}
+	1813.12.11 = {
+		holder = 9000017
+	}
+}
+

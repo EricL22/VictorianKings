@@ -1,0 +1,102 @@
+k_luang_prabang = {
+	1792.2.3 = {
+		holder = 6200000 #Anurutha
+	}
+	1819.12.31 = {
+		holder = 6200001 #Manthaturath
+	}
+	1837.3.7 = {
+		holder = 6200002 #Sukkhasoem
+	}
+	1850.9.23 = {
+		holder = 6200003 #Chantharath
+	}
+	1868.10.1 = {
+		holder = 6200004 #Oun Kham
+	}
+}
+
+k_vientiane = {
+	1805.2.7 = {
+		holder = 6200050 #Anouvong
+	}
+	1828.11.12 = {
+		holder = 0
+	}
+}
+
+d_muang_mang = {
+	1800.1.1 = { change_development_level = 10 }
+	1828.11.12 = {
+		holder = 6200302
+	}
+}
+d_vientiane = {
+	1800.1.1 = { change_development_level = 10 }
+	1828.11.12 = {
+		holder = 6200302
+	}
+}
+d_nakhon_phanom = {
+	1800.1.1 = { change_development_level = 18 }
+	1828.11.12 = {
+		holder = 6200302
+	}
+}
+
+k_champasak = {
+	1811.1.1 = {
+		holder = 6200100
+	}
+	1813.1.1 = {
+		holder = 6200102
+	}
+	1828.1.1 = {
+		holder = 6200101
+	}
+}
+
+c_stung_treng = {
+	1811.1.1 = {
+		holder = 6200100
+	}
+	1828.1.1 = {
+		holder = 6200101
+	}
+}
+
+c_xiangkhouang = {
+	1831.1.1 = {
+		holder = 1000401 #Nguyen Thanh To
+	}
+	1841.2.11 = {
+		holder = 1000402 #Nguyen Hien To
+	}
+	1847.10.5 = {
+		holder = 1000403 #Nguyen Duc Tong
+	}
+}
+
+d_luang_prabang = {
+	1800.1.1 = { change_development_level = 8 }
+}
+
+c_luang_prabang = {
+	1800.1.1 = { change_development_level = 15 }
+}
+
+c_vientiane = {
+	1800.1.1 = { change_development_level = 20 }
+}
+
+d_muang_phuan = {
+	1800.1.1 = { change_development_level = 8 }
+}
+
+d_champasak = {
+	1800.1.1 = { change_development_level = 13 }
+}
+
+d_isan = {
+	1800.1.1 = { change_development_level = 18 }
+}

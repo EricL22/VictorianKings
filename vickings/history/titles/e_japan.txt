@@ -1,0 +1,817 @@
+e_shogunate = {
+	1787.1.1 = {
+		holder = 6310000
+	}
+	1837.9.2 = {
+		holder = 6310001
+	}
+}
+
+k_chrysanthemum_throne = {
+	1780.1.1 = {
+		holder = 6300000
+	}
+	1789.1.1 = {
+		liege = e_shogunate
+		government = feudal_government
+	}
+	1817.5.7 = {
+		holder = 6300001
+	}
+	1846.3.10 = {
+		holder = 6300002
+	}
+}
+
+c_yamashiro = {
+	1780.1.1 = {
+		holder = 6300000
+	}
+	1817.5.7 = {
+		holder = 6300001
+	}
+	1846.3.10 = {
+		holder = 6300002
+	}
+}
+
+c_tango = {
+	1808.1.1 = {
+		holder = 6320000
+		liege = e_shogunate
+	}
+	1841.11.4 = {
+		holder = 6320001
+	}
+}
+
+c_tanba = {
+	1785.1.1 = {
+		holder = 6320002
+	}
+	1787.1.1 = {
+		liege = e_shogunate
+	}
+	1835.1.1 = {
+		holder = 6320003
+	}
+}
+
+c_wakasa = {
+	1757.1.1 = {
+		holder = 6320004
+		liege = e_shogunate
+	}
+	1762.8.7 = {
+		holder = 6320005
+	}
+	1806.3.1 = {
+		holder = 6320006
+	}
+	1828.3.12 = {
+		holder = 6320007
+	}
+	1834.1.1 = {
+		holder = 6320008
+	}
+}
+
+c_omi = {
+	1789.4.16 = {
+		holder = 6320009
+		liege = e_shogunate
+	}
+	1812.2.3 = {
+		holder = 6320010
+	}
+	1850.11.21 = {
+		holder = 6320011
+	}
+}
+
+c_yamato = {
+	1811.1.1 = {
+		holder = 6320012
+		liege = e_shogunate
+	}
+	1838.7.16 = {
+		holder = 6320013
+	}
+}
+
+c_settsu = {
+	1771.1.16 = {
+		holder = 6320014
+		liege = e_shogunate
+	}
+	1809.8.23 = {
+		holder = 6320015
+	}
+	1842.11.18 = {
+		holder = 6320016
+	}
+}
+
+c_izumi = {
+	1803.1.1 = {
+		holder = 6320017
+		liege = e_shogunate
+	}
+	1833.11.24 = {
+		holder = 6320018
+	}
+	1850.10.29 = {
+		holder = 6320019
+	}
+	1855.3.21 = {
+		holder = 6320020
+	}
+}
+
+c_kii = {
+	1789.12.2 = {
+		holder = 6320021
+		liege = e_shogunate
+	}
+	1816.6.3 = {
+		holder = 6320022
+	}
+	1846.5.1 = {
+		holder = 6320023
+	}
+}
+
+c_awa = {
+	1769.1.1 = {
+		holder = 6320024
+	}
+	1787.1.1 = {
+		liege = e_shogunate
+	}
+	1813.1.1 = {
+		holder = 6320025
+	}
+}
+
+c_awaji = {
+	1769.1.1 = {
+		holder = 6320024
+	}
+	1787.1.1 = {
+		liege = e_shogunate
+	}
+	1813.1.1 = {
+		holder = 6320025
+	}
+}
+
+c_sanuki = {
+	1792.1.1 = {
+		holder = 6320026
+		liege = e_shogunate
+	}
+	1821.1.1 = {
+		holder = 6320027
+	}
+	1842.5.25 = {
+		holder = 6320028
+	}
+	1861.7.9 = {
+		holder = 6320029
+	}
+}
+
+c_tosa = {
+	1809.1.1 = {
+		holder = 6320030
+		liege = e_shogunate
+	}
+	1843.3.7 = {
+		holder = 6320031
+	}
+	1848.9.6 = {
+		holder = 6320032
+	}
+}
+
+c_iyo = {
+	1809.1.1 = {
+		holder = 6320033
+		liege = e_shogunate
+	}
+	1835.6.24 = {
+		holder = 6320034
+	}
+	1856.9.9 = {
+		holder = 6320035
+	}
+}
+
+c_tajima = {
+	1785.10.19 = {
+		holder = 6320036
+	}
+	1787.1.1 = {
+		liege = e_shogunate
+	}
+	1814.9.20 = {
+		holder = 6320037
+	}
+	1824.5.30 = {
+		holder = 6320038
+	}
+}
+
+c_inaba = {
+	1807.8.12 = {
+		holder = 6320039
+		liege = e_shogunate
+	}
+	1830.6.22 = {
+		holder = 6320040
+	}
+}
+
+c_hoki = {
+	1807.8.12 = {
+		holder = 6320039
+		liege = e_shogunate
+	}
+	1830.6.22 = {
+		holder = 6320040
+	}
+}
+
+c_izumo = {
+	1806.3.11 = {
+		holder = 6320041
+		liege = e_shogunate
+	}
+	1822.5.12 = {
+		holder = 6320042
+	}
+}
+
+c_oki = {
+	1806.3.11 = {
+		holder = 6320041
+		liege = e_shogunate
+	}
+	1822.5.12 = {
+		holder = 6320042
+	}
+}
+
+c_iwami = {
+	1807.4.30 = {
+		holder = 6320043
+		liege = e_shogunate
+	}
+	1835.12.9 = {
+		holder = 6320044
+	}
+}
+
+c_harima = {
+	1772.8.27 = {
+		holder = 6320045
+	}
+	1790.8.27 = {
+		holder = 6320046
+		liege = e_shogunate
+	}
+	1814.1.1 = {
+		holder = 6320047
+	}
+	1835.4.27 = {
+		holder = 6320048
+	}
+}
+
+c_mimasaka = {
+	1805.8.7 = {
+		holder = 6320049
+		liege = e_shogunate
+	}
+	1831.11.22 = {
+		holder = 6320050
+	}
+	1855.5.3 = {
+		holder = 6320051
+	}
+}
+
+c_bizen = {
+	1794.3.8 = {
+		holder = 6320052
+		liege = e_shogunate
+	}
+	1829.3.11 = {
+		holder = 6320053
+	}
+}
+
+c_bitchu = {
+	1804.9.4 = {
+		holder = 6320054
+		liege = e_shogunate
+	}
+}
+
+c_bingo = {
+	1803.1.1 = {
+		holder = 6320055
+		liege = e_shogunate
+	}
+	1826.7.24 = {
+		holder = 6320056
+	}
+	1836.12.25 = {
+		holder = 6320057
+	}
+}
+
+c_aki = {
+	1799.8.21 = {
+		holder = 6320058
+		liege = e_shogunate
+	}
+	1831.1.4 = {
+		holder = 6320059
+	}
+}
+
+c_nagato = {
+	1782.8.28 = {
+		holder = 6320061
+		liege = e_shogunate
+	}
+	1791.7.12 = {
+		holder = 6320062
+	}
+	1809.3.29 = {
+		holder = 6320063
+	}
+	1824.2.27 = {
+		holder = 6320065
+	}
+}
+
+c_suo = {
+	1782.8.28 = {
+		holder = 6320061
+		liege = e_shogunate
+	}
+	1791.7.12 = {
+		holder = 6320062
+	}
+	1809.3.29 = {
+		holder = 6320063
+	}
+	1824.2.27 = {
+		holder = 6320065
+	}
+}
+
+c_satsuma = {
+	1809.6.1 = {
+		holder = 6320068
+		liege = e_shogunate
+	}
+	1851.2.1 = {
+		holder = 6320069
+	}
+}
+
+c_osumi = {
+	1809.6.1 = {
+		holder = 6320068
+		liege = e_shogunate
+	}
+	1851.2.1 = {
+		holder = 6320069
+	}
+}
+
+c_amami = {
+	1809.6.1 = {
+		holder = 6320068
+		liege = e_shogunate
+	}
+	1851.2.1 = {
+		holder = 6320069
+	}
+}
+
+c_hyuga = {
+	1806.11.26 = {
+		holder = 6320071
+		liege = e_shogunate
+	}
+	1834.9.23 = {
+		holder = 6320072
+	}
+}
+
+c_buzen = {
+	1804.7.20 = {
+		holder = 6320073
+		liege = e_shogunate
+	}
+	1843.6.9 = {
+		holder = 6320074
+	}
+}
+
+c_bungo = {
+	1798.11.29 = {
+		holder = 6320075
+		liege = e_shogunate
+	}
+	1815.6.1 = {
+		holder = 6320076
+	}
+}
+
+c_chikuzen = {
+	1795.11.17 = {
+		holder = 6320077
+		liege = e_shogunate
+	}
+	1834.11.6 = {
+		holder = 6320078
+	}
+}
+
+c_chikugo = {
+	1812.3.15 = {
+		holder = 6320079
+		liege = e_shogunate
+	}
+	1844.5.19 = {
+		holder = 6320080
+	}
+	1846.8.24 = {
+		holder = 6320081
+	}
+}
+
+c_hizen = {
+	1806.11.1 = {
+		holder = 6320082
+		liege = e_shogunate
+	}
+	1841.1.15 = {
+		holder = 6320083
+	}
+}
+
+c_iki = {
+	1806.11.1 = {
+		holder = 6320082
+		liege = e_shogunate
+	}
+	1841.1.15 = {
+		holder = 6320083
+	}
+}
+
+c_higo = {
+	1810.11.10 = {
+		holder = 6320084
+		liege = e_shogunate
+	}
+	1826.3.20 = {
+		holder = 6320085
+	}
+	1860.6.6 = {
+		holder = 6320086
+	}
+}
+
+c_tsushima = {
+	1785.8.12 = {
+		holder = 6320087
+	}
+	1787.1.1 = {
+		liege = e_shogunate
+	}
+	1812.10.2 = {
+		holder = 6320088
+	}
+	1838.9.27 = {
+		holder = 6320089
+	}
+	1842.7.7 = {
+		holder = 6320090
+	}
+}
+
+c_ise = {
+	1806.10.7 = {
+		holder = 6320091
+		liege = e_shogunate
+	}
+	1825.2.4 = {
+		holder = 6320092
+	}
+}
+
+c_shima = {
+	1794.11.11 = {
+		holder = 6320093
+		liege = e_shogunate
+	}
+	1819.1.24 = {
+		holder = 6320094
+	}
+	1842.5.11 = {
+		holder = 6320095
+	}
+}
+
+c_owari = {
+	1799.9.11 = {
+		holder = 6320096
+		liege = e_shogunate
+	}
+	1827.8.15 = {
+		holder = 6320097
+	}
+	1839.5.3 = {
+		holder = 6320098
+	}
+}
+
+c_hitachi = {
+	1805.12.21 = {
+		holder = 6320099
+		liege = e_shogunate
+	}
+	1816.10.10 = {
+		holder = 6320100
+	}
+	1829.10.31 = {
+		holder = 6320101
+	}
+	1844.1.1 = {
+		holder = 6320102
+	}
+}
+
+c_mino = {
+	1806.6.11 = {
+		holder = 6320103
+		liege = e_shogunate
+	}
+	1841.5.9 = {
+		holder = 6320104
+	}
+	1856.10.25 = {
+		holder = 6320105
+	}
+}
+
+c_shinano = {
+	1798.8.21 = {
+		holder = 6320106
+		liege = e_shogunate
+	}
+	1823.8.20 = {
+		holder = 6320107
+	}
+}
+
+c_iwashiro = {
+	1806.2.15 = {
+		holder = 6320108
+		liege = e_shogunate
+	}
+	1822.4.20 = {
+		holder = 6320109
+	}
+}
+
+c_rikuzen = {
+	1812.6.3 = {
+		holder = 6320110
+		liege = e_shogunate
+	}
+	1819.10.15 = {
+		holder = 6320111
+	}
+	1828.1.13 = {
+		holder = 6320112
+	}
+}
+
+c_rikutyu = {
+	1784.6.22 = {
+		holder = 6320113
+	}
+	1787.1.1 = {
+		liege = e_shogunate
+	}
+	1820.7.12 = {
+		holder = 6320114
+	}
+	1825.8.21 = {
+		holder = 6320115
+	}
+	1847.1.1 = {
+		holder = 6320116
+	}
+	1848.1.1 = {
+		holder = 6320117
+	}
+}
+
+c_rikuo = {
+	1784.6.22 = {
+		holder = 6320113
+	}
+	1787.1.1 = {
+		liege = e_shogunate
+	}
+	1820.7.12 = {
+		holder = 6320114
+	}
+	1825.8.21 = {
+		holder = 6320115
+	}
+	1847.1.1 = {
+		holder = 6320116
+	}
+	1848.1.1 = {
+		holder = 6320117
+	}
+}
+
+c_tsugaru = {
+	1791.7.22 = {
+		holder = 6320118
+		liege = e_shogunate
+	}
+	1825.1.1 = {
+		holder = 6320119
+	}
+}
+
+c_ugo = {
+	1785.7.6 = {
+		holder = 6320120
+	}
+	1787.1.1 = {
+		liege = e_shogunate
+	}
+	1815.8.12 = {
+		holder = 6320121
+	}
+}
+
+c_yuqian = {
+	1805.9.25 = {
+		holder = 6320122
+		liege = e_shogunate
+	}
+	1842.4.14 = {
+		holder = 6320123
+	}
+}
+
+c_echizen = {
+	1799.1.1 = {
+		holder = 6320124
+		liege = e_shogunate
+	}
+	1826.1.8 = {
+		holder = 6320125
+	}
+	1835.7.27 = {
+		holder = 6320126
+	}
+}
+
+c_kaga = {
+	1802.1.1 = {
+		holder = 6320127
+		liege = e_shogunate
+	}
+	1822.1.1 = {
+		holder = 6320128
+	}
+	1866.4.4 = {
+		holder = 6320129
+	}
+}
+
+c_noto = {
+	1802.1.1 = {
+		holder = 6320127
+		liege = e_shogunate
+	}
+	1822.1.1 = {
+		holder = 6320128
+	}
+	1866.4.4 = {
+		holder = 6320129
+	}
+}
+
+c_etchu = {
+	1802.1.1 = {
+		holder = 6320127
+		liege = e_shogunate
+	}
+	1822.1.1 = {
+		holder = 6320128
+	}
+	1866.4.4 = {
+		holder = 6320129
+	}
+}
+
+c_echigo = {
+	1810.1.1 = {
+		holder = 6320130
+		liege = e_shogunate
+	}
+	1827.1.1 = {
+		holder = 6320131
+	}
+	1839.1.1 = {
+		holder = 6320132
+	}
+}
+
+# Yanagawa Domain
+c_iwaki = {
+	1807.1.1 = {
+		holder = 6320133
+		liege = e_shogunate
+	}
+	1821.1.1 = {
+		holder = 6310000
+	}
+}
+
+d_matsumae = {
+	1792.10.28 = {
+		holder = 6320133
+		liege = e_shogunate
+	}
+	1807.1.1 = {
+		holder = 6310000
+	}
+	1821.1.1 = {
+		holder = 6320133
+	}
+	1833.11.6 = {
+		holder = 6320135
+	}
+	1839.10.1 = {
+		holder = 6320136
+	}
+	1849.6.9 = {
+		holder = 6320137
+	}
+}
+
+c_oshima = {
+	1792.10.28 = {
+		holder = 6320133
+	}
+	1807.1.1 = {
+		holder = 6310000
+	}
+	1821.1.1 = {
+		holder = 6320133
+	}
+	1833.11.6 = {
+		holder = 6320135
+	}
+	1839.10.1 = {
+		holder = 6320136
+	}
+	1849.6.9 = {
+		holder = 6320137
+	}
+}
+
+k_ryukyu = {
+	1804.1.1 = {
+		holder = 6330000
+	}
+	1828.1.1 = {
+		holder = 6330001
+	}
+}
+
+c_shuri = {
+	1804.1.1 = {
+		holder = 6330000
+	}
+	1828.1.1 = {
+		holder = 6330001
+	}
+}

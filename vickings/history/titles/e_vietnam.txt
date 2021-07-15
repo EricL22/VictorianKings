@@ -1,0 +1,127 @@
+e_vietnam = {
+	#Nguyen Dynasty
+	1802.6.1 = {
+		holder = 1000400 #Nguyen The To
+	}
+	1820.2.14 = {
+		holder = 1000401 #Nguyen Thanh To
+	}
+	1841.2.11 = {
+		holder = 1000402 #Nguyen Hien To
+	}
+	1847.10.5 = {
+		holder = 1000403 #Nguyen Duc Tong
+	}
+}
+
+d_zienghai = {
+	1800.1.1 = { change_development_level = 10 }
+}
+
+c_gaao = {
+	1800.1.1 = { change_development_level = 35 }
+
+	#Nguyen Dynasty
+	1802.6.1 = {
+		holder = 1000400 #Nguyen The To
+	}
+	1820.2.14 = {
+		holder = 1000401 #Nguyen Thanh To
+	}
+	1841.2.11 = {
+		holder = 1000402 #Nguyen Hien To
+	}
+	1847.10.5 = {
+		holder = 1000403 #Nguyen Duc Tong
+	}
+}
+
+c_muan = {
+	1800.1.1 = { change_development_level = 21 }
+}
+
+d_truc_ky = {
+	1800.1.1 = { change_development_level = 12 }
+}
+
+c_hue = {
+	1800.1.1 = { change_development_level = 18 }
+}
+
+d_ta_ky = {
+	1800.1.1 = { change_development_level = 14 }
+}
+
+d_nam_ky = {
+	1800.1.1 = { change_development_level = 15 }
+}
+
+c_gia_dinh = {
+	1800.1.1 = { change_development_level = 30 }
+}
+
+c_kon_tum = {
+	1811.1.1 = {
+		holder = 6200100
+	}
+	1820.2.14 = {
+		holder = 1000401 #Nguyen Thanh To
+	}
+	1841.2.11 = {
+		holder = 1000402 #Nguyen Hien To
+	}
+	1847.10.5 = {
+		holder = 1000403 #Nguyen Duc Tong
+	}
+}
+
+c_gia_lai = {
+	1779.8.1 = {
+		holder = 6200200 #Ang Eng
+	}
+	1796.5.5 = {
+		holder = 6200201 #Ang Chan II
+	}
+	1820.2.14 = {
+		holder = 1000401 #Nguyen Thanh To
+	}
+	1841.2.11 = {
+		holder = 1000402 #Nguyen Hien To
+	}
+	1847.10.5 = {
+		holder = 1000403 #Nguyen Duc Tong
+	}
+}
+
+c_dak_lak = {
+	1779.8.1 = {
+		holder = 6200200 #Ang Eng
+	}
+	1796.5.5 = {
+		holder = 6200201 #Ang Chan II
+	}
+	1820.2.14 = {
+		holder = 1000401 #Nguyen Thanh To
+	}
+	1841.2.11 = {
+		holder = 1000402 #Nguyen Hien To
+	}
+	1847.10.5 = {
+		holder = 1000403 #Nguyen Duc Tong
+	}
+}
+
+c_sam_nua = {
+	1802.6.1 = {
+		holder = 1000400 #Nguyen The To
+	}
+	1820.2.14 = {
+		holder = 1000401 #Nguyen Thanh To
+	}
+	1841.2.11 = {
+		holder = 1000402 #Nguyen Hien To
+	}
+	1847.10.5 = {
+		holder = 1000403 #Nguyen Duc Tong
+	}
+}

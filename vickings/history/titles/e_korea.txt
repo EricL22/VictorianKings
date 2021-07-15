@@ -1,0 +1,138 @@
+e_korea = {
+	#Joseon Dynasty
+	1897.10.13 = {
+		holder = 1000240 #Gojong
+	}
+	1910.8.29 = {
+		holder = 0
+	}
+}
+
+k_joseon = {
+	1800.1.1 = { change_development_level = 10 }
+
+	#Joseon Dynasty
+	1623.4.11 = {
+		holder = 1000218 #Injo
+	}
+	1649.6.17 = {
+		holder = 1000219 #Hyojong
+	}
+	1659.6.23 = {
+		holder = 1000220 #Hyeonjong
+	}
+	1674.9.17 = {
+		holder = 1000221 #Sukjong
+	}
+	1720.7.12 = {
+		holder = 1000222 #Gyeongjong
+	}
+	1724.10.11 = {
+		holder = 1000223 #Yeongjo
+	}
+	1776.4.27 = {
+		holder = 1000225 #Jeongjo
+	}
+	1800.8.18 = {
+		holder = 1000226 #Sunjo
+	}
+	1834.12.18 = {
+		holder = 1000228 #Heonjong
+	}
+	1849.7.25 = {
+		holder = 1000231 #Cheoljong
+	}
+	1864.1.21 = {
+		holder = 1000240 #Gojong
+	}
+	1897.10.13 = {
+		holder = 0
+	}
+}
+
+c_hanseong = {
+	1800.1.1 = { change_development_level = 24 }
+
+	#Joseon Dynasty
+	1623.4.11 = {
+		holder = 1000218 #Injo
+	}
+	1649.6.17 = {
+		holder = 1000219 #Hyojong
+	}
+	1659.6.23 = {
+		holder = 1000220 #Hyeonjong
+	}
+	1674.9.17 = {
+		holder = 1000221 #Sukjong
+	}
+	1720.7.12 = {
+		holder = 1000222 #Gyeongjong
+	}
+	1724.10.11 = {
+		holder = 1000223 #Yeongjo
+	}
+	1776.4.27 = {
+		holder = 1000225 #Jeongjo
+	}
+	1800.8.18 = {
+		holder = 1000226 #Sunjo
+	}
+	1834.12.18 = {
+		holder = 1000228 #Heonjong
+	}
+	1849.7.25 = {
+		holder = 1000231 #Cheoljong
+	}
+	1864.1.21 = {
+		holder = 1000240 #Gojong
+	}
+}
+
+d_hamgyong = {
+	1800.1.1 = {
+		change_development_level = 5
+	}
+}
+
+c_pyeongyang = {
+	1800.1.1 = {
+		change_development_level = 13
+	}
+}
+
+c_cheongju = {
+	1800.1.1 = {
+		change_development_level = 18
+	}
+}
+
+c_muju = {
+	1800.1.1 = {
+		change_development_level = 18
+	}
+}
+
+c_jinju = {
+	1800.1.1 = {
+		change_development_level = 25
+	}
+}
+
+c_gyeongju = {
+	1800.1.1 = {
+		change_development_level = 22
+	}
+}
+
+c_gangneung = {
+	1800.1.1 = {
+		change_development_level = 15
+	}
+}
+
+c_jeju = {
+	1800.1.1 = {
+		change_development_level = 6
+	}
+}
