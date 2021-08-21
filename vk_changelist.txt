@@ -1,0 +1,172 @@
+0.3.3----------
+Fixed major decisions not triggering events for nearby players
+New cultures and CoAs for major countries, and France can now change its flag based on government
+Added political party mechanics, based on personality rather than education (now uses old behavior as a fallback)
+Fixed bug where Thai rulers from the Chakri dynasty will be called "Rama" in a republic
+Fixed elections which would clear out government reforms
+Prohibited centralized states from giving free war declaration contracts, except for protectorates
+Added localization for some minor rulers
+0.3.2----------
+Re-added ability to call independent rulers to war
+Pressing a Radical Faction demand in the Shogunate now correctly creates the title of Japan, instead of immediately destroying it
+Increase likelihood of an AI-led Meiji Restoration
+Updated vanilla holy sites and faction fixes
+Added localization for Russian and Chinese (partial support for other languages), and changed some historical names to match new character set
+0.3.1----------
+Fixed event spam and opinion modifiers in the Treaty of Tarbagatai
+Added decision to create Taiwan Province
+Disabled the ability for full republics to press a claimant faction
+Meiji Administrative Reform no longer affects vassals with protected title revocation
+Set some Russian troops as non-inheritable in the earlier bookmarks
+Fixed CBs broken by the 1.4 update
+Nerfed the Japan Westernization decision so the Emperor needs at least some help to reclaim his power
+0.3------------
+Fixed Holy Site conflicts from Tang Dynasty Map Mod
+Added the Japanese main islands, as well as cultures, religions, and decisions
+Changed behavior of Republic flavorization: now all vassal republics are ruled by "Governors" and not "Presidents," and titles are flavorized depending on culture
+Fixed State Centralization system to account for vassals in revolt
+Restricted Nationalism in uniting Spain and Portugal
+Added use of 祖 (progenitor) to temple names, if a new imperial dynasty is established
+0.2.6----------
+Changed Cyprus de jure liege
+Added Government Reforms, which resemble the centralized state system of the period
+Added event to reclaim Inner Mongolia
+Reduced AI weights for radical faction even more to scale with number of sinful traits
+0.2.5----------
+Added decision to unite Laos (Luang Prabang, Vientiane, Champasak)
+Bonapartist election event chain: Napoleon III or another claimant will try to run for French president after a revolution
+Added the French territory of Pondicherry in India, they will own it in 1815 and 1836
+Corrected Algerian-Moroccan border
+Rulers of Morocco are now part of their proper dynasty
+Added Colonial Conquest cb to encourage... colonial conquest
+Added some more members to the Bonaparte and Obrenovic dynasties
+Fixed marriages not allowing non-republic rulers to marry
+Added Republic term lengths and election mechanics
+Fixed Siberian rulers being able to conquer coastal provinces in East Asia
+Fixed China renaming to Qing if it's a republic
+Modified county borders in Poland and the Balkans, fixed de jure liege of Bornholm and de jure capital of Poland
+Fixed a vanilla bug that allows you to convert religiously protected vassals
+Fixed Acquire Outer Manchuria decision
+Fixed vassal contracts for Clan princely states
+Added Mongolian Revolution event, which will install the Bogd Khan if they achieve independence
+Added Tuvan Revolution which will culture convert Tannu Tuva if they achieve independence
+Relaxed Trade Company restrictions: removed culture and region requirement, but still requires at least one coastal county and non-hostile faith
+To fix exclave independence, connected the Mediterranean and Red Sea
+Fixed feudal vassal kingdoms being flavorized as republics
+0.2.4----------
+Added Ottoman historical characters
+Redid Swiss-French-Italian border
+Added Italian historical decisions
+Corrected Bavarian-Austrian border
+Fixed the Conquer Papal Rome casus belli
+Fixed feudal vassals inheriting republics bug
+Fixed UK launching invasion wars if they do not border a country in India
+Added sea provinces to connect the Indian Ocean to the South China Sea
+Changed Frisia to be called the Netherlands
+0.2.3----------
+Fixed the rightful liege penalty for East India Company
+Fixed Koreans naming children after temple names
+MAA cap of Princely States is now severely reduced (they were historically not allowed to have standing armies)
+Added republican succession law to Ceylon
+Fixed British not invading Burma
+Tweaked scripted war on action to only give bonuses when a country has started a war
+Modified province borders
+Modified Treaty of Tarbagatai triggers
+Reduced cost of abolishing republic for independent rulers
+Added scripted unification wars for AI
+Jerusalem will no longer be preferred as a primary title for catholics
+Added historical characters: Franz Josef, Maximilian, Karl Ludwig, Bahadur II
+Fixed Turkey de jure setup
+Ladakh will now become part of India upon Indian independence
+Creating Hispania now requires complete control of Spain and Portugal to be formed
+Queen Victoria will now ascend to the throne 100% of the time, if King William IV is AI
+0.2.2----------
+Revoking titular princely state titles will now cause them to be destroyed
+Vassal governors in China now start with republican succession law
+Shifted Bastogne into the County of Bouillon to match Belgian Luxembourg
+Gansu and Yunnan are now considered "Chinese governor"
+Added requirements to abolish republican succession
+Modified the borders of Inner Mongolia
+Restricted EIC to require hooks when expanding outside India
+Added scripted AI wars to encourage historical behavior
+Cleaned up some code
+Added new culture eras and innovations, updated some culture histories
+The Balochistan and Sikh rulers are now part of their proper dynasties
+Added icon to radical faction
+Severely restricted UK AI vassals (especially EIC) from joining radical and independence factions
+Added new Casus Belli to easily challenge the Marathas or other empires for control of India
+Fixed history in 1815 bookmark and relocated Maratha capital
+Added a sea province so Jinju can be accessed
+Added winter effects for the new Korean provinces
+0.2.1----------
+Fixed Austrian Republic event
+Austria is no longer flavorized as "Archduchy" in non-feudal realms
+Restricted Trade Company contract to certain regions, and to same-faith same-culture rulers
+Added Russian decisions to take land from China
+Fix errors with faction code
+Liaodong is now considered a "Chinese governor"
+Fixed broken province history in Moldavia
+Fixed Nationalism CB to target foreign rulers with more than one county in target empire
+Balanced province development in East Asia and some cities in Europe
+Forming the German Empire will also create its historical vassal kingdoms
+Qing military governors are now more content with what they have in all start dates
+Redid the southern border between China and India; added Kingdom of Maryül (Ladakh)
+King Leopold II of Belgium is now zealous, to avoid quick conversion to Protestantism
+Added some historical dynasty members for the Sikh Empire
+Fix Radical Faction War bug
+Rewrote UK renaming system
+Higher princely state opinion buff
+Restricted call-to-arms for Chinese governors
+Updated some province culture and religion
+0.2------------
+Added Kingdoms of Sikkim, Lhomon (Bhutan), and Ahom
+Britannia is now called the United Kingdom at all start dates
+Added Russian Siberia, the islands of Jeju and Taiwan, southern Vietnam, Tenasserim and eastern Burma, Laotian states, Cambodia, Siam
+Changed Korean provinces to reflect historical boundaries
+Adjusted flavorizations so they can show
+Added cultural histories for Viet and Korean
+Added Tai culture group: Thai, Lao, Shan cultures
+Added Vietnamese cultures: Khmer and Cham
+Fixed AI weighting issues in the radical faction, hopefully for good
+Changed names of some vanilla titles
+Russia now benefits from increased movement speed
+Redid the eastern border between Russia and Mongolia
+Repurposed Yanbian province into Haishenwai (Vladivostok)
+0.1.4.1--------
+Barred republics from taking concubines
+0.1.4----------
+Muslim rulers will never join a radical faction before 1900 if their head of faith exists
+Radical faction leader will become president of the new Republic if they win the Revolutionary War
+Abolished Burgundy to fix Bourbons creating French Empire
+Increased Ottoman prestige in 1836 and increased Qing crown authority
+Added provinces in Manchuria, created Russian Far East
+0.1.3----------
+Linked King Cheoljong of Joseon to his other family
+Bourbons cannot create Burgundy if they hold France (stops them from creating ahistorical Empire)
+British AI will not take India as its primary title
+Buffed the Spanish in 1836
+Buffed the Prussians in 1836
+Certain personalities are less likely to join radical faction
+Added some bookmark graphics
+Modified cultural history
+Restricted targets for the Nationalism CB
+Fixed realms randomly becoming republics despite not having an active radical faction
+0.1.2----------
+Changed Korea to follow Neo-Confucianism
+Added a casus belli for the radical faction
+Changed localization for republics
+Fixed Vietnam title history
+Republics are now playable
+Restricted AI willingness to create cadet branches in China
+Added Temple Names for Korea
+0.1.1----------
+Changed congress event to add male only law to Hanover, and shifted de jure placements
+Qing will change name to China if title is not held by their dynasty, and will change back if they regain it
+Confucian/Taoist/some Buddhist realms now start with male only law
+Ottomans have more hooks to ensure realm stability
+Fixed sexuality of Napoleon II
+Spain is no longer an empire, to prevent easy conquest of Portugal. For simplicity, the Kingdom of Navarra has been abolished.
+Fixed regnal numbers for Spain
+Bosnia now controls Lower Bosnia
+Chinese vassal governors can no longer independently declare wars
+Adjusted weights for AI joining radical faction                                         
