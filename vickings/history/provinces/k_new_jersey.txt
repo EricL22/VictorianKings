@@ -1,0 +1,44 @@
+11429 = {
+	culture = american
+	religion = protestant
+}
+
+11430 = {
+	culture = american
+	religion = protestant
+}
+
+11431 = {
+	culture = american
+	religion = protestant
+}
+
+11432 = {
+	culture = american
+	religion = protestant
+}
+
+11433 = {
+	culture = american
+	religion = protestant
+}
+
+11434 = {
+	culture = american
+	religion = protestant
+}
+
+11435 = {
+	culture = american
+	religion = protestant
+}
+
+11436 = {
+	culture = american
+	religion = protestant
+}
+
+11437 = {
+	culture = american
+	religion = protestant
+}

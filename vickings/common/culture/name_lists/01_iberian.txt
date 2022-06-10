@@ -1,0 +1,658 @@
+﻿name_list_andaluz = {
+
+		cadet_dynasty_names = {
+			{ "dynnp_de" "dynn_La_Cerda" }
+			{ "dynnp_de" "dynn_Deza" }
+			{ "dynnp_de" "dynn_Borgona" }
+			{ "dynnp_de" "dynn_Castro" }
+			{ "dynnp_del" "dynn_Carpio" }
+			{ "dynnp_de" "dynn_Bolea" }
+			{ "dynnp_de" "dynn_AcuN_a" }
+			{ "dynnp_de" "dynn_Menezes" }
+			{ "dynnp_de" "dynn_Alba_de_Liste" }
+			{ "dynnp_de" "dynn_Castrogeriz" }
+			{ "dynnp_de" "dynn_Alencastre" }
+			{ "dynnp_de" "dynn_Ovando" }
+			{ "dynnp_de" "dynn_Viguera" }
+			{ "dynnp_de" "dynn_LeO_n" }
+			{ "dynnp_de" "dynn_Benavides" }
+			{ "dynnp_de" "dynn_TrastA_mara" }
+			{ "dynnp_de" "dynn_CastaN_eda" }
+			{ "dynnp_de" "dynn_Molina" }
+			{ "dynnp_de" "dynn_Alfaro" }
+			{ "dynnp_de" "dynn_Ceballos" }
+			{ "dynnp_de" "dynn_Toledo" }
+			{ "dynnp_de" "dynn_CO_rdoba" }
+			{ "dynnp_de" "dynn_Godoy" }
+			{ "dynnp_de" "dynn_la_Vega" }
+			{ "dynnp_de" "dynn_Villalobos" }
+			{ "dynnp_de" "dynn_NoreN_a" }
+			{ "dynnp_de" "dynn_GijO_n" }
+			{ "dynnp_de" "dynn_Sotomayor" }
+			{ "dynnp_de" "dynn_CA_ceres" }
+			{ "dynnp_de" "dynn_SolI_s" }
+			{ "dynnp_de" "dynn_QuiN_ones" }
+			{ "dynnp_de" "dynn_Quintana" }
+			{ "dynnp_de" "dynn_Padilla" }
+			{ "dynnp_de" "dynn_Candamio" }
+			{ "dynnp_de" "dynn_VillagarcI_a" }
+			{ "dynnp_de" "dynn_Luna" }
+			{ "dynnp_de" "dynn_la_Cueva" }
+			{ "dynnp_de" "dynn_Pacheco" }
+			{ "dynnp_de" "dynn_CA_rdenas" }
+			{ "dynnp_de" "dynn_Prado" }
+			{ "dynnp_de" "dynn_LiE_bana" }
+			{ "dynnp_de" "dynn_Lugo" }
+			{ "dynnp_de" "dynn_Bergido" }
+			{ "dynnp_de" "dynn_PeN_alba" }
+			{ "dynnp_de" "dynn_Miravalles" }
+			{ "dynnp_de" "dynn_Cisneros" }
+			{ "dynnp_de" "dynn_SahagU_n" }
+			{ "dynnp_de" "dynn_Manzanedo" }
+			{ "dynnp_de" "dynn_AlagO_n" }
+			{ "dynnp_de" "dynn_Samos" }
+			{ "dynnp_de" "dynn_Villacorta" }
+			{ "dynnp_de" "dynn_SantibA_N_ez" }
+			{ "dynnp_de" "dynn_Silos" }
+			{ "dynnp_de" "dynn_Aguilar" }
+			{ "dynnp_de" "dynn_Toro" }
+			{ "dynnp_de" "dynn_Segovia" }
+			{ "dynnp_de" "dynn_Biedma" }
+			{ "dynnp_de" "dynn_Cabra" }
+			{ "dynnp_de" "dynn_Ayerbe" }
+			{ "dynnp_de" "dynn_HI_jar" }
+			{ "dynnp_de" "dynn_Castilla_y_LeO_n" }
+			{ "dynnp_de" "dynn_Soler" }
+			{ "dynnp_de" "dynn_CaN_amas" }
+			{ "dynnp_de" "dynn_Borja" }
+			{ "dynnp_de" "dynn_RiaN_o" }
+			{ "dynnp_de" "dynn_Limia" }
+			{ "dynnp_de" "dynn_Belorado" }
+			{ "dynnp_de" "dynn_Arroyolos" }
+			{ "dynnp_de" "dynn_Villamayor" }
+			{ "dynnp_de" "dynn_la_Vega" }
+			{ "dynnp_de" "dynn_Rojas" }
+			{ "dynnp_de" "dynn_Escobar" }
+			{ "dynnp_de" "dynn_Fuente_Almexir" }
+			{ "dynnp_de" "dynn_Avellaneda" }
+			{ "dynnp_de" "dynn_Fano" }
+			{ "dynnp_de" "dynn_Xinzo" }
+			{ "dynnp_de" "dynn_Entralgo" }
+			{ "dynnp_de" "dynn_Feniosara" }
+			{ "dynnp_de" "dynn_Saz" }
+			{ "dynnp_de" "dynn_Silva" }
+			{ "dynnp_de" "dynn_ToroN_o" }
+			{ "dynnp_del" "dynn_Puente" }
+			{ "dynnp_de" "dynn_Palencia" }
+			{ "dynnp_de" "dynn_PadrO_n" }
+			{ "dynnp_de" "dynn_Landora" }
+			{ "dynnp_de" "dynn_CarriO_n" }
+			{ "dynnp_de" "dynn_San_MillA_n" }
+			{ "dynnp_de" "dynn_la_Frontera" }
+			{ "dynnp_de" "dynn_Yanguas" }
+			{ "dynnp_de" "dynn_Novoa" }
+			{ "dynnp_de" "dynn_Cevallos" }
+			{ "dynnp_de" "dynn_Santsoles" }
+			{ "dynnp_de" "dynn_Barrantes" }
+			{ "dynnp_de" "dynn_Quiroga" }
+			{ "dynnp_de" "dynn_Fuentes" }
+			{ "dynnp_de" "dynn_TrastA_mara" }
+			{ "dynnp_de" "dynn_Santiago" }
+			{ "dynnp_de" "dynn_Niebla" }
+			{ "dynnp_de" "dynn_CA_diz" }
+			{ "dynnp_de" "dynn_Algeciras" }
+			{ "dynnp_de" "dynn_MA_laga" }
+			{ "dynnp_de" "dynn_AlmerI_a" }
+			{ "dynnp_de" "dynn_Murcia" }
+			{ "dynnp_de" "dynn_Denia" }
+			{ "dynnp_de" "dynn_Valencia" }
+			{ "dynnp_de" "dynn_Castellon" }
+			{ "dynnp_de" "dynn_AlbarracI_n" }
+			{ "dynnp_de" "dynn_Calatayud" }
+			{ "dynnp_de" "dynn_Molina" }
+			{ "dynnp_de" "dynn_Cuenca" }
+			{ "dynnp_de" "dynn_La_Mancha" }
+			{ "dynnp_de" "dynn_Almansa" }
+			{ "dynnp_de" "dynn_Granada" }
+			{ "dynnp_de" "dynn_Cordoba" }
+			{ "dynnp_de" "dynn_Sevilla" }
+			{ "dynnp_de" "dynn_Aracena" }
+			{ "dynnp_de" "dynn_Badajoz" }
+			{ "dynnp_de" "dynn_Astorga" }
+			{ "dynnp_de" "dynn_LeO_n" }
+			{ "dynnp_de" "dynn_Zamora" }
+			{ "dynnp_de" "dynn_Salamanca" }
+			{ "dynnp_de" "dynn_AlcA_ntara" }
+			{ "dynnp_de" "dynn_Plasencia" }
+			{ "dynnp_de" "dynn_Calatrava" }
+			{ "dynnp_de" "dynn_Valladolid" }
+			{ "dynnp_de" "dynn_Burgos" }
+			{ "dynnp_de" "dynn_Soria" }
+			{ "dynnp_de" "dynn_Zaragoza" }
+			{ "dynnp_de" "dynn_Mendoza" }
+			{ "dynnp_de" "dynn_Peralta" }
+			{ "dynnp_de" "dynn_Castrosiero" }
+			{ "dynnp_de" "dynn_Toledo" }
+			{ "dynnp_de" "dynn_Acibeiro" }
+			{ "dynnp_de" "dynn_Armenteira" }
+			{ "dynnp_de" "dynn_Astorga" }
+			{ "dynnp_de" "dynn_Barrantes" }
+			{ "dynnp_de" "dynn_Betanzos" }
+			{ "dynnp_de" "dynn_Carballido" }
+			{ "dynnp_da" "dynn_CoruN_a" }
+			{ "dynnp_de" "dynn_Dubra" }
+			{ "dynnp_de" "dynn_Ferreira" }
+			{ "dynnp_do" "dynn_Ferrol" }
+			{ "dynnp_de" "dynn_Galicia" }
+			{ "dynnp_de" "dynn_Lemos" }
+			{ "dynnp_de" "dynn_LE_rez" }
+			{ "dynnp_de" "dynn_Limia" }
+			{ "dynnp_de" "dynn_Lourenza" }
+			{ "dynnp_de" "dynn_Lugo" }
+			{ "dynnp_de" "dynn_Meira" }
+			{ "dynnp_de" "dynn_ME_lide" }
+			{ "dynnp_de" "dynn_MelO_n" }
+			{ "dynnp_de" "dynn_MondoN_edo" }
+			{ "dynnp_de" "dynn_Monfero" }
+			{ "dynnp_de" "dynn_Monterrei" }
+			{ "dynnp_de" "dynn_Novoa" }
+			{ "dynnp_de" "dynn_Oseira" }
+			{ "dynnp_de" "dynn_Ourense" }
+			{ "dynnp_do" "dynn_PadrO_n" }
+			{ "dynnp_de" "dynn_Penamaior" }
+			{ "dynnp_de" "dynn_Poio" }
+			{ "dynnp_de" "dynn_Pontevedra" }
+			{ "dynnp_de" "dynn_Quiroga" }
+			{ "dynnp_de" "dynn_Salvatierra" }
+			{ "dynnp_de" "dynn_Samos" }
+			{ "dynnp_de" "dynn_Santiago" }
+			{ "dynnp_de" "dynn_Sobrado" }
+			{ "dynnp_de" "dynn_TrastA_mara" }
+			{ "dynnp_de" "dynn_Tui" }
+			{ "dynnp_de" "dynn_Vigo" }
+			{ "dynnp_de" "dynn_Vilalba" }
+			{ "dynnp_de" "dynn_Aguilar" }
+			{ "dynnp_de" "dynn_Alba" }
+			{ "dynnp_de" "dynn_Alcantara" }
+			{ "dynnp_de" "dynn_ArgU_ellos" }
+			{ "dynnp_de_las" "dynn_Asturias" }
+			{ "dynnp_de" "dynn_Badajoz" }
+			{ "dynnp_de" "dynn_Bembibre" }
+			{ "dynnp_de" "dynn_Benavente" }
+			{ "dynnp_de" "dynn_BE_jar" }
+			{ "dynnp_de_la" "dynn_Buelga" }
+			{ "dynnp_de" "dynn_Burguillos" }
+			{ "dynnp_de" "dynn_CA_ceres" }
+			{ "dynnp_de" "dynn_Candamu" }
+			{ "dynnp_de" "dynn_Cangas" }
+			{ "dynnp_de" "dynn_CarriO_n" }
+			{ "dynnp_de" "dynn_Ciudad_Rodrigo" }
+			{ "dynnp_de" "dynn_Coria" }
+			{ "dynnp_de" "dynn_Corias" }
+			{ "dynnp_de" "dynn_Cuadonga" }
+			{ "dynnp_de" "dynn_Estorga" }
+			{ "dynnp_de" "dynn_Guardo" }
+			{ "dynnp_de" "dynn_L_Entregu" }
+			{ "dynnp_de" "dynn_LleO_n" }
+			{ "dynnp_de" "dynn_Llerena" }
+			{ "dynnp_de" "dynn_ME_rida" }
+			{ "dynnp_del" "dynn_Narcea" }
+			{ "dynnp_de" "dynn_Navia" }
+			{ "dynnp_de" "dynn_NoreN_a" }
+			{ "dynnp_de" "dynn_Olivenza" }
+			{ "dynnp_de" "dynn_OnI_s" }
+			{ "dynnp_de" "dynn_Pravia" }
+			{ "dynnp_de" "dynn_QuirO_s" }
+			{ "dynnp_de" "dynn_RiaN_u" }
+			{ "dynnp_de" "dynn_Rioseco" }
+			{ "dynnp_de" "dynn_Rueda" }
+			{ "dynnp_de" "dynn_SaldaN_a" }
+			{ "dynnp_de" "dynn_Sama" }
+			{ "dynnp_de" "dynn_Salamanca" }
+			{ "dynnp_de" "dynn_Salas" }
+			{ "dynnp_de" "dynn_Salvatierra" }
+			{ "dynnp_de" "dynn_Santalla" }
+			{ "dynnp_de" "dynn_SantibA_N_ez" }
+			{ "dynnp_del" "dynn_Sella" }
+			{ "dynnp_de" "dynn_Tabladiellu" }
+			{ "dynnp_de" "dynn_Toro" }
+			{ "dynnp_de" "dynn_Trujillo" }
+			{ "dynnp_de_los" "dynn_Tusinos" }
+			{ "dynnp_de" "dynn_UviE_u" }
+			{ "dynnp_de" "dynn_ValdE_s" }
+			{ "dynnp_de" "dynn_Villalba" }
+			{ "dynnp_de" "dynn_Villalobos" }
+			{ "dynnp_de" "dynn_Villablino" }
+			{ "dynnp_de" "dynn_Villaviciosa" }
+			{ "dynnp_de" "dynn_Villanueva" }
+			{ "dynnp_de" "dynn_Villafafila" }
+			{ "dynnp_de" "dynn_XixO_n" }
+			{ "dynnp_de" "dynn_Zalaca" }
+			{ "dynnp_de" "dynn_Zamora" }
+		    ##arabic andalusian
+			"dynn_Mutamin"
+			"dynn_Huddid"
+			"dynn_Matiyid"
+			"dynn_Tahirid"
+			"dynn_Razinid"
+			"dynn_Hakamid"
+			"dynn_Wazirid"
+			"dynn_Ismailid"
+			"dynn_Farayid"
+			"dynn_Abu-Ya_farid"
+			"dynn_Mardanisid"
+			"dynn_Mursiyid"
+			"dynn_Laridid"
+			"dynn_Ishbiliyid"
+			"dynn_Qunkid"
+			"dynn_Balansiyyid"
+			"dynn_Maymunid"
+			"dynn_Adhavid"
+			"dynn_Hassunid"
+			"dynn_Gharnatid"
+			"dynn_Hishamid"
+			"dynn_Mahfuzid"
+			"dynn_Ahlidid"
+			"dynn_Zannunid"
+			"dynn_Mahdid"
+			"dynn_Sa_did"
+			"dynn_Wadalqavirid"
+			"dynn_Qadirid"
+			"dynn_Hamdinid"
+			"dynn_Yakubid"
+			"dynn_Yassin"
+			"dynn_Aminid"
+			"dynn_Ismailid"
+			"dynn_Nasrid"
+			"dynn_Muzaffar"
+			"dynn_Bajjah"
+			"dynn_Zuhr"
+			"dynn_Rushd"
+			"dynn_Hafsid"
+		}
+
+		dynasty_names = {
+			"dynn_NU_N_ez"
+			"dynn_Alonso"
+			"dynn_RamI_rez"
+			"dynn_Trillo_de_las_Asturias"
+			"dynn_MenE_ndez"
+			"dynn_A_lvarez_de_Azagra"
+			"dynn_Ponce_de_LeO_n"
+			"dynn_Barrientos"
+			"dynn_BarragA_n"
+			"dynn_MejI_a"
+			"dynn_Cabeza_de_Vaca"
+			"dynn_FernA_ndez"
+			"dynn_PE_rez"
+			"dynn_RuI_z"
+			"dynn_LO_pez"
+			"dynn_DI_az"
+			"dynn_Alonso"
+			"dynn_SA_nchez"
+			"dynn_LA_inez"
+			"dynn_GutiE_rrez"
+			"dynn_Feijoo"
+			"dynn_MuN_oz"
+			"dynn_PelA_ez"
+			"dynn_Alfonso"
+			"dynn_RodrI_guez"
+			"dynn_BermU_dez"
+			"dynn_Furtado"
+			"dynn_Manrique"
+			"dynn_Venegas"
+			"dynn_Adgaz"
+			"dynn_HelI_as"
+			"dynn_GelmI_rez"
+			"dynn_Episcopus"
+			"dynn_Camundo"
+			"dynn_GundestE_iz"
+			"dynn_MuN_I_z"
+			"dynn_Icaza"
+			"dynn_Gallego"
+			"dynn_Maldonado"
+			"dynn_Arias"
+			"dynn_MartI_nez_de_Oviedo"
+			"dynn_PE_rez_de_Zamora"
+			"dynn_MartI_n"
+			##################New Dinasties
+			"dynn_Valladares"
+			"dynn_Lluch"
+			"dynn_Miaja"
+			"dynn_Torrado"
+			"dynn_Gonzalez"
+			"dynn_Modesto"
+			"dynn_Garcia"
+			"dynn_Galicz"
+			"dynn_Franco"
+			"dynn_Meziane"
+			"dynn_Mola"
+			"dynn_Yague"
+			"dynn_Grandes"
+			"dynn_Varela"
+			"dynn_Cabanellas"
+			"dynn_Astray"
+			"dynn_Fernandez"
+			"dynn_Palacios"
+			"dynn_Blanco"
+			"dynn_Diaz"
+			"dynn_Rivera"
+			"dynn_Conde"
+			"dynn_Aznar"
+			"dynn_Zapatero"
+			"dynn_LLamazares"
+			"dynn_Diez"
+			"dynn_Suarez"
+			"dynn_Garisoain"
+			"dynn_Buj"
+			"dynn_Alvarez"
+			"dynn_Alcaniz"
+			"dynn_Pitarch"
+			"dynn_Camarero"
+			"dynn_Ruesta"
+			"dynn_Rajoy"
+			"dynn_Iglesias"
+			"dynn_Sanchez"
+			"dynn_Garzon"
+			"dynn_Abascal"
+			"dynn_Blazquez"
+			"dynn_Acuna"
+			"dynn_Aranda"
+			"dynn_Asensio"
+			"dynn_Barradas"
+			"dynn_Bugallal"
+			"dynn_Cano"
+			"dynn_Cervera"
+			"dynn_Espartero"
+			"dynn_Heredia"
+			"dynn_Hernandez"
+			"dynn_Herrera"
+			"dynn_Hevia"
+			"dynn_Linares"
+			"dynn_Lopez"
+			"dynn_Maroto"
+			"dynn_Martinez"
+			"dynn_Campos"
+			"dynn_Maura"
+			"dynn_Menendez"
+			"dynn_Millan"
+			"dynn_Astray"
+			"dynn_Mina"
+			"dynn_Narvaez"
+			"dynn_Ortega"
+			"dynn_Pavia"
+			"dynn_Rodriguez"
+			"dynn_Rojo"
+			"dynn_Sanjurjo"
+			"dynn_Serrano"
+			"dynn_Silvestre"
+			"dynn_Topete"
+			"dynn_Valdes"
+			"dynn_Villapol"
+			"dynn_Villar"
+			"dynn_Weyler"
+			"dynn_Aguirre"
+			"dynn_Avellaneda"
+			"dynn_Baez"
+			"dynn_Balcarce"
+			"dynn_Bareiro"
+			"dynn_Berro"
+			"dynn_Caballero"
+			"dynn_Cruz"
+			"dynn_Urquiza"
+			"dynn_Derqui"
+			"dynn_Ellauri"
+			"dynn_Escobar"
+			"dynn_Flores"
+			"dynn_Jovellanos"
+			"dynn_Juarez"
+			"dynn_Justo"
+			"dynn_Latorre"
+			"dynn_Machain"
+			"dynn_Maza"
+			"dynn_Paz"
+			"dynn_Mitre"
+			"dynn_Pedernera"
+			"dynn_Pellegrini"
+			"dynn_Pereira"
+			"dynn_Quintana"
+			"dynn_Rivarola"
+			"dynn_Rivera"
+			"dynn_Roca"
+			"dynn_Rojas"
+			"dynn_Rondeau"
+			"dynn_Saenz"
+			"dynn_Santos"
+			"dynn_Sarmineto"
+			"dynn_Solano"
+			"dynn_Tajes"
+			"dynn_Uriburu"
+			"dynn_Viamonte"
+			"dynn_Vidal"
+			"dynn_Williman"
+			"dynn_Wisner"
+			"dynn_Yrigoyen"
+			"dynn_Abaroa"
+			"dynn_Agreda"
+			"dynn_Altamirano"
+			"dynn_Arteaga"
+			"dynn_Ballivian"
+			"dynn_Baquedano"
+			"dynn_Belzu"
+			"dynn_Blanche"
+			"dynn_Buendia"
+			"dynn_Bulnes"
+			"dynn_Cabrera"
+			"dynn_Calvo"
+			"dynn_Campero"
+			"dynn_Castilla"
+			"dynn_Corrico"
+			"dynn_Daza"
+			"dynn_Echenique"
+			"dynn_Errazuriz"
+			"dynn_Figueroa"
+			"dynn_Freire"
+			"dynn_Gamarra"
+			"dynn_Gorostiaga"
+			"dynn_Grau"
+			"dynn_Guilarte"
+			"dynn_Iguaran"
+			"dynn_Lynch"
+			"dynn_Melgarejo"
+			"dynn_Monje"
+			"dynn_Montero"
+			"dynn_Montes"
+			"dynn_Montt"
+			"dynn_Orbegoso"
+			"dynn_Pezet"
+			"dynn_Rebolledo"
+			"dynn_Tagle"
+			"dynn_Salaverry"
+			"dynn_Siles"
+			"dynn_Sotomayor"
+			"dynn_Toro"
+			"dynn_Valencia"
+			"dynn_Zanartu"
+			"dynn_Zapata"
+			"dynn_Melo"
+			"dynn_Pombo"
+			"dynn_Gaitan"
+			"dynn_Chaparro"
+			"dynn_Torres"
+			"dynn_Rocha"
+			"dynn_Medina"
+			"dynn_Cortes"
+			"dynn_Perez"
+			"dynn_Padilla"
+			"dynn_Nassar"
+			"dynn_Aguilar"
+			"dynn_Marquez"
+			"dynn_Moscote"
+			"dynn_Obando"
+			"dynn_Paris"
+			"dynn_Navas"
+			"dynn_Gordillo"
+			"dynn_Pardo"
+			"dynn_Arango"
+			"dynn_Aragon"
+			"dynn_Piedrahita"
+			"dynn_Ordonez"
+			"dynn_Fonseca"
+			"dynn_Espinosa"
+			"dynn_Leyva"
+			"dynn_Lozano"
+			"dynn_Marin"
+			"dynn_Uribe"
+			"dynn_Leon"
+			"dynn_Centurion"
+			"dynn_Almonte"
+			"dynn_Alvarez"
+			"dynn_Arista"
+			"dynn_Barragan"
+			"dynn_Bocanegra"
+			"dynn_Bravo"
+			"dynn_Bustamante"
+			"dynn_Canalizo"
+			"dynn_Carranza"
+			"dynn_Caserta"
+			"dynn_Cervantes"
+			"dynn_Corona"
+			"dynn_Corra"
+			"dynn_Echeverria"
+			"dynn_Escandon"
+			"dynn_Escobedo"
+			"dynn_Fagoaga"
+			"dynn_Gomez"
+			"dynn_Guerrero"
+			"dynn_Huerta"
+			"dynn_Lozada"
+			"dynn_Mejia"
+			"dynn_Miramon"
+			"dynn_Muzquiz"
+			"dynn_Obregon"
+			"dynn_Pedraza"
+			"dynn_Pimentel"
+			"dynn_Reyes"
+			"dynn_Robles"
+			"dynn_Rincon"
+			"dynn_Ruiz"
+			"dynn_Salas"
+			"dynn_Sanchez"
+			"dynn_Woll"
+			"dynn_Zaragoza"
+			"dynn_Zuloaga"
+			"dynn_Casillas"
+			"dynn_Pinero"
+			"dynn_Mirabal"
+			"dynn_Pacheco"
+			"dynn_Lebron"
+			"dynn_Rios"
+			"dynn_Save"
+			"dynn_Ugarteche"
+			"dynn_Ureta"
+			"dynn_Silva"
+			"dynn_Maninat"
+			"dynn_Roggero"
+			"dynn_Sorzano"
+			"dynn_Estenssoro"
+			"dynn_Vega"
+			"dynn_Arze"
+			"dynn_Quintanilla"
+			"dynn_Penaranda"
+			"dynn_Alvear"
+			"dynn_Contreras"
+			"dynn_Betancourt"
+			"dynn_Gallegos"
+			"dynn_Fuenmayor"
+			"dynn_Angarita"
+			"dynn_Cardona"
+			"dynn_Paredes"
+			"dynn_Moran"
+			"dynn_Picardi"
+			"dynn_Cerda"
+			"dynn_Morales"
+			"dynn_Labarca"
+			"dynn_Pumarejo"
+			"dynn_Ayala"
+			"dynn_Oreamuno"
+			"dynn_Valverde"
+			"dynn_Calderon"
+			"dynn_Barnet"
+			"dynn_Calderio"
+			"dynn_Paez"
+			"dynn_Yepes"
+			"dynn_Ochoa"
+			"dynn_Cardenas"	
+			"dynn_Encina"
+			"dynn_Gasol"
+			"dynn_Portugues"
+			"dynn_Asturios"
+			"dynn_Vasco"
+			"dynn_Catalan"
+			"dynn_Ramos"
+			"dynn_Iniesta"
+			"dynn_Zubizarreta"
+			"dynn_Busquets"
+			"dynn_Pique"
+			"dynn_Puyol"
+			"dynn_Hierro"
+			"dynn_Fierro"
+			"dynn_Camacho"
+			"dynn_Cazorla"
+			"dynn_Gordillo"
+			"dynn_Alba"
+			"dynn_Nadal"
+			"dynn_Maradona"
+			"dynn_Peron"
+			"dynn_Veron"
+			"dynn_Gallardo"
+			"dynn_Palermo"
+			"dynn_Mendoza"
+			"dynn_Mercado"
+		}
+
+		male_names = {
+			Alfonsu A_lvaru AndrE_s Arias Asur Aureliu Bermudu Bernaldu BosO_n Diegu
+			Domingu EstE_banu Facundu Favila Fernandu FlaI_n Fruela GarcI_a GO_mez Gonzalu
+			GuillE_n Gundemaru Gutierre Hermenexildu Llope LloriA_n Manuel MartI_n Melendu Muniu
+			NuN_u OrdoN_u Osoriu Ovecu Pedru Pelayu PiN_olu Ponce Ramiru RamO_n
+			Rodrigu Sanchu Savaricu SebastiA_n Silu Sueru Vela Velascu Xerardu Xil
+			Xuan
+			###########Andalusia Arabic
+			Abbad Abbas Abdallah Abdul-Aziz Abdul-Hakam Abdul-Hasan Abdul-Hazm Abdul-Rahman Abdul-Razzaq Abdul Abu
+			Abu-Bakr Adfuns Ahmad Ali Amr Ayyub Balashk Bilal Fadl Fath Galind Garsiya Hakam Hilal Ibrahim Isma_il
+			Jyad Lubb Ma_n Mubashir Muhammad Mundir Musa Muyahid Raf Rashid Rasiq Sa_d Sanyo Siddray Suleyman Tariq Tifilwit
+			Umar Utman Wannaqo Ya_far Yahaff Yahya Yusuf	
+		}
+		female_names = {
+			Adosinda Aldara Aldonza Aragonte Beatriz Belasquida Blanca Catalina Constanza Cristina
+			Dulce Egilona Elvira Enderquina Ermesenda EstefanI_a Eva Fronilde Gontroda Gotina
+			Goto Guiomar InEEs Iyana Leodegundia Lleonor Margarita MarI_a Marina Marquesa
+			Mayor MencI_a MI_lia Munia Muniadona Nicor NuN_a Olaya Oneca Patrona
+			Sabela Sancha Taresa Tegridia Toda Urraca Varela Ximena Xuana Xusta
+			###########Andalusia Arabic
+			Abda Ahu Aiza Aliyah Butayna Daniyah Dima Fahra Fahriya Fatima Gamila Ghada Habiba Huda Ibtisam Isra Karima Kera Khadija Layla
+			Maha Malika Mariam Munya Nadia Naila Nur Rafiqa Rahat Raisa Randa Safiya Salma Shakira Suraya Tahira Tarifa Thashim Umm Wahida
+			Yasmin Zahida Zahra
+		}
+		
+		dynasty_of_location_prefix = "dynnp_de"
+		
+		patronym_suffix_male = "dynnpat_suf_ez"
+		patronym_suffix_female = "dynnpat_suf_ez"
+		always_use_patronym = yes	
+
+		pat_grf_name_chance = 45
+		mat_grf_name_chance = 15
+		father_name_chance = 30
+		
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 10
+		mother_name_chance = 40
+
+		mercenary_names = {
+			{ name = "mercenary_company_almogavars_andalusian_1" }
+			{ name = "mercenary_company_mawali_band" }
+			{ name = "mercenary_company_andalusian_treasurers_1" }
+		}
+}

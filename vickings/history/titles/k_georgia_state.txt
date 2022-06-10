@@ -1,0 +1,155 @@
+d_creeks = {
+	1808.1.1 = {
+		holder = nativeamerican30
+	}
+}
+c_kiorestinda = {
+	1809.11.10 = {
+		holder = 6400113
+	}
+	1813.11.5 = {
+		holder = 6400136
+	}
+	1815.11.20 = {
+		holder = 6400113
+	}
+	1835.11.4 = {
+		holder = 6400137
+	}
+}
+c_gazmarosse = {
+	1809.11.10 = {
+		holder = 6400113
+	}
+	1813.11.5 = {
+		holder = 6400136
+	}
+	1815.11.20 = {
+		holder = 6400113
+	}
+	1835.11.4 = {
+		holder = 6400137
+	}
+}
+c_leshermiosse = {
+	1809.11.10 = {
+		holder = 6400113
+	}
+	1813.11.5 = {
+		holder = 6400136
+	}
+	1815.11.20 = {
+		holder = 6400113
+	}
+	1835.11.4 = {
+		holder = 6400137
+	}
+}
+c_onchlapiaea = {
+	1808.1.1 = {
+		holder = nativeamerican32
+	}
+}
+c_lefgortytiri = {
+	1808.1.1 = {
+		holder = nativeamerican32
+	}
+}
+c_empoabene = {
+	1808.1.1 = {
+		holder = nativeamerican32
+	}
+}
+c_aenklazolia = {
+	1808.1.1 = {
+		holder = nativeamerican32
+	}
+}
+c_golgantilia = {
+	1814.8.9 = {
+		holder = 6400136
+	}
+	1815.11.20 = {
+		holder = 6400113
+	}
+	1835.11.4 = {
+		holder = 6400137
+	}
+}
+c_mukeeubthera = {
+	1814.8.9 = {
+		holder = 6400136
+	}
+	1815.11.20 = {
+		holder = 6400113
+	}
+	1835.11.4 = {
+		holder = 6400137
+	}
+}
+c_ceblaodines = {
+	1814.8.9 = {
+		holder = 6400136
+	}
+	1815.11.20 = {
+		holder = 6400113
+	}
+	1835.11.4 = {
+		holder = 6400137
+	}
+}
+c_dycalinda = {
+	1814.8.9 = {
+		holder = 6400136
+	}
+	1815.11.20 = {
+		holder = 6400113
+	}
+	1835.11.4 = {
+		holder = 6400137
+	}
+}
+c_antigmochcum = {
+	1814.8.9 = {
+		holder = 6400136
+	}
+	1815.11.20 = {
+		holder = 6400113
+	}
+	1835.11.4 = {
+		holder = 6400137
+	}
+}
+c_knilisida = {
+	1814.8.9 = {
+		holder = 6400136
+	}
+	1815.11.20 = {
+		holder = 6400113
+	}
+	1835.11.4 = {
+		holder = 6400137
+	}
+}
+c_kourikorimea = {
+	1814.8.9 = {
+		holder = 6400136
+	}
+	1815.11.20 = {
+		holder = 6400113
+	}
+	1835.11.4 = {
+		holder = 6400137
+	}
+}
+c_kerkameiretta = {
+	1814.8.9 = {
+		holder = 6400136
+	}
+	1815.11.20 = {
+		holder = 6400113
+	}
+	1835.11.4 = {
+		holder = 6400137
+	}
+}

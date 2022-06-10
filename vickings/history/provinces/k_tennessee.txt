@@ -1,0 +1,189 @@
+11910 = {
+	culture = american
+	religion = protestant
+}
+
+11911 = {
+	culture = american
+	religion = protestant
+}
+
+11912 = {
+	culture = american
+	religion = protestant
+}
+
+11913 = {
+	culture = american
+	religion = protestant
+}
+
+11914 = {
+        culture = native_american_minor
+        religion = pagan
+
+	1836.1.1 = {
+		culture = american
+		religion = protestant
+	}
+}
+
+11915 = {
+        culture = native_american_minor
+        religion = pagan
+
+	1836.1.1 = {
+		culture = american
+		religion = protestant
+	}
+}
+
+11916 = {
+	culture = american
+	religion = protestant
+}
+
+11917 = {
+	culture = american
+	religion = protestant
+}
+
+11918 = {
+	culture = american
+	religion = protestant
+}
+
+11919 = {
+	culture = american
+	religion = protestant
+}
+
+11920 = {
+        culture = native_american_minor
+        religion = pagan
+
+	1836.1.1 = {
+		culture = american
+		religion = protestant
+	}
+}
+
+11921 = {
+        culture = native_american_minor
+        religion = pagan
+
+	1836.1.1 = {
+		culture = american
+		religion = protestant
+	}
+}
+
+11922 = {
+        culture = native_american_minor
+        religion = pagan
+
+	1836.1.1 = {
+		culture = american
+		religion = protestant
+	}
+}
+
+11923 = {
+        culture = native_american_minor
+        religion = pagan
+
+	1836.1.1 = {
+		culture = american
+		religion = protestant
+	}
+}
+
+11924 = {
+	culture = american
+	religion = protestant
+}
+
+11925 = {
+	culture = american
+	religion = protestant
+}
+
+11926 = {
+	culture = american
+	religion = protestant
+}
+
+11927 = {
+	culture = american
+	religion = protestant
+}
+
+11928 = {
+	culture = american
+	religion = protestant
+}
+
+11929 = {
+	culture = american
+	religion = protestant
+}
+
+11930 = {
+	culture = american
+	religion = protestant
+}
+
+11931 = {
+	culture = american
+	religion = protestant
+}
+
+11932 = {
+	culture = american
+	religion = protestant
+}
+
+11933 = {
+	culture = american
+	religion = protestant
+}
+
+11934 = {
+	culture = american
+	religion = protestant
+}
+
+11935 = {
+	culture = american
+	religion = protestant
+}
+
+11936 = {
+	culture = american
+	religion = protestant
+}
+
+11937 = {
+	culture = american
+	religion = protestant
+}
+
+11938 = {
+	culture = american
+	religion = protestant
+}
+
+11939 = {
+	culture = american
+	religion = protestant
+}
+
+11940 = {
+	culture = american
+	religion = protestant
+}
+
+11941 = {
+	culture = american
+	religion = protestant
+}

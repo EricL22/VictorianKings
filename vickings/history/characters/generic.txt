@@ -72,12 +72,24 @@ modern06 = {
 
 modern07 = {
 	name = "Akbar"
-	culture = gujurati
+	culture = gujarati
 	religion = ashari
 	1741.3.6 = {
 		birth = yes
 	}
 	1819.3.25 = {
+		death = yes
+	}
+}
+
+modern08 = {
+	name = "Kurchef"
+	culture = ainu
+	religion = ainuism
+	1771.3.6 = {
+		birth = yes
+	}
+	1839.3.25 = {
 		death = yes
 	}
 }
@@ -420,7 +432,7 @@ turgov13 = {
 turgov14 = {
 	name = "Baghdsa"
 	culture = turkish
-	religion = ashari
+	religion = maturidi
 	1790.1.1 = {
 		birth = "1790.1.1"
 	}
@@ -486,7 +498,7 @@ turgov19 = {
 turgov20 = {
 	name = "Damascu"
 	culture = turkish
-	religion = ashari
+	religion = maturidi
 	1790.1.1 = {
 		birth = "1790.1.1"
 	}
@@ -508,7 +520,7 @@ turgov21 = {
 turgov22 = {
 	name = "Hjaxz"
 	culture = turkish
-	religion = ashari
+	religion = maturidi
 	1790.1.1 = {
 		birth = "1790.1.1"
 	}
@@ -927,5 +939,562 @@ chinese18 = {
 	}
 	1873.12.19 = {
 		death=yes
+	}
+}
+
+nativeamerican1 = {
+	name = "Ojibwe"
+	culture = native_american_minor
+	religion = pagan
+	1771.3.6 = {
+		birth = yes
+	}
+	1839.3.25 = {
+		death = yes
+	}
+}
+
+nativeamerican2 = {
+	name = "Kickapoo"
+	culture = native_american_minor
+	religion = pagan
+	1771.3.6 = {
+		birth = yes
+	}
+	1839.3.25 = {
+		death = yes
+	}
+}
+
+nativeamerican3 = {
+	name = "Miami"
+	culture = native_american_minor
+	religion = pagan
+	1771.3.6 = {
+		birth = yes
+	}
+	1839.3.25 = {
+		death = yes
+	}
+}
+
+nativeamerican4 = {
+	name = "Shawnee"
+	culture = native_american_minor
+	religion = pagan
+	1771.3.6 = {
+		birth = yes
+	}
+	1839.3.25 = {
+		death = yes
+	}
+}
+
+nativeamerican5 = {
+	name = "Potawatomi"
+	culture = native_american_minor
+	religion = pagan
+	1771.3.6 = {
+		birth = yes
+	}
+	1839.3.25 = {
+		death = yes
+	}
+}
+
+nativeamerican6 = {
+	name = "Caddo"
+	culture = native_american_minor
+	religion = pagan
+	1771.3.6 = {
+		birth = yes
+	}
+	1829.3.25 = {
+		death = yes
+	}
+}
+
+nativeamerican7 = {
+	name = "Tunica"
+	culture = native_american_minor
+	religion = pagan
+	1771.3.6 = {
+		birth = yes
+	}
+	1829.3.25 = {
+		death = yes
+	}
+}
+
+nativeamerican8 = {
+	name = "Osage"
+	culture = native_american_minor
+	religion = pagan
+	1771.3.6 = {
+		birth = yes
+	}
+	1825.1.1 = {
+		effect = {
+			vassal_contract_set_obligation_level = {
+				type = religious_rights
+				level = 1	#religious_rights_protected
+			}
+			vassal_contract_set_obligation_level = {
+				type = title_revocation_rights
+				level = 1	#title_revocation_rights_protected
+			}
+		}
+	}
+	1839.3.25 = {
+		death = yes
+	}
+}
+
+nativeamerican9 = {
+	name = "Natchez"
+	culture = native_american_minor
+	religion = pagan
+	1771.3.6 = {
+		birth = yes
+	}
+	1829.3.25 = {
+		death = yes
+	}
+}
+
+nativeamerican10 = {
+	name = "Otoe"
+	culture = native_american_minor
+	religion = pagan
+	1771.3.6 = {
+		birth = yes
+	}
+	1839.3.25 = {
+		death = yes
+	}
+}
+
+nativeamerican11 = {
+	name = "Illini"
+	culture = native_american_minor
+	religion = pagan
+	1771.3.6 = {
+		birth = yes
+	}
+	1829.3.25 = {
+		death = yes
+	}
+}
+
+nativeamerican12 = {
+	name = "Ioway"
+	culture = native_american_minor
+	religion = pagan
+	1771.3.6 = {
+		birth = yes
+	}
+	1839.3.25 = {
+		death = yes
+	}
+}
+
+nativeamerican13 = {
+	name = "Dakota-Sioux"
+	culture = native_american_minor
+	religion = pagan
+	1771.3.6 = {
+		birth = yes
+	}
+	1839.3.25 = {
+		death = yes
+	}
+}
+
+nativeamerican14 = {
+	name = "Wichita"
+	culture = native_american_minor
+	religion = pagan
+	1771.3.6 = {
+		birth = yes
+	}
+	1829.3.25 = {
+		death = yes
+	}
+}
+
+nativeamerican15 = {
+	name = "Kiowa-Apache"
+	culture = native_american_minor
+	religion = pagan
+	1771.3.6 = {
+		birth = yes
+	}
+	1829.3.25 = {
+		death = yes
+	}
+}
+
+nativeamerican16 = {
+	name = "Kansa"
+	culture = native_american_minor
+	religion = pagan
+	1771.3.6 = {
+		birth = yes
+	}
+	1839.3.25 = {
+		death = yes
+	}
+}
+
+nativeamerican17 = {
+	name = "Kiowa"
+	culture = native_american_minor
+	religion = pagan
+	1771.3.6 = {
+		birth = yes
+	}
+	1839.3.25 = {
+		death = yes
+	}
+}
+
+nativeamerican18 = {
+	name = "Arapaho"
+	culture = native_american_minor
+	religion = pagan
+	1771.3.6 = {
+		birth = yes
+	}
+	1839.3.25 = {
+		death = yes
+	}
+}
+
+nativeamerican19 = {
+	name = "Comanche"
+	culture = native_american_minor
+	religion = pagan
+	1771.3.6 = {
+		birth = yes
+	}
+	1839.3.25 = {
+		death = yes
+	}
+}
+
+nativeamerican20 = {
+	name = "Lakota-Sioux"
+	culture = native_american_minor
+	religion = pagan
+	1771.3.6 = {
+		birth = yes
+	}
+	1839.3.25 = {
+		death = yes
+	}
+}
+
+nativeamerican21 = {
+	name = "Pawnee"
+	culture = native_american_minor
+	religion = pagan
+	1771.3.6 = {
+		birth = yes
+	}
+	1839.3.25 = {
+		death = yes
+	}
+}
+
+nativeamerican22 = {
+	name = "Omaha"
+	culture = native_american_minor
+	religion = pagan
+	1771.3.6 = {
+		birth = yes
+	}
+	1839.3.25 = {
+		death = yes
+	}
+}
+
+nativeamerican23 = {
+	name = "Cheyenne"
+	culture = native_american_minor
+	religion = pagan
+	1771.3.6 = {
+		birth = yes
+	}
+	1839.3.25 = {
+		death = yes
+	}
+}
+
+nativeamerican24 = {
+	name = "Crow"
+	culture = native_american_minor
+	religion = pagan
+	1771.3.6 = {
+		birth = yes
+	}
+	1839.3.25 = {
+		death = yes
+	}
+}
+
+nativeamerican25 = {
+	name = "Blackfoot"
+	culture = native_american_minor
+	religion = pagan
+	1771.3.6 = {
+		birth = yes
+	}
+	1839.3.25 = {
+		death = yes
+	}
+}
+
+nativeamerican26 = {
+	name = "Gros-Ventre"
+	culture = native_american_minor
+	religion = pagan
+	1771.3.6 = {
+		birth = yes
+	}
+	1839.3.25 = {
+		death = yes
+	}
+}
+
+nativeamerican27 = {
+	name = "Assiniboine"
+	culture = native_american_minor
+	religion = pagan
+	1771.3.6 = {
+		birth = yes
+	}
+	1839.3.25 = {
+		death = yes
+	}
+}
+
+nativeamerican28 = {
+	name = "Ponca"
+	culture = native_american_minor
+	religion = pagan
+	1771.3.6 = {
+		birth = yes
+	}
+	1839.3.25 = {
+		death = yes
+	}
+}
+
+nativeamerican29 = {
+	name = "Apalachee"
+	culture = native_american_minor
+	religion = pagan
+	1771.3.6 = {
+		birth = yes
+	}
+	1829.3.25 = {
+		death = yes
+	}
+}
+
+nativeamerican30 = {
+	name = "Muscogee"
+	culture = native_american_minor
+	religion = pagan
+	1771.3.6 = {
+		birth = yes
+	}
+	1832.3.24 = {
+		death = yes
+	}
+}
+
+nativeamerican31 = {
+	name = "Seminole"
+	culture = native_american_minor
+	religion = pagan
+	1771.3.6 = {
+		birth = yes
+	}
+	1829.3.25 = {
+		death = yes
+	}
+}
+
+nativeamerican32 = {
+	name = "Cherokee"
+	culture = native_american_minor
+	religion = pagan
+	1771.3.6 = {
+		birth = yes
+	}
+	1835.12.29 = {
+		death = yes
+	}
+}
+
+nativeamerican33 = {
+	name = "Chickasaw"
+	culture = native_american_minor
+	religion = pagan
+	1771.3.6 = {
+		birth = yes
+	}
+	1832.10.20 = {
+		death = yes
+	}
+}
+
+nativeamerican34 = {
+	name = "Choctaw"
+	culture = native_american_minor
+	religion = pagan
+	1771.3.6 = {
+		birth = yes
+	}
+	1831.2.24 = {
+		death = yes
+	}
+}
+
+nativeamerican35 = {
+	name = "Mattafapet'q"
+	culture = native_american_minor
+	religion = pagan
+	1816.3.6 = {
+		birth = yes
+	}
+	1839.2.24 = {
+		death = yes
+	}
+}
+
+nativeamericanres1 = {
+	name = "Choctaw"
+	culture = native_american_minor
+	religion = pagan
+	father = nativeamerican34
+	1811.3.6 = {
+		birth = yes
+	}
+	1831.2.24 = {
+		effect = {
+			vassal_contract_set_obligation_level = {
+				type = religious_rights
+				level = 1	#religious_rights_protected
+			}
+			vassal_contract_set_obligation_level = {
+				type = title_revocation_rights
+				level = 1	#title_revocation_rights_protected
+			}
+		}
+	}
+	1861.2.24 = {
+		death = yes
+	}
+}
+
+nativeamericanres2 = {
+	name = "Seminole"
+	culture = native_american_minor
+	religion = pagan
+	father = nativeamerican31
+	1811.3.6 = {
+		birth = yes
+	}
+	1832.5.9 = {
+		effect = {
+			vassal_contract_set_obligation_level = {
+				type = religious_rights
+				level = 1	#religious_rights_protected
+			}
+			vassal_contract_set_obligation_level = {
+				type = title_revocation_rights
+				level = 1	#title_revocation_rights_protected
+			}
+		}
+	}
+	1861.2.24 = {
+		death = yes
+	}
+}
+
+nativeamericanres3 = {
+	name = "Muskogee"
+	culture = native_american_minor
+	religion = pagan
+	father = nativeamerican30
+	1811.3.6 = {
+		birth = yes
+	}
+	1832.3.24 = {
+		effect = {
+			vassal_contract_set_obligation_level = {
+				type = religious_rights
+				level = 1	#religious_rights_protected
+			}
+			vassal_contract_set_obligation_level = {
+				type = title_revocation_rights
+				level = 1	#title_revocation_rights_protected
+			}
+		}
+	}
+	1861.2.24 = {
+		death = yes
+	}
+}
+
+nativeamericanres4 = {
+	name = "Cherokee"
+	culture = native_american_minor
+	religion = pagan
+	father = nativeamerican32
+	1811.3.6 = {
+		birth = yes
+	}
+	1835.12.29 = {
+		effect = {
+			vassal_contract_set_obligation_level = {
+				type = religious_rights
+				level = 1	#religious_rights_protected
+			}
+			vassal_contract_set_obligation_level = {
+				type = title_revocation_rights
+				level = 1	#title_revocation_rights_protected
+			}
+		}
+	}
+	1861.2.24 = {
+		death = yes
+	}
+}
+
+nativeamericanres5 = {
+	name = "Chickasaw"
+	culture = native_american_minor
+	religion = pagan
+	father = nativeamerican33
+	1811.3.6 = {
+		birth = yes
+	}
+	1832.10.20 = {
+		effect = {
+			vassal_contract_set_obligation_level = {
+				type = religious_rights
+				level = 1	#religious_rights_protected
+			}
+			vassal_contract_set_obligation_level = {
+				type = title_revocation_rights
+				level = 1	#title_revocation_rights_protected
+			}
+		}
+	}
+	1861.2.24 = {
+		death = yes
 	}
 }

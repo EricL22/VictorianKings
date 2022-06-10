@@ -37,8 +37,8 @@
 					type = light_footmen
 					stacks = 9
 				}
-				location = 1763
-				origin = 1754
+				location = province:1763
+				origin = province:1754
 				inheritable = yes
 				save_temporary_scope_as = new_armee
 			}
@@ -124,8 +124,8 @@
 					type = horse_archers	# supposed to represent horse artillery
 					stacks = 1
 				}
-				location = 156
-				origin = 2333
+				location = province:156
+				origin = province:2333
 				inheritable = yes
 				save_temporary_scope_as = new_armee
 			}
@@ -216,7 +216,7 @@
 9000004 = {
 	name = "Maria"
 	female = yes
-	dynasty = 741 # de Bourgogne
+	dynasty = 144258 # de Braganza
 	religion = catholic
 	culture = portuguese
 	#father = 459500
@@ -354,7 +354,7 @@
 9000011 = {
 	name = "Mahmud"
 	dynasty = 7
-	religion = ashari
+	religion = maturidi
 	culture = turkish
 	sexuality = heterosexual
 	father = 9100010
@@ -406,8 +406,8 @@
 					type = bombard
 					stacks = 30
 				}
-				location = 496
-				origin = 496
+				location = province:496
+				origin = province:496
 				inheritable = yes
 			}
 		}
@@ -477,8 +477,8 @@
 					type = bombard
 					stacks = 60
 				}
-				location = 2906
-				origin = 2906
+				location = province:2906
+				origin = province:2906
 				inheritable = yes
 			}
 		}
@@ -520,6 +520,8 @@
 				modifier = emperor_of_russia_modifier
 			}
 
+			random_character_war = { save_scope_as = history_war }
+
 			# First Western Army
 			spawn_army = {
 				name = "First Western Army"
@@ -532,8 +534,8 @@
 					type = light_horsemen
 					stacks = 70
 				}
-				location = 136
-				origin = 169
+				location = province:136
+				origin = province:169
 				inheritable = yes
 				uses_supply = no
 				#save_temporary_scope_as = new_armee
@@ -551,10 +553,11 @@
 					type = light_horsemen
 					stacks = 52
 				}
-				location = 548
-				origin = 548
+				location = province:548
+				origin = province:548
 				inheritable = no
 				uses_supply = no
+				war = scope:history_war
 				#save_temporary_scope_as = new_armee
 			}
 
@@ -575,10 +578,11 @@
 					type = bombard
 					stacks = 20	#20 from danube
 				}
-				location = 5070
-				origin = 5070
+				location = province:5070
+				origin = province:5070
 				inheritable = no
 				uses_supply = no
+				war = scope:history_war
 				#save_temporary_scope_as = new_armee
 			}
 		}
@@ -626,7 +630,7 @@
 		effect = {
 			add_realm_law_skip_effects = crown_authority_1
 		}
-		add_unpressed_claim = k_norway
+		add_unpressed_claim = title:k_norway
 	}
 	1818.2.5 = {
 		death = "1818.2.5"
@@ -643,7 +647,7 @@
 		birth = "1784.10.14"
 	}
 	1808.1.1 = {
-		add_pressed_claim = k_spain
+		add_pressed_claim = title:k_spain
 	}
 	#1813.12.11 = {
 	#	release_from_prison = yes
@@ -787,7 +791,7 @@
 		birth = "1765.1.1"
 	}
 	1830.7.7 = {
-		add_pressed_claim = d_alger
+		add_pressed_claim = title:d_alger
 	}
 	1838.1.1 = {
 		death = "1838.1.1"
@@ -1156,8 +1160,8 @@
 					type = light_horsemen
 					stacks = 10
 				}
-				location = 1233
-				origin = 1233
+				location = province:1233
+				origin = province:1233
 				inheritable = yes
 			}
 		}
@@ -1484,7 +1488,7 @@
 
 9000060 = {
 	name = "Muhammad Mueenuddeen"
-	dynasty = huraa
+	#dynasty = huraa
 	religion = ashari
 	culture = sinhala
 	1785.1.1 = {
@@ -1938,7 +1942,7 @@
 		birth = yes
 	}
 	1809.5.3 = {
-		add_pressed_claim = k_kabulistan
+		add_pressed_claim = title:k_kabulistan
 	}
 	1842.4.5 = {
 		death = yes
@@ -2239,6 +2243,22 @@
 	}
 }
 
+9000104 = {
+	name = "Tecumseh"
+	dynasty = 172015
+	religion = pagan
+	culture = native_american_minor
+	father = 9100066
+	1768.1.1 = {
+		birth = yes
+	}
+	1813.10.5 = {
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+
 9100000 = {
 	name = "Barnaba"
 	dynasty = 65
@@ -2327,8 +2347,8 @@
 		birth = "1811.3.20"
 	}
 	1814.4.11 = {
-		add_pressed_claim = e_france
-		add_pressed_claim = k_france
+		add_pressed_claim = title:e_france
+		add_pressed_claim = title:k_france
 	}
 	1832.6.22 = {
 		death = {
@@ -2388,8 +2408,8 @@
 		birth = "1808.4.20"
 	}
 	1814.4.11 = {
-		add_pressed_claim = e_france
-		add_pressed_claim = k_france
+		add_pressed_claim = title:e_france
+		add_pressed_claim = title:k_france
 	}
 	1826.4.20 = {
 		trait = education_diplomacy_3
@@ -2435,7 +2455,7 @@
 9100010 = {
 	name = "Abdulhamid"
 	dynasty = 7
-	religion = ashari
+	religion = maturidi
 	culture = turkish
 	father = 9100014
 	1725.3.20 = {
@@ -2448,7 +2468,7 @@
 9100011 = {
 	name = "Selim"
 	dynasty = 7
-	religion = ashari
+	religion = maturidi
 	culture = turkish
 	father = 9100013
 	1761.12.24 = {
@@ -2461,7 +2481,7 @@
 9100012 = {
 	name = "Mustafa"
 	dynasty = 7
-	religion = ashari
+	religion = maturidi
 	culture = turkish
 	father = 9100010
 	1779.9.8 = {
@@ -2474,7 +2494,7 @@
 9100013 = {
 	name = "Mustafa"
 	dynasty = 7
-	religion = ashari
+	religion = maturidi
 	culture = turkish
 	father = 9100014
 	1717.1.28 = {
@@ -2487,7 +2507,7 @@
 9100014 = {
 	name = "Ahmed"
 	dynasty = 7
-	religion = ashari
+	religion = maturidi
 	culture = turkish
 	father = 9100019
 	1673.12.30 = {
@@ -2500,7 +2520,7 @@
 9100015 = {
 	name = "Mustafa"
 	dynasty = 7
-	religion = ashari
+	religion = maturidi
 	culture = turkish
 	father = 9100019
 	1664.2.6 = {
@@ -2513,7 +2533,7 @@
 9100016 = {
 	name = "Mahmud"
 	dynasty = 7
-	religion = ashari
+	religion = maturidi
 	culture = turkish
 	father = 9100015
 	1696.8.2 = {
@@ -2526,7 +2546,7 @@
 9100017 = {
 	name = "Osman"
 	dynasty = 7
-	religion = ashari
+	religion = maturidi
 	culture = turkish
 	father = 9100015
 	1699.1.2 = {
@@ -2539,7 +2559,7 @@
 9100018 = {
 	name = "Ahmed"
 	dynasty = 7
-	religion = ashari
+	religion = maturidi
 	culture = turkish
 	father = 9100021
 	1643.2.25 = {
@@ -2552,7 +2572,7 @@
 9100019 = {
 	name = "Mehmed"
 	dynasty = 7
-	religion = ashari
+	religion = maturidi
 	culture = turkish
 	father = 9100021
 	stewardship = 12
@@ -2566,7 +2586,7 @@
 9100020 = {
 	name = "Suleiman"
 	dynasty = 7
-	religion = ashari
+	religion = maturidi
 	culture = turkish
 	father = 9100021
 	1642.4.15 = {
@@ -2579,7 +2599,7 @@
 9100021 = {
 	name = "Ibrahim"
 	dynasty = 7
-	religion = ashari
+	religion = maturidi
 	culture = turkish
 	1615.12.5 = {
 		birth = "1615.12.5"
@@ -2866,8 +2886,8 @@
 					type = light_horsemen
 					stacks = 10
 				}
-				location = 1233
-				origin = 1233
+				location = province:1233
+				origin = province:1233
 				inheritable = yes
 			}
 		}
@@ -3283,6 +3303,19 @@
 	}
 }
 
+9100066 = {
+	name = "Puckeshinwau"
+	dynasty = 172015
+	religion = pagan
+	culture = native_american_minor
+	1720.1.1 = {
+		birth = yes
+	}
+	1774.10.10 = {
+		death = yes
+	}
+}
+
 # Fictitious Duke of Jylland to prevent Danish border gore
 915130 = {
 	name = "Valdemart"
@@ -3382,8 +3415,8 @@
 					type = light_horsemen
 					stacks = 60
 				}
-				location = 1995
-				origin = 1981
+				location = province:1995
+				origin = province:1981
 				inheritable = no
 				save_temporary_scope_as = new_armee
 			}
@@ -3393,8 +3426,8 @@
 			spawn_army = {
 				name = "Army of the Left"
 				levies = 40000
-				location = 1816
-				origin = 1787
+				location = province:1816
+				origin = province:1787
 				inheritable = no
 				save_temporary_scope_as = new_armee2
 			}
@@ -3420,8 +3453,8 @@
 	1758.4.22 = {
 		birth = "1758.4.22"
 	}
-	1808.1.1 = {
-		employer = character:9121600
+	1808.5.2 = {
+		employer = 9121600
 	}
 	1852.4.22 = {
 		death = "1852.4.22"
@@ -3438,8 +3471,8 @@
 	1775.10.28 = {
 		birth = "1775.10.28"
 	}
-	1808.1.1 = {
-		employer = character:9121600
+	1808.5.2 = {
+		employer = 9121600
 	}
 	1847.2.15 = {
 		death = "1847.2.15"
@@ -3456,11 +3489,11 @@
 	1783.10.15 = {
 		birth = "1783.10.15"
 	}
-	1808.1.1 = {
-		employer = character:9121600
+	1808.5.2 = {
+		employer = 9121600
 	}
 	1833.9.29 = {
-		employer = character:9200007
+		employer = 9200007
 	}
 	1853.8.25 = {
 		death = "1853.8.25"
@@ -3477,8 +3510,8 @@
 	1777.1.1 = {
 		birth = "1777.1.1"
 	}
-	1808.1.1 = {
-		employer = character:9121600
+	1808.5.2 = {
+		employer = 9121600
 	}
 	1819.1.1 = {
 		death = "1819.1.1"
@@ -3524,8 +3557,8 @@
 					type = armored_footmen
 					stacks = 60
 				}
-				location = 1860
-				origin = 1860
+				location = province:1860
+				origin = province:1860
 				inheritable = no
 			}
 			spawn_army = {
@@ -3535,13 +3568,87 @@
 					type = armored_footmen
 					stacks = 30
 				}
-				location = 1865
-				origin = 1865
+				location = province:1865
+				origin = province:1865
 				inheritable = no
 			}
 		}
 	}
 	1877.5.24 = {
+		death = yes
+	}
+}
+
+## Spanish governors ##
+
+9121700 = {
+	name = "SebastiA_n"
+	dynasty = kindelan_y_oregan
+	religion = catholic
+	culture = castilian
+	1757.12.30 = {
+		birth = yes
+	}
+	1812.6.11 = {
+		effect = {
+			add_realm_law_skip_effects = city_succession_law
+		}
+	}
+	1826.5.4 = {
+		death = yes
+	}
+}
+
+9121701 = {
+	name = "Juan José"
+	dynasty = estrada
+	religion = catholic
+	culture = castilian
+	1764.1.1 = {
+		birth = yes
+	}
+	1815.6.3 = {
+		effect = {
+			add_realm_law_skip_effects = city_succession_law
+		}
+	}
+	1826.1.1 = {
+		death = yes
+	}
+}
+
+9121702 = {
+	name = "Mauricio"
+	dynasty = zuniga
+	religion = catholic
+	culture = castilian
+	1760.1.1 = {
+		birth = yes
+	}
+	1812.7.1 = {
+		effect = {
+			add_realm_law_skip_effects = city_succession_law
+		}
+	}
+	1816.11.1 = {
+		death = yes
+	}
+}
+
+9121703 = {
+	name = "José"
+	dynasty = soto
+	religion = catholic
+	culture = castilian
+	1777.12.24 = {
+		birth = yes
+	}
+	1815.2.1 = {
+		effect = {
+			add_realm_law_skip_effects = city_succession_law
+		}
+	}
+	1826.1.1 = {
 		death = yes
 	}
 }
@@ -3644,8 +3751,8 @@
 					type = druzhina
 					stacks = 20
 				}
-				location = 169
-				origin = 169
+				location = province:169
+				origin = province:169
 				inheritable = yes
 			}
 		}
@@ -3725,6 +3832,8 @@
 				remove_claim = prev
 			}
 		}
+	}
+	1835.3.2 = {
 		add_realm_law_skip_effects = male_only_law
 		effect = { add_character_flag = semi_salic_law }
 	}
@@ -4023,7 +4132,7 @@
 
 9200003 = {
 	name = "JoA_o"
-	dynasty = 741 # de Bourgogne
+	dynasty = 144258 # de Braganza
 	religion = catholic
 	culture = portuguese
 	mother = 9000004
@@ -4037,7 +4146,7 @@
 
 9200004 = {
 	name = "Pedro"
-	dynasty = 741 # de Bourgogne
+	dynasty = 144258 # de Braganza
 	religion = catholic
 	culture = portuguese
 	father = 9200003
@@ -4051,7 +4160,7 @@
 
 9200005 = {
 	name = "Maria"
-	dynasty = 741 # de Bourgogne
+	dynasty = 144258 # de Braganza
 	religion = catholic
 	culture = portuguese
 	father = 9200004
@@ -4066,7 +4175,7 @@
 
 9200006 = {
 	name = "Miguel"
-	dynasty = 741 # de Bourgogne
+	dynasty = 144258 # de Braganza
 	religion = catholic
 	culture = portuguese
 	father = 9200003
@@ -4090,7 +4199,8 @@
 		birth = yes
 	}
 	1833.9.29 = {
-		add_pressed_claim = k_spain
+		add_pressed_claim = title:k_spain
+		add_realm_law_skip_effects = male_only_law
 		effect = {
 			add_gold = 500
 
@@ -4102,8 +4212,8 @@
 					type = armored_footmen
 					stacks = 120
 				}
-				location = 1806
-				origin = 1806
+				location = province:1806
+				origin = province:1806
 			}
 			spawn_army = {
 				name = "2nd Carlist Army"
@@ -4112,8 +4222,8 @@
 					type = armored_footmen
 					stacks = 60
 				}
-				location = 1876
-				origin = 1876
+				location = province:1876
+				origin = province:1876
 				inheritable = no
 			}
 		}
@@ -4230,7 +4340,7 @@
 	name = Hongjin
 	religion = quanzhen
 	culture = han
-	dynasty = 105837
+	#dynasty = 105837
 	trait = content
 	1788.2.12 = {
 		birth = yes
@@ -4244,7 +4354,7 @@
 	name = Jingchen
 	religion = quanzhen
 	culture = han
-	dynasty = 105837
+	#dynasty = 105837
 	trait = content
 	1788.2.12 = {
 		birth = yes
@@ -4286,7 +4396,7 @@
 	name = Yan
 	religion = quanzhen
 	culture = han
-	dynasty = 1029308
+	#dynasty = 1029308
 	trait = content
 	1792.5.21 = {
 		birth = yes

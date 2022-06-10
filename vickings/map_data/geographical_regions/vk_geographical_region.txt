@@ -1,0 +1,400 @@
+﻿# Geographical regions
+# Regions can be declared with one or more of the following fields:
+#	duchies = { }, takes duchy title names declared in landed_titles.txt
+#	counties = { }, takes county title names declared in landed_titles.txt
+#	provinces = { }, takes province id numbers declared in /history/provinces
+#	regions = { }, a region can also include other regions, however the subregions needs to be declared before the parent region. 
+#		E.g. If the region world_europe contains the region world_europe_west then world_europe_west needs to be declared as a region before (i.e. higher up in this file) world_europe.
+
+# Regions provide the following modifiers:
+# key + _development_growth
+# key + _development_growth_factor
+# This requires "generate_modifiers = yes" in the region
+
+###########################################################################
+# World Regions
+#	These groups are mutually exclusive on the same tier & should cover every part of the map
+###########################################################################
+
+world_europe_east = {
+	duchies = {
+		#Wendish minus Pomerania minus Bohemia
+		d_mazovia d_upper_silesia d_lower_silesia d_lesser_poland d_wielkopolska d_kuyavia d_livonia d_prussia d_masuria d_grodno d_pinsk d_minsk d_polotsk d_smolensk d_lithuanians d_courland d_latgalians d_samogitia
+		# d_greater_poland d_silesia d_yatviags
+		#Russia
+		d_novgorod d_vepsia d_luki d_kiev d_karachev d_novosil d_opolye d_nizhny_novgorod d_turov d_chernigov d_ryazan d_pereyaslavl d_mezen
+		# d_beloozero d_pskov
+		#Bjarmaland
+		d_biarmia d_vologda d_chudia d_ustyug
+		#Galicia-Volhynia
+		d_volhynia d_halych d_cherven_cities
+		#West Perm
+		# d_hlynov d_bjarmia
+		#Hungary
+		d_visegrad d_somogy d_nyitra d_ungvar d_transcarpathia d_transylvania d_bihar d_temes d_bacs d_gyor d_syrmia
+		#Estonia
+		d_esthonia
+		#Wallachia
+		d_oltenia d_muntenia d_transylvanian_alps d_moldova d_bugeac d_bukovina
+	}
+}
+world_steppe_west = {
+	duchies = {
+		#Siberia
+		d_ostyaki d_konda d_pelym d_kazym d_sibir d_ishim d_tara d_lanikaz
+		d_salair d_ala_tau d_vasyugan_mire d_baraba_steppe d_kulyndy_steppe
+		d_tobolsk d_yeniseysk
+		#Pontic Steppe
+		d_yedisan d_levedia d_don_valley d_khazaria d_ciscaucasia d_itil d_crimea d_alania d_azov d_pecheneg
+		#Volga Bulgaria
+		d_volga_bulgaria d_kazan d_bashkiria d_voronezh d_mordvinia d_chuvashia d_khopyor d_ural d_udmurtia d_martyuba d_uraltau d_aqtobe d_jalmat d_vogulia d_perm
+		#Turkestan
+		d_transcaspiana d_barsuki d_zhetysu d_tarbagatai d_jemba d_aral_il d_chah d_syr_darya d_muyunkum d_alakol d_ili-alatau
+		#Cumania
+		d_kurgan d_mugodzhar_hills d_atyrau d_turgay d_kush-murun d_saryarka d_kazakh d_kentarlau d_karkaraly d_karabas d_betpa d_semey
+	}
+}
+world_steppe_east = {
+	duchies = {
+		#Dzungaria
+		d_altay d_kara_khoja d_gurbantunggut d_naiman_gobi
+		#Mongolia
+		d_otuken d_ogrash d_selenga_valley d_ovorkhangai d_arkhangai d_khovsgol d_gobi_altai d_ubsunur_hollow d_khovd
+		d_togina d_tannu_ola d_western_sayan
+		d_khakass_hollow d_shoria d_kargassia d_eastern_sayan
+		d_uda_valley d_bargujin_tukum d_dauria d_baigaluuls d_tsagaanbaigal
+		d_yenisei_kan d_chuna_valley d_lena d_angara
+		d_uriankhai d_dilie d_wugu d_zubu d_hohhot d_linhuang d_chengde
+		#Xia
+		d_aksay
+		#Yakutia
+		d_yakutsk d_srednekolymsky
+		#Kamchatka
+		d_kamchatka d_chukotka
+		#Far East
+		d_amur d_primorskaya
+	}
+}
+world_tibet = {
+	duchies = {
+		#Ü
+		d_yarlung d_lhasa d_nagchu d_conyi
+		#Tsang
+		d_xigaze d_sagya d_ngamring d_nyima
+		#Kham
+		d_qamdo d_boyul d_nyingchi d_nangqen d_lhatok d_lingtsang d_dege d_batang d_litang
+		#Amdo
+		d_tuyuhun d_nagormo d_amdo d_zadoi d_qumarleb
+		#Gyalrong
+		d_gyalrong d_chakla d_golog d_malho d_gainlho
+		#Guge
+		d_ngari d_kinnaur d_purang
+		#Maryul
+		d_ladakh d_zanskar d_baltiyul d_aksai_chin d_rutog
+		#Lhomon
+		d_bumthang d_paro d_monyul d_lhoyul d_dzayul
+		#Kashmir
+		d_pamir
+	}
+}
+world_burma = {
+	duchies = {
+		#Pagan
+		d_pagan d_tagaung d_sriksetra d_arakan d_ramannadesa
+		d_tenasserim d_karen d_karenni d_shan
+	}
+}
+world_manchuria = {
+	duchies = {
+		#Jin
+		d_heilongjiang d_jilin d_sakhalin d_liaoning
+	}
+}
+world_steppe = {
+	generate_modifiers = yes
+	regions = {
+		world_steppe_west world_steppe_east world_steppe_tarim world_manchuria
+	}
+}
+world_china_north = {
+	duchies = {
+		#Liang
+		d_suenmu d_yugozk d_driungmu d_ngiejieng d_muneng d_hayiang
+		#Zhao
+		d_jiengdzk d_nguibak d_jieungie d_ngieqiang
+		#Yan
+		d_loliong d_ngiemu
+		#Qi
+		d_bienglo d_tenbieng d_taaineng
+		#Jin
+		d_hadung d_hogozk d_daibzk d_jinmu d_tendzk
+	}
+}
+world_china_south = {
+	duchies = {
+		#Wu
+		d_huainam d_muqiang d_nenggozk d_drinnam
+		#Yue
+		d_drinhai d_drindung d_wimu
+		#Chu
+		d_muan d_driungngie d_giengnam
+		#Nanyue
+		d_cienghai d_nengwan d_zienggong d_gianmu d_zienghai d_hainan
+		#Taiwan
+		d_tainan d_taiwan d_taipeh
+	}
+}
+world_china_southwest = {
+	duchies = {
+		#Shu
+		d_seiquen d_dungquen d_mutaai d_guizhou
+		#Nanzhao
+		d_yiangsiaamie d_hooaiquen d_giamquen d_lungdung d_takdung d_tunghai d_nginshaang d_wengqiang d_leixuz
+	}
+}
+world_china_northwest = {
+	duchies = {
+		#Qin
+		d_gienggzi d_baongie d_gimxiang d_bungsiang d_jiangngie d_ziengnan d_baodaai d_tenyung
+		#Shu
+		d_hingnguan
+		#Xiliang
+		d_guingie d_liangjiu
+		#Xia
+		d_shokbuang d_dengnan
+	}
+}
+world_outer_manchuria = {
+	counties = {
+		#Jin
+		c_shiwei c_boli c_donghai c_anbian c_haishenwai
+	}
+}
+world_china = {
+	regions = {
+		world_china_north world_china_northwest world_china_south world_china_southwest
+	}
+}
+world_korea = {
+	duchies = {
+		#Joseon
+		d_pyongan d_gyeonggi d_hwanghae d_chungcheong d_gangwon d_hamgyong d_jeolla d_gyeongsang
+	}
+}
+world_japan = {
+	duchies = {
+		#Honshu
+		d_kinai d_tosan d_keno d_sanyo d_sanin d_owari d_tokai d_edo d_fusa d_mutsu d_dewa d_hokuriku
+		#Shikoku
+		d_nankai
+		#Kyushu
+		d_chinzei d_kyushu d_saikai
+		#Yezo
+		d_hokkaido d_matsumae d_kuril
+		#Ryukyu
+		d_ryukyu
+	}
+}
+world_indochina = {
+	duchies = {
+		#Cambodia
+		d_cambodia d_angkor_borei d_vat_nokor d_inner_cambodia
+		#Luang Prabang
+		d_luang_prabang
+		#Vientiane
+		d_muang_mang d_muang_phuan d_vientiane d_nakhon_phanom
+		#Champasak
+		d_champasak d_isan
+		#Siam
+		d_bangkok d_nakhon_ratchasima d_chiang_mai d_sukhothai
+		#Annam
+		d_truc_ky d_ta_ky d_nam_ky
+	}
+}
+world_malaya = {
+	duchies = {
+		#Siam
+		d_chaiya d_kelantan
+	}
+}
+world_canada = {
+	duchies = {
+		#Newfoundland
+		d_newfoundland d_labrador
+		#Prince Edward Island
+		d_prince_edward_island
+		#Nova Scotia
+		d_nova_scotia
+		#New Brunswick
+		d_new_brunswick
+		#Quebec
+		d_quebec d_saguenay
+		#Ontario
+		d_ontario d_northern_ontario
+	}
+}
+world_great_lakes = {
+	duchies = {
+		#Ohio
+		d_ohio
+		#Michigan
+		d_michigan d_central_upper_michigan d_west_upper_michigan
+		#Indiana
+		d_indiana
+		#Illinois
+		d_illinois
+		#Wisconsin
+		d_wisconsin
+		#Minnesota
+		d_arrowhead
+	}
+}
+world_northeast_america = {
+	duchies = {
+		#New York
+		d_new_york d_upper_new_york
+		#Maine
+		d_maine
+		#New Hampshire
+		d_new_hampshire
+		#Massachusetts
+		d_massachusetts
+		#Rhode Island
+		d_rhode_island
+		#Connecticut
+		d_connecticut
+		#New Jersey
+		d_new_jersey
+		#Pennsylvania
+		d_pennsylvania d_inner_pennsylvania
+		#Delaware
+		d_delaware
+		#Maryland
+		d_dc d_maryland
+		#Vermont
+		d_vermont
+	}
+}
+world_southeast_america =  {
+	duchies = {
+		#Virginia
+		d_virginia d_west_virginia
+		#North Carolina
+		d_north_carolina d_west_carolina
+		#South Carolina
+		d_south_carolina
+		#Georgia
+		d_georgia_state d_creeks
+		#Florida
+		d_east_florida d_west_florida
+	}
+}
+world_mississippi = {
+	duchies = {
+		#Alabama
+		d_alabama
+		#Mississippi
+		d_mississippi
+		#Tennessee
+		d_tennessee
+		#Kentucky
+		d_kentucky
+		#Louisiana
+		d_florida_parishes d_new_orleans d_acadiana d_north_louisiana
+		#Missouri
+		d_missouri
+		#Arkansas
+		d_arkansas
+	}
+}
+world_great_plains = {
+	duchies = {
+		#Minnesota
+		d_minnesota
+		#Iowa
+		d_iowa
+		#Oklahoma
+		d_oklahoma
+		#Kansas
+		d_kansas
+		#Nebraska
+		d_nebraska
+		#Colorado
+		d_colorado
+		#Wyoming
+		d_wyoming
+		#Montana
+		d_montana
+		#North Dakota
+		d_north_dakota
+		#South Dakota
+		d_south_dakota
+	}
+}
+world_hudson_bay = {
+	duchies = {
+		#Rupert's Land
+		d_northern_quebec d_patricia d_manitoba d_saskatchewan d_northwest
+	}
+}
+world_north_america = {
+	regions = {
+		world_hudson_bay world_great_plains world_mississippi world_southeast_america world_northeast_america world_great_lakes world_canada
+	}
+}
+
+
+###########################################################################
+# Graphical Regions
+###########################################################################
+
+graphical_eastern = {
+	graphical = yes
+	color = { 255 0 255 }
+	regions = {
+		world_china world_indochina world_malaya world_korea world_japan
+	}
+}
+
+graphical_north_america = {
+	graphical = yes
+	color = { 255 63 63 }
+	regions = {
+		world_north_america
+	}
+}
+
+#####################
+# GHW Targeting Regions
+#####################
+
+ghw_region_tibet = {
+	duchies = {
+		#Amdo
+		d_tuyuhun d_nagormo d_amdo d_zadoi d_qumarleb
+		#Gyalrong
+		d_gyalrong d_chakla d_golog d_malho d_gainlho
+		#Kham
+		d_qamdo d_boyul d_nyingchi d_nangqen d_lhatok d_lingtsang d_dege d_batang d_litang
+		#Tsang
+		d_xigaze d_sagya d_ngamring d_nyima
+		#U
+		d_yarlung d_lhasa d_nagchu d_conyi
+		#Guge
+		d_ngari d_kinnaur d_purang
+		#Maryul
+		d_ladakh d_zanskar d_baltiyul d_aksai_chin d_rutog
+		#Lhomon
+		d_bumthang d_paro d_monyul d_lhoyul d_dzayul
+		#Himalaya
+		d_kurmanchal d_khasa d_nepal d_limbuwan
+	}
+}
+ghw_region_khotan = {
+	duchies = {
+		#Xia
+		d_aksay
+		#Khotan
+		d_khotan d_kashgar d_karashar d_charkliq
+	}
+}

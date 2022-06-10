@@ -51,7 +51,7 @@
 			any_realm_province = {
 				OR = {
 					this = scope:defender.capital_province
-					scope:defender.culture_group = scope:attacker.culture_group
+					scope:defender.culture = { has_same_culture_heritage = scope:attacker.culture }
 					scope:defender = {
 						any_realm_county = {
 							count > 1
@@ -60,7 +60,7 @@
 						}
 					}
 				}
-				culture_group = scope:attacker.culture_group
+				culture = { has_same_culture_heritage = scope:attacker.culture }
 			}
 		}
 	}
@@ -112,7 +112,7 @@
 					any_county = {
 						target_is_de_jure_liege_or_above = scope:target
 						any_county_province = {
-							culture_group = scope:attacker.culture_group
+							culture = { has_same_culture_heritage = scope:attacker.culture }
 						}
 					}
 
@@ -255,7 +255,7 @@
 								}
 								AND = {
 									this = title:d_slesvig
-									scope:attacker.culture_group = culture_group:central_germanic_group
+									scope:attacker.culture = { has_cultural_pillar = heritage_central_germanic }
 								}
 							}
 						}
@@ -303,6 +303,7 @@
 				every_held_title = {
 					limit = {
 						target_is_de_jure_liege_or_above = scope:def_title
+						tier >= tier_county
 					}
 					change_title_holder = {
 						holder = scope:defender
@@ -615,7 +616,12 @@ radical_faction_war = {
 					trigger_event = moderntimes.200
 				}
 				if = {
-					limit = { has_title = title:k_chrysanthemum_throne }
+					limit = {
+						OR = {
+							has_title = title:k_chrysanthemum_throne
+							title:k_chrysanthemum_throne.holder = { is_landed = no }
+						}
+					}
 					destroy_title = title:k_chrysanthemum_throne
 				}
 			}
@@ -1232,12 +1238,6 @@ colonial_war = {
 		scope:attacker.culture = {
 			has_innovation = innovation_overseas_exploration
 		}
-		NOT = {
-			has_cb_on = {
-				target = scope:defender
-				cb = religious_war
-			}
-		}
 	}
 
 	allowed_for_character_display_regardless = {
@@ -1256,6 +1256,12 @@ colonial_war = {
 			ALL_FALSE = {
 				top_liege = scope:defender.top_liege
 				liege = scope:defender
+			}
+			NOT = {
+				has_cb_on = {
+					target = scope:defender
+					cb = religious_war
+				}
 			}
 		}
 		highest_held_title_tier = tier_empire
@@ -1561,10 +1567,10 @@ colonial_war = {
 		}
 
 		scope:attacker.faith = {
-			change_fervor = -2
+			change_fervor = { value = -2 desc = fervor_loss_religious_war }
 		}
 		scope:defender.faith = {
-			change_fervor = 4
+			change_fervor = { value = 4 desc = fervor_gain_religious_war }
 		}
 
 		# Truce

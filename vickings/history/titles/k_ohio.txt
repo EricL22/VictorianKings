@@ -1,0 +1,44 @@
+c_toledo_oh = {
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican4
+	}
+	1832.12.7 = {
+		holder = 6400148
+	}
+}
+c_williams = {
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican4
+	}
+	1832.12.7 = {
+		holder = 6400148
+	}
+}
+c_allen = {
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican4
+	}
+	1832.12.7 = {
+		holder = 6400148
+	}
+}
+c_mercer_oh = {
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican4
+	}
+	1832.12.7 = {
+		holder = 6400148
+	}
+}

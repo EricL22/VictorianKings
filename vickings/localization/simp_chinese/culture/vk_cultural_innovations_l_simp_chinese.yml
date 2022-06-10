@@ -1,0 +1,35 @@
+﻿l_simp_chinese:
+
+ same_culture_none_factionalism_double_different:0 "你[culture|E]之[vassals|E]不再倾向于加入[independence_factions|E]，但不同文化者将多倾向"
+ absolutism_vassal_restriction:0 "开启#P 政府改革#!"
+
+#####################
+# Renaissance Era #
+#####################
+
+ #Military
+ innovation_overseas_exploration:0 "海外勘探"
+ innovation_overseas_exploration_desc:0 "随着新世界之发现，我国之海军可敬于开发新技术也，以愈穿越广海。"
+
+ #Civic
+ innovation_absolutism:0 "专制主义"
+ innovation_absolutism_desc:0 "有新民族认同，标志着诸侯之降低能治也。一中央政府与中央权力，今似乎可行选择，以管理领域。"
+
+ #Regional
+
+#####################
+# Industrial Era #
+##################### 
+ 
+ #Military
+ innovation_strategic_mobility:0 "战略流动性"
+ innovation_strategic_mobility_desc:0 "我等必着眼于开发生存装备与设备，以增强国军之动力在任何地形。"
+
+ #Civic
+ innovation_nationalism_n_imperialism:0 "民族主义与帝国主义"
+ innovation_nationalism_n_imperialism_desc:0 "一国。一民。我光荣国家不再受封臣与领主之间之旧誓约束，可是有义务捍卫一种文化并开化皆下位之文化。"
+
+ innovation_mechanical_production:0 "机械生産"
+ innovation_mechanical_production_desc:0 "技术之新進步能用施工方法，前所未有也。众多应用，包括运河、汽车，甚至有狭河之专业航海。"
+
+ #Regional

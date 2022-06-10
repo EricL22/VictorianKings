@@ -1,0 +1,37 @@
+﻿# Referenced from code, in code value will be clamped between NRoyalCourt::COURT_GRANDEUR_MIN and NRoyalCourt::COURT_GRANDEUR_MAX
+# root = character calculating for
+court_grandeur_minimum_expected_value = {
+	value = sub_realm_size
+	divide = 4
+	if = { # Elective Empires have slightly lower expectations (i.e. the HRE)
+		limit = {
+			any_held_title = {
+				tier = tier_empire
+				has_title_law_flag = elective_succession_law
+			}
+		}
+		divide = 2
+	}
+	if = { # Add a baseline depending on rank
+		limit = {
+			highest_held_title_tier = tier_empire
+		}
+		add = 20
+	}
+	else = {
+		add = 10
+	}
+	if = {
+		limit = {
+			has_government = tribal_government
+		}
+		multiply = 0
+		add = court_grandeur_current
+	}
+	if = { # Provincial governments have no expectations
+		limit = {
+			has_realm_law = city_succession_law
+		}
+		multiply = 0
+	}
+}

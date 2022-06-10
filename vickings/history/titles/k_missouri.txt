@@ -1,0 +1,49 @@
+c_mesemmegai = {
+	1808.1.1 = {
+		holder = nativeamerican8
+	}
+	1832.11.19 = {
+		holder = 6400161
+	}
+}
+c_madyleflia = {
+	1808.1.1 = {
+		holder = nativeamerican8
+	}
+	1832.11.19 = {
+		holder = 6400161
+	}
+}
+c_morghermessa = {
+	1808.1.1 = {
+		holder = nativeamerican8
+	}
+	1832.11.19 = {
+		holder = 6400161
+	}
+}
+c_kamachium = {
+	1808.1.1 = {
+		holder = nativeamerican8
+	}
+	1832.11.19 = {
+		holder = 6400161
+	}
+}
+
+c_knomisetta = {
+	1808.1.1 = {
+		holder = nativeamerican10
+	}
+	1832.11.19 = {
+		holder = 6400161
+	}
+}
+c_mantmorganalous = {
+	1808.1.1 = {
+		holder = nativeamerican10
+	}
+	1832.11.19 = {
+		holder = 6400161
+	}
+}

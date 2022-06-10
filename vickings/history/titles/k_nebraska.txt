@@ -1,0 +1,215 @@
+c_achkumosia = {
+	1808.1.1 = {
+		holder = nativeamerican18
+	}
+}
+c_nicmetapai = {
+	1808.1.1 = {
+		holder = nativeamerican18
+	}
+}
+c_katlapiosse = {
+	1808.1.1 = {
+		holder = nativeamerican18
+	}
+}
+c_apollkoita = {
+	1808.1.1 = {
+		holder = nativeamerican18
+	}
+}
+c_marmaepioli = {
+	1808.1.1 = {
+		holder = nativeamerican18
+	}
+}
+
+c_aigborysmos = {
+	1808.1.1 = {
+		holder = nativeamerican10
+	}
+}
+c_caritanios = {
+	1808.1.1 = {
+		holder = nativeamerican10
+	}
+}
+
+c_dimahermithus = {
+	1808.1.1 = {
+		holder = nativeamerican20
+	}
+}
+c_cythlinddos = {
+	1808.1.1 = {
+		holder = nativeamerican20
+	}
+}
+c_arglocrlia = {
+	1808.1.1 = {
+		holder = nativeamerican20
+	}
+}
+c_opukorinthnae = {
+	1808.1.1 = {
+		holder = nativeamerican20
+	}
+}
+c_oleleica = {
+	1808.1.1 = {
+		holder = nativeamerican20
+	}
+}
+c_metapoknipetra = {
+	1808.1.1 = {
+		holder = nativeamerican20
+	}
+}
+c_lampsaitdos = {
+	1808.1.1 = {
+		holder = nativeamerican20
+	}
+}
+c_linnaera = {
+	1808.1.1 = {	# to make the borders prettier
+		holder = nativeamerican20
+	}
+}
+
+c_ithknimos = {
+	1808.1.1 = {
+		holder = nativeamerican21
+	}
+}
+c_hiemarmader = {
+	1808.1.1 = {
+		holder = nativeamerican21
+	}
+}
+c_nysaleita = {
+	1808.1.1 = {
+		holder = nativeamerican21
+	}
+}
+c_bhyrtnysesmos = {
+	1808.1.1 = {
+		holder = nativeamerican21
+	}
+}
+c_dymcallea = {
+	1808.1.1 = {
+		holder = nativeamerican21
+	}
+}
+c_golydrias = {
+	1808.1.1 = {
+		holder = nativeamerican21
+	}
+}
+c_kerkhalidia = {
+	1808.1.1 = {
+		holder = nativeamerican21
+	}
+}
+c_careryththera = {
+	1808.1.1 = {
+		holder = nativeamerican21
+	}
+}
+c_arscarinda = {
+	1808.1.1 = {
+		holder = nativeamerican21
+	}
+}
+c_morgalaposia = {
+	1808.1.1 = {
+		holder = nativeamerican21
+	}
+}
+c_lindnymphai = {
+	1808.1.1 = {
+		holder = nativeamerican21
+	}
+}
+c_delphamphiaea = {
+	1808.1.1 = {
+		holder = nativeamerican21
+	}
+}
+c_kuoeios = {
+	1808.1.1 = {
+		holder = nativeamerican21
+	}
+}
+c_clazmadytonia = {
+	1808.1.1 = {
+		holder = nativeamerican21
+	}
+}
+c_aleclaita = {
+	1808.1.1 = {
+		holder = nativeamerican21
+	}
+}
+c_madytleibae = {
+	1808.1.1 = {
+		holder = nativeamerican21
+	}
+}
+c_madlampum = {
+	1808.1.1 = {
+		holder = nativeamerican21
+	}
+}
+c_kandiotrias = {
+	1808.1.1 = {
+		holder = nativeamerican21
+	}
+}
+c_iolcmantiaea = {
+	1808.1.1 = {
+		holder = nativeamerican21
+	}
+}
+c_laudicsos = {
+	1808.1.1 = {
+		holder = nativeamerican21
+	}
+}
+c_larlapidus = {
+	1808.1.1 = {
+		holder = nativeamerican21
+	}
+}
+c_oenhalicinda = {
+	1808.1.1 = {
+		holder = nativeamerican21
+	}
+}
+
+c_decediosyra = {
+	1808.1.1 = {
+		holder = nativeamerican22
+	}
+}
+c_kounetherna = {
+	1808.1.1 = {
+		holder = nativeamerican22
+	}
+}
+c_calcallines = {
+	1808.1.1 = {
+		holder = nativeamerican22
+	}
+}
+c_hisidaon = {
+	1808.1.1 = {
+		holder = nativeamerican22
+	}
+}
+
+c_decamniion = {
+	1808.1.1 = {
+		holder = nativeamerican23
+	}
+}

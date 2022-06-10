@@ -1,477 +1,90 @@
-﻿chinese_group = {
-	graphical_cultures = {
-		chinese_group_coa_gfx
-		indian_building_gfx
-		mongol_clothing_gfx
-		mongol_unit_gfx
+﻿han = {
+	color = han
+	
+	ethos = ethos_courtly
+	heritage = heritage_chinese
+	language = language_chinese
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_family_entrepreneurship
+		tradition_mystical_ancestors
+		tradition_court_eunuchs
+		tradition_philosopher_culture
 	}
 	
-	han = {
-		
-		dynasty_name_first = yes
-		
-		color = { 211 44 44 }
-
-		cadet_dynasty_names = {
-			"dynn_Li"
-			"dynn_Wu"
-			"dynn_Ren"
-			"dynn_Wang"
-			"dynn_Liu"
-			"dynn_Fan"
-			"dynn_Sun"
-			"dynn_Yao"
-			"dynn_Qian"
-			"dynn_Chen"
-			"dynn_Chu"
-			"dynn_Han"
-			"dynn_Zhu"
-			"dynn_Qin"
-			"dynn_You"
-			"dynn_He"
-			"dynn_Shi"
-			"dynn_Kong"
-			"dynn_Cao"
-			"dynn_Hua"
-			"dynn_Jin"
-			"dynn_Tao"
-			"dynn_Jiaang"
-			"dynn_Qi"
-			"dynn_Xie"
-			"dynn_Zou"
-			"dynn_Yu"
-			"dynn_Bai"
-			"dynn_Yun"
-			"dynn_Pan"
-			"dynn_Ge"
-			"dynn_Xi"
-			"dynn_Peng"
-			"dynn_Lang"
-			"dynn_Chang"
-			"dynn_Ma"
-			"dynn_Bao"
-			"dynn_Fei"
-			"dynn_Lian"
-			"dynn_Cen"
-			"dynn_Lei"
-			"dynn_Ni"
-			"dynn_Teng"
-			"dynn_Luo"
-			"dynn_Bi"
-			"dynn_Hao"
-			"dynn_An"
-			"dynn_Yue"
-			"dynn_Pi"
-			"dynn_Bian"
-			"dynn_Kang"
-			"dynn_Bu"
-			"dynn_Gu"
-			"dynn_Meng"
-			"dynn_Ping"
-			"dynn_Huang"
-			"dynn_Mu"
-			"dynn_Shao"
-			"dynn_Zhan"
-			"dynn_Mao"
-			"dynn_Di"
-			"dynn_Mi"
-			"dynn_Bei"
-			"dynn_Zang"
-			"dynn_Sima"
-			"dynn_Ouyang"
-			"dynn_Xiahou"
-			"dynn_Zhuge"
-			"dynn_Wenren"
-			"dynn_Dongfang"
-			"dynn_Huangfu"
-			"dynn_Yuchi"
-			"dynn_Gongyang"
-			"dynn_Gongsun"
-			"dynn_Zhongsun"
-			"dynn_Xuanyan"
-			"dynn_Linghu"
-			"dynn_Zhongli"
-			"dynn_Yuwen"
-			"dynn_Murong"
-			"dynn_Huyan"
-			"dynn_Nangong"
-			"dynn_Jinming"
-			"dynn_Ding"
-			"dynn_Ju"
-			"dynn_Liang"
-
-			"dynn_Du"	# 杜
-			"dynn_Dai"
-			"dynn_Zhang"
-			"dynn_Zheng"
-			"dynn_Bai"
-			"dynn_Lin"
-			"dynn_Long"	# 龙
-			"dynn_Nie"	# 聂
-			"dynn_Yann"	# 阎
-			"dynn_Fuh"	# 傅
-			"dynn_Chiang"	# 蒋
-			"dynn_Sheng"	# 盛
-			"dynn_Zhao"	# (as in Zhao Chengshou, Zhao Zongqi)
-			"dynn_Hu"
-			"dynn_Dong"
-			"dynn_Ye"
-			"dynn_Lu"
-			"dynn_Tian"	# 田
-			"dynn_Jiang"
-			"dynn_Wei"
-			"dynn_Shen"
-			"dynn_Fang"	# (as in Fang Fenghui)
-			"dynn_Xu"
-			"dynn_Wuu"	# 吴
-			"dynn_Yen"	# 严
-			"dynn_Qiu"	# 邱
-			"dynn_Chai"
-			"dynn_Gao"
-			"dynn_Cai"	# 蔡
-			"dynn_Cheng"	# 成
-			"dynn_Xuu"	# 许
-			"dynn_Guo"
-			"dynn_Weih"	# 魏
-			"dynn_Qu"	# 曲
-			"dynn_Yuan"	# 袁
-			"dynn_Xi"
-			"dynn_Wan"	# 万
-
-# Heraklito didn't do a good job with these...
-#			"dynn_Zhongguo"
-#			"dynn_Yazhou"
-#			"dynn_Meng"
-#			"dynn_Hanguo"
-#			"dynn_Rìben"
-#			"dynn_Yìndu"
-#			"dynn_Xizang"
-#			"dynn_Manzhou"
-#			"dynn_Huangdì"
-#			"dynn_Caoyuan"		
-#			"dynn_Toujin"
-#			"dynn_Hongse"
-#			"dynn_Luse"
-#			"dynn_LanSe"
-#			"dynn_Zise"
-#			"dynn_Huangse"
-#			"dynn_Chengzi"
-#			"dynn_LuSongshi"
-#			"dynn_Huise"
-#			"dynn_Heise"
-#			"dynn_Baise"
-		}
-
-		dynasty_names = {
-			"dynn_Li"
-			"dynn_Wu"
-			"dynn_Ren"
-			"dynn_Wang"
-			"dynn_Liu"
-			"dynn_Fan"
-			"dynn_Sun"
-			"dynn_Yao"
-			"dynn_Qian"
-			"dynn_Chen"
-			"dynn_Chu"
-			"dynn_Han"
-			"dynn_Zhu"
-			"dynn_Qin"
-			"dynn_You"
-			"dynn_He"
-			"dynn_Shi"
-			"dynn_Kong"
-			"dynn_Cao"
-			"dynn_Hua"
-			"dynn_Jin"
-			"dynn_Tao"
-			"dynn_Jiaang"
-			"dynn_Qi"
-			"dynn_Xie"
-			"dynn_Zou"
-			"dynn_Yu"
-			"dynn_Bai"
-			"dynn_Yun"
-			"dynn_Pan"
-			"dynn_Ge"
-			"dynn_Xi"
-			"dynn_Peng"
-			"dynn_Lang"
-			"dynn_Chang"
-			"dynn_Ma"
-			"dynn_Bao"
-			"dynn_Fei"
-			"dynn_Lian"
-			"dynn_Cen"
-			"dynn_Lei"
-			"dynn_Ni"
-			"dynn_Teng"
-			"dynn_Luo"
-			"dynn_Bi"
-			"dynn_Hao"
-			"dynn_An"
-			"dynn_Yue"
-			"dynn_Pi"
-			"dynn_Bian"
-			"dynn_Kang"
-			"dynn_Bu"
-			"dynn_Gu"
-			"dynn_Meng"
-			"dynn_Ping"
-			"dynn_Huang"
-			"dynn_Mu"
-			"dynn_Shao"
-			"dynn_Zhan"
-			"dynn_Mao"
-			"dynn_Di"
-			"dynn_Mi"
-			"dynn_Bei"
-			"dynn_Zang"
-			"dynn_Sima"
-			"dynn_Ouyang"
-			"dynn_Xiahou"
-			"dynn_Zhuge"
-			"dynn_Wenren"
-			"dynn_Dongfang"
-			"dynn_Huangfu"
-			"dynn_Yuchi"
-			"dynn_Gongyang"
-			"dynn_Gongsun"
-			"dynn_Zhongsun"
-			"dynn_Xuanyan"
-			"dynn_Linghu"
-			"dynn_Zhongli"
-			"dynn_Yuwen"
-			"dynn_Murong"
-			"dynn_Huyan"
-			"dynn_Nangong"
-			"dynn_Jinming"
-			"dynn_Ding"
-			"dynn_Ju"
-			"dynn_Liang"
-
-			"dynn_Du"	# 杜
-			"dynn_Dai"
-			"dynn_Zhang"
-			"dynn_Zheng"
-			"dynn_Bai"
-			"dynn_Lin"
-			"dynn_Long"	# 龙
-			"dynn_Nie"	# 聂
-			"dynn_Yann"	# 阎
-			"dynn_Fuh"	# 傅
-			"dynn_Chiang"	# 蒋
-			"dynn_Sheng"	# 盛
-			"dynn_Zhao"	# (as in Zhao Chengshou, Zhao Zongqi)
-			"dynn_Hu"
-			"dynn_Dong"
-			"dynn_Ye"
-			"dynn_Lu"
-			"dynn_Tian"	# 田
-			"dynn_Jiang"
-			"dynn_Wei"
-			"dynn_Shen"
-			"dynn_Fang"	# (as in Fang Fenghui)
-			"dynn_Xu"
-			"dynn_Wuu"	# 吴
-			"dynn_Yen"	# 严
-			"dynn_Qiu"	# 邱
-			"dynn_Chai"
-			"dynn_Gao"
-			"dynn_Cai"	# 蔡
-			"dynn_Cheng"	# 成
-			"dynn_Xuu"	# 许
-			"dynn_Guo"
-			"dynn_Weih"	# 魏
-			"dynn_Qu"	# 曲
-			"dynn_Yuan"	# 袁
-			"dynn_Xi"
-			"dynn_Wan"	# 万
-
-# Heraklito didn't do a good job with these...
-#			"dynn_Zhongguo"
-#			"dynn_Yazhou"
-#			"dynn_Meng"
-#			"dynn_Hanguo"
-#			"dynn_Rìben"
-#			"dynn_Yìndu"
-#			"dynn_Xizang"
-#			"dynn_Manzhou"
-#			"dynn_Huangdì"
-#			"dynn_Caoyuan"		
-#			"dynn_Toujin"
-#			"dynn_Hongse"
-#			"dynn_Luse"
-#			"dynn_LanSe"
-#			"dynn_Zise"
-#			"dynn_Huangse"
-#			"dynn_Chengzi"
-#			"dynn_LuSongshi"
-#			"dynn_Huise"
-#			"dynn_Heise"
-#			"dynn_Baise"
-		}
-
-		male_names = {
-			Ji Yu Deyi Wuji Xuanling Ruhui Jing Yanbo Shilian Shiji Xingcheng Zhining Suiliang Rengui Zhide Liangsi Daijia Chengsi Changliang Qinwang Jishan Xiujing Yuanzhong Chengqi Shi Ziyi Maozhen Wei Gongren Shidao Wenben Zhou Jifu Shi Dunli Yifu Zhenglun Jingzong Xiangdao Dunxin Liben Chujun Jingxuan Yuanchao Zhiwen Yan Weidao Judao Wenwei Zhaode Sansi Renjie Qiao Zaisi Xuanwei Shuji Anshi Chuke Zhizhong Shaojing Sili Chong Shuo Jiazhen Song Jiuling Linfu Guozhong Yuan Fuguo Huaiguang Sheng Jian Hong Minzhong Zhaodu Wenjing Kang Shuda Yuanji Gui Zheng Wenjie Yuan Maojiang Yushi Dexuan Luo Wenguan Chujun Jingxian Dezhen Siqian Xuantong Guangfu Youning Wuzi Qinke Tong Shou Hui Yanfan Huai Juyuan Chuna Zhizhong Rizhi Youqiu Huaizhen Xi Zhigu Huaishen Qianyao Guangting Yaoqin Xianke Shizhi Xilie Jiansu Jinqin Jin Sui Duo Mei Congdang Yanruo Yin Yan Zhou Junji Yaxiang Chengqing Yi Yanwei Chuyue Hongwu Anqi Renben Heng Yiyan Zhizhou Da_an Daiju Hongmin Weizhi Benli Xiaojie Jiongxiu Dan Jianzhi Huaiyuan Qinming Renyuan Zhigu Xiangxian Na Lin Zhengyi Jingchen Junliang Cha Fangzhi LU_bing Youyi Sihui Fuyuan Zhigu Xingben Zhirou Youdao Zhihong Shenji Yuanzong Yuansu Rui Juyuan Yuanfang Shifang Jingquan Yunyuan Yuanheng Fangqing Daoguang Yuanchong Xu Jingze Rong Weiqian Yanzhao Jiafu Yuanhong Xilie Guan Mian Ting Qi Kui Hua Zunqing Zai Hongjian Gun Zhongchen Youfu Lin Yi Bo Congyi Gongfu Yanshang Zao Huang Hun Bi Can Zhi Dan Mai Sun Zongru Yuqing Ying Xunyu Zhiyi Huangshang Yuanheng Di Pan Deyu Jiang Hongjin Guanzhi Fengji Qun Yong Yijian Fu Wenchang Yuanying Sengru Chen Yizhi Chuhou Zongmin Shenxi Guyan Yuanyu Xun Tan Yixing Sifu Shen Rangyi Su Shang Minzhong Yuanshi Guicong Tao Mo Lang Shenyou Zhuan Shenquan Xian Shou Que Shang Zhan Ye Wei Che Gou Changtu Zhaodu Rangneng Yanchang Xisheng Chuan Pu Wo She Riyong Renshi Guangqi Zhirou Yanjing Dewei Shouyi Longji Jie Shouli Yuanzhen Xinfu Yun
-		}
-		female_names = {
-			Anzong Wenshou Aiqin Que Daoan Maoying Qigui Rongji Huinan Yuying Yingwu Xianyuan Lingyuan Wanying Yingmei Zhenfeng Miaodeng Farong Yuzhu Jiangui Fanjing Daozheng Zhirong Huizhao Shuyi Shuyuan Jieyu Ronghua Zhaoyi Lanying Baoming Jingying Shaoming Huiduan Lingqu Yu_er Nizi Jinghui Shunhua Shangrou Hui Lingguang Lingying Lingbing Zhaopei Yao_er Miaorong Shaoji Jingyan Lihua Wuhua Xianji Shouji Zhaorong Ying Xianzi Puxian Lian Mingxiang Yuanhua Tong_e Mingyue Zhaojun "Zu_e" Yuguang Zuqi Zhonghua Yuyi Changyi Huanghua Xiaolian "E_zi" Manyue Yueyi Yueshang Qieluo Lingji Zhou Shuzhen Gui Hui Huitong "Wan_er" Shun Fangmei Zhenyi Caiping Yuhuan Qiniang Qiu Qiuniang Jianrong Chongyan Zhenniang Yuniang Fujin Shiguang "E_huang" "NU_ying" Xinyue Hanyue Feishan Shunxuan Taihua Dexiu Jinfeng Chunyan Qiongxian E Taotao Bingyi Yunu Zuimei Chunluo Fengniang Daoqing Zhuozhen Yan Yanyan "Shi_er" "Xian_e" Nanxian Shanxiang Ai Shanli Jinluan "Xi_er" "Zhen_er" Wanyi Mantang Xijie Baozhu Xiuying Zhongyang Ruoxian Ruozhao Ruoxin Ruoxun Ruolun Miaozhen Mao_er Daoyi Niangzi Saihua Guiying Shengqiong Chaochao Fu Zhaoyun Rouniang Rounu Yuniang Biniang Rui Jinhua Guilan Shanwei Suyue Yunxian Nenniang Xiang Zhenli Cuiqiao Zhihui Lingxuan Jicong Shuzhu Yujing Yuanyuan Xiaowan Hengbo Mei Xiangjun Rushi Xianglan Ruying Yuhua Yuantong Yanxiang Xiurong Shouying Fuyuan Luzhen Ruirong Suzhen "Xiao_e" Xiaoying Xiaoyuan Xiaoji Xiuui "NU_jie" Qingyu Zhichong "Yi_an" Youwu Yupan Jinnu Jinluo Fujin "Hu_er" Jinxian Qiaoyun Sanjin Xiangyun Zhuzhu "Jin_er" Chuanzhu Jinzhu Xiaojin Huimei Miaoyu Quyi Siniang Sanniang "A_wu" Lizhi Jing Shu Lingyue Xianhui Jijiang "Guo_er" Huawan Huazhuang Chang Dehua Panpan Caichun Wenxiu Hong Honghong "A_man" Huimei Shuozhen Youwei Huilan Lize Mingda Sujie Yiyang Hua Yuhuan Shi Diaochan Zheng Liu Kangyi Feiyan Hou Jiangnu Na Shengtong Zhi
-		}
-		
-		dynasty_title_names = no
-
-		# 以外祖父或父亲的名字命名的概率
-		pat_grf_name_chance = 0
-		mat_grf_name_chance = 0
-		father_name_chance = 0
-		
-		# 以外祖母或母亲的名字命名的概率
-		pat_grm_name_chance = 0
-		mat_grm_name_chance = 0
-		mother_name_chance = 0
-
-		ethnicities = {
-			40 = chinese
-			35 = chinese1
-			25 = chinese2
-		}
-	}
-
-	bai = {
-		
-		dynasty_name_first = yes
-		
-		color = { 255 251 240 }
-
-		cadet_dynasty_names = {
-			"dynn_bai_Meng"
-			"dynn_bai_Zhao"
-			"dynn_bai_Duan"
-			"dynn_bai_Yang"
-			"dynn_bai_Cuan"
-			"dynn_bai_Gao"
-			"dynn_bai_Zheng"
-		}
-
-		dynasty_names = {
-			"dynn_bai_Meng"
-			"dynn_bai_Zhao"
-			"dynn_bai_Duan"
-			"dynn_bai_Yang"
-			"dynn_bai_Cuan"
-			"dynn_bai_Gao"
-			"dynn_bai_Zhang"
-			"dynn_bai_Jiang"
-			"dynn_bai_Bai"
-			"dynn_bai_Wang"
-			"dynn_bai_Li"
-			"dynn_bai_Yin"
-			"dynn_bai_Zheng"
-			"dynn_bai_Dong"
-		}
-
-		male_names = {
-			"Bai_Longshun" "Bai_Fengyou" "Bai_Shilong" "Bai_Zifen" "Bai_Ruzhi" "Bai_Jianwei" "Bai_Quandeng" "Bai_Cuodian" "Bai_Qiuqian" "Bai_Zongbang" "Bai_Cheng" "Bai_Qiuqing" "Bai_Longmei" "Bai_Qikun" "Bai_Yizong" "Bai_Deng" "Bai_Maisi" "Bai_Renmin" "Bai_Longdan" "Bai_Shanzheng" "Bai_Ganzhen" "Bai_Siping" "Bai_Siying"
-		}
-
-		female_names = {
-			"Bai_Ayuan" "Bai_Feibao" "Bai_Baifeng" "Bai_Enen" "Bai_Yuyan" "Bai_Hongmian" "Bai_Qingluo" "Bai_Xingzhu" "Bai_Baobao" "Bai_Min" "Bai_Ling" "Bai_Wanqing"
-		}
-
-		dynasty_title_names = no
-
-		ethnicities = {
-			40 = chinese
-			35 = chinese1
-			25 = chinese2
-		}
-	}
-
-	shatuo = { #Sinicized turks of northern China
-		color = { 0.7 0.3 0.2 }
+	name_list = name_list_han
 	
-		character_modifier = {
-			ai_war_chance = 1
-			ai_war_cooldown = -0.5
-		}
-		
-		cadet_dynasty_names = {
-			"dynn_Li"
-			"dynn_Zhuye"
-			"dynn_Zhu"
-			"dynn_Shajin"
-			"dynn_Shi"
-			"dynn_Liu"
-			"dynn_Wang"
-			"dynn_Xie"
-			"dynn_Xue"
-			"dynn_Yantuo"
-			"dynn_Yilidie"
-			"dynn_Yiliduo"
-			"dynn_Yilitu"
-			"dynn_Yishi"
-			"dynn_Zhang"
-			"dynn_Wanggu"
-			"dynn_Shatuo"
-			"dynn_Xueyantuo"
-		}
-		
-		dynasty_names = {
-			"dynn_Li"
-			"dynn_Zhuye"
-			"dynn_Zhu"
-			"dynn_Shajin"
-			"dynn_Shi"
-			"dynn_Liu"
-			"dynn_Wang"
-			"dynn_Xie"
-			"dynn_Xue"
-			"dynn_Yantuo"
-			"dynn_Yilidie"
-			"dynn_Yiliduo"
-			"dynn_Yilitu"
-			"dynn_Yishi"
-			"dynn_Zhang"
-			"dynn_Wanggu"
-			"dynn_Shatuo"
-			"dynn_Xueyantuo"
-		}
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
 
-		male_names = {
-			#Sinicized
-			Abo Asan Bazhuo Chengjun ChengxU_n ChengxU__n Chengyou Chengyun Chixin Chong Chonggao Chongguang Chonggui Chongji Chongjin Chongmei Chongrui Chongxin
-			Chongyi Chongying Chongzhe Congcan Conghou Congjing Congke Congmin Congrong Congshen Congwen Congyi Congzhang Cun Cunba Cunhao Cunji Cunjin Cunjing
-			Cunju Cunli Cunmei Cunque Cunru Cunshen Cunshi Cunwo Cunxian Cunxiao Cunxin Cunxu Cunyi Cunzhang Cunzhen Cunzhi Dan Dexing Dian Duomi Duomo Duomozhi
-			Ershisan Fei Gao Guduozhi Guochang Hao Hege Jichan Ji_en Jiji Jing Jingru Jingsi Jingtang Jinzhong Jisong Jitong Jiwen Jiyao Jiyuan Jun Kai Kegong
-			Kening Keyang Keyong Luoluo Miaojilie Min Mingzong Mo Ni Nieliji Po_er Pusanu Qi Shaoyong Shichunchi Siben Si_en Siyuan Tinluan Wenjing Wu Yanbao
-			Yanchao Yancheng Yanxu Yiedie Yi_nan Yinheng Yishibo Yitewushi Yun XI_ XI_v Xianzu Xiaoyuan Xun Zhaolie Zhenzhu Zhenzhupiqie Zhiyi Zhiyuan
-			#Turkic
-			C_ilbu Aepak Aibak Alpra Altunopa Arbuz Asalup Asep Atrak Ayepa BO_nek Bachman Baytursun Begluk Beka Bilge Blush Bonyak BorC_
-			Chemgura Chilbuk C_ur EldeC_yuk Ele Eltut Etrek Girgen Gzak Gzi I_S_bara Itlar Ituk
-			Kemenche Kitzes KO_nC_ek Kobyak Kolo Kopti Kopulch Kotyan Koza Kozel Kubasar KU_li KU_li_C_ur Kuntuvdi Kutan Kutesk Kutlu Kza
-			Lavor Manj Menk Otrok Ovlur Pulad Saru Sharaga Sharukan SevenC_ Seyhan Sicgan SirC_an Sokal Sotan Sugr Suthoi
-			Tapar Taz Tetr TO_rtogul Togli Togortok Toks Tolun Tugor Vlur Uzluk Uzur Zeyhan
-		}
-		female_names = {
-			#Sinicized
-			Ai Fuqing Guangguo Huiming Jianfa Lu Pei Qin Qionghua Shou_an Wenjing Xingping Xiaoyuan Xuanxian Yiling Yining Yong_an Yongle Yongning Youcheng
-			Yuanhui Zhangyi Zhaolie Zhaosheng Zhenjian Zhiyuan
-			#Turkic
-			C_iC_ek C_ilen C_iltanesi O_zgul O_zlem Akgul Asli Ayasun Ayten BozC_in Dilek Esin GulC_iC_ek Gulay Gunduz Gundes Gunes Guranduk
-			Ilkay Ipek Ipekel Irge Jiajak Karacik Mala Mutlu Peksen Samur Sarica Sati Sevilay Sevindik Sibel Sirin Sirma Songul
-			TekC_e Tura Umay Usunbike Yasar Yeldem Yildiz
-		}
-		
-		dynasty_of_location_prefix = "dynnp_of"
-		dynasty_title_names = no
-		founder_named_dynasties = no
+	ethnicities = {
+		40 = chinese
+		35 = chinese1
+		25 = chinese2
+	}
+}
 
-		ethnicities = {
-			30 = chinese
-			25 = chinese1
-			15 = chinese2
-			10 = asian
-		}
+bai = {
+	color = { 255 251 240 }
+
+	ethos = ethos_courtly
+	heritage = heritage_chinese
+	language = language_chinese
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_family_entrepreneurship
+		tradition_seafaring
+		tradition_maritime_mercantilism
+		tradition_court_eunuchs
+	}
+	
+	name_list = name_list_bai
+	
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		40 = chinese
+		35 = chinese1
+		25 = chinese2
+	}
+}
+
+manchu = {
+	color = { 122 139 101 }
+	
+	created = 1635.11.29
+	parents = { jurchen han }
+	
+	ethos = ethos_courtly
+	heritage = heritage_mongolic
+	language = language_chinese
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_highland_warriors
+		tradition_agrarian
+		tradition_horse_lords
+		tradition_horse_breeder
+		tradition_mystical_ancestors
+		tradition_court_eunuchs
+		tradition_philosopher_culture
+	}
+	
+	name_list = name_list_han
+	
+	coa_gfx = { mongol_coa_gfx steppe_coa_gfx chinese_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		10 = asian
+		40 = chinese
+		35 = chinese1
+		25 = chinese2
 	}
 }

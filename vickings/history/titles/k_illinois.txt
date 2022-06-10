@@ -1,0 +1,363 @@
+c_kiolymthera = {
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican2
+	}
+	1834.12.3 = {
+		holder = 6400157
+	}
+}
+c_kaicorcaea = {
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican2
+	}
+	1834.12.3 = {
+		holder = 6400157
+	}
+}
+c_emporolymlia = {
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican2
+	}
+	1834.12.3 = {
+		holder = 6400157
+	}
+}
+c_methumetaposse = {
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican2
+	}
+	1834.12.3 = {
+		holder = 6400157
+	}
+}
+c_clazoambrium = {
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican2
+	}
+	1834.12.3 = {
+		holder = 6400157
+	}
+}
+c_eretabion = {
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican2
+	}
+	1834.12.3 = {
+		holder = 6400157
+	}
+}
+c_erethedos = {
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican2
+	}
+	1834.12.3 = {
+		holder = 6400157
+	}
+}
+c_marmcolopetra = {
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican2
+	}
+	1834.12.3 = {
+		holder = 6400157
+	}
+}
+c_georoprias = {
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican2
+	}
+	1834.12.3 = {
+		holder = 6400157
+	}
+}
+c_alaasklinda = {
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican2
+	}
+	1834.12.3 = {
+		holder = 6400157
+	}
+}
+c_sangamon = {
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican2
+	}
+	1834.12.3 = {
+		holder = 6400157
+	}
+}
+c_herakourrea = {
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican2
+	}
+	1834.12.3 = {
+		holder = 6400157
+	}
+}
+c_orhyeai = {
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican2
+	}
+	1834.12.3 = {
+		holder = 6400157
+	}
+}
+c_epidhistrpolis = {
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican2
+	}
+	1834.12.3 = {
+		holder = 6400157
+	}
+}
+c_oropthus = {
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican2
+	}
+	1834.12.3 = {
+		holder = 6400157
+	}
+}
+c_argnymalous = {
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican2
+	}
+	1834.12.3 = {
+		holder = 6400157
+	}
+}
+c_hermimesthus = {
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican2
+	}
+	1834.12.3 = {
+		holder = 6400157
+	}
+}
+c_laumaryra = {
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican2
+	}
+	1834.12.3 = {
+		holder = 6400157
+	}
+}
+c_mangollia = {
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican2
+	}
+	1834.12.3 = {
+		holder = 6400157
+	}
+}
+c_olyknossdus = {
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican2
+	}
+	1834.12.3 = {
+		holder = 6400157
+	}
+}
+c_neakameirea = {
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican2
+	}
+	1834.12.3 = {
+		holder = 6400157
+	}
+}
+c_edechyyra = {
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican2
+	}
+	1834.12.3 = {
+		holder = 6400157
+	}
+}
+c_gyrthmileesmos = {
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican2
+	}
+	1834.12.3 = {
+		holder = 6400157
+	}
+}
+c_misegolgoas = {
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican2
+	}
+	1834.12.3 = {
+		holder = 6400157
+	}
+}
+c_olbasktes = {
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican2
+	}
+	1834.12.3 = {
+		holder = 6400157
+	}
+}
+c_komassaila = {
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican2
+	}
+	1834.12.3 = {
+		holder = 6400157
+	}
+}
+c_hagialindus = {
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican2
+	}
+	1834.12.3 = {
+		holder = 6400157
+	}
+}
+c_orchomaroli = {
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican2
+	}
+	1834.12.3 = {
+		holder = 6400157
+	}
+}
+c_klazoelatate = {
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican2
+	}
+	1834.12.3 = {
+		holder = 6400157
+	}
+}
+c_kerkichepetra = {
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican2
+	}
+	1834.12.3 = {
+		holder = 6400157
+	}
+}
+c_cebeubthos = {
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican2
+	}
+	1834.12.3 = {
+		holder = 6400157
+	}
+}
+c_shikaakwa = {
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican2
+	}
+	1834.12.3 = {
+		holder = 6400157
+	}
+}
+c_achlocrissa = {
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican2
+	}
+	1834.12.3 = {
+		holder = 6400157
+	}
+}

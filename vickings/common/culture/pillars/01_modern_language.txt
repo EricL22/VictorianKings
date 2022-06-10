@@ -1,0 +1,51 @@
+﻿language_albanian = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_albanian
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_albanian }
+			multiply = 10
+		}
+	}
+	
+	color = { 181  0  20 }
+}
+language_inuit = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_inuit
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_inuit }
+			multiply = 10
+		}
+	}
+	
+	color = {210 243 242}
+}
+language_native_american = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_native_american
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_native_american }
+			multiply = 10
+		}
+	}
+	
+	color = {68 55 88}
+}

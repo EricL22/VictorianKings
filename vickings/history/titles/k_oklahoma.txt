@@ -1,0 +1,256 @@
+c_nysantiium = {
+	1808.1.1 = {
+		holder = nativeamerican8
+	}
+	1835.12.29 = {
+		holder = nativeamericanres4
+		liege = e_united_states
+	}
+}
+c_miselampllai = {
+	1808.1.1 = {
+		holder = nativeamerican8
+	}
+	1832.3.24 = {
+		holder = nativeamericanres3
+		liege = e_united_states
+	}
+}
+c_eubbhyrtoli = {
+	1808.1.1 = {
+		holder = nativeamerican8
+	}
+	1832.3.24 = {
+		holder = nativeamericanres3
+	}
+}
+c_apolldidythus = {
+	1808.1.1 = {
+		holder = nativeamerican8
+	}
+	1835.12.29 = {
+		holder = nativeamericanres4
+	}
+}
+c_cycebdos = {
+	1808.1.1 = {
+		holder = nativeamerican8
+	}
+	1832.3.24 = {
+		holder = nativeamericanres3
+	}
+}
+c_argnicopetra = {
+	1808.1.1 = {
+		holder = nativeamerican8
+	}
+	1835.12.29 = {
+		holder = nativeamericanres4
+	}
+}
+c_mormylia = {
+	1808.1.1 = {
+		holder = nativeamerican8
+	}
+	1832.3.24 = {
+		holder = nativeamericanres3
+	}
+}
+c_hermkamaon = {
+	1808.1.1 = {
+		holder = nativeamerican8
+	}
+	1832.10.20 = {
+		holder = nativeamericanres5
+		liege = e_united_states
+	}
+}
+c_mumetaponida = {
+	1808.1.1 = {
+		holder = nativeamerican8
+	}
+	1832.5.9 = {
+		holder = nativeamericanres2
+		liege = e_united_states
+	}
+}
+c_kikaoas = {
+	1808.1.1 = {
+		holder = nativeamerican8
+	}
+	1835.12.29 = {
+		holder = nativeamericanres4
+	}
+}
+c_morgankydoon = {
+	1808.1.1 = {
+		holder = nativeamerican8
+	}
+	1835.12.29 = {
+		holder = nativeamericanres4
+	}
+}
+c_chersgortynes = {
+	1808.1.1 = {
+		holder = nativeamerican8
+	}
+	1835.12.29 = {
+		holder = nativeamericanres4
+	}
+}
+c_nemleslia = {
+	1808.1.1 = {
+		holder = nativeamerican8
+	}
+	1835.12.29 = {
+		holder = nativeamericanres4
+	}
+}
+c_odesemporosse = {
+	1808.1.1 = {
+		holder = nativeamerican8
+	}
+	1835.12.29 = {
+		holder = nativeamericanres4
+	}
+}
+c_epidkyron = {
+	1808.1.1 = {
+		holder = nativeamerican8
+	}
+	1835.12.29 = {
+		holder = nativeamericanres4
+	}
+}
+c_opdionae = {
+	1808.1.1 = {
+		holder = nativeamerican8
+	}
+	1831.2.24 = {
+		holder = nativeamericanres1
+		liege = e_united_states
+	}
+}
+c_knosseluf = {
+	1808.1.1 = {
+		holder = nativeamerican8
+	}
+	1831.2.24 = {
+		holder = nativeamericanres1
+	}
+}
+c_arthememenus = {
+	1808.1.1 = {
+		holder = nativeamerican8
+	}
+	1831.2.24 = {
+		holder = nativeamericanres1
+	}
+}
+
+c_millgyrthiissa = {
+	1808.1.1 = {
+		holder = nativeamerican6
+	}
+	1831.2.24 = {
+		holder = nativeamericanres1
+	}
+}
+c_olynkaidia = {
+	1808.1.1 = {
+		holder = nativeamerican6
+	}
+	1831.2.24 = {
+		holder = nativeamericanres1
+	}
+}
+c_lampsanketta = {
+	1808.1.1 = {
+		holder = nativeamerican6
+	}
+	1831.2.24 = {
+		holder = nativeamericanres1
+	}
+}
+
+c_magnolynila = {
+	1808.1.1 = {
+		holder = nativeamerican14
+	}
+	1832.10.20 = {
+		holder = nativeamericanres5
+	}
+}
+c_gyrthdorosse = {
+	1808.1.1 = {
+		holder = nativeamerican14
+	}
+	1832.10.20 = {
+		holder = nativeamericanres5
+	}
+}
+c_leontcheaea = {
+	1808.1.1 = {
+		holder = nativeamerican14
+	}
+	1832.10.20 = {
+		holder = nativeamericanres5
+	}
+}
+c_lefkithanatrea = {
+	1808.1.1 = {
+		holder = nativeamerican14
+	}
+	1832.10.20 = {
+		holder = nativeamericanres5
+	}
+}
+c_edehagthus = {
+	1808.1.1 = {
+		holder = nativeamerican14
+	}
+	1832.10.20 = {
+		holder = nativeamericanres5
+	}
+}
+c_largonthos = {
+	1808.1.1 = {
+		holder = nativeamerican14
+	}
+	1831.2.24 = {
+		holder = nativeamericanres1
+	}
+}
+
+c_nysmallai = {
+	1808.1.1 = {
+		holder = nativeamerican15
+	}
+	1832.10.20 = {
+		holder = nativeamericanres5
+	}
+}
+c_clazmaratatrea = {
+	1808.1.1 = {
+		holder = nativeamerican15
+	}
+	1832.10.20 = {
+		holder = nativeamericanres5
+	}
+}
+c_leprhemeine = {
+	1808.1.1 = {
+		holder = nativeamerican15
+	}
+	1832.10.20 = {
+		holder = nativeamericanres5
+	}
+}
+c_mamagcum = {
+	1808.1.1 = {
+		holder = nativeamerican15
+	}
+	1832.10.20 = {
+		holder = nativeamericanres5
+	}
+}

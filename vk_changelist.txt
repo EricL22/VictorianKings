@@ -1,3 +1,74 @@
+0.4.2----------
+Minor localization and history fixes
+Updated Chinese localization
+Created Manchu culture, used by the emperors of China
+Fixed flavorizations broken by the new name list system
+Fixed Bogd Khan not having Bogd dynasty
+Started the Qing up with more gold, to deal with the increased unrest from being a different culture
+Feudal governments with republican succession no longer have court grandeur requirements, and AI with that government will receive a major penalty to grandeur
+Added the Kuril islands, and expanded North America west to Louisiana
+The Chrysanthemum Throne will now always be destroyed after a revolution, as CK3 now forces theocratic government on unlanded heads of faith which destroys the concept
+Cleaned up defines code
+Changed elections so you may nominate one of your own courtiers as a candidate
+Fixed some bugs relating to governor national election shenanigans
+Fixed a crash relating to candidates dying in the middle of an election
+Republican rulers no longer gain "Minor Court" modifier
+New flavor decisions and events in America
+-- Territorial treaties
+-- Vice President court position, election, and new succession law
+Granting titles in the United States government now converts the recipient into a republic if he becomes a vassal, and elections have been restricted to duchy-tier or higher
+Fixed compatibility for the 1.6 update
+Updated France to use the dynamic CoAs
+Rulers in the United States will no longer choose Reactionary politics (there simply is no support for that platform to even form, let alone be elected)
+-- Players may choose this ideology but will receive a penalty in their election campaign
+Females will no longer randomly generate as presidential candidates before 1980 (again, not enough support for them in this era)
+Populist factions are now much less likely to form in republics with high cultural acceptance
+Dissolution factions are no longer creatable against a republican liege (it amazes me how they managed to overlook this and not theocracies) or if the liege/vassal cultures reached the renaissance era
+Liberty factions are now used more by liberals rather than conservatives
+Elections may now occur during offensive wars
+Independent Republics now get a vassal levy contribution bonus
+Republics will now correctly transfer crown authority in elections
+Added United States special mechanic which completely annexes tribal land and changes government of rulers vassalized in war (I might need to change the implementation later but for now, it works)
+Added geographical regions for all provinces
+Temporarily blocked non-native american independence factions in the United States
+Candidates for elections have been restricted to people who know the language of your capital province
+Fixed some title change issues from the Congress peace deal, including (finally) the problem of Napoleon retaining Lubeck!
+Changed the trade war casus belli to an actual trade war, rather than a non-functional human sacrifice
+Exclave independence tweaked to include de jure empire; now Prussia no longer loses all of its Rhineland territories on succession!
+Added a new (Anglo) American culture for the United States so that they have their own culture head
+AI should now be able to do some imperialism by the historical date
+Empire obscurity is now disabled by default to enable the Mughal emperor to keep his title as he did historically
+Carlos V of Spain now starts off with male only law; how he managed to miss such a basic provision is beyond my comprehension...
+0.4.1----------
+Renamed Aigun to Boli to fix accuracy
+Fixed compatibility for the 1.5 update
+Removed most of the modified cultures so as to reduce clutter of the namelists
+Added the House of Braganza as a distinct Portuguese dynasty
+Corrected multiple typos from the previous version
+Fixed the location of Malta on the map
+Added a coat of arms for China
+Minor change of Shinto from Theocratic to Lay Clergy to be compatible with Temporal Head
+Cleaned up messy borders at the northern extremity of Russia
+0.4------------
+Transferred the map to Greater Earth Map projection
+Added more provinces north of Japan, the Atlantic Ocean, and North America
+Fixed some errors in Arabian cadet dynasties
+Translated more cultural names
+Added the ability to have multiple Japanese Imperial restorations
+Restricted elections to adult candidates
+The Suez Canal is now a navigable river, unlocked through a new Mechanical Production innovation
+Standardized election years based on game start date, and modified election system to work with republican de jure vassal governments
+Reworked election system to transfer all previously held titles to a new governor upon election, if previously a republic
+Restricted vassals of republics from declaring war on each other
+AI will no longer choose modern ideologies before their historical dates
+Fixed error spam relating to copying title government reforms
+Female presidents are now called "Madame" -- a fair compromise between "First Lady" (which she is not if leading the country) and "President"
+Fixed Russian rulers having the Emperor/Empress modifier with republic government
+Removed the ability to execute the claimant of the Peninsular War which would ridiculously unbalance the game
+Russian special troops (2nd and 3rd Western Armies) now properly disband after the War of the Sixth Coalition, instead of having to wait for ruler succession
+Added the ability to restore the Bourbon monarchy as Kings of France if you defeat Napoleon
+Fixed a bug in localization for Congress of Vienna
+Fixed some errors in history, including changing Ottomans to Maturidi (balanced this change by increasing the opinion bonus that Constantinople grants)
 0.3.3----------
 Fixed major decisions not triggering events for nearby players
 New cultures and CoAs for major countries, and France can now change its flag based on government

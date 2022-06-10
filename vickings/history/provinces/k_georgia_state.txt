@@ -1,0 +1,179 @@
+11509 = {
+	culture = american
+	religion = protestant
+}
+
+11510 = {
+	culture = american
+	religion = protestant
+}
+
+11511 = {
+	culture = american
+	religion = protestant
+}
+
+11512 = {
+	culture = american
+	religion = protestant
+}
+
+11513 = {
+	culture = american
+	religion = protestant
+}
+
+11514 = {
+	culture = american
+	religion = protestant
+}
+
+11515 = {
+	culture = american
+	religion = protestant
+}
+
+11516 = {
+	culture = american
+	religion = protestant
+}
+
+11517 = {
+	culture = american
+	religion = protestant
+}
+
+11518 = {
+	culture = american
+	religion = protestant
+}
+
+11519 = {
+	culture = american
+	religion = protestant
+}
+
+11520 = {
+	culture = american
+	religion = protestant
+}
+
+11521 = {
+	culture = american
+	religion = protestant
+}
+
+11763 = {
+	culture = native_american_minor
+	religion = pagan
+}
+
+11764 = {
+	culture = native_american_minor
+	religion = pagan
+}
+
+11765 = {
+	culture = native_american_minor
+	religion = pagan
+}
+
+11766 = {
+	culture = native_american_minor
+	religion = pagan
+}
+
+11767 = {
+	culture = native_american_minor
+	religion = pagan
+}
+
+11768 = {
+	culture = native_american_minor
+	religion = pagan
+}
+
+11769 = {
+	culture = native_american_minor
+	religion = pagan
+}
+
+11770 = {
+	culture = native_american_minor
+	religion = pagan
+}
+
+11771 = {
+	culture = native_american_minor
+	religion = pagan
+}
+
+11772 = {
+	culture = native_american_minor
+	religion = pagan
+}
+
+11773 = {
+	culture = native_american_minor
+	religion = pagan
+}
+
+11774 = {
+	culture = native_american_minor
+	religion = pagan
+}
+
+11775 = {
+	culture = native_american_minor
+	religion = pagan
+}
+
+11776 = {
+	culture = native_american_minor
+	religion = pagan
+}
+
+11777 = {
+	culture = native_american_minor
+	religion = pagan
+}
+
+11778 = {
+	culture = native_american_minor
+	religion = pagan
+}
+
+11779 = {
+	culture = native_american_minor
+	religion = pagan
+}
+
+11780 = {
+	culture = native_american_minor
+	religion = pagan
+}
+
+11781 = {
+	culture = native_american_minor
+	religion = pagan
+}
+
+11782 = {
+	culture = native_american_minor
+	religion = pagan
+}
+
+11783 = {
+	culture = native_american_minor
+	religion = pagan
+}
+
+11784 = {
+	culture = native_american_minor
+	religion = pagan
+}
+
+11785 = {
+	culture = native_american_minor
+	religion = pagan
+}

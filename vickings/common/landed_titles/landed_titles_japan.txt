@@ -22,19 +22,19 @@ e_shogunate = {
 		capital = c_yamashiro
 
 		cultural_names = {
-			ainu = "Sisam Moshir"
-			korean = "Ilbon"
-			han = cn_riben
-			bai = cn_riben
-			qiang = cn_riben
-			mongol = cn_yapon
-			khitan = cn_yapon
-			jurchen = cn_yapon
-			bedouin = cn_wakwak
-			maghrebi = cn_wakwak
-			levantine = cn_wakwak
-			egyptian = cn_wakwak
-			andalusian = cn_wakwak
+			name_list_ainu = "Sisam Moshir"
+			name_list_korean = "Ilbon"
+			name_list_han = cn_riben
+			name_list_bai = cn_riben
+			name_list_qiang = cn_riben
+			name_list_mongol = cn_yapon
+			name_list_khitan = cn_yapon
+			name_list_jurchen = cn_yapon
+			name_list_bedouin = cn_wakwak
+			name_list_maghrebi = cn_wakwak
+			name_list_levantine = cn_wakwak
+			name_list_egyptian = cn_wakwak
+			name_list_andalusian = cn_wakwak
 		}
 		
 		can_create = {
@@ -590,7 +590,7 @@ e_shogunate = {
 			capital = c_iwaki
 			
 			cultural_names = {
-				ainu = "Hitakami"
+				name_list_ainu = "Hitakami"
 			}
 			
 			c_iwashiro = {
@@ -1106,16 +1106,16 @@ e_shogunate = {
 		capital = c_oshima
 	
 		cultural_names = {
-			#nivkh = "Kugi Mif"
-			ainu = "Ainu Moshir"
-			japanese = "Ezo"
-			korean = "Hai"
-			han = "Xiayi"
-			bai = "Xiayi"
-			qiang = "Xiayi"
-			mongol = "Eizo"
-			khitan = "Eizo"
-			jurchen = "Eizo"
+			#name_list_nivkh = "Kugi Mif"
+			name_list_ainu = "Ainu Moshir"
+			name_list_japanese = "Ezo"
+			name_list_korean = "Hai"
+			name_list_han = "Xiayi"
+			name_list_bai = "Xiayi"
+			name_list_qiang = "Xiayi"
+			name_list_mongol = "Eizo"
+			name_list_khitan = "Eizo"
+			name_list_jurchen = "Eizo"
 		}
 
 		d_hokkaido = {
@@ -1255,28 +1255,60 @@ e_shogunate = {
 			}
 		}
 	
-	#	d_kuril = {
-	#		color = { 249 51 12}
-	#		color2 = {63 63 63}
+		d_kuril = {
+			color = { 249 51 12}
+			color2 = {63 63 63}
 			
-	#		capital = c_cupka
+			capital = c_cupka
 			
-	#		japanese = "Chishima"
-	#		yamato = "Chishima"
-	#		wako = "Chishima"
-			
-	#		c_cupka = { #Cupka
-	#			color = {149 51 122}
-	#			color2 = {63 63 63}
-				
-	#			japanese = "Chishima"
+			cultural_names = {
+				name_list_japanese = cn_chishima
 	#			yamato = "Chishima"
 	#			wako = "Chishima"
+			}
+			
+			c_cupka = { #Cupka
+				color = {149 51 122}
+				color2 = {63 63 63}
 				
-	#			b_cupka = {
-	#			}
-	#		}
-	#	}
+				cultural_names = {
+					name_list_japanese = cn_chishima
+	#				yamato = "Chishima"
+	#				wako = "Chishima"
+				}
+				
+				b_cupka = {
+					cultural_names = {
+						name_list_japanese = cn_chishima
+					}
+				
+					province = 11786
+					
+					color = {43 72 198}
+					color2 = { 63 63 63 }
+				}
+			}
+			
+			c_kita_chishima = {
+				color = {149 51 122}
+				color2 = {63 63 63}
+				
+				cultural_names = {
+					name_list_russian_expanded = cn_severo_kurilsky
+				}
+				
+				b_kita_chishima = {
+					cultural_names = {
+						name_list_russian_expanded = cn_severo_kurilsky
+					}
+
+					province = 11787
+					
+					color = {43 72 198}
+					color2 = { 63 63 63 }
+				}
+			}
+		}
 	}
 	
 	k_ryukyu = {
@@ -1328,26 +1360,26 @@ e_japan = {
 			limit = {
 				is_ai = yes
 			}
-			has_culture_group = culture_group:japanese_group
+			culture = { has_cultural_pillar = heritage_japanese }
 		}
 	}
 	
 	capital = c_musashi
 	
 	cultural_names = {
-		ainu = "Sisam Moshir"
-		korean = "Ilbon"
-		han = cn_riben
-		bai = cn_riben
-		qiang = cn_riben
-		mongol = cn_yapon
-		khitan = cn_yapon
-		jurchen = cn_yapon
-		bedouin = cn_wakwak
-		maghrebi = cn_wakwak
-		levantine = cn_wakwak
-		egyptian = cn_wakwak
-		andalusian = cn_wakwak
+		name_list_ainu = "Sisam Moshir"
+		name_list_korean = "Ilbon"
+		name_list_han = cn_riben
+		name_list_bai = cn_riben
+		name_list_qiang = cn_riben
+		name_list_mongol = cn_yapon
+		name_list_khitan = cn_yapon
+		name_list_jurchen = cn_yapon
+		name_list_bedouin = cn_wakwak
+		name_list_maghrebi = cn_wakwak
+		name_list_levantine = cn_wakwak
+		name_list_egyptian = cn_wakwak
+		name_list_andalusian = cn_wakwak
 	}
 	
 	ai_primary_priority = {

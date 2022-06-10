@@ -1,0 +1,81 @@
+c_blount = {
+	1808.1.1 = {
+		holder = nativeamerican32
+	}
+}
+c_bradley = {
+	1808.1.1 = {
+		holder = nativeamerican32
+	}
+}
+c_chattanooga = {
+	1808.1.1 = {
+		holder = nativeamerican32
+	}
+}
+c_warren_tn = {
+	1808.1.1 = {
+		holder = nativeamerican32
+	}
+}
+c_marion_tn = {
+	1808.1.1 = {
+		holder = nativeamerican32
+	}
+}
+c_coffee = {
+	1808.1.1 = {
+		holder = nativeamerican32
+	}
+}
+
+c_hickman = {
+	1808.1.1 = {
+		holder = nativeamerican33
+	}
+}
+c_lawrence = {
+	1808.1.1 = {
+		holder = nativeamerican33
+	}
+}
+c_hardin = {
+	1808.1.1 = {
+		holder = nativeamerican33
+	}
+}
+c_weakley = {
+	1808.1.1 = {
+		holder = nativeamerican33
+	}
+}
+c_decatur = {
+	1808.1.1 = {
+		holder = nativeamerican33
+	}
+}
+c_henderson = {
+	1808.1.1 = {
+		holder = nativeamerican33
+	}
+}
+c_gibson = {
+	1808.1.1 = {
+		holder = nativeamerican33
+	}
+}
+c_madison = {
+	1808.1.1 = {
+		holder = nativeamerican33
+	}
+}
+c_lauderdale = {
+	1808.1.1 = {
+		holder = nativeamerican33
+	}
+}
+c_memphis = {
+	1808.1.1 = {
+		holder = nativeamerican33
+	}
+}

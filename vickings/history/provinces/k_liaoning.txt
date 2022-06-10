@@ -6,6 +6,9 @@
 	
 	# History
 	1450.1.1 = { religion = quanzhen }
+	1635.11.29 = {
+		culture = manchu # created hybrid culture
+	}
 	1750.1.1 = { religion = sanjiaoheliu }
 
 }
@@ -18,6 +21,9 @@
 	
 	# History
 	1450.1.1 = { religion = quanzhen }
+	1635.11.29 = {
+		culture = manchu # created hybrid culture
+	}
 	1750.1.1 = { religion = sanjiaoheliu }
 
 }
@@ -30,6 +36,9 @@
 	
 	# History
 	1450.1.1 = { religion = quanzhen }
+	1635.11.29 = {
+		culture = manchu # created hybrid culture
+	}
 	1750.1.1 = { religion = sanjiaoheliu }
 
 }

@@ -394,3 +394,8 @@
 11323=plains
 11324=plains
 11325=plains
+11326=taiga
+11327=taiga
+11328=hills
+11786=hills
+11787=plains

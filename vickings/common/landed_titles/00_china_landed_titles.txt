@@ -99,7 +99,7 @@ e_china = {
 		capital = c_liaoyang # Liaoyang
 		
 		cultural_names = {
-			jurchen = cn_dongjing
+			name_list_jurchen = cn_dongjing
 		}
 		
 		d_liaoning = {
@@ -109,7 +109,7 @@ e_china = {
 			capital = c_liaoyang # Liaoyang
 			
 			cultural_names = {
-				jurchen = cn_dongjing
+				name_list_jurchen = cn_dongjing
 			}
 			
 			c_liaoyang = {
@@ -118,7 +118,7 @@ e_china = {
 				
 				b_liaoyang = {
 					cultural_names = {
-						jurchen = cn_dongjing
+						name_list_jurchen = cn_dongjing
 					}
 					
 					province = 10909
@@ -132,7 +132,7 @@ e_china = {
 				color2 = { 181 6 0 }
 
 				cultural_names = {
-					khitan = cn_shenzhou
+					name_list_khitan = cn_shenzhou
 				}
 				
 				b_shenyang = {
@@ -147,8 +147,8 @@ e_china = {
 				color2 = { 181 6 0 } # TODO
 
 				cultural_names = {
-					english = cn_port_arthur
-					russian = cn_port_arthur
+					name_list_english = cn_port_arthur
+					name_list_russian = cn_port_arthur
 				}
 				
 				b_dalian = {
@@ -277,12 +277,12 @@ e_china = {
 				color2 = {63 63 63}
 				
 				cultural_names = {
-					russian = cn_blagoveshchensk
+					name_list_russian = cn_blagoveshchensk
 				}
 				
 				b_shiwei = {
 					cultural_names = {
-						korean = cn_blagoveshchensk
+						name_list_korean = cn_blagoveshchensk
 					}
 
 					province = 10931
@@ -326,12 +326,12 @@ e_china = {
 				color2 = { 20 20 20 }
 				
 				cultural_names = {
-					korean = cn_shangjing
+					name_list_korean = cn_shangjing
 				}
 
 				b_jianzhou = {
 					cultural_names = {
-						korean = cn_shangjing
+						name_list_korean = cn_shangjing
 					}
 
 					province = 10942
@@ -356,12 +356,12 @@ e_china = {
 				color2 = { 20 20 20 }
 
 				cultural_names = {
-					russian = cn_vladivostok
+					name_list_russian = cn_vladivostok
 				}
 				
 				b_haishenwai = {
 					cultural_names = {
-						russian = cn_vladivostok
+						name_list_russian = cn_vladivostok
 					}
 				
 					province = 10944
@@ -386,12 +386,12 @@ e_china = {
 				color2 = { 20 20 20 }
 				
 				cultural_names = {
-					russian = cn_pashkovo
+					name_list_russian = cn_pashkovo
 				}
 				
 				b_anbian = {
 					cultural_names = {
-						russian = cn_pashkovo
+						name_list_russian = cn_pashkovo
 					}
 
 					province = 10946
@@ -405,12 +405,12 @@ e_china = {
 				color2 = {63 63 63}
 				
 				cultural_names = {
-					russian = cn_nikolayevsk_amur
+					name_list_russian = cn_nikolayevsk_amur
 				}
 				
 				b_donghai = {
 					cultural_names = {
-						russian = cn_nikolayevsk_amur
+						name_list_russian = cn_nikolayevsk_amur
 					}
 
 					province = 10932
@@ -419,22 +419,68 @@ e_china = {
 					color2 = { 255 255 255 }
 				}
 			}
-			c_aigun = {
+			c_boli = {
 				color = { 70 148 155 }
 				color2 = { 20 20 20 }
 				
 				cultural_names = {
-					russian = cn_khabarovsk
+					name_list_russian = cn_khabarovsk
 				}
 
 				b_aigun = {
 					cultural_names = {
-						russian = cn_khabarovsk
+						name_list_russian = cn_khabarovsk
 					}
 
 					province = 10969
 
 					color = { 255 206 40 } # TODO
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+
+		d_sakhalin = {
+			color = { 240 249 27 }
+			color2 = { 255 255 255 }
+
+			capital = c_guwei # Guwei
+
+			c_guwei = { # Guwei
+				color = { 233 249 53 }
+				color2 = { 255 255 255 }
+
+				b_nanghaer = { # Nangha'er
+					province = 11326
+
+					color = { 233 249 53 }
+					color2 = { 255 255 255 }
+				}
+
+				b_wuliehe = { # Wuliehe
+					province = 11327
+
+					color = { 233 234 55 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_boluohe = { # Boluohe
+				color = { 240 249 27 }
+				color2 = { 255 255 255 }
+		
+				cultural_names = {
+					name_list_japanese = cn_karafuto
+				}
+
+				b_boluohe = { # Boluohe
+					cultural_names = {
+						name_list_japanese = cn_karafuto
+					}
+
+					province = 11328
+
+					color = { 233 220 56 }
 					color2 = { 255 255 255 }
 				}
 			}
@@ -8315,16 +8361,16 @@ e_china = {
 				color2 = { 255 255 255 }
 
 				cultural_names = {
-					mongol = cn_khanbaliq
-					khitan = cn_liao_beijing
-					jurchen = cn_zhongdu
+					name_list_mongol = cn_khanbaliq
+					name_list_khitan = cn_liao_beijing
+					name_list_jurchen = cn_zhongdu
 				}
 
 				b_geihzen = { # Ji
 					cultural_names = {
-						mongol = cn_khanbaliq
-						khitan = cn_liao_beijing
-						jurchen = cn_zhongdu
+						name_list_mongol = cn_khanbaliq
+						name_list_khitan = cn_liao_beijing
+						name_list_jurchen = cn_zhongdu
 					}
 
 					province = 10808

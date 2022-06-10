@@ -1,0 +1,204 @@
+c_megalochalai = {
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican1
+	}
+}
+c_opuorilia = {
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican1
+	}
+}
+c_kameikydae = {
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican1
+	}
+}
+c_monoasthion = {
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican1
+	}
+}
+c_mochnirrea = {
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican1
+	}
+}
+c_heligythiuf = {
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican1
+	}
+}
+c_megmaratida = {
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican1
+	}
+}
+c_nekamarrias = {
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican1
+	}
+}
+c_crohiai = {
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican1
+	}
+}
+c_okalliessa = {
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican1
+	}
+}
+c_orestmonastimenus = {
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican1
+	}
+}
+c_monasticorcrias = {
+	1800.1.1 = {
+		holder = nativeamerican1
+	}
+}
+c_gouriasthrae = {
+	1800.1.1 = {
+		holder = nativeamerican1
+	}
+}
+c_marathmeseiana = {
+	1800.1.1 = {
+		holder = nativeamerican1
+	}
+}
+c_korincaryita = {
+	1800.1.1 = {
+		holder = nativeamerican1
+	}
+}
+c_hylefkalea = {
+	1800.1.1 = {
+		holder = nativeamerican1
+	}
+}
+c_halichersinda = {
+	1800.1.1 = {
+		holder = nativeamerican1
+	}
+}
+
+c_clazboucia = {
+	1800.1.1 = {
+		holder = nativeamerican13
+	}
+}
+c_gortymorgessa = {
+	1800.1.1 = {
+		holder = nativeamerican13
+	}
+}
+c_diccoratrea = {
+	1800.1.1 = {
+		holder = nativeamerican13
+	}
+}
+c_crokameider = {
+	1800.1.1 = {
+		holder = nativeamerican13
+	}
+}
+c_mylaknosium = {
+	1800.1.1 = {
+		holder = nativeamerican13
+	}
+}
+c_komaresmos = {
+	1800.1.1 = {
+		holder = nativeamerican13
+	}
+}
+c_chersoroplis = {
+	1800.1.1 = {
+		holder = nativeamerican13
+	}
+}
+c_megalhelocia = {
+	1800.1.1 = {
+		holder = nativeamerican13
+	}
+}
+c_hermoeessa = {
+	1800.1.1 = {
+		holder = nativeamerican13
+	}
+}
+c_ankgoinda = {
+	1800.1.1 = {
+		holder = nativeamerican13
+	}
+}
+c_knoolbium = {
+	1800.1.1 = {
+		holder = nativeamerican13
+	}
+}
+c_kourimaroinon = {
+	1800.1.1 = {
+		holder = nativeamerican13
+	}
+}
+c_nysmathus = {
+	1800.1.1 = {
+		holder = nativeamerican13
+	}
+}
+c_kermadene = {
+	1800.1.1 = {
+		holder = nativeamerican13
+	}
+}
+c_lebnirion = {
+	1800.1.1 = {
+		holder = nativeamerican13
+	}
+}
+c_elmilai = {
+	1800.1.1 = {
+		holder = nativeamerican13
+	}
+}
+c_apanaion = {
+	1800.1.1 = {
+		holder = nativeamerican13
+	}
+}

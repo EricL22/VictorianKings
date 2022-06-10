@@ -42101,3 +42101,18 @@
 11313 = {
 	winter_severity_bias = 0.90
 }
+11326 = {
+	winter_severity_bias = 0.95
+}
+11327 = {
+	winter_severity_bias = 0.95
+}
+11328 = {
+	winter_severity_bias = 0.95
+}
+11786 = {
+	winter_severity_bias = 0.90
+}
+11787 = {
+	winter_severity_bias = 0.95
+}

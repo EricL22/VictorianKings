@@ -1,0 +1,157 @@
+c_artmalia = {
+	1808.1.1 = {
+		holder = nativeamerican8
+	}
+	1825.1.1 = {
+		liege = e_united_states
+	}
+}
+c_marochalthrae = {
+	1808.1.1 = {
+		holder = nativeamerican8
+	}
+}
+c_korinthleiblis = {
+	1808.1.1 = {
+		holder = nativeamerican8
+	}
+}
+c_golortes = {
+	1808.1.1 = {
+		holder = nativeamerican8
+	}
+}
+c_gythonchica = {
+	1808.1.1 = {
+		holder = nativeamerican8
+	}
+}
+c_acanhyemea = {
+	1808.1.1 = {
+		holder = nativeamerican8
+	}
+}
+c_lariaosia = {
+	1808.1.1 = {
+		holder = nativeamerican8
+	}
+}
+c_lefknauosse = {
+	1808.1.1 = {
+		holder = nativeamerican8
+	}
+}
+c_amajudus = {
+	1808.1.1 = {
+		holder = nativeamerican8
+	}
+}
+c_carolis = {
+	1808.1.1 = {
+		holder = nativeamerican8
+	}
+}
+c_leijuktinda = {
+	1808.1.1 = {
+		holder = nativeamerican8
+	}
+}
+c_artemellia = {
+	1808.1.1 = {
+		holder = nativeamerican8
+	}
+}
+
+c_kaiacanuf = {
+	1808.1.1 = {
+		holder = nativeamerican16
+	}
+}
+c_juhisida = {
+	1808.1.1 = {
+		holder = nativeamerican16
+	}
+}
+c_moambraea = {
+	1808.1.1 = {
+		holder = nativeamerican16
+	}
+}
+c_lepreherates = {
+	1808.1.1 = {
+		holder = nativeamerican16
+	}
+}
+c_eryephlis = {
+	1808.1.1 = {
+		holder = nativeamerican16
+	}
+}
+c_gyrthmanai = {
+	1808.1.1 = {
+		holder = nativeamerican16
+	}
+}
+
+c_laodchersrea = {
+	1808.1.1 = {
+		holder = nativeamerican17
+	}
+}
+c_mylalapimos = {
+	1808.1.1 = {
+		holder = nativeamerican17
+	}
+}
+c_lapithkaidia = {
+	1808.1.1 = {
+		holder = nativeamerican17
+	}
+}
+c_odessioate = {
+	1808.1.1 = {
+		holder = nativeamerican17
+	}
+}
+c_kyrkyrtes = {
+	1808.1.1 = {
+		holder = nativeamerican17
+	}
+}
+c_hemeromarooas = {
+	1808.1.1 = {
+		holder = nativeamerican17
+	}
+}
+c_artephyrthrae = {
+	1808.1.1 = {
+		holder = nativeamerican17
+	}
+}
+
+c_andnicotrias = {
+	1808.1.1 = {
+		holder = nativeamerican18
+	}
+}
+c_leileoder = {
+	1808.1.1 = {
+		holder = nativeamerican18
+	}
+}
+c_gelantigatrea = {
+	1808.1.1 = {
+		holder = nativeamerican18
+	}
+}
+
+c_korinthclazoalous = {
+	1808.1.1 = {
+		holder = nativeamerican19
+	}
+}
+c_methalekhamos = {
+	1808.1.1 = {
+		holder = nativeamerican19
+	}
+}

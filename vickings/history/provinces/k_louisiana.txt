@@ -1,0 +1,144 @@
+12086 = {
+	culture = american
+	religion = protestant
+}
+
+12087 = {
+	culture = american
+	religion = protestant
+}
+
+12088 = {
+	culture = american
+	religion = protestant
+}
+
+12089 = {
+	culture = french
+	religion = catholic
+}
+
+12090 = {
+	culture = french
+	religion = catholic
+}
+
+12091 = {
+	culture = french
+	religion = catholic
+}
+
+12092 = {
+	culture = french
+	religion = catholic
+}
+
+12093 = {
+	culture = french
+	religion = catholic
+}
+
+12094 = {
+	culture = french
+	religion = catholic
+}
+
+12095 = {
+	culture = french
+	religion = catholic
+}
+
+12096 = {
+	culture = french
+	religion = catholic
+}
+
+12097 = {
+	culture = french
+	religion = catholic
+}
+
+12098 = {
+	culture = american
+	religion = protestant
+}
+
+12099 = {
+	culture = french
+	religion = catholic
+}
+
+12100 = {
+	culture = native_american_minor
+	religion = pagan
+}
+
+12101 = {
+	culture = native_american_minor
+	religion = pagan
+}
+
+12102 = {
+	culture = native_american_minor
+	religion = pagan
+}
+
+12103 = {
+	culture = native_american_minor
+	religion = pagan
+}
+
+12104 = {
+	culture = native_american_minor
+	religion = pagan
+}
+
+12105 = {
+	culture = native_american_minor
+	religion = pagan
+}
+
+12106 = {
+	culture = native_american_minor
+	religion = pagan
+}
+
+12107 = {
+	culture = native_american_minor
+	religion = pagan
+}
+
+12108 = {
+	culture = native_american_minor
+	religion = pagan
+}
+
+12109 = {
+	culture = native_american_minor
+	religion = pagan
+}
+
+12110 = {
+	culture = native_american_minor
+	religion = pagan
+}
+
+12111 = {
+	culture = american
+	religion = protestant
+}
+
+12112 = {
+	culture = french
+	religion = catholic
+}
+
+12113 = {
+	culture = french
+	religion = catholic
+}
+
+12114 = {
+	culture = french
+	religion = catholic
+}

@@ -1,0 +1,629 @@
+k_massachusetts = {
+	1800.1.1 = {
+		change_development_level = 12
+	}
+	1800.5.30 = {
+		holder = 6400100
+		liege = e_united_states
+		government = republic_government
+	}
+	1812.6.5 = {
+		holder = 6400100
+	}
+	1836.1.1 = {	# de jure 1.13
+		holder = 6400119
+	}
+}
+c_boston = {
+	1800.1.1 = { change_development_level = 40 }
+}
+
+
+k_maine = {
+	1800.1.1 = {
+		change_development_level = 6
+	}
+	1834.1.1 = {
+		holder = 6400110
+		liege = e_united_states
+		government = republic_government
+	}
+}
+d_maine = {
+	1800.5.30 = {
+		holder = 6400100
+	}
+	1812.6.5 = {
+		holder = 6400100
+	}
+	1820.3.15 = {
+		holder = 0
+	}
+}
+c_augusta = {
+	1800.1.1 = { change_development_level = 14 }
+}
+c_aroostook = {
+	1800.1.1 = {
+		change_development_level = 1
+	}
+	1786.5.20 = {
+		holder = 6400508
+	}
+	1831.9.9 = {
+		holder = 6400509
+	}
+}
+
+k_new_hampshire = {
+	1800.1.1 = {
+		change_development_level = 11
+	}
+	1794.6.5 = {
+		holder = 6400130
+	}
+	1812.6.5 = {
+		holder = 6400101
+		liege = e_united_states
+		government = republic_government
+	}
+	1813.6.3 = {
+		holder = 6400130
+	}
+	1834.6.5 = {
+		holder = 6400131
+	}
+}
+
+k_rhode_island = {
+	1800.1.1 = {
+		change_development_level = 16
+	}
+	1811.5.1 = {
+		holder = 6400102
+		liege = e_united_states
+		government = republic_government
+	}
+	1833.5.1 = {
+		holder = 6400120
+	}
+}
+
+k_connecticut = {
+	1800.1.1 = {
+		change_development_level = 26
+	}
+	1811.5.9 = {
+		holder = 6400103
+		liege = e_united_states
+		government = republic_government
+	}
+	1812.10.25 = {
+		holder = 6400158
+	}
+	1833.5.1 = {
+		holder = 6400121
+	}
+	1835.5.6 = {
+		holder = 6400121
+	}
+}
+
+k_new_york = {
+	1800.1.1 = {
+		change_development_level = 12
+	}
+	1807.7.1 = {
+		holder = 6400104
+		liege = e_united_states
+		government = republic_government
+	}
+	1833.1.1 = {
+		holder = 6400122
+	}
+}
+c_new_york = {
+	1800.1.1 = { change_development_level = 40 }
+}
+
+k_new_jersey = {
+	1800.1.1 = {
+		change_development_level = 12
+	}
+	1803.10.29 = {
+		holder = 6400105
+		liege = e_united_states
+		government = republic_government
+	}
+	1813.10.29 = {
+		holder = 6400124
+	}
+	1829.11.6 = {
+		holder = 6400125
+	}
+	1833.10.25 = {
+		holder = 6400125
+	}
+}
+c_newark = {
+	1800.1.1 = {
+		change_development_level = 28
+	}
+}
+
+k_pennsylvania = {
+	1800.1.1 = {
+		change_development_level = 16
+	}
+	1808.12.20 = {
+		holder = 6400106
+		liege = e_united_states
+		government = republic_government
+	}
+	1835.12.15 = {
+		holder = 6400123
+	}
+}
+
+k_delaware = {
+	1800.1.1 = {
+		change_development_level = 14
+	}
+	1811.1.15 = {
+		holder = 6400107
+		liege = e_united_states
+		government = republic_government
+	}
+	1814.1.18 = {
+		holder = 6400126
+	}
+	1833.1.15 = {
+		holder = 6400127
+	}
+}
+
+k_maryland = {
+	1800.1.1 = {
+		change_development_level = 13
+	}
+	1803.11.15 = {
+		holder = 6400108
+		liege = e_united_states
+		government = republic_government
+	}
+	1811.11.16 = {
+		holder = 6400108
+	}
+	1812.11.25 = {
+		holder = 6400128
+	}
+	1836.1.1 = {	# de jure 1.14
+		holder = 6400129
+	}
+}
+c_baltimore = {
+	1800.1.1 = {
+		change_development_level = 30
+	}
+}
+
+c_washington_dc = {
+	1800.1.1 = { change_development_level = 16 }
+	1800.11.1 = {
+		holder = 6400001
+	}
+	1801.3.4 = {
+		holder = 6400002
+	}
+	1809.3.4 = {
+		holder = 6400003
+	}
+	1817.3.4 = {
+		holder = 6400004
+	}
+	1825.3.4 = {
+		holder = 6400005
+	}
+	1829.3.4 = {
+		holder = 6400006
+	}
+	1837.3.4 = {
+		holder = 6400007
+	}
+	1841.3.4 = {
+		holder = 6400008
+	}
+}
+
+k_virginia = {
+	1800.1.1 = {
+		change_development_level = 9
+	}
+	1812.1.3 = {
+		holder = 6400109
+		liege = e_united_states
+		government = republic_government
+	}
+	1814.12.1 = {
+		holder = 6400132
+	}
+	1834.3.31 = {
+		holder = 6400133
+	}
+}
+
+k_north_carolina = {
+	1800.1.1 = {
+		change_development_level = 7
+	}
+	1811.12.11 = {
+		holder = 6400111
+		liege = e_united_states
+		government = republic_government
+	}
+	1814.11.29 = {
+		holder = 6400115
+	}
+	1835.12.10 = {
+		holder = 6400116
+	}
+}
+
+k_south_carolina = {
+	1800.1.1 = {
+		change_development_level = 7
+	}
+	1810.12.8 = {
+		holder = 6400112
+		liege = e_united_states
+		government = republic_government
+	}
+	1814.12.10 = {
+		holder = 6400134
+	}
+	1834.12.9 = {
+		holder = 6400135
+	}
+}
+
+k_georgia_state = {
+	1800.1.1 = {
+		change_development_level = 7
+	}
+	1809.11.10 = {
+		holder = 6400113
+		liege = e_united_states
+		government = republic_government
+	}
+	1813.11.5 = {
+		holder = 6400136
+	}
+	1815.11.20 = {
+		holder = 6400113
+	}
+	1835.11.4 = {
+		holder = 6400137
+	}
+}
+
+k_vermont = {
+	1800.1.1 = {
+		change_development_level = 8
+	}
+	1809.10.14 = {
+		holder = 6400114
+		liege = e_united_states
+		government = republic_government
+	}
+	1813.10.23 = {
+		holder = 6400117
+	}
+	1815.10.14 = {
+		holder = 6400114
+	}
+	1835.11.2 = {
+		holder = 6400118
+	}
+}
+
+d_east_florida = {
+	1800.1.1 = {
+		change_development_level = 4
+	}
+	1783.9.3 = { de_jure_liege = k_spain }
+	1812.6.11 = {
+		holder = 9121700
+		liege = k_spain
+	}
+	1815.6.3 = {
+		holder = 9121701
+	}
+	1821.7.10 = {
+		holder = 0
+	}
+}
+d_west_florida = {
+	1800.1.1 = {
+		change_development_level = 4
+	}
+	1783.9.3 = { de_jure_liege = k_spain }
+	1812.7.1 = {
+		holder = 9121702
+		liege = k_spain
+	}
+	1815.2.1 = {
+		holder = 9121703
+	}
+	1821.7.10 = {
+		holder = 0
+	}
+}
+d_florida = {
+	1834.4.24 = {
+		holder = 6400138
+		liege = e_united_states
+		government = republic_government
+	}
+}
+
+k_alabama = {
+	1800.1.1 = {
+		change_development_level = 7
+	}
+	1835.11.21 = {
+		holder = 6400139
+		liege = e_united_states
+		government = republic_government
+	}
+}
+d_alabama = {
+	1817.3.6 = {
+		#holder = 0
+	}
+}
+
+k_mississippi = {
+	1800.1.1 = {
+		change_development_level = 7
+	}
+	1817.12.10 = {
+		holder = 6400140
+		liege = e_united_states
+		government = republic_government
+	}
+	1836.1.1 = {	# de jure 1.7
+		holder = 6400141
+	}
+}
+d_mississippi = {
+	1809.3.7 = {
+		holder = 6400140
+		liege = e_united_states
+		government = republic_government
+	}
+	1817.12.10 = {
+		holder = 0
+	}
+}
+
+k_tennessee = {
+	1800.1.1 = {
+		change_development_level = 6
+	}
+	1809.9.20 = {
+		holder = 6400142
+		liege = e_united_states
+		government = republic_government
+	}
+	1835.10.12 = {
+		holder = 6400143
+	}
+}
+
+k_kentucky = {
+	1800.1.1 = {
+		change_development_level = 7
+	}
+	1812.7.5 = {	# de jure 8.24
+		holder = 6400144
+		liege = e_united_states
+		government = republic_government
+	}
+	1834.2.21 = {
+		holder = 6400145
+	}
+}
+
+k_ohio = {
+	1800.1.1 = {
+		change_development_level = 6
+	}
+	1810.12.8 = {
+		holder = 6400146
+		liege = e_united_states
+		government = republic_government
+	}
+	1814.12.8 = {
+		holder = 6400147
+	}
+	1832.12.7 = {
+		holder = 6400148
+	}
+}
+c_sandusky = {
+	1800.1.1 = { change_development_level = 34 }
+}
+c_cleveland = {
+	1800.1.1 = { change_development_level = 34 }
+}
+c_chillicothe = {
+	1800.1.1 = { change_development_level = 32 }
+}
+c_columbus = {
+	1800.1.1 = { change_development_level = 32 }
+}
+c_williams = {
+	1800.1.1 = { change_development_level = 17 }
+}
+
+k_louisiana = {
+	1800.1.1 = {
+		change_development_level = 7
+	}
+	#1803.12.20 - territory
+	1812.4.30 = {	# de jure 7.30
+		holder = 6400149
+		liege = e_united_states
+		government = republic_government
+	}
+	1835.2.2 = {
+		holder = 6400150
+	}
+}
+c_new_orleans = {
+	1800.1.1 = { change_development_level = 14 }
+}
+
+k_michigan = {
+	1800.1.1 = {
+		change_development_level = 6
+	}
+	1837.1.26 = {
+		holder = 6400153
+		liege = e_united_states
+		government = republic_government
+	}
+}
+d_michigan = {
+	1805.3.1 = {
+		holder = 6400151
+		liege = e_united_states
+		government = republic_government
+	}
+	1813.10.29 = {
+		holder = 6400152
+	}
+	1835.11.3 = {
+		holder = 6400153
+	}
+	1837.1.26 = {
+		holder = 0
+	}
+}
+
+k_indiana = {
+	1800.1.1 = {
+		change_development_level = 5
+	}
+	1831.12.7 = {
+		holder = 6400155
+		liege = e_united_states
+		government = republic_government
+	}
+}
+d_indiana = {
+	1801.1.10 = {
+		holder = 6400008
+		liege = e_united_states
+		government = republic_government
+	}
+	1813.3.3 = {
+		holder = 6400154
+	}
+	1816.12.11 = {
+		holder = 0
+	}
+}
+
+k_illinois = {
+	1800.1.1 = {
+		change_development_level = 7
+	}
+	1826.12.6 = {
+		holder = 6400156
+		liege = e_united_states
+		government = republic_government
+	}
+	1834.12.3 = {
+		holder = 6400157
+	}
+}
+d_illinois = {
+	1809.3.1 = {
+		holder = 6400156
+		liege = e_united_states
+		government = republic_government
+	}
+	1818.12.3 = {
+		holder = 0
+	}
+}
+c_sangamon = {
+	1800.1.1 = { change_development_level = 15 }
+}
+
+k_wisconsin = {
+	1800.1.1 = {
+		change_development_level = 7
+	}
+}
+d_wisconsin = {
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1813.10.5 = {
+		holder = 0
+	}
+}
+
+k_missouri = {
+	1800.1.1 = {
+		change_development_level = 4
+	}
+	1832.11.19 = {
+		holder = 6400161
+		liege = e_united_states
+		government = republic_government
+	}
+}
+d_missouri = {
+	1810.4.17 = {
+		holder = 6400159
+		liege = e_united_states
+		government = republic_government
+	}
+	1813.7.1 = {
+		holder = 6400160
+	}
+	1821.8.10 = {
+		holder = 0
+	}
+}
+c_leibemilthena = {
+	1800.1.1 = { change_development_level = 20 }
+}
+c_mesemmegai = {
+	1800.1.1 = { change_development_level = 14 }
+}
+
+k_arkansas = {
+	1800.1.1 = {
+		change_development_level = 5
+	}
+}
+d_arkansas = {
+	1835.3.9 = {
+		holder = 6400162
+		liege = e_united_states
+		government = republic_government
+	}
+	1836.6.15 = {
+		holder = 0
+	}
+}
+
+k_iowa = {
+	1800.1.1 = {
+		change_development_level = 7
+	}
+}

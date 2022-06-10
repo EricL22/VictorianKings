@@ -7,7 +7,7 @@
 	can_create = {
 		trigger_if = {
 			limit = { is_ai = yes }
-			culture_group = culture_group:korean_group
+			culture = { has_cultural_pillar = heritage_korean }
 		}
 		any_held_title = {
 			tier = tier_kingdom
@@ -22,7 +22,7 @@
 		capital = c_hanseong
 
 		cultural_names = {
-			japanese = cn_chosen
+			name_list_japanese = cn_chosen
 		}
 		
 		d_pyongan = {
@@ -32,11 +32,11 @@
 			capital = c_pyeongyang
 			
 			cultural_names = {
-				han = cn_andong
-				qiang = cn_andong
-				mongol = cn_dongning
-				khitan = cn_dongning
-				jurchen = cn_dongning
+				name_list_han = cn_andong
+				name_list_qiang = cn_andong
+				name_list_mongol = cn_dongning
+				name_list_khitan = cn_dongning
+				name_list_jurchen = cn_dongning
 			}
 			
 			c_pyeongyang = {

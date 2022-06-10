@@ -1,0 +1,183 @@
+c_lapicarylia = {
+	1808.1.1 = {
+		holder = nativeamerican24
+	}
+}
+c_marathaenessa = {
+	1808.1.1 = {
+		holder = nativeamerican24
+	}
+}
+c_crotempothos = {
+	1808.1.1 = {
+		holder = nativeamerican24
+	}
+}
+c_magnclatherna = {
+	1808.1.1 = {
+		holder = nativeamerican24
+	}
+}
+c_orickamatherna = {
+	1808.1.1 = {
+		holder = nativeamerican24
+	}
+}
+
+c_millhieraea = {
+	1808.1.1 = {
+		holder = nativeamerican25
+	}
+}
+c_hieramonastionia = {
+	1808.1.1 = {
+		holder = nativeamerican25
+	}
+}
+c_lamkasmissa = {
+	1808.1.1 = {
+		holder = nativeamerican25
+	}
+}
+c_clazgealous = {
+	1808.1.1 = {
+		holder = nativeamerican25
+	}
+}
+c_clelapithmea = {
+	1808.1.1 = {
+		holder = nativeamerican25
+	}
+}
+c_antipakraea = {
+	1808.1.1 = {
+		holder = nativeamerican25
+	}
+}
+c_gorgodeslis = {
+	1808.1.1 = {
+		holder = nativeamerican25
+	}
+}
+c_malelauf = {
+	1808.1.1 = {
+		holder = nativeamerican25
+	}
+}
+c_lebemagneai = {
+	1808.1.1 = {
+		holder = nativeamerican25
+	}
+}
+
+c_leoedate = {
+	1808.1.1 = {
+		holder = nativeamerican26
+	}
+}
+c_marmaagrinlis = {
+	1808.1.1 = {
+		holder = nativeamerican26
+	}
+	1819.1.30 = {
+		de_jure_liege = d_northwest
+	}
+}
+c_aythiston = {
+	1808.1.1 = {
+		holder = nativeamerican26
+	}
+	1819.1.30 = {
+		de_jure_liege = d_northwest
+	}
+}
+c_lenirder = {
+	1808.1.1 = {
+		holder = nativeamerican26
+	}
+}
+c_koiolthrae = {
+	1808.1.1 = {
+		holder = nativeamerican26
+	}
+}
+c_lekhephmenus = {
+	1808.1.1 = {
+		holder = nativeamerican26
+	}
+	1819.1.30 = {
+		de_jure_liege = d_saskatchewan
+	}
+}
+c_amiaytae = {
+	1808.1.1 = {
+		holder = nativeamerican26
+	}
+}
+c_leiborithos = {
+	1808.1.1 = {
+		holder = nativeamerican26
+	}
+	1819.1.30 = {
+		de_jure_liege = d_saskatchewan
+	}
+}
+c_clazoargai = {
+	1808.1.1 = {
+		holder = nativeamerican26
+	}
+}
+
+c_ialodnes = {
+	1808.1.1 = {
+		holder = nativeamerican23
+	}
+}
+
+c_akrgournlis = {
+	1808.1.1 = {
+		holder = nativeamerican27
+	}
+	1819.1.30 = {
+		de_jure_liege = d_saskatchewan
+	}
+}
+c_metcyronia = {
+	1808.1.1 = {
+		holder = nativeamerican27
+	}
+	1819.1.30 = {
+		de_jure_liege = d_saskatchewan
+	}
+}
+c_kerkdeceessa = {
+	1808.1.1 = {
+		holder = nativeamerican27
+	}
+}
+c_oropmaum = {
+	1808.1.1 = {
+		holder = nativeamerican27
+	}
+}
+c_aphikameonia = {
+	1808.1.1 = {
+		holder = nativeamerican27
+	}
+}
+c_megalebemea = {
+	1808.1.1 = {
+		holder = nativeamerican27
+	}
+}
+c_ialakrtrias = {
+	1808.1.1 = {
+		holder = nativeamerican27
+	}
+}
+
+c_golgmarmanae = {
+	1808.1.1 = {	# to make the borders prettier
+		holder = nativeamerican20
+	}
+}

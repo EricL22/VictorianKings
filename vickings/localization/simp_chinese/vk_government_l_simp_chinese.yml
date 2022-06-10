@@ -1,0 +1,66 @@
+﻿l_simp_chinese:
+ republic_election.1.t:0 "选举"
+ republic_election.1.desc:0 "当我走在街道上时，我感觉到空气中充满了期待。 由于今年是选举年，选举将决定未来几年王国的命运。 我发现自己在想，我应该再竞选一个学期吗？"
+ republic_election.1.a:0 "我会再次竞选这个职位。"
+ republic_election.1.b:0 "不，我对另一个术语不感兴趣。"
+
+ republic_election.2.t:0 "选举 - 选择候选人"
+ republic_election.2.desc:0 "由于我决定不参加下一学期的竞选，我的顾问向我提供了一份他们认为合适的候选人名单。 我应该提名谁接替我担任总统？"
+ republic_election.2.a:0 "[candidate_1.GetTitledFirstName]听起来是一个理想的选择。"
+ republic_election.2.b:0 "[candidate_2.GetFullName]可以。"
+
+ republic_election.3.t:0 "选举 - 反对候选人"
+ republic_election.3.desc:0 "反对派选择了他们自己的候选人[opposing_election_candidate.GetFullName]来与我的政党竞选。"
+ republic_election.3.a:0 "别担心，我们会打败他们的！"
+
+ republic_election.4.t:0 "选举 - 总统辩论"
+ republic_election.4.not_former.desc:0 "我的候选人[root_election_candidate.GetFullName]正在准备总统辩论，这将是选民决定选择下一任总统的决定性因素。"
+ republic_election.4.former.desc:0 "当我坐在辩论桌旁时，我感到头晕目眩。 这是将决定我是否能当选为下一任期的争论。 我的对手[opposing_election_candidate.GetFullName]在辩论桌坐下，我们开始讨论领域的问题。"
+ republic_election.4.a:0 "用外交手段打动选民。"
+ republic_election.4.b:0 "这将是一种耻辱，如果事情#EMP发生了#!……"
+ tooltip.republic_election_victory:0 "你设法说服人们相信你适合担任总统"
+ tooltip.republic_election_defeat:0 "你对手的论点更有说服力"
+ tooltip.republic_election_intrigue_victory:0 "你设法破坏对手的辩论努力"
+ tooltip.republic_election_intrigue_defeat:0 "你的对手躲过了你的代理人"
+
+ republic_election.5.t:0 "选举 - 结果"
+ republic_election.5.incumbent_victory.desc:0 "我赢得了选举，并将继续担任另一个任期。 现在我终于有更多的时间来完成工作了！"
+ republic_election.5.root_victory.desc:0 "我的候选人[root_election_candidate.GetFullName]赢得了选举，我相信[root_election_candidate.GetSheHe]将在未来几年里出色地领导国家。"
+ republic_election.5.root_defeat.desc:0 "尽管我们尽了最大的努力，我的政党还是无法证明他们有能力处理国家问题。 [victor.GetFullName]赢得了选举……这次……"
+ republic_election.5.a:0 "好的"
+
+ republic_election.6.desc:0 "[victor.GetFullName]在总统辩论中击败了反对派，证明他有能力领导这个国家。 选举投票标志着他的胜利，国家进入了一个新时代。"
+
+ republic_election.7.t:0 "Election - The Vice President"
+ republic_election.7.desc:0 "According to the constitution of our realm, we must elect a vice president to run alongside [root_election_candidate.GetFullName] and succeed the president should he become unable to fulfill his duties in office."
+ republic_election.7.a:0 "[candidate_1.GetFullName] sounds like an ideal choice."
+ republic_election.7.b:0 "[candidate_2.GetFullName] seems solid."
+ republic_election.7.c:0 "[candidate_3.GetFullName] will do."
+
+ republic_election.8.desc:0 "According to the constitution of our realm, we must elect a vice president to run alongside [opposing_election_candidate.GetFullName] and succeed the president should he become unable to fulfill his duties in office."
+
+ republic_election.10.t:0 "选举 - 提名"
+ republic_election.10.opponent_nomination.desc:0 "我已被提名竞选[root_election_candidate.GetFullName]以控制总统职位。"
+ republic_election.10.president_nomination.desc:0 "总统提名我接替他担任共和国总统。 我不会让他失望的！"
+
+ REPUBLIC_TERM_LIMITS:0 "任期长度:"
+ term_limit_4:0 "四年"
+ term_limit_5:0 "五年"
+ term_limit_6:0 "六年"
+ term_limit_7:0 "七年"
+ term_limit_off:0 "没有任何"
+ enact_term_limit:0 "设置两次选举之间的时间长度。 请注意，它们是全局触发的，不依赖于您何时更改此设置。"
+ hierarchy_city_succession_law:1 "Hierarchical Republican"
+ hierarchy_city_succession_law_effects:0 "#V $hierarchy_city_succession_law$ [succession] allows for a more structured method of realm inheritance, should the current ruler die.#!\n\n#weak Upon succession all of the ruler's [titles|e] will be given to a designated successor.#!"
+
+ MY_REALM_WINDOW_REFORM_TAB:0 "改革"
+ MY_REALM_WINDOW_POLITICAL_REFORM:0 "政治改革"
+ MY_REALM_WINDOW_ADMINISTRATIVE_REFORM:0 "行政改革"
+ administration_feudal:0 "封建"
+ administration_centralized:0 "集中"
+ enact_admin_feudal:0 "将行政事务委托给半自治的封臣"
+ enact_admin_centralized:0 "限制封臣宣战或加入其他战争，无论他们的[feudal_contract|E]如何"
+
+ vice_president_court_position:0 "Vice President"
+ vice_president_court_position_desc:1 "The $vice_president_court_position$ is elected together with the president and is the first in the republican line of succession, should the president die in office."
+ vice_president_employer_custom_effect_description:2 "Insures the security of the presidential office"

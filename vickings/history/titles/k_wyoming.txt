@@ -1,0 +1,37 @@
+c_lekborysuf = {
+	1808.1.1 = {
+		holder = nativeamerican18
+	}
+}
+
+c_knoaegllai = {
+	1808.1.1 = {
+		holder = nativeamerican23
+	}
+}
+c_kimcarycum = {
+	1808.1.1 = {
+		holder = nativeamerican23
+	}
+}
+
+c_aigleium = {
+	1808.1.1 = {
+		holder = nativeamerican24
+	}
+}
+c_dorygytlia = {
+	1808.1.1 = {
+		holder = nativeamerican24
+	}
+}
+c_manticleoene = {
+	1808.1.1 = {
+		holder = nativeamerican24
+	}
+}
+c_maggortine = {
+	1808.1.1 = {
+		holder = nativeamerican24
+	}
+}

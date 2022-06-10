@@ -1,0 +1,199 @@
+11478 = {
+	culture = american
+	religion = protestant
+}
+
+11479 = {
+	culture = american
+	religion = protestant
+}
+
+11480 = {
+	culture = american
+	religion = protestant
+}
+
+11481 = {
+	culture = american
+	religion = protestant
+}
+
+11482 = {
+	culture = american
+	religion = protestant
+}
+
+11483 = {
+	culture = american
+	religion = protestant
+}
+
+11484 = {
+	culture = american
+	religion = protestant
+}
+
+11485 = {
+	culture = american
+	religion = protestant
+}
+
+11486 = {
+	culture = american
+	religion = protestant
+}
+
+11487 = {
+	culture = american
+	religion = protestant
+}
+
+11488 = {
+	culture = american
+	religion = protestant
+}
+
+11489 = {
+	culture = american
+	religion = protestant
+}
+
+11490 = {
+	culture = american
+	religion = protestant
+}
+
+11491 = {
+	culture = american
+	religion = protestant
+}
+
+11492 = {
+	culture = american
+	religion = protestant
+}
+
+11493 = {
+	culture = american
+	religion = protestant
+}
+
+11494 = {
+	culture = american
+	religion = protestant
+}
+
+11495 = {
+	culture = american
+	religion = protestant
+}
+
+11496 = {
+	culture = american
+	religion = protestant
+}
+
+11497 = {
+	culture = american
+	religion = protestant
+}
+
+11625 = {
+	culture = american
+	religion = protestant
+}
+
+11626 = {
+	culture = american
+	religion = protestant
+}
+
+11627 = {
+	culture = american
+	religion = protestant
+}
+
+11628 = {
+	culture = american
+	religion = protestant
+}
+
+11629 = {
+	culture = american
+	religion = protestant
+}
+
+11630 = {
+	culture = american
+	religion = protestant
+}
+
+11631 = {
+	culture = american
+	religion = protestant
+}
+
+11632 = {
+	culture = american
+	religion = protestant
+}
+
+11633 = {
+	culture = american
+	religion = protestant
+}
+
+11634 = {
+	culture = american
+	religion = protestant
+}
+
+11635 = {
+	culture = american
+	religion = protestant
+}
+
+11636 = {
+	culture = american
+	religion = protestant
+}
+
+11637 = {
+	culture = american
+	religion = protestant
+}
+
+11638 = {
+        culture = native_american_minor
+        religion = pagan
+
+	1836.1.1 = {
+		culture = american
+		religion = protestant
+	}
+}
+
+11639 = {
+	culture = american
+	religion = protestant
+}
+
+11640 = {
+        culture = native_american_minor
+        religion = pagan
+
+	1836.1.1 = {
+		culture = american
+		religion = protestant
+	}
+}
+
+11641 = {
+        culture = native_american_minor
+        religion = pagan
+
+	1836.1.1 = {
+		culture = american
+		religion = protestant
+	}
+}

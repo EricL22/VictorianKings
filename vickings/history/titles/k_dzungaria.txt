@@ -625,7 +625,7 @@ c_chamil = {
 	#Guiyi Circuit recaptures Yizhou from Tibetans
 	850.1.1 = {
 		holder = sogdian0001
-		liege = d_guiyi #k_guiyi
+		#liege = d_guiyi #k_guiyi
 	}
 	#Kingdom of Qocho captures Yizhou - renamed to Kumul
 	876.1.1 = {	#Kumul vassals - fictional placeholders

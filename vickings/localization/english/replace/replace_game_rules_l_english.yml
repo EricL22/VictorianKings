@@ -1,0 +1,5 @@
+﻿l_english:
+ setting_limited_exclave_independence:1 "#high Limited#!"
+ setting_limited_exclave_independence_desc:0 "Exclaves of Independent Rulers at peace will be removed on succession unless connected to the Capital area by one County, via a naval path or part of the De Jure empire."
+ setting_ai_limited_exclave_independence:0 "#high Limited (AI Only)#!"
+ setting_ai_limited_exclave_independence_desc:0 "Exclaves of Independent AI Rulers at peace will be removed on succession unless connected to the Capital area by one County, via a naval path or part of the De Jure empire."

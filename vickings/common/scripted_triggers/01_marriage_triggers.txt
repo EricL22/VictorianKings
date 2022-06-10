@@ -1,0 +1,55 @@
+﻿make_concubine_is_shown_trigger = {
+	scope:actor = {
+		allowed_concubines = yes
+		is_adult = yes
+		NOT = { has_government = republic_government }
+	}
+	scope:recipient = {
+		OR = {
+			is_courtier_of = scope:actor
+			is_imprisoned_by = scope:actor
+		}
+		can_become_concubine_of_character_valid_trigger = { CHARACTER = scope:actor }
+	}
+}
+
+make_concubine_is_valid_trigger = {
+	custom_description = {
+		text = take_concubine_allowed_more
+		object = scope:recipient
+		scope:actor = {
+			allowed_more_concubines = yes
+		}
+	}
+	scope:recipient = {
+		custom_tooltip = {
+			text = take_concubine_ex_spouse
+			NOT = {
+				has_opinion_modifier = {
+					modifier = divorced_me_opinion
+					target = scope:actor
+				}
+			}
+		}
+		is_diplomatically_available = yes
+		OR = {
+			AND = {
+				is_imprisoned_by = scope:actor
+				is_married = yes
+			}
+			is_married = no
+		}
+	}
+	trigger_if = {
+		limit = { scope:actor = { faith = { has_doctrine = doctrine_chinese_concubines } } }
+		custom_description = {
+			text = take_concubine_allowed_more	#take_concubine_taoism
+			scope:actor = {
+				OR = {
+					has_title = title:e_china
+					number_of_concubines < 3
+				}
+			}
+		}
+	}
+}

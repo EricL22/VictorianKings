@@ -1,0 +1,42 @@
+﻿icelandic = {
+		
+	color = { 43 60 117 }
+
+#	character_modifier = {
+#		ai_war_chance = 1
+#		ai_war_cooldown = -0.5
+#	}
+	created = 1100.1.1
+	parents = { norse }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_north_germanic
+	language = language_norse
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_storytellers
+		tradition_runestones
+		tradition_things
+		tradition_maritime_mercantilism
+	}
+	# FP1 Traditions
+	dlc_tradition = {
+		trait = tradition_fp1_coastal_warriors
+		requires_dlc_flag = the_northern_lords
+		fallback = tradition_hird
+	}
+
+	name_list = name_list_icelandic
+	
+	coa_gfx = { western_coa_gfx }
+	building_gfx = { norse_building_gfx }
+	clothing_gfx = { fp1_norse_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { norse_unit_gfx northern_unit_gfx }
+
+	ethnicities = {
+		70 = caucasian_northern_blond
+		15 = caucasian_northern_ginger
+		10 = caucasian_northern_brown_hair
+		5 = caucasian_northern_dark_hair
+	}
+}

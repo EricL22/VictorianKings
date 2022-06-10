@@ -1,0 +1,97 @@
+﻿name_list_inuit = {
+		
+		cadet_dynasty_names = {
+			Alakannuark
+			Arreak
+			Ashoona
+			Enuaraq
+			Evaloarjuk
+			Ipeelee
+			Irgittuq
+			Keenainak
+			Kunuk
+			Kusugak
+			Maksagak
+			Nutarak
+			Paniloo
+			Piugattuk
+			Pudluk
+			Tiktaalaaq
+			Ungallaq
+		}
+
+		dynasty_names = {
+			Alakannuark
+			Arreak
+			Ashoona
+			Enuaraq
+			Evaloarjuk
+			Ipeelee
+			Irgittuq
+			Keenainak
+			Kunuk
+			Kusugak
+			Maksagak
+			Nutarak
+			Paniloo
+			Piugattuk
+			Pudluk
+			Tiktaalaaq
+			Ungallaq
+		}
+
+		male_names = {
+			Peter Ipeelee Jose Steve David Jack Goo Germaine James Pitseolak Kenojuak Ernie Caubvick
+			#######UgroPermian
+			Andyamo Arnaz Arti Artis Arvo Aymort Azeg Biur Biyar Burmort Chichayka Chuga Dergun Deryab Dobrinya Dokya Dondy Gazheg Hulyen Inzhay Irter Lyneg Lysko Kezhapa Kezhay Kezhedey
+			Kezhevat Kichay Koksha Kuaz Kudym-Osh Kya Kyldysin Malyaka Malyy Meltsayka Mosheg Nalka Nuyaksha Nuyanza Nuyat Nydog Nylog Odeg Onika Osh Oshmar Oshypel Ovtay Ozheg Ozhmeg
+			Pakstyan Paksyay Paksyut Parush Pivtsay Pokshayka Putyayka Pyera Rateg Rayda Sarin Sektev Setyamka Shindyay Shypicha Shyrpuzh Spira Syrka Tikshayka Tuhan Tyueykezhut
+			Tyutyuk Tugan Turush Uchva Varaka Vechkas Velmayka Virdyan Viryas Viryay Vokan Yirkap Ylvan Zarny Zhebeg Zhuneg Zyryan
+			Alik Hasaba Kako Kharuchi Kolik Mandak Nabtiko Nenyts Nga NgE_noh Noumea Num Nyalku Panay Pudak Salinder Samatu Sarak Sirtya Somatu Syudbya Tatva Tolik Vesei Wayngachi XE_ryuchi Yadne Yapti Yar Yavlad Yurak
+		}
+		female_names = {
+			########ugropermian
+			Anava Ashava Asrava Avya Azra-Va Chechama Chenksa Cherava Chichayka Chindyapa Chindyayka Chinzhay Chitska Elyuva Inyava Kanyava Kanyuva
+			Kirdyava Kunava Kunyavka Litava Liyava Mazava Megurka Mel_shay Nezayka Nulzyava Nyal_ka Nyayka Nyumina Nyv Olota Ordava Oshama O_shkamO_shka Parava Pekshayka
+			Pemka Pokshava Poshayka Potekay Potyava Putyayka Ravzhava Rayda Ruzava Sanal_ka Sangasa Sernyava Serzhay Setyamka Seyamka Shochynava Shonzhava
+			Shukshtoroyka Sinyava Siyamka Slyugan_ka Sochava Styaka Syryava Tatka Tekay Tetyava Tikshayka Toyaksha Tundava Tundya Unzhutka Upurga
+			Utyayka Valdava Vergava Vezhav Vidyava Virtyava Yalgava YugO_rka
+			AtpA_lha Auli Galya Ilme Kat Khatyako KontA_w Kujku Laptsui Ngeva Senda Syeju Tada Tadane Yar
+		}
+	}
+name_list_native_american_minor = {
+		
+		cadet_dynasty_names = {
+			Piche
+			Ross
+			Alvarez
+			Smith
+			Crane
+			Mayes
+			Thompson
+			Delgado
+			Dagardo
+			Lafayet
+		}
+
+		dynasty_names = {
+			Piche
+			Ross
+			Alvarez
+			Smith
+			Crane
+			Mayes
+			Thompson
+			Delgado
+			Dagardo
+			Lafayet
+		}
+
+		male_names = {
+			John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
+		}
+		female_names = {
+			########ugropermian
+			Anava Ashava Asrava Avya Azra-Va Chechama Chenksa Cherava Chichayka Chindyapa Chindyayka Chinzhay Chitska Elyuva Inyava Kanyava Kanyuva
+		}
+	}

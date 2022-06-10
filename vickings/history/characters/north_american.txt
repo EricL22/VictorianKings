@@ -1,0 +1,295 @@
+﻿6400500 = {
+	name = "John"
+	dynasty = duckworth
+	culture = english
+	religion = protestant
+	1748.2.9 = {
+		birth = yes
+	}
+	1810.3.26 = {
+		effect = {
+			add_realm_law_skip_effects = city_succession_law
+		}
+	}
+	1817.8.31 = {
+		death = yes
+	}
+}
+
+6400501 = {
+	name = "Richard"
+	dynasty = keats
+	culture = english
+	religion = protestant
+	1757.1.16 = {
+		birth = yes
+	}
+	1813.3.9 = {
+		effect = {
+			add_realm_law_skip_effects = city_succession_law
+		}
+	}
+	1834.4.5 = {
+		death = yes
+	}
+}
+
+6400502 = {
+	name = "Henry"
+	dynasty = prescott
+	culture = english
+	religion = protestant
+	1783.5.4 = {
+		birth = yes
+	}
+	1834.9.24 = {
+		effect = {
+			add_realm_law_skip_effects = city_succession_law
+		}
+	}
+	1874.11.18 = {
+		death = yes
+	}
+}
+
+6400503 = {
+	name = "Joseph"
+	dynasty = desbarres
+	culture = english
+	religion = protestant
+	1721.11.22 = {
+		birth = yes
+	}
+	1804.5.10 = {
+		effect = {
+			add_realm_law_skip_effects = city_succession_law
+		}
+	}
+	1824.10.24 = {
+		death = yes
+	}
+}
+
+6400504 = {
+	name = "Charles"
+	dynasty = smith
+	culture = english
+	religion = protestant
+	1761.1.1 = {
+		birth = yes
+	}
+	1813.7.24 = {
+		effect = {
+			add_realm_law_skip_effects = city_succession_law
+		}
+	}
+	1855.2.19 = {
+		death = yes
+	}
+}
+
+6400505 = {
+	name = "George"
+	dynasty = wright
+	culture = english
+	religion = protestant
+	1779.12.29 = {
+		birth = yes
+	}
+	1835.12.1 = {
+		effect = {
+			add_realm_law_skip_effects = city_succession_law
+		}
+	}
+	1842.3.13 = {
+		death = yes
+	}
+}
+
+6400506 = {
+	name = "John"
+	dynasty = sherbrooke
+	culture = english
+	religion = protestant
+	1764.4.29 = {
+		birth = yes
+	}
+	1811.8.19 = {
+		effect = {
+			add_realm_law_skip_effects = city_succession_law
+		}
+	}
+	1830.2.14 = {
+		death = yes
+	}
+}
+
+6400507 = {
+	name = "Colin"
+	dynasty = campbell
+	culture = english
+	religion = protestant
+	1776.4.18 = {
+		birth = yes
+	}
+	1834.1.1 = {
+		effect = {
+			add_realm_law_skip_effects = city_succession_law
+		}
+	}
+	1847.6.13 = {
+		death = yes
+	}
+}
+
+6400508 = {
+	name = "Thomas"
+	dynasty = carleton
+	culture = english
+	religion = protestant
+	1735.1.1 = {
+		birth = yes
+	}
+	1786.5.20 = {
+		effect = {
+			add_realm_law_skip_effects = city_succession_law
+		}
+	}
+	1817.2.2 = {
+		death = yes
+	}
+}
+
+6400509 = {
+	name = "Archibald"
+	dynasty = campbell2
+	culture = scottish
+	religion = protestant
+	1769.3.12 = {
+		birth = yes
+	}
+	1831.9.9 = {
+		effect = {
+			add_realm_law_skip_effects = city_succession_law
+		}
+	}
+	1843.10.6 = {
+		death = yes
+	}
+}
+
+6400510 = {
+	name = "Francis"
+	dynasty = burton
+	culture = english
+	religion = protestant
+	1766.12.26 = {
+		birth = yes
+	}
+	1808.11.29 = {
+		effect = {
+			add_realm_law_skip_effects = city_succession_law
+		}
+	}
+	1832.1.27 = {
+		death = yes
+	}
+}
+
+6400511 = {
+	name = "Archibald"
+	dynasty = acheson
+	culture = english
+	religion = protestant
+	1776.8.1 = {
+		birth = yes
+	}
+	1835.1.1 = {
+		effect = {
+			add_realm_law_skip_effects = city_succession_law
+		}
+	}
+	1849.3.27 = {
+		death = yes
+	}
+}
+
+6400512 = {
+	name = "Francis"
+	dynasty = gore
+	culture = english
+	religion = protestant
+	1769.1.1 = {
+		birth = yes
+	}
+	1806.1.1 = {
+		effect = {
+			add_realm_law_skip_effects = city_succession_law
+		}
+	}
+	1852.11.3 = {
+		death = yes
+	}
+}
+
+6400513 = {
+	name = "Francis"
+	dynasty = head
+	culture = english
+	religion = protestant
+	1793.1.1 = {
+		birth = yes
+	}
+	1836.1.1 = {
+		effect = {
+			add_realm_law_skip_effects = city_succession_law
+		}
+	}
+	1875.7.20 = {
+		death = yes
+	}
+}
+
+6400514 = {
+	name = "Joseph"
+	dynasty = berens
+	culture = english
+	religion = protestant
+	1774.1.1 = {
+		birth = yes
+	}
+	1812.5.5 = {
+		effect = {
+			vassal_contract_set_obligation_level = {
+				type = special_contract
+				level = 4	#trade_company
+			}
+			add_realm_law_skip_effects = city_succession_law
+		}
+	}
+	1853.1.11 = {
+		death = yes
+	}
+}
+
+6400515 = {
+	name = "John"
+	dynasty = pelly
+	culture = english
+	religion = protestant
+	1777.3.31 = {
+		birth = yes
+	}
+	1822.1.1 = {
+		effect = {
+			vassal_contract_set_obligation_level = {
+				type = special_contract
+				level = 4	#trade_company
+			}
+			add_realm_law_skip_effects = city_succession_law
+		}
+	}
+	1852.8.13 = {
+		death = yes
+	}
+}

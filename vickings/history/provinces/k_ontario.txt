@@ -1,0 +1,204 @@
+11723 = {
+	culture = english
+	religion = protestant
+}
+
+11724 = {
+	culture = english
+	religion = protestant
+}
+
+11725 = {
+	culture = english
+	religion = protestant
+}
+
+11726 = {
+	culture = english
+	religion = protestant
+}
+
+11727 = {
+	culture = english
+	religion = protestant
+}
+
+11728 = {
+	culture = english
+	religion = protestant
+}
+
+11729 = {
+	culture = english
+	religion = protestant
+}
+
+11730 = {
+	culture = english
+	religion = protestant
+}
+
+11731 = {
+	culture = english
+	religion = protestant
+}
+
+11732 = {
+	culture = english
+	religion = protestant
+}
+
+11733 = {
+	culture = english
+	religion = protestant
+}
+
+11734 = {
+	culture = english
+	religion = protestant
+}
+
+11735 = {
+	culture = english
+	religion = protestant
+}
+
+11736 = {
+	culture = english
+	religion = protestant
+}
+
+11737 = {
+	culture = english
+	religion = protestant
+}
+
+11738 = {
+	culture = english
+	religion = protestant
+}
+
+11739 = {
+	culture = english
+	religion = protestant
+}
+
+11740 = {
+	culture = english
+	religion = protestant
+}
+
+11741 = {
+	culture = english
+	religion = protestant
+}
+
+11742 = {
+	culture = english
+	religion = protestant
+}
+
+11743 = {
+	culture = english
+	religion = protestant
+}
+
+11744 = {
+	culture = english
+	religion = protestant
+}
+
+11745 = {
+	culture = english
+	religion = protestant
+}
+
+11746 = {
+	culture = english
+	religion = protestant
+}
+
+11747 = {
+	culture = english
+	religion = protestant
+}
+
+11748 = {
+	culture = english
+	religion = protestant
+}
+
+11749 = {
+	culture = english
+	religion = protestant
+}
+
+11750 = {
+	culture = english
+	religion = protestant
+}
+
+11751 = {
+	culture = english
+	religion = protestant
+}
+
+11752 = {
+	culture = english
+	religion = protestant
+}
+
+11753 = {
+	culture = english
+	religion = protestant
+}
+
+11754 = {
+	culture = english
+	religion = protestant
+}
+
+11755 = {
+	culture = english
+	religion = protestant
+}
+
+11756 = {
+	culture = english
+	religion = protestant
+}
+
+11757 = {
+	culture = english
+	religion = protestant
+}
+
+11758 = {
+	culture = english
+	religion = protestant
+}
+
+11759 = {
+	culture = english
+	religion = protestant
+}
+
+11760 = {
+	culture = english
+	religion = protestant
+}
+
+11761 = {
+	culture = english
+	religion = protestant
+}
+
+11762 = {
+	culture = english
+	religion = protestant
+}
+
+12621 = {
+        culture = native_american_minor
+        religion = pagan
+}

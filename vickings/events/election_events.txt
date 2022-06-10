@@ -14,11 +14,19 @@ republic_election.1 = {
 	trigger = {
 		has_government = republic_government
 	}
+
+	immediate = {
+		save_scope_as = root_contested_government
+	}
 	
 	option = {
 		name = republic_election.1.a
 		save_scope_as = root_election_candidate
-		trigger_event = { id = republic_election.3 days = { 7 14 } }
+		if = {
+			limit = { uses_vice_president_trigger = yes }
+			trigger_event = { id = republic_election.7 days = 1 }
+		}
+		else = { trigger_event = { id = republic_election.3 days = { 7 14 } } }
 		ai_chance = {
 			base = 1
 			ai_value_modifier = {
@@ -46,6 +54,10 @@ republic_election.2 = {
 		character = scope:candidate_2
 		animation = idle
 	}
+	lower_center_portrait = {
+		character = scope:candidate_3
+		animation = idle
+	}
 	
 	trigger = {
 		has_government = republic_government
@@ -54,17 +66,50 @@ republic_election.2 = {
 	immediate = {
 		random_vassal = {
 			limit = {
+				is_imprisoned = no
 				has_same_political_party_as_root_trigger = yes
-				reverse_opinion = {
-					target = root
-					value >= 0
+				trigger_if = {
+					limit = { root = { is_ai = yes } }
+					reverse_opinion = {
+						target = root
+						value >= -20
+					}
 				}
 				trigger_if = {
 					limit = { current_date < 2012.1.1 }
 					is_female = no
 				}
+				is_adult = yes
+				knows_language_of_culture = root.capital_province.culture
 			}
 			save_scope_as = candidate_1
+		}
+		random_courtier = {
+			limit = {
+				has_same_political_party_as_root_trigger = yes
+				trigger_if = {
+					limit = { root = { is_ai = yes } }
+					reverse_opinion = {
+						target = root
+						value >= -20
+					}
+				}
+				trigger_if = {
+					limit = { current_date < 2012.1.1 }
+					is_female = no
+				}
+				is_adult = yes
+				knows_language_of_culture = root.capital_province.culture
+			}
+			save_scope_as = candidate_3
+		}
+		random_culture_global = {
+			limit = { save_temporary_scope_as = cultcheck root = { any_realm_province = { culture = scope:cultcheck } } }
+			save_scope_as = elect_culture
+		}
+		if = {
+			limit = { NOT = { exists = scope:elect_culture } }
+			random_realm_province = { culture = { save_scope_as = elect_culture } }
 		}
 		if = {
 			limit = {
@@ -73,8 +118,23 @@ republic_election.2 = {
 			create_character = {
 				location = root.capital_province
 				template = pool_repopulate_diplomacy
-				culture = root.culture
+				random_culture = { root.culture = { } scope:elect_culture = { } }
 				faith = root.faith
+				gender_female_chance = {
+					if = {
+						limit = { current_date < 1980.1.1 }
+						add = 0
+					}
+					else = {
+						add = 50
+					}
+				}
+				after_creation = {
+					if = {
+						limit = { NOT = { knows_language_of_culture = root.capital_province.culture } }
+						learn_language_of_culture = root.capital_province.culture
+					}
+				}
 				save_scope_as = candidate_2
 			}
 		}
@@ -85,8 +145,23 @@ republic_election.2 = {
 			create_character = {
 				location = root.capital_province
 				template = pool_repopulate_stewardship
-				culture = root.culture
+				random_culture = { root.culture = { } scope:elect_culture = { } }
 				faith = root.faith
+				gender_female_chance = {
+					if = {
+						limit = { current_date < 1980.1.1 }
+						add = 0
+					}
+					else = {
+						add = 50
+					}
+				}
+				after_creation = {
+					if = {
+						limit = { NOT = { knows_language_of_culture = root.capital_province.culture } }
+						learn_language_of_culture = root.capital_province.culture
+					}
+				}
 				save_scope_as = candidate_2
 			}
 		}
@@ -97,8 +172,23 @@ republic_election.2 = {
 			create_character = {
 				location = root.capital_province
 				template = pool_repopulate_intrigue
-				culture = root.culture
+				random_culture = { root.culture = { } scope:elect_culture = { } }
 				faith = root.faith
+				gender_female_chance = {
+					if = {
+						limit = { current_date < 1980.1.1 }
+						add = 0
+					}
+					else = {
+						add = 50
+					}
+				}
+				after_creation = {
+					if = {
+						limit = { NOT = { knows_language_of_culture = root.capital_province.culture } }
+						learn_language_of_culture = root.capital_province.culture
+					}
+				}
 				save_scope_as = candidate_2
 			}
 		}
@@ -109,8 +199,23 @@ republic_election.2 = {
 			create_character = {
 				location = root.capital_province
 				template = pool_repopulate_martial
-				culture = root.culture
+				random_culture = { root.culture = { } scope:elect_culture = { } }
 				faith = root.faith
+				gender_female_chance = {
+					if = {
+						limit = { current_date < 1980.1.1 }
+						add = 0
+					}
+					else = {
+						add = 50
+					}
+				}
+				after_creation = {
+					if = {
+						limit = { NOT = { knows_language_of_culture = root.capital_province.culture } }
+						learn_language_of_culture = root.capital_province.culture
+					}
+				}
 				save_scope_as = candidate_2
 			}
 		}
@@ -118,8 +223,23 @@ republic_election.2 = {
 			create_character = {
 				location = root.capital_province
 				template = pool_repopulate_learning
-				culture = root.culture
+				random_culture = { root.culture = { } scope:elect_culture = { } }
 				faith = root.faith
+				gender_female_chance = {
+					if = {
+						limit = { current_date < 1980.1.1 }
+						add = 0
+					}
+					else = {
+						add = 50
+					}
+				}
+				after_creation = {
+					if = {
+						limit = { NOT = { knows_language_of_culture = root.capital_province.culture } }
+						learn_language_of_culture = root.capital_province.culture
+					}
+				}
 				save_scope_as = candidate_2
 			}
 		}
@@ -135,12 +255,50 @@ republic_election.2 = {
 				trigger_event = republic_election.10
 			}
 		}
-		trigger_event = { id = republic_election.3 days = { 7 14 } }
+		if = {
+			limit = { uses_vice_president_trigger = yes }
+			trigger_event = { id = republic_election.7 days = 1 }
+		}
+		else = { trigger_event = { id = republic_election.3 days = { 7 14 } } }
+		hidden_effect = {
+			scope:candidate_2 = {
+				death = {
+ 					death_reason = death_disappearance
+ 				}
+			}
+		}
+	}
+	option = {
+		trigger = { exists = scope:candidate_3 }
+		name = republic_election.2.c
+		scope:candidate_3 = {
+			save_scope_as = root_election_candidate
+			if = { limit = { NOT = { employer = root } } set_employer = root }
+		}
+		if = {
+			limit = { uses_vice_president_trigger = yes }
+			trigger_event = { id = republic_election.7 days = 1 }
+		}
+		else = { trigger_event = { id = republic_election.3 days = { 7 14 } } }
+		hidden_effect = {
+			scope:candidate_2 = {
+				death = {
+ 					death_reason = death_disappearance
+ 				}
+			}
+		}
 	}
 	option = {
 		name = republic_election.2.b
-		scope:candidate_2 = { save_scope_as = root_election_candidate }
-		trigger_event = { id = republic_election.3 days = { 7 14 } }
+		scope:candidate_2 = {
+			save_scope_as = root_election_candidate
+			if = { limit = { NOT = { employer = root } } set_employer = root }
+		}
+		if = {
+			limit = { uses_vice_president_trigger = yes }
+			trigger_event = { id = republic_election.7 days = 1 }
+		}
+		else = { trigger_event = { id = republic_election.3 days = { 7 14 } } }
 		ai_chance = {
 			base = 1
 			modifier = {
@@ -173,8 +331,9 @@ republic_election.3 = {
 	immediate = {
 		random_vassal = {
 			limit = {
+				is_imprisoned = no
 				NOT = { has_same_political_party_as_root_trigger = yes }
-				reverse_opinion = {
+				opinion = {
 					target = root
 					value <= -20
 				}
@@ -183,6 +342,8 @@ republic_election.3 = {
 					limit = { current_date < 2012.1.1 }
 					is_female = no
 				}
+				is_adult = yes
+				knows_language_of_culture = root.capital_province.culture
 			}
 			save_scope_as = opposing_election_candidate
 			if = {
@@ -194,14 +355,37 @@ republic_election.3 = {
 			limit = {
 				NOT = { exists = scope:opposing_election_candidate }
 			}
+			random_culture_global = {
+				limit = { save_temporary_scope_as = cultcheck root = { any_realm_province = { culture = scope:cultcheck } } }
+				save_scope_as = elect_culture
+			}
+			if = {
+				limit = { NOT = { exists = scope:elect_culture } }
+				random_realm_province = { culture = { save_scope_as = elect_culture } }
+			}
 			random_list = {
 				1 = {
 					trigger = { has_education_diplomacy_trigger = no }
 					create_character = {
 						location = root.capital_province
 						template = pool_repopulate_diplomacy
-						culture = root.culture
+						random_culture = { root.culture = { } scope:elect_culture = { } }
 						faith = root.faith
+						gender_female_chance = {
+							if = {
+								limit = { current_date < 1980.1.1 }
+								add = 0
+							}
+							else = {
+								add = 50
+							}
+						}
+						after_creation = {
+							if = {
+								limit = { NOT = { knows_language_of_culture = root.capital_province.culture } }
+								learn_language_of_culture = root.capital_province.culture
+							}
+						}
 						save_scope_as = opposing_election_candidate
 					}
 				}
@@ -210,8 +394,23 @@ republic_election.3 = {
 					create_character = {
 						location = root.capital_province
 						template = pool_repopulate_stewardship
-						culture = root.culture
+						random_culture = { root.culture = { } scope:elect_culture = { } }
 						faith = root.faith
+						gender_female_chance = {
+							if = {
+								limit = { current_date < 1980.1.1 }
+								add = 0
+							}
+							else = {
+								add = 50
+							}
+						}
+						after_creation = {
+							if = {
+								limit = { NOT = { knows_language_of_culture = root.capital_province.culture } }
+								learn_language_of_culture = root.capital_province.culture
+							}
+						}
 						save_scope_as = opposing_election_candidate
 					}
 				}
@@ -220,8 +419,23 @@ republic_election.3 = {
 					create_character = {
 						location = root.capital_province
 						template = pool_repopulate_intrigue
-						culture = root.culture
+						random_culture = { root.culture = { } scope:elect_culture = { } }
 						faith = root.faith
+						gender_female_chance = {
+							if = {
+								limit = { current_date < 1980.1 }
+								add = 0
+							}
+							else = {
+								add = 50
+							}
+						}
+						after_creation = {
+							if = {
+								limit = { NOT = { knows_language_of_culture = root.capital_province.culture } }
+								learn_language_of_culture = root.capital_province.culture
+							}
+						}
 						save_scope_as = opposing_election_candidate
 					}
 				}
@@ -230,8 +444,23 @@ republic_election.3 = {
 					create_character = {
 						location = root.capital_province
 						template = pool_repopulate_martial
-						culture = root.culture
+						random_culture = { root.culture = { } scope:elect_culture = { } }
 						faith = root.faith
+						gender_female_chance = {
+							if = {
+								limit = { current_date < 1980.1.1 }
+								add = 0
+							}
+							else = {
+								add = 50
+							}
+						}
+						after_creation = {
+							if = {
+								limit = { NOT = { knows_language_of_culture = root.capital_province.culture } }
+								learn_language_of_culture = root.capital_province.culture
+							}
+						}
 						save_scope_as = opposing_election_candidate
 					}
 				}
@@ -240,8 +469,23 @@ republic_election.3 = {
 					create_character = {
 						location = root.capital_province
 						template = pool_repopulate_learning
-						culture = root.culture
+						random_culture = { root.culture = { } scope:elect_culture = { } }
 						faith = root.faith
+						gender_female_chance = {
+							if = {
+								limit = { current_date < 1980.1.1 }
+								add = 0
+							}
+							else = {
+								add = 50
+							}
+						}
+						after_creation = {
+							if = {
+								limit = { NOT = { knows_language_of_culture = root.capital_province.culture } }
+								learn_language_of_culture = root.capital_province.culture
+							}
+						}
 						save_scope_as = opposing_election_candidate
 					}
 				}
@@ -293,12 +537,34 @@ republic_election.3 = {
 
 	option = {
 		name = republic_election.3.a
+		primary_title = { save_scope_as = root_contested_title }
 		if = {
-			limit = { scope:root_election_candidate = { is_landed = yes } }
-			scope:root_election_candidate = { trigger_event = { id = republic_election.4 days = { 14 21 } } }
+			limit = {
+				uses_vice_president_trigger = yes
+				scope:opposing_election_candidate = { is_landed = yes }
+			}
+			scope:opposing_election_candidate = { trigger_event = { id = republic_election.8 days = 1 } }
 		}
 		else = {
-			trigger_event = { id = republic_election.4 days = { 14 21 } }
+			if = {
+				limit = {
+					uses_vice_president_trigger = yes
+					scope:opposing_election_candidate = { is_landed = no }
+				}
+				generate_random_vice_candidate_effect = yes
+				scope:candidate_3 = { save_scope_as = opposing_vp_candidate }
+			}
+			if = {
+				limit = { scope:opposing_election_candidate = { is_landed = no } }
+				scope:opposing_election_candidate = { if = { limit = { NOT = { employer = root } } set_employer = root } }
+			}
+			if = {
+				limit = { scope:root_election_candidate = { is_landed = yes } }
+				scope:root_election_candidate = { trigger_event = { id = republic_election.4 days = { 14 21 } } }
+			}
+			else = {
+				trigger_event = { id = republic_election.4 days = { 14 21 } }
+			}
 		}
 	}
 }
@@ -340,17 +606,97 @@ republic_election.4 = {
 				}
 				desc = tooltip.republic_election_victory
 				scope:root_election_candidate = { save_scope_as = victor }
+				hidden_effect = {
+					if = {
+						limit = {
+							exists = scope:root_vp_candidate
+							scope:root_vp_candidate = {
+								is_alive = yes
+								is_councillor = yes
+							}
+						}
+						scope:root_vp_candidate = {
+							employer = { fire_councillor = prev }
+							remove_opinion = { target = employer modifier = fired_from_council_opinion }
+						}
+					}
+				}
 			}
 			10 = { #Fail.
 				compare_modifier = {
 					value = scope:duel_value
 					multiplier = -0.75
 				}
+				modifier = {
+					factor = 2
+					scope:root_contested_title = { target_is_de_facto_liege_or_above = title:e_united_states }
+					scope:root_election_candidate = { has_character_flag = reactionary_party }
+				}
 				desc = tooltip.republic_election_defeat
 				scope:opposing_election_candidate = { save_scope_as = victor }
 			}
 		}
-		top_liege = { trigger_event = { id = republic_election.5 months = 1 } }
+		scope:root_contested_government = {
+			if = {
+				limit = { is_at_war = yes }
+				trigger_event = { id = republic_election.9 months = 1 }
+			}
+			else = { trigger_event = { id = republic_election.5 months = 1 } }
+		}
+	}
+	option = {
+		trigger = { scope:root_contested_government = { is_at_war = yes } }
+		name = republic_election.4.c
+		duel = {
+			skill = martial
+			target = scope:opposing_election_candidate
+			10 = { #Success.
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 1
+				}
+				desc = tooltip.republic_election_victory
+				scope:root_election_candidate = { save_scope_as = victor }
+				hidden_effect = {
+					if = {
+						limit = {
+							exists = scope:root_vp_candidate
+							scope:root_vp_candidate = {
+								is_alive = yes
+								is_councillor = yes
+							}
+						}
+						scope:root_vp_candidate = {
+							employer = { fire_councillor = prev }
+							remove_opinion = { target = employer modifier = fired_from_council_opinion }
+						}
+					}
+				}
+			}
+			10 = { #Fail.
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -0.75
+				}
+				modifier = {
+					factor = 2
+					scope:root_contested_title = { target_is_de_facto_liege_or_above = title:e_united_states }
+					scope:root_election_candidate = { has_character_flag = reactionary_party }
+				}
+				desc = tooltip.republic_election_defeat
+				scope:opposing_election_candidate = { save_scope_as = victor }
+			}
+		}
+		scope:root_contested_government = { trigger_event = { id = republic_election.9 months = 1 } }
+		ai_chance = {
+			base = 1
+			modifier = {
+				factor = 2
+				martial > scope:opposing_election_candidate.martial
+				intrigue < scope:opposing_election_candidate.intrigue
+				diplomacy < scope:opposing_election_candidate.diplomacy
+			}
+		}
 	}
 	option = {
 		trigger = { intrigue >= 10 }
@@ -365,6 +711,21 @@ republic_election.4 = {
 				}
 				desc = tooltip.republic_election_intrigue_victory
 				scope:root_election_candidate = { save_scope_as = victor }
+				hidden_effect = {
+					if = {
+						limit = {
+							exists = scope:root_vp_candidate
+							scope:root_vp_candidate = {
+								is_alive = yes
+								is_councillor = yes
+							}
+						}
+						scope:root_vp_candidate = {
+							employer = { fire_councillor = prev }
+							remove_opinion = { target = employer modifier = fired_from_council_opinion }
+						}
+					}
+				}
 			}
 			10 = { #Fail.
 				compare_modifier = {
@@ -375,7 +736,13 @@ republic_election.4 = {
 				scope:opposing_election_candidate = { save_scope_as = victor }
 			}
 		}
-		top_liege = { trigger_event = { id = republic_election.5 months = 1 } }
+		scope:root_contested_government = {
+			if = {
+				limit = { is_at_war = yes }
+				trigger_event = { id = republic_election.9 months = 1 }
+			}
+			else = { trigger_event = { id = republic_election.5 months = 1 } }
+		}
 		ai_chance = {
 			base = 1
 			modifier = {
@@ -394,6 +761,12 @@ republic_election.5 = {
 	desc = {
 		desc = moderntimes.19.start.desc
 		first_valid = {
+			triggered_desc = {
+				trigger = {
+					exists = scope:dead_victor
+				}
+				desc = republic_election.5.victory_death.desc
+			}
 			triggered_desc = {
 				trigger = {
 					root = scope:victor
@@ -417,6 +790,48 @@ republic_election.5 = {
 	
 	trigger = {
 		has_government = republic_government
+		primary_title = scope:root_contested_title
+		trigger_if = {
+			limit = { scope:victor = { is_alive = no } }
+			trigger_if = {
+				limit = { scope:victor = scope:root_election_candidate }
+				exists = scope:root_vp_candidate
+				scope:root_vp_candidate = { is_alive = yes }
+			}
+			trigger_if = {
+				limit = { scope:victor = scope:opposing_election_candidate }
+				exists = scope:opposing_vp_candidate
+				scope:opposing_vp_candidate = { is_alive = yes }
+			}
+		}
+	}
+
+	on_trigger_fail = {
+		if = {
+			limit = {
+				has_government = republic_government
+				primary_title = scope:root_contested_title
+			}
+			debug_log = "The victor is dead and could not fall back on a vice president, so the election could not fire!"
+		}
+		else = {
+			debug_log = "Something happened and the election could not fire!"
+		}
+	}
+
+	immediate = {
+		if = {
+			limit = { scope:victor = { is_alive = no } }
+			scope:victor = { save_scope_as = dead_victor }
+			if = {
+				limit = { scope:victor = scope:root_election_candidate }
+				scope:root_vp_candidate = { save_scope_as = scope:victor }
+			}
+			if = {
+				limit = { scope:victor = scope:opposing_election_candidate }
+				scope:opposing_vp_candidate = { save_scope_as = scope:victor }
+			}
+		}
 	}
 	
 	option = {
@@ -428,16 +843,94 @@ republic_election.5 = {
 			}
 		}
 		if = {
+			limit = {
+				OR = { has_realm_law = crown_authority_3 has_realm_law = crown_authority_2 }
+				scope:victor = {
+					OR = {
+						is_landed = no
+						NOT = { has_realm_law = crown_authority_2 }
+					}
+				}
+			}
+			scope:victor = { add_character_flag = authority_more }
+		}
+		else_if = {
+			limit = {
+				has_realm_law = crown_authority_1
+				scope:victor = {
+					OR = {
+						is_landed = no
+						NOT = { has_realm_law = crown_authority_1 }
+					}
+				}
+			}
+			scope:victor = { add_character_flag = authority_add }
+		}
+		if = {
 			limit = { NOT = { root = scope:victor } }
+			if = {
+				limit = {
+					scope:victor = {
+						is_landed = yes
+						has_realm_law = city_succession_law
+					}
+				}
+				scope:victor = {
+					create_title_and_vassal_change = {
+						type = granted
+						save_scope_as = change
+						add_claim_on_loss = no
+					}
+					create_character = {
+						location = root.capital_province
+						template = pool_repopulate_stewardship
+						culture = scope:victor.capital_province.culture
+						faith = root.faith
+						gender = male
+						save_scope_as = new_governor
+					}
+					every_held_title = {
+						limit = { tier > tier_barony }
+						change_title_holder_include_vassals = {
+							holder = scope:new_governor
+							change = scope:change
+						}
+					}
+					resolve_title_and_vassal_change = scope:change
+					scope:new_governor = {
+						if = {
+							limit = { NOT = { has_government = republic_government } }
+							change_government = republic_government
+							add_realm_law = city_succession_law
+							add_realm_law_skip_effects = crown_authority_1
+						}
+					}
+				}
+			}
 			create_title_and_vassal_change = {
 				type = granted
 				save_scope_as = change
 				add_claim_on_loss = no
 			}
+			every_vassal = {
+				limit = {
+					root = { is_independent_ruler = no }
+					primary_title.tier > tier_barony
+				}
+				add_to_list = vassal_transfer
+			}
 			every_held_title = {
 				limit = { tier > tier_barony }
-				change_title_holder = {
+				change_title_holder_include_vassals = {
 					holder = scope:victor
+					change = scope:change
+				}
+			}
+			every_in_list = {
+				list = vassal_transfer
+				limit = { NOT = { top_liege = scope:victor } }
+				change_liege = {
+					liege = scope:victor
 					change = scope:change
 				}
 			}
@@ -448,7 +941,16 @@ republic_election.5 = {
 				limit = { NOT = { has_government = republic_government } }
 				change_government = republic_government
 				add_realm_law = city_succession_law
+			}
+			if = {
+				limit = { has_character_flag = authority_more }
+				add_realm_law_skip_effects = crown_authority_2
+				remove_character_flag = authority_more
+			}
+			if = {
+				limit = { has_character_flag = authority_add }
 				add_realm_law_skip_effects = crown_authority_1
+				remove_character_flag = authority_add
 			}
 			every_vassal_or_below = {
 				limit = { is_ai = no }
@@ -459,7 +961,72 @@ republic_election.5 = {
 					scope:victor = scope:root_election_candidate
 					has_any_political_party = no
 				}
-				copy_root_political_party_effect = yes
+				copy_target_political_party_effect = { TARGET = root }
+			}
+			random_court_position_holder = {
+				type = vice_president_court_position
+				save_scope_as = replace_vp
+			}
+			if = {
+				limit = {
+					scope:victor = scope:root_election_candidate
+					exists = scope:root_vp_candidate
+					scope:root_vp_candidate = { is_alive = yes }
+				}
+				scope:root_vp_candidate = {
+					if = { limit = { NOT = { employer = scope:victor } }
+						set_employer = scope:victor
+					}
+					if = {
+						limit = { has_any_political_party = no }
+						copy_target_political_party_effect = { TARGET = root }
+					}
+				}
+				if = {
+					limit = {
+						exists = scope:replace_vp
+						NOT = { scope:replace_vp = scope:root_vp_candidate }
+					}
+					replace_court_position = {
+						recipient = scope:root_vp_candidate
+						court_position = vice_president_court_position
+						holder = scope:replace_vp
+					}
+				}
+				else_if = {
+					limit = { NOT = { exists = scope:replace_vp } }
+					appoint_court_position = {
+						recipient = scope:root_vp_candidate
+						court_position = vice_president_court_position
+					}
+				}
+				if = {
+					limit = { NOT = { scope:replace_vp = scope:root_vp_candidate } }
+					set_designated_heir = scope:root_vp_candidate
+					add_realm_law = hierarchy_city_succession_law
+				}
+			}
+			if = {
+				limit = {
+					scope:victor = scope:opposing_election_candidate
+					exists = scope:opposing_vp_candidate
+					scope:opposing_vp_candidate = { is_alive = yes }
+				}
+				scope:opposing_vp_candidate = {
+					if = { limit = { NOT = { employer = scope:victor } }
+						set_employer = scope:victor
+					}
+					if = {
+						limit = { has_any_political_party = no }
+						copy_target_political_party_effect = { TARGET = scope:victor }
+					}
+				}
+				appoint_court_position = {
+					recipient = scope:opposing_vp_candidate
+					court_position = vice_president_court_position
+				}
+				set_designated_heir = scope:opposing_vp_candidate
+				add_realm_law = hierarchy_city_succession_law
 			}
 		}
 		if = {
@@ -485,6 +1052,423 @@ republic_election.6 = {
 	
 	option = {
 		name = republic_election.5.a
+	}
+}
+
+republic_election.7 = {
+	type = character_event
+	title = republic_election.7.t
+	desc = republic_election.7.desc
+	theme = diplomacy
+	left_portrait = {
+		character = scope:candidate_1
+		animation = idle
+	}
+	right_portrait = {
+		character = scope:candidate_2
+		animation = idle
+	}
+	lower_center_portrait = {
+		character = scope:candidate_3
+		animation = idle
+	}
+	
+	trigger = {
+		has_government = republic_government
+	}
+
+	immediate = {
+		generate_vice_presidential_candidates_effect = yes
+	}
+
+	option = {
+		trigger = { exists = scope:candidate_1 }
+		name = republic_election.7.a
+		scope:candidate_1 = { save_scope_as = root_vp_candidate }
+		trigger_event = { id = republic_election.3 days = { 5 10 } }
+		ai_chance = {
+			base = 1
+			modifier = {
+				factor = 0
+				scope:candidate_1 = {
+					has_any_political_party = yes
+					NOT = { has_same_political_party_as_root_trigger = yes }
+				}
+			}
+		}
+	}
+	option = {
+		trigger = { exists = scope:candidate_2 }
+		name = republic_election.7.b
+		scope:candidate_2 = { save_scope_as = root_vp_candidate }
+		trigger_event = { id = republic_election.3 days = { 5 10 } }
+		ai_chance = {
+			base = 1
+			modifier = {
+				factor = 0
+				scope:candidate_2 = {
+					has_any_political_party = yes
+					NOT = { has_same_political_party_as_root_trigger = yes }
+				}
+			}
+		}
+	}
+	option = {
+		name = republic_election.7.c
+		scope:candidate_3 = { save_scope_as = root_vp_candidate }
+		trigger_event = { id = republic_election.3 days = { 5 10 } }
+		ai_chance = {
+			base = 1
+			modifier = {
+				factor = 0
+				scope:candidate_3 = { is_female = yes }
+				current_date < 2012.1.1
+			}
+			modifier = {
+				factor = 0
+				scope:candidate_3 = {
+					has_any_political_party = yes
+					NOT = { has_same_political_party_as_root_trigger = yes }
+				}
+			}
+		}
+	}
+}
+
+republic_election.8 = {
+	type = character_event
+	title = republic_election.7.t
+	desc = republic_election.8.desc
+	theme = diplomacy
+	left_portrait = {
+		character = scope:candidate_1
+		animation = idle
+	}
+	right_portrait = {
+		character = scope:candidate_2
+		animation = idle
+	}
+	lower_center_portrait = {
+		character = scope:candidate_3
+		animation = idle
+	}
+	
+	trigger = {
+		has_government = republic_government
+	}
+
+	immediate = {
+		generate_vice_presidential_candidates_effect = yes
+	}
+
+	option = {
+		trigger = { exists = scope:candidate_1 }
+		name = republic_election.7.a
+		scope:candidate_1 = { save_scope_as = opposing_vp_candidate }
+		if = {
+			limit = { scope:root_election_candidate = { is_landed = yes } }
+			scope:root_election_candidate = { trigger_event = { id = republic_election.4 days = { 10 15 } } }
+		}
+		else = {
+			scope:root_contested_government = { trigger_event = { id = republic_election.4 days = { 10 15 } } }
+		}
+		ai_chance = {
+			base = 1
+			modifier = {
+				factor = 0
+				scope:candidate_1 = {
+					has_any_political_party = yes
+					NOT = { has_same_political_party_as_root_trigger = yes }
+				}
+			}
+		}
+	}
+	option = {
+		trigger = { exists = scope:candidate_2 }
+		name = republic_election.7.b
+		scope:candidate_2 = { save_scope_as = opposing_vp_candidate }
+		if = {
+			limit = { scope:root_election_candidate = { is_landed = yes } }
+			scope:root_election_candidate = { trigger_event = { id = republic_election.4 days = { 10 15 } } }
+		}
+		else = {
+			scope:root_contested_government = { trigger_event = { id = republic_election.4 days = { 10 15 } } }
+		}
+		ai_chance = {
+			base = 1
+			modifier = {
+				factor = 0
+				scope:candidate_2 = {
+					has_any_political_party = yes
+					NOT = { has_same_political_party_as_root_trigger = yes }
+				}
+			}
+		}
+	}
+	option = {
+		name = republic_election.7.c
+		scope:candidate_3 = { save_scope_as = opposing_vp_candidate }
+		if = {
+			limit = { scope:root_election_candidate = { is_landed = yes } }
+			scope:root_election_candidate = { trigger_event = { id = republic_election.4 days = { 10 15 } } }
+		}
+		else = {
+			scope:root_contested_government = { trigger_event = { id = republic_election.4 days = { 10 15 } } }
+		}
+		ai_chance = {
+			base = 1
+			modifier = {
+				factor = 0
+				scope:candidate_3 = { is_female = yes }
+				current_date < 2012.1.1
+			}
+			modifier = {
+				factor = 0
+				scope:candidate_3 = {
+					has_any_political_party = yes
+					NOT = { has_same_political_party_as_root_trigger = yes }
+				}
+			}
+		}
+	}
+}
+
+# handles title switching during war
+republic_election.9 = {
+	type = character_event
+	title = republic_election.5.t
+	desc = {
+		desc = moderntimes.19.start.desc
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					exists = scope:dead_victor
+				}
+				desc = republic_election.5.victory_death.desc
+			}
+			triggered_desc = {
+				trigger = {
+					root = scope:victor
+				}
+				desc = republic_election.5.incumbent_victory.desc
+			}
+			triggered_desc = {
+				trigger = {
+					scope:victor = scope:root_election_candidate
+				}
+				desc = republic_election.5.root_victory.desc
+			}
+			desc = republic_election.5.root_defeat.desc
+		}
+	}
+	theme = diplomacy
+	left_portrait = {
+		character = scope:victor
+		animation = personality_bold
+	}
+	
+	trigger = {
+		has_government = republic_government
+		primary_title = scope:root_contested_title
+		trigger_if = {
+			limit = { scope:victor = { is_alive = no } }
+			trigger_if = {
+				limit = { scope:victor = scope:root_election_candidate }
+				exists = scope:root_vp_candidate
+				scope:root_vp_candidate = { is_alive = yes }
+			}
+			trigger_if = {
+				limit = { scope:victor = scope:opposing_election_candidate }
+				exists = scope:opposing_vp_candidate
+				scope:opposing_vp_candidate = { is_alive = yes }
+			}
+		}
+	}
+
+	on_trigger_fail = {
+		if = {
+			limit = {
+				has_government = republic_government
+				primary_title = scope:root_contested_title
+			}
+			debug_log = "The victor is dead and could not fall back on a vice president, so the election could not fire!"
+		}
+		else = {
+			debug_log = "Something happened and the election could not fire!"
+		}
+	}
+
+	immediate = {
+		if = {
+			limit = { scope:victor = { is_alive = no } }
+			scope:victor = { save_scope_as = dead_victor }
+			if = {
+				limit = { scope:victor = scope:root_election_candidate }
+				scope:root_vp_candidate = { save_scope_as = scope:victor }
+			}
+			if = {
+				limit = { scope:victor = scope:opposing_election_candidate }
+				scope:opposing_vp_candidate = { save_scope_as = scope:victor }
+			}
+		}
+	}
+	
+	option = {
+		name = republic_election.5.a
+		scope:victor = {
+			add_character_flag = {
+				flag = ignore_copy_reforms
+				days = 3
+			}
+		}
+		if = {
+			limit = { NOT = { root = scope:victor } }
+			if = {
+				limit = {
+					scope:victor = {
+						is_landed = yes
+						has_realm_law = city_succession_law
+					}
+				}
+				scope:victor = {
+					create_title_and_vassal_change = {
+						type = granted
+						save_scope_as = change
+						add_claim_on_loss = no
+					}
+					create_character = {
+						location = root.capital_province
+						template = pool_repopulate_stewardship
+						culture = scope:victor.capital_province.culture
+						faith = root.faith
+						gender = male
+						save_scope_as = new_governor
+					}
+					every_held_title = {
+						limit = { tier > tier_barony }
+						change_title_holder_include_vassals = {
+							holder = scope:new_governor
+							change = scope:change
+						}
+					}
+					resolve_title_and_vassal_change = scope:change
+					scope:new_governor = {
+						if = {
+							limit = { NOT = { has_government = republic_government } }
+							change_government = republic_government
+							add_realm_law = city_succession_law
+							add_realm_law_skip_effects = crown_authority_1
+						}
+					}
+				}
+			}
+			if = { limit = { NOT = { has_realm_law = hierarchy_city_succession_law } }
+				add_realm_law = hierarchy_city_succession_law
+			}
+			set_designated_heir = scope:victor
+			depose = yes
+		}
+		scope:victor = {
+			if = {
+				limit = { NOT = { has_government = republic_government } }
+				change_government = republic_government
+				add_realm_law = city_succession_law
+				add_realm_law_skip_effects = crown_authority_1
+			}
+			every_vassal_or_below = {
+				limit = { is_ai = no }
+				trigger_event = republic_election.6
+			}
+			if = {
+				limit = {
+					scope:victor = scope:root_election_candidate
+					has_any_political_party = no
+				}
+				copy_target_political_party_effect = { TARGET = root }
+			}
+			random_court_position_holder = {
+				type = vice_president_court_position
+				save_scope_as = replace_vp
+			}
+			if = {
+				limit = {
+					scope:victor = scope:root_election_candidate
+					exists = scope:root_vp_candidate
+					scope:root_vp_candidate = { is_alive = yes }
+				}
+				scope:root_vp_candidate = {
+					if = { limit = { NOT = { employer = scope:victor } }
+						set_employer = scope:victor
+					}
+					if = {
+						limit = { has_any_political_party = no }
+						copy_target_political_party_effect = { TARGET = root }
+					}
+				}
+				if = {
+					limit = {
+						exists = scope:replace_vp
+						NOT = { scope:replace_vp = scope:root_vp_candidate }
+					}
+					replace_court_position = {
+						recipient = scope:root_vp_candidate
+						court_position = vice_president_court_position
+						holder = scope:replace_vp
+					}
+				}
+				else_if = {
+					limit = { NOT = { exists = scope:replace_vp } }
+					appoint_court_position = {
+						recipient = scope:root_vp_candidate
+						court_position = vice_president_court_position
+					}
+				}
+				if = {
+					limit = { NOT = { scope:replace_vp = scope:root_vp_candidate } }
+					set_designated_heir = scope:root_vp_candidate
+					add_realm_law = hierarchy_city_succession_law
+				}
+			}
+			if = {
+				limit = {
+					scope:victor = scope:opposing_election_candidate
+					exists = scope:opposing_vp_candidate
+					scope:opposing_vp_candidate = { is_alive = yes }
+				}
+				scope:opposing_vp_candidate = {
+					if = { limit = { NOT = { employer = scope:victor } }
+						set_employer = scope:victor
+					}
+					if = {
+						limit = { has_any_political_party = no }
+						copy_target_political_party_effect = { TARGET = scope:victor }
+					}
+				}
+				if = {
+					limit = {
+						exists = scope:replace_vp
+						NOT = { scope:replace_vp = scope:opposing_vp_candidate }
+					}
+					replace_court_position = {
+						recipient = scope:opposing_vp_candidate
+						court_position = vice_president_court_position
+						holder = scope:replace_vp
+					}
+				}
+				else_if = {
+					limit = { NOT = { exists = scope:replace_vp } }
+					appoint_court_position = {
+						recipient = scope:opposing_vp_candidate
+						court_position = vice_president_court_position
+					}
+				}
+				if = {
+					limit = { NOT = { scope:replace_vp = scope:opposing_vp_candidate } }
+					set_designated_heir = scope:opposing_vp_candidate
+					add_realm_law = hierarchy_city_succession_law
+				}
+			}
+		}
 	}
 }
 

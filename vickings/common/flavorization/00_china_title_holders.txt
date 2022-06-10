@@ -7,7 +7,7 @@ baron_feudal_male_chinese_group = {
 	tier = barony
 	priority = 7
 	governments = { feudal_government }
-	culture_groups = { chinese_group }
+	heritages = { heritage_chinese }
 }
 baron_feudal_female_chinese_group = {
 	type = character
@@ -16,14 +16,14 @@ baron_feudal_female_chinese_group = {
 	tier = barony
 	priority = 7
 	governments = { feudal_government }
-	culture_groups = { chinese_group }
+	heritages = { heritage_chinese }
 }
 barony_feudal_chinese_group = {
 	type = title
 	tier = barony
 	priority = 7
 	governments = { feudal_government }
-	culture_groups = { chinese_group }
+	heritages = { heritage_chinese }
 }
 count_feudal_male_chinese_group = {
 	type = character
@@ -32,7 +32,7 @@ count_feudal_male_chinese_group = {
 	tier = county
 	priority = 18
 	governments = { feudal_government }
-	culture_groups = { chinese_group }
+	heritages = { heritage_chinese }
 }
 count_feudal_female_chinese_group = {
 	type = character
@@ -41,14 +41,14 @@ count_feudal_female_chinese_group = {
 	tier = county
 	priority = 18
 	governments = { feudal_government }
-	culture_groups = { chinese_group }
+	heritages = { heritage_chinese }
 }
 county_feudal_chinese_group = {
 	type = title
 	tier = county
 	priority = 18
 	governments = { feudal_government }
-	culture_groups = { chinese_group }
+	heritages = { heritage_chinese }
 }
 duke_feudal_male_chinese_group = {
 	type = character
@@ -57,7 +57,7 @@ duke_feudal_male_chinese_group = {
 	tier = duchy
 	priority = 28
 	governments = { feudal_government }
-	culture_groups = { chinese_group }
+	heritages = { heritage_chinese }
 }
 duke_feudal_female_chinese_group = {
 	type = character
@@ -66,14 +66,14 @@ duke_feudal_female_chinese_group = {
 	tier = duchy
 	priority = 28
 	governments = { feudal_government }
-	culture_groups = { chinese_group }
+	heritages = { heritage_chinese }
 }
 duchy_feudal_chinese_group = {
 	type = title
 	tier = duchy
 	priority = 28
 	governments = { feudal_government }
-	culture_groups = { chinese_group }
+	heritages = { heritage_chinese }
 }
 king_feudal_male_chinese_group = {
 	type = character
@@ -82,7 +82,7 @@ king_feudal_male_chinese_group = {
 	tier = kingdom
 	priority = 47
 	governments = { feudal_government }
-	culture_groups = { chinese_group }
+	heritages = { heritage_chinese }
 }
 king_feudal_female_chinese_group = {
 	type = character
@@ -91,14 +91,14 @@ king_feudal_female_chinese_group = {
 	tier = kingdom
 	priority = 47
 	governments = { feudal_government }
-	culture_groups = { chinese_group }
+	heritages = { heritage_chinese }
 }
 kingdom_feudal_chinese_group = {
 	type = title
 	tier = kingdom
 	priority = 47
 	governments = { feudal_government }
-	culture_groups = { chinese_group }
+	heritages = { heritage_chinese }
 }
 emperor_feudal_male_chinese_group = {
 	type = character
@@ -107,7 +107,7 @@ emperor_feudal_male_chinese_group = {
 	tier = empire
 	priority = 102
 	governments = { feudal_government }
-	culture_groups = { chinese_group }
+	heritages = { heritage_chinese }
 }
 emperor_feudal_female_chinese_group = {
 	type = character
@@ -116,6 +116,134 @@ emperor_feudal_female_chinese_group = {
 	tier = empire
 	priority = 102
 	governments = { feudal_government }
-	culture_groups = { chinese_group }
+	heritages = { heritage_chinese }
 }
 #empire_feudal_chinese_group removed
+
+### Manchu ###
+# Feudal
+baron_feudal_male_manchu = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 7
+	governments = { feudal_government }
+	name_lists = { name_list_han }
+}
+baron_feudal_female_manchu = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 7
+	governments = { feudal_government }
+	name_lists = { name_list_han }
+}
+barony_feudal_manchu = {
+	type = title
+	tier = barony
+	priority = 7
+	governments = { feudal_government }
+	name_lists = { name_list_han }
+}
+count_feudal_male_manchu = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 18
+	governments = { feudal_government }
+	name_lists = { name_list_han }
+}
+count_feudal_female_manchu = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 18
+	governments = { feudal_government }
+	name_lists = { name_list_han }
+}
+county_feudal_manchu = {
+	type = title
+	tier = county
+	priority = 18
+	governments = { feudal_government }
+	name_lists = { name_list_han }
+}
+duke_feudal_male_manchu = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 28
+	governments = { feudal_government }
+	name_lists = { name_list_han }
+}
+duke_feudal_female_manchu = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 28
+	governments = { feudal_government }
+	name_lists = { name_list_han }
+}
+duchy_feudal_manchu = {
+	type = title
+	tier = duchy
+	priority = 28
+	governments = { feudal_government }
+	name_lists = { name_list_han }
+}
+king_feudal_male_manchu = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 47
+	governments = { feudal_government }
+	name_lists = { name_list_han }
+}
+king_feudal_female_manchu = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 47
+	governments = { feudal_government }
+	name_lists = { name_list_han }
+}
+kingdom_feudal_manchu = {
+	type = title
+	tier = kingdom
+	priority = 47
+	governments = { feudal_government }
+	name_lists = { name_list_han }
+}
+emperor_feudal_male_manchu = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 102
+	governments = { feudal_government }
+	name_lists = { name_list_han }
+}
+emperor_feudal_female_manchu = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 102
+	governments = { feudal_government }
+	name_lists = { name_list_han }
+}
+empire_feudal_manchu = {
+	type = title
+	tier = empire
+	priority = 102
+	governments = { feudal_government }
+	name_lists = { name_list_han }
+}

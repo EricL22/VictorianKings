@@ -1,0 +1,149 @@
+12056 = {
+	culture = american
+	religion = protestant
+}
+
+12057 = {
+	culture = american
+	religion = protestant
+}
+
+12058 = {
+	culture = american
+	religion = protestant
+}
+
+12059 = {
+	culture = american
+	religion = protestant
+}
+
+12060 = {
+	culture = american
+	religion = protestant
+}
+
+12061 = {
+	culture = american
+	religion = protestant
+}
+
+12062 = {
+	culture = american
+	religion = protestant
+}
+
+12063 = {
+	culture = american
+	religion = protestant
+}
+
+12064 = {
+	culture = american
+	religion = protestant
+}
+
+12065 = {
+	culture = american
+	religion = protestant
+}
+
+12066 = {
+	culture = american
+	religion = protestant
+}
+
+12067 = {
+	culture = american
+	religion = protestant
+}
+
+12068 = {
+	culture = american
+	religion = protestant
+}
+
+12069 = {
+	culture = american
+	religion = protestant
+}
+
+12070 = {
+	culture = american
+	religion = protestant
+}
+
+12071 = {
+	culture = american
+	religion = protestant
+}
+
+12072 = {
+	culture = american
+	religion = protestant
+}
+
+12073 = {
+	culture = american
+	religion = protestant
+}
+
+12074 = {
+	culture = american
+	religion = protestant
+}
+
+12075 = {
+	culture = american
+	religion = protestant
+}
+
+12076 = {
+	culture = american
+	religion = protestant
+}
+
+12077 = {
+	culture = american
+	religion = protestant
+}
+
+12078 = {
+	culture = american
+	religion = protestant
+}
+
+12079 = {
+	culture = american
+	religion = protestant
+}
+
+12080 = {
+	culture = american
+	religion = protestant
+}
+
+12081 = {
+	culture = american
+	religion = protestant
+}
+
+12082 = {
+	culture = american
+	religion = protestant
+}
+
+12083 = {
+	culture = american
+	religion = protestant
+}
+
+12084 = {
+	culture = american
+	religion = protestant
+}
+
+12085 = {
+	culture = american
+	religion = protestant
+}

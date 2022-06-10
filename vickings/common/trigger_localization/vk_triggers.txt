@@ -25,3 +25,7 @@ reform_independent_requirement = {
 centralized_no_free_war_contract = {
 	first_not = centralized_no_free_war_contract
 }
+
+peninsular_war_blocked_execution = {
+	third_not = peninsular_war_blocked_execution
+}

@@ -1,0 +1,341 @@
+c_nirkorum = {
+	1814.1.1 = {
+		holder = nativeamerican1
+	}
+	1818.12.3 = {
+		holder = 6400152
+	}
+	1835.11.3 = {
+		holder = 6400153
+	}
+}
+c_milwaukee = {
+	1814.1.1 = {
+		holder = nativeamerican1
+	}
+	1818.12.3 = {
+		holder = 6400152
+	}
+	1835.11.3 = {
+		holder = 6400153
+	}
+}
+c_maglindlia = {
+	1814.1.1 = {
+		holder = nativeamerican1
+	}
+	1818.12.3 = {
+		holder = 6400152
+	}
+	1835.11.3 = {
+		holder = 6400153
+	}
+}
+c_aiglampsathena = {
+	1814.1.1 = {
+		holder = nativeamerican1
+	}
+	1818.12.3 = {
+		holder = 6400152
+	}
+	1835.11.3 = {
+		holder = 6400153
+	}
+}
+c_chytgorgimenus = {
+	1814.1.1 = {
+		holder = nativeamerican1
+	}
+	1818.12.3 = {
+		holder = 6400152
+	}
+	1835.11.3 = {
+		holder = 6400153
+	}
+}
+c_gytabai = {
+	1814.1.1 = {
+		holder = nativeamerican1
+	}
+	1818.12.3 = {
+		holder = 6400152
+	}
+	1835.11.3 = {
+		holder = 6400153
+	}
+}
+c_koikalliae = {
+	1814.1.1 = {
+		holder = nativeamerican1
+	}
+	1818.12.3 = {
+		holder = 6400152
+	}
+	1835.11.3 = {
+		holder = 6400153
+	}
+}
+c_methagytalous = {
+	1814.1.1 = {
+		holder = nativeamerican1
+	}
+	1818.12.3 = {
+		holder = 6400152
+	}
+	1835.11.3 = {
+		holder = 6400153
+	}
+}
+c_marathherayra = {
+	1814.1.1 = {
+		holder = nativeamerican1
+	}
+	1818.12.3 = {
+		holder = 6400152
+	}
+	1835.11.3 = {
+		holder = 6400153
+	}
+}
+c_liargate = {
+	1814.1.1 = {
+		holder = nativeamerican1
+	}
+	1818.12.3 = {
+		holder = 6400152
+	}
+	1835.11.3 = {
+		holder = 6400153
+	}
+}
+c_mesemankyra = {
+	1814.1.1 = {
+		holder = nativeamerican1
+	}
+	1818.12.3 = {
+		holder = 6400152
+	}
+	1835.11.3 = {
+		holder = 6400153
+	}
+}
+c_hisodium = {
+	1814.1.1 = {
+		holder = nativeamerican1
+	}
+	1818.12.3 = {
+		holder = 6400152
+	}
+	1835.11.3 = {
+		holder = 6400153
+	}
+}
+c_cydidtiri = {
+	1814.1.1 = {
+		holder = nativeamerican1
+	}
+	1818.12.3 = {
+		holder = 6400152
+	}
+	1835.11.3 = {
+		holder = 6400153
+	}
+}
+c_athontrias = {
+	1814.1.1 = {
+		holder = nativeamerican1
+	}
+	1818.12.3 = {
+		holder = 6400152
+	}
+	1835.11.3 = {
+		holder = 6400153
+	}
+}
+c_knosgorgites = {
+	1814.1.1 = {
+		holder = nativeamerican1
+	}
+	1818.12.3 = {
+		holder = 6400152
+	}
+	1835.11.3 = {
+		holder = 6400153
+	}
+}
+c_kourherader = {
+	1814.1.1 = {
+		holder = nativeamerican1
+	}
+	1818.12.3 = {
+		holder = 6400152
+	}
+	1835.11.3 = {
+		holder = 6400153
+	}
+}
+c_kemaspolis = {
+	1814.1.1 = {
+		holder = nativeamerican1
+	}
+	1818.12.3 = {
+		holder = 6400152
+	}
+	1835.11.3 = {
+		holder = 6400153
+	}
+}
+c_onchimbrtes = {
+	1814.1.1 = {
+		holder = nativeamerican1
+	}
+}
+c_leilampium = {
+	1814.1.1 = {
+		holder = nativeamerican1
+	}
+	1818.12.3 = {
+		holder = 6400152
+	}
+	1835.11.3 = {
+		holder = 6400153
+	}
+}
+c_ithaclazessa = {
+	1814.1.1 = {
+		holder = nativeamerican1
+	}
+}
+c_nakanlis = {
+	1814.1.1 = {
+		holder = nativeamerican1
+	}
+}
+c_decclazodus = {
+	1814.1.1 = {
+		holder = nativeamerican1
+	}
+}
+c_dioialina = {
+	1814.1.1 = {
+		holder = nativeamerican1
+	}
+}
+c_marmadectherna = {
+	1814.1.1 = {
+		holder = nativeamerican1
+	}
+}
+c_ephyrepidene = {
+	1814.1.1 = {
+		holder = nativeamerican1
+	}
+}
+c_dymlisila = {
+	1814.1.1 = {
+		holder = nativeamerican1
+	}
+	1818.12.3 = {
+		holder = 6400152
+	}
+	1835.11.3 = {
+		holder = 6400153
+	}
+}
+c_empomagndos = {
+	1814.1.1 = {
+		holder = nativeamerican1
+	}
+	1818.12.3 = {
+		holder = 6400152
+	}
+	1835.11.3 = {
+		holder = 6400153
+	}
+}
+c_knosgortthrae = {
+	1814.1.1 = {
+		holder = nativeamerican1
+	}
+}
+c_idalefkyra = {
+	1814.1.1 = {
+		holder = nativeamerican1
+	}
+}
+c_ephymarlea = {
+	1814.1.1 = {
+		holder = nativeamerican1
+	}
+}
+c_loceleuesmos = {
+	1814.1.1 = {
+		holder = nativeamerican1
+	}
+}
+c_aeglebeum = {
+	1814.1.1 = {
+		holder = nativeamerican1
+	}
+}
+c_empmaronae = {
+	1814.1.1 = {
+		holder = nativeamerican1
+	}
+}
+c_emporeleus = {
+	1814.1.1 = {
+		holder = nativeamerican1
+	}
+}
+c_orestkuida = {
+	1814.1.1 = {
+		holder = nativeamerican1
+	}
+}
+c_lampsagorglea = {
+	1814.1.1 = {
+		holder = nativeamerican1
+	}
+}
+c_gorgimukosia = {
+	1814.1.1 = {
+		holder = nativeamerican1
+	}
+}
+c_ankhyium = {
+	1814.1.1 = {
+		holder = nativeamerican1
+	}
+}
+c_bargeon = {
+	1814.1.1 = {
+		holder = nativeamerican1
+	}
+}
+c_marmchinae = {
+	1814.1.1 = {
+		holder = nativeamerican1
+	}
+}
+c_golhagai = {
+	1814.1.1 = {
+		holder = nativeamerican1
+	}
+}
+c_kioeretissa = {
+	1814.1.1 = {
+		holder = nativeamerican1
+	}
+}
+c_ereskatalea = {
+	1814.1.1 = {
+		holder = nativeamerican1
+	}
+	1818.12.3 = {
+		holder = 6400152
+	}
+	1835.11.3 = {
+		holder = 6400153
+	}
+}

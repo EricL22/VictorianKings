@@ -53,6 +53,19 @@ innovation_nationalism_n_imperialism = {
 	icon = @raised_banner
 
 	custom = same_culture_none_factionalism_double_different
+	custom = unlocks_protectorate_interaction
+}
+
+innovation_mechanical_production = {
+	group = culture_group_civic
+	culture_era = culture_era_industrial
+	icon = @civil_construction_2
+	
+	modifier = {
+		build_speed = -0.05
+	}
+
+	custom = unlocks_sailable_major_rivers
 }
 
 

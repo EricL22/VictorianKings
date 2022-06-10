@@ -64,6 +64,10 @@ ideology.1 = {
 					has_trait = arrogant
 				}
 			}
+			modifier = {
+				factor = 0
+				current_date < 1848.1.1
+			}
 		}
 	}
 	option = {
@@ -89,6 +93,10 @@ ideology.1 = {
 				ai_boldness > 60
 				ai_energy > 0
 			}
+			modifier = {
+				factor = 0
+				top_liege = { has_title = title:e_united_states }
+			}
 		}
 	}
 	option = {
@@ -108,6 +116,10 @@ ideology.1 = {
 			modifier = {
 				factor = 0
 				has_trait = compassionate
+			}
+			modifier = {
+				factor = 0
+				current_date < 1900.1.1
 			}
 		}
 	}
@@ -149,6 +161,10 @@ ideology.1 = {
 					has_trait = arrogant
 				}
 			}
+			modifier = {
+				factor = 0
+				current_date < 1848.1.1
+			}
 		}
 	}
 	option = {
@@ -164,6 +180,10 @@ ideology.1 = {
 			modifier = {
 				factor = 0
 				has_trait = ambitious
+			}
+			modifier = {
+				factor = 0
+				current_date < 1860.1.1
 			}
 		}
 	}

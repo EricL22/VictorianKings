@@ -1,0 +1,249 @@
+c_marmamonatium = {
+	1808.1.1 = {
+		holder = nativeamerican6
+	}
+}
+c_kimnanae = {
+	1808.1.1 = {
+		holder = nativeamerican6
+	}
+}
+c_mamonatai = {
+	1808.1.1 = {
+		holder = nativeamerican6
+	}
+}
+c_idamaratheia = {
+	1808.1.1 = {
+		holder = nativeamerican6
+	}
+}
+c_chammorus = {
+	1808.1.1 = {
+		holder = nativeamerican6
+	}
+}
+c_cebgolesmos = {
+	1808.1.1 = {
+		holder = nativeamerican6
+	}
+}
+c_asscaryder = {
+	1808.1.1 = {
+		holder = nativeamerican6
+	}
+}
+c_apamylanae = {
+	1808.1.1 = {
+		holder = nativeamerican6
+	}
+}
+
+c_mankerkinrea = {
+	1808.1.1 = {
+		holder = nativeamerican7
+	}
+}
+c_diomadyida = {
+	1808.1.1 = {
+		holder = nativeamerican7
+	}
+}
+c_gorgimaratthena = {
+	1808.1.1 = {
+		holder = nativeamerican7
+	}
+}
+c_gangmorgaene = {
+	1808.1.1 = {
+		holder = nativeamerican7
+	}
+}
+
+c_metodder = {
+	1808.1.1 = {
+		holder = nativeamerican8
+	}
+	1835.3.9 = {
+		holder = 6400162
+	}
+}
+c_bhyrtmyleia = {
+	1808.1.1 = {
+		holder = nativeamerican8
+	}
+	1835.3.9 = {
+		holder = 6400162
+	}
+}
+c_kourkoilea = {
+	1808.1.1 = {
+		holder = nativeamerican8
+	}
+	1835.3.9 = {
+		holder = 6400162
+	}
+}
+
+c_iasnauus = {
+	1810.4.17 = {
+		holder = 6400159
+	}
+	1813.7.1 = {
+		holder = 6400160
+	}
+	1835.3.9 = {
+		holder = 6400162
+	}
+}
+c_colochium = {
+	1810.4.17 = {
+		holder = 6400159
+	}
+	1813.7.1 = {
+		holder = 6400160
+	}
+	1835.3.9 = {
+		holder = 6400162
+	}
+}
+c_nympmonoastesmos = {
+	1810.4.17 = {
+		holder = 6400159
+	}
+	1813.7.1 = {
+		holder = 6400160
+	}
+	1835.3.9 = {
+		holder = 6400162
+	}
+}
+c_gorgiandrita = {
+	1810.4.17 = {
+		holder = 6400159
+	}
+	1813.7.1 = {
+		holder = 6400160
+	}
+	1835.3.9 = {
+		holder = 6400162
+	}
+}
+c_antigmagder = {
+	1810.4.17 = {
+		holder = 6400159
+	}
+	1813.7.1 = {
+		holder = 6400160
+	}
+	1835.3.9 = {
+		holder = 6400162
+	}
+}
+c_monoastgoila = {
+	1810.4.17 = {
+		holder = 6400159
+	}
+	1813.7.1 = {
+		holder = 6400160
+	}
+	1835.3.9 = {
+		holder = 6400162
+	}
+}
+c_athimbrlis = {
+	1810.4.17 = {
+		holder = 6400159
+	}
+	1813.7.1 = {
+		holder = 6400160
+	}
+	1835.3.9 = {
+		holder = 6400162
+	}
+}
+c_nympdicaeainda = {
+	1810.4.17 = {
+		holder = 6400159
+	}
+	1813.7.1 = {
+		holder = 6400160
+	}
+	1835.3.9 = {
+		holder = 6400162
+	}
+}
+c_knosseubios = {
+	1810.4.17 = {
+		holder = 6400159
+	}
+	1813.7.1 = {
+		holder = 6400160
+	}
+	1835.3.9 = {
+		holder = 6400162
+	}
+}
+c_artopuslis = {
+	1810.4.17 = {
+		holder = 6400159
+	}
+	1813.7.1 = {
+		holder = 6400160
+	}
+	1835.3.9 = {
+		holder = 6400162
+	}
+}
+c_borysnymphita = {
+	1810.4.17 = {
+		holder = 6400159
+	}
+	1813.7.1 = {
+		holder = 6400160
+	}
+	1835.3.9 = {
+		holder = 6400162
+	}
+}
+c_dioknidine = {
+	1810.4.17 = {
+		holder = 6400159
+	}
+	1813.7.1 = {
+		holder = 6400160
+	}
+	1835.3.9 = {
+		holder = 6400162
+	}
+}
+c_monatmochcia = {
+	1810.4.17 = {
+		holder = 6400159
+	}
+	1813.7.1 = {
+		holder = 6400160
+	}
+	1835.3.9 = {
+		holder = 6400162
+	}
+}
+c_kerkamarynae = {
+	1810.4.17 = {
+		holder = 6400159
+	}
+	1813.7.1 = {
+		holder = 6400160
+	}
+	1835.3.9 = {
+		holder = 6400162
+	}
+}
+c_itangelae = {
+	1808.1.1 = {	# to make the borders prettier
+		holder = nativeamerican8
+	}
+	1835.3.9 = {
+		holder = 6400162
+	}
+}

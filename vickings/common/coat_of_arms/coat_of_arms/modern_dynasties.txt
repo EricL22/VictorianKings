@@ -117,6 +117,36 @@
 	}
 }
 
+house_bogd = { # Bogd
+	pattern = "pattern_vertical_split_01.dds"
+	color1 = "yellow"
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_soyombo.dds"
+		color1 = "grey"
+		color2 = "brown"
+		instance = { position = { 0.3 0.55 } scale = { 0.60 0.60 }  }
+	}
+	colored_emblem = {
+		texture = "ce_crescent.dds"
+		color1 = "grey"
+		color2 = "grey"
+		instance = { position = { 0.30 0.33 } scale = { 0.2 0.2 }  }
+	}
+	colored_emblem = {
+		texture = "ce_circle.dds"
+		color1 = "brown"
+		color2 = "brown"
+		instance = { position = { 0.30 0.29 } scale = { 0.1 0.1 }  }
+	}
+	colored_emblem = {
+		texture = "ce_mongol_flame.dds"
+		color1 = "black"
+		color2 = "black"
+		instance = { position = { 0.3 0.23 } scale = { 0.1 0.1 }  }
+	}
+}
+
 2001107 = { # Hannover
 	textured_emblem = {
 		texture = "hannover.dds"

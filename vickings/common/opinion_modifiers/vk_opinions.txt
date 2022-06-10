@@ -4,7 +4,11 @@
 opinion_broke_chinese_tributary = {
 	opinion = 10
 	decaying = yes
+	years = 10
 }
 opinion_ceded_rightful_lands = {
 	opinion = 25
+}
+opinion_ceded_rightful_lands_50 = {
+	opinion = 50
 }

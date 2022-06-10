@@ -1,0 +1,162 @@
+﻿# Accepted categories are: governments, cultures, heritages, faiths, religions
+# A Flavorization will apply if ALL specified categories have ANY of their entries
+# represented in the character/title
+# So for example:
+# governments = { feudal_government }
+# heritages = { mongolic_group central_germanic_group }
+# religions = { christianity_religion }
+# cultures = { norse }
+# faiths = { catholicism }
+# For this to apply a character MUST BE feudal, AND must also be EITHER altaic OR germanic
+# priority is used to determine priority, if they are the same then the LAST will be selected,
+# and honorifics will be prefered over landed titles. Default priority is 1
+# If a flavorization does not have a tier it can apply to all tiers of characters, too many non-tiered
+# flavorizations is bad for performance though, YOU HAVE BEEN WARNED!
+# 'top_liege = no' means that its the holder of the title causing the honorific that is tested for
+# the various categories, so for a prince it is the king that is tested, for a queen mother it is her son
+# if this is not specified ( or 'top_liege = yes' the default ) then it is the top liege of that character
+# that is tested, this means that most title flavor comes from the top liege of the title not the holder
+
+#sultan = { #Example
+#	gender = male
+#	special = holder
+#	tier = kingdom
+	#	governments = { feudal_government clan_government }
+#	religions = { islam_religion }
+#}
+
+#############################################
+
+### Sardinian
+## Feudal
+# Barony
+barony_feudal_sardinian = { # Curadoria
+	type = title
+	tier = barony
+	priority = 7
+	governments = { feudal_government }
+	name_lists = { name_list_sardinian_expanded }
+}
+baron_feudal_male_sardinian = { # Curadore
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 7
+	governments = { feudal_government }
+	name_lists = { name_list_sardinian_expanded }
+}
+baron_feudal_female_sardinian = { # Curadora
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 7
+	governments = { feudal_government }
+	name_lists = { name_list_sardinian_expanded }
+}
+# County
+county_feudal_sardinian = { # Judicadu
+	type = title
+	tier = county
+	priority = 18
+	governments = { feudal_government }
+	name_lists = { name_list_sardinian_expanded }
+}
+count_feudal_male_sardinian = { # Judike
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 18
+	governments = { feudal_government }
+	name_lists = { name_list_sardinian_expanded }
+}
+count_feudal_female_sardinian = { # Judesa
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 18
+	governments = { feudal_government }
+	name_lists = { name_list_sardinian_expanded }
+}
+# Duchy
+duchy_feudal_sardinian = { # Archonate
+	type = title
+	tier = duchy
+	priority = 28
+	governments = { feudal_government }
+	name_lists = { name_list_sardinian_expanded }
+}
+duke_feudal_male_sardinian = { # Archon
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 28
+	governments = { feudal_government }
+	name_lists = { name_list_sardinian_expanded }
+}
+duke_feudal_female_sardinian = { # Archonesa
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 28
+	governments = { feudal_government }
+	name_lists = { name_list_sardinian_expanded }
+}
+
+### Russian ###
+# Feudal
+duke_feudal_male_russian = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 27
+	governments = { feudal_government }
+	name_lists = { name_list_russian_expanded }
+}
+duke_feudal_female_russian = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 27
+	governments = { feudal_government }
+	name_lists = { name_list_russian_expanded }
+}
+duchy_feudal_russian = {
+	type = title
+	tier = duchy
+	priority = 27
+	governments = { feudal_government }
+	name_lists = { name_list_russian_expanded }
+}
+emperor_feudal_male_russian = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 102
+	governments = { feudal_government tribal_government }
+	name_lists = { name_list_russian_expanded }
+}
+emperor_feudal_female_russian = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 102
+	governments = { feudal_government tribal_government }
+	name_lists = { name_list_russian_expanded }
+}
+empire_feudal_russian = {
+	type = title
+	tier = empire
+	priority = 102
+	governments = { feudal_government tribal_government }
+	name_lists = { name_list_russian_expanded }
+}

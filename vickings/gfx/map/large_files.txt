@@ -1,9 +1,0 @@
-Some files in this folder are too large to upload to github. Namely,
-In map/terrain:
-	detail_index.tga
-	detail_indensity.tga
-	flatmap.dds
-In map/water:
-	watercolor_rgb_waterspec_a.dds
-
-Since it is likely we are not modifying these files anytime soon, I will not make these a priority.

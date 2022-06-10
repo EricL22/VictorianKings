@@ -1,0 +1,57 @@
+c_opumarothena = {
+	1808.1.1 = {
+		holder = nativeamerican6
+	}
+}
+c_kerkhagder = {
+	1808.1.1 = {
+		holder = nativeamerican6
+	}
+}
+c_caddo = {
+	1808.1.1 = {
+		holder = nativeamerican6
+	}
+}
+c_bienville = {
+	1808.1.1 = {
+		holder = nativeamerican6
+	}
+}
+c_natchitoches = {
+	1808.1.1 = {
+		holder = nativeamerican6
+	}
+}
+
+c_carroll = {
+	1808.1.1 = {
+		holder = nativeamerican7
+	}
+}
+c_ouachita = {
+	1808.1.1 = {
+		holder = nativeamerican7
+	}
+}
+
+c_concordia = {
+	1808.1.1 = {
+		holder = nativeamerican9
+	}
+}
+c_catahoula = {
+	1808.1.1 = {
+		holder = nativeamerican9
+	}
+}
+c_tensas = {
+	1808.1.1 = {
+		holder = nativeamerican9
+	}
+}
+c_halicdectherna = {
+	1808.1.1 = {
+		holder = nativeamerican9
+	}
+}

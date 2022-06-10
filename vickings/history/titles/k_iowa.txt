@@ -1,0 +1,170 @@
+c_metkorinthai = {
+	1808.1.1 = {
+		holder = nativeamerican11
+	}
+	1835.11.3 = {
+		holder = 6400153
+	}
+}
+c_itaknossus = {
+	1808.1.1 = {
+		holder = nativeamerican11
+	}
+	1835.11.3 = {
+		holder = 6400153
+	}
+}
+c_kerkiolyita = {
+	1808.1.1 = {
+		holder = nativeamerican11
+	}
+	1835.11.3 = {
+		holder = 6400153
+	}
+}
+c_shoquokon = {
+	1808.1.1 = {
+		holder = nativeamerican11
+	}
+	1835.11.3 = {
+		holder = 6400153
+	}
+}
+
+c_herakasllai = {
+	1808.1.1 = {
+		holder = nativeamerican12
+	}
+}
+c_cydoryine = {
+	1808.1.1 = {
+		holder = nativeamerican12
+	}
+}
+c_leprmuium = {
+	1808.1.1 = {
+		holder = nativeamerican12
+	}
+}
+c_opuiasalous = {
+	1808.1.1 = {
+		holder = nativeamerican12
+	}
+}
+c_olgouresmos = {
+	1808.1.1 = {
+		holder = nativeamerican12
+	}
+}
+c_ambrioltes = {
+	1808.1.1 = {
+		holder = nativeamerican12
+	}
+}
+c_nemgorgicum = {
+	1808.1.1 = {
+		holder = nativeamerican12
+	}
+}
+c_lilaum = {
+	1808.1.1 = {
+		holder = nativeamerican12
+	}
+}
+c_kigouralous = {
+	1808.1.1 = {
+		holder = nativeamerican12
+	}
+}
+c_acandoryine = {
+	1808.1.1 = {
+		holder = nativeamerican12
+	}
+}
+c_leleprenes = {
+	1808.1.1 = {
+		holder = nativeamerican12
+	}
+}
+c_gangaum = {
+	1808.1.1 = {
+		holder = nativeamerican12
+	}
+}
+c_chalmylalia = {
+	1808.1.1 = {
+		holder = nativeamerican12
+	}
+}
+c_chyastalous = {
+	1808.1.1 = {
+		holder = nativeamerican12
+	}
+}
+c_dimnyera = {
+	1808.1.1 = {
+		holder = nativeamerican12
+	}
+}
+
+c_methniaaea = {
+	1808.1.1 = {
+		holder = nativeamerican10
+	}
+}
+
+c_amarymeslis = {
+	1808.1.1 = {
+		holder = nativeamerican13
+	}
+}
+c_halicgoline = {
+	1808.1.1 = {
+		holder = nativeamerican13
+	}
+}
+c_mulgangyra = {
+	1808.1.1 = {
+		holder = nativeamerican13
+	}
+}
+c_gellefkon = {
+	1808.1.1 = {
+		holder = nativeamerican13
+	}
+}
+c_kimmeabeia = {
+	1808.1.1 = {
+		holder = nativeamerican13
+	}
+}
+c_delphkydothrae = {
+	1808.1.1 = {
+		holder = nativeamerican13
+	}
+}
+c_maratnaxosse = {
+	1808.1.1 = {
+		holder = nativeamerican13
+	}
+}
+c_idahermiosse = {
+	1808.1.1 = {
+		holder = nativeamerican13
+	}
+}
+c_ithaoricrias = {
+	1808.1.1 = {
+		holder = nativeamerican13
+	}
+}
+c_empkimmedos = {
+	1808.1.1 = {
+		holder = nativeamerican13
+	}
+}
+c_amniolymthena = {
+	1808.1.1 = {
+		holder = nativeamerican13
+	}
+}

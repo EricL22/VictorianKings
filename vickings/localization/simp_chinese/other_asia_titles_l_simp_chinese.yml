@@ -544,6 +544,11 @@
  b_kitami:0 "北见"
  b_kushiro:0 "钏路"
  d_matsumae:0 "松前"
+ d_kuril:0 "Kuril"
+ c_cupka:0 "Cupka"
+ b_cupka:0 "Cupka"
+ c_kita_chishima:0 "北千岛"
+ b_kita_chishima:0 "北千岛"
 
  k_ryukyu:0 "琉球"
  d_ryukyu:0 "琉球"

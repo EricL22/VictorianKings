@@ -1,0 +1,116 @@
+c_kimmkorinuf = {
+	1808.1.1 = {
+		holder = nativeamerican33
+	}
+}
+c_hubmandus = {
+	1808.1.1 = {
+		holder = nativeamerican33
+	}
+}
+c_marmajukoli = {
+	1808.1.1 = {
+		holder = nativeamerican33
+	}
+}
+c_olynmasida = {
+	1808.1.1 = {
+		holder = nativeamerican33
+	}
+}
+c_amardelphonia = {
+	1808.1.1 = {
+		holder = nativeamerican33
+	}
+}
+
+c_nyscarae = {
+	1808.1.1 = {
+		holder = nativeamerican34
+	}
+}
+c_nemargate = {
+	1808.1.1 = {
+		holder = nativeamerican34
+	}
+}
+c_metmadylia = {
+	1808.1.1 = {
+		holder = nativeamerican34
+	}
+}
+c_amarykioae = {
+	1808.1.1 = {
+		holder = nativeamerican34
+	}
+}
+c_mukemethutherna = {
+	1808.1.1 = {
+		holder = nativeamerican34
+	}
+}
+c_oporestthena = {
+	1808.1.1 = {
+		holder = nativeamerican34
+	}
+}
+c_marathithpetra = {
+	1808.1.1 = {
+		holder = nativeamerican34
+	}
+}
+c_morgorestcum = {
+	1808.1.1 = {
+		holder = nativeamerican34
+	}
+}
+c_hermiolynosse = {
+	1808.1.1 = {
+		holder = nativeamerican34
+	}
+}
+c_katmochida = {
+	1808.1.1 = {
+		holder = nativeamerican34
+	}
+}
+c_lariscrottherna = {
+	1808.1.1 = {
+		holder = nativeamerican34
+	}
+}
+c_orocalyoas = {
+	1808.1.1 = {
+		holder = nativeamerican34
+	}
+}
+c_ephmantineia = {
+	1808.1.1 = {
+		holder = nativeamerican34
+	}
+}
+c_golglauita = {
+	1808.1.1 = {
+		holder = nativeamerican34
+	}
+}
+c_ialyhagoli = {
+	1808.1.1 = {
+		holder = nativeamerican34
+	}
+}
+c_cebrmonastmea = {
+	1808.1.1 = {
+		holder = nativeamerican34
+	}
+}
+c_opusdiosmea = {
+	1808.1.1 = {
+		holder = nativeamerican34
+	}
+}
+c_marhyuf = {
+	1808.1.1 = {
+		holder = nativeamerican34
+	}
+}

@@ -50,3 +50,17 @@
  holy_site_yichuan_effect_name:0 "From [holy_site|E] #weak ($holy_site_yichuan_name$)#!"
  holy_site_youxi_name:0 "Youxi"
  holy_site_youxi_effect_name:0 "From [holy_site|E] #weak ($holy_site_youxi_name$)#!"
+
+ # Holy Sites: Shamanism
+ holy_site_nurgan_name:0 "Nurgan"
+ holy_site_nurgan_effect_name:0 "From [holy_site|E] #weak ($holy_site_nurgan_name$)#!"
+ holy_site_huining_name:0 "Huining"
+ holy_site_huining_effect_name:0 "From [holy_site|E] #weak ($holy_site_huining_name$)#!"
+ holy_site_linhuang_name:0 "Linhuang"
+ holy_site_linhuang_effect_name:0 "From [holy_site|E] #weak ($holy_site_linhuang_name$)#!"
+ holy_site_liaoyang_name:0 "Liaoyang"
+ holy_site_liaoyang_effect_name:0 "From [holy_site|E] #weak ($holy_site_liaoyang_name$)#!"
+ holy_site_dading_name:0 "Dading"
+ holy_site_dading_effect_name:0 "From [holy_site|E] #weak ($holy_site_dading_name$)#!"
+ holy_site_daxing_name:0 "Daxing"
+ holy_site_daxing_effect_name:0 "From [holy_site|E] #weak ($holy_site_daxing_name$)#!"

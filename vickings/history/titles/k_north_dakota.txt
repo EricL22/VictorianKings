@@ -1,0 +1,82 @@
+c_delmarmina = {
+	1808.1.1 = {
+		holder = nativeamerican27
+	}
+}
+
+c_geljukrias = {
+	1808.1.1 = {
+		holder = nativeamerican20
+	}
+}
+c_kimmeiththrae = {
+	1808.1.1 = {
+		holder = nativeamerican20
+	}
+}
+c_lapitmaroli = {
+	1808.1.1 = {
+		holder = nativeamerican20
+	}
+}
+c_iolodeder = {
+	1808.1.1 = {
+		holder = nativeamerican20
+	}
+}
+c_asklhublyra = {
+	1808.1.1 = {
+		holder = nativeamerican20
+	}
+}
+c_hyelaodiita = {
+	1808.1.1 = {
+		holder = nativeamerican20
+	}
+}
+c_hermithai = {
+	1808.1.1 = {
+		holder = nativeamerican20
+	}
+}
+
+c_aegcniatrea = {
+	1808.1.1 = {
+		holder = nativeamerican13
+	}
+}
+c_kninemion = {
+	1808.1.1 = {
+		holder = nativeamerican13
+	}
+}
+c_klazmasder = {
+	1808.1.1 = {
+		holder = nativeamerican13
+	}
+}
+c_knomarathoas = {
+	1808.1.1 = {
+		holder = nativeamerican13
+	}
+}
+c_mantimegaloesmos = {
+	1808.1.1 = {
+		holder = nativeamerican13
+	}
+}
+c_chamatiri = {
+	1808.1.1 = {
+		holder = nativeamerican13
+	}
+}
+c_lepiolcinon = {
+	1808.1.1 = {
+		holder = nativeamerican13
+	}
+}
+c_chychallia = {
+	1808.1.1 = {
+		holder = nativeamerican13
+	}
+}

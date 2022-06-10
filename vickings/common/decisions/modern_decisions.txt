@@ -66,7 +66,7 @@ unite_the_two_sicilies_decision = {
 	desc = unite_the_two_sicilies_decision_desc
 
 	is_shown = {
-		has_culture_group = culture_group:latin_group
+		culture = { has_cultural_pillar = heritage_latin }
 		game_start_date >= 1800.1.1
 		title:k_naples = { any_in_de_jure_hierarchy = { tier = tier_county } }
 		OR = {
@@ -83,7 +83,7 @@ unite_the_two_sicilies_decision = {
 	}
 
 	is_valid = {
-		has_culture_group = culture_group:latin_group
+		culture = { has_cultural_pillar = heritage_latin }
 		has_title = title:k_sicily
 		has_title = title:k_naples
 		trigger_if = {
@@ -406,7 +406,7 @@ return_ionian_islands_decision = {
 			}
 		}
 		resolve_title_and_vassal_change = scope:change
-		add_opinion = {
+		reverse_add_opinion = {
 			target = title:k_hellas.holder
 			modifier = granted_vassal
 			years = 20
@@ -489,7 +489,7 @@ create_alsace_lorraine_decision = {
 	desc = create_alsace_lorraine_desc
 
 	is_shown = {
-		culture_group = culture_group:central_germanic_group
+		culture = { has_cultural_pillar = heritage_central_germanic }
 		OR = {
 			AND = {
 				is_independent_ruler = yes
@@ -831,7 +831,7 @@ ai_italy_decision = {
 	is_shown = {
 		is_ai = yes
 		highest_held_title_tier = tier_kingdom
-		has_culture_group = culture_group:latin_group
+		culture = { has_cultural_pillar = heritage_latin }
 		NOT = { has_title = title:k_italy }
 		NOT = {  #Can only do it once.
 			is_target_in_global_variable_list = {
@@ -1189,7 +1189,7 @@ japan_westernization_decision = {
 			has_title = title:e_shogunate
 			has_title = title:k_chrysanthemum_throne
 		}
-		has_culture_group = culture_group:japanese_group
+		culture = { has_cultural_pillar = heritage_japanese }
 		NOT = {  #Can only do it once.
 			is_target_in_global_variable_list = {
 				name = unavailable_unique_decisions
@@ -1437,5 +1437,321 @@ change_ideology_decision = {
 			factor = 0
 			has_any_political_party = yes
 		}
+	}
+}
+	
+webster_ashburton_treaty_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
+	major = yes
+	ai_check_interval = 4
+	desc = webster_ashburton_treaty_desc
+
+	is_shown = {
+		has_title = title:e_britannia
+		any_realm_county = { this = title:c_aroostook }
+		NOT = {  #Can only do it once.
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:webster_ashburton_signed
+			}
+		}
+		exists = title:e_united_states.holder
+		current_date > 1842.1.1
+	}
+		
+	is_valid = {
+		NOT = {
+			is_at_war_with = title:e_united_states.holder
+		}
+	}
+		
+	effect = {
+		reverse_add_opinion = {
+			target = title:e_united_states.holder
+			modifier = opinion_ceded_rightful_lands_50
+			years = 20
+		}
+
+		create_title_and_vassal_change = {
+			type = granted
+			save_scope_as = change
+			add_claim_on_loss = no
+		}
+		title:c_aroostook = {
+			change_title_holder = {
+				holder = title:e_united_states.holder
+				change = scope:change
+			}
+		}
+		resolve_title_and_vassal_change = scope:change
+		add_prestige = 20
+
+		#Can only be done once
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:webster_ashburton_signed
+		}
+
+		save_scope_as = proposer
+		title:e_united_states.holder = { trigger_event = moderntimes.29 }
+	}
+		
+	ai_will_do = {
+		base = 100
+	}
+}
+	
+treaty_of_1818_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
+	major = yes
+	ai_check_interval = 5
+	desc = treaty_of_1818_desc
+
+	is_shown = {
+		has_title = title:e_britannia
+		any_realm_county = { target_is_de_jure_liege_or_above = title:e_canada }
+		NOT = {  #Can only do it once.
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:1818_treaty_signed
+			}
+		}
+		exists = title:e_united_states.holder
+		current_date > 1818.1.1
+	}
+		
+	is_valid = {
+		NOT = {
+			is_at_war_with = title:e_united_states.holder
+		}
+	}
+		
+	effect = {
+		reverse_add_opinion = {
+			target = title:e_united_states.holder
+			modifier = opinion_ceded_rightful_lands_50
+			years = 20
+		}
+
+		title:c_diosempoera = {
+			set_de_jure_liege_title = title:d_north_dakota
+		}
+		title:c_malkimmeios = {
+			set_de_jure_liege_title = title:d_north_dakota
+		}
+		title:c_oechayra = {
+			set_de_jure_liege_title = title:d_north_dakota
+		}
+		title:c_massacorcosia = {
+			set_de_jure_liege_title = title:d_north_dakota
+		}
+		title:c_borysargita = {
+			set_de_jure_liege_title = title:d_minnesota
+		}
+		title:c_assephyoli = {
+			set_de_jure_liege_title = title:d_minnesota
+		}
+		title:c_gourcniina = {
+			set_de_jure_liege_title = title:d_minnesota
+		}
+		title:c_kydobhyrtessa = {
+			set_de_jure_liege_title = title:d_north_dakota
+		}
+		title:c_erydymlia = {
+			set_de_jure_liege_title = title:d_minnesota
+		}
+		title:c_kydohagium = {
+			set_de_jure_liege_title = title:d_minnesota
+		}
+		title:c_imlindthos = {
+			set_de_jure_liege_title = title:d_north_dakota
+		}
+		title:c_byzolbosia = {
+			set_de_jure_liege_title = title:d_minnesota
+		}
+		title:c_kamedicaeaila = {
+			set_de_jure_liege_title = title:d_north_dakota
+		}
+		title:c_onedepolis = {
+			set_de_jure_liege_title = title:d_north_dakota
+		}
+		title:c_katmilllia = {
+			set_de_jure_liege_title = title:d_north_dakota
+		}
+		title:c_kerkiantiina = {
+			set_de_jure_liege_title = title:d_north_dakota
+		}
+
+		title:c_leiborithos = {
+			set_de_jure_liege_title = title:d_saskatchewan
+		}
+		title:c_akrgournlis = {
+			set_de_jure_liege_title = title:d_saskatchewan
+		}
+		title:c_metcyronia = {
+			set_de_jure_liege_title = title:d_saskatchewan
+		}
+		title:c_lekhephmenus = {
+			set_de_jure_liege_title = title:d_saskatchewan
+		}
+		title:c_marmaagrinlis = {
+			set_de_jure_liege_title = title:d_northwest
+		}
+		title:c_aythiston = {
+			set_de_jure_liege_title = title:d_northwest
+		}
+
+		create_character = {
+			location = root.capital_province
+			culture = culture:native_american_minor
+			faith = faith:pagan
+			gender = male
+			save_scope_as = native_controller
+		}
+		create_title_and_vassal_change = {
+			type = granted
+			save_scope_as = change
+			add_claim_on_loss = no
+		}
+		every_realm_county = {
+			limit = {
+				OR = {
+					target_is_de_jure_liege_or_above = title:d_north_dakota
+					target_is_de_jure_liege_or_above = title:d_minnesota
+				}
+			}
+			change_title_holder = {
+				holder = scope:native_controller
+				change = scope:change
+			}
+		}
+		scope:native_controller = {
+			becomes_independent = { change = scope:change }
+		}
+		resolve_title_and_vassal_change = scope:change
+		scope:native_controller = {
+			change_government = tribal_government
+		}
+		add_prestige = 200
+
+		#Can only be done once
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:1818_treaty_signed
+		}
+
+		save_scope_as = proposer
+		title:e_united_states.holder = { trigger_event = moderntimes.30 }
+	}
+		
+	ai_will_do = {
+		base = 100
+	}
+}
+	
+adams_onis_treaty_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
+	major = yes
+	ai_check_interval = 5
+	desc = adams_onis_treaty_desc
+
+	is_shown = {
+		has_title = title:k_spain
+		any_realm_county = {
+			OR = {
+				target_is_de_jure_liege_or_above = title:d_east_florida
+				target_is_de_jure_liege_or_above = title:d_west_florida
+			}
+		}
+		NOT = {  #Can only do it once.
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:adams_onis_signed
+			}
+		}
+		exists = title:e_united_states.holder
+		current_date > 1819.1.1
+	}
+		
+	is_valid = {
+		NOT = {
+			is_at_war_with = title:e_united_states.holder
+		}
+	}
+		
+	effect = {
+		reverse_add_opinion = {
+			target = title:e_united_states.holder
+			modifier = opinion_ceded_rightful_lands_50
+			years = 20
+		}
+
+		custom_tooltip = adams_onis_de_jure_effect
+		every_county = {
+			limit = {
+				OR = {
+					target_is_de_jure_liege_or_above = title:d_east_florida
+					target_is_de_jure_liege_or_above = title:d_west_florida
+				}
+			}
+			set_de_jure_liege_title = title:d_florida
+		}
+		create_character = {
+			location = root.capital_province
+			culture = culture:american
+			faith = faith:protestant
+			gender = male
+			save_scope_as = new_governor
+		}
+		create_title_and_vassal_change = {
+			type = granted
+			save_scope_as = change
+			add_claim_on_loss = no
+		}
+		every_realm_county = {
+			limit = {
+				target_is_de_jure_liege_or_above = title:e_united_states
+			}
+			change_title_holder = {
+				holder = scope:new_governor
+				change = scope:change
+			}
+		}
+		title:d_florida = {
+			change_title_holder = {
+				holder = scope:new_governor
+				change = scope:change
+			}
+		}
+		resolve_title_and_vassal_change = scope:change
+		create_title_and_vassal_change = {
+			type = swear_fealty
+			save_scope_as = change2
+			add_claim_on_loss = no
+		}
+		scope:new_governor = {
+			change_liege = {
+				liege = title:e_united_states.holder
+				change = scope:change2
+			}
+		}
+		resolve_title_and_vassal_change = scope:change2
+		scope:new_governor = {
+			change_government = republic_government
+		}
+		add_prestige = 20
+
+		#Can only be done once
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:adams_onis_signed
+		}
+
+		save_scope_as = proposer
+		title:e_united_states.holder = { trigger_event = moderntimes.31 }
+	}
+		
+	ai_will_do = {
+		base = 100
 	}
 }

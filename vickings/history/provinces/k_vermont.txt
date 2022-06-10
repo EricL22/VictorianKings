@@ -1,0 +1,44 @@
+11528 = {
+	culture = american
+	religion = protestant
+}
+
+11529 = {
+	culture = american
+	religion = protestant
+}
+
+11530 = {
+	culture = american
+	religion = protestant
+}
+
+11531 = {
+	culture = american
+	religion = protestant
+}
+
+11532 = {
+	culture = american
+	religion = protestant
+}
+
+11533 = {
+	culture = american
+	religion = protestant
+}
+
+11534 = {
+	culture = american
+	religion = protestant
+}
+
+11535 = {
+	culture = american
+	religion = protestant
+}
+
+11536 = {
+	culture = american
+	religion = protestant
+}

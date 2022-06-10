@@ -1,0 +1,179 @@
+11438 = {
+	culture = american
+	religion = protestant
+}
+
+11439 = {
+	culture = american
+	religion = protestant
+}
+
+11440 = {
+	culture = american
+	religion = protestant
+}
+
+11441 = {
+	culture = american
+	religion = protestant
+}
+
+11442 = {
+	culture = american
+	religion = protestant
+}
+
+11443 = {
+	culture = american
+	religion = protestant
+}
+
+11444 = {
+	culture = american
+	religion = protestant
+}
+
+11445 = {
+	culture = american
+	religion = protestant
+}
+
+11563 = {
+	culture = american
+	religion = protestant
+}
+
+11564 = {
+	culture = american
+	religion = protestant
+}
+
+11565 = {
+	culture = american
+	religion = protestant
+}
+
+11566 = {
+	culture = american
+	religion = protestant
+}
+
+11567 = {
+	culture = american
+	religion = protestant
+}
+
+11568 = {
+	culture = american
+	religion = protestant
+}
+
+11569 = {
+	culture = american
+	religion = protestant
+}
+
+11570 = {
+	culture = american
+	religion = protestant
+}
+
+11571 = {
+	culture = american
+	religion = protestant
+}
+
+11572 = {
+	culture = american
+	religion = protestant
+}
+
+11573 = {
+	culture = american
+	religion = protestant
+}
+
+11574 = {
+	culture = american
+	religion = protestant
+}
+
+11575 = {
+	culture = american
+	religion = protestant
+}
+
+11576 = {
+	culture = american
+	religion = protestant
+}
+
+11577 = {
+	culture = american
+	religion = protestant
+}
+
+11578 = {
+	culture = american
+	religion = protestant
+}
+
+11579 = {
+	culture = american
+	religion = protestant
+}
+
+11580 = {
+	culture = american
+	religion = protestant
+}
+
+11581 = {
+	culture = american
+	religion = protestant
+}
+
+11582 = {
+	culture = american
+	religion = protestant
+}
+
+11583 = {
+	culture = american
+	religion = protestant
+}
+
+11584 = {
+	culture = american
+	religion = protestant
+}
+
+11585 = {
+	culture = american
+	religion = protestant
+}
+
+11586 = {
+	culture = american
+	religion = protestant
+}
+
+11587 = {
+	culture = american
+	religion = protestant
+}
+
+11588 = {
+	culture = american
+	religion = protestant
+}
+
+11589 = {
+	culture = american
+	religion = protestant
+}
+
+11590 = {
+	culture = american
+	religion = protestant
+}

@@ -1,6 +1,7 @@
 ﻿l_english:
 
  same_culture_none_factionalism_double_different:0 "[vassals|E] of your [culture|E] are no longer inclined to join [independence_factions|E], but those of a different culture will be much more inclined"
+ unlocks_protectorate_interaction:0 "Unlocks the $offer_protectorate_interaction$ [interaction|E]"
  absolutism_vassal_restriction:0 "Unlocks the #P Government Reforms#!"
 
 #####################
@@ -28,5 +29,8 @@
  #Civic
  innovation_nationalism_n_imperialism:0 "Nationalism and Imperialism"
  innovation_nationalism_n_imperialism_desc:0 "One state. One people. Our glorious nation will no longer be bound by old oaths between vassal and lord, but by obligation to defend a culture and civilize all lesser ones."
+
+ innovation_mechanical_production:0 "Mechanical Production"
+ innovation_mechanical_production_desc:0 "New advancements in technology allow us to use methods of construction never before fathomed. Among the many applications are canals, automobiles, and even specialized navigation systems for moving through narrow river systems."
 
  #Regional

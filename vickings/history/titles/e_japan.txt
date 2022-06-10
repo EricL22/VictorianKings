@@ -815,3 +815,15 @@ c_shuri = {
 		holder = 6330001
 	}
 }
+
+c_cupka = {
+	1800.1.1 = {
+		holder = modern08
+	}
+}
+
+c_kita_chishima = {
+	1800.1.1 = {
+		holder = modern08
+	}
+}

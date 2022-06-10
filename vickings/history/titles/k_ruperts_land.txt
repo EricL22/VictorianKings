@@ -1,0 +1,137 @@
+d_northern_quebec = {
+	1812.5.5 = {
+		holder = 6400514
+	}
+	1822.1.1 = {
+		holder = 6400515
+	}
+}
+d_patricia = {
+	1812.5.5 = {
+		holder = 6400514
+	}
+	1822.1.1 = {
+		holder = 6400515
+	}
+}
+d_manitoba = {
+	1812.5.5 = {
+		holder = 6400514
+	}
+	1822.1.1 = {
+		holder = 6400515
+	}
+}
+d_saskatchewan = {
+	1812.5.5 = {
+		holder = 6400514
+	}
+	1822.1.1 = {
+		holder = 6400515
+	}
+}
+d_northwest = {
+	1812.5.5 = {
+		holder = 6400514
+	}
+	1822.1.1 = {
+		holder = 6400515
+	}
+}
+
+c_diosempoera = {
+	1819.1.30 = {
+		de_jure_liege = d_north_dakota
+		holder = nativeamerican35
+	}
+}
+c_malkimmeios = {
+	1819.1.30 = {
+		de_jure_liege = d_north_dakota
+		holder = nativeamerican35
+	}
+}
+c_oechayra = {
+	1819.1.30 = {
+		de_jure_liege = d_north_dakota
+		holder = nativeamerican35
+	}
+}
+c_massacorcosia = {
+	1819.1.30 = {
+		de_jure_liege = d_north_dakota
+		holder = nativeamerican35
+	}
+}
+c_borysargita = {
+	1819.1.30 = {
+		de_jure_liege = d_minnesota
+		holder = nativeamerican35
+	}
+}
+c_assephyoli = {
+	1819.1.30 = {
+		de_jure_liege = d_minnesota
+		holder = nativeamerican35
+	}
+}
+c_gourcniina = {
+	1819.1.30 = {
+		de_jure_liege = d_minnesota
+		holder = nativeamerican35
+	}
+}
+c_kydobhyrtessa = {
+	1819.1.30 = {
+		de_jure_liege = d_north_dakota
+		holder = nativeamerican35
+	}
+}
+c_erydymlia = {
+	1819.1.30 = {
+		de_jure_liege = d_minnesota
+		holder = nativeamerican35
+	}
+}
+c_kydohagium = {
+	1819.1.30 = {
+		de_jure_liege = d_minnesota
+		holder = nativeamerican35
+	}
+}
+c_imlindthos = {
+	1819.1.30 = {
+		de_jure_liege = d_north_dakota
+		holder = nativeamerican35
+	}
+}
+c_byzolbosia = {
+	1819.1.30 = {
+		de_jure_liege = d_minnesota
+		holder = nativeamerican35
+	}
+}
+c_kamedicaeaila = {
+	1819.1.30 = {
+		de_jure_liege = d_north_dakota
+		holder = nativeamerican35
+	}
+}
+c_onedepolis = {
+	1819.1.30 = {
+		de_jure_liege = d_north_dakota
+		holder = nativeamerican35
+	}
+}
+c_katmilllia = {
+	1819.1.30 = {
+		de_jure_liege = d_north_dakota
+		holder = nativeamerican35
+	}
+}
+c_kerkiantiina = {
+	1819.1.30 = {
+		de_jure_liege = d_north_dakota
+		holder = nativeamerican35
+	}
+}

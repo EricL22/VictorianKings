@@ -361,3 +361,410 @@ talpur = {
 	name = "dynn_Shou"
 	culture = japanese
 }
+
+172015 = {
+	name = "dynn_Meshepeshe"
+	culture = native_american_minor
+}
+
+163157 = {
+	name = "dynn_Washington"
+	culture = "english"
+}
+
+163158 = {
+	name = "dynn_Adams"
+	culture = "english"
+}
+
+163159 = {
+	name = "dynn_Jefferson"
+	culture = "english"
+}
+
+163160 = {
+	name = "dynn_Madison"
+	culture = "english"
+}
+
+163161 = {
+	name = "dynn_Monroe"
+	culture = "english"
+}
+
+163162 = {
+	name = "dynn_Jackson"
+	culture = "english"
+}
+
+163163 = {
+	prefix = "dynnp_van"
+	name = "dynn_Buren"
+	culture = "dutch"
+}
+
+163164 = {
+	name = "dynn_Harrison"
+	culture = "english"
+}
+
+strong = {
+	name = "dynn_Strong"
+	culture = "english"
+}
+plumer = {
+	name = "dynn_Plumer"
+	culture = "english"
+}
+jones = {
+	name = "dynn_Jones"
+	culture = "english"
+}
+griswold = {
+	name = "dynn_Griswold"
+	culture = "english"
+}
+tompkins = {
+	name = "dynn_Tompkins"
+	culture = "english"
+}
+bloomfield = {
+	name = "dynn_Bloomfield"
+	culture = "english"
+}
+snyder = {
+	name = "dynn_Snyder"
+	culture = "english"
+}
+haslet= {
+	name = "dynn_Haslet"
+	culture = "english"
+}
+bowie = {
+	name = "dynn_Bowie"
+	culture = "english"
+}
+barbour = {
+	name = "dynn_Barbour"
+	culture = "english"
+}
+dunlap = {
+	name = "dynn_Dunlap"
+	culture = "english"
+}
+hawkins = {
+	name = "dynn_Hawkins"
+	culture = "english"
+}
+middleton = {
+	name = "dynn_Middleton"
+	culture = "english"
+}
+mitchell = {
+	name = "dynn_Mitchell"
+	culture = "english"
+}
+galusha = {
+	name = "dynn_Galusha"
+	culture = "english"
+}
+miller = {
+	name = "dynn_Miller"
+	culture = "english"
+}
+spaight = {
+	name = "dynn_Spaight"
+	culture = "english"
+}
+chittenden = {
+	name = "dynn_Chittenden"
+	culture = "english"
+}
+jennison = {
+	name = "dynn_Jennison"
+	culture = "english"
+}
+everett = {
+	name = "dynn_Everett"
+	culture = "english"
+}
+francis = {
+	name = "dynn_Francis"
+	culture = "english"
+}
+edwards = {
+	name = "dynn_Edwards"
+	culture = "english"
+}
+marcy = {
+	name = "dynn_Marcy"
+	culture = "english"
+}
+ritner = {
+	name = "dynn_Ritner"
+	culture = "english"
+}
+pennington = {
+	name = "dynn_Pennington"
+	culture = "english"
+}
+vroom = {
+	name = "dynn_Vroom"
+	culture = "english"
+}
+rodney = {
+	name = "dynn_Rodney"
+	culture = "english"
+}
+bennett = {
+	name = "dynn_Bennett"
+	culture = "english"
+}
+winder = {
+	name = "dynn_Winder"
+	culture = "english"
+}
+veazey = {
+	name = "dynn_Veazey"
+	culture = "english"
+}
+gilman = {
+	name = "dynn_Gilman"
+	culture = "english"
+}
+badger = {
+	name = "dynn_Badger"
+	culture = "english"
+}
+nicholas = {
+	name = "dynn_Nicholas"
+	culture = "english"
+}
+tazewell = {
+	name = "dynn_Tazewell"
+	culture = "english"
+}
+williams = {
+	name = "dynn_Williams"
+	culture = "english"
+}
+mcduffie = {
+	name = "dynn_McDuffie"
+	culture = "english"
+}
+early = {
+	name = "dynn_Early"
+	culture = "english"
+}
+schley = {
+	name = "dynn_Schley"
+	culture = "english"
+}
+
+duckworth = {
+	name = "dynn_Duckworth"
+	culture = "english"
+}
+keats = {
+	name = "dynn_Keats"
+	culture = "english"
+}
+prescott = {
+	name = "dynn_Prescott"
+	culture = "english"
+}
+desbarres = {
+	prefix = "dynnp_des"
+	name = "dynn_Barres"
+	culture = "french"
+}
+smith = {
+	name = "dynn_Smith"
+	culture = "english"
+}
+wright = {
+	name = "dynn_Wright"
+	culture = "english"
+}
+sherbrooke = {
+	name = "dynn_Sherbrooke"
+	culture = "english"
+}
+campbell = {
+	name = "dynn_Campbell"
+	culture = "english"
+}
+carleton = {
+	name = "dynn_Carleton"
+	culture = "english"
+}
+campbell2 = {
+	name = "dynn_Campbell"
+	culture = "scottish"
+}
+burton = {
+	name = "dynn_Burton"
+	culture = "english"
+}
+acheson = {
+	name = "dynn_Acheson"
+	culture = "english"
+}
+gore = {
+	name = "dynn_Gore"
+	culture = "english"
+}
+head = {
+	name = "dynn_Head"
+	culture = "english"
+}
+eaton = {
+	name = "dynn_Eaton"
+	culture = "english"
+}
+clay = {
+	name = "dynn_Clay"
+	culture = "english"
+}
+holmes = {
+	name = "dynn_Holmes"
+	culture = "english"
+}
+lynch = {
+	name = "dynn_Lynch"
+	culture = "english"
+}
+blount = {
+	name = "dynn_Blount"
+	culture = "english"
+}
+cannon = {
+	name = "dynn_Cannon"
+	culture = "english"
+}
+shelby = {
+	name = "dynn_Shelby"
+	culture = "english"
+}
+morehead = {
+	name = "dynn_Morehead"
+	culture = "english"
+}
+meigs = {
+	name = "dynn_Meigs"
+	culture = "english"
+}
+worthington = {
+	name = "dynn_Worthington"
+	culture = "english"
+}
+lucas = {
+	name = "dynn_Lucas"
+	culture = "english"
+}
+claiborne = {
+	name = "dynn_Claiborne"
+	culture = "english"
+}
+white = {
+	name = "dynn_White"
+	culture = "english"
+}
+hull = {
+	name = "dynn_Hull"
+	culture = "english"
+}
+cass = {
+	name = "dynn_Cass"
+	culture = "english"
+}
+mason = {
+	name = "dynn_Mason"
+	culture = "english"
+}
+posey = {
+	name = "dynn_Posey"
+	culture = "english"
+}
+noble = {
+	name = "dynn_Noble"
+	culture = "english"
+}
+edwards2 = {
+	name = "dynn_Edwards"
+	culture = "english"
+}
+duncan = {
+	name = "dynn_Duncan"
+	culture = "english"
+}
+smith2 = {
+	name = "dynn_Smith"
+	culture = "english"
+}
+howard = {
+	name = "dynn_Howard"
+	culture = "english"
+}
+clark = {
+	name = "dynn_Clark"
+	culture = "english"
+}
+dunklin = {
+	name = "dynn_Dunklin"
+	culture = "english"
+}
+fulton = {
+	name = "dynn_Fulton"
+	culture = "english"
+}
+berens = {
+	name = "dynn_Berens"
+	culture = "english"
+}
+pelly = {
+	name = "dynn_Pelly"
+	culture = "english"
+}
+
+kindelan_y_oregan = {
+	name = "dynn_Kindelan_y_Oregan"
+	culture = "castilian"
+}
+estrada = {
+	prefix = "dynnp_de"
+	name = "dynn_Estrada"
+	culture = "castilian"
+}
+zuniga = {
+	prefix = "dynnp_de"
+	name = "dynn_Zuniga"
+	culture = "castilian"
+}
+soto = {
+	prefix = "dynnp_de"
+	name = "dynn_Soto"
+	culture = "castilian"
+}
+
+# thank PDX for giving me all this extra work... not even justified
+51 = {
+	prefix = "dynnp_von"
+	name = "dynn_Habsburg"
+	culture = "swabian"
+	motto = dynn_Habsburg_motto # Technically adopted in 1415, but hey...
+}
+528 = {
+	name = "dynn_Wettin"
+	culture = "saxon"
+}
+217 = {
+	prefix = "dynnp_von"
+	name = "dynn_Wittelsbach"
+	culture = "bavarian"
+}
+144258 = {
+	prefix = "dynnp_de"
+	name = "dynn_Braganza"
+	culture = "portuguese"
+}

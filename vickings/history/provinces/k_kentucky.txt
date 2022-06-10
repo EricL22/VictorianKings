@@ -1,0 +1,114 @@
+11942 = {
+	culture = american
+	religion = protestant
+}
+
+11943 = {
+	culture = american
+	religion = protestant
+}
+
+11944 = {
+	culture = american
+	religion = protestant
+}
+
+11945 = {
+	culture = american
+	religion = protestant
+}
+
+11946 = {
+	culture = american
+	religion = protestant
+}
+
+11947 = {
+	culture = american
+	religion = protestant
+}
+
+11948 = {
+	culture = american
+	religion = protestant
+}
+
+11949 = {
+	culture = american
+	religion = protestant
+}
+
+11950 = {
+	culture = american
+	religion = protestant
+}
+
+11951 = {
+	culture = american
+	religion = protestant
+}
+
+11952 = {
+	culture = american
+	religion = protestant
+}
+
+11953 = {
+	culture = american
+	religion = protestant
+}
+
+11954 = {
+	culture = american
+	religion = protestant
+}
+
+11955 = {
+	culture = american
+	religion = protestant
+}
+
+11956 = {
+	culture = american
+	religion = protestant
+}
+
+11957 = {
+	culture = american
+	religion = protestant
+}
+
+11958 = {
+	culture = american
+	religion = protestant
+}
+
+11959 = {
+	culture = american
+	religion = protestant
+}
+
+11960 = {
+	culture = american
+	religion = protestant
+}
+
+11961 = {
+	culture = american
+	religion = protestant
+}
+
+11962 = {
+	culture = american
+	religion = protestant
+}
+
+11963 = {
+	culture = american
+	religion = protestant
+}
+
+11964 = {
+	culture = american
+	religion = protestant
+}

@@ -97,12 +97,12 @@ e_khmer = {
 				color2 = { 255 255 255 }
 
 				cultural_names = {
-					viet = cn_xoai_rieng
+					name_list_vietnamese = cn_xoai_rieng
 				}
 
 				b_svay_rieng = {
 					cultural_names = {
-						viet = cn_xoai_rieng
+						name_list_vietnamese = cn_xoai_rieng
 					}
 					province = 11148
 
@@ -1340,7 +1340,7 @@ e_vietnam = {
 			capital = c_gaao # Jiaozhou
 
 			cultural_names = {
-				french = cn_tonkin
+				name_list_french = cn_tonkin
 			}
 
 			c_gaao = { # Jiaozhou
@@ -1789,7 +1789,7 @@ e_vietnam = {
 			capital = c_gia_dinh
 
 			cultural_names = {
-				french = cn_cochinchina
+				name_list_french = cn_cochinchina
 			}
 
 			c_gia_dinh = {

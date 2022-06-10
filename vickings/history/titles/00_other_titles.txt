@@ -2047,6 +2047,85 @@ d_shiite = {
 	}
 }
 
+d_masmudi = {
+	1.1.1 = {
+		succession_laws = {
+			temporal_head_of_faith_succession_law
+		}
+	}
+}
+
+d_malabarism = {
+	1.1.1 = {
+		succession_laws = {
+			temporal_head_of_faith_succession_law
+		}
+	}
+}
+
+d_muwalladi = {
+	929.01.16 = {
+		# Founding of the Cordoba Caliphate.
+		effect = {
+			faith:muwalladi = { set_religious_head_title = title:d_muwalladi }
+		}
+		holder = 3200 # Abd al-Rahman III
+	}
+	961.10.15 = {
+		holder = 3202 # al-Hakam II
+	}
+	976.10.1 = {
+		holder = 3204 # Hisham II
+	}
+	1009.2.15 = {
+		holder = 73671 # Muhammad II
+	}
+	1009.11.8 = {
+		holder = 73675 # Suleyman ibn al-Hakam
+	}
+	1010.5.10 = {
+		holder = 73671 # Muhammad II
+	}
+	1010.7.23 = {
+		holder = 3204 # Hisham II
+	}
+	1013.4.19 = {
+		holder = 73675 # Suleyman ibn al-Hakam
+	}
+	1016.7.1 = {
+		holder = 73687 # Ali ibn Hammud
+	}
+	1018.3.22 = {
+		holder = 73678 # Abd al-Rahman IV
+	}
+	1018.9.1 = {
+		holder = 73689 # al-Qasim al-Mamun
+	}
+	1021.8.4 = {
+		holder = 73690 # Yahya al-Muhtal
+	}
+	1023.2.6 = {
+		holder = 73689 # al-Qasim al-Mamun (restored)
+	}
+	1023.9.9 = {
+		holder = 73672 # Abd al-Rahman V
+	}
+	1024.1.17 = {
+		holder = 73668 # Muhammad III
+	}
+	1025.6.12 = {
+		holder = 73690 # Yahya al-Muhtal (restored)
+	}
+	1027.6.4 = {
+		holder = 3208 # Hisham III
+	}
+	1031.11.30 = {
+		holder = 0
+		effect = {
+			faith:muwalladi = { remove_religious_head_title = yes }
+		}
+	}
+}
 
 e_golden_horde = {
 	20.1.1 = {
@@ -4403,6 +4482,120 @@ k_asturias = {
 	}
 }
 
+k_visigoths = {
+	395.1.1 = {
+		holder = 200291 # Alarico I
+	}
+	410.1.1 = {
+		holder = 200290 # Ataúlfo
+	}
+	415.8.14 = {
+		holder = 200289 # Sigerico
+	}
+	415.8.21 = {
+		holder = 200288 # Walia
+	}
+	418.1.1 = {
+		holder = 200287 # Teodorico I, settled in Southern Gallia & Northen Spain, capital in Toulouse
+	}
+	451.9.20 = {
+		holder = 200286 # Turismundo
+	}
+	453.1.1 = {
+		holder = 200285 # Teodorico II
+	}
+	466.1.1 = {
+		holder = 200284 # Eurico
+	}
+	484.1.1 = {
+		holder = 200283 # Alarico II
+	}
+	507.4.1 = {
+		holder = 200282 # Gesaleico, moved capital to Toledo
+	}
+	511.1.1 = {
+		holder = 200281 # Amalarico
+	}
+	531.1.1 = {
+		holder = 200280 # Teudis, an ostrogoth
+	}
+	548.1.1 = {
+		holder = 200279 # Teudiselo, an ostrogoth
+	}
+	549.12.1 = {
+		holder = 200277 # Agila I
+	}
+	555.3.1 = {
+		holder = 200276 # Atanagildo
+	}
+	567.1.1 = {
+		holder = 200275 # Liuva I
+	}
+	572.1.1 = {
+		holder = 200273 # Leovigildo
+	}
+	586.4.1 = {
+		holder = 200272 # Recaredo I, adopted catholicism
+	}
+	601.12.21 = {
+		holder = 200271 # Liuva II
+	}
+	603.3.1 = {
+		holder = 200270 # Witerico
+	}
+	610.4.1 = {
+		holder = 200269 # Gundemaro
+	}
+	612.3.1 = {
+		holder = 200259 # Sisebuto
+	}
+	621.2.1 = {
+		holder = 200258 # Recaredo II
+	}
+	621.3.1 = {
+		holder = 200256 # Suintila
+	}
+	631.3.23 = {
+		holder = 200278 # Sisenando
+	}
+	636.3.12 = {
+		holder = 200254 # Chintila
+	}
+	639.12.20 = {
+		holder = 200255 # Tulga
+	}
+	642.4.16 = {
+		holder = 200240 # Chindasvinto
+	}
+	653.9.30 = {
+		holder = 200249 # Recesvinto
+	}
+	672.9.1 = {
+		holder = 200248 # Wamba
+	}
+	680.1.1 = {
+		holder = 200237 # Ervigio
+	}
+	687.11.15 = {
+		holder = 200243 # Egica
+	}
+	703.1.1 = {
+		holder = 200244 # Witiza
+	}
+	710.1.1 = {
+		holder = 200251 # Rodrigo
+	}
+	711.7.20 = {
+		holder = 200245 # Agila II, King in northeastern Spain
+	}
+	713.1.1 = {
+		holder = 200253 # Ardo, King in Septimania
+	}
+	720.1.1 = {
+		holder = 0
+	}
+}
+
 
 e_maghreb = {
 	20.1.1 = {
@@ -5078,9 +5271,45 @@ d_yungdrung_bon = {
 	}
 }
 
+d_imami = { # Twelver Imams
+	765.12.14 = {
+		succession_laws = {
+			temporal_head_of_faith_succession_law
+		}
+		holder_ignore_head_of_faith_requirement = 163022 # Musa al-Kadhim
+	}
+	799.9.1 = {
+		holder_ignore_head_of_faith_requirement = 163023 # Ali al-Ridha
+	}
+	818.8.23 = {
+		holder_ignore_head_of_faith_requirement = 163024 # Muhammad al-Taqi
+	}
+	835.11.24 = {
+		holder_ignore_head_of_faith_requirement = 163025 # Ali al-Hadi
+	}
+	866.12.30 = {
+		holder_ignore_head_of_faith_requirement = 0
+	}
+	868.1.1 = {
+		holder_ignore_head_of_faith_requirement = 163026 # Hasan al-Askari
+	}
+	874.1.1 = {
+		holder_ignore_head_of_faith_requirement = 163027 # Muhammad al-Mahdi
+	}
+	909.1.1 = {
+		holder = 0
+	}
+}
+
 k_portugal = {
 	1139.7.26 = {
 		holder = 209503
+		effect = {
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:form_portugal_decision
+			}
+		}
 	}
 	1185.12.6 = {
 		holder = 209500
@@ -5596,5 +5825,60 @@ k_sikkim = {
 	}
 	1863.1.1 = {
 		holder = 6100007
+	}
+}
+
+e_united_states = {
+	1789.4.30 = {
+		holder = 6400000
+		government = republic_government
+	}
+	1797.3.4 = {
+		holder = 6400001
+	}
+	1801.3.4 = {
+		holder = 6400002
+	}
+	1809.3.4 = {
+		holder = 6400003
+	}
+	1817.3.4 = {
+		holder = 6400004
+	}
+	1825.3.4 = {
+		holder = 6400005
+	}
+	1829.3.4 = {
+		holder = 6400006
+	}
+	1837.3.4 = {
+		holder = 6400007
+	}
+	1841.3.4 = {
+		holder = 6400008
+	}
+}
+
+k_native_american_confederacy = {
+	1808.1.1 = {
+		holder = 9000104
+		government = tribal_government
+	}
+	1813.10.5 = {
+		holder = 0
+	}
+}
+
+k_hudsons_bay = {
+	1670.5.2 = {
+		#government = republic_government
+		de_jure_liege = e_canada
+		liege = e_britannia
+	}
+	1812.5.5 = {
+		holder = 6400514
+	}
+	1822.1.1 = {
+		holder = 6400515
 	}
 }

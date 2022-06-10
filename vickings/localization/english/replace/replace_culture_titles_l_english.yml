@@ -1,0 +1,19 @@
+﻿l_english:
+
+ #############################################
+ #Default Republic tiers
+ baron_republic_male:0 "Mayor"
+ baron_republic_female:0 "Mayor"
+ barony_republic:0 "City"
+ count_republic_male:0 "Lord-Mayor"
+ count_republic_female:0 "Lady-Mayor"
+ county_republic:0 "Grand City"
+ duke_republic_male:0 "Grand Mayor"
+ duke_republic_female:0 "Grand Mayor"
+ duchy_republic:0 "Republic"
+ king_republic_male:0 "President"
+ king_republic_female:0 "Madame"
+ kingdom_republic:0 "Republic"
+ emperor_republic_male:0 "President"
+ emperor_republic_female:0 "Madame"
+ empire_republic:0 "Republic"

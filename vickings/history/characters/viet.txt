@@ -3,7 +3,7 @@
 ### Nguyen Dynasty
 
 1000400 = {
-	name = "Phúc Ánh"
+	name = "Phuc_Anh"
 	dynasty = 180283
 	religion = sanjiaoheliu
 	culture = "viet"
@@ -25,7 +25,7 @@
 }
 
 1000401 = {
-	name = "Phúc Đảm"
+	name = "Phuc_Dam"
 	dynasty = 180283
 	religion = sanjiaoheliu
 	culture = "viet"
@@ -46,7 +46,7 @@
 }
 
 1000402 = {
-	name = "Phúc Miên Tông"
+	name = "Phuc_Mien_Tong"
 	dynasty = 180283
 	religion = sanjiaoheliu
 	culture = "viet"
@@ -66,7 +66,7 @@
 }
 
 1000403 = {
-	name = "Phúc Hồng Nhậm"
+	name = "Phuc_Hong_Nham"
 	dynasty = 180283
 	religion = sanjiaoheliu
 	culture = "viet"
@@ -86,7 +86,7 @@
 }
 
 1000404 = {
-	name = "Phúc Hồng Y"
+	name = "Phuc_Hong_Y"
 	dynasty = 180283
 	religion = sanjiaoheliu
 	culture = "viet"

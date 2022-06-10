@@ -50,3 +50,17 @@
  holy_site_yichuan_effect_name:0 "来自[holy_site|E]#weak （$holy_site_yichuan_name$）#!"
  holy_site_youxi_name:0 "尤溪"
  holy_site_youxi_effect_name:0 "来自[holy_site|E]#weak （$holy_site_youxi_name$）#!"
+
+ # Holy Sites: Shamanism
+ holy_site_nurgan_name:0 "奴儿干"
+ holy_site_nurgan_effect_name:0 "来自[holy_site|E]#weak （$holy_site_nurgan_name$）#!"
+ holy_site_huining_name:0 "会宁"
+ holy_site_huining_effect_name:0 "来自[holy_site|E]#weak （$holy_site_huining_name$）#!"
+ holy_site_linhuang_name:0 "临潢"
+ holy_site_linhuang_effect_name:0 "来自[holy_site|E]#weak （$holy_site_linhuang_name$）#!"
+ holy_site_liaoyang_name:0 "辽阳"
+ holy_site_liaoyang_effect_name:0 "来自[holy_site|E]#weak （$holy_site_liaoyang_name$）#!"
+ holy_site_dading_name:0 "大定"
+ holy_site_dading_effect_name:0 "来自[holy_site|E]#weak （$holy_site_dading_name$）#!"
+ holy_site_daxing_name:0 "大兴"
+ holy_site_daxing_effect_name:0 "来自[holy_site|E]#weak （$holy_site_daxing_name$）#!"

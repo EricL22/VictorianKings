@@ -1,0 +1,70 @@
+c_odesiasdos = {
+	1808.1.1 = {
+		holder = nativeamerican18
+	}
+}
+c_hyolbites = {
+	1808.1.1 = {
+		holder = nativeamerican18
+	}
+}
+c_lindhieosia = {
+	1808.1.1 = {
+		holder = nativeamerican18
+	}
+}
+c_epheceblia = {
+	1808.1.1 = {
+		holder = nativeamerican18
+	}
+}
+c_alamukenita = {
+	1808.1.1 = {
+		holder = nativeamerican18
+	}
+}
+c_helohellesnae = {
+	1808.1.1 = {
+		holder = nativeamerican18
+	}
+}
+c_naxnystes = {
+	1808.1.1 = {
+		holder = nativeamerican18
+	}
+}
+c_ithanmochlia = {
+	1808.1.1 = {
+		holder = nativeamerican18
+	}
+}
+c_lebhublus = {
+	1808.1.1 = {
+		holder = nativeamerican18
+	}
+}
+c_asicoruf = {
+	1808.1.1 = {
+		holder = nativeamerican18
+	}
+}
+c_eresklazrias = {
+	1808.1.1 = {
+		holder = nativeamerican18
+	}
+}
+c_lamiithaon = {
+	1808.1.1 = {
+		holder = nativeamerican18
+	}
+}
+c_olyclados = {
+	1808.1.1 = {
+		holder = nativeamerican18
+	}
+}
+c_madkimmetta = {
+	1808.1.1 = {
+		holder = nativeamerican18
+	}
+}

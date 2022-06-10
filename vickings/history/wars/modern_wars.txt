@@ -39,3 +39,13 @@ war = {
 	defenders = { 8000019 }
 	#claimant = 9200007
 }
+
+# War of 1812
+war = {
+	name = "war_1812_American"
+	start_date = 1812.6.18
+	end_date = 1814.12.24
+	casus_belli = trade_war_cb
+	attackers = { 6400003 }
+	defenders = { 9000000 9000104 }
+}

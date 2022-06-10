@@ -1,0 +1,285 @@
+﻿lowersaxon = { #####Hannoverian
+	
+	color = { 164  217  127 }
+	
+	created = 1150.1.1
+	parents = { old_saxon }
+	
+	ethos = ethos_stoic
+	heritage = heritage_central_germanic
+	language = language_saxon
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_stand_and_fight
+		tradition_ruling_caste
+		tradition_religious_patronage
+	}
+	
+	name_list = name_list_lowersaxon
+
+	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx } 
+	
+	ethnicities = {
+		25 = caucasian_blond
+		15 = caucasian_ginger
+		35 = caucasian_brown_hair
+		25 = caucasian_dark_hair
+	}
+}
+
+thuringian = {
+	
+	color = { 66  126  157 }
+	
+	created = 1100.1.1
+	parents = { saxon bavarian }
+	
+	ethos = ethos_stoic
+	heritage = heritage_central_germanic
+	language = language_high_german
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_hereditary_hierarchy
+		tradition_astute_diplomats
+		tradition_stand_and_fight
+	}
+	
+	name_list = name_list_thuringian
+
+	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx } 
+	
+	ethnicities = {
+		25 = caucasian_blond
+		15 = caucasian_ginger
+		35 = caucasian_brown_hair
+		25 = caucasian_dark_hair
+	}
+}
+
+rhenish = {
+	
+	color = { 0  168  35 }
+	
+	created = 1300.1.1
+	parents = { franconian }
+	
+	ethos = ethos_stoic
+	heritage = heritage_central_germanic
+	language = language_high_german
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_hereditary_hierarchy
+		tradition_astute_diplomats
+		tradition_stand_and_fight
+	}
+	
+	name_list = name_list_rhenish
+
+	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx } 
+	
+	ethnicities = {
+		25 = caucasian_blond
+		15 = caucasian_ginger
+		35 = caucasian_brown_hair
+		25 = caucasian_dark_hair
+	}
+}
+
+hessian = {
+	
+	color = { 114  171  184 }
+	
+	created = 1600.1.1
+	parents = { rhenish }
+	
+	ethos = ethos_stoic
+	heritage = heritage_central_germanic
+	language = language_high_german
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_hereditary_hierarchy
+		tradition_astute_diplomats
+		tradition_stand_and_fight
+	}
+	
+	name_list = name_list_hessian
+
+	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx } 
+	
+	ethnicities = {
+		25 = caucasian_blond
+		15 = caucasian_ginger
+		35 = caucasian_brown_hair
+		25 = caucasian_dark_hair
+	}
+
+}
+
+
+flemish = {	
+	color = { 118  193  153 }
+	
+	created = 1300.1.1
+	parents = { dutch }
+	
+	ethos = ethos_bureaucratic
+	heritage = heritage_central_germanic
+	language = language_dutch
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_agrarian
+		tradition_parochialism
+		tradition_maritime_mercantilism
+		tradition_polders
+	}
+	
+	name_list = name_list_flemish
+
+	coa_gfx = { frisian_coa_gfx german_group_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx } 
+
+	ethnicities = {
+		25 = caucasian_blond
+		15 = caucasian_ginger
+		35 = caucasian_brown_hair
+		25 = caucasian_dark_hair
+	}
+}
+
+
+swiss = {	###German+italian
+	color = { 124 29 25 }
+	
+	ethos = ethos_spiritual
+	heritage = heritage_central_germanic
+	language = language_high_german
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_zealous_people
+		tradition_stand_and_fight
+		tradition_hereditary_hierarchy
+	}
+	
+	name_list = name_list_swiss
+
+	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx } 
+	
+	ethnicities = {
+		25 = caucasian_blond
+		15 = caucasian_ginger
+		35 = caucasian_brown_hair
+		25 = caucasian_dark_hair
+	}
+}
+
+austria = {	
+	color = { 220 220 220 }
+	
+	created = 1800.1.1
+	parents = { bavarian }
+	
+	ethos = ethos_spiritual
+	heritage = heritage_central_germanic
+	language = language_high_german
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_zealous_people
+		tradition_stand_and_fight
+		tradition_hereditary_hierarchy
+	}
+	
+	name_list = name_list_austrian
+
+	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx } 
+	
+	ethnicities = {
+		25 = caucasian_blond
+		15 = caucasian_ginger
+		35 = caucasian_brown_hair
+		25 = caucasian_dark_hair
+	}
+}
+
+teutonic = { #####german prussians
+	
+	color = { 102  105  104 }
+	
+	created = 1387.1.1
+	parents = { saxon }
+	
+	ethos = ethos_stoic
+	heritage = heritage_central_germanic
+	language = language_saxon
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_stand_and_fight
+		tradition_ruling_caste
+		tradition_religious_patronage
+	}
+	
+	name_list = name_list_teutonic
+
+	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx } 
+	
+	ethnicities = {
+		80 = caucasian_northern_blond
+		15 = caucasian_northern_ginger
+		3 = caucasian_northern_brown_hair
+		2 = caucasian_northern_dark_hair
+	}
+}
+
+pommern = { #####german pommeranian
+	
+	color = { 61  136  66 }
+	
+	created = 1000.1.1
+	parents = { saxon }
+	
+	ethos = ethos_stoic
+	heritage = heritage_central_germanic
+	language = language_saxon
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_stand_and_fight
+		tradition_ruling_caste
+		tradition_religious_patronage
+	}
+	
+	name_list = name_list_pommern
+
+	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx } 
+	
+	ethnicities = {
+		45 = slavic_blond
+		5 = slavic_ginger
+		35 = slavic_brown_hair
+		15 = slavic_dark_hair
+	}
+}

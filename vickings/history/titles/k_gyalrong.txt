@@ -1936,7 +1936,7 @@ d_malho = {
 c_rebgong = {
 	#Tuyuhun Kingdom (284 - 670)
 	284.1.1={
-		liege = "d_xining"
+		#liege = "d_xining"
 	}
 	#Rongwo dynasty - fictional placeholders
 	740.1.1={

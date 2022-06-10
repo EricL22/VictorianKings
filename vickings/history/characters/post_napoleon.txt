@@ -180,8 +180,8 @@
 					stacks = 30
 				}
 
-				location = 1527
-				origin = 1527
+				location = province:1527
+				origin = province:1527
 				inheritable = yes
 			}
 
@@ -193,8 +193,8 @@
 					stacks = 30
 				}
 
-				location = 1600
-				origin = 1600
+				location = province:1600
+				origin = province:1600
 				inheritable = yes
 			}
 
@@ -206,8 +206,8 @@
 					stacks = 30
 				}
 
-				location = 1649
-				origin = 1649
+				location = province:1649
+				origin = province:1649
 				inheritable = yes
 			}
 
@@ -219,8 +219,8 @@
 					stacks = 30
 				}
 
-				location = 28
-				origin = 28
+				location = province:28
+				origin = province:28
 				inheritable = yes
 			}
 
@@ -232,8 +232,8 @@
 					stacks = 30
 				}
 
-				location = 1727
-				origin = 1727
+				location = province:1727
+				origin = province:1727
 				inheritable = yes
 			}
 		}
@@ -284,9 +284,9 @@
 		birth = "1792.12.12"
 	}
 	1821.2.21 = {
-		add_unpressed_claim = c_nicopolis
-		add_unpressed_claim = c_aetolia
-		add_unpressed_claim = c_neopatras
+		add_unpressed_claim = title:c_nicopolis
+		add_unpressed_claim = title:c_aetolia
+		add_unpressed_claim = title:c_neopatras
 	}
 	1828.1.31 = {
 		death = "1828.1.31"
@@ -394,6 +394,7 @@
 	1833.9.29 = {
 		effect = {
 			set_realm_capital = title:c_madrid
+			add_realm_law_skip_effects = crown_authority_1
 			spawn_army = {
 				name = "Ejército Cristino del Centro"
 				men_at_arms = {
@@ -412,8 +413,8 @@
 					type = light_horsemen
 					stacks = 90
 				}
-				location = 1923
-				origin = 1923
+				location = province:1923
+				origin = province:1923
 			}
 			spawn_army = {
 				name = "Ejército del Norte"
@@ -425,8 +426,8 @@
 					type = bombard
 					stacks = 300
 				}
-				location = 1862
-				origin = 1862
+				location = province:1862
+				origin = province:1862
 				inheritable = no
 			}
 		}
@@ -776,8 +777,8 @@
 					type = light_horsemen
 					stacks = 10
 				}
-				location = 1233
-				origin = 1233
+				location = province:1233
+				origin = province:1233
 				inheritable = yes
 			}
 		}
@@ -1069,7 +1070,7 @@
 
 8000052 = {
 	name = "Muhammad Imaaduddeen"
-	dynasty = huraa
+#	dynasty = huraa
 	religion = ashari
 	culture = sinhala
 	father = 9000060
@@ -1199,8 +1200,8 @@
 					type = druzhina
 					stacks = 20
 				}
-				location = 169
-				origin = 169
+				location = province:169
+				origin = province:169
 				inheritable = yes
 			}
 		}
@@ -1345,7 +1346,7 @@
 8000068 = {
 	name = "Abdulmejid"
 	dynasty = 7
-	religion = ashari
+	religion = maturidi
 	culture = turkish
 	father = 9000011
 	1823.4.25 = {
@@ -1359,7 +1360,7 @@
 8000069 = {
 	name = "Abdulaziz"
 	dynasty = 7
-	religion = ashari
+	religion = maturidi
 	culture = turkish
 	father = 9000011
 	1830.2.8 = {

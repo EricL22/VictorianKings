@@ -7,8 +7,9 @@ china_dyn.36 = {
 	
 	trigger = {
 		OR = {
-			has_culture_group = culture_group:chinese_group
+			culture = { has_cultural_pillar = heritage_chinese }
 			has_culture = culture:shatuo
+			has_culture = culture:manchu
 		}
 		OR = {
 			has_title = title:e_china
@@ -153,7 +154,7 @@ china_dyn.38 = {
 	hidden = yes
 
 	trigger = {
-		culture_group = culture_group:vietnamese_group
+		culture = { has_cultural_pillar = heritage_vietnamese }
 		OR = {
 			AND = {
 				has_title = title:k_annam
@@ -315,7 +316,7 @@ china_dyn.39 = {
 	hidden = yes
 
 	trigger = {
-		culture_group = culture_group:korean_group
+		culture = { has_cultural_pillar = heritage_korean }
 		OR = {
 			AND = {
 				has_title = title:k_joseon

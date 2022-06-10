@@ -21,22 +21,46 @@ empress_of_russia_modifier = {
 
 liberal_party_modifier = {
 	icon = diplomacy_positive
+	vassal_tax_mult = 0.1
+	monthly_county_control_change_factor = -0.9
 }
 socialist_party_modifier = {
 	icon = diplomacy_positive
+	courtier_and_guest_opinion = 5
+	vassal_tax_mult = 0.2
+	levy_size = -0.1
 }
 reactionary_party_modifier = {
 	icon = diplomacy_positive
+	monthly_county_control_change_factor = 1.0
+	close_relative_opinion = 5
+	army_maintenance_mult = 0.1
 }
 fascist_party_modifier = {
 	icon = diplomacy_positive
+	levy_reinforcement_rate = 0.1
+	army_maintenance_mult = -0.1
+	opinion_of_different_culture = -10
+	opinion_of_different_faith = -10
 }
 conservative_party_modifier = {
 	icon = diplomacy_positive
+	monthly_county_control_change_factor = 0.5
 }
 communist_party_modifier = {
 	icon = diplomacy_positive
+	levy_reinforcement_rate = 0.1
+	levy_size = 0.1
+	build_gold_cost = -0.2
 }
 anarchist_party_modifier = {
 	icon = diplomacy_positive
+	army_maintenance_mult = -0.2
+	independent_ruler_opinion = -5
+	monthly_county_control_change_factor = -1.0
+}
+
+restrict_royal_court_modifier = {
+	icon = prestige_negative
+	court_grandeur_baseline_add = -100
 }

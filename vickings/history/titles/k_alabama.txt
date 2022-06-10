@@ -1,0 +1,236 @@
+c_ialbrauuf = {
+	1808.1.1 = {
+		holder = nativeamerican32
+	}
+}
+c_liscropetra = {
+	1808.1.1 = {
+		holder = nativeamerican33
+	}
+}
+c_mukeephepolis = {
+	1808.1.1 = {
+		holder = nativeamerican32
+	}
+}
+c_calyialium = {
+	1808.1.1 = {
+		holder = nativeamerican32
+	}
+}
+c_maceblia = {
+	1808.1.1 = {
+		holder = nativeamerican32
+	}
+}
+c_morgchetiri = {
+	1808.1.1 = {
+		holder = nativeamerican33
+	}
+}
+c_kamoricina = {
+	1808.1.1 = {
+		holder = nativeamerican33
+	}
+}
+c_megalkanllai = {
+	1808.1.1 = {
+		holder = nativeamerican30
+	}
+}
+c_leplekion = {
+	1808.1.1 = {
+		holder = nativeamerican30
+	}
+}
+c_ambreretthrae = {
+	1808.1.1 = {
+		holder = nativeamerican30
+	}
+	1814.8.9 = {
+		holder = 6400140
+	}
+}
+c_methamagnthus = {
+	1808.1.1 = {
+		holder = nativeamerican30
+	}
+	1814.8.9 = {
+		holder = 6400140
+	}
+}
+c_kiokorintion = {
+	1808.1.1 = {
+		holder = nativeamerican30
+	}
+	1814.8.9 = {
+		holder = 6400140
+	}
+}
+c_masambruf = {
+	1808.1.1 = {
+		holder = nativeamerican30
+	}
+}
+c_asscortiri = {
+	1808.1.1 = {
+		holder = nativeamerican30
+	}
+	1814.8.9 = {
+		holder = 6400140
+	}
+}
+c_olycebdos = {
+	1808.1.1 = {
+		holder = nativeamerican30
+	}
+	1814.8.9 = {
+		holder = 6400140
+	}
+}
+c_tuscaloosa = {
+	1808.1.1 = {
+		holder = nativeamerican30
+	}
+	1808.1.1 = {
+		holder = nativeamerican34
+	}
+}
+c_itamorganyra = {
+	1808.1.1 = {
+		holder = nativeamerican30
+	}
+	1808.1.1 = {
+		holder = nativeamerican34
+	}
+}
+c_golgbrautiri = {
+	1808.1.1 = {
+		holder = nativeamerican30
+	}
+}
+c_itakerklia = {
+	1808.1.1 = {
+		holder = nativeamerican30
+	}
+}
+c_morkoessa = {
+	1808.1.1 = {
+		holder = nativeamerican30
+	}
+	1814.8.9 = {
+		holder = 6400140
+	}
+}
+c_alamassmea = {
+	1808.1.1 = {
+		holder = nativeamerican30
+	}
+	1814.8.9 = {
+		holder = 6400140
+	}
+}
+c_kamarmodus = {
+	1808.1.1 = {
+		holder = nativeamerican30
+	}
+	1814.8.9 = {
+		holder = 6400140
+	}
+}
+c_cahaba = {
+	1808.1.1 = {
+		holder = nativeamerican34
+	}
+}
+c_aytmalon = {
+	1808.1.1 = {
+		holder = nativeamerican34
+	}
+}
+c_golialyium = {
+	1808.1.1 = {
+		holder = nativeamerican30
+	}
+	1814.8.9 = {
+		holder = 6400140
+	}
+}
+c_marmacythita = {
+	1808.1.1 = {
+		holder = nativeamerican30
+	}
+	1814.8.9 = {
+		holder = 6400140
+	}
+}
+c_kasmcleoium = {
+	1808.1.1 = {
+		holder = nativeamerican30
+	}
+	1814.8.9 = {
+		holder = 6400140
+	}
+}
+c_gythantigthus = {
+	1808.1.1 = {
+		holder = nativeamerican30
+	}
+	1814.8.9 = {
+		holder = 6400140
+	}
+}
+c_klazmallpolis = {
+	1808.1.1 = {
+		holder = nativeamerican30
+	}
+	1814.8.9 = {
+		holder = 6400140
+	}
+}
+c_alilaodae = {
+	1808.1.1 = {
+		holder = nativeamerican30
+	}
+	1814.8.9 = {
+		holder = 6400140
+	}
+}
+c_gourncyththera = {
+	1808.1.1 = {
+		holder = nativeamerican30
+	}
+	1814.8.9 = {
+		holder = 6400140
+	}
+}
+c_muleryai = {
+	1809.3.7 = {
+		holder = 6400140
+	}
+}
+c_kannmorgaetta = {
+	1808.1.1 = {
+		holder = nativeamerican34
+	}
+}
+c_monoastmaromea = {
+	1808.1.1 = {
+		holder = nativeamerican34
+	}
+}
+c_maslapiai = {
+	1809.3.7 = {
+		holder = 6400140
+	}
+}
+c_ephekilia = {
+	1809.3.7 = {
+		holder = 6400140
+	}
+}
+c_metaponcarica = {
+	1809.3.7 = {
+		holder = 6400140
+	}
+}

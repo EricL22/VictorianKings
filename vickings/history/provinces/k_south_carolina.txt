@@ -1,0 +1,109 @@
+11498 = {
+	culture = american
+	religion = protestant
+}
+
+11499 = {
+	culture = american
+	religion = protestant
+}
+
+11500 = {
+	culture = american
+	religion = protestant
+}
+
+11501 = {
+	culture = american
+	religion = protestant
+}
+
+11502 = {
+	culture = american
+	religion = protestant
+}
+
+11503 = {
+	culture = american
+	religion = protestant
+}
+
+11504 = {
+	culture = american
+	religion = protestant
+}
+
+11505 = {
+	culture = american
+	religion = protestant
+}
+
+11506 = {
+	culture = american
+	religion = protestant
+}
+
+11507 = {
+	culture = american
+	religion = protestant
+}
+
+11508 = {
+	culture = american
+	religion = protestant
+}
+
+11642 = {
+	culture = american
+	religion = protestant
+}
+
+11643 = {
+	culture = american
+	religion = protestant
+}
+
+11644 = {
+	culture = american
+	religion = protestant
+}
+
+11645 = {
+	culture = american
+	religion = protestant
+}
+
+11646 = {
+	culture = american
+	religion = protestant
+}
+
+11647 = {
+	culture = american
+	religion = protestant
+}
+
+11648 = {
+	culture = american
+	religion = protestant
+}
+
+11649 = {
+	culture = american
+	religion = protestant
+}
+
+11650 = {
+	culture = american
+	religion = protestant
+}
+
+11651 = {
+	culture = american
+	religion = protestant
+}
+
+11652 = {
+	culture = american
+	religion = protestant
+}

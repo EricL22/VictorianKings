@@ -1,0 +1,828 @@
+12414 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12415 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12416 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12417 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12418 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12419 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12420 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12421 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12422 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12423 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12424 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12425 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12426 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12427 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12428 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12429 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12430 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12431 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12432 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12433 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12434 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12435 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12436 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12437 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12438 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12439 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12440 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12441 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12442 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12443 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12444 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12445 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12446 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12447 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12448 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12449 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12450 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12451 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12452 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12453 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12454 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12455 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12456 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12457 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12458 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12459 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12460 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12461 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12462 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12463 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12464 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12465 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12466 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12467 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12468 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12469 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12470 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12471 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12472 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12473 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12474 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12475 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12476 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12477 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12478 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12479 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12480 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12481 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12482 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12483 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12484 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12485 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12486 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12487 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12488 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12489 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12490 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12491 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12492 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12493 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12494 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12495 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12496 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12497 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12498 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12499 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12500 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12501 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12502 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12503 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12504 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12505 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12506 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12507 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12508 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12509 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12510 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12511 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12512 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12513 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12514 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12515 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12516 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12517 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12518 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12519 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12520 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12521 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12522 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12523 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12524 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12525 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12526 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12527 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12528 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12529 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12530 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12531 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12532 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12533 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12534 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12535 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12536 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12537 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12538 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12539 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12540 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12541 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12542 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12543 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12544 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12545 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12546 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12547 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12548 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12549 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12550 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12551 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12552 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12553 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12554 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12555 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12556 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12557 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12558 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12559 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12560 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12561 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12562 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12563 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12564 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12565 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12566 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12567 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12568 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12569 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12570 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12571 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12572 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12573 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12574 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12575 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12576 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12577 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12578 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12579 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12580 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12581 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12582 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12583 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12584 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12585 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12586 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12587 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12588 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12589 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12590 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12591 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12592 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12593 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12594 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12595 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12596 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12597 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12598 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12599 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12600 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12601 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12602 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12603 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12604 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12605 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12606 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12607 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12608 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12609 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12610 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12611 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12612 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12613 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12614 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12615 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12616 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12617 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12618 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12619 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12620 = {
+        culture = native_american_minor
+        religion = pagan
+}

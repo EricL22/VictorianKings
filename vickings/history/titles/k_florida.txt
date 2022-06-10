@@ -1,0 +1,255 @@
+c_gournhythos = {
+	1822.3.30 = { de_jure_liege = d_florida }
+}
+c_leprlethrae = {
+	1822.3.30 = { de_jure_liege = d_florida }
+}
+c_maggolgera = {
+	1808.1.1 = {
+		holder = nativeamerican31
+	}
+	1822.3.30 = { de_jure_liege = d_florida }
+}
+c_kannkasmita = {
+	1808.1.1 = {
+		holder = nativeamerican31
+	}
+	1822.3.30 = { de_jure_liege = d_florida }
+}
+c_olynmarmtiri = {
+	1808.1.1 = {
+		holder = nativeamerican31
+	}
+	1822.3.30 = { de_jure_liege = d_florida }
+}
+c_decmethae = {
+	1808.1.1 = {
+		holder = nativeamerican31
+	}
+	1822.3.30 = { de_jure_liege = d_florida }
+}
+c_gournmareia = {
+	1808.1.1 = {
+		holder = nativeamerican31
+	}
+	1822.3.30 = { de_jure_liege = d_florida }
+}
+c_maboulia = {
+	1808.1.1 = {
+		holder = nativeamerican31
+	}
+	1822.3.30 = { de_jure_liege = d_florida }
+}
+c_bybdorypetra = {
+	1808.1.1 = {
+		holder = nativeamerican31
+	}
+	1822.3.30 = { de_jure_liege = d_florida }
+}
+c_andrmuthera = {
+	1808.1.1 = {
+		holder = nativeamerican31
+	}
+	1822.3.30 = { de_jure_liege = d_florida }
+}
+c_opuslefkmenus = {
+	1808.1.1 = {
+		holder = nativeamerican31
+	}
+	1822.3.30 = { de_jure_liege = d_florida }
+}
+c_hemarine = {
+	1808.1.1 = {
+		holder = nativeamerican31
+	}
+	1822.3.30 = { de_jure_liege = d_florida }
+}
+c_amaakrthrae = {
+	1808.1.1 = {
+		holder = nativeamerican31
+	}
+	1822.3.30 = { de_jure_liege = d_florida }
+}
+c_markiolea = {
+	1808.1.1 = {
+		holder = nativeamerican31
+	}
+	1822.3.30 = { de_jure_liege = d_florida }
+}
+c_argaskdus = {
+	1808.1.1 = {
+		holder = nativeamerican31
+	}
+	1822.3.30 = { de_jure_liege = d_florida }
+}
+c_nicknosetta = {
+	1808.1.1 = {
+		holder = nativeamerican31
+	}
+	1822.3.30 = { de_jure_liege = d_florida }
+}
+c_megalhagirea = {
+	1808.1.1 = {
+		holder = nativeamerican31
+	}
+	1822.3.30 = { de_jure_liege = d_florida }
+}
+c_marobouuf = {
+	1808.1.1 = {
+		holder = nativeamerican31
+	}
+	1822.3.30 = { de_jure_liege = d_florida }
+}
+c_korileibelia = {
+	1808.1.1 = {
+		holder = nativeamerican31
+	}
+	1822.3.30 = { de_jure_liege = d_florida }
+}
+c_orioida = {
+	1808.1.1 = {
+		holder = nativeamerican31
+	}
+	1822.3.30 = { de_jure_liege = d_florida }
+}
+c_metaponmylesmos = {
+	1808.1.1 = {
+		holder = nativeamerican31
+	}
+	1822.3.30 = { de_jure_liege = d_florida }
+}
+c_mormorinon = {
+	1808.1.1 = {
+		holder = nativeamerican31
+	}
+	1822.3.30 = { de_jure_liege = d_florida }
+}
+c_hememegalessa = {
+	1808.1.1 = {
+		holder = nativeamerican31
+	}
+	1822.3.30 = { de_jure_liege = d_florida }
+}
+c_akrcalliion = {
+	1808.1.1 = {
+		holder = nativeamerican31
+	}
+	1822.3.30 = { de_jure_liege = d_florida }
+}
+c_ithanchaoas = {
+	1808.1.1 = {
+		holder = nativeamerican31
+	}
+	1822.3.30 = { de_jure_liege = d_florida }
+}
+c_lapbyllai = {
+	1808.1.1 = {
+		holder = nativeamerican31
+	}
+	1822.3.30 = { de_jure_liege = d_florida }
+}
+c_actniaesmos = {
+	1808.1.1 = {
+		holder = nativeamerican31
+	}
+	1822.3.30 = { de_jure_liege = d_florida }
+}
+c_antigkatarias = {
+	1808.1.1 = {
+		holder = nativeamerican31
+	}
+	1822.3.30 = { de_jure_liege = d_florida }
+}
+c_mukemporita = {
+	1808.1.1 = {
+		holder = nativeamerican31
+	}
+	1822.3.30 = { de_jure_liege = d_florida }
+}
+c_amilaodidus = {
+	1808.1.1 = {
+		holder = nativeamerican31
+	}
+	1822.3.30 = { de_jure_liege = d_florida }
+}
+c_astgyrthuf = {
+	1808.1.1 = {
+		holder = nativeamerican31
+	}
+	1822.3.30 = { de_jure_liege = d_florida }
+}
+c_odesscyrlia = {
+	1808.1.1 = {
+		holder = nativeamerican31
+	}
+	1822.3.30 = { de_jure_liege = d_florida }
+}
+c_kamekoate = {
+	1808.1.1 = {
+		holder = nativeamerican31
+	}
+	1822.3.30 = { de_jure_liege = d_florida }
+}
+c_gythcololia = {
+	1808.1.1 = {
+		holder = nativeamerican29
+	}
+	1822.3.30 = { de_jure_liege = d_florida }
+}
+c_tallahassee = {
+	1808.1.1 = {
+		holder = nativeamerican29
+	}
+	1822.3.30 = { de_jure_liege = d_florida }
+}
+c_nicoabae = {
+	1808.1.1 = {
+		holder = nativeamerican29
+	}
+	1822.3.30 = { de_jure_liege = d_florida }
+}
+c_mulerythpetra = {
+	1808.1.1 = {
+		holder = nativeamerican29
+	}
+	1822.3.30 = { de_jure_liege = d_florida }
+}
+c_agrinkamalia = {
+	1808.1.1 = {
+		holder = nativeamerican30
+	}
+	1815.2.1 = {
+		holder = 9121703
+	}
+	1822.3.30 = { de_jure_liege = d_florida }
+}
+c_nymphmarainda = {
+	1808.1.1 = {
+		holder = nativeamerican30
+	}
+	1815.2.1 = {
+		holder = 9121703
+	}
+	1822.3.30 = { de_jure_liege = d_florida }
+}
+c_kyrencymuf = {
+	1808.1.1 = {
+		holder = nativeamerican30
+	}
+	1815.2.1 = {
+		holder = 9121703
+	}
+	1822.3.30 = { de_jure_liege = d_florida }
+}
+c_ialmaronai = {
+	1808.1.1 = {
+		holder = nativeamerican30
+	}
+	1815.2.1 = {
+		holder = 9121703
+	}
+	1822.3.30 = { de_jure_liege = d_florida }
+}
+c_pensacola = {
+	1822.3.30 = { de_jure_liege = d_florida }
+}

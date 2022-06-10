@@ -1,0 +1,2406 @@
+﻿@always_primary_score = 1000
+
+# Canada and Alaska
+e_canada = {
+	color = { 94 117 55 }
+	color2 = { 255 255 255 }
+	can_be_named_after_dynasty = no
+
+	capital = c_ottawa
+	
+	k_newfoundland = {
+		color = { 255 211 56 }
+		color2 = { 255 255 255 }
+	
+		capital = c_st_johns
+		
+		d_newfoundland = {
+			color = { 255 211 56 }
+			color2 = { 255 255 255 }
+	
+			capital = c_st_johns
+			
+			c_st_johns = {
+				color = { 90 240 50 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_st_johns = {
+					province = 11653
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_south_coast = {
+				color = { 90 240 50 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_south_coast = {
+					province = 11654
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_notre_dame_bay = {
+				color = { 90 240 50 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_notre_dame_bay = {
+					province = 11655
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_stephenville = {
+				color = { 90 240 50 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_stephenville = {
+					province = 11656
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_corner_brook = {
+				color = { 90 240 50 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_corner_brook = {
+					province = 11657
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_st_anthony = {
+				color = { 234 91 84 }
+				color2 = { 255 255 255 }
+
+				b_st_anthony = {
+					province = 11658
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+		
+		d_labrador = {
+			color = { 110 240 50 }
+			color2 = { 255 255 255 }
+	
+			capital = c_hvgbay
+			
+			c_nunatukavut = {
+				color = { 90 240 50 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_nunatukavut = {
+					province = 11659
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_groswater = {
+				color = { 90 240 50 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_groswater = {
+					province = 11660
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_rigolet = {
+				color = { 90 240 50 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_rigolet = {
+					province = 11661
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_hvgbay = {
+				color = { 90 240 50 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_hvgbay = {
+					province = 11662
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_hopedale = {
+				color = { 90 240 50 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_hopedale = {
+					province = 11663
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_nain = {
+				color = { 234 91 84 }
+				color2 = { 255 255 255 }
+
+				b_naina = {
+					province = 11664
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_torngat = {
+				color = { 234 91 84 }
+				color2 = { 255 255 255 }
+
+				b_torngat = {
+					province = 11665
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+	}
+
+	k_prince_edward_island = {
+		color = { 174 51 44 }
+		color2 = { 255 255 255 }
+	
+		capital = c_charlottetown
+		
+		d_prince_edward_island = {
+			color = { 174 51 44 }
+			color2 = { 255 255 255 }
+	
+			capital = c_charlottetown
+			
+			c_charlottetown = {
+				color = { 90 240 50 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_charlottetown = {
+					province = 11666
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_prince = {
+				color = { 90 240 50 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_prince = {
+					province = 11667
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+	}
+
+	k_nova_scotia = {
+		color = { 0 61 165 }
+		color2 = { 255 255 255 }
+	
+		capital = c_halifax
+		
+		d_nova_scotia = {
+			color = { 0 61 165 }
+			color2 = { 255 255 255 }
+	
+			capital = c_halifax
+			
+			c_cape_breton = {
+				color = { 90 240 50 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_cape_breton = {
+					province = 11668
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_pictou = {
+				color = { 90 240 50 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_pictou = {
+					province = 11669
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_halifax = {
+				color = { 90 240 50 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_halifax_ns = {
+					province = 11670
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_hants = {
+				color = { 90 240 50 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_hants = {
+					province = 11671
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_kings = {
+				color = { 90 240 50 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_kings = {
+					province = 11672
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_annapolis_ns = {
+				color = { 90 240 50 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_annapolis_ns = {
+					province = 11673
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_colchester = {
+				color = { 90 240 50 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_truro = {
+					province = 11674
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_cumberland_ns = {
+				color = { 90 240 50 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_amherst = {
+					province = 11675
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+	}
+
+	k_new_brunswick = {
+		color = { 247 209 23 }
+		color2 = { 255 255 255 }
+	
+		capital = c_york_nb
+		
+		d_new_brunswick = {
+			color = { 247 209 23 }
+			color2 = { 255 255 255 }
+	
+			capital = c_york_nb
+			
+			c_westmorland_nb = {
+				color = { 90 240 50 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_westmorland = {
+					province = 11676
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_northumberland_nb = {
+				color = { 90 240 50 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_newcastle = {
+					province = 11677
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_saint_john = {
+				color = { 90 240 50 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_saint_john = {
+					province = 11678
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_charlotte_nb = {
+				color = { 90 240 50 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_saint_andrews = {
+					province = 11679
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_sunbury = {
+				color = { 90 240 50 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_sunbury = {
+					province = 11680
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_york_nb = {
+				color = { 90 240 50 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_fredericton = {
+					province = 11681
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_restigouche = {
+				color = { 90 240 50 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_restigouche = {
+					province = 11682
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_carleton = {
+				color = { 90 240 50 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_carleton = {
+					province = 11683
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_madawaska = {
+				color = { 90 240 50 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_madawaska = {
+					province = 11684
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+	}
+	
+	k_quebec = {
+		color = { 87 101 235 }
+		color2 = { 255 255 255 }
+	
+		capital = c_quebec
+		
+		d_quebec = {
+			color = { 87 101 235 }
+			color2 = { 255 255 255 }
+	
+			capital = c_quebec
+			
+			c_quebec = {
+				color = { 90 240 50 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_quebec = {
+					province = 11694
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_la_tuque = {
+				color = { 90 240 50 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_la_tuque = {
+					province = 11695
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_portneuf = {
+				color = { 90 240 50 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_portneuf = {
+					province = 11696
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_champlain = {
+				color = { 90 240 50 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_champlain = {
+					province = 11697
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_joliette = {
+				color = { 90 240 50 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_joliette = {
+					province = 11698
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_terrebonne = {
+				color = { 234 91 84 }
+				color2 = { 255 255 255 }
+
+				b_terrebonne = {
+					province = 11699
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_labelle = {
+				color = { 234 91 84 }
+				color2 = { 255 255 255 }
+
+				b_labelle = {
+					province = 11700
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_papineau = {
+				color = { 234 91 84 }
+				color2 = { 255 255 255 }
+
+				b_papineau = {
+					province = 11701
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_hull = {
+				color = { 234 91 84 }
+				color2 = { 255 255 255 }
+
+				b_hull = {
+					province = 11702
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_pontiac = {
+				color = { 234 91 84 }
+				color2 = { 255 255 255 }
+
+				b_pontiac = {
+					province = 11703
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_temiscamingue = {
+				color = { 234 91 84 }
+				color2 = { 255 255 255 }
+
+				b_temiscamingue = {
+					province = 11704
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_montreal = {
+				color = { 234 91 84 }
+				color2 = { 255 255 255 }
+
+				b_montreal = {
+					province = 11705
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_la_prairie = {
+				color = { 234 91 84 }
+				color2 = { 255 255 255 }
+
+				b_la_prairie = {
+					province = 11706
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_rouville = {
+				color = { 234 91 84 }
+				color2 = { 255 255 255 }
+
+				b_rouville = {
+					province = 11707
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_drummond = {
+				color = { 234 91 84 }
+				color2 = { 255 255 255 }
+
+				b_drummond = {
+					province = 11708
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_arthabaska = {
+				color = { 234 91 84 }
+				color2 = { 255 255 255 }
+
+				b_arthabaska = {
+					province = 11709
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_brome = {
+				color = { 234 91 84 }
+				color2 = { 255 255 255 }
+
+				b_brome = {
+					province = 11710
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_sherbrooke = {
+				color = { 234 91 84 }
+				color2 = { 255 255 255 }
+
+				b_sherbrooke = {
+					province = 11711
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_lotbiniere = {
+				color = { 234 91 84 }
+				color2 = { 255 255 255 }
+
+				b_lotbiniere = {
+					province = 11712
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_levis = {
+				color = { 234 91 84 }
+				color2 = { 255 255 255 }
+
+				b_levis = {
+					province = 11713
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_beauce = {
+				color = { 234 91 84 }
+				color2 = { 255 255 255 }
+
+				b_beauce = {
+					province = 11714
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_montmagny = {
+				color = { 234 91 84 }
+				color2 = { 255 255 255 }
+
+				b_montmagny = {
+					province = 11715
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_lislet = {
+				color = { 234 91 84 }
+				color2 = { 255 255 255 }
+
+				b_lislet = {
+					province = 11716
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_kamouraska = {
+				color = { 234 91 84 }
+				color2 = { 255 255 255 }
+
+				b_kamouraska = {
+					province = 11717
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_riviere_du_loup = {
+				color = { 234 91 84 }
+				color2 = { 255 255 255 }
+
+				b_riviere_du_loup = {
+					province = 11718
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_rimouski = {
+				color = { 234 91 84 }
+				color2 = { 255 255 255 }
+
+				b_rimouski = {
+					province = 11719
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_matane = {
+				color = { 234 91 84 }
+				color2 = { 255 255 255 }
+
+				b_matane = {
+					province = 11720
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_gaspe_ouest = {
+				color = { 234 91 84 }
+				color2 = { 255 255 255 }
+
+				b_gaspe_ouest = {
+					province = 11721
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_gaspe_est = {
+				color = { 234 91 84 }
+				color2 = { 255 255 255 }
+
+				b_gaspe_est = {
+					province = 11722
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+		
+		d_saguenay = {
+			color = { 63 212 166 }
+			color2 = { 255 255 255 }
+	
+			capital = c_tadoussac
+			
+			c_basse_cote_nord = {
+				color = { 90 240 50 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_basse_cote_nord = {
+					province = 11685
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_le_golfe_dsl = {
+				color = { 90 240 50 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_le_golfe_dsl = {
+					province = 11686
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_minganie = {
+				color = { 90 240 50 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_minganie = {
+					province = 11687
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_anticosti = {
+				color = { 90 240 50 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_anticosti = {
+					province = 11688
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_sept_rivieres = {
+				color = { 90 240 50 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_sept_rivieres = {
+					province = 11689
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_manicouagan = {
+				color = { 234 91 84 }
+				color2 = { 255 255 255 }
+
+				b_manicouagan = {
+					province = 11690
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_saguenay = {
+				color = { 234 91 84 }
+				color2 = { 255 255 255 }
+
+				b_saguenay = {
+					province = 11691
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_le_domaine_du_roy = {
+				color = { 234 91 84 }
+				color2 = { 255 255 255 }
+
+				b_le_domaine_du_roy = {
+					province = 11692
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_tadoussac = {
+				color = { 234 91 84 }
+				color2 = { 255 255 255 }
+
+				b_tadoussac = {
+					province = 11693
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+	}
+	
+	k_ontario = {
+		color = { 132 210 123 }
+		color2 = { 255 255 255 }
+	
+		capital = c_toronto
+		
+		d_ontario = {
+			color = { 132 210 123 }
+			color2 = { 255 255 255 }
+	
+			capital = c_toronto
+			
+			c_ottawa = {
+				color = { 90 240 50 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_ottawa = {
+					province = 11723
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_lanark = {
+				color = { 90 240 50 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_lanark_on = {
+					province = 11724
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_frontenac = {
+				color = { 90 240 50 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_frontenac = {
+					province = 11725
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_lennox_and_addington = {
+				color = { 90 240 50 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_lennox_and_addington = {
+					province = 11726
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_prince_edward = {
+				color = { 90 240 50 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_prince_edward = {
+					province = 11727
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_rinfrew = {
+				color = { 234 91 84 }
+				color2 = { 255 255 255 }
+
+				b_rinfrew = {
+					province = 11728
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_hastings = {
+				color = { 234 91 84 }
+				color2 = { 255 255 255 }
+
+				b_belleville = {
+					province = 11729
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_haliburton = {
+				color = { 234 91 84 }
+				color2 = { 255 255 255 }
+
+				b_haliburton = {
+					province = 11730
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_peterborough = {
+				color = { 234 91 84 }
+				color2 = { 255 255 255 }
+
+				b_peterborough_on = {
+					province = 11731
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_northumberland_on = {
+				color = { 234 91 84 }
+				color2 = { 255 255 255 }
+
+				b_cobourg = {
+					province = 11732
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_kawartha_lakes = {
+				color = { 234 91 84 }
+				color2 = { 255 255 255 }
+
+				b_kawartha_lakes = {
+					province = 11733
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_muskoka = {
+				color = { 234 91 84 }
+				color2 = { 255 255 255 }
+
+				b_muskoka = {
+					province = 11734
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_simcoe = {
+				color = { 234 91 84 }
+				color2 = { 255 255 255 }
+
+				b_simcoe = {
+					province = 11735
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_durham_on = {
+				color = { 234 91 84 }
+				color2 = { 255 255 255 }
+
+				b_whitby_on = {
+					province = 11736
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_toronto = {
+				color = { 234 91 84 }
+				color2 = { 255 255 255 }
+
+				b_toronto = {
+					province = 11737
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_peel = {
+				color = { 234 91 84 }
+				color2 = { 255 255 255 }
+
+				b_peel = {
+					province = 11738
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_halton = {
+				color = { 234 91 84 }
+				color2 = { 255 255 255 }
+
+				b_halton = {
+					province = 11739
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_grey = {
+				color = { 234 91 84 }
+				color2 = { 255 255 255 }
+
+				b_grey = {
+					province = 11740
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_wellington = {
+				color = { 234 91 84 }
+				color2 = { 255 255 255 }
+
+				b_wellington = {
+					province = 11741
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_waterloo = {
+				color = { 234 91 84 }
+				color2 = { 255 255 255 }
+
+				b_waterloo = {
+					province = 11742
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_niagara_on = {
+				color = { 234 91 84 }
+				color2 = { 255 255 255 }
+
+				b_thorold = {
+					province = 11743
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_haldimand_norfolk = {
+				color = { 234 91 84 }
+				color2 = { 255 255 255 }
+
+				b_haldimand_norfolk = {
+					province = 11744
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_bruce = {
+				color = { 234 91 84 }
+				color2 = { 255 255 255 }
+
+				b_bruce = {
+					province = 11745
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_perth = {
+				color = { 234 91 84 }
+				color2 = { 255 255 255 }
+
+				b_perth = {
+					province = 11746
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_huron = {
+				color = { 234 91 84 }
+				color2 = { 255 255 255 }
+
+				b_huron = {
+					province = 11747
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_oxford_on = {
+				color = { 234 91 84 }
+				color2 = { 255 255 255 }
+
+				b_woodstock = {
+					province = 11748
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_elgin = {
+				color = { 234 91 84 }
+				color2 = { 255 255 255 }
+
+				b_st_thomas = {
+					province = 11749
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_middlesex_on = {
+				color = { 234 91 84 }
+				color2 = { 255 255 255 }
+
+				b_london_on = {
+					province = 11750
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_lambton = {
+				color = { 234 91 84 }
+				color2 = { 255 255 255 }
+
+				b_lambton = {
+					province = 11751
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_chatham_kent = {
+				color = { 234 91 84 }
+				color2 = { 255 255 255 }
+
+				b_chatham_kent = {
+					province = 11752
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_essex_on = {
+				color = { 234 91 84 }
+				color2 = { 255 255 255 }
+
+				b_essex = {
+					province = 11753
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+		
+		d_northern_ontario = {
+			color = { 112 113 213 }
+			color2 = { 255 255 255 }
+	
+			capital = c_thunder_bay
+			
+			c_nipissing = {
+				color = { 90 240 50 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_nipissing = {
+					province = 11754
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_parry_sound = {
+				color = { 90 240 50 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_parry_sound = {
+					province = 11755
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_french_river = {
+				color = { 90 240 50 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_french_river = {
+					province = 11756
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_greater_sudbury = {
+				color = { 90 240 50 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_greater_sudbury = {
+					province = 11757
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_timiskaming = {
+				color = { 90 240 50 } # TODO
+				color2 = { 255 255 255 } # TODO
+				
+				b_timiskaming = {
+					province = 11758
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_manitoulin = {
+				color = { 234 91 84 }
+				color2 = { 255 255 255 }
+
+				b_manitoulin = {
+					province = 11759
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_sudbury = {
+				color = { 234 91 84 }
+				color2 = { 255 255 255 }
+
+				b_espanola = {
+					province = 11760
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_algoma = {
+				color = { 234 91 84 }
+				color2 = { 255 255 255 }
+
+				b_algoma = {
+					province = 11761
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_thunder_bay = {
+				color = { 234 91 84 }
+				color2 = { 255 255 255 }
+
+				b_thunder_bay = {
+					province = 11762
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_barmegaila = {
+				color = { 34 208 101 }
+				color2 = { 255 255 255 }
+
+				b_barmegaila = {
+					province = 12621
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+	}
+
+	k_ruperts_land = {
+		color = { 253 90 151 }
+		
+		can_create = {
+			trigger_if = {
+				limit = {
+					is_ai = yes
+				}
+				NOT = { has_title = title:k_hudsons_bay }
+			}
+		}
+
+		d_northern_quebec = {
+			color = { 253 90 151 }
+
+                        c_imbrbyzai = {
+                                color = { 230 119 104 }
+                                color2 = { 255 255 255 }
+
+                                b_imbrbyzai = {
+                                        province = 12625
+
+                                        color = { 230 119 104 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_goneublia = {
+                                color = { 59 227 33 }
+                                color2 = { 255 255 255 }
+
+                                b_goneublia = {
+                                        province = 12639
+
+                                        color = { 59 227 33 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_orikorintae = {
+                                color = { 158 73 148 }
+                                color2 = { 255 255 255 }
+
+                                b_orikorintae = {
+                                        province = 12653
+
+                                        color = { 158 73 148 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_gyrthioremos = {
+                                color = { 35 114 141 }
+                                color2 = { 255 255 255 }
+
+                                b_gyrthioremos = {
+                                        province = 12690
+
+                                        color = { 35 114 141 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_gangatrias = {
+                                color = { 109 162 221 }
+                                color2 = { 255 255 255 }
+
+                                b_gangatrias = {
+                                        province = 12703
+
+                                        color = { 109 162 221 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_eubhierasos = {
+                                color = { 166 53 201 }
+                                color2 = { 255 255 255 }
+
+                                b_eubhierasos = {
+                                        province = 12704
+
+                                        color = { 166 53 201 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+		}
+
+		d_patricia = {
+			color = { 253 90 155 }
+
+                        c_agrinmukenate = {
+                                color = { 220 243 80 }
+                                color2 = { 255 255 255 }
+
+                                b_agrinmukenate = {
+                                        province = 12637
+
+                                        color = { 220 243 80 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_chagazica = {
+                                color = { 132 125 159 }
+                                color2 = { 255 255 255 }
+
+                                b_chagazica = {
+                                        province = 12641
+
+                                        color = { 132 125 159 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_lekmetaponatrea = {
+                                color = { 32 46 14 }
+                                color2 = { 255 255 255 }
+
+                                b_lekmetaponatrea = {
+                                        province = 12645
+
+                                        color = { 32 46 14 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_orestmocida = {
+                                color = { 184 159 19 }
+                                color2 = { 255 255 255 }
+
+                                b_orestmocida = {
+                                        province = 12650
+
+                                        color = { 184 159 19 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_byllnymthus = {
+                                color = { 166 98 196 }
+                                color2 = { 255 255 255 }
+
+                                b_byllnymthus = {
+                                        province = 12652
+
+                                        color = { 166 98 196 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_cololilthos = {
+                                color = { 83 119 232 }
+                                color2 = { 255 255 255 }
+
+                                b_cololilthos = {
+                                        province = 12658
+
+                                        color = { 83 119 232 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_leiblekhinda = {
+                                color = { 31 114 151 }
+                                color2 = { 255 255 255 }
+
+                                b_leiblekhinda = {
+                                        province = 12659
+
+                                        color = { 31 114 151 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_idamyliana = {
+                                color = { 10 140 178 }
+                                color2 = { 255 255 255 }
+
+                                b_idamyliana = {
+                                        province = 12662
+
+                                        color = { 10 140 178 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_goncarythena = {
+                                color = { 31 68 98 }
+                                color2 = { 255 255 255 }
+
+                                b_goncarythena = {
+                                        province = 12665
+
+                                        color = { 31 68 98 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_megalmaraida = {
+                                color = { 62 186 76 }
+                                color2 = { 255 255 255 }
+
+                                b_megalmaraida = {
+                                        province = 12666
+
+                                        color = { 62 186 76 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_edeimbrcum = {
+                                color = { 236 87 237 }
+                                color2 = { 255 255 255 }
+
+                                b_edeimbrcum = {
+                                        province = 12669
+
+                                        color = { 236 87 237 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_dimemporthena = {
+                                color = { 242 7 74 }
+                                color2 = { 255 255 255 }
+
+                                b_dimemporthena = {
+                                        province = 12670
+
+                                        color = { 242 7 74 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_aytaigmos = {
+                                color = { 15 214 1 }
+                                color2 = { 255 255 255 }
+
+                                b_aytaigmos = {
+                                        province = 12671
+
+                                        color = { 15 214 1 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_artneauf = {
+                                color = { 200 196 89 }
+                                color2 = { 255 255 255 }
+
+                                b_artneauf = {
+                                        province = 12672
+
+                                        color = { 200 196 89 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_dimgythai = {
+                                color = { 134 221 87 }
+                                color2 = { 255 255 255 }
+
+                                b_dimgythai = {
+                                        province = 12673
+
+                                        color = { 134 221 87 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_gytkerkdus = {
+                                color = { 110 229 61 }
+                                color2 = { 255 255 255 }
+
+                                b_gytkerkdus = {
+                                        province = 12675
+
+                                        color = { 110 229 61 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_helochieia = {
+                                color = { 251 130 39 }
+                                color2 = { 255 255 255 }
+
+                                b_helochieia = {
+                                        province = 12676
+
+                                        color = { 251 130 39 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_antiempiana = {
+                                color = { 33 166 64 }
+                                color2 = { 255 255 255 }
+
+                                b_antiempiana = {
+                                        province = 12677
+
+                                        color = { 33 166 64 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_lamonalia = {
+                                color = { 67 248 148 }
+                                color2 = { 255 255 255 }
+
+                                b_lamonalia = {
+                                        province = 12678
+
+                                        color = { 67 248 148 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_mantodelia = {
+                                color = { 43 148 103 }
+                                color2 = { 255 255 255 }
+
+                                b_mantodelia = {
+                                        province = 12679
+
+                                        color = { 43 148 103 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_heraantiglia = {
+                                color = { 141 242 69 }
+                                color2 = { 255 255 255 }
+
+                                b_heraantiglia = {
+                                        province = 12682
+
+                                        color = { 141 242 69 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_marmkamatrea = {
+                                color = { 242 107 39 }
+                                color2 = { 255 255 255 }
+
+                                b_marmkamatrea = {
+                                        province = 12686
+
+                                        color = { 242 107 39 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_ereoeion = {
+                                color = { 225 145 161 }
+                                color2 = { 255 255 255 }
+
+                                b_ereoeion = {
+                                        province = 12694
+
+                                        color = { 225 145 161 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_massaneamenus = {
+                                color = { 249 241 165 }
+                                color2 = { 255 255 255 }
+
+                                b_massaneamenus = {
+                                        province = 12696
+
+                                        color = { 249 241 165 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_actlapiios = {
+                                color = { 134 218 84 }
+                                color2 = { 255 255 255 }
+
+                                b_actlapiios = {
+                                        province = 12699
+
+                                        color = { 134 218 84 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_maithanatrea = {
+                                color = { 214 76 82 }
+                                color2 = { 255 255 255 }
+
+                                b_maithanatrea = {
+                                        province = 12700
+
+                                        color = { 214 76 82 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_metapocoryra = {
+                                color = { 193 113 28 }
+                                color2 = { 255 255 255 }
+
+                                b_metapocoryra = {
+                                        province = 12702
+
+                                        color = { 193 113 28 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_gytnymphmenus = {
+                                color = { 217 46 1 }
+                                color2 = { 255 255 255 }
+
+                                b_gytnymphmenus = {
+                                        province = 12705
+
+                                        color = { 217 46 1 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_kameiamaosse = {
+                                color = { 56 233 250 }
+                                color2 = { 255 255 255 }
+
+                                b_kameiamaosse = {
+                                        province = 12707
+
+                                        color = { 56 233 250 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_morgamnithera = {
+                                color = { 55 90 29 }
+                                color2 = { 255 255 255 }
+
+                                b_morgamnithera = {
+                                        province = 12711
+
+                                        color = { 55 90 29 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_bhyrtydetta = {
+                                color = { 34 224 126 }
+                                color2 = { 255 255 255 }
+
+                                b_bhyrtydetta = {
+                                        province = 12713
+
+                                        color = { 34 224 126 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+		}
+
+		d_manitoba = {
+			color = { 253 90 160 }
+
+                        c_diosempoera = {
+                                color = { 126 89 194 }
+                                color2 = { 255 255 255 }
+
+                                b_diosempoera = {
+                                        province = 12626
+
+                                        color = { 126 89 194 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_malkimmeios = {
+                                color = { 136 52 92 }
+                                color2 = { 255 255 255 }
+
+                                b_malkimmeios = {
+                                        province = 12627
+
+                                        color = { 136 52 92 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_oechayra = {
+                                color = { 76 151 94 }
+                                color2 = { 255 255 255 }
+
+                                b_oechayra = {
+                                        province = 12628
+
+                                        color = { 76 151 94 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_golgidatiri = {
+                                color = { 96 184 71 }
+                                color2 = { 255 255 255 }
+
+                                b_golgidatiri = {
+                                        province = 12629
+
+                                        color = { 96 184 71 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_massacorcosia = {
+                                color = { 165 34 56 }
+                                color2 = { 255 255 255 }
+
+                                b_massacorcosia = {
+                                        province = 12630
+
+                                        color = { 165 34 56 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_ithanlaiana = {
+                                color = { 7 234 54 }
+                                color2 = { 255 255 255 }
+
+                                b_ithanlaiana = {
+                                        province = 12631
+
+                                        color = { 7 234 54 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_borysargita = {
+                                color = { 221 145 106 }
+                                color2 = { 255 255 255 }
+
+                                b_borysargita = {
+                                        province = 12634
+
+                                        color = { 221 145 106 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_assephyoli = {
+                                color = { 219 50 27 }
+                                color2 = { 255 255 255 }
+
+                                b_assephyoli = {
+                                        province = 12635
+
+                                        color = { 219 50 27 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_hiebyllida = {
+                                color = { 90 177 168 }
+                                color2 = { 255 255 255 }
+
+                                b_hiebyllida = {
+                                        province = 12636
+
+                                        color = { 90 177 168 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_amakasmalous = {
+                                color = { 101 5 129 }
+                                color2 = { 255 255 255 }
+
+                                b_amakasmalous = {
+                                        province = 12638
+
+                                        color = { 101 5 129 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_gourcniina = {
+                                color = { 220 47 132 }
+                                color2 = { 255 255 255 }
+
+                                b_gourcniina = {
+                                        province = 12640
+
+                                        color = { 220 47 132 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_kydobhyrtessa = {
+                                color = { 51 178 227 }
+                                color2 = { 255 255 255 }
+
+                                b_kydobhyrtessa = {
+                                        province = 12642
+
+                                        color = { 51 178 227 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_erydymlia = {
+                                color = { 171 78 178 }
+                                color2 = { 255 255 255 }
+
+                                b_erydymlia = {
+                                        province = 12644
+
+                                        color = { 171 78 178 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_helmadytosse = {
+                                color = { 238 5 39 }
+                                color2 = { 255 255 255 }
+
+                                b_helmadytosse = {
+                                        province = 12646
+
+                                        color = { 238 5 39 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_kydohagium = {
+                                color = { 55 144 32 }
+                                color2 = { 255 255 255 }
+
+                                b_kydohagium = {
+                                        province = 12649
+
+                                        color = { 55 144 32 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_imlindthos = {
+                                color = { 45 162 234 }
+                                color2 = { 255 255 255 }
+
+                                b_imlindthos = {
+                                        province = 12654
+
+                                        color = { 45 162 234 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_lilakerkai = {
+                                color = { 7 118 234 }
+                                color2 = { 255 255 255 }
+
+                                b_lilakerkai = {
+                                        province = 12657
+
+                                        color = { 7 118 234 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_itkumina = {
+                                color = { 192 24 143 }
+                                color2 = { 255 255 255 }
+
+                                b_itkumina = {
+                                        province = 12664
+
+                                        color = { 192 24 143 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_masepideia = {
+                                color = { 181 246 156 }
+                                color2 = { 255 255 255 }
+
+                                b_masepideia = {
+                                        province = 12683
+
+                                        color = { 181 246 156 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_mylargalous = {
+                                color = { 104 127 111 }
+                                color2 = { 255 255 255 }
+
+                                b_mylargalous = {
+                                        province = 12684
+
+                                        color = { 104 127 111 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_byzolbosia = {
+                                color = { 106 198 232 }
+                                color2 = { 255 255 255 }
+
+                                b_byzolbosia = {
+                                        province = 12687
+
+                                        color = { 106 198 232 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_kamedicaeaila = {
+                                color = { 162 103 30 }
+                                color2 = { 255 255 255 }
+
+                                b_kamedicaeaila = {
+                                        province = 12689
+
+                                        color = { 162 103 30 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_onedepolis = {
+                                color = { 165 68 55 }
+                                color2 = { 255 255 255 }
+
+                                b_onedepolis = {
+                                        province = 12697
+
+                                        color = { 165 68 55 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_katmilllia = {
+                                color = { 79 183 6 }
+                                color2 = { 255 255 255 }
+
+                                b_katmilllia = {
+                                        province = 12701
+
+                                        color = { 79 183 6 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_kerkiantiina = {
+                                color = { 18 36 205 }
+                                color2 = { 255 255 255 }
+
+                                b_kerkiantiina = {
+                                        province = 12709
+
+                                        color = { 18 36 205 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_histgythlia = {
+                                color = { 116 244 110 }
+                                color2 = { 255 255 255 }
+
+                                b_histgythlia = {
+                                        province = 12712
+
+                                        color = { 116 244 110 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+		}
+
+		d_saskatchewan = {
+			color = { 253 90 165 }
+
+                        c_odesitaila = {
+                                color = { 3 103 195 }
+                                color2 = { 255 255 255 }
+
+                                b_odesitaila = {
+                                        province = 12632
+
+                                        color = { 3 103 195 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_aphiedlia = {
+                                color = { 37 123 23 }
+                                color2 = { 255 255 255 }
+
+                                b_aphiedlia = {
+                                        province = 12651
+
+                                        color = { 37 123 23 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_gytodedia = {
+                                color = { 197 88 128 }
+                                color2 = { 255 255 255 }
+
+                                b_gytodedia = {
+                                        province = 12655
+
+                                        color = { 197 88 128 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_chyandera = {
+                                color = { 191 225 65 }
+                                color2 = { 255 255 255 }
+
+                                b_chyandera = {
+                                        province = 12661
+
+                                        color = { 191 225 65 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_lauaslia = {
+                                color = { 59 73 217 }
+                                color2 = { 255 255 255 }
+
+                                b_lauaslia = {
+                                        province = 12674
+
+                                        color = { 59 73 217 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_myloresthrae = {
+                                color = { 165 96 162 }
+                                color2 = { 255 255 255 }
+
+                                b_myloresthrae = {
+                                        province = 12692
+
+                                        color = { 165 96 162 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_alametaponene = {
+                                color = { 226 17 187 }
+                                color2 = { 255 255 255 }
+
+                                b_alametaponene = {
+                                        province = 12693
+
+                                        color = { 226 17 187 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_jucheida = {
+                                color = { 69 223 255 }
+                                color2 = { 255 255 255 }
+
+                                b_jucheida = {
+                                        province = 12695
+
+                                        color = { 69 223 255 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_gortyitaine = {
+                                color = { 244 183 150 }
+                                color2 = { 255 255 255 }
+
+                                b_gortyitaine = {
+                                        province = 12706
+
+                                        color = { 244 183 150 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_laodikeosse = {
+                                color = { 135 220 127 }
+                                color2 = { 255 255 255 }
+
+                                b_laodikeosse = {
+                                        province = 12710
+
+                                        color = { 135 220 127 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_empaenatrea = {
+                                color = { 237 4 68 }
+                                color2 = { 255 255 255 }
+
+                                b_empaenatrea = {
+                                        province = 12714
+
+                                        color = { 237 4 68 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+		}
+
+		d_northwest = {
+			color = { 253 90 151 }
+
+                        c_cytholynine = {
+                                color = { 10 220 175 }
+                                color2 = { 255 255 255 }
+
+                                b_cytholynine = {
+                                        province = 12622
+
+                                        color = { 10 220 175 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_lalefera = {
+                                color = { 248 99 191 }
+                                color2 = { 255 255 255 }
+
+                                b_lalefera = {
+                                        province = 12623
+
+                                        color = { 248 99 191 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_milgorgine = {
+                                color = { 34 181 229 }
+                                color2 = { 255 255 255 }
+
+                                b_milgorgine = {
+                                        province = 12624
+
+                                        color = { 34 181 229 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_heliorestoli = {
+                                color = { 219 187 214 }
+                                color2 = { 255 255 255 }
+
+                                b_heliorestoli = {
+                                        province = 12633
+
+                                        color = { 219 187 214 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_histcebrine = {
+                                color = { 65 142 142 }
+                                color2 = { 255 255 255 }
+
+                                b_histcebrine = {
+                                        province = 12643
+
+                                        color = { 65 142 142 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_decehagthus = {
+                                color = { 23 77 76 }
+                                color2 = { 255 255 255 }
+
+                                b_decehagthus = {
+                                        province = 12647
+
+                                        color = { 23 77 76 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_coropusera = {
+                                color = { 39 84 6 }
+                                color2 = { 255 255 255 }
+
+                                b_coropusera = {
+                                        province = 12648
+
+                                        color = { 39 84 6 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_diosmadsos = {
+                                color = { 66 244 58 }
+                                color2 = { 255 255 255 }
+
+                                b_diosmadsos = {
+                                        province = 12656
+
+                                        color = { 66 244 58 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_colapollai = {
+                                color = { 179 65 6 }
+                                color2 = { 255 255 255 }
+
+                                b_colapollai = {
+                                        province = 12660
+
+                                        color = { 179 65 6 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_bythantirea = {
+                                color = { 15 34 190 }
+                                color2 = { 255 255 255 }
+
+                                b_bythantirea = {
+                                        province = 12663
+
+                                        color = { 15 34 190 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_nyshermionia = {
+                                color = { 171 87 143 }
+                                color2 = { 255 255 255 }
+
+                                b_nyshermionia = {
+                                        province = 12667
+
+                                        color = { 171 87 143 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_klalefthus = {
+                                color = { 15 47 85 }
+                                color2 = { 255 255 255 }
+
+                                b_klalefthus = {
+                                        province = 12668
+
+                                        color = { 15 47 85 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_arscorsos = {
+                                color = { 153 49 240 }
+                                color2 = { 255 255 255 }
+
+                                b_arscorsos = {
+                                        province = 12680
+
+                                        color = { 153 49 240 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_kydgortylia = {
+                                color = { 149 21 255 }
+                                color2 = { 255 255 255 }
+
+                                b_kydgortylia = {
+                                        province = 12681
+
+                                        color = { 149 21 255 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_oepdecissa = {
+                                color = { 103 188 206 }
+                                color2 = { 255 255 255 }
+
+                                b_oepdecissa = {
+                                        province = 12685
+
+                                        color = { 103 188 206 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_itiastrias = {
+                                color = { 130 106 161 }
+                                color2 = { 255 255 255 }
+
+                                b_itiastrias = {
+                                        province = 12688
+
+                                        color = { 130 106 161 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_alahieera = {
+                                color = { 99 113 168 }
+                                color2 = { 255 255 255 }
+
+                                b_alahieera = {
+                                        province = 12691
+
+                                        color = { 99 113 168 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_lebehaginon = {
+                                color = { 152 251 67 }
+                                color2 = { 255 255 255 }
+
+                                b_lebehaginon = {
+                                        province = 12698
+
+                                        color = { 152 251 67 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+                        c_juktknosion = {
+                                color = { 21 19 5 }
+                                color2 = { 255 255 255 }
+
+                                b_juktknosion = {
+                                        province = 12708
+
+                                        color = { 21 19 5 }
+                                        color2 = { 255 255 255 }
+                                }
+                        }
+		}
+	}
+}

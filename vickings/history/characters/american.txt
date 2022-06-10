@@ -1,0 +1,1579 @@
+﻿6400000 = {
+	name = "George"
+	dynasty = 163157
+	culture = american
+	religion = protestant
+	1732.2.22 = {
+		birth = yes
+	}
+	1799.12.14 = {
+		death = yes
+	}
+}
+
+6400001 = {
+	name = "John"
+	dynasty = 163158
+	culture = american
+	religion = protestant
+	1735.10.30 = {
+		birth = yes
+	}
+	1797.3.4 = {
+		effect = {
+			add_character_flag = conservative_party
+			add_character_modifier = {
+				modifier = conservative_party_modifier
+			}
+		}
+	}
+	1826.7.4 = {
+		death = yes
+	}
+}
+
+6400002 = {
+	name = "Thomas"
+	dynasty = 163159
+	culture = american
+	religion = protestant
+	1743.4.13 = {
+		birth = yes
+	}
+	1801.3.4 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1826.7.4 = {
+		death = yes
+	}
+}
+
+6400003 = {
+	name = "James"
+	dynasty = 163160
+	culture = american
+	religion = protestant
+	1751.3.16 = {
+		birth = yes
+	}
+	1809.3.4 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+
+			# Northern Army - based off Fort George OOB
+			spawn_army = {
+				name = "Northern Army"
+				levies = 2000
+				men_at_arms = {
+					type = armored_footmen
+					stacks = 10
+				}
+				men_at_arms = {
+					type = light_footmen
+					stacks = 10
+				}
+				men_at_arms = {
+					type = bombard
+					stacks = 4
+				}
+				location = province:11422
+				origin = province:11422
+				inheritable = no	# strongly distrustful of standing army
+			}
+			# Southern Army - based off New Orleans OOB
+			spawn_army = {
+				name = "Southern Army"
+				levies = 3700	# volunteers
+				men_at_arms = {
+					type = armored_footmen	# infantry
+					stacks = 3
+				}
+				men_at_arms = {
+					type = light_footmen	# militias
+					stacks = 14
+				}
+				men_at_arms = {
+					type = light_horsemen
+					stacks = 3
+				}
+				location = province:11476
+				origin = province:11476
+				inheritable = no
+			}
+		}
+	}
+	1836.6.28 = {
+		death = yes
+	}
+}
+
+6400004 = {
+	name = "James"
+	dynasty = 163161
+	culture = american
+	religion = protestant
+	1758.4.28 = {
+		birth = yes
+	}
+	1817.3.4 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1831.7.4 = {
+		death = yes
+	}
+}
+
+6400005 = {
+	name = "John-Quincy"
+	dynasty = 163158
+	culture = american
+	religion = protestant
+	father = 6400001
+	1767.7.11 = {
+		birth = yes
+	}
+	1825.3.4 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1829.3.4 = {
+		effect = {
+			remove_character_flag = liberal_party
+			remove_character_modifier = liberal_party_modifier
+			add_character_flag = conservative_party
+			add_character_modifier = {
+				modifier = conservative_party_modifier
+			}
+		}
+	}
+	1848.2.23 = {
+		death = yes
+	}
+}
+
+6400006 = {
+	name = "Andrew"
+	dynasty = 163162
+	culture = american
+	religion = protestant
+	1767.3.15 = {
+		birth = yes
+	}
+	1829.3.4 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1833.3.4 = {
+		effect = {
+			appoint_court_position = {
+				recipient = character:6400007
+				court_position = vice_president_court_position
+			}
+			set_designated_heir = character:6400007
+			add_realm_law = hierarchy_city_succession_law
+		}
+	}
+	1845.6.8 = {
+		death = yes
+	}
+}
+
+6400007 = {
+	name = "Martin"
+	dynasty = 163163
+	culture = dutch
+	religion = protestant
+	1782.12.5 = {
+		birth = yes
+	}
+	1799.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+			learn_language = language_anglic
+		}
+	}
+	1833.3.4 = {
+		employer = 6400006
+	}
+	1862.7.24 = {
+		death = yes
+	}
+}
+
+6400008 = {
+	name = "William-Henry"
+	dynasty = 163164
+	culture = american
+	religion = protestant
+	1773.2.9 = {
+		birth = yes
+	}
+	1798.6.28 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1828.5.20 = {
+		effect = {
+			remove_character_flag = liberal_party
+			remove_character_modifier = liberal_party_modifier
+			add_character_flag = conservative_party
+			add_character_modifier = {
+				modifier = conservative_party_modifier
+			}
+		}
+	}
+	1841.4.4 = {
+		death = yes
+	}
+}
+
+6400100 = {
+	name = "Caleb"
+	dynasty = strong
+	culture = american
+	religion = protestant
+	1745.1.9 = {
+		birth = yes
+	}
+	1800.5.30 = {
+		effect = {
+			add_character_flag = conservative_party
+			add_character_modifier = {
+				modifier = conservative_party_modifier
+			}
+		}
+	}
+	1819.11.7 = {
+		death = yes
+	}
+}
+
+6400101 = {
+	name = "William"
+	dynasty = plumer
+	culture = american
+	religion = protestant
+	1759.6.25 = {
+		birth = yes
+	}
+	1802.6.17 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1850.12.22 = {
+		death = yes
+	}
+}
+
+6400102 = {
+	name = "William"
+	dynasty = jones
+	culture = american
+	religion = protestant
+	1753.10.8 = {
+		birth = yes
+	}
+	1811.5.1 = {
+		effect = {
+			add_character_flag = conservative_party
+			add_character_modifier = {
+				modifier = conservative_party_modifier
+			}
+		}
+	}
+	1822.4.9 = {
+		death = yes
+	}
+}
+
+6400103 = {
+	name = "Roger"
+	dynasty = griswold
+	culture = american
+	religion = protestant
+	1762.5.21 = {
+		birth = yes
+	}
+	1795.3.4 = {
+		effect = {
+			add_character_flag = conservative_party
+			add_character_modifier = {
+				modifier = conservative_party_modifier
+			}
+		}
+	}
+	1812.10.25 = {
+		death = yes
+	}
+}
+
+6400104 = {
+	name = "Daniel"
+	dynasty = tompkins
+	culture = american
+	religion = protestant
+	1774.6.21 = {
+		birth = yes
+	}
+	1802.7.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1825.6.11 = {
+		death = yes
+	}
+}
+
+6400105 = {
+	name = "Joseph"
+	dynasty = bloomfield
+	culture = american
+	religion = protestant
+	1753.10.18 = {
+		birth = yes
+	}
+	1801.10.31 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1823.10.3 = {
+		death = yes
+	}
+}
+
+6400106 = {
+	name = "Simon"
+	dynasty = snyder
+	culture = american
+	religion = protestant
+	1759.11.5 = {
+		birth = yes
+	}
+	1808.12.20 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1819.11.9 = {
+		death = yes
+	}
+}
+
+6400107 = {
+	name = "Joseph"
+	dynasty = haslet
+	culture = american
+	religion = protestant
+	1769.1.1 = {
+		birth = yes
+	}
+	1811.1.15 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1823.6.20 = {
+		death = yes
+	}
+}
+
+6400108 = {
+	name = "Robert"
+	dynasty = bowie
+	culture = american
+	religion = protestant
+	1750.3.1 = {
+		birth = yes
+	}
+	1803.11.15 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1818.1.8 = {
+		death = yes
+	}
+}
+
+6400109 = {
+	name = "James"
+	dynasty = barbour
+	culture = american
+	religion = protestant
+	1775.6.10 = {
+		birth = yes
+	}
+	1798.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1842.6.7 = {
+		death = yes
+	}
+}
+
+6400110 = {
+	name = "Robert"
+	dynasty = dunlap
+	culture = american
+	religion = protestant
+	1794.8.17 = {
+		birth = yes
+	}
+	1824.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1859.10.20 = {
+		death = yes
+	}
+}
+
+6400111 = {
+	name = "William"
+	dynasty = hawkins
+	culture = american
+	religion = protestant
+	1777.10.10 = {
+		birth = yes
+	}
+	1804.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1819.5.17 = {
+		death = yes
+	}
+}
+
+6400112 = {
+	name = "Henry"
+	dynasty = middleton
+	culture = american
+	religion = protestant
+	1770.9.28 = {
+		birth = yes
+	}
+	1802.11.22 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1846.6.14 = {
+		death = yes
+	}
+}
+
+6400113 = {
+	name = "David"
+	dynasty = mitchell
+	culture = american
+	religion = protestant
+	1766.10.22 = {
+		birth = yes
+	}
+	1796.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1837.4.22 = {
+		death = yes
+	}
+}
+
+6400114 = {
+	name = "Jonas"
+	dynasty = galusha
+	culture = american
+	religion = protestant
+	1753.2.11 = {
+		birth = yes
+	}
+	1809.10.14 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1834.9.24 = {
+		death = yes
+	}
+}
+
+6400115 = {
+	name = "William"
+	dynasty = miller
+	culture = american
+	religion = protestant
+	1783.1.1 = {
+		birth = yes
+	}
+	1810.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1825.9.10 = {
+		death = yes
+	}
+}
+
+6400116 = {
+	name = "Richard"
+	dynasty = spaight
+	culture = american
+	religion = protestant
+	1796.1.1 = {
+		birth = yes
+	}
+	1819.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1850.11.17 = {
+		death = yes
+	}
+}
+
+6400117 = {
+	name = "Martin"
+	dynasty = chittenden
+	culture = american
+	religion = protestant
+	1763.3.12 = {
+		birth = yes
+	}
+	1790.1.1 = {
+		effect = {
+			add_character_flag = conservative_party
+			add_character_modifier = {
+				modifier = conservative_party_modifier
+			}
+		}
+	}
+	1840.9.5 = {
+		death = yes
+	}
+}
+
+6400118 = {
+	name = "Silas"
+	dynasty = jennison
+	culture = american
+	religion = protestant
+	1791.5.17 = {
+		birth = yes
+	}
+	1829.1.1 = {
+		effect = {
+			add_character_flag = conservative_party
+			add_character_modifier = {
+				modifier = conservative_party_modifier
+			}
+		}
+	}
+	1849.9.30 = {
+		death = yes
+	}
+}
+
+6400119 = {
+	name = "Edward"
+	dynasty = everett
+	culture = american
+	religion = protestant
+	1794.4.11 = {
+		birth = yes
+	}
+	1825.3.4 = {
+		effect = {
+			add_character_flag = conservative_party
+			add_character_modifier = {
+				modifier = conservative_party_modifier
+			}
+		}
+	}
+	1865.1.15 = {
+		death = yes
+	}
+}
+
+6400120 = {
+	name = "John"
+	dynasty = francis
+	culture = american
+	religion = protestant
+	1791.5.31 = {
+		birth = yes
+	}
+	1821.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1864.8.9 = {
+		death = yes
+	}
+}
+
+6400121 = {
+	name = "Henry"
+	dynasty = edwards
+	culture = american
+	religion = protestant
+	1779.10.1 = {
+		birth = yes
+	}
+	1819.3.4 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1847.7.22 = {
+		death = yes
+	}
+}
+
+6400122 = {
+	name = "William"
+	dynasty = marcy
+	culture = american
+	religion = protestant
+	1786.12.12 = {
+		birth = yes
+	}
+	1823.2.13 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1857.7.4 = {
+		death = yes
+	}
+}
+
+6400123 = {
+	name = "Joseph"
+	dynasty = ritner
+	culture = american
+	religion = protestant
+	1780.3.25 = {
+		birth = yes
+	}
+	1820.1.1 = {
+		effect = {
+			add_character_flag = conservative_party
+			add_character_modifier = {
+				modifier = conservative_party_modifier
+			}
+		}
+	}
+	1869.10.16 = {
+		death = yes
+	}
+}
+
+6400124 = {
+	name = "William"
+	dynasty = pennington
+	culture = american
+	religion = protestant
+	1757.1.1 = {
+		birth = yes
+	}
+	1801.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1826.9.17 = {
+		death = yes
+	}
+}
+
+6400125 = {
+	name = "Peter"
+	dynasty = vroom
+	culture = american
+	religion = protestant
+	1791.12.12 = {
+		birth = yes
+	}
+	1826.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1873.11.18 = {
+		death = yes
+	}
+}
+
+6400126 = {
+	name = "Daniel"
+	dynasty = rodney
+	culture = american
+	religion = protestant
+	1764.9.10 = {
+		birth = yes
+	}
+	1814.1.18 = {
+		effect = {
+			add_character_flag = conservative_party
+			add_character_modifier = {
+				modifier = conservative_party_modifier
+			}
+		}
+	}
+	1846.9.2 = {
+		death = yes
+	}
+}
+
+6400127 = {
+	name = "Caleb"
+	dynasty = bennett
+	culture = american
+	religion = protestant
+	1758.11.11 = {
+		birth = yes
+	}
+	1833.1.15 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1836.5.9 = {
+		death = yes
+	}
+}
+
+6400128 = {
+	name = "Levin"
+	dynasty = winder
+	culture = american
+	religion = protestant
+	1757.9.4 = {
+		birth = yes
+	}
+	1812.11.25 = {
+		effect = {
+			add_character_flag = conservative_party
+			add_character_modifier = {
+				modifier = conservative_party_modifier
+			}
+		}
+	}
+	1819.7.1 = {
+		death = yes
+	}
+}
+
+6400129 = {
+	name = "Thomas"
+	dynasty = veazey
+	culture = american
+	religion = protestant
+	1774.1.31 = {
+		birth = yes
+	}
+	1811.1.1 = {
+		effect = {
+			add_character_flag = conservative_party
+			add_character_modifier = {
+				modifier = conservative_party_modifier
+			}
+		}
+	}
+	1842.7.1 = {
+		death = yes
+	}
+}
+
+6400130 = {
+	name = "John"
+	dynasty = gilman
+	culture = american
+	religion = protestant
+	1753.12.19 = {
+		birth = yes
+	}
+	1810.1.1 = {
+		effect = {
+			add_character_flag = conservative_party
+			add_character_modifier = {
+				modifier = conservative_party_modifier
+			}
+		}
+	}
+	1828.9.1 = {
+		death = yes
+	}
+}
+
+6400131 = {
+	name = "William"
+	dynasty = badger
+	culture = american
+	religion = protestant
+	1779.1.13 = {
+		birth = yes
+	}
+	1810.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1852.9.21 = {
+		death = yes
+	}
+}
+
+6400132 = {
+	name = "Wilson"
+	dynasty = nicholas
+	culture = american
+	religion = protestant
+	1761.1.31 = {
+		birth = yes
+	}
+	1784.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1820.10.10 = {
+		death = yes
+	}
+}
+
+6400133 = {
+	name = "Littleton"
+	dynasty = tazewell
+	culture = american
+	religion = protestant
+	1774.12.17 = {
+		birth = yes
+	}
+	1798.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1860.5.6 = {
+		death = yes
+	}
+}
+
+6400134 = {
+	name = "David"
+	dynasty = williams
+	culture = american
+	religion = protestant
+	1776.3.8 = {
+		birth = yes
+	}
+	1805.3.4 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1830.11.17 = {
+		death = yes
+	}
+}
+
+6400135 = {
+	name = "George"
+	dynasty = mcduffie
+	culture = american
+	religion = protestant
+	1790.8.10 = {
+		birth = yes
+	}
+	1818.11.23 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1851.3.11 = {
+		death = yes
+	}
+}
+
+6400136 = {
+	name = "Peter"
+	dynasty = early
+	culture = american
+	religion = protestant
+	1773.6.20 = {
+		birth = yes
+	}
+	1803.1.10 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1817.8.15 = {
+		death = yes
+	}
+}
+
+6400137 = {
+	name = "William"
+	dynasty = schley
+	culture = american
+	religion = protestant
+	1786.12.15 = {
+		birth = yes
+	}
+	1830.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1858.11.20 = {
+		death = yes
+	}
+}
+
+6400138 = {
+	name = "John"
+	dynasty = eaton
+	culture = american
+	religion = protestant
+	1790.6.18 = {
+		birth = yes
+	}
+	1818.11.16 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1856.11.17 = {
+		death = yes
+	}
+}
+
+6400139 = {
+	name = "Clement"
+	dynasty = clay
+	culture = american
+	religion = protestant
+	1789.12.17 = {
+		birth = yes
+	}
+	1827.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1866.9.6 = {
+		death = yes
+	}
+}
+
+6400140 = {
+	name = "David"
+	dynasty = holmes
+	culture = american
+	religion = protestant
+	1769.3.10 = {
+		birth = yes
+	}
+	1797.3.4 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1832.9.20 = {
+		death = yes
+	}
+}
+
+6400141 = {
+	name = "Charles"
+	dynasty = lynch
+	culture = american
+	religion = protestant
+	1783.8.8 = {
+		birth = yes
+	}
+	1833.6.12 = {
+		effect = {
+			add_character_flag = conservative_party
+			add_character_modifier = {
+				modifier = conservative_party_modifier
+			}
+		}
+	}
+	1853.2.9 = {
+		death = yes
+	}
+}
+
+6400142 = {
+	name = "Willie"
+	dynasty = blount
+	culture = american
+	religion = protestant
+	1768.4.18 = {
+		birth = yes
+	}
+	1807.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1835.9.10 = {
+		death = yes
+	}
+}
+
+6400143 = {
+	name = "Newton"
+	dynasty = cannon
+	culture = american
+	religion = protestant
+	1781.5.22 = {
+		birth = yes
+	}
+	1829.1.1 = {
+		effect = {
+			add_character_flag = conservative_party
+			add_character_modifier = {
+				modifier = conservative_party_modifier
+			}
+		}
+	}
+	1841.9.16 = {
+		death = yes
+	}
+}
+
+6400144 = {
+	name = "Isaac"
+	dynasty = shelby
+	culture = american
+	religion = protestant
+	1750.12.11 = {
+		birth = yes
+	}
+	1792.6.4 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1826.7.18 = {
+		death = yes
+	}
+}
+
+6400145 = {
+	name = "James"
+	dynasty = morehead
+	culture = american
+	religion = protestant
+	1797.5.24 = {
+		birth = yes
+	}
+	1828.1.1 = {
+		effect = {
+			add_character_flag = conservative_party
+			add_character_modifier = {
+				modifier = conservative_party_modifier
+			}
+		}
+	}
+	1854.12.28 = {
+		death = yes
+	}
+}
+
+6400146 = {
+	name = "Return"
+	dynasty = meigs
+	culture = american
+	religion = protestant
+	1764.11.17 = {
+		birth = yes
+	}
+	1799.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1825.3.29 = {
+		death = yes
+	}
+}
+
+6400147 = {
+	name = "Thomas"
+	dynasty = worthington
+	culture = american
+	religion = protestant
+	1773.7.16 = {
+		birth = yes
+	}
+	1803.4.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1827.6.20 = {
+		death = yes
+	}
+}
+
+6400148 = {
+	name = "Robert"
+	dynasty = lucas
+	culture = american
+	religion = protestant
+	1781.4.1 = {
+		birth = yes
+	}
+	1808.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1853.2.7 = {
+		death = yes
+	}
+}
+
+6400149 = {
+	name = "William"
+	dynasty = claiborne
+	culture = american
+	religion = protestant
+	1774.1.1 = {
+		birth = yes
+	}
+	1797.11.23 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1817.11.23 = {
+		death = yes
+	}
+}
+
+6400150 = {
+	name = "Edward"
+	dynasty = white
+	culture = american
+	religion = protestant
+	1795.3.3 = {
+		birth = yes
+	}
+	1829.3.4 = {
+		effect = {
+			add_character_flag = conservative_party
+			add_character_modifier = {
+				modifier = conservative_party_modifier
+			}
+		}
+	}
+	1847.4.18 = {
+		death = yes
+	}
+}
+
+6400151 = {
+	name = "William"
+	dynasty = hull
+	culture = american
+	religion = protestant
+	1753.6.24 = {
+		birth = yes
+	}
+	1805.3.22 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1825.11.29 = {
+		death = yes
+	}
+}
+
+6400152 = {
+	name = "Lewis"
+	dynasty = cass
+	culture = american
+	religion = protestant
+	1782.10.9 = {
+		birth = yes
+	}
+	1807.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1866.6.17 = {
+		death = yes
+	}
+}
+
+6400153 = {
+	name = "Stevens"
+	dynasty = mason
+	culture = american
+	religion = protestant
+	1811.10.27 = {
+		birth = yes
+	}
+	1835.11.3 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1843.1.4 = {
+		death = yes
+	}
+}
+
+6400154 = {
+	name = "Thomas"
+	dynasty = posey
+	culture = american
+	religion = protestant
+	1750.7.9 = {
+		birth = yes
+	}
+	1813.3.3 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1818.3.19 = {
+		death = yes
+	}
+}
+
+6400155 = {
+	name = "Noah"
+	dynasty = noble
+	culture = american
+	religion = protestant
+	1794.1.15 = {
+		birth = yes
+	}
+	1831.12.7 = {
+		effect = {
+			add_character_flag = conservative_party
+			add_character_modifier = {
+				modifier = conservative_party_modifier
+			}
+		}
+	}
+	1844.2.8 = {
+		death = yes
+	}
+}
+
+6400156 = {
+	name = "Ninian"
+	dynasty = edwards2
+	culture = american
+	religion = protestant
+	1775.3.17 = {
+		birth = yes
+	}
+	1794.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1833.7.20 = {
+		death = yes
+	}
+}
+
+6400157 = {
+	name = "Joseph"
+	dynasty = duncan
+	culture = american
+	religion = protestant
+	1794.2.22 = {
+		birth = yes
+	}
+	1834.9.21 = {
+		effect = {
+			add_character_flag = conservative_party
+			add_character_modifier = {
+				modifier = conservative_party_modifier
+			}
+		}
+	}
+	1844.1.15 = {
+		death = yes
+	}
+}
+
+6400158 = {
+	name = "John"
+	dynasty = smith2
+	culture = american
+	religion = protestant
+	1765.2.12 = {
+		birth = yes
+	}
+	1793.1.1 = {
+		effect = {
+			add_character_flag = conservative_party
+			add_character_modifier = {
+				modifier = conservative_party_modifier
+			}
+		}
+	}
+	1845.12.7 = {
+		death = yes
+	}
+}
+
+6400159 = {
+	name = "Benjamin"
+	dynasty = howard
+	culture = american
+	religion = protestant
+	1760.1.1 = {
+		birth = yes
+	}
+	1800.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1814.9.18 = {
+		death = yes
+	}
+}
+
+6400160 = {
+	name = "William"
+	dynasty = clark
+	culture = american
+	religion = protestant
+	1770.8.1 = {
+		birth = yes
+	}
+	1800.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1838.9.1 = {
+		death = yes
+	}
+}
+
+6400161 = {
+	name = "Daniel"
+	dynasty = dunklin
+	culture = american
+	religion = protestant
+	1790.1.14 = {
+		birth = yes
+	}
+	1815.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1844.8.25 = {
+		death = yes
+	}
+}
+
+6400162 = {
+	name = "William"
+	dynasty = fulton
+	culture = american
+	religion = protestant
+	1795.6.2 = {
+		birth = yes
+	}
+	1821.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1844.8.15 = {
+		death = yes
+	}
+}

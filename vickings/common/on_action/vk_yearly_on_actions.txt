@@ -1,0 +1,501 @@
+﻿# Called every Jan 1st
+# Root does not exist
+yearly_global_pulse = {
+	on_actions = {
+		vk_yearly_global_pulse_effects
+	}
+}
+vk_yearly_global_pulse_effects = {
+	effect = {
+		if = {
+			limit = {
+				exists = title:k_hudsons_bay.holder
+				title:k_hudsons_bay.holder = { is_independent_ruler = yes }
+			}
+			random_ruler = {
+				limit = {
+					has_title = title:k_hudsons_bay
+				}
+				destroy_title = title:k_hudsons_bay
+			}
+		}
+		every_ruler = {	# to prevent vassal royal courts from overtaking the world
+			limit = {
+				is_ai = yes
+				has_realm_law = city_succession_law
+				is_independent_ruler = no
+				highest_held_title_tier = tier_kingdom
+				NOT = { has_character_modifier = restrict_royal_court_modifier }
+				NOT = { has_government = republic_government }
+			}
+			add_character_modifier = {
+				modifier = restrict_royal_court_modifier
+			}
+		}
+		every_independent_ruler = {
+			limit = {
+				is_ai = yes
+				NOT = { has_realm_law = crown_authority_0 }
+				primary_title = { NOT = { is_target_in_variable_list = { name = enacted_laws_list target = flag:admin_centralized } } }
+				OR = {
+					has_culture = culture:han
+					culture = { has_innovation = innovation_absolutism }
+				}
+			}
+			primary_title = {
+				add_to_variable_list = { name = enacted_laws_list target = flag:admin_centralized }
+			}
+		}
+
+		initialize_global_election_terms = yes
+
+		# Second Egyptian-Ottoman war (the ai rarely declares war on its own)
+		if = {
+			limit = {
+				exists = title:e_turkey.holder
+				exists = title:k_egypt.holder
+				title:e_turkey.holder = {
+					is_ai = yes
+					is_at_war = no
+				}
+				title:k_egypt.holder = {
+					completely_controls = title:k_jerusalem
+				}
+				game_start_date > 1833.5.1
+				current_date > 1839.1.1
+				NOT = { has_global_variable = ottoman_egypt_reconquest }
+			}
+			set_global_variable = {
+				name = ottoman_egypt_reconquest
+				value = yes
+			}
+			title:e_turkey.holder = {
+				add_prestige = 3000
+				start_war = {
+					cb = individual_duchy_de_jure_cb
+					target = title:k_egypt.holder
+					target_title = title:e_turkey
+				}
+			}
+		}
+		# Ang Duong claimant for Cambodia: players should have no trouble avoiding this
+		if = {
+			limit = {
+				exists = title:k_siam.holder
+				exists = title:k_cambodia.holder
+				title:k_siam.holder = {
+					is_ai = yes
+					is_at_war = no
+				}
+				title:k_cambodia.holder = {
+					OR = {
+						AND = {
+							is_female = yes
+							patrilinear_marriage = yes
+						}
+						NOT = { dynasty = dynasty:177021 }
+					}
+				}
+				character:6200203 = {
+					is_alive = yes
+				}
+				current_date > 1840.1.1
+				NOT = { has_global_variable = ang_duong_start }
+			}
+			set_global_variable = {
+				name = ang_duong_start
+				value = yes
+			}
+
+			create_title_and_vassal_change = {
+				type = swear_fealty
+				save_scope_as = change
+				add_claim_on_loss = no
+			}
+			character:6200203 = {
+				every_held_title = {
+					change_title_holder = {
+						holder = title:k_cambodia.holder
+						change = scope:change
+					}
+				}
+			}
+			resolve_title_and_vassal_change = scope:change
+
+			title:k_siam.holder = {
+				recruit_courtier = character:6200203
+				add_prestige = 2000
+				start_war = {
+					cb = claim_cb
+					target = title:k_cambodia.holder
+					claimant = character:6200203
+					target_title = title:k_cambodia
+				}
+			}
+		}
+	}
+}
+
+# Called from code once a year for "playable" (count+) characters.
+# Root is the character
+yearly_playable_pulse = {
+	events = {
+		moderntimes.1 # Napoleonic client states
+		moderntimes.4 # Hanoverian succession
+	}
+	on_actions = {
+		vk_yearly_playable_pulse_effects
+	}
+}
+vk_yearly_playable_pulse_effects = {
+	effect = {
+		title:k_france = {
+			update_dynamic_coa = yes
+		}
+		title:e_france = {
+			update_dynamic_coa = yes
+		}
+
+		# Historical colonizers, because there is no way to weight a cultural fascination so AI needs help picking it
+		if = {
+			limit = {
+				current_date > 1880.1.1
+				is_ai = yes
+				culture = {
+					has_cultural_era_or_later = culture_era_industrial
+					NOT = { has_innovation = innovation_nationalism_n_imperialism }
+				}
+				OR = {
+					culture = culture:english
+					culture = culture:castilian
+					culture = culture:french
+					culture = culture:german
+					culture = culture:portuguese
+				}
+				highest_held_title_tier > tier_duchy
+				is_independent_ruler = yes
+			}
+			random = {
+				chance = 10
+				culture = { add_innovation = innovation_nationalism_n_imperialism }
+			}
+		}
+	}
+}
+
+# Called from code once every five years for "playable" (count+) characters.
+# Root is the character
+five_year_playable_pulse = {
+	effect = {
+		root = {
+			if = {
+				limit = {
+					has_royal_court = yes
+				}
+				every_courtier = {
+					limit = {
+						liege = { has_royal_court = yes }
+						is_available_ai = yes
+						age > 6
+						NOT = {
+							knows_court_language_of = host
+						}
+					}
+					random = {
+						chance = {
+							value = -4
+							add = learning
+							if = {
+								limit = {
+									is_adult = no
+								}
+								add = 4
+							}
+							if = {
+								limit = {
+									host = {
+										employs_court_position = court_tutor_court_position
+									}
+								}
+								add = 2
+							}
+							if = {
+								limit = {
+									host = {
+										has_court_type = court_diplomatic
+									}
+								}
+								add = 2
+							}
+							if = {
+								limit = {
+									host = {
+										has_court_type = court_scholarly
+									}
+								}
+								add = 4
+							}
+						}
+						learn_court_language_of = host
+					}
+				}
+				if = {
+					limit = {
+						employs_court_position = court_poet_court_position
+					}
+					every_court_position_holder = {
+						type = court_poet_court_position
+						limit = {
+							is_physically_able_adult = yes
+							ep1_is_valid_character_for_inspiration_trigger = yes
+						}
+						random = {
+							chance = {
+								value = 5
+								add = {
+									value = this.aptitude:court_poet_court_position
+									multiply = 5
+									if = {
+										limit = {
+											has_trait = lazy
+										}
+										multiply = 0.5
+									}
+								}
+							}
+							grant_inspiration_to_character_effect = { CHARACTER = this }
+							save_scope_as = inspired_poet
+							root = {
+								send_interface_toast = {
+									left_icon = scope:inspired_poet
+									title = poet_inspired_message
+									custom_tooltip = poet_inspired_effect
+								}
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						employs_court_position = court_artificer_court_position
+					}
+					every_court_position_holder = {
+						type = court_artificer_court_position
+						limit = {
+							is_physically_able_adult = yes
+							ep1_is_valid_character_for_inspiration_trigger = yes
+						}
+						random = {
+							chance = {
+								value = 5
+								add = {
+									value = this.aptitude:court_artificer_court_position
+									multiply = 5
+									if = {
+										limit = {
+											has_trait = lazy
+										}
+										multiply = 0.5
+									}
+								}
+							}
+							grant_inspiration_to_character_effect = { CHARACTER = this }
+							save_scope_as = artificer
+							root = {
+								send_interface_toast = {
+									left_icon = scope:artificer
+									title = poet_inspired_message
+									custom_tooltip = court_artificer_inspired_effect
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+# Called from code once a quarter for "playable" (count+) characters.
+# Root is the character
+# scope:quarter is which quarter it's for, from 1 to 4. Note that scope:quarter = 1 isn't necessarily in Q1 by calendar time
+quarterly_playable_pulse = {
+	on_actions = {
+		vk_quarterly_playable_pulse_effects
+	}
+}
+vk_quarterly_playable_pulse_effects = {
+	effect = {
+		# Anglo-Indian Wars
+		if = {
+			limit = {
+				is_ai = yes
+				is_at_war = no
+				gold > 0
+				any_held_title = {
+					this = title:e_britannia
+				}
+				current_date > 1817.1.1
+				NOT = { has_government = republic_government }
+				scope:quarter = 1		# polls less frequently
+				OR = {
+					has_title = title:e_india
+					any_vassal = { has_title = title:k_british_east_indies }
+					any_realm_province = { geographical_region = world_india }
+				}
+			}
+			if = {
+				limit = { any_targeting_faction = { faction_discontent > 25 } }
+				random_vassal = {
+					limit = {
+						has_title = title:k_british_east_indies
+						is_at_war = no
+					}
+					start_british_invasion_effect = yes
+					if = { limit = { is_at_war = yes }
+					if = {
+						limit = { gold < 500 }
+						add_gold = 5000		# prevent ai from death spiraling
+					}
+					if = {
+						limit = { prestige < 500 }
+						add_prestige = 500		# prevent ai from death spiraling
+					} }
+				}
+			}
+			else = {
+				start_british_invasion_effect = yes
+				if = { limit = { is_at_war = yes }
+				if = {
+					limit = { gold < 500 }
+					add_gold = 5000		# prevent ai from death spiraling
+				}
+				if = {
+					limit = { prestige < 1000 }
+					add_prestige = 1500		# prevent ai from death spiraling
+				} }
+			}
+		}
+		if = {
+			limit = {
+				is_ai = yes
+				is_at_war = no
+				gold > 0
+				OR = {
+					has_title = title:k_prussia
+					has_title = title:k_sardinia
+				}
+				current_date > 1855.1.1
+				scope:quarter = 1		# polls less frequently
+			}
+			if = {
+				limit = { any_targeting_faction = { faction_discontent > 50 } }
+			}
+			else = {
+				if = {
+					limit = {
+						has_title = title:k_sardinia
+						NOT = { has_global_variable = garibaldi_army_spawned }
+					}
+					set_global_variable = {
+						name = garibaldi_army_spawned
+						value = yes
+					}
+					spawn_army = {
+						name = "National Army"	# 10 times smaller than historically
+						uses_supply = no
+						levies = 2000
+						men_at_arms = {
+							type = light_horsemen
+							stacks = 4
+						}
+						men_at_arms = {
+							type = light_footmen
+							stacks = 45
+						}
+						men_at_arms = {
+							type = bombard
+							stacks = 1
+						}
+						location = capital_province
+					}
+					spawn_army = {
+						name = "National Army"	# troops to use against Austria
+						uses_supply = no
+						levies = 4000
+						men_at_arms = {
+							type = light_horsemen
+							stacks = 8
+						}
+						men_at_arms = {
+							type = light_footmen
+							stacks = 90
+						}
+						men_at_arms = {
+							type = bombard
+							stacks = 2
+						}
+						location = capital_province
+						inheritable = no
+					}
+				}
+				start_unification_war_effect = yes
+				if = {
+					limit = { is_at_war = yes }
+					if = {
+						limit = { gold < 1000 }
+						add_gold = 1000		# prevent ai from death spiraling
+					}
+				}
+			}
+		}
+		# Mongolian Revolution
+		if = {
+			limit = {
+				has_title = title:k_mongolia
+				primary_title.tier = tier_kingdom
+				is_independent_ruler = yes
+				culture = { has_cultural_pillar = heritage_chinese }
+				NOT = { has_faith = faith:lamaism }
+				NOT = { has_global_variable = mongol_rev }
+			}
+			set_global_variable = {
+				name = mongol_rev
+				value = yes
+			}
+			trigger_event = moderntimes.25
+		}
+		# Tuvan Revolution
+		if = {
+			limit = {
+				has_primary_title = title:k_tuva
+				is_independent_ruler = yes
+				culture = { has_cultural_pillar = heritage_chinese }
+				NOT = { has_faith = faith:lamaism }
+				NOT = { has_global_variable = tuvan_rev }
+			}
+			set_global_variable = {
+				name = tuvan_rev
+				value = yes
+			}
+			trigger_event = moderntimes.26
+		}
+		# AI Meiji Restoration faction
+		if = {
+			limit = {
+				has_title = title:k_chrysanthemum_throne
+				is_ai = yes
+				is_leading_faction_type = claimant_faction
+				has_claim_on = title:e_shogunate
+			}
+			joined_faction = {
+				set_special_character = root
+			}
+		}
+	}
+}
+
+# Called from code once a year for all "playable" characters, at a random point that year (individually for each character). Different time from the random_yearly_everyone_pulse (coincides by random 1 time out of 365)
+# Root is the character
+#random_yearly_playable_pulse = {
+#}

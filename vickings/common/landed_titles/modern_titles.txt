@@ -10,7 +10,7 @@ e_turkey = {
 	ai_primary_priority = {
 		if = {
 			limit = {
-				culture_group = culture_group:turkic_group
+				culture = { has_cultural_pillar = heritage_turkic }
 			}
 			add = @correct_culture_primary_score
 		}
@@ -42,7 +42,7 @@ e_cdr = {
 	ai_primary_priority = {
 		if = {
 			limit = {
-				culture_group = culture_group:central_germanic_group
+				culture = { has_cultural_pillar = heritage_central_germanic }
 			}
 			add = @correct_culture_primary_score
 		}
@@ -202,7 +202,7 @@ k_far_east = {
 	color = { 209 51 55 }
 	color2= { 255 255 255 }
 	
-	capital = c_aigun
+	capital = c_boli
 
 	d_amur = {
 		color = {65 71 60}
@@ -227,7 +227,7 @@ k_far_east = {
 		color = {65 71 60}
 		color2 = {63 63 63}
 		
-		capital = c_aigun
+		capital = c_boli
 
 		c_udsky = {
 			color = { 75 155 170 }
@@ -253,4 +253,22 @@ k_sikkim = {
 
 		capital = c_chungthang
 	}
+}
+
+k_native_american_confederacy = {
+	color = { 167 24 41 }
+
+	capital = c_shikaakwa
+	definite_form = yes
+	
+	ai_primary_priority = {
+		add = @always_primary_score
+	}
+}
+
+k_hudsons_bay = {
+	color = { 167 35 35 }
+	color2 = { 255 255 255 }
+	
+	definite_form = yes
 }

@@ -1,0 +1,19 @@
+﻿l_simp_chinese:
+
+ #############################################
+ #Default Republic tiers
+ baron_republic_male:0 "市长"
+ baron_republic_female:0 "市长"
+ barony_republic:0 "市"
+ count_republic_male:0 "市长大人"
+ count_republic_female:0 "市长女士"
+ county_republic:0 "大市"
+ duke_republic_male:0 "大市长"
+ duke_republic_female:0 "大市长"
+ duchy_republic:0 "共和国"
+ king_republic_male:0 "总统"
+ king_republic_female:0 "总统"
+ kingdom_republic:0 "民国"
+ emperor_republic_male:0 "总统"
+ emperor_republic_female:0 "总统"
+ empire_republic:0 "民国"

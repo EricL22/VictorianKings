@@ -161,11 +161,7 @@
 					}
 				}
 
-				vassal_contract_has_flag = has_princely_contract
-				AND = {
-					vassal_contract_has_flag = religiously_protected
-					vassal_contract_has_flag = vassal_contract_cannot_revoke_titles
-				}
+				is_protectorate = yes
 			}
 		}
 
@@ -191,6 +187,8 @@
 		# Dread
 		intimidated_from_faction_modifier = {
 			TARGET = scope:faction.faction_target
+			POWER =  scope:faction.faction_power
+			THRESHOLD = scope:faction.faction_power_threshold
 		}
 
 		# 'Base Join Weight' depends on the number of sinful traits.
@@ -310,11 +308,7 @@
 					}
 				}
 
-				vassal_contract_has_flag = has_princely_contract
-				AND = {
-					vassal_contract_has_flag = religiously_protected
-					vassal_contract_has_flag = vassal_contract_cannot_revoke_titles
-				}
+				is_protectorate = yes
 			}
 		}
 
@@ -340,6 +334,8 @@
 		# Dread
 		intimidated_from_faction_modifier = {
 			TARGET = scope:target
+			POWER =  0
+			THRESHOLD = 80
 		}
 
 		# 'Base Join Weight' depends on the number of sinful traits.

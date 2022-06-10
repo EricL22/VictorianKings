@@ -15,6 +15,31 @@ congress_of_vienna.1 = {
 		trigger_event = congress_of_vienna.3	# saxony
 		trigger_event = congress_of_vienna.4	# italy
 
+		scope:attacker = { save_scope_as = main_attacker }
+
+		if = {
+			limit = {
+				character:8000000 = { is_alive = yes }
+			}
+			character:8000000 = {
+				save_scope_as = bourbon
+			}
+		}
+		else = {
+			dynasty:100146 = {
+				ordered_dynasty_member = {
+					limit = {
+						is_adult = yes
+						has_culture = culture:french
+					}
+					order_by = age
+					position = 0
+
+					save_scope_as = bourbon
+				}
+			}
+		}
+
 		if = {
 			limit = {
 				character:8000001 = { is_alive = yes }
@@ -170,9 +195,24 @@ congress_of_vienna.1 = {
 				factor = 4
 				current_date > 1816.1.1
 			}
+		}
+	}
+	option = {
+		trigger = { exists = scope:bourbon }
+		name = congress_of_vienna.1.c
+
+		custom_tooltip = paris_treaty_desc
+		trigger_event = { id = congress_of_vienna.5 days = 2 }
+
+		ai_chance = {
+			base = 1
 			modifier = {
-				factor = 5
-				current_date > 1817.1.1
+				factor = 3
+				current_date > 1815.1.1
+			}
+			modifier = {
+				factor = 9
+				current_date > 1816.1.1
 			}
 		}
 	}
@@ -334,6 +374,22 @@ congress_of_vienna.1 = {
 			}
 			title:c_lubeck.holder = {
 				becomes_independent = { change = scope:title_change }
+			}
+		}
+		else = {
+			create_character = {
+				location = root.capital_province
+				template = pool_repopulate_stewardship
+				culture = culture:lowersaxon
+				faith = root.faith
+				gender = male
+				save_scope_as = lubeck_fixer
+			}
+			title:c_lubeck = {
+				change_title_holder = {
+					holder = scope:lubeck_fixer
+					change = scope:title_change
+				}
 			}
 		}
 		if = {
@@ -887,6 +943,19 @@ congress_of_vienna.1 = {
 		title:k_hanover = {
 			add_title_law = male_only_law
 		}
+		if = {
+			limit = {
+				title:c_lubeck.holder = { is_independent_ruler = no }
+			}
+			create_title_and_vassal_change = {
+				type = independency
+				save_scope_as = changefx
+			}
+			title:c_lubeck.holder = {
+				becomes_independent = { change = scope:changefx }
+			}
+			resolve_title_and_vassal_change = scope:changefx
+		}
 		}
 	}
 }
@@ -1078,5 +1147,171 @@ congress_of_vienna.4 = {
 		}
 		resolve_title_and_vassal_change = scope:title_change
 		destroy_title = title:k_italy
+	}
+}
+
+congress_of_vienna.5 = {
+	type = character_event
+	hidden = yes
+	
+	immediate = {
+		create_title_and_vassal_change = {
+			type = conquest
+			save_scope_as = title_change
+			add_claim_on_loss = no
+		}
+		title:k_frisia.holder = { save_scope_as = attacker }
+		random_ruler = {
+			limit = {
+				any_held_title = { this = title:e_france }
+			}
+			save_scope_as = defender
+		}
+		title:c_boulogne = {
+			set_de_jure_liege_title = title:d_normandy
+		}
+		title:c_guines = {
+			set_de_jure_liege_title = title:d_normandy
+		}
+		title:c_lille = {
+			set_de_jure_liege_title = title:d_normandy
+		}
+		title:c_cambray = {
+			set_de_jure_liege_title = title:d_valois
+		}
+		title:c_geneva = {
+			set_de_jure_liege_title = title:d_transjurania
+			change_title_holder = {
+				holder = title:k_switzerland.holder
+				change = scope:title_change
+			}
+		}
+		title:k_frisia = {
+			add_to_temporary_list = target_titles
+		}
+		# go through the dejure hierarchy under target titles, transfer eligible vassals and sieze counties from ineligible ones
+		every_in_list = {
+			list = target_titles
+			custom_tooltip = CONQUEST_CB_TITLE
+
+			conquest_cb_title_transfer = {
+				RELIGIOUS_WAR = no
+			}
+		}
+		every_in_list = {
+			list = vassals_taken
+			change_liege = {
+				liege = title:k_frisia.holder
+				change = scope:title_change
+			}
+		}
+		every_in_list = {
+			list = titles_taken
+			change_title_holder = {
+				holder = title:k_frisia.holder
+				change = scope:title_change
+				take_baronies = yes
+			}
+		}
+
+
+		clear_local_variable_list = target_titles
+		clear_local_variable_list = vassals_taken
+		clear_local_variable_list = titles_taken
+		clear_variable_list = potential_vassals
+		title:c_saarbrucken = {
+			change_title_holder = {
+				holder = title:k_bavaria.holder
+				change = scope:title_change
+			}
+		}
+		title:e_france.holder = {
+			every_realm_county = {
+				limit = { target_is_de_jure_liege_or_above = title:d_savoie }
+				change_title_holder = {
+					holder = title:k_sardinia.holder
+					change = scope:title_change
+				}
+			}
+			every_realm_county = {
+				limit = { target_is_de_jure_liege_or_above = title:d_lower_lorraine }
+				change_title_holder = {
+					holder = title:k_prussia.holder
+					change = scope:title_change
+				}
+			}
+		}
+		title:c_nice = {
+			change_title_holder = {
+				holder = title:k_sardinia.holder
+				change = scope:title_change
+			}
+		}
+		resolve_title_and_vassal_change = scope:title_change
+		title:e_france.holder = { trigger_event = { id = congress_of_vienna.6 days = 2 } }
+	}
+}
+
+congress_of_vienna.6 = {
+	type = character_event
+	title = congress_of_vienna.6.name
+	desc = congress_of_vienna.6.desc
+	theme = realm
+	left_portrait = {
+		character = scope:bourbon
+		animation = idle
+	}
+	right_portrait = {
+		character = root
+		animation = beg
+	}
+	
+	option = {
+		name = congress_of_vienna.6.a
+		create_title_and_vassal_change = {
+			type = conquest
+			save_scope_as = title_change
+			add_claim_on_loss = no
+		}
+		title:k_france = {
+			change_title_holder = {
+				holder = scope:bourbon
+				change = scope:title_change
+			}
+		}
+		every_vassal = {
+			change_liege = {
+				liege = scope:bourbon
+				change = scope:title_change
+			}
+		}
+		every_held_title = {
+			limit = { NOT = { this = title:e_france } }
+			change_title_holder = {
+				holder = scope:bourbon
+				change = scope:title_change
+			}
+		}
+		resolve_title_and_vassal_change = scope:title_change
+		destroy_title = title:e_france
+
+		create_title_and_vassal_change = {
+			type = conquest
+			save_scope_as = title_change
+			add_claim_on_loss = no
+		}
+		title:c_ile_de_france = {
+			change_title_holder = {
+				holder = scope:bourbon
+				change = scope:title_change
+			}
+		}
+		resolve_title_and_vassal_change = scope:title_change
+		if = {
+			limit = {
+				is_ai = no
+			}
+			set_player_character = scope:bourbon
+		}
 	}
 }

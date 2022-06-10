@@ -3,6 +3,17 @@
 #Triggered by code
 
 on_death = {
+	events = {
+		china_dyn.36		# Temple names
+		china_dyn.38		# Temple names
+		china_dyn.39		# Temple names
+		china_dyn.50		# Posthumous names
+	}
+	on_actions = {
+		vk_on_death_effects
+	}
+}
+vk_on_death_effects = {
 	effect = {
 		if = {
 			limit = {
@@ -27,17 +38,12 @@ on_death = {
 			primary_heir = { trigger_event = { id = moderntimes.14 days = { 7 14 } } }
 		}
 	}
-	events = {
-		china_dyn.36		# Temple names
-		china_dyn.38		# Temple names
-		china_dyn.39		# Temple names
-		china_dyn.50		# Posthumous names
-	}
 }
 
 on_game_start = {
 	on_actions = {
 		prepare_government_reforms
+		vk_initialize_history_effects
 	}
 }
 
@@ -56,12 +62,40 @@ prepare_government_reforms = {
 		}
 	}
 }
+vk_initialize_history_effects = {
+	effect = {
+		every_independent_ruler = {
+			limit = {
+				has_culture = culture:native_american_minor
+				NOT = { has_government = tribal_government }
+			}
+			change_government = tribal_government
+		}
+
+		# Specific to starting dates
+		if = {
+			limit = { game_start_date = 1836.1.1 }
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:1818_treaty_signed
+			}
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:adams_onis_signed
+			}
+		}
+	}
+}
 
 four_year_elections = {
 	effect = {
-		every_independent_ruler = {
+		every_ruler = {
 			limit = { holds_valid_merchant_republic = yes primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:four_year_term } }
-				is_at_war_as_attacker = no
+				trigger_if = {
+					limit = { is_independent_ruler = no }
+					primary_title = { target_is_de_jure_liege_or_above = prev.liege.primary_title tier >= tier_duchy }
+				}
+				#is_at_war_as_attacker = no
 			}
 			trigger_event = { id = republic_election.1 days = { 6 12 } }
 		}
@@ -73,9 +107,13 @@ four_year_elections = {
 }
 five_year_elections = {
 	effect = {
-		every_independent_ruler = {
+		every_ruler = {
 			limit = { holds_valid_merchant_republic = yes primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:five_year_term } }
-				is_at_war_as_attacker = no
+				trigger_if = {
+					limit = { is_independent_ruler = no }
+					primary_title = { target_is_de_jure_liege_or_above = prev.liege.primary_title tier >= tier_duchy }
+				}
+				#is_at_war_as_attacker = no
 			}
 			trigger_event = { id = republic_election.1 days = { 6 12 } }
 		}
@@ -87,9 +125,13 @@ five_year_elections = {
 }
 six_year_elections = {
 	effect = {
-		every_independent_ruler = {
+		every_ruler = {
 			limit = { holds_valid_merchant_republic = yes primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:six_year_term } }
-				is_at_war_as_attacker = no
+				trigger_if = {
+					limit = { is_independent_ruler = no }
+					primary_title = { target_is_de_jure_liege_or_above = prev.liege.primary_title tier >= tier_duchy }
+				}
+				#is_at_war_as_attacker = no
 			}
 			trigger_event = { id = republic_election.1 days = { 6 12 } }
 		}
@@ -101,9 +143,13 @@ six_year_elections = {
 }
 seven_year_elections = {
 	effect = {
-		every_independent_ruler = {
+		every_ruler = {
 			limit = { holds_valid_merchant_republic = yes primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:seven_year_term } }
-				is_at_war_as_attacker = no
+				trigger_if = {
+					limit = { is_independent_ruler = no }
+					primary_title = { target_is_de_jure_liege_or_above = prev.liege.primary_title tier >= tier_duchy }
+				}
+				#is_at_war_as_attacker = no
 			}
 			trigger_event = { id = republic_election.1 days = { 6 12 } }
 		}
@@ -111,5 +157,102 @@ seven_year_elections = {
 	on_actions = {
 		delay = { years = 7 }
 		seven_year_elections
+	}
+}
+
+
+on_war_won_attacker = {
+	on_actions = {
+		vk_war_won_attacker_effects
+	}
+}
+vk_war_won_attacker_effects = {
+	effect = {
+		if = {
+			limit = {
+				scope:defender = {
+					has_government = tribal_government
+					is_vassal_or_below_of = scope:attacker
+					scope:attacker = { has_title = title:e_united_states }
+				}
+			}
+			create_title_and_vassal_change = {
+				type = conquest
+				save_scope_as = change
+				add_claim_on_loss = yes
+			}
+			scope:attacker = { save_scope_as = county_gainer }
+			scope:defender = {
+				every_sub_realm_county = {
+					if = {
+						limit = { scope:attacker = { is_ai = yes } }
+						create_character = {
+							culture = culture:american
+							faith = scope:attacker.faith
+							gender = male
+							employer = scope:attacker
+							after_creation = { add_to_list = new_republics }
+							save_scope_as = county_gainer
+						}
+					}
+					change_title_holder = {
+						holder = scope:county_gainer
+						change = scope:change
+						take_baronies = yes
+					}
+				}
+				every_vassal_or_below = {
+					save_scope_as = destroyer
+					every_held_title = {
+						limit = { tier > tier_county }
+						scope:destroyer = { destroy_title = prev }
+					}
+				}
+				every_held_title = {
+					limit = { tier > tier_county }
+					scope:defender = { destroy_title = prev }
+				}
+			}
+			resolve_title_and_vassal_change = scope:change
+			every_in_list = {
+				list = new_republics
+				capital_province = { set_holding_type = city_holding }
+				change_government = republic_government
+			}
+		}
+		if = {
+			limit = {
+				scope:defender = {
+					OR = {
+						has_government = feudal_government
+						has_government = clan_government
+					}
+					is_vassal_or_below_of = scope:attacker
+					scope:attacker = { has_title = title:e_united_states }
+				}
+			}
+			scope:defender = {
+				change_government = republic_government
+				every_vassal_or_below = {
+					change_government = republic_government
+				}
+			}
+			create_title_and_vassal_change = {
+				type = conquest
+				save_scope_as = change
+				add_claim_on_loss = yes
+			}
+			scope:defender = {
+				every_sub_realm_county = {
+					limit = { NOT = { target_is_de_jure_liege_or_above = scope:defender.primary_title } }
+					change_title_holder = {
+						holder = scope:attacker
+						change = scope:change
+						take_baronies = yes
+					}
+				}
+			}
+			resolve_title_and_vassal_change = scope:change
+		}
 	}
 }

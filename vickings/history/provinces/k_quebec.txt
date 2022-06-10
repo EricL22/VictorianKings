@@ -1,0 +1,189 @@
+11685 = {
+	culture = french
+	religion = catholic
+}
+
+11686 = {
+	culture = french
+	religion = catholic
+}
+
+11687 = {
+	culture = french
+	religion = catholic
+}
+
+11688 = {
+	culture = french
+	religion = catholic
+}
+
+11689 = {
+	culture = french
+	religion = catholic
+}
+
+11690 = {
+	culture = french
+	religion = catholic
+}
+
+11691 = {
+	culture = french
+	religion = catholic
+}
+
+11692 = {
+	culture = french
+	religion = catholic
+}
+
+11693 = {
+	culture = french
+	religion = catholic
+}
+
+11694 = {
+	culture = french
+	religion = catholic
+}
+
+11695 = {
+	culture = french
+	religion = catholic
+}
+
+11696 = {
+	culture = french
+	religion = catholic
+}
+
+11697 = {
+	culture = french
+	religion = catholic
+}
+
+11698 = {
+	culture = french
+	religion = catholic
+}
+
+11699 = {
+	culture = french
+	religion = catholic
+}
+
+11700 = {
+	culture = french
+	religion = catholic
+}
+
+11701 = {
+	culture = french
+	religion = catholic
+}
+
+11702 = {
+	culture = french
+	religion = catholic
+}
+
+11703 = {
+	culture = french
+	religion = catholic
+}
+
+11704 = {
+	culture = french
+	religion = catholic
+}
+
+11705 = {
+	culture = french
+	religion = catholic
+}
+
+11706 = {
+	culture = french
+	religion = catholic
+}
+
+11707 = {
+	culture = french
+	religion = catholic
+}
+
+11708 = {
+	culture = french
+	religion = catholic
+}
+
+11709 = {
+	culture = french
+	religion = catholic
+}
+
+11710 = {
+	culture = french
+	religion = catholic
+}
+
+11711 = {
+	culture = french
+	religion = catholic
+}
+
+11712 = {
+	culture = french
+	religion = catholic
+}
+
+11713 = {
+	culture = french
+	religion = catholic
+}
+
+11714 = {
+	culture = french
+	religion = catholic
+}
+
+11715 = {
+	culture = french
+	religion = catholic
+}
+
+11716 = {
+	culture = french
+	religion = catholic
+}
+
+11717 = {
+	culture = french
+	religion = catholic
+}
+
+11718 = {
+	culture = french
+	religion = catholic
+}
+
+11719 = {
+	culture = french
+	religion = catholic
+}
+
+11720 = {
+	culture = french
+	religion = catholic
+}
+
+11721 = {
+	culture = french
+	religion = catholic
+}
+
+11722 = {
+	culture = french
+	religion = catholic
+}

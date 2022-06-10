@@ -1,0 +1,302 @@
+﻿name_list_vietnamese = {
+		
+		dynasty_name_first = yes
+
+        cadet_dynasty_names = {
+            "dyn_Lac_ruw"
+            "dyn_Nguyen_wny"
+            "dyn_Phuc_hpn"
+            "dyn_Thai_xzs"
+            "dyn_That_vse"
+            "dyn_Thua_pdv"
+            "dyn_Vo_idd"
+            "dyn_Vu_wmw"
+        }
+
+        dynasty_names = {
+            "dyn_Bui_tmi"
+            "dyn_Dang_lvl"
+            "dyn_Duong_ikt"
+            "dyn_Han_wif"
+            "dyn_Ho_lmv"
+            "dyn_Hoang_zlt"
+            "dyn_Khuc_hms"
+            "dyn_Kieu_slx"
+            "dyn_La_kvi"
+            "dyn_Le_qsf"
+            "dyn_Ly_dzw"
+            "dyn_Ngo_cqv"
+            "dyn_Nguyen_rnl"
+            "dyn_Pham_gqp"
+            "dyn_Phan_lwt"
+            "dyn_Ton_jem"
+            "dyn_Tran_dtx"
+            "dyn_Trieu_ohy"
+            "dyn_Trinh_nhn"
+            "dyn_Vu_fci"
+        }
+
+        male_names = {
+             "pp_Bach_Ho_fxe"  "pp_Bang_kqo"  "pp_Bao_hqi"  "pp_Bien_ngc"  "pp_Binh_gaj"  "pp_Bo_Linh_wpr"  "pp_Bong__tey"  "pp_Canh_Thac_rkc"  "pp_Cao_apg"  "pp_Chinh_hkz"  "pp_Chuong_bsx"  "pp_Cong_Han_onz"  "pp_Du_yxs"  "pp_Duat_fmf"  "pp_Duong_lzs"  "pp_Hoan_ocj"  "pp_Huy_abr"  "pp_Khoan_tte"  "pp_Khue_bzf" 
+              "pp_Lam_ray"  "pp_Loi_acu"  "pp_Lu_vvx"  "pp_Nhac_ziq"  "pp_Nhat_Khanh_llz"  "pp_Quyen_kjp"  "pp_Son_jao"  "pp_Thuyet_vjv"  "pp_Tiep_doy"  "pp_Xuong_Xi_tsr"         }
+
+        female_names = {
+             "pp_Bich_Chau_ayv"  "pp_Chieu_Duong_gsp"  "pp_Cuc_kom"  "pp_Dao_yui"  "pp_Giang_kgj"  "pp_Ha_yne"  "pp_Hang_jau"  "pp_Hoa_Dung_ckx"  "pp_Hong_kkd"  "pp_Kim_Hang_ajt"  "pp_Le_Uyen_rrk"  "pp_Linh_kbe"  "pp_Loan_zwf"  "pp_Minh_Thuc_qon"  "pp_My_Nga_rvk"  "pp_Ngan_Hoa_dul"  "pp_Ngoc_Bach_uhr"  "pp_Ngoc_Dinh_vnv"  "pp_Ngoc_Hoan_een"  "pp_Ngoc_Lu_zft" 
+              "pp_Ngoc_Oanh_fia"  "pp_Ngoc_Vien_suy"  "pp_Nguyet_hfj"  "pp_Nhat_Le_lul"  "pp_Phat_Kim_csv"  "pp_Thuc_Giang_nlg"  "pp_Thuc_My_gxp"  "pp_Thuy_Chau_zjm"  "pp_Tu_Hue_bqu"  "pp_Van_Nga_dcg"         }
+
+
+		#dynasty_title_names = no
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 0	#50
+		mat_grf_name_chance = 0	#25
+		father_name_chance = 0	#25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 25
+		mat_grm_name_chance = 25
+		mother_name_chance = 0
+}
+name_list_thai = {
+		
+		cadet_dynasty_names = {
+		Adulyadej Amarin Ambhom Ananada Anchali Anong Anuman Anurak Aromdee Arthit Awut Ayutthaya Bae Bannarasee
+		Bhirombhakdi Boonjumnong Boonyasak Bui Bunnag Chadaporn Chakrii Charoensuk Chearavanont Chen Chet_Ton Chiang_Mai
+		Chidchob Chirathivat Chitragani Choonhavan Dangda Du Jitkhunthod Jutanugarn Kaikaew Kanjanapas Karbdecho Kasem
+		Krairiksh Kumkhum Lampang Lamphun Lamsam Lavapura Makok Malee Maleenont Na_Chiangmai Nakhon_Pathom Nakhon_Sawan
+		Ngam Niran Noi Paśú Phetchaburi Phimai Phitsanulok Phra_Bang Pravat Ratanapol Ratanaporn Ratanarak Ratanarat Ratchaburi
+		Rattanakosin Ritthirong Rochana Rueng Saelau Saengkaew Sakdan Sanouk Sawangsri Shinawatra Siriporn Sirivadhanabhakdi
+		Soikham Somsri Sri_Thep Sukhothai Suwan Suwannarat Tancharoen Tham_Boon Thonburi Thongchai Thong_Di Trubbaya U_Thong Vejjajiva
+		Vongvanij Wattanasin Wong Yoovidhya
+		}
+		dynasty_names = {
+		Adulyadej Amarin Ambhom Ananada Anchali Anong Anuman Anurak Aromdee Arthit Awut Ayutthaya Bae Bannarasee
+		Bhirombhakdi Boonjumnong Boonyasak Bui Bunnag Chadaporn Chakrii Charoensuk Chearavanont Chen Chet_Ton Chiang_Mai
+		Chidchob Chirathivat Chitragani Choonhavan Dangda Du Jitkhunthod Jutanugarn Kaikaew Kanjanapas Karbdecho Kasem
+		Krairiksh Kumkhum Lampang Lamphun Lamsam Lavapura Makok Malee Maleenont Na_Chiangmai Nakhon_Pathom Nakhon_Sawan
+		Ngam Niran Noi Paśú Phetchaburi Phimai Phitsanulok Phra_Bang Pravat Ratanapol Ratanaporn Ratanarak Ratanarat Ratchaburi
+		Rattanakosin Ritthirong Rochana Rueng Saelau Saengkaew Sakdan Sanouk Sawangsri Shinawatra Siriporn Sirivadhanabhakdi
+		Soikham Somsri Sri_Thep Sukhothai Suwan Suwannarat Tancharoen Tham_Boon Thonburi Thongchai Thong_Di Trubbaya U_Thong Vejjajiva
+		Vongvanij Wattanasin Wong Yoovidhya
+		}
+
+		male_names = {
+		Anurutha Athittayawong A_Wut Boromakot Borommaracha Bun_Si Chairacha Chakkraphat Channarong Cheputarai
+		Chettha Dusit Ekathotsarot Ingsemang Intha_Racha Jatuphon Jirayu Kaeo Kawila Ket Keu_Na Khai_Bua_Ban Kham_Tam_Sa
+		Khamteam Khamtum Khemkhaeng Khihut Khong_Kham Kiet Kin_Kitsarat Klahan Konekham Kongkeo Laasaenthai Lan_Kham_Deng
+		Leu_Xay Luangthipphanet Lue_Sai Mahin Mangraenara Ma_Noi Manthaturat Mekuti Meunsai Mongkut Mon_Keo Nakhon_Noi Nan_Rat
+		Nan_Tharat Narai Naresuen Nawrahta_Minsaw Niran No_Muong Nophakum Pethom Phanumas Phassakorn Phetracha Phommathat
+		Photisarat Phra_Chaiyathip Phra_Choi Phrae Phra_Saenmueang Phraya_Chaban Piyabutr Po_Aphaikhamini Po_Mayunguan Prasat_Thong
+		Prawati Puenthai Rajabud_Yo Rama Ramaracha Ramathibodi Ratsada Saenmuenagma Saensurin Sai Saikham Sai_Tia_Kaphut Samsenethai
+		Saya_Kumane Setthathirat Sisongmueang Si_Suthammaracha Somchair Songtham Sunan Taksin Thai_Sa Thammalangka Thammaracha
+		Thammikarat Thawoon Theng_Kham Thinnakorn Thuanthong Tian_Thala Tilokaracha Tone_Kham Trailokanat Upanyuvarat Uthumphon
+		Vichai Virote Visunarat Xiang_Keo Yotchiangrai Yu_Khong
+		}
+		female_names = {
+		Achara Amporn Anong Aom Aranya Arisara Arpa Beam Busaba Busarakham Chaem_Choi Chailai Chalermwan Chalita
+		Chanarong Chantana Chariya Chiraprapha Dara Duangkamol Gamon Hansa Hathai Hom Ireshi Jatuphon Jintana Junta Kaeo
+		Kalyani Kamlai Kanda Karnchana Khanani Kharee Komen Komol Kulphantha Lamai Lawana Lookgade Maeri Mya Nan Nari Panjapapee
+		Pathama Phaibun Phawta Piti Pornthip Preeda Samorn Sarai Sri_Suriyothai Sukhorn Sumitra Thanomwang Thong Ubon Waan Wisutthithewi Ya_Chai Yasuntarathewi Ying
+		}
+		dynasty_name_first = yes
+}
+name_list_khmer = {
+		
+		cadet_dynasty_names = {
+		Aang Aek Ang Angkor Aok Battambang Ben Bun Chan Chap Chea Cheam Chen Cheng Chey Chhan Chhem Chhet
+		Chhim Chhit Chhorn Chim Chin Choem Din Dith Dul Duong Dy Eam Eav Eaw Ek Hak Ho Hong Hu Hun Iam Iem Im
+		Iv Jan Jay Jen Jey Jin Kaing Kem Keo Kep Khat Khay Kheang Khiev Khim Khin Khlot Kim Kouch Kratie Kuy Lay
+		Lim Liv Long Ly Ma Mao Mean Meas Meng Mul Muoy Muy Nhek Ny Ok Om Ong Ouch Oudong Pang Pech Pen Phan Phnom_Penh
+		Phy Pich Pok Prak Ros Rous Rouy Sam San Sang Sao Sar Sat Say Seang Sen Seng Seoung Siem_Reap Sieng Sin So Sok Som Son
+		Song Sor Soun Stung_Treng Su Suy Taing Tang Tat Teav Tep Than Thy Toch Tok Touch Try Tum Ty Uch Um Uy Vang
+		Vong Yim Yos Yous Yu Yun
+		}
+
+		dynasty_names = {
+		Aang Aek Ang Angkor Aok Battambang Ben Bun Chan Chap Chea Cheam Chen Cheng Chey Chhan Chhem Chhet
+		Chhim Chhit Chhorn Chim Chin Choem Din Dith Dul Duong Dy Eam Eav Eaw Ek Hak Ho Hong Hu Hun Iam Iem Im
+		Iv Jan Jay Jen Jey Jin Kaing Kem Keo Kep Khat Khay Kheang Khiev Khim Khin Khlot Kim Kouch Kratie Kuy Lay
+		Lim Liv Long Ly Ma Mao Mean Meas Meng Mul Muoy Muy Nhek Ny Ok Om Ong Ouch Oudong Pang Pech Pen Phan Phnom_Penh
+		Phy Pich Pok Prak Ros Rous Rouy Sam San Sang Sao Sar Sat Say Seang Sen Seng Seoung Siem_Reap Sieng Sin So Sok Som Son
+		Song Sor Soun Stung_Treng Su Suy Taing Tang Tat Teav Tep Than Thy Toch Tok Touch Try Tum Ty Uch Um Uy Vang
+		Vong Yim Yos Yous Yu Yun
+		}
+
+		male_names = {
+		Anchaly Ang_Chan Ang_Chea Ang_Duong Ang_Em Ang_Eng Ang_Nan Ang_Non Ang_Sngoun Ang_Sor Ang_Sur Ang_Tham Ang_Ton
+		Ang_Tong Ang_Yong Atith Barom_Reachea Boran Borey Bourey Bunroeun Chamroeun Chan Chankrisna Chanthou Chanvatey
+		Charya Chea Chey_Chettha Chhay Damkhat_Sukonthor Dara Darany Davuth Dharmaraja Dharmarajadhiraja Kakada Keo_Ban_On
+		Keo_Hua Khean Khemera Kiry Kong_Kea Kosal Kravann Leap Meaker Mittapheap Montha Munny Narayanaraja Narith Nemo
+		Ney_Khan Nhean Nimith Nimo Nimol Nisay Noreaksey Noreay_Ramathipatei Oudom Outey_Reachea Padumaraja Phala
+		Pheakdei Phirum Phirun Pich Piseth Pisey Poeu Ponhea_An Ponhea_Chan Ponhea_Nhom Ponhea_To Ponhea_Yat Ponhea_Yor
+		Ponleak Ponleu Ponlok Prak Preah_Ram Pros Puthyrith Rainsey Rajadhiraja Raksmei Ramathipadi Rangsey Rathana Rathanak
+		Reachea_Ramathipatei Reamea_Chungprey Ream_Reachea Reasmey Rith Rithipol Rithisak Rithy Rothanak Sakngea Saloth Samang
+		Sambath Samlain Samnang Samphy Sangha Sann Satha Sathea Sokha Sokhem Sokhom Sokun Somnang Sonith Sopath Sophaep Sopheak
+		Sopheaktra Sopheap Sopheara Soriyotei Sorya Sothea Sothy Sourkeat Sov Sovann Sovannar Sovannarith Sovay Srei_Soriyopear
+		Srey_Sukonthor Sri_Raja Sros Thommo_Reachea Udayaraja Vanna Vannak Veasna Veha Vibol Vichear Vireak Vireakboth Visal
+		Viseth Visna Visoth Visothirith Vithara Vithu
+		}
+		female_names = {
+		Achariya Akara Anak Anchali Ang_Mey Arunny Ary Bopha Botum Boupha Champei Champey Chamroeun Chan Chang Chankrisna
+		Chanlina Chanmony Channary Chanthavy Chanthou Chantou Chantrea Chanvatey Charaya Chariya Chavy Chaya Chea Chenda
+		Chhaiya Chhean Chhorvin Chhorvon Chivy Choum Chouma Da Daevy Dara Darareaksmey Davi Jorani Kalianne Kaliyanei Kalliyan
+		Kanleakhana Kannareth Kannitha Kanya Kesor Kolab Kolthida Kongkea Krachap Kravann Kun Kunthea Leakena Leakhena Leap Mach
+		Makara Malis Maly Mau Mealea Mean Mliss Moneang Mony Nakry Nary Neang Nearidei Neary Nuon Panha Peou Phally Phary Pheakdei
+		Pheakkley Phhoung Pich Pisey Ponlok Ponnleu Pou Punthea Putrea Rachana Rachany Rangsei Reach Reaksmey Reasmey Rom Rotha
+		Roumduol Roumjong Sakngea Saley Samnang Samphy Savady Sawatdee Seda Sela Seyha Shannary Sikha Sinuon Sita Soboen Socheat
+		Socheata Sok Sokha Sokhanya Sokhom Sombo Sonisay Sonith Sophea Sopheap Sopheary Sovann Sovannah Sreyleak Tevy Thea Theavy
+		Thom Thyda Tina Toch Tola Vanna Veasna Veata Vimean
+		}
+		dynasty_name_first = yes
+}
+name_list_khmer_old = {
+		
+		dynasty_name_first = yes
+
+		cadet_dynasty_names = {
+			"dyn_Vyadhapura"
+			"dyn_Jayadevi"
+			"dyn_Sambhupura"
+			"dyn_Baladityapura"
+			"dyn_Tambralinga"
+			"dyn_Mahidharapura"
+			"dyn_Tribhuvanaditya"
+			"dyn_Indravarman"
+			"dyn_Trasac_Paem"
+			"dyn_Oc_Eo"
+		}
+
+		dynasty_names = {
+			"dyn_Vyadhapura"
+			"dyn_Jayadevi"
+			"dyn_Sambhupura"
+			"dyn_Baladityapura"
+			"dyn_Tambralinga"
+			"dyn_Mahidharapura"
+			"dyn_Tribhuvanaditya"
+			"dyn_Indravarman"
+			"dyn_Trasac_Paem"
+			"dyn_Oc_Eo"
+		}
+
+		male_names = {
+			Amara Anol Arun Bona Bora Bourey Chea Dara Kong Kou Lee Lim Munny Nhean Pheakdet Phirun Pich Rithisak Sakngea Samnang Saron Sereyuth Sokheng Sokyana Somnang
+			Sopheak Sopheap Sothorn Sovann Teige Toto Veasna Vibol Viphop
+		}
+		female_names = {
+			Botum Boupha Champei Champey Chan Channary Chantou Chantrea Chenda Chhean Darareaksmey Elita Jorani Kalliyan Kanha Kolab Kunthea Maly Mealea Pheakkley
+			Phhoung Puthykol Raksa Seab Solyna Sreykeo Sreyneang Thida Vatey Veata
+		}
+		
+		dynasty_of_location_prefix = "dynnp_of"
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 25
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 25
+		mat_grm_name_chance = 25
+		mother_name_chance = 0
+}
+name_list_cham_old = {
+		
+		dynasty_name_first = yes
+
+		cadet_dynasty_names = {
+			"dyn_Ce"
+			"dyn_Yang_Mai"
+			"dyn_Amaravati"
+			"dyn_Kauthara"
+			"dyn_Bhrigu"
+			"dyn_Vijaya"
+			"dyn_Ceh"
+			"dyn_Ceh-Vijaya"
+			"dyn_Jaya-Indravarman"
+			"dyn_Ceh-Panduranga"
+			"dyn_Suryajayavarman"
+			"dyn_Suryavarman"
+			"dyn_Nang"
+			"dyn_A_Nan"
+			"dyn_Ishtana"
+			"dyn_Marip"
+		}
+
+		dynasty_names = {
+			"dyn_Ce"
+			"dyn_Yang_Mai"
+			"dyn_Amaravati"
+			"dyn_Kauthara"
+			"dyn_Bhrigu"
+			"dyn_Vijaya"
+			"dyn_Ceh"
+			"dyn_Ceh-Vijaya"
+			"dyn_Jaya-Indravarman"
+			"dyn_Ceh-Panduranga"
+			"dyn_Suryajayavarman"
+			"dyn_Suryavarman"
+			"dyn_Nang"
+			"dyn_A_Nan"
+			"dyn_Ishtana"
+			"dyn_Marip"
+		}
+        
+		male_names = {
+			Amu Anan Angsaraja Asa-ari Binasuor Birthuor Brei Bunga Chan Char Cheng Chong Fat Ganvuh Garai He Isvan Khai Klong Krei Ku Kubah Lach Lathun Ling Ma Me Mo Moeun Muno Niga Nik Patra Peang Phaow Raden Rame Rattirai Ro Rome Sahinu Saktirai Saut Sumat Ta Tat Tathun Thuttirai Tithun Tithuntirai Tuon Yurath
+		}
+		female_names = {
+			Hara Inu Kalichip Kanitha Kaut Lagia Maly Man Nagar Putri Ratna Riya Sary Sokha Sros Uroja Yan Ye
+		}
+
+		dynasty_of_location_prefix = "dynnp_of"
+}
+name_list_thai_old = {
+
+		cadet_dynasty_names = {
+			"dyn_Lavachakkaraj"
+			"dyn_Phanya_Coeng"
+			"dyn_Cao_Khun_Fong"
+			"dyn_Phra_Ruang"
+			"dyn_Phayao"
+			"dyn_U-Thong"
+			"dyn_Thanasukolwit"
+			"dyn_Hlai"
+			"dyn_Kra"
+			"dyn_Qabiao"
+			"dyn_Laha"
+		}
+
+		dynasty_names = {
+			"dyn_Lavachakkaraj"
+			"dyn_Phanya_Coeng"
+			"dyn_Cao_Khun_Fong"
+			"dyn_Phra_Ruang"
+			"dyn_Phayao"
+			"dyn_U-Thong"
+			"dyn_Thanasukolwit"
+			"dyn_Hlai"
+			"dyn_Kra"
+			"dyn_Qabiao"
+			"dyn_Laha"
+		}
+
+		male_names = {
+			Aran Aroon Chanarong Daw Kamol Kasem Khemkhaeng Kiet Klahan Mongkut Niran Som Sunan Virote
+		}
+		female_names = {
+			Isra Kanya Kulap Lawan Mali Pakpao Phailin Phueng Ratana Somchai Somsri Suchin Sukhon Sumalee Tasanee Thurian Tola Vanida
+		}
+		
+		dynasty_of_location_prefix = "dynnp_of"
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 0	#50
+		mat_grf_name_chance = 0	#25
+		father_name_chance = 0	#25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 25
+		mat_grm_name_chance = 25
+		mother_name_chance = 0
+}

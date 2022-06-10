@@ -1,0 +1,92 @@
+k_newfoundland = {
+	1800.1.1 = {
+		change_development_level = 3
+	}
+	1810.3.26 = {
+		holder = 6400500
+		liege = e_britannia
+	}
+	1812.12.2 = {
+		holder = 0
+	}
+	1813.3.9 = {
+		holder = 6400501
+	}
+	1834.9.24 = {
+		holder = 6400502
+	}
+}
+
+k_prince_edward_island = {
+	1800.1.1 = {
+		change_development_level = 1
+	}
+	1804.5.10 = {
+		holder = 6400503
+		liege = e_britannia
+	}
+	1813.7.24 = {
+		holder = 6400504
+	}
+	1835.12.1 = {
+		holder = 6400505
+	}
+}
+
+k_nova_scotia = {
+	1800.1.1 = {
+		change_development_level = 1
+	}
+	1811.8.19 = {
+		holder = 6400506
+		liege = e_britannia
+	}
+	1834.1.1 = {
+		holder = 6400507
+	}
+}
+
+k_new_brunswick = {
+	1800.1.1 = {
+		change_development_level = 1
+	}
+	1786.5.20 = {
+		holder = 6400508
+		liege = e_britannia
+	}
+	1831.9.9 = {
+		holder = 6400509
+	}
+}
+
+k_quebec = {
+	1800.1.1 = {
+		change_development_level = 9
+	}
+	1791.12.26 = {
+		name = lower_canada
+	}
+	1808.11.29 = {
+		holder = 6400510
+		liege = e_britannia
+	}
+	1835.1.1 = {
+		holder = 6400511
+	}
+}
+
+k_ontario = {
+	1800.1.1 = {
+		change_development_level = 16
+	}
+	1791.12.26 = {
+		name = upper_canada
+	}
+	1806.1.1 = {
+		holder = 6400512
+		liege = e_britannia
+	}
+	1836.1.1 = {
+		holder = 6400513
+	}
+}

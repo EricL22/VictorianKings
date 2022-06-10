@@ -1,0 +1,178 @@
+c_marmmileteia = {
+	1808.1.1 = {
+		holder = nativeamerican23
+	}
+}
+c_mantgolgtiri = {
+	1808.1.1 = {
+		holder = nativeamerican23
+	}
+}
+
+c_dyelnae = {
+	1808.1.1 = {
+		holder = nativeamerican28
+	}
+}
+c_naxasyra = {
+	1808.1.1 = {
+		holder = nativeamerican28
+	}
+}
+c_gornylia = {
+	1808.1.1 = {
+		holder = nativeamerican28
+	}
+}
+c_hyempae = {
+	1808.1.1 = {
+		holder = nativeamerican28
+	}
+}
+
+c_aegklazera = {
+	1808.1.1 = {
+		holder = nativeamerican20
+	}
+}
+c_maroolymenus = {
+	1808.1.1 = {
+		holder = nativeamerican20
+	}
+}
+c_ormaronae = {
+	1808.1.1 = {
+		holder = nativeamerican20
+	}
+}
+c_megalobrauetta = {
+	1808.1.1 = {
+		holder = nativeamerican20
+	}
+}
+c_hiskimmmenus = {
+	1808.1.1 = {
+		holder = nativeamerican20
+	}
+}
+c_elydalous = {
+	1808.1.1 = {
+		holder = nativeamerican20
+	}
+}
+c_klazolilaosia = {
+	1808.1.1 = {
+		holder = nativeamerican20
+	}
+}
+c_korinthorchones = {
+	1808.1.1 = {
+		holder = nativeamerican20
+	}
+}
+c_kimmarslea = {
+	1808.1.1 = {
+		holder = nativeamerican20
+	}
+}
+c_leibemethasos = {
+	1808.1.1 = {
+		holder = nativeamerican20
+	}
+}
+c_byllmarmtes = {
+	1808.1.1 = {
+		holder = nativeamerican20
+	}
+}
+c_kyantipus = {
+	1808.1.1 = {
+		holder = nativeamerican20
+	}
+}
+
+c_kimeresyra = {
+	1808.1.1 = {
+		holder = nativeamerican13
+	}
+}
+c_nealapithus = {
+	1808.1.1 = {
+		holder = nativeamerican13
+	}
+}
+c_antidorus = {
+	1808.1.1 = {
+		holder = nativeamerican13
+	}
+}
+c_asiedmos = {
+	1808.1.1 = {
+		holder = nativeamerican13
+	}
+}
+c_apollcolothus = {
+	1808.1.1 = {
+		holder = nativeamerican13
+	}
+}
+c_neartsos = {
+	1808.1.1 = {
+		holder = nativeamerican13
+	}
+}
+c_hagandrida = {
+	1808.1.1 = {
+		holder = nativeamerican13
+	}
+}
+c_iolmaroonia = {
+	1808.1.1 = {
+		holder = nativeamerican13
+	}
+}
+c_erekimmercia = {
+	1808.1.1 = {
+		holder = nativeamerican13
+	}
+}
+c_kameihelinae = {
+	1808.1.1 = {
+		holder = nativeamerican13
+	}
+}
+c_lampiados = {
+	1808.1.1 = {
+		holder = nativeamerican13
+	}
+}
+c_hyeleipolis = {
+	1808.1.1 = {
+		holder = nativeamerican13
+	}
+}
+c_orlisrea = {
+	1808.1.1 = {
+		holder = nativeamerican13
+	}
+}
+c_leoneresica = {
+	1808.1.1 = {
+		holder = nativeamerican13
+	}
+}
+c_kumaryra = {
+	1808.1.1 = {
+		holder = nativeamerican13
+	}
+}
+c_calyantigdia = {
+	1808.1.1 = {
+		holder = nativeamerican13
+	}
+}
+c_elmylaina = {
+	1808.1.1 = {
+		holder = nativeamerican13
+	}
+}

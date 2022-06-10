@@ -254,4 +254,23 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 11301;11302;sea;11318;1;1;1;1;Echigo-Sado
 11323;11324;sea;11322;1;1;1;1;Amami-Okinawa
 11324;11325;sea;11322;1;1;1;1;Okinawa-Sakishima
+10932;11326;sea;11333;1;1;1;1;Sakhalin Strait
+#AMERICA
+11409;11410;river_large;11375;-1;-1;-1;-1;Hampden-Franklin
+11498;11499;river_large;11387;-1;-1;-1;-1;Horry-Georgetown
+11508;11509;river_large;11389;-1;-1;-1;-1;Jasper-Savannah
+11658;11659;sea;11360;-1;-1;-1;-1;Newfoundland-Labrador
+11687;11688;sea;11357;-1;-1;-1;-1;Minganie-Anticosti
+11757;11759;sea;8701;-1;-1;-1;-1;Greater Sudbury-Manitoulin
+11822;11825;river_large;11831;-1;-1;-1;-1;Tallahasee-Agrinkamalia
+11835;11840;river_large;12035;-1;-1;-1;-1;Liscropetra-Kamoricina
+11865;11869;river_large;11871;-1;-1;-1;-1;Mobile River Delta
+11915;11920;river_large;12038;-1;-1;-1;-1;Bradley-Chattanooga
+11927;11928;river_large;12039;-1;-1;-1;-1;Robertson-Nashville
+11941;12334;river_large;11984;-1;-1;-1;-1;Memphis-Colochium
+11949;12082;river_large;12048;-1;-1;-1;-1;Frankfort-Clermont
+12088;12097;sea;11965;-1;-1;-1;-1;Baton Rouge-Lafayette
+12134;12150;sea;8701;-1;-1;-1;-1;Straits of Mackinac
+12203;12296;river_large;11989;-1;-1;-1;-1;Mantincleoas-St Louis
+12296;12315;river_large;11991;-1;-1;-1;-1;St Louis-Emporcaryonia
 -1;-1;;-1;-1;-1;-1;-1;

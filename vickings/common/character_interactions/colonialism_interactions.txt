@@ -1,0 +1,652 @@
+﻿offer_protectorate_interaction = {
+	category = interaction_category_diplomacy
+	ai_min_reply_days = 5
+	ai_max_reply_days = 10
+	
+
+	common_interaction = yes
+	desc = offer_protectorate_interaction_desc
+	
+	greeting = positive
+	notification_text = OFFER_PROTECTORATE_NOTIFICATION
+	
+	is_shown = {
+		scope:recipient = {
+			NOT = { this = scope:actor }
+			is_landed = yes
+			is_independent_ruler = yes
+			highest_held_title_tier < scope:actor.highest_held_title_tier
+			NOT = { government_has_flag = can_not_be_vassal_or_liege }
+			is_protectorate = no
+			NOT = { culture = { has_cultural_era_or_later = culture_era_renaissance } }
+			NOT = { faith = scope:actor.faith }
+		}
+		scope:actor = {
+			highest_held_title_tier = tier_empire
+			culture = { has_innovation = innovation_nationalism_n_imperialism }
+
+			# They are unable to use the title revocation vassal contract
+			NOT = {
+				faith = {
+					has_doctrine_parameter = unlock_jizya_contract
+				}
+			}
+		}
+	}
+	
+	is_valid_showing_failures_only = {
+		scope:recipient = {
+			is_at_war = no
+
+			custom_description = {
+				text = was_recently_granted_independence
+				NOT = {
+					has_opinion_modifier = {
+						modifier = granted_independence_opinion
+						target = scope:actor
+					}
+				}
+			}
+		}
+	}
+		
+	on_accept = {
+		offer_protectorate_interaction_effect = yes
+		scope:actor = {
+			trigger_event = char_interaction.0001
+		}
+	}
+	
+	on_decline = {
+		scope:actor = {
+			trigger_event = char_interaction.0002
+		}
+	}
+	
+	ai_accept = {
+		base = -45
+
+		modifier = { #Wide difference in rank
+			desc = offer_vassalization_interaction_aibehavior_widetitletier_tt
+			trigger = {
+				scope:actor = {
+					tier_difference = {
+						target = scope:recipient
+						value > 1
+					}
+				}
+			}
+			add = 30
+		}
+		opinion_modifier = { # More likely to accept if Recipient likes the Actor
+			who = scope:recipient
+			opinion_target = scope:actor
+			multiplier = 0.25
+			desc = AI_OPINION_REASON
+		}
+		# Dynasty Prestige Levels
+		modifier = {
+			add = -5
+			desc = AI_DYNASTY_PRESTIGE_REASON
+			scope:actor = { has_dynasty = yes }
+			NOT = { scope:actor.dynasty = scope:recipient.dynasty }
+			scope:actor.dynasty = { dynasty_prestige_level = 0 }
+		}
+		modifier = {
+			desc = AI_DYNASTY_PRESTIGE_REASON
+			scope:actor = { has_dynasty = yes }
+			NOT = { scope:actor.dynasty = scope:recipient.dynasty }
+			scope:actor.dynasty = { dynasty_prestige_level >= 2 }
+			add = {
+				value = 10
+				if = {
+					limit = {
+						scope:actor.dynasty = { dynasty_prestige_level >= 3 }
+					}
+					add = 5
+				}
+				if = {
+					limit = {
+						scope:actor.dynasty = { dynasty_prestige_level >= 4 }
+					}
+					add = 5
+				}
+				if = {
+					limit = {
+						scope:actor.dynasty = { dynasty_prestige_level >= 5 }
+					}
+					add = 5
+				}
+				if = {
+					limit = {
+						scope:actor.dynasty = { dynasty_prestige_level >= 6 }
+					}
+					add = 5
+				}
+				if = {
+					limit = {
+						scope:actor.dynasty = { dynasty_prestige_level >= 7 }
+					}
+					add = 5
+				}
+				if = {
+					limit = {
+						scope:actor.dynasty = { dynasty_prestige_level >= 8 }
+					}
+					add = 5
+				}
+				if = {
+					limit = {
+						scope:actor.dynasty = { dynasty_prestige_level >= 9 }
+					}
+					add = 5
+				}
+				if = {
+					limit = {
+						scope:actor.dynasty = { dynasty_prestige_level >= 10 }
+					}
+					add = 5
+				}
+			}
+		}
+		modifier = { #Faith compatibility
+			scope:recipient.faith = {
+				faith_hostility_level = {
+					target = scope:actor.faith
+					value > faith_fully_accepted_level
+				}
+			}
+			add = {
+				value = -10
+				if = {
+					limit = {
+						scope:recipient.faith = {
+							faith_hostility_level = {
+								target = scope:actor.faith
+								value >= faith_hostile_level
+							}
+						}
+					}
+					subtract = 10
+				}
+				if = {
+					limit = {
+						scope:recipient.faith = {
+							faith_hostility_level = {
+								target = scope:actor.faith
+								value >= faith_evil_level
+							}
+						}
+					}
+					subtract = 20
+				}
+			}
+			desc = MARRY_DIFFERENT_FAITH_REASON
+		}
+		
+		modifier = {
+			add = intimidated_reason_value
+			scope:recipient = {
+				target_is_liege_or_above = scope:actor
+				has_dread_level_towards = {
+					target = scope:actor
+					level = 1
+				}
+			}
+			desc = INTIMIDATED_REASON
+		}
+		modifier = {
+			add = cowed_reason_value
+			scope:recipient = {
+				target_is_liege_or_above = scope:actor
+				has_dread_level_towards = {
+					target = scope:actor
+					level = 2
+				}
+			}
+			desc = COWED_REASON
+		}
+		
+		modifier = {
+			add = intimidated_external_reason_value
+			scope:recipient = {
+				NOT = { target_is_liege_or_above = scope:actor }
+				has_dread_level_towards = {
+					target = scope:actor
+					level = 1
+				}
+			}
+			desc = INTIMIDATED_REASON
+		}
+		modifier = {
+			add = cowed_external_reason_value
+			scope:recipient = {
+				NOT = { target_is_liege_or_above = scope:actor }
+				has_dread_level_towards = {
+					target = scope:actor
+					level = 2
+				}
+			}
+			desc = COWED_REASON
+		}
+		
+		modifier = {
+	  	  	add = {
+				value = 1
+				subtract = {
+					value = scope:recipient.max_military_strength
+					divide = { value = scope:actor.max_military_strength min = 1 }
+				}
+				multiply = 20
+	  		}
+			desc = offer_vassalization_interaction_aibehavior_power_tt
+		}
+		# Recipient is a Claimant to Actor's titles.
+		modifier = {
+			scope:recipient = {
+				any_claim = {
+					holder = scope:actor
+				}
+			}
+			add = {
+				value = -200
+				if = {
+					limit = {
+						NOT = {
+							scope:recipient.house = scope:actor.house
+						}
+					}
+					multiply = 2
+				}
+				if = {
+					limit = {
+						NOT = {
+							scope:recipient.dynasty = scope:actor.dynasty
+						}
+					}
+					multiply = 2
+				}
+				if = {
+					limit = {
+						scope:recipient.dynasty = scope:actor.dynasty
+						OR = {
+							has_trait = bastard
+							has_trait = legitimized_bastard
+						}
+					}
+					multiply = 1.5
+				}
+				if = { # Primary heir will probably inherit the lands after the rulers death
+					limit = {
+						scope:recipient = { is_primary_heir_of = scope:actor }
+					}
+					divide = 4
+				}
+			}
+			desc = IS_CLAIMANT_TO_ACTORS_TITLES
+		}
+		#Actor has claims on recipient's titles.
+		modifier = {
+			scope:actor = {
+				any_claim = {
+					holder = scope:recipient
+				}
+			}
+			add = 25
+			desc = IS_CLAIMANT_TO_RECIPIENT_TITLES
+		}
+		modifier = {
+			scope:recipient = {
+				NOT = {
+					any_claim = {
+						holder = scope:actor
+					}
+				}
+			}
+			scope:recipient.house = scope:actor.house
+			add = 15
+			desc = IS_SAME_HOUSE_REASON
+		}
+		modifier = {
+			scope:recipient = {
+				has_opinion_modifier = {
+					target = scope:actor
+					modifier = declared_war
+				}
+			}
+			add = -100
+			desc = DECLARED_WAR_REASON
+		}
+
+		# CONTRACT OPTIONS
+		modifier = {
+			add = 60
+			scope:recipient.capital_province = { geographical_region = world_india }
+			scope:princely_state = yes
+			desc = CONTRACT_PRINCELY_STATE_REASON
+		}
+	}
+
+	# Princely State
+	send_option = {
+		is_shown = {
+			scope:recipient.capital_province = {
+				geographical_region = world_india
+			}
+		}
+		flag = princely_state
+		localization = princely_state
+	}
+
+	send_options_exclusive = no
+
+	ai_potential = {
+		is_adult = yes
+		is_independent_ruler = yes
+		highest_held_title_tier = tier_empire
+	}
+	
+	ai_targets = {
+		ai_recipients = neighboring_rulers
+	}
+	ai_target_quick_trigger = {
+		adult = yes
+	}
+	ai_frequency = 48
+	
+	ai_will_do = {
+		base = 100
+		modifier = {
+			add = 5
+			scope:princely_state = yes
+		}
+	}
+}
+
+request_protectorate_interaction = {
+	category = interaction_category_diplomacy
+
+
+	desc = request_protectorate_interaction_desc
+	
+	is_shown = {
+		scope:recipient = {
+			NOT = { this = scope:actor }
+			NOT = { faith = scope:actor.faith }
+		}
+		scope:actor = {
+			NOT = { culture = { has_cultural_era_or_later = culture_era_renaissance } }
+			trigger_if = {
+				limit = { has_government = tribal_government }
+				highest_held_title_tier = tier_kingdom
+			}
+		}
+		scope:actor.highest_held_title_tier < scope:recipient.highest_held_title_tier
+		scope:actor.liege = scope:actor
+		scope:recipient = {
+			liege = this
+			is_landed = yes
+			highest_held_title_tier = tier_empire
+			culture = { has_innovation = innovation_nationalism_n_imperialism }
+
+			# They are unable to use the title revocation vassal contract
+			NOT = {
+				faith = {
+					has_doctrine_parameter = unlock_jizya_contract
+				}
+			}
+		}
+	}
+
+	is_valid = {
+		
+	}
+
+	is_valid_showing_failures_only = {
+		scope:actor = {
+			is_imprisoned = no
+			is_at_war = no
+		}
+		scope:recipient = {
+			custom_description = {
+				text = "offer_fealty_neighboring_condition"
+				subject = scope:recipient
+				OR = {
+					any_neighboring_and_across_water_top_liege_realm_owner = { this = scope:actor }
+					any_held_title = {
+						is_de_jure_liege_or_above_target = scope:actor.capital_barony
+					}
+				}
+			}
+		}
+	}
+
+	greeting = positive
+	notification_text = REQUEST_PROTECTORATE_INTERACTION_NOTIFICATION
+	
+	ai_min_reply_days = 5
+	ai_max_reply_days = 10
+
+	ai_accept = {
+		base = 50
+		#MAIN
+		#Heretic/Infidel modifier.
+		#Tier difference modifier.
+		#Dejure modifier.
+		#Distant/Remote Realm modifier.
+
+		#MINOR
+		#Rivalry modifier.
+		#Same Dynasty modifier.
+		#Cultural/Cultural Group modifiers.
+		#Claimant modifier.
+
+		#OPINION SCALES
+		#Personality modifier.
+		#Compare Opinion modifier.
+		#MAIN
+		modifier = { #Different faith, no pluralism.
+			desc = offer_vassalization_interaction_aibehavior_differentfaith_tt
+			trigger = {
+				scope:actor = {
+					NOR = { #Of two different faiths AND the potential vassal's faith is not pluralistic.
+						faith = scope:recipient.faith
+						faith = { has_doctrine = doctrine_pluralism_pluralistic }
+					}
+				}
+			}
+			add = {
+				value = -25
+				if = {
+					limit = {
+						scope:actor.faith = {
+							faith_hostility_level = {
+								target = scope:recipient.faith
+								value >= faith_hostile_level
+							}
+						}
+					}
+					add = -10
+				}
+				if = {
+					limit = {
+						scope:actor.faith = {
+							faith_hostility_level = {
+								target = scope:recipient.faith
+								value >= faith_evil_level
+							}
+						}
+					}
+					add = -25
+				}
+			}
+		}
+
+		modifier = { #I am a King!
+			desc = offer_fealty_interaction_aibehavior_amkingtier_tt
+			trigger = {
+				scope:actor = { highest_held_title_tier = tier_kingdom }
+			}
+			add = -10
+		}
+		modifier = { #Wide difference in rank
+			desc = offer_vassalization_interaction_aibehavior_widetitletier_tt
+			trigger = {
+				scope:actor = {
+					tier_difference = {
+						target = scope:recipient
+						value > 1
+					}
+				}
+			}
+			add = 20
+		}
+		modifier = { # They are my Rightful Liege
+			desc = offer_vassalization_interaction_aibehavior_rightfulvassaltitleholder_tt
+			trigger = {
+				is_rightful_liege_of_trigger = {
+					VASSAL = scope:actor
+					LIEGE = scope:recipient
+				}
+			}
+			add = 25
+		}
+		modifier = { #Distant Realm.
+			desc = offer_vassalization_interaction_aibehavior_distantrealm_tt
+			trigger = {
+				scope:actor = {
+					NOT = {
+						any_neighboring_top_liege_realm_owner = { this = scope:recipient }
+					}
+				}
+				scope:actor.capital_province = { squared_distance = { target = scope:recipient.capital_province value < 200000 } }
+			}
+			add = -15
+		}
+		modifier = { #Remote Realm.
+			desc = offer_vassalization_interaction_aibehavior_remoterealm_tt
+			trigger = {
+				scope:actor = {
+					NOT = {
+						any_neighboring_top_liege_realm_owner = { this = scope:recipient }
+					}
+				}
+				scope:actor.capital_province = { squared_distance = { target = scope:recipient.capital_province value >= 200000 } }
+			}
+			add = -25
+		}
+
+		#MINOR
+		modifier = { #Rivalry modifier.
+			desc = offer_vassalization_interaction_aibehavior_rival_tt
+			trigger = {
+				scope:recipient = {
+					has_relation_rival = scope:actor
+					NOT = { has_relation_nemesis = scope:actor }
+				}
+			}
+			add = -10
+		}
+		modifier = { #Nemesis modifier.
+			desc = offer_vassalization_interaction_aibehavior_nemesis_tt
+			trigger = {
+				scope:recipient = {
+					has_relation_nemesis = scope:actor
+				}
+			}
+			add = -30
+		}
+		modifier = { #Same Dynasty modifier.
+			desc = offer_vassalization_interaction_aibehavior_dynasty_tt
+			trigger = {
+				scope:recipient = {
+					dynasty = scope:actor.dynasty
+				}
+			}
+			add = 10
+		}
+		
+		modifier = { # Cultural Acceptance
+			add = -5
+			desc = cultural_acceptance_interaction_reason
+			trigger = {
+				scope:actor = {
+					NOT = { has_same_culture_as = scope:recipient }
+					culture = {
+						cultural_acceptance = { target = scope:recipient.culture value < 50 }
+					}
+				}
+			}
+		}
+		
+		modifier = { # Same language
+			add = 5
+			desc = speaks_same_language_interaction_reason
+			trigger = {
+				scope:actor = {
+					knows_language_of_culture = scope:recipient.culture
+				}
+			}
+		}
+
+		modifier = { #Claimant modifier.
+			desc = offer_vassalization_interaction_aibehavior_claimant_tt
+			trigger = {
+				scope:actor.primary_title = {
+					scope:recipient = {
+						has_claim_on = prev
+					}
+				}
+			}
+			add = -15
+		}
+
+		#PERSONALITY
+		ai_value_modifier = {
+			ai_greed = 0.75
+			min = 0
+		}
+
+		#OPINION INFLUENCE
+		opinion_modifier = { #Compare Opinion modifier.
+			who = scope:recipient
+			opinion_target = scope:actor
+			multiplier = 0.5
+		}
+
+		# CONTRACT OPTIONS
+		modifier = {
+			add = -10
+			scope:actor.capital_province = { geographical_region = world_india }
+			scope:princely_state = yes
+			desc = CONTRACT_PRINCELY_STATE_REASON
+		}
+	}
+
+	# Princely State
+	send_option = {
+		is_shown = {
+			scope:actor.capital_province = {
+				geographical_region = world_india
+			}
+		}
+		flag = princely_state
+		localization = princely_state
+	}
+
+	send_options_exclusive = no
+
+	on_accept = {
+		request_protectorate_interaction_effect = yes
+
+		scope:actor = {
+			trigger_event = char_interaction.0010
+		}
+	}
+
+	on_decline = {
+		scope:actor = {
+			trigger_event = char_interaction.0011
+		}
+	}
+}

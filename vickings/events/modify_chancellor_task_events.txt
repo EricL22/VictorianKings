@@ -1,0 +1,28 @@
+﻿#Events related to the Chancellor's tasks
+
+namespace = chancellor_task
+
+##################
+# Side Effects from Foreign Affairs
+# 1001-1999
+##################
+
+###
+#Bad Side Effects
+###
+
+#Someone gets a Claim on you
+scripted_trigger chancellor_task_1001_new_claim_trigger = {
+	save_temporary_scope_as = target_county
+	scope:neighboring_ruler = {
+		NOT = {
+			has_claim_on = scope:target_county
+		}
+		any_character_to_title_neighboring_county = {
+			this = scope:target_county
+		}
+	}
+	NOT = {
+		target_conquest_blocked_by_treaty_trigger = { CHARACTER = scope:neighboring_ruler TARGET = scope:target_county }
+	}
+}

@@ -1,0 +1,64 @@
+11653 = {
+	culture = english
+	religion = protestant
+}
+
+11654 = {
+	culture = english
+	religion = protestant
+}
+
+11655 = {
+	culture = english
+	religion = protestant
+}
+
+11656 = {
+	culture = english
+	religion = protestant
+}
+
+11657 = {
+	culture = english
+	religion = protestant
+}
+
+11658 = {
+	culture = english
+	religion = protestant
+}
+
+11659 = {
+	culture = english
+	religion = protestant
+}
+
+11660 = {
+	culture = english
+	religion = protestant
+}
+
+11661 = {
+	culture = english
+	religion = protestant
+}
+
+11662 = {
+	culture = english
+	religion = protestant
+}
+
+11663 = {
+	culture = inuit
+	religion = siberian_pagan
+}
+
+11664 = {
+	culture = inuit
+	religion = siberian_pagan
+}
+
+11665 = {
+	culture = inuit
+	religion = siberian_pagan
+}

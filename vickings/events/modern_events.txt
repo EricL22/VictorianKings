@@ -367,7 +367,7 @@ moderntimes.11 = {
 		title:c_shiwei = {
 			set_de_jure_liege_title = title:d_amur
 		}
-		title:c_aigun = {
+		title:c_boli = {
 			set_de_jure_liege_title = title:d_primorskaya
 		}
 		title:c_anbian = {
@@ -378,6 +378,9 @@ moderntimes.11 = {
 		}
 		title:c_donghai = {
 			set_de_jure_liege_title = title:d_primorskaya
+		}
+		title:d_sakhalin = {
+			set_de_jure_liege_title = title:k_far_east
 		}
 		create_title_and_vassal_change = {
 			type = conquest
@@ -440,10 +443,12 @@ moderntimes.12 = {
 			opinion = very_high_negative_opinion
 		}
 		add_pressed_claim = title:c_shiwei
-		add_pressed_claim = title:c_aigun
+		add_pressed_claim = title:c_boli
 		add_pressed_claim = title:c_anbian
 		add_pressed_claim = title:c_haishenwai
 		add_pressed_claim = title:c_donghai
+		add_pressed_claim = title:c_guwei
+		add_pressed_claim = title:c_boluohe
 	}
 }
 
@@ -488,8 +493,8 @@ moderntimes.14 = {
 		has_title = title:e_china
 		any_realm_county = {
 			OR = {
-				target_is_de_jure_liege_or_above = d_zhetysu
-				target_is_de_jure_liege_or_above = d_alakol
+				target_is_de_jure_liege_or_above = title:d_zhetysu
+				target_is_de_jure_liege_or_above = title:d_alakol
 			}
 		}
 	}
@@ -525,12 +530,12 @@ moderntimes.14 = {
 		every_realm_county = {
 			limit = {
 				OR = {
-					target_is_de_jure_liege_or_above = d_zhetysu
-					target_is_de_jure_liege_or_above = d_alakol
-					target_is_de_jure_liege_or_above = k_kimek
-					target_is_de_jure_liege_or_above = k_cuman
-					target_is_de_jure_liege_or_above = k_kipchak
-					target_is_de_jure_liege_or_above = k_syr_darya
+					target_is_de_jure_liege_or_above = title:d_zhetysu
+					target_is_de_jure_liege_or_above = title:d_alakol
+					target_is_de_jure_liege_or_above = title:k_kimek
+					target_is_de_jure_liege_or_above = title:k_cuman
+					target_is_de_jure_liege_or_above = title:k_kipchak
+					target_is_de_jure_liege_or_above = title:k_syr_darya
 				}
 			}
 			change_title_holder = {
@@ -550,7 +555,7 @@ moderntimes.14 = {
 				limit = {
 					is_ai = no
 				}
-				trigger_event = moderntimes.16
+				trigger_event = moderntimes.15
 			}
 		}
 		ai_chance = {
@@ -563,12 +568,12 @@ moderntimes.14 = {
 		every_realm_county = {
 			limit = {
 				OR = {
-					target_is_de_jure_liege_or_above = d_zhetysu
-					target_is_de_jure_liege_or_above = d_alakol
-					target_is_de_jure_liege_or_above = k_kimek
-					target_is_de_jure_liege_or_above = k_cuman
-					target_is_de_jure_liege_or_above = k_kipchak
-					target_is_de_jure_liege_or_above = k_syr_darya
+					target_is_de_jure_liege_or_above = title:d_zhetysu
+					target_is_de_jure_liege_or_above = title:d_alakol
+					target_is_de_jure_liege_or_above = title:k_kimek
+					target_is_de_jure_liege_or_above = title:k_cuman
+					target_is_de_jure_liege_or_above = title:k_kipchak
+					target_is_de_jure_liege_or_above = title:k_syr_darya
 				}
 			}
 			title:e_russia.holder = {
@@ -1122,7 +1127,7 @@ moderntimes.25 = {
 		every_vassal = {
 			limit = {
 				is_ai = yes
-				culture_group = culture_group:chinese_group
+				culture = { has_cultural_pillar = heritage_chinese }
 				NOT = { has_faith = faith:lamaism }
 			}
 			every_held_title = {
@@ -1133,6 +1138,7 @@ moderntimes.25 = {
 			}
 		}
 		every_held_title = {
+			limit = { tier >= tier_county }
 			change_title_holder = {
 				holder = scope:bogd_khan
 				change = scope:change
@@ -1224,6 +1230,197 @@ moderntimes.28 = {
 	
 	option = {
 		name = moderntimes.28.a
+	}
+}
+
+# Webster Ashburton Treaty - player notification
+moderntimes.29 = {
+	type = character_event
+	title = moderntimes.29.t
+	desc = moderntimes.29.desc
+	theme = diplomacy
+	left_portrait = {
+		character = title:e_united_states.holder
+		animation = idle
+	}
+	right_portrait = {
+		character = scope:proposer
+		animation = idle
+	}
+
+	immediate = {
+		show_as_tooltip = {
+			add_opinion = {
+				target = scope:proposer
+				modifier = opinion_ceded_rightful_lands_50
+				years = 20
+			}
+			create_title_and_vassal_change = {
+				type = granted
+				save_scope_as = change
+				add_claim_on_loss = no
+			}
+			title:c_aroostook = {
+				change_title_holder = {
+					holder = title:e_united_states.holder
+					change = scope:change
+				}
+			}
+			resolve_title_and_vassal_change = scope:change
+		}
+	}
+	
+	option = {
+		name = moderntimes.29.a
+	}
+}
+
+# 1818 Treaty - player notification
+moderntimes.30 = {
+	type = character_event
+	title = moderntimes.30.t
+	desc = moderntimes.30.desc
+	theme = diplomacy
+	left_portrait = {
+		character = title:e_united_states.holder
+		animation = idle
+	}
+	right_portrait = {
+		character = scope:proposer
+		animation = idle
+	}
+
+	immediate = {
+		show_as_tooltip = {
+			add_opinion = {
+				target = scope:proposer
+				modifier = opinion_ceded_rightful_lands_50
+				years = 20
+			}
+			title:c_diosempoera = {
+				set_de_jure_liege_title = title:d_north_dakota
+			}
+			title:c_malkimmeios = {
+				set_de_jure_liege_title = title:d_north_dakota
+			}
+			title:c_oechayra = {
+				set_de_jure_liege_title = title:d_north_dakota
+			}
+			title:c_massacorcosia = {
+				set_de_jure_liege_title = title:d_north_dakota
+			}
+			title:c_borysargita = {
+				set_de_jure_liege_title = title:d_north_dakota
+			}
+			title:c_assephyoli = {
+				set_de_jure_liege_title = title:d_north_dakota
+			}
+			title:c_gourcniina = {
+				set_de_jure_liege_title = title:d_north_dakota
+			}
+			title:c_kydobhyrtessa = {
+				set_de_jure_liege_title = title:d_north_dakota
+			}
+			title:c_erydymlia = {
+				set_de_jure_liege_title = title:d_north_dakota
+			}
+			title:c_kydohagium = {
+				set_de_jure_liege_title = title:d_north_dakota
+			}
+			title:c_imlindthos = {
+				set_de_jure_liege_title = title:d_north_dakota
+			}
+			title:c_byzolbosia = {
+				set_de_jure_liege_title = title:d_north_dakota
+			}
+			title:c_kamedicaeaila = {
+				set_de_jure_liege_title = title:d_north_dakota
+			}
+			title:c_onedepolis = {
+				set_de_jure_liege_title = title:d_north_dakota
+			}
+			title:c_katmilllia = {
+				set_de_jure_liege_title = title:d_north_dakota
+			}
+			title:c_kerkiantiina = {
+				set_de_jure_liege_title = title:d_north_dakota
+			}
+
+			title:c_leiborithos = {
+				set_de_jure_liege_title = title:d_saskatchewan
+			}
+			title:c_akrgournlis = {
+				set_de_jure_liege_title = title:d_saskatchewan
+			}
+			title:c_metcyronia = {
+				set_de_jure_liege_title = title:d_saskatchewan
+			}
+			title:c_lekhephmenus = {
+				set_de_jure_liege_title = title:d_saskatchewan
+			}
+			title:c_marmaagrinlis = {
+				set_de_jure_liege_title = title:d_northwest
+			}
+			title:c_aythiston = {
+				set_de_jure_liege_title = title:d_northwest
+			}
+		}
+	}
+	
+	option = {
+		name = moderntimes.30.a
+	}
+}
+
+# 1818 Treaty - player notification
+moderntimes.31 = {
+	type = character_event
+	title = moderntimes.31.t
+	desc = {
+		desc = moderntimes.31.start.desc
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					exists = scope:adams
+				}
+				desc = moderntimes.31.adams.desc
+			}
+			desc = moderntimes.31.noadams.desc
+		}
+	}
+	theme = diplomacy
+	left_portrait = {
+		character = title:e_united_states.holder
+		animation = idle
+	}
+	right_portrait = {
+		character = scope:proposer
+		animation = idle
+	}
+	lower_center_portrait = {
+		character = scope:adams
+		animation = idle
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				character:6400005 = { is_alive = yes }
+			}
+			character:6400005 = { save_scope_as = adams }
+		}
+		custom_tooltip = adams_onis_de_jure_effect
+	}
+	
+	option = {
+		name = moderntimes.30.a
+		if = {
+			limit = {
+				exists = scope:adams
+				scope:adams = { is_landed = no }
+			}
+			scope:adams = { set_employer = root }
+		}
 	}
 }
 
@@ -1432,7 +1629,13 @@ moderntimes.200 = {
 	hidden = yes
 	
 	immediate = {
-		abolish_japanese_shogunate_effect = yes
+			every_vassal_or_below = {
+				limit = {
+					culture = { has_cultural_pillar = heritage_native_american }
+					is_protectorate = yes
+				}
+				change_government = republic_government
+			}
 	}
 }
 
@@ -1467,6 +1670,15 @@ moderntimes.300 = {
 					}
 					add_to_variable_list = { name = enacted_laws_list target = flag:seven_year_term }
 				}
+				else_if = {
+					limit = {
+						OR = {
+							this = title:e_united_states
+							target_is_de_jure_liege_or_above = title:e_united_states
+						}
+					}
+					add_to_variable_list = { name = enacted_laws_list target = flag:four_year_term }
+				}
 				else = {
 					add_to_variable_list = { name = enacted_laws_list target = flag:five_year_term }
 				}
@@ -1477,7 +1689,7 @@ moderntimes.300 = {
 				primary_title = title:e_india
 				NOR = {
 					has_faith = faith:vaishnavism
-					has_culture_group = culture_group:indo_aryan_group
+					culture = { has_cultural_pillar = heritage_indo_aryan }
 				}
 			}
 			set_character_faith_with_conversion = faith:vaishnavism
@@ -1485,6 +1697,59 @@ moderntimes.300 = {
 				CONVERTER = root
 				OLD_CULTURE = root.culture
 				NEW_CULTURE = culture:hindustani
+			}
+		}
+	}
+}
+# Clear designated heir if the vice president is removed (but still alive)
+moderntimes.301 = {
+	type = character_event
+	hidden = yes
+	
+	immediate = {
+		random_courtier = {
+			limit = { is_male = yes is_adult = yes }
+			save_scope_as = vice_president
+		}
+		set_designated_heir = scope:vice_president
+		add_realm_law = city_succession_law
+	}
+}
+
+# Stupid on_actions do not register government commands...
+moderntimes.400 = {
+	type = character_event
+	hidden = yes
+
+	immediate = {
+		if = {
+			limit = {
+				NOT = { has_government = republic_government }
+			}
+			if = {
+				limit = { is_male = yes }
+				add_character_modifier = emperor_of_russia_modifier
+			}
+			else = {
+				add_character_modifier = empress_of_russia_modifier
+			}
+
+			if = {
+				limit = {
+					exists = scope:previous_holder
+					scope:previous_holder = {
+						is_alive = yes
+					}
+				}
+				scope:previous_holder = {
+					if = {
+						limit = { is_male = yes }
+						remove_character_modifier = emperor_of_russia_modifier
+					}
+					else = {
+						remove_character_modifier = empress_of_russia_modifier
+					}
+				}
 			}
 		}
 	}

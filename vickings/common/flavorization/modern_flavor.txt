@@ -1,9 +1,9 @@
-﻿# Accepted categories are: governments, cultures, culture_groups, faiths, religions
+﻿# Accepted categories are: governments, cultures, heritages, faiths, religions
 # A Flavorization will apply if ALL specified categories have ANY of their entries
 # represented in the character/title
 # So for example:
 # governments = { feudal_government }
-# culture_groups = { mongolic_group central_germanic_group }
+# heritages = { mongolic_group central_germanic_group }
 # religions = { christianity_religion }
 # cultures = { norse }
 # faiths = { catholicism }
@@ -168,7 +168,7 @@ duchy_republic_prefectural = {
 	top_liege = no
 	priority = 28
 	governments = { republic_government }
-	culture_groups = { japanese_group }
+	heritages = { heritage_japanese }
 }
 duchy_republic_departmental = {
 	type = title
@@ -176,7 +176,15 @@ duchy_republic_departmental = {
 	top_liege = no
 	priority = 28
 	governments = { republic_government }
-	culture_groups = { frankish_group }
+	heritages = { heritage_frankish }
+}
+duchy_republic_districtual = {
+	type = title
+	tier = duchy
+	top_liege = no
+	priority = 28
+	governments = { republic_government }
+	name_lists = { name_list_english name_list_american }
 }
 duchy_republic_provincial = {
 	type = title
@@ -270,5 +278,22 @@ shogun_empire_feudal = {
 	tier = empire
 	titles = { e_shogunate }
 	priority = 141
+	top_liege = no
+}
+
+hbc_director = {
+	type = character
+	gender = male
+	special = holder
+	priority = 147
+	titles = { k_hudsons_bay }
+	top_liege = no
+}
+hbc_directress = {
+	type = character
+	gender = female
+	special = holder
+	priority = 147
+	titles = { k_hudsons_bay }
 	top_liege = no
 }

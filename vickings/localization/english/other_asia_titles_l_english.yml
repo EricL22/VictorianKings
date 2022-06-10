@@ -543,6 +543,11 @@
  b_kitami:0 "Kitami"
  b_kushiro:0 "Kushiro"
  d_matsumae:0 "Matsumae"
+ d_kuril:0 "Kuril"
+ c_cupka:0 "Cupka"
+ b_cupka:0 "Cupka"
+ c_kita_chishima:0 "Kita-Chishima"
+ b_kita_chishima:0 "Kita-Chishima"
 
  k_ryukyu:0 "Ryukyu"
  d_ryukyu:0 "Ryukyu"

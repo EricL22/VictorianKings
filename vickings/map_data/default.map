@@ -10,7 +10,7 @@ continent = "continent.txt"
 adjacencies = "adjacencies.csv"
 #climate = "climate.txt"
 island_region = "island_region.txt"
-geographical_region = "geographical_region.txt"
+#geographical_region = "geographical_region.txt"
 seasons = "seasons.txt"
 
 #############
@@ -42,6 +42,7 @@ sea_zones = RANGE { 3229 3230 }
 #North European Seas
 sea_zones = RANGE { 8613 8617 } #Iceland, Shetlands, Norway
 sea_zones = RANGE { 8618 8622 } #French & Iberian atlantic coasts
+sea_zones = RANGE { 11339 11372 } #Atlantic Ocean
 
 #Mediterranean Seas
 sea_zones = RANGE { 8626 8648 }	#Western Mediterranean
@@ -67,6 +68,7 @@ sea_zones = LIST { 8683 }	#Maldives
 
 #African Seas
 sea_zones = RANGE { 8692 8700 } #West Africa & Gulf of Guinea
+sea_zones = RANGE { 11336 11338 }
 
 sea_zones = LIST { 1062 1064 }
 
@@ -76,6 +78,10 @@ sea_zones = RANGE { 9482 9485 }
 sea_zones = RANGE { 9491 9493 }
 sea_zones = RANGE { 11219 11227 }
 sea_zones = RANGE { 11314 11322 }
+sea_zones = RANGE { 11329 11335 }
+
+#American Seas
+sea_zones = RANGE { 12715 12726 }
 
 # Non-accessible sea zones
 sea_zones = LIST { 944 1470 }
@@ -127,10 +133,17 @@ river_provinces = RANGE { 8092 8096 }	# Niger
 
 river_provinces = LIST { 626 689 1063 1065 1066 1067 1077 1078 1079 1081 1082 1083 1084 1487 5510 5511 6125 }
 river_provinces = LIST { 8560 8568 8571 8572 8573 8577 8602 }
+river_provinces = LIST { 11373 } # Suez
 
 #Chinese rivers
 river_provinces = LIST { 9424 9472 9473 } # Yellow
 river_provinces = RANGE { 9474 9476 } # Yangtze
+
+#American rivers
+river_provinces = RANGE { 11374 11391 }
+river_provinces = RANGE { 11830 11833 }
+river_provinces = RANGE { 11871 11878 }
+river_provinces = RANGE { 11965 12055 }
 
 ########
 # LAKES
@@ -146,6 +159,7 @@ lakes = LIST { 7208 }	#Oghuz lakes
 lakes = LIST { 7513 }	#Dzungar lakes
 lakes = RANGE { 8519 8525 }	#African lakes
 lakes = LIST { 9000 9001 }	#Lop Nur Lake & Bosten Lake
+lakes = LIST { 12727 }	#America
 
 #####################
 # IMPASSABLE TERRAIN
@@ -256,6 +270,8 @@ impassable_mountains = LIST { 1489 7209 7213 7214 7215 }
 impassable_mountains = RANGE { 3256 3257 }
 impassable_mountains = RANGE { 3308 3314 }
 impassable_mountains = LIST { 2484 3259 }
+
+#America
 
 ############
 # WASTELAND

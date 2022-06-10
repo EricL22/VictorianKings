@@ -29,6 +29,9 @@
 	religion = tengri_pagan
 	
 	# History
+	1635.11.29 = {
+		culture = manchu # created hybrid culture
+	}
 	1750.1.1 = { religion = sanjiaoheliu }
 
 }
@@ -40,6 +43,9 @@
 	religion = tengri_pagan
 	
 	# History
+	1635.11.29 = {
+		culture = manchu # created hybrid culture
+	}
 	1750.1.1 = { religion = sanjiaoheliu }
 
 }
@@ -51,6 +57,9 @@
 	religion = tengri_pagan
 	
 	# History
+	1635.11.29 = {
+		culture = manchu # created hybrid culture
+	}
 	1750.1.1 = { religion = sanjiaoheliu }
 
 }
@@ -62,6 +71,9 @@
 	religion = tengri_pagan
 	
 	# History
+	1635.11.29 = {
+		culture = manchu # created hybrid culture
+	}
 	1750.1.1 = { religion = sanjiaoheliu }
 
 }
@@ -73,6 +85,9 @@
 	religion = tengri_pagan
 	
 	# History
+	1635.11.29 = {
+		culture = manchu # created hybrid culture
+	}
 	1750.1.1 = { religion = sanjiaoheliu }
 
 }
@@ -84,6 +99,9 @@
 	religion = tengri_pagan
 	
 	# History
+	1635.11.29 = {
+		culture = manchu # created hybrid culture
+	}
 	1750.1.1 = { religion = sanjiaoheliu }
 
 }

@@ -84,6 +84,7 @@ holds_valid_merchant_republic = {
 	OR = {
 		is_independent_ruler = yes
 		liege = { has_government = feudal_government }
+		liege = { has_title = title:e_united_states }
 	}
 }
 
@@ -164,5 +165,90 @@ has_same_political_party_as_root_trigger = {
 				has_character_flag = anarchist_party
 			}
 		}
+	}
+}
+
+has_same_political_party_as_target_trigger = {
+	OR = {
+		AND = {
+			has_character_flag = liberal_party
+			$TARGET$ = {
+				has_character_flag = liberal_party
+			}
+		}
+		AND = {
+			has_character_flag = socialist_party
+			$TARGET$ = {
+				has_character_flag = socialist_party
+			}
+		}
+		AND = {
+			has_character_flag = reactionary_party
+			$TARGET$ = {
+				has_character_flag = reactionary_party
+			}
+		}
+		AND = {
+			has_character_flag = fascist_party
+			$TARGET$ = {
+				has_character_flag = fascist_party
+			}
+		}
+		AND = {
+			has_character_flag = conservative_party
+			$TARGET$ = {
+				has_character_flag = conservative_party
+			}
+		}
+		AND = {
+			has_character_flag = communist_party
+			$TARGET$ = {
+				has_character_flag = communist_party
+			}
+		}
+		AND = {
+			has_character_flag = anarchist_party
+			$TARGET$ = {
+				has_character_flag = anarchist_party
+			}
+		}
+	}
+}
+
+uses_vice_president_trigger = {
+		has_government = republic_government
+
+		# Untested for other republics
+		has_title = title:e_united_states
+}
+
+target_conquest_blocked_by_treaty_trigger = {
+	OR = {
+		AND = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:1818_treaty_signed
+			}
+			OR = {
+				AND = {
+					$CHARACTER$.top_liege = title:e_britannia.holder
+					$TARGET$ = { target_is_de_jure_liege_or_above = title:e_united_states }
+					exists = title:e_united_states.holder
+				}
+				AND = {
+					$CHARACTER$.top_liege = title:e_united_states.holder
+					$TARGET$ = { target_is_de_jure_liege_or_above = title:e_canada }
+					exists = title:e_britannia.holder
+				}
+			}
+		}
+	}
+}
+
+is_protectorate = {
+	vassal_contract_has_flag = has_princely_contract
+	AND = {
+		vassal_contract_has_flag = religiously_protected
+		vassal_contract_has_flag = vassal_contract_cannot_revoke_titles
 	}
 }

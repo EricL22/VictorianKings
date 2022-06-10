@@ -1,0 +1,214 @@
+12290 = {
+	culture = american
+	religion = protestant
+}
+
+12291 = {
+	culture = american
+	religion = protestant
+}
+
+12292 = {
+	culture = american
+	religion = protestant
+}
+
+12293 = {
+	culture = american
+	religion = protestant
+}
+
+12294 = {
+	culture = american
+	religion = protestant
+}
+
+12295 = {
+	culture = american
+	religion = protestant
+}
+
+12296 = {
+	culture = american
+	religion = protestant
+}
+
+12297 = {
+	culture = american
+	religion = protestant
+}
+
+12298 = {
+	culture = american
+	religion = protestant
+}
+
+12299 = {
+	culture = american
+	religion = protestant
+}
+
+12300 = {
+	culture = american
+	religion = protestant
+}
+
+12301 = {
+	culture = american
+	religion = protestant
+}
+
+12302 = {
+	culture = american
+	religion = protestant
+}
+
+12303 = {
+	culture = american
+	religion = protestant
+}
+
+12304 = {
+	culture = american
+	religion = protestant
+}
+
+12305 = {
+	culture = american
+	religion = protestant
+}
+
+12306 = {
+	culture = american
+	religion = protestant
+}
+
+12307 = {
+	culture = american
+	religion = protestant
+}
+
+12308 = {
+	culture = native_american_minor
+	religion = pagan
+}
+
+12309 = {
+	culture = native_american_minor
+	religion = pagan
+}
+
+12310 = {
+	culture = native_american_minor
+	religion = pagan
+}
+
+12311 = {
+	culture = american
+	religion = protestant
+}
+
+12312 = {
+	culture = american
+	religion = protestant
+}
+
+12313 = {
+	culture = american
+	religion = protestant
+}
+
+12314 = {
+	culture = american
+	religion = protestant
+}
+
+12315 = {
+	culture = american
+	religion = protestant
+}
+
+12316 = {
+	culture = american
+	religion = protestant
+}
+
+12317 = {
+	culture = american
+	religion = protestant
+}
+
+12318 = {
+	culture = american
+	religion = protestant
+}
+
+12319 = {
+	culture = american
+	religion = protestant
+}
+
+12320 = {
+	culture = american
+	religion = protestant
+}
+
+12321 = {
+	culture = american
+	religion = protestant
+}
+
+12322 = {
+	culture = american
+	religion = protestant
+}
+
+12323 = {
+	culture = american
+	religion = protestant
+}
+
+12324 = {
+	culture = american
+	religion = protestant
+}
+
+12325 = {
+	culture = american
+	religion = protestant
+}
+
+12326 = {
+	culture = american
+	religion = protestant
+}
+
+12327 = {
+	culture = american
+	religion = protestant
+}
+
+12328 = {
+	culture = american
+	religion = protestant
+}
+
+12329 = {
+	culture = american
+	religion = protestant
+}
+
+12330 = {
+	culture = american
+	religion = protestant
+}
+
+12331 = {
+	culture = native_american_minor
+	religion = pagan
+}
+
+12332 = {
+	culture = native_american_minor
+	religion = pagan
+}

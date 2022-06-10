@@ -1,0 +1,50 @@
+﻿inuit = {
+	color = {210 243 242}
+
+	ethos = ethos_communal
+	heritage = heritage_eskimo_aleut
+	language = language_inuit
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_mendicant_mystics
+		tradition_sacred_groves
+		tradition_fishermen
+	}
+	
+	name_list = name_list_inuit
+	
+	coa_gfx = { ugro_permian_group_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { northern_unit_gfx }
+
+	ethnicities = {
+		20 = circumpolar_dark_hair
+		20 = circumpolar_brown_hair
+	}
+}
+
+native_american_minor = {
+	color = {68 55 88}
+
+	ethos = ethos_communal
+	heritage = heritage_native_american
+	language = language_native_american
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_mendicant_mystics
+		tradition_sacred_groves
+	}
+	
+	name_list = name_list_native_american_minor
+	
+	coa_gfx = { ugro_permian_group_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { northern_unit_gfx }
+
+	ethnicities = {
+		20 = circumpolar_dark_hair
+		20 = circumpolar_brown_hair
+	}
+}

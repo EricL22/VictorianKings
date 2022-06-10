@@ -1,0 +1,149 @@
+12333 = {
+	culture = native_american_minor
+	religion = pagan
+}
+
+12334 = {
+	culture = native_american_minor
+	religion = pagan
+}
+
+12335 = {
+	culture = native_american_minor
+	religion = pagan
+}
+
+12336 = {
+	culture = native_american_minor
+	religion = pagan
+}
+
+12337 = {
+	culture = native_american_minor
+	religion = pagan
+}
+
+12338 = {
+	culture = native_american_minor
+	religion = pagan
+}
+
+12339 = {
+	culture = native_american_minor
+	religion = pagan
+}
+
+12340 = {
+	culture = native_american_minor
+	religion = pagan
+}
+
+12341 = {
+	culture = native_american_minor
+	religion = pagan
+}
+
+12342 = {
+	culture = native_american_minor
+	religion = pagan
+}
+
+12343 = {
+	culture = native_american_minor
+	religion = pagan
+}
+
+12344 = {
+	culture = native_american_minor
+	religion = pagan
+}
+
+12345 = {
+	culture = native_american_minor
+	religion = pagan
+}
+
+12346 = {
+	culture = native_american_minor
+	religion = pagan
+}
+
+12347 = {
+	culture = native_american_minor
+	religion = pagan
+}
+
+12348 = {
+	culture = native_american_minor
+	religion = pagan
+}
+
+12349 = {
+	culture = native_american_minor
+	religion = pagan
+}
+
+12350 = {
+	culture = native_american_minor
+	religion = pagan
+}
+
+12351 = {
+	culture = native_american_minor
+	religion = pagan
+}
+
+12352 = {
+	culture = native_american_minor
+	religion = pagan
+}
+
+12353 = {
+	culture = native_american_minor
+	religion = pagan
+}
+
+12354 = {
+	culture = native_american_minor
+	religion = pagan
+}
+
+12355 = {
+	culture = native_american_minor
+	religion = pagan
+}
+
+12356 = {
+	culture = native_american_minor
+	religion = pagan
+}
+
+12357 = {
+	culture = native_american_minor
+	religion = pagan
+}
+
+12358 = {
+	culture = native_american_minor
+	religion = pagan
+}
+
+12359 = {
+	culture = native_american_minor
+	religion = pagan
+}
+
+12360 = {
+	culture = native_american_minor
+	religion = pagan
+}
+
+12361 = {
+	culture = native_american_minor
+	religion = pagan
+}
+
+12362 = {
+	culture = native_american_minor
+	religion = pagan
+}

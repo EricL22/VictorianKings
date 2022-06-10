@@ -857,3 +857,43 @@
 	# History
 
 }
+
+11324 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11325 = {
+	
+	# Misc
+	culture = japanese
+	religion = shinto
+	
+	# History
+
+}
+
+11786 = {
+	
+	# Misc
+	culture = ainu
+	religion = ainuism
+	
+	# History
+
+}
+
+11787 = {
+	
+	# Misc
+	culture = ainu
+	religion = ainuism
+	
+	# History
+
+}
