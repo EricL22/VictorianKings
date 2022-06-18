@@ -821,6 +821,10 @@ initiate_colonization_interaction = {
 	
 	ai_will_do = {
 		base = 100
+		modifier = {	# soft block for now until I can flesh this out more
+			factor = 0
+			scope:actor.primary_title = title:k_spain
+		}
 	}
 }
 
