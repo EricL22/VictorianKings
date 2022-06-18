@@ -257,7 +257,8 @@ d_dalmatia = {
 		holder = 32625
 	}
 	1809.1.1 = {
-		holder = 9000001
+		holder = fragov61
+		liege = e_france
 	}
 	1815.7.8 = {
 		holder = 9000012
@@ -743,7 +744,8 @@ d_croatia = {
 	}
 
 	1809.1.1 = {
-		holder = 9000001
+		holder = fragov62
+		liege = e_france
 	}
 	1815.7.8 = {
 		holder = 9000012
@@ -2673,7 +2675,8 @@ d_ragusa = {
 	}
 	
 	1809.1.1 = {
-		holder = 9000001
+		holder = fragov63
+		liege = e_france
 	}
 
 	1815.7.8 = {

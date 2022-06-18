@@ -869,10 +869,12 @@ c_berry = {
 		holder = 303432	#Raoul VI of Deols
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov1
+		liege = e_france
 	}
 	1814.4.11 = {
 		holder = fragov_nw
+		liege = k_france
 	}
 }
 
@@ -978,10 +980,12 @@ c_tourraine = {
 		holder = 455502 #Jean II
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov2
+		liege = e_france
 	}
 	1814.4.11 = {
 		holder = fragov_nw
+		liege = k_france
 	}
 }
 
@@ -1031,10 +1035,12 @@ c_blois = {
 		holder = 455781 #Guy I de Blois-Châtillon
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov3
+		liege = e_france
 	}
 	1814.4.11 = {
 		holder = fragov_nw
+		liege = k_france
 	}
 }
 
@@ -1073,10 +1079,12 @@ c_issoudun = {
 		holder = 303432	#Raoul VI of Deols
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov4
+		liege = e_france
 	}
 	1814.4.11 = {
 		holder = fragov_nw
+		liege = k_france
 	}
 }
 
@@ -1190,10 +1198,12 @@ c_anjou = {
 		holder = 455502 #Jean II
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov5
+		liege = e_france
 	}
 	1814.4.11 = {
 		holder = fragov_nw
+		liege = k_france
 	}
 }
 
@@ -1275,10 +1285,12 @@ c_saumur = {
 		holder = 455502 #Jean II
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov6
+		liege = e_france
 	}
 	1814.4.11 = {
 		holder = fragov_nw
+		liege = k_france
 	}
 }
 
@@ -1395,10 +1407,12 @@ c_maine = {
 		holder = 455502 #Jean II
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov7
+		liege = e_france
 	}
 	1814.4.11 = {
 		holder = fragov_nw
+		liege = k_france
 	}
 }
 
@@ -1515,10 +1529,12 @@ c_sable = {
 		holder = 455502 #Jean II
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov8
+		liege = e_france
 	}
 	1814.4.11 = {
 		holder = fragov_nw
+		liege = k_france
 	}
 }
 
@@ -2216,8 +2232,15 @@ c_eu = {
 	}
 }
 
-#d_orleans = {
-#}
+d_orleans = {
+	1804.5.18 = {
+		holder = fragov67
+		liege = e_france
+	}
+	1814.4.6 = {
+		liege = k_france
+	}
+}
 
 c_orleans = {
 	867.1.1 = { change_development_level = 8 }
@@ -2307,10 +2330,7 @@ c_orleans = {
 		holder = 455500 # Philippe VI
 	}
 	1804.5.18 = {
-		holder = 9000001
-	}
-	1814.4.6 = {
-		holder = 8000000
+		holder = fragov67
 	}
 }
 
@@ -2324,10 +2344,7 @@ c_montargis = {
 		holder = 90068	#Hildegarde Herou
 	}
 	1804.5.18 = {
-		holder = 9000001
-	}
-	1814.4.6 = {
-		holder = 8000000
+		holder = fragov67
 	}
 }
 
@@ -2413,10 +2430,7 @@ c_vendome = {
 		holder = 455006 #Bouchard VI de Vendôme
 	}
 	1804.5.18 = {
-		holder = 9000001
-	}
-	1814.4.6 = {
-		holder = 8000000
+		holder = fragov67
 	}
 }
 
@@ -2483,10 +2497,7 @@ c_chartres = {
 		holder = 455513 # Charles II le Magnanime
 	}
 	1804.5.18 = {
-		holder = 9000001
-	}
-	1814.4.6 = {
-		holder = 8000000
+		holder = fragov67
 	}
 }
 
@@ -2508,15 +2519,19 @@ c_sancerre = {
 	}
 	#1089 - Etienne II Henri de Blois
 	1804.5.18 = {
-		holder = 9000001
-	}
-	1814.4.6 = {
-		holder = 8000000
+		holder = fragov67
 	}
 }
 
-#d_bar = {
-#}
+d_bar = {
+	1804.5.18 = {
+		holder = fragov58
+		liege = e_france
+	}
+	1814.4.6 = {
+		liege = k_france
+	}
+}
 
 c_bar = {
 	728.1.1 = {
@@ -2603,10 +2618,7 @@ c_bar = {
 	}
 
 	1804.5.18 = {
-		holder = 9000001
-	}
-	1814.4.6 = {
-		holder = 8000000
+		holder = fragov58
 	}
 }
 
@@ -2696,10 +2708,7 @@ c_briey = {
 	}
 
 	1804.5.18 = {
-		holder = 9000001
-	}
-	1814.4.6 = {
-		holder = 8000000
+		holder = fragov58
 	}
 }
 
@@ -2724,10 +2733,7 @@ c_langres = {
 	}
 	#1110 - #Guy III de Saulx ?
 	1804.5.18 = {
-		holder = 9000001
-	}
-	1814.4.6 = {
-		holder = 8000000
+		holder = fragov58
 	}
 }
 
@@ -2825,25 +2831,22 @@ c_vaucouleurs = {
 	}
 
 	1804.5.18 = {
-		holder = 9000001
-	}
-	1814.4.6 = {
-		holder = 8000000
+		holder = fragov58
 	}
 }
 
 
-b_toul = {
-	1066.1.1 = {
-		holder = 161490
-	}
-	1804.5.18 = {
-		holder = 9000001
-	}
-	1814.4.6 = {
-		holder = 8000000
-	}
-}
+#b_toul = {
+#	1066.1.1 = {
+#		holder = 161490
+#	}
+#	1804.5.18 = {
+#		holder = 9000001
+#	}
+#	1814.4.6 = {
+#		holder = 8000000
+#	}
+#}
 
 
 d_flanders = {
@@ -2925,7 +2928,7 @@ d_flanders = {
 		holder = 455710 #Louis I
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = 0
 		de_jure_liege = k_frisia
 	}
 	1814.4.11 = {
@@ -3001,7 +3004,8 @@ c_brugge = {
 		holder = 205523 #Boudewijn IX
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov52
+		liege = e_france
 	}
 	1814.4.11 = {
 		holder = 8000001
@@ -3072,7 +3076,8 @@ c_yperen = {
 		holder = 205523 #Boudewijn IX
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov52
+		liege = e_france
 	}
 	1814.4.11 = {
 		holder = 8000001
@@ -3151,11 +3156,12 @@ c_guines = {
 		holder = 455850 #Raoul II
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov47
+		liege = e_france
 	}
 	1814.4.11 = {
 		de_jure_liege = d_normandy
-		holder = 8000000
+		liege = d_normandy
 	}
 }
 
@@ -3224,11 +3230,12 @@ c_lille = {
 		holder = 455913
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov47
+		liege = e_france
 	}
 	1814.4.11 = {
 		de_jure_liege = d_normandy
-		holder = 8000000
+		liege = d_normandy
 	}
 }
 
@@ -3307,11 +3314,12 @@ c_boulogne = {
 		holder = 455820
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov46
+		liege = e_france
 	}
 	1814.4.11 = {
 		de_jure_liege = d_normandy
-		holder = 8000000
+		liege = d_normandy
 	}
 }
 
@@ -4153,10 +4161,11 @@ c_troyes = {
 		holder = 455500 # Philippe III
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov59
+		liege = e_france
 	}
 	1814.4.6 = {
-		holder = 8000000
+		liege = k_france
 	}
 }
 
@@ -4287,10 +4296,7 @@ c_coulommiers = {
 		holder = 455500 # Philippe III
 	}
 	1804.5.18 = {
-		holder = 9000001
-	}
-	1814.4.6 = {
-		holder = 8000000
+		holder = fragov59
 	}
 }
 
@@ -4333,10 +4339,7 @@ c_meaux = {
 		holder = 394 #Thibaut I de Blois
 	}
 	1804.5.18 = {
-		holder = 9000001
-	}
-	1814.4.6 = {
-		holder = 8000000
+		holder = fragov59
 	}
 }
 
@@ -4353,10 +4356,7 @@ c_chalons = {
 		holder = 398	#Philippe Ie de Champagne
 	}
 	1804.5.18 = {
-		holder = 9000001
-	}
-	1814.4.6 = {
-		holder = 8000000
+		holder = fragov59
 	}
 }
 
@@ -4373,10 +4373,11 @@ c_rethel = {
 	}
 	#1081 - Hughes Ie, son of Manasses III
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov60
+		liege = e_france
 	}
 	1814.4.6 = {
-		holder = 8000000
+		liege = k_france
 	}
 }
 
@@ -4426,9 +4427,6 @@ c_sens = {
 		holder = 91206 #Guerin II de Sens
 	}
 	1804.5.18 = {
-		holder = 9000001
-	}
-	1814.4.6 = {
-		holder = 8000000
+		holder = fragov59
 	}
 }

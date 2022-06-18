@@ -3143,16 +3143,11 @@ d_alsace = {
 		holder = 0
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov53
+		liege = e_france
 	}
 	1814.4.6 = {
-		holder = 8000000
-	}
-	1824.9.16 = {
-		holder = 8100004
-	}
-	1830.8.2 = {
-		holder = 8100031
+		liege = k_france
 	}
 }
 
@@ -4483,7 +4478,8 @@ c_minden = {
 	}
 
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov56
+		liege = e_france
 	}
 	1814.10.12 = {
 		holder = 9000000
@@ -4671,7 +4667,7 @@ c_bremen = {
 	}
 
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov56
 	}
 	1814.10.12 = {
 		holder = 9000000
@@ -5035,7 +5031,7 @@ c_oldenburg = {
 	}
 
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov56
 	}
 	1814.10.12 = {
 		holder = 9000000
@@ -7053,7 +7049,7 @@ c_hamburg = {
 		holder = 451940 #Gerhard II
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov57
 	}
 	1814.5.30 = {
 		holder = 8000007
@@ -8102,7 +8098,7 @@ c_osnabruck = {
 	}
 
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov56
 	}
 	1814.10.12 = {
 		holder = 9000000
@@ -8172,7 +8168,7 @@ c_tecklenburg = {
 		holder = 33288
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov56
 	}
 	1814.10.12 = {
 		holder = 9000000
@@ -8307,7 +8303,7 @@ c_munster = {
 	}
 
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov56
 	}
 	1814.4.11 = {
 		holder = 9000013

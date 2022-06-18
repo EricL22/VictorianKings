@@ -3,6 +3,7 @@ tags={
 	"Bookmarks"
 	"Historical"
 	"Gameplay"
+	"Total Conversion"
 }
 name="Victorian Kings"
 picture="thumbnail.png"

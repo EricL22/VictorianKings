@@ -100,10 +100,20 @@
 	# Counties/characters are allowed to create/join the faction (but will remain in faction if they fail these after joining).
 
 	can_character_join = {
-		# Must share this faction's faith.
+		# Must share this faction's religion.
 		scope:faction = {
 			has_variable = faction_faith
-			root.faith = var:faction_faith
+			root.faith.religion = var:faction_faith.religion
+		}
+		OR = {
+			# Must share this faction's culture.
+			scope:faction = {
+				AND = {
+					has_variable = faction_culture
+					root.culture = var:faction_culture
+				}
+			}
+			NOT = { primary_title = { target_is_de_jure_liege_or_above = scope:faction.faction_target.primary_title } }
 		}
 	}
 
@@ -496,6 +506,25 @@
 			has_government = republic_government
 			scope:faction.faction_target = { has_government = republic_government }
 			culture = { cultural_acceptance = { target = scope:faction.faction_target.culture value >= 75 } }
+		}
+
+		# Quick and messy solution for the United States until I can implement a better government reform system
+		modifier = {
+			add = -100
+			scope:faction.faction_target = { has_title = title:e_united_states }
+			NOT = { culture = culture:native_american_minor }
+		}
+
+		# Prevent Ottomans from fracturing ahistorically
+		modifier = {
+			add = -100
+			faith.religious_head = scope:faction.faction_target
+			scope:faction.faction_target.primary_title = title:e_turkey
+			OR = {
+				culture = scope:faction.faction_target.culture
+				culture = { has_cultural_pillar = heritage_arabic }
+			}
+			current_date < 1900.1.1
 		}
 
 		# Realm Stability Settings

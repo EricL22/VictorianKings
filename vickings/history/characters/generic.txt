@@ -214,6 +214,469 @@ rusgovural08 = {
 	}
 }
 
+rusgov1 = {
+        name = "Viacheslav"
+        culture = russian
+        religion = orthodox
+        1782.4.25 = {
+                birth = yes
+        }
+        1838.5.23 = {
+                death = yes
+        }
+}
+rusgov2 = {
+        name = "Koz_ma"
+        culture = russian
+        religion = orthodox
+        1786.6.27 = {
+                birth = yes
+        }
+        1840.4.6 = {
+                death = yes
+        }
+}
+rusgov3 = {
+        name = "Briachislav"
+        culture = russian
+        religion = orthodox
+        1783.11.9 = {
+                birth = yes
+        }
+        1839.2.6 = {
+                death = yes
+        }
+}
+rusgov4 = {
+        name = "Yelisey"
+        culture = russian
+        religion = orthodox
+        1790.12.22 = {
+                birth = yes
+        }
+        1838.11.10 = {
+                death = yes
+        }
+}
+rusgov5 = {
+        name = "Afanasiy"
+        culture = russian
+        religion = orthodox
+        1784.1.3 = {
+                birth = yes
+        }
+        1838.9.16 = {
+                death = yes
+        }
+}
+rusgov6 = {
+        name = "Iliya"
+        culture = russian
+        religion = orthodox
+        1782.5.22 = {
+                birth = yes
+        }
+        1837.12.30 = {
+                death = yes
+        }
+}
+rusgov7 = {
+        name = "Trifon"
+        culture = russian
+        religion = orthodox
+        1781.5.2 = {
+                birth = yes
+        }
+        1838.6.6 = {
+                death = yes
+        }
+}
+rusgov8 = {
+        name = "Svetozar"
+        culture = russian
+        religion = orthodox
+        1783.1.25 = {
+                birth = yes
+        }
+        1838.4.30 = {
+                death = yes
+        }
+}
+rusgov9 = {
+        name = "Mitrofan"
+        culture = russian
+        religion = orthodox
+        1785.8.5 = {
+                birth = yes
+        }
+        1836.2.8 = {
+                death = yes
+        }
+}
+rusgov10 = {
+        name = "Vseslav"
+        culture = russian
+        religion = orthodox
+        1784.12.10 = {
+                birth = yes
+        }
+        1837.9.19 = {
+                death = yes
+        }
+}
+rusgov11 = {
+        name = "Vasilko"
+        culture = russian
+        religion = orthodox
+        1784.1.19 = {
+                birth = yes
+        }
+        1838.6.4 = {
+                death = yes
+        }
+}
+rusgov12 = {
+        name = "Grigoriy"
+        culture = russian
+        religion = orthodox
+        1789.6.2 = {
+                birth = yes
+        }
+        1838.4.21 = {
+                death = yes
+        }
+}
+rusgov13 = {
+        name = "Iakov"
+        culture = russian
+        religion = orthodox
+        1784.6.29 = {
+                birth = yes
+        }
+        1840.9.25 = {
+                death = yes
+        }
+}
+rusgov14 = {
+        name = "Vladislav"
+        culture = russian
+        religion = orthodox
+        1787.7.30 = {
+                birth = yes
+        }
+        1839.3.23 = {
+                death = yes
+        }
+}
+rusgov15 = {
+        name = "Sudislav"
+        culture = russian
+        religion = orthodox
+        1783.10.28 = {
+                birth = yes
+        }
+        1836.7.7 = {
+                death = yes
+        }
+}
+rusgov16 = {
+        name = "Rurik"
+        culture = russian
+        religion = orthodox
+        1787.2.12 = {
+                birth = yes
+        }
+        1838.5.27 = {
+                death = yes
+        }
+}
+rusgov17 = {
+        name = "Yevstafiy"
+        culture = russian
+        religion = orthodox
+        1788.6.22 = {
+                birth = yes
+        }
+        1840.7.28 = {
+                death = yes
+        }
+}
+rusgov18 = {
+        name = "Sviatopolk"
+        culture = russian
+        religion = orthodox
+        1789.7.24 = {
+                birth = yes
+        }
+        1839.6.16 = {
+                death = yes
+        }
+}
+rusgov19 = {
+        name = "Andrei"
+        culture = russian
+        religion = orthodox
+        1782.7.25 = {
+                birth = yes
+        }
+        1836.12.28 = {
+                death = yes
+        }
+}
+rusgov20 = {
+        name = "Yaropolk"
+        culture = russian
+        religion = orthodox
+        1786.12.1 = {
+                birth = yes
+        }
+        1840.10.6 = {
+                death = yes
+        }
+}
+rusgov21 = {
+        name = "Stanislav"
+        culture = russian
+        religion = orthodox
+        1786.6.15 = {
+                birth = yes
+        }
+        1837.5.8 = {
+                death = yes
+        }
+}
+rusgov22 = {
+        name = "Ruslan"
+        culture = russian
+        religion = orthodox
+        1789.6.10 = {
+                birth = yes
+        }
+        1839.4.24 = {
+                death = yes
+        }
+}
+rusgov23 = {
+        name = "Rostislav"
+        culture = russian
+        religion = orthodox
+        1785.7.26 = {
+                birth = yes
+        }
+        1840.1.18 = {
+                death = yes
+        }
+}
+rusgov24 = {
+        name = "Mikhail"
+        culture = russian
+        religion = orthodox
+        1782.11.23 = {
+                birth = yes
+        }
+        1838.7.21 = {
+                death = yes
+        }
+}
+rusgov25 = {
+        name = "Sviatopolk"
+        culture = russian
+        religion = orthodox
+        1789.9.10 = {
+                birth = yes
+        }
+        1839.11.23 = {
+                death = yes
+        }
+}
+rusgov26 = {
+        name = "Iziaslav"
+        culture = russian
+        religion = orthodox
+        1782.4.6 = {
+                birth = yes
+        }
+        1840.4.4 = {
+                death = yes
+        }
+}
+rusgov27 = {
+        name = "Sudislav"
+        culture = russian
+        religion = orthodox
+        1782.9.18 = {
+                birth = yes
+        }
+        1837.11.22 = {
+                death = yes
+        }
+}
+rusgov28 = {
+        name = "Yuriy"
+        culture = russian
+        religion = orthodox
+        1780.8.22 = {
+                birth = yes
+        }
+        1839.4.23 = {
+                death = yes
+        }
+}
+rusgov29 = {
+        name = "Yeremey"
+        culture = russian
+        religion = orthodox
+        1788.4.25 = {
+                birth = yes
+        }
+        1839.11.2 = {
+                death = yes
+        }
+}
+rusgov30 = {
+        name = "Viacheslav"
+        culture = russian
+        religion = orthodox
+        1790.11.26 = {
+                birth = yes
+        }
+        1837.4.11 = {
+                death = yes
+        }
+}
+rusgov31 = {
+        name = "Ingvar"
+        culture = russian
+        religion = orthodox
+        1790.6.4 = {
+                birth = yes
+        }
+        1839.6.1 = {
+                death = yes
+        }
+}
+rusgov32 = {
+        name = "Igor"
+        culture = russian
+        religion = orthodox
+        1783.2.27 = {
+                birth = yes
+        }
+        1839.10.25 = {
+                death = yes
+        }
+}
+rusgov33 = {
+        name = "Aristarkh"
+        culture = russian
+        religion = orthodox
+        1781.4.21 = {
+                birth = yes
+        }
+        1836.10.21 = {
+                death = yes
+        }
+}
+rusgov34 = {
+        name = "Alexei"
+        culture = russian
+        religion = orthodox
+        1785.9.10 = {
+                birth = yes
+        }
+        1838.1.13 = {
+                death = yes
+        }
+}
+rusgov35 = {
+        name = "Ingvar"
+        culture = russian
+        religion = orthodox
+        1781.1.5 = {
+                birth = yes
+        }
+        1839.7.28 = {
+                death = yes
+        }
+}
+rusgov36 = {
+        name = "Mitrofan"
+        culture = russian
+        religion = orthodox
+        1782.6.18 = {
+                birth = yes
+        }
+        1838.10.5 = {
+                death = yes
+        }
+}
+rusgov37 = {
+        name = "Voislav"
+        culture = russian
+        religion = orthodox
+        1782.2.12 = {
+                birth = yes
+        }
+        1840.9.6 = {
+                death = yes
+        }
+}
+rusgov38 = {
+        name = "Vsevolod"
+        culture = russian
+        religion = orthodox
+        1782.1.18 = {
+                birth = yes
+        }
+        1839.12.23 = {
+                death = yes
+        }
+}
+rusgov39 = {
+        name = "Rurik"
+        culture = russian
+        religion = orthodox
+        1785.8.23 = {
+                birth = yes
+        }
+        1837.10.30 = {
+                death = yes
+        }
+}
+rusgov40 = {
+        name = "Sviatopolk"
+        culture = russian
+        religion = orthodox
+        1784.5.14 = {
+                birth = yes
+        }
+        1836.11.17 = {
+                death = yes
+        }
+}
+rusgov41 = {
+        name = "Mitrofan"
+        culture = russian
+        religion = orthodox
+        1783.5.2 = {
+                birth = yes
+        }
+        1837.1.13 = {
+                death = yes
+        }
+}
+rusgov42 = {
+        name = "Iliya"
+        culture = russian
+        religion = orthodox
+        1788.5.8 = {
+                birth = yes
+        }
+        1836.5.10 = {
+                death = yes
+        }
+}
+
 fragov_norman = {
 	name = "Naman-di"
 	culture = french
@@ -260,6 +723,744 @@ fragov_aquitaine = {
 	1845.1.1 = {
 		death = "1845.1.1"
 	}
+}
+
+fragov1 = {
+        name = "Loup"
+        culture = french
+        religion = catholic
+        1784.11.13 = {
+                birth = yes
+        }
+        1837.5.24 = {
+                death = yes
+        }
+}
+fragov2 = {
+        name = "Ebbon"
+        culture = french
+        religion = catholic
+        1790.4.3 = {
+                birth = yes
+        }
+        1836.5.18 = {
+                death = yes
+        }
+}
+fragov3 = {
+        name = "Bohemond"
+        culture = french
+        religion = catholic
+        1786.3.15 = {
+                birth = yes
+        }
+        1837.4.2 = {
+                death = yes
+        }
+}
+fragov4 = {
+        name = "Simon"
+        culture = french
+        religion = catholic
+        1784.2.29 = {
+                birth = yes
+        }
+        1838.4.24 = {
+                death = yes
+        }
+}
+fragov5 = {
+        name = "Jacques"
+        culture = french
+        religion = catholic
+        1788.9.19 = {
+                birth = yes
+        }
+        1839.2.11 = {
+                death = yes
+        }
+}
+fragov6 = {
+        name = "Thomas"
+        culture = french
+        religion = catholic
+        1781.9.13 = {
+                birth = yes
+        }
+        1840.2.2 = {
+                death = yes
+        }
+}
+fragov7 = {
+        name = "FrE_dE_ric"
+        culture = french
+        religion = catholic
+        1782.5.30 = {
+                birth = yes
+        }
+        1838.5.8 = {
+                death = yes
+        }
+}
+fragov8 = {
+        name = "Arnault"
+        culture = french
+        religion = catholic
+        1789.6.3 = {
+                birth = yes
+        }
+        1837.11.4 = {
+                death = yes
+        }
+}
+fragov9 = {
+        name = "Gaucher"
+        culture = french
+        religion = catholic
+        1784.6.21 = {
+                birth = yes
+        }
+        1840.7.21 = {
+                death = yes
+        }
+}
+fragov10 = {
+        name = "Payen"
+        culture = french
+        religion = catholic
+        1781.4.10 = {
+                birth = yes
+        }
+        1837.11.22 = {
+                death = yes
+        }
+}
+fragov11 = {
+        name = "Thierry"
+        culture = french
+        religion = catholic
+        1781.5.12 = {
+                birth = yes
+        }
+        1839.1.17 = {
+                death = yes
+        }
+}
+fragov12 = {
+        name = "Othon"
+        culture = french
+        religion = catholic
+        1781.4.22 = {
+                birth = yes
+        }
+        1838.6.29 = {
+                death = yes
+        }
+}
+fragov13 = {
+        name = "Guillaume"
+        culture = french
+        religion = catholic
+        1780.10.21 = {
+                birth = yes
+        }
+        1837.8.22 = {
+                death = yes
+        }
+}
+fragov14 = {
+        name = "Yves"
+        culture = french
+        religion = catholic
+        1790.5.25 = {
+                birth = yes
+        }
+        1836.12.30 = {
+                death = yes
+        }
+}
+fragov15 = {
+        name = "Angelbert"
+        culture = french
+        religion = catholic
+        1787.7.18 = {
+                birth = yes
+        }
+        1837.12.23 = {
+                death = yes
+        }
+}
+fragov16 = {
+        name = "E_rrard"
+        culture = french
+        religion = catholic
+        1784.9.28 = {
+                birth = yes
+        }
+        1836.5.9 = {
+                death = yes
+        }
+}
+fragov17 = {
+        name = "Boson"
+        culture = french
+        religion = catholic
+        1780.5.24 = {
+                birth = yes
+        }
+        1837.8.4 = {
+                death = yes
+        }
+}
+fragov18 = {
+        name = "FrE_dE_ric"
+        culture = french
+        religion = catholic
+        1780.3.28 = {
+                birth = yes
+        }
+        1836.10.6 = {
+                death = yes
+        }
+}
+fragov19 = {
+        name = "Geoffroy"
+        culture = french
+        religion = catholic
+        1785.12.1 = {
+                birth = yes
+        }
+        1839.12.6 = {
+                death = yes
+        }
+}
+fragov20 = {
+        name = "Bertrand"
+        culture = french
+        religion = catholic
+        1785.10.4 = {
+                birth = yes
+        }
+        1838.10.30 = {
+                death = yes
+        }
+}
+fragov21 = {
+        name = "Valeran"
+        culture = french
+        religion = catholic
+        1785.8.21 = {
+                birth = yes
+        }
+        1840.5.29 = {
+                death = yes
+        }
+}
+fragov22 = {
+        name = "Raoul"
+        culture = french
+        religion = catholic
+        1788.11.13 = {
+                birth = yes
+        }
+        1840.1.13 = {
+                death = yes
+        }
+}
+fragov23 = {
+        name = "Valeran"
+        culture = french
+        religion = catholic
+        1787.12.13 = {
+                birth = yes
+        }
+        1840.10.28 = {
+                death = yes
+        }
+}
+fragov24 = {
+        name = "Adalbert"
+        culture = french
+        religion = catholic
+        1787.8.10 = {
+                birth = yes
+        }
+        1840.3.6 = {
+                death = yes
+        }
+}
+fragov25 = {
+        name = "Alain"
+        culture = french
+        religion = catholic
+        1783.11.18 = {
+                birth = yes
+        }
+        1839.8.4 = {
+                death = yes
+        }
+}
+fragov26 = {
+        name = "Antoine"
+        culture = french
+        religion = catholic
+        1784.5.18 = {
+                birth = yes
+        }
+        1837.7.27 = {
+                death = yes
+        }
+}
+fragov27 = {
+        name = "Yves"
+        culture = french
+        religion = catholic
+        1786.8.17 = {
+                birth = yes
+        }
+        1837.6.20 = {
+                death = yes
+        }
+}
+fragov28 = {
+        name = "Orson"
+        culture = french
+        religion = catholic
+        1783.10.27 = {
+                birth = yes
+        }
+        1840.1.26 = {
+                death = yes
+        }
+}
+fragov29 = {
+        name = "Arnault"
+        culture = french
+        religion = catholic
+        1780.8.5 = {
+                birth = yes
+        }
+        1838.9.26 = {
+                death = yes
+        }
+}
+fragov30 = {
+        name = "BE_renger"
+        culture = french
+        religion = catholic
+        1788.8.18 = {
+                birth = yes
+        }
+        1838.1.8 = {
+                death = yes
+        }
+}
+fragov31 = {
+        name = "AndrE_"
+        culture = french
+        religion = catholic
+        1785.9.14 = {
+                birth = yes
+        }
+        1836.8.19 = {
+                death = yes
+        }
+}
+fragov32 = {
+        name = "Guichard"
+        culture = french
+        religion = catholic
+        1783.12.11 = {
+                birth = yes
+        }
+        1839.2.16 = {
+                death = yes
+        }
+}
+fragov33 = {
+        name = "Hugues"
+        culture = french
+        religion = catholic
+        1786.3.8 = {
+                birth = yes
+        }
+        1837.11.29 = {
+                death = yes
+        }
+}
+fragov34 = {
+        name = "BarthE_lE_mi"
+        culture = french
+        religion = catholic
+        1781.7.13 = {
+                birth = yes
+        }
+        1838.12.18 = {
+                death = yes
+        }
+}
+fragov35 = {
+        name = "Gilbert"
+        culture = french
+        religion = catholic
+        1784.2.17 = {
+                birth = yes
+        }
+        1838.8.14 = {
+                death = yes
+        }
+}
+fragov36 = {
+        name = "Roubaud"
+        culture = french
+        religion = catholic
+        1788.9.5 = {
+                birth = yes
+        }
+        1838.7.22 = {
+                death = yes
+        }
+}
+fragov37 = {
+        name = "Jacques"
+        culture = french
+        religion = catholic
+        1785.8.23 = {
+                birth = yes
+        }
+        1838.2.17 = {
+                death = yes
+        }
+}
+fragov38 = {
+        name = "GE_raud"
+        culture = french
+        religion = catholic
+        1781.11.10 = {
+                birth = yes
+        }
+        1836.6.9 = {
+                death = yes
+        }
+}
+fragov39 = {
+        name = "LE_onard"
+        culture = french
+        religion = catholic
+        1780.2.12 = {
+                birth = yes
+        }
+        1836.7.16 = {
+                death = yes
+        }
+}
+fragov40 = {
+        name = "Ogier"
+        culture = french
+        religion = catholic
+        1782.4.2 = {
+                birth = yes
+        }
+        1837.6.16 = {
+                death = yes
+        }
+}
+fragov41 = {
+        name = "Guilhem"
+        culture = french
+        religion = catholic
+        1780.12.26 = {
+                birth = yes
+        }
+        1840.6.9 = {
+                death = yes
+        }
+}
+fragov42 = {
+        name = "HE_lie"
+        culture = french
+        religion = catholic
+        1785.3.9 = {
+                birth = yes
+        }
+        1836.9.2 = {
+                death = yes
+        }
+}
+fragov43 = {
+        name = "Guillaume"
+        culture = french
+        religion = catholic
+        1786.10.16 = {
+                birth = yes
+        }
+        1836.7.30 = {
+                death = yes
+        }
+}
+fragov44 = {
+        name = "Bouchard"
+        culture = french
+        religion = catholic
+        1782.11.28 = {
+                birth = yes
+        }
+        1838.4.21 = {
+                death = yes
+        }
+}
+fragov45 = {
+        name = "Bouchard"
+        culture = french
+        religion = catholic
+        1781.7.14 = {
+                birth = yes
+        }
+        1839.12.8 = {
+                death = yes
+        }
+}
+fragov46 = {
+        name = "Guiges"
+        culture = french
+        religion = catholic
+        1784.5.16 = {
+                birth = yes
+        }
+        1837.12.7 = {
+                death = yes
+        }
+}
+fragov47 = {
+        name = "Humbert"
+        culture = french
+        religion = catholic
+        1783.7.23 = {
+                birth = yes
+        }
+        1839.1.23 = {
+                death = yes
+        }
+}
+fragov48 = {
+        name = "Guillaume"
+        culture = french
+        religion = catholic
+        1781.5.13 = {
+                birth = yes
+        }
+        1836.12.13 = {
+                death = yes
+        }
+}
+fragov49 = {
+        name = "Yves"
+        culture = french
+        religion = catholic
+        1784.4.9 = {
+                birth = yes
+        }
+        1838.2.3 = {
+                death = yes
+        }
+}
+fragov50 = {
+        name = "AdE_mar"
+        culture = french
+        religion = catholic
+        1784.2.17 = {
+                birth = yes
+        }
+        1838.4.16 = {
+                death = yes
+        }
+}
+fragov51 = {
+        name = "GE_raud"
+        culture = french
+        religion = catholic
+        1788.3.18 = {
+                birth = yes
+        }
+        1840.7.3 = {
+                death = yes
+        }
+}
+fragov52 = {
+        name = "LE_onard"
+        culture = french
+        religion = catholic
+        1780.7.22 = {
+                birth = yes
+        }
+        1837.5.20 = {
+                death = yes
+        }
+}
+fragov53 = {
+        name = "Pierre"
+        culture = french
+        religion = catholic
+        1784.6.3 = {
+                birth = yes
+        }
+        1836.8.14 = {
+                death = yes
+        }
+}
+fragov54 = {
+        name = "ThiE_baut"
+        culture = french
+        religion = catholic
+        1787.1.18 = {
+                birth = yes
+        }
+        1838.6.23 = {
+                death = yes
+        }
+}
+fragov55 = {
+        name = "E_douard"
+        culture = french
+        religion = catholic
+        1781.10.1 = {
+                birth = yes
+        }
+        1837.11.21 = {
+                death = yes
+        }
+}
+fragov56 = {
+        name = "Loup"
+        culture = french
+        religion = catholic
+        1781.12.6 = {
+                birth = yes
+        }
+        1836.4.7 = {
+                death = yes
+        }
+}
+fragov57 = {
+        name = "Ogier"
+        culture = french
+        religion = catholic
+        1786.9.27 = {
+                birth = yes
+        }
+        1836.5.13 = {
+                death = yes
+        }
+}
+fragov58 = {
+        name = "Boson"
+        culture = french
+        religion = catholic
+        1788.12.26 = {
+                birth = yes
+        }
+        1840.2.28 = {
+                death = yes
+        }
+}
+fragov59 = {
+        name = "Rorgues"
+        culture = french
+        religion = catholic
+        1784.8.3 = {
+                birth = yes
+        }
+        1837.10.8 = {
+                death = yes
+        }
+}
+fragov60 = {
+        name = "Gilbert"
+        culture = french
+        religion = catholic
+        1782.3.15 = {
+                birth = yes
+        }
+        1836.6.18 = {
+                death = yes
+        }
+}
+fragov61 = {
+        name = "ManassE_s"
+        culture = french
+        religion = catholic
+        1786.4.28 = {
+                birth = yes
+        }
+        1837.11.10 = {
+                death = yes
+        }
+}
+fragov62 = {
+        name = "Renaud"
+        culture = french
+        religion = catholic
+        1790.11.5 = {
+                birth = yes
+        }
+        1838.12.2 = {
+                death = yes
+        }
+}
+fragov63 = {
+        name = "LE_onard"
+        culture = french
+        religion = catholic
+        1788.4.29 = {
+                birth = yes
+        }
+        1840.7.4 = {
+                death = yes
+        }
+}
+fragov64 = {
+        name = "Guilhem"
+        culture = french
+        religion = catholic
+        1780.12.28 = {
+                birth = yes
+        }
+        1840.3.17 = {
+                death = yes
+        }
+}
+fragov65 = {
+        name = "ThiE_baut"
+        culture = french
+        religion = catholic
+        1790.1.28 = {
+                birth = yes
+        }
+        1840.6.18 = {
+                death = yes
+        }
+}
+fragov66 = {
+        name = "Geoffroy"
+        culture = french
+        religion = catholic
+        1783.11.11 = {
+                birth = yes
+        }
+        1836.3.22 = {
+                death = yes
+        }
+}
+fragov67 = {
+        name = "Hildebert"
+        culture = french
+        religion = catholic
+        1786.9.13 = {
+                birth = yes
+        }
+        1837.3.25 = {
+                death = yes
+        }
 }
 
 turgov01 = {

@@ -1,0 +1,10 @@
+﻿
+culture_era_renaissance = {
+	year = 1450
+	invalid_for_government = tribal_government
+}
+
+culture_era_industrial = {
+	year = 1800
+	invalid_for_government = tribal_government
+}

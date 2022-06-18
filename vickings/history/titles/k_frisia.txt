@@ -132,7 +132,8 @@ d_holland = {
 	}
 
 	1804.5.18 = {
-		holder = 0
+		holder = fragov55
+		liege = e_france
 	}
 }
 
@@ -212,7 +213,7 @@ c_holland = {
 	
 
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov55
 	}
 	1814.4.11 = {
 		holder = 8000001
@@ -294,7 +295,7 @@ c_westfriesland = {
 	}
 
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov55
 	}
 	1814.4.11 = {
 		holder = 8000001
@@ -373,7 +374,7 @@ c_zeeland = {
 		holder = 487011 #Willem IV
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov55
 	}
 	1814.4.11 = {
 		holder = 8000001
@@ -446,7 +447,7 @@ c_guelders = {
 	
 
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov55
 	}
 	1814.4.11 = {
 		holder = 8000001
@@ -509,7 +510,7 @@ c_arnhem = {
 	
 
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov55
 	}
 	1814.4.11 = {
 		holder = 8000001
@@ -596,7 +597,7 @@ c_zutphen = {
 		holder = 462920 #Dietrich VIII
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov55
 	}
 	1814.4.11 = {
 		holder = 8000001
@@ -706,7 +707,7 @@ c_nedersticht = {
 	}
 
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov55
 	}
 	1814.4.11 = {
 		holder = 8000001
@@ -815,7 +816,7 @@ c_oversticht = {
 	}
 
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov55
 	}
 	1814.4.11 = {
 		holder = 8000001
@@ -925,7 +926,7 @@ c_groningen = {
 	}
 
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov55
 	}
 	1814.4.11 = {
 		holder = 8000001
@@ -1042,7 +1043,7 @@ c_dokkum = {
 	
 
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov55
 	}
 	1814.4.11 = {
 		holder = 8000001
@@ -1128,7 +1129,7 @@ c_ostfriesland = {
 		holder = 462171 #Enno II Cirksena
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov55
 	}
 	1814.10.12 = {
 		de_jure_liege = d_angria
@@ -1246,7 +1247,7 @@ c_frisia = {
 	
 
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov55
 	}
 	1814.4.11 = {
 		holder = 8000001

@@ -170,6 +170,8 @@
  dynn_Fulton:0 "Fulton"
  dynn_Berens:0 "Berens"
  dynn_Pelly:0 "Pelly"
+ dynn_Maxwell:0 "Maxwell"
+ dynn_Maclean:0 "Maclean"
 
  e_turkey:0 "Turkey"
  e_turkey_adj:0 "Turkish"
@@ -673,6 +675,12 @@
  adams_onis_treaty_decision_tooltip:0 "Cede lands to the United States in exchange for opinion and prestige"
  adams_onis_de_jure_effect:0 "All counties within Florida are transferred, de facto and de jure, to the United States"
 
+ indian_removal_act_decision:0 "Pass the Indian Removal Act"
+ indian_removal_act_desc:0 "Ever since the colonial era our countrymen have dreamed of starting a new life out west, which contains an abundance of fertile land for self-sufficient farming. This act will enable us to constitutionally remove Native Americans from those lands and move them into reservations where they can avoid coming into conflict with any settlers."
+ indian_removal_act_decision_confirm:0 "Approve"
+ indian_removal_act_decision_tooltip:0 "Pass the Indian Removal Act"
+ indian_removal_effect:0 "You will gain the ability to sign removal treaties with Native Americans\nNOTE: You must first designate an Indian territory, through the appropriate interaction, before you may sign removal treaties"
+
  opinion_chinese_imperial_tributary:0 "Is an Imperial Tributary"
  opinion_broke_chinese_tributary:0 "Freed Tributary"
  opinion_ceded_rightful_lands:0 "Ceded Rightful Lands"
@@ -757,15 +765,45 @@
 
  # Colonial Conquest
  COLONIAL_WAR_NAME:0 "Colonial Conquest"
-
+ multiple_duchy_de_jure_cb:0 "Multiple [de_jure|E] [duchy|E]"
 
  offer_protectorate_interaction:0 "Offer Protectorate"
  offer_protectorate_interaction_desc:0 "[recipient.GetTitledFirstNameNoTooltip] is too weak for his own good... he is better off under our protection!"
  OFFER_PROTECTORATE_NOTIFICATION:0 "It is time to bow before the might of the empire! Submit to me and receive the protection of the civilized and benevolent realm."
+ LARGE_REALM_REASON:0 "Large realm: $VALUE|=+0$"
+ DOMINANT_POWER_REASON:0 "Dominant power compared to neighbors: $VALUE|=+0$"
  CONTRACT_PRINCELY_STATE_REASON:0 "Princely State: $VALUE|=+0$"
  princely_state_tt:0 "[feudal_contract|E] starts with [GetVassalContractType( 'special_contract' ).GetObligationName( 'princely_state' )]"
  title_protection_tt:0 "[feudal_contract|E] starts with [GetVassalContractType( 'title_revocation_rights' ).GetObligationName( 'title_revocation_rights_protected' )]"
 
  request_protectorate_interaction:0 "Request Protectorate"
  request_protectorate_interaction_desc:0 "$offer_fealty_interaction_desc$"
- REQUEST_PROTECTORATE_NOTIFICATION:0 "Whereas we now lack the strength to ensure the sovereignty and security of our country, I humbly ask that you accept these mutually beneficial terms of trade to be the country's protector."
+ REQUEST_PROTECTORATE_INTERACTION_NOTIFICATION:0 "Whereas we now lack the strength to ensure the sovereignty and security of our country, I humbly ask that you accept these mutually beneficial terms of trade to be the country's protector."
+
+ initiate_colonization_interaction:0 "Initiate Colonization"
+ initiate_colonization_interaction_desc:0 "To expand our realm to all corners of the world, and to enlighten the barbarians therein, is one of the highest aspirations known to man."
+ colonization_interaction_effects:0 "Initiates colonization against [recipient.GetTitledFirstName]\n\nFrom the size of the target realm, we estimate it should have a base time of about #V [Add_int32(Multiply_int32(recipient.RealmSize, '(int32)2'), '(int32)10')]#! months\n#weak This does not account for any improvements in technology that would increase colonization efficiency"
+
+ end_colonization_interaction:0 "End Colonization"
+ end_colonization_interaction_desc:0 "The gains of colonizing this realm are not worth the risks. Let us abandon our integration of this land and move on to other projects."
+ end_colonization_interaction_effects:0 "Ends your colonization against [recipient.GetTitledFirstName]"
+
+ designate_indian_territory_interaction:0 "Designate Indian Territory"
+ designate_indian_territory_interaction_desc:0 "We may choose any one of our de jure duchy-level titles into which we can relocate treaty-removed native tribes."
+ sign_removal_treaty_interaction:0 "Sign Removal Treaty"
+ sign_removal_treaty_interaction_desc:0 "By forging a mutually beneficial treaty, we may convince the Indians to give up land so that we are able to expand our control west."
+ sign_removal_treaty_interaction_aibehavior_power_tt:1 "Difference in your Military Strength: $VALUE|=+0$ #weak (max +40)#!"
+ sign_removal_treaty_interaction_insufficient_lands_tt:0 "Insufficient lands to honor treaty: $VALUE|=+0$"
+ CONTRACT_LOW_CONCESSIONS_REASON:0 "Low Concessions: $VALUE|=+0$"
+ CONTRACT_MEDIUM_CONCESSIONS_REASON:0 "Medium Concessions: $VALUE|=+0$"
+ CONTRACT_HIGH_CONCESSIONS_REASON:0 "High Concessions: $VALUE|=+0$"
+ none_concessions:0 "Concessions as-is"
+ low_concessions:0 "Low Concessions"
+ medium_concessions:0 "Medium Concessions"
+ high_concessions:0 "High Concessions"
+ concessions_tt:0 "If you do not assign lands to the reservation within one month according to the contract terms:\n$EFFECT_LIST_BULLET$Low Concessions: 1 county or above,\n$EFFECT_LIST_BULLET$Medium Concessions: 3 counties or above,\n$EFFECT_LIST_BULLET$High Concessions: 6 counties or above,\nyour administrators will assign these lands for you."
+ grant_reservation_land_interaction:0 "Grant Reservation Land"
+ grant_reservation_land_interaction_desc:0 "We may expand the sizes of our reservations at any time using unincorporated land within the Indian Territory. Due to technical reasons, we may only assign one county at a time."
+ grant_reservation_land_interaction_concession_low:0 "We have agreed to grant this reservation low concessions, which amounts to a minimum of #V 1#! county."
+ grant_reservation_land_interaction_concession_medium:0 "We have agreed to grant this reservation medium concessions, which amounts to a minimum of #V 3#! counties."
+ grant_reservation_land_interaction_concession_high:0 "We have agreed to grant this reservation high concessions, which amounts to a minimum of #V 6#! counties."

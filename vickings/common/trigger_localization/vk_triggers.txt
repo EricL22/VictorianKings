@@ -29,3 +29,23 @@ centralized_no_free_war_contract = {
 peninsular_war_blocked_execution = {
 	third_not = peninsular_war_blocked_execution
 }
+
+initiate_colonization_neighboring_condition = {
+	third = initiate_colonization_neighboring_condition
+}
+
+initiate_colonization_already_colonizing_condition = {
+	third = initiate_colonization_already_colonizing_condition
+}
+
+initiate_colonization_geographical_region_condition = {
+	third = initiate_colonization_geographical_region_condition
+}
+
+sign_removal_treaty_interaction_territory_requirement = {
+	third = sign_removal_treaty_interaction_territory_requirement
+}
+
+not_has_lowest_crown_authority = {
+	third_not = CHARACTER_HAS_HIGHER_CROWN_AUTHORITY
+}

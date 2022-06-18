@@ -1,7 +1,7 @@
 ﻿6400000 = {
 	name = "George"
 	dynasty = 163157
-	culture = american
+	culture = english
 	religion = protestant
 	1732.2.22 = {
 		birth = yes

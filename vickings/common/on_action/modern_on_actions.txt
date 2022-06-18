@@ -37,6 +37,20 @@ vk_on_death_effects = {
 			}
 			primary_heir = { trigger_event = { id = moderntimes.14 days = { 7 14 } } }
 		}
+		if = {
+			limit = {
+				is_target_in_global_variable_list = {
+					name = involved_in_colonization
+					target = root
+				}
+			}
+			every_heir = {
+				add_to_global_variable_list = {
+					name = involved_in_colonization
+					target = this
+				}
+			}
+		}
 	}
 }
 
@@ -69,6 +83,7 @@ vk_initialize_history_effects = {
 				has_culture = culture:native_american_minor
 				NOT = { has_government = tribal_government }
 			}
+			capital_province = { set_holding_type = tribal_holding }
 			change_government = tribal_government
 		}
 
@@ -82,6 +97,14 @@ vk_initialize_history_effects = {
 			add_to_global_variable_list = {
 				name = unavailable_unique_decisions
 				target = flag:adams_onis_signed
+			}
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:indian_removal_signed
+			}
+			add_to_global_variable_list = {
+				name = indian_territory
+				target = title:d_oklahoma
 			}
 		}
 	}
@@ -184,21 +207,22 @@ vk_war_won_attacker_effects = {
 			scope:attacker = { save_scope_as = county_gainer }
 			scope:defender = {
 				every_sub_realm_county = {
-					if = {
-						limit = { scope:attacker = { is_ai = yes } }
-						create_character = {
-							culture = culture:american
-							faith = scope:attacker.faith
-							gender = male
-							employer = scope:attacker
-							after_creation = { add_to_list = new_republics }
-							save_scope_as = county_gainer
-						}
+					create_character = {
+						culture = culture:american
+						faith = scope:attacker.faith
+						gender = male
+						employer = scope:attacker
+						after_creation = { add_to_list = new_republics }
+						save_scope_as = county_gainer
 					}
 					change_title_holder = {
 						holder = scope:county_gainer
 						change = scope:change
 						take_baronies = yes
+					}
+					random = {
+						chance = 20
+						set_county_culture = culture:american
 					}
 				}
 				every_vassal_or_below = {
@@ -219,6 +243,7 @@ vk_war_won_attacker_effects = {
 				capital_province = { set_holding_type = city_holding }
 				change_government = republic_government
 			}
+			scope:attacker = { trigger_event = united_states.1 }
 		}
 		if = {
 			limit = {

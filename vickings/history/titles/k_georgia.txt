@@ -111,10 +111,7 @@ k_georgia = {
 		de_jure_liege = e_turkey
 	}
 	1801.3.23 = {
-		holder = 9000014
-	}
-	1825.12.1 = {
-		holder = 9179601
+		holder = rusgovural04
 	}
 }
 
@@ -438,10 +435,7 @@ c_kartli = {
 	}
 
 	1801.3.23 = {
-		holder = 9000014
-	}
-	1825.12.1 = {
-		holder = 9179601
+		holder = rusgovural04
 	}
 }
 

@@ -39,6 +39,15 @@ Added a new (Anglo) American culture for the United States so that they have the
 AI should now be able to do some imperialism by the historical date
 Empire obscurity is now disabled by default to enable the Mughal emperor to keep his title as he did historically
 Carlos V of Spain now starts off with male only law; how he managed to miss such a basic provision is beyond my comprehension...
+Fixed the equal succession law, now Victoria should inherit the throne correctly
+Increased de jure penalty for Offer Vassalization; no more France vassalizing German dukes!
+Added protectorate and colonization interactions, and a special Indian Removal Act for the United States
+Added vassals for Russia at all start dates; it's not entirely accurate... but at least handing out domain titles isn't a pain anymore
+Added vassals for France at all start dates, including Elisa Bonaparte holding the county of Lucca
+AI will no longer disinherit their own heirs by setting them as a court chaplain
+Colonial wars may now be used against rulers less than emperor tier
+Added British colonies in Africa at all start dates
+Partially integrated the Better Character UI so that it is no longer a dependency
 0.4.1----------
 Renamed Aigun to Boli to fix accuracy
 Fixed compatibility for the 1.5 update

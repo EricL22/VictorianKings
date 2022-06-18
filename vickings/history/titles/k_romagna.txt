@@ -1507,9 +1507,6 @@ d_spoleto = {
 	
 
 	1804.5.18 = {
-		holder = 9000001
-	}
-	1814.5.30 = {
 		holder = 0
 	}
 }
@@ -1680,7 +1677,8 @@ c_spoleto = {
 	
 
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov32
+		liege = e_france
 	}
 	1814.5.30 = {
 		holder = 9100000
@@ -1744,7 +1742,8 @@ c_orvieto = {
 		holder = 70864
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov32
+		liege = e_france
 	}
 	1814.5.30 = {
 		holder = 9100000
@@ -2851,7 +2850,8 @@ c_roma = {
 	}
 
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov11
+		liege = e_france
 	}
 	1814.5.30 = {
 		holder = 9100000
@@ -3478,7 +3478,8 @@ c_viterbo = {
 	}
 
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov11
+		liege = e_france
 	}
 	1814.5.30 = {
 		holder = 9100000
@@ -4105,7 +4106,8 @@ c_tivoli = {
 	}
 
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov11
+		liege = e_france
 	}
 	1814.5.30 = {
 		holder = 9100000

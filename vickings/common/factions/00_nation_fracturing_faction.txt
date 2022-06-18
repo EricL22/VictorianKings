@@ -117,6 +117,14 @@
 		nation_fracturing_faction_modifiers = {
 			FACTION_TARGET = scope:target
 		}
+
+		# it would not make sense for people to want to destroy their own country... especially in this era...
+		modifier = {
+			add = -200
+			culture = { has_same_culture_language = scope:target.culture }
+			highest_held_title_tier = tier_kingdom
+			has_realm_law = city_succession_law
+		}
 	}
 
 	can_character_join = {
@@ -152,6 +160,14 @@
 
 		nation_fracturing_faction_modifiers = {
 			FACTION_TARGET = scope:faction.faction_target
+		}
+
+		# it would not make sense for people to want to destroy their own country... especially in this era...
+		modifier = {
+			add = -200
+			culture = { has_same_culture_language = scope:faction.faction_target.culture }
+			highest_held_title_tier = tier_kingdom
+			has_realm_law = city_succession_law
 		}
 	}
 

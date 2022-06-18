@@ -177,6 +177,10 @@ d_volhynia = {
 		holder = 472100
 	}
 
+	1812.1.1 = {
+		holder = rusgov31
+		liege = e_russia
+	}
 }
 
 
@@ -1316,7 +1320,7 @@ c_terebovl = {
 		holder = 472100
 	}
 	1801.3.23 = {
-		holder = 9000014
+		holder = rusgov31
 	}
 	1815.6.9 = {
 		holder = 9000012
@@ -1707,6 +1711,10 @@ c_cherven = {
 		holder = 472100
 	}
 
+	1812.1.1 = {
+		holder = rusgov32
+		liege = e_russia
+	}
 }
 
 

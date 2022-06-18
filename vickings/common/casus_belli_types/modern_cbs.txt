@@ -218,6 +218,7 @@
 					every_realm_de_jure_duchy = {
 						limit = {
 							NOT = { is_in_list = target_titles }
+							exists = scope:attacker.primary_title.de_jure_liege
 							target_is_de_jure_liege_or_above = scope:attacker.primary_title.de_jure_liege
 				
 							# SPECIAL CASES
@@ -454,6 +455,7 @@
 radical_faction_war = {
 	group = civil_war
 	ai_only_against_liege = yes
+	target_titles = none
 	allowed_for_character = {
 		scope:attacker = {
 			is_leading_faction_type = radical_faction
@@ -1241,7 +1243,6 @@ colonial_war = {
 	}
 
 	allowed_for_character_display_regardless = {
-		piety_level >= 1
 		prestige_level >= 1
 	}
 
@@ -1264,7 +1265,7 @@ colonial_war = {
 				}
 			}
 		}
-		highest_held_title_tier = tier_empire
+		#highest_held_title_tier = tier_empire
 		trigger_if = {
 			limit = { scope:attacker = { has_title = title:e_britannia } }
 			NOR = {
@@ -1277,6 +1278,34 @@ colonial_war = {
 	target_title_tier = all
 	target_de_jure_regions_above = yes
 	ignore_effect = change_title_holder
+
+	ai_score_mult = {
+		value = 1
+		add = {
+			if = {
+				limit = {
+					scope:attacker.primary_title = title:e_france
+					scope:defender.primary_title = title:e_vietnam
+				}
+				add = 1000
+			}
+		}
+		add = {
+			if = {
+				limit = {
+					scope:attacker = {
+						NOT = {
+							is_character_interaction_shown = {
+								recipient = scope:defender
+								interaction = initiate_colonization_interaction
+							}
+						}
+					}
+				}
+				add = 1000
+			}
+		}
+	}
 
 	valid_to_start = {
 		scope:target = {
@@ -1700,7 +1729,7 @@ colonial_war = {
 	attacker_allies_inherit = yes
 	defender_allies_inherit = yes
 
-	war_name = "RELIGIOUS_WAR_NAME"
+	war_name = "COLONIAL_WAR_NAME"
 	cb_name = "COLONIAL_WAR_NAME"
 
 	interface_priority = 80
@@ -1709,5 +1738,5 @@ colonial_war = {
 
 	attacker_wargoal_percentage = 0.8
 
-	max_ai_diplo_distance_to_title = 500
+	max_ai_diplo_distance_to_title = 10000
 }

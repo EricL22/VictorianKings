@@ -1,11 +1,11 @@
 k_esthonia = {
 	867.1.1 = { change_development_level = 2 }
 	1066.1.1 = { change_development_level = 5 }
-	1801.3.23 = {
+	1800.1.1 = {
 		holder = 9000014
 	}
-	1825.12.1 = {
-		holder = 9179601
+	1814.5.30 = {
+		holder = 0
 	}
 }
 
@@ -56,6 +56,10 @@ d_esthonia = {
 	}
 	1332.1.1 = {
 		holder = 451523
+	}
+	1812.1.1 = {
+		holder = rusgov4
+		liege = e_russia
 	}
 }
 
@@ -207,10 +211,7 @@ c_osel = {
 		holder = 30442 #Jakob von Osel
 	}
 	1801.3.23 = {
-		holder = 9000014
-	}
-	1825.12.1 = {
-		holder = 9179601
+		holder = rusgov4
 	}
 }
 
@@ -340,6 +341,10 @@ d_livonia = {
 		holder = 0
 	}
 
+	1812.1.1 = {
+		holder = rusgov3
+		liege = e_russia
+	}
 }
 
 

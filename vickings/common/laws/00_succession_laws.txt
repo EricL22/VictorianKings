@@ -548,6 +548,12 @@ succession_gender_laws = {
 						faith = { has_doctrine = doctrine_gender_female_dominated }
 						NOT = { culture = { has_cultural_parameter = female_only_inheritance } }
 					}
+					faith = {
+						OR = {
+							this = faith:protestant
+							this = faith:reformed
+						}
+					}
 				}
 			}
 		}

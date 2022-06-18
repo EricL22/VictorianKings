@@ -8,6 +8,12 @@
  reform_independent_requirement:0 "你必须是一个独立的统治者才能通过改革"
  centralized_no_free_war_contract:0 "只有保护国才能在中央集权国家独立宣战"
  peninsular_war_blocked_execution:0 "被事件战阻止"
- claim_blocked_by_treaty:0 "Your [top_liege|E] has signed a treaty with a foreign power preventing you from claiming this territory"
+ claim_blocked_by_treaty:0 "你[top_liege|E]与外国缔结条约，禁止认领此地"
 
  MY_PRESTIGE_LEVEL_IS_NOT_AT_LEAST_FOUR:1 "你[prestige_level|E]不足"
+
+ NOT_initiate_colonization_neighboring_condition:0 "[CHARACTER.GetShortUIName|U]非邻统治者"
+ NOT_initiate_colonization_already_colonizing_condition:0 "[CHARACTER.GetShortUINamePossessive|U]之领地已经正在殖民"
+ NOT_initiate_colonization_geographical_region_condition:0 "你无适当技术，以殖民此地区"
+ NOT_sign_removal_treaty_interaction_territory_requirement:0 "须非居留地于印第安领地"
+ CHARACTER_HAS_HIGHER_CROWN_AUTHORITY:0 "[CHARACTER.GetShortUIName|U]无最低[crown_authority|E]"

@@ -250,6 +250,10 @@ d_kiev = {
 		holder = 472100
 	}
 
+	1812.1.1 = {
+		holder = rusgov30
+		liege = e_russia
+	}
 }
 
 
@@ -1577,6 +1581,9 @@ d_turov = {
 		holder = 473504
 	}
 
+	1366.1.1 = {
+		holder = 0
+	}
 }
 
 
@@ -1679,6 +1686,10 @@ c_turov = {
 		holder = 473504
 	}
 
+	1812.1.1 = {
+		holder = rusgov8
+		liege = e_russia
+	}
 }
 
 
@@ -1851,6 +1862,10 @@ c_korosten = {
 		holder = 472100
 	}
 
+	1812.1.1 = {
+		holder = rusgov8
+		liege = e_russia
+	}
 }
 
 
@@ -2023,6 +2038,10 @@ c_dubrovytsia = {
 		holder = 472100
 	}
 
+	1812.1.1 = {
+		holder = rusgov8
+		liege = e_russia
+	}
 }
 
 
@@ -2112,6 +2131,10 @@ d_pereyaslavl = {
 	}
 	1169.1.2 = {
 		holder = 222700	#Vladimir III Glebovich
+	}
+	1812.1.1 = {
+		holder = rusgov29
+		liege = e_russia
 	}
 }
 
@@ -2640,6 +2663,10 @@ d_chernigov = {
 	1176.1.2 = {
 		holder = 222600		#Yaroslav II Vsevolodovich
 	}
+	1812.1.1 = {
+		holder = rusgov27
+		liege = e_russia
+	}
 }
 
 
@@ -3046,6 +3073,10 @@ c_putyvl = {
 	1180.1.2 = {
 		holder = 222630		# Igor Svyatoslavich (baptism name Yury)
 	}
+	1812.1.1 = {
+		holder = rusgov28
+		liege = e_russia
+	}
 }
 
 
@@ -3147,11 +3178,19 @@ c_kursk = {
 	1180.1.2 = {
 		holder = 222630		# Igor Svyatoslavich (baptism name Yury)
 	}
+	1812.1.1 = {
+		holder = rusgov28
+		liege = e_russia
+	}
 }
 
 d_karachev = {
 	867.1.1 = { change_development_level = 2 }
 	1066.1.1 = { change_development_level = 5 }
+	1812.1.1 = {
+		holder = rusgov25
+		liege = e_russia
+	}
 }
 
 c_karachev = {
@@ -3489,6 +3528,10 @@ c_novosil = {
 	1184.6.1 = {
 		holder = 302260		#Simeon Kromsky, fictional
 	}
+	1812.1.1 = {
+		holder = rusgov25
+		liege = e_russia
+	}
 }
 
 
@@ -3570,6 +3613,10 @@ c_odoyev = {
 	}
 	1184.6.1 = {
 		holder = 302260		#Simeon Kromsky, fictional
+	}
+	1812.1.1 = {
+		holder = rusgov25
+		liege = e_russia
 	}
 }
 

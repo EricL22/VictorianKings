@@ -4072,6 +4072,7 @@ e_russia = {
 	}
 
 	1703.5.27 = {
+		government = feudal_government
 		effect = {
 			set_capital_county = title:c_vodi
 		}

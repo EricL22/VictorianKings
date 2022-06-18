@@ -1465,6 +1465,18 @@
 	}
 }
 
+8000076 = {
+	name = "Hubert Jean Victor"
+	religion = catholic
+	culture = french
+	1782.2.11 = {
+		birth = yes
+	}
+	1865.3.18 = {
+		death = yes
+	}
+}
+
 ###FRENCH REGNAL NAMES###
 8100000 = {
 	name = "Louis"	# XV of France

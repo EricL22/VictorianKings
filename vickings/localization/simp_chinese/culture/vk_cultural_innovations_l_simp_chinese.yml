@@ -1,7 +1,10 @@
 ﻿l_simp_chinese:
 
  same_culture_none_factionalism_double_different:0 "你[culture|E]之[vassals|E]不再倾向于加入[independence_factions|E]，但不同文化者将多倾向"
+ unlocks_protectorate_interaction:0 "开启$offer_protectorate_interaction$[interaction|E]"
  absolutism_vassal_restriction:0 "开启#P 政府改革#!"
+ unlocks_colonization_interaction:0 "开启$initiate_colonization_interaction$[interaction|E]"
+ unlocks_colonization_in_africa:0 "开启非洲之殖民"
 
 #####################
 # Renaissance Era #

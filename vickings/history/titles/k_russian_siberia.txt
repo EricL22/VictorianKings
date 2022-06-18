@@ -1,0 +1,68 @@
+k_west_siberia = {
+	867.1.1 = { change_development_level = 0 }
+	1066.1.1 = { change_development_level = 0 }
+}
+d_tobolsk = {
+	1812.1.1 = {
+		holder = rusgov14
+		liege = e_russia
+	}
+}
+
+k_central_siberia = {
+	867.1.1 = { change_development_level = 0 }
+	1066.1.1 = { change_development_level = 0 }
+}
+d_yeniseysk = {
+	1812.1.1 = {
+		holder = rusgov15
+		liege = e_russia
+	}
+}
+
+k_yakutia = {
+	867.1.1 = { change_development_level = 0 }
+	1066.1.1 = { change_development_level = 0 }
+}
+d_yakutsk = {
+	1812.1.1 = {
+		holder = rusgov16
+		liege = e_russia
+	}
+}
+d_srednekolymsky = {
+	1812.1.1 = {
+		holder = rusgov16
+		liege = e_russia
+	}
+}
+
+k_kamchatka = {
+	867.1.1 = { change_development_level = 0 }
+	1066.1.1 = { change_development_level = 0 }
+}
+d_kamchatka = {
+	1812.1.1 = {
+		holder = rusgov17
+		liege = e_russia
+	}
+}
+d_chukotka = {
+	1812.1.1 = {
+		holder = rusgov17
+		liege = e_russia
+	}
+}
+
+c_amur = {
+	1812.1.1 = {
+		holder = rusgov33
+		liege = e_russia
+	}
+}
+c_udsky = {
+	1812.1.1 = {
+		holder = rusgov34
+		liege = e_russia
+	}
+}

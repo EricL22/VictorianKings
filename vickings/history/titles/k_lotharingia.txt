@@ -200,8 +200,9 @@ d_luxembourg = {
 		succession_laws = { male_only_law }
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov54
 		de_jure_liege = k_frisia
+		liege = e_france
 	}
 	1814.4.11 = {
 		holder = 8000001
@@ -293,7 +294,7 @@ c_luxembourg = {
 	}
 
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov54
 	}
 	1814.4.11 = {
 		holder = 8000001
@@ -385,7 +386,7 @@ c_bouillon = {
 	}
 
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov54
 	}
 	1814.4.11 = {
 		holder = 8000001
@@ -504,7 +505,7 @@ c_liege = {
 	}
 
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov54
 	}
 	1814.4.11 = {
 		holder = 8000001
@@ -621,7 +622,7 @@ c_namur = {
 	}
 
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov54
 	}
 	1814.4.11 = {
 		holder = 8000001
@@ -751,7 +752,7 @@ c_brabant = {
 		holder = 487044 #Jan III
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov54
 	}
 	1814.4.11 = {
 		holder = 8000001
@@ -880,7 +881,7 @@ c_antwerpen = {
 		holder = 487044 #Jan III
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov54
 	}
 	1814.4.11 = {
 		holder = 8000001
@@ -978,7 +979,7 @@ c_hainaut = {
 	}
 
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov54
 	}
 	1814.4.11 = {
 		holder = 8000001
@@ -1076,7 +1077,7 @@ c_cambray = {
 	}
 
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov54
 	}
 	1814.4.11 = {
 		de_jure_liege = d_valois
@@ -1192,7 +1193,7 @@ c_aachen = {
 	
 
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov54
 	}
 	1814.4.11 = {
 		holder = 9000013
@@ -1279,7 +1280,7 @@ c_cleves = {
 		holder = 462920 #Dietrich VIII
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov54
 	}
 	1814.4.11 = {
 		holder = 9000013
@@ -1379,7 +1380,7 @@ c_maastricht = {
 	
 
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov54
 	}
 	1814.4.11 = {
 		holder = 8000001
@@ -1490,7 +1491,7 @@ d_upper_lorraine = {
 		holder = 0
 	}
 	1814.4.6 = {
-		holder = 8000000
+		holder = fragov53
 	}
 }
 
@@ -1571,7 +1572,7 @@ c_trier = {
 		de_jure_liege = d_lower_lorraine
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov54
 	}
 	1815.7.8 = {
 		holder = 9000013
@@ -1673,10 +1674,7 @@ c_nancy = {
 	}
 
 	1804.5.18 = {
-		holder = 9000001
-	}
-	1814.4.6 = {
-		holder = 8000000
+		holder = fragov53
 	}
 }
 
@@ -1798,10 +1796,7 @@ c_metz = {
 		holder = 31665 #Adhemar de Monteil
 	}
 	1804.5.18 = {
-		holder = 9000001
-	}
-	1814.4.6 = {
-		holder = 8000000
+		holder = fragov53
 	}
 }
 
@@ -1954,7 +1949,7 @@ c_saarbrucken = {
 		de_jure_liege = d_lower_lorraine
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov54
 	}
 	1814.4.11 = {
 		holder = 9000018
@@ -2079,10 +2074,7 @@ c_puttlingen = {
 		holder = 31665 #Adhemar de Monteil
 	}
 	1804.5.18 = {
-		holder = 9000001
-	}
-	1814.4.6 = {
-		holder = 8000000
+		holder = fragov53
 	}
 }
 
@@ -2181,10 +2173,7 @@ c_neufchateau = {
 	}
 
 	1804.5.18 = {
-		holder = 9000001
-	}
-	1814.4.6 = {
-		holder = 8000000
+		holder = fragov53
 	}
 }
 
@@ -2393,7 +2382,7 @@ c_cologne = {
 		holder = 487032 #Walram von Jülich
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov54
 	}
 	1814.4.11 = {
 		holder = 9000013
@@ -2506,7 +2495,7 @@ c_dortmund = {
 		holder = 487032 #Walram von Jülich
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov54
 	}
 	1814.4.11 = {
 		holder = 9000013
@@ -2823,7 +2812,7 @@ c_koblenz = {
 	}
 
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov54
 	}
 	1814.4.11 = {
 		holder = 9000013

@@ -1,0 +1,53 @@
+﻿5900000 = {
+	name = "Charles"
+	dynasty = maxwell
+	culture = english
+	religion = protestant
+	1775.1.1 = {
+		birth = yes
+	}
+	1811.7.1 = {
+		effect = {
+			add_realm_law_skip_effects = city_succession_law
+		}
+	}
+	1848.9.23 = {
+		death = yes
+	}
+}
+
+5900001 = {
+	name = "Henry"
+	dynasty = campbell3
+	culture = english
+	religion = protestant
+	1798.7.8 = {
+		birth = yes
+	}
+	1835.1.1 = {
+		effect = {
+			add_realm_law_skip_effects = city_succession_law
+		}
+	}
+	1872.4.1 = {
+		death = yes
+	}
+}
+
+5900002 = {
+	name = "George"
+	dynasty = maclean
+	culture = english
+	religion = protestant
+	1801.2.2 = {
+		birth = yes
+	}
+	1830.2.19 = {
+		effect = {
+			add_realm_law_skip_effects = city_succession_law
+		}
+	}
+	1847.5.22 = {
+		death = yes
+	}
+}

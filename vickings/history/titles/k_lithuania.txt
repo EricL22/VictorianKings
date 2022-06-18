@@ -42,10 +42,8 @@ k_lithuania = {
 
 d_latgalians = {
 	1801.3.23 = {
-		holder = 9000014
-	}
-	1825.12.1 = {
-		holder = 9179601
+		holder = rusgov3
+		liege = e_russia
 	}
 }
 
@@ -131,10 +129,8 @@ d_lithuanians = {
 	}
 
 	1801.3.23 = {
-		holder = 9000014
-	}
-	1825.12.1 = {
-		holder = 9179601
+		holder = rusgov5
+		liege = e_russia
 	}
 }
 
@@ -1335,10 +1331,8 @@ d_courland = {
 	}
 
 	1801.3.23 = {
-		holder = 9000014
-	}
-	1825.12.1 = {
-		holder = 9179601
+		holder = rusgov2
+		liege = e_russia
 	}
 }
 
@@ -2096,10 +2090,8 @@ d_samogitia = {
 	}
 
 	1801.3.23 = {
-		holder = 9000014
-	}
-	1825.12.1 = {
-		holder = 9179601
+		holder = rusgov1
+		liege = e_russia
 	}
 }
 

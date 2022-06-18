@@ -1287,6 +1287,10 @@ d_karelia = {
 	1801.3.23 = {
 		de_jure_liege = k_sapmi
 	}
+	1812.1.1 = {
+		holder = rusgov12
+		liege = e_russia
+	}
 }
 
 
@@ -2316,6 +2320,10 @@ c_viena = {
 		holder = 125260
 	}
 
+	1812.1.1 = {
+		holder = rusgov13
+		liege = e_russia
+	}
 }
 
 

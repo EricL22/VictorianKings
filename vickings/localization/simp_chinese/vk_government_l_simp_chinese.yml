@@ -31,13 +31,13 @@
 
  republic_election.6.desc:0 "[victor.GetFullName]在总统辩论中击败了反对派，证明他有能力领导这个国家。 选举投票标志着他的胜利，国家进入了一个新时代。"
 
- republic_election.7.t:0 "Election - The Vice President"
- republic_election.7.desc:0 "According to the constitution of our realm, we must elect a vice president to run alongside [root_election_candidate.GetFullName] and succeed the president should he become unable to fulfill his duties in office."
- republic_election.7.a:0 "[candidate_1.GetFullName] sounds like an ideal choice."
- republic_election.7.b:0 "[candidate_2.GetFullName] seems solid."
- republic_election.7.c:0 "[candidate_3.GetFullName] will do."
+ republic_election.7.t:0 "选举 - 副总统"
+ republic_election.7.desc:0 "以我国之宪法，必选副总统一人与[root_election_candidate.GetFullName]支持，总统不得行其职而代之。"
+ republic_election.7.a:0 "[candidate_1.GetFullName]闻之，若所欲择。"
+ republic_election.7.b:0 "[candidate_2.GetFullName]似乎坚固。"
+ republic_election.7.c:0 "[candidate_3.GetFullName]可以。"
 
- republic_election.8.desc:0 "According to the constitution of our realm, we must elect a vice president to run alongside [opposing_election_candidate.GetFullName] and succeed the president should he become unable to fulfill his duties in office."
+ republic_election.8.desc:0 "以我国之宪法，必选副总统一人与[opposing_election_candidate.GetFullName]支持，总统不得行其职而代之。"
 
  republic_election.10.t:0 "选举 - 提名"
  republic_election.10.opponent_nomination.desc:0 "我已被提名竞选[root_election_candidate.GetFullName]以控制总统职位。"
@@ -50,8 +50,8 @@
  term_limit_7:0 "七年"
  term_limit_off:0 "没有任何"
  enact_term_limit:0 "设置两次选举之间的时间长度。 请注意，它们是全局触发的，不依赖于您何时更改此设置。"
- hierarchy_city_succession_law:1 "Hierarchical Republican"
- hierarchy_city_succession_law_effects:0 "#V $hierarchy_city_succession_law$ [succession] allows for a more structured method of realm inheritance, should the current ruler die.#!\n\n#weak Upon succession all of the ruler's [titles|e] will be given to a designated successor.#!"
+ hierarchy_city_succession_law:1 "分层共和"
+ hierarchy_city_succession_law_effects:0 "#V $hierarchy_city_succession_law$ [succession]更有条理继承制，如今统治者死。#!\n\n#weak 在继承中，统治者之所有[titles|e]授指为继者。#!"
 
  MY_REALM_WINDOW_REFORM_TAB:0 "改革"
  MY_REALM_WINDOW_POLITICAL_REFORM:0 "政治改革"
@@ -61,6 +61,6 @@
  enact_admin_feudal:0 "将行政事务委托给半自治的封臣"
  enact_admin_centralized:0 "限制封臣宣战或加入其他战争，无论他们的[feudal_contract|E]如何"
 
- vice_president_court_position:0 "Vice President"
- vice_president_court_position_desc:1 "The $vice_president_court_position$ is elected together with the president and is the first in the republican line of succession, should the president die in office."
- vice_president_employer_custom_effect_description:2 "Insures the security of the presidential office"
+ vice_president_court_position:0 "副总统"
+ vice_president_court_position_desc:1 "$vice_president_court_position$与总统同选，若总统卒于官，为共和国嗣首。"
+ vice_president_employer_custom_effect_description:2 "保总统办公室之安"

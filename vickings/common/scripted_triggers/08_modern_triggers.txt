@@ -246,9 +246,11 @@ target_conquest_blocked_by_treaty_trigger = {
 }
 
 is_protectorate = {
-	vassal_contract_has_flag = has_princely_contract
-	AND = {
-		vassal_contract_has_flag = religiously_protected
-		vassal_contract_has_flag = vassal_contract_cannot_revoke_titles
+	OR = {
+		vassal_contract_has_flag = has_princely_contract
+		AND = {
+			vassal_contract_has_flag = religiously_protected
+			vassal_contract_has_flag = vassal_contract_cannot_revoke_titles
+		}
 	}
 }

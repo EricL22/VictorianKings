@@ -122,10 +122,8 @@ c_hotin = {
 		liege = d_kiev
 	}
 	1801.3.23 = {
-		holder = 9000014
-	}
-	1825.12.1 = {
-		holder = 9179601
+		holder = rusgov10
+		liege = e_russia
 	}
 }
 
@@ -149,7 +147,8 @@ c_tetina = {
 		liege = d_kiev
 	}
 	1801.3.23 = {
-		holder = 9000014
+		holder = rusgov10
+		liege = e_russia
 	}
 	1815.6.9 = {
 		holder = 9000012
@@ -230,10 +229,8 @@ c_orhei = {
 		liege = "k_pechenegs"
 	}
 	1801.3.23 = {
-		holder = 9000014
-	}
-	1825.12.1 = {
-		holder = 9179601
+		holder = rusgov10
+		liege = e_russia
 	}
 }
 
@@ -260,10 +257,8 @@ c_soroca = {
 		liege = "k_pechenegs"
 	}
 	1801.3.23 = {
-		holder = 9000014
-	}
-	1825.12.1 = {
-		holder = 9179601
+		holder = rusgov10
+		liege = e_russia
 	}
 }
 
@@ -352,10 +347,8 @@ d_bugeac = {
 		holder = 9000011
 	}
 	1812.7.5 = {
-		holder = 9000014
-	}
-	1825.12.1 = {
-		holder = 9179601
+		holder = rusgov10
+		liege = e_russia
 	}
 }
 
@@ -373,6 +366,11 @@ c_tigheci = {
 	1066.1.1 = {
 		holder = 20642
 		liege = "k_pechenegs"
+	}
+
+	1812.1.1 = {
+		holder = rusgov10
+		liege = e_russia
 	}
 }
 
@@ -392,6 +390,11 @@ c_cetatea_alba = {
 		holder = 20641
 		liege = 0
 	}
+
+	1812.1.1 = {
+		holder = rusgov10
+		liege = e_russia
+	}
 }
 
 c_chilia = {
@@ -408,6 +411,11 @@ c_chilia = {
 	1066.1.1 = {
 		holder = 20635
 		liege = "k_pechenegs"
+	}
+
+	1812.1.1 = {
+		holder = rusgov10
+		liege = e_russia
 	}
 }
 
@@ -430,6 +438,11 @@ c_lapusna = {
 	1066.1.1 = {
 		holder = 20642
 		liege = "k_pechenegs"
+	}
+
+	1812.1.1 = {
+		holder = rusgov10
+		liege = e_russia
 	}
 }
 

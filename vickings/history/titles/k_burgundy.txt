@@ -773,7 +773,8 @@ d_savoie = {
 		de_jure_liege = k_france
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov66
+		liege = e_france
 	}
 	1815.6.9 = {
 		holder = 9000005 # Vittorio Emanuele I
@@ -861,7 +862,7 @@ c_savoie = {
 		holder = 462154
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov66
 	}
 	1815.6.9 = {
 		holder = 9000005
@@ -946,7 +947,7 @@ c_aosta = {
 		holder = 462154
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov66
 	}
 	1815.6.9 = {
 		holder = 9000005
@@ -1031,7 +1032,7 @@ c_canavese = {
 		holder = 462154
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov66
 	}
 	1815.6.9 = {
 		holder = 9000005
@@ -1690,7 +1691,7 @@ c_geneva = {
 	}
 
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov66
 	}
 	1815.6.9 = {
 		holder = 9000002
@@ -1782,7 +1783,7 @@ c_faucigny = {
 	}
 
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov66
 	}
 	1815.6.9 = {
 		holder = 9000005

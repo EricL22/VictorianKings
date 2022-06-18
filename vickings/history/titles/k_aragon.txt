@@ -277,7 +277,8 @@ c_barcelona = {
 		holder = 460500 # Pere IV de Barcelona
 	}
 	1812.2.1 = {
-		holder = 9000001
+		holder = fragov48
+		liege = e_france
 	}
 	1813.12.11 = {
 		holder = 9000017
@@ -380,7 +381,8 @@ c_urgell = {
 		holder = 460520 # Jaume d'Urgell
 	}
 	1812.2.1 = {
-		holder = 9000001
+		holder = fragov48
+		liege = e_france
 	}
 	1813.12.11 = {
 		holder = 9000017
@@ -500,7 +502,8 @@ c_puigcerda = {
 		holder = 460500 # Pere IV de Barcelona
 	}
 	1812.2.1 = {
-		holder = 9000001
+		holder = fragov48
+		liege = e_france
 	}
 	1813.12.11 = {
 		holder = 9000017
@@ -620,7 +623,8 @@ c_girona = {
 		holder = 460500 # Pere IV de Barcelona
 	}
 	1812.2.1 = {
-		holder = 9000001
+		holder = fragov48
+		liege = e_france
 	}
 	1813.12.11 = {
 		holder = 9000017
@@ -743,7 +747,8 @@ c_lleida = {
 		holder = 460500 # Pere IV de Barcelona
 	}
 	1812.2.1 = {
-		holder = 9000001
+		holder = fragov48
+		liege = e_france
 	}
 	1813.12.11 = {
 		holder = 9000017
@@ -866,7 +871,8 @@ c_tarragona = {
 		holder = 460500 # Pere IV de Barcelona
 	}
 	1812.2.1 = {
-		holder = 9000001
+		holder = fragov48
+		liege = e_france
 	}
 	1813.12.11 = {
 		holder = 9000017

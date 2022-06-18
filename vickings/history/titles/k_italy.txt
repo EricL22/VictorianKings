@@ -1621,7 +1621,7 @@ c_turin = {
 		holder = 462690 # Jacques
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov66
 	}
 	1815.6.9 = {
 		holder = 9000005
@@ -1781,7 +1781,7 @@ c_novara = {
 		liege = d_lombardia
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov66
 	}
 	1815.6.9 = {
 		holder = 9000005
@@ -1858,7 +1858,7 @@ c_cuneo = {
 		holder = 420301 # Tommaso II
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov66
 	}
 	1815.6.9 = {
 		holder = 9000005
@@ -3621,7 +3621,8 @@ c_genoa = {
 		holder = cisalpine0259 # Raffaello Doria (2nd time)
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov49
+		liege = e_france
 	}
 	1815.6.9 = {
 		holder = 9000005
@@ -3646,7 +3647,7 @@ b_monaco = {
 		holder = 73716
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov49
 	}
 	1815.6.9 = {
 		holder = 9000005
@@ -3657,21 +3658,21 @@ b_monaco = {
 }
 
 
-b_savona = {
-	1066.1.1 = {
-		holder = 73700 # House Grimaldi
-	}
-
-	1804.5.18 = {
-		holder = 9000001
-	}
-	1815.6.9 = {
-		holder = 9000005
-	}
-	1831.4.27 = {
-		holder = 8000020
-	}
-}
+#b_savona = {
+#	1066.1.1 = {
+#		holder = 73700 # House Grimaldi
+#	}
+#
+#	1804.5.18 = {
+#		holder = 9000001
+#	}
+#	1815.6.9 = {
+#		holder = 9000005
+#	}
+#	1831.4.27 = {
+#		holder = 8000020
+#	}
+#}
 
 
 c_luni = {
@@ -3749,7 +3750,8 @@ c_luni = {
 		holder = cisalpine0673 # Bernabò Malaspina di Mulazzo, Bishop of Luni
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov50
+		liege = e_france
 	}
 	1815.6.9 = {
 		holder = 9000005
@@ -3759,45 +3761,45 @@ c_luni = {
 	}
 }
 
-b_luni = {
-	1122.1.1 = {
-		government = feudal_government
-		holder = cisalpine0035 # Alberto II Malaspina
-	}
-	1140.1.1 = {
-		holder = cisalpine0037 # Obizzo I 'the Great'
-	}
-	1186.1.1 = {
-		holder = cisalpine0055 # Obizzo II
-	}
-	1190.1.1 = {
-		holder = cisalpine0057 # Corrado I 'the Old'
-	}
-	1254.7.1 = {
-		holder = cisalpine0059 # Federico
-	}
-	1277.4.16 = {
-		holder = cisalpine0063 # Tommaso
-	}
-	1291.1.1 = {
-		holder = cisalpine0064 # Corrado II
-	}
-	1327.1.1 = {
-		holder = cisalpine0066 # Franceschino
-	}
-	1335.1.1 = {
-		holder = cisalpine0068 # Obizzino
-	}
-	1804.5.18 = {
-		holder = 9000001
-	}
-	1815.6.9 = {
-		holder = 9000005
-	}
-	1831.4.27 = {
-		holder = 8000020
-	}
-}
+#b_luni = {
+#	1122.1.1 = {
+#		government = feudal_government
+#		holder = cisalpine0035 # Alberto II Malaspina
+#	}
+#	1140.1.1 = {
+#		holder = cisalpine0037 # Obizzo I 'the Great'
+#	}
+#	1186.1.1 = {
+#		holder = cisalpine0055 # Obizzo II
+#	}
+#	1190.1.1 = {
+#		holder = cisalpine0057 # Corrado I 'the Old'
+#	}
+#	1254.7.1 = {
+#		holder = cisalpine0059 # Federico
+#	}
+#	1277.4.16 = {
+#		holder = cisalpine0063 # Tommaso
+#	}
+#	1291.1.1 = {
+#		holder = cisalpine0064 # Corrado II
+#	}
+#	1327.1.1 = {
+#		holder = cisalpine0066 # Franceschino
+#	}
+#	1335.1.1 = {
+#		holder = cisalpine0068 # Obizzino
+#	}
+#	1804.5.18 = {
+#		holder = fragov50
+#	}
+#	1815.6.9 = {
+#		holder = 9000005
+#	}
+#	1831.4.27 = {
+#		holder = 8000020
+#	}
+#}
 
 
 c_modena = {
@@ -4308,7 +4310,8 @@ c_pisa = {
 		holder = 180085
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov40
+		liege = e_france
 	}
 	1814.6.3 = {
 		holder = 9177209
@@ -4319,98 +4322,98 @@ c_pisa = {
 }
 
 
-b_piombino = {
-	768.1.1 = {
-		holder = 190329 #Faroald
-	}
+#b_piombino = {
+#	768.1.1 = {
+#		holder = 190329 #Faroald
+#	}
 	#846.1.1 = {
 	#	holder = 163070
 	#}
-	846.1.1 = {
-		holder = 168364
-	}
-	1060.1.1 = {
-		holder = 20323
-	}
-	1085.1.1 = {
-		holder = 73442
-	}
-	1100.1.1 = {
-		holder = 73443
-	}
-	1122.1.1 = {
-		holder = 73444
-	}
-	1149.1.1 = {
-		holder = 73445
-	}
-	1169.1.1 = {
-		holder = 213018
-	}
-	1188.1.1 = {
-		holder = 73446
-	}
-	1207.1.1 = {
-		holder = 73447
-	}
-	1221.1.1 = {
-		holder = 73448
-	}
-	1234.1.1 = {
-		holder = 73449
-	}
-	1258.1.1 = {
-		holder = 73450
-	}
-	1285.1.1 = {
-		holder = 73454
-	}
-	1288.1.1 = {
-		holder = 73463
-	}
-	1288.7.1 = {
-		holder = 73464
-	}
-	1289.1.1 = {
-		holder = 73599
-	}
-	1294.1.1 = {
-		holder = 73465
-	}
-	1312.1.1 = {
-		holder = 462611
-	}
-	1313.1.1 = {
-		holder = 73425
-	}
-	1316.1.1 = {
-		holder = 180083
-	}
-	1320.1.1 = {
-		holder = 180090
-	}
-	1325.1.1 = {
-		holder = 462740
-	}
-	1328.4.1 = {
-		holder = 73426
-	}
-	1328.9.1 = {
-		holder = 462740
-	}
-	1329.1.1 = {
-		holder = 180085
-	}
-	1804.5.18 = {
-		holder = 9000001
-	}
-	1814.6.3 = {
-		holder = 9177209
-	}
-	1824.6.18 = {
-		holder = 8000031
-	}
-}
+#	846.1.1 = {
+#		holder = 168364
+#	}
+#	1060.1.1 = {
+#		holder = 20323
+#	}
+#	1085.1.1 = {
+#		holder = 73442
+#	}
+#	1100.1.1 = {
+#		holder = 73443
+#	}
+#	1122.1.1 = {
+#		holder = 73444
+#	}
+#	1149.1.1 = {
+#		holder = 73445
+#	}
+#	1169.1.1 = {
+#		holder = 213018
+#	}
+#	1188.1.1 = {
+#		holder = 73446
+#	}
+#	1207.1.1 = {
+#		holder = 73447
+#	}
+#	1221.1.1 = {
+#		holder = 73448
+#	}
+#	1234.1.1 = {
+#		holder = 73449
+#	}
+#	1258.1.1 = {
+#		holder = 73450
+#	}
+#	1285.1.1 = {
+#		holder = 73454
+#	}
+#	1288.1.1 = {
+#		holder = 73463
+#	}
+#	1288.7.1 = {
+#		holder = 73464
+#	}
+#	1289.1.1 = {
+#		holder = 73599
+#	}
+#	1294.1.1 = {
+#		holder = 73465
+#	}
+#	1312.1.1 = {
+#		holder = 462611
+#	}
+#	1313.1.1 = {
+#		holder = 73425
+#	}
+#	1316.1.1 = {
+#		holder = 180083
+#	}
+#	1320.1.1 = {
+#		holder = 180090
+#	}
+#	1325.1.1 = {
+#		holder = 462740
+#	}
+#	1328.4.1 = {
+#		holder = 73426
+#	}
+#	1328.9.1 = {
+#		holder = 462740
+#	}
+#	1329.1.1 = {
+#		holder = 180085
+#	}
+#	1804.5.18 = {
+#		holder = 9000001
+#	}
+#	1814.6.3 = {
+#		holder = 9177209
+#	}
+#	1824.6.18 = {
+#		holder = 8000031
+#	}
+#}
 
 
 d_toscana = {
@@ -4757,7 +4760,8 @@ c_firenze = {
 		liege = 0
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov23
+		liege = e_france
 	}
 	1814.6.3 = {
 		holder = 9177209
@@ -4768,21 +4772,21 @@ c_firenze = {
 }
 
 
-b_volterra = {
-	1066.1.1 = {
-		holder = 167506 #House Alliata
-	}
-
-	1804.5.18 = {
-		holder = 9000001
-	}
-	1814.6.3 = {
-		holder = 9177209
-	}
-	1824.6.18 = {
-		holder = 8000031
-	}
-}
+#b_volterra = {
+#	1066.1.1 = {
+#		holder = 167506 #House Alliata
+#	}
+#
+#	1804.5.18 = {
+#		holder = 9000001
+#	}
+#	1814.6.3 = {
+#		holder = 9177209
+#	}
+#	1824.6.18 = {
+#		holder = 8000031
+#	}
+#}
 
 c_lucca = {
 	713.1.1 = {
@@ -4909,11 +4913,16 @@ c_lucca = {
 	1804.5.18 = {
 		holder = 9000001
 	}
+	1805.6.23 = {
+		holder = 9100067
+		liege = e_france
+	}
 	# granted to Maria Luisa of Etruria, but revert back to Tuscany
 	# when Marie Louise of Parma dies
 	1815.6.9 = {
 		holder = 9177209
 		# 9200001
+		liege = 0
 	}
 	1824.6.18 = {
 		holder = 8000031
@@ -5031,7 +5040,8 @@ c_arezzo = {
 	#	holder = 0
 	#}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov23
+		liege = e_france
 	}
 	1814.6.3 = {
 		holder = 9177209
@@ -5165,7 +5175,8 @@ c_siena = {
 	}
 
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov33
+		liege = e_france
 	}
 	1814.6.3 = {
 		holder = 9177209
@@ -5317,7 +5328,8 @@ c_orbetello = {
 		holder = 478501
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov33
+		liege = e_france
 	}
 	1814.6.3 = {
 		holder = 9177209

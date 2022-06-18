@@ -1,0 +1,390 @@
+﻿namespace = colonization
+
+# Influx of settlers
+colonization.1 = {
+	type = character_event
+	title = colonization.1.name
+	desc = colonization.1.desc
+	theme = realm
+	left_portrait = {
+		character = scope:colonizer_title.holder
+		animation = idle
+	}
+	right_portrait = {
+		character = root
+		animation = idle
+	}
+
+	trigger = {
+	}
+
+	immediate = {
+	}
+	
+	option = {
+		name = name_i_see
+	}
+}
+## Colonization success
+# Notification message
+colonization.9 = {
+	type = character_event
+	title = colonization.10.name
+	desc = colonization.9.desc
+	theme = realm
+	left_portrait = {
+		character = root
+		animation = idle
+	}
+	right_portrait = {
+		character = scope:the_colonized
+		animation = idle
+	}
+
+	trigger = {
+	}
+
+	immediate = {
+	}
+	
+	option = {
+		name = colonization.9.a
+	}
+}
+# Handles title switching and notification
+colonization.10 = {
+	type = character_event
+	title = colonization.10.name
+	desc = colonization.10.desc
+	theme = realm
+	left_portrait = {
+		character = scope:colonizer_title.holder
+		animation = idle
+	}
+	right_portrait = {
+		character = root
+		animation = idle
+	}
+
+	trigger = {
+	}
+
+	immediate = {
+		remove_list_global_variable = {
+			name = involved_in_colonization
+			target = root
+		}
+	}
+	
+	option = {
+		name = colonization.10.a
+		create_title_and_vassal_change = {
+			type = conquest
+			save_scope_as = change
+			add_claim_on_loss = yes
+		}
+		every_realm_county = {
+			limit = { is_in_list = conquest_colonies }
+			change_title_holder = {
+				holder = scope:colonizer_title.holder
+				change = scope:change
+			}
+		}
+		resolve_title_and_vassal_change = scope:change
+		save_scope_as = the_colonized
+		scope:colonizer_title.holder = { trigger_event = colonization.9 }
+	}
+}
+
+## Actor events
+colonization.11 = {
+	type = character_event
+	title = colonization.11.name
+	desc = colonization.11.desc
+	theme = realm
+	left_portrait = {
+		character = scope:colonizer_title.holder
+		animation = idle
+	}
+	right_portrait = {
+		character = scope:colonize_target
+		animation = idle
+	}
+
+	trigger = {
+	}
+
+	immediate = {
+		random_independent_ruler = {
+			limit = { any_realm_county = { is_in_list = conquest_colonies } }
+			save_scope_as = colonize_target
+		}
+		set_variable = { name = progress_change value = 1 }
+		save_scope_as = root_loc
+	}
+	
+	option = {
+		name = colonization.11.a
+		add_gold = major_gold_value
+		custom_tooltip = {
+			text = colony_progress_change_effect
+		}
+	}
+}
+colonization.12 = {
+	type = character_event
+	title = colonization.12.name
+	desc = colonization.12.desc
+	theme = realm
+	left_portrait = {
+		character = scope:colonizer_title.holder
+		animation = idle
+	}
+	right_portrait = {
+		character = scope:colonize_target
+		animation = idle
+	}
+
+	trigger = {
+	}
+
+	immediate = {
+		set_variable = { name = progress_change value = -1 }
+		save_scope_as = root_loc
+	}
+	
+	option = {
+		name = colonization.12.a
+		add_piety = -250
+		custom_tooltip = {
+			text = colony_progress_change_effect
+		}
+	}
+}
+colonization.13 = {
+	type = character_event
+	title = colonization.13.name
+	desc = colonization.13.desc
+	theme = realm
+	left_portrait = {
+		character = scope:colonizer_title.holder
+		animation = idle
+	}
+	right_portrait = {
+		character = scope:colonize_target
+		animation = idle
+	}
+
+	trigger = {
+	}
+
+	immediate = {
+		set_variable = { name = progress_change value = 2 }
+		save_scope_as = root_loc
+	}
+	
+	option = {
+		name = colonization.13.a
+		custom_tooltip = {
+			text = colony_progress_change_effect
+		}
+	}
+}
+colonization.14 = {
+	type = character_event
+	title = colonization.14.name
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					has_character_flag = settlement_attack
+				}
+				desc = colonization.14.desc.2
+			}
+			desc = colonization.14.desc
+		}
+	}
+	theme = realm
+	left_portrait = {
+		character = scope:colonizer_title.holder
+		animation = idle
+	}
+	right_portrait = {
+		character = scope:colonize_target
+		animation = idle
+	}
+
+	trigger = {
+	}
+
+	immediate = {
+		random = {
+			chance = 33
+			add_character_flag = settlement_attack
+		}
+		set_variable = { name = progress_change value = -2 }
+		save_scope_as = root_loc
+	}
+	
+	option = {
+		name = colonization.14.a
+		custom_tooltip = {
+			text = colony_progress_change_effect
+		}
+	}
+}
+
+## Recipient events
+colonization.101 = {
+	type = character_event
+	title = colonization.101.name
+	desc = colonization.101.desc
+	theme = realm
+	left_portrait = {
+		character = scope:colonizer_title.holder
+		animation = idle
+	}
+	right_portrait = {
+		character = root
+		animation = idle
+	}
+
+	trigger = {
+	}
+
+	immediate = {
+		scope:colonizer_title.holder = { faith = { save_scope_as = colonizing_faith } }
+		save_scope_as = colonize_target
+	}
+	
+	option = {
+		name = colonization.101.a
+		scope:colonizer_title.holder = { trigger_event = colonization.12 }
+		ai_chance = {
+			base = 10
+		}
+	}
+	option = {
+		name = colonization.101.b
+		set_character_faith_with_conversion = scope:colonizing_faith
+		scope:colonizer_title.holder = { trigger_event = colonization.13 }
+		ai_chance = {
+			base = 1
+			modifier = {
+				factor = 0
+				has_trait = zealous
+			}
+		}
+	}
+}
+colonization.102 = {
+	type = character_event
+	title = colonization.102.name
+	desc = colonization.102.desc
+	theme = realm
+	left_portrait = {
+		character = scope:colonizer_title.holder
+		animation = idle
+	}
+	right_portrait = {
+		character = root
+		animation = idle
+	}
+
+	trigger = {
+		scope:colonizer_title.holder = { NOT = { has_character_flag = settlement_attack } }
+	}
+
+	immediate = {
+	}
+	
+	option = {
+		name = colonization.102.a
+		scope:colonizer_title.holder = { trigger_event = colonization.14 }
+	}
+	option = {
+		name = colonization.102.b
+	}
+}
+
+## Invalidation events
+colonization.1000 = {
+	type = character_event
+	title = colonization.1000.name
+	desc = colonization.1000.desc
+	theme = realm
+	left_portrait = {
+		character = root
+		animation = idle
+	}
+	right_portrait = {
+		character = scope:col_tar
+		animation = idle
+	}
+
+	trigger = {
+	}
+
+	immediate = {
+		random_independent_ruler = {
+			limit = { any_realm_county = { is_in_list = conquest_colonies } }
+			save_scope_as = col_tar
+		}
+	}
+	
+	option = {
+		name = name_i_see
+	}
+}
+colonization.1001 = {
+	type = character_event
+	title = colonization.1000.name
+	desc = colonization.1001.desc
+	theme = realm
+	left_portrait = {
+		character = root
+		animation = idle
+	}
+	right_portrait = {
+		character = scope:col_tar
+		animation = idle
+	}
+
+	trigger = {
+	}
+
+	immediate = {
+		random_independent_ruler = {
+			limit = { any_realm_county = { is_in_list = conquest_colonies } }
+			save_scope_as = col_tar
+		}
+	}
+	
+	option = {
+		name = colonization.1001.a
+	}
+}
+colonization.1002 = {
+	type = character_event
+	title = colonization.1000.name
+	desc = colonization.1002.desc
+	theme = realm
+	left_portrait = {
+		character = scope:previous_holder_target
+		animation = idle
+	}
+	right_portrait = {
+		character = root
+		animation = idle
+	}
+
+	trigger = {
+	}
+
+	immediate = {
+	}
+	
+	option = {
+		name = name_i_see
+	}
+}

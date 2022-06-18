@@ -1443,7 +1443,7 @@ c_khachen = {
 		holder = 9000037
 	}
 	1828.2.22 = {
-		holder = 9179601
+		holder = rusgovural04
 	}
 }
 
@@ -1565,7 +1565,7 @@ c_suenik = {
 		holder = 9000037
 	}
 	1828.2.22 = {
-		holder = 9179601
+		holder = rusgovural04
 	}
 }
 
@@ -1766,7 +1766,7 @@ c_dvin = {
 		holder = 9000037
 	}
 	1828.2.22 = {
-		holder = 9179601
+		holder = rusgovural04
 	}
 }
 

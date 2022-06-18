@@ -200,6 +200,7 @@ special_contract = {
 				if = {
 					limit = {
 						scope:vassal = {
+							has_government = feudal_government
 							vassal_contract_obligation_level:feudal_government_taxes < feudal_tax_low_level
 							vassal_contract_obligation_level:feudal_government_levies < feudal_levies_low_level
 						}

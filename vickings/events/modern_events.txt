@@ -865,6 +865,10 @@ moderntimes.19 = {
 					trigger_event = marriage_interaction.0030
 				}
 			}
+			if = {
+				limit = { current_date < 1850.12.1 }
+				add_character_flag = { flag = declare_empire_delay years = 1 }
+			}
 		}
 		if = {
 			limit = { is_ai = no }
@@ -1131,6 +1135,7 @@ moderntimes.25 = {
 				NOT = { has_faith = faith:lamaism }
 			}
 			every_held_title = {
+				limit = { tier > tier_barony }
 				change_title_holder = {
 					holder = scope:bogd_khan
 					change = scope:change
@@ -1629,13 +1634,62 @@ moderntimes.200 = {
 	hidden = yes
 	
 	immediate = {
-			every_vassal_or_below = {
-				limit = {
-					culture = { has_cultural_pillar = heritage_native_american }
-					is_protectorate = yes
-				}
-				change_government = republic_government
-			}
+	spawn_army = {
+		name = "Chinese Pretender Army"
+		uses_supply = no
+		inheritable = no
+		men_at_arms = {
+			type = chu_ko_nu
+			stacks = 6
+		}
+		men_at_arms = {
+			type = light_horsemen
+			stacks = 3
+		}
+		men_at_arms = {
+			type = house_guard
+			stacks = 1
+		}
+		men_at_arms = {
+			type = light_footmen
+			stacks = 7
+		}
+		men_at_arms = {
+			type = armored_footmen
+			stacks = 3
+		}
+		men_at_arms = {
+			type = mangonel
+			stacks = 5
+		}
+		location = capital_province
+	}
+	spawn_army = {
+		name = "Chinese Pretender Army"
+		uses_supply = no
+		inheritable = no
+		men_at_arms = {
+			type = chu_ko_nu
+			stacks = 6
+		}
+		men_at_arms = {
+			type = light_horsemen
+			stacks = 3
+		}
+		men_at_arms = {
+			type = house_guard
+			stacks = 1
+		}
+		men_at_arms = {
+			type = light_footmen
+			stacks = 7
+		}
+		men_at_arms = {
+			type = armored_footmen
+			stacks = 3
+		}
+		location = capital_province
+	}
 	}
 }
 
@@ -1751,6 +1805,20 @@ moderntimes.400 = {
 					}
 				}
 			}
+		}
+	}
+}
+# Nor do they register changes in realm laws...
+moderntimes.401 = {
+	type = character_event
+	hidden = yes
+
+	immediate = {
+		if = {
+			limit = {
+				NOT = { has_realm_law = male_only_law }
+			}
+			add_realm_law_skip_effects = male_only_law
 		}
 	}
 }

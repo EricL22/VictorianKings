@@ -1713,7 +1713,7 @@ c_shirvan = {
 		holder = 144574
 	}
 	1828.2.22 = {
-		holder = 9179601
+		holder = rusgovural04
 	}
 }
 
@@ -1853,7 +1853,7 @@ c_shaki = {
 		holder = 144574
 	}
 	1828.2.22 = {
-		holder = 9179601
+		holder = rusgovural04
 	}
 }
 
@@ -1978,7 +1978,7 @@ c_aran = {
 		holder = 146124
 	}
 	1828.2.22 = {
-		holder = 9179601
+		holder = rusgovural04
 	}
 }
 

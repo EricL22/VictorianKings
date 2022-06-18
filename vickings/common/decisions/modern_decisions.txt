@@ -1085,6 +1085,7 @@ restore_french_empire_decision = {
 				target = flag:second_french_empire
 			}
 		}
+		NOT = { has_character_flag = declare_empire_delay }
 	}
 
 	is_valid = {

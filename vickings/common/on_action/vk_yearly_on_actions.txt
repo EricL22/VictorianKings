@@ -176,7 +176,7 @@ vk_yearly_playable_pulse_effects = {
 				is_independent_ruler = yes
 			}
 			random = {
-				chance = 10
+				chance = 50
 				culture = { add_innovation = innovation_nationalism_n_imperialism }
 			}
 		}

@@ -1,0 +1,153 @@
+﻿# Empty scope
+colonization_events_cycle = {
+	effect = {
+		# Should things invalidate?
+		if = {
+			limit = {
+				NOT = { exists = scope:colonizer_title.holder }
+			}
+			scope:colonizer_title.previous_holder = {	# should always exist
+				if = {
+					limit = {
+						is_alive = yes
+						is_landed = yes
+					}
+					if = {
+						limit = {
+							NAND = {
+								highest_held_title_tier > tier_duchy
+								is_independent_ruler = yes
+							}
+						}
+						trigger_event = colonization.1000
+					}
+					else_if = {
+						limit = { has_government = tribal_government }
+						trigger_event = colonization.1001
+					}
+					else = {	# it's all good, carry on
+						primary_title = { save_scope_as = colonizer_title }
+					}
+				}
+				else = {
+					save_scope_as = previous_holder_target
+					every_independent_ruler = {
+						limit = { any_realm_county = { is_in_list = conquest_colonies } }
+						trigger_event = colonization.1002
+					}
+				}
+			}
+		}
+		# If there still is no scope saved, remove all from the global list
+		if = {
+			limit = {
+				NOT = { exists = scope:colonizer_title.holder }
+			}
+			every_independent_ruler = {
+				limit = { any_realm_county = { is_in_list = conquest_colonies } }
+				remove_list_global_variable = {
+					name = involved_in_colonization
+					target = this
+				}
+			}
+		}
+		# Has the colonizer cancelled colonization?
+		if = {
+			limit = {
+				exists = scope:colonizer_title.holder
+				any_independent_ruler = {
+					any_realm_county = { is_in_list = conquest_colonies }
+					scope:colonizer_title.holder = {
+						has_variable = end_colonization
+						var:end_colonization = prev
+					}
+				}
+			}
+			every_independent_ruler = {
+				limit = {
+					any_realm_county = { is_in_list = conquest_colonies }
+					scope:colonizer_title.holder = {
+						has_variable = end_colonization
+						var:end_colonization = prev
+					}
+				}
+				every_realm_county = {
+					limit = { is_in_list = conquest_colonies }
+					remove_from_list = conquest_colonies
+				}
+				scope:colonizer_title.holder = { save_scope_as = previous_holder_target }
+				trigger_event = colonization.1002
+			}
+		}
+		# If not, run the usual.
+		if = {
+			limit = {
+				exists = scope:colonizer_title.holder
+				scope:colonizer_title.holder = { list_size = { name = conquest_colonies value > 0 } }
+			}
+			every_independent_ruler = {
+				limit = { any_realm_county = { is_in_list = conquest_colonies } }
+				set_variable = {
+					name = colonized_by
+					value = scope:colonizer_title.holder
+				}
+			}
+			if = {
+				limit = { scope:colonizer_title.holder = { has_variable = progress_change } }
+				save_scope_value_as = { name = colony_current_progress value = { value = scope:colony_current_progress add = scope:colonizer_title.holder.var:progress_change } }
+				scope:colonizer_title.holder = { remove_variable = progress_change }
+			}
+			if = {
+				limit = {
+					scope:colony_current_progress = { compare_value >= scope:colony_total_time }
+				}
+				every_independent_ruler = {
+					limit = { any_realm_county = { is_in_list = conquest_colonies } }
+					trigger_event = { id = colonization.10 days = 1 }
+				}
+			}
+			else = {
+				random_list = {
+					50 = {
+						scope:colonizer_title.holder = {
+							trigger_event = { on_action = colonization_events_cycle_actor_events days = { 1 30 } }
+						}
+					}
+					50 = {
+						# should fire different events, different times
+						every_independent_ruler = {
+							limit = { any_realm_county = { is_in_list = conquest_colonies } }
+							trigger_event = { on_action = colonization_events_cycle_recipient_events days = { 1 30 } }
+						}
+					}
+				}
+				trigger_event = { on_action = colonization_monthly_pulse months = 1 }
+			}
+		}
+	}
+}
+
+# Character scope
+colonization_events_cycle_actor_events = {
+	random_events = {
+		500 = 0
+		100 = colonization.11
+	}
+}
+
+# Character scope
+colonization_events_cycle_recipient_events = {
+	random_events = {
+		500 = 0
+		100 = colonization.101
+		100 = colonization.102
+	}
+}
+
+# Empty scope
+colonization_monthly_pulse = {
+	effect = {
+		save_scope_value_as = { name = colony_current_progress value = { value = scope:colony_current_progress add = 1 } }
+		trigger_event = { on_action = colonization_events_cycle }
+	}
+}

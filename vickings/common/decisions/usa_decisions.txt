@@ -1,0 +1,83 @@
+﻿indian_removal_act_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_destiny_goal.dds"
+	ai_check_interval = 24
+	desc = indian_removal_act_desc
+	major = yes
+
+	is_shown = {
+		has_title = title:e_united_states
+		current_date > 1828.1.1
+		NOT = {  #Can only do it once.
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:indian_removal_signed
+			}
+		}
+	}
+
+	is_valid = {
+		prestige >= minor_prestige_value
+	}
+
+	is_valid_showing_failures_only = {
+		is_capable_adult = yes
+		is_imprisoned = no
+	}
+
+	effect = {
+		custom_tooltip = {
+			text = indian_removal_effect
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:indian_removal_signed
+			}
+		}
+		if = {
+			limit = { is_ai = yes }
+			add_to_global_variable_list = {
+				name = indian_territory
+				target = title:d_oklahoma
+			}
+			every_independent_ruler = {
+				limit = {
+					any_realm_county = { target_is_de_jure_liege_or_above = title:d_arkansas }
+					any_realm_county = { target_is_de_jure_liege_or_above = title:d_oklahoma }
+				}
+				root = {
+					start_war = {
+						cb = multiple_duchy_de_jure_cb
+						target = prev
+						target_title = title:d_arkansas
+						target_title = title:d_oklahoma
+					}
+				}
+			}
+			every_independent_ruler = {
+				limit = {
+					any_realm_county = { target_is_de_jure_liege_or_above = title:d_oklahoma }
+					NOT = { is_at_war_with = root }
+				}
+				root = {
+					start_war = {
+						cb = individual_duchy_de_jure_cb
+						target = prev
+						target_title = title:d_oklahoma
+					}
+				}
+			}
+		}
+	}
+	
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+		modifier = {
+			factor = 0
+			NOT = { has_character_flag = liberal_party }
+			has_government = republic_government
+		}
+	}
+}

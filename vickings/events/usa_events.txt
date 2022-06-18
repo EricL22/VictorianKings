@@ -1,0 +1,208 @@
+﻿namespace = united_states
+
+# Assign to territory
+united_states.1 = {
+	type = character_event
+	title = united_states.1.name
+	desc = united_states.1.desc
+	theme = realm
+	left_portrait = {
+		character = root
+		animation = idle
+	}
+
+	trigger = {
+		any_in_list = {
+			list = new_republics
+			any_sub_realm_county = {
+				any_neighboring_county = {
+					OR = {
+						holder = {
+							highest_held_title_tier = tier_duchy
+							is_vassal_of = root
+						}
+						holder.liege = {
+							highest_held_title_tier = tier_duchy
+							is_vassal_of = root
+						}
+					}
+				}
+			}
+		}
+	}
+
+	immediate = {
+		random_in_list = {
+			list = new_republics
+			limit = {
+				any_sub_realm_county = {
+					any_neighboring_county = {
+						OR = {
+							holder = {
+								highest_held_title_tier = tier_duchy
+								is_vassal_of = root
+							}
+							holder.liege = {
+								highest_held_title_tier = tier_duchy
+								is_vassal_of = root
+							}
+						}
+					}
+				}
+			}
+			# assuming they are all one-province realms...
+			random_sub_realm_county = {
+				random_neighboring_county = {
+					limit = {
+						OR = {
+							holder = {
+								highest_held_title_tier = tier_duchy
+								is_vassal_of = root
+							}
+							holder.liege = {
+								highest_held_title_tier = tier_duchy
+								is_vassal_of = root
+							}
+						}
+					}
+					if = {
+						limit = {
+							holder = {
+								highest_held_title_tier = tier_duchy
+								is_vassal_of = root
+							}
+						}
+						holder = { save_scope_as = territory_option }
+					}
+					else = {
+						holder.liege = { save_scope_as = territory_option }
+					}
+				}
+			}
+		}
+		scope:territory_option.primary_title = { save_scope_as = terr_title }
+	}
+	
+	option = {
+		name = united_states.1.a
+		create_title_and_vassal_change = {
+			type = swear_fealty
+			save_scope_as = change
+			add_claim_on_loss = no
+		}
+		every_in_list = {
+			list = new_republics
+			change_liege = {
+				liege = scope:territory_option
+				change = scope:change
+			}
+		}
+		resolve_title_and_vassal_change = scope:change
+	}
+	option = {
+		name = united_states.1.b
+		custom_tooltip = {
+			text = united_states.1.b.tooltip
+			trigger_event = { id = united_states.1 }
+		}
+	}
+}
+
+# Assign to reservation
+united_states.2 = {
+	type = character_event
+	hidden = yes
+
+	immediate = {
+		while = {
+			limit = {
+				any_realm_county = {
+					OR = {
+						AND = {
+							scope:low_concessions = yes
+							scope:recipient = { var:count_transferred = { compare_value < 1 } }
+						}
+						AND = {
+							scope:medium_concessions = yes
+							scope:recipient = { var:count_transferred = { compare_value < 3 } }
+						}
+						AND = {
+							scope:high_concessions = yes
+							scope:recipient = { var:count_transferred = { compare_value < 6 } }
+						}
+					}
+					is_leased_out = no
+					NOT = { holder = { is_protectorate = yes } }
+					save_temporary_scope_as = county_check
+					any_in_global_list = {
+						variable = indian_territory
+						is_de_jure_liege_or_above_target = scope:county_check
+					}
+				}
+			}
+			if = {
+				limit = {
+					any_realm_county = {
+						is_leased_out = no
+						NOT = { holder = { is_protectorate = yes } }
+						save_temporary_scope_as = county_check
+						any_in_global_list = {
+							variable = indian_territory
+							is_de_jure_liege_or_above_target = scope:county_check
+						}
+						any_neighboring_county = {
+							holder = scope:recipient
+						}
+					}
+				}
+				random_realm_county = {
+					limit = {
+						is_leased_out = no
+						NOT = { holder = { is_protectorate = yes } }
+						save_temporary_scope_as = county_check
+						any_in_global_list = {
+							variable = indian_territory
+							is_de_jure_liege_or_above_target = scope:county_check
+						}
+						any_neighboring_county = {
+							holder = scope:recipient
+						}
+					}
+					create_title_and_vassal_change = {
+						type = granted
+						save_scope_as = change
+					}
+					change_title_holder = {
+						holder = scope:recipient
+						change = scope:change
+					}
+					resolve_title_and_vassal_change = scope:change
+				}
+			}
+			else = {
+				random_realm_county = {
+					limit = {
+						is_leased_out = no
+						NOT = { holder = { is_protectorate = yes } }
+						save_temporary_scope_as = county_check
+						any_in_global_list = {
+							variable = indian_territory
+							is_de_jure_liege_or_above_target = scope:county_check
+						}
+					}
+					create_title_and_vassal_change = {
+						type = granted
+						save_scope_as = change
+					}
+					change_title_holder = {
+						holder = scope:recipient
+						change = scope:change
+					}
+					resolve_title_and_vassal_change = scope:change
+				}
+			}
+			scope:recipient = { change_variable = { name = count_transferred add = 1 } }
+		}
+		scope:recipient = { remove_variable = count_transferred }
+	}
+}

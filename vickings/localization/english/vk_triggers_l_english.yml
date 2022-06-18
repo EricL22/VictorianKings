@@ -8,6 +8,12 @@
  reform_independent_requirement:0 "You must be an independent ruler to pass reforms"
  centralized_no_free_war_contract:0 "Only Protectorates can independently declare war in a centralized state"
  peninsular_war_blocked_execution:0 "Blocked by event war"
- claim_blocked_by_treaty:0 "Your [top_liege|E] has signed a treaty with a foreign power preventing you from claiming this territory"
+ claim_blocked_by_treaty:0 "Your realm has signed a treaty with a foreign power preventing you from claiming this territory"
 
  MY_PRESTIGE_LEVEL_IS_NOT_AT_LEAST_FOUR:1 "Your [prestige_level|E] is not high enough"
+
+ NOT_initiate_colonization_neighboring_condition:0 "[CHARACTER.GetShortUIName|U] is not a neighboring ruler"
+ NOT_initiate_colonization_already_colonizing_condition:0 "[CHARACTER.GetShortUINamePossessive|U] realm is already undergoing colonization"
+ NOT_initiate_colonization_geographical_region_condition:0 "You do not have the appropriate technology to colonize this region"
+ NOT_sign_removal_treaty_interaction_territory_requirement:0 "Must be a non-reservation county in Indian Territory"
+ CHARACTER_HAS_HIGHER_CROWN_AUTHORITY:0 "[CHARACTER.GetShortUIName|U] does not have the lowest possible [crown_authority|E]"

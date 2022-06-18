@@ -182,7 +182,7 @@ congress_of_vienna.1 = {
 			limit = {
 				any_held_title = { this = title:e_france }
 			}
-			depose = yes
+			trigger_event = { id = congress_of_vienna.7 days = 1 }
 		}
 
 		ai_chance = {
@@ -368,36 +368,33 @@ congress_of_vienna.1 = {
 			}
 		}
 
-		if = {
-			limit = {
-				title:c_lubeck.holder = { is_vassal_or_below_of = scope:defender }
-			}
-			title:c_lubeck.holder = {
-				becomes_independent = { change = scope:title_change }
+		create_character = {
+			location = root.capital_province
+			template = pool_repopulate_stewardship
+			culture = culture:lowersaxon
+			faith = faith:protestant
+			gender = male
+			save_scope_as = lubeck_fixer
+		}
+		title:c_lubeck = {
+			change_title_holder = {
+				holder = scope:lubeck_fixer
+				change = scope:title_change
 			}
 		}
-		else = {
-			create_character = {
-				location = root.capital_province
-				template = pool_repopulate_stewardship
-				culture = culture:lowersaxon
-				faith = root.faith
-				gender = male
-				save_scope_as = lubeck_fixer
-			}
-			title:c_lubeck = {
-				change_title_holder = {
-					holder = scope:lubeck_fixer
-					change = scope:title_change
-				}
-			}
+
+		create_character = {
+			location = root.capital_province
+			template = pool_repopulate_stewardship
+			culture = culture:lowersaxon
+			faith = faith:protestant
+			gender = male
+			save_scope_as = hamburg_mayor
 		}
-		if = {
-			limit = {
-				title:c_hamburg.holder = { is_vassal_or_below_of = scope:defender }
-			}
-			title:c_hamburg.holder = {
-				becomes_independent = { change = scope:title_change }
+		title:c_hamburg = {
+			change_title_holder = {
+				holder = scope:hamburg_mayor
+				change = scope:title_change
 			}
 		}
 
@@ -956,6 +953,21 @@ congress_of_vienna.1 = {
 			}
 			resolve_title_and_vassal_change = scope:changefx
 		}
+		if = {
+			limit = {
+				title:c_hamburg.holder = { is_independent_ruler = no }
+			}
+			create_title_and_vassal_change = {
+				type = independency
+				save_scope_as = changefx
+			}
+			title:c_hamburg.holder = {
+				becomes_independent = { change = scope:changefx }
+			}
+			resolve_title_and_vassal_change = scope:changefx
+		}
+		title:c_lubeck.holder = { change_government = republic_government }
+		title:c_hamburg.holder = { change_government = republic_government }
 		}
 	}
 }
@@ -1247,6 +1259,15 @@ congress_of_vienna.5 = {
 				change = scope:title_change
 			}
 		}
+		title:c_pondicherry = {
+			change_title_holder = {
+				holder = title:e_france.holder
+				change = scope:title_change
+			}
+		}
+		title:d_puducherry = {
+			set_de_jure_liege_title = title:k_france
+		}
 		resolve_title_and_vassal_change = scope:title_change
 		title:e_france.holder = { trigger_event = { id = congress_of_vienna.6 days = 2 } }
 	}
@@ -1313,5 +1334,14 @@ congress_of_vienna.6 = {
 			}
 			set_player_character = scope:bourbon
 		}
+	}
+}
+
+congress_of_vienna.7 = {
+	type = character_event
+	hidden = yes
+	
+	immediate = {
+		depose = yes
 	}
 }

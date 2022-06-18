@@ -495,10 +495,8 @@ c_sandomierska = {
 		holder = 9000033
 	}
 	1815.6.9 = {
-		holder = 9000014
-	}
-	1825.12.1 = {
-		holder = 9179601
+		holder = rusgov38
+		liege = e_russia
 	}
 }
 
@@ -540,10 +538,8 @@ c_stezycka = {
 		holder = 9000033
 	}
 	1815.6.9 = {
-		holder = 9000014
-	}
-	1825.12.1 = {
-		holder = 9179601
+		holder = rusgov36
+		liege = e_russia
 	}
 }
 
@@ -602,10 +598,8 @@ c_radomska = {
 		holder = 9000033
 	}
 	1815.6.9 = {
-		holder = 9000014
-	}
-	1825.12.1 = {
-		holder = 9179601
+		holder = rusgov37
+		liege = e_russia
 	}
 }
 
@@ -667,10 +661,8 @@ c_lubelska = {
 		holder = 9000033
 	}
 	1815.6.9 = {
-		holder = 9000014
-	}
-	1825.12.1 = {
-		holder = 9179601
+		holder = rusgov35
+		liege = e_russia
 	}
 }
 
@@ -1236,10 +1228,8 @@ c_plocka = {
 		holder = 9000033
 	}
 	1815.6.9 = {
-		holder = 9000014
-	}
-	1825.12.1 = {
-		holder = 9179601
+		holder = rusgov40
+		liege = e_russia
 	}
 }
 
@@ -1279,10 +1269,8 @@ c_czerska = {
 		holder = 9000033
 	}
 	1815.6.9 = {
-		holder = 9000014
-	}
-	1825.12.1 = {
-		holder = 9179601
+		holder = rusgov41
+		liege = e_russia
 	}
 }
 
@@ -1322,10 +1310,8 @@ c_gostyninska = {
 		holder = 9000033
 	}
 	1815.6.9 = {
-		holder = 9000014
-	}
-	1825.12.1 = {
-		holder = 9179601
+		holder = rusgov41
+		liege = e_russia
 	}
 }
 
@@ -1367,10 +1353,8 @@ c_lomzynska = {
 		holder = 9000033
 	}
 	1815.6.9 = {
-		holder = 9000014
-	}
-	1825.12.1 = {
-		holder = 9179601
+		holder = rusgov39
+		liege = e_russia
 	}
 }
 
@@ -1412,10 +1396,8 @@ c_zakroczymska = {
 		holder = 9000033
 	}
 	1815.6.9 = {
-		holder = 9000014
-	}
-	1825.12.1 = {
-		holder = 9179601
+		holder = rusgov40
+		liege = e_russia
 	}
 }
 
@@ -2853,10 +2835,8 @@ c_leczycka = {
 		holder = 9000033
 	}
 	1814.4.11 = {
-		holder = 9000014
-	}
-	1825.12.1 = {
-		holder = 9179601
+		holder = rusgov42
+		liege = e_russia
 	}
 }
 
@@ -2893,10 +2873,8 @@ c_sieradzka = {
 		holder = 9000033
 	}
 	1814.4.11 = {
-		holder = 9000014
-	}
-	1825.12.1 = {
-		holder = 9179601
+		holder = rusgov42
+		liege = e_russia
 	}
 }
 

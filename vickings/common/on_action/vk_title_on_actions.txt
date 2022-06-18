@@ -989,22 +989,43 @@ vk_title_gain_effects = {
 				any_liege_or_above = {
 					count = all
 					has_government = republic_government
-					top_liege = { has_title = title:e_united_states }
 				}
+				top_liege = { has_title = title:e_united_states }
 				NOT = { has_government = republic_government }
 				scope:title = { tier >= tier_county }
-				NOT = { has_character_flag = native_reservation_leader }
+				OR = {
+					NOT = { is_protectorate = yes }
+					# if you establish a territorial government on a reservation the reservation is forfeit
+					scope:title = { tier > tier_county }
+				}
 			}
 			change_government = republic_government
+			if = {
+				limit = { NOT = { has_realm_law = city_succession_law } }
+				add_realm_law = city_succession_law
+			}
 			if = {
 				limit = { scope:title.tier = tier_kingdom }
 				every_vassal_or_below = {
 					limit = {
 						NOT = { has_government = republic_government }
 					}
+					capital_province = { set_holding_type = city_holding }
 					change_government = republic_government
+					if = {
+						limit = { NOT = { has_realm_law = city_succession_law } }
+						add_realm_law = city_succession_law
+					}
 				}
 			}
+		}
+
+		if = {
+			limit = {
+				root = character:9200007
+				scope:title = title:k_spain
+			}
+			trigger_event = { id = moderntimes.401 days = 1 }
 		}
 	}
 }

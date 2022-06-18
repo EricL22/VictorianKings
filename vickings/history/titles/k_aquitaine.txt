@@ -165,6 +165,14 @@ d_gascogne = {	#AKA Vasconia
 	1453.10.19 = {
 		de_jure_liege = k_france
 	}
+	# to decrease amount of french vassals
+	1812.1.1 = {
+		holder = fragov9
+		liege = e_france
+	}
+	1814.4.11 = {
+		holder = 0
+	}
 }
 
 c_bordeaux = {
@@ -239,7 +247,8 @@ c_bordeaux = {
 		holder = 454500
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov9
+		liege = e_france
 	}
 	1814.4.11 = {
 		holder = fragov_aquitaine
@@ -344,7 +353,8 @@ c_labourd = {
 		holder = 93823
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov10
+		liege = d_gascogne
 	}
 	1814.4.11 = {
 		holder = fragov_aquitaine
@@ -436,7 +446,8 @@ c_albret = {
 		holder = 455541 #Gaston III de Foix
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov10
+		liege = e_france
 	}
 	1814.4.11 = {
 		holder = fragov_aquitaine
@@ -517,7 +528,8 @@ c_marsan = {
 	}
 	
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov12
+		liege = d_gascogne
 	}
 
 	1814.4.11 = {
@@ -644,7 +656,8 @@ c_agenais = {
 		holder = 138341 #Amanieu de Fargis
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov13
+		liege = d_gascogne
 	}
 	1814.4.11 = {
 		holder = fragov_aquitaine
@@ -767,6 +780,7 @@ d_aquitaine = {
 	}
 	1453.10.19 = {
 		de_jure_liege = k_france
+		holder = 0
 	}
 	1814.4.11 = {
 		holder = fragov_aquitaine
@@ -895,7 +909,8 @@ c_angouleme = {
 		holder = 455810
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov14
+		liege = e_france
 	}
 	1814.4.11 = {
 		holder = fragov_aquitaine
@@ -1002,7 +1017,8 @@ c_perigord = {
 		liege = "d_toulouse"
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov15
+		liege = e_france
 	}
 	1814.4.11 = {
 		holder = fragov_aquitaine
@@ -1083,7 +1099,8 @@ c_limousin = {
 		holder = 455770 #Jeanne de Bretagne
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov16
+		liege = e_france
 	}
 	1814.4.11 = {
 		holder = fragov_aquitaine
@@ -1181,7 +1198,8 @@ c_saintonge = {
 		holder = 455500 # Philippe VI
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov17
+		liege = e_france
 	}
 	1814.4.11 = {
 		holder = fragov_aquitaine
@@ -1267,7 +1285,8 @@ c_aunis = {
 		holder = 205730	#Alienor of Aquitaine
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov18
+		liege = e_france
 	}
 	1814.4.11 = {
 		holder = fragov_aquitaine
@@ -1380,6 +1399,14 @@ d_toulouse = {
 	1453.10.19 = {
 		de_jure_liege = k_france
 	}
+	# to decrease amount of french vassals
+	1812.1.1 = {
+		holder = fragov19
+		liege = e_france
+	}
+	1814.4.11 = {
+		holder = 0
+	}
 }
 
 c_toulouse = {
@@ -1486,7 +1513,8 @@ c_toulouse = {
 		holder = 455500
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov19
+		liege = e_france
 	}
 	1814.4.11 = {
 		holder = fragov_aquitaine
@@ -1597,7 +1625,8 @@ c_quercy = {
 		holder = 455500
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov20
+		liege = d_toulouse
 	}
 	1814.4.11 = {
 		holder = fragov_aquitaine
@@ -1685,7 +1714,8 @@ c_gevaudan = {
 		holder = 138402 #Bishop Albert Lordet
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov21
+		liege = d_toulouse
 	}
 	1814.4.11 = {
 		holder = fragov_aquitaine
@@ -1722,7 +1752,8 @@ c_rouergue = {
 		holder = 223673 #Alphonse Jourdain de Toulouse
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov22
+		liege = d_toulouse
 	}
 	1814.4.11 = {
 		holder = fragov_aquitaine
@@ -1759,7 +1790,8 @@ c_millau = {
 		holder = 223673 #Alphonse Jourdain de Toulouse
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov22
+		liege = e_france
 	}
 	1814.4.11 = {
 		holder = fragov_aquitaine
@@ -1798,7 +1830,8 @@ c_albi = {
 		holder = 205570	#Roger II
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov24
+		liege = e_france
 	}
 	1814.4.11 = {
 		holder = fragov_aquitaine
@@ -1850,7 +1883,8 @@ c_uses = {
 	#House of Aragon
 	#1213 forward
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov25
+		liege = e_france
 	}
 	1814.4.11 = {
 		holder = fragov_aquitaine
@@ -1902,7 +1936,8 @@ c_montpellier = {
 	#House of Aragon
 	#1213 forward
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov26
+		liege = e_france
 	}
 	1814.4.11 = {
 		holder = fragov_aquitaine
@@ -1996,7 +2031,8 @@ c_carcassonne = {
 		holder = 455500
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov27
+		liege = e_france
 	}
 	1814.4.11 = {
 		holder = fragov_aquitaine
@@ -2041,7 +2077,8 @@ c_beziers = {
 		holder = 205570	#Roger II
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov28
+		liege = e_france
 	}
 	1814.4.11 = {
 		holder = fragov_aquitaine
@@ -2107,7 +2144,8 @@ c_foix = {
 		holder = 455541 #Gaston III de Foix
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov29
+		liege = e_france
 	}
 	1814.4.11 = {
 		holder = fragov_aquitaine
@@ -2190,7 +2228,8 @@ c_armagnac = {
 		holder = 455640 #Jean I de lomagne
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov30
+		liege = e_france
 	}
 	1814.4.11 = {
 		holder = fragov_aquitaine
@@ -2309,7 +2348,8 @@ c_bigorre = {
 		holder = 455541 #Gaston III de Foix
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov31
+		liege = e_france
 	}
 	1814.4.11 = {
 		holder = fragov_aquitaine
@@ -2426,7 +2466,8 @@ c_bearn = {
 		holder = 455541 #Gaston III de Foix
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov31
+		liege = e_france
 	}
 	1814.4.11 = {
 		holder = fragov_aquitaine
@@ -2510,7 +2551,8 @@ c_comminges = {
 	}
 	
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov19
+		liege = e_france
 	}
 	1814.4.11 = {
 		holder = fragov_aquitaine
@@ -2528,11 +2570,14 @@ d_auvergne = {
 	1453.10.19 = {
 		de_jure_liege = k_france
 	}
+	# to decrease amount of french vassals
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov34
+		liege = e_france
 	}
 	1814.4.11 = {
 		holder = fragov_aquitaine
+		liege = k_france
 	}
 }
 
@@ -2611,7 +2656,8 @@ c_auvergne = {
 		holder = 455820 #Jeanne d'Auvergne
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov34
+		liege = e_france
 	}
 	1814.4.11 = {
 		holder = fragov_aquitaine
@@ -2694,7 +2740,8 @@ c_clermont_sur_allier = {
 		holder = 455820 #Jeanne d'Auvergne
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov35
+		liege = d_auvergne
 	}
 	1814.4.11 = {
 		holder = fragov_aquitaine
@@ -2776,7 +2823,8 @@ c_thiers = {
 		holder = 455820 #Jeanne d'Auvergne
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov36
+		liege = d_auvergne
 	}
 	1814.4.11 = {
 		holder = fragov_aquitaine
@@ -2865,7 +2913,8 @@ c_velay = {
 		holder = 138402 #Bishop Albert Lordet
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov37
+		liege = d_auvergne
 	}
 	1814.4.11 = {
 		holder = fragov_aquitaine
@@ -2882,11 +2931,14 @@ d_bourbon = {
 	1453.10.19 = {
 		de_jure_liege = k_france
 	}
+	# to decrease amount of french vassals
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov38
+		liege = e_france
 	}
 	1814.4.11 = {
 		holder = fragov_aquitaine
+		liege = k_france
 	}
 }
 
@@ -2953,7 +3005,8 @@ c_bourbon = {
 		holder = 455650
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov38
+		liege = e_france
 	}
 	1814.4.11 = {
 		holder = fragov_aquitaine
@@ -3073,7 +3126,8 @@ c_bellac = {
 		holder = 455650 #Louis de Bourbon
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov39
+		liege = d_bourbon
 	}
 	1814.4.11 = {
 		holder = fragov_aquitaine
@@ -3143,7 +3197,8 @@ c_jaligny = {
 		holder = 455650
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov38
+		liege = e_france
 	}
 	1814.4.11 = {
 		holder = fragov_aquitaine
@@ -3263,7 +3318,8 @@ c_la_marche = {
 		holder = 455650 #Louis de Bourbon
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov41
+		liege = d_bourbon
 	}
 	1814.4.11 = {
 		holder = fragov_aquitaine
@@ -3371,11 +3427,14 @@ d_poitou = {
 	1453.10.19 = {
 		de_jure_liege = k_france
 	}
+	# to decrease amount of french vassals
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov42
+		liege = e_france
 	}
 	1814.4.11 = {
 		holder = fragov_aquitaine
+		liege = k_france
 	}
 }
 
@@ -3436,7 +3495,8 @@ c_poitiers = {
 		holder = 205730	#Alienor of Aquitaine
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov42
+		liege = e_france
 	}
 	1814.4.11 = {
 		holder = fragov_aquitaine
@@ -3535,7 +3595,8 @@ c_lusignan = {
 		liege = "d_bourbon"
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov43
+		liege = d_poitou
 	}
 	1814.4.11 = {
 		holder = fragov_aquitaine
@@ -3658,7 +3719,8 @@ c_montaigu = {
 		liege = "k_england"
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov44
+		liege = d_poitou
 	}
 	1814.4.11 = {
 		holder = fragov_aquitaine
@@ -3777,7 +3839,8 @@ c_thouars = {
 		liege = "k_england"
 	}
 	1804.5.18 = {
-		holder = 9000001
+		holder = fragov45
+		liege = d_poitou
 	}
 	1814.4.11 = {
 		holder = fragov_aquitaine

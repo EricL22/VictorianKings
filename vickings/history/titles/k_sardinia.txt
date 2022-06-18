@@ -21,14 +21,12 @@ d_corsica = {
 	975.1.1 = {
 		holder = 0
 	}
+	1811.1.1 = {
+		holder = fragov51
+		liege = e_france
+	}
 	1814.4.11 = {
-		holder = 8000000
-	}
-	1824.9.16 = {
-		holder = 8100004 # Charles X
-	}
-	1830.8.2 = {
-		holder = 8100031 # Louis-Phillipe I
+		liege = k_france
 	}
 }
 
@@ -129,16 +127,7 @@ c_ajaccio = {
 #	}
 
 	1804.5.18 = {
-		holder = 9000001
-	}
-	1814.4.11 = {
-		holder = 8000000
-	}
-	1824.9.16 = {
-		holder = 8100004 # Charles X
-	}
-	1830.8.2 = {
-		holder = 8100031 # Louis-Phillipe I
+		holder = fragov51
 	}
 }
 
@@ -237,16 +226,7 @@ c_bastia = {
 	}
 
 	1804.5.18 = {
-		holder = 9000001
-	}
-	1814.4.11 = {
-		holder = 8000000
-	}
-	1824.9.16 = {
-		holder = 8100004 # Charles X
-	}
-	1830.8.2 = {
-		holder = 8100031 # Louis-Phillipe I
+		holder = fragov51
 	}
 }
 
@@ -354,16 +334,7 @@ c_vecchio = {
 	}
 
 	1804.5.18 = {
-		holder = 9000001
-	}
-	1814.4.11 = {
-		holder = 8000000
-	}
-	1824.9.16 = {
-		holder = 8100004 # Charles X
-	}
-	1830.8.2 = {
-		holder = 8100031 # Louis-Phillipe I
+		holder = fragov51
 	}
 }
 

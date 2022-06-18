@@ -1,0 +1,6 @@
+﻿l_english:
+ united_states.1.name:0 "Territorial Expansion"
+ united_states.1.desc:0 "With the conquest of new lands, it seems fitting that we assign them to an existing territory for the purposes of administration."
+ united_states.1.a:0 "[terr_title.GetNameNoTier]"
+ united_states.1.b:0 "Choose another territory"
+ united_states.1.b.tooltip:0 "Refresh event options, randomly choosing from a list of adjacent duchy-rank vassals"

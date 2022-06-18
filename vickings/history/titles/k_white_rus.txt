@@ -3,6 +3,13 @@ k_white_rus = {
 	1066.1.1 = { change_development_level = 5 }
 }
 
+d_grodno = {
+	1812.1.1 = {
+		holder = rusgov9
+		liege = e_russia
+	}
+}
+
 c_grodno = {
 	#rulers of Grodno or Novgorodok
 	750.1.1 = {
@@ -550,6 +557,10 @@ c_pinsk = {
 		holder = 302207		#Fictional Dregovichi
 	}
 
+	1812.1.1 = {
+		holder = rusgov8
+		liege = e_russia
+	}
 }
 
 
@@ -582,6 +593,10 @@ c_slutsk = {
 		holder = 302208		#Fictional Izslutska
 	}
 
+	1812.1.1 = {
+		holder = rusgov8
+		liege = e_russia
+	}
 }
 
 
@@ -614,6 +629,10 @@ c_kletsk = {
 		holder = 302207		#Fictional Dregovichi
 	}
 
+	1812.1.1 = {
+		holder = rusgov8
+		liege = e_russia
+	}
 }
 
 
@@ -640,6 +659,10 @@ c_babruysk = {
 		holder = 302208		#Fictional Izslutska
 	}
 
+	1812.1.1 = {
+		holder = rusgov8
+		liege = e_russia
+	}
 }
 
 
@@ -682,6 +705,10 @@ d_minsk = {
 	}
 	1176.1.2 = {	#some confusion around dates here, 1167 often cited, as well as 1182 thus with a hole, and 1176 as Volodar's death
 		holder = 222790	#Vladimir Volodarovich
+	}
+	1812.1.1 = {
+		holder = rusgov8
+		liege = e_russia
 	}
 }
 
@@ -868,6 +895,10 @@ d_polotsk = {
 		holder = 222550		#Vladimir Vseslavich
 	}
 
+	1812.1.1 = {
+		holder = rusgov7
+		liege = e_russia
+	}
 }
 
 
@@ -1153,6 +1184,10 @@ d_smolensk = {
 	}
 	1180.1.2 = {
 		holder = 222570	#David Rostislavich
+	}
+	1812.1.1 = {
+		holder = rusgov26
+		liege = e_russia
 	}
 }
 
@@ -1539,6 +1574,15 @@ c_mozhaysk = {
 	1180.1.2 = {
 		holder = 222570	#David Rostislavich
 	}
+	1708.12.29 = {
+		de_jure_liege = d_opolye
+	}
+	1801.3.23 = {
+		holder = 9000014
+	}
+	1825.12.1 = {
+		holder = 9179601
+	}
 }
 
 
@@ -1614,6 +1658,11 @@ c_toropets = {
 	}
 	1180.1.12 = {
 		holder = 222589	#Mstislav Mstislavich the Bold/Daring
+	}
+
+	# Novgorod Governorate
+	1727.1.1 = {
+		de_jure_liege = d_luki
 	}
 }
 

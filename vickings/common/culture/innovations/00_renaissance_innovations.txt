@@ -45,6 +45,8 @@ innovation_overseas_exploration = {
 		supply_duration = 1.0
 	}
 
+	custom = unlocks_colonization_interaction
+
 	flag = global_regular
 	flag = renaissance_era_regular
 }

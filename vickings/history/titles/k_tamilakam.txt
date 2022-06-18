@@ -748,6 +748,10 @@ d_puducherry = {
 	1814.5.30 = {
 		de_jure_liege = k_france
 	}
+	1835.5.3 = {
+		holder = 8000076
+		liege = k_france
+	}
 }
 
 
@@ -839,6 +843,15 @@ c_pondicherry = {
 	}
 	1675.1.1 = {
 		de_jure_liege = d_puducherry
+	}
+	1793.8.23 = {	# British occupation
+		holder = 9000045
+	}
+	1814.5.30 = {	# Treaty of Paris
+		holder = 8000000
+	}
+	1835.5.3 = {
+		holder = 8000076
 	}
 }
 

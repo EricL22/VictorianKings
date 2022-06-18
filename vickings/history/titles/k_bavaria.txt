@@ -5990,7 +5990,8 @@ d_krain = {
 		de_jure_liege = k_austria
 	}
 	1809.1.1 = {
-		holder = 9000001
+		holder = fragov64
+		liege = e_france
 	}
 	1815.7.8 = {
 		holder = 9000012
@@ -6271,7 +6272,8 @@ d_istria = {
 		de_jure_liege = k_austria
 	}
 	1809.1.1 = {
-		holder = 9000001
+		holder = fragov65
+		liege = e_france
 	}
 	1815.7.8 = {
 		holder = 9000012

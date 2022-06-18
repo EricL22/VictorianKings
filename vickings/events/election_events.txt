@@ -103,6 +103,7 @@ republic_election.2 = {
 			}
 			save_scope_as = candidate_3
 		}
+		# For some reason if you do not explicitly assign the title_province holder in history, no culture can be saved
 		random_culture_global = {
 			limit = { save_temporary_scope_as = cultcheck root = { any_realm_province = { culture = scope:cultcheck } } }
 			save_scope_as = elect_culture
@@ -118,7 +119,7 @@ republic_election.2 = {
 			create_character = {
 				location = root.capital_province
 				template = pool_repopulate_diplomacy
-				random_culture = { root.culture = { } scope:elect_culture = { } }
+				random_culture = { root.culture = { } scope:elect_culture = { trigger = { exists = scope:elect_culture } } }
 				faith = root.faith
 				gender_female_chance = {
 					if = {
@@ -145,7 +146,7 @@ republic_election.2 = {
 			create_character = {
 				location = root.capital_province
 				template = pool_repopulate_stewardship
-				random_culture = { root.culture = { } scope:elect_culture = { } }
+				random_culture = { root.culture = { } scope:elect_culture = { trigger = { exists = scope:elect_culture } } }
 				faith = root.faith
 				gender_female_chance = {
 					if = {
@@ -172,7 +173,7 @@ republic_election.2 = {
 			create_character = {
 				location = root.capital_province
 				template = pool_repopulate_intrigue
-				random_culture = { root.culture = { } scope:elect_culture = { } }
+				random_culture = { root.culture = { } scope:elect_culture = { trigger = { exists = scope:elect_culture } } }
 				faith = root.faith
 				gender_female_chance = {
 					if = {
@@ -199,7 +200,7 @@ republic_election.2 = {
 			create_character = {
 				location = root.capital_province
 				template = pool_repopulate_martial
-				random_culture = { root.culture = { } scope:elect_culture = { } }
+				random_culture = { root.culture = { } scope:elect_culture = { trigger = { exists = scope:elect_culture } } }
 				faith = root.faith
 				gender_female_chance = {
 					if = {
@@ -223,7 +224,7 @@ republic_election.2 = {
 			create_character = {
 				location = root.capital_province
 				template = pool_repopulate_learning
-				random_culture = { root.culture = { } scope:elect_culture = { } }
+				random_culture = { root.culture = { } scope:elect_culture = { trigger = { exists = scope:elect_culture } } }
 				faith = root.faith
 				gender_female_chance = {
 					if = {
@@ -355,6 +356,7 @@ republic_election.3 = {
 			limit = {
 				NOT = { exists = scope:opposing_election_candidate }
 			}
+			# For some reason if you do not explicitly assign the title_province holder in history, no culture can be saved
 			random_culture_global = {
 				limit = { save_temporary_scope_as = cultcheck root = { any_realm_province = { culture = scope:cultcheck } } }
 				save_scope_as = elect_culture
@@ -369,7 +371,7 @@ republic_election.3 = {
 					create_character = {
 						location = root.capital_province
 						template = pool_repopulate_diplomacy
-						random_culture = { root.culture = { } scope:elect_culture = { } }
+						random_culture = { root.culture = { } scope:elect_culture = { trigger = { exists = scope:elect_culture } } }
 						faith = root.faith
 						gender_female_chance = {
 							if = {
@@ -394,7 +396,7 @@ republic_election.3 = {
 					create_character = {
 						location = root.capital_province
 						template = pool_repopulate_stewardship
-						random_culture = { root.culture = { } scope:elect_culture = { } }
+						random_culture = { root.culture = { } scope:elect_culture = { trigger = { exists = scope:elect_culture } } }
 						faith = root.faith
 						gender_female_chance = {
 							if = {
@@ -419,7 +421,7 @@ republic_election.3 = {
 					create_character = {
 						location = root.capital_province
 						template = pool_repopulate_intrigue
-						random_culture = { root.culture = { } scope:elect_culture = { } }
+						random_culture = { root.culture = { } scope:elect_culture = { trigger = { exists = scope:elect_culture } } }
 						faith = root.faith
 						gender_female_chance = {
 							if = {
@@ -444,7 +446,7 @@ republic_election.3 = {
 					create_character = {
 						location = root.capital_province
 						template = pool_repopulate_martial
-						random_culture = { root.culture = { } scope:elect_culture = { } }
+						random_culture = { root.culture = { } scope:elect_culture = { trigger = { exists = scope:elect_culture } } }
 						faith = root.faith
 						gender_female_chance = {
 							if = {
@@ -469,7 +471,7 @@ republic_election.3 = {
 					create_character = {
 						location = root.capital_province
 						template = pool_repopulate_learning
-						random_culture = { root.culture = { } scope:elect_culture = { } }
+						random_culture = { root.culture = { } scope:elect_culture = { trigger = { exists = scope:elect_culture } } }
 						faith = root.faith
 						gender_female_chance = {
 							if = {
@@ -604,6 +606,10 @@ republic_election.4 = {
 					value = scope:duel_value
 					multiplier = 1
 				}
+				modifier = {
+					factor = 2
+					scope:opposing_election_candidate.culture = { cultural_acceptance = { target = scope:root_contested_government.capital_province.culture value < 50 } }
+				}
 				desc = tooltip.republic_election_victory
 				scope:root_election_candidate = { save_scope_as = victor }
 				hidden_effect = {
@@ -631,6 +637,10 @@ republic_election.4 = {
 					factor = 2
 					scope:root_contested_title = { target_is_de_facto_liege_or_above = title:e_united_states }
 					scope:root_election_candidate = { has_character_flag = reactionary_party }
+				}
+				modifier = {
+					factor = 2
+					scope:root_election_candidate.culture = { cultural_acceptance = { target = scope:root_contested_government.capital_province.culture value < 50 } }
 				}
 				desc = tooltip.republic_election_defeat
 				scope:opposing_election_candidate = { save_scope_as = victor }
@@ -825,11 +835,11 @@ republic_election.5 = {
 			scope:victor = { save_scope_as = dead_victor }
 			if = {
 				limit = { scope:victor = scope:root_election_candidate }
-				scope:root_vp_candidate = { save_scope_as = scope:victor }
+				scope:root_vp_candidate = { save_scope_as = victor }
 			}
 			if = {
 				limit = { scope:victor = scope:opposing_election_candidate }
-				scope:opposing_vp_candidate = { save_scope_as = scope:victor }
+				scope:opposing_vp_candidate = { save_scope_as = victor }
 			}
 		}
 	}
@@ -1001,7 +1011,12 @@ republic_election.5 = {
 					}
 				}
 				if = {
-					limit = { NOT = { scope:replace_vp = scope:root_vp_candidate } }
+					limit = {
+						OR = {
+							NOT = { exists = scope:replace_vp }
+							NOT = { scope:replace_vp = scope:root_vp_candidate }
+						}
+					}
 					set_designated_heir = scope:root_vp_candidate
 					add_realm_law = hierarchy_city_succession_law
 				}
@@ -1304,11 +1319,11 @@ republic_election.9 = {
 			scope:victor = { save_scope_as = dead_victor }
 			if = {
 				limit = { scope:victor = scope:root_election_candidate }
-				scope:root_vp_candidate = { save_scope_as = scope:victor }
+				scope:root_vp_candidate = { save_scope_as = victor }
 			}
 			if = {
 				limit = { scope:victor = scope:opposing_election_candidate }
-				scope:opposing_vp_candidate = { save_scope_as = scope:victor }
+				scope:opposing_vp_candidate = { save_scope_as = victor }
 			}
 		}
 	}
@@ -1424,7 +1439,12 @@ republic_election.9 = {
 					}
 				}
 				if = {
-					limit = { NOT = { scope:replace_vp = scope:root_vp_candidate } }
+					limit = {
+						OR = {
+							NOT = { exists = scope:replace_vp }
+							NOT = { scope:replace_vp = scope:root_vp_candidate }
+						}
+					}
 					set_designated_heir = scope:root_vp_candidate
 					add_realm_law = hierarchy_city_succession_law
 				}
@@ -1463,7 +1483,12 @@ republic_election.9 = {
 					}
 				}
 				if = {
-					limit = { NOT = { scope:replace_vp = scope:opposing_vp_candidate } }
+					limit = {
+						OR = {
+							NOT = { exists = scope:replace_vp }
+							NOT = { scope:replace_vp = scope:opposing_vp_candidate }
+						}
+					}
 					set_designated_heir = scope:opposing_vp_candidate
 					add_realm_law = hierarchy_city_succession_law
 				}

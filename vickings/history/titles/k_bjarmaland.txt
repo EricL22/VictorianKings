@@ -17,6 +17,10 @@ d_biarmia = {
 	1100.1.2 = {
 		holder = 0
 	}
+	1812.1.1 = {
+		holder = rusgov13
+		liege = e_russia
+	}
 }
 
 
@@ -176,6 +180,10 @@ c_kargopol = {
 	1210.1.24 = {
 		holder = 302398	#fictional Tiihpo Chudi
 	}
+	1812.1.1 = {
+		holder = rusgov18
+		liege = e_russia
+	}
 }
 
 
@@ -213,6 +221,10 @@ c_kirillov = {
 	}
 	1210.1.24 = {
 		holder = 302398	#fictional Tiihpo Chudi
+	}
+	1812.1.1 = {
+		holder = rusgov18
+		liege = e_russia
 	}
 }
 
@@ -252,8 +264,18 @@ c_totma = {
 	1210.1.24 = {
 		holder = 302398	#fictional Tiihpo Chudi
 	}
+	1812.1.1 = {
+		holder = rusgov18
+		liege = e_russia
+	}
 }
 
+d_vologda = {
+	1812.1.1 = {
+		holder = rusgov18
+		liege = e_russia
+	}
+}
 
 c_vologda = {
 	#867
@@ -467,6 +489,10 @@ c_ustyug = {
 	1186.4.22 = {
 		holder = 302408	#fictional Johora Ustyi
 	}
+	1812.1.1 = {
+		holder = rusgov13
+		liege = e_russia
+	}
 }
 
 
@@ -498,6 +524,10 @@ c_shenkursk = {
 	}
 	1186.4.22 = {
 		holder = 302408	#fictional Johora Ustyi
+	}
+	1812.1.1 = {
+		holder = rusgov13
+		liege = e_russia
 	}
 }
 
@@ -531,6 +561,10 @@ c_velsk = {
 	1186.4.22 = {
 		holder = 302408	#fictional Johora Ustyi
 	}
+	1812.1.1 = {
+		holder = rusgov13
+		liege = e_russia
+	}
 }
 
 
@@ -560,6 +594,10 @@ c_kevrola = {
 	}
 	1193.8.3 = {
 		holder = 302394	#Noumea Angolk
+	}
+	1812.1.1 = {
+		holder = rusgov13
+		liege = e_russia
 	}
 }
 

@@ -1,0 +1,47 @@
+c_amderma = {
+	1812.1.1 = {
+		holder = rusgov13
+		liege = e_russia
+	}
+}
+
+
+c_inta = {
+	1812.1.1 = {
+		holder = rusgov13
+		liege = e_russia
+	}
+}
+
+
+c_mezen = {
+	1812.1.1 = {
+		holder = rusgov13
+		liege = e_russia
+	}
+}
+
+
+c_naryn_mar = {
+	1812.1.1 = {
+		holder = rusgov13
+		liege = e_russia
+	}
+}
+
+
+c_pinega = {
+	1812.1.1 = {
+		holder = rusgov13
+		liege = e_russia
+	}
+}
+
+
+c_ust_tsilma = {
+	1812.1.1 = {
+		holder = rusgov13
+		liege = e_russia
+	}
+}
+

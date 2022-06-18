@@ -56,6 +56,10 @@ d_opolye = {
 	1176.6.20 = {
 		holder = 222670		#Vsevolod III the Big Nest
 	}
+
+	1796.1.1 = {
+		holder = 0
+	}
 }
 
 
@@ -145,7 +149,8 @@ c_yaroslavl = {
 		holder = 222670		#Vsevolod III the Big Nest
 	}
 	1801.3.23 = {
-		holder = 9000014
+		holder = rusgov22
+		liege = e_russia
 	}
 }
 
@@ -236,7 +241,8 @@ c_vladimir = {
 		holder = 222670		#Vsevolod III the Big Nest
 	}
 	1801.3.23 = {
-		holder = 9000014
+		holder = rusgov20
+		liege = e_russia
 	}
 }
 
@@ -327,7 +333,8 @@ c_suzdal = {
 		holder = 222670		#Vsevolod III the Big Nest
 	}
 	1801.3.23 = {
-		holder = 9000014
+		holder = rusgov20
+		liege = e_russia
 	}
 }
 
@@ -404,7 +411,8 @@ c_tver = {
 		holder = 222632	#Sviatoslav II Olgovich
 	}
 	1801.3.23 = {
-		holder = 9000014
+		holder = rusgov21
+		liege = e_russia
 	}
 }
 
@@ -523,9 +531,12 @@ d_ryazan = {
 		holder = 222745		#Roman Glebovich
 	}
 	
-	
-	
 	#1237 ravaged by Batu Khan of the Mongols, Ryazan (the city) is completely destroyed
+	
+	
+	1796.1.1 = {
+		holder = 0
+	}
 }
 
 
@@ -604,7 +615,8 @@ c_ryazan = {
 		holder = 222745		#Roman Glebovich
 	}
 	1801.3.23 = {
-		holder = 9000014
+		holder = rusgov23
+		liege = e_russia
 	}
 }
 
@@ -684,7 +696,8 @@ c_tula = {
 		holder = 222745		#Roman Glebovich
 	}
 	1801.3.23 = {
-		holder = 9000014
+		holder = rusgov24
+		liege = e_russia
 	}
 }
 
@@ -772,10 +785,17 @@ c_murom = {
 		holder = 222775		#Davyd Yuryevich
 	}
 	1801.3.23 = {
-		holder = 9000014
+		holder = rusgov23
+		liege = e_russia
 	}
 }
 
+d_nizhny_novgorod = {
+	1812.1.1 = {
+		holder = rusgov19
+		liege = e_russia
+	}
+}
 
 c_nizhny_novgorod = {
 	###Pre Kievan Rus
@@ -854,7 +874,8 @@ c_nizhny_novgorod = {
 		holder = 222670		#Vsevolod III the Big Nest
 	}
 	1801.3.23 = {
-		holder = 9000014
+		holder = rusgov19
+		liege = e_russia
 	}
 }
 
@@ -942,7 +963,8 @@ c_plyos = {
 		holder = 222670		#Vsevolod III the Big Nest
 	}
 	1801.3.23 = {
-		holder = 9000014
+		holder = rusgov19
+		liege = e_russia
 	}
 }
 
@@ -1030,7 +1052,8 @@ c_manturovo = {
 		holder = 222670		#Vsevolod III the Big Nest
 	}
 	1801.3.23 = {
-		holder = 9000014
+		holder = rusgov19
+		liege = e_russia
 	}
 }
 

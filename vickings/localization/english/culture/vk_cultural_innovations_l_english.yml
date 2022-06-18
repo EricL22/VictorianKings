@@ -3,6 +3,8 @@
  same_culture_none_factionalism_double_different:0 "[vassals|E] of your [culture|E] are no longer inclined to join [independence_factions|E], but those of a different culture will be much more inclined"
  unlocks_protectorate_interaction:0 "Unlocks the $offer_protectorate_interaction$ [interaction|E]"
  absolutism_vassal_restriction:0 "Unlocks the #P Government Reforms#!"
+ unlocks_colonization_interaction:0 "Unlocks the $initiate_colonization_interaction$ [interaction|E]"
+ unlocks_colonization_in_africa:0 "Unlocks colonization in Africa"
 
 #####################
 # Renaissance Era #

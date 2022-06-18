@@ -159,7 +159,7 @@
 				}
 			}
 			NOT = {
-				culture = scope:target.culture
+				culture = { has_same_culture_language = scope:target.culture }
 				OR = {
 					has_title = title:k_dzungaria
 					has_title = title:k_amdo
@@ -170,7 +170,7 @@
 		# Military Governors should be loyal!
 		modifier = {
 			add = -200
-			culture = scope:target.culture
+			culture = { has_same_culture_language = scope:target.culture }
 			highest_held_title_tier = tier_kingdom
 			has_realm_law = city_succession_law
 			NOR = {		# except for historically independent regions
@@ -263,7 +263,7 @@
 		# Military Governors should be loyal!
 		modifier = {
 			add = -200
-			culture = scope:faction.faction_target.culture
+			culture = { has_same_culture_language = scope:faction.faction_target.culture }
 			highest_held_title_tier = tier_kingdom
 			has_realm_law = city_succession_law
 			NOR = {		# except for historically independent regions
@@ -281,6 +281,18 @@
 				}
 			}
 			NOT = { culture = scope:faction.faction_target.culture }
+		}
+
+		# Prevent Ottomans from fracturing ahistorically
+		modifier = {
+			add = -100
+			faith.religious_head = scope:faction.faction_target
+			scope:faction.faction_target.primary_title = title:e_turkey
+			OR = {
+				culture = scope:faction.faction_target.culture
+				culture = { has_cultural_pillar = heritage_arabic }
+			}
+			current_date < 1900.1.1
 		}
 
 		# Small multiplier for my neighbors already in the Faction
@@ -490,6 +502,20 @@ liberty_faction = {
 				has_same_political_party_as_target_trigger = { TARGET = scope:faction.faction_target }
 			}
 		}
+
+		modifier = {
+			add = 100
+			scope:faction.faction_target = {
+				primary_title = title:k_france
+				OR = {
+					AND = {
+						is_ai = yes
+						current_date > 1850.1.1
+					}
+					gold < 0
+				}
+			}
+		}
 	}
 
 	ai_create_score = {
@@ -527,6 +553,20 @@ liberty_faction = {
 
 		liberty_faction_modifiers = {
 			FACTION_TARGET = scope:target
+		}
+
+		modifier = {
+			add = 100
+			scope:target = {
+				primary_title = title:k_france
+				OR = {
+					AND = {
+						is_ai = yes
+						current_date > 1850.1.1
+					}
+					gold < 0
+				}
+			}
 		}
 	}
 

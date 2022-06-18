@@ -726,6 +726,18 @@ pelly = {
 	name = "dynn_Pelly"
 	culture = "english"
 }
+maxwell = {
+	name = "dynn_Maxwell"
+	culture = "scottish"
+}
+campbell3 = {
+	name = "dynn_Campbell"
+	culture = "scottish"
+}
+maclean = {
+	name = "dynn_Maclean"
+	culture = "scottish"
+}
 
 kindelan_y_oregan = {
 	name = "dynn_Kindelan_y_Oregan"

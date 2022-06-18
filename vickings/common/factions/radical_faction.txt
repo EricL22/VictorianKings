@@ -475,7 +475,7 @@
 		}
 
 		custom_description = {
-			text = has_lowest_crown_authority
+			text = not_has_lowest_crown_authority
 			subject = scope:target
 			scope:target = {
 				has_realm_law = crown_authority_0

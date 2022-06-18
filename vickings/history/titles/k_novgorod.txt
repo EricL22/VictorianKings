@@ -163,6 +163,10 @@ d_novgorod = {
 	1189.1.2 = {
 		holder = 125234
 	}
+	
+	1727.1.1 = {
+		holder = 0
+	}
 }
 
 
@@ -458,6 +462,10 @@ c_rusa = {
 	1189.1.2 = {
 		holder = 125234
 	}
+	1812.1.1 = {
+		holder = rusgov6
+		liege = e_russia
+	}
 }
 
 
@@ -608,6 +616,10 @@ c_pskov = {
 	1189.1.2 = {
 		holder = 125234
 	}
+	1812.1.1 = {
+		holder = rusgov6
+		liege = e_russia
+	}
 }
 
 
@@ -755,6 +767,10 @@ c_sebezh = {
 	1189.1.2 = {
 		holder = 125234
 	}
+	1812.1.1 = {
+		holder = rusgov6
+		liege = e_russia
+	}
 }
 
 
@@ -894,6 +910,11 @@ d_vepsia = {
 	}
 	935.1.1 = {
 		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+	}
+
+	1812.1.1 = {
+		holder = rusgov11
+		liege = e_russia
 	}
 }
 
@@ -1345,6 +1366,12 @@ c_vyangi = {
 	}
 }
 
+d_luki = {
+	1812.1.1 = {
+		holder = rusgov11
+		liege = e_russia
+	}
+}
 
 c_luki = {
 	###Pre Kievan Rus

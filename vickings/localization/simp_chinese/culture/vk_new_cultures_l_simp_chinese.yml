@@ -33,6 +33,11 @@
  native_american_minor_prefix:0 "American-Indo"
  name_list_native_american_minor:0 "Native American Minor"
 
+ american:0 "American"
+ american_collective_noun:0 "Americans"
+ american_prefix:0 "Anglo"
+ name_list_american:0 "American"
+
  name_list_dutch_expanded:0 "Dutch"
  name_list_belgian:0 "Belgian"
  name_list_luxembourg:0 "Luxembourgish"

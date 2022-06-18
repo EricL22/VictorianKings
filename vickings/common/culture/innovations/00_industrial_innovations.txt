@@ -54,6 +54,7 @@ innovation_nationalism_n_imperialism = {
 
 	custom = same_culture_none_factionalism_double_different
 	custom = unlocks_protectorate_interaction
+	custom = unlocks_colonization_in_africa
 }
 
 innovation_mechanical_production = {
