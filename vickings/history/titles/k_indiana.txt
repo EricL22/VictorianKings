@@ -108,17 +108,17 @@ c_berereida = {
 		holder = 6400155
 	}
 }
-c_odeslinlia = {
-	1808.1.1 = {
-		holder = 9000104
-	}
-	1814.1.1 = {
-		holder = nativeamerican3
-	}
-	1831.12.7 = {
-		holder = 6400155
-	}
-}
+#c_odeslinlia = {
+#	1808.1.1 = {
+#		holder = 9000104
+#	}
+#	1814.1.1 = {
+#		holder = nativeamerican3
+#	}
+#	1831.12.7 = {
+#		holder = 6400155
+#	}
+#}
 c_eresmukelia = {
 	1808.1.1 = {
 		holder = 9000104

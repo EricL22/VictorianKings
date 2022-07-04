@@ -20,17 +20,17 @@ c_milwaukee = {
 		holder = 6400153
 	}
 }
-c_maglindlia = {
-	1814.1.1 = {
-		holder = nativeamerican1
-	}
-	1818.12.3 = {
-		holder = 6400152
-	}
-	1835.11.3 = {
-		holder = 6400153
-	}
-}
+#c_maglindlia = {
+#	1814.1.1 = {
+#		holder = nativeamerican1
+#	}
+#	1818.12.3 = {
+#		holder = 6400152
+#	}
+#	1835.11.3 = {
+#		holder = 6400153
+#	}
+#}
 c_aiglampsathena = {
 	1814.1.1 = {
 		holder = nativeamerican1
@@ -53,17 +53,17 @@ c_chytgorgimenus = {
 		holder = 6400153
 	}
 }
-c_gytabai = {
-	1814.1.1 = {
-		holder = nativeamerican1
-	}
-	1818.12.3 = {
-		holder = 6400152
-	}
-	1835.11.3 = {
-		holder = 6400153
-	}
-}
+#c_gytabai = {
+#	1814.1.1 = {
+#		holder = nativeamerican1
+#	}
+#	1818.12.3 = {
+#		holder = 6400152
+#	}
+#	1835.11.3 = {
+#		holder = 6400153
+#	}
+#}
 c_koikalliae = {
 	1814.1.1 = {
 		holder = nativeamerican1
@@ -75,17 +75,17 @@ c_koikalliae = {
 		holder = 6400153
 	}
 }
-c_methagytalous = {
-	1814.1.1 = {
-		holder = nativeamerican1
-	}
-	1818.12.3 = {
-		holder = 6400152
-	}
-	1835.11.3 = {
-		holder = 6400153
-	}
-}
+#c_methagytalous = {
+#	1814.1.1 = {
+#		holder = nativeamerican1
+#	}
+#	1818.12.3 = {
+#		holder = 6400152
+#	}
+#	1835.11.3 = {
+#		holder = 6400153
+#	}
+#}
 c_marathherayra = {
 	1814.1.1 = {
 		holder = nativeamerican1
@@ -130,39 +130,39 @@ c_hisodium = {
 		holder = 6400153
 	}
 }
-c_cydidtiri = {
-	1814.1.1 = {
-		holder = nativeamerican1
-	}
-	1818.12.3 = {
-		holder = 6400152
-	}
-	1835.11.3 = {
-		holder = 6400153
-	}
-}
-c_athontrias = {
-	1814.1.1 = {
-		holder = nativeamerican1
-	}
-	1818.12.3 = {
-		holder = 6400152
-	}
-	1835.11.3 = {
-		holder = 6400153
-	}
-}
-c_knosgorgites = {
-	1814.1.1 = {
-		holder = nativeamerican1
-	}
-	1818.12.3 = {
-		holder = 6400152
-	}
-	1835.11.3 = {
-		holder = 6400153
-	}
-}
+#c_cydidtiri = {
+#	1814.1.1 = {
+#		holder = nativeamerican1
+#	}
+#	1818.12.3 = {
+#		holder = 6400152
+#	}
+#	1835.11.3 = {
+#		holder = 6400153
+#	}
+#}
+#c_athontrias = {
+#	1814.1.1 = {
+#		holder = nativeamerican1
+#	}
+#	1818.12.3 = {
+#		holder = 6400152
+#	}
+#	1835.11.3 = {
+#		holder = 6400153
+#	}
+#}
+#c_knosgorgites = {
+#	1814.1.1 = {
+#		holder = nativeamerican1
+#	}
+#	1818.12.3 = {
+#		holder = 6400152
+#	}
+#	1835.11.3 = {
+#		holder = 6400153
+#	}
+#}
 c_kourherader = {
 	1814.1.1 = {
 		holder = nativeamerican1
@@ -328,14 +328,14 @@ c_kioeretissa = {
 		holder = nativeamerican1
 	}
 }
-c_ereskatalea = {
-	1814.1.1 = {
-		holder = nativeamerican1
-	}
-	1818.12.3 = {
-		holder = 6400152
-	}
-	1835.11.3 = {
-		holder = 6400153
-	}
-}
+#c_ereskatalea = {
+#	1814.1.1 = {
+#		holder = nativeamerican1
+#	}
+#	1818.12.3 = {
+#		holder = 6400152
+#	}
+#	1835.11.3 = {
+#		holder = 6400153
+#	}
+#}

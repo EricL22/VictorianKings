@@ -1,4 +1,5 @@
-﻿@always_primary_score = 1000
+﻿@better_than_the_alternatives_score = 50
+@always_primary_score = 1000
 
 # Continental United States of America
 e_united_states = {
@@ -45,23 +46,23 @@ e_united_states = {
 					color2 = { 255 255 255 }
 				}
 			}
-			c_suffolk_ny = {
-				color = { 105 166 26 }
-				color2 = { 255 255 255 }
-				
-				b_suffolk = {
-					province = 11421
-
-					color = { 234 91 84 }
-					color2 = { 255 255 255 }
-				}
-			}
+		#	c_suffolk_ny = {
+		#		color = { 105 166 26 }
+		#		color2 = { 255 255 255 }
+		#	}
 			c_new_york = {
 				color = { 229 42 120 }
 				color2 = { 255 255 255 }
 				
 				b_new_york = {
 					province = 11422
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+				
+				b_suffolk = {
+					province = 11421
 
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
@@ -383,23 +384,23 @@ e_united_states = {
 					color2 = { 255 255 255 }
 				}
 			}
-			c_niagara = {
-				color = { 234 91 84 }
-				color2 = { 255 255 255 }
-
-				b_niagara = {
-					province = 11559
-
-					color = { 234 91 84 }
-					color2 = { 255 255 255 }
-				}
-			}
+		#	c_niagara = {
+		#		color = { 234 91 84 }
+		#		color2 = { 255 255 255 }
+		#	}
 			c_erie = {
 				color = { 234 91 84 }
 				color2 = { 255 255 255 }
 
 				b_erie = {
 					province = 11560
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+
+				b_niagara = {
+					province = 11559
 
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
@@ -461,6 +462,13 @@ e_united_states = {
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
+				
+				b_north_washington = {
+					province = 11608
+
+					color = { 80 203 10 }
+					color2 = { 80 79 88 }
+				}
 			}
 			c_hancock = {
 				color = { 230 100 10 } # TODO
@@ -483,10 +491,6 @@ e_united_states = {
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
-			}
-			c_knox = {
-				color = { 230 100 10 } # TODO
-				color2 = { 255 255 255 } # TODO
 			
 				b_knox = {
 					province = 11395
@@ -495,6 +499,10 @@ e_united_states = {
 					color2 = { 255 255 255 }
 				}
 			}
+		#	c_knox = {
+		#		color = { 230 100 10 } # TODO
+		#		color2 = { 255 255 255 } # TODO
+		#	}
 			c_augusta = {
 				color = { 230 100 10 } # TODO
 				color2 = { 255 255 255 } # TODO
@@ -517,17 +525,10 @@ e_united_states = {
 					color2 = { 255 255 255 }
 				}
 			}
-			c_sagadahoc = {
-				color = { 230 100 10 } # TODO
-				color2 = { 255 255 255 } # TODO
-				
-				b_sagadahoc = {
-					province = 11398
-
-					color = { 234 91 84 }
-					color2 = { 255 255 255 }
-				}
-			}
+		#	c_sagadahoc = {
+		#		color = { 230 100 10 } # TODO
+		#		color2 = { 255 255 255 } # TODO
+		#	}
 			c_cumberland_me = {
 				color = { 80 203 10 }
 				color2 = { 80 79 88 }
@@ -538,24 +539,31 @@ e_united_states = {
 					color = { 80 203 10 }
 					color2 = { 80 79 88 }
 				}
-			}
-			c_oxford = {
-				color = { 80 203 10 }
-				color2 = { 80 79 88 }
 				
-				b_paris_me = {
-					province = 11400
+				b_sagadahoc = {
+					province = 11398
 
-					color = { 80 203 10 }
-					color2 = { 80 79 88 }
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
 				}
 			}
+		#	c_oxford = {
+		#		color = { 80 203 10 }
+		#		color2 = { 80 79 88 }
+		#	}
 			c_york = {
 				color = { 80 203 10 }
 				color2 = { 80 79 88 }
 				
 				b_alfred = {
 					province = 11401
+
+					color = { 80 203 10 }
+					color2 = { 80 79 88 }
+				}
+				
+				b_paris_me = {
+					province = 11400
 
 					color = { 80 203 10 }
 					color2 = { 80 79 88 }
@@ -594,17 +602,10 @@ e_united_states = {
 					color2 = { 80 79 88 }
 				}
 			}
-			c_north_washington = {
-				color = { 80 203 10 }
-				color2 = { 80 79 88 }
-				
-				b_north_washington = {
-					province = 11608
-
-					color = { 80 203 10 }
-					color2 = { 80 79 88 }
-				}
-			}
+		#	c_north_washington = {
+		#		color = { 80 203 10 }
+		#		color2 = { 80 79 88 }
+		#	}
 			c_penobscot = {
 				color = { 80 203 10 }
 				color2 = { 80 79 88 }
@@ -751,6 +752,13 @@ e_united_states = {
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
+				
+				b_middlesex = {
+					province = 11407
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
 			}
 			c_plymouth = {
 				color = { 230 100 10 }
@@ -785,17 +793,10 @@ e_united_states = {
 					color2 = { 255 255 255 }
 				}
 			}
-			c_middlesex_ma = {
-				color = { 230 120 40 }
-				color2 = { 255 255 255 }
-				
-				b_middlesex = {
-					province = 11407
-
-					color = { 234 91 84 }
-					color2 = { 255 255 255 }
-				}
-			}
+		#	c_middlesex_ma = {
+		#		color = { 230 120 40 }
+		#		color2 = { 255 255 255 }
+		#	}
 			c_worcester = {
 				color = { 230 120 40 }
 				color2 = { 255 255 255 }
@@ -828,10 +829,6 @@ e_united_states = {
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
-			}
-			c_berkshire_ma = {
-				color = { 230 120 40 }
-				color2 = { 255 255 255 }
 				
 				b_berkshire = {
 					province = 11411
@@ -840,6 +837,10 @@ e_united_states = {
 					color2 = { 255 255 255 }
 				}
 			}
+		#	c_berkshire_ma = {
+		#		color = { 230 120 40 }
+		#		color2 = { 255 255 255 }
+		#	}
 		}
 	}
 	
@@ -940,10 +941,6 @@ e_united_states = {
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
-			}
-			c_litchfield = {
-				color = { 160 200 10 } # TODO
-				color2 = { 255 255 255 } # TODO
 				
 				b_litchfield = {
 					province = 11417
@@ -952,6 +949,10 @@ e_united_states = {
 					color2 = { 255 255 255 }
 				}
 			}
+		#	c_litchfield = {
+		#		color = { 160 200 10 } # TODO
+		#		color2 = { 255 255 255 } # TODO
+		#	}
 			c_new_haven = {
 				color = { 160 200 10 } # TODO
 				color2 = { 255 255 255 } # TODO
@@ -992,7 +993,7 @@ e_united_states = {
 		}
 
 		d_new_jersey = {
-			color = { 140 210 30 }
+			color = { 240 210 30 }
 			color2 = { 255 255 255 }
 	
 			capital = c_trenton
@@ -1029,10 +1030,6 @@ e_united_states = {
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
-			}
-			c_ocean = {
-				color = { 160 200 10 } # TODO
-				color2 = { 255 255 255 } # TODO
 				
 				b_ocean = {
 					province = 11432
@@ -1041,6 +1038,10 @@ e_united_states = {
 					color2 = { 255 255 255 }
 				}
 			}
+		#	c_ocean = {
+		#		color = { 160 200 10 } # TODO
+		#		color2 = { 255 255 255 } # TODO
+		#	}
 			c_cape_may = {
 				color = { 160 200 10 } # TODO
 				color2 = { 255 255 255 } # TODO
@@ -1073,10 +1074,6 @@ e_united_states = {
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
-			}
-			c_salem_nj = {
-				color = { 160 200 10 } # TODO
-				color2 = { 255 255 255 } # TODO
 				
 				b_salem_nj = {
 					province = 11436
@@ -1084,10 +1081,6 @@ e_united_states = {
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
-			}
-			c_cumberland_nj = {
-				color = { 160 200 10 } # TODO
-				color2 = { 255 255 255 } # TODO
 				
 				b_bridgeton = {
 					province = 11437
@@ -1096,6 +1089,14 @@ e_united_states = {
 					color2 = { 255 255 255 }
 				}
 			}
+		#	c_salem_nj = {
+		#		color = { 160 200 10 } # TODO
+		#		color2 = { 255 255 255 } # TODO
+		#	}
+		#	c_cumberland_nj = {
+		#		color = { 160 200 10 } # TODO
+		#		color2 = { 255 255 255 } # TODO
+		#	}
 		}
 	}
 
@@ -1114,7 +1115,7 @@ e_united_states = {
 		}
 
 		d_pennsylvania = {
-			color = { 140 210 30 }
+			color = { 180 210 30 }
 			color2 = { 255 255 255 }
 	
 			capital = c_philadelphia
@@ -1424,17 +1425,10 @@ e_united_states = {
 					color2 = { 255 255 255 }
 				}
 			}
-			c_clarion = {
-				color = { 160 200 10 } # TODO
-				color2 = { 255 255 255 } # TODO
-				
-				b_clarion = {
-					province = 11582
-
-					color = { 234 91 84 }
-					color2 = { 255 255 255 }
-				}
-			}
+		#	c_clarion = {
+		#		color = { 160 200 10 } # TODO
+		#		color2 = { 255 255 255 } # TODO
+		#	}
 			c_washington_pa = {
 				color = { 160 200 10 } # TODO
 				color2 = { 255 255 255 } # TODO
@@ -1457,9 +1451,20 @@ e_united_states = {
 					color2 = { 255 255 255 }
 				}
 			}
-			c_beaver = {
+		#	c_beaver = {
+		#		color = { 160 200 10 } # TODO
+		#		color2 = { 255 255 255 } # TODO
+		#	}
+			c_butler = {
 				color = { 160 200 10 } # TODO
 				color2 = { 255 255 255 } # TODO
+				
+				b_butler = {
+					province = 11586
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
 				
 				b_beaver = {
 					province = 11585
@@ -1467,13 +1472,9 @@ e_united_states = {
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
-			}
-			c_butler = {
-				color = { 160 200 10 } # TODO
-				color2 = { 255 255 255 } # TODO
 				
-				b_butler = {
-					province = 11586
+				b_mercer = {
+					province = 11588
 
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
@@ -1489,35 +1490,35 @@ e_united_states = {
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
-			}
-			c_mercer = {
-				color = { 160 200 10 } # TODO
-				color2 = { 255 255 255 } # TODO
 				
-				b_mercer = {
-					province = 11588
+				b_clarion = {
+					province = 11582
 
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
 			}
-			c_crawford = {
-				color = { 160 200 10 } # TODO
-				color2 = { 255 255 255 } # TODO
-				
-				b_crawford = {
-					province = 11589
-
-					color = { 234 91 84 }
-					color2 = { 255 255 255 }
-				}
-			}
+		#	c_mercer = {
+		#		color = { 160 200 10 } # TODO
+		#		color2 = { 255 255 255 } # TODO
+		#	}
+		#	c_crawford = {
+		#		color = { 160 200 10 } # TODO
+		#		color2 = { 255 255 255 } # TODO
+		#	}
 			c_erie_pa = {
 				color = { 160 200 10 } # TODO
 				color2 = { 255 255 255 } # TODO
 				
 				b_erie_pa = {
 					province = 11590
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+				
+				b_crawford = {
+					province = 11589
 
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
@@ -1640,18 +1641,18 @@ e_united_states = {
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
-			}
-			c_frederick = {
-				color = { 160 200 10 } # TODO
-				color2 = { 255 255 255 } # TODO
 				
-				b_frederick = {
-					province = 11450
+				b_kent = {
+					province = 11456
 
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
 			}
+		#	c_frederick = {
+		#		color = { 160 200 10 } # TODO
+		#		color2 = { 255 255 255 } # TODO
+		#	}
 			c_washington_md = {
 				color = { 160 200 10 } # TODO
 				color2 = { 255 255 255 } # TODO
@@ -1673,6 +1674,13 @@ e_united_states = {
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
+				
+				b_frederick = {
+					province = 11450
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
 			}
 			c_prince_george = {
 				color = { 160 200 10 } # TODO
@@ -1685,10 +1693,6 @@ e_united_states = {
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
-			}
-			c_charles = {
-				color = { 160 200 10 } # TODO
-				color2 = { 255 255 255 } # TODO
 				
 				b_charles = {
 					province = 11455
@@ -1697,17 +1701,14 @@ e_united_states = {
 					color2 = { 255 255 255 }
 				}
 			}
-			c_kent_md = {
-				color = { 160 200 10 } # TODO
-				color2 = { 255 255 255 } # TODO
-				
-				b_kent = {
-					province = 11456
-
-					color = { 234 91 84 }
-					color2 = { 255 255 255 }
-				}
-			}
+		#	c_charles = {
+		#		color = { 160 200 10 } # TODO
+		#		color2 = { 255 255 255 } # TODO
+		#	}
+		#	c_kent_md = {
+		#		color = { 160 200 10 } # TODO
+		#		color2 = { 255 255 255 } # TODO
+		#	}
 			c_queen_anne = {
 				color = { 160 200 10 } # TODO
 				color2 = { 255 255 255 } # TODO
@@ -1719,10 +1720,6 @@ e_united_states = {
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
-			}
-			c_dorchester = {
-				color = { 160 200 10 } # TODO
-				color2 = { 255 255 255 } # TODO
 				
 				b_dorchester = {
 					province = 11458
@@ -1731,6 +1728,10 @@ e_united_states = {
 					color2 = { 255 255 255 }
 				}
 			}
+		#	c_dorchester = {
+		#		color = { 160 200 10 } # TODO
+		#		color2 = { 255 255 255 } # TODO
+		#	}
 			c_worcester_md = {
 				color = { 160 200 10 } # TODO
 				color2 = { 255 255 255 } # TODO
@@ -1741,10 +1742,6 @@ e_united_states = {
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
-			}
-			c_somerset_md = {
-				color = { 160 200 10 } # TODO
-				color2 = { 255 255 255 } # TODO
 				
 				b_somerset = {
 					province = 11460
@@ -1753,6 +1750,10 @@ e_united_states = {
 					color2 = { 255 255 255 }
 				}
 			}
+		#	c_somerset_md = {
+		#		color = { 160 200 10 } # TODO
+		#		color2 = { 255 255 255 } # TODO
+		#	}
 			c_allegany = {
 				color = { 160 200 10 } # TODO
 				color2 = { 255 255 255 } # TODO
@@ -1797,6 +1798,13 @@ e_united_states = {
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
+				
+				b_manassas = {
+					province = 11465
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
 			}
 			c_loudoun = {
 				color = { 160 200 10 } # TODO
@@ -1831,17 +1839,10 @@ e_united_states = {
 					color2 = { 255 255 255 }
 				}
 			}
-			c_prince_william = {
-				color = { 160 200 10 } # TODO
-				color2 = { 255 255 255 } # TODO
-				
-				b_manassas = {
-					province = 11465
-
-					color = { 234 91 84 }
-					color2 = { 255 255 255 }
-				}
-			}
+		#	c_prince_william = {
+		#		color = { 160 200 10 } # TODO
+		#		color2 = { 255 255 255 } # TODO
+		#	}
 			c_caroline = {
 				color = { 160 200 10 } # TODO
 				color2 = { 255 255 255 } # TODO
@@ -1852,10 +1853,6 @@ e_united_states = {
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
-			}
-			c_northumberland_va = {
-				color = { 160 200 10 } # TODO
-				color2 = { 255 255 255 } # TODO
 				
 				b_heathsville = {
 					province = 11467
@@ -1864,6 +1861,10 @@ e_united_states = {
 					color2 = { 255 255 255 }
 				}
 			}
+		#	c_northumberland_va = {
+		#		color = { 160 200 10 } # TODO
+		#		color2 = { 255 255 255 } # TODO
+		#	}
 			c_hampton_va = {
 				color = { 160 200 10 } # TODO
 				color2 = { 255 255 255 } # TODO
@@ -1941,17 +1942,10 @@ e_united_states = {
 					color2 = { 255 255 255 }
 				}
 			}
-			c_suffolk_va = {
-				color = { 160 200 10 } # TODO
-				color2 = { 255 255 255 } # TODO
-				
-				b_suffolk_va = {
-					province = 11475
-
-					color = { 234 91 84 }
-					color2 = { 255 255 255 }
-				}
-			}
+		#	c_suffolk_va = {
+		#		color = { 160 200 10 } # TODO
+		#		color2 = { 255 255 255 } # TODO
+		#	}
 			c_chesapeake = {
 				color = { 160 200 10 } # TODO
 				color2 = { 255 255 255 } # TODO
@@ -1962,10 +1956,13 @@ e_united_states = {
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
-			}
-			c_virginia_beach = {
-				color = { 160 200 10 } # TODO
-				color2 = { 255 255 255 } # TODO
+				
+				b_suffolk_va = {
+					province = 11475
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
 				
 				b_virginia_beach = {
 					province = 11477
@@ -1974,6 +1971,10 @@ e_united_states = {
 					color2 = { 255 255 255 }
 				}
 			}
+		#	c_virginia_beach = {
+		#		color = { 160 200 10 } # TODO
+		#		color2 = { 255 255 255 } # TODO
+		#	}
 			c_rockingham = {
 				color = { 160 200 10 } # TODO
 				color2 = { 255 255 255 } # TODO
@@ -2017,6 +2018,13 @@ e_united_states = {
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
+				
+				b_henry = {
+					province = 11618
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
 			}
 			c_roanoke = {
 				color = { 160 200 10 } # TODO
@@ -2029,17 +2037,10 @@ e_united_states = {
 					color2 = { 255 255 255 }
 				}
 			}
-			c_henry = {
-				color = { 160 200 10 } # TODO
-				color2 = { 255 255 255 } # TODO
-				
-				b_henry = {
-					province = 11618
-
-					color = { 234 91 84 }
-					color2 = { 255 255 255 }
-				}
-			}
+		#	c_henry = {
+		#		color = { 160 200 10 } # TODO
+		#		color2 = { 255 255 255 } # TODO
+		#	}
 			c_montgomery_va = {
 				color = { 160 200 10 } # TODO
 				color2 = { 255 255 255 } # TODO
@@ -2094,10 +2095,6 @@ e_united_states = {
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
-			}
-			c_lee = {
-				color = { 160 200 10 } # TODO
-				color2 = { 255 255 255 } # TODO
 				
 				b_lee = {
 					province = 11624
@@ -2106,13 +2103,17 @@ e_united_states = {
 					color2 = { 255 255 255 }
 				}
 			}
+		#	c_lee = {
+		#		color = { 160 200 10 } # TODO
+		#		color2 = { 255 255 255 } # TODO
+		#	}
 		}
 
 		d_west_virginia = {
 			color = { 215 255 0 }
 			color2 = { 255 255 255 }
 	
-			capital = c_charleston
+			capital = c_charleston_wv
 
 			c_berkeley_wv = {
 				color = { 160 200 10 }
@@ -2245,10 +2246,6 @@ e_united_states = {
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
-			}
-			c_boone = {
-				color = { 160 200 10 } # TODO
-				color2 = { 255 255 255 } # TODO
 				
 				b_boone = {
 					province = 11604
@@ -2256,18 +2253,22 @@ e_united_states = {
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
-			}
-			c_mcdowell = {
-				color = { 160 200 10 } # TODO
-				color2 = { 255 255 255 } # TODO
 				
-				b_mcdowell = {
-					province = 11605
+				b_cabell = {
+					province = 11607
 
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
 			}
+		#	c_boone = {
+		#		color = { 160 200 10 } # TODO
+		#		color2 = { 255 255 255 } # TODO
+		#	}
+		#	c_mcdowell = {
+		#		color = { 160 200 10 } # TODO
+		#		color2 = { 255 255 255 } # TODO
+		#	}
 			c_wayne_wv = {
 				color = { 160 200 10 } # TODO
 				color2 = { 255 255 255 } # TODO
@@ -2278,18 +2279,18 @@ e_united_states = {
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
-			}
-			c_cabell = {
-				color = { 160 200 10 } # TODO
-				color2 = { 255 255 255 } # TODO
 				
-				b_cabell = {
-					province = 11607
+				b_mcdowell = {
+					province = 11605
 
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
 			}
+		#	c_cabell = {
+		#		color = { 160 200 10 } # TODO
+		#		color2 = { 255 255 255 } # TODO
+		#	}
 		}
 	}
 
@@ -2324,10 +2325,6 @@ e_united_states = {
 					color2 = { 255 255 255 }
 					definite_form = yes
 				}
-			}
-			c_hertford = {
-				color = { 160 200 10 } # TODO
-				color2 = { 255 255 255 } # TODO
 				
 				b_winton = {
 					province = 11479
@@ -2335,10 +2332,6 @@ e_united_states = {
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
-			}
-			c_northampton_nc = {
-				color = { 160 200 10 } # TODO
-				color2 = { 255 255 255 } # TODO
 				
 				b_jackson_nc = {
 					province = 11480
@@ -2347,6 +2340,14 @@ e_united_states = {
 					color2 = { 255 255 255 }
 				}
 			}
+		#	c_hertford = {
+		#		color = { 160 200 10 } # TODO
+		#		color2 = { 255 255 255 } # TODO
+		#	}
+		#	c_northampton_nc = {
+		#		color = { 160 200 10 } # TODO
+		#		color2 = { 255 255 255 } # TODO
+		#	}
 			c_halifax_md = {
 				color = { 160 200 10 } # TODO
 				color2 = { 255 255 255 } # TODO
@@ -2390,10 +2391,6 @@ e_united_states = {
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
-			}
-			c_hyde = {
-				color = { 160 200 10 } # TODO
-				color2 = { 255 255 255 } # TODO
 				
 				b_hyde = {
 					province = 11485
@@ -2402,6 +2399,10 @@ e_united_states = {
 					color2 = { 255 255 255 }
 				}
 			}
+		#	c_hyde = {
+		#		color = { 160 200 10 } # TODO
+		#		color2 = { 255 255 255 } # TODO
+		#	}
 			c_johnston = {
 				color = { 160 200 10 } # TODO
 				color2 = { 255 255 255 } # TODO
@@ -2446,34 +2447,27 @@ e_united_states = {
 					color2 = { 255 255 255 }
 				}
 			}
-			c_jones = {
-				color = { 160 200 10 } # TODO
-				color2 = { 255 255 255 } # TODO
-				
-				b_jones = {
-					province = 11490
-
-					color = { 234 91 84 }
-					color2 = { 255 255 255 }
-				}
-			}
-			c_beaufort = {
-				color = { 160 200 10 } # TODO
-				color2 = { 255 255 255 } # TODO
-				
-				b_beaufort = {
-					province = 11491
-
-					color = { 234 91 84 }
-					color2 = { 255 255 255 }
-				}
-			}
+		#	c_jones = {
+		#		color = { 160 200 10 } # TODO
+		#		color2 = { 255 255 255 } # TODO
+		#	}
+		#	c_beaufort = {
+		#		color = { 160 200 10 } # TODO
+		#		color2 = { 255 255 255 } # TODO
+		#	}
 			c_new_bern = {
 				color = { 160 200 10 } # TODO
 				color2 = { 255 255 255 } # TODO
 				
 				b_new_bern = {
 					province = 11492
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+				
+				b_beaufort = {
+					province = 11491
 
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
@@ -2489,6 +2483,13 @@ e_united_states = {
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
+				
+				b_jones = {
+					province = 11490
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
 			}
 			c_new_hanover = {
 				color = { 160 200 10 } # TODO
@@ -2500,10 +2501,6 @@ e_united_states = {
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
-			}
-			c_pender = {
-				color = { 160 200 10 } # TODO
-				color2 = { 255 255 255 } # TODO
 				
 				b_pender = {
 					province = 11495
@@ -2512,23 +2509,27 @@ e_united_states = {
 					color2 = { 255 255 255 }
 				}
 			}
-			c_bladen = {
-				color = { 160 200 10 } # TODO
-				color2 = { 255 255 255 } # TODO
-				
-				b_bladen = {
-					province = 11496
-
-					color = { 234 91 84 }
-					color2 = { 255 255 255 }
-				}
-			}
+		#	c_pender = {
+		#		color = { 160 200 10 } # TODO
+		#		color2 = { 255 255 255 } # TODO
+		#	}
+		#	c_bladen = {
+		#		color = { 160 200 10 } # TODO
+		#		color2 = { 255 255 255 } # TODO
+		#	}
 			c_brunswick_nc = {
 				color = { 160 200 10 } # TODO
 				color2 = { 255 255 255 } # TODO
 				
 				b_brunswick_nc = {
 					province = 11497
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+				
+				b_bladen = {
+					province = 11496
 
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
@@ -2708,23 +2709,23 @@ e_united_states = {
 					color2 = { 255 255 255 }
 				}
 			}
-			c_swain = {
-				color = { 160 200 10 } # TODO
-				color2 = { 255 255 255 } # TODO
-				
-				b_swain = {
-					province = 11640
-
-					color = { 234 91 84 }
-					color2 = { 255 255 255 }
-				}
-			}
+		#	c_swain = {
+		#		color = { 160 200 10 } # TODO
+		#		color2 = { 255 255 255 } # TODO
+		#	}
 			c_cherokee = {
 				color = { 160 200 10 } # TODO
 				color2 = { 255 255 255 } # TODO
 				
 				b_cherokee = {
 					province = 11641
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+				
+				b_swain = {
+					province = 11640
 
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
@@ -2774,10 +2775,6 @@ e_united_states = {
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
-			}
-			c_williamsburg = {
-				color = { 160 200 10 } # TODO
-				color2 = { 255 255 255 } # TODO
 				
 				b_williamsburg = {
 					province = 11500
@@ -2786,23 +2783,27 @@ e_united_states = {
 					color2 = { 255 255 255 }
 				}
 			}
-			c_berkeley = {
-				color = { 160 200 10 } # TODO
-				color2 = { 255 255 255 } # TODO
-				
-				b_berkeley = {
-					province = 11501
-
-					color = { 234 91 84 }
-					color2 = { 255 255 255 }
-				}
-			}
+		#	c_williamsburg = {
+		#		color = { 160 200 10 } # TODO
+		#		color2 = { 255 255 255 } # TODO
+		#	}
+		#	c_berkeley = {
+		#		color = { 160 200 10 } # TODO
+		#		color2 = { 255 255 255 } # TODO
+		#	}
 			c_charleston = {
 				color = { 160 200 10 } # TODO
 				color2 = { 255 255 255 } # TODO
 				
 				b_charleston = {
 					province = 11502
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+				
+				b_berkeley = {
+					province = 11501
 
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
@@ -2862,10 +2863,6 @@ e_united_states = {
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
-			}
-			c_jasper = {
-				color = { 160 200 10 } # TODO
-				color2 = { 255 255 255 } # TODO
 				
 				b_jasper = {
 					province = 11508
@@ -2874,6 +2871,10 @@ e_united_states = {
 					color2 = { 255 255 255 }
 				}
 			}
+		#	c_jasper = {
+		#		color = { 160 200 10 } # TODO
+		#		color2 = { 255 255 255 } # TODO
+		#	}
 			c_marion = {
 				color = { 160 200 10 } # TODO
 				color2 = { 255 255 255 } # TODO
@@ -3028,6 +3029,13 @@ e_united_states = {
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
+				
+				b_long = {
+					province = 11519
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
 			}
 			c_glynn = {
 				color = { 160 200 10 } # TODO
@@ -3083,10 +3091,6 @@ e_united_states = {
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
-			}
-			c_washington_ga = {
-				color = { 160 200 10 } # TODO
-				color2 = { 255 255 255 } # TODO
 				
 				b_sandersville = {
 					province = 11515
@@ -3095,6 +3099,10 @@ e_united_states = {
 					color2 = { 255 255 255 }
 				}
 			}
+		#	c_washington_ga = {
+		#		color = { 160 200 10 } # TODO
+		#		color2 = { 255 255 255 } # TODO
+		#	}
 			c_emanuel = {
 				color = { 160 200 10 } # TODO
 				color2 = { 255 255 255 } # TODO
@@ -3128,17 +3136,10 @@ e_united_states = {
 					color2 = { 255 255 255 }
 				}
 			}
-			c_long = {
-				color = { 160 200 10 } # TODO
-				color2 = { 255 255 255 } # TODO
-				
-				b_long = {
-					province = 11519
-
-					color = { 234 91 84 }
-					color2 = { 255 255 255 }
-				}
-			}
+		#	c_long = {
+		#		color = { 160 200 10 } # TODO
+		#		color2 = { 255 255 255 } # TODO
+		#	}
 			c_wayne = {
 				color = { 160 200 10 } # TODO
 				color2 = { 255 255 255 } # TODO
@@ -3344,10 +3345,6 @@ e_united_states = {
 					color = { 116 147 78 }
 					color2 = { 255 255 255 }
 				}
-			}
-			c_mukeeubthera = {
-				color = { 128 35 134 }
-				color2 = { 255 255 255 }
 
 				b_mukeeubthera = {
 					province = 11779
@@ -3356,6 +3353,10 @@ e_united_states = {
 					color2 = { 255 255 255 }
 				}
 			}
+		#	c_mukeeubthera = {
+		#		color = { 128 35 134 }
+		#		color2 = { 255 255 255 }
+		#	}
 			c_ceblaodines = {
 				color = { 180 110 207 }
 				color2 = { 255 255 255 }
@@ -3366,10 +3367,6 @@ e_united_states = {
 					color = { 180 110 207 }
 					color2 = { 255 255 255 }
 				}
-			}
-			c_dycalinda = {
-				color = { 200 113 203 }
-				color2 = { 255 255 255 }
 
 				b_dycalinda = {
 					province = 11781
@@ -3378,6 +3375,10 @@ e_united_states = {
 					color2 = { 255 255 255 }
 				}
 			}
+		#	c_dycalinda = {
+		#		color = { 200 113 203 }
+		#		color2 = { 255 255 255 }
+		#	}
 			c_antigmochcum = {
 				color = { 230 4 49 }
 				color2 = { 255 255 255 }
@@ -3441,7 +3442,7 @@ e_united_states = {
 		}
 
 		d_vermont = {
-			color = { 240 120 50 }
+			color = { 240 240 50 }
 			color2 = { 255 255 255 }
 	
 			capital = c_montpelier
@@ -3457,28 +3458,14 @@ e_united_states = {
 					color2 = { 255 255 255 }
 				}
 			}
-			c_franklin_vt = {
-				color = { 230 120 20 }
-				color2 = { 255 255 255 }
-				
-				b_st_albans = {
-					province = 11529
-
-					color = { 234 91 84 }
-					color2 = { 255 255 255 }
-				}
-			}
-			c_grand_isle = {
-				color = { 230 120 20 }
-				color2 = { 255 255 255 }
-				
-				b_grand_isle = {
-					province = 11530
-
-					color = { 234 91 84 }
-					color2 = { 255 255 255 }
-				}
-			}
+		#	c_franklin_vt = {
+		#		color = { 230 120 20 }
+		#		color2 = { 255 255 255 }
+		#	}
+		#	c_grand_isle = {
+		#		color = { 230 120 20 }
+		#		color2 = { 255 255 255 }
+		#	}
 			c_montpelier = {
 				color = { 230 120 20 }
 				color2 = { 255 255 255 }
@@ -3496,6 +3483,20 @@ e_united_states = {
 				
 				b_chittenden = {
 					province = 11532
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+				
+				b_st_albans = {
+					province = 11529
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+				
+				b_grand_isle = {
+					province = 11530
 
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
@@ -3757,34 +3758,27 @@ e_united_states = {
 					color2 = { 255 255 255 }
 				}
 			}
-			c_megalhagirea = {
-				color = { 7 158 204 }
-				color2 = { 255 255 255 }
-				
-				b_megalhagirea = {
-					province = 11804
-
-					color = { 234 91 84 }
-					color2 = { 255 255 255 }
-				}
-			}
-			c_marobouuf = {
-				color = { 20 168 17 }
-				color2 = { 255 255 255 }
-				
-				b_marobouuf = {
-					province = 11805
-
-					color = { 234 91 84 }
-					color2 = { 255 255 255 }
-				}
-			}
+		#	c_megalhagirea = {
+		#		color = { 7 158 204 }
+		#		color2 = { 255 255 255 }
+		#	}
+		#	c_marobouuf = {
+		#		color = { 20 168 17 }
+		#		color2 = { 255 255 255 }
+		#	}
 			c_korileibelia = {
 				color = { 142 20 159 }
 				color2 = { 255 255 255 }
 				
 				b_korileibelia = {
 					province = 11806
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+				
+				b_megalhagirea = {
+					province = 11804
 
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
@@ -3800,24 +3794,31 @@ e_united_states = {
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
-			}
-			c_metaponmylesmos = {
-				color = { 30 175 2 }
-				color2 = { 255 255 255 }
 				
-				b_metaponmylesmos = {
-					province = 11808
+				b_marobouuf = {
+					province = 11805
 
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
 			}
+		#	c_metaponmylesmos = {
+		#		color = { 30 175 2 }
+		#		color2 = { 255 255 255 }
+		#	}
 			c_mormorinon = {
 				color = { 167 211 100 }
 				color2 = { 255 255 255 }
 				
 				b_mormorinon = {
 					province = 11809
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+				
+				b_metaponmylesmos = {
+					province = 11808
 
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
@@ -3844,10 +3845,6 @@ e_united_states = {
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
-			}
-			c_ithanchaoas = {
-				color = { 224 33 26 }
-				color2 = { 255 255 255 }
 				
 				b_ithanchaoas = {
 					province = 11812
@@ -3856,6 +3853,10 @@ e_united_states = {
 					color2 = { 255 255 255 }
 				}
 			}
+		#	c_ithanchaoas = {
+		#		color = { 224 33 26 }
+		#		color2 = { 255 255 255 }
+		#	}
 			c_lapbyllai = {
 				color = { 22 155 213 }
 				color2 = { 255 255 255 }
@@ -3952,23 +3953,23 @@ e_united_states = {
 					color2 = { 255 255 255 }
 				}
 			}
-			c_gythcololia = {
-				color = { 68 15 152 }
-				color2 = { 255 255 255 }
-				
-				b_gythcololia = {
-					province = 11821
-
-					color = { 234 91 84 }
-					color2 = { 255 255 255 }
-				}
-			}
+		#	c_gythcololia = {
+		#		color = { 68 15 152 }
+		#		color2 = { 255 255 255 }
+		#	}
 			c_tallahassee = {
 				color = { 176 163 162 }
 				color2 = { 255 255 255 }
 				
 				b_tallahassee = {
 					province = 11822
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+				
+				b_gythcololia = {
+					province = 11821
 
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
@@ -4007,17 +4008,10 @@ e_united_states = {
 					color2 = { 255 255 255 }
 				}
 			}
-			c_nymphmarainda = {
-				color = { 174 35 21 }
-				color2 = { 255 255 255 }
-				
-				b_nymphmarainda = {
-					province = 11826
-
-					color = { 234 91 84 }
-					color2 = { 255 255 255 }
-				}
-			}
+		#	c_nymphmarainda = {
+		#		color = { 174 35 21 }
+		#		color2 = { 255 255 255 }
+		#	}
 			c_kyrencymuf = {
 				color = { 8 64 74 }
 				color2 = { 255 255 255 }
@@ -4028,10 +4022,13 @@ e_united_states = {
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
-			}
-			c_ialmaronai = {
-				color = { 79 240 31 }
-				color2 = { 255 255 255 }
+				
+				b_nymphmarainda = {
+					province = 11826
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
 				
 				b_ialmaronai = {
 					province = 11828
@@ -4040,6 +4037,10 @@ e_united_states = {
 					color2 = { 255 255 255 }
 				}
 			}
+		#	c_ialmaronai = {
+		#		color = { 79 240 31 }
+		#		color2 = { 255 255 255 }
+		#	}
 			c_pensacola = {
 				color = { 173 154 67 }
 				color2 = { 255 255 255 }
@@ -4150,10 +4151,6 @@ e_united_states = {
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
-			}
-			c_kamoricina = {
-				color = { 211 67 41 }
-				color2 = { 255 255 255 }
 				
 				b_kamoricina = {
 					province = 11840
@@ -4162,6 +4159,10 @@ e_united_states = {
 					color2 = { 255 255 255 }
 				}
 			}
+		#	c_kamoricina = {
+		#		color = { 211 67 41 }
+		#		color2 = { 255 255 255 }
+		#	}
 			c_megalkanllai = {
 				color = { 234 23 212 }
 				color2 = { 255 255 255 }
@@ -4326,17 +4327,10 @@ e_united_states = {
 					color2 = { 255 255 255 }
 				}
 			}
-			c_kamarmodus = {
-				color = { 137 129 75 }
-				color2 = { 255 255 255 }
-				
-				b_kamarmodus = {
-					province = 11855
-
-					color = { 234 91 84 }
-					color2 = { 255 255 255 }
-				}
-			}
+		#	c_kamarmodus = {
+		#		color = { 137 129 75 }
+		#		color2 = { 255 255 255 }
+		#	}
 			c_cahaba = {
 				color = { 51 17 140 }
 				color2 = { 255 255 255 }
@@ -4347,10 +4341,6 @@ e_united_states = {
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
-			}
-			c_aytmalon = {
-				color = { 59 137 217 }
-				color2 = { 255 255 255 }
 				
 				b_aytmalon = {
 					province = 11857
@@ -4359,6 +4349,10 @@ e_united_states = {
 					color2 = { 255 255 255 }
 				}
 			}
+		#	c_aytmalon = {
+		#		color = { 59 137 217 }
+		#		color2 = { 255 255 255 }
+		#	}
 			c_golialyium = {
 				color = { 28 130 172 }
 				color2 = { 255 255 255 }
@@ -4376,6 +4370,13 @@ e_united_states = {
 				
 				b_marmacythita = {
 					province = 11859
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+				
+				b_kamarmodus = {
+					province = 11855
 
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
@@ -4500,10 +4501,6 @@ e_united_states = {
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
-			}
-			c_metaponcarica = {
-				color = { 53 51 56 }
-				color2 = { 255 255 255 }
 				
 				b_metaponcarica = {
 					province = 11870
@@ -4512,6 +4509,10 @@ e_united_states = {
 					color2 = { 255 255 255 }
 				}
 			}
+		#	c_metaponcarica = {
+		#		color = { 53 51 56 }
+		#		color2 = { 255 255 255 }
+		#	}
 		}
 	}
 
@@ -4776,10 +4777,6 @@ e_united_states = {
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
-			}
-			c_opusdiosmea = {
-				color = { 156 222 16 }
-				color2 = { 255 255 255 }
 				
 				b_opusdiosmea = {
 					province = 11900
@@ -4788,6 +4785,10 @@ e_united_states = {
 					color2 = { 255 255 255 }
 				}
 			}
+		#	c_opusdiosmea = {
+		#		color = { 156 222 16 }
+		#		color2 = { 255 255 255 }
+		#	}
 			c_marhyuf = {
 				color = { 90 168 101 }
 				color2 = { 255 255 255 }
@@ -4865,23 +4866,23 @@ e_united_states = {
 					color2 = { 255 255 255 }
 				}
 			}
-			c_iolcmarlia = {
-				color = { 46 220 209 }
-				color2 = { 255 255 255 }
-				
-				b_iolcmarlia = {
-					province = 11908
-
-					color = { 234 91 84 }
-					color2 = { 255 255 255 }
-				}
-			}
+		#	c_iolcmarlia = {
+		#		color = { 46 220 209 }
+		#		color2 = { 255 255 255 }
+		#	}
 			c_natchez = {
 				color = { 7 228 111 }
 				color2 = { 255 255 255 }
 				
 				b_natchez = {
 					province = 11909
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+				
+				b_iolcmarlia = {
+					province = 11908
 
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
@@ -4987,10 +4988,6 @@ e_united_states = {
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
-			}
-			c_roane = {
-				color = { 188 213 105 }
-				color2 = { 255 255 255 }
 				
 				b_roane = {
 					province = 11917
@@ -4999,6 +4996,10 @@ e_united_states = {
 					color2 = { 255 255 255 }
 				}
 			}
+		#	c_roane = {
+		#		color = { 188 213 105 }
+		#		color2 = { 255 255 255 }
+		#	}
 			c_putnam = {
 				color = { 46 79 229 }
 				color2 = { 255 255 255 }
@@ -5032,23 +5033,23 @@ e_united_states = {
 					color2 = { 255 255 255 }
 				}
 			}
-			c_warren_tn = {
-				color = { 88 24 71 }
-				color2 = { 255 255 255 }
-				
-				b_mcminnville = {
-					province = 11921
-
-					color = { 234 91 84 }
-					color2 = { 255 255 255 }
-				}
-			}
+		#	c_warren_tn = {
+		#		color = { 88 24 71 }
+		#		color2 = { 255 255 255 }
+		#	}
 			c_marion_tn = {
 				color = { 141 43 207 }
 				color2 = { 255 255 255 }
 				
 				b_marion_tn = {
 					province = 11922
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+				
+				b_mcminnville = {
+					province = 11921
 
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
@@ -5174,10 +5175,6 @@ e_united_states = {
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
-			}
-			c_hardin = {
-				color = { 144 204 190 }
-				color2 = { 255 255 255 }
 				
 				b_hardin = {
 					province = 11934
@@ -5186,6 +5183,10 @@ e_united_states = {
 					color2 = { 255 255 255 }
 				}
 			}
+		#	c_hardin = {
+		#		color = { 144 204 190 }
+		#		color2 = { 255 255 255 }
+		#	}
 			c_weakley = {
 				color = { 150 233 33 }
 				color2 = { 255 255 255 }
@@ -5197,23 +5198,23 @@ e_united_states = {
 					color2 = { 255 255 255 }
 				}
 			}
-			c_decatur = {
-				color = { 63 145 121 }
-				color2 = { 255 255 255 }
-				
-				b_decatur = {
-					province = 11936
-
-					color = { 234 91 84 }
-					color2 = { 255 255 255 }
-				}
-			}
+		#	c_decatur = {
+		#		color = { 63 145 121 }
+		#		color2 = { 255 255 255 }
+		#	}
 			c_henderson = {
 				color = { 238 68 75 }
 				color2 = { 255 255 255 }
 				
 				b_henderson = {
 					province = 11937
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+				
+				b_decatur = {
+					province = 11936
 
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
@@ -5308,10 +5309,6 @@ e_united_states = {
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
-			}
-			c_pike_ky = {
-				color = { 232 174 48 }
-				color2 = { 255 255 255 }
 				
 				b_pikeville = {
 					province = 11944
@@ -5320,6 +5317,10 @@ e_united_states = {
 					color2 = { 255 255 255 }
 				}
 			}
+		#	c_pike_ky = {
+		#		color = { 232 174 48 }
+		#		color2 = { 255 255 255 }
+		#	}
 			c_fleming = {
 				color = { 103 152 8 }
 				color2 = { 255 255 255 }
@@ -5342,17 +5343,10 @@ e_united_states = {
 					color2 = { 255 255 255 }
 				}
 			}
-			c_estill = {
-				color = { 129 176 255 }
-				color2 = { 255 255 255 }
-				
-				b_estill = {
-					province = 11947
-
-					color = { 234 91 84 }
-					color2 = { 255 255 255 }
-				}
-			}
+		#	c_estill = {
+		#		color = { 129 176 255 }
+		#		color2 = { 255 255 255 }
+		#	}
 			c_knox_ky = {
 				color = { 75 97 191 }
 				color2 = { 255 255 255 }
@@ -5381,6 +5375,13 @@ e_united_states = {
 				
 				b_madison_ky = {
 					province = 11950
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+				
+				b_estill = {
+					province = 11947
 
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
@@ -5441,17 +5442,10 @@ e_united_states = {
 					color2 = { 255 255 255 }
 				}
 			}
-			c_grayson = {
-				color = { 99 209 52 }
-				color2 = { 255 255 255 }
-				
-				b_grayson = {
-					province = 11956
-
-					color = { 234 91 84 }
-					color2 = { 255 255 255 }
-				}
-			}
+		#	c_grayson = {
+		#		color = { 99 209 52 }
+		#		color2 = { 255 255 255 }
+		#	}
 			c_warren_ky = {
 				color = { 233 62 192 }
 				color2 = { 255 255 255 }
@@ -5469,6 +5463,13 @@ e_united_states = {
 				
 				b_daviess = {
 					province = 11958
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+				
+				b_grayson = {
+					province = 11956
 
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
@@ -5506,6 +5507,13 @@ e_united_states = {
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
+				
+				b_smithland = {
+					province = 11963
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
 			}
 			c_christian = {
 				color = { 198 251 32 }
@@ -5518,17 +5526,10 @@ e_united_states = {
 					color2 = { 255 255 255 }
 				}
 			}
-			c_livingston_ky = {
-				color = { 212 248 234 }
-				color2 = { 255 255 255 }
-				
-				b_smithland = {
-					province = 11963
-
-					color = { 234 91 84 }
-					color2 = { 255 255 255 }
-				}
-			}
+		#	c_livingston_ky = {
+		#		color = { 212 248 234 }
+		#		color2 = { 255 255 255 }
+		#	}
 			c_mccracken = {
 				color = { 154 83 171 }
 				color2 = { 255 255 255 }
@@ -5651,10 +5652,6 @@ e_united_states = {
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
-			}
-			c_athens = {
-				color = { 130 253 52 }
-				color2 = { 255 255 255 }
 				
 				b_athens_oh = {
 					province = 12064
@@ -5663,6 +5660,10 @@ e_united_states = {
 					color2 = { 255 255 255 }
 				}
 			}
+		#	c_athens = {
+		#		color = { 130 253 52 }
+		#		color2 = { 255 255 255 }
+		#	}
 			c_lorain = {
 				color = { 229 184 165 }
 				color2 = { 255 255 255 }
@@ -5849,10 +5850,6 @@ e_united_states = {
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
-			}
-			c_clermont_oh = {
-				color = { 41 23 32 }
-				color2 = { 255 255 255 }
 				
 				b_clermont_oh = {
 					province = 12082
@@ -5861,6 +5858,10 @@ e_united_states = {
 					color2 = { 255 255 255 }
 				}
 			}
+		#	c_clermont_oh = {
+		#		color = { 41 23 32 }
+		#		color2 = { 255 255 255 }
+		#	}
 			c_williams = {
 				color = { 146 154 223 }
 				color2 = { 255 255 255 }
@@ -5959,23 +5960,23 @@ e_united_states = {
 	
 			capital = c_new_orleans
 
-			c_st_bernard = {
-				color = { 42 13 51 }
-				color2 = { 255 255 255 }
-				
-				b_st_bernard = {
-					province = 12089
-
-					color = { 234 91 84 }
-					color2 = { 255 255 255 }
-				}
-			}
+		#	c_st_bernard = {
+		#		color = { 42 13 51 }
+		#		color2 = { 255 255 255 }
+		#	}
 			c_new_orleans = {
 				color = { 180 137 43 }
 				color2 = { 255 255 255 }
 				
 				b_new_orleans = {
 					province = 12090
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+				
+				b_st_bernard = {
+					province = 12089
 
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
@@ -6000,23 +6001,23 @@ e_united_states = {
 	
 			capital = c_lafayette
 
-			c_lafourche = {
-				color = { 230 120 20 }
-				color2 = { 255 255 255 }
-				
-				b_lafourche = {
-					province = 12092
-
-					color = { 234 91 84 }
-					color2 = { 255 255 255 }
-				}
-			}
+		#	c_lafourche = {
+		#		color = { 230 120 20 }
+		#		color2 = { 255 255 255 }
+		#	}
 			c_houma = {
 				color = { 230 120 20 }
 				color2 = { 255 255 255 }
 				
 				b_houma = {
 					province = 12093
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+				
+				b_st_mary = {
+					province = 12095
 
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
@@ -6032,18 +6033,18 @@ e_united_states = {
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
-			}
-			c_st_mary = {
-				color = { 230 120 20 }
-				color2 = { 255 255 255 }
 				
-				b_st_mary = {
-					province = 12095
+				b_lafourche = {
+					province = 12092
 
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
 			}
+		#	c_st_mary = {
+		#		color = { 230 120 20 }
+		#		color2 = { 255 255 255 }
+		#	}
 			c_vermilion = {
 				color = { 230 120 20 }
 				color2 = { 255 255 255 }
@@ -6088,23 +6089,23 @@ e_united_states = {
 					color2 = { 255 255 255 }
 				}
 			}
-			c_lilamoli = {
-				color = { 230 120 20 }
-				color2 = { 255 255 255 }
-				
-				b_lilamoli = {
-					province = 12113
-
-					color = { 234 91 84 }
-					color2 = { 255 255 255 }
-				}
-			}
+		#	c_lilamoli = {
+		#		color = { 230 120 20 }
+		#		color2 = { 255 255 255 }
+		#	}
 			c_ialchaloli = {
 				color = { 230 120 20 }
 				color2 = { 255 255 255 }
 				
 				b_ialchaloli = {
 					province = 12114
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+				
+				b_lilamoli = {
+					province = 12113
 
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
@@ -6139,10 +6140,6 @@ e_united_states = {
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
-			}
-			c_catahoula = {
-				color = { 230 120 20 }
-				color2 = { 255 255 255 }
 				
 				b_catahoula = {
 					province = 12101
@@ -6151,6 +6148,10 @@ e_united_states = {
 					color2 = { 255 255 255 }
 				}
 			}
+		#	c_catahoula = {
+		#		color = { 230 120 20 }
+		#		color2 = { 255 255 255 }
+		#	}
 			c_tensas = {
 				color = { 230 120 20 }
 				color2 = { 255 255 255 }
@@ -6295,18 +6296,18 @@ e_united_states = {
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
-			}
-			c_markatmea = {
-				color = { 224 184 100 }
-				color2 = { 255 255 255 }
 				
-				b_markatmea = {
-					province = 12116
+				b_aenassida = {
+					province = 12118
 
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
 			}
+		#	c_markatmea = {
+		#		color = { 224 184 100 }
+		#		color2 = { 255 255 255 }
+		#	}
 			c_marhermiinda = {
 				color = { 247 151 5 }
 				color2 = { 255 255 255 }
@@ -6317,18 +6318,18 @@ e_united_states = {
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
-			}
-			c_aenassida = {
-				color = { 29 203 152 }
-				color2 = { 255 255 255 }
 				
-				b_aenassida = {
-					province = 12118
+				b_markatmea = {
+					province = 12116
 
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
 			}
+		#	c_aenassida = {
+		#		color = { 29 203 152 }
+		#		color2 = { 255 255 255 }
+		#	}
 			c_dorymonastilia = {
 				color = { 188 26 224 }
 				color2 = { 255 255 255 }
@@ -6483,10 +6484,6 @@ e_united_states = {
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
-			}
-			c_locrknossmenus = {
-				color = { 246 68 73 }
-				color2 = { 255 255 255 }
 				
 				b_locrknossmenus = {
 					province = 12132
@@ -6495,6 +6492,10 @@ e_united_states = {
 					color2 = { 255 255 255 }
 				}
 			}
+		#	c_locrknossmenus = {
+		#		color = { 246 68 73 }
+		#		color2 = { 255 255 255 }
+		#	}
 			c_eubaenlea = {
 				color = { 137 47 194 }
 				color2 = { 255 255 255 }
@@ -6571,18 +6572,18 @@ e_united_states = {
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
-			}
-			c_gortyberglia = {
-				color = { 22 111 116 }
-				color2 = { 255 255 255 }
 				
-				b_gortyberglia = {
-					province = 12140
+				b_itankasinon = {
+					province = 12143
 
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
 			}
+		#	c_gortyberglia = {
+		#		color = { 22 111 116 }
+		#		color2 = { 255 255 255 }
+		#	}
 			c_kohelosse = {
 				color = { 199 1 80 }
 				color2 = { 255 255 255 }
@@ -6605,23 +6606,23 @@ e_united_states = {
 					color2 = { 255 255 255 }
 				}
 			}
-			c_itankasinon = {
-				color = { 93 189 2 }
-				color2 = { 255 255 255 }
-				
-				b_itankasinon = {
-					province = 12143
-
-					color = { 234 91 84 }
-					color2 = { 255 255 255 }
-				}
-			}
+		#	c_itankasinon = {
+		#		color = { 93 189 2 }
+		#		color2 = { 255 255 255 }
+		#	}
 			c_delmylainon = {
 				color = { 249 134 75 }
 				color2 = { 255 255 255 }
 				
 				b_delmylainon = {
 					province = 12144
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+				
+				b_gortyberglia = {
+					province = 12140
 
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
@@ -6649,23 +6650,23 @@ e_united_states = {
 					color2 = { 255 255 255 }
 				}
 			}
-			c_leibecalyalous = {
-				color = { 54 186 88 }
-				color2 = { 255 255 255 }
-				
-				b_leibecalyalous = {
-					province = 12147
-
-					color = { 234 91 84 }
-					color2 = { 255 255 255 }
-				}
-			}
+		#	c_leibecalyalous = {
+		#		color = { 54 186 88 }
+		#		color2 = { 255 255 255 }
+		#	}
 			c_gortmarrias = {
 				color = { 73 120 34 }
 				color2 = { 255 255 255 }
 				
 				b_gortmarrias = {
 					province = 12148
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+				
+				b_leibecalyalous = {
+					province = 12147
 
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
@@ -6744,10 +6745,6 @@ e_united_states = {
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
-			}
-			c_carycyuf = {
-				color = { 146 29 53 }
-				color2 = { 255 255 255 }
 				
 				b_carycyuf = {
 					province = 12182
@@ -6756,6 +6753,10 @@ e_united_states = {
 					color2 = { 255 255 255 }
 				}
 			}
+		#	c_carycyuf = {
+		#		color = { 146 29 53 }
+		#		color2 = { 255 255 255 }
+		#	}
 		}
 
 		d_west_upper_michigan = {
@@ -6774,10 +6775,6 @@ e_united_states = {
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
-			}
-			c_niaapollmea = {
-				color = { 147 27 239 }
-				color2 = { 255 255 255 }
 				
 				b_niaapollmea = {
 					province = 12267
@@ -6786,6 +6783,10 @@ e_united_states = {
 					color2 = { 255 255 255 }
 				}
 			}
+		#	c_niaapollmea = {
+		#		color = { 147 27 239 }
+		#		color2 = { 255 255 255 }
+		#	}
 			c_lekmantrias = {
 				color = { 60 70 157 }
 				color2 = { 255 255 255 }
@@ -6818,10 +6819,6 @@ e_united_states = {
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
-			}
-			c_amnimadytuf = {
-				color = { 165 73 15 }
-				color2 = { 255 255 255 }
 				
 				b_amnimadytuf = {
 					province = 12271
@@ -6830,6 +6827,10 @@ e_united_states = {
 					color2 = { 255 255 255 }
 				}
 			}
+		#	c_amnimadytuf = {
+		#		color = { 165 73 15 }
+		#		color2 = { 255 255 255 }
+		#	}
 			c_eleumonthos = {
 				color = { 123 222 130 }
 				color2 = { 255 255 255 }
@@ -6898,17 +6899,10 @@ e_united_states = {
 	
 			capital = c_lekhaeretae
 			
-			c_kyrenakrmos = {
-				color = { 254 19 7 }
-				color2 = { 255 255 255 }
-				
-				b_kyrenakrmos = {
-					province = 12152
-
-					color = { 234 91 84 }
-					color2 = { 255 255 255 }
-				}
-			}
+		#	c_kyrenakrmos = {
+		#		color = { 254 19 7 }
+		#		color2 = { 255 255 255 }
+		#	}
 			c_itanborysum = {
 				color = { 163 117 238 }
 				color2 = { 255 255 255 }
@@ -6919,24 +6913,31 @@ e_united_states = {
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
-			}
-			c_diciolccia = {
-				color = { 234 67 156 }
-				color2 = { 255 255 255 }
 				
-				b_diciolccia = {
-					province = 12154
+				b_kyrenakrmos = {
+					province = 12152
 
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
 			}
+		#	c_diciolccia = {
+		#		color = { 234 67 156 }
+		#		color2 = { 255 255 255 }
+		#	}
 			c_edeitaida = {
 				color = { 227 245 237 }
 				color2 = { 255 255 255 }
 				
 				b_edeitaida = {
 					province = 12155
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+				
+				b_diciolccia = {
+					province = 12154
 
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
@@ -7028,10 +7029,6 @@ e_united_states = {
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
-			}
-			c_odeslinlia = {
-				color = { 42 235 137 }
-				color2 = { 255 255 255 }
 				
 				b_odeslinlia = {
 					province = 12163
@@ -7040,6 +7037,10 @@ e_united_states = {
 					color2 = { 255 255 255 }
 				}
 			}
+		#	c_odeslinlia = {
+		#		color = { 42 235 137 }
+		#		color2 = { 255 255 255 }
+		#	}
 			c_asklimboli = {
 				color = { 180 39 83 }
 				color2 = { 255 255 255 }
@@ -7083,28 +7084,14 @@ e_united_states = {
 					color2 = { 255 255 255 }
 				}
 			}
-			c_alebraalous = {
-				color = { 211 106 99 }
-				color2 = { 255 255 255 }
-				
-				b_alebraalous = {
-					province = 12167
-
-					color = { 234 91 84 }
-					color2 = { 255 255 255 }
-				}
-			}
-			c_leontoeene = {
-				color = { 244 196 130 }
-				color2 = { 255 255 255 }
-				
-				b_leontoeene = {
-					province = 12168
-
-					color = { 234 91 84 }
-					color2 = { 255 255 255 }
-				}
-			}
+		#	c_alebraalous = {
+		#		color = { 211 106 99 }
+		#		color2 = { 255 255 255 }
+		#	}
+		#	c_leontoeene = {
+		#		color = { 244 196 130 }
+		#		color2 = { 255 255 255 }
+		#	}
 			c_cargorgimenus = {
 				color = { 13 94 255 }
 				color2 = { 255 255 255 }
@@ -7148,6 +7135,13 @@ e_united_states = {
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
+				
+				b_leicleolea = {
+					province = 12174
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
 			}
 			c_kouleontlia = {
 				color = { 127 240 246 }
@@ -7159,29 +7153,22 @@ e_united_states = {
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
-			}
-			c_leicleolea = {
-				color = { 236 121 247 }
-				color2 = { 255 255 255 }
 				
-				b_leicleolea = {
-					province = 12174
+				b_alebraalous = {
+					province = 12167
 
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
 			}
-			c_nicodidyllai = {
-				color = { 12 71 106 }
-				color2 = { 255 255 255 }
-				
-				b_nicodidyllai = {
-					province = 12175
-
-					color = { 234 91 84 }
-					color2 = { 255 255 255 }
-				}
-			}
+		#	c_leicleolea = {
+		#		color = { 236 121 247 }
+		#		color2 = { 255 255 255 }
+		#	}
+		#	c_nicodidyllai = {
+		#		color = { 12 71 106 }
+		#		color2 = { 255 255 255 }
+		#	}
 			c_lekhaeretae = {
 				color = { 121 48 67 }
 				color2 = { 255 255 255 }
@@ -7204,6 +7191,13 @@ e_united_states = {
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
+				
+				b_nicodidyllai = {
+					province = 12175
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
 			}
 			c_histrleonder = {
 				color = { 97 186 15 }
@@ -7211,6 +7205,13 @@ e_united_states = {
 				
 				b_histrleonder = {
 					province = 12177
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+				
+				b_leontoeene = {
+					province = 12168
 
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
@@ -7257,6 +7258,13 @@ e_united_states = {
 				
 				b_oropthus = {
 					province = 12183
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+				
+				b_argnymalous = {
+					province = 12189
 
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
@@ -7317,17 +7325,10 @@ e_united_states = {
 					color2 = { 255 255 255 }
 				}
 			}
-			c_argnymalous = {
-				color = { 161 254 142 }
-				color2 = { 255 255 255 }
-				
-				b_argnymalous = {
-					province = 12189
-
-					color = { 234 91 84 }
-					color2 = { 255 255 255 }
-				}
-			}
+		#	c_argnymalous = {
+		#		color = { 161 254 142 }
+		#		color2 = { 255 255 255 }
+		#	}
 			c_hermimesthus = {
 				color = { 72 104 124 }
 				color2 = { 255 255 255 }
@@ -7535,17 +7536,10 @@ e_united_states = {
 					color2 = { 255 255 255 }
 				}
 			}
-			c_achlocrissa = {
-				color = { 201 254 116 }
-				color2 = { 255 255 255 }
-				
-				b_achlocrissa = {
-					province = 12207
-
-					color = { 234 91 84 }
-					color2 = { 255 255 255 }
-				}
-			}
+		#	c_achlocrissa = {
+		#		color = { 201 254 116 }
+		#		color2 = { 255 255 255 }
+		#	}
 			c_shikaakwa = {
 				color = { 110 247 115 }
 				color2 = { 255 255 255 }
@@ -7568,10 +7562,13 @@ e_united_states = {
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
-			}
-			c_cebeubthos = {
-				color = { 96 116 154 }
-				color2 = { 255 255 255 }
+				
+				b_achlocrissa = {
+					province = 12207
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
 				
 				b_cebeubthos = {
 					province = 12209
@@ -7579,10 +7576,6 @@ e_united_states = {
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
-			}
-			c_kerkichepetra = {
-				color = { 202 229 73 }
-				color2 = { 255 255 255 }
 				
 				b_kerkichepetra = {
 					province = 12210
@@ -7591,6 +7584,14 @@ e_united_states = {
 					color2 = { 255 255 255 }
 				}
 			}
+		#	c_cebeubthos = {
+		#		color = { 96 116 154 }
+		#		color2 = { 255 255 255 }
+		#	}
+		#	c_kerkichepetra = {
+		#		color = { 202 229 73 }
+		#		color2 = { 255 255 255 }
+		#	}
 			c_klazoelatate = {
 				color = { 190 108 167 }
 				color2 = { 255 255 255 }
@@ -7768,10 +7769,6 @@ e_united_states = {
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
-			}
-			c_maglindlia = {
-				color = { 216 65 157 }
-				color2 = { 255 255 255 }
 				
 				b_maglindlia = {
 					province = 12225
@@ -7780,12 +7777,23 @@ e_united_states = {
 					color2 = { 255 255 255 }
 				}
 			}
+		#	c_maglindlia = {
+		#		color = { 216 65 157 }
+		#		color2 = { 255 255 255 }
+		#	}
 			c_aiglampsathena = {
 				color = { 253 208 0 }
 				color2 = { 255 255 255 }
 				
 				b_aiglampsathena = {
 					province = 12226
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+				
+				b_gytabai = {
+					province = 12228
 
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
@@ -7802,17 +7810,10 @@ e_united_states = {
 					color2 = { 255 255 255 }
 				}
 			}
-			c_gytabai = {
-				color = { 131 235 108 }
-				color2 = { 255 255 255 }
-				
-				b_gytabai = {
-					province = 12228
-
-					color = { 234 91 84 }
-					color2 = { 255 255 255 }
-				}
-			}
+		#	c_gytabai = {
+		#		color = { 131 235 108 }
+		#		color2 = { 255 255 255 }
+		#	}
 			c_koikalliae = {
 				color = { 214 57 212 }
 				color2 = { 255 255 255 }
@@ -7823,10 +7824,6 @@ e_united_states = {
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
-			}
-			c_methagytalous = {
-				color = { 47 155 100 }
-				color2 = { 255 255 255 }
 				
 				b_methagytalous = {
 					province = 12230
@@ -7835,6 +7832,10 @@ e_united_states = {
 					color2 = { 255 255 255 }
 				}
 			}
+		#	c_methagytalous = {
+		#		color = { 47 155 100 }
+		#		color2 = { 255 255 255 }
+		#	}
 			c_marathherayra = {
 				color = { 68 111 232 }
 				color2 = { 255 255 255 }
@@ -7877,6 +7878,13 @@ e_united_states = {
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
+				
+				b_ereskatalea = {
+					province = 12265
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
 			}
 			c_hisodium = {
 				color = { 146 251 225 }
@@ -7888,10 +7896,6 @@ e_united_states = {
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
-			}
-			c_cydidtiri = {
-				color = { 242 37 82 }
-				color2 = { 255 255 255 }
 				
 				b_cydidtiri = {
 					province = 12235
@@ -7899,10 +7903,6 @@ e_united_states = {
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
-			}
-			c_athontrias = {
-				color = { 141 211 12 }
-				color2 = { 255 255 255 }
 				
 				b_athontrias = {
 					province = 12236
@@ -7911,23 +7911,31 @@ e_united_states = {
 					color2 = { 255 255 255 }
 				}
 			}
-			c_knosgorgites = {
-				color = { 10 79 131 }
-				color2 = { 255 255 255 }
-				
-				b_knosgorgites = {
-					province = 12237
-
-					color = { 234 91 84 }
-					color2 = { 255 255 255 }
-				}
-			}
+		#	c_cydidtiri = {
+		#		color = { 242 37 82 }
+		#		color2 = { 255 255 255 }
+		#	}
+		#	c_athontrias = {
+		#		color = { 141 211 12 }
+		#		color2 = { 255 255 255 }
+		#	}
+		#	c_knosgorgites = {
+		#		color = { 10 79 131 }
+		#		color2 = { 255 255 255 }
+		#	}
 			c_kourherader = {
 				color = { 239 165 66 }
 				color2 = { 255 255 255 }
 				
 				b_kourherader = {
 					province = 12238
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+				
+				b_knosgorgites = {
+					province = 12237
 
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
@@ -8219,17 +8227,10 @@ e_united_states = {
 					color2 = { 255 255 255 }
 				}
 			}
-			c_ereskatalea = {
-				color = { 144 102 22 }
-				color2 = { 255 255 255 }
-				
-				b_ereskatalea = {
-					province = 12265
-
-					color = { 234 91 84 }
-					color2 = { 255 255 255 }
-				}
-			}
+		#	c_ereskatalea = {
+		#		color = { 144 102 22 }
+		#		color2 = { 255 255 255 }
+		#	}
 		}
 	}
 
@@ -8352,10 +8353,6 @@ e_united_states = {
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
-			}
-			c_okalliessa = {
-				color = { 109 237 22 }
-				color2 = { 255 255 255 }
 				
 				b_okalliessa = {
 					province = 12285
@@ -8364,6 +8361,10 @@ e_united_states = {
 					color2 = { 255 255 255 }
 				}
 			}
+		#	c_okalliessa = {
+		#		color = { 109 237 22 }
+		#		color2 = { 255 255 255 }
+		#	}
 			c_orestmonastimenus = {
 				color = { 36 158 201 }
 				color2 = { 255 255 255 }
@@ -8415,18 +8416,15 @@ e_united_states = {
 			color2 = { 255 255 255 }
 	
 			capital = c_komaresmos
+	
+			ai_primary_priority = {
+				add = @better_than_the_alternatives_score
+			}
 			
-                        c_clazboucia = {
-                                color = { 70 181 242 }
-                                color2 = { 255 255 255 }
-
-                                b_clazboucia = {
-                                        province = 12394
-
-                                        color = { 70 181 242 }
-                                        color2 = { 255 255 255 }
-                                }
-                        }
+		#	c_clazboucia = {
+		#		color = { 70 181 242 }
+		#		color2 = { 255 255 255 }
+		#	}
                         c_gortymorgessa = {
                                 color = { 98 110 203 }
                                 color2 = { 255 255 255 }
@@ -8435,6 +8433,13 @@ e_united_states = {
                                         province = 12395
 
                                         color = { 98 110 203 }
+                                        color2 = { 255 255 255 }
+                                }
+
+                                b_clazboucia = {
+                                        province = 12394
+
+                                        color = { 70 181 242 }
                                         color2 = { 255 255 255 }
                                 }
                         }
@@ -8548,17 +8553,10 @@ e_united_states = {
                                         color2 = { 255 255 255 }
                                 }
                         }
-                        c_nysmathus = {
-                                color = { 222 226 149 }
-                                color2 = { 255 255 255 }
-
-                                b_nysmathus = {
-                                        province = 12406
-
-                                        color = { 222 226 149 }
-                                        color2 = { 255 255 255 }
-                                }
-                        }
+		#	c_nysmathus = {
+		#		color = { 222 226 149 }
+		#		color2 = { 255 255 255 }
+		#	}
                         c_kermadene = {
                                 color = { 144 223 208 }
                                 color2 = { 255 255 255 }
@@ -8567,6 +8565,13 @@ e_united_states = {
                                         province = 12407
 
                                         color = { 144 223 208 }
+                                        color2 = { 255 255 255 }
+                                }
+
+                                b_nysmathus = {
+                                        province = 12406
+
+                                        color = { 222 226 149 }
                                         color2 = { 255 255 255 }
                                 }
                         }
@@ -8671,17 +8676,10 @@ e_united_states = {
                                         color2 = { 255 255 255 }
                                 }
                         }
-                        c_kimmedesmos = {
-                                color = { 111 249 39 }
-                                color2 = { 255 255 255 }
-
-                                b_kimmedesmos = {
-                                        province = 12291
-
-                                        color = { 111 249 39 }
-                                        color2 = { 255 255 255 }
-                                }
-                        }
+		#	c_kimmedesmos = {
+		#		color = { 111 249 39 }
+		#		color2 = { 255 255 255 }
+		#	}
                         c_edebythdus = {
                                 color = { 18 189 118 }
                                 color2 = { 255 255 255 }
@@ -8690,6 +8688,13 @@ e_united_states = {
                                         province = 12292
 
                                         color = { 18 189 118 }
+                                        color2 = { 255 255 255 }
+                                }
+
+                                b_kimmedesmos = {
+                                        province = 12291
+
+                                        color = { 111 249 39 }
                                         color2 = { 255 255 255 }
                                 }
                         }
@@ -8957,17 +8962,10 @@ e_united_states = {
                                         color2 = { 255 255 255 }
                                 }
                         }
-                        c_emporcaryonia = {
-                                color = { 134 168 51 }
-                                color2 = { 255 255 255 }
-
-                                b_emporcaryonia = {
-                                        province = 12315
-
-                                        color = { 134 168 51 }
-                                        color2 = { 255 255 255 }
-                                }
-                        }
+		#	c_emporcaryonia = {
+		#		color = { 134 168 51 }
+		#		color2 = { 255 255 255 }
+		#	}
                         c_imbarguf = {
                                 color = { 74 57 121 }
                                 color2 = { 255 255 255 }
@@ -8978,10 +8976,13 @@ e_united_states = {
                                         color = { 74 57 121 }
                                         color2 = { 255 255 255 }
                                 }
-                        }
-                        c_hihermieia = {
-                                color = { 149 28 170 }
-                                color2 = { 255 255 255 }
+
+                                b_emporcaryonia = {
+                                        province = 12315
+
+                                        color = { 134 168 51 }
+                                        color2 = { 255 255 255 }
+                                }
 
                                 b_hihermieia = {
                                         province = 12317
@@ -8990,28 +8991,18 @@ e_united_states = {
                                         color2 = { 255 255 255 }
                                 }
                         }
-                        c_megalabus = {
-                                color = { 235 173 21 }
-                                color2 = { 255 255 255 }
-
-                                b_megalabus = {
-                                        province = 12318
-
-                                        color = { 235 173 21 }
-                                        color2 = { 255 255 255 }
-                                }
-                        }
-                        c_elamuleia = {
-                                color = { 69 157 39 }
-                                color2 = { 255 255 255 }
-
-                                b_elamuleia = {
-                                        province = 12319
-
-                                        color = { 69 157 39 }
-                                        color2 = { 255 255 255 }
-                                }
-                        }
+		#	c_hihermieia = {
+		#		color = { 149 28 170 }
+		#		color2 = { 255 255 255 }
+		#	}
+		#	c_megalabus = {
+		#		color = { 235 173 21 }
+		#		color2 = { 255 255 255 }
+		#	}
+		#	c_elamuleia = {
+		#		color = { 69 157 39 }
+		#		color2 = { 255 255 255 }
+		#	}
                         c_kokimmeosia = {
                                 color = { 106 134 117 }
                                 color2 = { 255 255 255 }
@@ -9022,18 +9013,18 @@ e_united_states = {
                                         color = { 106 134 117 }
                                         color2 = { 255 255 255 }
                                 }
-                        }
-                        c_cherolbllai = {
-                                color = { 146 141 103 }
-                                color2 = { 255 255 255 }
 
-                                b_cherolbllai = {
-                                        province = 12321
+                                b_elamuleia = {
+                                        province = 12319
 
-                                        color = { 146 141 103 }
+                                        color = { 69 157 39 }
                                         color2 = { 255 255 255 }
                                 }
                         }
+		#	c_cherolbllai = {
+		#		color = { 146 141 103 }
+		#		color2 = { 255 255 255 }
+		#	}
                         c_alekolea = {
                                 color = { 234 101 117 }
                                 color2 = { 255 255 255 }
@@ -9042,6 +9033,13 @@ e_united_states = {
                                         province = 12322
 
                                         color = { 234 101 117 }
+                                        color2 = { 255 255 255 }
+                                }
+
+                                b_cherolbllai = {
+                                        province = 12321
+
+                                        color = { 146 141 103 }
                                         color2 = { 255 255 255 }
                                 }
                         }
@@ -9064,6 +9062,13 @@ e_united_states = {
                                         province = 12324
 
                                         color = { 96 51 145 }
+                                        color2 = { 255 255 255 }
+                                }
+
+                                b_megalabus = {
+                                        province = 12318
+
+                                        color = { 235 173 21 }
                                         color2 = { 255 255 255 }
                                 }
                         }
@@ -9111,17 +9116,10 @@ e_united_states = {
                                         color2 = { 255 255 255 }
                                 }
                         }
-                        c_kuchalcum = {
-                                color = { 155 177 136 }
-                                color2 = { 255 255 255 }
-
-                                b_kuchalcum = {
-                                        province = 12329
-
-                                        color = { 155 177 136 }
-                                        color2 = { 255 255 255 }
-                                }
-                        }
+		#	c_kuchalcum = {
+		#		color = { 155 177 136 }
+		#		color2 = { 255 255 255 }
+		#	}
                         c_knomalissa = {
                                 color = { 110 222 160 }
                                 color2 = { 255 255 255 }
@@ -9130,6 +9128,13 @@ e_united_states = {
                                         province = 12330
 
                                         color = { 110 222 160 }
+                                        color2 = { 255 255 255 }
+                                }
+
+                                b_kuchalcum = {
+                                        province = 12329
+
+                                        color = { 155 177 136 }
                                         color2 = { 255 255 255 }
                                 }
                         }
@@ -9256,17 +9261,10 @@ e_united_states = {
                                         color2 = { 255 255 255 }
                                 }
                         }
-                        c_nympdicaeainda = {
-                                color = { 78 120 93 }
-                                color2 = { 255 255 255 }
-
-                                b_nympdicaeainda = {
-                                        province = 12340
-
-                                        color = { 78 120 93 }
-                                        color2 = { 255 255 255 }
-                                }
-                        }
+		#	c_nympdicaeainda = {
+		#		color = { 78 120 93 }
+		#		color2 = { 255 255 255 }
+		#	}
                         c_knosseubios = {
                                 color = { 124 4 31 }
                                 color2 = { 255 255 255 }
@@ -9277,10 +9275,6 @@ e_united_states = {
                                         color = { 124 4 31 }
                                         color2 = { 255 255 255 }
                                 }
-                        }
-                        c_artopuslis = {
-                                color = { 105 119 246 }
-                                color2 = { 255 255 255 }
 
                                 b_artopuslis = {
                                         province = 12342
@@ -9289,6 +9283,10 @@ e_united_states = {
                                         color2 = { 255 255 255 }
                                 }
                         }
+		#	c_artopuslis = {
+		#		color = { 105 119 246 }
+		#		color2 = { 255 255 255 }
+		#	}
                         c_borysnymphita = {
                                 color = { 109 125 6 }
                                 color2 = { 255 255 255 }
@@ -9297,6 +9295,13 @@ e_united_states = {
                                         province = 12343
 
                                         color = { 109 125 6 }
+                                        color2 = { 255 255 255 }
+                                }
+
+                                b_nympdicaeainda = {
+                                        province = 12340
+
+                                        color = { 78 120 93 }
                                         color2 = { 255 255 255 }
                                 }
                         }
@@ -9454,10 +9459,6 @@ e_united_states = {
                                         color = { 40 160 245 }
                                         color2 = { 255 255 255 }
                                 }
-                        }
-                        c_chammorus = {
-                                color = { 109 146 107 }
-                                color2 = { 255 255 255 }
 
                                 b_chammorus = {
                                         province = 12357
@@ -9466,6 +9467,10 @@ e_united_states = {
                                         color2 = { 255 255 255 }
                                 }
                         }
+		#	c_chammorus = {
+		#		color = { 109 146 107 }
+		#		color2 = { 255 255 255 }
+		#	}
                         c_cebgolesmos = {
                                 color = { 55 193 181 }
                                 color2 = { 255 255 255 }
@@ -9498,10 +9503,6 @@ e_united_states = {
                                         color = { 190 41 3 }
                                         color2 = { 255 255 255 }
                                 }
-                        }
-                        c_bhyrtmyleia = {
-                                color = { 74 178 183 }
-                                color2 = { 255 255 255 }
 
                                 b_bhyrtmyleia = {
                                         province = 12361
@@ -9509,10 +9510,6 @@ e_united_states = {
                                         color = { 74 178 183 }
                                         color2 = { 255 255 255 }
                                 }
-                        }
-                        c_kourkoilea = {
-                                color = { 167 147 101 }
-                                color2 = { 255 255 255 }
 
                                 b_kourkoilea = {
                                         province = 12362
@@ -9521,6 +9518,14 @@ e_united_states = {
                                         color2 = { 255 255 255 }
                                 }
                         }
+		#	c_bhyrtmyleia = {
+		#		color = { 74 178 183 }
+		#		color2 = { 255 255 255 }
+		#	}
+		#	c_kourkoilea = {
+		#		color = { 167 147 101 }
+		#		color2 = { 255 255 255 }
+		#	}
 		}
 	}
 
@@ -9688,17 +9693,10 @@ e_united_states = {
                                         color2 = { 255 255 255 }
                                 }
                         }
-                        c_kimmeabeia = {
-                                color = { 110 192 13 }
-                                color2 = { 255 255 255 }
-
-                                b_kimmeabeia = {
-                                        province = 12376
-
-                                        color = { 110 192 13 }
-                                        color2 = { 255 255 255 }
-                                }
-                        }
+		#	c_kimmeabeia = {
+		#		color = { 110 192 13 }
+		#		color2 = { 255 255 255 }
+		#	}
                         c_delphkydothrae = {
                                 color = { 231 209 158 }
                                 color2 = { 255 255 255 }
@@ -9707,6 +9705,13 @@ e_united_states = {
                                         province = 12377
 
                                         color = { 231 209 158 }
+                                        color2 = { 255 255 255 }
+                                }
+
+                                b_kimmeabeia = {
+                                        province = 12376
+
+                                        color = { 110 192 13 }
                                         color2 = { 255 255 255 }
                                 }
                         }
@@ -9905,9 +9910,13 @@ e_united_states = {
 		color = { 134 148 79 }
 		color2 = { 255 255 255 }
 
+		capital = c_oklahoma
+
 		d_oklahoma = {
 			color = { 134 148 79 }
 			color2 = { 255 255 255 }
+
+			capital = c_mormylia
 
                         c_kikaoas = {
                                 color = { 49 229 110 }
@@ -10151,11 +10160,11 @@ e_united_states = {
                                         color2 = { 255 255 255 }
                                 }
                         }
-                        c_hermkamaon = {
+                        c_oklahoma = {
                                 color = { 6 189 55 }
                                 color2 = { 255 255 255 }
 
-                                b_hermkamaon = {
+                                b_oklahoma = {
                                         province = 12589
 
                                         color = { 6 189 55 }
@@ -10257,9 +10266,13 @@ e_united_states = {
 		color = { 113 144 124 }
 		color2 = { 255 255 255 }
 
+		capital = c_topeka
+
 		d_kansas = {
 			color = { 113 144 124 }
 			color2 = { 255 255 255 }
+
+			capital = c_artmalia
 
                         c_artmalia = {
                                 color = { 206 161 125 }
@@ -10283,11 +10296,11 @@ e_united_states = {
                                         color2 = { 255 255 255 }
                                 }
                         }
-                        c_lariaosia = {
+                        c_wichita = {
                                 color = { 115 72 96 }
                                 color2 = { 255 255 255 }
 
-                                b_lariaosia = {
+                                b_wichita = {
                                         province = 12459
 
                                         color = { 115 72 96 }
@@ -10393,11 +10406,11 @@ e_united_states = {
                                         color2 = { 255 255 255 }
                                 }
                         }
-                        c_lepreherates = {
+                        c_topeka = {
                                 color = { 12 29 91 }
                                 color2 = { 255 255 255 }
 
-                                b_lepreherates = {
+                                b_topeka = {
                                         province = 12499
 
                                         color = { 12 29 91 }
@@ -10598,9 +10611,13 @@ e_united_states = {
 		color = { 138 142 80 }
 		color2 = { 255 255 255 }
 
+		capital = c_iolcmantiaea
+
 		d_nebraska = {
 			color = { 138 142 80 }
 			color2 = { 255 255 255 }
+
+			capital = c_omaha
 
                         c_hiemarmader = {
                                 color = { 123 126 0 }
@@ -10624,17 +10641,10 @@ e_united_states = {
                                         color2 = { 255 255 255 }
                                 }
                         }
-                        c_clazmadytonia = {
-                                color = { 55 73 137 }
-                                color2 = { 255 255 255 }
-
-                                b_clazmadytonia = {
-                                        province = 12426
-
-                                        color = { 55 73 137 }
-                                        color2 = { 255 255 255 }
-                                }
-                        }
+		#	c_clazmadytonia = {
+		#		color = { 55 73 137 }
+		#		color2 = { 255 255 255 }
+		#	}
                         c_iolcmantiaea = {
                                 color = { 168 75 240 }
                                 color2 = { 255 255 255 }
@@ -10646,17 +10656,10 @@ e_united_states = {
                                         color2 = { 255 255 255 }
                                 }
                         }
-                        c_madlampum = {
-                                color = { 248 131 153 }
-                                color2 = { 255 255 255 }
-
-                                b_madlampum = {
-                                        province = 12431
-
-                                        color = { 248 131 153 }
-                                        color2 = { 255 255 255 }
-                                }
-                        }
+		#	c_madlampum = {
+		#		color = { 248 131 153 }
+		#		color2 = { 255 255 255 }
+		#	}
                         c_decamniion = {
                                 color = { 3 152 240 }
                                 color2 = { 255 255 255 }
@@ -10811,11 +10814,11 @@ e_united_states = {
                                         color2 = { 255 255 255 }
                                 }
                         }
-                        c_decediosyra = {
+                        c_omaha = {
                                 color = { 206 247 132 }
                                 color2 = { 255 255 255 }
 
-                                b_decediosyra = {
+                                b_omaha = {
                                         province = 12488
 
                                         color = { 206 247 132 }
@@ -10885,6 +10888,20 @@ e_united_states = {
                                         province = 12530
 
                                         color = { 225 153 125 }
+                                        color2 = { 255 255 255 }
+                                }
+
+                                b_clazmadytonia = {
+                                        province = 12426
+
+                                        color = { 55 73 137 }
+                                        color2 = { 255 255 255 }
+                                }
+
+                                b_madlampum = {
+                                        province = 12431
+
+                                        color = { 248 131 153 }
                                         color2 = { 255 255 255 }
                                 }
                         }
@@ -11141,28 +11158,14 @@ e_united_states = {
                                         color2 = { 255 255 255 }
                                 }
                         }
-                        c_naxnystes = {
-                                color = { 97 150 89 }
-                                color2 = { 255 255 255 }
-
-                                b_naxnystes = {
-                                        province = 12536
-
-                                        color = { 97 150 89 }
-                                        color2 = { 255 255 255 }
-                                }
-                        }
-                        c_ithanmochlia = {
-                                color = { 116 128 40 }
-                                color2 = { 255 255 255 }
-
-                                b_ithanmochlia = {
-                                        province = 12538
-
-                                        color = { 116 128 40 }
-                                        color2 = { 255 255 255 }
-                                }
-                        }
+		#	c_naxnystes = {
+		#		color = { 97 150 89 }
+		#		color2 = { 255 255 255 }
+		#	}
+		#	c_ithanmochlia = {
+		#		color = { 116 128 40 }
+		#		color2 = { 255 255 255 }
+		#	}
                         c_lebhublus = {
                                 color = { 219 89 11 }
                                 color2 = { 255 255 255 }
@@ -11182,6 +11185,20 @@ e_united_states = {
                                         province = 12571
 
                                         color = { 180 234 157 }
+                                        color2 = { 255 255 255 }
+                                }
+
+                                b_naxnystes = {
+                                        province = 12536
+
+                                        color = { 97 150 89 }
+                                        color2 = { 255 255 255 }
+                                }
+
+                                b_ithanmochlia = {
+                                        province = 12538
+
+                                        color = { 116 128 40 }
                                         color2 = { 255 255 255 }
                                 }
                         }
@@ -11273,17 +11290,10 @@ e_united_states = {
                                         color2 = { 255 255 255 }
                                 }
                         }
-                        c_manticleoene = {
-                                color = { 223 45 204 }
-                                color2 = { 255 255 255 }
-
-                                b_manticleoene = {
-                                        province = 12500
-
-                                        color = { 223 45 204 }
-                                        color2 = { 255 255 255 }
-                                }
-                        }
+		#	c_manticleoene = {
+		#		color = { 223 45 204 }
+		#		color2 = { 255 255 255 }
+		#	}
                         c_lekborysuf = {
                                 color = { 204 56 51 }
                                 color2 = { 255 255 255 }
@@ -11316,6 +11326,13 @@ e_united_states = {
                                         color = { 27 25 24 }
                                         color2 = { 255 255 255 }
                                 }
+
+                                b_manticleoene = {
+                                        province = 12500
+
+                                        color = { 223 45 204 }
+                                        color2 = { 255 255 255 }
+                                }
                         }
 		}
 	}
@@ -11324,9 +11341,13 @@ e_united_states = {
 		color = { 10 124 3 }
 		color2 = { 255 255 255 }
 
+		capital = c_clazgealous
+
 		d_montana = {
 			color = { 10 124 3 }
 			color2 = { 255 255 255 }
+
+			capital = c_clazgealous
 
                         c_orickamatherna = {
                                 color = { 144 84 217 }
@@ -11369,6 +11390,13 @@ e_united_states = {
                                         province = 12434
 
                                         color = { 200 249 224 }
+                                        color2 = { 255 255 255 }
+                                }
+
+                                b_malelauf = {
+                                        province = 12454
+
+                                        color = { 45 224 70 }
                                         color2 = { 255 255 255 }
                                 }
                         }
@@ -11427,17 +11455,10 @@ e_united_states = {
                                         color2 = { 255 255 255 }
                                 }
                         }
-                        c_malelauf = {
-                                color = { 45 224 70 }
-                                color2 = { 255 255 255 }
-
-                                b_malelauf = {
-                                        province = 12454
-
-                                        color = { 45 224 70 }
-                                        color2 = { 255 255 255 }
-                                }
-                        }
+		#	c_malelauf = {
+		#		color = { 45 224 70 }
+		#		color2 = { 255 255 255 }
+		#	}
                         c_leiborithos = {
                                 color = { 230 61 163 }
                                 color2 = { 255 255 255 }
@@ -11468,6 +11489,13 @@ e_united_states = {
                                         province = 12462
 
                                         color = { 122 166 113 }
+                                        color2 = { 255 255 255 }
+                                }
+
+                                b_antipakraea = {
+                                        province = 12619
+
+                                        color = { 80 226 201 }
                                         color2 = { 255 255 255 }
                                 }
                         }
@@ -11515,17 +11543,10 @@ e_united_states = {
                                         color2 = { 255 255 255 }
                                 }
                         }
-                        c_marmaagrinlis = {
-                                color = { 123 19 13 }
-                                color2 = { 255 255 255 }
-
-                                b_marmaagrinlis = {
-                                        province = 12487
-
-                                        color = { 123 19 13 }
-                                        color2 = { 255 255 255 }
-                                }
-                        }
+		#	c_marmaagrinlis = {
+		#		color = { 123 19 13 }
+		#		color2 = { 255 255 255 }
+		#	}
                         c_clazoargai = {
                                 color = { 59 147 122 }
                                 color2 = { 255 255 255 }
@@ -11613,6 +11634,13 @@ e_united_states = {
                                         color = { 13 186 155 }
                                         color2 = { 255 255 255 }
                                 }
+
+                                b_marmaagrinlis = {
+                                        province = 12487
+
+                                        color = { 123 19 13 }
+                                        color2 = { 255 255 255 }
+                                }
                         }
                         c_oropmaum = {
                                 color = { 232 27 116 }
@@ -11669,17 +11697,10 @@ e_united_states = {
                                         color2 = { 255 255 255 }
                                 }
                         }
-                        c_antipakraea = {
-                                color = { 80 226 201 }
-                                color2 = { 255 255 255 }
-
-                                b_antipakraea = {
-                                        province = 12619
-
-                                        color = { 80 226 201 }
-                                        color2 = { 255 255 255 }
-                                }
-                        }
+		#	c_antipakraea = {
+		#		color = { 80 226 201 }
+		#		color2 = { 255 255 255 }
+		#	}
 		}
 	}
 
@@ -11687,9 +11708,13 @@ e_united_states = {
 		color = { 5 91 240 }
 		color2 = { 255 255 255 }
 
+		capital = c_aegcniatrea
+
 		d_north_dakota = {
 			color = { 5 91 240 }
 			color2 = { 255 255 255 }
+
+			capital = c_aegcniatrea
 
                         c_geljukrias = {
                                 color = { 239 15 189 }
@@ -11874,9 +11899,13 @@ e_united_states = {
 		color = { 255 215 128 }
 		color2 = { 255 255 255 }
 
+		capital = c_asiedmos
+
 		d_south_dakota = {
 			color = { 255 215 128 }
 			color2 = { 255 255 255 }
+
+			capital = c_yankton
 
                         c_calyantigdia = {
                                 color = { 167 223 233 }
@@ -12142,11 +12171,11 @@ e_united_states = {
                                         color2 = { 255 255 255 }
                                 }
                         }
-                        c_kumaryra = {
+                        c_yankton = {
                                 color = { 45 220 212 }
                                 color2 = { 255 255 255 }
 
-                                b_kumaryra = {
+                                b_yankton = {
                                         province = 12580
 
                                         color = { 45 220 212 }
@@ -12263,6 +12292,26 @@ e_united_states = {
                                         color2 = { 255 255 255 }
                                 }
                         }
+		}
+	}
+	
+	k_indian_territory = {
+		color = { 216 75 32 }
+		color2 = { 255 255 255 }
+		definite_form = yes
+		
+		can_create = {
+			always = no
+		}
+		
+		d_indian_territory = {
+			color = { 216 75 32 }
+			color2 = { 255 255 255 }
+			definite_form = yes
+		
+			can_create = {
+				always = no
+			}
 		}
 	}
 }

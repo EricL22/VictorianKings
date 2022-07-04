@@ -144,6 +144,7 @@ river_provinces = RANGE { 11374 11391 }
 river_provinces = RANGE { 11830 11833 }
 river_provinces = RANGE { 11871 11878 }
 river_provinces = RANGE { 11965 12055 }
+river_provinces = RANGE { 12728 12730 }
 
 ########
 # LAKES

@@ -626,6 +626,10 @@ radical_faction_war = {
 					}
 					destroy_title = title:k_chrysanthemum_throne
 				}
+				if = {
+					limit = { has_any_political_party = no }
+					trigger_event = { id = ideology.1 days = 1 }
+				}
 			}
 		}	
 	}
@@ -1300,6 +1304,16 @@ colonial_war = {
 								interaction = initiate_colonization_interaction
 							}
 						}
+						NOT = { has_title = title:e_united_states }
+					}
+					scope:defender = {
+						OR = {
+							has_government = tribal_government
+							AND = {
+								has_government = clan_government
+								NOT = { culture = { has_cultural_era_or_later = culture_era_renaissance } }
+							}
+						}
 					}
 				}
 				add = 1000
@@ -1311,13 +1325,14 @@ colonial_war = {
 		scope:target = {
 			trigger_if = {
 				limit = { scope:defender = { has_title = title:e_china } }
-				always = no	# TODO: Chinese concessions that are NOT inclusive of river provinces
+				tier = tier_county
+				any_county_province = { is_coastal = yes }
 			}
 			trigger_else = {
 				tier = tier_duchy
 				any_in_de_jure_hierarchy = {
 					tier = tier_county
-					is_coastal_county = yes
+					any_county_province = { is_coastal = yes }
 				}
 			}
 		}

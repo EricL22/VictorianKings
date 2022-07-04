@@ -1,11 +1,21 @@
 11834 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1836.1.1 = {
+		culture = american
+		religion = protestant
+	}
 }
 
 11835 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1836.1.1 = {
+		culture = american
+		religion = protestant
+	}
 }
 
 11836 = {
@@ -16,11 +26,21 @@
 11837 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1836.1.1 = {
+		culture = american
+		religion = protestant
+	}
 }
 
 11838 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1836.1.1 = {
+		culture = american
+		religion = protestant
+	}
 }
 
 11839 = {
@@ -36,116 +56,231 @@
 11841 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1836.1.1 = {
+		culture = american
+		religion = protestant
+	}
 }
 
 11842 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1836.1.1 = {
+		culture = american
+		religion = protestant
+	}
 }
 
 11843 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1836.1.1 = {
+		culture = american
+		religion = protestant
+	}
 }
 
 11844 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1836.1.1 = {
+		culture = american
+		religion = protestant
+	}
 }
 
 11845 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1836.1.1 = {
+		culture = american
+		religion = protestant
+	}
 }
 
 11846 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1836.1.1 = {
+		culture = american
+		religion = protestant
+	}
 }
 
 11847 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1836.1.1 = {
+		culture = american
+		religion = protestant
+	}
 }
 
 11848 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1836.1.1 = {
+		culture = american
+		religion = protestant
+	}
 }
 
 11849 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1836.1.1 = {
+		culture = american
+		religion = protestant
+	}
 }
 
 11850 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1836.1.1 = {
+		culture = american
+		religion = protestant
+	}
 }
 
 11851 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1836.1.1 = {
+		culture = american
+		religion = protestant
+	}
 }
 
 11852 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1836.1.1 = {
+		culture = american
+		religion = protestant
+	}
 }
 
 11853 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1836.1.1 = {
+		culture = american
+		religion = protestant
+	}
 }
 
 11854 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1836.1.1 = {
+		culture = american
+		religion = protestant
+	}
 }
 
 11855 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1836.1.1 = {
+		culture = american
+		religion = protestant
+	}
 }
 
 11856 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1836.1.1 = {
+		culture = american
+		religion = protestant
+	}
 }
 
 11857 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1836.1.1 = {
+		culture = american
+		religion = protestant
+	}
 }
 
 11858 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1836.1.1 = {
+		culture = american
+		religion = protestant
+	}
 }
 
 11859 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1836.1.1 = {
+		culture = american
+		religion = protestant
+	}
 }
 
 11860 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1836.1.1 = {
+		culture = american
+		religion = protestant
+	}
 }
 
 11861 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1836.1.1 = {
+		culture = american
+		religion = protestant
+	}
 }
 
 11862 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1836.1.1 = {
+		culture = american
+		religion = protestant
+	}
 }
 
 11863 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1836.1.1 = {
+		culture = american
+		religion = protestant
+	}
 }
 
 11864 = {
@@ -156,16 +291,31 @@
 11865 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1836.1.1 = {
+		culture = american
+		religion = protestant
+	}
 }
 
 11866 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1836.1.1 = {
+		culture = american
+		religion = protestant
+	}
 }
 
 11867 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1836.1.1 = {
+		culture = american
+		religion = protestant
+	}
 }
 
 11868 = {
@@ -176,9 +326,19 @@
 11869 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1836.1.1 = {
+		culture = american
+		religion = protestant
+	}
 }
 
 11870 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1836.1.1 = {
+		culture = american
+		religion = protestant
+	}
 }

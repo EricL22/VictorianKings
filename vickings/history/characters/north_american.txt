@@ -80,7 +80,10 @@
 	}
 	1813.7.24 = {
 		effect = {
-			add_realm_law_skip_effects = city_succession_law
+			if = {
+				limit = { is_landed = yes }
+				add_realm_law_skip_effects = city_succession_law
+			}
 		}
 	}
 	1855.2.19 = {
@@ -224,7 +227,10 @@
 	}
 	1806.1.1 = {
 		effect = {
-			add_realm_law_skip_effects = city_succession_law
+			if = {
+				limit = { is_landed = yes }
+				add_realm_law_skip_effects = city_succession_law
+			}
 		}
 	}
 	1852.11.3 = {
@@ -260,11 +266,14 @@
 	}
 	1812.5.5 = {
 		effect = {
-			vassal_contract_set_obligation_level = {
-				type = special_contract
-				level = 4	#trade_company
+			if = {
+				limit = { is_landed = yes }
+				vassal_contract_set_obligation_level = {
+					type = special_contract
+					level = 4	#trade_company
+				}
+				add_realm_law_skip_effects = city_succession_law
 			}
-			add_realm_law_skip_effects = city_succession_law
 		}
 	}
 	1853.1.11 = {

@@ -28,6 +28,7 @@ united_states.1 = {
 					}
 				}
 			}
+			is_vassal_of = root
 		}
 	}
 
@@ -92,6 +93,7 @@ united_states.1 = {
 		}
 		every_in_list = {
 			list = new_republics
+			limit = { is_vassal_of = root }
 			change_liege = {
 				liege = scope:territory_option
 				change = scope:change
@@ -123,10 +125,12 @@ united_states.2 = {
 							scope:recipient = { var:count_transferred = { compare_value < 1 } }
 						}
 						AND = {
+							exists = scope:medium_concessions
 							scope:medium_concessions = yes
 							scope:recipient = { var:count_transferred = { compare_value < 3 } }
 						}
 						AND = {
+							exists = scope:high_concessions
 							scope:high_concessions = yes
 							scope:recipient = { var:count_transferred = { compare_value < 6 } }
 						}
@@ -134,8 +138,7 @@ united_states.2 = {
 					is_leased_out = no
 					NOT = { holder = { is_protectorate = yes } }
 					save_temporary_scope_as = county_check
-					any_in_global_list = {
-						variable = indian_territory
+					scope:recipient.capital_county.duchy = {
 						is_de_jure_liege_or_above_target = scope:county_check
 					}
 				}
@@ -146,8 +149,7 @@ united_states.2 = {
 						is_leased_out = no
 						NOT = { holder = { is_protectorate = yes } }
 						save_temporary_scope_as = county_check
-						any_in_global_list = {
-							variable = indian_territory
+						scope:recipient.capital_county.duchy = {
 							is_de_jure_liege_or_above_target = scope:county_check
 						}
 						any_neighboring_county = {
@@ -160,8 +162,7 @@ united_states.2 = {
 						is_leased_out = no
 						NOT = { holder = { is_protectorate = yes } }
 						save_temporary_scope_as = county_check
-						any_in_global_list = {
-							variable = indian_territory
+						scope:recipient.capital_county.duchy = {
 							is_de_jure_liege_or_above_target = scope:county_check
 						}
 						any_neighboring_county = {
@@ -185,8 +186,7 @@ united_states.2 = {
 						is_leased_out = no
 						NOT = { holder = { is_protectorate = yes } }
 						save_temporary_scope_as = county_check
-						any_in_global_list = {
-							variable = indian_territory
+						scope:recipient.capital_county.duchy = {
 							is_de_jure_liege_or_above_target = scope:county_check
 						}
 					}

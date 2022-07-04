@@ -3,11 +3,11 @@ c_macon_nc = {
 		holder = nativeamerican32
 	}
 }
-c_swain = {
-	1808.1.1 = {
-		holder = nativeamerican32
-	}
-}
+#c_swain = {
+#	1808.1.1 = {
+#		holder = nativeamerican32
+#	}
+#}
 c_cherokee = {
 	1808.1.1 = {
 		holder = nativeamerican32

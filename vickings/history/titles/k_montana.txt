@@ -49,21 +49,21 @@ c_clelapithmea = {
 		holder = nativeamerican25
 	}
 }
-c_antipakraea = {
-	1808.1.1 = {
-		holder = nativeamerican25
-	}
-}
+#c_antipakraea = {
+#	1808.1.1 = {
+#		holder = nativeamerican25
+#	}
+#}
 c_gorgodeslis = {
 	1808.1.1 = {
 		holder = nativeamerican25
 	}
 }
-c_malelauf = {
-	1808.1.1 = {
-		holder = nativeamerican25
-	}
-}
+#c_malelauf = {
+#	1808.1.1 = {
+#		holder = nativeamerican25
+#	}
+#}
 c_lebemagneai = {
 	1808.1.1 = {
 		holder = nativeamerican25
@@ -75,14 +75,14 @@ c_leoedate = {
 		holder = nativeamerican26
 	}
 }
-c_marmaagrinlis = {
-	1808.1.1 = {
-		holder = nativeamerican26
-	}
-	1819.1.30 = {
-		de_jure_liege = d_northwest
-	}
-}
+#c_marmaagrinlis = {
+#	1808.1.1 = {
+#		holder = nativeamerican26
+#	}
+#	1819.1.30 = {
+#		de_jure_liege = d_northwest
+#	}
+#}
 c_aythiston = {
 	1808.1.1 = {
 		holder = nativeamerican26

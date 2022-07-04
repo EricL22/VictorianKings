@@ -505,20 +505,7 @@ vk_title_gain_effects = {
 			limit = {
 				scope:title = title:e_china
 			}
-			if = {
-				limit = {
-					dynasty = dynasty:161612
-					NOT = { has_government = republic_government }
-				}
-				title:e_china = {
-					set_title_name = qing_china
-				}
-			}
-			else = {
-				title:e_china = {
-					reset_title_name = yes
-				}
-			}
+			trigger_event = { id = moderntimes.400 days = 1 }
 
 			if = {
 				limit = {
@@ -971,6 +958,7 @@ vk_title_gain_effects = {
 			limit = {
 				has_government = republic_government
 				has_any_political_party = no
+				primary_title = scope:title
 			}
 			trigger_event = ideology.1
 		}

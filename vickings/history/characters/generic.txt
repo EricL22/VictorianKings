@@ -2408,7 +2408,7 @@ nativeamerican21 = {
 }
 
 nativeamerican22 = {
-	name = "Omaha"
+	name = "Gahege"
 	culture = native_american_minor
 	religion = pagan
 	1771.3.6 = {

@@ -924,6 +924,12 @@ designate_indian_territory_interaction = {
 			name = indian_territory
 			target = scope:target
 		}
+		scope:target = {
+			every_in_de_jure_hierarchy = {
+				limit = { tier = tier_county }
+				set_de_jure_liege_title = title:d_indian_territory
+			}
+		}
 	}
 
 	auto_accept = yes
@@ -993,8 +999,7 @@ sign_removal_treaty_interaction = {
 				tier = tier_county
 				NOT = { holder = { is_protectorate = yes } }
 			}
-			any_in_global_list = {
-				variable = indian_territory
+			title:d_indian_territory = {
 				is_de_jure_liege_or_above_target = scope:target
 			}
 		}
@@ -1257,8 +1262,7 @@ sign_removal_treaty_interaction = {
 								is_leased_out = no
 								NOT = { holder = { is_protectorate = yes } }
 								save_temporary_scope_as = county_check
-								any_in_global_list = {
-									variable = indian_territory
+								title:d_indian_territory = {
 									is_de_jure_liege_or_above_target = scope:county_check
 								}
 							}
@@ -1273,8 +1277,7 @@ sign_removal_treaty_interaction = {
 									is_leased_out = no
 									NOT = { holder = { is_protectorate = yes } }
 									save_temporary_scope_as = county_check
-									any_in_global_list = {
-										variable = indian_territory
+									title:d_indian_territory = {
 										is_de_jure_liege_or_above_target = scope:county_check
 									}
 								}
@@ -1290,8 +1293,7 @@ sign_removal_treaty_interaction = {
 									is_leased_out = no
 									NOT = { holder = { is_protectorate = yes } }
 									save_temporary_scope_as = county_check
-									any_in_global_list = {
-										variable = indian_territory
+									title:d_indian_territory = {
 										is_de_jure_liege_or_above_target = scope:county_check
 									}
 								}
@@ -1307,8 +1309,7 @@ sign_removal_treaty_interaction = {
 									is_leased_out = no
 									NOT = { holder = { is_protectorate = yes } }
 									save_temporary_scope_as = county_check
-									any_in_global_list = {
-										variable = indian_territory
+									title:d_indian_territory = {
 										is_de_jure_liege_or_above_target = scope:county_check
 									}
 								}
@@ -1397,6 +1398,21 @@ sign_removal_treaty_interaction = {
 			scope:recipient = {
 				realm_size < 4
 			}
+			scope:actor = {
+				any_neighboring_top_liege_realm_owner = {
+					OR = {
+						has_government = tribal_government
+						AND = {
+							has_government = clan_government
+							NOT = { culture = { has_cultural_era_or_later = culture_era_renaissance } }
+						}
+					}
+					highest_held_title_tier < tier_kingdom
+					capital_province = { geographical_region = world_north_america }
+					any_realm_county = { NOT = { target_conquest_blocked_by_treaty_trigger = { CHARACTER = scope:actor TARGET = this } } }
+					realm_size > 3
+				}
+			}
 		}
 	}
 }
@@ -1439,8 +1455,7 @@ grant_reservation_land_interaction = {
 				tier = tier_county
 				NOT = { holder = { is_protectorate = yes } }
 			}
-			any_in_global_list = {
-				variable = indian_territory
+			scope:recipient.capital_county.duchy = {
 				is_de_jure_liege_or_above_target = scope:target
 			}
 		}
@@ -1488,4 +1503,557 @@ grant_reservation_land_interaction = {
 	}
 
 	auto_accept = yes
+}
+
+retract_reservation_land_interaction = {
+	category = interaction_category_vassal
+
+	target_type = title
+	target_filter = recipient_de_jure_titles
+	interface_priority = 60
+
+	common_interaction = yes
+	desc = retract_reservation_land_interaction_desc
+	
+	is_shown = {
+		scope:recipient = {
+			is_protectorate = yes
+			is_vassal_of = scope:actor
+			culture = { has_cultural_pillar = heritage_native_american }
+			any_sub_realm_county = {
+				target_is_de_jure_liege_or_above = title:d_indian_territory
+			}
+		}
+		scope:actor = {
+			has_title = title:e_united_states
+		}
+		current_date > 1890.1.1
+	}
+
+	is_valid = {
+		
+	}
+
+	is_valid_showing_failures_only = {
+
+	}
+	
+	can_be_picked_title = {
+		custom_description = {
+			text = sign_removal_treaty_interaction_territory_requirement
+			subject = scope:recipient
+			scope:target = {
+				is_leased_out = no
+				tier = tier_county
+			}
+			title:d_indian_territory = {
+				is_de_jure_liege_or_above_target = scope:target
+			}
+		}
+
+		custom_description = {
+			text = grant_titles_interaction_title_being_wagered
+			NOT = {
+				scope:target = { has_variable = wagered_county }
+			}
+		}
+	}
+
+	on_accept = {
+		if = {
+			limit = {
+				any_in_global_list = {
+					variable = indian_territory
+					exists = holder
+				}
+			}
+			custom_tooltip = {
+				text = retract_reservation_land_interaction_to_territory
+				every_in_global_list = {
+					variable = indian_territory
+					save_scope_as = de_jure_transfer_title
+					holder = { save_scope_as = gov_transfer }
+				}
+				create_title_and_vassal_change = {
+					type = granted
+					save_scope_as = change
+				}
+				scope:target = {
+					change_title_holder = {
+						holder = scope:gov_transfer
+						change = scope:change
+					}
+					random = {
+						chance = 50
+						set_county_culture = culture:american
+						set_county_faith = faith:protestant
+					}
+					set_de_jure_liege_title = scope:de_jure_transfer_title
+				}
+				resolve_title_and_vassal_change = scope:change
+			}
+		}
+		else = {
+			custom_tooltip = {
+				text = retract_reservation_land_interaction_form_territory
+				create_character = {
+					culture = culture:american
+					faith = faith:protestant
+					gender = male
+					employer = scope:actor
+					save_scope_as = new_governor
+				}
+				create_title_and_vassal_change = {
+					type = granted
+					save_scope_as = change
+				}
+				scope:target = {
+					change_title_holder = {
+						holder = scope:new_governor
+						change = scope:change
+					}
+					random = {
+						chance = 50
+						set_county_culture = culture:american
+						set_county_faith = faith:protestant
+					}
+				}
+				every_in_global_list = {
+					variable = indian_territory
+					save_scope_as = de_jure_transfer_title
+					change_title_holder = {
+						holder = scope:new_governor
+						change = scope:change
+					}
+				}
+				resolve_title_and_vassal_change = scope:change
+				scope:target = {
+					set_de_jure_liege_title = scope:de_jure_transfer_title
+				}
+			}
+		}
+		every_culture_global = {
+			limit = { has_cultural_pillar = heritage_native_american }
+			change_cultural_acceptance = {
+				target = scope:actor.culture
+				value = -2
+				desc = cultural_acceptance_gain_retracted_reservation
+			}
+		}
+	}
+
+	auto_accept = yes
+}
+
+establish_reservation_interaction = {
+	category = interaction_category_diplomacy
+	ai_min_reply_days = 5
+	ai_max_reply_days = 10
+
+	cooldown = { months = 1 }
+
+	common_interaction = yes
+	desc = establish_reservation_interaction_desc
+	
+	greeting = positive
+	notification_text = OFFER_PROTECTORATE_NOTIFICATION
+	
+	is_shown = {
+		scope:recipient = {
+			OR = {
+				has_government = tribal_government
+				AND = {
+					has_government = clan_government
+					NOT = { culture = { has_cultural_era_or_later = culture_era_renaissance } }
+				}
+			}
+			highest_held_title_tier < tier_kingdom
+			is_independent_ruler = yes
+			capital_province = { geographical_region = world_north_america }
+			any_realm_county = { NOT = { target_conquest_blocked_by_treaty_trigger = { CHARACTER = scope:actor TARGET = this } } }
+		}
+		scope:actor = {
+			NOT = { has_government = tribal_government }
+			culture = { has_innovation = innovation_overseas_exploration }
+			has_title = title:e_united_states
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:indian_removal_signed
+			}
+			NOT = {
+				any_realm_county = {
+					count >= 2
+					is_leased_out = no
+					NOT = { holder = { is_protectorate = yes } }
+					save_temporary_scope_as = county_check
+					title:d_indian_territory = {
+						is_de_jure_liege_or_above_target = scope:county_check
+					}
+				}
+			}
+		}
+		has_global_variable_list = indian_territory
+	}
+	
+	is_valid_showing_failures_only = {
+		scope:recipient = {
+			custom_description = {
+				text = "initiate_colonization_neighboring_condition"
+				subject = scope:recipient
+				any_neighboring_and_across_water_top_liege_realm_owner = { this = scope:actor }
+			}
+		}
+	}
+		
+	on_accept = {
+		establish_reservation_interaction_effect = yes
+		scope:actor = {
+			trigger_event = char_interaction.0001
+		}
+	}
+	
+	on_decline = {
+		scope:actor = {
+			trigger_event = char_interaction.0002
+		}
+	}
+	
+	ai_accept = {
+		base = -45
+
+		modifier = { #Wide difference in rank
+			desc = offer_vassalization_interaction_aibehavior_widetitletier_tt
+			trigger = {
+				scope:actor = {
+					tier_difference = {
+						target = scope:recipient
+						value > 1
+					}
+				}
+			}
+			add = 30
+		}
+		opinion_modifier = { # More likely to accept if Recipient likes the Actor
+			who = scope:recipient
+			opinion_target = scope:actor
+			multiplier = 0.25
+			desc = AI_OPINION_REASON
+		}
+		# Dynasty Prestige Levels
+		modifier = {
+			add = -5
+			desc = AI_DYNASTY_PRESTIGE_REASON
+			scope:actor = { has_dynasty = yes }
+			NOT = { scope:actor.dynasty = scope:recipient.dynasty }
+			scope:actor.dynasty = { dynasty_prestige_level = 0 }
+		}
+		modifier = {
+			desc = AI_DYNASTY_PRESTIGE_REASON
+			scope:actor = { has_dynasty = yes }
+			NOT = { scope:actor.dynasty = scope:recipient.dynasty }
+			scope:actor.dynasty = { dynasty_prestige_level >= 2 }
+			add = {
+				value = 10
+				if = {
+					limit = {
+						scope:actor.dynasty = { dynasty_prestige_level >= 3 }
+					}
+					add = 5
+				}
+				if = {
+					limit = {
+						scope:actor.dynasty = { dynasty_prestige_level >= 4 }
+					}
+					add = 5
+				}
+				if = {
+					limit = {
+						scope:actor.dynasty = { dynasty_prestige_level >= 5 }
+					}
+					add = 5
+				}
+				if = {
+					limit = {
+						scope:actor.dynasty = { dynasty_prestige_level >= 6 }
+					}
+					add = 5
+				}
+				if = {
+					limit = {
+						scope:actor.dynasty = { dynasty_prestige_level >= 7 }
+					}
+					add = 5
+				}
+				if = {
+					limit = {
+						scope:actor.dynasty = { dynasty_prestige_level >= 8 }
+					}
+					add = 5
+				}
+				if = {
+					limit = {
+						scope:actor.dynasty = { dynasty_prestige_level >= 9 }
+					}
+					add = 5
+				}
+				if = {
+					limit = {
+						scope:actor.dynasty = { dynasty_prestige_level >= 10 }
+					}
+					add = 5
+				}
+			}
+		}
+		modifier = { #Faith compatibility
+			scope:recipient.faith = {
+				faith_hostility_level = {
+					target = scope:actor.faith
+					value > faith_fully_accepted_level
+				}
+			}
+			add = {
+				value = -10
+				if = {
+					limit = {
+						scope:recipient.faith = {
+							faith_hostility_level = {
+								target = scope:actor.faith
+								value >= faith_hostile_level
+							}
+						}
+					}
+					subtract = 10
+				}
+				if = {
+					limit = {
+						scope:recipient.faith = {
+							faith_hostility_level = {
+								target = scope:actor.faith
+								value >= faith_evil_level
+							}
+						}
+					}
+					subtract = 20
+				}
+			}
+			desc = MARRY_DIFFERENT_FAITH_REASON
+		}
+		
+		modifier = {
+			add = intimidated_reason_value
+			scope:recipient = {
+				target_is_liege_or_above = scope:actor
+				has_dread_level_towards = {
+					target = scope:actor
+					level = 1
+				}
+			}
+			desc = INTIMIDATED_REASON
+		}
+		modifier = {
+			add = cowed_reason_value
+			scope:recipient = {
+				target_is_liege_or_above = scope:actor
+				has_dread_level_towards = {
+					target = scope:actor
+					level = 2
+				}
+			}
+			desc = COWED_REASON
+		}
+		
+		modifier = {
+			add = intimidated_external_reason_value
+			scope:recipient = {
+				NOT = { target_is_liege_or_above = scope:actor }
+				has_dread_level_towards = {
+					target = scope:actor
+					level = 1
+				}
+			}
+			desc = INTIMIDATED_REASON
+		}
+		modifier = {
+			add = cowed_external_reason_value
+			scope:recipient = {
+				NOT = { target_is_liege_or_above = scope:actor }
+				has_dread_level_towards = {
+					target = scope:actor
+					level = 2
+				}
+			}
+			desc = COWED_REASON
+		}
+		
+		modifier = {
+	  	  	add = {
+				value = 1
+				subtract = {
+					value = scope:recipient.max_military_strength
+					divide = { value = scope:actor.max_military_strength min = 1 }
+				}
+				multiply = 20
+	  		}
+			desc = offer_vassalization_interaction_aibehavior_power_tt
+		}
+		#Actor has claims on recipient's titles.
+		modifier = {
+			scope:actor = {
+				any_claim = {
+					holder = scope:recipient
+				}
+			}
+			add = 25
+			desc = IS_CLAIMANT_TO_RECIPIENT_TITLES
+		}
+		modifier = {
+			scope:recipient = {
+				NOT = {
+					any_claim = {
+						holder = scope:actor
+					}
+				}
+			}
+			scope:recipient.house = scope:actor.house
+			add = 15
+			desc = IS_SAME_HOUSE_REASON
+		}
+		modifier = {
+			scope:recipient = {
+				has_opinion_modifier = {
+					target = scope:actor
+					modifier = declared_war
+				}
+			}
+			add = -100
+			desc = DECLARED_WAR_REASON
+		}
+		modifier = {
+			scope:recipient = {
+				NOT = {
+					any_neighboring_top_liege_realm_owner = {
+						NOT = { this = scope:actor }
+						max_military_strength >= scope:recipient.max_military_strength
+					}
+				}
+				any_neighboring_top_liege_realm_owner = {
+					NOT = { this = scope:actor }
+					count > 1
+				}
+			}
+			add = -100
+			desc = DOMINANT_POWER_REASON
+		}
+		#Cannot honor treaty
+		modifier = {
+			desc = sign_removal_treaty_interaction_insufficient_lands_tt
+			trigger = {
+				scope:low_concessions = yes
+				scope:actor = {
+					NOR = {
+						any_realm_county = {
+							count >= 1
+							is_leased_out = no
+							NOT = { holder = { is_protectorate = yes } }
+							save_temporary_scope_as = county_check
+							scope:recipient.capital_county.duchy = {
+								is_de_jure_liege_or_above_target = scope:county_check
+							}
+						}
+						scope:recipient = {
+							any_realm_county = {
+								count >= 2
+								is_leased_out = no
+								NOT = { holder = { is_protectorate = yes } }
+								save_temporary_scope_as = county_check
+								scope:recipient.capital_county.duchy = {
+									is_de_jure_liege_or_above_target = scope:county_check
+								}
+							}
+						}
+					}
+				}
+			}
+			add = -1000
+		}
+
+		# CONTRACT OPTIONS
+		modifier = {
+			add = 20
+			scope:low_concessions = yes
+			desc = CONTRACT_LOW_CONCESSIONS_REASON
+		}
+		modifier = {
+			add = 20
+			scope:payment_concessions = yes
+			desc = CONTRACT_PAYMENT_CONCESSIONS_REASON
+		}
+	}
+
+	# Payment Concessions
+	send_option = {
+		is_valid = {
+			scope:actor = { gold >= 1000 }
+		}
+		flag = payment_concessions
+		localization = payment_concessions
+	}
+
+	# Low concessions
+	send_option = {
+		flag = low_concessions
+		localization = low_concessions
+	}
+
+	send_options_exclusive = no
+
+	ai_potential = {
+		is_adult = yes
+		is_independent_ruler = yes
+		highest_held_title_tier = tier_empire
+	}
+	
+	ai_targets = {
+		ai_recipients = neighboring_rulers
+	}
+	ai_target_quick_trigger = {
+		adult = yes
+	}
+	ai_frequency = 8
+	
+	ai_will_do = {
+		base = 20
+		modifier = {
+			factor = 5
+			scope:recipient = {
+				OR = {
+					capital_province = { geographical_region = world_great_lakes }
+					capital_province = { geographical_region = world_northeast_america }
+					capital_province = { geographical_region = world_southeast_america }
+					capital_province = { geographical_region = world_mississippi }
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			scope:recipient = {
+				realm_size < 4
+			}
+			scope:actor = {
+				any_neighboring_top_liege_realm_owner = {
+					OR = {
+						has_government = tribal_government
+						AND = {
+							has_government = clan_government
+							NOT = { culture = { has_cultural_era_or_later = culture_era_renaissance } }
+						}
+					}
+					highest_held_title_tier < tier_kingdom
+					capital_province = { geographical_region = world_north_america }
+					any_realm_county = { NOT = { target_conquest_blocked_by_treaty_trigger = { CHARACTER = scope:actor TARGET = this } } }
+					realm_size > 3
+				}
+			}
+		}
+	}
 }

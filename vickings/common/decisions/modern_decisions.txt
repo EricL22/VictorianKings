@@ -1101,6 +1101,9 @@ restore_french_empire_decision = {
 	}
 		
 	effect = {
+		change_government = feudal_government
+		add_realm_law = single_heir_succession_law
+
 		create_title_and_vassal_change = {
 			type = created
 			save_scope_as = change
@@ -1113,10 +1116,7 @@ restore_french_empire_decision = {
 			}
 		}
 		resolve_title_and_vassal_change = scope:change
-
 		destroy_title = title:k_france
-		change_government = feudal_government
-		add_realm_law = single_heir_succession_law
 
 		#Can only be done once
 		add_to_global_variable_list = {
@@ -1594,9 +1594,6 @@ treaty_of_1818_decision = {
 		}
 		title:c_lekhephmenus = {
 			set_de_jure_liege_title = title:d_saskatchewan
-		}
-		title:c_marmaagrinlis = {
-			set_de_jure_liege_title = title:d_northwest
 		}
 		title:c_aythiston = {
 			set_de_jure_liege_title = title:d_northwest

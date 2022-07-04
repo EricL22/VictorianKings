@@ -6,6 +6,7 @@ common
 --00_bookmarks.txt
 -casus_belli_types
 --ducal_conquest_cb
+--minor_religious_war, religious_war, major_religious_war
 -character_interactions
 --00_marriage_interactions.txt
 --call_ally_interaction
@@ -63,5 +64,6 @@ common
 events
 -chancellor_task_1001_new_claim_trigger
 gui
+-hud.gui ############# Only line 1641 has been changed, so replace that line when updating
 -window_character.gui
 -window_my_realm.gui

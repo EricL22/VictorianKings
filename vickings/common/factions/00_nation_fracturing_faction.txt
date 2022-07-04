@@ -108,7 +108,7 @@
 
 		common_faction_modifiers = {
 			FACTION_TARGET = scope:target
-			OPINION_MULTIPLIER = -0.5
+			OPINION_MULTIPLIER = -2
 			MAX_OPINION = 200
 			POWER = 0
 			THRESHOLD = 80
@@ -152,7 +152,7 @@
 
 		common_faction_modifiers = {
 			FACTION_TARGET = scope:faction.faction_target
-			OPINION_MULTIPLIER = -0.5
+			OPINION_MULTIPLIER = -2
 			MAX_OPINION = 100
 			POWER = scope:faction.faction_power
 			THRESHOLD = scope:faction.faction_power_threshold

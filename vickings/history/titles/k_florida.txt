@@ -88,18 +88,18 @@ c_nicknosetta = {
 	}
 	1822.3.30 = { de_jure_liege = d_florida }
 }
-c_megalhagirea = {
-	1808.1.1 = {
-		holder = nativeamerican31
-	}
-	1822.3.30 = { de_jure_liege = d_florida }
-}
-c_marobouuf = {
-	1808.1.1 = {
-		holder = nativeamerican31
-	}
-	1822.3.30 = { de_jure_liege = d_florida }
-}
+#c_megalhagirea = {
+#	1808.1.1 = {
+#		holder = nativeamerican31
+#	}
+#	1822.3.30 = { de_jure_liege = d_florida }
+#}
+#c_marobouuf = {
+#	1808.1.1 = {
+#		holder = nativeamerican31
+#	}
+#	1822.3.30 = { de_jure_liege = d_florida }
+#}
 c_korileibelia = {
 	1808.1.1 = {
 		holder = nativeamerican31
@@ -112,12 +112,12 @@ c_orioida = {
 	}
 	1822.3.30 = { de_jure_liege = d_florida }
 }
-c_metaponmylesmos = {
-	1808.1.1 = {
-		holder = nativeamerican31
-	}
-	1822.3.30 = { de_jure_liege = d_florida }
-}
+#c_metaponmylesmos = {
+#	1808.1.1 = {
+#		holder = nativeamerican31
+#	}
+#	1822.3.30 = { de_jure_liege = d_florida }
+#}
 c_mormorinon = {
 	1808.1.1 = {
 		holder = nativeamerican31
@@ -136,12 +136,12 @@ c_akrcalliion = {
 	}
 	1822.3.30 = { de_jure_liege = d_florida }
 }
-c_ithanchaoas = {
-	1808.1.1 = {
-		holder = nativeamerican31
-	}
-	1822.3.30 = { de_jure_liege = d_florida }
-}
+#c_ithanchaoas = {
+#	1808.1.1 = {
+#		holder = nativeamerican31
+#	}
+#	1822.3.30 = { de_jure_liege = d_florida }
+#}
 c_lapbyllai = {
 	1808.1.1 = {
 		holder = nativeamerican31
@@ -190,12 +190,12 @@ c_kamekoate = {
 	}
 	1822.3.30 = { de_jure_liege = d_florida }
 }
-c_gythcololia = {
-	1808.1.1 = {
-		holder = nativeamerican29
-	}
-	1822.3.30 = { de_jure_liege = d_florida }
-}
+#c_gythcololia = {
+#	1808.1.1 = {
+#		holder = nativeamerican29
+#	}
+#	1822.3.30 = { de_jure_liege = d_florida }
+#}
 c_tallahassee = {
 	1808.1.1 = {
 		holder = nativeamerican29
@@ -223,15 +223,15 @@ c_agrinkamalia = {
 	}
 	1822.3.30 = { de_jure_liege = d_florida }
 }
-c_nymphmarainda = {
-	1808.1.1 = {
-		holder = nativeamerican30
-	}
-	1815.2.1 = {
-		holder = 9121703
-	}
-	1822.3.30 = { de_jure_liege = d_florida }
-}
+#c_nymphmarainda = {
+#	1808.1.1 = {
+#		holder = nativeamerican30
+#	}
+#	1815.2.1 = {
+#		holder = 9121703
+#	}
+#	1822.3.30 = { de_jure_liege = d_florida }
+#}
 c_kyrencymuf = {
 	1808.1.1 = {
 		holder = nativeamerican30
@@ -241,15 +241,15 @@ c_kyrencymuf = {
 	}
 	1822.3.30 = { de_jure_liege = d_florida }
 }
-c_ialmaronai = {
-	1808.1.1 = {
-		holder = nativeamerican30
-	}
-	1815.2.1 = {
-		holder = 9121703
-	}
-	1822.3.30 = { de_jure_liege = d_florida }
-}
+#c_ialmaronai = {
+#	1808.1.1 = {
+#		holder = nativeamerican30
+#	}
+#	1815.2.1 = {
+#		holder = 9121703
+#	}
+#	1822.3.30 = { de_jure_liege = d_florida }
+#}
 c_pensacola = {
 	1822.3.30 = { de_jure_liege = d_florida }
 }

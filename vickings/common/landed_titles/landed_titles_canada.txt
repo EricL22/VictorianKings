@@ -572,23 +572,23 @@ e_canada = {
 					color2 = { 255 255 255 }
 				}
 			}
-			c_la_prairie = {
-				color = { 234 91 84 }
-				color2 = { 255 255 255 }
-
-				b_la_prairie = {
-					province = 11706
-
-					color = { 234 91 84 }
-					color2 = { 255 255 255 }
-				}
-			}
+		#	c_la_prairie = {
+		#		color = { 234 91 84 }
+		#		color2 = { 255 255 255 }
+		#	}
 			c_rouville = {
 				color = { 234 91 84 }
 				color2 = { 255 255 255 }
 
 				b_rouville = {
 					province = 11707
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+
+				b_la_prairie = {
+					province = 11706
 
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
@@ -681,10 +681,6 @@ e_canada = {
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
-			}
-			c_lislet = {
-				color = { 234 91 84 }
-				color2 = { 255 255 255 }
 
 				b_lislet = {
 					province = 11716
@@ -693,6 +689,10 @@ e_canada = {
 					color2 = { 255 255 255 }
 				}
 			}
+		#	c_lislet = {
+		#		color = { 234 91 84 }
+		#		color2 = { 255 255 255 }
+		#	}
 			c_kamouraska = {
 				color = { 234 91 84 }
 				color2 = { 255 255 255 }
@@ -979,10 +979,6 @@ e_canada = {
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
-			}
-			c_northumberland_on = {
-				color = { 234 91 84 }
-				color2 = { 255 255 255 }
 
 				b_cobourg = {
 					province = 11732
@@ -991,6 +987,10 @@ e_canada = {
 					color2 = { 255 255 255 }
 				}
 			}
+		#	c_northumberland_on = {
+		#		color = { 234 91 84 }
+		#		color2 = { 255 255 255 }
+		#	}
 			c_kawartha_lakes = {
 				color = { 234 91 84 }
 				color2 = { 255 255 255 }
@@ -1024,23 +1024,23 @@ e_canada = {
 					color2 = { 255 255 255 }
 				}
 			}
-			c_durham_on = {
-				color = { 234 91 84 }
-				color2 = { 255 255 255 }
-
-				b_whitby_on = {
-					province = 11736
-
-					color = { 234 91 84 }
-					color2 = { 255 255 255 }
-				}
-			}
+		#	c_durham_on = {
+		#		color = { 234 91 84 }
+		#		color2 = { 255 255 255 }
+		#	}
 			c_toronto = {
 				color = { 234 91 84 }
 				color2 = { 255 255 255 }
 
 				b_toronto = {
 					province = 11737
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
+
+				b_whitby_on = {
+					province = 11736
 
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
@@ -1056,10 +1056,6 @@ e_canada = {
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
-			}
-			c_halton = {
-				color = { 234 91 84 }
-				color2 = { 255 255 255 }
 
 				b_halton = {
 					province = 11739
@@ -1068,6 +1064,10 @@ e_canada = {
 					color2 = { 255 255 255 }
 				}
 			}
+		#	c_halton = {
+		#		color = { 234 91 84 }
+		#		color2 = { 255 255 255 }
+		#	}
 			c_grey = {
 				color = { 234 91 84 }
 				color2 = { 255 255 255 }
@@ -1100,6 +1100,13 @@ e_canada = {
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
+
+				b_haldimand_norfolk = {
+					province = 11744
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
 			}
 			c_niagara_on = {
 				color = { 234 91 84 }
@@ -1112,17 +1119,10 @@ e_canada = {
 					color2 = { 255 255 255 }
 				}
 			}
-			c_haldimand_norfolk = {
-				color = { 234 91 84 }
-				color2 = { 255 255 255 }
-
-				b_haldimand_norfolk = {
-					province = 11744
-
-					color = { 234 91 84 }
-					color2 = { 255 255 255 }
-				}
-			}
+		#	c_haldimand_norfolk = {
+		#		color = { 234 91 84 }
+		#		color2 = { 255 255 255 }
+		#	}
 			c_bruce = {
 				color = { 234 91 84 }
 				color2 = { 255 255 255 }
@@ -1166,10 +1166,6 @@ e_canada = {
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
-			}
-			c_elgin = {
-				color = { 234 91 84 }
-				color2 = { 255 255 255 }
 
 				b_st_thomas = {
 					province = 11749
@@ -1178,6 +1174,10 @@ e_canada = {
 					color2 = { 255 255 255 }
 				}
 			}
+		#	c_elgin = {
+		#		color = { 234 91 84 }
+		#		color2 = { 255 255 255 }
+		#	}
 			c_middlesex_on = {
 				color = { 234 91 84 }
 				color2 = { 255 255 255 }
@@ -1189,9 +1189,24 @@ e_canada = {
 					color2 = { 255 255 255 }
 				}
 			}
-			c_lambton = {
+		#	c_lambton = {
+		#		color = { 234 91 84 }
+		#		color2 = { 255 255 255 }
+		#	}
+		#	c_chatham_kent = {
+		#		color = { 234 91 84 }
+		#		color2 = { 255 255 255 }
+		#	}
+			c_essex_on = {
 				color = { 234 91 84 }
 				color2 = { 255 255 255 }
+
+				b_essex = {
+					province = 11753
+
+					color = { 234 91 84 }
+					color2 = { 255 255 255 }
+				}
 
 				b_lambton = {
 					province = 11751
@@ -1199,24 +1214,9 @@ e_canada = {
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }
 				}
-			}
-			c_chatham_kent = {
-				color = { 234 91 84 }
-				color2 = { 255 255 255 }
 
 				b_chatham_kent = {
 					province = 11752
-
-					color = { 234 91 84 }
-					color2 = { 255 255 255 }
-				}
-			}
-			c_essex_on = {
-				color = { 234 91 84 }
-				color2 = { 255 255 255 }
-
-				b_essex = {
-					province = 11753
 
 					color = { 234 91 84 }
 					color2 = { 255 255 255 }

@@ -13,11 +13,11 @@ c_chattanooga = {
 		holder = nativeamerican32
 	}
 }
-c_warren_tn = {
-	1808.1.1 = {
-		holder = nativeamerican32
-	}
-}
+#c_warren_tn = {
+#	1808.1.1 = {
+#		holder = nativeamerican32
+#	}
+#}
 c_marion_tn = {
 	1808.1.1 = {
 		holder = nativeamerican32
@@ -39,21 +39,21 @@ c_lawrence = {
 		holder = nativeamerican33
 	}
 }
-c_hardin = {
-	1808.1.1 = {
-		holder = nativeamerican33
-	}
-}
+#c_hardin = {
+#	1808.1.1 = {
+#		holder = nativeamerican33
+#	}
+#}
 c_weakley = {
 	1808.1.1 = {
 		holder = nativeamerican33
 	}
 }
-c_decatur = {
-	1808.1.1 = {
-		holder = nativeamerican33
-	}
-}
+#c_decatur = {
+#	1808.1.1 = {
+#		holder = nativeamerican33
+#	}
+#}
 c_henderson = {
 	1808.1.1 = {
 		holder = nativeamerican33

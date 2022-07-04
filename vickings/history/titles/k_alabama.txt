@@ -28,11 +28,11 @@ c_morgchetiri = {
 		holder = nativeamerican33
 	}
 }
-c_kamoricina = {
-	1808.1.1 = {
-		holder = nativeamerican33
-	}
-}
+#c_kamoricina = {
+#	1808.1.1 = {
+#		holder = nativeamerican33
+#	}
+#}
 c_megalkanllai = {
 	1808.1.1 = {
 		holder = nativeamerican30
@@ -130,24 +130,24 @@ c_alamassmea = {
 		holder = 6400140
 	}
 }
-c_kamarmodus = {
-	1808.1.1 = {
-		holder = nativeamerican30
-	}
-	1814.8.9 = {
-		holder = 6400140
-	}
-}
+#c_kamarmodus = {
+#	1808.1.1 = {
+#		holder = nativeamerican30
+#	}
+#	1814.8.9 = {
+#		holder = 6400140
+#	}
+#}
 c_cahaba = {
 	1808.1.1 = {
 		holder = nativeamerican34
 	}
 }
-c_aytmalon = {
-	1808.1.1 = {
-		holder = nativeamerican34
-	}
-}
+#c_aytmalon = {
+#	1808.1.1 = {
+#		holder = nativeamerican34
+#	}
+#}
 c_golialyium = {
 	1808.1.1 = {
 		holder = nativeamerican30
@@ -229,8 +229,8 @@ c_ephekilia = {
 		holder = 6400140
 	}
 }
-c_metaponcarica = {
-	1809.3.7 = {
-		holder = 6400140
-	}
-}
+#c_metaponcarica = {
+#	1809.3.7 = {
+#		holder = 6400140
+#	}
+#}

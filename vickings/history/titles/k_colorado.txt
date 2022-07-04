@@ -28,16 +28,16 @@ c_helohellesnae = {
 		holder = nativeamerican18
 	}
 }
-c_naxnystes = {
-	1808.1.1 = {
-		holder = nativeamerican18
-	}
-}
-c_ithanmochlia = {
-	1808.1.1 = {
-		holder = nativeamerican18
-	}
-}
+#c_naxnystes = {
+#	1808.1.1 = {
+#		holder = nativeamerican18
+#	}
+#}
+#c_ithanmochlia = {
+#	1808.1.1 = {
+#		holder = nativeamerican18
+#	}
+#}
 c_lebhublus = {
 	1808.1.1 = {
 		holder = nativeamerican18

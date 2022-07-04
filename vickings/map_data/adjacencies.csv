@@ -272,5 +272,9 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 12088;12097;sea;11965;-1;-1;-1;-1;Baton Rouge-Lafayette
 12134;12150;sea;8701;-1;-1;-1;-1;Straits of Mackinac
 12203;12296;river_large;11989;-1;-1;-1;-1;Mantincleoas-St Louis
+12216;12363;river_large;12023;-1;-1;-1;-1;Misegolgoas-Metkorinthai
+12254;12394;river_large;12027;-1;-1;-1;-1;Aeglebeum-Clazboucia
 12296;12315;river_large;11991;-1;-1;-1;-1;St Louis-Emporcaryonia
+12344;12354;river_large;11972;-1;-1;-1;-1;Little Rock
+12460;12567;river_large;11974;-1;-1;-1;-1;Fort Smith
 -1;-1;;-1;-1;-1;-1;-1;

@@ -2,6 +2,9 @@ c_nysantiium = {
 	1808.1.1 = {
 		holder = nativeamerican8
 	}
+	1830.5.28 = {
+		de_jure_liege = d_indian_territory
+	}
 	1835.12.29 = {
 		holder = nativeamericanres4
 		liege = e_united_states
@@ -10,6 +13,9 @@ c_nysantiium = {
 c_miselampllai = {
 	1808.1.1 = {
 		holder = nativeamerican8
+	}
+	1830.5.28 = {
+		de_jure_liege = d_indian_territory
 	}
 	1832.3.24 = {
 		holder = nativeamericanres3
@@ -20,6 +26,9 @@ c_eubbhyrtoli = {
 	1808.1.1 = {
 		holder = nativeamerican8
 	}
+	1830.5.28 = {
+		de_jure_liege = d_indian_territory
+	}
 	1832.3.24 = {
 		holder = nativeamericanres3
 	}
@@ -27,6 +36,9 @@ c_eubbhyrtoli = {
 c_apolldidythus = {
 	1808.1.1 = {
 		holder = nativeamerican8
+	}
+	1830.5.28 = {
+		de_jure_liege = d_indian_territory
 	}
 	1835.12.29 = {
 		holder = nativeamericanres4
@@ -36,6 +48,9 @@ c_cycebdos = {
 	1808.1.1 = {
 		holder = nativeamerican8
 	}
+	1830.5.28 = {
+		de_jure_liege = d_indian_territory
+	}
 	1832.3.24 = {
 		holder = nativeamericanres3
 	}
@@ -43,6 +58,9 @@ c_cycebdos = {
 c_argnicopetra = {
 	1808.1.1 = {
 		holder = nativeamerican8
+	}
+	1830.5.28 = {
+		de_jure_liege = d_indian_territory
 	}
 	1835.12.29 = {
 		holder = nativeamericanres4
@@ -52,13 +70,19 @@ c_mormylia = {
 	1808.1.1 = {
 		holder = nativeamerican8
 	}
+	1830.5.28 = {
+		de_jure_liege = d_indian_territory
+	}
 	1832.3.24 = {
 		holder = nativeamericanres3
 	}
 }
-c_hermkamaon = {
+c_oklahoma = {
 	1808.1.1 = {
 		holder = nativeamerican8
+	}
+	1830.5.28 = {
+		de_jure_liege = d_indian_territory
 	}
 	1832.10.20 = {
 		holder = nativeamericanres5
@@ -69,6 +93,9 @@ c_mumetaponida = {
 	1808.1.1 = {
 		holder = nativeamerican8
 	}
+	1830.5.28 = {
+		de_jure_liege = d_indian_territory
+	}
 	1832.5.9 = {
 		holder = nativeamericanres2
 		liege = e_united_states
@@ -78,6 +105,9 @@ c_kikaoas = {
 	1808.1.1 = {
 		holder = nativeamerican8
 	}
+	1830.5.28 = {
+		de_jure_liege = d_indian_territory
+	}
 	1835.12.29 = {
 		holder = nativeamericanres4
 	}
@@ -85,6 +115,9 @@ c_kikaoas = {
 c_morgankydoon = {
 	1808.1.1 = {
 		holder = nativeamerican8
+	}
+	1830.5.28 = {
+		de_jure_liege = d_indian_territory
 	}
 	1835.12.29 = {
 		holder = nativeamericanres4
@@ -94,6 +127,9 @@ c_chersgortynes = {
 	1808.1.1 = {
 		holder = nativeamerican8
 	}
+	1830.5.28 = {
+		de_jure_liege = d_indian_territory
+	}
 	1835.12.29 = {
 		holder = nativeamericanres4
 	}
@@ -101,6 +137,9 @@ c_chersgortynes = {
 c_nemleslia = {
 	1808.1.1 = {
 		holder = nativeamerican8
+	}
+	1830.5.28 = {
+		de_jure_liege = d_indian_territory
 	}
 	1835.12.29 = {
 		holder = nativeamericanres4
@@ -110,6 +149,9 @@ c_odesemporosse = {
 	1808.1.1 = {
 		holder = nativeamerican8
 	}
+	1830.5.28 = {
+		de_jure_liege = d_indian_territory
+	}
 	1835.12.29 = {
 		holder = nativeamericanres4
 	}
@@ -118,6 +160,9 @@ c_epidkyron = {
 	1808.1.1 = {
 		holder = nativeamerican8
 	}
+	1830.5.28 = {
+		de_jure_liege = d_indian_territory
+	}
 	1835.12.29 = {
 		holder = nativeamericanres4
 	}
@@ -125,6 +170,9 @@ c_epidkyron = {
 c_opdionae = {
 	1808.1.1 = {
 		holder = nativeamerican8
+	}
+	1830.5.28 = {
+		de_jure_liege = d_indian_territory
 	}
 	1831.2.24 = {
 		holder = nativeamericanres1
@@ -135,6 +183,9 @@ c_knosseluf = {
 	1808.1.1 = {
 		holder = nativeamerican8
 	}
+	1830.5.28 = {
+		de_jure_liege = d_indian_territory
+	}
 	1831.2.24 = {
 		holder = nativeamericanres1
 	}
@@ -142,6 +193,9 @@ c_knosseluf = {
 c_arthememenus = {
 	1808.1.1 = {
 		holder = nativeamerican8
+	}
+	1830.5.28 = {
+		de_jure_liege = d_indian_territory
 	}
 	1831.2.24 = {
 		holder = nativeamericanres1
@@ -152,6 +206,9 @@ c_millgyrthiissa = {
 	1808.1.1 = {
 		holder = nativeamerican6
 	}
+	1830.5.28 = {
+		de_jure_liege = d_indian_territory
+	}
 	1831.2.24 = {
 		holder = nativeamericanres1
 	}
@@ -160,6 +217,9 @@ c_olynkaidia = {
 	1808.1.1 = {
 		holder = nativeamerican6
 	}
+	1830.5.28 = {
+		de_jure_liege = d_indian_territory
+	}
 	1831.2.24 = {
 		holder = nativeamericanres1
 	}
@@ -167,6 +227,9 @@ c_olynkaidia = {
 c_lampsanketta = {
 	1808.1.1 = {
 		holder = nativeamerican6
+	}
+	1830.5.28 = {
+		de_jure_liege = d_indian_territory
 	}
 	1831.2.24 = {
 		holder = nativeamericanres1
@@ -177,6 +240,9 @@ c_magnolynila = {
 	1808.1.1 = {
 		holder = nativeamerican14
 	}
+	1830.5.28 = {
+		de_jure_liege = d_indian_territory
+	}
 	1832.10.20 = {
 		holder = nativeamericanres5
 	}
@@ -184,6 +250,9 @@ c_magnolynila = {
 c_gyrthdorosse = {
 	1808.1.1 = {
 		holder = nativeamerican14
+	}
+	1830.5.28 = {
+		de_jure_liege = d_indian_territory
 	}
 	1832.10.20 = {
 		holder = nativeamericanres5
@@ -193,6 +262,9 @@ c_leontcheaea = {
 	1808.1.1 = {
 		holder = nativeamerican14
 	}
+	1830.5.28 = {
+		de_jure_liege = d_indian_territory
+	}
 	1832.10.20 = {
 		holder = nativeamericanres5
 	}
@@ -200,6 +272,9 @@ c_leontcheaea = {
 c_lefkithanatrea = {
 	1808.1.1 = {
 		holder = nativeamerican14
+	}
+	1830.5.28 = {
+		de_jure_liege = d_indian_territory
 	}
 	1832.10.20 = {
 		holder = nativeamericanres5
@@ -209,6 +284,9 @@ c_edehagthus = {
 	1808.1.1 = {
 		holder = nativeamerican14
 	}
+	1830.5.28 = {
+		de_jure_liege = d_indian_territory
+	}
 	1832.10.20 = {
 		holder = nativeamericanres5
 	}
@@ -216,6 +294,9 @@ c_edehagthus = {
 c_largonthos = {
 	1808.1.1 = {
 		holder = nativeamerican14
+	}
+	1830.5.28 = {
+		de_jure_liege = d_indian_territory
 	}
 	1831.2.24 = {
 		holder = nativeamericanres1
@@ -226,6 +307,9 @@ c_nysmallai = {
 	1808.1.1 = {
 		holder = nativeamerican15
 	}
+	1830.5.28 = {
+		de_jure_liege = d_indian_territory
+	}
 	1832.10.20 = {
 		holder = nativeamericanres5
 	}
@@ -233,6 +317,9 @@ c_nysmallai = {
 c_clazmaratatrea = {
 	1808.1.1 = {
 		holder = nativeamerican15
+	}
+	1830.5.28 = {
+		de_jure_liege = d_indian_territory
 	}
 	1832.10.20 = {
 		holder = nativeamericanres5
@@ -242,6 +329,9 @@ c_leprhemeine = {
 	1808.1.1 = {
 		holder = nativeamerican15
 	}
+	1830.5.28 = {
+		de_jure_liege = d_indian_territory
+	}
 	1832.10.20 = {
 		holder = nativeamericanres5
 	}
@@ -249,6 +339,9 @@ c_leprhemeine = {
 c_mamagcum = {
 	1808.1.1 = {
 		holder = nativeamerican15
+	}
+	1830.5.28 = {
+		de_jure_liege = d_indian_territory
 	}
 	1832.10.20 = {
 		holder = nativeamericanres5

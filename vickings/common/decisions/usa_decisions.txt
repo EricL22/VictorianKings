@@ -38,30 +38,36 @@
 				name = indian_territory
 				target = title:d_oklahoma
 			}
+			title:d_oklahoma = {
+				every_in_de_jure_hierarchy = {
+					limit = { tier = tier_county }
+					set_de_jure_liege_title = title:d_indian_territory
+				}
+			}
 			every_independent_ruler = {
 				limit = {
 					any_realm_county = { target_is_de_jure_liege_or_above = title:d_arkansas }
-					any_realm_county = { target_is_de_jure_liege_or_above = title:d_oklahoma }
+					any_realm_county = { target_is_de_jure_liege_or_above = title:d_indian_territory }
 				}
 				root = {
 					start_war = {
 						cb = multiple_duchy_de_jure_cb
 						target = prev
 						target_title = title:d_arkansas
-						target_title = title:d_oklahoma
+						target_title = title:d_indian_territory
 					}
 				}
 			}
 			every_independent_ruler = {
 				limit = {
-					any_realm_county = { target_is_de_jure_liege_or_above = title:d_oklahoma }
+					any_realm_county = { target_is_de_jure_liege_or_above = title:d_indian_territory }
 					NOT = { is_at_war_with = root }
 				}
 				root = {
 					start_war = {
 						cb = individual_duchy_de_jure_cb
 						target = prev
-						target_title = title:d_oklahoma
+						target_title = title:d_indian_territory
 					}
 				}
 			}
@@ -79,5 +85,69 @@
 			NOT = { has_character_flag = liberal_party }
 			has_government = republic_government
 		}
+	}
+}
+
+ai_organize_indian_territory_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
+	major = yes
+	ai_check_interval = 5
+
+	is_shown = {
+		is_ai = yes
+		any_vassal = {
+			is_protectorate = yes
+			culture = { has_cultural_pillar = heritage_native_american }
+		}
+		has_title = title:e_united_states
+		NOT = {  #Can only do it once.
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:ai_indian_territory_1
+			}
+		}
+		any_in_global_list = {
+			variable = indian_territory
+			this = title:d_oklahoma
+		}
+	}
+
+	is_valid = {
+		current_date > 1890.1.1
+		NOT = { exists = title:d_oklahoma.holder }
+	}
+
+	is_valid_showing_failures_only = {
+		is_imprisoned = no
+		is_at_war = no
+	}
+		
+	effect = {
+		create_character = {
+			culture = culture:american
+			faith = faith:protestant
+			gender = male
+			employer = scope:actor
+			save_scope_as = new_governor
+		}
+		establish_oklahoma_territory_effect = yes
+		every_culture_global = {
+			limit = { has_cultural_pillar = heritage_native_american }
+			change_cultural_acceptance = {
+				target = root.culture
+				value = medium_negative_culture_acceptance
+				desc = cultural_acceptance_gain_retracted_reservation
+			}
+		}
+
+		#Can only be done once
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:ai_indian_territory_1
+		}
+	}
+
+	ai_will_do = {
+		base = 100
 	}
 }

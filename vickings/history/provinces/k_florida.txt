@@ -1,41 +1,81 @@
 11788 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1832.5.9 = {
+		culture = american
+		religion = protestant
+	}
 }
 
 11789 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1832.5.9 = {
+		culture = american
+		religion = protestant
+	}
 }
 
 11790 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1832.5.9 = {
+		culture = american
+		religion = protestant
+	}
 }
 
 11791 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1832.5.9 = {
+		culture = american
+		religion = protestant
+	}
 }
 
 11792 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1832.5.9 = {
+		culture = american
+		religion = protestant
+	}
 }
 
 11793 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1832.5.9 = {
+		culture = american
+		religion = protestant
+	}
 }
 
 11794 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1832.5.9 = {
+		culture = american
+		religion = protestant
+	}
 }
 
 11795 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1832.5.9 = {
+		culture = american
+		religion = protestant
+	}
 }
 
 11796 = {
@@ -46,164 +86,329 @@
 11797 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1832.5.9 = {
+		culture = american
+		religion = protestant
+	}
 }
 
 11798 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1832.5.9 = {
+		culture = american
+		religion = protestant
+	}
 }
 
 11799 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1832.5.9 = {
+		culture = american
+		religion = protestant
+	}
 }
 
 11800 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1832.5.9 = {
+		culture = american
+		religion = protestant
+	}
 }
 
 11801 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1832.5.9 = {
+		culture = american
+		religion = protestant
+	}
 }
 
 11802 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1832.5.9 = {
+		culture = american
+		religion = protestant
+	}
 }
 
 11803 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1832.5.9 = {
+		culture = american
+		religion = protestant
+	}
 }
 
 11804 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1832.5.9 = {
+		culture = american
+		religion = protestant
+	}
 }
 
 11805 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1832.5.9 = {
+		culture = american
+		religion = protestant
+	}
 }
 
 11806 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1832.5.9 = {
+		culture = american
+		religion = protestant
+	}
 }
 
 11807 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1832.5.9 = {
+		culture = american
+		religion = protestant
+	}
 }
 
 11808 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1832.5.9 = {
+		culture = american
+		religion = protestant
+	}
 }
 
 11809 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1832.5.9 = {
+		culture = american
+		religion = protestant
+	}
 }
 
 11810 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1832.5.9 = {
+		culture = american
+		religion = protestant
+	}
 }
 
 11811 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1832.5.9 = {
+		culture = american
+		religion = protestant
+	}
 }
 
 11812 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1832.5.9 = {
+		culture = american
+		religion = protestant
+	}
 }
 
 11813 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1832.5.9 = {
+		culture = american
+		religion = protestant
+	}
 }
 
 11814 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1832.5.9 = {
+		culture = american
+		religion = protestant
+	}
 }
 
 11815 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1832.5.9 = {
+		culture = american
+		religion = protestant
+	}
 }
 
 11816 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1832.5.9 = {
+		culture = american
+		religion = protestant
+	}
 }
 
 11817 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1832.5.9 = {
+		culture = american
+		religion = protestant
+	}
 }
 
 11818 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1832.5.9 = {
+		culture = american
+		religion = protestant
+	}
 }
 
 11819 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1832.5.9 = {
+		culture = american
+		religion = protestant
+	}
 }
 
 11820 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1832.5.9 = {
+		culture = american
+		religion = protestant
+	}
 }
 
 11821 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1832.5.9 = {
+		culture = american
+		religion = protestant
+	}
 }
 
 11822 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1832.5.9 = {
+		culture = american
+		religion = protestant
+	}
 }
 
 11823 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1832.5.9 = {
+		culture = american
+		religion = protestant
+	}
 }
 
 11824 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1832.5.9 = {
+		culture = american
+		religion = protestant
+	}
 }
 
 11825 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1832.5.9 = {
+		culture = american
+		religion = protestant
+	}
 }
 
 11826 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1832.5.9 = {
+		culture = american
+		religion = protestant
+	}
 }
 
 11827 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1832.5.9 = {
+		culture = american
+		religion = protestant
+	}
 }
 
 11828 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1832.5.9 = {
+		culture = american
+		religion = protestant
+	}
 }
 
 11829 = {
 	culture = native_american_minor
 	religion = pagan
+
+	1832.5.9 = {
+		culture = american
+		religion = protestant
+	}
 }

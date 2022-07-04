@@ -18,11 +18,11 @@ c_idamaratheia = {
 		holder = nativeamerican6
 	}
 }
-c_chammorus = {
-	1808.1.1 = {
-		holder = nativeamerican6
-	}
-}
+#c_chammorus = {
+#	1808.1.1 = {
+#		holder = nativeamerican6
+#	}
+#}
 c_cebgolesmos = {
 	1808.1.1 = {
 		holder = nativeamerican6
@@ -68,22 +68,22 @@ c_metodder = {
 		holder = 6400162
 	}
 }
-c_bhyrtmyleia = {
-	1808.1.1 = {
-		holder = nativeamerican8
-	}
-	1835.3.9 = {
-		holder = 6400162
-	}
-}
-c_kourkoilea = {
-	1808.1.1 = {
-		holder = nativeamerican8
-	}
-	1835.3.9 = {
-		holder = 6400162
-	}
-}
+#c_bhyrtmyleia = {
+#	1808.1.1 = {
+#		holder = nativeamerican8
+#	}
+#	1835.3.9 = {
+#		holder = 6400162
+#	}
+#}
+#c_kourkoilea = {
+#	1808.1.1 = {
+#		holder = nativeamerican8
+#	}
+#	1835.3.9 = {
+#		holder = 6400162
+#	}
+#}
 
 c_iasnauus = {
 	1810.4.17 = {
@@ -162,17 +162,17 @@ c_athimbrlis = {
 		holder = 6400162
 	}
 }
-c_nympdicaeainda = {
-	1810.4.17 = {
-		holder = 6400159
-	}
-	1813.7.1 = {
-		holder = 6400160
-	}
-	1835.3.9 = {
-		holder = 6400162
-	}
-}
+#c_nympdicaeainda = {
+#	1810.4.17 = {
+#		holder = 6400159
+#	}
+#	1813.7.1 = {
+#		holder = 6400160
+#	}
+#	1835.3.9 = {
+#		holder = 6400162
+#	}
+#}
 c_knosseubios = {
 	1810.4.17 = {
 		holder = 6400159
@@ -184,17 +184,17 @@ c_knosseubios = {
 		holder = 6400162
 	}
 }
-c_artopuslis = {
-	1810.4.17 = {
-		holder = 6400159
-	}
-	1813.7.1 = {
-		holder = 6400160
-	}
-	1835.3.9 = {
-		holder = 6400162
-	}
-}
+#c_artopuslis = {
+#	1810.4.17 = {
+#		holder = 6400159
+#	}
+#	1813.7.1 = {
+#		holder = 6400160
+#	}
+#	1835.3.9 = {
+#		holder = 6400162
+#	}
+#}
 c_borysnymphita = {
 	1810.4.17 = {
 		holder = 6400159

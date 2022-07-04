@@ -141,11 +141,11 @@ c_kuoeios = {
 		holder = nativeamerican21
 	}
 }
-c_clazmadytonia = {
-	1808.1.1 = {
-		holder = nativeamerican21
-	}
-}
+#c_clazmadytonia = {
+#	1808.1.1 = {
+#		holder = nativeamerican21
+#	}
+#}
 c_aleclaita = {
 	1808.1.1 = {
 		holder = nativeamerican21
@@ -156,11 +156,11 @@ c_madytleibae = {
 		holder = nativeamerican21
 	}
 }
-c_madlampum = {
-	1808.1.1 = {
-		holder = nativeamerican21
-	}
-}
+#c_madlampum = {
+#	1808.1.1 = {
+#		holder = nativeamerican21
+#	}
+#}
 c_kandiotrias = {
 	1808.1.1 = {
 		holder = nativeamerican21
@@ -187,7 +187,7 @@ c_oenhalicinda = {
 	}
 }
 
-c_decediosyra = {
+c_omaha = {
 	1808.1.1 = {
 		holder = nativeamerican22
 	}

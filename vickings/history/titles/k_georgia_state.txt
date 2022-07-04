@@ -76,17 +76,17 @@ c_golgantilia = {
 		holder = 6400137
 	}
 }
-c_mukeeubthera = {
-	1814.8.9 = {
-		holder = 6400136
-	}
-	1815.11.20 = {
-		holder = 6400113
-	}
-	1835.11.4 = {
-		holder = 6400137
-	}
-}
+#c_mukeeubthera = {
+#	1814.8.9 = {
+#		holder = 6400136
+#	}
+#	1815.11.20 = {
+#		holder = 6400113
+#	}
+#	1835.11.4 = {
+#		holder = 6400137
+#	}
+#}
 c_ceblaodines = {
 	1814.8.9 = {
 		holder = 6400136
@@ -98,17 +98,17 @@ c_ceblaodines = {
 		holder = 6400137
 	}
 }
-c_dycalinda = {
-	1814.8.9 = {
-		holder = 6400136
-	}
-	1815.11.20 = {
-		holder = 6400113
-	}
-	1835.11.4 = {
-		holder = 6400137
-	}
-}
+#c_dycalinda = {
+#	1814.8.9 = {
+#		holder = 6400136
+#	}
+#	1815.11.20 = {
+#		holder = 6400113
+#	}
+#	1835.11.4 = {
+#		holder = 6400137
+#	}
+#}
 c_antigmochcum = {
 	1814.8.9 = {
 		holder = 6400136

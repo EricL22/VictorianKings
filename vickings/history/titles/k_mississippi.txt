@@ -104,11 +104,11 @@ c_cebrmonastmea = {
 		holder = nativeamerican34
 	}
 }
-c_opusdiosmea = {
-	1808.1.1 = {
-		holder = nativeamerican34
-	}
-}
+#c_opusdiosmea = {
+#	1808.1.1 = {
+#		holder = nativeamerican34
+#	}
+#}
 c_marhyuf = {
 	1808.1.1 = {
 		holder = nativeamerican34

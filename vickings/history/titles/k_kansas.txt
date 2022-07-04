@@ -31,7 +31,7 @@ c_acanhyemea = {
 		holder = nativeamerican8
 	}
 }
-c_lariaosia = {
+c_wichita = {
 	1808.1.1 = {
 		holder = nativeamerican8
 	}
@@ -77,7 +77,7 @@ c_moambraea = {
 		holder = nativeamerican16
 	}
 }
-c_lepreherates = {
+c_topeka = {
 	1808.1.1 = {
 		holder = nativeamerican16
 	}

@@ -133,11 +133,11 @@ c_gellefkon = {
 		holder = nativeamerican13
 	}
 }
-c_kimmeabeia = {
-	1808.1.1 = {
-		holder = nativeamerican13
-	}
-}
+#c_kimmeabeia = {
+#	1808.1.1 = {
+#		holder = nativeamerican13
+#	}
+#}
 c_delphkydothrae = {
 	1808.1.1 = {
 		holder = nativeamerican13

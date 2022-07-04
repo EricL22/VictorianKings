@@ -70,14 +70,14 @@ c_crohiai = {
 		holder = nativeamerican1
 	}
 }
-c_okalliessa = {
-	1808.1.1 = {
-		holder = 9000104
-	}
-	1814.1.1 = {
-		holder = nativeamerican1
-	}
-}
+#c_okalliessa = {
+#	1808.1.1 = {
+#		holder = 9000104
+#	}
+#	1814.1.1 = {
+#		holder = nativeamerican1
+#	}
+#}
 c_orestmonastimenus = {
 	1808.1.1 = {
 		holder = 9000104
@@ -117,11 +117,11 @@ c_halichersinda = {
 	}
 }
 
-c_clazboucia = {
-	1800.1.1 = {
-		holder = nativeamerican13
-	}
-}
+#c_clazboucia = {
+#	1800.1.1 = {
+#		holder = nativeamerican13
+#	}
+#}
 c_gortymorgessa = {
 	1800.1.1 = {
 		holder = nativeamerican13
@@ -177,11 +177,11 @@ c_kourimaroinon = {
 		holder = nativeamerican13
 	}
 }
-c_nysmathus = {
-	1800.1.1 = {
-		holder = nativeamerican13
-	}
-}
+#c_nysmathus = {
+#	1800.1.1 = {
+#		holder = nativeamerican13
+#	}
+#}
 c_kermadene = {
 	1800.1.1 = {
 		holder = nativeamerican13

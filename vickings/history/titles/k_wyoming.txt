@@ -25,11 +25,11 @@ c_dorygytlia = {
 		holder = nativeamerican24
 	}
 }
-c_manticleoene = {
-	1808.1.1 = {
-		holder = nativeamerican24
-	}
-}
+#c_manticleoene = {
+#	1808.1.1 = {
+#		holder = nativeamerican24
+#	}
+#}
 c_maggortine = {
 	1808.1.1 = {
 		holder = nativeamerican24

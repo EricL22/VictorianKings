@@ -221,8 +221,9 @@ vk_war_won_attacker_effects = {
 						take_baronies = yes
 					}
 					random = {
-						chance = 20
+						chance = 50
 						set_county_culture = culture:american
+						set_county_faith = faith:protestant
 					}
 				}
 				every_vassal_or_below = {
@@ -269,7 +270,10 @@ vk_war_won_attacker_effects = {
 			}
 			scope:defender = {
 				every_sub_realm_county = {
-					limit = { NOT = { target_is_de_jure_liege_or_above = scope:defender.primary_title } }
+					limit = {
+						scope:defender.primary_title.tier > tier_county
+						NOT = { target_is_de_jure_liege_or_above = scope:defender.primary_title }
+					}
 					change_title_holder = {
 						holder = scope:attacker
 						change = scope:change

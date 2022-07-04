@@ -1363,9 +1363,6 @@ moderntimes.30 = {
 			title:c_lekhephmenus = {
 				set_de_jure_liege_title = title:d_saskatchewan
 			}
-			title:c_marmaagrinlis = {
-				set_de_jure_liege_title = title:d_northwest
-			}
 			title:c_aythiston = {
 				set_de_jure_liege_title = title:d_northwest
 			}
@@ -1633,63 +1630,7 @@ moderntimes.200 = {
 	type = character_event
 	hidden = yes
 	
-	immediate = {
-	spawn_army = {
-		name = "Chinese Pretender Army"
-		uses_supply = no
-		inheritable = no
-		men_at_arms = {
-			type = chu_ko_nu
-			stacks = 6
-		}
-		men_at_arms = {
-			type = light_horsemen
-			stacks = 3
-		}
-		men_at_arms = {
-			type = house_guard
-			stacks = 1
-		}
-		men_at_arms = {
-			type = light_footmen
-			stacks = 7
-		}
-		men_at_arms = {
-			type = armored_footmen
-			stacks = 3
-		}
-		men_at_arms = {
-			type = mangonel
-			stacks = 5
-		}
-		location = capital_province
-	}
-	spawn_army = {
-		name = "Chinese Pretender Army"
-		uses_supply = no
-		inheritable = no
-		men_at_arms = {
-			type = chu_ko_nu
-			stacks = 6
-		}
-		men_at_arms = {
-			type = light_horsemen
-			stacks = 3
-		}
-		men_at_arms = {
-			type = house_guard
-			stacks = 1
-		}
-		men_at_arms = {
-			type = light_footmen
-			stacks = 7
-		}
-		men_at_arms = {
-			type = armored_footmen
-			stacks = 3
-		}
-		location = capital_province
-	}
+	immediate = { change_government = feudal_government
 	}
 }
 
@@ -1778,6 +1719,8 @@ moderntimes.400 = {
 	immediate = {
 		if = {
 			limit = {
+				scope:title = title:e_russia
+				culture = { has_cultural_pillar = heritage_east_slavic }
 				NOT = { has_government = republic_government }
 			}
 			if = {
@@ -1803,6 +1746,23 @@ moderntimes.400 = {
 					else = {
 						remove_character_modifier = empress_of_russia_modifier
 					}
+				}
+			}
+		}
+		if = {
+			limit = { scope:title = title:e_china }
+			if = {
+				limit = {
+					dynasty = dynasty:161612
+					NOT = { has_government = republic_government }
+				}
+				title:e_china = {
+					set_title_name = qing_china
+				}
+			}
+			else = {
+				title:e_china = {
+					reset_title_name = yes
 				}
 			}
 		}

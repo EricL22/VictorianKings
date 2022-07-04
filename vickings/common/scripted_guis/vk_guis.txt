@@ -1,0 +1,14 @@
+﻿vice_president_save_fix = {
+	scope = character
+	effect = {
+		if = {
+			limit = { employs_court_position = vice_president_court_position }
+			random_court_position_holder = {
+				type = vice_president_court_position
+				save_scope_as = replace_vp
+			}
+			set_designated_heir = scope:replace_vp
+			add_realm_law = hierarchy_city_succession_law
+		}
+	}
+}

@@ -53,14 +53,14 @@ c_gourhemerolea = {
 		holder = 6400153
 	}
 }
-c_carycyuf = {
-	1814.1.1 = {
-		holder = nativeamerican1
-	}
-	1835.11.3 = {
-		holder = 6400153
-	}
-}
+#c_carycyuf = {
+#	1814.1.1 = {
+#		holder = nativeamerican1
+#	}
+#	1835.11.3 = {
+#		holder = 6400153
+#	}
+#}
 
 d_west_upper_michigan = {
 	1808.1.1 = {
@@ -78,14 +78,14 @@ c_hublknosslea = {
 		holder = 6400153
 	}
 }
-c_niaapollmea = {
-	1814.1.1 = {
-		holder = nativeamerican1
-	}
-	1835.11.3 = {
-		holder = 6400153
-	}
-}
+#c_niaapollmea = {
+#	1814.1.1 = {
+#		holder = nativeamerican1
+#	}
+#	1835.11.3 = {
+#		holder = 6400153
+#	}
+#}
 c_lekmantrias = {
 	1814.1.1 = {
 		holder = nativeamerican1
@@ -101,11 +101,11 @@ c_chykepllai = {
 		holder = nativeamerican1
 	}
 }
-c_amnimadytuf = {
-	1814.1.1 = {
-		holder = nativeamerican1
-	}
-}
+#c_amnimadytuf = {
+#	1814.1.1 = {
+#		holder = nativeamerican1
+#	}
+#}
 c_eleumonthos = {
 	1814.1.1 = {
 		holder = nativeamerican1
@@ -139,17 +139,17 @@ c_gournambrlia = {
 		holder = 6400153
 	}
 }
-c_aenassida = {
-	1808.1.1 = {
-		holder = 9000104
-	}
-	1814.1.1 = {
-		holder = nativeamerican1
-	}
-	1835.11.3 = {
-		holder = 6400153
-	}
-}
+#c_aenassida = {
+#	1808.1.1 = {
+#		holder = 9000104
+#	}
+#	1814.1.1 = {
+#		holder = nativeamerican1
+#	}
+#	1835.11.3 = {
+#		holder = 6400153
+#	}
+#}
 c_dorymonastilia = {
 	1808.1.1 = {
 		holder = 9000104
@@ -227,17 +227,17 @@ c_decmonapetra = {
 		holder = 6400153
 	}
 }
-c_locrknossmenus = {
-	1808.1.1 = {
-		holder = 9000104
-	}
-	1814.1.1 = {
-		holder = nativeamerican1
-	}
-	1835.11.3 = {
-		holder = 6400153
-	}
-}
+#c_locrknossmenus = {
+#	1808.1.1 = {
+#		holder = 9000104
+#	}
+#	1814.1.1 = {
+#		holder = nativeamerican1
+#	}
+#	1835.11.3 = {
+#		holder = 6400153
+#	}
+#}
 c_eubaenlea = {
 	1808.1.1 = {
 		holder = 9000104
@@ -361,17 +361,17 @@ c_hublmetcum = {
 		holder = 6400153
 	}
 }
-c_gortyberglia = {
-	1808.1.1 = {
-		holder = 9000104
-	}
-	1814.1.1 = {
-		holder = nativeamerican5
-	}
-	1835.11.3 = {
-		holder = 6400153
-	}
-}
+#c_gortyberglia = {
+#	1808.1.1 = {
+#		holder = 9000104
+#	}
+#	1814.1.1 = {
+#		holder = nativeamerican5
+#	}
+#	1835.11.3 = {
+#		holder = 6400153
+#	}
+#}
 c_kohelosse = {
 	1808.1.1 = {
 		holder = 9000104
@@ -394,17 +394,17 @@ c_nympaliniana = {
 		holder = 6400153
 	}
 }
-c_itankasinon = {
-	1808.1.1 = {
-		holder = 9000104
-	}
-	1814.1.1 = {
-		holder = nativeamerican5
-	}
-	1835.11.3 = {
-		holder = 6400153
-	}
-}
+#c_itankasinon = {
+#	1808.1.1 = {
+#		holder = 9000104
+#	}
+#	1814.1.1 = {
+#		holder = nativeamerican5
+#	}
+#	1835.11.3 = {
+#		holder = 6400153
+#	}
+#}
 c_delmylainon = {
 	1808.1.1 = {
 		holder = 9000104
@@ -438,17 +438,17 @@ c_orcalliatrea = {
 		holder = 6400153
 	}
 }
-c_leibecalyalous = {
-	1808.1.1 = {
-		holder = 9000104
-	}
-	1814.1.1 = {
-		holder = nativeamerican5
-	}
-	1835.11.3 = {
-		holder = 6400153
-	}
-}
+#c_leibecalyalous = {
+#	1808.1.1 = {
+#		holder = 9000104
+#	}
+#	1814.1.1 = {
+#		holder = nativeamerican5
+#	}
+#	1835.11.3 = {
+#		holder = 6400153
+#	}
+#}
 c_gortmarrias = {
 	1808.1.1 = {
 		holder = 9000104

@@ -54823,6 +54823,15 @@ e_maghreb = {
 			c_ceuta = {
 				color = { 219 86 68 }
 				color2 = { 255 255 255 }
+
+				cultural_names = {
+					name_list_bedouin = cn_sabtah
+					name_list_levantine = cn_sabtah
+					name_list_egyptian = cn_sabtah
+					name_list_maghrebi = cn_sabtah
+					name_list_andalusian = cn_sabtah
+					name_list_yemeni = cn_sabtah
+				}
 				
 				b_sabta = {
 					province = 4682
@@ -54846,6 +54855,15 @@ e_maghreb = {
 			c_melilla = {
 				color = { 255 79 56 }
 				color2 = { 255 255 255 }
+
+				cultural_names = {
+					name_list_bedouin = cn_malilah
+					name_list_levantine = cn_malilah
+					name_list_egyptian = cn_malilah
+					name_list_maghrebi = cn_malilah
+					name_list_andalusian = cn_malilah
+					name_list_yemeni = cn_malilah
+				}
 				
 				b_melilla = {
 					province = 4678
@@ -54865,6 +54883,10 @@ e_maghreb = {
 		d_canarias = {
 			color = { 42 127 201 }
 			color2 = { 255 255 255 }
+
+			cultural_names = {
+				name_list_guanches = cn_guanac
+			}
 			
 			capital = c_canarias # Gran Canaria
 			
@@ -54872,33 +54894,88 @@ e_maghreb = {
 				color = { 22 107 181 }
 				color2 = { 255 255 255 }
 				
+				b_tenerife = { #More relevant than Gran Canaria in the period
+					province = 8713
+					
+					color = { 22 107 181 }
+					color2 = { 255 255 255 }
+					cultural_names = {
+						name_list_andalusian = cn_tenerife 
+						name_list_basque = cn_tenerife 
+						name_list_castilian = cn_tenerife 
+						name_list_portuguese = cn_tenerife 
+						name_list_visigothic = cn_tenerife 
+						name_list_galician = cn_tenerife 
+						name_list_asturleonese = cn_tenerife 
+						name_list_aragonese = cn_tenerife 
+						name_list_suebi = cn_tenerife 
+					}
+				}
 				b_grancanaria = {
 					province = 849
 					
 					color = { 22 107 181 }
 					color2 = { 255 255 255 }
-				}
-				b_tenerife = {
-					province = 8713
-					
-					color = { 22 107 181 }
-					color2 = { 255 255 255 }
+					cultural_names = {
+						name_list_andalusian = cn_canaria 
+						name_list_basque = cn_canaria 
+						name_list_castilian = cn_canaria 
+						name_list_portuguese = cn_canaria 
+						name_list_visigothic = cn_canaria 
+						name_list_galician = cn_canaria 
+						name_list_asturleonese = cn_canaria 
+						name_list_aragonese = cn_canaria 
+						name_list_suebi = cn_canaria 
+					}
 				}
 			}
 			c_fuerteventura = {
 				color = { 52 107 151 }
 				color2 = { 255 255 255 }
+				cultural_names = {
+					name_list_andalusian = cn_fuerteventura
+					name_list_basque = cn_fuerteventura
+					name_list_castilian = cn_fuerteventura
+					name_list_portuguese = cn_fuerteventura
+					name_list_visigothic = cn_fuerteventura
+					name_list_galician = cn_fuerteventura
+					name_list_asturleonese = cn_fuerteventura
+					name_list_aragonese = cn_fuerteventura
+					name_list_suebi = cn_fuerteventura
+				}
 				b_fuerteventura = {
 					province = 8714
 					
 					color = { 22 127 161 }
 					color2 = { 255 255 255 }
+					cultural_names = {
+						name_list_andalusian = cn_fuerteventura
+						name_list_basque = cn_fuerteventura
+						name_list_castilian = cn_fuerteventura
+						name_list_portuguese = cn_fuerteventura
+						name_list_visigothic = cn_fuerteventura
+						name_list_galician = cn_fuerteventura
+						name_list_asturleonese = cn_fuerteventura
+						name_list_aragonese = cn_fuerteventura
+						name_list_suebi = cn_fuerteventura
+					}
 				}
 				b_lanzarote = {
 					province = 8715
 					
 					color = { 22 127 161 }
 					color2 = { 255 255 255 }
+					cultural_names = {
+						name_list_andalusian = cn_lanzarote 
+						name_list_basque = cn_lanzarote 
+						name_list_castilian = cn_lanzarote 
+						name_list_portuguese = cn_lanzarote 
+						name_list_visigothic = cn_lanzarote 
+						name_list_galician = cn_lanzarote 
+						name_list_asturleonese = cn_lanzarote 
+						name_list_aragonese = cn_lanzarote 
+						name_list_suebi = cn_lanzarote 
+					}
 				}
 			}
 			c_madeira = {
@@ -54911,6 +54988,35 @@ e_maghreb = {
 					color = { 42 107 161 }
 					color2 = { 255 255 255 }
 				}
+			}
+		}
+	}
+
+	k_canarias = {
+		color = { 242 231 125 }
+		color2 = { 255 255 255 }
+		cultural_names = {
+			name_list_guanches = cn_guanac
+		}
+		
+		capital = c_canarias # Tenerife
+
+		#Titular: created by decision.
+		
+		ai_primary_priority = {
+			if = {
+				limit = {
+					culture = culture:guanches
+				}
+				add = @correct_culture_primary_score
+			}
+			if = {
+				limit = {
+					NOT = {
+						culture = culture:guanches
+					}
+				}
+				add = @better_than_the_alternatives_score
 			}
 		}
 	}
@@ -76681,18 +76787,6 @@ e_deccan = {
 					color = { 175 50 90 }
 					color2= { 255 255 255 }
 				}
-				b_kuvalala = {
-					province = 7828
-					
-					color = { 175 50 90 }
-					color2= { 255 255 255 }
-				}
-				b_kudalasangama_bis = {
-					province = 7829
-					
-					color = { 175 50 90 }
-					color2= { 255 255 255 }
-				}
 				b_uttaramerur = {
 					province = 7831
 					
@@ -76848,12 +76942,6 @@ e_deccan = {
 					color = { 160 80 130 }
 					color2 = { 255 255 255 }
 				}
-				b_muluvagil = {
-					province = 7824
-					
-					color = { 160 80 130 }
-					color2= { 255 255 255 }
-				}
 				b_takkaloma = {
 					province = 7826
 					
@@ -76864,6 +76952,29 @@ e_deccan = {
 					province = 7827
 					
 					color = { 160 80 130 }
+					color2= { 255 255 255 }
+				}
+			}
+			c_candragiri = {
+				color = { 155 40 105 }
+				color2= { 255 255 255 }
+
+				b_padaividu = { #Candragiri
+					province = 7825
+
+					color = { 155 40 105 }
+					color2= { 255 255 255 }
+				}
+				b_melpadi = {
+					province = 7820
+
+					color = { 155 40 105 }
+					color2= { 255 255 255 }
+				}
+				b_nangali = {
+					province = 7823
+
+					color = { 155 40 105 }
 					color2= { 255 255 255 }
 				}
 			}
@@ -76883,28 +76994,30 @@ e_deccan = {
 					color = { 165 50 115 }
 					color2= { 255 255 255 }
 				}
-				b_melpadi = {
-					province = 7820
-					
-					color = { 165 50 115 }
-					color2= { 255 255 255 }
-				}
 				b_nandi = {
 					province = 7822
 					
 					color = { 165 50 115 }
 					color2= { 255 255 255 }
 				}
-				b_nangali = {
-					province = 7823
-					
-					color = { 165 50 115 }
+			}
+			c_muluvagil = {
+				b_muluvagil = {
+					province = 7824
+
+					color = { 155 40 105 }
 					color2= { 255 255 255 }
 				}
-				b_padaividu = {
-					province = 7825
-					
-					color = { 165 50 115 }
+				b_kuvalala = {
+					province = 7828
+
+					color = { 175 50 90 }
+					color2= { 255 255 255 }
+				}
+				b_kudalasangama_bis = { #Padaividu
+					province = 7829
+
+					color = { 175 50 90 }
 					color2= { 255 255 255 }
 				}
 			}

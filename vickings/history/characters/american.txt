@@ -68,45 +68,49 @@
 				modifier = liberal_party_modifier
 			}
 
-			# Northern Army - based off Fort George OOB
-			spawn_army = {
-				name = "Northern Army"
-				levies = 2000
-				men_at_arms = {
-					type = armored_footmen
-					stacks = 10
+			if = {
+				limit = { is_landed = yes }
+				add_realm_law_skip_effects = crown_authority_2
+				# Northern Army - based off Fort George OOB
+				spawn_army = {
+					name = "Northern Army"
+					levies = 2000
+					men_at_arms = {
+						type = armored_footmen
+						stacks = 10
+					}
+					men_at_arms = {
+						type = light_footmen
+						stacks = 10
+					}
+					men_at_arms = {
+						type = bombard
+						stacks = 4
+					}
+					location = province:11422
+					origin = province:11422
+					inheritable = no	# strongly distrustful of standing army
 				}
-				men_at_arms = {
-					type = light_footmen
-					stacks = 10
+				# Southern Army - based off New Orleans OOB
+				spawn_army = {
+					name = "Southern Army"
+					levies = 3700	# volunteers
+					men_at_arms = {
+						type = armored_footmen	# infantry
+						stacks = 3
+					}
+					men_at_arms = {
+						type = light_footmen	# militias
+						stacks = 14
+					}
+					men_at_arms = {
+						type = light_horsemen
+						stacks = 3
+					}
+					location = province:11476
+					origin = province:11476
+					inheritable = no
 				}
-				men_at_arms = {
-					type = bombard
-					stacks = 4
-				}
-				location = province:11422
-				origin = province:11422
-				inheritable = no	# strongly distrustful of standing army
-			}
-			# Southern Army - based off New Orleans OOB
-			spawn_army = {
-				name = "Southern Army"
-				levies = 3700	# volunteers
-				men_at_arms = {
-					type = armored_footmen	# infantry
-					stacks = 3
-				}
-				men_at_arms = {
-					type = light_footmen	# militias
-					stacks = 14
-				}
-				men_at_arms = {
-					type = light_horsemen
-					stacks = 3
-				}
-				location = province:11476
-				origin = province:11476
-				inheritable = no
 			}
 		}
 	}
@@ -181,6 +185,11 @@
 			add_character_flag = liberal_party
 			add_character_modifier = {
 				modifier = liberal_party_modifier
+			}
+
+			if = {
+				limit = { is_landed = yes }
+				add_realm_law_skip_effects = crown_authority_2
 			}
 		}
 	}

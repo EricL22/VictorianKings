@@ -8,7 +8,10 @@
 	}
 	1811.7.1 = {
 		effect = {
-			add_realm_law_skip_effects = city_succession_law
+			if = {
+				limit = { is_landed = yes }
+				add_realm_law_skip_effects = city_succession_law
+			}
 		}
 	}
 	1848.9.23 = {

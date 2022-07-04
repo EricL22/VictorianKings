@@ -555,6 +555,17 @@ liberty_faction = {
 			FACTION_TARGET = scope:target
 		}
 
+		# Effects of party (according to 19th-century methodology)
+		modifier = {
+			add = -100
+			OR = {
+				has_character_flag = reactionary_party
+				has_character_flag = fascist_party
+				has_character_flag = conservative_party
+				has_same_political_party_as_target_trigger = { TARGET = scope:target }
+			}
+		}
+
 		modifier = {
 			add = 100
 			scope:target = {
@@ -713,6 +724,20 @@ claimant_faction = {
 			faction_target = {
 				any_prisoner = {
 					this = root.special_character
+				}
+			}
+		}
+
+		# Won't start a war is the Realm is fighting against a Dissolution faction or Independent factions: you want to get the best realm possible. Better wait a bit longer
+		modifier = {
+			add = -1000
+			faction_target = {
+				any_character_war = {
+					OR = {
+						using_cb = independence_faction_war
+						using_cb = independence_war
+						using_cb = nation_fracturing_faction_war
+					}
 				}
 			}
 		}

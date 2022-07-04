@@ -1198,3 +1198,197 @@ generate_random_vice_candidate_effect = {
 			}
 		}
 }
+
+establish_oklahoma_territory_effect = {
+		create_title_and_vassal_change = {
+			type = granted
+			save_scope_as = change
+		}
+		title:c_kikaoas = {
+			change_title_holder = {
+				holder = scope:new_governor
+				change = scope:change
+			}
+			random = {
+				chance = 50
+				set_county_culture = culture:american
+				set_county_faith = faith:protestant
+			}
+			set_de_jure_liege_title = title:d_oklahoma
+		}
+		title:c_mormylia = {
+			change_title_holder = {
+				holder = scope:new_governor
+				change = scope:change
+			}
+			random = {
+				chance = 50
+				set_county_culture = culture:american
+				set_county_faith = faith:protestant
+			}
+			set_de_jure_liege_title = title:d_oklahoma
+		}
+		title:c_oklahoma = {
+			change_title_holder = {
+				holder = scope:new_governor
+				change = scope:change
+			}
+			random = {
+				chance = 50
+				set_county_culture = culture:american
+				set_county_faith = faith:protestant
+			}
+			set_de_jure_liege_title = title:d_oklahoma
+		}
+		title:c_lefkithanatrea = {
+			change_title_holder = {
+				holder = scope:new_governor
+				change = scope:change
+			}
+			random = {
+				chance = 50
+				set_county_culture = culture:american
+				set_county_faith = faith:protestant
+			}
+			set_de_jure_liege_title = title:d_oklahoma
+		}
+		title:c_edehagthus = {
+			change_title_holder = {
+				holder = scope:new_governor
+				change = scope:change
+			}
+			random = {
+				chance = 50
+				set_county_culture = culture:american
+				set_county_faith = faith:protestant
+			}
+			set_de_jure_liege_title = title:d_oklahoma
+		}
+		title:c_argnicopetra = {
+			change_title_holder = {
+				holder = scope:new_governor
+				change = scope:change
+			}
+			random = {
+				chance = 50
+				set_county_culture = culture:american
+				set_county_faith = faith:protestant
+			}
+			set_de_jure_liege_title = title:d_oklahoma
+		}
+		title:c_cycebdos = {
+			change_title_holder = {
+				holder = scope:new_governor
+				change = scope:change
+			}
+			random = {
+				chance = 50
+				set_county_culture = culture:american
+				set_county_faith = faith:protestant
+			}
+			set_de_jure_liege_title = title:d_oklahoma
+		}
+		title:c_apolldidythus = {
+			change_title_holder = {
+				holder = scope:new_governor
+				change = scope:change
+			}
+			random = {
+				chance = 50
+				set_county_culture = culture:american
+				set_county_faith = faith:protestant
+			}
+			set_de_jure_liege_title = title:d_oklahoma
+		}
+		title:c_eubbhyrtoli = {
+			change_title_holder = {
+				holder = scope:new_governor
+				change = scope:change
+			}
+			random = {
+				chance = 50
+				set_county_culture = culture:american
+				set_county_faith = faith:protestant
+			}
+			set_de_jure_liege_title = title:d_oklahoma
+		}
+		title:c_nysantiium = {
+			change_title_holder = {
+				holder = scope:new_governor
+				change = scope:change
+			}
+			random = {
+				chance = 50
+				set_county_culture = culture:american
+				set_county_faith = faith:protestant
+			}
+			set_de_jure_liege_title = title:d_oklahoma
+		}
+		title:c_miselampllai = {
+			change_title_holder = {
+				holder = scope:new_governor
+				change = scope:change
+			}
+			random = {
+				chance = 50
+				set_county_culture = culture:american
+				set_county_faith = faith:protestant
+			}
+			set_de_jure_liege_title = title:d_oklahoma
+		}
+		title:c_leprhemeine = {
+			change_title_holder = {
+				holder = scope:new_governor
+				change = scope:change
+			}
+			random = {
+				chance = 50
+				set_county_culture = culture:american
+				set_county_faith = faith:protestant
+			}
+			set_de_jure_liege_title = title:d_oklahoma
+		}
+		title:c_mamagcum = {
+			change_title_holder = {
+				holder = scope:new_governor
+				change = scope:change
+			}
+			random = {
+				chance = 50
+				set_county_culture = culture:american
+				set_county_faith = faith:protestant
+			}
+			set_de_jure_liege_title = title:d_oklahoma
+		}
+		title:c_clazmaratatrea = {
+			change_title_holder = {
+				holder = scope:new_governor
+				change = scope:change
+			}
+			random = {
+				chance = 50
+				set_county_culture = culture:american
+				set_county_faith = faith:protestant
+			}
+			set_de_jure_liege_title = title:d_oklahoma
+		}
+		title:c_nysmallai = {
+			change_title_holder = {
+				holder = scope:new_governor
+				change = scope:change
+			}
+			random = {
+				chance = 50
+				set_county_culture = culture:american
+				set_county_faith = faith:protestant
+			}
+			set_de_jure_liege_title = title:d_oklahoma
+		}
+		title:d_oklahoma = {
+			change_title_holder = {
+				holder = scope:new_governor
+				change = scope:change
+			}
+		}
+		resolve_title_and_vassal_change = scope:change
+}

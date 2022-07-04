@@ -161,7 +161,7 @@ c_leoneresica = {
 		holder = nativeamerican13
 	}
 }
-c_kumaryra = {
+c_yankton = {
 	1808.1.1 = {
 		holder = nativeamerican13
 	}

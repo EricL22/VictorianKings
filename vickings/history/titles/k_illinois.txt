@@ -163,17 +163,17 @@ c_oropthus = {
 		holder = 6400157
 	}
 }
-c_argnymalous = {
-	1808.1.1 = {
-		holder = 9000104
-	}
-	1814.1.1 = {
-		holder = nativeamerican2
-	}
-	1834.12.3 = {
-		holder = 6400157
-	}
-}
+#c_argnymalous = {
+#	1808.1.1 = {
+#		holder = 9000104
+#	}
+#	1814.1.1 = {
+#		holder = nativeamerican2
+#	}
+#	1834.12.3 = {
+#		holder = 6400157
+#	}
+#}
 c_hermimesthus = {
 	1808.1.1 = {
 		holder = 9000104
@@ -317,28 +317,28 @@ c_klazoelatate = {
 		holder = 6400157
 	}
 }
-c_kerkichepetra = {
-	1808.1.1 = {
-		holder = 9000104
-	}
-	1814.1.1 = {
-		holder = nativeamerican2
-	}
-	1834.12.3 = {
-		holder = 6400157
-	}
-}
-c_cebeubthos = {
-	1808.1.1 = {
-		holder = 9000104
-	}
-	1814.1.1 = {
-		holder = nativeamerican2
-	}
-	1834.12.3 = {
-		holder = 6400157
-	}
-}
+#c_kerkichepetra = {
+#	1808.1.1 = {
+#		holder = 9000104
+#	}
+#	1814.1.1 = {
+#		holder = nativeamerican2
+#	}
+#	1834.12.3 = {
+#		holder = 6400157
+#	}
+#}
+#c_cebeubthos = {
+#	1808.1.1 = {
+#		holder = 9000104
+#	}
+#	1814.1.1 = {
+#		holder = nativeamerican2
+#	}
+#	1834.12.3 = {
+#		holder = 6400157
+#	}
+#}
 c_shikaakwa = {
 	1808.1.1 = {
 		holder = 9000104
@@ -350,14 +350,14 @@ c_shikaakwa = {
 		holder = 6400157
 	}
 }
-c_achlocrissa = {
-	1808.1.1 = {
-		holder = 9000104
-	}
-	1814.1.1 = {
-		holder = nativeamerican2
-	}
-	1834.12.3 = {
-		holder = 6400157
-	}
-}
+#c_achlocrissa = {
+#	1808.1.1 = {
+#		holder = 9000104
+#	}
+#	1814.1.1 = {
+#		holder = nativeamerican2
+#	}
+#	1834.12.3 = {
+#		holder = 6400157
+#	}
+#}

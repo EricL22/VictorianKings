@@ -40,11 +40,11 @@ c_concordia = {
 		holder = nativeamerican9
 	}
 }
-c_catahoula = {
-	1808.1.1 = {
-		holder = nativeamerican9
-	}
-}
+#c_catahoula = {
+#	1808.1.1 = {
+#		holder = nativeamerican9
+#	}
+#}
 c_tensas = {
 	1808.1.1 = {
 		holder = nativeamerican9

@@ -1,3 +1,16 @@
+0.4.3----------
+Fixed multiple choose ideology event spam when you gain multiple titles
+Fixed triggering a choose ideology event if you restore the French Empire
+AI will be less likely to declare colonial wars against civilized nations
+Combined some baronies in America to eliminate tiny counties and thereby improve performance
+Increased the chances of converting culture and religion in conquered Native American lands
+Reworked the Indian Removal mechanic so you may see Indian territory on the map and reduce its size
+AI will now use Indian Removal on small realms if there are no larger ones
+Allowed the colonial conquest of coastal, non river counties from China
+Fixed some province/locator dislocation in the map
+Added a new interaction to facilitate creating Indian Reservations even when the Indian Territory is filled
+Fixed being able to choose your actual presidential candidate as vice president, and fixed savegame issue not saving vice president as heir
+Added more coats of arms in Europe
 0.4.2----------
 Minor localization and history fixes
 Updated Chinese localization

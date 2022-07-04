@@ -644,6 +644,21 @@ republic_election.4 = {
 				}
 				desc = tooltip.republic_election_defeat
 				scope:opposing_election_candidate = { save_scope_as = victor }
+				hidden_effect = {
+					if = {
+						limit = {
+							exists = scope:opposing_vp_candidate
+							scope:opposing_vp_candidate = {
+								is_alive = yes
+								is_councillor = yes
+							}
+						}
+						scope:opposing_vp_candidate = {
+							employer = { fire_councillor = prev }
+							remove_opinion = { target = employer modifier = fired_from_council_opinion }
+						}
+					}
+				}
 			}
 		}
 		scope:root_contested_government = {
@@ -695,6 +710,21 @@ republic_election.4 = {
 				}
 				desc = tooltip.republic_election_defeat
 				scope:opposing_election_candidate = { save_scope_as = victor }
+				hidden_effect = {
+					if = {
+						limit = {
+							exists = scope:opposing_vp_candidate
+							scope:opposing_vp_candidate = {
+								is_alive = yes
+								is_councillor = yes
+							}
+						}
+						scope:opposing_vp_candidate = {
+							employer = { fire_councillor = prev }
+							remove_opinion = { target = employer modifier = fired_from_council_opinion }
+						}
+					}
+				}
 			}
 		}
 		scope:root_contested_government = { trigger_event = { id = republic_election.9 months = 1 } }
@@ -744,6 +774,21 @@ republic_election.4 = {
 				}
 				desc = tooltip.republic_election_intrigue_defeat
 				scope:opposing_election_candidate = { save_scope_as = victor }
+				hidden_effect = {
+					if = {
+						limit = {
+							exists = scope:opposing_vp_candidate
+							scope:opposing_vp_candidate = {
+								is_alive = yes
+								is_councillor = yes
+							}
+						}
+						scope:opposing_vp_candidate = {
+							employer = { fire_councillor = prev }
+							remove_opinion = { target = employer modifier = fired_from_council_opinion }
+						}
+					}
+				}
 			}
 		}
 		scope:root_contested_government = {
@@ -1094,6 +1139,18 @@ republic_election.7 = {
 
 	immediate = {
 		generate_vice_presidential_candidates_effect = yes
+		if = {
+			limit = {
+				scope:candidate_3 = {
+					OR = {
+						this = scope:candidate_1
+						this = scope:candidate_2
+						this = scope:root_election_candidate
+					}
+				}
+			}
+			generate_random_vice_candidate_effect = yes
+		}
 	}
 
 	option = {
