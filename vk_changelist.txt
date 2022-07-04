@@ -1,4 +1,4 @@
-0.4.3----------
+0.4.3---------- (Commit 9c206e8)
 Fixed multiple choose ideology event spam when you gain multiple titles
 Fixed triggering a choose ideology event if you restore the French Empire
 AI will be less likely to declare colonial wars against civilized nations
