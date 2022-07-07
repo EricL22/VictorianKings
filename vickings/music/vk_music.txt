@@ -1,0 +1,60 @@
+﻿#### MOOD TRACKS
+
+vk_mood_rachsymph2_3 = {
+	music = "file:/sound/vk_music/rachsymph2-3.mp3"
+	pause_factor = 15
+	mood = yes
+	can_be_interrupted = yes
+}
+
+vk_mood_dvorsymph7_4 = {
+	music = "file:/sound/vk_music/dvorsymph7-4.mp3"
+	pause_factor = 15
+	mood = yes
+	can_be_interrupted = yes
+}
+
+vk_mood_wienconcerto2 = {
+	music = "file:/sound/vk_music/wienconcerto2.mp3"
+	pause_factor = 15
+	mood = yes
+	can_be_interrupted = yes
+}
+
+vk_mood_tchai1812Overture = {
+	music = "file:/sound/vk_music/tchai1812Overture.mp3"
+	pause_factor = 15
+	is_valid = {
+		OR = { 
+			any_independent_ruler = { 
+				has_title = title:e_france
+				dynasty = dynasty:180405
+			}
+			has_title = title:e_russia
+		}
+	}
+	mood = yes
+	can_be_interrupted = yes
+}
+
+vk_mood_nielconcerto = {
+	music = "file:/sound/vk_music/nielconcerto.mp3"
+	pause_factor = 15
+	mood = yes
+	can_be_interrupted = yes
+}
+
+vk_mood_mahlsymph3_6 = {
+	music = "file:/sound/vk_music/mahlsymph3-6.mp3"
+	pause_factor = 15
+	mood = yes
+	can_be_interrupted = yes
+}
+
+##### MUSIC CUES
+
+mx_cue_war_declared = {
+	music = "file:/sound/vk_music/baldmountain.mp3"
+	pause_factor = 35
+	# play every time
+}

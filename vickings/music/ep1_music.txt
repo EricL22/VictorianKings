@@ -1,0 +1,25 @@
+﻿#### RoCo MUSC
+
+#### Cue Tracks
+
+middleeasterncourt_cue = {
+	music = "event:/DLC/EP1/MX/Cuetracks/mx_cuetrack_01_middleeasterncourt"
+	pause_factor = 30
+}
+
+europeancourt_cue = {
+	music = "event:/DLC/EP1/MX/Cuetracks/mx_cuetrack_02_europeancourt"
+	pause_factor = 30
+}
+
+indiancourt_cue = {
+	music = "event:/DLC/EP1/MX/Cuetracks/mx_cuetrack_03_indiancourt"
+	pause_factor = 30
+}
+
+mediterraneancourt_cue = {
+	music = "event:/DLC/EP1/MX/Cuetracks/mx_cuetrack_04_mediterraneancourt"
+	pause_factor = 30
+}
+
+#### Mood Tracks
