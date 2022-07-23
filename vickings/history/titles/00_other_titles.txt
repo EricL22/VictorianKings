@@ -5834,6 +5834,7 @@ e_united_states = {
 		holder = 6400000
 		government = republic_government
 	}
+	1795.5.1 = { effect = { set_variable = { name = num_states value = 15 } update_dynamic_coa = yes } }
 	1797.3.4 = {
 		holder = 6400001
 	}
@@ -5846,6 +5847,7 @@ e_united_states = {
 	1817.3.4 = {
 		holder = 6400004
 	}
+	1822.7.4 = { effect = { set_variable = { name = num_states value = 24 } update_dynamic_coa = yes } }
 	1825.3.4 = {
 		holder = 6400005
 	}

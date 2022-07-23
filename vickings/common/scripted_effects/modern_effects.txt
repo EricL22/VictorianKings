@@ -704,6 +704,22 @@ clear_term_limit_reforms = {
 	remove_list_variable = { name = enacted_laws_list target = flag:life_title_term }
 }
 
+clear_leg_term_limit_reforms = {
+	remove_list_variable = { name = enacted_laws_list target = flag:leg_two_year_term }
+	remove_list_variable = { name = enacted_laws_list target = flag:leg_three_year_term }
+	remove_list_variable = { name = enacted_laws_list target = flag:leg_four_year_term }
+	remove_list_variable = { name = enacted_laws_list target = flag:leg_five_year_term }
+	remove_list_variable = { name = enacted_laws_list target = flag:leg_six_year_term }
+	remove_list_variable = { name = enacted_laws_list target = flag:leg_life_title_term }
+}
+
+clear_all_government_reforms = {
+	remove_list_variable = { name = enacted_laws_list target = flag:admin_centralized }
+	remove_list_variable = { name = enacted_laws_list target = flag:sovereign_absolute }
+	remove_list_variable = { name = enacted_laws_list target = flag:sovereign_semi_constitutional }
+	remove_list_variable = { name = enacted_laws_list target = flag:sovereign_constitutional }
+}
+
 initialize_global_election_terms = {
 	if = {
 		limit = { NOT = { exists = global_var:set_up_global_election_terms } }
@@ -711,9 +727,10 @@ initialize_global_election_terms = {
 			name = set_up_global_election_terms
 			value = yes
 		}
-		every_ruler = {
-			trigger_event = moderntimes.300
-		}
+		#every_ruler = {
+		#	trigger_event = moderntimes.300
+		#	trigger_event = moderntimes.302
+		#}
 		trigger_event = {
 			on_action = seven_year_elections
 			years = 7
@@ -748,73 +765,59 @@ initialize_global_election_terms = {
 }
 
 copy_government_reforms_new_title = {
-	if = { limit = { exists = primary_title }
 	if = {
-		limit = {
-			has_character_flag = rank_change_copy_reforms
-			NOT = { has_character_flag = ignore_copy_reforms }
-		}
+		limit = { exists = primary_title }
+		
+		# the new primary title copies reforms from the old one
 		if = {
 			limit = {
-				scope:title = {
-					is_target_in_variable_list = { name = enacted_laws_list target = flag:admin_centralized }
-				}
-				NOT = {
-					primary_title = {
-						is_target_in_variable_list = { name = enacted_laws_list target = flag:admin_centralized }
-					}
-				}
+				has_character_flag = rank_change_copy_reforms
+				NOT = { has_character_flag = ignore_copy_reforms }
 			}
-			primary_title = {
-				add_to_variable_list = { name = enacted_laws_list target = flag:admin_centralized }
+			primary_title = { clear_all_government_reforms = yes }
+			
+			if = {
+				limit = { scope:title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:admin_centralized } } }
+				primary_title = { add_to_variable_list = { name = enacted_laws_list target = flag:admin_centralized } }
 			}
+			if = {
+				limit = { scope:title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:sovereign_absolute } } }
+				primary_title = { add_to_variable_list = { name = enacted_laws_list target = flag:sovereign_absolute } }
+			}
+			if = {
+				limit = { scope:title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:sovereign_semi_constitutional } } }
+				primary_title = { add_to_variable_list = { name = enacted_laws_list target = flag:sovereign_semi_constitutional } }
+			}
+			if = {
+				limit = { scope:title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:sovereign_constitutional } } }
+				primary_title = { add_to_variable_list = { name = enacted_laws_list target = flag:sovereign_constitutional } }
+			}
+			
+			scope:title = { clear_all_government_reforms = yes }
 		}
-
-		if = {
-			limit = {
-				scope:title = {
-					NOT = { is_target_in_variable_list = { name = enacted_laws_list target = flag:admin_centralized } }
-				}
-				primary_title = {
-					is_target_in_variable_list = { name = enacted_laws_list target = flag:admin_centralized }
-				}
+		
+		# the gained title copies reforms from the primary title (this preserves your reforms if you change the primary title)
+		else = {
+			scope:title = { clear_all_government_reforms = yes }
+			
+			if = {
+				limit = { primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:admin_centralized } } }
+				scope:title = { add_to_variable_list = { name = enacted_laws_list target = flag:admin_centralized } }
 			}
-			primary_title = {
-				remove_list_variable = { name = enacted_laws_list target = flag:admin_centralized }
+			if = {
+				limit = { primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:sovereign_absolute } } }
+				scope:title = { add_to_variable_list = { name = enacted_laws_list target = flag:sovereign_absolute } }
+			}
+			if = {
+				limit = { primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:sovereign_semi_constitutional } } }
+				scope:title = { add_to_variable_list = { name = enacted_laws_list target = flag:sovereign_semi_constitutional } }
+			}
+			if = {
+				limit = { primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:sovereign_constitutional } } }
+				scope:title = { add_to_variable_list = { name = enacted_laws_list target = flag:sovereign_constitutional } }
 			}
 		}
 	}
-	else = {
-		if = {
-			limit = {
-				scope:title = {
-					is_target_in_variable_list = { name = enacted_laws_list target = flag:admin_centralized }
-				}
-				NOT = {
-					primary_title = {
-						is_target_in_variable_list = { name = enacted_laws_list target = flag:admin_centralized }
-					}
-				}
-			}
-			scope:title = {
-				remove_list_variable = { name = enacted_laws_list target = flag:admin_centralized }
-			}
-		}
-
-		if = {
-			limit = {
-				scope:title = {
-					NOT = { is_target_in_variable_list = { name = enacted_laws_list target = flag:admin_centralized } }
-				}
-				primary_title = {
-					is_target_in_variable_list = { name = enacted_laws_list target = flag:admin_centralized }
-				}
-			}
-			scope:title = {
-				add_to_variable_list = { name = enacted_laws_list target = flag:admin_centralized }
-			}
-		}
-	} }
 }
 
 abolish_japanese_shogunate_effect = {
@@ -1391,4 +1394,34 @@ establish_oklahoma_territory_effect = {
 			}
 		}
 		resolve_title_and_vassal_change = scope:change
+}
+
+update_slavery_modifiers_effect = {
+	if = {
+		limit = {
+			has_variable = slavery_percent
+			var:slavery_percent = { compare_value > 0 }
+		}
+		if = {
+			limit = {
+				var:slavery_percent = { compare_value < 0.1 }
+			}
+			add_county_modifier = negligible_slavery_modifier
+		}
+		else_if = {
+			limit = {
+				var:slavery_percent = { compare_value < 0.3 }
+			}
+			add_county_modifier = minority_slavery_modifier
+		}
+		else_if = {
+			limit = {
+				var:slavery_percent = { compare_value < 0.75 }
+			}
+			add_county_modifier = commonplace_slavery_modifier
+		}
+		else = {
+			add_county_modifier = widespread_slavery_modifier
+		}
+	}
 }

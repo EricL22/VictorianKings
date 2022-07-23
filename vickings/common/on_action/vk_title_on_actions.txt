@@ -864,10 +864,12 @@ vk_title_gain_effects = {
 				NOT = { scope:previous_holder.dynasty = dynasty:180405 }
 			}
 			scope:title = { add_to_variable_list = { name = enacted_laws_list target = flag:four_year_term } }
+			scope:title = { add_to_variable_list = { name = enacted_laws_list target = flag:leg_three_year_term } }
 			trigger_event = { id = moderntimes.18 days = 1 }
 		}
 
 		trigger_event = { id = moderntimes.300 days = 1 }
+		trigger_event = { id = moderntimes.302 days = 1 }
 
 		if = {
 			limit = {

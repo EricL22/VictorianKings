@@ -74,6 +74,27 @@ prepare_government_reforms = {
 				add_to_variable_list = { name = enacted_laws_list target = flag:admin_centralized }
 			}
 		}
+		every_independent_ruler = {
+			limit = {
+				OR = {
+					has_government = feudal_government
+					has_government = clan_government
+				}
+			}
+			primary_title = {
+				if = {
+					limit = { this = title:e_britannia }
+					add_to_variable_list = { name = enacted_laws_list target = flag:sovereign_semi_constitutional }
+				}
+				else = {
+					add_to_variable_list = { name = enacted_laws_list target = flag:sovereign_absolute }
+				}
+			}
+		}
+		every_ruler = {
+			trigger_event = moderntimes.300
+			trigger_event = moderntimes.302
+		}
 	}
 }
 vk_initialize_history_effects = {
@@ -86,8 +107,16 @@ vk_initialize_history_effects = {
 			capital_province = { set_holding_type = tribal_holding }
 			change_government = tribal_government
 		}
+		every_county = { update_slavery_modifiers_effect = yes }
 
 		# Specific to starting dates
+		if = {
+			limit = { game_start_date = 1815.7.8 }
+			random_independent_ruler = {
+				limit = { has_primary_title = title:k_france }
+				primary_title = { add_to_variable_list = { name = enacted_laws_list target = flag:sovereign_semi_constitutional } }
+			}
+		}
 		if = {
 			limit = { game_start_date = 1836.1.1 }
 			add_to_global_variable_list = {
@@ -105,6 +134,10 @@ vk_initialize_history_effects = {
 			add_to_global_variable_list = {
 				name = indian_territory
 				target = title:d_oklahoma
+			}
+			random_independent_ruler = {
+				limit = { has_primary_title = title:k_france }
+				primary_title = { add_to_variable_list = { name = enacted_laws_list target = flag:sovereign_constitutional } }
 			}
 		}
 	}
@@ -282,6 +315,20 @@ vk_war_won_attacker_effects = {
 				}
 			}
 			resolve_title_and_vassal_change = scope:change
+		}
+		if = {
+			limit = {
+				has_global_variable = ottoman_egypt_reconquest
+				scope:attacker = title:e_turkey.holder
+				scope:defender = title:k_egypt.holder
+				NOT = { has_global_variable = ottoman_hejaz_reconquest }
+				exists = title:d_shammar.holder
+			}
+			set_global_variable = {
+				name = ottoman_hejaz_reconquest
+				value = yes
+			}
+			title:d_shammar.holder = { trigger_event = moderntimes.32 }
 		}
 	}
 }

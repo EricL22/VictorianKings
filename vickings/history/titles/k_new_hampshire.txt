@@ -1,0 +1,60 @@
+c_concord = {
+	1812.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 45 }
+			set_variable = { name = conservative_value value = 55 }
+		}
+	}
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 60 }
+			set_variable = { name = conservative_value value = 40 }
+		}
+	}
+	# 1860
+}
+c_coos = {
+	1812.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 55 }
+			set_variable = { name = conservative_value value = 45 }
+		}
+	}
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 70 }
+			set_variable = { name = conservative_value value = 30 }
+		}
+	}
+	# 1860
+}
+c_grafton = {
+	1812.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 40 }
+			set_variable = { name = conservative_value value = 60 }
+		}
+	}
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 55 }
+			set_variable = { name = conservative_value value = 45 }
+		}
+	}
+	# 1860
+}
+c_cheshire_nh = {
+	1812.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 40 }
+			set_variable = { name = conservative_value value = 60 }
+		}
+	}
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 40 }
+			set_variable = { name = conservative_value value = 60 }
+		}
+	}
+	# 1860
+}

@@ -1,0 +1,168 @@
+c_washington = {
+	1812.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 30 }
+			set_variable = { name = conservative_value value = 70 }
+		}
+	}
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 55 }
+			set_variable = { name = conservative_value value = 45 }
+		}
+	}
+	# 1860
+}
+c_hancock = {
+	1812.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 45 }
+			set_variable = { name = conservative_value value = 55 }
+		}
+	}
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 55 }
+			set_variable = { name = conservative_value value = 45 }
+		}
+	}
+	# 1860
+}
+c_waldo = {
+	1812.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 45 }
+			set_variable = { name = conservative_value value = 55 }
+		}
+	}
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 70 }
+			set_variable = { name = conservative_value value = 30 }
+		}
+	}
+	# 1860
+}
+c_penobscot = {
+	1812.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 45 }
+			set_variable = { name = conservative_value value = 55 }
+		}
+	}
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 60 }
+			set_variable = { name = conservative_value value = 40 }
+		}
+	}
+	# 1860
+}
+c_augusta = {
+	1812.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 45 }
+			set_variable = { name = conservative_value value = 55 }
+		}
+	}
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 45 }
+			set_variable = { name = conservative_value value = 55 }
+		}
+	}
+	# 1860
+}
+c_piscataquis = {
+	1812.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 45 }
+			set_variable = { name = conservative_value value = 55 }
+		}
+	}
+	# 1860
+}
+c_kennebec = {
+	1812.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 45 }
+			set_variable = { name = conservative_value value = 55 }
+		}
+	}
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 45 }
+			set_variable = { name = conservative_value value = 55 }
+		}
+	}
+	# 1860
+}
+c_franklin_me = {
+	1812.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 45 }
+			set_variable = { name = conservative_value value = 55 }
+		}
+	}
+	# 1860
+}
+c_somerset_me = {
+	1812.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 45 }
+			set_variable = { name = conservative_value value = 55 }
+		}
+	}
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 45 }
+			set_variable = { name = conservative_value value = 55 }
+		}
+	}
+	# 1860
+}
+c_lincoln = {
+	1812.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 40 }
+			set_variable = { name = conservative_value value = 60 }
+		}
+	}
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 55 }
+			set_variable = { name = conservative_value value = 45 }
+		}
+	}
+	# 1860
+}
+c_cumberland_me = {
+	1812.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 40 }
+			set_variable = { name = conservative_value value = 60 }
+		}
+	}
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 55 }
+			set_variable = { name = conservative_value value = 45 }
+		}
+	}
+	# 1860
+}
+c_rumford = {
+	1812.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 55 }
+			set_variable = { name = conservative_value value = 45 }
+		}
+	}
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 60 }
+			set_variable = { name = conservative_value value = 40 }
+		}
+	}
+	# 1860
+}

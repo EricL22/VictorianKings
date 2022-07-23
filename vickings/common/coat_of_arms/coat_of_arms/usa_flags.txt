@@ -32,7 +32,7 @@ e_united_states={
 
 ###############14 Stars "No Official"
 
-coa_rd_title_2193416559={
+e_united_states_14={
 	pattern="pattern_barruly_13.dds"
 	color1=red
 	color2=white
@@ -52,12 +52,12 @@ coa_rd_title_2193416559={
 		color1=white
 		texture="ce_star_05.dds"
 		instance={
-			position={ 0.160000 0.100000 }
+			position={ 0.200000 0.100000 }
 			scale={ 0.090000 0.090000 }
 		}
 
 		instance={
-			position={ 0.550000 0.290000 }
+			position={ 0.550000 0.300000 }
 			scale={ 0.090000 0.090000 }
 			depth=1.010000
 		}
@@ -69,67 +69,67 @@ coa_rd_title_2193416559={
 		}
 
 		instance={
-			position={ 0.480000 0.420000 }
+			position={ 0.491500 0.400000 }
 			scale={ 0.070000 0.070000 }
 			depth=3.010000
 		}
 
 		instance={
-			position={ 0.490000 0.190000 }
+			position={ 0.491500 0.200000 }
 			scale={ 0.070000 0.070000 }
 			depth=4.010000
 		}
 
 		instance={
-			position={ 0.430000 0.300000 }
+			position={ 0.433200 0.300000 }
 			scale={ 0.090000 0.090000 }
 			depth=5.010000
 		}
 
 		instance={
-			position={ 0.430000 0.100000 }
+			position={ 0.433200 0.100000 }
 			scale={ 0.090000 0.090000 }
 			depth=6.010000
 		}
 
 		instance={
-			position={ 0.360000 0.410000 }
+			position={ 0.374900 0.400000 }
 			scale={ 0.070000 0.070000 }
 			depth=7.010000
 		}
 
 		instance={
-			position={ 0.360000 0.190000 }
+			position={ 0.374900 0.200000 }
 			scale={ 0.070000 0.070000 }
 			depth=8.010000
 		}
 
 		instance={
-			position={ 0.300000 0.300000 }
+			position={ 0.316600 0.300000 }
 			scale={ 0.090000 0.090000 }
 			depth=9.010000
 		}
 
 		instance={
-			position={ 0.300000 0.100000 }
+			position={ 0.316600 0.100000 }
 			scale={ 0.090000 0.090000 }
 			depth=10.010000
 		}
 
 		instance={
-			position={ 0.230000 0.410000 }
+			position={ 0.258300 0.400000 }
 			scale={ 0.070000 0.070000 }
 			depth=11.010000
 		}
 
 		instance={
-			position={ 0.230000 0.190000 }
+			position={ 0.258300 0.200000 }
 			scale={ 0.070000 0.070000 }
 			depth=12.010000
 		}
 
 		instance={
-			position={ 0.150000 0.290000 }
+			position={ 0.200000 0.300000 }
 			scale={ 0.090000 0.090000 }
 			depth=13.010000
 		}
@@ -142,7 +142,7 @@ coa_rd_title_2193416559={
 
 ###########15 Stars
 
-coa_rd_title_2130043204={
+e_united_states_15={
 	pattern="pattern_barruly_15.dds"
 	color1=red
 	color2=white
@@ -162,7 +162,7 @@ coa_rd_title_2130043204={
 		color1=white
 		texture="ce_star_05.dds"
 		instance={
-			position={ 0.540000 0.190000 }
+			position={ 0.540000 0.180000 }
 			scale={ 0.100000 0.100000 }
 		}
 
@@ -182,7 +182,7 @@ coa_rd_title_2130043204={
 		}
 
 		instance={
-			position={ 0.474000 0.120000 }
+			position={ 0.474000 0.100000 }
 			scale={ 0.130000 0.130000 }
 		}
 
@@ -192,7 +192,7 @@ coa_rd_title_2130043204={
 		}
 
 		instance={
-			position={ 0.408000 0.190000 }
+			position={ 0.408000 0.180000 }
 			scale={ 0.100000 0.100000 }
 		}
 
@@ -207,7 +207,7 @@ coa_rd_title_2130043204={
 		}
 
 		instance={
-			position={ 0.342000 0.120000 }
+			position={ 0.342000 0.100000 }
 			scale={ 0.130000 0.130000 }
 		}
 
@@ -217,13 +217,13 @@ coa_rd_title_2130043204={
 		}
 
 		instance={
-			position={ 0.276000 0.190000 }
+			position={ 0.276000 0.180000 }
 			scale={ 0.100000 0.100000 }
 		}
 
 		instance={
 			position={ 0.210000 0.420000 }
-			scale={ 0.140000 0.140000 }
+			scale={ 0.130000 0.140000 }
 		}
 
 		instance={
@@ -232,7 +232,7 @@ coa_rd_title_2130043204={
 		}
 
 		instance={
-			position={ 0.210000 0.120000 }
+			position={ 0.210000 0.100000 }
 			scale={ 0.130000 0.130000 }
 		}
 
@@ -244,7 +244,7 @@ coa_rd_title_2130043204={
 
 #############16 Stars
 
-coa_rd_title_2193416559={
+e_united_states_16={
 	pattern="pattern_barruly_13.dds"
 	color1=red
 	color2=white
@@ -253,7 +253,7 @@ coa_rd_title_2193416559={
 		color1=blue
 		texture="ce_block_02.dds"
 		instance={
-			position={ 0.350000 0.010000 }
+			position={ 0.360000 0.010000 }
 			scale={ 0.470000 0.970000 }
 			depth=16.010000
 		}
@@ -264,7 +264,7 @@ coa_rd_title_2193416559={
 		color1=white
 		texture="ce_star_05.dds"
 		instance={
-			position={ 0.530000 0.080000 }
+			position={ 0.530000 0.100000 }
 			scale={ 0.090000 0.090000 }
 		}
 
@@ -275,49 +275,49 @@ coa_rd_title_2193416559={
 		}
 
 		instance={
-			position={ 0.530000 0.310000 }
+			position={ 0.530000 0.300000 }
 			scale={ 0.090000 0.090000 }
 			depth=2.010000
 		}
 
 		instance={
-			position={ 0.530000 0.420000 }
+			position={ 0.530000 0.400000 }
 			scale={ 0.090000 0.090000 }
 			depth=3.010000
 		}
 
 		instance={
-			position={ 0.430000 0.080000 }
+			position={ 0.430000 0.100000 }
 			scale={ 0.090000 0.090000 }
 			depth=4.010000
 		}
 
 		instance={
-			position={ 0.430000 0.190000 }
+			position={ 0.430000 0.200000 }
 			scale={ 0.090000 0.090000 }
 			depth=5.010000
 		}
 
 		instance={
-			position={ 0.430000 0.310000 }
+			position={ 0.430000 0.300000 }
 			scale={ 0.090000 0.090000 }
 			depth=6.010000
 		}
 
 		instance={
-			position={ 0.430000 0.420000 }
+			position={ 0.430000 0.400000 }
 			scale={ 0.090000 0.090000 }
 			depth=7.010000
 		}
 
 		instance={
-			position={ 0.330000 0.080000 }
+			position={ 0.330000 0.100000 }
 			scale={ 0.090000 0.090000 }
 			depth=8.010000
 		}
 
 		instance={
-			position={ 0.330000 0.180000 }
+			position={ 0.330000 0.200000 }
 			scale={ 0.090000 0.090000 }
 			depth=9.010000
 		}
@@ -329,19 +329,19 @@ coa_rd_title_2193416559={
 		}
 
 		instance={
-			position={ 0.330000 0.420000 }
+			position={ 0.330000 0.400000 }
 			scale={ 0.090000 0.090000 }
 			depth=11.010000
 		}
 
 		instance={
-			position={ 0.230000 0.080000 }
+			position={ 0.230000 0.100000 }
 			scale={ 0.090000 0.090000 }
 			depth=12.010000
 		}
 
 		instance={
-			position={ 0.230000 0.180000 }
+			position={ 0.230000 0.200000 }
 			scale={ 0.090000 0.090000 }
 			depth=13.010000
 		}
@@ -353,7 +353,7 @@ coa_rd_title_2193416559={
 		}
 
 		instance={
-			position={ 0.230000 0.410000 }
+			position={ 0.230000 0.400000 }
 			scale={ 0.090000 0.090000 }
 			depth=15.010000
 		}
@@ -364,9 +364,137 @@ coa_rd_title_2193416559={
 
 
 
+##########17 stars
+
+e_united_states_17={
+	pattern="pattern_barruly_13.dds"
+	color1=red
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=blue
+		texture="ce_block_02.dds"
+		instance={
+			position={ 0.350000 0.010000 }
+			scale={ 0.470000 0.970000 }
+			depth=17.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_star_05.dds"
+		instance={
+			position={ 0.265000 0.400000 }
+			scale={ 0.070000 0.070000 }
+		}
+
+		instance={
+			position={ 0.320000 0.190000 }
+			scale={ 0.090000 0.090000 }
+			depth=1.010000
+		}
+
+		instance={
+			position={ 0.375000 0.260000 }
+			scale={ 0.090000 0.090000 }
+			depth=2.010000
+		}
+
+		instance={
+			position={ 0.320000 0.330000 }
+			scale={ 0.090000 0.090000 }
+			depth=3.010000
+		}
+
+		instance={
+			position={ 0.375000 0.120000 }
+			scale={ 0.070000 0.070000 }
+			depth=4.010000
+		}
+
+		instance={
+			position={ 0.375000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=5.010000
+		}
+
+		instance={
+			position={ 0.430000 0.190000 }
+			scale={ 0.090000 0.090000 }
+			depth=6.010000
+		}
+
+		instance={
+			position={ 0.430000 0.330000 }
+			scale={ 0.090000 0.090000 }
+			depth=7.010000
+		}
+
+		instance={
+			position={ 0.485000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=8.010000
+		}
+
+		instance={
+			position={ 0.485000 0.120000 }
+			scale={ 0.070000 0.070000 }
+			depth=9.010000
+		}
+
+		instance={
+			position={ 0.265000 0.260000 }
+			scale={ 0.090000 0.090000 }
+			depth=10.010000
+		}
+
+		instance={
+			position={ 0.210000 0.190000 }
+			scale={ 0.090000 0.090000 }
+			depth=11.010000
+		}
+
+		instance={
+			position={ 0.210000 0.330000 }
+			scale={ 0.090000 0.090000 }
+			depth=12.010000
+		}
+
+		instance={
+			position={ 0.485000 0.260000 }
+			scale={ 0.090000 0.090000 }
+			depth=13.010000
+		}
+
+		instance={
+			position={ 0.265000 0.120000 }
+			scale={ 0.070000 0.070000 }
+			depth=14.010000
+		}
+
+		instance={
+			position={ 0.540000 0.190000 }
+			scale={ 0.090000 0.090000 }
+			depth=15.010000
+		}
+
+		instance={
+			position={ 0.540000 0.330000 }
+			scale={ 0.090000 0.090000 }
+			depth=16.010000
+		}
+
+	}
+
+}
+
+
+
 ############18 stars
 
-coa_title_9557={
+e_united_states_18={
 	pattern="pattern_barruly_13.dds"
 	color1=red
 	color2=white
@@ -386,109 +514,109 @@ coa_title_9557={
 		color1=white
 		texture="ce_star_05.dds"
 		instance={
-			position={ 0.540000 0.280000 }
+			position={ 0.210000 0.100000 }
 			scale={ 0.090000 0.090000 }
 		}
 
 		instance={
-			position={ 0.540000 0.430000 }
+			position={ 0.290000 0.100000 }
 			scale={ 0.090000 0.090000 }
 			depth=1.010000
 		}
 
 		instance={
-			position={ 0.540000 0.120000 }
+			position={ 0.370000 0.100000 }
 			scale={ 0.090000 0.090000 }
 			depth=2.010000
 		}
 
 		instance={
-			position={ 0.210000 0.190000 }
-			scale={ 0.070000 0.070000 }
+			position={ 0.450000 0.100000 }
+			scale={ 0.090000 0.090000 }
 			depth=3.010000
 		}
 
 		instance={
-			position={ 0.410000 0.280000 }
+			position={ 0.530000 0.100000 }
 			scale={ 0.090000 0.090000 }
 			depth=4.010000
 		}
 
 		instance={
-			position={ 0.150000 0.420000 }
+			position={ 0.250000 0.200000 }
 			scale={ 0.090000 0.090000 }
 			depth=5.010000
 		}
 
 		instance={
-			position={ 0.150000 0.120000 }
+			position={ 0.330000 0.200000 }
 			scale={ 0.090000 0.090000 }
 			depth=6.010000
 		}
 
 		instance={
-			position={ 0.150000 0.270000 }
+			position={ 0.410000 0.200000 }
 			scale={ 0.090000 0.090000 }
 			depth=7.010000
 		}
 
 		instance={
-			position={ 0.470000 0.180000 }
-			scale={ 0.070000 0.070000 }
+			position={ 0.490000 0.200000 }
+			scale={ 0.090000 0.090000 }
 			depth=8.010000
 		}
 
 		instance={
-			position={ 0.470000 0.370000 }
-			scale={ 0.070000 0.070000 }
+			position={ 0.210000 0.300000 }
+			scale={ 0.090000 0.090000 }
 			depth=9.010000
 		}
 
 		instance={
-			position={ 0.410000 0.420000 }
+			position={ 0.290000 0.300000 }
 			scale={ 0.090000 0.090000 }
 			depth=10.010000
 		}
 
 		instance={
-			position={ 0.410000 0.120000 }
+			position={ 0.370000 0.300000 }
 			scale={ 0.090000 0.090000 }
 			depth=11.010000
 		}
 
 		instance={
-			position={ 0.350000 0.370000 }
-			scale={ 0.070000 0.070000 }
+			position={ 0.450000 0.300000 }
+			scale={ 0.090000 0.090000 }
 			depth=12.010000
 		}
 
 		instance={
-			position={ 0.350000 0.180000 }
-			scale={ 0.070000 0.070000 }
+			position={ 0.530000 0.300000 }
+			scale={ 0.090000 0.090000 }
 			depth=13.010000
 		}
 
 		instance={
-			position={ 0.280000 0.420000 }
+			position={ 0.250000 0.400000 }
 			scale={ 0.090000 0.090000 }
 			depth=14.010000
 		}
 
 		instance={
-			position={ 0.280000 0.260000 }
+			position={ 0.330000 0.400000 }
 			scale={ 0.090000 0.090000 }
 			depth=15.010000
 		}
 
 		instance={
-			position={ 0.280000 0.120000 }
+			position={ 0.410000 0.400000 }
 			scale={ 0.090000 0.090000 }
 			depth=16.010000
 		}
 
 		instance={
-			position={ 0.220000 0.370000 }
-			scale={ 0.070000 0.070000 }
+			position={ 0.490000 0.400000 }
+			scale={ 0.090000 0.090000 }
 			depth=17.010000
 		}
 
@@ -500,7 +628,7 @@ coa_title_9557={
 
 ##########19 Starts
 
-coa_rd_title_748522287={
+e_united_states_19={
 	pattern="pattern_barruly_13.dds"
 	color1=red
 	color2=white
@@ -622,7 +750,7 @@ coa_rd_title_748522287={
 
 ################### 20 Starts
 
-coa_rd_title_2193416559={
+e_united_states_20={
 	pattern="pattern_barruly_13.dds"
 	color1=red
 	color2=white
@@ -642,120 +770,120 @@ coa_rd_title_2193416559={
 		color1=white
 		texture="ce_star_05.dds"
 		instance={
-			position={ 0.540000 0.080000 }
+			position={ 0.540000 0.100000 }
 			scale={ 0.090000 0.090000 }
 		}
 
 		instance={
-			position={ 0.540000 0.180000 }
+			position={ 0.540000 0.200000 }
 			scale={ 0.090000 0.090000 }
 			depth=1.010000
 		}
 
 		instance={
-			position={ 0.540000 0.280000 }
+			position={ 0.540000 0.300000 }
 			scale={ 0.090000 0.090000 }
 			depth=2.010000
 		}
 
 		instance={
-			position={ 0.540000 0.390000 }
+			position={ 0.540000 0.400000 }
 			scale={ 0.090000 0.090000 }
 			depth=3.010000
 		}
 
 		instance={
-			position={ 0.450000 0.080000 }
+			position={ 0.455000 0.100000 }
 			scale={ 0.090000 0.090000 }
 			depth=4.010000
 		}
 
 		instance={
-			position={ 0.450000 0.180000 }
+			position={ 0.455000 0.200000 }
 			scale={ 0.090000 0.090000 }
 			depth=5.010000
 		}
 
 		instance={
-			position={ 0.450000 0.280000 }
+			position={ 0.455000 0.300000 }
 			scale={ 0.090000 0.090000 }
 			depth=6.010000
 		}
 
 		instance={
-			position={ 0.450000 0.390000 }
+			position={ 0.455000 0.400000 }
 			scale={ 0.090000 0.090000 }
 			depth=7.010000
 		}
 
 		instance={
-			position={ 0.360000 0.080000 }
+			position={ 0.370000 0.100000 }
 			scale={ 0.090000 0.090000 }
 			depth=8.010000
 		}
 
 		instance={
-			position={ 0.360000 0.180000 }
+			position={ 0.370000 0.200000 }
 			scale={ 0.090000 0.090000 }
 			depth=9.010000
 		}
 
 		instance={
-			position={ 0.360000 0.280000 }
+			position={ 0.370000 0.300000 }
 			scale={ 0.090000 0.090000 }
 			depth=10.010000
 		}
 
 		instance={
-			position={ 0.360000 0.390000 }
+			position={ 0.370000 0.400000 }
 			scale={ 0.090000 0.090000 }
 			depth=11.010000
 		}
 
 		instance={
-			position={ 0.270000 0.080000 }
+			position={ 0.285000 0.100000 }
 			scale={ 0.090000 0.090000 }
 			depth=12.010000
 		}
 
 		instance={
-			position={ 0.170000 0.080000 }
+			position={ 0.200000 0.100000 }
 			scale={ 0.090000 0.090000 }
 			depth=13.010000
 		}
 
 		instance={
-			position={ 0.270000 0.180000 }
+			position={ 0.285000 0.200000 }
 			scale={ 0.090000 0.090000 }
 			depth=14.010000
 		}
 
 		instance={
-			position={ 0.270000 0.280000 }
+			position={ 0.285000 0.300000 }
 			scale={ 0.090000 0.090000 }
 			depth=15.010000
 		}
 
 		instance={
-			position={ 0.270000 0.390000 }
+			position={ 0.285000 0.400000 }
 			scale={ 0.090000 0.090000 }
 			depth=16.010000
 		}
 
 		instance={
-			position={ 0.170000 0.180000 }
+			position={ 0.200000 0.200000 }
 			scale={ 0.090000 0.090000 }
 			depth=17.010000
 		}
 
 		instance={
-			position={ 0.170000 0.280000 }
+			position={ 0.200000 0.300000 }
 			scale={ 0.090000 0.090000 }
 			depth=18.010000
 		}
 
 		instance={
-			position={ 0.170000 0.390000 }
+			position={ 0.200000 0.400000 }
 			scale={ 0.090000 0.090000 }
 			depth=19.010000
 		}
@@ -766,4 +894,7155 @@ coa_rd_title_2193416559={
 
 
 
+################21 Stars
+e_united_states_21={
+	pattern="pattern_barruly_13.dds"
+	color1=red
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=blue
+		texture="ce_block_02.dds"
+		instance={
+			position={ 0.360000 0.010000 }
+			scale={ 0.470000 0.970000 }
+			depth=21.010000
+		}
 
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_star_05.dds"
+		instance={
+			position={ 0.235000 0.100000 }
+			scale={ 0.070000 0.070000 }
+		}
+
+		instance={
+			position={ 0.305000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=1.010000
+		}
+
+		instance={
+			position={ 0.375000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=2.010000
+		}
+
+		instance={
+			position={ 0.445000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=3.010000
+		}
+
+		instance={
+			position={ 0.515000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=4.010000
+		}
+
+		instance={
+			position={ 0.270000 0.200000 }
+			scale={ 0.070000 0.070000 }
+			depth=5.010000
+		}
+
+		instance={
+			position={ 0.340000 0.200000 }
+			scale={ 0.070000 0.070000 }
+			depth=6.010000
+		}
+
+		instance={
+			position={ 0.410000 0.200000 }
+			scale={ 0.070000 0.070000 }
+			depth=7.010000
+		}
+
+		instance={
+			position={ 0.480000 0.200000 }
+			scale={ 0.070000 0.070000 }
+			depth=8.010000
+		}
+
+		instance={
+			position={ 0.200000 0.300000 }
+			scale={ 0.070000 0.070000 }
+			depth=9.010000
+		}
+
+		instance={
+			position={ 0.270000 0.300000 }
+			scale={ 0.070000 0.070000 }
+			depth=10.010000
+		}
+
+		instance={
+			position={ 0.340000 0.300000 }
+			scale={ 0.070000 0.070000 }
+			depth=11.010000
+		}
+
+		instance={
+			position={ 0.410000 0.300000 }
+			scale={ 0.070000 0.070000 }
+			depth=12.010000
+		}
+
+		instance={
+			position={ 0.480000 0.300000 }
+			scale={ 0.070000 0.070000 }
+			depth=13.010000
+		}
+
+		instance={
+			position={ 0.550000 0.300000 }
+			scale={ 0.070000 0.070000 }
+			depth=14.010000
+		}
+
+		instance={
+			position={ 0.200000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=15.010000
+		}
+
+		instance={
+			position={ 0.270000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=16.010000
+		}
+
+		instance={
+			position={ 0.340000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=17.010000
+		}
+
+		instance={
+			position={ 0.410000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=18.010000
+		}
+
+		instance={
+			position={ 0.480000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=19.010000
+		}
+
+		instance={
+			position={ 0.550000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=20.010000
+		}
+
+	}
+
+}
+
+
+
+###############22 stars
+
+e_united_states_22={
+	pattern="pattern_barruly_13.dds"
+	color1=red
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=blue
+		texture="ce_block_02.dds"
+		instance={
+			position={ 0.360000 0.010000 }
+			scale={ 0.470000 0.970000 }
+			depth=22.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_star_05.dds"
+		instance={
+			position={ 0.200000 0.100000 }
+			scale={ 0.070000 0.070000 }
+		}
+
+		instance={
+			position={ 0.270000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=1.010000
+		}
+
+		instance={
+			position={ 0.340000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=2.010000
+		}
+
+		instance={
+			position={ 0.410000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=3.010000
+		}
+
+		instance={
+			position={ 0.480000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=4.010000
+		}
+
+		instance={
+			position={ 0.550000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=5.010000
+		}
+
+		instance={
+			position={ 0.235000 0.200000 }
+			scale={ 0.070000 0.070000 }
+			depth=6.010000
+		}
+
+		instance={
+			position={ 0.305000 0.200000 }
+			scale={ 0.070000 0.070000 }
+			depth=7.010000
+		}
+
+		instance={
+			position={ 0.375000 0.200000 }
+			scale={ 0.070000 0.070000 }
+			depth=8.010000
+		}
+
+		instance={
+			position={ 0.445000 0.200000 }
+			scale={ 0.070000 0.070000 }
+			depth=9.010000
+		}
+
+		instance={
+			position={ 0.515000 0.200000 }
+			scale={ 0.070000 0.070000 }
+			depth=10.010000
+		}
+
+		instance={
+			position={ 0.235000 0.300000 }
+			scale={ 0.070000 0.070000 }
+			depth=11.010000
+		}
+
+		instance={
+			position={ 0.305000 0.300000 }
+			scale={ 0.070000 0.070000 }
+			depth=12.010000
+		}
+
+		instance={
+			position={ 0.375000 0.300000 }
+			scale={ 0.070000 0.070000 }
+			depth=13.010000
+		}
+
+		instance={
+			position={ 0.445000 0.300000 }
+			scale={ 0.070000 0.070000 }
+			depth=14.010000
+		}
+
+		instance={
+			position={ 0.515000 0.300000 }
+			scale={ 0.070000 0.070000 }
+			depth=15.010000
+		}
+
+		instance={
+			position={ 0.200000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=16.010000
+		}
+
+		instance={
+			position={ 0.270000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=17.010000
+		}
+
+		instance={
+			position={ 0.340000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=18.010000
+		}
+
+		instance={
+			position={ 0.410000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=19.010000
+		}
+
+		instance={
+			position={ 0.480000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=20.010000
+		}
+
+		instance={
+			position={ 0.550000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=21.010000
+		}
+
+	}
+
+}
+
+
+
+
+
+##############23 stars
+
+
+e_united_states_23={
+	pattern="pattern_barruly_13.dds"
+	color1=red
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=blue
+		texture="ce_block_02.dds"
+		instance={
+			position={ 0.360000 0.010000 }
+			scale={ 0.470000 0.970000 }
+			depth=23.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_star_05.dds"
+		instance={
+			position={ 0.200000 0.100000 }
+			scale={ 0.070000 0.070000 }
+		}
+
+		instance={
+			position={ 0.270000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=1.010000
+		}
+
+		instance={
+			position={ 0.340000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=2.010000
+		}
+
+		instance={
+			position={ 0.410000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=3.010000
+		}
+
+		instance={
+			position={ 0.480000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=4.010000
+		}
+
+		instance={
+			position={ 0.550000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=5.010000
+		}
+
+		instance={
+			position={ 0.235000 0.200000 }
+			scale={ 0.070000 0.070000 }
+			depth=6.010000
+		}
+
+		instance={
+			position={ 0.305000 0.200000 }
+			scale={ 0.070000 0.070000 }
+			depth=7.010000
+		}
+
+		instance={
+			position={ 0.375000 0.200000 }
+			scale={ 0.070000 0.070000 }
+			depth=8.010000
+		}
+
+		instance={
+			position={ 0.445000 0.200000 }
+			scale={ 0.070000 0.070000 }
+			depth=9.010000
+		}
+
+		instance={
+			position={ 0.515000 0.200000 }
+			scale={ 0.070000 0.070000 }
+			depth=10.010000
+		}
+
+		instance={
+			position={ 0.200000 0.300000 }
+			scale={ 0.070000 0.070000 }
+			depth=11.010000
+		}
+
+		instance={
+			position={ 0.270000 0.300000 }
+			scale={ 0.070000 0.070000 }
+			depth=12.010000
+		}
+
+		instance={
+			position={ 0.340000 0.300000 }
+			scale={ 0.070000 0.070000 }
+			depth=13.010000
+		}
+
+		instance={
+			position={ 0.410000 0.300000 }
+			scale={ 0.070000 0.070000 }
+			depth=14.010000
+		}
+
+		instance={
+			position={ 0.480000 0.300000 }
+			scale={ 0.070000 0.070000 }
+			depth=15.010000
+		}
+
+		instance={
+			position={ 0.550000 0.300000 }
+			scale={ 0.070000 0.070000 }
+			depth=16.010000
+		}
+
+		instance={
+			position={ 0.200000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=17.010000
+		}
+
+		instance={
+			position={ 0.270000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=18.010000
+		}
+
+		instance={
+			position={ 0.340000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=19.010000
+		}
+
+		instance={
+			position={ 0.410000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=20.010000
+		}
+
+		instance={
+			position={ 0.480000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=21.010000
+		}
+
+		instance={
+			position={ 0.550000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=22.010000
+		}
+
+	}
+
+}
+
+
+
+
+
+
+###########24 starts
+
+
+e_united_states_24={
+	pattern="pattern_barruly_13.dds"
+	color1=red
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=blue
+		texture="ce_block_02.dds"
+		instance={
+			position={ 0.360000 0.010000 }
+			scale={ 0.470000 0.970000 }
+			depth=24.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_star_05.dds"
+		instance={
+			position={ 0.200000 0.400000 }
+			scale={ 0.070000 0.070000 }
+		}
+
+		instance={
+			position={ 0.200000 0.300000 }
+			scale={ 0.070000 0.070000 }
+			depth=1.010000
+		}
+
+		instance={
+			position={ 0.200000 0.200000 }
+			scale={ 0.070000 0.070000 }
+			depth=2.010000
+		}
+
+		instance={
+			position={ 0.270000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=3.010000
+		}
+
+		instance={
+			position={ 0.270000 0.300000 }
+			scale={ 0.070000 0.070000 }
+			depth=4.010000
+		}
+
+		instance={
+			position={ 0.270000 0.200000 }
+			scale={ 0.070000 0.070000 }
+			depth=5.010000
+		}
+
+		instance={
+			position={ 0.200000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=6.010000
+		}
+
+		instance={
+			position={ 0.270000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=7.010000
+		}
+
+		instance={
+			position={ 0.340000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=8.010000
+		}
+
+		instance={
+			position={ 0.340000 0.300000 }
+			scale={ 0.070000 0.070000 }
+			depth=9.010000
+		}
+
+		instance={
+			position={ 0.340000 0.200000 }
+			scale={ 0.070000 0.070000 }
+			depth=10.010000
+		}
+
+		instance={
+			position={ 0.340000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=11.010000
+		}
+
+		instance={
+			position={ 0.410000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=12.010000
+		}
+
+		instance={
+			position={ 0.410000 0.300000 }
+			scale={ 0.070000 0.070000 }
+			depth=13.010000
+		}
+
+		instance={
+			position={ 0.410000 0.200000 }
+			scale={ 0.070000 0.070000 }
+			depth=14.010000
+		}
+
+		instance={
+			position={ 0.410000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=15.010000
+		}
+
+		instance={
+			position={ 0.480000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=16.010000
+		}
+
+		instance={
+			position={ 0.480000 0.300000 }
+			scale={ 0.070000 0.070000 }
+			depth=17.010000
+		}
+
+		instance={
+			position={ 0.480000 0.200000 }
+			scale={ 0.070000 0.070000 }
+			depth=18.010000
+		}
+
+		instance={
+			position={ 0.480000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=19.010000
+		}
+
+		instance={
+			position={ 0.550000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=20.010000
+		}
+
+		instance={
+			position={ 0.550000 0.200000 }
+			scale={ 0.070000 0.070000 }
+			depth=21.010000
+		}
+
+		instance={
+			position={ 0.550000 0.300000 }
+			scale={ 0.070000 0.070000 }
+			depth=22.010000
+		}
+
+		instance={
+			position={ 0.550000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=23.010000
+		}
+
+	}
+
+}
+
+######25 Stars
+e_united_states_25={
+	pattern="pattern_barruly_13.dds"
+	color1=red
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=blue
+		texture="ce_block_02.dds"
+		instance={
+			position={ 0.360000 0.010000 }
+			scale={ 0.470000 0.970000 }
+			depth=25.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_star_05.dds"
+		instance={
+			position={ 0.210000 0.100000 }
+			scale={ 0.070000 0.070000 }
+		}
+
+		instance={
+			position={ 0.276000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=1.010000
+		}
+
+		instance={
+			position={ 0.342000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=2.010000
+		}
+
+		instance={
+			position={ 0.408000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=3.010000
+		}
+
+		instance={
+			position={ 0.474000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=4.010000
+		}
+
+		instance={
+			position={ 0.540000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=5.010000
+		}
+
+		instance={
+			position={ 0.243000 0.200000 }
+			scale={ 0.070000 0.070000 }
+			depth=6.010000
+		}
+
+		instance={
+			position={ 0.309000 0.200000 }
+			scale={ 0.070000 0.070000 }
+			depth=7.010000
+		}
+
+		instance={
+			position={ 0.375000 0.200000 }
+			scale={ 0.070000 0.070000 }
+			depth=8.010000
+		}
+
+		instance={
+			position={ 0.441000 0.200000 }
+			scale={ 0.070000 0.070000 }
+			depth=9.010000
+		}
+
+		instance={
+			position={ 0.507000 0.200000 }
+			scale={ 0.070000 0.070000 }
+			depth=10.010000
+		}
+
+		instance={
+			position={ 0.210000 0.300000 }
+			scale={ 0.070000 0.070000 }
+			depth=11.010000
+		}
+
+		instance={
+			position={ 0.265000 0.300000 }
+			scale={ 0.070000 0.070000 }
+			depth=12.010000
+		}
+
+		instance={
+			position={ 0.320000 0.300000 }
+			scale={ 0.070000 0.070000 }
+			depth=13.010000
+		}
+
+		instance={
+			position={ 0.375000 0.300000 }
+			scale={ 0.070000 0.070000 }
+			depth=14.010000
+		}
+
+		instance={
+			position={ 0.430000 0.300000 }
+			scale={ 0.070000 0.070000 }
+			depth=15.010000
+		}
+
+		instance={
+			position={ 0.485000 0.300000 }
+			scale={ 0.070000 0.070000 }
+			depth=16.010000
+		}
+
+		instance={
+			position={ 0.540000 0.300000 }
+			scale={ 0.070000 0.070000 }
+			depth=17.010000
+		}
+
+		instance={
+			position={ 0.210000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=18.010000
+		}
+
+		instance={
+			position={ 0.265000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=19.010000
+		}
+
+		instance={
+			position={ 0.320000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=20.010000
+		}
+
+		instance={
+			position={ 0.375000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=21.010000
+		}
+
+		instance={
+			position={ 0.430000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=22.010000
+		}
+
+		instance={
+			position={ 0.485000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=23.010000
+		}
+
+		instance={
+			position={ 0.540000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=24.010000
+		}
+
+	}
+
+}
+
+
+#######26 Stars
+
+e_united_states_26={
+	pattern="pattern_barruly_13.dds"
+	color1=red
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=blue
+		texture="ce_block_02.dds"
+		instance={
+			position={ 0.360000 0.010000 }
+			scale={ 0.470000 0.970000 }
+			depth=26.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_star_05.dds"
+		instance={
+			position={ 0.210000 0.100000 }
+			scale={ 0.070000 0.070000 }
+		}
+
+		instance={
+			position={ 0.265000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=1.010000
+		}
+
+		instance={
+			position={ 0.320000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=2.010000
+		}
+
+		instance={
+			position={ 0.375000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=3.010000
+		}
+
+		instance={
+			position={ 0.430000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=4.010000
+		}
+
+		instance={
+			position={ 0.485000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=5.010000
+		}
+
+		instance={
+			position={ 0.540000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=6.010000
+		}
+
+		instance={
+			position={ 0.237500 0.200000 }
+			scale={ 0.070000 0.070000 }
+			depth=7.010000
+		}
+
+		instance={
+			position={ 0.292500 0.200000 }
+			scale={ 0.070000 0.070000 }
+			depth=8.010000
+		}
+
+		instance={
+			position={ 0.347500 0.200000 }
+			scale={ 0.070000 0.070000 }
+			depth=9.010000
+		}
+
+		instance={
+			position={ 0.407500 0.200000 }
+			scale={ 0.070000 0.070000 }
+			depth=10.010000
+		}
+
+		instance={
+			position={ 0.457500 0.200000 }
+			scale={ 0.070000 0.070000 }
+			depth=11.010000
+		}
+
+		instance={
+			position={ 0.512500 0.200000 }
+			scale={ 0.070000 0.070000 }
+			depth=12.010000
+		}
+
+		instance={
+			position={ 0.237500 0.300000 }
+			scale={ 0.070000 0.070000 }
+			depth=13.010000
+		}
+
+		instance={
+			position={ 0.292500 0.300000 }
+			scale={ 0.070000 0.070000 }
+			depth=14.010000
+		}
+
+		instance={
+			position={ 0.347500 0.300000 }
+			scale={ 0.070000 0.070000 }
+			depth=15.010000
+		}
+
+		instance={
+			position={ 0.402500 0.300000 }
+			scale={ 0.070000 0.070000 }
+			depth=16.010000
+		}
+
+		instance={
+			position={ 0.457500 0.300000 }
+			scale={ 0.070000 0.070000 }
+			depth=17.010000
+		}
+
+		instance={
+			position={ 0.512500 0.300000 }
+			scale={ 0.070000 0.070000 }
+			depth=18.010000
+		}
+
+		instance={
+			position={ 0.210000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=19.010000
+		}
+
+		instance={
+			position={ 0.265000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=20.010000
+		}
+
+		instance={
+			position={ 0.320000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=21.010000
+		}
+
+		instance={
+			position={ 0.375000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=22.010000
+		}
+
+		instance={
+			position={ 0.430000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=23.010000
+		}
+
+		instance={
+			position={ 0.485000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=24.010000
+		}
+
+		instance={
+			position={ 0.540000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=25.010000
+		}
+
+	}
+
+}
+
+######27 Stars
+
+e_united_states_27={
+	pattern="pattern_barruly_13.dds"
+	color1=red
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=blue
+		texture="ce_block_02.dds"
+		instance={
+			position={ 0.360000 0.010000 }
+			scale={ 0.470000 0.970000 }
+			depth=27.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_star_05.dds"
+		instance={
+			position={ 0.210000 0.100000 }
+			scale={ 0.070000 0.070000 }
+		}
+
+		instance={
+			position={ 0.265000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=1.010000
+		}
+
+		instance={
+			position={ 0.320000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=2.010000
+		}
+
+		instance={
+			position={ 0.375000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=3.010000
+		}
+
+		instance={
+			position={ 0.430000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=4.010000
+		}
+
+		instance={
+			position={ 0.485000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=5.010000
+		}
+
+		instance={
+			position={ 0.540000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=6.010000
+		}
+
+		instance={
+			position={ 0.237500 0.200000 }
+			scale={ 0.070000 0.070000 }
+			depth=7.010000
+		}
+
+		instance={
+			position={ 0.292500 0.200000 }
+			scale={ 0.070000 0.070000 }
+			depth=8.010000
+		}
+
+		instance={
+			position={ 0.347500 0.200000 }
+			scale={ 0.070000 0.070000 }
+			depth=9.010000
+		}
+
+		instance={
+			position={ 0.407500 0.200000 }
+			scale={ 0.070000 0.070000 }
+			depth=10.010000
+		}
+
+		instance={
+			position={ 0.457500 0.200000 }
+			scale={ 0.070000 0.070000 }
+			depth=11.010000
+		}
+
+		instance={
+			position={ 0.512500 0.200000 }
+			scale={ 0.070000 0.070000 }
+			depth=12.010000
+		}
+
+		instance={
+			position={ 0.210000 0.300000 }
+			scale={ 0.070000 0.070000 }
+			depth=13.010000
+		}
+
+		instance={
+			position={ 0.265000 0.300000 }
+			scale={ 0.070000 0.070000 }
+			depth=14.010000
+		}
+
+		instance={
+			position={ 0.320000 0.300000 }
+			scale={ 0.070000 0.070000 }
+			depth=15.010000
+		}
+
+		instance={
+			position={ 0.375000 0.300000 }
+			scale={ 0.070000 0.070000 }
+			depth=16.010000
+		}
+
+		instance={
+			position={ 0.430000 0.300000 }
+			scale={ 0.070000 0.070000 }
+			depth=17.010000
+		}
+
+		instance={
+			position={ 0.485000 0.300000 }
+			scale={ 0.070000 0.070000 }
+			depth=18.010000
+		}
+
+		instance={
+			position={ 0.540000 0.300000 }
+			scale={ 0.070000 0.070000 }
+			depth=19.010000
+		}
+
+		instance={
+			position={ 0.210000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=20.010000
+		}
+
+		instance={
+			position={ 0.265000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=21.010000
+		}
+
+		instance={
+			position={ 0.320000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=22.010000
+		}
+
+		instance={
+			position={ 0.375000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=23.010000
+		}
+
+		instance={
+			position={ 0.430000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=24.010000
+		}
+
+		instance={
+			position={ 0.485000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=25.010000
+		}
+
+		instance={
+			position={ 0.540000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=26.010000
+		}
+
+	}
+
+}
+
+
+
+#######28 Stars
+
+e_united_states_28={
+	pattern="pattern_barruly_13.dds"
+	color1=red
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=blue
+		texture="ce_block_02.dds"
+		instance={
+			position={ 0.360000 0.010000 }
+			scale={ 0.470000 0.970000 }
+			depth=28.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_star_05.dds"
+		instance={
+			position={ 0.210000 0.100000 }
+			scale={ 0.070000 0.070000 }
+		}
+
+		instance={
+			position={ 0.265000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=1.010000
+		}
+
+		instance={
+			position={ 0.320000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=2.010000
+		}
+
+		instance={
+			position={ 0.375000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=3.010000
+		}
+
+		instance={
+			position={ 0.430000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=4.010000
+		}
+
+		instance={
+			position={ 0.485000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=5.010000
+		}
+
+		instance={
+			position={ 0.540000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=6.010000
+		}
+
+		instance={
+			position={ 0.210000 0.200000 }
+			scale={ 0.070000 0.070000 }
+			depth=7.010000
+		}
+
+		instance={
+			position={ 0.265000 0.200000 }
+			scale={ 0.070000 0.070000 }
+			depth=8.010000
+		}
+
+		instance={
+			position={ 0.320000 0.200000 }
+			scale={ 0.070000 0.070000 }
+			depth=9.010000
+		}
+
+		instance={
+			position={ 0.375000 0.200000 }
+			scale={ 0.070000 0.070000 }
+			depth=10.010000
+		}
+
+		instance={
+			position={ 0.430000 0.200000 }
+			scale={ 0.070000 0.070000 }
+			depth=11.010000
+		}
+
+		instance={
+			position={ 0.485000 0.200000 }
+			scale={ 0.070000 0.070000 }
+			depth=12.010000
+		}
+
+		instance={
+			position={ 0.540000 0.200000 }
+			scale={ 0.070000 0.070000 }
+			depth=13.010000
+		}
+
+		instance={
+			position={ 0.210000 0.300000 }
+			scale={ 0.070000 0.070000 }
+			depth=14.010000
+		}
+
+		instance={
+			position={ 0.265000 0.300000 }
+			scale={ 0.070000 0.070000 }
+			depth=15.010000
+		}
+
+		instance={
+			position={ 0.320000 0.300000 }
+			scale={ 0.070000 0.070000 }
+			depth=16.010000
+		}
+
+		instance={
+			position={ 0.375000 0.300000 }
+			scale={ 0.070000 0.070000 }
+			depth=17.010000
+		}
+
+		instance={
+			position={ 0.430000 0.300000 }
+			scale={ 0.070000 0.070000 }
+			depth=18.010000
+		}
+
+		instance={
+			position={ 0.485000 0.300000 }
+			scale={ 0.070000 0.070000 }
+			depth=19.010000
+		}
+
+		instance={
+			position={ 0.540000 0.300000 }
+			scale={ 0.070000 0.070000 }
+			depth=20.010000
+		}
+
+		instance={
+			position={ 0.210000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=21.010000
+		}
+
+		instance={
+			position={ 0.265000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=22.010000
+		}
+
+		instance={
+			position={ 0.320000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=23.010000
+		}
+
+		instance={
+			position={ 0.375000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=24.010000
+		}
+
+		instance={
+			position={ 0.430000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=25.010000
+		}
+
+		instance={
+			position={ 0.485000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=26.010000
+		}
+
+		instance={
+			position={ 0.540000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=27.010000
+		}
+
+	}
+
+}
+
+
+#########29 Stars
+
+e_united_states_29={
+	pattern="pattern_barruly_13.dds"
+	color1=red
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=blue
+		texture="ce_block_02.dds"
+		instance={
+			position={ 0.360000 0.010000 }
+			scale={ 0.470000 0.970000 }
+			depth=29.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_star_05.dds"
+		instance={
+			position={ 0.200000 0.100000 }
+			scale={ 0.070000 0.070000 }
+		}
+
+		instance={
+			position={ 0.250000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=1.010000
+		}
+
+		instance={
+			position={ 0.300000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=2.010000
+		}
+
+		instance={
+			position={ 0.350000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=3.010000
+		}
+
+		instance={
+			position={ 0.400000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=4.010000
+		}
+
+		instance={
+			position={ 0.450000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=5.010000
+		}
+
+		instance={
+			position={ 0.500000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=6.010000
+		}
+
+		instance={
+			position={ 0.550000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=7.010000
+		}
+
+		instance={
+			position={ 0.250000 0.200000 }
+			scale={ 0.070000 0.070000 }
+			depth=8.010000
+		}
+
+		instance={
+			position={ 0.300000 0.200000 }
+			scale={ 0.070000 0.070000 }
+			depth=9.010000
+		}
+
+		instance={
+			position={ 0.350000 0.200000 }
+			scale={ 0.070000 0.070000 }
+			depth=10.010000
+		}
+
+		instance={
+			position={ 0.400000 0.200000 }
+			scale={ 0.070000 0.070000 }
+			depth=11.010000
+		}
+
+		instance={
+			position={ 0.450000 0.200000 }
+			scale={ 0.070000 0.070000 }
+			depth=12.010000
+		}
+
+		instance={
+			position={ 0.500000 0.200000 }
+			scale={ 0.070000 0.070000 }
+			depth=13.010000
+		}
+
+		instance={
+			position={ 0.225000 0.300000 }
+			scale={ 0.070000 0.070000 }
+			depth=14.010000
+		}
+
+		instance={
+			position={ 0.275000 0.300000 }
+			scale={ 0.070000 0.070000 }
+			depth=15.010000
+		}
+
+		instance={
+			position={ 0.325000 0.300000 }
+			scale={ 0.070000 0.070000 }
+			depth=16.010000
+		}
+
+		instance={
+			position={ 0.375000 0.300000 }
+			scale={ 0.070000 0.070000 }
+			depth=17.010000
+		}
+
+		instance={
+			position={ 0.425000 0.300000 }
+			scale={ 0.070000 0.070000 }
+			depth=18.010000
+		}
+
+		instance={
+			position={ 0.475000 0.300000 }
+			scale={ 0.070000 0.070000 }
+			depth=19.010000
+		}
+
+		instance={
+			position={ 0.525000 0.300000 }
+			scale={ 0.070000 0.070000 }
+			depth=20.010000
+		}
+
+		instance={
+			position={ 0.200000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=21.010000
+		}
+
+		instance={
+			position={ 0.250000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=22.010000
+		}
+
+		instance={
+			position={ 0.300000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=23.010000
+		}
+
+		instance={
+			position={ 0.350000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=24.010000
+		}
+
+		instance={
+			position={ 0.400000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=25.010000
+		}
+
+		instance={
+			position={ 0.450000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=26.010000
+		}
+
+		instance={
+			position={ 0.500000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=27.010000
+		}
+
+		instance={
+			position={ 0.550000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=28.010000
+		}
+
+	}
+
+}
+
+
+
+########30 Stars
+
+
+e_united_states_30={
+	pattern="pattern_barruly_13.dds"
+	color1=red
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=blue
+		texture="ce_block_02.dds"
+		instance={
+			position={ 0.360000 0.010000 }
+			scale={ 0.470000 0.970000 }
+			depth=30.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_star_05.dds"
+		instance={
+			position={ 0.550000 0.400000 }
+			scale={ 0.070000 0.070000 }
+		}
+
+		instance={
+			position={ 0.480000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=1.010000
+		}
+
+		instance={
+			position={ 0.410000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=2.010000
+		}
+
+		instance={
+			position={ 0.340000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=3.010000
+		}
+
+		instance={
+			position={ 0.270000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=4.010000
+		}
+
+		instance={
+			position={ 0.200000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=5.010000
+		}
+
+		instance={
+			position={ 0.200000 0.325000 }
+			scale={ 0.070000 0.070000 }
+			depth=6.010000
+		}
+
+		instance={
+			position={ 0.200000 0.250000 }
+			scale={ 0.070000 0.070000 }
+			depth=7.010000
+		}
+
+		instance={
+			position={ 0.200000 0.175000 }
+			scale={ 0.070000 0.070000 }
+			depth=8.010000
+		}
+
+		instance={
+			position={ 0.270000 0.325000 }
+			scale={ 0.070000 0.070000 }
+			depth=9.010000
+		}
+
+		instance={
+			position={ 0.270000 0.250000 }
+			scale={ 0.070000 0.070000 }
+			depth=10.010000
+		}
+
+		instance={
+			position={ 0.270000 0.175000 }
+			scale={ 0.070000 0.070000 }
+			depth=11.010000
+		}
+
+		instance={
+			position={ 0.200000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=12.010000
+		}
+
+		instance={
+			position={ 0.270000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=13.010000
+		}
+
+		instance={
+			position={ 0.340000 0.325000 }
+			scale={ 0.070000 0.070000 }
+			depth=14.010000
+		}
+
+		instance={
+			position={ 0.340000 0.250000 }
+			scale={ 0.070000 0.070000 }
+			depth=15.010000
+		}
+
+		instance={
+			position={ 0.340000 0.175000 }
+			scale={ 0.070000 0.070000 }
+			depth=16.010000
+		}
+
+		instance={
+			position={ 0.340000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=17.010000
+		}
+
+		instance={
+			position={ 0.410000 0.325000 }
+			scale={ 0.070000 0.070000 }
+			depth=18.010000
+		}
+
+		instance={
+			position={ 0.410000 0.250000 }
+			scale={ 0.070000 0.070000 }
+			depth=19.010000
+		}
+
+		instance={
+			position={ 0.410000 0.175000 }
+			scale={ 0.070000 0.070000 }
+			depth=20.010000
+		}
+
+		instance={
+			position={ 0.410000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=21.010000
+		}
+
+		instance={
+			position={ 0.480000 0.325000 }
+			scale={ 0.070000 0.070000 }
+			depth=22.010000
+		}
+
+		instance={
+			position={ 0.480000 0.250000 }
+			scale={ 0.070000 0.070000 }
+			depth=23.010000
+		}
+
+		instance={
+			position={ 0.480000 0.175000 }
+			scale={ 0.070000 0.070000 }
+			depth=24.010000
+		}
+
+		instance={
+			position={ 0.480000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=25.010000
+		}
+
+		instance={
+			position={ 0.550000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=26.010000
+		}
+
+		instance={
+			position={ 0.550000 0.175000 }
+			scale={ 0.070000 0.070000 }
+			depth=27.010000
+		}
+
+		instance={
+			position={ 0.550000 0.250000 }
+			scale={ 0.070000 0.070000 }
+			depth=28.010000
+		}
+
+		instance={
+			position={ 0.550000 0.325000 }
+			scale={ 0.070000 0.070000 }
+			depth=29.010000
+		}
+
+	}
+
+}
+
+
+##########31 Stars
+
+e_united_states_31={
+	pattern="pattern_barruly_13.dds"
+	color1=red
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=blue
+		texture="ce_block_02.dds"
+		instance={
+			position={ 0.360000 0.010000 }
+			scale={ 0.470000 0.970000 }
+			depth=31.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_star_05.dds"
+		instance={
+			position={ 0.210000 0.100000 }
+			scale={ 0.070000 0.070000 }
+		}
+
+		instance={
+			position={ 0.265000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=1.010000
+		}
+
+		instance={
+			position={ 0.320000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=2.010000
+		}
+
+		instance={
+			position={ 0.375000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=3.010000
+		}
+
+		instance={
+			position={ 0.430000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=4.010000
+		}
+
+		instance={
+			position={ 0.485000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=5.010000
+		}
+
+		instance={
+			position={ 0.540000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=6.010000
+		}
+
+		instance={
+			position={ 0.265000 0.175000 }
+			scale={ 0.070000 0.070000 }
+			depth=7.010000
+		}
+
+		instance={
+			position={ 0.320000 0.175000 }
+			scale={ 0.070000 0.070000 }
+			depth=8.010000
+		}
+
+		instance={
+			position={ 0.375000 0.175000 }
+			scale={ 0.070000 0.070000 }
+			depth=9.010000
+		}
+
+		instance={
+			position={ 0.430000 0.175000 }
+			scale={ 0.070000 0.070000 }
+			depth=10.010000
+		}
+
+		instance={
+			position={ 0.485000 0.175000 }
+			scale={ 0.070000 0.070000 }
+			depth=11.010000
+		}
+
+		instance={
+			position={ 0.237500 0.250000 }
+			scale={ 0.070000 0.070000 }
+			depth=12.010000
+		}
+
+		instance={
+			position={ 0.292500 0.250000 }
+			scale={ 0.070000 0.070000 }
+			depth=13.010000
+		}
+
+		instance={
+			position={ 0.347500 0.250000 }
+			scale={ 0.070000 0.070000 }
+			depth=14.010000
+		}
+
+		instance={
+			position={ 0.402500 0.250000 }
+			scale={ 0.070000 0.070000 }
+			depth=15.010000
+		}
+
+		instance={
+			position={ 0.457500 0.250000 }
+			scale={ 0.070000 0.070000 }
+			depth=16.010000
+		}
+
+		instance={
+			position={ 0.512500 0.250000 }
+			scale={ 0.070000 0.070000 }
+			depth=17.010000
+		}
+
+		instance={
+			position={ 0.237500 0.325000 }
+			scale={ 0.070000 0.070000 }
+			depth=18.010000
+		}
+
+		instance={
+			position={ 0.292500 0.325000 }
+			scale={ 0.070000 0.070000 }
+			depth=19.010000
+		}
+
+		instance={
+			position={ 0.347500 0.325000 }
+			scale={ 0.070000 0.070000 }
+			depth=20.010000
+		}
+
+		instance={
+			position={ 0.402500 0.325000 }
+			scale={ 0.070000 0.070000 }
+			depth=21.010000
+		}
+
+		instance={
+			position={ 0.457500 0.325000 }
+			scale={ 0.070000 0.070000 }
+			depth=22.010000
+		}
+
+		instance={
+			position={ 0.512500 0.325000 }
+			scale={ 0.070000 0.070000 }
+			depth=23.010000
+		}
+
+		instance={
+			position={ 0.210000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=24.010000
+		}
+
+		instance={
+			position={ 0.265000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=25.010000
+		}
+
+		instance={
+			position={ 0.320000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=26.010000
+		}
+
+		instance={
+			position={ 0.375000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=27.010000
+		}
+
+		instance={
+			position={ 0.430000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=28.010000
+		}
+
+		instance={
+			position={ 0.485000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=29.010000
+		}
+
+		instance={
+			position={ 0.540000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=30.010000
+		}
+
+	}
+
+}
+
+
+############32 Stars
+
+e_united_states_32={
+	pattern="pattern_barruly_13.dds"
+	color1=red
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=blue
+		texture="ce_block_02.dds"
+		instance={
+			position={ 0.360000 0.010000 }
+			scale={ 0.470000 0.970000 }
+			depth=32.010002
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_star_05.dds"
+		instance={
+			position={ 0.210000 0.100000 }
+			scale={ 0.070000 0.070000 }
+		}
+
+		instance={
+			position={ 0.265000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=1.010000
+		}
+
+		instance={
+			position={ 0.320000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=2.010000
+		}
+
+		instance={
+			position={ 0.375000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=3.010000
+		}
+
+		instance={
+			position={ 0.430000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=4.010000
+		}
+
+		instance={
+			position={ 0.485000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=5.010000
+		}
+
+		instance={
+			position={ 0.540000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=6.010000
+		}
+
+		instance={
+			position={ 0.237500 0.175000 }
+			scale={ 0.070000 0.070000 }
+			depth=7.010000
+		}
+
+		instance={
+			position={ 0.292500 0.175000 }
+			scale={ 0.070000 0.070000 }
+			depth=8.010000
+		}
+
+		instance={
+			position={ 0.347500 0.175000 }
+			scale={ 0.070000 0.070000 }
+			depth=9.010000
+		}
+
+		instance={
+			position={ 0.402500 0.175000 }
+			scale={ 0.070000 0.070000 }
+			depth=10.010000
+		}
+
+		instance={
+			position={ 0.457500 0.175000 }
+			scale={ 0.070000 0.070000 }
+			depth=11.010000
+		}
+
+		instance={
+			position={ 0.512500 0.175000 }
+			scale={ 0.070000 0.070000 }
+			depth=12.010000
+		}
+
+		instance={
+			position={ 0.237500 0.250000 }
+			scale={ 0.070000 0.070000 }
+			depth=13.010000
+		}
+
+		instance={
+			position={ 0.292500 0.250000 }
+			scale={ 0.070000 0.070000 }
+			depth=14.010000
+		}
+
+		instance={
+			position={ 0.347500 0.250000 }
+			scale={ 0.070000 0.070000 }
+			depth=15.010000
+		}
+
+		instance={
+			position={ 0.402500 0.250000 }
+			scale={ 0.070000 0.070000 }
+			depth=16.010000
+		}
+
+		instance={
+			position={ 0.457500 0.250000 }
+			scale={ 0.070000 0.070000 }
+			depth=17.010000
+		}
+
+		instance={
+			position={ 0.512500 0.250000 }
+			scale={ 0.070000 0.070000 }
+			depth=18.010000
+		}
+
+		instance={
+			position={ 0.237500 0.325000 }
+			scale={ 0.070000 0.070000 }
+			depth=19.010000
+		}
+
+		instance={
+			position={ 0.292500 0.325000 }
+			scale={ 0.070000 0.070000 }
+			depth=20.010000
+		}
+
+		instance={
+			position={ 0.347500 0.325000 }
+			scale={ 0.070000 0.070000 }
+			depth=21.010000
+		}
+
+		instance={
+			position={ 0.402500 0.325000 }
+			scale={ 0.070000 0.070000 }
+			depth=22.010000
+		}
+
+		instance={
+			position={ 0.457500 0.325000 }
+			scale={ 0.070000 0.070000 }
+			depth=23.010000
+		}
+
+		instance={
+			position={ 0.512500 0.325000 }
+			scale={ 0.070000 0.070000 }
+			depth=24.010000
+		}
+
+		instance={
+			position={ 0.210000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=25.010000
+		}
+
+		instance={
+			position={ 0.265000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=26.010000
+		}
+
+		instance={
+			position={ 0.320000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=27.010000
+		}
+
+		instance={
+			position={ 0.375000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=28.010000
+		}
+
+		instance={
+			position={ 0.430000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=29.010000
+		}
+
+		instance={
+			position={ 0.485000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=30.010000
+		}
+
+		instance={
+			position={ 0.540000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=31.010000
+		}
+
+	}
+
+}
+
+
+########33 Stars
+
+e_united_states_33={
+	pattern="pattern_barruly_13.dds"
+	color1=red
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=blue
+		texture="ce_block_02.dds"
+		instance={
+			position={ 0.360000 0.010000 }
+			scale={ 0.470000 0.970000 }
+			depth=33.010002
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_star_05.dds"
+		instance={
+			position={ 0.210000 0.100000 }
+			scale={ 0.070000 0.070000 }
+		}
+
+		instance={
+			position={ 0.265000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=1.010000
+		}
+
+		instance={
+			position={ 0.320000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=2.010000
+		}
+
+		instance={
+			position={ 0.375000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=3.010000
+		}
+
+		instance={
+			position={ 0.430000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=4.010000
+		}
+
+		instance={
+			position={ 0.485000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=5.010000
+		}
+
+		instance={
+			position={ 0.540000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=6.010000
+		}
+
+		instance={
+			position={ 0.210000 0.175000 }
+			scale={ 0.070000 0.070000 }
+			depth=7.010000
+		}
+
+		instance={
+			position={ 0.265000 0.175000 }
+			scale={ 0.070000 0.070000 }
+			depth=8.010000
+		}
+
+		instance={
+			position={ 0.320000 0.175000 }
+			scale={ 0.070000 0.070000 }
+			depth=9.010000
+		}
+
+		instance={
+			position={ 0.375000 0.175000 }
+			scale={ 0.070000 0.070000 }
+			depth=10.010000
+		}
+
+		instance={
+			position={ 0.430000 0.175000 }
+			scale={ 0.070000 0.070000 }
+			depth=11.010000
+		}
+
+		instance={
+			position={ 0.485000 0.175000 }
+			scale={ 0.070000 0.070000 }
+			depth=12.010000
+		}
+
+		instance={
+			position={ 0.540000 0.175000 }
+			scale={ 0.070000 0.070000 }
+			depth=13.010000
+		}
+
+		instance={
+			position={ 0.265000 0.250000 }
+			scale={ 0.070000 0.070000 }
+			depth=14.010000
+		}
+
+		instance={
+			position={ 0.320000 0.250000 }
+			scale={ 0.070000 0.070000 }
+			depth=15.010000
+		}
+
+		instance={
+			position={ 0.375000 0.250000 }
+			scale={ 0.070000 0.070000 }
+			depth=16.010000
+		}
+
+		instance={
+			position={ 0.430000 0.250000 }
+			scale={ 0.070000 0.070000 }
+			depth=17.010000
+		}
+
+		instance={
+			position={ 0.485000 0.250000 }
+			scale={ 0.070000 0.070000 }
+			depth=18.010000
+		}
+
+		instance={
+			position={ 0.210000 0.325000 }
+			scale={ 0.070000 0.070000 }
+			depth=19.010000
+		}
+
+		instance={
+			position={ 0.265000 0.325000 }
+			scale={ 0.070000 0.070000 }
+			depth=20.010000
+		}
+
+		instance={
+			position={ 0.320000 0.325000 }
+			scale={ 0.070000 0.070000 }
+			depth=21.010000
+		}
+
+		instance={
+			position={ 0.375000 0.325000 }
+			scale={ 0.070000 0.070000 }
+			depth=22.010000
+		}
+
+		instance={
+			position={ 0.430000 0.325000 }
+			scale={ 0.070000 0.070000 }
+			depth=23.010000
+		}
+
+		instance={
+			position={ 0.485000 0.325000 }
+			scale={ 0.070000 0.070000 }
+			depth=24.010000
+		}
+
+		instance={
+			position={ 0.540000 0.325000 }
+			scale={ 0.070000 0.070000 }
+			depth=25.010000
+		}
+
+		instance={
+			position={ 0.210000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=26.010000
+		}
+
+		instance={
+			position={ 0.265000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=27.010000
+		}
+
+		instance={
+			position={ 0.320000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=28.010000
+		}
+
+		instance={
+			position={ 0.375000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=29.010000
+		}
+
+		instance={
+			position={ 0.430000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=30.010000
+		}
+
+		instance={
+			position={ 0.485000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=31.010000
+		}
+
+		instance={
+			position={ 0.540000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=32.010002
+		}
+
+	}
+
+}
+
+
+#######34 Stars
+
+e_united_states_34={
+	pattern="pattern_barruly_13.dds"
+	color1=red
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=blue
+		texture="ce_block_02.dds"
+		instance={
+			position={ 0.360000 0.010000 }
+			scale={ 0.470000 0.970000 }
+			depth=34.010002
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_star_05.dds"
+		instance={
+			position={ 0.210000 0.100000 }
+			scale={ 0.070000 0.070000 }
+		}
+
+		instance={
+			position={ 0.265000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=1.010000
+		}
+
+		instance={
+			position={ 0.320000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=2.010000
+		}
+
+		instance={
+			position={ 0.375000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=3.010000
+		}
+
+		instance={
+			position={ 0.430000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=4.010000
+		}
+
+		instance={
+			position={ 0.485000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=5.010000
+		}
+
+		instance={
+			position={ 0.540000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=6.010000
+		}
+
+		instance={
+			position={ 0.210000 0.175000 }
+			scale={ 0.070000 0.070000 }
+			depth=7.010000
+		}
+
+		instance={
+			position={ 0.265000 0.175000 }
+			scale={ 0.070000 0.070000 }
+			depth=8.010000
+		}
+
+		instance={
+			position={ 0.320000 0.175000 }
+			scale={ 0.070000 0.070000 }
+			depth=9.010000
+		}
+
+		instance={
+			position={ 0.375000 0.175000 }
+			scale={ 0.070000 0.070000 }
+			depth=10.010000
+		}
+
+		instance={
+			position={ 0.430000 0.175000 }
+			scale={ 0.070000 0.070000 }
+			depth=11.010000
+		}
+
+		instance={
+			position={ 0.485000 0.175000 }
+			scale={ 0.070000 0.070000 }
+			depth=12.010000
+		}
+
+		instance={
+			position={ 0.540000 0.175000 }
+			scale={ 0.070000 0.070000 }
+			depth=13.010000
+		}
+
+		instance={
+			position={ 0.237500 0.250000 }
+			scale={ 0.070000 0.070000 }
+			depth=14.010000
+		}
+
+		instance={
+			position={ 0.292500 0.250000 }
+			scale={ 0.070000 0.070000 }
+			depth=15.010000
+		}
+
+		instance={
+			position={ 0.347500 0.250000 }
+			scale={ 0.070000 0.070000 }
+			depth=16.010000
+		}
+
+		instance={
+			position={ 0.402500 0.250000 }
+			scale={ 0.070000 0.070000 }
+			depth=17.010000
+		}
+
+		instance={
+			position={ 0.457500 0.250000 }
+			scale={ 0.070000 0.070000 }
+			depth=18.010000
+		}
+
+		instance={
+			position={ 0.512500 0.250000 }
+			scale={ 0.070000 0.070000 }
+			depth=19.010000
+		}
+
+		instance={
+			position={ 0.210000 0.325000 }
+			scale={ 0.070000 0.070000 }
+			depth=20.010000
+		}
+
+		instance={
+			position={ 0.265000 0.325000 }
+			scale={ 0.070000 0.070000 }
+			depth=21.010000
+		}
+
+		instance={
+			position={ 0.320000 0.325000 }
+			scale={ 0.070000 0.070000 }
+			depth=22.010000
+		}
+
+		instance={
+			position={ 0.375000 0.325000 }
+			scale={ 0.070000 0.070000 }
+			depth=23.010000
+		}
+
+		instance={
+			position={ 0.430000 0.325000 }
+			scale={ 0.070000 0.070000 }
+			depth=24.010000
+		}
+
+		instance={
+			position={ 0.485000 0.325000 }
+			scale={ 0.070000 0.070000 }
+			depth=25.010000
+		}
+
+		instance={
+			position={ 0.540000 0.325000 }
+			scale={ 0.070000 0.070000 }
+			depth=26.010000
+		}
+
+		instance={
+			position={ 0.210000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=27.010000
+		}
+
+		instance={
+			position={ 0.265000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=28.010000
+		}
+
+		instance={
+			position={ 0.320000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=29.010000
+		}
+
+		instance={
+			position={ 0.375000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=30.010000
+		}
+
+		instance={
+			position={ 0.430000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=31.010000
+		}
+
+		instance={
+			position={ 0.485000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=32.010002
+		}
+
+		instance={
+			position={ 0.540000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=33.010002
+		}
+
+	}
+
+}
+
+
+#######35 Stars
+
+e_united_states_35={
+	pattern="pattern_barruly_13.dds"
+	color1=red
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=blue
+		texture="ce_block_02.dds"
+		instance={
+			position={ 0.360000 0.010000 }
+			scale={ 0.470000 0.970000 }
+			depth=35.010002
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_star_05.dds"
+		instance={
+			position={ 0.210000 0.100000 }
+			scale={ 0.070000 0.070000 }
+		}
+
+		instance={
+			position={ 0.265000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=1.010000
+		}
+
+		instance={
+			position={ 0.320000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=2.010000
+		}
+
+		instance={
+			position={ 0.375000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=3.010000
+		}
+
+		instance={
+			position={ 0.430000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=4.010000
+		}
+
+		instance={
+			position={ 0.485000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=5.010000
+		}
+
+		instance={
+			position={ 0.540000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=6.010000
+		}
+
+		instance={
+			position={ 0.210000 0.175000 }
+			scale={ 0.070000 0.070000 }
+			depth=7.010000
+		}
+
+		instance={
+			position={ 0.265000 0.175000 }
+			scale={ 0.070000 0.070000 }
+			depth=8.010000
+		}
+
+		instance={
+			position={ 0.320000 0.175000 }
+			scale={ 0.070000 0.070000 }
+			depth=9.010000
+		}
+
+		instance={
+			position={ 0.375000 0.175000 }
+			scale={ 0.070000 0.070000 }
+			depth=10.010000
+		}
+
+		instance={
+			position={ 0.430000 0.175000 }
+			scale={ 0.070000 0.070000 }
+			depth=11.010000
+		}
+
+		instance={
+			position={ 0.485000 0.175000 }
+			scale={ 0.070000 0.070000 }
+			depth=12.010000
+		}
+
+		instance={
+			position={ 0.540000 0.175000 }
+			scale={ 0.070000 0.070000 }
+			depth=13.010000
+		}
+
+		instance={
+			position={ 0.210000 0.250000 }
+			scale={ 0.070000 0.070000 }
+			depth=14.010000
+		}
+
+		instance={
+			position={ 0.265000 0.250000 }
+			scale={ 0.070000 0.070000 }
+			depth=15.010000
+		}
+
+		instance={
+			position={ 0.320000 0.250000 }
+			scale={ 0.070000 0.070000 }
+			depth=16.010000
+		}
+
+		instance={
+			position={ 0.375000 0.250000 }
+			scale={ 0.070000 0.070000 }
+			depth=17.010000
+		}
+
+		instance={
+			position={ 0.430000 0.250000 }
+			scale={ 0.070000 0.070000 }
+			depth=18.010000
+		}
+
+		instance={
+			position={ 0.485000 0.250000 }
+			scale={ 0.070000 0.070000 }
+			depth=19.010000
+		}
+
+		instance={
+			position={ 0.540000 0.250000 }
+			scale={ 0.070000 0.070000 }
+			depth=20.010000
+		}
+
+		instance={
+			position={ 0.210000 0.325000 }
+			scale={ 0.070000 0.070000 }
+			depth=21.010000
+		}
+
+		instance={
+			position={ 0.265000 0.325000 }
+			scale={ 0.070000 0.070000 }
+			depth=22.010000
+		}
+
+		instance={
+			position={ 0.320000 0.325000 }
+			scale={ 0.070000 0.070000 }
+			depth=23.010000
+		}
+
+		instance={
+			position={ 0.375000 0.325000 }
+			scale={ 0.070000 0.070000 }
+			depth=24.010000
+		}
+
+		instance={
+			position={ 0.430000 0.325000 }
+			scale={ 0.070000 0.070000 }
+			depth=25.010000
+		}
+
+		instance={
+			position={ 0.485000 0.325000 }
+			scale={ 0.070000 0.070000 }
+			depth=26.010000
+		}
+
+		instance={
+			position={ 0.540000 0.325000 }
+			scale={ 0.070000 0.070000 }
+			depth=27.010000
+		}
+
+		instance={
+			position={ 0.210000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=28.010000
+		}
+
+		instance={
+			position={ 0.265000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=29.010000
+		}
+
+		instance={
+			position={ 0.320000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=30.010000
+		}
+
+		instance={
+			position={ 0.375000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=31.010000
+		}
+
+		instance={
+			position={ 0.430000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=32.010002
+		}
+
+		instance={
+			position={ 0.485000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=33.010002
+		}
+
+		instance={
+			position={ 0.540000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=34.010002
+		}
+
+	}
+
+}
+
+
+########36 Stars
+
+e_united_states_36={
+	pattern="pattern_barruly_13.dds"
+	color1=red
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=blue
+		texture="ce_block_02.dds"
+		instance={
+			position={ 0.360000 0.010000 }
+			scale={ 0.470000 0.970000 }
+			depth=36.010002
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_star_05.dds"
+		instance={
+			position={ 0.200000 0.100000 }
+			scale={ 0.070000 0.070000 }
+		}
+
+		instance={
+			position={ 0.250000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=1.010000
+		}
+
+		instance={
+			position={ 0.300000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=2.010000
+		}
+
+		instance={
+			position={ 0.350000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=3.010000
+		}
+
+		instance={
+			position={ 0.400000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=4.010000
+		}
+
+		instance={
+			position={ 0.450000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=5.010000
+		}
+
+		instance={
+			position={ 0.500000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=6.010000
+		}
+
+		instance={
+			position={ 0.550000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=7.010000
+		}
+
+		instance={
+			position={ 0.250000 0.175000 }
+			scale={ 0.070000 0.070000 }
+			depth=8.010000
+		}
+
+		instance={
+			position={ 0.300000 0.175000 }
+			scale={ 0.070000 0.070000 }
+			depth=9.010000
+		}
+
+		instance={
+			position={ 0.350000 0.175000 }
+			scale={ 0.070000 0.070000 }
+			depth=10.010000
+		}
+
+		instance={
+			position={ 0.400000 0.175000 }
+			scale={ 0.070000 0.070000 }
+			depth=11.010000
+		}
+
+		instance={
+			position={ 0.450000 0.175000 }
+			scale={ 0.070000 0.070000 }
+			depth=12.010000
+		}
+
+		instance={
+			position={ 0.500000 0.175000 }
+			scale={ 0.070000 0.070000 }
+			depth=13.010000
+		}
+
+		instance={
+			position={ 0.200000 0.250000 }
+			scale={ 0.070000 0.070000 }
+			depth=14.010000
+		}
+
+		instance={
+			position={ 0.250000 0.250000 }
+			scale={ 0.070000 0.070000 }
+			depth=15.010000
+		}
+
+		instance={
+			position={ 0.300000 0.250000 }
+			scale={ 0.070000 0.070000 }
+			depth=16.010000
+		}
+
+		instance={
+			position={ 0.350000 0.250000 }
+			scale={ 0.070000 0.070000 }
+			depth=17.010000
+		}
+
+		instance={
+			position={ 0.400000 0.250000 }
+			scale={ 0.070000 0.070000 }
+			depth=18.010000
+		}
+
+		instance={
+			position={ 0.450000 0.250000 }
+			scale={ 0.070000 0.070000 }
+			depth=19.010000
+		}
+
+		instance={
+			position={ 0.500000 0.250000 }
+			scale={ 0.070000 0.070000 }
+			depth=20.010000
+		}
+
+		instance={
+			position={ 0.550000 0.250000 }
+			scale={ 0.070000 0.070000 }
+			depth=21.010000
+		}
+
+		instance={
+			position={ 0.250000 0.325000 }
+			scale={ 0.070000 0.070000 }
+			depth=22.010000
+		}
+
+		instance={
+			position={ 0.300000 0.325000 }
+			scale={ 0.070000 0.070000 }
+			depth=23.010000
+		}
+
+		instance={
+			position={ 0.350000 0.325000 }
+			scale={ 0.070000 0.070000 }
+			depth=24.010000
+		}
+
+		instance={
+			position={ 0.400000 0.325000 }
+			scale={ 0.070000 0.070000 }
+			depth=25.010000
+		}
+
+		instance={
+			position={ 0.450000 0.325000 }
+			scale={ 0.070000 0.070000 }
+			depth=26.010000
+		}
+
+		instance={
+			position={ 0.500000 0.325000 }
+			scale={ 0.070000 0.070000 }
+			depth=27.010000
+		}
+
+		instance={
+			position={ 0.200000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=28.010000
+		}
+
+		instance={
+			position={ 0.250000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=29.010000
+		}
+
+		instance={
+			position={ 0.300000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=30.010000
+		}
+
+		instance={
+			position={ 0.350000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=31.010000
+		}
+
+		instance={
+			position={ 0.400000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=32.010002
+		}
+
+		instance={
+			position={ 0.450000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=33.010002
+		}
+
+		instance={
+			position={ 0.500000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=34.010002
+		}
+
+		instance={
+			position={ 0.550000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=35.010002
+		}
+
+	}
+
+}
+
+
+
+#####37 Stars
+
+e_united_states_37={
+	pattern="pattern_barruly_13.dds"
+	color1=red
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=blue
+		texture="ce_block_02.dds"
+		instance={
+			position={ 0.360000 0.010000 }
+			scale={ 0.470000 0.970000 }
+			depth=37.010002
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_star_05.dds"
+		instance={
+			position={ 0.250000 0.100000 }
+			scale={ 0.070000 0.070000 }
+		}
+
+		instance={
+			position={ 0.300000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=1.010000
+		}
+
+		instance={
+			position={ 0.350000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=2.010000
+		}
+
+		instance={
+			position={ 0.400000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=3.010000
+		}
+
+		instance={
+			position={ 0.450000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=4.010000
+		}
+
+		instance={
+			position={ 0.500000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=5.010000
+		}
+
+		instance={
+			position={ 0.550000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=6.010000
+		}
+
+		instance={
+			position={ 0.200000 0.175000 }
+			scale={ 0.070000 0.070000 }
+			depth=7.010000
+		}
+
+		instance={
+			position={ 0.250000 0.175000 }
+			scale={ 0.070000 0.070000 }
+			depth=8.010000
+		}
+
+		instance={
+			position={ 0.300000 0.175000 }
+			scale={ 0.070000 0.070000 }
+			depth=9.010000
+		}
+
+		instance={
+			position={ 0.350000 0.175000 }
+			scale={ 0.070000 0.070000 }
+			depth=10.010000
+		}
+
+		instance={
+			position={ 0.400000 0.175000 }
+			scale={ 0.070000 0.070000 }
+			depth=11.010000
+		}
+
+		instance={
+			position={ 0.450000 0.175000 }
+			scale={ 0.070000 0.070000 }
+			depth=12.010000
+		}
+
+		instance={
+			position={ 0.500000 0.175000 }
+			scale={ 0.070000 0.070000 }
+			depth=13.010000
+		}
+
+		instance={
+			position={ 0.550000 0.175000 }
+			scale={ 0.070000 0.070000 }
+			depth=14.010000
+		}
+
+		instance={
+			position={ 0.250000 0.250000 }
+			scale={ 0.070000 0.070000 }
+			depth=15.010000
+		}
+
+		instance={
+			position={ 0.300000 0.250000 }
+			scale={ 0.070000 0.070000 }
+			depth=16.010000
+		}
+
+		instance={
+			position={ 0.350000 0.250000 }
+			scale={ 0.070000 0.070000 }
+			depth=17.010000
+		}
+
+		instance={
+			position={ 0.400000 0.250000 }
+			scale={ 0.070000 0.070000 }
+			depth=18.010000
+		}
+
+		instance={
+			position={ 0.450000 0.250000 }
+			scale={ 0.070000 0.070000 }
+			depth=19.010000
+		}
+
+		instance={
+			position={ 0.500000 0.250000 }
+			scale={ 0.070000 0.070000 }
+			depth=20.010000
+		}
+
+		instance={
+			position={ 0.550000 0.250000 }
+			scale={ 0.070000 0.070000 }
+			depth=21.010000
+		}
+
+		instance={
+			position={ 0.200000 0.325000 }
+			scale={ 0.070000 0.070000 }
+			depth=22.010000
+		}
+
+		instance={
+			position={ 0.250000 0.325000 }
+			scale={ 0.070000 0.070000 }
+			depth=23.010000
+		}
+
+		instance={
+			position={ 0.300000 0.325000 }
+			scale={ 0.070000 0.070000 }
+			depth=24.010000
+		}
+
+		instance={
+			position={ 0.350000 0.325000 }
+			scale={ 0.070000 0.070000 }
+			depth=25.010000
+		}
+
+		instance={
+			position={ 0.400000 0.325000 }
+			scale={ 0.070000 0.070000 }
+			depth=26.010000
+		}
+
+		instance={
+			position={ 0.450000 0.325000 }
+			scale={ 0.070000 0.070000 }
+			depth=27.010000
+		}
+
+		instance={
+			position={ 0.500000 0.325000 }
+			scale={ 0.070000 0.070000 }
+			depth=28.010000
+		}
+
+		instance={
+			position={ 0.550000 0.325000 }
+			scale={ 0.070000 0.070000 }
+			depth=29.010000
+		}
+
+		instance={
+			position={ 0.250000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=30.010000
+		}
+
+		instance={
+			position={ 0.300000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=31.010000
+		}
+
+		instance={
+			position={ 0.350000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=32.010002
+		}
+
+		instance={
+			position={ 0.400000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=33.010002
+		}
+
+		instance={
+			position={ 0.450000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=34.010002
+		}
+
+		instance={
+			position={ 0.500000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=35.010002
+		}
+
+		instance={
+			position={ 0.550000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=36.010002
+		}
+
+	}
+
+}
+
+
+#######38 Stars
+
+e_united_states_38={
+	pattern="pattern_barruly_13.dds"
+	color1=red
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=blue
+		texture="ce_block_02.dds"
+		instance={
+			position={ 0.360000 0.010000 }
+			scale={ 0.470000 0.970000 }
+			depth=38.010002
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_star_05.dds"
+		instance={
+			position={ 0.225000 0.100000 }
+			scale={ 0.070000 0.070000 }
+		}
+
+		instance={
+			position={ 0.275000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=1.010000
+		}
+
+		instance={
+			position={ 0.325000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=2.010000
+		}
+
+		instance={
+			position={ 0.375000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=3.010000
+		}
+
+		instance={
+			position={ 0.425000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=4.010000
+		}
+
+		instance={
+			position={ 0.475000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=5.010000
+		}
+
+		instance={
+			position={ 0.525000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=6.010000
+		}
+
+		instance={
+			position={ 0.200000 0.175000 }
+			scale={ 0.070000 0.070000 }
+			depth=7.010000
+		}
+
+		instance={
+			position={ 0.250000 0.175000 }
+			scale={ 0.070000 0.070000 }
+			depth=8.010000
+		}
+
+		instance={
+			position={ 0.300000 0.175000 }
+			scale={ 0.070000 0.070000 }
+			depth=9.010000
+		}
+
+		instance={
+			position={ 0.350000 0.175000 }
+			scale={ 0.070000 0.070000 }
+			depth=10.010000
+		}
+
+		instance={
+			position={ 0.400000 0.175000 }
+			scale={ 0.070000 0.070000 }
+			depth=11.010000
+		}
+
+		instance={
+			position={ 0.450000 0.175000 }
+			scale={ 0.070000 0.070000 }
+			depth=12.010000
+		}
+
+		instance={
+			position={ 0.500000 0.175000 }
+			scale={ 0.070000 0.070000 }
+			depth=13.010000
+		}
+
+		instance={
+			position={ 0.550000 0.175000 }
+			scale={ 0.070000 0.070000 }
+			depth=14.010000
+		}
+
+		instance={
+			position={ 0.200000 0.250000 }
+			scale={ 0.070000 0.070000 }
+			depth=15.010000
+		}
+
+		instance={
+			position={ 0.250000 0.250000 }
+			scale={ 0.070000 0.070000 }
+			depth=16.010000
+		}
+
+		instance={
+			position={ 0.300000 0.250000 }
+			scale={ 0.070000 0.070000 }
+			depth=17.010000
+		}
+
+		instance={
+			position={ 0.350000 0.250000 }
+			scale={ 0.070000 0.070000 }
+			depth=18.010000
+		}
+
+		instance={
+			position={ 0.400000 0.250000 }
+			scale={ 0.070000 0.070000 }
+			depth=19.010000
+		}
+
+		instance={
+			position={ 0.450000 0.250000 }
+			scale={ 0.070000 0.070000 }
+			depth=20.010000
+		}
+
+		instance={
+			position={ 0.500000 0.250000 }
+			scale={ 0.070000 0.070000 }
+			depth=21.010000
+		}
+
+		instance={
+			position={ 0.550000 0.250000 }
+			scale={ 0.070000 0.070000 }
+			depth=22.010000
+		}
+
+		instance={
+			position={ 0.200000 0.325000 }
+			scale={ 0.070000 0.070000 }
+			depth=23.010000
+		}
+
+		instance={
+			position={ 0.250000 0.325000 }
+			scale={ 0.070000 0.070000 }
+			depth=24.010000
+		}
+
+		instance={
+			position={ 0.300000 0.325000 }
+			scale={ 0.070000 0.070000 }
+			depth=25.010000
+		}
+
+		instance={
+			position={ 0.350000 0.325000 }
+			scale={ 0.070000 0.070000 }
+			depth=26.010000
+		}
+
+		instance={
+			position={ 0.400000 0.325000 }
+			scale={ 0.070000 0.070000 }
+			depth=27.010000
+		}
+
+		instance={
+			position={ 0.450000 0.325000 }
+			scale={ 0.070000 0.070000 }
+			depth=28.010000
+		}
+
+		instance={
+			position={ 0.500000 0.325000 }
+			scale={ 0.070000 0.070000 }
+			depth=29.010000
+		}
+
+		instance={
+			position={ 0.550000 0.325000 }
+			scale={ 0.070000 0.070000 }
+			depth=30.010000
+		}
+
+		instance={
+			position={ 0.225000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=31.010000
+		}
+
+		instance={
+			position={ 0.275000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=32.010002
+		}
+
+		instance={
+			position={ 0.325000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=33.010002
+		}
+
+		instance={
+			position={ 0.375000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=34.010002
+		}
+
+		instance={
+			position={ 0.425000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=35.010002
+		}
+
+		instance={
+			position={ 0.475000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=36.010002
+		}
+
+		instance={
+			position={ 0.525000 0.400000 }
+			scale={ 0.070000 0.070000 }
+			depth=37.010002
+		}
+
+	}
+
+}
+
+
+
+######39 Stars
+
+e_united_states_39={
+	pattern="pattern_barruly_13.dds"
+	color1=red
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=blue
+		texture="ce_block_02.dds"
+		instance={
+			position={ 0.360000 0.010000 }
+			scale={ 0.470000 0.970000 }
+			depth=39.010002
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_star_05.dds"
+		instance={
+			position={ 0.210000 0.100000 }
+			scale={ 0.070000 0.070000 }
+		}
+
+		instance={
+			position={ 0.265000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=1.010000
+		}
+
+		instance={
+			position={ 0.320000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=2.010000
+		}
+
+		instance={
+			position={ 0.375000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=3.010000
+		}
+
+		instance={
+			position={ 0.430000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=4.010000
+		}
+
+		instance={
+			position={ 0.485000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=5.010000
+		}
+
+		instance={
+			position={ 0.540000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=6.010000
+		}
+
+		instance={
+			position={ 0.237500 0.164000 }
+			scale={ 0.070000 0.070000 }
+			depth=7.010000
+		}
+
+		instance={
+			position={ 0.292500 0.164000 }
+			scale={ 0.070000 0.070000 }
+			depth=8.010000
+		}
+
+		instance={
+			position={ 0.347500 0.164000 }
+			scale={ 0.070000 0.070000 }
+			depth=9.010000
+		}
+
+		instance={
+			position={ 0.402500 0.164000 }
+			scale={ 0.070000 0.070000 }
+			depth=10.010000
+		}
+
+		instance={
+			position={ 0.457500 0.164000 }
+			scale={ 0.070000 0.070000 }
+			depth=11.010000
+		}
+
+		instance={
+			position={ 0.512500 0.164000 }
+			scale={ 0.070000 0.070000 }
+			depth=12.010000
+		}
+
+		instance={
+			position={ 0.210000 0.228000 }
+			scale={ 0.070000 0.070000 }
+			depth=13.010000
+		}
+
+		instance={
+			position={ 0.265000 0.228000 }
+			scale={ 0.070000 0.070000 }
+			depth=14.010000
+		}
+
+		instance={
+			position={ 0.320000 0.228000 }
+			scale={ 0.070000 0.070000 }
+			depth=15.010000
+		}
+
+		instance={
+			position={ 0.375000 0.228000 }
+			scale={ 0.070000 0.070000 }
+			depth=16.010000
+		}
+
+		instance={
+			position={ 0.430000 0.228000 }
+			scale={ 0.070000 0.070000 }
+			depth=17.010000
+		}
+
+		instance={
+			position={ 0.485000 0.228000 }
+			scale={ 0.070000 0.070000 }
+			depth=18.010000
+		}
+
+		instance={
+			position={ 0.540000 0.228000 }
+			scale={ 0.070000 0.070000 }
+			depth=19.010000
+		}
+
+		instance={
+			position={ 0.237500 0.292000 }
+			scale={ 0.070000 0.070000 }
+			depth=20.010000
+		}
+
+		instance={
+			position={ 0.292500 0.292000 }
+			scale={ 0.070000 0.070000 }
+			depth=21.010000
+		}
+
+		instance={
+			position={ 0.347500 0.292000 }
+			scale={ 0.070000 0.070000 }
+			depth=22.010000
+		}
+
+		instance={
+			position={ 0.402500 0.292000 }
+			scale={ 0.070000 0.070000 }
+			depth=23.010000
+		}
+
+		instance={
+			position={ 0.457500 0.292000 }
+			scale={ 0.070000 0.070000 }
+			depth=24.010000
+		}
+
+		instance={
+			position={ 0.512500 0.292000 }
+			scale={ 0.070000 0.070000 }
+			depth=25.010000
+		}
+
+		instance={
+			position={ 0.210000 0.356000 }
+			scale={ 0.070000 0.070000 }
+			depth=26.010000
+		}
+
+		instance={
+			position={ 0.265000 0.356000 }
+			scale={ 0.070000 0.070000 }
+			depth=27.010000
+		}
+
+		instance={
+			position={ 0.320000 0.356000 }
+			scale={ 0.070000 0.070000 }
+			depth=28.010000
+		}
+
+		instance={
+			position={ 0.375000 0.356000 }
+			scale={ 0.070000 0.070000 }
+			depth=29.010000
+		}
+
+		instance={
+			position={ 0.430000 0.356000 }
+			scale={ 0.070000 0.070000 }
+			depth=30.010000
+		}
+
+		instance={
+			position={ 0.485000 0.356000 }
+			scale={ 0.070000 0.070000 }
+			depth=31.010000
+		}
+
+		instance={
+			position={ 0.540000 0.356000 }
+			scale={ 0.070000 0.070000 }
+			depth=32.010002
+		}
+
+		instance={
+			position={ 0.237500 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=33.010002
+		}
+
+		instance={
+			position={ 0.292500 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=34.010002
+		}
+
+		instance={
+			position={ 0.347500 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=35.010002
+		}
+
+		instance={
+			position={ 0.402500 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=36.010002
+		}
+
+		instance={
+			position={ 0.457500 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=37.010002
+		}
+
+		instance={
+			position={ 0.512500 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=38.010002
+		}
+
+	}
+
+}
+
+###########40 Stars
+
+
+e_united_states_40={
+	pattern="pattern_barruly_13.dds"
+	color1=red
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=blue
+		texture="ce_block_02.dds"
+		instance={
+			position={ 0.360000 0.010000 }
+			scale={ 0.470000 0.970000 }
+			depth=40.010002
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_star_05.dds"
+		instance={
+			position={ 0.550000 0.100000 }
+			scale={ 0.070000 0.070000 }
+		}
+
+		instance={
+			position={ 0.550000 0.180000 }
+			scale={ 0.070000 0.070000 }
+			depth=1.010000
+		}
+
+		instance={
+			position={ 0.550000 0.260000 }
+			scale={ 0.070000 0.070000 }
+			depth=2.010000
+		}
+
+		instance={
+			position={ 0.550000 0.340000 }
+			scale={ 0.070000 0.070000 }
+			depth=3.010000
+		}
+
+		instance={
+			position={ 0.550000 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=4.010000
+		}
+
+		instance={
+			position={ 0.500000 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=5.010000
+		}
+
+		instance={
+			position={ 0.500000 0.340000 }
+			scale={ 0.070000 0.070000 }
+			depth=6.010000
+		}
+
+		instance={
+			position={ 0.500000 0.260000 }
+			scale={ 0.070000 0.070000 }
+			depth=7.010000
+		}
+
+		instance={
+			position={ 0.500000 0.180000 }
+			scale={ 0.070000 0.070000 }
+			depth=8.010000
+		}
+
+		instance={
+			position={ 0.500000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=9.010000
+		}
+
+		instance={
+			position={ 0.450000 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=10.010000
+		}
+
+		instance={
+			position={ 0.400000 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=11.010000
+		}
+
+		instance={
+			position={ 0.350000 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=12.010000
+		}
+
+		instance={
+			position={ 0.300000 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=13.010000
+		}
+
+		instance={
+			position={ 0.250000 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=14.010000
+		}
+
+		instance={
+			position={ 0.200000 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=15.010000
+		}
+
+		instance={
+			position={ 0.200000 0.340000 }
+			scale={ 0.070000 0.070000 }
+			depth=16.010000
+		}
+
+		instance={
+			position={ 0.200000 0.260000 }
+			scale={ 0.070000 0.070000 }
+			depth=17.010000
+		}
+
+		instance={
+			position={ 0.200000 0.180000 }
+			scale={ 0.070000 0.070000 }
+			depth=18.010000
+		}
+
+		instance={
+			position={ 0.250000 0.340000 }
+			scale={ 0.070000 0.070000 }
+			depth=19.010000
+		}
+
+		instance={
+			position={ 0.250000 0.260000 }
+			scale={ 0.070000 0.070000 }
+			depth=20.010000
+		}
+
+		instance={
+			position={ 0.250000 0.180000 }
+			scale={ 0.070000 0.070000 }
+			depth=21.010000
+		}
+
+		instance={
+			position={ 0.200000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=22.010000
+		}
+
+		instance={
+			position={ 0.250000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=23.010000
+		}
+
+		instance={
+			position={ 0.300000 0.340000 }
+			scale={ 0.070000 0.070000 }
+			depth=24.010000
+		}
+
+		instance={
+			position={ 0.300000 0.260000 }
+			scale={ 0.070000 0.070000 }
+			depth=25.010000
+		}
+
+		instance={
+			position={ 0.300000 0.180000 }
+			scale={ 0.070000 0.070000 }
+			depth=26.010000
+		}
+
+		instance={
+			position={ 0.300000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=27.010000
+		}
+
+		instance={
+			position={ 0.350000 0.340000 }
+			scale={ 0.070000 0.070000 }
+			depth=28.010000
+		}
+
+		instance={
+			position={ 0.350000 0.260000 }
+			scale={ 0.070000 0.070000 }
+			depth=29.010000
+		}
+
+		instance={
+			position={ 0.350000 0.180000 }
+			scale={ 0.070000 0.070000 }
+			depth=30.010000
+		}
+
+		instance={
+			position={ 0.350000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=31.010000
+		}
+
+		instance={
+			position={ 0.400000 0.340000 }
+			scale={ 0.070000 0.070000 }
+			depth=32.010002
+		}
+
+		instance={
+			position={ 0.400000 0.260000 }
+			scale={ 0.070000 0.070000 }
+			depth=33.010002
+		}
+
+		instance={
+			position={ 0.400000 0.180000 }
+			scale={ 0.070000 0.070000 }
+			depth=34.010002
+		}
+
+		instance={
+			position={ 0.400000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=35.010002
+		}
+
+		instance={
+			position={ 0.450000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=36.010002
+		}
+
+		instance={
+			position={ 0.450000 0.180000 }
+			scale={ 0.070000 0.070000 }
+			depth=37.010002
+		}
+
+		instance={
+			position={ 0.450000 0.260000 }
+			scale={ 0.070000 0.070000 }
+			depth=38.010002
+		}
+
+		instance={
+			position={ 0.450000 0.340000 }
+			scale={ 0.070000 0.070000 }
+			depth=39.010002
+		}
+
+	}
+
+}
+
+
+#############41 Stars
+
+e_united_states_41={
+	pattern="pattern_barruly_13.dds"
+	color1=red
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=blue
+		texture="ce_block_02.dds"
+		instance={
+			position={ 0.360000 0.010000 }
+			scale={ 0.470000 0.970000 }
+			depth=41.010002
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_star_05.dds"
+		instance={
+			position={ 0.210000 0.100000 }
+			scale={ 0.070000 0.070000 }
+		}
+
+		instance={
+			position={ 0.265000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=1.010000
+		}
+
+		instance={
+			position={ 0.320000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=2.010000
+		}
+
+		instance={
+			position={ 0.375000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=3.010000
+		}
+
+		instance={
+			position={ 0.430000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=4.010000
+		}
+
+		instance={
+			position={ 0.485000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=5.010000
+		}
+
+		instance={
+			position={ 0.540000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=6.010000
+		}
+
+		instance={
+			position={ 0.210000 0.164000 }
+			scale={ 0.070000 0.070000 }
+			depth=7.010000
+		}
+
+		instance={
+			position={ 0.265000 0.164000 }
+			scale={ 0.070000 0.070000 }
+			depth=8.010000
+		}
+
+		instance={
+			position={ 0.320000 0.164000 }
+			scale={ 0.070000 0.070000 }
+			depth=9.010000
+		}
+
+		instance={
+			position={ 0.375000 0.164000 }
+			scale={ 0.070000 0.070000 }
+			depth=10.010000
+		}
+
+		instance={
+			position={ 0.430000 0.164000 }
+			scale={ 0.070000 0.070000 }
+			depth=11.010000
+		}
+
+		instance={
+			position={ 0.485000 0.164000 }
+			scale={ 0.070000 0.070000 }
+			depth=12.010000
+		}
+
+		instance={
+			position={ 0.540000 0.164000 }
+			scale={ 0.070000 0.070000 }
+			depth=13.010000
+		}
+
+		instance={
+			position={ 0.237500 0.228000 }
+			scale={ 0.070000 0.070000 }
+			depth=14.010000
+		}
+
+		instance={
+			position={ 0.292500 0.228000 }
+			scale={ 0.070000 0.070000 }
+			depth=15.010000
+		}
+
+		instance={
+			position={ 0.347500 0.228000 }
+			scale={ 0.070000 0.070000 }
+			depth=16.010000
+		}
+
+		instance={
+			position={ 0.402500 0.228000 }
+			scale={ 0.070000 0.070000 }
+			depth=17.010000
+		}
+
+		instance={
+			position={ 0.457500 0.228000 }
+			scale={ 0.070000 0.070000 }
+			depth=18.010000
+		}
+
+		instance={
+			position={ 0.512500 0.228000 }
+			scale={ 0.070000 0.070000 }
+			depth=19.010000
+		}
+
+		instance={
+			position={ 0.210000 0.292000 }
+			scale={ 0.070000 0.070000 }
+			depth=20.010000
+		}
+
+		instance={
+			position={ 0.265000 0.292000 }
+			scale={ 0.070000 0.070000 }
+			depth=21.010000
+		}
+
+		instance={
+			position={ 0.320000 0.292000 }
+			scale={ 0.070000 0.070000 }
+			depth=22.010000
+		}
+
+		instance={
+			position={ 0.375000 0.292000 }
+			scale={ 0.070000 0.070000 }
+			depth=23.010000
+		}
+
+		instance={
+			position={ 0.430000 0.292000 }
+			scale={ 0.070000 0.070000 }
+			depth=24.010000
+		}
+
+		instance={
+			position={ 0.485000 0.292000 }
+			scale={ 0.070000 0.070000 }
+			depth=25.010000
+		}
+
+		instance={
+			position={ 0.540000 0.292000 }
+			scale={ 0.070000 0.070000 }
+			depth=26.010000
+		}
+
+		instance={
+			position={ 0.210000 0.356000 }
+			scale={ 0.070000 0.070000 }
+			depth=27.010000
+		}
+
+		instance={
+			position={ 0.265000 0.356000 }
+			scale={ 0.070000 0.070000 }
+			depth=28.010000
+		}
+
+		instance={
+			position={ 0.320000 0.356000 }
+			scale={ 0.070000 0.070000 }
+			depth=29.010000
+		}
+
+		instance={
+			position={ 0.375000 0.356000 }
+			scale={ 0.070000 0.070000 }
+			depth=30.010000
+		}
+
+		instance={
+			position={ 0.430000 0.356000 }
+			scale={ 0.070000 0.070000 }
+			depth=31.010000
+		}
+
+		instance={
+			position={ 0.485000 0.356000 }
+			scale={ 0.070000 0.070000 }
+			depth=32.010002
+		}
+
+		instance={
+			position={ 0.540000 0.356000 }
+			scale={ 0.070000 0.070000 }
+			depth=33.010002
+		}
+
+		instance={
+			position={ 0.210000 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=34.010002
+		}
+
+		instance={
+			position={ 0.265000 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=35.010002
+		}
+
+		instance={
+			position={ 0.320000 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=36.010002
+		}
+
+		instance={
+			position={ 0.375000 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=37.010002
+		}
+
+		instance={
+			position={ 0.430000 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=38.010002
+		}
+
+		instance={
+			position={ 0.485000 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=39.010002
+		}
+
+		instance={
+			position={ 0.540000 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=40.010002
+		}
+
+	}
+
+}
+
+
+#####42 Stars
+
+
+e_united_states_42={
+	pattern="pattern_barruly_13.dds"
+	color1=red
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=blue
+		texture="ce_block_02.dds"
+		instance={
+			position={ 0.360000 0.010000 }
+			scale={ 0.470000 0.970000 }
+			depth=42.010002
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_star_05.dds"
+		instance={
+			position={ 0.210000 0.100000 }
+			scale={ 0.070000 0.070000 }
+		}
+
+		instance={
+			position={ 0.265000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=1.010000
+		}
+
+		instance={
+			position={ 0.320000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=2.010000
+		}
+
+		instance={
+			position={ 0.375000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=3.010000
+		}
+
+		instance={
+			position={ 0.430000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=4.010000
+		}
+
+		instance={
+			position={ 0.485000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=5.010000
+		}
+
+		instance={
+			position={ 0.540000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=6.010000
+		}
+
+		instance={
+			position={ 0.210000 0.164000 }
+			scale={ 0.070000 0.070000 }
+			depth=7.010000
+		}
+
+		instance={
+			position={ 0.265000 0.164000 }
+			scale={ 0.070000 0.070000 }
+			depth=8.010000
+		}
+
+		instance={
+			position={ 0.320000 0.164000 }
+			scale={ 0.070000 0.070000 }
+			depth=9.010000
+		}
+
+		instance={
+			position={ 0.375000 0.164000 }
+			scale={ 0.070000 0.070000 }
+			depth=10.010000
+		}
+
+		instance={
+			position={ 0.430000 0.164000 }
+			scale={ 0.070000 0.070000 }
+			depth=11.010000
+		}
+
+		instance={
+			position={ 0.485000 0.164000 }
+			scale={ 0.070000 0.070000 }
+			depth=12.010000
+		}
+
+		instance={
+			position={ 0.540000 0.164000 }
+			scale={ 0.070000 0.070000 }
+			depth=13.010000
+		}
+
+		instance={
+			position={ 0.210000 0.228000 }
+			scale={ 0.070000 0.070000 }
+			depth=14.010000
+		}
+
+		instance={
+			position={ 0.265000 0.228000 }
+			scale={ 0.070000 0.070000 }
+			depth=15.010000
+		}
+
+		instance={
+			position={ 0.320000 0.228000 }
+			scale={ 0.070000 0.070000 }
+			depth=16.010000
+		}
+
+		instance={
+			position={ 0.375000 0.228000 }
+			scale={ 0.070000 0.070000 }
+			depth=17.010000
+		}
+
+		instance={
+			position={ 0.430000 0.228000 }
+			scale={ 0.070000 0.070000 }
+			depth=18.010000
+		}
+
+		instance={
+			position={ 0.485000 0.228000 }
+			scale={ 0.070000 0.070000 }
+			depth=19.010000
+		}
+
+		instance={
+			position={ 0.540000 0.228000 }
+			scale={ 0.070000 0.070000 }
+			depth=20.010000
+		}
+
+		instance={
+			position={ 0.210000 0.292000 }
+			scale={ 0.070000 0.070000 }
+			depth=21.010000
+		}
+
+		instance={
+			position={ 0.265000 0.292000 }
+			scale={ 0.070000 0.070000 }
+			depth=22.010000
+		}
+
+		instance={
+			position={ 0.320000 0.292000 }
+			scale={ 0.070000 0.070000 }
+			depth=23.010000
+		}
+
+		instance={
+			position={ 0.375000 0.292000 }
+			scale={ 0.070000 0.070000 }
+			depth=24.010000
+		}
+
+		instance={
+			position={ 0.430000 0.292000 }
+			scale={ 0.070000 0.070000 }
+			depth=25.010000
+		}
+
+		instance={
+			position={ 0.485000 0.292000 }
+			scale={ 0.070000 0.070000 }
+			depth=26.010000
+		}
+
+		instance={
+			position={ 0.540000 0.292000 }
+			scale={ 0.070000 0.070000 }
+			depth=27.010000
+		}
+
+		instance={
+			position={ 0.210000 0.356000 }
+			scale={ 0.070000 0.070000 }
+			depth=28.010000
+		}
+
+		instance={
+			position={ 0.265000 0.356000 }
+			scale={ 0.070000 0.070000 }
+			depth=29.010000
+		}
+
+		instance={
+			position={ 0.320000 0.356000 }
+			scale={ 0.070000 0.070000 }
+			depth=30.010000
+		}
+
+		instance={
+			position={ 0.375000 0.356000 }
+			scale={ 0.070000 0.070000 }
+			depth=31.010000
+		}
+
+		instance={
+			position={ 0.430000 0.356000 }
+			scale={ 0.070000 0.070000 }
+			depth=32.010002
+		}
+
+		instance={
+			position={ 0.485000 0.356000 }
+			scale={ 0.070000 0.070000 }
+			depth=33.010002
+		}
+
+		instance={
+			position={ 0.540000 0.356000 }
+			scale={ 0.070000 0.070000 }
+			depth=34.010002
+		}
+
+		instance={
+			position={ 0.210000 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=35.010002
+		}
+
+		instance={
+			position={ 0.265000 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=36.010002
+		}
+
+		instance={
+			position={ 0.320000 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=37.010002
+		}
+
+		instance={
+			position={ 0.375000 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=38.010002
+		}
+
+		instance={
+			position={ 0.430000 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=39.010002
+		}
+
+		instance={
+			position={ 0.485000 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=40.010002
+		}
+
+		instance={
+			position={ 0.540000 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=41.010002
+		}
+
+	}
+
+}
+
+
+########43 Stars
+
+e_united_states_43={
+	pattern="pattern_barruly_13.dds"
+	color1=red
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=blue
+		texture="ce_block_02.dds"
+		instance={
+			position={ 0.360000 0.010000 }
+			scale={ 0.470000 0.970000 }
+			depth=43.010002
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_star_05.dds"
+		instance={
+			position={ 0.200000 0.100000 }
+			scale={ 0.070000 0.070000 }
+		}
+
+		instance={
+			position={ 0.250000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=1.010000
+		}
+
+		instance={
+			position={ 0.300000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=2.010000
+		}
+
+		instance={
+			position={ 0.350000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=3.010000
+		}
+
+		instance={
+			position={ 0.400000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=4.010000
+		}
+
+		instance={
+			position={ 0.450000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=5.010000
+		}
+
+		instance={
+			position={ 0.500000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=6.010000
+		}
+
+		instance={
+			position={ 0.550000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=7.010000
+		}
+
+		instance={
+			position={ 0.225000 0.164000 }
+			scale={ 0.070000 0.070000 }
+			depth=8.010000
+		}
+
+		instance={
+			position={ 0.275000 0.164000 }
+			scale={ 0.070000 0.070000 }
+			depth=9.010000
+		}
+
+		instance={
+			position={ 0.325000 0.164000 }
+			scale={ 0.070000 0.070000 }
+			depth=10.010000
+		}
+
+		instance={
+			position={ 0.375000 0.164000 }
+			scale={ 0.070000 0.070000 }
+			depth=11.010000
+		}
+
+		instance={
+			position={ 0.425000 0.164000 }
+			scale={ 0.070000 0.070000 }
+			depth=12.010000
+		}
+
+		instance={
+			position={ 0.475000 0.164000 }
+			scale={ 0.070000 0.070000 }
+			depth=13.010000
+		}
+
+		instance={
+			position={ 0.525000 0.164000 }
+			scale={ 0.070000 0.070000 }
+			depth=14.010000
+		}
+
+		instance={
+			position={ 0.250000 0.228000 }
+			scale={ 0.070000 0.070000 }
+			depth=15.010000
+		}
+
+		instance={
+			position={ 0.300000 0.228000 }
+			scale={ 0.070000 0.070000 }
+			depth=16.010000
+		}
+
+		instance={
+			position={ 0.350000 0.228000 }
+			scale={ 0.070000 0.070000 }
+			depth=17.010000
+		}
+
+		instance={
+			position={ 0.400000 0.228000 }
+			scale={ 0.070000 0.070000 }
+			depth=18.010000
+		}
+
+		instance={
+			position={ 0.450000 0.228000 }
+			scale={ 0.070000 0.070000 }
+			depth=19.010000
+		}
+
+		instance={
+			position={ 0.500000 0.228000 }
+			scale={ 0.070000 0.070000 }
+			depth=20.010000
+		}
+
+		instance={
+			position={ 0.550000 0.228000 }
+			scale={ 0.070000 0.070000 }
+			depth=21.010000
+		}
+
+		instance={
+			position={ 0.225000 0.292000 }
+			scale={ 0.070000 0.070000 }
+			depth=22.010000
+		}
+
+		instance={
+			position={ 0.275000 0.292000 }
+			scale={ 0.070000 0.070000 }
+			depth=23.010000
+		}
+
+		instance={
+			position={ 0.325000 0.292000 }
+			scale={ 0.070000 0.070000 }
+			depth=24.010000
+		}
+
+		instance={
+			position={ 0.375000 0.292000 }
+			scale={ 0.070000 0.070000 }
+			depth=25.010000
+		}
+
+		instance={
+			position={ 0.425000 0.292000 }
+			scale={ 0.070000 0.070000 }
+			depth=26.010000
+		}
+
+		instance={
+			position={ 0.475000 0.292000 }
+			scale={ 0.070000 0.070000 }
+			depth=27.010000
+		}
+
+		instance={
+			position={ 0.525000 0.292000 }
+			scale={ 0.070000 0.070000 }
+			depth=28.010000
+		}
+
+		instance={
+			position={ 0.250000 0.356000 }
+			scale={ 0.070000 0.070000 }
+			depth=29.010000
+		}
+
+		instance={
+			position={ 0.300000 0.356000 }
+			scale={ 0.070000 0.070000 }
+			depth=30.010000
+		}
+
+		instance={
+			position={ 0.350000 0.356000 }
+			scale={ 0.070000 0.070000 }
+			depth=31.010000
+		}
+
+		instance={
+			position={ 0.400000 0.356000 }
+			scale={ 0.070000 0.070000 }
+			depth=32.010002
+		}
+
+		instance={
+			position={ 0.450000 0.356000 }
+			scale={ 0.070000 0.070000 }
+			depth=33.010002
+		}
+
+		instance={
+			position={ 0.500000 0.356000 }
+			scale={ 0.070000 0.070000 }
+			depth=34.010002
+		}
+
+		instance={
+			position={ 0.550000 0.356000 }
+			scale={ 0.070000 0.070000 }
+			depth=35.010002
+		}
+
+		instance={
+			position={ 0.225000 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=36.010002
+		}
+
+		instance={
+			position={ 0.275000 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=37.010002
+		}
+
+		instance={
+			position={ 0.325000 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=38.010002
+		}
+
+		instance={
+			position={ 0.375000 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=39.010002
+		}
+
+		instance={
+			position={ 0.425000 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=40.010002
+		}
+
+		instance={
+			position={ 0.475000 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=41.010002
+		}
+
+		instance={
+			position={ 0.525000 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=42.010002
+		}
+
+	}
+
+}
+
+
+########44 Stars
+
+e_united_states_44={
+	pattern="pattern_barruly_13.dds"
+	color1=red
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=blue
+		texture="ce_block_02.dds"
+		instance={
+			position={ 0.360000 0.010000 }
+			scale={ 0.470000 0.970000 }
+			depth=44.010002
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_star_05.dds"
+		instance={
+			position={ 0.200000 0.100000 }
+			scale={ 0.070000 0.070000 }
+		}
+
+		instance={
+			position={ 0.250000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=1.010000
+		}
+
+		instance={
+			position={ 0.300000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=2.010000
+		}
+
+		instance={
+			position={ 0.350000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=3.010000
+		}
+
+		instance={
+			position={ 0.400000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=4.010000
+		}
+
+		instance={
+			position={ 0.450000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=5.010000
+		}
+
+		instance={
+			position={ 0.500000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=6.010000
+		}
+
+		instance={
+			position={ 0.550000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=7.010000
+		}
+
+		instance={
+			position={ 0.225000 0.164000 }
+			scale={ 0.070000 0.070000 }
+			depth=8.010000
+		}
+
+		instance={
+			position={ 0.275000 0.164000 }
+			scale={ 0.070000 0.070000 }
+			depth=9.010000
+		}
+
+		instance={
+			position={ 0.325000 0.164000 }
+			scale={ 0.070000 0.070000 }
+			depth=10.010000
+		}
+
+		instance={
+			position={ 0.375000 0.164000 }
+			scale={ 0.070000 0.070000 }
+			depth=11.010000
+		}
+
+		instance={
+			position={ 0.425000 0.164000 }
+			scale={ 0.070000 0.070000 }
+			depth=12.010000
+		}
+
+		instance={
+			position={ 0.475000 0.164000 }
+			scale={ 0.070000 0.070000 }
+			depth=13.010000
+		}
+
+		instance={
+			position={ 0.525000 0.164000 }
+			scale={ 0.070000 0.070000 }
+			depth=14.010000
+		}
+
+		instance={
+			position={ 0.225000 0.228000 }
+			scale={ 0.070000 0.070000 }
+			depth=15.010000
+		}
+
+		instance={
+			position={ 0.275000 0.228000 }
+			scale={ 0.070000 0.070000 }
+			depth=16.010000
+		}
+
+		instance={
+			position={ 0.325000 0.228000 }
+			scale={ 0.070000 0.070000 }
+			depth=17.010000
+		}
+
+		instance={
+			position={ 0.375000 0.228000 }
+			scale={ 0.070000 0.070000 }
+			depth=18.010000
+		}
+
+		instance={
+			position={ 0.425000 0.228000 }
+			scale={ 0.070000 0.070000 }
+			depth=19.010000
+		}
+
+		instance={
+			position={ 0.475000 0.228000 }
+			scale={ 0.070000 0.070000 }
+			depth=20.010000
+		}
+
+		instance={
+			position={ 0.525000 0.228000 }
+			scale={ 0.070000 0.070000 }
+			depth=21.010000
+		}
+
+		instance={
+			position={ 0.225000 0.292000 }
+			scale={ 0.070000 0.070000 }
+			depth=22.010000
+		}
+
+		instance={
+			position={ 0.275000 0.292000 }
+			scale={ 0.070000 0.070000 }
+			depth=23.010000
+		}
+
+		instance={
+			position={ 0.325000 0.292000 }
+			scale={ 0.070000 0.070000 }
+			depth=24.010000
+		}
+
+		instance={
+			position={ 0.375000 0.292000 }
+			scale={ 0.070000 0.070000 }
+			depth=25.010000
+		}
+
+		instance={
+			position={ 0.425000 0.292000 }
+			scale={ 0.070000 0.070000 }
+			depth=26.010000
+		}
+
+		instance={
+			position={ 0.475000 0.292000 }
+			scale={ 0.070000 0.070000 }
+			depth=27.010000
+		}
+
+		instance={
+			position={ 0.525000 0.292000 }
+			scale={ 0.070000 0.070000 }
+			depth=28.010000
+		}
+
+		instance={
+			position={ 0.225000 0.356000 }
+			scale={ 0.070000 0.070000 }
+			depth=29.010000
+		}
+
+		instance={
+			position={ 0.275000 0.356000 }
+			scale={ 0.070000 0.070000 }
+			depth=30.010000
+		}
+
+		instance={
+			position={ 0.325000 0.356000 }
+			scale={ 0.070000 0.070000 }
+			depth=31.010000
+		}
+
+		instance={
+			position={ 0.375000 0.356000 }
+			scale={ 0.070000 0.070000 }
+			depth=32.010002
+		}
+
+		instance={
+			position={ 0.425000 0.356000 }
+			scale={ 0.070000 0.070000 }
+			depth=33.010002
+		}
+
+		instance={
+			position={ 0.475000 0.356000 }
+			scale={ 0.070000 0.070000 }
+			depth=34.010002
+		}
+
+		instance={
+			position={ 0.525000 0.356000 }
+			scale={ 0.070000 0.070000 }
+			depth=35.010002
+		}
+
+		instance={
+			position={ 0.200000 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=36.010002
+		}
+
+		instance={
+			position={ 0.250000 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=37.010002
+		}
+
+		instance={
+			position={ 0.300000 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=38.010002
+		}
+
+		instance={
+			position={ 0.350000 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=39.010002
+		}
+
+		instance={
+			position={ 0.400000 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=40.010002
+		}
+
+		instance={
+			position={ 0.450000 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=41.010002
+		}
+
+		instance={
+			position={ 0.500000 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=42.010002
+		}
+
+		instance={
+			position={ 0.550000 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=43.010002
+		}
+
+	}
+
+}
+
+
+#######45 Stars
+
+e_united_states_45={
+	pattern="pattern_barruly_13.dds"
+	color1=red
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=blue
+		texture="ce_block_02.dds"
+		instance={
+			position={ 0.360000 0.010000 }
+			scale={ 0.470000 0.970000 }
+			depth=45.010002
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_star_05.dds"
+		instance={
+			position={ 0.200000 0.100000 }
+			scale={ 0.070000 0.070000 }
+		}
+
+		instance={
+			position={ 0.250000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=1.010000
+		}
+
+		instance={
+			position={ 0.300000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=2.010000
+		}
+
+		instance={
+			position={ 0.350000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=3.010000
+		}
+
+		instance={
+			position={ 0.400000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=4.010000
+		}
+
+		instance={
+			position={ 0.450000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=5.010000
+		}
+
+		instance={
+			position={ 0.500000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=6.010000
+		}
+
+		instance={
+			position={ 0.550000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=7.010000
+		}
+
+		instance={
+			position={ 0.225000 0.164000 }
+			scale={ 0.070000 0.070000 }
+			depth=8.010000
+		}
+
+		instance={
+			position={ 0.275000 0.164000 }
+			scale={ 0.070000 0.070000 }
+			depth=9.010000
+		}
+
+		instance={
+			position={ 0.325000 0.164000 }
+			scale={ 0.070000 0.070000 }
+			depth=10.010000
+		}
+
+		instance={
+			position={ 0.375000 0.164000 }
+			scale={ 0.070000 0.070000 }
+			depth=11.010000
+		}
+
+		instance={
+			position={ 0.425000 0.164000 }
+			scale={ 0.070000 0.070000 }
+			depth=12.010000
+		}
+
+		instance={
+			position={ 0.475000 0.164000 }
+			scale={ 0.070000 0.070000 }
+			depth=13.010000
+		}
+
+		instance={
+			position={ 0.525000 0.164000 }
+			scale={ 0.070000 0.070000 }
+			depth=14.010000
+		}
+
+		instance={
+			position={ 0.200000 0.228000 }
+			scale={ 0.070000 0.070000 }
+			depth=15.010000
+		}
+
+		instance={
+			position={ 0.250000 0.228000 }
+			scale={ 0.070000 0.070000 }
+			depth=16.010000
+		}
+
+		instance={
+			position={ 0.300000 0.228000 }
+			scale={ 0.070000 0.070000 }
+			depth=17.010000
+		}
+
+		instance={
+			position={ 0.350000 0.228000 }
+			scale={ 0.070000 0.070000 }
+			depth=18.010000
+		}
+
+		instance={
+			position={ 0.400000 0.228000 }
+			scale={ 0.070000 0.070000 }
+			depth=19.010000
+		}
+
+		instance={
+			position={ 0.450000 0.228000 }
+			scale={ 0.070000 0.070000 }
+			depth=20.010000
+		}
+
+		instance={
+			position={ 0.500000 0.228000 }
+			scale={ 0.070000 0.070000 }
+			depth=21.010000
+		}
+
+		instance={
+			position={ 0.550000 0.228000 }
+			scale={ 0.070000 0.070000 }
+			depth=22.010000
+		}
+
+		instance={
+			position={ 0.225000 0.292000 }
+			scale={ 0.070000 0.070000 }
+			depth=23.010000
+		}
+
+		instance={
+			position={ 0.275000 0.292000 }
+			scale={ 0.070000 0.070000 }
+			depth=24.010000
+		}
+
+		instance={
+			position={ 0.325000 0.292000 }
+			scale={ 0.070000 0.070000 }
+			depth=25.010000
+		}
+
+		instance={
+			position={ 0.375000 0.292000 }
+			scale={ 0.070000 0.070000 }
+			depth=26.010000
+		}
+
+		instance={
+			position={ 0.425000 0.292000 }
+			scale={ 0.070000 0.070000 }
+			depth=27.010000
+		}
+
+		instance={
+			position={ 0.475000 0.292000 }
+			scale={ 0.070000 0.070000 }
+			depth=28.010000
+		}
+
+		instance={
+			position={ 0.525000 0.292000 }
+			scale={ 0.070000 0.070000 }
+			depth=29.010000
+		}
+
+		instance={
+			position={ 0.200000 0.356000 }
+			scale={ 0.070000 0.070000 }
+			depth=30.010000
+		}
+
+		instance={
+			position={ 0.250000 0.356000 }
+			scale={ 0.070000 0.070000 }
+			depth=31.010000
+		}
+
+		instance={
+			position={ 0.300000 0.356000 }
+			scale={ 0.070000 0.070000 }
+			depth=32.010002
+		}
+
+		instance={
+			position={ 0.350000 0.356000 }
+			scale={ 0.070000 0.070000 }
+			depth=33.010002
+		}
+
+		instance={
+			position={ 0.400000 0.356000 }
+			scale={ 0.070000 0.070000 }
+			depth=34.010002
+		}
+
+		instance={
+			position={ 0.450000 0.356000 }
+			scale={ 0.070000 0.070000 }
+			depth=35.010002
+		}
+
+		instance={
+			position={ 0.500000 0.356000 }
+			scale={ 0.070000 0.070000 }
+			depth=36.010002
+		}
+
+		instance={
+			position={ 0.550000 0.356000 }
+			scale={ 0.070000 0.070000 }
+			depth=37.010002
+		}
+
+		instance={
+			position={ 0.225000 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=38.010002
+		}
+
+		instance={
+			position={ 0.275000 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=39.010002
+		}
+
+		instance={
+			position={ 0.325000 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=40.010002
+		}
+
+		instance={
+			position={ 0.375000 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=41.010002
+		}
+
+		instance={
+			position={ 0.425000 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=42.010002
+		}
+
+		instance={
+			position={ 0.475000 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=43.010002
+		}
+
+		instance={
+			position={ 0.525000 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=44.010002
+		}
+
+	}
+
+}
+
+
+######46 Stars
+
+e_united_states_46={
+	pattern="pattern_barruly_13.dds"
+	color1=red
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=blue
+		texture="ce_block_02.dds"
+		instance={
+			position={ 0.360000 0.010000 }
+			scale={ 0.470000 0.970000 }
+			depth=46.010002
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_star_05.dds"
+		instance={
+			position={ 0.200000 0.100000 }
+			scale={ 0.070000 0.070000 }
+		}
+
+		instance={
+			position={ 0.250000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=1.010000
+		}
+
+		instance={
+			position={ 0.300000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=2.010000
+		}
+
+		instance={
+			position={ 0.350000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=3.010000
+		}
+
+		instance={
+			position={ 0.400000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=4.010000
+		}
+
+		instance={
+			position={ 0.450000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=5.010000
+		}
+
+		instance={
+			position={ 0.500000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=6.010000
+		}
+
+		instance={
+			position={ 0.550000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=7.010000
+		}
+
+		instance={
+			position={ 0.225000 0.164000 }
+			scale={ 0.070000 0.070000 }
+			depth=8.010000
+		}
+
+		instance={
+			position={ 0.275000 0.164000 }
+			scale={ 0.070000 0.070000 }
+			depth=9.010000
+		}
+
+		instance={
+			position={ 0.325000 0.164000 }
+			scale={ 0.070000 0.070000 }
+			depth=10.010000
+		}
+
+		instance={
+			position={ 0.375000 0.164000 }
+			scale={ 0.070000 0.070000 }
+			depth=11.010000
+		}
+
+		instance={
+			position={ 0.425000 0.164000 }
+			scale={ 0.070000 0.070000 }
+			depth=12.010000
+		}
+
+		instance={
+			position={ 0.475000 0.164000 }
+			scale={ 0.070000 0.070000 }
+			depth=13.010000
+		}
+
+		instance={
+			position={ 0.525000 0.164000 }
+			scale={ 0.070000 0.070000 }
+			depth=14.010000
+		}
+
+		instance={
+			position={ 0.200000 0.228000 }
+			scale={ 0.070000 0.070000 }
+			depth=15.010000
+		}
+
+		instance={
+			position={ 0.250000 0.228000 }
+			scale={ 0.070000 0.070000 }
+			depth=16.010000
+		}
+
+		instance={
+			position={ 0.300000 0.228000 }
+			scale={ 0.070000 0.070000 }
+			depth=17.010000
+		}
+
+		instance={
+			position={ 0.350000 0.228000 }
+			scale={ 0.070000 0.070000 }
+			depth=18.010000
+		}
+
+		instance={
+			position={ 0.400000 0.228000 }
+			scale={ 0.070000 0.070000 }
+			depth=19.010000
+		}
+
+		instance={
+			position={ 0.450000 0.228000 }
+			scale={ 0.070000 0.070000 }
+			depth=20.010000
+		}
+
+		instance={
+			position={ 0.500000 0.228000 }
+			scale={ 0.070000 0.070000 }
+			depth=21.010000
+		}
+
+		instance={
+			position={ 0.550000 0.228000 }
+			scale={ 0.070000 0.070000 }
+			depth=22.010000
+		}
+
+		instance={
+			position={ 0.200000 0.292000 }
+			scale={ 0.070000 0.070000 }
+			depth=23.010000
+		}
+
+		instance={
+			position={ 0.250000 0.292000 }
+			scale={ 0.070000 0.070000 }
+			depth=24.010000
+		}
+
+		instance={
+			position={ 0.300000 0.292000 }
+			scale={ 0.070000 0.070000 }
+			depth=25.010000
+		}
+
+		instance={
+			position={ 0.350000 0.292000 }
+			scale={ 0.070000 0.070000 }
+			depth=26.010000
+		}
+
+		instance={
+			position={ 0.400000 0.292000 }
+			scale={ 0.070000 0.070000 }
+			depth=27.010000
+		}
+
+		instance={
+			position={ 0.450000 0.292000 }
+			scale={ 0.070000 0.070000 }
+			depth=28.010000
+		}
+
+		instance={
+			position={ 0.500000 0.292000 }
+			scale={ 0.070000 0.070000 }
+			depth=29.010000
+		}
+
+		instance={
+			position={ 0.550000 0.292000 }
+			scale={ 0.070000 0.070000 }
+			depth=30.010000
+		}
+
+		instance={
+			position={ 0.225000 0.356000 }
+			scale={ 0.070000 0.070000 }
+			depth=31.010000
+		}
+
+		instance={
+			position={ 0.275000 0.356000 }
+			scale={ 0.070000 0.070000 }
+			depth=32.010002
+		}
+
+		instance={
+			position={ 0.325000 0.356000 }
+			scale={ 0.070000 0.070000 }
+			depth=33.010002
+		}
+
+		instance={
+			position={ 0.375000 0.356000 }
+			scale={ 0.070000 0.070000 }
+			depth=34.010002
+		}
+
+		instance={
+			position={ 0.425000 0.356000 }
+			scale={ 0.070000 0.070000 }
+			depth=35.010002
+		}
+
+		instance={
+			position={ 0.475000 0.356000 }
+			scale={ 0.070000 0.070000 }
+			depth=36.010002
+		}
+
+		instance={
+			position={ 0.525000 0.356000 }
+			scale={ 0.070000 0.070000 }
+			depth=37.010002
+		}
+
+		instance={
+			position={ 0.200000 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=38.010002
+		}
+
+		instance={
+			position={ 0.250000 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=39.010002
+		}
+
+		instance={
+			position={ 0.300000 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=40.010002
+		}
+
+		instance={
+			position={ 0.350000 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=41.010002
+		}
+
+		instance={
+			position={ 0.400000 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=42.010002
+		}
+
+		instance={
+			position={ 0.450000 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=43.010002
+		}
+
+		instance={
+			position={ 0.500000 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=44.010002
+		}
+
+		instance={
+			position={ 0.550000 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=45.010002
+		}
+
+	}
+
+}
+
+
+########47 Stars
+
+e_united_states_47={
+	pattern="pattern_barruly_13.dds"
+	color1=red
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=blue
+		texture="ce_block_02.dds"
+		instance={
+			position={ 0.360000 0.010000 }
+			scale={ 0.470000 0.970000 }
+			depth=47.010002
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_star_05.dds"
+		instance={
+			position={ 0.200000 0.100000 }
+			scale={ 0.070000 0.070000 }
+		}
+
+		instance={
+			position={ 0.250000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=1.010000
+		}
+
+		instance={
+			position={ 0.300000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=2.010000
+		}
+
+		instance={
+			position={ 0.350000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=3.010000
+		}
+
+		instance={
+			position={ 0.400000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=4.010000
+		}
+
+		instance={
+			position={ 0.450000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=5.010000
+		}
+
+		instance={
+			position={ 0.500000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=6.010000
+		}
+
+		instance={
+			position={ 0.550000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=7.010000
+		}
+
+		instance={
+			position={ 0.200000 0.164000 }
+			scale={ 0.070000 0.070000 }
+			depth=8.010000
+		}
+
+		instance={
+			position={ 0.250000 0.164000 }
+			scale={ 0.070000 0.070000 }
+			depth=9.010000
+		}
+
+		instance={
+			position={ 0.300000 0.164000 }
+			scale={ 0.070000 0.070000 }
+			depth=10.010000
+		}
+
+		instance={
+			position={ 0.350000 0.164000 }
+			scale={ 0.070000 0.070000 }
+			depth=11.010000
+		}
+
+		instance={
+			position={ 0.400000 0.164000 }
+			scale={ 0.070000 0.070000 }
+			depth=12.010000
+		}
+
+		instance={
+			position={ 0.450000 0.164000 }
+			scale={ 0.070000 0.070000 }
+			depth=13.010000
+		}
+
+		instance={
+			position={ 0.500000 0.164000 }
+			scale={ 0.070000 0.070000 }
+			depth=14.010000
+		}
+
+		instance={
+			position={ 0.550000 0.164000 }
+			scale={ 0.070000 0.070000 }
+			depth=15.010000
+		}
+
+		instance={
+			position={ 0.200000 0.228000 }
+			scale={ 0.070000 0.070000 }
+			depth=16.010000
+		}
+
+		instance={
+			position={ 0.250000 0.228000 }
+			scale={ 0.070000 0.070000 }
+			depth=17.010000
+		}
+
+		instance={
+			position={ 0.300000 0.228000 }
+			scale={ 0.070000 0.070000 }
+			depth=18.010000
+		}
+
+		instance={
+			position={ 0.350000 0.228000 }
+			scale={ 0.070000 0.070000 }
+			depth=19.010000
+		}
+
+		instance={
+			position={ 0.400000 0.228000 }
+			scale={ 0.070000 0.070000 }
+			depth=20.010000
+		}
+
+		instance={
+			position={ 0.450000 0.228000 }
+			scale={ 0.070000 0.070000 }
+			depth=21.010000
+		}
+
+		instance={
+			position={ 0.500000 0.228000 }
+			scale={ 0.070000 0.070000 }
+			depth=22.010000
+		}
+
+		instance={
+			position={ 0.550000 0.228000 }
+			scale={ 0.070000 0.070000 }
+			depth=23.010000
+		}
+
+		instance={
+			position={ 0.200000 0.292000 }
+			scale={ 0.070000 0.070000 }
+			depth=24.010000
+		}
+
+		instance={
+			position={ 0.250000 0.292000 }
+			scale={ 0.070000 0.070000 }
+			depth=25.010000
+		}
+
+		instance={
+			position={ 0.300000 0.292000 }
+			scale={ 0.070000 0.070000 }
+			depth=26.010000
+		}
+
+		instance={
+			position={ 0.350000 0.292000 }
+			scale={ 0.070000 0.070000 }
+			depth=27.010000
+		}
+
+		instance={
+			position={ 0.400000 0.292000 }
+			scale={ 0.070000 0.070000 }
+			depth=28.010000
+		}
+
+		instance={
+			position={ 0.450000 0.292000 }
+			scale={ 0.070000 0.070000 }
+			depth=29.010000
+		}
+
+		instance={
+			position={ 0.500000 0.292000 }
+			scale={ 0.070000 0.070000 }
+			depth=30.010000
+		}
+
+		instance={
+			position={ 0.550000 0.292000 }
+			scale={ 0.070000 0.070000 }
+			depth=31.010000
+		}
+
+		instance={
+			position={ 0.225000 0.356000 }
+			scale={ 0.070000 0.070000 }
+			depth=32.010002
+		}
+
+		instance={
+			position={ 0.275000 0.356000 }
+			scale={ 0.070000 0.070000 }
+			depth=33.010002
+		}
+
+		instance={
+			position={ 0.325000 0.356000 }
+			scale={ 0.070000 0.070000 }
+			depth=34.010002
+		}
+
+		instance={
+			position={ 0.375000 0.356000 }
+			scale={ 0.070000 0.070000 }
+			depth=35.010002
+		}
+
+		instance={
+			position={ 0.425000 0.356000 }
+			scale={ 0.070000 0.070000 }
+			depth=36.010002
+		}
+
+		instance={
+			position={ 0.475000 0.356000 }
+			scale={ 0.070000 0.070000 }
+			depth=37.010002
+		}
+
+		instance={
+			position={ 0.525000 0.356000 }
+			scale={ 0.070000 0.070000 }
+			depth=38.010002
+		}
+
+		instance={
+			position={ 0.200000 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=39.010002
+		}
+
+		instance={
+			position={ 0.250000 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=40.010002
+		}
+
+		instance={
+			position={ 0.300000 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=41.010002
+		}
+
+		instance={
+			position={ 0.350000 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=42.010002
+		}
+
+		instance={
+			position={ 0.400000 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=43.010002
+		}
+
+		instance={
+			position={ 0.450000 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=44.010002
+		}
+
+		instance={
+			position={ 0.500000 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=45.010002
+		}
+
+		instance={
+			position={ 0.550000 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=46.010002
+		}
+
+	}
+
+}
+
+
+######48 Stars
+
+e_united_states_48={
+	pattern="pattern_barruly_13.dds"
+	color1=red
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=blue
+		texture="ce_block_02.dds"
+		instance={
+			position={ 0.360000 0.010000 }
+			scale={ 0.470000 0.970000 }
+			depth=48.010002
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_star_05.dds"
+		instance={
+			position={ 0.200000 0.420000 }
+			scale={ 0.070000 0.070000 }
+		}
+
+		instance={
+			position={ 0.250000 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=1.010000
+		}
+
+		instance={
+			position={ 0.300000 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=2.010000
+		}
+
+		instance={
+			position={ 0.350000 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=3.010000
+		}
+
+		instance={
+			position={ 0.400000 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=4.010000
+		}
+
+		instance={
+			position={ 0.450000 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=5.010000
+		}
+
+		instance={
+			position={ 0.500000 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=6.010000
+		}
+
+		instance={
+			position={ 0.550000 0.420000 }
+			scale={ 0.070000 0.070000 }
+			depth=7.010000
+		}
+
+		instance={
+			position={ 0.550000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=8.010000
+		}
+
+		instance={
+			position={ 0.550000 0.164000 }
+			scale={ 0.070000 0.070000 }
+			depth=9.010000
+		}
+
+		instance={
+			position={ 0.550000 0.228000 }
+			scale={ 0.070000 0.070000 }
+			depth=10.010000
+		}
+
+		instance={
+			position={ 0.550000 0.356000 }
+			scale={ 0.070000 0.070000 }
+			depth=11.010000
+		}
+
+		instance={
+			position={ 0.550000 0.292000 }
+			scale={ 0.070000 0.070000 }
+			depth=12.010000
+		}
+
+		instance={
+			position={ 0.500000 0.356000 }
+			scale={ 0.070000 0.070000 }
+			depth=13.010000
+		}
+
+		instance={
+			position={ 0.500000 0.292000 }
+			scale={ 0.070000 0.070000 }
+			depth=14.010000
+		}
+
+		instance={
+			position={ 0.500000 0.228000 }
+			scale={ 0.070000 0.070000 }
+			depth=15.010000
+		}
+
+		instance={
+			position={ 0.500000 0.164000 }
+			scale={ 0.070000 0.070000 }
+			depth=16.010000
+		}
+
+		instance={
+			position={ 0.500000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=17.010000
+		}
+
+		instance={
+			position={ 0.450000 0.356000 }
+			scale={ 0.070000 0.070000 }
+			depth=18.010000
+		}
+
+		instance={
+			position={ 0.400000 0.356000 }
+			scale={ 0.070000 0.070000 }
+			depth=19.010000
+		}
+
+		instance={
+			position={ 0.350000 0.356000 }
+			scale={ 0.070000 0.070000 }
+			depth=20.010000
+		}
+
+		instance={
+			position={ 0.300000 0.356000 }
+			scale={ 0.070000 0.070000 }
+			depth=21.010000
+		}
+
+		instance={
+			position={ 0.250000 0.356000 }
+			scale={ 0.070000 0.070000 }
+			depth=22.010000
+		}
+
+		instance={
+			position={ 0.200000 0.356000 }
+			scale={ 0.070000 0.070000 }
+			depth=23.010000
+		}
+
+		instance={
+			position={ 0.200000 0.292000 }
+			scale={ 0.070000 0.070000 }
+			depth=24.010000
+		}
+
+		instance={
+			position={ 0.200000 0.228000 }
+			scale={ 0.070000 0.070000 }
+			depth=25.010000
+		}
+
+		instance={
+			position={ 0.200000 0.164000 }
+			scale={ 0.070000 0.070000 }
+			depth=26.010000
+		}
+
+		instance={
+			position={ 0.250000 0.292000 }
+			scale={ 0.070000 0.070000 }
+			depth=27.010000
+		}
+
+		instance={
+			position={ 0.250000 0.228000 }
+			scale={ 0.070000 0.070000 }
+			depth=28.010000
+		}
+
+		instance={
+			position={ 0.250000 0.164000 }
+			scale={ 0.070000 0.070000 }
+			depth=29.010000
+		}
+
+		instance={
+			position={ 0.200000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=30.010000
+		}
+
+		instance={
+			position={ 0.250000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=31.010000
+		}
+
+		instance={
+			position={ 0.300000 0.292000 }
+			scale={ 0.070000 0.070000 }
+			depth=32.010002
+		}
+
+		instance={
+			position={ 0.300000 0.228000 }
+			scale={ 0.070000 0.070000 }
+			depth=33.010002
+		}
+
+		instance={
+			position={ 0.300000 0.164000 }
+			scale={ 0.070000 0.070000 }
+			depth=34.010002
+		}
+
+		instance={
+			position={ 0.300000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=35.010002
+		}
+
+		instance={
+			position={ 0.350000 0.292000 }
+			scale={ 0.070000 0.070000 }
+			depth=36.010002
+		}
+
+		instance={
+			position={ 0.350000 0.228000 }
+			scale={ 0.070000 0.070000 }
+			depth=37.010002
+		}
+
+		instance={
+			position={ 0.350000 0.164000 }
+			scale={ 0.070000 0.070000 }
+			depth=38.010002
+		}
+
+		instance={
+			position={ 0.350000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=39.010002
+		}
+
+		instance={
+			position={ 0.400000 0.292000 }
+			scale={ 0.070000 0.070000 }
+			depth=40.010002
+		}
+
+		instance={
+			position={ 0.400000 0.228000 }
+			scale={ 0.070000 0.070000 }
+			depth=41.010002
+		}
+
+		instance={
+			position={ 0.400000 0.164000 }
+			scale={ 0.070000 0.070000 }
+			depth=42.010002
+		}
+
+		instance={
+			position={ 0.400000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=43.010002
+		}
+
+		instance={
+			position={ 0.450000 0.100000 }
+			scale={ 0.070000 0.070000 }
+			depth=44.010002
+		}
+
+		instance={
+			position={ 0.450000 0.164000 }
+			scale={ 0.070000 0.070000 }
+			depth=45.010002
+		}
+
+		instance={
+			position={ 0.450000 0.228000 }
+			scale={ 0.070000 0.070000 }
+			depth=46.010002
+		}
+
+		instance={
+			position={ 0.450000 0.292000 }
+			scale={ 0.070000 0.070000 }
+			depth=47.010002
+		}
+
+	}
+
+}
+
+
+
+######49 Stars
+
+e_united_states_49={
+	pattern="pattern_barruly_13.dds"
+	color1=red
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=blue
+		texture="ce_block_02.dds"
+		instance={
+			position={ 0.360000 0.010000 }
+			scale={ 0.470000 0.970000 }
+			depth=49.010002
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_star_05.dds"
+		instance={
+			position={ 0.210000 0.080000 }
+			scale={ 0.070000 0.070000 }
+		}
+
+		instance={
+			position={ 0.260000 0.080000 }
+			scale={ 0.070000 0.070000 }
+			depth=1.010000
+		}
+
+		instance={
+			position={ 0.310000 0.080000 }
+			scale={ 0.070000 0.070000 }
+			depth=2.010000
+		}
+
+		instance={
+			position={ 0.360000 0.080000 }
+			scale={ 0.070000 0.070000 }
+			depth=3.010000
+		}
+
+		instance={
+			position={ 0.410000 0.080000 }
+			scale={ 0.070000 0.070000 }
+			depth=4.010000
+		}
+
+		instance={
+			position={ 0.460000 0.080000 }
+			scale={ 0.070000 0.070000 }
+			depth=5.010000
+		}
+
+		instance={
+			position={ 0.510000 0.080000 }
+			scale={ 0.070000 0.070000 }
+			depth=6.010000
+		}
+
+		instance={
+			position={ 0.235000 0.140000 }
+			scale={ 0.070000 0.070000 }
+			depth=7.010000
+		}
+
+		instance={
+			position={ 0.285000 0.140000 }
+			scale={ 0.070000 0.070000 }
+			depth=8.010000
+		}
+
+		instance={
+			position={ 0.335000 0.140000 }
+			scale={ 0.070000 0.070000 }
+			depth=9.010000
+		}
+
+		instance={
+			position={ 0.385000 0.140000 }
+			scale={ 0.070000 0.070000 }
+			depth=10.010000
+		}
+
+		instance={
+			position={ 0.435000 0.140000 }
+			scale={ 0.070000 0.070000 }
+			depth=11.010000
+		}
+
+		instance={
+			position={ 0.485000 0.140000 }
+			scale={ 0.070000 0.070000 }
+			depth=12.010000
+		}
+
+		instance={
+			position={ 0.535000 0.140000 }
+			scale={ 0.070000 0.070000 }
+			depth=13.010000
+		}
+
+		instance={
+			position={ 0.210000 0.200000 }
+			scale={ 0.070000 0.070000 }
+			depth=14.010000
+		}
+
+		instance={
+			position={ 0.260000 0.200000 }
+			scale={ 0.070000 0.070000 }
+			depth=15.010000
+		}
+
+		instance={
+			position={ 0.310000 0.200000 }
+			scale={ 0.070000 0.070000 }
+			depth=16.010000
+		}
+
+		instance={
+			position={ 0.360000 0.200000 }
+			scale={ 0.070000 0.070000 }
+			depth=17.010000
+		}
+
+		instance={
+			position={ 0.410000 0.200000 }
+			scale={ 0.070000 0.070000 }
+			depth=18.010000
+		}
+
+		instance={
+			position={ 0.460000 0.200000 }
+			scale={ 0.070000 0.070000 }
+			depth=19.010000
+		}
+
+		instance={
+			position={ 0.510000 0.200000 }
+			scale={ 0.070000 0.070000 }
+			depth=20.010000
+		}
+
+		instance={
+			position={ 0.235000 0.260000 }
+			scale={ 0.070000 0.070000 }
+			depth=21.010000
+		}
+
+		instance={
+			position={ 0.285000 0.260000 }
+			scale={ 0.070000 0.070000 }
+			depth=22.010000
+		}
+
+		instance={
+			position={ 0.335000 0.260000 }
+			scale={ 0.070000 0.070000 }
+			depth=23.010000
+		}
+
+		instance={
+			position={ 0.385000 0.260000 }
+			scale={ 0.070000 0.070000 }
+			depth=24.010000
+		}
+
+		instance={
+			position={ 0.435000 0.260000 }
+			scale={ 0.070000 0.070000 }
+			depth=25.010000
+		}
+
+		instance={
+			position={ 0.485000 0.260000 }
+			scale={ 0.070000 0.070000 }
+			depth=26.010000
+		}
+
+		instance={
+			position={ 0.535000 0.260000 }
+			scale={ 0.070000 0.070000 }
+			depth=27.010000
+		}
+
+		instance={
+			position={ 0.210000 0.320000 }
+			scale={ 0.070000 0.070000 }
+			depth=28.010000
+		}
+
+		instance={
+			position={ 0.260000 0.320000 }
+			scale={ 0.070000 0.070000 }
+			depth=29.010000
+		}
+
+		instance={
+			position={ 0.310000 0.320000 }
+			scale={ 0.070000 0.070000 }
+			depth=30.010000
+		}
+
+		instance={
+			position={ 0.360000 0.320000 }
+			scale={ 0.070000 0.070000 }
+			depth=31.010000
+		}
+
+		instance={
+			position={ 0.410000 0.320000 }
+			scale={ 0.070000 0.070000 }
+			depth=32.010002
+		}
+
+		instance={
+			position={ 0.460000 0.320000 }
+			scale={ 0.070000 0.070000 }
+			depth=33.010002
+		}
+
+		instance={
+			position={ 0.510000 0.320000 }
+			scale={ 0.070000 0.070000 }
+			depth=34.010002
+		}
+
+		instance={
+			position={ 0.235000 0.380000 }
+			scale={ 0.070000 0.070000 }
+			depth=35.010002
+		}
+
+		instance={
+			position={ 0.285000 0.380000 }
+			scale={ 0.070000 0.070000 }
+			depth=36.010002
+		}
+
+		instance={
+			position={ 0.335000 0.380000 }
+			scale={ 0.070000 0.070000 }
+			depth=37.010002
+		}
+
+		instance={
+			position={ 0.385000 0.380000 }
+			scale={ 0.070000 0.070000 }
+			depth=38.010002
+		}
+
+		instance={
+			position={ 0.435000 0.380000 }
+			scale={ 0.070000 0.070000 }
+			depth=39.010002
+		}
+
+		instance={
+			position={ 0.485000 0.380000 }
+			scale={ 0.070000 0.070000 }
+			depth=40.010002
+		}
+
+		instance={
+			position={ 0.535000 0.380000 }
+			scale={ 0.070000 0.070000 }
+			depth=41.010002
+		}
+
+		instance={
+			position={ 0.210000 0.440000 }
+			scale={ 0.070000 0.070000 }
+			depth=42.010002
+		}
+
+		instance={
+			position={ 0.260000 0.440000 }
+			scale={ 0.070000 0.070000 }
+			depth=43.010002
+		}
+
+		instance={
+			position={ 0.310000 0.440000 }
+			scale={ 0.070000 0.070000 }
+			depth=44.010002
+		}
+
+		instance={
+			position={ 0.360000 0.440000 }
+			scale={ 0.070000 0.070000 }
+			depth=45.010002
+		}
+
+		instance={
+			position={ 0.410000 0.440000 }
+			scale={ 0.070000 0.070000 }
+			depth=46.010002
+		}
+
+		instance={
+			position={ 0.460000 0.440000 }
+			scale={ 0.070000 0.070000 }
+			depth=47.010002
+		}
+
+		instance={
+			position={ 0.510000 0.440000 }
+			scale={ 0.070000 0.070000 }
+			depth=48.010002
+		}
+
+	}
+
+}
+
+
+
+######50 Stars
+
+e_united_states_50={
+	pattern="pattern_barruly_13.dds"
+	color1=red
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=blue
+		texture="ce_block_02.dds"
+		instance={
+			position={ 0.360000 0.010000 }
+			scale={ 0.470000 0.970000 }
+			depth=50.010002
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_star_05.dds"
+		instance={
+			position={ 0.200000 0.060000 }
+			scale={ 0.070000 0.070000 }
+		}
+
+		instance={
+			position={ 0.270000 0.060000 }
+			scale={ 0.070000 0.070000 }
+			depth=1.010000
+		}
+
+		instance={
+			position={ 0.340000 0.060000 }
+			scale={ 0.070000 0.070000 }
+			depth=2.010000
+		}
+
+		instance={
+			position={ 0.410000 0.060000 }
+			scale={ 0.070000 0.070000 }
+			depth=3.010000
+		}
+
+		instance={
+			position={ 0.480000 0.060000 }
+			scale={ 0.070000 0.070000 }
+			depth=4.010000
+		}
+
+		instance={
+			position={ 0.550000 0.060000 }
+			scale={ 0.070000 0.070000 }
+			depth=5.010000
+		}
+
+		instance={
+			position={ 0.235000 0.110000 }
+			scale={ 0.070000 0.070000 }
+			depth=6.010000
+		}
+
+		instance={
+			position={ 0.305000 0.110000 }
+			scale={ 0.070000 0.070000 }
+			depth=7.010000
+		}
+
+		instance={
+			position={ 0.375000 0.110000 }
+			scale={ 0.070000 0.070000 }
+			depth=8.010000
+		}
+
+		instance={
+			position={ 0.445000 0.110000 }
+			scale={ 0.070000 0.070000 }
+			depth=9.010000
+		}
+
+		instance={
+			position={ 0.515000 0.110000 }
+			scale={ 0.070000 0.070000 }
+			depth=10.010000
+		}
+
+		instance={
+			position={ 0.200000 0.160000 }
+			scale={ 0.070000 0.070000 }
+			depth=11.010000
+		}
+
+		instance={
+			position={ 0.270000 0.160000 }
+			scale={ 0.070000 0.070000 }
+			depth=12.010000
+		}
+
+		instance={
+			position={ 0.340000 0.160000 }
+			scale={ 0.070000 0.070000 }
+			depth=13.010000
+		}
+
+		instance={
+			position={ 0.410000 0.160000 }
+			scale={ 0.070000 0.070000 }
+			depth=14.010000
+		}
+
+		instance={
+			position={ 0.480000 0.160000 }
+			scale={ 0.070000 0.070000 }
+			depth=15.010000
+		}
+
+		instance={
+			position={ 0.550000 0.160000 }
+			scale={ 0.070000 0.070000 }
+			depth=16.010000
+		}
+
+		instance={
+			position={ 0.235000 0.210000 }
+			scale={ 0.070000 0.070000 }
+			depth=17.010000
+		}
+
+		instance={
+			position={ 0.305000 0.210000 }
+			scale={ 0.070000 0.070000 }
+			depth=18.010000
+		}
+
+		instance={
+			position={ 0.375000 0.210000 }
+			scale={ 0.070000 0.070000 }
+			depth=19.010000
+		}
+
+		instance={
+			position={ 0.445000 0.210000 }
+			scale={ 0.070000 0.070000 }
+			depth=20.010000
+		}
+
+		instance={
+			position={ 0.515000 0.210000 }
+			scale={ 0.070000 0.070000 }
+			depth=21.010000
+		}
+
+		instance={
+			position={ 0.200000 0.260000 }
+			scale={ 0.070000 0.070000 }
+			depth=22.010000
+		}
+
+		instance={
+			position={ 0.270000 0.260000 }
+			scale={ 0.070000 0.070000 }
+			depth=23.010000
+		}
+
+		instance={
+			position={ 0.340000 0.260000 }
+			scale={ 0.070000 0.070000 }
+			depth=24.010000
+		}
+
+		instance={
+			position={ 0.410000 0.260000 }
+			scale={ 0.070000 0.070000 }
+			depth=25.010000
+		}
+
+		instance={
+			position={ 0.480000 0.260000 }
+			scale={ 0.070000 0.070000 }
+			depth=26.010000
+		}
+
+		instance={
+			position={ 0.550000 0.260000 }
+			scale={ 0.070000 0.070000 }
+			depth=27.010000
+		}
+
+		instance={
+			position={ 0.235000 0.310000 }
+			scale={ 0.070000 0.070000 }
+			depth=28.010000
+		}
+
+		instance={
+			position={ 0.305000 0.310000 }
+			scale={ 0.070000 0.070000 }
+			depth=29.010000
+		}
+
+		instance={
+			position={ 0.375000 0.310000 }
+			scale={ 0.070000 0.070000 }
+			depth=30.010000
+		}
+
+		instance={
+			position={ 0.445000 0.310000 }
+			scale={ 0.070000 0.070000 }
+			depth=31.010000
+		}
+
+		instance={
+			position={ 0.515000 0.310000 }
+			scale={ 0.070000 0.070000 }
+			depth=32.010002
+		}
+
+		instance={
+			position={ 0.200000 0.360000 }
+			scale={ 0.070000 0.070000 }
+			depth=33.010002
+		}
+
+		instance={
+			position={ 0.270000 0.360000 }
+			scale={ 0.070000 0.070000 }
+			depth=34.010002
+		}
+
+		instance={
+			position={ 0.340000 0.360000 }
+			scale={ 0.070000 0.070000 }
+			depth=35.010002
+		}
+
+		instance={
+			position={ 0.410000 0.360000 }
+			scale={ 0.070000 0.070000 }
+			depth=36.010002
+		}
+
+		instance={
+			position={ 0.480000 0.360000 }
+			scale={ 0.070000 0.070000 }
+			depth=37.010002
+		}
+
+		instance={
+			position={ 0.550000 0.360000 }
+			scale={ 0.070000 0.070000 }
+			depth=38.010002
+		}
+
+		instance={
+			position={ 0.235000 0.410000 }
+			scale={ 0.070000 0.070000 }
+			depth=39.010002
+		}
+
+		instance={
+			position={ 0.305000 0.410000 }
+			scale={ 0.070000 0.070000 }
+			depth=40.010002
+		}
+
+		instance={
+			position={ 0.375000 0.410000 }
+			scale={ 0.070000 0.070000 }
+			depth=41.010002
+		}
+
+		instance={
+			position={ 0.445000 0.410000 }
+			scale={ 0.070000 0.070000 }
+			depth=42.010002
+		}
+
+		instance={
+			position={ 0.515000 0.410000 }
+			scale={ 0.070000 0.070000 }
+			depth=43.010002
+		}
+
+		instance={
+			position={ 0.200000 0.460000 }
+			scale={ 0.070000 0.070000 }
+			depth=44.010002
+		}
+
+		instance={
+			position={ 0.270000 0.460000 }
+			scale={ 0.070000 0.070000 }
+			depth=45.010002
+		}
+
+		instance={
+			position={ 0.340000 0.460000 }
+			scale={ 0.070000 0.070000 }
+			depth=46.010002
+		}
+
+		instance={
+			position={ 0.410000 0.460000 }
+			scale={ 0.070000 0.070000 }
+			depth=47.010002
+		}
+
+		instance={
+			position={ 0.480000 0.460000 }
+			scale={ 0.070000 0.070000 }
+			depth=48.010002
+		}
+
+		instance={
+			position={ 0.550000 0.460000 }
+			scale={ 0.070000 0.070000 }
+			depth=49.010002
+		}
+
+	}
+
+}

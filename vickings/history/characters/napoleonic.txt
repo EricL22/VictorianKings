@@ -3406,13 +3406,13 @@
 }
 
 915134 = {
-	name = "Krakowos"
+	name = "Stanisław"
 	religion = catholic
 	culture = polish
-	1800.1.1 = {
+	1764.7.27 = {
 		birth = yes
 	}
-	1846.11.16 = {
+	1843.3.14 = {
 		death = yes
 	}
 }

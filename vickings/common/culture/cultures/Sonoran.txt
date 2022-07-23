@@ -1,0 +1,113 @@
+﻿pueblo = { 
+		
+	color = { 162 128 8 }
+	
+	ethos = ethos_communal
+	heritage = heritage_native_american
+	language = language_native_american
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_tribe_unity
+		tradition_wedding_ceremonies
+		tradition_isolationist
+	}
+	
+	name_list = name_list_sonoran
+	
+	coa_gfx = { ugro_permian_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+
+	ethnicities = {
+			10 = indian
+			10 = south_indian
+	}
+}
+
+
+
+piman = { 
+		
+	color = { 163 98 9 }
+	
+	ethos = ethos_communal
+	heritage = heritage_native_american
+	language = language_native_american
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_tribe_unity
+		tradition_wedding_ceremonies
+		tradition_isolationist
+	}
+	
+	name_list = name_list_sonoran
+	
+	coa_gfx = { ugro_permian_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+
+	ethnicities = {
+			10 = indian
+			10 = south_indian
+	}
+}
+
+
+
+shoshone = { 
+		
+	color = { 124  69  49 }
+	
+	ethos = ethos_communal
+	heritage = heritage_native_american
+	language = language_native_american
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_tribe_unity
+		tradition_wedding_ceremonies
+		tradition_isolationist
+	}
+	
+	name_list = name_list_sonoran
+	
+	coa_gfx = { ugro_permian_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+
+	ethnicities = {
+			10 = indian
+			10 = south_indian
+	}
+}
+
+
+
+kiowa = { 
+		
+	color = { 121  210  115 }
+	
+	ethos = ethos_communal
+	heritage = heritage_native_american
+	language = language_native_american
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_tribe_unity
+		tradition_wedding_ceremonies
+		tradition_isolationist
+	}
+	
+	name_list = name_list_sonoran
+	
+	coa_gfx = { ugro_permian_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+
+	ethnicities = {
+			10 = indian
+			10 = south_indian
+	}
+}

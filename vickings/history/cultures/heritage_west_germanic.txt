@@ -97,4 +97,5 @@
 	#
 	discover_innovation = innovation_cranes
 	discover_innovation = innovation_development_03
+	discover_innovation = innovation_development_04
 }

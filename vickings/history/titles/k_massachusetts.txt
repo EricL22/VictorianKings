@@ -1,0 +1,105 @@
+c_boston = {
+	1812.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 30 }
+			set_variable = { name = conservative_value value = 70 }
+		}
+	}
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 45 }
+			set_variable = { name = conservative_value value = 55 }
+		}
+	}
+	# 1860
+}
+c_plymouth = {
+	1812.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 40 }
+			set_variable = { name = conservative_value value = 60 }
+		}
+	}
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 30 }
+			set_variable = { name = conservative_value value = 40 }
+		}
+	}
+	# 1860
+}
+c_barnstable = {
+	1812.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 30 }
+			set_variable = { name = conservative_value value = 70 }
+		}
+	}
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 30 }
+			set_variable = { name = conservative_value value = 70 }
+		}
+	}
+	# 1860
+}
+c_bristol = {
+	1812.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 40 }
+			set_variable = { name = conservative_value value = 60 }
+		}
+	}
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 45 }
+			set_variable = { name = conservative_value value = 55 }
+		}
+	}
+	# 1860
+}
+c_worcester = {
+	1812.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 30 }
+			set_variable = { name = conservative_value value = 70 }
+		}
+	}
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 45 }
+			set_variable = { name = conservative_value value = 55 }
+		}
+	}
+	# 1860
+}
+c_hampden = {
+	1812.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 40 }
+			set_variable = { name = conservative_value value = 60 }
+		}
+	}
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 45 }
+			set_variable = { name = conservative_value value = 55 }
+		}
+	}
+	# 1860
+}
+c_franklin = {
+	1812.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 30 }
+			set_variable = { name = conservative_value value = 70 }
+		}
+	}
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 45 }
+			set_variable = { name = conservative_value value = 55 }
+		}
+	}
+	# 1860
+}

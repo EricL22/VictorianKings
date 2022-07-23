@@ -543,6 +543,12 @@
  moderntimes.31.adams.desc:0 "首進行谈判者，力行名[adams.GetFullName]也，多方得之，但令弃Louisiana购地Texas州所欲。"
  moderntimes.31.noadams.desc:0 "一姓Adams者方首進行谈判，似已得利贸易条件。"
 
+ moderntimes.32.t:0 "Ottoman Triumph"
+ moderntimes.32.desc:0 "With the defeat of [defender.GetTitledFirstName], the Egyptian troops are no longer able to project military power across the Red Sea. Ottoman troops have since marched into the Hejaz to regain control as protectors of the faith."
+ moderntimes.32.a:0 "Independence was nice, while it lasted."
+
+ moderntimes.33.desc:0 "Following our victory against the Egyptian forces of [defender.GetFullName], my troops have once more secured the Hejaz region, along with all its holy sites, under Ottoman control."
+
  congress_of_vienna.1.name:0 "维也纳会议"
  congress_of_vienna.1.desc:0 "随着[defender.GetTitledFirstName]的失败，肆虐欧洲这么久的拿破仑战争也宣告结束。 胜利者正在维也纳开会，这是一个讨论和平条款的中立地点。 我们拿法国皇帝怎么办？"
  congress_of_vienna.1.a:0 "割让法国自然边界以外的所有土地。"

@@ -47,6 +47,8 @@
  republic_election.10.president_nomination.desc:0 "The president has nominated me to be his successor as president of the Republic. I will not let him down!"
 
  REPUBLIC_TERM_LIMITS:0 "Term Length:"
+ term_limit_2:0 "2 Years"
+ term_limit_3:0 "3 Years"
  term_limit_4:0 "4 Years"
  term_limit_5:0 "5 Years"
  term_limit_6:0 "6 Years"
@@ -63,6 +65,16 @@
  administration_centralized:0 "Centralized"
  enact_admin_feudal:0 "Delegates administrative affairs to semi-autonomous vassals"
  enact_admin_centralized:0 "Restricts vassals from declaring wars or joining other wars regardless of their [feudal_contract|E]"
+ MY_REALM_WINDOW_SOVEREIGN_POWER:0 "Sovereign Power"
+ sovereign_absolute:0 "Absolute"
+ sovereign_semi_constitutional:0 "Semi-Constitutional"
+ sovereign_constitutional:0 "Constitutional"
+ enact_sovereign_absolute:0 "The monarch has the final say in all matters of state. None may question him."
+ enact_sovereign_semi_constitutional:0 "The monarch's powers are somewhat limited with the introduction of a constitution. Many decisions of the realm must pass a vote to be approved, but the monarch may override this at the cost of a minor penalty."
+ enact_sovereign_constitutional:0 "The monarch is merely a ceremonial figurehead, and is unable to override the power of the legislature."
+
+ MY_REALM_WINDOW_LEGISLATURE_TAB:0 "Legislature"
+ MY_REALM_WINDOW_LEGISLATURE_COMPOSITION:0 "Composition"
 
  vice_president_court_position:0 "Vice President"
  vice_president_court_position_desc:1 "The $vice_president_court_position$ is elected together with the president and is the first in the republican line of succession, should the president die in office."

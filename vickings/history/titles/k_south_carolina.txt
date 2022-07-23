@@ -1,0 +1,494 @@
+c_horry = {
+	1810.1.1 = {
+		effect = {
+			set_variable = {
+				name = slavery_percent
+				value = 0.3215
+			}
+		}
+	}
+	1830.1.1 = {
+		effect = {
+			set_variable = {
+				name = slavery_percent
+				value = 0.3268
+			}
+		}
+	}
+	1860.1.1 = {
+		effect = {
+			set_variable = {
+				name = slavery_percent
+				value = 0.2963
+			}
+		}
+	}
+}
+c_georgetown = {
+	1810.1.1 = {
+		effect = {
+			set_variable = {
+				name = slavery_percent
+				value = 0.8844
+			}
+		}
+	}
+	1830.1.1 = {
+		effect = {
+			set_variable = {
+				name = slavery_percent
+				value = 0.8924
+			}
+		}
+	}
+	1860.1.1 = {
+		effect = {
+			set_variable = {
+				name = slavery_percent
+				value = 0.85
+			}
+		}
+	}
+}
+c_charleston = {
+	1810.1.1 = {
+		effect = {
+			set_variable = {
+				name = slavery_percent
+				value = 0.7184
+			}
+		}
+	}
+	1830.1.1 = {
+		effect = {
+			set_variable = {
+				name = slavery_percent
+				value = 0.717
+			}
+		}
+	}
+	1860.1.1 = {
+		effect = {
+			set_variable = {
+				name = slavery_percent
+				value = 0.532
+			}
+		}
+	}
+}
+c_dorchester_sc = {
+	1810.1.1 = {
+		effect = {
+			set_variable = {
+				name = slavery_percent
+				value = 0.8292
+			}
+		}
+	}
+	1830.1.1 = {
+		effect = {
+			set_variable = {
+				name = slavery_percent
+				value = 0.7882
+			}
+		}
+	}
+	1860.1.1 = {
+		effect = {
+			set_variable = {
+				name = slavery_percent
+				value = 0.7708
+			}
+		}
+	}
+}
+c_orangeburg = {
+	1810.1.1 = {
+		effect = {
+			set_variable = {
+				name = slavery_percent
+				value = 0.4962
+			}
+		}
+	}
+	1830.1.1 = {
+		effect = {
+			set_variable = {
+				name = slavery_percent
+				value = 0.5924
+			}
+		}
+	}
+	1860.1.1 = {
+		effect = {
+			set_variable = {
+				name = slavery_percent
+				value = 0.6661
+			}
+		}
+	}
+}
+c_columbia = {
+	1810.1.1 = {
+		effect = {
+			set_variable = {
+				name = slavery_percent
+				value = 0.5803
+			}
+		}
+	}
+	1830.1.1 = {
+		effect = {
+			set_variable = {
+				name = slavery_percent
+				value = 0.6117
+			}
+		}
+	}
+	1860.1.1 = {
+		effect = {
+			set_variable = {
+				name = slavery_percent
+				value = 0.6011
+			}
+		}
+	}
+}
+c_barnwell = {
+	1810.1.1 = {
+		effect = {
+			set_variable = {
+				name = slavery_percent
+				value = 0.3382
+			}
+		}
+	}
+	1830.1.1 = {
+		effect = {
+			set_variable = {
+				name = slavery_percent
+				value = 0.4417
+			}
+		}
+	}
+	1860.1.1 = {
+		effect = {
+			set_variable = {
+				name = slavery_percent
+				value = 0.566
+			}
+		}
+	}
+}
+c_beaufort_sc = {
+	1810.1.1 = {
+		effect = {
+			set_variable = {
+				name = slavery_percent
+				value = 0.8079
+			}
+		}
+	}
+	1830.1.1 = {
+		effect = {
+			set_variable = {
+				name = slavery_percent
+				value = 0.8334
+			}
+		}
+	}
+	1860.1.1 = {
+		effect = {
+			set_variable = {
+				name = slavery_percent
+				value = 0.8122
+			}
+		}
+	}
+}
+c_marion = {
+	1810.1.1 = {
+		effect = {
+			set_variable = {
+				name = slavery_percent
+				value = 0.3119
+			}
+		}
+	}
+	1830.1.1 = {
+		effect = {
+			set_variable = {
+				name = slavery_percent
+				value = 0.3414
+			}
+		}
+	}
+	1860.1.1 = {
+		effect = {
+			set_variable = {
+				name = slavery_percent
+				value = 0.4696
+			}
+		}
+	}
+}
+c_florence = {
+	1810.1.1 = {
+		effect = {
+			set_variable = {
+				name = slavery_percent
+				value = 0.6575
+			}
+		}
+	}
+	1830.1.1 = {
+		effect = {
+			set_variable = {
+				name = slavery_percent
+				value = 0.6834
+			}
+		}
+	}
+	1860.1.1 = {
+		effect = {
+			set_variable = {
+				name = slavery_percent
+				value = 0.6623
+			}
+		}
+	}
+}
+c_sumter = {
+	1810.1.1 = {
+		effect = {
+			set_variable = {
+				name = slavery_percent
+				value = 0.6108
+			}
+		}
+	}
+	1830.1.1 = {
+		effect = {
+			set_variable = {
+				name = slavery_percent
+				value = 0.6621
+			}
+		}
+	}
+	1860.1.1 = {
+		effect = {
+			set_variable = {
+				name = slavery_percent
+				value = 0.6992
+			}
+		}
+	}
+}
+c_lancaster_sc = {
+	1810.1.1 = {
+		effect = {
+			set_variable = {
+				name = slavery_percent
+				value = 0.2605
+			}
+		}
+	}
+	1830.1.1 = {
+		effect = {
+			set_variable = {
+				name = slavery_percent
+				value = 0.3979
+			}
+		}
+	}
+	1860.1.1 = {
+		effect = {
+			set_variable = {
+				name = slavery_percent
+				value = 0.4789
+			}
+		}
+	}
+}
+c_fairfield_sc = {
+	1810.1.1 = {
+		effect = {
+			set_variable = {
+				name = slavery_percent
+				value = 0.3402
+			}
+		}
+	}
+	1830.1.1 = {
+		effect = {
+			set_variable = {
+				name = slavery_percent
+				value = 0.5452
+			}
+		}
+	}
+	1860.1.1 = {
+		effect = {
+			set_variable = {
+				name = slavery_percent
+				value = 0.7025
+			}
+		}
+	}
+}
+c_york_sc = {
+	1810.1.1 = {
+		effect = {
+			set_variable = {
+				name = slavery_percent
+				value = 0.3154
+			}
+		}
+	}
+	1830.1.1 = {
+		effect = {
+			set_variable = {
+				name = slavery_percent
+				value = 0.3728
+			}
+		}
+	}
+	1860.1.1 = {
+		effect = {
+			set_variable = {
+				name = slavery_percent
+				value = 0.4643
+			}
+		}
+	}
+}
+c_spartanburg = {
+	1810.1.1 = {
+		effect = {
+			set_variable = {
+				name = slavery_percent
+				value = 0.1677
+			}
+		}
+	}
+	1830.1.1 = {
+		effect = {
+			set_variable = {
+				name = slavery_percent
+				value = 0.233
+			}
+		}
+	}
+	1860.1.1 = {
+		effect = {
+			set_variable = {
+				name = slavery_percent
+				value = 0.3061
+			}
+		}
+	}
+}
+c_greenwood = {
+	1810.1.1 = {
+		effect = {
+			set_variable = {
+				name = slavery_percent
+				value = 0.3703
+			}
+		}
+	}
+	1830.1.1 = {
+		effect = {
+			set_variable = {
+				name = slavery_percent
+				value = 0.5031
+			}
+		}
+	}
+	1860.1.1 = {
+		effect = {
+			set_variable = {
+				name = slavery_percent
+				value = 0.6032
+			}
+		}
+	}
+}
+c_anderson = {
+	1810.1.1 = {
+		effect = {
+			set_variable = {
+				name = slavery_percent
+				value = 0.3154
+			}
+		}
+	}
+	1830.1.1 = {
+		effect = {
+			set_variable = {
+				name = slavery_percent
+				value = 0.2578
+			}
+		}
+	}
+	1860.1.1 = {
+		effect = {
+			set_variable = {
+				name = slavery_percent
+				value = 0.3683
+			}
+		}
+	}
+}
+c_greenville = {
+	1810.1.1 = {
+		effect = {
+			set_variable = {
+				name = slavery_percent
+				value = 0.1792
+			}
+		}
+	}
+	1830.1.1 = {
+		effect = {
+			set_variable = {
+				name = slavery_percent
+				value = 0.3074
+			}
+		}
+	}
+	1860.1.1 = {
+		effect = {
+			set_variable = {
+				name = slavery_percent
+				value = 0.322
+			}
+		}
+	}
+}
+c_oconee = {
+	1810.1.1 = {
+		effect = {
+			set_variable = {
+				name = slavery_percent
+				value = 0.1522
+			}
+		}
+	}
+	1830.1.1 = {
+		effect = {
+			set_variable = {
+				name = slavery_percent
+				value = 0.198
+			}
+		}
+	}
+	1860.1.1 = {
+		effect = {
+			set_variable = {
+				name = slavery_percent
+				value = 0.2136
+			}
+		}
+	}
+}

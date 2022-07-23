@@ -1,0 +1,113 @@
+﻿apache = { 
+		
+	color = { 198 158 109 }
+	
+	ethos = ethos_communal
+	heritage = heritage_native_american
+	language = language_native_american
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_tribe_unity
+		tradition_wedding_ceremonies
+		tradition_isolationist
+	}
+	
+	name_list = name_list_apachean
+	
+	coa_gfx = { ugro_permian_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+
+	ethnicities = {
+			10 = indian
+			10 = south_indian
+	}
+}
+
+
+
+mescalero = { 
+		
+	color = { 218 158 79 }
+	
+	ethos = ethos_communal
+	heritage = heritage_native_american
+	language = language_native_american
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_tribe_unity
+		tradition_wedding_ceremonies
+		tradition_isolationist
+	}
+	
+	name_list = name_list_apachean
+	
+	coa_gfx = { ugro_permian_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+
+	ethnicities = {
+			10 = indian
+			10 = south_indian
+	}
+}
+
+
+
+lipan = { 
+		
+	color = { 98 58 109 }
+	
+	ethos = ethos_communal
+	heritage = heritage_native_american
+	language = language_native_american
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_tribe_unity
+		tradition_wedding_ceremonies
+		tradition_isolationist
+	}
+	
+	name_list = name_list_apachean
+	
+	coa_gfx = { ugro_permian_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+
+	ethnicities = {
+			10 = indian
+			10 = south_indian
+	}
+}
+
+
+
+navajo = { 
+		
+	color = { 126 180 154 }
+	
+	ethos = ethos_communal
+	heritage = heritage_native_american
+	language = language_native_american
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_tribe_unity
+		tradition_wedding_ceremonies
+		tradition_isolationist
+	}
+	
+	name_list = name_list_apachean
+	
+	coa_gfx = { ugro_permian_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+
+	ethnicities = {
+			10 = indian
+			10 = south_indian
+	}
+}

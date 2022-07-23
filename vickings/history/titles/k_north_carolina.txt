@@ -1,7 +1,301 @@
+c_pasquotank = {
+	1810.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.2991 } } }
+	1830.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.3033 } } }
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 60 }
+			set_variable = { name = conservative_value value = 40 }
+		}
+	}
+	1860.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.3337 } } }
+}
+c_halifax_md = {
+	1810.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.4863 } } }
+	1830.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.5519 } } }
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 55 }
+			set_variable = { name = conservative_value value = 45 }
+		}
+	}
+	1860.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.5323 } } }
+}
+c_edgecombe = {
+	1810.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.4111 } } }
+	1830.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.4737 } } }
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 95 }
+			set_variable = { name = conservative_value value = 5 }
+		}
+	}
+	1860.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.5817 } } }
+}
+c_martin = {
+	1810.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.3937 } } }
+	1830.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.3840 } } }
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 70 }
+			set_variable = { name = conservative_value value = 30 }
+		}
+	}
+	1860.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.4227 } } }
+}
+c_washington_nc = {
+	1810.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.3715 } } }
+	1830.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.3761 } } }
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 70 }
+			set_variable = { name = conservative_value value = 30 }
+		}
+	}
+	1860.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.3878 } } }
+}
+c_johnston = {
+	1810.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.3393 } } }
+	1830.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.3327 } } }
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 95 }
+			set_variable = { name = conservative_value value = 5 }
+		}
+	}
+	1860.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.3140 } } }
+}
+c_raleigh = {
+	1810.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.3440 } } }
+	1830.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.3975 } } }
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 80 }
+			set_variable = { name = conservative_value value = 20 }
+		}
+	}
+	1860.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.3749 } } }
+}
+c_sampson = {
+	1810.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.3095 } } }
+	1830.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.3338 } } }
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 95 }
+			set_variable = { name = conservative_value value = 5 }
+		}
+	}
+	1860.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.4228 } } }
+}
+c_lenoir = {
+	1810.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.4379 } } }
+	1830.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.5074 } } }
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 95 }
+			set_variable = { name = conservative_value value = 5 }
+		}
+	}
+	1860.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.5029 } } }
+}
+c_new_bern = {
+	1810.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.3984 } } }
+	1830.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.4463 } } }
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 60 }
+			set_variable = { name = conservative_value value = 40 }
+		}
+	}
+	1860.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.3804 } } }
+}
+c_onslow = {
+	1810.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.3447 } } }
+	1830.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.4024 } } }
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 95 }
+			set_variable = { name = conservative_value value = 5 }
+		}
+	}
+	1860.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.3951 } } }
+}
+c_new_hanover = {
+	1810.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.5619 } } }
+	1830.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.5125 } } }
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 80 }
+			set_variable = { name = conservative_value value = 20 }
+		}
+	}
+	1860.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.4758 } } }
+}
+c_brunswick_nc = {
+	1810.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.4717 } } }
+	1830.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.4768 } } }
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 60 }
+			set_variable = { name = conservative_value value = 40 }
+		}
+	}
+	1860.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.4320 } } }
+}
+c_durham_nc = {
+	1810.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.2335 } } }
+	1830.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.3084 } } }
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 80 }
+			set_variable = { name = conservative_value value = 20 }
+		}
+	}
+	1860.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.3014 } } }
+}
+c_alamance = {
+	1810.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.2335 } } }
+	1830.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.3084 } } }
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 80 }
+			set_variable = { name = conservative_value value = 20 }
+		}
+	}
+	1860.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.2907 } } }
+}
+c_guilford = {
+	1810.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.1285 } } }
+	1830.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.1384 } } }
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 45 }
+			set_variable = { name = conservative_value value = 55 }
+		}
+	}
+	1860.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.1807 } } }
+}
+c_randolph_nc = {
+	1810.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.0789 } } }
+	1830.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.1178 } } }
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 55 }
+			set_variable = { name = conservative_value value = 45 }
+		}
+	}
+	1860.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.0980 } } }
+}
+c_moore = {
+	1810.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.1483 } } }
+	1830.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.2160 } } }
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 95 }
+			set_variable = { name = conservative_value value = 5 }
+		}
+	}
+	1860.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.2204 } } }
+}
+c_robeson = {
+	1810.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.1780 } } }
+	1830.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.2649 } } }
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 70 }
+			set_variable = { name = conservative_value value = 30 }
+		}
+	}
+	1860.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.3522 } } }
+}
+c_anson = {
+	1810.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.2633 } } }
+	1830.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.3390 } } }
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 70 }
+			set_variable = { name = conservative_value value = 30 }
+		}
+	}
+	1860.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.5087 } } }
+}
+c_charlotte = {
+	1810.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.2448 } } }
+	1830.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.3560 } } }
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 55 }
+			set_variable = { name = conservative_value value = 45 }
+		}
+	}
+	1860.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.3765 } } }
+}
+c_stokes = {
+	1810.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.1499 } } }
+	1830.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.1754 } } }
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 70 }
+			set_variable = { name = conservative_value value = 30 }
+		}
+	}
+	1860.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.2374 } } }
+}
+c_wilkes = {
+	1810.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.1319 } } }
+	1830.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.1247 } } }
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 40 }
+			set_variable = { name = conservative_value value = 30 }
+		}
+	}
+	1860.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.0819 } } }
+}
+c_gaston = {
+	1810.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.1521 } } }
+	1830.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.2174 } } }
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 60 }
+			set_variable = { name = conservative_value value = 40 }
+		}
+	}
+	1860.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.2363 } } }
+}
+c_rutherford = {
+	1810.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.0742 } } }
+	1830.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.1930 } } }
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 70 }
+			set_variable = { name = conservative_value value = 30 }
+		}
+	}
+	1860.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.2066 } } }
+}
+c_buncombe = {
+	1810.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.0749 } } }
+	1830.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.1023 } } }
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 55 }
+			set_variable = { name = conservative_value value = 45 }
+		}
+	}
+	1860.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.1528 } } }
+}
 c_macon_nc = {
 	1808.1.1 = {
 		holder = nativeamerican32
 	}
+	1830.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.0859 } } }
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 80 }
+			set_variable = { name = conservative_value value = 20 }
+		}
+	}
+	1860.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.0864 } } }
 }
 #c_swain = {
 #	1808.1.1 = {
@@ -12,4 +306,6 @@ c_cherokee = {
 	1808.1.1 = {
 		holder = nativeamerican32
 	}
+	1836.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.0581 } } }
+	1860.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.0566 } } }
 }

@@ -1,0 +1,62 @@
+c_windham = {
+	1810.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.0007 } } }
+	1830.1.1 = { effect = { if = { limit = { has_variable = slavery_percent } remove_variable = slavery_percent } } }
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 30 }
+			set_variable = { name = conservative_value value = 40 }
+		}
+	}
+}
+c_new_london = {
+	1810.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.0022 } } }
+	1830.1.1 = { effect = { if = { limit = { has_variable = slavery_percent } remove_variable = slavery_percent } } }
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 30 }
+			set_variable = { name = conservative_value value = 40 }
+		}
+	}
+}
+c_tolland = {
+	1830.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.0001 } } }
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 40 }
+			set_variable = { name = conservative_value value = 30 }
+		}
+	}
+	1860.1.1 = { effect = { if = { limit = { has_variable = slavery_percent } remove_variable = slavery_percent } } }
+}
+c_hartford = {
+	1810.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.0004 } } }
+	1830.1.1 = { effect = { if = { limit = { has_variable = slavery_percent } remove_variable = slavery_percent } } }
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 45 }
+			set_variable = { name = conservative_value value = 55 }
+		}
+	}
+}
+c_new_haven = {
+	1810.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.0014 } } }
+	1830.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.0002 } } }
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 20 }
+			set_variable = { name = conservative_value value = 80 }
+		}
+	}
+	1860.1.1 = { effect = { if = { limit = { has_variable = slavery_percent } remove_variable = slavery_percent } } }
+}
+c_fairfield = {
+	1810.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.0020 } } }
+	1830.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.0002 } } }
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 45 }
+			set_variable = { name = conservative_value value = 55 }
+		}
+	}
+	1860.1.1 = { effect = { if = { limit = { has_variable = slavery_percent } remove_variable = slavery_percent } } }
+}

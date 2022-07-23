@@ -1,0 +1,2379 @@
+﻿name_list_central_algonquian = {
+
+	cadet_dynasty_names = {
+	    ##########Plains Algonquian
+		{ "dynn_Mohe" }
+		{ "dynn_Diwali" }
+		{ "dynn_Waya" }
+		{ "dynn_Tsiyi" }
+		{ "dynn_Onacona" }
+		{ "dynn_Atagulkalu" }
+		{ "dynn_Degataga" }
+		{ "dynn_Cheasequah" }
+		{ "dynn_Adahy" }
+		{ "dynn_Aisikstukiks" }
+		{ "dynn_Apikaiyikis" }
+		{ "dynn_Emitahpahksaiyiks" }
+		{ "dynn_Motahtosiks" }
+		{ "dynn_Puhksinahmahyiks" }
+		{ "dynn_Saiyiks" }
+		{ "dynn_Siksinokaks" }
+		{ "dynn_Tsiniktsistsoyiks" }
+		{ "dynn_Ahkaisumiks" }
+		{ "dynn_Ahkaipokaks" }
+		{ "dynn_Ahkotahshiks" }
+		{ "dynn_Anepo" }
+		{ "dynn_Apikaiyiks" }
+		{ "dynn_Aputosikainah" }
+		{ "dynn_Inuhksoyistamiks" }
+		{ "dynn_Isissokasimiks" }
+		{ "dynn_Istsikaihan" }
+		{ "dynn_Mameoya" }
+		{ "dynn_Nitikskiks" }
+		{ "dynn_Saksinahmahyiks" }
+		{ "dynn_Sikahpuniks" }
+		{ "dynn_Sikinokaks" }
+		{ "dynn_Ahahpitape" }
+		{ "dynn_Ahkaiyikokakiniks" }
+		{ "dynn_Esksinaitupiks" }
+		{ "dynn_Inuksikahpowaiks" }
+		{ "dynn_Inuksiks" }
+		{ "dynn_Ipoksimaiks" }
+		{ "dynn_Kahmitaiks" }
+		{ "dynn_Kiyis" }
+		{ "dynn_Kutaiimiks" }
+		{ "dynn_Kutaisotsiman" }
+		{ "dynn_Miahwahpitsiks" }
+		{ "dynn_Miawkinaiyiks" }
+		{ "dynn_Mokumiks" }
+		{ "dynn_Motwainaiks" }
+		{ "dynn_Nitakoskitsipupiks" }
+		{ "dynn_Niwayiks" }
+		{ "dynn_Nitotsiksistaniks" }
+		{ "dynn_Sikokitsimiks" }
+		{ "dynn_Sikopoksimaiks" }
+		{ "dynn_Sikutsipumaiks" }
+		{ "dynn_Susksoyiks" }
+		{ "dynn_Tsiniksistsoyiks" }
+		{ "dynn_Clatsop" }
+		{ "dynn_Cathlamet" }
+		{ "dynn_Skilloot" }
+		{ "dynn_Cathlapotle" }
+		{ "dynn_Multnomah" }
+		{ "dynn_Watlala" }
+		{ "dynn_Clowwewalla" }
+		{ "dynn_Clackamas" }
+		{ "dynn_Chiluckittequaw" }
+		{ "dynn_Wishram" }
+		{ "dynn_Wasco" }
+		{ "dynn_Atfalati" }
+		{ "dynn_Yamel" }
+		{ "dynn_Lakmiut" }
+		{ "dynn_Chepenafa" }
+		{ "dynn_Santiam" }
+		{ "dynn_Chelamela" }
+		{ "dynn_Calapooya" }
+		{ "dynn_Yoncalla" }
+		###########Eastern Algonquian
+		{ "dynn_Sapokanikan" }
+		{ "dynn_Nechtanc" }
+		{ "dynn_Aquehonga" }
+		{ "dynn_Manacknong" }
+		{ "dynn_Shawkopoke" }
+		{ "dynn_Nayack" }
+		{ "dynn_Sowanus" }
+		{ "dynn_Sassian" }
+		{ "dynn_Monsey" }
+		{ "dynn_Absecon" }
+		{ "dynn_Assupink" }
+		{ "dynn_Communipaw" }
+		{ "dynn_Hakensack" }
+		{ "dynn_Hoboken" }
+		{ "dynn_Hohokus" }
+		{ "dynn_Hopatcong" }
+		{ "dynn_Mahwah" }
+		{ "dynn_Manahawkin" }
+		{ "dynn_Manalapan" }
+		{ "dynn_Mantoloking" }
+		{ "dynn_Mantua" }
+		{ "dynn_Matawan" }
+		{ "dynn_Metuchen" }
+		{ "dynn_Minisin" }
+		{ "dynn_Musconetcong" }
+		{ "dynn_Passaic" }
+		{ "dynn_Peapack" }
+		{ "dynn_Naraticong" }
+		{ "dynn_Scheyichbi" }
+		{ "dynn_Secaucus" }
+		{ "dynn_Weehawken" }
+		{ "dynn_Conshohocken" }
+		{ "dynn_Manayunk" }
+		{ "dynn_Passyunk" }
+		{ "dynn_Shackamaxon" }
+		{ "dynn_Wissahickon" }
+		{ "dynn_Amoskeay" }
+		{ "dynn_Cocheco" }
+		{ "dynn_Cowasuck" }
+		{ "dynn_Koasek" }
+		{ "dynn_Masipskwoik" }
+		{ "dynn_Nashua" }
+		{ "dynn_Ossipee" }
+		{ "dynn_Pemigewasset" }
+		{ "dynn_Pennacook" }
+		{ "dynn_Pequaket" }
+		{ "dynn_Piscataqua" }
+		{ "dynn_Souhegan" }
+		{ "dynn_Winnibisauga" }
+		{ "dynn_Amaseconti" }
+		{ "dynn_Alessikantekw" }
+		{ "dynn_Kinipekw" }
+		{ "dynn_Odanak" }
+		{ "dynn_Panawahpskek" }
+		{ "dynn_Apikwahki" }
+		{ "dynn_Rocameca" }
+		{ "dynn_Wawinak" }
+		{ "dynn_Wolinak" }
+		{ "dynn_Epekwik" }
+		{ "dynn_Epeggoitg" }
+		{ "dynn_Eskikewakik" }
+		{ "dynn_Esgigiag" }
+		{ "dynn_Kespek" }
+		{ "dynn_Gespegiag" }
+		{ "dynn_Kespukwitk" }
+		{ "dynn_Gespogoitg" }
+		{ "dynn_Siknikt" }
+		{ "dynn_Sigenitog" }
+		{ "dynn_Sipeknekatik" }
+		{ "dynn_Segepenegatig" }
+		{ "dynn_Taqmkuk" }
+		{ "dynn_Tagamgoog" }
+		{ "dynn_Wunamakik" }
+		{ "dynn_Onamagig" }
+		{ "dynn_Aboushagan" }
+		{ "dynn_Antigonishe" }
+		{ "dynn_Bhicuctouche" }
+		{ "dynn_Chignecto" }
+		{ "dynn_Ekoupahag" }
+		{ "dynn_Jedaick" }
+		{ "dynn_Kigicapigiak" }
+		{ "dynn_Miramichi" }
+		{ "dynn_Nalkithoniash" }
+		{ "dynn_Nipigiguit" }
+		{ "dynn_Pohomoosh" }
+		{ "dynn_Shediac" }
+		{ "dynn_Tabogimkik" }
+		{ "dynn_Tabusintack" }
+		{ "dynn_Waycobah" }
+		{ "dynn_Muhhcanneuw" }
+		{ "dynn_Mehckentowoon" }
+		{ "dynn_Wawyachtonoc" }
+		{ "dynn_Westenhuck" }
+		{ "dynn_Wiekagjoc" }
+		{ "dynn_Shecomeco" }
+		{ "dynn_Wechquadnach" }
+		{ "dynn_Pamperaug" }
+		{ "dynn_Bantam" }
+		{ "dynn_Weataug" }
+		{ "dynn_Scaticook" }
+		{ "dynn_Mahaiwe" }
+		{ "dynn_Wikwajek" }
+		{ "dynn_Chaghnet" }
+		{ "dynn_Horikan" }
+		{ "dynn_Kaunaumeek" }
+		{ "dynn_Kenuckpacook" }
+		{ "dynn_Maringoman" }
+		{ "dynn_Monemius" }
+		{ "dynn_Nepaug" }
+		{ "dynn_Paanpaack" }
+		{ "dynn_Peantam" }
+		{ "dynn_Potick" }
+		{ "dynn_Potie" }
+		{ "dynn_Shodac" }
+		{ "dynn_Shakehook" }
+		{ "dynn_Unawat" }
+		{ "dynn_Wequadnack" }
+		{ "dynn_Wiatiae" }
+		{ "dynn_Winooskeek" }
+		{ "dynn_Wyeck" }
+		{ "dynn_Powhatan" }
+		{ "dynn_Arrohateck" }
+		{ "dynn_Appamattuck" }
+		{ "dynn_Pamunkey" }
+		{ "dynn_Mattaponi" }
+		{ "dynn_Chiskiack" }
+		{ "dynn_Kecoughtan" }
+		{ "dynn_Youghtanund" }
+		{ "dynn_Rappahannock" }
+		{ "dynn_Moraughtacund" }
+		{ "dynn_Weyanoak" }
+		{ "dynn_Paspahegh" }
+		{ "dynn_Quiyoughcohannock" }
+		{ "dynn_Warraskoyack" }
+		{ "dynn_Nansemond" }
+		{ "dynn_Metoac" }
+		{ "dynn_Manchaug" }
+		{ "dynn_Massomuck" }
+		{ "dynn_Menunkantuck" }
+		{ "dynn_Monashackotoog" }
+		{ "dynn_Pequannock" }
+		{ "dynn_Quinebaug" }
+		{ "dynn_Quinnipiac" }
+		{ "dynn_Siwanoy" }
+		{ "dynn_Niantic" }
+		{ "dynn_Asupsuck" }
+		{ "dynn_Aukumbumsk" }
+		{ "dynn_Aushpook" }
+		{ "dynn_Cosattuck" }
+		{ "dynn_Cuppunauginnit" }
+		{ "dynn_Mangunckakuck" }
+		{ "dynn_Mashantucket" }
+		{ "dynn_Mohungannuck" }
+		{ "dynn_Nameauag" }
+		{ "dynn_Natchaug" }
+		{ "dynn_Noank" }
+		{ "dynn_Oneco" }
+		{ "dynn_Paupttokshick" }
+		{ "dynn_Pawcatuck" }
+		{ "dynn_Pequotauk" }
+		{ "dynn_Poquonock" }
+		{ "dynn_Sauquonckackock" }
+		{ "dynn_Shenecosset" }
+		{ "dynn_Tatuppequauog" }
+		{ "dynn_Weinshauks" }
+		{ "dynn_Weqhetequock" }
+		{ "dynn_Wunnashowatookoog" }
+		{ "dynn_Quahog" }
+		{ "dynn_Mashpee" }
+		{ "dynn_Patuxet" }
+		{ "dynn_Pokanoket" }
+		{ "dynn_Pocasset" }
+		{ "dynn_Assonet" }
+	}
+
+	dynasty_names = {
+		{ "dynn_Auglaize" }
+		{ "dynn_Alawaymotakah" }
+		{ "dynn_Akepee" }
+		{ "dynn_Aqueloma" }
+		{ "dynn_Chillicothe" }
+		{ "dynn_Calaka" }
+		{ "dynn_Chalaakaatha" }
+		{ "dynn_Conedogwinit" }
+		{ "dynn_Hathawekela" }
+		{ "dynn_Hisoskok" }
+		{ "dynn_Hawkawepitathy" }
+		{ "dynn_Kispoko" }
+		{ "dynn_Kiscopocoke" }
+		{ "dynn_Kispokotha" }
+		{ "dynn_Koshachkink" }
+		{ "dynn_Kagoughsage" }
+		{ "dynn_Kickapougowi" }
+		{ "dynn_Kithlipecanuk" }
+		{ "dynn_Mequachake" }
+		{ "dynn_Maykujay" }
+		{ "dynn_Mekoce" }
+		{ "dynn_Maguck" }
+		{ "dynn_Oawikila" }
+		{ "dynn_Ochipway" }
+		{ "dynn_Okowellos" }
+		{ "dynn_Opeatako" }
+		{ "dynn_Oshawahnah" }
+		{ "dynn_Piqua" }
+		{ "dynn_Pekowi" }
+		{ "dynn_Paxtang" }
+		{ "dynn_Peixtan" }
+		{ "dynn_Paheto" }
+		{ "dynn_Paytokothe" }
+		{ "dynn_Spitotha" }
+		{ "dynn_Sawanugi" }
+		{ "dynn_Sawauwone" }
+		{ "dynn_Saweeto" }
+		{ "dynn_Sawcunk" }
+		{ "dynn_Sewickley" }
+		{ "dynn_Shamokin" }
+		{ "dynn_Sonnioto" }
+		{ "dynn_Thaawikila" }
+		{ "dynn_Thawegila" }
+		{ "dynn_Tippecanoe" }
+		{ "dynn_Sylacauga" }
+		{ "dynn_Wakatomica" }
+		{ "dynn_Wakatawicks" }
+		{ "dynn_Wapakoneta" }
+		{ "dynn_Wabapusito" }
+		{ "dynn_Wagunetee" }
+		{ "dynn_Kaskaskia" }
+		{ "dynn_Cahokia" }
+		{ "dynn_Peoria" }
+		{ "dynn_Tamaroa" }
+		{ "dynn_Moingwena" }
+		{ "dynn_Michigamea" }
+		{ "dynn_Albiui" }
+		{ "dynn_Amonokoa" }
+		{ "dynn_Chepoussa" }
+		{ "dynn_Chinkoa" }
+		{ "dynn_Coiracoentanon" }
+		{ "dynn_Espeminkia" }
+		{ "dynn_Maroa" }
+		{ "dynn_Matchinkoa" }
+		{ "dynn_Michibousa" }
+		{ "dynn_Negawichi" }
+		{ "dynn_Tapouara" }
+		{ "dynn_Missisage" }
+		{ "dynn_Saulteaux" }
+		{ "dynn_Bungee" }
+		{ "dynn_Saginaw" }
+		{ "dynn_Achiligouan" }
+		{ "dynn_Amicoures" }
+		{ "dynn_Amikwa" }
+		{ "dynn_Auwause" }
+		{ "dynn_Bawating" }
+		{ "dynn_Chequamegon" }
+		{ "dynn_Keweenaw" }
+		{ "dynn_Kitchigami" }
+		{ "dynn_Macomille" }
+		{ "dynn_Malanas" }
+		{ "dynn_Marameg" }
+		{ "dynn_Mackinac" }
+		{ "dynn_Mundua" }
+		{ "dynn_Nikikouek" }
+		{ "dynn_Noquet" }
+		{ "dynn_Mouusagai" }
+		{ "dynn_Ouasouarini" }
+		{ "dynn_Aousanik" }
+		{ "dynn_Outchibou" }
+		{ "dynn_Outchougai" }
+		{ "dynn_Ouxeiacomingo" }
+		{ "dynn_Iyiyiw" }
+		{ "dynn_Chisasibi" }
+		{ "dynn_Wemindji" }
+		{ "dynn_Whapmagoostui" }
+		{ "dynn_Mistissini" }
+		{ "dynn_Nemaska" }
+		{ "dynn_OujeBougoumou" }
+		{ "dynn_Waskaganish" }
+		{ "dynn_Waswanipi" }
+		{ "dynn_Mosoni" }
+		{ "dynn_Maskekowak" }
+		{ "dynn_Nehinawak" }
+		{ "dynn_Attawapiskat" }
+		{ "dynn_Chemawawin" }
+		{ "dynn_Kashechewan" }
+		{ "dynn_Misipawistik" }
+		{ "dynn_Missanabie" }
+		{ "dynn_Mosakahiken" }
+		{ "dynn_Neskntaga" }
+		{ "dynn_Opaskwayak" }
+		{ "dynn_Sapotaweyak" }
+		{ "dynn_Shamattawa" }
+		{ "dynn_Tatskweyak" }
+		{ "dynn_Taykwa" }
+		{ "dynn_Weenusk" }
+		{ "dynn_Wuskwi" }
+		{ "dynn_Bunibonibee" }
+		{ "dynn_MantoSipi" }
+		{ "dynn_Nisichawayashik" }
+		{ "dynn_Opiponnapiwin" }
+		{ "dynn_Pimicikamak" }
+		{ "dynn_Sakawithiniwak" }
+		{ "dynn_Kapaweno" }
+		{ "dynn_Mikisew" }
+		{ "dynn_Wabasca" }
+		{ "dynn_Mamihkiyiniwak" }
+		{ "dynn_Nekaneet" }
+		{ "dynn_Ochapowace" }
+		{ "dynn_Peepeekisis" }
+		{ "dynn_Chisedec" }
+		{ "dynn_Oumamiwek" }
+		{ "dynn_Papinachois" }
+		{ "dynn_Bersimis" }
+		{ "dynn_Tadoussac" }
+		{ "dynn_Chicoutimi" }
+		{ "dynn_Piekouagami" }
+		{ "dynn_Chomonchouane" }
+		{ "dynn_Nichicun" }
+		{ "dynn_Outakouamiouek" }
+		{ "dynn_Oukestigouek" }
+		{ "dynn_Attikiriniouetch" }
+		{ "dynn_Mouchaouaouastiiriniouek" }
+		{ "dynn_Ouneskapi" }
+		{ "dynn_Mesquakie" }
+		{ "dynn_Wagosh" }
+		{ "dynn_Asakiwakie" }
+		{ "dynn_Kickapoo" }
+		{ "dynn_Blackhawk" }
+		{ "dynn_Saukenuk" }
+		{ "dynn_Thakiwakie" }
+		{ "dynn_Tama" }
+		{ "dynn_Osakis" }
+		{ "dynn_Etnataek" }
+		{ "dynn_Kickapougwoi" }
+		{ "dynn_Kithlipecanuk" }
+		{ "dynn_JumpingFish" }
+		{ "dynn_SunFish" }
+		{ "dynn_Bear" }
+		{ "dynn_Giger" }
+		{ "dynn_Lance" }
+		{ "dynn_Devil" }
+		{ "dynn_BigEagle" }
+		{ "dynn_Sturgeon" }
+		{ "dynn_Eagle" }
+		{ "dynn_BluesSon" }
+		{ "dynn_Plumbed" }
+		{ "dynn_TheSioux" }
+		{ "dynn_BravebyHazard" }
+	}
+
+	male_names = {
+		Nemekas Puckanese Macquettequet Shimnanaquette Pakenosega Kekenutchega Chimokemow Kekenutchegun 
+		Muskobenense Waubonoosa Wausaquanai Minequet Otauson Tussegua Mixabee Kitchewawashen Neebeenaquin 
+		Anueemaycounbeeme Onewequa Nayokeeman Peshquescum Muckcumcinau Kitcheenoting Waubeekeenew 
+		Sheemaugua Kauguest Kitsheematush Aneuwayba Walkcaykeejugo Autowaynabee Nawgonisee owenisham 
+		Mooksonga Noukonwabe Shingwalk Wawaubequak Meewayson Wepecumgegut Markkenwuwbe Fonegawne Nemetetowwa 
+		Kishkaukou Peenaysee Ogemaunkeketo Reaume Nowkeshuc Mixmunitou Wassau Keneobe Moksauba Mutchwetau 
+		Okumanpinase Meckseonne Paupemiskobe Kogkakeshik Wauwassack Misheneanonquet Okemans Nimeke 
+		Puckwash Waseneso Montons Kennewobe Shawshauwenaubais Okooyousinse Ondottowaugane Amickoneena 
+		Kitcheonundeeyo Saugassauway Okeemanpeenaysee Minggeeseetay Waubishcan Peaypaymanshee Ocanauck 
+		Paymeenoting Naynooautienishkoan Kaujagonaygee Mayneeseno Kakagouryan Kitchmokooman Singgok 
+		Saguhosh Saybo Obwole Aguagonabe Sigonak Kokoosh Pemaw Kawotoktame Sabo Kewageone Metewa Kawgeshequm 
+		Keyacum Atowagesek Mawmawkens Mamawsecuta Penaysewaykesek Kewaytinam Sepewan Shashebak Shaconk 
+		Paymusawtom Endus Aushetayawnekusa Wawapenishik Omikou Pashkobwis Pashkeekou Mayto Wauweeyatam 
+		Nuwagon Mesnakrea Maytwayaushing Ogeebouinse Maneleugobwawaa
+		Hokoleskwa Cottawamago Paxinos Wynepuechisika Weyapersenwah Tecumseh Aweecony Kakawipilathy Malunthy 
+		Musquaconocah Meanymsecahh Waupaucowela Nihipeewa Nihinessicoe Wawelainni Kishkalwa Maywathekeha 
+		Pathecoussa Nelawachika Waquiwais Napawita Papamousse Pemitacamchika Wyawimon Quamapea Pelmetachemo 
+		Neahmemsieeh Makatewekasha Koitawaypie Misquacoonacaw Cutthewekasaw Kayseaesekah Weythapamattha 
+		Waytheah Weyapiersenwaw Nequetaughaw Hahgooseekaw Weyapuseawaw Cutheaweasaw Auonashechla Cutewecusaw 
+		Tamenetha Piaseka Pomtha Shammothetho Pemthata Wethawakasika Quetawah Sokutchemah Wynepuehsika 
+		Quitawepeh Teawascoota Tacomtequah Nianymseka Chiachska
+	}
+	female_names = {
+		Aazhawiggizhigokwe Ayasha Keezheekoni Mitena Waawaaskwane 
+		Zaagaasage Wiingashk Miigwaans Kiiwedin Kamenna
+		Methoataske Tacumwah Moconnoquah Kickkesequah Oshawsequah 
+		Torotiy Meriy Elin Ashenee Astina Echa Kiche Kika Mati Matisa Matisoon Nichena 
+		Osceola Pamoon Paniya
+	}
+	
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 50
+	mat_grf_name_chance = 50
+	father_name_chance = 50
+	
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 50
+	mat_grm_name_chance = 50
+	mother_name_chance = 50
+	
+}
+
+
+
+
+
+name_list_plains_algonquian = {
+
+	cadet_dynasty_names = {
+	    ##########Central Algonquian
+		{ "dynn_Auglaize" }
+		{ "dynn_Alawaymotakah" }
+		{ "dynn_Akepee" }
+		{ "dynn_Aqueloma" }
+		{ "dynn_Chillicothe" }
+		{ "dynn_Calaka" }
+		{ "dynn_Chalaakaatha" }
+		{ "dynn_Conedogwinit" }
+		{ "dynn_Hathawekela" }
+		{ "dynn_Hisoskok" }
+		{ "dynn_Hawkawepitathy" }
+		{ "dynn_Kispoko" }
+		{ "dynn_Kiscopocoke" }
+		{ "dynn_Kispokotha" }
+		{ "dynn_Koshachkink" }
+		{ "dynn_Kagoughsage" }
+		{ "dynn_Kickapougowi" }
+		{ "dynn_Kithlipecanuk" }
+		{ "dynn_Mequachake" }
+		{ "dynn_Maykujay" }
+		{ "dynn_Mekoce" }
+		{ "dynn_Maguck" }
+		{ "dynn_Oawikila" }
+		{ "dynn_Ochipway" }
+		{ "dynn_Okowellos" }
+		{ "dynn_Opeatako" }
+		{ "dynn_Oshawahnah" }
+		{ "dynn_Piqua" }
+		{ "dynn_Pekowi" }
+		{ "dynn_Paxtang" }
+		{ "dynn_Peixtan" }
+		{ "dynn_Paheto" }
+		{ "dynn_Paytokothe" }
+		{ "dynn_Spitotha" }
+		{ "dynn_Sawanugi" }
+		{ "dynn_Sawauwone" }
+		{ "dynn_Saweeto" }
+		{ "dynn_Sawcunk" }
+		{ "dynn_Sewickley" }
+		{ "dynn_Shamokin" }
+		{ "dynn_Sonnioto" }
+		{ "dynn_Thaawikila" }
+		{ "dynn_Thawegila" }
+		{ "dynn_Tippecanoe" }
+		{ "dynn_Sylacauga" }
+		{ "dynn_Wakatomica" }
+		{ "dynn_Wakatawicks" }
+		{ "dynn_Wapakoneta" }
+		{ "dynn_Wabapusito" }
+		{ "dynn_Wagunetee" }
+		{ "dynn_Kaskaskia" }
+		{ "dynn_Cahokia" }
+		{ "dynn_Peoria" }
+		{ "dynn_Tamaroa" }
+		{ "dynn_Moingwena" }
+		{ "dynn_Michigamea" }
+		{ "dynn_Albiui" }
+		{ "dynn_Amonokoa" }
+		{ "dynn_Chepoussa" }
+		{ "dynn_Chinkoa" }
+		{ "dynn_Coiracoentanon" }
+		{ "dynn_Espeminkia" }
+		{ "dynn_Maroa" }
+		{ "dynn_Matchinkoa" }
+		{ "dynn_Michibousa" }
+		{ "dynn_Negawichi" }
+		{ "dynn_Tapouara" }
+		{ "dynn_Missisage" }
+		{ "dynn_Saulteaux" }
+		{ "dynn_Bungee" }
+		{ "dynn_Saginaw" }
+		{ "dynn_Achiligouan" }
+		{ "dynn_Amicoures" }
+		{ "dynn_Amikwa" }
+		{ "dynn_Auwause" }
+		{ "dynn_Bawating" }
+		{ "dynn_Chequamegon" }
+		{ "dynn_Keweenaw" }
+		{ "dynn_Kitchigami" }
+		{ "dynn_Macomille" }
+		{ "dynn_Malanas" }
+		{ "dynn_Marameg" }
+		{ "dynn_Mackinac" }
+		{ "dynn_Mundua" }
+		{ "dynn_Nikikouek" }
+		{ "dynn_Noquet" }
+		{ "dynn_Mouusagai" }
+		{ "dynn_Ouasouarini" }
+		{ "dynn_Aousanik" }
+		{ "dynn_Outchibou" }
+		{ "dynn_Outchougai" }
+		{ "dynn_Ouxeiacomingo" }
+		{ "dynn_Iyiyiw" }
+		{ "dynn_Chisasibi" }
+		{ "dynn_Wemindji" }
+		{ "dynn_Whapmagoostui" }
+		{ "dynn_Mistissini" }
+		{ "dynn_Nemaska" }
+		{ "dynn_OujeBougoumou" }
+		{ "dynn_Waskaganish" }
+		{ "dynn_Waswanipi" }
+		{ "dynn_Mosoni" }
+		{ "dynn_Maskekowak" }
+		{ "dynn_Nehinawak" }
+		{ "dynn_Attawapiskat" }
+		{ "dynn_Chemawawin" }
+		{ "dynn_Kashechewan" }
+		{ "dynn_Misipawistik" }
+		{ "dynn_Missanabie" }
+		{ "dynn_Mosakahiken" }
+		{ "dynn_Neskntaga" }
+		{ "dynn_Opaskwayak" }
+		{ "dynn_Sapotaweyak" }
+		{ "dynn_Shamattawa" }
+		{ "dynn_Tatskweyak" }
+		{ "dynn_Taykwa" }
+		{ "dynn_Weenusk" }
+		{ "dynn_Wuskwi" }
+		{ "dynn_Bunibonibee" }
+		{ "dynn_MantoSipi" }
+		{ "dynn_Nisichawayashik" }
+		{ "dynn_Opiponnapiwin" }
+		{ "dynn_Pimicikamak" }
+		{ "dynn_Sakawithiniwak" }
+		{ "dynn_Kapaweno" }
+		{ "dynn_Mikisew" }
+		{ "dynn_Wabasca" }
+		{ "dynn_Mamihkiyiniwak" }
+		{ "dynn_Nekaneet" }
+		{ "dynn_Ochapowace" }
+		{ "dynn_Peepeekisis" }
+		{ "dynn_Chisedec" }
+		{ "dynn_Oumamiwek" }
+		{ "dynn_Papinachois" }
+		{ "dynn_Bersimis" }
+		{ "dynn_Tadoussac" }
+		{ "dynn_Chicoutimi" }
+		{ "dynn_Piekouagami" }
+		{ "dynn_Chomonchouane" }
+		{ "dynn_Nichicun" }
+		{ "dynn_Outakouamiouek" }
+		{ "dynn_Oukestigouek" }
+		{ "dynn_Attikiriniouetch" }
+		{ "dynn_Mouchaouaouastiiriniouek" }
+		{ "dynn_Ouneskapi" }
+		{ "dynn_Mesquakie" }
+		{ "dynn_Wagosh" }
+		{ "dynn_Asakiwakie" }
+		{ "dynn_Kickapoo" }
+		{ "dynn_Blackhawk" }
+		{ "dynn_Saukenuk" }
+		{ "dynn_Thakiwakie" }
+		{ "dynn_Tama" }
+		{ "dynn_Osakis" }
+		{ "dynn_Etnataek" }
+		{ "dynn_Kickapougwoi" }
+		{ "dynn_Kithlipecanuk" }
+		{ "dynn_JumpingFish" }
+		{ "dynn_SunFish" }
+		{ "dynn_Bear" }
+		{ "dynn_Giger" }
+		{ "dynn_Lance" }
+		{ "dynn_Devil" }
+		{ "dynn_BigEagle" }
+		{ "dynn_Sturgeon" }
+		{ "dynn_Eagle" }
+		{ "dynn_BluesSon" }
+		{ "dynn_Plumbed" }
+		{ "dynn_TheSioux" }
+		{ "dynn_BravebyHazard" }
+		###########Eastern Algonquian
+		{ "dynn_Sapokanikan" }
+		{ "dynn_Nechtanc" }
+		{ "dynn_Aquehonga" }
+		{ "dynn_Manacknong" }
+		{ "dynn_Shawkopoke" }
+		{ "dynn_Nayack" }
+		{ "dynn_Sowanus" }
+		{ "dynn_Sassian" }
+		{ "dynn_Monsey" }
+		{ "dynn_Absecon" }
+		{ "dynn_Assupink" }
+		{ "dynn_Communipaw" }
+		{ "dynn_Hakensack" }
+		{ "dynn_Hoboken" }
+		{ "dynn_Hohokus" }
+		{ "dynn_Hopatcong" }
+		{ "dynn_Mahwah" }
+		{ "dynn_Manahawkin" }
+		{ "dynn_Manalapan" }
+		{ "dynn_Mantoloking" }
+		{ "dynn_Mantua" }
+		{ "dynn_Matawan" }
+		{ "dynn_Metuchen" }
+		{ "dynn_Minisin" }
+		{ "dynn_Musconetcong" }
+		{ "dynn_Passaic" }
+		{ "dynn_Peapack" }
+		{ "dynn_Naraticong" }
+		{ "dynn_Scheyichbi" }
+		{ "dynn_Secaucus" }
+		{ "dynn_Weehawken" }
+		{ "dynn_Conshohocken" }
+		{ "dynn_Manayunk" }
+		{ "dynn_Passyunk" }
+		{ "dynn_Shackamaxon" }
+		{ "dynn_Wissahickon" }
+		{ "dynn_Amoskeay" }
+		{ "dynn_Cocheco" }
+		{ "dynn_Cowasuck" }
+		{ "dynn_Koasek" }
+		{ "dynn_Masipskwoik" }
+		{ "dynn_Nashua" }
+		{ "dynn_Ossipee" }
+		{ "dynn_Pemigewasset" }
+		{ "dynn_Pennacook" }
+		{ "dynn_Pequaket" }
+		{ "dynn_Piscataqua" }
+		{ "dynn_Souhegan" }
+		{ "dynn_Winnibisauga" }
+		{ "dynn_Amaseconti" }
+		{ "dynn_Alessikantekw" }
+		{ "dynn_Kinipekw" }
+		{ "dynn_Odanak" }
+		{ "dynn_Panawahpskek" }
+		{ "dynn_Apikwahki" }
+		{ "dynn_Rocameca" }
+		{ "dynn_Wawinak" }
+		{ "dynn_Wolinak" }
+		{ "dynn_Epekwik" }
+		{ "dynn_Epeggoitg" }
+		{ "dynn_Eskikewakik" }
+		{ "dynn_Esgigiag" }
+		{ "dynn_Kespek" }
+		{ "dynn_Gespegiag" }
+		{ "dynn_Kespukwitk" }
+		{ "dynn_Gespogoitg" }
+		{ "dynn_Siknikt" }
+		{ "dynn_Sigenitog" }
+		{ "dynn_Sipeknekatik" }
+		{ "dynn_Segepenegatig" }
+		{ "dynn_Taqmkuk" }
+		{ "dynn_Tagamgoog" }
+		{ "dynn_Wunamakik" }
+		{ "dynn_Onamagig" }
+		{ "dynn_Aboushagan" }
+		{ "dynn_Antigonishe" }
+		{ "dynn_Bhicuctouche" }
+		{ "dynn_Chignecto" }
+		{ "dynn_Ekoupahag" }
+		{ "dynn_Jedaick" }
+		{ "dynn_Kigicapigiak" }
+		{ "dynn_Miramichi" }
+		{ "dynn_Nalkithoniash" }
+		{ "dynn_Nipigiguit" }
+		{ "dynn_Pohomoosh" }
+		{ "dynn_Shediac" }
+		{ "dynn_Tabogimkik" }
+		{ "dynn_Tabusintack" }
+		{ "dynn_Waycobah" }
+		{ "dynn_Muhhcanneuw" }
+		{ "dynn_Mehckentowoon" }
+		{ "dynn_Wawyachtonoc" }
+		{ "dynn_Westenhuck" }
+		{ "dynn_Wiekagjoc" }
+		{ "dynn_Shecomeco" }
+		{ "dynn_Wechquadnach" }
+		{ "dynn_Pamperaug" }
+		{ "dynn_Bantam" }
+		{ "dynn_Weataug" }
+		{ "dynn_Scaticook" }
+		{ "dynn_Mahaiwe" }
+		{ "dynn_Wikwajek" }
+		{ "dynn_Chaghnet" }
+		{ "dynn_Horikan" }
+		{ "dynn_Kaunaumeek" }
+		{ "dynn_Kenuckpacook" }
+		{ "dynn_Maringoman" }
+		{ "dynn_Monemius" }
+		{ "dynn_Nepaug" }
+		{ "dynn_Paanpaack" }
+		{ "dynn_Peantam" }
+		{ "dynn_Potick" }
+		{ "dynn_Potie" }
+		{ "dynn_Shodac" }
+		{ "dynn_Shakehook" }
+		{ "dynn_Unawat" }
+		{ "dynn_Wequadnack" }
+		{ "dynn_Wiatiae" }
+		{ "dynn_Winooskeek" }
+		{ "dynn_Wyeck" }
+		{ "dynn_Powhatan" }
+		{ "dynn_Arrohateck" }
+		{ "dynn_Appamattuck" }
+		{ "dynn_Pamunkey" }
+		{ "dynn_Mattaponi" }
+		{ "dynn_Chiskiack" }
+		{ "dynn_Kecoughtan" }
+		{ "dynn_Youghtanund" }
+		{ "dynn_Rappahannock" }
+		{ "dynn_Moraughtacund" }
+		{ "dynn_Weyanoak" }
+		{ "dynn_Paspahegh" }
+		{ "dynn_Quiyoughcohannock" }
+		{ "dynn_Warraskoyack" }
+		{ "dynn_Nansemond" }
+		{ "dynn_Metoac" }
+		{ "dynn_Manchaug" }
+		{ "dynn_Massomuck" }
+		{ "dynn_Menunkantuck" }
+		{ "dynn_Monashackotoog" }
+		{ "dynn_Pequannock" }
+		{ "dynn_Quinebaug" }
+		{ "dynn_Quinnipiac" }
+		{ "dynn_Siwanoy" }
+		{ "dynn_Niantic" }
+		{ "dynn_Asupsuck" }
+		{ "dynn_Aukumbumsk" }
+		{ "dynn_Aushpook" }
+		{ "dynn_Cosattuck" }
+		{ "dynn_Cuppunauginnit" }
+		{ "dynn_Mangunckakuck" }
+		{ "dynn_Mashantucket" }
+		{ "dynn_Mohungannuck" }
+		{ "dynn_Nameauag" }
+		{ "dynn_Natchaug" }
+		{ "dynn_Noank" }
+		{ "dynn_Oneco" }
+		{ "dynn_Paupttokshick" }
+		{ "dynn_Pawcatuck" }
+		{ "dynn_Pequotauk" }
+		{ "dynn_Poquonock" }
+		{ "dynn_Sauquonckackock" }
+		{ "dynn_Shenecosset" }
+		{ "dynn_Tatuppequauog" }
+		{ "dynn_Weinshauks" }
+		{ "dynn_Weqhetequock" }
+		{ "dynn_Wunnashowatookoog" }
+		{ "dynn_Quahog" }
+		{ "dynn_Mashpee" }
+		{ "dynn_Patuxet" }
+		{ "dynn_Pokanoket" }
+		{ "dynn_Pocasset" }
+		{ "dynn_Assonet" }
+	}
+
+	dynasty_names = {
+		 ##########Plains Algonquian
+		{ "dynn_Mohe" }
+		{ "dynn_Diwali" }
+		{ "dynn_Waya" }
+		{ "dynn_Tsiyi" }
+		{ "dynn_Onacona" }
+		{ "dynn_Atagulkalu" }
+		{ "dynn_Degataga" }
+		{ "dynn_Cheasequah" }
+		{ "dynn_Adahy" }
+		{ "dynn_Aisikstukiks" }
+		{ "dynn_Apikaiyikis" }
+		{ "dynn_Emitahpahksaiyiks" }
+		{ "dynn_Motahtosiks" }
+		{ "dynn_Puhksinahmahyiks" }
+		{ "dynn_Saiyiks" }
+		{ "dynn_Siksinokaks" }
+		{ "dynn_Tsiniktsistsoyiks" }
+		{ "dynn_Ahkaisumiks" }
+		{ "dynn_Ahkaipokaks" }
+		{ "dynn_Ahkotahshiks" }
+		{ "dynn_Anepo" }
+		{ "dynn_Apikaiyiks" }
+		{ "dynn_Aputosikainah" }
+		{ "dynn_Inuhksoyistamiks" }
+		{ "dynn_Isissokasimiks" }
+		{ "dynn_Istsikaihan" }
+		{ "dynn_Mameoya" }
+		{ "dynn_Nitikskiks" }
+		{ "dynn_Saksinahmahyiks" }
+		{ "dynn_Sikahpuniks" }
+		{ "dynn_Sikinokaks" }
+		{ "dynn_Ahahpitape" }
+		{ "dynn_Ahkaiyikokakiniks" }
+		{ "dynn_Esksinaitupiks" }
+		{ "dynn_Inuksikahpowaiks" }
+		{ "dynn_Inuksiks" }
+		{ "dynn_Ipoksimaiks" }
+		{ "dynn_Kahmitaiks" }
+		{ "dynn_Kiyis" }
+		{ "dynn_Kutaiimiks" }
+		{ "dynn_Kutaisotsiman" }
+		{ "dynn_Miahwahpitsiks" }
+		{ "dynn_Miawkinaiyiks" }
+		{ "dynn_Mokumiks" }
+		{ "dynn_Motwainaiks" }
+		{ "dynn_Nitakoskitsipupiks" }
+		{ "dynn_Niwayiks" }
+		{ "dynn_Nitotsiksistaniks" }
+		{ "dynn_Sikokitsimiks" }
+		{ "dynn_Sikopoksimaiks" }
+		{ "dynn_Sikutsipumaiks" }
+		{ "dynn_Susksoyiks" }
+		{ "dynn_Tsiniksistsoyiks" }
+		{ "dynn_Clatsop" }
+		{ "dynn_Cathlamet" }
+		{ "dynn_Skilloot" }
+		{ "dynn_Cathlapotle" }
+		{ "dynn_Multnomah" }
+		{ "dynn_Watlala" }
+		{ "dynn_Clowwewalla" }
+		{ "dynn_Clackamas" }
+		{ "dynn_Chiluckittequaw" }
+		{ "dynn_Wishram" }
+		{ "dynn_Wasco" }
+		{ "dynn_Atfalati" }
+		{ "dynn_Yamel" }
+		{ "dynn_Lakmiut" }
+		{ "dynn_Chepenafa" }
+		{ "dynn_Santiam" }
+		{ "dynn_Chelamela" }
+		{ "dynn_Calapooya" }
+		{ "dynn_Yoncalla" }
+	}
+
+	male_names = {
+		Wechegalla Tatoncapa Japu Takchesca Chahpacpahha Tatoncahooohcalehpaha Matewashena Shonggemoneto 
+		Shongemonetoeahca Nahpatonca Ohkeecheta Tahhiota Wahhanissatta Voisttitoevetz Nahkkomeien 
+		Motavato Vokivokamast Avonaco Oneahaket Nakohaistah Aamanaco Kohkahywhcumest
+		Shanah Shanahwane Abukcheech Achachak Achak Ahanu Anakausuen Aranck Askook Askuwheteau Chansomps Chogan Eluwilussit 
+		Enkoodabaoo Etchemin Etlelooaat Hassun Huritt Keme Kestejoo Kitchi Machk Makkapitew Matchitehew Matunaagd Matwau 
+		Megedagik Mekledoodum Mingan Mukki Nixkamich Nootau Pannoowau Powaw Rowtag Samoset Segenam Sucki Sunukkuhkau 
+		Tihkoosue Togquos Apisi
+		Comcomly Tumulth Napesa Injice Tasyah Nessick Etnama Cheenlenten Nasyah Absaquil Quintioosan 
+		Myneletta Quiaquatty Yalkus Kawkama Kiles Kowahtough Anta Quilala Mequah Yackatee Tophor Hallale 
+		Tumwalth Obanahah Watchano Teapinick Wallahpicate Lalbick Cuckamanna Towyecolla Laham Senegertta 
+		Tena Pulkuptima Sallaf Hoipkenek Yeptah Satinvose Talsapeer Pulktah Pulican Hache-hi Hosa Nakos
+		Bipin Bodaway Brijesh Brijmohan Cochise Dahana Eknath Elan Gopal Gopan Gosheven Govind Gulab Gunaratna 
+		Gurbachan Gurcharan Hridayesh Ikshu Ilesh Illanipi Jimuta Jinendra Jishnu Jitendra Jivin Kuruk Kusagra Kush 
+		Leyati Leyti Lise Mohan Mohin Narsimha Nartan Nartana Niteesh Nitis Pravar PraveenHalf Prayag Preetish Pritam 
+		Tarak
+		Nemekas Puckanese Macquettequet Shimnanaquette Pakenosega Kekenutchega Chimokemow Kekenutchegun 
+		Muskobenense Waubonoosa Wausaquanai Minequet Otauson Tussegua Mixabee Kitchewawashen Neebeenaquin 
+		Anueemaycounbeeme Onewequa Nayokeeman Peshquescum Muckcumcinau Kitcheenoting Waubeekeenew 
+		Sheemaugua Kauguest Kitsheematush Aneuwayba Walkcaykeejugo Autowaynabee Nawgonisee owenisham 
+		Mooksonga Noukonwabe Shingwalk Wawaubequak Meewayson Wepecumgegut Markkenwuwbe Fonegawne Nemetetowwa 
+		Kishkaukou Peenaysee Ogemaunkeketo Reaume Nowkeshuc Mixmunitou Wassau Keneobe Moksauba Mutchwetau 
+		Okumanpinase Meckseonne Paupemiskobe Kogkakeshik Wauwassack Misheneanonquet Okemans Nimeke 
+		Puckwash Waseneso Montons Kennewobe Shawshauwenaubais Okooyousinse Ondottowaugane Amickoneena 
+		Kitcheonundeeyo Saugassauway Okeemanpeenaysee Minggeeseetay Waubishcan Peaypaymanshee Ocanauck 
+		Paymeenoting Naynooautienishkoan Kaujagonaygee Mayneeseno Kakagouryan Kitchmokooman Singgok 
+		Saguhosh Saybo Obwole Aguagonabe Sigonak Kokoosh Pemaw Kawotoktame Sabo Kewageone Metewa Kawgeshequm 
+		Keyacum Atowagesek Mawmawkens Mamawsecuta Penaysewaykesek Kewaytinam Sepewan Shashebak Shaconk 
+		Paymusawtom Endus Aushetayawnekusa Wawapenishik Omikou Pashkobwis Pashkeekou Mayto Wauweeyatam 
+		Nuwagon Mesnakrea Maytwayaushing Ogeebouinse Maneleugobwawaa
+	}
+	female_names = {
+		Ehyophsta Misstanstur Tahtahtoisneh Paveena Shaianne Sheyanne Shian Shiana Shiann Shy Shyanna Ameo Ameone 
+		Ametane Ami Anaba Aquene Emona Emonah Maheona Meona Moneva 
+		Peta Hanata Alsoomse Hausis Hurit Kanti Keegsquaw Kimi Makkitotosimew Nadie Nijlon Nittawosew Numees Nuna Nuttah 
+		Oota dabun Pules Sokanon Sokw Sooleawa Tahki Wapun Wawetseka Koko Peta Sinopa
+		Elvamox Ethete Natane Bly Dae Cocheta Ekta Ela Elina Ila Imala Inayat Kushala Kusuma Liluye Lipika Lolaksi 
+		Lolotea Nascha Nashota Natane Nita Nitara Niti Nitika Nittawosew Onawa Onawah Preyasi Prita PreetiHalf Smita 
+		Smriti Surabhi Tapi Tara
+		Torotiy Meriy Elin Ashenee Astina Echa Kiche Kika Mati Matisa Matisoon Nichena Osceola Pamoon Paniya 
+		Aazhawiggizhigokwe Ayasha Keezheekoni Mitena Waawaaskwane Zaagaasage Wiingashk Miigwaans Kiiwedin Kamenna
+	}
+	
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 50
+	mat_grf_name_chance = 50
+	father_name_chance = 50
+	
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 50
+	mat_grm_name_chance = 50
+	mother_name_chance = 50
+	
+}
+
+
+name_list_eastern_algonquian = {
+
+	cadet_dynasty_names = {
+	    ##########Central Algonquian
+		{ "dynn_Auglaize" }
+		{ "dynn_Alawaymotakah" }
+		{ "dynn_Akepee" }
+		{ "dynn_Aqueloma" }
+		{ "dynn_Chillicothe" }
+		{ "dynn_Calaka" }
+		{ "dynn_Chalaakaatha" }
+		{ "dynn_Conedogwinit" }
+		{ "dynn_Hathawekela" }
+		{ "dynn_Hisoskok" }
+		{ "dynn_Hawkawepitathy" }
+		{ "dynn_Kispoko" }
+		{ "dynn_Kiscopocoke" }
+		{ "dynn_Kispokotha" }
+		{ "dynn_Koshachkink" }
+		{ "dynn_Kagoughsage" }
+		{ "dynn_Kickapougowi" }
+		{ "dynn_Kithlipecanuk" }
+		{ "dynn_Mequachake" }
+		{ "dynn_Maykujay" }
+		{ "dynn_Mekoce" }
+		{ "dynn_Maguck" }
+		{ "dynn_Oawikila" }
+		{ "dynn_Ochipway" }
+		{ "dynn_Okowellos" }
+		{ "dynn_Opeatako" }
+		{ "dynn_Oshawahnah" }
+		{ "dynn_Piqua" }
+		{ "dynn_Pekowi" }
+		{ "dynn_Paxtang" }
+		{ "dynn_Peixtan" }
+		{ "dynn_Paheto" }
+		{ "dynn_Paytokothe" }
+		{ "dynn_Spitotha" }
+		{ "dynn_Sawanugi" }
+		{ "dynn_Sawauwone" }
+		{ "dynn_Saweeto" }
+		{ "dynn_Sawcunk" }
+		{ "dynn_Sewickley" }
+		{ "dynn_Shamokin" }
+		{ "dynn_Sonnioto" }
+		{ "dynn_Thaawikila" }
+		{ "dynn_Thawegila" }
+		{ "dynn_Tippecanoe" }
+		{ "dynn_Sylacauga" }
+		{ "dynn_Wakatomica" }
+		{ "dynn_Wakatawicks" }
+		{ "dynn_Wapakoneta" }
+		{ "dynn_Wabapusito" }
+		{ "dynn_Wagunetee" }
+		{ "dynn_Kaskaskia" }
+		{ "dynn_Cahokia" }
+		{ "dynn_Peoria" }
+		{ "dynn_Tamaroa" }
+		{ "dynn_Moingwena" }
+		{ "dynn_Michigamea" }
+		{ "dynn_Albiui" }
+		{ "dynn_Amonokoa" }
+		{ "dynn_Chepoussa" }
+		{ "dynn_Chinkoa" }
+		{ "dynn_Coiracoentanon" }
+		{ "dynn_Espeminkia" }
+		{ "dynn_Maroa" }
+		{ "dynn_Matchinkoa" }
+		{ "dynn_Michibousa" }
+		{ "dynn_Negawichi" }
+		{ "dynn_Tapouara" }
+		{ "dynn_Missisage" }
+		{ "dynn_Saulteaux" }
+		{ "dynn_Bungee" }
+		{ "dynn_Saginaw" }
+		{ "dynn_Achiligouan" }
+		{ "dynn_Amicoures" }
+		{ "dynn_Amikwa" }
+		{ "dynn_Auwause" }
+		{ "dynn_Bawating" }
+		{ "dynn_Chequamegon" }
+		{ "dynn_Keweenaw" }
+		{ "dynn_Kitchigami" }
+		{ "dynn_Macomille" }
+		{ "dynn_Malanas" }
+		{ "dynn_Marameg" }
+		{ "dynn_Mackinac" }
+		{ "dynn_Mundua" }
+		{ "dynn_Nikikouek" }
+		{ "dynn_Noquet" }
+		{ "dynn_Mouusagai" }
+		{ "dynn_Ouasouarini" }
+		{ "dynn_Aousanik" }
+		{ "dynn_Outchibou" }
+		{ "dynn_Outchougai" }
+		{ "dynn_Ouxeiacomingo" }
+		{ "dynn_Iyiyiw" }
+		{ "dynn_Chisasibi" }
+		{ "dynn_Wemindji" }
+		{ "dynn_Whapmagoostui" }
+		{ "dynn_Mistissini" }
+		{ "dynn_Nemaska" }
+		{ "dynn_OujeBougoumou" }
+		{ "dynn_Waskaganish" }
+		{ "dynn_Waswanipi" }
+		{ "dynn_Mosoni" }
+		{ "dynn_Maskekowak" }
+		{ "dynn_Nehinawak" }
+		{ "dynn_Attawapiskat" }
+		{ "dynn_Chemawawin" }
+		{ "dynn_Kashechewan" }
+		{ "dynn_Misipawistik" }
+		{ "dynn_Missanabie" }
+		{ "dynn_Mosakahiken" }
+		{ "dynn_Neskntaga" }
+		{ "dynn_Opaskwayak" }
+		{ "dynn_Sapotaweyak" }
+		{ "dynn_Shamattawa" }
+		{ "dynn_Tatskweyak" }
+		{ "dynn_Taykwa" }
+		{ "dynn_Weenusk" }
+		{ "dynn_Wuskwi" }
+		{ "dynn_Bunibonibee" }
+		{ "dynn_MantoSipi" }
+		{ "dynn_Nisichawayashik" }
+		{ "dynn_Opiponnapiwin" }
+		{ "dynn_Pimicikamak" }
+		{ "dynn_Sakawithiniwak" }
+		{ "dynn_Kapaweno" }
+		{ "dynn_Mikisew" }
+		{ "dynn_Wabasca" }
+		{ "dynn_Mamihkiyiniwak" }
+		{ "dynn_Nekaneet" }
+		{ "dynn_Ochapowace" }
+		{ "dynn_Peepeekisis" }
+		{ "dynn_Chisedec" }
+		{ "dynn_Oumamiwek" }
+		{ "dynn_Papinachois" }
+		{ "dynn_Bersimis" }
+		{ "dynn_Tadoussac" }
+		{ "dynn_Chicoutimi" }
+		{ "dynn_Piekouagami" }
+		{ "dynn_Chomonchouane" }
+		{ "dynn_Nichicun" }
+		{ "dynn_Outakouamiouek" }
+		{ "dynn_Oukestigouek" }
+		{ "dynn_Attikiriniouetch" }
+		{ "dynn_Mouchaouaouastiiriniouek" }
+		{ "dynn_Ouneskapi" }
+		{ "dynn_Mesquakie" }
+		{ "dynn_Wagosh" }
+		{ "dynn_Asakiwakie" }
+		{ "dynn_Kickapoo" }
+		{ "dynn_Blackhawk" }
+		{ "dynn_Saukenuk" }
+		{ "dynn_Thakiwakie" }
+		{ "dynn_Tama" }
+		{ "dynn_Osakis" }
+		{ "dynn_Etnataek" }
+		{ "dynn_Kickapougwoi" }
+		{ "dynn_Kithlipecanuk" }
+		{ "dynn_JumpingFish" }
+		{ "dynn_SunFish" }
+		{ "dynn_Bear" }
+		{ "dynn_Giger" }
+		{ "dynn_Lance" }
+		{ "dynn_Devil" }
+		{ "dynn_BigEagle" }
+		{ "dynn_Sturgeon" }
+		{ "dynn_Eagle" }
+		{ "dynn_BluesSon" }
+		{ "dynn_Plumbed" }
+		{ "dynn_TheSioux" }
+		{ "dynn_BravebyHazard" }
+		 ##########Plains Algonquian
+		{ "dynn_Mohe" }
+		{ "dynn_Diwali" }
+		{ "dynn_Waya" }
+		{ "dynn_Tsiyi" }
+		{ "dynn_Onacona" }
+		{ "dynn_Atagulkalu" }
+		{ "dynn_Degataga" }
+		{ "dynn_Cheasequah" }
+		{ "dynn_Adahy" }
+		{ "dynn_Aisikstukiks" }
+		{ "dynn_Apikaiyikis" }
+		{ "dynn_Emitahpahksaiyiks" }
+		{ "dynn_Motahtosiks" }
+		{ "dynn_Puhksinahmahyiks" }
+		{ "dynn_Saiyiks" }
+		{ "dynn_Siksinokaks" }
+		{ "dynn_Tsiniktsistsoyiks" }
+		{ "dynn_Ahkaisumiks" }
+		{ "dynn_Ahkaipokaks" }
+		{ "dynn_Ahkotahshiks" }
+		{ "dynn_Anepo" }
+		{ "dynn_Apikaiyiks" }
+		{ "dynn_Aputosikainah" }
+		{ "dynn_Inuhksoyistamiks" }
+		{ "dynn_Isissokasimiks" }
+		{ "dynn_Istsikaihan" }
+		{ "dynn_Mameoya" }
+		{ "dynn_Nitikskiks" }
+		{ "dynn_Saksinahmahyiks" }
+		{ "dynn_Sikahpuniks" }
+		{ "dynn_Sikinokaks" }
+		{ "dynn_Ahahpitape" }
+		{ "dynn_Ahkaiyikokakiniks" }
+		{ "dynn_Esksinaitupiks" }
+		{ "dynn_Inuksikahpowaiks" }
+		{ "dynn_Inuksiks" }
+		{ "dynn_Ipoksimaiks" }
+		{ "dynn_Kahmitaiks" }
+		{ "dynn_Kiyis" }
+		{ "dynn_Kutaiimiks" }
+		{ "dynn_Kutaisotsiman" }
+		{ "dynn_Miahwahpitsiks" }
+		{ "dynn_Miawkinaiyiks" }
+		{ "dynn_Mokumiks" }
+		{ "dynn_Motwainaiks" }
+		{ "dynn_Nitakoskitsipupiks" }
+		{ "dynn_Niwayiks" }
+		{ "dynn_Nitotsiksistaniks" }
+		{ "dynn_Sikokitsimiks" }
+		{ "dynn_Sikopoksimaiks" }
+		{ "dynn_Sikutsipumaiks" }
+		{ "dynn_Susksoyiks" }
+		{ "dynn_Tsiniksistsoyiks" }
+		{ "dynn_Clatsop" }
+		{ "dynn_Cathlamet" }
+		{ "dynn_Skilloot" }
+		{ "dynn_Cathlapotle" }
+		{ "dynn_Multnomah" }
+		{ "dynn_Watlala" }
+		{ "dynn_Clowwewalla" }
+		{ "dynn_Clackamas" }
+		{ "dynn_Chiluckittequaw" }
+		{ "dynn_Wishram" }
+		{ "dynn_Wasco" }
+		{ "dynn_Atfalati" }
+		{ "dynn_Yamel" }
+		{ "dynn_Lakmiut" }
+		{ "dynn_Chepenafa" }
+		{ "dynn_Santiam" }
+		{ "dynn_Chelamela" }
+		{ "dynn_Calapooya" }
+		{ "dynn_Yoncalla" }
+	}
+
+	dynasty_names = {
+		###########Eastern Algonquian
+		{ "dynn_Sapokanikan" }
+		{ "dynn_Nechtanc" }
+		{ "dynn_Aquehonga" }
+		{ "dynn_Manacknong" }
+		{ "dynn_Shawkopoke" }
+		{ "dynn_Nayack" }
+		{ "dynn_Sowanus" }
+		{ "dynn_Sassian" }
+		{ "dynn_Monsey" }
+		{ "dynn_Absecon" }
+		{ "dynn_Assupink" }
+		{ "dynn_Communipaw" }
+		{ "dynn_Hakensack" }
+		{ "dynn_Hoboken" }
+		{ "dynn_Hohokus" }
+		{ "dynn_Hopatcong" }
+		{ "dynn_Mahwah" }
+		{ "dynn_Manahawkin" }
+		{ "dynn_Manalapan" }
+		{ "dynn_Mantoloking" }
+		{ "dynn_Mantua" }
+		{ "dynn_Matawan" }
+		{ "dynn_Metuchen" }
+		{ "dynn_Minisin" }
+		{ "dynn_Musconetcong" }
+		{ "dynn_Passaic" }
+		{ "dynn_Peapack" }
+		{ "dynn_Naraticong" }
+		{ "dynn_Scheyichbi" }
+		{ "dynn_Secaucus" }
+		{ "dynn_Weehawken" }
+		{ "dynn_Conshohocken" }
+		{ "dynn_Manayunk" }
+		{ "dynn_Passyunk" }
+		{ "dynn_Shackamaxon" }
+		{ "dynn_Wissahickon" }
+		{ "dynn_Amoskeay" }
+		{ "dynn_Cocheco" }
+		{ "dynn_Cowasuck" }
+		{ "dynn_Koasek" }
+		{ "dynn_Masipskwoik" }
+		{ "dynn_Nashua" }
+		{ "dynn_Ossipee" }
+		{ "dynn_Pemigewasset" }
+		{ "dynn_Pennacook" }
+		{ "dynn_Pequaket" }
+		{ "dynn_Piscataqua" }
+		{ "dynn_Souhegan" }
+		{ "dynn_Winnibisauga" }
+		{ "dynn_Amaseconti" }
+		{ "dynn_Alessikantekw" }
+		{ "dynn_Kinipekw" }
+		{ "dynn_Odanak" }
+		{ "dynn_Panawahpskek" }
+		{ "dynn_Apikwahki" }
+		{ "dynn_Rocameca" }
+		{ "dynn_Wawinak" }
+		{ "dynn_Wolinak" }
+		{ "dynn_Epekwik" }
+		{ "dynn_Epeggoitg" }
+		{ "dynn_Eskikewakik" }
+		{ "dynn_Esgigiag" }
+		{ "dynn_Kespek" }
+		{ "dynn_Gespegiag" }
+		{ "dynn_Kespukwitk" }
+		{ "dynn_Gespogoitg" }
+		{ "dynn_Siknikt" }
+		{ "dynn_Sigenitog" }
+		{ "dynn_Sipeknekatik" }
+		{ "dynn_Segepenegatig" }
+		{ "dynn_Taqmkuk" }
+		{ "dynn_Tagamgoog" }
+		{ "dynn_Wunamakik" }
+		{ "dynn_Onamagig" }
+		{ "dynn_Aboushagan" }
+		{ "dynn_Antigonishe" }
+		{ "dynn_Bhicuctouche" }
+		{ "dynn_Chignecto" }
+		{ "dynn_Ekoupahag" }
+		{ "dynn_Jedaick" }
+		{ "dynn_Kigicapigiak" }
+		{ "dynn_Miramichi" }
+		{ "dynn_Nalkithoniash" }
+		{ "dynn_Nipigiguit" }
+		{ "dynn_Pohomoosh" }
+		{ "dynn_Shediac" }
+		{ "dynn_Tabogimkik" }
+		{ "dynn_Tabusintack" }
+		{ "dynn_Waycobah" }
+		{ "dynn_Muhhcanneuw" }
+		{ "dynn_Mehckentowoon" }
+		{ "dynn_Wawyachtonoc" }
+		{ "dynn_Westenhuck" }
+		{ "dynn_Wiekagjoc" }
+		{ "dynn_Shecomeco" }
+		{ "dynn_Wechquadnach" }
+		{ "dynn_Pamperaug" }
+		{ "dynn_Bantam" }
+		{ "dynn_Weataug" }
+		{ "dynn_Scaticook" }
+		{ "dynn_Mahaiwe" }
+		{ "dynn_Wikwajek" }
+		{ "dynn_Chaghnet" }
+		{ "dynn_Horikan" }
+		{ "dynn_Kaunaumeek" }
+		{ "dynn_Kenuckpacook" }
+		{ "dynn_Maringoman" }
+		{ "dynn_Monemius" }
+		{ "dynn_Nepaug" }
+		{ "dynn_Paanpaack" }
+		{ "dynn_Peantam" }
+		{ "dynn_Potick" }
+		{ "dynn_Potie" }
+		{ "dynn_Shodac" }
+		{ "dynn_Shakehook" }
+		{ "dynn_Unawat" }
+		{ "dynn_Wequadnack" }
+		{ "dynn_Wiatiae" }
+		{ "dynn_Winooskeek" }
+		{ "dynn_Wyeck" }
+		{ "dynn_Powhatan" }
+		{ "dynn_Arrohateck" }
+		{ "dynn_Appamattuck" }
+		{ "dynn_Pamunkey" }
+		{ "dynn_Mattaponi" }
+		{ "dynn_Chiskiack" }
+		{ "dynn_Kecoughtan" }
+		{ "dynn_Youghtanund" }
+		{ "dynn_Rappahannock" }
+		{ "dynn_Moraughtacund" }
+		{ "dynn_Weyanoak" }
+		{ "dynn_Paspahegh" }
+		{ "dynn_Quiyoughcohannock" }
+		{ "dynn_Warraskoyack" }
+		{ "dynn_Nansemond" }
+		{ "dynn_Metoac" }
+		{ "dynn_Manchaug" }
+		{ "dynn_Massomuck" }
+		{ "dynn_Menunkantuck" }
+		{ "dynn_Monashackotoog" }
+		{ "dynn_Pequannock" }
+		{ "dynn_Quinebaug" }
+		{ "dynn_Quinnipiac" }
+		{ "dynn_Siwanoy" }
+		{ "dynn_Niantic" }
+		{ "dynn_Asupsuck" }
+		{ "dynn_Aukumbumsk" }
+		{ "dynn_Aushpook" }
+		{ "dynn_Cosattuck" }
+		{ "dynn_Cuppunauginnit" }
+		{ "dynn_Mangunckakuck" }
+		{ "dynn_Mashantucket" }
+		{ "dynn_Mohungannuck" }
+		{ "dynn_Nameauag" }
+		{ "dynn_Natchaug" }
+		{ "dynn_Noank" }
+		{ "dynn_Oneco" }
+		{ "dynn_Paupttokshick" }
+		{ "dynn_Pawcatuck" }
+		{ "dynn_Pequotauk" }
+		{ "dynn_Poquonock" }
+		{ "dynn_Sauquonckackock" }
+		{ "dynn_Shenecosset" }
+		{ "dynn_Tatuppequauog" }
+		{ "dynn_Weinshauks" }
+		{ "dynn_Weqhetequock" }
+		{ "dynn_Wunnashowatookoog" }
+		{ "dynn_Quahog" }
+		{ "dynn_Mashpee" }
+		{ "dynn_Patuxet" }
+		{ "dynn_Pokanoket" }
+		{ "dynn_Pocasset" }
+		{ "dynn_Assonet" }
+	}
+
+	male_names = {
+		Tetabuxike Bukongehelas Hockingpomskenn Kechkawhanund Alimee Tomaguee Missenewand Petchekekapon 
+		Kithteeleland Lapahnihe Apacahund Netahopuna Tunis Caghkoo Petchenanalas Quenaghtoothmait Pooshies 
+		Nanotetauxien Sarcoxey Neconhecond Kockkatowha Quacornowha Neshapanacumin Queshatowha Pondoxy 
+		Ahlaachick Neconhecon Rockatowah Buckongahelas Gelelemend Oratam Neolin Hopocan Tamanend Tamaqua 
+		Teedyuscung Kkoquethagechton Kockkockquas
+		Qualebeenewes Madockawando Wanagemeshaw Bungawarrawit Warrankansit Bomoseen Edaranaquin Eneas 
+		Jackoit Pequaret Weebenoose Caterramoggus Nuctungus Quinnawus Quirebooset Neguscawit Abinnaway 
+		Addeawando Segucewick Kissuragunnit Pittarisquanne Moxusson Erixis Estien Wenemoet Whonumbamet 
+		Chocorua Iteansis Sanboddies Scaweeease Atoan Sozap Pelnal Lol Tanial Missal Tabid Nikpla Edoal Pial Plasoa 
+		Lobal Klegual Simo Az Atian
+		Membectou Ounaginitish Eargamet Chickanicto Armquannott Attanas Rechibouctou Chichabenady Miductuk 
+		Spugonoit Nughquit Begamonit Chigaquisht Nelanoit
+		Maumauntissekun Shabash Wassamapah Uncas Chingachgook Etowohkoam Aupamut Konkapot Quinney Skicket Chemaucum Thebeant 
+		Kithteeleland Lapahnihe Apacahund Netahopuna Tunis Caghkoo Petchenanalas Quenaghtoothmait Pooshies Nanotetauxien 
+		Sarcoxey Neconhecond Kockkatowha
+		Wahunsenacawh Debedeavon Okiawampe Kiptopeke Opechancanough Nectowance Totopotomoi Nemattanew 
+		Parahunt Pochins Opitchapan Catataugh Ashaquid Chauco Tomocomo
+	}
+	female_names = {
+		Awowas Moconnoquah Cholena 
+		Mali Malian Maliazonis Azonis Malgelit Agat Alizbat O'zalik Alan O'nis Lowiz O'nias Malgelit Katetin Mali 
+		Sallot Sopi Klalis Sozn Toloti Talaz
+		Awashonks Djitsbudnaca Weetamoo Wootonekanuske
+		Cockacoeske Pocahontas Amonute Nandua
+	}
+	
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 50
+	mat_grf_name_chance = 50
+	father_name_chance = 50
+	
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 50
+	mat_grm_name_chance = 50
+	mother_name_chance = 50
+	
+}
+
+
+
+
+name_list_apachean = {
+
+	dynasty_names = {
+		{ "dynn_Jicarilla" }
+		{ "dynn_Chiricahua" }
+		{ "dynn_Tonto" }
+		{ "dynn_Ramah" }
+		{ "dynn_Mojave" }
+		{ "dynn_Toboso" }
+		{ "dynn_Cholome" }
+		{ "dynn_Jocome" }
+		{ "dynn_Sibolo" }
+		{ "dynn_Pelone" }
+		{ "dynn_Manso" }
+		{ "dynn_Kiva" }
+		{ "dynn_Arivaipa" }
+		{ "dynn_Carlanas" }
+		{ "dynn_Chuukanen" }
+		{ "dynn_Cibecue" }
+		{ "dynn_Coyotero" }
+		{ "dynn_Faraones" }
+		{ "dynn_Gileno" }
+		{ "dynn_Kiowa" }
+		{ "dynn_Llanero" }
+		{ "dynn_Lipiyanes" }
+		{ "dynn_Mimbrenos" }
+		{ "dynn_Mogollon" }
+		{ "dynn_Naiisha" }
+		{ "dynn_Natages" }
+		{ "dynn_Pinal" }
+		{ "dynn_Querechos" }
+		{ "dynn_Bitanhi" }
+		{ "dynn_Naasteezheh" }
+		{ "dynn_Kiyaaaanii" }
+		{ "dynn_Dziltaadi" }
+		{ "dynn_Honaghaahnii" }
+		{ "dynn_Toahani" }
+		{ "dynn_Taneeszahnii" }
+		{ "dynn_HashkaaHadzohi" }
+		{ "dynn_Nihoobaanii" }
+		{ "dynn_TsahYiskidnii" }
+		{ "dynn_Todichiinii" }
+		{ "dynn_ToBaazhniazhi" }
+		{ "dynn_Tseikeehee" }
+		{ "dynn_NaaketLahi" }
+		{ "dynn_TsinSikaadnii" }
+		{ "dynn_BiihBitoodnii" }
+		{ "dynn_Tlogi" }
+		{ "dynn_Todikozhi" }
+		{ "dynn_Kaahanaanii" }
+		{ "dynn_Totshnii" }
+		{ "dynn_HooghanLani" }
+		{ "dynn_DzaaneezLani" }
+		{ "dynn_TseDeeshgizhnii" }
+		{ "dynn_HashtLishnii" }
+		{ "dynn_Tabaaha" }
+		{ "dynn_Haltsooi" }
+		{ "dynn_ToBaazhniazhi" }
+		{ "dynn_Tachiinii" }
+		{ "dynn_KinIchiinii" }
+		{ "dynn_Tsenjikini" }
+		{ "dynn_Dibelzhini" }
+		{ "dynn_MaiiDeeshgiizhinii" }
+		{ "dynn_Ashinuii" }
+		{ "dynn_Kehaatiinii" }
+		{ "dynn_Toaheedliinii" }
+		
+
+	}
+
+	male_names = {
+		"Nanni Chaddi" "Na tio tish" Sitahle Oahtekah Ahzaah Kootzzah Moketaveto Ohtoahnesotowheo Harkkahome 
+		Munamenek Otoahnisto Mahvipah Choseta Nahtan Konzhontaco Bazheech Tillaka Chacon Dasoda-hae Cochise 
+		Delshay Goyaale Juh
+		"Chapitone" "Ashkii Diyin" "Dahaana Baadaane" "Hastiin Ch'ilhaajin" "Nabaah Jilt'aa" "Bislahalani" 
+		"Hozhooji Naat'a" "Hastiin Daghaa" "Hastiin Daagi" "Haske Yahne Yah" "Toh Yah" "Hastiin Klah" "Ahway Eskay" 
+		"Hoksay Nolyae" "Atsidi Sani" "Beshiltheeni"
+
+	}
+	female_names = {
+		Dahteste Ilthgozay Gouyen Lozen Tohayea 
+		Awowas Moconnoquah Cholena 
+		Mali Malian Maliazonis Azonis Malgelit Agat Alizbat O'zalik Alan O'nis Lowiz O'nias Malgelit Katetin Mali 
+		Sallot Sopi Klalis Sozn Toloti Talaz
+		Awashonks Djitsbudnaca Weetamoo Wootonekanuske
+		Cockacoeske Pocahontas Amonute Nandua
+	}
+	
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 50
+	mat_grf_name_chance = 50
+	father_name_chance = 50
+	
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 50
+	mat_grm_name_chance = 50
+	mother_name_chance = 50
+	
+}
+
+
+name_list_caddoan = {
+
+	dynasty_names = {
+		{ "dynn_Clatsop" }
+		{ "dynn_Cathlamet" }
+		{ "dynn_Skilloot" }
+		{ "dynn_Cathlapotle" }
+		{ "dynn_Multnomah" }
+		{ "dynn_Watlala" }
+		{ "dynn_Clowwewalla" }
+		{ "dynn_Clackamas" }
+		{ "dynn_Chiluckittequaw" }
+		{ "dynn_Wishram" }
+		{ "dynn_Wasco" }
+		{ "dynn_Atfalati" }
+		{ "dynn_Yamel" }
+		{ "dynn_Lakmiut" }
+		{ "dynn_Chepenafa" }
+		{ "dynn_Santiam" }
+		{ "dynn_Chelamela" }
+		{ "dynn_Calapooya" }
+		{ "dynn_Yoncalla" }
+		{ "dynn_Adai" }
+		{ "dynn_Cahinnio" }
+		{ "dynn_Doustioni" }
+		{ "dynn_Eyeish" }
+		{ "dynn_Hainai" }
+		{ "dynn_Hasinai" }
+		{ "dynn_Kadohadacho" }
+		{ "dynn_Kichai" }
+		{ "dynn_Nabedache" }
+		{ "dynn_Nabiti" }
+		{ "dynn_Nacogdoche" }
+		{ "dynn_Nacono" }
+		{ "dynn_Nadaco" }
+		{ "dynn_Nanatsoho" }
+		{ "dynn_Nasoni" }
+		{ "dynn_Natchitoches" }
+		{ "dynn_Nechaui" }
+		{ "dynn_Neche" }
+		{ "dynn_Ouachia" }
+		{ "dynn_Tula" }
+		{ "dynn_Yatasi" }
+		{ "dynn_Marhar" }
+		{ "dynn_Skidi" }
+		{ "dynn_Turikaku" }
+		{ "dynn_Kitkehaxpakuxtu" }
+		{ "dynn_Tuhitspiat" }
+		{ "dynn_Tukistkita" }
+		{ "dynn_Tuhawukasa" }
+		{ "dynn_Arikararikutsu" }
+		{ "dynn_Arikarariki" }
+		{ "dynn_Thutsaku" }
+		{ "dynn_Tuwarakaku" }
+		{ "dynn_Akapaxtsawa" }
+		{ "dynn_Tskisarikus" }
+		{ "dynn_Tsiskaatit" }
+		{ "dynn_Turawiu" }
+		{ "dynn_Pahuksatu" }
+		{ "dynn_Tskirirara" }
+		{ "dynn_Chuai" }
+		{ "dynn_Kitkehaki" }
+		{ "dynn_Pitahaureat" }
+		{ "dynn_Kawaraki" }
+
+	}
+
+	male_names = {
+		Comcomly Tumulth Napesa Injice Tasyah Nessick Etnama Cheenlenten Nasyah Absaquil Quintioosan 
+		Myneletta Quiaquatty Yalkus Kawkama Kiles Kowahtough Anta Quilala Mequah Yackatee Tophor Hallale 
+		Tumwalth Obanahah Watchano Teapinick Wallahpicate Lalbick Cuckamanna Towyecolla Laham Senegertta 
+		Tena Pulkuptima Sallaf Hoipkenek Yeptah Satinvose 
+		Pulican Pulktah Talsapeer
+		Tashar Tsauninot Sationwnhown Tinnehinan Tinnowin Chowabah Kianhoon Tiatesun Tehowawinow Tewinnun 
+		Tiohtow Tehawahinno Toackooch Tchowainin Sanninow Sauninot Hiahidock Mattan Towahinnek Aach 
+		Sohone Ossinse Soakiantow Kardy
+		Tarahutacaw Tearilari Kakaletahaw Larapa Tahorou Letereeshar Tearacheticktickspaw Teakahore 
+		Tarara Teripakoo Irarikau Taretuushta Charuvaru Skalavalacharo Panukuhike Ishtataveeirou 
+		Lecoutsaroushtu Tacatahekou Kewatookoush Teratuewit Taheerish Petaperishta Talawehouree 
+		Shinggacahega Aiuwechooneeweeka Islacapee Settulushaa Shakororishshara Tarraecarwaa Tarrarevetiishta 
+		Arorishhara Telawahecarookot Kagakereeouk Latatorishhara Lahehozrashea Taarakarukaishta 
+		Tarraricarrawaa
+
+	}
+	female_names = {
+		Elvamox Ethete Natane Bly Dae Cocheta Ekta Ela Elina Ila Imala Inayat Kushala Kusuma Liluye Lipika Lolaksi 
+		Lolotea Nascha Nashota Natane Nita Nitara Niti Nitika Nittawosew Onawa Onawah Preyasi Prita PreetiHalf Smita 
+		Smriti Surabhi Tapi Tara
+		Zacado Tstakurriwax Tstaka Tstarahuxtu Tsaktahiraas Tskusaski Tstaruri'u Tstapittarius
+		Tstakurriwax Tstaka Tstarahuxtu Tsaktahiraas Tskusaski Tstaruri'u Tstapittarius
+	}
+	
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 50
+	mat_grf_name_chance = 50
+	father_name_chance = 50
+	
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 50
+	mat_grm_name_chance = 50
+	mother_name_chance = 50
+	
+}
+
+
+name_list_iroquoian = {
+
+	dynasty_names = {
+		{ "dynn_Awegen" }
+		{ "dynn_Ahaouet" }
+		{ "dynn_Canajoharie" }
+		{ "dynn_Canastigaone" }
+		{ "dynn_Canienga" }
+		{ "dynn_Caughnawaga" }
+		{ "dynn_Cahunghage" }
+		{ "dynn_Canowaroghere" }
+		{ "dynn_Deseroken" }
+		{ "dynn_Dayoitgao" }
+		{ "dynn_Deonundagae" }
+		{ "dynn_Deyodeshot" }
+		{ "dynn_Deyohnegano" }
+		{ "dynn_Deyonongdadagana" }
+		{ "dynn_Gweugwehono" }
+		{ "dynn_Gandasetaigon" }
+		{ "dynn_Ganogeh" }
+		{ "dynn_Gayagaanhe" }
+		{ "dynn_Gewauga" }
+		{ "dynn_Goiogouen" }
+		{ "dynn_Gadoquat" }
+		{ "dynn_Gannentaha" }
+		{ "dynn_Hostayuntwa" }
+		{ "dynn_Kawauka" }
+		{ "dynn_Kente" }
+		{ "dynn_Kanagaro" }
+		{ "dynn_Kowogoconnughariegugharie" }
+		{ "dynn_Kanadaseagea" }
+		{ "dynn_Kanatakowa" }
+		{ "dynn_Neodakheat" }
+		{ "dynn_Nowadaga" }
+		{ "dynn_Nundawaono" }
+		{ "dynn_Onekagoncka" }
+		{ "dynn_Onoalagona" }
+		{ "dynn_Oquaga" }
+		{ "dynn_Osquake" }
+		{ "dynn_Onayotekaono" }
+		{ "dynn_Oriska" }
+		{ "dynn_Ossewingo" }
+		{ "dynn_Skannayutenate" }
+		{ "dynn_Saratoga" }
+		{ "dynn_Schaunactada" }
+		
+		{ "dynn_Schoharie" }
+		{ "dynn_Teatontaloga" }
+		{ "dynn_Tewanondadon" }
+		{ "dynn_Tionnontoguen" }
+		{ "dynn_Tegasoke" }
+		{ "dynn_Teseroken" }
+		{ "dynn_Tetosweken" }
+		{ "dynn_Yoroonwago" }
+		{ "dynn_Mohe" }
+		{ "dynn_Diwali" }
+		{ "dynn_Waya" }
+		{ "dynn_Tsiyi" }
+		{ "dynn_Onacona" }
+		{ "dynn_Atagulkalu" }
+		{ "dynn_Degataga" }
+		{ "dynn_Cheasequah" }
+		{ "dynn_Adahy" }
+		{ "dynn_Andiata" }
+		{ "dynn_Angoutenc" }
+		{ "dynn_Anonatea" }
+		{ "dynn_Arendaonatia" }
+		{ "dynn_Arente" }
+		{ "dynn_Arontaen" }
+		{ "dynn_Anioton" }
+		{ "dynn_Ahiragenrega" }
+		{ "dynn_Ahondihronon" }
+		{ "dynn_Andachkhrob" }
+		{ "dynn_Antouaronon" }
+		{ "dynn_Aondironon" }
+		{ "dynn_Atiaonrek" }
+		{ "dynn_Atirhagenrat" }
+		{ "dynn_Atiraguenrek" }
+		{ "dynn_Attiragenrega" }
+		{ "dynn_Attiuoaisgon" }
+		{ "dynn_Cahiague" }
+		{ "dynn_Carhagouha" }
+		{ "dynn_Carmaron" }
+		{ "dynn_Contarea" }
+		{ "dynn_Conchake" }
+		{ "dynn_Chequamegon" }
+		{ "dynn_Ekiodatsaan" }
+		{ "dynn_Endarahy" }
+		{ "dynn_Iahenhouton" }
+		{ "dynn_Junqueindundeh" }
+		{ "dynn_Junundat" }
+		{ "dynn_Karenhassa" }
+		{ "dynn_Kakouagoga" }
+		{ "dynn_Kandouche" }
+		{ "dynn_Kehesetoa" }
+		{ "dynn_Khioetoa" }
+		{ "dynn_Oeniro" }
+		{ "dynn_Onentisati" }
+		{ "dynn_Ossossane" }
+		{ "dynn_Oukhahitoua" }
+		{ "dynn_Scanonaerat" }
+		{ "dynn_Sunyendeand" }
+		{ "dynn_Skenchioe" }
+		{ "dynn_Teanaustayae" }
+		{ "dynn_Teandewiata" }
+		{ "dynn_Tonache" }
+		{ "dynn_Teadeouita" }
+		{ "dynn_Teanhatenaron" }
+		{ "dynn_Tondakhra" }
+		{ "dynn_Tiedonderoga" }
+		{ "dynn_Touaguainchain" }
+		{ "dynn_Tarhetown" }
+		{ "dynn_Teotoguiaton" }
+		{ "dynn_Akhrakouaeronon" }
+		{ "dynn_Akwinoshioni" }
+		{ "dynn_Atquanachuke" }
+		{ "dynn_Carentouan" }
+		{ "dynn_Cepowig" }
+		{ "dynn_Junita" }
+		{ "dynn_Kaiuariegehaga" }
+		{ "dynn_Ohongeoguena" }
+		{ "dynn_Oscalui" }
+		{ "dynn_Quadroque" }
+		{ "dynn_Sconondihago" }
+		{ "dynn_Seosquacke" }
+		{ "dynn_Takoulguehronon" }
+		{ "dynn_Tehaque" }
+		{ "dynn_Tesinigh" }
+		{ "dynn_Unquehiett" }
+		{ "dynn_Usququhaga" }
+		{ "dynn_Utochwig" }
+		{ "dynn_Wyoming" }
+		{ "dynn_Wysox" }
+		{ "dynn_Kanastoge" }
+		{ "dynn_OnojuttaHaga" }
+		{ "dynn_Scahentoarrhonon" }
+		{ "dynn_Tehotitachsae" }
+	}
+
+	male_names = {
+		Theyanoguin Teiorhenhsere Thayendanega Oronhyatekha Onogwendahonji Touighnatogon Oheadanghton 
+		Tayagonendagighti Tehonwaenghrigagi Otyadonenghti Dagaheari Oraghoaenendagen Onnonghsawenghti 
+		Kayenthoghke Cageaga Sawedowa Kiondushowa Oncahye Soaheas Otachsaka Tekahias Onecnsetee Kiatulaho 
+		Kiandogewa Owenewa Gyantwaia Gyasota Kannasseee Achiout Anachout Chishekoa Sessewa Sicahowa Tewanias 
+		Snoachshowa Hickonquash Ononyeahnee Konneatorteeooh Tokenhyouau Oneshauee Aupaumut Neeshonshuk 
+		Sohhonteoquent Ooduhtsait Konoohqung Tossonggaulolus Skenendoa Oneatorleeooh Kussauwatau 
+		Kohnyeaugaong Shaguiesa Teeroos Sooshaoowau Sonhyoowauna Onaahhah Hotoshahen Kaukondanaiya 
+		Kosshishtowau Oojaugenta Toheonggo Ootaguasso Joonondauwanonch Kiyauhaonh Ootaujeaugenth Tauhoondos 
+		Twaukewasha Sequidonguquee Kodjeote Kenjauaugus Soononhquaukau Twenniyana Jishkaaga Tuggehshotta 
+		Tehongyagauna Tehongyoowush Konneyoowesot Tioohquaottakauna Taoundaudeesh Honayawus Soggooyawauthau 
+		Konyootiayoo Sauhtakaongyees Ounnashattakau Kaungyanehquee Sooayoowau Kaujeagaonh Soonoohshoowau 
+		Thaoowaunias Soonongjoowau Kiantwhauka Kaunehshonggoo Kenneronkwa Telenemut Katarioniecha
+		Kendarindgon Nondiyauka Kanatsoyh Eootenyootauook Aqueia Tarondawagon
+		Ahatsistari Adario Dunquat Tarhe Teyandatontec Cheyawe Doueyenteat Terhataw Datasay Maudoronk 
+		Teyyaghtwa Haroenyou Tehaawtorens Awmeyeeray Stayetah Shateyyaronyah Daughshuttayah Shaawrunthe 
+		Thateyyanayoh Tahunehawttee Shawrunthie Tschauendah Rontondu Tuayaurontoyou Dauatout Horonu 
+		Hawdoro Skotous Quouqua Skahomat Teoudetosso Miere
+		Sequoyah Attakullaculla Guwisguwi Moytoy Yonaguska Tsiyu Gansini Agi It Boudinot Lach'n Koatohee 
+		Scholauetta Tuskegatahu Ooskwha Kolakusta Newota Konatota Tuckasee Toostaka Untoola Unsuokanail 
+		Chonosta Chescoonwho Chesetoa Chesecotetona Sketaloska Chokasatahe Onanoota Ookoseta Umatooetha 
+		Necatee Amokontakona Kowetatahee Keukuck Tulatiska Wooaluka Tatliusta Skeleak Akonoluchta Cheanoka 
+		Ostaiah Oortlokecteh Chockonnistaller Noothoietah Kunnateelah Utturah Weelee Oolassoteh Tlorene 
+		Jonnurteekee Oonatakoteekee Kanowsurhee Yonah Oolah Tunksalenee Oorkullaukee Kumamah Chattakuteehee 
+		Kettegiskie Tauuotihee Chuquilataque Salleekookoolah Tallotuskee Chellokee Tuskeegatee Neekaanneah 
+		Kulsateehee Keetakeuskah Akooh Sawanooekee Yonahequah Keenahkunnah Kaweesoolaskee Teekalohenah 
+		Chochuchee Kostayeak Ookouseteeh Kanitta Nemetuah Wyuka Tulco
+
+	}
+	female_names = {
+		Tyonajanegen Alliquippa Konwatsitiaienni Genessee Satékon Tekakwitha 
+		Asmita Nanyehi Cuhtahlatah Sequoya Adsila Amadahy Awenasa Awinita Ayita Galilahi Leotie Usdi Galilani Hialeah 
+		Immookalee Tayanita Sequoia Ahyoka Ama Galilani Ghigau Hiawassee Immokalee Inola Knasgowa Nanye-hi Ninovan 
+		Salali Tsistunagiska Tsula Tayanita Yona
+		Taima Chekaqua Kataka Mecaitch Neshota Chagasort Pecama Namachewana Nanochaatasa Taimah Catchemackeseo
+		Tyonajanegen Alliquippa Konwatsitiaienni Genessee Satékon Tekakwitha
+	}
+	
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 50
+	mat_grf_name_chance = 50
+	father_name_chance = 50
+	
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 50
+	mat_grm_name_chance = 50
+	mother_name_chance = 50
+	
+}
+
+
+
+name_list_muskogean = {
+
+	dynasty_names = {
+		{ "dynn_Chitto" }
+		{ "dynn_HasseOla" }
+		{ "dynn_Hopoethe" }
+		{ "dynn_TalofHarjo" }
+		{ "dynn_Yaholo" }
+		{ "dynn_Menewa" }
+		{ "dynn_Chebona" }
+		{ "dynn_Osceola" }
+		{ "dynn_Hothlepoya" }
+		{ "dynn_LumheChati" }
+		{ "dynn_Usquelagana" }
+		{ "dynn_Saktitamaha" }
+		{ "dynn_Itchechana" }
+		{ "dynn_Shumotakali" }
+		{ "dynn_Tinshinkla" }
+		{ "dynn_Chucafalaya" }
+		{ "dynn_Bissacha" }
+		{ "dynn_Otakchitotamaha" }
+		{ "dynn_Yackniachuchuma" }
+		{ "dynn_Octuechanacbe" }
+		{ "dynn_Ocatalaya" }
+		{ "dynn_Ouiacha" }
+		{ "dynn_Puscustakali" }
+		{ "dynn_Kunshabolukta" }
+		{ "dynn_Yowani" }
+		{ "dynn_Chiskilikbacha" }
+		{ "dynn_Neshobawenya" }
+		{ "dynn_Tamaha" }
+		{ "dynn_Seniasha" }
+		{ "dynn_Talepokta" }
+		{ "dynn_Iyanabe" }
+		{ "dynn_Nusiconchito" }
+		{ "dynn_Ibetapoklachitto" }
+		{ "dynn_Tombigbee" }
+		{ "dynn_Imoklashaiskitini" }
+		{ "dynn_Holithaasha" }
+		{ "dynn_Abeca" }
+		{ "dynn_Achohchuba" }
+		{ "dynn_Hankhaula" }
+		{ "dynn_Itokchako" }
+		{ "dynn_Lukfakta" }
+		{ "dynn_Bokfalaya" }
+		{ "dynn_Yazoo" }
+		{ "dynn_Kunshak" }
+		{ "dynn_Okalusa" }
+		{ "dynn_Pante" }
+		{ "dynn_Chemifalaya" }
+		{ "dynn_Osapachito" }
+		{ "dynn_Haluwahiasha" }
+		{ "dynn_Okacoopoly" }
+		{ "dynn_Shinukkaha" }
+		{ "dynn_Kafitalaia" }
+		{ "dynn_Imoklashi" }
+		{ "dynn_Cabeahoola" }
+		{ "dynn_Kashtasha" }
+		{ "dynn_Osaktalaya" }
+		{ "dynn_Abissa" }
+		{ "dynn_Chanke" }
+		{ "dynn_Onitalemon" }
+		{ "dynn_Ackia" }
+		{ "dynn_Alaoute" }
+		{ "dynn_Amalahta" }
+		{ "dynn_Apeony" }
+		{ "dynn_Apilefaplimengo" }
+		{ "dynn_Ashukhuma" }
+		{ "dynn_Ayebisto" }
+		{ "dynn_Chatelaw" }
+		{ "dynn_Chesafaliah" }
+		{ "dynn_Chinica" }
+		{ "dynn_Chopoussa" }
+		{ "dynn_Chucalissa" }
+		{ "dynn_Chukafalaya" }
+		{ "dynn_Chula" }
+		{ "dynn_Coppertown" }
+		{ "dynn_Couiloussa" }
+		{ "dynn_Etoukouma" }
+		{ "dynn_Falatchao" }
+		{ "dynn_Gouytola" }
+		{ "dynn_Hummalala" }
+		{ "dynn_Hussinkoma" }
+		{ "dynn_Hykehah" }
+		{ "dynn_LatchaHoaRun" }
+		{ "dynn_OgoulaTchetoka" }
+		{ "dynn_Onthabaatchosa" }
+		{ "dynn_Ooeasa" }
+		{ "dynn_Oucahata" }
+		{ "dynn_Oucthambolo" }
+		{ "dynn_Outanquatle" }
+		{ "dynn_Phalachehs" }
+		{ "dynn_Pontotoc" }
+		{ "dynn_Shatara" }
+		{ "dynn_Shiokaya" }
+		{ "dynn_Tanyachilca" }
+		{ "dynn_Taposa" }
+		{ "dynn_Thanbolo" }
+		{ "dynn_Teshatulla" }
+		{ "dynn_Tokshish" }
+		{ "dynn_Tuckahaw" }
+		{ "dynn_Tuskawillao" }
+		{ "dynn_Tuskaroilloe" }
+		{ "dynn_Yaneka" }
+		{ "dynn_Owasso" }
+		{ "dynn_Pawhuska" }
+		{ "dynn_Niukonska" }
+		{ "dynn_Doppike" }
+		{ "dynn_Neosho" }
+		{ "dynn_Chetopa" }
+		{ "dynn_Hominy" }
+		{ "dynn_Pahusan" }
+		{ "dynn_Mesquakie" }
+		{ "dynn_Wagosh" }
+		{ "dynn_Asakiwakie" }
+		{ "dynn_Kickapoo" }
+		{ "dynn_Blackhawk" }
+		{ "dynn_Saukenuk" }
+		{ "dynn_Thakiwakie" }
+
+	}
+
+	male_names = {
+		"Hoboi-Hili-Miko" "Mico Malatchi" Opothleyaholo Emistesigo Fife Lamochattee Yahatatastenake Taskanugi Hatke 
+		Fuskatchemico Neathlock Hallethemalthle Opaymico Totkeshajou Hopothemico Opototaache Soholoesee Ocheehajou 
+		Tuskenaah Homatah Chinnabie Juleetaulematah Chawooklymico Coosadeshopoy Muthtee Stimafutchkee Stilnaleeje 
+		Mumagechee
+		Ayaestangui Mingotabasa Ochinohahuma Nackitona Cachuni Mastape Puchihuma Tamaobe Mingotalaya Panshimantla 
+		Imaabe Pushihumachito Oclactahuma Chickashioclacta Cachumaabi Nahollomastubbe Canelechabe Pushimastabew 
+		Oechanyimastabe Tuscaloosa Franchimastabe Taboca Apuckshunubbee Pushmataha Mosholatubbee Tobocoh 
+		Pooshemastuby Pooshahooma Tuscoonoohoopoie Shishemastubby Yoopahooma Stoonokoohoopoie Tehakuhbay 
+		Tushkahoomoih Tushkahoomock Yoostenochla Tootehooma Toobenohoomoch Cshecoopoohoomoch Stonakoohoopoie 
+		Tushkoheegohta Teshuhenochloch Pooshonaltla Okanconnooa Autoonachuba Pangehooloch Steabee Tanetchenna 
+		Tushkementahock Tushtallay Cshnaangchabba Cunnopoie Tuskonahopoia Tootahomo Mingohom Massatubby Ocshumme 
+		Mingopooscoos Bucshunubbe Shappahomo Hiupahoo Illatallahomo Hochehomo Tuspehachaabe Muclushahopoia 
+		Capputannethlucco Pooshahomo Bakalubbe Ayaistanaksi Mestico Ulbalent Chicachahuma Tiupoye Asetahuma 
+		Pushahuma Tootehoma Puchihuacaya Eyahchihumo Cachunimastabe Hatonahopaii Utacctahuma Tishomastubbe 
+		Nahumastabbe Pushimataha Tootepana Cayabe Mingohomoastabee Puchihumachita Okshakihoma Choccoolacta 
+		Chulomastubee Stonahuma Pushistonahuma Cachuaanchabe Alpatakhuma Pushihuma Asitahuma Iteleskana Tuscaabi 
+		Chucaastabe Olactahuma Chalitahuma
+
+	}
+	female_names = {
+		Llanquiray Manque Millaray Peyeche Piro Pitrel Quetroman Quimey Quintruy Quintuqueo Rayen Saqui Somoche 
+		Nahomtima Immahoka Lunnabaga Llanquiray Manque Millaray Peyeche Piro Pitrel Quetroman Quimey Quintruy Quintuqueo 
+		Rayen Saqui Somoche
+		Mintahoye Phalishta Ishtimmarharlechar Temusharhoctay Mintahoyo
+		Wakonsamoie Watoesa Sekaname Shonsegra Egraname Misae Niabi
+	}
+	
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 50
+	mat_grf_name_chance = 50
+	father_name_chance = 50
+	
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 50
+	mat_grm_name_chance = 50
+	mother_name_chance = 50
+	
+}
+
+
+name_list_nadene = {
+
+	dynasty_names = {
+		{ "dynn_Tsinaajinii" }
+		{ "dynn_Deeshchiinii" }
+		{ "dynn_TliziLani" }
+		{ "dynn_TlaaschiI" }
+		{ "dynn_Tsenabahituii" }
+		{ "dynn_Nashashi" }
+		{ "dynn_Tuschebaanii" }
+		{ "dynn_Jaayaaloolii" }
+		{ "dynn_Kehaatiintii" }
+		{ "dynn_Naashaashi" }
+		{ "dynn_Kiusta" }
+		{ "dynn_Kung" }
+		{ "dynn_Yan" }
+		{ "dynn_Hiellan" }
+		{ "dynn_Skidegate" }
+		{ "dynn_Chaatl" }
+		{ "dynn_Haina" }
+		{ "dynn_Kaisun" }
+		{ "dynn_Cumshewa" }
+		{ "dynn_Skedans" }
+		{ "dynn_Tanu" }
+		{ "dynn_Ninstints" }
+		{ "dynn_Masset" }
+		{ "dynn_Atewaas" }
+		{ "dynn_Jaahguhl" }
+		{ "dynn_Kayung" }
+		{ "dynn_HlkyahGaawGa" }
+		{ "dynn_Klinkwan" }
+		{ "dynn_Sukkwan" }
+		{ "dynn_Howkan" }
+		{ "dynn_Kasaan" }
+
+	}
+
+	male_names = {
+		"Chapitone" "Ashkii Diyin" "Dahaana Baadaane" "Hastiin Ch'ilhaajin" "Nabaah Jilt'aa" "Bislahalani" 
+		"Hozhooji Naat'a" "Hastiin Daghaa" "Hastiin Daagi" "Haske Yahne Yah" "Toh Yah" "Hastiin Klah" "Ahway Eskay" 
+		"Hoksay Nolyae" "Atsidi Sani" "Beshiltheeni" 
+		"Nanni Chaddi" "Na tio tish" Sitahle Oahtekah Ahzaah Kootzzah Moketaveto Ohtoahnesotowheo Harkkahome 
+		Munamenek Otoahnisto Mahvipah Choseta Nahtan Konzhontaco Bazheech Tillaka Chacon Dasoda-hae Cochise Juh 
+		Delshay Goyaale
+
+	}
+	female_names = {
+		"Dahteste" "Ilthgozay" "Gouyen" "Lozen" "Tohayea"
+		Llanquiray Manque Millaray Peyeche Piro Pitrel Quetroman Quimey Quintruy Quintuqueo Rayen Saqui Somoche 
+		Nahomtima Immahoka Lunnabaga Llanquiray Manque Millaray Peyeche Piro Pitrel Quetroman Quimey Quintruy Quintuqueo 
+		Rayen Saqui Somoche
+		Mintahoye Phalishta Ishtimmarharlechar Temusharhoctay Mintahoyo
+		Wakonsamoie Watoesa Sekaname Shonsegra Egraname Misae Niabi
+	}
+	
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 50
+	mat_grf_name_chance = 50
+	father_name_chance = 50
+	
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 50
+	mat_grm_name_chance = 50
+	mother_name_chance = 50
+	
+}
+
+
+
+name_list_petunian = {
+
+	dynasty_names = {
+		{ "dynn_Samish" }
+		{ "dynn_Sawehamish" }
+		{ "dynn_Semiahmoo" }
+		{ "dynn_Shishalh" }
+		{ "dynn_Siletz" }
+		{ "dynn_Skagits" }
+		{ "dynn_Skokomish" }
+		{ "dynn_Snohomish" }
+		{ "dynn_Snoqualmie" }
+		{ "dynn_Songhees" }
+		{ "dynn_Squamish" }
+		{ "dynn_Squaxin" }
+		{ "dynn_Stillaguamish" }
+		{ "dynn_Stolo" }
+		{ "dynn_Aitchelitz" }
+		{ "dynn_Chawathil" }
+		{ "dynn_Cheam" }
+		{ "dynn_Kwantlen" }
+		{ "dynn_Katzie" }
+		{ "dynn_Leqamel" }
+		{ "dynn_Matsqui" }
+		{ "dynn_Popkum" }
+		{ "dynn_Shxwowhamel" }
+		{ "dynn_Skway" }
+		{ "dynn_Skowkale" }
+		{ "dynn_Skwah" }
+		{ "dynn_Soowalhie" }
+		{ "dynn_Chehalis" }
+		{ "dynn_Sumas" }
+		{ "dynn_Tzeatchen" }
+		{ "dynn_Yakweakwioose" }
+		{ "dynn_Suiaxbixw" }
+		{ "dynn_Suquamish" }
+		{ "dynn_Swinomish" }
+		{ "dynn_Tsawassen" }
+		{ "dynn_TsleilWaututh" }
+		{ "dynn_Tulalip" }
+		{ "dynn_Xacuabs" }
+		{ "dynn_Clatsop" }
+		{ "dynn_Cathlamet" }
+		{ "dynn_Skilloot" }
+		{ "dynn_Cathlapotle" }
+		{ "dynn_Multnomah" }
+		{ "dynn_Watlala" }
+		{ "dynn_Clowwewalla" }
+		{ "dynn_Clackamas" }
+		{ "dynn_Chiluckittequaw" }
+		{ "dynn_Wishram" }
+		{ "dynn_Wasco" }
+		{ "dynn_Atfalati" }
+		{ "dynn_Yamel" }
+		{ "dynn_Lakmiut" }
+		{ "dynn_Chepenafa" }
+		{ "dynn_Santiam" }
+		{ "dynn_Chelamela" }
+		{ "dynn_Calapooya" }
+		{ "dynn_Yoncalla" }
+
+	}
+
+	male_names = {
+		Seattle Patkanam Chowitshoot Goliah Kwallatum S'hootst-hoot Snah-talc Squush-um Seeallapahan Heuhkanam 
+		Tsenahtalc Nsskioos Watskalahtchie Smehmaihu Slateahkanam Sthauai Lugsken Shehtsoolt Doqueoosatl 
+		Klemshkanam Tshuahntl Kwusskanam Helmits Skwaikwi Sehlekqu Shchehoos Whailanhu Sheahdelthu Kwultseh 
+		Kwullethu Klehkentsoot Sohnhehovs "S'dehapkan" Chulwhiltan Skeehtum Patchkanam Satskanam Sdzomathl Dahtldemin 
+		Sdzekdunum Nowachais Mislotche Sloonokshtan Moowhahladhu Toolehplan Hasehdooan Hooviltmehtum Weaipah 
+		"S'ahanhu" Shehope Hwnlahlakq Chtsimpt Tsesumten Klthahlten Kuttakanam Chlahben Noohehoos Hwehuk Pehnus 
+		Yimkadam Twooiaskut Luchalkanam S'hootkanam Smeakanam Sadziskeh Hehmahl Hatch Kwentum Yoikum Tkwamahan 
+		Stodumkan Belole D'zololegwamhu Stehshail Kelkahltsoot Patsen Pattehus Shoolkkanam Chloksuts
+		Comcomly Tumulth Napesa Injice Tasyah Nessick Etnama Cheenlenten Nasyah Absaquil Quintioosan Talsapeer 
+		Myneletta Quiaquatty Yalkus Kawkama Kiles Kowahtough Anta Quilala Mequah Yackatee Tophor Hallale Pulktah 
+		Tumwalth Obanahah Watchano Teapinick Wallahpicate Lalbick Cuckamanna Towyecolla Laham Senegertta Pulican 
+		Tena Pulkuptima Sallaf Hoipkenek Yeptah Satinvose 
+
+	}
+	female_names = {
+		Kikisoblu Wewick Sholeetsa Ladalia Olahl
+		Elvamox Ethete Natane Bly Dae Cocheta Ekta Ela Elina Ila Imala Inayat Kushala Kusuma Liluye Lipika Lolaksi 
+		Lolotea Nascha Nashota Natane Nita Nitara Niti Nitika Nittawosew Onawa Onawah Preyasi Prita PreetiHalf Smita 
+		Smriti Surabhi Tapi Tara
+		Elvamox Ethete Natane Bly Dae Cocheta Ekta Ela Elina Ila Imala Inayat Kushala Kusuma Liluye Lipika Lolaksi 
+	}
+	
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 50
+	mat_grf_name_chance = 50
+	father_name_chance = 50
+	
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 50
+	mat_grm_name_chance = 50
+	mother_name_chance = 50
+	
+}
+
+
+
+name_list_siouan = {
+
+	dynasty_names = {
+		{ "dynn_Sichangu" }
+		{ "dynn_Oglala" }
+		{ "dynn_Itazipcho" }
+		{ "dynn_Hunkpapha" }
+		{ "dynn_Mnikhowozu" }
+		{ "dynn_Sihasapa" }
+		{ "dynn_Oohenunpa" }
+		{ "dynn_Ihantkhunwan" }
+		{ "dynn_Ihankthunwanna" }
+		{ "dynn_Isanyathi" }
+		{ "dynn_Thithunwan" }
+		{ "dynn_Wichiyena" }
+		{ "dynn_Wahpethunwan" }
+		{ "dynn_Mdewakanthunwan" }
+		{ "dynn_Wahpehute" }
+		{ "dynn_Sisithunwan" }
+		{ "dynn_Aegitina" }
+		{ "dynn_Bizibina" }
+		{ "dynn_Cephubi" }
+		{ "dynn_Canhdada" }
+		{ "dynn_Canhewincasta" }
+		{ "dynn_Canknuhabi" }
+		{ "dynn_Hudesabina" }
+		{ "dynn_Hebina" }
+		{ "dynn_Huhumasmibi" }
+		{ "dynn_Huhuganebabi" }
+		{ "dynn_HenAtonwaabina" }
+		{ "dynn_Inwantonwanbina" }
+		{ "dynn_Innianonbi" }
+		{ "dynn_Insaombi" }
+		{ "dynn_Indogahwincasta" }
+		{ "dynn_MinisoeeSwnkeebi" }
+		{ "dynn_Minisatonwanbi" }
+		{ "dynn_Osnibi" }
+		{ "dynn_Ptegabina" }
+		{ "dynn_Sunkcebi" }
+		{ "dynn_Sahiyaiyeskabi" }
+		{ "dynn_Snugabi" }
+		{ "dynn_Sihabi" }
+		{ "dynn_Tanidabi" }
+		{ "dynn_Tokanbi" }
+		{ "dynn_Tanzinapebina" }
+		{ "dynn_Unskaha" }
+		{ "dynn_Wadopabina" }
+		{ "dynn_Wadopahtonwan" }
+		{ "dynn_Wiciyabina" }
+		{ "dynn_Waziyamwincasta" }
+		{ "dynn_Wasinazinyabi" }
+		{ "dynn_Wokpanbi" }
+		{ "dynn_Wazhaze" }
+		{ "dynn_Tsishu" }
+		{ "dynn_Pasueli" }
+		{ "dynn_Wahakolin" }
+		{ "dynn_Sansueli" }
+		{ "dynn_Wyota" }
+		{ "dynn_Picayune" }
+		{ "dynn_Koholo" }
+		{ "dynn_Neodesha" }
+		{ "dynn_Owasso" }
+		{ "dynn_Pawhuska" }
+		{ "dynn_Niukonska" }
+		{ "dynn_Doppike" }
+		{ "dynn_Neosho" }
+		{ "dynn_Chetopa" }
+		{ "dynn_Hominy" }
+		{ "dynn_Pahusan" }
+
+	}
+
+	male_names = {
+		Wabasha Petette Tartunkanasiah Keejee Tarsega Wamadetunka Wannata Kokomako Shacope Penision Etaseepa 
+		Wakauhee Poehapa Takewapa Tenchzepart Mascpulochastosh Tetekarmunch Wasaota Oeyakoca Maktowahkeark 
+		Matowayouwe Makatozaza Belotonkatanga Nakapagigi Maktosabichis Mewatanihanska Thathanka Iyotake 
+		Iyapato Thasunke Witko Maphiya 
+		Luta Hehaka Sapa Sinte 
+		Gleska Ite Omagazu Ogle Luta Mahpiya
+		Tepeeoska Wichawostaka Masgwahasid Chenka Kichipwot Stamixosok Emitahapiskinne Matapikomotziw 
+		Ayestipissimat Kissoum Pitahotocan Apawstamix Onistahpokah Netahkiteipimew Akakotos Stokimatis 
+		Pitahotiskin Stamixotakapiw Mastepitah Moyanymen Ekaskine Kayookosis Ponokahstamix Omaksisapop 
+		Pitahsiksinum Apawonistaw Attistahhawes Pitah Pitahonistah Kayetapo Mahtowewitko Toetahkiehnan 
+		Nochkpitshitoepish Sheohmantho Waywasecapow Otamakooewin Shapousetung Sukeman Misketo Etamepeton 
+		Kawasaskotrepahik Makoyekin Nesoauases Onistah Pitahannes
+		Ranoningga Wohomppee Wyingwaha Shongatong Wongehehronyne Nahocheininugga Wonehee Conja Hahraga Chahowhrowpa 
+		Eniswahanee Manuhanu Washcommanee Chapee Wyimpishcoonee Okugwata Ishtagrasa Wechoka Shougkapar Nekousaa
+		Wapanoneker Opwarchickwaka Chepurganika Nankaw Koankaw Hoowauneekaw Tshayrotsohan Haumpemanne Hootshoap Morahtshay
+		Kaureekausaw Waukunhaw Manahkeetshump Weenoshee Tshawwanshaip Nausooray Shoanktshunsk Wautsherookunah Kayrahtsho
+		Hayrokaw Waukamkam Kankawsaw Mankayray Thaunwan Spanyou Shoankskaw Neehookaw Nathkaysaw Wheankkaw Sawwaughkee Sinageewen
+		Shushquenau Saginnainee Nunqueweebee Obwagunn Tuskquegun Maungeezik Waymeekseegoo Meekszoo Paymaubeemee Jahton 
+		Wahronesaw Wecaruton Washshonkera Orahcarpe Wahnahshah Wagrenie
+
+	}
+	female_names = {
+		Tasinasapewin Thasinamani Tasinahlahlawin Dohumme Chapa Chapawee Chumani Dowanhowee Ehawee Hantaywee Kimimela 
+		Macha Magaskawee Makawee Mika Ojinjintka Ptaysanwee Shappa Skah Wichahpi Winona Zitkala Zonta Mina Tahcawin 
+		Talutah Wachiwi Wasula Weayaya Wichapi
+		Wakonsamoie Watoesa Sekaname Shonsegra Egraname Misae Niabi
+	}
+	
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 50
+	mat_grf_name_chance = 50
+	father_name_chance = 50
+	
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 50
+	mat_grm_name_chance = 50
+	mother_name_chance = 50
+	
+}
+
+
+name_list_sonoran = {
+
+	dynasty_names = {
+		{ "dynn_Acoma" }
+		{ "dynn_Cochiti" }
+		{ "dynn_Isleta" }
+		{ "dynn_Jemez" }
+		{ "dynn_Laguna" }
+		{ "dynn_Nambe" }
+		{ "dynn_OhkayOwingeh" }
+		{ "dynn_Picuris" }
+		{ "dynn_Pojoaque" }
+		{ "dynn_Sandia" }
+		{ "dynn_Taos" }
+		{ "dynn_Tesuque" }
+		{ "dynn_Zia" }
+		{ "dynn_Zuni" }
+		{ "dynn_Hopi" }
+		{ "dynn_Piru" }
+		{ "dynn_Akimel" }
+		{ "dynn_Tohono" }
+		{ "dynn_HiaCed" }
+		{ "dynn_Sobaipuri" }
+		{ "dynn_Otama" }
+		{ "dynn_Kina" }
+		{ "dynn_Equituni" }
+		{ "dynn_Uturituc" }
+		{ "dynn_Sacaton" }
+		{ "dynn_OnkAkimal" }
+		{ "dynn_Yoreme" }
+		{ "dynn_Hiakim" }
+		{ "dynn_Potam" }
+		{ "dynn_Vicam" }
+		{ "dynn_Torim" }
+		{ "dynn_Bacum" }
+		{ "dynn_Cocorit" }
+		{ "dynn_Huirivis" }
+		{ "dynn_Benem" }
+		{ "dynn_Rahum" }
+		{ "dynn_Clatsop" }
+		{ "dynn_Cathlamet" }
+		{ "dynn_Skilloot" }
+		{ "dynn_Cathlapotle" }
+		{ "dynn_Multnomah" }
+		{ "dynn_Watlala" }
+		{ "dynn_Clowwewalla" }
+		{ "dynn_Clackamas" }
+		{ "dynn_Chiluckittequaw" }
+		{ "dynn_Wishram" }
+		{ "dynn_Wasco" }
+		{ "dynn_Atfalati" }
+		{ "dynn_Yamel" }
+		{ "dynn_Lakmiut" }
+		{ "dynn_Chepenafa" }
+		{ "dynn_Santiam" }
+		{ "dynn_Chelamela" }
+		{ "dynn_Calapooya" }
+		{ "dynn_Yoncalla" }
+	
+
+	}
+
+	male_names = {
+		"Popé" "Ku-htihth" Galisteo Xenome Ollito Tagu Bolsas Naranjo Catiti
+		Oacpicagiguya Kaviu Papago Panhop "Cajemé"
+		Sequoyah Attakullaculla "Johan Ross" Moytoy Yonaguska Dragging Canoe Agi It Boudinot
+		Comcomly Tumulth Napesa Injice Tasyah Nessick Etnama Cheenlenten Nasyah Absaquil Quintioosan Talsapeer 
+		Myneletta Quiaquatty Yalkus Kawkama Kiles Kowahtough Anta Quilala Mequah Yackatee Tophor Hallale Pulktah 
+		Tumwalth Obanahah Watchano Teapinick Wallahpicate Lalbick Cuckamanna Towyecolla Laham Senegertta Pulican 
+		Tena Pulkuptima Sallaf Hoipkenek Yeptah Satinvose 
+
+	}
+	female_names = {
+		Ootcakao Kahavasooah Ootcakao Sacagawea Chipeta Tocmetone
+		Elvamox Ethete Natane Bly Dae Cocheta Ekta Ela Elina Ila Imala Inayat Kushala Kusuma Liluye Lipika Lolaksi 
+		Lolotea Nascha Nashota Natane Nita Nitara Niti Nitika Nittawosew Onawa Onawah Preyasi Prita PreetiHalf Smita 
+		Smriti Surabhi Tapi Tara
+
+	}
+	
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 50
+	mat_grf_name_chance = 50
+	father_name_chance = 50
+	
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 50
+	mat_grm_name_chance = 50
+	mother_name_chance = 50
+	
+}
+

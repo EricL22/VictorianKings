@@ -64,3 +64,20 @@ restrict_royal_court_modifier = {
 	icon = prestige_negative
 	court_grandeur_baseline_add = -100
 }
+
+negligible_slavery_modifier = {
+	icon = county_modifier_control_positive
+	tax_mult = 0.01
+}
+minority_slavery_modifier = {
+	icon = county_modifier_control_positive
+	tax_mult = 0.1
+}
+commonplace_slavery_modifier = {
+	icon = county_modifier_control_positive
+	tax_mult = 0.5
+}
+widespread_slavery_modifier = {
+	icon = county_modifier_control_positive
+	tax_mult = 1.0
+}

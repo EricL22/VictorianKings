@@ -1,4 +1,158 @@
-c_mesemmegai = {
+c_milemadyus = {	# ref pemiscot
+	1810.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.1365 } } }
+	1830.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.2004 } } }
+	1860.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.0905 } } }
+}
+c_edebythdus = {	# ref new madrid
+	1810.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.1365 } } }
+	1830.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.2004 } } }
+	1860.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.3143 } } }
+}
+c_odegoessa = {	# ref butler
+	1810.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.1365 } } }
+	1830.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.1140 } } }
+	1860.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.0180 } } }
+}
+c_hieralekhaica = {	# ref cape girardeau
+	1810.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.1515 } } }
+	1830.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.1378 } } }
+	1860.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.0986 } } }
+}
+c_argkatarias = {	# ref ste genevieve
+	1810.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.2139 } } }
+	1830.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.2392 } } }
+	1860.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.0768 } } }
+}
+c_leibemilthena = {	# ref st louis
+	1810.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.1306 } } }
+	1830.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.1979 } } }
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 45 }
+			set_variable = { name = conservative_value value = 55 }
+		}
+	}
+	1860.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.0228 } } }
+}
+c_lamibergus = {	# ref franklin
+	1810.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.1306 } } }
+	1830.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.1108 } } }
+	1860.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.0885 } } }
+}
+c_gytholymea = {	# ref madison
+	1810.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.1515 } } }
+	1830.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.1729 } } }
+	1860.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.0825 } } }
+}
+c_madhubila = {	# ref ripley
+	1810.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.1365 } } }
+	1830.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.1140 } } }
+	1860.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.0208 } } }
+}
+c_kalimbryra = {	# ref osage
+	1810.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.1306 } } }
+	1830.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.0887 } } }
+	1860.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.0325 } } }
+}
+c_erythasiene = {	# ref dent
+	1810.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.2139 } } }
+	1830.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.0374 } } }
+	1860.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.0276 } } }
+}
+c_laodidtes = {	# ref howell
+	1810.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.1365 } } }
+	1830.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.1140 } } }
+	1860.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.0114 } } }
+}
+c_hermarontiri = {	# ref miller
+	1810.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.2139 } } }
+	1830.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.0374 } } }
+	1860.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.0349 } } }
+}
+c_akrcheriana = {	# ref texas
+	1810.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.1515 } } }
+	1830.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.1140 } } }
+	1860.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.0092 } } }
+}
+c_massahemeonia = {	# ref ozark
+	1810.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.1365 } } }
+	1830.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.1140 } } }
+	1860.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.0176 } } }
+}
+c_amarolymium = {	# ref benton
+	1810.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.2139 } } }
+	1830.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.2457 } } }
+	1860.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.0660 } } }
+}
+c_odcebratrea = {	# ref greene
+	1810.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.1515 } } }
+	1830.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.1140 } } }
+	1860.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.1265 } } }
+}
+c_kimmethai = {	# ref cass/van buren
+	1810.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.1306 } } }
+	1830.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.0684 } } }
+	1860.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.1031 } } }
+}
+c_kannmegalinon = {	# ref saline
+	1810.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.1306 } } }
+	1830.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.2457 } } }
+	1860.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.3317 } } }
+}
+c_aytmesemlia = {	# ref cole
+	1810.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.1306 } } }
+	1830.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.0992 } } }
+	1860.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.1018 } } }
+}
+c_imbarguf = {	# ref st charles
+	1810.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.0773 } } }
+	1830.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.2201 } } }
+	1860.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.1320 } } }
+}
+c_kokimmeosia = {	# ref marion
+	1810.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.0773 } } }
+	1830.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.2743 } } }
+	1860.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.1602 } } }
+}
+c_alekolea = {	# ref lewis
+	1810.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.0773 } } }
+	1830.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.2743 } } }
+	1860.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.1041 } } }
+}
+c_colelila = {	# ref shelby
+	1810.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.0773 } } }
+	1830.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.2743 } } }
+	1860.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.0992 } } }
+}
+c_orchneamea = {	# ref callaway
+	1830.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.2364 } } }
+	1860.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.2592 } } }
+}
+c_anticarydia = {	# ref randolph
+	1830.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.1676 } } }
+	1860.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.2296 } } }
+}
+c_kiacansos = {	# ref adair
+	1830.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.1676 } } }
+	1860.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.0101 } } }
+}
+c_cebrcalythus = {	# ref sullivan
+	1830.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.1691 } } }
+	1860.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.0111 } } }
+}
+c_lefkamagnoas = {	# ref chariton
+	1830.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.1691 } } }
+	1860.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.2260 } } }
+}
+c_knomalissa = {	# ref clay
+	1830.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.1652 } } }
+	1860.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.2653 } } }
+}
+
+c_mesemmegai = {	# ref taney
+	1830.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.1140 } } }
+	1860.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.0229 } } }
+
 	1808.1.1 = {
 		holder = nativeamerican8
 	}
@@ -6,7 +160,10 @@ c_mesemmegai = {
 		holder = 6400161
 	}
 }
-c_madyleflia = {
+c_madyleflia = {	# ref barton
+	1830.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.1140 } } }
+	1860.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.0116 } } }
+
 	1808.1.1 = {
 		holder = nativeamerican8
 	}
@@ -14,7 +171,10 @@ c_madyleflia = {
 		holder = 6400161
 	}
 }
-c_morghermessa = {
+c_morghermessa = {	# ref newton
+	1830.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.1140 } } }
+	1860.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.0457 } } }
+
 	1808.1.1 = {
 		holder = nativeamerican8
 	}
@@ -22,7 +182,10 @@ c_morghermessa = {
 		holder = 6400161
 	}
 }
-c_kamachium = {
+c_kamachium = {	# ref jackson
+	1830.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.0684 } } }
+	1860.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.1721 } } }
+
 	1808.1.1 = {
 		holder = nativeamerican8
 	}
@@ -31,7 +194,10 @@ c_kamachium = {
 	}
 }
 
-c_knomisetta = {
+c_knomisetta = {	# ref platte
+	1836.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.0963 } } }
+	1860.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.1805 } } }
+
 	1808.1.1 = {
 		holder = nativeamerican10
 	}
@@ -39,7 +205,10 @@ c_knomisetta = {
 		holder = 6400161
 	}
 }
-c_mantmorganalous = {
+c_mantmorganalous = {	# ref andrew
+	1836.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.0364 } } }
+	1860.1.1 = { effect = { set_variable = { name = slavery_percent value = 0.0743 } } }
+
 	1808.1.1 = {
 		holder = nativeamerican10
 	}

@@ -1,3 +1,141 @@
+c_ashtabula = {
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 30 }
+			set_variable = { name = conservative_value value = 70 }
+		}
+	}
+}
+c_mahoning = {
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 45 }
+			set_variable = { name = conservative_value value = 55 }
+		}
+	}
+}
+c_jefferson_oh = {
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 55 }
+			set_variable = { name = conservative_value value = 45 }
+		}
+	}
+}
+c_belmont = {
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 55 }
+			set_variable = { name = conservative_value value = 45 }
+		}
+	}
+}
+c_cleveland = {
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 40 }
+			set_variable = { name = conservative_value value = 60 }
+		}
+	}
+}
+c_stark = {
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 55 }
+			set_variable = { name = conservative_value value = 45 }
+		}
+	}
+}
+c_coshocton = {
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 60 }
+			set_variable = { name = conservative_value value = 40 }
+		}
+	}
+}
+c_muskingum = {
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 45 }
+			set_variable = { name = conservative_value value = 55 }
+		}
+	}
+}
+c_lorain = {
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 45 }
+			set_variable = { name = conservative_value value = 55 }
+		}
+	}
+}
+c_richland = {
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 60 }
+			set_variable = { name = conservative_value value = 40 }
+		}
+	}
+}
+c_licking = {
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 55 }
+			set_variable = { name = conservative_value value = 45 }
+		}
+	}
+}
+c_hocking = {
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 60 }
+			set_variable = { name = conservative_value value = 40 }
+		}
+	}
+}
+c_lawrence_oh = {
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 45 }
+			set_variable = { name = conservative_value value = 55 }
+		}
+	}
+}
+c_sandusky = {
+}
+c_marion_oh = {
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 55 }
+			set_variable = { name = conservative_value value = 45 }
+		}
+	}
+}
+c_columbus = {
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 45 }
+			set_variable = { name = conservative_value value = 55 }
+		}
+	}
+}
+c_chillicothe = {
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 45 }
+			set_variable = { name = conservative_value value = 55 }
+		}
+	}
+}
+c_scioto = {
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 40 }
+			set_variable = { name = conservative_value value = 60 }
+		}
+	}
+}
 c_toledo_oh = {
 	1808.1.1 = {
 		holder = 9000104
@@ -9,15 +147,28 @@ c_toledo_oh = {
 		holder = 6400148
 	}
 }
-c_williams = {
-	1808.1.1 = {
-		holder = 9000104
+c_hancock_oh = {
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 60 }
+			set_variable = { name = conservative_value value = 40 }
+		}
 	}
-	1814.1.1 = {
-		holder = nativeamerican4
+}
+c_clark_oh = {
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 30 }
+			set_variable = { name = conservative_value value = 70 }
+		}
 	}
-	1832.12.7 = {
-		holder = 6400148
+}
+c_highland = {
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 55 }
+			set_variable = { name = conservative_value value = 45 }
+		}
 	}
 }
 c_allen = {
@@ -26,6 +177,45 @@ c_allen = {
 	}
 	1814.1.1 = {
 		holder = nativeamerican4
+	}
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 55 }
+			set_variable = { name = conservative_value value = 45 }
+		}
+	}
+	1832.12.7 = {
+		holder = 6400148
+	}
+}
+c_dayton = {
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 45 }
+			set_variable = { name = conservative_value value = 55 }
+		}
+	}
+}
+c_warren_oh = {
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 45 }
+			set_variable = { name = conservative_value value = 55 }
+		}
+	}
+}
+c_williams = {
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican4
+	}
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 55 }
+			set_variable = { name = conservative_value value = 45 }
+		}
 	}
 	1832.12.7 = {
 		holder = 6400148
@@ -38,7 +228,21 @@ c_mercer_oh = {
 	1814.1.1 = {
 		holder = nativeamerican4
 	}
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 60 }
+			set_variable = { name = conservative_value value = 40 }
+		}
+	}
 	1832.12.7 = {
 		holder = 6400148
+	}
+}
+c_cincinnati = {
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 55 }
+			set_variable = { name = conservative_value value = 45 }
+		}
 	}
 }

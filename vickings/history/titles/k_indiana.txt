@@ -1,4 +1,79 @@
-c_kouridalia = {
+c_itanborysum = {	# ref ripley
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 45 }
+			set_variable = { name = conservative_value value = 55 }
+		}
+	}
+}
+c_edeitaida = {	# ref clark
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 60 }
+			set_variable = { name = conservative_value value = 40 }
+		}
+	}
+}
+c_calopussos = {	# ref harrison
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 55 }
+			set_variable = { name = conservative_value value = 45 }
+		}
+	}
+}
+c_kaikumtherna = {	# ref randolph
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican3
+	}
+	1831.12.7 = {
+		holder = 6400155
+	}
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 45 }
+			set_variable = { name = conservative_value value = 55 }
+		}
+	}
+}
+c_morgannialea = {	# ref allen
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican3
+	}
+	1831.12.7 = {
+		holder = 6400155
+	}
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 55 }
+			set_variable = { name = conservative_value value = 45 }
+		}
+	}
+}
+c_berereida = {	# ref elkhart
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican3
+	}
+	1831.12.7 = {
+		holder = 6400155
+	}
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 60 }
+			set_variable = { name = conservative_value value = 40 }
+		}
+	}
+}
+c_halicclapetra = {	# ref whitley
 	1808.1.1 = {
 		holder = 9000104
 	}
@@ -9,7 +84,7 @@ c_kouridalia = {
 		holder = 6400155
 	}
 }
-c_dicmarosos = {
+c_dorykoriosia = {	# ref madison
 	1808.1.1 = {
 		holder = 9000104
 	}
@@ -18,9 +93,15 @@ c_dicmarosos = {
 	}
 	1831.12.7 = {
 		holder = 6400155
+	}
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 55 }
+			set_variable = { name = conservative_value value = 45 }
+		}
 	}
 }
-c_imknilea = {
+c_eresmukelia = {	# ref st joseph
 	1808.1.1 = {
 		holder = 9000104
 	}
@@ -30,82 +111,11 @@ c_imknilea = {
 	1831.12.7 = {
 		holder = 6400155
 	}
-}
-c_dorykoriosia = {
-	1808.1.1 = {
-		holder = 9000104
-	}
-	1814.1.1 = {
-		holder = nativeamerican3
-	}
-	1831.12.7 = {
-		holder = 6400155
-	}
-}
-c_kaikumtherna = {
-	1808.1.1 = {
-		holder = 9000104
-	}
-	1814.1.1 = {
-		holder = nativeamerican3
-	}
-	1831.12.7 = {
-		holder = 6400155
-	}
-}
-c_magnehalictherna = {
-	1808.1.1 = {
-		holder = 9000104
-	}
-	1814.1.1 = {
-		holder = nativeamerican3
-	}
-	1831.12.7 = {
-		holder = 6400155
-	}
-}
-c_asklimboli = {
-	1808.1.1 = {
-		holder = 9000104
-	}
-	1814.1.1 = {
-		holder = nativeamerican3
-	}
-	1831.12.7 = {
-		holder = 6400155
-	}
-}
-c_halicclapetra = {
-	1808.1.1 = {
-		holder = 9000104
-	}
-	1814.1.1 = {
-		holder = nativeamerican3
-	}
-	1831.12.7 = {
-		holder = 6400155
-	}
-}
-c_morgannialea = {
-	1808.1.1 = {
-		holder = 9000104
-	}
-	1814.1.1 = {
-		holder = nativeamerican3
-	}
-	1831.12.7 = {
-		holder = 6400155
-	}
-}
-c_berereida = {
-	1808.1.1 = {
-		holder = 9000104
-	}
-	1814.1.1 = {
-		holder = nativeamerican3
-	}
-	1831.12.7 = {
-		holder = 6400155
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 45 }
+			set_variable = { name = conservative_value value = 55 }
+		}
 	}
 }
 #c_odeslinlia = {
@@ -119,7 +129,58 @@ c_berereida = {
 #		holder = 6400155
 #	}
 #}
-c_eresmukelia = {
+c_asklimboli = {	# ref cass
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican3
+	}
+	1831.12.7 = {
+		holder = 6400155
+	}
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 55 }
+			set_variable = { name = conservative_value value = 45 }
+		}
+	}
+}
+c_imknilea = {	# ref boone
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican3
+	}
+	1831.12.7 = {
+		holder = 6400155
+	}
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 60 }
+			set_variable = { name = conservative_value value = 40 }
+		}
+	}
+}
+c_dicmarosos = {	# ref morgan
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican3
+	}
+	1831.12.7 = {
+		holder = 6400155
+	}
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 55 }
+			set_variable = { name = conservative_value value = 45 }
+		}
+	}
+}
+c_cargorgimenus = {	# ref lake
 	1808.1.1 = {
 		holder = 9000104
 	}
@@ -130,7 +191,7 @@ c_eresmukelia = {
 		holder = 6400155
 	}
 }
-c_cargorgimenus = {
+c_magnehalictherna = {	# ref jasper
 	1808.1.1 = {
 		holder = 9000104
 	}
@@ -139,5 +200,62 @@ c_cargorgimenus = {
 	}
 	1831.12.7 = {
 		holder = 6400155
+	}
+}
+c_kouridalia = {	# ref tippecanoe
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican3
+	}
+	1831.12.7 = {
+		holder = 6400155
+	}
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 55 }
+			set_variable = { name = conservative_value value = 45 }
+		}
+	}
+}
+c_eresoeposse = {	# ref owen
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 55 }
+			set_variable = { name = conservative_value value = 45 }
+		}
+	}
+}
+c_kouleontlia = {	# ref lawrence
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 70 }
+			set_variable = { name = conservative_value value = 30 }
+		}
+	}
+}
+c_lekhaeretae = {	# ref knox
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 45 }
+			set_variable = { name = conservative_value value = 55 }
+		}
+	}
+}
+c_histrleonder = {	# ref spencer
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 60 }
+			set_variable = { name = conservative_value value = 40 }
+		}
+	}
+}
+c_kourmulia = {	# ref posey
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 60 }
+			set_variable = { name = conservative_value value = 40 }
+		}
 	}
 }

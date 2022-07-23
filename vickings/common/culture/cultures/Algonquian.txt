@@ -1,0 +1,542 @@
+﻿##############Central Algonquian
+
+shawnee = { 
+		
+	color = { 212  105  118 }
+	
+	ethos = ethos_communal
+	heritage = heritage_native_american
+	language = language_native_american
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_tribe_unity
+		tradition_wedding_ceremonies
+		tradition_isolationist
+	}
+	
+	name_list = name_list_central_algonquian
+	
+	coa_gfx = { ugro_permian_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+
+	ethnicities = {
+			10 = indian
+			10 = south_indian
+	}
+}
+
+
+illini = { 
+		
+	color = { 129 214 238 }
+	
+	ethos = ethos_communal
+	heritage = heritage_native_american
+	language = language_native_american
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_tribe_unity
+		tradition_wedding_ceremonies
+		tradition_isolationist
+	}
+	
+	name_list = name_list_central_algonquian
+	
+	coa_gfx = { ugro_permian_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+
+	ethnicities = {
+			10 = indian
+			10 = south_indian
+	}
+}
+
+
+miami = { 
+		
+	color = { 110 124 156 }
+	
+	ethos = ethos_communal
+	heritage = heritage_native_american
+	language = language_native_american
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_tribe_unity
+		tradition_wedding_ceremonies
+		tradition_isolationist
+	}
+	
+	name_list = name_list_central_algonquian
+	
+	coa_gfx = { ugro_permian_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+
+	ethnicities = {
+			10 = indian
+			10 = south_indian
+	}
+}
+
+
+anishinabe = { 
+		
+	color = { 235 229 233 }
+	
+	ethos = ethos_communal
+	heritage = heritage_native_american
+	language = language_native_american
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_tribe_unity
+		tradition_wedding_ceremonies
+		tradition_isolationist
+	}
+	
+	name_list = name_list_central_algonquian
+	
+	coa_gfx = { ugro_permian_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+
+	ethnicities = {
+			10 = indian
+			10 = south_indian
+	}
+}
+
+
+algonquin = { 
+		
+	color = { 4 162 77 }
+	
+	ethos = ethos_communal
+	heritage = heritage_native_american
+	language = language_native_american
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_tribe_unity
+		tradition_wedding_ceremonies
+		tradition_isolationist
+	}
+	
+	name_list = name_list_central_algonquian
+	
+	coa_gfx = { ugro_permian_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+
+	ethnicities = {
+			10 = indian
+			10 = south_indian
+	}
+}
+
+
+cree = { 
+		
+	color = { 28 187 180 }
+	
+	ethos = ethos_communal
+	heritage = heritage_native_american
+	language = language_native_american
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_tribe_unity
+		tradition_wedding_ceremonies
+		tradition_isolationist
+	}
+	
+	name_list = name_list_central_algonquian
+	
+	coa_gfx = { ugro_permian_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+
+	ethnicities = {
+			10 = indian
+			10 = south_indian
+	}
+}
+
+
+innu = { 
+		
+	color = { 8 64 6 }
+	
+	ethos = ethos_communal
+	heritage = heritage_native_american
+	language = language_native_american
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_tribe_unity
+		tradition_wedding_ceremonies
+		tradition_isolationist
+	}
+	
+	name_list = name_list_central_algonquian
+	
+	coa_gfx = { ugro_permian_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+
+	ethnicities = {
+			10 = indian
+			10 = south_indian
+	}
+}
+
+
+mesquakie = { 
+		
+	color = { 242 101 34 }
+	
+	ethos = ethos_communal
+	heritage = heritage_native_american
+	language = language_native_american
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_tribe_unity
+		tradition_wedding_ceremonies
+		tradition_isolationist
+	}
+	
+	name_list = name_list_central_algonquian
+	
+	coa_gfx = { ugro_permian_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+
+	ethnicities = {
+			10 = indian
+			10 = south_indian
+	}
+}
+
+
+
+##############Plains Algonquian
+
+cheyenne = { 
+		
+	color = { 150  50  10 }
+	
+	ethos = ethos_communal
+	heritage = heritage_native_american
+	language = language_native_american
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_tribe_unity
+		tradition_wedding_ceremonies
+		tradition_isolationist
+	}
+	
+	name_list = name_list_plains_algonquian
+	
+	coa_gfx = { ugro_permian_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+
+	ethnicities = {
+			10 = indian
+			10 = south_indian
+	}
+}
+
+
+blackfoot = { 
+		
+	color = { 102  153  255 }
+	
+	ethos = ethos_communal
+	heritage = heritage_native_american
+	language = language_native_american
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_tribe_unity
+		tradition_wedding_ceremonies
+		tradition_isolationist
+	}
+	
+	name_list = name_list_plains_algonquian
+	
+	coa_gfx = { ugro_permian_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+
+	ethnicities = {
+			10 = indian
+			10 = south_indian
+	}
+}
+
+
+arapaho = { 
+		
+	color = { 121  10  65 }
+	
+	ethos = ethos_communal
+	heritage = heritage_native_american
+	language = language_native_american
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_tribe_unity
+		tradition_wedding_ceremonies
+		tradition_isolationist
+	}
+	
+	name_list = name_list_plains_algonquian
+	
+	coa_gfx = { ugro_permian_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+
+	ethnicities = {
+			10 = indian
+			10 = south_indian
+	}
+}
+
+
+bungi = { 
+		
+	color = { 233 235 229 }
+	
+	ethos = ethos_communal
+	heritage = heritage_native_american
+	language = language_native_american
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_tribe_unity
+		tradition_wedding_ceremonies
+		tradition_isolationist
+	}
+	
+	name_list = name_list_plains_algonquian
+	
+	coa_gfx = { ugro_permian_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+
+	ethnicities = {
+			10 = indian
+			10 = south_indian
+	}
+}
+
+
+
+
+##############Eastern Algonquian
+
+delaware = { 
+		
+	color = { 76 110 150 }
+	
+	ethos = ethos_communal
+	heritage = heritage_native_american
+	language = language_native_american
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_tribe_unity
+		tradition_wedding_ceremonies
+		tradition_isolationist
+	}
+	
+	name_list = name_list_eastern_algonquian
+	
+	coa_gfx = { ugro_permian_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+
+	ethnicities = {
+			10 = indian
+			10 = south_indian
+	}
+}
+
+
+abenaki = { 
+		
+	color = { 49 115 90 }
+	
+	ethos = ethos_communal
+	heritage = heritage_native_american
+	language = language_native_american
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_tribe_unity
+		tradition_wedding_ceremonies
+		tradition_isolationist
+	}
+	
+	name_list = name_list_eastern_algonquian
+	
+	coa_gfx = { ugro_permian_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+
+	ethnicities = {
+			10 = indian
+			10 = south_indian
+	}
+}
+
+
+mikmaq = { 
+		
+	color = { 110 48 50 }
+	
+	ethos = ethos_communal
+	heritage = heritage_native_american
+	language = language_native_american
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_tribe_unity
+		tradition_wedding_ceremonies
+		tradition_isolationist
+	}
+	
+	name_list = name_list_eastern_algonquian
+	
+	coa_gfx = { ugro_permian_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+
+	ethnicities = {
+			10 = indian
+			10 = south_indian
+	}
+}
+
+
+maliseet = { 
+		
+	color = { 151 95 19 }
+	
+	ethos = ethos_communal
+	heritage = heritage_native_american
+	language = language_native_american
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_tribe_unity
+		tradition_wedding_ceremonies
+		tradition_isolationist
+	}
+	
+	name_list = name_list_eastern_algonquian
+	
+	coa_gfx = { ugro_permian_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+
+	ethnicities = {
+			10 = indian
+			10 = south_indian
+	}
+}
+
+
+mahican = { 
+		
+	color = { 148 150 28 }
+	
+	ethos = ethos_communal
+	heritage = heritage_native_american
+	language = language_native_american
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_tribe_unity
+		tradition_wedding_ceremonies
+		tradition_isolationist
+	}
+	
+	name_list = name_list_eastern_algonquian
+	
+	coa_gfx = { ugro_permian_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+
+	ethnicities = {
+			10 = indian
+			10 = south_indian
+	}
+}
+
+
+pequot = { 
+		
+	color = { 255 247 153 }
+	
+	ethos = ethos_communal
+	heritage = heritage_native_american
+	language = language_native_american
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_tribe_unity
+		tradition_wedding_ceremonies
+		tradition_isolationist
+	}
+	
+	name_list = name_list_eastern_algonquian
+	
+	coa_gfx = { ugro_permian_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+
+	ethnicities = {
+			10 = indian
+			10 = south_indian
+	}
+}
+
+
+massachusset = { 
+		
+	color = { 95 5 210 }
+	
+	ethos = ethos_communal
+	heritage = heritage_native_american
+	language = language_native_american
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_tribe_unity
+		tradition_wedding_ceremonies
+		tradition_isolationist
+	}
+	
+	name_list = name_list_eastern_algonquian
+	
+	coa_gfx = { ugro_permian_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+
+	ethnicities = {
+			10 = indian
+			10 = south_indian
+	}
+}
+
+
+

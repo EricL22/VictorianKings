@@ -254,3 +254,11 @@ is_protectorate = {
 		}
 	}
 }
+
+root_realm_uses_legislature_trigger = {
+	OR = {
+		top_liege.primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:sovereign_semi_constitutional } }
+		top_liege.primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:sovereign_constitutional } }
+		has_government = republic_government
+	}
+}

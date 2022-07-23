@@ -232,6 +232,100 @@ has_admin_centralized = {
 	}
 }
 
+can_pass_sovereign_power_laws = {
+	scope = character
+	is_shown = {
+		OR = {
+			has_government = feudal_government
+			has_government = clan_government
+		}
+	}
+}
+
+can_pass_sovereign_absolute = {
+	scope = character
+	is_valid = {
+		can_pass_government_reforms = yes
+		primary_title = { NOT = { is_target_in_variable_list = { name = enacted_laws_list target = flag:sovereign_absolute } } }
+	}
+	effect = {
+		custom_tooltip = enact_sovereign_absolute
+		primary_title = {
+			add_to_variable_list = { name = enacted_laws_list target = flag:sovereign_absolute }
+			remove_list_variable = { name = enacted_laws_list target = flag:sovereign_semi_constitutional }
+			remove_list_variable = { name = enacted_laws_list target = flag:sovereign_constitutional }
+			set_variable = { name = recent_reform_passed value = flag:recent_reform_passed years = 5 }
+		}
+	}
+}
+has_sovereign_absolute = {
+	is_valid = {
+		top_liege.primary_title = {
+			is_target_in_variable_list = { name = enacted_laws_list target = flag:sovereign_absolute }
+		}
+	}
+}
+
+can_pass_sovereign_semi_constitutional = {
+	scope = character
+	is_valid = {
+		can_pass_government_reforms = yes
+		primary_title = { NOT = { is_target_in_variable_list = { name = enacted_laws_list target = flag:sovereign_semi_constitutional } } }
+#		custom_description = {
+#			text = "requires_renaissance_innovation"
+#			subject = root
+			culture = { has_innovation = innovation_development_04 }
+#		}
+	}
+	effect = {
+		custom_tooltip = enact_sovereign_semi_constitutional
+		primary_title = {
+			add_to_variable_list = { name = enacted_laws_list target = flag:sovereign_semi_constitutional }
+			remove_list_variable = { name = enacted_laws_list target = flag:sovereign_absolute }
+			remove_list_variable = { name = enacted_laws_list target = flag:sovereign_constitutional }
+			set_variable = { name = recent_reform_passed value = flag:recent_reform_passed years = 5 }
+		}
+	}
+}
+has_sovereign_semi_constitutional = {
+	is_valid = {
+		top_liege.primary_title = {
+			is_target_in_variable_list = { name = enacted_laws_list target = flag:sovereign_semi_constitutional }
+		}
+	}
+}
+
+can_pass_sovereign_constitutional = {
+	scope = character
+	is_valid = {
+		can_pass_government_reforms = yes
+		primary_title = { NOT = { is_target_in_variable_list = { name = enacted_laws_list target = flag:sovereign_constitutional } } }
+
+		# TODO: something different perhaps?
+#		custom_description = {
+#			text = "requires_renaissance_innovation"
+#			subject = root
+			culture = { has_innovation = innovation_development_04 }
+#		}
+	}
+	effect = {
+		custom_tooltip = enact_sovereign_constitutional
+		primary_title = {
+			add_to_variable_list = { name = enacted_laws_list target = flag:sovereign_constitutional }
+			remove_list_variable = { name = enacted_laws_list target = flag:sovereign_absolute }
+			remove_list_variable = { name = enacted_laws_list target = flag:sovereign_semi_constitutional }
+			set_variable = { name = recent_reform_passed value = flag:recent_reform_passed years = 5 }
+		}
+	}
+}
+has_sovereign_constitutional = {
+	is_valid = {
+		top_liege.primary_title = {
+			is_target_in_variable_list = { name = enacted_laws_list target = flag:sovereign_constitutional }
+		}
+	}
+}
+
 root_no_political_party = {
 	is_valid = {
 		has_any_political_party = no
@@ -276,5 +370,174 @@ root_is_communist = {
 root_is_anarchist = {
 	is_valid = {
 		has_character_flag = anarchist_party
+	}
+}
+
+realm_uses_legislature_tab = {
+	scope = character
+	is_shown = {
+		root_realm_uses_legislature_trigger = yes
+	}
+}
+
+can_pass_leg_two_year_term = {
+	scope = character
+	is_valid = {
+		root_realm_uses_legislature_trigger = yes
+		can_pass_government_reforms = yes
+		primary_title = {
+			NOT = { is_target_in_variable_list = { name = enacted_laws_list target = flag:leg_two_year_term } }
+		}
+	}
+	effect = {
+		custom_tooltip = enact_term_limit
+		primary_title = {
+			clear_leg_term_limit_reforms = yes
+			add_to_variable_list = { name = enacted_laws_list target = flag:leg_two_year_term }
+			set_variable = { name = recent_reform_passed value = flag:recent_reform_passed years = 5 }
+		}
+	}
+}
+has_leg_two_year_term = {
+	is_valid = {
+		root_realm_uses_legislature_trigger = yes
+		top_liege.primary_title = {
+			is_target_in_variable_list = { name = enacted_laws_list target = flag:leg_two_year_term }
+		}
+	}
+}
+
+can_pass_leg_three_year_term = {
+	scope = character
+	is_valid = {
+		root_realm_uses_legislature_trigger = yes
+		can_pass_government_reforms = yes
+		primary_title = {
+			NOT = { is_target_in_variable_list = { name = enacted_laws_list target = flag:leg_three_year_term } }
+		}
+	}
+	effect = {
+		custom_tooltip = enact_term_limit
+		primary_title = {
+			clear_leg_term_limit_reforms = yes
+			add_to_variable_list = { name = enacted_laws_list target = flag:leg_three_year_term }
+			set_variable = { name = recent_reform_passed value = flag:recent_reform_passed years = 5 }
+		}
+	}
+}
+has_leg_three_year_term = {
+	is_valid = {
+		root_realm_uses_legislature_trigger = yes
+		top_liege.primary_title = {
+			is_target_in_variable_list = { name = enacted_laws_list target = flag:leg_three_year_term }
+		}
+	}
+}
+
+can_pass_leg_four_year_term = {
+	scope = character
+	is_valid = {
+		root_realm_uses_legislature_trigger = yes
+		can_pass_government_reforms = yes
+		primary_title = {
+			NOT = { is_target_in_variable_list = { name = enacted_laws_list target = flag:leg_four_year_term } }
+		}
+	}
+	effect = {
+		custom_tooltip = enact_term_limit
+		primary_title = {
+			clear_leg_term_limit_reforms = yes
+			add_to_variable_list = { name = enacted_laws_list target = flag:leg_four_year_term }
+			set_variable = { name = recent_reform_passed value = flag:recent_reform_passed years = 5 }
+		}
+	}
+}
+has_leg_four_year_term = {
+	is_valid = {
+		root_realm_uses_legislature_trigger = yes
+		top_liege.primary_title = {
+			is_target_in_variable_list = { name = enacted_laws_list target = flag:leg_four_year_term }
+		}
+	}
+}
+
+can_pass_leg_five_year_term = {
+	scope = character
+	is_valid = {
+		root_realm_uses_legislature_trigger = yes
+		can_pass_government_reforms = yes
+		primary_title = {
+			NOT = { is_target_in_variable_list = { name = enacted_laws_list target = flag:leg_five_year_term } }
+		}
+	}
+	effect = {
+		custom_tooltip = enact_term_limit
+		primary_title = {
+			clear_leg_term_limit_reforms = yes
+			add_to_variable_list = { name = enacted_laws_list target = flag:leg_five_year_term }
+			set_variable = { name = recent_reform_passed value = flag:recent_reform_passed years = 5 }
+		}
+	}
+}
+has_leg_five_year_term = {
+	is_valid = {
+		root_realm_uses_legislature_trigger = yes
+		top_liege.primary_title = {
+			is_target_in_variable_list = { name = enacted_laws_list target = flag:leg_five_year_term }
+		}
+	}
+}
+
+can_pass_leg_six_year_term = {
+	scope = character
+	is_valid = {
+		root_realm_uses_legislature_trigger = yes
+		can_pass_government_reforms = yes
+		primary_title = {
+			NOT = { is_target_in_variable_list = { name = enacted_laws_list target = flag:leg_six_year_term } }
+		}
+	}
+	effect = {
+		custom_tooltip = enact_term_limit
+		primary_title = {
+			clear_leg_term_limit_reforms = yes
+			add_to_variable_list = { name = enacted_laws_list target = flag:leg_six_year_term }
+			set_variable = { name = recent_reform_passed value = flag:recent_reform_passed years = 5 }
+		}
+	}
+}
+has_leg_six_year_term = {
+	is_valid = {
+		root_realm_uses_legislature_trigger = yes
+		top_liege.primary_title = {
+			is_target_in_variable_list = { name = enacted_laws_list target = flag:leg_six_year_term }
+		}
+	}
+}
+
+can_pass_leg_limit_off = {
+	scope = character
+	is_valid = {
+		root_realm_uses_legislature_trigger = yes
+		can_pass_government_reforms = yes
+		primary_title = {
+			NOT = { is_target_in_variable_list = { name = enacted_laws_list target = flag:leg_life_title_term } }
+		}
+	}
+	effect = {
+		custom_tooltip = enact_term_limit
+		primary_title = {
+			clear_leg_term_limit_reforms = yes
+			add_to_variable_list = { name = enacted_laws_list target = flag:leg_life_title_term }
+			set_variable = { name = recent_reform_passed value = flag:recent_reform_passed years = 5 }
+		}
+	}
+}
+has_leg_limit_off = {
+	is_valid = {
+		root_realm_uses_legislature_trigger = yes
+		top_liege.primary_title = {
+			is_target_in_variable_list = { name = enacted_laws_list target = flag:leg_life_title_term }
+		}
 	}
 }

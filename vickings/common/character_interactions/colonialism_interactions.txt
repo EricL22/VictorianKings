@@ -2057,3 +2057,67 @@ establish_reservation_interaction = {
 		}
 	}
 }
+
+create_us_state_interaction = {
+	category = interaction_category_diplomacy
+
+	common_interaction = yes
+	desc = create_us_state_interaction_desc
+	
+	is_shown = {
+		scope:recipient = {
+			is_protectorate = no
+			is_vassal_of = scope:actor
+			highest_held_title_tier = tier_duchy
+		}
+		scope:actor = {
+			has_title = title:e_united_states
+		}
+	}
+
+	is_valid = {
+		
+	}
+
+	is_valid_showing_failures_only = {
+
+	}
+
+	on_accept = {
+		# fire the event
+	}
+
+	auto_accept = yes
+}
+
+apply_for_us_state_interaction = {
+	category = interaction_category_diplomacy
+
+	common_interaction = yes
+	desc = apply_for_us_state_interaction_desc
+	
+	is_shown = {
+		scope:recipient = {
+			has_title = title:e_united_states
+		}
+		scope:actor = {
+			is_protectorate = no
+			is_vassal_of = scope:recipient
+			highest_held_title_tier = tier_duchy
+		}
+	}
+
+	is_valid = {
+		
+	}
+
+	is_valid_showing_failures_only = {
+
+	}
+
+	on_accept = {
+		# fire the event for scope:recipient
+	}
+
+	auto_accept = yes
+}

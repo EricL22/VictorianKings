@@ -543,6 +543,12 @@
  moderntimes.31.adams.desc:0 "Spearheading the negotiations is our capable diplomat, [adams.GetFullName], who has managed to find a great deal to acquire the territory, only having us surrender any claim over Texas from the Louisiana purchase."
  moderntimes.31.noadams.desc:0 "A random individual surnamed 'Adams' is spearheading the negotiations, and it seems we have found favorable terms of trade."
 
+ moderntimes.32.t:0 "Ottoman Triumph"
+ moderntimes.32.desc:0 "With the defeat of [defender.GetTitledFirstName], the Egyptian troops are no longer able to project military power across the Red Sea. Ottoman troops have since marched into the Hejaz to regain control as protectors of the faith."
+ moderntimes.32.a:0 "Independence was nice, while it lasted."
+
+ moderntimes.33.desc:0 "Following our victory against the Egyptian forces of [defender.GetFullName], my troops have once more secured the Hejaz region, along with all its holy sites, under Ottoman control."
+
  congress_of_vienna.1.name:0 "The Congress of Vienna"
  congress_of_vienna.1.desc:0 "With the defeat of [main_attacker.GetTitledFirstName], the Napoleonic Wars which have ravaged Europe for so long have come to an end. The victors are meeting in Vienna, a neutral location to discuss peace terms. What shall we do with the French Emperor?"
  congress_of_vienna.1.a:0 "Cede all lands outside of France's natural borders."
@@ -721,6 +727,14 @@
  communist_party_modifier:0 "Communist Politics"
  anarchist_party_modifier:0 "Anarchist Politics"
  restrict_royal_court_modifier:0 "Minor Court"
+ negligible_slavery_modifier:0 "Negligible Slavery"
+ negligible_slavery_modifier_desc:0 "The slave population in this county is negligibly small."
+ minority_slavery_modifier:0 "Minority Slavery"
+ minority_slavery_modifier_desc:0 "A large minority slave population provides the labor to run a significant portion of the county's economy."
+ commonplace_slavery_modifier:0 "Commonplace Slavery"
+ commonplace_slavery_modifier_desc:0 "Slaves make up the majority of development in this county, sustaining the backbone of trade and industry."
+ widespread_slavery_modifier:0 "Widespread Slavery"
+ widespread_slavery_modifier_desc:0 "Almost all development in this county is sustained entirely off of slave labor."
 
  peninsular_cb:0 "Reclaim Spanish Throne"
  napoleon_invasion_cb:0 "Napoleonic Invasion"
@@ -817,3 +831,8 @@
  CONTRACT_PAYMENT_CONCESSIONS_REASON:0 "Payment: $VALUE|=+0$"
  payment_concessions:0 "Payment"
  concessions_low_tt:0 "If you do not assign lands to the reservation within one month according to the contract terms:\n$EFFECT_LIST_BULLET$Low Concessions: 1 county or above,\nyour administrators will assign these lands for you."
+
+ create_us_state_interaction:0 "Admit Territory as State"
+ create_us_state_interaction_desc:0 "With congressional approval, the federal government may unilaterally admit a territory as a state regardless of its development."
+ apply_for_us_state_interaction:0 "Apply for Statehood"
+ apply_for_us_state_interaction_desc:0 "Now that our territory is sufficiently developed, we may hold a referendum and apply for status as a U.S. state."

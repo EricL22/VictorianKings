@@ -1,4 +1,4 @@
-c_kiolymthera = {
+c_oropthus = {	# ref iroquois
 	1808.1.1 = {
 		holder = 9000104
 	}
@@ -9,7 +9,41 @@ c_kiolymthera = {
 		holder = 6400157
 	}
 }
-c_kaicorcaea = {
+c_epidhistrpolis = {	# ref vermillion
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican2
+	}
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 60 }
+			set_variable = { name = conservative_value value = 40 }
+		}
+	}
+	1834.12.3 = {
+		holder = 6400157
+	}
+}
+c_methumetaposse = {	# ref coles
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican2
+	}
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 70 }
+			set_variable = { name = conservative_value value = 30 }
+		}
+	}
+	1834.12.3 = {
+		holder = 6400157
+	}
+}
+c_orhyeai = {	# ref champaign
 	1808.1.1 = {
 		holder = 9000104
 	}
@@ -20,139 +54,24 @@ c_kaicorcaea = {
 		holder = 6400157
 	}
 }
-c_emporolymlia = {
+c_kiolymthera = {	# ref edwards
 	1808.1.1 = {
 		holder = 9000104
 	}
 	1814.1.1 = {
 		holder = nativeamerican2
 	}
-	1834.12.3 = {
-		holder = 6400157
-	}
-}
-c_methumetaposse = {
-	1808.1.1 = {
-		holder = 9000104
-	}
-	1814.1.1 = {
-		holder = nativeamerican2
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 55 }
+			set_variable = { name = conservative_value value = 45 }
+		}
 	}
 	1834.12.3 = {
 		holder = 6400157
 	}
 }
-c_clazoambrium = {
-	1808.1.1 = {
-		holder = 9000104
-	}
-	1814.1.1 = {
-		holder = nativeamerican2
-	}
-	1834.12.3 = {
-		holder = 6400157
-	}
-}
-c_eretabion = {
-	1808.1.1 = {
-		holder = 9000104
-	}
-	1814.1.1 = {
-		holder = nativeamerican2
-	}
-	1834.12.3 = {
-		holder = 6400157
-	}
-}
-c_erethedos = {
-	1808.1.1 = {
-		holder = 9000104
-	}
-	1814.1.1 = {
-		holder = nativeamerican2
-	}
-	1834.12.3 = {
-		holder = 6400157
-	}
-}
-c_marmcolopetra = {
-	1808.1.1 = {
-		holder = 9000104
-	}
-	1814.1.1 = {
-		holder = nativeamerican2
-	}
-	1834.12.3 = {
-		holder = 6400157
-	}
-}
-c_georoprias = {
-	1808.1.1 = {
-		holder = 9000104
-	}
-	1814.1.1 = {
-		holder = nativeamerican2
-	}
-	1834.12.3 = {
-		holder = 6400157
-	}
-}
-c_alaasklinda = {
-	1808.1.1 = {
-		holder = 9000104
-	}
-	1814.1.1 = {
-		holder = nativeamerican2
-	}
-	1834.12.3 = {
-		holder = 6400157
-	}
-}
-c_sangamon = {
-	1808.1.1 = {
-		holder = 9000104
-	}
-	1814.1.1 = {
-		holder = nativeamerican2
-	}
-	1834.12.3 = {
-		holder = 6400157
-	}
-}
-c_herakourrea = {
-	1808.1.1 = {
-		holder = 9000104
-	}
-	1814.1.1 = {
-		holder = nativeamerican2
-	}
-	1834.12.3 = {
-		holder = 6400157
-	}
-}
-c_orhyeai = {
-	1808.1.1 = {
-		holder = 9000104
-	}
-	1814.1.1 = {
-		holder = nativeamerican2
-	}
-	1834.12.3 = {
-		holder = 6400157
-	}
-}
-c_epidhistrpolis = {
-	1808.1.1 = {
-		holder = 9000104
-	}
-	1814.1.1 = {
-		holder = nativeamerican2
-	}
-	1834.12.3 = {
-		holder = 6400157
-	}
-}
-c_oropthus = {
+c_laumaryra = {	# ref will
 	1808.1.1 = {
 		holder = 9000104
 	}
@@ -174,7 +93,108 @@ c_oropthus = {
 #		holder = 6400157
 #	}
 #}
-c_hermimesthus = {
+c_hermimesthus = {	# ref la salle
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican2
+	}
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 45 }
+			set_variable = { name = conservative_value value = 55 }
+		}
+	}
+	1834.12.3 = {
+		holder = 6400157
+	}
+}
+c_herakourrea = {	# ref mclean
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican2
+	}
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 60 }
+			set_variable = { name = conservative_value value = 40 }
+		}
+	}
+	1834.12.3 = {
+		holder = 6400157
+	}
+}
+c_clazoambrium = {	# ref shelby
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican2
+	}
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 95 }
+			set_variable = { name = conservative_value value = 5 }
+		}
+	}
+	1834.12.3 = {
+		holder = 6400157
+	}
+}
+c_kaicorcaea = {	# ref clay
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican2
+	}
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 95 }
+			set_variable = { name = conservative_value value = 5 }
+		}
+	}
+	1834.12.3 = {
+		holder = 6400157
+	}
+}
+c_opudiosera = {	# ref hamilton
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 95 }
+			set_variable = { name = conservative_value value = 5 }
+		}
+	}
+}
+c_gagothera = {	# ref gallatin
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 80 }
+			set_variable = { name = conservative_value value = 20 }
+		}
+	}
+}
+c_sangamon = {
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican2
+	}
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 55 }
+			set_variable = { name = conservative_value value = 45 }
+		}
+	}
+	1834.12.3 = {
+		holder = 6400157
+	}
+}
+c_alaasklinda = {	# ref cass
 	1808.1.1 = {
 		holder = 9000104
 	}
@@ -185,169 +205,112 @@ c_hermimesthus = {
 		holder = 6400157
 	}
 }
-c_laumaryra = {
+c_georoprias = {	# ref morgan
 	1808.1.1 = {
 		holder = 9000104
 	}
 	1814.1.1 = {
 		holder = nativeamerican2
+	}
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 55 }
+			set_variable = { name = conservative_value value = 45 }
+		}
 	}
 	1834.12.3 = {
 		holder = 6400157
 	}
 }
-c_mangollia = {
+c_erethedos = {	# ref greene
 	1808.1.1 = {
 		holder = 9000104
 	}
 	1814.1.1 = {
 		holder = nativeamerican2
+	}
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 60 }
+			set_variable = { name = conservative_value value = 40 }
+		}
 	}
 	1834.12.3 = {
 		holder = 6400157
 	}
 }
-c_olyknossdus = {
+c_eretabion = {	# ref macoupin
 	1808.1.1 = {
 		holder = 9000104
 	}
 	1814.1.1 = {
 		holder = nativeamerican2
+	}
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 80 }
+			set_variable = { name = conservative_value value = 20 }
+		}
 	}
 	1834.12.3 = {
 		holder = 6400157
 	}
 }
-c_neakameirea = {
+c_emporolymlia = {	# ref clinton
 	1808.1.1 = {
 		holder = 9000104
 	}
 	1814.1.1 = {
 		holder = nativeamerican2
+	}
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 70 }
+			set_variable = { name = conservative_value value = 30 }
+		}
 	}
 	1834.12.3 = {
 		holder = 6400157
 	}
 }
-c_edechyyra = {
-	1808.1.1 = {
-		holder = 9000104
-	}
-	1814.1.1 = {
-		holder = nativeamerican2
-	}
-	1834.12.3 = {
-		holder = 6400157
+c_athcalliium = {	# ref washington
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 95 }
+			set_variable = { name = conservative_value value = 5 }
+		}
 	}
 }
-c_gyrthmileesmos = {
-	1808.1.1 = {
-		holder = 9000104
-	}
-	1814.1.1 = {
-		holder = nativeamerican2
-	}
-	1834.12.3 = {
-		holder = 6400157
+c_mantincleoas = {	# ref st clair
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 60 }
+			set_variable = { name = conservative_value value = 40 }
+		}
 	}
 }
-c_misegolgoas = {
-	1808.1.1 = {
-		holder = 9000104
-	}
-	1814.1.1 = {
-		holder = nativeamerican2
-	}
-	1834.12.3 = {
-		holder = 6400157
+c_kaskaskia = {	# ref randolph
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 70 }
+			set_variable = { name = conservative_value value = 30 }
+		}
 	}
 }
-c_olbasktes = {
-	1808.1.1 = {
-		holder = 9000104
-	}
-	1814.1.1 = {
-		holder = nativeamerican2
-	}
-	1834.12.3 = {
-		holder = 6400157
+c_hubldemlea = {	# ref johnson
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 95 }
+			set_variable = { name = conservative_value value = 5 }
+		}
 	}
 }
-c_komassaila = {
-	1808.1.1 = {
-		holder = 9000104
-	}
-	1814.1.1 = {
-		holder = nativeamerican2
-	}
-	1834.12.3 = {
-		holder = 6400157
-	}
-}
-c_hagialindus = {
-	1808.1.1 = {
-		holder = 9000104
-	}
-	1814.1.1 = {
-		holder = nativeamerican2
-	}
-	1834.12.3 = {
-		holder = 6400157
-	}
-}
-c_orchomaroli = {
-	1808.1.1 = {
-		holder = 9000104
-	}
-	1814.1.1 = {
-		holder = nativeamerican2
-	}
-	1834.12.3 = {
-		holder = 6400157
-	}
-}
-c_klazoelatate = {
-	1808.1.1 = {
-		holder = 9000104
-	}
-	1814.1.1 = {
-		holder = nativeamerican2
-	}
-	1834.12.3 = {
-		holder = 6400157
-	}
-}
-#c_kerkichepetra = {
-#	1808.1.1 = {
-#		holder = 9000104
-#	}
-#	1814.1.1 = {
-#		holder = nativeamerican2
-#	}
-#	1834.12.3 = {
-#		holder = 6400157
-#	}
-#}
-#c_cebeubthos = {
-#	1808.1.1 = {
-#		holder = 9000104
-#	}
-#	1814.1.1 = {
-#		holder = nativeamerican2
-#	}
-#	1834.12.3 = {
-#		holder = 6400157
-#	}
-#}
-c_shikaakwa = {
-	1808.1.1 = {
-		holder = 9000104
-	}
-	1814.1.1 = {
-		holder = nativeamerican2
-	}
-	1834.12.3 = {
-		holder = 6400157
+c_ydelatita = {	# ref union
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 95 }
+			set_variable = { name = conservative_value value = 5 }
+		}
 	}
 }
 #c_achlocrissa = {
@@ -361,3 +324,216 @@ c_shikaakwa = {
 #		holder = 6400157
 #	}
 #}
+c_shikaakwa = {	# ref cook
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican2
+	}
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 45 }
+			set_variable = { name = conservative_value value = 55 }
+		}
+	}
+	1834.12.3 = {
+		holder = 6400157
+	}
+}
+#c_cebeubthos = {
+#	1808.1.1 = {
+#		holder = 9000104
+#	}
+#	1814.1.1 = {
+#		holder = nativeamerican2
+#	}
+#	1834.12.3 = {
+#		holder = 6400157
+#	}
+#}
+#c_kerkichepetra = {
+#	1808.1.1 = {
+#		holder = 9000104
+#	}
+#	1814.1.1 = {
+#		holder = nativeamerican2
+#	}
+#	1834.12.3 = {
+#		holder = 6400157
+#	}
+#}
+c_klazoelatate = {	# ref mchenry
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican2
+	}
+	1834.12.3 = {
+		holder = 6400157
+	}
+}
+c_orchomaroli = {	# ref dekalb
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican2
+	}
+	1834.12.3 = {
+		holder = 6400157
+	}
+}
+c_hagialindus = {	# ref kane
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican2
+	}
+	1834.12.3 = {
+		holder = 6400157
+	}
+}
+c_komassaila = {	# ref jo daviess
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican2
+	}
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 55 }
+			set_variable = { name = conservative_value value = 45 }
+		}
+	}
+	1834.12.3 = {
+		holder = 6400157
+	}
+}
+c_olbasktes = {	# ref whiteside
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican2
+	}
+	1834.12.3 = {
+		holder = 6400157
+	}
+}
+c_misegolgoas = {	# ref henry
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican2
+	}
+	1834.12.3 = {
+		holder = 6400157
+	}
+}
+c_gyrthmileesmos = {	# ref peoria
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican2
+	}
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 55 }
+			set_variable = { name = conservative_value value = 45 }
+		}
+	}
+	1834.12.3 = {
+		holder = 6400157
+	}
+}
+c_neakameirea = {	# ref warren
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican2
+	}
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 45 }
+			set_variable = { name = conservative_value value = 55 }
+		}
+	}
+	1834.12.3 = {
+		holder = 6400157
+	}
+}
+c_olyknossdus = {	# ref knox
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican2
+	}
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 55 }
+			set_variable = { name = conservative_value value = 45 }
+		}
+	}
+	1834.12.3 = {
+		holder = 6400157
+	}
+}
+c_mangollia = {	# ref fulton
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican2
+	}
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 60 }
+			set_variable = { name = conservative_value value = 40 }
+		}
+	}
+	1834.12.3 = {
+		holder = 6400157
+	}
+}
+c_edechyyra = {	# ref adams
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican2
+	}
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 60 }
+			set_variable = { name = conservative_value value = 40 }
+		}
+	}
+	1834.12.3 = {
+		holder = 6400157
+	}
+}
+c_marmcolopetra = {	# ref pike
+	1808.1.1 = {
+		holder = 9000104
+	}
+	1814.1.1 = {
+		holder = nativeamerican2
+	}
+	1832.1.1 = {
+		effect = {
+			set_variable = { name = liberal_value value = 45 }
+			set_variable = { name = conservative_value value = 55 }
+		}
+	}
+	1834.12.3 = {
+		holder = 6400157
+	}
+}
