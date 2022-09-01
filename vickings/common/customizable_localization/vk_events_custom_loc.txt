@@ -1,0 +1,360 @@
+﻿GetLegPropBill = {
+	type = character
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:debating_law
+				var:debating_law = flag:four_year_term
+			}
+		}
+		localization_key = propbill.four_term
+	}
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:debating_law
+				var:debating_law = flag:five_year_term
+			}
+		}
+		localization_key = propbill.five_term
+	}
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:debating_law
+				var:debating_law = flag:six_year_term
+			}
+		}
+		localization_key = propbill.six_term
+	}
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:debating_law
+				var:debating_law = flag:seven_year_term
+			}
+		}
+		localization_key = propbill.seven_term
+	}
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:debating_law
+				var:debating_law = flag:life_title_term
+			}
+		}
+		localization_key = propbill.life_term
+	}
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:debating_law
+				var:debating_law = flag:admin_feudal
+			}
+		}
+		localization_key = propbill.admin_feudal
+	}
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:debating_law
+				var:debating_law = flag:admin_centralized
+			}
+		}
+		localization_key = propbill.admin_centralized
+	}
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:debating_law
+				var:debating_law = flag:sovereign_semi_constitutional
+			}
+		}
+		localization_key = propbill.sovereign_semi_constitutional
+	}
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:debating_law
+				var:debating_law = flag:sovereign_constitutional
+			}
+		}
+		localization_key = propbill.sovereign_constitutional
+	}
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:debating_law
+				var:debating_law = flag:eligibility_default
+			}
+		}
+		localization_key = propbill.eligibility_default
+	}
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:debating_law
+				var:debating_law = flag:eligibility_one_party
+			}
+		}
+		localization_key = propbill.eligibility_one_party
+	}
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:debating_law
+				var:debating_law = flag:eligibility_state
+			}
+		}
+		localization_key = propbill.eligibility_state
+	}
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:debating_law
+				var:debating_law = flag:eligibility_de_jure
+			}
+		}
+		localization_key = propbill.eligibility_de_jure
+	}
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:debating_law
+				var:debating_law = flag:eligibility_de_facto
+			}
+		}
+		localization_key = propbill.eligibility_de_facto
+	}
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:debating_law
+				var:debating_law = flag:apportionment_landed
+			}
+		}
+		localization_key = propbill.apportionment_landed
+	}
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:debating_law
+				var:debating_law = flag:apportionment_equal
+			}
+		}
+		localization_key = propbill.apportionment_equal
+	}
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:debating_law
+				var:debating_law = flag:apportionment_mixed
+			}
+		}
+		localization_key = propbill.apportionment_mixed
+	}
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:debating_law
+				var:debating_law = flag:apportionment_population
+			}
+		}
+		localization_key = propbill.apportionment_population
+	}
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:debating_law
+				var:debating_law = flag:vote_franchise_landed
+			}
+		}
+		localization_key = propbill.vote_franchise_landed
+	}
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:debating_law
+				var:debating_law = flag:vote_franchise_wealth
+			}
+		}
+		localization_key = propbill.vote_franchise_wealth
+	}
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:debating_law
+				var:debating_law = flag:vote_franchise_universal_manhood
+			}
+		}
+		localization_key = propbill.vote_franchise_universal_manhood
+	}
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:debating_law
+				var:debating_law = flag:vote_franchise_universal
+			}
+		}
+		localization_key = propbill.vote_franchise_universal
+	}
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:debating_law
+				var:debating_law = flag:vote_system_two_party
+			}
+		}
+		localization_key = propbill.vote_system_two_party
+	}
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:debating_law
+				var:debating_law = flag:vote_system_jefferson
+			}
+		}
+		localization_key = propbill.vote_system_jefferson
+	}
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:debating_law
+				var:debating_law = flag:vote_system_proportional
+			}
+		}
+		localization_key = propbill.vote_system_proportional
+	}
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:debating_law
+				var:debating_law = flag:leg_two_year_term
+			}
+		}
+		localization_key = propbill.leg_two_term
+	}
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:debating_law
+				var:debating_law = flag:leg_three_year_term
+			}
+		}
+		localization_key = propbill.leg_three_term
+	}
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:debating_law
+				var:debating_law = flag:leg_four_year_term
+			}
+		}
+		localization_key = propbill.leg_four_term
+	}
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:debating_law
+				var:debating_law = flag:leg_five_year_term
+			}
+		}
+		localization_key = propbill.leg_five_term
+	}
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:debating_law
+				var:debating_law = flag:leg_six_year_term
+			}
+		}
+		localization_key = propbill.leg_six_term
+	}
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:debating_law
+				var:debating_law = flag:leg_life_title_term
+			}
+		}
+		localization_key = propbill.leg_life_term
+	}
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:debating_law
+				var:debating_law = flag:state_admission
+			}
+		}
+		localization_key = propbill.state_admission
+	}
+}
+
+GetLegForeignProp = {
+	type = character
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:debating_foreign
+				var:debating_foreign = flag:proposed_war
+			}
+		}
+		localization_key = propbill.proposed_war
+	}
+}
+
+GetLegVoteResultsBill = {
+	type = character
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:yay_predict
+				exists = var:nay_predict
+				var:yay_predict.compare_value > { value = var:nay_predict }
+			}
+		}
+		localization_key = propbill.PASS
+	}
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:yay_predict
+				exists = var:nay_predict
+				var:yay_predict.compare_value = { value = var:nay_predict }
+			}
+		}
+		localization_key = propbill.TIE
+	}
+	text = {
+		localization_key = propbill.FAIL
+		fallback = yes
+	}
+}
+
+GetLegVoteForeignResultsBill = {
+	type = character
+	text = {
+		trigger = {
+			capital_county = {
+				exists = var:yay_predict
+				exists = var:nay_predict
+				var:yay_predict.compare_value > { value = var:nay_predict }
+			}
+		}
+		localization_key = propbill.PASS
+	}
+	text = {
+		trigger = {
+			capital_county = {
+				exists = var:yay_predict
+				exists = var:nay_predict
+				var:yay_predict.compare_value = { value = var:nay_predict }
+			}
+		}
+		localization_key = propbill.TIE
+	}
+	text = {
+		localization_key = propbill.FAIL
+		fallback = yes
+	}
+}

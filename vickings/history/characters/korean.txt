@@ -101,7 +101,11 @@
 		birth = yes
 	}
 	1762.7.12 = {
-		death = yes
+		name = "Sado"
+		death = {
+			death_reason = death_execution
+			killer = 1000223
+		}
 	}
 }
 

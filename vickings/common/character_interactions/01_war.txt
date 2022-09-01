@@ -20,6 +20,33 @@
 			NOT = {
 				is_at_war_with = scope:recipient
 			}
+			OR = {
+				NOT = {
+					primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:sovereign_constitutional } }
+					has_government = republic_government
+				}
+				OR = {
+					AND = {
+						is_independent_ruler = yes
+						primary_title = {
+							any_in_list = {
+								variable = valid_war_targets_list
+								this = scope:recipient
+							}
+						}
+					}
+					primary_title = { has_variable = legislature_dissolved }
+					scope:recipient = {
+						OR = {
+							has_government = tribal_government
+							AND = {
+								has_government = clan_government
+								NOT = { culture = { has_cultural_era_or_later = culture_era_renaissance } }
+							}
+						}
+					}
+				}
+			}
 		}
 		
 		trigger_if = {

@@ -1,0 +1,82 @@
+﻿request_war_interaction = {
+	category = interaction_category_diplomacy
+	common_interaction = yes
+	interface_priority = 70
+
+	desc = request_war_interaction_desc
+
+	is_shown = {
+		NOT = {
+			scope:recipient = scope:actor
+		}
+		scope:recipient = {
+			is_landed = yes
+			is_independent_ruler = yes
+			NOT = {
+				OR = {
+					has_government = tribal_government
+					AND = {
+						has_government = clan_government
+						NOT = { culture = { has_cultural_era_or_later = culture_era_renaissance } }
+					}
+				}
+			}
+		}
+		scope:actor = {
+			NOT = {
+				is_at_war_with = scope:recipient
+			}
+			is_independent_ruler = yes
+			primary_title.tier >= tier_duchy
+			OR = {
+				primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:sovereign_constitutional } }
+				has_government = republic_government
+			}
+			primary_title = {
+				NOT = {
+					any_in_list = {
+						variable = valid_war_targets_list
+						this = scope:recipient
+					}
+					has_variable = debating_foreign
+					has_variable = legislature_dissolved
+				}
+			}
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		scope:actor = {
+			custom_description = {
+				text = "recently_failed_reform"
+				subject = scope:actor
+				primary_title = {
+					NOT = { has_variable = recent_foreign_debated }
+				}
+			}
+		}
+	}
+	
+	on_accept = {
+		scope:actor = {
+			primary_title = {
+				set_variable = {
+					name = debating_foreign
+					value = flag:proposed_war
+				}
+				set_variable = {
+					name = proposed_war_target
+					value = scope:recipient
+				}
+			}
+			capital_county = {
+				generate_party_acceptance_values = {
+					LAISSEZ_FAIRE = 0 REG_ECONOMY = 0 SOCIAL_LIBERTY = 0 SOCIAL_HIERARCHY = 0 PRO_SLAVERY = 0 UNIVERSAL_ACCEPTANCE_VALUE = 100
+				}
+			}
+			trigger_event = legislature.11
+		}
+	}
+	
+	auto_accept = yes
+}

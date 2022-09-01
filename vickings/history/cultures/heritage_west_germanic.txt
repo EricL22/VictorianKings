@@ -90,6 +90,9 @@
 	#
 	discover_innovation = innovation_absolutism
 }
+1750.1.1 = {
+	discover_innovation = innovation_permanent_envoys
+}
 1800.1.1 = {
 	join_era = culture_era_industrial
 	discover_innovation = innovation_machicolations

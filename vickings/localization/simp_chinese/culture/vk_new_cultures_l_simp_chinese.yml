@@ -38,6 +38,11 @@
  american_prefix:0 "Anglo"
  name_list_american:0 "American"
 
+ miskito:0 "Miskito"
+ miskito_collective_noun:0 "Miskitos"
+ miskito_prefix:0 "Miskito"
+ name_list_miskito:0 "Miskito"
+
  name_list_dutch_expanded:0 "Dutch"
  name_list_belgian:0 "Belgian"
  name_list_luxembourg:0 "Luxembourgish"

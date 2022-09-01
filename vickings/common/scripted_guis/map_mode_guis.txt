@@ -1,0 +1,77 @@
+﻿ideology_map = {
+	effect = {
+		#if = {
+		#	limit = { NOT = { exists = global_var:custom_map_mode } }
+		#	set_global_variable = {
+		#		name = custom_map_mode
+		#		value = flag:init
+		#	}
+		#}
+		#if = {
+		#	limit = { NOT = { global_var:custom_map_mode = flag:ideology_map } }
+		#	set_global_variable = {
+		#		name = custom_map_mode_changing
+		#		value = 1
+		#	}
+		#	set_global_variable = {
+		#		name = custom_map_mode
+		#		value = flag:ideology_map
+		#	}
+			every_county = {
+				if = {
+					limit = {
+						has_dominant_ideology_trigger = { VAR = var:liberal_value }
+					}
+					every_county_province = { barony = { set_color_from_title = title:d_map_color_liberal } }
+				}
+				else_if = {
+					limit = {
+						has_dominant_ideology_trigger = { VAR = var:socialist_value }
+					}
+					every_county_province = { barony = { set_color_from_title = title:d_map_color_socialist } }
+				}
+				else_if = {
+					limit = {
+						has_dominant_ideology_trigger = { VAR = var:reactionary_value }
+					}
+					every_county_province = { barony = { set_color_from_title = title:d_map_color_reactionary } }
+				}
+				else_if = {
+					limit = {
+						has_dominant_ideology_trigger = { VAR = var:fascist_value }
+					}
+					every_county_province = { barony = { set_color_from_title = title:d_map_color_fascist } }
+				}
+				else_if = {
+					limit = {
+						has_dominant_ideology_trigger = { VAR = var:conservative_value }
+					}
+					every_county_province = { barony = { set_color_from_title = title:d_map_color_conservative } }
+				}
+				else_if = {
+					limit = {
+						has_dominant_ideology_trigger = { VAR = var:communist_value }
+					}
+					every_county_province = { barony = { set_color_from_title = title:d_map_color_communist } }
+				}
+				else_if = {
+					limit = {
+						has_dominant_ideology_trigger = { VAR = var:anarchist_value }
+					}
+					every_county_province = { barony = { set_color_from_title = title:d_map_color_anarchist } }
+				}
+				else = {
+					every_county_province = { barony = { set_color_from_title = title:d_map_base_color } }
+				}
+			}
+		#	remove_global_variable = custom_map_mode_changing
+		#}
+	}
+	is_shown = {
+		#exists = global_var:custom_map_mode
+		#global_var:custom_map_mode = flag:ideology_map
+	}
+	is_valid = {
+		#NOT = { exists = global_var:custom_map_mode_changing }
+	}
+}

@@ -276,6 +276,7 @@ impassable_mountains = LIST { 2484 3259 }
 impassable_mountains = LIST { 3222 9541 9542 9549 10854 }
 
 #America
+impassable_mountains = RANGE { 13114 13118 }
 
 ############
 # WASTELAND

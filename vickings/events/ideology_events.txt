@@ -5,7 +5,7 @@ ideology.1 = {
 	type = character_event
 	title = ideology.1.name
 	desc = ideology.1.desc
-	theme = realm
+	theme = diplomacy
 	left_portrait = {
 		character = root
 		animation = idle
@@ -186,5 +186,25 @@ ideology.1 = {
 				current_date < 1860.1.1
 			}
 		}
+	}
+}
+
+# Character is kicked out of party
+ideology.2 = {
+	type = character_event
+	title = ideology.2.name
+	desc = ideology.2.desc
+	theme = diplomacy
+	left_portrait = {
+		character = root
+		animation = disbelief
+	}
+
+	immediate = {
+		add_character_modifier = independent_party_modifier
+	}
+	
+	option = {
+		name = ideology.2.a
 	}
 }

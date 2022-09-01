@@ -1,0 +1,28 @@
+13377 = {
+        culture = castilian
+        religion = catholic
+}
+13378 = {
+        culture = castilian
+        religion = catholic
+}
+13379 = {
+        culture = castilian
+        religion = catholic
+}
+13380 = {
+        culture = castilian
+        religion = catholic
+}
+13381 = {
+        culture = castilian
+        religion = catholic
+}
+13382 = {
+        culture = castilian
+        religion = catholic
+}
+13383 = {
+        culture = castilian
+        religion = catholic
+}

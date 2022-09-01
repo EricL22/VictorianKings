@@ -1,0 +1,180 @@
+13069 = {
+        culture = castilian
+        religion = catholic
+}
+13070 = {
+        culture = castilian
+        religion = catholic
+}
+13071 = {
+        culture = castilian
+        religion = catholic
+}
+13072 = {
+        culture = castilian
+        religion = catholic
+}
+13073 = {
+        culture = castilian
+        religion = catholic
+}
+13074 = {
+        culture = castilian
+        religion = catholic
+}
+13075 = {
+        culture = castilian
+        religion = catholic
+}
+13076 = {
+        culture = castilian
+        religion = catholic
+}
+13077 = {
+        culture = castilian
+        religion = catholic
+}
+13078 = {
+        culture = castilian
+        religion = catholic
+}
+13079 = {
+        culture = castilian
+        religion = catholic
+}
+13080 = {
+        culture = castilian
+        religion = catholic
+}
+13081 = {
+        culture = castilian
+        religion = catholic
+}
+13082 = {
+        culture = castilian
+        religion = catholic
+}
+13083 = {
+        culture = castilian
+        religion = catholic
+}
+13084 = {
+        culture = castilian
+        religion = catholic
+}
+13085 = {
+        culture = castilian
+        religion = catholic
+}
+13086 = {
+        culture = castilian
+        religion = catholic
+}
+13087 = {
+        culture = castilian
+        religion = catholic
+}
+13088 = {
+        culture = castilian
+        religion = catholic
+}
+13089 = {
+        culture = castilian
+        religion = catholic
+}
+13090 = {
+        culture = castilian
+        religion = catholic
+}
+13091 = {
+        culture = castilian
+        religion = catholic
+}
+13092 = {
+        culture = castilian
+        religion = catholic
+}
+13093 = {
+        culture = castilian
+        religion = catholic
+}
+13094 = {
+        culture = castilian
+        religion = catholic
+}
+13095 = {
+        culture = castilian
+        religion = catholic
+}
+13096 = {
+        culture = castilian
+        religion = catholic
+}
+13097 = {
+        culture = castilian
+        religion = catholic
+}
+13098 = {
+        culture = castilian
+        religion = catholic
+}
+13099 = {
+        culture = castilian
+        religion = catholic
+}
+13100 = {
+        culture = castilian
+        religion = catholic
+}
+13101 = {
+        culture = castilian
+        religion = catholic
+}
+13102 = {
+        culture = castilian
+        religion = catholic
+}
+13103 = {
+        culture = castilian
+        religion = catholic
+}
+13104 = {
+        culture = castilian
+        religion = catholic
+}
+13105 = {
+        culture = castilian
+        religion = catholic
+}
+13106 = {
+        culture = castilian
+        religion = catholic
+}
+13107 = {
+        culture = castilian
+        religion = catholic
+}
+13108 = {
+        culture = castilian
+        religion = catholic
+}
+13109 = {
+        culture = castilian
+        religion = catholic
+}
+13110 = {
+        culture = castilian
+        religion = catholic
+}
+13111 = {
+        culture = castilian
+        religion = catholic
+}
+13112 = {
+        culture = castilian
+        religion = catholic
+}
+13113 = {
+        culture = castilian
+        religion = catholic
+}

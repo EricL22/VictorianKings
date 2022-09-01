@@ -1,0 +1,40 @@
+13031 = {
+        culture = native_american_minor
+        religion = pagan
+}
+13032 = {
+        culture = native_american_minor
+        religion = pagan
+}
+13033 = {
+        culture = native_american_minor
+        religion = pagan
+}
+13034 = {
+        culture = native_american_minor
+        religion = pagan
+}
+13035 = {
+        culture = native_american_minor
+        religion = pagan
+}
+13036 = {
+        culture = native_american_minor
+        religion = pagan
+}
+13037 = {
+        culture = native_american_minor
+        religion = pagan
+}
+13038 = {
+        culture = native_american_minor
+        religion = pagan
+}
+13039 = {
+        culture = native_american_minor
+        religion = pagan
+}
+13040 = {
+        culture = native_american_minor
+        religion = pagan
+}

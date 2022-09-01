@@ -2,7 +2,7 @@
 
  same_culture_none_factionalism_double_different:0 "[vassals|E] of your [culture|E] are no longer inclined to join [independence_factions|E], but those of a different culture will be much more inclined"
  unlocks_protectorate_interaction:0 "Unlocks the $offer_protectorate_interaction$ [interaction|E]"
- absolutism_vassal_restriction:0 "Unlocks the #P Government Reforms#!"
+ absolutism_vassal_restriction:0 "Unlocks the Centralized #P Administrative Reform#!"
  unlocks_colonization_interaction:0 "Unlocks the $initiate_colonization_interaction$ [interaction|E]"
  unlocks_colonization_in_africa:0 "Unlocks colonization in Africa"
 
@@ -17,6 +17,9 @@
  #Civic
  innovation_absolutism:0 "Absolutism"
  innovation_absolutism_desc:0 "A new national identity for our people has signalled a shift away from the rule of local lords. The model for a centralized state, with a central governmental authority, now seems like a viable option by which to administer the realm."
+
+ innovation_permanent_envoys:0 "Permanent Envoys"
+ innovation_permanent_envoys_desc:0 "The shift towards centralized state power, and indeed the first concepts of nationhood, signal a trend towards the ever-growing interconnectedness of the world. By permanently stationing diplomatic envoys and embassies in far away countries, we gain the ability to gather global news and innovations and further our own interests as well."
 
  #Regional
 

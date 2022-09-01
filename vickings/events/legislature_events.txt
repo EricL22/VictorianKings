@@ -1,0 +1,1468 @@
+﻿namespace = legislature
+
+# Generate prediction from voting variables, player notification
+legislature.1 = {
+	type = character_event
+	title = legislature.1.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					has_councillor_for_skill = diplomacy
+				}
+				desc = legislature.1.chancellor.desc
+			}
+			desc = legislature.1.speaker.desc
+		}
+		desc = legislature.1.desc
+	}
+	theme = realm
+	left_portrait = {
+		character = root
+		animation = bold
+	}
+	right_portrait = {
+		character = scope:chancellor
+		animation = bold
+	}
+
+	immediate = {
+		if = {
+			limit = { has_councillor_for_skill = diplomacy }
+			random_diplomacy_councillor = { save_scope_as = chancellor }
+		}
+
+		primary_title = {
+			set_variable = { name = yay_predict value = 0 }
+			set_variable = { name = nay_predict value = 0 }
+			set_variable = { name = yay_percent value = 0 }
+			set_variable = { name = nay_percent value = 0 }
+			set_variable = { name = liberal_prop value = { value = var:liberal_absvalue divide = var:independent_pievalue } }
+			set_variable = { name = socialist_prop value = { value = var:socialist_absvalue divide = var:independent_pievalue } }
+			set_variable = { name = reactionary_prop value = { value = var:reactionary_absvalue divide = var:independent_pievalue } }
+			set_variable = { name = fascist_prop value = { value = var:fascist_absvalue divide = var:independent_pievalue } }
+			set_variable = { name = conservative_prop value = { value = var:conservative_absvalue divide = var:independent_pievalue } }
+			set_variable = { name = communist_prop value = { value = var:communist_absvalue divide = var:independent_pievalue } }
+			set_variable = { name = anarchist_prop value = { value = var:anarchist_absvalue divide = var:independent_pievalue } }
+			if = {
+				limit = { exists = var:liberal_acceptance }
+				if = {
+					limit = { var:liberal_acceptance = { compare_value > 0 } }
+					change_variable = { name = yay_predict add = var:liberal_acceptance }
+					change_variable = { name = yay_percent add = var:liberal_prop }
+				}
+				else_if = {
+					limit = { var:liberal_acceptance = { compare_value < 0 } }
+					change_variable = { name = nay_predict subtract = var:liberal_acceptance }
+					change_variable = { name = nay_percent add = var:liberal_prop }
+				}
+			}
+			if = {
+				limit = { exists = var:socialist_acceptance }
+				if = {
+					limit = { var:socialist_acceptance = { compare_value > 0 } }
+					change_variable = { name = yay_predict add = var:socialist_acceptance }
+					change_variable = { name = yay_percent add = var:socialist_prop }
+				}
+				else_if = {
+					limit = { var:socialist_acceptance = { compare_value < 0 } }
+					change_variable = { name = nay_predict subtract = var:socialist_acceptance }
+					change_variable = { name = nay_percent add = var:socialist_prop }
+				}
+			}
+			if = {
+				limit = { exists = var:reactionary_acceptance }
+				if = {
+					limit = { var:reactionary_acceptance = { compare_value > 0 } }
+					change_variable = { name = yay_predict add = var:reactionary_acceptance }
+					change_variable = { name = yay_percent add = var:reactionary_prop }
+				}
+				else_if = {
+					limit = { var:reactionary_acceptance = { compare_value < 0 } }
+					change_variable = { name = nay_predict subtract = var:reactionary_acceptance }
+					change_variable = { name = nay_percent add = var:reactionary_prop }
+				}
+			}
+			if = {
+				limit = { exists = var:fascist_acceptance }
+				if = {
+					limit = { var:fascist_acceptance = { compare_value > 0 } }
+					change_variable = { name = yay_predict add = var:fascist_acceptance }
+					change_variable = { name = yay_percent add = var:fascist_prop }
+				}
+				else_if = {
+					limit = { var:fascist_acceptance = { compare_value < 0 } }
+					change_variable = { name = nay_predict subtract = var:fascist_acceptance }
+					change_variable = { name = nay_percent add = var:fascist_prop }
+				}
+			}
+			if = {
+				limit = { exists = var:conservative_acceptance }
+				if = {
+					limit = { var:conservative_acceptance = { compare_value > 0 } }
+					change_variable = { name = yay_predict add = var:conservative_acceptance }
+					change_variable = { name = yay_percent add = var:conservative_prop }
+				}
+				else_if = {
+					limit = { var:conservative_acceptance = { compare_value < 0 } }
+					change_variable = { name = nay_predict subtract = var:conservative_acceptance }
+					change_variable = { name = nay_percent add = var:conservative_prop }
+				}
+			}
+			if = {
+				limit = { exists = var:communist_acceptance }
+				if = {
+					limit = { var:communist_acceptance = { compare_value > 0 } }
+					change_variable = { name = yay_predict add = var:communist_acceptance }
+					change_variable = { name = yay_percent add = var:communist_prop }
+				}
+				else_if = {
+					limit = { var:communist_acceptance = { compare_value < 0 } }
+					change_variable = { name = nay_predict subtract = var:communist_acceptance }
+					change_variable = { name = nay_percent add = var:communist_prop }
+				}
+			}
+			if = {
+				limit = { exists = var:anarchist_acceptance }
+				if = {
+					limit = { var:anarchist_acceptance = { compare_value > 0 } }
+					change_variable = { name = yay_predict add = var:anarchist_acceptance }
+					change_variable = { name = yay_percent add = var:anarchist_prop }
+				}
+				else_if = {
+					limit = { var:anarchist_acceptance = { compare_value < 0 } }
+					change_variable = { name = nay_predict subtract = var:anarchist_acceptance }
+					change_variable = { name = nay_percent add = var:anarchist_prop }
+				}
+			}
+			change_variable = { name = yay_predict multiply = var:yay_percent }
+			change_variable = { name = nay_predict multiply = var:nay_percent }
+			remove_variable = liberal_prop
+			remove_variable = socialist_prop
+			remove_variable = reactionary_prop
+			remove_variable = fascist_prop
+			remove_variable = conservative_prop
+			remove_variable = communist_prop
+			remove_variable = anarchist_prop
+			remove_variable = yay_percent
+			remove_variable = nay_percent
+		}
+		trigger_event = { id = legislature.2 days = 2 }
+	}
+	
+	option = {
+		name = legislature.1.a
+		custom_tooltip = projected_outcome_tooltip
+		if = {
+			limit = { primary_title = { exists = var:liberal_acceptance } }
+			custom_description_no_bullet = {
+				text = projected_l
+			}
+		}
+		if = {
+			limit = { primary_title = { exists = var:socialist_acceptance } }
+			custom_description_no_bullet = {
+				text = projected_s
+			}
+		}
+		if = {
+			limit = { primary_title = { exists = var:reactionary_acceptance } }
+			custom_description_no_bullet = {
+				text = projected_r
+			}
+		}
+		if = {
+			limit = { primary_title = { exists = var:fascist_acceptance } }
+			custom_description_no_bullet = {
+				text = projected_f
+			}
+		}
+		if = {
+			limit = { primary_title = { exists = var:conservative_acceptance } }
+			custom_description_no_bullet = {
+				text = projected_cs
+			}
+		}
+		if = {
+			limit = { primary_title = { exists = var:communist_acceptance } }
+			custom_description_no_bullet = {
+				text = projected_cm
+			}
+		}
+		if = {
+			limit = { primary_title = { exists = var:anarchist_acceptance } }
+			custom_description_no_bullet = {
+				text = projected_a
+			}
+		}
+		custom_tooltip = withdraw_helpful_tooltip
+		remove_variable = yay_predict
+		remove_variable = nay_predict
+		primary_title = {
+			if = {
+				limit = { exists = var:liberal_acceptance }
+				change_variable = { name = liberal_acceptance add = 100 }
+				set_variable = { name = liberal_rejectance value = { value = 200 subtract = var:liberal_acceptance } }
+				set_variable = { name = liberal_yay value = 0 }
+				set_variable = { name = liberal_nay value = 0 }
+			}
+			if = {
+				limit = { exists = var:socialist_acceptance }
+				change_variable = { name = socialist_acceptance add = 100 }
+				set_variable = { name = socialist_rejectance value = { value = 200 subtract = var:socialist_acceptance } }
+				set_variable = { name = socialist_yay value = 0 }
+				set_variable = { name = socialist_nay value = 0 }
+			}
+			if = {
+				limit = { exists = var:reactionary_acceptance }
+				change_variable = { name = reactionary_acceptance add = 100 }
+				set_variable = { name = reactionary_rejectance value = { value = 200 subtract = var:reactionary_acceptance } }
+				set_variable = { name = reactionary_yay value = 0 }
+				set_variable = { name = reactionary_nay value = 0 }
+			}
+			if = {
+				limit = { exists = var:fascist_acceptance }
+				change_variable = { name = fascist_acceptance add = 100 }
+				set_variable = { name = fascist_rejectance value = { value = 200 subtract = var:fascist_acceptance } }
+				set_variable = { name = fascist_yay value = 0 }
+				set_variable = { name = fascist_nay value = 0 }
+			}
+			if = {
+				limit = { exists = var:conservative_acceptance }
+				change_variable = { name = conservative_acceptance add = 100 }
+				set_variable = { name = conservative_rejectance value = { value = 200 subtract = var:conservative_acceptance } }
+				set_variable = { name = conservative_yay value = 0 }
+				set_variable = { name = conservative_nay value = 0 }
+			}
+			if = {
+				limit = { exists = var:communist_acceptance }
+				change_variable = { name = communist_acceptance add = 100 }
+				set_variable = { name = communist_rejectance value = { value = 200 subtract = var:communist_acceptance } }
+				set_variable = { name = communist_yay value = 0 }
+				set_variable = { name = communist_nay value = 0 }
+			}
+			if = {
+				limit = { exists = var:anarchist_acceptance }
+				change_variable = { name = anarchist_acceptance add = 100 }
+				set_variable = { name = anarchist_rejectance value = { value = 200 subtract = var:anarchist_acceptance } }
+				set_variable = { name = anarchist_yay value = 0 }
+				set_variable = { name = anarchist_nay value = 0 }
+			}
+			if = {
+				limit = { exists = var:independent_acceptance }
+				change_variable = { name = independent_acceptance add = 100 }
+				set_variable = { name = independent_rejectance value = { value = 200 subtract = var:independent_acceptance } }
+				set_variable = { name = independent_yay value = 0 }
+				set_variable = { name = independent_nay value = 0 }
+			}
+		}
+	}
+}
+
+# randomly evaluate a portion of the legislature's votes
+legislature.2 = {
+	type = character_event
+	hidden = yes
+
+	trigger = {
+		primary_title = {
+			OR = {
+				has_variable = debating_law
+			}
+		}
+	}
+
+	on_trigger_fail = {
+		every_held_title = {
+			limit = { has_variable = debating_law }
+			clear_domestic_leg_variables_effect = yes
+		}
+		trigger_event = legislature.100
+	}
+
+	immediate = {
+		primary_title = {
+			set_variable = { name = random_counter value = { 1 25 } }
+			random_list = {
+				1 = {
+					trigger = {
+						exists = var:liberal_acceptance
+						var:liberal_yay.compare_value < { value = 100 subtract = var:liberal_nay }
+					}
+					while = {
+						limit = {
+							var:liberal_yay.compare_value < { value = 100 subtract = var:liberal_nay }
+							var:random_counter = { compare_value > 0 }
+						}
+						random_list = {
+							0 = {
+								modifier = { add = var:liberal_acceptance }
+								change_variable = { name = liberal_yay add = 1 }
+							}
+							0 = {
+								modifier = { add = var:liberal_rejectance }
+								change_variable = { name = liberal_nay add = 1 }
+							}
+						}
+						change_variable = { name = random_counter subtract = 1 }
+					}
+				}
+				1 = {
+					trigger = {
+						exists = var:socialist_acceptance
+						var:socialist_yay.compare_value < { value = 100 subtract = var:socialist_nay }
+					}
+					while = {
+						limit = {
+							var:socialist_yay.compare_value < { value = 100 subtract = var:socialist_nay }
+							var:random_counter = { compare_value > 0 }
+						}
+						random_list = {
+							0 = {
+								modifier = { add = var:socialist_acceptance }
+								change_variable = { name = socialist_yay add = 1 }
+							}
+							0 = {
+								modifier = { add = var:socialist_rejectance }
+								change_variable = { name = socialist_nay add = 1 }
+							}
+						}
+						change_variable = { name = random_counter subtract = 1 }
+					}
+				}
+				1 = {
+					trigger = {
+						exists = var:reactionary_acceptance
+						var:reactionary_yay.compare_value < { value = 100 subtract = var:reactionary_nay }
+					}
+					while = {
+						limit = {
+							var:reactionary_yay.compare_value < { value = 100 subtract = var:reactionary_nay }
+							var:random_counter = { compare_value > 0 }
+						}
+						random_list = {
+							0 = {
+								modifier = { add = var:reactionary_acceptance }
+								change_variable = { name = reactionary_yay add = 1 }
+							}
+							0 = {
+								modifier = { add = var:reactionary_rejectance }
+								change_variable = { name = reactionary_nay add = 1 }
+							}
+						}
+						change_variable = { name = random_counter subtract = 1 }
+					}
+				}
+				1 = {
+					trigger = {
+						exists = var:fascist_acceptance
+						var:fascist_yay.compare_value < { value = 100 subtract = var:fascist_nay }
+					}
+					while = {
+						limit = {
+							var:fascist_yay.compare_value < { value = 100 subtract = var:fascist_nay }
+							var:random_counter = { compare_value > 0 }
+						}
+						random_list = {
+							0 = {
+								modifier = { add = var:fascist_acceptance }
+								change_variable = { name = fascist_yay add = 1 }
+							}
+							0 = {
+								modifier = { add = var:fascist_rejectance }
+								change_variable = { name = fascist_nay add = 1 }
+							}
+						}
+						change_variable = { name = random_counter subtract = 1 }
+					}
+				}
+				1 = {
+					trigger = {
+						exists = var:conservative_acceptance
+						var:conservative_yay.compare_value < { value = 100 subtract = var:conservative_nay }
+					}
+					while = {
+						limit = {
+							var:conservative_yay.compare_value < { value = 100 subtract = var:conservative_nay }
+							var:random_counter = { compare_value > 0 }
+						}
+						random_list = {
+							0 = {
+								modifier = { add = var:conservative_acceptance }
+								change_variable = { name = conservative_yay add = 1 }
+							}
+							0 = {
+								modifier = { add = var:conservative_rejectance }
+								change_variable = { name = conservative_nay add = 1 }
+							}
+						}
+						change_variable = { name = random_counter subtract = 1 }
+					}
+				}
+				1 = {
+					trigger = {
+						exists = var:communist_acceptance
+						var:communist_yay.compare_value < { value = 100 subtract = var:communist_nay }
+					}
+					while = {
+						limit = {
+							var:communist_yay.compare_value < { value = 100 subtract = var:communist_nay }
+							var:random_counter = { compare_value > 0 }
+						}
+						random_list = {
+							0 = {
+								modifier = { add = var:communist_acceptance }
+								change_variable = { name = communist_yay add = 1 }
+							}
+							0 = {
+								modifier = { add = var:communist_rejectance }
+								change_variable = { name = communist_nay add = 1 }
+							}
+						}
+						change_variable = { name = random_counter subtract = 1 }
+					}
+				}
+				1 = {
+					trigger = {
+						exists = var:anarchist_acceptance
+						var:anarchist_yay.compare_value < { value = 100 subtract = var:anarchist_nay }
+					}
+					while = {
+						limit = {
+							var:anarchist_yay.compare_value < { value = 100 subtract = var:anarchist_nay }
+							var:random_counter = { compare_value > 0 }
+						}
+						random_list = {
+							0 = {
+								modifier = { add = var:anarchist_acceptance }
+								change_variable = { name = anarchist_yay add = 1 }
+							}
+							0 = {
+								modifier = { add = var:anarchist_rejectance }
+								change_variable = { name = anarchist_nay add = 1 }
+							}
+						}
+						change_variable = { name = random_counter subtract = 1 }
+					}
+				}
+				1 = {
+					trigger = {
+						exists = var:independent_acceptance
+						var:independent_yay.compare_value < { value = 100 subtract = var:independent_nay }
+					}
+					while = {
+						limit = {
+							var:independent_yay.compare_value < { value = 100 subtract = var:independent_nay }
+							var:random_counter = { compare_value > 0 }
+						}
+						random_list = {
+							0 = {
+								modifier = { add = var:independent_acceptance }
+								change_variable = { name = independent_yay add = 1 }
+							}
+							0 = {
+								modifier = { add = var:independent_rejectance }
+								change_variable = { name = independent_nay add = 1 }
+							}
+						}
+						change_variable = { name = random_counter subtract = 1 }
+					}
+				}
+			}
+			if = {
+				limit = {
+					trigger_if = {
+						limit = { exists = var:liberal_acceptance }
+						var:liberal_yay.compare_value = { value = 100 subtract = var:liberal_nay }
+					}
+					trigger_if = {
+						limit = { exists = var:socialist_acceptance }
+						var:socialist_yay.compare_value = { value = 100 subtract = var:socialist_nay }
+					}
+					trigger_if = {
+						limit = { exists = var:reactionary_acceptance }
+						var:reactionary_yay.compare_value = { value = 100 subtract = var:reactionary_nay }
+					}
+					trigger_if = {
+						limit = { exists = var:fascist_acceptance }
+						var:fascist_yay.compare_value = { value = 100 subtract = var:fascist_nay }
+					}
+					trigger_if = {
+						limit = { exists = var:conservative_acceptance }
+						var:conservative_yay.compare_value = { value = 100 subtract = var:conservative_nay }
+					}
+					trigger_if = {
+						limit = { exists = var:communist_acceptance }
+						var:communist_yay.compare_value = { value = 100 subtract = var:communist_nay }
+					}
+					trigger_if = {
+						limit = { exists = var:anarchist_acceptance }
+						var:anarchist_yay.compare_value = { value = 100 subtract = var:anarchist_nay }
+					}
+					trigger_if = {
+						limit = { exists = var:independent_acceptance }
+						var:independent_yay.compare_value = { value = 100 subtract = var:independent_nay }
+					}
+				}
+				set_variable = { name = total_yay value = 0 }
+				set_variable = { name = total_nay value = 0 }
+				if = {
+					limit = { exists = var:liberal_acceptance }
+					if = {
+						limit = { var:liberal_acceptance = { compare_value > 100 } }
+						change_variable = { name = total_yay add = { value = var:liberal_yay multiply = 0.01 multiply = var:liberal_absvalue } }
+					}
+					else_if = {
+						limit = { var:liberal_acceptance = { compare_value < 100 } }
+						change_variable = { name = total_nay add = { value = var:liberal_nay multiply = 0.01 multiply = var:liberal_absvalue } }
+					}
+				}
+				if = {
+					limit = { exists = var:socialist_acceptance }
+					if = {
+						limit = { var:socialist_acceptance = { compare_value > 100 } }
+						change_variable = { name = total_yay add = { value = var:socialist_yay multiply = 0.01 multiply = var:socialist_absvalue } }
+					}
+					else_if = {
+						limit = { var:socialist_acceptance = { compare_value < 100 } }
+						change_variable = { name = total_nay add = { value = var:socialist_nay multiply = 0.01 multiply = var:socialist_absvalue } }
+					}
+				}
+				if = {
+					limit = { exists = var:reactionary_acceptance }
+					if = {
+						limit = { var:reactionary_acceptance = { compare_value > 100 } }
+						change_variable = { name = total_yay add = { value = var:reactionary_yay multiply = 0.01 multiply = var:reactionary_absvalue } }
+					}
+					else_if = {
+						limit = { var:reactionary_acceptance = { compare_value < 100 } }
+						change_variable = { name = total_nay add = { value = var:reactionary_nay multiply = 0.01 multiply = var:reactionary_absvalue } }
+					}
+				}
+				if = {
+					limit = { exists = var:fascist_acceptance }
+					if = {
+						limit = { var:fascist_acceptance = { compare_value > 100 } }
+						change_variable = { name = total_yay add = { value = var:fascist_yay multiply = 0.01 multiply = var:fascist_absvalue } }
+					}
+					else_if = {
+						limit = { var:fascist_acceptance = { compare_value < 100 } }
+						change_variable = { name = total_nay add = { value = var:fascist_nay multiply = 0.01 multiply = var:fascist_absvalue } }
+					}
+				}
+				if = {
+					limit = { exists = var:conservative_acceptance }
+					if = {
+						limit = { var:conservative_acceptance = { compare_value > 100 } }
+						change_variable = { name = total_yay add = { value = var:conservative_yay multiply = 0.01 multiply = var:conservative_absvalue } }
+					}
+					else_if = {
+						limit = { var:conservative_acceptance = { compare_value < 100 } }
+						change_variable = { name = total_nay add = { value = var:conservative_nay multiply = 0.01 multiply = var:conservative_absvalue } }
+					}
+				}
+				if = {
+					limit = { exists = var:communist_acceptance }
+					if = {
+						limit = { var:communist_acceptance = { compare_value > 100 } }
+						change_variable = { name = total_yay add = { value = var:communist_yay multiply = 0.01 multiply = var:communist_absvalue } }
+					}
+					else_if = {
+						limit = { var:communist_acceptance = { compare_value < 100 } }
+						change_variable = { name = total_nay add = { value = var:communist_nay multiply = 0.01 multiply = var:communist_absvalue } }
+					}
+				}
+				if = {
+					limit = { exists = var:anarchist_acceptance }
+					if = {
+						limit = { var:anarchist_acceptance = { compare_value > 100 } }
+						change_variable = { name = total_yay add = { value = var:anarchist_yay multiply = 0.01 multiply = var:anarchist_absvalue } }
+					}
+					else_if = {
+						limit = { var:anarchist_acceptance = { compare_value < 100 } }
+						change_variable = { name = total_nay add = { value = var:anarchist_nay multiply = 0.01 multiply = var:anarchist_absvalue } }
+					}
+				}
+				if = {
+					limit = { exists = var:independent_acceptance }
+					if = {
+						limit = { var:independent_acceptance = { compare_value > 100 } }
+						change_variable = { name = total_yay add = { value = var:independent_yay multiply = 0.01 multiply = var:independent_absvalue } }
+					}
+					else_if = {
+						limit = { var:independent_acceptance = { compare_value < 100 } }
+						change_variable = { name = total_nay add = { value = var:independent_nay multiply = 0.01 multiply = var:independent_absvalue } }
+					}
+				}
+				root = { trigger_event = { id = legislature.3 days = 1 } }
+			}
+			else = {
+				if = {
+					limit = { is_target_in_variable_list = { name = enacted_laws_list target = flag:apportionment_mixed } }
+					root = { trigger_event = { id = legislature.2 days = { 1 7 } } }
+				}
+				else = {
+					root = { trigger_event = { id = legislature.2 days = { 1 4 } } }
+				}
+			}
+		}
+	}
+}
+
+# notify if bill has passed or failed, and allow the character to veto if applicable
+legislature.3 = {
+	type = character_event
+	title = legislature.3.t
+	desc = {
+		desc = legislature.3.desc
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					primary_title = { var:total_yay.compare_value > { value = var:total_nay } }
+				}
+				desc = legislature.3.pass
+			}
+			desc = legislature.3.fail
+		}
+	}
+	theme = realm
+	left_portrait = {
+		character = root
+		animation = idle
+	}
+	right_portrait = {
+		character = scope:chancellor
+		animation = idle
+	}
+
+	immediate = {
+		if = {
+			limit = { has_councillor_for_skill = diplomacy }
+			random_diplomacy_councillor = { save_scope_as = chancellor }
+		}
+	}
+	
+	option = {
+		name = {
+			text = {
+				first_valid = {
+					triggered_desc = {
+						trigger = { primary_title = { var:total_yay.compare_value > { value = var:total_nay } } }
+						desc = legislature.3.a.pass
+					}
+					desc = legislature.3.a.fail
+				}
+			}
+		}
+		primary_title = {
+			if = {
+				limit = { var:total_yay.compare_value > { value = var:total_nay } }
+				if = {
+					limit = { exists = var:admitting_state }
+					root = { trigger_event = { id = united_states.3 days = 3 } }
+				}
+				else = {
+					if = {
+						limit = { var:debating_law = flag:admin_feudal }
+						remove_list_variable = { name = enacted_laws_list target = flag:admin_centralized }
+					}
+					else = {
+						remove_debating_law_category = yes
+						add_to_variable_list = { name = enacted_laws_list target = var:debating_law }
+					}
+					set_variable = { name = recent_reform_passed value = flag:recent_reform_passed years = 5 }
+				}
+			}
+			else = {
+				if = {
+					limit = { exists = var:admitting_state }
+				}
+				else = {
+					set_variable = { name = recent_reform_failed value = flag:recent_reform_failed years = 1 }
+				}
+			}
+		}
+	}
+
+	option = {
+		trigger = {
+			OR = {
+				primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:sovereign_semi_constitutional } }
+				has_government = republic_government
+			}
+			primary_title = { NOT = { exists = var:admitting_state } }
+		}
+		name = legislature.3.b
+		custom_tooltip = veto_helpful_tooltip
+		primary_title = {
+			if = {
+				limit = { var:total_yay.compare_value > { value = var:total_nay } }
+				set_variable = { name = recent_reform_failed value = flag:recent_reform_failed years = 1 }
+			}
+			else = {
+				if = {
+					limit = { var:debating_law = flag:admin_feudal }
+					remove_list_variable = { name = enacted_laws_list target = flag:admin_centralized }
+				}
+				else = {
+					remove_debating_law_category = yes
+					add_to_variable_list = { name = enacted_laws_list target = var:debating_law }
+				}
+				set_variable = { name = recent_reform_passed value = flag:recent_reform_passed years = 5 }
+			}
+		}
+		add_tyranny = minor_tyranny_gain
+		if = {
+			limit = { voting_against_own_party_domestic_trigger = yes }
+			random_list = {
+				50 = {
+					custom_tooltip = expel_helpful_tooltip
+					root = { trigger_event = { id = ideology.2 days = { 2 5 } } }
+				}
+				50 = {}
+			}
+		}
+		ai_chance = {
+			base = 1
+			modifier = {
+				factor = 0
+				voting_against_own_party_domestic_trigger = yes
+			}
+		}
+	}
+
+	after = {
+		primary_title = {
+			remove_variable = total_yay
+			remove_variable = total_nay
+			remove_variable = random_counter
+			clear_domestic_leg_variables_effect = yes
+		}
+	}
+}
+
+# Generate prediction from voting variables, player notification
+legislature.11 = {
+	type = character_event
+	title = legislature.1.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					has_councillor_for_skill = diplomacy
+				}
+				desc = legislature.1.chancellor.desc
+			}
+			desc = legislature.1.speaker.desc
+		}
+		desc = legislature.11.desc
+	}
+	theme = realm
+	left_portrait = {
+		character = root
+		animation = bold
+	}
+	right_portrait = {
+		character = scope:chancellor
+		animation = bold
+	}
+
+	immediate = {
+		if = {
+			limit = { has_councillor_for_skill = diplomacy }
+			random_diplomacy_councillor = { save_scope_as = chancellor }
+		}
+
+		primary_title = {
+			save_scope_value_as = { name = liberal_prop value = { value = var:liberal_absvalue divide = var:independent_pievalue } }
+			save_scope_value_as = { name = socialist_prop value = { value = var:socialist_absvalue divide = var:independent_pievalue } }
+			save_scope_value_as = { name = reactionary_prop value = { value = var:reactionary_absvalue divide = var:independent_pievalue } }
+			save_scope_value_as = { name = fascist_prop value = { value = var:fascist_absvalue divide = var:independent_pievalue } }
+			save_scope_value_as = { name = conservative_prop value = { value = var:conservative_absvalue divide = var:independent_pievalue } }
+			save_scope_value_as = { name = communist_prop value = { value = var:communist_absvalue divide = var:independent_pievalue } }
+			save_scope_value_as = { name = anarchist_prop value = { value = var:anarchist_absvalue divide = var:independent_pievalue } }
+		}
+
+		capital_county = {
+			set_variable = { name = yay_predict value = 0 }
+			set_variable = { name = nay_predict value = 0 }
+			set_variable = { name = yay_percent value = 0 }
+			set_variable = { name = nay_percent value = 0 }
+			if = {
+				limit = { exists = var:liberal_acceptance }
+				if = {
+					limit = { var:liberal_acceptance = { compare_value > 0 } }
+					change_variable = { name = yay_predict add = var:liberal_acceptance }
+					change_variable = { name = yay_percent add = scope:liberal_prop }
+				}
+				else_if = {
+					limit = { var:liberal_acceptance = { compare_value < 0 } }
+					change_variable = { name = nay_predict subtract = var:liberal_acceptance }
+					change_variable = { name = nay_percent add = scope:liberal_prop }
+				}
+			}
+			if = {
+				limit = { exists = var:socialist_acceptance }
+				if = {
+					limit = { var:socialist_acceptance = { compare_value > 0 } }
+					change_variable = { name = yay_predict add = var:socialist_acceptance }
+					change_variable = { name = yay_percent add = scope:socialist_prop }
+				}
+				else_if = {
+					limit = { var:socialist_acceptance = { compare_value < 0 } }
+					change_variable = { name = nay_predict subtract = var:socialist_acceptance }
+					change_variable = { name = nay_percent add = scope:socialist_prop }
+				}
+			}
+			if = {
+				limit = { exists = var:reactionary_acceptance }
+				if = {
+					limit = { var:reactionary_acceptance = { compare_value > 0 } }
+					change_variable = { name = yay_predict add = var:reactionary_acceptance }
+					change_variable = { name = yay_percent add = scope:reactionary_prop }
+				}
+				else_if = {
+					limit = { var:reactionary_acceptance = { compare_value < 0 } }
+					change_variable = { name = nay_predict subtract = var:reactionary_acceptance }
+					change_variable = { name = nay_percent add = scope:reactionary_prop }
+				}
+			}
+			if = {
+				limit = { exists = var:fascist_acceptance }
+				if = {
+					limit = { var:fascist_acceptance = { compare_value > 0 } }
+					change_variable = { name = yay_predict add = var:fascist_acceptance }
+					change_variable = { name = yay_percent add = scope:fascist_prop }
+				}
+				else_if = {
+					limit = { var:fascist_acceptance = { compare_value < 0 } }
+					change_variable = { name = nay_predict subtract = var:fascist_acceptance }
+					change_variable = { name = nay_percent add = scope:fascist_prop }
+				}
+			}
+			if = {
+				limit = { exists = var:conservative_acceptance }
+				if = {
+					limit = { var:conservative_acceptance = { compare_value > 0 } }
+					change_variable = { name = yay_predict add = var:conservative_acceptance }
+					change_variable = { name = yay_percent add = scope:conservative_prop }
+				}
+				else_if = {
+					limit = { var:conservative_acceptance = { compare_value < 0 } }
+					change_variable = { name = nay_predict subtract = var:conservative_acceptance }
+					change_variable = { name = nay_percent add = scope:conservative_prop }
+				}
+			}
+			if = {
+				limit = { exists = var:communist_acceptance }
+				if = {
+					limit = { var:communist_acceptance = { compare_value > 0 } }
+					change_variable = { name = yay_predict add = var:communist_acceptance }
+					change_variable = { name = yay_percent add = scope:communist_prop }
+				}
+				else_if = {
+					limit = { var:communist_acceptance = { compare_value < 0 } }
+					change_variable = { name = nay_predict subtract = var:communist_acceptance }
+					change_variable = { name = nay_percent add = scope:communist_prop }
+				}
+			}
+			if = {
+				limit = { exists = var:anarchist_acceptance }
+				if = {
+					limit = { var:anarchist_acceptance = { compare_value > 0 } }
+					change_variable = { name = yay_predict add = var:anarchist_acceptance }
+					change_variable = { name = yay_percent add = scope:anarchist_prop }
+				}
+				else_if = {
+					limit = { var:anarchist_acceptance = { compare_value < 0 } }
+					change_variable = { name = nay_predict subtract = var:anarchist_acceptance }
+					change_variable = { name = nay_percent add = scope:anarchist_prop }
+				}
+			}
+			change_variable = { name = yay_predict multiply = var:yay_percent }
+			change_variable = { name = nay_predict multiply = var:nay_percent }
+			remove_variable = yay_percent
+			remove_variable = nay_percent
+		}
+		trigger_event = { id = legislature.12 days = 2 }
+	}
+	
+	option = {
+		name = legislature.1.a
+		custom_tooltip = projected_outcome_ftooltip
+		if = {
+			limit = { capital_county = { exists = var:liberal_acceptance } }
+			custom_description_no_bullet = {
+				text = projected_fl
+			}
+		}
+		if = {
+			limit = { capital_county = { exists = var:socialist_acceptance } }
+			custom_description_no_bullet = {
+				text = projected_fs
+			}
+		}
+		if = {
+			limit = { capital_county = { exists = var:reactionary_acceptance } }
+			custom_description_no_bullet = {
+				text = projected_fr
+			}
+		}
+		if = {
+			limit = { capital_county = { exists = var:fascist_acceptance } }
+			custom_description_no_bullet = {
+				text = projected_ff
+			}
+		}
+		if = {
+			limit = { capital_county = { exists = var:conservative_acceptance } }
+			custom_description_no_bullet = {
+				text = projected_fcs
+			}
+		}
+		if = {
+			limit = { capital_county = { exists = var:communist_acceptance } }
+			custom_description_no_bullet = {
+				text = projected_fcm
+			}
+		}
+		if = {
+			limit = { capital_county = { exists = var:anarchist_acceptance } }
+			custom_description_no_bullet = {
+				text = projected_fa
+			}
+		}
+		custom_tooltip = withdraw_helpful_tooltip
+		remove_variable = yay_predict
+		remove_variable = nay_predict
+		capital_county = {
+			if = {
+				limit = { exists = var:liberal_acceptance }
+				change_variable = { name = liberal_acceptance add = 100 }
+				set_variable = { name = liberal_rejectance value = { value = 200 subtract = var:liberal_acceptance } }
+				set_variable = { name = liberal_yay value = 0 }
+				set_variable = { name = liberal_nay value = 0 }
+			}
+			if = {
+				limit = { exists = var:socialist_acceptance }
+				change_variable = { name = socialist_acceptance add = 100 }
+				set_variable = { name = socialist_rejectance value = { value = 200 subtract = var:socialist_acceptance } }
+				set_variable = { name = socialist_yay value = 0 }
+				set_variable = { name = socialist_nay value = 0 }
+			}
+			if = {
+				limit = { exists = var:reactionary_acceptance }
+				change_variable = { name = reactionary_acceptance add = 100 }
+				set_variable = { name = reactionary_rejectance value = { value = 200 subtract = var:reactionary_acceptance } }
+				set_variable = { name = reactionary_yay value = 0 }
+				set_variable = { name = reactionary_nay value = 0 }
+			}
+			if = {
+				limit = { exists = var:fascist_acceptance }
+				change_variable = { name = fascist_acceptance add = 100 }
+				set_variable = { name = fascist_rejectance value = { value = 200 subtract = var:fascist_acceptance } }
+				set_variable = { name = fascist_yay value = 0 }
+				set_variable = { name = fascist_nay value = 0 }
+			}
+			if = {
+				limit = { exists = var:conservative_acceptance }
+				change_variable = { name = conservative_acceptance add = 100 }
+				set_variable = { name = conservative_rejectance value = { value = 200 subtract = var:conservative_acceptance } }
+				set_variable = { name = conservative_yay value = 0 }
+				set_variable = { name = conservative_nay value = 0 }
+			}
+			if = {
+				limit = { exists = var:communist_acceptance }
+				change_variable = { name = communist_acceptance add = 100 }
+				set_variable = { name = communist_rejectance value = { value = 200 subtract = var:communist_acceptance } }
+				set_variable = { name = communist_yay value = 0 }
+				set_variable = { name = communist_nay value = 0 }
+			}
+			if = {
+				limit = { exists = var:anarchist_acceptance }
+				change_variable = { name = anarchist_acceptance add = 100 }
+				set_variable = { name = anarchist_rejectance value = { value = 200 subtract = var:anarchist_acceptance } }
+				set_variable = { name = anarchist_yay value = 0 }
+				set_variable = { name = anarchist_nay value = 0 }
+			}
+			if = {
+				limit = { exists = var:independent_acceptance }
+				change_variable = { name = independent_acceptance add = 100 }
+				set_variable = { name = independent_rejectance value = { value = 200 subtract = var:independent_acceptance } }
+				set_variable = { name = independent_yay value = 0 }
+				set_variable = { name = independent_nay value = 0 }
+			}
+		}
+	}
+}
+
+# randomly evaluate a portion of the legislature's votes
+legislature.12 = {
+	type = character_event
+	hidden = yes
+
+	trigger = {
+		primary_title = {
+			has_variable = debating_foreign
+		}
+		capital_county = {
+			OR = {
+				has_variable = liberal_acceptance
+				has_variable = socialist_acceptance
+				has_variable = reactionary_acceptance
+				has_variable = fascist_acceptance
+				has_variable = conservative_acceptance
+				has_variable = communist_acceptance
+				has_variable = anarchist_acceptance
+				has_variable = independent_acceptance
+			}
+		}
+	}
+
+	on_trigger_fail = {
+		every_held_title = {
+			limit = { has_variable = debating_foreign }
+			clear_foreign_leg_variables_effect = yes
+		}
+		every_held_title = {
+			limit = { tier = tier_county }
+			clear_domestic_leg_variables_effect = yes
+		}
+		trigger_event = legislature.100
+	}
+
+	immediate = {
+		capital_county = {
+			set_variable = { name = random_counter value = { 1 25 } }
+			random_list = {
+				1 = {
+					trigger = {
+						exists = var:liberal_acceptance
+						var:liberal_yay.compare_value < { value = 100 subtract = var:liberal_nay }
+					}
+					while = {
+						limit = {
+							var:liberal_yay.compare_value < { value = 100 subtract = var:liberal_nay }
+							var:random_counter = { compare_value > 0 }
+						}
+						random_list = {
+							0 = {
+								modifier = { add = var:liberal_acceptance }
+								change_variable = { name = liberal_yay add = 1 }
+							}
+							0 = {
+								modifier = { add = var:liberal_rejectance }
+								change_variable = { name = liberal_nay add = 1 }
+							}
+						}
+						change_variable = { name = random_counter subtract = 1 }
+					}
+				}
+				1 = {
+					trigger = {
+						exists = var:socialist_acceptance
+						var:socialist_yay.compare_value < { value = 100 subtract = var:socialist_nay }
+					}
+					while = {
+						limit = {
+							var:socialist_yay.compare_value < { value = 100 subtract = var:socialist_nay }
+							var:random_counter = { compare_value > 0 }
+						}
+						random_list = {
+							0 = {
+								modifier = { add = var:socialist_acceptance }
+								change_variable = { name = socialist_yay add = 1 }
+							}
+							0 = {
+								modifier = { add = var:socialist_rejectance }
+								change_variable = { name = socialist_nay add = 1 }
+							}
+						}
+						change_variable = { name = random_counter subtract = 1 }
+					}
+				}
+				1 = {
+					trigger = {
+						exists = var:reactionary_acceptance
+						var:reactionary_yay.compare_value < { value = 100 subtract = var:reactionary_nay }
+					}
+					while = {
+						limit = {
+							var:reactionary_yay.compare_value < { value = 100 subtract = var:reactionary_nay }
+							var:random_counter = { compare_value > 0 }
+						}
+						random_list = {
+							0 = {
+								modifier = { add = var:reactionary_acceptance }
+								change_variable = { name = reactionary_yay add = 1 }
+							}
+							0 = {
+								modifier = { add = var:reactionary_rejectance }
+								change_variable = { name = reactionary_nay add = 1 }
+							}
+						}
+						change_variable = { name = random_counter subtract = 1 }
+					}
+				}
+				1 = {
+					trigger = {
+						exists = var:fascist_acceptance
+						var:fascist_yay.compare_value < { value = 100 subtract = var:fascist_nay }
+					}
+					while = {
+						limit = {
+							var:fascist_yay.compare_value < { value = 100 subtract = var:fascist_nay }
+							var:random_counter = { compare_value > 0 }
+						}
+						random_list = {
+							0 = {
+								modifier = { add = var:fascist_acceptance }
+								change_variable = { name = fascist_yay add = 1 }
+							}
+							0 = {
+								modifier = { add = var:fascist_rejectance }
+								change_variable = { name = fascist_nay add = 1 }
+							}
+						}
+						change_variable = { name = random_counter subtract = 1 }
+					}
+				}
+				1 = {
+					trigger = {
+						exists = var:conservative_acceptance
+						var:conservative_yay.compare_value < { value = 100 subtract = var:conservative_nay }
+					}
+					while = {
+						limit = {
+							var:conservative_yay.compare_value < { value = 100 subtract = var:conservative_nay }
+							var:random_counter = { compare_value > 0 }
+						}
+						random_list = {
+							0 = {
+								modifier = { add = var:conservative_acceptance }
+								change_variable = { name = conservative_yay add = 1 }
+							}
+							0 = {
+								modifier = { add = var:conservative_rejectance }
+								change_variable = { name = conservative_nay add = 1 }
+							}
+						}
+						change_variable = { name = random_counter subtract = 1 }
+					}
+				}
+				1 = {
+					trigger = {
+						exists = var:communist_acceptance
+						var:communist_yay.compare_value < { value = 100 subtract = var:communist_nay }
+					}
+					while = {
+						limit = {
+							var:communist_yay.compare_value < { value = 100 subtract = var:communist_nay }
+							var:random_counter = { compare_value > 0 }
+						}
+						random_list = {
+							0 = {
+								modifier = { add = var:communist_acceptance }
+								change_variable = { name = communist_yay add = 1 }
+							}
+							0 = {
+								modifier = { add = var:communist_rejectance }
+								change_variable = { name = communist_nay add = 1 }
+							}
+						}
+						change_variable = { name = random_counter subtract = 1 }
+					}
+				}
+				1 = {
+					trigger = {
+						exists = var:anarchist_acceptance
+						var:anarchist_yay.compare_value < { value = 100 subtract = var:anarchist_nay }
+					}
+					while = {
+						limit = {
+							var:anarchist_yay.compare_value < { value = 100 subtract = var:anarchist_nay }
+							var:random_counter = { compare_value > 0 }
+						}
+						random_list = {
+							0 = {
+								modifier = { add = var:anarchist_acceptance }
+								change_variable = { name = anarchist_yay add = 1 }
+							}
+							0 = {
+								modifier = { add = var:anarchist_rejectance }
+								change_variable = { name = anarchist_nay add = 1 }
+							}
+						}
+						change_variable = { name = random_counter subtract = 1 }
+					}
+				}
+				1 = {
+					trigger = {
+						exists = var:independent_acceptance
+						var:independent_yay.compare_value < { value = 100 subtract = var:independent_nay }
+					}
+					while = {
+						limit = {
+							var:independent_yay.compare_value < { value = 100 subtract = var:independent_nay }
+							var:random_counter = { compare_value > 0 }
+						}
+						random_list = {
+							0 = {
+								modifier = { add = var:independent_acceptance }
+								change_variable = { name = independent_yay add = 1 }
+							}
+							0 = {
+								modifier = { add = var:independent_rejectance }
+								change_variable = { name = independent_nay add = 1 }
+							}
+						}
+						change_variable = { name = random_counter subtract = 1 }
+					}
+				}
+			}
+			if = {
+				limit = {
+					trigger_if = {
+						limit = { exists = var:liberal_acceptance }
+						var:liberal_yay.compare_value = { value = 100 subtract = var:liberal_nay }
+					}
+					trigger_if = {
+						limit = { exists = var:socialist_acceptance }
+						var:socialist_yay.compare_value = { value = 100 subtract = var:socialist_nay }
+					}
+					trigger_if = {
+						limit = { exists = var:reactionary_acceptance }
+						var:reactionary_yay.compare_value = { value = 100 subtract = var:reactionary_nay }
+					}
+					trigger_if = {
+						limit = { exists = var:fascist_acceptance }
+						var:fascist_yay.compare_value = { value = 100 subtract = var:fascist_nay }
+					}
+					trigger_if = {
+						limit = { exists = var:conservative_acceptance }
+						var:conservative_yay.compare_value = { value = 100 subtract = var:conservative_nay }
+					}
+					trigger_if = {
+						limit = { exists = var:communist_acceptance }
+						var:communist_yay.compare_value = { value = 100 subtract = var:communist_nay }
+					}
+					trigger_if = {
+						limit = { exists = var:anarchist_acceptance }
+						var:anarchist_yay.compare_value = { value = 100 subtract = var:anarchist_nay }
+					}
+					trigger_if = {
+						limit = { exists = var:independent_acceptance }
+						var:independent_yay.compare_value = { value = 100 subtract = var:independent_nay }
+					}
+				}
+				set_variable = { name = total_yay value = 0 }
+				set_variable = { name = total_nay value = 0 }
+				root.primary_title = {
+					save_scope_value_as = { name = liberal_absvalue value = var:liberal_absvalue }
+					save_scope_value_as = { name = socialist_absvalue value = var:socialist_absvalue }
+					save_scope_value_as = { name = reactionary_absvalue value = var:reactionary_absvalue }
+					save_scope_value_as = { name = conservative_absvalue value = var:fascist_absvalue }
+					save_scope_value_as = { name = fascist_absvalue value = var:conservative_absvalue }
+					save_scope_value_as = { name = communist_absvalue value = var:communist_absvalue }
+					save_scope_value_as = { name = anarchist_absvalue value = var:anarchist_absvalue }
+					save_scope_value_as = { name = independent_absvalue value = var:independent_absvalue }
+				}
+				if = {
+					limit = { exists = var:liberal_acceptance }
+					if = {
+						limit = { var:liberal_acceptance = { compare_value > 100 } }
+						change_variable = { name = total_yay add = { value = var:liberal_yay multiply = 0.01 multiply = scope:liberal_absvalue } }
+					}
+					else_if = {
+						limit = { var:liberal_acceptance = { compare_value < 100 } }
+						change_variable = { name = total_nay add = { value = var:liberal_nay multiply = 0.01 multiply = scope:liberal_absvalue } }
+					}
+				}
+				if = {
+					limit = { exists = var:socialist_acceptance }
+					if = {
+						limit = { var:socialist_acceptance = { compare_value > 100 } }
+						change_variable = { name = total_yay add = { value = var:socialist_yay multiply = 0.01 multiply = scope:socialist_absvalue } }
+					}
+					else_if = {
+						limit = { var:socialist_acceptance = { compare_value < 100 } }
+						change_variable = { name = total_nay add = { value = var:socialist_nay multiply = 0.01 multiply = scope:socialist_absvalue } }
+					}
+				}
+				if = {
+					limit = { exists = var:reactionary_acceptance }
+					if = {
+						limit = { var:reactionary_acceptance = { compare_value > 100 } }
+						change_variable = { name = total_yay add = { value = var:reactionary_yay multiply = 0.01 multiply = scope:reactionary_absvalue } }
+					}
+					else_if = {
+						limit = { var:reactionary_acceptance = { compare_value < 100 } }
+						change_variable = { name = total_nay add = { value = var:reactionary_nay multiply = 0.01 multiply = scope:reactionary_absvalue } }
+					}
+				}
+				if = {
+					limit = { exists = var:fascist_acceptance }
+					if = {
+						limit = { var:fascist_acceptance = { compare_value > 100 } }
+						change_variable = { name = total_yay add = { value = var:fascist_yay multiply = 0.01 multiply = scope:fascist_absvalue } }
+					}
+					else_if = {
+						limit = { var:fascist_acceptance = { compare_value < 100 } }
+						change_variable = { name = total_nay add = { value = var:fascist_nay multiply = 0.01 multiply = scope:fascist_absvalue } }
+					}
+				}
+				if = {
+					limit = { exists = var:conservative_acceptance }
+					if = {
+						limit = { var:conservative_acceptance = { compare_value > 100 } }
+						change_variable = { name = total_yay add = { value = var:conservative_yay multiply = 0.01 multiply = scope:conservative_absvalue } }
+					}
+					else_if = {
+						limit = { var:conservative_acceptance = { compare_value < 100 } }
+						change_variable = { name = total_nay add = { value = var:conservative_nay multiply = 0.01 multiply = scope:conservative_absvalue } }
+					}
+				}
+				if = {
+					limit = { exists = var:communist_acceptance }
+					if = {
+						limit = { var:communist_acceptance = { compare_value > 100 } }
+						change_variable = { name = total_yay add = { value = var:communist_yay multiply = 0.01 multiply = scope:communist_absvalue } }
+					}
+					else_if = {
+						limit = { var:communist_acceptance = { compare_value < 100 } }
+						change_variable = { name = total_nay add = { value = var:communist_nay multiply = 0.01 multiply = scope:communist_absvalue } }
+					}
+				}
+				if = {
+					limit = { exists = var:anarchist_acceptance }
+					if = {
+						limit = { var:anarchist_acceptance = { compare_value > 100 } }
+						change_variable = { name = total_yay add = { value = var:anarchist_yay multiply = 0.01 multiply = scope:anarchist_absvalue } }
+					}
+					else_if = {
+						limit = { var:anarchist_acceptance = { compare_value < 100 } }
+						change_variable = { name = total_nay add = { value = var:anarchist_nay multiply = 0.01 multiply = scope:anarchist_absvalue } }
+					}
+				}
+				if = {
+					limit = { exists = var:independent_acceptance }
+					if = {
+						limit = { var:independent_acceptance = { compare_value > 100 } }
+						change_variable = { name = total_yay add = { value = var:independent_yay multiply = 0.01 multiply = scope:independent_absvalue } }
+					}
+					else_if = {
+						limit = { var:independent_acceptance = { compare_value < 100 } }
+						change_variable = { name = total_nay add = { value = var:independent_nay multiply = 0.01 multiply = scope:independent_absvalue } }
+					}
+				}
+				root = { trigger_event = { id = legislature.13 days = 1 } }
+			}
+			else = {
+				if = {
+					limit = { root.primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:apportionment_mixed } } }
+					root = { trigger_event = { id = legislature.12 days = { 1 7 } } }
+				}
+				else = {
+					root = { trigger_event = { id = legislature.12 days = { 1 4 } } }
+				}
+			}
+		}
+	}
+}
+
+# notify if bill has passed or failed, and allow the character to veto if applicable
+legislature.13 = {
+	type = character_event
+	title = legislature.3.t
+	desc = {
+		desc = legislature.13.desc
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					capital_county = { var:total_yay.compare_value > { value = var:total_nay } }
+				}
+				desc = legislature.3.pass
+			}
+			desc = legislature.3.fail
+		}
+	}
+	theme = realm
+	left_portrait = {
+		character = root
+		animation = idle
+	}
+	right_portrait = {
+		character = scope:chancellor
+		animation = idle
+	}
+
+	immediate = {
+		if = {
+			limit = { has_councillor_for_skill = diplomacy }
+			random_diplomacy_councillor = { save_scope_as = chancellor }
+		}
+	}
+	
+	option = {
+		name = {
+			text = {
+				first_valid = {
+					triggered_desc = {
+						trigger = { capital_county = { var:total_yay.compare_value > { value = var:total_nay } } }
+						desc = legislature.3.a.pass
+					}
+					desc = legislature.3.a.fail
+				}
+			}
+		}
+		capital_county = {
+			if = {
+				limit = { var:total_yay.compare_value > { value = var:total_nay } }
+				if = {
+					limit = { root.primary_title = { exists = var:proposed_war_target } }
+					root.primary_title = {
+						var:proposed_war_target = {
+							save_scope_as = war_enemy
+						}
+						add_to_variable_list = {
+							name = valid_war_targets_list
+							target = scope:war_enemy
+						}
+					}
+				}
+			}
+			else = {
+				root.primary_title = { set_variable = { name = recent_foreign_debated value = flag:recent_foreign_debated years = 1 } }
+			}
+		}
+	}
+
+	after = {
+		capital_county = {
+			remove_variable = total_yay
+			remove_variable = total_nay
+			remove_variable = random_counter
+			clear_domestic_leg_variables_effect = yes
+		}
+		primary_title = { clear_foreign_leg_variables_effect = yes }
+	}
+}
+
+# Primary title changes, debate invalidated
+legislature.100 = {
+	type = character_event
+	title = legislature.100.t
+	desc = legislature.100.desc
+	theme = realm
+	left_portrait = {
+		character = root
+		animation = idle
+	}
+
+	immediate = {
+	}
+	
+	option = {
+		name = republic_election.5.a
+	}
+}

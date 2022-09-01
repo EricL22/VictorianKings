@@ -1,0 +1,9 @@
+k_durango = {
+	1562.1.1 = {
+		name = new_viscaya
+	}
+	1821.9.28 = {
+		de_jure_liege = e_mexico
+		reset_name = yes
+	}
+}

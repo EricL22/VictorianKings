@@ -1,0 +1,100 @@
+13415 = {
+        culture = native_american_minor
+        religion = pagan
+}
+13416 = {
+        culture = native_american_minor
+        religion = pagan
+}
+13417 = {
+        culture = native_american_minor
+        religion = pagan
+}
+13418 = {
+        culture = native_american_minor
+        religion = pagan
+}
+13419 = {
+        culture = native_american_minor
+        religion = pagan
+}
+13420 = {
+        culture = native_american_minor
+        religion = pagan
+}
+13421 = {
+        culture = native_american_minor
+        religion = pagan
+}
+13422 = {
+        culture = native_american_minor
+        religion = pagan
+}
+13423 = {
+        culture = native_american_minor
+        religion = pagan
+}
+13424 = {
+        culture = native_american_minor
+        religion = pagan
+}
+13425 = {
+        culture = native_american_minor
+        religion = pagan
+}
+13426 = {
+        culture = native_american_minor
+        religion = pagan
+}
+13427 = {
+        culture = native_american_minor
+        religion = pagan
+}
+13428 = {
+        culture = native_american_minor
+        religion = pagan
+}
+13429 = {
+        culture = native_american_minor
+        religion = pagan
+}
+13430 = {
+        culture = native_american_minor
+        religion = pagan
+}
+13431 = {
+        culture = native_american_minor
+        religion = pagan
+}
+13432 = {
+        culture = native_american_minor
+        religion = pagan
+}
+13433 = {
+        culture = native_american_minor
+        religion = pagan
+}
+13434 = {
+        culture = native_american_minor
+        religion = pagan
+}
+13435 = {
+        culture = native_american_minor
+        religion = pagan
+}
+13436 = {
+        culture = native_american_minor
+        religion = pagan
+}
+13437 = {
+        culture = native_american_minor
+        religion = pagan
+}
+13438 = {
+        culture = native_american_minor
+        religion = pagan
+}
+13439 = {
+        culture = native_american_minor
+        religion = pagan
+}

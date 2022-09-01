@@ -1,0 +1,116 @@
+12992 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12993 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12994 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12995 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12996 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12997 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12998 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12999 = {
+        culture = native_american_minor
+        religion = pagan
+}
+13000 = {
+        culture = native_american_minor
+        religion = pagan
+}
+13001 = {
+        culture = native_american_minor
+        religion = pagan
+}
+13002 = {
+        culture = native_american_minor
+        religion = pagan
+}
+13003 = {
+        culture = native_american_minor
+        religion = pagan
+}
+13004 = {
+        culture = native_american_minor
+        religion = pagan
+}
+13005 = {
+        culture = native_american_minor
+        religion = pagan
+}
+13006 = {
+        culture = native_american_minor
+        religion = pagan
+}
+13007 = {
+        culture = native_american_minor
+        religion = pagan
+}
+13008 = {
+        culture = native_american_minor
+        religion = pagan
+}
+13009 = {
+        culture = native_american_minor
+        religion = pagan
+}
+13010 = {
+        culture = native_american_minor
+        religion = pagan
+}
+13011 = {
+        culture = native_american_minor
+        religion = pagan
+}
+13012 = {
+        culture = native_american_minor
+        religion = pagan
+}
+13013 = {
+        culture = native_american_minor
+        religion = pagan
+}
+13014 = {
+        culture = native_american_minor
+        religion = pagan
+}
+13015 = {
+        culture = native_american_minor
+        religion = pagan
+}
+13016 = {
+        culture = native_american_minor
+        religion = pagan
+}
+13017 = {
+        culture = native_american_minor
+        religion = pagan
+}
+13018 = {
+        culture = native_american_minor
+        religion = pagan
+}
+13019 = {
+        culture = native_american_minor
+        religion = pagan
+}
+13020 = {
+        culture = native_american_minor
+        religion = pagan
+}

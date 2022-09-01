@@ -8,7 +8,10 @@
 				save_scope_as = replace_vp
 			}
 			set_designated_heir = scope:replace_vp
-			add_realm_law = hierarchy_city_succession_law
+			if = {
+				limit = { NOT = { has_realm_law = hierarchy_city_succession_law } }
+				add_realm_law = hierarchy_city_succession_law
+			}
 		}
 	}
 }

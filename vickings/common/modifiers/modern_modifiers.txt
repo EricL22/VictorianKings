@@ -59,6 +59,9 @@ anarchist_party_modifier = {
 	independent_ruler_opinion = -5
 	monthly_county_control_change_factor = -1.0
 }
+independent_party_modifier = {
+	icon = diplomacy_negative
+}
 
 restrict_royal_court_modifier = {
 	icon = prestige_negative

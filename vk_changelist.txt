@@ -1,5 +1,4 @@
 0.5------------
-Replaced the boring vanilla music with handpicked era-appropriate pieces
 Government rework:
 -- A separate Legislature exists in constitutional monarchies and republics. It is elected depending on your voting franchise and checks the power of the sovereign/executive, voting on most issues.
 -- The voting system now has much more input from its constituents. For example, a landed system will allow all landed vassals to choose a candidate, while universal suffrage looks at individual counties for party support.
@@ -8,6 +7,9 @@ Government rework:
 Added United States ability to admit new states into the union (which also changes the flag accordingly)
 Extended the map to the west coast of the United States and south to Mexico and the Caribbean
 Added event for the Ottomans to regain Hejaz after the Second Egyptian-Ottoman War
+United States territorial conquest now automatically puts conquered territories into existing de jure states or territories, if applicable
+Added cultural innovation to increase diplomatic range, especially useful for America
+Replaced the boring vanilla music with handpicked era-appropriate pieces
 0.4.3---------- (Commit 9c206e8)
 Fixed multiple choose ideology event spam when you gain multiple titles
 Fixed triggering a choose ideology event if you restore the French Empire

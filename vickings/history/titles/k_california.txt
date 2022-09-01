@@ -1,0 +1,8 @@
+k_california = {
+	1804.1.1 = {
+		name = alta_california
+	}
+	1821.9.28 = {
+		de_jure_liege = e_mexico
+	}
+}

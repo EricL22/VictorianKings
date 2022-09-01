@@ -2069,287 +2069,756 @@ window = {
 						alpha = 0
 					}
 
-					vbox = {
-						margin = { 30 15 }
-						margin_bottom = 700
-						spacing = 18
+					scrollbox = {
 						layoutpolicy_horizontal = expanding
+						layoutpolicy_vertical = expanding
 
-						text_label_center = {
-							text = "MY_REALM_WINDOW_POLITICAL_REFORM"
-						}
-
-						hbox = {
-							layoutpolicy_horizontal = growing
-							spacing = 20
+						blockoverride "scrollbox_content" {
 							vbox = {
-								layoutpolicy_horizontal = growing
-								text_single = {
+								margin = { 20 15 }
+								spacing = 18
+								layoutpolicy_horizontal = expanding
+
+								text_label_center = {
+									text = "MY_REALM_WINDOW_POLITICAL_REFORM"
+								}
+
+								hbox = {
 									layoutpolicy_horizontal = growing
-									max_width = 350
-									text = "MY_REALM_WINDOW_ADMINISTRATIVE_REFORM"
+									spacing = 20
+									vbox = {
+										layoutpolicy_horizontal = growing
+										text_single = {
+											layoutpolicy_horizontal = growing
+											max_width = 350
+											text = "MY_REALM_WINDOW_ADMINISTRATIVE_REFORM"
+										}
+									}
+
+									button_standard = {
+										size = { 100 60 }
+										tooltip = "[GetScriptedGui('can_pass_admin_feudal').BuildTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										enabled = "[GetScriptedGui('can_pass_admin_feudal').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										onclick = "[GetScriptedGui('can_pass_admin_feudal').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+
+										text_multi = {
+											text = "administration_feudal"
+											size = { 100% 100% }
+											align = center
+											margin = { 8 5 }
+											default_format = "#high"
+										}
+
+										icon = {
+											name = "victory_glow"
+											visible = "[GetScriptedGui('has_admin_feudal').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+											size = { 100% 100% }
+											texture = "gfx/interface/component_masks/mask_fade_circle.dds"
+											using = Color_Orange
+											alpha = 0.8
+										}
+									}
+									button_standard = {
+										size = { 100 60 }
+										tooltip = "[GetScriptedGui('can_pass_admin_centralized').BuildTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										enabled = "[GetScriptedGui('can_pass_admin_centralized').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										onclick = "[GetScriptedGui('can_pass_admin_centralized').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+
+										text_multi = {
+											text = "administration_centralized"
+											size = { 100% 100% }
+											align = center
+											margin = { 8 5 }
+											default_format = "#high"
+										}
+
+										icon = {
+											name = "victory_glow"
+											visible = "[GetScriptedGui('has_admin_centralized').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+											size = { 100% 100% }
+											texture = "gfx/interface/component_masks/mask_fade_circle.dds"
+											using = Color_Orange
+											alpha = 0.8
+										}
+									}
+								}
+
+								hbox = {
+									visible = "[GetScriptedGui('can_pass_sovereign_power_laws').IsShown(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+									layoutpolicy_horizontal = growing
+									spacing = 20
+									vbox = {
+										layoutpolicy_horizontal = growing
+										text_single = {
+											layoutpolicy_horizontal = growing
+											max_width = 350
+											text = "MY_REALM_WINDOW_SOVEREIGN_POWER"
+										}
+									}
+
+									button_standard = {
+										size = { 100 60 }
+										tooltip = "[GetScriptedGui('can_pass_sovereign_absolute').BuildTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										enabled = "[GetScriptedGui('can_pass_sovereign_absolute').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										onclick = "[GetScriptedGui('can_pass_sovereign_absolute').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+
+										text_multi = {
+											text = "sovereign_absolute"
+											size = { 100% 100% }
+											align = center
+											margin = { 8 5 }
+											default_format = "#high"
+										}
+
+										icon = {
+											name = "victory_glow"
+											visible = "[GetScriptedGui('has_sovereign_absolute').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+											size = { 100% 100% }
+											texture = "gfx/interface/component_masks/mask_fade_circle.dds"
+											using = Color_Orange
+											alpha = 0.8
+										}
+									}
+									button_standard = {
+										size = { 100 60 }
+										tooltip = "[GetScriptedGui('can_pass_sovereign_semi_constitutional').BuildTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										enabled = "[GetScriptedGui('can_pass_sovereign_semi_constitutional').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										onclick = "[GetScriptedGui('can_pass_sovereign_semi_constitutional').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+
+										text_multi = {
+											text = "sovereign_semi_constitutional"
+											size = { 100% 100% }
+											align = center
+											margin = { 8 5 }
+											default_format = "#high"
+										}
+
+										icon = {
+											name = "victory_glow"
+											visible = "[GetScriptedGui('has_sovereign_semi_constitutional').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+											size = { 100% 100% }
+											texture = "gfx/interface/component_masks/mask_fade_circle.dds"
+											using = Color_Orange
+											alpha = 0.8
+										}
+									}
+									button_standard = {
+										size = { 100 60 }
+										tooltip = "[GetScriptedGui('can_pass_sovereign_constitutional').BuildTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										enabled = "[GetScriptedGui('can_pass_sovereign_constitutional').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										onclick = "[GetScriptedGui('can_pass_sovereign_constitutional').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+
+										text_multi = {
+											text = "sovereign_constitutional"
+											fontsize = 13
+											size = { 100% 100% }
+											align = center
+											margin = { 8 5 }
+											default_format = "#high"
+										}
+
+										icon = {
+											name = "victory_glow"
+											visible = "[GetScriptedGui('has_sovereign_constitutional').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+											size = { 100% 100% }
+											texture = "gfx/interface/component_masks/mask_fade_circle.dds"
+											using = Color_Orange
+											alpha = 0.8
+										}
+									}
+								}
+
+								hbox = {
+									visible = "[Not(GetScriptedGui('can_pass_sovereign_power_laws').IsShown(GuiScope.SetRoot(GetPlayer.MakeScope).End))]"
+									layoutpolicy_horizontal = growing
+									spacing = 20
+									vbox = {
+										layoutpolicy_horizontal = growing
+										text_single = {
+											layoutpolicy_horizontal = growing
+											max_width = 350
+											text = "MY_REALM_WINDOW_ELIGIBILITY"
+										}
+									}
+
+									button_standard = {
+										size = { 100 60 }
+										tooltip = "[GetScriptedGui('can_pass_eligibility_default').BuildTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										enabled = "[GetScriptedGui('can_pass_eligibility_default').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										onclick = "[GetScriptedGui('can_pass_eligibility_default').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+
+										text_multi = {
+											text = "eligibility_default"
+											size = { 100% 100% }
+											align = center
+											margin = { 8 5 }
+											default_format = "#high"
+										}
+
+										icon = {
+											name = "victory_glow"
+											visible = "[GetScriptedGui('has_eligibility_default').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+											size = { 100% 100% }
+											texture = "gfx/interface/component_masks/mask_fade_circle.dds"
+											using = Color_Orange
+											alpha = 0.8
+										}
+									}
+									button_standard = {
+										size = { 100 60 }
+										tooltip = "[GetScriptedGui('can_pass_eligibility_one_party').BuildTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										enabled = "[GetScriptedGui('can_pass_eligibility_one_party').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										onclick = "[GetScriptedGui('can_pass_eligibility_one_party').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+
+										text_multi = {
+											text = "eligibility_one_party"
+											size = { 100% 100% }
+											align = center
+											margin = { 8 5 }
+											default_format = "#high"
+										}
+
+										icon = {
+											name = "victory_glow"
+											visible = "[GetScriptedGui('has_eligibility_one_party').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+											size = { 100% 100% }
+											texture = "gfx/interface/component_masks/mask_fade_circle.dds"
+											using = Color_Orange
+											alpha = 0.8
+										}
+									}
+								}
+
+								hbox = {
+									visible = "[GetScriptedGui('realm_uses_legislature_tab').IsShown(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+									layoutpolicy_horizontal = growing
+									spacing = 20
+									vbox = {
+										layoutpolicy_horizontal = growing
+										text_single = {
+											layoutpolicy_horizontal = growing
+											max_width = 350
+											text = "MY_REALM_WINDOW_VELIGIBILITY"
+										}
+									}
+
+									button_standard = {
+										size = { 100 60 }
+										tooltip = "[GetScriptedGui('can_pass_eligibility_state').BuildTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										enabled = "[GetScriptedGui('can_pass_eligibility_state').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										onclick = "[GetScriptedGui('can_pass_eligibility_state').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+
+										text_multi = {
+											text = "eligibility_state"
+											size = { 100% 100% }
+											align = center
+											margin = { 8 5 }
+											default_format = "#high"
+										}
+
+										icon = {
+											name = "victory_glow"
+											visible = "[GetScriptedGui('has_eligibility_state').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+											size = { 100% 100% }
+											texture = "gfx/interface/component_masks/mask_fade_circle.dds"
+											using = Color_Orange
+											alpha = 0.8
+										}
+									}
+									button_standard = {
+										size = { 100 60 }
+										tooltip = "[GetScriptedGui('can_pass_eligibility_de_jure').BuildTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										enabled = "[GetScriptedGui('can_pass_eligibility_de_jure').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										onclick = "[GetScriptedGui('can_pass_eligibility_de_jure').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+
+										text_multi = {
+											text = "eligibility_de_jure"
+											size = { 100% 100% }
+											align = center
+											margin = { 8 5 }
+											default_format = "#high"
+										}
+
+										icon = {
+											name = "victory_glow"
+											visible = "[GetScriptedGui('has_eligibility_de_jure').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+											size = { 100% 100% }
+											texture = "gfx/interface/component_masks/mask_fade_circle.dds"
+											using = Color_Orange
+											alpha = 0.8
+										}
+									}
+									button_standard = {
+										size = { 100 60 }
+										tooltip = "[GetScriptedGui('can_pass_eligibility_de_facto').BuildTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										enabled = "[GetScriptedGui('can_pass_eligibility_de_facto').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										onclick = "[GetScriptedGui('can_pass_eligibility_de_facto').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+
+										text_multi = {
+											text = "eligibility_de_facto"
+											size = { 100% 100% }
+											align = center
+											margin = { 8 5 }
+											default_format = "#high"
+										}
+
+										icon = {
+											name = "victory_glow"
+											visible = "[GetScriptedGui('has_eligibility_de_facto').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+											size = { 100% 100% }
+											texture = "gfx/interface/component_masks/mask_fade_circle.dds"
+											using = Color_Orange
+											alpha = 0.8
+										}
+									}
+								}
+
+								hbox = {
+									visible = "[GetScriptedGui('realm_uses_legislature_tab').IsShown(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+									layoutpolicy_horizontal = growing
+									spacing = 10
+									vbox = {
+										layoutpolicy_horizontal = growing
+										text_single = {
+											layoutpolicy_horizontal = growing
+											max_width = 350
+											text = "MY_REALM_WINDOW_APPORTIONMENT"
+										}
+									}
+
+									button_standard = {
+										visible = "[GetScriptedGui('can_pass_sovereign_power_laws').IsShown(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										size = { 100 60 }
+										tooltip = "[GetScriptedGui('can_pass_apportionment_landed').BuildTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										enabled = "[GetScriptedGui('can_pass_apportionment_landed').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										onclick = "[GetScriptedGui('can_pass_apportionment_landed').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+
+										text_multi = {
+											text = "apportionment_landed"
+											size = { 100% 100% }
+											align = center
+											margin = { 8 5 }
+											default_format = "#high"
+										}
+
+										icon = {
+											name = "victory_glow"
+											visible = "[GetScriptedGui('has_apportionment_landed').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+											size = { 100% 100% }
+											texture = "gfx/interface/component_masks/mask_fade_circle.dds"
+											using = Color_Orange
+											alpha = 0.8
+										}
+									}
+									button_standard = {
+										visible = "[Not(GetScriptedGui('can_pass_sovereign_power_laws').IsShown(GuiScope.SetRoot(GetPlayer.MakeScope).End))]"
+										size = { 90 60 }
+										tooltip = "[GetScriptedGui('can_pass_apportionment_equal').BuildTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										enabled = "[GetScriptedGui('can_pass_apportionment_equal').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										onclick = "[GetScriptedGui('can_pass_apportionment_equal').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+
+										text_multi = {
+											text = "apportionment_equal"
+											size = { 100% 100% }
+											align = center
+											margin = { 8 5 }
+											default_format = "#high"
+										}
+
+										icon = {
+											name = "victory_glow"
+											visible = "[GetScriptedGui('has_apportionment_equal').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+											size = { 100% 100% }
+											texture = "gfx/interface/component_masks/mask_fade_circle.dds"
+											using = Color_Orange
+											alpha = 0.8
+										}
+									}
+									button_standard = {
+										size = { 90 60 }
+										tooltip = "[GetScriptedGui('can_pass_apportionment_mixed').BuildTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										enabled = "[GetScriptedGui('can_pass_apportionment_mixed').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										onclick = "[GetScriptedGui('can_pass_apportionment_mixed').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+
+										text_multi = {
+											text = "apportionment_mixed"
+											size = { 100% 100% }
+											align = center
+											margin = { 8 5 }
+											default_format = "#high"
+										}
+
+										icon = {
+											name = "victory_glow"
+											visible = "[GetScriptedGui('has_apportionment_mixed').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+											size = { 100% 100% }
+											texture = "gfx/interface/component_masks/mask_fade_circle.dds"
+											using = Color_Orange
+											alpha = 0.8
+										}
+									}
+									button_standard = {
+										size = { 90 60 }
+										tooltip = "[GetScriptedGui('can_pass_apportionment_population').BuildTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										enabled = "[GetScriptedGui('can_pass_apportionment_population').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										onclick = "[GetScriptedGui('can_pass_apportionment_population').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+
+										text_multi = {
+											text = "apportionment_population"
+											size = { 100% 100% }
+											align = center
+											margin = { 8 5 }
+											default_format = "#high"
+										}
+
+										icon = {
+											name = "victory_glow"
+											visible = "[GetScriptedGui('has_apportionment_population').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+											size = { 100% 100% }
+											texture = "gfx/interface/component_masks/mask_fade_circle.dds"
+											using = Color_Orange
+											alpha = 0.8
+										}
+									}
+								}
+
+								hbox = {
+									visible = "[GetScriptedGui('realm_uses_legislature_tab').IsShown(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+									layoutpolicy_horizontal = growing
+									spacing = 10
+									vbox = {
+										layoutpolicy_horizontal = growing
+										text_single = {
+											layoutpolicy_horizontal = growing
+											max_width = 350
+											text = "MY_REALM_WINDOW_VOTING_FRANCHISE"
+										}
+									}
+
+									button_standard = {
+										size = { 70 60 }
+										tooltip = "[GetScriptedGui('can_pass_vote_franchise_landed').BuildTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										enabled = "[GetScriptedGui('can_pass_vote_franchise_landed').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										onclick = "[GetScriptedGui('can_pass_vote_franchise_landed').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+
+										text_multi = {
+											text = "vote_franchise_landed"
+											size = { 100% 100% }
+											align = center
+											margin = { 8 5 }
+											default_format = "#high"
+										}
+
+										icon = {
+											name = "victory_glow"
+											visible = "[GetScriptedGui('has_vote_franchise_landed').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+											size = { 100% 100% }
+											texture = "gfx/interface/component_masks/mask_fade_circle.dds"
+											using = Color_Orange
+											alpha = 0.8
+										}
+									}
+									button_standard = {
+										size = { 70 60 }
+										tooltip = "[GetScriptedGui('can_pass_vote_franchise_wealth').BuildTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										enabled = "[GetScriptedGui('can_pass_vote_franchise_wealth').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										onclick = "[GetScriptedGui('can_pass_vote_franchise_wealth').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+
+										text_multi = {
+											text = "vote_franchise_wealth"
+											size = { 100% 100% }
+											align = center
+											margin = { 8 5 }
+											default_format = "#high"
+										}
+
+										icon = {
+											name = "victory_glow"
+											visible = "[GetScriptedGui('has_vote_franchise_wealth').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+											size = { 100% 100% }
+											texture = "gfx/interface/component_masks/mask_fade_circle.dds"
+											using = Color_Orange
+											alpha = 0.8
+										}
+									}
+									button_standard = {
+										size = { 80 60 }
+										tooltip = "[GetScriptedGui('can_pass_vote_franchise_universal_manhood').BuildTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										enabled = "[GetScriptedGui('can_pass_vote_franchise_universal_manhood').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										onclick = "[GetScriptedGui('can_pass_vote_franchise_universal_manhood').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+
+										text_multi = {
+											text = "vote_franchise_universal_manhood"
+											size = { 100% 100% }
+											align = center
+											margin = { 8 5 }
+											default_format = "#high"
+										}
+
+										icon = {
+											name = "victory_glow"
+											visible = "[GetScriptedGui('has_vote_franchise_universal_manhood').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+											size = { 100% 100% }
+											texture = "gfx/interface/component_masks/mask_fade_circle.dds"
+											using = Color_Orange
+											alpha = 0.8
+										}
+									}
+									button_standard = {
+										size = { 80 60 }
+										tooltip = "[GetScriptedGui('can_pass_vote_franchise_universal').BuildTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										enabled = "[GetScriptedGui('can_pass_vote_franchise_universal').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										onclick = "[GetScriptedGui('can_pass_vote_franchise_universal').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+
+										text_multi = {
+											text = "vote_franchise_universal"
+											size = { 100% 100% }
+											align = center
+											margin = { 8 5 }
+											default_format = "#high"
+										}
+
+										icon = {
+											name = "victory_glow"
+											visible = "[GetScriptedGui('has_vote_franchise_universal').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+											size = { 100% 100% }
+											texture = "gfx/interface/component_masks/mask_fade_circle.dds"
+											using = Color_Orange
+											alpha = 0.8
+										}
+									}
+								}
+
+								hbox = {
+									visible = "[GetScriptedGui('realm_uses_legislature_tab').IsShown(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+									layoutpolicy_horizontal = growing
+									spacing = 20
+									vbox = {
+										layoutpolicy_horizontal = growing
+										text_single = {
+											layoutpolicy_horizontal = growing
+											max_width = 350
+											text = "MY_REALM_WINDOW_VOTING_SYSTEM"
+										}
+									}
+
+									button_standard = {
+										size = { 100 60 }
+										tooltip = "[GetScriptedGui('can_pass_vote_system_two_party').BuildTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										enabled = "[GetScriptedGui('can_pass_vote_system_two_party').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										onclick = "[GetScriptedGui('can_pass_vote_system_two_party').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+
+										text_multi = {
+											text = "vote_system_two_party"
+											size = { 100% 100% }
+											align = center
+											margin = { 8 5 }
+											default_format = "#high"
+										}
+
+										icon = {
+											name = "victory_glow"
+											visible = "[GetScriptedGui('has_vote_system_two_party').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+											size = { 100% 100% }
+											texture = "gfx/interface/component_masks/mask_fade_circle.dds"
+											using = Color_Orange
+											alpha = 0.8
+										}
+									}
+									button_standard = {
+										size = { 100 60 }
+										tooltip = "[GetScriptedGui('can_pass_vote_system_jefferson').BuildTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										enabled = "[GetScriptedGui('can_pass_vote_system_jefferson').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										onclick = "[GetScriptedGui('can_pass_vote_system_jefferson').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+
+										text_multi = {
+											text = "vote_system_jefferson"
+											size = { 100% 100% }
+											align = center
+											margin = { 8 5 }
+											default_format = "#high"
+										}
+
+										icon = {
+											name = "victory_glow"
+											visible = "[GetScriptedGui('has_vote_system_jefferson').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+											size = { 100% 100% }
+											texture = "gfx/interface/component_masks/mask_fade_circle.dds"
+											using = Color_Orange
+											alpha = 0.8
+										}
+									}
+									button_standard = {
+										size = { 100 60 }
+										tooltip = "[GetScriptedGui('can_pass_vote_system_proportional').BuildTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										enabled = "[GetScriptedGui('can_pass_vote_system_proportional').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										onclick = "[GetScriptedGui('can_pass_vote_system_proportional').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+
+										text_multi = {
+											text = "vote_system_proportional"
+											size = { 100% 100% }
+											align = center
+											margin = { 8 5 }
+											default_format = "#high"
+										}
+
+										icon = {
+											name = "victory_glow"
+											visible = "[GetScriptedGui('has_vote_system_proportional').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+											size = { 100% 100% }
+											texture = "gfx/interface/component_masks/mask_fade_circle.dds"
+											using = Color_Orange
+											alpha = 0.8
+										}
+									}
 								}
 							}
 
-							button_standard = {
-								size = { 100 60 }
-								tooltip = "[GetScriptedGui('can_pass_admin_feudal').BuildTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-								enabled = "[GetScriptedGui('can_pass_admin_feudal').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-								onclick = "[GetScriptedGui('can_pass_admin_feudal').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-
-								text_multi = {
-									text = "administration_feudal"
-									size = { 100% 100% }
-									align = center
-									margin = { 8 5 }
-									default_format = "#high"
-								}
-
-								icon = {
-									name = "victory_glow"
-									visible = "[GetScriptedGui('has_admin_feudal').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-									size = { 100% 100% }
-									texture = "gfx/interface/component_masks/mask_fade_circle.dds"
-									using = Color_Orange
-									alpha = 0.8
-								}
-							}
-							button_standard = {
-								size = { 100 60 }
-								tooltip = "[GetScriptedGui('can_pass_admin_centralized').BuildTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-								enabled = "[GetScriptedGui('can_pass_admin_centralized').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-								onclick = "[GetScriptedGui('can_pass_admin_centralized').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-
-								text_multi = {
-									text = "administration_centralized"
-									size = { 100% 100% }
-									align = center
-									margin = { 8 5 }
-									default_format = "#high"
-								}
-
-								icon = {
-									name = "victory_glow"
-									visible = "[GetScriptedGui('has_admin_centralized').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-									size = { 100% 100% }
-									texture = "gfx/interface/component_masks/mask_fade_circle.dds"
-									using = Color_Orange
-									alpha = 0.8
-								}
-							}
-						}
-
-						hbox = {
-							visible = "[GetScriptedGui('can_pass_sovereign_power_laws').IsShown(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-							layoutpolicy_horizontal = growing
-							spacing = 20
 							vbox = {
-								layoutpolicy_horizontal = growing
-								text_single = {
-									layoutpolicy_horizontal = growing
-									max_width = 350
-									text = "MY_REALM_WINDOW_SOVEREIGN_POWER"
-								}
-							}
+								margin = { 30 15 }
+								spacing = 18
+								layoutpolicy_horizontal = expanding
 
-							button_standard = {
-								size = { 100 60 }
-								tooltip = "[GetScriptedGui('can_pass_sovereign_absolute').BuildTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-								enabled = "[GetScriptedGui('can_pass_sovereign_absolute').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-								onclick = "[GetScriptedGui('can_pass_sovereign_absolute').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-
-								text_multi = {
-									text = "sovereign_absolute"
-									size = { 100% 100% }
-									align = center
-									margin = { 8 5 }
-									default_format = "#high"
+								text_label_center = {
+									text = "MY_REALM_WINDOW_SOCIAL_REFORM"
 								}
 
-								icon = {
-									name = "victory_glow"
-									visible = "[GetScriptedGui('has_sovereign_absolute').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-									size = { 100% 100% }
-									texture = "gfx/interface/component_masks/mask_fade_circle.dds"
-									using = Color_Orange
-									alpha = 0.8
+								hbox = {
+									tooltip = "your_ideology_tooltip"
+									visible = "[GetScriptedGui('root_is_liberal').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+									spacing = 5
+
+									icon = {
+										name = "party_icon"
+										size = { 90 90 }
+										texture = "gfx/interface/victorian/liberal.dds"
+									}
+
+									text_single = {
+										name = "political_party"
+										text = "ideology.1.a"
+										default_format = "#high"
+									}
 								}
-							}
-							button_standard = {
-								size = { 100 60 }
-								tooltip = "[GetScriptedGui('can_pass_sovereign_semi_constitutional').BuildTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-								enabled = "[GetScriptedGui('can_pass_sovereign_semi_constitutional').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-								onclick = "[GetScriptedGui('can_pass_sovereign_semi_constitutional').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+								hbox = {
+									tooltip = "your_ideology_tooltip"
+									visible = "[GetScriptedGui('root_is_socialist').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+									spacing = 5
 
-								text_multi = {
-									text = "sovereign_semi_constitutional"
-									size = { 100% 100% }
-									align = center
-									margin = { 8 5 }
-									default_format = "#high"
+									icon = {
+										name = "party_icon"
+										size = { 90 90 }
+										texture = "gfx/interface/victorian/socialist.dds"
+									}
+
+									text_single = {
+										name = "political_party"
+										text = "ideology.1.b"
+										default_format = "#high"
+									}
 								}
+								hbox = {
+									tooltip = "your_ideology_tooltip"
+									visible = "[GetScriptedGui('root_is_reactionary').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+									spacing = 5
 
-								icon = {
-									name = "victory_glow"
-									visible = "[GetScriptedGui('has_sovereign_semi_constitutional').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-									size = { 100% 100% }
-									texture = "gfx/interface/component_masks/mask_fade_circle.dds"
-									using = Color_Orange
-									alpha = 0.8
+									icon = {
+										name = "party_icon"
+										size = { 90 90 }
+										texture = "gfx/interface/victorian/reactionary.dds"
+									}
+
+									text_single = {
+										name = "political_party"
+										text = "ideology.1.c"
+										default_format = "#high"
+									}
 								}
-							}
-							button_standard = {
-								size = { 100 60 }
-								tooltip = "[GetScriptedGui('can_pass_sovereign_constitutional').BuildTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-								enabled = "[GetScriptedGui('can_pass_sovereign_constitutional').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-								onclick = "[GetScriptedGui('can_pass_sovereign_constitutional').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+								hbox = {
+									tooltip = "your_ideology_tooltip"
+									visible = "[GetScriptedGui('root_is_fascist').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+									spacing = 5
 
-								text_multi = {
-									text = "sovereign_constitutional"
-									fontsize = 13
-									size = { 100% 100% }
-									align = center
-									margin = { 8 5 }
-									default_format = "#high"
+									icon = {
+										name = "party_icon"
+										size = { 90 90 }
+										texture = "gfx/interface/victorian/fascist.dds"
+									}
+
+									text_single = {
+										name = "political_party"
+										text = "ideology.1.d"
+										default_format = "#high"
+									}
 								}
+								hbox = {
+									tooltip = "your_ideology_tooltip"
+									visible = "[GetScriptedGui('root_is_conservative').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+									spacing = 5
 
-								icon = {
-									name = "victory_glow"
-									visible = "[GetScriptedGui('has_sovereign_constitutional').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-									size = { 100% 100% }
-									texture = "gfx/interface/component_masks/mask_fade_circle.dds"
-									using = Color_Orange
-									alpha = 0.8
+									icon = {
+										name = "party_icon"
+										size = { 90 90 }
+										texture = "gfx/interface/victorian/conservatism.dds"
+									}
+
+									text_single = {
+										name = "political_party"
+										text = "ideology.1.e"
+										default_format = "#high"
+									}
 								}
-							}
-						}
+								hbox = {
+									tooltip = "your_ideology_tooltip"
+									visible = "[GetScriptedGui('root_is_communist').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+									spacing = 5
 
-						hbox = {
-							tooltip = "Your Political Party"
-							visible = "[GetScriptedGui('root_is_liberal').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+									icon = {
+										name = "party_icon"
+										size = { 90 90 }
+										texture = "gfx/interface/victorian/communist.dds"
+									}
 
-							icon = {
-								name = "party_icon"
-								size = { 90 90 }
-								texture = "gfx/interface/victorian/liberal.dds"
-							}
+									text_single = {
+										name = "political_party"
+										text = "ideology.1.f"
+										default_format = "#high"
+									}
+								}
+								hbox = {
+									tooltip = "your_ideology_tooltip"
+									visible = "[GetScriptedGui('root_is_anarchist').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+									spacing = 5
 
-							text_single = {
-								name = "political_party"
-								text = "ideology.1.a"
-								default_format = "#high"
-							}
-						}
-						hbox = {
-							tooltip = "Your Political Party"
-							visible = "[GetScriptedGui('root_is_socialist').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+									icon = {
+										name = "party_icon"
+										size = { 90 90 }
+										texture = "gfx/interface/victorian/anarcho_liberal.dds"
+									}
 
-							icon = {
-								name = "party_icon"
-								size = { 90 90 }
-								texture = "gfx/interface/victorian/socialist.dds"
-							}
+									text_single = {
+										name = "political_party"
+										text = "ideology.1.g"
+										default_format = "#high"
+									}
+								}
+								hbox = {
+									tooltip = "your_ideology_none_tooltip"
+									visible = "[GetScriptedGui('root_no_political_party').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+									spacing = 5
 
-							text_single = {
-								name = "political_party"
-								text = "ideology.1.b"
-								default_format = "#high"
-							}
-						}
-						hbox = {
-							tooltip = "Your Political Party"
-							visible = "[GetScriptedGui('root_is_reactionary').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+									icon = {
+										name = "party_icon"
+										size = { 90 90 }
+										texture = "gfx/interface/victorian/_none.dds"
+									}
 
-							icon = {
-								name = "party_icon"
-								size = { 90 90 }
-								texture = "gfx/interface/victorian/reactionary.dds"
-							}
-
-							text_single = {
-								name = "political_party"
-								text = "ideology.1.c"
-								default_format = "#high"
-							}
-						}
-						hbox = {
-							tooltip = "Your Political Party"
-							visible = "[GetScriptedGui('root_is_fascist').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-
-							icon = {
-								name = "party_icon"
-								size = { 90 90 }
-								texture = "gfx/interface/victorian/fascist.dds"
-							}
-
-							text_single = {
-								name = "political_party"
-								text = "ideology.1.d"
-								default_format = "#high"
-							}
-						}
-						hbox = {
-							tooltip = "Your Political Party"
-							visible = "[GetScriptedGui('root_is_conservative').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-
-							icon = {
-								name = "party_icon"
-								size = { 90 90 }
-								texture = "gfx/interface/victorian/conservatism.dds"
-							}
-
-							text_single = {
-								name = "political_party"
-								text = "ideology.1.e"
-								default_format = "#high"
-							}
-						}
-						hbox = {
-							tooltip = "Your Political Party"
-							visible = "[GetScriptedGui('root_is_communist').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-
-							icon = {
-								name = "party_icon"
-								size = { 90 90 }
-								texture = "gfx/interface/victorian/communist.dds"
-							}
-
-							text_single = {
-								name = "political_party"
-								text = "ideology.1.f"
-								default_format = "#high"
-							}
-						}
-						hbox = {
-							tooltip = "Your Political Party"
-							visible = "[GetScriptedGui('root_is_anarchist').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-
-							icon = {
-								name = "party_icon"
-								size = { 90 90 }
-								texture = "gfx/interface/victorian/anarcho_liberal.dds"
-							}
-
-							text_single = {
-								name = "political_party"
-								text = "ideology.1.g"
-								default_format = "#high"
-							}
-						}
-						hbox = {
-							tooltip = "You have not yet joined a political party. To do so, select the appropriate decision."
-							visible = "[GetScriptedGui('root_no_political_party').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-
-							icon = {
-								name = "party_icon"
-								size = { 90 90 }
-								texture = "gfx/interface/victorian/_none.dds"
-							}
-
-							text_single = {
-								name = "political_party"
-								text = "None"
-								default_format = "#high"
+									text_single = {
+										name = "political_party"
+										text = "term_limit_off"
+										default_format = "#high"
+									}
+								}
 							}
 						}
 					}
@@ -2377,7 +2846,7 @@ window = {
 						layoutpolicy_horizontal = expanding
 
 						text_label_center = {
-							text = "Legislature of the [GetPlayer.GetLiege.GetPrimaryTitle.GetBaseName|U]"
+							text = "MY_REALM_WINDOW_TOP_LEGISLATURE"
 
 							using = Font_Type_Flavor
 							using = Font_Size_Big
@@ -2390,18 +2859,709 @@ window = {
 
 						blockoverride "scrollbox_content" {
 							vbox = {
+								visible = "[Or(GetScriptedGui('leg_currently_debating_domestic').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End), GetScriptedGui('leg_currently_debating_foreign').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End))]"
+								spacing = 5
+								layoutpolicy_horizontal = expanding
+								margin_bottom = 20
+
+								text_single = {
+									text = "MY_REALM_WINDOW_CURRENTLY_DEBATING"
+									fontsize = 20
+								}
+
+								vbox = {
+									visible = "[GetScriptedGui('leg_currently_debating_domestic').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+									layoutpolicy_horizontal = growing
+									spacing = 5
+									text_single = {
+										text = "MY_REALM_WINDOW_DOMESTIC_DEBATE"
+										fontsize = 15
+									}
+
+									hbox = {
+										layoutpolicy_horizontal = fixed
+										spacing = 20
+										margin_left = 275
+										text_single = {
+											text = "debate_favor"
+											fontsize = 13
+										}
+										text_single = {
+											text = "debate_opposed"
+											fontsize = 13
+										}
+									}
+
+									hbox = {
+										visible = "[GetScriptedGui('leg_has_liberal').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										layoutpolicy_horizontal = fixed
+										spacing = 235
+
+										text_single = {
+											name = "political_party"
+											text = "ideology.1.a"
+											fontsize = 13
+											margin_bottom = 2
+										}
+
+										hbox = {
+											layoutpolicy_horizontal = fixed
+											spacing = 50
+											text_single = {
+												text = "[GetPlayer.GetTopLiege.GetPrimaryTitle.MakeScope.Var('liberal_yay').GetValue]%"
+												fontsize = 13
+											}
+											text_single = {
+												text = "[GetPlayer.GetTopLiege.GetPrimaryTitle.MakeScope.Var('liberal_nay').GetValue]%"
+												fontsize = 13
+											}
+										}
+									}
+									hbox = {
+										visible = "[GetScriptedGui('leg_has_socialist').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										layoutpolicy_horizontal = fixed
+										spacing = 227
+
+										text_single = {
+											name = "political_party"
+											text = "ideology.1.b"
+											fontsize = 13
+											margin_bottom = 2
+										}
+
+										hbox = {
+											layoutpolicy_horizontal = fixed
+											spacing = 50
+											text_single = {
+												text = "[GetPlayer.GetTopLiege.GetPrimaryTitle.MakeScope.Var('socialist_yay').GetValue]%"
+												fontsize = 13
+											}
+											text_single = {
+												text = "[GetPlayer.GetTopLiege.GetPrimaryTitle.MakeScope.Var('socialist_nay').GetValue]%"
+												fontsize = 13
+											}
+										}
+									}
+									hbox = {
+										visible = "[GetScriptedGui('leg_has_communist').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										layoutpolicy_horizontal = fixed
+										spacing = 208
+
+										text_single = {
+											name = "political_party"
+											text = "ideology.1.f"
+											fontsize = 13
+											margin_bottom = 2
+										}
+
+										hbox = {
+											layoutpolicy_horizontal = fixed
+											spacing = 50
+											text_single = {
+												text = "[GetPlayer.GetTopLiege.GetPrimaryTitle.MakeScope.Var('communist_yay').GetValue]%"
+												fontsize = 13
+											}
+											text_single = {
+												text = "[GetPlayer.GetTopLiege.GetPrimaryTitle.MakeScope.Var('communist_nay').GetValue]%"
+												fontsize = 13
+											}
+										}
+									}
+									hbox = {
+										visible = "[GetScriptedGui('leg_has_anarchist').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										layoutpolicy_horizontal = fixed
+										spacing = 218
+
+										text_single = {
+											name = "political_party"
+											text = "ideology.1.g"
+											fontsize = 13
+											margin_bottom = 2
+										}
+
+										hbox = {
+											layoutpolicy_horizontal = fixed
+											spacing = 50
+											text_single = {
+												text = "[GetPlayer.GetTopLiege.GetPrimaryTitle.MakeScope.Var('anarchist_yay').GetValue]%"
+												fontsize = 13
+											}
+											text_single = {
+												text = "[GetPlayer.GetTopLiege.GetPrimaryTitle.MakeScope.Var('anarchist_nay').GetValue]%"
+												fontsize = 13
+											}
+										}
+									}
+									hbox = {
+										visible = "[GetScriptedGui('leg_has_conservative').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										layoutpolicy_horizontal = fixed
+										spacing = 200
+
+										text_single = {
+											name = "political_party"
+											text = "ideology.1.e"
+											fontsize = 13
+											margin_bottom = 2
+										}
+
+										hbox = {
+											layoutpolicy_horizontal = fixed
+											spacing = 50
+											text_single = {
+												text = "[GetPlayer.GetTopLiege.GetPrimaryTitle.MakeScope.Var('conservative_yay').GetValue]%"
+												fontsize = 13
+											}
+											text_single = {
+												text = "[GetPlayer.GetTopLiege.GetPrimaryTitle.MakeScope.Var('conservative_nay').GetValue]%"
+												fontsize = 13
+											}
+										}
+									}
+									hbox = {
+										visible = "[GetScriptedGui('leg_has_reactionary').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										layoutpolicy_horizontal = fixed
+										spacing = 206
+
+										text_single = {
+											name = "political_party"
+											text = "ideology.1.c"
+											fontsize = 13
+											margin_bottom = 2
+										}
+
+										hbox = {
+											layoutpolicy_horizontal = fixed
+											spacing = 50
+											text_single = {
+												text = "[GetPlayer.GetTopLiege.GetPrimaryTitle.MakeScope.Var('reactionary_yay').GetValue]%"
+												fontsize = 13
+											}
+											text_single = {
+												text = "[GetPlayer.GetTopLiege.GetPrimaryTitle.MakeScope.Var('reactionary_nay').GetValue]%"
+												fontsize = 13
+											}
+										}
+									}
+									hbox = {
+										visible = "[GetScriptedGui('leg_has_fascist').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										layoutpolicy_horizontal = fixed
+										spacing = 235
+
+										text_single = {
+											name = "political_party"
+											text = "ideology.1.d"
+											fontsize = 13
+											margin_bottom = 2
+										}
+
+										hbox = {
+											layoutpolicy_horizontal = fixed
+											spacing = 50
+											text_single = {
+												text = "[GetPlayer.GetTopLiege.GetPrimaryTitle.MakeScope.Var('fascist_yay').GetValue]%"
+												fontsize = 13
+											}
+											text_single = {
+												text = "[GetPlayer.GetTopLiege.GetPrimaryTitle.MakeScope.Var('fascist_nay').GetValue]%"
+												fontsize = 13
+											}
+										}
+									}
+									hbox = {
+										visible = "[GetScriptedGui('leg_has_independent').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										layoutpolicy_horizontal = fixed
+										spacing = 202
+
+										text_single = {
+											name = "political_party"
+											text = "ideology.INDEPENDENT"
+											fontsize = 13
+											margin_bottom = 2
+										}
+
+										hbox = {
+											layoutpolicy_horizontal = fixed
+											spacing = 50
+											text_single = {
+												text = "[GetPlayer.GetTopLiege.GetPrimaryTitle.MakeScope.Var('independent_yay').GetValue]%"
+												fontsize = 13
+											}
+											text_single = {
+												text = "[GetPlayer.GetTopLiege.GetPrimaryTitle.MakeScope.Var('independent_nay').GetValue]%"
+												fontsize = 13
+											}
+										}
+									}
+								}
+
+								vbox = {
+									visible = "[GetScriptedGui('leg_currently_debating_foreign').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+									layoutpolicy_horizontal = growing
+									spacing = 5
+									text_single = {
+										text = "MY_REALM_WINDOW_FOREIGN_DEBATE"
+										fontsize = 15
+									}
+
+									hbox = {
+										layoutpolicy_horizontal = fixed
+										spacing = 20
+										margin_left = 275
+										text_single = {
+											text = "debate_favor"
+											fontsize = 13
+										}
+										text_single = {
+											text = "debate_opposed"
+											fontsize = 13
+										}
+									}
+
+									hbox = {
+										visible = "[GetScriptedGui('leg_has_liberal').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										layoutpolicy_horizontal = fixed
+										spacing = 235
+
+										text_single = {
+											name = "political_party"
+											text = "ideology.1.a"
+											fontsize = 13
+											margin_bottom = 2
+										}
+
+										hbox = {
+											layoutpolicy_horizontal = fixed
+											spacing = 50
+											text_single = {
+												text = "[GetPlayer.GetTopLiege.GetCapitalLocation.GetCounty.GetTitle.MakeScope.Var('liberal_yay').GetValue]%"
+												fontsize = 13
+											}
+											text_single = {
+												text = "[GetPlayer.GetTopLiege.GetCapitalLocation.GetCounty.GetTitle.MakeScope.Var('liberal_nay').GetValue]%"
+												fontsize = 13
+											}
+										}
+									}
+									hbox = {
+										visible = "[GetScriptedGui('leg_has_socialist').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										layoutpolicy_horizontal = fixed
+										spacing = 227
+
+										text_single = {
+											name = "political_party"
+											text = "ideology.1.b"
+											fontsize = 13
+											margin_bottom = 2
+										}
+
+										hbox = {
+											layoutpolicy_horizontal = fixed
+											spacing = 50
+											text_single = {
+												text = "[GetPlayer.GetTopLiege.GetCapitalLocation.GetCounty.GetTitle.MakeScope.Var('socialist_yay').GetValue]%"
+												fontsize = 13
+											}
+											text_single = {
+												text = "[GetPlayer.GetTopLiege.GetCapitalLocation.GetCounty.GetTitle.MakeScope.Var('socialist_nay').GetValue]%"
+												fontsize = 13
+											}
+										}
+									}
+									hbox = {
+										visible = "[GetScriptedGui('leg_has_communist').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										layoutpolicy_horizontal = fixed
+										spacing = 208
+
+										text_single = {
+											name = "political_party"
+											text = "ideology.1.f"
+											fontsize = 13
+											margin_bottom = 2
+										}
+
+										hbox = {
+											layoutpolicy_horizontal = fixed
+											spacing = 50
+											text_single = {
+												text = "[GetPlayer.GetTopLiege.GetCapitalLocation.GetCounty.GetTitle.MakeScope.Var('communist_yay').GetValue]%"
+												fontsize = 13
+											}
+											text_single = {
+												text = "[GetPlayer.GetTopLiege.GetCapitalLocation.GetCounty.GetTitle.MakeScope.Var('communist_nay').GetValue]%"
+												fontsize = 13
+											}
+										}
+									}
+									hbox = {
+										visible = "[GetScriptedGui('leg_has_anarchist').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										layoutpolicy_horizontal = fixed
+										spacing = 218
+
+										text_single = {
+											name = "political_party"
+											text = "ideology.1.g"
+											fontsize = 13
+											margin_bottom = 2
+										}
+
+										hbox = {
+											layoutpolicy_horizontal = fixed
+											spacing = 50
+											text_single = {
+												text = "[GetPlayer.GetTopLiege.GetCapitalLocation.GetCounty.GetTitle.MakeScope.Var('anarchist_yay').GetValue]%"
+												fontsize = 13
+											}
+											text_single = {
+												text = "[GetPlayer.GetTopLiege.GetCapitalLocation.GetCounty.GetTitle.MakeScope.Var('anarchist_nay').GetValue]%"
+												fontsize = 13
+											}
+										}
+									}
+									hbox = {
+										visible = "[GetScriptedGui('leg_has_conservative').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										layoutpolicy_horizontal = fixed
+										spacing = 200
+
+										text_single = {
+											name = "political_party"
+											text = "ideology.1.e"
+											fontsize = 13
+											margin_bottom = 2
+										}
+
+										hbox = {
+											layoutpolicy_horizontal = fixed
+											spacing = 50
+											text_single = {
+												text = "[GetPlayer.GetTopLiege.GetCapitalLocation.GetCounty.GetTitle.MakeScope.Var('conservative_yay').GetValue]%"
+												fontsize = 13
+											}
+											text_single = {
+												text = "[GetPlayer.GetTopLiege.GetCapitalLocation.GetCounty.GetTitle.MakeScope.Var('conservative_nay').GetValue]%"
+												fontsize = 13
+											}
+										}
+									}
+									hbox = {
+										visible = "[GetScriptedGui('leg_has_reactionary').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										layoutpolicy_horizontal = fixed
+										spacing = 206
+
+										text_single = {
+											name = "political_party"
+											text = "ideology.1.c"
+											fontsize = 13
+											margin_bottom = 2
+										}
+
+										hbox = {
+											layoutpolicy_horizontal = fixed
+											spacing = 50
+											text_single = {
+												text = "[GetPlayer.GetTopLiege.GetCapitalLocation.GetCounty.GetTitle.MakeScope.Var('reactionary_yay').GetValue]%"
+												fontsize = 13
+											}
+											text_single = {
+												text = "[GetPlayer.GetTopLiege.GetCapitalLocation.GetCounty.GetTitle.MakeScope.Var('reactionary_nay').GetValue]%"
+												fontsize = 13
+											}
+										}
+									}
+									hbox = {
+										visible = "[GetScriptedGui('leg_has_fascist').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										layoutpolicy_horizontal = fixed
+										spacing = 235
+
+										text_single = {
+											name = "political_party"
+											text = "ideology.1.d"
+											fontsize = 13
+											margin_bottom = 2
+										}
+
+										hbox = {
+											layoutpolicy_horizontal = fixed
+											spacing = 50
+											text_single = {
+												text = "[GetPlayer.GetTopLiege.GetCapitalLocation.GetCounty.GetTitle.MakeScope.Var('fascist_yay').GetValue]%"
+												fontsize = 13
+											}
+											text_single = {
+												text = "[GetPlayer.GetTopLiege.GetCapitalLocation.GetCounty.GetTitle.MakeScope.Var('fascist_nay').GetValue]%"
+												fontsize = 13
+											}
+										}
+									}
+									hbox = {
+										visible = "[GetScriptedGui('leg_has_independent').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										layoutpolicy_horizontal = fixed
+										spacing = 202
+
+										text_single = {
+											name = "political_party"
+											text = "ideology.INDEPENDENT"
+											fontsize = 13
+											margin_bottom = 2
+										}
+
+										hbox = {
+											layoutpolicy_horizontal = fixed
+											spacing = 50
+											text_single = {
+												text = "[GetPlayer.GetTopLiege.GetCapitalLocation.GetCounty.GetTitle.MakeScope.Var('independent_yay').GetValue]%"
+												fontsize = 13
+											}
+											text_single = {
+												text = "[GetPlayer.GetTopLiege.GetCapitalLocation.GetCounty.GetTitle.MakeScope.Var('independent_nay').GetValue]%"
+												fontsize = 13
+											}
+										}
+									}
+								}
+							}
+
+							vbox = {
 								spacing = 18
 								layoutpolicy_horizontal = expanding
+								margin_bottom = 10
 
 								text_label_center = {
 									text = "MY_REALM_WINDOW_LEGISLATURE_COMPOSITION"
 								}
 
-								icon = {
-									tooltip = "Placeholder pie chart"
-									name = "legislature_icon"
+								widget = {
+									name = "legislature_piechart"
+									tooltip = "[GetScriptedGui('evaluate_legislature_percentages').BuildTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
 									size = { 300 300 }
-									texture = "gfx/interface/progressbars/progresspie_1.dds"
+
+									progresspie = {
+										name = "slice_8"
+										size = { 300 300 }
+										texture = "gfx/interface/progressbars/progresspie_7.dds"
+										framesize = { 124 124 }
+										frame = 2
+										value = "[Subtract_float( '(float)100', CurrentAndMaxToProgressbarValueInt32( FixedPointToInt( GetPlayer.GetTopLiege.GetPrimaryTitle.MakeScope.Var('independent_pievalue').GetValue ), FixedPointToInt( GetPlayer.GetTopLiege.GetPrimaryTitle.MakeScope.Var('independent_pievalue').GetValue ) ) )]"
+									}
+
+									progresspie = {
+										name = "slice_7"
+										size = { 300 300 }
+										texture = "gfx/interface/progressbars/progresspie_3.dds"
+										framesize = { 124 124 }
+										frame = 2
+										value = "[Subtract_float( '(float)100', CurrentAndMaxToProgressbarValueInt32( FixedPointToInt( GetPlayer.GetTopLiege.GetPrimaryTitle.MakeScope.Var('anarchist_pievalue').GetValue ), FixedPointToInt( GetPlayer.GetTopLiege.GetPrimaryTitle.MakeScope.Var('independent_pievalue').GetValue ) ) )]"
+									}
+
+									progresspie = {
+										name = "slice_6"
+										size = { 300 300 }
+										texture = "gfx/interface/progressbars/progresspie_1.dds"
+										framesize = { 124 124 }
+										frame = 2
+										value = "[Subtract_float( '(float)100', CurrentAndMaxToProgressbarValueInt32( FixedPointToInt( GetPlayer.GetTopLiege.GetPrimaryTitle.MakeScope.Var('communist_pievalue').GetValue ), FixedPointToInt( GetPlayer.GetTopLiege.GetPrimaryTitle.MakeScope.Var('independent_pievalue').GetValue ) ) )]"
+									}
+
+									progresspie = {
+										name = "slice_5"
+										size = { 300 300 }
+										texture = "gfx/interface/progressbars/progresspie_8.dds"
+										framesize = { 124 124 }
+										frame = 2
+										value = "[Subtract_float( '(float)100', CurrentAndMaxToProgressbarValueInt32( FixedPointToInt( GetPlayer.GetTopLiege.GetPrimaryTitle.MakeScope.Var('conservative_pievalue').GetValue ), FixedPointToInt( GetPlayer.GetTopLiege.GetPrimaryTitle.MakeScope.Var('independent_pievalue').GetValue ) ) )]"
+									}
+
+									progresspie = {
+										name = "slice_4"
+										size = { 300 300 }
+										texture = "gfx/interface/progressbars/progresspie_2.dds"
+										framesize = { 124 124 }
+										frame = 2
+										value = "[Subtract_float( '(float)100', CurrentAndMaxToProgressbarValueInt32( FixedPointToInt( GetPlayer.GetTopLiege.GetPrimaryTitle.MakeScope.Var('fascist_pievalue').GetValue ), FixedPointToInt( GetPlayer.GetTopLiege.GetPrimaryTitle.MakeScope.Var('independent_pievalue').GetValue ) ) )]"
+									}
+
+									progresspie = {
+										name = "slice_3"
+										size = { 300 300 }
+										texture = "gfx/interface/progressbars/progresspie_10.dds"
+										framesize = { 124 124 }
+										frame = 2
+										value = "[Subtract_float( '(float)100', CurrentAndMaxToProgressbarValueInt32( FixedPointToInt( GetPlayer.GetTopLiege.GetPrimaryTitle.MakeScope.Var('reactionary_pievalue').GetValue ), FixedPointToInt( GetPlayer.GetTopLiege.GetPrimaryTitle.MakeScope.Var('independent_pievalue').GetValue ) ) )]"
+									}
+
+									progresspie = {
+										name = "slice_2"
+										size = { 300 300 }
+										texture = "gfx/interface/progressbars/progresspie_12.dds"
+										framesize = { 124 124 }
+										frame = 2
+										value = "[Subtract_float( '(float)100', CurrentAndMaxToProgressbarValueInt32( FixedPointToInt( GetPlayer.GetTopLiege.GetPrimaryTitle.MakeScope.Var('socialist_pievalue').GetValue ), FixedPointToInt( GetPlayer.GetTopLiege.GetPrimaryTitle.MakeScope.Var('independent_pievalue').GetValue ) ) )]"
+									}
+
+									progresspie = {
+										name = "slice_1"
+										size = { 300 300 }
+										texture = "gfx/interface/progressbars/progresspie_4.dds"
+										framesize = { 124 124 }
+										frame = 2
+										value = "[Subtract_float( '(float)100', CurrentAndMaxToProgressbarValueInt32( FixedPointToInt( GetPlayer.GetTopLiege.GetPrimaryTitle.MakeScope.Var('liberal_pievalue').GetValue ), FixedPointToInt( GetPlayer.GetTopLiege.GetPrimaryTitle.MakeScope.Var('independent_pievalue').GetValue ) ) )]"
+									}
+								}
+
+								vbox = {
+									layoutpolicy_horizontal = fixed
+									spacing = 5
+									hbox = {
+										layoutpolicy_horizontal = growing
+										spacing = 10
+										hbox = {
+											visible = "[GetScriptedGui('leg_has_liberal').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+											layoutpolicy_horizontal = fixed
+											spacing = 5
+											icon = {
+												name = "party_icon"
+												size = { 10 10 }
+												texture = "gfx/interface/progressbars/progresspie_4.dds"
+											}
+
+											text_single = {
+												name = "political_party"
+												text = "ideology.1.a"
+												default_format = "#high"
+												fontsize = 13
+												margin_bottom = 2
+											}
+										}
+										hbox = {
+											visible = "[GetScriptedGui('leg_has_socialist').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+											layoutpolicy_horizontal = fixed
+											spacing = 5
+											icon = {
+												name = "party_icon"
+												size = { 10 10 }
+												texture = "gfx/interface/progressbars/progresspie_12.dds"
+											}
+
+											text_single = {
+												name = "political_party"
+												text = "ideology.1.b"
+												default_format = "#high"
+												fontsize = 13
+												margin_bottom = 2
+											}
+										}
+										hbox = {
+											visible = "[GetScriptedGui('leg_has_communist').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+											layoutpolicy_horizontal = fixed
+											spacing = 5
+											icon = {
+												name = "party_icon"
+												size = { 10 10 }
+												texture = "gfx/interface/progressbars/progresspie_1.dds"
+											}
+
+											text_single = {
+												name = "political_party"
+												text = "ideology.1.f"
+												default_format = "#high"
+												fontsize = 13
+												margin_bottom = 2
+											}
+										}
+										hbox = {
+											visible = "[GetScriptedGui('leg_has_anarchist').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+											layoutpolicy_horizontal = fixed
+											spacing = 5
+											icon = {
+												name = "party_icon"
+												size = { 10 10 }
+												texture = "gfx/interface/progressbars/progresspie_3.dds"
+											}
+
+											text_single = {
+												name = "political_party"
+												text = "ideology.1.g"
+												default_format = "#high"
+												fontsize = 13
+												margin_bottom = 2
+											}
+										}
+									}
+									hbox = {
+										layoutpolicy_horizontal = growing
+										spacing = 10
+										hbox = {
+											visible = "[GetScriptedGui('leg_has_conservative').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+											layoutpolicy_horizontal = fixed
+											spacing = 5
+											icon = {
+												name = "party_icon"
+												size = { 10 10 }
+												texture = "gfx/interface/progressbars/progresspie_8.dds"
+											}
+
+											text_single = {
+												name = "political_party"
+												text = "ideology.1.e"
+												default_format = "#high"
+												fontsize = 13
+												margin_bottom = 2
+											}
+										}
+										hbox = {
+											visible = "[GetScriptedGui('leg_has_reactionary').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+											layoutpolicy_horizontal = fixed
+											spacing = 5
+											icon = {
+												name = "party_icon"
+												size = { 10 10 }
+												texture = "gfx/interface/progressbars/progresspie_10.dds"
+											}
+
+											text_single = {
+												name = "political_party"
+												text = "ideology.1.c"
+												default_format = "#high"
+												fontsize = 13
+												margin_bottom = 2
+											}
+										}
+										hbox = {
+											visible = "[GetScriptedGui('leg_has_fascist').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+											layoutpolicy_horizontal = fixed
+											spacing = 5
+											icon = {
+												name = "party_icon"
+												size = { 10 10 }
+												texture = "gfx/interface/progressbars/progresspie_2.dds"
+											}
+
+											text_single = {
+												name = "political_party"
+												text = "ideology.1.d"
+												default_format = "#high"
+												fontsize = 13
+												margin_bottom = 2
+											}
+										}
+										hbox = {
+											visible = "[GetScriptedGui('leg_has_independent').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+											layoutpolicy_horizontal = fixed
+											spacing = 5
+											icon = {
+												name = "party_icon"
+												size = { 10 10 }
+												texture = "gfx/interface/progressbars/progresspie_7.dds"
+											}
+
+											text_single = {
+												name = "political_party"
+												text = "ideology.INDEPENDENT"
+												default_format = "#high"
+												fontsize = 13
+												margin_bottom = 2
+											}
+										}
+									}
 								}
 							}
 
@@ -2409,6 +3569,7 @@ window = {
 								margin = { 30 15 }
 								spacing = 18
 								layoutpolicy_horizontal = expanding
+								margin_bottom = 50
 								hbox = {
 									layoutpolicy_horizontal = growing
 									spacing = 20
@@ -2423,11 +3584,11 @@ window = {
 
 									vbox = {
 										layoutpolicy_horizontal = growing
-										spacing = 20
+										spacing = 10
 										hbox = {
 											layoutpolicy_horizontal = growing
 											button_standard = {
-												size = { 80 60 }
+												size = { 80 50 }
 												tooltip = "[GetScriptedGui('can_pass_leg_two_year_term').BuildTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
 												enabled = "[GetScriptedGui('can_pass_leg_two_year_term').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
 												onclick = "[GetScriptedGui('can_pass_leg_two_year_term').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
@@ -2450,7 +3611,7 @@ window = {
 												}
 											}
 											button_standard = {
-												size = { 80 60 }
+												size = { 80 50 }
 												tooltip = "[GetScriptedGui('can_pass_leg_three_year_term').BuildTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
 												enabled = "[GetScriptedGui('can_pass_leg_three_year_term').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
 												onclick = "[GetScriptedGui('can_pass_leg_three_year_term').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
@@ -2473,7 +3634,7 @@ window = {
 												}
 											}
 											button_standard = {
-												size = { 80 60 }
+												size = { 80 50 }
 												tooltip = "[GetScriptedGui('can_pass_leg_four_year_term').BuildTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
 												enabled = "[GetScriptedGui('can_pass_leg_four_year_term').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
 												onclick = "[GetScriptedGui('can_pass_leg_four_year_term').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
@@ -2499,7 +3660,7 @@ window = {
 										hbox = {
 											layoutpolicy_horizontal = growing
 											button_standard = {
-												size = { 80 60 }
+												size = { 80 50 }
 												tooltip = "[GetScriptedGui('can_pass_leg_five_year_term').BuildTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
 												enabled = "[GetScriptedGui('can_pass_leg_five_year_term').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
 												onclick = "[GetScriptedGui('can_pass_leg_five_year_term').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
@@ -2522,7 +3683,7 @@ window = {
 												}
 											}
 											button_standard = {
-												size = { 80 60 }
+												size = { 80 50 }
 												tooltip = "[GetScriptedGui('can_pass_leg_six_year_term').BuildTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
 												enabled = "[GetScriptedGui('can_pass_leg_six_year_term').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
 												onclick = "[GetScriptedGui('can_pass_leg_six_year_term').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
@@ -2545,7 +3706,7 @@ window = {
 												}
 											}
 											button_standard = {
-												size = { 80 60 }
+												size = { 80 50 }
 												tooltip = "[GetScriptedGui('can_pass_leg_limit_off').BuildTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
 												enabled = "[GetScriptedGui('can_pass_leg_limit_off').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
 												onclick = "[GetScriptedGui('can_pass_leg_limit_off').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
@@ -2567,6 +3728,296 @@ window = {
 													alpha = 0.8
 												}
 											}
+										}
+									}
+								}
+							}
+
+							vbox = {
+								spacing = 10
+								layoutpolicy_horizontal = fixed
+
+								text_label_center = {
+									text = "MY_REALM_WINDOW_POLITICAL_PARTIES"
+								}
+
+								vbox = {
+									visible = "[GetScriptedGui('leg_has_liberal').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+									margin_bottom = 10
+									hbox = {
+										spacing = 5
+										icon = {
+											name = "party_icon"
+											size = { 50 50 }
+											texture = "gfx/interface/victorian/liberal.dds"
+										}
+
+										text_single = {
+											name = "political_party"
+											text = "ideology.1.a"
+											default_format = "#high"
+											fontsize = 18
+										}
+									}
+									ideology_issues_list = {
+										blockoverride "visibility_lf" {
+											visible = "[GetScriptedGui('liberal_has_lf').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										}
+										blockoverride "visibility_re" {
+											visible = "[GetScriptedGui('liberal_has_re').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										}
+										blockoverride "visibility_sl" {
+											visible = "[GetScriptedGui('liberal_has_sl').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										}
+										blockoverride "visibility_sh" {
+											visible = "[GetScriptedGui('liberal_has_sh').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										}
+										blockoverride "visibility_ps" {
+											visible = "[GetScriptedGui('liberal_has_ps').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										}
+									}
+								}
+								vbox = {
+									visible = "[GetScriptedGui('leg_has_socialist').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+									margin_bottom = 10
+									hbox = {
+										spacing = 5
+										icon = {
+											name = "party_icon"
+											size = { 50 50 }
+											texture = "gfx/interface/victorian/socialist.dds"
+										}
+
+										text_single = {
+											name = "political_party"
+											text = "ideology.1.b"
+											default_format = "#high"
+											fontsize = 18
+										}
+									}
+									ideology_issues_list = {
+										blockoverride "visibility_lf" {
+											visible = "[GetScriptedGui('socialist_has_lf').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										}
+										blockoverride "visibility_re" {
+											visible = "[GetScriptedGui('socialist_has_re').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										}
+										blockoverride "visibility_sl" {
+											visible = "[GetScriptedGui('socialist_has_sl').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										}
+										blockoverride "visibility_sh" {
+											visible = "[GetScriptedGui('socialist_has_sh').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										}
+										blockoverride "visibility_ps" {
+											visible = "[GetScriptedGui('socialist_has_ps').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										}
+									}
+								}
+								vbox = {
+									visible = "[GetScriptedGui('leg_has_reactionary').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+									margin_bottom = 10
+									hbox = {
+										spacing = 5
+										icon = {
+											name = "party_icon"
+											size = { 50 50 }
+											texture = "gfx/interface/victorian/reactionary.dds"
+										}
+
+										text_single = {
+											name = "political_party"
+											text = "ideology.1.c"
+											default_format = "#high"
+											fontsize = 18
+										}
+									}
+									ideology_issues_list = {
+										blockoverride "visibility_lf" {
+											visible = "[GetScriptedGui('reactionary_has_lf').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										}
+										blockoverride "visibility_re" {
+											visible = "[GetScriptedGui('reactionary_has_re').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										}
+										blockoverride "visibility_sl" {
+											visible = "[GetScriptedGui('reactionary_has_sl').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										}
+										blockoverride "visibility_sh" {
+											visible = "[GetScriptedGui('reactionary_has_sh').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										}
+										blockoverride "visibility_ps" {
+											visible = "[GetScriptedGui('reactionary_has_ps').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										}
+									}
+								}
+								vbox = {
+									visible = "[GetScriptedGui('leg_has_fascist').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+									margin_bottom = 10
+									hbox = {
+										spacing = 5
+										icon = {
+											name = "party_icon"
+											size = { 50 50 }
+											texture = "gfx/interface/victorian/fascist.dds"
+										}
+
+										text_single = {
+											name = "political_party"
+											text = "ideology.1.d"
+											default_format = "#high"
+											fontsize = 18
+										}
+									}
+									ideology_issues_list = {
+										blockoverride "visibility_lf" {
+											visible = "[GetScriptedGui('fascist_has_lf').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										}
+										blockoverride "visibility_re" {
+											visible = "[GetScriptedGui('fascist_has_re').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										}
+										blockoverride "visibility_sl" {
+											visible = "[GetScriptedGui('fascist_has_sl').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										}
+										blockoverride "visibility_sh" {
+											visible = "[GetScriptedGui('fascist_has_sh').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										}
+										blockoverride "visibility_ps" {
+											visible = "[GetScriptedGui('fascist_has_ps').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										}
+									}
+								}
+								vbox = {
+									visible = "[GetScriptedGui('leg_has_conservative').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+									margin_bottom = 10
+									hbox = {
+										spacing = 5
+										icon = {
+											name = "party_icon"
+											size = { 50 50 }
+											texture = "gfx/interface/victorian/conservatism.dds"
+										}
+
+										text_single = {
+											name = "political_party"
+											text = "ideology.1.e"
+											default_format = "#high"
+											fontsize = 18
+										}
+									}
+									ideology_issues_list = {
+										blockoverride "visibility_lf" {
+											visible = "[GetScriptedGui('conservative_has_lf').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										}
+										blockoverride "visibility_re" {
+											visible = "[GetScriptedGui('conservative_has_re').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										}
+										blockoverride "visibility_sl" {
+											visible = "[GetScriptedGui('conservative_has_sl').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										}
+										blockoverride "visibility_sh" {
+											visible = "[GetScriptedGui('conservative_has_sh').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										}
+										blockoverride "visibility_ps" {
+											visible = "[GetScriptedGui('conservative_has_ps').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										}
+									}
+								}
+								vbox = {
+									visible = "[GetScriptedGui('leg_has_communist').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+									margin_bottom = 10
+									hbox = {
+										spacing = 5
+										icon = {
+											name = "party_icon"
+											size = { 50 50 }
+											texture = "gfx/interface/victorian/communist.dds"
+										}
+
+										text_single = {
+											name = "political_party"
+											text = "ideology.1.f"
+											default_format = "#high"
+											fontsize = 18
+										}
+									}
+									ideology_issues_list = {
+										blockoverride "visibility_lf" {
+											visible = "[GetScriptedGui('communist_has_lf').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										}
+										blockoverride "visibility_re" {
+											visible = "[GetScriptedGui('communist_has_re').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										}
+										blockoverride "visibility_sl" {
+											visible = "[GetScriptedGui('communist_has_sl').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										}
+										blockoverride "visibility_sh" {
+											visible = "[GetScriptedGui('communist_has_sh').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										}
+										blockoverride "visibility_ps" {
+											visible = "[GetScriptedGui('communist_has_ps').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										}
+									}
+								}
+								vbox = {
+									visible = "[GetScriptedGui('leg_has_anarchist').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+									margin_bottom = 10
+									hbox = {
+										spacing = 5
+										icon = {
+											name = "party_icon"
+											size = { 50 50 }
+											texture = "gfx/interface/victorian/anarcho_liberal.dds"
+										}
+
+										text_single = {
+											name = "political_party"
+											text = "ideology.1.g"
+											default_format = "#high"
+											fontsize = 18
+										}
+									}
+									ideology_issues_list = {
+										blockoverride "visibility_lf" {
+											visible = "[GetScriptedGui('anarchist_has_lf').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										}
+										blockoverride "visibility_re" {
+											visible = "[GetScriptedGui('anarchist_has_re').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										}
+										blockoverride "visibility_sl" {
+											visible = "[GetScriptedGui('anarchist_has_sl').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										}
+										blockoverride "visibility_sh" {
+											visible = "[GetScriptedGui('anarchist_has_sh').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										}
+										blockoverride "visibility_ps" {
+											visible = "[GetScriptedGui('anarchist_has_ps').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+										}
+									}
+								}
+								vbox = {
+									visible = "[GetScriptedGui('leg_has_independent').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+									margin_bottom = 10
+									hbox = {
+										spacing = 5
+										icon = {
+											name = "party_icon"
+											size = { 50 50 }
+											texture = "gfx/interface/victorian/_none.dds"
+										}
+
+										text_single = {
+											name = "political_party"
+											text = "ideology.INDEPENDENT"
+											default_format = "#high"
+											fontsize = 18
+										}
+									}
+									vbox = {
+										layoutpolicy_horizontal = fixed
+										tooltip = "PARTY_ISSUE_INDEPENDENT_DESC"
+										text_single = {
+											layoutpolicy_horizontal = fixed
+											max_width = 350
+											text = "PARTY_ISSUE_INDEPENDENT"
 										}
 									}
 								}
@@ -2652,5 +4103,76 @@ types MyRealmWindow
 		size = { 25 25 }
 		visible = "[Not( VassalContract.IsContractDefault )]"
 		tooltip = "VASSAL_CONTRACT_NOT_DEFAULT"
+	}
+
+	type ideology_issues_list = vbox
+	{
+		layoutpolicy_horizontal = fixed
+		spacing = 5
+		vbox = {
+			block "visibility_lf"
+			{
+				visible = "[GetScriptedGui('realm_uses_legislature_tab').IsShown(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+			}
+			tooltip = "PARTY_ISSUE_LAISSEZ_FAIRE_DESC"
+			layoutpolicy_horizontal = fixed
+			text_single = {
+				layoutpolicy_horizontal = fixed
+				max_width = 350
+				text = "PARTY_ISSUE_LAISSEZ_FAIRE"
+			}
+		}
+		vbox = {
+			block "visibility_re"
+			{
+				visible = "[GetScriptedGui('realm_uses_legislature_tab').IsShown(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+			}
+			tooltip = "PARTY_ISSUE_REGULATED_ECONOMY_DESC"
+			layoutpolicy_horizontal = fixed
+			text_single = {
+				layoutpolicy_horizontal = fixed
+				max_width = 350
+				text = "PARTY_ISSUE_REGULATED_ECONOMY"
+			}
+		}
+		vbox = {
+			block "visibility_sl"
+			{
+				visible = "[GetScriptedGui('realm_uses_legislature_tab').IsShown(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+			}
+			tooltip = "PARTY_ISSUE_SOCIAL_LIBERTY_DESC"
+			layoutpolicy_horizontal = fixed
+			text_single = {
+				layoutpolicy_horizontal = fixed
+				max_width = 350
+				text = "PARTY_ISSUE_SOCIAL_LIBERTY"
+			}
+		}
+		vbox = {
+			block "visibility_sh"
+			{
+				visible = "[GetScriptedGui('realm_uses_legislature_tab').IsShown(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+			}
+			tooltip = "PARTY_ISSUE_SOCIAL_HIERARCHY_DESC"
+			layoutpolicy_horizontal = fixed
+			text_single = {
+				layoutpolicy_horizontal = fixed
+				max_width = 350
+				text = "PARTY_ISSUE_SOCIAL_HIERARCHY"
+			}
+		}
+		vbox = {
+			block "visibility_ps"
+			{
+				visible = "[GetScriptedGui('realm_uses_legislature_tab').IsShown(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+			}
+			tooltip = "PARTY_ISSUE_PRO_SLAVERY_DESC"
+			layoutpolicy_horizontal = fixed
+			text_single = {
+				layoutpolicy_horizontal = fixed
+				max_width = 350
+				text = "PARTY_ISSUE_PRO_SLAVERY"
+			}
+		}
 	}
 }

@@ -1,0 +1,12 @@
+k_sonora = {
+	1806.1.1 = {
+		name = new_navarra
+	}
+	1821.9.28 = {
+		de_jure_liege = e_mexico
+		name = sonora_y_sinaloa
+	}
+	1830.9.30 = {
+		reset_name = yes
+	}
+}

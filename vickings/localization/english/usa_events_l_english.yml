@@ -1,6 +1,36 @@
 ﻿l_english:
  united_states.1.name:0 "Territorial Expansion"
- united_states.1.desc:0 "With the conquest of new lands, it seems fitting that we assign them to an existing territory for the purposes of administration."
+ united_states.1.desc:0 "With the conquest of new lands, it seems fitting that we assign them to an existing territory for the purposes of administration.\n\n(Territories de jure part of an already existing territory or state will be assigned to that vassal instead.)"
  united_states.1.a:0 "[terr_title.GetNameNoTier]"
  united_states.1.b:0 "Choose another territory"
  united_states.1.b.tooltip:0 "Refresh event options, randomly choosing from a list of adjacent duchy-rank vassals"
+
+ united_states.3.name:0 "State Admission"
+ united_states.3.desc:0 "The legislature has passed the act for [petitioner.GetTitledFirstNamePossessive] realm to achieve statehood, and we may now choose to define the boundaries of the new state by selecting which de jure duchies are to be included."
+ united_states.3.a:0 "[duchy_1.GetNameNoTier]"
+ united_states.3.b:0 "[duchy_2.GetNameNoTier]"
+ united_states.3.c:0 "[duchy_3.GetNameNoTier]"
+ united_states.3.d:0 "[duchy_4.GetNameNoTier]"
+ united_states.3.e:0 "[duchy_5.GetNameNoTier]"
+ united_states.3.f:0 "Choose another duchy"
+ united_states.3.f.tooltip:0 "Refresh event options if there are more de jure duchies available"
+ united_states.3.g:0 "Finish selection"
+
+ united_states.4.desc:0 "Now we must choose which name to grant the state using a constituent kingdom title."
+ united_states.4.a:0 "[kingdom_1.GetNameNoTier]"
+ united_states.4.b:0 "[kingdom_2.GetNameNoTier]"
+ united_states.4.c:0 "Choose another kingdom"
+ united_states.4.c.tooltip:0 "Refresh event options if there are more de jure kingdoms available"
+
+ united_states.5.desc:0 "Shall we keep our current governor or elect a new governor for the new state?"
+ united_states.5.a:0 "Keep"
+ united_states.5.b:0 "Elect"
+
+ united_states.6.desc:0 "With its borders properly defined and the ratification of a new constitution, the [new_state_title.GetBaseName] has been admitted to the Union as its latest state. Its residents may now enjoy all the benefits of self-determination and full protection as U.S. citizens."
+ united_states.6.a:0 "May the Union continue to grow and prosper!"
+
+ united_states.7.name:0 "The Missouri Compromise"
+ united_states.7.desc:0 "A bill has recently passed Congress concerning a measure to maintain the fragile balance between slave and free states. My Speaker, [chancellor.GetName], has proposed a dividing line along the 36° 30' parallel above which all territories are required to abolish slavery; Maine would be admitted as a free state; and Missouri a slave state. All that remains is for me to approve the measure."
+ united_states.7.speaker.desc:0 "A bill has recently passed Congress concerning a measure to maintain the fragile balance between slave and free states. My Speaker of the House has proposed a dividing line along the 36° 30' parallel above which all territories are required to abolish slavery; Maine would be admitted as a free state; and Missouri a slave state. All that remains is for me to approve the measure."
+ united_states.7.a:0 "Sign it into law."
+ united_states.7.b:0 "Veto this abominable resolution!"

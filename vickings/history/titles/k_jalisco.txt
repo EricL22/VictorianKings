@@ -1,0 +1,9 @@
+k_jalisco = {
+	1532.1.1 = {
+		name = new_galicia
+	}
+	1821.9.28 = {
+		de_jure_liege = e_mexico
+		reset_name = yes
+	}
+}

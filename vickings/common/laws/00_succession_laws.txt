@@ -190,6 +190,7 @@
 				}
 			}
 			NOT = { historical_succession_access_city_succession_law_trigger = yes }
+			NOT = { has_government = republic_government }
 		}
 		succession = {
 			order_of_succession = inheritance
@@ -373,12 +374,14 @@
 			OR = {
 				can_have_city_succession_law_trigger = yes
 				is_independent_ruler = no
+				is_spanish_viceroy_trigger = yes
 			}
 		}
 		can_have = {
 			OR = {
 				can_have_city_succession_law_trigger = yes
 				is_independent_ruler = no
+				is_spanish_viceroy_trigger = yes
 			}
 		}
 		should_start_with = {

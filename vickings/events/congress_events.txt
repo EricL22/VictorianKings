@@ -754,7 +754,7 @@ congress_of_vienna.1 = {
 		}
 		title:d_wurzburg.holder = {
 			every_held_title = {
-				limit = { target_is_de_jure_liege_or_above = title:e_germany }
+				limit = { target_is_de_jure_liege_or_above = title:e_germany tier > tier_barony }
 				change_title_holder = {
 					holder = title:k_bavaria.holder
 					change = scope:title_change
@@ -781,7 +781,7 @@ congress_of_vienna.1 = {
 
 		title:d_berg.holder = {
 			every_held_title = {
-				limit = { target_is_de_jure_liege_or_above = title:e_germany }
+				limit = { target_is_de_jure_liege_or_above = title:e_germany tier > tier_barony }
 				change_title_holder = {
 					holder = title:k_prussia.holder
 					change = scope:title_change
@@ -845,6 +845,7 @@ congress_of_vienna.1 = {
 
 		title:d_west_franconia.holder = {
 			every_held_title = {
+				limit = { tier > tier_barony }
 				change_title_holder = {
 					holder = scope:franconian
 					change = scope:title_change
@@ -1150,6 +1151,7 @@ congress_of_vienna.4 = {
 		clear_variable_list = potential_vassals
 		title:k_italy.holder = {
 			every_held_title = {
+				limit = { tier > tier_barony }
 				change_title_holder_include_vassals = {
 					holder = title:e_austria.holder
 					change = scope:title_change
@@ -1307,7 +1309,7 @@ congress_of_vienna.6 = {
 			}
 		}
 		every_held_title = {
-			limit = { NOT = { this = title:e_france } }
+			limit = { NOT = { this = title:e_france } tier > tier_barony }
 			change_title_holder = {
 				holder = scope:bourbon
 				change = scope:title_change

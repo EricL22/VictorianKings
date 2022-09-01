@@ -2,7 +2,7 @@
 
  same_culture_none_factionalism_double_different:0 "你[culture|E]之[vassals|E]不再倾向于加入[independence_factions|E]，但不同文化者将多倾向"
  unlocks_protectorate_interaction:0 "开启$offer_protectorate_interaction$[interaction|E]"
- absolutism_vassal_restriction:0 "开启#P 政府改革#!"
+ absolutism_vassal_restriction:0 "开启集中#P 行政改革#!"
  unlocks_colonization_interaction:0 "开启$initiate_colonization_interaction$[interaction|E]"
  unlocks_colonization_in_africa:0 "开启非洲之殖民"
 
@@ -17,6 +17,9 @@
  #Civic
  innovation_absolutism:0 "专制主义"
  innovation_absolutism_desc:0 "有新民族认同，标志着诸侯之降低能治也。一中央政府与中央权力，今似乎可行选择，以管理领域。"
+
+ innovation_permanent_envoys:0 "恒久使节"
+ innovation_permanent_envoys_desc:0 "移于中央集权国，及建国之首，表世界日日互联之势也。远国恒久使节大使馆，吾可收集全球新闻与创新，亦益進吾利。"
 
  #Regional
 

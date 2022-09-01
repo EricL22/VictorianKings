@@ -1,0 +1,40 @@
+12936 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12937 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12938 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12939 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12940 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12941 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12942 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12943 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12944 = {
+        culture = native_american_minor
+        religion = pagan
+}
+12945 = {
+        culture = native_american_minor
+        religion = pagan
+}

@@ -1,0 +1,14 @@
+k_nicaragua = {
+	1852.1.1 = {
+		effect = { set_capital_county = title:c_managua }
+	}
+}
+
+d_nicaragua = {
+	1823.7.1 = {
+		de_jure_liege = k_nicaragua
+	}
+	1852.1.1 = {
+		effect = { set_capital_county = title:c_managua }
+	}
+}

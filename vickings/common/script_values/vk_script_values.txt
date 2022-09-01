@@ -1,0 +1,1 @@
+﻿landed_voting_weight_value = 5

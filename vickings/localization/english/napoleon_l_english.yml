@@ -172,6 +172,12 @@
  dynn_Pelly:0 "Pelly"
  dynn_Maxwell:0 "Maxwell"
  dynn_Maclean:0 "Maclean"
+ dynn_Smyth:0 "Smyth"
+ dynn_Arthur:0 "Arthur"
+ dynn_Cockburn:0 "Cockburn"
+ dynn_Seymour:0 "Seymour"
+ dynn_Morazan:0 "Morazán"
+ dynn_Miskito:0 "Miskito"
 
  e_turkey:0 "Turkey"
  e_turkey_adj:0 "Turkish"
@@ -540,7 +546,7 @@
 
  moderntimes.31.t:0 "The Adams-Onis Treaty"
  moderntimes.31.start.desc:0 "Facing loss of control and economic ruin, [proposer.GetTitledFirstName] has offered his Florida colony to the United States."
- moderntimes.31.adams.desc:0 "Spearheading the negotiations is our capable diplomat, [adams.GetFullName], who has managed to find a great deal to acquire the territory, only having us surrender any claim over Texas from the Louisiana purchase."
+ moderntimes.31.adams.desc:0 "Spearheading the negotiations is our capable diplomat, [adams.GetFirstName] , who has managed to find a great deal to acquire the territory, only having us surrender any claim over Texas from the Louisiana purchase."
  moderntimes.31.noadams.desc:0 "A random individual surnamed 'Adams' is spearheading the negotiations, and it seems we have found favorable terms of trade."
 
  moderntimes.32.t:0 "Ottoman Triumph"
@@ -572,6 +578,11 @@
  ideology.1.e:0 "Conservative"
  ideology.1.f:0 "Communist"
  ideology.1.g:0 "Anarchist"
+ ideology.INDEPENDENT:0 "Independent"
+
+ ideology.2.name:0 "Party Expulsion!"
+ ideology.2.desc:0 "Due to my reprehensible actions and abuse of power, my party has severed ties with me, leaving me as an independent politician!"
+ ideology.2.a:0 "I never needed them anyway"
 
  change_turkey_name_decision:0 "Declare the Empire of all Turkey"
  change_turkey_name_desc:0 "With the fall of the Ottoman dynasty, we can now claim to be sovereign of all Turkish peoples."
@@ -726,6 +737,8 @@
  conservative_party_modifier:0 "Conservative Politics"
  communist_party_modifier:0 "Communist Politics"
  anarchist_party_modifier:0 "Anarchist Politics"
+ independent_party_modifier:0 "Independent Voting"
+ independent_party_modifier_desc:0 "This character's voting pattern differs significantly from that of the party associated with the joined ideology, so that this character is effectively an independent politician."
  restrict_royal_court_modifier:0 "Minor Court"
  negligible_slavery_modifier:0 "Negligible Slavery"
  negligible_slavery_modifier_desc:0 "The slave population in this county is negligibly small."
@@ -836,3 +849,6 @@
  create_us_state_interaction_desc:0 "With congressional approval, the federal government may unilaterally admit a territory as a state regardless of its development."
  apply_for_us_state_interaction:0 "Apply for Statehood"
  apply_for_us_state_interaction_desc:0 "Now that our territory is sufficiently developed, we may hold a referendum and apply for status as a U.S. state."
+
+ request_war_interaction: "Vote on War Against"
+ request_war_interaction_desc: "In constitutional monarchies and republics, the legislature must pass a vote in order to approve a declaration of war."

@@ -1,4 +1,4 @@
-Note: if there is no file extension next to an item then it is a modding clause overwritten in a separate file.
+Note: if there is no file extension next to an item then it is a folder or a modding clause overwritten in a separate file.
 Obviously, this mod is incompatible with any mod that modifies the map, and so such files related to that are not listed.
 
 common
@@ -67,3 +67,5 @@ gui
 -hud.gui ############# Only line 1641 has been changed, so replace that line when updating
 -window_character.gui
 -window_my_realm.gui
+-shared
+--mapmodes.gui

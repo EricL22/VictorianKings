@@ -1,0 +1,5 @@
+k_yucatan = {
+	1821.9.28 = {
+		de_jure_liege = e_mexico
+	}
+}

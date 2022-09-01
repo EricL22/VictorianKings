@@ -21,16 +21,37 @@ can_pass_four_year_limit = {
 				NOT = { has_variable = recent_reform_passed }
 			}
 		}
+		custom_description = {
+			text = "law_under_debate"
+			subject = root
+			primary_title = {
+				NOT = { has_variable = debating_law }
+			}
+		}
 		primary_title = {
 			NOT = { is_target_in_variable_list = { name = enacted_laws_list target = flag:four_year_term } }
 		}
 	}
 	effect = {
 		custom_tooltip = enact_term_limit
-		primary_title = {
-			clear_term_limit_reforms = yes
-			add_to_variable_list = { name = enacted_laws_list target = flag:four_year_term }
-			set_variable = { name = recent_reform_passed value = flag:recent_reform_passed years = 5 }
+		if = {
+			limit = { is_independent_ruler = yes }
+			primary_title = {
+				set_variable = { name = debating_law value = flag:four_year_term }
+				generate_party_acceptance_values = {
+					SOCIAL_LIBERTY = 10
+					SOCIAL_HIERARCHY = 10 
+					LAISSEZ_FAIRE = 0 REG_ECONOMY = 0 PRO_SLAVERY = 0 UNIVERSAL_ACCEPTANCE_VALUE = 0
+				}
+			}
+			trigger_event = legislature.1
+		}
+		else = {
+			primary_title = {
+				clear_term_limit_reforms = yes
+				add_to_variable_list = { name = enacted_laws_list target = flag:four_year_term }
+				set_variable = { name = recent_reform_passed value = flag:recent_reform_passed years = 5 }
+			}
 		}
 	}
 }
@@ -54,16 +75,37 @@ can_pass_five_year_limit = {
 				NOT = { has_variable = recent_reform_passed }
 			}
 		}
+		custom_description = {
+			text = "law_under_debate"
+			subject = root
+			primary_title = {
+				NOT = { has_variable = debating_law }
+			}
+		}
 		primary_title = {
 			NOT = { is_target_in_variable_list = { name = enacted_laws_list target = flag:five_year_term } }
 		}
 	}
 	effect = {
 		custom_tooltip = enact_term_limit
-		primary_title = {
-			clear_term_limit_reforms = yes
-			add_to_variable_list = { name = enacted_laws_list target = flag:five_year_term }
-			set_variable = { name = recent_reform_passed value = flag:recent_reform_passed years = 5 }
+		if = {
+			limit = { is_independent_ruler = yes }
+			primary_title = {
+				set_variable = { name = debating_law value = flag:five_year_term }
+				generate_party_acceptance_values = {
+					SOCIAL_LIBERTY = -20
+					SOCIAL_HIERARCHY = 20 
+					LAISSEZ_FAIRE = 0 REG_ECONOMY = 0 PRO_SLAVERY = 0 UNIVERSAL_ACCEPTANCE_VALUE = 0
+				}
+			}
+			trigger_event = legislature.1
+		}
+		else = {
+			primary_title = {
+				clear_term_limit_reforms = yes
+				add_to_variable_list = { name = enacted_laws_list target = flag:five_year_term }
+				set_variable = { name = recent_reform_passed value = flag:recent_reform_passed years = 5 }
+			}
 		}
 	}
 }
@@ -87,16 +129,37 @@ can_pass_six_year_limit = {
 				NOT = { has_variable = recent_reform_passed }
 			}
 		}
+		custom_description = {
+			text = "law_under_debate"
+			subject = root
+			primary_title = {
+				NOT = { has_variable = debating_law }
+			}
+		}
 		primary_title = {
 			NOT = { is_target_in_variable_list = { name = enacted_laws_list target = flag:six_year_term } }
 		}
 	}
 	effect = {
 		custom_tooltip = enact_term_limit
-		primary_title = {
-			clear_term_limit_reforms = yes
-			add_to_variable_list = { name = enacted_laws_list target = flag:six_year_term }
-			set_variable = { name = recent_reform_passed value = flag:recent_reform_passed years = 5 }
+		if = {
+			limit = { is_independent_ruler = yes }
+			primary_title = {
+				set_variable = { name = debating_law value = flag:six_year_term }
+				generate_party_acceptance_values = {
+					SOCIAL_LIBERTY = -40
+					SOCIAL_HIERARCHY = 40 
+					LAISSEZ_FAIRE = 0 REG_ECONOMY = 0 PRO_SLAVERY = 0 UNIVERSAL_ACCEPTANCE_VALUE = 0
+				}
+			}
+			trigger_event = legislature.1
+		}
+		else = {
+			primary_title = {
+				clear_term_limit_reforms = yes
+				add_to_variable_list = { name = enacted_laws_list target = flag:six_year_term }
+				set_variable = { name = recent_reform_passed value = flag:recent_reform_passed years = 5 }
+			}
 		}
 	}
 }
@@ -120,16 +183,37 @@ can_pass_seven_year_limit = {
 				NOT = { has_variable = recent_reform_passed }
 			}
 		}
+		custom_description = {
+			text = "law_under_debate"
+			subject = root
+			primary_title = {
+				NOT = { has_variable = debating_law }
+			}
+		}
 		primary_title = {
 			NOT = { is_target_in_variable_list = { name = enacted_laws_list target = flag:seven_year_term } }
 		}
 	}
 	effect = {
 		custom_tooltip = enact_term_limit
-		primary_title = {
-			clear_term_limit_reforms = yes
-			add_to_variable_list = { name = enacted_laws_list target = flag:seven_year_term }
-			set_variable = { name = recent_reform_passed value = flag:recent_reform_passed years = 5 }
+		if = {
+			limit = { is_independent_ruler = yes }
+			primary_title = {
+				set_variable = { name = debating_law value = flag:seven_year_term }
+				generate_party_acceptance_values = {
+					SOCIAL_LIBERTY = -60
+					SOCIAL_HIERARCHY = 60 
+					LAISSEZ_FAIRE = 0 REG_ECONOMY = 0 PRO_SLAVERY = 0 UNIVERSAL_ACCEPTANCE_VALUE = 0
+				}
+			}
+			trigger_event = legislature.1
+		}
+		else = {
+			primary_title = {
+				clear_term_limit_reforms = yes
+				add_to_variable_list = { name = enacted_laws_list target = flag:seven_year_term }
+				set_variable = { name = recent_reform_passed value = flag:recent_reform_passed years = 5 }
+			}
 		}
 	}
 }
@@ -153,6 +237,13 @@ can_pass_limit_off = {
 				NOT = { has_variable = recent_reform_passed }
 			}
 		}
+		custom_description = {
+			text = "law_under_debate"
+			subject = root
+			primary_title = {
+				NOT = { has_variable = debating_law }
+			}
+		}
 		primary_title = {
 			NOT = { is_target_in_variable_list = { name = enacted_laws_list target = flag:life_title_term } }
 		}
@@ -164,10 +255,24 @@ can_pass_limit_off = {
 	}
 	effect = {
 		custom_tooltip = enact_term_limit
-		primary_title = {
-			clear_term_limit_reforms = yes
-			add_to_variable_list = { name = enacted_laws_list target = flag:life_title_term }
-			set_variable = { name = recent_reform_passed value = flag:recent_reform_passed years = 5 }
+		if = {
+			limit = { is_independent_ruler = yes }
+			primary_title = {
+				set_variable = { name = debating_law value = flag:life_title_term }
+				generate_party_acceptance_values = {
+					SOCIAL_HIERARCHY = 50 
+					UNIVERSAL_ACCEPTANCE_VALUE = -50
+					LAISSEZ_FAIRE = 0 REG_ECONOMY = 0 SOCIAL_LIBERTY = 0 PRO_SLAVERY = 0
+				}
+			}
+			trigger_event = legislature.1
+		}
+		else = {
+			primary_title = {
+				clear_term_limit_reforms = yes
+				add_to_variable_list = { name = enacted_laws_list target = flag:life_title_term }
+				set_variable = { name = recent_reform_passed value = flag:recent_reform_passed years = 5 }
+			}
 		}
 	}
 }
@@ -188,9 +293,23 @@ can_pass_admin_feudal = {
 	}
 	effect = {
 		custom_tooltip = enact_admin_feudal
-		primary_title = {
-			remove_list_variable = { name = enacted_laws_list target = flag:admin_centralized }
-			set_variable = { name = recent_reform_passed value = flag:recent_reform_passed years = 5 }
+		if = {
+			limit = { root_realm_uses_legislature_trigger = yes }
+			primary_title = {
+				set_variable = { name = debating_law value = flag:admin_feudal }
+				generate_party_acceptance_values = {
+					SOCIAL_LIBERTY = 50
+					SOCIAL_HIERARCHY = -50
+					LAISSEZ_FAIRE = 0 REG_ECONOMY = 0 PRO_SLAVERY = 0 UNIVERSAL_ACCEPTANCE_VALUE = 0
+				}
+			}
+			trigger_event = legislature.1
+		}
+		else = {
+			primary_title = {
+				remove_list_variable = { name = enacted_laws_list target = flag:admin_centralized }
+				set_variable = { name = recent_reform_passed value = flag:recent_reform_passed years = 5 }
+			}
 		}
 	}
 }
@@ -207,20 +326,30 @@ can_pass_admin_centralized = {
 	is_valid = {
 		can_pass_government_reforms = yes
 		primary_title = { NOT = { is_target_in_variable_list = { name = enacted_laws_list target = flag:admin_centralized } } }
-		custom_description = {
-			text = "requires_absolutism_innovation"
-			subject = root
-			OR = {
-				has_culture = culture:han
-				culture = { has_innovation = innovation_absolutism }
-			}
+		OR = {
+			has_culture = culture:han
+			culture = { has_innovation = innovation_absolutism }
 		}
 	}
 	effect = {
 		custom_tooltip = enact_admin_centralized
-		primary_title = {
-			add_to_variable_list = { name = enacted_laws_list target = flag:admin_centralized }
-			set_variable = { name = recent_reform_passed value = flag:recent_reform_passed years = 5 }
+		if = {
+			limit = { root_realm_uses_legislature_trigger = yes }
+			primary_title = {
+				set_variable = { name = debating_law value = flag:admin_centralized }
+				generate_party_acceptance_values = {
+					SOCIAL_LIBERTY = -50
+					SOCIAL_HIERARCHY = 50
+					LAISSEZ_FAIRE = 0 REG_ECONOMY = 0 PRO_SLAVERY = 0 UNIVERSAL_ACCEPTANCE_VALUE = 0
+				}
+			}
+			trigger_event = legislature.1
+		}
+		else = {
+			primary_title = {
+				add_to_variable_list = { name = enacted_laws_list target = flag:admin_centralized }
+				set_variable = { name = recent_reform_passed value = flag:recent_reform_passed years = 5 }
+			}
 		}
 	}
 }
@@ -235,10 +364,7 @@ has_admin_centralized = {
 can_pass_sovereign_power_laws = {
 	scope = character
 	is_shown = {
-		OR = {
-			has_government = feudal_government
-			has_government = clan_government
-		}
+		can_pass_sovereign_power_laws_trigger = yes
 	}
 }
 
@@ -247,6 +373,7 @@ can_pass_sovereign_absolute = {
 	is_valid = {
 		can_pass_government_reforms = yes
 		primary_title = { NOT = { is_target_in_variable_list = { name = enacted_laws_list target = flag:sovereign_absolute } } }
+		primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:sovereign_semi_constitutional } }
 	}
 	effect = {
 		custom_tooltip = enact_sovereign_absolute
@@ -271,19 +398,25 @@ can_pass_sovereign_semi_constitutional = {
 	is_valid = {
 		can_pass_government_reforms = yes
 		primary_title = { NOT = { is_target_in_variable_list = { name = enacted_laws_list target = flag:sovereign_semi_constitutional } } }
-#		custom_description = {
-#			text = "requires_renaissance_innovation"
-#			subject = root
-			culture = { has_innovation = innovation_development_04 }
-#		}
+		culture = { has_innovation = innovation_development_04 }
+		primary_title.tier >= tier_duchy
 	}
 	effect = {
 		custom_tooltip = enact_sovereign_semi_constitutional
-		primary_title = {
-			add_to_variable_list = { name = enacted_laws_list target = flag:sovereign_semi_constitutional }
-			remove_list_variable = { name = enacted_laws_list target = flag:sovereign_absolute }
-			remove_list_variable = { name = enacted_laws_list target = flag:sovereign_constitutional }
-			set_variable = { name = recent_reform_passed value = flag:recent_reform_passed years = 5 }
+		if = {
+			limit = { root_realm_uses_legislature_trigger = yes }
+			primary_title = {
+				set_variable = { name = debating_law value = flag:sovereign_semi_constitutional }
+			}
+			trigger_event = legislature.1
+		}
+		else = {
+			primary_title = {
+				add_to_variable_list = { name = enacted_laws_list target = flag:sovereign_semi_constitutional }
+				remove_list_variable = { name = enacted_laws_list target = flag:sovereign_absolute }
+				remove_list_variable = { name = enacted_laws_list target = flag:sovereign_constitutional }
+				set_variable = { name = recent_reform_passed value = flag:recent_reform_passed years = 5 }
+			}
 		}
 	}
 }
@@ -300,28 +433,612 @@ can_pass_sovereign_constitutional = {
 	is_valid = {
 		can_pass_government_reforms = yes
 		primary_title = { NOT = { is_target_in_variable_list = { name = enacted_laws_list target = flag:sovereign_constitutional } } }
+		primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:sovereign_semi_constitutional } }
 
 		# TODO: something different perhaps?
-#		custom_description = {
-#			text = "requires_renaissance_innovation"
-#			subject = root
-			culture = { has_innovation = innovation_development_04 }
-#		}
+		culture = { has_innovation = innovation_development_04 }
+		primary_title.tier >= tier_duchy
 	}
 	effect = {
 		custom_tooltip = enact_sovereign_constitutional
 		primary_title = {
-			add_to_variable_list = { name = enacted_laws_list target = flag:sovereign_constitutional }
-			remove_list_variable = { name = enacted_laws_list target = flag:sovereign_absolute }
-			remove_list_variable = { name = enacted_laws_list target = flag:sovereign_semi_constitutional }
-			set_variable = { name = recent_reform_passed value = flag:recent_reform_passed years = 5 }
+			set_variable = { name = debating_law value = flag:sovereign_constitutional }
 		}
+		trigger_event = legislature.1
+		#primary_title = {
+		#	add_to_variable_list = { name = enacted_laws_list target = flag:sovereign_constitutional }
+		#	remove_list_variable = { name = enacted_laws_list target = flag:sovereign_absolute }
+		#	remove_list_variable = { name = enacted_laws_list target = flag:sovereign_semi_constitutional }
+		#	set_variable = { name = recent_reform_passed value = flag:recent_reform_passed years = 5 }
+		#}
 	}
 }
 has_sovereign_constitutional = {
 	is_valid = {
 		top_liege.primary_title = {
 			is_target_in_variable_list = { name = enacted_laws_list target = flag:sovereign_constitutional }
+		}
+	}
+}
+
+can_pass_eligibility_default = {
+	scope = character
+	is_valid = {
+		can_pass_government_reforms = yes
+		primary_title = { NOT = { is_target_in_variable_list = { name = enacted_laws_list target = flag:eligibility_default } } }
+	}
+	effect = {
+		custom_tooltip = enact_eligibility_default
+		primary_title = {
+			set_variable = { name = debating_law value = flag:eligibility_default }
+			generate_party_acceptance_values = {
+				UNIVERSAL_ACCEPTANCE_VALUE = 100
+				SOCIAL_LIBERTY = 0 SOCIAL_HIERARCHY = 0 LAISSEZ_FAIRE = 0 REG_ECONOMY = 0 PRO_SLAVERY = 0
+			}
+		}
+		trigger_event = legislature.1
+		#primary_title = {
+		#	add_to_variable_list = { name = enacted_laws_list target = flag:eligibility_default }
+		#	remove_list_variable = { name = enacted_laws_list target = flag:eligibility_one_party }
+		#	set_variable = { name = recent_reform_passed value = flag:recent_reform_passed years = 5 }
+		#}
+	}
+}
+has_eligibility_default = {
+	is_valid = {
+		top_liege.primary_title = {
+			is_target_in_variable_list = { name = enacted_laws_list target = flag:eligibility_default }
+		}
+	}
+}
+
+can_pass_eligibility_one_party = {
+	scope = character
+	is_valid = {
+		can_pass_government_reforms = yes
+		primary_title = { NOT = { is_target_in_variable_list = { name = enacted_laws_list target = flag:eligibility_one_party } } }
+
+		# TODO: something different perhaps?
+		culture = { has_innovation = innovation_development_04 }
+	}
+	effect = {
+		custom_tooltip = enact_eligibility_one_party
+		primary_title = {
+			set_variable = { name = debating_law value = flag:eligibility_one_party }
+			generate_party_acceptance_values = {
+				UNIVERSAL_ACCEPTANCE_VALUE = -100
+				SOCIAL_LIBERTY = 0 SOCIAL_HIERARCHY = 0 LAISSEZ_FAIRE = 0 REG_ECONOMY = 0 PRO_SLAVERY = 0
+			}
+		}
+		trigger_event = legislature.1
+		#primary_title = {
+		#	add_to_variable_list = { name = enacted_laws_list target = flag:eligibility_one_party }
+		#	remove_list_variable = { name = enacted_laws_list target = flag:eligibility_default }
+		#	set_variable = { name = recent_reform_passed value = flag:recent_reform_passed years = 5 }
+		#}
+	}
+}
+has_eligibility_one_party = {
+	is_valid = {
+		top_liege.primary_title = {
+			is_target_in_variable_list = { name = enacted_laws_list target = flag:eligibility_one_party }
+		}
+	}
+}
+
+can_pass_eligibility_state = {
+	scope = character
+	is_valid = {
+		can_pass_government_reforms = yes
+		primary_title = { NOT = { is_target_in_variable_list = { name = enacted_laws_list target = flag:eligibility_state } } }
+	}
+	effect = {
+		custom_tooltip = enact_eligibility_state
+		primary_title = {
+			set_variable = { name = debating_law value = flag:eligibility_state }
+			generate_party_acceptance_values = {
+				SOCIAL_HIERARCHY = 50
+				SOCIAL_LIBERTY = 0 LAISSEZ_FAIRE = 0 REG_ECONOMY = 0 PRO_SLAVERY = 0 UNIVERSAL_ACCEPTANCE_VALUE = 0
+			}
+		}
+		trigger_event = legislature.1
+		#primary_title = {
+		#	add_to_variable_list = { name = enacted_laws_list target = flag:eligibility_state }
+		#	remove_list_variable = { name = enacted_laws_list target = flag:eligibility_de_jure }
+		#	remove_list_variable = { name = enacted_laws_list target = flag:eligibility_de_facto }
+		#	set_variable = { name = recent_reform_passed value = flag:recent_reform_passed years = 5 }
+		#}
+	}
+}
+has_eligibility_state = {
+	is_valid = {
+		top_liege.primary_title = {
+			is_target_in_variable_list = { name = enacted_laws_list target = flag:eligibility_state }
+		}
+	}
+}
+
+can_pass_eligibility_de_jure = {
+	scope = character
+	is_valid = {
+		can_pass_government_reforms = yes
+		primary_title = { NOT = { is_target_in_variable_list = { name = enacted_laws_list target = flag:eligibility_de_jure } } }
+	}
+	effect = {
+		custom_tooltip = enact_eligibility_de_jure
+		primary_title = {
+			set_variable = { name = debating_law value = flag:eligibility_de_jure }
+			generate_party_acceptance_values = {
+				SOCIAL_HIERARCHY = -60
+				SOCIAL_LIBERTY = 0 LAISSEZ_FAIRE = 0 REG_ECONOMY = 0 PRO_SLAVERY = 0 UNIVERSAL_ACCEPTANCE_VALUE = 0
+			}
+		}
+		trigger_event = legislature.1
+		#primary_title = {
+		#	add_to_variable_list = { name = enacted_laws_list target = flag:eligibility_de_jure }
+		#	remove_list_variable = { name = enacted_laws_list target = flag:eligibility_state }
+		#	remove_list_variable = { name = enacted_laws_list target = flag:eligibility_de_facto }
+		#	set_variable = { name = recent_reform_passed value = flag:recent_reform_passed years = 5 }
+		#}
+	}
+}
+has_eligibility_de_jure = {
+	is_valid = {
+		top_liege.primary_title = {
+			is_target_in_variable_list = { name = enacted_laws_list target = flag:eligibility_de_jure }
+		}
+	}
+}
+
+can_pass_eligibility_de_facto = {
+	scope = character
+	is_valid = {
+		can_pass_government_reforms = yes
+		primary_title = { NOT = { is_target_in_variable_list = { name = enacted_laws_list target = flag:eligibility_de_facto } } }
+	}
+	effect = {
+		custom_tooltip = enact_eligibility_de_facto
+		primary_title = {
+			set_variable = { name = debating_law value = flag:eligibility_de_facto }
+			generate_party_acceptance_values = {
+				SOCIAL_HIERARCHY = -75
+				SOCIAL_LIBERTY = 0 LAISSEZ_FAIRE = 0 REG_ECONOMY = 0 PRO_SLAVERY = 0 UNIVERSAL_ACCEPTANCE_VALUE = 0
+			}
+		}
+		trigger_event = legislature.1
+		#primary_title = {
+		#	add_to_variable_list = { name = enacted_laws_list target = flag:eligibility_de_facto }
+		#	remove_list_variable = { name = enacted_laws_list target = flag:eligibility_state }
+		#	remove_list_variable = { name = enacted_laws_list target = flag:eligibility_de_jure }
+		#	set_variable = { name = recent_reform_passed value = flag:recent_reform_passed years = 5 }
+		#}
+	}
+}
+has_eligibility_de_facto = {
+	is_valid = {
+		top_liege.primary_title = {
+			is_target_in_variable_list = { name = enacted_laws_list target = flag:eligibility_de_facto }
+		}
+	}
+}
+
+can_pass_apportionment_landed = {
+	scope = character
+	is_valid = {
+		can_pass_government_reforms = yes
+		primary_title = { NOT = { is_target_in_variable_list = { name = enacted_laws_list target = flag:apportionment_landed } } }
+		custom_description = {
+			text = "incompatible_vote_franchise"
+			subject = root
+			primary_title = {
+				NOR = {
+					is_target_in_variable_list = { name = enacted_laws_list target = flag:vote_franchise_wealth }
+					is_target_in_variable_list = { name = enacted_laws_list target = flag:vote_franchise_universal_manhood }
+					is_target_in_variable_list = { name = enacted_laws_list target = flag:vote_franchise_universal }
+				}
+			}
+		}
+	}
+	effect = {
+		custom_tooltip = enact_apportionment_landed
+		primary_title = {
+			set_variable = { name = debating_law value = flag:apportionment_landed }
+			generate_party_acceptance_values = {
+				SOCIAL_HIERARCHY = 75
+				UNIVERSAL_ACCEPTANCE_VALUE = -80
+				SOCIAL_LIBERTY = 0 LAISSEZ_FAIRE = 0 REG_ECONOMY = 0 PRO_SLAVERY = 0
+			}
+		}
+		trigger_event = legislature.1
+		#primary_title = {
+		#	add_to_variable_list = { name = enacted_laws_list target = flag:apportionment_landed }
+		#	remove_list_variable = { name = enacted_laws_list target = flag:apportionment_equal }
+		#	remove_list_variable = { name = enacted_laws_list target = flag:apportionment_mixed }
+		#	remove_list_variable = { name = enacted_laws_list target = flag:apportionment_population }
+		#	remove_list_variable = { name = enacted_laws_list target = flag:vote_system_two_party }
+		#	remove_list_variable = { name = enacted_laws_list target = flag:vote_system_jefferson }
+		#	remove_list_variable = { name = enacted_laws_list target = flag:vote_system_proportional }
+		#	set_variable = { name = recent_reform_passed value = flag:recent_reform_passed years = 5 }
+		#}
+	}
+}
+has_apportionment_landed = {
+	is_valid = {
+		top_liege.primary_title = {
+			is_target_in_variable_list = { name = enacted_laws_list target = flag:apportionment_landed }
+		}
+	}
+}
+
+can_pass_apportionment_equal = {
+	scope = character
+	is_valid = {
+		can_pass_government_reforms = yes
+		primary_title = { NOT = { is_target_in_variable_list = { name = enacted_laws_list target = flag:apportionment_equal } } }
+	}
+	effect = {
+		custom_tooltip = enact_apportionment_equal
+		primary_title = {
+			set_variable = { name = debating_law value = flag:apportionment_equal }
+			generate_party_acceptance_values = {
+				SOCIAL_LIBERTY = -20
+				SOCIAL_HIERARCHY = 50
+				LAISSEZ_FAIRE = 0 REG_ECONOMY = 0 PRO_SLAVERY = 0 UNIVERSAL_ACCEPTANCE_VALUE = 0
+			}
+		}
+		trigger_event = legislature.1
+		#primary_title = {
+		#	add_to_variable_list = { name = enacted_laws_list target = flag:apportionment_equal }
+		#	remove_list_variable = { name = enacted_laws_list target = flag:apportionment_landed }
+		#	remove_list_variable = { name = enacted_laws_list target = flag:apportionment_mixed }
+		#	remove_list_variable = { name = enacted_laws_list target = flag:apportionment_population }
+		#	set_variable = { name = recent_reform_passed value = flag:recent_reform_passed years = 5 }
+		#}
+	}
+}
+has_apportionment_equal = {
+	is_valid = {
+		top_liege.primary_title = {
+			is_target_in_variable_list = { name = enacted_laws_list target = flag:apportionment_equal }
+		}
+	}
+}
+
+can_pass_apportionment_mixed = {
+	scope = character
+	is_valid = {
+		can_pass_government_reforms = yes
+		primary_title = { NOT = { is_target_in_variable_list = { name = enacted_laws_list target = flag:apportionment_mixed } } }
+	}
+	effect = {
+		custom_tooltip = enact_apportionment_mixed
+		primary_title = {
+			set_variable = { name = debating_law value = flag:apportionment_mixed }
+			generate_party_acceptance_values = {
+				SOCIAL_LIBERTY = 25
+				SOCIAL_HIERARCHY = 25
+				LAISSEZ_FAIRE = 0 REG_ECONOMY = 0 PRO_SLAVERY = 0 UNIVERSAL_ACCEPTANCE_VALUE = 0
+			}
+		}
+		trigger_event = legislature.1
+		#primary_title = {
+		#	add_to_variable_list = { name = enacted_laws_list target = flag:apportionment_mixed }
+		#	remove_list_variable = { name = enacted_laws_list target = flag:apportionment_landed }
+		#	remove_list_variable = { name = enacted_laws_list target = flag:apportionment_equal }
+		#	remove_list_variable = { name = enacted_laws_list target = flag:apportionment_population }
+		#	set_variable = { name = recent_reform_passed value = flag:recent_reform_passed years = 5 }
+		#}
+	}
+}
+has_apportionment_mixed = {
+	is_valid = {
+		top_liege.primary_title = {
+			is_target_in_variable_list = { name = enacted_laws_list target = flag:apportionment_mixed }
+		}
+	}
+}
+
+can_pass_apportionment_population = {
+	scope = character
+	is_valid = {
+		can_pass_government_reforms = yes
+		primary_title = { NOT = { is_target_in_variable_list = { name = enacted_laws_list target = flag:apportionment_population } } }
+	}
+	effect = {
+		custom_tooltip = enact_apportionment_population
+		primary_title = {
+			set_variable = { name = debating_law value = flag:apportionment_population }
+			generate_party_acceptance_values = {
+				SOCIAL_LIBERTY = 50
+				SOCIAL_HIERARCHY = -20
+				LAISSEZ_FAIRE = 0 REG_ECONOMY = 0 PRO_SLAVERY = 0 UNIVERSAL_ACCEPTANCE_VALUE = 0
+			}
+		}
+		trigger_event = legislature.1
+		#primary_title = {
+		#	add_to_variable_list = { name = enacted_laws_list target = flag:apportionment_population }
+		#	remove_list_variable = { name = enacted_laws_list target = flag:apportionment_landed }
+		#	remove_list_variable = { name = enacted_laws_list target = flag:apportionment_equal }
+		#	remove_list_variable = { name = enacted_laws_list target = flag:apportionment_mixed }
+		#	set_variable = { name = recent_reform_passed value = flag:recent_reform_passed years = 5 }
+		#}
+	}
+}
+has_apportionment_population = {
+	is_valid = {
+		top_liege.primary_title = {
+			is_target_in_variable_list = { name = enacted_laws_list target = flag:apportionment_population }
+		}
+	}
+}
+
+can_pass_vote_franchise_landed = {
+	scope = character
+	is_valid = {
+		can_pass_government_reforms = yes
+		primary_title = { NOT = { is_target_in_variable_list = { name = enacted_laws_list target = flag:vote_franchise_landed } } }
+	}
+	effect = {
+		custom_tooltip = enact_vote_franchise_landed
+		primary_title = {
+			set_variable = { name = debating_law value = flag:vote_franchise_landed }
+			generate_party_acceptance_values = {
+				SOCIAL_HIERARCHY = 75
+				UNIVERSAL_ACCEPTANCE_VALUE = -80
+				SOCIAL_LIBERTY = 0 LAISSEZ_FAIRE = 0 REG_ECONOMY = 0 PRO_SLAVERY = 0
+			}
+		}
+		trigger_event = legislature.1
+		#primary_title = {
+		#	add_to_variable_list = { name = enacted_laws_list target = flag:vote_franchise_landed }
+		#	remove_list_variable = { name = enacted_laws_list target = flag:vote_franchise_wealth }
+		#	remove_list_variable = { name = enacted_laws_list target = flag:vote_franchise_universal_manhood }
+		#	remove_list_variable = { name = enacted_laws_list target = flag:vote_franchise_universal }
+		#	set_variable = { name = recent_reform_passed value = flag:recent_reform_passed years = 5 }
+		#}
+	}
+}
+has_vote_franchise_landed = {
+	is_valid = {
+		top_liege.primary_title = {
+			is_target_in_variable_list = { name = enacted_laws_list target = flag:vote_franchise_landed }
+		}
+	}
+}
+
+can_pass_vote_franchise_wealth = {
+	scope = character
+	is_valid = {
+		can_pass_government_reforms = yes
+		primary_title = { NOT = { is_target_in_variable_list = { name = enacted_laws_list target = flag:vote_franchise_wealth } } }
+		custom_description = {
+			text = "incompatible_appointment"
+			subject = root
+			primary_title = { NOT = { is_target_in_variable_list = { name = enacted_laws_list target = flag:apportionment_landed } } }
+		}
+
+		# TODO: something different perhaps?
+		culture = { has_innovation = innovation_development_04 }
+	}
+	effect = {
+		custom_tooltip = enact_vote_franchise_wealth
+		primary_title = {
+			set_variable = { name = debating_law value = flag:vote_franchise_wealth }
+			generate_party_acceptance_values = {
+				REG_ECONOMY = 30
+				SOCIAL_LIBERTY = -10
+				SOCIAL_HIERARCHY = 40
+				LAISSEZ_FAIRE = 0 PRO_SLAVERY = 0 UNIVERSAL_ACCEPTANCE_VALUE = 0
+			}
+		}
+		trigger_event = legislature.1
+		#primary_title = {
+		#	add_to_variable_list = { name = enacted_laws_list target = flag:vote_franchise_wealth }
+		#	remove_list_variable = { name = enacted_laws_list target = flag:vote_franchise_landed }
+		#	remove_list_variable = { name = enacted_laws_list target = flag:vote_franchise_universal_manhood }
+		#	remove_list_variable = { name = enacted_laws_list target = flag:vote_franchise_universal }
+		#	set_variable = { name = recent_reform_passed value = flag:recent_reform_passed years = 5 }
+		#}
+	}
+}
+has_vote_franchise_wealth = {
+	is_valid = {
+		top_liege.primary_title = {
+			is_target_in_variable_list = { name = enacted_laws_list target = flag:vote_franchise_wealth }
+		}
+	}
+}
+
+can_pass_vote_franchise_universal_manhood = {
+	scope = character
+	is_valid = {
+		can_pass_government_reforms = yes
+		primary_title = { NOT = { is_target_in_variable_list = { name = enacted_laws_list target = flag:vote_franchise_universal_manhood } } }
+		custom_description = {
+			text = "incompatible_appointment"
+			subject = root
+			primary_title = { NOT = { is_target_in_variable_list = { name = enacted_laws_list target = flag:apportionment_landed } } }
+		}
+
+		# TODO: something different perhaps?
+		culture = { has_innovation = innovation_development_04 }
+	}
+	effect = {
+		custom_tooltip = enact_vote_franchise_universal_manhood
+		primary_title = {
+			set_variable = { name = debating_law value = flag:vote_franchise_universal_manhood }
+			generate_party_acceptance_values = {
+				SOCIAL_LIBERTY = 50
+				LAISSEZ_FAIRE = 0 REG_ECONOMY = 0 SOCIAL_HIERARCHY = 0 PRO_SLAVERY = 0 UNIVERSAL_ACCEPTANCE_VALUE = 0
+			}
+		}
+		trigger_event = legislature.1
+		#primary_title = {
+		#	add_to_variable_list = { name = enacted_laws_list target = flag:vote_franchise_universal_manhood }
+		#	remove_list_variable = { name = enacted_laws_list target = flag:vote_franchise_landed }
+		#	remove_list_variable = { name = enacted_laws_list target = flag:vote_franchise_wealth }
+		#	remove_list_variable = { name = enacted_laws_list target = flag:vote_franchise_universal }
+		#	set_variable = { name = recent_reform_passed value = flag:recent_reform_passed years = 5 }
+		#}
+	}
+}
+has_vote_franchise_universal_manhood = {
+	is_valid = {
+		top_liege.primary_title = {
+			is_target_in_variable_list = { name = enacted_laws_list target = flag:vote_franchise_universal_manhood }
+		}
+	}
+}
+
+can_pass_vote_franchise_universal = {
+	scope = character
+	is_valid = {
+		can_pass_government_reforms = yes
+		primary_title = { NOT = { is_target_in_variable_list = { name = enacted_laws_list target = flag:vote_franchise_universal } } }
+		custom_description = {
+			text = "incompatible_appointment"
+			subject = root
+			primary_title = { NOT = { is_target_in_variable_list = { name = enacted_laws_list target = flag:apportionment_landed } } }
+		}
+
+		# TODO: something different perhaps?
+		culture = { has_innovation = innovation_development_04 }
+	}
+	effect = {
+		custom_tooltip = enact_vote_franchise_universal
+		primary_title = {
+			set_variable = { name = debating_law value = flag:vote_franchise_universal }
+			generate_party_acceptance_values = {
+				SOCIAL_LIBERTY = -40
+				SOCIAL_HIERARCHY = -80
+				LAISSEZ_FAIRE = 0 REG_ECONOMY = 0 PRO_SLAVERY = 0 UNIVERSAL_ACCEPTANCE_VALUE = 0
+			}
+		}
+		trigger_event = legislature.1
+		#primary_title = {
+		#	add_to_variable_list = { name = enacted_laws_list target = flag:vote_franchise_universal }
+		#	remove_list_variable = { name = enacted_laws_list target = flag:vote_franchise_landed }
+		#	remove_list_variable = { name = enacted_laws_list target = flag:vote_franchise_wealth }
+		#	remove_list_variable = { name = enacted_laws_list target = flag:vote_franchise_universal_manhood }
+		#	set_variable = { name = recent_reform_passed value = flag:recent_reform_passed years = 5 }
+		#}
+	}
+}
+has_vote_franchise_universal = {
+	is_valid = {
+		top_liege.primary_title = {
+			is_target_in_variable_list = { name = enacted_laws_list target = flag:vote_franchise_universal }
+		}
+	}
+}
+
+can_pass_vote_system_two_party = {
+	scope = character
+	is_valid = {
+		can_pass_government_reforms = yes
+		primary_title = { NOT = { is_target_in_variable_list = { name = enacted_laws_list target = flag:vote_system_two_party } } }
+		custom_description = {
+			text = "incompatible_appointment"
+			subject = root
+			primary_title = { NOT = { is_target_in_variable_list = { name = enacted_laws_list target = flag:apportionment_landed } } }
+		}
+	}
+	effect = {
+		custom_tooltip = enact_vote_system_two_party
+		primary_title = {
+			set_variable = { name = debating_law value = flag:vote_system_two_party }
+			generate_party_acceptance_values = {
+				LAISSEZ_FAIRE = 0 REG_ECONOMY = 0 SOCIAL_LIBERTY = 0 SOCIAL_HIERARCHY = 0 PRO_SLAVERY = 0 UNIVERSAL_ACCEPTANCE_VALUE = 0
+			}
+			modify_party_acceptance_values = { PARTY_DOMINANT_ACCEPTANCE = 60 }
+		}
+		trigger_event = legislature.1
+		#primary_title = {
+		#	add_to_variable_list = { name = enacted_laws_list target = flag:vote_system_two_party }
+		#	remove_list_variable = { name = enacted_laws_list target = flag:vote_system_jefferson }
+		#	remove_list_variable = { name = enacted_laws_list target = flag:vote_system_proportional }
+		#	set_variable = { name = recent_reform_passed value = flag:recent_reform_passed years = 5 }
+		#}
+	}
+}
+has_vote_system_two_party = {
+	is_valid = {
+		top_liege.primary_title = {
+			is_target_in_variable_list = { name = enacted_laws_list target = flag:vote_system_two_party }
+		}
+	}
+}
+
+can_pass_vote_system_jefferson = {
+	scope = character
+	is_valid = {
+		can_pass_government_reforms = yes
+		primary_title = { NOT = { is_target_in_variable_list = { name = enacted_laws_list target = flag:vote_system_jefferson } } }
+		custom_description = {
+			text = "incompatible_appointment"
+			subject = root
+			primary_title = { NOT = { is_target_in_variable_list = { name = enacted_laws_list target = flag:apportionment_landed } } }
+		}
+	}
+	effect = {
+		custom_tooltip = enact_vote_system_jefferson
+		primary_title = {
+			set_variable = { name = debating_law value = flag:vote_system_jefferson }
+			generate_party_acceptance_values = {
+				LAISSEZ_FAIRE = 0 REG_ECONOMY = 0 SOCIAL_LIBERTY = 0 SOCIAL_HIERARCHY = 0 PRO_SLAVERY = 0 UNIVERSAL_ACCEPTANCE_VALUE = 0
+			}
+			modify_party_acceptance_values = { PARTY_DOMINANT_ACCEPTANCE = -30 }
+		}
+		trigger_event = legislature.1
+		#primary_title = {
+		#	add_to_variable_list = { name = enacted_laws_list target = flag:vote_system_jefferson }
+		#	remove_list_variable = { name = enacted_laws_list target = flag:vote_system_two_party }
+		#	remove_list_variable = { name = enacted_laws_list target = flag:vote_system_proportional }
+		#	set_variable = { name = recent_reform_passed value = flag:recent_reform_passed years = 5 }
+		#}
+	}
+}
+has_vote_system_jefferson = {
+	is_valid = {
+		top_liege.primary_title = {
+			is_target_in_variable_list = { name = enacted_laws_list target = flag:vote_system_jefferson }
+		}
+	}
+}
+
+can_pass_vote_system_proportional = {
+	scope = character
+	is_valid = {
+		can_pass_government_reforms = yes
+		primary_title = { NOT = { is_target_in_variable_list = { name = enacted_laws_list target = flag:vote_system_proportional } } }
+		custom_description = {
+			text = "incompatible_appointment"
+			subject = root
+			primary_title = { NOT = { is_target_in_variable_list = { name = enacted_laws_list target = flag:apportionment_landed } } }
+		}
+	}
+	effect = {
+		custom_tooltip = enact_vote_system_proportional
+		primary_title = {
+			set_variable = { name = debating_law value = flag:vote_system_proportional }
+			generate_party_acceptance_values = {
+				LAISSEZ_FAIRE = 0 REG_ECONOMY = 0 SOCIAL_LIBERTY = 0 SOCIAL_HIERARCHY = 0 PRO_SLAVERY = 0 UNIVERSAL_ACCEPTANCE_VALUE = 0
+			}
+			modify_party_acceptance_values = { PARTY_DOMINANT_ACCEPTANCE = -60 }
+		}
+		trigger_event = legislature.1
+		#primary_title = {
+		#	add_to_variable_list = { name = enacted_laws_list target = flag:vote_system_proportional }
+		#	remove_list_variable = { name = enacted_laws_list target = flag:vote_system_two_party }
+		#	remove_list_variable = { name = enacted_laws_list target = flag:vote_system_jefferson }
+		#	set_variable = { name = recent_reform_passed value = flag:recent_reform_passed years = 5 }
+		#}
+	}
+}
+has_vote_system_proportional = {
+	is_valid = {
+		top_liege.primary_title = {
+			is_target_in_variable_list = { name = enacted_laws_list target = flag:vote_system_proportional }
 		}
 	}
 }
@@ -373,6 +1090,204 @@ root_is_anarchist = {
 	}
 }
 
+leg_has_reactionary = {
+	is_valid = {
+		top_liege.primary_title = {
+			exists = var:reactionary_absvalue
+			var:reactionary_absvalue = { compare_value > 0 }
+		}
+	}
+}
+leg_has_fascist = {
+	is_valid = {
+		top_liege.primary_title = {
+			exists = var:fascist_absvalue
+			var:fascist_absvalue = { compare_value > 0 }
+		}
+	}
+}
+leg_has_conservative = {
+	is_valid = {
+		top_liege.primary_title = {
+			exists = var:conservative_absvalue
+			var:conservative_absvalue = { compare_value > 0 }
+		}
+	}
+}
+leg_has_liberal = {
+	is_valid = {
+		top_liege.primary_title = {
+			exists = var:liberal_absvalue
+			var:liberal_absvalue = { compare_value > 0 }
+		}
+	}
+}
+leg_has_socialist = {
+	is_valid = {
+		top_liege.primary_title = {
+			exists = var:socialist_absvalue
+			var:socialist_absvalue = { compare_value > 0 }
+		}
+	}
+}
+leg_has_communist = {
+	is_valid = {
+		top_liege.primary_title = {
+			exists = var:communist_absvalue
+			var:communist_absvalue = { compare_value > 0 }
+		}
+	}
+}
+leg_has_anarchist = {
+	is_valid = {
+		top_liege.primary_title = {
+			exists = var:anarchist_absvalue
+			var:anarchist_absvalue = { compare_value > 0 }
+		}
+	}
+}
+leg_has_independent = {
+	is_valid = {
+		top_liege.primary_title = {
+			exists = var:independent_absvalue
+			var:independent_absvalue = { compare_value > 0 }
+		}
+	}
+}
+
+leg_currently_debating_domestic = {
+	is_valid = {
+		top_liege.primary_title = {
+			exists = var:debating_law
+		}
+	}
+}
+
+leg_currently_debating_foreign = {
+	is_valid = {
+		top_liege.primary_title = {
+			exists = var:debating_foreign
+		}
+	}
+}
+
+evaluate_legislature_percentages = {
+	scope = character
+	effect = {
+		if = {
+			limit = {
+				top_liege.primary_title = {
+					exists = var:liberal_absvalue
+					var:liberal_absvalue = { compare_value > 0 }
+				}
+			}
+			custom_tooltip = leg_perc_l
+		}
+		if = {
+			limit = {
+				top_liege.primary_title = {
+					exists = var:socialist_absvalue
+					var:socialist_absvalue = { compare_value > 0 }
+				}
+			}
+			custom_tooltip = leg_perc_s
+		}
+		if = {
+			limit = {
+				top_liege.primary_title = {
+					exists = var:reactionary_absvalue
+					var:reactionary_absvalue = { compare_value > 0 }
+				}
+			}
+			custom_tooltip = leg_perc_r
+		}
+		if = {
+			limit = {
+				top_liege.primary_title = {
+					exists = var:fascist_absvalue
+					var:fascist_absvalue = { compare_value > 0 }
+				}
+			}
+			custom_tooltip = leg_perc_f
+		}
+		if = {
+			limit = {
+				top_liege.primary_title = {
+					exists = var:conservative_absvalue
+					var:conservative_absvalue = { compare_value > 0 }
+				}
+			}
+			custom_tooltip = leg_perc_v
+		}
+		if = {
+			limit = {
+				top_liege.primary_title = {
+					exists = var:communist_absvalue
+					var:communist_absvalue = { compare_value > 0 }
+				}
+			}
+			custom_tooltip = leg_perc_c
+		}
+		if = {
+			limit = {
+				top_liege.primary_title = {
+					exists = var:anarchist_absvalue
+					var:anarchist_absvalue = { compare_value > 0 }
+				}
+			}
+			custom_tooltip = leg_perc_a
+		}
+		if = {
+			limit = {
+				top_liege.primary_title = {
+					exists = var:independent_absvalue
+					var:independent_absvalue = { compare_value > 0 }
+				}
+			}
+			custom_tooltip = leg_perc_i
+		}
+		if = {
+			limit = {
+				NOR = {
+					top_liege.primary_title = {
+						exists = var:liberal_absvalue
+						var:liberal_absvalue = { compare_value > 0 }
+					}
+					top_liege.primary_title = {
+						exists = var:socialist_absvalue
+						var:socialist_absvalue = { compare_value > 0 }
+					}
+					top_liege.primary_title = {
+						exists = var:reactionary_absvalue
+						var:reactionary_absvalue = { compare_value > 0 }
+					}
+					top_liege.primary_title = {
+						exists = var:fascist_absvalue
+						var:fascist_absvalue = { compare_value > 0 }
+					}
+					top_liege.primary_title = {
+						exists = var:conservative_absvalue
+						var:conservative_absvalue = { compare_value > 0 }
+					}
+					top_liege.primary_title = {
+						exists = var:communist_absvalue
+						var:communist_absvalue = { compare_value > 0 }
+					}
+					top_liege.primary_title = {
+						exists = var:anarchist_absvalue
+						var:anarchist_absvalue = { compare_value > 0 }
+					}
+					top_liege.primary_title = {
+						exists = var:independent_absvalue
+						var:independent_absvalue = { compare_value > 0 }
+					}
+				}
+			}
+			custom_tooltip = leg_perc_fallback
+		}
+	}
+}
+
 realm_uses_legislature_tab = {
 	scope = character
 	is_shown = {
@@ -392,10 +1307,19 @@ can_pass_leg_two_year_term = {
 	effect = {
 		custom_tooltip = enact_term_limit
 		primary_title = {
-			clear_leg_term_limit_reforms = yes
-			add_to_variable_list = { name = enacted_laws_list target = flag:leg_two_year_term }
-			set_variable = { name = recent_reform_passed value = flag:recent_reform_passed years = 5 }
+			set_variable = { name = debating_law value = flag:leg_two_year_term }
+			generate_party_acceptance_values = {
+				SOCIAL_LIBERTY = 30
+				SOCIAL_HIERARCHY = -30 
+				LAISSEZ_FAIRE = 0 REG_ECONOMY = 0 PRO_SLAVERY = 0 UNIVERSAL_ACCEPTANCE_VALUE = 0
+			}
 		}
+		trigger_event = legislature.1
+		#primary_title = {
+		#	clear_leg_term_limit_reforms = yes
+		#	add_to_variable_list = { name = enacted_laws_list target = flag:leg_two_year_term }
+		#	set_variable = { name = recent_reform_passed value = flag:recent_reform_passed years = 5 }
+		#}
 	}
 }
 has_leg_two_year_term = {
@@ -419,10 +1343,19 @@ can_pass_leg_three_year_term = {
 	effect = {
 		custom_tooltip = enact_term_limit
 		primary_title = {
-			clear_leg_term_limit_reforms = yes
-			add_to_variable_list = { name = enacted_laws_list target = flag:leg_three_year_term }
-			set_variable = { name = recent_reform_passed value = flag:recent_reform_passed years = 5 }
+			set_variable = { name = debating_law value = flag:leg_three_year_term }
+			generate_party_acceptance_values = {
+				SOCIAL_LIBERTY = 20
+				SOCIAL_HIERARCHY = -20 
+				LAISSEZ_FAIRE = 0 REG_ECONOMY = 0 PRO_SLAVERY = 0 UNIVERSAL_ACCEPTANCE_VALUE = 0
+			}
 		}
+		trigger_event = legislature.1
+		#primary_title = {
+		#	clear_leg_term_limit_reforms = yes
+		#	add_to_variable_list = { name = enacted_laws_list target = flag:leg_three_year_term }
+		#	set_variable = { name = recent_reform_passed value = flag:recent_reform_passed years = 5 }
+		#}
 	}
 }
 has_leg_three_year_term = {
@@ -446,10 +1379,19 @@ can_pass_leg_four_year_term = {
 	effect = {
 		custom_tooltip = enact_term_limit
 		primary_title = {
-			clear_leg_term_limit_reforms = yes
-			add_to_variable_list = { name = enacted_laws_list target = flag:leg_four_year_term }
-			set_variable = { name = recent_reform_passed value = flag:recent_reform_passed years = 5 }
+			set_variable = { name = debating_law value = flag:leg_four_year_term }
+			generate_party_acceptance_values = {
+				SOCIAL_LIBERTY = 10
+				SOCIAL_HIERARCHY = 10 
+				LAISSEZ_FAIRE = 0 REG_ECONOMY = 0 PRO_SLAVERY = 0 UNIVERSAL_ACCEPTANCE_VALUE = 0
+			}
 		}
+		trigger_event = legislature.1
+		#primary_title = {
+		#	clear_leg_term_limit_reforms = yes
+		#	add_to_variable_list = { name = enacted_laws_list target = flag:leg_four_year_term }
+		#	set_variable = { name = recent_reform_passed value = flag:recent_reform_passed years = 5 }
+		#}
 	}
 }
 has_leg_four_year_term = {
@@ -473,10 +1415,19 @@ can_pass_leg_five_year_term = {
 	effect = {
 		custom_tooltip = enact_term_limit
 		primary_title = {
-			clear_leg_term_limit_reforms = yes
-			add_to_variable_list = { name = enacted_laws_list target = flag:leg_five_year_term }
-			set_variable = { name = recent_reform_passed value = flag:recent_reform_passed years = 5 }
+			set_variable = { name = debating_law value = flag:leg_five_year_term }
+			generate_party_acceptance_values = {
+				SOCIAL_LIBERTY = -20
+				SOCIAL_HIERARCHY = 20 
+				LAISSEZ_FAIRE = 0 REG_ECONOMY = 0 PRO_SLAVERY = 0 UNIVERSAL_ACCEPTANCE_VALUE = 0
+			}
 		}
+		trigger_event = legislature.1
+		#primary_title = {
+		#	clear_leg_term_limit_reforms = yes
+		#	add_to_variable_list = { name = enacted_laws_list target = flag:leg_five_year_term }
+		#	set_variable = { name = recent_reform_passed value = flag:recent_reform_passed years = 5 }
+		#}
 	}
 }
 has_leg_five_year_term = {
@@ -500,10 +1451,19 @@ can_pass_leg_six_year_term = {
 	effect = {
 		custom_tooltip = enact_term_limit
 		primary_title = {
-			clear_leg_term_limit_reforms = yes
-			add_to_variable_list = { name = enacted_laws_list target = flag:leg_six_year_term }
-			set_variable = { name = recent_reform_passed value = flag:recent_reform_passed years = 5 }
+			set_variable = { name = debating_law value = flag:leg_six_year_term }
+			generate_party_acceptance_values = {
+				SOCIAL_LIBERTY = -40
+				SOCIAL_HIERARCHY = 40 
+				LAISSEZ_FAIRE = 0 REG_ECONOMY = 0 PRO_SLAVERY = 0 UNIVERSAL_ACCEPTANCE_VALUE = 0
+			}
 		}
+		trigger_event = legislature.1
+		#primary_title = {
+		#	clear_leg_term_limit_reforms = yes
+		#	add_to_variable_list = { name = enacted_laws_list target = flag:leg_six_year_term }
+		#	set_variable = { name = recent_reform_passed value = flag:recent_reform_passed years = 5 }
+		#}
 	}
 }
 has_leg_six_year_term = {
@@ -527,10 +1487,19 @@ can_pass_leg_limit_off = {
 	effect = {
 		custom_tooltip = enact_term_limit
 		primary_title = {
-			clear_leg_term_limit_reforms = yes
-			add_to_variable_list = { name = enacted_laws_list target = flag:leg_life_title_term }
-			set_variable = { name = recent_reform_passed value = flag:recent_reform_passed years = 5 }
+			set_variable = { name = debating_law value = flag:leg_life_title_term }
+			generate_party_acceptance_values = {
+				SOCIAL_HIERARCHY = 50 
+				UNIVERSAL_ACCEPTANCE_VALUE = -50
+				LAISSEZ_FAIRE = 0 REG_ECONOMY = 0 SOCIAL_LIBERTY = 0 PRO_SLAVERY = 0
+			}
 		}
+		trigger_event = legislature.1
+		#primary_title = {
+		#	clear_leg_term_limit_reforms = yes
+		#	add_to_variable_list = { name = enacted_laws_list target = flag:leg_life_title_term }
+		#	set_variable = { name = recent_reform_passed value = flag:recent_reform_passed years = 5 }
+		#}
 	}
 }
 has_leg_limit_off = {

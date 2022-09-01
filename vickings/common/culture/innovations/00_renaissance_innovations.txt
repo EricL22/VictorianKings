@@ -60,4 +60,17 @@ innovation_absolutism = {
 	custom = absolutism_vassal_restriction
 }
 
+innovation_permanent_envoys = {
+	group = culture_group_civic
+	culture_era = culture_era_renaissance
+	icon = @nobility_04
+
+	modifier = {
+		diplomatic_range_mult = 2.0
+	}
+
+	flag = global_regular
+	flag = renaissance_era_regular
+}
+
 #culture_group_regional

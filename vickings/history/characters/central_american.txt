@@ -1,0 +1,110 @@
+6450000 = {
+	name = "Francisco"
+	dynasty = morazan
+	culture = castilian
+	religion = catholic
+	1792.10.3 = {
+		birth = yes
+	}
+	1827.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1842.9.15 = {
+		death = yes
+	}
+}
+
+### Miskito Kings
+6451000 = {
+	name = "George"
+	dynasty = 162594
+	culture = miskito
+	religion = protestant
+	1725.1.1 = {	# unknown
+		birth = yes
+	}
+	1777.1.1 = {
+		death = yes
+	}
+}
+6451001 = {
+	name = "George"		# Frederic
+	dynasty = 162594
+	culture = miskito
+	religion = protestant
+	father = 6451000
+	1758.1.1 = {
+		birth = yes
+	}
+	1800.1.1 = {
+		death = yes
+	}
+}
+6451002 = {
+	name = "George-Frederic-Augustus"
+	dynasty = 162594
+	culture = miskito
+	religion = protestant
+	father = 6451001
+	1778.1.1 = {	# dates vary wildly between 1757-1798
+		birth = yes
+	}
+	1801.1.1 = {
+		effect = {
+			vassal_contract_set_obligation_level = {
+				type = title_revocation_rights
+				level = 1	#title_revocation_rights_protected
+			}
+		}
+	}
+	1824.3.9 = {
+		death = yes
+	}
+}
+6451003 = {
+	name = "Robert-Charles-Frederic"
+	dynasty = 162594
+	culture = miskito
+	religion = protestant
+	father = 6451001
+	1778.1.17 = {
+		birth = yes
+	}
+	1824.3.9 = {
+		effect = {
+			vassal_contract_set_obligation_level = {
+				type = title_revocation_rights
+				level = 1	#title_revocation_rights_protected
+			}
+		}
+	}
+	1841.10.8 = {
+		death = yes
+	}
+}
+6451004 = {
+	name = "George-Frederic-Augustus"
+	dynasty = 162594
+	culture = miskito
+	religion = protestant
+	father = 6451003
+	1801.5.6 = {	# dates vary wildly between 1801-1833
+		birth = yes
+	}
+	1841.10.8 = {
+		effect = {
+			vassal_contract_set_obligation_level = {
+				type = title_revocation_rights
+				level = 1	#title_revocation_rights_protected
+			}
+		}
+	}
+	1865.11.27 = {
+		death = yes
+	}
+}

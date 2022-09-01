@@ -113,7 +113,7 @@
 					root.culture = var:faction_culture
 				}
 			}
-			NOT = { primary_title = { target_is_de_jure_liege_or_above = scope:faction.faction_target.primary_title } }
+			NOT = { root.primary_title = { target_is_de_jure_liege_or_above = scope:faction.faction_target.primary_title } }
 		}
 	}
 

@@ -1,0 +1,39 @@
+﻿liberal_has_lf = { is_valid = { top_liege.primary_title = { is_target_in_variable_list = { name = liberal_issues target = flag:laissez_faire } } } }
+socialist_has_lf = { is_valid = { top_liege.primary_title = { is_target_in_variable_list = { name = socialist_issues target = flag:laissez_faire } } } }
+reactionary_has_lf = { is_valid = { top_liege.primary_title = { is_target_in_variable_list = { name = reactionary_issues target = flag:laissez_faire } } } }
+fascist_has_lf = { is_valid = { top_liege.primary_title = { is_target_in_variable_list = { name = fascist_issues target = flag:laissez_faire } } } }
+conservative_has_lf = { is_valid = { top_liege.primary_title = { is_target_in_variable_list = { name = conservative_issues target = flag:laissez_faire } } } }
+communist_has_lf = { is_valid = { top_liege.primary_title = { is_target_in_variable_list = { name = communist_issues target = flag:laissez_faire } } } }
+anarchist_has_lf = { is_valid = { top_liege.primary_title = { is_target_in_variable_list = { name = anarchist_issues target = flag:laissez_faire } } } }
+
+liberal_has_re = { is_valid = { top_liege.primary_title = { is_target_in_variable_list = { name = liberal_issues target = flag:regulated_economy } } } }
+socialist_has_re = { is_valid = { top_liege.primary_title = { is_target_in_variable_list = { name = socialist_issues target = flag:regulated_economy } } } }
+reactionary_has_re = { is_valid = { top_liege.primary_title = { is_target_in_variable_list = { name = reactionary_issues target = flag:regulated_economy } } } }
+fascist_has_re = { is_valid = { top_liege.primary_title = { is_target_in_variable_list = { name = fascist_issues target = flag:regulated_economy } } } }
+conservative_has_re = { is_valid = { top_liege.primary_title = { is_target_in_variable_list = { name = conservative_issues target = flag:regulated_economy } } } }
+communist_has_re = { is_valid = { top_liege.primary_title = { is_target_in_variable_list = { name = communist_issues target = flag:regulated_economy } } } }
+anarchist_has_re = { is_valid = { top_liege.primary_title = { is_target_in_variable_list = { name = anarchist_issues target = flag:regulated_economy } } } }
+
+liberal_has_sl = { is_valid = { top_liege.primary_title = { is_target_in_variable_list = { name = liberal_issues target = flag:social_liberty } } } }
+socialist_has_sl = { is_valid = { top_liege.primary_title = { is_target_in_variable_list = { name = socialist_issues target = flag:social_liberty } } } }
+reactionary_has_sl = { is_valid = { top_liege.primary_title = { is_target_in_variable_list = { name = reactionary_issues target = flag:social_liberty } } } }
+fascist_has_sl = { is_valid = { top_liege.primary_title = { is_target_in_variable_list = { name = fascist_issues target = flag:social_liberty } } } }
+conservative_has_sl = { is_valid = { top_liege.primary_title = { is_target_in_variable_list = { name = conservative_issues target = flag:social_liberty } } } }
+communist_has_sl = { is_valid = { top_liege.primary_title = { is_target_in_variable_list = { name = communist_issues target = flag:social_liberty } } } }
+anarchist_has_sl = { is_valid = { top_liege.primary_title = { is_target_in_variable_list = { name = anarchist_issues target = flag:social_liberty } } } }
+
+liberal_has_sh = { is_valid = { top_liege.primary_title = { is_target_in_variable_list = { name = liberal_issues target = flag:social_hierarchy } } } }
+socialist_has_sh = { is_valid = { top_liege.primary_title = { is_target_in_variable_list = { name = socialist_issues target = flag:social_hierarchy } } } }
+reactionary_has_sh = { is_valid = { top_liege.primary_title = { is_target_in_variable_list = { name = reactionary_issues target = flag:social_hierarchy } } } }
+fascist_has_sh = { is_valid = { top_liege.primary_title = { is_target_in_variable_list = { name = fascist_issues target = flag:social_hierarchy } } } }
+conservative_has_sh = { is_valid = { top_liege.primary_title = { is_target_in_variable_list = { name = conservative_issues target = flag:social_hierarchy } } } }
+communist_has_sh = { is_valid = { top_liege.primary_title = { is_target_in_variable_list = { name = communist_issues target = flag:social_hierarchy } } } }
+anarchist_has_sh = { is_valid = { top_liege.primary_title = { is_target_in_variable_list = { name = anarchist_issues target = flag:social_hierarchy } } } }
+
+liberal_has_ps = { is_valid = { top_liege.primary_title = { is_target_in_variable_list = { name = liberal_issues target = flag:pro_slavery } } } }
+socialist_has_ps = { is_valid = { top_liege.primary_title = { is_target_in_variable_list = { name = socialist_issues target = flag:pro_slavery } } } }
+reactionary_has_ps = { is_valid = { top_liege.primary_title = { is_target_in_variable_list = { name = reactionary_issues target = flag:pro_slavery } } } }
+fascist_has_ps = { is_valid = { top_liege.primary_title = { is_target_in_variable_list = { name = fascist_issues target = flag:pro_slavery } } } }
+conservative_has_ps = { is_valid = { top_liege.primary_title = { is_target_in_variable_list = { name = conservative_issues target = flag:pro_slavery } } } }
+communist_has_ps = { is_valid = { top_liege.primary_title = { is_target_in_variable_list = { name = communist_issues target = flag:pro_slavery } } } }
+anarchist_has_ps = { is_valid = { top_liege.primary_title = { is_target_in_variable_list = { name = anarchist_issues target = flag:pro_slavery } } } }

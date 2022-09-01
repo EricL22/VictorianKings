@@ -1,0 +1,24 @@
+13409 = {
+        culture = miskito
+        religion = pagan
+}
+13410 = {
+        culture = miskito
+        religion = pagan
+}
+13411 = {
+        culture = miskito
+        religion = pagan
+}
+13412 = {
+        culture = miskito
+        religion = pagan
+}
+13413 = {
+        culture = miskito
+        religion = pagan
+}
+13414 = {
+        culture = miskito
+        religion = protestant
+}

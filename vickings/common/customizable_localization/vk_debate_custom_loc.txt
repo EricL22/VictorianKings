@@ -1,0 +1,425 @@
+﻿GetDebateBillCategory = {
+	type = character
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:debating_law
+				OR = {
+					var:debating_law = flag:four_year_term
+					var:debating_law = flag:five_year_term
+					var:debating_law = flag:six_year_term
+					var:debating_law = flag:seven_year_term
+					var:debating_law = flag:life_title_term
+				}
+			}
+		}
+		localization_key = term_limit_exec
+	}
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:debating_law
+				OR = {
+					var:debating_law = flag:admin_feudal
+					var:debating_law = flag:admin_centralized
+				}
+			}
+		}
+		localization_key = MY_REALM_WINDOW_ADMINISTRATIVE_REFORM
+	}
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:debating_law
+				OR = {
+					var:debating_law = flag:sovereign_semi_constitutional
+					var:debating_law = flag:sovereign_constitutional
+				}
+			}
+		}
+		localization_key = MY_REALM_WINDOW_SOVEREIGN_POWER
+	}
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:debating_law
+				OR = {
+					var:debating_law = flag:eligibility_default
+					var:debating_law = flag:eligibility_one_party
+				}
+			}
+		}
+		localization_key = MY_REALM_WINDOW_ELIGIBILITY
+	}
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:debating_law
+				OR = {
+					var:debating_law = flag:eligibility_state
+					var:debating_law = flag:eligibility_de_jure
+					var:debating_law = flag:eligibility_de_facto
+				}
+			}
+		}
+		localization_key = MY_REALM_WINDOW_VELIGIBILITY
+	}
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:debating_law
+				OR = {
+					var:debating_law = flag:apportionment_landed
+					var:debating_law = flag:apportionment_equal
+					var:debating_law = flag:apportionment_mixed
+					var:debating_law = flag:apportionment_population
+				}
+			}
+		}
+		localization_key = MY_REALM_WINDOW_APPORTIONMENT
+	}
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:debating_law
+				OR = {
+					var:debating_law = flag:vote_franchise_landed
+					var:debating_law = flag:vote_franchise_wealth
+					var:debating_law = flag:vote_franchise_universal_manhood
+					var:debating_law = flag:vote_franchise_universal
+				}
+			}
+		}
+		localization_key = MY_REALM_WINDOW_VOTING_FRANCHISE
+	}
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:debating_law
+				OR = {
+					var:debating_law = flag:vote_system_two_party
+					var:debating_law = flag:vote_system_jefferson
+					var:debating_law = flag:vote_system_proportional
+				}
+			}
+		}
+		localization_key = MY_REALM_WINDOW_VOTING_SYSTEM
+	}
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:debating_law
+				OR = {
+					var:debating_law = flag:leg_two_year_term
+					var:debating_law = flag:leg_three_year_term
+					var:debating_law = flag:leg_four_year_term
+					var:debating_law = flag:leg_five_year_term
+					var:debating_law = flag:leg_six_year_term
+					var:debating_law = flag:leg_life_title_term
+				}
+			}
+		}
+		localization_key = term_limit_leg
+	}
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:debating_law
+				var:debating_law = flag:state_admission
+			}
+		}
+		localization_key = debate_statehood
+	}
+}
+
+GetDebateBillName = {
+	type = character
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:debating_law
+				var:debating_law = flag:leg_two_year_term
+			}
+		}
+		localization_key = term_limit_2
+	}
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:debating_law
+				var:debating_law = flag:leg_three_year_term
+			}
+		}
+		localization_key = term_limit_3
+	}
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:debating_law
+				OR = {
+				var:debating_law = flag:four_year_term
+				var:debating_law = flag:leg_four_year_term
+				}
+			}
+		}
+		localization_key = term_limit_4
+	}
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:debating_law
+				OR = {
+				var:debating_law = flag:five_year_term
+				var:debating_law = flag:leg_five_year_term
+				}
+			}
+		}
+		localization_key = term_limit_5
+	}
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:debating_law
+				OR = {
+				var:debating_law = flag:six_year_term
+				var:debating_law = flag:leg_six_year_term
+				}
+			}
+		}
+		localization_key = term_limit_6
+	}
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:debating_law
+				var:debating_law = flag:seven_year_term
+			}
+		}
+		localization_key = term_limit_7
+	}
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:debating_law
+				OR = {
+				var:debating_law = flag:life_title_term
+				var:debating_law = flag:leg_life_title_term
+				}
+			}
+		}
+		localization_key = term_limit_off
+	}
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:debating_law
+				var:debating_law = flag:admin_feudal
+			}
+		}
+		localization_key = administration_feudal
+	}
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:debating_law
+				var:debating_law = flag:admin_centralized
+			}
+		}
+		localization_key = administration_centralized
+	}
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:debating_law
+				var:debating_law = flag:sovereign_semi_constitutional
+			}
+		}
+		localization_key = sovereign_semi_constitutional
+	}
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:debating_law
+				var:debating_law = flag:sovereign_constitutional
+			}
+		}
+		localization_key = sovereign_constitutional
+	}
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:debating_law
+				var:debating_law = flag:eligibility_default
+			}
+		}
+		localization_key = eligibility_default
+	}
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:debating_law
+				var:debating_law = flag:eligibility_one_party
+			}
+		}
+		localization_key = eligibility_one_party
+	}
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:debating_law
+				var:debating_law = flag:eligibility_state
+			}
+		}
+		localization_key = eligibility_state
+	}
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:debating_law
+				var:debating_law = flag:eligibility_de_jure
+			}
+		}
+		localization_key = eligibility_de_jure
+	}
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:debating_law
+				var:debating_law = flag:eligibility_de_facto
+			}
+		}
+		localization_key = eligibility_de_facto
+	}
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:debating_law
+				var:debating_law = flag:apportionment_landed
+			}
+		}
+		localization_key = apportionment_landed
+	}
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:debating_law
+				var:debating_law = flag:apportionment_equal
+			}
+		}
+		localization_key = apportionment_equal
+	}
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:debating_law
+				var:debating_law = flag:apportionment_mixed
+			}
+		}
+		localization_key = apportionment_mixed
+	}
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:debating_law
+				var:debating_law = flag:apportionment_population
+			}
+		}
+		localization_key = apportionment_population
+	}
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:debating_law
+				var:debating_law = flag:vote_franchise_landed
+			}
+		}
+		localization_key = vote_franchise_landed
+	}
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:debating_law
+				var:debating_law = flag:vote_franchise_wealth
+			}
+		}
+		localization_key = vote_franchise_wealth
+	}
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:debating_law
+				var:debating_law = flag:vote_franchise_universal_manhood
+			}
+		}
+		localization_key = vote_franchise_universal_manhood
+	}
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:debating_law
+				var:debating_law = flag:vote_franchise_universal
+			}
+		}
+		localization_key = vote_franchise_universal
+	}
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:debating_law
+				var:debating_law = flag:vote_system_two_party
+			}
+		}
+		localization_key = vote_system_two_party
+	}
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:debating_law
+				var:debating_law = flag:vote_system_jefferson
+			}
+		}
+		localization_key = vote_system_jefferson
+	}
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:debating_law
+				var:debating_law = flag:vote_system_proportional
+			}
+		}
+		localization_key = vote_system_proportional
+	}
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:admitting_state
+			}
+		}
+		localization_key = debate_statehood_state
+	}
+}
+
+GetDebateForeignCategory = {
+	type = character
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:debating_foreign
+				var:debating_foreign = flag:proposed_war
+			}
+		}
+		localization_key = debate_war
+	}
+}
+
+GetDebateForeignTarget = {
+	type = character
+	text = {
+		trigger = {
+			primary_title = {
+				exists = var:proposed_war_target
+			}
+		}
+		localization_key = debate_war_target
+	}
+}

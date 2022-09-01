@@ -1,0 +1,9 @@
+k_tamaulipas = {
+	1746.7.9 = {
+		name = new_santander
+	}
+	1821.9.28 = {
+		de_jure_liege = e_mexico
+		reset_name = yes
+	}
+}

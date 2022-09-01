@@ -1,0 +1,52 @@
+13119 = {
+        culture = castilian
+        religion = catholic
+}
+13120 = {
+        culture = castilian
+        religion = catholic
+}
+13121 = {
+        culture = castilian
+        religion = catholic
+}
+13122 = {
+        culture = castilian
+        religion = catholic
+}
+13123 = {
+        culture = castilian
+        religion = catholic
+}
+13124 = {
+        culture = castilian
+        religion = catholic
+}
+13125 = {
+        culture = castilian
+        religion = catholic
+}
+13126 = {
+        culture = castilian
+        religion = catholic
+}
+13127 = {
+        culture = castilian
+        religion = catholic
+}
+13128 = {
+        culture = castilian
+        religion = catholic
+}
+13129 = {
+        culture = castilian
+        religion = catholic
+}
+13130 = {
+        culture = castilian
+        religion = catholic
+}
+13131 = {
+        culture = castilian
+        religion = catholic
+}

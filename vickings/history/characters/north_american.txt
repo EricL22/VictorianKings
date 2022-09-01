@@ -302,3 +302,84 @@
 		death = yes
 	}
 }
+
+6400516 = {
+	name = "John"
+	dynasty = smyth
+	culture = english
+	religion = protestant
+	1780.1.1 = {		# unknown
+		birth = yes
+	}
+	1809.1.1 = {
+		effect = {
+			if = {
+				limit = { is_landed = yes }
+				add_realm_law_skip_effects = city_succession_law
+			}
+		}
+	}
+	1839.7.19 = {
+		death = yes
+	}
+}
+
+6400517 = {
+	name = "George"
+	dynasty = arthur
+	culture = english
+	religion = protestant
+	1784.6.21 = {
+		birth = yes
+	}
+	1814.1.1 = {
+		effect = {
+			if = {
+				limit = { is_landed = yes }
+				add_realm_law_skip_effects = city_succession_law
+			}
+		}
+	}
+	1854.9.19 = {
+		death = yes
+	}
+}
+
+6400518 = {
+	name = "Francis"
+	dynasty = cockburn
+	culture = english
+	religion = protestant
+	1780.11.10 = {
+		birth = yes
+	}
+	1830.1.1 = {
+		effect = {
+			if = {
+				limit = { is_landed = yes }
+				add_realm_law_skip_effects = city_succession_law
+			}
+		}
+	}
+	1868.8.24 = {
+		death = yes
+	}
+}
+
+6400519 = {
+	name = "Frederick"
+	dynasty = seymour
+	culture = english
+	religion = protestant
+	1820.9.6 = {
+		birth = yes
+	}
+	1857.1.1 = {
+		effect = {
+			add_realm_law_skip_effects = city_succession_law
+		}
+	}
+	1869.6.10 = {
+		death = yes
+	}
+}

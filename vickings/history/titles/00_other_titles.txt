@@ -3537,6 +3537,9 @@ e_britannia = {
 	1830.6.26 = {
 		holder = 8000010
 	}
+	1837.6.20 = {
+		holder = 8000012
+	}
 }
 
 
@@ -5883,5 +5886,41 @@ k_hudsons_bay = {
 	}
 	1822.1.1 = {
 		holder = 6400515
+	}
+}
+
+e_new_spain = {
+	1810.9.14 = {
+		holder = 6420017
+	}
+	1813.3.4 = {
+		holder = 6420018
+	}
+}
+
+e_mexico = {
+	1821.9.28 = {
+		holder = 6420014
+	}
+	1823.3.19 = {
+		government = republic_government
+	}
+	1834.3.20 = {
+		holder = 6420000
+	}
+}
+
+e_central_america = {
+	1823.7.1 = {
+		government = republic_government
+	}
+	1834.1.1 = {
+		effect = { set_capital_county = title:c_san_salvador }
+	}
+	1835.2.14 = {
+		holder = 6450000
+	}
+	1840.4.1 = {
+		holder = 0
 	}
 }

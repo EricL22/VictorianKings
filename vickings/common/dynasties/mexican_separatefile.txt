@@ -1,0 +1,99 @@
+santa_anna = {
+    name = "dynn_Santa_Anna"
+    culture = "castilian"
+}
+
+bustamante = {
+    name = "dynn_Bustamante"
+    culture = "castilian"
+}
+
+bravo = {
+    name = "dynn_Bravo"
+    culture = "castilian"
+}
+
+alvarez = {
+    name = "dynn_Alvarez"
+    culture = "castilian"
+}
+
+chico = {
+    name = "dynn_Chico"
+    culture = "castilian"
+}
+
+alvarado = {
+    name = "dynn_Alvarado"
+    culture = "castilian"
+}
+
+perez = {
+    name = "dynn_Perez"
+    culture = "castilian"
+}
+
+urrea = {
+    prefix = "dynnp_de"
+    name = "dynn_Urrea"
+    culture = "castilian"
+}
+
+victoria = {
+    name = "dynn_Victoria"
+    culture = "castilian"
+}
+
+pedraza = {
+    name = "dynn_Pedraza"
+    culture = "castilian"
+}
+
+gutierrez = {
+    name = "dynn_Gutierrez"
+    culture = "castilian"
+}
+
+
+rayon = {
+    name = "dynn_Rayon"
+    culture = "castilian"
+}
+
+
+guerrero = {
+    name = "dynn_Guerrero"
+    culture = "castilian"
+}
+
+morelos = {
+    name = "dynn_Morelos"
+    culture = "castilian"
+}
+
+iturbide = {
+    prefix = "dynnp_de"
+    name = "dynn_Iturbide"
+    culture = "castilian"
+}
+
+mexia = {
+    name = "dynn_Mexia"
+    culture = "castilian"
+}
+
+zavala = {
+    prefix = "dynnp_de"
+    name = "dynn_Zavala"
+    culture = "castilian"
+}
+
+venegas = {
+    name = "dynn_Venegas"
+    culture = "castilian"
+}
+
+calleja = {
+    name = "dynn_Calleja"
+    culture = "castilian"
+}

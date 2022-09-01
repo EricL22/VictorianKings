@@ -4,7 +4,8 @@
  IS_CIVILIAN_GOVERNOR_NO_WAR_REVERSE:0 "You must be in a realm with Low [crown_authority|E] to call [TARGET_CHARACTER.GetShortUIName|U] to the war"
 
  recently_passed_reform:0 "You have recently passed a reform"
- requires_absolutism_innovation:0 "You have not yet discovered Absolutism"
+ recently_failed_reform:0 "Your legislature has recently debated on a reform"
+ law_under_debate:0 "Your Legislature is currently voting on a proposed law"
  reform_independent_requirement:0 "You must be an independent ruler to pass reforms"
  centralized_no_free_war_contract:0 "Only Protectorates can independently declare war in a centralized state"
  peninsular_war_blocked_execution:0 "Blocked by event war"

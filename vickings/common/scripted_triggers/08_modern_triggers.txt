@@ -8,6 +8,9 @@
 			AND = {
 				is_independent_ruler = yes
 				prestige_level >= 2
+				NOT = {
+					is_spanish_viceroy_trigger = yes
+				}
 			}
 		}
 	}
@@ -20,6 +23,7 @@ historical_succession_access_city_succession_law_trigger = {
 		has_title = title:k_tuva
 		has_title = title:k_dzungaria
 		has_title = title:k_amdo
+		is_spanish_viceroy_trigger = yes
 	}
 }
 
@@ -105,6 +109,20 @@ can_pass_government_reforms = {
 		subject = root
 		primary_title = {
 			NOT = { has_variable = recent_reform_passed }
+		}
+	}
+	custom_description = {
+		text = "law_under_debate"
+		subject = root
+		primary_title = {
+			NOT = { has_variable = debating_law }
+		}
+	}
+	custom_description = {
+		text = "recently_failed_reform"
+		subject = root
+		primary_title = {
+			NOT = { has_variable = recent_reform_failed }
 		}
 	}
 }
@@ -257,8 +275,291 @@ is_protectorate = {
 
 root_realm_uses_legislature_trigger = {
 	OR = {
-		top_liege.primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:sovereign_semi_constitutional } }
-		top_liege.primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:sovereign_constitutional } }
+		AND = {
+			exists = top_liege.primary_title
+			OR = {
+				top_liege.primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:sovereign_semi_constitutional } }
+				top_liege.primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:sovereign_constitutional } }
+			}
+		}
 		has_government = republic_government
+	}
+}
+
+has_dominant_ideology_trigger = {
+	exists = $VAR$
+	$VAR$ = { compare_value > 0 }
+	trigger_if = {
+		limit = {
+			has_variable = liberal_value
+			NOT = { $VAR$ = var:liberal_value }
+		}
+		$VAR$.compare_value > { value = var:liberal_value }
+	}
+	trigger_if = {
+		limit = {
+			has_variable = socialist_value
+			NOT = { $VAR$ = var:socialist_value }
+		}
+		$VAR$.compare_value > { value = var:socialist_value }
+	}
+	trigger_if = {
+		limit = {
+			has_variable = reactionary_value
+			NOT = { $VAR$ = var:reactionary_value }
+		}
+		$VAR$.compare_value > { value = var:reactionary_value }
+	}
+	trigger_if = {
+		limit = {
+			has_variable = fascist_value
+			NOT = { $VAR$ = var:fascist_value }
+		}
+		$VAR$.compare_value > { value = var:fascist_value }
+	}
+	trigger_if = {
+		limit = {
+			has_variable = conservative_value
+			NOT = { $VAR$ = var:conservative_value }
+		}
+		$VAR$.compare_value > { value = var:conservative_value }
+	}
+	trigger_if = {
+		limit = {
+			has_variable = communist_value
+			NOT = { $VAR$ = var:communist_value }
+		}
+		$VAR$.compare_value > { value = var:communist_value }
+	}
+	trigger_if = {
+		limit = {
+			has_variable = anarchist_value
+			NOT = { $VAR$ = var:anarchist_value }
+		}
+		$VAR$.compare_value > { value = var:anarchist_value }
+	}
+}
+
+has_dominant_ideology_jeff_trigger = {
+	exists = $VAR$
+	$VAR$ = { compare_value > 0 }
+	trigger_if = {
+		limit = {
+			has_variable = liberal_jeff
+			NOT = { $VAR$ = var:liberal_jeff }
+		}
+		$VAR$.compare_value > { value = var:liberal_jeff }
+	}
+	trigger_if = {
+		limit = {
+			has_variable = socialist_jeff
+			NOT = { $VAR$ = var:socialist_jeff }
+		}
+		$VAR$.compare_value > { value = var:socialist_jeff }
+	}
+	trigger_if = {
+		limit = {
+			has_variable = reactionary_jeff
+			NOT = { $VAR$ = var:reactionary_jeff }
+		}
+		$VAR$.compare_value > { value = var:reactionary_jeff }
+	}
+	trigger_if = {
+		limit = {
+			has_variable = fascist_jeff
+			NOT = { $VAR$ = var:fascist_jeff }
+		}
+		$VAR$.compare_value > { value = var:fascist_jeff }
+	}
+	trigger_if = {
+		limit = {
+			has_variable = conservative_jeff
+			NOT = { $VAR$ = var:conservative_jeff }
+		}
+		$VAR$.compare_value > { value = var:conservative_jeff }
+	}
+	trigger_if = {
+		limit = {
+			has_variable = communist_jeff
+			NOT = { $VAR$ = var:communist_jeff }
+		}
+		$VAR$.compare_value > { value = var:communist_jeff }
+	}
+	trigger_if = {
+		limit = {
+			has_variable = anarchist_jeff
+			NOT = { $VAR$ = var:anarchist_jeff }
+		}
+		$VAR$.compare_value > { value = var:anarchist_jeff }
+	}
+}
+
+has_dominant_ideology_legislature_trigger = {
+	exists = $VAR$
+	$VAR$ = { compare_value > 0 }
+	trigger_if = {
+		limit = {
+			has_variable = liberal_absvalue
+			NOT = { $VAR$ = var:liberal_absvalue }
+		}
+		$VAR$.compare_value > { value = var:liberal_absvalue }
+	}
+	trigger_if = {
+		limit = {
+			has_variable = socialist_absvalue
+			NOT = { $VAR$ = var:socialist_absvalue }
+		}
+		$VAR$.compare_value > { value = var:socialist_absvalue }
+	}
+	trigger_if = {
+		limit = {
+			has_variable = reactionary_absvalue
+			NOT = { $VAR$ = var:reactionary_absvalue }
+		}
+		$VAR$.compare_value > { value = var:reactionary_absvalue }
+	}
+	trigger_if = {
+		limit = {
+			has_variable = fascist_absvalue
+			NOT = { $VAR$ = var:fascist_absvalue }
+		}
+		$VAR$.compare_value > { value = var:fascist_absvalue }
+	}
+	trigger_if = {
+		limit = {
+			has_variable = conservative_absvalue
+			NOT = { $VAR$ = var:conservative_absvalue }
+		}
+		$VAR$.compare_value > { value = var:conservative_absvalue }
+	}
+	trigger_if = {
+		limit = {
+			has_variable = communist_absvalue
+			NOT = { $VAR$ = var:communist_absvalue }
+		}
+		$VAR$.compare_value > { value = var:communist_absvalue }
+	}
+	trigger_if = {
+		limit = {
+			has_variable = anarchist_absvalue
+			NOT = { $VAR$ = var:anarchist_absvalue }
+		}
+		$VAR$.compare_value > { value = var:anarchist_absvalue }
+	}
+}
+
+can_pass_sovereign_power_laws_trigger = {
+	OR = {
+		has_government = feudal_government
+		has_government = clan_government
+	}
+}
+
+voting_against_own_party_domestic_trigger = {
+	primary_title = {
+		OR = {
+			AND = {
+				var:total_yay.compare_value > { value = var:total_nay }
+				OR = {
+					AND = {
+						root = { has_character_flag = liberal_party }
+						exists = var:liberal_acceptance
+						var:liberal_acceptance = { compare_value > 100 }
+						var:liberal_yay = { compare_value > 60 }
+					}
+					AND = {
+						root = { has_character_flag = socialist_party }
+						exists = var:socialist_acceptance
+						var:socialist_acceptance = { compare_value > 100 }
+						var:socialist_yay = { compare_value > 60 }
+					}
+					AND = {
+						root = { has_character_flag = reactionary_party }
+						exists = var:reactionary_acceptance
+						var:reactionary_acceptance = { compare_value > 100 }
+						var:reactionary_yay = { compare_value > 60 }
+					}
+					AND = {
+						root = { has_character_flag = fascist_party }
+						exists = var:fascist_acceptance
+						var:fascist_acceptance = { compare_value > 100 }
+						var:fascist_yay = { compare_value > 60 }
+					}
+					AND = {
+						root = { has_character_flag = conservative_party }
+						exists = var:conservative_acceptance
+						var:conservative_acceptance = { compare_value > 100 }
+						var:conservative_yay = { compare_value > 60 }
+					}
+					AND = {
+						root = { has_character_flag = communist_party }
+						exists = var:communist_acceptance
+						var:communist_acceptance = { compare_value > 100 }
+						var:communist_yay = { compare_value > 60 }
+					}
+					AND = {
+						root = { has_character_flag = anarchist_party }
+						exists = var:anarchist_acceptance
+						var:anarchist_acceptance = { compare_value > 100 }
+						var:anarchist_yay = { compare_value > 60 }
+					}
+				}
+				root = { NOT = { has_character_modifier = independent_party_modifier } }
+			}
+			AND = {
+				var:total_yay.compare_value <= { value = var:total_nay }
+				OR = {
+					AND = {
+						root = { has_character_flag = liberal_party }
+						exists = var:liberal_acceptance
+						var:liberal_acceptance = { compare_value < 100 }
+						var:liberal_nay = { compare_value > 60 }
+					}
+					AND = {
+						root = { has_character_flag = socialist_party }
+						exists = var:socialist_acceptance
+						var:socialist_acceptance = { compare_value < 100 }
+						var:socialist_nay = { compare_value > 60 }
+					}
+					AND = {
+						root = { has_character_flag = reactionary_party }
+						exists = var:reactionary_acceptance
+						var:reactionary_acceptance = { compare_value < 100 }
+						var:reactionary_nay = { compare_value > 60 }
+					}
+					AND = {
+						root = { has_character_flag = fascist_party }
+						exists = var:fascist_acceptance
+						var:fascist_acceptance = { compare_value < 100 }
+						var:fascist_nay = { compare_value > 60 }
+					}
+					AND = {
+						root = { has_character_flag = conservative_party }
+						exists = var:conservative_acceptance
+						var:conservative_acceptance = { compare_value < 100 }
+						var:conservative_nay = { compare_value > 60 }
+					}
+					AND = {
+						root = { has_character_flag = communist_party }
+						exists = var:communist_acceptance
+						var:communist_acceptance = { compare_value < 100 }
+						var:communist_nay = { compare_value > 60 }
+					}
+					AND = {
+						root = { has_character_flag = anarchist_party }
+						exists = var:anarchist_acceptance
+						var:anarchist_acceptance = { compare_value < 100 }
+						var:anarchist_nay = { compare_value > 60 }
+					}
+				}
+				root = { NOT = { has_character_modifier = independent_party_modifier } }
+			}
+		}
+	}
+}
+
+is_spanish_viceroy_trigger = {
+	OR = {
+		has_title = title:e_new_spain
 	}
 }

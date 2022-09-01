@@ -57,6 +57,7 @@ vk_on_death_effects = {
 on_game_start = {
 	on_actions = {
 		prepare_government_reforms
+		prepare_political_parties
 		vk_initialize_history_effects
 	}
 }
@@ -76,10 +77,7 @@ prepare_government_reforms = {
 		}
 		every_independent_ruler = {
 			limit = {
-				OR = {
-					has_government = feudal_government
-					has_government = clan_government
-				}
+				can_pass_sovereign_power_laws_trigger = yes
 			}
 			primary_title = {
 				if = {
@@ -94,6 +92,39 @@ prepare_government_reforms = {
 		every_ruler = {
 			trigger_event = moderntimes.300
 			trigger_event = moderntimes.302
+			trigger_event = moderntimes.303
+		}
+	}
+}
+prepare_political_parties = {
+	effect = {
+		every_independent_ruler = {
+			limit = { root_realm_uses_legislature_trigger = yes }
+			primary_title = {
+				if = {
+					limit = { this = title:e_united_states }
+					if = {
+						limit = {
+							OR = {
+								game_start_date = 1812.7.5
+								game_start_date = 1836.1.1
+							}
+						}
+						add_to_variable_list = { name = liberal_issues target = flag:laissez_faire }
+						add_to_variable_list = { name = liberal_issues target = flag:social_liberty }
+						add_to_variable_list = { name = liberal_issues target = flag:pro_slavery }
+						add_to_variable_list = { name = conservative_issues target = flag:regulated_economy }
+						add_to_variable_list = { name = conservative_issues target = flag:social_hierarchy }
+					}
+					if = {
+						limit = { game_start_date = 1815.7.8 }
+						add_to_variable_list = { name = liberal_issues target = flag:regulated_economy }
+						add_to_variable_list = { name = liberal_issues target = flag:pro_slavery }
+						add_to_variable_list = { name = conservative_issues target = flag:regulated_economy }
+						add_to_variable_list = { name = conservative_issues target = flag:social_hierarchy }
+					}
+				}
+			}
 		}
 	}
 }
@@ -114,7 +145,10 @@ vk_initialize_history_effects = {
 			limit = { game_start_date = 1815.7.8 }
 			random_independent_ruler = {
 				limit = { has_primary_title = title:k_france }
-				primary_title = { add_to_variable_list = { name = enacted_laws_list target = flag:sovereign_semi_constitutional } }
+				primary_title = {
+					remove_list_variable = { name = enacted_laws_list target = flag:sovereign_absolute }
+					add_to_variable_list = { name = enacted_laws_list target = flag:sovereign_semi_constitutional }
+				}
 			}
 		}
 		if = {
@@ -137,7 +171,10 @@ vk_initialize_history_effects = {
 			}
 			random_independent_ruler = {
 				limit = { has_primary_title = title:k_france }
-				primary_title = { add_to_variable_list = { name = enacted_laws_list target = flag:sovereign_constitutional } }
+				primary_title = {
+					remove_list_variable = { name = enacted_laws_list target = flag:sovereign_absolute }
+					add_to_variable_list = { name = enacted_laws_list target = flag:sovereign_constitutional }
+				}
 			}
 		}
 	}

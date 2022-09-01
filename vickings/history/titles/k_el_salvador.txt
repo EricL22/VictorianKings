@@ -1,0 +1,5 @@
+d_san_salvador = {
+	1823.7.1 = {
+		de_jure_liege = k_el_salvador
+	}
+}

@@ -492,6 +492,37 @@ vk_quarterly_playable_pulse_effects = {
 				set_special_character = root
 			}
 		}
+		# Flag Act of 1818 (hidden, adds stars for Tennessee, Ohio, and Louisiana)
+		if = {
+			limit = {
+				has_primary_title = title:e_united_states
+				game_start_date < 1818.4.4
+				current_date > 1818.1.1
+				NOT = { has_global_variable = 1818_flag_act }
+			}
+			set_global_variable = {
+				name = 1818_flag_act
+				value = yes
+			}
+			title:e_united_states = {
+				change_variable = { name = num_states add = 3 }
+				update_dynamic_coa = yes
+			}
+		}
+		# Missouri Compromise
+		if = {
+			limit = {
+				has_primary_title = title:e_united_states
+				game_start_date < 1820.3.6
+				current_date > 1820.1.1
+				NOT = { has_global_variable = missouri_comp }
+			}
+			set_global_variable = {
+				name = missouri_comp
+				value = yes
+			}
+			trigger_event = united_states.7
+		}
 	}
 }
 

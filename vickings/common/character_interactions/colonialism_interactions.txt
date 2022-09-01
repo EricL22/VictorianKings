@@ -2061,6 +2061,8 @@ establish_reservation_interaction = {
 create_us_state_interaction = {
 	category = interaction_category_diplomacy
 
+	cooldown = { months = 6 }
+
 	common_interaction = yes
 	desc = create_us_state_interaction_desc
 	
@@ -2073,6 +2075,7 @@ create_us_state_interaction = {
 		scope:actor = {
 			has_title = title:e_united_states
 		}
+		debug_only = yes
 	}
 
 	is_valid = {
@@ -2080,11 +2083,37 @@ create_us_state_interaction = {
 	}
 
 	is_valid_showing_failures_only = {
-
+		custom_description = {
+			text = "law_under_debate"
+			subject = scope:actor
+			scope:actor.primary_title = {
+				NOT = { has_variable = debating_law }
+			}
+		}
 	}
 
 	on_accept = {
-		# fire the event
+		scope:recipient = { save_scope_as = petitioner }
+		scope:actor = {
+			primary_title = {
+				set_variable = { name = debating_law value = flag:state_admission }
+				set_variable = { name = admitting_state value = scope:recipient.primary_title }
+				if = {
+					limit = { scope:recipient = { any_sub_realm_county = { has_variable = slavery_percent var:slavery_percent = { compare_value > 0.1 } } } }
+					generate_party_acceptance_values = {
+						PRO_SLAVERY = 50
+						LAISSEZ_FAIRE = 0 REG_ECONOMY = 0 SOCIAL_LIBERTY = 0 SOCIAL_HIERARCHY = 0 UNIVERSAL_ACCEPTANCE_VALUE = 0
+					}
+				}
+				else = {
+					generate_party_acceptance_values = {
+						UNIVERSAL_ACCEPTANCE_VALUE = 10
+						LAISSEZ_FAIRE = 0 REG_ECONOMY = 0 SOCIAL_LIBERTY = 0 SOCIAL_HIERARCHY = 0 PRO_SLAVERY = 0
+					}
+				}
+			}
+			trigger_event = legislature.1
+		}
 	}
 
 	auto_accept = yes
@@ -2092,6 +2121,8 @@ create_us_state_interaction = {
 
 apply_for_us_state_interaction = {
 	category = interaction_category_diplomacy
+
+	cooldown = { months = 6 }
 
 	common_interaction = yes
 	desc = apply_for_us_state_interaction_desc
@@ -2112,11 +2143,37 @@ apply_for_us_state_interaction = {
 	}
 
 	is_valid_showing_failures_only = {
-
+		custom_description = {
+			text = "law_under_debate"
+			subject = scope:recipient
+			scope:recipient.primary_title = {
+				NOT = { has_variable = debating_law }
+			}
+		}
 	}
 
 	on_accept = {
-		# fire the event for scope:recipient
+		scope:actor = { save_scope_as = petitioner }
+		scope:recipient = {
+			primary_title = {
+				set_variable = { name = debating_law value = flag:state_admission }
+				set_variable = { name = admitting_state value = scope:actor.primary_title }
+				if = {
+					limit = { scope:actor = { any_sub_realm_county = { has_variable = slavery_percent var:slavery_percent = { compare_value > 0.1 } } } }
+					generate_party_acceptance_values = {
+						PRO_SLAVERY = 50
+						LAISSEZ_FAIRE = 0 REG_ECONOMY = 0 SOCIAL_LIBERTY = 0 SOCIAL_HIERARCHY = 0 UNIVERSAL_ACCEPTANCE_VALUE = 0
+					}
+				}
+				else = {
+					generate_party_acceptance_values = {
+						UNIVERSAL_ACCEPTANCE_VALUE = 10
+						LAISSEZ_FAIRE = 0 REG_ECONOMY = 0 SOCIAL_LIBERTY = 0 SOCIAL_HIERARCHY = 0 PRO_SLAVERY = 0
+					}
+				}
+			}
+			trigger_event = legislature.1
+		}
 	}
 
 	auto_accept = yes

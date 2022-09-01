@@ -93,9 +93,25 @@ united_states.1 = {
 		}
 		every_in_list = {
 			list = new_republics
-			limit = { is_vassal_of = root }
+			limit = { is_vassal_of = root any_sub_realm_county = { NOT = { exists = kingdom.holder } NOT = { exists = duchy.holder } } }
 			change_liege = {
 				liege = scope:territory_option
+				change = scope:change
+			}
+		}
+		every_in_list = {
+			list = new_republics
+			limit = { is_vassal_of = root any_sub_realm_county = { exists = kingdom.holder } }
+			change_liege = {
+				liege = capital_county.kingdom.holder
+				change = scope:change
+			}
+		}
+		every_in_list = {
+			list = new_republics
+			limit = { is_vassal_of = root any_sub_realm_county = { exists = duchy.holder } }
+			change_liege = {
+				liege = capital_county.duchy.holder
 				change = scope:change
 			}
 		}
@@ -204,5 +220,538 @@ united_states.2 = {
 			scope:recipient = { change_variable = { name = count_transferred add = 1 } }
 		}
 		scope:recipient = { remove_variable = count_transferred }
+	}
+}
+
+# Assign to state
+united_states.3 = {
+	type = character_event
+	title = united_states.3.name
+	desc = united_states.3.desc
+	theme = realm
+	left_portrait = {
+		character = scope:actor
+		animation = idle
+	}
+	right_portrait = {
+		character = scope:recipient
+		animation = idle
+	}
+
+	immediate = {
+		scope:petitioner = {
+			random_realm_de_jure_duchy = {
+				limit = {
+					NOT = { is_in_list = state_duchies }
+					any_in_de_jure_hierarchy = {
+						save_temporary_scope_as = check_county
+						scope:petitioner = { any_sub_realm_county = { this = scope:check_county } }
+					}
+				}
+				save_scope_as = duchy_1
+			}
+			random_realm_de_jure_duchy = {
+				limit = {
+					NOT = { this = scope:duchy_1 }
+					NOT = { is_in_list = state_duchies }
+					any_in_de_jure_hierarchy = {
+						save_temporary_scope_as = check_county
+						scope:petitioner = { any_sub_realm_county = { this = scope:check_county } }
+					}
+				}
+				save_scope_as = duchy_2
+			}
+			random_realm_de_jure_duchy = {
+				limit = {
+					NOR = {
+						this = scope:duchy_1
+						AND = { exists = scope:duchy_2 this = scope:duchy_2 }
+					}
+					NOT = { is_in_list = state_duchies }
+					any_in_de_jure_hierarchy = {
+						save_temporary_scope_as = check_county
+						scope:petitioner = { any_sub_realm_county = { this = scope:check_county } }
+					}
+				}
+				save_scope_as = duchy_3
+			}
+			random_realm_de_jure_duchy = {
+				limit = {
+					NOR = {
+						this = scope:duchy_1
+						AND = { exists = scope:duchy_2 this = scope:duchy_2 }
+						AND = { exists = scope:duchy_3 this = scope:duchy_3 }
+					}
+					NOT = { is_in_list = state_duchies }
+					any_in_de_jure_hierarchy = {
+						save_temporary_scope_as = check_county
+						scope:petitioner = { any_sub_realm_county = { this = scope:check_county } }
+					}
+				}
+				save_scope_as = duchy_4
+			}
+			random_realm_de_jure_duchy = {
+				limit = {
+					NOR = {
+						this = scope:duchy_1
+						AND = { exists = scope:duchy_2 this = scope:duchy_2 }
+						AND = { exists = scope:duchy_3 this = scope:duchy_3 }
+						AND = { exists = scope:duchy_4 this = scope:duchy_4 }
+					}
+					NOT = { is_in_list = state_duchies }
+					any_in_de_jure_hierarchy = {
+						save_temporary_scope_as = check_county
+						scope:petitioner = { any_sub_realm_county = { this = scope:check_county } }
+					}
+				}
+				save_scope_as = duchy_5
+			}
+		}
+	}
+	
+	option = {
+		trigger = { exists = scope:duchy_1 scope:duchy_1 = { NOT = { is_in_list = state_duchies } } }
+		name = united_states.3.a
+		scope:duchy_1 = { add_to_list = state_duchies }
+		trigger_event = { id = united_states.3 }
+	}
+	option = {
+		trigger = { exists = scope:duchy_2 NOT = { scope:duchy_2 = scope:duchy_1 } scope:duchy_2 = { NOT = { is_in_list = state_duchies } } }
+		name = united_states.3.b
+		scope:duchy_2 = { add_to_list = state_duchies }
+		trigger_event = { id = united_states.3 }
+	}
+	option = {
+		trigger = { exists = scope:duchy_3 NOT = { scope:duchy_3 = scope:duchy_2 } scope:duchy_3 = { NOT = { is_in_list = state_duchies } } }
+		name = united_states.3.c
+		scope:duchy_3 = { add_to_list = state_duchies }
+		trigger_event = { id = united_states.3 }
+	}
+	option = {
+		trigger = { exists = scope:duchy_4 NOT = { scope:duchy_4 = scope:duchy_3 } scope:duchy_4 = { NOT = { is_in_list = state_duchies } } }
+		name = united_states.3.d
+		scope:duchy_4 = { add_to_list = state_duchies }
+		trigger_event = { id = united_states.3 }
+	}
+	option = {
+		trigger = { exists = scope:duchy_5 NOT = { scope:duchy_5 = scope:duchy_4 } scope:duchy_5 = { NOT = { is_in_list = state_duchies } } }
+		name = united_states.3.e
+		scope:duchy_5 = { add_to_list = state_duchies }
+		trigger_event = { id = united_states.3 }
+	}
+	option = {
+		name = united_states.3.f
+		custom_tooltip = {
+			text = united_states.3.f.tooltip
+			trigger_event = { id = united_states.3 }
+		}
+	}
+	option = {
+		name = united_states.3.g
+		trigger_event = { id = united_states.4 }
+	}
+}
+
+# Assign the state
+united_states.4 = {
+	type = character_event
+	title = united_states.3.name
+	desc = united_states.4.desc
+	theme = realm
+	left_portrait = {
+		character = scope:actor
+		animation = idle
+	}
+	right_portrait = {
+		character = scope:recipient
+		animation = idle
+	}
+
+	immediate = {
+		random_in_list = {
+			list = state_duchies
+			limit = { NOT = { exists = kingdom.holder } }
+			random_this_title_or_de_jure_above = {
+				limit = { tier = tier_kingdom }
+				save_scope_as = kingdom_1
+			}
+		}
+		random_in_list = {
+			list = state_duchies
+			limit = { NOT = { kingdom = scope:kingdom_1 } NOT = { exists = kingdom.holder } }
+			random_this_title_or_de_jure_above = {
+				limit = { tier = tier_kingdom }
+				save_scope_as = kingdom_2
+			}
+		}
+	}
+	
+	option = {
+		trigger = { exists = scope:kingdom_1 }
+		name = united_states.4.a
+		scope:kingdom_1 = { save_scope_as = new_state_title }
+		trigger_event = { id = united_states.5 }
+	}
+	option = {
+		trigger = { exists = scope:kingdom_2 }
+		name = united_states.4.b
+		scope:kingdom_2 = { save_scope_as = new_state_title }
+		trigger_event = { id = united_states.5 }
+	}
+	option = {
+		name = united_states.4.c
+		custom_tooltip = {
+			text = united_states.4.c.tooltip
+			trigger_event = { id = united_states.4 }
+		}
+	}
+}
+
+# Choice of governor
+united_states.5 = {
+	type = character_event
+	title = united_states.3.name
+	desc = united_states.5.desc
+	theme = realm
+	left_portrait = {
+		character = scope:actor
+		animation = idle
+	}
+	right_portrait = {
+		character = scope:recipient
+		animation = idle
+	}
+
+	immediate = {
+		create_character = {
+			location = root.capital_province
+			template = pool_repopulate_stewardship
+			culture = scope:petitioner.capital_province.culture
+			faith = root.faith
+			gender = male
+			save_scope_as = new_governor
+		}
+	}
+	
+	option = {
+		name = united_states.5.a
+		create_title_and_vassal_change = {
+			type = granted
+			save_scope_as = change
+			add_claim_on_loss = no
+		}
+		scope:petitioner = {
+			every_realm_de_jure_duchy = {
+				limit = { NOT = { is_in_list = state_duchies } }
+				every_in_de_jure_hierarchy = {
+					limit = { tier > tier_barony exists = holder OR = { holder = scope:petitioner AND = { this = duchy.title_capital_county holder = { target_is_liege_or_above = scope:petitioner } } } }
+					change_title_holder_include_vassals = {
+						holder = scope:new_governor
+						change = scope:change
+					}
+				}
+				if = {
+					limit = { scope:new_governor.primary_title.tier > tier_county }
+					every_in_de_jure_hierarchy = {
+						limit = { tier > tier_barony exists = holder holder = { NOT = { this = scope:petitioner } target_is_liege_or_above = scope:petitioner } }
+						hidden_effect = {
+							holder = {
+								change_liege = {
+									liege = scope:new_governor
+									change = scope:change
+								}
+							}
+						}
+					}
+				}
+				else = {
+					every_in_de_jure_hierarchy = {
+						limit = { tier > tier_barony exists = holder holder = { NOT = { this = scope:petitioner } target_is_liege_or_above = scope:petitioner } }
+						hidden_effect = {
+							holder = {
+								change_liege = {
+									liege = root
+									change = scope:change
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		scope:new_state_title = {
+			change_title_holder = {
+				holder = scope:petitioner
+				change = scope:change
+			}
+		}
+		resolve_title_and_vassal_change = scope:change
+	}
+	option = {
+		name = united_states.5.b
+		create_title_and_vassal_change = {
+			type = granted
+			save_scope_as = change
+			add_claim_on_loss = no
+		}
+		every_in_list = {
+			list = state_duchies
+			every_in_de_jure_hierarchy = {
+				limit = { tier > tier_barony exists = holder OR = { holder = scope:petitioner this = duchy.title_capital_county } }
+				change_title_holder_include_vassals = {
+					holder = scope:new_governor
+					change = scope:change
+				}
+			}
+			every_in_de_jure_hierarchy = {
+				limit = { tier > tier_barony exists = holder holder = { NOT = { this = scope:petitioner } target_is_liege_or_above = scope:petitioner } }
+				hidden_effect = {
+					holder = {
+						change_liege = {
+							liege = scope:new_governor
+							change = scope:change
+						}
+					}
+				}
+			}
+		}
+		scope:new_state_title = {
+			change_title_holder = {
+				holder = scope:new_governor
+				change = scope:change
+			}
+		}
+		resolve_title_and_vassal_change = scope:change
+	}
+
+	after = {
+		scope:new_governor = {
+			if = {
+				limit = { NOT = { has_government = republic_government } is_landed = yes }
+				change_government = republic_government
+				add_realm_law = city_succession_law
+				add_realm_law_skip_effects = crown_authority_1
+			}
+		}
+		if = {
+			limit = { scope:new_governor = { is_landed = yes } }
+			scope:new_governor = {
+				create_title_and_vassal_change = {
+					type = granted
+					save_scope_as = change
+					add_claim_on_loss = no
+				}
+				change_liege = {
+					liege = root
+					change = scope:change
+				}
+				resolve_title_and_vassal_change = scope:change
+			}
+		}
+		title:e_united_states = {
+			change_variable = { name = num_states add = 1 }
+			update_dynamic_coa = yes
+		}
+		if = {
+			limit = { is_ai = no }
+			trigger_event = { id = united_states.6 days = 1 }
+		}
+		every_vassal_or_below = {
+			limit = { is_ai = no }
+			trigger_event = { id = united_states.6 days = 1 }
+		}
+	}
+}
+
+# Player notification
+united_states.6 = {
+	type = character_event
+	title = united_states.3.name
+	desc = united_states.6.desc
+	theme = realm
+	left_portrait = {
+		character = top_liege
+		animation = idle
+	}
+	right_portrait = {
+		character = scope:new_state_title.holder
+		animation = idle
+	}
+	
+	option = {
+		name = united_states.6.a
+	}
+}
+
+# Missouri Compromise
+united_states.7 = {
+	type = character_event
+	title = united_states.7.name
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					has_councillor_for_skill = diplomacy
+				}
+				desc = united_states.7.desc
+			}
+			desc = united_states.7.speaker.desc
+		}
+	}
+	theme = realm
+	left_portrait = {
+		character = root
+		animation = idle
+	}
+	right_portrait = {
+		character = scope:chancellor
+		animation = idle
+	}
+
+	trigger = {
+		NAND = {
+			exists = title:k_maine.holder
+			exists = title:k_missouri.holder
+		}
+	}
+
+	immediate = {
+		if = {
+			limit = { has_councillor_for_skill = diplomacy }
+			random_diplomacy_councillor = { save_scope_as = chancellor }
+		}
+	}
+	
+	option = {
+		name = united_states.7.a
+		if = {
+			limit = { NOT = { title:d_maine.holder = title:k_massachusetts.holder } }
+			create_title_and_vassal_change = {
+				type = granted
+				save_scope_as = change
+				add_claim_on_loss = no
+			}
+			title:k_maine = {
+				change_title_holder = {
+					holder = title:d_maine.holder
+					change = scope:change
+				}
+			}
+			resolve_title_and_vassal_change = scope:change
+		}
+		else = {
+			if = {
+				limit = { NOT = { title:c_augusta.holder = title:k_massachusetts.holder } }
+				title:c_augusta.holder = { save_scope_as = new_governor }
+			}
+			else = {
+				create_character = {
+					location = root.capital_province
+					template = pool_repopulate_stewardship
+					culture = title:k_massachusetts.holder.capital_province.culture
+					faith = root.faith
+					gender = male
+					save_scope_as = new_governor
+				}
+			}
+			create_title_and_vassal_change = {
+				type = granted
+				save_scope_as = change
+				add_claim_on_loss = no
+			}
+			title:d_maine = {
+				change_title_holder_include_vassals = {
+					holder = scope:new_governor
+					change = scope:change
+				}
+				every_in_de_jure_hierarchy = {
+					limit = { tier > tier_barony holder = title:k_massachusetts.holder NOT = { this = title:d_maine } }
+					change_title_holder = {
+						holder = scope:new_governor
+						change = scope:change
+					}
+				}
+			}
+			title:k_maine = {
+				change_title_holder = {
+					holder = scope:new_governor
+					change = scope:change
+				}
+			}
+			resolve_title_and_vassal_change = scope:change
+		}
+		if = {
+			limit = { NOT = { title:c_knosseubios.holder = title:d_missouri.holder } }	# Arkansas Post
+			title:c_knosseubios.holder = { save_scope_as = new_governor }
+		}
+		else = {
+			create_character = {
+				location = root.capital_province
+				template = pool_repopulate_stewardship
+				culture = title:d_missouri.holder.capital_province.culture
+				faith = root.faith
+				gender = male
+				save_scope_as = new_governor
+			}
+		}
+		create_title_and_vassal_change = {
+			type = granted
+			save_scope_as = change
+			add_claim_on_loss = no
+		}
+		title:d_arkansas = {
+			change_title_holder_include_vassals = {
+				holder = scope:new_governor
+				change = scope:change
+			}
+			every_in_de_jure_hierarchy = {
+				limit = { tier > tier_barony holder = title:d_missouri.holder }
+				change_title_holder = {
+					holder = scope:new_governor
+					change = scope:change
+				}
+			}
+			hidden_effect = {
+				every_in_de_jure_hierarchy = {
+					limit = { NOT = { holder = title:d_missouri.holder } holder.liege = title:d_missouri.holder NOT = { holder = scope:new_governor } }
+					holder = {
+						change_liege = {
+							liege = scope:new_governor
+							change = scope:change
+						}
+					}
+				}
+			}
+		}
+		title:k_missouri = {
+			change_title_holder = {
+				holder = title:d_missouri.holder
+				change = scope:change
+			}
+		}
+		resolve_title_and_vassal_change = scope:change
+		title:e_united_states = {
+			change_variable = { name = num_states add = 2 }
+			update_dynamic_coa = yes
+		}
+		every_vassal_or_below = {
+			limit = { is_ai = no }
+			title:k_maine = { save_scope_as = new_state_title }
+			trigger_event = { id = united_states.6 days = 1 }
+			title:k_missouri = { save_scope_as = new_state_title }
+			trigger_event = { id = united_states.6 days = 2 }
+		}
+	}
+	option = {
+		trigger = { is_ai = no }
+		name = united_states.7.b
+		add_tyranny = massive_tyranny_gain
+		stress_impact = {
+			base = massive_stress_gain
+			sadistic = major_stress_impact_loss
+			callous = massive_stress_impact_loss
+			compassionate = major_stress_impact_gain
+			just = massive_stress_impact_gain
+		}
 	}
 }

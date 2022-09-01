@@ -14,10 +14,6 @@ prestige_level_greater_or_equal_four = {
 	first_not = MY_PRESTIGE_LEVEL_IS_NOT_AT_LEAST_FOUR
 }
 
-requires_absolutism_innovation = {
-	first_not = requires_absolutism_innovation
-}
-
 reform_independent_requirement = {
 	first_not = reform_independent_requirement
 }
@@ -48,4 +44,20 @@ sign_removal_treaty_interaction_territory_requirement = {
 
 not_has_lowest_crown_authority = {
 	third_not = CHARACTER_HAS_HIGHER_CROWN_AUTHORITY
+}
+
+incompatible_appointment = {
+	first_not = incompatible_appointment
+}
+
+incompatible_vote_franchise = {
+	first_not = incompatible_vote_franchise
+}
+
+law_under_debate = {
+	first_not = law_under_debate
+}
+
+recently_failed_reform = {
+	first_not = recently_failed_reform
 }

@@ -297,3 +297,28 @@ hbc_directress = {
 	titles = { k_hudsons_bay }
 	top_liege = no
 }
+
+
+viceroyal_feudal_male = {
+	type = character
+	gender = male
+	special = holder
+	titles = { e_new_spain }
+	priority = 141
+	top_liege = no
+}
+viceroyal_feudal_female = {
+	type = character
+	gender = female
+	special = holder
+	titles = { e_new_spain }
+	priority = 141
+	top_liege = no
+}
+viceroyal_empire_feudal = {
+	type = title
+	tier = empire
+	titles = { e_new_spain }
+	priority = 141
+	top_liege = no
+}

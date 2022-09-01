@@ -1,0 +1,28 @@
+13370 = {
+        culture = native_american_minor
+        religion = pagan
+}
+13371 = {
+        culture = native_american_minor
+        religion = pagan
+}
+13372 = {
+        culture = native_american_minor
+        religion = pagan
+}
+13373 = {
+        culture = native_american_minor
+        religion = pagan
+}
+13374 = {
+        culture = native_american_minor
+        religion = pagan
+}
+13375 = {
+        culture = native_american_minor
+        religion = pagan
+}
+13376 = {
+        culture = native_american_minor
+        religion = pagan
+}

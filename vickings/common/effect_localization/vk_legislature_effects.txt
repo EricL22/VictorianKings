@@ -1,0 +1,55 @@
+﻿projected_l = {
+	first = projected_l
+}
+
+projected_s = {
+	first = projected_s
+}
+
+projected_r = {
+	first = projected_r
+}
+
+projected_f = {
+	first = projected_f
+}
+
+projected_cs = {
+	first = projected_cs
+}
+
+projected_cm = {
+	first = projected_cm
+}
+
+projected_a = {
+	first = projected_a
+}
+
+projected_fl = {
+	first = projected_fl
+}
+
+projected_fs = {
+	first = projected_fs
+}
+
+projected_fr = {
+	first = projected_fr
+}
+
+projected_ff = {
+	first = projected_ff
+}
+
+projected_fcs = {
+	first = projected_fcs
+}
+
+projected_fcm = {
+	first = projected_fcm
+}
+
+projected_fa = {
+	first = projected_fa
+}
