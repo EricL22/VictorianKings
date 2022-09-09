@@ -109,9 +109,10 @@ peninsular_cb = {
 			every_in_de_jure_hierarchy = {
 				limit = {
 					tier = tier_duchy
-					special_invasion_cb_seize_land_in_region_trigger = {
-						TARGET_REGION = world_europe_west_iberia
-						#TARGET_KINGDOM = title:e_spain
+					capital_vassal = {
+						title_province = {
+							geographical_region = world_europe_west_iberia
+						}
 					}
 				}
 				if = {
@@ -173,9 +174,19 @@ peninsular_cb = {
 			every_in_de_jure_hierarchy = {
 				limit = {
 					tier = tier_county
-					special_invasion_cb_seize_land_in_region_trigger = {
-						TARGET_REGION = world_europe_west_iberia
-						#TARGET_KINGDOM = title:e_spain
+					title_province = {
+						geographical_region = world_europe_west_iberia
+					}
+					trigger_if = {
+						# If our de jure liege is an existing duchy that would have been siezed in the duchy step, do not transfer the county (it has already been transferred).
+						limit = {
+							exists = de_jure_liege
+							de_jure_liege = {
+								exists = holder
+								capital_vassal = { title_province = { geographical_region = world_europe_west_iberia } }
+							}
+						}
+						always = no
 					}
 					NOT = { is_in_list = county_titles_under_transfer }
 				}
@@ -213,7 +224,7 @@ peninsular_cb = {
 					tier = tier_county
 					special_invasion_cb_seize_land_in_region_trigger = {
 						TARGET_REGION = world_africa_north_west
-						#TARGET_KINGDOM = title:k_maghreb
+						TARGET_KINGDOM = title:k_maghreb
 					}
 					NOT = { is_in_list = county_titles_under_transfer }
 				}

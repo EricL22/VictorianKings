@@ -510,7 +510,7 @@
 #		add_spouse = 9179599	# Elizabeth
 	}
 	1799.1.1 = {
-		set_relation_lover = character:9179599	# Maria
+		set_relation_lover = { reason = lover_history target = character:9179599 }	# Maria
 	}
 	1810.1.1 = {
 		effect = {

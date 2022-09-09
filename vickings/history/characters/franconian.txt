@@ -51,7 +51,6 @@
 	trait = greedy
 	trait = zealous
 	trait = humble
-	trait = ill
 	sexuality = heterosexual
 	father = 90107 #(Ludwig the German)
 	mother = 7987
@@ -63,30 +62,33 @@
 	}
 	846.1.1 = {
 		effect = {
-			set_relation_friend = character:7987 #His mother Hemma, he was her favorite
+			set_relation_friend = { reason = friend_generic_history target = character:7987 } #His mother Hemma, he was her favorite
 		}
 	}
 	850.1.1 = {
 		effect = {
-			set_relation_lover = character:167813 # Liutswind
-			set_relation_rival = character:167812 # Liutswind's brother, Ernst
+			set_relation_lover = { reason = lover_history target = character:167813 } # Liutswind
+			set_relation_rival = { target = character:167812 reason = rival_historical } # Liutswind's brother, Ernst
 		}
 	}
 	860.1.1 = {
-	effect = {
-		set_relation_rival = character:90107
-		add_opinion = {
-			target = character:90107 #Karlmann had a "conflictual" relationship with his father
-			modifier = hate_opinion
-			opinion = -200
+		effect = {
+			set_relation_rival = { target = character:90107 reason = rival_historical }
+			add_opinion = {
+				target = character:90107 #Karlmann had a "conflictual" relationship with his father
+				modifier = hate_opinion
+				opinion = -200
+			}
 		}
-	}
 	}
 	864.1.1 = {
 		set_primary_title_to = title:d_bavaria
 	}
 	866.1.1 = {
 		add_spouse = 167813# Liutswind
+	}
+	867.1.1 = {
+        contract_disease_effect = { DISEASE = ill TREATMENT_EVENT = yes }
 	}
 	880.9.29 = {
 		death = yes
@@ -8491,7 +8493,6 @@
 	trait = calm
 	trait = deceitful
 	trait = education_intrigue_1
-	trait = ill
 	father = 7313
 	mother = 20264
 	1027.1.1 = {
@@ -8499,6 +8500,9 @@
 	}
 	1063.1.2 = {
 		add_spouse = 106605
+	}
+	1066.1.1 = {
+		contract_disease_effect = { DISEASE = ill TREATMENT_EVENT = yes }
 	}
 	1067.1.1 = {
 		death = "1067.1.1"
@@ -9443,7 +9447,7 @@
 	stewardship = 5
 	religion = "catholic"
 	culture = franconian
-	trait = bastard
+	trait = bastard_founder
 	trait = honest
 	trait = temperate
 	trait = education_stewardship_1
@@ -10444,12 +10448,14 @@
 	religion = "catholic"
 	culture = franconian
 	trait = cynical
-	trait = ill
 	trait = education_learning_2
 	father = 6640
 	mother = 6641
 	1028.1.2 = {
 		birth = "1028.1.2"
+	}
+	1066.1.1 = {
+		contract_disease_effect = { DISEASE = ill TREATMENT_EVENT = yes }
 	}
 	1078.1.2 = {
 		death = "1078.1.2"

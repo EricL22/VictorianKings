@@ -252,6 +252,7 @@
 				if = {
 					limit = {
 						any_vassal = {
+							save_temporary_scope_as = attacked_vassal
 							any_character_war = {
 								casus_belli = {
 									primary_attacker = scope:actor
@@ -259,8 +260,8 @@
 									any_target_title = {
 										holder = {
 											OR = {
-												this = prev.prev
-												is_vassal_or_below_of = prev.prev
+												this = scope:attacked_vassal
+												is_vassal_or_below_of = scope:attacked_vassal
 											}
 										}
 									}
@@ -269,6 +270,7 @@
 						}
 					}
 					every_vassal = {
+						save_temporary_scope_as = attacked_vassal
 						limit = {
 							any_character_war = {
 								casus_belli = {
@@ -277,8 +279,8 @@
 									any_target_title = {
 										holder = {
 											OR = {
-												this = prev.prev
-												is_vassal_or_below_of = prev.prev
+												this = scope:attacked_vassal
+												is_vassal_or_below_of = scope:attacked_vassal
 											}
 										}
 									}

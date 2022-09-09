@@ -190,6 +190,7 @@
 				}
 			}
 			NOT = { historical_succession_access_city_succession_law_trigger = yes }
+			NOT = { has_government = republic_government }
 		}
 		succession = {
 			order_of_succession = inheritance

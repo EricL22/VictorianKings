@@ -2,7 +2,6 @@
 
 e_khitan = {
 	color = { 33 86 22 }
-	color2= { 255 255 255 }
 	can_be_named_after_dynasty = no
 	
 	capital = c_linhuang
@@ -18,7 +17,6 @@ e_khitan = {
 
 e_jurchen_china = { # Jin dynasty
 	color = { 86 33 22 }
-	color2= { 113 157 108 }
 	can_be_named_after_dynasty = no
 	
 	capital = c_you
@@ -34,7 +32,6 @@ e_jurchen_china = { # Jin dynasty
 
 k_chrysanthemum_throne = {
 	color = { 140 0 0 }
-	color2 = { 220 220 0 }
 	definite_form = yes
 	ruler_uses_title_name = no
 	landless = yes
@@ -54,7 +51,6 @@ k_chrysanthemum_throne = {
 
 d_temple_names_progenitor = {
 	color = { 33 86 22 }
-	color2= { 255 255 255 }
 	definite_form = yes
 	ruler_uses_title_name = no
 	landless = yes
@@ -75,7 +71,6 @@ d_temple_names_progenitor = {
 
 d_temple_names_ancestor = {
 	color = { 33 86 22 }
-	color2= { 255 255 255 }
 	definite_form = yes
 	ruler_uses_title_name = no
 	landless = yes
@@ -96,7 +91,6 @@ d_temple_names_ancestor = {
 
 d_viet_temple_names_progenitor = {
 	color = { 33 86 22 }
-	color2= { 255 255 255 }
 	definite_form = yes
 	ruler_uses_title_name = no
 	landless = yes
@@ -117,7 +111,6 @@ d_viet_temple_names_progenitor = {
 
 d_viet_temple_names_ancestor = {
 	color = { 33 86 22 }
-	color2= { 255 255 255 }
 	definite_form = yes
 	ruler_uses_title_name = no
 	landless = yes
@@ -138,7 +131,6 @@ d_viet_temple_names_ancestor = {
 
 d_korean_temple_names_progenitor = {
 	color = { 33 86 22 }
-	color2= { 255 255 255 }
 	definite_form = yes
 	ruler_uses_title_name = no
 	landless = yes
@@ -159,7 +151,6 @@ d_korean_temple_names_progenitor = {
 
 d_korean_temple_names_ancestor = {
 	color = { 33 86 22 }
-	color2= { 255 255 255 }
 	definite_form = yes
 	ruler_uses_title_name = no
 	landless = yes
@@ -180,7 +171,6 @@ d_korean_temple_names_ancestor = {
 
 d_era_name_rama = {
 	color = { 33 86 22 }
-	color2= { 255 255 255 }
 	definite_form = yes
 	ruler_uses_title_name = no
 	landless = yes
@@ -201,7 +191,6 @@ d_era_name_rama = {
 
 d_japanese_posthumous_names = {	# these also double as era names if the Meiji Restoration has happened
 	color = { 33 86 22 }
-	color2= { 255 255 255 }
 	definite_form = yes
 	ruler_uses_title_name = no
 	landless = yes

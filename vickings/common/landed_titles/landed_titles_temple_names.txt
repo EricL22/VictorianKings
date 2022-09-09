@@ -4,7 +4,6 @@
 
 d_temple_name_yingzong = {
 	color = { 33 86 22 }
-	color2= { 255 255 255 }
 	definite_form = yes
 	ruler_uses_title_name = no
 	landless = yes
@@ -24,7 +23,6 @@ d_temple_name_yingzong = {
 }
 d_temple_name_shenzong = {
 	color = { 33 86 22 }
-	color2= { 255 255 255 }
 	definite_form = yes
 	ruler_uses_title_name = no
 	landless = yes
@@ -44,7 +42,6 @@ d_temple_name_shenzong = {
 }
 d_temple_name_yizong = {
 	color = { 33 86 22 }
-	color2= { 255 255 255 }
 	definite_form = yes
 	ruler_uses_title_name = no
 	landless = yes
@@ -64,7 +61,6 @@ d_temple_name_yizong = {
 }
 d_temple_name_xizong = {
 	color = { 33 86 22 }
-	color2= { 255 255 255 }
 	definite_form = yes
 	ruler_uses_title_name = no
 	landless = yes
@@ -84,7 +80,6 @@ d_temple_name_xizong = {
 }
 d_temple_name_taizu = {
 	color = { 33 86 22 }
-	color2= { 255 255 255 }
 	definite_form = yes
 	ruler_uses_title_name = no
 	landless = yes
@@ -104,7 +99,6 @@ d_temple_name_taizu = {
 }
 d_temple_name_taizong = {
 	color = { 33 86 22 }
-	color2= { 255 255 255 }
 	definite_form = yes
 	ruler_uses_title_name = no
 	landless = yes
@@ -124,7 +118,6 @@ d_temple_name_taizong = {
 }
 d_temple_name_renzong = {
 	color = { 33 86 22 }
-	color2= { 255 255 255 }
 	definite_form = yes
 	ruler_uses_title_name = no
 	landless = yes
@@ -144,7 +137,6 @@ d_temple_name_renzong = {
 }
 d_temple_name_xuanzong = {
 	color = { 33 86 22 }
-	color2= { 255 255 255 }
 	definite_form = yes
 	ruler_uses_title_name = no
 	landless = yes
@@ -164,7 +156,6 @@ d_temple_name_xuanzong = {
 }
 d_temple_name_wenzong = {
 	color = { 33 86 22 }
-	color2= { 255 255 255 }
 	definite_form = yes
 	ruler_uses_title_name = no
 	landless = yes
@@ -184,7 +175,6 @@ d_temple_name_wenzong = {
 }
 d_viet_temple_name_renzong = {
 	color = { 33 86 22 }
-	color2= { 255 255 255 }
 	definite_form = yes
 	ruler_uses_title_name = no
 	landless = yes
@@ -204,7 +194,6 @@ d_viet_temple_name_renzong = {
 }
 d_viet_temple_name_taizu = {
 	color = { 33 86 22 }
-	color2= { 255 255 255 }
 	definite_form = yes
 	ruler_uses_title_name = no
 	landless = yes
@@ -224,7 +213,6 @@ d_viet_temple_name_taizu = {
 }
 d_viet_temple_name_shizu = {
 	color = { 33 86 22 }
-	color2= { 255 255 255 }
 	definite_form = yes
 	ruler_uses_title_name = no
 	landless = yes
@@ -244,7 +232,6 @@ d_viet_temple_name_shizu = {
 }
 d_viet_temple_name_shengzu = {
 	color = { 33 86 22 }
-	color2= { 255 255 255 }
 	definite_form = yes
 	ruler_uses_title_name = no
 	landless = yes
@@ -264,7 +251,6 @@ d_viet_temple_name_shengzu = {
 }
 d_viet_temple_name_xianzu = {
 	color = { 33 86 22 }
-	color2= { 255 255 255 }
 	definite_form = yes
 	ruler_uses_title_name = no
 	landless = yes
@@ -284,7 +270,6 @@ d_viet_temple_name_xianzu = {
 }
 d_viet_temple_name_yizong = {
 	color = { 33 86 22 }
-	color2= { 255 255 255 }
 	definite_form = yes
 	ruler_uses_title_name = no
 	landless = yes
@@ -304,7 +289,6 @@ d_viet_temple_name_yizong = {
 }
 d_korean_temple_name_taizu = {
 	color = { 33 86 22 }
-	color2= { 255 255 255 }
 	definite_form = yes
 	ruler_uses_title_name = no
 	landless = yes
@@ -324,7 +308,6 @@ d_korean_temple_name_taizu = {
 }
 d_korean_temple_name_chunzu = {
 	color = { 33 86 22 }
-	color2= { 255 255 255 }
 	definite_form = yes
 	ruler_uses_title_name = no
 	landless = yes
@@ -344,7 +327,6 @@ d_korean_temple_name_chunzu = {
 }
 d_korean_temple_name_xianzong = {
 	color = { 33 86 22 }
-	color2= { 255 255 255 }
 	definite_form = yes
 	ruler_uses_title_name = no
 	landless = yes
@@ -364,7 +346,6 @@ d_korean_temple_name_xianzong = {
 }
 d_korean_temple_name_zhezong = {
 	color = { 33 86 22 }
-	color2= { 255 255 255 }
 	definite_form = yes
 	ruler_uses_title_name = no
 	landless = yes
@@ -385,7 +366,6 @@ d_korean_temple_name_zhezong = {
 
 d_post_name_kokaku = {
 	color = { 33 86 22 }
-	color2= { 255 255 255 }
 	definite_form = yes
 	ruler_uses_title_name = no
 	landless = yes
@@ -405,7 +385,6 @@ d_post_name_kokaku = {
 }
 d_post_name_ninko = {
 	color = { 33 86 22 }
-	color2= { 255 255 255 }
 	definite_form = yes
 	ruler_uses_title_name = no
 	landless = yes
@@ -425,7 +404,6 @@ d_post_name_ninko = {
 }
 d_post_name_komei = {
 	color = { 33 86 22 }
-	color2= { 255 255 255 }
 	definite_form = yes
 	ruler_uses_title_name = no
 	landless = yes
@@ -445,7 +423,6 @@ d_post_name_komei = {
 }
 d_post_name_meiji = {
 	color = { 33 86 22 }
-	color2= { 255 255 255 }
 	definite_form = yes
 	ruler_uses_title_name = no
 	landless = yes

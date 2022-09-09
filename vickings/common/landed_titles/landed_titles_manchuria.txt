@@ -2,7 +2,6 @@
 
 e_manchuria = {
 	color = { 86 33 22 }
-	color2={ 113 157 108 }
 	
 	capital = c_shiwei # should be Lyongcheon
 	
