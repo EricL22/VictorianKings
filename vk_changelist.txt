@@ -1,4 +1,4 @@
-0.4.4----------
+0.4.4---------- (Commit c544d95)
 Fixed compatibility for the 1.7 update
 Republics will no longer have primogeniture succession on game start
 Tecumseh's Confederacy will now only be destroyed if the ruler actually dies in battle or wounded
