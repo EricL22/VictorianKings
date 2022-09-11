@@ -1,0 +1,30 @@
+k_oaxaca = {
+	1823.12.21 = {
+		liege = e_mexico
+		government = republic_government
+	}
+	1860.11.7 = {
+		holder = 6420073
+	}
+}
+
+d_oaxaca = {
+	1809.7.1 = {
+		holder = 6420070
+		liege = e_new_spain
+	}
+	1814.8.29 = {
+		holder = 6420071
+	}
+	1823.12.21 = {
+		de_jure_liege = k_oaxaca
+	}
+	1835.10.23 = {	# department established
+		holder = 6420072
+		liege = e_mexico
+		government = republic_government
+	}
+	1846.8.22 = {	# department dissolved
+		holder = 0
+	}
+}

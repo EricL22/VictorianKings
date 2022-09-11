@@ -30,3 +30,37 @@
 		10 = mediterranean
 	}
 }
+
+mexican = {
+	color = {51 117 62}
+	created = 1700.1.1
+	parents = { castilian }
+
+	ethos = ethos_bellicose
+	heritage = heritage_iberian
+	language = language_iberian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_xenophilic
+		tradition_chivalry
+		tradition_mendicant_mystics
+		tradition_sacred_groves
+	}
+
+	dlc_tradition = {
+		trait = tradition_fp2_malleable_subjects
+		requires_dlc_flag = the_fate_of_iberia
+		fallback = tradition_culture_blending
+	}
+	
+	name_list = name_list_mexican
+	
+	coa_gfx = { castilian_coa_gfx iberian_group_coa_gfx western_coa_gfx }
+	building_gfx = { iberian_building_gfx }
+	clothing_gfx = { iberian_christian_clothing_gfx western_clothing_gfx }
+	unit_gfx = { iberian_christian_unit_gfx }
+	
+	ethnicities = {
+		10 = mediterranean
+	}
+}

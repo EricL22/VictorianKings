@@ -1,0 +1,21 @@
+﻿#人物窗口/头衔历史窗口
+VK_GetUINameNotMeNoTooltip = {
+	type = character
+	text = {
+		localization_key = Loc_VK_GetUINameNotMeNoTooltip_firstname_nicknamed
+		trigger = {
+			has_trait = eastern_name_order
+			has_any_nickname = yes
+		}
+	}
+	text = {
+		localization_key = Loc_VK_GetUINameNotMeNoTooltip_firstname
+		trigger = {
+			has_trait = eastern_name_order
+		}
+	}
+	text = {
+		localization_key = Loc_VK_GetUINameNotMeNoTooltip_default
+		fallback = yes
+	}
+}

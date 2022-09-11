@@ -780,8 +780,142 @@ soto = {
 	culture = "castilian"
 }
 morazan = {
-    name = "dynn_Morazan"
-    culture = "castilian"
+	name = "dynn_Morazan"
+	culture = "castilian"
+}
+bustamante2 = {
+	prefix = "dynnp_de"
+	name = "dynn_Bustamante"
+	culture = "castilian"
+}
+arrillaga = {
+	prefix = "dynnp_de"
+	name = "dynn_Arrillaga"
+	culture = "basque"
+}
+arguello = {
+	name = "dynn_Arguello"
+	culture = "castilian"
+}
+manrique = {
+	name = "dynn_Manrique"
+	culture = "castilian"
+}
+maynez = {
+	name = "dynn_Maynez"
+	culture = "castilian"
+}
+salcedo = {
+	prefix = "dynnp_de"
+	name = "dynn_Salcedo"
+	culture = "castilian"
+}
+garcia_conde = {
+	name = "dynn_Garcia_Conde"
+	culture = "castilian"
+}
+cordero = {
+	name = "dynn_Cordero"
+	culture = "castilian"
+}
+guemes = {
+	prefix = "dynnp_de"
+	name = "dynn_Guemes"
+	culture = "castilian"
+}
+bonavia = {
+	name = "dynn_Bonavia"
+	culture = "castilian"
+}
+cruz = {
+	prefix = "dynnp_de_la"
+	name = "dynn_Cruz"
+	culture = "castilian"
+}
+irisarri = {
+	prefix = "dynnp_de"
+	name = "dynn_Irisarri"
+	culture = "basque"
+}
+goicoechea = {
+	prefix = "dynnp_de"
+	name = "dynn_Goicoechea"
+	culture = "castilian"
+}
+toba = {
+	prefix = "dynnp_de_la"
+	name = "dynn_Toba"
+	culture = "castilian"
+}
+gomez_castro = {
+	name = "dynn_Gomez_Castro"
+	culture = "castilian"
+}
+mier = {
+	prefix = "dynnp_de"
+	name = "dynn_Mier"
+	culture = "castilian"
+}
+arredondo = {
+	prefix = "dynnp_de"
+	name = "dynn_Arredondo"
+	culture = "castilian"
+}
+landero = {
+	name = "dynn_Landero"
+	culture = "castilian"
+}
+quevedo = {
+	prefix = "dynnp_de"
+	name = "dynn_Quevedo"
+	culture = "castilian"
+}
+guadalfajara = {
+	prefix = "dynnp_de"
+	name = "dynn_Guadalfajara"
+	culture = "castilian"
+}
+moreno2 = {
+	name = "dynn_Moreno"
+	culture = "castilian"
+}
+laso = {
+	name = "dynn_Laso"
+	culture = "castilian"
+}
+rendon = {
+	name = "dynn_Rendon"
+	culture = "castilian"
+}
+merino = {
+	name = "dynn_Merino"
+	culture = "castilian"
+}
+perez_maranon = {
+	name = "dynn_Perez_Maranon"
+	culture = "castilian"
+}
+acevedo = {
+	prefix = "dynnp_de"
+	name = "dynn_Acevedo"
+	culture = "castilian"
+}
+artazo = {
+	name = "dynn_Artazo"
+	culture = "castilian"
+}
+giron = {
+	name = "dynn_Giron"
+	culture = "castilian"
+}
+heredia = {
+	prefix = "dynnp_de"
+	name = "dynn_Heredia"
+	culture = "castilian"
+}
+gonzalez = {
+	name = "dynn_Gonzalez"
+	culture = "castilian"
 }
 
 # thank PDX for giving me all this extra work... not even justified

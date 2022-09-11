@@ -1,7 +1,7 @@
-6450000 = {
+﻿6500000 = {
 	name = "Francisco"
 	dynasty = morazan
-	culture = castilian
+	culture = mexican
 	religion = catholic
 	1792.10.3 = {
 		birth = yes
@@ -19,8 +19,355 @@
 	}
 }
 
+#Presidents Costa Rica 1836 and 1861
+
+6500001 = {
+	name = "Braulio"
+	dynasty = carrillo
+	culture = mexican
+	religion = catholic
+	1800.3.20 = {
+		birth = yes
+	}
+	1828.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1845.5.15 = {
+		death = yes
+	}
+}
+
+6500002 = {
+	name = "José María"
+	dynasty = montealegre
+	culture = mexican
+	religion = catholic
+	1815.3.19 = {
+		birth = yes
+	}
+	1850.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1887.9.26 = {
+		death = yes
+	}
+}
+
+#Presidents El Salvador 1836 and 1861
+
+6500003 = {
+	name = "Francisco"
+	dynasty = gomez
+	culture = mexican
+	religion = catholic
+	1796.8.5 = {
+		birth = yes
+	}
+	1811.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1838.5.17 = {
+		death = yes
+	}
+}
+
+6500004 = {
+	name = "Gerardo"
+	dynasty = barrios
+	culture = mexican
+	religion = catholic
+	1813.9.24 = {
+		birth = yes
+	}
+	1836.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1865.8.29 = {
+		death = yes
+	}
+}
+
+#Presidents Guatemala 1836 and 1861
+
+6500005 = {
+	name = "Mariano"
+	dynasty = galvez
+	culture = mexican
+	religion = catholic
+	1794.8.28 = {
+		birth = yes
+	}
+	1820.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1862.3.29 = {
+		death = yes
+	}
+}
+
+6500006 = {
+	name = "Rafael"
+	dynasty = carrera
+	culture = mexican
+	religion = catholic
+	1814.10.24 = {
+		birth = yes
+	}
+	1835.1.1 = {
+		effect = {
+			add_character_flag = conservative_party
+			add_character_modifier = {
+				modifier = conservative_party_modifier
+			}
+		}
+	}
+	1865.4.14 = {
+		death = yes
+	}
+}
+
+#Presidents Honduras 1836 and 1861
+
+6500007 = {
+	name = "Joaquín"
+	dynasty = rivera
+	culture = mexican
+	religion = catholic
+	1795.7.25 = {
+		birth = yes
+	}
+	1832.1.1 = {
+		effect = {
+			add_character_flag = conservative_party
+			add_character_modifier = {
+				modifier = conservative_party_modifier
+			}
+		}
+	}
+	1845.2.6 = {
+		death = yes
+	}
+}
+
+6500008 = {
+	name = "José Santos"
+	dynasty = guardiola
+	culture = mexican
+	religion = catholic
+	1816.11.1 = {
+		birth = yes
+	}
+	1850.1.1 = {
+		effect = {
+			add_character_flag = conservative_party
+			add_character_modifier = {
+				modifier = conservative_party_modifier
+			}
+		}
+	}
+	1862.1.11 = {
+		death = yes
+	}
+}
+
+#Presidents Nicaragua 1836 and 1861
+
+6500009 = {
+	name = "José"
+	dynasty = zepeda
+	culture = mexican
+	religion = catholic
+	1784.3.17 = {
+		birth = yes
+	}
+	1830.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1837.6.15 = {
+		death = yes
+	}
+}
+
+6500010 = {
+	name = "Tomás"
+	dynasty = martinez2
+	culture = mexican
+	religion = catholic
+	1820.12.21 = {
+		birth = yes
+	}
+	1850.1.1 = {
+		effect = {
+			add_character_flag = conservative_party
+			add_character_modifier = {
+				modifier = conservative_party_modifier
+			}
+		}
+	}
+	1873.3.12 = {
+		death = yes
+	}
+}
+
+6500011 = {
+	name = "Manuel"
+	dynasty = arce
+	culture = mexican
+	religion = catholic
+	1787.1.1 = {
+		birth = yes
+	}
+	1811.11.5 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1847.12.14 = {
+		death = yes
+	}
+}
+
+#Governors spanish Costa Rica
+
+6500012 = {
+	name = "Juan"
+	dynasty = dios
+	culture = castilian
+	religion = catholic
+	1759.4.5 = {
+		birth = yes
+	}
+	
+	1819.9.17 = {
+		death = yes
+	}
+}
+
+#Governors spanish El Salvador
+
+6500013 = {
+	name = "José María"
+	dynasty = peinado
+	culture = castilian
+	religion = catholic
+	1769.11.21 = {
+		birth = yes
+	}
+	
+	1820.1.29 = {
+		death = yes
+	}
+}
+
+6500014 = {
+	name = "José Méndez"
+	dynasty = quiroga
+	culture = castilian
+	religion = catholic
+	1750.5.21 = {
+		birth = yes
+	}
+	
+	1817.10.16 = {
+		death = yes
+	}
+}
+
+#Governors spanish Honduras
+
+6500015 = {
+	name = "Juan Antonio"
+	dynasty = tornos
+	culture = castilian
+	religion = catholic
+	1770.6.20 = {
+		birth = yes
+	}
+	
+	1830.2.4 = {
+		death = yes
+	}
+}
+
+#spanish governors Nicaragua
+
+6500016 = {
+	name = "Nicolás García"
+	dynasty = jerez
+	culture = castilian
+	religion = catholic
+	1757.9.10 = {
+		birth = yes
+	}
+	
+	1825.7.31 = {
+		death = yes
+	}
+}
+
+6500017 = {
+	name = "Juan Bautista"
+	dynasty = gual
+	culture = castilian
+	religion = catholic
+	1757.2.14 = {
+		birth = yes
+	}
+	
+	1826.9.17 = {
+		death = yes
+	}
+}
+
+6500018 = {
+	name = "Antonio"
+	dynasty = gonzalez
+	culture = castilian
+	religion = catholic
+	1743.7.11 = {
+		birth = yes
+	}
+	
+	1812.12.2 = {
+		death = yes
+	}
+}
+
 ### Miskito Kings
-6451000 = {
+6510000 = {
 	name = "George"
 	dynasty = 162594
 	culture = miskito
@@ -32,7 +379,7 @@
 		death = yes
 	}
 }
-6451001 = {
+6510001 = {
 	name = "George"		# Frederic
 	dynasty = 162594
 	culture = miskito
@@ -45,7 +392,7 @@
 		death = yes
 	}
 }
-6451002 = {
+6510002 = {
 	name = "George-Frederic-Augustus"
 	dynasty = 162594
 	culture = miskito
@@ -66,7 +413,7 @@
 		death = yes
 	}
 }
-6451003 = {
+6510003 = {
 	name = "Robert-Charles-Frederic"
 	dynasty = 162594
 	culture = miskito
@@ -87,7 +434,7 @@
 		death = yes
 	}
 }
-6451004 = {
+6510004 = {
 	name = "George-Frederic-Augustus"
 	dynasty = 162594
 	culture = miskito

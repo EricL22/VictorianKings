@@ -94,6 +94,18 @@ modern08 = {
 	}
 }
 
+modern09 = {
+	name = "Antoniosecuaz"
+	culture = castilian
+	religion = catholic
+	1780.1.1 = {
+		birth = yes
+	}
+	1818.3.9 = {
+		death = yes
+	}
+}
+
 rusgovbury = {
 	name = "Rusgovbury"
 	culture = russian

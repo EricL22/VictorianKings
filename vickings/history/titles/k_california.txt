@@ -1,8 +1,236 @@
 k_california = {
-	1804.1.1 = {
+	1804.11.16 = {
+		holder = 6420020
 		name = alta_california
+		liege = e_new_spain
+	}
+	1814.7.25 = {
+		holder = 6420021
 	}
 	1821.9.28 = {
 		de_jure_liege = e_mexico
+	}
+	1824.10.4 = {	# became a territory of Mexico
+		holder = 0
+	}
+	1847.1.10 = {
+		liege = e_united_states
+	}
+	1848.2.2 = {
+		de_jure_liege = e_united_states
+	}
+}
+
+d_california = {
+	1824.10.4 = {	# became a territory of Mexico
+		liege = e_mexico
+		government = republic_government
+		name = alta_california
+	}
+	1836.1.1 = {
+		holder = 6420022
+	}
+	1847.1.10 = {	# territorial government abolished
+		holder = 0
+	}
+}
+
+d_nevada = {
+	1.1.1 = {
+		name = washoe
+	}
+}
+c_kataempthena = {
+	1836.1.1 = {
+		holder = 6420022
+	}
+}
+c_lekhaarsyra = {
+	1836.1.1 = {
+		holder = 6420022
+	}
+}
+c_epidlauinon = {
+	1836.1.1 = {
+		holder = 6420022
+	}
+}
+c_asklmonissa = {
+	1836.1.1 = {
+		holder = 6420022
+	}
+}
+c_elemetrea = {
+	1836.1.1 = {
+		holder = 6420022
+	}
+}
+c_megalnicinon = {
+	1836.1.1 = {
+		holder = 6420022
+	}
+}
+c_methhemerea = {
+	1836.1.1 = {
+		holder = 6420022
+	}
+}
+c_cyiolia = {
+	1836.1.1 = {
+		holder = 6420022
+	}
+}
+c_koujuktsos = {
+	1836.1.1 = {
+		holder = 6420022
+	}
+}
+c_ankkimmeate = {
+	1836.1.1 = {
+		holder = 6420022
+	}
+}
+c_marakalthos = {
+	1836.1.1 = {
+		holder = 6420022
+	}
+}
+c_imbhisdia = {
+	1836.1.1 = {
+		holder = 6420022
+	}
+}
+c_amarlepissa = {
+	1836.1.1 = {
+		holder = 6420022
+	}
+}
+c_halicgourlia = {
+	1836.1.1 = {
+		holder = 6420022
+	}
+}
+
+
+c_kaiastdus = {
+	1836.1.1 = {
+		holder = 6420022
+	}
+}
+c_orekimmetiri = {
+	1836.1.1 = {
+		holder = 6420022
+	}
+}
+c_hermigytina = {
+	1836.1.1 = {
+		holder = 6420022
+	}
+}
+c_hermigangdos = {
+	1836.1.1 = {
+		holder = 6420022
+	}
+}
+c_nirlindrias = {
+	1836.1.1 = {
+		holder = 6420022
+	}
+}
+c_knossiolcus = {
+	1836.1.1 = {
+		holder = 6420022
+	}
+}
+c_neoepina = {
+	1836.1.1 = {
+		holder = 6420022
+	}
+}
+
+
+c_nakamlia = {
+	1836.1.1 = {
+		holder = 6420022
+	}
+}
+c_dimbarlia = {
+	1836.1.1 = {
+		holder = 6420022
+	}
+}
+c_ithassate = {
+	1836.1.1 = {
+		holder = 6420022
+	}
+}
+c_histgythica = {
+	1836.1.1 = {
+		holder = 6420022
+	}
+}
+c_korinbraai = {
+	1836.1.1 = {
+		holder = 6420022
+	}
+}
+c_monasclaida = {
+	1836.1.1 = {
+		holder = 6420022
+	}
+}
+c_kameirklazothena = {
+	1836.1.1 = {
+		holder = 6420022
+	}
+}
+c_monatapollila = {
+	1836.1.1 = {
+		holder = 6420022
+	}
+}
+c_antigmiseica = {
+	1836.1.1 = {
+		holder = 6420022
+	}
+}
+c_ialleai = {
+	1836.1.1 = {
+		holder = 6420022
+	}
+}
+c_iolceresoas = {
+	1836.1.1 = {
+		holder = 6420022
+	}
+}
+c_morgnylis = {
+	1836.1.1 = {
+		holder = 6420022
+	}
+}
+c_kouriargyrcia = {
+	1836.1.1 = {
+		holder = 6420022
+	}
+}
+c_apolleretlea = {
+	1836.1.1 = {
+		holder = 6420022
+	}
+}
+c_cherskydolea = {
+	1836.1.1 = {
+		holder = 6420022
+	}
+}
+c_orchkimmelia = {
+	1836.1.1 = {
+		holder = 6420022
+	}
+}
+c_actlocrosia = {
+	1836.1.1 = {
+		holder = 6420022
 	}
 }

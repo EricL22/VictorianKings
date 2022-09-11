@@ -1,80 +1,80 @@
 13211 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13212 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13213 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13214 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13215 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13216 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13217 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13218 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13219 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13220 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13221 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13222 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13223 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13224 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13225 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13226 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13227 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13228 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13229 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13230 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }

@@ -1,6 +1,13 @@
 k_sonora = {
+	1796.8.8 = {
+		holder = 6420028
+		liege = e_new_spain
+	}
 	1806.1.1 = {
 		name = new_navarra
+	}
+	1814.5.1 = {
+		holder = 6420029
 	}
 	1821.9.28 = {
 		de_jure_liege = e_mexico
@@ -8,5 +15,26 @@ k_sonora = {
 	}
 	1830.9.30 = {
 		reset_name = yes
+		liege = e_mexico
+		government = republic_government
+	}
+	1835.10.23 = {	# department established
+		holder = 0
+	}
+	1861.6.8 = {
+		holder = 6420033
+	}
+}
+
+d_sonora = {
+	1835.10.23 = {	# department established
+		liege = e_mexico
+		government = republic_government
+	}
+	1835.11.21 = {
+		holder = 6420030
+	}
+	1846.8.22 = {	# department dissolved
+		holder = 0
 	}
 }

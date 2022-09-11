@@ -1,0 +1,45 @@
+﻿houston = {
+    name = "dynn_Houston"
+    culture = "american"
+}
+
+crockett = {
+    name = "dynn_Crockett"
+    culture = "american"
+}
+
+austin = {
+    name = "dynn_Austin"
+    culture = "american"
+}
+
+burnet = {
+    name = "dynn_Burnet"
+    culture = "american"
+}
+
+lamar = {
+    name = "dynn_Lamar"
+    culture = "american"
+}
+
+jones = {
+    name = "dynn_Jones"
+    culture = "american"
+}
+
+smith3 = {
+    name = "dynn_Smith"
+    culture = "mexican"
+}
+
+burleson = {
+    name = "dynn_Burleson"
+    culture = "mexican"
+}
+
+######
+valera = {
+    name = "dynn_Valera"
+    culture = "mexican"
+}

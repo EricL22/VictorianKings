@@ -2022,7 +2022,7 @@ evaluate_vote_apportionment_effect = {
 				limit = { exists = var:slavery_percent }
 				save_scope_value_as = { name = county_slave_dev value = { value = development_level multiply = var:slavery_percent multiply = 0.6 } }
 				save_scope_value_as = { name = county_free_dev value = { value = development_level multiply = { value = 1 subtract = var:slavery_percent } } }
-				save_scope_value_as = { name = total_dev value = { value = scope:total_dev add = scope:county_free_dev add = county_free_dev } }
+				save_scope_value_as = { name = total_dev value = { value = scope:total_dev add = scope:county_free_dev add = scope:county_slave_dev } }
 			}
 			else = {
 				save_scope_value_as = { name = total_dev value = { value = scope:total_dev add = development_level } }

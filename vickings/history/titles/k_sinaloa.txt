@@ -1,0 +1,25 @@
+k_sinaloa = {
+	1830.10.14 = {
+		liege = e_mexico
+		government = republic_government
+	}
+	1860.8.19 = {
+		holder = 6420034
+	}
+}
+
+d_sinaloa = {
+	1830.10.14 = {
+		de_jure_liege = k_sinaloa
+	}
+	1835.10.23 = {	# department established
+		liege = e_mexico
+		government = republic_government
+	}
+	1835.10.26 = {
+		holder = 6420031
+	}
+	1846.8.22 = {	# department dissolved
+		holder = 0
+	}
+}

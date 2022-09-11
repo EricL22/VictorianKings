@@ -1,0 +1,6 @@
+﻿eastern_name_order = { ###东方序
+	fame = yes
+	icon = august.dds
+	shown_in_ruler_designer = no
+	desc = eastern_name_order
+}

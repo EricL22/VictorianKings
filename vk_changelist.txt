@@ -9,7 +9,13 @@ Extended the map to the west coast of the United States and south to Mexico and 
 Added event for the Ottomans to regain Hejaz after the Second Egyptian-Ottoman War
 United States territorial conquest now automatically puts conquered territories into existing de jure states or territories, if applicable
 Added cultural innovation to increase diplomatic range, especially useful for America
+Added a heightmap for the Maldives
 Replaced the boring vanilla music with handpicked era-appropriate pieces
+0.4.4---------- (Commit c544d95)
+Fixed compatibility for the 1.7 update
+Republics will no longer have primogeniture succession on game start
+Tecumseh's Confederacy will now only be destroyed if the ruler actually dies in battle or wounded
+Minor bugfixes to reduce errors
 0.4.3---------- (Commit 9c206e8)
 Fixed multiple choose ideology event spam when you gain multiple titles
 Fixed triggering a choose ideology event if you restore the French Empire

@@ -1,0 +1,29 @@
+k_guanajuato = {
+	1823.12.20 = {
+		liege = e_mexico
+		government = republic_government
+	}
+	1860.6.19 = {
+		holder = 6420079
+	}
+}
+
+d_guanajuato = {
+	1810.11.25 = {
+		holder = 6420077
+		liege = e_new_spain
+	}
+	1823.12.20 = {
+		de_jure_liege = k_guanajuato
+	}
+	1835.10.23 = {	# department established
+		liege = e_mexico
+		government = republic_government
+	}
+	1835.12.6 = {
+		holder = 6420078
+	}
+	1846.8.22 = {	# department dissolved
+		holder = 0
+	}
+}

@@ -1,5 +1,36 @@
 k_new_leon = {
+	1811.4.1 = {
+		holder = 6420056
+		liege = e_new_spain
+	}
+	1815.1.1 = {
+		holder = 6420057
+	}
 	1821.9.28 = {
 		de_jure_liege = e_mexico
+	}
+	1824.5.7 = {
+		liege = e_mexico
+		government = republic_government
+	}
+	1835.2.17 = {
+		holder = 6420058
+	}
+	1835.10.23 = {	# department established
+		holder = 0
+	}
+	1860.4.11 = {
+		holder = 6420053
+	}
+}
+
+d_new_leon = {
+	1835.10.23 = {	# department established
+		holder = 6420058
+		liege = e_mexico
+		government = republic_government
+	}
+	1846.8.22 = {	# department dissolved
+		holder = 0
 	}
 }

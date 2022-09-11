@@ -1,0 +1,55 @@
+k_zacatecas = {
+	1823.12.23 = {
+		liege = e_mexico
+		government = republic_government
+	}
+	1857.1.1 = {
+		holder = 6420051
+	}
+}
+
+d_zacatecas = {
+	1812.1.1 = {
+		holder = 6420047
+		liege = k_jalisco
+	}
+	1814.1.1 = {
+		holder = 6420048
+	}
+	1823.12.23 = {
+		de_jure_liege = k_zacatecas
+	}
+	1835.10.23 = {	# department established
+		holder = 6420050
+		liege = e_mexico
+		government = republic_government
+	}
+	1846.8.22 = {	# department dissolved
+		holder = 0
+	}
+}
+
+k_aguascalientes = {
+	1857.2.5 = {
+		liege = e_mexico
+		government = republic_government
+	}
+	1860.1.1 = {
+		holder = 6420036
+	}
+}
+d_aguascalientes = {
+	1835.10.23 = {
+		holder = 6420035
+		liege = e_mexico
+		government = republic_government
+	}
+	1857.2.5 = {
+		holder = 0
+	}
+}
+c_aguascalientes = {
+	1835.10.23 = {
+		de_jure_liege = d_aguascalientes
+	}
+}

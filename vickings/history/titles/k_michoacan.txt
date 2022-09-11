@@ -1,0 +1,27 @@
+k_michoacan = {
+	1823.12.22 = {
+		liege = e_mexico
+		government = republic_government
+	}
+	1858.3.13 = {
+		holder = 6420076
+	}
+}
+
+d_valladolid = {
+	1811.10.14 = {
+		holder = 6420074
+		liege = e_new_spain
+	}
+	1823.12.22 = {
+		de_jure_liege = k_michoacan
+	}
+	1835.10.23 = {	# department established
+		holder = 6420075
+		liege = e_mexico
+		government = republic_government
+	}
+	1846.8.22 = {	# department dissolved
+		holder = 0
+	}
+}

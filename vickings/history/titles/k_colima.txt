@@ -1,0 +1,33 @@
+k_colima = {
+	1856.12.9 = {
+		liege = e_mexico
+		government = republic_government
+	}
+	1860.5.28 = {
+		holder = 6420093
+	}
+}
+
+d_colima = {
+	1856.12.9 = {
+		de_jure_liege = k_colima
+	}
+}
+
+c_colima = {
+	1824.10.4 = {
+		de_jure_liege = d_colima
+	}
+	1835.10.23 = {
+		holder = 6420075
+	}
+}
+
+c_moephtrias = {
+	1824.10.4 = {
+		de_jure_liege = d_colima
+	}
+	1835.10.23 = {
+		holder = 6420075
+	}
+}

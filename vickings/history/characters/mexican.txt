@@ -1,10 +1,18 @@
-6420000 = {
+﻿6420000 = {
 	name = "Antonio"
 	dynasty = santa_anna
-	culture = castilian
+	culture = mexican
 	religion = catholic
+	trait = ambitious
+	trait = fickle
+	trait = brave
+	trait = education_martial_4
+	trait = reckless
 	1794.2.21 = {
 		birth = yes
+	}
+	1825.9.25 = {
+		add_spouse = 6420027
 	}
 	1834.1.1 = {
 		effect = {
@@ -22,7 +30,7 @@
 6420001 = {
 	name = "Anastasio"
 	dynasty = bustamante
-	culture = castilian
+	culture = mexican
 	religion = catholic
 	1780.7.27 = {
 		birth = yes
@@ -43,7 +51,7 @@
 6420002 = {
 	name = "Nicolas"
 	dynasty = bravo
-	culture = castilian
+	culture = mexican
 	religion = catholic
 	1786.9.10 = {
 		birth = yes
@@ -64,7 +72,7 @@
 6420003 = {
 	name = "Juan"
 	dynasty = alvarez
-	culture = castilian
+	culture = mexican
 	religion = catholic
 	1790.1.27 = {
 		birth = yes
@@ -77,7 +85,7 @@
 			}
 		}
 	}
-	1876.621 = {
+	1876.6.21 = {
 		death = yes
 	}
 }
@@ -85,7 +93,7 @@
 6420004 = {
 	name = "Mariano"
 	dynasty = chico
-	culture = castilian
+	culture = mexican
 	religion = catholic
 	1796.1.1 = {
 		birth = yes
@@ -106,7 +114,7 @@
 6420005 = {
 	name = "Juan"
 	dynasty = alvarado
-	culture = castilian
+	culture = mexican
 	religion = catholic
 	1809.2.14 = {
 		birth = yes
@@ -127,7 +135,7 @@
 6420006 = {
 	name = "Albino"
 	dynasty = perez
-	culture = castilian
+	culture = mexican
 	religion = catholic
 	1795.1.1 = {
 		birth = yes
@@ -146,9 +154,9 @@
 }
 
 6420007 = {
-	name = "Jose"
+	name = "José"
 	dynasty = urrea
-	culture = castilian
+	culture = mexican
 	religion = catholic
 	1797.3.19 = {
 		birth = yes
@@ -169,7 +177,7 @@
 6420008 = {
 	name = "Guadalupe"
 	dynasty = victoria
-	culture = castilian
+	culture = mexican
 	religion = catholic
 	1786.9.29 = {
 		birth = yes
@@ -190,7 +198,7 @@
 6420009 = {
 	name = "Manuel"
 	dynasty = pedraza
-	culture = castilian
+	culture = mexican
 	religion = catholic
 	1789.4.22 = {
 		birth = yes
@@ -211,7 +219,7 @@
 6420010 = {
 	name = "Joaquin"
 	dynasty = gutierrez
-	culture = castilian
+	culture = mexican
 	religion = catholic
 	1796.8.21 = {
 		birth = yes
@@ -232,7 +240,7 @@
 6420011 = {
 	name = "Ignacio"
 	dynasty = rayon
-	culture = castilian
+	culture = mexican
 	religion = catholic
 	1773.7.31 = {
 		birth = yes
@@ -253,7 +261,7 @@
 6420012 = {
 	name = "Vincente"
 	dynasty = guerrero
-	culture = castilian
+	culture = mexican
 	religion = catholic
 	1782.8.10 = {
 		birth = yes
@@ -272,9 +280,9 @@
 }
 
 6420013 = {
-	name = "Jose"
+	name = "José"
 	dynasty = morelos
-	culture = castilian
+	culture = mexican
 	religion = catholic
 	1765.9.30 = {
 		birth = yes
@@ -293,9 +301,9 @@
 }
 
 6420014 = {
-	name = "Agustin"
+	name = "Agustín"
 	dynasty = iturbide
-	culture = castilian
+	culture = mexican
 	religion = catholic
 	1783.9.27 = {
 		birth = yes
@@ -314,9 +322,9 @@
 }
 
 6420015 = {
-	name = "Jose"
+	name = "José"
 	dynasty = mexia
-	culture = castilian
+	culture = mexican
 	religion = catholic
 	1800.12.31 = {
 		birth = yes
@@ -337,7 +345,7 @@
 6420016 = {
 	name = "Lorenzo"
 	dynasty = zavala
-	culture = castilian
+	culture = mexican
 	religion = catholic
 	1788.10.3 = {
 		birth = yes
@@ -377,6 +385,1412 @@
 		birth = yes
 	}
 	1828.7.24 = {
+		death = yes
+	}
+}
+
+6420019 = {
+	name = "José"
+	dynasty = bustamante2
+	culture = castilian
+	religion = catholic
+	1759.4.1 = {
+		birth = yes
+	}
+	1825.3.10 = {
+		death = yes
+	}
+}
+
+6420020 = {
+	name = "José"
+	dynasty = arrillaga
+	culture = basque
+	religion = catholic
+	1750.3.18 = {
+		birth = yes
+	}
+	1814.1.1 = {
+		death = yes
+	}
+}
+
+6420021 = {
+	name = "José"
+	dynasty = arguello
+	culture = castilian
+	religion = catholic
+	1753.1.1 = {
+		birth = yes
+	}
+	1828.1.1 = {
+		death = yes
+	}
+}
+
+6420022 = {
+	name = "Nicolas"
+	dynasty = gutierrez2
+	culture = mexican
+	religion = catholic
+	1803.1.1 = {	# unknown
+		birth = yes
+	}
+	1822.1.1 = {
+		effect = {
+			add_character_flag = conservative_party
+			add_character_modifier = {
+				modifier = conservative_party_modifier
+			}
+		}
+	}
+	1837.1.1 = {	# unknown
+		death = yes
+	}
+}
+
+6420023 = {
+	name = "José"
+	dynasty = manrique
+	culture = castilian
+	religion = catholic
+	1765.1.1 = {	# unknown
+		birth = yes
+	}
+	1828.1.1 = {	# unknown
+		death = yes
+	}
+}
+
+6420024 = {
+	name = "Alberto"
+	dynasty = maynez
+	culture = castilian
+	religion = catholic
+	1776.1.1 = {	# unknown
+		birth = yes
+	}
+	1829.1.1 = {	# unknown
+		death = yes
+	}
+}
+
+6420025 = {
+	name = "Juan"
+	dynasty = guemes
+	culture = castilian
+	religion = catholic
+	trait = just
+	1738.4.5 = {
+		birth = yes
+	}
+	1799.5.2 = {
+		death = yes
+	}
+}
+
+6420026 = {
+	name = "Miguel"
+	dynasty = martinez
+	culture = mexican
+	religion = catholic
+	1800.1.1 = {	# unknown
+		birth = yes
+	}
+	1822.1.1 = {
+		effect = {
+			add_character_flag = conservative_party
+			add_character_modifier = {
+				modifier = conservative_party_modifier
+			}
+		}
+	}
+	1837.1.1 = {	# unknown
+		death = yes
+	}
+}
+
+6420027 = {
+	name = "InEEs"
+	dynasty = garcia
+	culture = mexican
+	religion = catholic
+	female = yes
+	1811.1.21 = {
+		birth = yes
+	}
+	1844.8.23 = {
+		death = yes
+	}
+}
+
+6420028 = {
+	name = "Alejo"
+	dynasty = garcia_conde
+	culture = castilian
+	religion = catholic
+	father = 6420049
+	1751.8.2 = {
+		birth = yes
+	}
+	1826.7.28 = {
+		death = yes
+	}
+}
+
+6420029 = {
+	name = "Antonio"
+	dynasty = cordero
+	culture = castilian
+	religion = catholic
+	1753.1.1 = {
+		birth = yes
+	}
+	1823.3.1 = {
+		death = yes
+	}
+}
+
+6420030 = {
+	name = "Manuel"
+	dynasty = escalante
+	culture = mexican
+	religion = catholic
+	1793.1.1 = {
+		birth = yes
+	}
+	1824.9.1 = {
+		effect = {
+			add_character_flag = conservative_party
+			add_character_modifier = {
+				modifier = conservative_party_modifier
+			}
+		}
+	}
+	1851.11.3 = {
+		death = yes
+	}
+}
+
+6420031 = {
+	name = "Pedro"
+	dynasty = sanchez
+	culture = mexican
+	religion = catholic
+        1802.8.1 = {	# unknown
+                birth = yes
+        }
+	1822.1.1 = {
+		effect = {
+			add_character_flag = conservative_party
+			add_character_modifier = {
+				modifier = conservative_party_modifier
+			}
+		}
+	}
+        1838.10.16 = {	# unknown
+                death = yes
+        }
+}
+
+6420032 = {
+	name = "José"
+	dynasty = moreno
+	culture = mexican
+	religion = catholic
+        1819.1.1 = {
+                birth = yes
+        }
+	1861.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+        1869.1.1 = {
+                death = yes
+        }
+}
+
+6420033 = {
+	name = "Ignacio"
+	dynasty = pesqueira
+	culture = mexican
+	religion = catholic
+        1820.12.16 = {
+                birth = yes
+        }
+	1854.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+        1886.1.4 = {
+                death = yes
+        }
+}
+
+6420034 = {
+	name = "Plácido"
+	dynasty = vega
+	culture = mexican
+	religion = catholic
+        1830.1.1 = {
+                birth = yes
+        }
+	1854.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+        1878.1.4 = {
+                death = yes
+        }
+}
+
+# source: https://gw.geneanet.org/sanchiz?lang=en&n=garcia+rojas+garcia+rojas&oc=0&p=pedro+jose
+6420035 = {
+	name = "Pedro"
+	dynasty = garcia_rojas
+	culture = mexican
+	religion = catholic
+        1790.1.1 = {
+                birth = yes
+        }
+	1824.1.1 = {	# source: https://www.ags.gob.mx/cont.aspx?p=266
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+        1850.3.28 = {
+                death = yes
+        }
+}
+
+6420036 = {
+	name = "Esteban"
+	dynasty = avila
+	culture = mexican
+	religion = catholic
+        1820.1.1 = {	# unknown
+                birth = yes
+        }
+	1844.1.1 = {	# unknown
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+        1868.1.1 = {	# unknown
+                death = yes
+        }
+}
+
+6420037 = {
+	name = "Bernardo"
+	dynasty = bonavia
+	culture = castilian
+	religion = catholic
+	1740.1.1 = {
+		birth = yes
+	}
+	1812.12.2 = {
+		death = yes
+	}
+}
+
+6420038 = {
+	name = "Antonio"
+	dynasty = esparza
+	culture = mexican
+	religion = catholic
+        1787.10.26 = {	# unknown
+                birth = yes
+        }
+	1822.1.1 = {	# unknown
+		effect = {
+			add_character_flag = conservative_party
+			add_character_modifier = {
+				modifier = conservative_party_modifier
+			}
+		}
+	}
+        1839.5.5 = {	# unknown
+                death = yes
+        }
+}
+
+6420039 = {
+	name = "José"
+	dynasty = patoni
+	culture = mexican
+	religion = catholic
+        1828.1.1 = {
+                birth = yes
+        }
+	1858.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+        1868.8.18 = {
+                death = yes
+        }
+}
+
+6420040 = {
+	name = "José"
+	dynasty = calvo
+	culture = mexican
+	religion = catholic
+        1798.1.16 = {
+                birth = yes
+        }
+	1812.1.1 = {
+		effect = {
+			add_character_flag = conservative_party
+			add_character_modifier = {
+				modifier = conservative_party_modifier
+			}
+		}
+	}
+        1838.2.28 = {
+                death = yes
+        }
+}
+
+6420041 = {
+	name = "Luis"
+	dynasty = terrazas
+	culture = mexican
+	religion = catholic
+        1829.7.20 = {
+                birth = yes
+        }
+	1858.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+        1923.6.18 = {
+                death = yes
+        }
+}
+
+6420042 = {
+	name = "José"
+	dynasty = cruz
+	culture = castilian
+	religion = catholic
+	1786.1.1 = {
+		birth = yes
+	}
+	1856.1.1 = {
+		death = yes
+	}
+}
+
+6420043 = {
+	name = "Antonio"
+	dynasty = escobedo
+	culture = mexican
+	religion = catholic
+        1803.1.1 = {	# unknown
+                birth = yes
+        }
+	1830.1.1 = {	# unknown
+		effect = {
+			add_character_flag = conservative_party
+			add_character_modifier = {
+				modifier = conservative_party_modifier
+			}
+		}
+	}
+        1856.1.1 = {	# unknown
+                death = yes
+        }
+}
+
+6420044 = {
+	name = "Pedro"
+	dynasty = ogazon
+	culture = mexican
+	religion = catholic
+        1821.11.17 = {
+                birth = yes
+        }
+	1846.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+        1890.2.27 = {
+                death = yes
+        }
+}
+
+6420045 = {
+	name = "Benito"
+	dynasty = juarez
+	culture = mexican
+	religion = catholic
+	1806.3.21 = {
+		birth = yes
+	}
+	1830.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1872.7.18 = {
+		death = yes
+	}
+}
+
+6420046 = {
+	name = "Porfirio"
+	dynasty = diaz
+	culture = mexican
+	religion = catholic
+	1830.9.15 = {
+		birth = yes
+	}
+	1855.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1915.7.2 = {
+		death = yes
+	}
+}
+
+6420047 = {
+	name = "Santiago"
+	dynasty = irisarri
+	culture = basque
+	religion = catholic
+	1788.1.1 = {	# unknown
+		birth = yes
+	}
+	1832.1.1 = {	# unknown
+		death = yes
+	}
+}
+
+6420048 = {
+	name = "Diego"
+	dynasty = garcia_conde
+	culture = castilian
+	religion = catholic
+	father = 6420049
+	1760.7.1 = {
+		birth = yes
+	}
+	1825.5.8 = {
+		death = yes
+	}
+}
+
+6420049 = {
+	name = "Alejo"
+	dynasty = garcia_conde
+	culture = castilian
+	religion = catholic
+	1700.1.1 = {
+		birth = yes
+	}
+	1770.1.1 = {	# unknown
+		death = yes
+	}
+}
+
+6420050 = {
+	name = "Santiago"
+	dynasty = villegas
+	culture = mexican
+	religion = catholic
+        1803.1.1 = {	# unknown
+                birth = yes
+        }
+	1830.1.1 = {	# unknown
+		effect = {
+			add_character_flag = conservative_party
+			add_character_modifier = {
+				modifier = conservative_party_modifier
+			}
+		}
+	}
+        1856.1.1 = {	# unknown
+                death = yes
+        }
+}
+
+6420051 = {
+	name = "Jesús"
+	dynasty = gonzalez_ortega
+	culture = mexican
+	religion = catholic
+	1822.1.20 = {
+		birth = yes
+	}
+	1850.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1881.2.28 = {
+		death = yes
+	}
+}
+
+6420052 = {
+	name = "José"
+	dynasty = eca
+	culture = mexican
+	religion = catholic
+	1780.1.1 = {	# unknown
+		birth = yes
+	}
+	1830.1.1 = {	# unknown
+		effect = {
+			add_character_flag = conservative_party
+			add_character_modifier = {
+				modifier = conservative_party_modifier
+			}
+		}
+	}
+	1850.1.1 = {	# unknown
+		death = yes
+	}
+}
+
+6420053 = {
+	name = "Santiago"
+	dynasty = vidaurri
+	culture = mexican
+	religion = catholic
+	1809.7.24 = {
+		birth = yes
+	}
+	1850.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1867.7.8 = {
+		death = yes
+	}
+}
+
+6420054 = {
+	name = "Felipe"
+	dynasty = goicoechea
+	culture = castilian
+	religion = catholic
+	1747.1.1 = {
+		birth = yes
+	}
+	1814.10.1 = {
+		death = yes
+	}
+}
+
+6420055 = {
+	name = "Fernando"
+	dynasty = toba
+	culture = castilian
+	religion = catholic
+	1774.1.1 = {
+		birth = yes
+	}
+	1844.1.1 = {
+		death = yes
+	}
+}
+
+6420056 = {
+	name = "Blas"
+	dynasty = gomez_castro
+	culture = castilian
+	religion = catholic
+	1767.1.1 = {	# unknown
+		birth = yes
+	}
+	1815.1.1 = {	# unknown
+		death = yes
+	}
+}
+
+6420057 = {
+	name = "José"
+	dynasty = mier
+	culture = castilian
+	religion = catholic
+	1760.10.21 = {
+		birth = yes
+	}
+	1832.1.1 = {
+		death = yes
+	}
+}
+
+6420058 = {
+	name = "Juan"
+	dynasty = garza
+	culture = mexican
+	religion = catholic
+	1799.1.1 = {
+		birth = yes
+	}
+	1830.1.1 = {
+		effect = {
+			add_character_flag = conservative_party
+			add_character_modifier = {
+				modifier = conservative_party_modifier
+			}
+		}
+	}
+	1877.1.13 = {
+		death = yes
+	}
+}
+
+6420059 = {
+	name = "José"
+	dynasty = arredondo
+	culture = castilian
+	religion = catholic
+	1768.1.1 = {
+		birth = yes
+	}
+	1837.1.1 = {
+		death = yes
+	}
+}
+
+6420060 = {
+	name = "José"
+	dynasty = fernandez
+	culture = mexican
+	religion = catholic
+	1796.1.1 = {	# unknown
+		birth = yes
+	}
+	1830.1.1 = {	# unknown
+		effect = {
+			add_character_flag = conservative_party
+			add_character_modifier = {
+				modifier = conservative_party_modifier
+			}
+		}
+	}
+	1847.1.1 = {	# unknown
+		death = yes
+	}
+}
+
+6420061 = {
+	name = "Modesto"
+	dynasty = ortiz
+	culture = mexican
+	religion = catholic
+	1826.1.1 = {	# unknown
+		birth = yes
+	}
+	1850.1.1 = {	# unknown
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1861.9.1 = {	# unknown
+		death = yes
+	}
+}
+
+6420062 = {
+	name = "Pedro"
+	dynasty = landero
+	culture = castilian
+	religion = catholic
+	1791.8.16 = {
+		birth = yes
+	}
+	1832.1.1 = {
+		death = yes
+	}
+}
+
+6420063 = {
+	name = "José"
+	dynasty = quevedo
+	culture = castilian
+	religion = catholic
+	1763.1.1 = {
+		birth = yes
+	}
+	1835.1.1 = {
+		death = yes
+	}
+}
+
+6420064 = {
+	name = "Joaquín"
+	dynasty = munoz
+	culture = mexican
+	religion = catholic
+	1800.1.1 = {
+		birth = yes
+	}
+	1830.1.1 = {	# unknown
+		effect = {
+			add_character_flag = conservative_party
+			add_character_modifier = {
+				modifier = conservative_party_modifier
+			}
+		}
+	}
+	1847.1.1 = {	# unknown
+		death = yes
+	}
+}
+
+6420065 = {
+	name = "Ignacio"
+	dynasty = llave
+	culture = mexican
+	religion = catholic
+	1818.8.26 = {
+		birth = yes
+	}
+	1850.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1863.6.23 = {
+		death = yes
+	}
+}
+
+6420066 = {
+	name = "Prudencio"
+	dynasty = guadalfajara
+	culture = castilian
+	religion = catholic
+	1761.4.28 = {
+		birth = yes
+	}
+	1855.6.16 = {
+		death = yes
+	}
+}
+
+6420067 = {
+	name = "José"
+	dynasty = moreno2
+	culture = castilian
+	religion = catholic
+	1756.3.17 = {
+		birth = yes
+	}
+	1822.1.28 = {
+		death = yes
+	}
+}
+
+6420068 = {
+	name = "Manuel"
+	dynasty = rincon
+	culture = mexican
+	religion = catholic
+	1784.1.1 = {
+		birth = yes
+	}
+	1830.1.1 = {	# unknown
+		effect = {
+			add_character_flag = conservative_party
+			add_character_modifier = {
+				modifier = conservative_party_modifier
+			}
+		}
+	}
+	1849.1.1 = {
+		death = yes
+	}
+}
+
+6420069 = {
+	name = "Miguel"
+	dynasty = alatriste
+	culture = mexican
+	religion = catholic
+	1820.3.26 = {
+		birth = yes
+	}
+	1850.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1862.4.11 = {
+		death = yes
+	}
+}
+
+6420070 = {
+	name = "José"
+	dynasty = laso
+	culture = castilian
+	religion = catholic
+	1755.1.1 = {	# unknown
+		birth = yes
+	}
+	1825.1.1 = {	# unknown
+		death = yes
+	}
+}
+
+6420071 = {
+	name = "Francisco"
+	dynasty = rendon
+	culture = castilian
+	religion = catholic
+	1760.1.1 = {
+		birth = yes
+	}
+	1822.1.1 = {
+		death = yes
+	}
+}
+
+6420072 = {
+	name = "José"
+	dynasty = lopez_ortigoza
+	culture = mexican
+	religion = catholic
+	1785.1.1 = {	# unknown
+		birth = yes
+	}
+	1830.1.1 = {	# unknown
+		effect = {
+			add_character_flag = conservative_party
+			add_character_modifier = {
+				modifier = conservative_party_modifier
+			}
+		}
+	}
+	1845.1.1 = {	# unknown
+		death = yes
+	}
+}
+
+6420073 = {
+	name = "Ramón"
+	dynasty = cajiga
+	culture = mexican
+	religion = catholic
+	1825.1.1 = {	# unknown
+		birth = yes
+	}
+	1845.1.1 = {	# unknown
+		effect = {
+			add_character_flag = conservative_party
+			add_character_modifier = {
+				modifier = conservative_party_modifier
+			}
+		}
+	}
+	1865.1.1 = {	# unknown
+		death = yes
+	}
+}
+
+6420074 = {
+	name = "Manuel"
+	dynasty = merino
+	culture = castilian
+	religion = catholic
+	1776.1.1 = {
+		birth = yes
+	}
+	1821.1.1 = {
+		death = yes
+	}
+}
+
+6420075 = {
+	name = "Antonio"
+	dynasty = mendez
+	culture = mexican
+	religion = catholic
+	1789.1.5 = {
+		birth = yes
+	}
+	1830.1.1 = {	# unknown
+		effect = {
+			add_character_flag = conservative_party
+			add_character_modifier = {
+				modifier = conservative_party_modifier
+			}
+		}
+	}
+	1845.1.1 = {	# unknown
+		death = yes
+	}
+}
+
+6420076 = {
+	name = "Epitacio"
+	dynasty = huerta
+	culture = mexican
+	religion = catholic
+	1827.5.22 = {
+		birth = yes
+	}
+	1850.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1904.10.23 = {
+		death = yes
+	}
+}
+
+6420077 = {
+	name = "Fernando"
+	dynasty = perez_maranon
+	culture = castilian
+	religion = catholic
+	1790.1.1 = {
+		birth = yes
+	}
+	1855.1.1 = {
+		death = yes
+	}
+}
+
+6420078 = {
+	name = "Ignacio"
+	dynasty = urbina
+	culture = mexican
+	religion = catholic
+	1790.1.1 = {	# unknown
+		birth = yes
+	}
+	1830.1.1 = {	# unknown
+		effect = {
+			add_character_flag = conservative_party
+			add_character_modifier = {
+				modifier = conservative_party_modifier
+			}
+		}
+	}
+	1840.1.1 = {	# unknown
+		death = yes
+	}
+}
+
+6420079 = {
+	name = "Manuel"
+	dynasty = doblado
+	culture = mexican
+	religion = catholic
+	1818.6.12 = {
+		birth = yes
+	}
+	1850.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1865.6.19 = {
+		death = yes
+	}
+}
+
+6420080 = {
+	name = "Manuel"
+	dynasty = acevedo
+	culture = castilian
+	religion = catholic
+	1731.1.1 = {
+		birth = yes
+	}
+	1823.1.1 = {
+		death = yes
+	}
+}
+
+6420081 = {
+	name = "Juan"
+	dynasty = dominguez
+	culture = mexican
+	religion = catholic
+	1795.1.1 = {	# unknown
+		birth = yes
+	}
+	1830.1.1 = {	# unknown
+		effect = {
+			add_character_flag = conservative_party
+			add_character_modifier = {
+				modifier = conservative_party_modifier
+			}
+		}
+	}
+	1845.1.1 = {	# unknown
+		death = yes
+	}
+}
+
+6420082 = {
+	name = "Sostenes"
+	dynasty = escandon
+	culture = mexican
+	religion = catholic
+	1819.4.4 = {
+		birth = yes
+	}
+	1850.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1876.10.3 = {
+		death = yes
+	}
+}
+
+6420083 = {
+	name = "José"
+	dynasty = canalizo
+	culture = mexican
+	religion = catholic
+	1791.1.1 = {
+		birth = yes
+	}
+	1830.1.1 = {	# unknown
+		effect = {
+			add_character_flag = conservative_party
+			add_character_modifier = {
+				modifier = conservative_party_modifier
+			}
+		}
+	}
+	1840.1.1 = {
+		death = yes
+	}
+}
+
+6420084 = {
+	name = "José"
+	dynasty = arteaga
+	culture = mexican
+	religion = catholic
+	1827.8.7 = {
+		birth = yes
+	}
+	1850.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1865.10.21 = {
+		death = yes
+	}
+}
+
+6420085 = {
+	name = "Manuel"
+	dynasty = artazo
+	culture = castilian
+	religion = catholic
+	1751.1.1 = {
+		birth = yes
+	}
+	1815.8.31 = {
+		death = yes
+	}
+}
+
+6420086 = {
+	name = "Francisco"
+	dynasty = paula
+	culture = mexican
+	religion = catholic
+	1799.1.1 = {
+		birth = yes
+	}
+	1830.1.1 = {
+		effect = {
+			add_character_flag = conservative_party
+			add_character_modifier = {
+				modifier = conservative_party_modifier
+			}
+		}
+	}
+	1840.1.1 = {
+		death = yes
+	}
+}
+
+6420087 = {
+	name = "Agustín"
+	dynasty = acereto
+	culture = mexican
+	religion = catholic
+	1805.1.1 = {
+		birth = yes
+	}
+	1840.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1861.9.29 = {
+		death = yes
+	}
+}
+
+6420088 = {
+	name = "AndrE_s"
+	dynasty = giron
+	culture = castilian
+	religion = catholic
+	1757.3.1 = {
+		birth = yes
+	}
+	1833.9.10 = {
+		death = yes
+	}
+}
+
+6420089 = {
+	name = "Francisco"
+	dynasty = heredia
+	culture = castilian
+	religion = catholic
+	1760.1.1 = {
+		birth = yes
+	}
+	1818.5.4 = {
+		death = yes
+	}
+}
+
+6420090 = {
+	name = "Narciso"
+	dynasty = santa_maria
+	culture = mexican
+	religion = catholic
+	1800.1.1 = {	# unknown
+		birth = yes
+	}
+	1830.1.1 = {
+		effect = {
+			add_character_flag = conservative_party
+			add_character_modifier = {
+				modifier = conservative_party_modifier
+			}
+		}
+	}
+	1840.1.1 = {	# unknown
+		death = yes
+	}
+}
+
+6420091 = {
+	name = "Felipe"
+	dynasty = jesus_serra
+	culture = mexican
+	religion = catholic
+	1822.1.6 = {
+		birth = yes
+	}
+	1847.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1905.11.1 = {
+		death = yes
+	}
+}
+
+6420092 = {
+	name = "José"
+	dynasty = saldana
+	culture = mexican
+	religion = catholic
+	1805.11.28 = {
+		birth = yes
+	}
+	1848.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1886.11.4 = {
+		death = yes
+	}
+}
+
+6420093 = {
+	name = "Urbano"
+	dynasty = gomez2
+	culture = mexican
+	religion = catholic
+	1835.1.1 = {
+		birth = yes
+	}
+	1858.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1889.9.17 = {
+		death = yes
+	}
+}
+
+#Governor intendants Chiapas 1812 and 1815
+
+6420094 = {
+	name = "Manuel"
+	dynasty =  junquito
+	culture = castillian
+	religion = catholic
+	1756.12.16 = {
+		birth = yes
+	}
+
+	1826.4.4 = {
+		death = yes
+	}
+}
+
+6420095 = {
+	name = "Gregorio"
+	dynasty =  suasnavar
+	culture = castillian
+	religion = catholic
+	1769.7.19 = {
+		birth = yes
+	}
+
+	1834.1.8 = {
+		death = yes
+	}
+}
+
+#Governors Chiapas 1836 and 1861
+
+6420096 = {
+	name = "Clemente"
+	dynasty = aceituno
+	culture = mexican
+	religion = catholic
+	1799.5.25 = {
+		birth = yes
+	}
+	1830.1.1 = {
+		effect = {
+			add_character_flag = conservative_party
+			add_character_modifier = {
+				modifier = conservative_party_modifier
+			}
+		}
+	}
+	1849.8.13 = {
+		death = yes
+	}
+}
+
+6420097 = {
+	name = "Ángel Albino"
+	dynasty = corzo
+	culture = mexican
+	religion = catholic
+	1816.3.1 = {
+		birth = yes
+	}
+	1855.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1875.8.12 = {
 		death = yes
 	}
 }

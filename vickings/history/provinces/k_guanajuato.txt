@@ -1,28 +1,28 @@
 13132 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13133 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13134 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13135 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13136 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13137 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13138 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }

@@ -2908,11 +2908,11 @@ window = {
 											layoutpolicy_horizontal = fixed
 											spacing = 50
 											text_single = {
-												text = "[GetPlayer.GetTopLiege.GetPrimaryTitle.MakeScope.Var('liberal_yay').GetValue]%"
+												text = "ly_perc"
 												fontsize = 13
 											}
 											text_single = {
-												text = "[GetPlayer.GetTopLiege.GetPrimaryTitle.MakeScope.Var('liberal_nay').GetValue]%"
+												text = "ln_perc"
 												fontsize = 13
 											}
 										}
@@ -2933,11 +2933,11 @@ window = {
 											layoutpolicy_horizontal = fixed
 											spacing = 50
 											text_single = {
-												text = "[GetPlayer.GetTopLiege.GetPrimaryTitle.MakeScope.Var('socialist_yay').GetValue]%"
+												text = "sy_perc"
 												fontsize = 13
 											}
 											text_single = {
-												text = "[GetPlayer.GetTopLiege.GetPrimaryTitle.MakeScope.Var('socialist_nay').GetValue]%"
+												text = "sn_perc"
 												fontsize = 13
 											}
 										}
@@ -2958,11 +2958,11 @@ window = {
 											layoutpolicy_horizontal = fixed
 											spacing = 50
 											text_single = {
-												text = "[GetPlayer.GetTopLiege.GetPrimaryTitle.MakeScope.Var('communist_yay').GetValue]%"
+												text = "cy_perc"
 												fontsize = 13
 											}
 											text_single = {
-												text = "[GetPlayer.GetTopLiege.GetPrimaryTitle.MakeScope.Var('communist_nay').GetValue]%"
+												text = "cn_perc"
 												fontsize = 13
 											}
 										}
@@ -2983,11 +2983,11 @@ window = {
 											layoutpolicy_horizontal = fixed
 											spacing = 50
 											text_single = {
-												text = "[GetPlayer.GetTopLiege.GetPrimaryTitle.MakeScope.Var('anarchist_yay').GetValue]%"
+												text = "ay_perc"
 												fontsize = 13
 											}
 											text_single = {
-												text = "[GetPlayer.GetTopLiege.GetPrimaryTitle.MakeScope.Var('anarchist_nay').GetValue]%"
+												text = "an_perc"
 												fontsize = 13
 											}
 										}
@@ -3008,11 +3008,11 @@ window = {
 											layoutpolicy_horizontal = fixed
 											spacing = 50
 											text_single = {
-												text = "[GetPlayer.GetTopLiege.GetPrimaryTitle.MakeScope.Var('conservative_yay').GetValue]%"
+												text = "cny_perc"
 												fontsize = 13
 											}
 											text_single = {
-												text = "[GetPlayer.GetTopLiege.GetPrimaryTitle.MakeScope.Var('conservative_nay').GetValue]%"
+												text = "cnn_perc"
 												fontsize = 13
 											}
 										}
@@ -3033,11 +3033,11 @@ window = {
 											layoutpolicy_horizontal = fixed
 											spacing = 50
 											text_single = {
-												text = "[GetPlayer.GetTopLiege.GetPrimaryTitle.MakeScope.Var('reactionary_yay').GetValue]%"
+												text = "ry_perc"
 												fontsize = 13
 											}
 											text_single = {
-												text = "[GetPlayer.GetTopLiege.GetPrimaryTitle.MakeScope.Var('reactionary_nay').GetValue]%"
+												text = "rn_perc"
 												fontsize = 13
 											}
 										}
@@ -3058,11 +3058,11 @@ window = {
 											layoutpolicy_horizontal = fixed
 											spacing = 50
 											text_single = {
-												text = "[GetPlayer.GetTopLiege.GetPrimaryTitle.MakeScope.Var('fascist_yay').GetValue]%"
+												text = "fy_perc"
 												fontsize = 13
 											}
 											text_single = {
-												text = "[GetPlayer.GetTopLiege.GetPrimaryTitle.MakeScope.Var('fascist_nay').GetValue]%"
+												text = "fn_perc"
 												fontsize = 13
 											}
 										}
@@ -3083,11 +3083,11 @@ window = {
 											layoutpolicy_horizontal = fixed
 											spacing = 50
 											text_single = {
-												text = "[GetPlayer.GetTopLiege.GetPrimaryTitle.MakeScope.Var('independent_yay').GetValue]%"
+												text = "iy_perc"
 												fontsize = 13
 											}
 											text_single = {
-												text = "[GetPlayer.GetTopLiege.GetPrimaryTitle.MakeScope.Var('independent_nay').GetValue]%"
+												text = "in_perc"
 												fontsize = 13
 											}
 										}
@@ -3133,11 +3133,11 @@ window = {
 											layoutpolicy_horizontal = fixed
 											spacing = 50
 											text_single = {
-												text = "[GetPlayer.GetTopLiege.GetCapitalLocation.GetCounty.GetTitle.MakeScope.Var('liberal_yay').GetValue]%"
+												text = "ly_cap_perc"
 												fontsize = 13
 											}
 											text_single = {
-												text = "[GetPlayer.GetTopLiege.GetCapitalLocation.GetCounty.GetTitle.MakeScope.Var('liberal_nay').GetValue]%"
+												text = "ln_cap_perc"
 												fontsize = 13
 											}
 										}
@@ -3158,11 +3158,11 @@ window = {
 											layoutpolicy_horizontal = fixed
 											spacing = 50
 											text_single = {
-												text = "[GetPlayer.GetTopLiege.GetCapitalLocation.GetCounty.GetTitle.MakeScope.Var('socialist_yay').GetValue]%"
+												text = "sy_cap_perc"
 												fontsize = 13
 											}
 											text_single = {
-												text = "[GetPlayer.GetTopLiege.GetCapitalLocation.GetCounty.GetTitle.MakeScope.Var('socialist_nay').GetValue]%"
+												text = "sn_cap_perc"
 												fontsize = 13
 											}
 										}
@@ -3183,11 +3183,11 @@ window = {
 											layoutpolicy_horizontal = fixed
 											spacing = 50
 											text_single = {
-												text = "[GetPlayer.GetTopLiege.GetCapitalLocation.GetCounty.GetTitle.MakeScope.Var('communist_yay').GetValue]%"
+												text = "cy_cap_perc"
 												fontsize = 13
 											}
 											text_single = {
-												text = "[GetPlayer.GetTopLiege.GetCapitalLocation.GetCounty.GetTitle.MakeScope.Var('communist_nay').GetValue]%"
+												text = "cn_cap_perc"
 												fontsize = 13
 											}
 										}
@@ -3208,11 +3208,11 @@ window = {
 											layoutpolicy_horizontal = fixed
 											spacing = 50
 											text_single = {
-												text = "[GetPlayer.GetTopLiege.GetCapitalLocation.GetCounty.GetTitle.MakeScope.Var('anarchist_yay').GetValue]%"
+												text = "ay_cap_perc"
 												fontsize = 13
 											}
 											text_single = {
-												text = "[GetPlayer.GetTopLiege.GetCapitalLocation.GetCounty.GetTitle.MakeScope.Var('anarchist_nay').GetValue]%"
+												text = "an_cap_perc"
 												fontsize = 13
 											}
 										}
@@ -3233,11 +3233,11 @@ window = {
 											layoutpolicy_horizontal = fixed
 											spacing = 50
 											text_single = {
-												text = "[GetPlayer.GetTopLiege.GetCapitalLocation.GetCounty.GetTitle.MakeScope.Var('conservative_yay').GetValue]%"
+												text = "cny_cap_perc"
 												fontsize = 13
 											}
 											text_single = {
-												text = "[GetPlayer.GetTopLiege.GetCapitalLocation.GetCounty.GetTitle.MakeScope.Var('conservative_nay').GetValue]%"
+												text = "cnn_cap_perc"
 												fontsize = 13
 											}
 										}
@@ -3258,11 +3258,11 @@ window = {
 											layoutpolicy_horizontal = fixed
 											spacing = 50
 											text_single = {
-												text = "[GetPlayer.GetTopLiege.GetCapitalLocation.GetCounty.GetTitle.MakeScope.Var('reactionary_yay').GetValue]%"
+												text = "ry_cap_perc"
 												fontsize = 13
 											}
 											text_single = {
-												text = "[GetPlayer.GetTopLiege.GetCapitalLocation.GetCounty.GetTitle.MakeScope.Var('reactionary_nay').GetValue]%"
+												text = "rn_cap_perc"
 												fontsize = 13
 											}
 										}
@@ -3283,11 +3283,11 @@ window = {
 											layoutpolicy_horizontal = fixed
 											spacing = 50
 											text_single = {
-												text = "[GetPlayer.GetTopLiege.GetCapitalLocation.GetCounty.GetTitle.MakeScope.Var('fascist_yay').GetValue]%"
+												text = "fy_cap_perc"
 												fontsize = 13
 											}
 											text_single = {
-												text = "[GetPlayer.GetTopLiege.GetCapitalLocation.GetCounty.GetTitle.MakeScope.Var('fascist_nay').GetValue]%"
+												text = "fn_cap_perc"
 												fontsize = 13
 											}
 										}
@@ -3308,11 +3308,11 @@ window = {
 											layoutpolicy_horizontal = fixed
 											spacing = 50
 											text_single = {
-												text = "[GetPlayer.GetTopLiege.GetCapitalLocation.GetCounty.GetTitle.MakeScope.Var('independent_yay').GetValue]%"
+												text = "iy_cap_perc"
 												fontsize = 13
 											}
 											text_single = {
-												text = "[GetPlayer.GetTopLiege.GetCapitalLocation.GetCounty.GetTitle.MakeScope.Var('independent_nay').GetValue]%"
+												text = "in_cap_perc"
 												fontsize = 13
 											}
 										}

@@ -1,124 +1,124 @@
 13231 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13232 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13233 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13234 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13235 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13236 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13237 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13238 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13239 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13240 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13241 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13242 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13243 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13244 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13245 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13246 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13247 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13248 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13249 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13250 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13251 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13252 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13253 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13254 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13255 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13256 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13257 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13258 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13259 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13260 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13261 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }

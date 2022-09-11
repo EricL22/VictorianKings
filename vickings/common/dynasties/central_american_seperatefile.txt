@@ -1,0 +1,89 @@
+#Central American
+
+carrillo = {
+    name = "dynn_Carrillo"
+    culture = "mexican"
+}
+
+montealegre = {
+    name = "dynn_Montealegre"
+    culture = "mexican"
+}
+
+gomez = {
+    name = "dynn_Gomez"
+    culture = "mexican"
+}
+
+barrios = {
+    name = "dynn_Barrios"
+    culture = "mexican"
+}
+
+galvez = {
+    name = "dynn_Galvez"
+    culture = "mexican"
+}
+
+carrera = {
+    name = "dynn_Carrera"
+    culture = "mexican"
+}
+
+rivera = {
+    name = "dynn_Rivera"
+    culture = "mexican"
+}
+
+guardiola = {
+    name = "dynn_Guardiola"
+    culture = "mexican"
+}
+
+zepeda = {
+    name = "dynn_Zepeda"
+    culture = "mexican"
+}
+
+martinez2 = {
+    name = "dynn_Martinez"
+    culture = "mexican"
+}
+
+dios = {
+    prefix = "dynnp_de"
+    name = "dynn_Dios"
+    culture = "castilian"
+}
+
+peinado = {
+    name = "dynn_Peinado"
+    culture = "castilian"
+}
+
+quiroga = {
+    prefix = "dynnp_de"
+    name = "dynn_Quiroga"
+    culture = "castilian"
+}
+
+tornos = {
+    prefix = "dynnp_de"
+    name = "dynn_Tornos"
+    culture = "castilian"
+}
+
+jerez = {
+    name = "dynn_Jerez"
+    culture = "castilian"
+}
+
+gual = {
+    name = "dynn_Gual"
+    culture = "castilian"
+}
+
+arce = {
+    name = "dynn_Arce"
+    culture = "mexican"
+}

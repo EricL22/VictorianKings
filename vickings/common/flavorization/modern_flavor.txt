@@ -178,6 +178,14 @@ duchy_republic_departmental = {
 	governments = { republic_government }
 	heritages = { heritage_frankish }
 }
+duchy_republic_departmental_nl = {
+	type = title
+	tier = duchy
+	top_liege = no
+	priority = 28
+	governments = { republic_government }
+	name_lists = { name_list_mexican }
+}
 duchy_republic_districtual = {
 	type = title
 	tier = duchy

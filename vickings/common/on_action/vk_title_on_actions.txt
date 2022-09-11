@@ -968,7 +968,18 @@ vk_title_gain_effects = {
 		if = {
 			limit = {
 				scope:title = title:k_native_american_confederacy
-				NOT = { primary_title = title:k_native_american_confederacy }
+				scope:transfer_type = flag:inheritance
+				scope:previous_holder = {
+					OR = {
+						death_reason = death_battle
+						death_reason = death_dungeon_passive
+						death_reason = death_wounded_1
+						death_reason = death_wounded_2
+						death_reason = death_wounded_3
+						death_reason = death_maimed
+						death_reason = death_torture_passive
+					}
+				}
 			}
 			destroy_title = title:k_native_american_confederacy
 		}
@@ -980,7 +991,7 @@ vk_title_gain_effects = {
 					count = all
 					has_government = republic_government
 				}
-				top_liege = { has_title = title:e_united_states }
+				top_liege = { has_government = republic_government }	# has_title = title:e_united_states
 				NOT = { has_government = republic_government }
 				scope:title = { tier >= tier_county }
 				OR = {

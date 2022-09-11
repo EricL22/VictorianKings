@@ -2,4 +2,27 @@ k_mexico = {
 	1821.9.28 = {
 		de_jure_liege = e_mexico
 	}
+	1830.1.1 = {
+		effect = { set_capital_county = title:c_toluca }
+	}
+}
+
+k_tlaxcala = {
+	1856.12.9 = {
+		liege = e_mexico
+		government = republic_government
+	}
+	1861.5.6 = {
+		holder = 6420092
+	}
+}
+d_tlaxcala = {
+	1856.12.9 = {
+		de_jure_liege = k_tlaxcala
+	}
+}
+c_tlaxcala = {
+	1824.11.24 = {
+		de_jure_liege = d_tlaxcala
+	}
 }

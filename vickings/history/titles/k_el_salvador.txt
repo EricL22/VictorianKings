@@ -1,5 +1,33 @@
+k_el_salvador = {
+	1823.7.1 = {
+		liege = e_central_america
+		government = republic_government
+	}
+	1835.11.15 = {
+		holder = 6500003
+	}
+	1861.2.7 = {
+		holder = 6500004
+	}
+}
+
 d_san_salvador = {
+	1812.7.5 = {
+		holder = 6500013
+		liege = k_guatemala
+	}
+	1814.1.1 = {
+		holder = 6500014
+	}
 	1823.7.1 = {
 		de_jure_liege = k_el_salvador
+	}
+}
+c_san_salvador = {
+	1835.2.14 = {
+		holder = 6500000
+	}
+	1861.2.7 = {
+		holder = 6500004
 	}
 }

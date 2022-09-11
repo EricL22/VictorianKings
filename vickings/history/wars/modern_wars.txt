@@ -49,3 +49,13 @@ war = {
 	attackers = { 6400003 }
 	defenders = { 9000000 9000104 }
 }
+
+# Texas Revolution
+war = {
+	name = "war_Texas_Rebellion"
+	start_date = 1835.10.2
+	end_date = 1836.4.21
+	casus_belli = independence_war
+	attackers = { 6430006 }
+	defenders = { 6420000 }
+}

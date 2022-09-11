@@ -1,0 +1,5 @@
+﻿l_english:
+# NOTE: while the vanilla game only highlights given names and not dynasty names, the dynasty name played a much greater role in East Asia, hence my decision to highlight them
+ Loc_VK_GetUINameNotMeNoTooltip_firstname_nicknamed:0 "#V [ROOT.Char.GetDynastyHouseNameNoTooltip] [ROOT.Char.GetFirstNameNoTooltip]#! [ROOT.Char.GetNickname]"
+ Loc_VK_GetUINameNotMeNoTooltip_firstname:0 "#V [ROOT.Char.GetDynastyHouseNameNoTooltip] [ROOT.Char.GetFirstNameNoTooltip]#!"
+ Loc_VK_GetUINameNotMeNoTooltip_default:0 "[ROOT.Char.GetUINameNotMeNoTooltip]"

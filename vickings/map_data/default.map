@@ -82,6 +82,7 @@ sea_zones = RANGE { 11329 11335 }
 
 #American Seas
 sea_zones = RANGE { 12715 12726 }
+sea_zones = RANGE { 13471 13488 }
 
 # Non-accessible sea zones
 sea_zones = LIST { 944 1470 }
@@ -145,6 +146,7 @@ river_provinces = RANGE { 11830 11833 }
 river_provinces = RANGE { 11871 11878 }
 river_provinces = RANGE { 11965 12055 }
 river_provinces = RANGE { 12728 12730 }
+river_provinces = RANGE { 13457 13470 }
 
 ########
 # LAKES

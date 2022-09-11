@@ -1,5 +1,27 @@
 k_yucatan = {
+	1812.3.23 = {
+		holder = 6420085
+		liege = e_new_spain
+	}
 	1821.9.28 = {
 		de_jure_liege = e_mexico
+	}
+	1823.12.23 = {
+		liege = e_mexico
+		government = republic_government
+	}
+	1861.6.3 = {
+		holder = 6420087
+	}
+}
+
+d_yucatan = {
+	1835.10.23 = {	# department established
+		holder = 6420086
+		liege = e_mexico
+		government = republic_government
+	}
+	1846.8.22 = {	# department dissolved
+		holder = 0
 	}
 }

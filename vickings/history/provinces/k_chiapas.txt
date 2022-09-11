@@ -1,88 +1,88 @@
 13314 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13315 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13316 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13317 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13318 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13319 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13320 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13321 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13322 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13323 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13324 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13325 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13326 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13327 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13328 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13329 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13330 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13331 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13332 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13333 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13334 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }
 13335 = {
-        culture = castilian
+        culture = mexican
         religion = catholic
 }

@@ -1051,6 +1051,7 @@
  republic_governor_kingdom:0 "State"
  duchy_republic_prefectural:0 "Prefecture"
  duchy_republic_departmental:0 "Department"
+ duchy_republic_departmental_nl:0 "Department"
  duchy_republic_districtual:0 "District"
  duchy_republic_provincial:0 "Province"
  # Manchu

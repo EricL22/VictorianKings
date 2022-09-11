@@ -1,5 +1,31 @@
 k_new_mexico = {
+	1808.1.1 = {
+		holder = 6420023
+		liege = e_new_spain
+	}
+	1814.1.1 = {
+		holder = 6420024
+	}
 	1821.9.28 = {
 		de_jure_liege = e_mexico
+	}
+	1824.10.4 = {	# became a territory of Mexico
+		holder = 0
+	}
+	1848.2.2 = {
+		de_jure_liege = e_united_states
+	}
+}
+
+d_new_mexico = {
+	1824.10.4 = {	# became a territory of Mexico
+		liege = e_mexico
+		government = republic_government
+	}
+	1835.7.1 = {
+		holder = 6420006
+	}
+	1846.9.1 = {	# became a territory of the United States
+		liege = e_united_states
 	}
 }

@@ -2,70 +2,70 @@ Note: if there is no file extension next to an item then it is a folder or a mod
 Obviously, this mod is incompatible with any mod that modifies the map, and so such files related to that are not listed.
 
 common
--bookmarks
---00_bookmarks.txt
--casus_belli_types
---ducal_conquest_cb
---minor_religious_war, religious_war, major_religious_war
--character_interactions
---00_marriage_interactions.txt
---call_ally_interaction
---offer_vassalization_interaction
---release_from_prison_interaction/execute_prisoner_interaction
---declare_war_interaction
--coat_of_arms
---coat_of_arms
----certain definitions within all files
--council_tasks
---task_fabricate_claim
--culture
---most likely not compatible if the mod modifies an existing culture
--decisions
---00_dynasty_decisions.txt
---10_culture_conversion_decisions.txt
--factions
---00_factions.txt
---00_nation_fracturing_faction.txt
---00_populist_faction.txt
--flavorization
---all definitions within new_name_lists_flavor.txt and vanilla_fixed_flavor.txt
--game_rules
---00_game_rules.txt
--governments
---00_government_types.txt
--laws
---00_succession_laws.txt
--on_action
---five_year_playable_pulse (effect)
--pool_character_selectors
---00_city.txt
--religion
---doctrines
----00_doctrines.txt
---holy_sites
----00_holy_sites.txt
---religions
----00_buddhism.txt
----00_christianity.txt
----00_taoism.txt
--script_values
---certain definitions within all files
--scripted_character_templates
---00_pool_repopulation_character_templates.txt
--scripted_effects
---game_rule_exclave_independence_effect
--scripted_rules
---00_rules.txt
--scripted_triggers
---all definitions within 01_councillor/marriage/religious_triggers.txt
--vassal_contracts
---republic.txt
---special_contracts.txt
+...bookmarks
+......00_bookmarks.txt
+...casus_belli_types
+......ducal_conquest_cb
+......minor_religious_war, religious_war, major_religious_war
+...character_interactions
+......all definitions within 01_marriage_interactions.txt
+......call_ally_interaction
+......offer_vassalization_interaction
+......release_from_prison_interaction/execute_prisoner_interaction
+......declare_war_interaction
+...coat_of_arms
+......coat_of_arms
+.........certain definitions within all files
+...council_tasks
+......task_fabricate_claim
+...culture
+......most likely not compatible if the mod modifies an existing culture
+...decisions
+......00_dynasty_decisions.txt
+......10_culture_conversion_decisions.txt
+...factions
+......00_factions.txt
+......00_nation_fracturing_faction.txt
+......00_populist_faction.txt
+...flavorization
+......all definitions within new_name_lists_flavor.txt and vanilla_fixed_flavor.txt
+...game_rules
+......00_game_rules.txt
+...governments
+......00_government_types.txt
+...laws
+......00_succession_laws.txt
+...on_action
+......five_year_playable_pulse (effect)
+...pool_character_selectors
+......00_city.txt
+...religion
+......doctrines
+.........00_doctrines.txt
+......holy_sites
+.........00_holy_sites.txt
+......religions
+.........00_buddhism.txt
+.........00_christianity.txt
+.........00_taoism.txt
+...script_values
+......certain definitions within all files
+...scripted_character_templates
+......00_pool_repopulation_character_templates.txt
+...scripted_effects
+......game_rule_exclave_independence_effect
+...scripted_rules
+......00_rules.txt
+...scripted_triggers
+......all definitions within 01_councillor/marriage/religious_triggers.txt
+...vassal_contracts
+......republic.txt
+......special_contracts.txt
 events
--chancellor_task_1001_new_claim_trigger
+...chancellor_task_1001_new_claim_trigger
 gui
--hud.gui ############# Only line 1641 has been changed, so replace that line when updating
--window_character.gui
--window_my_realm.gui
--shared
---mapmodes.gui
+...hud.gui ############# Only line 1641 has been changed, so replace that line when updating
+...window_character.gui
+...window_my_realm.gui
+...shared
+......mapmodes.gui

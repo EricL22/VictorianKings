@@ -1,9 +1,40 @@
 k_coahuila = {
 	1687.1.1 = {
 		name = new_extremadura
+		liege = e_new_spain
+	}
+	1809.8.18 = {
+		holder = 6420029
+	}
+	1814.5.1 = { # Cordero supposedly held the post but then he would be discontiguous...
+		holder = modern09
 	}
 	1821.9.28 = {
 		de_jure_liege = e_mexico
 		reset_name = yes
+	}
+	1824.5.7 = {
+		liege = e_mexico
+		government = republic_government
+	}
+	1835.8.15 = {
+		holder = 6420052
+	}
+	1835.10.23 = {	# department established
+		holder = 0
+	}
+	1860.4.11 = {
+		holder = 6420053
+	}
+}
+
+d_coahuila = {
+	1835.10.23 = {	# department established
+		holder = 6420052
+		liege = e_mexico
+		government = republic_government
+	}
+	1846.8.22 = {	# department dissolved
+		holder = 0
 	}
 }

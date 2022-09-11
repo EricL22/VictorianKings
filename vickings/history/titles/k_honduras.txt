@@ -1,5 +1,23 @@
+k_honduras = {
+	1823.7.1 = {
+		liege = e_central_america
+		government = republic_government
+	}
+	1833.1.7 = {
+		holder = 6500007
+	}
+	1856.2.17 = {
+		holder = 6500008
+	}
+}
+
 d_honduras = {
+	1812.4.19 = {
+		holder = 6500015
+		liege = k_guatemala
+	}
 	1823.7.1 = {
 		de_jure_liege = k_honduras
+		holder = 0
 	}
 }

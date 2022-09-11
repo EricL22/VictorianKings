@@ -1,4 +1,4 @@
-#  915130 - alternative napoleonic id
+﻿#  915130 - alternative napoleonic id
 # 1000200 - korean
 # 1000400 - viet
 # 5900000 - african
@@ -11,7 +11,8 @@
 # 6400000 - american
 # 6400500 - north american
 # 6420000 - mexican
-# 6450000 - central american
+# 6430000 - texan
+# 6500000 - central american
 # 7000000 - connectors
 # 8000000 - post napoleon
 # 9000000 - napoleonic

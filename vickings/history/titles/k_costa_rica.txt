@@ -1,4 +1,21 @@
+k_costa_rica = {
+	1823.7.1 = {
+		liege = e_central_america
+		government = republic_government
+	}
+	1835.5.5 = {
+		holder = 6500001
+	}
+	1859.8.14 = {
+		holder = 6500002
+	}
+}
+
 d_costa_rica = {
+	1810.12.4 = {
+		holder = 6500012
+		liege = k_guatemala
+	}
 	1823.7.1 = {
 		de_jure_liege = k_costa_rica
 	}

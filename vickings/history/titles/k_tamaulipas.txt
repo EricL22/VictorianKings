@@ -1,9 +1,37 @@
 k_tamaulipas = {
 	1746.7.9 = {
 		name = new_santander
+		liege = e_new_spain
+	}
+	1811.4.15 = {
+		holder = 6420059
 	}
 	1821.9.28 = {
 		de_jure_liege = e_mexico
 		reset_name = yes
+	}
+	1824.2.7 = {
+		liege = e_mexico
+		government = republic_government
+	}
+	1835.9.15 = {
+		holder = 6420060
+	}
+	1835.10.23 = {	# department established
+		holder = 0
+	}
+	1861.7.1 = {
+		holder = 6420061
+	}
+}
+
+d_tamaulipas = {
+	1835.10.23 = {	# department established
+		holder = 6420060
+		liege = e_mexico
+		government = republic_government
+	}
+	1846.8.22 = {	# department dissolved
+		holder = 0
 	}
 }

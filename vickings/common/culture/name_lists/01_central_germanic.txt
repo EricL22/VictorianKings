@@ -5590,7 +5590,7 @@ name_list_pommern = {
 			BR_etislav Casimir Ctibor DobiesL_aw Dobromil Drosuk Dytryk FrantiS_ek GaweL_ Grzegorz Havel Jacenty Jakub Jakusz Janusz Jaromar
 			Jaromil JaromI_r Jaroslav JE_drzej JindR_ich JiR_I_ Jozef Juliusz Kajetan Kamil Karel Kasper Kazimierz Kliment Kolman Kornel KreS_imir KrzesL_aw
 			Krzysztof Lech Leszek Lubomir Lucjan LudvI_k Marek Marian Martin Mateusz Mieszko MikolA_S_ MilosL_aw MiL_osz MirosL_aw MS_cisL_aw MS_ciwO_j
-			OldR_ich OndR_ej Otokar Patryk PaweL_ Piotr Prendota PrzemysL_ PrzybysL_aw Radomil Radomir Radoslav Rostislav Ryszard Sambor Sobiesalv StanisL_aw
+			OldR_ich OndR_ej Otokar Patryk PaweL_ Piotr Prendota PrzemysL_ PrzybysL_aw Radomil Radomir Radoslav Rostislav Ryszard Sambor Sobieslav StanisL_aw
 			Strasz S_wiE_topeL_k S_wiE_tosL_aw Szczepan SzczE_sny Szymon Tadeusz Tomasz Udalrich Urjasz VojtE_ch WacL_aw Walenty WratysL_aw Wawrzyniec VA_clav
 			Wincenty WisL_aw WL_adysL_aw WL_odek WL_odzimierz WL_odzisL_aw Zbigniew ZdenE_k Zdislav Zygmunt
 		}

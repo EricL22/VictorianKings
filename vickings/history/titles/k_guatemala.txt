@@ -1,5 +1,20 @@
 k_guatemala = {
+	1801.7.28 = {
+		holder = 6500018
+		liege = e_new_spain
+	}
+	1811.3.14 = {
+		holder = 6420019
+	}
 	1823.7.1 = {
 		de_jure_liege = e_central_america
+		liege = e_central_america
+		government = republic_government
+	}
+	1831.8.28 = {
+		holder = 6500005
+	}
+	1851.11.6 = {
+		holder = 6500006
 	}
 }

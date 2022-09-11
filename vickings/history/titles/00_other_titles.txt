@@ -5605,6 +5605,9 @@ k_british_east_indies = {
 		holder = 8000038
 	}
 	# 1836.3.4 = {}	# The Lord Auckland
+	1858.8.2 = {
+		holder = 0
+	}
 }
 
 k_travancore = {
@@ -5748,7 +5751,7 @@ e_china = {
 	1820.9.2 = {
 		holder = 6000007
 	}
-	1850.2.25 = {
+	1850.2.26 = {
 		holder = 6000008
 	}
 	1861.8.22 = {
@@ -5890,6 +5893,9 @@ k_hudsons_bay = {
 }
 
 e_new_spain = {
+	1789.10.16 = {
+		holder = 6420025
+	}
 	1810.9.14 = {
 		holder = 6420017
 	}
@@ -5908,17 +5914,23 @@ e_mexico = {
 	1834.3.20 = {
 		holder = 6420000
 	}
+	1858.1.15 = {
+		holder = 6420045
+	}
 }
 
 e_central_america = {
 	1823.7.1 = {
 		government = republic_government
 	}
+	1825.4.29 = {
+		holder = 6500011
+	}
 	1834.1.1 = {
 		effect = { set_capital_county = title:c_san_salvador }
 	}
 	1835.2.14 = {
-		holder = 6450000
+		holder = 6500000
 	}
 	1840.4.1 = {
 		holder = 0

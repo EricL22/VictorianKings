@@ -465,6 +465,7 @@
  republic_governor_kingdom:0 "国"
  duchy_republic_prefectural:0 "县"
  duchy_republic_departmental:0 "省"
+ duchy_republic_departmental_nl:0 "省"
  duchy_republic_provincial:0 "省"
  # Manchu
  baron_feudal_male_manchu:0 "县令"

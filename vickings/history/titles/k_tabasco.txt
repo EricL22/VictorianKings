@@ -1,0 +1,32 @@
+k_tabasco = {
+	1824.2.7 = {
+		liege = e_mexico
+		government = republic_government
+	}
+	1861.3.2 = {
+		holder = 6420091
+	}
+}
+
+d_tabasco = {
+	1810.10.1 = {
+		holder = 6420088
+	}
+	1812.4.1 = {	# necessary to avoid making a new character
+		liege = k_yucatan
+	}
+	1814.2.1 = {
+		holder = 6420089
+	}
+	1824.2.7 = {
+		de_jure_liege = k_tabasco
+	}
+	1835.10.23 = {	# department established
+		holder = 6420090
+		liege = e_mexico
+		government = republic_government
+	}
+	1846.8.22 = {	# department dissolved
+		holder = 0
+	}
+}

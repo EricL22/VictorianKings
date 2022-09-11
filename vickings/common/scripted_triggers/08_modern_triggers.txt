@@ -24,6 +24,7 @@ historical_succession_access_city_succession_law_trigger = {
 		has_title = title:k_dzungaria
 		has_title = title:k_amdo
 		is_spanish_viceroy_trigger = yes
+		top_liege = { is_spanish_viceroy_trigger = yes }
 	}
 }
 
@@ -562,4 +563,23 @@ is_spanish_viceroy_trigger = {
 	OR = {
 		has_title = title:e_new_spain
 	}
+}
+
+is_federal_republic_trigger = {
+	has_government = republic_government
+	any_vassal = {
+		count > 1
+		is_protectorate = no
+		highest_held_title_tier = tier_kingdom
+	}
+}
+
+is_federal_republic_territory = {
+	is_independent_ruler = no
+	liege = {
+		is_federal_republic_trigger = yes
+		is_independent_ruler = yes
+	}
+	is_protectorate = no
+	highest_held_title_tier = tier_duchy
 }

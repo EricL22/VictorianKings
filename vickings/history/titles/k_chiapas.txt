@@ -1,5 +1,32 @@
+k_chiapas = {
+	1823.7.1 = {
+		liege = e_mexico
+		government = republic_government
+	}
+	1859.7.31 = {
+		holder = 6420097
+	}
+}
+
 d_chiapas = {
+	1811.1.1 = {
+		holder = 6420094
+		liege = k_guatemala
+	}
+	1815.1.1 = {
+		holder = 6420095
+	}
 	1823.7.1 = {
 		de_jure_liege = k_chiapas
+	}
+	1835.10.23 = {	# department established
+		liege = e_mexico
+		government = republic_government
+	}
+	1836.1.1 = {
+		holder = 6420096
+	}
+	1846.8.22 = {	# department dissolved
+		holder = 0
 	}
 }

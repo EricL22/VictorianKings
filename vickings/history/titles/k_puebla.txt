@@ -1,0 +1,30 @@
+k_puebla = {
+	1823.12.21 = {
+		liege = e_mexico
+		government = republic_government
+	}
+	1861.3.1 = {
+		holder = 6420069
+	}
+}
+
+d_puebla = {
+	1812.6.1 = {
+		holder = 6420066
+		liege = e_new_spain
+	}
+	1814.9.1 = {
+		holder = 6420067
+	}
+	1823.12.21 = {
+		de_jure_liege = k_puebla
+	}
+	1835.10.23 = {	# department established
+		holder = 6420068
+		liege = e_mexico
+		government = republic_government
+	}
+	1846.8.22 = {	# department dissolved
+		holder = 0
+	}
+}

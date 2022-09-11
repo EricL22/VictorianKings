@@ -1775,6 +1775,8 @@ moderntimes.300 = {
 						OR = {
 							this = title:e_united_states
 							target_is_de_jure_liege_or_above = title:e_united_states
+							this = title:e_mexico
+							target_is_de_jure_liege_or_above = title:e_mexico
 						}
 					}
 					add_to_variable_list = { name = enacted_laws_list target = flag:four_year_term }
@@ -1894,6 +1896,7 @@ moderntimes.302 = {
 				if = {
 					limit = {
 						this = title:e_united_states
+						this = title:e_mexico
 					}
 					add_to_variable_list = { name = enacted_laws_list target = flag:eligibility_state }
 				}

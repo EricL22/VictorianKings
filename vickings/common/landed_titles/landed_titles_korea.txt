@@ -1,6 +1,5 @@
 ﻿e_korea = {
 	color = { 104 125 210 }
-	color2 = { 10 10 10 }
 
 	capital = c_hanseong
 	
@@ -17,7 +16,6 @@
 	
 	k_joseon = {
 		color = { 253 150 74 }
-		color2 = { 20 20 20 }
 
 		capital = c_hanseong
 
@@ -27,7 +25,6 @@
 		
 		d_pyongan = {
 			color = { 94 70 210 }
-			color2 = { 20 20 20 }
 
 			capital = c_pyeongyang
 			
@@ -41,101 +38,84 @@
 			
 			c_pyeongyang = {
 				color = { 94 70 200 }
-				color2 = { 20 20 20 }
 				
 				b_pyeongyang = {
 					province = 10949
 
 					color = { 94 70 200 }
-					color2 = { 20 20 20 }
 				}
 			}
 			c_kanggye = {
 				color = { 70 168 175 }
-				color2 = { 20 20 20 }
 
 				b_kanggye = {
 					province = 10939
 
 					color = { 255 206 40 } # TODO
-					color2 = { 255 255 255 }
 				}
 			}
 		}
 		d_gyeonggi = {
 			color = { 94 190 210 }
-			color2 = { 20 20 20 }
 
 			capital = c_hanseong
 			
 			c_hanseong = {
 				color = { 94 130 220 }
-				color2 = { 20 20 20 }
 				
 				b_hanseong = {
 					province = 10950
 
 					color = { 94 70 200 }
-					color2 = { 20 20 20 }
 				}
 			}
 			c_gaeseong = {
 				color = { 75 160 150 }
-				color2 = {20 20 20}
 				
 				b_gaeseong = {
 					province = 10951
 
 					color = { 94 70 200 }
-					color2 = { 20 20 20 }
 				}
 			}
 			c_suwon = {
 				color = { 94 140 230 }
-				color2 = { 20 20 20 }
 				
 				b_suwon = {
 					province = 10953
 
 					color = { 94 70 200 }
-					color2 = { 20 20 20 }
 				}
 			}
 		}
 		d_hwanghae = {
 			color = { 94 120 210 }
-			color2 = { 20 20 20 }
 
 			capital = c_hwangju
 			
 #			c_haeju = {
 #				color = { 94 120 200 }
-#				color2 = { 20 20 20 }
 #				
 #				b_haeju = {
 #				}
 #			}
 			c_hwangju = {
 				color = { 94 130 190 }
-				color2 = { 20 20 20 }
 				
 				b_hwangju = {
 					province = 10952
 
 					color = { 94 70 200 }
-					color2 = { 20 20 20 }
 				}
 			}
 		}
 		d_yangwang = {
 			color = { 42 24 204 }
-			color2 = { 20 20 20 }
 
 			capital = c_suwon # should be Chungju
 			
 #			c_chungju = {
 #				color = { 94 110 200 }
-#				color2 = { 20 20 20 }
 #				
 #				b_chungju = {
 #				}
@@ -143,82 +123,68 @@
 		}
 		d_chungcheong = {
 			color = { 94 120 190 }
-			color2 = { 20 20 20 }
 			
 			capital = c_cheongju
 			
 			c_cheongju = {
 				color = { 94 120 190 } # TODO
-				color2 = { 20 20 20 } # TODO
 				
 				b_cheongju = {
 					province = 10954
 
 					color = { 94 70 200 }
-					color2 = { 20 20 20 }
 				}
 			}
 			c_gongju = {
 				color = { 94 150 180 }
-				color2 = { 20 20 20 }
 				
 				b_gongju = {
 					province = 10955
 
 					color = { 94 70 200 }
-					color2 = { 20 20 20 }
 				}
 			}
 		}	
 		d_gangwon = {
 			color = { 55 47 122 }
-			color2 = { 20 20 20 }
 
 			capital = c_wonju
 			
 			c_wonju = {
 				color = { 50 180 200}
-				color2 = {20 20 20}
 		
 				b_wonju = {
 					province = 10956
 
 					color = { 94 70 200 }
-					color2 = { 20 20 20 }
 				}
 			}
 			c_gyoju = {
 				color = {60 95 200}
-				color2 = {20 20 20}
 			
 				b_gyoju = {
 					province = 10957
 
 					color = { 94 70 200 }
-					color2 = { 20 20 20 }
 				}
 			}
 			c_gangneung = {
 				color = { 94 95 200 } # TODO
-				color2 = { 20 20 20 } # TODO
 				
 				b_gangneung = {
 					province = 10958
 
 					color = { 94 70 200 }
-					color2 = { 20 20 20 }
 				}
 			}
 		}
 		d_samcheok = {
 			color = { 94 95 200 } # TODO
-			color2 = { 20 20 20 } # TODO
 			
 			capital = c_gangneung # should be Samcheok
 			
 #			c_samcheok = {
 #				color = { 94 95 200 } # TODO
-#				color2 = { 20 20 20 } # TODO
 #	
 #				b_samcheok = {
 #					coat_of_arms = {
@@ -230,188 +196,155 @@
 		}
 		d_hamgyong = {
 			color = { 85 158 145 }
-			color2 = { 20 20 20 }
 			
 			capital = c_chongjin
 			
 			c_chongjin = {
 				color = { 70 148 155 }
-				color2 = { 20 20 20 }
 				
 				b_chongjin = {
 					province = 10940
 
 					color = { 255 206 40 } # TODO
-					color2 = { 255 255 255 }
 				}
 			}
 			c_deungju = {
 				color = {0 95 200}
-				color2 = {20 20 20}
 	
 				b_deungju = {
 					province = 10959
 
 					color = { 94 70 200 }
-					color2 = { 20 20 20 }
 				}
 			}
 			c_hamhung = {
 				color = { 94 130 190 }
-				color2 = { 20 20 20 }
 				
 				b_hamhung = {
 					province = 11033
 
 					color = { 94 70 200 }
-					color2 = { 20 20 20 }
 				}
 			}
 			c_tanchon = {
 				color = { 94 130 190 }
-				color2 = { 20 20 20 }
 				
 				b_tanchon = {
 					province = 11034
 
 					color = { 94 70 200 }
-					color2 = { 20 20 20 }
 				}
 			}
 			c_changjin = {
 				color = { 94 130 190 }
-				color2 = { 20 20 20 }
 				
 				b_changjin = {
 					province = 11035
 
 					color = { 94 70 200 }
-					color2 = { 20 20 20 }
 				}
 			}
 			c_hyesan = {
 				color = { 94 130 190 }
-				color2 = { 20 20 20 }
 				
 				b_hyesan = {
 					province = 11036
 
 					color = { 94 70 200 }
-					color2 = { 20 20 20 }
 				}
 			}
 		}
 		d_muju = {
 			color = { 70 168 155 }
-			color2 = { 20 20 20 }
 
 			capital = c_muju
 		}
 		d_jeolla = {
 			color = { 94 115 200 }
-			color2 = { 20 20 20 }
 			
 			capital = c_jeonju
 			
 			c_jeonju = {
 				color = { 94 115 200 }
-				color2 = { 20 20 20 }
 
 				b_jeonju = {
 					province = 10948
 
 					color = { 94 70 200 }
-					color2 = { 20 20 20 }
 				}
 			}
 			c_muju = {
 				color = {128 147 180} # TODO
-				color2 = {20 20 20} # TODO
 
 				b_muju = {
 					province = 10947
 
 					color = { 94 70 200 }
-					color2 = { 20 20 20 }
 				}
 			}
 			c_jeju = {
 				color = { 94 170 180 }
-				color2 = { 20 20 20 }
 				
 				b_jeju = {
 					province = 11032
 
 					color = { 94 70 200 }
-					color2 = { 20 20 20 }
 				}
 			}
 		}
 		d_gyeongsang = {
 			color = { 94 90 220 }
-			color2 = { 20 20 20 }
 
 			capital = c_gyeongju
 	
 			c_gyeongju = {
 				color = {90 90 250 }
-				color2 = {20 20 20}
 			
 				b_gyeongju = {
 					province = 10960
 
 					color = { 94 70 200 }
-					color2 = { 20 20 20 }
 				}
 			}
 			c_uljin = {	# aka Yeju
 				color = {94 90 140 }
-				color2 = {20 20 20}
 	
 				b_uljin = {
 					province = 10961
 
 					color = { 94 70 200 }
-					color2 = { 20 20 20 }
 				}
 			}
 			c_sangju = {
 				color = { 94 90 200 }
-				color2 = { 20 20 20 }
 				
 				b_sangju = {
 					province = 10962
 
 					color = { 94 70 200 }
-					color2 = { 20 20 20 }
 				}
 			}
 			c_yangju = {
 				color = { 94 140 180 }
-				color2 = { 20 20 20 }
 				
 				b_yangju = {
 					province = 10963
 
 					color = { 94 70 200 }
-					color2 = { 20 20 20 }
 				}
 			}
 			c_jinju = {
 				color = { 94 80 190 }
-				color2 = { 20 20 20 }
 				
 				b_jinju = {
 					province = 10964
 
 					color = { 94 70 200 }
-					color2 = { 20 20 20 }
 				}
 			}	
 		}
 		d_sangju = {
 			color = { 44 70 175 }
-			color2 = { 20 20 25 }
 			
 			capital = c_sangju
 		}

@@ -1,0 +1,29 @@
+k_chihuahua = {
+	1824.7.6 = {
+		liege = e_mexico
+		government = republic_government
+	}
+	1834.9.18 = {
+		holder = 6420040
+	}
+	1835.10.23 = {	# department established
+		holder = 0
+	}
+	1860.9.21 = {
+		holder = 6420041
+	}
+}
+
+d_chihuahua = {
+	1824.7.6 = {
+		de_jure_liege = k_chihuahua
+	}
+	1835.10.23 = {	# department established
+		holder = 6420040
+		liege = e_mexico
+		government = republic_government
+	}
+	1846.8.22 = {	# department dissolved
+		holder = 0
+	}
+}

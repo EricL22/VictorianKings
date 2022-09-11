@@ -1,4 +1,4 @@
-c_lekborysuf = {
+c_cheyenne = {
 	1808.1.1 = {
 		holder = nativeamerican18
 	}

@@ -1,5 +1,23 @@
 k_texas = {
+	1808.11.7 = {
+		holder = 6430008
+		liege = e_new_spain
+	}
+	1815.7.8 = {	# de jure 7.20
+		holder = 6430009
+	}
 	1821.9.28 = {
+		liege = e_mexico
 		de_jure_liege = e_mexico
+	}
+	1835.10.2 = {
+		holder = 6430006
+		government = republic_government
+	}
+	1845.12.29 = {
+		liege = e_united_states
+	}
+	1848.2.2 = {
+		de_jure_liege = e_united_states
 	}
 }

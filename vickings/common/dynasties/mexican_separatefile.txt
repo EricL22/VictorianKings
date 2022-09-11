@@ -1,99 +1,352 @@
-santa_anna = {
+﻿santa_anna = {
     name = "dynn_Santa_Anna"
-    culture = "castilian"
+    culture = "mexican"
 }
 
 bustamante = {
     name = "dynn_Bustamante"
-    culture = "castilian"
+    culture = "mexican"
 }
 
 bravo = {
     name = "dynn_Bravo"
-    culture = "castilian"
+    culture = "mexican"
 }
 
 alvarez = {
     name = "dynn_Alvarez"
-    culture = "castilian"
+    culture = "mexican"
 }
 
 chico = {
     name = "dynn_Chico"
-    culture = "castilian"
+    culture = "mexican"
 }
 
 alvarado = {
     name = "dynn_Alvarado"
-    culture = "castilian"
+    culture = "mexican"
 }
 
 perez = {
     name = "dynn_Perez"
-    culture = "castilian"
+    culture = "mexican"
 }
 
 urrea = {
     prefix = "dynnp_de"
     name = "dynn_Urrea"
-    culture = "castilian"
+    culture = "mexican"
 }
 
 victoria = {
     name = "dynn_Victoria"
-    culture = "castilian"
+    culture = "mexican"
 }
 
 pedraza = {
     name = "dynn_Pedraza"
-    culture = "castilian"
+    culture = "mexican"
 }
 
 gutierrez = {
     name = "dynn_Gutierrez"
-    culture = "castilian"
+    culture = "mexican"
 }
-
 
 rayon = {
     name = "dynn_Rayon"
-    culture = "castilian"
+    culture = "mexican"
 }
-
 
 guerrero = {
     name = "dynn_Guerrero"
-    culture = "castilian"
+    culture = "mexican"
 }
 
 morelos = {
     name = "dynn_Morelos"
-    culture = "castilian"
+    culture = "mexican"
 }
 
 iturbide = {
     prefix = "dynnp_de"
     name = "dynn_Iturbide"
-    culture = "castilian"
+    culture = "mexican"
 }
 
 mexia = {
     name = "dynn_Mexia"
-    culture = "castilian"
+    culture = "mexican"
 }
 
 zavala = {
     prefix = "dynnp_de"
     name = "dynn_Zavala"
+    culture = "mexican"
+}
+
+aceituno = {
+    name = "dynn_Aceituno"
+    culture = "mexican"
+}
+
+corzo = {
+    name = "dynn_Corzo"
+    culture = "mexican"
+}
+
+junquito = {
+    name = "dynn_Junquito"
     culture = "castilian"
 }
 
+suasnavar = {
+    name = "dynn_Suasnavar"
+    culture = "castilian"
+}
+
+#Mexican 1861
+
+juarez = {
+    name = "dynn_Juarez"
+    culture = "mexican"
+}
+
+diaz = {
+    name = "dynn_Diaz"
+    culture = "mexican"
+}
+
+######
 venegas = {
     name = "dynn_Venegas"
-    culture = "castilian"
+    culture = "mexican"
 }
 
 calleja = {
     name = "dynn_Calleja"
-    culture = "castilian"
+    culture = "mexican"
+}
+
+gutierrez2 = {
+    name = "dynn_Gutierrez"
+    culture = "mexican"
+}
+
+martinez = {
+    name = "dynn_Martinez"
+    culture = "mexican"
+}
+
+garcia = {
+    name = "dynn_Garcia"
+    culture = "mexican"
+}
+
+escalante = {
+    name = "dynn_Escalante"
+    culture = "mexican"
+}
+
+sanchez = {
+    name = "dynn_Sanchez"
+    culture = "mexican"
+}
+
+moreno = {
+    name = "dynn_Moreno"
+    culture = "mexican"
+}
+
+pesqueira = {
+    name = "dynn_Pesqueira"
+    culture = "mexican"
+}
+
+vega = {
+    name = "dynn_Vega"
+    culture = "mexican"
+}
+
+garcia_rojas = {
+    name = "dynn_Garcia_Rojas"
+    culture = "mexican"
+}
+
+avila = {
+    name = "dynn_Avila"
+    culture = "mexican"
+}
+
+esparza = {
+    name = "dynn_Esparza"
+    culture = "mexican"
+}
+
+patoni = {
+    name = "dynn_Patoni"
+    culture = "mexican"
+}
+
+calvo = {
+    name = "dynn_Calvo"
+    culture = "mexican"
+}
+
+terrazas = {
+    name = "dynn_Terrazas"
+    culture = "mexican"
+}
+
+escobedo = {
+    name = "dynn_Escobedo"
+    culture = "mexican"
+}
+
+ogazon = {
+    name = "dynn_Ogazon"
+    culture = "mexican"
+}
+
+villegas = {
+    prefix = "dynnp_de"
+    name = "dynn_Villegas"
+    culture = "mexican"
+}
+
+gonzalez_ortega = {
+    name = "dynn_Gonzalez_Ortega"
+    culture = "mexican"
+}
+
+eca = {
+    name = "dynn_Eca"
+    culture = "mexican"
+}
+
+vidaurri = {
+    name = "dynn_Vidaurri"
+    culture = "mexican"
+}
+
+garza = {
+    prefix = "dynnp_de_la"
+    name = "dynn_Garza"
+    culture = "mexican"
+}
+
+fernandez = {
+    name = "dynn_Fernandez"
+    culture = "mexican"
+}
+
+ortiz = {
+    name = "dynn_Ortiz"
+    culture = "mexican"
+}
+
+munoz = {
+    prefix = "dynnp_de"
+    name = "dynn_Munoz"
+    culture = "mexican"
+}
+
+llave = {
+    prefix = "dynnp_de_la"
+    name = "dynn_Llave"
+    culture = "mexican"
+}
+
+rincon = {
+    name = "dynn_Rincon"
+    culture = "mexican"
+}
+
+alatriste = {
+    prefix = "dynnp_de"
+    name = "dynn_Alatriste"
+    culture = "mexican"
+}
+
+lopez_ortigoza = {
+    name = "dynn_Lopez_Ortigoza"
+    culture = "mexican"
+}
+
+cajiga = {
+    name = "dynn_Cajiga"
+    culture = "mexican"
+}
+
+mendez = {
+    name = "dynn_Mendez"
+    culture = "mexican"
+}
+
+huerta = {
+    name = "dynn_Huerta"
+    culture = "mexican"
+}
+
+urbina = {
+    name = "dynn_Urbina"
+    culture = "mexican"
+}
+
+doblado = {
+    name = "dynn_Doblado"
+    culture = "mexican"
+}
+
+dominguez = {
+    name = "dynn_Dominguez"
+    culture = "mexican"
+}
+
+escandon = {
+    name = "dynn_Escandon"
+    culture = "mexican"
+}
+
+canalizo = {
+    name = "dynn_Canalizo"
+    culture = "mexican"
+}
+
+arteaga = {
+    name = "dynn_Arteaga"
+    culture = "mexican"
+}
+
+paula = {
+    prefix = "dynnp_de"
+    name = "dynn_Paula"
+    culture = "mexican"
+}
+
+acereto = {
+    name = "dynn_Acereto"
+    culture = "mexican"
+}
+
+santa_maria = {
+    name = "dynn_Santa_Maria"
+    culture = "mexican"
+}
+
+jesus_serra = {
+    prefix = "dynnp_de"
+    name = "dynn_Jesus_Serra"
+    culture = "mexican"
+}
+
+saldana = {
+    name = "dynn_Saldana"
+    culture = "mexican"
+}
+
+gomez2 = {
+    name = "dynn_Gomez"
+    culture = "mexican"
 }
