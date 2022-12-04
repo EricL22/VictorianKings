@@ -3,7 +3,10 @@ Obviously, this mod is incompatible with any mod that modifies the map, and so s
 
 common
 ...bookmarks
-......00_bookmarks.txt
+......bookmarks
+.........00_bookmarks.txt
+......groups
+.........00_bookmark_groups.txt
 ...casus_belli_types
 ......ducal_conquest_cb
 ......minor_religious_war, religious_war, major_religious_war

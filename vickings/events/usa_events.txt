@@ -122,17 +122,17 @@ united_states.2 = {
 					OR = {
 						AND = {
 							scope:low_concessions = yes
-							scope:recipient = { var:count_transferred = { compare_value < 1 } }
+							scope:recipient = { var:count_transferred < 1 }
 						}
 						AND = {
 							exists = scope:medium_concessions
 							scope:medium_concessions = yes
-							scope:recipient = { var:count_transferred = { compare_value < 3 } }
+							scope:recipient = { var:count_transferred < 3 }
 						}
 						AND = {
 							exists = scope:high_concessions
 							scope:high_concessions = yes
-							scope:recipient = { var:count_transferred = { compare_value < 6 } }
+							scope:recipient = { var:count_transferred < 6 }
 						}
 					}
 					is_leased_out = no

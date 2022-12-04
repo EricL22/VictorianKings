@@ -19,6 +19,12 @@
 		}
 		NOT = { var:escaped_imprisonment_from = $COURT_OWNER$ }
 	}
+	trigger_if = { # An excommunicated ruler tolerate excommunicated bishops
+		limit = {
+			$COURT_OWNER$ = { NOT = { has_trait = excommunicated } }
+		}
+		NOT = { has_trait = excommunicated }
+	}
 	trigger_if = {
 		limit = {
 			$COURT_OWNER$ = { is_ai = yes }

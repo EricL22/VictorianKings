@@ -1,3 +1,5 @@
+0.4.5----------
+Fixed compatibility for the 1.8 update
 0.4.4---------- (Commit c544d95)
 Fixed compatibility for the 1.7 update
 Republics will no longer have primogeniture succession on game start
