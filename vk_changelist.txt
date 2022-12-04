@@ -1,4 +1,4 @@
-0.4.5----------
+0.4.5---------- (Commit 10155b5)
 Fixed compatibility for the 1.8 update
 0.4.4---------- (Commit c544d95)
 Fixed compatibility for the 1.7 update
