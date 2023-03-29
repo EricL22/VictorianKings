@@ -11,6 +11,8 @@ United States territorial conquest now automatically puts conquered territories 
 Added cultural innovation to increase diplomatic range, especially useful for America
 Added a heightmap for the Maldives
 Replaced the boring vanilla music with handpicked era-appropriate pieces
+0.4.5---------- (Commit 10155b5)
+Fixed compatibility for the 1.8 update
 0.4.4---------- (Commit c544d95)
 Fixed compatibility for the 1.7 update
 Republics will no longer have primogeniture succession on game start

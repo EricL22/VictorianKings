@@ -752,7 +752,15 @@ initialize_global_election_terms = {
 			years = 6
 		}
 		trigger_event = {
+			on_action = leg_six_year_elections
+			years = 6
+		}
+		trigger_event = {
 			on_action = five_year_elections
+			years = 5
+		}
+		trigger_event = {
+			on_action = leg_five_year_elections
 			years = 5
 		}
 		if = {
@@ -766,11 +774,53 @@ initialize_global_election_terms = {
 				on_action = four_year_elections
 				years = 1
 			}
+			trigger_event = {
+				on_action = leg_four_year_elections
+				years = 1
+			}
+		}
+		else_if = {
+			limit = { game_start_date = 1861.7.1 }
+			trigger_event = {
+				on_action = four_year_elections
+				years = 3
+			}
+			trigger_event = {
+				on_action = leg_four_year_elections
+				years = 3
+			}
 		}
 		else = {
 			trigger_event = {
 				on_action = four_year_elections
 				years = 4
+			}
+			trigger_event = {
+				on_action = leg_four_year_elections
+				years = 4
+			}
+		}
+		trigger_event = {
+			on_action = leg_three_year_elections
+			years = 3
+		}
+		if = {
+			limit = {
+				OR = {
+					game_start_date = 1815.7.8
+					game_start_date = 1836.1.1
+					game_start_date = 1861.7.1
+				}
+			}
+			trigger_event = {
+				on_action = leg_two_year_elections
+				months = 8
+			}
+		}
+		else = {
+			trigger_event = {
+				on_action = leg_two_year_elections
+				months = 20
 			}
 		}
 	}
@@ -1712,23 +1762,23 @@ update_slavery_modifiers_effect = {
 	if = {
 		limit = {
 			has_variable = slavery_percent
-			var:slavery_percent = { compare_value > 0 }
+			var:slavery_percent > 0
 		}
 		if = {
 			limit = {
-				var:slavery_percent = { compare_value < 0.1 }
+				var:slavery_percent < 0.1
 			}
 			add_county_modifier = negligible_slavery_modifier
 		}
 		else_if = {
 			limit = {
-				var:slavery_percent = { compare_value < 0.3 }
+				var:slavery_percent < 0.3
 			}
 			add_county_modifier = minority_slavery_modifier
 		}
 		else_if = {
 			limit = {
-				var:slavery_percent = { compare_value < 0.75 }
+				var:slavery_percent < 0.75
 			}
 			add_county_modifier = commonplace_slavery_modifier
 		}
@@ -1776,7 +1826,10 @@ evaluate_vote_count_effect = {
 		}
 	}
 	else_if = {
-		limit = { root.primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:vote_system_two_party } } }
+		limit = {
+			root.primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:vote_system_two_party } }
+			tier = tier_county
+		}
 		if = {
 			limit = { has_dominant_ideology_trigger = { VAR = var:liberal_value } }
 			save_scope_value_as = { name = liberal_copy value = { value = scope:liberal_copy add = var:liberal_value } }
@@ -1863,43 +1916,43 @@ evaluate_vote_count_effect = {
 				}
 			}
 			if = {
-				limit = { has_dominant_ideology_jeff_trigger = { VAR = var:liberal_jeff } }
+				limit = { has_dominant_ideology_suffix_trigger = { VAR = var:liberal_jeff SUFFIX = _jeff } }
 				change_variable = { name = liberal_jeff divide = var:jeff_factor }
 				save_scope_value_as = { name = liberal_copy value = { value = scope:liberal_copy add = var:liberal_jeff } }
 				remove_variable = liberal_jeff
 			}
 			else_if = {
-				limit = { has_dominant_ideology_jeff_trigger = { VAR = var:conservative_jeff } }
+				limit = { has_dominant_ideology_suffix_trigger = { VAR = var:conservative_jeff SUFFIX = _jeff } }
 				change_variable = { name = conservative_jeff divide = var:jeff_factor }
 				save_scope_value_as = { name = conservative_copy value = { value = scope:conservative_copy add = var:conservative_jeff } }
 				remove_variable = conservative_jeff
 			}
 			else_if = {
-				limit = { has_dominant_ideology_jeff_trigger = { VAR = var:socialist_jeff } }
+				limit = { has_dominant_ideology_suffix_trigger = { VAR = var:socialist_jeff SUFFIX = _jeff } }
 				change_variable = { name = socialist_jeff divide = var:jeff_factor }
 				save_scope_value_as = { name = socialist_copy value = { value = scope:socialist_copy add = var:socialist_jeff } }
 				remove_variable = socialist_jeff
 			}
 			else_if = {
-				limit = { has_dominant_ideology_jeff_trigger = { VAR = var:reactionary_jeff } }
+				limit = { has_dominant_ideology_suffix_trigger = { VAR = var:reactionary_jeff SUFFIX = _jeff } }
 				change_variable = { name = reactionary_jeff divide = var:jeff_factor }
 				save_scope_value_as = { name = reactionary_copy value = { value = scope:reactionary_copy add = var:reactionary_jeff } }
 				remove_variable = reactionary_jeff
 			}
 			else_if = {
-				limit = { has_dominant_ideology_jeff_trigger = { VAR = var:fascist_jeff } }
+				limit = { has_dominant_ideology_suffix_trigger = { VAR = var:fascist_jeff SUFFIX = _jeff } }
 				change_variable = { name = fascist_jeff divide = var:jeff_factor }
 				save_scope_value_as = { name = fascist_copy value = { value = scope:fascist_copy add = var:fascist_jeff } }
 				remove_variable = fascist_jeff
 			}
 			else_if = {
-				limit = { has_dominant_ideology_jeff_trigger = { VAR = var:communist_jeff } }
+				limit = { has_dominant_ideology_suffix_trigger = { VAR = var:communist_jeff SUFFIX = _jeff } }
 				change_variable = { name = communist_jeff divide = var:jeff_factor }
 				save_scope_value_as = { name = communist_copy value = { value = scope:communist_copy add = var:communist_jeff } }
 				remove_variable = communist_jeff
 			}
 			else_if = {
-				limit = { has_dominant_ideology_jeff_trigger = { VAR = var:anarchist_jeff } }
+				limit = { has_dominant_ideology_suffix_trigger = { VAR = var:anarchist_jeff SUFFIX = _jeff } }
 				change_variable = { name = anarchist_jeff divide = var:jeff_factor }
 				save_scope_value_as = { name = anarchist_copy value = { value = scope:anarchist_copy add = var:anarchist_jeff } }
 				remove_variable = anarchist_jeff
@@ -1939,14 +1992,29 @@ evaluate_vote_apportionment_effect = {
 			add = var:independent_value
 		}
 	}
+	if = {
+		limit = { root.primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:apportionment_mixed } } }
+		save_scope_value_as = { name = liberal_uppercopy value = 0 }
+		save_scope_value_as = { name = socialist_uppercopy value = 0 }
+		save_scope_value_as = { name = reactionary_uppercopy value = 0 }
+		save_scope_value_as = { name = fascist_uppercopy value = 0 }
+		save_scope_value_as = { name = conservative_uppercopy value = 0 }
+		save_scope_value_as = { name = communist_uppercopy value = 0 }
+		save_scope_value_as = { name = anarchist_uppercopy value = 0 }
+		save_scope_value_as = { name = independent_uppercopy value = 0 }
+	}
 
 	if = {
-		limit = { var:total_value = { compare_value > 0 } }
+		limit = { var:total_value > 0 }
 		if = {
 			limit = { has_dominant_ideology_trigger = { VAR = var:liberal_value } }
 			if = {
 				limit = { root.primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:apportionment_equal } } }
 				root.primary_title = { change_variable = { name = liberal_pievalue add = 100 } change_variable = { name = liberal_absvalue add = 100 } }
+			}
+			if = {
+				limit = { root.primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:apportionment_mixed } } }
+				save_scope_value_as = { name = liberal_uppercopy value = { value = scope:liberal_uppercopy add = 100 } }
 			}
 			var:liberal_value = { remove_from_list = appcalc_values }
 		}
@@ -1956,6 +2024,10 @@ evaluate_vote_apportionment_effect = {
 				limit = { root.primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:apportionment_equal } } }
 				root.primary_title = { change_variable = { name = conservative_pievalue add = 100 } change_variable = { name = conservative_absvalue add = 100 } }
 			}
+			if = {
+				limit = { root.primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:apportionment_mixed } } }
+				save_scope_value_as = { name = conservative_uppercopy value = { value = scope:conservative_uppercopy add = 100 } }
+			}
 			var:conservative_value = { remove_from_list = appcalc_values }
 		}
 		else_if = {
@@ -1963,6 +2035,10 @@ evaluate_vote_apportionment_effect = {
 			if = {
 				limit = { root.primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:apportionment_equal } } }
 				root.primary_title = { change_variable = { name = socialist_pievalue add = 100 } change_variable = { name = socialist_absvalue add = 100 } }
+			}
+			if = {
+				limit = { root.primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:apportionment_mixed } } }
+				save_scope_value_as = { name = socialist_uppercopy value = { value = scope:socialist_uppercopy add = 100 } }
 			}
 			var:socialist_value = { remove_from_list = appcalc_values }
 		}
@@ -1972,6 +2048,10 @@ evaluate_vote_apportionment_effect = {
 				limit = { root.primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:apportionment_equal } } }
 				root.primary_title = { change_variable = { name = reactionary_pievalue add = 100 } change_variable = { name = reactionary_absvalue add = 100 } }
 			}
+			if = {
+				limit = { root.primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:apportionment_mixed } } }
+				save_scope_value_as = { name = reactionary_uppercopy value = { value = scope:reactionary_uppercopy add = 100 } }
+			}
 			var:reactionary_value = { remove_from_list = appcalc_values }
 		}
 		else_if = {
@@ -1979,6 +2059,10 @@ evaluate_vote_apportionment_effect = {
 			if = {
 				limit = { root.primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:apportionment_equal } } }
 				root.primary_title = { change_variable = { name = fascist_pievalue add = 100 } change_variable = { name = fascist_absvalue add = 100 } }
+			}
+			if = {
+				limit = { root.primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:apportionment_mixed } } }
+				save_scope_value_as = { name = fascist_uppercopy value = { value = scope:fascist_uppercopy add = 100 } }
 			}
 			var:fascist_value = { remove_from_list = appcalc_values }
 		}
@@ -1988,6 +2072,10 @@ evaluate_vote_apportionment_effect = {
 				limit = { root.primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:apportionment_equal } } }
 				root.primary_title = { change_variable = { name = communist_pievalue add = 100 } change_variable = { name = communist_absvalue add = 100 } }
 			}
+			if = {
+				limit = { root.primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:apportionment_mixed } } }
+				save_scope_value_as = { name = communist_uppercopy value = { value = scope:communist_uppercopy add = 100 } }
+			}
 			var:communist_value = { remove_from_list = appcalc_values }
 		}
 		else_if = {
@@ -1996,6 +2084,10 @@ evaluate_vote_apportionment_effect = {
 				limit = { root.primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:apportionment_equal } } }
 				root.primary_title = { change_variable = { name = anarchist_pievalue add = 100 } change_variable = { name = anarchist_absvalue add = 100 } }
 			}
+			if = {
+				limit = { root.primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:apportionment_mixed } } }
+				save_scope_value_as = { name = anarchist_uppercopy value = { value = scope:anarchist_uppercopy add = 100 } }
+			}
 			var:anarchist_value = { remove_from_list = appcalc_values }
 		}
 		else_if = {
@@ -2003,6 +2095,10 @@ evaluate_vote_apportionment_effect = {
 			if = {
 				limit = { root.primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:apportionment_equal } } }
 				root.primary_title = { change_variable = { name = independent_pievalue add = 100 } change_variable = { name = independent_absvalue add = 100 } }
+			}
+			if = {
+				limit = { root.primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:apportionment_mixed } } }
+				save_scope_value_as = { name = independent_uppercopy value = { value = scope:independent_uppercopy add = 100 } }
 			}
 			var:independent_value = { remove_from_list = appcalc_values }
 		}
@@ -2028,6 +2124,10 @@ evaluate_vote_apportionment_effect = {
 				save_scope_value_as = { name = total_dev value = { value = scope:total_dev add = development_level } }
 			}
 		}
+		if = {	# placeholder dev until I can fill out history
+			limit = { scope:total_dev = 0 }
+			save_scope_value_as = { name = total_dev value = 1 }
+		}
 		save_scope_value_as = { name = liberal_copy value = { value = var:liberal_prop multiply = scope:total_dev } }
 		save_scope_value_as = { name = socialist_copy value = { value = var:socialist_prop multiply = scope:total_dev } }
 		save_scope_value_as = { name = reactionary_copy value = { value = var:reactionary_prop multiply = scope:total_dev } }
@@ -2037,12 +2137,25 @@ evaluate_vote_apportionment_effect = {
 		save_scope_value_as = { name = anarchist_copy value = { value = var:anarchist_prop multiply = scope:total_dev } }
 		save_scope_value_as = { name = independent_copy value = { value = var:independent_prop multiply = scope:total_dev } }
 
+		# save the above values separately to evaluate gridlock
+		if = {
+			limit = { root.primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:apportionment_mixed } } }
+			save_scope_value_as = { name = liberal_lowercopy value = scope:liberal_copy }
+			save_scope_value_as = { name = socialist_lowercopy value = scope:socialist_copy }
+			save_scope_value_as = { name = reactionary_lowercopy value = scope:reactionary_copy }
+			save_scope_value_as = { name = conservative_lowercopy value = scope:conservative_copy }
+			save_scope_value_as = { name = fascist_lowercopy value = scope:fascist_copy }
+			save_scope_value_as = { name = communist_lowercopy value = scope:communist_copy }
+			save_scope_value_as = { name = anarchist_lowercopy value = scope:anarchist_copy }
+			save_scope_value_as = { name = independent_lowercopy value = scope:independent_copy }
+		}
+
 		if = {
 			limit = {
 				OR = {
 					AND = {
 						root = { can_pass_sovereign_power_laws_trigger = no }
-						var:liberal_prop = { compare_value > 0.33 }
+						var:liberal_prop > 0.33
 					}
 					AND = {
 						root = { can_pass_sovereign_power_laws_trigger = yes }
@@ -2058,6 +2171,7 @@ evaluate_vote_apportionment_effect = {
 			else_if = {
 				limit = { root.primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:apportionment_mixed } } }
 				save_scope_value_as = { name = liberal_copy value = { value = scope:liberal_copy multiply = 1.3 } }
+				save_scope_value_as = { name = liberal_uppercopy value = { value = scope:liberal_uppercopy add = 100 } }
 			}
 		}
 		else_if = {
@@ -2065,7 +2179,7 @@ evaluate_vote_apportionment_effect = {
 				OR = {
 					AND = {
 						root = { can_pass_sovereign_power_laws_trigger = no }
-						var:conservative_prop = { compare_value > 0.33 }
+						var:conservative_prop > 0.33
 					}
 					AND = {
 						root = { can_pass_sovereign_power_laws_trigger = yes }
@@ -2081,6 +2195,7 @@ evaluate_vote_apportionment_effect = {
 			else_if = {
 				limit = { root.primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:apportionment_mixed } } }
 				save_scope_value_as = { name = conservative_copy value = { value = scope:conservative_copy multiply = 1.3 } }
+				save_scope_value_as = { name = conservative_uppercopy value = { value = scope:conservative_uppercopy add = 100 } }
 			}
 		}
 		else_if = {
@@ -2088,7 +2203,7 @@ evaluate_vote_apportionment_effect = {
 				OR = {
 					AND = {
 						root = { can_pass_sovereign_power_laws_trigger = no }
-						var:socialist_prop = { compare_value > 0.33 }
+						var:socialist_prop > 0.33
 					}
 					AND = {
 						root = { can_pass_sovereign_power_laws_trigger = yes }
@@ -2104,6 +2219,7 @@ evaluate_vote_apportionment_effect = {
 			else_if = {
 				limit = { root.primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:apportionment_mixed } } }
 				save_scope_value_as = { name = socialist_copy value = { value = scope:socialist_copy multiply = 1.3 } }
+				save_scope_value_as = { name = socialist_uppercopy value = { value = scope:socialist_uppercopy add = 100 } }
 			}
 		}
 		else_if = {
@@ -2111,7 +2227,7 @@ evaluate_vote_apportionment_effect = {
 				OR = {
 					AND = {
 						root = { can_pass_sovereign_power_laws_trigger = no }
-						var:reactionary_prop = { compare_value > 0.33 }
+						var:reactionary_prop > 0.33
 					}
 					AND = {
 						root = { can_pass_sovereign_power_laws_trigger = yes }
@@ -2127,6 +2243,7 @@ evaluate_vote_apportionment_effect = {
 			else_if = {
 				limit = { root.primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:apportionment_mixed } } }
 				save_scope_value_as = { name = reactionary_copy value = { value = scope:reactionary_copy multiply = 1.3 } }
+				save_scope_value_as = { name = reactionary_uppercopy value = { value = scope:reactionary_uppercopy add = 100 } }
 			}
 		}
 		else_if = {
@@ -2134,7 +2251,7 @@ evaluate_vote_apportionment_effect = {
 				OR = {
 					AND = {
 						root = { can_pass_sovereign_power_laws_trigger = no }
-						var:fascist_prop = { compare_value > 0.33 }
+						var:fascist_prop > 0.33
 					}
 					AND = {
 						root = { can_pass_sovereign_power_laws_trigger = yes }
@@ -2150,6 +2267,7 @@ evaluate_vote_apportionment_effect = {
 			else_if = {
 				limit = { root.primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:apportionment_mixed } } }
 				save_scope_value_as = { name = fascist_copy value = { value = scope:fascist_copy multiply = 1.3 } }
+				save_scope_value_as = { name = fascist_uppercopy value = { value = scope:fascist_uppercopy add = 100 } }
 			}
 		}
 		else_if = {
@@ -2157,7 +2275,7 @@ evaluate_vote_apportionment_effect = {
 				OR = {
 					AND = {
 						root = { can_pass_sovereign_power_laws_trigger = no }
-						var:communist_prop = { compare_value > 0.33 }
+						var:communist_prop > 0.33
 					}
 					AND = {
 						root = { can_pass_sovereign_power_laws_trigger = yes }
@@ -2173,6 +2291,7 @@ evaluate_vote_apportionment_effect = {
 			else_if = {
 				limit = { root.primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:apportionment_mixed } } }
 				save_scope_value_as = { name = communist_copy value = { value = scope:communist_copy multiply = 1.3 } }
+				save_scope_value_as = { name = communist_uppercopy value = { value = scope:communist_uppercopy add = 100 } }
 			}
 		}
 		else_if = {
@@ -2180,7 +2299,7 @@ evaluate_vote_apportionment_effect = {
 				OR = {
 					AND = {
 						root = { can_pass_sovereign_power_laws_trigger = no }
-						var:anarchist_prop = { compare_value > 0.33 }
+						var:anarchist_prop > 0.33
 					}
 					AND = {
 						root = { can_pass_sovereign_power_laws_trigger = yes }
@@ -2196,6 +2315,7 @@ evaluate_vote_apportionment_effect = {
 			else_if = {
 				limit = { root.primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:apportionment_mixed } } }
 				save_scope_value_as = { name = anarchist_copy value = { value = scope:anarchist_copy multiply = 1.3 } }
+				save_scope_value_as = { name = anarchist_uppercopy value = { value = scope:anarchist_uppercopy add = 100 } }
 			}
 		}
 		else_if = {
@@ -2203,7 +2323,7 @@ evaluate_vote_apportionment_effect = {
 				OR = {
 					AND = {
 						root = { can_pass_sovereign_power_laws_trigger = no }
-						var:independent_prop = { compare_value > 0.33 }
+						var:independent_prop > 0.33
 					}
 					AND = {
 						root = { can_pass_sovereign_power_laws_trigger = yes }
@@ -2219,6 +2339,7 @@ evaluate_vote_apportionment_effect = {
 			else_if = {
 				limit = { root.primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:apportionment_mixed } } }
 				save_scope_value_as = { name = independent_copy value = { value = scope:independent_copy multiply = 1.3 } }
+				save_scope_value_as = { name = independent_uppercopy value = { value = scope:independent_uppercopy add = 100 } }
 			}
 		}
 		else = {
@@ -2228,12 +2349,20 @@ evaluate_vote_apportionment_effect = {
 					limit = { root.primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:apportionment_equal } } }
 					root.primary_title = { change_variable = { name = liberal_pievalue add = 100 } change_variable = { name = liberal_absvalue add = 100 } }
 				}
+				if = {
+					limit = { root.primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:apportionment_mixed } } }
+					save_scope_value_as = { name = liberal_uppercopy value = { value = scope:liberal_uppercopy add = 100 } }
+				}
 			}
 			else_if = {
 				limit = { has_dominant_ideology_trigger = { VAR = var:conservative_value } }
 				if = {
 					limit = { root.primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:apportionment_equal } } }
 					root.primary_title = { change_variable = { name = conservative_pievalue add = 100 } change_variable = { name = conservative_absvalue add = 100 } }
+				}
+				if = {
+					limit = { root.primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:apportionment_mixed } } }
+					save_scope_value_as = { name = conservative_uppercopy value = { value = scope:conservative_uppercopy add = 100 } }
 				}
 			}
 			else_if = {
@@ -2242,12 +2371,20 @@ evaluate_vote_apportionment_effect = {
 					limit = { root.primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:apportionment_equal } } }
 					root.primary_title = { change_variable = { name = socialist_pievalue add = 100 } change_variable = { name = socialist_absvalue add = 100 } }
 				}
+				if = {
+					limit = { root.primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:apportionment_mixed } } }
+					save_scope_value_as = { name = socialist_uppercopy value = { value = scope:socialist_uppercopy add = 100 } }
+				}
 			}
 			else_if = {
 				limit = { has_dominant_ideology_trigger = { VAR = var:reactionary_value } }
 				if = {
 					limit = { root.primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:apportionment_equal } } }
 					root.primary_title = { change_variable = { name = reactionary_pievalue add = 100 } change_variable = { name = reactionary_absvalue add = 100 } }
+				}
+				if = {
+					limit = { root.primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:apportionment_mixed } } }
+					save_scope_value_as = { name = reactionary_uppercopy value = { value = scope:reactionary_uppercopy add = 100 } }
 				}
 			}
 			else_if = {
@@ -2256,12 +2393,20 @@ evaluate_vote_apportionment_effect = {
 					limit = { root.primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:apportionment_equal } } }
 					root.primary_title = { change_variable = { name = fascist_pievalue add = 100 } change_variable = { name = fascist_absvalue add = 100 } }
 				}
+				if = {
+					limit = { root.primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:apportionment_mixed } } }
+					save_scope_value_as = { name = fascist_uppercopy value = { value = scope:fascist_uppercopy add = 100 } }
+				}
 			}
 			else_if = {
 				limit = { has_dominant_ideology_trigger = { VAR = var:communist_value } }
 				if = {
 					limit = { root.primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:apportionment_equal } } }
 					root.primary_title = { change_variable = { name = communist_pievalue add = 100 } change_variable = { name = communist_absvalue add = 100 } }
+				}
+				if = {
+					limit = { root.primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:apportionment_mixed } } }
+					save_scope_value_as = { name = communist_uppercopy value = { value = scope:communist_uppercopy add = 100 } }
 				}
 			}
 			else_if = {
@@ -2270,6 +2415,10 @@ evaluate_vote_apportionment_effect = {
 					limit = { root.primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:apportionment_equal } } }
 					root.primary_title = { change_variable = { name = anarchist_pievalue add = 100 } change_variable = { name = anarchist_absvalue add = 100 } }
 				}
+				if = {
+					limit = { root.primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:apportionment_mixed } } }
+					save_scope_value_as = { name = anarchist_uppercopy value = { value = scope:anarchist_uppercopy add = 100 } }
+				}
 			}
 			else_if = {
 				limit = { has_variable = independent_value }
@@ -2277,7 +2426,35 @@ evaluate_vote_apportionment_effect = {
 					limit = { root.primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:apportionment_equal } } }
 					root.primary_title = { change_variable = { name = independent_pievalue add = 100 } change_variable = { name = independent_absvalue add = 100 } }
 				}
+				if = {
+					limit = { root.primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:apportionment_mixed } } }
+					save_scope_value_as = { name = independent_uppercopy value = { value = scope:independent_uppercopy add = 100 } }
+				}
 			}
+		}
+
+		if = {
+			limit = { root.primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:apportionment_mixed } } }
+			# evaluate conditions for gridlock
+			#		first save lower house values into var:liberal_value, etc.
+			save_scope_value_as = { name = liberal_lower value = { value = scope:liberal_lower add = scope:liberal_lowercopy } }
+			save_scope_value_as = { name = socialist_lower value = { value = scope:socialist_lower add = scope:socialist_lowercopy } }
+			save_scope_value_as = { name = reactionary_lower value = { value = scope:reactionary_lower add = scope:reactionary_lowercopy } }
+			save_scope_value_as = { name = fascist_lower value = { value = scope:fascist_lower add = scope:fascist_lowercopy } }
+			save_scope_value_as = { name = conservative_lower value = { value = scope:conservative_lower add = scope:conservative_lowercopy } }
+			save_scope_value_as = { name = communist_lower value = { value = scope:communist_lower add = scope:communist_lowercopy } }
+			save_scope_value_as = { name = anarchist_lower value = { value = scope:anarchist_lower add = scope:anarchist_lowercopy } }
+			save_scope_value_as = { name = independent_lower value = { value = scope:independent_lower add = scope:independent_lowercopy } }
+
+			#		next save upper house values into var:liberal_value, etc.
+			save_scope_value_as = { name = liberal_upper value = { value = scope:liberal_upper add = scope:liberal_uppercopy } }
+			save_scope_value_as = { name = socialist_upper value = { value = scope:socialist_upper add = scope:socialist_uppercopy } }
+			save_scope_value_as = { name = reactionary_upper value = { value = scope:reactionary_upper add = scope:reactionary_uppercopy } }
+			save_scope_value_as = { name = fascist_upper value = { value = scope:fascist_upper add = scope:fascist_uppercopy } }
+			save_scope_value_as = { name = conservative_upper value = { value = scope:conservative_upper add = scope:conservative_uppercopy } }
+			save_scope_value_as = { name = communist_upper value = { value = scope:communist_upper add = scope:communist_uppercopy } }
+			save_scope_value_as = { name = anarchist_upper value = { value = scope:anarchist_upper add = scope:anarchist_uppercopy } }
+			save_scope_value_as = { name = independent_upper value = { value = scope:independent_upper add = scope:independent_uppercopy } }
 		}
 	}
 	remove_variable = liberal_value
@@ -2301,7 +2478,7 @@ evaluate_vote_apportionment_effect = {
 
 generate_party_acceptance_values = {
 	if = {
-		limit = { holder.primary_title = { exists = var:liberal_absvalue var:liberal_absvalue = { compare_value > 0 } } }
+		limit = { holder.primary_title = { exists = var:liberal_absvalue var:liberal_absvalue > 0 } }
 		set_variable = { name = liberal_acceptance value = 0 }
 		party_acceptance_modifier_effect = {
 			VAR = liberal_acceptance
@@ -2313,12 +2490,12 @@ generate_party_acceptance_values = {
 			PS = $PRO_SLAVERY$
 		}
 		if = {
-			limit = { exists = var:liberal_acceptance var:liberal_acceptance = { compare_value = 0 } }
+			limit = { exists = var:liberal_acceptance var:liberal_acceptance = 0 }
 			change_variable = { name = liberal_acceptance add = $UNIVERSAL_ACCEPTANCE_VALUE$ }
 		}
 	}
 	if = {
-		limit = { holder.primary_title = { exists = var:socialist_absvalue var:socialist_absvalue = { compare_value > 0 } } }
+		limit = { holder.primary_title = { exists = var:socialist_absvalue var:socialist_absvalue > 0 } }
 		set_variable = { name = socialist_acceptance value = 0 }
 		party_acceptance_modifier_effect = {
 			VAR = socialist_acceptance
@@ -2330,12 +2507,12 @@ generate_party_acceptance_values = {
 			PS = $PRO_SLAVERY$
 		}
 		if = {
-			limit = { exists = var:socialist_acceptance var:socialist_acceptance = { compare_value = 0 } }
+			limit = { exists = var:socialist_acceptance var:socialist_acceptance = 0 }
 			change_variable = { name = socialist_acceptance add = $UNIVERSAL_ACCEPTANCE_VALUE$ }
 		}
 	}
 	if = {
-		limit = { holder.primary_title = { exists = var:reactionary_absvalue var:reactionary_absvalue = { compare_value > 0 } } }
+		limit = { holder.primary_title = { exists = var:reactionary_absvalue var:reactionary_absvalue > 0 } }
 		set_variable = { name = reactionary_acceptance value = 0 }
 		party_acceptance_modifier_effect = {
 			VAR = reactionary_acceptance
@@ -2347,12 +2524,12 @@ generate_party_acceptance_values = {
 			PS = $PRO_SLAVERY$
 		}
 		if = {
-			limit = { exists = var:reactionary_acceptance var:reactionary_acceptance = { compare_value = 0 } }
+			limit = { exists = var:reactionary_acceptance var:reactionary_acceptance = 0 }
 			change_variable = { name = reactionary_acceptance add = $UNIVERSAL_ACCEPTANCE_VALUE$ }
 		}
 	}
 	if = {
-		limit = { holder.primary_title = { exists = var:fascist_absvalue var:fascist_absvalue = { compare_value > 0 } } }
+		limit = { holder.primary_title = { exists = var:fascist_absvalue var:fascist_absvalue > 0 } }
 		set_variable = { name = fascist_acceptance value = 0 }
 		party_acceptance_modifier_effect = {
 			VAR = fascist_acceptance
@@ -2364,12 +2541,12 @@ generate_party_acceptance_values = {
 			PS = $PRO_SLAVERY$
 		}
 		if = {
-			limit = { exists = var:fascist_acceptance var:fascist_acceptance = { compare_value = 0 } }
+			limit = { exists = var:fascist_acceptance var:fascist_acceptance = 0 }
 			change_variable = { name = fascist_acceptance add = $UNIVERSAL_ACCEPTANCE_VALUE$ }
 		}
 	}
 	if = {
-		limit = { holder.primary_title = { exists = var:conservative_absvalue var:conservative_absvalue = { compare_value > 0 } } }
+		limit = { holder.primary_title = { exists = var:conservative_absvalue var:conservative_absvalue > 0 } }
 		set_variable = { name = conservative_acceptance value = 0 }
 		party_acceptance_modifier_effect = {
 			VAR = conservative_acceptance
@@ -2381,12 +2558,12 @@ generate_party_acceptance_values = {
 			PS = $PRO_SLAVERY$
 		}
 		if = {
-			limit = { exists = var:conservative_acceptance var:conservative_acceptance = { compare_value = 0 } }
+			limit = { exists = var:conservative_acceptance var:conservative_acceptance = 0 }
 			change_variable = { name = conservative_acceptance add = $UNIVERSAL_ACCEPTANCE_VALUE$ }
 		}
 	}
 	if = {
-		limit = { holder.primary_title = { exists = var:communist_absvalue var:communist_absvalue = { compare_value > 0 } } }
+		limit = { holder.primary_title = { exists = var:communist_absvalue var:communist_absvalue > 0 } }
 		set_variable = { name = communist_acceptance value = 0 }
 		party_acceptance_modifier_effect = {
 			VAR = communist_acceptance
@@ -2398,12 +2575,12 @@ generate_party_acceptance_values = {
 			PS = $PRO_SLAVERY$
 		}
 		if = {
-			limit = { exists = var:communist_acceptance var:communist_acceptance = { compare_value = 0 } }
+			limit = { exists = var:communist_acceptance var:communist_acceptance = 0 }
 			change_variable = { name = communist_acceptance add = $UNIVERSAL_ACCEPTANCE_VALUE$ }
 		}
 	}
 	if = {
-		limit = { holder.primary_title = { exists = var:anarchist_absvalue var:anarchist_absvalue = { compare_value > 0 } } }
+		limit = { holder.primary_title = { exists = var:anarchist_absvalue var:anarchist_absvalue > 0 } }
 		set_variable = { name = anarchist_acceptance value = 0 }
 		party_acceptance_modifier_effect = {
 			VAR = anarchist_acceptance
@@ -2415,12 +2592,12 @@ generate_party_acceptance_values = {
 			PS = $PRO_SLAVERY$
 		}
 		if = {
-			limit = { exists = var:anarchist_acceptance var:anarchist_acceptance = { compare_value = 0 } }
+			limit = { exists = var:anarchist_acceptance var:anarchist_acceptance = 0 }
 			change_variable = { name = anarchist_acceptance add = $UNIVERSAL_ACCEPTANCE_VALUE$ }
 		}
 	}
 	if = {
-		limit = { holder.primary_title = { exists = var:independent_absvalue var:independent_absvalue = { compare_value > 0 } } }
+		limit = { holder.primary_title = { exists = var:independent_absvalue var:independent_absvalue > 0 } }
 		set_variable = {
 			name = independent_acceptance
 			value = 0
@@ -2453,31 +2630,31 @@ party_acceptance_modifier_effect = {
 
 modify_party_acceptance_values = {
 	if = {
-		limit = { exists = var:liberal_absvalue has_dominant_ideology_legislature_trigger = { VAR = var:liberal_absvalue } }
+		limit = { exists = var:liberal_absvalue has_dominant_ideology_suffix_trigger = { VAR = var:liberal_absvalue SUFFIX = _absvalue } }
 		change_variable = { name = liberal_acceptance add = $PARTY_DOMINANT_ACCEPTANCE$ }
 	}
 	if = {
-		limit = { exists = var:socialist_absvalue has_dominant_ideology_legislature_trigger = { VAR = var:socialist_absvalue } }
+		limit = { exists = var:socialist_absvalue has_dominant_ideology_suffix_trigger = { VAR = var:socialist_absvalue SUFFIX = _absvalue } }
 		change_variable = { name = socialist_acceptance add = $PARTY_DOMINANT_ACCEPTANCE$ }
 	}
 	if = {
-		limit = { exists = var:reactionary_absvalue has_dominant_ideology_legislature_trigger = { VAR = var:reactionary_absvalue } }
+		limit = { exists = var:reactionary_absvalue has_dominant_ideology_suffix_trigger = { VAR = var:reactionary_absvalue SUFFIX = _absvalue } }
 		change_variable = { name = reactionary_acceptance add = $PARTY_DOMINANT_ACCEPTANCE$ }
 	}
 	if = {
-		limit = { exists = var:fascist_absvalue has_dominant_ideology_legislature_trigger = { VAR = var:fascist_absvalue } }
+		limit = { exists = var:fascist_absvalue has_dominant_ideology_suffix_trigger = { VAR = var:fascist_absvalue SUFFIX = _absvalue } }
 		change_variable = { name = fascist_acceptance add = $PARTY_DOMINANT_ACCEPTANCE$ }
 	}
 	if = {
-		limit = { exists = var:conservative_absvalue has_dominant_ideology_legislature_trigger = { VAR = var:conservative_absvalue } }
+		limit = { exists = var:conservative_absvalue has_dominant_ideology_suffix_trigger = { VAR = var:conservative_absvalue SUFFIX = _absvalue } }
 		change_variable = { name = conservative_acceptance add = $PARTY_DOMINANT_ACCEPTANCE$ }
 	}
 	if = {
-		limit = { exists = var:communist_absvalue has_dominant_ideology_legislature_trigger = { VAR = var:communist_absvalue } }
+		limit = { exists = var:communist_absvalue has_dominant_ideology_suffix_trigger = { VAR = var:communist_absvalue SUFFIX = _absvalue } }
 		change_variable = { name = communist_acceptance add = $PARTY_DOMINANT_ACCEPTANCE$ }
 	}
 	if = {
-		limit = { exists = var:anarchist_absvalue has_dominant_ideology_legislature_trigger = { VAR = var:anarchist_absvalue } }
+		limit = { exists = var:anarchist_absvalue has_dominant_ideology_suffix_trigger = { VAR = var:anarchist_absvalue SUFFIX = _absvalue } }
 		change_variable = { name = anarchist_acceptance add = $PARTY_DOMINANT_ACCEPTANCE$ }
 	}
 }
@@ -2626,5 +2803,40 @@ remove_debating_law_category = {
 			}
 		}
 		clear_leg_term_limit_reforms = yes
+	}
+}
+
+get_dominant_ideology_effect = {
+	if = {
+		limit = { has_dominant_ideology_trigger = { VAR = var:liberal_value } }
+		save_scope_value_as = { name = $SAVE_SCOPE$ value = flag:liberal }
+	}
+	else_if = {
+		limit = { has_dominant_ideology_trigger = { VAR = var:conservative_value } }
+		save_scope_value_as = { name = $SAVE_SCOPE$ value = flag:conservative }
+	}
+	else_if = {
+		limit = { has_dominant_ideology_trigger = { VAR = var:socialist_value } }
+		save_scope_value_as = { name = $SAVE_SCOPE$ value = flag:socialist }
+	}
+	else_if = {
+		limit = { has_dominant_ideology_trigger = { VAR = var:reactionary_value } }
+		save_scope_value_as = { name = $SAVE_SCOPE$ value = flag:reactionary }
+	}
+	else_if = {
+		limit = { has_dominant_ideology_trigger = { VAR = var:fascist_value } }
+		save_scope_value_as = { name = $SAVE_SCOPE$ value = flag:fascist }
+	}
+	else_if = {
+		limit = { has_dominant_ideology_trigger = { VAR = var:communist_value } }
+		save_scope_value_as = { name = $SAVE_SCOPE$ value = flag:communist }
+	}
+	else_if = {
+		limit = { has_dominant_ideology_trigger = { VAR = var:anarchist_value } }
+		save_scope_value_as = { name = $SAVE_SCOPE$ value = flag:anarchist }
+	}
+	else_if = {
+		limit = { has_variable = independent_value }
+		save_scope_value_as = { name = $SAVE_SCOPE$ value = flag:independent }
 	}
 }

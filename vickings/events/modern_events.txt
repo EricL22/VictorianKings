@@ -1735,7 +1735,10 @@ moderntimes.202 = {
 	hidden = yes
 	
 	immediate = {
-		depose = yes
+		primary_title = {
+			var:liberal_absvalue = { debug_log_scopes = no }
+			var:conservative_absvalue = { debug_log_scopes = no }
+		}
 	}
 }
 
@@ -1871,6 +1874,13 @@ moderntimes.302 = {
 					}
 					add_to_variable_list = { name = enacted_laws_list target = flag:leg_three_year_term }
 				}
+				else_if = {
+					limit = {
+						this = title:e_mexico
+						current_date < 1857.2.5
+					}
+					add_to_variable_list = { name = enacted_laws_list target = flag:leg_four_year_term }
+				}
 				else = {
 					add_to_variable_list = { name = enacted_laws_list target = flag:leg_two_year_term }
 				}
@@ -1896,7 +1906,10 @@ moderntimes.302 = {
 				if = {
 					limit = {
 						this = title:e_united_states
-						this = title:e_mexico
+						AND = {
+							this = title:e_mexico
+							current_date > 1857.2.5
+						}
 					}
 					add_to_variable_list = { name = enacted_laws_list target = flag:eligibility_state }
 				}
@@ -1931,7 +1944,16 @@ moderntimes.302 = {
 					limit = { is_target_in_variable_list = { name = enacted_laws_list target = flag:apportionment_equal } }
 					remove_list_variable = { name = enacted_laws_list target = flag:apportionment_equal }
 				}
-				add_to_variable_list = { name = enacted_laws_list target = flag:apportionment_mixed }
+				if = {
+					limit = {
+						this = title:e_mexico
+						current_date > 1857.2.5
+					}
+					add_to_variable_list = { name = enacted_laws_list target = flag:apportionment_population }
+				}
+				else = {
+					add_to_variable_list = { name = enacted_laws_list target = flag:apportionment_mixed }
+				}
 			}
 			if = {
 				limit = {
@@ -1948,6 +1970,10 @@ moderntimes.302 = {
 							this = title:e_united_states
 							this = title:e_france
 							this = title:k_france
+							AND = {
+								this = title:e_mexico
+								current_date > 1857.2.5
+							}
 						}
 					}
 					add_to_variable_list = { name = enacted_laws_list target = flag:vote_franchise_universal_manhood }
@@ -2010,6 +2036,25 @@ moderntimes.303 = {
 			set_variable = { name = communist_absvalue value = 0 }
 			set_variable = { name = anarchist_absvalue value = 0 }
 			set_variable = { name = independent_absvalue value = 0 }
+
+			# this is for evaluating gridlock
+			save_scope_value_as = { name = liberal_lower value = 0 }
+			save_scope_value_as = { name = socialist_lower value = 0 }
+			save_scope_value_as = { name = reactionary_lower value = 0 }
+			save_scope_value_as = { name = fascist_lower value = 0 }
+			save_scope_value_as = { name = conservative_lower value = 0 }
+			save_scope_value_as = { name = communist_lower value = 0 }
+			save_scope_value_as = { name = anarchist_lower value = 0 }
+			save_scope_value_as = { name = independent_lower value = 0 }
+
+			save_scope_value_as = { name = liberal_upper value = 0 }
+			save_scope_value_as = { name = socialist_upper value = 0 }
+			save_scope_value_as = { name = reactionary_upper value = 0 }
+			save_scope_value_as = { name = fascist_upper value = 0 }
+			save_scope_value_as = { name = conservative_upper value = 0 }
+			save_scope_value_as = { name = communist_upper value = 0 }
+			save_scope_value_as = { name = anarchist_upper value = 0 }
+			save_scope_value_as = { name = independent_upper value = 0 }
 		}
 		every_vassal = {
 			limit = {
@@ -2077,10 +2122,10 @@ moderntimes.303 = {
 			change_variable = { name = anarchist_pievalue add = var:communist_pievalue }
 			change_variable = { name = independent_pievalue add = var:anarchist_pievalue }
 
-			# Jefferson system eliminates all parties below 1% in the Legislature
+			# Jefferson system eliminates all parties below 5% in the Legislature
 			if = {
 				limit = {
-					var:independent_pievalue = { compare_value > 0 }
+					var:independent_pievalue > 0
 					is_target_in_variable_list = { name = enacted_laws_list target = flag:vote_system_jefferson }
 				}
 				set_variable = { name = liberal_prop value = { value = var:liberal_absvalue divide = var:independent_pievalue } }
@@ -2092,42 +2137,42 @@ moderntimes.303 = {
 				set_variable = { name = anarchist_prop value = { value = var:anarchist_absvalue divide = var:independent_pievalue } }
 				set_variable = { name = independent_prop value = { value = var:independent_absvalue divide = var:independent_pievalue } }
 				if = {
-					limit = { var:liberal_prop = { compare_value < 0.01 } }
+					limit = { var:liberal_prop < 0.05 }
 					set_variable = { name = liberal_pievalue value = 0 }
 					set_variable = { name = liberal_absvalue value = 0 }
 				}
 				if = {
-					limit = { var:conservative_prop = { compare_value < 0.01 } }
+					limit = { var:conservative_prop < 0.05 }
 					set_variable = { name = conservative_pievalue value = 0 }
 					set_variable = { name = conservative_absvalue value = 0 }
 				}
 				if = {
-					limit = { var:socialist_prop = { compare_value < 0.01 } }
+					limit = { var:socialist_prop < 0.05 }
 					set_variable = { name = socialist_pievalue value = 0 }
 					set_variable = { name = socialist_absvalue value = 0 }
 				}
 				if = {
-					limit = { var:reactionary_prop = { compare_value < 0.01 } }
+					limit = { var:reactionary_prop < 0.05 }
 					set_variable = { name = reactionary_pievalue value = 0 }
 					set_variable = { name = reactionary_absvalue value = 0 }
 				}
 				if = {
-					limit = { var:fascist_prop = { compare_value < 0.01 } }
+					limit = { var:fascist_prop < 0.05 }
 					set_variable = { name = fascist_pievalue value = 0 }
 					set_variable = { name = fascist_absvalue value = 0 }
 				}
 				if = {
-					limit = { var:communist_prop = { compare_value < 0.01 } }
+					limit = { var:communist_prop < 0.05 }
 					set_variable = { name = communist_pievalue value = 0 }
 					set_variable = { name = communist_absvalue value = 0 }
 				}
 				if = {
-					limit = { var:anarchist_prop = { compare_value < 0.01 } }
+					limit = { var:anarchist_prop < 0.05 }
 					set_variable = { name = anarchist_pievalue value = 0 }
 					set_variable = { name = anarchist_absvalue value = 0 }
 				}
 				if = {
-					limit = { var:independent_prop = { compare_value < 0.01 } }
+					limit = { var:independent_prop < 0.05 }
 					set_variable = { name = independent_pievalue value = 0 }
 					set_variable = { name = independent_absvalue value = 0 }
 				}
@@ -2139,6 +2184,84 @@ moderntimes.303 = {
 				remove_variable = communist_prop
 				remove_variable = anarchist_prop
 				remove_variable = independent_prop
+				set_variable = { name = socialist_pievalue value = var:socialist_absvalue }
+				set_variable = { name = reactionary_pievalue value = var:reactionary_absvalue }
+				set_variable = { name = fascist_pievalue value = var:fascist_absvalue }
+				set_variable = { name = conservative_pievalue value = var:conservative_absvalue }
+				set_variable = { name = communist_pievalue value = var:communist_absvalue }
+				set_variable = { name = anarchist_pievalue value = var:anarchist_absvalue }
+				set_variable = { name = independent_pievalue value = var:independent_absvalue }
+				change_variable = { name = socialist_pievalue add = var:liberal_pievalue }
+				change_variable = { name = reactionary_pievalue add = var:socialist_pievalue }
+				change_variable = { name = fascist_pievalue add = var:reactionary_pievalue }
+				change_variable = { name = conservative_pievalue add = var:fascist_pievalue }
+				change_variable = { name = communist_pievalue add = var:conservative_pievalue }
+				change_variable = { name = anarchist_pievalue add = var:communist_pievalue }
+				change_variable = { name = independent_pievalue add = var:anarchist_pievalue }
+			}
+		}
+
+		if = {
+			limit = { root.primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:apportionment_mixed } } }
+			# evaluate conditions for gridlock
+			#		first save lower house values into var:liberal_value, etc.
+			set_variable = { name = liberal_value value = scope:liberal_lower }
+			set_variable = { name = socialist_value value = scope:socialist_lower }
+			set_variable = { name = reactionary_value value = scope:reactionary_lower }
+			set_variable = { name = fascist_value value = scope:fascist_lower }
+			set_variable = { name = conservative_value value = scope:conservative_lower }
+			set_variable = { name = communist_value value = scope:communist_lower }
+			set_variable = { name = anarchist_value value = scope:anarchist_lower }
+			set_variable = { name = independent_value value = scope:independent_lower }
+			#		evaluate the has_dominant_ideology_trigger and save the result into a lower_house var
+			get_dominant_ideology_effect = { SAVE_SCOPE = lower_house_transfer }
+			root.primary_title = { set_variable = { name = lower_house value = scope:lower_house_transfer } debug_log_scopes = no }
+			var:liberal_value = { debug_log = "Liberal lower" debug_log_scopes = no }
+			var:conservative_value = { debug_log = "Conservative lower" debug_log_scopes = no }
+
+			#		next save upper house values into var:liberal_value, etc.
+			set_variable = { name = liberal_value value = scope:liberal_upper }
+			set_variable = { name = socialist_value value = scope:socialist_upper }
+			set_variable = { name = reactionary_value value = scope:reactionary_upper }
+			set_variable = { name = fascist_value value = scope:fascist_upper }
+			set_variable = { name = conservative_value value = scope:conservative_upper }
+			set_variable = { name = communist_value value = scope:communist_upper }
+			set_variable = { name = anarchist_value value = scope:anarchist_upper }
+			set_variable = { name = independent_value value = scope:independent_upper }
+			#		evaluate the has_dominant_ideology_trigger and save the result into an upper_house var
+			get_dominant_ideology_effect = { SAVE_SCOPE = upper_house_transfer }
+			var:liberal_value = { debug_log = "Liberal upper" debug_log_scopes = no }
+			var:conservative_value = { debug_log = "Conservative upper" debug_log_scopes = no }
+
+			root.primary_title = {
+				set_variable = { name = upper_house value = scope:upper_house_transfer }
+				# compare the two, set gridlock variable on root.primary_title if not the same
+				if = {
+					limit = { var:lower_house = var:upper_house }
+					if = {
+						limit = { exists = var:gridlock }
+						remove_variable = gridlock
+					}
+				}
+				else = { set_variable = gridlock }
+				# profit
+			}
+			remove_variable = liberal_value
+			remove_variable = socialist_value
+			remove_variable = reactionary_value
+			remove_variable = fascist_value
+			remove_variable = conservative_value
+			remove_variable = communist_value
+			remove_variable = anarchist_value
+			remove_variable = independent_value
+			remove_variable = total_value
+		}
+		else = {
+			root.primary_title = {
+				if = {
+					limit = { exists = var:gridlock }
+					remove_variable = gridlock
+				}
 			}
 		}
 	}

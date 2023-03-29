@@ -261,6 +261,34 @@ target_conquest_blocked_by_treaty_trigger = {
 				}
 			}
 		}
+		AND = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:adams_onis_signed
+			}
+			OR = {
+				AND = {
+					$CHARACTER$.top_liege = title:e_mexico.holder
+					$TARGET$ = { target_is_de_jure_liege_or_above = title:e_united_states }
+					exists = title:e_united_states.holder
+				}
+				AND = {
+					$CHARACTER$.top_liege = title:e_united_states.holder
+					$TARGET$ = { target_is_de_jure_liege_or_above = title:e_mexico }
+					exists = title:e_mexico.holder
+				}
+				AND = {
+					$CHARACTER$.top_liege = title:e_new_spain.holder
+					$TARGET$ = { target_is_de_jure_liege_or_above = title:e_united_states }
+					exists = title:e_united_states.holder
+				}
+				AND = {
+					$CHARACTER$.top_liege = title:e_united_states.holder
+					$TARGET$ = { target_is_de_jure_liege_or_above = title:e_new_spain }
+					exists = title:e_new_spain.holder
+				}
+			}
+		}
 	}
 }
 
@@ -289,163 +317,109 @@ root_realm_uses_legislature_trigger = {
 
 has_dominant_ideology_trigger = {
 	exists = $VAR$
-	$VAR$ = { compare_value > 0 }
+	$VAR$ > 0
 	trigger_if = {
 		limit = {
 			has_variable = liberal_value
 			NOT = { $VAR$ = var:liberal_value }
 		}
-		$VAR$.compare_value > { value = var:liberal_value }
+		$VAR$ > var:liberal_value
 	}
 	trigger_if = {
 		limit = {
 			has_variable = socialist_value
 			NOT = { $VAR$ = var:socialist_value }
 		}
-		$VAR$.compare_value > { value = var:socialist_value }
+		$VAR$ > var:socialist_value
 	}
 	trigger_if = {
 		limit = {
 			has_variable = reactionary_value
 			NOT = { $VAR$ = var:reactionary_value }
 		}
-		$VAR$.compare_value > { value = var:reactionary_value }
+		$VAR$ > var:reactionary_value
 	}
 	trigger_if = {
 		limit = {
 			has_variable = fascist_value
 			NOT = { $VAR$ = var:fascist_value }
 		}
-		$VAR$.compare_value > { value = var:fascist_value }
+		$VAR$ > var:fascist_value
 	}
 	trigger_if = {
 		limit = {
 			has_variable = conservative_value
 			NOT = { $VAR$ = var:conservative_value }
 		}
-		$VAR$.compare_value > { value = var:conservative_value }
+		$VAR$ > var:conservative_value
 	}
 	trigger_if = {
 		limit = {
 			has_variable = communist_value
 			NOT = { $VAR$ = var:communist_value }
 		}
-		$VAR$.compare_value > { value = var:communist_value }
+		$VAR$ > var:communist_value
 	}
 	trigger_if = {
 		limit = {
 			has_variable = anarchist_value
 			NOT = { $VAR$ = var:anarchist_value }
 		}
-		$VAR$.compare_value > { value = var:anarchist_value }
+		$VAR$ > var:anarchist_value
 	}
 }
 
-has_dominant_ideology_jeff_trigger = {
+has_dominant_ideology_suffix_trigger = {
 	exists = $VAR$
-	$VAR$ = { compare_value > 0 }
+	$VAR$ > 0
 	trigger_if = {
 		limit = {
-			has_variable = liberal_jeff
-			NOT = { $VAR$ = var:liberal_jeff }
+			has_variable = liberal$SUFFIX$
+			NOT = { $VAR$ = var:liberal$SUFFIX$ }
 		}
-		$VAR$.compare_value > { value = var:liberal_jeff }
+		$VAR$ > var:liberal$SUFFIX$
 	}
 	trigger_if = {
 		limit = {
-			has_variable = socialist_jeff
-			NOT = { $VAR$ = var:socialist_jeff }
+			has_variable = socialist$SUFFIX$
+			NOT = { $VAR$ = var:socialist$SUFFIX$ }
 		}
-		$VAR$.compare_value > { value = var:socialist_jeff }
+		$VAR$ > var:socialist$SUFFIX$
 	}
 	trigger_if = {
 		limit = {
-			has_variable = reactionary_jeff
-			NOT = { $VAR$ = var:reactionary_jeff }
+			has_variable = reactionary$SUFFIX$
+			NOT = { $VAR$ = var:reactionary$SUFFIX$ }
 		}
-		$VAR$.compare_value > { value = var:reactionary_jeff }
+		$VAR$ > var:reactionary$SUFFIX$
 	}
 	trigger_if = {
 		limit = {
-			has_variable = fascist_jeff
-			NOT = { $VAR$ = var:fascist_jeff }
+			has_variable = fascist$SUFFIX$
+			NOT = { $VAR$ = var:fascist$SUFFIX$ }
 		}
-		$VAR$.compare_value > { value = var:fascist_jeff }
+		$VAR$ > var:fascist$SUFFIX$
 	}
 	trigger_if = {
 		limit = {
-			has_variable = conservative_jeff
-			NOT = { $VAR$ = var:conservative_jeff }
+			has_variable = conservative$SUFFIX$
+			NOT = { $VAR$ = var:conservative$SUFFIX$ }
 		}
-		$VAR$.compare_value > { value = var:conservative_jeff }
+		$VAR$ > var:conservative$SUFFIX$
 	}
 	trigger_if = {
 		limit = {
-			has_variable = communist_jeff
-			NOT = { $VAR$ = var:communist_jeff }
+			has_variable = communist$SUFFIX$
+			NOT = { $VAR$ = var:communist$SUFFIX$ }
 		}
-		$VAR$.compare_value > { value = var:communist_jeff }
+		$VAR$ > var:communist$SUFFIX$
 	}
 	trigger_if = {
 		limit = {
-			has_variable = anarchist_jeff
-			NOT = { $VAR$ = var:anarchist_jeff }
+			has_variable = anarchist$SUFFIX$
+			NOT = { $VAR$ = var:anarchist$SUFFIX$ }
 		}
-		$VAR$.compare_value > { value = var:anarchist_jeff }
-	}
-}
-
-has_dominant_ideology_legislature_trigger = {
-	exists = $VAR$
-	$VAR$ = { compare_value > 0 }
-	trigger_if = {
-		limit = {
-			has_variable = liberal_absvalue
-			NOT = { $VAR$ = var:liberal_absvalue }
-		}
-		$VAR$.compare_value > { value = var:liberal_absvalue }
-	}
-	trigger_if = {
-		limit = {
-			has_variable = socialist_absvalue
-			NOT = { $VAR$ = var:socialist_absvalue }
-		}
-		$VAR$.compare_value > { value = var:socialist_absvalue }
-	}
-	trigger_if = {
-		limit = {
-			has_variable = reactionary_absvalue
-			NOT = { $VAR$ = var:reactionary_absvalue }
-		}
-		$VAR$.compare_value > { value = var:reactionary_absvalue }
-	}
-	trigger_if = {
-		limit = {
-			has_variable = fascist_absvalue
-			NOT = { $VAR$ = var:fascist_absvalue }
-		}
-		$VAR$.compare_value > { value = var:fascist_absvalue }
-	}
-	trigger_if = {
-		limit = {
-			has_variable = conservative_absvalue
-			NOT = { $VAR$ = var:conservative_absvalue }
-		}
-		$VAR$.compare_value > { value = var:conservative_absvalue }
-	}
-	trigger_if = {
-		limit = {
-			has_variable = communist_absvalue
-			NOT = { $VAR$ = var:communist_absvalue }
-		}
-		$VAR$.compare_value > { value = var:communist_absvalue }
-	}
-	trigger_if = {
-		limit = {
-			has_variable = anarchist_absvalue
-			NOT = { $VAR$ = var:anarchist_absvalue }
-		}
-		$VAR$.compare_value > { value = var:anarchist_absvalue }
+		$VAR$ > var:anarchist$SUFFIX$
 	}
 }
 
@@ -460,97 +434,97 @@ voting_against_own_party_domestic_trigger = {
 	primary_title = {
 		OR = {
 			AND = {
-				var:total_yay.compare_value > { value = var:total_nay }
+				var:total_yay > var:total_nay
 				OR = {
 					AND = {
 						root = { has_character_flag = liberal_party }
 						exists = var:liberal_acceptance
-						var:liberal_acceptance = { compare_value > 100 }
-						var:liberal_yay = { compare_value > 60 }
+						var:liberal_acceptance > 100
+						var:liberal_yay > 60
 					}
 					AND = {
 						root = { has_character_flag = socialist_party }
 						exists = var:socialist_acceptance
-						var:socialist_acceptance = { compare_value > 100 }
-						var:socialist_yay = { compare_value > 60 }
+						var:socialist_acceptance > 100
+						var:socialist_yay > 60
 					}
 					AND = {
 						root = { has_character_flag = reactionary_party }
 						exists = var:reactionary_acceptance
-						var:reactionary_acceptance = { compare_value > 100 }
-						var:reactionary_yay = { compare_value > 60 }
+						var:reactionary_acceptance > 100
+						var:reactionary_yay > 60
 					}
 					AND = {
 						root = { has_character_flag = fascist_party }
 						exists = var:fascist_acceptance
-						var:fascist_acceptance = { compare_value > 100 }
-						var:fascist_yay = { compare_value > 60 }
+						var:fascist_acceptance > 100
+						var:fascist_yay > 60
 					}
 					AND = {
 						root = { has_character_flag = conservative_party }
 						exists = var:conservative_acceptance
-						var:conservative_acceptance = { compare_value > 100 }
-						var:conservative_yay = { compare_value > 60 }
+						var:conservative_acceptance > 100
+						var:conservative_yay > 60
 					}
 					AND = {
 						root = { has_character_flag = communist_party }
 						exists = var:communist_acceptance
-						var:communist_acceptance = { compare_value > 100 }
-						var:communist_yay = { compare_value > 60 }
+						var:communist_acceptance > 100
+						var:communist_yay > 60
 					}
 					AND = {
 						root = { has_character_flag = anarchist_party }
 						exists = var:anarchist_acceptance
-						var:anarchist_acceptance = { compare_value > 100 }
-						var:anarchist_yay = { compare_value > 60 }
+						var:anarchist_acceptance > 100
+						var:anarchist_yay > 60
 					}
 				}
 				root = { NOT = { has_character_modifier = independent_party_modifier } }
 			}
 			AND = {
-				var:total_yay.compare_value <= { value = var:total_nay }
+				var:total_yay <= var:total_nay
 				OR = {
 					AND = {
 						root = { has_character_flag = liberal_party }
 						exists = var:liberal_acceptance
-						var:liberal_acceptance = { compare_value < 100 }
-						var:liberal_nay = { compare_value > 60 }
+						var:liberal_acceptance < 100
+						var:liberal_nay > 60
 					}
 					AND = {
 						root = { has_character_flag = socialist_party }
 						exists = var:socialist_acceptance
-						var:socialist_acceptance = { compare_value < 100 }
-						var:socialist_nay = { compare_value > 60 }
+						var:socialist_acceptance < 100
+						var:socialist_nay > 60
 					}
 					AND = {
 						root = { has_character_flag = reactionary_party }
 						exists = var:reactionary_acceptance
-						var:reactionary_acceptance = { compare_value < 100 }
-						var:reactionary_nay = { compare_value > 60 }
+						var:reactionary_acceptance < 100
+						var:reactionary_nay > 60
 					}
 					AND = {
 						root = { has_character_flag = fascist_party }
 						exists = var:fascist_acceptance
-						var:fascist_acceptance = { compare_value < 100 }
-						var:fascist_nay = { compare_value > 60 }
+						var:fascist_acceptance < 100
+						var:fascist_nay > 60
 					}
 					AND = {
 						root = { has_character_flag = conservative_party }
 						exists = var:conservative_acceptance
-						var:conservative_acceptance = { compare_value < 100 }
-						var:conservative_nay = { compare_value > 60 }
+						var:conservative_acceptance < 100
+						var:conservative_nay > 60
 					}
 					AND = {
 						root = { has_character_flag = communist_party }
 						exists = var:communist_acceptance
-						var:communist_acceptance = { compare_value < 100 }
-						var:communist_nay = { compare_value > 60 }
+						var:communist_acceptance < 100
+						var:communist_nay > 60
 					}
 					AND = {
 						root = { has_character_flag = anarchist_party }
 						exists = var:anarchist_acceptance
-						var:anarchist_acceptance = { compare_value < 100 }
-						var:anarchist_nay = { compare_value > 60 }
+						var:anarchist_acceptance < 100
+						var:anarchist_nay > 60
 					}
 				}
 				root = { NOT = { has_character_modifier = independent_party_modifier } }
@@ -582,4 +556,18 @@ is_federal_republic_territory = {
 	}
 	is_protectorate = no
 	highest_held_title_tier = tier_duchy
+}
+
+legislature_passed_bill_trigger = {
+	OR = {
+		AND = {
+			exists = var:gridlock
+			save_temporary_scope_value_as = { name = y value = { value = var:total_nay multiply = 1.5 } }
+			var:total_yay > scope:y
+		}
+		AND = {
+			NOT = { exists = var:gridlock }
+			var:total_yay > var:total_nay
+		}
+	}
 }

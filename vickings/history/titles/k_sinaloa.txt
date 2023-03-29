@@ -15,11 +15,17 @@ d_sinaloa = {
 	1835.10.23 = {	# department established
 		liege = e_mexico
 		government = republic_government
+		effect = {
+			set_variable = { name = conservative_value value = 5 }
+		}
 	}
 	1835.10.26 = {
 		holder = 6420031
 	}
 	1846.8.22 = {	# department dissolved
 		holder = 0
+		effect = {
+			remove_variable = conservative_value
+		}
 	}
 }

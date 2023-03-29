@@ -1094,7 +1094,7 @@ leg_has_reactionary = {
 	is_valid = {
 		top_liege.primary_title = {
 			exists = var:reactionary_absvalue
-			var:reactionary_absvalue = { compare_value > 0 }
+			var:reactionary_absvalue > 0
 		}
 	}
 }
@@ -1102,7 +1102,7 @@ leg_has_fascist = {
 	is_valid = {
 		top_liege.primary_title = {
 			exists = var:fascist_absvalue
-			var:fascist_absvalue = { compare_value > 0 }
+			var:fascist_absvalue > 0
 		}
 	}
 }
@@ -1110,7 +1110,7 @@ leg_has_conservative = {
 	is_valid = {
 		top_liege.primary_title = {
 			exists = var:conservative_absvalue
-			var:conservative_absvalue = { compare_value > 0 }
+			var:conservative_absvalue > 0
 		}
 	}
 }
@@ -1118,7 +1118,7 @@ leg_has_liberal = {
 	is_valid = {
 		top_liege.primary_title = {
 			exists = var:liberal_absvalue
-			var:liberal_absvalue = { compare_value > 0 }
+			var:liberal_absvalue > 0
 		}
 	}
 }
@@ -1126,7 +1126,7 @@ leg_has_socialist = {
 	is_valid = {
 		top_liege.primary_title = {
 			exists = var:socialist_absvalue
-			var:socialist_absvalue = { compare_value > 0 }
+			var:socialist_absvalue > 0
 		}
 	}
 }
@@ -1134,7 +1134,7 @@ leg_has_communist = {
 	is_valid = {
 		top_liege.primary_title = {
 			exists = var:communist_absvalue
-			var:communist_absvalue = { compare_value > 0 }
+			var:communist_absvalue > 0
 		}
 	}
 }
@@ -1142,7 +1142,7 @@ leg_has_anarchist = {
 	is_valid = {
 		top_liege.primary_title = {
 			exists = var:anarchist_absvalue
-			var:anarchist_absvalue = { compare_value > 0 }
+			var:anarchist_absvalue > 0
 		}
 	}
 }
@@ -1150,7 +1150,7 @@ leg_has_independent = {
 	is_valid = {
 		top_liege.primary_title = {
 			exists = var:independent_absvalue
-			var:independent_absvalue = { compare_value > 0 }
+			var:independent_absvalue > 0
 		}
 	}
 }
@@ -1178,7 +1178,7 @@ evaluate_legislature_percentages = {
 			limit = {
 				top_liege.primary_title = {
 					exists = var:liberal_absvalue
-					var:liberal_absvalue = { compare_value > 0 }
+					var:liberal_absvalue > 0
 				}
 			}
 			custom_tooltip = leg_perc_l
@@ -1187,7 +1187,7 @@ evaluate_legislature_percentages = {
 			limit = {
 				top_liege.primary_title = {
 					exists = var:socialist_absvalue
-					var:socialist_absvalue = { compare_value > 0 }
+					var:socialist_absvalue > 0
 				}
 			}
 			custom_tooltip = leg_perc_s
@@ -1196,7 +1196,7 @@ evaluate_legislature_percentages = {
 			limit = {
 				top_liege.primary_title = {
 					exists = var:reactionary_absvalue
-					var:reactionary_absvalue = { compare_value > 0 }
+					var:reactionary_absvalue > 0
 				}
 			}
 			custom_tooltip = leg_perc_r
@@ -1205,7 +1205,7 @@ evaluate_legislature_percentages = {
 			limit = {
 				top_liege.primary_title = {
 					exists = var:fascist_absvalue
-					var:fascist_absvalue = { compare_value > 0 }
+					var:fascist_absvalue > 0
 				}
 			}
 			custom_tooltip = leg_perc_f
@@ -1214,7 +1214,7 @@ evaluate_legislature_percentages = {
 			limit = {
 				top_liege.primary_title = {
 					exists = var:conservative_absvalue
-					var:conservative_absvalue = { compare_value > 0 }
+					var:conservative_absvalue > 0
 				}
 			}
 			custom_tooltip = leg_perc_v
@@ -1223,7 +1223,7 @@ evaluate_legislature_percentages = {
 			limit = {
 				top_liege.primary_title = {
 					exists = var:communist_absvalue
-					var:communist_absvalue = { compare_value > 0 }
+					var:communist_absvalue > 0
 				}
 			}
 			custom_tooltip = leg_perc_c
@@ -1232,7 +1232,7 @@ evaluate_legislature_percentages = {
 			limit = {
 				top_liege.primary_title = {
 					exists = var:anarchist_absvalue
-					var:anarchist_absvalue = { compare_value > 0 }
+					var:anarchist_absvalue > 0
 				}
 			}
 			custom_tooltip = leg_perc_a
@@ -1241,7 +1241,7 @@ evaluate_legislature_percentages = {
 			limit = {
 				top_liege.primary_title = {
 					exists = var:independent_absvalue
-					var:independent_absvalue = { compare_value > 0 }
+					var:independent_absvalue > 0
 				}
 			}
 			custom_tooltip = leg_perc_i
@@ -1251,35 +1251,35 @@ evaluate_legislature_percentages = {
 				NOR = {
 					top_liege.primary_title = {
 						exists = var:liberal_absvalue
-						var:liberal_absvalue = { compare_value > 0 }
+						var:liberal_absvalue > 0
 					}
 					top_liege.primary_title = {
 						exists = var:socialist_absvalue
-						var:socialist_absvalue = { compare_value > 0 }
+						var:socialist_absvalue > 0
 					}
 					top_liege.primary_title = {
 						exists = var:reactionary_absvalue
-						var:reactionary_absvalue = { compare_value > 0 }
+						var:reactionary_absvalue > 0
 					}
 					top_liege.primary_title = {
 						exists = var:fascist_absvalue
-						var:fascist_absvalue = { compare_value > 0 }
+						var:fascist_absvalue > 0
 					}
 					top_liege.primary_title = {
 						exists = var:conservative_absvalue
-						var:conservative_absvalue = { compare_value > 0 }
+						var:conservative_absvalue > 0
 					}
 					top_liege.primary_title = {
 						exists = var:communist_absvalue
-						var:communist_absvalue = { compare_value > 0 }
+						var:communist_absvalue > 0
 					}
 					top_liege.primary_title = {
 						exists = var:anarchist_absvalue
-						var:anarchist_absvalue = { compare_value > 0 }
+						var:anarchist_absvalue > 0
 					}
 					top_liege.primary_title = {
 						exists = var:independent_absvalue
-						var:independent_absvalue = { compare_value > 0 }
+						var:independent_absvalue > 0
 					}
 				}
 			}
@@ -1507,6 +1507,14 @@ has_leg_limit_off = {
 		root_realm_uses_legislature_trigger = yes
 		top_liege.primary_title = {
 			is_target_in_variable_list = { name = enacted_laws_list target = flag:leg_life_title_term }
+		}
+	}
+}
+
+leg_has_gridlock = {
+	is_shown = {
+		top_liege.primary_title = {
+			has_variable = gridlock
 		}
 	}
 }

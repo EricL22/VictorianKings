@@ -29,11 +29,17 @@ d_durango = {
 	1835.10.23 = {	# department established
 		liege = e_mexico
 		government = republic_government
+		effect = {
+			set_variable = { name = conservative_value value = 5 }
+		}
 	}
 	1836.1.1 = {
 		holder = 6420038
 	}
 	1846.8.22 = {	# department dissolved
 		holder = 0
+		effect = {
+			remove_variable = conservative_value
+		}
 	}
 }

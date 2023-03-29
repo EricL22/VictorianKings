@@ -33,8 +33,14 @@ d_coahuila = {
 		holder = 6420052
 		liege = e_mexico
 		government = republic_government
+		effect = {
+			set_variable = { name = liberal_value value = 5 }
+		}
 	}
 	1846.8.22 = {	# department dissolved
 		holder = 0
+		effect = {
+			remove_variable = liberal_value
+		}
 	}
 }

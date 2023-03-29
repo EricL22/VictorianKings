@@ -93,6 +93,11 @@ k_connecticut = {
 	1800.1.1 = {
 		change_development_level = 26
 	}
+	1811.3.4 = {
+		effect = {
+			set_variable = { name = conservative_value value = 10 }
+		}
+	}
 	1811.5.9 = {
 		holder = 6400103
 		liege = e_united_states
@@ -103,6 +108,11 @@ k_connecticut = {
 	}
 	1833.5.1 = {
 		holder = 6400121
+	}
+	1835.3.4 = {
+		effect = {
+			remove_variable = conservative_value
+		}
 	}
 	1835.5.6 = {
 		holder = 6400121
@@ -118,8 +128,25 @@ k_new_york = {
 		liege = e_united_states
 		government = republic_government
 	}
+	1811.3.4 = {
+		effect = {
+			set_variable = { name = liberal_value value = 10 }
+		}
+	}
+	1815.3.4 = {
+		effect = {
+			set_variable = { name = liberal_value value = 5.5 }
+			set_variable = { name = conservative_value value = 4.5 }
+		}
+	}
 	1833.1.1 = {
 		holder = 6400122
+	}
+	1835.3.4 = {
+		effect = {
+			remove_variable = liberal_value
+			remove_variable = conservative_value
+		}
 	}
 }
 c_new_york = {
@@ -135,6 +162,11 @@ k_new_jersey = {
 		liege = e_united_states
 		government = republic_government
 	}
+	1811.3.4 = {
+		effect = {
+			set_variable = { name = liberal_value value = 10 }
+		}
+	}
 	1813.10.29 = {
 		holder = 6400124
 	}
@@ -143,6 +175,11 @@ k_new_jersey = {
 	}
 	1833.10.25 = {
 		holder = 6400125
+	}
+	1835.3.4 = {
+		effect = {
+			remove_variable = liberal_value
+		}
 	}
 }
 c_newark = {
@@ -174,11 +211,21 @@ k_delaware = {
 		liege = e_united_states
 		government = republic_government
 	}
+	1811.3.4 = {
+		effect = {
+			set_variable = { name = conservative_value value = 10 }
+		}
+	}
 	1814.1.18 = {
 		holder = 6400126
 	}
 	1833.1.15 = {
 		holder = 6400127
+	}
+	1835.3.4 = {
+		effect = {
+			remove_variable = conservative_value
+		}
 	}
 }
 
@@ -267,6 +314,11 @@ k_north_carolina = {
 	1800.1.1 = {
 		change_development_level = 7
 	}
+	1811.3.4 = {
+		effect = {
+			set_variable = { name = liberal_value value = 10 }
+		}
+	}
 	1811.12.11 = {
 		holder = 6400111
 		liege = e_united_states
@@ -274,6 +326,11 @@ k_north_carolina = {
 	}
 	1814.11.29 = {
 		holder = 6400115
+	}
+	1835.3.4 = {
+		effect = {
+			remove_variable = liberal_value
+		}
 	}
 	1835.12.10 = {
 		holder = 6400116
@@ -288,6 +345,11 @@ k_south_carolina = {
 		holder = 6400112
 		liege = e_united_states
 		government = republic_government
+	}
+	1811.3.4 = {
+		effect = {
+			set_variable = { name = liberal_value value = 10 }
+		}
 	}
 	1814.12.10 = {
 		holder = 6400134
@@ -305,6 +367,11 @@ k_georgia_state = {
 		holder = 6400113
 		liege = e_united_states
 		government = republic_government
+	}
+	1811.3.4 = {
+		effect = {
+			set_variable = { name = liberal_value value = 10 }
+		}
 	}
 	1813.11.5 = {
 		holder = 6400136
@@ -326,11 +393,28 @@ k_vermont = {
 		liege = e_united_states
 		government = republic_government
 	}
+	1811.3.4 = {
+		effect = {
+			set_variable = { name = liberal_value value = 10 }
+		}
+	}
 	1813.10.23 = {
 		holder = 6400117
 	}
+	1815.3.4 = {
+		effect = {
+			set_variable = { name = liberal_value value = 5.5 }
+			set_variable = { name = conservative_value value = 4.5 }
+		}
+	}
 	1815.10.14 = {
 		holder = 6400114
+	}
+	1835.3.4 = {
+		effect = {
+			remove_variable = liberal_value
+			remove_variable = conservative_value
+		}
 	}
 	1835.11.2 = {
 		holder = 6400118
@@ -426,6 +510,16 @@ k_tennessee = {
 		liege = e_united_states
 		government = republic_government
 	}
+	1811.3.4 = {
+		effect = {
+			set_variable = { name = liberal_value value = 10 }
+		}
+	}
+	1835.3.4 = {
+		effect = {
+			remove_variable = liberal_value
+		}
+	}
 	1835.10.12 = {
 		holder = 6400143
 	}
@@ -435,6 +529,11 @@ k_kentucky = {
 	1800.1.1 = {
 		change_development_level = 7
 	}
+	1811.3.4 = {
+		effect = {
+			set_variable = { name = liberal_value value = 10 }
+		}
+	}
 	1812.7.5 = {	# de jure 8.24
 		holder = 6400144
 		liege = e_united_states
@@ -442,6 +541,11 @@ k_kentucky = {
 	}
 	1834.2.21 = {
 		holder = 6400145
+	}
+	1835.3.4 = {
+		effect = {
+			remove_variable = liberal_value
+		}
 	}
 }
 
@@ -454,11 +558,21 @@ k_ohio = {
 		liege = e_united_states
 		government = republic_government
 	}
+	1811.3.4 = {
+		effect = {
+			set_variable = { name = liberal_value value = 10 }
+		}
+	}
 	1814.12.8 = {
 		holder = 6400147
 	}
 	1832.12.7 = {
 		holder = 6400148
+	}
+	1835.3.4 = {
+		effect = {
+			remove_variable = liberal_value
+		}
 	}
 }
 c_sandusky = {
@@ -482,6 +596,11 @@ k_louisiana = {
 		change_development_level = 7
 	}
 	#1803.12.20 - territory
+	1811.3.4 = {
+		effect = {
+			set_variable = { name = liberal_value value = 10 }
+		}
+	}
 	1812.4.30 = {	# de jure 7.30
 		holder = 6400149
 		liege = e_united_states
@@ -489,6 +608,11 @@ k_louisiana = {
 	}
 	1835.2.2 = {
 		holder = 6400150
+	}
+	1835.3.4 = {
+		effect = {
+			remove_variable = liberal_value
+		}
 	}
 }
 c_new_orleans = {

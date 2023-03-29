@@ -46,6 +46,10 @@
  republic_election.10.opponent_nomination.desc:0 "I have been nominated to run against [root_election_candidate.GetFullName] for control of the presidency."
  republic_election.10.president_nomination.desc:0 "The president has nominated me to be his successor as president of the Republic. I will not let him down!"
 
+ republic_election.11.t:0 "Legislative Election"
+ republic_election.11.desc:0 "That time of year has again arrived where polls are happening, candidates are coming forth, and debates are being held on who would best represent the people in the upcoming legislative elections. While not inherently democratic, legislatures form a vital part in the government's balance of power—and thus carry through their elections the power of coercion and accountability."
+ republic_election.11.a:0 "Let's see how this pans out."
+
  legislature.1.t:0 "A New Session of Legislature"
  legislature.1.chancellor.desc:0 "My chancellor, [chancellor.GetName], assumes [chancellor.GetHerHis] position as the head speaker for the legislature of the realm within the great legislative chamber. After a few introductory remarks, [chancellor.GetSheHe] declares, \n\n"
  legislature.1.speaker.desc:0 "The head speaker of the legislature assumes his position at the front of the legislative hall. After a few introductory remarks, he declares, \n\n"
@@ -194,7 +198,7 @@
  incompatible_vote_franchise:0 "Incompatible with your Voting Franchise"
 
  MY_REALM_WINDOW_LEGISLATURE_TAB:0 "Legislature"
- MY_REALM_WINDOW_TOP_LEGISLATURE:0 "Legislature of the [GetPlayer.GetLiege.GetPrimaryTitle.GetBaseName|U]"
+ MY_REALM_WINDOW_TOP_LEGISLATURE:0 "Legislature of the [GetPlayer.GetTopLiege.GetPrimaryTitle.GetBaseName|U]"
  MY_REALM_WINDOW_CURRENTLY_DEBATING:0 "Currently Debating"
  MY_REALM_WINDOW_DOMESTIC_DEBATE:0 "#V [GetPlayer.Custom('GetDebateBillName')]#! [GetPlayer.Custom('GetDebateBillCategory')]"
  debate_statehood:0 "Statehood"
@@ -203,7 +207,9 @@
  debate_opposed:0 "Opposed"
  MY_REALM_WINDOW_FOREIGN_DEBATE:0 "[GetPlayer.Custom('GetDebateForeignCategory')] #V [GetPlayer.Custom('GetDebateForeignTarget')]#!"
  debate_war:0 "Declaration of War against the"
- debate_war_target:0 "[GetPlayer.GetPrimaryTitle.MakeScope.Var('proposed_war_target').GetCharacter.GetPrimaryTitle.GetBaseName]"
+ debate_war_target:0 "[GetPlayer.GetTopLiege.GetPrimaryTitle.MakeScope.Var('proposed_war_target').GetCharacter.GetPrimaryTitle.GetBaseName]"
+ MY_REALM_WINDOW_GRIDLOCK:0 "#N Gridlock#!"
+ legislature_gridlocked_tooltip:0 "The realm legislature is in a state of gridlock, reducing its efficiency.\nCaused by:\n    Upper House: [GetPlayer.Custom('GetUpperHouseMajority')]\n    Lower House: [GetPlayer.Custom('GetLowerHouseMajority')]\nEffects:\nNay votes will count for 50% more in debate"
  MY_REALM_WINDOW_LEGISLATURE_COMPOSITION:0 "Composition"
  leg_perc_l:0 "Liberal: [CurrentAndMaxToProgressbarValueInt32( FixedPointToInt( GetPlayer.GetTopLiege.GetPrimaryTitle.MakeScope.Var('liberal_pievalue').GetValue ), FixedPointToInt( GetPlayer.GetTopLiege.GetPrimaryTitle.MakeScope.Var('independent_pievalue').GetValue ) )]%"
  leg_perc_s:0 "Socialist: [CurrentAndMaxToProgressbarValueInt32( FixedPointToInt( Subtract_CFixedPoint( GetPlayer.GetTopLiege.GetPrimaryTitle.MakeScope.Var('socialist_pievalue').GetValue, GetPlayer.GetTopLiege.GetPrimaryTitle.MakeScope.Var('liberal_pievalue').GetValue ) ), FixedPointToInt( GetPlayer.GetTopLiege.GetPrimaryTitle.MakeScope.Var('independent_pievalue').GetValue ) )]%"

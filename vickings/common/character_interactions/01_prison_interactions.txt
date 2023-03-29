@@ -128,6 +128,9 @@
 					if = {
 						limit = {
 							this.gold > 0
+							NOT = {
+								has_character_flag = realm_priest
+							}
 						}
 						pay_short_term_gold = { target = scope:actor gold = this.gold }
 					}
@@ -686,6 +689,11 @@
 					}
 					scope:demand_conversion = yes
 				}
+			}
+			custom_description = {
+				text = "release_executioner_invalid_take_vows_condition"
+				object = scope:recipient
+				scope:become_executioner = no
 			}
 			custom_description = {
 				text = "release_banish_invalid_take_vows"

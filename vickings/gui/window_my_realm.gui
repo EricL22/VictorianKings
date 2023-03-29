@@ -2862,7 +2862,7 @@ window = {
 								visible = "[Or(GetScriptedGui('leg_currently_debating_domestic').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End), GetScriptedGui('leg_currently_debating_foreign').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End))]"
 								spacing = 5
 								layoutpolicy_horizontal = expanding
-								margin_bottom = 20
+								margin_bottom = 10
 
 								text_single = {
 									text = "MY_REALM_WINDOW_CURRENTLY_DEBATING"
@@ -3320,9 +3320,18 @@ window = {
 								}
 							}
 
+							text_single = {
+								visible = "[GetScriptedGui('leg_has_gridlock').IsShown(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+								text = "MY_REALM_WINDOW_GRIDLOCK"
+								fontsize = 20
+								tooltip = "legislature_gridlocked_tooltip"
+								margin_bottom = 10
+							}
+
 							vbox = {
 								spacing = 18
 								layoutpolicy_horizontal = expanding
+								margin_top = 10
 								margin_bottom = 10
 
 								text_label_center = {

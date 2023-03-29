@@ -30,11 +30,17 @@ d_sonora = {
 	1835.10.23 = {	# department established
 		liege = e_mexico
 		government = republic_government
+		effect = {
+			set_variable = { name = liberal_value value = 5 }
+		}
 	}
 	1835.11.21 = {
 		holder = 6420030
 	}
 	1846.8.22 = {	# department dissolved
 		holder = 0
+		effect = {
+			remove_variable = liberal_value
+		}
 	}
 }

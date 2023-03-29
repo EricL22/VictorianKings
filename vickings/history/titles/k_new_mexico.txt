@@ -22,10 +22,18 @@ d_new_mexico = {
 		liege = e_mexico
 		government = republic_government
 	}
+	1833.3.20 = {
+		effect = {
+			set_variable = { name = liberal_value value = 5 }
+		}
+	}
 	1835.7.1 = {
 		holder = 6420006
 	}
 	1846.9.1 = {	# became a territory of the United States
 		liege = e_united_states
+		effect = {
+			remove_variable = liberal_value
+		}
 	}
 }

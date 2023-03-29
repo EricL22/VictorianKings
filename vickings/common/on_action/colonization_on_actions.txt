@@ -99,7 +99,7 @@ colonization_events_cycle = {
 			}
 			if = {
 				limit = {
-					scope:colony_current_progress = { compare_value >= scope:colony_total_time }
+					scope:colony_current_progress >= scope:colony_total_time
 				}
 				every_independent_ruler = {
 					limit = { any_realm_county = { is_in_list = conquest_colonies } }

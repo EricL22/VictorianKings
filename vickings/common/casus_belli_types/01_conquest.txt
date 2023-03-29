@@ -38,10 +38,16 @@
 				}
 			}
 		}
-		# Struggle constraint
-		struggle_blocks_invasion_conquest_cb_trigger = yes
 		NOT = {
 			target_conquest_blocked_by_treaty_trigger = { CHARACTER = scope:attacker TARGET = scope:target }
+		}
+	}
+
+	allowed_for_character_display_regardless = {
+		# Struggle constraint
+		custom_tooltip = {
+			text = struggle_involvement_cb_check_failure
+			struggle_blocks_invasion_conquest_cb_trigger = yes
 		}
 	}
 

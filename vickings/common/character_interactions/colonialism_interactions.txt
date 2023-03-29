@@ -2099,7 +2099,7 @@ create_us_state_interaction = {
 				set_variable = { name = debating_law value = flag:state_admission }
 				set_variable = { name = admitting_state value = scope:recipient.primary_title }
 				if = {
-					limit = { scope:recipient = { any_sub_realm_county = { has_variable = slavery_percent var:slavery_percent = { compare_value > 0.1 } } } }
+					limit = { scope:recipient = { any_sub_realm_county = { has_variable = slavery_percent var:slavery_percent > 0.1 } } }
 					generate_party_acceptance_values = {
 						PRO_SLAVERY = 50
 						LAISSEZ_FAIRE = 0 REG_ECONOMY = 0 SOCIAL_LIBERTY = 0 SOCIAL_HIERARCHY = 0 UNIVERSAL_ACCEPTANCE_VALUE = 0
@@ -2159,7 +2159,7 @@ apply_for_us_state_interaction = {
 				set_variable = { name = debating_law value = flag:state_admission }
 				set_variable = { name = admitting_state value = scope:actor.primary_title }
 				if = {
-					limit = { scope:actor = { any_sub_realm_county = { has_variable = slavery_percent var:slavery_percent = { compare_value > 0.1 } } } }
+					limit = { scope:actor = { any_sub_realm_county = { has_variable = slavery_percent var:slavery_percent > 0.1 } } }
 					generate_party_acceptance_values = {
 						PRO_SLAVERY = 50
 						LAISSEZ_FAIRE = 0 REG_ECONOMY = 0 SOCIAL_LIBERTY = 0 SOCIAL_HIERARCHY = 0 UNIVERSAL_ACCEPTANCE_VALUE = 0

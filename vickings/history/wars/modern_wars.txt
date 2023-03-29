@@ -59,3 +59,17 @@ war = {
 	attackers = { 6430006 }
 	defenders = { 6420000 }
 }
+
+# Californio Revolution
+war = {
+	name = "war_Californio_Rebellion"
+	start_date = 1836.1.1
+	end_date = 1837.1.1
+	targeted_titles = {
+		d_california
+	}
+	casus_belli = claim_revolt_cb
+	attackers = { 6420005 }
+	defenders = { 6420022 }
+	claimant = 6420005
+}

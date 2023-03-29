@@ -1584,3 +1584,23 @@ republic_election.10 = {
 		name = republic_election.5.a
 	}
 }
+
+# fired from on_yearly_global_pulse or before
+republic_election.11 = {
+	type = character_event
+	title = republic_election.11.t
+	desc = republic_election.11.desc
+	theme = diplomacy
+	left_portrait = {
+		character = root
+		animation = idle
+	}
+	
+	trigger = {
+		has_government = republic_government
+	}
+	
+	option = {
+		name = republic_election.11.a
+	}
+}

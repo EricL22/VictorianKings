@@ -310,7 +310,7 @@ GetLegVoteResultsBill = {
 			primary_title = {
 				exists = var:yay_predict
 				exists = var:nay_predict
-				var:yay_predict.compare_value > { value = var:nay_predict }
+				var:yay_predict > var:nay_predict
 			}
 		}
 		localization_key = propbill.PASS
@@ -320,7 +320,7 @@ GetLegVoteResultsBill = {
 			primary_title = {
 				exists = var:yay_predict
 				exists = var:nay_predict
-				var:yay_predict.compare_value = { value = var:nay_predict }
+				var:yay_predict = var:nay_predict
 			}
 		}
 		localization_key = propbill.TIE
@@ -338,7 +338,7 @@ GetLegVoteForeignResultsBill = {
 			capital_county = {
 				exists = var:yay_predict
 				exists = var:nay_predict
-				var:yay_predict.compare_value > { value = var:nay_predict }
+				var:yay_predict > var:nay_predict
 			}
 		}
 		localization_key = propbill.PASS
@@ -348,7 +348,7 @@ GetLegVoteForeignResultsBill = {
 			capital_county = {
 				exists = var:yay_predict
 				exists = var:nay_predict
-				var:yay_predict.compare_value = { value = var:nay_predict }
+				var:yay_predict = var:nay_predict
 			}
 		}
 		localization_key = propbill.TIE

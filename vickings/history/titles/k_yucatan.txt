@@ -10,6 +10,9 @@ k_yucatan = {
 		liege = e_mexico
 		government = republic_government
 	}
+	1835.10.23 = {	# department established
+		holder = 0
+	}
 	1861.6.3 = {
 		holder = 6420087
 	}
@@ -20,8 +23,14 @@ d_yucatan = {
 		holder = 6420086
 		liege = e_mexico
 		government = republic_government
+		effect = {
+			set_variable = { name = liberal_value value = 5 }
+		}
 	}
 	1846.8.22 = {	# department dissolved
 		holder = 0
+		effect = {
+			remove_variable = liberal_value
+		}
 	}
 }

@@ -92,45 +92,48 @@
 	}
 	1804.1.1 = {
 		effect = {
-			add_prestige = 2000 # Rich and prestigious from coalition wars
-			add_prestige_experience = 10000 # Napoleon is close to godlike
-			add_gold = 500
-			dynasty = { add_dynasty_prestige = 10000 }
+			if = {
+				limit = { is_landed = yes }
+				add_prestige = 2000 # Rich and prestigious from coalition wars
+				add_prestige_experience = 10000 # Napoleon is close to godlike
+				add_gold = 500
+				dynasty = { add_dynasty_prestige = 10000 }
 
-			add_realm_law_skip_effects = crown_authority_2
+				add_realm_law_skip_effects = crown_authority_2
 
-			# Grande Armée - It is only a quarter of its real size to due OPness
-			spawn_army = {
-				name = "Grande Armée"
-				levies = 100000
-				# all men-at-arms quarter size except horse archers
-				men_at_arms = {
-					type = armored_footmen
-					stacks = 100
+				# Grande Armée - It is only a quarter of its real size to due OPness
+				spawn_army = {
+					name = "Grande Armée"
+					levies = 100000
+					# all men-at-arms quarter size except horse archers
+					men_at_arms = {
+						type = armored_footmen
+						stacks = 100
+					}
+					men_at_arms = {
+						type = light_horsemen
+						stacks = 125
+					}
+					men_at_arms = {
+						type = gendarme
+						stacks = 125
+					}
+					men_at_arms = {
+						type = bombard
+						stacks = 4	# halved from 7
+					}
+					men_at_arms = {
+						type = horse_archers	# supposed to represent horse artillery
+						stacks = 1
+					}
+					location = province:156
+					origin = province:2333
+					inheritable = yes
+					save_temporary_scope_as = new_armee
 				}
-				men_at_arms = {
-					type = light_horsemen
-					stacks = 125
+				scope:new_armee = {
+					assign_commander = character:9000001
 				}
-				men_at_arms = {
-					type = gendarme
-					stacks = 125
-				}
-				men_at_arms = {
-					type = bombard
-					stacks = 4	# halved from 7
-				}
-				men_at_arms = {
-					type = horse_archers	# supposed to represent horse artillery
-					stacks = 1
-				}
-				location = province:156
-				origin = province:2333
-				inheritable = yes
-				save_temporary_scope_as = new_armee
-			}
-			scope:new_armee = {
-				assign_commander = character:9000001
 			}
 		}
 	}
@@ -3816,7 +3819,7 @@
 9176952 = {
 	name = "Arthur"
 	dynasty = 378212
-	religion = "catholic"
+	religion = protestant
 	culture = english
 	trait = education_martial_3
 	trait = unyielding_defender

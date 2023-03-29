@@ -22,259 +22,259 @@ e_united_states = {
 	item = {
 		trigger = {
 			has_variable = num_states
-			var:num_states = { compare_value = 14 }
+			var:num_states = 14
 		}
 		coat_of_arms = e_united_states_14
 	}
 	item = {
 		trigger = {
 			has_variable = num_states
-			var:num_states = { compare_value = 15 }
+			var:num_states = 15
 		}
 		coat_of_arms = e_united_states_15
 	}
 	item = {
 		trigger = {
 			has_variable = num_states
-			var:num_states = { compare_value = 16 }
+			var:num_states = 16
 		}
 		coat_of_arms = e_united_states_16
 	}
 	item = {
 		trigger = {
 			has_variable = num_states
-			var:num_states = { compare_value = 17 }
+			var:num_states = 17
 		}
 		coat_of_arms = e_united_states_17
 	}
 	item = {
 		trigger = {
 			has_variable = num_states
-			var:num_states = { compare_value = 18 }
+			var:num_states = 18
 		}
 		coat_of_arms = e_united_states_18
 	}
 	item = {
 		trigger = {
 			has_variable = num_states
-			var:num_states = { compare_value = 19 }
+			var:num_states = 19
 		}
 		coat_of_arms = e_united_states_19
 	}
 	item = {
 		trigger = {
 			has_variable = num_states
-			var:num_states = { compare_value = 20 }
+			var:num_states = 20
 		}
 		coat_of_arms = e_united_states_20
 	}
 	item = {
 		trigger = {
 			has_variable = num_states
-			var:num_states = { compare_value = 21 }
+			var:num_states = 21
 		}
 		coat_of_arms = e_united_states_21
 	}
 	item = {
 		trigger = {
 			has_variable = num_states
-			var:num_states = { compare_value = 22 }
+			var:num_states = 22
 		}
 		coat_of_arms = e_united_states_22
 	}
 	item = {
 		trigger = {
 			has_variable = num_states
-			var:num_states = { compare_value = 23 }
+			var:num_states = 23
 		}
 		coat_of_arms = e_united_states_23
 	}
 	item = {
 		trigger = {
 			has_variable = num_states
-			var:num_states = { compare_value = 24 }
+			var:num_states = 24
 		}
 		coat_of_arms = e_united_states_24
 	}
 	item = {
 		trigger = {
 			has_variable = num_states
-			var:num_states = { compare_value = 25 }
+			var:num_states = 25
 		}
 		coat_of_arms = e_united_states_25
 	}
 	item = {
 		trigger = {
 			has_variable = num_states
-			var:num_states = { compare_value = 26 }
+			var:num_states = 26
 		}
 		coat_of_arms = e_united_states_26
 	}
 	item = {
 		trigger = {
 			has_variable = num_states
-			var:num_states = { compare_value = 27 }
+			var:num_states = 27
 		}
 		coat_of_arms = e_united_states_27
 	}
 	item = {
 		trigger = {
 			has_variable = num_states
-			var:num_states = { compare_value = 28 }
+			var:num_states = 28
 		}
 		coat_of_arms = e_united_states_28
 	}
 	item = {
 		trigger = {
 			has_variable = num_states
-			var:num_states = { compare_value = 29 }
+			var:num_states = 29
 		}
 		coat_of_arms = e_united_states_29
 	}
 	item = {
 		trigger = {
 			has_variable = num_states
-			var:num_states = { compare_value = 30 }
+			var:num_states = 30
 		}
 		coat_of_arms = e_united_states_30
 	}
 	item = {
 		trigger = {
 			has_variable = num_states
-			var:num_states = { compare_value = 31 }
+			var:num_states = 31
 		}
 		coat_of_arms = e_united_states_31
 	}
 	item = {
 		trigger = {
 			has_variable = num_states
-			var:num_states = { compare_value = 32 }
+			var:num_states = 32
 		}
 		coat_of_arms = e_united_states_32
 	}
 	item = {
 		trigger = {
 			has_variable = num_states
-			var:num_states = { compare_value = 33 }
+			var:num_states = 33
 		}
 		coat_of_arms = e_united_states_33
 	}
 	item = {
 		trigger = {
 			has_variable = num_states
-			var:num_states = { compare_value = 34 }
+			var:num_states = 34
 		}
 		coat_of_arms = e_united_states_34
 	}
 	item = {
 		trigger = {
 			has_variable = num_states
-			var:num_states = { compare_value = 35 }
+			var:num_states = 35
 		}
 		coat_of_arms = e_united_states_35
 	}
 	item = {
 		trigger = {
 			has_variable = num_states
-			var:num_states = { compare_value = 36 }
+			var:num_states = 36
 		}
 		coat_of_arms = e_united_states_36
 	}
 	item = {
 		trigger = {
 			has_variable = num_states
-			var:num_states = { compare_value = 37 }
+			var:num_states = 37
 		}
 		coat_of_arms = e_united_states_37
 	}
 	item = {
 		trigger = {
 			has_variable = num_states
-			var:num_states = { compare_value = 38 }
+			var:num_states = 38
 		}
 		coat_of_arms = e_united_states_38
 	}
 	item = {
 		trigger = {
 			has_variable = num_states
-			var:num_states = { compare_value = 39 }
+			var:num_states = 39
 		}
 		coat_of_arms = e_united_states_39
 	}
 	item = {
 		trigger = {
 			has_variable = num_states
-			var:num_states = { compare_value = 40 }
+			var:num_states = 40
 		}
 		coat_of_arms = e_united_states_40
 	}
 	item = {
 		trigger = {
 			has_variable = num_states
-			var:num_states = { compare_value = 41 }
+			var:num_states = 41
 		}
 		coat_of_arms = e_united_states_41
 	}
 	item = {
 		trigger = {
 			has_variable = num_states
-			var:num_states = { compare_value = 42 }
+			var:num_states = 42
 		}
 		coat_of_arms = e_united_states_42
 	}
 	item = {
 		trigger = {
 			has_variable = num_states
-			var:num_states = { compare_value = 43 }
+			var:num_states = 43
 		}
 		coat_of_arms = e_united_states_43
 	}
 	item = {
 		trigger = {
 			has_variable = num_states
-			var:num_states = { compare_value = 44 }
+			var:num_states = 44
 		}
 		coat_of_arms = e_united_states_44
 	}
 	item = {
 		trigger = {
 			has_variable = num_states
-			var:num_states = { compare_value = 45 }
+			var:num_states = 45
 		}
 		coat_of_arms = e_united_states_45
 	}
 	item = {
 		trigger = {
 			has_variable = num_states
-			var:num_states = { compare_value = 46 }
+			var:num_states = 46
 		}
 		coat_of_arms = e_united_states_46
 	}
 	item = {
 		trigger = {
 			has_variable = num_states
-			var:num_states = { compare_value = 47 }
+			var:num_states = 47
 		}
 		coat_of_arms = e_united_states_47
 	}
 	item = {
 		trigger = {
 			has_variable = num_states
-			var:num_states = { compare_value = 48 }
+			var:num_states = 48
 		}
 		coat_of_arms = e_united_states_48
 	}
 	item = {
 		trigger = {
 			has_variable = num_states
-			var:num_states = { compare_value = 49 }
+			var:num_states = 49
 		}
 		coat_of_arms = e_united_states_49
 	}
 	item = {
 		trigger = {
 			has_variable = num_states
-			var:num_states = { compare_value = 50 }
+			var:num_states = 50
 		}
 		coat_of_arms = e_united_states_50
 	}

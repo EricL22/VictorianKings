@@ -26,6 +26,7 @@
 					has_government = republic_government
 				}
 				OR = {
+					is_ai = yes
 					AND = {
 						is_independent_ruler = yes
 						primary_title = {

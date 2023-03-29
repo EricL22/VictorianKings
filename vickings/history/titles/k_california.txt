@@ -27,11 +27,26 @@ d_california = {
 		government = republic_government
 		name = alta_california
 	}
+	1833.3.30 = {
+		effect = {
+			set_variable = { name = liberal_value value = 5 }
+		}
+	}
 	1836.1.1 = {
 		holder = 6420022
 	}
 	1847.1.10 = {	# territorial government abolished
 		holder = 0
+		effect = {
+			remove_variable = liberal_value
+		}
+	}
+}
+c_imbhemerothos = {
+	1836.1.1 = {
+		holder = 6420005
+		government = republic_government
+		liege = d_california
 	}
 }
 

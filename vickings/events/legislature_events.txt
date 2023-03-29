@@ -47,12 +47,12 @@ legislature.1 = {
 			if = {
 				limit = { exists = var:liberal_acceptance }
 				if = {
-					limit = { var:liberal_acceptance = { compare_value > 0 } }
+					limit = { var:liberal_acceptance > 0 }
 					change_variable = { name = yay_predict add = var:liberal_acceptance }
 					change_variable = { name = yay_percent add = var:liberal_prop }
 				}
 				else_if = {
-					limit = { var:liberal_acceptance = { compare_value < 0 } }
+					limit = { var:liberal_acceptance < 0 }
 					change_variable = { name = nay_predict subtract = var:liberal_acceptance }
 					change_variable = { name = nay_percent add = var:liberal_prop }
 				}
@@ -60,12 +60,12 @@ legislature.1 = {
 			if = {
 				limit = { exists = var:socialist_acceptance }
 				if = {
-					limit = { var:socialist_acceptance = { compare_value > 0 } }
+					limit = { var:socialist_acceptance > 0 }
 					change_variable = { name = yay_predict add = var:socialist_acceptance }
 					change_variable = { name = yay_percent add = var:socialist_prop }
 				}
 				else_if = {
-					limit = { var:socialist_acceptance = { compare_value < 0 } }
+					limit = { var:socialist_acceptance < 0 }
 					change_variable = { name = nay_predict subtract = var:socialist_acceptance }
 					change_variable = { name = nay_percent add = var:socialist_prop }
 				}
@@ -73,12 +73,12 @@ legislature.1 = {
 			if = {
 				limit = { exists = var:reactionary_acceptance }
 				if = {
-					limit = { var:reactionary_acceptance = { compare_value > 0 } }
+					limit = { var:reactionary_acceptance > 0 }
 					change_variable = { name = yay_predict add = var:reactionary_acceptance }
 					change_variable = { name = yay_percent add = var:reactionary_prop }
 				}
 				else_if = {
-					limit = { var:reactionary_acceptance = { compare_value < 0 } }
+					limit = { var:reactionary_acceptance < 0 }
 					change_variable = { name = nay_predict subtract = var:reactionary_acceptance }
 					change_variable = { name = nay_percent add = var:reactionary_prop }
 				}
@@ -86,12 +86,12 @@ legislature.1 = {
 			if = {
 				limit = { exists = var:fascist_acceptance }
 				if = {
-					limit = { var:fascist_acceptance = { compare_value > 0 } }
+					limit = { var:fascist_acceptance > 0 }
 					change_variable = { name = yay_predict add = var:fascist_acceptance }
 					change_variable = { name = yay_percent add = var:fascist_prop }
 				}
 				else_if = {
-					limit = { var:fascist_acceptance = { compare_value < 0 } }
+					limit = { var:fascist_acceptance < 0 }
 					change_variable = { name = nay_predict subtract = var:fascist_acceptance }
 					change_variable = { name = nay_percent add = var:fascist_prop }
 				}
@@ -99,12 +99,12 @@ legislature.1 = {
 			if = {
 				limit = { exists = var:conservative_acceptance }
 				if = {
-					limit = { var:conservative_acceptance = { compare_value > 0 } }
+					limit = { var:conservative_acceptance > 0 }
 					change_variable = { name = yay_predict add = var:conservative_acceptance }
 					change_variable = { name = yay_percent add = var:conservative_prop }
 				}
 				else_if = {
-					limit = { var:conservative_acceptance = { compare_value < 0 } }
+					limit = { var:conservative_acceptance < 0 }
 					change_variable = { name = nay_predict subtract = var:conservative_acceptance }
 					change_variable = { name = nay_percent add = var:conservative_prop }
 				}
@@ -112,12 +112,12 @@ legislature.1 = {
 			if = {
 				limit = { exists = var:communist_acceptance }
 				if = {
-					limit = { var:communist_acceptance = { compare_value > 0 } }
+					limit = { var:communist_acceptance > 0 }
 					change_variable = { name = yay_predict add = var:communist_acceptance }
 					change_variable = { name = yay_percent add = var:communist_prop }
 				}
 				else_if = {
-					limit = { var:communist_acceptance = { compare_value < 0 } }
+					limit = { var:communist_acceptance < 0 }
 					change_variable = { name = nay_predict subtract = var:communist_acceptance }
 					change_variable = { name = nay_percent add = var:communist_prop }
 				}
@@ -125,12 +125,12 @@ legislature.1 = {
 			if = {
 				limit = { exists = var:anarchist_acceptance }
 				if = {
-					limit = { var:anarchist_acceptance = { compare_value > 0 } }
+					limit = { var:anarchist_acceptance > 0 }
 					change_variable = { name = yay_predict add = var:anarchist_acceptance }
 					change_variable = { name = yay_percent add = var:anarchist_prop }
 				}
 				else_if = {
-					limit = { var:anarchist_acceptance = { compare_value < 0 } }
+					limit = { var:anarchist_acceptance < 0 }
 					change_variable = { name = nay_predict subtract = var:anarchist_acceptance }
 					change_variable = { name = nay_percent add = var:anarchist_prop }
 				}
@@ -199,62 +199,7 @@ legislature.1 = {
 		remove_variable = yay_predict
 		remove_variable = nay_predict
 		primary_title = {
-			if = {
-				limit = { exists = var:liberal_acceptance }
-				change_variable = { name = liberal_acceptance add = 100 }
-				set_variable = { name = liberal_rejectance value = { value = 200 subtract = var:liberal_acceptance } }
-				set_variable = { name = liberal_yay value = 0 }
-				set_variable = { name = liberal_nay value = 0 }
-			}
-			if = {
-				limit = { exists = var:socialist_acceptance }
-				change_variable = { name = socialist_acceptance add = 100 }
-				set_variable = { name = socialist_rejectance value = { value = 200 subtract = var:socialist_acceptance } }
-				set_variable = { name = socialist_yay value = 0 }
-				set_variable = { name = socialist_nay value = 0 }
-			}
-			if = {
-				limit = { exists = var:reactionary_acceptance }
-				change_variable = { name = reactionary_acceptance add = 100 }
-				set_variable = { name = reactionary_rejectance value = { value = 200 subtract = var:reactionary_acceptance } }
-				set_variable = { name = reactionary_yay value = 0 }
-				set_variable = { name = reactionary_nay value = 0 }
-			}
-			if = {
-				limit = { exists = var:fascist_acceptance }
-				change_variable = { name = fascist_acceptance add = 100 }
-				set_variable = { name = fascist_rejectance value = { value = 200 subtract = var:fascist_acceptance } }
-				set_variable = { name = fascist_yay value = 0 }
-				set_variable = { name = fascist_nay value = 0 }
-			}
-			if = {
-				limit = { exists = var:conservative_acceptance }
-				change_variable = { name = conservative_acceptance add = 100 }
-				set_variable = { name = conservative_rejectance value = { value = 200 subtract = var:conservative_acceptance } }
-				set_variable = { name = conservative_yay value = 0 }
-				set_variable = { name = conservative_nay value = 0 }
-			}
-			if = {
-				limit = { exists = var:communist_acceptance }
-				change_variable = { name = communist_acceptance add = 100 }
-				set_variable = { name = communist_rejectance value = { value = 200 subtract = var:communist_acceptance } }
-				set_variable = { name = communist_yay value = 0 }
-				set_variable = { name = communist_nay value = 0 }
-			}
-			if = {
-				limit = { exists = var:anarchist_acceptance }
-				change_variable = { name = anarchist_acceptance add = 100 }
-				set_variable = { name = anarchist_rejectance value = { value = 200 subtract = var:anarchist_acceptance } }
-				set_variable = { name = anarchist_yay value = 0 }
-				set_variable = { name = anarchist_nay value = 0 }
-			}
-			if = {
-				limit = { exists = var:independent_acceptance }
-				change_variable = { name = independent_acceptance add = 100 }
-				set_variable = { name = independent_rejectance value = { value = 200 subtract = var:independent_acceptance } }
-				set_variable = { name = independent_yay value = 0 }
-				set_variable = { name = independent_nay value = 0 }
-			}
+			initialize_legislature_voting_variables_effect = yes
 		}
 	}
 }
@@ -282,226 +227,48 @@ legislature.2 = {
 
 	immediate = {
 		primary_title = {
-			set_variable = { name = random_counter value = { 1 25 } }
-			random_list = {
-				1 = {
-					trigger = {
-						exists = var:liberal_acceptance
-						var:liberal_yay.compare_value < { value = 100 subtract = var:liberal_nay }
-					}
-					while = {
-						limit = {
-							var:liberal_yay.compare_value < { value = 100 subtract = var:liberal_nay }
-							var:random_counter = { compare_value > 0 }
-						}
-						random_list = {
-							0 = {
-								modifier = { add = var:liberal_acceptance }
-								change_variable = { name = liberal_yay add = 1 }
-							}
-							0 = {
-								modifier = { add = var:liberal_rejectance }
-								change_variable = { name = liberal_nay add = 1 }
-							}
-						}
-						change_variable = { name = random_counter subtract = 1 }
-					}
-				}
-				1 = {
-					trigger = {
-						exists = var:socialist_acceptance
-						var:socialist_yay.compare_value < { value = 100 subtract = var:socialist_nay }
-					}
-					while = {
-						limit = {
-							var:socialist_yay.compare_value < { value = 100 subtract = var:socialist_nay }
-							var:random_counter = { compare_value > 0 }
-						}
-						random_list = {
-							0 = {
-								modifier = { add = var:socialist_acceptance }
-								change_variable = { name = socialist_yay add = 1 }
-							}
-							0 = {
-								modifier = { add = var:socialist_rejectance }
-								change_variable = { name = socialist_nay add = 1 }
-							}
-						}
-						change_variable = { name = random_counter subtract = 1 }
-					}
-				}
-				1 = {
-					trigger = {
-						exists = var:reactionary_acceptance
-						var:reactionary_yay.compare_value < { value = 100 subtract = var:reactionary_nay }
-					}
-					while = {
-						limit = {
-							var:reactionary_yay.compare_value < { value = 100 subtract = var:reactionary_nay }
-							var:random_counter = { compare_value > 0 }
-						}
-						random_list = {
-							0 = {
-								modifier = { add = var:reactionary_acceptance }
-								change_variable = { name = reactionary_yay add = 1 }
-							}
-							0 = {
-								modifier = { add = var:reactionary_rejectance }
-								change_variable = { name = reactionary_nay add = 1 }
-							}
-						}
-						change_variable = { name = random_counter subtract = 1 }
-					}
-				}
-				1 = {
-					trigger = {
-						exists = var:fascist_acceptance
-						var:fascist_yay.compare_value < { value = 100 subtract = var:fascist_nay }
-					}
-					while = {
-						limit = {
-							var:fascist_yay.compare_value < { value = 100 subtract = var:fascist_nay }
-							var:random_counter = { compare_value > 0 }
-						}
-						random_list = {
-							0 = {
-								modifier = { add = var:fascist_acceptance }
-								change_variable = { name = fascist_yay add = 1 }
-							}
-							0 = {
-								modifier = { add = var:fascist_rejectance }
-								change_variable = { name = fascist_nay add = 1 }
-							}
-						}
-						change_variable = { name = random_counter subtract = 1 }
-					}
-				}
-				1 = {
-					trigger = {
-						exists = var:conservative_acceptance
-						var:conservative_yay.compare_value < { value = 100 subtract = var:conservative_nay }
-					}
-					while = {
-						limit = {
-							var:conservative_yay.compare_value < { value = 100 subtract = var:conservative_nay }
-							var:random_counter = { compare_value > 0 }
-						}
-						random_list = {
-							0 = {
-								modifier = { add = var:conservative_acceptance }
-								change_variable = { name = conservative_yay add = 1 }
-							}
-							0 = {
-								modifier = { add = var:conservative_rejectance }
-								change_variable = { name = conservative_nay add = 1 }
-							}
-						}
-						change_variable = { name = random_counter subtract = 1 }
-					}
-				}
-				1 = {
-					trigger = {
-						exists = var:communist_acceptance
-						var:communist_yay.compare_value < { value = 100 subtract = var:communist_nay }
-					}
-					while = {
-						limit = {
-							var:communist_yay.compare_value < { value = 100 subtract = var:communist_nay }
-							var:random_counter = { compare_value > 0 }
-						}
-						random_list = {
-							0 = {
-								modifier = { add = var:communist_acceptance }
-								change_variable = { name = communist_yay add = 1 }
-							}
-							0 = {
-								modifier = { add = var:communist_rejectance }
-								change_variable = { name = communist_nay add = 1 }
-							}
-						}
-						change_variable = { name = random_counter subtract = 1 }
-					}
-				}
-				1 = {
-					trigger = {
-						exists = var:anarchist_acceptance
-						var:anarchist_yay.compare_value < { value = 100 subtract = var:anarchist_nay }
-					}
-					while = {
-						limit = {
-							var:anarchist_yay.compare_value < { value = 100 subtract = var:anarchist_nay }
-							var:random_counter = { compare_value > 0 }
-						}
-						random_list = {
-							0 = {
-								modifier = { add = var:anarchist_acceptance }
-								change_variable = { name = anarchist_yay add = 1 }
-							}
-							0 = {
-								modifier = { add = var:anarchist_rejectance }
-								change_variable = { name = anarchist_nay add = 1 }
-							}
-						}
-						change_variable = { name = random_counter subtract = 1 }
-					}
-				}
-				1 = {
-					trigger = {
-						exists = var:independent_acceptance
-						var:independent_yay.compare_value < { value = 100 subtract = var:independent_nay }
-					}
-					while = {
-						limit = {
-							var:independent_yay.compare_value < { value = 100 subtract = var:independent_nay }
-							var:random_counter = { compare_value > 0 }
-						}
-						random_list = {
-							0 = {
-								modifier = { add = var:independent_acceptance }
-								change_variable = { name = independent_yay add = 1 }
-							}
-							0 = {
-								modifier = { add = var:independent_rejectance }
-								change_variable = { name = independent_nay add = 1 }
-							}
-						}
-						change_variable = { name = random_counter subtract = 1 }
-					}
-				}
-			}
+			increment_legislature_voting_count_effect = yes
 			if = {
 				limit = {
 					trigger_if = {
 						limit = { exists = var:liberal_acceptance }
-						var:liberal_yay.compare_value = { value = 100 subtract = var:liberal_nay }
+						save_temporary_scope_value_as = { name = y value = { value = 100 subtract = var:liberal_nay } }
+						var:liberal_yay = scope:y
 					}
 					trigger_if = {
 						limit = { exists = var:socialist_acceptance }
-						var:socialist_yay.compare_value = { value = 100 subtract = var:socialist_nay }
+						save_temporary_scope_value_as = { name = y value = { value = 100 subtract = var:socialist_nay } }
+						var:socialist_yay = scope:y
 					}
 					trigger_if = {
 						limit = { exists = var:reactionary_acceptance }
-						var:reactionary_yay.compare_value = { value = 100 subtract = var:reactionary_nay }
+						save_temporary_scope_value_as = { name = y value = { value = 100 subtract = var:reactionary_nay } }
+						var:reactionary_yay = scope:y
 					}
 					trigger_if = {
 						limit = { exists = var:fascist_acceptance }
-						var:fascist_yay.compare_value = { value = 100 subtract = var:fascist_nay }
+						save_temporary_scope_value_as = { name = y value = { value = 100 subtract = var:fascist_nay } }
+						var:fascist_yay = scope:y
 					}
 					trigger_if = {
 						limit = { exists = var:conservative_acceptance }
-						var:conservative_yay.compare_value = { value = 100 subtract = var:conservative_nay }
+						save_temporary_scope_value_as = { name = y value = { value = 100 subtract = var:conservative_nay } }
+						var:conservative_yay = scope:y
 					}
 					trigger_if = {
 						limit = { exists = var:communist_acceptance }
-						var:communist_yay.compare_value = { value = 100 subtract = var:communist_nay }
+						save_temporary_scope_value_as = { name = y value = { value = 100 subtract = var:communist_nay } }
+						var:communist_yay = scope:y
 					}
 					trigger_if = {
 						limit = { exists = var:anarchist_acceptance }
-						var:anarchist_yay.compare_value = { value = 100 subtract = var:anarchist_nay }
+						save_temporary_scope_value_as = { name = y value = { value = 100 subtract = var:anarchist_nay } }
+						var:anarchist_yay = scope:y
 					}
 					trigger_if = {
 						limit = { exists = var:independent_acceptance }
-						var:independent_yay.compare_value = { value = 100 subtract = var:independent_nay }
+						save_temporary_scope_value_as = { name = y value = { value = 100 subtract = var:independent_nay } }
+						var:independent_yay = scope:y
 					}
 				}
 				set_variable = { name = total_yay value = 0 }
@@ -509,88 +276,88 @@ legislature.2 = {
 				if = {
 					limit = { exists = var:liberal_acceptance }
 					if = {
-						limit = { var:liberal_acceptance = { compare_value > 100 } }
+						limit = { var:liberal_acceptance > 100 }
 						change_variable = { name = total_yay add = { value = var:liberal_yay multiply = 0.01 multiply = var:liberal_absvalue } }
 					}
 					else_if = {
-						limit = { var:liberal_acceptance = { compare_value < 100 } }
+						limit = { var:liberal_acceptance < 100 }
 						change_variable = { name = total_nay add = { value = var:liberal_nay multiply = 0.01 multiply = var:liberal_absvalue } }
 					}
 				}
 				if = {
 					limit = { exists = var:socialist_acceptance }
 					if = {
-						limit = { var:socialist_acceptance = { compare_value > 100 } }
+						limit = { var:socialist_acceptance > 100 }
 						change_variable = { name = total_yay add = { value = var:socialist_yay multiply = 0.01 multiply = var:socialist_absvalue } }
 					}
 					else_if = {
-						limit = { var:socialist_acceptance = { compare_value < 100 } }
+						limit = { var:socialist_acceptance < 100 }
 						change_variable = { name = total_nay add = { value = var:socialist_nay multiply = 0.01 multiply = var:socialist_absvalue } }
 					}
 				}
 				if = {
 					limit = { exists = var:reactionary_acceptance }
 					if = {
-						limit = { var:reactionary_acceptance = { compare_value > 100 } }
+						limit = { var:reactionary_acceptance > 100 }
 						change_variable = { name = total_yay add = { value = var:reactionary_yay multiply = 0.01 multiply = var:reactionary_absvalue } }
 					}
 					else_if = {
-						limit = { var:reactionary_acceptance = { compare_value < 100 } }
+						limit = { var:reactionary_acceptance < 100 }
 						change_variable = { name = total_nay add = { value = var:reactionary_nay multiply = 0.01 multiply = var:reactionary_absvalue } }
 					}
 				}
 				if = {
 					limit = { exists = var:fascist_acceptance }
 					if = {
-						limit = { var:fascist_acceptance = { compare_value > 100 } }
+						limit = { var:fascist_acceptance > 100 }
 						change_variable = { name = total_yay add = { value = var:fascist_yay multiply = 0.01 multiply = var:fascist_absvalue } }
 					}
 					else_if = {
-						limit = { var:fascist_acceptance = { compare_value < 100 } }
+						limit = { var:fascist_acceptance < 100 }
 						change_variable = { name = total_nay add = { value = var:fascist_nay multiply = 0.01 multiply = var:fascist_absvalue } }
 					}
 				}
 				if = {
 					limit = { exists = var:conservative_acceptance }
 					if = {
-						limit = { var:conservative_acceptance = { compare_value > 100 } }
+						limit = { var:conservative_acceptance > 100 }
 						change_variable = { name = total_yay add = { value = var:conservative_yay multiply = 0.01 multiply = var:conservative_absvalue } }
 					}
 					else_if = {
-						limit = { var:conservative_acceptance = { compare_value < 100 } }
+						limit = { var:conservative_acceptance < 100 }
 						change_variable = { name = total_nay add = { value = var:conservative_nay multiply = 0.01 multiply = var:conservative_absvalue } }
 					}
 				}
 				if = {
 					limit = { exists = var:communist_acceptance }
 					if = {
-						limit = { var:communist_acceptance = { compare_value > 100 } }
+						limit = { var:communist_acceptance > 100 }
 						change_variable = { name = total_yay add = { value = var:communist_yay multiply = 0.01 multiply = var:communist_absvalue } }
 					}
 					else_if = {
-						limit = { var:communist_acceptance = { compare_value < 100 } }
+						limit = { var:communist_acceptance < 100 }
 						change_variable = { name = total_nay add = { value = var:communist_nay multiply = 0.01 multiply = var:communist_absvalue } }
 					}
 				}
 				if = {
 					limit = { exists = var:anarchist_acceptance }
 					if = {
-						limit = { var:anarchist_acceptance = { compare_value > 100 } }
+						limit = { var:anarchist_acceptance > 100 }
 						change_variable = { name = total_yay add = { value = var:anarchist_yay multiply = 0.01 multiply = var:anarchist_absvalue } }
 					}
 					else_if = {
-						limit = { var:anarchist_acceptance = { compare_value < 100 } }
+						limit = { var:anarchist_acceptance < 100 }
 						change_variable = { name = total_nay add = { value = var:anarchist_nay multiply = 0.01 multiply = var:anarchist_absvalue } }
 					}
 				}
 				if = {
 					limit = { exists = var:independent_acceptance }
 					if = {
-						limit = { var:independent_acceptance = { compare_value > 100 } }
+						limit = { var:independent_acceptance > 100 }
 						change_variable = { name = total_yay add = { value = var:independent_yay multiply = 0.01 multiply = var:independent_absvalue } }
 					}
 					else_if = {
-						limit = { var:independent_acceptance = { compare_value < 100 } }
+						limit = { var:independent_acceptance < 100 }
 						change_variable = { name = total_nay add = { value = var:independent_nay multiply = 0.01 multiply = var:independent_absvalue } }
 					}
 				}
@@ -618,7 +385,7 @@ legislature.3 = {
 		first_valid = {
 			triggered_desc = {
 				trigger = {
-					primary_title = { var:total_yay.compare_value > { value = var:total_nay } }
+					primary_title = { legislature_passed_bill_trigger = yes }
 				}
 				desc = legislature.3.pass
 			}
@@ -647,7 +414,7 @@ legislature.3 = {
 			text = {
 				first_valid = {
 					triggered_desc = {
-						trigger = { primary_title = { var:total_yay.compare_value > { value = var:total_nay } } }
+						trigger = { primary_title = { legislature_passed_bill_trigger = yes } }
 						desc = legislature.3.a.pass
 					}
 					desc = legislature.3.a.fail
@@ -656,7 +423,7 @@ legislature.3 = {
 		}
 		primary_title = {
 			if = {
-				limit = { var:total_yay.compare_value > { value = var:total_nay } }
+				limit = { legislature_passed_bill_trigger = yes }
 				if = {
 					limit = { exists = var:admitting_state }
 					root = { trigger_event = { id = united_states.3 days = 3 } }
@@ -696,7 +463,7 @@ legislature.3 = {
 		custom_tooltip = veto_helpful_tooltip
 		primary_title = {
 			if = {
-				limit = { var:total_yay.compare_value > { value = var:total_nay } }
+				limit = { legislature_passed_bill_trigger = yes }
 				set_variable = { name = recent_reform_failed value = flag:recent_reform_failed years = 1 }
 			}
 			else = {
@@ -791,12 +558,12 @@ legislature.11 = {
 			if = {
 				limit = { exists = var:liberal_acceptance }
 				if = {
-					limit = { var:liberal_acceptance = { compare_value > 0 } }
+					limit = { var:liberal_acceptance > 0 }
 					change_variable = { name = yay_predict add = var:liberal_acceptance }
 					change_variable = { name = yay_percent add = scope:liberal_prop }
 				}
 				else_if = {
-					limit = { var:liberal_acceptance = { compare_value < 0 } }
+					limit = { var:liberal_acceptance < 0 }
 					change_variable = { name = nay_predict subtract = var:liberal_acceptance }
 					change_variable = { name = nay_percent add = scope:liberal_prop }
 				}
@@ -804,12 +571,12 @@ legislature.11 = {
 			if = {
 				limit = { exists = var:socialist_acceptance }
 				if = {
-					limit = { var:socialist_acceptance = { compare_value > 0 } }
+					limit = { var:socialist_acceptance > 0 }
 					change_variable = { name = yay_predict add = var:socialist_acceptance }
 					change_variable = { name = yay_percent add = scope:socialist_prop }
 				}
 				else_if = {
-					limit = { var:socialist_acceptance = { compare_value < 0 } }
+					limit = { var:socialist_acceptance < 0 }
 					change_variable = { name = nay_predict subtract = var:socialist_acceptance }
 					change_variable = { name = nay_percent add = scope:socialist_prop }
 				}
@@ -817,12 +584,12 @@ legislature.11 = {
 			if = {
 				limit = { exists = var:reactionary_acceptance }
 				if = {
-					limit = { var:reactionary_acceptance = { compare_value > 0 } }
+					limit = { var:reactionary_acceptance > 0 }
 					change_variable = { name = yay_predict add = var:reactionary_acceptance }
 					change_variable = { name = yay_percent add = scope:reactionary_prop }
 				}
 				else_if = {
-					limit = { var:reactionary_acceptance = { compare_value < 0 } }
+					limit = { var:reactionary_acceptance < 0 }
 					change_variable = { name = nay_predict subtract = var:reactionary_acceptance }
 					change_variable = { name = nay_percent add = scope:reactionary_prop }
 				}
@@ -830,12 +597,12 @@ legislature.11 = {
 			if = {
 				limit = { exists = var:fascist_acceptance }
 				if = {
-					limit = { var:fascist_acceptance = { compare_value > 0 } }
+					limit = { var:fascist_acceptance > 0 }
 					change_variable = { name = yay_predict add = var:fascist_acceptance }
 					change_variable = { name = yay_percent add = scope:fascist_prop }
 				}
 				else_if = {
-					limit = { var:fascist_acceptance = { compare_value < 0 } }
+					limit = { var:fascist_acceptance < 0 }
 					change_variable = { name = nay_predict subtract = var:fascist_acceptance }
 					change_variable = { name = nay_percent add = scope:fascist_prop }
 				}
@@ -843,12 +610,12 @@ legislature.11 = {
 			if = {
 				limit = { exists = var:conservative_acceptance }
 				if = {
-					limit = { var:conservative_acceptance = { compare_value > 0 } }
+					limit = { var:conservative_acceptance > 0 }
 					change_variable = { name = yay_predict add = var:conservative_acceptance }
 					change_variable = { name = yay_percent add = scope:conservative_prop }
 				}
 				else_if = {
-					limit = { var:conservative_acceptance = { compare_value < 0 } }
+					limit = { var:conservative_acceptance < 0 }
 					change_variable = { name = nay_predict subtract = var:conservative_acceptance }
 					change_variable = { name = nay_percent add = scope:conservative_prop }
 				}
@@ -856,12 +623,12 @@ legislature.11 = {
 			if = {
 				limit = { exists = var:communist_acceptance }
 				if = {
-					limit = { var:communist_acceptance = { compare_value > 0 } }
+					limit = { var:communist_acceptance > 0 }
 					change_variable = { name = yay_predict add = var:communist_acceptance }
 					change_variable = { name = yay_percent add = scope:communist_prop }
 				}
 				else_if = {
-					limit = { var:communist_acceptance = { compare_value < 0 } }
+					limit = { var:communist_acceptance < 0 }
 					change_variable = { name = nay_predict subtract = var:communist_acceptance }
 					change_variable = { name = nay_percent add = scope:communist_prop }
 				}
@@ -869,12 +636,12 @@ legislature.11 = {
 			if = {
 				limit = { exists = var:anarchist_acceptance }
 				if = {
-					limit = { var:anarchist_acceptance = { compare_value > 0 } }
+					limit = { var:anarchist_acceptance > 0 }
 					change_variable = { name = yay_predict add = var:anarchist_acceptance }
 					change_variable = { name = yay_percent add = scope:anarchist_prop }
 				}
 				else_if = {
-					limit = { var:anarchist_acceptance = { compare_value < 0 } }
+					limit = { var:anarchist_acceptance < 0 }
 					change_variable = { name = nay_predict subtract = var:anarchist_acceptance }
 					change_variable = { name = nay_percent add = scope:anarchist_prop }
 				}
@@ -936,62 +703,7 @@ legislature.11 = {
 		remove_variable = yay_predict
 		remove_variable = nay_predict
 		capital_county = {
-			if = {
-				limit = { exists = var:liberal_acceptance }
-				change_variable = { name = liberal_acceptance add = 100 }
-				set_variable = { name = liberal_rejectance value = { value = 200 subtract = var:liberal_acceptance } }
-				set_variable = { name = liberal_yay value = 0 }
-				set_variable = { name = liberal_nay value = 0 }
-			}
-			if = {
-				limit = { exists = var:socialist_acceptance }
-				change_variable = { name = socialist_acceptance add = 100 }
-				set_variable = { name = socialist_rejectance value = { value = 200 subtract = var:socialist_acceptance } }
-				set_variable = { name = socialist_yay value = 0 }
-				set_variable = { name = socialist_nay value = 0 }
-			}
-			if = {
-				limit = { exists = var:reactionary_acceptance }
-				change_variable = { name = reactionary_acceptance add = 100 }
-				set_variable = { name = reactionary_rejectance value = { value = 200 subtract = var:reactionary_acceptance } }
-				set_variable = { name = reactionary_yay value = 0 }
-				set_variable = { name = reactionary_nay value = 0 }
-			}
-			if = {
-				limit = { exists = var:fascist_acceptance }
-				change_variable = { name = fascist_acceptance add = 100 }
-				set_variable = { name = fascist_rejectance value = { value = 200 subtract = var:fascist_acceptance } }
-				set_variable = { name = fascist_yay value = 0 }
-				set_variable = { name = fascist_nay value = 0 }
-			}
-			if = {
-				limit = { exists = var:conservative_acceptance }
-				change_variable = { name = conservative_acceptance add = 100 }
-				set_variable = { name = conservative_rejectance value = { value = 200 subtract = var:conservative_acceptance } }
-				set_variable = { name = conservative_yay value = 0 }
-				set_variable = { name = conservative_nay value = 0 }
-			}
-			if = {
-				limit = { exists = var:communist_acceptance }
-				change_variable = { name = communist_acceptance add = 100 }
-				set_variable = { name = communist_rejectance value = { value = 200 subtract = var:communist_acceptance } }
-				set_variable = { name = communist_yay value = 0 }
-				set_variable = { name = communist_nay value = 0 }
-			}
-			if = {
-				limit = { exists = var:anarchist_acceptance }
-				change_variable = { name = anarchist_acceptance add = 100 }
-				set_variable = { name = anarchist_rejectance value = { value = 200 subtract = var:anarchist_acceptance } }
-				set_variable = { name = anarchist_yay value = 0 }
-				set_variable = { name = anarchist_nay value = 0 }
-			}
-			if = {
-				limit = { exists = var:independent_acceptance }
-				change_variable = { name = independent_acceptance add = 100 }
-				set_variable = { name = independent_rejectance value = { value = 200 subtract = var:independent_acceptance } }
-				set_variable = { name = independent_yay value = 0 }
-				set_variable = { name = independent_nay value = 0 }
-			}
+			initialize_legislature_voting_variables_effect = yes
 		}
 	}
 }
@@ -1033,226 +745,48 @@ legislature.12 = {
 
 	immediate = {
 		capital_county = {
-			set_variable = { name = random_counter value = { 1 25 } }
-			random_list = {
-				1 = {
-					trigger = {
-						exists = var:liberal_acceptance
-						var:liberal_yay.compare_value < { value = 100 subtract = var:liberal_nay }
-					}
-					while = {
-						limit = {
-							var:liberal_yay.compare_value < { value = 100 subtract = var:liberal_nay }
-							var:random_counter = { compare_value > 0 }
-						}
-						random_list = {
-							0 = {
-								modifier = { add = var:liberal_acceptance }
-								change_variable = { name = liberal_yay add = 1 }
-							}
-							0 = {
-								modifier = { add = var:liberal_rejectance }
-								change_variable = { name = liberal_nay add = 1 }
-							}
-						}
-						change_variable = { name = random_counter subtract = 1 }
-					}
-				}
-				1 = {
-					trigger = {
-						exists = var:socialist_acceptance
-						var:socialist_yay.compare_value < { value = 100 subtract = var:socialist_nay }
-					}
-					while = {
-						limit = {
-							var:socialist_yay.compare_value < { value = 100 subtract = var:socialist_nay }
-							var:random_counter = { compare_value > 0 }
-						}
-						random_list = {
-							0 = {
-								modifier = { add = var:socialist_acceptance }
-								change_variable = { name = socialist_yay add = 1 }
-							}
-							0 = {
-								modifier = { add = var:socialist_rejectance }
-								change_variable = { name = socialist_nay add = 1 }
-							}
-						}
-						change_variable = { name = random_counter subtract = 1 }
-					}
-				}
-				1 = {
-					trigger = {
-						exists = var:reactionary_acceptance
-						var:reactionary_yay.compare_value < { value = 100 subtract = var:reactionary_nay }
-					}
-					while = {
-						limit = {
-							var:reactionary_yay.compare_value < { value = 100 subtract = var:reactionary_nay }
-							var:random_counter = { compare_value > 0 }
-						}
-						random_list = {
-							0 = {
-								modifier = { add = var:reactionary_acceptance }
-								change_variable = { name = reactionary_yay add = 1 }
-							}
-							0 = {
-								modifier = { add = var:reactionary_rejectance }
-								change_variable = { name = reactionary_nay add = 1 }
-							}
-						}
-						change_variable = { name = random_counter subtract = 1 }
-					}
-				}
-				1 = {
-					trigger = {
-						exists = var:fascist_acceptance
-						var:fascist_yay.compare_value < { value = 100 subtract = var:fascist_nay }
-					}
-					while = {
-						limit = {
-							var:fascist_yay.compare_value < { value = 100 subtract = var:fascist_nay }
-							var:random_counter = { compare_value > 0 }
-						}
-						random_list = {
-							0 = {
-								modifier = { add = var:fascist_acceptance }
-								change_variable = { name = fascist_yay add = 1 }
-							}
-							0 = {
-								modifier = { add = var:fascist_rejectance }
-								change_variable = { name = fascist_nay add = 1 }
-							}
-						}
-						change_variable = { name = random_counter subtract = 1 }
-					}
-				}
-				1 = {
-					trigger = {
-						exists = var:conservative_acceptance
-						var:conservative_yay.compare_value < { value = 100 subtract = var:conservative_nay }
-					}
-					while = {
-						limit = {
-							var:conservative_yay.compare_value < { value = 100 subtract = var:conservative_nay }
-							var:random_counter = { compare_value > 0 }
-						}
-						random_list = {
-							0 = {
-								modifier = { add = var:conservative_acceptance }
-								change_variable = { name = conservative_yay add = 1 }
-							}
-							0 = {
-								modifier = { add = var:conservative_rejectance }
-								change_variable = { name = conservative_nay add = 1 }
-							}
-						}
-						change_variable = { name = random_counter subtract = 1 }
-					}
-				}
-				1 = {
-					trigger = {
-						exists = var:communist_acceptance
-						var:communist_yay.compare_value < { value = 100 subtract = var:communist_nay }
-					}
-					while = {
-						limit = {
-							var:communist_yay.compare_value < { value = 100 subtract = var:communist_nay }
-							var:random_counter = { compare_value > 0 }
-						}
-						random_list = {
-							0 = {
-								modifier = { add = var:communist_acceptance }
-								change_variable = { name = communist_yay add = 1 }
-							}
-							0 = {
-								modifier = { add = var:communist_rejectance }
-								change_variable = { name = communist_nay add = 1 }
-							}
-						}
-						change_variable = { name = random_counter subtract = 1 }
-					}
-				}
-				1 = {
-					trigger = {
-						exists = var:anarchist_acceptance
-						var:anarchist_yay.compare_value < { value = 100 subtract = var:anarchist_nay }
-					}
-					while = {
-						limit = {
-							var:anarchist_yay.compare_value < { value = 100 subtract = var:anarchist_nay }
-							var:random_counter = { compare_value > 0 }
-						}
-						random_list = {
-							0 = {
-								modifier = { add = var:anarchist_acceptance }
-								change_variable = { name = anarchist_yay add = 1 }
-							}
-							0 = {
-								modifier = { add = var:anarchist_rejectance }
-								change_variable = { name = anarchist_nay add = 1 }
-							}
-						}
-						change_variable = { name = random_counter subtract = 1 }
-					}
-				}
-				1 = {
-					trigger = {
-						exists = var:independent_acceptance
-						var:independent_yay.compare_value < { value = 100 subtract = var:independent_nay }
-					}
-					while = {
-						limit = {
-							var:independent_yay.compare_value < { value = 100 subtract = var:independent_nay }
-							var:random_counter = { compare_value > 0 }
-						}
-						random_list = {
-							0 = {
-								modifier = { add = var:independent_acceptance }
-								change_variable = { name = independent_yay add = 1 }
-							}
-							0 = {
-								modifier = { add = var:independent_rejectance }
-								change_variable = { name = independent_nay add = 1 }
-							}
-						}
-						change_variable = { name = random_counter subtract = 1 }
-					}
-				}
-			}
+			increment_legislature_voting_count_effect = yes
 			if = {
 				limit = {
 					trigger_if = {
 						limit = { exists = var:liberal_acceptance }
-						var:liberal_yay.compare_value = { value = 100 subtract = var:liberal_nay }
+						save_temporary_scope_value_as = { name = y value = { value = 100 subtract = var:liberal_nay } }
+						var:liberal_yay = scope:y
 					}
 					trigger_if = {
 						limit = { exists = var:socialist_acceptance }
-						var:socialist_yay.compare_value = { value = 100 subtract = var:socialist_nay }
+						save_temporary_scope_value_as = { name = y value = { value = 100 subtract = var:socialist_nay } }
+						var:socialist_yay = scope:y
 					}
 					trigger_if = {
 						limit = { exists = var:reactionary_acceptance }
-						var:reactionary_yay.compare_value = { value = 100 subtract = var:reactionary_nay }
+						save_temporary_scope_value_as = { name = y value = { value = 100 subtract = var:reactionary_nay } }
+						var:reactionary_yay = scope:y
 					}
 					trigger_if = {
 						limit = { exists = var:fascist_acceptance }
-						var:fascist_yay.compare_value = { value = 100 subtract = var:fascist_nay }
+						save_temporary_scope_value_as = { name = y value = { value = 100 subtract = var:fascist_nay } }
+						var:fascist_yay = scope:y
 					}
 					trigger_if = {
 						limit = { exists = var:conservative_acceptance }
-						var:conservative_yay.compare_value = { value = 100 subtract = var:conservative_nay }
+						save_temporary_scope_value_as = { name = y value = { value = 100 subtract = var:conservative_nay } }
+						var:conservative_yay = scope:y
 					}
 					trigger_if = {
 						limit = { exists = var:communist_acceptance }
-						var:communist_yay.compare_value = { value = 100 subtract = var:communist_nay }
+						save_temporary_scope_value_as = { name = y value = { value = 100 subtract = var:communist_nay } }
+						var:communist_yay = scope:y
 					}
 					trigger_if = {
 						limit = { exists = var:anarchist_acceptance }
-						var:anarchist_yay.compare_value = { value = 100 subtract = var:anarchist_nay }
+						save_temporary_scope_value_as = { name = y value = { value = 100 subtract = var:anarchist_nay } }
+						var:anarchist_yay = scope:y
 					}
 					trigger_if = {
 						limit = { exists = var:independent_acceptance }
-						var:independent_yay.compare_value = { value = 100 subtract = var:independent_nay }
+						save_temporary_scope_value_as = { name = y value = { value = 100 subtract = var:independent_nay } }
+						var:independent_yay = scope:y
 					}
 				}
 				set_variable = { name = total_yay value = 0 }
@@ -1270,88 +804,88 @@ legislature.12 = {
 				if = {
 					limit = { exists = var:liberal_acceptance }
 					if = {
-						limit = { var:liberal_acceptance = { compare_value > 100 } }
+						limit = { var:liberal_acceptance > 100 }
 						change_variable = { name = total_yay add = { value = var:liberal_yay multiply = 0.01 multiply = scope:liberal_absvalue } }
 					}
 					else_if = {
-						limit = { var:liberal_acceptance = { compare_value < 100 } }
+						limit = { var:liberal_acceptance < 100 }
 						change_variable = { name = total_nay add = { value = var:liberal_nay multiply = 0.01 multiply = scope:liberal_absvalue } }
 					}
 				}
 				if = {
 					limit = { exists = var:socialist_acceptance }
 					if = {
-						limit = { var:socialist_acceptance = { compare_value > 100 } }
+						limit = { var:socialist_acceptance > 100 }
 						change_variable = { name = total_yay add = { value = var:socialist_yay multiply = 0.01 multiply = scope:socialist_absvalue } }
 					}
 					else_if = {
-						limit = { var:socialist_acceptance = { compare_value < 100 } }
+						limit = { var:socialist_acceptance < 100 }
 						change_variable = { name = total_nay add = { value = var:socialist_nay multiply = 0.01 multiply = scope:socialist_absvalue } }
 					}
 				}
 				if = {
 					limit = { exists = var:reactionary_acceptance }
 					if = {
-						limit = { var:reactionary_acceptance = { compare_value > 100 } }
+						limit = { var:reactionary_acceptance > 100 }
 						change_variable = { name = total_yay add = { value = var:reactionary_yay multiply = 0.01 multiply = scope:reactionary_absvalue } }
 					}
 					else_if = {
-						limit = { var:reactionary_acceptance = { compare_value < 100 } }
+						limit = { var:reactionary_acceptance < 100 }
 						change_variable = { name = total_nay add = { value = var:reactionary_nay multiply = 0.01 multiply = scope:reactionary_absvalue } }
 					}
 				}
 				if = {
 					limit = { exists = var:fascist_acceptance }
 					if = {
-						limit = { var:fascist_acceptance = { compare_value > 100 } }
+						limit = { var:fascist_acceptance > 100 }
 						change_variable = { name = total_yay add = { value = var:fascist_yay multiply = 0.01 multiply = scope:fascist_absvalue } }
 					}
 					else_if = {
-						limit = { var:fascist_acceptance = { compare_value < 100 } }
+						limit = { var:fascist_acceptance < 100 }
 						change_variable = { name = total_nay add = { value = var:fascist_nay multiply = 0.01 multiply = scope:fascist_absvalue } }
 					}
 				}
 				if = {
 					limit = { exists = var:conservative_acceptance }
 					if = {
-						limit = { var:conservative_acceptance = { compare_value > 100 } }
+						limit = { var:conservative_acceptance > 100 }
 						change_variable = { name = total_yay add = { value = var:conservative_yay multiply = 0.01 multiply = scope:conservative_absvalue } }
 					}
 					else_if = {
-						limit = { var:conservative_acceptance = { compare_value < 100 } }
+						limit = { var:conservative_acceptance < 100 }
 						change_variable = { name = total_nay add = { value = var:conservative_nay multiply = 0.01 multiply = scope:conservative_absvalue } }
 					}
 				}
 				if = {
 					limit = { exists = var:communist_acceptance }
 					if = {
-						limit = { var:communist_acceptance = { compare_value > 100 } }
+						limit = { var:communist_acceptance > 100 }
 						change_variable = { name = total_yay add = { value = var:communist_yay multiply = 0.01 multiply = scope:communist_absvalue } }
 					}
 					else_if = {
-						limit = { var:communist_acceptance = { compare_value < 100 } }
+						limit = { var:communist_acceptance < 100 }
 						change_variable = { name = total_nay add = { value = var:communist_nay multiply = 0.01 multiply = scope:communist_absvalue } }
 					}
 				}
 				if = {
 					limit = { exists = var:anarchist_acceptance }
 					if = {
-						limit = { var:anarchist_acceptance = { compare_value > 100 } }
+						limit = { var:anarchist_acceptance > 100 }
 						change_variable = { name = total_yay add = { value = var:anarchist_yay multiply = 0.01 multiply = scope:anarchist_absvalue } }
 					}
 					else_if = {
-						limit = { var:anarchist_acceptance = { compare_value < 100 } }
+						limit = { var:anarchist_acceptance < 100 }
 						change_variable = { name = total_nay add = { value = var:anarchist_nay multiply = 0.01 multiply = scope:anarchist_absvalue } }
 					}
 				}
 				if = {
 					limit = { exists = var:independent_acceptance }
 					if = {
-						limit = { var:independent_acceptance = { compare_value > 100 } }
+						limit = { var:independent_acceptance > 100 }
 						change_variable = { name = total_yay add = { value = var:independent_yay multiply = 0.01 multiply = scope:independent_absvalue } }
 					}
 					else_if = {
-						limit = { var:independent_acceptance = { compare_value < 100 } }
+						limit = { var:independent_acceptance < 100 }
 						change_variable = { name = total_nay add = { value = var:independent_nay multiply = 0.01 multiply = scope:independent_absvalue } }
 					}
 				}
@@ -1370,7 +904,7 @@ legislature.12 = {
 	}
 }
 
-# notify if bill has passed or failed, and allow the character to veto if applicable
+# notify if bill has passed or failed. foreign policy cannot be vetoed
 legislature.13 = {
 	type = character_event
 	title = legislature.3.t
@@ -1379,7 +913,7 @@ legislature.13 = {
 		first_valid = {
 			triggered_desc = {
 				trigger = {
-					capital_county = { var:total_yay.compare_value > { value = var:total_nay } }
+					capital_county = { legislature_passed_bill_trigger = yes }
 				}
 				desc = legislature.3.pass
 			}
@@ -1408,7 +942,7 @@ legislature.13 = {
 			text = {
 				first_valid = {
 					triggered_desc = {
-						trigger = { capital_county = { var:total_yay.compare_value > { value = var:total_nay } } }
+						trigger = { capital_county = { legislature_passed_bill_trigger = yes } }
 						desc = legislature.3.a.pass
 					}
 					desc = legislature.3.a.fail
@@ -1417,7 +951,7 @@ legislature.13 = {
 		}
 		capital_county = {
 			if = {
-				limit = { var:total_yay.compare_value > { value = var:total_nay } }
+				limit = { legislature_passed_bill_trigger = yes }
 				if = {
 					limit = { root.primary_title = { exists = var:proposed_war_target } }
 					root.primary_title = {

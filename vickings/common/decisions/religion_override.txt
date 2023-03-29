@@ -80,6 +80,9 @@
 
 	ai_potential = {
 		is_at_war = no
+		is_independent_ruler = yes
+		faith = faith:catholic
+		ai_zeal > very_high_negative_ai_value
 		title:c_roma = {
 			holder = {
 				is_ai = yes
@@ -99,11 +102,6 @@
 				}
 			}
 		}
-
-		modifier = {
-			factor = 0
-			ai_zeal <= very_high_negative_ai_value
-		}
 	}
 }
 
@@ -120,20 +118,12 @@ restore_pope_in_rome_decision = {
 		is_ruler = yes
 		is_landed = yes
 		faith = faith:catholic
-		faith = { exists = religious_head }
 		NOR = {
 			has_title = title:k_papal_state
 			has_title = title:e_roman_empire #Priorities
 		}
-		highest_held_title_tier > 3 #Only Kings and Emperors
-		NOT = { capital_county = { this = title:c_roma } }
-		OR = {
-			title:c_roma.holder = { 	
-				any_liege_or_above = { this = root }
-			}
-			title:c_roma.holder = { this = root }
-		}
 		NOT = { title:c_roma.holder = { has_title = title:k_papal_state } }
+		NOT = { capital_county = { this = title:c_roma } }
 		title:k_papal_state.holder = {
 			NOT = { 	
 				has_opinion_modifier = { #Not accepting it if you conquered it yourself.
@@ -165,6 +155,20 @@ restore_pope_in_rome_decision = {
 		is_capable_adult = yes
 		is_imprisoned = no
 		is_independent_ruler = yes
+		highest_held_title_tier > 3 #Only Kings and Emperors
+		custom_tooltip = {
+			text = hof_exists_tt
+			faith = { exists = religious_head }
+		}
+		custom_tooltip = {
+			text = rome_held_by_you_or_vassal_tt
+			OR = {
+				title:c_roma.holder = { 	
+					any_liege_or_above = { this = root }
+				}
+				title:c_roma.holder = { this = root }
+			}
+		}
 	}
 
 	effect = {
@@ -193,7 +197,8 @@ restore_pope_in_rome_decision = {
 	}
 	
 	ai_potential = {
-		always = yes
+		faith = faith:catholic
+		highest_held_title_tier > 3 #Only Kings and Emperors
 	}
 
 	ai_will_do = { #Do it always, for coherence.

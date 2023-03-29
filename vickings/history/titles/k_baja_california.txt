@@ -19,10 +19,18 @@ d_baja_california = {
 		liege = e_mexico
 		government = republic_government
 	}
+	1833.3.20 = {
+		effect = {
+			set_variable = { name = conservative_value value = 5 }
+		}
+	}
 	1835.1.1 = {
 		holder = 6420026
 	}
 	1861.1.1 = {
 		holder = 6420032
+		effect = {
+			remove_variable = conservative_value
+		}
 	}
 }

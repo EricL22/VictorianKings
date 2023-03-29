@@ -22,6 +22,9 @@
 			}
 		}
 	}
+	1838.12.6 = {
+		trait = one_legged	# wounded in the Battle of Veracruz
+	}
 	1876.6.21 = {
 		death = yes
 	}
@@ -121,9 +124,27 @@
 	}
 	1822.1.1 = {
 		effect = {
-			add_character_flag = conservative_party
+			add_character_flag = liberal_party
 			add_character_modifier = {
-				modifier = conservative_party_modifier
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1836.1.1 = {
+		effect = {
+			add_gold = 100	# funded by rebel leaders
+
+			# Rebel Army
+			spawn_army = {
+				name = "Rebel Army"
+				levies = 1500
+				men_at_arms = {
+					type = light_footmen
+					stacks = 5
+				}
+				location = province:12876
+				origin = province:12876
+				inheritable = no
 			}
 		}
 	}
@@ -184,9 +205,9 @@
 	}
 	1828.1.1 = {
 		effect = {
-			add_character_flag = conservative_party
+			add_character_flag = liberal_party
 			add_character_modifier = {
-				modifier = conservative_party_modifier
+				modifier = liberal_party_modifier
 			}
 		}
 	}

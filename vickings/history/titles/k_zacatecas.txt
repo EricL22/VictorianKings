@@ -23,9 +23,15 @@ d_zacatecas = {
 		holder = 6420050
 		liege = e_mexico
 		government = republic_government
+		effect = {
+			set_variable = { name = liberal_value value = 5 }
+		}
 	}
 	1846.8.22 = {	# department dissolved
 		holder = 0
+		effect = {
+			remove_variable = liberal_value
+		}
 	}
 }
 
@@ -43,9 +49,15 @@ d_aguascalientes = {
 		holder = 6420035
 		liege = e_mexico
 		government = republic_government
+		effect = {
+			set_variable = { name = conservative_value value = 5 }
+		}
 	}
 	1857.2.5 = {
 		holder = 0
+		effect = {
+			remove_variable = conservative_value
+		}
 	}
 }
 c_aguascalientes = {

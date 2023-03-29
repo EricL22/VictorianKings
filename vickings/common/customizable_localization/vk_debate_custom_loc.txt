@@ -2,7 +2,7 @@
 	type = character
 	text = {
 		trigger = {
-			primary_title = {
+			top_liege.primary_title = {
 				exists = var:debating_law
 				OR = {
 					var:debating_law = flag:four_year_term
@@ -17,7 +17,7 @@
 	}
 	text = {
 		trigger = {
-			primary_title = {
+			top_liege.primary_title = {
 				exists = var:debating_law
 				OR = {
 					var:debating_law = flag:admin_feudal
@@ -29,7 +29,7 @@
 	}
 	text = {
 		trigger = {
-			primary_title = {
+			top_liege.primary_title = {
 				exists = var:debating_law
 				OR = {
 					var:debating_law = flag:sovereign_semi_constitutional
@@ -41,7 +41,7 @@
 	}
 	text = {
 		trigger = {
-			primary_title = {
+			top_liege.primary_title = {
 				exists = var:debating_law
 				OR = {
 					var:debating_law = flag:eligibility_default
@@ -53,7 +53,7 @@
 	}
 	text = {
 		trigger = {
-			primary_title = {
+			top_liege.primary_title = {
 				exists = var:debating_law
 				OR = {
 					var:debating_law = flag:eligibility_state
@@ -66,7 +66,7 @@
 	}
 	text = {
 		trigger = {
-			primary_title = {
+			top_liege.primary_title = {
 				exists = var:debating_law
 				OR = {
 					var:debating_law = flag:apportionment_landed
@@ -80,7 +80,7 @@
 	}
 	text = {
 		trigger = {
-			primary_title = {
+			top_liege.primary_title = {
 				exists = var:debating_law
 				OR = {
 					var:debating_law = flag:vote_franchise_landed
@@ -94,7 +94,7 @@
 	}
 	text = {
 		trigger = {
-			primary_title = {
+			top_liege.primary_title = {
 				exists = var:debating_law
 				OR = {
 					var:debating_law = flag:vote_system_two_party
@@ -107,7 +107,7 @@
 	}
 	text = {
 		trigger = {
-			primary_title = {
+			top_liege.primary_title = {
 				exists = var:debating_law
 				OR = {
 					var:debating_law = flag:leg_two_year_term
@@ -123,7 +123,7 @@
 	}
 	text = {
 		trigger = {
-			primary_title = {
+			top_liege.primary_title = {
 				exists = var:debating_law
 				var:debating_law = flag:state_admission
 			}
@@ -136,7 +136,7 @@ GetDebateBillName = {
 	type = character
 	text = {
 		trigger = {
-			primary_title = {
+			top_liege.primary_title = {
 				exists = var:debating_law
 				var:debating_law = flag:leg_two_year_term
 			}
@@ -145,7 +145,7 @@ GetDebateBillName = {
 	}
 	text = {
 		trigger = {
-			primary_title = {
+			top_liege.primary_title = {
 				exists = var:debating_law
 				var:debating_law = flag:leg_three_year_term
 			}
@@ -154,7 +154,7 @@ GetDebateBillName = {
 	}
 	text = {
 		trigger = {
-			primary_title = {
+			top_liege.primary_title = {
 				exists = var:debating_law
 				OR = {
 				var:debating_law = flag:four_year_term
@@ -166,7 +166,7 @@ GetDebateBillName = {
 	}
 	text = {
 		trigger = {
-			primary_title = {
+			top_liege.primary_title = {
 				exists = var:debating_law
 				OR = {
 				var:debating_law = flag:five_year_term
@@ -178,7 +178,7 @@ GetDebateBillName = {
 	}
 	text = {
 		trigger = {
-			primary_title = {
+			top_liege.primary_title = {
 				exists = var:debating_law
 				OR = {
 				var:debating_law = flag:six_year_term
@@ -190,7 +190,7 @@ GetDebateBillName = {
 	}
 	text = {
 		trigger = {
-			primary_title = {
+			top_liege.primary_title = {
 				exists = var:debating_law
 				var:debating_law = flag:seven_year_term
 			}
@@ -199,7 +199,7 @@ GetDebateBillName = {
 	}
 	text = {
 		trigger = {
-			primary_title = {
+			top_liege.primary_title = {
 				exists = var:debating_law
 				OR = {
 				var:debating_law = flag:life_title_term
@@ -211,7 +211,7 @@ GetDebateBillName = {
 	}
 	text = {
 		trigger = {
-			primary_title = {
+			top_liege.primary_title = {
 				exists = var:debating_law
 				var:debating_law = flag:admin_feudal
 			}
@@ -220,7 +220,7 @@ GetDebateBillName = {
 	}
 	text = {
 		trigger = {
-			primary_title = {
+			top_liege.primary_title = {
 				exists = var:debating_law
 				var:debating_law = flag:admin_centralized
 			}
@@ -229,7 +229,7 @@ GetDebateBillName = {
 	}
 	text = {
 		trigger = {
-			primary_title = {
+			top_liege.primary_title = {
 				exists = var:debating_law
 				var:debating_law = flag:sovereign_semi_constitutional
 			}
@@ -238,7 +238,7 @@ GetDebateBillName = {
 	}
 	text = {
 		trigger = {
-			primary_title = {
+			top_liege.primary_title = {
 				exists = var:debating_law
 				var:debating_law = flag:sovereign_constitutional
 			}
@@ -247,7 +247,7 @@ GetDebateBillName = {
 	}
 	text = {
 		trigger = {
-			primary_title = {
+			top_liege.primary_title = {
 				exists = var:debating_law
 				var:debating_law = flag:eligibility_default
 			}
@@ -256,7 +256,7 @@ GetDebateBillName = {
 	}
 	text = {
 		trigger = {
-			primary_title = {
+			top_liege.primary_title = {
 				exists = var:debating_law
 				var:debating_law = flag:eligibility_one_party
 			}
@@ -265,7 +265,7 @@ GetDebateBillName = {
 	}
 	text = {
 		trigger = {
-			primary_title = {
+			top_liege.primary_title = {
 				exists = var:debating_law
 				var:debating_law = flag:eligibility_state
 			}
@@ -274,7 +274,7 @@ GetDebateBillName = {
 	}
 	text = {
 		trigger = {
-			primary_title = {
+			top_liege.primary_title = {
 				exists = var:debating_law
 				var:debating_law = flag:eligibility_de_jure
 			}
@@ -283,7 +283,7 @@ GetDebateBillName = {
 	}
 	text = {
 		trigger = {
-			primary_title = {
+			top_liege.primary_title = {
 				exists = var:debating_law
 				var:debating_law = flag:eligibility_de_facto
 			}
@@ -292,7 +292,7 @@ GetDebateBillName = {
 	}
 	text = {
 		trigger = {
-			primary_title = {
+			top_liege.primary_title = {
 				exists = var:debating_law
 				var:debating_law = flag:apportionment_landed
 			}
@@ -301,7 +301,7 @@ GetDebateBillName = {
 	}
 	text = {
 		trigger = {
-			primary_title = {
+			top_liege.primary_title = {
 				exists = var:debating_law
 				var:debating_law = flag:apportionment_equal
 			}
@@ -310,7 +310,7 @@ GetDebateBillName = {
 	}
 	text = {
 		trigger = {
-			primary_title = {
+			top_liege.primary_title = {
 				exists = var:debating_law
 				var:debating_law = flag:apportionment_mixed
 			}
@@ -319,7 +319,7 @@ GetDebateBillName = {
 	}
 	text = {
 		trigger = {
-			primary_title = {
+			top_liege.primary_title = {
 				exists = var:debating_law
 				var:debating_law = flag:apportionment_population
 			}
@@ -328,7 +328,7 @@ GetDebateBillName = {
 	}
 	text = {
 		trigger = {
-			primary_title = {
+			top_liege.primary_title = {
 				exists = var:debating_law
 				var:debating_law = flag:vote_franchise_landed
 			}
@@ -337,7 +337,7 @@ GetDebateBillName = {
 	}
 	text = {
 		trigger = {
-			primary_title = {
+			top_liege.primary_title = {
 				exists = var:debating_law
 				var:debating_law = flag:vote_franchise_wealth
 			}
@@ -346,7 +346,7 @@ GetDebateBillName = {
 	}
 	text = {
 		trigger = {
-			primary_title = {
+			top_liege.primary_title = {
 				exists = var:debating_law
 				var:debating_law = flag:vote_franchise_universal_manhood
 			}
@@ -355,7 +355,7 @@ GetDebateBillName = {
 	}
 	text = {
 		trigger = {
-			primary_title = {
+			top_liege.primary_title = {
 				exists = var:debating_law
 				var:debating_law = flag:vote_franchise_universal
 			}
@@ -364,7 +364,7 @@ GetDebateBillName = {
 	}
 	text = {
 		trigger = {
-			primary_title = {
+			top_liege.primary_title = {
 				exists = var:debating_law
 				var:debating_law = flag:vote_system_two_party
 			}
@@ -373,7 +373,7 @@ GetDebateBillName = {
 	}
 	text = {
 		trigger = {
-			primary_title = {
+			top_liege.primary_title = {
 				exists = var:debating_law
 				var:debating_law = flag:vote_system_jefferson
 			}
@@ -382,7 +382,7 @@ GetDebateBillName = {
 	}
 	text = {
 		trigger = {
-			primary_title = {
+			top_liege.primary_title = {
 				exists = var:debating_law
 				var:debating_law = flag:vote_system_proportional
 			}
@@ -391,7 +391,7 @@ GetDebateBillName = {
 	}
 	text = {
 		trigger = {
-			primary_title = {
+			top_liege.primary_title = {
 				exists = var:admitting_state
 			}
 		}
@@ -403,7 +403,7 @@ GetDebateForeignCategory = {
 	type = character
 	text = {
 		trigger = {
-			primary_title = {
+			top_liege.primary_title = {
 				exists = var:debating_foreign
 				var:debating_foreign = flag:proposed_war
 			}
@@ -416,10 +416,162 @@ GetDebateForeignTarget = {
 	type = character
 	text = {
 		trigger = {
-			primary_title = {
+			top_liege.primary_title = {
 				exists = var:proposed_war_target
 			}
 		}
 		localization_key = debate_war_target
+	}
+}
+
+GetUpperHouseMajority = {
+	type = character
+	text = {
+		trigger = {
+			top_liege.primary_title = {
+				exists = var:upper_house
+				var:upper_house = flag:liberal
+			}
+		}
+		localization_key = ideology.1.a
+	}
+	text = {
+		trigger = {
+			top_liege.primary_title = {
+				exists = var:upper_house
+				var:upper_house = flag:socialist
+			}
+		}
+		localization_key = ideology.1.b
+	}
+	text = {
+		trigger = {
+			top_liege.primary_title = {
+				exists = var:upper_house
+				var:upper_house = flag:reactionary
+			}
+		}
+		localization_key = ideology.1.c
+	}
+	text = {
+		trigger = {
+			top_liege.primary_title = {
+				exists = var:upper_house
+				var:upper_house = flag:fascist
+			}
+		}
+		localization_key = ideology.1.d
+	}
+	text = {
+		trigger = {
+			top_liege.primary_title = {
+				exists = var:upper_house
+				var:upper_house = flag:conservative
+			}
+		}
+		localization_key = ideology.1.e
+	}
+	text = {
+		trigger = {
+			top_liege.primary_title = {
+				exists = var:upper_house
+				var:upper_house = flag:communist
+			}
+		}
+		localization_key = ideology.1.f
+	}
+	text = {
+		trigger = {
+			top_liege.primary_title = {
+				exists = var:upper_house
+				var:upper_house = flag:anarchist
+			}
+		}
+		localization_key = ideology.1.g
+	}
+	text = {
+		trigger = {
+			top_liege.primary_title = {
+				exists = var:upper_house
+				var:upper_house = flag:independent
+			}
+		}
+		localization_key = ideology.INDEPENDENT
+	}
+}
+
+GetLowerHouseMajority = {
+	type = character
+	text = {
+		trigger = {
+			top_liege.primary_title = {
+				exists = var:lower_house
+				var:lower_house = flag:liberal
+			}
+		}
+		localization_key = ideology.1.a
+	}
+	text = {
+		trigger = {
+			top_liege.primary_title = {
+				exists = var:lower_house
+				var:lower_house = flag:socialist
+			}
+		}
+		localization_key = ideology.1.b
+	}
+	text = {
+		trigger = {
+			top_liege.primary_title = {
+				exists = var:lower_house
+				var:lower_house = flag:reactionary
+			}
+		}
+		localization_key = ideology.1.c
+	}
+	text = {
+		trigger = {
+			top_liege.primary_title = {
+				exists = var:lower_house
+				var:lower_house = flag:fascist
+			}
+		}
+		localization_key = ideology.1.d
+	}
+	text = {
+		trigger = {
+			top_liege.primary_title = {
+				exists = var:lower_house
+				var:lower_house = flag:conservative
+			}
+		}
+		localization_key = ideology.1.e
+	}
+	text = {
+		trigger = {
+			top_liege.primary_title = {
+				exists = var:lower_house
+				var:lower_house = flag:communist
+			}
+		}
+		localization_key = ideology.1.f
+	}
+	text = {
+		trigger = {
+			top_liege.primary_title = {
+				exists = var:lower_house
+				var:lower_house = flag:anarchist
+			}
+		}
+		localization_key = ideology.1.g
+	}
+	text = {
+		trigger = {
+			top_liege.primary_title = {
+				exists = var:lower_house
+				var:lower_house = flag:independent
+			}
+		}
+		localization_key = ideology.INDEPENDENT
 	}
 }
