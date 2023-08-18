@@ -1,0 +1,109 @@
+﻿wyss = {
+    prefix = "dynnp_von"
+    name = "dynn_Wyss"
+    culture = "german"
+}
+
+wattenwyl = {
+    prefix = "dynnp_von"
+    name = "dynn_Wattenwyl"
+    culture = "german"
+}
+
+
+burckhardt = {
+    name = "dynn_Burckhardt"
+    culture = "german"
+}
+
+hirzel = {
+    name = "dynn_Hirzel"
+    culture = "german"
+}
+
+tscharner = {
+    name = "dynn_Tscharner"
+    culture = "german"
+}
+
+toggenburg = {
+    prefix = "dynnp_von"
+    name = "dynn_Toggenburg"
+    culture = "german"
+}
+
+ganzoni = {
+    name = "dynn_Ganzoni"
+    culture = "german"
+}
+
+caderas = {
+    name = "dynn_Caderas"
+    culture = "german"
+}
+
+
+luchs = {
+    name = "dynn_Luchs"
+    culture = "german"
+}
+
+lullin = {
+    name = "dynn_Lullin"
+    culture = "french"
+}
+
+rieu = {
+    name = "dynn_Rieu"
+    culture = "french"
+}
+
+friedberg = {
+    name = "dynn_Friedberg"
+    culture = "german"
+}
+
+naeff = {
+    name = "dynn_Naeff"
+    culture = "german"
+}
+
+fetzer = {
+    name = "dynn_Fetzer"
+    culture = "german"
+}
+
+wieland = {
+    name = "dynn_Wieland"
+    culture = "german"
+}
+
+keller = {
+    name = "dynn_Keller"
+    culture = "german"
+}
+
+migy = {
+    name = "dynn_Migy"
+    culture = "german"
+}
+
+fontanel = {
+    name = "dynn_Fontanel"
+    culture = "french"
+}
+
+hold = {
+    name = "dynn_Hold"
+    culture = "german"
+}
+
+zehnder = {
+    name = "dynn_Zehnder"
+    culture = "german"
+}
+
+knusel = {
+    name = "dynn_Knusel"
+    culture = "german"
+}

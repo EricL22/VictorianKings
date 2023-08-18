@@ -470,6 +470,10 @@ c_brie_francaise = {
 	1814.4.6 = {
 		holder = 8000000
 	}
+	1830.8.2 = {
+		holder = 6440003
+		liege = k_france
+	}
 }
 
 c_vermandois = {
@@ -794,6 +798,10 @@ c_beaumont = {
 	}
 	1814.4.6 = {
 		holder = 8000000
+	}
+	1830.8.11 = {
+		holder = 6440001
+		liege = k_france
 	}
 }
 
@@ -1673,6 +1681,7 @@ d_normandy = {
 		liege = e_france
 	}
 	1814.4.11 = {
+		holder = 6440000
 		liege = k_france
 	}
 }
@@ -1750,6 +1759,9 @@ c_rouen = {
 	1804.5.18 = {
 		holder = fragov_norman
 	}
+	1814.4.11 = {
+		holder = 6440000
+	}
 }
 
 c_evreux = {
@@ -1824,6 +1836,9 @@ c_evreux = {
 	}
 	1804.5.18 = {
 		holder = fragov_norman
+	}
+	1814.4.11 = {
+		holder = 6440000
 	}
 }
 
@@ -1911,6 +1926,7 @@ c_bayeux = {
 	}
 	1804.5.18 = {
 		holder = fragov_norman
+		liege = d_normandy
 	}
 }
 
@@ -2229,6 +2245,9 @@ c_eu = {
 	}
 	1804.5.18 = {
 		holder = fragov_norman
+	}
+	1814.4.11 = {
+		holder = 6440000
 	}
 }
 

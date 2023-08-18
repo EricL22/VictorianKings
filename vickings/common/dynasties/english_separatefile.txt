@@ -1,0 +1,78 @@
+﻿jenkinson = {
+    name = "dynn_Jenkinson"
+    culture = "english"
+}
+
+grenville = {
+    name = "dynn_Grenville"
+    culture = "english"
+}
+
+bentham = {
+    name = "dynn_Bentham"
+    culture = "english"
+}
+
+grey = {
+    name = "dynn_Grey"
+    culture = "english"
+}
+
+lamb = {
+    name = "dynn_Lamb"
+    culture = "english"
+}
+
+peel = {
+    name = "dynn_Peel"
+    culture = "english"
+}
+
+molesworth = {
+    name = "dynn_Molesworth"
+    culture = "english"
+}
+
+petty = {
+    name = "dynn_Petty"
+    culture = "english"
+}
+
+stewart = {
+    name = "dynn_Stewart"
+    culture = "english"
+}
+
+#1861
+
+temple = {
+    name = "dynn_Temple"
+    culture = "english"
+}
+
+russell = {
+    name = "dynn_Russell"
+    culture = "english"
+}
+
+disraeli = {
+    name = "dynn_Disraeli"
+    culture = "english"
+}
+
+cecil = {
+    name = "dynn_Cecil"
+    culture = "english"
+}
+
+#Scottish
+
+campbell4 = {
+    name = "dynn_Campbell"
+    culture = "Scottish"
+}
+
+lennox = {
+    name = "dynn_Lennox"
+    culture = "Scottish"
+}

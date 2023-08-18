@@ -1519,6 +1519,10 @@ c_toulouse = {
 	1814.4.11 = {
 		holder = fragov_aquitaine
 	}
+	1830.6.23 = {
+		holder = 6440005
+		liege = k_france
+	}
 }
 
 c_quercy = {

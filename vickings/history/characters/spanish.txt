@@ -1,0 +1,94 @@
+﻿
+#PM 1835 to 1836, born in Andalusia, give him Duchy if Sevilla?
+6450000 = {
+	name = "Juan"
+	dynasty = mendizabal
+	culture = castilian
+	religion = catholic
+	1790.2.25 = {
+		birth = yes
+	}
+	1834.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1853.11.3 = {
+		death = yes
+	}
+}
+
+#Conservative candidate for 1836 election count of Granada(born there)?
+#(Known as Francisco Martínez de la Rosa)
+6450001 = {
+	name = "Francisco"
+	dynasty = la_rosa
+	culture = castilian
+	religion = catholic
+	1787.3.10 = {
+		birth = yes
+	}
+	1820.1.1 = {
+		effect = {
+			add_character_flag = conservative_party
+			add_character_modifier = {
+				modifier = conservative_party_modifier
+			}
+		}
+	}
+	1862.2.7 = {
+		death = yes
+	}
+}
+
+
+#Conservative candidate 1837 election, Cadiz count?
+6450002 = {
+	name = "Francisco"
+	dynasty = isturiz
+	culture = castilian
+	religion = catholic
+	1790.10.31 = {
+		birth = yes
+	}
+	1833.1.1 = {
+		effect = {
+			add_character_flag = conservative_party
+			add_character_modifier = {
+				modifier = conservative_party_modifier
+			}
+		}
+	}
+	1871.4.2 = {
+		death = yes
+	}
+}
+
+
+#Liberal PM multiple times, Prince of Vergara(make him count of Navarre)
+6450003 = {
+	name = "Baldomero"
+	dynasty = espartero
+	culture = castilian
+	religion = catholic
+	1793.2.27 = {
+		birth = yes
+	}
+	1826.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1833.9.29 = {
+		employer = 8000019
+	}
+	1879.1.8 = {
+		death = yes
+	}
+}

@@ -318,6 +318,10 @@ c_provence = {
 	1804.5.18 = {
 		holder = fragov_burgund
 	}
+	1830.10.21 = {
+		holder = 6440002
+		liege = k_france
+	}
 }
 
 
@@ -555,6 +559,10 @@ c_venaissin = {
 
 	1804.5.18 = {
 		holder = fragov_burgund
+	}
+	1834.6.22 = {
+		holder = 6440004
+		liege = k_france
 	}
 }
 

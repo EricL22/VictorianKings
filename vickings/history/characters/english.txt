@@ -1,0 +1,458 @@
+﻿
+#Earl of Liverpool, PM of 1812, give him lands around Liverpool
+6410000 = {
+	name = "Robert"
+	dynasty = jenkinson
+	culture = english
+	religion = protestant
+	1770.7.7 = {
+		birth = yes
+	}
+	1790.6.16 = {
+		effect = {
+			add_character_flag = conservative_party
+			add_character_modifier = {
+				modifier = conservative_party_modifier
+			}
+		}
+	}
+	1828.12.4 = {
+		death = yes
+	}
+}
+
+#Baron of Grenville till 1834, give him Buckinghamshire
+
+6410001 = {
+	name = "William"
+	dynasty = grenville
+	culture = english
+	religion = protestant
+	1759.10.25 = {
+		birth = yes
+	}
+	1782.2.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1834.1.12 = {
+		death = yes
+	}
+}
+
+#Radical Whig, give him somewhere around Middlesex?
+
+6410002 = {
+	name = "Jeremy"
+	dynasty = bentham
+	culture = english
+	religion = protestant
+	1748.1.15 = {
+		birth = yes
+	}
+	1812.1.1 = {
+		effect = {
+			add_character_flag = socialist_party
+			add_character_modifier = {
+				modifier = socialist_party_modifier
+			}
+		}
+	}
+	1832.6.6 = {
+		death = yes
+	}
+}
+
+#Earl Grey, PM 1830 till 1834, leader of the Whigs till 1834, Earl of Northumberland till 1845
+
+6410003 = {
+	name = "Charles"
+	dynasty = grey
+	culture = english
+	religion = protestant
+	1764.3.13 = {
+		birth = yes
+	}
+	1786.9.14 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1845.7.17 = {
+		death = yes
+	}
+}
+
+#Viscount of Melbourne, PM 1835 till 1841, Earl of Nottinghamshire till 1848
+6410004 = {
+	name = "William"
+	dynasty = lamb
+	culture = english
+	religion = protestant
+	1779.3.15 = {
+		birth = yes
+	}
+	1806.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1845.7.17 = {
+		death = yes
+	}
+}
+
+#Robert Peel, PM 1834 to 1835, and 1841 to 1846, Earl of Staffordshire 1830-1850
+
+6410005 = {
+	name = "Robert"
+	dynasty = peel
+	culture = english
+	religion = protestant
+	1788.2.5 = {
+		birth = yes
+	}
+	1809.1.1 = {
+		effect = {
+			add_character_flag = conservative_party
+			add_character_modifier = {
+				modifier = conservative_party_modifier
+			}
+		}
+	}
+	1850.7.2 = {
+		death = yes
+	}
+}
+
+#Radical Whig, PM 1832 to 1855, Earldom of Cornwall 1823 to 1855
+
+6410006 = {
+	name = "William"
+	dynasty = molesworth
+	culture = english
+	religion = protestant
+	1810.5.23 = {
+		birth = yes
+	}
+	1832.1.1 = {
+		effect = {
+			add_character_flag = socialist_party
+			add_character_modifier = {
+				modifier = socialist_party_modifier
+			}
+		}
+	}
+	1855.10.22 = {
+		death = yes
+	}
+}
+
+#Whig PM, Earl of Kerry 1818 to 1863
+
+6410007 = {
+	name = "Henry"
+	dynasty = petty
+	culture = english
+	religion = protestant
+	1780.7.2 = {
+		birth = yes
+	}
+	1802.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1863.1.31 = {
+		death = yes
+	}
+}
+
+
+#Lord Castlereagh, famous Foreign Minster of the Napoleonic Wars, Earl of Ulster
+6410008 = {
+	name = "Robert"
+	dynasty = stewart
+	culture = english
+	religion = protestant
+	1769.6.18 = {
+		birth = yes
+	}
+	1795.1.1 = {
+		effect = {
+			add_character_flag = conservative_party
+			add_character_modifier = {
+				modifier = conservative_modifier
+			}
+		}
+	}
+	1822.8.12 = {
+		death = yes
+	}
+}
+
+#Important British characters 1861
+
+#Liberal PM to 1865, Viscount of Palmerston(hold larges estates in Sligo, Connaght) 
+6410009 = {
+	name = "Henry John"
+	dynasty = temple
+	culture = english
+	religion = protestant
+	1784.10.20 = {
+		birth = yes
+	}
+	1830.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_modifier
+			}
+		}
+	}
+	1865.10.18 = {
+		death = yes
+	}
+}
+
+#John Russell, important Liberal MP, Earl of Russell 1861(give him county of Dorset)
+
+6410010 = {
+	name = "John"
+	dynasty = russell
+	culture = english
+	religion = protestant
+	1792.8.18 = {
+		birth = yes
+	}
+	1813.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_modifier
+			}
+		}
+	}
+	1878.5.28 = {
+		death = yes
+	}
+}
+
+#Famous Tory PM, Opposition Leader in 1861, was later Earl of Beaconsfield(1876) and constituent of that place(translates to county of Buckinghamshire, give him that in 1861)
+
+6410011 = {
+	name = "Benjamin"
+	dynasty = disraeli 
+	culture = english 
+	religion = protestant #was never really religious, otherwise make him jewish?
+	1804.12.21 = {
+		birth = yes
+	}
+	1830.1.1 = {
+		effect = {
+			add_character_flag = conservative_party
+			add_character_modifier = {
+				modifier = conservative_modifier
+			}
+		}
+	}
+	1881.4.19 = {
+		death = yes
+	}
+}
+
+
+#Important Tory MP, father of famous Salisbury PM, Earl of Salisbury until 1868(county of Wiltshire in-game terms)
+#(Known as James Gascoyne-Cecil)
+6410012 = {
+	name = "James"
+	dynasty = cecil
+	culture = english
+	religion = protestant
+	1791.4.17 = {
+		birth = yes
+	}
+	1813.1.1 = {
+		effect = {
+			add_character_flag = conservative_party
+			add_character_modifier = {
+				modifier = conservative_modifier
+			}
+		}
+	}
+	1868.4.12 = {
+		death = yes
+	}
+}
+
+#Scottish Peers/Politicians, 1812, 1815, 1836 and 1861
+
+#Progenitor of the below
+
+6410013 = {
+	name = "John"
+	dynasty = campbell4
+	culture = scottish
+	religion = protestant
+	1723.6.1 = {
+		birth = yes
+	}
+	1806.5.24 = {
+		death = yes
+	}
+}
+
+#Whig MP, Duke of Argyll 1806-1839(county of argyll in-game)
+
+6410014 = {
+	name = "George"
+	dynasty = campbell4
+	culture = scottish
+	religion = protestant
+	father = 6410013
+	1768.9.22 = {
+		birth = yes
+	}
+	1790.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_modifier
+			}
+		}
+	}
+	1839.10.22 = {
+		death = yes
+	}
+}
+
+6410015 = {
+	name = "John"
+	dynasty = campbell4
+	culture = scottish
+	religion = protestant
+	father = 6410013
+	1777.12.21 = {
+		birth = yes
+	}
+	1799.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_modifier
+			}
+		}
+	}
+	1847.4.25 = {
+		death = yes
+	}
+}
+
+#Liberal MP, son of former Duke(1847-1900), was quite a learner, give him some stats to reflect that:
+#https://en.wikipedia.org/wiki/George_Campbell,_8th_Duke_of_Argyll
+
+6410016 = {
+	name = "George"
+	dynasty = campbell4
+	culture = scottish
+	religion = protestant
+	trait = scholar
+	father = 6410015
+	1823.4.30 = {
+		birth = yes
+	}
+	1840.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_modifier
+			}
+		}
+	}
+	1900.4.24 = {
+		death = yes
+	}
+}
+
+#Tory MP, Duke of Lennox 1806-1819(county of Lennox in-game) 
+
+6410017 = {
+	name = "Charles"
+	dynasty = lennox
+	culture = scottish
+	religion = protestant
+	1764.12.9 = {
+		birth = yes
+	}
+	1790.1.1 = {
+		effect = {
+			add_character_flag = conservative_party
+			add_character_modifier = {
+				modifier = conservative_modifier
+			}
+		}
+	}
+	1819.8.28 = {
+		death = yes
+	}
+}
+
+#Tory MP, son of former Duke(1819-1860)
+
+6410018 = {
+	name = "Charles"
+	dynasty = lennox
+	culture = scottish
+	religion = protestant
+	father = 6410017
+	1791.8.3 = {
+		birth = yes
+	}
+	1812.1.1 = {
+		effect = {
+			add_character_flag = conservative_party
+			add_character_modifier = {
+				modifier = conservative_modifier
+			}
+		}
+	}
+	1860.10.21 = {
+		death = yes
+	}
+}
+
+#Tory MP 1861, son of former Duke(1860-1903)
+6410019 = {
+	name = "Charles"
+	dynasty = lennox
+	culture = scottish
+	religion = protestant
+	father = 6410018
+	1818.2.27 = {
+		birth = yes
+	}
+	1840.1.1 = {
+		effect = {
+			add_character_flag = conservative_party
+			add_character_modifier = {
+				modifier = conservative_modifier
+			}
+		}
+	}
+	1903.9.27 = {
+		death = yes
+	}
+}

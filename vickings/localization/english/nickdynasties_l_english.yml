@@ -1,4 +1,25 @@
 ﻿l_english:
+################ English
+ dynn_Jenkinson:0 "Jenkinson"
+ dynn_Grenville:1 "Grenville"
+ dynn_Bentham:2 "Bentham"
+ dynn_Grey:4 "Grey"
+ dynn_Lamb:5 "Lamb"
+ dynn_Peel:6 "Peel"
+ dynn_Petty:7 "Petty"
+ dynn_Stewart:8 "Stewart"
+ dynn_Molesworth:9 "Molesworth"
+
+#dynasties. 1861
+ dynn_Temple:10 "Temple"
+ dynn_Russell:11 "Russell"
+ dynn_Disraeli:12 "Disraeli"
+ dynn_Cecil:13 "Cecil"
+
+#Scottish dynasties
+ dynn_Campbell:14 "Campbell"
+ dynn_Lennox:14 "Lennox"
+
 ################ Mexican
  dynn_Santa_Anna:0 "López de Santa Anna"
  dynn_Bustamante:1 "Bustamante"
@@ -96,3 +117,42 @@
  dynn_Jones:5 "Jones"
  dynn_Burleson:7 "Burleson"
  dynn_Valera:0 "Valera"
+
+################ French
+ dynn_Broglie:0 "Broglie"
+ dynn_Mole:1 "Molé"
+ dynn_Thiers:2 "Thiers"
+ dynn_Ledru_Rollin:3 "Ledru-Rollin"
+ dynn_Berryer:4 "Berryer"
+ dynn_Guizot:5 "Guizot"
+
+################ Spanish
+ dynn_Mendizabal:0 "Mendizabal"
+ dynn_la_Rosa:1 "La Rosa"
+ dynn_Isturiz:2 "Isturiz"
+ dynn_Espartero:3 "Espartero"
+
+################ Swiss
+ dynn_Wyss:0 "Wyss"
+ dynn_Wattenwyl:1 "Wattenwyl"
+ dynn_Burckhardt:2 "Burckhardt"
+ dynn_Hirzel:3 "Hirzel"
+ dynn_Tscharner:4 "Tscharner"
+ dynn_Toggenburg:5 "Toggenburg"
+ dynn_Ganzoni:6 "Ganzoni"
+ dynn_Caderas:7 "Caderas"
+ dynn_Luchs:8 "Luchs"
+ dynn_Lullin:9 "Lullin"
+ dynn_Rieu:10 "Rieu"
+ dynn_Friedberg:11 "Friedberg"
+ dynn_Naeff:12 "Naeff"
+ dynn_Fetzer:13 "Fetzer"
+ dynn_Wieland:14 "Wieland"
+
+#dynasties 1861
+ dynn_Keller:15 "Keller"
+ dynn_Migy:16 "Migy"
+ dynn_Fontanel:17 "Fontanel"
+ dynn_Hold:18 "Hold"
+ dynn_Zehnder:19 "Zehnder"
+ dynn_Knusel:20 "Knüsel"

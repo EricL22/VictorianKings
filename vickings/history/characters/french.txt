@@ -1,0 +1,135 @@
+﻿#PM 1835 to 1836, Broglie lands lay in Normandy, Duke of Normandy
+
+6440000 = {
+	name = "Victor"
+	dynasty = broglie
+	culture = french
+	religion = catholic
+	1785.11.28 = {
+		birth = yes
+	}
+	1830.1.1 = {
+		effect = {
+			add_character_flag = conservative_party
+			add_character_modifier = {
+				modifier = conservative_party_modifier
+			}
+		}
+	}
+	1870.1.25 = {
+		death = yes
+	}
+}
+
+#PM 1836 to 1839, lands above Isle-de-France, if possible
+6440001 = {
+	name = "Louise-Mathieu"
+	dynasty = mole
+	culture = french
+	religion = catholic
+	1781.1.24 = {
+		birth = yes
+	}
+	1830.1.1 = {
+		effect = {
+			add_character_flag = conservative_party
+			add_character_modifier = {
+				modifier = conservative_party_modifier
+			}
+		}
+	}
+	1855.11.23 = {
+		death = yes
+	}
+}
+
+#PM 22 February 1836 to 6 September 1836, Count of Marseille(he was born there)
+6440002 = {
+	name = "Adolphe"
+	dynasty = thiers
+	culture = french
+	religion = catholic
+	1797.4.15 = {
+		birth = yes
+	}
+	1836.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1877.9.3 = {
+		death = yes
+	}
+}
+
+#Socialist Republican candidate for 1837 election, lands around Paris?
+6440003 = {
+	name = "Alexandre"
+	dynasty = ledru_rollin
+	culture = french
+	religion = catholic
+	1807.2.2 = {
+		birth = yes
+	}
+	1830.1.1 = {
+		effect = {
+			add_character_flag = socialist_party
+			add_character_modifier = {
+				modifier = socialist_party_modifier
+			}
+		}
+	}
+	1874.12.31 = {
+		death = yes
+	}
+}
+
+#Reactionary candidate for 1837 election, Member of Chamber of Deputies for Bouches-du-Rhone(lands next to Marseille?)
+
+6440004 = {
+	name = "Pierre-Antoine"
+	dynasty = berryer
+	culture = french
+	religion = catholic
+	1790.1.4 = {
+		birth = yes
+	}
+	1830.1.1 = {
+		effect = {
+			add_character_flag = reactionary_party
+			add_character_modifier = {
+				modifier = reactionary_party_modifier
+			}
+		}
+	}
+	1868.11.29 = {
+		death = yes
+	}
+}
+
+#
+
+#PM 1847, candidate for 1837 election, born in Nimes, make him count of Toulouse?
+6440005 = {
+	name = "Francois"
+	dynasty = guizot
+	culture = french
+	religion = catholic
+	1787.10.4 = {
+		birth = yes
+	}
+	1830.1.1 = {
+		effect = {
+			add_character_flag = conservative_party
+			add_character_modifier = {
+				modifier = conservative_party_modifier
+			}
+		}
+	}
+	1874.9.12 = {
+		death = yes
+	}
+}

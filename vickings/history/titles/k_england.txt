@@ -103,6 +103,9 @@ k_england = {
 	1830.6.26 = {
 		holder = 8000010
 	}
+	1837.6.20 = {
+		holder = 8000012
+	}
 }
 
 
@@ -640,11 +643,14 @@ c_buckinghamshire = {
 		holder = 9000000 #George III
 	}
 	
-	1820.1.29 = {
-		holder = 8000009
+	1790.1.1 = {
+		holder = 6410001
 	}
-	1830.6.26 = {
+	1834.1.12 = {
 		holder = 8000010
+	}
+	1861.7.1 = {
+		holder = 6410011
 	}
 
 }
@@ -761,11 +767,8 @@ c_northumberland = {
 	1760.10.25 = {
 		holder = 9000000 #George III
 	}
-	1820.1.29 = {
-		holder = 8000009
-	}
-	1830.6.26 = {
-		holder = 8000010
+	1807.11.14 = {
+		holder = 6410003
 	}
 }
 
@@ -1059,6 +1062,9 @@ c_lancashire = {
 	}
 	1760.10.25 = {
 		holder = 9000000 #George III
+	}
+	1808.12.17 = {
+		holder = 6410000
 	}
 }
 
@@ -2111,6 +2117,9 @@ c_nottinghamshire = {
 		holder = 9000000 #George III
 	}
 	
+	1805.1.24 = {
+		holder = 6410004
+	}
 
 }
 
@@ -2167,6 +2176,10 @@ c_staffordshire = {
 
 	1760.10.25 = {
 		holder = 9000000 #George III
+	}
+	1830.1.1 = {
+		holder = 6410005
+		liege = k_england
 	}
 }
 
@@ -2660,6 +2673,9 @@ c_wiltshire = {
 	1760.10.25 = {
 		holder = 9000000 #George III
 	}
+	1823.6.13 = {
+		holder = 6410012
+	}
 }
 
 
@@ -3147,6 +3163,9 @@ c_surrey = {
 	1760.10.25 = {
 		holder = 9000000 #George III
 	}
+	1791.1.1 = {
+		holder = 6410002
+	}
 
 }
 
@@ -3447,6 +3466,9 @@ c_dorset = {
 	}
 	1760.10.25 = {
 		holder = 9000000 #George III
+	}
+	1861.7.1 = {
+		holder = 6410010
 	}
 }
 
@@ -3935,6 +3957,10 @@ c_cornwall = {
 	}
 	1760.10.25 = {
 		holder = 9000000 #George III
+	}
+	1823.1.1 = {
+		holder = 6410006
+		liege = k_england
 	}
 }
 
