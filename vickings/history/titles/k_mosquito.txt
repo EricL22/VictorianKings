@@ -1,21 +1,21 @@
 k_mosquito = {
 	1755.1.1 = {
-		holder = 6510000
+		holder = 6501000
 	}
 	1777.1.1 = {
-		holder = 6510001
+		holder = 6501001
 	}
 	1801.1.1 = {
-		holder = 6510002
+		holder = 6501002
 		liege = e_britannia
 	}
 	1823.7.1 = {
 		de_jure_liege = e_central_america
 	}
 	1824.3.9 = {
-		holder = 6510003
+		holder = 6501003
 	}
 	1841.10.8 = {
-		holder = 6510004
+		holder = 6501004
 	}
 }

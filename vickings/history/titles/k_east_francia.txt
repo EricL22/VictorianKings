@@ -2818,9 +2818,6 @@ d_currezia = {
 	1291.7.15 = {
 		de_jure_liege = k_switzerland
 	}
-	1803.2.19 = {
-		holder = 9000002
-	}
 }
 
 
@@ -2907,7 +2904,20 @@ c_grisons = {
 	}
 
 	1803.2.19 = {
-		holder = 9000002
+		government = republic_government
+	}
+	1812.1.1 = {
+		holder = 6510006
+		liege = k_switzerland
+	}
+	1815.1.1 = {
+		holder = 6510008
+	}
+	1836.1.1 = {
+		holder = 6510007
+	}
+	1861.1.1 = {
+		holder = 6510020
 	}
 }
 
@@ -2999,7 +3009,14 @@ c_sankt_gallen = {
 	}
 
 	1803.2.19 = {
-		holder = 9000002
+		government = republic_government
+	}
+	1803.3.10 = {
+		holder = 6510012
+		liege = k_switzerland
+	}
+	1836.1.1 = {
+		holder = 6510014
 	}
 }
 
@@ -3087,7 +3104,23 @@ c_zurich = {
 	}
 
 	1803.2.19 = {
-		holder = 9000002
+		government = republic_government
+	}
+	1803.4.21 = {
+		holder = 6510009
+		liege = k_switzerland
+	}
+	1812.1.1 = {	# ruler of Basel, needs an entire county to control Switzerland
+		holder = 6510002
+	}
+	1814.12.16 = {
+		holder = 6510000
+	}
+	1832.3.20 = {
+		holder = 6510004
+	}
+	1861.1.1 = {
+		holder = 6510021
 	}
 }
 

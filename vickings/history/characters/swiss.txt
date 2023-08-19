@@ -203,7 +203,7 @@
 #ruler Zurich 1812
 6510009 = {
 	name = "Johann"
-	dynasty = luchs
+	dynasty = escher_luchs
 	culture = german
 	religion = reformed
 	1761.6.17 = {

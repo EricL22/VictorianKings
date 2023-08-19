@@ -43,8 +43,8 @@ caderas = {
 }
 
 
-luchs = {
-    name = "dynn_Luchs"
+escher_luchs = {
+    name = "dynn_Escher_Luchs"
     culture = "german"
 }
 

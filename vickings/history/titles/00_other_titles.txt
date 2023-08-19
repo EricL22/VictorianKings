@@ -2408,7 +2408,7 @@ k_sakya_trizin = {
 k_switzerland = {
 	1291.7.15= {
 		liege="e_hre"
-	de_jure_liege = "e_hre"
+		de_jure_liege = "e_hre"
 	}
 	1291.7.15= {
 		holder=462085
@@ -2418,6 +2418,21 @@ k_switzerland = {
 	}
 	1806.8.6 = {
 		de_jure_liege = e_germany
+	}
+	1812.1.1 = {
+		holder = 6510002
+	}
+	1814.12.16 = {
+		holder = 6510000
+	}
+	1836.1.1 = {
+		holder = 6510005
+	}
+	1848.9.12 = {
+		government = republic_government
+	}
+	1861.1.1 = {
+		holder = 6510022
 	}
 }
 

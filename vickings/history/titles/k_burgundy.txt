@@ -1701,9 +1701,19 @@ c_geneva = {
 	1804.5.18 = {
 		holder = fragov66
 	}
-	1815.6.9 = {
-		holder = 9000002
+	1814.10.12 = {
+		holder = 6510010
 		de_jure_liege = d_transjurania
+	}
+	1815.5.19 = {
+		liege = k_switzerland
+		government = republic_government
+	}
+	1834.1.1 = {
+		holder = 6510011
+	}
+	1860.11.28 = {
+		holder = 6510019
 	}
 }
 
@@ -2077,7 +2087,15 @@ c_bern = {
 	}
 
 	1803.2.19 = {
-		holder = 9000002
+		holder = 6510001
+		liege = k_switzerland
+		government = republic_government
+	}
+	1831.10.20 = {
+		holder = 6510005
+	}
+	1861.1.1 = {
+		holder = 6510018
 	}
 }
 
@@ -2148,7 +2166,17 @@ c_aargau = {
 	}
 
 	1803.2.19 = {
-		holder = 9000002
+		government = republic_government
+	}
+	1803.4.26 = {
+		holder = 6510015
+		liege = k_switzerland
+	}
+	1836.1.1 = {
+		holder = 6510016
+	}
+	1861.1.1 = {
+		holder = 6510017
 	}
 }
 
@@ -2214,8 +2242,20 @@ c_neuchatel = {
 	1309.8.29 = {
 		holder = 32771
 	}
-	1803.2.19 = {
-		holder = 9000002
+	1806.3.22 = {
+		holder = fragov_burgund
+	}
+	1815.5.19 = {
+		liege = k_switzerland
+	}
+	1815.6.1 = {
+		holder = 6510002
+	}
+	1848.3.2 = {
+		government = republic_government
+	}
+	1861.1.1 = {
+		holder = 6510022
 	}
 }
 

@@ -367,7 +367,7 @@
 }
 
 ### Miskito Kings
-6510000 = {
+6501000 = {
 	name = "George"
 	dynasty = 162594
 	culture = miskito
@@ -379,7 +379,7 @@
 		death = yes
 	}
 }
-6510001 = {
+6501001 = {
 	name = "George"		# Frederic
 	dynasty = 162594
 	culture = miskito
@@ -392,7 +392,7 @@
 		death = yes
 	}
 }
-6510002 = {
+6501002 = {
 	name = "George-Frederic-Augustus"
 	dynasty = 162594
 	culture = miskito
@@ -413,7 +413,7 @@
 		death = yes
 	}
 }
-6510003 = {
+6501003 = {
 	name = "Robert-Charles-Frederic"
 	dynasty = 162594
 	culture = miskito
@@ -434,7 +434,7 @@
 		death = yes
 	}
 }
-6510004 = {
+6501004 = {
 	name = "George-Frederic-Augustus"
 	dynasty = 162594
 	culture = miskito
