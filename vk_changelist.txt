@@ -12,6 +12,7 @@ Added cultural innovation to increase diplomatic range, especially useful for Am
 Added a heightmap for the Maldives
 Replaced the boring vanilla music with handpicked era-appropriate pieces
 Added various historical characters and fixes (no more Prince Swissguy!)
+Added more colonization events, particularly for the colonizer side
 0.4.5---------- (Commit 10155b5)
 Fixed compatibility for the 1.8 update
 0.4.4---------- (Commit c544d95)

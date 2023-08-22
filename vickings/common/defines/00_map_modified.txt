@@ -1,4 +1,8 @@
-﻿NJominiMap = {
+﻿NGame = {
+	END_DATE = "1920.1.1"
+}
+
+NJominiMap = {
 	WORLD_EXTENTS_X = 16383
 	WORLD_EXTENTS_Y = 51
 	WORLD_EXTENTS_Z = 6143

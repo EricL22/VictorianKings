@@ -22,6 +22,44 @@
  colonization.14.desc:0 "A massive attack led by tribal chiefs of [colonize_target.GetName] has targeted the site of a major railroad designed to connect our various settlements in the region. Without such aid of transportation, our colonists will have a hard time navigating the area, with the additional danger of native hostility."
  colonization.14.desc.2:0 "A massive attack led by tribal chiefs of [colonize_target.GetName] has targeted the site of a major settlement, burning down many administrative centers and causing the colonists to flee for their lives. The deployment of an additional military force to deal with this will undoubtedly take some time to restore order in the region."
  colonization.14.a:0 "Damn those natives!"
+ colonization.15.name:0 "Colonization - Language Acceptance"  #####Increase progress by 2
+ colonization.15.desc:0 "The natives of the area have learned to understand our language. Although now we can communicate more efficiently and understand each other, that does not mean that hostilities have ended. But at least it's a goal achieved."
+ colonization.15.a:0 "Excellent."
+ colonization.16.name:0 "Colonization - Rejected Language"  #####Decrease progress by 2
+ colonization.16.desc:0 "The natives gave us no respite. As much as we have captured several of them, teaching our language and returned to their tribes, it doesn't seem to have been positive and the savages continue to attack us and speak in their own language."
+ colonization.16.a:0 "As if we could ever understand the savages!"
+ colonization.17.name:0 "Colonization - Built Infrastructure"  #####Increase progress by 1
+ colonization.17.desc:0 "We have managed to build the necessary roads to connect our settlements with the military bases in the region. The troops will move faster and while the natives will assault the roads, we trust that the patrols and engineers will take care of protecting or restoring the road."
+ colonization.17.a:0 "Follow the path! Move!"
+ colonization.18.name:0 "Colonization - No Local Guides"  #####Decrease progress by 1
+ colonization.18.desc:0 "We have not been able to convince or compel the natives of the region to serve as guides. Due to this mishap, it will take much longer to stabilize the wildling region, not knowing where their bases are and not knowing the terrain."
+ colonization.18.a:0 "Our eyes and ears are covered!"
+ colonization.19.name:0 "Colonization - Volunteer Guide"  #####Increase progress by 1
+ colonization.19.desc:0 "We have captured and managed to convince several local natives to accompany our soldiers. Thanks to this, we have been able to find the camps of the wildlings and adapt more easily to the terrain."
+ colonization.19.a:0 "Two can play the same game!"
+ colonization.20.name:0 "Colonization - Native Citizens"  #####Increase progress by 1
+ colonization.20.desc:0 "Many inhabitants of the region decided to surrender or never showed signs of struggle. They began to help in the tasks of the colonies. Although limited, help is appreciated."
+ colonization.20.a:0 "The Colonies prosper!"
+ colonization.24.name:0 "Colonization - Industrialization"  #####Increase progress by 2
+ colonization.24.desc:0 "Many European nations are implementing industrialization in their territories. Our development planners believe we can bring this type of industry to our colonial possessions, providing a welcome increase in productivity."
+ colonization.24.a:0 "Do it!"
+ colonization.24.b:0 "It's too expensive"
+ colonization.25.name:0 "Colonization - Priority in Agriculture"  #####Increase progress by 1
+ colonization.25.desc:0 "These natives are reluctant to adapt to modern industry. However, they do not present complaints to basic tasks such as agriculture and livestock. We may not benefit as much by comparison, but even so, it is a slight development."
+ colonization.25.a:0 "Agrarianism can fit our needs too"
+ colonization.26.name:0 "Colonization - Cultural Acceptance"  #####Increase progress by 2
+ colonization.26.desc:0 "The original inhabitants of these lands made the decision to leave their customs and adopt ours. Now they dress and behave like us."
+ colonization.26.a:0 "A testament to the greatness of [root_loc.GetCulture.GetName] culture."
+ colonization.27.name:0 "Colonization - Cultural Adaptation"  #####Increase progress by 1
+ colonization.27.desc:0 "Something curious has happened. The natives combined their customs with ours, creating or modernizing their culture for the current times. They still have strange habits and customs, but they dress and behave civilly."
+ colonization.27.a:0 "A fortuitous development."
+ colonization.28.name:0 "Colonization - Cultural Rejection"  #####Decrease progress by 1
+ colonization.28.desc:0 "The natives do not allow themselves to change their culture for ours or adapt theirs for modern times, taking elements from ours. They continue with their wild and dangerous way of life."
+ colonization.28.a:0 "All the more reason for our civilizing mission."
+ colonization.30.name:0 "Colonization - Educational Funding"
+ colonization.30.desc:0 "It is important that native children can learn what is necessary to adapt to the present. By building and funding educational institutions in the colonial territory, we may propagate our cultural values and make their transition into society a painless one."
+ colonization.30.a:0 "Increase government funding"
+ colonization.30.b:0 "Do not waste a single cent on those barbarians!"
 
  colonization.101.name:0 "Missionaries Arrive"
  colonization.101.desc:0 "A group of [colonizing_faith.GetAdjective] missionaries from a foreign realm have arrived. Professing peace and prosperity, and the rewards we would receive by joining the brotherhood of [colonizing_faith.CreatorName], many of our subjects are understandably tempted to join them..."
@@ -31,6 +69,13 @@
  colonization.102.desc:0 "With the arrival of men from the [colonizer_title.GetName], there has been a marked increase in the industrialization of our lands, completely overrunning any food sources or other resources we have derived from there for generations. A few tribal chiefs have voiced their assent at going on a raid against the invaders."
  colonization.102.a:0 "Burn down the lot of them!"
  colonization.102.b:0 "No, we must wait and see what will come of it."
+ colonization.103.name:0 "Colonization - The Cultural Question" 
+ colonization.103.desc:0 "Our customs and theirs are very different. It is clear that our best option to try to reach an acceptable relationship with the conquerors is to learn their culture and assimilate it. As an alternative we can combine elements of ours with theirs. Or simply, continue with the fight and continue until they are expelled. Do not forget our customs established generations ago by our ancestors."
+ colonization.103.a:0 "Cultural Assimilation"
+ colonization.103.b:0 "Cultural Adaptation"
+ cultural_acceptance_gain_colonization_accepted:0 "Colonial Integration"
+ colonization.103.c:0 "Cultural Rejection"
+ cultural_acceptance_gain_colonization_rejected:0 "Colonial Resistance"
 
  colonization.1000.name:0 "Colonization Ended"
  colonization.1000.desc:0 "With the recent loss of realm authority, it has become difficult to devote many resources to the project of civilizing frontier lands. The colonization of [col_tar.GetName] has come to an end."

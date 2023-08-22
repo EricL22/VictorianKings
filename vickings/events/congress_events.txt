@@ -1200,6 +1200,12 @@ congress_of_vienna.5 = {
 				change = scope:title_change
 			}
 		}
+		title:c_neuchatel = {
+			change_title_holder = {
+				holder = title:k_switzerland.holder
+				change = scope:title_change
+			}
+		}
 		title:k_frisia = {
 			add_to_temporary_list = target_titles
 		}

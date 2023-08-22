@@ -132,6 +132,15 @@ colonization_events_cycle_actor_events = {
 	random_events = {
 		500 = 0
 		100 = colonization.11
+		100 = colonization.15
+		100 = colonization.16
+		100 = colonization.17
+		100 = colonization.18
+		100 = colonization.19
+		100 = colonization.20
+		100 = colonization.24
+		100 = colonization.25
+		100 = colonization.30
 	}
 }
 
@@ -141,6 +150,7 @@ colonization_events_cycle_recipient_events = {
 		500 = 0
 		100 = colonization.101
 		100 = colonization.102
+		100 = colonization.103
 	}
 }
 
