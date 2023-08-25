@@ -5732,6 +5732,9 @@ k_lodomeria = {
 	1804.8.11 = {
 		de_jure_liege = e_austria
 	}
+	1835.3.2 = {
+		holder = 9177200
+	}
 }
 
 k_romania = {

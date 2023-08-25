@@ -1,0 +1,111 @@
+solms_laubach = {
+    name = "dynn_Solms_Laubach"
+    culture = "german"
+}
+
+august_sack = {
+    name = "dynn_August_Sack"
+    culture = "german"
+}
+
+ingersleben = {
+    prefix = "dynnp_von"
+    name = "dynn_Ingersleben"
+    culture = "german"
+}
+
+schonberg = {
+    prefix = "dynnp_von"
+    name = "dynn_Schonberg"
+    culture = "german"
+}
+
+bonin = {
+    prefix = "dynnp_von"
+    name = "dynn_Bonin"
+    culture = "german"
+}
+
+vincke = {
+    prefix = "dynnp_von"
+    name = "dynn_Vincke"
+    culture = "german"
+}
+
+schon = {
+    prefix = "dynnp_von"
+    name = "dynn_Schon"
+    culture = "german"
+}
+
+schrotter = {
+    prefix = "dynnp_von"
+    name = "dynn_Schrotter"
+    culture = "german"
+}
+
+auerswald = {
+    prefix = "dynnp_von"
+    name = "dynn_Auerswald"
+    culture = "german"
+}
+
+bulow = {
+    prefix = "dynnp_von"
+    name = "dynn_Bulow"
+    culture = "german"
+}
+
+klewiz = {
+    prefix = "dynnp_von"
+    name = "dynn_Klewiz"
+    culture = "german"
+}
+
+bodelschwingh = {
+    prefix = "dynnp_von"
+    name = "dynn_Bodelschwing"
+    culture = "german"
+}
+
+zerboni = {
+    prefix = "dynnp_von"
+    name = "dynn_Zerboni"
+    culture = "german"
+}
+
+flottwell = {
+    prefix = "dynnp_von"
+    name = "dynn_Flottwell"
+    culture = "german"
+}
+
+heydebreck = {
+    prefix = "dynnp_von"
+    name = "dynn_Heydebreck"
+    culture = "german"
+}
+
+bassewitz = {
+    prefix = "dynnp_von"
+    name = "dynn_Bassewitz"
+    culture = "german"
+}
+
+merckel = {
+    prefix = "dynnp_von"
+    name = "dynn_Merckel"
+    culture = "german"
+}
+
+dennewitz = {
+    prefix = "dynnp_von"
+    name = "dynn_Dennewitz"
+    culture = "german"
+}
+
+massow = {
+    prefix = "dynnp_von"
+    name = "dynn_Massow"
+    culture = "german"
+}

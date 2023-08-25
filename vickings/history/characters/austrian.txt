@@ -1,0 +1,210 @@
+6490000 = {
+	name = "Karl Chotek"
+	dynasty = chotkow
+	culture = bavarian
+	religion = catholic
+	1783.7.23 = {
+		birth = yes
+	}
+	1868.12.28 = {
+		death = yes
+	}
+}
+
+6490001 = {
+	name = "Peter"
+	dynasty = goess
+	culture = bavarian
+	religion = catholic
+	1774.2.8 = {
+		birth = yes
+	}
+	1846.7.11 = {
+		death = yes
+	}
+}
+
+6490002 = {
+	name = "Joseph"
+	dynasty = hauer
+	culture = bavarian
+	religion = catholic
+	1778.3.6 = {
+		birth = yes
+	}
+	1863.2.2 = {
+		death = yes
+	}
+}
+
+6490003 = {
+	name = "Ferdinand Karl"
+	dynasty_house = house_habs_este
+	culture = bavarian
+	religion = catholic
+	father = 9177213
+	1781.4.25 = {
+		birth = yes
+	}
+	1850.11.5 = {
+		death = yes
+	}
+}
+
+6490004 = {	# unused governor of croatia
+	name = "Franjo"
+	dynasty = tomasic
+	culture = croatian
+	religion = catholic
+	1761.10.2 = {
+		birth = yes
+	}
+	1831.8.12 = {
+		death = yes
+	}
+}
+
+6490005 = {	# unused ?
+	name = "Wenzeslau"
+	dynasty = lilienberg
+	culture = bavarian
+	religion = catholic
+	1790.06.6 = {
+		birth = yes
+	}
+	1858.2.2 = {
+		death = yes
+	}
+}
+
+6490006 = {	# unused governor of lombardy
+	name = "Heinrich"
+	dynasty = reuss_plauen
+	culture = bavarian
+	religion = catholic
+	1751.2.22 = {
+		birth = yes
+	}
+	1825.8.30 = {
+		death = yes
+	}
+}
+
+6490007 = {
+	name = "Heinrich"
+	dynasty = bellegarde
+	culture = bavarian
+	religion = catholic
+	1756.8.29 = {
+		birth = yes
+	}
+	1845.7.2 = {
+		death = yes
+	}
+}
+
+6490008 = {
+	name = "Ignac"
+	dynasty = gyulay
+	culture = hungarian
+	religion = catholic
+	1763.9.11 = {
+		birth = yes
+	}
+	1831.11.11 = {
+		death = yes
+	}
+}
+
+6490009 = {
+	name = "Franjo"
+	dynasty = vlasic
+	culture = croatian
+	religion = catholic
+	1766.4.24 = {
+		birth = yes
+	}
+	1840.5.16 = {
+		death = yes
+	}
+}
+
+6490010 = {
+	name = "Gyorgy"
+	dynasty = banffy
+	culture = hungarian
+	religion = catholic
+	1746.12.24 = {
+		birth = yes
+	}
+	1822.7.5 = {
+		death = yes
+	}
+}
+
+6490011 = {
+	name = "Franz Anton"
+	dynasty = kolowrat
+	culture = bavarian
+	religion = catholic
+	1778.1.31 = {
+		birth = yes
+	}
+	1861.4.4 = {
+		death = yes
+	}
+}
+
+6490012 = {
+	name = "Klemens"
+	dynasty = metternich
+	culture = bavarian
+	religion = catholic
+	trait = education_diplomacy_4
+	1778.5.15 = {
+		birth = yes
+	}
+	1809.10.8 = {
+		employer = 9000012
+		give_council_position = councillor_chancellor
+	}
+	1835.3.2 = {
+		employer = 9177200
+		give_council_position = councillor_chancellor
+	}
+	1859.6.11 = {
+		death = yes
+	}
+}
+
+# Additional characters
+
+6490013 = {
+	name = "Rainer"
+	dynasty = 51
+	culture = bavarian
+	religion = catholic
+	father = 9177208
+	mother = 9200016
+	1783.9.30 = {
+		birth = yes
+	}
+	1853.1.16 = {
+		death = yes
+	}
+}
+
+6490014 = {
+	name = "Joseph"
+	dynasty = 51
+	culture = bavarian
+	religion = catholic
+	father = 9177208
+	mother = 9200016
+	1776.3.9 = {
+		birth = yes
+	}
+	1847.1.13 = {
+		death = yes
+	}
+}

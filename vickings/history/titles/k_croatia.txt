@@ -747,11 +747,12 @@ d_croatia = {
 		holder = fragov62
 		liege = e_france
 	}
-	1815.7.8 = {
-		holder = 9000012
+	1813.8.1 = {
+		holder = 6490008
+		liege = k_croatia
 	}
-	1835.3.2 = {
-		holder = 9177200
+	1832.5.23 = {
+		holder = 6490009
 	}
 }
 

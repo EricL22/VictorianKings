@@ -1195,8 +1195,12 @@ c_aachen = {
 	1804.5.18 = {
 		holder = fragov54
 	}
-	1814.4.11 = {
-		holder = 9000013
+	1814.3.11 = {
+		holder = 6480001
+		liege = k_prussia
+	}
+	1834.1.1 = {
+		holder = 6480011
 	}
 }
 
@@ -1282,8 +1286,12 @@ c_cleves = {
 	1804.5.18 = {
 		holder = fragov54
 	}
-	1814.4.11 = {
-		holder = 9000013
+	1815.1.1 = {
+		holder = 6480000
+		liege = k_prussia
+	}
+	1834.1.1 = {
+		holder = 6480011
 	}
 }
 
@@ -1574,8 +1582,12 @@ c_trier = {
 	1804.5.18 = {
 		holder = fragov54
 	}
-	1815.7.8 = {
-		holder = 9000013
+	1814.3.11 = {
+		holder = 6480001
+		liege = k_prussia
+	}
+	1834.1.1 = {
+		holder = 6480011
 	}
 }
 
@@ -2384,8 +2396,12 @@ c_cologne = {
 	1804.5.18 = {
 		holder = fragov54
 	}
-	1814.4.11 = {
-		holder = 9000013
+	1814.3.11 = {
+		holder = 6480001
+		liege = k_prussia
+	}
+	1834.1.1 = {
+		holder = 6480011
 	}
 }
 
@@ -2498,7 +2514,7 @@ c_dortmund = {
 		holder = fragov54
 	}
 	1814.4.11 = {
-		holder = 9000013
+		holder = 6480005
 	}
 }
 
@@ -2616,6 +2632,9 @@ c_arnsberg = {
 	1813.12.1 = {
 		holder = 9000013
 	}
+	1815.6.9 = {
+		holder = 6480005
+	}
 }
 
 
@@ -2730,7 +2749,7 @@ c_mark = {
 		holder = 9100008
 	}
 	1813.12.1 = {
-		holder = 9000013
+		holder = 6480005
 	}
 }
 
@@ -2814,8 +2833,12 @@ c_koblenz = {
 	1804.5.18 = {
 		holder = fragov54
 	}
-	1814.4.11 = {
-		holder = 9000013
+	1814.3.11 = {
+		holder = 6480001
+		liege = k_prussia
+	}
+	1834.1.1 = {
+		holder = 6480011
 	}
 }
 
@@ -2882,6 +2905,13 @@ c_bergh = {
 	}
 	1813.12.1 = {
 		holder = 9000013
+	}
+	1815.1.1 = {
+		holder = 6480000
+		liege = k_prussia
+	}
+	1834.1.1 = {
+		holder = 6480011
 	}
 }
 
@@ -2989,7 +3019,7 @@ c_sayn = {
 		holder = 9100008
 	}
 	1813.12.1 = {
-		holder = 9000013
+		holder = 6480005
 	}
 }
 

@@ -49,11 +49,14 @@ c_suceava = {
 		holder = 302133		#Litovoi Bolohoveni
 		liege = d_kiev
 	}
-	1792.3.1 = {
-		holder = 9000012
+	1810.4.3 = {
+		holder = 6490001
 	}
-	1835.3.2 = {
-		holder = 9177200
+	1815.4.1 = {
+		holder = 6490002
+	}
+	1832.9.1 = {
+		holder = 6490003
 	}
 }
 
@@ -151,10 +154,10 @@ c_tetina = {
 		liege = e_russia
 	}
 	1815.6.9 = {
-		holder = 9000012
+		holder = 6490002
 	}
-	1835.3.2 = {
-		holder = 9177200
+	1832.9.1 = {
+		holder = 6490003
 	}
 }
 

@@ -78,8 +78,16 @@ d_pommerania = {
 		de_jure_liege = k_prussia
 		holder = 9000013
 	}
-	
-
+	1815.5.25 = {
+		holder = 6480002
+		liege = k_prussia
+	}
+	1816.5.10 = {
+		holder = 6480001
+	}
+	1835.5.12 = {
+		holder = 6480004
+	}
 }
 
 
@@ -960,7 +968,19 @@ d_pomerelia = {
 	}
 	1797.11.16 = {
 		de_jure_liege = k_prussia
-		holder = 9000013
+		liege = k_prussia
+	}
+	1812.3.1 = {
+		holder = 6480009
+	}
+	1815.1.1 = {
+		holder = 6480006
+	}
+	1829.12.2 = {	# reset the primary title
+		holder = 0
+	}
+	1829.12.3 = {
+		holder = 6480006
 	}
 }
 
@@ -1385,6 +1405,13 @@ d_ostmark = {
 	1797.11.16 = {
 		de_jure_liege = k_prussia
 		holder = 9000013
+	}
+	1815.4.30 = {
+		holder = 6480014
+		liege = k_prussia
+	}
+	1824.1.1 = {
+		holder = 6480015
 	}
 }
 

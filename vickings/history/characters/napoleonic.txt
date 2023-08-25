@@ -426,6 +426,7 @@
 	religion = catholic
 	culture = bavarian
 	father = 9177208
+	mother = 9200016
 	1768.2.12 = {
 		birth = "1768.2.12"
 	}
@@ -3936,6 +3937,9 @@
 	1747.5.5 = {
 		birth = "1747.5.5"
 	}
+	1764.2.16 = {
+		add_spouse = 9200016
+	}
 	1792.3.1 = {
 		death = "1792.3.1"
 	}
@@ -3947,6 +3951,7 @@
 	religion = catholic
 	culture = bavarian
 	father = 9177208
+	mother = 9200016
 	1769.5.6 = {
 		birth = "1769.5.6"
 	}
@@ -4383,6 +4388,21 @@
 		birth = yes
 	}
 	1902.4.17 = {
+		death = yes
+	}
+}
+
+9200016 = {
+	name = "Maria Luisa"
+	dynasty = 100146
+	religion = catholic
+	culture = castilian
+	father = 8100054
+	female = yes
+	1745.11.24 = {
+		birth = yes
+	}
+	1792.5.15 = {
 		death = yes
 	}
 }

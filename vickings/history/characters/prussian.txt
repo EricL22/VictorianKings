@@ -1,0 +1,249 @@
+6480000 = {
+	name = "Frederick"
+	dynasty = solms_laubach
+	culture = german
+	religion = reformed
+	1769.8.29 = {
+		birth = yes
+	}
+	1822.2.24 = {
+		death = yes
+	}
+}
+
+6480001 = {
+	name = "Johann"
+	dynasty = august_sack
+	culture = german
+	religion = reformed
+	1764.10.7 = {
+		birth = yes
+	}
+	1831.6.28 = {
+		death = yes
+	}
+}
+
+6480002 = {
+	name = "Karl"
+	dynasty = ingersleben
+	culture = german
+	religion = reformed
+	1753.4.1 = {
+		birth = yes
+	}
+	1831.5.13 = {
+		death = yes
+	}
+}
+
+6480003 = {	# unused governor of pomerania and silesia
+	name = "Moritz Haubold"
+	dynasty = schonberg
+	culture = german
+	religion = reformed
+	1770.9.22 = {
+		birth = yes
+	}
+	1860.4.18 = {
+		death = yes
+	}
+}
+
+6480004 = {
+	name = "Wilhelm"
+	dynasty = bonin
+	culture = german
+	religion = reformed
+	1786.11.18 = {
+		birth = yes
+	}
+	1852.1.18 = {
+		death = yes
+	}
+}
+
+6480005 = {
+	name = "Ludwig"
+	dynasty = vincke
+	culture = german
+	religion = reformed
+	1774.12.23 = {
+		birth = yes
+	}
+	1844.12.2 = {
+		death = yes
+	}
+}
+
+6480006 = {
+	name = "Theodor"
+	dynasty = schon
+	culture = german
+	religion = reformed
+	1773.1.20 = {
+		birth = yes
+	}
+	1856.7.23 = {
+		death = yes
+	}
+}
+
+
+6480007 = {	# unused governor of east prussia
+	name = "Friedrich"
+	dynasty = schrotter
+	culture = german
+	religion = reformed
+	1743.2.1 = {
+		birth = yes
+	}
+	1815.6.30 = {
+		death = yes
+	}
+}
+
+6480008 = {
+	name = "Hans Jakob"
+	dynasty = auerswald
+	culture = german
+	religion = reformed
+	1757.7.25 = {
+		birth = yes
+	}
+	1833.4.3 = {
+		death = yes
+	}
+}
+
+6480009 = {
+	name = "Friedrich"
+	dynasty = bulow
+	culture = german
+	religion = reformed
+	1762.2.23 = {
+		birth = yes
+	}
+	1827.9.4 = {
+		death = yes
+	}
+}
+
+
+6480010 = {
+	name = "Wilhelm Anton"
+	dynasty = klewiz
+	culture = german
+	religion = reformed
+	1760.8.1 = {
+		birth = yes
+	}
+	1838.7.26 = {
+		death = yes
+	}
+}
+
+6480011 = {
+	name = "Ernst"
+	dynasty = bodelschwingh
+	culture = german
+	religion = reformed
+	1794.11.26 = {
+		birth = yes
+	}
+	1854.5.18 = {
+		death = yes
+	}
+}
+
+
+6480012 = {
+	name = "Joseph"
+	dynasty = zerboni
+	culture = german
+	religion = reformed
+	1766.5.23 = {
+		birth = yes
+	}
+	1831.5.27 = {
+		death = yes
+	}
+}
+
+6480013 = {
+	name = "Eduard"
+	dynasty = flottwell
+	culture = german
+	religion = reformed
+	1786.7.23 = {
+		birth = yes
+	}
+	1865.5.28 = {
+		death = yes
+	}
+}
+
+6480014 = {
+	name = "Georg Christian"
+	dynasty = heydebreck
+	culture = german
+	religion = reformed
+	1765.1.28 = {
+		birth = yes
+	}
+	1828.8.25 = {
+		death = yes
+	}
+}
+
+6480015 = {
+	name = "Friedrich Magnus"
+	dynasty = bassewitz
+	culture = german
+	religion = reformed
+	1773.1.17 = {
+		birth = yes
+	}
+	1858.1.14 = {
+		death = yes
+	}
+}
+
+6480016 = {
+	name = "Friedrich Theodor"
+	dynasty = merckel
+	culture = german
+	religion = reformed
+	1775.11.4 = {
+		birth = yes
+	}
+	1846.4.0 = {
+		death = yes
+	}
+}
+
+6480017 = {	# unused governor of east prussia
+	name = "Friedrich Wilhelm"
+	dynasty = dennewitz
+	culture = german
+	religion = reformed
+	1755.2.16 = {
+		birth = yes
+	}
+	1816.2.25 = {
+		death = yes
+	}
+}
+
+6480018 = {
+	name = "Ewald Georg"
+	dynasty = massow
+	culture = german
+	religion = reformed
+	1754.1.1 = {
+		birth = yes
+	}
+	1820.7.30 = {
+		death = yes
+	}
+}

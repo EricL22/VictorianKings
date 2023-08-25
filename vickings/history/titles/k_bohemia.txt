@@ -53,6 +53,9 @@ k_bohemia = {
 	1804.8.11 = {
 		de_jure_liege = e_austria
 	}
+	1835.3.2 = {
+		holder = 9177200
+	}
 }
 
 
@@ -211,6 +214,13 @@ d_bohemia = {
 	}
 	1310.1.1 = {
 		holder = 462610
+	}
+	# Austrian governors
+	1811.4.13 = {
+		holder = 6490011
+	}
+	1826.10.3 = {
+		holder = 6490000
 	}
 }
 

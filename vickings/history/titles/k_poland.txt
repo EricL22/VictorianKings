@@ -397,11 +397,14 @@ c_sacz = {
 	1772.8.5 = {
 		de_jure_liege = d_halych
 	}
-	1792.3.1 = {
-		holder = 9000012
+	1810.4.3 = {
+		holder = 6490001
 	}
-	1835.3.2 = {
-		holder = 9177200
+	1815.4.1 = {
+		holder = 6490002
+	}
+	1832.9.1 = {
+		holder = 6490003
 	}
 }
 
@@ -697,11 +700,14 @@ c_tarnowska = {
 	1772.8.5 = {
 		de_jure_liege = d_halych
 	}
-	1792.3.1 = {
-		holder = 9000012
+	1810.4.3 = {
+		holder = 6490001
 	}
-	1835.3.2 = {
-		holder = 9177200
+	1815.4.1 = {
+		holder = 6490002
+	}
+	1832.9.1 = {
+		holder = 6490003
 	}
 }
 
@@ -759,6 +765,14 @@ d_wielkopolska = {
 	1814.4.11 = {
 		de_jure_liege = k_prussia
 		holder = 9000013
+	}
+	# administrative power passed to governors
+	1815.4.30 = {
+		holder = 6480012
+		liege = k_prussia
+	}
+	1830.1.1 = {
+		holder = 6480013
 	}
 }
 
@@ -832,6 +846,12 @@ c_poznanska = {
 	}
 	1814.4.11 = {
 		holder = 9000013
+	}
+	1815.4.30 = {
+		holder = 6480012
+	}
+	1830.1.1 = {
+		holder = 6480013
 	}
 }
 
@@ -907,6 +927,12 @@ c_gnieznienska = {
 	1814.4.11 = {
 		holder = 9000013
 	}
+	1815.4.30 = {
+		holder = 6480012
+	}
+	1830.1.1 = {
+		holder = 6480013
+	}
 }
 
 
@@ -976,6 +1002,12 @@ c_kaliska = {
 	}
 	1814.4.11 = {
 		holder = 9000013
+	}
+	1815.4.30 = {
+		holder = 6480012
+	}
+	1830.1.1 = {
+		holder = 6480013
 	}
 }
 
@@ -1047,6 +1079,12 @@ c_wschowska = {
 	1814.4.11 = {
 		holder = 9000013
 	}
+	1815.4.30 = {
+		holder = 6480012
+	}
+	1830.1.1 = {
+		holder = 6480013
+	}
 }
 
 
@@ -1091,6 +1129,12 @@ c_krajna = {
 	}
 	1814.4.11 = {
 		holder = 9000013
+	}
+	1815.4.30 = {
+		holder = 6480012
+	}
+	1830.1.1 = {
+		holder = 6480013
 	}
 }
 
@@ -1176,6 +1220,13 @@ c_lubusz = {
 	#}
 	1797.11.16 = {
 		holder = 9000013
+		de_jure_liege = d_lausitz
+	}
+	1815.4.30 = {
+		holder = 6480014
+	}
+	1824.1.1 = {
+		holder = 6480015
 	}
 }
 
@@ -1482,7 +1533,13 @@ d_upper_silesia = {
 
 	1797.11.16 = {
 		de_jure_liege = k_prussia
-		holder = 9000013
+		liege = k_prussia
+	}
+	1808.12.2 = {
+		holder = 6480018
+	}
+	1816.4.2 = {
+		holder = 6480016
 	}
 }
 
@@ -2157,7 +2214,13 @@ d_lower_silesia = {
 
 	1797.11.16 = {
 		de_jure_liege = k_prussia
-		holder = 9000013
+		liege = k_prussia
+	}
+	1808.12.1 = {
+		holder = 6480018
+	}
+	1816.4.1 = {
+		holder = 6480016
 	}
 }
 
@@ -2389,6 +2452,9 @@ c_schweibus = {
 		holder = 125913
 	}
 
+	1816.1.1 = {
+		de_jure_liege = d_lausitz
+	}
 }
 
 
@@ -2758,6 +2824,12 @@ c_kujawy = {
 		de_jure_liege = d_wielkopolska
 		holder = 9000013
 	}
+	1815.4.30 = {
+		holder = 6480012
+	}
+	1830.1.1 = {
+		holder = 6480013
+	}
 }
 
 
@@ -2799,6 +2871,12 @@ c_dobrzynska = {
 	1814.4.11 = {
 		de_jure_liege = d_wielkopolska
 		holder = 9000013
+	}
+	1815.4.30 = {
+		holder = 6480012
+	}
+	1830.1.1 = {
+		holder = 6480013
 	}
 }
 
@@ -2923,6 +3001,12 @@ c_wielunska = {
 	1814.4.11 = {
 		de_jure_liege = d_wielkopolska
 		holder = 9000013
+	}
+	1815.4.30 = {
+		holder = 6480012
+	}
+	1830.1.1 = {
+		holder = 6480013
 	}
 }
 

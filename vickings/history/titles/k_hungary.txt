@@ -207,6 +207,9 @@ d_visegrad = {
 	1325.1.1 = {
 		holder = 469500
 	}
+	1795.7.30 = {
+		holder = 6490014
+	}
 }
 
 c_visegrad = {
@@ -910,6 +913,9 @@ d_somogy = {
 	1325.1.1 = {
 		holder = 469500
 	}
+	1795.7.30 = {
+		holder = 6490014
+	}
 }
 
 c_somogy = {
@@ -1516,6 +1522,9 @@ d_nyitra = {
 	}
 	1335.1.1 = {
 		holder = 93713
+	}
+	1795.7.30 = {
+		holder = 6490014
 	}
 }
 
@@ -2360,6 +2369,9 @@ d_ungvar = {
 	1334.1.1 = {
 		holder = 93744
 	}	
+	1795.7.30 = {
+		holder = 6490014
+	}
 }
 
 c_ungvar = {
@@ -2865,6 +2877,9 @@ d_transcarpathia = {
 	1334.1.1 = {
 		holder = 93744
 	}	
+	1795.7.30 = {
+		holder = 6490014
+	}
 }
 
 c_marmaros = {
@@ -3101,7 +3116,13 @@ d_transylvania = {
 	}
 	1315.1.1 = {
 		liege = "k_hungary"
-	holder = 470040
+		holder = 470040
+	}
+	1787.5.21 = {
+		holder = 6490010
+	}
+	1835.2.7 = {
+		holder = 6490003
 	}
 }
 
@@ -3762,6 +3783,9 @@ d_bihar = {
 	1000.12.25 = {
 		liege = "k_hungary"
 	}
+	1795.7.30 = {
+		holder = 6490014
+	}
 }
 
 c_bihar = {
@@ -4293,6 +4317,9 @@ d_temes = {
 	1000.12.25 = {
 		liege = "k_hungary"
 	}
+	1795.7.30 = {
+		holder = 6490014
+	}
 }
 
 c_temes = {
@@ -4771,6 +4798,9 @@ d_bacs = {
 	1325.1.1 = {
 		holder = 469500
 	}
+	1795.7.30 = {
+		holder = 6490014
+	}
 }
 
 c_bacs = {
@@ -5056,6 +5086,9 @@ d_gyor = {
 	}
 	1325.1.1 = {
 		holder = 469500
+	}
+	1795.7.30 = {
+		holder = 6490014
 	}
 }
 
@@ -5589,6 +5622,9 @@ d_syrmia = {
 	}
 	1000.1.1 = {
 		de_jure_liege = k_hungary
+	}
+	1795.7.30 = {
+		holder = 6490014
 	}
 }
 
