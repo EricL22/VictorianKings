@@ -1,1 +1,1016 @@
 ﻿landed_voting_weight_value = 5
+
+# county ideology logic
+terrain_factor = 0.2
+development_factor = 0.3
+neighboring_factor = 0.2
+slavery_factor = 1.0
+num_county_neighbors = {
+	value = 0
+	every_neighboring_county = { add = 1 }
+	min = 1
+}
+
+county_liberal_modifier = {
+	if = {
+		limit = {
+			save_temporary_scope_value_as = {
+				name = base_value
+				value = {
+					value = 0
+
+					# Terrain: Adjust ideology value based on the county's terrain
+					if = {
+						limit = { title_province = { terrain = mountains } }
+						add = {
+							value = terrain_factor
+							multiply = 10
+						}
+					}
+					else_if = {
+						limit = { title_province = { terrain = hills } }
+						add = {
+							value = terrain_factor
+							multiply = 5
+						}
+					}
+					else_if = {
+						limit = { title_province = { terrain = plains } }
+						subtract = {
+							value = terrain_factor
+							multiply = 5
+						}
+					}
+
+					# Development: Higher development contributes to liberal/pro-merchant values
+					if = {
+						limit = {
+							holder.top_liege.primary_title = {
+								OR = {
+									is_target_in_variable_list = { name = liberal_issues target = flag:regulated_economy }
+									is_target_in_variable_list = { name = liberal_issues target = flag:social_hierarchy }
+								}
+							}
+						}
+						add = {
+							value = development_factor
+							multiply = development_level
+						}
+					}
+					if = {
+						limit = {
+							holder.top_liege.primary_title = {
+								OR = {
+									is_target_in_variable_list = { name = liberal_issues target = flag:laissez_faire }
+									is_target_in_variable_list = { name = liberal_issues target = flag:social_liberty }
+								}
+							}
+						}
+				#		subtract = {
+				#			value = development_factor
+				#			multiply = development_level
+				#		}
+					}
+
+					# Neighboring Counties: Adjust ideology value based on the average ideology values of neighboring counties
+					add = {
+						value = neighboring_factor
+						multiply = county_neighboring_average_liberal
+					}
+
+					# Slavery: Counties with higher slavery percentages might lean towards a pro-slavery party
+					if = {
+						limit = {
+							has_variable = slavery_percent
+							holder.top_liege.primary_title = { is_target_in_variable_list = { name = liberal_issues target = flag:pro_slavery } }
+						}
+						add = {
+							value = slavery_factor
+							multiply = var:slavery_percent
+							multiply = 20
+						}
+					}
+				}
+			}
+		}
+	}
+	value = scope:base_value
+	
+	# Dampen the effect to prevent it from growing or falling nonstop
+	if = {
+		limit = {
+			save_temporary_scope_value_as = {
+				name = damp_factor
+				value = {
+					value = 1.5
+					if = {
+						limit = {
+							has_variable = liberal_value
+							var:liberal_value >= 750
+						}
+						value = var:liberal_value
+						divide = 500
+					}
+					multiply = scope:base_value
+				}
+			}
+		}
+	}
+	if = {
+		limit = { scope:damp_factor < 0 }
+		subtract = {
+			value = {
+				integer_range = {
+					min = scope:damp_factor
+					max = 0
+				}
+			}
+		}
+	}
+	else = {
+		subtract = {
+			value = {
+				integer_range = {
+					min = 0
+					max = scope:damp_factor
+				}
+			}
+		}
+	}
+}
+county_neighboring_average_liberal = {
+	value = 0
+	every_neighboring_county = {
+		limit = { has_variable = liberal_value }
+		add = var:liberal_value
+	}
+	divide = num_county_neighbors
+}
+
+county_socialist_modifier = {
+	if = {
+		limit = {
+			save_temporary_scope_value_as = {
+				name = base_value
+				value = {
+					value = 0
+
+					# Terrain: Adjust ideology value based on the county's terrain
+					if = {
+						limit = { title_province = { terrain = mountains } }
+						subtract = {
+							value = terrain_factor
+							multiply = 5
+						}
+					}
+					else_if = {
+						limit = { title_province = { terrain = hills } }
+						add = {
+							value = terrain_factor
+							multiply = 5
+						}
+					}
+					else_if = {
+						limit = { title_province = { terrain = plains } }
+						add = {
+							value = terrain_factor
+							multiply = 10
+						}
+					}
+
+					# Development: Higher development contributes to liberal/pro-merchant values
+					if = {
+						limit = {
+							holder.top_liege.primary_title = {
+								OR = {
+									is_target_in_variable_list = { name = socialist_issues target = flag:regulated_economy }
+									is_target_in_variable_list = { name = socialist_issues target = flag:social_hierarchy }
+								}
+							}
+						}
+						add = {
+							value = development_factor
+							multiply = development_level
+						}
+					}
+					if = {
+						limit = {
+							holder.top_liege.primary_title = {
+								OR = {
+									is_target_in_variable_list = { name = socialist_issues target = flag:laissez_faire }
+									is_target_in_variable_list = { name = socialist_issues target = flag:social_liberty }
+								}
+							}
+						}
+				#		subtract = {
+				#			value = development_factor
+				#			multiply = development_level
+				#		}
+					}
+
+					# Neighboring Counties: Adjust ideology value based on the average ideology values of neighboring counties
+					add = {
+						value = neighboring_factor
+						multiply = county_neighboring_average_socialist
+					}
+
+					# Slavery: Counties with higher slavery percentages might lean towards a pro-slavery party
+					if = {
+						limit = {
+							has_variable = slavery_percent
+							holder.top_liege.primary_title = { is_target_in_variable_list = { name = socialist_issues target = flag:pro_slavery } }
+						}
+						add = {
+							value = slavery_factor
+							multiply = var:slavery_percent
+							multiply = 10
+						}
+					}
+				}
+			}
+		}
+	}
+	value = scope:base_value
+	
+	# Dampen the effect to prevent it from growing or falling nonstop
+	if = {
+		limit = {
+			save_temporary_scope_value_as = {
+				name = damp_factor
+				value = {
+					value = 1.5
+					if = {
+						limit = {
+							has_variable = socialist_value
+							var:socialist_value >= 750
+						}
+						value = var:socialist_value
+						divide = 500
+					}
+					multiply = scope:base_value
+				}
+			}
+		}
+	}
+	if = {
+		limit = { scope:damp_factor < 0 }
+		subtract = {
+			value = {
+				integer_range = {
+					min = scope:damp_factor
+					max = 0
+				}
+			}
+		}
+	}
+	else = {
+		subtract = {
+			value = {
+				integer_range = {
+					min = 0
+					max = scope:damp_factor
+				}
+			}
+		}
+	}
+
+	# Prevent it from showing up too early
+	if = {
+		limit = { current_date < 1848.1.1 }
+		multiply = 0
+	}
+}
+county_neighboring_average_socialist = {
+	value = 0
+	every_neighboring_county = {
+		limit = { has_variable = socialist_value }
+		add = var:socialist_value
+	}
+	divide = num_county_neighbors
+}
+
+county_reactionary_modifier = {
+	if = {
+		limit = {
+			save_temporary_scope_value_as = {
+				name = base_value
+				value = {
+					value = 0
+
+					# Terrain: Adjust ideology value based on the county's terrain
+					if = {
+						limit = { title_province = { terrain = mountains } }
+						add = {
+							value = terrain_factor
+							multiply = 5
+						}
+					}
+					else_if = {
+						limit = { title_province = { terrain = hills } }
+						add = {
+							value = terrain_factor
+							multiply = 5
+						}
+					}
+					else_if = {
+						limit = { title_province = { terrain = plains } }
+						subtract = {
+							value = terrain_factor
+							multiply = 10
+						}
+					}
+
+					# Development: Higher development contributes to liberal/pro-merchant values
+					if = {
+						limit = {
+							holder.top_liege.primary_title = {
+								OR = {
+									is_target_in_variable_list = { name = reactionary_issues target = flag:regulated_economy }
+									is_target_in_variable_list = { name = reactionary_issues target = flag:social_hierarchy }
+								}
+							}
+						}
+						add = {
+							value = development_factor
+							multiply = development_level
+						}
+					}
+					if = {
+						limit = {
+							holder.top_liege.primary_title = {
+								OR = {
+									is_target_in_variable_list = { name = reactionary_issues target = flag:laissez_faire }
+									is_target_in_variable_list = { name = reactionary_issues target = flag:social_liberty }
+								}
+							}
+						}
+				#		subtract = {
+				#			value = development_factor
+				#			multiply = development_level
+				#		}
+					}
+
+					# Neighboring Counties: Adjust ideology value based on the average ideology values of neighboring counties
+					add = {
+						value = neighboring_factor
+						multiply = county_neighboring_average_reactionary
+					}
+
+					# Slavery: Counties with higher slavery percentages might lean towards a pro-slavery party
+					if = {
+						limit = {
+							has_variable = slavery_percent
+							holder.top_liege.primary_title = { is_target_in_variable_list = { name = reactionary_issues target = flag:pro_slavery } }
+						}
+						add = {
+							value = slavery_factor
+							multiply = var:slavery_percent
+							multiply = 10
+						}
+					}
+				}
+			}
+		}
+	}
+	value = scope:base_value
+	
+	# Dampen the effect to prevent it from growing or falling nonstop
+	if = {
+		limit = {
+			save_temporary_scope_value_as = {
+				name = damp_factor
+				value = {
+					value = 1.5
+					if = {
+						limit = {
+							has_variable = reactionary_value
+							var:reactionary_value >= 750
+						}
+						value = var:reactionary_value
+						divide = 500
+					}
+					multiply = scope:base_value
+				}
+			}
+		}
+	}
+	if = {
+		limit = { scope:damp_factor < 0 }
+		subtract = {
+			value = {
+				integer_range = {
+					min = scope:damp_factor
+					max = 0
+				}
+			}
+		}
+	}
+	else = {
+		subtract = {
+			value = {
+				integer_range = {
+					min = 0
+					max = scope:damp_factor
+				}
+			}
+		}
+	}
+}
+county_neighboring_average_reactionary = {
+	value = 0
+	every_neighboring_county = {
+		limit = { has_variable = reactionary_value }
+		add = var:reactionary_value
+	}
+	divide = num_county_neighbors
+}
+
+county_fascist_modifier = {
+	if = {
+		limit = {
+			save_temporary_scope_value_as = {
+				name = base_value
+				value = {
+					value = 0
+
+					# Terrain: Adjust ideology value based on the county's terrain
+					if = {
+						limit = { title_province = { terrain = mountains } }
+						add = {
+							value = terrain_factor
+							multiply = 10
+						}
+					}
+					else_if = {
+						limit = { title_province = { terrain = hills } }
+						subtract = {
+							value = terrain_factor
+							multiply = 5
+						}
+					}
+					else_if = {
+						limit = { title_province = { terrain = plains } }
+						subtract = {
+							value = terrain_factor
+							multiply = 5
+						}
+					}
+
+					# Development: Higher development contributes to liberal/pro-merchant values
+					if = {
+						limit = {
+							holder.top_liege.primary_title = {
+								OR = {
+									is_target_in_variable_list = { name = fascist_issues target = flag:regulated_economy }
+									is_target_in_variable_list = { name = fascist_issues target = flag:social_hierarchy }
+								}
+							}
+						}
+						add = {
+							value = development_factor
+							multiply = development_level
+						}
+					}
+					if = {
+						limit = {
+							holder.top_liege.primary_title = {
+								OR = {
+									is_target_in_variable_list = { name = fascist_issues target = flag:laissez_faire }
+									is_target_in_variable_list = { name = fascist_issues target = flag:social_liberty }
+								}
+							}
+						}
+				#		subtract = {
+				#			value = development_factor
+				#			multiply = development_level
+				#		}
+					}
+
+					# Neighboring Counties: Adjust ideology value based on the average ideology values of neighboring counties
+					add = {
+						value = neighboring_factor
+						multiply = county_neighboring_average_fascist
+					}
+
+					# Slavery: Counties with higher slavery percentages might lean towards a pro-slavery party
+					if = {
+						limit = {
+							has_variable = slavery_percent
+							holder.top_liege.primary_title = { is_target_in_variable_list = { name = fascist_issues target = flag:pro_slavery } }
+						}
+						add = {
+							value = slavery_factor
+							multiply = var:slavery_percent
+							multiply = 20
+						}
+					}
+				}
+			}
+		}
+	}
+	value = scope:base_value
+	
+	# Dampen the effect to prevent it from growing or falling nonstop
+	if = {
+		limit = {
+			save_temporary_scope_value_as = {
+				name = damp_factor
+				value = {
+					value = 1.5
+					if = {
+						limit = {
+							has_variable = fascist_value
+							var:fascist_value >= 750
+						}
+						value = var:fascist_value
+						divide = 500
+					}
+					multiply = scope:base_value
+				}
+			}
+		}
+	}
+	if = {
+		limit = { scope:damp_factor < 0 }
+		subtract = {
+			value = {
+				integer_range = {
+					min = scope:damp_factor
+					max = 0
+				}
+			}
+		}
+	}
+	else = {
+		subtract = {
+			value = {
+				integer_range = {
+					min = 0
+					max = scope:damp_factor
+				}
+			}
+		}
+	}
+
+	# Prevent it from showing up too early
+	if = {
+		limit = { current_date < 1900.1.1 }
+		multiply = 0
+	}
+}
+county_neighboring_average_fascist = {
+	value = 0
+	every_neighboring_county = {
+		limit = { has_variable = fascist_value }
+		add = var:fascist_value
+	}
+	divide = num_county_neighbors
+}
+
+county_conservative_modifier = {
+	if = {
+		limit = {
+			save_temporary_scope_value_as = {
+				name = base_value
+				value = {
+					value = 0
+
+					# Terrain: Adjust ideology value based on the county's terrain
+					if = {
+						limit = { title_province = { terrain = mountains } }
+						subtract = {
+							value = terrain_factor
+							multiply = 5
+						}
+					}
+					else_if = {
+						limit = { title_province = { terrain = hills } }
+						subtract = {
+							value = terrain_factor
+							multiply = 5
+						}
+					}
+					else_if = {
+						limit = { title_province = { terrain = plains } }
+						add = {
+							value = terrain_factor
+							multiply = 10
+						}
+					}
+
+					# Development: Higher development contributes to liberal/pro-merchant values
+					if = {
+						limit = {
+							holder.top_liege.primary_title = {
+								OR = {
+									is_target_in_variable_list = { name = conservative_issues target = flag:regulated_economy }
+									is_target_in_variable_list = { name = conservative_issues target = flag:social_hierarchy }
+								}
+							}
+						}
+						add = {
+							value = development_factor
+							multiply = development_level
+						}
+					}
+					if = {
+						limit = {
+							holder.top_liege.primary_title = {
+								OR = {
+									is_target_in_variable_list = { name = conservative_issues target = flag:laissez_faire }
+									is_target_in_variable_list = { name = conservative_issues target = flag:social_liberty }
+								}
+							}
+						}
+				#		subtract = {
+				#			value = development_factor
+				#			multiply = development_level
+				#		}
+					}
+
+					# Neighboring Counties: Adjust ideology value based on the average ideology values of neighboring counties
+					add = {
+						value = neighboring_factor
+						multiply = county_neighboring_average_conservative
+					}
+
+					# Slavery: Counties with higher slavery percentages might lean towards a pro-slavery party
+					if = {
+						limit = {
+							has_variable = slavery_percent
+							holder.top_liege.primary_title = { is_target_in_variable_list = { name = conservative_issues target = flag:pro_slavery } }
+						}
+						add = {
+							value = slavery_factor
+							multiply = var:slavery_percent
+							multiply = 20
+						}
+					}
+				}
+			}
+		}
+	}
+	value = scope:base_value
+	
+	# Dampen the effect to prevent it from growing or falling nonstop
+	if = {
+		limit = {
+			save_temporary_scope_value_as = {
+				name = damp_factor
+				value = {
+					value = 1.5
+					if = {
+						limit = {
+							has_variable = conservative_value
+							var:conservative_value >= 750
+						}
+						value = var:conservative_value
+						divide = 500
+					}
+					multiply = scope:base_value
+				}
+			}
+		}
+	}
+	if = {
+		limit = { scope:damp_factor < 0 }
+		subtract = {
+			value = {
+				integer_range = {
+					min = scope:damp_factor
+					max = 0
+				}
+			}
+		}
+	}
+	else = {
+		subtract = {
+			value = {
+				integer_range = {
+					min = 0
+					max = scope:damp_factor
+				}
+			}
+		}
+	}
+}
+county_neighboring_average_conservative = {
+	value = 0
+	every_neighboring_county = {
+		limit = { has_variable = conservative_value }
+		add = var:conservative_value
+	}
+	divide = num_county_neighbors
+}
+
+county_communist_modifier = {
+	if = {
+		limit = {
+			save_temporary_scope_value_as = {
+				name = base_value
+				value = {
+					value = 0
+
+					# Terrain: Adjust ideology value based on the county's terrain
+					if = {
+						limit = { title_province = { terrain = mountains } }
+						add = {
+							value = terrain_factor
+							multiply = 5
+						}
+					}
+					else_if = {
+						limit = { title_province = { terrain = hills } }
+						add = {
+							value = terrain_factor
+							multiply = 5
+						}
+					}
+					else_if = {
+						limit = { title_province = { terrain = plains } }
+						subtract = {
+							value = terrain_factor
+							multiply = 5
+						}
+					}
+					else_if = {
+						limit = { title_province = { terrain = jungle } }
+						subtract = {
+							value = terrain_factor
+							multiply = 5
+						}
+					}
+					else_if = {
+						limit = { title_province = { terrain = wetlands } }
+						subtract = {
+							value = terrain_factor
+							multiply = 10
+						}
+					}
+
+					# Development: Higher development contributes to liberal/pro-merchant values
+					if = {
+						limit = {
+							holder.top_liege.primary_title = {
+								OR = {
+									is_target_in_variable_list = { name = communist_issues target = flag:regulated_economy }
+									is_target_in_variable_list = { name = communist_issues target = flag:social_hierarchy }
+								}
+							}
+						}
+						add = {
+							value = development_factor
+							multiply = development_level
+						}
+					}
+					if = {
+						limit = {
+							holder.top_liege.primary_title = {
+								OR = {
+									is_target_in_variable_list = { name = communist_issues target = flag:laissez_faire }
+									is_target_in_variable_list = { name = communist_issues target = flag:social_liberty }
+								}
+							}
+						}
+				#		subtract = {
+				#			value = development_factor
+				#			multiply = development_level
+				#		}
+					}
+
+					# Neighboring Counties: Adjust ideology value based on the average ideology values of neighboring counties
+					add = {
+						value = neighboring_factor
+						multiply = county_neighboring_average_communist
+					}
+
+					# Slavery: Counties with higher slavery percentages might lean towards a pro-slavery party
+					if = {
+						limit = {
+							has_variable = slavery_percent
+							holder.top_liege.primary_title = { is_target_in_variable_list = { name = communist_issues target = flag:pro_slavery } }
+						}
+						add = {
+							value = slavery_factor
+							multiply = var:slavery_percent
+							multiply = 10
+						}
+					}
+				}
+			}
+		}
+	}
+	value = scope:base_value
+	
+	# Dampen the effect to prevent it from growing or falling nonstop
+	if = {
+		limit = {
+			save_temporary_scope_value_as = {
+				name = damp_factor
+				value = {
+					value = 1.5
+					if = {
+						limit = {
+							has_variable = communist_value
+							var:communist_value >= 750
+						}
+						value = var:communist_value
+						divide = 500
+					}
+					multiply = scope:base_value
+				}
+			}
+		}
+	}
+	if = {
+		limit = { scope:damp_factor < 0 }
+		subtract = {
+			value = {
+				integer_range = {
+					min = scope:damp_factor
+					max = 0
+				}
+			}
+		}
+	}
+	else = {
+		subtract = {
+			value = {
+				integer_range = {
+					min = 0
+					max = scope:damp_factor
+				}
+			}
+		}
+	}
+
+	# Prevent it from showing up too early
+	if = {
+		limit = { current_date < 1848.1.1 }
+		multiply = 0
+	}
+}
+county_neighboring_average_communist = {
+	value = 0
+	every_neighboring_county = {
+		limit = { has_variable = communist_value }
+		add = var:communist_value
+	}
+	divide = num_county_neighbors
+}
+
+county_anarchist_modifier = {
+	if = {
+		limit = {
+			save_temporary_scope_value_as = {
+				name = base_value
+				value = {
+					value = 0
+
+					# Terrain: Adjust ideology value based on the county's terrain
+					if = {
+						limit = { title_province = { terrain = mountains } }
+						subtract = {
+							value = terrain_factor
+							multiply = 10
+						}
+					}
+					else_if = {
+						limit = { title_province = { terrain = hills } }
+						subtract = {
+							value = terrain_factor
+							multiply = 5
+						}
+					}
+					else_if = {
+						limit = { title_province = { terrain = plains } }
+						add = {
+							value = terrain_factor
+							multiply = 5
+						}
+					}
+					else_if = {
+						limit = { title_province = { terrain = jungle } }
+						add = {
+							value = terrain_factor
+							multiply = 5
+						}
+					}
+					else_if = {
+						limit = { title_province = { terrain = wetlands } }
+						add = {
+							value = terrain_factor
+							multiply = 10
+						}
+					}
+
+					# Development: Higher development contributes to liberal/pro-merchant values
+					if = {
+						limit = {
+							holder.top_liege.primary_title = {
+								OR = {
+									is_target_in_variable_list = { name = anarchist_issues target = flag:regulated_economy }
+									is_target_in_variable_list = { name = anarchist_issues target = flag:social_hierarchy }
+								}
+							}
+						}
+						add = {
+							value = development_factor
+							multiply = development_level
+						}
+					}
+					if = {
+						limit = {
+							holder.top_liege.primary_title = {
+								OR = {
+									is_target_in_variable_list = { name = anarchist_issues target = flag:laissez_faire }
+									is_target_in_variable_list = { name = anarchist_issues target = flag:social_liberty }
+								}
+							}
+						}
+				#		subtract = {
+				#			value = development_factor
+				#			multiply = development_level
+				#		}
+					}
+
+					# Neighboring Counties: Adjust ideology value based on the average ideology values of neighboring counties
+					add = {
+						value = neighboring_factor
+						multiply = county_neighboring_average_anarchist
+					}
+
+					# Slavery: Counties with higher slavery percentages might lean towards a pro-slavery party
+					if = {
+						limit = {
+							has_variable = slavery_percent
+							holder.top_liege.primary_title = { is_target_in_variable_list = { name = anarchist_issues target = flag:pro_slavery } }
+						}
+						add = {
+							value = slavery_factor
+							multiply = var:slavery_percent
+							multiply = 10
+						}
+					}
+				}
+			}
+		}
+	}
+	value = scope:base_value
+	
+	# Dampen the effect to prevent it from growing or falling nonstop
+	if = {
+		limit = {
+			save_temporary_scope_value_as = {
+				name = damp_factor
+				value = {
+					value = 1.5
+					if = {
+						limit = {
+							has_variable = anarchist_value
+							var:anarchist_value >= 750
+						}
+						value = var:anarchist_value
+						divide = 500
+					}
+					multiply = scope:base_value
+				}
+			}
+		}
+	}
+	if = {
+		limit = { scope:damp_factor < 0 }
+		subtract = {
+			value = {
+				integer_range = {
+					min = scope:damp_factor
+					max = 0
+				}
+			}
+		}
+	}
+	else = {
+		subtract = {
+			value = {
+				integer_range = {
+					min = 0
+					max = scope:damp_factor
+				}
+			}
+		}
+	}
+
+	# Prevent it from showing up too early
+	if = {
+		limit = { current_date < 1860.1.1 }
+		multiply = 0
+	}
+}
+county_neighboring_average_anarchist = {
+	value = 0
+	every_neighboring_county = {
+		limit = { has_variable = anarchist_value }
+		add = var:anarchist_value
+	}
+	divide = num_county_neighbors
+}

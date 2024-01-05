@@ -183,7 +183,7 @@ vk_initialize_history_effects = {
 leg_two_year_elections = {
 	effect = {
 		every_ruler = {
-			limit = { holds_valid_merchant_republic = yes primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:leg_two_year_term } }
+			limit = { primary_title.tier >= tier_duchy primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:leg_two_year_term } }
 				is_independent_ruler = yes
 			}
 			trigger_event = { id = republic_election.11 days = { 6 12 } }
@@ -197,7 +197,7 @@ leg_two_year_elections = {
 leg_three_year_elections = {
 	effect = {
 		every_ruler = {
-			limit = { holds_valid_merchant_republic = yes primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:leg_three_year_term } }
+			limit = { primary_title.tier >= tier_duchy primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:leg_three_year_term } }
 				is_independent_ruler = yes
 			}
 			trigger_event = { id = republic_election.11 days = { 6 12 } }
@@ -211,7 +211,7 @@ leg_three_year_elections = {
 leg_four_year_elections = {
 	effect = {
 		every_ruler = {
-			limit = { holds_valid_merchant_republic = yes primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:leg_four_year_term } }
+			limit = { primary_title.tier >= tier_duchy primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:leg_four_year_term } }
 				is_independent_ruler = yes
 			}
 			trigger_event = { id = republic_election.11 days = { 6 12 } }
@@ -225,7 +225,7 @@ leg_four_year_elections = {
 leg_five_year_elections = {
 	effect = {
 		every_ruler = {
-			limit = { holds_valid_merchant_republic = yes primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:leg_five_year_term } }
+			limit = { primary_title.tier >= tier_duchy primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:leg_five_year_term } }
 				is_independent_ruler = yes
 			}
 			trigger_event = { id = republic_election.11 days = { 6 12 } }
@@ -239,7 +239,7 @@ leg_five_year_elections = {
 leg_six_year_elections = {
 	effect = {
 		every_ruler = {
-			limit = { holds_valid_merchant_republic = yes primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:leg_six_year_term } }
+			limit = { primary_title.tier >= tier_duchy primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:leg_six_year_term } }
 				is_independent_ruler = yes
 			}
 			trigger_event = { id = republic_election.11 days = { 6 12 } }

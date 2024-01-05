@@ -1597,10 +1597,11 @@ republic_election.11 = {
 	}
 	
 	trigger = {
-		has_government = republic_government
+		root_realm_uses_legislature_trigger = yes
 	}
 	
 	option = {
 		name = republic_election.11.a
+		trigger_event = moderntimes.303
 	}
 }

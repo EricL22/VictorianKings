@@ -208,3 +208,163 @@ ideology.2 = {
 		name = ideology.2.a
 	}
 }
+
+# Updates the ideological leaning of counties, repeats every month
+ideology.3 = {
+	type = empty
+	hidden = yes
+
+	immediate = {
+		if = {
+			limit = { NOT = { has_global_variable = ideology_pulse_started } }
+			set_global_variable = {
+				name = ideology_pulse_started
+				value = yes
+			}
+		}
+		# Iterate through all counties in the game
+		every_county = {
+			limit = { holder = { root_realm_uses_legislature_trigger = yes } }
+			save_temporary_scope_value_as = { name = modifier_value value = county_liberal_modifier }
+			if = {
+				limit = { has_variable = liberal_value }
+				change_variable = {
+					name = liberal_value
+					add = scope:modifier_value
+				}
+				if = {
+					limit = { var:liberal_value <= 0 }
+					remove_variable = liberal_value
+				}
+			}
+			else_if = {
+				limit = { scope:modifier_value > 0 }
+				set_variable = {
+					name = liberal_value
+					value = scope:modifier_value
+				}
+			}
+			
+			save_temporary_scope_value_as = { name = modifier_value value = county_socialist_modifier }
+			if = {
+				limit = { has_variable = socialist_value }
+				change_variable = {
+					name = socialist_value
+					add = scope:modifier_value
+				}
+				if = {
+					limit = { var:socialist_value <= 0 }
+					remove_variable = socialist_value
+				}
+			}
+			else_if = {
+				limit = { scope:modifier_value > 0 }
+				set_variable = {
+					name = socialist_value
+					value = scope:modifier_value
+				}
+			}
+			
+			save_temporary_scope_value_as = { name = modifier_value value = county_reactionary_modifier }
+			if = {
+				limit = { has_variable = reactionary_value }
+				change_variable = {
+					name = reactionary_value
+					add = scope:modifier_value
+				}
+				if = {
+					limit = { var:reactionary_value <= 0 }
+					remove_variable = reactionary_value
+				}
+			}
+			else_if = {
+				limit = { scope:modifier_value > 0 }
+				set_variable = {
+					name = reactionary_value
+					value = scope:modifier_value
+				}
+			}
+			
+			save_temporary_scope_value_as = { name = modifier_value value = county_fascist_modifier }
+			if = {
+				limit = { has_variable = fascist_value }
+				change_variable = {
+					name = fascist_value
+					add = scope:modifier_value
+				}
+				if = {
+					limit = { var:fascist_value <= 0 }
+					remove_variable = fascist_value
+				}
+			}
+			else_if = {
+				limit = { scope:modifier_value > 0 }
+				set_variable = {
+					name = fascist_value
+					value = scope:modifier_value
+				}
+			}
+			
+			save_temporary_scope_value_as = { name = modifier_value value = county_conservative_modifier }
+			if = {
+				limit = { has_variable = conservative_value }
+				change_variable = {
+					name = conservative_value
+					add = scope:modifier_value
+				}
+				if = {
+					limit = { var:conservative_value <= 0 }
+					remove_variable = conservative_value
+				}
+			}
+			else_if = {
+				limit = { scope:modifier_value > 0 }
+				set_variable = {
+					name = conservative_value
+					value = scope:modifier_value
+				}
+			}
+			
+			save_temporary_scope_value_as = { name = modifier_value value = county_communist_modifier }
+			if = {
+				limit = { has_variable = communist_value }
+				change_variable = {
+					name = communist_value
+					add = scope:modifier_value
+				}
+				if = {
+					limit = { var:communist_value <= 0 }
+					remove_variable = communist_value
+				}
+			}
+			else_if = {
+				limit = { scope:modifier_value > 0 }
+				set_variable = {
+					name = communist_value
+					value = scope:modifier_value
+				}
+			}
+			
+			save_temporary_scope_value_as = { name = modifier_value value = county_anarchist_modifier }
+			if = {
+				limit = { has_variable = anarchist_value }
+				change_variable = {
+					name = anarchist_value
+					add = scope:modifier_value
+				}
+				if = {
+					limit = { var:anarchist_value <= 0 }
+					remove_variable = anarchist_value
+				}
+			}
+			else_if = {
+				limit = { scope:modifier_value > 0 }
+				set_variable = {
+					name = anarchist_value
+					value = scope:modifier_value
+				}
+			}
+		}
+		trigger_event = { id = ideology.3 months = 1 }
+	}
+}

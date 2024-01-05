@@ -311,7 +311,7 @@ root_realm_uses_legislature_trigger = {
 				top_liege.primary_title = { is_target_in_variable_list = { name = enacted_laws_list target = flag:sovereign_constitutional } }
 			}
 		}
-		has_government = republic_government
+		top_liege = { has_government = republic_government }
 	}
 }
 

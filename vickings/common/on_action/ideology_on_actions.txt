@@ -1,0 +1,15 @@
+﻿# Called every Jan 1st
+# Root does not exist
+yearly_global_pulse = {
+	on_actions = {
+		vk_initialize_ideology_effects
+	}
+}
+vk_initialize_ideology_effects = {
+	effect = {
+		if = {
+			limit = { NOT = { has_global_variable = ideology_pulse_started } }
+			trigger_event = ideology.3
+		}
+	}
+}
