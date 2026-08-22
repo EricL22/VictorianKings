@@ -1,0 +1,338 @@
+k_france = {
+	1350.8.22 = {
+		holder = 455502 # Jean II
+	}
+#	1364.4.8 = {
+#		holder = 8100006 # Charles V
+#	}
+#	1380.9.16 = {
+#		holder = 8100007 # Charles VI
+#		remove_succession_laws = yes
+#	}
+#	1422.10.21 = {
+#		holder = 8100008 # Charles VII
+#	}
+#	1461.7.22 = {
+#		holder = 8100009 # Louis XI
+#	}
+#	1483.8.30 = {
+#		holder = 8100010 # Charles VIII
+#	}
+#
+#	#Valois-Orleans
+#	1498.4.7 = {
+#		holder = 8100011 # Louis XII
+#	}
+#
+#	#Valois-Angouleme
+#	1515.1.1 = {
+#		holder = 8100012 # Francois I
+#	}
+#	1547.3.31 = {
+#		holder = 8100013 # Henri II
+#	}
+#	1559.7.10 = {
+#		holder = 8100014 # Francois II
+#	}
+#	1560.12.5 = {
+#		holder = 8100015 # Charles IX
+#	}
+#	1574.5.30 = {
+#		holder = 8100016 # Henri III
+#	}
+#
+#	#House of Bourbon
+#	1589.8.2 = {
+#		holder = 8100017 # Henri IV
+#	}
+#	1610.5.14 = {
+#		holder = 8100018 # Louis XIII
+#	}
+#	1643.5.14 = {
+#		holder = 8100019 # Louis XIV le Grand
+#	}
+#	1715.9.1 = {
+#		holder = 8100000 # Louis XV
+#	}
+#	1774.5.10 = {
+#		holder = 8100002 # Louis XVI
+#	}
+#	1793.1.21 = {
+#		holder = 8100003 # Louis XVII
+#	}
+	1795.6.8 = {
+		holder = 0
+	}
+#	1814.4.6 = {
+#		holder = 8000000 # Louis XVIII
+#	}
+#	1824.9.16 = {
+#		holder = 8100004 # Charles X
+#	}
+#	1830.8.2 = {
+#		holder = 8100031 # Louis-Phillipe I
+#	}
+}
+#d_valois = {
+#}
+c_ile_de_france = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon I
+	}
+}
+c_brie_francaise = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon I
+	}
+}
+c_vermandois = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon I
+	}
+}
+c_valois = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon I
+	}
+}
+c_amiens = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon I
+	}
+}
+c_beaumont = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon I
+	}
+}
+c_clermont = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon I
+	}
+}
+#d_berry = {
+#}
+c_berry = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon I
+	}
+}
+c_tourraine = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon I
+	}
+}
+c_blois = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon I
+	}
+}
+c_issoudun = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon I
+	}
+}
+#d_anjou = {
+#}
+c_anjou = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon I
+	}
+}
+c_saumur = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon I
+	}
+}
+c_maine = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon I
+	}
+}
+c_sable = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon I
+	}
+}
+d_normandy = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon I
+	}
+}
+c_rouen = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon I
+	}
+}
+c_evreux = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon I
+	}
+}
+c_bayeux = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon I
+	}
+}
+c_avranches = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon I
+	}
+}
+c_alencon = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon I
+	}
+}
+c_lisieux = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon I
+	}
+}
+c_eu = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon I
+	}
+}
+#d_orleans = {
+#}
+c_orleans = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon I
+	}
+}
+c_montargis = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon I
+	}
+}
+c_vendome = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon I
+	}
+}
+c_chartres = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon I
+	}
+}
+c_sancerre = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon I
+	}
+}
+d_champagne = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon I
+	}
+}
+c_reims = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon I
+	}
+}
+c_troyes = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon I
+	}
+}
+c_coulommiers = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon I
+	}
+}
+c_meaux = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon I
+	}
+}
+c_chalons = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon I
+	}
+}
+c_rethel = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon I
+	}
+}
+c_sens = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon I
+	}
+}
+d_burgundy = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon I
+	}
+}
+c_dijon = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon I
+	}
+}
+c_chalon = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon I
+	}
+}
+c_auxerre = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon I
+	}
+}
+c_tonnerrois = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon I
+	}
+}
+c_avalois = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon I
+	}
+}
+c_macon = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon I
+	}
+}
+c_nevers = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon I
+	}
+}
+c_langres = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon I
+	}
+}
+d_flanders = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon I
+	}
+}
+c_brugge = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon I
+	}
+}
+c_yperen = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon I
+	}
+}
+c_guines = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon I
+	}
+}
+c_lille = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon I
+	}
+}
+c_boulogne = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon I
+	}
+}

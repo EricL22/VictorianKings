@@ -1,0 +1,86 @@
+﻿##### CONTENTS #####
+# UNITED KINGDOM   #
+# FRANCE           #
+####################
+
+
+
+####################
+###UNITED KINGDOM###
+####################
+# Pre-1812
+
+# 1812 bookmark
+
+eur_00110 = {
+	name = "Arthur"
+	dynasty = eur_006E_0
+	religion = protestant
+	culture = english
+	trait = education_martial_3
+	trait = unyielding_defender
+	portrait_override = {
+		portrait_modifier_overrides = {
+			beards = has_no_beard
+		}
+	}
+	1769.5.1 = {
+		birth = yes
+	}
+	1852.9.14 = {
+		death = yes
+	}
+}
+
+# 1815 bookmark
+# 1836 bookmark
+# 1861 bookmark
+# 1914 bookmark
+####################
+
+
+
+####################
+###FRANCE###
+####################
+# Pre-1812
+
+# First Wife of Napoleon
+eur_01010 = {
+	name = "Josephine"
+	dynasty = eur_4133_0
+	religion = catholic
+	culture = french
+	female = yes
+	1763.6.23 = {
+		birth = yes
+	}
+	1814.5.29 = {
+		death = yes
+	}
+}
+
+# 1812 bookmark
+
+# Second Wife of Napoleon
+eur_01110 = {
+	name = "Marie Louise"
+	dynasty_house = house_habsburg
+	religion = catholic
+	culture = bavarian
+	female = yes
+#	father = 9000012
+#	mother = 9177207
+	1791.12.12 = {
+		birth = yes
+	}
+	1847.12.17 = {
+		death = yes
+	}
+}
+
+# 1815 bookmark
+# 1836 bookmark
+# 1861 bookmark
+# 1914 bookmark
+####################

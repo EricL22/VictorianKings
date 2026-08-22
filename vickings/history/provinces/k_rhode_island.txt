@@ -1,4 +1,0 @@
-11412 = {
-	culture = american
-	religion = protestant
-}

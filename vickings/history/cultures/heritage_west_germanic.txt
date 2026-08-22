@@ -64,7 +64,7 @@
 	#
 }
 1500.1.1 = {
-	join_era = culture_era_renaissance
+#	join_era = culture_era_renaissance
 	discover_innovation = innovation_knighthood
 	discover_innovation = innovation_advanced_bowmaking
 	discover_innovation = innovation_sappers
@@ -85,16 +85,20 @@
 	discover_innovation = innovation_windmills
 	discover_innovation = innovation_land_grants
 }
-1650.1.1 = {
-	discover_innovation = innovation_overseas_exploration
-	#
-	discover_innovation = innovation_absolutism
-}
+#1650.1.1 = {
+#	discover_innovation = innovation_overseas_exploration
+#	#
+#	discover_innovation = innovation_absolutism
+#}
+#1750.1.1 = {
+#	discover_innovation = innovation_permanent_envoys
+#}
 1800.1.1 = {
-	join_era = culture_era_industrial
+#	join_era = culture_era_industrial
 	discover_innovation = innovation_machicolations
 	discover_innovation = innovation_plate_armor
 	#
 	discover_innovation = innovation_cranes
 	discover_innovation = innovation_development_03
+	discover_innovation = innovation_development_04
 }

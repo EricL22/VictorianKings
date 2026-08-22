@@ -1,0 +1,17 @@
+﻿eur_006E_0 = {
+	name = "dynn_Wellesley"
+	culture = "english"
+}
+eur_25FE_0 = {
+	prefix = "dynnp_di"
+	name = "dynn_Buonaparte"
+	culture = "italian"
+}
+eur_4133_0 = {
+	name = "dynn_Tascher"
+	culture = "french"
+}
+eur_21DF_0 = {
+	name = "dynn_Ramolino"
+	culture = "italian"
+}

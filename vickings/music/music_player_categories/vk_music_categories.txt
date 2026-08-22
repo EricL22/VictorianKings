@@ -1,0 +1,14 @@
+﻿category = {
+	id = "vk_soundtrack"
+	name = "vk_soundtrack_list"
+	tracks = {
+		"vk_mood_rachsymph2_3"
+		"vk_mood_dvorsymph7_4"
+		"vk_mood_wienconcerto2"
+		"vk_mood_tchai1812Overture"
+		"vk_mood_nielconcerto"
+		"vk_mood_mahlsymph3_6"
+		"vk_mood_holstplanets_2"
+		"vk_mood_holstplanets_4"
+	}
+}

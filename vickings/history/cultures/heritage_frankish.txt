@@ -65,14 +65,14 @@
 	discover_innovation = innovation_bombard
 }
 1500.1.1 = {
-	join_era = culture_era_renaissance
+#	join_era = culture_era_renaissance
 	discover_innovation = innovation_development_04
 	discover_innovation = innovation_currency_04
 }
 1650.1.1 = {
 	discover_innovation = innovation_armilary_sphere
 	#
-	discover_innovation = innovation_overseas_exploration
+#	discover_innovation = innovation_overseas_exploration
 	#
-	discover_innovation = innovation_absolutism
+#	discover_innovation = innovation_absolutism
 }

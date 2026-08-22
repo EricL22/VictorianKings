@@ -1,7 +1,0 @@
-﻿heritage_eskimo_aleut = {
-	type = heritage
-}
-
-heritage_native_american = {
-	type = heritage
-}

@@ -1,0 +1,259 @@
+k_england = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+}
+d_bedford = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+}
+c_middlesex = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+}
+c_essex = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+}
+c_bedford = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+}
+c_hertfordshire = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+}
+c_buckinghamshire = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+}
+d_northumberland = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+		remove_succession_laws = yes
+	}
+}
+c_northumberland = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+}
+c_durham = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+}
+c_cumberland = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+}
+d_lancaster = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+}
+c_lancashire = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+}
+c_westmorland = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+}
+c_cheshire = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+}
+c_derby = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+}
+d_york = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+}
+c_north_riding = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+}
+c_east_riding = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+}
+c_west_riding = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+}
+c_lincolnshire = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+}
+d_norfolk = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+		remove_succession_laws = yes
+	}
+}
+c_norfolk = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+}
+c_suffolk = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+}
+c_cambridgeshire = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+}
+d_hereford = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+		remove_succession_laws = yes
+	}
+}
+c_warwickshire = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+}
+c_leicestershire = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+}
+c_nottinghamshire = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+}
+c_staffordshire = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+}
+c_worcestershire = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+}
+c_huntingdonshire = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+}
+c_northamptonshire = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+}
+c_shropshire = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+}
+d_gloucester = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+}
+c_gloucestershire = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+}
+c_wiltshire = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+}
+c_oxfordshire = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+}
+c_berkshire = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+}
+d_canterbury = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+}
+c_kent = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+}
+c_surrey = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+}
+c_sussex = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+}
+d_somerset = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+		remove_succession_laws = yes
+	}
+}
+c_hampton = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+}
+c_isle_of_wight = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+}
+c_dorset = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+}
+c_somerset = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+}
+d_cornwall = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+}
+c_devon = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+}
+c_cornwall = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+}

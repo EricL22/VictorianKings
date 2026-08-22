@@ -1,0 +1,5 @@
+﻿house_bonaparte = {
+	name = "dynn_Bonaparte"
+	dynasty = eur_25FE_0 # Buonaparte
+	motto = dynn_Bonaparte_motto
+}

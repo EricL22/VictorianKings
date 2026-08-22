@@ -1,4 +1,4 @@
-version="0.4.5"
+version="1.0"
 tags={
 	"Bookmarks"
 	"Historical"
@@ -7,5 +7,5 @@ tags={
 }
 name="Victorian Kings"
 picture="thumbnail.png"
-supported_version="1.8.*"
+supported_version="1.19.*"
 remote_file_id="2453195387"

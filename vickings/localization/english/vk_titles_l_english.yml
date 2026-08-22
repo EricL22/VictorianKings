@@ -1,0 +1,10 @@
+﻿l_english:
+ UNITEDKINGDOM_article:0 "the "
+ UNITEDKINGDOM:0 "United Kingdom"
+ UNITEDKINGDOM_adj:0 "British"
+ king_feudal_male_uk:0 "King"
+ king_feudal_female_uk:0 "Queen"
+
+ # Noble families
+ d_nf_hanover: "$dynn_Hanover$ Family"
+ d_nf_hanover_article: "$DEFAULT_TITLE_NAME_ARTICLE$"

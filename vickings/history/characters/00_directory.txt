@@ -1,0 +1,19 @@
+﻿# eur_ - europe
+# ami_ - asia_minor
+# naf_ - north_africa
+# cas_ - cen_asia
+# sas_ - south_asia
+# eas_ - east_asia
+# sea_ - sea_asia
+
+
+
+### To make characters easier to locate, we sort by both REGION and DYNASTY.
+## Put a character in a region file if they are one-offs and have no significant family.
+# Format for each ID follows the form reg_CCTNN. Increment each as follows:
+# reg_ = region tag (above)
+# CC = country
+# T = time
+# NN = number
+## Make a dynasty file for a character otherwise (monarchs, powerful family, etc.)
+# Format for each ID follows the form dynastyname_number.

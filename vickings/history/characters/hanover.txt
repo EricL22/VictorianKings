@@ -1,0 +1,115 @@
+﻿hanover_0 = {
+	name = "George"	# I of Britain
+	dynasty = 2001107
+	religion = protestant
+	culture = english
+	1660.6.7 = {
+		birth = yes
+	}
+	1727.6.22 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+hanover_1 = {
+	name = "George" # II of Britain
+	dynasty = 2001107
+	religion = protestant
+	culture = english
+	father = hanover_0
+	1683.11.9 = {
+		birth = yes
+	}
+	1760.10.25 = {
+		death = {
+			death_reason = death_accident
+		}
+	}
+}
+
+hanover_2 = {
+	name = "Frederick"
+	dynasty = 2001107
+	religion = protestant
+	culture = english
+	father = hanover_1
+	1707.2.1 = {
+		birth = yes
+	}
+	1751.3.31 = {
+		death = {
+			death_reason = death_spindly
+		}
+	}
+}
+
+hanover_3 = {
+	name = "George"	# III of Britain
+	dynasty = 2001107
+	martial = 7
+	diplomacy = 5
+	intrigue = 6
+	stewardship = 6
+	religion = protestant
+	culture = english
+	trait = calm
+	trait = shy
+	trait = education_learning_3
+	
+	father = hanover_2
+	
+	1738.6.4 = {
+		birth = yes
+	}
+	1809.4.22 = {
+		effect = {
+			add_gold = 10000	# rich from colonial empire
+
+			# Anglo-Portuguese Army
+			spawn_army = {
+				name = "Anglo-Portuguese Army"
+				levies = 40000
+				men_at_arms = {
+					type = armored_horsemen
+					stacks = 7
+				}
+				men_at_arms = {
+					type = light_footmen
+					stacks = 15
+				}
+				men_at_arms = {
+					type = handgunners
+					stacks = 52
+				}
+				men_at_arms = {
+					type = bombard
+					stacks = 12
+				}
+				men_at_arms = {
+					type = light_horsemen
+					stacks = 7
+				}
+				location = province:1763
+				origin = province:1754
+				inheritable = yes
+				save_temporary_scope_as = new_armee
+			}
+			scope:new_armee = {
+				assign_commander = character:eur_00110
+			}
+		}
+	}
+	1815.7.8 = {
+		imprison = {
+			target = character:bonaparte_2	# Napoleon
+			type = house_arrest
+		}
+	}
+	1820.1.29 = {
+		death = {
+			death_reason = death_incapable
+		}
+	}
+}
