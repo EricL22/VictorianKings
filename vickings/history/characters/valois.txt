@@ -1,0 +1,141 @@
+﻿valois_0 = {
+	name = "Charles"
+	dynasty = 101
+	religion = catholic
+	culture = french
+	father = 455502
+	1338.1.21 = {
+		birth = yes
+	}
+	1380.9.16 = {
+		death = yes
+	}
+}
+valois_1 = {
+	name = "Charles"
+	dynasty = 101
+	religion = catholic
+	culture = french
+	father = valois_0
+	1368.12.3 = {
+		birth = yes
+	}
+	1422.10.21 = {
+		death = yes
+	}
+}
+valois_2 = {
+	name = "Charles"
+	dynasty = 101
+	religion = catholic
+	culture = french
+	father = valois_1
+	1403.2.22 = {
+		birth = yes
+	}
+	1461.7.22 = {
+		death = yes
+	}
+}
+valois_3 = {
+	name = "Louis"
+	dynasty = 101
+	religion = catholic
+	culture = french
+	father = valois_2
+	1423.7.3 = {
+		birth = yes
+	}
+	1483.8.30 = {
+		death = yes
+	}
+}
+valois_4 = {
+	name = "Charles"
+	dynasty = 101
+	religion = catholic
+	culture = french
+	father = valois_3
+	1470.6.30 = {
+		birth = yes
+	}
+	1498.4.7 = {
+		death = yes
+	}
+}
+valois_5 = {
+	name = "Louis"
+	dynasty = 101
+	religion = catholic
+	culture = french
+	1462.6.27 = {
+		birth = yes
+	}
+	1515.1.1 = {
+		death = yes
+	}
+}
+valois_6 = {
+	name = "FranC_ois"
+	dynasty = 101
+	religion = catholic
+	culture = french
+	1494.9.12 = {
+		birth = yes
+	}
+	1547.3.31 = {
+		death = yes
+	}
+}
+valois_7 = {
+	name = "Henri"
+	dynasty = 101
+	religion = catholic
+	culture = french
+	father = valois_6
+	1519.3.31 = {
+		birth = yes
+	}
+	1559.7.10 = {
+		death = yes
+	}
+}
+valois_8 = {
+	name = "FranC_ois"
+	dynasty = 101
+	religion = catholic
+	culture = french
+	father = valois_7
+	1544.1.19 = {
+		birth = yes
+	}
+	1560.12.5 = {
+		death = yes
+	}
+}
+valois_9 = {
+	name = "Charles"
+	dynasty = 101
+	religion = catholic
+	culture = french
+	father = valois_7
+	1550.6.27 = {
+		birth = yes
+	}
+	1574.5.30 = {
+		death = yes
+	}
+}
+valois_10 = {
+	name = "Henri"
+	dynasty = 101
+	religion = catholic
+	culture = french
+	father = valois_7
+	1551.9.19 = {
+		birth = yes
+	}
+	1589.8.2 = {
+		death = yes
+	}
+}

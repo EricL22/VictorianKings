@@ -1,0 +1,366 @@
+﻿# Bourbon
+bourbon_0 = {
+	name = "Jean"
+	dynasty = 100146
+	religion = catholic
+	culture = french
+	father = 455656
+	mother = 455705
+	1344.1.1 = {
+		birth = yes
+	}
+	1393.6.11 = {
+		death = yes
+	}
+}
+
+bourbon_1 = {
+	name = "Louis"
+	dynasty = 100146
+	religion = catholic
+	culture = french
+	father = bourbon_0
+	1376.1.1 = {
+		birth = yes
+	}
+	1446.12.21 = {
+		death = yes
+	}
+}
+
+bourbon_2 = {
+	name = "Jean"
+	dynasty = 100146
+	religion = catholic
+	culture = french
+	father = bourbon_1
+	1425.1.1 = {
+		birth = yes
+	}
+	1477.1.6 = {
+		death = yes
+	}
+}
+
+bourbon_3 = {
+	name = "FranC_ois"
+	dynasty = 100146
+	religion = catholic
+	culture = french
+	father = bourbon_2
+	1470.1.1 = {
+		birth = yes
+	}
+	1495.10.30 = {
+		death = yes
+	}
+}
+
+bourbon_4 = {
+	name = "Charles"
+	dynasty = 100146
+	religion = catholic
+	culture = french
+	father = bourbon_3
+	1489.6.2 = {
+		birth = yes
+	}
+	1537.3.25 = {
+		death = yes
+	}
+}
+
+bourbon_5 = {
+	name = "Antoine"
+	dynasty = 100146
+	religion = catholic
+	culture = french
+	father = bourbon_4
+	1518.4.22 = {
+		birth = yes
+	}
+	1562.11.17 = {
+		death = yes
+	}
+}
+bourbon_6 = {
+	name = "Henri"
+	dynasty = 100146
+	religion = catholic
+	culture = french
+	father = bourbon_5
+	1553.12.13 = {
+		birth = yes
+	}
+	1610.5.14 = {
+		death = yes
+	}
+}
+bourbon_7 = {
+	name = "Louis"
+	dynasty = 100146
+	religion = catholic
+	culture = french
+	father = bourbon_6
+	1601.9.27 = {
+		birth = yes
+	}
+	1643.5.14 = {
+		death = yes
+	}
+}
+bourbon_8 = {
+	name = "Louis"
+	dynasty = 100146
+	religion = catholic
+	culture = french
+	father = bourbon_7
+	1638.9.5 = {
+		birth = yes
+	}
+	1670.1.1 = {
+		give_nickname = nick_the_great
+	}
+	1715.9.1 = {
+		death = {
+			death_reason = death_wounded_3
+		}
+	}
+}
+bourbon_9 = {
+	name = "Louis"
+	dynasty = 100146
+	religion = catholic
+	culture = french
+	father = bourbon_8
+	1661.11.1 = {
+		birth = yes
+	}
+	1711.4.14 = {
+		death = yes
+	}
+}
+bourbon_10 = {
+	name = "Louis"
+	dynasty = 100146
+	religion = catholic
+	culture = french
+	father = bourbon_9
+	1682.8.16 = {
+		birth = yes
+	}
+	1712.2.18 = {
+		death = yes
+	}
+}
+bourbon_11 = {
+	name = "Maria Josepha"
+	dynasty_house = house_wettin
+	religion = catholic
+	culture = saxon
+	female = yes
+	1731.11.4 = {
+		birth = yes
+	}
+	1767.3.13 = {
+		death = yes
+	}
+}
+bourbon_12 = {
+	name = "Louis"	# XV of France
+	dynasty = 100146
+	religion = catholic
+	culture = french
+	father = bourbon_10
+	1710.2.15 = {
+		birth = yes
+	}
+	1774.5.10 = {
+		death = {
+			death_reason = death_smallpox
+		}
+	}
+}
+bourbon_13 = {
+	name = "Louis"	# Dauphin of France
+	dynasty = 100146
+	religion = catholic
+	culture = french
+	father = bourbon_12
+	1729.9.4 = {
+		birth = yes
+	}
+	1741.1.10 = {
+		add_spouse = bourbon_11
+	}
+	1765.12.20 = {
+		death = {
+			death_reason = death_consumption
+		}
+	}
+}
+bourbon_14 = {
+	name = "Louis"	# XVI of France
+	dynasty = 100146
+	religion = catholic
+	culture = french
+	father = bourbon_13
+	mother = bourbon_11
+	1754.8.23 = {
+		birth = yes
+	}
+	1793.1.21 = {
+		death = {
+			death_reason = death_execution
+		}
+	}
+}
+bourbon_15 = {
+	name = "Louis"	# XVII of France
+	dynasty = 100146
+	religion = catholic
+	culture = french
+	father = bourbon_14
+	1785.3.27 = {
+		birth = yes
+	}
+	1795.6.8 = {
+		death = {
+			death_reason = death_consumption
+		}
+	}
+}
+bourbon_16 = {
+	name = "Louis"	# XVIII of France
+	dynasty = 100146
+	religion = catholic
+	culture = french
+	father = bourbon_13
+	mother = bourbon_11
+	1755.11.17 = {
+		birth = yes
+	}
+	1814.4.11 = {
+		effect = {
+			add_realm_law_skip_effects = male_only_law
+		}
+	}
+	1824.9.16 = {
+		death = {
+			death_reason = death_obesity
+		}
+	}
+}
+bourbon_17 = {
+	name = "Charles"	# X of France
+	dynasty = 100146
+	religion = catholic
+	culture = french
+	father = bourbon_13
+	mother = bourbon_11
+	1757.10.9 = {
+		birth = yes
+	}
+	1836.11.6 = {
+		death = {
+			death_reason = death_ill
+		}
+	}
+}
+
+###THE ORLEANS###
+bourbon_18 = {
+	name = "Philippe"
+	dynasty = 100146
+	religion = catholic
+	culture = french
+	father = bourbon_7
+	1640.9.21 = {
+		birth = yes
+	}
+	1661.5.10 = {
+		dynasty_house = house_orleans_4
+	}
+	1701.6.9 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+bourbon_19 = {
+	name = "Philippe"
+	dynasty_house = house_orleans_4
+	religion = catholic
+	culture = french
+	father = bourbon_18
+	1674.8.2 = {
+		birth = yes
+	}
+	1723.12.2 = {
+		death = yes
+	}
+}
+bourbon_20 = {
+	name = "Louis"
+	dynasty_house = house_orleans_4
+	religion = catholic
+	culture = french
+	father = bourbon_19
+	1703.8.4 = {
+		birth = yes
+	}
+	1752.2.4 = {
+		death = yes
+	}
+}
+bourbon_21 = {
+	name = "Louis-Philippe"
+	dynasty_house = house_orleans_4
+	religion = catholic
+	culture = french
+	father = bourbon_20
+	1725.5.12 = {
+		birth = yes
+	}
+	1785.11.18 = {
+		death = yes
+	}
+}
+bourbon_22 = {
+	name = "Louis-Philippe"
+	dynasty_house = house_orleans_4
+	religion = catholic
+	culture = french
+	father = bourbon_21
+	1747.4.13 = {
+		birth = yes
+	}
+	1793.11.6 = {
+		death = {
+			death_reason = death_execution
+		}
+	}
+}
+bourbon_23 = {
+	name = "Louis-Philippe"
+	dynasty_house = house_orleans_4
+	religion = catholic
+	culture = french
+	father = bourbon_22
+	1773.10.6 = {
+		birth = "1773.10.6"
+	}
+	1809.11.25 = {
+#		add_spouse = 9177216	# Maria Amalia
+	}
+	1830.8.2 = {
+		effect = {
+			add_realm_law_skip_effects = male_only_law
+		}
+	}
+	1850.8.26 = {
+		death = {
+			death_reason = death_old_age
+		}
+	}
+}

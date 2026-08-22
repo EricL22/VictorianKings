@@ -1,5 +1,5 @@
 Note: if there is no file extension next to an item then it is a folder or a modding clause overwritten in a separate file.
-Folder item indicates that all files, including those in every subfolder, have been overwritten.
+Folder item indicates that all files present, including those in every subfolder, have been overwritten.
 
 common
 ...bookmarks
@@ -38,6 +38,8 @@ gfx
 .........detail_index.tga
 .........detail_intensity.tga
 ......water
+history
+...cultures
 map_data
 music
 ...in_game

@@ -54,11 +54,9 @@ e_france = {
 	1804.5.18 = {
 		holder = bonaparte_2	# Napoleon I
 	}
-
 	1814.4.4 = {
 		holder = bonaparte_3	# Napoleon II
 	}
-
 	1814.4.13 = {
 		holder = 0	# Treaty of Fontainebleau
 	}

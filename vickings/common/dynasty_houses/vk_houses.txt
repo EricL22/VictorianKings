@@ -3,3 +3,8 @@
 	dynasty = eur_25FE_0 # Buonaparte
 	motto = dynn_Bonaparte_motto
 }
+
+house_orleans_4 = {
+	name = "dynn_Bb_Orleans"
+	dynasty = 100146	# Bourbon
+}
