@@ -1,0 +1,245 @@
+k_ireland = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+	1820.1.29 = {
+		holder = hanover_4	# George IV
+	}
+	1830.6.26 = {
+		holder = hanover_5	# William IV
+	}
+	1837.6.20 = {
+		holder = hanover_7	# Victoria
+	}
+}
+d_meath = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+	1820.1.29 = {
+		holder = hanover_4	# George IV
+	}
+	1830.6.26 = {
+		holder = hanover_5	# William IV
+	}
+	1837.6.20 = {
+		holder = hanover_7	# Victoria
+	}
+}
+c_dublin = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+	1820.1.29 = {
+		holder = hanover_4	# George IV
+	}
+	1830.6.26 = {
+		holder = hanover_5	# William IV
+	}
+	1837.6.20 = {
+		holder = hanover_7	# Victoria
+	}
+}
+c_athlone = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+	1820.1.29 = {
+		holder = hanover_4	# George IV
+	}
+	1830.6.26 = {
+		holder = hanover_5	# William IV
+	}
+	1837.6.20 = {
+		holder = hanover_7	# Victoria
+	}
+}
+d_ulster = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+		remove_succession_laws = yes
+	}
+	1820.1.29 = {
+		holder = hanover_4	# George IV
+	}
+	1830.6.26 = {
+		holder = hanover_5	# William IV
+	}
+	1837.6.20 = {
+		holder = hanover_7	# Victoria
+	}
+}
+c_ulster = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+	1820.1.29 = {
+		holder = hanover_4	# George IV
+	}
+	1830.6.26 = {
+		holder = hanover_5	# William IV
+	}
+	1837.6.20 = {
+		holder = hanover_7	# Victoria
+	}
+}
+c_oriel = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+	1820.1.29 = {
+		holder = hanover_4	# George IV
+	}
+	1830.6.26 = {
+		holder = hanover_5	# William IV
+	}
+	1837.6.20 = {
+		holder = hanover_7	# Victoria
+	}
+}
+c_ailech = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+	1820.1.29 = {
+		holder = hanover_4	# George IV
+	}
+	1830.6.26 = {
+		holder = hanover_5	# William IV
+	}
+	1837.6.20 = {
+		holder = hanover_7	# Victoria
+	}
+}
+#d_connacht = {
+#}
+c_mayo = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+	1820.1.29 = {
+		holder = hanover_4	# George IV
+	}
+	1830.6.26 = {
+		holder = hanover_5	# William IV
+	}
+	1837.6.20 = {
+		holder = hanover_7	# Victoria
+	}
+}
+c_connacht = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+	1820.1.29 = {
+		holder = hanover_4	# George IV
+	}
+	1830.6.26 = {
+		holder = hanover_5	# William IV
+	}
+	1837.6.20 = {
+		holder = hanover_7	# Victoria
+	}
+}
+c_breifne = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+	1820.1.29 = {
+		holder = hanover_4	# George IV
+	}
+	1830.6.26 = {
+		holder = hanover_5	# William IV
+	}
+	1837.6.20 = {
+		holder = hanover_7	# Victoria
+	}
+}
+#d_leinster = {
+#}
+c_leinster = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+	1820.1.29 = {
+		holder = hanover_4	# George IV
+	}
+	1830.6.26 = {
+		holder = hanover_5	# William IV
+	}
+	1837.6.20 = {
+		holder = hanover_7	# Victoria
+	}
+}
+c_ossory = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+	1820.1.29 = {
+		holder = hanover_4	# George IV
+	}
+	1830.6.26 = {
+		holder = hanover_5	# William IV
+	}
+	1837.6.20 = {
+		holder = hanover_7	# Victoria
+	}
+}
+#d_munster = {
+#}
+c_thomond = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+	1820.1.29 = {
+		holder = hanover_4	# George IV
+	}
+	1830.6.26 = {
+		holder = hanover_5	# William IV
+	}
+	1837.6.20 = {
+		holder = hanover_7	# Victoria
+	}
+}
+c_ennis = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+	1820.1.29 = {
+		holder = hanover_4	# George IV
+	}
+	1830.6.26 = {
+		holder = hanover_5	# William IV
+	}
+	1837.6.20 = {
+		holder = hanover_7	# Victoria
+	}
+}
+c_ormond = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+	1820.1.29 = {
+		holder = hanover_4	# George IV
+	}
+	1830.6.26 = {
+		holder = hanover_5	# William IV
+	}
+	1837.6.20 = {
+		holder = hanover_7	# Victoria
+	}
+}
+c_desmond = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+	1820.1.29 = {
+		holder = hanover_4	# George IV
+	}
+	1830.6.26 = {
+		holder = hanover_5	# William IV
+	}
+	1837.6.20 = {
+		holder = hanover_7	# Victoria
+	}
+}

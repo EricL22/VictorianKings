@@ -33,7 +33,31 @@ eur_00110 = {
 }
 
 # 1815 bookmark
+
 # 1836 bookmark
+
+# Wife of William IV
+eur_00200 = {
+	name = "Adelheid"
+	dynasty_house = house_saxe_meiningen
+	religion = protestant
+	culture = saxon
+	female = yes
+	1792.8.13 = {
+		birth = yes
+	}
+	1830.6.26 = {
+		name = "Adelaide"
+		culture = english
+	}
+	1836.1.1 = {
+		fertility = 0.2
+	}
+	1849.12.2 = {
+		death = yes
+	}
+}
+
 # 1861 bookmark
 # 1914 bookmark
 ####################

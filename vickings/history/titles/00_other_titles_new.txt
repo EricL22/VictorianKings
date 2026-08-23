@@ -48,6 +48,15 @@ e_britannia = {
 			}
 		}
 	}
+	1820.1.29 = {
+		holder = hanover_4	# George IV
+	}
+	1830.6.26 = {
+		holder = hanover_5	# William IV
+	}
+	1837.6.20 = {
+		holder = hanover_7	# Victoria
+	}
 }
 
 e_france = {

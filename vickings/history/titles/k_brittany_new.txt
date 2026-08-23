@@ -1,0 +1,98 @@
+d_brittany = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon I
+	}
+	1814.4.6 = {
+		holder = bourbon_16 # Louis XVIII
+	}
+	1824.9.16 = {
+		holder = bourbon_17 # Charles X
+	}
+	1830.8.2 = {
+		holder = bourbon_23 # Louis-Phillipe I
+	}
+}
+c_vannes = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon I
+	}
+	1814.4.6 = {
+		holder = bourbon_16 # Louis XVIII
+	}
+	1824.9.16 = {
+		holder = bourbon_17 # Charles X
+	}
+	1830.8.2 = {
+		holder = bourbon_23 # Louis-Phillipe I
+	}
+}
+c_nantes = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon I
+	}
+	1814.4.6 = {
+		holder = bourbon_16 # Louis XVIII
+	}
+	1824.9.16 = {
+		holder = bourbon_17 # Charles X
+	}
+	1830.8.2 = {
+		holder = bourbon_23 # Louis-Phillipe I
+	}
+}
+c_cornouaille = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon I
+	}
+	1814.4.6 = {
+		holder = bourbon_16 # Louis XVIII
+	}
+	1824.9.16 = {
+		holder = bourbon_17 # Charles X
+	}
+	1830.8.2 = {
+		holder = bourbon_23 # Louis-Phillipe I
+	}
+}
+c_french_leon = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon I
+	}
+	1814.4.6 = {
+		holder = bourbon_16 # Louis XVIII
+	}
+	1824.9.16 = {
+		holder = bourbon_17 # Charles X
+	}
+	1830.8.2 = {
+		holder = bourbon_23 # Louis-Phillipe I
+	}
+}
+c_penthievre = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon I
+	}
+	1814.4.6 = {
+		holder = bourbon_16 # Louis XVIII
+	}
+	1824.9.16 = {
+		holder = bourbon_17 # Charles X
+	}
+	1830.8.2 = {
+		holder = bourbon_23 # Louis-Phillipe I
+	}
+}
+c_rennes = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon I
+	}
+	1814.4.6 = {
+		holder = bourbon_16 # Louis XVIII
+	}
+	1824.9.16 = {
+		holder = bourbon_17 # Charles X
+	}
+	1830.8.2 = {
+		holder = bourbon_23 # Louis-Phillipe I
+	}
+}

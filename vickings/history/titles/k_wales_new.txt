@@ -1,0 +1,212 @@
+d_gwynedd = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+	1820.1.29 = {
+		holder = hanover_4	# George IV
+	}
+	1830.6.26 = {
+		holder = hanover_5	# William IV
+	}
+	1837.6.20 = {
+		holder = hanover_7	# Victoria
+	}
+}
+c_cardiganshire = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+	1820.1.29 = {
+		holder = hanover_4	# George IV
+	}
+	1830.6.26 = {
+		holder = hanover_5	# William IV
+	}
+	1837.6.20 = {
+		holder = hanover_7	# Victoria
+	}
+}
+c_merioneth = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+	1820.1.29 = {
+		holder = hanover_4	# George IV
+	}
+	1830.6.26 = {
+		holder = hanover_5	# William IV
+	}
+	1837.6.20 = {
+		holder = hanover_7	# Victoria
+	}
+}
+c_caernarfonshire = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+	1820.1.29 = {
+		holder = hanover_4	# George IV
+	}
+	1830.6.26 = {
+		holder = hanover_5	# William IV
+	}
+	1837.6.20 = {
+		holder = hanover_7	# Victoria
+	}
+}
+c_anglesey = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+	1820.1.29 = {
+		holder = hanover_4	# George IV
+	}
+	1830.6.26 = {
+		holder = hanover_5	# William IV
+	}
+	1837.6.20 = {
+		holder = hanover_7	# Victoria
+	}
+}
+c_denbighshire = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+	1820.1.29 = {
+		holder = hanover_4	# George IV
+	}
+	1830.6.26 = {
+		holder = hanover_5	# William IV
+	}
+	1837.6.20 = {
+		holder = hanover_7	# Victoria
+	}
+}
+#d_powys = {
+#}
+c_maldwyn = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+	1820.1.29 = {
+		holder = hanover_4	# George IV
+	}
+	1830.6.26 = {
+		holder = hanover_5	# William IV
+	}
+	1837.6.20 = {
+		holder = hanover_7	# Victoria
+	}
+}
+c_sir_faesyfed = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+	1820.1.29 = {
+		holder = hanover_4	# George IV
+	}
+	1830.6.26 = {
+		holder = hanover_5	# William IV
+	}
+	1837.6.20 = {
+		holder = hanover_7	# Victoria
+	}
+}
+c_hereford = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+	1820.1.29 = {
+		holder = hanover_4	# George IV
+	}
+	1830.6.26 = {
+		holder = hanover_5	# William IV
+	}
+	1837.6.20 = {
+		holder = hanover_7	# Victoria
+	}
+}
+d_deheubarth = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+	1820.1.29 = {
+		holder = hanover_4	# George IV
+	}
+	1830.6.26 = {
+		holder = hanover_5	# William IV
+	}
+	1837.6.20 = {
+		holder = hanover_7	# Victoria
+	}
+}
+c_carmarthenshire = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+	1820.1.29 = {
+		holder = hanover_4	# George IV
+	}
+	1830.6.26 = {
+		holder = hanover_5	# William IV
+	}
+	1837.6.20 = {
+		holder = hanover_7	# Victoria
+	}
+}
+c_pembrokeshire = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+	1820.1.29 = {
+		holder = hanover_4	# George IV
+	}
+	1830.6.26 = {
+		holder = hanover_5	# William IV
+	}
+	1837.6.20 = {
+		holder = hanover_7	# Victoria
+	}
+}
+c_glamorgan = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+	1820.1.29 = {
+		holder = hanover_4	# George IV
+	}
+	1830.6.26 = {
+		holder = hanover_5	# William IV
+	}
+	1837.6.20 = {
+		holder = hanover_7	# Victoria
+	}
+}
+c_monmouthshire = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+	1820.1.29 = {
+		holder = hanover_4	# George IV
+	}
+	1830.6.26 = {
+		holder = hanover_5	# William IV
+	}
+	1837.6.20 = {
+		holder = hanover_7	# Victoria
+	}
+}
+c_brecknockshire = {
+	1760.10.25 = {
+		holder = hanover_3	# George III
+	}
+	1820.1.29 = {
+		holder = hanover_4	# George IV
+	}
+	1830.6.26 = {
+		holder = hanover_5	# William IV
+	}
+	1837.6.20 = {
+		holder = hanover_7	# Victoria
+	}
+}

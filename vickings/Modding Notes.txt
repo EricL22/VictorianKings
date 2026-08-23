@@ -1,0 +1,28 @@
+TODOs:
+add representative male-preference succession law
+add semi-salic succession law
+
+
+
+
+
+BOOKMARK MODDING:
+
+Add the new bookmark to the file in bookmarks. Can just base it off an already added bookmark
+
+bookmark_portraits is created by the command mentioned in the file. Needs done or you see a naked dude
+
+\gfx\interface\bookmarks Files here are .dds and are custom made. To create one of these:
+ · First use a flatmap.dds as the base. Select by color using a threshold of 25.3 and adjust the blue values in the image until you have something that looks like what vanilla has.
+ · Go into the game, screenshot the country/countries you wish to include in the bookmark. Important: MAKE SURE THE CAMERA IS COMPLETELY VERTICAL SO THERE IS NO WARPING!
+ Repeat for every country:
+ · Layer the screenshot image on top of the flatmap and TRACE and fill the borders of the country using a color picked from the country in the screenshot. (the traced part should be darker than the fill part)
+ · Open that layer in a new image and DELETE the traced part. Select the filled part and STROKE SELECTION using a near-white color (exact value TBA).
+ · Reselect the filled part and decrease its opacity to 50%. Export the image as bm_[name]_bookmark_[character].dds
+ · In the flatmap image, decrease the layer of the country to 50% and export this as bm_[name].dds
+
+Localization
+
+A bookmark WILL NOT LOAD if it has any character/title history errors.
+
+-debug_mode -develop
