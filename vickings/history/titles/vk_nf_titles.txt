@@ -55,3 +55,54 @@ d_nf_hanover = {
 		}
 	}
 }
+
+d_nf_bonaparte = {
+	1760.10.25 = {
+		liege = e_france
+		holder = bonaparte_2	# Napoleon
+		government = administrative_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1812.7.5 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1812.7.5 }
+		}
+	}
+	1815.7.8 = {
+		holder = 0	# Bonapartes forced into exile
+	}
+}
+
+d_nf_bourbon = {
+	1814.5.3 = {
+		liege = k_france
+		holder = bourbon_16 # Louis XVIII
+		government = administrative_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1815.7.8 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1815.7.8 }
+		}
+	}
+	1830.8.2 = {
+		holder = 0	# exiled from France
+	}
+}
+
+d_nf_bourbon_orleans = {
+	1830.8.2 = {
+		liege = k_france
+		holder = bourbon_23 # Louis-Phillipe I
+		government = administrative_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1836.1.1 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1836.1.1 }
+		}
+	}
+	1848.2.24 = {
+		holder = 0	# republic established
+	}
+}

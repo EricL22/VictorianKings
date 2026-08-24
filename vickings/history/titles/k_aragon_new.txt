@@ -1,0 +1,175 @@
+k_aragon = {
+	1700.11.1 = {
+		holder = bourbon_24	# Philip V
+	}
+	1715.6.9 = {
+		holder = 0	# Nueva Planta decrees
+	}
+}
+d_aragon = {
+	1715.6.9 = {
+		de_jure_liege = k_spain
+	}
+	1808.6.6 = {	# Napoleonic
+		holder = bonaparte_4	# Joseph I
+	}
+	1813.12.11 = {	# Bourbon
+		holder = bourbon_36	# Ferdinand VII
+	}
+}
+c_zaragoza = {
+	1808.6.6 = {	# Napoleonic
+		holder = bonaparte_4	# Joseph I
+	}
+	1813.12.11 = {	# Bourbon
+		holder = bourbon_36	# Ferdinand VII
+	}
+}
+c_albarracin = {
+	1808.6.6 = {	# Napoleonic
+		holder = bonaparte_4	# Joseph I
+	}
+	1813.12.11 = {	# Bourbon
+		holder = bourbon_36	# Ferdinand VII
+	}
+}
+c_alto_aragon = {
+	1808.6.6 = {	# Napoleonic
+		holder = bonaparte_4	# Joseph I
+	}
+	1813.12.11 = {	# Bourbon
+		holder = bourbon_36	# Ferdinand VII
+	}
+}
+c_sobrarbe = {
+	1808.6.6 = {	# Napoleonic
+		holder = bonaparte_4	# Joseph I
+	}
+	1813.12.11 = {	# Bourbon
+		holder = bourbon_36	# Ferdinand VII
+	}
+}
+c_huesca = {
+	1808.6.6 = {	# Napoleonic
+		holder = bonaparte_4	# Joseph I
+	}
+	1813.12.11 = {	# Bourbon
+		holder = bourbon_36	# Ferdinand VII
+	}
+}
+c_calatayud = {
+	1808.6.6 = {	# Napoleonic
+		holder = bonaparte_4	# Joseph I
+	}
+	1813.12.11 = {	# Bourbon
+		holder = bourbon_36	# Ferdinand VII
+	}
+}
+c_fraga = {
+	1808.6.6 = {	# Napoleonic
+		holder = bonaparte_4	# Joseph I
+	}
+	1813.12.11 = {	# Bourbon
+		holder = bourbon_36	# Ferdinand VII
+	}
+}
+c_alcaniz = {
+	1808.6.6 = {	# Napoleonic
+		holder = bonaparte_4	# Joseph I
+	}
+	1813.12.11 = {	# Bourbon
+		holder = bourbon_36	# Ferdinand VII
+	}
+}
+d_barcelona = {
+	1164.1.1 = {
+		holder = 0
+	}
+	1715.6.9 = {
+		de_jure_liege = k_spain
+	}
+	1833.9.29 = {
+		holder = 9121606
+		liege = k_spain
+	}
+}
+c_barcelona = {
+	1812.2.1 = {	# France
+		holder = bonaparte_2
+		liege = e_france
+	}
+	1813.12.11 = {	# Bourbon
+		holder = bourbon_36	# Ferdinand VII
+	}
+}
+c_urgell = {
+	1812.2.1 = {	# France
+		holder = bonaparte_2
+		liege = e_france
+	}
+	1813.12.11 = {	# Bourbon
+		holder = bourbon_36	# Ferdinand VII
+	}
+}
+c_pallas = {
+	1812.2.1 = {	# France
+		holder = bonaparte_2
+		liege = e_france
+	}
+	1813.12.11 = {	# Bourbon
+		holder = bourbon_36	# Ferdinand VII
+	}
+}
+c_puigcerda = {
+	1812.2.1 = {	# France
+		holder = bonaparte_2
+		liege = e_france
+	}
+	1813.12.11 = {	# Bourbon
+		holder = bourbon_36	# Ferdinand VII
+	}
+}
+c_girona = {
+	1812.2.1 = {	# France
+		holder = bonaparte_2
+		liege = e_france
+	}
+	1813.12.11 = {	# Bourbon
+		holder = bourbon_36	# Ferdinand VII
+	}
+}
+c_rossello = {
+	1659.11.7 = {	# Treaty of the Pyrenees
+		de_jure_liege = d_languedoc
+	}
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon I
+	}
+	1814.4.6 = {
+		holder = bourbon_16 # Louis XVIII
+	}
+	1824.9.16 = {
+		holder = bourbon_17 # Charles X
+	}
+	1830.8.2 = {
+		holder = bourbon_23 # Louis-Phillipe I
+	}
+}
+c_lleida = {
+	1812.2.1 = {	# France
+		holder = bonaparte_2
+		liege = e_france
+	}
+	1813.12.11 = {	# Bourbon
+		holder = bourbon_36	# Ferdinand VII
+	}
+}
+c_tarragona = {
+	1812.2.1 = {	# France
+		holder = bonaparte_2
+		liege = e_france
+	}
+	1813.12.11 = {	# Bourbon
+		holder = bourbon_36	# Ferdinand VII
+	}
+}

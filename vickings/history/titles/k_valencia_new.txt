@@ -1,0 +1,83 @@
+d_valencia = {
+	1715.6.9 = {
+		de_jure_liege = k_spain
+	}
+	1808.5.2 = {	# Spanish guerillas
+		holder = eur_02100
+		liege = k_spain
+		government = feudal_government
+	}
+}
+c_valencia = {
+	1809.1.1 = {
+		holder = eur_02100
+	}
+}
+c_castellon = {
+	1809.1.1 = {
+		holder = eur_02100
+	}
+}
+c_teruel = {
+	1809.1.1 = {
+		holder = eur_02100
+	}
+}
+c_denia = {
+	1809.1.1 = {
+		holder = eur_02100
+	}
+}
+c_alicante = {
+	1809.1.1 = {
+		holder = eur_02100
+	}
+}
+d_mallorca = {
+	1715.6.9 = {
+		de_jure_liege = k_spain
+	}
+	1808.5.2 = {	# Spanish guerillas
+		holder = eur_02100
+		liege = k_spain
+	}
+}
+c_mallorca = {
+	1809.1.1 = {
+		holder = eur_02100
+	}
+}
+c_menorca = {
+	1809.1.1 = {
+		holder = eur_02100
+	}
+}
+c_iviza = {
+	1809.1.1 = {
+		holder = eur_02100
+	}
+}
+d_murcia = {
+	1715.6.9 = {
+		de_jure_liege = k_spain
+	}
+	1808.5.2 = {	# Spanish guerillas
+		holder = eur_02100
+		liege = k_spain
+	}
+}
+c_murcia = {
+	1809.1.1 = {
+		holder = eur_02100
+	}
+}
+c_alcaraz = {
+	1809.1.1 = {
+		holder = eur_02100
+	}
+}
+c_alarcon = {
+	1809.1.1 = {
+		holder = eur_02100
+	}
+}

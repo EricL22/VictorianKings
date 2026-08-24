@@ -348,7 +348,7 @@ bourbon_23 = {
 	culture = french
 	father = bourbon_22
 	1773.10.6 = {
-		birth = "1773.10.6"
+		birth = yes
 	}
 	1809.11.25 = {
 #		add_spouse = 9177216	# Maria Amalia
@@ -364,3 +364,257 @@ bourbon_23 = {
 		}
 	}
 }
+####################
+
+###SPANISH BOURBONS###
+bourbon_24 = {
+	name = "Philippe"	# V of Spain
+	dynasty = 100146
+	religion = catholic
+	culture = french
+	father = bourbon_9
+	1683.12.19 = {
+		birth = yes
+	}
+	1746.7.9 = {
+		death = yes
+	}
+}
+bourbon_25 = {
+	name = "Luis"	# I of Spain
+	dynasty = 100146
+	religion = catholic
+	culture = castilian
+	father = bourbon_24
+	1707.8.25 = {
+		birth = yes
+	}
+	1724.8.31 = {
+		death = yes
+	}
+}
+bourbon_26 = {
+	name = "Fernando"	# VI of Spain
+	dynasty = 100146
+	religion = catholic
+	culture = castilian
+	father = bourbon_24
+	1713.9.23 = {
+		birth = yes
+	}
+	1759.8.10 = {
+		death = yes
+	}
+}
+bourbon_27 = {
+	name = "Carlos"	# III of Spain
+	dynasty = 100146
+	religion = catholic
+	culture = castilian
+	father = bourbon_24
+	1716.1.20 = {
+		birth = yes
+	}
+	1788.12.14 = {
+		death = yes
+	}
+}
+####################
+
+# Charles X family
+bourbon_28 = {
+	name = "Louis Antoine"	# XIX of France
+	dynasty = 100146
+	religion = catholic
+	culture = french
+	father = bourbon_17
+	1775.8.6 = {
+		birth = yes
+	}
+	1799.6.10 = {
+		add_spouse = bourbon_31
+	}
+	1844.6.3 = {
+		death = yes
+	}
+}
+bourbon_29 = {
+	name = "Charles Ferdinand"
+	dynasty = 100146
+	religion = catholic
+	culture = french
+	father = bourbon_17
+	1778.1.24 = {
+		birth = yes
+	}
+	1820.2.14 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+bourbon_30 = {
+	name = "Henri"
+	dynasty = 100146
+	religion = catholic
+	culture = french
+	father = bourbon_29
+	1820.9.29 = {
+		birth = yes
+	}
+	1883.8.24 = {
+		death = yes
+	}
+}
+
+bourbon_31 = {
+	name = "Marie-Thérèse"
+	dynasty = 100146
+	religion = catholic
+	culture = french
+	father = bourbon_14
+	female = yes
+	1778.12.19 = {
+		birth = yes
+	}
+	1851.10.19 = {
+		death = yes
+	}
+}
+
+# Louis Philippe family
+bourbon_32 = {
+	name = "Ferdinand"
+	dynasty_house = house_orleans_4
+	religion = catholic
+	culture = french
+	father = bourbon_23
+#	mother = 9177216
+	1810.9.3 = {
+		birth = yes
+	}
+	1842.7.13 = {
+		death = yes
+	}
+}
+bourbon_33 = {
+	name = "Louise"	# Queen of Belgium
+	dynasty_house = house_orleans_4
+	religion = catholic
+	culture = french
+	father = bourbon_23
+#	mother = 9177216
+	female = yes
+	trait = zealous
+	1812.4.3 = {
+		birth = yes
+	}
+	1850.10.11 = {
+		death = yes
+	}
+}
+bourbon_34 = {
+	name = "Louis"
+	dynasty_house = house_orleans_4
+	religion = catholic
+	culture = french
+	father = bourbon_23
+#	mother = 9177216
+	1814.10.25 = {
+		birth = yes
+	}
+	1896.6.26 = {
+		death = yes
+	}
+}
+
+## Spanish line
+bourbon_35 = {
+	name = "Carlos"	# IV of Spain
+	dynasty = 100146
+	religion = catholic
+	culture = castilian
+	father = bourbon_27
+	1748.11.11 = {
+		birth = yes
+	}
+	1819.1.20 = {
+		death = yes
+	}
+}
+bourbon_36 = {
+	name = "Fernando"	# VII of Spain
+	dynasty = 100146
+	religion = catholic
+	culture = castilian
+	father = bourbon_35
+	1784.10.14 = {
+		birth = yes
+	}
+	1808.1.1 = {
+		add_pressed_claim = title:k_spain
+	}
+	#1813.12.11 = {
+	#	release_from_prison = yes
+	#}
+	1833.9.29 = {
+		death = yes
+	}
+}
+
+bourbon_37 = {
+	name = "Isabel"	# II of Spain
+	dynasty = 100146
+	religion = catholic
+	culture = castilian
+	father = bourbon_36
+	female = yes
+	1830.10.10 = {
+		birth = yes
+	}
+	1833.9.29 = {
+		effect = {
+			set_realm_capital = title:c_madrid
+			add_realm_law_skip_effects = crown_authority_1
+			spawn_army = {
+				name = "Ejército Cristino del Centro"
+				men_at_arms = {
+					type = armored_footmen
+					stacks = 60	# reduced from 150
+				}
+			#	men_at_arms = {
+			#		type = bombard
+			#		stacks = 30
+			#	}
+				men_at_arms = {
+					type = house_guard
+					stacks = 30
+				}
+				men_at_arms = {
+					type = light_horsemen
+					stacks = 90
+				}
+				location = province:1923
+				origin = province:1923
+			}
+			spawn_army = {
+				name = "Ejército del Norte"
+				men_at_arms = {
+					type = armored_footmen
+					stacks = 120
+				}
+				men_at_arms = {
+					type = bombard
+					stacks = 300
+				}
+				location = province:1862
+				origin = province:1862
+				inheritable = no
+			}
+		}
+	}
+	1904.4.9 = {
+		death = yes
+	}
+}
+####################

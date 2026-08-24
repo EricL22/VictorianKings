@@ -1,0 +1,142 @@
+﻿# Habsburg
+7000043 = {
+	name = "Leopold"	# III of Austria
+	dynasty = 51
+	religion = catholic
+	culture = swabian
+	father = 462020
+	1351.11.1 = {
+		birth = yes
+	}
+	1386.7.9 = {
+		death = yes
+	}
+}
+
+7000044 = {
+	name = "Ernst"	# I of Austria
+	dynasty = 51
+	religion = catholic
+	culture = swabian
+	father = 7000043
+	1377.1.1 = {
+		birth = yes
+	}
+	1424.6.10 = {
+		death = yes
+	}
+}
+
+7000045 = {
+	name = "Friedrich"	# III of the Holy Roman Empire
+	dynasty = 51
+	religion = catholic
+	culture = swabian
+	father = 7000044
+	1415.9.21 = {
+		birth = yes
+	}
+	1493.8.19 = {
+		death = yes
+	}
+}
+
+7000046 = {
+	name = "Maximilian"	# I of the Holy Roman Empire
+	dynasty = 51
+	religion = catholic
+	culture = swabian
+	father = 7000045
+	1459.3.22 = {
+		birth = yes
+	}
+	1519.1.12 = {
+		death = yes
+	}
+}
+
+7000047 = {
+	name = "Philipp"	# I of Castile
+	dynasty = 51
+	religion = catholic
+	culture = swabian
+	father = 7000046
+	1478.7.22 = {
+		birth = yes
+	}
+	1506.9.25 = {
+		death = yes
+	}
+}
+
+7000048 = {
+	name = "Karl"	# I of Castile
+	dynasty = 51
+	religion = catholic
+	culture = swabian
+	father = 7000047
+	1500.2.24 = {
+		birth = yes
+	}
+	1558.9.21 = {
+		death = yes
+	}
+}
+
+7000049 = {
+	name = "Felipe"	# II of Castile
+	dynasty = 51
+	religion = catholic
+	culture = castilian
+	father = 7000048
+	1527.5.21 = {
+		birth = yes
+	}
+	1598.9.13 = {
+		death = yes
+	}
+}
+
+7000050 = {
+	name = "Felipe"	# III of Castile
+	dynasty = 51
+	religion = catholic
+	culture = castilian
+	father = 7000049
+	1578.4.14 = {
+		birth = yes
+	}
+	1621.3.31 = {
+		death = yes
+	}
+}
+
+7000051 = {
+	name = "Felipe"	# IV of Castile
+	dynasty = 51
+	religion = catholic
+	culture = castilian
+	father = 7000050
+	1605.4.8 = {
+		birth = yes
+	}
+	1665.9.17 = {
+		death = yes
+	}
+}
+
+7000052 = {
+	name = "Carlos"	# II of Castile
+	dynasty = 51
+	religion = catholic
+	culture = castilian
+	father = 7000051
+	trait = inbred
+	trait = beauty_bad_2
+	1661.11.6 = {
+		birth = yes
+	}
+	1700.11.1 = {
+		death = yes
+	}
+}

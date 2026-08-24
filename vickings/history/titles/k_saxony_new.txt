@@ -14,11 +14,11 @@ d_angria = {
 	}
 }
 c_minden = {
-#	1804.5.18 = {
-#		holder = fragov56
-#		liege = e_france
-#	}
-	1814.10.12 = {
+	1804.5.18 = {	# France
+		holder = bonaparte_2
+		liege = e_france
+	}
+	1814.10.12 = {	# Hanover
 		holder = hanover_3
 	}
 	1820.1.29 = {
@@ -55,10 +55,10 @@ c_lippe = {
 	}
 }
 c_bremen = {
-#	1804.5.18 = {
-#		holder = fragov56
-#	}
-	1814.10.12 = {
+	1804.5.18 = {	# France
+		holder = bonaparte_2
+	}
+	1814.10.12 = {	# Hanover
 		holder = hanover_3
 	}
 	1820.1.29 = {
@@ -135,10 +135,10 @@ c_hildesheim = {
 	}
 }
 c_oldenburg = {
-#	1804.5.18 = {
-#		holder = fragov56
-#	}
-	1814.10.12 = {
+	1804.5.18 = {	# France
+		holder = bonaparte_2
+	}
+	1814.10.12 = {	# Hanover
 		holder = hanover_3
 	}
 	1820.1.29 = {
@@ -165,10 +165,10 @@ d_westfalen = {
 #	}
 }
 c_osnabruck = {
-#	1804.5.18 = {
-#		holder = fragov56
-#	}
-	1814.10.12 = {
+	1804.5.18 = {	# France
+		holder = bonaparte_2
+	}
+	1814.10.12 = {	# Hanover
 		holder = hanover_3
 	}
 	1820.1.29 = {
@@ -185,10 +185,10 @@ c_osnabruck = {
 	}
 }
 c_tecklenburg = {
-#	1804.5.18 = {
-#		holder = fragov56
-#	}
-	1814.10.12 = {
+	1804.5.18 = {	# France
+		holder = bonaparte_2
+	}
+	1814.10.12 = {	# Hanover
 		holder = hanover_3
 	}
 	1820.1.29 = {
@@ -205,9 +205,9 @@ c_tecklenburg = {
 	}
 }
 c_munster = {
-#	1804.5.18 = {
-#		holder = fragov56
-#	}
+	1804.5.18 = {	# France
+		holder = bonaparte_2
+	}
 #	1814.4.11 = {
 #		holder = 6480005
 #	}
@@ -263,9 +263,9 @@ c_brunswick = {
 #	}
 }
 c_hamburg = {
-#	1804.5.18 = {
-#		holder = fragov57
-#	}
+	1804.5.18 = {	# France
+		holder = bonaparte_2
+	}
 #	1814.5.30 = {
 #		holder = 8000007
 #		liege = 0
@@ -309,20 +309,20 @@ d_holstein = {
 #	}
 }
 c_lubeck = {
-#	1804.5.18 = {
-#		holder = fragov57
-#		liege = e_france
-#	}
+	1804.5.18 = {	# France
+		holder = bonaparte_2
+		liege = e_france
+	}
 #	1814.5.30 = {
 #		holder = 8000006
 #		liege = 0
 #	}
 }
 c_stade = {
-#	1804.5.18 = {
-#		holder = fragov57
-#	}
-	1814.10.12 = {
+	1804.5.18 = {	# France
+		holder = bonaparte_2
+	}
+	1814.10.12 = {	# Hanover
 		de_jure_liege = d_angria
 		holder = hanover_3
 	}

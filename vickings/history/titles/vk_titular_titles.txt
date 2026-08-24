@@ -20,3 +20,39 @@ k_hanover = {
 		holder = 0
 	}
 }
+
+k_spain = {
+	1715.6.9 = {
+		holder = bourbon_24	# Philip V
+		insert_title_history = k_castille
+	}
+	1724.1.15 = {
+		holder = bourbon_25	# Louis I
+	}
+	1724.8.31 = {
+		holder = bourbon_24
+	}
+	1746.7.9 = {
+		holder = bourbon_26	# Ferdinand VI
+	}
+	1759.8.10 = {
+		holder = bourbon_27	# Charles III
+	}
+	1788.12.14 = {
+		holder = bourbon_35	# Charles IV
+	}
+	1808.3.19 = {
+		holder = bourbon_36	# Ferdinand VII
+	}
+
+	1808.6.6 = {
+		holder = bonaparte_4	# Joseph I
+	}
+
+	1813.12.11 = {
+		holder = bourbon_36
+	}
+	1833.9.29 = {
+		holder = bourbon_37	# Isabella II
+	}
+}

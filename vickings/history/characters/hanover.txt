@@ -145,8 +145,7 @@ hanover_5 = {
 	}
 	1830.6.26 = {
 		effect = {
-			#add_realm_law_skip_effects = equal_law
-			set_designated_heir = character:hanover_7
+			add_realm_law_skip_effects = equal_law	# workaround for the historical representative succession
 			spawn_army = {
 				name = "1st Corps"
 				levies = 6000

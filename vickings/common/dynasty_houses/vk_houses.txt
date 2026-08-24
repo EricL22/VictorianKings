@@ -13,3 +13,8 @@ house_saxe_meiningen = {
 	name = "dynn_Saxe_Meiningen"
 	dynasty = 1054#Hunfriding	528	# Wettin
 }
+
+house_murat = {
+	name = "dynn_Murat"
+	dynasty = eur_25FE_0 # Buonaparte
+}

@@ -1,6 +1,7 @@
 ﻿##### CONTENTS #####
 # UNITED KINGDOM   #
 # FRANCE           #
+# SPAIN            #
 ####################
 
 
@@ -12,6 +13,7 @@
 
 # 1812 bookmark
 
+# Duke of Wellington
 eur_00110 = {
 	name = "Arthur"
 	dynasty = eur_006E_0
@@ -99,6 +101,104 @@ eur_01110 = {
 		birth = yes
 	}
 	1847.12.17 = {
+		death = yes
+	}
+}
+
+# 1815 bookmark
+# 1836 bookmark
+# 1861 bookmark
+# 1914 bookmark
+####################
+
+
+
+####################
+#  SPAIN  #
+####################
+# Pre-1812
+
+# 1812 bookmark
+
+# Fictitious Spanish leader of the Peninsular War
+eur_02100 = {
+	name = "Lope"
+	dynasty = 8685
+	religion = catholic
+	culture = castilian
+	1775.8.14 = {
+		birth = yes
+	}
+	1808.5.2 = {
+		effect = {
+			# Spanish Army
+			spawn_army = {
+				name = "Army of the Center"
+				levies = 48000
+				men_at_arms = {
+					type = light_horsemen
+					stacks = 60
+				}
+				location = province:1995
+				origin = province:1981
+				inheritable = no
+				save_temporary_scope_as = new_armee
+			}
+			scope:new_armee = {
+				assign_commander = character:eur_02101
+			}
+			spawn_army = {
+				name = "Army of the Left"
+				levies = 40000
+				location = province:1816
+				origin = province:1787
+				inheritable = no
+				save_temporary_scope_as = new_armee2
+			}
+			scope:new_armee2 = {
+				assign_commander = character:eur_02102
+			}
+		}
+	}
+	1831.8.7 = {
+		death = yes
+	}
+}
+
+## Spanish generals ##
+
+eur_02101 = {
+	name = "F.J. Castaños"
+	martial = 12
+	religion = catholic
+	culture = castilian
+	trait = education_martial_3
+	trait = flexible_leader
+	1758.4.22 = {
+		birth = yes
+	}
+	1808.5.2 = {
+		employer = eur_02100
+	}
+	1852.4.22 = {
+		death = yes
+	}
+}
+
+eur_02102 = {
+	name = "José de Palafox"
+	martial = 11
+	religion = catholic
+	culture = castilian
+	trait = education_martial_2
+	trait = organizer
+	1775.10.28 = {
+		birth = yes
+	}
+	1808.5.2 = {
+		employer = eur_02100
+	}
+	1847.2.15 = {
 		death = yes
 	}
 }

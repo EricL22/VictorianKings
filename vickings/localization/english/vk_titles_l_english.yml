@@ -8,6 +8,15 @@
  k_hanover:0 "Hanover"
  k_hanover_adj:0 "Hanoverian"
 
+ k_spain:0 "Spain"
+ k_spain_adj:0 "Spanish"
+
  # Noble families
  d_nf_hanover: "$dynn_Hanover$ Family"
  d_nf_hanover_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ d_nf_bonaparte: "$dynn_Bonaparte$ Family"
+ d_nf_bonaparte_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ d_nf_bourbon: "$dynn_Bourbon$ Family"
+ d_nf_bourbon_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ d_nf_bourbon_orleans: "$dynn_Bb_Orleans$ Family"
+ d_nf_bourbon_orleans_article: "$DEFAULT_TITLE_NAME_ARTICLE$"

@@ -70,8 +70,6 @@ bonaparte_2 = {
 				add_gold = 500
 				dynasty = { add_dynasty_prestige = 10000 }
 
-				add_realm_law_skip_effects = crown_authority_2
-
 				# Grande Armée - It is only a quarter of its real size to due OPness
 				spawn_army = {
 					name = "Grande Armée"
@@ -112,13 +110,13 @@ bonaparte_2 = {
 		dynasty_house = house_bonaparte
 	}
 	1808.1.1 = {
-#		create_alliance = character:9000008
+#		create_alliance = character:9000008	# Eugene de Beauharnais
 	}
 	1808.5.6 = {
-#		imprison = {
-#			target = character:9000017
-#			type = house_arrest
-#		}
+		imprison = {
+			target = character:bourbon_36	# Ferdinand VII of Spain
+			type = house_arrest
+		}
 #		imprison = {
 #			target = character:9100022
 #			type = house_arrest
@@ -159,5 +157,274 @@ bonaparte_3 = {
 		death = {
 			death_reason = death_consumption
 		}
+	}
+}
+
+# King of Spain
+bonaparte_4 = {
+	name = "Joseph"
+	dynasty = eur_25FE_0
+	martial = 5
+	diplomacy = 10
+	intrigue = 4
+	stewardship = 4
+	religion = catholic
+	culture = french
+	trait = just
+	trait = intellect_good_1
+	trait = education_diplomacy_3
+	father = bonaparte_0
+	mother = bonaparte_1
+	1768.1.7 = {
+		birth = yes
+	}
+	1804.5.18 = {
+		dynasty_house = house_bonaparte
+	}
+	1821.5.5 = {
+		effect = { dynasty = { add_dynasty_prestige = 10000 } }
+	}
+	1844.7.28 = {
+		death = yes
+	}
+}
+
+# King of Naples
+9000009 = {
+	name = "Joachim"
+	# lowborn
+	religion = catholic
+	culture = french
+	trait = education_learning_1
+	trait = reckless
+	1767.3.25 = {
+		birth = yes
+	}
+	1800.1.20 = {
+		add_spouse = 9100061	# Caroline Bonaparte
+	}
+	1805.1.1 = {
+		dynasty_house = house_murat
+	}
+	1815.10.13 = {
+		death = yes
+	}
+}
+
+# Napoleon's younger brother, exiled in Austria after Napoleon annexed Frisia
+9100006 = {
+	name = "Louis"
+	dynasty = eur_25FE_0
+	religion = catholic
+	culture = french
+	father = bonaparte_0
+	mother = bonaparte_1
+	1778.9.2 = {
+		birth = yes
+	}
+	1804.5.18 = {
+		dynasty_house = house_bonaparte
+	}
+	1810.7.1 = {
+#		effect = {
+#			character:9000012 = {
+#				add_visiting_courtier = character:9100006
+#			}
+#		}
+	}
+	1846.7.25 = {
+		death = yes
+	}
+}
+
+# Napoleon III
+9100007 = {
+	name = "Napoleon"
+	#dna = 9100007_napoleon_bonaparte
+	dynasty_house = house_bonaparte
+	diplomacy = 10
+	intrigue = 5
+	religion = catholic
+	culture = french
+	father = 9100006
+	1808.4.20 = {
+		birth = yes
+	}
+	1814.4.11 = {
+		add_pressed_claim = title:e_france
+		add_pressed_claim = title:k_france
+	}
+	1826.4.20 = {
+		trait = education_diplomacy_3
+	}
+	1873.1.9 = {
+		death = yes
+	}
+}
+
+# Louis, Duke of Berg
+9100008 = {
+	name = "Louis"
+	dynasty_house = house_bonaparte
+	religion = catholic
+	culture = french
+	father = 9100006
+	1804.10.11 = {
+		birth = yes
+	}
+	1831.3.17 = {
+		death = yes
+	}
+}
+
+# Jerome, King of Westphalia
+9100009 = {
+	name = "Jerome"
+	dynasty = eur_25FE_0
+	religion = catholic
+	culture = french
+	father = bonaparte_0
+	mother = bonaparte_1
+	1784.11.15 = {
+		birth = yes
+	}
+	1804.5.18 = {
+		dynasty_house = house_bonaparte
+	}
+	1860.6.24 = {
+		death = yes
+	}
+}
+
+9100061 = {
+	name = "Caroline"
+	dynasty = eur_25FE_0
+	religion = catholic
+	culture = french
+	father = bonaparte_0
+	mother = bonaparte_1
+	female = yes
+	1782.3.25 = {
+		birth = yes
+	}
+	1804.5.18 = {
+		dynasty_house = house_bonaparte
+	}
+	1839.5.18 = {
+		death = yes
+	}
+}
+
+9100067 = {
+	name = "Elisa"
+	dynasty = eur_25FE_0
+	religion = catholic
+	culture = french
+	father = bonaparte_0
+	mother = bonaparte_1
+	female = yes
+	1777.1.3 = {
+		birth = yes
+	}
+	1804.5.18 = {
+		dynasty_house = house_bonaparte
+	}
+	1820.8.7 = {
+		death = yes
+	}
+}
+
+
+# Son of Jerome Bonaparte
+8000070 = {
+	name = "Napoleon"
+	dynasty_house = house_bonaparte
+	religion = catholic
+	culture = french
+	father = 9100009
+	1822.9.9 = {
+		birth = yes
+	}
+	1891.3.17 = {
+		death = yes
+	}
+}
+
+## Princes Murat
+8000071 = {
+	name = "Achille"
+	# lowborn
+	religion = catholic
+	culture = french
+	father = 9000009
+	mother = 9100061
+	1801.1.21 = {
+		birth = yes
+	}
+	1805.1.1 = {
+		dynasty_house = house_murat
+	}
+	1847.4.15 = {
+		death = yes
+	}
+}
+
+8000072 = {
+	name = "Lucien"
+	# lowborn
+	religion = catholic
+	culture = french
+	father = 9000009
+	mother = 9100061
+	1803.5.16 = {
+		birth = yes
+	}
+	1805.1.1 = {
+		dynasty_house = house_murat
+	}
+	1878.4.10 = {
+		death = yes
+	}
+}
+
+8000073 = {
+	name = "Joachim"
+	dynasty_house = house_murat
+	religion = catholic
+	culture = french
+	father = 8000072
+	1834.6.21 = {
+		birth = yes
+	}
+	1901.10.23 = {
+		death = yes
+	}
+}
+####################
+
+# Eugene de Beauharnais - Napoleon's stepson/adopted son
+9000008 = {
+	name = "Eugene"
+	dynasty = eur_2515_0
+	religion = catholic
+	culture = french
+	trait = education_martial_2
+	mother = eur_01010	# Josephine
+	portrait_override = {
+		portrait_modifier_overrides = {
+			beards = has_no_beard
+		}
+	}
+	1781.9.3 = {
+		birth = yes
+	}
+	1808.1.1 = {
+		add_opinion = {
+			modifier = perk_negotiated_alliance_opinion
+			target = character:bonaparte_2
+		}
+	}
+	1824.2.21 = {
+		death = yes
 	}
 }

@@ -1,0 +1,128 @@
+﻿# Trastamara
+7000034 = {
+	name = "Juan"	# I of Castile
+	dynasty = 774
+	religion = catholic
+	culture = castilian
+	father = 457510
+	1358.8.24 = {
+		birth = yes
+	}
+	1390.10.9 = {
+		death = yes
+	}
+}
+
+7000035 = {
+	name = "Enrique"	# III of Castile
+	dynasty = 774
+	religion = catholic
+	culture = castilian
+	father = 7000034
+	1379.10.4 = {
+		birth = yes
+	}
+	1406.12.25 = {
+		death = yes
+	}
+}
+
+7000036 = {
+	name = "Juan"	# II of Castile
+	dynasty = 774
+	religion = catholic
+	culture = castilian
+	father = 7000035
+	1405.3.6 = {
+		birth = yes
+	}
+	1454.7.20 = {
+		death = yes
+	}
+}
+
+7000037 = {
+	name = "Enrique"	# IV of Castile
+	dynasty = 774
+	religion = catholic
+	culture = castilian
+	father = 7000036
+	1425.1.5 = {
+		birth = yes
+	}
+	1474.12.11 = {
+		death = yes
+	}
+}
+
+7000038 = {
+	name = "Isabel"	# I of Castile
+	dynasty = 774
+	religion = catholic
+	culture = castilian
+	father = 7000037
+	female = yes
+	1451.4.22 = {
+		birth = yes
+	}
+	1504.11.26 = {
+		death = yes
+	}
+}
+
+7000039 = {
+	name = "Fernando"	# V of Castile
+	dynasty = 774
+	religion = catholic
+	culture = castilian
+	father = 7000041
+	1452.3.10 = {
+		birth = yes
+	}
+	1516.1.23 = {
+		death = yes
+	}
+}
+
+7000040 = {
+	name = "Juana"	# I of Castile
+	dynasty = 774
+	religion = catholic
+	culture = castilian
+	father = 7000038
+	female = yes
+	1479.11.6 = {
+		birth = yes
+	}
+	1555.4.12 = {
+		death = yes
+	}
+}
+
+7000041 = {
+	name = "Juan"	# II of Aragon
+	dynasty = 774
+	religion = catholic
+	culture = castilian
+	father = 7000042
+	1398.6.29 = {
+		birth = yes
+	}
+	1479.1.20 = {
+		death = yes
+	}
+}
+
+7000042 = {
+	name = "Fernando"	# I of Aragon
+	dynasty = 774
+	religion = catholic
+	culture = castilian
+	father = 7000034
+	1380.11.27 = {
+		birth = yes
+	}
+	1416.4.2 = {
+		death = yes
+	}
+}

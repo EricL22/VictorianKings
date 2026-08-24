@@ -15,3 +15,8 @@ eur_21DF_0 = {
 	name = "dynn_Ramolino"
 	culture = "italian"
 }
+eur_2515_0 = {
+	prefix = "dynnp_de"
+	name = "dynn_Beauharnais"
+	culture = "french"
+}

@@ -65,12 +65,49 @@ k_france = {
 	}
 	1814.4.6 = {
 		holder = bourbon_16 # Louis XVIII
+		government = administrative_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					holder = { has_government = administrative_government }
+				}
+				set_state_faith = faith:catholic
+				holder = {
+					add_realm_law_skip_effects = single_heir_succession_law
+					add_realm_law_skip_effects = imperial_bureaucracy_1
+				}
+			}
+			if = {
+				limit = {
+					exists = holder
+					has_dlc_feature = royal_court
+				}
+				holder = {
+					set_court_type = court_diplomatic
+				}
+			}
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+					add_realm_law_skip_effects = single_heir_succession_law
+					add_realm_law_skip_effects = crown_authority_1
+				}
+			}
+		}
 	}
 	1824.9.16 = {
 		holder = bourbon_17 # Charles X
 	}
 	1830.8.2 = {
 		holder = bourbon_23 # Louis-Phillipe I
+	}
+	1852.12.2 = {
+		holder = 0	# second republic dissolved
 	}
 }
 #d_valois = {
