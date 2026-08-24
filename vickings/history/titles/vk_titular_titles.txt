@@ -1,0 +1,22 @@
+k_hanover = {
+	1814.10.12 = {
+		holder = hanover_3	# George III
+		succession_laws = { male_only_law }
+		de_jure_liege = e_germany
+	}
+	1820.1.29 = {
+		holder = hanover_4	# George IV
+	}
+	1830.6.26 = {
+		holder = hanover_5	# William IV
+	}
+	1837.6.20 = {
+		holder = hanover_8	# Ernest Augustus
+	}
+	1851.11.18 = {
+		holder = hanover_9	# George V
+	}
+	1866.9.20 = {
+		holder = 0
+	}
+}

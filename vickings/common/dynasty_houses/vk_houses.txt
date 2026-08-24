@@ -11,5 +11,5 @@ house_orleans_4 = {
 
 house_saxe_meiningen = {
 	name = "dynn_Saxe_Meiningen"
-	dynasty = 528	# Wettin
+	dynasty = 1054#Hunfriding	528	# Wettin
 }

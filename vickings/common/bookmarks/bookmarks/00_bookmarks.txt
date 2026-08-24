@@ -20,3 +20,8 @@ bm_acw = {
 	start_date = 1861.7.1
 	is_playable = yes
 }
+
+bm_ww1 = {
+	start_date = 1914.7.28
+	is_playable = yes
+}

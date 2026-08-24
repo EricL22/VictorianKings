@@ -1,0 +1,9 @@
+For testing purposes, I have provided a file which should help with historical testing
+so it is easier to force a historical outcome.
+
+List of loyalist domains for the Boshin War (invite holders to faction)
+Satsuma, Choshu, Tosa, modern Hiroshima and Shimane, Hizen Province
+
+List of radical Chinese Provinces (switch and make join faction)
+Hubei, Hunan, Shaanxi, Shanxi, Yunnan, Jiangsu, Guizhou, Zhejiang
+- The provinces of Tibet and Mongolia should join independence faction

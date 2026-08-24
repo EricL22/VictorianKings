@@ -146,6 +146,7 @@ hanover_5 = {
 	1830.6.26 = {
 		effect = {
 			#add_realm_law_skip_effects = equal_law
+			set_designated_heir = character:hanover_7
 			spawn_army = {
 				name = "1st Corps"
 				levies = 6000
@@ -251,6 +252,7 @@ hanover_6 = {
 # The Queen herself
 hanover_7 = {
 	name = "Victoria"
+	dna = bookmark_dna_victoria
 	dynasty = 2001107
 	religion = protestant
 	culture = english
@@ -265,7 +267,7 @@ hanover_7 = {
 }
 
 ## Hanoverian branch
-8000015 = {
+hanover_8 = {
 	name = "Ernest Augustus"
 	dynasty = 2001107
 	religion = protestant
@@ -279,12 +281,12 @@ hanover_7 = {
 	}
 }
 
-8000040 = {
+hanover_9 = {
 	name = "George"
 	dynasty = 2001107
 	religion = protestant
 	culture = english
-	father = 8000015
+	father = hanover_8
 	1819.5.27 = {
 		birth = yes
 	}
@@ -292,6 +294,35 @@ hanover_7 = {
 		trait = blind
 	}
 	1878.6.12 = {
+		death = yes
+	}
+}
+####################
+
+hanover_10 = {
+	name = "Edward"	# VII of Britain
+	dynasty = 2001107
+	religion = protestant
+	culture = english
+	mother = hanover_7
+	1841.11.9 = {
+		birth = yes
+	}
+	1910.5.6 = {
+		death = yes
+	}
+}
+
+hanover_11 = {
+	name = "George"	# V of Britain
+	dynasty = 2001107
+	religion = protestant
+	culture = english
+	father = hanover_10
+	1865.6.3 = {
+		birth = yes
+	}
+	1936.1.20 = {
 		death = yes
 	}
 }

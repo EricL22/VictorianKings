@@ -57,6 +57,12 @@ e_britannia = {
 	1837.6.20 = {
 		holder = hanover_7	# Victoria
 	}
+	1901.1.22 = {
+		holder = hanover_10	# Edward VII
+	}
+	1910.5.6 = {
+		holder = hanover_11	# George V
+	}
 }
 
 e_france = {

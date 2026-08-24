@@ -1,0 +1,343 @@
+k_saxony = {
+	1806.12.20 = {
+		effect = { set_capital_county = title:c_dresden }
+#		holder = 9000027
+#		liege = e_cdr
+	}
+#	1827.5.5 = {
+#		holder = 9100033
+#	}
+}
+d_angria = {
+	1814.10.12 = {
+		de_jure_liege = k_hanover
+	}
+}
+c_minden = {
+#	1804.5.18 = {
+#		holder = fragov56
+#		liege = e_france
+#	}
+	1814.10.12 = {
+		holder = hanover_3
+	}
+	1820.1.29 = {
+		holder = hanover_4	# George IV
+	}
+	1830.6.26 = {
+		holder = hanover_5	# William IV
+	}
+	1837.6.20 = {
+		holder = hanover_8	# Ernest Augustus
+	}
+	1851.11.18 = {
+		holder = hanover_9	# George V
+	}
+}
+c_lippe = {
+#	1807.7.8 = {
+#		holder = 9100009
+#	}
+	1814.10.12 = {
+		holder = hanover_3
+	}
+	1820.1.29 = {
+		holder = hanover_4	# George IV
+	}
+	1830.6.26 = {
+		holder = hanover_5	# William IV
+	}
+	1837.6.20 = {
+		holder = hanover_8	# Ernest Augustus
+	}
+	1851.11.18 = {
+		holder = hanover_9	# George V
+	}
+}
+c_bremen = {
+#	1804.5.18 = {
+#		holder = fragov56
+#	}
+	1814.10.12 = {
+		holder = hanover_3
+	}
+	1820.1.29 = {
+		holder = hanover_4	# George IV
+	}
+	1830.6.26 = {
+		holder = hanover_5	# William IV
+	}
+	1837.6.20 = {
+		holder = hanover_8	# Ernest Augustus
+	}
+	1851.11.18 = {
+		holder = hanover_9	# George V
+	}
+}
+c_wolpe = {
+#	1807.7.8 = {
+#		holder = 9100009
+#	}
+	1814.10.12 = {
+		holder = hanover_3
+	}
+	1820.1.29 = {
+		holder = hanover_4	# George IV
+	}
+	1830.6.26 = {
+		holder = hanover_5	# William IV
+	}
+	1837.6.20 = {
+		holder = hanover_8	# Ernest Augustus
+	}
+	1851.11.18 = {
+		holder = hanover_9	# George V
+	}
+}
+c_hannover = {
+#	1807.7.8 = {
+#		holder = 9100009
+#	}
+	1814.10.12 = {
+		holder = hanover_3
+	}
+	1820.1.29 = {
+		holder = hanover_4	# George IV
+	}
+	1830.6.26 = {
+		holder = hanover_5	# William IV
+	}
+	1837.6.20 = {
+		holder = hanover_8	# Ernest Augustus
+	}
+	1851.11.18 = {
+		holder = hanover_9	# George V
+	}
+}
+c_hildesheim = {
+#	1807.7.8 = {
+#		holder = 9100009
+#	}
+	1814.10.12 = {
+		holder = hanover_3
+	}
+	1820.1.29 = {
+		holder = hanover_4	# George IV
+	}
+	1830.6.26 = {
+		holder = hanover_5	# William IV
+	}
+	1837.6.20 = {
+		holder = hanover_8	# Ernest Augustus
+	}
+	1851.11.18 = {
+		holder = hanover_9	# George V
+	}
+}
+c_oldenburg = {
+#	1804.5.18 = {
+#		holder = fragov56
+#	}
+	1814.10.12 = {
+		holder = hanover_3
+	}
+	1820.1.29 = {
+		holder = hanover_4	# George IV
+	}
+	1830.6.26 = {
+		holder = hanover_5	# William IV
+	}
+	1837.6.20 = {
+		holder = hanover_8	# Ernest Augustus
+	}
+	1851.11.18 = {
+		holder = hanover_9	# George V
+	}
+}
+d_westfalen = {
+	1814.10.12 = {
+		de_jure_liege = k_hanover
+	}
+#	1815.6.9 = {
+#		holder = 6480005
+#		liege = k_prussia
+#		government = feudal_government
+#	}
+}
+c_osnabruck = {
+#	1804.5.18 = {
+#		holder = fragov56
+#	}
+	1814.10.12 = {
+		holder = hanover_3
+	}
+	1820.1.29 = {
+		holder = hanover_4	# George IV
+	}
+	1830.6.26 = {
+		holder = hanover_5	# William IV
+	}
+	1837.6.20 = {
+		holder = hanover_8	# Ernest Augustus
+	}
+	1851.11.18 = {
+		holder = hanover_9	# George V
+	}
+}
+c_tecklenburg = {
+#	1804.5.18 = {
+#		holder = fragov56
+#	}
+	1814.10.12 = {
+		holder = hanover_3
+	}
+	1820.1.29 = {
+		holder = hanover_4	# George IV
+	}
+	1830.6.26 = {
+		holder = hanover_5	# William IV
+	}
+	1837.6.20 = {
+		holder = hanover_8	# Ernest Augustus
+	}
+	1851.11.18 = {
+		holder = hanover_9	# George V
+	}
+}
+c_munster = {
+#	1804.5.18 = {
+#		holder = fragov56
+#	}
+#	1814.4.11 = {
+#		holder = 6480005
+#	}
+}
+c_waldeck = {
+#	1807.7.8 = {
+#		holder = 9100009
+#	}
+#	1815.6.9 = {
+#		holder = 6480005
+#	}
+}
+c_paderborn = {
+#	1807.7.8 = {
+#		holder = 9100009
+#	}
+#	1815.6.9 = {
+#		holder = 6480005
+#	}
+}
+d_ostfalen = {
+	1814.10.12 = {
+		de_jure_liege = k_hanover
+	}
+}
+c_luneburg = {
+#	1807.7.8 = {
+#		holder = 9100009
+#	}
+	1814.10.12 = {
+		holder = hanover_3
+	}
+	1820.1.29 = {
+		holder = hanover_4	# George IV
+	}
+	1830.6.26 = {
+		holder = hanover_5	# William IV
+	}
+	1837.6.20 = {
+		holder = hanover_8	# Ernest Augustus
+	}
+	1851.11.18 = {
+		holder = hanover_9	# George V
+	}
+}
+c_brunswick = {
+#	1807.7.8 = {
+#		holder = 9100009
+#	}
+#	1815.6.16 = {
+#		liege = 0
+#		holder = 8000008
+#	}
+}
+c_hamburg = {
+#	1804.5.18 = {
+#		holder = fragov57
+#	}
+#	1814.5.30 = {
+#		holder = 8000007
+#		liege = 0
+#	}
+}
+c_dannenberg = {
+#	1807.7.8 = {
+#		holder = 9100009
+#	}
+	1814.10.12 = {
+		holder = hanover_3
+	}
+	1820.1.29 = {
+		holder = hanover_4	# George IV
+	}
+	1830.6.26 = {
+		holder = hanover_5	# William IV
+	}
+	1837.6.20 = {
+		holder = hanover_8	# Ernest Augustus
+	}
+	1851.11.18 = {
+		holder = hanover_9	# George V
+	}
+}
+c_stendal = {
+#	1807.7.8 = {
+#		holder = 9100009
+#	}
+#	1815.6.9 = {
+#		holder = 9000013
+#	}
+#	1815.6.21 = {
+#		holder = 6480010
+#		liege = k_prussia
+#	}
+}
+d_holstein = {
+#	1808.3.13 = {
+#		holder = 9000015
+#	}
+}
+c_lubeck = {
+#	1804.5.18 = {
+#		holder = fragov57
+#		liege = e_france
+#	}
+#	1814.5.30 = {
+#		holder = 8000006
+#		liege = 0
+#	}
+}
+c_stade = {
+#	1804.5.18 = {
+#		holder = fragov57
+#	}
+	1814.10.12 = {
+		de_jure_liege = d_angria
+		holder = hanover_3
+	}
+	1820.1.29 = {
+		holder = hanover_4	# George IV
+	}
+	1830.6.26 = {
+		holder = hanover_5	# William IV
+	}
+	1837.6.20 = {
+		holder = hanover_8	# Ernest Augustus
+	}
+	1851.11.18 = {
+		holder = hanover_9	# George V
+	}
+}
+c_ditmarschen = {
+}

@@ -11,6 +11,12 @@ k_ireland = {
 	1837.6.20 = {
 		holder = hanover_7	# Victoria
 	}
+	1901.1.22 = {
+		holder = hanover_10	# Edward VII
+	}
+	1910.5.6 = {
+		holder = hanover_11	# George V
+	}
 }
 d_meath = {
 	1760.10.25 = {
@@ -24,6 +30,12 @@ d_meath = {
 	}
 	1837.6.20 = {
 		holder = hanover_7	# Victoria
+	}
+	1901.1.22 = {
+		holder = hanover_10	# Edward VII
+	}
+	1910.5.6 = {
+		holder = hanover_11	# George V
 	}
 }
 c_dublin = {
@@ -39,6 +51,12 @@ c_dublin = {
 	1837.6.20 = {
 		holder = hanover_7	# Victoria
 	}
+	1901.1.22 = {
+		holder = hanover_10	# Edward VII
+	}
+	1910.5.6 = {
+		holder = hanover_11	# George V
+	}
 }
 c_athlone = {
 	1760.10.25 = {
@@ -52,6 +70,12 @@ c_athlone = {
 	}
 	1837.6.20 = {
 		holder = hanover_7	# Victoria
+	}
+	1901.1.22 = {
+		holder = hanover_10	# Edward VII
+	}
+	1910.5.6 = {
+		holder = hanover_11	# George V
 	}
 }
 d_ulster = {
@@ -68,6 +92,12 @@ d_ulster = {
 	1837.6.20 = {
 		holder = hanover_7	# Victoria
 	}
+	1901.1.22 = {
+		holder = hanover_10	# Edward VII
+	}
+	1910.5.6 = {
+		holder = hanover_11	# George V
+	}
 }
 c_ulster = {
 	1760.10.25 = {
@@ -81,6 +111,12 @@ c_ulster = {
 	}
 	1837.6.20 = {
 		holder = hanover_7	# Victoria
+	}
+	1901.1.22 = {
+		holder = hanover_10	# Edward VII
+	}
+	1910.5.6 = {
+		holder = hanover_11	# George V
 	}
 }
 c_oriel = {
@@ -96,6 +132,12 @@ c_oriel = {
 	1837.6.20 = {
 		holder = hanover_7	# Victoria
 	}
+	1901.1.22 = {
+		holder = hanover_10	# Edward VII
+	}
+	1910.5.6 = {
+		holder = hanover_11	# George V
+	}
 }
 c_ailech = {
 	1760.10.25 = {
@@ -109,6 +151,12 @@ c_ailech = {
 	}
 	1837.6.20 = {
 		holder = hanover_7	# Victoria
+	}
+	1901.1.22 = {
+		holder = hanover_10	# Edward VII
+	}
+	1910.5.6 = {
+		holder = hanover_11	# George V
 	}
 }
 #d_connacht = {
@@ -126,6 +174,12 @@ c_mayo = {
 	1837.6.20 = {
 		holder = hanover_7	# Victoria
 	}
+	1901.1.22 = {
+		holder = hanover_10	# Edward VII
+	}
+	1910.5.6 = {
+		holder = hanover_11	# George V
+	}
 }
 c_connacht = {
 	1760.10.25 = {
@@ -140,6 +194,12 @@ c_connacht = {
 	1837.6.20 = {
 		holder = hanover_7	# Victoria
 	}
+	1901.1.22 = {
+		holder = hanover_10	# Edward VII
+	}
+	1910.5.6 = {
+		holder = hanover_11	# George V
+	}
 }
 c_breifne = {
 	1760.10.25 = {
@@ -153,6 +213,12 @@ c_breifne = {
 	}
 	1837.6.20 = {
 		holder = hanover_7	# Victoria
+	}
+	1901.1.22 = {
+		holder = hanover_10	# Edward VII
+	}
+	1910.5.6 = {
+		holder = hanover_11	# George V
 	}
 }
 #d_leinster = {
@@ -170,6 +236,12 @@ c_leinster = {
 	1837.6.20 = {
 		holder = hanover_7	# Victoria
 	}
+	1901.1.22 = {
+		holder = hanover_10	# Edward VII
+	}
+	1910.5.6 = {
+		holder = hanover_11	# George V
+	}
 }
 c_ossory = {
 	1760.10.25 = {
@@ -183,6 +255,12 @@ c_ossory = {
 	}
 	1837.6.20 = {
 		holder = hanover_7	# Victoria
+	}
+	1901.1.22 = {
+		holder = hanover_10	# Edward VII
+	}
+	1910.5.6 = {
+		holder = hanover_11	# George V
 	}
 }
 #d_munster = {
@@ -200,6 +278,12 @@ c_thomond = {
 	1837.6.20 = {
 		holder = hanover_7	# Victoria
 	}
+	1901.1.22 = {
+		holder = hanover_10	# Edward VII
+	}
+	1910.5.6 = {
+		holder = hanover_11	# George V
+	}
 }
 c_ennis = {
 	1760.10.25 = {
@@ -213,6 +297,12 @@ c_ennis = {
 	}
 	1837.6.20 = {
 		holder = hanover_7	# Victoria
+	}
+	1901.1.22 = {
+		holder = hanover_10	# Edward VII
+	}
+	1910.5.6 = {
+		holder = hanover_11	# George V
 	}
 }
 c_ormond = {
@@ -228,6 +318,12 @@ c_ormond = {
 	1837.6.20 = {
 		holder = hanover_7	# Victoria
 	}
+	1901.1.22 = {
+		holder = hanover_10	# Edward VII
+	}
+	1910.5.6 = {
+		holder = hanover_11	# George V
+	}
 }
 c_desmond = {
 	1760.10.25 = {
@@ -241,5 +337,11 @@ c_desmond = {
 	}
 	1837.6.20 = {
 		holder = hanover_7	# Victoria
+	}
+	1901.1.22 = {
+		holder = hanover_10	# Edward VII
+	}
+	1910.5.6 = {
+		holder = hanover_11	# George V
 	}
 }

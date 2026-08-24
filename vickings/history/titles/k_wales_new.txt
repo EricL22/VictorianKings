@@ -11,6 +11,12 @@ d_gwynedd = {
 	1837.6.20 = {
 		holder = hanover_7	# Victoria
 	}
+	1901.1.22 = {
+		holder = hanover_10	# Edward VII
+	}
+	1910.5.6 = {
+		holder = hanover_11	# George V
+	}
 }
 c_cardiganshire = {
 	1760.10.25 = {
@@ -24,6 +30,12 @@ c_cardiganshire = {
 	}
 	1837.6.20 = {
 		holder = hanover_7	# Victoria
+	}
+	1901.1.22 = {
+		holder = hanover_10	# Edward VII
+	}
+	1910.5.6 = {
+		holder = hanover_11	# George V
 	}
 }
 c_merioneth = {
@@ -39,6 +51,12 @@ c_merioneth = {
 	1837.6.20 = {
 		holder = hanover_7	# Victoria
 	}
+	1901.1.22 = {
+		holder = hanover_10	# Edward VII
+	}
+	1910.5.6 = {
+		holder = hanover_11	# George V
+	}
 }
 c_caernarfonshire = {
 	1760.10.25 = {
@@ -52,6 +70,12 @@ c_caernarfonshire = {
 	}
 	1837.6.20 = {
 		holder = hanover_7	# Victoria
+	}
+	1901.1.22 = {
+		holder = hanover_10	# Edward VII
+	}
+	1910.5.6 = {
+		holder = hanover_11	# George V
 	}
 }
 c_anglesey = {
@@ -67,6 +91,12 @@ c_anglesey = {
 	1837.6.20 = {
 		holder = hanover_7	# Victoria
 	}
+	1901.1.22 = {
+		holder = hanover_10	# Edward VII
+	}
+	1910.5.6 = {
+		holder = hanover_11	# George V
+	}
 }
 c_denbighshire = {
 	1760.10.25 = {
@@ -80,6 +110,12 @@ c_denbighshire = {
 	}
 	1837.6.20 = {
 		holder = hanover_7	# Victoria
+	}
+	1901.1.22 = {
+		holder = hanover_10	# Edward VII
+	}
+	1910.5.6 = {
+		holder = hanover_11	# George V
 	}
 }
 #d_powys = {
@@ -97,6 +133,12 @@ c_maldwyn = {
 	1837.6.20 = {
 		holder = hanover_7	# Victoria
 	}
+	1901.1.22 = {
+		holder = hanover_10	# Edward VII
+	}
+	1910.5.6 = {
+		holder = hanover_11	# George V
+	}
 }
 c_sir_faesyfed = {
 	1760.10.25 = {
@@ -110,6 +152,12 @@ c_sir_faesyfed = {
 	}
 	1837.6.20 = {
 		holder = hanover_7	# Victoria
+	}
+	1901.1.22 = {
+		holder = hanover_10	# Edward VII
+	}
+	1910.5.6 = {
+		holder = hanover_11	# George V
 	}
 }
 c_hereford = {
@@ -125,6 +173,12 @@ c_hereford = {
 	1837.6.20 = {
 		holder = hanover_7	# Victoria
 	}
+	1901.1.22 = {
+		holder = hanover_10	# Edward VII
+	}
+	1910.5.6 = {
+		holder = hanover_11	# George V
+	}
 }
 d_deheubarth = {
 	1760.10.25 = {
@@ -138,6 +192,12 @@ d_deheubarth = {
 	}
 	1837.6.20 = {
 		holder = hanover_7	# Victoria
+	}
+	1901.1.22 = {
+		holder = hanover_10	# Edward VII
+	}
+	1910.5.6 = {
+		holder = hanover_11	# George V
 	}
 }
 c_carmarthenshire = {
@@ -153,6 +213,12 @@ c_carmarthenshire = {
 	1837.6.20 = {
 		holder = hanover_7	# Victoria
 	}
+	1901.1.22 = {
+		holder = hanover_10	# Edward VII
+	}
+	1910.5.6 = {
+		holder = hanover_11	# George V
+	}
 }
 c_pembrokeshire = {
 	1760.10.25 = {
@@ -166,6 +232,12 @@ c_pembrokeshire = {
 	}
 	1837.6.20 = {
 		holder = hanover_7	# Victoria
+	}
+	1901.1.22 = {
+		holder = hanover_10	# Edward VII
+	}
+	1910.5.6 = {
+		holder = hanover_11	# George V
 	}
 }
 c_glamorgan = {
@@ -181,6 +253,12 @@ c_glamorgan = {
 	1837.6.20 = {
 		holder = hanover_7	# Victoria
 	}
+	1901.1.22 = {
+		holder = hanover_10	# Edward VII
+	}
+	1910.5.6 = {
+		holder = hanover_11	# George V
+	}
 }
 c_monmouthshire = {
 	1760.10.25 = {
@@ -195,6 +273,12 @@ c_monmouthshire = {
 	1837.6.20 = {
 		holder = hanover_7	# Victoria
 	}
+	1901.1.22 = {
+		holder = hanover_10	# Edward VII
+	}
+	1910.5.6 = {
+		holder = hanover_11	# George V
+	}
 }
 c_brecknockshire = {
 	1760.10.25 = {
@@ -208,5 +292,11 @@ c_brecknockshire = {
 	}
 	1837.6.20 = {
 		holder = hanover_7	# Victoria
+	}
+	1901.1.22 = {
+		holder = hanover_10	# Edward VII
+	}
+	1910.5.6 = {
+		holder = hanover_11	# George V
 	}
 }

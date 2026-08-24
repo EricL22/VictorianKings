@@ -33,7 +33,7 @@ bonaparte_1 = {
 # Napoleon I
 bonaparte_2 = {
 	name = "Napoleon"
-	dna = 9000001_napoleon_bonaparte
+	dna = bookmark_dna_napoleon_bonaparte
 	dynasty = eur_25FE_0
 	martial = 10
 	diplomacy = 5
