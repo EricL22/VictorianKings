@@ -88,23 +88,6 @@ eur_01010 = {
 
 # 1812 bookmark
 
-# Second Wife of Napoleon
-eur_01110 = {
-	name = "Marie Louise"
-	dynasty_house = house_habsburg
-	religion = catholic
-	culture = bavarian
-	female = yes
-#	father = 9000012
-#	mother = 9177207
-	1791.12.12 = {
-		birth = yes
-	}
-	1847.12.17 = {
-		death = yes
-	}
-}
-
 # 1815 bookmark
 # 1836 bookmark
 # 1861 bookmark
@@ -205,6 +188,107 @@ eur_02102 = {
 
 # 1815 bookmark
 # 1836 bookmark
+
+eur_02200 = {
+	name = "Rafael Maroto"
+	martial = 10
+	religion = catholic
+	culture = castilian
+	trait = education_martial_2
+	trait = unyielding_defender
+	1783.10.15 = {
+		birth = yes
+	}
+	1808.5.2 = {
+		employer = eur_02100
+	}
+	1833.9.29 = {
+#		employer = bourbon_40	# Carlos V
+	}
+	1853.8.25 = {
+		death = yes
+	}
+}
+
+eur_02201 = {
+	name = "Mariano Osorio"
+	martial = 10
+	religion = catholic
+	culture = castilian
+	trait = education_martial_3
+	trait = military_engineer
+	1777.1.1 = {
+		birth = yes
+	}
+	1808.5.2 = {
+		employer = eur_02100
+	}
+	1819.1.1 = {
+		death = yes
+	}
+}
+
+eur_02202 = {
+	name = "Vincente Gonzalo Moreno"
+	martial = 10
+	religion = catholic
+	culture = castilian
+	trait = education_martial_2
+	1778.12.9 = {
+		birth = yes
+	}
+	1833.9.29 = {
+		add_realm_law_skip_effects = male_only_law
+	}
+	1839.9.6 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+
+eur_02203 = {
+	name = "RamO_n"
+	dynasty = 101701
+	martial = 10
+	religion = catholic
+	culture = castilian
+	trait = education_martial_3
+	trait = aggressive_attacker
+	1806.12.27 = {
+		birth = yes
+	}
+	1833.9.29 = {
+		effect = {
+			spawn_army = {
+				name = "3rd Carlist Army"
+				levies = 6000
+				men_at_arms = {
+					type = armored_footmen
+					stacks = 60
+				}
+				location = province:1860
+				origin = province:1860
+				inheritable = no
+			}
+			spawn_army = {
+				name = "4th Carlist Army"
+				levies = 3000
+				men_at_arms = {
+					type = armored_footmen
+					stacks = 30
+				}
+				location = province:1865
+				origin = province:1865
+				inheritable = no
+			}
+		}
+	}
+	1877.5.24 = {
+		death = yes
+	}
+}
+
 # 1861 bookmark
 # 1914 bookmark
 ####################

@@ -1,0 +1,125 @@
+k_castille = {
+	1379.5.29 = {
+		holder = trastamara_0 # Juan I de Trastámara
+	}
+	1390.10.9 = {
+		holder = trastamara_1 # Enrique III de Trastámara
+	}
+	1406.12.25 = {
+		holder = trastamara_2 # Juan II de Trastámara
+	}
+	1454.7.22 = {
+		holder = trastamara_3 # Enrique IV de Trastámara
+	}
+	1474.12.11 = {
+		holder = trastamara_4 # Isabel I de Trastámara
+	}
+	1475.1.15 = {
+		holder = trastamara_5 # Fernando V de Trastámara
+	}
+	1504.11.25 = {
+		holder = trastamara_4
+	}
+	1504.11.26 = {
+		holder = trastamara_6 # Juana de Trastámara
+	}
+	1506.7.12 = {
+		holder = habsburg_4 # Philipp I de Austria
+	}
+	1506.9.25 = {
+		holder = trastamara_6 # Juana de Trastámara
+	}
+	1516.3.13 = {
+		holder = habsburg_5 # Karl I de Austria
+	}
+	1555.4.11 = {
+		holder = trastamara_6 # Juana de Trastámara
+	}
+	1555.4.12 = {
+		holder = habsburg_5 # Karl I de Austria
+	}
+	1556.1.16 = {
+		holder = habsburg_6 # Felipe II de Austria
+	}
+	1598.9.13 = {
+		holder = habsburg_7 # Felipe III de Austria
+	}
+	1621.3.31 = {
+		holder = habsburg_8 # Felipe IV de Austria
+	}
+	1665.9.17 = {
+		holder = habsburg_9 # Carlos II de Austria
+	}
+	1700.11.1 = {
+		holder = bourbon_24 # Felipe V de Borbón
+	}
+	1715.6.9 = {
+		holder = 0	# Nueva Planta decrees
+	}
+}
+d_castilla = {
+	1715.6.9 = {
+		de_jure_liege = k_spain
+	}
+}
+c_burgos = {
+	1808.6.6 = {
+		holder = bonaparte_4	# Joseph I
+	}
+	1813.12.11 = {
+		holder = bourbon_36	# Ferdinand VII
+	}
+}
+c_valladolid = {
+	1808.6.6 = {
+		holder = bonaparte_4	# Joseph I
+	}
+	1813.12.11 = {
+		holder = bourbon_36	# Ferdinand VII
+	}
+}
+c_soria = {
+	1808.6.6 = {
+		holder = bonaparte_4	# Joseph I
+	}
+	1813.12.11 = {
+		holder = bourbon_36	# Ferdinand VII
+	}
+}
+c_cuellar = {
+	1808.6.6 = {
+		holder = bonaparte_4	# Joseph I
+	}
+	1813.12.11 = {
+		holder = bourbon_36	# Ferdinand VII
+	}
+}
+c_olmedo = {
+	1808.6.6 = {
+		holder = bonaparte_4	# Joseph I
+	}
+	1813.12.11 = {
+		holder = bourbon_36	# Ferdinand VII
+	}
+}
+d_cantabria = {
+	1715.6.9 = {
+		de_jure_liege = k_spain
+	}
+}
+c_asturias_de_santillana = {
+	1808.6.6 = {
+		holder = bonaparte_4	# Joseph I
+	}
+	1813.12.11 = {
+		holder = bourbon_36	# Ferdinand VII
+	}
+}
+c_amaya = {
+	1808.6.6 = {
+		holder = bonaparte_4	# Joseph I
+	}
+	1813.12.11 = {
+		holder = bourbon_36	# Ferdinand VII
+	}
+}

@@ -1,5 +1,5 @@
 ﻿# Trastamara
-7000034 = {
+trastamara_0 = {
 	name = "Juan"	# I of Castile
 	dynasty = 774
 	religion = catholic
@@ -13,12 +13,12 @@
 	}
 }
 
-7000035 = {
+trastamara_1 = {
 	name = "Enrique"	# III of Castile
 	dynasty = 774
 	religion = catholic
 	culture = castilian
-	father = 7000034
+	father = trastamara_0
 	1379.10.4 = {
 		birth = yes
 	}
@@ -27,12 +27,12 @@
 	}
 }
 
-7000036 = {
+trastamara_2 = {
 	name = "Juan"	# II of Castile
 	dynasty = 774
 	religion = catholic
 	culture = castilian
-	father = 7000035
+	father = trastamara_1
 	1405.3.6 = {
 		birth = yes
 	}
@@ -41,12 +41,12 @@
 	}
 }
 
-7000037 = {
+trastamara_3 = {
 	name = "Enrique"	# IV of Castile
 	dynasty = 774
 	religion = catholic
 	culture = castilian
-	father = 7000036
+	father = trastamara_2
 	1425.1.5 = {
 		birth = yes
 	}
@@ -55,12 +55,12 @@
 	}
 }
 
-7000038 = {
+trastamara_4 = {
 	name = "Isabel"	# I of Castile
 	dynasty = 774
 	religion = catholic
 	culture = castilian
-	father = 7000037
+	father = trastamara_3
 	female = yes
 	1451.4.22 = {
 		birth = yes
@@ -70,12 +70,12 @@
 	}
 }
 
-7000039 = {
+trastamara_5 = {
 	name = "Fernando"	# V of Castile
 	dynasty = 774
 	religion = catholic
 	culture = castilian
-	father = 7000041
+	father = trastamara_7
 	1452.3.10 = {
 		birth = yes
 	}
@@ -84,12 +84,12 @@
 	}
 }
 
-7000040 = {
+trastamara_6 = {
 	name = "Juana"	# I of Castile
 	dynasty = 774
 	religion = catholic
 	culture = castilian
-	father = 7000038
+	father = trastamara_4
 	female = yes
 	1479.11.6 = {
 		birth = yes
@@ -99,12 +99,12 @@
 	}
 }
 
-7000041 = {
+trastamara_7 = {
 	name = "Juan"	# II of Aragon
 	dynasty = 774
 	religion = catholic
 	culture = castilian
-	father = 7000042
+	father = trastamara_8
 	1398.6.29 = {
 		birth = yes
 	}
@@ -113,12 +113,12 @@
 	}
 }
 
-7000042 = {
+trastamara_8 = {
 	name = "Fernando"	# I of Aragon
 	dynasty = 774
 	religion = catholic
 	culture = castilian
-	father = 7000034
+	father = trastamara_0
 	1380.11.27 = {
 		birth = yes
 	}

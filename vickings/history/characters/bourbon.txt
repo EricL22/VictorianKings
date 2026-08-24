@@ -617,4 +617,79 @@ bourbon_37 = {
 		death = yes
 	}
 }
+
+bourbon_38 = {
+	name = "Maria Luisa"	# Queen of Eturia
+	dynasty = 100146
+	religion = catholic
+	culture = castilian
+	father = bourbon_35
+	female = yes
+	1782.6.6 = {
+		birth = yes
+	}
+	1824.3.13 = {
+		death = yes
+	}
+}
+
+bourbon_39 = {
+	name = "Charles"
+	dynasty = 100146
+	religion = catholic
+	culture = italian
+	mother = bourbon_38
+	1799.12.22 = {
+		birth = yes
+	}
+	1883.4.16 = {
+		death = yes
+	}
+}
+
+bourbon_40 = {
+	name = "Carlos"	# V of Spain, founder of the Carlists
+	dynasty = 100146
+	religion = catholic
+	culture = castilian
+	prowess = 20
+	trait = zealous
+	father = bourbon_35
+	1788.3.29 = {
+		birth = yes
+	}
+	1833.9.29 = {
+		add_pressed_claim = title:k_spain
+		add_realm_law_skip_effects = male_only_law
+		effect = {
+			add_gold = 500
+
+			# Carlist Army
+			spawn_army = {
+				name = "1st Carlist Army"
+				levies = 9000
+				men_at_arms = {
+					type = armored_footmen
+					stacks = 120
+				}
+				location = province:1806
+				origin = province:1806
+			}
+			spawn_army = {
+				name = "2nd Carlist Army"
+				levies = 6000
+				men_at_arms = {
+					type = armored_footmen
+					stacks = 60
+				}
+				location = province:1876
+				origin = province:1876
+				inheritable = no
+			}
+		}
+	}
+	1855.3.10 = {
+		death = yes
+	}
+}
 ####################

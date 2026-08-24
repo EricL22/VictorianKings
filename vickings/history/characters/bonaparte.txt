@@ -67,6 +67,7 @@ bonaparte_2 = {
 				limit = { is_landed = yes }
 				add_prestige = 2000 # Rich and prestigious from coalition wars
 				add_prestige_experience = 10000 # Napoleon is close to godlike
+				add_legitimacy = 1000
 				add_gold = 500
 				dynasty = { add_dynasty_prestige = 10000 }
 

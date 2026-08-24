@@ -1,7 +1,7 @@
 ﻿# Habsburg
-7000043 = {
+habsburg_0 = {
 	name = "Leopold"	# III of Austria
-	dynasty = 51
+	dynasty_house = house_habsburg
 	religion = catholic
 	culture = swabian
 	father = 462020
@@ -13,12 +13,12 @@
 	}
 }
 
-7000044 = {
+habsburg_1 = {
 	name = "Ernst"	# I of Austria
-	dynasty = 51
+	dynasty_house = house_habsburg
 	religion = catholic
 	culture = swabian
-	father = 7000043
+	father = habsburg_0
 	1377.1.1 = {
 		birth = yes
 	}
@@ -27,12 +27,12 @@
 	}
 }
 
-7000045 = {
+habsburg_2 = {
 	name = "Friedrich"	# III of the Holy Roman Empire
-	dynasty = 51
+	dynasty_house = house_habsburg
 	religion = catholic
 	culture = swabian
-	father = 7000044
+	father = habsburg_1
 	1415.9.21 = {
 		birth = yes
 	}
@@ -41,12 +41,12 @@
 	}
 }
 
-7000046 = {
+habsburg_3 = {
 	name = "Maximilian"	# I of the Holy Roman Empire
-	dynasty = 51
+	dynasty_house = house_habsburg
 	religion = catholic
 	culture = swabian
-	father = 7000045
+	father = habsburg_2
 	1459.3.22 = {
 		birth = yes
 	}
@@ -55,12 +55,12 @@
 	}
 }
 
-7000047 = {
+habsburg_4 = {
 	name = "Philipp"	# I of Castile
-	dynasty = 51
+	dynasty_house = house_habsburg
 	religion = catholic
 	culture = swabian
-	father = 7000046
+	father = habsburg_3
 	1478.7.22 = {
 		birth = yes
 	}
@@ -69,12 +69,12 @@
 	}
 }
 
-7000048 = {
+habsburg_5 = {
 	name = "Karl"	# I of Castile
-	dynasty = 51
+	dynasty_house = house_habsburg
 	religion = catholic
 	culture = swabian
-	father = 7000047
+	father = habsburg_4
 	1500.2.24 = {
 		birth = yes
 	}
@@ -83,12 +83,12 @@
 	}
 }
 
-7000049 = {
+habsburg_6 = {
 	name = "Felipe"	# II of Castile
-	dynasty = 51
+	dynasty_house = house_habsburg
 	religion = catholic
 	culture = castilian
-	father = 7000048
+	father = habsburg_5
 	1527.5.21 = {
 		birth = yes
 	}
@@ -97,12 +97,12 @@
 	}
 }
 
-7000050 = {
+habsburg_7 = {
 	name = "Felipe"	# III of Castile
-	dynasty = 51
+	dynasty_house = house_habsburg
 	religion = catholic
 	culture = castilian
-	father = 7000049
+	father = habsburg_6
 	1578.4.14 = {
 		birth = yes
 	}
@@ -111,12 +111,12 @@
 	}
 }
 
-7000051 = {
+habsburg_8 = {
 	name = "Felipe"	# IV of Castile
-	dynasty = 51
+	dynasty_house = house_habsburg
 	religion = catholic
 	culture = castilian
-	father = 7000050
+	father = habsburg_7
 	1605.4.8 = {
 		birth = yes
 	}
@@ -125,18 +125,35 @@
 	}
 }
 
-7000052 = {
+habsburg_9 = {
 	name = "Carlos"	# II of Castile
-	dynasty = 51
+	dynasty_house = house_habsburg
 	religion = catholic
 	culture = castilian
-	father = 7000051
+	father = habsburg_8
 	trait = inbred
 	trait = beauty_bad_2
 	1661.11.6 = {
 		birth = yes
 	}
 	1700.11.1 = {
+		death = yes
+	}
+}
+
+# Second Wife of Napoleon
+eur_01110 = {
+	name = "Marie Louise"
+	dynasty_house = house_habsburg
+	religion = catholic
+	culture = bavarian
+	female = yes
+#	father = 9000012
+#	mother = 9177207
+	1791.12.12 = {
+		birth = yes
+	}
+	1847.12.17 = {
 		death = yes
 	}
 }

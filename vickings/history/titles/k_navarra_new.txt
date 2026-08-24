@@ -1,0 +1,68 @@
+k_navarra = {
+	1808.6.6 = {
+		holder = 0
+	}
+}
+d_navarra = {
+	1715.6.9 = {
+		de_jure_liege = k_spain
+	}
+}
+c_navarra = {
+	1808.6.6 = {
+		holder = bonaparte_4	# Joseph I
+	}
+	1813.12.11 = {
+		holder = bourbon_36	# Ferdinand VII
+	}
+	1833.9.29 = {	# Carlists
+		holder = eur_02202
+	}
+}
+c_najera = {
+	1808.6.6 = {
+		holder = bonaparte_4	# Joseph I
+	}
+	1813.12.11 = {
+		holder = bourbon_36	# Ferdinand VII
+	}
+	1833.9.29 = {	# Carlists
+		holder = eur_02202
+	}
+}
+c_tudela = {
+	1808.6.6 = {
+		holder = bonaparte_4	# Joseph I
+	}
+	1813.12.11 = {
+		holder = bourbon_36	# Ferdinand VII
+	}
+	1833.9.29 = {	# Carlists
+		holder = eur_02202
+	}
+}
+d_viscaya = {
+	1715.6.9 = {
+		de_jure_liege = k_spain
+	}
+	1833.9.29 = {	# Carlists
+		holder = eur_02202
+		liege = k_spain
+	}
+}
+c_viscaya = {
+	1808.6.6 = {
+		holder = bonaparte_4	# Joseph I
+	}
+	1813.12.11 = {
+		holder = bourbon_36	# Ferdinand VII
+	}
+}
+c_ipuskoa = {
+	1808.6.6 = {
+		holder = bonaparte_4	# Joseph I
+	}
+	1813.12.11 = {
+		holder = bourbon_36	# Ferdinand VII
+	}
+}
