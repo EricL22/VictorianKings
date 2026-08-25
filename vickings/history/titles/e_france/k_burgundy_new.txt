@@ -1,4 +1,7 @@
 d_provence = {
+	1790.3.1 = {
+		de_jure_liege = k_france
+	}
 	1804.5.18 = {
 		holder = bonaparte_2	# Napoleon I
 	}
@@ -44,14 +47,11 @@ c_nice = {
 	1804.5.18 = {
 		holder = bonaparte_2	# Napoleon I
 	}
-	1814.4.6 = {
-		holder = bourbon_16 # Louis XVIII
+	1815.6.9 = {
+		holder = 9000005	# Victor Emmanuel I
 	}
-	1824.9.16 = {
-		holder = bourbon_17 # Charles X
-	}
-	1830.8.2 = {
-		holder = bourbon_23 # Louis-Phillipe I
+	1831.4.27 = {
+		holder = 8000020	# Charles Albert
 	}
 }
 c_forcalquier = {
@@ -69,77 +69,135 @@ c_forcalquier = {
 	}
 }
 d_savoie = {
+	1383.3.1 = {
+		holder = 7000006
+	}
+	1391.11.1 = {
+		holder = 7000007
+	}
+	1440.1.6 = {
+		holder = 7000008
+	}
+	1465.1.29 = {
+		holder = 7000009
+	}
+	1482.9.22 = {
+		holder = 7000010
+	}
+	1490.3.13 = {
+		holder = 7000011
+	}
+	1496.4.16 = {
+		holder = 7000012
+	}
+	1497.11.7 = {
+		holder = 7000013
+	}
+	1553.8.17 = {
+		holder = 7000014
+	}
+	1580.8.30 = {
+		holder = 8100036 # Carlo Emanuele I
+	}
+	1630.6.26 = {
+		holder = 8100037 # Vittorio Amedeo I
+	}
+	1637.10.7 = {
+		holder = 8100038 # Francesco Giacinto
+	}
+	1638.10.4 = {
+		holder = 8100039 # Carlo Emanuele II
+	}
+	1675.6.12 = {
+		holder = 8100041 # Vittorio Amedeo II
+	}
+	1790.3.1 = {
+		de_jure_liege = k_france
+	}
 	1804.5.18 = {
 		holder = bonaparte_2	# Napoleon I
 	}
-	1814.4.6 = {
-		holder = bourbon_16 # Louis XVIII
+	1815.6.9 = {
+		holder = 9000005 # Vittorio Emanuele I
 	}
-	1824.9.16 = {
-		holder = bourbon_17 # Charles X
+	1821.3.12 = {
+		holder = 8100045 # Carlo Felice
 	}
-	1830.8.2 = {
-		holder = bourbon_23 # Louis-Phillipe I
+	1831.4.27 = {
+		holder = 8000020 # Carlo Alberto
 	}
 }
 c_savoie = {
 	1804.5.18 = {
 		holder = bonaparte_2	# Napoleon I
 	}
-	1814.4.6 = {
-		holder = bourbon_16 # Louis XVIII
+	1815.6.9 = {
+		holder = 9000005
 	}
-	1824.9.16 = {
-		holder = bourbon_17 # Charles X
-	}
-	1830.8.2 = {
-		holder = bourbon_23 # Louis-Phillipe I
+	1831.4.27 = {
+		holder = 8000020
 	}
 }
 c_aosta = {
 	1804.5.18 = {
 		holder = bonaparte_2	# Napoleon I
 	}
-	1814.4.6 = {
-		holder = bourbon_16 # Louis XVIII
+	1815.6.9 = {
+		holder = 9000005
 	}
-	1824.9.16 = {
-		holder = bourbon_17 # Charles X
-	}
-	1830.8.2 = {
-		holder = bourbon_23 # Louis-Phillipe I
+	1831.4.27 = {
+		holder = 8000020
 	}
 }
 c_geneva = {
 	1804.5.18 = {
 		holder = bonaparte_2	# Napoleon I
 	}
-	1814.4.6 = {
-		holder = bourbon_16 # Louis XVIII
+	1814.10.12 = {
+		holder = 6510010
+		de_jure_liege = d_transjurania
 	}
-	1824.9.16 = {
-		holder = bourbon_17 # Charles X
+	1815.5.19 = {
+		liege = k_switzerland
+#		government = republic_government
 	}
-	1830.8.2 = {
-		holder = bourbon_23 # Louis-Phillipe I
+	1834.1.1 = {
+		holder = 6510011
+	}
+	1860.11.28 = {
+		holder = 6510019
 	}
 }
 c_canavese = {
 	1804.5.18 = {
 		holder = bonaparte_2	# Napoleon I
 	}
-	1814.4.6 = {
-		holder = bourbon_16 # Louis XVIII
+	1815.6.9 = {
+		holder = 9000005
+		de_jure_liege = d_piedmonte
 	}
-	1824.9.16 = {
-		holder = bourbon_17 # Charles X
-	}
-	1830.8.2 = {
-		holder = bourbon_23 # Louis-Phillipe I
+	1831.4.27 = {
+		holder = 8000020
 	}
 }
-#d_dauphine = {
-#}
+
+c_faucigny = {
+	1804.5.18 = {
+		holder = bonaparte_2
+	}
+	1815.6.9 = {
+		holder = 9000005
+	}
+	1831.4.27 = {
+		holder = 8000020
+	}
+}
+
+d_dauphine = {
+	1790.3.1 = {
+		de_jure_liege = k_france
+	}
+}
 c_lyon = {
 	1804.5.18 = {
 		holder = bonaparte_2	# Napoleon I
@@ -210,8 +268,11 @@ c_valentinois = {
 		holder = bourbon_23 # Louis-Phillipe I
 	}
 }
-#d_upper_burgundy = {
-#}
+d_upper_burgundy = {
+	1453.10.19 = {
+		de_jure_liege = k_france
+	}
+}
 c_besancon = {
 	1804.5.18 = {
 		holder = bonaparte_2	# Napoleon I
@@ -254,47 +315,53 @@ c_dole = {
 		holder = bourbon_23 # Louis-Phillipe I
 	}
 }
-#d_transjurania = {
-#}
+d_transjurania = {
+	1291.7.15 = {
+		de_jure_liege = k_switzerland
+	}
+}
 c_bern = {
-	1804.5.18 = {
-		holder = bonaparte_2	# Napoleon I
+	1803.2.19 = {
+		holder = 6510001
+		liege = k_switzerland
+#		government = republic_government
 	}
-	1814.4.6 = {
-		holder = bourbon_16 # Louis XVIII
+	1831.10.20 = {
+		holder = 6510005
 	}
-	1824.9.16 = {
-		holder = bourbon_17 # Charles X
-	}
-	1830.8.2 = {
-		holder = bourbon_23 # Louis-Phillipe I
+	1861.1.1 = {
+		holder = 6510018
 	}
 }
 c_aargau = {
-	1804.5.18 = {
-		holder = bonaparte_2	# Napoleon I
+#	1803.2.19 = {
+#		government = republic_government
+#	}
+	1803.4.26 = {
+		holder = 6510015
+		liege = k_switzerland
 	}
-	1814.4.6 = {
-		holder = bourbon_16 # Louis XVIII
+	1836.1.1 = {
+		holder = 6510016
 	}
-	1824.9.16 = {
-		holder = bourbon_17 # Charles X
-	}
-	1830.8.2 = {
-		holder = bourbon_23 # Louis-Phillipe I
+	1861.1.1 = {
+		holder = 6510017
 	}
 }
 c_neuchatel = {
 	1804.5.18 = {
 		holder = bonaparte_2	# Napoleon I
 	}
-	1814.4.6 = {
-		holder = bourbon_16 # Louis XVIII
+	1815.5.19 = {
+		liege = k_switzerland
 	}
-	1824.9.16 = {
-		holder = bourbon_17 # Charles X
+	1815.6.1 = {
+		holder = 6510002
 	}
-	1830.8.2 = {
-		holder = bourbon_23 # Louis-Phillipe I
+#	1848.3.2 = {
+#		government = republic_government
+#	}
+	1861.1.1 = {
+		holder = 6510022
 	}
 }

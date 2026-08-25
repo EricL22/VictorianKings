@@ -7,6 +7,8 @@ common
 .........00_bookmarks.txt
 ......groups
 .........00_bookmark_groups.txt
+...landed_titles
+......00_landed_titles.txt
 ...religion
 ......religion_types
 .........00_christianity.txt

@@ -2,6 +2,7 @@
 # UNITED KINGDOM   #
 # FRANCE           #
 # SPAIN            #
+# SWITZERLAND      #
 ####################
 
 
@@ -90,6 +91,139 @@ eur_01010 = {
 
 # 1815 bookmark
 # 1836 bookmark
+
+#PM 1835 to 1836, Broglie lands lay in Normandy, Duke of Normandy
+6440000 = {
+	name = "Victor"
+	dynasty = broglie
+	culture = french
+	religion = catholic
+	1785.11.28 = {
+		birth = yes
+	}
+#	1830.1.1 = {
+#		effect = {
+#			add_character_flag = conservative_party
+#			add_character_modifier = {
+#				modifier = conservative_party_modifier
+#			}
+#		}
+#	}
+	1870.1.25 = {
+		death = yes
+	}
+}
+
+#PM 1836 to 1839, lands above Isle-de-France, if possible
+6440001 = {
+	name = "Louise-Mathieu"
+	dynasty = mole
+	culture = french
+	religion = catholic
+	1781.1.24 = {
+		birth = yes
+	}
+#	1830.1.1 = {
+#		effect = {
+#			add_character_flag = conservative_party
+#			add_character_modifier = {
+#				modifier = conservative_party_modifier
+#			}
+#		}
+#	}
+	1855.11.23 = {
+		death = yes
+	}
+}
+
+#PM 22 February 1836 to 6 September 1836, Count of Marseille(he was born there)
+eur_01302 = {
+	name = "Adolphe"
+	dynasty = thiers
+	culture = french
+	religion = catholic
+	1797.4.15 = {
+		birth = yes
+	}
+#	1836.1.1 = {
+#		effect = {
+#			add_character_flag = liberal_party
+#			add_character_modifier = {
+#				modifier = liberal_party_modifier
+#			}
+#		}
+#	}
+	1877.9.3 = {
+		death = yes
+	}
+}
+
+#Socialist Republican candidate for 1837 election, lands around Paris?
+6440003 = {
+	name = "Alexandre"
+	dynasty = ledru_rollin
+	culture = french
+	religion = catholic
+	1807.2.2 = {
+		birth = yes
+	}
+#	1830.1.1 = {
+#		effect = {
+#			add_character_flag = socialist_party
+#			add_character_modifier = {
+#				modifier = socialist_party_modifier
+#			}
+#		}
+#	}
+	1874.12.31 = {
+		death = yes
+	}
+}
+
+#Reactionary candidate for 1837 election, Member of Chamber of Deputies for Bouches-du-Rhone(lands next to Marseille?)
+eur_01304 = {
+	name = "Pierre-Antoine"
+	dynasty = berryer
+	culture = french
+	religion = catholic
+	1790.1.4 = {
+		birth = yes
+	}
+#	1830.1.1 = {
+#		effect = {
+#			add_character_flag = reactionary_party
+#			add_character_modifier = {
+#				modifier = reactionary_party_modifier
+#			}
+#		}
+#	}
+	1868.11.29 = {
+		death = yes
+	}
+}
+
+#PM 1847, candidate for 1837 election, born in Nimes, make him count of Toulouse?
+6440005 = {
+	name = "Francois"
+	dynasty = guizot
+	culture = french
+	religion = catholic
+	1787.10.4 = {
+		birth = yes
+	}
+#	1830.1.1 = {
+#		effect = {
+#			add_character_flag = conservative_party
+#			add_character_modifier = {
+#				modifier = conservative_party_modifier
+#			}
+#		}
+#	}
+	1874.9.12 = {
+		death = yes
+	}
+}
+
 # 1861 bookmark
 # 1914 bookmark
 ####################
@@ -189,7 +323,7 @@ eur_02102 = {
 # 1815 bookmark
 # 1836 bookmark
 
-eur_02200 = {
+eur_02300 = {
 	name = "Rafael Maroto"
 	martial = 10
 	religion = catholic
@@ -210,7 +344,7 @@ eur_02200 = {
 	}
 }
 
-eur_02201 = {
+eur_02301 = {
 	name = "Mariano Osorio"
 	martial = 10
 	religion = catholic
@@ -228,7 +362,7 @@ eur_02201 = {
 	}
 }
 
-eur_02202 = {
+eur_02302 = {
 	name = "Vincente Gonzalo Moreno"
 	martial = 10
 	religion = catholic
@@ -247,7 +381,7 @@ eur_02202 = {
 	}
 }
 
-eur_02203 = {
+eur_02303 = {
 	name = "RamO_n"
 	dynasty = 101701
 	martial = 10
@@ -290,7 +424,7 @@ eur_02203 = {
 }
 
 #PM 1835 to 1836, born in Andalusia, give him Duchy if Sevilla?
-eur_02204 = {
+eur_02304 = {
 	name = "Juan"
 	dynasty = mendizabal
 	culture = castilian
@@ -313,7 +447,7 @@ eur_02204 = {
 
 #Conservative candidate for 1836 election count of Granada(born there)?
 #(Known as Francisco Martínez de la Rosa)
-eur_02205 = {
+eur_02305 = {
 	name = "Francisco"
 	dynasty = la_rosa
 	culture = castilian
@@ -336,7 +470,7 @@ eur_02205 = {
 
 
 #Conservative candidate 1837 election, Cadiz count?
-eur_02206 = {
+eur_02306 = {
 	name = "Francisco"
 	dynasty = isturiz
 	culture = castilian
@@ -359,7 +493,7 @@ eur_02206 = {
 
 
 #Liberal PM multiple times, Prince of Vergara(make him count of Navarre)
-eur_02207 = {
+eur_02307 = {
 	name = "Baldomero"
 	dynasty = espartero
 	culture = castilian
@@ -385,4 +519,497 @@ eur_02207 = {
 
 # 1861 bookmark
 # 1914 bookmark
+####################
+
+
+
+####################
+#  SWITZERLAND  #
+####################
+# **Unsorted**
+
+#Ruler Zurich 1814 until 1832, President Federal Diet 1815(ruler Switzerland)
+6510000 = {
+	name = "David"
+	dynasty = wyss
+	culture = german
+	religion = reformed
+	1763.6.8 = {
+		birth = yes
+	}
+#	1801.1.1 = {
+#		effect = {
+#			add_character_flag = conservative_party
+#			add_character_modifier = {
+#				modifier = conservative_party_modifier
+#			}
+#		}
+#	}
+	1839.8.18 = {
+		death = yes
+	}
+}
+
+#Ruler Bern from 1803 until 1831
+6510001 = {
+	name = "Niklaus"
+	dynasty = wattenwyl
+	culture = german
+	religion = reformed
+	1760.1.3 = {
+		birth = yes
+	}
+#	1804.1.1 = {
+#		effect = {
+#			add_character_flag = conservative_party
+#			add_character_modifier = {
+#				modifier = conservative_party_modifier
+#			}
+#		}
+#	}
+	1832.8.10 = {
+		death = yes
+	}
+}
+
+#Ruler of Basel 1811-1815, leader Federal Diet 1812
+6510002 = {
+	name = "Peter"
+	dynasty = burckhardt
+	culture = german
+	religion = reformed
+	1742.8.25 = {
+		birth = yes
+	}
+#	1784.1.1 = {
+#		effect = {
+#			add_character_flag = conservative_party
+#			add_character_modifier = {
+#				modifier = conservative_party_modifier
+#			}
+#		}
+#	}
+	1817.3.24 = {
+		death = yes
+	}
+}
+
+#Ruler Basel 1831 until 1847
+6510003 = {
+	name = "Karl"
+	dynasty = burckhardt
+	culture = german
+	religion = reformed
+	1795.66.29 = {
+		birth = yes
+	}
+	1822.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1850.2.1 = {
+		death = yes
+	}
+}
+
+#Ruler Zurich 1832 until 1839
+6510004 = {
+	name = "Conrad"
+	dynasty = hirzel
+	culture = german
+	religion = reformed
+	1793.8.31 = {
+		birth = yes
+	}
+	1818.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1843.7.9 = {
+		death = yes
+	}
+}
+
+#Ruler Bern 1831 until 1844, leader Federal Diet 1836
+6510005 = {
+	name = "Karl"
+	dynasty = tscharner
+	culture = german
+	religion = reformed
+	1772.5.5 = {
+		birth = yes
+	}
+	1811.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1844.4.15 = {
+		death = yes
+	}
+}
+
+#Ruler Grisons 1812
+6510006 = {
+	name = "Johann"
+	dynasty = toggenburg
+	culture = german
+	religion = reformed
+	1765.9.11 = {
+		birth = yes
+	}
+	1805.1.1 = {
+		effect = {
+			add_character_flag = conservative_party
+			add_character_modifier = {
+				modifier = conservative_party_modifier
+			}
+		}
+	}
+	1847.7.3 = {
+		death = yes
+	}
+}
+
+#Ruler Grisons 1836 until 1844
+6510007 = {
+	name = "Anton"
+	dynasty = ganzoni
+	culture = german
+	religion = reformed
+	1800.9.2 = {
+		birth = yes
+	}
+	1834.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1881.7.27 = {
+		death = yes
+	}
+}
+
+#Ruler Grisons 1815
+6510008 = {
+	name = "Johann"
+	dynasty = caderas
+	culture = german
+	religion = reformed
+	1775.10.8 = {
+		birth = yes
+	}
+	1815.1.1 = {
+		effect = {
+			add_character_flag = conservative_party
+			add_character_modifier = {
+				modifier = conservative_party_modifier
+			}
+		}
+	}
+	1821.5.20 = {
+		death = yes
+	}
+}
+
+#ruler Zurich 1812
+6510009 = {
+	name = "Johann"
+	dynasty = escher_luchs
+	culture = german
+	religion = reformed
+	1761.6.17 = {
+		birth = yes
+	}
+	1805.1.1 = {
+		effect = {
+			add_character_flag = conservative_party
+			add_character_modifier = {
+				modifier = conservative_party_modifier
+			}
+		}
+	}
+	1833.4.26 = {
+		death = yes
+	}
+}
+
+#Ruler Geneva 1814-1815
+6510010 = {
+	name = "Ami"
+	dynasty = lullin
+	culture = french
+	religion = reformed
+	1748.2.22 = {
+		birth = yes
+	}
+	1790.1.1 = {
+		effect = {
+			add_character_flag = conservative_party
+			add_character_modifier = {
+				modifier = conservative_party_modifier
+			}
+		}
+	}
+	1816.12.4 = {
+		death = yes
+	}
+}
+
+6510011 = {
+	name = "Jean-Louis"
+	dynasty = rieu
+	culture = french
+	religion = reformed
+	1788.8.6 = {
+		birth = yes
+	}
+	1824.1.1 = {
+		effect = {
+			add_character_flag = conservative_party
+			add_character_modifier = {
+				modifier = conservative_party_modifier
+			}
+		}
+	}
+	1868.6.17 = {
+		death = yes
+	}
+}
+
+#Ruler Sankt Gallen 1803 until 1830
+6510012 = {
+	name = "Karl"
+	dynasty = friedberg
+	culture = german
+	religion = catholic
+	1755.2.24 = {
+		birth = yes
+	}
+	1803.1.1 = {
+		effect = {
+			add_character_flag = conservative_party
+			add_character_modifier = {
+				modifier = conservative_party_modifier
+			}
+		}
+	}
+	1836.7.22 = {
+		death = yes
+	}
+}
+
+#Ruler Sankt Gallen 1836
+6510014 = {
+	name = "Wilhelm"
+	dynasty = naeff
+	culture = german
+	religion = catholic
+	1802.2.19 = {
+		birth = yes
+	}
+	1815.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1881.1.21 = {
+		death = yes
+	}
+}
+
+#Ruler Aargau 1803-1815
+6510015 = {
+	name = "Johann"
+	dynasty = fetzer
+	culture = german
+	religion = reformed
+	1768.9.14 = {
+		birth = yes
+	}
+	1803.1.1 = {
+		effect = {
+			add_character_flag = conservative_party
+			add_character_modifier = {
+				modifier = conservative_party_modifier
+			}
+		}
+	}
+	1847.2.3 = {
+		death = yes
+	}
+}
+
+#Ruler Aargau 1836
+6510016 = {
+	name = "Joseph"
+	dynasty = wieland
+	culture = german
+	religion = reformed
+	1797.7.6 = {
+		birth = yes
+	}
+	1829.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1852.2.22 = {
+		death = yes
+	}
+}
+
+#Rulers Aargau 1861
+6510017 = {
+	name = "Augstin"
+	dynasty = keller
+	culture = german
+	religion = reformed
+	1805.11.10 = {
+		birth = yes
+	}
+	1835.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1883.1.8 = {
+		death = yes
+	}
+}
+
+#Rulers Bern 1861
+6510018 = {
+	name = "Paul"
+	dynasty = migy
+	culture = german
+	religion = reformed
+	1814.9.14 = {
+		birth = yes
+	}
+	1845.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1879.1.8 = {
+		death = yes
+	}
+}
+
+#Ruler Geneva 1861
+6510019 = {
+	name = "Adolphe"
+	dynasty = fontanel
+	culture = french
+	religion = reformed
+	1818.3.6 = {
+		birth = yes
+	}
+	1850.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1879.7.10 = {
+		death = yes
+	}
+}
+
+
+
+#Ruler Grisons 1861
+6510020 = {
+	name = "Hans"
+	dynasty = hold
+	culture = german
+	religion = reformed
+	1826.9.1 = {
+		birth = yes
+	}
+	1853.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1923.4.17 = {
+		death = yes
+	}
+}
+
+#Ruler Zurich 1861
+6510021 = {
+	name = "Johann Ulrich"
+	dynasty = zehnder
+	culture = german
+	religion = reformed
+	1789.2.18 = {
+		birth = yes
+	}
+	1840.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1877.7.12 = {
+		death = yes
+	}
+}
+
+#President Switzerland 1861(give him a county in the territory of Aargau)
+6510022 = {
+	name = "Melchior Josef"
+	dynasty = knusel
+	culture = german
+	religion = reformed
+	1812.11.16 = {
+		birth = yes
+	}
+	1855.1.1 = {
+		effect = {
+			add_character_flag = liberal_party
+			add_character_modifier = {
+				modifier = liberal_party_modifier
+			}
+		}
+	}
+	1889.5.15 = {
+		death = yes
+	}
+}
 ####################

@@ -116,7 +116,7 @@ d_barcelona = {
 		de_jure_liege = k_spain
 	}
 	1833.9.29 = {	# Carlists
-		holder = eur_02203
+		holder = eur_02303
 		liege = k_spain
 	}
 }
@@ -129,7 +129,7 @@ c_barcelona = {
 		holder = bourbon_36	# Ferdinand VII
 	}
 	1833.9.29 = {	# Carlists
-		holder = eur_02203
+		holder = eur_02303
 	}
 }
 c_urgell = {
@@ -141,7 +141,7 @@ c_urgell = {
 		holder = bourbon_36	# Ferdinand VII
 	}
 	1833.9.29 = {	# Carlists
-		holder = eur_02203
+		holder = eur_02303
 	}
 }
 c_pallas = {
@@ -153,7 +153,7 @@ c_pallas = {
 		holder = bourbon_36	# Ferdinand VII
 	}
 	1833.9.29 = {	# Carlists
-		holder = eur_02203
+		holder = eur_02303
 	}
 }
 c_puigcerda = {
@@ -165,7 +165,7 @@ c_puigcerda = {
 		holder = bourbon_36	# Ferdinand VII
 	}
 	1833.9.29 = {	# Carlists
-		holder = eur_02203
+		holder = eur_02303
 	}
 }
 c_girona = {
@@ -177,7 +177,7 @@ c_girona = {
 		holder = bourbon_36	# Ferdinand VII
 	}
 	1833.9.29 = {	# Carlists
-		holder = eur_02203
+		holder = eur_02303
 	}
 }
 c_rossello = {
@@ -206,7 +206,7 @@ c_lleida = {
 		holder = bourbon_36	# Ferdinand VII
 	}
 	1833.9.29 = {	# Carlists
-		holder = eur_02203
+		holder = eur_02303
 	}
 }
 c_tarragona = {
@@ -218,6 +218,6 @@ c_tarragona = {
 		holder = bourbon_36	# Ferdinand VII
 	}
 	1833.9.29 = {	# Carlists
-		holder = eur_02203
+		holder = eur_02303
 	}
 }

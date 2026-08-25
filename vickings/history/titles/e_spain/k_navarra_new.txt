@@ -16,7 +16,7 @@ c_navarra = {
 		holder = bourbon_36	# Ferdinand VII
 	}
 	1833.9.29 = {	# Carlists
-		holder = eur_02202
+		holder = eur_02302
 	}
 }
 c_najera = {
@@ -27,7 +27,7 @@ c_najera = {
 		holder = bourbon_36	# Ferdinand VII
 	}
 	1833.9.29 = {	# Carlists
-		holder = eur_02202
+		holder = eur_02302
 	}
 }
 c_tudela = {
@@ -38,7 +38,7 @@ c_tudela = {
 		holder = bourbon_36	# Ferdinand VII
 	}
 	1833.9.29 = {	# Carlists
-		holder = eur_02202
+		holder = eur_02302
 	}
 }
 d_viscaya = {
@@ -46,7 +46,7 @@ d_viscaya = {
 		de_jure_liege = k_spain
 	}
 	1833.9.29 = {	# Carlists
-		holder = eur_02202
+		holder = eur_02302
 		liege = k_spain
 	}
 }
@@ -58,7 +58,7 @@ c_viscaya = {
 		holder = bourbon_36	# Ferdinand VII
 	}
 	1833.9.29 = {	# Carlists
-		holder = eur_02202
+		holder = eur_02302
 	}
 }
 c_ipuskoa = {
@@ -69,6 +69,6 @@ c_ipuskoa = {
 		holder = bourbon_36	# Ferdinand VII
 	}
 	1833.9.29 = {	# Carlists
-		holder = eur_02202
+		holder = eur_02302
 	}
 }

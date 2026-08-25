@@ -18,3 +18,8 @@ house_murat = {
 	name = "dynn_Murat"
 	dynasty = eur_25FE_0 # Buonaparte
 }
+
+house_carignano = {
+	name = "dynn_Carignano"
+	dynasty = 240	# Savoie
+}

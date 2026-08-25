@@ -1,0 +1,31 @@
+﻿broglie = {
+    prefix = "dynnp_de"
+    name = "dynn_Broglie"
+    culture = "french"
+}
+
+mole = {
+    name = "dynn_Mole"
+    culture = "french"
+}
+
+thiers = {
+    name = "dynn_Thiers"
+    culture = "french"
+}
+
+ledru_rollin = {
+    name = "dynn_Ledru_Rollin"
+    culture = "french"
+}
+
+berryer = {
+    name = "dynn_Berryer"
+    culture = "french"
+}
+
+guizot = {
+    name = "dynn_Guizot"
+    culture = "french"
+}
+

@@ -59,3 +59,35 @@ d_nf_bourbon_orleans = {
 
 	ai_primary_priority = { add = @never_primary_score }
 }
+
+####################
+
+d_nf_berryer = {
+	color = { 100 100 100 }
+	capital = c_venaissin
+
+	definite_form = yes
+	landless = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+
+	ai_primary_priority = { add = @never_primary_score }
+}
+
+d_nf_thiers = {
+	color = { 100 100 100 }
+	capital = c_provence
+
+	definite_form = yes
+	landless = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+
+	ai_primary_priority = { add = @never_primary_score }
+}

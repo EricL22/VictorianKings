@@ -1,3 +1,5 @@
+### RULERS
+
 d_nf_hanover = {
 	1760.10.25 = {
 		liege = e_britannia
@@ -94,6 +96,43 @@ d_nf_bourbon_orleans = {
 	1830.8.2 = {
 		liege = k_france
 		holder = bourbon_23 # Louis-Phillipe I
+		government = administrative_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1836.1.1 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1836.1.1 }
+		}
+	}
+	1848.2.24 = {
+		holder = 0	# republic established
+	}
+}
+
+
+### OTHER HISTORICAL CHARACTERS
+
+d_nf_berryer = {
+	1830.8.2 = {
+		liege = k_france
+		holder = eur_01304	# Pierre-Antoine Berryer
+		government = administrative_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1836.1.1 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1836.1.1 }
+		}
+	}
+	1848.2.24 = {
+		holder = 0	# republic established
+	}
+}
+
+d_nf_thiers = {
+	1830.8.2 = {
+		liege = k_france
+		holder = eur_01302	# Adolphe Thiers
 		government = administrative_government
 		succession_laws = { noble_family_succession_law }
 	}

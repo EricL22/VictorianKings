@@ -25,6 +25,7 @@ k_spain = {
 	1715.6.9 = {
 		holder = bourbon_24	# Philip V
 		insert_title_history = k_castille
+		de_jure_liege = e_spain
 	}
 	1724.1.15 = {
 		holder = bourbon_25	# Louis I

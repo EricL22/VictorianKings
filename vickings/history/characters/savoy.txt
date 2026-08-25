@@ -1,0 +1,409 @@
+﻿# Savoy
+7000006 = {
+	name = "AmE_dE_e"	# VII
+	# AKA: Amedee
+	dynasty = 240
+	religion = "catholic"
+	culture = french
+	father = 462155
+	1360.3.1 = {
+		birth = yes
+	}
+	1391.11.1 = {
+		death = yes
+	}
+}
+
+7000007 = {
+	name = "AmE_dE_e"	# VIII
+	# AKA: Amedee
+	dynasty = 240
+	religion = "catholic"
+	culture = french
+	father = 7000006
+	1383.9.4 = {
+		birth = yes
+	}
+	1451.1.7 = {
+		death = yes
+	}
+}
+
+7000008 = {
+	name = "Louis"
+	dynasty = 240
+	religion = "catholic"
+	culture = french
+	father = 7000007
+	1413.2.24 = {
+		birth = yes
+	}
+	1465.1.29 = {
+		death = yes
+	}
+}
+
+7000009 = {
+	name = "AmE_dE_e"	# IX
+	# AKA: Amedee
+	dynasty = 240
+	religion = "catholic"
+	culture = french
+	father = 7000008
+	1435.2.1 = {
+		birth = yes
+	}
+	1472.3.30 = {
+		death = yes
+	}
+}
+
+7000010 = {
+	name = "Charles"	# I
+	dynasty = 240
+	religion = "catholic"
+	culture = french
+	father = 7000009
+	1468.3.28 = {
+		birth = yes
+	}
+	1490.3.13 = {
+		death = yes
+	}
+}
+
+7000011 = {
+	name = "Charles"	# II
+	dynasty = 240
+	religion = "catholic"
+	culture = french
+	father = 7000010
+	1489.6.23 = {
+		birth = yes
+	}
+	1496.4.16 = {
+		death = yes
+	}
+}
+
+7000012 = {
+	name = "Philippe"	# II
+	dynasty = 240
+	religion = "catholic"
+	culture = french
+	father = 7000008
+	1438.2.5 = {
+		birth = yes
+	}
+	1497.11.7 = {
+		death = yes
+	}
+}
+
+7000013 = {
+	name = "Charles"	# III
+	dynasty = 240
+	religion = "catholic"
+	culture = french
+	father = 7000012
+	1486.10.10 = {
+		birth = yes
+	}
+	1553.8.17 = {
+		death = yes
+	}
+}
+
+7000014 = {
+	name = "Emanuele Filiberto"
+	dynasty = 240
+	religion = "catholic"
+	culture = italian
+	father = 7000013
+	1528.7.8 = {
+		birth = yes
+	}
+	1580.8.30 = {
+		death = yes
+	}
+}
+
+9000005 = {
+	name = "Vittorio-Emanuele"
+	dynasty = 240
+	martial = 7
+	diplomacy = 5
+	intrigue = 4
+	stewardship = 4
+	religion = catholic
+	culture = italian
+	trait = education_martial_2
+	father = 8100043
+	#mother = 1115
+	sexuality = heterosexual
+	1759.1.1 = {
+		birth = "1759.1.1"
+	}
+	1824.1.10 = {
+		death = "1824.1.10"
+	}
+}
+
+8000020 = {
+	name = "Carlo-Alberto"
+	dynasty_house = house_carignano
+	religion = catholic
+	culture = italian
+	father = 8100050
+	1798.10.2 = {
+		birth = yes
+	}
+	1849.10.14 = {
+		death = yes
+	}
+}
+
+8000053 = {
+	name = "Vittorio-Emanuele"
+	dynasty_house = house_carignano
+	religion = catholic
+	culture = italian
+	father = 8000020
+	1820.3.14 = {
+		birth = yes
+	}
+	1878.1.9 = {
+		death = yes
+	}
+}
+
+8000054 = {
+	name = "Ferdinando"
+	dynasty_house = house_carignano
+	religion = catholic
+	culture = italian
+	father = 8000020
+	1822.11.15 = {
+		birth = yes
+	}
+	1855.2.10 = {
+		death = yes
+	}
+}
+
+### SAVOYARD ###
+8100036 = {
+	name = "Carlo-Emanuele"
+	dynasty = 240
+	religion = catholic
+	culture = italian
+	father = 7000014
+	1562.1.12 = {
+		birth = yes
+	}
+	1630.6.26 = {
+		death = yes
+	}
+}
+
+8100037 = {
+	name = "Vittorio-Amedeo"
+	dynasty = 240
+	religion = catholic
+	culture = italian
+	father = 8100036
+	1587.5.8 = {
+		birth = yes
+	}
+	1637.10.7 = {
+		death = yes
+	}
+}
+
+8100038 = {
+	name = "Francesco Giacinto"
+	dynasty = 240
+	religion = catholic
+	culture = italian
+	father = 8100037
+	1632.9.14 = {
+		birth = yes
+	}
+	1638.10.4 = {
+		death = yes
+	}
+}
+
+8100039 = {
+	name = "Carlo-Emanuele"
+	dynasty = 240
+	religion = catholic
+	culture = italian
+	father = 8100037
+	1634.6.20 = {
+		birth = yes
+	}
+	1675.6.12 = {
+		death = yes
+	}
+}
+
+8100040 = {
+	name = "Tommaso Francesco"
+	dynasty = 240
+	religion = catholic
+	culture = italian
+	father = 8100036
+	1596.12.21 = {
+		birth = yes
+	}
+	1620.1.1 = {
+		dynasty_house = house_carignano
+	}
+	1656.1.22 = {
+		death = yes
+	}
+}
+
+8100041 = {
+	name = "Vittorio-Amedeo"
+	dynasty = 240
+	religion = catholic
+	culture = italian
+	father = 8100039
+	1666.5.14 = {
+		birth = yes
+	}
+	1732.10.31 = {
+		death = yes
+	}
+}
+
+8100042 = {
+	name = "Carlo-Emanuele"
+	dynasty = 240
+	religion = catholic
+	culture = italian
+	father = 8100041
+	1701.4.27 = {
+		birth = yes
+	}
+	1773.2.20 = {
+		death = yes
+	}
+}
+
+8100043 = {
+	name = "Vittorio-Amedeo"
+	dynasty = 240
+	religion = catholic
+	culture = italian
+	father = 8100042
+	1726.6.26 = {
+		birth = yes
+	}
+	1796.10.16 = {
+		death = yes
+	}
+}
+
+8100044 = {
+	name = "Carlo-Emanuele"
+	dynasty = 240
+	religion = catholic
+	culture = italian
+	father = 8100043
+	1751.5.24 = {
+		birth = yes
+	}
+	1819.10.6 = {
+		death = yes
+	}
+}
+
+8100045 = {
+	name = "Carlo-Felice"
+	dynasty = 240
+	religion = catholic
+	culture = italian
+	father = 8100043
+	1765.4.6 = {
+		birth = yes
+	}
+	1831.4.27 = {
+		death = yes
+	}
+}
+
+8100046 = {
+	name = "Emanuele Philibert"
+	dynasty_house = house_carignano
+	religion = catholic
+	culture = italian
+	father = 8100040
+	1628.8.20 = {
+		birth = yes
+	}
+	1709.4.21 = {
+		death = yes
+	}
+}
+
+8100047 = {
+	name = "Vittorio Amedeo"
+	dynasty_house = house_carignano
+	religion = catholic
+	culture = italian
+	father = 8100046
+	1690.3.1 = {
+		birth = yes
+	}
+	1741.4.4 = {
+		death = yes
+	}
+}
+
+8100048 = {
+	name = "Louis Vittorio"
+	dynasty_house = house_carignano
+	religion = catholic
+	culture = italian
+	father = 8100047
+	1721.9.25 = {
+		birth = yes
+	}
+	1778.12.16 = {
+		death = yes
+	}
+}
+
+8100049 = {
+	name = "Vittorio Amedeo"
+	dynasty_house = house_carignano
+	religion = catholic
+	culture = italian
+	father = 8100048
+	1743.10.31 = {
+		birth = yes
+	}
+	1780.9.10 = {
+		death = yes
+	}
+}
+
+8100050 = {
+	name = "Carlo Emanuele"
+	dynasty_house = house_carignano
+	religion = catholic
+	culture = italian
+	father = 8100049
+	1770.10.24 = {
+		birth = yes
+	}
+	1800.8.16 = {
+		death = {
+			death_reason = death_dungeon_passive
+		}
+	}
+}
+####################
