@@ -71,9 +71,8 @@ c_granada = {
 	1813.12.11 = {
 		holder = bourbon_36	# Ferdinand VII
 	}
-	1822.2.28 = {
-		holder = eur_02305	# Francisco Martínez de la Rosa
-		liege = k_spain
+	1833.9.29 = {
+		holder = bourbon_37	# Isabella II
 	}
 }
 c_almeria = {
@@ -118,7 +117,7 @@ d_sevilla = {
 		liege = k_spain
 	}
 	1833.9.29 = {
-		holder = eur_02304	# Juan Álvarez Mendizábal
+		holder = bourbon_37	# Isabella II
 	}
 }
 c_sevilla = {
@@ -127,7 +126,7 @@ c_sevilla = {
 		liege = k_spain
 	}
 	1833.9.29 = {
-		holder = eur_02304
+		holder = bourbon_37	# Isabella II
 	}
 }
 c_cadiz = {
@@ -136,8 +135,7 @@ c_cadiz = {
 		liege = k_spain
 	}
 	1833.9.29 = {
-		holder = eur_02306	# Francisco Javier de Istúriz
-		liege = k_spain
+		holder = bourbon_37	# Isabella II
 	}
 }
 c_algeciras = {
@@ -146,7 +144,7 @@ c_algeciras = {
 		liege = k_spain
 	}
 	1833.9.29 = {
-		holder = eur_02304
+		holder = bourbon_37	# Isabella II
 	}
 }
 c_niebla = {
@@ -155,7 +153,7 @@ c_niebla = {
 		liege = k_spain
 	}
 	1833.9.29 = {
-		holder = eur_02304
+		holder = bourbon_37	# Isabella II
 	}
 }
 c_moura = {
@@ -164,7 +162,7 @@ c_moura = {
 		liege = k_spain
 	}
 	1833.9.29 = {
-		holder = eur_02304
+		holder = bourbon_37	# Isabella II
 	}
 }
 d_toledo = {

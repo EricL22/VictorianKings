@@ -87,8 +87,17 @@ d_nf_bourbon = {
 			destroy_landless_title_no_dlc_effect = { DATE = 1815.7.8 }
 		}
 	}
-	1830.8.2 = {
-		holder = 0	# exiled from France
+	1834.4.10 = {	# Royal Statute of 1834 forms administrative gov't in Spanish branch
+		liege = k_spain
+		holder = bourbon_37	# Isabella II
+		government = administrative_government
+		succession_laws = { noble_family_succession_law }
+		set_capital_county = title:c_madrid
+	}
+	1836.1.1 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1836.1.1 }
+		}
 	}
 }
 
@@ -143,5 +152,83 @@ d_nf_thiers = {
 	}
 	1848.2.24 = {
 		holder = 0	# republic established
+	}
+}
+
+d_nf_mendizabal = {
+	1833.9.29 = {
+		liege = k_spain
+		holder = eur_02304	# Juan Álvarez Mendizábal
+		government = administrative_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1836.1.1 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1836.1.1 }
+		}
+	}
+	1853.11.3 = {
+		holder = 0
+	}
+}
+
+d_nf_la_rosa = {
+	1822.2.28 = {
+		liege = k_spain
+		holder = eur_02305	# Francisco Martínez de la Rosa
+		government = administrative_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1836.1.1 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1836.1.1 }
+		}
+	}
+	1862.2.7 = {
+		holder = 0
+	}
+}
+
+d_nf_isturiz = {
+	1833.9.29 = {
+		liege = k_spain
+		holder = eur_02306	# Francisco Javier de Istúriz
+		government = administrative_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1836.1.1 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1836.1.1 }
+		}
+	}
+	1871.4.2 = {
+		holder = 0
+	}
+}
+
+d_nf_wellesley = {
+	1812.2.22 = {
+		liege = e_britannia
+		holder = eur_00110	# Duke of Wellington
+		government = administrative_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1812.7.5 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1812.7.5 }
+		}
+	}
+	1815.7.8 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1815.7.8 }
+		}
+	}
+	1836.1.1 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1836.1.1 }
+		}
+	}
+	1852.9.14 = {
+		holder = 0
 	}
 }

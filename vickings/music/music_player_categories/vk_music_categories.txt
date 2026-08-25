@@ -10,5 +10,7 @@
 		"vk_mood_mahlsymph3_6"
 		"vk_mood_holstplanets_2"
 		"vk_mood_holstplanets_4"
+		"vk_mood_dvorsymph9_2"
+		"vk_mood_dvorsymph9_4"
 	}
 }

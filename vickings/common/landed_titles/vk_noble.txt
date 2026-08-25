@@ -91,3 +91,63 @@ d_nf_thiers = {
 
 	ai_primary_priority = { add = @never_primary_score }
 }
+
+d_nf_mendizabal = {
+	color = { 100 100 100 }
+	capital = c_sevilla
+
+	definite_form = yes
+	landless = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+
+	ai_primary_priority = { add = @never_primary_score }
+}
+
+d_nf_la_rosa = {
+	color = { 100 100 100 }
+	capital = c_granada
+
+	definite_form = yes
+	landless = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+
+	ai_primary_priority = { add = @never_primary_score }
+}
+
+d_nf_isturiz = {
+	color = { 100 100 100 }
+	capital = c_cadiz
+
+	definite_form = yes
+	landless = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+
+	ai_primary_priority = { add = @never_primary_score }
+}
+
+d_nf_wellesley = {
+	color = { 100 100 100 }
+	capital = c_somerset
+
+	definite_form = yes
+	landless = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+
+	ai_primary_priority = { add = @never_primary_score }
+}
