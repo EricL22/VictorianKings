@@ -1,0 +1,127 @@
+k_sardinia = {
+	# de Savoie
+	1720.2.17 = {
+		holder = savoy_14 # Vittorio Amedeo II
+	}
+	1730.9.3 = {
+		holder = savoy_15 # Carlo Emanuele III
+	}
+	1773.2.20 = {
+		holder = savoy_16 # Vittorio Amedeo III
+	}
+	1796.10.16 = {
+		holder = savoy_17 # Carlo Emanuele IV
+	}
+	1802.6.4 = {
+		holder = savoy_18 # Vittorio Emanuele I
+	}
+	1815.6.9 = {
+		effect = {
+			set_capital_county = title:c_turin
+		}
+	}
+	1821.3.12 = {
+		holder = savoy_19 # Carlo Felice
+	}
+	1831.4.27 = {
+		holder = savoy_25 # Carlo Alberto
+	}
+}
+d_corsica = {
+	1811.1.1 = {
+		holder = bonaparte_2	# Napoleon I
+	}
+	1814.4.11 = {
+		holder = bourbon_16 # Louis XVIII
+	}
+	1824.9.16 = {
+		holder = bourbon_17 # Charles X
+	}
+	1830.8.2 = {
+		holder = bourbon_23 # Louis-Phillipe I
+	}
+}
+c_ajaccio = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon I
+	}
+	1814.4.11 = {
+		holder = bourbon_16 # Louis XVIII
+	}
+	1824.9.16 = {
+		holder = bourbon_17 # Charles X
+	}
+	1830.8.2 = {
+		holder = bourbon_23 # Louis-Phillipe I
+	}
+}
+c_bastia = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon I
+	}
+	1814.4.11 = {
+		holder = bourbon_16 # Louis XVIII
+	}
+	1824.9.16 = {
+		holder = bourbon_17 # Charles X
+	}
+	1830.8.2 = {
+		holder = bourbon_23 # Louis-Phillipe I
+	}
+}
+c_vecchio = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon I
+	}
+	1814.4.11 = {
+		holder = bourbon_16 # Louis XVIII
+	}
+	1824.9.16 = {
+		holder = bourbon_17 # Charles X
+	}
+	1830.8.2 = {
+		holder = bourbon_23 # Louis-Phillipe I
+	}
+}
+#d_sardinia = {
+#}
+c_cagliari = {
+	1802.6.4 = {
+		holder = savoy_18
+	}
+	1831.4.27 = {
+		holder = savoy_25
+	}
+}
+c_arborea = {
+	1802.6.4 = {
+		holder = savoy_18
+	}
+	1831.4.27 = {
+		holder = savoy_25
+	}
+}
+c_gallura = {
+	1802.6.4 = {
+		holder = savoy_18
+	}
+	1831.4.27 = {
+		holder = savoy_25
+	}
+}
+c_logudoro = {
+	1802.6.4 = {
+		holder = savoy_18
+	}
+	1831.4.27 = {
+		holder = savoy_25
+	}
+}
+c_tortoli = {
+	1802.6.4 = {
+		holder = savoy_18
+	}
+	1831.4.27 = {
+		holder = savoy_25
+	}
+}

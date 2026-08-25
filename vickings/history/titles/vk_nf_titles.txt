@@ -232,3 +232,71 @@ d_nf_wellesley = {
 		holder = 0
 	}
 }
+
+d_nf_ledru_rollin = {
+	1830.1.1 = {
+		liege = k_france
+		holder = eur_01303	# Alexandre Auguste Ledru-Rollin
+		government = administrative_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1836.1.1 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1836.1.1 }
+		}
+	}
+	1874.12.31 = {
+		holder = 0
+	}
+}
+
+d_nf_mole = {
+	1830.1.1 = {
+		liege = k_france
+		holder = eur_01301	# Louis-Mathieu Molé
+		government = administrative_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1836.1.1 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1836.1.1 }
+		}
+	}
+	1855.11.23 = {
+		holder = 0
+	}
+}
+
+d_nf_broglie = {
+	1830.1.1 = {
+		liege = k_france
+		holder = eur_01300	# Victor de Broglie
+		government = administrative_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1836.1.1 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1836.1.1 }
+		}
+	}
+	1870.1.25 = {
+		holder = 0
+	}
+}
+
+d_nf_guizot = {
+	1830.1.1 = {
+		liege = k_france
+		holder = eur_01305	# François Guizot
+		government = administrative_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1836.1.1 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1836.1.1 }
+		}
+	}
+	1874.9.12 = {
+		holder = 0
+	}
+}

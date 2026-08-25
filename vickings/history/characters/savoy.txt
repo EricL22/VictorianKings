@@ -1,5 +1,5 @@
 ﻿# Savoy
-7000006 = {
+savoy_0 = {
 	name = "AmE_dE_e"	# VII
 	# AKA: Amedee
 	dynasty = 240
@@ -14,13 +14,13 @@
 	}
 }
 
-7000007 = {
+savoy_1 = {
 	name = "AmE_dE_e"	# VIII
 	# AKA: Amedee
 	dynasty = 240
 	religion = "catholic"
 	culture = french
-	father = 7000006
+	father = savoy_0
 	1383.9.4 = {
 		birth = yes
 	}
@@ -29,12 +29,12 @@
 	}
 }
 
-7000008 = {
+savoy_2 = {
 	name = "Louis"
 	dynasty = 240
 	religion = "catholic"
 	culture = french
-	father = 7000007
+	father = savoy_1
 	1413.2.24 = {
 		birth = yes
 	}
@@ -43,13 +43,13 @@
 	}
 }
 
-7000009 = {
+savoy_3 = {
 	name = "AmE_dE_e"	# IX
 	# AKA: Amedee
 	dynasty = 240
 	religion = "catholic"
 	culture = french
-	father = 7000008
+	father = savoy_2
 	1435.2.1 = {
 		birth = yes
 	}
@@ -58,12 +58,12 @@
 	}
 }
 
-7000010 = {
+savoy_4 = {
 	name = "Charles"	# I
 	dynasty = 240
 	religion = "catholic"
 	culture = french
-	father = 7000009
+	father = savoy_3
 	1468.3.28 = {
 		birth = yes
 	}
@@ -72,12 +72,12 @@
 	}
 }
 
-7000011 = {
+savoy_5 = {
 	name = "Charles"	# II
 	dynasty = 240
 	religion = "catholic"
 	culture = french
-	father = 7000010
+	father = savoy_4
 	1489.6.23 = {
 		birth = yes
 	}
@@ -86,12 +86,12 @@
 	}
 }
 
-7000012 = {
+savoy_6 = {
 	name = "Philippe"	# II
 	dynasty = 240
 	religion = "catholic"
 	culture = french
-	father = 7000008
+	father = savoy_2
 	1438.2.5 = {
 		birth = yes
 	}
@@ -100,12 +100,12 @@
 	}
 }
 
-7000013 = {
+savoy_7 = {
 	name = "Charles"	# III
 	dynasty = 240
 	religion = "catholic"
 	culture = french
-	father = 7000012
+	father = savoy_6
 	1486.10.10 = {
 		birth = yes
 	}
@@ -114,12 +114,12 @@
 	}
 }
 
-7000014 = {
+savoy_8 = {
 	name = "Emanuele Filiberto"
 	dynasty = 240
 	religion = "catholic"
 	culture = italian
-	father = 7000013
+	father = savoy_7
 	1528.7.8 = {
 		birth = yes
 	}
@@ -128,76 +128,13 @@
 	}
 }
 
-9000005 = {
-	name = "Vittorio-Emanuele"
-	dynasty = 240
-	martial = 7
-	diplomacy = 5
-	intrigue = 4
-	stewardship = 4
-	religion = catholic
-	culture = italian
-	trait = education_martial_2
-	father = 8100043
-	#mother = 1115
-	sexuality = heterosexual
-	1759.1.1 = {
-		birth = "1759.1.1"
-	}
-	1824.1.10 = {
-		death = "1824.1.10"
-	}
-}
-
-8000020 = {
-	name = "Carlo-Alberto"
-	dynasty_house = house_carignano
-	religion = catholic
-	culture = italian
-	father = 8100050
-	1798.10.2 = {
-		birth = yes
-	}
-	1849.10.14 = {
-		death = yes
-	}
-}
-
-8000053 = {
-	name = "Vittorio-Emanuele"
-	dynasty_house = house_carignano
-	religion = catholic
-	culture = italian
-	father = 8000020
-	1820.3.14 = {
-		birth = yes
-	}
-	1878.1.9 = {
-		death = yes
-	}
-}
-
-8000054 = {
-	name = "Ferdinando"
-	dynasty_house = house_carignano
-	religion = catholic
-	culture = italian
-	father = 8000020
-	1822.11.15 = {
-		birth = yes
-	}
-	1855.2.10 = {
-		death = yes
-	}
-}
-
 ### SAVOYARD ###
-8100036 = {
+savoy_9 = {
 	name = "Carlo-Emanuele"
 	dynasty = 240
 	religion = catholic
 	culture = italian
-	father = 7000014
+	father = savoy_8
 	1562.1.12 = {
 		birth = yes
 	}
@@ -206,12 +143,12 @@
 	}
 }
 
-8100037 = {
+savoy_10 = {
 	name = "Vittorio-Amedeo"
 	dynasty = 240
 	religion = catholic
 	culture = italian
-	father = 8100036
+	father = savoy_9
 	1587.5.8 = {
 		birth = yes
 	}
@@ -220,12 +157,12 @@
 	}
 }
 
-8100038 = {
+savoy_11 = {
 	name = "Francesco Giacinto"
 	dynasty = 240
 	religion = catholic
 	culture = italian
-	father = 8100037
+	father = savoy_10
 	1632.9.14 = {
 		birth = yes
 	}
@@ -234,12 +171,12 @@
 	}
 }
 
-8100039 = {
+savoy_12 = {
 	name = "Carlo-Emanuele"
 	dynasty = 240
 	religion = catholic
 	culture = italian
-	father = 8100037
+	father = savoy_10
 	1634.6.20 = {
 		birth = yes
 	}
@@ -248,12 +185,12 @@
 	}
 }
 
-8100040 = {
+savoy_13 = {
 	name = "Tommaso Francesco"
 	dynasty = 240
 	religion = catholic
 	culture = italian
-	father = 8100036
+	father = savoy_9
 	1596.12.21 = {
 		birth = yes
 	}
@@ -265,12 +202,12 @@
 	}
 }
 
-8100041 = {
+savoy_14 = {
 	name = "Vittorio-Amedeo"
 	dynasty = 240
 	religion = catholic
 	culture = italian
-	father = 8100039
+	father = savoy_12
 	1666.5.14 = {
 		birth = yes
 	}
@@ -279,12 +216,12 @@
 	}
 }
 
-8100042 = {
+savoy_15 = {
 	name = "Carlo-Emanuele"
 	dynasty = 240
 	religion = catholic
 	culture = italian
-	father = 8100041
+	father = savoy_14
 	1701.4.27 = {
 		birth = yes
 	}
@@ -293,12 +230,12 @@
 	}
 }
 
-8100043 = {
+savoy_16 = {
 	name = "Vittorio-Amedeo"
 	dynasty = 240
 	religion = catholic
 	culture = italian
-	father = 8100042
+	father = savoy_15
 	1726.6.26 = {
 		birth = yes
 	}
@@ -307,12 +244,12 @@
 	}
 }
 
-8100044 = {
+savoy_17 = {
 	name = "Carlo-Emanuele"
 	dynasty = 240
 	religion = catholic
 	culture = italian
-	father = 8100043
+	father = savoy_16
 	1751.5.24 = {
 		birth = yes
 	}
@@ -320,13 +257,35 @@
 		death = yes
 	}
 }
+####################
 
-8100045 = {
+savoy_18 = {
+	name = "Vittorio-Emanuele"
+	dynasty = 240
+	martial = 7
+	diplomacy = 5
+	intrigue = 4
+	stewardship = 4
+	religion = catholic
+	culture = italian
+	trait = education_martial_2
+	father = savoy_16
+	#mother = 1115
+	sexuality = heterosexual
+	1759.1.1 = {
+		birth = "1759.1.1"
+	}
+	1824.1.10 = {
+		death = "1824.1.10"
+	}
+}
+
+savoy_19 = {
 	name = "Carlo-Felice"
 	dynasty = 240
 	religion = catholic
 	culture = italian
-	father = 8100043
+	father = savoy_16
 	1765.4.6 = {
 		birth = yes
 	}
@@ -335,12 +294,12 @@
 	}
 }
 
-8100046 = {
+savoy_20 = {
 	name = "Emanuele Philibert"
 	dynasty_house = house_carignano
 	religion = catholic
 	culture = italian
-	father = 8100040
+	father = savoy_13
 	1628.8.20 = {
 		birth = yes
 	}
@@ -349,12 +308,12 @@
 	}
 }
 
-8100047 = {
+savoy_21 = {
 	name = "Vittorio Amedeo"
 	dynasty_house = house_carignano
 	religion = catholic
 	culture = italian
-	father = 8100046
+	father = savoy_20
 	1690.3.1 = {
 		birth = yes
 	}
@@ -363,12 +322,12 @@
 	}
 }
 
-8100048 = {
+savoy_22 = {
 	name = "Louis Vittorio"
 	dynasty_house = house_carignano
 	religion = catholic
 	culture = italian
-	father = 8100047
+	father = savoy_21
 	1721.9.25 = {
 		birth = yes
 	}
@@ -377,12 +336,12 @@
 	}
 }
 
-8100049 = {
+savoy_23 = {
 	name = "Vittorio Amedeo"
 	dynasty_house = house_carignano
 	religion = catholic
 	culture = italian
-	father = 8100048
+	father = savoy_22
 	1743.10.31 = {
 		birth = yes
 	}
@@ -391,12 +350,12 @@
 	}
 }
 
-8100050 = {
+savoy_24 = {
 	name = "Carlo Emanuele"
 	dynasty_house = house_carignano
 	religion = catholic
 	culture = italian
-	father = 8100049
+	father = savoy_23
 	1770.10.24 = {
 		birth = yes
 	}
@@ -406,4 +365,45 @@
 		}
 	}
 }
-####################
+
+savoy_25 = {
+	name = "Carlo-Alberto"
+	dynasty_house = house_carignano
+	religion = catholic
+	culture = italian
+	father = savoy_24
+	1798.10.2 = {
+		birth = yes
+	}
+	1849.10.14 = {
+		death = yes
+	}
+}
+
+savoy_26 = {
+	name = "Vittorio-Emanuele"
+	dynasty_house = house_carignano
+	religion = catholic
+	culture = italian
+	father = savoy_25
+	1820.3.14 = {
+		birth = yes
+	}
+	1878.1.9 = {
+		death = yes
+	}
+}
+
+savoy_27 = {
+	name = "Ferdinando"
+	dynasty_house = house_carignano
+	religion = catholic
+	culture = italian
+	father = savoy_25
+	1822.11.15 = {
+		birth = yes
+	}
+	1855.2.10 = {
+		death = yes
+	}
+}

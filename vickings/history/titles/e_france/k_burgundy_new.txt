@@ -48,10 +48,10 @@ c_nice = {
 		holder = bonaparte_2	# Napoleon I
 	}
 	1815.6.9 = {
-		holder = 9000005	# Victor Emmanuel I
+		holder = savoy_18	# Victor Emmanuel I
 	}
 	1831.4.27 = {
-		holder = 8000020	# Charles Albert
+		holder = savoy_25	# Charles Albert
 	}
 }
 c_forcalquier = {
@@ -70,46 +70,46 @@ c_forcalquier = {
 }
 d_savoie = {
 	1383.3.1 = {
-		holder = 7000006
+		holder = savoy_0
 	}
 	1391.11.1 = {
-		holder = 7000007
+		holder = savoy_1
 	}
 	1440.1.6 = {
-		holder = 7000008
+		holder = savoy_2
 	}
 	1465.1.29 = {
-		holder = 7000009
+		holder = savoy_3
 	}
 	1482.9.22 = {
-		holder = 7000010
+		holder = savoy_4
 	}
 	1490.3.13 = {
-		holder = 7000011
+		holder = savoy_5
 	}
 	1496.4.16 = {
-		holder = 7000012
+		holder = savoy_6
 	}
 	1497.11.7 = {
-		holder = 7000013
+		holder = savoy_7
 	}
 	1553.8.17 = {
-		holder = 7000014
+		holder = savoy_8
 	}
 	1580.8.30 = {
-		holder = 8100036 # Carlo Emanuele I
+		holder = savoy_9 # Carlo Emanuele I
 	}
 	1630.6.26 = {
-		holder = 8100037 # Vittorio Amedeo I
+		holder = savoy_10 # Vittorio Amedeo I
 	}
 	1637.10.7 = {
-		holder = 8100038 # Francesco Giacinto
+		holder = savoy_11 # Francesco Giacinto
 	}
 	1638.10.4 = {
-		holder = 8100039 # Carlo Emanuele II
+		holder = savoy_12 # Carlo Emanuele II
 	}
 	1675.6.12 = {
-		holder = 8100041 # Vittorio Amedeo II
+		holder = savoy_14 # Vittorio Amedeo II
 	}
 	1790.3.1 = {
 		de_jure_liege = k_france
@@ -118,13 +118,13 @@ d_savoie = {
 		holder = bonaparte_2	# Napoleon I
 	}
 	1815.6.9 = {
-		holder = 9000005 # Vittorio Emanuele I
+		holder = savoy_18 # Vittorio Emanuele I
 	}
 	1821.3.12 = {
-		holder = 8100045 # Carlo Felice
+		holder = savoy_19 # Carlo Felice
 	}
 	1831.4.27 = {
-		holder = 8000020 # Carlo Alberto
+		holder = savoy_25 # Carlo Alberto
 	}
 }
 c_savoie = {
@@ -132,10 +132,10 @@ c_savoie = {
 		holder = bonaparte_2	# Napoleon I
 	}
 	1815.6.9 = {
-		holder = 9000005
+		holder = savoy_18
 	}
 	1831.4.27 = {
-		holder = 8000020
+		holder = savoy_25
 	}
 }
 c_aosta = {
@@ -143,10 +143,10 @@ c_aosta = {
 		holder = bonaparte_2	# Napoleon I
 	}
 	1815.6.9 = {
-		holder = 9000005
+		holder = savoy_18
 	}
 	1831.4.27 = {
-		holder = 8000020
+		holder = savoy_25
 	}
 }
 c_geneva = {
@@ -173,11 +173,11 @@ c_canavese = {
 		holder = bonaparte_2	# Napoleon I
 	}
 	1815.6.9 = {
-		holder = 9000005
+		holder = savoy_18
 		de_jure_liege = d_piedmonte
 	}
 	1831.4.27 = {
-		holder = 8000020
+		holder = savoy_25
 	}
 }
 
@@ -186,10 +186,10 @@ c_faucigny = {
 		holder = bonaparte_2
 	}
 	1815.6.9 = {
-		holder = 9000005
+		holder = savoy_18
 	}
 	1831.4.27 = {
-		holder = 8000020
+		holder = savoy_25
 	}
 }
 

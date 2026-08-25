@@ -93,7 +93,7 @@ eur_01010 = {
 # 1836 bookmark
 
 #PM 1835 to 1836, Broglie lands lay in Normandy, Duke of Normandy
-6440000 = {
+eur_01300 = {
 	name = "Victor"
 	dynasty = broglie
 	culture = french
@@ -115,7 +115,7 @@ eur_01010 = {
 }
 
 #PM 1836 to 1839, lands above Isle-de-France, if possible
-6440001 = {
+eur_01301 = {
 	name = "Louise-Mathieu"
 	dynasty = mole
 	culture = french
@@ -159,7 +159,7 @@ eur_01302 = {
 }
 
 #Socialist Republican candidate for 1837 election, lands around Paris?
-6440003 = {
+eur_01303 = {
 	name = "Alexandre"
 	dynasty = ledru_rollin
 	culture = french
@@ -203,7 +203,7 @@ eur_01304 = {
 }
 
 #PM 1847, candidate for 1837 election, born in Nimes, make him count of Toulouse?
-6440005 = {
+eur_01305 = {
 	name = "Francois"
 	dynasty = guizot
 	culture = french

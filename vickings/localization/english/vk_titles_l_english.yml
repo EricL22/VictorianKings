@@ -11,6 +11,9 @@
  k_spain:0 "Spain"
  k_spain_adj:0 "Spanish"
 
+ k_belgium:0 "Belgium"
+ k_belgium_adj:0 "Belgian"
+
  c_faucigny:0 "Faucigny"
 
  # Noble families
@@ -35,3 +38,11 @@
  d_nf_isturiz_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
  d_nf_wellesley: "$dynn_Wellesley$ Family"
  d_nf_wellesley_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ d_nf_ledru_rollin: "$dynn_Ledru_Rollin$ Family"
+ d_nf_ledru_rollin_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ d_nf_mole: "$dynn_Mole$ Family"
+ d_nf_mole_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ d_nf_broglie: "$dynn_Broglie$ Family"
+ d_nf_broglie_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ d_nf_guizot: "$dynn_Guizot$ Family"
+ d_nf_guizot_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
