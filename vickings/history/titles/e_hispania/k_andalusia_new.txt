@@ -1,0 +1,242 @@
+d_cordoba = {
+	1715.6.9 = {
+		de_jure_liege = k_spain
+	}
+	1808.6.6 = {
+		holder = bonaparte_4	# Joseph I
+	}
+	1813.12.11 = {
+		holder = bourbon_36	# Ferdinand VII
+	}
+	1833.9.29 = {
+		holder = bourbon_37	# Isabella II
+	}
+}
+c_cordoba = {
+	1808.6.6 = {
+		holder = bonaparte_4	# Joseph I
+	}
+	1813.12.11 = {
+		holder = bourbon_36	# Ferdinand VII
+	}
+	1833.9.29 = {
+		holder = bourbon_37	# Isabella II
+	}
+}
+c_calatrava = {
+	1808.6.6 = {
+		holder = bonaparte_4	# Joseph I
+	}
+	1813.12.11 = {
+		holder = bourbon_36	# Ferdinand VII
+	}
+	1833.9.29 = {
+		holder = bourbon_37	# Isabella II
+	}
+}
+c_almader = {
+	1808.6.6 = {
+		holder = bonaparte_4	# Joseph I
+	}
+	1813.12.11 = {
+		holder = bourbon_36	# Ferdinand VII
+	}
+	1833.9.29 = {
+		holder = bourbon_37	# Isabella II
+	}
+}
+c_andujar = {
+	1808.6.6 = {
+		holder = bonaparte_4	# Joseph I
+	}
+	1813.12.11 = {
+		holder = bourbon_36	# Ferdinand VII
+	}
+	1833.9.29 = {
+		holder = bourbon_37	# Isabella II
+	}
+}
+d_granada = {
+	1715.6.9 = {
+		de_jure_liege = k_spain
+	}
+	1808.6.6 = {
+		holder = 0
+	}
+}
+c_granada = {
+	1808.6.6 = {
+		holder = bonaparte_4	# Joseph I
+	}
+	1813.12.11 = {
+		holder = bourbon_36	# Ferdinand VII
+	}
+	1822.2.28 = {
+		holder = eur_02205	# Francisco Martínez de la Rosa
+		liege = k_spain
+	}
+}
+c_almeria = {
+	1808.6.6 = {
+		holder = bonaparte_4	# Joseph I
+	}
+	1813.12.11 = {
+		holder = bourbon_36	# Ferdinand VII
+	}
+	1833.9.29 = {
+		holder = bourbon_37	# Isabella II
+	}
+}
+c_cabra = {
+	1808.6.6 = {
+		holder = bonaparte_4	# Joseph I
+	}
+	1813.12.11 = {
+		holder = bourbon_36	# Ferdinand VII
+	}
+	1833.9.29 = {
+		holder = bourbon_37	# Isabella II
+	}
+}
+c_malaga = {
+	1808.6.6 = {
+		holder = bonaparte_4	# Joseph I
+	}
+	1813.12.11 = {
+		holder = bourbon_36	# Ferdinand VII
+	}
+	1833.9.29 = {
+		holder = bourbon_37	# Isabella II
+	}
+}
+d_sevilla = {
+	1715.6.9 = {
+		de_jure_liege = k_spain
+	}
+	1808.5.2 = {	# Spanish guerillas
+		holder = eur_02100
+		liege = k_spain
+	}
+	1833.9.29 = {
+		holder = eur_02204	# Juan Álvarez Mendizábal
+	}
+}
+c_sevilla = {
+	1808.5.2 = {	# Spanish guerillas
+		holder = eur_02100
+		liege = k_spain
+	}
+	1833.9.29 = {
+		holder = eur_02204
+	}
+}
+c_cadiz = {
+	1808.5.2 = {	# Spanish guerillas
+		holder = eur_02100
+		liege = k_spain
+	}
+	1833.9.29 = {
+		holder = eur_02206	# Francisco Javier de Istúriz
+		liege = k_spain
+	}
+}
+c_algeciras = {
+	1808.5.2 = {	# Spanish guerillas
+		holder = eur_02100
+		liege = k_spain
+	}
+	1833.9.29 = {
+		holder = eur_02204
+	}
+}
+c_niebla = {
+	1808.5.2 = {	# Spanish guerillas
+		holder = eur_02100
+		liege = k_spain
+	}
+	1833.9.29 = {
+		holder = eur_02204
+	}
+}
+c_moura = {
+	1808.5.2 = {	# Spanish guerillas
+		holder = eur_02100
+		liege = k_spain
+	}
+	1833.9.29 = {
+		holder = eur_02204
+	}
+}
+d_toledo = {
+	1715.6.9 = {
+		de_jure_liege = k_spain
+	}
+}
+c_toledo = {
+	1808.6.6 = {
+		holder = bonaparte_4	# Joseph I
+	}
+	1813.12.11 = {
+		holder = bourbon_36	# Ferdinand VII
+	}
+	1833.9.29 = {
+		holder = bourbon_37	# Isabella II
+	}
+}
+c_madrid = {
+	1808.6.6 = {
+		holder = bonaparte_4	# Joseph I
+	}
+	1813.12.11 = {
+		holder = bourbon_36	# Ferdinand VII
+	}
+	1833.9.29 = {
+		holder = bourbon_37	# Isabella II
+	}
+}
+c_molina = {
+	1808.6.6 = {
+		holder = bonaparte_4	# Joseph I
+	}
+	1813.12.11 = {
+		holder = bourbon_36	# Ferdinand VII
+	}
+	1833.9.29 = {
+		holder = bourbon_40	# Carlos V
+		liege = k_spain
+		government = feudal_government
+	}
+}
+c_cuenca = {
+	1808.6.6 = {
+		holder = bonaparte_4	# Joseph I
+	}
+	1813.12.11 = {
+		holder = bourbon_36	# Ferdinand VII
+	}
+	1833.9.29 = {
+		holder = bourbon_37	# Isabella II
+	}
+}
+c_malagon = {
+	1808.6.6 = {
+		holder = bonaparte_4	# Joseph I
+	}
+	1813.12.11 = {
+		holder = bourbon_36	# Ferdinand VII
+	}
+	1833.9.29 = {
+		holder = bourbon_37	# Isabella II
+	}
+}
+c_mora = {
+	1808.6.6 = {
+		holder = bonaparte_4	# Joseph I
+	}
+	1813.12.11 = {
+		holder = bourbon_36	# Ferdinand VII
+	}
+	1833.9.29 = {
+		holder = bourbon_37	# Isabella II
+	}
+}

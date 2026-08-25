@@ -69,6 +69,9 @@ c_burgos = {
 	1813.12.11 = {
 		holder = bourbon_36	# Ferdinand VII
 	}
+	1833.9.29 = {
+		holder = bourbon_37	# Isabella II
+	}
 }
 c_valladolid = {
 	1808.6.6 = {
@@ -76,6 +79,9 @@ c_valladolid = {
 	}
 	1813.12.11 = {
 		holder = bourbon_36	# Ferdinand VII
+	}
+	1833.9.29 = {
+		holder = bourbon_37	# Isabella II
 	}
 }
 c_soria = {
@@ -85,6 +91,9 @@ c_soria = {
 	1813.12.11 = {
 		holder = bourbon_36	# Ferdinand VII
 	}
+	1833.9.29 = {
+		holder = bourbon_37	# Isabella II
+	}
 }
 c_cuellar = {
 	1808.6.6 = {
@@ -93,6 +102,9 @@ c_cuellar = {
 	1813.12.11 = {
 		holder = bourbon_36	# Ferdinand VII
 	}
+	1833.9.29 = {
+		holder = bourbon_37	# Isabella II
+	}
 }
 c_olmedo = {
 	1808.6.6 = {
@@ -100,6 +112,9 @@ c_olmedo = {
 	}
 	1813.12.11 = {
 		holder = bourbon_36	# Ferdinand VII
+	}
+	1833.9.29 = {
+		holder = bourbon_37	# Isabella II
 	}
 }
 d_cantabria = {
@@ -114,6 +129,9 @@ c_asturias_de_santillana = {
 	1813.12.11 = {
 		holder = bourbon_36	# Ferdinand VII
 	}
+	1833.9.29 = {
+		holder = bourbon_37	# Isabella II
+	}
 }
 c_amaya = {
 	1808.6.6 = {
@@ -121,5 +139,8 @@ c_amaya = {
 	}
 	1813.12.11 = {
 		holder = bourbon_36	# Ferdinand VII
+	}
+	1833.9.29 = {
+		holder = bourbon_37	# Isabella II
 	}
 }

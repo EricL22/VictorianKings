@@ -1,0 +1,93 @@
+k_leon = {
+	1808.6.6 = {
+		holder = 0
+	}
+}
+d_leon = {
+	1715.6.9 = {
+		de_jure_liege = k_spain
+	}
+}
+c_leon = {
+	1808.6.6 = {
+		holder = bonaparte_4	# Joseph I
+	}
+	1813.12.11 = {
+		holder = bourbon_36	# Ferdinand VII
+	}
+	1833.9.29 = {
+		holder = bourbon_37	# Isabella II
+	}
+}
+c_benavente = {
+	1808.6.6 = {
+		holder = bonaparte_4	# Joseph I
+	}
+	1813.12.11 = {
+		holder = bourbon_36	# Ferdinand VII
+	}
+	1833.9.29 = {
+		holder = bourbon_37	# Isabella II
+	}
+}
+c_zamora = {
+	1808.6.6 = {
+		holder = bonaparte_4	# Joseph I
+	}
+	1813.12.11 = {
+		holder = bourbon_36	# Ferdinand VII
+	}
+	1833.9.29 = {
+		holder = bourbon_37	# Isabella II
+	}
+}
+c_salamanca = {
+	1808.6.6 = {
+		holder = bonaparte_4	# Joseph I
+	}
+	1813.12.11 = {
+		holder = bourbon_36	# Ferdinand VII
+	}
+	1833.9.29 = {
+		holder = bourbon_37	# Isabella II
+	}
+}
+c_avila = {
+	1808.6.6 = {
+		holder = bonaparte_4	# Joseph I
+	}
+	1813.12.11 = {
+		holder = bourbon_36	# Ferdinand VII
+	}
+	1833.9.29 = {
+		holder = bourbon_37	# Isabella II
+	}
+}
+d_asturias = {
+	1715.6.9 = {
+		de_jure_liege = k_spain
+	}
+	1808.5.2 = {	# Spanish guerillas
+		holder = eur_02100
+		liege = k_spain
+	}
+	1833.9.29 = {
+		holder = bourbon_37	# Isabella II
+	}
+}
+c_asturias_de_oviedo = {
+	1808.5.2 = {	# Spanish guerillas
+		holder = eur_02100
+	}
+	1833.9.29 = {
+		holder = bourbon_37	# Isabella II
+	}
+}
+c_pravia = {
+	1808.5.2 = {	# Spanish guerillas
+		holder = eur_02100
+	}
+	1833.9.29 = {
+		holder = bourbon_37	# Isabella II
+	}
+}

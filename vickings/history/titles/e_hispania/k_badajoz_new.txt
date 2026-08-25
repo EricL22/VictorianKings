@@ -1,0 +1,76 @@
+#d_beja = {
+#}
+#c_lisboa = {
+#}
+#c_beja = {
+#}
+#c_alcacer_do_sal = {
+#}
+#c_elvas = {
+#}
+d_badajoz = {
+	1715.6.9 = {
+		de_jure_liege = k_spain
+	}
+}
+c_badajoz = {
+	1808.6.6 = {
+		holder = bonaparte_4	# Joseph I
+	}
+	1813.12.11 = {
+		holder = bourbon_36	# Ferdinand VII
+	}
+	1833.9.29 = {
+		holder = bourbon_37	# Isabella II
+	}
+}
+c_plasencia = {
+	1808.6.6 = {
+		holder = bonaparte_4	# Joseph I
+	}
+	1813.12.11 = {
+		holder = bourbon_36	# Ferdinand VII
+	}
+	1833.9.29 = {
+		holder = bourbon_37	# Isabella II
+	}
+}
+c_caceres = {
+	1808.6.6 = {
+		holder = bonaparte_4	# Joseph I
+	}
+	1813.12.11 = {
+		holder = bourbon_36	# Ferdinand VII
+	}
+	1833.9.29 = {
+		holder = bourbon_37	# Isabella II
+	}
+}
+c_merida = {
+	1808.6.6 = {
+		holder = bonaparte_4	# Joseph I
+	}
+	1813.12.11 = {
+		holder = bourbon_36	# Ferdinand VII
+	}
+	1833.9.29 = {
+		holder = bourbon_37	# Isabella II
+	}
+}
+c_medellin = {
+	1808.6.6 = {
+		holder = bonaparte_4	# Joseph I
+	}
+	1813.12.11 = {
+		holder = bourbon_36	# Ferdinand VII
+	}
+	1833.9.29 = {
+		holder = bourbon_37	# Isabella II
+	}
+}
+#d_algarve = {
+#}
+#c_faro = {
+#}
+#c_silves = {
+#}

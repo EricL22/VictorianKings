@@ -5,32 +5,49 @@ d_valencia = {
 	1808.5.2 = {	# Spanish guerillas
 		holder = eur_02100
 		liege = k_spain
-		government = feudal_government
+	}
+	1833.9.29 = {
+		holder = bourbon_37	# Isabella II
 	}
 }
 c_valencia = {
 	1809.1.1 = {
 		holder = eur_02100
 	}
+	1833.9.29 = {
+		holder = bourbon_37	# Isabella II
+	}
 }
 c_castellon = {
 	1809.1.1 = {
 		holder = eur_02100
+	}
+	1833.9.29 = {
+		holder = bourbon_37	# Isabella II
 	}
 }
 c_teruel = {
 	1809.1.1 = {
 		holder = eur_02100
 	}
+	1833.9.29 = {
+		holder = bourbon_37	# Isabella II
+	}
 }
 c_denia = {
 	1809.1.1 = {
 		holder = eur_02100
 	}
+	1833.9.29 = {
+		holder = bourbon_37	# Isabella II
+	}
 }
 c_alicante = {
 	1809.1.1 = {
 		holder = eur_02100
+	}
+	1833.9.29 = {
+		holder = bourbon_37	# Isabella II
 	}
 }
 d_mallorca = {
@@ -41,20 +58,32 @@ d_mallorca = {
 		holder = eur_02100
 		liege = k_spain
 	}
+	1833.9.29 = {
+		holder = bourbon_37	# Isabella II
+	}
 }
 c_mallorca = {
 	1809.1.1 = {
 		holder = eur_02100
+	}
+	1833.9.29 = {
+		holder = bourbon_37	# Isabella II
 	}
 }
 c_menorca = {
 	1809.1.1 = {
 		holder = eur_02100
 	}
+	1833.9.29 = {
+		holder = bourbon_37	# Isabella II
+	}
 }
 c_iviza = {
 	1809.1.1 = {
 		holder = eur_02100
+	}
+	1833.9.29 = {
+		holder = bourbon_37	# Isabella II
 	}
 }
 d_murcia = {
@@ -65,19 +94,31 @@ d_murcia = {
 		holder = eur_02100
 		liege = k_spain
 	}
+	1833.9.29 = {
+		holder = bourbon_37	# Isabella II
+	}
 }
 c_murcia = {
 	1809.1.1 = {
 		holder = eur_02100
+	}
+	1833.9.29 = {
+		holder = bourbon_37	# Isabella II
 	}
 }
 c_alcaraz = {
 	1809.1.1 = {
 		holder = eur_02100
 	}
+	1833.9.29 = {
+		holder = bourbon_37	# Isabella II
+	}
 }
 c_alarcon = {
 	1809.1.1 = {
 		holder = eur_02100
+	}
+	1833.9.29 = {
+		holder = bourbon_37	# Isabella II
 	}
 }

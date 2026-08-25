@@ -1,0 +1,52 @@
+d_galicia = {
+	1715.6.9 = {
+		de_jure_liege = k_spain
+	}
+	1808.5.2 = {	# Spanish guerillas
+		holder = eur_02100
+		liege = k_spain
+	}
+	1833.9.29 = {
+		holder = bourbon_37	# Isabella II
+	}
+}
+c_coruna = {
+	1808.5.2 = {	# Spanish guerillas
+		holder = eur_02100
+	}
+	1833.9.29 = {
+		holder = bourbon_37	# Isabella II
+	}
+}
+c_santiago = {
+	1808.5.2 = {	# Spanish guerillas
+		holder = eur_02100
+	}
+	1833.9.29 = {
+		holder = bourbon_37	# Isabella II
+	}
+}
+c_tui = {
+	1808.5.2 = {	# Spanish guerillas
+		holder = eur_02100
+	}
+	1833.9.29 = {
+		holder = bourbon_37	# Isabella II
+	}
+}
+c_astorga = {
+	1808.5.2 = {	# Spanish guerillas
+		holder = eur_02100
+	}
+	1833.9.29 = {
+		holder = bourbon_37	# Isabella II
+	}
+}
+c_monterrei = {
+	1808.5.2 = {	# Spanish guerillas
+		holder = eur_02100
+	}
+	1833.9.29 = {
+		holder = bourbon_37	# Isabella II
+	}
+}

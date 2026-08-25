@@ -1,0 +1,22 @@
+﻿mendizabal = {
+    name = "dynn_Mendizabal"
+    culture = "castilian"
+}
+
+la_rosa = {
+    prefix = "dynnp_de"
+    name = "dynn_la_Rosa"
+    culture = "castilian"
+}
+
+isturiz = {
+    prefix = "dynnp_de"
+    name = "dynn_Isturiz"
+    culture = "castilian"
+}
+
+espartero = {
+    name = "dynn_Espartero"
+    culture = "castilian"
+}
+

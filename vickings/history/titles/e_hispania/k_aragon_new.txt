@@ -16,6 +16,9 @@ d_aragon = {
 	1813.12.11 = {	# Bourbon
 		holder = bourbon_36	# Ferdinand VII
 	}
+	1833.9.29 = {
+		holder = bourbon_37	# Isabella II
+	}
 }
 c_zaragoza = {
 	1808.6.6 = {	# Napoleonic
@@ -23,6 +26,9 @@ c_zaragoza = {
 	}
 	1813.12.11 = {	# Bourbon
 		holder = bourbon_36	# Ferdinand VII
+	}
+	1833.9.29 = {
+		holder = bourbon_37	# Isabella II
 	}
 }
 c_albarracin = {
@@ -32,6 +38,9 @@ c_albarracin = {
 	1813.12.11 = {	# Bourbon
 		holder = bourbon_36	# Ferdinand VII
 	}
+	1833.9.29 = {
+		holder = bourbon_37	# Isabella II
+	}
 }
 c_alto_aragon = {
 	1808.6.6 = {	# Napoleonic
@@ -39,6 +48,9 @@ c_alto_aragon = {
 	}
 	1813.12.11 = {	# Bourbon
 		holder = bourbon_36	# Ferdinand VII
+	}
+	1833.9.29 = {
+		holder = bourbon_37	# Isabella II
 	}
 }
 c_sobrarbe = {
@@ -48,6 +60,9 @@ c_sobrarbe = {
 	1813.12.11 = {	# Bourbon
 		holder = bourbon_36	# Ferdinand VII
 	}
+	1833.9.29 = {
+		holder = bourbon_37	# Isabella II
+	}
 }
 c_huesca = {
 	1808.6.6 = {	# Napoleonic
@@ -55,6 +70,9 @@ c_huesca = {
 	}
 	1813.12.11 = {	# Bourbon
 		holder = bourbon_36	# Ferdinand VII
+	}
+	1833.9.29 = {
+		holder = bourbon_37	# Isabella II
 	}
 }
 c_calatayud = {
@@ -64,6 +82,9 @@ c_calatayud = {
 	1813.12.11 = {	# Bourbon
 		holder = bourbon_36	# Ferdinand VII
 	}
+	1833.9.29 = {
+		holder = bourbon_37	# Isabella II
+	}
 }
 c_fraga = {
 	1808.6.6 = {	# Napoleonic
@@ -71,6 +92,9 @@ c_fraga = {
 	}
 	1813.12.11 = {	# Bourbon
 		holder = bourbon_36	# Ferdinand VII
+	}
+	1833.9.29 = {
+		holder = bourbon_37	# Isabella II
 	}
 }
 c_alcaniz = {
@@ -80,6 +104,9 @@ c_alcaniz = {
 	1813.12.11 = {	# Bourbon
 		holder = bourbon_36	# Ferdinand VII
 	}
+	1833.9.29 = {
+		holder = bourbon_37	# Isabella II
+	}
 }
 d_barcelona = {
 	1164.1.1 = {
@@ -88,8 +115,8 @@ d_barcelona = {
 	1715.6.9 = {
 		de_jure_liege = k_spain
 	}
-	1833.9.29 = {
-		holder = 9121606
+	1833.9.29 = {	# Carlists
+		holder = eur_02203
 		liege = k_spain
 	}
 }
@@ -101,6 +128,9 @@ c_barcelona = {
 	1813.12.11 = {	# Bourbon
 		holder = bourbon_36	# Ferdinand VII
 	}
+	1833.9.29 = {	# Carlists
+		holder = eur_02203
+	}
 }
 c_urgell = {
 	1812.2.1 = {	# France
@@ -109,6 +139,9 @@ c_urgell = {
 	}
 	1813.12.11 = {	# Bourbon
 		holder = bourbon_36	# Ferdinand VII
+	}
+	1833.9.29 = {	# Carlists
+		holder = eur_02203
 	}
 }
 c_pallas = {
@@ -119,6 +152,9 @@ c_pallas = {
 	1813.12.11 = {	# Bourbon
 		holder = bourbon_36	# Ferdinand VII
 	}
+	1833.9.29 = {	# Carlists
+		holder = eur_02203
+	}
 }
 c_puigcerda = {
 	1812.2.1 = {	# France
@@ -128,6 +164,9 @@ c_puigcerda = {
 	1813.12.11 = {	# Bourbon
 		holder = bourbon_36	# Ferdinand VII
 	}
+	1833.9.29 = {	# Carlists
+		holder = eur_02203
+	}
 }
 c_girona = {
 	1812.2.1 = {	# France
@@ -136,6 +175,9 @@ c_girona = {
 	}
 	1813.12.11 = {	# Bourbon
 		holder = bourbon_36	# Ferdinand VII
+	}
+	1833.9.29 = {	# Carlists
+		holder = eur_02203
 	}
 }
 c_rossello = {
@@ -163,6 +205,9 @@ c_lleida = {
 	1813.12.11 = {	# Bourbon
 		holder = bourbon_36	# Ferdinand VII
 	}
+	1833.9.29 = {	# Carlists
+		holder = eur_02203
+	}
 }
 c_tarragona = {
 	1812.2.1 = {	# France
@@ -171,5 +216,8 @@ c_tarragona = {
 	}
 	1813.12.11 = {	# Bourbon
 		holder = bourbon_36	# Ferdinand VII
+	}
+	1833.9.29 = {	# Carlists
+		holder = eur_02203
 	}
 }
