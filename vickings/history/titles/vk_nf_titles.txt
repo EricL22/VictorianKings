@@ -73,6 +73,15 @@ d_nf_bonaparte = {
 	1815.7.8 = {
 		holder = 0	# Bonapartes forced into exile
 	}
+	1852.12.2 = {
+		liege = e_france
+		holder = bonaparte_7	# Napoleon III
+		government = administrative_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1870.9.4 = {
+		holder = 0	# Bonapartes forced into exile
+	}
 }
 
 d_nf_bourbon = {

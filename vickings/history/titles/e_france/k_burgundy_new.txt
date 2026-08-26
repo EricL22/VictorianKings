@@ -14,6 +14,12 @@ d_provence = {
 	1830.8.2 = {
 		holder = bourbon_23 # Louis-Phillipe I
 	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
+	}
 }
 c_venaissin = {
 	1804.5.18 = {
@@ -27,6 +33,12 @@ c_venaissin = {
 	}
 	1830.8.2 = {
 		holder = bourbon_23 # Louis-Phillipe I
+	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
 	}
 }
 c_provence = {
@@ -42,6 +54,12 @@ c_provence = {
 	1830.8.2 = {
 		holder = bourbon_23 # Louis-Phillipe I
 	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
+	}
 }
 c_nice = {
 	1804.5.18 = {
@@ -56,11 +74,11 @@ c_nice = {
 	1849.3.23 = {
 		holder = savoy_26	# Vittorio Emanuele II
 	}
-	1878.1.9 = {
-		holder = savoy_28	# Umberto I
+	1860.3.24 = {	# France
+		holder = bonaparte_7	# Napoleon III
 	}
-	1900.7.29 = {
-		holder = savoy_29	# Vittorio Emanuele III
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
 	}
 }
 c_forcalquier = {
@@ -75,6 +93,12 @@ c_forcalquier = {
 	}
 	1830.8.2 = {
 		holder = bourbon_23 # Louis-Phillipe I
+	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
 	}
 }
 d_savoie = {
@@ -138,11 +162,11 @@ d_savoie = {
 	1849.3.23 = {
 		holder = savoy_26	# Vittorio Emanuele II
 	}
-	1878.1.9 = {
-		holder = savoy_28	# Umberto I
+	1860.3.24 = {	# France
+		holder = bonaparte_7	# Napoleon III
 	}
-	1900.7.29 = {
-		holder = savoy_29	# Vittorio Emanuele III
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
 	}
 }
 c_savoie = {
@@ -158,11 +182,11 @@ c_savoie = {
 	1849.3.23 = {
 		holder = savoy_26	# Vittorio Emanuele II
 	}
-	1878.1.9 = {
-		holder = savoy_28	# Umberto I
+	1860.3.24 = {	# France
+		holder = bonaparte_7	# Napoleon III
 	}
-	1900.7.29 = {
-		holder = savoy_29	# Vittorio Emanuele III
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
 	}
 }
 c_aosta = {
@@ -242,11 +266,11 @@ c_faucigny = {
 	1849.3.23 = {
 		holder = savoy_26	# Vittorio Emanuele II
 	}
-	1878.1.9 = {
-		holder = savoy_28	# Umberto I
+	1860.3.24 = {	# France
+		holder = bonaparte_7	# Napoleon III
 	}
-	1900.7.29 = {
-		holder = savoy_29	# Vittorio Emanuele III
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
 	}
 }
 
@@ -268,6 +292,12 @@ c_lyon = {
 	1830.8.2 = {
 		holder = bourbon_23 # Louis-Phillipe I
 	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
+	}
 }
 c_forez = {
 	1804.5.18 = {
@@ -281,6 +311,12 @@ c_forez = {
 	}
 	1830.8.2 = {
 		holder = bourbon_23 # Louis-Phillipe I
+	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
 	}
 }
 c_viviers = {
@@ -296,6 +332,12 @@ c_viviers = {
 	1830.8.2 = {
 		holder = bourbon_23 # Louis-Phillipe I
 	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
+	}
 }
 c_viennois = {
 	1804.5.18 = {
@@ -310,6 +352,12 @@ c_viennois = {
 	1830.8.2 = {
 		holder = bourbon_23 # Louis-Phillipe I
 	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
+	}
 }
 c_valentinois = {
 	1804.5.18 = {
@@ -323,6 +371,12 @@ c_valentinois = {
 	}
 	1830.8.2 = {
 		holder = bourbon_23 # Louis-Phillipe I
+	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
 	}
 }
 d_upper_burgundy = {
@@ -343,6 +397,12 @@ c_besancon = {
 	1830.8.2 = {
 		holder = bourbon_23 # Louis-Phillipe I
 	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
+	}
 }
 c_bresse = {
 	1804.5.18 = {
@@ -357,6 +417,12 @@ c_bresse = {
 	1830.8.2 = {
 		holder = bourbon_23 # Louis-Phillipe I
 	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
+	}
 }
 c_dole = {
 	1804.5.18 = {
@@ -370,6 +436,12 @@ c_dole = {
 	}
 	1830.8.2 = {
 		holder = bourbon_23 # Louis-Phillipe I
+	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
 	}
 }
 d_transjurania = {

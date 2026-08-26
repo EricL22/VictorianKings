@@ -213,7 +213,7 @@ bonaparte_5 = {
 }
 
 # Napoleon's younger brother, exiled in Austria after Napoleon annexed Frisia
-9100006 = {
+bonaparte_6 = {
 	name = "Louis"
 	dynasty = eur_25FE_0
 	religion = catholic
@@ -229,7 +229,7 @@ bonaparte_5 = {
 	1810.7.1 = {
 #		effect = {
 #			character:9000012 = {
-#				add_visiting_courtier = character:9100006
+#				add_visiting_courtier = character:bonaparte_6
 #			}
 #		}
 	}
@@ -239,7 +239,7 @@ bonaparte_5 = {
 }
 
 # Napoleon III
-9100007 = {
+bonaparte_7 = {
 	name = "Napoleon"
 	#dna = 9100007_napoleon_bonaparte
 	dynasty_house = house_bonaparte
@@ -247,7 +247,7 @@ bonaparte_5 = {
 	intrigue = 5
 	religion = catholic
 	culture = french
-	father = 9100006
+	father = bonaparte_6
 	1808.4.20 = {
 		birth = yes
 	}
@@ -269,7 +269,7 @@ bonaparte_5 = {
 	dynasty_house = house_bonaparte
 	religion = catholic
 	culture = french
-	father = 9100006
+	father = bonaparte_6
 	1804.10.11 = {
 		birth = yes
 	}

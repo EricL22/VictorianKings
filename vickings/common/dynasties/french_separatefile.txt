@@ -5,7 +5,7 @@
 }
 
 mole = {
-    name = "dynn_Mole"
+    name = "dynn_MolE_"
     culture = "french"
 }
 
@@ -29,3 +29,7 @@ guizot = {
     culture = "french"
 }
 
+poincare = {
+    name = "dynn_PoincarE_"
+    culture = "french"
+}

@@ -125,6 +125,12 @@ c_ile_de_france = {
 	1830.8.2 = {
 		holder = bourbon_23 # Louis-Phillipe I
 	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
+	}
 }
 c_brie_francaise = {
 	1804.5.18 = {
@@ -138,6 +144,12 @@ c_brie_francaise = {
 	}
 	1830.8.2 = {
 		holder = bourbon_23 # Louis-Phillipe I
+	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
 	}
 }
 c_vermandois = {
@@ -153,6 +165,12 @@ c_vermandois = {
 	1830.8.2 = {
 		holder = bourbon_23 # Louis-Phillipe I
 	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
+	}
 }
 c_valois = {
 	1804.5.18 = {
@@ -166,6 +184,12 @@ c_valois = {
 	}
 	1830.8.2 = {
 		holder = bourbon_23 # Louis-Phillipe I
+	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
 	}
 }
 c_amiens = {
@@ -181,6 +205,12 @@ c_amiens = {
 	1830.8.2 = {
 		holder = bourbon_23 # Louis-Phillipe I
 	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
+	}
 }
 c_beaumont = {
 	1804.5.18 = {
@@ -195,6 +225,12 @@ c_beaumont = {
 	1830.8.2 = {
 		holder = bourbon_23 # Louis-Phillipe I
 	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
+	}
 }
 c_clermont = {
 	1804.5.18 = {
@@ -208,6 +244,12 @@ c_clermont = {
 	}
 	1830.8.2 = {
 		holder = bourbon_23 # Louis-Phillipe I
+	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
 	}
 }
 #d_berry = {
@@ -225,6 +267,12 @@ c_berry = {
 	1830.8.2 = {
 		holder = bourbon_23 # Louis-Phillipe I
 	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
+	}
 }
 c_tourraine = {
 	1804.5.18 = {
@@ -238,6 +286,12 @@ c_tourraine = {
 	}
 	1830.8.2 = {
 		holder = bourbon_23 # Louis-Phillipe I
+	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
 	}
 }
 c_blois = {
@@ -253,6 +307,12 @@ c_blois = {
 	1830.8.2 = {
 		holder = bourbon_23 # Louis-Phillipe I
 	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
+	}
 }
 c_issoudun = {
 	1804.5.18 = {
@@ -266,6 +326,12 @@ c_issoudun = {
 	}
 	1830.8.2 = {
 		holder = bourbon_23 # Louis-Phillipe I
+	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
 	}
 }
 #d_anjou = {
@@ -283,6 +349,12 @@ c_anjou = {
 	1830.8.2 = {
 		holder = bourbon_23 # Louis-Phillipe I
 	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
+	}
 }
 c_saumur = {
 	1804.5.18 = {
@@ -296,6 +368,12 @@ c_saumur = {
 	}
 	1830.8.2 = {
 		holder = bourbon_23 # Louis-Phillipe I
+	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
 	}
 }
 c_maine = {
@@ -311,6 +389,12 @@ c_maine = {
 	1830.8.2 = {
 		holder = bourbon_23 # Louis-Phillipe I
 	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
+	}
 }
 c_sable = {
 	1804.5.18 = {
@@ -324,6 +408,12 @@ c_sable = {
 	}
 	1830.8.2 = {
 		holder = bourbon_23 # Louis-Phillipe I
+	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
 	}
 }
 d_normandy = {
@@ -339,6 +429,12 @@ d_normandy = {
 	1830.8.2 = {
 		holder = bourbon_23 # Louis-Phillipe I
 	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
+	}
 }
 c_rouen = {
 	1804.5.18 = {
@@ -352,6 +448,12 @@ c_rouen = {
 	}
 	1830.8.2 = {
 		holder = bourbon_23 # Louis-Phillipe I
+	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
 	}
 }
 c_evreux = {
@@ -367,6 +469,12 @@ c_evreux = {
 	1830.8.2 = {
 		holder = bourbon_23 # Louis-Phillipe I
 	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
+	}
 }
 c_bayeux = {
 	1804.5.18 = {
@@ -380,6 +488,12 @@ c_bayeux = {
 	}
 	1830.8.2 = {
 		holder = bourbon_23 # Louis-Phillipe I
+	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
 	}
 }
 c_avranches = {
@@ -395,6 +509,12 @@ c_avranches = {
 	1830.8.2 = {
 		holder = bourbon_23 # Louis-Phillipe I
 	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
+	}
 }
 c_alencon = {
 	1804.5.18 = {
@@ -408,6 +528,12 @@ c_alencon = {
 	}
 	1830.8.2 = {
 		holder = bourbon_23 # Louis-Phillipe I
+	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
 	}
 }
 c_lisieux = {
@@ -423,6 +549,12 @@ c_lisieux = {
 	1830.8.2 = {
 		holder = bourbon_23 # Louis-Phillipe I
 	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
+	}
 }
 c_eu = {
 	1804.5.18 = {
@@ -436,6 +568,12 @@ c_eu = {
 	}
 	1830.8.2 = {
 		holder = bourbon_23 # Louis-Phillipe I
+	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
 	}
 }
 #d_orleans = {
@@ -453,6 +591,12 @@ c_orleans = {
 	1830.8.2 = {
 		holder = bourbon_23 # Louis-Phillipe I
 	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
+	}
 }
 c_montargis = {
 	1804.5.18 = {
@@ -466,6 +610,12 @@ c_montargis = {
 	}
 	1830.8.2 = {
 		holder = bourbon_23 # Louis-Phillipe I
+	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
 	}
 }
 c_vendome = {
@@ -481,6 +631,12 @@ c_vendome = {
 	1830.8.2 = {
 		holder = bourbon_23 # Louis-Phillipe I
 	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
+	}
 }
 c_chartres = {
 	1804.5.18 = {
@@ -494,6 +650,12 @@ c_chartres = {
 	}
 	1830.8.2 = {
 		holder = bourbon_23 # Louis-Phillipe I
+	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
 	}
 }
 c_sancerre = {
@@ -509,6 +671,12 @@ c_sancerre = {
 	1830.8.2 = {
 		holder = bourbon_23 # Louis-Phillipe I
 	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
+	}
 }
 d_champagne = {
 	1790.3.4 = {
@@ -516,22 +684,23 @@ d_champagne = {
 	}
 }
 c_reims = {
-	# Archbishops of Reims
-	1777.10.27 = {
-		holder = 9000097	# Alexandre Angélique de Talleyrand-Périgord
-	}
 	1804.5.18 = {
-		liege = e_france
+		holder = bonaparte_2	# Napoleon I
 	}
-	1815.7.8 = {
-		liege = k_france
+	1814.4.6 = {
+		holder = bourbon_16 # Louis XVIII
 	}
-	# vacant, 1816.11.8
-	1817.10.1 = {
-		holder = 9000098	# Jean-Charles de Coucy
+	1824.9.16 = {
+		holder = bourbon_17 # Charles X
 	}
-	1824.7.12 = {
-		holder = 9000099	# Jean-Baptiste de Latil
+	1830.8.2 = {
+		holder = bourbon_23 # Louis-Phillipe I
+	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
 	}
 }
 c_troyes = {
@@ -547,6 +716,12 @@ c_troyes = {
 	1830.8.2 = {
 		holder = bourbon_23 # Louis-Phillipe I
 	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
+	}
 }
 c_coulommiers = {
 	1804.5.18 = {
@@ -560,6 +735,12 @@ c_coulommiers = {
 	}
 	1830.8.2 = {
 		holder = bourbon_23 # Louis-Phillipe I
+	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
 	}
 }
 c_meaux = {
@@ -575,6 +756,12 @@ c_meaux = {
 	1830.8.2 = {
 		holder = bourbon_23 # Louis-Phillipe I
 	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
+	}
 }
 c_chalons = {
 	1804.5.18 = {
@@ -588,6 +775,12 @@ c_chalons = {
 	}
 	1830.8.2 = {
 		holder = bourbon_23 # Louis-Phillipe I
+	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
 	}
 }
 c_rethel = {
@@ -603,6 +796,12 @@ c_rethel = {
 	1830.8.2 = {
 		holder = bourbon_23 # Louis-Phillipe I
 	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
+	}
 }
 c_sens = {
 	1804.5.18 = {
@@ -616,6 +815,12 @@ c_sens = {
 	}
 	1830.8.2 = {
 		holder = bourbon_23 # Louis-Phillipe I
+	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
 	}
 }
 d_burgundy = {
@@ -631,6 +836,12 @@ d_burgundy = {
 	1830.8.2 = {
 		holder = bourbon_23 # Louis-Phillipe I
 	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
+	}
 }
 c_dijon = {
 	1804.5.18 = {
@@ -644,6 +855,12 @@ c_dijon = {
 	}
 	1830.8.2 = {
 		holder = bourbon_23 # Louis-Phillipe I
+	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
 	}
 }
 c_chalon = {
@@ -659,6 +876,12 @@ c_chalon = {
 	1830.8.2 = {
 		holder = bourbon_23 # Louis-Phillipe I
 	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
+	}
 }
 c_auxerre = {
 	1804.5.18 = {
@@ -672,6 +895,12 @@ c_auxerre = {
 	}
 	1830.8.2 = {
 		holder = bourbon_23 # Louis-Phillipe I
+	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
 	}
 }
 c_tonnerrois = {
@@ -687,6 +916,12 @@ c_tonnerrois = {
 	1830.8.2 = {
 		holder = bourbon_23 # Louis-Phillipe I
 	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
+	}
 }
 c_avalois = {
 	1804.5.18 = {
@@ -700,6 +935,12 @@ c_avalois = {
 	}
 	1830.8.2 = {
 		holder = bourbon_23 # Louis-Phillipe I
+	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
 	}
 }
 c_macon = {
@@ -715,6 +956,12 @@ c_macon = {
 	1830.8.2 = {
 		holder = bourbon_23 # Louis-Phillipe I
 	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
+	}
 }
 c_nevers = {
 	1804.5.18 = {
@@ -729,6 +976,12 @@ c_nevers = {
 	1830.8.2 = {
 		holder = bourbon_23 # Louis-Phillipe I
 	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
+	}
 }
 c_langres = {
 	1804.5.18 = {
@@ -742,6 +995,12 @@ c_langres = {
 	}
 	1830.8.2 = {
 		holder = bourbon_23 # Louis-Phillipe I
+	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
 	}
 }
 d_flanders = {
@@ -795,6 +1054,12 @@ c_guines = {
 	1830.8.2 = {
 		holder = bourbon_23 # Louis-Phillipe I
 	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
+	}
 }
 c_lille = {
 	1804.5.18 = {
@@ -812,6 +1077,12 @@ c_lille = {
 	1830.8.2 = {
 		holder = bourbon_23 # Louis-Phillipe I
 	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
+	}
 }
 c_boulogne = {
 	1804.5.18 = {
@@ -828,5 +1099,11 @@ c_boulogne = {
 	}
 	1830.8.2 = {
 		holder = bourbon_23 # Louis-Phillipe I
+	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
 	}
 }

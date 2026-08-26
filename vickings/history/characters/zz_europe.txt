@@ -226,6 +226,20 @@ eur_01305 = {
 
 # 1861 bookmark
 # 1914 bookmark
+
+# President of France, 1913-1920
+eur_01500 = {
+	name = "Raymond"
+	dynasty = poincare
+	culture = french
+	religion = catholic
+	1860.8.20 = {
+		birth = yes
+	}
+	1934.10.15 = {
+		death = yes
+	}
+}
 ####################
 
 

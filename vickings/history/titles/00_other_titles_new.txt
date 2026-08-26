@@ -109,6 +109,15 @@ e_france = {
 	1814.4.13 = {
 		holder = 0	# Treaty of Fontainebleau
 	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1870.9.4 = {
+		government = feudal_government	# monarchy abolished
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
+	}
 }
 
 k_switzerland = {
