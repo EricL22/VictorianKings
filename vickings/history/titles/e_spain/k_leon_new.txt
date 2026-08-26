@@ -18,6 +18,9 @@ c_leon = {
 	1833.9.29 = {
 		holder = bourbon_37	# Isabella II
 	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
+	}
 }
 c_benavente = {
 	1808.6.6 = {
@@ -28,6 +31,9 @@ c_benavente = {
 	}
 	1833.9.29 = {
 		holder = bourbon_37	# Isabella II
+	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
 	}
 }
 c_zamora = {
@@ -40,6 +46,9 @@ c_zamora = {
 	1833.9.29 = {
 		holder = bourbon_37	# Isabella II
 	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
+	}
 }
 c_salamanca = {
 	1808.6.6 = {
@@ -51,6 +60,9 @@ c_salamanca = {
 	1833.9.29 = {
 		holder = bourbon_37	# Isabella II
 	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
+	}
 }
 c_avila = {
 	1808.6.6 = {
@@ -61,6 +73,9 @@ c_avila = {
 	}
 	1833.9.29 = {
 		holder = bourbon_37	# Isabella II
+	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
 	}
 }
 d_asturias = {
@@ -74,6 +89,9 @@ d_asturias = {
 	1833.9.29 = {
 		holder = bourbon_37	# Isabella II
 	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
+	}
 }
 c_asturias_de_oviedo = {
 	1808.5.2 = {	# Spanish guerillas
@@ -82,6 +100,9 @@ c_asturias_de_oviedo = {
 	1833.9.29 = {
 		holder = bourbon_37	# Isabella II
 	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
+	}
 }
 c_pravia = {
 	1808.5.2 = {	# Spanish guerillas
@@ -89,5 +110,8 @@ c_pravia = {
 	}
 	1833.9.29 = {
 		holder = bourbon_37	# Isabella II
+	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
 	}
 }

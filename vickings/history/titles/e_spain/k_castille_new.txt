@@ -72,6 +72,9 @@ c_burgos = {
 	1833.9.29 = {
 		holder = bourbon_37	# Isabella II
 	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
+	}
 }
 c_valladolid = {
 	1808.6.6 = {
@@ -82,6 +85,9 @@ c_valladolid = {
 	}
 	1833.9.29 = {
 		holder = bourbon_37	# Isabella II
+	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
 	}
 }
 c_soria = {
@@ -94,6 +100,9 @@ c_soria = {
 	1833.9.29 = {
 		holder = bourbon_37	# Isabella II
 	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
+	}
 }
 c_cuellar = {
 	1808.6.6 = {
@@ -105,6 +114,9 @@ c_cuellar = {
 	1833.9.29 = {
 		holder = bourbon_37	# Isabella II
 	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
+	}
 }
 c_olmedo = {
 	1808.6.6 = {
@@ -115,6 +127,9 @@ c_olmedo = {
 	}
 	1833.9.29 = {
 		holder = bourbon_37	# Isabella II
+	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
 	}
 }
 d_cantabria = {
@@ -132,6 +147,9 @@ c_asturias_de_santillana = {
 	1833.9.29 = {
 		holder = bourbon_37	# Isabella II
 	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
+	}
 }
 c_amaya = {
 	1808.6.6 = {
@@ -142,5 +160,8 @@ c_amaya = {
 	}
 	1833.9.29 = {
 		holder = bourbon_37	# Isabella II
+	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
 	}
 }

@@ -18,6 +18,12 @@ c_navarra = {
 	1833.9.29 = {	# Carlists
 		holder = eur_02302
 	}
+	1861.1.1 = {
+		holder = bourbon_37	# Isabella II
+	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
+	}
 }
 c_najera = {
 	1808.6.6 = {
@@ -28,6 +34,12 @@ c_najera = {
 	}
 	1833.9.29 = {	# Carlists
 		holder = eur_02302
+	}
+	1861.1.1 = {
+		holder = bourbon_37	# Isabella II
+	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
 	}
 }
 c_tudela = {
@@ -40,6 +52,12 @@ c_tudela = {
 	1833.9.29 = {	# Carlists
 		holder = eur_02302
 	}
+	1861.1.1 = {
+		holder = bourbon_37	# Isabella II
+	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
+	}
 }
 d_viscaya = {
 	1715.6.9 = {
@@ -48,6 +66,12 @@ d_viscaya = {
 	1833.9.29 = {	# Carlists
 		holder = eur_02302
 		liege = k_spain
+	}
+	1861.1.1 = {
+		holder = bourbon_37	# Isabella II
+	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
 	}
 }
 c_viscaya = {
@@ -60,6 +84,12 @@ c_viscaya = {
 	1833.9.29 = {	# Carlists
 		holder = eur_02302
 	}
+	1861.1.1 = {
+		holder = bourbon_37	# Isabella II
+	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
+	}
 }
 c_ipuskoa = {
 	1808.6.6 = {
@@ -70,5 +100,11 @@ c_ipuskoa = {
 	}
 	1833.9.29 = {	# Carlists
 		holder = eur_02302
+	}
+	1861.1.1 = {
+		holder = bourbon_37	# Isabella II
+	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
 	}
 }

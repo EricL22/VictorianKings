@@ -9,6 +9,9 @@ d_galicia = {
 	1833.9.29 = {
 		holder = bourbon_37	# Isabella II
 	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
+	}
 }
 c_coruna = {
 	1808.5.2 = {	# Spanish guerillas
@@ -16,6 +19,9 @@ c_coruna = {
 	}
 	1833.9.29 = {
 		holder = bourbon_37	# Isabella II
+	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
 	}
 }
 c_santiago = {
@@ -25,6 +31,9 @@ c_santiago = {
 	1833.9.29 = {
 		holder = bourbon_37	# Isabella II
 	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
+	}
 }
 c_tui = {
 	1808.5.2 = {	# Spanish guerillas
@@ -32,6 +41,9 @@ c_tui = {
 	}
 	1833.9.29 = {
 		holder = bourbon_37	# Isabella II
+	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
 	}
 }
 c_astorga = {
@@ -41,6 +53,9 @@ c_astorga = {
 	1833.9.29 = {
 		holder = bourbon_37	# Isabella II
 	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
+	}
 }
 c_monterrei = {
 	1808.5.2 = {	# Spanish guerillas
@@ -48,5 +63,8 @@ c_monterrei = {
 	}
 	1833.9.29 = {
 		holder = bourbon_37	# Isabella II
+	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
 	}
 }

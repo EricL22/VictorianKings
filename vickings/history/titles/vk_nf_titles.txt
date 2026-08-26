@@ -99,6 +99,22 @@ d_nf_bourbon = {
 			destroy_landless_title_no_dlc_effect = { DATE = 1836.1.1 }
 		}
 	}
+	1861.7.1 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1861.7.1 }
+		}
+	}
+	1886.5.17 = {
+		liege = k_spain
+		holder = bourbon_42	# Alfonso XIII
+		government = administrative_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1914.7.28 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1914.7.28 }
+		}
+	}
 }
 
 d_nf_bourbon_orleans = {

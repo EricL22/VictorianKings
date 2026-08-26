@@ -23,6 +23,9 @@ c_badajoz = {
 	1833.9.29 = {
 		holder = bourbon_37	# Isabella II
 	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
+	}
 }
 c_plasencia = {
 	1808.6.6 = {
@@ -33,6 +36,9 @@ c_plasencia = {
 	}
 	1833.9.29 = {
 		holder = bourbon_37	# Isabella II
+	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
 	}
 }
 c_caceres = {
@@ -45,6 +51,9 @@ c_caceres = {
 	1833.9.29 = {
 		holder = bourbon_37	# Isabella II
 	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
+	}
 }
 c_merida = {
 	1808.6.6 = {
@@ -56,6 +65,9 @@ c_merida = {
 	1833.9.29 = {
 		holder = bourbon_37	# Isabella II
 	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
+	}
 }
 c_medellin = {
 	1808.6.6 = {
@@ -66,6 +78,9 @@ c_medellin = {
 	}
 	1833.9.29 = {
 		holder = bourbon_37	# Isabella II
+	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
 	}
 }
 #d_algarve = {

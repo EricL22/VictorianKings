@@ -92,6 +92,16 @@ k_spain = {
 			}
 		}
 	}
+	1870.11.16 = {
+		holder = savoy_30	# Amadeo I
+	}
+	# republic: 1873.2.11
+	1874.12.29 = {
+		holder = bourbon_41	# Alfonso XII
+	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
+	}
 }
 
 k_belgium = {

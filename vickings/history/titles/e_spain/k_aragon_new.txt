@@ -19,6 +19,9 @@ d_aragon = {
 	1833.9.29 = {
 		holder = bourbon_37	# Isabella II
 	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
+	}
 }
 c_zaragoza = {
 	1808.6.6 = {	# Napoleonic
@@ -29,6 +32,9 @@ c_zaragoza = {
 	}
 	1833.9.29 = {
 		holder = bourbon_37	# Isabella II
+	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
 	}
 }
 c_albarracin = {
@@ -41,6 +47,9 @@ c_albarracin = {
 	1833.9.29 = {
 		holder = bourbon_37	# Isabella II
 	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
+	}
 }
 c_alto_aragon = {
 	1808.6.6 = {	# Napoleonic
@@ -51,6 +60,9 @@ c_alto_aragon = {
 	}
 	1833.9.29 = {
 		holder = bourbon_37	# Isabella II
+	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
 	}
 }
 c_sobrarbe = {
@@ -63,6 +75,9 @@ c_sobrarbe = {
 	1833.9.29 = {
 		holder = bourbon_37	# Isabella II
 	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
+	}
 }
 c_huesca = {
 	1808.6.6 = {	# Napoleonic
@@ -73,6 +88,9 @@ c_huesca = {
 	}
 	1833.9.29 = {
 		holder = bourbon_37	# Isabella II
+	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
 	}
 }
 c_calatayud = {
@@ -85,6 +103,9 @@ c_calatayud = {
 	1833.9.29 = {
 		holder = bourbon_37	# Isabella II
 	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
+	}
 }
 c_fraga = {
 	1808.6.6 = {	# Napoleonic
@@ -96,6 +117,9 @@ c_fraga = {
 	1833.9.29 = {
 		holder = bourbon_37	# Isabella II
 	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
+	}
 }
 c_alcaniz = {
 	1808.6.6 = {	# Napoleonic
@@ -106,6 +130,9 @@ c_alcaniz = {
 	}
 	1833.9.29 = {
 		holder = bourbon_37	# Isabella II
+	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
 	}
 }
 d_barcelona = {
@@ -119,6 +146,12 @@ d_barcelona = {
 		holder = eur_02303
 		liege = k_spain
 	}
+	1861.1.1 = {
+		holder = bourbon_37	# Isabella II
+	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
+	}
 }
 c_barcelona = {
 	1812.2.1 = {	# France
@@ -130,6 +163,12 @@ c_barcelona = {
 	}
 	1833.9.29 = {	# Carlists
 		holder = eur_02303
+	}
+	1861.1.1 = {
+		holder = bourbon_37	# Isabella II
+	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
 	}
 }
 c_urgell = {
@@ -143,6 +182,12 @@ c_urgell = {
 	1833.9.29 = {	# Carlists
 		holder = eur_02303
 	}
+	1861.1.1 = {
+		holder = bourbon_37	# Isabella II
+	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
+	}
 }
 c_pallas = {
 	1812.2.1 = {	# France
@@ -154,6 +199,12 @@ c_pallas = {
 	}
 	1833.9.29 = {	# Carlists
 		holder = eur_02303
+	}
+	1861.1.1 = {
+		holder = bourbon_37	# Isabella II
+	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
 	}
 }
 c_puigcerda = {
@@ -167,6 +218,12 @@ c_puigcerda = {
 	1833.9.29 = {	# Carlists
 		holder = eur_02303
 	}
+	1861.1.1 = {
+		holder = bourbon_37	# Isabella II
+	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
+	}
 }
 c_girona = {
 	1812.2.1 = {	# France
@@ -178,6 +235,12 @@ c_girona = {
 	}
 	1833.9.29 = {	# Carlists
 		holder = eur_02303
+	}
+	1861.1.1 = {
+		holder = bourbon_37	# Isabella II
+	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
 	}
 }
 c_rossello = {
@@ -208,6 +271,12 @@ c_lleida = {
 	1833.9.29 = {	# Carlists
 		holder = eur_02303
 	}
+	1861.1.1 = {
+		holder = bourbon_37	# Isabella II
+	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
+	}
 }
 c_tarragona = {
 	1812.2.1 = {	# France
@@ -219,5 +288,11 @@ c_tarragona = {
 	}
 	1833.9.29 = {	# Carlists
 		holder = eur_02303
+	}
+	1861.1.1 = {
+		holder = bourbon_37	# Isabella II
+	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
 	}
 }

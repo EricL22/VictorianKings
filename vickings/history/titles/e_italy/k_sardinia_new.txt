@@ -26,6 +26,15 @@ k_sardinia = {
 	1831.4.27 = {
 		holder = savoy_25 # Carlo Alberto
 	}
+	1849.3.23 = {
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
 }
 d_corsica = {
 	1811.1.1 = {
@@ -39,6 +48,9 @@ d_corsica = {
 	}
 	1830.8.2 = {
 		holder = bourbon_23 # Louis-Phillipe I
+	}
+	1861.1.1 = {
+		de_jure_liege = k_france
 	}
 }
 c_ajaccio = {
@@ -92,6 +104,15 @@ c_cagliari = {
 	1831.4.27 = {
 		holder = savoy_25
 	}
+	1849.3.23 = {
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
 }
 c_arborea = {
 	1802.6.4 = {
@@ -99,6 +120,15 @@ c_arborea = {
 	}
 	1831.4.27 = {
 		holder = savoy_25
+	}
+	1849.3.23 = {
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
 	}
 }
 c_gallura = {
@@ -108,6 +138,15 @@ c_gallura = {
 	1831.4.27 = {
 		holder = savoy_25
 	}
+	1849.3.23 = {
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
 }
 c_logudoro = {
 	1802.6.4 = {
@@ -116,6 +155,15 @@ c_logudoro = {
 	1831.4.27 = {
 		holder = savoy_25
 	}
+	1849.3.23 = {
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
 }
 c_tortoli = {
 	1802.6.4 = {
@@ -123,5 +171,14 @@ c_tortoli = {
 	}
 	1831.4.27 = {
 		holder = savoy_25
+	}
+	1849.3.23 = {
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
 	}
 }

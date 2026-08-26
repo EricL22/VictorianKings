@@ -11,6 +11,9 @@ d_cordoba = {
 	1833.9.29 = {
 		holder = bourbon_37	# Isabella II
 	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
+	}
 }
 c_cordoba = {
 	1808.6.6 = {
@@ -21,6 +24,9 @@ c_cordoba = {
 	}
 	1833.9.29 = {
 		holder = bourbon_37	# Isabella II
+	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
 	}
 }
 c_calatrava = {
@@ -33,6 +39,9 @@ c_calatrava = {
 	1833.9.29 = {
 		holder = bourbon_37	# Isabella II
 	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
+	}
 }
 c_almader = {
 	1808.6.6 = {
@@ -44,6 +53,9 @@ c_almader = {
 	1833.9.29 = {
 		holder = bourbon_37	# Isabella II
 	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
+	}
 }
 c_andujar = {
 	1808.6.6 = {
@@ -54,6 +66,9 @@ c_andujar = {
 	}
 	1833.9.29 = {
 		holder = bourbon_37	# Isabella II
+	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
 	}
 }
 d_granada = {
@@ -74,6 +89,9 @@ c_granada = {
 	1833.9.29 = {
 		holder = bourbon_37	# Isabella II
 	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
+	}
 }
 c_almeria = {
 	1808.6.6 = {
@@ -84,6 +102,9 @@ c_almeria = {
 	}
 	1833.9.29 = {
 		holder = bourbon_37	# Isabella II
+	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
 	}
 }
 c_cabra = {
@@ -96,6 +117,9 @@ c_cabra = {
 	1833.9.29 = {
 		holder = bourbon_37	# Isabella II
 	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
+	}
 }
 c_malaga = {
 	1808.6.6 = {
@@ -106,6 +130,9 @@ c_malaga = {
 	}
 	1833.9.29 = {
 		holder = bourbon_37	# Isabella II
+	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
 	}
 }
 d_sevilla = {
@@ -119,6 +146,9 @@ d_sevilla = {
 	1833.9.29 = {
 		holder = bourbon_37	# Isabella II
 	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
+	}
 }
 c_sevilla = {
 	1808.5.2 = {	# Spanish guerillas
@@ -127,6 +157,9 @@ c_sevilla = {
 	}
 	1833.9.29 = {
 		holder = bourbon_37	# Isabella II
+	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
 	}
 }
 c_cadiz = {
@@ -137,6 +170,9 @@ c_cadiz = {
 	1833.9.29 = {
 		holder = bourbon_37	# Isabella II
 	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
+	}
 }
 c_algeciras = {
 	1808.5.2 = {	# Spanish guerillas
@@ -145,6 +181,9 @@ c_algeciras = {
 	}
 	1833.9.29 = {
 		holder = bourbon_37	# Isabella II
+	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
 	}
 }
 c_niebla = {
@@ -155,6 +194,9 @@ c_niebla = {
 	1833.9.29 = {
 		holder = bourbon_37	# Isabella II
 	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
+	}
 }
 c_moura = {
 	1808.5.2 = {	# Spanish guerillas
@@ -163,6 +205,9 @@ c_moura = {
 	}
 	1833.9.29 = {
 		holder = bourbon_37	# Isabella II
+	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
 	}
 }
 d_toledo = {
@@ -180,6 +225,9 @@ c_toledo = {
 	1833.9.29 = {
 		holder = bourbon_37	# Isabella II
 	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
+	}
 }
 c_madrid = {
 	1808.6.6 = {
@@ -190,6 +238,9 @@ c_madrid = {
 	}
 	1833.9.29 = {
 		holder = bourbon_37	# Isabella II
+	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
 	}
 }
 c_molina = {
@@ -204,6 +255,12 @@ c_molina = {
 		liege = k_spain
 		government = feudal_government
 	}
+	1861.1.1 = {
+		holder = bourbon_37	# Isabella II
+	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
+	}
 }
 c_cuenca = {
 	1808.6.6 = {
@@ -214,6 +271,9 @@ c_cuenca = {
 	}
 	1833.9.29 = {
 		holder = bourbon_37	# Isabella II
+	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
 	}
 }
 c_malagon = {
@@ -226,6 +286,9 @@ c_malagon = {
 	1833.9.29 = {
 		holder = bourbon_37	# Isabella II
 	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
+	}
 }
 c_mora = {
 	1808.6.6 = {
@@ -236,5 +299,8 @@ c_mora = {
 	}
 	1833.9.29 = {
 		holder = bourbon_37	# Isabella II
+	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
 	}
 }

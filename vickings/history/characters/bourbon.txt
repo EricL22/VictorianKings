@@ -692,4 +692,32 @@ bourbon_40 = {
 		death = yes
 	}
 }
+
+bourbon_41 = {
+	name = "Alfonso"	# XII of Spain
+	dynasty = 100146
+	religion = catholic
+	culture = castilian
+	mother = bourbon_37
+	1857.11.28 = {
+		birth = yes
+	}
+	1885.11.25 = {
+		death = yes
+	}
+}
+
+bourbon_42 = {
+	name = "Alfonso"	# XIII of Spain
+	dynasty = 100146
+	religion = catholic
+	culture = castilian
+	father = bourbon_41
+	1886.5.17 = {
+		birth = yes
+	}
+	1941.2.28 = {
+		death = yes
+	}
+}
 ####################

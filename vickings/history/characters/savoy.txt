@@ -381,7 +381,7 @@ savoy_25 = {
 }
 
 savoy_26 = {
-	name = "Vittorio-Emanuele"
+	name = "Vittorio-Emanuele"	# II of Italy
 	dynasty_house = house_carignano
 	religion = catholic
 	culture = italian
@@ -404,6 +404,48 @@ savoy_27 = {
 		birth = yes
 	}
 	1855.2.10 = {
+		death = yes
+	}
+}
+
+savoy_28 = {
+	name = "Umberto"	# I of Italy
+	dynasty_house = house_carignano
+	religion = catholic
+	culture = italian
+	father = savoy_26
+	1844.3.14 = {
+		birth = yes
+	}
+	1900.7.29 = {
+		death = yes
+	}
+}
+
+savoy_29 = {
+	name = "Vittorio-Emanuele"	# III of Italy
+	dynasty_house = house_carignano
+	religion = catholic
+	culture = italian
+	father = savoy_28
+	1869.11.11 = {
+		birth = yes
+	}
+	1947.12.28 = {
+		death = yes
+	}
+}
+
+savoy_30 = {
+	name = "Amadeo"	# I of Spain
+	dynasty_house = house_carignano
+	religion = catholic
+	culture = italian
+	father = savoy_26
+	1845.5.30 = {
+		birth = yes
+	}
+	1890.1.18 = {
 		death = yes
 	}
 }
