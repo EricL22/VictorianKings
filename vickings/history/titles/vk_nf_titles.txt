@@ -92,7 +92,7 @@ d_nf_bourbon = {
 		holder = bourbon_37	# Isabella II
 		government = administrative_government
 		succession_laws = { noble_family_succession_law }
-		set_capital_county = title:c_madrid
+		effect = { set_capital_county = title:c_madrid }
 	}
 	1836.1.1 = {
 		effect = {

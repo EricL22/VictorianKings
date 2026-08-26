@@ -23,3 +23,13 @@ house_carignano = {
 	name = "dynn_Carignano"
 	dynasty = 240	# Savoie
 }
+
+house_tts = {
+	name = "dynn_Bb_Sicilies"
+	dynasty = 100146	# Bourbon
+}
+
+house_habs_este = {
+	name = "dynn_Habs_Este"
+	dynasty = 664 # Etichonen	51	# Habsburg
+}

@@ -191,7 +191,7 @@ bonaparte_4 = {
 }
 
 # King of Naples
-9000009 = {
+bonaparte_5 = {
 	name = "Joachim"
 	# lowborn
 	religion = catholic
@@ -357,7 +357,7 @@ bonaparte_4 = {
 	# lowborn
 	religion = catholic
 	culture = french
-	father = 9000009
+	father = bonaparte_5
 	mother = 9100061
 	1801.1.21 = {
 		birth = yes
@@ -375,7 +375,7 @@ bonaparte_4 = {
 	# lowborn
 	religion = catholic
 	culture = french
-	father = 9000009
+	father = bonaparte_5
 	mother = 9100061
 	1803.5.16 = {
 		birth = yes

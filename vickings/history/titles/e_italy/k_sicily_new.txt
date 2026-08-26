@@ -1,0 +1,573 @@
+k_naples = {
+	1808.8.1 = {
+		holder = bonaparte_5	# Joachim Murat
+	}
+	1815.5.19 = {
+		holder = bourbon_43	# Ferdinand IV of Naples
+	}
+	1816.12.12 = {
+		holder = 0	# Two Sicilies formed
+	}
+}
+k_sicily = {
+	1759.10.6 = {
+		holder = bourbon_43	# Ferdinand III of Sicily
+	}
+	1816.12.12 = {
+		name = k_tts
+	}
+	1817.1.1 = {
+		effect = { set_capital_county = title:c_napoli }
+	}
+	1825.1.4 = {
+		holder = bourbon_47	# Francis I
+	}
+	1830.11.8 = {
+		holder = bourbon_48	# Ferdinand II
+	}
+	1859.5.22 = {
+		holder = bourbon_49	# Francis II
+	}
+	1861.3.17 = {
+		holder = 0	# Annexed by Italy
+	}
+}
+d_sicily = {
+	1442.6.2 = {
+		de_jure_liege = k_sicily
+	}
+	1759.10.6 = {
+		holder = bourbon_43	# Ferdinand III of Sicily
+	}
+	1825.1.4 = {
+		holder = bourbon_47	# Francis I
+	}
+	1830.11.8 = {
+		holder = bourbon_48	# Ferdinand II
+	}
+	1859.5.22 = {
+		holder = bourbon_49	# Francis II
+	}
+	1861.3.17 = {	# Italy
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_palermo = {
+	1759.10.6 = {
+		holder = bourbon_43	# Ferdinand III of Sicily
+	}
+	1825.1.4 = {
+		holder = bourbon_47	# Francis I
+	}
+	1830.11.8 = {
+		holder = bourbon_48	# Ferdinand II
+	}
+	1859.5.22 = {
+		holder = bourbon_49	# Francis II
+	}
+	1861.3.17 = {	# Italy
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_messina = {
+	1759.10.6 = {
+		holder = bourbon_43	# Ferdinand III of Sicily
+	}
+	1825.1.4 = {
+		holder = bourbon_47	# Francis I
+	}
+	1830.11.8 = {
+		holder = bourbon_48	# Ferdinand II
+	}
+	1859.5.22 = {
+		holder = bourbon_49	# Francis II
+	}
+	1861.3.17 = {	# Italy
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_siracusa = {
+	1759.10.6 = {
+		holder = bourbon_43	# Ferdinand III of Sicily
+		government = feudal_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = {
+						holder = {
+							has_government = feudal_government
+						}
+					}
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	1825.1.4 = {
+		holder = bourbon_47	# Francis I
+	}
+	1830.11.8 = {
+		holder = bourbon_48	# Ferdinand II
+	}
+	1859.5.22 = {
+		holder = bourbon_49	# Francis II
+	}
+	1861.3.17 = {	# Italy
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_agrigento = {
+	1759.10.6 = {
+		holder = bourbon_43	# Ferdinand III of Sicily
+	}
+	1825.1.4 = {
+		holder = bourbon_47	# Francis I
+	}
+	1830.11.8 = {
+		holder = bourbon_48	# Ferdinand II
+	}
+	1859.5.22 = {
+		holder = bourbon_49	# Francis II
+	}
+	1861.3.17 = {	# Italy
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_malta = {
+	1800.9.4 = {
+		holder = hanover_3	# George III
+	}
+	1820.1.29 = {
+		holder = hanover_4	# George IV
+	}
+	1830.6.26 = {
+		holder = hanover_5	# William IV
+	}
+	1837.6.20 = {
+		holder = hanover_7	# Victoria
+	}
+	1901.1.22 = {
+		holder = hanover_10	# Edward VII
+	}
+	1910.5.6 = {
+		holder = hanover_11	# George V
+	}
+}
+d_benevento = {
+	1808.8.1 = {
+		holder = bonaparte_5	# Joachim Murat
+	}
+	1815.5.19 = {
+		holder = bourbon_43	# Ferdinand III of Sicily
+	}
+	1816.12.12 = {
+		de_jure_liege = k_sicily
+	}
+	1825.1.4 = {
+		holder = bourbon_47	# Francis I
+	}
+	1830.11.8 = {
+		holder = bourbon_48	# Ferdinand II
+	}
+	1859.5.22 = {
+		holder = bourbon_49	# Francis II
+	}
+	1861.3.17 = {	# Italy
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_benevento = {
+	1808.8.1 = {
+		holder = bonaparte_5	# Joachim Murat
+	}
+	1815.5.19 = {
+		holder = bourbon_43	# Ferdinand III of Sicily
+	}
+	1825.1.4 = {
+		holder = bourbon_47	# Francis I
+	}
+	1830.11.8 = {
+		holder = bourbon_48	# Ferdinand II
+	}
+	1859.5.22 = {
+		holder = bourbon_49	# Francis II
+	}
+	1861.3.17 = {	# Italy
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_foggia = {
+	1808.8.1 = {
+		holder = bonaparte_5	# Joachim Murat
+	}
+	1815.5.19 = {
+		holder = bourbon_43	# Ferdinand III of Sicily
+	}
+	1825.1.4 = {
+		holder = bourbon_47	# Francis I
+	}
+	1830.11.8 = {
+		holder = bourbon_48	# Ferdinand II
+	}
+	1859.5.22 = {
+		holder = bourbon_49	# Francis II
+	}
+	1861.3.17 = {	# Italy
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+d_capua = {
+	1816.12.12 = {
+		de_jure_liege = k_sicily
+	}
+}
+c_capua = {
+	1808.8.1 = {
+		holder = bonaparte_5	# Joachim Murat
+	}
+	1815.5.19 = {
+		holder = bourbon_43	# Ferdinand III of Sicily
+	}
+	1825.1.4 = {
+		holder = bourbon_47	# Francis I
+	}
+	1830.11.8 = {
+		holder = bourbon_48	# Ferdinand II
+	}
+	1859.5.22 = {
+		holder = bourbon_49	# Francis II
+	}
+	1861.3.17 = {	# Italy
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_napoli = {
+	1808.8.1 = {
+		holder = bonaparte_5	# Joachim Murat
+	}
+	1815.5.19 = {
+		holder = bourbon_43	# Ferdinand III of Sicily
+	}
+	1825.1.4 = {
+		holder = bourbon_47	# Francis I
+	}
+	1830.11.8 = {
+		holder = bourbon_48	# Ferdinand II
+	}
+	1859.5.22 = {
+		holder = bourbon_49	# Francis II
+	}
+	1861.3.17 = {	# Italy
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+d_apulia = {
+	1816.12.12 = {
+		de_jure_liege = k_sicily
+	}
+}
+c_apulia = {
+	1808.8.1 = {
+		holder = bonaparte_5	# Joachim Murat
+	}
+	1815.5.19 = {
+		holder = bourbon_43	# Ferdinand III of Sicily
+	}
+	1825.1.4 = {
+		holder = bourbon_47	# Francis I
+	}
+	1830.11.8 = {
+		holder = bourbon_48	# Ferdinand II
+	}
+	1859.5.22 = {
+		holder = bourbon_49	# Francis II
+	}
+	1861.3.17 = {	# Italy
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_bari = {
+	1808.8.1 = {
+		holder = bonaparte_5	# Joachim Murat
+	}
+	1815.5.19 = {
+		holder = bourbon_43	# Ferdinand III of Sicily
+	}
+	1825.1.4 = {
+		holder = bourbon_47	# Francis I
+	}
+	1830.11.8 = {
+		holder = bourbon_48	# Ferdinand II
+	}
+	1859.5.22 = {
+		holder = bourbon_49	# Francis II
+	}
+	1861.3.17 = {	# Italy
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_lecce = {
+	1808.8.1 = {
+		holder = bonaparte_5	# Joachim Murat
+	}
+	1815.5.19 = {
+		holder = bourbon_43	# Ferdinand III of Sicily
+	}
+	1825.1.4 = {
+		holder = bourbon_47	# Francis I
+	}
+	1830.11.8 = {
+		holder = bourbon_48	# Ferdinand II
+	}
+	1859.5.22 = {
+		holder = bourbon_49	# Francis II
+	}
+	1861.3.17 = {	# Italy
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+d_salerno = {
+	1816.12.12 = {
+		de_jure_liege = k_sicily
+	}
+}
+c_salerno = {
+	1808.8.1 = {
+		holder = bonaparte_5	# Joachim Murat
+	}
+	1815.5.19 = {
+		holder = bourbon_43	# Ferdinand III of Sicily
+	}
+	1825.1.4 = {
+		holder = bourbon_47	# Francis I
+	}
+	1830.11.8 = {
+		holder = bourbon_48	# Ferdinand II
+	}
+	1859.5.22 = {
+		holder = bourbon_49	# Francis II
+	}
+	1861.3.17 = {	# Italy
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_camarda = {
+	1808.8.1 = {
+		holder = bonaparte_5	# Joachim Murat
+	}
+	1815.5.19 = {
+		holder = bourbon_43	# Ferdinand III of Sicily
+	}
+	1825.1.4 = {
+		holder = bourbon_47	# Francis I
+	}
+	1830.11.8 = {
+		holder = bourbon_48	# Ferdinand II
+	}
+	1859.5.22 = {
+		holder = bourbon_49	# Francis II
+	}
+	1861.3.17 = {	# Italy
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+d_calabria = {
+	1808.8.1 = {
+		holder = bonaparte_5	# Joachim Murat
+	}
+	1815.5.19 = {
+		holder = bourbon_43	# Ferdinand III of Sicily
+	}
+	1816.12.12 = {
+		de_jure_liege = k_sicily
+	}
+	1825.1.4 = {
+		holder = bourbon_47	# Francis I
+	}
+	1830.11.8 = {
+		holder = bourbon_48	# Ferdinand II
+	}
+	1859.5.22 = {
+		holder = bourbon_49	# Francis II
+	}
+	1861.3.17 = {	# Italy
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_reggio_calabria = {
+	1808.8.1 = {
+		holder = bonaparte_5	# Joachim Murat
+	}
+	1815.5.19 = {
+		holder = bourbon_43	# Ferdinand III of Sicily
+	}
+	1825.1.4 = {
+		holder = bourbon_47	# Francis I
+	}
+	1830.11.8 = {
+		holder = bourbon_48	# Ferdinand II
+	}
+	1859.5.22 = {
+		holder = bourbon_49	# Francis II
+	}
+	1861.3.17 = {	# Italy
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_cosenza = {
+	1808.8.1 = {
+		holder = bonaparte_5	# Joachim Murat
+	}
+	1815.5.19 = {
+		holder = bourbon_43	# Ferdinand III of Sicily
+	}
+	1825.1.4 = {
+		holder = bourbon_47	# Francis I
+	}
+	1830.11.8 = {
+		holder = bourbon_48	# Ferdinand II
+	}
+	1859.5.22 = {
+		holder = bourbon_49	# Francis II
+	}
+	1861.3.17 = {	# Italy
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_rossano = {
+	1808.8.1 = {
+		holder = bonaparte_5	# Joachim Murat
+	}
+	1815.5.19 = {
+		holder = bourbon_43	# Ferdinand III of Sicily
+	}
+	1825.1.4 = {
+		holder = bourbon_47	# Francis I
+	}
+	1830.11.8 = {
+		holder = bourbon_48	# Ferdinand II
+	}
+	1859.5.22 = {
+		holder = bourbon_49	# Francis II
+	}
+	1861.3.17 = {	# Italy
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}

@@ -191,7 +191,7 @@ bourbon_13 = {
 		birth = yes
 	}
 	1741.1.10 = {
-		add_spouse = bourbon_11
+		add_spouse = bourbon_11	# Duchess Maria Josepha of Saxony
 	}
 	1765.12.20 = {
 		death = {
@@ -351,7 +351,7 @@ bourbon_23 = {
 		birth = yes
 	}
 	1809.11.25 = {
-#		add_spouse = 9177216	# Maria Amalia
+		add_spouse = bourbon_46	# Maria Amalia
 	}
 	1830.8.2 = {
 		effect = {
@@ -489,7 +489,7 @@ bourbon_32 = {
 	religion = catholic
 	culture = french
 	father = bourbon_23
-#	mother = 9177216
+	mother = bourbon_46
 	1810.9.3 = {
 		birth = yes
 	}
@@ -503,7 +503,7 @@ bourbon_33 = {
 	religion = catholic
 	culture = french
 	father = bourbon_23
-#	mother = 9177216
+	mother = bourbon_46
 	female = yes
 	trait = zealous
 	1812.4.3 = {
@@ -519,7 +519,7 @@ bourbon_34 = {
 	religion = catholic
 	culture = french
 	father = bourbon_23
-#	mother = 9177216
+	mother = bourbon_46
 	1814.10.25 = {
 		birth = yes
 	}
@@ -721,3 +721,185 @@ bourbon_42 = {
 	}
 }
 ####################
+
+## Italian line
+bourbon_43 = {
+	name = "Firdinannu"	# I of the Two Sicilies
+	dynasty_house = house_tts
+	religion = catholic
+	culture = sicilian
+	sexuality = heterosexual
+	father = bourbon_27
+	1751.1.12 = {
+		birth = yes
+	}
+	1815.5.19 = {
+		imprison = {
+			target = character:bonaparte_5	# Joachim Murat
+			type = dungeon
+		}
+		effect = {
+			add_realm_law_skip_effects = crown_authority_1
+			add_realm_law_skip_effects = male_only_law
+		}
+	}
+	1825.1.4 = {
+		death = yes
+	}
+}
+
+bourbon_44 = {
+	name = "Maria Teresa"	# of naples and sicily, Holy Roman Empress
+	dynasty_house = house_tts
+	religion = catholic
+	culture = sicilian
+	female = yes
+	father = bourbon_43
+	1772.6.6 = {
+		birth = yes
+	}
+	1807.4.13 = {
+		death = yes
+	}
+}
+
+bourbon_45 = {
+	name = "Leopoldo"	# of naples and sicily, Prince of Salerno
+	dynasty_house = house_tts
+	religion = catholic
+	culture = sicilian
+	father = bourbon_43
+	1790.7.2 = {
+		birth = yes
+	}
+	1816.7.28 = {
+		add_spouse = 9179146	# Archduchess Clementina of Austria
+	}
+	1851.3.10 = {
+		death = yes
+	}
+}
+
+bourbon_46 = {
+	name = "Maria Amalia"	# of naples and sicily, Queen of the French
+	dynasty_house = house_tts
+	religion = catholic
+	culture = sicilian
+	female = yes
+	father = bourbon_43
+	1782.4.26 = {
+		birth = yes
+	}
+	1825.1.4 = {
+		every_claim = {
+			limit = {
+				root = { has_strong_claim_on = prev }
+			}
+			root = {
+				remove_claim = prev
+			}
+		}
+	}
+	1866.3.24 = {
+		death = yes
+	}
+}
+
+bourbon_47 = {
+	name = "Franciscu"	# I of the Two Sicilies
+	dynasty_house = house_tts
+	religion = catholic
+	culture = sicilian
+	father = bourbon_43
+	1777.8.19 = {
+		birth = yes
+	}
+	1825.1.4 = {
+		effect = {
+			add_realm_law_skip_effects = crown_authority_1
+			add_realm_law_skip_effects = male_only_law
+		}
+	}
+	1830.11.8 = {
+		death = yes
+	}
+}
+
+bourbon_48 = {
+	name = "Firdinannu"	# II of the Two Sicilies
+	dynasty_house = house_tts
+	religion = catholic
+	culture = sicilian
+	father = bourbon_47
+	1810.1.12 = {
+		birth = yes
+	}
+	1830.11.8 = {
+		effect = {
+			add_realm_law_skip_effects = crown_authority_1
+			add_realm_law_skip_effects = male_only_law
+		}
+	}
+	1859.5.22 = {
+		death = yes
+	}
+}
+
+bourbon_49 = {
+	name = "Franciscu"	# II of the Two Sicilies
+	dynasty_house = house_tts
+	religion = catholic
+	culture = sicilian
+	father = bourbon_48
+	1836.1.16 = {
+		birth = yes
+	}
+	1894.12.27 = {
+		death = yes
+	}
+}
+####################
+
+## Spanish line continued
+bourbon_50 = {
+	name = "Francisco"
+	dynasty = 100146
+	religion = catholic
+	culture = castilian
+	father = bourbon_35
+	1794.3.10 = {
+		birth = yes
+	}
+	1865.8.13 = {
+		death = yes
+	}
+}
+
+bourbon_51 = {
+	name = "Francisco"
+	dynasty = 100146
+	religion = catholic
+	culture = castilian
+	father = bourbon_50
+	1822.5.13 = {
+		birth = yes
+	}
+	1902.4.17 = {
+		death = yes
+	}
+}
+
+bourbon_52 = {
+	name = "Maria Luisa"
+	dynasty = 100146
+	religion = catholic
+	culture = castilian
+	father = bourbon_27
+	female = yes
+	1745.11.24 = {
+		birth = yes
+	}
+	1792.5.15 = {
+		death = yes
+	}
+}

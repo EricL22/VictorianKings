@@ -14,6 +14,10 @@
  k_belgium:0 "Belgium"
  k_belgium_adj:0 "Belgian"
 
+ k_tts_article:0 "the "
+ k_tts:0 "Two Sicilies"
+ k_tts_adj:0 "Sicilian"
+
  c_faucigny:0 "Faucigny"
 
  # Noble families
