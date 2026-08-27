@@ -1009,7 +1009,7 @@ d_flanders = {
 		de_jure_liege = k_frisia
 	}
 	1814.4.11 = {	# Netherlands
-		holder = 8000001	# William I
+		holder = orange_0	# William I
 	}
 	1831.7.21 = {	# Belgium
 		holder = 8000034	# Leopold I
@@ -1021,7 +1021,7 @@ c_brugge = {
 		holder = bonaparte_2	# Napoleon I
 	}
 	1814.4.11 = {	# Netherlands
-		holder = 8000001
+		holder = orange_0	# William I
 	}
 	1831.7.21 = {	# Belgium
 		holder = 8000034
@@ -1032,7 +1032,7 @@ c_yperen = {
 		holder = bonaparte_2	# Napoleon I
 	}
 	1814.4.11 = {	# Netherlands
-		holder = 8000001
+		holder = orange_0	# William I
 	}
 	1831.7.21 = {	# Belgium
 		holder = 8000034

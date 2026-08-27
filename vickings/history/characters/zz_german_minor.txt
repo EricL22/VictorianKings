@@ -1,0 +1,127 @@
+lubeck_0 = {
+	name = "Christian Adolph Overbeck"
+	religion = protestant
+	culture = saxon
+	1755.8.21 = {
+		birth = yes
+	}
+	1821.3.9 = {
+		death = yes
+	}
+}
+lubeck_1 = {
+	name = "Christian Heinrich Kindler"
+	religion = protestant
+	culture = saxon
+	1762.8.28 = {
+		birth = yes
+	}
+	1845.3.10 = {
+		death = yes
+	}
+}
+lubeck_2 = {
+	name = "Heinrich Brehmer"
+	religion = protestant
+	culture = saxon
+	1800.6.22 = {
+		birth = yes
+	}
+	1872.9.18 = {
+		death = yes
+	}
+}
+lubeck_3 = {
+	name = "Johann Georg Eschenburg"
+	religion = protestant
+	culture = saxon
+	1844.4.1 = {
+		birth = yes
+	}
+	1936.2.3 = {
+		death = yes
+	}
+}
+
+
+hamburg_0 = {
+	name = "Friedrich von Graffen"
+	religion = protestant
+	culture = saxon
+	1745.11.7 = {
+		birth = yes
+	}
+	1820.3.17 = {
+		death = yes
+	}
+}
+hamburg_1 = {
+	name = "Johann Heinrich Bartels"
+	religion = protestant
+	culture = saxon
+	1761.5.20 = {
+		birth = yes
+	}
+	1850.2.1 = {
+		death = yes
+	}
+}
+hamburg_2 = {
+	name = "Friedrich Sieveking"
+	religion = protestant
+	culture = saxon
+	1798.4.28 = {
+		birth = yes
+	}
+	1872.12.25 = {
+		death = yes
+	}
+}
+hamburg_3 = {
+	name = "Max Predöhl"
+	religion = protestant
+	culture = saxon
+	1854.3.29 = {
+		birth = yes
+	}
+	1923.3.11 = {
+		death = yes
+	}
+}
+
+
+brunswick_0 = {
+	name = "Friedrich Wilhelm"	# Duke of Brunswick
+	religion = protestant
+	culture = saxon
+	1771.10.9 = {
+		birth = yes
+	}
+	1815.6.16 = {
+		death = yes
+	}
+}
+brunswick_1 = {
+	name = "Charles"	# II of Brunswick
+	religion = protestant
+	culture = saxon
+	father = brunswick_0
+	1804.10.30 = {
+		birth = yes
+	}
+	1873.8.19 = {
+		death = yes
+	}
+}
+brunswick_2 = {
+	name = "Wilhelm"	# Duke of Brunswick
+	religion = protestant
+	culture = saxon
+	father = brunswick_0
+	1806.4.25 = {
+		birth = yes
+	}
+	1884.10.18 = {
+		death = yes
+	}
+}

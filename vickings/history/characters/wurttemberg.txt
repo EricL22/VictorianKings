@@ -1,5 +1,5 @@
-﻿wurttemburg_0 = {
-	name = "Friedrich"	# I of Wurttemburg
+﻿wurttemberg_0 = {
+	name = "Friedrich"	# I of Wurttemberg
 	religion = catholic
 	culture = swabian
 	trait = giant
@@ -13,11 +13,11 @@
 	}
 }
 
-wurttemburg_1 = {
-	name = "Wilhelm"	# I of Wurttemburg
+wurttemberg_1 = {
+	name = "Wilhelm"	# I of Wurttemberg
 	religion = catholic
 	culture = swabian
-	father = wurttemburg_0
+	father = Wurttemberg_0
 	1781.9.27 = {
 		birth = yes
 	}
@@ -26,11 +26,11 @@ wurttemburg_1 = {
 	}
 }
 
-wurttemburg_2 = {
-	name = "Karl"	# I of Wurttemburg
+wurttemberg_2 = {
+	name = "Karl"	# I of Wurttemberg
 	religion = catholic
 	culture = swabian
-	father = wurttemburg_1
+	father = Wurttemberg_1
 	1823.3.6 = {
 		birth = yes
 	}
@@ -39,11 +39,11 @@ wurttemburg_2 = {
 	}
 }
 
-wurttemburg_3 = {
-	name = "Paul"	# prince of Wurttemburg
+wurttemberg_3 = {
+	name = "Paul"	# prince of Wurttemberg
 	religion = catholic
 	culture = swabian
-	father = wurttemburg_0
+	father = Wurttemberg_0
 	1785.1.19 = {
 		birth = yes
 	}
@@ -52,11 +52,11 @@ wurttemburg_3 = {
 	}
 }
 
-wurttemburg_4 = {
-	name = "Friedrich"	# prince of Wurttemburg
+wurttemberg_4 = {
+	name = "Friedrich"	# prince of Wurttemberg
 	religion = catholic
 	culture = swabian
-	father = wurttemburg_3
+	father = Wurttemberg_3
 	1808.2.21 = {
 		birth = yes
 	}
@@ -65,11 +65,11 @@ wurttemburg_4 = {
 	}
 }
 
-wurttemburg_5 = {
-	name = "Wilhelm"	# II of Wurttemburg
+wurttemberg_5 = {
+	name = "Wilhelm"	# II of Wurttemberg
 	religion = catholic
 	culture = swabian
-	father = wurttemburg_4
+	father = Wurttemberg_4
 	1848.2.25 = {
 		birth = yes
 	}

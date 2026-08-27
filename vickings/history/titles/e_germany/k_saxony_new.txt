@@ -2,7 +2,7 @@ k_saxony = {
 	1806.12.20 = {
 		effect = { set_capital_county = title:c_dresden }
 #		holder = 9000027
-#		liege = e_cdr
+		liege = e_cdr
 	}
 #	1827.5.5 = {
 #		holder = 9100033
@@ -257,19 +257,38 @@ c_brunswick = {
 	1807.7.8 = {	# Westphalia
 		holder = bonaparte_9	# Jerome Napoleon I
 	}
-#	1815.6.16 = {
-#		liege = 0
-#		holder = 8000008
-#	}
+	1815.6.16 = {	# Brunswick
+		liege = 0
+		holder = brunswick_1	# Charles II
+	}
+	1830.9.9 = {
+		holder = brunswick_2	# William
+	}
+	1913.11.1 = {
+		holder = hanover_13	# Ernest Augustus
+		liege = e_germany
+	}
 }
 c_hamburg = {
 	1804.5.18 = {	# France
 		holder = bonaparte_2
 	}
-#	1814.5.30 = {
-#		holder = 8000007
-#		liege = 0
-#	}
+	1814.5.30 = {	# Free City of Hamburg
+		holder = hamburg_0	# Friedrich von Graffen
+		liege = 0
+	}
+	1820.3.25 = {
+		holder = hamburg_1	# Johann Heinrich Bartels
+	}
+	1861.1.1 = {
+		holder = hamburg_2	# Friedrich Sieveking
+	}
+	1871.1.18 = {
+		liege = e_germany
+	}
+	1914.1.1 = {
+		holder = hamburg_3	# Max Predöhl
+	}
 }
 c_dannenberg = {
 	1807.7.8 = {	# Westphalia
@@ -313,10 +332,22 @@ c_lubeck = {
 		holder = bonaparte_2
 		liege = e_france
 	}
-#	1814.5.30 = {
-#		holder = 8000006
-#		liege = 0
-#	}
+	1814.5.30 = {	# Free City of Lübeck
+		holder = lubeck_0	# Christian Adolph Overbeck
+		liege = 0
+	}
+	1821.3.9 = {
+		holder = lubeck_1	# Christian Heinrich Kindler
+	}
+	1861.1.1 = {
+		holder = lubeck_2	# Heinrich Brehmer
+	}
+	1871.1.18 = {
+		liege = e_germany
+	}
+	1913.1.1 = {
+		holder = lubeck_3	# Johann Georg Eschenburg
+	}
 }
 c_stade = {
 	1804.5.18 = {	# France

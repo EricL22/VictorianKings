@@ -441,44 +441,44 @@ d_swabia = {
 }
 c_ulm = {
 	1797.12.22 = {
-		holder = wurttemburg_0	# Frederick I
+		holder = wurttemberg_0	# Frederick I
 	}
 	1816.10.30 = {
-		holder = wurttemburg_1	# William I
+		holder = wurttemberg_1	# William I
 	}
 	1864.6.25 = {
-		holder = wurttemburg_2	# Charles I
+		holder = wurttemberg_2	# Charles I
 	}
 	1891.10.6 = {
-		holder = wurttemburg_5	# William II
+		holder = wurttemberg_5	# William II
 	}
 }
 c_grunningen = {
 	1797.12.22 = {
-		holder = wurttemburg_0	# Frederick I
+		holder = wurttemberg_0	# Frederick I
 	}
 	1816.10.30 = {
-		holder = wurttemburg_1	# William I
+		holder = wurttemberg_1	# William I
 	}
 	1864.6.25 = {
-		holder = wurttemburg_2	# Charles I
+		holder = wurttemberg_2	# Charles I
 	}
 	1891.10.6 = {
-		holder = wurttemburg_5	# William II
+		holder = wurttemberg_5	# William II
 	}
 }
 c_wurttemberg = {
 	1797.12.22 = {
-		holder = wurttemburg_0	# Frederick I
+		holder = wurttemberg_0	# Frederick I
 	}
 	1816.10.30 = {
-		holder = wurttemburg_1	# William I
+		holder = wurttemberg_1	# William I
 	}
 	1864.6.25 = {
-		holder = wurttemburg_2	# Charles I
+		holder = wurttemberg_2	# Charles I
 	}
 	1891.10.6 = {
-		holder = wurttemburg_5	# William II
+		holder = wurttemberg_5	# William II
 	}
 }
 c_baden = {
@@ -507,30 +507,30 @@ c_baden = {
 }
 c_zollern = {
 	1797.12.22 = {
-		holder = wurttemburg_0	# Frederick I
+		holder = wurttemberg_0	# Frederick I
 	}
 	1816.10.30 = {
-		holder = wurttemburg_1	# William I
+		holder = wurttemberg_1	# William I
 	}
 	1864.6.25 = {
-		holder = wurttemburg_2	# Charles I
+		holder = wurttemberg_2	# Charles I
 	}
 	1891.10.6 = {
-		holder = wurttemburg_5	# William II
+		holder = wurttemberg_5	# William II
 	}
 }
 c_hohenberg = {
 	1797.12.22 = {
-		holder = wurttemburg_0	# Frederick I
+		holder = wurttemberg_0	# Frederick I
 	}
 	1816.10.30 = {
-		holder = wurttemburg_1	# William I
+		holder = wurttemberg_1	# William I
 	}
 	1864.6.25 = {
-		holder = wurttemburg_2	# Charles I
+		holder = wurttemberg_2	# Charles I
 	}
 	1891.10.6 = {
-		holder = wurttemburg_5	# William II
+		holder = wurttemberg_5	# William II
 	}
 }
 c_furstenberg = {
