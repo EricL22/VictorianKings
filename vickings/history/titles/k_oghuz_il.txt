@@ -1,0 +1,776 @@
+k_oghuz_il = {
+	867.1.1 = { change_development_level = 0 }
+	1066.1.1 = { change_development_level = 0 }
+	1178.1.1 = { change_development_level = 0 }
+	
+	#750 start of Oghuz il / Oghuz Yabgu state
+	762.1.1 = {
+		#holder = 188826
+		holder = 188825
+		government = nomad_government
+	}
+	
+	850.1.1 = {
+		holder = 74031
+	}
+	
+	#1055 end of Oghuz il
+	1055.1.1 = {
+		holder = 0
+	}
+}
+d_transcaspiana = {
+	1178.1.1 = {
+	}
+}
+c_mangyshlak = {
+	762.1.1 = {
+		government = nomad_government
+	}
+	
+	850.1.1 = {
+	}
+	
+	#1055 : end of Oghuz il
+	1055.1.2 = {
+	}
+	1093.10.30 = {
+	}
+	1124.10.9 = {
+	}
+	1140.8.2 = {
+	}
+	1178.1.1 = {
+	}
+	1185.9.1 = {
+	}
+	1210.3.4 = {
+	}
+	
+	#Mongols
+	1221.1.1 = {
+	}
+	1227.12.2 = {
+	}
+}
+c_buzachi = {
+	762.1.1 = {
+		government = nomad_government
+	}
+	
+	850.1.1 = {
+	}
+	
+	#1055 : end of Oghuz il
+	1055.1.2 = {
+		government = herder_government
+	}
+	1093.10.30 = {
+		government = nomad_government
+	}
+	1124.10.9 = {
+	}
+	1140.8.2 = {
+	}
+	1178.1.1 = {
+	}
+	1185.9.1 = {
+	}
+	1210.3.4 = {
+	}
+	
+	#Mongols
+	1221.1.1 = {
+	}
+	1227.12.2 = {
+	}
+}
+c_garabogazkol = {
+	762.1.1 = {
+		government = nomad_government
+	}
+	
+	850.1.1 = {
+	}
+	
+	#1055 : end of Oghuz il
+	1055.1.2 = {
+	}
+	1060.1.2 = {
+	}
+	1093.10.30 = {
+	}
+	1124.10.9 = {
+	}
+	1140.8.2 = {
+	}
+	1172.3.1 = {
+	}
+	1178.1.1 = {
+		government = nomad_government
+	}
+	1185.9.1 = {
+	}
+	1210.3.4 = {
+	}
+	
+	#Mongols
+	1221.1.1 = {
+	}
+	1227.12.2 = {
+	}
+}
+c_bekdas = {
+	762.1.1 = {
+		government = nomad_government
+	}
+	
+	850.1.1 = {
+		government = herder_government
+	}
+	
+	#1055 : end of Oghuz il
+	1055.1.2 = {
+		government = nomad_government
+	}
+	1060.1.2 = {
+	}
+	1093.10.30 = {
+	}
+	1124.10.9 = {
+	}
+	1140.8.2 = {
+	}
+	1172.3.1 = {
+	}
+	1178.1.1 = {
+	}
+	1185.9.1 = {
+	}
+	1210.3.4 = {
+	}
+	
+	#Mongols
+	1221.1.1 = {
+	}
+	1227.12.2 = {
+	}
+}
+c_oglamych = {
+	762.1.1 = {
+		government = nomad_government
+	}
+	
+	850.1.1 = {
+	}
+	
+	#1055 : end of Oghuz il
+	1055.1.2 = {
+	}
+	1060.1.2 = {
+	}
+	1093.10.30 = {
+	}
+	1124.10.9 = {
+	}
+	1140.8.2 = {
+	}
+	1172.3.1 = {
+	}
+	1178.1.1 = {
+	}
+	1185.9.1 = {
+	}
+	1210.3.4 = {
+	}
+	
+	#Mongols
+	1221.1.1 = {
+	}
+	1227.12.2 = {
+	}
+}
+c_qaraustyurt = {
+	762.1.1 = {
+		government = nomad_government
+	}
+	
+	850.1.1 = {
+	}
+	
+	#1055 : end of Oghuz il
+	1055.1.2 = {
+	}
+	1093.10.30 = {
+	}
+	1124.10.9 = {
+	}
+	1140.8.2 = {
+	}
+	1178.1.1 = {
+	}
+	1185.9.1 = {
+	}
+	1210.3.4 = {
+	}
+	
+	#Mongols
+	1221.1.1 = {
+	}
+	1227.12.2 = {
+	}
+
+}
+c_qyzylustyurt = {
+	762.1.1 = {
+		government = nomad_government
+	}
+	
+	850.1.1 = {
+		government = herder_government
+	}
+	
+	#1055 : end of Oghuz il
+	1055.1.2 = {
+		government = nomad_government
+	}
+	1093.10.30 = {
+	}
+	1124.10.9 = {
+	}
+	1140.8.2 = {
+	}
+	1178.1.1 = {
+		government = nomad_government
+	}
+	1185.9.1 = {
+	}
+	1210.3.4 = {
+	}
+	
+	#Mongols
+	1221.1.1 = {
+	}
+	1227.12.2 = {
+	}
+
+}
+d_jemba = {
+	1178.1.1 = {
+		government = nomad_government
+	}
+}
+c_qoshagyl = {
+	762.1.1 = {
+		government = nomad_government
+	}
+	
+	850.1.1 = {
+	}
+	
+	#1050 - Desht-i-Kipchak / Cumania
+	1060.1.1 = {
+		government = herder_government
+	}
+	
+	#1178
+	1178.1.1 = {
+		government = nomad_government
+	}
+	1200.1.1 = {
+	}
+	1207.1.1 = {
+	}
+	
+	#Mongols
+	1221.1.1 = {
+	}
+	1221.1.1 = {
+	}
+	1227.12.2 = {
+	}
+	1260.1.1 = {
+	}
+	1300.1.1 = {
+	}
+
+}
+c_tengiz = {
+	762.1.1 = {
+		government = nomad_government
+	}
+	
+	850.1.1 = {
+	}
+	
+	#1050 - Desht-i-Kipchak / Cumania
+	1060.1.1 = {
+		government = herder_government
+	}
+	
+	#1178
+	1178.1.1 = {
+		government = nomad_government
+	}
+	1200.1.1 = {
+	}
+	1207.1.1 = {
+	}
+	
+	#Mongols
+	1221.1.1 = {
+	}
+	1221.1.1 = {
+	}
+	1227.12.2 = {
+	}
+	1260.1.1 = {
+	}
+	1300.1.1 = {
+	}
+
+}
+c_akkityk = {
+	762.1.1 = {
+		government = nomad_government
+	}
+	
+	850.1.1 = {
+		government = herder_government
+	}
+	
+	#1050 - Desht-i-Kipchak / Cumania
+	1060.1.1 = {
+		government = herder_government
+	}
+	
+	#1178
+	1178.1.1 = {
+		government = nomad_government
+	}
+	1200.1.1 = {
+	}
+	1207.1.1 = {
+	}
+	
+	#Mongols
+	1221.1.1 = {
+	}
+	1221.1.1 = {
+	}
+	1227.12.2 = {
+	}
+	1260.1.1 = {
+	}
+	1300.1.1 = {
+	}
+
+}
+c_namastau = {
+	762.1.1 = {
+		government = nomad_government
+	}
+	
+	850.1.1 = {
+	}
+	
+	#1050 - Desht-i-Kipchak / Cumania
+	1063.1.1 = {
+	}
+	
+	#1178
+	1178.1.1 = {
+		government = nomad_government
+	}
+	1200.1.1 = {
+		government = nomad_government
+	}
+	1207.1.1 = {
+	}
+	
+	#Mongols
+	1221.1.1 = {
+	}
+	1221.1.1 = {
+	}
+	1227.12.2 = {
+	}
+	1260.1.1 = {
+	}
+	1300.1.1 = {
+	}
+
+}
+c_churuk = {
+	762.1.1 = {
+		government = nomad_government
+	}
+	
+	850.1.1 = {
+	}
+	
+	#1050 - Desht-i-Kipchak / Cumania
+	1055.1.1 = {
+	}
+	
+	#1178
+	1178.1.1 = {
+		government = nomad_government
+	}
+	1200.1.1 = {
+	}
+	1207.1.1 = {
+	}
+	
+	#Mongols
+	1221.1.1 = {
+	}
+	1221.1.1 = {
+	}
+	1227.12.2 = {
+	}
+	1260.1.1 = {
+	}
+	1300.1.1 = {
+	}
+
+}
+d_aral_il = {
+	850.1.1 = {
+		government = nomad_government
+	}
+	
+	1066.1.1 = {
+	}
+	
+	1178.1.1 = {
+	}
+}
+c_yangikent = {
+	762.1.1 = {
+		government = nomad_government
+	}
+	
+	850.1.1 = {
+	}
+	
+	#1066 start
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+	1200.1.1 = {
+	}
+	1207.1.1 = {
+	}
+	1221.1.1 = {
+	}
+	1221.1.1 = {
+	}
+	1227.12.2 = {
+	}
+	1260.1.1 = {
+	}
+	1300.1.1 = {
+	}
+
+}
+c_raimskoe = {
+	762.1.1 = {
+		government = nomad_government
+	}
+	
+	850.1.1 = {
+	}
+	
+	#1050 - Desht-i-Kipchak / Cumania
+	1065.1.1 = {
+	}
+	
+	#1085.1.1 = {
+	#}
+	#1097.1.1 = {
+	#}
+	#1127.1.1 = {
+	#}
+	#1156.1.1 = {
+	#}
+	
+	#1178
+	1172.3.1 = {
+	}
+	1178.1.1 = {
+	}
+	1200.1.1 = {
+	}
+	1207.1.1 = {
+	}
+	
+	#Mongols
+	1221.1.1 = {
+	}
+	1221.1.1 = {
+	}
+	1227.12.2 = {
+	}
+	1260.1.1 = {
+	}
+	1300.1.1 = {
+	}
+
+}
+c_aralkizil = {
+	762.1.1 = {
+		government = nomad_government
+	}
+	
+	850.1.1 = {
+	}
+	
+	#1055 - End of Oghuz il
+	1055.1.2 = {
+	}
+	1096.12.21 = {
+	}
+	1109.8.13 = {
+	}
+	1136.5.10 = {
+	}
+	1163.1.14 = {
+	}
+	1178.1.1 = {
+	}
+	1195.4.9 = {
+	}
+	
+	#Mongols
+	1221.1.1 = {
+	}
+	1227.12.2 = {
+	}
+}
+d_barsuki = {
+	1178.1.1 = {
+		government = nomad_government
+	}
+}
+c_terekli = {
+	762.1.1 = {
+		government = nomad_government
+	}
+	
+	850.1.1 = {
+		government = herder_government
+	}
+	
+	#1050 - Desht-i-Kipchak / Cumania
+	1054.1.1 = {
+		government = nomad_government
+	}
+	
+	#1178
+	1178.1.1 = {
+		government = nomad_government
+	}
+	1200.1.1 = {
+	}
+	1207.1.1 = {
+	}
+	
+	#Mongols
+	1221.1.1 = {
+	}
+	1221.1.1 = {
+	}
+	1227.12.2 = {
+	}
+	1260.1.1 = {
+	}
+	1300.1.1 = {
+	}
+
+}
+c_airyuk = {
+	762.1.1 = {
+		government = nomad_government
+	}
+	
+	850.1.1 = {
+		government = herder_government
+	}
+	
+	#1050 - Desht-i-Kipchak / Cumania
+	1039.1.1 = {
+		government = nomad_government
+	}
+	
+	#1178
+	1178.1.1 = {
+		government = nomad_government
+	}
+	1200.1.1 = {
+	}
+	1207.1.1 = {
+	}
+	
+	#Mongols
+	1221.1.1 = {
+	}
+	1221.1.1 = {
+	}
+	1227.12.2 = {
+	}
+	1260.1.1 = {
+	}
+	1300.1.1 = {
+	}
+
+}
+c_barsuki = {
+	762.1.1 = {
+		government = nomad_government
+	}
+	
+	850.1.1 = {
+	}
+	
+	#1050 - Desht-i-Kipchak / Cumania
+	1039.1.1 = {
+	}
+	
+	#1178
+	1178.1.1 = {
+	}
+	1200.1.1 = {
+	}
+	1207.1.1 = {
+	}
+	
+	#Mongols
+	1221.1.1 = {
+	}
+	1221.1.1 = {
+	}
+	1227.12.2 = {
+	}
+	1260.1.1 = {
+	}
+	1300.1.1 = {
+	}
+
+}
+c_jamantau = {
+	762.1.1 = {
+		government = nomad_government
+	}
+	
+	850.1.1 = {
+		government = herder_government
+	}
+	
+	#1050 - Desht-i-Kipchak / Cumania
+	1063.1.1 = {
+		government = nomad_government
+	}
+	
+	#1178
+	1178.1.1 = {
+		government = nomad_government
+	}
+	1200.1.1 = {
+	}
+	1207.1.1 = {
+	}
+	
+	#Mongols
+	1221.1.1 = {
+	}
+	1221.1.1 = {
+	}
+	1227.12.2 = {
+	}
+	1260.1.1 = {
+	}
+	1300.1.1 = {
+	}
+
+}
+c_aral_karakum = {
+	762.1.1 = {
+		government = nomad_government
+	}
+	
+	850.1.1 = {
+	}
+	
+	#1050 - Desht-i-Kipchak / Cumania
+	1054.1.1 = {
+	}
+	
+	#1085.1.1 = {
+	#}
+	#1097.1.1 = {
+	#}
+	
+	#1178
+	1178.1.1 = {
+		government = nomad_government
+	}
+	1200.1.1 = {
+		government = nomad_government
+	}
+	1207.1.1 = {
+	}
+	
+	#Mongols
+	1221.1.1 = {
+	}
+	1221.1.1 = {
+	}
+	1227.12.2 = {
+	}
+	1260.1.1 = {
+	}
+	1300.1.1 = {
+	}
+
+}
+c_chalkar = {
+	762.1.1 = {
+		government = nomad_government
+	}
+	
+	850.1.1 = {
+	}
+	
+	#1050 - Desht-i-Kipchak / Cumania
+	1054.1.1 = {
+	}
+	
+	#1085.1.1 = {
+	#}
+	#1097.1.1 = {
+	#}
+	
+	#1178
+	1178.1.1 = {
+		government = nomad_government
+	}
+	1200.1.1 = {
+	}
+	1207.1.1 = {
+	}
+	
+	#Mongols
+	1221.1.1 = {
+	}
+	1221.1.1 = {
+	}
+	1227.12.2 = {
+	}
+	1260.1.1 = {
+	}
+	1300.1.1 = {
+	}
+
+}

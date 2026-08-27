@@ -1,0 +1,372 @@
+d_BAL_parhae = {
+	867.1.1 = {
+		government = meritocratic_government
+	}
+	1066.1.1 = {
+	}
+	
+	#JIN dynasty
+	1150.1.1 = {
+		government = nomad_government
+	}
+	1176.1.1 = {
+	}
+}
+c_BAL_yongcheon = {
+	867.1.1 = { change_development_level = 8 }
+	1066.1.1 = { change_development_level = 11 }
+	1178.1.1 = { change_development_level = 15 }
+	
+	867.1.1 = {
+		government = meritocratic_government
+	}	
+	1066.1.1 = {
+	}
+	
+	#JIN dynasty
+	1150.1.1 = {
+	}
+	1176.1.1 = {
+		government = nomad_government
+	}
+}
+c_BAL_west_hyeondeok = {
+	867.1.1 = { change_development_level = 8 }
+	1066.1.1 = { change_development_level = 11 }
+	1178.1.1 = { change_development_level = 15 }
+	
+	867.1.1 = {
+		government = meritocratic_government
+	}
+	1066.1.1 = {
+		government = nomad_government
+	}
+	
+	#JIN dynasty
+	1150.1.1 = {
+	}
+	1176.1.1 = {
+	}
+}
+c_BAL_east_hyeondeok = {
+	867.1.1 = {
+		government = meritocratic_government
+	}
+	1066.1.1 = {
+		government = nomad_government
+	}
+	
+	#JIN dynasty
+	1178.1.1 = {
+	}
+}
+c_BAL_dongju = {
+	867.1.1 = { change_development_level = 8 }
+	1066.1.1 = { change_development_level = 11 }
+	1178.1.1 = { change_development_level = 15 }
+	
+	867.1.1 = {
+		government = meritocratic_government
+	}
+	1066.1.1 = {
+	}
+	
+	#JIN dynasty
+	1150.1.1 = {
+	}
+	1176.1.1 = {
+		government = nomad_government
+	}
+}
+c_BAL_yeongju = {
+	867.1.1 = {
+		government = nomad_government
+	}
+	1066.1.1 = {
+	}	
+	#JIN dynasty
+	1178.1.1 = {
+	}
+}
+d_BAL_moe_su = {
+	867.1.1 = {
+	}
+	
+	#Wanyan Jurchens
+	#Wanyan clan arrived here before, but timeline very unsure
+	1023.1.1 = {	#unsure when reign started
+		government = nomad_government
+	}
+	1055.1.1 = {	#unsure when reign started
+	}
+	1074.1.1 = {
+	}
+	1092.1.1 = {
+	}
+	1094.1.1 = {
+	}
+	
+	#JIN dynasty
+	1113.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_BAL_makhil = {
+	867.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+	1178.1.1 = { change_development_level = 15 }
+
+	867.1.1 = {
+		government = meritocratic_government
+	}
+	
+	#Wanyan Jurchens
+	#Wanyan clan arrived here before, but timeline very unsure
+	1023.1.1 = {	#unsure when reign started
+		government = nomad_government
+	}
+	1055.1.1 = {	#unsure when reign started
+	}
+	1074.1.1 = {
+	}
+	1092.1.1 = {
+	}
+	1094.1.1 = {
+	}
+	
+	#JIN dynasty
+	1113.1.1 = {
+	}
+	1178.1.1 = {
+		government = nomad_government
+	}
+}
+c_BAL_west_makhil = {
+	867.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 5 }
+	1178.1.1 = { change_development_level = 8 }
+
+	867.1.1 = {
+		government = meritocratic_government
+	}
+	
+	#Wanyan Jurchens
+	#Wanyan clan arrived here before, but timeline very unsure
+	1023.1.1 = {	#unsure when reign started
+		government = nomad_government
+	}
+	1055.1.1 = {	#unsure when reign started
+	}
+	1074.1.1 = {
+	}
+	1092.1.1 = {
+	}
+	1094.1.1 = {
+	}
+	
+	#JIN dynasty
+	1113.1.1 = {
+	}
+	1178.1.1 = {
+		government = nomad_government
+	}
+}
+c_BAL_sokju = {
+	867.1.1 = {
+		government = meritocratic_government
+	}	
+	
+	1066.1.1 = {
+		government = nomad_government
+	}
+	
+	#JIN dynasty
+	1113.1.1 = {
+	}
+	1150.1.1 = {
+	}
+	1176.1.1 = {
+	}
+}
+d_BAL_buyeo = {
+	867.1.1 = {
+		government = meritocratic_government
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+		government = nomad_government
+	}
+}
+c_BAL_fuzhou = {
+	867.1.1 = {
+		government = meritocratic_government
+	}
+	1066.1.1 = {
+		government = nomad_government
+	}
+	1178.1.1 = {
+		government = nomad_government
+	}
+}
+c_BAL_changchun = {
+	867.1.1 = {
+		government = meritocratic_government
+	}
+	1066.1.1 = {
+		government = nomad_government
+	}
+	#JIN dynasty
+	1178.1.1 = {
+		government = nomad_government
+	}
+}
+c_BAL_yizhou = {
+	867.1.1 = {
+		government = meritocratic_government
+	}
+	1066.1.1 = {
+		government = nomad_government
+	}
+	#JIN dynasty
+	1178.1.1 = {
+		government = nomad_government
+	}
+}
+c_BAL_xinzhou = {
+	867.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 5 }
+	1178.1.1 = { change_development_level = 8 }
+
+	867.1.1 = {
+	}
+	1066.1.1 = {
+		government = nomad_government
+	}
+	#JIN dynasty
+	1178.1.1 = {
+		government = nomad_government
+	}
+}
+d_BAL_amnok_jangryeong = {
+	867.1.1 = {
+		government = meritocratic_government
+	}
+	1066.1.1 = {
+		government = nomad_government
+	}
+	#JIN dynasty
+	1178.1.1 = {
+	}
+}
+c_BAL_east_amnok = {
+	867.1.1 = {
+		government = meritocratic_government
+	}
+	1066.1.1 = {
+		government = nomad_government
+	}
+	#JIN dynasty
+	1178.1.1 = {
+	}
+}
+c_BAL_west_amnok = {
+	867.1.1 = {
+		government = meritocratic_government
+	}
+	1066.1.1 = {
+		government = nomad_government
+	}
+	#JIN dynasty
+	1178.1.1 = {
+	}
+}
+c_BAL_east_jangryeong = {
+	867.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 5 }
+	1178.1.1 = { change_development_level = 8 }
+
+	867.1.1 = {
+		government = meritocratic_government
+	}
+	1066.1.1 = {
+		government = nomad_government
+	}
+	#JIN dynasty
+	1178.1.1 = {
+	}
+}
+c_BAL_west_jangryeong = {
+	867.1.1 = {
+		government = meritocratic_government
+	}
+	1066.1.1 = {
+		government = nomad_government
+	}
+	1178.1.1 = {
+		government = nomad_government
+	}
+}
+d_BAL_southern_balhae = {
+	867.1.1 = {
+		government = meritocratic_government
+	}
+	1066.1.1 = {
+	}
+}
+c_BAL_namhae = {
+	867.1.1 = {
+		government = meritocratic_government
+		#succession_laws = { noble_family_succession_law }
+	}
+	1066.1.1 = {
+		government = nomad_government
+	}
+	#JIN dynasty
+	1178.1.1 = {
+	}
+}
+c_BAL_fengzhou = {
+	867.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 5 }
+	1178.1.1 = { change_development_level = 8 }
+	
+	867.1.1 = {
+		government = meritocratic_government
+	}
+	1066.1.1 = {
+		government = nomad_government
+	}
+	#JIN dynasty
+	1178.1.1 = {
+	}
+}
+c_BAL_southyongwon = {	
+	867.1.1 = {
+		government = meritocratic_government
+	}	
+	1066.1.1 = {
+		government = nomad_government
+	}
+	
+	#JIN dynasty
+	1178.1.1 = {
+	}
+}
+c_BAL_northyongwon = {
+	867.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 5 }
+	1178.1.1 = { change_development_level = 8 }
+
+	867.1.1 = {
+		government = meritocratic_government
+	}
+	1066.1.1 = {
+		government = nomad_government
+	}
+	
+	#JIN dynasty
+	1178.1.1 = {
+	}
+}

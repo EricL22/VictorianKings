@@ -1,0 +1,195 @@
+d_eman_boli = {
+	1178.1.1 = {
+		government = nomad_government
+	}
+}
+c_eman_boli = {
+	867.1.1 = {
+	}
+	1066.1.1 = {
+		government = nomad_government
+	}
+	#JIN dynasty
+	1178.1.1 = {
+	}
+}
+c_eman_molihewen = {
+	867.1.1 = {
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_eman_mohean = {
+	867.1.1 = {
+	}
+	1066.1.1 = {
+		government = nomad_government
+	}
+	#JIN dynasty
+	1178.1.1 = {
+	}
+}
+c_eman_choripi = {
+	867.1.1 = {
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_eman_yerenhe = {
+	867.1.1 = {
+	}
+	1066.1.1 = {
+		government = nomad_government
+	}
+	1178.1.1 = {
+	}
+}
+c_eman_wuguihai = {
+	867.1.1 = {
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_eman_heishuiyang = {
+	867.1.1 = {
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_eman_beihean = {
+	867.1.1 = {
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_eman_tudali = {
+	867.1.1 = {
+		government = tribal_government
+	}	
+	1066.1.1 = {
+	}	
+	1178.1.1 = {
+	}
+}
+c_eman_yam_alin = {
+	867.1.1 = {
+		government = tribal_government
+	}	
+	1066.1.1 = {
+	}	
+	1178.1.1 = {
+	}
+}
+c_eman_khadul = {
+	867.1.1 = {
+		government = tribal_government
+	}	
+	1066.1.1 = {
+	}	
+	1178.1.1 = {
+	}
+}
+c_eman_kerin = {
+	867.1.1 = {
+		government = tribal_government
+	}	
+	1066.1.1 = {
+	}	
+	1178.1.1 = {
+	}
+}
+c_eman_nurgan = {
+	867.1.1 = {
+		government = tribal_government
+	}	
+	1066.1.1 = {
+	}	
+	1178.1.1 = {
+	}
+}
+c_eman_amgun = {
+	867.1.1 = {
+		government = tribal_government
+	}	
+	1066.1.1 = {
+	}	
+	1178.1.1 = {
+	}
+}
+c_eman_tugur = {
+	867.1.1 = {
+		government = tribal_government
+	}	
+	1066.1.1 = {
+	}	
+	1178.1.1 = {
+	}
+}
+c_eman_murkonno = {	
+	867.1.1 = {
+	}
+	1066.1.1 = {
+		government = nomad_government
+	}
+	#JIN dynasty
+	1178.1.1 = {
+	}
+}
+c_eman_urmi = {
+	867.1.1 = {
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_eman_vanda = {
+	867.1.1 = {
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_eman_nimen = {
+	867.1.1 = {
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_eman_turma = {	
+	867.1.1 = {
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_eman_birija = {
+	867.1.1 = {
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_eman_urehokto = {
+	867.1.1 = {
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}

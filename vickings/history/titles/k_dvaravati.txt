@@ -1,0 +1,698 @@
+d_lop_buri = {
+	#867
+	867.1.1. = {
+		government = mandala_government
+	}
+	927.1.1 = {
+	}
+	946.1.1 = {
+	}
+	949.1.1 = {
+	}
+	1000.1.1 = {
+	}
+	1002.1.1 = {
+	}
+	1030.1.1 = {
+		tributary_of = {	#"Conquered" by Suryavarman I in 1006-1050
+			suzerain = k_funan
+			contract_group = tributary_mandala
+		}
+	}
+	
+	#1066
+	1052.1.1 = {
+		#tributary_of = {	#"Conquered" by Suryavarman I in 1006-1050
+		#	suzerain = k_funan
+		#	contract_group = tributary_mandala
+		#}
+	}
+	1066.1.1 = {
+		tributary_of = {
+			suzerain = k_funan
+			contract_group = tributary_mandala
+		}
+	}
+	1069.1.1 = {
+	}
+	1082.1.1 = {
+	}
+	1087.1.1 = {
+	}
+	1106.1.1 = {
+	}
+	1112.1.1 = {
+	}
+	1148.1.1 = {
+	}
+	
+	#1178
+	1170.12.17 = {
+	}
+	1177.1.1 = {
+		tributary_of = {
+			suzerain = c_angkor	#Khmer empire in shambles from 1177-1181
+			contract_group = tributary_mandala
+		}
+	}
+}
+c_lop_buri = {
+	867.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 12 }
+	1178.1.1 = { change_development_level = 21 }
+	
+	#867
+	867.1.1. = {
+		government = mandala_government
+	}
+	927.1.1 = {
+	}
+	949.1.1 = {
+	}
+	1030.1.1 = {
+	}
+	
+	#1066
+	1052.1.1 = {
+	}
+	1082.1.1 = {
+	}
+	1106.1.1 = {
+	}
+	1112.1.1 = {
+	}
+	1148.1.1 = {
+	}
+	
+	#1178
+	1170.12.17 = {
+	}
+}
+c_khu_bua = {
+	867.1.1 = { change_development_level = 6 }
+	1066.1.1 = { change_development_level = 9 }
+	1178.1.1 = { change_development_level = 14 }
+
+	867.1.1. = {
+		government = mandala_government
+		tributary_of = {
+			suzerain = k_dvaravati
+			contract_group = tributary_mandala
+		}
+	}
+	1066.1.1 = {
+		tributary_of = {
+			suzerain = d_lop_buri
+			contract_group = tributary_mandala
+		}
+	}
+	1178.1.1 = {
+		tributary_of = {	#as "Chen-li-fu"
+			suzerain = c_angkor	#Khmer empire in shambles from 1177-1181
+			contract_group = tributary_mandala
+		}
+	}
+}
+c_nakhon_pathom = {	#Suphannabhum = Suvarnabhumi = Suphan Buri = Xian
+	867.1.1 = { change_development_level = 9 }
+	1066.1.1 = { change_development_level = 15 }
+	1178.1.1 = { change_development_level = 27 }
+
+	867.1.1. = {
+		government = mandala_government
+		tributary_of = {
+			suzerain = k_dvaravati
+			contract_group = tributary_mandala
+		}
+	}
+	1066.1.1 = {
+		tributary_of = {
+			suzerain = d_lop_buri
+			contract_group = tributary_mandala
+		}
+	}
+	1178.1.1 = {
+		tributary_of = {
+			suzerain = d_lop_buri
+			contract_group = tributary_mandala
+		}
+	}
+}
+c_luang_prabang = {	#aka Muang Sua
+	867.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 13 }
+	1178.1.1 = { change_development_level = 23 }
+
+	867.1.1 = {
+	}
+	1059.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_chiang_khaeng = {
+	867.1.1 = { change_development_level = 4 }
+	1066.1.1 = { change_development_level = 8 }
+	1178.1.1 = { change_development_level = 14 }
+
+	867.1.1 = {
+	}
+	1059.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_nan_asia = {
+	867.1.1 = { change_development_level = 4 }
+	1066.1.1 = { change_development_level = 8 }
+	1178.1.1 = { change_development_level = 14 }
+
+	867.1.1 = {
+		#if = {
+		#	limit = {
+		#		exists = holder
+		#		NOT = { has_dlc_feature = tgp }
+		#	}
+		#	holder = {
+		#		change_government = feudal_government
+		#		add_realm_law_skip_effects = single_heir_succession_law
+		#	}
+		#}
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_ngoenyang = {
+	867.1.1 = { change_development_level = 6 }
+	1066.1.1 = { change_development_level = 11 }
+	1178.1.1 = { change_development_level = 19 }
+	
+	#867
+	867.1.1 = {
+		government = mandala_government
+	}
+
+	908.1.1 = {
+	}
+
+	928.1.1 = {
+	}
+
+	943.1.1 = {
+	}
+
+	963.1.1 = {
+	}
+
+	980.1.1 = {
+	}
+
+	1001.1.1 = {
+	}
+
+	1028.1.1 = {
+	}
+
+	1043.1.1 = {
+	}
+
+	1050.1.1 = {
+	}
+
+	1059.1.1 = {
+	}
+	
+	#1066
+	1080.1.1 = {
+	}
+
+	1156.1.1 = {
+	}
+	
+	#1178
+	1178.1.1 = {
+	}
+
+	1199.1.1 = {
+	}
+
+	1250.1.1 = {
+	}
+
+	1261.1.1 = {
+	}
+}
+c_chakangrao = {
+	867.1.1 = { change_development_level = 4 }
+	1066.1.1 = { change_development_level = 8 }
+	1178.1.1 = { change_development_level = 13 }
+
+	867.1.1 = {
+		government = mandala_government
+		tributary_of = {
+			suzerain = k_dvaravati
+			contract_group = tributary_mandala
+		}
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+		tributary_of = {
+			suzerain = d_lop_buri
+			contract_group = tributary_mandala
+		}
+	}
+}
+c_phetchabun = {
+	867.1.1 = { change_development_level = 4 }
+	1066.1.1 = { change_development_level = 7 }
+	1178.1.1 = { change_development_level = 12 }
+
+	867.1.1 = {
+		government = mandala_government
+		tributary_of = {
+			suzerain = k_dvaravati
+			contract_group = tributary_mandala
+		}
+	}
+	1066.1.1 = {
+		tributary_of = {
+			suzerain = d_lop_buri
+			contract_group = tributary_mandala
+		}
+	}
+	1178.1.1 = {
+	}
+}
+c_sukhothai = {	#Chaliang
+	867.1.1 = { change_development_level = 5 }
+	1066.1.1 = { change_development_level = 11 }
+	1178.1.1 = { change_development_level = 24 }
+
+	867.1.1 = {
+		government = mandala_government
+		tributary_of = {
+			suzerain = d_haripunjaya
+			contract_group = tributary_mandala
+		}
+	}
+	1066.1.1 = {
+		tributary_of = {
+			suzerain = d_haripunjaya
+			contract_group = tributary_mandala
+		}
+	}
+	1178.1.1 = {
+		tributary_of = {
+			suzerain = d_haripunjaya
+			contract_group = tributary_mandala
+		}
+	}
+}
+c_lampang = {	#Phayao
+	867.1.1 = { change_development_level = 5 }
+	1066.1.1 = { change_development_level = 9 }
+	1178.1.1 = { change_development_level = 15 }
+
+	867.1.1. = {
+		government = mandala_government
+		tributary_of = {
+			suzerain = d_haripunjaya
+			contract_group = tributary_mandala
+		}
+	}
+	1059.1.1 = { # Phu Kam Yao / Phayo Kingdom
+		#tributary_of = {
+		#	suzerain = d_haripunjaya
+		#	contract_group = tributary_mandala
+		#}
+	}
+	1066.1.1 = {
+		tributary_of = {
+			suzerain = d_haripunjaya
+			contract_group = tributary_mandala
+		}
+	}
+	1120.1.1 = {
+	}
+	1140.1.1 = {
+	}
+	1160.1.1 = {
+	}
+	1178.1.1 = {
+		tributary_of = {
+			suzerain = d_haripunjaya
+			contract_group = tributary_mandala
+		}
+	}
+	1180.1.1  = {
+	}
+}
+c_THAI_phetchaburi = {
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 5 }
+	1178.1.1 = { change_development_level = 9 }
+
+	867.1.1 = {
+		government = mandala_government
+	}
+	1066.1.1 = {
+		tributary_of = {
+			suzerain = k_funan
+			contract_group = tributary_mandala
+		}
+	}
+	1178.1.1 = {
+		tributary_of = {	#as "Chen-li-fu"
+			suzerain = c_angkor	#Khmer empire in shambles from 1177-1181
+			contract_group = tributary_mandala
+		}
+	}
+}
+c_THAI_tenasserim = {
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 5 }
+	1178.1.1 = { change_development_level = 9 }
+
+	867.1.1 = {
+		government = mandala_government
+	}
+	1066.1.1 = {
+		tributary_of = {
+			suzerain = k_pagan
+			contract_group = tributary_mandala
+		}
+	}
+	1178.1.1 = {
+		tributary_of = {
+			suzerain = k_pagan
+			contract_group = tributary_mandala
+		}
+	}
+}
+c_thanbyuzayat = {
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 5 }
+	1178.1.1 = { change_development_level = 9 }
+
+	867.1.1 = {
+	}
+	1066.1.1 = {
+		tributary_of = {
+			suzerain = k_pagan
+			contract_group = tributary_mandala
+		}
+	}
+	1178.1.1 = {
+	}
+}
+d_haripunjaya = {
+	662.1.1 = {
+		government = mandala_government
+		#if = {
+		#	limit = {
+		#		exists = holder
+		#		NOT = { has_dlc_feature = tgp }
+		#	}
+		#	holder = {
+		#		change_government = feudal_government
+		#		add_realm_law_skip_effects = single_heir_succession_law
+		#	}
+		#}
+	}
+	731.1.1 = {
+	}
+	749.1.1 = {
+	}
+	789.1.1 = {
+	}
+	816.1.1 = {
+	}
+	846.1.1 = {
+	}
+	
+	#867
+	856.1.1 = {
+	}
+	886.1.1 = {
+	}
+	894.1.1 = {
+	}
+	903.1.1 = {
+	}
+	912.1.1 = {
+	}
+	921.1.1 = {
+	}
+	930.1.1 = {
+	}
+	939.1.1 = {
+	}
+	948.1.1 = {
+	}
+	957.1.1 = {
+	}
+	966.1.1 = {
+	}
+	975.1.1 = {
+	}
+	984.1.1 = {
+	}
+	993.1.1 = {
+	}
+	1002.1.1 = {
+	}
+	1011.1.1 = {
+	}
+	1020.1.1 = {
+	}
+	1029.1.1 = {
+	}
+	1037.1.1 = {
+	}
+	1046.1.1 = {
+	}
+	1055.1.1 = {
+	}
+	
+	#1066
+	1064.1.1 = {
+	}
+	
+	#1178
+	1172.1.1 = {
+	}
+}
+c_hlaingbwe = {
+	867.1.1 = { change_development_level = 4 }
+	1066.1.1 = { change_development_level = 6 }
+	1178.1.1 = { change_development_level = 10 }
+
+	662.1.1 = {
+		government = mandala_government
+		#if = {
+		#	limit = {
+		#		exists = holder
+		#		NOT = { has_dlc_feature = tgp }
+		#	}
+		#	holder = {
+		#		change_government = feudal_government
+		#		add_realm_law_skip_effects = single_heir_succession_law
+		#	}
+		#}
+	}
+	731.1.1 = {
+	}
+	749.1.1 = {
+	}
+	789.1.1 = {
+	}
+	816.1.1 = {
+	}
+	846.1.1 = {
+	}
+	
+	#867
+	856.1.1 = {
+	}
+	886.1.1 = {
+	}
+	894.1.1 = {
+	}
+	903.1.1 = {
+	}
+	912.1.1 = {
+	}
+	921.1.1 = {
+	}
+	930.1.1 = {
+	}
+	939.1.1 = {
+	}
+	948.1.1 = {
+	}
+	957.1.1 = {
+	}
+	966.1.1 = {
+	}
+	975.1.1 = {
+	}
+	984.1.1 = {
+	}
+	993.1.1 = {
+	}
+	1002.1.1 = {
+	}
+	1011.1.1 = {
+	}
+	1020.1.1 = {
+	}
+	1029.1.1 = {
+	}
+	1037.1.1 = {
+	}
+	1046.1.1 = {
+	}
+	1055.1.1 = {
+	}
+	
+	#1066
+	1064.1.1 = {
+	}
+	
+	#1178
+	1172.1.1 = {
+	}
+}
+c_haripunjaya = {
+	867.1.1 = { change_development_level = 9 }
+	1066.1.1 = { change_development_level = 16 }
+	1178.1.1 = { change_development_level = 26 }
+
+	662.1.1 = {
+		government = mandala_government
+		#if = {
+		#	limit = {
+		#		exists = holder
+		#		NOT = { has_dlc_feature = tgp }
+		#	}
+		#	holder = {
+		#		change_government = feudal_government
+		#		add_realm_law_skip_effects = single_heir_succession_law
+		#	}
+		#}
+	}
+	731.1.1 = {
+	}
+	749.1.1 = {
+	}
+	789.1.1 = {
+	}
+	816.1.1 = {
+	}
+	846.1.1 = {
+	}
+	
+	#867
+	856.1.1 = {
+	}
+	886.1.1 = {
+	}
+	894.1.1 = {
+	}
+	903.1.1 = {
+	}
+	912.1.1 = {
+	}
+	921.1.1 = {
+	}
+	930.1.1 = {
+	}
+	939.1.1 = {
+	}
+	948.1.1 = {
+	}
+	957.1.1 = {
+	}
+	966.1.1 = {
+	}
+	975.1.1 = {
+	}
+	984.1.1 = {
+	}
+	993.1.1 = {
+	}
+	1002.1.1 = {
+	}
+	1011.1.1 = {
+	}
+	1020.1.1 = {
+	}
+	1029.1.1 = {
+	}
+	1037.1.1 = {
+	}
+	1046.1.1 = {
+	}
+	1055.1.1 = {
+	}
+	
+	#1066
+	1064.1.1 = {
+	}
+	
+	#1178
+	1172.1.1 = {
+	}
+}
+c_mae_hong_son = {
+	867.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 4 }
+	1178.1.1 = { change_development_level = 7 }
+
+	867.1.1 = {
+		tributary_of = {
+			suzerain = d_haripunjaya
+			contract_group = tributary_mandala
+		}
+	}
+	1066.1.1 = {
+	}
+	
+	#1178
+	1172.1.1 = {
+	}
+}
+d_sipsongpanna = { #Moang Lü
+	1059.1.1 = {
+		government = mandala_government
+	}
+	1080.1.1 = {
+	}
+}
+c_chiang_rung = { # AKA Jinglong
+	867.1.1 = { change_development_level = 5 }
+	1066.1.1 = { change_development_level = 9 }
+	1178.1.1 = { change_development_level = 15 }
+
+	867.1.1 = {
+	}
+	1059.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_moeng_long = {
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 6 }
+	1178.1.1 = { change_development_level = 10 }
+
+	867.1.1 = {
+	}
+	1059.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}

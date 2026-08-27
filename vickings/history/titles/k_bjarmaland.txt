@@ -1,0 +1,361 @@
+k_bjarmaland = {
+	867.1.1 = { change_development_level = 0 }
+	1066.1.1 = { change_development_level = 0 }
+	1178.1.1 = { change_development_level = 0 }
+}
+d_biarmia = {
+	867.1.1 = { change_development_level = 1 }
+	1066.1.1 = { change_development_level = 2 }
+	1178.1.1 = { change_development_level = 3 }
+	
+	935.1.1 = {
+		government = tribal_government	#Ahistorical, just for ease of bookmarks.
+	}
+	1066.1.2 = {
+	}
+	1100.1.2 = {
+	}
+}
+c_kholmogory = {
+	#867
+	853.3.16 = {
+		government = tribal_government
+	}
+	
+	#1066
+	1066.1.2 = {
+	}
+	
+	#Annexed by Novgorod
+	1100.1.2 = {
+	}
+	1101.3.12 = {
+	}
+	1128.2.18 = {
+	}
+	1157.8.18 = {
+	}
+
+}
+c_onega_BJA = {
+	#867
+	860.4.16 = {
+		government = tribal_government
+	}
+	
+	#1066
+	1066.1.2 = {
+	}
+	
+	#Annexed by Novgorod
+	1100.1.2 = {
+	}
+	1101.3.12 = {
+	}
+	1128.2.18 = {
+	}
+	1157.8.18 = {
+	}
+
+}
+c_povenets = {
+	#867
+	860.4.16 = {
+		government = tribal_government
+	}
+	
+	#1066
+	1066.1.2 = {
+	}
+	
+	#Annexed by Novgorod
+	1100.1.2 = {
+	}
+	1101.3.12 = {
+	}
+	1128.2.18 = {
+	}
+	1157.8.18 = {
+	}
+
+}
+c_pudozh = {
+	#867
+	860.4.16 = {
+		government = tribal_government
+	}
+	
+	#1066
+	1066.1.2 = {
+	}
+	
+	#Annexed by Novgorod
+	1100.1.2 = {
+	}
+	1101.3.12 = {
+	}
+	1128.2.18 = {
+	}
+	1157.8.18 = {
+	}
+
+}
+c_kargopol = {
+	#867
+	867.1.1 = {
+		government = tribal_government
+	}
+	884.1.29 = {
+	}
+	
+	#1066
+	1060.1.2 = {
+	}
+	#To Novgorod
+	1100.1.1 = {
+	}
+	1178.7.2 = {
+	}
+}
+c_kirillov = {
+	#867
+	867.1.1 = {
+		government = tribal_government
+	}
+	884.1.29 = {
+	}
+	
+	#1066
+	1060.1.2 = {
+	}
+	#To Novgorod
+	1100.1.1 = {
+	}
+	1178.7.2 = {
+	}
+}
+c_totma = {
+	#867
+	867.1.1 = {
+		government = tribal_government
+	}
+	884.1.29 = {
+	}
+	
+	#1066
+	1060.1.2 = {
+	}
+	#To Novgorod
+	1100.1.1 = {
+	}
+	1178.7.2 = {
+	}
+}
+c_vologda = {
+	#867
+	854.9.13 = {
+		government = tribal_government
+	}
+	880.2.15 = {
+	}
+	
+	#1066
+	1057.1.1 = {
+	}
+	1066.1.1 = {
+	}
+	
+	#Added to Novgorod
+	1080.1.1 = {
+	}
+	1104.1.19 = {
+	}
+	1110.7.18 = {
+	}
+	1120.3.15 = {
+	}
+	1122.2.13 = {
+	}
+	1132.2.4 = {
+	}
+	1155.5.10 = {
+	}
+	1183.10.1 = {
+	}
+}
+c_lyubim = {
+	#867
+	854.9.13 = {
+		government = tribal_government
+	}
+	880.2.15 = {
+	}
+	
+	#1066
+	1057.1.1 = {
+	}
+	
+	#Added to Novgorod
+	1080.1.1 = {
+	}
+	1104.1.19 = {
+	}
+	1110.7.18 = {
+	}
+	1120.3.15 = {
+	}
+	1122.2.13 = {
+	}
+	1132.2.4 = {
+	}
+	1155.5.10 = {
+	}
+	1183.10.1 = {
+	}
+}
+c_onsthia = {
+	#867
+	854.9.13 = {
+		government = tribal_government
+	}
+	880.2.15 = {
+	}
+	
+	#1066
+	1057.1.1 = {
+	}
+	
+	#Added to Novgorod
+	1080.1.1 = {
+	}
+	1104.1.19 = {
+	}
+	1110.7.18 = {
+	}
+	1120.3.15 = {
+	}
+	1122.2.13 = {
+	}
+	1132.2.4 = {
+	}
+	1155.5.10 = {
+	}
+	1183.10.1 = {
+	}
+}
+c_choklema = {
+	#867
+	854.9.13 = {
+		government = tribal_government
+	}
+	880.2.15 = {
+	}
+	
+	#1066
+	1057.1.1 = {
+	}
+	
+	#Added to Novgorod
+	1080.1.1 = {
+	}
+	1104.1.19 = {
+	}
+	1110.7.18 = {
+	}
+	1120.3.15 = {
+	}
+	1122.2.13 = {
+	}
+	1132.2.4 = {
+	}
+	1155.5.10 = {
+	}
+	1183.10.1 = {
+	}
+}
+c_ustyug = {
+	#867
+	867.1.1 = {
+		government = tribal_government
+	}
+	
+	#1066
+	1066.1.1 = {
+	}
+	
+	#Within Novgorod
+	1100.1.1 = {
+	}
+	1107.5.13 = {
+	}
+	1127.5.7 = {
+	}
+	1161.10.9 = {
+	}
+	1186.4.22 = {
+	}
+}
+c_shenkursk = {
+	#867
+	867.1.1 = {
+		government = tribal_government
+	}
+	
+	#1066
+	1066.1.1 = {
+	}
+	
+	#Within Novgorod
+	1100.1.1 = {
+	}
+	1107.5.13 = {
+	}
+	1127.5.7 = {
+	}
+	1161.10.9 = {
+	}
+	1186.4.22 = {
+	}
+}
+c_velsk = {
+	#867
+	867.1.1 = {
+		government = tribal_government
+	}
+	
+	#1066
+	1066.1.1 = {
+	}
+	
+	#Within Novgorod
+	1100.1.1 = {
+	}
+	1107.5.13 = {
+	}
+	1127.5.7 = {
+	}
+	1161.10.9 = {
+	}
+	1186.4.22 = {
+	}
+}
+c_kevrola = {
+	#867
+	853.3.16 = {
+		government = tribal_government
+	}
+	
+	#1066
+	1051.1.2 = {
+	}
+	1097.10.29 = {
+	}
+	1120.12.29 = {
+	}
+	1144.6.17 = {
+	}
+	1178.11.28 = {
+	}
+	1193.8.3 = {
+	}
+}

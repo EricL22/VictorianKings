@@ -1,0 +1,273 @@
+d_karkaraly = {
+	867.1.1 = {
+	}
+	935.1.1 = {
+		government = nomad_government	#Ahistorical, just for ease of bookmarks.
+	}
+}
+c_karkaraly = {
+	#867
+	857.1.1 = {
+		government = nomad_government
+	}
+	
+	1000.1.2 = {
+	}
+	
+	#1066
+	1032.1.1 = {
+	}
+	
+	#1178
+	1148.1.1 = {
+	}
+}
+c_uch_katyn = {
+	#867
+	857.1.1 = {
+		government = herder_government
+	}
+	
+	1000.1.2 = {
+	}
+	
+	#1066
+	1032.1.1 = {
+		government = herder_government
+	}
+	
+	#1178
+	1148.1.1 = {
+		government = nomad_government
+	}
+}
+c_tokumbay = {
+	#867
+	859.1.1 = {
+		government = nomad_government
+	}
+	
+	1000.1.2 = {
+	}
+	
+	#1066
+	1032.1.1 = {
+		government = herder_government
+	}
+	
+	#1178
+	1167.1.1 = {
+		# government = nomad_government
+	}
+}
+c_arkalyk = {
+	#867
+	831.3.16 = {
+		government = nomad_government
+	}
+	866.1.12 = {
+	}
+	893.4.23 = {
+	}
+	
+	1000.1.2 = {
+	}
+	
+	#1066
+	1032.1.1 = {
+	}
+	
+	#1178
+	1167.1.1 = {
+	}
+}
+c_nurtay = {
+	#867
+	859.1.1 = {
+		government = nomad_government
+	}
+	
+	1000.1.2 = {
+	}
+	
+	#1066
+	1032.1.1 = {
+	}
+	
+	#1178
+	1169.1.1 = {
+	}
+}
+c_karabas = {
+	#867
+	831.3.16 = {
+		government = nomad_government
+	}
+	866.1.12 = {
+	}
+	893.4.23 = {
+	}
+	
+	1000.1.2 = {
+	}
+	
+	#1066
+	1032.1.1 = {
+	}
+	
+	#1178
+	1167.1.1 = {
+	}
+}
+c_jasky_kart = {
+	#867
+	865.1.1 = {
+		government = nomad_government
+	}
+	
+	1000.1.2 = {
+	}
+	
+	#1066
+	1032.1.1 = {
+	}
+	
+	#1178
+	1170.1.1 = {
+		government = herder_government
+	}
+}
+c_ku_jeku = {
+	#867
+	865.1.1 = {
+		government = herder_government
+	}
+	
+	1000.1.2 = {
+	}
+	
+	#1066
+	1032.1.1 = {
+		# government = nomad_government
+	}
+	
+	#1178
+	1159.1.1 = {
+		government = herder_government
+	}
+}
+c_uliuty = {
+	#867
+	862.1.1 = {
+		government = herder_government
+	}
+	
+	1000.1.2 = {
+	}
+	
+	#1066
+	1032.1.1 = {
+		# government = nomad_government
+	}
+	
+	#1178
+	1170.1.1 = {
+		government = herder_government
+	}
+}
+c_betpa = {
+	#867
+	856.1.1 = {
+		government = herder_government
+	}
+	
+	1000.1.1 = {
+	}
+	
+	#1066
+	1044.4.30 = {
+		government = nomad_government
+	}
+	
+	#1178
+	1171.1.1 = {
+	}
+
+}
+c_manaka = {
+	#867
+	856.1.1 = {
+		government = herder_government
+	}
+	
+	#1066
+	1032.1.1 = {
+		government = nomad_government
+	}
+	
+	#1178
+	1171.1.1 = {
+	}
+
+}
+c_targyl = {
+	#867
+	862.3.13 = {
+		government = nomad_government
+	}
+	880.1.19 = {
+	}
+	
+	1000.1.2 = {
+	}
+	
+	#1066
+	1032.1.1 = {
+	}
+	
+	#1178
+	1177.1.1 = {
+	}
+
+}
+c_bulat = {
+	#867
+	862.3.13 = {
+		government = nomad_government
+	}
+	880.1.19 = {
+	}
+	
+	1000.1.2 = {
+	}
+	
+	#1066
+	1032.1.1 = {
+	}
+	
+	#1178
+	1177.1.1 = {
+		government = herder_government
+	}
+
+}
+c_kulan_utmas = {
+	#867
+	865.5.10 = {
+		government = nomad_government
+	}
+	
+	1000.1.2 = {
+	}
+	
+	#1066
+	1032.1.1 = {
+		government = herder_government
+	}
+	
+	#1178
+	1171.1.1 = {
+		government = herder_government
+	}
+
+}

@@ -1,0 +1,550 @@
+d_athens = {
+	867.1.1 = { change_development_level = 10 }
+	1066.1.1 = { change_development_level = 15 }
+	1178.1.1 = { change_development_level = 20 }
+	
+	330.1.1 = {
+		government = administrative_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					empty_treasury_when_abandoning_landed_life_effect = yes
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	733.1.1 = {
+	}
+	765.1.1 = {
+	}
+	788.1.1 = {
+	}
+	812.1.1 = {
+	}
+	820.1.1 = {
+	}
+	845.1.1 = {
+	}
+	1060.1.1 = {
+	}
+	1107.2.1 = {
+	}
+	1120.1.1 = {
+	}
+	1150.1.1 = {
+	}
+	1167.1.1 = {
+	}
+	1204.5.16 = { # Collapse of Byzantine Empire
+	}
+	1204.8.1 = {
+	}
+	1204.8.1 = {
+	}
+	1216.6.11 = {
+	}
+	1225.1.1 = {
+	}
+	1263.1.1 = {
+	}
+	1280.1.1 = {
+	}
+	1287.1.1 = {
+	}
+	1308.10.5 = {
+	}
+	1311.3.15 = {
+	}
+	1312.1.1 = {
+	}
+	1312.1.1 = {
+	}
+	1317.11.19 = {
+	}
+}
+c_attica = {
+	1178.1.1 = { change_development_level = 27 }
+
+	330.1.1 = {
+	}
+	733.1.1 = {
+	}
+	765.1.1 = {
+	}
+	788.1.1 = {
+	}
+	812.1.1 = {
+	}
+	820.1.1 = {
+	}
+	845.1.1 = {
+	}
+	1060.1.1 = {
+	}
+	1107.2.1 = {
+	}
+	1120.1.1 = {
+	}
+	1150.1.1 = {
+	}
+	1167.1.1 = {
+	}
+	1204.8.1 = {
+	}
+	1225.1.1 = {
+	}
+	1263.1.1 = {
+	}
+	1280.1.1 = {
+	}
+	1287.1.1 = {
+	}
+	1308.10.5 = {
+	}
+	1311.3.15 = {
+	}
+	1312.1.1 = {
+	}
+	1317.11.19 = {
+	}
+
+}
+c_boeotia = {
+	330.1.1 = {
+	}
+	733.1.1 = {
+	}
+	765.1.1 = {
+	}
+	788.1.1 = {
+	}
+	812.1.1 = {
+	}
+	820.1.1 = {
+	}
+	845.1.1 = {
+	}
+	1060.1.1 = {
+	}
+	1107.2.1 = {
+	}
+	1120.1.1 = {
+	}
+	1150.1.1 = {
+	}
+	1167.1.1 = {
+	}
+	1204.8.1 = {
+	}
+	1225.1.1 = {
+	}
+	1263.1.1 = {
+	}
+	1280.1.1 = {
+	}
+	1287.1.1 = {
+	}
+	1308.10.5 = {
+	}
+	1311.3.15 = {
+	}
+	1312.1.1 = {
+	}
+	1317.11.19 = {
+	}
+
+}
+c_euboea = {
+	330.1.1 = {
+		government = administrative_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					empty_treasury_when_abandoning_landed_life_effect = yes
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	768.1.1 = {
+	}
+	865.1.1 = {
+	}
+	1040.1.1 = {
+	}
+	1075.1.1 = {
+	}
+	1097.1.1 = {
+	}
+	1100.1.1 = {
+	}
+	1115.1.1 = {
+	}
+	1130.1.1 = {
+	}
+	1146.1.2 = {
+	}
+	1167.1.1 = {
+	}
+	1187.1.1 = {
+	}
+	1194.1.1 = {
+	}
+	#4th Crusade
+	1204.8.1 = {
+	}
+	1204.8.1 = {
+	}
+	1209.1.1 = {
+	}
+	1216.1.1 = {
+	}
+	1216.1.1 = {
+	}
+	1268.1.1 = {
+	}
+	1275.1.1 = {
+	}
+	1297.1.1 = {
+	}
+	1311.3.15 = {
+	}
+	1317.1.1 = {
+	}
+	1326.1.1 = {
+	}
+}
+d_achaia = {
+	330.1.1 = {
+		government = administrative_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					empty_treasury_when_abandoning_landed_life_effect = yes
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	736.1.1 = {
+	}
+	775.1.1 = {
+	}
+	865.1.1 = {
+	}
+	1060.1.1 = {
+	}
+	1089.1.1 = {
+	}
+	1107.1.1 = {
+	}
+	1151.1.1 = {
+	}
+	1167.1.1 = {
+	}
+	1204.5.16 = { # Collapse of Byzantine Empire
+	}
+	1204.8.1 = {
+	}
+	1204.8.1 = {
+	}
+	1210.1.1 = {
+	}
+	1216.6.11 = {
+	}
+	1218.9.1 = {
+	}
+	1246.5.6 = {
+	}
+	1278.1.4 = {
+	}
+	1278.1.14 = {
+	}
+	1285.1.7 = {
+	}
+	1289.1.1 = {
+	}
+	1297.1.23 = {
+	}
+	1301.1.1 = {
+	}
+	1302.8.31 = {
+	}
+	1307.1.1 = {
+	}
+	1313.1.1 = {
+	}
+	1316.8.2 = {
+	}
+	1318.1.1 = {
+	}
+	1320.1.1 = {
+	}
+	1322.1.1 = {
+	}
+	1336.1.2 = {
+	}
+}
+c_achaia = {
+	330.1.1 = {
+		government = administrative_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					empty_treasury_when_abandoning_landed_life_effect = yes
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	762.1.1 = {
+	}
+	865.1.1 = {
+	}
+	1060.1.1 = {
+	}
+	1089.1.1 = {
+	}
+	1107.1.1 = {
+	}
+	1151.1.1 = {
+	}
+	1167.1.1 = {
+	}
+	1168.1.1 = {
+	}
+	1204.8.1 = {
+	}
+	1210.1.1 = {
+	}
+	1218.9.1 = {
+	}
+	1246.5.6 = {
+	}
+	1278.1.14 = {
+	}
+	1285.1.7 = {
+	}
+	1289.1.1 = {
+	}
+	1297.1.23 = {
+	}
+	1301.1.1 = {
+	}
+	1307.1.1 = {
+	}
+	1313.1.1 = {
+	}
+	1316.8.2 = {
+	}
+	1318.1.1 = {
+	}
+	1320.1.1 = {
+	}
+	1322.1.1 = {
+	}
+	1332.1.1 = {
+	}
+}
+c_korinthos = {
+	1178.1.1 = { change_development_level = 26 }
+
+	330.1.1 = {
+		government = administrative_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					empty_treasury_when_abandoning_landed_life_effect = yes
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	736.1.1 = {
+	}
+	775.1.1 = {
+	}
+	865.1.1 = {
+	}
+	1060.1.1 = {
+	}
+	1167.1.1 = {
+	}
+	1168.1.1 = {
+	}
+	1180.9.24 = {
+	}
+	1183.9.24 = {
+	}
+	1185.9.12 = {
+	}
+	1187.1.1 = {
+	}
+	1198.1.1 = {
+	}
+	1204.8.1 = {
+	}
+	1210.1.1 = {
+	}
+	1218.9.1 = {
+	}
+	1246.5.6 = {
+	}
+	1278.1.14 = {
+	}
+	1285.1.7 = {
+	}
+	1289.1.1 = {
+	}
+	1297.1.23 = {
+	}
+	1301.1.1 = {
+	}
+	1307.1.1 = {
+	}
+	1313.1.1 = {
+	}
+	1316.8.2 = {
+	}
+	1318.1.1 = {
+	}
+	1320.1.1 = {
+	}
+	1322.1.1 = {
+	}
+	1332.1.1 = {
+	}
+	
+
+}
+c_messenia = {
+	330.1.1 = {
+		government = administrative_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					empty_treasury_when_abandoning_landed_life_effect = yes
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	767.1.1 = {
+	}
+	866.1.1 = {
+	}
+	1060.1.1 = {
+	}
+	1095.1.1 = {
+	}
+	1110.1.1 = {
+	}
+	1135.1.1 = {
+	}
+	1167.1.1 = {
+	}
+	1168.1.1 = {
+	}
+	1195.1.1 = {
+	}
+	1204.8.1 = {
+	}
+	1204.8.1 = {
+	}
+	1205.6.21 = {
+	}
+	1229.3.13 = {
+	}
+	1249.7.19 = {
+	}
+	1253.1.1 = {
+	}
+	1268.7.7 = {
+	}
+	1275.8.15 = {
+	}
+	1280.3.6 = {
+	}
+	1289.11.2 = {
+	}
+	1311.8.13 = {
+	}
+	1312.7.3 = {
+	}
+	1328.12.31 = {
+	}
+}
+c_laconia = {
+	867.1.1 = {	change_development_level = 8 }
+	1066.1.1 = { change_development_level = 12 }
+	1178.1.1 = { change_development_level = 14 }
+	
+	330.1.1 = {
+		government = administrative_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					empty_treasury_when_abandoning_landed_life_effect = yes
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	764.1.1 = {
+	}
+	865.1.1 = {
+	}
+	1060.1.1 = {
+	}
+	1167.1.1 = {
+	}
+	1168.1.1 = {
+	}
+	1204.8.1 = {
+	}
+	1218.9.1 = {
+	}
+	1246.5.6 = {
+	}
+	1262.1.1 = {
+	}
+	1262.1.1 = {
+	}
+	1264.3.1 = {
+	}
+	1294.1.1 = {
+	}
+	1305.1.1 = {
+	}
+	1311.1.1 = {
+	}
+}

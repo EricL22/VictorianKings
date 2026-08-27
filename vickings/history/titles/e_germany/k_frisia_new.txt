@@ -1,0 +1,269 @@
+k_frisia = {
+	1588.4.12 = {
+		name = netherlands
+	}
+	1806.8.6 = {
+		de_jure_liege = e_germany
+	}
+	1814.4.11 = {
+		holder = orange_0	# William I
+	}
+	1840.10.7 = {
+		holder = orange_1	# William II
+	}
+	1849.3.17 = {
+		holder = orange_2	# William III
+	}
+	1890.11.23 = {
+		holder = orange_3	# Wilhelmina
+	}
+}
+d_holland = {
+	1804.5.18 = {	# France
+		holder = bonaparte_2	# Napoleon
+	}
+	1814.4.11 = {	# Netherlands
+		holder = orange_0	# William I
+	}
+	1840.10.7 = {
+		holder = orange_1	# William II
+	}
+	1849.3.17 = {
+		holder = orange_2	# William III
+	}
+	1890.11.23 = {
+		holder = orange_3	# Wilhelmina
+	}
+}
+c_holland = {
+	1804.5.18 = {	# France
+		holder = bonaparte_2	# Napoleon
+	}
+	1814.4.11 = {	# Netherlands
+		holder = orange_0	# William I
+	}
+	1840.10.7 = {
+		holder = orange_1	# William II
+	}
+	1849.3.17 = {
+		holder = orange_2	# William III
+	}
+	1890.11.23 = {
+		holder = orange_3	# Wilhelmina
+	}
+}
+c_westfriesland = {
+	1804.5.18 = {	# France
+		holder = bonaparte_2	# Napoleon
+	}
+	1814.4.11 = {	# Netherlands
+		holder = orange_0	# William I
+	}
+	1840.10.7 = {
+		holder = orange_1	# William II
+	}
+	1849.3.17 = {
+		holder = orange_2	# William III
+	}
+	1890.11.23 = {
+		holder = orange_3	# Wilhelmina
+	}
+}
+c_zeeland = {
+	1804.5.18 = {	# France
+		holder = bonaparte_2	# Napoleon
+	}
+	1814.4.11 = {	# Netherlands
+		holder = orange_0	# William I
+	}
+	1840.10.7 = {
+		holder = orange_1	# William II
+	}
+	1849.3.17 = {
+		holder = orange_2	# William III
+	}
+	1890.11.23 = {
+		holder = orange_3	# Wilhelmina
+	}
+}
+d_gelre = {
+	1804.5.18 = {
+		holder = 0
+	}
+}
+c_guelders = {
+	1804.5.18 = {	# France
+		holder = bonaparte_2	# Napoleon
+	}
+	1814.4.11 = {	# Netherlands
+		holder = orange_0	# William I
+	}
+	1840.10.7 = {
+		holder = orange_1	# William II
+	}
+	1849.3.17 = {
+		holder = orange_2	# William III
+	}
+	1890.11.23 = {
+		holder = orange_3	# Wilhelmina
+	}
+}
+c_arnhem = {
+	1804.5.18 = {	# France
+		holder = bonaparte_2	# Napoleon
+	}
+	1814.4.11 = {	# Netherlands
+		holder = orange_0	# William I
+	}
+	1840.10.7 = {
+		holder = orange_1	# William II
+	}
+	1849.3.17 = {
+		holder = orange_2	# William III
+	}
+	1890.11.23 = {
+		holder = orange_3	# Wilhelmina
+	}
+}
+c_zutphen = {
+	1804.5.18 = {	# France
+		holder = bonaparte_2	# Napoleon
+	}
+	1814.4.11 = {	# Netherlands
+		holder = orange_0	# William I
+	}
+	1840.10.7 = {
+		holder = orange_1	# William II
+	}
+	1849.3.17 = {
+		holder = orange_2	# William III
+	}
+	1890.11.23 = {
+		holder = orange_3	# Wilhelmina
+	}
+}
+d_utrecht = {
+	1804.5.18 = {	# France
+		holder = bonaparte_2	# Napoleon
+	}
+	1814.4.11 = {	# Netherlands
+		holder = orange_0	# William I
+	}
+	1840.10.7 = {
+		holder = orange_1	# William II
+	}
+	1849.3.17 = {
+		holder = orange_2	# William III
+	}
+	1890.11.23 = {
+		holder = orange_3	# Wilhelmina
+	}
+}
+c_nedersticht = {
+	1804.5.18 = {	# France
+		holder = bonaparte_2	# Napoleon
+	}
+	1814.4.11 = {	# Netherlands
+		holder = orange_0	# William I
+	}
+	1840.10.7 = {
+		holder = orange_1	# William II
+	}
+	1849.3.17 = {
+		holder = orange_2	# William III
+	}
+	1890.11.23 = {
+		holder = orange_3	# Wilhelmina
+	}
+}
+c_oversticht = {
+	1804.5.18 = {	# France
+		holder = bonaparte_2	# Napoleon
+	}
+	1814.4.11 = {	# Netherlands
+		holder = orange_0	# William I
+	}
+	1840.10.7 = {
+		holder = orange_1	# William II
+	}
+	1849.3.17 = {
+		holder = orange_2	# William III
+	}
+	1890.11.23 = {
+		holder = orange_3	# Wilhelmina
+	}
+}
+c_groningen = {
+	1804.5.18 = {	# France
+		holder = bonaparte_2	# Napoleon
+	}
+	1814.4.11 = {	# Netherlands
+		holder = orange_0	# William I
+	}
+	1840.10.7 = {
+		holder = orange_1	# William II
+	}
+	1849.3.17 = {
+		holder = orange_2	# William III
+	}
+	1890.11.23 = {
+		holder = orange_3	# Wilhelmina
+	}
+}
+#d_frisia = {
+#}
+c_dokkum = {
+	1804.5.18 = {	# France
+		holder = bonaparte_2	# Napoleon
+	}
+	1814.4.11 = {	# Netherlands
+		holder = orange_0	# William I
+	}
+	1840.10.7 = {
+		holder = orange_1	# William II
+	}
+	1849.3.17 = {
+		holder = orange_2	# William III
+	}
+	1890.11.23 = {
+		holder = orange_3	# Wilhelmina
+	}
+}
+c_ostfriesland = {
+	1804.5.18 = {	# France
+		holder = bonaparte_2	# Napoleon
+	}
+	1814.10.12 = {	# Hanover
+		de_jure_liege = d_angria
+		holder = hanover_3	# George III
+	}
+	1820.1.29 = {
+		holder = hanover_4	# George IV
+	}
+	1830.6.26 = {
+		holder = hanover_5	# William IV
+	}
+	1837.6.20 = {
+		holder = hanover_8	# Ernest Augustus
+	}
+	1851.11.18 = {
+		holder = hanover_9	# George V
+	}
+}
+c_frisia = {
+	1804.5.18 = {	# France
+		holder = bonaparte_2	# Napoleon
+	}
+	1814.4.11 = {	# Netherlands
+		holder = orange_0	# William I
+	}
+	1840.10.7 = {
+		holder = orange_1	# William II
+	}
+	1849.3.17 = {
+		holder = orange_2	# William III
+	}
+	1890.11.23 = {
+		holder = orange_3	# Wilhelmina
+	}
+}

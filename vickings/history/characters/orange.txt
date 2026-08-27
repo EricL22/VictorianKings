@@ -1,4 +1,4 @@
-﻿8000001 = {
+﻿orange_0 = {
 	name = "Willem"	# I of the Netherlands
 	dynasty = 7248
 	religion = reformed
@@ -11,3 +11,45 @@
 	}
 }
 
+orange_1 = {
+	name = "Willem"	# II of the Netherlands
+	dynasty = 7248
+	religion = reformed
+	culture = dutch
+	father = orange_0
+	1792.12.6 = {
+		birth = yes
+	}
+	1849.3.17 = {
+		death = yes
+	}
+}
+
+orange_2 = {
+	name = "Willem"	# III of the Netherlands
+	dynasty = 7248
+	religion = reformed
+	culture = dutch
+	father = orange_1
+	1817.2.19 = {
+		birth = yes
+	}
+	1890.11.23 = {
+		death = yes
+	}
+}
+
+orange_3 = {
+	name = "Wilhelmina"
+	dynasty = 7248
+	religion = reformed
+	culture = dutch
+	father = orange_2
+	female = yes
+	1880.8.31 = {
+		birth = yes
+	}
+	1962.11.28 = {
+		death = yes
+	}
+}

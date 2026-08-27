@@ -1,0 +1,195 @@
+c_SuMa_ternate = {
+	867.1.1 = { change_development_level = 5 }
+	1066.1.1 = { change_development_level = 9 }
+	1178.1.1 = { change_development_level = 15 }
+
+	867.1.1 = {
+		government = wanua_government
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_SuMa_tidore = {
+	867.1.1 = { change_development_level = 5 }
+	1066.1.1 = { change_development_level = 8 }
+	1178.1.1 = { change_development_level = 14 }
+
+	867.1.1 = {
+		government = wanua_government
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_SuMa_bacan = {
+	867.1.1 = { change_development_level = 4 }
+	1066.1.1 = { change_development_level = 7 }
+	1178.1.1 = { change_development_level = 11 }
+
+	867.1.1 = {
+		government = wanua_government
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_IDO_nusa_nipa = {
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 6 }
+	1178.1.1 = { change_development_level = 10 }
+
+	867.1.1 = {
+		government = wanua_government
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_IDO_humba = {
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 5 }
+	1178.1.1 = { change_development_level = 8 }
+
+	867.1.1 = {
+		government = wanua_government
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_IDO_galiyao = {
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 6 }
+	1178.1.1 = { change_development_level = 9 }
+
+	867.1.1 = {
+		government = wanua_government
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_SuMa_seram = {
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 5 }
+	1178.1.1 = { change_development_level = 9 }
+
+	867.1.1 = {
+		government = wanua_government
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_SuMa_raja_ampat = {
+	867.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 4 }
+	1178.1.1 = { change_development_level = 7 }
+
+	867.1.1 = {
+		government = wanua_government
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_kepala_burung = {
+	867.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 4 }
+	1178.1.1 = { change_development_level = 7 }
+
+	867.1.1 = {
+		government = wanua_government
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_aru = {
+	867.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 4 }
+	1178.1.1 = { change_development_level = 6 }
+
+	867.1.1 = {
+		government = wanua_government
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_sran = {
+	867.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 3 }
+	1178.1.1 = { change_development_level = 5 }
+
+	867.1.1 = {
+		government = wanua_government
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_papua_selatan = {
+	867.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 3 }
+	1178.1.1 = { change_development_level = 5 }
+
+	867.1.1 = {
+		government = wanua_government
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_IDO_barat_daya = {
+	867.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 4 }
+	1178.1.1 = { change_development_level = 7 }
+
+	867.1.1 = {
+		government = wanua_government
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_IDO_sonba_i = {
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 6 }
+	1178.1.1 = { change_development_level = 9 }
+
+	867.1.1 = {
+		government = wanua_government
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_IDO_wehale = {
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 5 }
+	1178.1.1 = { change_development_level = 8 }
+
+	867.1.1 = {
+		government = wanua_government
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}

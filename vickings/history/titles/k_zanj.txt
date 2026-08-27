@@ -1,0 +1,338 @@
+c_zanzibar = {
+	867.1.1 = {	change_development_level = 3 }
+	1066.1.1 = { change_development_level = 8 }
+	1178.1.1 = { change_development_level = 20 }
+
+	863.1.1 = {
+	}
+	900.1.1 = {
+	}
+	930.1.1 = {
+	}
+	960.1.1 = {
+	}
+	965.1.1 = {
+	}
+	985.1.1 = {
+	}
+	1006.1.1 = {
+	}
+	1045.1.1 = {
+	}
+	1064.1.1 = {
+	}
+	1101.1.1 = {
+	}
+	1115.1.1 = {
+	}
+	1149.1.1 = {
+	}
+}
+c_pemba = {
+	867.1.1 = {	change_development_level = 3 }
+	1066.1.1 = { change_development_level = 8 }
+	1178.1.1 = { change_development_level = 20 }
+
+	860.1.1 = {
+	}
+	890.1.1 = {
+	}
+	916.1.1 = {
+	}
+	945.1.1 = {
+	}
+	975.1.1 = {
+	}
+	995.1.1 = {
+	}
+	1030.1.1 = {
+	}
+	1062.1.1 = {
+	}
+	1095.1.1 = {
+	}
+	1114.4.14 = {
+	}
+	1145.1.1 = {
+	}
+	1173.1.1 = {
+	}
+}
+c_mrima = {
+	867.1.1 = {	change_development_level = 2 }
+	1066.1.1 = { change_development_level = 5 }
+	1178.1.1 = { change_development_level = 10 }
+
+	863.1.1 = {
+	}
+	900.1.1 = {
+	}
+	930.1.1 = {
+	}
+	960.1.1 = {
+	}
+	965.1.1 = {
+	}
+	985.1.1 = {
+	}
+	1006.1.1 = {
+	}
+	1045.1.1 = {
+	}
+	1064.1.1 = {
+	}
+	1101.1.1 = {
+	}
+	1115.1.1 = {
+	}
+	1149.1.1 = {
+	}
+}
+c_tanga = {
+	867.1.1 = {	change_development_level = 2 }
+	1066.1.1 = { change_development_level = 4 }
+	1178.1.1 = { change_development_level = 8 }
+
+	861.1.1 = {
+	}
+
+	1061.1.1 = {
+	}
+
+	# Falls into Pemba control from 12 century onwards
+	1100.1.1 = {
+	}
+	1114.4.14 = {
+	}
+	1145.1.1 = {
+	}
+	1173.1.1 = {
+	}
+}
+c_mombasa = {
+	867.1.1 = {	change_development_level = 3 }
+	1066.1.1 = { change_development_level = 7 }
+	1178.1.1 = { change_development_level = 16 }
+
+	862.1.1 = {
+	}
+	865.1.1 = {
+	}
+	920.1.1 = {
+	}
+	935.1.1 = {
+	}
+	965.1.1 = {
+	}
+	1000.1.1 = {
+	}
+	1025.1.1 = {
+	}
+	1060.1.1 = {
+	}
+	1090.1.1 = {
+	}
+	1130.1.1 = {
+	}
+	1157.1.1 = {
+	}
+}
+d_mombasa = {
+	865.1.1 = {
+	}
+	920.1.1 = {
+	}
+	935.1.1 = {
+	}
+	965.1.1 = {
+	}
+	1000.1.1 = {
+	}
+	1025.1.1 = {
+	}
+	1060.1.1 = {
+	}
+	1090.1.1 = {
+	}
+	1130.1.1 = {
+	}
+	1157.1.1 = {
+	}
+}
+c_malindi = {
+	867.1.1 = {	change_development_level = 2 }
+	1066.1.1 = { change_development_level = 6 }
+	1178.1.1 = { change_development_level = 10 }
+
+	858.1.1 = {
+	}
+	890.1.1 = {
+	}
+	920.1.1 = {
+	}
+	940.1.1 = {
+	}
+	980.1.1 = {
+	}
+	1005.1.1 = {
+	}
+	1023.4.5 = {
+	}
+	1055.1.1 = {
+	}
+	1077.6.6 = {
+	}
+	1111.1.1 = {
+	}
+	1132.1.2 = {
+	}
+	1166.10.1 = {
+	}
+}
+c_lamu = {
+	867.1.1 = {	change_development_level = 3 }
+	1066.1.1 = { change_development_level = 7 }
+	1178.1.1 = { change_development_level = 16 }
+
+	# placeholder rulers of Lamu. "Yumbe" just means "Ruler's Home", "wa Yumbe" should translate to "of the Ruler's Home"
+	850.1.1 = {
+	}
+	890.1.1 = {
+	}
+	930.1.1 = {
+	}
+	965.1.1 = {
+	}
+	975.1.1 = {
+	}
+	1010.1.1 = {
+	}
+	1024.1.1 = {
+	}
+	1050.1.1 = {
+	}
+	1075.1.1 = {
+	}
+	1105.1.1 = {
+	}
+	1135.1.1 = {
+	}
+	1166.1.1 = {
+	}
+}
+c_pate = {
+	867.1.1 = {	change_development_level = 3 }
+	1066.1.1 = { change_development_level = 7 }
+	1178.1.1 = { change_development_level = 16 }
+
+
+	# Placeholder kings of Pate. The Famau were present in Siyu until the 19th century, and the last pre-Nabhani rule of Pate in 1202 was a Famau
+	865.1.1 = {
+	}
+	880.1.1 = {
+	}
+	930.1.1 = {
+	}
+	965.1.1 = {
+	}
+	1000.1.1 = {
+	}
+	1035.1.1 = {
+	}
+	1070.1.1 = {
+	}
+	1095.1.1 = {
+	}
+	1130.1.1 = {
+	}
+	1165.1.1 = {
+	}
+	1205.1.1 = {
+	}
+}
+d_pate = {
+	# elevating Pate's status for 1066 and 1178
+	1000.1.1 = {
+	}
+	1035.1.1 = {
+	}
+	1070.1.1 = {
+	}
+	1095.1.1 = {
+	}
+	1130.1.1 = {
+	}
+	1165.1.1 = {
+	}
+	1205.1.1 = {
+	}	
+}
+c_ewaso_ngiro = {
+	867.1.1 = {	change_development_level = 1 }
+	1066.1.1 = { change_development_level = 3 }
+	1178.1.1 = { change_development_level = 4 }
+
+	863.1.1 = {
+	}
+	905.1.1 = {
+	}
+	940.1.1 = {
+	}
+	975.1.1 = {
+	}
+	1010.1.1 = {
+	}
+	1045.1.1 = {
+	}
+	1090.1.1 = {
+	}
+	1125.1.1 = {
+	}
+	1160.1.1 = {
+	}
+}
+d_bonde_la_ufa = {
+	867.1.1 = {	change_development_level = 1 }
+	1066.1.1 = { change_development_level = 3 }
+	1178.1.1 = { change_development_level = 4 }
+}
+c_mto_galana = {
+	862.1.1 = {
+	}
+	1055.1.1 = {
+	}
+	1175.1.1 = {
+	}
+}
+c_mto_tana = {
+	866.1.1 = {
+	}
+	1064.1.1 = {
+	}
+	1177.1.1 = {
+	}
+}
+c_taveta = {
+	864.1.1 = {
+	}
+	1050.1.1 = {
+	}
+	1169.1.1 = {
+	}
+}
+c_kirinyaga = {
+	865.1.1 = {
+	}
+	1065.1.1 = {
+	}
+	1176.1.1 = {
+	}
+}
+c_kilimanjaro = {
+	861.1.1 = {
+	}
+	1052.1.1 = {
+	}
+	1166.1.1 = {
+	}
+}

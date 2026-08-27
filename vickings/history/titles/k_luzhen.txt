@@ -1,0 +1,274 @@
+d_BAL_cheolli = {
+	867.1.1 = {
+		government = nomad_government
+	}
+	1066.1.1 = {
+	}
+}
+c_BAL_delizhen = {
+	867.1.1 = { change_development_level = 5 }
+	1066.1.1 = { change_development_level = 5 }
+	1178.1.1 = { change_development_level = 8 }
+
+	#867
+	867.1.1 = {
+		government = nomad_government
+	}
+	1066.1.1 = {
+	}
+	#JIN dynasty
+	1178.1.1 = {
+	}
+}
+c_BAL_huligai = {
+	#867
+	867.1.1 = {
+		government = nomad_government
+	}
+	1066.1.1 = {
+	}
+	#JIN dynasty
+	1178.1.1 = {
+	}
+}
+c_BAL_west_cheolli = {
+	867.1.1 = { change_development_level = 0 }
+	1066.1.1 = { change_development_level = 0 }
+	1178.1.1 = { change_development_level = 0 }
+
+	#867
+	867.1.1 = {
+		government = nomad_government
+	}
+	1066.1.1 = {
+	}
+	#JIN dynasty
+	1178.1.1 = {
+	}
+}
+d_BAL_hoewon = {
+	867.1.1 = {
+		government = nomad_government
+	}
+	1066.1.1 = {
+	}
+}
+c_BAL_dazhou = {
+	867.1.1 = { change_development_level = 5 }
+	1066.1.1 = { change_development_level = 5 }
+	1178.1.1 = { change_development_level = 8 }
+	867.1.1 = {
+		government = nomad_government
+	}
+	1066.1.1 = {
+	}
+	#JIN dynasty
+	1178.1.1 = {
+	}
+}
+c_BAL_ilanshan = {
+	867.1.1 = {
+		government = nomad_government
+	}
+	1066.1.1 = {
+	}
+	#JIN dynasty
+	1178.1.1 = {
+	}
+}
+c_BAL_south_hoewon = {
+	867.1.1 = {
+		government = nomad_government
+	}
+	1066.1.1 = {
+	}
+	#JIN dynasty
+	1178.1.1 = {
+	}
+}
+c_BAL_central_hoewon = {
+	867.1.1 = {
+		government = tribal_government
+	}
+	1066.1.1 = {
+		government = nomad_government
+	}
+	#JIN dynasty
+	1178.1.1 = {
+	}
+}
+c_BAL_east_hoewon = {
+	867.1.1 = { change_development_level = 0 }
+	1066.1.1 = { change_development_level = 0 }
+	1178.1.1 = { change_development_level = 0 }
+	867.1.1 = {
+		government = tribal_government
+	}
+	1066.1.1 = {
+		government = nomad_government
+	}
+	#JIN dynasty
+	1178.1.1 = {
+	}
+}
+d_BAL_dongpyeong = {
+	867.1.1 = {
+		government = tribal_government
+	}	
+	1066.1.1 = {
+	}
+	#JIN dynasty
+	1178.1.1 = {
+		government = nomad_government
+	}
+}
+c_BAL_dongpyeong_yizhou = {
+	867.1.1 = { change_development_level = 5 }
+	1066.1.1 = { change_development_level = 5 }
+	1178.1.1 = { change_development_level = 8 }
+
+	867.1.1 = {
+		government = tribal_government
+	}	
+	1066.1.1 = {
+		government = nomad_government
+	}	
+	#JIN dynasty
+	1178.1.1 = {
+	}
+}
+c_BAL_jixi = {
+	867.1.1 = {
+		government = tribal_government
+	}	
+	1066.1.1 = {
+		government = nomad_government
+	}	
+	#JIN dynasty
+	1178.1.1 = {
+	}
+}
+d_BAL_yeojintang = {
+	867.1.1 = {
+		government = tribal_government
+	}
+	1066.1.1 = {
+	}
+}
+c_BAL_solbin = {
+	867.1.1 = { change_development_level = 5 }
+	1066.1.1 = { change_development_level = 5 }
+	1178.1.1 = { change_development_level = 8 }
+
+	867.1.1 = {
+		government = meritocratic_government
+	}
+	1066.1.1 = {
+		government = nomad_government
+	}
+	#JIN dynasty
+	1178.1.1 = {
+	}
+}
+c_BAL_jeongni = {
+	867.1.1 = { change_development_level = 5 }
+	1066.1.1 = { change_development_level = 5 }
+	1178.1.1 = { change_development_level = 8 }
+	867.1.1 = {
+	}
+	1066.1.1 = {
+		government = nomad_government
+	}
+	1178.1.1 = {
+	}
+}
+c_BAL_anbyeon = {
+	867.1.1 = { change_development_level = 5 }
+	1066.1.1 = { change_development_level = 5 }
+	1178.1.1 = { change_development_level = 8 }
+	867.1.1 = {
+	}
+	1066.1.1 = {
+		government = nomad_government
+	}
+	1178.1.1 = {
+	}
+}
+c_BAL_north_anbyeon = {
+	867.1.1 = { change_development_level = 0 }
+	1066.1.1 = { change_development_level = 0 }
+	1178.1.1 = { change_development_level = 0 }
+	867.1.1 = {
+	}
+	1066.1.1 = {
+		government = nomad_government
+	}
+	#JIN dynasty
+	1178.1.1 = {
+	}
+}
+d_BAL_anwon = {
+	#867
+	867.1.1 = {
+		government = tribal_government
+	}
+	
+	1066.1.1 = {
+	}
+}
+c_BAL_ningzhou = {
+	867.1.1 = { change_development_level = 5 }
+	1066.1.1 = { change_development_level = 5 }
+	1178.1.1 = { change_development_level = 8 }
+
+	#867
+	867.1.1 = {
+	}
+	
+	1066.1.1 = {
+		government = nomad_government
+	}
+	
+	1178.1.1 = {
+	}
+}
+c_BAL_supin = {
+	#867
+	867.1.1 = {
+	}
+	
+	1066.1.1 = {
+		government = nomad_government
+	}
+	
+	1178.1.1 = {
+	}
+}
+c_BAL_north_anwon = {
+	867.1.1 = { change_development_level = 0 }
+	1066.1.1 = { change_development_level = 0 }
+	1178.1.1 = { change_development_level = 0 }
+	
+	867.1.1 = {
+	}
+	1066.1.1 = {
+		government = nomad_government
+	}
+	#JIN dynasty
+	1178.1.1 = {
+	}
+}
+c_BAL_heuksu_anwon = {
+	867.1.1 = { change_development_level = 0 }
+	1066.1.1 = { change_development_level = 0 }
+	1178.1.1 = { change_development_level = 0 }
+	
+	867.1.1 = {
+	}
+	1066.1.1 = {
+		government = nomad_government
+	}
+	#JIN dynasty
+	1178.1.1 = {
+	}
+}

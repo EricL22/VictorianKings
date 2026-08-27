@@ -1,0 +1,89 @@
+d_sum = {
+	867.1.1 = { change_development_level = 8 }
+}
+d_menas = {
+	867.1.1 = { change_development_level = 8 }
+}
+c_iskar = {
+	867.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 3 }
+	1178.1.1 = { change_development_level = 5 }
+
+	867.1.1 = {
+		government = tribal_government
+	}
+}
+c_uskes = {
+	867.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 3 }
+	1178.1.1 = { change_development_level = 5 }
+
+	867.1.1 = {
+		government = tribal_government
+	}
+}
+c_ioci = {
+	867.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 3 }
+	1178.1.1 = { change_development_level = 5 }
+
+	867.1.1 = {
+		government = tribal_government
+	}
+}
+c_simenas = {
+	867.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 3 }
+	1178.1.1 = { change_development_level = 5 }
+
+	867.1.1 = {
+		government = tribal_government
+	}
+}
+c_menas = {
+	867.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 3 }
+	1178.1.1 = { change_development_level = 5 }
+
+	867.1.1 = {
+		government = tribal_government
+	}
+}
+c_soya = {
+	867.1.1 = { change_development_level = 1 }
+	1066.1.1 = { change_development_level = 2 }
+	1178.1.1 = { change_development_level = 3 }
+}
+c_sum = {
+	867.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 3 }
+	1178.1.1 = { change_development_level = 5 }
+
+	867.1.1 = {
+		government = tribal_government
+	}
+}
+c_chupka = {
+	867.1.1 = { change_development_level = 1 }
+	1066.1.1 = { change_development_level = 2 }
+	1178.1.1 = { change_development_level = 3 }
+
+	867.1.1 = {
+		government = tribal_government
+	}
+}
+c_tarayka = {
+	867.1.1 = { change_development_level = 0 }
+	1066.1.1 = { change_development_level = 0 }
+	1178.1.1 = { change_development_level = 0 }
+}
+c_pogibi = {
+	867.1.1 = { change_development_level = 0 }
+	1066.1.1 = { change_development_level = 0 }
+	1178.1.1 = { change_development_level = 0 }
+}
+c_kusunkotan = {
+	867.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 3 }
+	1178.1.1 = { change_development_level = 5 }
+}

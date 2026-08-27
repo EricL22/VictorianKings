@@ -139,7 +139,7 @@ wettin_11 = {
 }
 
 8000034 = {
-	name = "Leopold"	# Belgium
+	name = "Leopold"	# I of Belgium
 	dynasty_house = house_saxe_coburg
 	religion = protestant
 	culture = franconian
@@ -187,7 +187,7 @@ wettin_11 = {
 }
 
 8000037 = {
-	name = "Leopold"	# Belgium
+	name = "Leopold"	# II of Belgium
 	dynasty_house = house_saxe_coburg
 	religion = catholic
 	culture = franconian

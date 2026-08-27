@@ -106,7 +106,7 @@ k_spain = {
 
 k_belgium = {
 	1831.7.21 = {
-#		holder = 8000034	# Leopold I
+		holder = 8000034	# Leopold I
 		de_jure_liege = e_germany
 	}
 }

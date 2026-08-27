@@ -1,0 +1,262 @@
+k_sulawesi = {
+	867.1.1 = { change_development_level = 4 }
+	1066.1.1 = { change_development_level = 6 }
+	1178.1.1 = { change_development_level = 7 }
+}
+d_SuMa_luwu = {
+	928.1.1 = {
+	}
+	#948
+	1064.1.1 = {
+	}
+	1089.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_SuMa_luwu = {
+	867.1.1 = { change_development_level = 6 }
+	1066.1.1 = { change_development_level = 10 }
+	1178.1.1 = { change_development_level = 14 }
+
+	821.1.1 = {
+		government = wanua_government
+	}
+	838.1.1 = {
+	}
+	862.1.1 = {
+	}
+	909.1.1 = {
+	}
+	928.1.1 = {
+	}
+	#948
+	1064.1.1 = {
+	}
+	1089.1.1 = {
+	}
+	
+	1169.1.1 = {
+	}
+}
+c_SuMa_siang = {
+	867.1.1 = { change_development_level = 4 }
+	1066.1.1 = { change_development_level = 7 }
+	1178.1.1 = { change_development_level = 11 }
+
+	850.1.1 = {
+		government = wanua_government
+	}
+	864.1.1 = {
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_SuMa_ajatappareng = {
+	867.1.1 = { change_development_level = 5 }
+	1066.1.1 = { change_development_level = 9 }
+	1178.1.1 = { change_development_level = 13 }
+
+	867.1.1 = {
+		government = wanua_government
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_SuMa_sampaga = {
+	867.1.1 = { change_development_level = 4 }
+	1066.1.1 = { change_development_level = 7 }
+	1178.1.1 = { change_development_level = 11 }
+
+	867.1.1 = {
+		government = wanua_government
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+d_SuMa_konawe = {
+	428.1.1 = {
+		government = wanua_government
+	}
+	860.1.1 = {
+	}
+	895.1 = {
+	}
+	948.1.1 = {
+	}
+	
+	1062.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_SuMa_konawe = {
+	867.1.1 = { change_development_level = 5 }
+	1066.1.1 = { change_development_level = 8 }
+	1178.1.1 = { change_development_level = 12 }
+
+	428.1.1 = {
+		government = wanua_government
+	}
+	860.1.1 = {
+	}
+	895.1 = {
+	}
+	948.1.1 = {
+	}
+	
+	1062.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_SuMa_butun = {
+	867.1.1 = { change_development_level = 5 }
+	1066.1.1 = { change_development_level = 9 }
+	1178.1.1 = { change_development_level = 13 }
+
+	867.1.1 = {
+		government = wanua_government
+	}
+	950.1.1 = {
+	}
+	1066.1.1 = {
+	}
+	1083.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_SuMa_moronene = {
+	867.1.1 = { change_development_level = 4 }
+	1066.1.1 = { change_development_level = 7 }
+	1178.1.1 = { change_development_level = 10 }
+
+	863.1.1 = {
+		government = wanua_government
+	}
+	895.1.1 = {
+	}
+	911.1.1 = {
+	}
+	949.1.1 = {
+	}
+	997.1.1 = {
+	}
+	1017.1.1 = {
+	}
+	1027.1.1 = {
+	}
+	
+	1178.1.1 = {
+	}
+}
+c_SuMa_tamboeko = {
+	867.1.1 = { change_development_level = 4 }
+	1066.1.1 = { change_development_level = 7 }
+	1178.1.1 = { change_development_level = 11 }
+
+	867.1.1 = {
+		government = wanua_government
+	}
+	928.1.1 = {
+	}
+	#948
+	1064.1.1 = {
+	}
+	1089.1.1 = {
+	}
+	
+	1169.1.1 = {
+	}
+}
+c_SuMa_gorontalo = {
+	867.1.1 = { change_development_level = 5 }
+	1066.1.1 = { change_development_level = 8 }
+	1178.1.1 = { change_development_level = 12 }
+
+	867.1.1 = {
+		government = wanua_government
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_SuMa_wenang = {
+	867.1.1 = { change_development_level = 4 }
+	1066.1.1 = { change_development_level = 7 }
+	1178.1.1 = { change_development_level = 11 }
+
+	867.1.1 = {
+		government = wanua_government
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_SuMa_banawa = {
+	867.1.1 = { change_development_level = 4 }
+	1066.1.1 = { change_development_level = 7 }
+	1178.1.1 = { change_development_level = 11 }
+
+	867.1.1 = {
+		government = wanua_government
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_SuMa_banggai = {
+	867.1.1 = { change_development_level = 4 }
+	1066.1.1 = { change_development_level = 7 }
+	1178.1.1 = { change_development_level = 10 }
+
+	867.1.1 = {
+		government = wanua_government
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_SuMa_mori = {
+	867.1.1 = { change_development_level = 4 }
+	1066.1.1 = { change_development_level = 7 }
+	1178.1.1 = { change_development_level = 10 }
+
+	867.1.1 = {
+		government = wanua_government
+	}
+	928.1.1 = {
+	}
+	#948
+	1064.1.1 = {
+	}
+	1089.1.1 = {
+	}
+	
+	1169.1.1 = {
+	}
+}
+c_SuMa_banggai_utara = {
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 6 }
+	1178.1.1 = { change_development_level = 9 }
+
+	867.1.1 = {
+		government = wanua_government
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}

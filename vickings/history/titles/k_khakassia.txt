@@ -1,0 +1,474 @@
+k_khakassia = {
+	867.1.1 = { change_development_level = 0 }
+	1066.1.1 = { change_development_level = 0 }
+	1178.1.1 = { change_development_level = 0 }
+
+	840.1.2 = {
+		holder = 303238		#fictional Uzur Enisey Kyrgyz
+		government = nomad_government
+		effect = {
+			set_de_jure_liege_title = title:e_kirghiz_khanate
+		}
+	}
+	1066.1.1 = {
+		holder = 0
+		effect = {
+			set_de_jure_liege_title = title:e_mongolia
+		}
+	}
+}
+d_khakass_hollow = {
+	#867
+	840.1.2 = {
+		government = nomad_government
+	}
+	871.8.19 = {
+	}
+	889.5.2 = {
+	}
+	
+	#1066
+	1063.6.17 = {
+	}
+	1103.10.24 = {
+	}
+	1117.4.30 = {
+	}
+	1155.3.10 = {
+	}
+	1170.10.26 = {
+	}
+}
+c_abakan = {
+	#867
+	840.1.2 = {
+	}
+	871.8.19 = {
+	}
+	889.5.2 = {
+	}
+	
+	#1066
+	1063.6.17 = {
+	}
+	1103.10.24 = {
+	}
+	1117.4.30 = {
+	}
+	1155.3.10 = {
+	}
+	1170.10.26 = {
+	}
+}
+c_julym = {
+	#867
+	840.1.2 = {
+	}
+	871.8.19 = {
+	}
+	889.5.2 = {
+	}
+	
+	#1066
+	1065.1.1 = {
+		government = herder_government
+	}
+	1170.10.26 = {
+		government = nomad_government
+	}
+}
+c_jerjul = {
+	#867
+	840.1.2 = {
+	}
+	867.1.1 = {
+	}
+	#871.8.19 = {
+	#}
+	889.5.2 = {
+		government = nomad_government
+	}
+	
+	#1066
+	1052.1.1 = {
+	}
+	1170.10.26 = {
+		government = herder_government
+	}
+}
+d_blue_khakassia = {
+	867.1.1 = {
+		government = nomad_government
+	}
+	
+	1064.1.1 = {
+	}
+	1068.1.1 = {
+	}
+}
+c_kizir = {
+	#867
+	840.1.2 = {
+	}
+	867.1.1 = {
+	}
+	#871.8.19 = {
+	#}
+	889.5.2 = {
+	}
+	
+	#1066
+	1064.1.1 = {
+	}
+	
+	#1178
+	1170.10.26 = {
+	}
+}
+c_anja = {
+	#867
+	840.1.2 = {
+	}
+	867.1.1 = {
+		government = herder_government
+	}
+	#871.8.19 = {
+	#}
+	889.5.2 = {
+		government = nomad_government
+	}
+	
+	#1066
+	1040.1.1 = {
+	}
+	
+	#1178
+	1170.10.26 = {
+	}
+}
+c_kyzylkul = {
+	#867
+	840.1.2 = {
+	}
+	871.8.19 = {
+	}
+	889.5.2 = {
+	}
+	
+	#1066
+	1062.1.1 = {
+	}
+	
+	#1178
+	1170.10.26 = {
+	}
+}
+d_shoria = {
+	#Kirghiz khanate
+	840.1.2 = {
+	}
+	
+	#867
+	860.3.27 = {
+		government = nomad_government
+	}
+	885.4.20 = {
+	}
+	
+	#End of Kirghiz Khanate
+	925.1.2 = {
+	}
+	
+	#1066
+	1052.3.22 = {
+	}
+	1065.8.11 = {
+	}
+	1100.4.9 = {
+	}
+	1109.12.29 = {
+	}
+	1147.6.1 = {
+	}
+	1169.1.25 = {
+	}
+}
+c_kuzbas = {
+	#867
+	840.1.2 = {
+		government = nomad_government
+	}
+	871.8.19 = {
+	}
+	889.5.2 = {
+	}
+	
+	#1066
+	1053.1.1 = {
+	}
+	1170.10.26 = {
+	}
+}
+c_shor = {
+	#867
+	860.3.27 = {
+		government = nomad_government
+	}
+	885.4.20 = {
+	}
+	
+	#1066
+	1052.3.22 = {
+	}
+	1065.8.11 = {
+	}
+	1100.4.9 = {
+	}
+	1109.12.29 = {
+	}
+	1147.6.1 = {
+	}
+	1169.1.25 = {
+	}
+}
+c_uul_chors = {
+	#867
+	860.3.27 = {
+		government = nomad_government
+	}
+	885.4.20 = {
+	}
+	
+	#1066
+	1052.3.22 = {
+	}
+	1065.8.11 = {
+	}
+	1100.4.9 = {
+	}
+	1109.12.29 = {
+	}
+	1147.6.1 = {
+	}
+	1169.1.25 = {
+	}
+}
+d_kargassia = {
+	#Kirghiz khanate
+	840.1.2 = {
+	}
+	
+	#867
+	864.3.3 = {
+		government = nomad_government
+	}
+	879.7.13 = {
+	}
+	
+	#End of Kirghiz Khanate
+	925.1.2 = {
+	}
+	
+	#1066
+	1063.9.17 = {
+	}
+	1108.1.2 = {
+	}
+	1128.7.25 = {
+	}
+	1146.9.12 = {
+	}
+	1169.1.5 = {
+	}
+}
+c_burugu_aallar = {
+	#867
+	864.3.3 = {
+		government = herder_government
+	}
+	879.7.13 = {
+		government = nomad_government
+	}
+	
+	#1066
+	1063.9.17 = {
+	}
+	1108.1.2 = {
+	}
+	1128.7.25 = {
+	}
+	1146.9.12 = {
+	}
+	1169.1.5 = {
+	}
+}
+c_chagdy_aallar = {
+	#867
+	864.3.3 = {
+		government = nomad_government
+	}
+	879.7.13 = {
+	}
+	
+	#1066
+	1063.9.17 = {
+	}
+	1108.1.2 = {
+	}
+	1128.7.25 = {
+	}
+	1146.9.12 = {
+	}
+	1169.1.5 = {
+	}
+}
+c_songuu_aallar = {
+	#867
+	864.3.3 = {
+		government = nomad_government
+	}
+	879.7.13 = {
+	}
+	
+	#1066
+	1063.9.17 = {
+		government = herder_government
+	}
+	1108.1.2 = {
+		government = nomad_government
+	}
+	1128.7.25 = {
+	}
+	1146.9.12 = {
+	}
+	1169.1.5 = {
+	}
+}
+c_karauda = {
+	#Kirghiz khanate
+	840.1.2 = {
+	}
+	
+	#867
+	849.1.2 = {
+		government = herder_government
+	}
+	889.3.16 = {
+		government = nomad_government
+	}
+	
+	#End of Kirghiz Khanate
+	925.1.2 = {
+	}
+	
+	#1066
+	1047.6.27 = {
+		government = herder_government
+	}
+	1074.4.18 = {
+		government = nomad_government
+	}
+	1101.10.20 = {
+	}
+	1112.1.1 = {
+	}
+	1144.3.16 = {
+	}
+	1166.11.2 = {
+	}
+	1175.4.18 = {
+	}
+}
+c_shityy = {
+	#Kirghiz khanate
+	840.1.2 = {
+		government = nomad_government
+	}
+
+	850.4.1 = {
+	}
+	
+	#867
+	851.1.2 = {
+	}
+
+	889.3.16 = {
+	}
+	
+	#End of Kirghiz Khanate
+	925.1.2 = {
+	}
+	
+	#1066
+	1063.2.8 = {
+	}
+	1092.12.7 = {
+	}
+	1111.9.11 = {
+	}
+	1145.8.21 = {
+	}
+	
+	#Added to Oirat sphere of influence
+	1155.1.2 = {
+	}
+	1195.4.18 = {
+	}
+}
+c_kropot = {
+	#Kirghiz khanate
+	840.1.2 = {
+	}
+	
+	#867
+	864.2.13 = {
+		government = nomad_government
+	}
+
+	902.8.16 = {
+	}
+	
+	#End of Kirghiz Khanate
+	925.1.2 = {
+	}
+	
+	#1066
+	1063.2.8 = {
+	}
+	1092.12.7 = {
+	}
+	1111.9.11 = {
+	}
+	1145.8.21 = {
+	}
+	1166.3.28 = {
+	}
+}
+c_monkh_saridag = {
+	#Kirghiz khanate
+	840.1.2 = {
+	}
+	
+	#867
+	864.2.13 = {
+		government = nomad_government
+	}
+	902.8.16 = {
+	}
+	
+	#End of Kirghiz Khanate
+	925.1.2 = {
+	}
+	
+	#1066
+	1060.3.8 = {
+	}
+	1083.2.26 = {
+	}
+	1109.4.22 = {
+	}
+	1149.6.18 = {
+	}
+	1177.10.22 = {
+	}
+}

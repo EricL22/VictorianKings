@@ -1,0 +1,221 @@
+d_em_tataria = {
+	#867
+	867.1.1 = {
+		government = nomad_government
+	}
+	
+	1066.1.1 = {
+	}
+	
+	1178.1.1 = {
+	}
+}
+c_em_zhen = {
+	#867
+	867.1.1 = {
+	}
+	
+	1066.1.1 = {
+	}
+	
+	1178.1.1 = {
+	}
+}
+c_em_gobidada = {
+	#867
+	867.1.1 = {
+	}
+	
+	1066.1.1 = {
+	}
+	
+	1178.1.1 = {
+	}
+}
+c_em_dutulun = {
+	#867
+	867.1.1 = {
+	}
+	
+	1066.1.1 = {
+	}
+	
+	1178.1.1 = {
+	}
+}
+c_em_kherulendada = {
+	#867
+	867.1.1 = {
+		government = herder_government
+	}
+	
+	1066.1.1 = {
+	}
+	
+	1178.1.1 = {
+	}
+}
+d_em_wuguguo = {
+	#867
+	867.1.1 = {
+		government = nomad_government
+	}
+	
+	1066.1.1 = {
+	}
+	
+	1178.1.1 = {
+	}
+}
+c_em_hepung = {
+	#867
+	867.1.1 = {
+		government = nomad_government
+	}
+	
+	1066.1.1 = {
+	}
+	
+	1178.1.1 = {
+	}
+}
+c_em_karakopi = {
+	#867
+	867.1.1 = {
+		government = nomad_government
+	}
+	
+	1066.1.1 = {
+	}
+	
+	1178.1.1 = {
+	}
+}
+c_em_akhulun = {
+	#867
+	867.1.1 = {
+		government = herder_government
+	}
+	
+	1066.1.1 = {
+		government = herder_government
+	}
+	
+	1178.1.1 = {
+	}
+}
+c_em_khartereg = {
+	#867
+	867.1.1 = {
+		government = nomad_government
+	}
+	
+	1066.1.1 = {
+	}
+	
+	1178.1.1 = {
+	}
+}
+d_gobi_dadaels = {
+	867.1.1 = {
+		government = nomad_government
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_em_dadaels = {
+	867.1.1 = {
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_gobi_ulaantatar = {
+	867.1.1 = {
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_gobi_dorngovi = {
+	867.1.1 = {
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_gobi_sonkhot = {
+	867.1.1 = {
+		government = herder_government
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_gobi_maominggan = {
+	867.1.1 = {
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_gobi_abga = {
+	867.1.1 = {
+		government = herder_government
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+		government = herder_government
+	}
+}
+c_gobi_abakhai = {
+	867.1.1 = {
+		government = herder_government
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+		government = herder_government
+	}
+}
+d_gobi_ongi = {
+	867.1.1 = {
+		government = nomad_government
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_gobi_ongi_gol = {
+	867.1.1 = {
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_gobi_ulaan_nuur = {
+	867.1.1 = {
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_gobi_ulaan_govi = {
+	867.1.1 = {
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}

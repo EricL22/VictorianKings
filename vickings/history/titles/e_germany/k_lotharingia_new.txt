@@ -7,7 +7,25 @@ d_luxembourg = {
 		de_jure_liege = k_frisia
 	}
 	1814.4.11 = {	# Netherlands
-		holder = 8000001
+		holder = orange_0	# William I
+	}
+	1840.10.7 = {
+		holder = orange_1	# William II
+	}
+	1849.3.17 = {
+		holder = orange_2	# William III
+	}
+	1890.11.23 = {	# Luxembourg
+		holder = nassau_1	# Adolphe
+	}
+	1905.11.17 = {
+		holder = nassau_2	# William IV
+	}
+	1907.7.10 = {
+		remove_succession_laws = yes
+	}
+	1912.2.25 = {
+		holder = nassau_3	# Marie-Adelaide
 	}
 }
 c_luxembourg = {
@@ -15,7 +33,22 @@ c_luxembourg = {
 		holder = bonaparte_2	# Napoleon
 	}
 	1814.4.11 = {	# Netherlands
-		holder = 8000001
+		holder = orange_0	# William I
+	}
+	1840.10.7 = {
+		holder = orange_1	# William II
+	}
+	1849.3.17 = {
+		holder = orange_2	# William III
+	}
+	1890.11.23 = {	# Luxembourg
+		holder = nassau_1	# Adolphe
+	}
+	1905.11.17 = {
+		holder = nassau_2	# William IV
+	}
+	1912.2.25 = {
+		holder = nassau_3	# Marie-Adelaide
 	}
 }
 c_bouillon = {
@@ -23,7 +56,7 @@ c_bouillon = {
 		holder = bonaparte_2	# Napoleon
 	}
 	1814.4.11 = {	# Netherlands
-		holder = 8000001
+		holder = orange_0	# William I
 	}
 	1831.7.21 = {	# Belgium
 		holder = 8000034
@@ -35,7 +68,7 @@ c_liege = {
 		holder = bonaparte_2	# Napoleon
 	}
 	1814.4.11 = {	# Netherlands
-		holder = 8000001
+		holder = orange_0	# William I
 	}
 	1831.7.21 = {	# Belgium
 		holder = 8000034
@@ -47,7 +80,7 @@ c_namur = {
 		holder = bonaparte_2	# Napoleon
 	}
 	1814.4.11 = {	# Netherlands
-		holder = 8000001
+		holder = orange_0	# William I
 	}
 	1831.7.21 = {	# Belgium
 		holder = 8000034
@@ -69,7 +102,7 @@ c_brabant = {
 		holder = bonaparte_2	# Napoleon
 	}
 	1814.4.11 = {	# Netherlands
-		holder = 8000001
+		holder = orange_0	# William I
 	}
 	1831.7.21 = {	# Belgium
 		holder = 8000034
@@ -80,7 +113,7 @@ c_antwerpen = {
 		holder = bonaparte_2	# Napoleon
 	}
 	1814.4.11 = {	# Netherlands
-		holder = 8000001
+		holder = orange_0	# William I
 	}
 	1831.7.21 = {	# Belgium
 		holder = 8000034
@@ -91,7 +124,7 @@ c_hainaut = {
 		holder = bonaparte_2	# Napoleon
 	}
 	1814.4.11 = {	# Netherlands
-		holder = 8000001
+		holder = orange_0	# William I
 	}
 	1831.7.21 = {	# Belgium
 		holder = 8000034
@@ -155,7 +188,7 @@ c_maastricht = {
 		holder = bonaparte_2	# Napoleon
 	}
 	1814.4.11 = {	# Netherlands
-		holder = 8000001
+		holder = orange_0	# William I
 		de_jure_liege = d_brabant
 	}
 	1831.7.21 = {	# Belgium

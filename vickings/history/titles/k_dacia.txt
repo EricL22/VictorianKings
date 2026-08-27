@@ -1,0 +1,490 @@
+c_campulung = {
+	###Part of 1st Bulgarian Empire
+	852.1.1 = {
+		government = tribal_government
+	}
+	860.1.1 = {
+	}
+	935.1.1 = {
+		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+	}
+	
+	###Pecheneg rule  from 895 to 1091
+	1066.1.1 = {
+	}
+	
+	###Cumans rules from 1091 to 1241
+	1105.12.3 = {
+	}
+	1127.11.19 = {
+	}
+	1164.7.1 = {
+	}
+	1181.12.24 = {
+	}
+	
+	###Post-Cuman rule
+	1241.1.1 = {
+	}
+	1248.1.1 = {
+	}
+	1277.1.1 = {
+	}
+	1290.1.1 = {
+	}
+	1300.1.2 = {
+	}
+	1332.1.1 = {
+	}
+}
+c_polovragi = {
+	###Part of 1st Bulgarian Empire
+	852.1.1 = {
+		government = tribal_government
+	}
+	860.1.1 = {
+	}
+	935.1.1 = {
+		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+	}
+	
+	###Pecheneg rule  from 895 to 1091
+	1066.1.1 = {
+	}
+	
+	###Cumans rules from 1091 to 1241
+	1099.4.13 = {
+	}
+	1139.11.19 ={
+	}
+	1154.10.25 = {
+	}
+	1186.12.3 = {
+	}
+	
+	###Post-Cuman rule
+	1241.1.1 = {
+	}
+	1248.1.1 = {
+	}
+	1277.1.1 = {
+	}
+	1290.1.1 = {
+	}
+	1300.1.2 = {
+	}
+	1332.1.1 = {
+	}
+}
+c_tabla_butii = {
+	###Part of 1st Bulgarian Empire
+	852.1.1 = {
+		government = tribal_government
+	}
+	860.1.1 = {
+	}
+	935.1.1 = {
+		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+	}
+	
+	###Pecheneg rule  from 895 to 1091
+	1066.1.1 = {
+	}
+	
+	###Cumans rules from 1091 to 1241
+	1105.12.3 = {
+	}
+	1127.11.19 = {
+	}
+	1164.7.1 = {
+	}
+	1181.12.24 = {
+	}
+	
+	###Post-Cuman rule
+	1241.1.1 = {
+	}
+	1248.1.1 = {
+	}
+	1277.1.1 = {
+	}
+	1290.1.1 = {
+	}
+	1300.1.2 = {
+	}
+	1332.1.1 = {
+	}
+}
+d_muntenia = {
+	860.1.1 = {
+	}
+	898.12.30 = {
+	}
+}
+c_giurgiu = {
+	###Part of 1st Bulgarian Empire
+	852.1.1 = {
+		government = tribal_government
+	}
+	860.1.1 = {
+	}
+	935.1.1 = {
+		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+	}
+	
+	###Pecheneg rule  from 895 to 1091
+	1066.1.1 = {
+	}
+	1080.10.14 = {
+	}
+	
+	###Cumans rules from 1091 to 1241
+	1115.2.4 = {
+	}
+	1136.9.12 = {
+	}
+	1164.10.13 = {
+	}
+	1185.4.1 = {
+	}
+	1216.2.16 = {
+	}
+	
+	###Post-Cuman rule
+	1241.1.1 = {
+	}
+	1248.1.1 = {
+	}
+	1277.1.1 = {
+	}
+	1290.1.1 = {
+	}
+	1300.1.2 = {
+	}
+	1332.1.1 = {
+	}
+}
+c_bucuresti = {
+	###Part of 1st Bulgarian Empire
+	852.1.1 = {
+		government = tribal_government
+	}
+	860.1.1 = {
+	}
+	935.1.1 = {
+		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+	}
+	
+	###Pecheneg rule  from 895 to 1091
+	1066.1.1 = {
+	}
+	
+	###Cumans rules from 1091 to 1241
+	1097.2.8 = {
+	}
+	1125.8.7 = {
+	}
+	1156.2.20 = {
+	}
+	1184.5.9 = {
+	}
+	
+	###Post-Cuman rule
+	1241.1.1 = {
+	}
+	1248.1.1 = {
+	}
+	1277.1.1 = {
+	}
+	1290.1.1 = {
+	}
+	1300.1.2 = {
+	}
+	1332.1.1 = {
+	}
+}
+c_calarasi = {
+	###Part of 1st Bulgarian Empire
+	852.1.1 = {
+		government = tribal_government
+	}
+	860.1.1 = {
+	}
+	935.1.1 = {
+		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+	}
+	
+	###Pecheneg rule  from 895 to 1091
+	1066.1.1 = {
+	}
+	
+	###Cumans rules from 1091 to 1241
+	1097.2.8 = {
+	}
+	1125.8.7 = {
+	}
+	1156.2.20 = {
+	}
+	1184.5.9 = {
+	}
+	
+	###Post-Cuman rule
+	1241.1.1 = {
+	}
+	1248.1.1 = {
+	}
+	1277.1.1 = {
+	}
+	1290.1.1 = {
+	}
+	1300.1.2 = {
+	}
+	1332.1.1 = {
+	}
+}
+c_buzau = {
+	###Part of 1st Bulgarian Empire
+	852.1.1 = {
+		government = tribal_government
+	}
+	860.1.1 = {
+	}
+	935.1.1 = {
+		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+	}
+	
+	###Pecheneg rule  from 895 to 1091
+	1066.1.1 = {
+	}
+	1069.12.15 = {
+	}
+	
+	###Cumans rules from 1091 to 1241
+	1119.5.30 = {
+	}
+	1140.9.18 = {
+	}
+	1176.4.9 = {
+	}
+	1206.2.15 = {
+	}
+	
+	###Post-Cuman rule
+	1241.1.1 = {
+	}
+	1248.1.1 = {
+	}
+	1277.1.1 = {
+	}
+	1290.1.1 = {
+	}
+	1300.1.2 = {
+	}
+	1332.1.1 = {
+	}
+}
+c_braila = {
+	###Part of 1st Bulgarian Empire
+	852.1.1 = {
+		government = tribal_government
+	}
+	860.1.1 = {
+	}
+	935.1.1 = {
+		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+	}
+	
+	###Pecheneg rule  from 895 to 1091
+	1066.1.1 = {
+	}
+	1069.12.15 = {
+	}
+	
+	###Cumans rules from 1091 to 1241
+	1119.5.30 = {
+	}
+	1140.9.18 = {
+	}
+	1176.4.9 = {
+	}
+	1206.2.15 = {
+	}
+	
+	###Post-Cuman rule
+	1241.1.1 = {
+	}
+	1248.1.1 = {
+	}
+	1277.1.1 = {
+	}
+	1290.1.1 = {
+	}
+	1300.1.2 = {
+	}
+	1332.1.1 = {
+	}
+}
+c_targu_jiu = {
+	###Part of 1st Bulgarian Empire
+	852.1.1 = {
+		government = tribal_government
+	}
+	860.1.1 = {
+	}
+	935.1.1 = {
+		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+	}
+	
+	###Pecheneg rule  from 895 to 1091
+	1066.1.1 = {
+	}
+	
+	###Cumans rules from 1091 to 1241
+	1099.4.13 = {
+	}
+	1139.11.19 ={
+	}
+	1154.10.25 = {
+	}
+	1186.12.3 = {
+	}
+	
+	###Post-Cuman rule
+	1241.1.1 = {
+	}
+	1248.1.1 = {
+	}
+	1277.1.1 = {
+	}
+	1290.1.1 = {
+	}
+	1300.1.2 = {
+	}
+	1332.1.1 = {
+	}
+}
+c_severin = {
+	###Part of 1st Bulgarian Empire
+	852.1.1 = {
+		government = tribal_government
+	}
+	860.1.1 = {
+	}
+	935.1.1 = {
+		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+	}
+	
+	###Pecheneg rule  from 895 to 1091
+	1066.1.1 = {
+	}
+	
+	
+	###Cumans rules from 1091 to 1241
+	1111.7.14 = {
+	}
+	1128.7.11 = {
+	}
+	1162.2.19 = {
+	}
+	1182.5.4 = {
+	}
+	
+	
+	###Post-Cuman rule
+	1241.1.1 = {
+	}
+	1248.1.1 = {
+	}
+	1277.1.1 = {
+	}
+	1290.1.1 = {
+	}
+	1300.1.2 = {
+	}
+	1332.1.1 = {
+	}
+}
+c_calafat = {
+	###Part of 1st Bulgarian Empire
+	852.1.1 = {
+		government = tribal_government
+	}
+	860.1.1 = {
+	}
+	935.1.1 = {
+		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+	}
+	
+	###Pecheneg rule  from 895 to 1091
+	1066.1.1 = {
+	}
+	
+	
+	###Cumans rules from 1091 to 1241
+	1111.7.14 = {
+	}
+	1128.7.11 = {
+	}
+	1162.2.19 = {
+	}
+	1182.5.4 = {
+	}
+	
+	
+	###Post-Cuman rule
+	1241.1.1 = {
+	}
+	1248.1.1 = {
+	}
+	1277.1.1 = {
+	}
+	1290.1.1 = {
+	}
+	1300.1.2 = {
+	}
+	1332.1.1 = {
+	}
+}
+c_craiova = {
+	###Part of 1st Bulgarian Empire
+	852.1.1 = {
+		government = tribal_government
+	}
+	860.1.1 = {
+	}
+	935.1.1 = {
+		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+	}
+	
+	###Pecheneg rule  from 895 to 1091
+	1066.1.1 = {
+	}
+	1080.10.14 = {
+	}
+	
+	###Cumans rules from 1091 to 1241
+	1115.2.4 = {
+	}
+	1136.9.12 = {
+	}
+	1164.10.13 = {
+	}
+	1185.4.1 = {
+	}
+	1216.2.16 = {
+	}
+	
+	###Post-Cuman rule
+	1241.1.1 = {
+	}
+	1248.1.1 = {
+	}
+	1277.1.1 = {
+	}
+	1290.1.1 = {
+	}
+	1300.1.2 = {
+	}
+	1332.1.1 = {
+	}
+}

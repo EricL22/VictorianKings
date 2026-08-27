@@ -1,0 +1,435 @@
+k_tanjungnagara = {
+	867.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 4 }
+	1178.1.1 = { change_development_level = 6 }
+}
+d_BOR_tanjungpura = {
+	867.1.1 = {
+		government = mandala_government
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_BOR_sambas = {
+	867.1.1 = { change_development_level = 5 }
+	1066.1.1 = { change_development_level = 9 }
+	1178.1.1 = { change_development_level = 16 }
+
+	#Wijayapura from ~7th to ~9th
+	867.1.1 = {
+		government = mandala_government
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_BOR_sukadana = {
+	867.1.1 = { change_development_level = 4 }
+	1066.1.1 = { change_development_level = 8 }
+	1178.1.1 = { change_development_level = 13 }
+
+	867.1.1 = {
+		government = mandala_government
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_BOR_sintang = {
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 6 }
+	1178.1.1 = { change_development_level = 10 }
+
+	867.1.1 = {
+		government = wanua_government
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+		government = mandala_government
+	}
+}
+c_BOR_waringin = {
+	867.1.1 = { change_development_level = 4 }
+	1066.1.1 = { change_development_level = 7 }
+	1178.1.1 = { change_development_level = 12 }
+
+	867.1.1 = {
+		government = mandala_government
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_BOR_brunei = {
+	867.1.1 = { change_development_level = 6 }
+	1066.1.1 = { change_development_level = 12 }
+	1178.1.1 = { change_development_level = 23 }
+
+	867.1.1 = {
+		government = mandala_government
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_BOR_kudat = {
+	867.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 4 }
+	1178.1.1 = { change_development_level = 7 }
+
+	867.1.1 = {
+		government = wanua_government
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_BOR_lahad_datu = {
+	867.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 5 }
+	1178.1.1 = { change_development_level = 8 }
+
+	867.1.1 = {
+		government = wanua_government
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_BOR_menjelutung = {
+	867.1.1 = { change_development_level = 1 }
+	1066.1.1 = { change_development_level = 3 }
+	1178.1.1 = { change_development_level = 5 }
+
+	867.1.1 = {
+		government = wanua_government
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_BOR_nabawan = {
+	867.1.1 = { change_development_level = 1 }
+	1066.1.1 = { change_development_level = 2 }
+	1178.1.1 = { change_development_level = 4 }
+
+	867.1.1 = {
+		government = wanua_government
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_BOR_santubong = {
+	867.1.1 = { change_development_level = 4 }
+	1066.1.1 = { change_development_level = 8 }
+	1178.1.1 = { change_development_level = 14 }
+
+	867.1.1 = {
+		government = wanua_government
+	}
+	1066.1.1 = {
+		government = mandala_government
+	}
+	1178.1.1 = {
+	}
+}
+c_BOR_iban = {
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 5 }
+	1178.1.1 = { change_development_level = 9 }
+
+	867.1.1 = {
+		government = wanua_government
+	}
+	1066.1.1 = {
+		government = mandala_government
+	}
+	1178.1.1 = {
+	}
+}
+c_BOR_rajang = {
+	867.1.1 = { change_development_level = 4 }
+	1066.1.1 = { change_development_level = 7 }
+	1178.1.1 = { change_development_level = 12 }
+
+	867.1.1 = {
+		government = wanua_government
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_BOR_tanah_taman = {
+	867.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 4 }
+	1178.1.1 = { change_development_level = 6 }
+
+	867.1.1 = {
+		government = wanua_government
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+d_BOR_nan_sarunai = {
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_BOR_banjar = {
+	867.1.1 = { change_development_level = 6 }
+	1066.1.1 = { change_development_level = 11 }
+	1178.1.1 = { change_development_level = 21 }
+
+	867.1.1 = {
+		government = wanua_government
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_BOR_tabalung = {
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 5 }
+	1178.1.1 = { change_development_level = 9 }
+
+	867.1.1 = {
+		government = wanua_government
+	}
+	1066.1.1 = {
+		government = mandala_government
+	}
+	1178.1.1 = {
+	}
+}
+c_BOR_taiao = {
+	867.1.1 = { change_development_level = 1 }
+	1066.1.1 = { change_development_level = 3 }
+	1178.1.1 = { change_development_level = 5 }
+
+	867.1.1 = {
+		government = wanua_government
+	}
+	1066.1.1 = {
+		government = mandala_government
+	}
+	1178.1.1 = {
+	}
+}
+c_BOR_sampit = {
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 6 }
+	1178.1.1 = { change_development_level = 10 }
+
+	867.1.1 = {
+		government = wanua_government
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+d_BOR_kutai = {
+	#as kingdom of Kutai / Segara kingdom
+	#rules dates are somewhat sketchy, probably not entirely historical
+	375.1.1 = {
+		government = wanua_government
+	}
+	400.1.1 = {
+	}
+	446.1.1 = {
+	}
+	495.1.1 = {
+	}
+	543.1.1 = {
+	}
+	590.1.1 = {
+	}
+	637.1.1 = {
+	}
+	686.1.1 = {
+	}
+	736.1.1 = {
+	}
+	783.1.1 = {
+	}
+	836.1.1 = {
+	}
+	879.1.1 = {
+	}
+	926.1.1 = {
+	}
+	972.1.1 = {
+	}
+	1020.1.1 = {
+	}
+	1066.1.1 = {
+		government = mandala_government
+	}
+	1069.1.1 = {
+	}
+	1111.1.1 = {
+	}
+	1166.1.1 = {
+	}
+	#1214.1.1
+}
+c_BOR_martapura = {
+	867.1.1 = { change_development_level = 5 }
+	1066.1.1 = { change_development_level = 9 }
+	1178.1.1 = { change_development_level = 15 }
+
+	375.1.1 = {
+	}
+	400.1.1 = {
+	}
+	446.1.1 = {
+	}
+	495.1.1 = {
+	}
+	543.1.1 = {
+	}
+	590.1.1 = {
+	}
+	637.1.1 = {
+	}
+	686.1.1 = {
+	}
+	736.1.1 = {
+	}
+	783.1.1 = {
+	}
+	836.1.1 = {
+	}
+	879.1.1 = {
+	}
+	926.1.1 = {
+	}
+	972.1.1 = {
+	}
+	1020.1.1 = {
+	}
+	1069.1.1 = {
+	}
+	1111.1.1 = {
+	}
+	1166.1.1 = {
+	}
+	#1214.1.1
+}
+c_BOR_kutai_utara = {
+	867.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 4 }
+	1178.1.1 = { change_development_level = 7 }
+
+	375.1.1 = {
+		government = mandala_government
+	}
+	400.1.1 = {
+	}
+	446.1.1 = {
+	}
+	495.1.1 = {
+	}
+	543.1.1 = {
+	}
+	590.1.1 = {
+	}
+	637.1.1 = {
+	}
+	686.1.1 = {
+	}
+	736.1.1 = {
+	}
+	783.1.1 = {
+	}
+	836.1.1 = {
+	}
+	879.1.1 = {
+	}
+	926.1.1 = {
+	}
+	972.1.1 = {
+	}
+	1020.1.1 = {
+	}
+	1069.1.1 = {
+	}
+	1111.1.1 = {
+	}
+	1166.1.1 = {
+	}
+	#1214.1.1
+}
+c_BOR_berau = {
+	867.1.1 = { change_development_level = 4 }
+	1066.1.1 = { change_development_level = 7 }
+	1178.1.1 = { change_development_level = 12 }
+
+	867.1.1 = {
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_BOR_kutai_jauh = {
+	867.1.1 = { change_development_level = 1 }
+	1066.1.1 = { change_development_level = 3 }
+	1178.1.1 = { change_development_level = 5 }
+
+	375.1.1 = {
+		government = mandala_government
+	}
+	400.1.1 = {
+	}
+	446.1.1 = {
+	}
+	495.1.1 = {
+	}
+	543.1.1 = {
+	}
+	590.1.1 = {
+	}
+	637.1.1 = {
+	}
+	686.1.1 = {
+	}
+	736.1.1 = {
+	}
+	783.1.1 = {
+	}
+	836.1.1 = {
+	}
+	879.1.1 = {
+	}
+	926.1.1 = {
+	}
+	972.1.1 = {
+	}
+	1020.1.1 = {
+	}
+	1069.1.1 = {
+	}
+	1111.1.1 = {
+	}
+	1166.1.1 = {
+	}
+	#1214.1.1
+}

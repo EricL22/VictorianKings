@@ -1,0 +1,410 @@
+k_shiwei = {
+	867.1.1 = { change_development_level = 0 }
+	1066.1.1 = { change_development_level = 0 }
+	1178.1.1 = { change_development_level = 0 }
+}
+d_SW_heicheziguo = {
+	867.1.1 = {
+		government = nomad_government
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_SW_zhongcheziguo = {
+	867.1.1 = {
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_SW_dongcheziguo = {
+	867.1.1 = {
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_SW_hulunbuir = {
+	867.1.1 = {
+		government = herder_government
+	}
+	1066.1.1 = {
+		government = herder_government
+	}
+	1178.1.1 = {
+		government = herder_government
+	}
+}
+c_SW_hongxingan = {
+	867.1.1 = {
+		government = herder_government
+	}
+	1066.1.1 = {
+		government = herder_government
+	}
+	1178.1.1 = {
+		government = herder_government
+	}
+}
+c_SW_mengwuo = {
+	#867
+	867.1.1 = {
+		government = herder_government
+	}
+	
+	1066.1.1 = {
+		government = herder_government
+	}
+	
+	1178.1.1 = {
+		government = herder_government
+	}
+}
+c_SW_heiergun = {
+	#867
+	867.1.1 = {
+		government = nomad_government
+	}
+	
+	1066.1.1 = {
+	}
+	
+	1178.1.1 = {
+	}
+}
+d_SW_dashiweiguo = {
+	867.1.1 = {
+		government = nomad_government
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_SW_pibeihe = {
+	867.1.1 = {
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_SW_ergunia = {
+	867.1.1 = {
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_SW_hailar = {
+	867.1.1 = {
+		government = herder_government
+	}
+	1066.1.1 = {
+		government = herder_government
+	}
+	1178.1.1 = {
+		government = herder_government
+	}
+}
+d_SW_lingxiguo = {
+	#867
+	867.1.1 = {
+		government = nomad_government
+	}
+	
+	1066.1.1 = {
+	}
+	
+	1178.1.1 = {
+	}
+}
+c_SW_lingxiguo = {
+	#867
+	867.1.1 = {
+	}
+	
+	1066.1.1 = {
+	}
+	
+	1178.1.1 = {
+	}
+}
+c_SW_heiheguo = {
+	#867
+	867.1.1 = {
+		government = herder_government
+	}
+	
+	1066.1.1 = {
+		government = herder_government
+	}
+	
+	1178.1.1 = {
+		government = herder_government
+	}
+}
+c_SW_powoguo = {
+	#867
+	867.1.1 = {
+	}
+	
+	1066.1.1 = {
+	}
+	
+	1178.1.1 = {
+	}
+}
+d_SW_qingxingan = {
+	867.1.1 = {
+		government = nomad_government
+	}
+	
+	1066.1.1 = {
+	}
+	
+	1178.1.1 = {
+	}
+}
+c_SW_huangtouguo = {
+	867.1.1 = {
+		government = herder_government
+	}
+	
+	1066.1.1 = {
+		government = herder_government
+	}
+	
+	1178.1.1 = {
+		government = herder_government
+	}
+}
+c_SW_xinghuangtou = {
+	867.1.1 = {
+		government = herder_government
+	}
+	
+	1066.1.1 = {
+		government = herder_government
+	}
+	
+	1178.1.1 = {
+		government = herder_government
+	}
+}
+c_SW_nabeiguo = {
+	867.1.1 = {
+	}
+	
+	1066.1.1 = {
+	}
+	
+	1178.1.1 = {
+	}
+}
+c_SW_xingnabei = {
+	867.1.1 = {
+	}
+	
+	1066.1.1 = {
+	}
+	
+	1178.1.1 = {
+	}
+}
+c_SW_luotuoguo = {
+	867.1.1 = {
+		government = herder_government
+	}
+	
+	1066.1.1 = {
+		government = herder_government
+	}
+	
+	1178.1.1 = {
+		government = herder_government
+	}
+}
+d_SW_ruzheguo = {
+	#867
+	867.1.1 = {
+		government = nomad_government
+	}
+	
+	1066.1.1 = {
+	}
+	
+	1178.1.1 = {
+	}
+}
+c_SW_jiqin_hari = {
+	#867
+	867.1.1 = {
+	}
+	
+	1066.1.1 = {
+	}
+	
+	#JIN dynasty
+	1178.1.1 = {
+		government = nomad_government
+	}
+}
+c_SW_ruzhejiang = {
+	#867
+	867.1.1 = {
+	}
+	
+	1066.1.1 = {
+		government = nomad_government
+	}
+	
+	#JIN dynasty
+	1178.1.1 = {
+	}
+}
+c_SW_dongruzhe = {
+	#867
+	867.1.1 = {
+	}	
+	1066.1.1 = {
+	}
+	
+	#JIN dynasty
+	1178.1.1 = {
+		government = nomad_government
+	}
+}
+d_SW_puyudao = {
+	#867
+	867.1.1 = {
+		government = nomad_government
+	}
+	
+	1066.1.1 = {
+	}
+	
+	1178.1.1 = {
+	}
+}
+c_SW_puyuzhou = {
+	#867
+	867.1.1 = {
+		government = herder_government
+	}
+	
+	1066.1.1 = {
+		government = herder_government
+	}
+	
+	1178.1.1 = {
+		government = herder_government
+	}
+}
+c_SW_damoguo = {
+	#867
+	867.1.1 = {
+	}
+	
+	1066.1.1 = {
+	}
+	
+	1178.1.1 = {
+	}
+}
+c_SW_shanbeiguo = {
+	#867
+	867.1.1 = {
+	}
+	
+	1066.1.1 = {
+	}
+	
+	1178.1.1 = {
+	}
+}
+c_SW_heilonghean = {
+	#867
+	867.1.1 = {
+		government = herder_government
+	}
+	
+	1066.1.1 = {
+		government = herder_government
+	}
+	
+	1178.1.1 = {
+		government = herder_government
+	}
+}
+d_SW_sushenguo = {
+	867.1.1 = {
+		government = nomad_government
+	}
+	1066.1.1 = {
+	}
+	
+	#JIN dynasty
+	1178.1.1 = {
+	}
+}
+c_SW_suihua = {
+	867.1.1 = {
+	}
+	1066.1.1 = {
+		government = nomad_government
+	}
+	
+	#JIN dynasty
+	1178.1.1 = {
+	}
+}
+c_SW_heilonglin = {
+	867.1.1 = {
+		government = herder_government
+	}
+	1066.1.1 = {
+		government = nomad_government
+	}
+	
+	#JIN dynasty
+	1178.1.1 = {
+	}
+}
+c_SW_lupingyuan = {
+	867.1.1 = {
+		government = herder_government
+	}
+	1066.1.1 = {
+		government = nomad_government
+	}
+	
+	#JIN dynasty
+	1178.1.1 = {
+	}
+}
+c_SW_fancao = {
+	867.1.1 = {
+	}
+	1066.1.1 = {
+		government = nomad_government
+	}
+	#JIN dynasty
+	1178.1.1 = {
+	}
+}
+c_SW_gonghejiang = {
+	867.1.1 = {
+	}
+	1066.1.1 = {
+		government = nomad_government
+	}
+	#JIN dynasty
+	1178.1.1 = {
+	}
+}

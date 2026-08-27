@@ -18,6 +18,10 @@
  k_tts:0 "Two Sicilies"
  k_tts_adj:0 "Sicilian"
 
+ k_frisia_article:0 "the "	# has to be of k_frisia so it shows up in non-definitive form
+ netherlands:0 "Netherlands"
+ netherlands_adj:0 "Dutch"
+
  d_berg:0 "Berg"
  d_berg_adj:0 "Berg"
 

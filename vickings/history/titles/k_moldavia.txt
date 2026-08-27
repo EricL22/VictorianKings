@@ -1,0 +1,266 @@
+d_bukovina = {
+	860.1.1 = {
+		government = tribal_government
+	}
+	898.12.30 = {
+	}
+	935.1.1 = {
+		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+	}
+}
+c_suceava = {
+	860.1.1 = {
+		government = tribal_government
+	}
+	#Magyar rule
+	870.1.1 = {
+	}
+	900.5.17 = {
+	}
+	935.1.1 = {
+		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+	}
+	#Kievan Rus rule
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_neamnt = {
+	860.1.1 = {
+		government = tribal_government
+	}
+	#Magyar rule
+	870.1.1 = {
+	}
+	900.5.17 = {
+	}
+	935.1.1 = {
+		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+	}
+	#Kievan Rus rule
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_dorohoi = {
+	860.1.1 = {
+		government = tribal_government
+	}
+	#Magyar rule
+	870.1.1 = {
+	}
+	935.1.1 = {
+		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+	}
+	#Kievan Rus rule
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_hotin = {
+	860.1.1 = {
+		government = tribal_government
+	}
+	#Magyar rule
+	870.1.1 = {
+	}
+	935.1.1 = {
+		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+	}
+	#Kievan Rus rule
+	1066.1.1 = {
+	}
+	1153.1.1 = {
+	}
+}
+d_moldova = {
+	860.1.1 = {
+		government = tribal_government
+	}
+	898.12.30 = {
+	}
+	935.1.1 = {
+		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+	}
+}
+c_iasi = {
+	#Dridu tribe under Magyar rule
+	867.1.1 = {
+		government = tribal_government
+	}
+	935.1.1 = {
+		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+	}
+	
+	#Pecheneg rule
+	1066.1.1 = {
+	}
+	1091.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_orhei = {
+	860.1.1 = {
+		government = tribal_government
+	}
+	#Magyar rule
+	870.1.1 = {
+	}
+	897.10.16 = {
+	}
+	935.1.1 = {
+		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+	}
+	#Pecheneg rule
+	1066.1.1 = {
+		government = nomad_government
+	}
+	1178.1.1 = {
+		government = feudal_government
+	}
+}
+c_soroca = {
+	860.1.1 = {
+		government = tribal_government
+	}
+	#Magyar rule
+	870.1.1 = {
+	}
+	897.10.16 = {
+	}
+	935.1.1 = {
+		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+	}
+	#Pecheneg rule
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_barlad = {
+	#Dridu tribe
+	867.1.1 = {
+		government = tribal_government
+	}
+	935.1.1 = {
+		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+	}
+	#Pecheneg rule
+	1066.1.1 = {
+	}
+	1091.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_galati = {
+	#Under Bulgarian Empire
+	867.1.1 = {
+		government = tribal_government
+	}
+	885.2.19 = {
+	}
+	935.1.1 = {
+		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+	}
+	#Under Pecheneg rule
+	1050.1.1 = {
+	}
+	1085.12.21 = {
+	}
+	1091.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_stoenesti = {
+	#Under Bulgarian Empire
+	867.1.1 = {
+		government = tribal_government
+	}
+	885.2.19 = {
+	}
+	935.1.1 = {
+		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+	}
+	#Under Pecheneg rule
+	1050.1.1 = {
+	}
+	1085.12.21 = {
+	}
+	1091.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+d_bugeac = {
+	867.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 2 }
+	1178.1.1 = { change_development_level = 4 }
+	
+	#Pecheneg rule
+	1066.1.1 = {
+	}
+	1091.1.1 = {
+	}
+}
+c_tigheci = {
+	#Tigheci Republic
+	867.1.1 = {
+		government = tribal_government
+	}
+	#Pecheneg rule
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_cetatea_alba = {
+	#Tigheci Republic
+	867.1.1 = {
+		government = tribal_government
+	}
+	935.1.1 = {
+		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+	}
+	
+	#Pecheneg rule
+	1066.1.1 = {
+		government = nomad_government
+	}
+	1178.1.1 = {
+		government = feudal_government
+	}
+}
+c_chilia = {
+	#Tigheci Republic
+	867.1.1 = {
+		government = tribal_government
+	}
+	#Pecheneg rule
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_lapusna = {
+	860.1.1 = {
+		government = tribal_government
+	}
+	#Magyar rule
+	870.1.1 = {
+	}
+	935.1.1 = {
+		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+	}
+	
+	#Pecheneg rule
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}

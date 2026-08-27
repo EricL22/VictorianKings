@@ -1,0 +1,376 @@
+c_PHI_tondo = {
+	867.1.1 = { change_development_level = 6 }
+	1066.1.1 = { change_development_level = 11 }
+	1178.1.1 = { change_development_level = 22 }
+
+	867.1.1 = {
+		government = wanua_government
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_PHI_kalilayan = {
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 6 }
+	1178.1.1 = { change_development_level = 10 }
+
+	867.1.1 = {
+		government = wanua_government
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_PHI_ibalong = {
+	867.1.1 = { change_development_level = 4 }
+	1066.1.1 = { change_development_level = 7 }
+	1178.1.1 = { change_development_level = 11 }
+
+	867.1.1 = {
+		government = wanua_government
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_PHI_masbate = {
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 5 }
+	1178.1.1 = { change_development_level = 9 }
+
+	867.1.1 = {
+		government = wanua_government
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_PHI_taytay = {
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 6 }
+	1178.1.1 = { change_development_level = 10 }
+
+	867.1.1 = {
+		government = wanua_government
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_PHI_south_palawan = {
+	867.1.1 = { change_development_level = 1 }
+	1066.1.1 = { change_development_level = 3 }
+	1178.1.1 = { change_development_level = 5 }
+
+	867.1.1 = {
+		government = wanua_government
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_PHI_pangasinan = {
+	867.1.1 = { change_development_level = 5 }
+	1066.1.1 = { change_development_level = 9 }
+	1178.1.1 = { change_development_level = 16 }
+
+	867.1.1 = {
+		government = wanua_government
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_PHI_samtoy = {
+	867.1.1 = { change_development_level = 4 }
+	1066.1.1 = { change_development_level = 7 }
+	1178.1.1 = { change_development_level = 12 }
+
+	867.1.1 = {
+		government = wanua_government
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_PHI_ivatan = {
+	867.1.1 = { change_development_level = 1 }
+	1066.1.1 = { change_development_level = 2 }
+	1178.1.1 = { change_development_level = 4 }
+
+	867.1.1 = {
+		government = wanua_government
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_PHI_igorot = {
+	867.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 3 }
+	1178.1.1 = { change_development_level = 6 }
+
+	867.1.1 = {
+		government = wanua_government
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_PHI_cagayan_valley = {
+	867.1.1 = { change_development_level = 4 }
+	1066.1.1 = { change_development_level = 7 }
+	1178.1.1 = { change_development_level = 12 }
+
+	867.1.1 = {
+		government = wanua_government
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_PHI_kasiguranin = {
+	867.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 3 }
+	1178.1.1 = { change_development_level = 5 }
+
+	867.1.1 = {
+		government = wanua_government
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_PHI_panay = {
+	867.1.1 = { change_development_level = 5 }
+	1066.1.1 = { change_development_level = 10 }
+	1178.1.1 = { change_development_level = 17 }
+
+	#Kingdom of Madja-as possibly already had relations with China in the 800s
+	#Some sources suggest it started in the XIIth century
+	862.1.1 = {
+		government = wanua_government
+	}
+	1055.1.1 = {
+	}
+	1073.1.1 = {
+	}
+	1170.1.1 = {
+	}
+}
+c_PHI_buglas = {
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 6 }
+	1178.1.1 = { change_development_level = 10 }
+
+	867.1.1 = {
+		government = wanua_government
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_PHI_bool_and_cebu = {
+	867.1.1 = { change_development_level = 6 }
+	1066.1.1 = { change_development_level = 12 }
+	1178.1.1 = { change_development_level = 22 }
+
+	867.1.1 = {
+		government = wanua_government
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_PHI_tandaya = {
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 6 }
+	1178.1.1 = { change_development_level = 11 }
+
+	867.1.1 = {
+		government = wanua_government
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_PHI_samar = {
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 5 }
+	1178.1.1 = { change_development_level = 9 }
+
+	867.1.1 = {
+		government = wanua_government
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_PHI_lanao = {
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 6 }
+	1178.1.1 = { change_development_level = 11 }
+
+	867.1.1 = {
+		government = wanua_government
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_PHI_cotabato = {
+	867.1.1 = { change_development_level = 4 }
+	1066.1.1 = { change_development_level = 8 }
+	1178.1.1 = { change_development_level = 14 }
+
+	867.1.1 = {
+		government = wanua_government
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_PHI_zamboanga = {
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 6 }
+	1178.1.1 = { change_development_level = 10 }
+
+	867.1.1 = {
+		government = wanua_government
+	}
+	
+	#Kingdom of Sanmalan maybe founded before 1011
+	1010.1.1 = {
+	}
+	1058.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_PHI_maguindanao = {
+	867.1.1 = { change_development_level = 5 }
+	1066.1.1 = { change_development_level = 9 }
+	1178.1.1 = { change_development_level = 17 }
+
+	867.1.1 = {
+		government = wanua_government
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_PHI_sulu = {
+	867.1.1 = { change_development_level = 6 }
+	1066.1.1 = { change_development_level = 12 }
+	1178.1.1 = { change_development_level = 22 }
+
+	867.1.1 = {
+		government = wanua_government
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+d_PHI_butuan = {
+	#Kingdom of Butuan founded in Xth
+	978.1.1 = {
+		government = wanua_government
+	}
+	989.1.1 = {
+	}
+	1009.1.1 = {
+	}
+	1046.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_PHI_butuan = {
+	867.1.1 = { change_development_level = 6 }
+	1066.1.1 = { change_development_level = 11 }
+	1178.1.1 = { change_development_level = 20 }
+
+	867.1.1 = {
+		government = wanua_government
+	}
+	
+	#Kingdom of Butuan founded in Xth
+	978.1.1 = {
+	}
+	989.1.1 = {
+	}
+	1009.1.1 = {
+	}
+	1046.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_PHI_calagan = {
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 6 }
+	1178.1.1 = { change_development_level = 11 }
+
+	867.1.1 = {
+		government = wanua_government
+	}
+	
+	#Kingdom of Butuan founded in Xth
+	978.1.1 = {
+	}
+	989.1.1 = {
+	}
+	1009.1.1 = {
+	}
+	1046.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_PHI_mandaya = {
+	867.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 4 }
+	1178.1.1 = { change_development_level = 7 }
+	
+	867.1.1 = {
+		government = wanua_government
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
+c_PHI_sarangani = {
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 5 }
+	1178.1.1 = { change_development_level = 9 }
+
+	867.1.1 = {
+		government = wanua_government
+	}
+	1066.1.1 = {
+	}
+	1178.1.1 = {
+	}
+}
