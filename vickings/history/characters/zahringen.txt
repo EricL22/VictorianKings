@@ -1,0 +1,110 @@
+﻿zahringen_0 = {
+	name = "Karl Friedrich"	# of Baden
+	dynasty_house = house_zahringen
+	religion = catholic
+	culture = swabian
+	1728.11.22 = {
+		birth = yes
+	}
+	1811.6.10 = {
+		death = yes
+	}
+}
+
+zahringen_1 = {
+	name = "Karl Ludwig"	# of Baden
+	dynasty_house = house_zahringen
+	religion = catholic
+	culture = swabian
+	father = zahringen_0
+	1755.2.14 = {
+		birth = yes
+	}
+	1801.12.16 = {
+		death = yes
+	}
+}
+
+zahringen_2 = {
+	name = "Karl"	# of Baden
+	dynasty_house = house_zahringen
+	religion = catholic
+	culture = swabian
+	father = zahringen_1
+	1786.6.8 = {
+		birth = yes
+	}
+	1818.12.8 = {
+		death = yes
+	}
+}
+
+zahringen_3 = {
+	name = "Ludwig"	# I of Baden
+	dynasty_house = house_zahringen
+	religion = catholic
+	culture = swabian
+	father = zahringen_0
+	1763.2.9 = {
+		birth = yes
+	}
+	1830.3.30 = {
+		death = yes
+	}
+}
+
+zahringen_4 = {
+	name = "Leopold"	# I of Baden
+	dynasty_house = house_zahringen
+	religion = catholic
+	culture = swabian
+	father = zahringen_0
+	1790.8.29 = {
+		birth = yes
+	}
+	1852.4.24 = {
+		death = yes
+	}
+}
+
+zahringen_5 = {
+	name = "Ludwig"	# II of Baden
+	dynasty_house = house_zahringen
+	religion = catholic
+	culture = swabian
+	father = zahringen_4
+	1824.8.15 = {
+		birth = yes
+	}
+	1858.1.22 = {
+		death = yes
+	}
+}
+
+zahringen_6 = {
+	name = "Friedrich"	# I of Baden
+	dynasty_house = house_zahringen
+	religion = catholic
+	culture = swabian
+	father = zahringen_4
+	1826.9.9 = {
+		birth = yes
+	}
+	1907.9.28 = {
+		death = yes
+	}
+}
+
+zahringen_7 = {
+	name = "Friedrich"	# II of Baden
+	dynasty_house = house_zahringen
+	religion = catholic
+	culture = swabian
+	father = zahringen_6
+	1857.7.9 = {
+		birth = yes
+	}
+	1928.8.9 = {
+		death = yes
+	}
+}

@@ -71,30 +71,48 @@ c_worms = {
 }
 c_speyer = {
 	1771.10.21 = {
-		holder = 9100030
+		holder = zahringen_0	# Charles Frederick
 	}
 	1811.6.10 = {
-		holder = 9000025
+		holder = zahringen_2	# Charles
 	}
 	1818.12.8 = {
-		holder = 9100036
+		holder = zahringen_3	# Louis I
 	}
 	1830.3.30 = {
-		holder = 9100037
+		holder = zahringen_4	# Leopold I
+	}
+	1852.4.24 = {
+		holder = zahringen_5	# Louis II
+	}
+	1858.1.23 = {
+		holder = zahringen_6	# Frederick I
+	}
+	1907.9.28 = {
+		holder = zahringen_7	# Frederick II
 	}
 }
 c_vaihingen = {
 	1771.10.21 = {
-		holder = 9100030
+		holder = zahringen_0	# Charles Frederick
 	}
 	1811.6.10 = {
-		holder = 9000025
+		holder = zahringen_2	# Charles
 	}
 	1818.12.8 = {
-		holder = 9100036
+		holder = zahringen_3	# Louis I
 	}
 	1830.3.30 = {
-		holder = 9100037
+		holder = zahringen_4	# Leopold I
+	}
+	1852.4.24 = {
+		holder = zahringen_5	# Louis II
+	}
+	1858.1.23 = {
+		holder = zahringen_6	# Frederick I
+	}
+	1907.9.28 = {
+		holder = zahringen_7	# Frederick II
 	}
 }
 c_durne = {
@@ -353,18 +371,27 @@ c_strassburg = {
 }
 c_breisgau = {
 	1771.10.21 = {
-		holder = 9100030
+		holder = zahringen_0	# Charles Frederick
 	}
 	1811.6.10 = {
 		de_jure_liege = d_baden
-		holder = 9000025
+		holder = zahringen_2	# Charles
 		liege = 0
 	}
 	1818.12.8 = {
-		holder = 9100036
+		holder = zahringen_3	# Louis I
 	}
 	1830.3.30 = {
-		holder = 9100037
+		holder = zahringen_4	# Leopold I
+	}
+	1852.4.24 = {
+		holder = zahringen_5	# Louis II
+	}
+	1858.1.23 = {
+		holder = zahringen_6	# Frederick I
+	}
+	1907.9.28 = {
+		holder = zahringen_7	# Frederick II
 	}
 }
 c_colmar = {
@@ -414,71 +441,119 @@ d_swabia = {
 }
 c_ulm = {
 	1797.12.22 = {
-		holder = 9000026
+		holder = wurttemburg_0	# Frederick I
 	}
 	1816.10.30 = {
-		holder = 9100027
+		holder = wurttemburg_1	# William I
+	}
+	1864.6.25 = {
+		holder = wurttemburg_2	# Charles I
+	}
+	1891.10.6 = {
+		holder = wurttemburg_5	# William II
 	}
 }
 c_grunningen = {
 	1797.12.22 = {
-		holder = 9000026
+		holder = wurttemburg_0	# Frederick I
 	}
 	1816.10.30 = {
-		holder = 9100027
+		holder = wurttemburg_1	# William I
+	}
+	1864.6.25 = {
+		holder = wurttemburg_2	# Charles I
+	}
+	1891.10.6 = {
+		holder = wurttemburg_5	# William II
 	}
 }
 c_wurttemberg = {
 	1797.12.22 = {
-		holder = 9000026
+		holder = wurttemburg_0	# Frederick I
 	}
 	1816.10.30 = {
-		holder = 9100027
+		holder = wurttemburg_1	# William I
+	}
+	1864.6.25 = {
+		holder = wurttemburg_2	# Charles I
+	}
+	1891.10.6 = {
+		holder = wurttemburg_5	# William II
 	}
 }
 c_baden = {
 	1771.10.21 = {
-		holder = 9100030
+		holder = zahringen_0	# Charles Frederick
 	}
 	1811.6.10 = {
 		de_jure_liege = d_baden
-		holder = 9000025
+		holder = zahringen_2	# Charles
 	}
 	1818.12.8 = {
-		holder = 9100036
+		holder = zahringen_3	# Louis I
 	}
 	1830.3.30 = {
-		holder = 9100037
+		holder = zahringen_4	# Leopold I
+	}
+	1852.4.24 = {
+		holder = zahringen_5	# Louis II
+	}
+	1858.1.23 = {
+		holder = zahringen_6	# Frederick I
+	}
+	1907.9.28 = {
+		holder = zahringen_7	# Frederick II
 	}
 }
 c_zollern = {
 	1797.12.22 = {
-		holder = 9000026
+		holder = wurttemburg_0	# Frederick I
 	}
 	1816.10.30 = {
-		holder = 9100027
+		holder = wurttemburg_1	# William I
+	}
+	1864.6.25 = {
+		holder = wurttemburg_2	# Charles I
+	}
+	1891.10.6 = {
+		holder = wurttemburg_5	# William II
 	}
 }
 c_hohenberg = {
 	1797.12.22 = {
-		holder = 9000026
+		holder = wurttemburg_0	# Frederick I
 	}
 	1816.10.30 = {
-		holder = 9100027
+		holder = wurttemburg_1	# William I
+	}
+	1864.6.25 = {
+		holder = wurttemburg_2	# Charles I
+	}
+	1891.10.6 = {
+		holder = wurttemburg_5	# William II
 	}
 }
 c_furstenberg = {
 	1771.10.21 = {
-		holder = 9100030
+		holder = zahringen_0	# Charles Frederick
 	}
 	1811.6.10 = {
-		holder = 9000025
+		holder = zahringen_2	# Charles
 	}
 	1818.12.8 = {
-		holder = 9100036
+		holder = zahringen_3	# Louis I
 	}
 	1830.3.30 = {
-		holder = 9100037
+		holder = zahringen_4	# Leopold I
+	}
+	1852.4.24 = {
+		holder = zahringen_5	# Louis II
+	}
+	1858.1.23 = {
+		holder = zahringen_6	# Frederick I
+	}
+	1907.9.28 = {
+		holder = zahringen_7	# Frederick II
 	}
 }
 d_anhalt = {

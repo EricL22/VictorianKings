@@ -123,12 +123,21 @@ k_westfalia = {
 
 k_wurttemberg = {
 	1806.7.12 = {
-		holder = 9000026
+		holder = wurttemburg_0	# Frederick I
 		liege = e_cdr
 		de_jure_liege = e_germany
 	}
 	1816.10.30 = {
-		holder = 9100027
+		holder = wurttemburg_1	# William I
+	}
+	1864.6.25 = {
+		holder = wurttemburg_2	# Charles I
+	}
+	1871.1.18 = {
+		liege = e_germany
+	}
+	1891.10.6 = {
+		holder = wurttemburg_5	# William II
 	}
 }
 
@@ -144,19 +153,31 @@ d_berg = {
 
 d_baden = {
 	1806.7.25 = {
-		holder = 9100030
+		holder = zahringen_0	# Charles Frederick
 	}
 	1806.8.6 = {
 		de_jure_liege = k_east_francia
 	}
 	1811.6.10 = {
-		holder = 9000025
+		holder = zahringen_2	# Charles
 		liege = e_cdr
 	}
 	1818.12.8 = {
-		holder = 9100036
+		holder = zahringen_3	# Louis I
 	}
 	1830.3.30 = {
-		holder = 9100037
+		holder = zahringen_4	# Leopold I
+	}
+	1852.4.24 = {
+		holder = zahringen_5	# Louis II
+	}
+	1858.1.23 = {
+		holder = zahringen_6	# Frederick I
+	}
+	1871.1.18 = {
+		liege = e_germany
+	}
+	1907.9.28 = {
+		holder = zahringen_7	# Frederick II
 	}
 }

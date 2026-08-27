@@ -1,0 +1,79 @@
+﻿wurttemburg_0 = {
+	name = "Friedrich"	# I of Wurttemburg
+	religion = catholic
+	culture = swabian
+	trait = giant
+	1754.11.6 = {
+		birth = yes
+	}
+	1816.10.30 = {
+		death = {
+			death_reason = death_giant
+		}
+	}
+}
+
+wurttemburg_1 = {
+	name = "Wilhelm"	# I of Wurttemburg
+	religion = catholic
+	culture = swabian
+	father = wurttemburg_0
+	1781.9.27 = {
+		birth = yes
+	}
+	1864.6.25 = {
+		death = yes
+	}
+}
+
+wurttemburg_2 = {
+	name = "Karl"	# I of Wurttemburg
+	religion = catholic
+	culture = swabian
+	father = wurttemburg_1
+	1823.3.6 = {
+		birth = yes
+	}
+	1891.10.6 = {
+		death = yes
+	}
+}
+
+wurttemburg_3 = {
+	name = "Paul"	# prince of Wurttemburg
+	religion = catholic
+	culture = swabian
+	father = wurttemburg_0
+	1785.1.19 = {
+		birth = yes
+	}
+	1852.4.6 = {
+		death = yes
+	}
+}
+
+wurttemburg_4 = {
+	name = "Friedrich"	# prince of Wurttemburg
+	religion = catholic
+	culture = swabian
+	father = wurttemburg_3
+	1808.2.21 = {
+		birth = yes
+	}
+	1870.5.9 = {
+		death = yes
+	}
+}
+
+wurttemburg_5 = {
+	name = "Wilhelm"	# II of Wurttemburg
+	religion = catholic
+	culture = swabian
+	father = wurttemburg_4
+	1848.2.25 = {
+		birth = yes
+	}
+	1921.10.2 = {
+		death = yes
+	}
+}
