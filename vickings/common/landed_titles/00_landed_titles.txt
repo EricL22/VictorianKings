@@ -5553,6 +5553,11 @@ e_germany = {
 
 					color = { 110 95 145 }
 				}
+				b_courtrai = {	# CHANGED: moved from c_lille
+					province = 2123
+
+					color = { 75 115 205 }
+				}
 			}
 			c_cambray = {
 				color = { 95 80 135 }
@@ -5688,6 +5693,11 @@ e_germany = {
 
 					color = { 90 90 125 }
 				}
+				b_saarburg = {	# CHANGED: moved from c_metz
+					province = 2698
+
+					color = { 85 85 140 }
+				}
 				b_beda = {
 					province = 2085
 
@@ -5736,11 +5746,7 @@ e_germany = {
 
 					color = { 85 85 140 }
 				}
-				b_saarburg = {
-					province = 2698
-
-					color = { 85 85 140 }
-				}
+				# b_saarburg moved to c_trier
 				b_forbach = {
 					province = 2705
 
@@ -44131,11 +44137,7 @@ e_france = {
 
 					color = { 75 115 205 }
 				}
-				b_courtrai = {
-					province = 2123
-
-					color = { 75 115 205 }
-				}
+				# b_courtrai moved to c_hainaut
 				b_aire = {
 					province = 2134
 

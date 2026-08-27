@@ -1,0 +1,13 @@
+﻿8000001 = {
+	name = "Willem"	# I of the Netherlands
+	dynasty = 7248
+	religion = reformed
+	culture = dutch
+	1772.8.24 = {
+		birth = yes
+	}
+	1843.12.12 = {
+		death = yes
+	}
+}
+

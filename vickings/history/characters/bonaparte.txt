@@ -263,8 +263,8 @@ bonaparte_7 = {
 	}
 }
 
-# Louis, Duke of Berg
-9100008 = {
+# Napoleon-Louis, Grand Duke of Berg
+bonaparte_8 = {
 	name = "Louis"
 	dynasty_house = house_bonaparte
 	religion = catholic

@@ -153,19 +153,9 @@ bourbon_10 = {
 		death = yes
 	}
 }
-bourbon_11 = {
-	name = "Maria Josepha"
-	dynasty_house = house_wettin
-	religion = catholic
-	culture = saxon
-	female = yes
-	1731.11.4 = {
-		birth = yes
-	}
-	1767.3.13 = {
-		death = yes
-	}
-}
+
+# bourbon_11 unassigned
+
 bourbon_12 = {
 	name = "Louis"	# XV of France
 	dynasty = 100146
@@ -191,7 +181,7 @@ bourbon_13 = {
 		birth = yes
 	}
 	1741.1.10 = {
-		add_spouse = bourbon_11	# Duchess Maria Josepha of Saxony
+		add_spouse = wettin_11	# Duchess Maria Josepha of Saxony
 	}
 	1765.12.20 = {
 		death = {
@@ -205,7 +195,7 @@ bourbon_14 = {
 	religion = catholic
 	culture = french
 	father = bourbon_13
-	mother = bourbon_11
+	mother = wettin_11
 	1754.8.23 = {
 		birth = yes
 	}
@@ -236,7 +226,7 @@ bourbon_16 = {
 	religion = catholic
 	culture = french
 	father = bourbon_13
-	mother = bourbon_11
+	mother = wettin_11
 	1755.11.17 = {
 		birth = yes
 	}
@@ -257,7 +247,7 @@ bourbon_17 = {
 	religion = catholic
 	culture = french
 	father = bourbon_13
-	mother = bourbon_11
+	mother = wettin_11
 	1757.10.9 = {
 		birth = yes
 	}

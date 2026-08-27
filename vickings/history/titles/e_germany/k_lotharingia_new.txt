@@ -1,0 +1,471 @@
+d_luxembourg = {
+	1783.1.1 = {
+		succession_laws = { male_only_law }
+	}
+	1804.5.18 = {	# France
+		holder = bonaparte_2	# Napoleon
+		de_jure_liege = k_frisia
+	}
+	1814.4.11 = {	# Netherlands
+		holder = 8000001
+	}
+}
+c_luxembourg = {
+	1804.5.18 = {	# France
+		holder = bonaparte_2	# Napoleon
+	}
+	1814.4.11 = {	# Netherlands
+		holder = 8000001
+	}
+}
+c_bouillon = {
+	1804.5.18 = {	# France
+		holder = bonaparte_2	# Napoleon
+	}
+	1814.4.11 = {	# Netherlands
+		holder = 8000001
+	}
+	1831.7.21 = {	# Belgium
+		holder = 8000034
+		de_jure_liege = d_brabant
+	}
+}
+c_liege = {
+	1804.5.18 = {	# France
+		holder = bonaparte_2	# Napoleon
+	}
+	1814.4.11 = {	# Netherlands
+		holder = 8000001
+	}
+	1831.7.21 = {	# Belgium
+		holder = 8000034
+		de_jure_liege = d_brabant
+	}
+}
+c_namur = {
+	1804.5.18 = {	# France
+		holder = bonaparte_2	# Napoleon
+	}
+	1814.4.11 = {	# Netherlands
+		holder = 8000001
+	}
+	1831.7.21 = {	# Belgium
+		holder = 8000034
+		de_jure_liege = d_brabant
+	}
+}
+d_brabant = {
+	1804.5.18 = {
+		holder = 0
+		de_jure_liege = k_frisia
+	}
+	1831.7.21 = {
+		holder = 8000034
+		de_jure_liege = k_belgium
+	}
+}
+c_brabant = {
+	1804.5.18 = {	# France
+		holder = bonaparte_2	# Napoleon
+	}
+	1814.4.11 = {	# Netherlands
+		holder = 8000001
+	}
+	1831.7.21 = {	# Belgium
+		holder = 8000034
+	}
+}
+c_antwerpen = {
+	1804.5.18 = {	# France
+		holder = bonaparte_2	# Napoleon
+	}
+	1814.4.11 = {	# Netherlands
+		holder = 8000001
+	}
+	1831.7.21 = {	# Belgium
+		holder = 8000034
+	}
+}
+c_hainaut = {
+	1804.5.18 = {	# France
+		holder = bonaparte_2	# Napoleon
+	}
+	1814.4.11 = {	# Netherlands
+		holder = 8000001
+	}
+	1831.7.21 = {	# Belgium
+		holder = 8000034
+	}
+}
+c_cambray = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon
+	}
+	1814.4.11 = {
+		de_jure_liege = d_valois
+		holder = bourbon_16	# Louis XVIII
+	}
+	1824.9.16 = {
+		holder = bourbon_17 # Charles X
+	}
+	1830.8.2 = {
+		holder = bourbon_23 # Louis-Phillipe I
+	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
+	}
+}
+d_julich = {
+	1800.1.1 = {
+		de_jure_liege = k_frisia
+	}
+	1815.6.9 = {
+		de_jure_liege = k_east_francia
+	}
+}
+c_aachen = {
+	1804.5.18 = {	# France
+		holder = bonaparte_2	# Napoleon
+	}
+	1814.3.11 = {	# Prussia
+		holder = 6480001
+		liege = k_prussia
+	}
+	1834.1.1 = {
+		holder = 6480011
+	}
+}
+c_cleves = {
+	1804.5.18 = {	# France
+		holder = bonaparte_2	# Napoleon
+	}
+	1815.1.1 = {	# Prussia
+		holder = 6480000
+		liege = k_prussia
+	}
+	1834.1.1 = {
+		holder = 6480011
+	}
+}
+c_maastricht = {
+	1804.5.18 = {	# France
+		holder = bonaparte_2	# Napoleon
+	}
+	1814.4.11 = {	# Netherlands
+		holder = 8000001
+		de_jure_liege = d_brabant
+	}
+	1831.7.21 = {	# Belgium
+		holder = 8000034
+	}
+}
+d_upper_lorraine = {
+	1776.1.1 = {
+		effect = { set_capital_county = title:c_metz }
+		de_jure_liege = k_france
+	}
+	1804.5.18 = {
+		holder = 0
+	}
+	1814.4.6 = {
+		holder = bourbon_16 # Louis XVIII
+	}
+	1824.9.16 = {
+		holder = bourbon_17 # Charles X
+	}
+	1830.8.2 = {
+		holder = bourbon_23 # Louis-Phillipe I
+	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
+	}
+}
+c_trier = {
+	1776.1.1 = {
+		de_jure_liege = d_lower_lorraine
+	}
+	1804.5.18 = {	# France
+		holder = bonaparte_2	# Napoleon
+	}
+	1814.3.11 = {	# Prussia
+		holder = 6480001
+		liege = k_prussia
+	}
+	1834.1.1 = {
+		holder = 6480011
+	}
+}
+c_nancy = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon
+	}
+	1814.4.6 = {
+		holder = bourbon_16 # Louis XVIII
+	}
+	1824.9.16 = {
+		holder = bourbon_17 # Charles X
+	}
+	1830.8.2 = {
+		holder = bourbon_23 # Louis-Phillipe I
+	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
+	}
+}
+c_metz = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon
+	}
+	1814.4.6 = {
+		holder = bourbon_16 # Louis XVIII
+	}
+	1824.9.16 = {
+		holder = bourbon_17 # Charles X
+	}
+	1830.8.2 = {
+		holder = bourbon_23 # Louis-Phillipe I
+	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
+	}
+}
+c_saarbrucken = {
+	1776.1.1 = {
+		de_jure_liege = d_lower_lorraine
+	}
+	1804.5.18 = {	# France
+		holder = bonaparte_2	# Napoleon
+	}
+	1814.4.11 = {	# Bavaria
+		holder = 9000018
+	}
+	1825.10.13 = {
+		holder = 8000016
+	}
+}
+c_puttlingen = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon
+	}
+	1814.4.6 = {
+		holder = bourbon_16 # Louis XVIII
+	}
+	1824.9.16 = {
+		holder = bourbon_17 # Charles X
+	}
+	1830.8.2 = {
+		holder = bourbon_23 # Louis-Phillipe I
+	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
+	}
+}
+c_neufchateau = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon
+	}
+	1814.4.6 = {
+		holder = bourbon_16 # Louis XVIII
+	}
+	1824.9.16 = {
+		holder = bourbon_17 # Charles X
+	}
+	1830.8.2 = {
+		holder = bourbon_23 # Louis-Phillipe I
+	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
+	}
+}
+d_lower_lorraine = {
+	1806.8.6 = {
+		de_jure_liege = k_east_francia
+	}
+}
+c_cologne = {
+	1804.5.18 = {	# France
+		holder = bonaparte_2	# Napoleon
+	}
+	1814.3.11 = {	# Prussia
+		holder = 6480001
+		liege = k_prussia
+	}
+	1834.1.1 = {
+		holder = 6480011
+	}
+}
+c_dortmund = {
+	1804.5.18 = {	# France
+		holder = bonaparte_2	# Napoleon
+	}
+	1814.4.11 = {	# Prussia
+		holder = 6480005
+	}
+}
+c_arnsberg = {
+	1804.5.18 = {	# France
+		holder = bonaparte_2	# Napoleon
+	}
+	1809.3.3 = {	# Berg
+		holder = bonaparte_8	# Napoleon-Louis
+	}
+	1813.12.1 = {	# Prussia
+		holder = 9000013
+	}
+	1815.6.9 = {
+		holder = 6480005
+	}
+}
+c_mark = {
+	1804.5.18 = {	# France
+		holder = bonaparte_2	# Napoleon
+	}
+	1809.3.3 = {	# Berg
+		holder = bonaparte_8	# Napoleon-Louis
+	}
+	1813.12.1 = {	# Prussia
+		holder = 6480005
+	}
+}
+c_koblenz = {
+	1804.5.18 = {	# France
+		holder = bonaparte_2	# Napoleon
+	}
+	1814.3.11 = {	# Prussia
+		holder = 6480001
+		liege = k_prussia
+	}
+	1834.1.1 = {
+		holder = 6480011
+	}
+}
+c_bergh = {
+	1804.5.18 = {	# France
+		holder = bonaparte_2	# Napoleon
+	}
+	1809.3.3 = {	# Berg
+		holder = bonaparte_8	# Napoleon-Louis
+	}
+	1813.12.1 = {	# Prussia
+		holder = 9000013
+	}
+	1815.1.1 = {
+		holder = 6480000
+		liege = k_prussia
+	}
+	1834.1.1 = {
+		holder = 6480011
+	}
+}
+c_sayn = {
+	1804.5.18 = {	# France
+		holder = bonaparte_2	# Napoleon
+	}
+	1809.3.3 = {	# Berg
+		holder = bonaparte_8	# Napoleon-Louis
+	}
+	1813.12.1 = {	# Prussia
+		holder = 6480005
+	}
+}
+d_bar = {
+	1766.2.23 = {
+		de_jure_liege = k_france
+	}
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon
+	}
+	1814.4.6 = {
+		holder = bourbon_16 # Louis XVIII
+	}
+	1824.9.16 = {
+		holder = bourbon_17 # Charles X
+	}
+	1830.8.2 = {
+		holder = bourbon_23 # Louis-Phillipe I
+	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
+	}
+}
+c_bar = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon
+	}
+	1814.4.6 = {
+		holder = bourbon_16 # Louis XVIII
+	}
+	1824.9.16 = {
+		holder = bourbon_17 # Charles X
+	}
+	1830.8.2 = {
+		holder = bourbon_23 # Louis-Phillipe I
+	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
+	}
+}
+c_briey = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon
+	}
+	1814.4.6 = {
+		holder = bourbon_16 # Louis XVIII
+	}
+	1824.9.16 = {
+		holder = bourbon_17 # Charles X
+	}
+	1830.8.2 = {
+		holder = bourbon_23 # Louis-Phillipe I
+	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
+	}
+}
+c_vaucouleurs = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon
+	}
+	1814.4.6 = {
+		holder = bourbon_16 # Louis XVIII
+	}
+	1824.9.16 = {
+		holder = bourbon_17 # Charles X
+	}
+	1830.8.2 = {
+		holder = bourbon_23 # Louis-Phillipe I
+	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
+	}
+}

@@ -110,3 +110,13 @@ k_belgium = {
 		de_jure_liege = e_germany
 	}
 }
+
+d_berg = {
+	1809.3.3 = {
+		holder = bonaparte_8	# Napoleon-Louis
+		liege = e_cdr
+	}
+	1813.12.1 = {
+		holder = 0
+	}
+}

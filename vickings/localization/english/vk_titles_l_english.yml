@@ -18,6 +18,9 @@
  k_tts:0 "Two Sicilies"
  k_tts_adj:0 "Sicilian"
 
+ d_berg:0 "Berg"
+ d_berg_adj:0 "Berg"
+
  c_faucigny:0 "Faucigny"
 
  # Noble families
