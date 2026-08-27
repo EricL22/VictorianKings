@@ -22,6 +22,12 @@
  netherlands:0 "Netherlands"
  netherlands_adj:0 "Dutch"
 
+ k_westfalia:0 "Westphalia"
+ k_westfalia_adj:0 "Westphalian"
+
+ k_wurttemberg:0 "Württemberg"
+ k_wurttemberg_adj:0 "Württembergian"
+
  d_berg:0 "Berg"
  d_berg_adj:0 "Berg"
 

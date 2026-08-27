@@ -202,7 +202,7 @@ bonaparte_5 = {
 		birth = yes
 	}
 	1800.1.20 = {
-		add_spouse = 9100061	# Caroline Bonaparte
+		add_spouse = bonaparte_10	# Caroline Bonaparte
 	}
 	1805.1.1 = {
 		dynasty_house = house_murat
@@ -279,7 +279,7 @@ bonaparte_8 = {
 }
 
 # Jerome, King of Westphalia
-9100009 = {
+bonaparte_9 = {
 	name = "Jerome"
 	dynasty = eur_25FE_0
 	religion = catholic
@@ -297,7 +297,7 @@ bonaparte_8 = {
 	}
 }
 
-9100061 = {
+bonaparte_10 = {
 	name = "Caroline"
 	dynasty = eur_25FE_0
 	religion = catholic
@@ -316,6 +316,7 @@ bonaparte_8 = {
 	}
 }
 
+# Princess of Lucca and Piombino
 9100067 = {
 	name = "Elisa"
 	dynasty = eur_25FE_0
@@ -342,7 +343,7 @@ bonaparte_8 = {
 	dynasty_house = house_bonaparte
 	religion = catholic
 	culture = french
-	father = 9100009
+	father = bonaparte_9
 	1822.9.9 = {
 		birth = yes
 	}
@@ -358,7 +359,7 @@ bonaparte_8 = {
 	religion = catholic
 	culture = french
 	father = bonaparte_5
-	mother = 9100061
+	mother = bonaparte_10
 	1801.1.21 = {
 		birth = yes
 	}
@@ -376,7 +377,7 @@ bonaparte_8 = {
 	religion = catholic
 	culture = french
 	father = bonaparte_5
-	mother = 9100061
+	mother = bonaparte_10
 	1803.5.16 = {
 		birth = yes
 	}

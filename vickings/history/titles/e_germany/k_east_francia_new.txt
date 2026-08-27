@@ -1,0 +1,618 @@
+k_east_francia = {
+	1806.8.6 = {
+		de_jure_liege = e_germany
+	}
+}
+d_west_franconia = {
+	1810.2.16 = {
+		holder = 9000032
+	}
+	1814.5.30 = {
+		holder = 8000005
+	}
+	1830.4.6 = {
+		holder = 8000026
+	}
+}
+c_frankfurt = {
+	1810.2.16 = {
+		holder = 9000032
+	}
+	1814.5.30 = {
+		holder = 8000005
+	}
+	1830.4.6 = {
+		holder = 8000026
+	}
+}
+c_mainz = {
+	1810.2.16 = {
+		holder = 9000032
+	}
+	1814.5.30 = {
+		holder = 8000005
+	}
+	1830.4.6 = {
+		holder = 8000026
+	}
+}
+c_klingenberg = {
+	1805.12.25 = {
+		holder = 9177209
+	}
+	1814.6.3 = {
+		holder = 9000018
+	}
+	1825.10.13 = {
+		holder = 8000016
+	}
+}
+c_erbach = {
+	1810.2.16 = {
+		holder = 9000032
+	}
+	1814.5.30 = {
+		holder = 8000005
+	}
+	1830.4.6 = {
+		holder = 8000026
+	}
+}
+c_worms = {
+	1810.2.16 = {
+		holder = 9000032
+	}
+	1814.5.30 = {
+		holder = 8000005
+	}
+	1830.4.6 = {
+		holder = 8000026
+	}
+}
+c_speyer = {
+	1771.10.21 = {
+		holder = 9100030
+	}
+	1811.6.10 = {
+		holder = 9000025
+	}
+	1818.12.8 = {
+		holder = 9100036
+	}
+	1830.3.30 = {
+		holder = 9100037
+	}
+}
+c_vaihingen = {
+	1771.10.21 = {
+		holder = 9100030
+	}
+	1811.6.10 = {
+		holder = 9000025
+	}
+	1818.12.8 = {
+		holder = 9100036
+	}
+	1830.3.30 = {
+		holder = 9100037
+	}
+}
+c_durne = {
+	1805.12.25 = {
+		holder = 9177209
+	}
+	1814.6.3 = {
+		holder = 9000018
+	}
+	1825.10.13 = {
+		holder = 8000016
+	}
+}
+c_kaiserslautern = {
+	1810.2.16 = {
+		holder = 9000032
+	}
+	1814.5.30 = {
+		holder = 8000005
+	}
+	1830.4.6 = {
+		holder = 8000026
+	}
+}
+d_east_franconia = {
+	1803.4.27 = {	# Electoral Palatinate end date?
+		holder = 0
+	}
+}
+c_wurzburg = {
+	1805.12.25 = {
+		holder = 9177209
+	}
+	1814.6.3 = {
+		holder = 9000018
+	}
+	1825.10.13 = {
+		holder = 8000016
+	}
+}
+c_ansbach = {
+	1806.1.1 = {
+		holder = 9000018
+	}
+	1825.10.13 = {
+		holder = 8000016
+	}
+}
+c_coburg = {
+	1800.9.8 = {
+		holder = 9000040
+		government = feudal_government
+	}
+	1806.12.9 = {
+		holder = 9000041
+		liege = e_cdr
+	}
+}
+c_hohenlohe = {
+	1806.1.1 = {
+		holder = 9000018
+	}
+	1825.10.13 = {
+		holder = 8000016
+	}
+}
+c_nurnberg = {
+	1806.1.1 = {
+		holder = 9000018
+	}
+	1825.10.13 = {
+		holder = 8000016
+	}
+}
+c_bamberg = {
+	1806.1.1 = {
+		holder = 9000018
+	}
+	1825.10.13 = {
+		holder = 8000016
+	}
+}
+c_nordlingen = {
+	1806.1.1 = {
+		holder = 9000018
+	}
+	1825.10.13 = {
+		holder = 8000016
+	}
+}
+c_wiltberg = {
+	1805.12.25 = {
+		holder = 9177209
+	}
+	1814.6.3 = {
+		holder = 9000018
+	}
+	1825.10.13 = {
+		holder = 8000016
+	}
+}
+d_hesse = {
+	1760.2.1 = {
+		holder = 9100063
+	}
+	1785.10.31 = {
+		holder = 8000004
+	}
+	1807.7.8 = {
+		holder = bonaparte_9	# Jerome Napoleon I
+	}
+	1814.5.30 = {
+		holder = 8000004
+	}
+	1821.2.27 = {
+		holder = 8000025
+	}
+}
+c_kassel = {
+	1807.7.8 = {
+		holder = bonaparte_9	# Jerome Napoleon I
+	}
+	1814.5.30 = {
+		holder = 8000004
+	}
+	1821.2.27 = {
+		holder = 8000025
+	}
+}
+c_fulda = {
+	1807.7.8 = {
+		holder = bonaparte_9	# Jerome Napoleon I
+	}
+	1814.5.30 = {
+		holder = 8000004
+	}
+	1821.2.27 = {
+		holder = 8000025
+	}
+}
+c_nassau = {
+	1806.8.30 = {
+		holder = 9000034
+		liege = e_cdr
+	}
+	1816.3.24 = {
+		holder = 8000024
+	}
+}
+c_marburg = {
+	1807.7.8 = {
+		holder = bonaparte_9	# Jerome Napoleon I
+	}
+	1814.5.30 = {
+		holder = 8000004
+	}
+	1821.2.27 = {
+		holder = 8000025
+	}
+}
+d_currezia = {
+	1291.7.15 = {
+		de_jure_liege = k_switzerland
+	}
+}
+c_grisons = {
+#	1803.2.19 = {
+#		government = republic_government
+#	}
+	1812.1.1 = {
+		holder = 6510006
+		liege = k_switzerland
+	}
+	1815.1.1 = {
+		holder = 6510008
+	}
+	1836.1.1 = {
+		holder = 6510007
+	}
+	1861.1.1 = {
+		holder = 6510020
+	}
+}
+c_sankt_gallen = {
+#	1803.2.19 = {
+#		government = republic_government
+#	}
+	1803.3.10 = {
+		holder = 6510012
+		liege = k_switzerland
+	}
+	1836.1.1 = {
+		holder = 6510014
+	}
+}
+c_zurich = {
+#	1803.2.19 = {
+#		government = republic_government
+#	}
+	1803.4.21 = {
+		holder = 6510009
+		liege = k_switzerland
+	}
+	1812.1.1 = {	# ruler of Basel, needs an entire county to control Switzerland
+		holder = 6510002
+	}
+	1814.12.16 = {
+		holder = 6510000
+	}
+	1832.3.20 = {
+		holder = 6510004
+	}
+	1861.1.1 = {
+		holder = 6510021
+	}
+}
+d_alsace = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon I
+	}
+	1814.4.6 = {
+		holder = bourbon_16 # Louis XVIII
+	}
+	1824.9.16 = {
+		holder = bourbon_17 # Charles X
+	}
+	1830.8.2 = {
+		holder = bourbon_23 # Louis-Phillipe I
+	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
+	}
+}
+c_strassburg = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon I
+	}
+	1814.4.6 = {
+		holder = bourbon_16 # Louis XVIII
+	}
+	1824.9.16 = {
+		holder = bourbon_17 # Charles X
+	}
+	1830.8.2 = {
+		holder = bourbon_23 # Louis-Phillipe I
+	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
+	}
+}
+c_breisgau = {
+	1771.10.21 = {
+		holder = 9100030
+	}
+	1811.6.10 = {
+		de_jure_liege = d_baden
+		holder = 9000025
+		liege = 0
+	}
+	1818.12.8 = {
+		holder = 9100036
+	}
+	1830.3.30 = {
+		holder = 9100037
+	}
+}
+c_colmar = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon I
+	}
+	1814.4.6 = {
+		holder = bourbon_16 # Louis XVIII
+	}
+	1824.9.16 = {
+		holder = bourbon_17 # Charles X
+	}
+	1830.8.2 = {
+		holder = bourbon_23 # Louis-Phillipe I
+	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
+	}
+}
+c_sundgau = {
+	1804.5.18 = {
+		holder = bonaparte_2	# Napoleon I
+	}
+	1814.4.6 = {
+		holder = bourbon_16 # Louis XVIII
+	}
+	1824.9.16 = {
+		holder = bourbon_17 # Charles X
+	}
+	1830.8.2 = {
+		holder = bourbon_23 # Louis-Phillipe I
+	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
+	}
+}
+d_swabia = {
+	1806.7.12 = {
+		de_jure_liege = k_wurttemberg
+	}
+}
+c_ulm = {
+	1797.12.22 = {
+		holder = 9000026
+	}
+	1816.10.30 = {
+		holder = 9100027
+	}
+}
+c_grunningen = {
+	1797.12.22 = {
+		holder = 9000026
+	}
+	1816.10.30 = {
+		holder = 9100027
+	}
+}
+c_wurttemberg = {
+	1797.12.22 = {
+		holder = 9000026
+	}
+	1816.10.30 = {
+		holder = 9100027
+	}
+}
+c_baden = {
+	1771.10.21 = {
+		holder = 9100030
+	}
+	1811.6.10 = {
+		de_jure_liege = d_baden
+		holder = 9000025
+	}
+	1818.12.8 = {
+		holder = 9100036
+	}
+	1830.3.30 = {
+		holder = 9100037
+	}
+}
+c_zollern = {
+	1797.12.22 = {
+		holder = 9000026
+	}
+	1816.10.30 = {
+		holder = 9100027
+	}
+}
+c_hohenberg = {
+	1797.12.22 = {
+		holder = 9000026
+	}
+	1816.10.30 = {
+		holder = 9100027
+	}
+}
+c_furstenberg = {
+	1771.10.21 = {
+		holder = 9100030
+	}
+	1811.6.10 = {
+		holder = 9000025
+	}
+	1818.12.8 = {
+		holder = 9100036
+	}
+	1830.3.30 = {
+		holder = 9100037
+	}
+}
+d_anhalt = {
+	1751.12.16 = {
+		holder = 9000030
+	}
+	1806.7.12 = {
+		liege = e_cdr
+	}
+	1817.8.9 = {
+		holder = 9100029
+	}
+}
+c_dessau = {
+	1751.12.16 = {
+		holder = 9000030
+	}
+	1817.8.9 = {
+		holder = 9100029
+	}
+}
+c_halberstadt = {
+	1807.7.8 = {
+		holder = bonaparte_9	# Jerome Napoleon I
+	}
+	1815.6.9 = {
+		holder = 9000013
+	}
+	1815.6.21 = {
+		holder = 6480010
+		liege = k_prussia
+	}
+}
+c_magdeburg = {
+	1807.7.8 = {
+		holder = bonaparte_9	# Jerome Napoleon I
+	}
+	1815.6.9 = {
+		holder = 9000013
+	}
+	1815.6.21 = {
+		holder = 6480010
+		liege = k_prussia
+	}
+}
+c_blankenburg = {
+	1751.12.16 = {
+		holder = 9000030
+	}
+	1817.8.9 = {
+		holder = 9100029
+	}
+}
+c_mansfeld = {
+	1751.12.16 = {
+		holder = 9000030
+	}
+	1817.8.9 = {
+		holder = 9100029
+	}
+}
+c_mersenburg = {
+	1806.12.20 = {
+		holder = 9000027
+	}
+	1815.6.9 = {
+		holder = 9000013
+	}
+	1815.6.21 = {
+		holder = 6480010
+		liege = k_prussia
+	}
+}
+d_thuringia = {
+	1758.1.1 = {
+		holder = 9000031
+	}
+	1806.7.12 = {
+		liege = e_cdr
+	}
+	1828.6.14 = {
+		holder = 9100031
+	}
+}
+c_schmalkalden = {
+	1758.1.1 = {
+		holder = 9000031
+	}
+	1828.6.14 = {
+		holder = 9100031
+	}
+}
+c_gottingen = {
+	1807.7.8 = {	# Westphalia
+		holder = bonaparte_9	# Jerome Napoleon I
+	}
+	1814.10.12 = {	# Hanover
+		de_jure_liege = d_angria
+		holder = hanover_3	# George III
+	}
+	1820.1.29 = {
+		holder = hanover_4	# George IV
+	}
+	1830.6.26 = {
+		holder = hanover_5	# William IV
+	}
+	1837.6.20 = {
+		holder = hanover_8	# Ernest Augustus
+	}
+	1851.11.18 = {
+		holder = hanover_9	# George V
+	}
+}
+c_gleichenstein = {
+	1758.1.1 = {
+		holder = 9000031
+	}
+	1828.6.14 = {
+		holder = 9100031
+	}
+}
+c_orlamunde = {
+	1758.1.1 = {
+		holder = 9000031
+	}
+	1828.6.14 = {
+		holder = 9100031
+	}
+}
+c_lobdaburg = {
+	1758.1.1 = {
+		holder = 9000031
+	}
+	1828.6.14 = {
+		holder = 9100031
+	}
+}

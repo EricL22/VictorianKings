@@ -95,7 +95,7 @@ k_spain = {
 	1870.11.16 = {
 		holder = savoy_30	# Amadeo I
 	}
-	# republic: 1873.2.11
+	# republic: 1873.2.11 - 1874.12.29
 	1874.12.29 = {
 		holder = bourbon_41	# Alfonso XII
 	}
@@ -111,6 +111,27 @@ k_belgium = {
 	}
 }
 
+k_westfalia = {
+	1807.7.8 = {
+		holder = bonaparte_9	# Jerome Napoleon I
+		liege = e_cdr
+	}
+	1813.10.19 = {
+		holder = 0
+	}
+}
+
+k_wurttemberg = {
+	1806.7.12 = {
+		holder = 9000026
+		liege = e_cdr
+		de_jure_liege = e_germany
+	}
+	1816.10.30 = {
+		holder = 9100027
+	}
+}
+
 d_berg = {
 	1809.3.3 = {
 		holder = bonaparte_8	# Napoleon-Louis
@@ -118,5 +139,24 @@ d_berg = {
 	}
 	1813.12.1 = {
 		holder = 0
+	}
+}
+
+d_baden = {
+	1806.7.25 = {
+		holder = 9100030
+	}
+	1806.8.6 = {
+		de_jure_liege = k_east_francia
+	}
+	1811.6.10 = {
+		holder = 9000025
+		liege = e_cdr
+	}
+	1818.12.8 = {
+		holder = 9100036
+	}
+	1830.3.30 = {
+		holder = 9100037
 	}
 }

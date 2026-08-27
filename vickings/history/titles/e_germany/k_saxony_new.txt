@@ -15,11 +15,11 @@ d_angria = {
 }
 c_minden = {
 	1804.5.18 = {	# France
-		holder = bonaparte_2
+		holder = bonaparte_2	# Napoleon
 		liege = e_france
 	}
 	1814.10.12 = {	# Hanover
-		holder = hanover_3
+		holder = hanover_3	# George III
 	}
 	1820.1.29 = {
 		holder = hanover_4	# George IV
@@ -35,11 +35,11 @@ c_minden = {
 	}
 }
 c_lippe = {
-#	1807.7.8 = {
-#		holder = 9100009
-#	}
-	1814.10.12 = {
-		holder = hanover_3
+	1807.7.8 = {	# Westphalia
+		holder = bonaparte_9	# Jerome Napoleon I
+	}
+	1814.10.12 = {	# Hanover
+		holder = hanover_3	# George III
 	}
 	1820.1.29 = {
 		holder = hanover_4	# George IV
@@ -56,10 +56,10 @@ c_lippe = {
 }
 c_bremen = {
 	1804.5.18 = {	# France
-		holder = bonaparte_2
+		holder = bonaparte_2	# Napoleon
 	}
 	1814.10.12 = {	# Hanover
-		holder = hanover_3
+		holder = hanover_3	# George III
 	}
 	1820.1.29 = {
 		holder = hanover_4	# George IV
@@ -75,11 +75,11 @@ c_bremen = {
 	}
 }
 c_wolpe = {
-#	1807.7.8 = {
-#		holder = 9100009
-#	}
-	1814.10.12 = {
-		holder = hanover_3
+	1807.7.8 = {	# Westphalia
+		holder = bonaparte_9	# Jerome Napoleon I
+	}
+	1814.10.12 = {	# Hanover
+		holder = hanover_3	# George III
 	}
 	1820.1.29 = {
 		holder = hanover_4	# George IV
@@ -95,11 +95,11 @@ c_wolpe = {
 	}
 }
 c_hannover = {
-#	1807.7.8 = {
-#		holder = 9100009
-#	}
-	1814.10.12 = {
-		holder = hanover_3
+	1807.7.8 = {	# Westphalia
+		holder = bonaparte_9	# Jerome Napoleon I
+	}
+	1814.10.12 = {	# Hanover
+		holder = hanover_3	# George III
 	}
 	1820.1.29 = {
 		holder = hanover_4	# George IV
@@ -115,11 +115,11 @@ c_hannover = {
 	}
 }
 c_hildesheim = {
-#	1807.7.8 = {
-#		holder = 9100009
-#	}
-	1814.10.12 = {
-		holder = hanover_3
+	1807.7.8 = {	# Westphalia
+		holder = bonaparte_9	# Jerome Napoleon I
+	}
+	1814.10.12 = {	# Hanover
+		holder = hanover_3	# George III
 	}
 	1820.1.29 = {
 		holder = hanover_4	# George IV
@@ -136,10 +136,10 @@ c_hildesheim = {
 }
 c_oldenburg = {
 	1804.5.18 = {	# France
-		holder = bonaparte_2
+		holder = bonaparte_2	# Napoleon
 	}
 	1814.10.12 = {	# Hanover
-		holder = hanover_3
+		holder = hanover_3	# George III
 	}
 	1820.1.29 = {
 		holder = hanover_4	# George IV
@@ -213,17 +213,17 @@ c_munster = {
 #	}
 }
 c_waldeck = {
-#	1807.7.8 = {
-#		holder = 9100009
-#	}
+	1807.7.8 = {	# Westphalia
+		holder = bonaparte_9	# Jerome Napoleon I
+	}
 #	1815.6.9 = {
 #		holder = 6480005
 #	}
 }
 c_paderborn = {
-#	1807.7.8 = {
-#		holder = 9100009
-#	}
+	1807.7.8 = {	# Westphalia
+		holder = bonaparte_9	# Jerome Napoleon I
+	}
 #	1815.6.9 = {
 #		holder = 6480005
 #	}
@@ -234,11 +234,11 @@ d_ostfalen = {
 	}
 }
 c_luneburg = {
-#	1807.7.8 = {
-#		holder = 9100009
-#	}
-	1814.10.12 = {
-		holder = hanover_3
+	1807.7.8 = {	# Westphalia
+		holder = bonaparte_9	# Jerome Napoleon I
+	}
+	1814.10.12 = {	# Hanover
+		holder = hanover_3	# George III
 	}
 	1820.1.29 = {
 		holder = hanover_4	# George IV
@@ -254,9 +254,9 @@ c_luneburg = {
 	}
 }
 c_brunswick = {
-#	1807.7.8 = {
-#		holder = 9100009
-#	}
+	1807.7.8 = {	# Westphalia
+		holder = bonaparte_9	# Jerome Napoleon I
+	}
 #	1815.6.16 = {
 #		liege = 0
 #		holder = 8000008
@@ -272,11 +272,11 @@ c_hamburg = {
 #	}
 }
 c_dannenberg = {
-#	1807.7.8 = {
-#		holder = 9100009
-#	}
-	1814.10.12 = {
-		holder = hanover_3
+	1807.7.8 = {	# Westphalia
+		holder = bonaparte_9	# Jerome Napoleon I
+	}
+	1814.10.12 = {	# Hanover
+		holder = hanover_3	# George III
 	}
 	1820.1.29 = {
 		holder = hanover_4	# George IV
@@ -292,9 +292,9 @@ c_dannenberg = {
 	}
 }
 c_stendal = {
-#	1807.7.8 = {
-#		holder = 9100009
-#	}
+	1807.7.8 = {	# Westphalia
+		holder = bonaparte_9	# Jerome Napoleon I
+	}
 #	1815.6.9 = {
 #		holder = 9000013
 #	}
@@ -304,9 +304,9 @@ c_stendal = {
 #	}
 }
 d_holstein = {
-#	1808.3.13 = {
-#		holder = 9000015
-#	}
+	1808.3.13 = {
+		holder = 9000015
+	}
 }
 c_lubeck = {
 	1804.5.18 = {	# France
@@ -340,4 +340,7 @@ c_stade = {
 	}
 }
 c_ditmarschen = {
+	1808.3.13 = {
+		holder = 9000015
+	}
 }
