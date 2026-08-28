@@ -1,0 +1,280 @@
+d_meissen = {
+	1733.2.1 = {
+		holder = wettin_10	# Augustus III of Poland
+	}
+	1763.10.5 = {
+		holder = wettin_0	# Frederick Christian
+	}
+	1763.12.17 = {
+		holder = wettin_1	# Frederick Augustus I
+	}
+	1806.12.20 = {
+		de_jure_liege = k_saxony
+	}
+	1827.5.5 = {
+		holder = wettin_2	# Anthony
+	}
+	1836.6.6 = {
+		holder = wettin_4	# Frederick Augustus II
+	}
+	1854.8.9 = {
+		holder = wettin_5	# John
+	}
+	1873.10.29 = {
+		holder = wettin_6	# Albert
+	}
+	1902.6.19 = {
+		holder = wettin_7	# George
+	}
+	1904.10.15 = {
+		holder = wettin_8	# Frederick Augustus III
+	}
+}
+c_meissen = {
+	1763.10.5 = {
+		holder = wettin_0	# Frederick Christian
+	}
+	1763.12.17 = {
+		holder = wettin_1	# Frederick Augustus I
+	}
+	1827.5.5 = {
+		holder = wettin_2	# Anthony
+	}
+	1836.6.6 = {
+		holder = wettin_4	# Frederick Augustus II
+	}
+	1854.8.9 = {
+		holder = wettin_5	# John
+	}
+	1873.10.29 = {
+		holder = wettin_6	# Albert
+	}
+	1902.6.19 = {
+		holder = wettin_7	# George
+	}
+	1904.10.15 = {
+		holder = wettin_8	# Frederick Augustus III
+	}
+}
+c_dresden = {
+	1763.10.5 = {
+		holder = wettin_0	# Frederick Christian
+	}
+	1763.12.17 = {
+		holder = wettin_1	# Frederick Augustus I
+	}
+	1827.5.5 = {
+		holder = wettin_2	# Anthony
+	}
+	1836.6.6 = {
+		holder = wettin_4	# Frederick Augustus II
+	}
+	1854.8.9 = {
+		holder = wettin_5	# John
+	}
+	1873.10.29 = {
+		holder = wettin_6	# Albert
+	}
+	1902.6.19 = {
+		holder = wettin_7	# George
+	}
+	1904.10.15 = {
+		holder = wettin_8	# Frederick Augustus III
+	}
+}
+c_wolkenstein = {
+	1763.10.5 = {
+		holder = wettin_0	# Frederick Christian
+	}
+	1763.12.17 = {
+		holder = wettin_1	# Frederick Augustus I
+	}
+	1827.5.5 = {
+		holder = wettin_2	# Anthony
+	}
+	1836.6.6 = {
+		holder = wettin_4	# Frederick Augustus II
+	}
+	1854.8.9 = {
+		holder = wettin_5	# John
+	}
+	1873.10.29 = {
+		holder = wettin_6	# Albert
+	}
+	1902.6.19 = {
+		holder = wettin_7	# George
+	}
+	1904.10.15 = {
+		holder = wettin_8	# Frederick Augustus III
+	}
+}
+c_osterland = {
+	1815.6.9 = {
+		holder = 9000013
+	}
+	1815.6.21 = {
+		holder = 6480010
+		liege = k_prussia
+	}
+}
+c_naumburg = {
+	1763.10.5 = {
+		holder = wettin_0	# Frederick Christian
+	}
+	1763.12.17 = {
+		holder = wettin_1	# Frederick Augustus I
+	}
+	1827.5.5 = {
+		holder = wettin_2	# Anthony
+	}
+	1836.6.6 = {
+		holder = wettin_4	# Frederick Augustus II
+	}
+	1854.8.9 = {
+		holder = wettin_5	# John
+	}
+	1873.10.29 = {
+		holder = wettin_6	# Albert
+	}
+	1902.6.19 = {
+		holder = wettin_7	# George
+	}
+	1904.10.15 = {
+		holder = wettin_8	# Frederick Augustus III
+	}
+}
+c_vogtland = {
+	1763.10.5 = {
+		holder = wettin_0	# Frederick Christian
+	}
+	1763.12.17 = {
+		holder = wettin_1	# Frederick Augustus I
+	}
+	1827.5.5 = {
+		holder = wettin_2	# Anthony
+	}
+	1836.6.6 = {
+		holder = wettin_4	# Frederick Augustus II
+	}
+	1854.8.9 = {
+		holder = wettin_5	# John
+	}
+	1873.10.29 = {
+		holder = wettin_6	# Albert
+	}
+	1902.6.19 = {
+		holder = wettin_7	# George
+	}
+	1904.10.15 = {
+		holder = wettin_8	# Frederick Augustus III
+	}
+}
+c_cottbus = {
+	1763.10.5 = {
+		holder = wettin_0	# Frederick Christian
+	}
+	1763.12.17 = {
+		holder = wettin_1	# Frederick Augustus I
+	}
+	1827.5.5 = {
+		holder = wettin_2	# Anthony
+	}
+	1836.6.6 = {
+		holder = wettin_4	# Frederick Augustus II
+	}
+	1854.8.9 = {
+		holder = wettin_5	# John
+	}
+	1873.10.29 = {
+		holder = wettin_6	# Albert
+	}
+	1902.6.19 = {
+		holder = wettin_7	# George
+	}
+	1904.10.15 = {
+		holder = wettin_8	# Frederick Augustus III
+	}
+}
+c_gorlitz = {
+	1763.10.5 = {
+		holder = wettin_0	# Frederick Christian
+	}
+	1763.12.17 = {
+		holder = wettin_1	# Frederick Augustus I
+	}
+	1827.5.5 = {
+		holder = wettin_2	# Anthony
+	}
+	1836.6.6 = {
+		holder = wettin_4	# Frederick Augustus II
+	}
+	1854.8.9 = {
+		holder = wettin_5	# John
+	}
+	1873.10.29 = {
+		holder = wettin_6	# Albert
+	}
+	1902.6.19 = {
+		holder = wettin_7	# George
+	}
+	1904.10.15 = {
+		holder = wettin_8	# Frederick Augustus III
+	}
+}
+d_lausitz = {
+	1763.12.17 = {	# Saxony
+		holder = wettin_1	# Frederick Augustus I
+	}
+	1815.4.30 = {	# Prussia
+		holder = 6480014
+		liege = k_prussia
+	}
+	1824.1.1 = {
+		holder = 6480015
+	}
+}
+c_juterbog = {
+	1763.12.17 = {	# Saxony
+		holder = wettin_1	# Frederick Augustus I
+	}
+	1815.4.30 = {	# Prussia
+		holder = 6480014
+	}
+	1824.1.1 = {
+		holder = 6480015
+	}
+}
+c_wittenberg = {
+	1815.6.21 = {
+		holder = 6480010
+		liege = k_prussia
+	}
+}
+c_brene = {
+	1815.6.21 = {
+		holder = 6480010
+		liege = k_prussia
+	}
+}
+c_spreewald = {
+	1763.12.17 = {	# Saxony
+		holder = wettin_1	# Frederick Augustus I
+	}
+	1815.4.30 = {	# Prussia
+		holder = 6480014
+	}
+	1824.1.1 = {
+		holder = 6480015
+	}
+}
+c_naumberg = {
+	1763.12.17 = {	# Saxony
+		holder = wettin_1	# Frederick Augustus I
+	}
+	1815.4.30 = {	# Prussia
+		holder = 6480014
+	}
+	1824.1.1 = {
+		holder = 6480015
+	}
+}

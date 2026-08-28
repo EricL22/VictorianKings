@@ -1507,6 +1507,7 @@ c_hereford = {
 	740.1.1 = {
 	}
 	852.1.1 = {
+		de_jure_liege = d_hereford
 	}
 	852.1.1 = {
 	}
@@ -1632,6 +1633,7 @@ c_wiltshire = {
 	1066.1.5 = {
 	}
 	#1066.10.14 = {
+	#	liege = "d_gloucester"
 	#}
 	1066.10.14 = {
 	}

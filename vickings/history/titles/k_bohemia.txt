@@ -60,6 +60,7 @@ d_bohemia = {
 	820.1.1 = {
 	}
 #	830.1.1 = {
+#		liege = "k_moravia" # ahistorical - removed
 #	}
 	833.1.1 = {
 	}
@@ -884,6 +885,7 @@ d_moravia = {
 	809.1.1 = {
 	}
 	830.1.1 = {
+		de_jure_liege = k_moravia
 	}
 	846.8.15 = {
 	}
@@ -894,6 +896,7 @@ d_moravia = {
 	907.7.4 = {
 	}
 	1019.1.1 = {
+		de_jure_liege = k_bohemia
 	}
 	1019.1.1 = {
 	}

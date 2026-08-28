@@ -177,6 +177,7 @@ c_raniriki = {
 	1135.1.7 = {
 	}
 	#1136.1.1 = {
+	#	liege = "d_ostlandet"
 	#}
 	1136.1.1 = {
 	}
@@ -332,6 +333,7 @@ c_telemark = {
 	1178.1.1 = { change_development_level = 13 }
 	
 	755.1.1 = {
+		#liege = d_sjaelland
 		government = tribal_government
 	}
 	867.1.1 = {
@@ -410,6 +412,7 @@ c_nedenes = {
 	1178.1.1 = { change_development_level = 13 }
 	
 	760.1.1 = {
+		#liege = d_sjaelland
 		government = tribal_government
 	}
 	867.1.1 = {
@@ -490,6 +493,7 @@ c_agdeside = {
 	1178.1.1 = { change_development_level = 13 }
 	
 	760.1.1 = {
+		#liege = d_sjaelland
 		government = tribal_government
 	}
 	867.1.1 = {

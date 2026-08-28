@@ -821,7 +821,7 @@ c_mansfeld = {
 }
 c_mersenburg = {
 	1806.12.20 = {	# Saxony
-		holder = 9000027
+		holder = wettin_1	# Frederick Augustus I
 	}
 	1815.6.9 = {	# Prussia
 		holder = 9000013
@@ -833,21 +833,21 @@ c_mersenburg = {
 }
 d_thuringia = {
 	1758.1.1 = {
-		holder = 9000031
+		holder = 9000031	# Karl August
 	}
 	1806.7.12 = {
 		liege = e_cdr
 	}
 	1828.6.14 = {
-		holder = 9100031
+		holder = 9100031	# Charles Frederick
 	}
 }
 c_schmalkalden = {
 	1758.1.1 = {
-		holder = 9000031
+		holder = 9000031	# Karl August
 	}
 	1828.6.14 = {
-		holder = 9100031
+		holder = 9100031	# Charles Frederick
 	}
 }
 c_gottingen = {
@@ -873,25 +873,25 @@ c_gottingen = {
 }
 c_gleichenstein = {
 	1758.1.1 = {
-		holder = 9000031
+		holder = 9000031	# Karl August
 	}
 	1828.6.14 = {
-		holder = 9100031
+		holder = 9100031	# Charles Frederick
 	}
 }
 c_orlamunde = {
 	1758.1.1 = {
-		holder = 9000031
+		holder = 9000031	# Karl August
 	}
 	1828.6.14 = {
-		holder = 9100031
+		holder = 9100031	# Charles Frederick
 	}
 }
 c_lobdaburg = {
 	1758.1.1 = {
-		holder = 9000031
+		holder = 9000031	# Karl August
 	}
 	1828.6.14 = {
-		holder = 9100031
+		holder = 9100031	# Charles Frederick
 	}
 }

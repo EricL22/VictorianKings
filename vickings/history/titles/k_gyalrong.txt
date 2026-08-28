@@ -745,6 +745,7 @@ c_sertar = {
 d_golog = {
 	#Tuyuhun Kingdom (284 - 670)
 	284.1.1={
+		#liege = "k_tuyuhun"
 	}
 	670.1.1={
 	}#Tuyuhun conquered by Tibetan Empire. The King escapes to China.
@@ -1020,6 +1021,7 @@ c_baima = {
 d_malho = {
 	#Tuyuhun Kingdom (284 - 670)
 	284.1.1={
+		#liege = "k_tuyuhun"
 	}
 	670.1.1={
 	}#Tuyuhun conquered by Tibetan Empire. The King escapes to China.
@@ -1299,6 +1301,7 @@ c_zekog = {
 d_gainlho = {
 	#Tuyuhun Kingdom (284 - 670)
 	284.1.1={
+		#liege = "k_tuyuhun"
 	}
 	670.1.1={
 	}#Tuyuhun conquered by Tibetan Empire. The King escapes to China.

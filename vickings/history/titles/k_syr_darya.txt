@@ -90,6 +90,7 @@ d_chah = {
 	
 	#Chah within the Samanid in 867
 	849.1.2 = {
+		#liege = k_transoxiana	#Samanid
 		government = clan_government
 	}
 	855.3.2 = {
@@ -182,10 +183,13 @@ c_chah = {
 	
 	#Chah within the Karakhanid in 1066
 	1060.1.2 = {
+		#top liege = k_transoxiana
 	}
 	#1068.1.2 = {
+	#	#top liege = k_zhetysu
 	#}
 	1074.1.2 = {
+		#top liege = k_transoxiana
 		government = nomad_government
 	}
 	1093.1.2 = {
@@ -260,8 +264,10 @@ c_otrar = {
 		government = herder_government
 	}
 	#1068.1.2 = {
+	#	#top liege = k_zhetysu
 	#}
 	1074.1.2 = {
+		#top liege = k_transoxiana
 		government = nomad_government
 	}
 	1093.1.2 = {
@@ -404,6 +410,7 @@ c_shavgar = {
 c_sutkend = {
 	#Chah within the Samanid in 867
 	849.1.2 = {
+		#liege = k_transoxiana	#Samanid
 		government = tribal_government
 	}
 	855.3.2 = {
@@ -414,10 +421,13 @@ c_sutkend = {
 	#Chah within the Karakhanid in 1066
 	1060.1.2 = {
 		government = herder_government
+		#top liege = k_transoxiana
 	}
 	#1068.1.2 = {
+	#	#top liege = k_zhetysu
 	#}
 	1074.1.2 = {
+		#top liege = k_transoxiana
 	}
 	1093.1.2 = {
 	}
@@ -526,6 +536,7 @@ d_muyunkum = {
 	
 	#1137 Kara Khitai
 	1137.1.1 = {
+		#liege = d_samarkand # Kara Khitan conquest
 	}
 	1160.1.1 = {
 	}
@@ -693,6 +704,7 @@ c_suyab = {
 	840.1.1 = {
 		government = nomad_government
 	}
+	841.1.1 = { liege = k_zhetysu }
 	893.1.1 = {
 	}
 	920.1.1 = {

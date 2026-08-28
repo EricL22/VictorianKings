@@ -138,6 +138,7 @@ c_ghat = {
 	
 	# Karakush captured and Kanem moves to control the area
 	1212.1.1 = {
+		#liege = d_kanem
 	}
 	1242.1.1 = {
 	}
@@ -191,6 +192,7 @@ c_djanet = {
 	
 	# Karakush captured and Kanem moves to control the area
 	1212.1.1 = {
+		#liege = d_kanem
 	}
 	1242.1.1 = {
 	}
@@ -298,6 +300,7 @@ c_bilma = {
 	
 	#Kanem
 	769.1.1 = {
+		#liege = d_kanem
 		government = tribal_government
 	}
 	830.1.1 = {
@@ -355,6 +358,7 @@ c_bilma = {
 c_dirku = {
 	#Kanem
 	769.1.1 = {
+		#liege = d_kanem
 		government = tribal_government
 	}
 	830.1.1 = {
@@ -445,6 +449,7 @@ c_djado = {
 	
 	# Karakush captured and Kanem moves to control the area
 	1212.1.1 = {
+		#liege = d_kanem
 	}
 	1242.1.1 = {
 	}
@@ -577,6 +582,7 @@ c_murzuk = {
 	
 	# Karakush captured and Kanem moves to control the area
 	1212.1.1 = {
+		#liege = d_kanem
 	}
 	1242.1.1 = {
 	}
@@ -633,6 +639,7 @@ c_zawila = {
 	
 	# Karakush captured and Kanem moves to control the area
 	1212.1.1 = {
+		#liege = d_kanem
 	}
 	1242.1.1 = {
 	}
@@ -689,6 +696,7 @@ c_germa = {
 	
 	# Karakush captured and Kanem moves to control the area
 	1212.1.1 = {
+		#liege = d_kanem
 	}
 	1242.1.1 = {
 	}

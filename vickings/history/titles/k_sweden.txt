@@ -999,6 +999,7 @@ c_gutland = {
 	
 	# Republic of Gotland
 	1161.6.6 = {
+		de_jure_liege = d_gotland
 	}
 	1173.1.1 = {
 	}
@@ -1023,6 +1024,7 @@ c_gutland = {
 	#
 	
 	1285.1.1 = {
+		de_jure_liege = d_smaland
 	}
 	
 	1290.12.18 = {

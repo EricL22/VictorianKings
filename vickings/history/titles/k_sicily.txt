@@ -63,6 +63,7 @@ d_sicily = {
 	1130.12.25 = {
 	}
 	1302.8.31 = {
+		de_jure_liege = k_trinacria
 	}
 }
 c_palermo = {
@@ -401,6 +402,7 @@ c_agrigento = {
 	1063.1.1 = {
 	}
 	#1068.1.1 = {
+	#	liege = d_alger
 	#}
 	# Normans
 	1087.1.1 = {
@@ -635,6 +637,7 @@ d_benevento = {
 	1085.7.17 = {
 	}
 	1302.8.31 = {
+		de_jure_liege = k_naples
 	}
 }
 c_benevento = {
@@ -1011,6 +1014,7 @@ d_capua = {
 	1172.6.16 = {
 	}
 	1302.8.31 = {
+		de_jure_liege = k_naples
 	}
 }
 c_capua = {
@@ -1315,6 +1319,7 @@ d_apulia = {
 	1193.12.24 = {
 	}
 	1302.8.31 = {
+		de_jure_liege = k_naples
 	}
 }
 c_apulia = {
@@ -1554,6 +1559,7 @@ d_salerno = {
 	1076.12.13 = {
 	}
 	1302.8.31 = {
+		de_jure_liege = k_naples
 	}
 }
 c_salerno = {
@@ -1729,6 +1735,7 @@ d_calabria = {
 	1257.1.1 = {
 	}
 	1302.8.31 = {
+		de_jure_liege = k_naples
 	}
 	1309.5.5 = {
 	}

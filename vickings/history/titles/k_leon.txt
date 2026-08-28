@@ -88,10 +88,12 @@ k_leon = {
 }
 d_leon = {
 	711.1.1 = {
+		de_jure_liege = k_asturias
 	}
 	900.1.1 = {
 	}
 	910.12.20 = {
+		de_jure_liege = k_leon
 	}
 }
 c_leon = {
@@ -453,10 +455,12 @@ c_avila = {
 }
 d_asturias = {
 	711.1.1 = {
+		de_jure_liege = k_asturias
 	}
 	900.1.1 = {
 	}
 	910.12.20 = {
+		de_jure_liege = k_leon
 	}
 	925.8.1 = {
 	}

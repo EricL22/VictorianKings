@@ -6,6 +6,7 @@ k_kham = {
 d_qamdo = {
 	#Sumpa Kingdom (c.200 - 755)
 	200.1.1={
+		#liege = "k_sumpa"
 	}
 	#Qamdo Dynasty - fictional placeholders
 	740.1.1={
@@ -216,6 +217,7 @@ c_dengqen = {
 c_baqen = {
 	#Sumpa Kingdom (c.200 - 755)
 	200.1.1={
+		#liege = "d_baqen"
 	}
 	#Sumpa dynasty (Baqen) - fictional placeholders
 	740.1.1={
@@ -285,6 +287,7 @@ c_baqen = {
 c_sog = {
 	#Sumpa Kingdom (c.200 - 755)
 	200.1.1={
+		#liege = "d_baqen"
 	}
 	#Sumpa dynasty (Baqen) - fictional placeholders
 	740.1.1={
@@ -2323,6 +2326,7 @@ c_nyagrong = {
 c_deqen = {
 	#Dêqên Kingdom
 	740.1.1={
+		#liege="d_deqen"
 	}
 	800.1.1={
 	}
@@ -2386,6 +2390,7 @@ c_deqen = {
 c_gyaitang = {
 	#Dêqên Kingdom
 	740.1.1={
+		#liege="d_deqen"
 	}
 	800.1.1={
 	}

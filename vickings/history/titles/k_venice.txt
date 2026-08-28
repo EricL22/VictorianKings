@@ -160,6 +160,7 @@ d_venice = {
 	#b_participazio - also in k_venice
 	
 	726.1.1 = {
+	#	liege = e_byzantium
 	}
 	737.1.1 = {
 	}

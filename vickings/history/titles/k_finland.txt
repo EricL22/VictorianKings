@@ -313,6 +313,7 @@ c_tavasts = {
 }
 c_olavinlinna = {
 	762.1.1 = {
+		#liege = "d_kexholm"
 		government = tribal_government
 	}
 	781.1.1 = {
@@ -387,6 +388,7 @@ c_sysma = {
 }
 c_pielinen = {
 	762.1.1 = {
+		#liege = "d_kexholm"
 		government = tribal_government
 	}
 	781.1.1 = {
@@ -792,6 +794,7 @@ d_karelia = {
 }
 c_kakisalmi = {
 	768.1.1 = {
+		#liege = "d_kexholm"
 		government = tribal_government
 	}
 	787.1.1 = {
@@ -868,6 +871,7 @@ c_kakisalmi = {
 }
 c_viipuri = {
 	768.1.1 = {
+		#liege = "d_kexholm"
 		government = tribal_government
 	}
 	787.1.1 = {
@@ -944,6 +948,7 @@ c_viipuri = {
 }
 c_sortavala = {
 	768.1.1 = {
+		#liege = "d_kexholm"
 		government = tribal_government
 	}
 	787.1.1 = {

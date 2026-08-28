@@ -1800,6 +1800,7 @@ c_vaucouleurs = {
 }
 d_flanders = {
 	#740.1.1 = {
+	#	liege = k_france
 	#}
 	865.1.1 = {
 	}
@@ -2076,6 +2077,7 @@ c_boulogne = {
 }
 d_burgundy = {
 	#100.1.1 = {
+	#	liege = "k_france"
 	#}
 	#
 	##House of Arnulfing
@@ -2084,8 +2086,10 @@ d_burgundy = {
 	#745.1.1 = {
 	#}
 	#745.1.1 = {
+	#	liege = k_lotharingia
 	#}
 	#769.1.1 = {
+	#	de_jure_liege = k_lotharingia
 	#}
 	#798.1.1 = {
 	#}
@@ -2095,6 +2099,7 @@ d_burgundy = {
 	#840.6.20 = {
 	#}
 	#867.1.1 = {
+	#	de_jure_liege = k_france
 	#}
 	#879.1.1 = {
 	#}
@@ -2398,6 +2403,7 @@ d_champagne = {
 	
 	#House of Karling of Vermandois
 	956.1.1 = {
+		#de_jure_liege = k_france
 	}
 	967.1.1 = {
 	}
@@ -2541,6 +2547,7 @@ c_troyes = {
 	#768.1.1 = {
 	#}
 	#817.1.1 = {
+	#	liege = "k_france"
 	#}
 	#841.1.1 = {
 	#}
@@ -2629,6 +2636,7 @@ c_coulommiers = {
 	#768.1.1 = {
 	#}
 	#817.1.1 = {
+	#	liege = "k_france"
 	#}
 	#841.1.1 = {
 	#}
@@ -2712,6 +2720,7 @@ c_coulommiers = {
 c_meaux = {
 	#Should be Louis II, but he is currently holding an independant k_aquitaine in 867 (Aquitaine should be a part of West Francia at this time)
 	#862.1.1 = {
+	#	liege = k_france
 	#}
 	
 	866.1.1 = {	#Placeholder, to keep Meaux within Champagne/France in 867

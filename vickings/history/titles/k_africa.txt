@@ -1241,9 +1241,11 @@ c_bir_amir = {
 }
 c_ghadames = {
 	768.1.1 = {	
+		#liege = k_africa
 		government = tribal_government
 	}
 	864.1.1 = {	
+		#liege = d_tunis
 	}
 	1062.1.1 = {
 	}
@@ -1324,6 +1326,7 @@ d_tripolitania = {
 	768.1.1 = {
 	}
 	866.1.1 = {
+		#liege = "k_africa" - should not be a vasal, but tributary
 		government = clan_government
 	}
 	866.10.10 = {

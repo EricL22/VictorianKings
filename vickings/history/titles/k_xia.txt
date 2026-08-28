@@ -538,6 +538,7 @@ c_qilin = {
 	}
 	#Ganzhou Kingdom Established
 	894.1.1 = {
+		#liege = "k_ganzhou"
 	}
 	900.1.1 = {
 	}
@@ -663,6 +664,7 @@ d_juyan = {
 	}
 	#Ganzhou Kingdom Established
 	894.1.1 = {
+		#liege = "k_ganzhou"
 	}
 	900.1.1 = {
 	}

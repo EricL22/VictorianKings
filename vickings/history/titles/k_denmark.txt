@@ -586,6 +586,7 @@ c_aarhus = {
 		government = feudal_government	#Ahistorical, just for ease of bookmarks.
 	}
 	#1066.1.1 = {
+	#	liege = "k_denmark"
 	#}
 	1066.1.1 = {
 	}
@@ -640,6 +641,7 @@ c_viborg = {
 		government = feudal_government	#Ahistorical, just for ease of bookmarks.
 	}
 	#1066.1.1 = {
+	#	liege = "k_denmark"
 	#}
 	1066.1.2 = {
 	}
@@ -692,6 +694,7 @@ c_ringkobing = {
 		government = feudal_government	#Ahistorical, just for ease of bookmarks.
 	}
 	#1066.1.1 = {
+	#	liege = "k_denmark"
 	#}
 	1066.1.2 = {
 	}
@@ -744,6 +747,7 @@ c_aalborg = {
 		government = feudal_government	#Ahistorical, just for ease of bookmarks.
 	}
 	#1066.1.1 = {
+	#	liege = "k_denmark"
 	#}
 	1066.1.1 = {
 	}
@@ -928,10 +932,12 @@ c_ribe = {
 }
 d_holstein = {
 	700.1.1 = {
+		de_jure_liege = k_saxony
 	}
 	761.1.1 = {
 	}
 	782.1.1 = {
+		de_jure_liege = k_east_francia
 	}
 	1129.7.1 = {
 	}

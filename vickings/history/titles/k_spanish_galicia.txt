@@ -46,6 +46,7 @@ d_galicia = {
 	1107.9.20 = {
 	}
 	1126.3.8 = {
+		de_jure_liege = k_leon
 	}
 }
 c_coruna = {
@@ -394,8 +395,10 @@ c_monterrei = {
 }
 d_coimbra = {
 	711.1.1 = {
+		de_jure_liege = k_spanish_galicia
 	}
 	1109.6.30 = {
+		de_jure_liege = k_portugal
 	}
 }
 c_coimbra = {
@@ -622,6 +625,7 @@ c_castelo_branco = {
 }
 d_porto = {
 	711.1.1 = {
+		de_jure_liege = k_spanish_galicia
 	}
 	851.1.1 = {
 		# Nominally, though essentially not. We portray this as a long-form independence war.
@@ -655,6 +659,7 @@ d_porto = {
 	1097.4.9 = {
 	}
 	1109.6.30 = {
+		de_jure_liege = k_portugal
 	}
 	1112.5.22 = {
 	}

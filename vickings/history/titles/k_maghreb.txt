@@ -612,6 +612,7 @@ c_agadir = {
 		government = tribal_government
 	}
 	812.1.1 = {
+		#liege = "k_maghreb"
 	}
 	850.1.1 = {
 	}
@@ -676,6 +677,7 @@ c_ifni = {
 		government = tribal_government
 	}
 	812.1.1 = {
+		#liege = "k_maghreb"
 	}
 	850.1.1 = {
 	}
@@ -1381,6 +1383,7 @@ c_gharb = {
 	848.1.1 = {
 	}
 	864.1.1 = {
+		#liege = d_rif
 	}
 	1061.1.1 = {
 	}

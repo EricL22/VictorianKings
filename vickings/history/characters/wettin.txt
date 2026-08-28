@@ -1,22 +1,9 @@
-﻿9000027 = {
-	name = "Frederik August"	# of Saxony
+﻿wettin_0 = {
+	name = "Frederik Christian"	# Elector of Saxony
 	dynasty_house = house_wettin
 	religion = catholic
 	culture = saxon
-	father = 9100032
-	1750.12.23 = {
-		birth = "1750.12.23"
-	}
-	1827.5.5 = {
-		death = "1827.5.5"
-	}
-}
-
-9100032 = {
-	name = "Frederik Christian"	# of Saxony
-	dynasty_house = house_wettin
-	religion = catholic
-	culture = saxon
+	father = wettin_10
 	1722.9.5 = {
 		birth = yes
 	}
@@ -24,12 +11,27 @@
 		death = yes
 	}
 }
-9100033 = {
+
+wettin_1 = {
+	name = "Frederik August"	# I of Saxony
+	dynasty_house = house_wettin
+	religion = catholic
+	culture = saxon
+	father = wettin_0
+	1750.12.23 = {
+		birth = yes
+	}
+	1827.5.5 = {
+		death = yes
+	}
+}
+
+wettin_2 = {
 	name = "Anton"	# of Saxony
 	dynasty_house = house_wettin
 	religion = catholic
 	culture = saxon
-	father = 9100032
+	father = wettin_0
 	1755.12.27 = {
 		birth = yes
 	}
@@ -37,12 +39,12 @@
 		death = yes
 	}
 }
-9100034 = {
-	name = "Maximilian"	# of Saxony
+wettin_3 = {
+	name = "Maximilian"	# prince of Saxony
 	dynasty_house = house_wettin
 	religion = catholic
 	culture = saxon
-	father = 9100032
+	father = wettin_0
 	1759.4.13 = {
 		birth = yes
 	}
@@ -53,12 +55,12 @@
 		death = yes
 	}
 }
-9100035 = {
-	name = "Frederik August"	# of Saxony
+wettin_4 = {
+	name = "Frederik August"	# II of Saxony
 	dynasty_house = house_wettin
 	religion = catholic
 	culture = saxon
-	father = 9100034
+	father = wettin_3
 	1797.5.18 = {
 		birth = yes
 	}
@@ -66,12 +68,79 @@
 		death = yes
 	}
 }
-
-wettin_11 = {
-	name = "Maria Josepha"
+wettin_5 = {
+	name = "Johann"	# of Saxony
 	dynasty_house = house_wettin
 	religion = catholic
 	culture = saxon
+	father = wettin_3
+	1801.12.12 = {
+		birth = yes
+	}
+	1873.10.29 = {
+		death = yes
+	}
+}
+wettin_6 = {
+	name = "Albrecht"	# of Saxony
+	dynasty_house = house_wettin
+	religion = catholic
+	culture = saxon
+	father = wettin_5
+	1828.4.23 = {
+		birth = yes
+	}
+	1902.6.19 = {
+		death = yes
+	}
+}
+wettin_7 = {
+	name = "Georg"	# of Saxony
+	dynasty_house = house_wettin
+	religion = catholic
+	culture = saxon
+	father = wettin_5
+	1832.8.8 = {
+		birth = yes
+	}
+	1904.10.15 = {
+		death = yes
+	}
+}
+wettin_8 = {
+	name = "Frederik August"	# III of Saxony
+	dynasty_house = house_wettin
+	religion = catholic
+	culture = saxon
+	father = wettin_7
+	1865.5.25 = {
+		birth = yes
+	}
+	1932.2.18 = {
+		death = yes
+	}
+}
+
+
+wettin_10 = {
+	name = "Frederik August"	# Elector of Saxony
+	dynasty_house = house_wettin
+	religion = catholic
+	culture = saxon
+	1696.10.17 = {
+		birth = yes
+	}
+	1763.10.5 = {
+		death = yes
+	}
+}
+
+wettin_11 = {
+	name = "Maria Josepha"	# Dauphine of France
+	dynasty_house = house_wettin
+	religion = catholic
+	culture = saxon
+	father = wettin_10
 	female = yes
 	1731.11.4 = {
 		birth = yes
@@ -208,7 +277,7 @@ wettin_11 = {
 	}
 }
 
-# Wife of William IV
+# Wife of William IV (United Kingdom)
 eur_00200 = {
 	name = "Adelheid"
 	dynasty_house = house_saxe_meiningen
@@ -230,7 +299,7 @@ eur_00200 = {
 	}
 }
 
-# Wife of Ludwig I
+# Wife of Ludwig I (Bavaria)
 8000064 = {
 	name = "Therese"
 	dynasty_house = house_wettin

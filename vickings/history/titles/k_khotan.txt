@@ -1227,6 +1227,7 @@ c_aksu = {
 	}
 	#Taken by Guiyi Circuit
 	866.1.1 = {
+		#liege = k_guiyi
 	}
 	#Conquered by Qocho
 	866.6.1 = {
@@ -1578,6 +1579,7 @@ c_luntai = {
 	}
 	#Taken by Guiyi Circuit
 	866.1.1 = {
+		#liege = k_guiyi
 	}
 	#Taken by Qocho
 	866.6.1 = {

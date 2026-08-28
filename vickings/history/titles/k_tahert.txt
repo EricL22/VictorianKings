@@ -143,6 +143,7 @@ c_wajda = {
 	}
 	866.1.1 = {
 		government = clan_government
+		#liege = "d_fes"
 	}
 
 	1015.1.1 = {

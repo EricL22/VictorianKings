@@ -900,6 +900,7 @@ c_kakheti = {
 	779.1.1 = {
 	}
 	#826.1.29 = {
+	#	liege = "k_georgia"
 	#}
 	826.1.29 = {
 	}
@@ -937,6 +938,7 @@ c_kakheti = {
 }
 c_hereti = {
 	270.1.1 = {
+		#liege = "d_albania"
 	}
 	300.1.1 = {
 	}

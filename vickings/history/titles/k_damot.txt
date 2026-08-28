@@ -16,6 +16,7 @@ d_damot = {
 		government = feudal_government	#Ahistorical, just for ease of bookmarks.
 	}
 	1059.1.1 = {
+	#liege = "k_abyssinia"
 	}
 	1097.1.1 = {
 	}

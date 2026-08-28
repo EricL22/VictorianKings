@@ -1107,6 +1107,7 @@ d_najd = {
 	1178.1.1 = { change_development_level = 5 }
 	
 	760.1.1 = {
+	#	liege = e_arabia
 		government = tribal_government
 	}
 	
@@ -2026,6 +2027,7 @@ c_batina = {
 	}
 	
 	799.1.1 = {
+		#liege = e_arabia
 	}
 	835.1.1 = {
 	}

@@ -756,6 +756,7 @@ d_nyitra = {
 	1178.1.1 = { change_development_level = 13 }
 	
 	830.1.1 = {
+		de_jure_liege = "k_moravia"
 	}
 	850.1.1 = {
 	}
@@ -774,6 +775,7 @@ d_nyitra = {
 	978.1.1 = {
 	}
 	1000.12.25 = {
+		de_jure_liege = "k_hungary"
 	}
 	1029.1.1 = {
 	}
@@ -3173,8 +3175,10 @@ c_veszprem = {
 }
 d_syrmia = {
 	500.1.1 = {
+		de_jure_liege = k_serbia
 	}
 	1000.1.1 = {
+		de_jure_liege = k_hungary
 	}
 	1066.1.1 = {
 	}

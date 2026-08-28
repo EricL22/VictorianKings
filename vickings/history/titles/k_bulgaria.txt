@@ -91,6 +91,7 @@ c_vidin = {
 		government = feudal_government	#Ahistorical, just for ease of bookmarks.
 	}
 	#1066.1.1 = {
+	#	liege = "d_vidin"
 	#}
 	1066.1.1 = {
 		government = administrative_government
@@ -166,6 +167,7 @@ c_branicevo = {
 		government = feudal_government	#Ahistorical, just for ease of bookmarks.
 	}
 	#1066.1.1 = {
+	#	liege = "d_vidin"
 	#}
 	1066.1.1 = {
 	}
@@ -500,6 +502,7 @@ c_sredets = {
 	}
 	#1185.1.1 =
 	#{
+	#liege = "k_bulgaria"
 	#}
 	1185.1.1 = {
 	}
@@ -2184,6 +2187,7 @@ c_burgas = {
 	1178.1.1 = { change_development_level = 24 }
 	
 	#330.1.1 = {
+	#	liege = "d_thracesia"
 	#}
 	761.1.1 = {
 	}

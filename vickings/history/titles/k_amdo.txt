@@ -6,6 +6,7 @@ k_amdo = {
 d_xining = {
 	#Tuyuhun Kingdom (284 - 670)
 	284.1.1={
+		#liege = "k_tuyuhun"
 	}
 	670.1.1={
 	}#Tuyuhun conquered by Tibetan Empire. The King escapes to China.
@@ -232,6 +233,7 @@ c_datong = {
 d_tuyuhun = {
 	#Tuyuhun Kingdom (284 - 670)
 	284.1.1={
+		#liege = "k_tuyuhun"
 	}
 	317.1.1={
 	}
@@ -896,6 +898,7 @@ c_tuulain = {
 d_nagormo = {
 	#Tuyuhun Kingdom (284 - 670)
 	284.1.1={
+		#liege = "k_tuyuhun"
 	}
 	#Tuyuhun Kingdom is conquered by the Tibetan Empire
 	670.1.1={
@@ -1304,6 +1307,7 @@ c_kumkol = {
 d_amdo = {
 	#Sumpa Kingdom (c.200 - 755)
 	200.1.1={
+		#liege = "k_sumpa"
 	}
 	#Sumpa dynasty (Amdo) - fictional placeholders
 	700.1.1={
@@ -1864,6 +1868,7 @@ c_chumarho = {
 d_zadoi = {
 	#Sumpa Kingdom (c.200 - 755)
 	200.1.1={
+		#liege = "k_sumpa"
 	}
 	#Sumpa dynasty (Zadoi) - fictional placeholders
 	740.1.1={
@@ -2148,6 +2153,7 @@ c_zhidoi = {
 c_qumarleb = {
 	#Sumpa Kingdom (c.200 - 755)
 	200.1.1={
+		#liege = "k_sumpa"
 	}
 	#Chumarlep dynasty - fictional placeholders
 	740.1.1={
@@ -2227,7 +2233,7 @@ c_chindu = {
 	#Sumpa Kingdom (c.200 - 755)
 	200.1.1={
 	}
-	#Nangq�n Kingdom
+	#Nangqên Kingdom
 	740.1.1={
 	}
 	800.1.1={

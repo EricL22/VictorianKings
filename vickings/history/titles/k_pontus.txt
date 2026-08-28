@@ -121,6 +121,7 @@ c_paphlagonia = {
 	1185.1.1= {
 	}
 	1204.5.16= {
+		#liege="e_nicaea"
 	}
 	1224.1.2= {
 	}
@@ -169,6 +170,7 @@ c_pompeiopolis = {
 	1185.1.1= {
 	}
 	1204.5.16= {
+		#liege="e_nicaea"
 	}
 	1224.1.2= {
 	}
@@ -500,6 +502,7 @@ d_sebasteia = {
 	1077.1.1 = {
 	}
 	1178.1.1 = {
+		de_jure_liege = k_rum
 	}
 }
 c_sebasteia = {
@@ -739,6 +742,7 @@ d_charsianon = {
 	1077.1.1 = {
 	}
 	1178.1.1 = {
+		de_jure_liege = k_rum
 	}
 	1336.1.1 = {
 	}

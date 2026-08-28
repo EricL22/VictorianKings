@@ -1,12 +1,30 @@
-k_saxony = {
+k_saxony = {	# refers to the kingdom based in Upper Saxony (see k_sorbia)
 	1806.12.20 = {
 		effect = { set_capital_county = title:c_dresden }
-		holder = 9000027
+		holder = wettin_1	# Frederick Augustus I
 		liege = e_cdr
 	}
-#	1827.5.5 = {
-#		holder = 9100033
-#	}
+	1827.5.5 = {
+		holder = wettin_2	# Anthony
+	}
+	1836.6.6 = {
+		holder = wettin_4	# Frederick Augustus II
+	}
+	1854.8.9 = {
+		holder = wettin_5	# John
+	}
+	1871.1.18 = {
+		liege = e_germany
+	}
+	1873.10.29 = {
+		holder = wettin_6	# Albert
+	}
+	1902.6.19 = {
+		holder = wettin_7	# George
+	}
+	1904.10.15 = {
+		holder = wettin_8	# Frederick Augustus III
+	}
 }
 d_angria = {
 	1814.10.12 = {

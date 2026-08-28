@@ -527,14 +527,18 @@ c_beograd = {
 }
 d_duklja = {
 	#330.1.1 = {
+	#	liege = "e_byzantium"
 	#}
 	#640.1.1 = {
+	#	liege = 0
 	#}
 	#768.1.1 = {
 	#}
 	#865.1.1 = {
+	#	#liege = "e_byzantium"
 	#}
 	#897.1.1 = {
+	#	liege = 0
 	#}
 	997.1.1 = {
 	}
@@ -597,6 +601,7 @@ d_duklja = {
 }
 c_duklja = {
 	#330.1.1 = {
+	#	liege = "d_duklja"
 	#}
 	#768.1.1 = {
 	#}
@@ -649,6 +654,7 @@ c_duklja = {
 }
 c_pomorje = {
 	#330.1.1 = {
+	#	liege = "d_duklja"
 	#}
 	#768.1.1 = {
 	#}
@@ -701,6 +707,7 @@ c_pomorje = {
 }
 c_travunia = {
 	#330.1.1 = {
+	#	liege = "d_duklja"
 	#}
 	#768.1.1 = {
 	#}

@@ -629,6 +629,7 @@ d_varendra = {
 	#856.1.1 = {
 	#}
 	#856.1.1 = {
+	#	liege = k_bengal
 	#}
 	#891.1.1 = {
 	#}#907 return to Pala
@@ -699,6 +700,7 @@ c_pundravardhana = {
 	#856.1.1 = {
 	#}
 	#856.1.1 = {
+	#	liege = k_bengal
 	#}
 	#891.1.1 = {
 	#}#907 return to Pala
@@ -874,6 +876,7 @@ c_madhupur = {
 	#856.1.1 = {
 	#}
 	#856.1.1 = {
+	#	liege = k_bengal
 	#}
 	#891.1.1 = {
 	#}#907 return to Pala
@@ -1689,6 +1692,7 @@ c_mallabhum = {
 	}
 	1102.1.1 = {
 	}
+	1110.1.1 = { liege = k_bengal }
 	1113.1.1 = {
 	}
 	1129.1.1 = {

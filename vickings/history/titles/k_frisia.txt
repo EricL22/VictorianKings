@@ -539,6 +539,7 @@ c_groningen = {
 		government = theocracy_government
 	}
 	#1065.1.1 = {
+	#	liege = e_hre
 	#}
 	1076.4.27 = {
 	}

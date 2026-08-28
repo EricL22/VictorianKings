@@ -771,6 +771,7 @@ c_lubusz = {
 	###Switched from Poland to Margraviate of Brandenburg
 	#1249.1.1 =
 	#{
+	#	liege = 0
 	#}
 }
 d_mazovia = {

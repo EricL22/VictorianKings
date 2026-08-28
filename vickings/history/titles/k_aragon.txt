@@ -56,6 +56,7 @@ k_aragon = {
 }
 d_barcelona = {
 	711.1.1 = {
+		de_jure_liege = k_andalusia
 	}
 	769.1.1 = {
 	}
@@ -66,6 +67,7 @@ d_barcelona = {
 	800.1.1 = {
 	}
 	801.4.3 = {
+		de_jure_liege = k_aquitaine
 	}
 	820.2.1 = {
 	}
@@ -110,6 +112,7 @@ d_barcelona = {
 	1035.5.26 = {
 	}
 	1035.10.18 = {
+		de_jure_liege = k_aragon
 	}
 	1076.5.26 = {
 	}
@@ -680,14 +683,18 @@ c_tarragona = {
 }
 d_aragon = {
 	711.1.1 = {
+		de_jure_liege = k_valencia
 		effect = { set_title_name = d_zaragoza }
 	}
 	# Ye olde pre-Zaragoza merge-down history.
 	#799.1.1 = {
+		#liege = k_aquitaine
 	#}
 	#806.1.1 = {
+		#liege = k_aquitaine
 	#}
 	#820.1.1 = {
+		#liege = k_navarra
 	#}
 	#833.1.1 = {
 	#}
@@ -706,6 +713,7 @@ d_aragon = {
 	#999.12.8 = {
 	#}
 	#1035.10.18 = {
+		#de_jure_liege = k_aragon
 	#}
 	771.1.1 = {
 	}
@@ -754,6 +762,7 @@ d_aragon = {
 	1022.1.1 = {
 	}
 	1035.10.18 = {
+		de_jure_liege = k_aragon
 		effect = { reset_title_name = yes }
 	}
 	1036.1.1 = {

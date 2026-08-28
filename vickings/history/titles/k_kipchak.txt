@@ -11,6 +11,7 @@ d_semey = {
 	875.2.8 = {
 	}
 	880.10.2 = {
+		#liege = k_kimek
 	}
 	882.1.30 = {
 	}
@@ -31,6 +32,7 @@ c_semey = {
 	875.2.8 = {
 	}
 	880.10.2 = {
+		#liege = k_kimek
 	}
 	882.1.30 = {
 	}
@@ -146,6 +148,7 @@ c_degelen = {
 	869.12.4 = {
 	}
 	880.10.2 = {
+		#liege = k_kimek
 	}
 	
 	#1066
@@ -166,6 +169,7 @@ c_arkat = {
 	869.12.4 = {
 	}
 	880.10.2 = {
+		#liege = k_kimek
 	}
 	
 	#1066
@@ -186,6 +190,7 @@ c_tekar = {
 	869.12.4 = {
 	}
 	880.10.2 = {
+		#liege = k_kimek
 	}
 	
 	#1066
@@ -207,6 +212,7 @@ c_kalbin = {
 	875.2.8 = {
 	}
 	880.10.2 = {
+		#liege = k_kimek
 	}
 	882.1.30 = {
 	}
@@ -227,6 +233,7 @@ c_sasyk_kul = {
 	875.2.8 = {
 	}
 	880.10.2 = {
+		#liege = k_kimek
 	}
 	882.1.30 = {
 	}
@@ -244,6 +251,7 @@ d_kentarlau = {
 		government = nomad_government	#Ahistorical, just for ease of bookmarks.
 	}
 	#1060.7.19 = {
+	#	liege = k_cuman
 	#}
 	#1066
 	

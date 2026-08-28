@@ -684,6 +684,7 @@ d_anatolia = {
 				}
 			}
 		}
+		de_jure_liege = k_rum
 	}
 }
 c_lycaonia = {
@@ -1142,6 +1143,7 @@ d_cappadocia = {
 	1077.1.1 = {
 	}
 	1178.1.1 = {
+		de_jure_liege = k_rum
 	}
 }
 c_cappadocia = {

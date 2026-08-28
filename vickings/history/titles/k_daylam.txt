@@ -501,6 +501,7 @@ c_dihistan = {
 	}
 	
 	867.1.1 = {
+		#liege = d_khuttal
 	}
 	
 	1066.1.1 = {
@@ -1068,6 +1069,7 @@ c_shirvan = {
 	1178.1.1 = { change_development_level = 24 }
 	
 	#635.1.1 = {
+	#	liege = "d_albania"
 	#}
 	635.1.1 = {
 	}
@@ -1160,6 +1162,7 @@ c_shaki = {
 	1178.1.1 = { change_development_level = 24 }
 	
 	#635.1.1 = {
+	#	liege = "d_albania"
 	#}
 	635.1.1 = {
 	}
@@ -1322,6 +1325,7 @@ c_aran = {
 }
 c_mugan = {
 	#635.1.1 = {
+	#	liege = "d_albania"
 	#}
 	635.1.1 = {
 	}

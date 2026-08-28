@@ -906,12 +906,14 @@ d_akaltay = {
 	1130.1.1 = {
 	}
 	1131.1.1 = {
+		de_jure_liege = k_naiman
 	}
 }
 d_altay = {
 	1130.1.1 = {
 	}
 	1131.1.1 = {
+		de_jure_liege = k_naiman
 	}
 }
 c_narym_DZU = {
@@ -1093,6 +1095,7 @@ d_naiman_gobi = {
 	1125.3.26 = {
 	}
 	1130.1.1 = {
+		de_jure_liege = k_naiman
 	}
 	1131.1.1 = {
 	}

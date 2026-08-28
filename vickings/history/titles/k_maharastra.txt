@@ -354,6 +354,7 @@ c_mahur = { #Sirpur
 	}
 	1242.1.1 = {
 	}
+	1250.1.1 = { liege = k_maharastra }
 	1282.1.1 = {
 	}
 	1323.1.1 = {
@@ -511,6 +512,7 @@ c_canda = {
 	}
 	1242.1.1 = {
 	}
+	1250.1.1 = { liege = k_maharastra }
 	1282.1.1 = {
 	}
 	1323.1.1 = {
@@ -557,6 +559,7 @@ c_vairagara = {
 	}
 	1242.1.1 = {
 	}
+	1250.1.1 = { liege = k_maharastra }
 	1282.1.1 = {
 	}
 	1323.1.1 = {
@@ -1224,6 +1227,7 @@ c_naldurg = {
 	
 	#Kalachuri Mahasamantas
 	1046.1.1 = {
+		#liege = d_rattapadi
 	}
 	1078.1.1 = {
 	}

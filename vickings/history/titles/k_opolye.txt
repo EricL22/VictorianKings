@@ -143,6 +143,7 @@ c_vladimir = {
 	1059.5.15 = {
 	}
 #	1066.1.1 = {
+#		liege = 0	#Ahistorical, but for balance purpose
 #	}
 	
 	#1069.4.15 our date for Fragmentation of Kievan Rus'
@@ -204,6 +205,7 @@ c_suzdal = {
 	1063.2.2 = {
 	}
 	#1066.1.1 = {
+	#	liege = 0	#Ahistorical, but for balance purpose
 	#}
 	
 	#1069.4.15 our date for Fragmentation of Kievan Rus'
@@ -321,6 +323,7 @@ c_moskva = {
 	1059.5.15 = {
 	}
 	#1066.1.1 = {
+	#	liege = 0	#Ahistorical, but for balance purpose
 	#}
 	
 	#1069.4.15 our date for Fragmentation of Kievan Rus'

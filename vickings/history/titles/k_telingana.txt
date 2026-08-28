@@ -45,6 +45,7 @@ d_warangal = {
 
 	#Kakatiyas
 	996.1.1 = {
+		#liege = k_karnata
 	}
 	1052.1.1 = {
 	}
@@ -316,6 +317,7 @@ c_pannagallu = {
 	860.1.1 = {
 	}
 	1040.1.1 = {
+		#liege = d_racakonda
 	}
 	1065.1.1 = {
 	}
