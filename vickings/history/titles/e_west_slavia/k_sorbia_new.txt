@@ -110,11 +110,23 @@ c_wolkenstein = {
 }
 c_osterland = {
 	1815.6.9 = {
-		holder = 9000013
+		holder = hohenzollern_16	# Frederick William III
 	}
-	1815.6.21 = {
-		holder = 6480010
-		liege = k_prussia
+#	1815.6.21 = {
+#		holder = 6480010
+#		liege = k_prussia
+#	}
+	1840.6.7 = {
+		holder = hohenzollern_17	# Frederick William IV
+	}
+	1871.1.18 = {
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
 	}
 }
 c_naumburg = {
@@ -225,56 +237,146 @@ d_lausitz = {
 	1763.12.17 = {	# Saxony
 		holder = wettin_1	# Frederick Augustus I
 	}
-	1815.4.30 = {	# Prussia
-		holder = 6480014
-		liege = k_prussia
+#	1815.4.30 = {	# Prussia
+#		holder = 6480014
+#		liege = k_prussia
+#	}
+#	1824.1.1 = {
+#		holder = 6480015
+#	}
+	1815.4.30 = {
+		holder = hohenzollern_16	# Frederick William III
 	}
-	1824.1.1 = {
-		holder = 6480015
+	1840.6.7 = {
+		holder = hohenzollern_17	# Frederick William IV
+	}
+	1871.1.18 = {
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
 	}
 }
 c_juterbog = {
 	1763.12.17 = {	# Saxony
 		holder = wettin_1	# Frederick Augustus I
 	}
-	1815.4.30 = {	# Prussia
-		holder = 6480014
+#	1815.4.30 = {	# Prussia
+#		holder = 6480014
+#	}
+#	1824.1.1 = {
+#		holder = 6480015
+#	}
+	1815.4.30 = {
+		holder = hohenzollern_16	# Frederick William III
 	}
-	1824.1.1 = {
-		holder = 6480015
+	1840.6.7 = {
+		holder = hohenzollern_17	# Frederick William IV
+	}
+	1871.1.18 = {
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
 	}
 }
 c_wittenberg = {
+#	1815.6.21 = {
+#		holder = 6480010
+#		liege = k_prussia
+#	}
 	1815.6.21 = {
-		holder = 6480010
-		liege = k_prussia
+		holder = hohenzollern_16	# Frederick William III
+	}
+	1840.6.7 = {
+		holder = hohenzollern_17	# Frederick William IV
+	}
+	1871.1.18 = {
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
 	}
 }
 c_brene = {
+#	1815.6.21 = {
+#		holder = 6480010
+#		liege = k_prussia
+#	}
 	1815.6.21 = {
-		holder = 6480010
-		liege = k_prussia
+		holder = hohenzollern_16	# Frederick William III
+	}
+	1840.6.7 = {
+		holder = hohenzollern_17	# Frederick William IV
+	}
+	1871.1.18 = {
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
 	}
 }
 c_spreewald = {
 	1763.12.17 = {	# Saxony
 		holder = wettin_1	# Frederick Augustus I
 	}
-	1815.4.30 = {	# Prussia
-		holder = 6480014
+#	1815.4.30 = {	# Prussia
+#		holder = 6480014
+#	}
+#	1824.1.1 = {
+#		holder = 6480015
+#	}
+	1815.4.30 = {
+		holder = hohenzollern_16	# Frederick William III
 	}
-	1824.1.1 = {
-		holder = 6480015
+	1840.6.7 = {
+		holder = hohenzollern_17	# Frederick William IV
+	}
+	1871.1.18 = {
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
 	}
 }
 c_naumberg = {
 	1763.12.17 = {	# Saxony
 		holder = wettin_1	# Frederick Augustus I
 	}
-	1815.4.30 = {	# Prussia
-		holder = 6480014
+#	1815.4.30 = {	# Prussia
+#		holder = 6480014
+#	}
+#	1824.1.1 = {
+#		holder = 6480015
+#	}
+	1815.4.30 = {
+		holder = hohenzollern_16	# Frederick William III
 	}
-	1824.1.1 = {
-		holder = 6480015
+	1840.6.7 = {
+		holder = hohenzollern_17	# Frederick William IV
+	}
+	1871.1.18 = {
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
 	}
 }

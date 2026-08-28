@@ -163,24 +163,54 @@ c_aachen = {
 	1804.5.18 = {	# France
 		holder = bonaparte_2	# Napoleon
 	}
-	1814.3.11 = {	# Prussia
-		holder = 6480001
-		liege = k_prussia
+#	1814.3.11 = {	# Prussia
+#		holder = 6480001
+#		liege = k_prussia
+#	}
+#	1834.1.1 = {
+#		holder = 6480011
+#	}
+	1814.3.11 = {
+		holder = hohenzollern_16	# Frederick William III
 	}
-	1834.1.1 = {
-		holder = 6480011
+	1840.6.7 = {
+		holder = hohenzollern_17	# Frederick William IV
+	}
+	1871.1.18 = {
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
 	}
 }
 c_cleves = {
 	1804.5.18 = {	# France
 		holder = bonaparte_2	# Napoleon
 	}
-	1815.1.1 = {	# Prussia
-		holder = 6480000
-		liege = k_prussia
+#	1815.1.1 = {	# Prussia
+#		holder = 6480000
+#		liege = k_prussia
+#	}
+#	1834.1.1 = {
+#		holder = 6480011
+#	}
+	1815.1.1 = {
+		holder = hohenzollern_16	# Frederick William III
 	}
-	1834.1.1 = {
-		holder = 6480011
+	1840.6.7 = {
+		holder = hohenzollern_17	# Frederick William IV
+	}
+	1871.1.18 = {
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
 	}
 }
 c_maastricht = {
@@ -226,12 +256,27 @@ c_trier = {
 	1804.5.18 = {	# France
 		holder = bonaparte_2	# Napoleon
 	}
-	1814.3.11 = {	# Prussia
-		holder = 6480001
-		liege = k_prussia
+#	1814.3.11 = {	# Prussia
+#		holder = 6480001
+#		liege = k_prussia
+#	}
+#	1834.1.1 = {
+#		holder = 6480011
+#	}
+	1814.3.11 = {
+		holder = hohenzollern_16	# Frederick William III
 	}
-	1834.1.1 = {
-		holder = 6480011
+	1840.6.7 = {
+		holder = hohenzollern_17	# Frederick William IV
+	}
+	1871.1.18 = {
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
 	}
 }
 c_nancy = {
@@ -282,10 +327,25 @@ c_saarbrucken = {
 		holder = bonaparte_2	# Napoleon
 	}
 	1814.4.11 = {	# Bavaria
-		holder = 9000018
+		holder = wittelsbach_0	# Maximilian I Joseph
 	}
 	1825.10.13 = {
-		holder = 8000016
+		holder = wittelsbach_1	# Ludwig I
+	}
+	1848.3.20 = {
+		holder = wittelsbach_2	# Maximilian II
+	}
+	1864.3.10 = {
+		holder = wittelsbach_3	# Ludwig II
+	}
+	1871.1.18 = {
+		liege = e_germany
+	}
+	1886.6.13 = {
+		holder = wittelsbach_4	# Otto
+	}
+	1913.11.5 = {
+		holder = wittelsbach_7	# Ludwig III
 	}
 }
 c_puttlingen = {
@@ -337,20 +397,50 @@ c_cologne = {
 	1804.5.18 = {	# France
 		holder = bonaparte_2	# Napoleon
 	}
-	1814.3.11 = {	# Prussia
-		holder = 6480001
-		liege = k_prussia
+#	1814.3.11 = {	# Prussia
+#		holder = 6480001
+#		liege = k_prussia
+#	}
+#	1834.1.1 = {
+#		holder = 6480011
+#	}
+	1814.3.11 = {
+		holder = hohenzollern_16	# Frederick William III
 	}
-	1834.1.1 = {
-		holder = 6480011
+	1840.6.7 = {
+		holder = hohenzollern_17	# Frederick William IV
+	}
+	1871.1.18 = {
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
 	}
 }
 c_dortmund = {
 	1804.5.18 = {	# France
 		holder = bonaparte_2	# Napoleon
 	}
-	1814.4.11 = {	# Prussia
-		holder = 6480005
+#	1814.4.11 = {	# Prussia
+#		holder = 6480005
+#	}
+	1814.4.11 = {
+		holder = hohenzollern_16	# Frederick William III
+	}
+	1840.6.7 = {
+		holder = hohenzollern_17	# Frederick William IV
+	}
+	1871.1.18 = {
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
 	}
 }
 c_arnsberg = {
@@ -361,10 +451,22 @@ c_arnsberg = {
 		holder = bonaparte_8	# Napoleon-Louis
 	}
 	1813.12.1 = {	# Prussia
-		holder = 9000013
+		holder = hohenzollern_16	# Frederick William III
 	}
-	1815.6.9 = {
-		holder = 6480005
+#	1815.6.9 = {
+#		holder = 6480005
+#	}
+	1840.6.7 = {
+		holder = hohenzollern_17	# Frederick William IV
+	}
+	1871.1.18 = {
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
 	}
 }
 c_mark = {
@@ -374,20 +476,50 @@ c_mark = {
 	1809.3.3 = {	# Berg
 		holder = bonaparte_8	# Napoleon-Louis
 	}
-	1813.12.1 = {	# Prussia
-		holder = 6480005
+#	1813.12.1 = {	# Prussia
+#		holder = 6480005
+#	}
+	1813.12.1 = {
+		holder = hohenzollern_16	# Frederick William III
+	}
+	1840.6.7 = {
+		holder = hohenzollern_17	# Frederick William IV
+	}
+	1871.1.18 = {
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
 	}
 }
 c_koblenz = {
 	1804.5.18 = {	# France
 		holder = bonaparte_2	# Napoleon
 	}
-	1814.3.11 = {	# Prussia
-		holder = 6480001
-		liege = k_prussia
+#	1814.3.11 = {	# Prussia
+#		holder = 6480001
+#		liege = k_prussia
+#	}
+#	1834.1.1 = {
+#		holder = 6480011
+#	}
+	1814.3.11 = {
+		holder = hohenzollern_16	# Frederick William III
 	}
-	1834.1.1 = {
-		holder = 6480011
+	1840.6.7 = {
+		holder = hohenzollern_17	# Frederick William IV
+	}
+	1871.1.18 = {
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
 	}
 }
 c_bergh = {
@@ -398,14 +530,26 @@ c_bergh = {
 		holder = bonaparte_8	# Napoleon-Louis
 	}
 	1813.12.1 = {	# Prussia
-		holder = 9000013
+		holder = hohenzollern_16	# Frederick William III
 	}
-	1815.1.1 = {
-		holder = 6480000
-		liege = k_prussia
+#	1815.1.1 = {
+#		holder = 6480000
+#		liege = k_prussia
+#	}
+#	1834.1.1 = {
+#		holder = 6480011
+#	}
+	1840.6.7 = {
+		holder = hohenzollern_17	# Frederick William IV
 	}
-	1834.1.1 = {
-		holder = 6480011
+	1871.1.18 = {
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
 	}
 }
 c_sayn = {
@@ -415,8 +559,23 @@ c_sayn = {
 	1809.3.3 = {	# Berg
 		holder = bonaparte_8	# Napoleon-Louis
 	}
-	1813.12.1 = {	# Prussia
-		holder = 6480005
+#	1813.12.1 = {	# Prussia
+#		holder = 6480005
+#	}
+	1813.12.1 = {
+		holder = hohenzollern_16	# Frederick William III
+	}
+	1840.6.7 = {
+		holder = hohenzollern_17	# Frederick William IV
+	}
+	1871.1.18 = {
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
 	}
 }
 d_bar = {

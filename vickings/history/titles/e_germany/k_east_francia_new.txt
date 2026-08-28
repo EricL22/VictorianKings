@@ -772,11 +772,23 @@ c_halberstadt = {
 		holder = bonaparte_9	# Jerome Napoleon I
 	}
 	1815.6.9 = {	# Prussia
-		holder = 9000013
+		holder = hohenzollern_16	# Frederick William III
 	}
-	1815.6.21 = {
-		holder = 6480010
-		liege = k_prussia
+#	1815.6.21 = {
+#		holder = 6480010
+#		liege = k_prussia
+#	}
+	1840.6.7 = {
+		holder = hohenzollern_17	# Frederick William IV
+	}
+	1871.1.18 = {
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
 	}
 }
 c_magdeburg = {
@@ -784,11 +796,23 @@ c_magdeburg = {
 		holder = bonaparte_9	# Jerome Napoleon I
 	}
 	1815.6.9 = {	# Prussia
-		holder = 9000013
+		holder = hohenzollern_16	# Frederick William III
 	}
-	1815.6.21 = {
-		holder = 6480010
-		liege = k_prussia
+#	1815.6.21 = {
+#		holder = 6480010
+#		liege = k_prussia
+#	}
+	1840.6.7 = {
+		holder = hohenzollern_17	# Frederick William IV
+	}
+	1871.1.18 = {
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
 	}
 }
 c_blankenburg = {
@@ -824,11 +848,23 @@ c_mersenburg = {
 		holder = wettin_1	# Frederick Augustus I
 	}
 	1815.6.9 = {	# Prussia
-		holder = 9000013
+		holder = hohenzollern_16	# Frederick William III
 	}
-	1815.6.21 = {
-		holder = 6480010
-		liege = k_prussia
+#	1815.6.21 = {
+#		holder = 6480010
+#		liege = k_prussia
+#	}
+	1840.6.7 = {
+		holder = hohenzollern_17	# Frederick William IV
+	}
+	1871.1.18 = {
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
 	}
 }
 d_thuringia = {

@@ -176,10 +176,25 @@ d_westfalen = {
 	1814.10.12 = {
 		de_jure_liege = k_hanover
 	}
+#	1815.6.9 = {
+#		holder = 6480005
+#		liege = k_prussia
+#		government = feudal_government
+#	}
 	1815.6.9 = {
-		holder = 6480005
-		liege = k_prussia
-		government = feudal_government
+		holder = hohenzollern_16	# Frederick William III
+	}
+	1840.6.7 = {
+		holder = hohenzollern_17	# Frederick William IV
+	}
+	1871.1.18 = {
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
 	}
 }
 c_osnabruck = {
@@ -226,24 +241,69 @@ c_munster = {
 	1804.5.18 = {	# France
 		holder = bonaparte_2
 	}
-	1814.4.11 = {	# Prussia
-		holder = 6480005
+#	1814.4.11 = {	# Prussia
+#		holder = 6480005
+#	}
+	1814.4.11 = {
+		holder = hohenzollern_16	# Frederick William III
+	}
+	1840.6.7 = {
+		holder = hohenzollern_17	# Frederick William IV
+	}
+	1871.1.18 = {
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
 	}
 }
 c_waldeck = {
 	1807.7.8 = {	# Westphalia
 		holder = bonaparte_9	# Jerome Napoleon I
 	}
-	1815.6.9 = {	# Prussia
-		holder = 6480005
+#	1815.6.9 = {	# Prussia
+#		holder = 6480005
+#	}
+	1815.6.9 = {
+		holder = hohenzollern_16	# Frederick William III
+	}
+	1840.6.7 = {
+		holder = hohenzollern_17	# Frederick William IV
+	}
+	1871.1.18 = {
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
 	}
 }
 c_paderborn = {
 	1807.7.8 = {	# Westphalia
 		holder = bonaparte_9	# Jerome Napoleon I
 	}
-	1815.6.9 = {	# Prussia
-		holder = 6480005
+#	1815.6.9 = {	# Prussia
+#		holder = 6480005
+#	}
+	1815.6.9 = {
+		holder = hohenzollern_16	# Frederick William III
+	}
+	1840.6.7 = {
+		holder = hohenzollern_17	# Frederick William IV
+	}
+	1871.1.18 = {
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
 	}
 }
 d_ostfalen = {
@@ -333,11 +393,23 @@ c_stendal = {
 		holder = bonaparte_9	# Jerome Napoleon I
 	}
 	1815.6.9 = {	# Prussia
-		holder = 9000013
+		holder = hohenzollern_16	# Frederick William III
 	}
-	1815.6.21 = {
-		holder = 6480010
-		liege = k_prussia
+#	1815.6.21 = {
+#		holder = 6480010
+#		liege = k_prussia
+#	}
+	1840.6.7 = {
+		holder = hohenzollern_17	# Frederick William IV
+	}
+	1871.1.18 = {
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
 	}
 }
 d_holstein = {

@@ -1,0 +1,495 @@
+﻿# Hohenzollern
+hohenzollern_0 = {
+	name = "Friedrich"	# I of Brandenburg
+	dynasty = 12476
+	religion = "catholic"
+	culture = swabian
+	father = 487031
+	1371.9.21 = {
+		birth = yes
+	}
+	1440.9.20 = {
+		death = yes
+	}
+}
+
+hohenzollern_1 = {
+	name = "Friedrich"	# II of Brandenburg
+	dynasty = 12476
+	religion = "catholic"
+	culture = franconian
+	father = hohenzollern_0
+	1413.11.19 = {
+		birth = yes
+	}
+	1471.2.10 = {
+		death = yes
+	}
+}
+
+hohenzollern_2 = {
+	name = "Albrecht"	# III of Brandenburg
+	dynasty = 12476
+	religion = "catholic"
+	culture = franconian
+	father = hohenzollern_0
+	1414.11.9 = {
+		birth = yes
+	}
+	1486.3.11 = {
+		death = yes
+	}
+}
+
+hohenzollern_3 = {
+	name = "Johann"	# II of Brandenburg
+	dynasty = 12476
+	religion = "catholic"
+	culture = franconian
+	father = hohenzollern_2
+	1455.8.2 = {
+		birth = yes
+	}
+	1499.1.9 = {
+		death = yes
+	}
+}
+
+hohenzollern_4 = {
+	name = "Joachim"	# I of Brandenburg
+	dynasty = 12476
+	religion = "catholic"
+	culture = franconian
+	father = hohenzollern_3
+	1484.2.21 = {
+		birth = yes
+	}
+	1535.7.11 = {
+		death = yes
+	}
+}
+
+hohenzollern_5 = {
+	name = "Joachim"	# II of Brandenburg
+	dynasty = 12476
+	religion = "catholic"
+	culture = franconian
+	father = hohenzollern_4
+	1505.1.13 = {
+		birth = yes
+	}
+	1539.11.1 = {
+		religion = protestant
+	}
+	1571.1.3 = {
+		death = yes
+	}
+}
+
+hohenzollern_6 = {
+	name = "Johann Georg"	# of Brandenburg
+	dynasty = 12476
+	religion = protestant
+	culture = franconian
+	father = hohenzollern_5
+	1525.9.11 = {
+		birth = yes
+	}
+	1598.1.8 = {
+		death = yes
+	}
+}
+
+hohenzollern_7 = {
+	name = "Joachim-Friedrich"	# of Brandenburg
+	dynasty = 12476
+	religion = protestant
+	culture = franconian
+	father = hohenzollern_6
+	1546.1.27 = {
+		birth = yes
+	}
+	1608.7.18 = {
+		death = yes
+	}
+}
+
+hohenzollern_8 = {
+	name = "Johann Sigismund"	# of Brandenburg-Prussia
+	dynasty = 12476
+	religion = protestant
+	culture = franconian
+	father = hohenzollern_7
+	1572.11.8 = {
+		birth = yes
+	}
+	1613.12.25 = {
+		religion = reformed
+	}
+	1619.12.23 = {
+		death = yes
+	}
+}
+
+hohenzollern_9 = {
+	name = "Georg Wilhelm"	# of Brandenburg-Prussia
+	dynasty = 12476
+	religion = reformed
+	culture = german
+	father = hohenzollern_8
+	1595.11.13 = {
+		birth = yes
+	}
+	1640.12.1 = {
+		death = yes
+	}
+}
+
+hohenzollern_10 = {
+	name = "Friedrich-Wilhelm"	# of Brandenburg-Prussia
+	dynasty = 12476
+	religion = reformed
+	culture = german
+	father = hohenzollern_9
+	1620.2.16 = {
+		birth = yes
+	}
+	1688.1.1 = {
+		give_nickname = nick_the_great
+	}
+	1688.4.29 = {
+		death = yes
+	}
+}
+
+hohenzollern_11 = {
+	name = "Friedrich"	# I of Prussia
+	dynasty = 12476
+	religion = reformed
+	culture = german
+	father = hohenzollern_10
+	1657.7.11 = {
+		birth = yes
+	}
+	1713.2.25 = {
+		death = yes
+	}
+}
+
+hohenzollern_12 = {
+	name = "Friedrich-Wilhelm"	# I of Prussia
+	dynasty = 12476
+	religion = reformed
+	culture = german
+	father = hohenzollern_11
+	1688.8.14 = {
+		birth = yes
+	}
+	1740.5.31 = {
+		death = yes
+	}
+}
+
+hohenzollern_13 = {
+	name = "Friedrich"	# II of Prussia
+	dynasty = 12476
+	religion = reformed
+	culture = german
+	father = hohenzollern_12
+	1712.1.24 = {
+		birth = yes
+	}
+	1773.1.1 = {
+		give_nickname = nick_the_great
+	}
+	1786.8.17 = {
+		death = yes
+	}
+}
+
+hohenzollern_14 = {
+	name = "August Wilhelm"	# Prince of Prussia
+	dynasty = 12476
+	religion = reformed
+	culture = german
+	father = hohenzollern_12
+	1722.8.9 = {
+		birth = yes
+	}
+	1758.6.12 = {
+		death = yes
+	}
+}
+
+hohenzollern_15 = {
+	name = "Friedrich-Wilhelm"	# II of Prussia
+	dynasty = 12476
+	religion = reformed
+	culture = german
+	father = hohenzollern_14
+	1744.9.25 = {
+		birth = yes
+	}
+	1797.11.16 = {
+		death = yes
+	}
+}
+
+hohenzollern_16 = {
+	name = "Friedrich-Wilhelm"	# III of Prussia
+	dynasty = 12476
+	religion = reformed
+	culture = german
+	sexuality = heterosexual
+	father = hohenzollern_15
+	trait = shy
+	trait = fickle
+	trait = education_martial_2
+	#1525.4.10 = {
+	#	set_realm_capital = title:c_konigsberg
+	#}
+	1770.8.3 = {
+		birth = yes
+	}
+	1797.11.16 = {
+		add_realm_law_skip_effects = crown_authority_1
+		add_realm_law_skip_effects = male_only_law
+	}
+	1797.12.24 = {
+		add_spouse = 9100050	# Louise of Mecklenburg-Strelitz
+	}
+	1818.1.1 = {
+		religion = protestant
+	}
+	1836.1.1 = {
+		effect = {
+			spawn_army = {
+				name = "I. Korps"
+				men_at_arms = {
+					type = light_footmen
+					stacks = 180
+				}
+				men_at_arms = {
+					type = bombard
+					stacks = 60
+				}
+				location = province:2906
+				origin = province:2906
+				inheritable = yes
+			}
+		}
+	}
+	1840.6.7 = {
+		death = yes
+	}
+}
+
+hohenzollern_17 = {
+	name = "Friedrich-Wilhelm"	# IV of Prussia
+	dynasty = 12476
+	religion = protestant
+	culture = german
+	father = hohenzollern_16
+	mother = 9100050
+	1795.10.15 = {
+		birth = yes
+	}
+	1861.1.2 = {
+		death = yes
+	}
+}
+
+hohenzollern_18 = {
+	name = "Wilhelm"	# I of Germany
+	dynasty = 12476
+	religion = protestant
+	culture = german
+	father = hohenzollern_16
+	mother = 9100050
+	1797.3.22 = {
+		birth = yes
+	}
+	1888.3.9 = {
+		death = yes
+	}
+}
+
+hohenzollern_19 = {
+	name = "Friedrich"	# III of Germany
+	dynasty = 12476
+	religion = protestant
+	culture = german
+	father = hohenzollern_18
+	1831.10.18 = {
+		birth = yes
+	}
+	1888.6.15 = {
+		death = yes
+	}
+}
+
+hohenzollern_20 = {
+	name = "Wilhelm"	# II of Germany
+	dynasty = 12476
+	religion = protestant
+	culture = german
+	father = hohenzollern_19
+	1859.1.27 = {
+		birth = yes
+	}
+	1941.6.4 = {
+		death = yes
+	}
+}
+
+hohenzollern_21 = {
+	name = "Karl"
+	dynasty = 12476
+	religion = protestant
+	culture = german
+	father = hohenzollern_16
+	mother = 9100050
+	trait = education_martial_3
+	1801.6.29 = {
+		birth = yes
+	}
+	1883.1.21 = {
+		death = yes
+	}
+}
+
+9200013 = {
+	name = "Charlotte"
+	dynasty = 12476
+	religion = reformed
+	culture = german
+	father = hohenzollern_16
+	mother = 9100050
+	female = yes
+	1798.7.13 = {
+		birth = yes
+	}
+	1817.7.13 = {
+		name = "Alexandra"
+		religion = orthodox
+		culture = russian
+	}
+	1860.11.1 = {
+		death = yes
+	}
+}
+
+
+## Catholic Swabian branch
+7000026 = {
+	name = "Friedrich"	# X of Hohenzollern
+	dynasty = 12476
+	religion = catholic
+	culture = swabian
+	father = 462350
+	1360.1.1 = {
+		birth = yes
+	}
+	1412.6.21 = {
+		death = yes
+	}
+}
+
+7000027 = {
+	name = "Friedrich"	# XI of Hohenzollern
+	dynasty = 12476
+	religion = catholic
+	culture = swabian
+	father = 462354
+	1360.1.1 = {
+		birth = yes
+	}
+	1401.11.26 = {
+		death = yes
+	}
+}
+
+7000028 = {
+	name = "Friedrich"	# XII of Hohenzollern
+	dynasty = 12476
+	religion = catholic
+	culture = swabian
+	father = 7000027
+	1400.1.1 = {
+		birth = yes
+	}
+	1443.1.1 = {
+		death = yes
+	}
+}
+
+7000029 = {
+	name = "Eitel-Friedrich"	# I of Hohenzollern
+	dynasty = 12476
+	religion = catholic
+	culture = swabian
+	father = 7000027
+	1404.1.1 = {
+		birth = yes
+	}
+	1439.1.1 = {
+		death = yes
+	}
+}
+
+7000030 = {
+	name = "Jobst-Nikolaus"	# I of Hohenzollern
+	dynasty = 12476
+	religion = catholic
+	culture = swabian
+	father = 7000029
+	1433.1.1 = {
+		birth = yes
+	}
+	1488.2.9 = {
+		death = yes
+	}
+}
+
+7000031 = {
+	name = "Eitel-Friedrich"	# II of Hohenzollern
+	dynasty = 12476
+	religion = catholic
+	culture = swabian
+	father = 7000030
+	1452.1.1 = {
+		birth = yes
+	}
+	1512.6.18 = {
+		death = yes
+	}
+}
+
+7000032 = {
+	name = "Eitel-Friedrich"	# III of Hohenzollern
+	dynasty = 12476
+	religion = catholic
+	culture = swabian
+	father = 7000031
+	1494.1.1 = {
+		birth = yes
+	}
+	1525.1.15 = {
+		death = yes
+	}
+}
+
+7000033 = {
+	name = "Karl"	# I of Hohenzollern
+	dynasty = 12476
+	religion = catholic
+	culture = swabian
+	father = 7000032
+	1516.1.1 = {
+		birth = yes
+	}
+	1576.3.18 = {
+		death = yes
+	}
+}
+####################

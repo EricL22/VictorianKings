@@ -1,0 +1,210 @@
+﻿## Mecklenburg-Schwerin
+mecklenburg_0 = {
+	name = "Adolf Friedrich"	# I of Mecklenburg
+	dynasty = 101893
+	religion = protestant
+	culture = german
+	1588.12.15 = {
+		birth = yes
+	}
+	1658.2.27 = {
+		death = yes
+	}
+}
+
+mecklenburg_1 = {
+	name = "Christian Ludwig"	# I of Mecklenburg
+	dynasty = 101893
+	religion = protestant
+	culture = german
+	father = mecklenburg_0
+	1623.12.1 = {
+		birth = yes
+	}
+	1692.6.21 = {
+		death = yes
+	}
+}
+
+mecklenburg_2 = {
+	name = "Friedrich"	# Duke of Mecklenburg-Grabow
+	dynasty = 101893
+	religion = protestant
+	culture = german
+	father = mecklenburg_0
+	1638.2.13 = {
+		birth = yes
+	}
+	1688.4.28 = {
+		death = yes
+	}
+}
+
+mecklenburg_3 = {
+	name = "Friedrich Wilhelm"	# of Mecklenburg
+	dynasty = 101893
+	religion = protestant
+	culture = german
+	father = mecklenburg_2
+	1675.3.28 = {
+		birth = yes
+	}
+	1713.7.31 = {
+		death = yes
+	}
+}
+
+mecklenburg_4 = {
+	name = "Karl Leopold"	# of Mecklenburg
+	dynasty = 101893
+	religion = protestant
+	culture = german
+	father = mecklenburg_2
+	1678.11.26 = {
+		birth = yes
+	}
+	1747.11.28 = {
+		death = yes
+	}
+}
+
+mecklenburg_5 = {
+	name = "Christian Ludwig"	# II of Mecklenburg
+	dynasty = 101893
+	religion = protestant
+	culture = german
+	father = mecklenburg_2
+	1683.5.15 = {
+		birth = yes
+	}
+	1756.5.30 = {
+		death = yes
+	}
+}
+
+mecklenburg_6 = {
+	name = "Friedrich"	# II of Mecklenburg
+	dynasty = 101893
+	religion = protestant
+	culture = german
+	father = mecklenburg_5
+	1717.11.9 = {
+		birth = yes
+	}
+	1785.4.21 = {
+		death = yes
+	}
+}
+
+mecklenburg_7 = {
+	name = "Ludwig"	# prince of Mecklenburg
+	dynasty = 101893
+	religion = protestant
+	culture = german
+	father = mecklenburg_5
+	1725.8.6 = {
+		birth = yes
+	}
+	1778.9.12 = {
+		death = yes
+	}
+}
+
+mecklenburg_8 = {
+	name = "Friedrich Franz"	# I of Mecklenburg
+	dynasty = 101893
+	religion = protestant
+	culture = german
+	father = mecklenburg_7
+	1756.12.10 = {
+		birth = yes
+	}
+	1837.2.1 = {
+		death = yes
+	}
+}
+
+mecklenburg_9 = {
+	name = "Friedrich Ludwig"	# prince of Mecklenburg
+	dynasty = 101893
+	religion = protestant
+	culture = german
+	father = mecklenburg_8
+	1778.6.13 = {
+		birth = yes
+	}
+	1819.11.29 = {
+		death = yes
+	}
+}
+
+mecklenburg_10 = {
+	name = "Paul Friedrich"	# of Mecklenburg
+	dynasty = 101893
+	religion = protestant
+	culture = german
+	father = mecklenburg_9
+	1800.9.15 = {
+		birth = yes
+	}
+	1842.3.7 = {
+		death = yes
+	}
+}
+
+mecklenburg_11 = {
+	name = "Friedrich Franz"	# II of Mecklenburg
+	dynasty = 101893
+	religion = protestant
+	culture = german
+	father = mecklenburg_10
+	1823.2.28 = {
+		birth = yes
+	}
+	1883.4.15 = {
+		death = yes
+	}
+}
+
+mecklenburg_12 = {
+	name = "Friedrich Franz"	# III of Mecklenburg
+	dynasty = 101893
+	religion = protestant
+	culture = german
+	father = mecklenburg_11
+	1851.3.19 = {
+		birth = yes
+	}
+	1897.4.10 = {
+		death = yes
+	}
+}
+
+mecklenburg_13 = {
+	name = "Friedrich Franz"	# IV of Mecklenburg
+	dynasty = 101893
+	religion = protestant
+	culture = german
+	father = mecklenburg_12
+	1882.4.9 = {
+		birth = yes
+	}
+	1945.11.17 = {
+		death = yes
+	}
+}
+
+## Mecklenburg-Strelitz
+9100050 = {
+	name = "Luise"
+	dynasty = 101893
+	religion = protestant
+	culture = german
+	female = yes
+	1776.3.10 = {
+		birth = yes
+	}
+	1810.7.19 = {
+		death = yes
+	}
+}

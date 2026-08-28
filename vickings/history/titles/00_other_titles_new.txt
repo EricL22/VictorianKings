@@ -140,3 +140,15 @@ k_switzerland = {
 		holder = 6510022
 	}
 }
+
+k_austria = {
+	1790.9.30 = {
+		holder = 9177208
+	}
+	1792.3.1 = {
+		holder = 9000012
+	}
+	1804.8.11 = {
+		de_jure_liege = e_austria
+	}
+}

@@ -154,6 +154,39 @@ k_wurttemberg = {
 	}
 }
 
+k_prussia = {
+	1701.1.18 = {
+		holder = hohenzollern_11	# Frederick I
+	}
+	1713.2.25 = {
+		holder = hohenzollern_12	# Frederick William I
+	}
+	1740.5.31 = {
+		holder = hohenzollern_13	# Frederick II
+	}
+	1786.8.17 = {
+		holder = hohenzollern_15	# Frederick William II
+	}
+	1797.11.16 = {
+		holder = hohenzollern_16	# Frederick William III
+	}
+	1804.8.6 = {
+		de_jure_liege = e_germany
+	}
+	1840.6.7 = {
+		holder = hohenzollern_17	# Frederick William IV
+	}
+	1871.1.18 = {
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
+	}
+}
+
 d_berg = {
 	1809.3.3 = {
 		holder = bonaparte_8	# Napoleon-Louis
