@@ -1,0 +1,144 @@
+﻿wittelsbach_0 = {
+	name = "Maximilian Joseph"	# of Bavaria
+	dynasty_house = house_wittelsbach
+	religion = catholic
+	culture = bavarian
+	1756.5.27 = {
+		birth = yes
+	}
+	1825.10.13 = {
+		death = yes
+	}
+}
+
+wittelsbach_1 = {
+	name = "Ludwig"	# I of Bavaria
+	dynasty_house = house_wittelsbach
+	religion = catholic
+	culture = bavarian
+	father = wittelsbach_0
+	1786.8.25 = {
+		birth = yes
+	}
+	1810.10.12 = {
+		add_spouse = 8000064	# Therese of Saxe-Hildburghausen
+	}
+	1825.10.13 = {
+		effect = {
+			add_realm_law_skip_effects = crown_authority_1
+		}
+	}
+	1868.2.29 = {
+		death = yes
+	}
+}
+
+wittelsbach_2 = {
+	name = "Maximilian"	# II of Bavaria
+	dynasty_house = house_wittelsbach
+	religion = catholic
+	culture = bavarian
+	father = wittelsbach_1
+	mother = 8000064
+	1811.11.28 = {
+		birth = yes
+	}
+	1864.3.10 = {
+		death = yes
+	}
+}
+
+# Der Märchenkönig of Bavaria
+wittelsbach_3 = {
+	name = "Ludwig"	# II of Bavaria
+	dynasty_house = house_wittelsbach
+	religion = catholic
+	culture = bavarian
+	father = wittelsbach_2
+	1845.8.25 = {
+		birth = yes
+	}
+	1886.6.13 = {
+		death = yes
+	}
+}
+
+wittelsbach_4 = {
+	name = "Otto"	# of Bavaria
+	dynasty_house = house_wittelsbach
+	religion = catholic
+	culture = bavarian
+	father = wittelsbach_2
+	1848.4.27 = {
+		birth = yes
+	}
+	1886.6.13 = {
+		trait = incapable
+	}
+	1916.10.11 = {
+		death = yes
+	}
+}
+
+8000017 = {
+	name = "Otto"	# of Greece
+	dynasty_house = house_wittelsbach
+	religion = catholic
+	culture = bavarian
+	father = wittelsbach_1
+	mother = 8000064
+	trait = education_diplomacy_1
+	1815.6.1 = {
+		birth = yes
+	}
+	1832.5.27 = {
+		trait = disinherited	# Prevented from inheriting Bavaria by Congress
+	}
+	1867.7.26 = {
+		death = yes
+	}
+}
+
+wittelsbach_6 = {
+	name = "Luitpold"	# of Bavaria
+	dynasty_house = house_wittelsbach
+	religion = catholic
+	culture = bavarian
+	father = wittelsbach_1
+	mother = 8000064
+	1821.3.12 = {
+		birth = yes
+	}
+	1912.12.12 = {
+		death = yes
+	}
+}
+
+wittelsbach_7 = {
+	name = "Ludwig"	# III of Bavaria
+	dynasty_house = house_wittelsbach
+	religion = catholic
+	culture = bavarian
+	father = wittelsbach_6
+	1845.1.7 = {
+		birth = yes
+	}
+	1921.10.18 = {
+		death = yes
+	}
+}
+
+wittelsbach_8 = {
+	name = "Adalbert"	# of Bavaria
+	dynasty_house = house_wittelsbach
+	religion = catholic
+	culture = bavarian
+	father = wittelsbach_1
+	mother = 8000064
+	1828.7.19 = {
+		birth = yes
+	}
+	1875.9.21 = {
+		death = yes
+	}
+}

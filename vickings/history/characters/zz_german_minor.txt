@@ -1,4 +1,4 @@
-lubeck_0 = {
+﻿lubeck_0 = {
 	name = "Christian Adolph Overbeck"
 	religion = protestant
 	culture = saxon

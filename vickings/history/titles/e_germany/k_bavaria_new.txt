@@ -1,0 +1,682 @@
+k_bavaria = {
+	1806.7.12 = {
+		holder = wittelsbach_0	# Maximilian I Joseph
+		liege = e_cdr
+	}
+	1806.8.6 = {
+		de_jure_liege = e_germany
+	}
+	1825.10.13 = {
+		holder = wittelsbach_1	# Ludwig I
+	}
+	1848.3.20 = {
+		holder = wittelsbach_2	# Maximilian II
+	}
+	1864.3.10 = {
+		holder = wittelsbach_3	# Ludwig II
+	}
+	1871.1.18 = {
+		liege = e_germany
+	}
+	1886.6.13 = {
+		holder = wittelsbach_4	# Otto
+	}
+	1913.11.5 = {
+		holder = wittelsbach_7	# Ludwig III
+	}
+}
+d_bavaria = {
+	1806.7.12 = {
+		holder = wittelsbach_0	# Maximilian I Joseph
+	}
+	1825.10.13 = {
+		holder = wittelsbach_1	# Ludwig I
+	}
+	1848.3.20 = {
+		holder = wittelsbach_2	# Maximilian II
+	}
+	1864.3.10 = {
+		holder = wittelsbach_3	# Ludwig II
+	}
+	1886.6.13 = {
+		holder = wittelsbach_4	# Otto
+	}
+	1913.11.5 = {
+		holder = wittelsbach_7	# Ludwig III
+	}
+}
+c_regensburg = {
+	1806.7.12 = {
+		holder = wittelsbach_0	# Maximilian I Joseph
+	}
+	1825.10.13 = {
+		holder = wittelsbach_1	# Ludwig I
+	}
+	1848.3.20 = {
+		holder = wittelsbach_2	# Maximilian II
+	}
+	1864.3.10 = {
+		holder = wittelsbach_3	# Ludwig II
+	}
+	1886.6.13 = {
+		holder = wittelsbach_4	# Otto
+	}
+	1913.11.5 = {
+		holder = wittelsbach_7	# Ludwig III
+	}
+}
+c_munchen = {
+	1806.7.12 = {
+		holder = wittelsbach_0	# Maximilian I Joseph
+	}
+	1825.10.13 = {
+		holder = wittelsbach_1	# Ludwig I
+	}
+	1848.3.20 = {
+		holder = wittelsbach_2	# Maximilian II
+	}
+	1864.3.10 = {
+		holder = wittelsbach_3	# Ludwig II
+	}
+	1886.6.13 = {
+		holder = wittelsbach_4	# Otto
+	}
+	1913.11.5 = {
+		holder = wittelsbach_7	# Ludwig III
+	}
+}
+c_eschenlohe = {
+	1806.7.12 = {
+		holder = wittelsbach_0	# Maximilian I Joseph
+	}
+	1825.10.13 = {
+		holder = wittelsbach_1	# Ludwig I
+	}
+	1848.3.20 = {
+		holder = wittelsbach_2	# Maximilian II
+	}
+	1864.3.10 = {
+		holder = wittelsbach_3	# Ludwig II
+	}
+	1886.6.13 = {
+		holder = wittelsbach_4	# Otto
+	}
+	1913.11.5 = {
+		holder = wittelsbach_7	# Ludwig III
+	}
+}
+c_rothenburg = {
+	1806.7.12 = {
+		holder = wittelsbach_0	# Maximilian I Joseph
+	}
+	1825.10.13 = {
+		holder = wittelsbach_1	# Ludwig I
+	}
+	1848.3.20 = {
+		holder = wittelsbach_2	# Maximilian II
+	}
+	1864.3.10 = {
+		holder = wittelsbach_3	# Ludwig II
+	}
+	1886.6.13 = {
+		holder = wittelsbach_4	# Otto
+	}
+	1913.11.5 = {
+		holder = wittelsbach_7	# Ludwig III
+	}
+}
+c_geisenhausen = {
+	1806.7.12 = {
+		holder = wittelsbach_0	# Maximilian I Joseph
+	}
+	1825.10.13 = {
+		holder = wittelsbach_1	# Ludwig I
+	}
+	1848.3.20 = {
+		holder = wittelsbach_2	# Maximilian II
+	}
+	1864.3.10 = {
+		holder = wittelsbach_3	# Ludwig II
+	}
+	1886.6.13 = {
+		holder = wittelsbach_4	# Otto
+	}
+	1913.11.5 = {
+		holder = wittelsbach_7	# Ludwig III
+	}
+}
+c_frontenhausen = {
+	1806.7.12 = {
+		holder = wittelsbach_0	# Maximilian I Joseph
+	}
+	1825.10.13 = {
+		holder = wittelsbach_1	# Ludwig I
+	}
+	1848.3.20 = {
+		holder = wittelsbach_2	# Maximilian II
+	}
+	1864.3.10 = {
+		holder = wittelsbach_3	# Ludwig II
+	}
+	1886.6.13 = {
+		holder = wittelsbach_4	# Otto
+	}
+	1913.11.5 = {
+		holder = wittelsbach_7	# Ludwig III
+	}
+}
+c_falkenstein = {
+	1806.7.12 = {
+		holder = wittelsbach_0	# Maximilian I Joseph
+	}
+	1825.10.13 = {
+		holder = wittelsbach_1	# Ludwig I
+	}
+	1848.3.20 = {
+		holder = wittelsbach_2	# Maximilian II
+	}
+	1864.3.10 = {
+		holder = wittelsbach_3	# Ludwig II
+	}
+	1886.6.13 = {
+		holder = wittelsbach_4	# Otto
+	}
+	1913.11.5 = {
+		holder = wittelsbach_7	# Ludwig III
+	}
+}
+c_ingolstadt = {
+	1806.7.12 = {
+		holder = wittelsbach_0	# Maximilian I Joseph
+	}
+	1825.10.13 = {
+		holder = wittelsbach_1	# Ludwig I
+	}
+	1848.3.20 = {
+		holder = wittelsbach_2	# Maximilian II
+	}
+	1864.3.10 = {
+		holder = wittelsbach_3	# Ludwig II
+	}
+	1886.6.13 = {
+		holder = wittelsbach_4	# Otto
+	}
+	1913.11.5 = {
+		holder = wittelsbach_7	# Ludwig III
+	}
+}
+c_passau = {
+	1806.7.12 = {
+		holder = wittelsbach_0	# Maximilian I Joseph
+	}
+	1825.10.13 = {
+		holder = wittelsbach_1	# Ludwig I
+	}
+	1848.3.20 = {
+		holder = wittelsbach_2	# Maximilian II
+	}
+	1864.3.10 = {
+		holder = wittelsbach_3	# Ludwig II
+	}
+	1886.6.13 = {
+		holder = wittelsbach_4	# Otto
+	}
+	1913.11.5 = {
+		holder = wittelsbach_7	# Ludwig III
+	}
+}
+d_nordgau = {
+	1806.7.12 = {
+		holder = wittelsbach_0	# Maximilian I Joseph
+	}
+	1825.10.13 = {
+		holder = wittelsbach_1	# Ludwig I
+	}
+	1848.3.20 = {
+		holder = wittelsbach_2	# Maximilian II
+	}
+	1864.3.10 = {
+		holder = wittelsbach_3	# Ludwig II
+	}
+	1886.6.13 = {
+		holder = wittelsbach_4	# Otto
+	}
+	1913.11.5 = {
+		holder = wittelsbach_7	# Ludwig III
+	}
+}
+c_eichstadt = {
+	1806.7.12 = {
+		holder = wittelsbach_0	# Maximilian I Joseph
+	}
+	1825.10.13 = {
+		holder = wittelsbach_1	# Ludwig I
+	}
+	1848.3.20 = {
+		holder = wittelsbach_2	# Maximilian II
+	}
+	1864.3.10 = {
+		holder = wittelsbach_3	# Ludwig II
+	}
+	1886.6.13 = {
+		holder = wittelsbach_4	# Otto
+	}
+	1913.11.5 = {
+		holder = wittelsbach_7	# Ludwig III
+	}
+}
+c_leuchtenburg = {
+	1806.7.12 = {
+		holder = wittelsbach_0	# Maximilian I Joseph
+	}
+	1825.10.13 = {
+		holder = wittelsbach_1	# Ludwig I
+	}
+	1848.3.20 = {
+		holder = wittelsbach_2	# Maximilian II
+	}
+	1864.3.10 = {
+		holder = wittelsbach_3	# Ludwig II
+	}
+	1886.6.13 = {
+		holder = wittelsbach_4	# Otto
+	}
+	1913.11.5 = {
+		holder = wittelsbach_7	# Ludwig III
+	}
+}
+c_parsberg = {
+	1806.7.12 = {
+		holder = wittelsbach_0	# Maximilian I Joseph
+	}
+	1825.10.13 = {
+		holder = wittelsbach_1	# Ludwig I
+	}
+	1848.3.20 = {
+		holder = wittelsbach_2	# Maximilian II
+	}
+	1864.3.10 = {
+		holder = wittelsbach_3	# Ludwig II
+	}
+	1886.6.13 = {
+		holder = wittelsbach_4	# Otto
+	}
+	1913.11.5 = {
+		holder = wittelsbach_7	# Ludwig III
+	}
+}
+c_hohenburg = {
+	1806.7.12 = {
+		holder = wittelsbach_0	# Maximilian I Joseph
+	}
+	1825.10.13 = {
+		holder = wittelsbach_1	# Ludwig I
+	}
+	1848.3.20 = {
+		holder = wittelsbach_2	# Maximilian II
+	}
+	1864.3.10 = {
+		holder = wittelsbach_3	# Ludwig II
+	}
+	1886.6.13 = {
+		holder = wittelsbach_4	# Otto
+	}
+	1913.11.5 = {
+		holder = wittelsbach_7	# Ludwig III
+	}
+}
+d_salzburg = {
+	1792.3.1 = {	# Austria
+		holder = 9000012
+		de_jure_liege = k_austria
+	}
+	1806.1.1 = {	# Bavaria
+		holder = wittelsbach_0	# Maximilian I Joseph
+	}
+	1815.7.8 = {	# Austria
+		holder = 9000012
+	}
+}
+c_salzburg = {
+	1792.3.1 = {	# Austria
+		holder = 9000012
+	}
+	1806.1.1 = {	# Bavaria
+		holder = wittelsbach_0	# Maximilian I Joseph
+	}
+	1815.7.8 = {	# Austria
+		holder = 9000012
+	}
+}
+c_berchtesgaden = {
+	1806.1.1 = {
+		holder = wittelsbach_0	# Maximilian I Joseph
+	}
+	1815.7.8 = {
+		de_jure_liege = d_bavaria
+	}
+	1825.10.13 = {
+		holder = wittelsbach_1	# Ludwig I
+	}
+	1848.3.20 = {
+		holder = wittelsbach_2	# Maximilian II
+	}
+	1864.3.10 = {
+		holder = wittelsbach_3	# Ludwig II
+	}
+	1886.6.13 = {
+		holder = wittelsbach_4	# Otto
+	}
+	1913.11.5 = {
+		holder = wittelsbach_7	# Ludwig III
+	}
+}
+c_hallstatt = {
+	1792.3.1 = {	# Austria
+		holder = 9000012
+	}
+	1806.1.1 = {	# Bavaria
+		holder = wittelsbach_0	# Maximilian I Joseph
+	}
+	1815.7.8 = {	# Austria
+		holder = 9000012
+	}
+}
+c_linz = {
+	1792.3.1 = {	# Austria
+		holder = 9000012
+	}
+	1806.1.1 = {	# Bavaria
+		holder = wittelsbach_0	# Maximilian I Joseph
+	}
+	1815.7.8 = {	# Austria
+		holder = 9000012
+	}
+}
+c_schaumberg = {
+	1792.3.1 = {	# Austria
+		holder = 9000012
+	}
+	1806.1.1 = {	# Bavaria
+		holder = wittelsbach_0	# Maximilian I Joseph
+	}
+	1815.7.8 = {	# Austria
+		holder = 9000012
+	}
+}
+d_augsburg = {
+	1806.7.12 = {
+		holder = wittelsbach_0	# Maximilian I Joseph
+	}
+	1825.10.13 = {
+		holder = wittelsbach_1	# Ludwig I
+	}
+	1848.3.20 = {
+		holder = wittelsbach_2	# Maximilian II
+	}
+	1864.3.10 = {
+		holder = wittelsbach_3	# Ludwig II
+	}
+	1886.6.13 = {
+		holder = wittelsbach_4	# Otto
+	}
+	1913.11.5 = {
+		holder = wittelsbach_7	# Ludwig III
+	}
+}
+c_augsburg = {
+	1806.7.12 = {
+		holder = wittelsbach_0	# Maximilian I Joseph
+	}
+	1825.10.13 = {
+		holder = wittelsbach_1	# Ludwig I
+	}
+	1848.3.20 = {
+		holder = wittelsbach_2	# Maximilian II
+	}
+	1864.3.10 = {
+		holder = wittelsbach_3	# Ludwig II
+	}
+	1886.6.13 = {
+		holder = wittelsbach_4	# Otto
+	}
+	1913.11.5 = {
+		holder = wittelsbach_7	# Ludwig III
+	}
+}
+c_alpsee = {
+	1806.7.12 = {	# Bavaria
+		holder = wittelsbach_0	# Maximilian I Joseph
+	}
+	1815.6.9 = {	# Austria
+		holder = 9000012
+		de_jure_liege = d_tyrol
+	}
+}
+c_kempten = {
+	1806.7.12 = {
+		holder = wittelsbach_0	# Maximilian I Joseph
+	}
+	1825.10.13 = {
+		holder = wittelsbach_1	# Ludwig I
+	}
+	1848.3.20 = {
+		holder = wittelsbach_2	# Maximilian II
+	}
+	1864.3.10 = {
+		holder = wittelsbach_3	# Ludwig II
+	}
+	1886.6.13 = {
+		holder = wittelsbach_4	# Otto
+	}
+	1913.11.5 = {
+		holder = wittelsbach_7	# Ludwig III
+	}
+}
+c_ravensburg = {
+	1806.7.12 = {
+		holder = wittelsbach_0	# Maximilian I Joseph
+	}
+	1825.10.13 = {
+		holder = wittelsbach_1	# Ludwig I
+	}
+	1848.3.20 = {
+		holder = wittelsbach_2	# Maximilian II
+	}
+	1864.3.10 = {
+		holder = wittelsbach_3	# Ludwig II
+	}
+	1886.6.13 = {
+		holder = wittelsbach_4	# Otto
+	}
+	1913.11.5 = {
+		holder = wittelsbach_7	# Ludwig III
+	}
+}
+c_burgau = {
+	1806.7.12 = {
+		holder = wittelsbach_0	# Maximilian I Joseph
+	}
+	1825.10.13 = {
+		holder = wittelsbach_1	# Ludwig I
+	}
+	1848.3.20 = {
+		holder = wittelsbach_2	# Maximilian II
+	}
+	1864.3.10 = {
+		holder = wittelsbach_3	# Ludwig II
+	}
+	1886.6.13 = {
+		holder = wittelsbach_4	# Otto
+	}
+	1913.11.5 = {
+		holder = wittelsbach_7	# Ludwig III
+	}
+}
+d_steyermark = {
+	1792.3.1 = {
+		holder = 9000012
+		de_jure_liege = k_austria
+	}
+}
+c_graz = {
+	1792.3.1 = {
+		holder = 9000012
+	}
+}
+c_pitten = {
+	1792.3.1 = {
+		holder = 9000012
+	}
+}
+c_liebnitz = {
+	1792.3.1 = {
+		holder = 9000012
+	}
+}
+c_murzzuschlag = {
+	1792.3.1 = {
+		holder = 9000012
+	}
+}
+d_osterreich = {
+	1792.3.1 = {
+		holder = 9000012
+		de_jure_liege = k_austria
+	}
+}
+c_vienna = {
+	1792.3.1 = {
+		holder = 9000012
+	}
+}
+c_hohenau = {
+	1792.3.1 = {
+		holder = 9000012
+	}
+}
+c_sankt_polten = {
+	1792.3.1 = {
+		holder = 9000012
+	}
+}
+c_freistadt = {
+	1792.3.1 = {
+		holder = 9000012
+	}
+}
+c_amstetten = {
+	1792.3.1 = {
+		holder = 9000012
+	}
+}
+c_krems = {
+	1792.3.1 = {
+		holder = 9000012
+	}
+}
+d_tyrol = {
+	1792.3.1 = {	# Austria
+		holder = 9000012
+		de_jure_liege = k_austria
+	}
+	1806.1.1 = {	# Bavaria
+		holder = wittelsbach_0	# Maximilian I Joseph
+	}
+	1815.6.9 = {	# Austria
+		holder = 9000012
+	}
+}
+c_innsbruck = {
+	1792.3.1 = {	# Austria
+		holder = 9000012
+	}
+	1806.1.1 = {	# Bavaria
+		holder = wittelsbach_0	# Maximilian I Joseph
+	}
+	1815.6.9 = {	# Austria
+		holder = 9000012
+	}
+}
+c_brixen = {
+	1792.3.1 = {	# Austria
+		holder = 9000012
+	}
+	1806.1.1 = {	# Bavaria
+		holder = wittelsbach_0	# Maximilian I Joseph
+	}
+	1815.6.9 = {	# Austria
+		holder = 9000012
+	}
+}
+c_lienz = {
+	1792.3.1 = {	# Austria
+		holder = 9000012
+	}
+	1806.1.1 = {	# Bavaria
+		holder = wittelsbach_0	# Maximilian I Joseph
+	}
+	1815.6.9 = {	# Austria
+		holder = 9000012
+	}
+}
+d_carinthia = {
+	1792.3.1 = {
+		holder = 9000012
+		de_jure_liege = k_austria
+	}
+}
+c_karnten = {
+	1792.3.1 = {
+		holder = 9000012
+	}
+}
+c_kammersberg = {
+	1792.3.1 = {
+		holder = 9000012
+	}
+}
+c_knittelfeld = {
+	1792.3.1 = {
+		holder = 9000012
+	}
+}
+c_villach = {
+	1792.3.1 = {
+		holder = 9000012
+	}
+}
+d_krain = {
+	1792.3.1 = {	# Austria
+		holder = 9000012
+		de_jure_liege = k_austria
+	}
+	1809.1.1 = {	# France
+		holder = bonaparte_2	# Napoleon
+	}
+	1815.7.8 = {	# Austria
+		holder = 9000012
+	}
+}
+c_kranj = {
+	1792.3.1 = {	# Austria
+		holder = 9000012
+	}
+	1809.1.1 = {	# France
+		holder = bonaparte_2	# Napoleon
+	}
+	1815.7.8 = {	# Austria
+		holder = 9000012
+	}
+}
+c_ljubljana = {
+	1792.3.1 = {	# Austria
+		holder = 9000012
+	}
+	1809.1.1 = {	# France
+		holder = bonaparte_2	# Napoleon
+	}
+	1815.7.8 = {	# Austria
+		holder = 9000012
+	}
+}

@@ -71,10 +71,22 @@ c_klingenberg = {
 		holder = 9177209	# Ferdinand III
 	}
 	1814.6.3 = {	# Bavaria
-		holder = 9000018
+		holder = wittelsbach_0	# Maximilian I Joseph
 	}
 	1825.10.13 = {
-		holder = 8000016
+		holder = wittelsbach_1	# Ludwig I
+	}
+	1848.3.20 = {
+		holder = wittelsbach_2	# Maximilian II
+	}
+	1864.3.10 = {
+		holder = wittelsbach_3	# Ludwig II
+	}
+	1886.6.13 = {
+		holder = wittelsbach_4	# Otto
+	}
+	1913.11.5 = {
+		holder = wittelsbach_7	# Ludwig III
 	}
 }
 c_erbach = {
@@ -168,10 +180,22 @@ c_durne = {
 		holder = 9177209	# Ferdinand III
 	}
 	1814.6.3 = {	# Bavaria
-		holder = 9000018
+		holder = wittelsbach_0	# Maximilian I Joseph
 	}
 	1825.10.13 = {
-		holder = 8000016
+		holder = wittelsbach_1	# Ludwig I
+	}
+	1848.3.20 = {
+		holder = wittelsbach_2	# Maximilian II
+	}
+	1864.3.10 = {
+		holder = wittelsbach_3	# Ludwig II
+	}
+	1886.6.13 = {
+		holder = wittelsbach_4	# Otto
+	}
+	1913.11.5 = {
+		holder = wittelsbach_7	# Ludwig III
 	}
 }
 c_kaiserslautern = {
@@ -204,18 +228,42 @@ c_wurzburg = {
 		holder = 9177209	# Ferdinand III
 	}
 	1814.6.3 = {	# Bavaria
-		holder = 9000018
+		holder = wittelsbach_0	# Maximilian I Joseph
 	}
 	1825.10.13 = {
-		holder = 8000016
+		holder = wittelsbach_1	# Ludwig I
+	}
+	1848.3.20 = {
+		holder = wittelsbach_2	# Maximilian II
+	}
+	1864.3.10 = {
+		holder = wittelsbach_3	# Ludwig II
+	}
+	1886.6.13 = {
+		holder = wittelsbach_4	# Otto
+	}
+	1913.11.5 = {
+		holder = wittelsbach_7	# Ludwig III
 	}
 }
 c_ansbach = {
 	1806.1.1 = {
-		holder = 9000018
+		holder = wittelsbach_0	# Maximilian I Joseph
 	}
 	1825.10.13 = {
-		holder = 8000016
+		holder = wittelsbach_1	# Ludwig I
+	}
+	1848.3.20 = {
+		holder = wittelsbach_2	# Maximilian II
+	}
+	1864.3.10 = {
+		holder = wittelsbach_3	# Ludwig II
+	}
+	1886.6.13 = {
+		holder = wittelsbach_4	# Otto
+	}
+	1913.11.5 = {
+		holder = wittelsbach_7	# Ludwig III
 	}
 }
 c_coburg = {
@@ -230,34 +278,82 @@ c_coburg = {
 }
 c_hohenlohe = {
 	1806.1.1 = {
-		holder = 9000018
+		holder = wittelsbach_0	# Maximilian I Joseph
 	}
 	1825.10.13 = {
-		holder = 8000016
+		holder = wittelsbach_1	# Ludwig I
+	}
+	1848.3.20 = {
+		holder = wittelsbach_2	# Maximilian II
+	}
+	1864.3.10 = {
+		holder = wittelsbach_3	# Ludwig II
+	}
+	1886.6.13 = {
+		holder = wittelsbach_4	# Otto
+	}
+	1913.11.5 = {
+		holder = wittelsbach_7	# Ludwig III
 	}
 }
 c_nurnberg = {
 	1806.1.1 = {
-		holder = 9000018
+		holder = wittelsbach_0	# Maximilian I Joseph
 	}
 	1825.10.13 = {
-		holder = 8000016
+		holder = wittelsbach_1	# Ludwig I
+	}
+	1848.3.20 = {
+		holder = wittelsbach_2	# Maximilian II
+	}
+	1864.3.10 = {
+		holder = wittelsbach_3	# Ludwig II
+	}
+	1886.6.13 = {
+		holder = wittelsbach_4	# Otto
+	}
+	1913.11.5 = {
+		holder = wittelsbach_7	# Ludwig III
 	}
 }
 c_bamberg = {
 	1806.1.1 = {
-		holder = 9000018
+		holder = wittelsbach_0	# Maximilian I Joseph
 	}
 	1825.10.13 = {
-		holder = 8000016
+		holder = wittelsbach_1	# Ludwig I
+	}
+	1848.3.20 = {
+		holder = wittelsbach_2	# Maximilian II
+	}
+	1864.3.10 = {
+		holder = wittelsbach_3	# Ludwig II
+	}
+	1886.6.13 = {
+		holder = wittelsbach_4	# Otto
+	}
+	1913.11.5 = {
+		holder = wittelsbach_7	# Ludwig III
 	}
 }
 c_nordlingen = {
 	1806.1.1 = {
-		holder = 9000018
+		holder = wittelsbach_0	# Maximilian I Joseph
 	}
 	1825.10.13 = {
-		holder = 8000016
+		holder = wittelsbach_1	# Ludwig I
+	}
+	1848.3.20 = {
+		holder = wittelsbach_2	# Maximilian II
+	}
+	1864.3.10 = {
+		holder = wittelsbach_3	# Ludwig II
+	}
+	1886.6.13 = {
+		holder = wittelsbach_4	# Otto
+	}
+	1913.11.5 = {
+		holder = wittelsbach_7	# Ludwig III
 	}
 }
 c_wiltberg = {
@@ -265,10 +361,22 @@ c_wiltberg = {
 		holder = 9177209	# Ferdinand III
 	}
 	1814.6.3 = {	# Bavaria
-		holder = 9000018
+		holder = wittelsbach_0	# Maximilian I Joseph
 	}
 	1825.10.13 = {
-		holder = 8000016
+		holder = wittelsbach_1	# Ludwig I
+	}
+	1848.3.20 = {
+		holder = wittelsbach_2	# Maximilian II
+	}
+	1864.3.10 = {
+		holder = wittelsbach_3	# Ludwig II
+	}
+	1886.6.13 = {
+		holder = wittelsbach_4	# Otto
+	}
+	1913.11.5 = {
+		holder = wittelsbach_7	# Ludwig III
 	}
 }
 d_hesse = {

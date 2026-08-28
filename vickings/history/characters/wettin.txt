@@ -229,3 +229,18 @@ eur_00200 = {
 		death = yes
 	}
 }
+
+# Wife of Ludwig I
+8000064 = {
+	name = "Therese"
+	dynasty_house = house_wettin
+	religion = protestant
+	culture = saxon
+	female = yes
+	1792.7.8 = {
+		birth = yes
+	}
+	1854.10.26 = {
+		death = yes
+	}
+}
