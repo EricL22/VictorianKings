@@ -1,0 +1,68 @@
+﻿ascania_0 = {
+	name = "Leopold"	# III of Anhalt-Dessau
+	dynasty = 226
+	religion = protestant
+	culture = saxon
+	1740.8.10 = {
+		birth = yes
+	}
+	1817.8.9 = {
+		death = yes
+	}
+}
+
+ascania_1 = {
+	name = "Friedrich"	# prince of Anhalt-Dessau
+	dynasty = 226
+	religion = protestant
+	culture = saxon
+	father = ascania_0
+	1769.12.27 = {
+		birth = yes
+	}
+	1814.5.27 = {
+		death = yes
+	}
+}
+
+ascania_2 = {
+	name = "Leopold"	# IV of Anhalt-Dessau
+	dynasty = 226
+	religion = protestant
+	culture = saxon
+	father = ascania_1
+	1794.10.1 = {
+		birth = yes
+	}
+	1871.5.22 = {
+		death = yes
+	}
+}
+
+ascania_3 = {
+	name = "Friedrich"	# I of Anhalt-Dessau
+	dynasty = 226
+	religion = protestant
+	culture = saxon
+	father = ascania_2
+	1831.4.29 = {
+		birth = yes
+	}
+	1904.1.24 = {
+		death = yes
+	}
+}
+
+ascania_4 = {
+	name = "Friedrich"	# II of Anhalt-Dessau
+	dynasty = 226
+	religion = protestant
+	culture = saxon
+	father = ascania_3
+	1856.8.19 = {
+		birth = yes
+	}
+	1918.4.21 = {
+		death = yes
+	}
+}

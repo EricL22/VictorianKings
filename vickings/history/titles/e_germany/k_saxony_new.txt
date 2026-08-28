@@ -1,7 +1,7 @@
 k_saxony = {
 	1806.12.20 = {
 		effect = { set_capital_county = title:c_dresden }
-#		holder = 9000027
+		holder = 9000027
 		liege = e_cdr
 	}
 #	1827.5.5 = {
@@ -158,11 +158,11 @@ d_westfalen = {
 	1814.10.12 = {
 		de_jure_liege = k_hanover
 	}
-#	1815.6.9 = {
-#		holder = 6480005
-#		liege = k_prussia
-#		government = feudal_government
-#	}
+	1815.6.9 = {
+		holder = 6480005
+		liege = k_prussia
+		government = feudal_government
+	}
 }
 c_osnabruck = {
 	1804.5.18 = {	# France
@@ -208,25 +208,25 @@ c_munster = {
 	1804.5.18 = {	# France
 		holder = bonaparte_2
 	}
-#	1814.4.11 = {
-#		holder = 6480005
-#	}
+	1814.4.11 = {	# Prussia
+		holder = 6480005
+	}
 }
 c_waldeck = {
 	1807.7.8 = {	# Westphalia
 		holder = bonaparte_9	# Jerome Napoleon I
 	}
-#	1815.6.9 = {
-#		holder = 6480005
-#	}
+	1815.6.9 = {	# Prussia
+		holder = 6480005
+	}
 }
 c_paderborn = {
 	1807.7.8 = {	# Westphalia
 		holder = bonaparte_9	# Jerome Napoleon I
 	}
-#	1815.6.9 = {
-#		holder = 6480005
-#	}
+	1815.6.9 = {	# Prussia
+		holder = 6480005
+	}
 }
 d_ostfalen = {
 	1814.10.12 = {
@@ -314,13 +314,13 @@ c_stendal = {
 	1807.7.8 = {	# Westphalia
 		holder = bonaparte_9	# Jerome Napoleon I
 	}
-#	1815.6.9 = {
-#		holder = 9000013
-#	}
-#	1815.6.21 = {
-#		holder = 6480010
-#		liege = k_prussia
-#	}
+	1815.6.9 = {	# Prussia
+		holder = 9000013
+	}
+	1815.6.21 = {
+		holder = 6480010
+		liege = k_prussia
+	}
 }
 d_holstein = {
 	1808.3.13 = {

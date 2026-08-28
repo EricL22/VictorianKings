@@ -4,43 +4,73 @@ k_east_francia = {
 	}
 }
 d_west_franconia = {
-	1810.2.16 = {
-		holder = 9000032
+	1810.2.16 = {	# Confederation of the Rhine
+		holder = cdr_0	# Karl Theodor von Dalberg
 	}
-	1814.5.30 = {
-		holder = 8000005
+	1814.5.30 = {	# Hesse and by Rhine
+		holder = hesse_0	# Louis I
 	}
 	1830.4.6 = {
-		holder = 8000026
+		holder = hesse_1	# Louis II
+	}
+	1848.3.5 = {
+		holder = hesse_2	# Louis III
+	}
+	1871.1.18 = {
+		liege = e_germany
+	}
+	1877.6.13 = {
+		holder = hesse_4	# Louis IV
+	}
+	1892.3.13 = {
+		holder = hesse_5	# Ernest Louis
 	}
 }
 c_frankfurt = {
-	1810.2.16 = {
-		holder = 9000032
+	1810.2.16 = {	# Confederation of the Rhine
+		holder = cdr_0	# Karl Theodor von Dalberg
 	}
-	1814.5.30 = {
-		holder = 8000005
+	1814.5.30 = {	# Hesse and by Rhine
+		holder = hesse_0	# Louis I
 	}
 	1830.4.6 = {
-		holder = 8000026
+		holder = hesse_1	# Louis II
+	}
+	1848.3.5 = {
+		holder = hesse_2	# Louis III
+	}
+	1877.6.13 = {
+		holder = hesse_4	# Louis IV
+	}
+	1892.3.13 = {
+		holder = hesse_5	# Ernest Louis
 	}
 }
 c_mainz = {
-	1810.2.16 = {
-		holder = 9000032
+	1810.2.16 = {	# Confederation of the Rhine
+		holder = cdr_0	# Karl Theodor von Dalberg
 	}
-	1814.5.30 = {
-		holder = 8000005
+	1814.5.30 = {	# Hesse and by Rhine
+		holder = hesse_0	# Louis I
 	}
 	1830.4.6 = {
-		holder = 8000026
+		holder = hesse_1	# Louis II
+	}
+	1848.3.5 = {
+		holder = hesse_2	# Louis III
+	}
+	1877.6.13 = {
+		holder = hesse_4	# Louis IV
+	}
+	1892.3.13 = {
+		holder = hesse_5	# Ernest Louis
 	}
 }
 c_klingenberg = {
-	1805.12.25 = {
-		holder = 9177209
+	1805.12.25 = {	# Würzburg
+		holder = 9177209	# Ferdinand III
 	}
-	1814.6.3 = {
+	1814.6.3 = {	# Bavaria
 		holder = 9000018
 	}
 	1825.10.13 = {
@@ -48,25 +78,43 @@ c_klingenberg = {
 	}
 }
 c_erbach = {
-	1810.2.16 = {
-		holder = 9000032
+	1810.2.16 = {	# Confederation of the Rhine
+		holder = cdr_0	# Karl Theodor von Dalberg
 	}
-	1814.5.30 = {
-		holder = 8000005
+	1814.5.30 = {	# Hesse and by Rhine
+		holder = hesse_0	# Louis I
 	}
 	1830.4.6 = {
-		holder = 8000026
+		holder = hesse_1	# Louis II
+	}
+	1848.3.5 = {
+		holder = hesse_2	# Louis III
+	}
+	1877.6.13 = {
+		holder = hesse_4	# Louis IV
+	}
+	1892.3.13 = {
+		holder = hesse_5	# Ernest Louis
 	}
 }
 c_worms = {
-	1810.2.16 = {
-		holder = 9000032
+	1810.2.16 = {	# Confederation of the Rhine
+		holder = cdr_0	# Karl Theodor von Dalberg
 	}
-	1814.5.30 = {
-		holder = 8000005
+	1814.5.30 = {	# Hesse and by Rhine
+		holder = hesse_0	# Louis I
 	}
 	1830.4.6 = {
-		holder = 8000026
+		holder = hesse_1	# Louis II
+	}
+	1848.3.5 = {
+		holder = hesse_2	# Louis III
+	}
+	1877.6.13 = {
+		holder = hesse_4	# Louis IV
+	}
+	1892.3.13 = {
+		holder = hesse_5	# Ernest Louis
 	}
 }
 c_speyer = {
@@ -116,10 +164,10 @@ c_vaihingen = {
 	}
 }
 c_durne = {
-	1805.12.25 = {
-		holder = 9177209
+	1805.12.25 = {	# Würzburg
+		holder = 9177209	# Ferdinand III
 	}
-	1814.6.3 = {
+	1814.6.3 = {	# Bavaria
 		holder = 9000018
 	}
 	1825.10.13 = {
@@ -127,14 +175,23 @@ c_durne = {
 	}
 }
 c_kaiserslautern = {
-	1810.2.16 = {
-		holder = 9000032
+	1810.2.16 = {	# Confederation of the Rhine
+		holder = cdr_0	# Karl Theodor von Dalberg
 	}
-	1814.5.30 = {
-		holder = 8000005
+	1814.5.30 = {	# Hesse and by Rhine
+		holder = hesse_0	# Louis I
 	}
 	1830.4.6 = {
-		holder = 8000026
+		holder = hesse_1	# Louis II
+	}
+	1848.3.5 = {
+		holder = hesse_2	# Louis III
+	}
+	1877.6.13 = {
+		holder = hesse_4	# Louis IV
+	}
+	1892.3.13 = {
+		holder = hesse_5	# Ernest Louis
 	}
 }
 d_east_franconia = {
@@ -143,10 +200,10 @@ d_east_franconia = {
 	}
 }
 c_wurzburg = {
-	1805.12.25 = {
-		holder = 9177209
+	1805.12.25 = {	# Würzburg
+		holder = 9177209	# Ferdinand III
 	}
-	1814.6.3 = {
+	1814.6.3 = {	# Bavaria
 		holder = 9000018
 	}
 	1825.10.13 = {
@@ -163,11 +220,11 @@ c_ansbach = {
 }
 c_coburg = {
 	1800.9.8 = {
-		holder = 9000040
+		holder = 9000040	# Francis
 		government = feudal_government
 	}
 	1806.12.9 = {
-		holder = 9000041
+		holder = 9000041	# Ernest III of Saxe-Coburg-Saalfeld
 		liege = e_cdr
 	}
 }
@@ -204,10 +261,10 @@ c_nordlingen = {
 	}
 }
 c_wiltberg = {
-	1805.12.25 = {
-		holder = 9177209
+	1805.12.25 = {	# Würzburg
+		holder = 9177209	# Ferdinand III
 	}
-	1814.6.3 = {
+	1814.6.3 = {	# Bavaria
 		holder = 9000018
 	}
 	1825.10.13 = {
@@ -215,42 +272,51 @@ c_wiltberg = {
 	}
 }
 d_hesse = {
-	1760.2.1 = {
-		holder = 9100063
+	1760.2.1 = {	# Hesse-Kassel
+		holder = hesse_10	# Frederick II
 	}
 	1785.10.31 = {
-		holder = 8000004
+		holder = hesse_13	# William I
 	}
-	1807.7.8 = {
+	1807.7.8 = {	# Westphalia
 		holder = bonaparte_9	# Jerome Napoleon I
 	}
-	1814.5.30 = {
-		holder = 8000004
+	1814.5.30 = {	# Hesse-Kassel
+		holder = hesse_13	# William I
 	}
 	1821.2.27 = {
-		holder = 8000025
+		holder = hesse_14	# William II
+	}
+	1847.11.20 = {
+		holder = hesse_15	# Frederick William
 	}
 }
 c_kassel = {
-	1807.7.8 = {
+	1807.7.8 = {	# Westphalia
 		holder = bonaparte_9	# Jerome Napoleon I
 	}
-	1814.5.30 = {
-		holder = 8000004
+	1814.5.30 = {	# Hesse-Kassel
+		holder = hesse_13	# William I
 	}
 	1821.2.27 = {
-		holder = 8000025
+		holder = hesse_14	# William II
+	}
+	1847.11.20 = {
+		holder = hesse_15	# Frederick William
 	}
 }
 c_fulda = {
-	1807.7.8 = {
+	1807.7.8 = {	# Westphalia
 		holder = bonaparte_9	# Jerome Napoleon I
 	}
-	1814.5.30 = {
-		holder = 8000004
+	1814.5.30 = {	# Hesse-Kassel
+		holder = hesse_13	# William I
 	}
 	1821.2.27 = {
-		holder = 8000025
+		holder = hesse_14	# William II
+	}
+	1847.11.20 = {
+		holder = hesse_15	# Frederick William
 	}
 }
 c_nassau = {
@@ -263,14 +329,17 @@ c_nassau = {
 	}
 }
 c_marburg = {
-	1807.7.8 = {
+	1807.7.8 = {	# Westphalia
 		holder = bonaparte_9	# Jerome Napoleon I
 	}
-	1814.5.30 = {
-		holder = 8000004
+	1814.5.30 = {	# Hesse-Kassel
+		holder = hesse_13	# William I
 	}
 	1821.2.27 = {
-		holder = 8000025
+		holder = hesse_14	# William II
+	}
+	1847.11.20 = {
+		holder = hesse_15	# Frederick William
 	}
 }
 d_currezia = {
@@ -558,28 +627,43 @@ c_furstenberg = {
 }
 d_anhalt = {
 	1751.12.16 = {
-		holder = 9000030
+		holder = ascania_0	# Leopold III
 	}
 	1806.7.12 = {
 		liege = e_cdr
 	}
 	1817.8.9 = {
-		holder = 9100029
+		holder = ascania_2	# Leopold IV
+	}
+	1871.1.18 = {
+		liege = e_germany
+	}
+	1871.5.22 = {
+		holder = ascania_3	# Frederick I
+	}
+	1904.1.24 = {
+		holder = ascania_4	# Frederick II
 	}
 }
 c_dessau = {
 	1751.12.16 = {
-		holder = 9000030
+		holder = ascania_0	# Leopold III
 	}
 	1817.8.9 = {
-		holder = 9100029
+		holder = ascania_2	# Leopold IV
+	}
+	1871.5.22 = {
+		holder = ascania_3	# Frederick I
+	}
+	1904.1.24 = {
+		holder = ascania_4	# Frederick II
 	}
 }
 c_halberstadt = {
-	1807.7.8 = {
+	1807.7.8 = {	# Westphalia
 		holder = bonaparte_9	# Jerome Napoleon I
 	}
-	1815.6.9 = {
+	1815.6.9 = {	# Prussia
 		holder = 9000013
 	}
 	1815.6.21 = {
@@ -588,10 +672,10 @@ c_halberstadt = {
 	}
 }
 c_magdeburg = {
-	1807.7.8 = {
+	1807.7.8 = {	# Westphalia
 		holder = bonaparte_9	# Jerome Napoleon I
 	}
-	1815.6.9 = {
+	1815.6.9 = {	# Prussia
 		holder = 9000013
 	}
 	1815.6.21 = {
@@ -601,25 +685,37 @@ c_magdeburg = {
 }
 c_blankenburg = {
 	1751.12.16 = {
-		holder = 9000030
+		holder = ascania_0	# Leopold III
 	}
 	1817.8.9 = {
-		holder = 9100029
+		holder = ascania_2	# Leopold IV
+	}
+	1871.5.22 = {
+		holder = ascania_3	# Frederick I
+	}
+	1904.1.24 = {
+		holder = ascania_4	# Frederick II
 	}
 }
 c_mansfeld = {
 	1751.12.16 = {
-		holder = 9000030
+		holder = ascania_0	# Leopold III
 	}
 	1817.8.9 = {
-		holder = 9100029
+		holder = ascania_2	# Leopold IV
+	}
+	1871.5.22 = {
+		holder = ascania_3	# Frederick I
+	}
+	1904.1.24 = {
+		holder = ascania_4	# Frederick II
 	}
 }
 c_mersenburg = {
-	1806.12.20 = {
+	1806.12.20 = {	# Saxony
 		holder = 9000027
 	}
-	1815.6.9 = {
+	1815.6.9 = {	# Prussia
 		holder = 9000013
 	}
 	1815.6.21 = {

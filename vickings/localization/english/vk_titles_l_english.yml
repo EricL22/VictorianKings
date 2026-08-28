@@ -5,6 +5,12 @@
  king_feudal_male_uk:0 "King"
  king_feudal_female_uk:0 "Queen"
 
+ e_cdr_article:0 "the "
+ e_cdr:0 "Confederation of the Rhine"
+ e_cdr_adj:0 "German"
+ prince_primate:0 "Prince-Primate"
+ princess_primate:0 "Princess-Primate"
+
  k_hanover:0 "Hanover"
  k_hanover_adj:0 "Hanoverian"
 
@@ -30,6 +36,9 @@
 
  d_berg:0 "Berg"
  d_berg_adj:0 "Berg"
+
+ d_wurzburg:0 "Würzburg"
+ d_wurzburg_adj:0 "Würzburgian"
 
  c_faucigny:0 "Faucigny"
 

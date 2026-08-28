@@ -125,3 +125,30 @@ brunswick_2 = {
 		death = yes
 	}
 }
+
+
+cdr_0 = {
+	name = "Karl Theodor"	# Prince-Primate of the Rhine Confederation
+	dynasty = eur_41C2_0
+	religion = catholic
+	culture = franconian
+	trait = just
+	trait = compassionate
+	trait = diligent
+	trait = education_learning_3
+	sexuality = heterosexual
+	1744.2.8 = {
+		birth = yes
+	}
+	1810.2.16 = {
+		create_alliance = {
+			target = character:bonaparte_2			# Napoleon
+			allied_through_owner = character:bonaparte_2
+			allied_through_target = character:eur_01110	# Marie Louise
+		}
+		add_realm_law_skip_effects = crown_authority_2
+	}
+	1817.2.10 = {
+		death = yes
+	}
+}

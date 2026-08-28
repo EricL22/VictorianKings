@@ -1,0 +1,158 @@
+﻿hesse_0 = {
+	name = "Ludwig"		# I of Hesse
+	religion = protestant
+	culture = franconian
+	1753.6.14 = {
+		birth = "1753.6.14"
+	}
+	1830.4.6 = {
+		death = "1830.4.6"
+	}
+}
+
+hesse_1 = {
+	name = "Ludwig"		# II of Hesse
+	religion = protestant
+	culture = franconian
+	father = hesse_0
+	1777.12.26 = {
+		birth = yes
+	}
+	1848.6.16 = {
+		death = yes
+	}
+}
+
+hesse_2 = {
+	name = "Ludwig"		# III of Hesse
+	religion = protestant
+	culture = franconian
+	father = hesse_1
+	1806.6.9 = {
+		birth = yes
+	}
+	1877.6.13 = {
+		death = yes
+	}
+}
+
+hesse_3 = {
+	name = "Karl"		# prince of Hesse
+	religion = protestant
+	culture = franconian
+	father = hesse_1
+	1809.4.23 = {
+		birth = yes
+	}
+	1877.3.20 = {
+		death = yes
+	}
+}
+
+hesse_4 = {
+	name = "Ludwig"		# IV of Hesse
+	religion = protestant
+	culture = franconian
+	father = hesse_3
+	1837.9.12 = {
+		birth = yes
+	}
+	1892.3.13 = {
+		death = yes
+	}
+}
+
+hesse_5 = {
+	name = "Ernst Ludwig"		# of Hesse
+	religion = protestant
+	culture = franconian
+	father = hesse_4
+	1868.11.25 = {
+		birth = yes
+	}
+	1937.10.9 = {
+		death = yes
+	}
+}
+
+
+hesse_10 = {
+	name = "Friedrich"	# II of Hesse-Kassel
+	religion = reformed
+	culture = franconian
+	1720.8.14 = {
+		birth = yes
+	}
+	1749.2.1 = {
+		religion = catholic
+	}
+	1785.10.31 = {
+		death = yes
+	}
+}
+
+hesse_11 = {
+	name = "Karl"	# of Hesse-Kassel
+	religion = protestant
+	culture = danish
+	father = hesse_10
+	1744.12.19 = {
+		birth = yes
+	}
+	1836.8.17 = {
+		death = yes
+	}
+}
+
+hesse_12 = {
+	name = "Maria"	# of Hesse-Kassel
+	religion = protestant
+	culture = danish
+	father = hesse_11
+	female = yes
+	1767.10.28 = {
+		birth = yes
+	}
+	1852.3.22 = {
+		death = yes
+	}
+}
+
+hesse_13 = {
+	name = "Wilhelm" 	# I, Elector of Hesse
+	religion = reformed
+	culture = franconian
+	father =  hesse_10
+	1743.6.3 = {
+		birth = yes
+	}
+	1821.2.27 = {
+		death = yes
+	}
+}
+
+hesse_14 = {
+	name = "Wilhelm" 	# II, Elector of Hesse
+	religion = reformed
+	culture = franconian
+	father = hesse_13
+	1777.7.28 = {
+		birth = yes
+	}
+	1847.11.20 = {
+		death = yes
+	}
+}
+
+hesse_15 = {
+	name = "Friedrich Wilhelm" 	# Elector of Hesse
+	religion = reformed
+	culture = franconian
+	father = hesse_14
+	1802.8.20 = {
+		birth = yes
+	}
+	1875.1.6 = {
+		death = yes
+	}
+}

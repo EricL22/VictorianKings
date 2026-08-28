@@ -1,3 +1,16 @@
+e_cdr = {
+	1806.7.12 = {
+		holder = cdr_0	# Karl Theodor von Dalberg
+		succession_laws = {
+			feudal_elective_succession_law
+			male_only_law
+		}
+	}
+	1813.11.4 = {
+		holder = 0
+	}
+}
+
 k_hanover = {
 	1814.10.12 = {
 		holder = hanover_3	# George III
@@ -179,5 +192,17 @@ d_baden = {
 	}
 	1907.9.28 = {
 		holder = zahringen_7	# Frederick II
+	}
+}
+
+d_wurzburg = {
+	1805.12.25 = {
+		holder = 9177209	# Ferdinand III
+	}
+	1806.9.23 = {
+		liege = e_cdr
+	}
+	1814.6.3 = {
+		holder = 0
 	}
 }

@@ -12,6 +12,7 @@ k_naples = {
 k_sicily = {
 	1759.10.6 = {
 		holder = bourbon_43	# Ferdinand III of Sicily
+		de_jure_liege = e_italy
 	}
 	1816.12.12 = {
 		name = k_tts

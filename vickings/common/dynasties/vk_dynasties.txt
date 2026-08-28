@@ -20,3 +20,9 @@ eur_2515_0 = {
 	name = "dynn_Beauharnais"
 	culture = "french"
 }
+
+eur_41C2_0 = {
+	prefix = "dynnp_von"
+	name = "dynn_Dalberg"
+	culture = franconian
+}
