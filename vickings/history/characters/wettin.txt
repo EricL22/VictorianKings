@@ -150,25 +150,25 @@ wettin_11 = {
 	}
 }
 
-9000031 = {
+wettin_20 = {
 	name = "Karl August"	# of Saxe-Weimar-Eisenach
 	dynasty_house = house_saxe_weimar
 	religion = protestant
 	culture = saxon
 	1757.9.3 = {
-		birth = "1757.9.3"
+		birth = yes
 	}
 	1828.6.14 = {
-		death = "1828.6.14"
+		death = yes
 	}
 }
 
-9100031 = {
+wettin_21 = {
 	name = "Karl Friedrich"	# of Saxe-Weimar-Eisenach
 	dynasty_house = house_saxe_weimar
 	religion = protestant
 	culture = saxon
-	father = 9000031
+	father = wettin_20
 	1783.2.2 = {
 		birth = yes
 	}
@@ -177,7 +177,49 @@ wettin_11 = {
 	}
 }
 
-9000040 = {
+wettin_22 = {
+	name = "Karl Alexander"	# of Saxe-Weimar-Eisenach
+	dynasty_house = house_saxe_weimar
+	religion = protestant
+	culture = saxon
+	father = wettin_21
+	1818.6.24 = {
+		birth = yes
+	}
+	1901.1.5 = {
+		death = yes
+	}
+}
+
+wettin_23 = {
+	name = "Karl August"	# of Saxe-Weimar-Eisenach
+	dynasty_house = house_saxe_weimar
+	religion = protestant
+	culture = saxon
+	father = wettin_22
+	1844.7.31 = {
+		birth = yes
+	}
+	1894.11.20 = {
+		death = yes
+	}
+}
+
+wettin_24 = {
+	name = "Wilhelm Ernst"	# of Saxe-Weimar-Eisenach
+	dynasty_house = house_saxe_weimar
+	religion = protestant
+	culture = saxon
+	father = wettin_23
+	1876.6.10 = {
+		birth = yes
+	}
+	1923.4.24 = {
+		death = yes
+	}
+}
+
+wettin_30 = {
 	name = "Francis"
 	dynasty_house = house_saxe_coburg
 	religion = protestant
@@ -190,12 +232,12 @@ wettin_11 = {
 	}
 }
 
-9000041 = {
-	name = "Ernst"
+wettin_31 = {
+	name = "Ernst"	# I of Saxe-Coburg and Gotha
 	dynasty_house = house_saxe_coburg
 	religion = protestant
 	culture = franconian
-	father = 9000040
+	father = wettin_30
 	1784.1.2 = {
 		birth = yes
 	}
@@ -207,50 +249,123 @@ wettin_11 = {
 	}
 }
 
-8000034 = {
-	name = "Leopold"	# I of Belgium
+wettin_32 = {
+	name = "Ernst"	# II of Saxe-Coburg and Gotha
 	dynasty_house = house_saxe_coburg
 	religion = protestant
 	culture = franconian
-	father = 9000040
-	1790.12.16 = {
+	father = wettin_31
+	1818.6.21 = {
 		birth = yes
 	}
-	1832.8.9 = {
-		add_spouse = bourbon_33
-	}
-	1865.12.10 = {
+	1893.8.22 = {
 		death = yes
 	}
 }
 
-8000035 = {
+wettin_33 = {
 	name = "Albert"
 	dynasty_house = house_saxe_coburg
 	religion = protestant
 	culture = franconian
-	father = 9000041
+	father = wettin_31
 	1819.8.26 = {
 		birth = yes
 	}
 	1840.2.10 = {
-		add_spouse = 8000012
+		add_spouse = hanover_7	# Victoria
 	}
 	1861.12.14 = {
 		death = yes
 	}
 }
 
-8000036 = {
-	name = "Ernst"
+wettin_34 = {
+	name = "Edward"	# VII of Britain
+	dynasty_house = house_saxe_coburg
+	religion = protestant
+	culture = english
+	father = wettin_33
+	mother = hanover_7
+	1841.11.9 = {
+		birth = yes
+	}
+	1910.5.6 = {
+		death = yes
+	}
+}
+
+wettin_35 = {
+	name = "George"	# V of Britain
+	dynasty_house = house_saxe_coburg
+	religion = protestant
+	culture = english
+	father = wettin_34
+	1865.6.3 = {
+		birth = yes
+	}
+	1936.1.20 = {
+		death = yes
+	}
+}
+
+wettin_36 = {
+	name = "Alfred"	# of Saxe-Coburg and Gotha
+	dynasty_house = house_saxe_coburg
+	religion = protestant
+	culture = english
+	father = wettin_33
+	mother = hanover_7
+	1844.8.6 = {
+		birth = yes
+	}
+	1900.7.30 = {
+		death = yes
+	}
+}
+
+wettin_37 = {
+	name = "Leopold"	# Duke of Albany
+	dynasty_house = house_saxe_coburg
+	religion = protestant
+	culture = english
+	father = wettin_33
+	mother = hanover_7
+	1853.4.7 = {
+		birth = yes
+	}
+	1884.4.5 = {
+		death = yes
+	}
+}
+
+wettin_38 = {
+	name = "Charles Edward"	# of Saxe-Coburg and Gotha
+	dynasty_house = house_saxe_coburg
+	religion = protestant
+	culture = english
+	father = wettin_37
+	1884.7.19 = {
+		birth = yes
+	}
+	1954.3.6 = {
+		death = yes
+	}
+}
+
+8000034 = {
+	name = "Leopold"	# I of Belgium
 	dynasty_house = house_saxe_coburg
 	religion = protestant
 	culture = franconian
-	father = 9000041
-	1818.6.21 = {
+	father = wettin_30
+	1790.12.16 = {
 		birth = yes
 	}
-	1893.8.22 = {
+	1832.8.9 = {
+		add_spouse = bourbon_33	# Louise of Orléans
+	}
+	1865.12.10 = {
 		death = yes
 	}
 }

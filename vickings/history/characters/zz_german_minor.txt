@@ -141,11 +141,7 @@ cdr_0 = {
 		birth = yes
 	}
 	1810.2.16 = {
-		create_alliance = {
-			target = character:bonaparte_2			# Napoleon
-			allied_through_owner = character:bonaparte_2
-			allied_through_target = character:eur_01110	# Marie Louise
-		}
+		create_alliance = character:bonaparte_2			# Napoleon
 		add_realm_law_skip_effects = crown_authority_2
 	}
 	1817.2.10 = {

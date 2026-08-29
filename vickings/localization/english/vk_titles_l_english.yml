@@ -58,6 +58,8 @@
  d_nf_bourbon_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
  d_nf_bourbon_orleans: "$dynn_Bb_Orleans$ Family"
  d_nf_bourbon_orleans_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ d_nf_saxe_coburg: "$dynn_Saxe_Coburg$ Family"
+ d_nf_saxe_coburg_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
 
  d_nf_berryer: "$dynn_Berryer$ Family"
  d_nf_berryer_article: "$DEFAULT_TITLE_NAME_ARTICLE$"

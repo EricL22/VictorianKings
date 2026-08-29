@@ -58,10 +58,10 @@ e_britannia = {
 		holder = hanover_7	# Victoria
 	}
 	1901.1.22 = {
-		holder = hanover_10	# Edward VII
+		holder = wettin_34	# Edward VII
 	}
 	1910.5.6 = {
-		holder = hanover_11	# George V
+		holder = wettin_35	# George V
 	}
 }
 
@@ -117,6 +117,18 @@ e_france = {
 	}
 	1913.2.18 = {
 		holder = eur_01500	# Raymond Poincaré
+	}
+}
+
+e_germany = {
+	1871.1.18 = {
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
 	}
 }
 

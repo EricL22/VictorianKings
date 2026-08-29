@@ -24,7 +24,7 @@ d_pommerania = {
 	1840.6.7 = {
 		holder = hohenzollern_17	# Frederick William IV
 	}
-	1871.1.18 = {
+	1861.1.2 = {
 		holder = hohenzollern_18	# Wilhelm I
 	}
 	1888.3.9 = {
@@ -41,7 +41,7 @@ c_stettin = {
 	1840.6.7 = {
 		holder = hohenzollern_17	# Frederick William IV
 	}
-	1871.1.18 = {
+	1861.1.2 = {
 		holder = hohenzollern_18	# Wilhelm I
 	}
 	1888.3.9 = {
@@ -58,7 +58,7 @@ c_kolobrzeg = {
 	1840.6.7 = {
 		holder = hohenzollern_17	# Frederick William IV
 	}
-	1871.1.18 = {
+	1861.1.2 = {
 		holder = hohenzollern_18	# Wilhelm I
 	}
 	1888.3.9 = {
@@ -75,7 +75,7 @@ c_soldin = {
 	1840.6.7 = {
 		holder = hohenzollern_17	# Frederick William IV
 	}
-	1871.1.18 = {
+	1861.1.2 = {
 		holder = hohenzollern_18	# Wilhelm I
 	}
 	1888.3.9 = {
@@ -92,7 +92,7 @@ c_cammin = {
 	1840.6.7 = {
 		holder = hohenzollern_17	# Frederick William IV
 	}
-	1871.1.18 = {
+	1861.1.2 = {
 		holder = hohenzollern_18	# Wilhelm I
 	}
 	1888.3.9 = {
@@ -109,7 +109,7 @@ c_pila = {
 	1840.6.7 = {
 		holder = hohenzollern_17	# Frederick William IV
 	}
-	1871.1.18 = {
+	1861.1.2 = {
 		holder = hohenzollern_18	# Wilhelm I
 	}
 	1888.3.9 = {
@@ -126,7 +126,7 @@ c_landsberg = {
 	1840.6.7 = {
 		holder = hohenzollern_17	# Frederick William IV
 	}
-	1871.1.18 = {
+	1861.1.2 = {
 		holder = hohenzollern_18	# Wilhelm I
 	}
 	1888.3.9 = {
@@ -283,7 +283,7 @@ d_pomerelia = {
 	1840.6.7 = {
 		holder = hohenzollern_17	# Frederick William IV
 	}
-	1871.1.18 = {
+	1861.1.2 = {
 		holder = hohenzollern_18	# Wilhelm I
 	}
 	1888.3.9 = {
@@ -301,7 +301,7 @@ c_danzig = {
 	1840.6.7 = {
 		holder = hohenzollern_17	# Frederick William IV
 	}
-	1871.1.18 = {
+	1861.1.2 = {
 		holder = hohenzollern_18	# Wilhelm I
 	}
 	1888.3.9 = {
@@ -319,7 +319,7 @@ c_slupsk = {
 	1840.6.7 = {
 		holder = hohenzollern_17	# Frederick William IV
 	}
-	1871.1.18 = {
+	1861.1.2 = {
 		holder = hohenzollern_18	# Wilhelm I
 	}
 	1888.3.9 = {
@@ -337,7 +337,7 @@ c_miastko = {
 	1840.6.7 = {
 		holder = hohenzollern_17	# Frederick William IV
 	}
-	1871.1.18 = {
+	1861.1.2 = {
 		holder = hohenzollern_18	# Wilhelm I
 	}
 	1888.3.9 = {
@@ -355,7 +355,7 @@ c_berent = {
 	1840.6.7 = {
 		holder = hohenzollern_17	# Frederick William IV
 	}
-	1871.1.18 = {
+	1861.1.2 = {
 		holder = hohenzollern_18	# Wilhelm I
 	}
 	1888.3.9 = {
@@ -380,7 +380,7 @@ d_ostmark = {
 	1840.6.7 = {
 		holder = hohenzollern_17	# Frederick William IV
 	}
-	1871.1.18 = {
+	1861.1.2 = {
 		holder = hohenzollern_18	# Wilhelm I
 	}
 	1888.3.9 = {
@@ -442,7 +442,7 @@ c_brandenburg = {
 	1840.6.7 = {
 		holder = hohenzollern_17	# Frederick William IV
 	}
-	1871.1.18 = {
+	1861.1.2 = {
 		holder = hohenzollern_18	# Wilhelm I
 	}
 	1888.3.9 = {
@@ -459,7 +459,7 @@ c_ruppin = {
 	1840.6.7 = {
 		holder = hohenzollern_17	# Frederick William IV
 	}
-	1871.1.18 = {
+	1861.1.2 = {
 		holder = hohenzollern_18	# Wilhelm I
 	}
 	1888.3.9 = {
@@ -476,7 +476,7 @@ c_berlin = {
 	1840.6.7 = {
 		holder = hohenzollern_17	# Frederick William IV
 	}
-	1871.1.18 = {
+	1861.1.2 = {
 		holder = hohenzollern_18	# Wilhelm I
 	}
 	1888.3.9 = {
@@ -493,7 +493,7 @@ c_havelberg = {
 	1840.6.7 = {
 		holder = hohenzollern_17	# Frederick William IV
 	}
-	1871.1.18 = {
+	1861.1.2 = {
 		holder = hohenzollern_18	# Wilhelm I
 	}
 	1888.3.9 = {
@@ -510,7 +510,7 @@ c_prenzlau = {
 	1840.6.7 = {
 		holder = hohenzollern_17	# Frederick William IV
 	}
-	1871.1.18 = {
+	1861.1.2 = {
 		holder = hohenzollern_18	# Wilhelm I
 	}
 	1888.3.9 = {

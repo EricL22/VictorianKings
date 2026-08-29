@@ -176,7 +176,7 @@ k_prussia = {
 	1840.6.7 = {
 		holder = hohenzollern_17	# Frederick William IV
 	}
-	1871.1.18 = {
+	1861.1.2 = {
 		holder = hohenzollern_18	# Wilhelm I
 	}
 	1888.3.9 = {

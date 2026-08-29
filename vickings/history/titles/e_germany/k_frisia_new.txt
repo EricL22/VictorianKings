@@ -249,6 +249,15 @@ c_ostfriesland = {
 	1851.11.18 = {
 		holder = hanover_9	# George V
 	}
+	1866.9.20 = {	# Germany
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
+	}
 }
 c_frisia = {
 	1804.5.18 = {	# France

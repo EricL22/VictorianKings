@@ -296,37 +296,10 @@ hanover_9 = {
 		death = yes
 	}
 }
-####################
 
-hanover_10 = {
-	name = "Edward"	# VII of Britain
-	dynasty = 2001107
-	religion = protestant
-	culture = english
-	mother = hanover_7
-	1841.11.9 = {
-		birth = yes
-	}
-	1910.5.6 = {
-		death = yes
-	}
-}
+# hanover_10 -> wettin_34
+# hanover_11 -> wettin_35
 
-hanover_11 = {
-	name = "George"	# V of Britain
-	dynasty = 2001107
-	religion = protestant
-	culture = english
-	father = hanover_10
-	1865.6.3 = {
-		birth = yes
-	}
-	1936.1.20 = {
-		death = yes
-	}
-}
-
-## Hanoverian branch continued
 hanover_12 = {
 	name = "Ernest Augustus"
 	dynasty = 2001107

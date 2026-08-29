@@ -268,12 +268,24 @@ c_ansbach = {
 }
 c_coburg = {
 	1800.9.8 = {
-		holder = 9000040	# Francis
+		holder = wettin_30	# Francis
 		government = feudal_government
 	}
 	1806.12.9 = {
-		holder = 9000041	# Ernest III of Saxe-Coburg-Saalfeld
+		holder = wettin_31	# Ernest I of Saxe-Coburg and Gotha
 		liege = e_cdr
+	}
+	1844.1.29 = {
+		holder = wettin_32	# Ernest II
+	}
+	1871.1.18 = {
+		liege = e_germany
+	}
+	1893.8.22 = {
+		holder = wettin_36	# Alfred
+	}
+	1900.7.30 = {
+		holder = wettin_38	# Charles Edward
 	}
 }
 c_hohenlohe = {
@@ -398,6 +410,15 @@ d_hesse = {
 	1847.11.20 = {
 		holder = hesse_15	# Frederick William
 	}
+	1866.7.22 = {	# Germany
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
+	}
 }
 c_kassel = {
 	1807.7.8 = {	# Westphalia
@@ -411,6 +432,15 @@ c_kassel = {
 	}
 	1847.11.20 = {
 		holder = hesse_15	# Frederick William
+	}
+	1866.7.22 = {	# Germany
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
 	}
 }
 c_fulda = {
@@ -426,14 +456,35 @@ c_fulda = {
 	1847.11.20 = {
 		holder = hesse_15	# Frederick William
 	}
+	1866.7.22 = {	# Germany
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
+	}
 }
 c_nassau = {
 	1806.8.30 = {
-		holder = 9000034
+		holder = 9000034	# Frederick Augustus
 		liege = e_cdr
 	}
 	1816.3.24 = {
-		holder = 8000024
+		holder = 8000024	# William
+	}
+	1839.8.20 = {
+		holder = nassau_1	# Adolphe
+	}
+	1866.9.20 = {	# Germany
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
 	}
 }
 c_marburg = {
@@ -448,6 +499,15 @@ c_marburg = {
 	}
 	1847.11.20 = {
 		holder = hesse_15	# Frederick William
+	}
+	1866.7.22 = {	# Germany
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
 	}
 }
 d_currezia = {
@@ -781,7 +841,7 @@ c_halberstadt = {
 	1840.6.7 = {
 		holder = hohenzollern_17	# Frederick William IV
 	}
-	1871.1.18 = {
+	1861.1.2 = {
 		holder = hohenzollern_18	# Wilhelm I
 	}
 	1888.3.9 = {
@@ -805,7 +865,7 @@ c_magdeburg = {
 	1840.6.7 = {
 		holder = hohenzollern_17	# Frederick William IV
 	}
-	1871.1.18 = {
+	1861.1.2 = {
 		holder = hohenzollern_18	# Wilhelm I
 	}
 	1888.3.9 = {
@@ -857,7 +917,7 @@ c_mersenburg = {
 	1840.6.7 = {
 		holder = hohenzollern_17	# Frederick William IV
 	}
-	1871.1.18 = {
+	1861.1.2 = {
 		holder = hohenzollern_18	# Wilhelm I
 	}
 	1888.3.9 = {
@@ -869,21 +929,36 @@ c_mersenburg = {
 }
 d_thuringia = {
 	1758.1.1 = {
-		holder = 9000031	# Karl August
+		holder = wettin_20	# Karl August
 	}
 	1806.7.12 = {
 		liege = e_cdr
 	}
 	1828.6.14 = {
-		holder = 9100031	# Charles Frederick
+		holder = wettin_21	# Charles Frederick
+	}
+	1853.7.8 = {
+		holder = wettin_22	# Charles Alexander
+	}
+	1871.1.18 = {
+		liege = e_germany
+	}
+	1901.1.5 = {
+		holder = wettin_24	# William Ernest
 	}
 }
 c_schmalkalden = {
 	1758.1.1 = {
-		holder = 9000031	# Karl August
+		holder = wettin_20	# Karl August
 	}
 	1828.6.14 = {
-		holder = 9100031	# Charles Frederick
+		holder = wettin_21	# Charles Frederick
+	}
+	1853.7.8 = {
+		holder = wettin_22	# Charles Alexander
+	}
+	1901.1.5 = {
+		holder = wettin_24	# William Ernest
 	}
 }
 c_gottingen = {
@@ -906,28 +981,55 @@ c_gottingen = {
 	1851.11.18 = {
 		holder = hanover_9	# George V
 	}
+	1866.9.20 = {	# Germany
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
+	}
 }
 c_gleichenstein = {
 	1758.1.1 = {
-		holder = 9000031	# Karl August
+		holder = wettin_20	# Karl August
 	}
 	1828.6.14 = {
-		holder = 9100031	# Charles Frederick
+		holder = wettin_21	# Charles Frederick
+	}
+	1853.7.8 = {
+		holder = wettin_22	# Charles Alexander
+	}
+	1901.1.5 = {
+		holder = wettin_24	# William Ernest
 	}
 }
 c_orlamunde = {
 	1758.1.1 = {
-		holder = 9000031	# Karl August
+		holder = wettin_20	# Karl August
 	}
 	1828.6.14 = {
-		holder = 9100031	# Charles Frederick
+		holder = wettin_21	# Charles Frederick
+	}
+	1853.7.8 = {
+		holder = wettin_22	# Charles Alexander
+	}
+	1901.1.5 = {
+		holder = wettin_24	# William Ernest
 	}
 }
 c_lobdaburg = {
 	1758.1.1 = {
-		holder = 9000031	# Karl August
+		holder = wettin_20	# Karl August
 	}
 	1828.6.14 = {
-		holder = 9100031	# Charles Frederick
+		holder = wettin_21	# Charles Frederick
+	}
+	1853.7.8 = {
+		holder = wettin_22	# Charles Alexander
+	}
+	1901.1.5 = {
+		holder = wettin_24	# William Ernest
 	}
 }

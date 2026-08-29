@@ -43,3 +43,8 @@ house_saxe_coburg = {
 	name = "dynn_Saxe_Coburg"
 	dynasty = 1054#Hunfriding	528	# Wettin
 }
+
+house_meck_strelitz = {
+	name = "dynn_Meck_Strelitz"
+	dynasty = 101893	# Mecklenburg
+}

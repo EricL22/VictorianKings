@@ -40,21 +40,7 @@ d_nf_hanover = {
 		}
 	}
 	1901.1.22 = {
-		liege = e_britannia
-		holder = hanover_10	# Edward VII
-		government = administrative_government
-		succession_laws = { noble_family_succession_law }
-	}
-	1910.5.6 = {
-		liege = e_britannia
-		holder = hanover_11	# George V
-		government = administrative_government
-		succession_laws = { noble_family_succession_law }
-	}
-	1914.7.28 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1914.7.28 }
-		}
+		holder = 0
 	}
 }
 
@@ -143,6 +129,25 @@ d_nf_bourbon_orleans = {
 	}
 }
 
+d_nf_saxe_coburg = {
+	1901.1.22 = {
+		liege = e_britannia
+		holder = wettin_34	# Edward VII
+		government = administrative_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1910.5.6 = {
+		liege = e_britannia
+		holder = wettin_35	# George V
+		government = administrative_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1914.7.28 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1914.7.28 }
+		}
+	}
+}
 
 ### OTHER HISTORICAL CHARACTERS
 

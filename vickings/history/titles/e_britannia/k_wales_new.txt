@@ -12,10 +12,10 @@ d_gwynedd = {
 		holder = hanover_7	# Victoria
 	}
 	1901.1.22 = {
-		holder = hanover_10	# Edward VII
+		holder = wettin_34	# Edward VII
 	}
 	1910.5.6 = {
-		holder = hanover_11	# George V
+		holder = wettin_35	# George V
 	}
 }
 c_cardiganshire = {
@@ -32,10 +32,10 @@ c_cardiganshire = {
 		holder = hanover_7	# Victoria
 	}
 	1901.1.22 = {
-		holder = hanover_10	# Edward VII
+		holder = wettin_34	# Edward VII
 	}
 	1910.5.6 = {
-		holder = hanover_11	# George V
+		holder = wettin_35	# George V
 	}
 }
 c_merioneth = {
@@ -52,10 +52,10 @@ c_merioneth = {
 		holder = hanover_7	# Victoria
 	}
 	1901.1.22 = {
-		holder = hanover_10	# Edward VII
+		holder = wettin_34	# Edward VII
 	}
 	1910.5.6 = {
-		holder = hanover_11	# George V
+		holder = wettin_35	# George V
 	}
 }
 c_caernarfonshire = {
@@ -72,10 +72,10 @@ c_caernarfonshire = {
 		holder = hanover_7	# Victoria
 	}
 	1901.1.22 = {
-		holder = hanover_10	# Edward VII
+		holder = wettin_34	# Edward VII
 	}
 	1910.5.6 = {
-		holder = hanover_11	# George V
+		holder = wettin_35	# George V
 	}
 }
 c_anglesey = {
@@ -92,10 +92,10 @@ c_anglesey = {
 		holder = hanover_7	# Victoria
 	}
 	1901.1.22 = {
-		holder = hanover_10	# Edward VII
+		holder = wettin_34	# Edward VII
 	}
 	1910.5.6 = {
-		holder = hanover_11	# George V
+		holder = wettin_35	# George V
 	}
 }
 c_denbighshire = {
@@ -112,10 +112,10 @@ c_denbighshire = {
 		holder = hanover_7	# Victoria
 	}
 	1901.1.22 = {
-		holder = hanover_10	# Edward VII
+		holder = wettin_34	# Edward VII
 	}
 	1910.5.6 = {
-		holder = hanover_11	# George V
+		holder = wettin_35	# George V
 	}
 }
 #d_powys = {
@@ -134,10 +134,10 @@ c_maldwyn = {
 		holder = hanover_7	# Victoria
 	}
 	1901.1.22 = {
-		holder = hanover_10	# Edward VII
+		holder = wettin_34	# Edward VII
 	}
 	1910.5.6 = {
-		holder = hanover_11	# George V
+		holder = wettin_35	# George V
 	}
 }
 c_sir_faesyfed = {
@@ -154,10 +154,10 @@ c_sir_faesyfed = {
 		holder = hanover_7	# Victoria
 	}
 	1901.1.22 = {
-		holder = hanover_10	# Edward VII
+		holder = wettin_34	# Edward VII
 	}
 	1910.5.6 = {
-		holder = hanover_11	# George V
+		holder = wettin_35	# George V
 	}
 }
 c_hereford = {
@@ -174,10 +174,10 @@ c_hereford = {
 		holder = hanover_7	# Victoria
 	}
 	1901.1.22 = {
-		holder = hanover_10	# Edward VII
+		holder = wettin_34	# Edward VII
 	}
 	1910.5.6 = {
-		holder = hanover_11	# George V
+		holder = wettin_35	# George V
 	}
 }
 d_deheubarth = {
@@ -194,10 +194,10 @@ d_deheubarth = {
 		holder = hanover_7	# Victoria
 	}
 	1901.1.22 = {
-		holder = hanover_10	# Edward VII
+		holder = wettin_34	# Edward VII
 	}
 	1910.5.6 = {
-		holder = hanover_11	# George V
+		holder = wettin_35	# George V
 	}
 }
 c_carmarthenshire = {
@@ -214,10 +214,10 @@ c_carmarthenshire = {
 		holder = hanover_7	# Victoria
 	}
 	1901.1.22 = {
-		holder = hanover_10	# Edward VII
+		holder = wettin_34	# Edward VII
 	}
 	1910.5.6 = {
-		holder = hanover_11	# George V
+		holder = wettin_35	# George V
 	}
 }
 c_pembrokeshire = {
@@ -234,10 +234,10 @@ c_pembrokeshire = {
 		holder = hanover_7	# Victoria
 	}
 	1901.1.22 = {
-		holder = hanover_10	# Edward VII
+		holder = wettin_34	# Edward VII
 	}
 	1910.5.6 = {
-		holder = hanover_11	# George V
+		holder = wettin_35	# George V
 	}
 }
 c_glamorgan = {
@@ -254,10 +254,10 @@ c_glamorgan = {
 		holder = hanover_7	# Victoria
 	}
 	1901.1.22 = {
-		holder = hanover_10	# Edward VII
+		holder = wettin_34	# Edward VII
 	}
 	1910.5.6 = {
-		holder = hanover_11	# George V
+		holder = wettin_35	# George V
 	}
 }
 c_monmouthshire = {
@@ -274,10 +274,10 @@ c_monmouthshire = {
 		holder = hanover_7	# Victoria
 	}
 	1901.1.22 = {
-		holder = hanover_10	# Edward VII
+		holder = wettin_34	# Edward VII
 	}
 	1910.5.6 = {
-		holder = hanover_11	# George V
+		holder = wettin_35	# George V
 	}
 }
 c_brecknockshire = {
@@ -294,9 +294,9 @@ c_brecknockshire = {
 		holder = hanover_7	# Victoria
 	}
 	1901.1.22 = {
-		holder = hanover_10	# Edward VII
+		holder = wettin_34	# Edward VII
 	}
 	1910.5.6 = {
-		holder = hanover_11	# George V
+		holder = wettin_35	# George V
 	}
 }

@@ -51,6 +51,15 @@ c_minden = {
 	1851.11.18 = {
 		holder = hanover_9	# George V
 	}
+	1866.9.20 = {	# Germany
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
+	}
 }
 c_lippe = {
 	1807.7.8 = {	# Westphalia
@@ -70,6 +79,15 @@ c_lippe = {
 	}
 	1851.11.18 = {
 		holder = hanover_9	# George V
+	}
+	1866.9.20 = {	# Germany
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
 	}
 }
 c_bremen = {
@@ -91,6 +109,15 @@ c_bremen = {
 	1851.11.18 = {
 		holder = hanover_9	# George V
 	}
+	1866.9.20 = {	# Germany
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
+	}
 }
 c_wolpe = {
 	1807.7.8 = {	# Westphalia
@@ -110,6 +137,15 @@ c_wolpe = {
 	}
 	1851.11.18 = {
 		holder = hanover_9	# George V
+	}
+	1866.9.20 = {	# Germany
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
 	}
 }
 c_hannover = {
@@ -131,6 +167,15 @@ c_hannover = {
 	1851.11.18 = {
 		holder = hanover_9	# George V
 	}
+	1866.9.20 = {	# Germany
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
+	}
 }
 c_hildesheim = {
 	1807.7.8 = {	# Westphalia
@@ -150,6 +195,15 @@ c_hildesheim = {
 	}
 	1851.11.18 = {
 		holder = hanover_9	# George V
+	}
+	1866.9.20 = {	# Germany
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
 	}
 }
 c_oldenburg = {
@@ -171,6 +225,15 @@ c_oldenburg = {
 	1851.11.18 = {
 		holder = hanover_9	# George V
 	}
+	1866.9.20 = {	# Germany
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
+	}
 }
 d_westfalen = {
 	1814.10.12 = {
@@ -187,7 +250,7 @@ d_westfalen = {
 	1840.6.7 = {
 		holder = hohenzollern_17	# Frederick William IV
 	}
-	1871.1.18 = {
+	1861.1.2 = {
 		holder = hohenzollern_18	# Wilhelm I
 	}
 	1888.3.9 = {
@@ -216,6 +279,15 @@ c_osnabruck = {
 	1851.11.18 = {
 		holder = hanover_9	# George V
 	}
+	1866.9.20 = {	# Germany
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
+	}
 }
 c_tecklenburg = {
 	1804.5.18 = {	# France
@@ -236,6 +308,15 @@ c_tecklenburg = {
 	1851.11.18 = {
 		holder = hanover_9	# George V
 	}
+	1866.9.20 = {	# Germany
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
+	}
 }
 c_munster = {
 	1804.5.18 = {	# France
@@ -250,7 +331,7 @@ c_munster = {
 	1840.6.7 = {
 		holder = hohenzollern_17	# Frederick William IV
 	}
-	1871.1.18 = {
+	1861.1.2 = {
 		holder = hohenzollern_18	# Wilhelm I
 	}
 	1888.3.9 = {
@@ -273,7 +354,7 @@ c_waldeck = {
 	1840.6.7 = {
 		holder = hohenzollern_17	# Frederick William IV
 	}
-	1871.1.18 = {
+	1861.1.2 = {
 		holder = hohenzollern_18	# Wilhelm I
 	}
 	1888.3.9 = {
@@ -296,7 +377,7 @@ c_paderborn = {
 	1840.6.7 = {
 		holder = hohenzollern_17	# Frederick William IV
 	}
-	1871.1.18 = {
+	1861.1.2 = {
 		holder = hohenzollern_18	# Wilhelm I
 	}
 	1888.3.9 = {
@@ -329,6 +410,15 @@ c_luneburg = {
 	}
 	1851.11.18 = {
 		holder = hanover_9	# George V
+	}
+	1866.9.20 = {	# Germany
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
 	}
 }
 c_brunswick = {
@@ -387,6 +477,15 @@ c_dannenberg = {
 	1851.11.18 = {
 		holder = hanover_9	# George V
 	}
+	1866.9.20 = {	# Germany
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
+	}
 }
 c_stendal = {
 	1807.7.8 = {	# Westphalia
@@ -402,7 +501,7 @@ c_stendal = {
 	1840.6.7 = {
 		holder = hohenzollern_17	# Frederick William IV
 	}
-	1871.1.18 = {
+	1861.1.2 = {
 		holder = hohenzollern_18	# Wilhelm I
 	}
 	1888.3.9 = {
@@ -458,6 +557,15 @@ c_stade = {
 	}
 	1851.11.18 = {
 		holder = hanover_9	# George V
+	}
+	1866.9.20 = {	# Germany
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
 	}
 }
 c_ditmarschen = {

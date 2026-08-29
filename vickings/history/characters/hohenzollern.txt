@@ -256,7 +256,7 @@ hohenzollern_16 = {
 		add_realm_law_skip_effects = male_only_law
 	}
 	1797.12.24 = {
-		add_spouse = 9100050	# Louise of Mecklenburg-Strelitz
+		add_spouse = mecklenburg_23	# Louise of Mecklenburg-Strelitz
 	}
 	1818.1.1 = {
 		religion = protestant
@@ -290,7 +290,7 @@ hohenzollern_17 = {
 	religion = protestant
 	culture = german
 	father = hohenzollern_16
-	mother = 9100050
+	mother = mecklenburg_23
 	1795.10.15 = {
 		birth = yes
 	}
@@ -305,7 +305,7 @@ hohenzollern_18 = {
 	religion = protestant
 	culture = german
 	father = hohenzollern_16
-	mother = 9100050
+	mother = mecklenburg_23
 	1797.3.22 = {
 		birth = yes
 	}
@@ -348,7 +348,7 @@ hohenzollern_21 = {
 	religion = protestant
 	culture = german
 	father = hohenzollern_16
-	mother = 9100050
+	mother = mecklenburg_23
 	trait = education_martial_3
 	1801.6.29 = {
 		birth = yes
@@ -364,7 +364,7 @@ hohenzollern_21 = {
 	religion = reformed
 	culture = german
 	father = hohenzollern_16
-	mother = 9100050
+	mother = mecklenburg_23
 	female = yes
 	1798.7.13 = {
 		birth = yes

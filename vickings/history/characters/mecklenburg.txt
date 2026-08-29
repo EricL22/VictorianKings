@@ -195,11 +195,55 @@ mecklenburg_13 = {
 }
 
 ## Mecklenburg-Strelitz
-9100050 = {
-	name = "Luise"
+mecklenburg_20 = {
+	name = "Adolf Friedrich"	# II of Mecklenburg-Strelitz
 	dynasty = 101893
 	religion = protestant
 	culture = german
+	father = mecklenburg_0
+	1658.10.19 = {
+		birth = yes
+	}
+	1701.3.8 = {
+		dynasty_house = house_meck_strelitz
+	}
+	1708.5.12 = {
+		death = yes
+	}
+}
+mecklenburg_21 = {
+	name = "Karl Ludwig Friedrich"	# of Mecklenburg-Strelitz
+	dynasty_house = house_meck_strelitz
+	religion = protestant
+	culture = german
+	father = mecklenburg_20
+	1708.2.23 = {
+		birth = yes
+	}
+	1752.6.4 = {
+		death = yes
+	}
+}
+mecklenburg_22 = {
+	name = "Karl"	# II of Mecklenburg-Strelitz
+	dynasty_house = house_meck_strelitz
+	religion = protestant
+	culture = german
+	father = mecklenburg_21
+	1741.10.10 = {
+		birth = yes
+	}
+	1816.11.6 = {
+		death = yes
+	}
+}
+
+mecklenburg_23 = {
+	name = "Luise"
+	dynasty_house = house_meck_strelitz
+	religion = protestant
+	culture = german
+	father = mecklenburg_22
 	female = yes
 	1776.3.10 = {
 		birth = yes
