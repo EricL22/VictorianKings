@@ -119,8 +119,14 @@ k_spain = {
 
 k_belgium = {
 	1831.7.21 = {
-		holder = 8000034	# Leopold I
+		holder = wettin_40	# Leopold I
 		de_jure_liege = e_germany
+	}
+	1865.12.17 = {
+		holder = wettin_41	# Leopold II
+	}
+	1909.12.23 = {
+		holder = wettin_43	# Albert I
 	}
 }
 

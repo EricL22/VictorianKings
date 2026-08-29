@@ -141,7 +141,7 @@ hanover_5 = {
 		birth = yes
 	}
 	1818.7.11 = {
-		add_spouse = eur_00200
+		add_spouse = wettin_50	# Adelaide of Saxe-Meiningen
 	}
 	1830.6.26 = {
 		effect = {

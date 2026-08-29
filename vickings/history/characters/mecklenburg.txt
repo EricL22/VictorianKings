@@ -211,6 +211,7 @@ mecklenburg_20 = {
 		death = yes
 	}
 }
+
 mecklenburg_21 = {
 	name = "Karl Ludwig Friedrich"	# of Mecklenburg-Strelitz
 	dynasty_house = house_meck_strelitz
@@ -224,6 +225,7 @@ mecklenburg_21 = {
 		death = yes
 	}
 }
+
 mecklenburg_22 = {
 	name = "Karl"	# II of Mecklenburg-Strelitz
 	dynasty_house = house_meck_strelitz
@@ -238,6 +240,7 @@ mecklenburg_22 = {
 	}
 }
 
+# Wife of Frederick William III (Prussia)
 mecklenburg_23 = {
 	name = "Luise"
 	dynasty_house = house_meck_strelitz

@@ -567,7 +567,7 @@ c_zurich = {
 	}
 }
 d_alsace = {
-	1804.5.18 = {
+	1804.5.18 = {	# France
 		holder = bonaparte_2	# Napoleon I
 	}
 	1814.4.6 = {
@@ -582,12 +582,18 @@ d_alsace = {
 	1852.12.2 = {
 		holder = bonaparte_7	# Napoleon III
 	}
-	1913.2.18 = {
-		holder = eur_01500	# Raymond Poincaré
+	1871.1.28 = {	# Germany
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
 	}
 }
 c_strassburg = {
-	1804.5.18 = {
+	1804.5.18 = {	# France
 		holder = bonaparte_2	# Napoleon I
 	}
 	1814.4.6 = {
@@ -602,8 +608,14 @@ c_strassburg = {
 	1852.12.2 = {
 		holder = bonaparte_7	# Napoleon III
 	}
-	1913.2.18 = {
-		holder = eur_01500	# Raymond Poincaré
+	1871.1.28 = {	# Germany
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
 	}
 }
 c_breisgau = {
@@ -632,7 +644,7 @@ c_breisgau = {
 	}
 }
 c_colmar = {
-	1804.5.18 = {
+	1804.5.18 = {	# France
 		holder = bonaparte_2	# Napoleon I
 	}
 	1814.4.6 = {
@@ -647,12 +659,18 @@ c_colmar = {
 	1852.12.2 = {
 		holder = bonaparte_7	# Napoleon III
 	}
-	1913.2.18 = {
-		holder = eur_01500	# Raymond Poincaré
+	1871.1.28 = {	# Germany
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
 	}
 }
 c_sundgau = {
-	1804.5.18 = {
+	1804.5.18 = {	# France
 		holder = bonaparte_2	# Napoleon I
 	}
 	1814.4.6 = {
@@ -667,8 +685,14 @@ c_sundgau = {
 	1852.12.2 = {
 		holder = bonaparte_7	# Napoleon III
 	}
-	1913.2.18 = {
-		holder = eur_01500	# Raymond Poincaré
+	1871.1.28 = {	# Germany
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
 	}
 }
 d_swabia = {

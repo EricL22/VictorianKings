@@ -1012,8 +1012,14 @@ d_flanders = {
 		holder = orange_0	# William I
 	}
 	1831.7.21 = {	# Belgium
-		holder = 8000034	# Leopold I
+		holder = wettin_40	# Leopold I
 		de_jure_liege = k_belgium
+	}
+	1865.12.17 = {
+		holder = wettin_41	# Leopold II
+	}
+	1909.12.23 = {
+		holder = wettin_43	# Albert I
 	}
 }
 c_brugge = {
@@ -1024,7 +1030,13 @@ c_brugge = {
 		holder = orange_0	# William I
 	}
 	1831.7.21 = {	# Belgium
-		holder = 8000034
+		holder = wettin_40	# Leopold I
+	}
+	1865.12.17 = {
+		holder = wettin_41	# Leopold II
+	}
+	1909.12.23 = {
+		holder = wettin_43	# Albert I
 	}
 }
 c_yperen = {
@@ -1035,7 +1047,13 @@ c_yperen = {
 		holder = orange_0	# William I
 	}
 	1831.7.21 = {	# Belgium
-		holder = 8000034
+		holder = wettin_40	# Leopold I
+	}
+	1865.12.17 = {
+		holder = wettin_41	# Leopold II
+	}
+	1909.12.23 = {
+		holder = wettin_43	# Albert I
 	}
 }
 c_guines = {

@@ -104,6 +104,7 @@ hesse_11 = {
 	}
 }
 
+# Wife of Frederick VI (Denmark)
 hesse_12 = {
 	name = "Maria"	# of Hesse-Kassel
 	religion = protestant

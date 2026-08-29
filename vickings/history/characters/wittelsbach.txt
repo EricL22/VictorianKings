@@ -21,7 +21,7 @@ wittelsbach_1 = {
 		birth = yes
 	}
 	1810.10.12 = {
-		add_spouse = 8000064	# Therese of Saxe-Hildburghausen
+		add_spouse = wettin_60	# Therese of Saxe-Hildburghausen
 	}
 	1825.10.13 = {
 		effect = {
@@ -39,7 +39,7 @@ wittelsbach_2 = {
 	religion = catholic
 	culture = bavarian
 	father = wittelsbach_1
-	mother = 8000064
+	mother = wettin_60
 	1811.11.28 = {
 		birth = yes
 	}
@@ -86,7 +86,7 @@ wittelsbach_4 = {
 	religion = catholic
 	culture = bavarian
 	father = wittelsbach_1
-	mother = 8000064
+	mother = wettin_60
 	trait = education_diplomacy_1
 	1815.6.1 = {
 		birth = yes
@@ -105,7 +105,7 @@ wittelsbach_6 = {
 	religion = catholic
 	culture = bavarian
 	father = wittelsbach_1
-	mother = 8000064
+	mother = wettin_60
 	1821.3.12 = {
 		birth = yes
 	}
@@ -134,7 +134,7 @@ wittelsbach_8 = {
 	religion = catholic
 	culture = bavarian
 	father = wittelsbach_1
-	mother = 8000064
+	mother = wettin_60
 	1828.7.19 = {
 		birth = yes
 	}

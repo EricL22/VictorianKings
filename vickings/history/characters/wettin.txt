@@ -353,7 +353,7 @@ wettin_38 = {
 	}
 }
 
-8000034 = {
+wettin_40 = {
 	name = "Leopold"	# I of Belgium
 	dynasty_house = house_saxe_coburg
 	religion = protestant
@@ -370,12 +370,12 @@ wettin_38 = {
 	}
 }
 
-8000037 = {
+wettin_41 = {
 	name = "Leopold"	# II of Belgium
 	dynasty_house = house_saxe_coburg
 	religion = catholic
-	culture = franconian
-	father = 8000034
+	culture = french
+	father = wettin_40
 	mother = bourbon_33
 	trait = sadistic
 	trait = zealous
@@ -392,8 +392,37 @@ wettin_38 = {
 	}
 }
 
+wettin_42 = {
+	name = "Philippe"	# Count of Flanders
+	dynasty_house = house_saxe_coburg
+	religion = catholic
+	culture = french
+	father = wettin_40
+	mother = bourbon_33
+	1837.3.24 = {
+		birth = yes
+	}
+	1905.11.17 = {
+		death = yes
+	}
+}
+
+wettin_43 = {
+	name = "Albert"	# I of Belgium
+	dynasty_house = house_saxe_coburg
+	religion = catholic
+	culture = french
+	father = wettin_42
+	1875.4.8 = {
+		birth = yes
+	}
+	1934.2.17 = {
+		death = yes
+	}
+}
+
 # Wife of William IV (United Kingdom)
-eur_00200 = {
+wettin_50 = {
 	name = "Adelheid"
 	dynasty_house = house_saxe_meiningen
 	religion = protestant
@@ -415,7 +444,7 @@ eur_00200 = {
 }
 
 # Wife of Ludwig I (Bavaria)
-8000064 = {
+wettin_60 = {
 	name = "Therese"
 	dynasty_house = house_wettin
 	religion = protestant
