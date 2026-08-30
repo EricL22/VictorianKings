@@ -520,17 +520,20 @@ c_grisons = {
 #		government = republic_government
 #	}
 	1812.1.1 = {
-		holder = 6510006
+		holder = swiss_30	# Johann Georg von Toggenburg
 		liege = k_switzerland
 	}
 	1815.1.1 = {
-		holder = 6510008
+		holder = swiss_31	# Johann Plazidus Caderas
 	}
 	1836.1.1 = {
-		holder = 6510007
+		holder = swiss_32	# Anton Philipp Ganzoni
 	}
 	1861.1.1 = {
-		holder = 6510020
+		holder = swiss_70	# Melchior Joseph Martin Knüsel
+	}
+	1914.1.1 = {
+		holder = swiss_71	# Hermann Arthur Hoffmann
 	}
 }
 c_sankt_gallen = {
@@ -538,11 +541,17 @@ c_sankt_gallen = {
 #		government = republic_government
 #	}
 	1803.3.10 = {
-		holder = 6510012
+		holder = swiss_40	# Karl Müller von Friedberg
 		liege = k_switzerland
 	}
 	1836.1.1 = {
-		holder = 6510014
+		holder = swiss_41	# Wilhelm Mathias Naef
+	}
+	1861.1.1 = {
+		holder = swiss_70	# Melchior Joseph Martin Knüsel
+	}
+	1914.1.1 = {
+		holder = swiss_71	# Hermann Arthur Hoffmann
 	}
 }
 c_zurich = {
@@ -550,20 +559,20 @@ c_zurich = {
 #		government = republic_government
 #	}
 	1803.4.21 = {
-		holder = 6510009
-		liege = k_switzerland
-	}
-	1812.1.1 = {	# ruler of Basel, needs an entire county to control Switzerland
-		holder = 6510002
+		holder = swiss_0	# Hans von Reinhard (president)
 	}
 	1814.12.16 = {
-		holder = 6510000
+		holder = swiss_1	# David von Wyss II (president)
 	}
 	1832.3.20 = {
-		holder = 6510004
+		holder = swiss_2	# Konrad Melchior Hirzel
+		liege = k_switzerland
 	}
 	1861.1.1 = {
-		holder = 6510021
+		holder = swiss_70	# Melchior Joseph Martin Knüsel
+	}
+	1914.1.1 = {
+		holder = swiss_71	# Hermann Arthur Hoffmann
 	}
 }
 d_alsace = {

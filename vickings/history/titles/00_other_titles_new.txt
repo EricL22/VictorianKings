@@ -136,20 +136,23 @@ k_switzerland = {
 	1806.8.6 = {
 		de_jure_liege = e_germany
 	}
-	1812.1.1 = {
-		holder = 6510002
+	1803.1.1 = {
+		holder = swiss_0	# Hans von Reinhard
 	}
 	1814.12.16 = {
-		holder = 6510000
+		holder = swiss_1	# David von Wyss II
 	}
 	1836.1.1 = {
-		holder = 6510005
+		holder = swiss_11	# Karl Friedrich Tscharner
 	}
 #	1848.9.12 = {
 #		government = republic_government
 #	}
 	1861.1.1 = {
-		holder = 6510022
+		holder = swiss_70	# Melchior Joseph Martin Knüsel
+	}
+	1914.1.1 = {
+		holder = swiss_71	# Hermann Arthur Hoffmann
 	}
 }
 

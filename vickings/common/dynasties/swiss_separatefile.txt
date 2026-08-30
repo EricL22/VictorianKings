@@ -107,3 +107,26 @@ knusel = {
     name = "dynn_Knusel"
     culture = "german"
 }
+
+reinhard = {
+    prefix = "dynnp_von"
+    name = "dynn_Reinhard"
+    culture = "german"
+}
+
+hoffmann = {
+    name = "dynn_Hoffmann"
+    culture = "german"
+}
+
+pierre = {
+    prefix = "dynnp_de"
+    name = "dynn_Pierre"
+    culture = "french"
+}
+
+chambrier = {
+    prefix = "dynnp_de"
+    name = "dynn_Chambrier"
+    culture = "french"
+}

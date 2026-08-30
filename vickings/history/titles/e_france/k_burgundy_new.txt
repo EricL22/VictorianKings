@@ -213,11 +213,11 @@ c_aosta = {
 	}
 }
 c_geneva = {
-	1804.5.18 = {
+	1804.5.18 = {	# France
 		holder = bonaparte_2	# Napoleon I
 	}
-	1814.10.12 = {
-		holder = 6510010
+	1814.10.12 = {	# Switzerland
+		holder = swiss_60	# Ami Lullin
 		de_jure_liege = d_transjurania
 	}
 	1815.5.19 = {
@@ -225,10 +225,13 @@ c_geneva = {
 #		government = republic_government
 	}
 	1834.1.1 = {
-		holder = 6510011
+		holder = swiss_61	# Jean-Louis Rieu
 	}
 	1860.11.28 = {
-		holder = 6510019
+		holder = swiss_70	# Melchior Joseph Martin Knüsel
+	}
+	1914.1.1 = {
+		holder = swiss_71	# Hermann Arthur Hoffmann
 	}
 }
 c_canavese = {
@@ -451,15 +454,18 @@ d_transjurania = {
 }
 c_bern = {
 	1803.2.19 = {
-		holder = 6510001
+		holder = swiss_10	# Niklaus Rudolf von Wattenwyl
 		liege = k_switzerland
 #		government = republic_government
 	}
 	1831.10.20 = {
-		holder = 6510005
+		holder = swiss_11	# Karl Friedrich Tscharner (president)
 	}
 	1861.1.1 = {
-		holder = 6510018
+		holder = swiss_70	# Melchior Joseph Martin Knüsel
+	}
+	1914.1.1 = {
+		holder = swiss_71	# Hermann Arthur Hoffmann
 	}
 }
 c_aargau = {
@@ -467,30 +473,39 @@ c_aargau = {
 #		government = republic_government
 #	}
 	1803.4.26 = {
-		holder = 6510015
+		holder = swiss_20	# Johann Karl Fetzer
 		liege = k_switzerland
 	}
 	1836.1.1 = {
-		holder = 6510016
+		holder = swiss_21	# Josef Fidel Wieland
 	}
 	1861.1.1 = {
-		holder = 6510017
+		holder = swiss_70	# Melchior Joseph Martin Knüsel
+	}
+	1914.1.1 = {
+		holder = swiss_71	# Hermann Arthur Hoffmann
 	}
 }
 c_neuchatel = {
-	1804.5.18 = {
+	1804.5.18 = {	# France
 		holder = bonaparte_2	# Napoleon I
 	}
 	1815.5.19 = {
 		liege = k_switzerland
 	}
-	1815.6.1 = {
-		holder = 6510002
+	1815.6.1 = {	# Switzerland
+		holder = swiss_50	# Charles-Louis de Pierre
+	}
+	1836.1.1 = {
+		holder = swiss_51	# Frédéric-Alexandre
 	}
 #	1848.3.2 = {
 #		government = republic_government
 #	}
 	1861.1.1 = {
-		holder = 6510022
+		holder = swiss_70	# Melchior Joseph Martin Knüsel
+	}
+	1914.1.1 = {
+		holder = swiss_71	# Hermann Arthur Hoffmann
 	}
 }

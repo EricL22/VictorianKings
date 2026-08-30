@@ -17,6 +17,10 @@
  dynn_Meck_Strelitz: "Mecklenburg-Strelitz"
 
  dynn_PoincarE_: "Poincaré"
+ dynn_Reinhard: "Reinhard"
+ dynn_Hoffmann: "Hoffmann"
+ dynn_Pierre: "Pierre"
+ dynn_Chambrier: "Chambrier"
 
  # Mottos
  dynn_Bonaparte_motto:0 "Everything for the People"
