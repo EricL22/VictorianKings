@@ -449,3 +449,17 @@ savoy_30 = {
 		death = yes
 	}
 }
+
+savoy_31 = {
+	name = "Umberto"	# II of Italy
+	dynasty_house = house_carignano
+	religion = catholic
+	culture = italian
+	father = savoy_29
+	1904.9.15 = {
+		birth = yes
+	}
+	1983.3.18 = {
+		death = yes
+	}
+}

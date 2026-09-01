@@ -2,6 +2,7 @@
 # UNITED KINGDOM   #
 # FRANCE           #
 # SPAIN            #
+# PORTUGAL         #
 # SWITZERLAND      #
 ####################
 
@@ -516,12 +517,30 @@ eur_02307 = {
 
 
 ####################
+#  PORTUGAL  #
+####################
+# 1914 bookmark
+# President of Portugal, 1911-1915
+eur_03500 = {
+	name = "Manuel"
+	dynasty = arriaga
+	culture = portuguese
+	religion = catholic
+	1840.7.8 = {
+		birth = yes
+	}
+	1917.3.5 = {
+		death = yes
+	}
+}
+####################
+
+
+
+####################
 #  SWITZERLAND  #
 ####################
 # **Unsorted**
-
-
-
 
 #Rulers Aargau 1861
 6510017 = {

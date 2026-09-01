@@ -893,3 +893,46 @@ bourbon_52 = {
 		death = yes
 	}
 }
+
+bourbon_53 = {
+	name = "Alfonso"	# Prince of Asturias
+	dynasty = 100146
+	religion = catholic
+	culture = castilian
+	father = bourbon_42
+	trait = bleeder
+	1907.5.10 = {
+		birth = yes
+	}
+	1938.9.6 = {
+		death = yes
+	}
+}
+
+bourbon_54 = {
+	name = "Jaime"	# Duke of Segovia
+	dynasty = 100146
+	religion = catholic
+	culture = castilian
+	father = bourbon_42
+	1908.6.23 = {
+		birth = yes
+	}
+	1975.3.20 = {
+		death = yes
+	}
+}
+
+bourbon_55 = {
+	name = "Juan"	# Count of Barcelona
+	dynasty = 100146
+	religion = catholic
+	culture = castilian
+	father = bourbon_42
+	1913.6.20 = {
+		birth = yes
+	}
+	1993.4.7 = {
+		death = yes
+	}
+}

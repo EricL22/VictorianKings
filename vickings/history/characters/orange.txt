@@ -53,3 +53,18 @@ orange_3 = {
 		death = yes
 	}
 }
+
+orange_4 = {
+	name = "Juliana"
+	dynasty = 7248
+	religion = reformed
+	culture = dutch
+	mother = orange_3
+	female = yes
+	1909.4.30 = {
+		birth = yes
+	}
+	2004.3.20 = {
+		death = yes
+	}
+}

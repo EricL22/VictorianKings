@@ -121,6 +121,19 @@ wettin_8 = {
 	}
 }
 
+wettin_9 = {
+	name = "Georg"	# prince of Saxony
+	dynasty_house = house_wettin
+	religion = catholic
+	culture = saxon
+	father = wettin_8
+	1893.1.15 = {
+		birth = yes
+	}
+	1943.5.14 = {
+		death = yes
+	}
+}
 
 wettin_10 = {
 	name = "Frederik August"	# Elector of Saxony
@@ -215,6 +228,20 @@ wettin_24 = {
 		birth = yes
 	}
 	1923.4.24 = {
+		death = yes
+	}
+}
+
+wettin_25 = {
+	name = "Karl August"	# of Saxe-Weimar-Eisenach
+	dynasty_house = house_saxe_weimar
+	religion = protestant
+	culture = saxon
+	father = wettin_24
+	1912.7.28 = {
+		birth = yes
+	}
+	1988.10.14 = {
 		death = yes
 	}
 }
@@ -353,6 +380,20 @@ wettin_38 = {
 	}
 }
 
+wettin_39 = {
+	name = "Johann Leopold"	# prince of Saxe-Coburg and Gotha
+	dynasty_house = house_saxe_coburg
+	religion = protestant
+	culture = franconian
+	father = wettin_38
+	1906.8.2 = {
+		birth = yes
+	}
+	1972.5.4 = {
+		death = yes
+	}
+}
+
 wettin_40 = {
 	name = "Leopold"	# I of Belgium
 	dynasty_house = house_saxe_coburg
@@ -421,6 +462,20 @@ wettin_43 = {
 	}
 }
 
+wettin_44 = {
+	name = "Leopold"	# III of Belgium
+	dynasty_house = house_saxe_coburg
+	religion = catholic
+	culture = french
+	father = wettin_43
+	1901.11.3 = {
+		birth = yes
+	}
+	1983.9.25 = {
+		death = yes
+	}
+}
+
 # Wife of William IV (United Kingdom)
 wettin_50 = {
 	name = "Adelheid"
@@ -439,6 +494,34 @@ wettin_50 = {
 		fertility = 0.2
 	}
 	1849.12.2 = {
+		death = yes
+	}
+}
+
+wettin_51 = {
+	name = "Edward"	# VIII of Britain
+	dynasty_house = house_saxe_coburg
+	religion = protestant
+	culture = english
+	father = wettin_35
+	1894.6.23 = {
+		birth = yes
+	}
+	1972.5.28 = {
+		death = yes
+	}
+}
+
+wettin_52 = {
+	name = "George"	# VI of Britain
+	dynasty_house = house_saxe_coburg
+	religion = protestant
+	culture = english
+	father = wettin_35
+	1895.12.14 = {
+		birth = yes
+	}
+	1952.2.6 = {
 		death = yes
 	}
 }

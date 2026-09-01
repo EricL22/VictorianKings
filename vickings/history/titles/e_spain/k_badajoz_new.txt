@@ -10,6 +10,9 @@ c_lisboa = {
 	1853.11.15 = {
 		holder = braganza_12	# Peter V
 	}
+	1911.8.24 = {
+		holder = eur_03500	# Manuel de Arriaga
+	}
 }
 c_beja = {
 	1777.2.24 = {
@@ -20,6 +23,9 @@ c_beja = {
 	}
 	1853.11.15 = {
 		holder = braganza_12	# Peter V
+	}
+	1911.8.24 = {
+		holder = eur_03500	# Manuel de Arriaga
 	}
 }
 c_alcacer_do_sal = {
@@ -32,6 +38,9 @@ c_alcacer_do_sal = {
 	1853.11.15 = {
 		holder = braganza_12	# Peter V
 	}
+	1911.8.24 = {
+		holder = eur_03500	# Manuel de Arriaga
+	}
 }
 c_elvas = {
 	1777.2.24 = {
@@ -42,6 +51,9 @@ c_elvas = {
 	}
 	1853.11.15 = {
 		holder = braganza_12	# Peter V
+	}
+	1911.8.24 = {
+		holder = eur_03500	# Manuel de Arriaga
 	}
 }
 d_badajoz = {
@@ -131,6 +143,9 @@ c_faro = {
 	1853.11.15 = {
 		holder = braganza_12	# Peter V
 	}
+	1911.8.24 = {
+		holder = eur_03500	# Manuel de Arriaga
+	}
 }
 c_silves = {
 	1777.2.24 = {
@@ -141,5 +156,8 @@ c_silves = {
 	}
 	1853.11.15 = {
 		holder = braganza_12	# Peter V
+	}
+	1911.8.24 = {
+		holder = eur_03500	# Manuel de Arriaga
 	}
 }

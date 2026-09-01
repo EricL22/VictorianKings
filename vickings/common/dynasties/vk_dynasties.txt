@@ -31,3 +31,9 @@ eur_252E_0 = {
 	name = "dynn_Bernadotte"
 	culture = swedish
 }
+
+arriaga = {
+    prefix = "dynnp_de"
+    name = "dynn_Arriaga"
+    culture = "portuguese"
+}
