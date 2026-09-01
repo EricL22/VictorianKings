@@ -402,12 +402,15 @@ oldenburg_27 = {
 	1778.11.1 = {
 		birth = yes
 	}
+	1809.5.10 = {
+		trait = disinherited	# excluded from succession by the Swedish Riksdag
+	}
 	1837.2.7 = {
 		death = yes
 	}
 }
 
-9000016 = {
+oldenburg_28 = {
 	name = "Karl"	# XIII of Sweden
 	dynasty_house = house_hols_gott
 	religion = protestant
@@ -416,9 +419,6 @@ oldenburg_27 = {
 	1748.10.7 = {
 		birth = yes
 	}
-#	1810.11.2 = {
-#		recruit_courtier = character:9000038	# Charles XIV John
-#	}
 	1812.1.1 = {
 		effect = {
 			add_realm_law_skip_effects = crown_authority_1
@@ -612,6 +612,42 @@ oldenburg_41 = {
 		birth = yes
 	}
 	1972.1.14 = {
+		death = yes
+	}
+}
+
+oldenburg_42 = {
+	name = "Karl"	# prince of Denmark
+	dynasty_house = house_schles_hols_gluck
+	religion = protestant
+	culture = danish
+	father = oldenburg_39
+	1872.8.3 = {
+		birth = yes
+	}
+	1905.9.18 = {
+		name = "HA__kon"	# VII of Norway
+		culture = norwegian
+	}
+	1957.9.21 = {
+		death = yes
+	}
+}
+
+oldenburg_43 = {
+	name = "Alexander"	# prince of Denmark
+	dynasty_house = house_schles_hols_gluck
+	religion = protestant
+	culture = danish
+	father = oldenburg_42
+	1903.7.2 = {
+		birth = yes
+	}
+	1905.9.18 = {
+		name = "O_lafr"	# V of Norway
+		culture = norwegian
+	}
+	1991.1.17 = {
 		death = yes
 	}
 }

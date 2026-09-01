@@ -1,0 +1,27 @@
+﻿bjalbo_0 = {
+	name = "HA_kan"	# VI of Norway
+	dynasty = 155
+	religion = catholic
+	culture = swedish
+	father = 450500
+	1340.8.15 = {
+		birth = yes
+	}
+	1380.9.11 = {
+		death = yes
+	}
+}
+
+bjalbo_1 = {
+	name = "O_lafr"	# IV of Norway
+	dynasty = 155
+	religion = catholic
+	culture = norwegian
+	father = bjalbo_0
+	1370.12.1 = {
+		birth = yes
+	}
+	1387.8.23 = {
+		death = yes
+	}
+}

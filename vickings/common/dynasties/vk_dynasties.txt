@@ -26,3 +26,8 @@ eur_41C2_0 = {
 	name = "dynn_Dalberg"
 	culture = franconian
 }
+
+eur_252E_0 = {
+	name = "dynn_Bernadotte"
+	culture = swedish
+}

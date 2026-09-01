@@ -1,0 +1,323 @@
+d_aarjetje = {
+	1800.1.1 = {
+		de_jure_liege = k_sweden
+	}
+}
+c_sjeltie = {
+	1809.6.6 = {
+		holder = oldenburg_28	# Charles XIII
+	}
+	1818.2.5 = {
+		holder = bernadotte_0	# Charles XIV John
+	}
+	1844.3.8 = {
+		holder = bernadotte_1	# Oscar I
+	}
+	1859.7.8 = {
+		holder = bernadotte_2	# Charles XV
+	}
+	1872.9.18 = {
+		holder = bernadotte_3	# Oscar II
+	}
+	1907.12.8 = {
+		holder = bernadotte_4	# Gustaf V
+	}
+}
+c_ubmejeiednuo = {
+	1809.6.6 = {
+		holder = oldenburg_28	# Charles XIII
+	}
+	1818.2.5 = {
+		holder = bernadotte_0	# Charles XIV John
+	}
+	1844.3.8 = {
+		holder = bernadotte_1	# Oscar I
+	}
+	1859.7.8 = {
+		holder = bernadotte_2	# Charles XV
+	}
+	1872.9.18 = {
+		holder = bernadotte_3	# Oscar II
+	}
+	1907.12.8 = {
+		holder = bernadotte_4	# Gustaf V
+	}
+}
+c_pite = {
+	1809.6.6 = {
+		holder = oldenburg_28	# Charles XIII
+	}
+	1818.2.5 = {
+		holder = bernadotte_0	# Charles XIV John
+	}
+	1844.3.8 = {
+		holder = bernadotte_1	# Oscar I
+	}
+	1859.7.8 = {
+		holder = bernadotte_2	# Charles XV
+	}
+	1872.9.18 = {
+		holder = bernadotte_3	# Oscar II
+	}
+	1907.12.8 = {
+		holder = bernadotte_4	# Gustaf V
+	}
+}
+c_jahkamakke = {
+	1809.6.6 = {
+		holder = oldenburg_28	# Charles XIII
+	}
+	1818.2.5 = {
+		holder = bernadotte_0	# Charles XIV John
+	}
+	1844.3.8 = {
+		holder = bernadotte_1	# Oscar I
+	}
+	1859.7.8 = {
+		holder = bernadotte_2	# Charles XV
+	}
+	1872.9.18 = {
+		holder = bernadotte_3	# Oscar II
+	}
+	1907.12.8 = {
+		holder = bernadotte_4	# Gustaf V
+	}
+}
+d_vuovdisamieana = {
+	1800.1.1 = {
+		de_jure_liege = k_sweden
+	}
+}
+c_biton = {
+	1809.6.6 = {
+		holder = oldenburg_28	# Charles XIII
+	}
+	1818.2.5 = {
+		holder = bernadotte_0	# Charles XIV John
+	}
+	1844.3.8 = {
+		holder = bernadotte_1	# Oscar I
+	}
+	1859.7.8 = {
+		holder = bernadotte_2	# Charles XV
+	}
+	1872.9.18 = {
+		holder = bernadotte_3	# Oscar II
+	}
+	1907.12.8 = {
+		holder = bernadotte_4	# Gustaf V
+	}
+}
+c_julevadno = {
+	1809.6.6 = {
+		holder = oldenburg_28	# Charles XIII
+	}
+	1818.2.5 = {
+		holder = bernadotte_0	# Charles XIV John
+	}
+	1844.3.8 = {
+		holder = bernadotte_1	# Oscar I
+	}
+	1859.7.8 = {
+		holder = bernadotte_2	# Charles XV
+	}
+	1872.9.18 = {
+		holder = bernadotte_3	# Oscar II
+	}
+	1907.12.8 = {
+		holder = bernadotte_4	# Gustaf V
+	}
+}
+c_kittila = {
+	1800.1.1 = {
+		de_jure_liege = d_giemajohka
+	}
+}
+c_torne = {
+	1809.6.6 = {
+		holder = oldenburg_28	# Charles XIII
+	}
+	1818.2.5 = {
+		holder = bernadotte_0	# Charles XIV John
+	}
+	1844.3.8 = {
+		holder = bernadotte_1	# Oscar I
+	}
+	1859.7.8 = {
+		holder = bernadotte_2	# Charles XV
+	}
+	1872.9.18 = {
+		holder = bernadotte_3	# Oscar II
+	}
+	1907.12.8 = {
+		holder = bernadotte_4	# Gustaf V
+	}
+}
+d_duortnoseatnu = {
+	1800.1.1 = {
+		de_jure_liege = k_norway
+		effect = { set_capital_county = title:c_rounala }
+	}
+}
+c_siggevara = {
+	1800.1.1 = {
+		de_jure_liege = d_aarjetje
+	}
+	1809.6.6 = {
+		holder = oldenburg_28	# Charles XIII
+	}
+	1818.2.5 = {
+		holder = bernadotte_0	# Charles XIV John
+	}
+	1844.3.8 = {
+		holder = bernadotte_1	# Oscar I
+	}
+	1859.7.8 = {
+		holder = bernadotte_2	# Charles XV
+	}
+	1872.9.18 = {
+		holder = bernadotte_3	# Oscar II
+	}
+	1907.12.8 = {
+		holder = bernadotte_4	# Gustaf V
+	}
+}
+c_suondavara = {
+	1800.1.1 = {
+		de_jure_liege = d_giemajohka
+	}
+}
+c_rounala = {
+	1808.3.13 = {
+		holder = oldenburg_15	# Frederick VI
+	}
+	1814.11.4 = {
+		holder = oldenburg_28	# Charles II
+	}
+	1818.2.5 = {
+		holder = bernadotte_0	# Charles III John
+	}
+	1844.3.8 = {
+		holder = bernadotte_1	# Oscar I
+	}
+	1859.7.8 = {
+		holder = bernadotte_2	# Charles IV
+	}
+	1872.9.18 = {
+		holder = bernadotte_3	# Oscar II
+	}
+	1905.11.18 = {
+		holder = oldenburg_42	# Haakon VII
+	}
+}
+c_aviovara = {
+	1808.3.13 = {
+		holder = oldenburg_15	# Frederick VI
+	}
+	1814.11.4 = {
+		holder = oldenburg_28	# Charles II
+	}
+	1818.2.5 = {
+		holder = bernadotte_0	# Charles III John
+	}
+	1844.3.8 = {
+		holder = bernadotte_1	# Oscar I
+	}
+	1859.7.8 = {
+		holder = bernadotte_2	# Charles IV
+	}
+	1872.9.18 = {
+		holder = bernadotte_3	# Oscar II
+	}
+	1905.11.18 = {
+		holder = oldenburg_42	# Haakon VII
+	}
+}
+c_karasjohka = {
+	1808.3.13 = {
+		holder = oldenburg_15	# Frederick VI
+	}
+	1814.11.4 = {
+		holder = oldenburg_28	# Charles II
+	}
+	1818.2.5 = {
+		holder = bernadotte_0	# Charles III John
+	}
+	1844.3.8 = {
+		holder = bernadotte_1	# Oscar I
+	}
+	1859.7.8 = {
+		holder = bernadotte_2	# Charles IV
+	}
+	1872.9.18 = {
+		holder = bernadotte_3	# Oscar II
+	}
+	1905.11.18 = {
+		holder = oldenburg_42	# Haakon VII
+	}
+}
+d_giemajohka = {
+	1800.1.1 = {
+		de_jure_liege = k_finland
+	}
+}
+#c_peaccam = {
+#}
+#c_kitka = {
+#}
+c_koutajoki = {
+	1800.1.1 = {
+		de_jure_liege = d_guoldat
+	}
+#	1812.1.1 = {
+#		holder = rusgov13
+#		liege = e_russia
+#	}
+}
+c_akkel = {
+	1800.1.1 = {
+		de_jure_liege = d_guoldat
+	}
+#	1812.1.1 = {
+#		holder = rusgov13
+#		liege = e_russia
+#	}
+}
+#c_sombio = {
+#}
+#c_inari = {
+#}
+c_skolt = {
+	1800.1.1 = {
+		de_jure_liege = d_guoldat
+	}
+}
+d_guoldat = {
+	1800.1.1 = {
+		de_jure_liege = k_bjarmaland
+	}
+}
+#c_ter = {
+#	1812.1.1 = {
+#		holder = rusgov13
+#		liege = e_russia
+#	}
+#}
+#c_jovvkuj = {
+#	1812.1.1 = {
+#		holder = rusgov13
+#		liege = e_russia
+#	}
+#}
+#c_east_kiilt = {
+#	1812.1.1 = {
+#		holder = rusgov13
+#		liege = e_russia
+#	}
+#}
+#c_kintus = {
+#	1812.1.1 = {
+#		holder = rusgov13
+#		liege = e_russia
+#	}
+#}

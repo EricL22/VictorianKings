@@ -1,0 +1,99 @@
+﻿bernadotte_0 = {
+	name = "Charles"	# XIV John of Sweden
+	dynasty = eur_252E_0
+	religion = catholic
+	culture = french
+	1763.1.26 = {
+		birth = yes
+	}
+	1810.11.2 = {
+		employer = oldenburg_28	# Charles XIII of Sweden
+	}
+	1810.11.5 = {
+		name = "Karl"
+		religion = protestant
+		culture = swedish
+	}
+	1818.2.5 = {
+		effect = {
+			add_realm_law_skip_effects = crown_authority_1
+		}
+	}
+	1844.3.8 = {
+		death = yes
+	}
+}
+
+bernadotte_1 = {
+	name = "Oscar"	# I of Sweden
+	dynasty = eur_252E_0
+	religion = catholic
+	culture = french
+	father = bernadotte_0
+	1799.7.4 = {
+		birth = yes
+	}
+	1810.11.5 = {
+		religion = protestant
+		culture = swedish
+	}
+	1859.7.8 = {
+		death = yes
+	}
+}
+
+bernadotte_2 = {
+	name = "Karl"	# XV of Sweden
+	dynasty = eur_252E_0
+	religion = protestant
+	culture = swedish
+	father = bernadotte_1
+	1826.5.3 = {
+		birth = yes
+	}
+	1872.9.18 = {
+		death = yes
+	}
+}
+
+bernadotte_3 = {
+	name = "Oscar"	# II of Sweden
+	dynasty = eur_252E_0
+	religion = protestant
+	culture = swedish
+	father = bernadotte_1
+	1829.1.21 = {
+		birth = yes
+	}
+	1907.12.8 = {
+		death = yes
+	}
+}
+
+bernadotte_4 = {
+	name = "Gustav"	# V of Sweden
+	dynasty = eur_252E_0
+	religion = protestant
+	culture = swedish
+	father = bernadotte_3
+	1858.6.16 = {
+		birth = yes
+	}
+	1950.10.29 = {
+		death = yes
+	}
+}
+
+bernadotte_5 = {
+	name = "Gustav"	# VI Adolf of Sweden
+	dynasty = eur_252E_0
+	religion = protestant
+	culture = swedish
+	father = bernadotte_4
+	1882.11.11 = {
+		birth = yes
+	}
+	1973.9.15 = {
+		death = yes
+	}
+}

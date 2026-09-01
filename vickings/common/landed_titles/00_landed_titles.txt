@@ -16813,16 +16813,7 @@ e_scandinavia = {
 						name_list_swedish = cn_kalix
 					}
 				}
-				b_duortnus = { #(Torneå)
-					province = 424
-
-					color = { 20 20 100 }
-
-					cultural_names = {
-						name_list_swedish = cn_tornea
-						name_list_finnish = cn_tornio
-					}
-				}
+				# b_duortnus moved to c_kittila
 			}
 			c_kittila = {
 				color = { 15 0 90 }
@@ -16848,6 +16839,16 @@ e_scandinavia = {
 				b_roavvenjarga = {	#Rovaniemi
 					province = 8785
 					color = { 15 0 90 }
+				}
+				b_duortnus = { #(Torneå)	# CHANGED: moved from c_julevadno
+					province = 424
+
+					color = { 20 20 100 }
+
+					cultural_names = {
+						name_list_swedish = cn_tornea
+						name_list_finnish = cn_tornio
+					}
 				}
 			}
 			c_torne = {

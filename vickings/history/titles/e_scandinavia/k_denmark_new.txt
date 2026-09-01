@@ -1,4 +1,7 @@
 k_denmark = {
+	1376.5.3 = {
+		holder = bjalbo_1	# Olaf II
+	}
 	1448.9.1 = {
 		holder = oldenburg_2	# Christian I
 	}

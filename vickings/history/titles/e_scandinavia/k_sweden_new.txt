@@ -1,0 +1,600 @@
+k_sweden = {
+	1362.2.15 = {
+		holder = bjalbo_0	# Haakon
+	}
+	1751.3.25 = {
+		holder = oldenburg_25	# Adolf Frederick
+	}
+	1771.2.12 = {
+		holder = oldenburg_26	# Gustav III
+	}
+	1792.3.29 = {
+		holder = oldenburg_27	# Gustav IV Adolf
+	}
+	1809.6.6 = {
+		holder = oldenburg_28	# Charles XIII
+	}
+	1818.2.5 = {
+		holder = bernadotte_0	# Charles XIV John
+	}
+	1844.3.8 = {
+		holder = bernadotte_1	# Oscar I
+	}
+	1859.7.8 = {
+		holder = bernadotte_2	# Charles XV
+	}
+	1872.9.18 = {
+		holder = bernadotte_3	# Oscar II
+	}
+	1907.12.8 = {
+		holder = bernadotte_4	# Gustaf V
+	}
+}
+d_svealand = {
+	1809.6.6 = {
+		holder = oldenburg_28	# Charles XIII
+	}
+	1818.2.5 = {
+		holder = bernadotte_0	# Charles XIV John
+	}
+	1844.3.8 = {
+		holder = bernadotte_1	# Oscar I
+	}
+	1859.7.8 = {
+		holder = bernadotte_2	# Charles XV
+	}
+	1872.9.18 = {
+		holder = bernadotte_3	# Oscar II
+	}
+	1907.12.8 = {
+		holder = bernadotte_4	# Gustaf V
+	}
+}
+c_upland = {
+	1809.6.6 = {
+		holder = oldenburg_28	# Charles XIII
+	}
+	1818.2.5 = {
+		holder = bernadotte_0	# Charles XIV John
+	}
+	1844.3.8 = {
+		holder = bernadotte_1	# Oscar I
+	}
+	1859.7.8 = {
+		holder = bernadotte_2	# Charles XV
+	}
+	1872.9.18 = {
+		holder = bernadotte_3	# Oscar II
+	}
+	1907.12.8 = {
+		holder = bernadotte_4	# Gustaf V
+	}
+}
+c_gastrikland = {
+	1809.6.6 = {
+		holder = oldenburg_28	# Charles XIII
+	}
+	1818.2.5 = {
+		holder = bernadotte_0	# Charles XIV John
+	}
+	1844.3.8 = {
+		holder = bernadotte_1	# Oscar I
+	}
+	1859.7.8 = {
+		holder = bernadotte_2	# Charles XV
+	}
+	1872.9.18 = {
+		holder = bernadotte_3	# Oscar II
+	}
+	1907.12.8 = {
+		holder = bernadotte_4	# Gustaf V
+	}
+}
+c_sodermannaland = {
+	1809.6.6 = {
+		holder = oldenburg_28	# Charles XIII
+	}
+	1818.2.5 = {
+		holder = bernadotte_0	# Charles XIV John
+	}
+	1844.3.8 = {
+		holder = bernadotte_1	# Oscar I
+	}
+	1859.7.8 = {
+		holder = bernadotte_2	# Charles XV
+	}
+	1872.9.18 = {
+		holder = bernadotte_3	# Oscar II
+	}
+	1907.12.8 = {
+		holder = bernadotte_4	# Gustaf V
+	}
+}
+c_aland = {
+	1809.6.6 = {
+		holder = oldenburg_28	# Charles XIII
+	}
+	1818.2.5 = {
+		holder = bernadotte_0	# Charles XIV John
+	}
+	1844.3.8 = {
+		holder = bernadotte_1	# Oscar I
+	}
+	1859.7.8 = {
+		holder = bernadotte_2	# Charles XV
+	}
+	1872.9.18 = {
+		holder = bernadotte_3	# Oscar II
+	}
+	1907.12.8 = {
+		holder = bernadotte_4	# Gustaf V
+	}
+}
+#d_bergslagen = {
+#}
+c_vastmanland = {
+	1809.6.6 = {
+		holder = oldenburg_28	# Charles XIII
+	}
+	1818.2.5 = {
+		holder = bernadotte_0	# Charles XIV John
+	}
+	1844.3.8 = {
+		holder = bernadotte_1	# Oscar I
+	}
+	1859.7.8 = {
+		holder = bernadotte_2	# Charles XV
+	}
+	1872.9.18 = {
+		holder = bernadotte_3	# Oscar II
+	}
+	1907.12.8 = {
+		holder = bernadotte_4	# Gustaf V
+	}
+}
+c_varmland = {
+	1809.6.6 = {
+		holder = oldenburg_28	# Charles XIII
+	}
+	1818.2.5 = {
+		holder = bernadotte_0	# Charles XIV John
+	}
+	1844.3.8 = {
+		holder = bernadotte_1	# Oscar I
+	}
+	1859.7.8 = {
+		holder = bernadotte_2	# Charles XV
+	}
+	1872.9.18 = {
+		holder = bernadotte_3	# Oscar II
+	}
+	1907.12.8 = {
+		holder = bernadotte_4	# Gustaf V
+	}
+}
+c_dalarna = {
+	1809.6.6 = {
+		holder = oldenburg_28	# Charles XIII
+	}
+	1818.2.5 = {
+		holder = bernadotte_0	# Charles XIV John
+	}
+	1844.3.8 = {
+		holder = bernadotte_1	# Oscar I
+	}
+	1859.7.8 = {
+		holder = bernadotte_2	# Charles XV
+	}
+	1872.9.18 = {
+		holder = bernadotte_3	# Oscar II
+	}
+	1907.12.8 = {
+		holder = bernadotte_4	# Gustaf V
+	}
+}
+c_dalabergslagen = {
+	1809.6.6 = {
+		holder = oldenburg_28	# Charles XIII
+	}
+	1818.2.5 = {
+		holder = bernadotte_0	# Charles XIV John
+	}
+	1844.3.8 = {
+		holder = bernadotte_1	# Oscar I
+	}
+	1859.7.8 = {
+		holder = bernadotte_2	# Charles XV
+	}
+	1872.9.18 = {
+		holder = bernadotte_3	# Oscar II
+	}
+	1907.12.8 = {
+		holder = bernadotte_4	# Gustaf V
+	}
+}
+d_vastergotland = {
+	1809.6.6 = {
+		holder = oldenburg_28	# Charles XIII
+	}
+	1818.2.5 = {
+		holder = bernadotte_0	# Charles XIV John
+	}
+	1844.3.8 = {
+		holder = bernadotte_1	# Oscar I
+	}
+	1859.7.8 = {
+		holder = bernadotte_2	# Charles XV
+	}
+	1872.9.18 = {
+		holder = bernadotte_3	# Oscar II
+	}
+	1907.12.8 = {
+		holder = bernadotte_4	# Gustaf V
+	}
+}
+c_vastergotland = {
+	1809.6.6 = {
+		holder = oldenburg_28	# Charles XIII
+	}
+	1818.2.5 = {
+		holder = bernadotte_0	# Charles XIV John
+	}
+	1844.3.8 = {
+		holder = bernadotte_1	# Oscar I
+	}
+	1859.7.8 = {
+		holder = bernadotte_2	# Charles XV
+	}
+	1872.9.18 = {
+		holder = bernadotte_3	# Oscar II
+	}
+	1907.12.8 = {
+		holder = bernadotte_4	# Gustaf V
+	}
+}
+c_skara = {
+	1809.6.6 = {
+		holder = oldenburg_28	# Charles XIII
+	}
+	1818.2.5 = {
+		holder = bernadotte_0	# Charles XIV John
+	}
+	1844.3.8 = {
+		holder = bernadotte_1	# Oscar I
+	}
+	1859.7.8 = {
+		holder = bernadotte_2	# Charles XV
+	}
+	1872.9.18 = {
+		holder = bernadotte_3	# Oscar II
+	}
+	1907.12.8 = {
+		holder = bernadotte_4	# Gustaf V
+	}
+}
+c_dal = {
+	1809.6.6 = {
+		holder = oldenburg_28	# Charles XIII
+	}
+	1818.2.5 = {
+		holder = bernadotte_0	# Charles XIV John
+	}
+	1844.3.8 = {
+		holder = bernadotte_1	# Oscar I
+	}
+	1859.7.8 = {
+		holder = bernadotte_2	# Charles XV
+	}
+	1872.9.18 = {
+		holder = bernadotte_3	# Oscar II
+	}
+	1907.12.8 = {
+		holder = bernadotte_4	# Gustaf V
+	}
+}
+c_nordmark = {
+	1809.6.6 = {
+		holder = oldenburg_28	# Charles XIII
+	}
+	1818.2.5 = {
+		holder = bernadotte_0	# Charles XIV John
+	}
+	1844.3.8 = {
+		holder = bernadotte_1	# Oscar I
+	}
+	1859.7.8 = {
+		holder = bernadotte_2	# Charles XV
+	}
+	1872.9.18 = {
+		holder = bernadotte_3	# Oscar II
+	}
+	1907.12.8 = {
+		holder = bernadotte_4	# Gustaf V
+	}
+}
+d_ostergotland = {
+	1809.6.6 = {
+		holder = oldenburg_28	# Charles XIII
+	}
+	1818.2.5 = {
+		holder = bernadotte_0	# Charles XIV John
+	}
+	1844.3.8 = {
+		holder = bernadotte_1	# Oscar I
+	}
+	1859.7.8 = {
+		holder = bernadotte_2	# Charles XV
+	}
+	1872.9.18 = {
+		holder = bernadotte_3	# Oscar II
+	}
+	1907.12.8 = {
+		holder = bernadotte_4	# Gustaf V
+	}
+}
+c_ostergotland = {
+	1809.6.6 = {
+		holder = oldenburg_28	# Charles XIII
+	}
+	1818.2.5 = {
+		holder = bernadotte_0	# Charles XIV John
+	}
+	1844.3.8 = {
+		holder = bernadotte_1	# Oscar I
+	}
+	1859.7.8 = {
+		holder = bernadotte_2	# Charles XV
+	}
+	1872.9.18 = {
+		holder = bernadotte_3	# Oscar II
+	}
+	1907.12.8 = {
+		holder = bernadotte_4	# Gustaf V
+	}
+}
+c_kinda = {
+	1809.6.6 = {
+		holder = oldenburg_28	# Charles XIII
+	}
+	1818.2.5 = {
+		holder = bernadotte_0	# Charles XIV John
+	}
+	1844.3.8 = {
+		holder = bernadotte_1	# Oscar I
+	}
+	1859.7.8 = {
+		holder = bernadotte_2	# Charles XV
+	}
+	1872.9.18 = {
+		holder = bernadotte_3	# Oscar II
+	}
+	1907.12.8 = {
+		holder = bernadotte_4	# Gustaf V
+	}
+}
+c_narke = {
+	1809.6.6 = {
+		holder = oldenburg_28	# Charles XIII
+	}
+	1818.2.5 = {
+		holder = bernadotte_0	# Charles XIV John
+	}
+	1844.3.8 = {
+		holder = bernadotte_1	# Oscar I
+	}
+	1859.7.8 = {
+		holder = bernadotte_2	# Charles XV
+	}
+	1872.9.18 = {
+		holder = bernadotte_3	# Oscar II
+	}
+	1907.12.8 = {
+		holder = bernadotte_4	# Gustaf V
+	}
+}
+#d_smaland = {
+#}
+c_more = {
+	1809.6.6 = {
+		holder = oldenburg_28	# Charles XIII
+	}
+	1818.2.5 = {
+		holder = bernadotte_0	# Charles XIV John
+	}
+	1844.3.8 = {
+		holder = bernadotte_1	# Oscar I
+	}
+	1859.7.8 = {
+		holder = bernadotte_2	# Charles XV
+	}
+	1872.9.18 = {
+		holder = bernadotte_3	# Oscar II
+	}
+	1907.12.8 = {
+		holder = bernadotte_4	# Gustaf V
+	}
+}
+c_sevede = {
+	1809.6.6 = {
+		holder = oldenburg_28	# Charles XIII
+	}
+	1818.2.5 = {
+		holder = bernadotte_0	# Charles XIV John
+	}
+	1844.3.8 = {
+		holder = bernadotte_1	# Oscar I
+	}
+	1859.7.8 = {
+		holder = bernadotte_2	# Charles XV
+	}
+	1872.9.18 = {
+		holder = bernadotte_3	# Oscar II
+	}
+	1907.12.8 = {
+		holder = bernadotte_4	# Gustaf V
+	}
+}
+c_varend = {
+	1809.6.6 = {
+		holder = oldenburg_28	# Charles XIII
+	}
+	1818.2.5 = {
+		holder = bernadotte_0	# Charles XIV John
+	}
+	1844.3.8 = {
+		holder = bernadotte_1	# Oscar I
+	}
+	1859.7.8 = {
+		holder = bernadotte_2	# Charles XV
+	}
+	1872.9.18 = {
+		holder = bernadotte_3	# Oscar II
+	}
+	1907.12.8 = {
+		holder = bernadotte_4	# Gustaf V
+	}
+}
+c_njudung = {
+	1809.6.6 = {
+		holder = oldenburg_28	# Charles XIII
+	}
+	1818.2.5 = {
+		holder = bernadotte_0	# Charles XIV John
+	}
+	1844.3.8 = {
+		holder = bernadotte_1	# Oscar I
+	}
+	1859.7.8 = {
+		holder = bernadotte_2	# Charles XV
+	}
+	1872.9.18 = {
+		holder = bernadotte_3	# Oscar II
+	}
+	1907.12.8 = {
+		holder = bernadotte_4	# Gustaf V
+	}
+}
+c_finnveden = {
+	1809.6.6 = {
+		holder = oldenburg_28	# Charles XIII
+	}
+	1818.2.5 = {
+		holder = bernadotte_0	# Charles XIV John
+	}
+	1844.3.8 = {
+		holder = bernadotte_1	# Oscar I
+	}
+	1859.7.8 = {
+		holder = bernadotte_2	# Charles XV
+	}
+	1872.9.18 = {
+		holder = bernadotte_3	# Oscar II
+	}
+	1907.12.8 = {
+		holder = bernadotte_4	# Gustaf V
+	}
+}
+c_oland = {
+	1809.6.6 = {
+		holder = oldenburg_28	# Charles XIII
+	}
+	1818.2.5 = {
+		holder = bernadotte_0	# Charles XIV John
+	}
+	1844.3.8 = {
+		holder = bernadotte_1	# Oscar I
+	}
+	1859.7.8 = {
+		holder = bernadotte_2	# Charles XV
+	}
+	1872.9.18 = {
+		holder = bernadotte_3	# Oscar II
+	}
+	1907.12.8 = {
+		holder = bernadotte_4	# Gustaf V
+	}
+}
+#d_norrland = {
+#}
+c_halsingland = {
+	1809.6.6 = {
+		holder = oldenburg_28	# Charles XIII
+	}
+	1818.2.5 = {
+		holder = bernadotte_0	# Charles XIV John
+	}
+	1844.3.8 = {
+		holder = bernadotte_1	# Oscar I
+	}
+	1859.7.8 = {
+		holder = bernadotte_2	# Charles XV
+	}
+	1872.9.18 = {
+		holder = bernadotte_3	# Oscar II
+	}
+	1907.12.8 = {
+		holder = bernadotte_4	# Gustaf V
+	}
+}
+c_medelpad = {
+	1809.6.6 = {
+		holder = oldenburg_28	# Charles XIII
+	}
+	1818.2.5 = {
+		holder = bernadotte_0	# Charles XIV John
+	}
+	1844.3.8 = {
+		holder = bernadotte_1	# Oscar I
+	}
+	1859.7.8 = {
+		holder = bernadotte_2	# Charles XV
+	}
+	1872.9.18 = {
+		holder = bernadotte_3	# Oscar II
+	}
+	1907.12.8 = {
+		holder = bernadotte_4	# Gustaf V
+	}
+}
+c_angermanland = {
+	1809.6.6 = {
+		holder = oldenburg_28	# Charles XIII
+	}
+	1818.2.5 = {
+		holder = bernadotte_0	# Charles XIV John
+	}
+	1844.3.8 = {
+		holder = bernadotte_1	# Oscar I
+	}
+	1859.7.8 = {
+		holder = bernadotte_2	# Charles XV
+	}
+	1872.9.18 = {
+		holder = bernadotte_3	# Oscar II
+	}
+	1907.12.8 = {
+		holder = bernadotte_4	# Gustaf V
+	}
+}
+#d_gotland = {
+#}
+c_gutland = {
+	1809.6.6 = {
+		holder = oldenburg_28	# Charles XIII
+	}
+	1818.2.5 = {
+		holder = bernadotte_0	# Charles XIV John
+	}
+	1844.3.8 = {
+		holder = bernadotte_1	# Oscar I
+	}
+	1859.7.8 = {
+		holder = bernadotte_2	# Charles XV
+	}
+	1872.9.18 = {
+		holder = bernadotte_3	# Oscar II
+	}
+	1907.12.8 = {
+		holder = bernadotte_4	# Gustaf V
+	}
+}

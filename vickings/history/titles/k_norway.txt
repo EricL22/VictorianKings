@@ -66,9 +66,9 @@ k_norway = {
 	1094.6.6 = {
 		holder = 202511 # Magnus Barfot
 	}
-	1103.1.25 = {
-		holder = 222598 # Olaf Magnusson
-	}
+#	1103.1.25 = {
+#		holder = 222598 # Olaf Magnusson
+#	}
 	1115.12.22 = {
 		holder = 222597 # Øystein Magnusson
 	}
