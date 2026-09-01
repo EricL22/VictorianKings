@@ -1,3 +1,9 @@
+k_sapmi = {
+	1800.1.1 = {
+		de_jure_liege = e_russia
+		effect = { set_capital_county = title:c_kakisalmi }
+	}
+}
 d_aarjetje = {
 	1800.1.1 = {
 		de_jure_liege = k_sweden
@@ -292,11 +298,8 @@ c_skolt = {
 		de_jure_liege = d_guoldat
 	}
 }
-d_guoldat = {
-	1800.1.1 = {
-		de_jure_liege = k_bjarmaland
-	}
-}
+#d_guoldat = {
+#}
 #c_ter = {
 #	1812.1.1 = {
 #		holder = rusgov13

@@ -2,6 +2,44 @@ k_sweden = {
 	1362.2.15 = {
 		holder = bjalbo_0	# Haakon
 	}
+	1680.1.1 = {	# Great Reduction
+		government = administrative_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					holder = { has_government = administrative_government }
+				}
+				set_state_faith = faith:protestant
+				holder = {
+					add_realm_law_skip_effects = single_heir_succession_law
+					add_realm_law_skip_effects = imperial_bureaucracy_1
+					add_realm_law_skip_effects = male_only_law
+				}
+			}
+			if = {
+				limit = {
+					exists = holder
+					has_dlc_feature = royal_court
+				}
+				holder = {
+					set_court_type = court_administrative
+				}
+			}
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+					add_realm_law_skip_effects = single_heir_succession_law
+					add_realm_law_skip_effects = crown_authority_1
+					add_realm_law_skip_effects = male_only_law
+				}
+			}
+		}
+	}
 	1751.3.25 = {
 		holder = oldenburg_25	# Adolf Frederick
 	}
@@ -111,24 +149,13 @@ c_sodermannaland = {
 	}
 }
 c_aland = {
-	1809.6.6 = {
-		holder = oldenburg_28	# Charles XIII
+	1810.1.1 = {
+		de_jure_liege = d_finland
+#		holder = 9176231
 	}
-	1818.2.5 = {
-		holder = bernadotte_0	# Charles XIV John
-	}
-	1844.3.8 = {
-		holder = bernadotte_1	# Oscar I
-	}
-	1859.7.8 = {
-		holder = bernadotte_2	# Charles XV
-	}
-	1872.9.18 = {
-		holder = bernadotte_3	# Oscar II
-	}
-	1907.12.8 = {
-		holder = bernadotte_4	# Gustaf V
-	}
+#	1831.11.19 = {
+#		holder = 9176232
+#	}
 }
 #d_bergslagen = {
 #}

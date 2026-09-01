@@ -220,11 +220,8 @@ oldenburg_15 = {
 	1790.7.31 = {
 		add_spouse = hesse_12	# Marie of Hesse-Kassel
 	}
-	1808.3.13 = {
-		effect = {
-			add_realm_law_skip_effects = crown_authority_1
-			add_realm_law_skip_effects = male_only_law
-		}
+	1814.11.4 = {
+		remove_claim = title:k_norway
 	}
 	1839.12.3 = {
 		death = yes
@@ -253,6 +250,9 @@ oldenburg_17 = {
 	father = oldenburg_16
 	1786.9.18 = {
 		birth = yes
+	}
+	1814.11.4 = {
+		remove_claim = title:k_norway
 	}
 	1848.1.20 = {
 		death = {
@@ -419,9 +419,13 @@ oldenburg_28 = {
 	1748.10.7 = {
 		birth = yes
 	}
+	1809.6.1 = {
+		trait = infirm
+	}
 	1812.1.1 = {
 		effect = {
 			add_realm_law_skip_effects = crown_authority_1
+			add_trait_xp = { trait = infirm track = infirm value = 10 }
 		}
 		add_unpressed_claim = title:k_norway
 	}

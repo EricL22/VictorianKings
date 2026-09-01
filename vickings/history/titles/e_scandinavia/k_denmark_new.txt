@@ -26,6 +26,44 @@ k_denmark = {
 	1648.7.6 = {
 		holder = oldenburg_9	# Frederick III
 	}
+	1662.2.19 = {	# Noble fiefs abolished
+		government = administrative_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					holder = { has_government = administrative_government }
+				}
+				set_state_faith = faith:protestant
+				holder = {
+					add_realm_law_skip_effects = single_heir_succession_law
+					add_realm_law_skip_effects = imperial_bureaucracy_1
+					add_realm_law_skip_effects = male_only_law
+				}
+			}
+			if = {
+				limit = {
+					exists = holder
+					has_dlc_feature = royal_court
+				}
+				holder = {
+					set_court_type = court_administrative
+				}
+			}
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+					add_realm_law_skip_effects = single_heir_succession_law
+					add_realm_law_skip_effects = crown_authority_1
+					add_realm_law_skip_effects = male_only_law
+				}
+			}
+		}
+	}
 	1670.2.9 = {
 		holder = oldenburg_10	# Christian V
 	}

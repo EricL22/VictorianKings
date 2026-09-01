@@ -1,5 +1,5 @@
 ﻿bernadotte_0 = {
-	name = "Charles"	# XIV John of Sweden
+	name = "Jean-Baptiste"
 	dynasty = eur_252E_0
 	religion = catholic
 	culture = french
@@ -10,14 +10,13 @@
 		employer = oldenburg_28	# Charles XIII of Sweden
 	}
 	1810.11.5 = {
-		name = "Karl"
+		name = "Karl"	# XIV John of Sweden
 		religion = protestant
 		culture = swedish
+		add_pressed_claim = title:k_sweden
 	}
-	1818.2.5 = {
-		effect = {
-			add_realm_law_skip_effects = crown_authority_1
-		}
+	1814.11.4 = {
+		add_pressed_claim = title:k_norway
 	}
 	1844.3.8 = {
 		death = yes

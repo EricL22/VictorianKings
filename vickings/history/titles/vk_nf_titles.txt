@@ -149,6 +149,116 @@ d_nf_saxe_coburg = {
 	}
 }
 
+d_nf_oldenburg = {
+	1808.3.13 = {
+		liege = k_denmark
+		holder = oldenburg_15	# Frederick VI
+		government = administrative_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1812.7.5 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1812.7.5 }
+		}
+	}
+	1815.7.8 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1815.7.8 }
+		}
+	}
+	1836.1.1 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1836.1.1 }
+		}
+	}
+	1848.1.20 = {
+		liege = k_denmark
+		holder = oldenburg_18	# Frederick VII
+		government = administrative_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1861.7.1 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1861.7.1 }
+		}
+	}
+	1863.11.15 = {
+		holder = 0
+	}
+}
+
+d_nf_schles_hols_gluck = {
+	1912.5.14 = {
+		liege = k_denmark
+		holder = oldenburg_40	# Christian X
+		government = administrative_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1914.7.28 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1914.7.28 }
+		}
+	}
+}
+
+d_nf_hols_gott = {
+	1809.6.6 = {
+		liege = k_sweden
+		holder = oldenburg_28	# Charles XIII
+		government = administrative_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1812.7.5 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1812.7.5 }
+		}
+	}
+	1815.7.8 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1815.7.8 }
+		}
+	}
+	1818.2.5 = {
+		holder = 0
+	}
+}
+
+d_nf_bernadotte = {
+	1818.2.5 = {
+		liege = k_sweden
+		holder = bernadotte_0	# Charles XIV John
+		government = administrative_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1836.1.1 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1836.1.1 }
+		}
+	}
+	1859.7.8 = {
+		liege = k_sweden
+		holder = bernadotte_2	# Charles XV
+		government = administrative_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1861.7.1 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1861.7.1 }
+		}
+	}
+	1907.12.8 = {
+		liege = k_sweden
+		holder = bernadotte_4	# Gustaf V
+		government = administrative_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1914.7.28 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1914.7.28 }
+		}
+	}
+}
+
 ### OTHER HISTORICAL CHARACTERS
 
 d_nf_berryer = {
