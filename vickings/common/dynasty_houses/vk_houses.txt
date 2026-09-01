@@ -48,3 +48,23 @@ house_meck_strelitz = {
 	name = "dynn_Meck_Strelitz"
 	dynasty = 101893	# Mecklenburg
 }
+
+house_hols_gott = {
+	name = "dynn_Hols_Gott"
+	dynasty = 224	# Oldenburg
+}
+
+house_schles_hols_sonder = {
+	name = "dynn_Schles_Hols_Sonder"
+	dynasty = 224	# Oldenburg
+}
+
+house_schles_hols_beck = {
+	name = "dynn_Schles_Hols_Beck"
+	dynasty = 224	# Oldenburg
+}
+
+house_schles_hols_gluck = {
+	name = "dynn_Schles_Hols_Gluck"
+	dynasty = 224	# Oldenburg
+}

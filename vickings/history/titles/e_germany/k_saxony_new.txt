@@ -512,8 +512,26 @@ c_stendal = {
 	}
 }
 d_holstein = {
-	1808.3.13 = {
-		holder = 9000015
+	1808.3.13 = {	# Denmark
+		holder = oldenburg_15	# Frederick VI
+	}
+	1839.12.3 = {
+		holder = oldenburg_17	# Christian VIII
+	}
+	1848.1.20 = {
+		holder = oldenburg_18	# Frederick VII
+	}
+	1863.11.15 = {
+		holder = oldenburg_38	# Christian IX
+	}
+	1864.10.30 = {	# Germany
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
 	}
 }
 c_lubeck = {
@@ -569,7 +587,25 @@ c_stade = {
 	}
 }
 c_ditmarschen = {
-	1808.3.13 = {
-		holder = 9000015
+	1808.3.13 = {	# Denmark
+		holder = oldenburg_15	# Frederick VI
+	}
+	1839.12.3 = {
+		holder = oldenburg_17	# Christian VIII
+	}
+	1848.1.20 = {
+		holder = oldenburg_18	# Frederick VII
+	}
+	1863.11.15 = {
+		holder = oldenburg_38	# Christian IX
+	}
+	1864.10.30 = {	# Germany
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
 	}
 }

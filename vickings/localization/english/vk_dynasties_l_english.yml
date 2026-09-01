@@ -15,6 +15,10 @@
  dynn_Saxe_Coburg:0 "Saxe-Coburg"
  dynn_Dalberg:0 "Dalberg"
  dynn_Meck_Strelitz: "Mecklenburg-Strelitz"
+ dynn_Hols_Gott:0 "Holstein-Gottorp"
+ dynn_Schles_Hols_Sonder: "Schleswig-Holstein-Sonderburg"
+ dynn_Schles_Hols_Beck:0 "Schleswig-Holstein-Sonderburg-Beck"
+ dynn_Schles_Hols_Gluck:0 "Schleswig-Holstein-Sonderburg-Glücksburg"
 
  dynn_PoincarE_: "Poincaré"
  dynn_Reinhard: "Reinhard"

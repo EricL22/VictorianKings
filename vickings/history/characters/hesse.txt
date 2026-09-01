@@ -3,10 +3,10 @@
 	religion = protestant
 	culture = franconian
 	1753.6.14 = {
-		birth = "1753.6.14"
+		birth = yes
 	}
 	1830.4.6 = {
-		death = "1830.4.6"
+		death = yes
 	}
 }
 
@@ -99,6 +99,9 @@ hesse_11 = {
 	1744.12.19 = {
 		birth = yes
 	}
+	1766.8.30 = {
+		add_spouse = oldenburg_19	# Princess Louise of Denmark
+	}
 	1836.8.17 = {
 		death = yes
 	}
@@ -110,6 +113,7 @@ hesse_12 = {
 	religion = protestant
 	culture = danish
 	father = hesse_11
+	mother = oldenburg_19
 	female = yes
 	1767.10.28 = {
 		birth = yes
@@ -154,6 +158,22 @@ hesse_15 = {
 		birth = yes
 	}
 	1875.1.6 = {
+		death = yes
+	}
+}
+
+# Mother of Christian IX (Denmark)
+hesse_16 = {
+	name = "Luise Karoline"
+	religion = protestant
+	culture = german
+	father = hesse_11
+	mother = oldenburg_19
+	female = yes
+	1750.1.20 = {
+		birth = yes
+	}
+	1831.1.12 = {
 		death = yes
 	}
 }
