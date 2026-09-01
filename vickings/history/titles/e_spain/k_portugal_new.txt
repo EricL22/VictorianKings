@@ -1,0 +1,205 @@
+k_portugal = {
+	1139.7.25 = {
+		holder = 209503 # Afonso I
+		effect = {
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:form_portugal_decision
+			}
+		}
+	}
+	1185.12.6 = {
+		holder = 209500	# Sancho I
+	}
+	1212.3.26 = {
+		holder = 459560	# Afonso II
+	}
+	1223.3.25 = {
+		holder = 459562	# Sancho II
+	}
+	1248.1.3 = {
+		holder = 459520	# Afonso III
+	}
+	1279.4.18 = {
+		holder = 459510	# Denis I
+	}
+	1325.1.7 = {
+		holder = 459500	# Afonso IV
+	}
+	1357.5.28 = {
+		holder = 459501	# Peter I
+	}
+	1385.4.6 = {
+		holder = aviz_0	# John I
+	}
+	1433.8.14 = {
+		holder = aviz_1	# Edward
+	}
+	1438.9.13 = {
+		holder = aviz_2	# Afonso V
+	}
+	1481.8.28 = {
+		holder = aviz_3	# John II
+	}
+	1495.10.25 = {
+		holder = aviz_5	# Manuel I
+	}
+	1521.12.13 = {
+		holder = aviz_6	# John III
+	}
+	1640.12.1 = {
+		holder = braganza_1	# John IV
+	}
+	1656.11.6 = {
+		holder = braganza_2	# Afonso VI
+	}
+	1683.9.12 = {
+		holder = braganza_3	# Peter II
+	}
+	1706.12.9 = {
+		holder = braganza_4	# John V
+	}
+	1750.7.31 = {
+		holder = braganza_5	# Joseph I
+	}
+	1777.2.24 = {
+		holder = braganza_6	# Peter III
+	}
+	1786.5.25 = {
+		holder = braganza_7	# Maria I
+	}
+	1816.3.20 = {
+		holder = braganza_8	# John VI
+	}
+	1826.3.10 = {
+		holder = braganza_9	# Peter IV
+	}
+	1826.5.2 = {
+		holder = braganza_10	# Maria II
+	}
+	1828.7.11 = {
+		holder = braganza_11	# Miguel I
+	}
+	1834.5.26 = {
+		holder = braganza_10
+		government = administrative_government	# Abolition laws
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					holder = { has_government = administrative_government }
+				}
+				set_state_faith = faith:protestant
+				holder = {
+					add_realm_law_skip_effects = single_heir_succession_law
+					add_realm_law_skip_effects = imperial_bureaucracy_1
+				}
+			}
+			if = {
+				limit = {
+					exists = holder
+					has_dlc_feature = royal_court
+				}
+				holder = {
+					set_court_type = court_administrative
+				}
+			}
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+					add_realm_law_skip_effects = single_heir_succession_law
+					add_realm_law_skip_effects = crown_authority_1
+				}
+			}
+		}
+	}
+	1853.11.15 = {
+		holder = braganza_12	# Peter V
+	}
+	1861.11.11 = {
+		holder = braganza_13	# Luis I
+	}
+	1889.10.19 = {
+		holder = braganza_14	# Carlos I
+	}
+	1908.2.1 = {
+		holder = braganza_15	# Manuel II
+	}
+	1910.10.5 = {
+		government = feudal_government	# monarchy abolished
+	}
+}
+#d_porto = {
+#}
+c_porto = {
+	1777.2.24 = {
+		holder = braganza_7	# Maria I
+	}
+	1826.5.2 = {
+		holder = braganza_10	# Maria II
+	}
+	1853.11.15 = {
+		holder = braganza_12	# Peter V
+	}
+}
+c_braganza = {
+	1777.2.24 = {
+		holder = braganza_7	# Maria I
+	}
+	1826.5.2 = {
+		holder = braganza_10	# Maria II
+	}
+	1853.11.15 = {
+		holder = braganza_12	# Peter V
+	}
+}
+#d_coimbra = {
+#}
+c_coimbra = {
+	1777.2.24 = {
+		holder = braganza_7	# Maria I
+	}
+	1826.5.2 = {
+		holder = braganza_10	# Maria II
+	}
+	1853.11.15 = {
+		holder = braganza_12	# Peter V
+	}
+}
+c_viseu = {
+	1777.2.24 = {
+		holder = braganza_7	# Maria I
+	}
+	1826.5.2 = {
+		holder = braganza_10	# Maria II
+	}
+	1853.11.15 = {
+		holder = braganza_12	# Peter V
+	}
+}
+c_aveiro = {
+	1777.2.24 = {
+		holder = braganza_7	# Maria I
+	}
+	1826.5.2 = {
+		holder = braganza_10	# Maria II
+	}
+	1853.11.15 = {
+		holder = braganza_12	# Peter V
+	}
+}
+c_castelo_branco = {
+	1777.2.24 = {
+		holder = braganza_7	# Maria I
+	}
+	1826.5.2 = {
+		holder = braganza_10	# Maria II
+	}
+	1853.11.15 = {
+		holder = braganza_12	# Peter V
+	}
+}

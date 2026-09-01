@@ -1,0 +1,253 @@
+﻿braganza_0 = {
+	name = "Teodosio"	# Duke of Braganza
+	dynasty_house = house_braganza
+	religion = catholic
+	culture = portuguese
+	mother = aviz_8
+	1568.4.28 = {
+		birth = yes
+	}
+	1630.11.29 = {
+		death = yes
+	}
+}
+
+braganza_1 = {
+	name = "JoA_o"	# IV of Portugal
+	dynasty_house = house_braganza
+	religion = catholic
+	culture = portuguese
+	father = braganza_0
+	1604.3.19 = {
+		birth = yes
+	}
+	1656.11.6 = {
+		death = yes
+	}
+}
+
+braganza_2 = {
+	name = "Afonso"	# VI of Portugal
+	dynasty_house = house_braganza
+	religion = catholic
+	culture = portuguese
+	father = braganza_1
+	1643.8.21 = {
+		birth = yes
+	}
+	1683.9.12 = {
+		death = yes
+	}
+}
+
+braganza_3 = {
+	name = "Pedro"	# II of Portugal
+	dynasty_house = house_braganza
+	religion = catholic
+	culture = portuguese
+	father = braganza_1
+	1648.4.26 = {
+		birth = yes
+	}
+	1706.12.9 = {
+		death = yes
+	}
+}
+
+braganza_4 = {
+	name = "JoA_o"	# V of Portugal
+	dynasty_house = house_braganza
+	religion = catholic
+	culture = portuguese
+	father = braganza_3
+	1689.10.22 = {
+		birth = yes
+	}
+	1750.7.31 = {
+		death = yes
+	}
+}
+
+braganza_5 = {
+	name = "Jose"	# I of Portugal
+	dynasty_house = house_braganza
+	religion = catholic
+	culture = portuguese
+	father = braganza_4
+	1714.6.6 = {
+		birth = yes
+	}
+	1777.2.24 = {
+		death = yes
+	}
+}
+
+braganza_6 = {
+	name = "Pedro"	# III of Portugal
+	dynasty_house = house_braganza
+	religion = catholic
+	culture = portuguese
+	father = braganza_4
+	1717.7.5 = {
+		birth = yes
+	}
+	1760.6.6 = {
+		add_spouse = braganza_7
+	}
+	1786.5.25 = {
+		death = yes
+	}
+}
+
+braganza_7 = {
+	name = "Maria"	# I of Portugal
+	female = yes
+	dynasty_house = house_braganza
+	religion = catholic
+	culture = portuguese
+	father = braganza_5
+	1734.12.17 = {
+		birth = yes
+	}
+	1816.3.20 = {
+		death = yes
+	}
+}
+
+braganza_8 = {
+	name = "JoA_o"	# VI of Portugal
+	dynasty_house = house_braganza
+	religion = catholic
+	culture = portuguese
+	father = braganza_6
+	mother = braganza_7
+	1767.5.13 = {
+		birth = yes
+	}
+	1826.3.10 = {
+		death = yes
+	}
+}
+
+braganza_9 = {
+	name = "Pedro"	# IV of Portugal
+	dynasty_house = house_braganza
+	religion = catholic
+	culture = portuguese
+	father = braganza_8
+	1798.10.12 = {
+		birth = yes
+	}
+	1834.9.24 = {
+		death = yes
+	}
+}
+
+braganza_10 = {
+	name = "Maria"	# II of Portugal
+	dynasty_house = house_braganza
+	religion = catholic
+	culture = portuguese
+	father = braganza_9
+	female = yes
+	1819.4.4 = {
+		birth = yes
+	}
+	1853.11.15 = {
+		death = yes
+	}
+}
+
+braganza_11 = {
+	name = "Miguel"	# I of Portugal
+	dynasty_house = house_braganza
+	religion = catholic
+	culture = portuguese
+	father = braganza_8
+	1802.10.26 = {
+		birth = yes
+	}
+	1834.12.1 = {
+		trait = disinherited	# banished by the Cortes
+	}
+	1866.11.14 = {
+		death = yes
+	}
+}
+
+braganza_12 = {
+	name = "Pedro"	# V of Portugal
+	dynasty_house = house_braganza
+	religion = catholic
+	culture = portuguese
+	father = wettin_71
+	mother = braganza_10
+	1837.9.16 = {
+		birth = yes
+	}
+	1861.1.1 = {
+		trait = typhus
+	}
+	1861.11.11 = {
+		death = {
+			death_reason = death_typhus
+		}
+	}
+}
+
+braganza_13 = {
+	name = "Luis"	# I of Portugal
+	dynasty_house = house_braganza
+	religion = catholic
+	culture = portuguese
+	father = wettin_71
+	mother = braganza_10
+	1838.10.31 = {
+		birth = yes
+	}
+	1889.10.19 = {
+		death = yes
+	}
+}
+
+braganza_14 = {
+	name = "Carlos"	# I of Portugal
+	dynasty_house = house_braganza
+	religion = catholic
+	culture = portuguese
+	father = braganza_13
+	1863.9.28 = {
+		birth = yes
+	}
+	1908.2.1 = {
+		death = yes
+	}
+}
+
+braganza_15 = {
+	name = "Manuel"	# II of Portugal
+	dynasty_house = house_braganza
+	religion = catholic
+	culture = portuguese
+	father = braganza_14
+	1889.11.15 = {
+		birth = yes
+	}
+	1932.7.2 = {
+		death = yes
+	}
+}
+
+braganza_16 = {
+	name = "Pedro"	# II of Brazil
+	dynasty_house = house_braganza
+	religion = catholic
+	culture = portuguese
+	father = braganza_9
+	1825.12.2 = {
+		birth = yes
+	}
+	1891.12.5 = {
+		death = yes
+	}
+}

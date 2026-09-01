@@ -457,3 +457,38 @@ wettin_60 = {
 		death = yes
 	}
 }
+
+## Saxe-Coburg and Gotha-Koháry
+wettin_70 = {
+	name = "Ferdinand"
+	dynasty_house = house_saxe_coburg
+	religion = protestant
+	culture = franconian
+	father = wettin_30
+	1785.3.28 = {
+		birth = yes
+	}
+	1818.1.1 = {
+		religion = catholic
+	}
+	1851.8.27 = {
+		death = yes
+	}
+}
+
+wettin_71 = {
+	name = "Ferdinand"	# II of Portugal
+	dynasty_house = house_saxe_coburg
+	religion = catholic
+	culture = franconian
+	father = wettin_70
+	1816.10.29 = {
+		birth = yes
+	}
+	1836.4.9 = {
+		add_matrilineal_spouse = braganza_10	# Maria II of Portugal
+	}
+	1885.12.15 = {
+		death = yes
+	}
+}

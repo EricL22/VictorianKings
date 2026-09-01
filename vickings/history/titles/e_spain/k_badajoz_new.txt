@@ -1,13 +1,49 @@
 #d_beja = {
 #}
-#c_lisboa = {
-#}
-#c_beja = {
-#}
-#c_alcacer_do_sal = {
-#}
-#c_elvas = {
-#}
+c_lisboa = {
+	1777.2.24 = {
+		holder = braganza_7	# Maria I
+	}
+	1826.5.2 = {
+		holder = braganza_10	# Maria II
+	}
+	1853.11.15 = {
+		holder = braganza_12	# Peter V
+	}
+}
+c_beja = {
+	1777.2.24 = {
+		holder = braganza_7	# Maria I
+	}
+	1826.5.2 = {
+		holder = braganza_10	# Maria II
+	}
+	1853.11.15 = {
+		holder = braganza_12	# Peter V
+	}
+}
+c_alcacer_do_sal = {
+	1777.2.24 = {
+		holder = braganza_7	# Maria I
+	}
+	1826.5.2 = {
+		holder = braganza_10	# Maria II
+	}
+	1853.11.15 = {
+		holder = braganza_12	# Peter V
+	}
+}
+c_elvas = {
+	1777.2.24 = {
+		holder = braganza_7	# Maria I
+	}
+	1826.5.2 = {
+		holder = braganza_10	# Maria II
+	}
+	1853.11.15 = {
+		holder = braganza_12	# Peter V
+	}
+}
 d_badajoz = {
 	1715.6.9 = {
 		de_jure_liege = k_spain
@@ -85,7 +121,25 @@ c_medellin = {
 }
 #d_algarve = {
 #}
-#c_faro = {
-#}
-#c_silves = {
-#}
+c_faro = {
+	1777.2.24 = {
+		holder = braganza_7	# Maria I
+	}
+	1826.5.2 = {
+		holder = braganza_10	# Maria II
+	}
+	1853.11.15 = {
+		holder = braganza_12	# Peter V
+	}
+}
+c_silves = {
+	1777.2.24 = {
+		holder = braganza_7	# Maria I
+	}
+	1826.5.2 = {
+		holder = braganza_10	# Maria II
+	}
+	1853.11.15 = {
+		holder = braganza_12	# Peter V
+	}
+}

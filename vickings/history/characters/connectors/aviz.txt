@@ -1,0 +1,119 @@
+﻿aviz_0 = {
+	name = "JoA_o"	# I of Portugal
+	#dynasty = 101
+	religion = catholic
+	culture = portuguese
+	father = 459501
+	trait = bastard_founder
+	1357.4.11 = {
+		birth = yes
+	}
+	1433.8.14 = {
+		death = yes
+	}
+}
+aviz_1 = {
+	name = "Duarte"
+	#dynasty = 101
+	religion = catholic
+	culture = portuguese
+	father = aviz_0
+	1391.10.31 = {
+		birth = yes
+	}
+	1438.9.9 = {
+		death = yes
+	}
+}
+aviz_2 = {
+	name = "Afonso"	# V of Portugal
+	#dynasty = 101
+	religion = catholic
+	culture = portuguese
+	father = aviz_1
+	1432.1.15 = {
+		birth = yes
+	}
+	1481.8.28 = {
+		death = yes
+	}
+}
+aviz_3 = {
+	name = "JoA_o"	# II of Portugal
+	#dynasty = 101
+	religion = catholic
+	culture = portuguese
+	father = aviz_2
+	1455.3.3 = {
+		birth = yes
+	}
+	1495.10.25 = {
+		death = yes
+	}
+}
+aviz_4 = {
+	name = "Fernando"	# Duke of Viseu
+	#dynasty = 101
+	religion = catholic
+	culture = portuguese
+	father = aviz_1
+	1433.11.17 = {
+		birth = yes
+	}
+	1470.9.18 = {
+		death = yes
+	}
+}
+aviz_5 = {
+	name = "Manuel"	# I of Portugal
+	#dynasty = 101
+	religion = catholic
+	culture = portuguese
+	father = aviz_4
+	1469.5.31 = {
+		birth = yes
+	}
+	1521.12.13 = {
+		death = yes
+	}
+}
+aviz_6 = {
+	name = "JoA_o"	# III of Portugal
+	#dynasty = 101
+	religion = catholic
+	culture = portuguese
+	father = aviz_5
+	1502.6.7 = {
+		birth = yes
+	}
+	1557.6.11 = {
+		death = yes
+	}
+}
+aviz_7 = {
+	name = "Duarte"	# Duke of Guimarães
+	#dynasty = 101
+	religion = catholic
+	culture = portuguese
+	father = aviz_5
+	1515.10.7 = {
+		birth = yes
+	}
+	1540.9.20 = {
+		death = yes
+	}
+}
+aviz_8 = {
+	name = "Catarina"	# Duchess of Braganza
+	#dynasty = 101
+	religion = catholic
+	culture = portuguese
+	father = aviz_7
+	female = yes
+	1540.1.18 = {
+		birth = yes
+	}
+	1614.11.15 = {
+		death = yes
+	}
+}
