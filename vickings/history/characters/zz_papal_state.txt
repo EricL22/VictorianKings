@@ -1,0 +1,758 @@
+﻿## The Papacy
+papal_0 = {
+	name = "Pierre Roger"
+	religion = catholic
+	culture = italian
+	1291.1.1 = {
+		birth = yes
+	}
+	1342.5.7 = {
+		name = "Clemens"
+	}
+	1352.12.6 = {
+		death = yes
+	}
+}
+
+papal_1 = {
+	name = "Etienne Aubert"
+	religion = catholic
+	culture = italian
+	1282.1.1 = {
+		birth = yes
+	}
+	1352.12.18 = {
+		name = "Innocentius"
+	}
+	1362.9.12 = {
+		death = yes
+	}
+}
+
+papal_2 = {
+	name = "Guillaume"
+	religion = catholic
+	culture = italian
+	1310.1.1 = {
+		birth = yes
+	}
+	1362.9.28 = {
+		name = "Urbanus"
+	}
+	1370.12.19 = {
+		death = yes
+	}
+}
+
+papal_3 = {
+	name = "Pierre Roger"
+	religion = catholic
+	culture = italian
+	1329.1.1 = {
+		birth = yes
+	}
+	1370.12.30 = {
+		name = "Gregorius"
+	}
+	1378.3.27 = {
+		death = yes
+	}
+}
+
+papal_4 = {
+	name = "Bartolomeo Prignano"
+	religion = catholic
+	culture = italian
+	1318.1.1 = {
+		birth = yes
+	}
+	1378.4.8 = {
+		name = "Urbanus"
+	}
+	1389.10.15 = {
+		death = yes
+	}
+}
+
+papal_5 = {
+	name = "Cosimo"
+	religion = catholic
+	culture = italian
+	1339.1.1 = {
+		birth = yes
+	}
+	1404.10.17 = {
+		name = "Innocentius"
+	}
+	1406.11.6 = {
+		death = yes
+	}
+}
+
+papal_6 = {
+	name = "Angelo"
+	religion = catholic
+	culture = italian
+	1327.1.1 = {
+		birth = yes
+	}
+	1406.11.30 = {
+		name = "Gregorius"
+	}
+	1417.10.18 = {
+		death = yes
+	}
+}
+
+papal_7 = {
+	name = "Oddone"
+	religion = catholic
+	culture = italian
+	1369.2.1 = {
+		birth = yes
+	}
+	1417.11.11 = {
+		name = "Martinus"
+	}
+	1431.2.20 = {
+		death = yes
+	}
+}
+
+papal_8 = {
+	name = "Gabriele"
+	religion = catholic
+	culture = italian
+	1383.1.1 = {
+		birth = yes
+	}
+	1431.3.3 = {
+		name = "Eugenius"
+	}
+	1447.2.23 = {
+		death = yes
+	}
+}
+
+papal_9 = {
+	name = "Tommaso"
+	religion = catholic
+	culture = italian
+	1397.11.15 = {
+		birth = yes
+	}
+	1447.3.6 = {
+		name = "Nicolaus"
+	}
+	1455.3.24 = {
+		death = yes
+	}
+}
+
+papal_10 = {
+	name = "Alfons"
+	religion = catholic
+	culture = italian
+	1378.12.31 = {
+		birth = yes
+	}
+	1455.4.8 = {
+		name = "Callistus"
+	}
+	1458.8.6 = {
+		death = yes
+	}
+}
+
+papal_11 = {
+	name = "Enea Silvio Bartolomeo"
+	religion = catholic
+	culture = italian
+	1405.10.18 = {
+		birth = yes
+	}
+	1458.8.19 = {
+		name = "Pius"
+	}
+	1464.8.14 = {
+		death = yes
+	}
+}
+
+papal_12 = {
+	name = "Giovanni"
+	religion = catholic
+	culture = italian
+	1432.11.5 = {
+		birth = yes
+	}
+	1484.8.29 = {
+		name = "Innocentius"
+	}
+	1492.7.25 = {
+		death = yes
+	}
+}
+
+papal_13 = {
+	name = "Roderic"
+	religion = catholic
+	culture = italian
+	1431.1.1 = {
+		birth = yes
+	}
+	1492.8.11 = {
+		name = "Alexander"
+	}
+	1503.8.18 = {
+		death = yes
+	}
+}
+
+papal_14 = {
+	name = "Francesco"
+	religion = catholic
+	culture = italian
+	1439.5.9 = {
+		birth = yes
+	}
+	1503.9.22 = {
+		name = "Pius"
+	}
+	1503.10.18 = {
+		death = yes
+	}
+}
+
+papal_15 = {
+	name = "Giovanni"
+	religion = catholic
+	culture = italian
+	1475.12.11 = {
+		birth = yes
+	}
+	1513.3.9 = {
+		name = "Leo"
+	}
+	1521.12.1 = {
+		death = yes
+	}
+}
+
+papal_16 = {
+	name = "Adriaan"
+	religion = catholic
+	culture = italian
+	1459.3.2 = {
+		birth = yes
+	}
+	1522.1.9 = {
+		name = "Hadrianus"
+	}
+	1523.9.14 = {
+		death = yes
+	}
+}
+
+papal_17 = {
+	name = "Giulio"
+	religion = catholic
+	culture = italian
+	1478.5.26 = {
+		birth = yes
+	}
+	1523.11.26 = {
+		name = "Clemens"
+	}
+	1534.9.25 = {
+		death = yes
+	}
+}
+
+papal_18 = {
+	name = "Giovanni"
+	religion = catholic
+	culture = italian
+	1499.3.31 = {
+		birth = yes
+	}
+	1559.12.26 = {
+		name = "Pius"
+	}
+	1565.12.9 = {
+		death = yes
+	}
+}
+
+papal_19 = {
+	name = "Antonio"
+	religion = catholic
+	culture = italian
+	1504.1.17 = {
+		birth = yes
+	}
+	1566.1.7 = {
+		name = "Pius"
+	}
+	1572.5.1 = {
+		death = yes
+	}
+}
+
+papal_20 = {
+	name = "Ugo"
+	religion = catholic
+	culture = italian
+	1502.1.7 = {
+		birth = yes
+	}
+	1572.5.13 = {
+		name = "Gregorius"
+	}
+	1585.4.10 = {
+		death = yes
+	}
+}
+
+papal_21 = {
+	name = "Giovanni"
+	religion = catholic
+	culture = italian
+	1521.8.4 = {
+		birth = yes
+	}
+	1590.9.15 = {
+		name = "Urbanus"
+	}
+	1590.9.27 = {
+		death = yes
+	}
+}
+
+papal_22 = {
+	name = "Niccolo"
+	religion = catholic
+	culture = italian
+	1535.2.11 = {
+		birth = yes
+	}
+	1590.12.5 = {
+		name = "Gregorius"
+	}
+	1591.10.16 = {
+		death = yes
+	}
+}
+
+papal_23 = {
+	name = "Giovanni"
+	religion = catholic
+	culture = italian
+	1519.7.20 = {
+		birth = yes
+	}
+	1591.10.29 = {
+		name = "Innocentius"
+	}
+	1591.12.30 = {
+		death = yes
+	}
+}
+
+papal_24 = {
+	name = "Ippolito"
+	religion = catholic
+	culture = italian
+	1536.2.24 = {
+		birth = yes
+	}
+	1592.1.30 = {
+		name = "Clemens"
+	}
+	1605.3.3 = {
+		death = yes
+	}
+}
+
+papal_25 = {
+	name = "Alessandro"
+	religion = catholic
+	culture = italian
+	1535.6.2 = {
+		birth = yes
+	}
+	1605.4.1 = {
+		name = "Leo"
+	}
+	1605.4.27 = {
+		death = yes
+	}
+}
+
+papal_26 = {
+	name = "Alessandro"
+	religion = catholic
+	culture = italian
+	1554.1.9 = {
+		birth = yes
+	}
+	1621.2.9 = {
+		name = "Gregorius"
+	}
+	1623.7.8 = {
+		death = yes
+	}
+}
+
+papal_27 = {
+	name = "Maffeo"
+	religion = catholic
+	culture = italian
+	1568.4.5 = {
+		birth = yes
+	}
+	1623.8.6 = {
+		name = "Urbanus"
+	}
+	1644.7.29 = {
+		death = yes
+	}
+}
+
+papal_28 = {
+	name = "Giovanni"
+	religion = catholic
+	culture = italian
+	1574.5.7 = {
+		birth = yes
+	}
+	1644.9.15 = {
+		name = "Innocentius"
+	}
+	1655.1.7 = {
+		death = yes
+	}
+}
+
+papal_29 = {
+	name = "Fabio"
+	religion = catholic
+	culture = italian
+	1599.2.13 = {
+		birth = yes
+	}
+	1655.4.7 = {
+		name = "Alexander"
+	}
+	1667.5.22 = {
+		death = yes
+	}
+}
+
+papal_30 = {
+	name = "Giulio"
+	religion = catholic
+	culture = italian
+	1600.1.28 = {
+		birth = yes
+	}
+	1667.6.20 = {
+		name = "Clemens"
+	}
+	1669.12.9 = {
+		death = yes
+	}
+}
+
+papal_31 = {
+	name = "Emilio"
+	religion = catholic
+	culture = italian
+	1590.7.13 = {
+		birth = yes
+	}
+	1670.4.29 = {
+		name = "Clemens"
+	}
+	1676.7.22 = {
+		death = yes
+	}
+}
+
+papal_32 = {
+	name = "Benedetto"
+	religion = catholic
+	culture = italian
+	1611.5.16 = {
+		birth = yes
+	}
+	1676.9.21 = {
+		name = "Innocentius"
+	}
+	1689.8.12 = {
+		death = yes
+	}
+}
+
+papal_33 = {
+	name = "Pietro"
+	religion = catholic
+	culture = italian
+	1610.4.22 = {
+		birth = yes
+	}
+	1689.10.6 = {
+		name = "Alexander"
+	}
+	1691.2.1 = {
+		death = yes
+	}
+}
+
+papal_34 = {
+	name = "Antonio"
+	religion = catholic
+	culture = italian
+	1615.3.13 = {
+		birth = yes
+	}
+	1691.7.12 = {
+		name = "Innocentius"
+	}
+	1700.9.27 = {
+		death = yes
+	}
+}
+
+papal_35 = {
+	name = "Giovanni"
+	religion = catholic
+	culture = italian
+	1649.7.23 = {
+		birth = yes
+	}
+	1700.11.23 = {
+		name = "Clemens"
+	}
+	1721.3.19 = {
+		death = yes
+	}
+}
+
+papal_36 = {
+	name = "Michelangelo"
+	religion = catholic
+	culture = italian
+	1655.5.13 = {
+		birth = yes
+	}
+	1721.5.8 = {
+		name = "Innocentius"
+	}
+	1724.3.7 = {
+		death = yes
+	}
+}
+
+papal_37 = {
+	name = "Pierfrancesco"
+	religion = catholic
+	culture = italian
+	1649.2.2 = {
+		birth = yes
+	}
+	1724.5.29 = {
+		name = "Benedictus"
+	}
+	1730.2.21 = {
+		death = yes
+	}
+}
+
+papal_38 = {
+	name = "Lorenzo"
+	religion = catholic
+	culture = italian
+	1652.4.7 = {
+		birth = yes
+	}
+	1730.7.12 = {
+		name = "Clemens"
+	}
+	1740.2.6 = {
+		death = yes
+	}
+}
+
+papal_39 = {
+	name = "Prospero"
+	religion = catholic
+	culture = italian
+	1675.3.31 = {
+		birth = yes
+	}
+	1740.8.17 = {
+		name = "Benedictus"
+	}
+	1758.5.3 = {
+		death = yes
+	}
+}
+
+papal_40 = {
+	name = "Carlo"
+	religion = catholic
+	culture = italian
+	1693.3.7 = {
+		birth = yes
+	}
+	1758.7.6 = {
+		name = "Clemens"
+	}
+	1769.2.2 = {
+		death = yes
+	}
+}
+
+papal_41 = {
+	name = "Giovanni"
+	religion = catholic
+	culture = italian
+	1705.10.31 = {
+		birth = yes
+	}
+	1769.5.19 = {
+		name = "Clemens"
+	}
+	1774.9.22 = {
+		death = yes
+	}
+}
+
+papal_42 = {
+	name = "Angelo"
+	religion = catholic
+	culture = italian
+	1717.12.25 = {
+		birth = yes
+	}
+	1775.2.15 = {
+		name = "Pius"
+	}
+	1799.8.29 = {
+		death = yes
+	}
+}
+
+papal_43 = {
+	name = "Barnaba"
+	dynasty = 65
+	religion = catholic
+	culture = italian
+	1742.8.14 = {
+		birth = yes
+	}
+	1800.3.14 = {
+		name = "Pius"
+	}
+	1809.7.1 = {
+		add_opinion = {
+			target = character:bonaparte_2	# Napoleon
+			modifier = declared_war
+		}
+	}
+	1823.8.20 = {
+		death = yes
+	}
+}
+
+papal_44 = {
+	name = "Annibale"
+	religion = catholic
+	culture = italian
+	1760.8.2 = {
+		birth = yes
+	}
+	1823.9.28 = {
+		name = "Leo"
+	}
+	1829.2.10 = {
+		death = yes
+	}
+}
+
+papal_45 = {
+	name = "Francesco"
+	dynasty = 13050
+	religion = catholic
+	culture = italian
+	1761.11.20 = {
+		birth = yes
+	}
+	1829.3.31 = {
+		name = "Pius"
+	}
+	1830.11.30 = {
+		death = yes
+	}
+}
+
+papal_46 = {
+	name = "Bartolomeo"
+	religion = catholic
+	culture = italian
+	1765.9.18 = {
+		birth = yes
+	}
+	1831.2.2 = {
+		name = "Gregorius"
+	}
+	1846.6.1 = {
+		death = yes
+	}
+}
+
+papal_47 = {
+	name = "Giovanni"
+	religion = catholic
+	culture = italian
+	1792.5.13 = {
+		birth = yes
+	}
+	1846.6.16 = {
+		name = "Pius"
+	}
+	1878.2.7 = {
+		death = yes
+	}
+}
+
+papal_48 = {
+	name = "Gioacchino"
+	religion = catholic
+	culture = italian
+	1810.3.2 = {
+		birth = yes
+	}
+	1878.2.20 = {
+		name = "Leo"
+	}
+	1903.7.20 = {
+		death = yes
+	}
+}
+
+papal_49 = {
+	name = "Giuseppe"
+	religion = catholic
+	culture = italian
+	1835.6.2 = {
+		birth = yes
+	}
+	1903.8.4 = {
+		name = "Pius"
+	}
+	1914.8.20 = {
+		death = yes
+	}
+}

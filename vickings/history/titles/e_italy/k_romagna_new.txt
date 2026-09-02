@@ -1,0 +1,522 @@
+k_romagna = {
+	1805.6.5 = {	# France
+		holder = bonaparte_2	# Napoleon
+	}
+	1814.5.30 = {	# Papal States
+		holder = papal_43	# Pius VII
+	}
+	1823.9.28 = {
+		holder = papal_44	# Leo XII
+	}
+	1829.3.31 = {
+		holder = papal_45	# Pius VIII
+	}
+	1831.2.2 = {
+		holder = papal_46	# Gregory XVI
+	}
+	1846.6.16 = {
+		holder = papal_47	# Pius IX
+	}
+	1870.10.9 = {
+		holder = 0
+	}
+}
+d_romagna = {
+	1805.6.5 = {	# Italy
+		holder = 9000008	# Eugene de Beauharnais
+	}
+	1814.5.30 = {	# Papal States
+		holder = papal_43	# Pius VII
+	}
+	1823.9.28 = {
+		holder = papal_44	# Leo XII
+	}
+	1829.3.31 = {
+		holder = papal_45	# Pius VIII
+	}
+	1831.2.2 = {
+		holder = papal_46	# Gregory XVI
+	}
+	1846.6.16 = {
+		holder = papal_47	# Pius IX
+	}
+	1870.10.9 = {	# Italy
+		holder = savoy_26	# Vittorio Emanuele II
+		de_jure_liege = k_italy
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_ravenna = {
+	1805.6.5 = {	# Italy
+		holder = 9000008	# Eugene de Beauharnais
+	}
+	1814.5.30 = {	# Papal States
+		holder = papal_43	# Pius VII
+	}
+	1823.9.28 = {
+		holder = papal_44	# Leo XII
+	}
+	1829.3.31 = {
+		holder = papal_45	# Pius VIII
+	}
+	1831.2.2 = {
+		holder = papal_46	# Gregory XVI
+	}
+	1846.6.16 = {
+		holder = papal_47	# Pius IX
+	}
+	1870.10.9 = {	# Italy
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_bologna = {
+	1805.6.5 = {	# Italy
+		holder = 9000008	# Eugene de Beauharnais
+	}
+	1814.5.30 = {	# Papal States
+		holder = papal_43	# Pius VII
+	}
+	1823.9.28 = {
+		holder = papal_44	# Leo XII
+	}
+	1829.3.31 = {
+		holder = papal_45	# Pius VIII
+	}
+	1831.2.2 = {
+		holder = papal_46	# Gregory XVI
+	}
+	1846.6.16 = {
+		holder = papal_47	# Pius IX
+	}
+	1870.10.9 = {	# Italy
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_ferrara = {
+	1805.6.5 = {	# Italy
+		holder = 9000008	# Eugene de Beauharnais
+	}
+	1814.5.30 = {	# Papal States
+		holder = papal_43	# Pius VII
+	}
+	1823.9.28 = {
+		holder = papal_44	# Leo XII
+	}
+	1829.3.31 = {
+		holder = papal_45	# Pius VIII
+	}
+	1831.2.2 = {
+		holder = papal_46	# Gregory XVI
+	}
+	1846.6.16 = {
+		holder = papal_47	# Pius IX
+	}
+	1870.10.9 = {	# Italy
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_casentino = {
+	1805.6.5 = {	# Italy
+		holder = 9000008	# Eugene de Beauharnais
+	}
+	1814.5.30 = {	# Papal States
+		holder = papal_43	# Pius VII
+	}
+	1823.9.28 = {
+		holder = papal_44	# Leo XII
+	}
+	1829.3.31 = {
+		holder = papal_45	# Pius VIII
+	}
+	1831.2.2 = {
+		holder = papal_46	# Gregory XVI
+	}
+	1846.6.16 = {
+		holder = papal_47	# Pius IX
+	}
+	1870.10.9 = {	# Italy
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+d_ancona = {
+	1805.6.5 = {	# Italy
+		holder = 9000008	# Eugene de Beauharnais
+	}
+	1814.5.30 = {	# Papal States
+		holder = papal_43	# Pius VII
+	}
+	1823.9.28 = {
+		holder = papal_44	# Leo XII
+	}
+	1829.3.31 = {
+		holder = papal_45	# Pius VIII
+	}
+	1831.2.2 = {
+		holder = papal_46	# Gregory XVI
+	}
+	1846.6.16 = {
+		holder = papal_47	# Pius IX
+	}
+	1870.10.9 = {	# Italy
+		holder = savoy_26	# Vittorio Emanuele II
+		de_jure_liege = k_italy
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_ancona = {
+	1805.6.5 = {	# Italy
+		holder = 9000008	# Eugene de Beauharnais
+	}
+	1814.5.30 = {	# Papal States
+		holder = papal_43	# Pius VII
+	}
+	1823.9.28 = {
+		holder = papal_44	# Leo XII
+	}
+	1829.3.31 = {
+		holder = papal_45	# Pius VIII
+	}
+	1831.2.2 = {
+		holder = papal_46	# Gregory XVI
+	}
+	1846.6.16 = {
+		holder = papal_47	# Pius IX
+	}
+	1870.10.9 = {	# Italy
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_urbino = {
+	1805.6.5 = {	# Italy
+		holder = 9000008	# Eugene de Beauharnais
+	}
+	1814.5.30 = {	# Papal States
+		holder = papal_43	# Pius VII
+	}
+	1823.9.28 = {
+		holder = papal_44	# Leo XII
+	}
+	1829.3.31 = {
+		holder = papal_45	# Pius VIII
+	}
+	1831.2.2 = {
+		holder = papal_46	# Gregory XVI
+	}
+	1846.6.16 = {
+		holder = papal_47	# Pius IX
+	}
+	1870.10.9 = {	# Italy
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_fermo = {
+	1805.6.5 = {	# Italy
+		holder = 9000008	# Eugene de Beauharnais
+	}
+	1814.5.30 = {	# Papal States
+		holder = papal_43	# Pius VII
+	}
+	1823.9.28 = {
+		holder = papal_44	# Leo XII
+	}
+	1829.3.31 = {
+		holder = papal_45	# Pius VIII
+	}
+	1831.2.2 = {
+		holder = papal_46	# Gregory XVI
+	}
+	1846.6.16 = {
+		holder = papal_47	# Pius IX
+	}
+	1870.10.9 = {	# Italy
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+d_spoleto = {
+	1870.10.9 = {
+		de_jure_liege = k_italy
+	}
+}
+c_spoleto = {
+	1804.5.18 = {	# France
+		holder = bonaparte_2	# Napoleon
+	}
+	1814.5.30 = {	# Papal States
+		holder = papal_43	# Pius VII
+	}
+	1823.9.28 = {
+		holder = papal_44	# Leo XII
+	}
+	1829.3.31 = {
+		holder = papal_45	# Pius VIII
+	}
+	1831.2.2 = {
+		holder = papal_46	# Gregory XVI
+	}
+	1846.6.16 = {
+		holder = papal_47	# Pius IX
+	}
+	1870.10.9 = {	# Italy
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_orvieto = {
+	1804.5.18 = {	# France
+		holder = bonaparte_2	# Napoleon
+	}
+	1814.5.30 = {	# Papal States
+		holder = papal_43	# Pius VII
+	}
+	1823.9.28 = {
+		holder = papal_44	# Leo XII
+	}
+	1829.3.31 = {
+		holder = papal_45	# Pius VIII
+	}
+	1831.2.2 = {
+		holder = papal_46	# Gregory XVI
+	}
+	1846.6.16 = {
+		holder = papal_47	# Pius IX
+	}
+	1870.10.9 = {	# Italy
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_teramo = {
+	1808.8.1 = {	# Naples
+		holder = bonaparte_5	# Joachim Murat
+	}
+	1814.5.30 = {	# Papal States
+		holder = papal_43	# Pius VII
+	}
+	1823.9.28 = {
+		holder = papal_44	# Leo XII
+	}
+	1829.3.31 = {
+		holder = papal_45	# Pius VIII
+	}
+	1831.2.2 = {
+		holder = papal_46	# Gregory XVI
+	}
+	1846.6.16 = {
+		holder = papal_47	# Pius IX
+	}
+	1870.10.9 = {	# Italy
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_lanciano = {
+	1808.8.1 = {	# Naples
+		holder = bonaparte_5	# Joachim Murat
+	}
+	1815.5.19 = {	# Sicily
+		holder = bourbon_43	# Ferdinand I
+	}
+	1825.1.4 = {
+		holder = bourbon_47	# Francis I
+	}
+	1830.11.8 = {
+		holder = bourbon_48	# Ferdinand II
+	}
+	1859.5.22 = {
+		holder = bourbon_49	# Francis II
+	}
+	1861.3.17 = {	# Italy
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_abruzzi = {
+	1808.8.1 = {	# Naples
+		holder = bonaparte_5	# Joachim Murat
+	}
+	1815.5.19 = {	# Sicily
+		holder = bourbon_43	# Ferdinand I
+	}
+	1825.1.4 = {
+		holder = bourbon_47	# Francis I
+	}
+	1830.11.8 = {
+		holder = bourbon_48	# Ferdinand II
+	}
+	1859.5.22 = {
+		holder = bourbon_49	# Francis II
+	}
+	1861.3.17 = {	# Italy
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+d_latium = {
+	1870.10.9 = {
+		de_jure_liege = k_italy
+	}
+}
+c_roma = {
+	1804.5.18 = {	# France
+		holder = bonaparte_2	# Napoleon
+	}
+	1814.5.30 = {	# Papal States
+		holder = papal_43	# Pius VII
+	}
+	1823.9.28 = {
+		holder = papal_44	# Leo XII
+	}
+	1829.3.31 = {
+		holder = papal_45	# Pius VIII
+	}
+	1831.2.2 = {
+		holder = papal_46	# Gregory XVI
+	}
+	1846.6.16 = {
+		holder = papal_47	# Pius IX
+	}
+	1870.10.9 = {	# Italy
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_viterbo = {
+	1804.5.18 = {	# France
+		holder = bonaparte_2	# Napoleon
+	}
+	1814.5.30 = {	# Papal States
+		holder = papal_43	# Pius VII
+	}
+	1823.9.28 = {
+		holder = papal_44	# Leo XII
+	}
+	1829.3.31 = {
+		holder = papal_45	# Pius VIII
+	}
+	1831.2.2 = {
+		holder = papal_46	# Gregory XVI
+	}
+	1846.6.16 = {
+		holder = papal_47	# Pius IX
+	}
+	1870.10.9 = {	# Italy
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_tivoli = {
+	1804.5.18 = {	# France
+		holder = bonaparte_2	# Napoleon
+	}
+	1814.5.30 = {	# Papal States
+		holder = papal_43	# Pius VII
+	}
+	1823.9.28 = {
+		holder = papal_44	# Leo XII
+	}
+	1829.3.31 = {
+		holder = papal_45	# Pius VIII
+	}
+	1831.2.2 = {
+		holder = papal_46	# Gregory XVI
+	}
+	1846.6.16 = {
+		holder = papal_47	# Pius IX
+	}
+	1870.10.9 = {	# Italy
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}

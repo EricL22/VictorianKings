@@ -167,3 +167,166 @@ k_austria = {
 		de_jure_liege = e_austria
 	}
 }
+
+k_papal_state = {
+	1342.5.7 = {
+		holder = papal_0	# Clement VI
+	}
+	1352.12.18 = {
+		holder = papal_1	# Innocent VI
+	}
+	1362.9.28 = {
+		holder = papal_2	# Urban V
+	}
+	1370.12.30 = {
+		holder = papal_3	# Gregory XI
+	}
+	1378.4.8 = {
+		holder = papal_4	# Urban VI
+	}
+	# 1389.11.2: Boniface IX
+	1404.10.17 = {
+		holder = papal_5	# Innocent VII
+	}
+	1406.11.30 = {
+		holder = papal_6	# Gregory XII
+	}
+	1417.11.11 = {
+		holder = papal_7	# Martin V
+	}
+	1431.3.3 = {
+		holder = papal_8	# Eugene IV
+	}
+	1447.3.6 = {
+		holder = papal_9	# Nicholas V
+	}
+	1455.4.8 = {
+		holder = papal_10	# Callixtus III
+	}
+	1458.8.19 = {
+		holder = papal_11	# Pius II
+	}
+	# 1464.8.30: Paul II
+	# 1471.8.9: Sixtus IV
+	1484.8.29 = {
+		holder = papal_12	# Innocent VIII
+	}
+	1492.8.11 = {
+		holder = papal_13	# Alexander VI
+	}
+	1503.9.22 = {
+		holder = papal_14	# Pius III
+	}
+	# 1503.10.31: Julius II
+	1513.3.9 = {
+		holder = papal_15	# Leo X
+	}
+	1522.1.9 = {
+		holder = papal_16	# Adrian VI
+	}
+	1523.11.26 = {
+		holder = papal_17	# Clement VII
+	}
+	# 1534.10.13: Paul III
+	# 1550.2.7: Julius III
+	# 1555.4.9: Marcellus II
+	# 1555.5.23: Paul IV
+	1559.12.26 = {
+		holder = papal_18	# Pius IV
+	}
+	1566.1.7 = {
+		holder = papal_19	# Pius V
+	}
+	1572.5.13 = {
+		holder = papal_20	# Gregory XIII
+	}
+	# 1585.4.24: Sixtus V
+	1590.9.15 = {
+		holder = papal_21	# Urban VII
+	}
+	1590.12.5 = {
+		holder = papal_22	# Gregory XIV
+	}
+	1591.10.29 = {
+		holder = papal_23	# Innocent IX
+	}
+	1592.1.30 = {
+		holder = papal_24	# Clement VIII
+	}
+	1605.4.1 = {
+		holder = papal_25	# Leo XI
+	}
+	# 1605.5.16: Paul V
+	1621.2.9 = {
+		holder = papal_26	# Gregory XV
+	}
+	1623.8.6 = {
+		holder = papal_27	# Urban VIII
+	}
+	1644.9.15 = {
+		holder = papal_28	# Innocent X
+	}
+	1655.4.7 = {
+		holder = papal_29	# Alexander VII
+	}
+	1667.6.20 = {
+		holder = papal_30	# Clement IX
+	}
+	1670.4.29 = {
+		holder = papal_31	# Clement X
+	}
+	1676.9.21 = {
+		holder = papal_32	# Innocent XI
+	}
+	1689.10.6 = {
+		holder = papal_33	# Alexander VIII
+	}
+	1691.7.12 = {
+		holder = papal_34	# Innocent XII
+	}
+	1700.11.23 = {
+		holder = papal_35	# Clement XI
+	}
+	1721.5.8 = {
+		holder = papal_36	# Innocent XIII
+	}
+	1724.5.29 = {
+		holder = papal_37	# Benedict XIII
+	}
+	1730.7.12 = {
+		holder = papal_38	# Clement XII
+	}
+	1740.8.17 = {
+		holder = papal_39	# Benedict XIV
+	}
+	1758.7.6 = {
+		holder = papal_40	# Clement XIII
+	}
+	1769.5.19 = {
+		holder = papal_41	# Clement XIV
+	}
+	1775.2.15 = {
+		holder = papal_42	# Pius VI
+	}
+	1800.3.14 = {
+		holder = papal_43	# Pius VII
+	}
+	1823.9.28 = {
+		holder = papal_44	# Leo XII
+	}
+	1829.3.31 = {
+		holder = papal_45	# Pius VIII
+	}
+	1831.2.2 = {
+		holder = papal_46	# Gregory XVI
+	}
+	1846.6.16 = {
+		holder = papal_47	# Pius IX
+	}
+	1878.2.20 = {
+		holder = papal_48	# Leo XIII
+	}
+	1903.8.4 = {
+		holder = papal_49	# Pius X
+	}
+}
