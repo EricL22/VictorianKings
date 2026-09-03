@@ -11,6 +11,18 @@ e_cdr = {
 	}
 }
 
+e_austria = {
+	1804.8.11 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+
 k_hanover = {
 	1814.10.12 = {
 		holder = hanover_3	# George III
@@ -236,7 +248,7 @@ d_baden = {
 
 d_wurzburg = {
 	1805.12.25 = {
-		holder = 9177209	# Ferdinand III
+		holder = habsburg_40	# Ferdinand I
 	}
 	1806.9.23 = {
 		liege = e_cdr

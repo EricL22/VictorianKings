@@ -429,7 +429,7 @@ bourbon_28 = {
 	}
 }
 bourbon_29 = {
-	name = "Charles Ferdinand"
+	name = "Charles Ferdinand"	# Duke of Berry
 	dynasty = 100146
 	religion = catholic
 	culture = french
@@ -444,7 +444,7 @@ bourbon_29 = {
 	}
 }
 bourbon_30 = {
-	name = "Henri"
+	name = "Henri"	# Count of Chambord
 	dynasty = 100146
 	religion = catholic
 	culture = french
@@ -609,7 +609,7 @@ bourbon_37 = {
 }
 
 bourbon_38 = {
-	name = "Maria Luisa"	# Queen of Eturia
+	name = "Maria Luisa"	# Queen of Etruria
 	dynasty = 100146
 	religion = catholic
 	culture = castilian
@@ -624,10 +624,11 @@ bourbon_38 = {
 }
 
 bourbon_39 = {
-	name = "Charles"
-	dynasty = 100146
+	name = "Carlo"	# II of Parma
+	dynasty_house = house_bourbon_parma
 	religion = catholic
 	culture = italian
+	father = bourbon_62
 	mother = bourbon_38
 	1799.12.22 = {
 		birth = yes
@@ -763,7 +764,7 @@ bourbon_45 = {
 		birth = yes
 	}
 	1816.7.28 = {
-		add_spouse = 9179146	# Archduchess Clementina of Austria
+		add_spouse = habsburg_35	# Archduchess Clementina of Austria
 	}
 	1851.3.10 = {
 		death = yes
@@ -933,6 +934,84 @@ bourbon_55 = {
 		birth = yes
 	}
 	1993.4.7 = {
+		death = yes
+	}
+}
+####################
+
+## Bourbon-Parma
+bourbon_60 = {
+	name = "Felipe"	# Duke of Parma
+	dynasty = 100146
+	religion = catholic
+	culture = castilian
+	father = bourbon_24
+	1720.3.15 = {
+		birth = yes
+	}
+	1748.10.18 = {
+		dynasty_house = house_bourbon_parma
+	}
+	1765.7.18 = {
+		death = yes
+	}
+}
+bourbon_61 = {
+	name = "Ferdinando"	# I of Parma
+	dynasty_house = house_bourbon_parma
+	religion = catholic
+	culture = italian
+	father = bourbon_60
+	1751.1.20 = {
+		birth = yes
+	}
+	1802.10.9 = {
+		death = yes
+	}
+}
+bourbon_62 = {
+	name = "Lodovico"	# I of Etruria
+	dynasty_house = house_bourbon_parma
+	religion = catholic
+	culture = italian
+	father = bourbon_61
+	1773.7.5 = {
+		birth = yes
+	}
+	1795.8.25 = {
+		add_spouse = bourbon_38	# Maria Luisa
+	}
+	1803.5.27 = {
+		death = yes
+	}
+}
+
+bourbon_63 = {
+	name = "Carlo"	# III of Parma
+	dynasty_house = house_bourbon_parma
+	religion = catholic
+	culture = italian
+	father = bourbon_39
+	1823.1.14 = {
+		birth = yes
+	}
+	1854.3.27 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+
+bourbon_64 = {
+	name = "Roberto"	# I of Parma
+	dynasty_house = house_bourbon_parma
+	religion = catholic
+	culture = italian
+	father = bourbon_63
+	1848.7.9 = {
+		birth = yes
+	}
+	1907.11.16 = {
 		death = yes
 	}
 }

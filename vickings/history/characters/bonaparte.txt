@@ -111,7 +111,7 @@ bonaparte_2 = {
 		dynasty_house = house_bonaparte
 	}
 	1808.1.1 = {
-#		create_alliance = character:9000008	# Eugene de Beauharnais
+		create_alliance = character:bonaparte_30	# Eugene de Beauharnais
 	}
 	1808.5.6 = {
 		imprison = {
@@ -130,7 +130,7 @@ bonaparte_2 = {
 		remove_spouse = eur_01010
 	}
 	1810.3.11 = {
-		add_spouse = eur_01110	# Marie Louise
+		add_spouse = habsburg_32	# Marie Louise
 	}
 	1821.5.5 = {
 		death = {
@@ -146,7 +146,7 @@ bonaparte_3 = {
 	religion = catholic
 	culture = french
 	father = bonaparte_2
-	mother = eur_01110
+	mother = habsburg_32
 	1811.3.20 = {
 		birth = yes
 	}
@@ -227,11 +227,11 @@ bonaparte_6 = {
 		dynasty_house = house_bonaparte
 	}
 	1810.7.1 = {
-#		effect = {
-#			character:9000012 = {
-#				add_visiting_courtier = character:bonaparte_6
-#			}
-#		}
+		effect = {
+			character:habsburg_20 = {
+				add_visiting_courtier = character:bonaparte_6
+			}
+		}
 	}
 	1846.7.25 = {
 		death = yes
@@ -317,7 +317,7 @@ bonaparte_10 = {
 }
 
 # Princess of Lucca and Piombino
-9100067 = {
+bonaparte_11 = {
 	name = "Elisa"
 	dynasty = eur_25FE_0
 	religion = catholic
@@ -338,7 +338,7 @@ bonaparte_10 = {
 
 
 # Son of Jerome Bonaparte
-8000070 = {
+bonaparte_12 = {
 	name = "Napoleon"
 	dynasty_house = house_bonaparte
 	religion = catholic
@@ -352,8 +352,22 @@ bonaparte_10 = {
 	}
 }
 
+bonaparte_13 = {
+	name = "Napoleon"	# AKA Louis-Napoléon, Prince Imperial
+	dynasty_house = house_bonaparte
+	religion = catholic
+	culture = french
+	father = bonaparte_7
+	1856.3.16 = {
+		birth = yes
+	}
+	1879.6.1 = {
+		death = yes
+	}
+}
+
 ## Princes Murat
-8000071 = {
+bonaparte_20 = {
 	name = "Achille"
 	# lowborn
 	religion = catholic
@@ -371,7 +385,7 @@ bonaparte_10 = {
 	}
 }
 
-8000072 = {
+bonaparte_21 = {
 	name = "Lucien"
 	# lowborn
 	religion = catholic
@@ -389,12 +403,12 @@ bonaparte_10 = {
 	}
 }
 
-8000073 = {
+bonaparte_22 = {
 	name = "Joachim"
 	dynasty_house = house_murat
 	religion = catholic
 	culture = french
-	father = 8000072
+	father = bonaparte_21
 	1834.6.21 = {
 		birth = yes
 	}
@@ -405,7 +419,7 @@ bonaparte_10 = {
 ####################
 
 # Eugene de Beauharnais - Napoleon's stepson/adopted son
-9000008 = {
+bonaparte_30 = {
 	name = "Eugene"
 	dynasty = eur_2515_0
 	religion = catholic

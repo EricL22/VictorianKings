@@ -68,7 +68,7 @@ c_mainz = {
 }
 c_klingenberg = {
 	1805.12.25 = {	# Würzburg
-		holder = 9177209	# Ferdinand III
+		holder = habsburg_40	# Ferdinand I
 	}
 	1814.6.3 = {	# Bavaria
 		holder = wittelsbach_0	# Maximilian I Joseph
@@ -177,7 +177,7 @@ c_vaihingen = {
 }
 c_durne = {
 	1805.12.25 = {	# Würzburg
-		holder = 9177209	# Ferdinand III
+		holder = habsburg_40	# Ferdinand I
 	}
 	1814.6.3 = {	# Bavaria
 		holder = wittelsbach_0	# Maximilian I Joseph
@@ -225,7 +225,7 @@ d_east_franconia = {
 }
 c_wurzburg = {
 	1805.12.25 = {	# Würzburg
-		holder = 9177209	# Ferdinand III
+		holder = habsburg_40	# Ferdinand I
 	}
 	1814.6.3 = {	# Bavaria
 		holder = wittelsbach_0	# Maximilian I Joseph
@@ -370,7 +370,7 @@ c_nordlingen = {
 }
 c_wiltberg = {
 	1805.12.25 = {	# Würzburg
-		holder = 9177209	# Ferdinand III
+		holder = habsburg_40	# Ferdinand I
 	}
 	1814.6.3 = {	# Bavaria
 		holder = wittelsbach_0	# Maximilian I Joseph

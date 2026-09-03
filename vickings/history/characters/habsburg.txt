@@ -141,15 +141,163 @@ habsburg_9 = {
 	}
 }
 
-9000012 = {
+habsburg_10 = {
+	name = "Ferdinand"	# I of HRE
+	dynasty_house = house_habsburg
+	religion = catholic
+	culture = swabian
+	father = habsburg_4
+	1503.3.10 = {
+		birth = yes
+	}
+	1564.7.25 = {
+		death = yes
+	}
+}
+
+habsburg_11 = {
+	name = "Karl"	# II of Austria
+	dynasty_house = house_habsburg
+	religion = catholic
+	culture = swabian
+	father = habsburg_10
+	1540.6.3 = {
+		birth = yes
+	}
+	1590.7.10 = {
+		death = yes
+	}
+}
+
+habsburg_12 = {
+	name = "Ferdinand"	# II of HRE
+	dynasty_house = house_habsburg
+	religion = catholic
+	culture = swabian
+	father = habsburg_11
+	1578.7.9 = {
+		birth = yes
+	}
+	1637.2.15 = {
+		death = yes
+	}
+}
+
+habsburg_13 = {
+	name = "Ferdinand"	# III of HRE
+	dynasty_house = house_habsburg
+	religion = catholic
+	culture = swabian
+	father = habsburg_12
+	1608.7.13 = {
+		birth = yes
+	}
+	1657.4.2 = {
+		death = yes
+	}
+}
+
+habsburg_14 = {
+	name = "Leopold"	# I of HRE
+	dynasty_house = house_habsburg
+	religion = catholic
+	culture = swabian
+	father = habsburg_13
+	1640.6.9 = {
+		birth = yes
+	}
+	1705.5.5 = {
+		death = yes
+	}
+}
+
+habsburg_15 = {
+	name = "Karl"	# VI of HRE
+	dynasty_house = house_habsburg
+	religion = catholic
+	culture = swabian
+	father = habsburg_14
+	1685.10.1 = {
+		birth = yes
+	}
+	1740.10.20 = {
+		death = yes
+	}
+}
+
+habsburg_16 = {
+	name = "Franz"	# I of the Holy Roman Empire
+	dynasty = 715
+	religion = catholic
+	culture = bavarian
+	1708.12.8 = {
+		birth = yes
+	}
+	1765.8.18 = {
+		death = yes
+	}
+}
+
+habsburg_17 = {
+	name = "Maria Theresa"	# Holy Roman Empress
+	dynasty_house = house_habsburg
+	religion = catholic
+	culture = bavarian
+	father = habsburg_15
+	female = yes
+	1717.5.13 = {
+		birth = yes
+	}
+	1736.2.12 = {
+		add_matrilineal_spouse = habsburg_16	# Francis I
+	}
+	1780.11.29 = {
+		death = yes
+	}
+}
+
+habsburg_18 = {
+	name = "Joseph"	# II of the Holy Roman Empire
+	dynasty_house = house_habsburg
+	religion = catholic
+	culture = bavarian
+	father = habsburg_16
+	mother = habsburg_17
+	1741.3.13 = {
+		birth = yes
+	}
+	1790.2.20 = {
+		death = yes
+	}
+}
+
+habsburg_19 = {
+	name = "Leopold"	# II of the Holy Roman Empire
+	dynasty_house = house_habsburg
+	religion = catholic
+	culture = bavarian
+	father = habsburg_16
+	mother = habsburg_17
+	1747.5.5 = {
+		birth = yes
+	}
+	1764.2.16 = {
+		add_spouse = bourbon_52	# Maria Luisa of Spain
+	}
+	1792.3.1 = {
+		death = yes
+	}
+}
+
+habsburg_20 = {
 	name = "Franz"	# I of Austria
 	dynasty_house = house_habsburg
 	religion = catholic
 	culture = bavarian
-	father = 9177208
+	father = habsburg_19
 	mother = bourbon_52
 	1768.2.12 = {
-		birth = "1768.2.12"
+		birth = yes
 	}
 	1790.9.15 = {
 		add_spouse = bourbon_44
@@ -160,21 +308,21 @@ habsburg_9 = {
 		effect = { add_character_flag = semi_salic_law }
 	}
 	1835.3.2 = {
-		death = "1835.3.2"
+		death = yes
 	}
 }
 
-9177200 = {
+habsburg_21 = {
 	name = "Ferdinand"	# I of Austria
 	dynasty_house = house_habsburg
 	religion = catholic
 	culture = bavarian
-	father = 9000012
+	father = habsburg_20
 	mother = bourbon_44
 	trait = possessed_1
 	trait = infertile
 	1793.4.19 = {
-		birth = "1793.4.19"
+		birth = yes
 	}
 	1807.4.13 = {
 		every_claim = {
@@ -191,19 +339,19 @@ habsburg_9 = {
 		effect = { add_character_flag = semi_salic_law }
 	}
 	1875.6.29 = {
-		death = "1875.6.29"
+		death = yes
 	}
 }
 
-9177201 = {
-	name = "Franz-Karl"
+habsburg_22 = {
+	name = "Franz Karl"
 	dynasty_house = house_habsburg
 	religion = catholic
 	culture = bavarian
-	father = 9000012
+	father = habsburg_20
 	mother = bourbon_44
 	1802.12.17 = {
-		birth = "1802.12.17"
+		birth = yes
 	}
 	1807.4.13 = {
 		every_claim = {
@@ -216,163 +364,154 @@ habsburg_9 = {
 		}
 	}
 	1878.3.8 = {
-		death = "1878.3.8"
+		death = yes
 	}
 }
 
-9177202 = {
+habsburg_23 = {
+	name = "Franz Josef"	# I of Austria
+	dynasty_house = house_habsburg
+	religion = catholic
+	culture = bavarian
+	father = habsburg_22
+	1830.8.18 = {
+		birth = yes
+	}
+	1916.11.21 = {
+		death = yes
+	}
+}
+
+habsburg_24 = {
+	name = "Maximilian"	# I of Mexico
+	dynasty_house = house_habsburg
+	religion = catholic
+	culture = bavarian
+	father = habsburg_22
+	1832.7.6 = {
+		birth = yes
+	}
+	1867.6.19 = {
+		death = {
+			death_reason = death_execution
+		}
+	}
+}
+
+habsburg_25 = {
+	name = "Karl Ludwig"
+	dynasty_house = house_habsburg
+	religion = catholic
+	culture = bavarian
+	father = habsburg_22
+	1833.7.30 = {
+		birth = yes
+	}
+	1896.5.19 = {
+		death = yes
+	}
+}
+
+habsburg_26 = {
+	name = "Franz Ferdinand"
+	dynasty_house = house_habsburg
+	religion = catholic
+	culture = bavarian
+	father = habsburg_25
+	1863.12.18 = {
+		birth = yes
+	}
+	1914.6.28 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+
+habsburg_27 = {
+	name = "Otto Franz Josef"
+	dynasty_house = house_habsburg
+	religion = catholic
+	culture = bavarian
+	father = habsburg_25
+	1865.4.21 = {
+		birth = yes
+	}
+	1906.11.1 = {
+		death = yes
+	}
+}
+
+habsburg_28 = {
+	name = "Karl"	# I of Austria
+	dynasty_house = house_habsburg
+	religion = catholic
+	culture = bavarian
+	father = habsburg_27
+	1887.8.17 = {
+		birth = yes
+	}
+	1922.4.1 = {
+		death = yes
+	}
+}
+
+habsburg_29 = {
+	name = "Otto"
+	dynasty_house = house_habsburg
+	religion = catholic
+	culture = bavarian
+	father = habsburg_28
+	1912.11.20 = {
+		birth = yes
+	}
+	2011.7.4 = {
+		death = yes
+	}
+}
+
+habsburg_30 = {
+	name = "Rudolf"
+	dynasty_house = house_habsburg
+	religion = catholic
+	culture = bavarian
+	father = habsburg_23
+	1858.8.21 = {
+		birth = yes
+	}
+	1889.1.30 = {
+		death = {
+			death_reason = death_suicide
+		}
+	}
+}
+
+habsburg_31 = {
 	name = "Marie Anne"
 	dynasty_house = house_habsburg
 	religion = catholic
 	culture = bavarian
-	father = 9000012
+	father = habsburg_20
 	mother = bourbon_44
 	female = yes
+	trait = beauty_bad_3
+	trait = intellect_bad_2
 	1804.6.8 = {
-		birth = "1804.6.8"
-	}
-	1858.12.28 = {
-		death = "1858.12.28"
-	}
-}
-
-9177208 = {
-	name = "Leopold"	# II of the Holy Roman Empire
-	dynasty_house = house_habsburg
-	religion = catholic
-	culture = bavarian
-	father = 9177211
-	mother = 9177212
-	1747.5.5 = {
-		birth = "1747.5.5"
-	}
-	1764.2.16 = {
-		add_spouse = bourbon_52	# Maria Luisa of Spain
-	}
-	1792.3.1 = {
-		death = "1792.3.1"
-	}
-}
-
-9177209 = {
-	name = "Ferdinand"	# Wurzburg and Tuscany
-	dynasty_house = house_habsburg
-	religion = catholic
-	culture = bavarian
-	father = 9177208
-	mother = bourbon_52
-	1769.5.6 = {
-		birth = "1769.5.6"
-	}
-	1815.6.3 = {
-		effect = {
-			add_realm_law_skip_effects = crown_authority_1
-		}
-	}
-	1824.6.18 = {
-		death = "1824.6.18"
-	}
-}
-9177210 = {
-	name = "Joseph"	# II of the Holy Roman Empire
-	dynasty_house = house_habsburg
-	religion = catholic
-	culture = bavarian
-	father = 9177211
-	mother = 9177212
-	1741.3.13 = {
-		birth = "1741.3.13"
-	}
-	1790.2.20 = {
-		death = "1790.2.20"
-	}
-}
-9177211 = {
-	name = "Franz"	# I of the Holy Roman Empire
-	dynasty = 715
-	religion = catholic
-	culture = bavarian
-	1708.12.8 = {
-		birth = "1708.12.8"
-	}
-	1765.8.18 = {
-		death = "1765.8.18"
-	}
-}
-9177212 = {
-	name = "Maria Theresa"	# Holy Roman Empress
-	dynasty_house = house_habsburg
-	religion = catholic
-	culture = bavarian
-	female = yes
-	1717.5.13 = {
-		birth = "1717.5.13"
-	}
-	1736.2.12 = {
-		add_spouse = 9177211
-	}
-	1780.11.29 = {
-		death = "1780.11.29"
-	}
-}
-
-9177213 = {
-	name = "Ferdinand Karl"
-	dynasty_house = house_habsburg
-	religion = catholic
-	culture = bavarian
-	father = 9177211
-	mother = 9177212
-	1754.6.1 = {
-		birth = "1754.6.1"
-	}
-	1771.10.15 = {
-		dynasty_house = house_habs_este
-	}
-	1806.12.24 = {
-		death = "1806.12.24"
-	}
-}
-
-9177214 = {
-	name = "Francesco"
-	dynasty_house = house_habsburg
-	dynasty_house = house_habs_este
-	religion = catholic
-	culture = italian
-	father = 9177213
-	1779.10.6 = {
-		birth = "1779.10.6"
-	}
-	1846.1.21 = {
-		death = "1846.1.21"
-	}
-}
-
-9179146 = {
-	name = "Clementina"
-	dynasty_house = house_habsburg
-	religion = catholic
-	culture = bavarian
-	female = yes
-	father = 9000012
-	mother = bourbon_44
-	1798.3.1 = {
 		birth = yes
 	}
-	1881.9.3 = {
+	1858.12.28 = {
 		death = yes
 	}
 }
 
 # Second Wife of Napoleon
-eur_01110 = {
+habsburg_32 = {
 	name = "Marie Louise"
 	dynasty_house = house_habsburg
 	religion = catholic
 	culture = bavarian
 	female = yes
-	father = 9000012
+	father = habsburg_20
 	mother = bourbon_44
 	1791.12.12 = {
 		birth = yes
@@ -382,12 +521,80 @@ eur_01110 = {
 	}
 }
 
-8000031 = {
+habsburg_33 = {
+	name = "Joseph"	# Palatine of Hungary
+	dynasty_house = house_habsburg
+	culture = bavarian
+	religion = catholic
+	father = habsburg_19
+	mother = bourbon_52
+	1776.3.9 = {
+		birth = yes
+	}
+	1847.1.13 = {
+		death = yes
+	}
+}
+
+habsburg_34 = {
+	name = "Rainer"	# Viceroy of Lombardy-Venetia
+	dynasty_house = house_habsburg
+	culture = bavarian
+	religion = catholic
+	father = habsburg_19
+	mother = bourbon_52
+	1783.9.30 = {
+		birth = yes
+	}
+	1853.1.16 = {
+		death = yes
+	}
+}
+
+# Wife of Leopold, Prince of Salerno
+habsburg_35 = {
+	name = "Clementina"
+	dynasty_house = house_habsburg
+	religion = catholic
+	culture = bavarian
+	female = yes
+	father = habsburg_20
+	mother = bourbon_44
+	1798.3.1 = {
+		birth = yes
+	}
+	1881.9.3 = {
+		death = yes
+	}
+}
+
+## Tuscany line
+habsburg_40 = {
+	name = "Ferdinand"	# Wurzburg and Tuscany
+	dynasty_house = house_habsburg
+	religion = catholic
+	culture = bavarian
+	father = habsburg_19
+	mother = bourbon_52
+	1769.5.6 = {
+		birth = yes
+	}
+	1815.6.3 = {
+		effect = {
+			add_realm_law_skip_effects = crown_authority_1
+		}
+	}
+	1824.6.18 = {
+		death = yes
+	}
+}
+
+habsburg_41 = {
 	name = "Leopoldo"	# Tuscany
 	dynasty_house = house_habsburg
 	religion = catholic
 	culture = italian
-	father = 9177209
+	father = habsburg_40
 	1797.10.3 = {
 		birth = yes
 	}
@@ -401,56 +608,74 @@ eur_01110 = {
 	}
 }
 
-8000065 = {
-	name = "Franz-Josef"	# I of Austria
+habsburg_42 = {
+	name = "Ferdinando"	# IV of Tuscany
 	dynasty_house = house_habsburg
 	religion = catholic
-	culture = bavarian
-	father = 9177201
-	1830.8.18 = {
+	culture = italian
+	father = habsburg_41
+	1835.6.10 = {
 		birth = yes
 	}
-	1916.11.21 = {
+	1908.1.17 = {
 		death = yes
 	}
 }
+####################
 
-8000066 = {
-	name = "Maximilian"	# I of Mexico
-	dynasty_house = house_habsburg
-	religion = catholic
-	culture = bavarian
-	father = 9177201
-	1832.7.6 = {
-		birth = yes
-	}
-	1867.6.19 = {
-		death = {
-			death_reason = death_execution
-		}
-	}
-}
-
-8000067 = {
-	name = "Karl-Ludwig"
-	dynasty_house = house_habsburg
-	religion = catholic
-	culture = bavarian
-	father = 9177201
-	1833.7.30 = {
-		birth = yes
-	}
-	1896.5.19 = {
-		death = yes
-	}
-}
-
-6490003 = {
+## Habsburg-Este
+habsburg_50 = {
 	name = "Ferdinand Karl"
+	dynasty_house = house_habsburg
+	religion = catholic
+	culture = bavarian
+	father = habsburg_16
+	mother = habsburg_17
+	1754.6.1 = {
+		birth = yes
+	}
+	1771.10.15 = {
+		dynasty_house = house_habs_este
+	}
+	1806.12.24 = {
+		death = yes
+	}
+}
+
+habsburg_51 = {
+	name = "Francesco"	# IV of Modena
+	dynasty_house = house_habs_este
+	religion = catholic
+	culture = italian
+	father = habsburg_50
+	1779.10.6 = {
+		birth = yes
+	}
+	1846.1.21 = {
+		death = yes
+	}
+}
+
+habsburg_52 = {
+	name = "Francesco"	# V of Modena
+	dynasty_house = house_habs_este
+	religion = catholic
+	culture = italian
+	father = habsburg_51
+	1819.6.1 = {
+		birth = yes
+	}
+	1875.11.20 = {
+		death = yes
+	}
+}
+
+habsburg_53 = {
+	name = "Ferdinand Karl"	# Governor of Galicia
 	dynasty_house = house_habs_este
 	culture = bavarian
 	religion = catholic
-	father = 9177213
+	father = habsburg_50
 	1781.4.25 = {
 		birth = yes
 	}
@@ -458,33 +683,4 @@ eur_01110 = {
 		death = yes
 	}
 }
-
-6490013 = {
-	name = "Rainer"
-	dynasty_house = house_habsburg
-	culture = bavarian
-	religion = catholic
-	father = 9177208
-	mother = bourbon_52
-	1783.9.30 = {
-		birth = yes
-	}
-	1853.1.16 = {
-		death = yes
-	}
-}
-
-6490014 = {
-	name = "Joseph"
-	dynasty_house = house_habsburg
-	culture = bavarian
-	religion = catholic
-	father = 9177208
-	mother = bourbon_52
-	1776.3.9 = {
-		birth = yes
-	}
-	1847.1.13 = {
-		death = yes
-	}
-}
+####################

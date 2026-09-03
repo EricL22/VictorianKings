@@ -132,6 +132,53 @@ e_germany = {
 	}
 }
 
+e_hre = {
+	1452.3.19 = {
+		holder = habsburg_2	# Frederick III
+	}
+	1508.2.4 = {
+		holder = habsburg_3	# Maximilian I
+	}
+	1519.6.28 = {
+		holder = habsburg_5	# Charles V
+	}
+	1556.8.27 = {
+		holder = habsburg_10	# Ferdinand I
+	}
+	# 1564.7.25: Maximilian II
+	# 1576.10.12: Rudolf II
+	# 1612.6.13: Matthias
+	1619.8.28 = {
+		holder = habsburg_12	# Ferdinand II
+	}
+	1637.2.15 = {
+		holder = habsburg_13	# Ferdinand III
+	}
+	1658.7.18 = {
+		holder = habsburg_14	# Leopold I
+	}
+	# 1705.5.5: Joseph I
+	1711.10.12 = {
+		holder = habsburg_15	# Charles VI
+	}
+	# 1742.1.24: Charles VII
+	1745.9.13 = {
+		holder = habsburg_17 #Maria Theresa von Habsburg
+	}	# reign officially ended 1765.8.18, de facto ruler until death
+	1780.11.29 = {
+		holder = habsburg_18 #Joseph II von Habsburg
+	}
+	1790.9.30 = {
+		holder = habsburg_19 #Leopold II von Habsburg
+	}
+	1792.3.1 = {
+		holder = habsburg_20 #Francis II von Habsburg
+	}
+	1806.8.6 = {
+		holder = 0
+	}
+}
+
 k_switzerland = {
 	1806.8.6 = {
 		de_jure_liege = e_germany
@@ -158,13 +205,16 @@ k_switzerland = {
 
 k_austria = {
 	1790.9.30 = {
-		holder = 9177208
+		holder = habsburg_19	# Leopold II
 	}
 	1792.3.1 = {
-		holder = 9000012
+		holder = habsburg_20	# Francis II
 	}
 	1804.8.11 = {
 		de_jure_liege = e_austria
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
 	}
 }
 

@@ -260,7 +260,7 @@ savoy_17 = {
 ####################
 
 savoy_18 = {
-	name = "Vittorio-Emanuele"
+	name = "Vittorio-Emanuele"	# I of Sardinia
 	dynasty = 240
 	martial = 7
 	diplomacy = 5
@@ -272,11 +272,11 @@ savoy_18 = {
 	father = savoy_16
 	#mother = 1115
 	sexuality = heterosexual
-	1759.1.1 = {
-		birth = "1759.1.1"
+	1759.7.24 = {
+		birth = yes
 	}
 	1824.1.10 = {
-		death = "1824.1.10"
+		death = yes
 	}
 }
 

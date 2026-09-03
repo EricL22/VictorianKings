@@ -1,0 +1,798 @@
+k_italy = {
+	1805.6.5 = {
+		holder = bonaparte_30	# Eugene de Beauharnais
+	}
+	1814.4.11 = {
+		holder = 0
+	}
+	1861.3.17 = {
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1870.10.9 = {
+		effect = { set_capital_county = title:c_roma }
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+#d_friuli = {
+#}
+c_aquileia = {
+	1805.6.5 = {	# Italy
+		holder = bonaparte_30	# Eugene de Beauharnais
+	}
+	1815.7.8 = {	# Austria
+		holder = habsburg_20	# Francis I
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_friuli = {
+	1805.6.5 = {	# Italy
+		holder = bonaparte_30	# Eugene de Beauharnais
+	}
+	1815.7.8 = {	# Austria
+		holder = habsburg_20	# Francis I
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+	1866.10.3 = {	# Italy
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_gorz = {
+	1805.6.5 = {	# Italy
+		holder = bonaparte_30	# Eugene de Beauharnais
+	}
+	1815.7.8 = {	# Austria
+		holder = habsburg_20	# Francis I
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+d_verona = {
+	1805.6.5 = {
+		holder = bonaparte_30	# Eugene de Beauharnais
+	}
+	1815.7.8 = {
+		holder = 0
+	}
+}
+c_verona = {
+	1805.6.5 = {	# Italy
+		holder = bonaparte_30	# Eugene de Beauharnais
+	}
+	1815.7.8 = {	# Austria
+		holder = habsburg_20	# Francis I
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+	1866.10.3 = {	# Italy
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_treviso = {
+	1805.6.5 = {	# Italy
+		holder = bonaparte_30	# Eugene de Beauharnais
+	}
+	1815.7.8 = {	# Austria
+		holder = habsburg_20	# Francis I
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+	1866.10.3 = {	# Italy
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_padua = {
+	1805.6.5 = {	# Italy
+		holder = bonaparte_30	# Eugene de Beauharnais
+	}
+	1815.7.8 = {	# Austria
+		holder = habsburg_20	# Francis I
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+	1866.10.3 = {	# Italy
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_polesine = {
+	1805.6.5 = {	# Italy
+		holder = bonaparte_30	# Eugene de Beauharnais
+	}
+	1815.7.8 = {	# Austria
+		holder = habsburg_20	# Francis I
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+	1866.10.3 = {	# Italy
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+d_piedmonte = {
+	1815.6.9 = {
+		holder = savoy_18	# Vittorio Emanuele I
+		de_jure_liege = k_sardinia
+	}
+	1831.4.27 = {
+		holder = savoy_25	# Carlo Alberto
+	}
+	1849.3.23 = {
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_monferrato = {
+	1805.6.5 = {
+		holder = bonaparte_30	# Eugene de Beauharnais
+	}
+	1815.6.9 = {
+		holder = savoy_18	# Vittorio Emanuele I
+	}
+	1831.4.27 = {
+		holder = savoy_25	# Carlo Alberto
+	}
+	1849.3.23 = {
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_turin = {
+	1804.5.18 = {	# France
+		holder = bonaparte_2	# Napoleon
+	}
+	1815.6.9 = {	# Italy
+		holder = savoy_18	# Vittorio Emanuele I
+	}
+	1831.4.27 = {
+		holder = savoy_25	# Carlo Alberto
+	}
+	1849.3.23 = {
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_novara = {
+	1804.5.18 = {	# France
+		holder = bonaparte_2	# Napoleon
+	}
+	1815.6.9 = {	# Italy
+		holder = savoy_18	# Vittorio Emanuele I
+	}
+	1831.4.27 = {
+		holder = savoy_25	# Carlo Alberto
+	}
+	1849.3.23 = {
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_cuneo = {
+	1804.5.18 = {	# France
+		holder = bonaparte_2	# Napoleon
+	}
+	1815.6.9 = {	# Italy
+		holder = savoy_18	# Vittorio Emanuele I
+	}
+	1831.4.27 = {
+		holder = savoy_25	# Carlo Alberto
+	}
+	1849.3.23 = {
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+d_lombardia = {
+	1805.6.5 = {	# Italy
+		holder = bonaparte_30	# Eugene de Beauharnais
+	}
+#	1814.5.25 = {	# Austria
+#		holder = 6490007
+#		liege = e_austria
+#	}
+#	1818.5.24 = {
+#		holder = habsburg_34
+#	}
+	1814.5.25 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+	1859.7.12 = {	# Italy
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_lombardia = {
+	1805.6.5 = {	# Italy
+		holder = bonaparte_30	# Eugene de Beauharnais
+	}
+#	1814.5.25 = {	# Austria
+#		holder = 6490007
+#	}
+#	1818.5.24 = {
+#		holder = habsburg_34
+#	}
+	1814.5.25 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+	1859.7.12 = {	# Italy
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_brescia = {
+	1805.6.5 = {	# Italy
+		holder = bonaparte_30	# Eugene de Beauharnais
+	}
+#	1814.5.25 = {	# Austria
+#		holder = 6490007
+#	}
+#	1818.5.24 = {
+#		holder = habsburg_34
+#	}
+	1814.5.25 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+	1859.7.12 = {	# Italy
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_como = {
+	1805.6.5 = {	# Italy
+		holder = bonaparte_30	# Eugene de Beauharnais
+	}
+	#1815.6.9 = {
+	#	holder = savoy_18	# Vittorio Emanuele I
+	#}
+#	1814.5.25 = {	# Austria
+#		holder = 6490007
+#	}
+#	1818.5.24 = {
+#		holder = habsburg_34
+#	}
+	1814.5.25 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+	1859.7.12 = {	# Italy
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_trent = {
+	1805.6.5 = {	# Italy
+		holder = bonaparte_30	# Eugene de Beauharnais
+	}
+	1815.6.9 = {
+		de_jure_liege = d_tyrol
+	}
+	1815.7.8 = {	# Austria
+		holder = habsburg_20	# Francis I
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_pavia = {
+	1805.6.5 = {	# Italy
+		holder = bonaparte_30	# Eugene de Beauharnais
+	}
+#	1814.5.25 = {	# Austria
+#		holder = 6490007
+#	}
+#	1818.5.24 = {
+#		holder = habsburg_34
+#	}
+	1814.5.25 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+	1859.7.12 = {	# Italy
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_cremona = {
+	1805.6.5 = {	# Italy
+		holder = bonaparte_30	# Eugene de Beauharnais
+	}
+#	1814.5.25 = {	# Austria
+#		holder = 6490007
+#	}
+#	1818.5.24 = {
+#		holder = habsburg_34
+#	}
+	1814.5.25 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+	1859.7.12 = {	# Italy
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_parma = {
+	1805.6.5 = {
+		holder = bonaparte_30	# Eugene de Beauharnais
+	}
+	# given to Marie Louise, but then the Austrian Emperor would inherit...
+	# granted to Maria Louisa of Etruria instead
+	1814.4.11 = {
+		holder = bourbon_38
+		
+		# 9179147
+	}
+	1824.3.13 = {
+		holder = bourbon_39	# Charles II
+	}
+	1849.5.17 = {
+		holder = bourbon_63	# Charles III
+	}
+	1854.3.27 = {
+		holder = bourbon_64	# Robert I
+	}
+	1860.3.22 = {	# Italy
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_tortona = {
+	1805.6.5 = {
+		holder = bonaparte_30	# Eugene de Beauharnais
+	}
+	1815.6.9 = {
+		holder = savoy_18	# Vittorio Emanuele I
+	}
+	1831.4.27 = {
+		holder = savoy_25	# Carlo Alberto
+	}
+	1849.3.23 = {
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+d_genoa = {
+	1815.6.9 = {
+		de_jure_liege = k_sardinia
+	}
+}
+c_genoa = {
+	1804.5.18 = {	# France
+		holder = bonaparte_2	# Napoleon
+	}
+	1815.6.9 = {	# Italy
+		holder = savoy_18	# Vittorio Emanuele I
+	}
+	1831.4.27 = {
+		holder = savoy_25	# Carlo Alberto
+	}
+	1849.3.23 = {
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_luni = {
+	1804.5.18 = {	# France
+		holder = bonaparte_2	# Napoleon
+	}
+	1815.6.9 = {	# Italy
+		holder = savoy_18	# Vittorio Emanuele I
+	}
+	1831.4.27 = {
+		holder = savoy_25	# Carlo Alberto
+	}
+	1849.3.23 = {
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+#d_emilia = {
+#}
+c_modena = {
+	1805.6.5 = {	# Italy
+		holder = bonaparte_30	# Eugene de Beauharnais
+	}
+	1814.6.14 = {	# Modena
+		holder = habsburg_51	# Francis IV
+		liege = 0
+	}
+	1846.1.21 = {
+		holder = habsburg_52	# Francis V
+	}
+	1860.3.22 = {	# Italy
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_mantua = {
+	1805.6.5 = {	# Italy
+		holder = bonaparte_30	# Eugene de Beauharnais
+	}
+	1815.7.8 = {	# Austria
+		holder = habsburg_20	# Francis I
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+	1866.10.3 = {	# Italy
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+#d_pisa = {
+#}
+c_pisa = {
+	1804.5.18 = {	# France
+		holder = bonaparte_2	# Napoleon
+	}
+	1814.6.3 = {	# Tuscany
+		holder = habsburg_40	# Ferdinand III
+	}
+	1824.6.18 = {
+		holder = habsburg_41	# Leopold II
+	}
+	1860.3.22 = {	# Italy
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+d_toscana = {
+	1765.8.18 = {	# Tuscany
+		holder = habsburg_19	# Leopold I
+	}
+	1790.7.22 = {
+		holder = habsburg_40	# Ferdinand III
+	}
+	1804.5.18 = {	# France
+		holder = bonaparte_2	# Napoleon
+	}
+	1814.6.3 = {	# Tuscany
+		holder = habsburg_40	# Ferdinand III
+	}
+	1824.6.18 = {
+		holder = habsburg_41	# Leopold II
+	}
+	1859.7.21 = {
+		holder = habsburg_42	# Ferdinand IV
+	}
+	1860.3.22 = {	# Italy
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_firenze = {
+	1804.5.18 = {	# France
+		holder = bonaparte_2	# Napoleon
+	}
+	1814.6.3 = {	# Tuscany
+		holder = habsburg_40	# Ferdinand III
+	}
+	1824.6.18 = {
+		holder = habsburg_41	# Leopold II
+	}
+	1860.3.22 = {	# Italy
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_lucca = {
+	1804.5.18 = {	# France
+		holder = bonaparte_2	# Napoleon
+	}
+	1805.6.23 = {
+		holder = bonaparte_11	# Elisa Bonaparte
+		liege = e_france
+	}
+	# granted to Maria Luisa of Etruria, but revert back to Tuscany
+	# when Marie Louise of Parma dies
+	1815.6.9 = {	# Tuscany
+		holder = habsburg_40	# Ferdinand III
+		# bourbon_38
+		liege = 0
+	}
+	1824.6.18 = {
+		holder = habsburg_41	# Leopold II
+	}
+	1860.3.22 = {	# Italy
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_arezzo = {
+	1804.5.18 = {	# France
+		holder = bonaparte_2	# Napoleon
+	}
+	1814.6.3 = {	# Tuscany
+		holder = habsburg_40	# Ferdinand III
+	}
+	1824.6.18 = {
+		holder = habsburg_41	# Leopold II
+	}
+	1860.3.22 = {	# Italy
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_siena = {
+	1804.5.18 = {	# France
+		holder = bonaparte_2	# Napoleon
+	}
+	1814.6.3 = {	# Tuscany
+		holder = habsburg_40	# Ferdinand III
+	}
+	1824.6.18 = {
+		holder = habsburg_41	# Leopold II
+	}
+	1860.3.22 = {	# Italy
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_orbetello = {
+	1804.5.18 = {	# France
+		holder = bonaparte_2	# Napoleon
+	}
+	1814.6.3 = {	# Tuscany
+		holder = habsburg_40	# Ferdinand III
+	}
+	1824.6.18 = {
+		holder = habsburg_41	# Leopold II
+	}
+	1860.3.22 = {	# Italy
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+d_istria = {
+	1792.3.1 = {
+		holder = habsburg_20	# Francis I
+		de_jure_liege = k_austria
+	}
+	1809.1.1 = {	# France
+		holder = bonaparte_2	# Napoleon
+	}
+	1815.7.8 = {	# Austria
+		holder = habsburg_20	# Francis I
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_pula = {
+	1809.1.1 = {	# France
+		holder = bonaparte_2	# Napoleon
+	}
+	1815.7.8 = {	# Austria
+		holder = habsburg_20	# Francis I
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}

@@ -327,25 +327,37 @@ c_hohenburg = {
 }
 d_salzburg = {
 	1792.3.1 = {	# Austria
-		holder = 9000012
+		holder = habsburg_20	# Francis II
 		de_jure_liege = k_austria
 	}
 	1806.1.1 = {	# Bavaria
 		holder = wittelsbach_0	# Maximilian I Joseph
 	}
 	1815.7.8 = {	# Austria
-		holder = 9000012
+		holder = habsburg_20
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
 	}
 }
 c_salzburg = {
 	1792.3.1 = {	# Austria
-		holder = 9000012
+		holder = habsburg_20	# Francis II
 	}
 	1806.1.1 = {	# Bavaria
 		holder = wittelsbach_0	# Maximilian I Joseph
 	}
 	1815.7.8 = {	# Austria
-		holder = 9000012
+		holder = habsburg_20
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
 	}
 }
 c_berchtesgaden = {
@@ -373,35 +385,53 @@ c_berchtesgaden = {
 }
 c_hallstatt = {
 	1792.3.1 = {	# Austria
-		holder = 9000012
+		holder = habsburg_20	# Francis II
 	}
 	1806.1.1 = {	# Bavaria
 		holder = wittelsbach_0	# Maximilian I Joseph
 	}
 	1815.7.8 = {	# Austria
-		holder = 9000012
+		holder = habsburg_20
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
 	}
 }
 c_linz = {
 	1792.3.1 = {	# Austria
-		holder = 9000012
+		holder = habsburg_20	# Francis II
 	}
 	1806.1.1 = {	# Bavaria
 		holder = wittelsbach_0	# Maximilian I Joseph
 	}
 	1815.7.8 = {	# Austria
-		holder = 9000012
+		holder = habsburg_20
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
 	}
 }
 c_schaumberg = {
 	1792.3.1 = {	# Austria
-		holder = 9000012
+		holder = habsburg_20	# Francis II
 	}
 	1806.1.1 = {	# Bavaria
 		holder = wittelsbach_0	# Maximilian I Joseph
 	}
 	1815.7.8 = {	# Austria
-		holder = 9000012
+		holder = habsburg_20
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
 	}
 }
 d_augsburg = {
@@ -449,8 +479,14 @@ c_alpsee = {
 		holder = wittelsbach_0	# Maximilian I Joseph
 	}
 	1815.6.9 = {	# Austria
-		holder = 9000012
+		holder = habsburg_20	# Francis I
 		de_jure_liege = d_tyrol
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
 	}
 }
 c_kempten = {
@@ -515,168 +551,312 @@ c_burgau = {
 }
 d_steyermark = {
 	1792.3.1 = {
-		holder = 9000012
+		holder = habsburg_20	# Francis II
 		de_jure_liege = k_austria
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
 	}
 }
 c_graz = {
 	1792.3.1 = {
-		holder = 9000012
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
 	}
 }
 c_pitten = {
 	1792.3.1 = {
-		holder = 9000012
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
 	}
 }
 c_liebnitz = {
 	1792.3.1 = {
-		holder = 9000012
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
 	}
 }
 c_murzzuschlag = {
 	1792.3.1 = {
-		holder = 9000012
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
 	}
 }
 d_osterreich = {
 	1792.3.1 = {
-		holder = 9000012
+		holder = habsburg_20	# Francis II
 		de_jure_liege = k_austria
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
 	}
 }
 c_vienna = {
 	1792.3.1 = {
-		holder = 9000012
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
 	}
 }
 c_hohenau = {
 	1792.3.1 = {
-		holder = 9000012
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
 	}
 }
 c_sankt_polten = {
 	1792.3.1 = {
-		holder = 9000012
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
 	}
 }
 c_freistadt = {
 	1792.3.1 = {
-		holder = 9000012
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
 	}
 }
 c_amstetten = {
 	1792.3.1 = {
-		holder = 9000012
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
 	}
 }
 c_krems = {
 	1792.3.1 = {
-		holder = 9000012
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
 	}
 }
 d_tyrol = {
 	1792.3.1 = {	# Austria
-		holder = 9000012
+		holder = habsburg_20	# Francis II
 		de_jure_liege = k_austria
 	}
 	1806.1.1 = {	# Bavaria
 		holder = wittelsbach_0	# Maximilian I Joseph
 	}
 	1815.6.9 = {	# Austria
-		holder = 9000012
+		holder = habsburg_20
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
 	}
 }
 c_innsbruck = {
 	1792.3.1 = {	# Austria
-		holder = 9000012
+		holder = habsburg_20	# Francis II
 	}
 	1806.1.1 = {	# Bavaria
 		holder = wittelsbach_0	# Maximilian I Joseph
 	}
 	1815.6.9 = {	# Austria
-		holder = 9000012
+		holder = habsburg_20
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
 	}
 }
 c_brixen = {
 	1792.3.1 = {	# Austria
-		holder = 9000012
+		holder = habsburg_20	# Francis II
 	}
 	1806.1.1 = {	# Bavaria
 		holder = wittelsbach_0	# Maximilian I Joseph
 	}
 	1815.6.9 = {	# Austria
-		holder = 9000012
+		holder = habsburg_20
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
 	}
 }
 c_lienz = {
 	1792.3.1 = {	# Austria
-		holder = 9000012
+		holder = habsburg_20	# Francis II
 	}
 	1806.1.1 = {	# Bavaria
 		holder = wittelsbach_0	# Maximilian I Joseph
 	}
 	1815.6.9 = {	# Austria
-		holder = 9000012
+		holder = habsburg_20
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
 	}
 }
 d_carinthia = {
 	1792.3.1 = {
-		holder = 9000012
+		holder = habsburg_20	# Francis II
 		de_jure_liege = k_austria
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
 	}
 }
 c_karnten = {
 	1792.3.1 = {
-		holder = 9000012
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
 	}
 }
 c_kammersberg = {
 	1792.3.1 = {
-		holder = 9000012
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
 	}
 }
 c_knittelfeld = {
 	1792.3.1 = {
-		holder = 9000012
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
 	}
 }
 c_villach = {
 	1792.3.1 = {
-		holder = 9000012
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
 	}
 }
 d_krain = {
 	1792.3.1 = {	# Austria
-		holder = 9000012
+		holder = habsburg_20	# Francis II
 		de_jure_liege = k_austria
 	}
 	1809.1.1 = {	# France
 		holder = bonaparte_2	# Napoleon
 	}
 	1815.7.8 = {	# Austria
-		holder = 9000012
+		holder = habsburg_20
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
 	}
 }
 c_kranj = {
 	1792.3.1 = {	# Austria
-		holder = 9000012
+		holder = habsburg_20	# Francis II
 	}
 	1809.1.1 = {	# France
 		holder = bonaparte_2	# Napoleon
 	}
 	1815.7.8 = {	# Austria
-		holder = 9000012
+		holder = habsburg_20
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
 	}
 }
 c_ljubljana = {
 	1792.3.1 = {	# Austria
-		holder = 9000012
+		holder = habsburg_20	# Francis II
 	}
 	1809.1.1 = {	# France
 		holder = bonaparte_2	# Napoleon
 	}
 	1815.7.8 = {	# Austria
-		holder = 9000012
+		holder = habsburg_20
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
 	}
 }

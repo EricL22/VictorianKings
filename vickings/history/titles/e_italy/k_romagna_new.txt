@@ -23,7 +23,7 @@ k_romagna = {
 }
 d_romagna = {
 	1805.6.5 = {	# Italy
-		holder = 9000008	# Eugene de Beauharnais
+		holder = bonaparte_30	# Eugene de Beauharnais
 	}
 	1814.5.30 = {	# Papal States
 		holder = papal_43	# Pius VII
@@ -40,7 +40,7 @@ d_romagna = {
 	1846.6.16 = {
 		holder = papal_47	# Pius IX
 	}
-	1870.10.9 = {	# Italy
+	1860.12.17 = {	# Italy
 		holder = savoy_26	# Vittorio Emanuele II
 		de_jure_liege = k_italy
 	}
@@ -53,7 +53,7 @@ d_romagna = {
 }
 c_ravenna = {
 	1805.6.5 = {	# Italy
-		holder = 9000008	# Eugene de Beauharnais
+		holder = bonaparte_30	# Eugene de Beauharnais
 	}
 	1814.5.30 = {	# Papal States
 		holder = papal_43	# Pius VII
@@ -70,7 +70,7 @@ c_ravenna = {
 	1846.6.16 = {
 		holder = papal_47	# Pius IX
 	}
-	1870.10.9 = {	# Italy
+	1860.12.17 = {	# Italy
 		holder = savoy_26	# Vittorio Emanuele II
 	}
 	1878.1.9 = {
@@ -82,7 +82,7 @@ c_ravenna = {
 }
 c_bologna = {
 	1805.6.5 = {	# Italy
-		holder = 9000008	# Eugene de Beauharnais
+		holder = bonaparte_30	# Eugene de Beauharnais
 	}
 	1814.5.30 = {	# Papal States
 		holder = papal_43	# Pius VII
@@ -99,7 +99,7 @@ c_bologna = {
 	1846.6.16 = {
 		holder = papal_47	# Pius IX
 	}
-	1870.10.9 = {	# Italy
+	1860.12.17 = {	# Italy
 		holder = savoy_26	# Vittorio Emanuele II
 	}
 	1878.1.9 = {
@@ -111,7 +111,7 @@ c_bologna = {
 }
 c_ferrara = {
 	1805.6.5 = {	# Italy
-		holder = 9000008	# Eugene de Beauharnais
+		holder = bonaparte_30	# Eugene de Beauharnais
 	}
 	1814.5.30 = {	# Papal States
 		holder = papal_43	# Pius VII
@@ -128,7 +128,7 @@ c_ferrara = {
 	1846.6.16 = {
 		holder = papal_47	# Pius IX
 	}
-	1870.10.9 = {	# Italy
+	1860.12.17 = {	# Italy
 		holder = savoy_26	# Vittorio Emanuele II
 	}
 	1878.1.9 = {
@@ -140,7 +140,7 @@ c_ferrara = {
 }
 c_casentino = {
 	1805.6.5 = {	# Italy
-		holder = 9000008	# Eugene de Beauharnais
+		holder = bonaparte_30	# Eugene de Beauharnais
 	}
 	1814.5.30 = {	# Papal States
 		holder = papal_43	# Pius VII
@@ -157,7 +157,7 @@ c_casentino = {
 	1846.6.16 = {
 		holder = papal_47	# Pius IX
 	}
-	1870.10.9 = {	# Italy
+	1860.12.17 = {	# Italy
 		holder = savoy_26	# Vittorio Emanuele II
 	}
 	1878.1.9 = {
@@ -169,7 +169,7 @@ c_casentino = {
 }
 d_ancona = {
 	1805.6.5 = {	# Italy
-		holder = 9000008	# Eugene de Beauharnais
+		holder = bonaparte_30	# Eugene de Beauharnais
 	}
 	1814.5.30 = {	# Papal States
 		holder = papal_43	# Pius VII
@@ -186,7 +186,7 @@ d_ancona = {
 	1846.6.16 = {
 		holder = papal_47	# Pius IX
 	}
-	1870.10.9 = {	# Italy
+	1860.12.17 = {	# Italy
 		holder = savoy_26	# Vittorio Emanuele II
 		de_jure_liege = k_italy
 	}
@@ -199,7 +199,7 @@ d_ancona = {
 }
 c_ancona = {
 	1805.6.5 = {	# Italy
-		holder = 9000008	# Eugene de Beauharnais
+		holder = bonaparte_30	# Eugene de Beauharnais
 	}
 	1814.5.30 = {	# Papal States
 		holder = papal_43	# Pius VII
@@ -216,7 +216,7 @@ c_ancona = {
 	1846.6.16 = {
 		holder = papal_47	# Pius IX
 	}
-	1870.10.9 = {	# Italy
+	1860.12.17 = {	# Italy
 		holder = savoy_26	# Vittorio Emanuele II
 	}
 	1878.1.9 = {
@@ -228,7 +228,7 @@ c_ancona = {
 }
 c_urbino = {
 	1805.6.5 = {	# Italy
-		holder = 9000008	# Eugene de Beauharnais
+		holder = bonaparte_30	# Eugene de Beauharnais
 	}
 	1814.5.30 = {	# Papal States
 		holder = papal_43	# Pius VII
@@ -245,7 +245,7 @@ c_urbino = {
 	1846.6.16 = {
 		holder = papal_47	# Pius IX
 	}
-	1870.10.9 = {	# Italy
+	1860.12.17 = {	# Italy
 		holder = savoy_26	# Vittorio Emanuele II
 	}
 	1878.1.9 = {
@@ -257,7 +257,7 @@ c_urbino = {
 }
 c_fermo = {
 	1805.6.5 = {	# Italy
-		holder = 9000008	# Eugene de Beauharnais
+		holder = bonaparte_30	# Eugene de Beauharnais
 	}
 	1814.5.30 = {	# Papal States
 		holder = papal_43	# Pius VII
@@ -274,7 +274,7 @@ c_fermo = {
 	1846.6.16 = {
 		holder = papal_47	# Pius IX
 	}
-	1870.10.9 = {	# Italy
+	1860.12.17 = {	# Italy
 		holder = savoy_26	# Vittorio Emanuele II
 	}
 	1878.1.9 = {
@@ -285,7 +285,7 @@ c_fermo = {
 	}
 }
 d_spoleto = {
-	1870.10.9 = {
+	1860.12.17 = {
 		de_jure_liege = k_italy
 	}
 }
@@ -308,7 +308,7 @@ c_spoleto = {
 	1846.6.16 = {
 		holder = papal_47	# Pius IX
 	}
-	1870.10.9 = {	# Italy
+	1860.12.17 = {	# Italy
 		holder = savoy_26	# Vittorio Emanuele II
 	}
 	1878.1.9 = {
@@ -337,7 +337,7 @@ c_orvieto = {
 	1846.6.16 = {
 		holder = papal_47	# Pius IX
 	}
-	1870.10.9 = {	# Italy
+	1860.12.17 = {	# Italy
 		holder = savoy_26	# Vittorio Emanuele II
 	}
 	1878.1.9 = {
@@ -366,7 +366,7 @@ c_teramo = {
 	1846.6.16 = {
 		holder = papal_47	# Pius IX
 	}
-	1870.10.9 = {	# Italy
+	1860.12.17 = {	# Italy
 		holder = savoy_26	# Vittorio Emanuele II
 	}
 	1878.1.9 = {

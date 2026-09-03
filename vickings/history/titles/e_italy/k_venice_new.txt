@@ -1,0 +1,89 @@
+k_venice = {
+	1797.10.17 = {
+		holder = 0
+	}
+	1815.6.9 = {
+		de_jure_liege = e_italy
+	}
+	1815.7.8 = {
+		holder = habsburg_20	# Francis I
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+	1866.10.3 = {
+		holder = 0
+	}
+}
+d_venice = {
+	1805.6.5 = {	# Italy
+		holder = bonaparte_30	# Eugene de Beauharnais
+	}
+	1815.7.8 = {	# Austria
+		holder = habsburg_20	# Francis I
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+	1866.10.3 = {	# Italy
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_venezia = {
+	1805.6.5 = {	# Italy
+		holder = bonaparte_30	# Eugene de Beauharnais
+	}
+	1815.7.8 = {	# Austria
+		holder = habsburg_20	# Francis I
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+	1866.10.3 = {	# Italy
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_veneto = {
+	1805.6.5 = {	# Italy
+		holder = bonaparte_30	# Eugene de Beauharnais
+	}
+	1815.7.8 = {	# Austria
+		holder = habsburg_20	# Francis I
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+	1866.10.3 = {	# Italy
+		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1878.1.9 = {
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}

@@ -68,3 +68,8 @@ house_schles_hols_gluck = {
 	name = "dynn_Schles_Hols_Gluck"
 	dynasty = 224	# Oldenburg
 }
+
+house_bourbon_parma = {
+	name = "dynn_Bb_Parma"
+	dynasty = 100146	# Bourbon
+}
