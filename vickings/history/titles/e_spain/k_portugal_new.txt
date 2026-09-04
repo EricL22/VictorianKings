@@ -1,6 +1,5 @@
 k_portugal = {
 	1139.7.25 = {
-		holder = 209503 # Afonso I
 		effect = {
 			add_to_global_variable_list = {
 				name = unavailable_unique_decisions

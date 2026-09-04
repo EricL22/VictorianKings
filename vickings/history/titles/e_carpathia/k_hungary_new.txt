@@ -1,0 +1,729 @@
+k_hungary = {
+	1792.3.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+d_visegrad = {
+#	1795.7.30 = {
+#		holder = 6490014
+#	}
+	1792.3.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_visegrad = {
+	1792.3.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_komarom = {
+	1792.3.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_esztergom = {
+	1792.3.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_szekesfehervar = {
+	1792.3.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_hewes = {
+	1792.3.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+d_somogy = {
+#	1795.7.30 = {
+#		holder = 6490014
+#	}
+	1792.3.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_somogy = {
+	1792.3.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_kolon = {
+	1792.3.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_tolna = {
+	1792.3.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_baranya = {
+	1792.3.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+d_nyitra = {
+#	1795.7.30 = {
+#		holder = 6490014
+#	}
+	1792.3.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_nyitra = {
+	1792.3.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_gemer = {
+	1792.3.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_orava = {
+	1792.3.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_trenscen = {
+	1792.3.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_lipto = {
+	1792.3.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_zolyom = {
+	1792.3.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_bars = {
+	1792.3.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_hont = {
+	1792.3.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_poszony = {
+	1792.3.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+d_ungvar = {
+#	1795.7.30 = {
+#		holder = 6490014
+#	}
+	1792.3.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_ungvar = {
+	1792.3.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_zemplen = {
+	1792.3.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_borsod = {
+	1792.3.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_saris = {
+	1792.3.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_spis = {
+	1792.3.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_abauj = {
+	1792.3.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+d_transcarpathia = {
+#	1795.7.30 = {
+#		holder = 6490014
+#	}
+	1792.3.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_marmaros = {
+	1792.3.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_bereg = {
+	1792.3.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+d_transylvania = {
+#	1787.5.21 = {
+#		holder = 6490010
+#	}
+#	1835.2.7 = {
+#		holder = habsburg_53
+#	}
+	1792.3.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_feher = {
+	1792.3.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_szekelyfold = {
+	1792.3.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_barcasag = {
+	1792.3.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_fogaras = {
+	1792.3.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_torda = {
+	1792.3.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_beszterce = {
+	1792.3.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_hunyad = {
+	1792.3.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+d_bihar = {
+#	1795.7.30 = {
+#		holder = 6490014
+#	}
+	1792.3.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_bihar = {
+	1792.3.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_zarand = {
+	1792.3.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_bekes = {
+	1792.3.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_szabolcs = {
+	1792.3.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_szatmar = {
+	1792.3.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+d_temes = {
+#	1795.7.30 = {
+#		holder = 6490014
+#	}
+	1792.3.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_temes = {
+	1792.3.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_arad = {
+	1792.3.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_krasso = {
+	1792.3.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_keve = {
+	1792.3.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_csanad = {
+	1792.3.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+d_bacs = {
+#	1795.7.30 = {
+#		holder = 6490014
+#	}
+	1792.3.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_bacs = {
+	1792.3.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_bodrog = {
+	1792.3.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_csongrad = {
+	1792.3.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+d_gyor = {
+#	1795.7.30 = {
+#		holder = 6490014
+#	}
+	1792.3.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_gyor = {
+	1792.3.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_sopron = {
+	1792.3.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_vas = {
+	1792.3.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_veszprem = {
+	1792.3.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+d_syrmia = {
+#	1795.7.30 = {
+#		holder = 6490014
+#	}
+	1792.3.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_szerem = {
+	1792.3.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}

@@ -129,6 +129,12 @@ bonaparte_2 = {
 	1810.1.10 = {
 		remove_spouse = eur_01010
 	}
+	1810.2.16 = {
+		add_opinion = {
+			modifier = perk_negotiated_alliance_opinion
+			target = character:cdr_0	# Karl von Dalberg
+		}
+	}
 	1810.3.11 = {
 		add_spouse = habsburg_32	# Marie Louise
 	}

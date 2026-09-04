@@ -1,0 +1,74 @@
+﻿exclave_independence = {
+	
+	categories = {
+		titles tweaks
+	}
+	
+	default = ai_limited_exclave_independence
+	
+	off_exclave_independence = {
+	
+	}
+	
+	ai_limited_exclave_independence = {
+	
+	}
+	
+	ai_significant_exclave_independence = {
+	
+	}
+	
+	ai_total_exclave_independence = {
+	
+	}
+
+	limited_exclave_independence = {
+	
+	}
+	
+	significant_exclave_independence = {
+	
+	}
+	
+	total_exclave_independence = {
+	
+	}
+}
+
+empire_obscurity_requirement = {
+	
+	categories = {
+		titles tweaks
+	}
+	
+	default = off_empire_obscurity_requirement
+
+	on_empire_obscurity_requirement = {
+	
+	}
+	
+	off_empire_obscurity_requirement = {
+	
+	}
+}
+
+generate_families = {
+	
+	categories = {
+		tweaks flavor
+	}
+	
+	default = off_generate_families
+
+	on_generate_families = {
+	
+	}
+	
+	on_generate_families_ai_only = {
+	
+	}
+
+	off_generate_families = {
+	
+	}
+}

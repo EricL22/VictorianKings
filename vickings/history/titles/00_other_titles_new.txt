@@ -213,6 +213,9 @@ k_austria = {
 	1804.8.11 = {
 		de_jure_liege = e_austria
 	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
 	1848.12.2 = {
 		holder = habsburg_23	# Franz Josef I
 	}

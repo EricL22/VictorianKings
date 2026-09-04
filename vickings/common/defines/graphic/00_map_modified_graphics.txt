@@ -3,3 +3,7 @@
 	PANNING_WIDTH =  16384
 	PANNING_HEIGHT = 6144
 }
+
+NMapName = {
+	NAME_FONT_SIZE = 40				# Font size used for drawing the map names
+}

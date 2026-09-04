@@ -7,11 +7,17 @@ common
 .........00_bookmarks.txt
 ......groups
 .........00_bookmark_groups.txt
+...defines (clauses)
+...game_rules (clauses)
 ...landed_titles
 ......00_landed_titles.txt
+...laws
+......vk_laws_overwrite.txt (clauses)
 ...religion
 ......religion_types
 .........00_christianity.txt
+...scripted_effects
+......vk_game_rule_overwrite_effects.txt (clauses)
 content_source
 ...map_objects
 fonts
@@ -42,6 +48,9 @@ gfx
 ......water
 history
 ...cultures
+...titles
+......(all file names of the form k_[a-zA-Z]+.txt)
+......(all file names ending with _new.txt) (clauses)
 map_data
 music
 ...in_game

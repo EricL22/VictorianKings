@@ -1,0 +1,14 @@
+﻿l_english:
+ setting_on_empire_obscurity_requirement:0 "#high On#!"
+ setting_off_empire_obscurity_requirement:0 "Off"
+
+ setting_1453_end_date:0 "1920"
+ setting_1453_end_date_desc:0 "The game will end in 1920."
+
+ setting_on_generate_families:0 "#high On#!"
+ setting_off_generate_families:1 "Off"
+
+ setting_limited_exclave_independence_desc:0 "Exclaves of Independent Rulers at peace will be removed on succession unless connected to the Capital area by one County, via a naval path or part of the De Jure empire."
+ setting_ai_limited_exclave_independence:0 "Limited (AI Only)"
+ setting_ai_limited_exclave_independence_desc:0 "Exclaves of Independent AI Rulers at peace will be removed on succession unless connected to the Capital area by one County, via a naval path or part of the De Jure empire."
+ setting_ai_significant_exclave_independence:1 "#high Significant (AI Only)#!"

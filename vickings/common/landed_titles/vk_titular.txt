@@ -32,7 +32,7 @@ e_austria = {
 }
 
 e_cdr = {
-	color = { 255 255 255 }
+	color = { 226 181 137 }
 
 	capital = c_frankfurt
 	definite_form = yes

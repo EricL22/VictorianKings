@@ -48,7 +48,7 @@
 @filled_mid_gradient_alpha_outside = 			@filled_near_gradient_alpha_outside
 @filled_mid_gradient_width = 					@filled_near_gradient_width
 @filled_mid_gradient_color_mult = 				@filled_near_gradient_color_mult
-@filled_mid_edge_width = 						0	# CHANGED
+@filled_mid_edge_width = 						0.025	# CHANGED
 @filled_mid_edge_sharpness = 					0		# CHANGED
 @filled_mid_edge_alpha = 						1
 @filled_mid_edge_color_mult = 					0.65
