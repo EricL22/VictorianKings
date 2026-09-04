@@ -358,7 +358,7 @@ hohenzollern_21 = {
 	}
 }
 
-9200013 = {
+hohenzollern_22 = {
 	name = "Charlotte"
 	dynasty = 12476
 	religion = reformed

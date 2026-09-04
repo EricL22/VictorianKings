@@ -1,0 +1,427 @@
+﻿romanov_0 = {
+	name = "Pyotr"	# I of Russia
+	dynasty = 100397
+	religion = orthodox
+	culture = russian
+	1672.6.9 = {
+		birth = yes
+	}
+	1725.2.8 = {
+		death = yes
+		give_nickname = nick_the_great
+	}
+}
+
+romanov_1 = {
+	name = "Alexei"	# Tsarevich of Russia
+	dynasty = 100397
+	religion = orthodox
+	culture = russian
+	father = romanov_0
+	1690.2.28 = {
+		birth = yes
+	}
+	1718.6.26 = {
+		death = {
+			death_reason = death_torture
+		}
+	}
+}
+
+romanov_2 = {
+	name = "Pyotr"	# II of Russia
+	dynasty = 100397
+	religion = orthodox
+	culture = russian
+	father = romanov_1
+	1715.10.23 = {
+		birth = yes
+	}
+	1730.1.30 = {
+		death = {
+			death_reason = death_smallpox
+		}
+	}
+}
+
+romanov_3 = {
+	name = "Anna"	# Grand Duchess of Russia
+	dynasty = 100397
+	religion = orthodox
+	culture = russian
+	father = romanov_0
+	female = yes
+	1708.1.27 = {
+		birth = yes
+	}
+	1728.3.4 = {
+		death = yes
+	}
+}
+
+romanov_4 = {
+	name = "Pyotr"	# III of Russia
+	dynasty = 100397
+	religion = orthodox
+	culture = russian
+	father = oldenburg_51
+	mother = romanov_3
+	1728.2.21 = {
+		birth = yes
+	}
+	1762.7.17 = {
+		death = yes
+	}
+}
+
+romanov_5 = {
+	name = "Pavel"
+	dynasty = 100397
+	religion = orthodox
+	culture = russian
+	father = romanov_4
+	1754.10.1 = {
+		birth = yes
+	}
+	1801.3.23 = {
+		death = yes
+	}
+}
+
+romanov_6 = {
+	name = "Alexandr"
+	dynasty = 100397
+	religion = orthodox
+	culture = russian
+	father = romanov_5
+#	dna = 9000014_alexander_romanov
+	1703.5.27 = {
+		set_realm_capital = title:c_vodi
+		effect = {
+			add_realm_law_skip_effects = crown_authority_3
+			add_realm_law_skip_effects = male_only_law
+			add_character_flag = semi_salic_law
+		}
+	}
+	1777.12.23 = {
+		birth = yes
+	}
+	1793.9.28 = {
+		add_spouse = zahringen_10	# Elizabeth Alexeievna (Louise of Baden)
+	}
+	1799.1.1 = {
+		set_relation_lover = { reason = lover_history target = character:romanov_20 }	# Maria Naryshkina
+	}
+	1810.1.1 = {
+		effect = {
+			add_prestige_experience = 1000
+			add_gold = 1000
+			#add_character_modifier = {
+			#	modifier = emperor_of_russia_modifier
+			#}
+
+			random_character_war = { save_scope_as = history_war }
+
+			# First Western Army
+			spawn_army = {
+				name = "First Western Army"
+				levies = 90000
+				men_at_arms = {
+					type = light_footmen
+					stacks = 70
+				}
+				men_at_arms = {
+					type = light_horsemen
+					stacks = 70
+				}
+				location = province:136
+				origin = province:169
+				inheritable = yes
+				uses_supply = no
+				#save_temporary_scope_as = new_armee
+			}
+
+			# Second Western Army
+			spawn_army = {
+				name = "Second Western Army"
+				levies = 23200
+				men_at_arms = {
+					type = light_footmen
+					stacks = 46
+				}
+				men_at_arms = {
+					type = light_horsemen
+					stacks = 52
+				}
+				location = province:548
+				origin = province:548
+				inheritable = no
+				uses_supply = no
+				war = scope:history_war
+				#save_temporary_scope_as = new_armee
+			}
+
+			# Third Western Army - Third Reserve Army of Observation merged with the Army of the Danube
+			# 30 September 1812
+			spawn_army = {
+				name = "Third Western Army"
+				levies = 66100
+				men_at_arms = {
+					type = light_footmen
+					stacks = 134	#74 from danube
+				}
+				men_at_arms = {
+					type = light_horsemen
+					stacks = 140	#76 from danube
+				}
+				men_at_arms = {
+					type = bombard
+					stacks = 20	#20 from danube
+				}
+				location = province:5070
+				origin = province:5070
+				inheritable = no
+				uses_supply = no
+				war = scope:history_war
+				#save_temporary_scope_as = new_armee
+			}
+		}
+	}
+	1825.12.1 = {
+		death = yes
+	}
+}
+
+romanov_7 = {
+	name = "Konstantin"	# Grand Duke of Russia
+	dynasty = 100397
+	religion = orthodox
+	culture = russian
+	father = romanov_5
+	1779.4.27 = {
+		birth = yes
+	}
+	1820.5.27 = {
+		trait = disinherited	# renounced his claim to the throne
+	}
+	1831.6.15 = {
+		death = yes
+	}
+}
+
+romanov_8 = {
+	name = "Nikolay"	# I of Russia
+	dynasty = 100397
+	religion = orthodox
+	culture = russian
+	father = romanov_5
+	1796.7.6 = {
+		birth = yes
+	}
+	1817.7.13 = {
+		add_spouse = hohenzollern_22	# Charlotte of Prussia
+	}
+	1825.12.1 = {
+		set_realm_capital = title:c_vodi
+		effect = {
+			add_realm_law_skip_effects = crown_authority_3
+			add_realm_law_skip_effects = male_only_law
+			add_character_flag = semi_salic_law
+			add_prestige_experience = 100
+			add_gold = 5000
+			#add_character_modifier = {
+			#	modifier = emperor_of_russia_modifier
+			#}
+
+			# Imperial Guard
+			spawn_army = {
+				name = "Imperial Guard"
+				levies = 30000
+				men_at_arms = {
+					type = light_footmen
+					stacks = 18
+				}
+				men_at_arms = {
+					type = light_horsemen
+					stacks = 12
+				}
+				men_at_arms = {
+					type = druzhina
+					stacks = 20
+				}
+				location = province:169
+				origin = province:169
+				inheritable = yes
+			}
+		}
+	}
+	1855.3.2 = {
+		death = yes
+	}
+}
+
+romanov_9 = {
+	name = "Alexandr"	# II of Russia
+	dynasty = 100397
+	religion = orthodox
+	culture = russian
+	father = romanov_8
+	mother = hohenzollern_22
+	1818.4.29 = {
+		birth = yes
+	}
+	1855.3.2 = {
+		set_realm_capital = title:c_vodi
+		effect = {
+			add_realm_law_skip_effects = crown_authority_3
+			add_realm_law_skip_effects = male_only_law
+			add_prestige_experience = 100
+			add_gold = 5000
+			#add_character_modifier = {
+			#	modifier = emperor_of_russia_modifier
+			#}
+
+			# Imperial Guard
+			spawn_army = {
+				name = "Imperial Guard"
+				levies = 30000
+				men_at_arms = {
+					type = light_footmen
+					stacks = 18
+				}
+				men_at_arms = {
+					type = light_horsemen
+					stacks = 12
+				}
+				men_at_arms = {
+					type = druzhina
+					stacks = 20
+				}
+				location = province:169
+				origin = province:169
+				inheritable = yes
+			}
+		}
+	}
+	1881.3.13 = {
+		death = yes
+	}
+}
+
+romanov_10 = {
+	name = "Alexandr"	# III of Russia
+	dynasty = 100397
+	religion = orthodox
+	culture = russian
+	father = romanov_9
+	1845.3.10 = {
+		birth = yes
+	}
+	1894.11.1 = {
+		death = yes
+	}
+}
+
+romanov_11 = {
+	name = "Nikolay"	# II of Russia
+	dynasty = 100397
+	religion = orthodox
+	culture = russian
+	father = romanov_10
+	1868.5.18 = {
+		birth = yes
+	}
+	1918.7.17 = {
+		death = yes
+	}
+}
+
+romanov_12 = {
+	name = "Alexei"	# Tsarevich of Russia
+	dynasty = 100397
+	religion = orthodox
+	culture = russian
+	father = romanov_11
+	1904.8.12 = {
+		birth = yes
+	}
+	1918.7.17 = {
+		death = yes
+	}
+}
+
+romanov_13 = {
+	name = "Konstantin"	# Grand Duke of Russia
+	dynasty = 100397
+	religion = orthodox
+	culture = russian
+	father = romanov_8
+	mother = hohenzollern_22
+	1827.9.21 = {
+		birth = yes
+	}
+	1892.1.25 = {
+		death = yes
+	}
+}
+
+romanov_14 = {
+	name = "Nikolay"	# Grand Duke of Russia
+	dynasty = 100397
+	religion = orthodox
+	culture = russian
+	father = romanov_8
+	mother = hohenzollern_22
+	1831.8.8 = {
+		birth = yes
+	}
+	1891.4.25 = {
+		death = yes
+	}
+}
+
+romanov_15 = {
+	name = "Mikhail"	# Grand Duke of Russia
+	dynasty = 100397
+	religion = orthodox
+	culture = russian
+	father = romanov_8
+	mother = hohenzollern_22
+	1832.10.25 = {
+		birth = yes
+	}
+	1909.12.18 = {
+		death = yes
+	}
+}
+
+# Maria Naryshkina, mistress of Alexander I
+romanov_20 = {
+	name = "Maria"
+	dynasty = 21002
+	religion = orthodox
+	culture = polish
+	female = yes
+	1779.1.1 = {
+		birth = yes
+	}
+	1854.1.1 = {
+		death = yes
+	}
+}
+romanov_21 = {
+	name = "Sophia"
+	dynasty = 100397
+	religion = orthodox
+	culture = polish
+	female = yes
+	trait = bastard
+	mother = romanov_20
+	father = romanov_6
+	1805.10.1 = {
+		birth = yes
+	}
+	1824.6.18 = {
+		death = yes
+	}
+}

@@ -1,1 +1,4 @@
 ﻿charles_male = { Carles Carlos Carlu Carlus Carule Carolu Cearl Charles Chiarion Kaarle Karel Karl Karlo Karlos Karol KA_roly }
+joseph_male = { Giuseppe Giuseppi Hovsep Iosep Ioseph Jose Joseph Josif Josip Jozef JO_zef JO_zsef Yosef Yosip Yousef Youssef Youssouf YuC_uf Yusuf Zuseppe  }
+nicholas_male = { Cailean Calum Claes Claus Colin ColmA_n Columb MikoL_aj MikolA_S_ MikulA_S_ Niccolino NiccolO_ Nicholas Nicholaus Niclaes Nicolas Nicolau Niels Nigola Niklas Nikola Nikolaos Nikolaus Nikolitza NikollE_ Nikoloz Nils NicolA_ Nikolay }
+peter_male = { Bedros Boutros Cephas Cephus Pathrose Peder Pedr Pedro Pedru Pedur PE_ire PE_r Pere Pero Perrot Petair Petar Peter PE_ter Petr Petre Petri Petro Petros Petruccio Petru Petrus Piarres Pierre Pieter Pietro Piotr PjetE_r Peider Padrut Pyotr }

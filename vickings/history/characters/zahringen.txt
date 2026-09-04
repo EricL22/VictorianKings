@@ -108,3 +108,24 @@ zahringen_7 = {
 		death = yes
 	}
 }
+
+# Wife of Alexander I (Russia)
+zahringen_10 = {
+	name = "Louise"	# of Baden
+	dynasty_house = house_zahringen
+	religion = catholic
+	culture = swabian
+	father = zahringen_1
+	female = yes
+	1779.1.24 = {
+		birth = yes
+	}
+	1793.9.28 = {
+		name = "Yelizaveta"
+		religion = orthodox
+		culture = russian
+	}
+	1826.5.16 = {
+		death = yes
+	}
+}

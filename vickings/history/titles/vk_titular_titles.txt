@@ -205,6 +205,31 @@ k_prussia = {
 	}
 }
 
+k_lodomeria = {
+	1772.8.5 = {
+		holder = habsburg_17	# Maria Theresa
+		de_jure_liege = e_hre
+	}
+	1780.11.29 = {
+		holder = habsburg_18	# Joseph II
+	}
+	1790.2.20 = {
+		holder = habsburg_19	# Leopold II
+	}
+	1792.3.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1804.8.11 = {
+		de_jure_liege = e_austria
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+
 d_berg = {
 	1809.3.3 = {
 		holder = bonaparte_8	# Napoleon-Louis
@@ -254,6 +279,17 @@ d_wurzburg = {
 		liege = e_cdr
 	}
 	1814.6.3 = {
+		holder = 0
+	}
+}
+
+d_warsaw = {
+	# 1807.7.9: Frederick Augustus I of Saxony
+	# Given to Prime Minister instead since CK3 doesn't allow multiple lieges
+	1809.1.1 = {
+		holder = eur_04100	# Stanisław Kostka Potocki
+	}
+	1815.6.9 = {
 		holder = 0
 	}
 }

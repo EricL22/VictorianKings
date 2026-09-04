@@ -41,11 +41,17 @@
  k_prussia:0 "Prussia"
  k_prussia_adj:0 "Prussian"
 
+ k_lodomeria:0 "Galicia and Lodomeria"
+ k_lodomeria_adj:0 "Galician"
+
  d_berg:0 "Berg"
  d_berg_adj:0 "Berg"
 
  d_wurzburg:0 "Würzburg"
  d_wurzburg_adj:0 "Würzburgian"
+
+ d_warsaw:0 "Warsaw"
+ d_warsaw_adj:0 "Warszawan"
 
  c_faucigny:0 "Faucigny"
 

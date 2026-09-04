@@ -179,6 +179,42 @@ e_hre = {
 	}
 }
 
+e_russia = {
+	1703.5.27 = {
+		government = feudal_government
+		effect = {
+			set_capital_county = title:c_vodi
+		}
+	}
+	1721.11.2 = {
+		holder = romanov_0	# Peter I
+	}
+	1727.5.18 = {
+		holder = romanov_2	# Peter II
+	}
+	1762.1.9 = {
+		holder = romanov_4	# Peter III
+	}
+	1796.11.17 = {
+		holder = romanov_5	# Paul I
+	}
+	1801.3.23 = {
+		holder = romanov_6	# Alexander I
+	}
+	1825.12.1 = {
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+
 k_switzerland = {
 	1806.8.6 = {
 		de_jure_liege = e_germany

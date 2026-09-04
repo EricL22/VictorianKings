@@ -1,0 +1,851 @@
+k_poland = {
+	1596.1.1 = {
+		effect = { set_capital_county = title:c_czerska }
+	}
+	1795.11.25 = {
+		holder = 0
+	}
+	1815.6.9 = {
+		holder = romanov_6	# Alexander I
+	}
+	1825.12.1 = {
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+d_lesser_poland = {
+	1815.6.9 = {
+		holder = 0
+	}
+}
+c_krakowska = {
+	1809.1.1 = {	# Warsaw
+		holder = eur_04100	# Stanisław Kostka Potocki
+	}
+	1814.6.9 = {
+		liege = 0
+		government = republic_government
+	}
+	1815.7.8 = {	# Krakow (in reality 2 Nov, but given earlier for gameplay purposes)
+		holder = eur_04200	# Stanisław Wodzicki
+	}
+	1833.3.23 = {
+		holder = eur_04300	# Kasper Wielogłowski
+	}
+	1846.11.16 = {	# Austria
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_sacz = {
+	1772.8.5 = {
+		de_jure_liege = d_halych
+	}
+#	1810.4.3 = {
+#		holder = 6490001
+#	}
+#	1815.4.1 = {
+#		holder = 6490002
+#	}
+#	1832.9.1 = {
+#		holder = 6490003
+#	}
+	1792.3.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_sandomierska = {
+	1809.1.1 = {	# Warsaw
+		holder = eur_04100	# Stanisław Kostka Potocki
+	}
+	1815.6.9 = {	# Russia
+		holder = romanov_6	# Alexander I
+	}
+	1825.12.1 = {
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_stezycka = {
+	1809.1.1 = {	# Warsaw
+		holder = eur_04100	# Stanisław Kostka Potocki
+	}
+	1815.6.9 = {	# Russia
+		holder = romanov_6	# Alexander I
+	}
+	1825.12.1 = {
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_radomska = {
+	1809.1.1 = {	# Warsaw
+		holder = eur_04100	# Stanisław Kostka Potocki
+	}
+	1815.6.9 = {	# Russia
+		holder = romanov_6	# Alexander I
+	}
+	1825.12.1 = {
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_lubelska = {
+	1809.1.1 = {	# Warsaw
+		holder = eur_04100	# Stanisław Kostka Potocki
+	}
+	1815.6.9 = {	# Russia
+		holder = romanov_6	# Alexander I
+	}
+	1825.12.1 = {
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_tarnowska = {
+	1772.8.5 = {
+		de_jure_liege = d_halych
+	}
+#	1810.4.3 = {
+#		holder = 6490001
+#	}
+#	1815.4.1 = {
+#		holder = 6490002
+#	}
+#	1832.9.1 = {
+#		holder = 6490003
+#	}
+	1792.3.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+d_wielkopolska = {
+	###Duchy of Posen###
+	1814.4.11 = {
+		de_jure_liege = k_prussia
+		holder = hohenzollern_16	# Frederick William III
+	}
+	# administrative power passed to governors
+#	1815.4.30 = {
+#		holder = 6480012
+#		liege = k_prussia
+#	}
+#	1830.1.1 = {
+#		holder = 6480013
+#	}
+	1840.6.7 = {
+		holder = hohenzollern_17	# Frederick William IV
+	}
+	1861.1.2 = {
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
+	}
+}
+c_poznanska = {
+	1809.1.1 = {	# Warsaw
+		holder = eur_04100	# Stanisław Kostka Potocki
+	}
+	1814.4.11 = {	# Prussia
+		holder = hohenzollern_16	# Frederick William III
+	}
+#	1815.4.30 = {
+#		holder = 6480012
+#	}
+#	1830.1.1 = {
+#		holder = 6480013
+#	}
+	1840.6.7 = {
+		holder = hohenzollern_17	# Frederick William IV
+	}
+	1861.1.2 = {
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
+	}
+}
+c_gnieznienska = {
+	1809.1.1 = {	# Warsaw
+		holder = eur_04100	# Stanisław Kostka Potocki
+	}
+	1814.4.11 = {	# Prussia
+		holder = hohenzollern_16	# Frederick William III
+	}
+#	1815.4.30 = {
+#		holder = 6480012
+#	}
+#	1830.1.1 = {
+#		holder = 6480013
+#	}
+	1840.6.7 = {
+		holder = hohenzollern_17	# Frederick William IV
+	}
+	1861.1.2 = {
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
+	}
+}
+c_kaliska = {
+	1809.1.1 = {	# Warsaw
+		holder = eur_04100	# Stanisław Kostka Potocki
+	}
+	1814.4.11 = {	# Prussia
+		holder = hohenzollern_16	# Frederick William III
+	}
+#	1815.4.30 = {
+#		holder = 6480012
+#	}
+#	1830.1.1 = {
+#		holder = 6480013
+#	}
+	1840.6.7 = {
+		holder = hohenzollern_17	# Frederick William IV
+	}
+	1861.1.2 = {
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
+	}
+}
+c_wschowska = {
+	1809.1.1 = {	# Warsaw
+		holder = eur_04100	# Stanisław Kostka Potocki
+	}
+	1814.4.11 = {	# Prussia
+		holder = hohenzollern_16	# Frederick William III
+	}
+#	1815.4.30 = {
+#		holder = 6480012
+#	}
+#	1830.1.1 = {
+#		holder = 6480013
+#	}
+	1840.6.7 = {
+		holder = hohenzollern_17	# Frederick William IV
+	}
+	1861.1.2 = {
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
+	}
+}
+c_krajna = {
+	1809.1.1 = {	# Warsaw
+		holder = eur_04100	# Stanisław Kostka Potocki
+	}
+	1814.4.11 = {	# Prussia
+		holder = hohenzollern_16	# Frederick William III
+	}
+#	1815.4.30 = {
+#		holder = 6480012
+#	}
+#	1830.1.1 = {
+#		holder = 6480013
+#	}
+	1840.6.7 = {
+		holder = hohenzollern_17	# Frederick William IV
+	}
+	1861.1.2 = {
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
+	}
+}
+c_lubusz = {
+	1797.11.16 = {
+		holder = hohenzollern_16	# Frederick William III
+		de_jure_liege = d_lausitz
+	}
+#	1815.4.30 = {
+#		holder = 6480014
+#	}
+#	1824.1.1 = {
+#		holder = 6480015
+#	}
+	1840.6.7 = {
+		holder = hohenzollern_17	# Frederick William IV
+	}
+	1861.1.2 = {
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
+	}
+}
+#d_mazovia = {
+#}
+c_plocka = {
+	1809.1.1 = {	# Warsaw
+		holder = eur_04100	# Stanisław Kostka Potocki
+	}
+	1815.6.9 = {	# Russia
+		holder = romanov_6	# Alexander I
+	}
+	1825.12.1 = {
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_czerska = {
+	1809.1.1 = {	# Warsaw
+		holder = eur_04100	# Stanisław Kostka Potocki
+	}
+	1815.6.9 = {	# Russia
+		holder = romanov_6	# Alexander I
+	}
+	1825.12.1 = {
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_gostyninska = {
+	1809.1.1 = {	# Warsaw
+		holder = eur_04100	# Stanisław Kostka Potocki
+	}
+	1815.6.9 = {	# Russia
+		holder = romanov_6	# Alexander I
+	}
+	1825.12.1 = {
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_lomzynska = {
+	1809.1.1 = {	# Warsaw
+		holder = eur_04100	# Stanisław Kostka Potocki
+	}
+	1815.6.9 = {	# Russia
+		holder = romanov_6	# Alexander I
+	}
+	1825.12.1 = {
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_zakroczymska = {
+	1809.1.1 = {	# Warsaw
+		holder = eur_04100	# Stanisław Kostka Potocki
+	}
+	1815.6.9 = {	# Russia
+		holder = romanov_6	# Alexander I
+	}
+	1825.12.1 = {
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+d_upper_silesia = {
+	1797.11.16 = {
+		holder = hohenzollern_16	# Frederick William III
+		de_jure_liege = k_prussia
+		liege = k_prussia
+	}
+#	1808.12.2 = {
+#		holder = 6480018
+#	}
+#	1816.4.2 = {
+#		holder = 6480016
+#	}
+	1840.6.7 = {
+		holder = hohenzollern_17	# Frederick William IV
+	}
+	1861.1.2 = {
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
+	}
+}
+c_opole = {
+	1797.11.16 = {
+		holder = hohenzollern_16	# Frederick William III
+	}
+	1840.6.7 = {
+		holder = hohenzollern_17	# Frederick William IV
+	}
+	1861.1.2 = {
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
+	}
+}
+c_brzeg = {
+	1797.11.16 = {
+		holder = hohenzollern_16	# Frederick William III
+	}
+	1840.6.7 = {
+		holder = hohenzollern_17	# Frederick William IV
+	}
+	1861.1.2 = {
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
+	}
+}
+c_nysa = {
+	1797.11.16 = {
+		holder = hohenzollern_16	# Frederick William III
+	}
+	1840.6.7 = {
+		holder = hohenzollern_17	# Frederick William IV
+	}
+	1861.1.2 = {
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
+	}
+}
+c_cieszyn = {
+	1792.3.1 = {
+		holder = 9000012
+		de_jure_liege = d_moravia
+	}
+	1835.3.2 = {
+		holder = 9177200
+	}
+}
+c_ratibor = {
+	1797.11.16 = {
+		holder = hohenzollern_16	# Frederick William III
+	}
+	1840.6.7 = {
+		holder = hohenzollern_17	# Frederick William IV
+	}
+	1861.1.2 = {
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
+	}
+}
+c_bethen = {
+	1797.11.16 = {
+		holder = hohenzollern_16	# Frederick William III
+	}
+	1840.6.7 = {
+		holder = hohenzollern_17	# Frederick William IV
+	}
+	1861.1.2 = {
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
+	}
+}
+d_lower_silesia = {
+	1797.11.16 = {
+		holder = hohenzollern_16	# Frederick William III
+		de_jure_liege = k_prussia
+		liege = k_prussia
+	}
+#	1808.12.1 = {
+#		holder = 6480018
+#	}
+#	1816.4.1 = {
+#		holder = 6480016
+#	}
+	1840.6.7 = {
+		holder = hohenzollern_17	# Frederick William IV
+	}
+	1861.1.2 = {
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
+	}
+}
+c_breslau = {
+	1797.11.16 = {
+		holder = hohenzollern_16	# Frederick William III
+	}
+	1840.6.7 = {
+		holder = hohenzollern_17	# Frederick William IV
+	}
+	1861.1.2 = {
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
+	}
+}
+c_miliez = {
+	1797.11.16 = {
+		holder = hohenzollern_16	# Frederick William III
+	}
+	1840.6.7 = {
+		holder = hohenzollern_17	# Frederick William IV
+	}
+	1861.1.2 = {
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
+	}
+}
+c_schweibus = {
+	1797.11.16 = {
+		holder = hohenzollern_16	# Frederick William III
+	}
+	1816.1.1 = {
+		de_jure_liege = d_lausitz
+	}
+	1840.6.7 = {
+		holder = hohenzollern_17	# Frederick William IV
+	}
+	1861.1.2 = {
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
+	}
+}
+c_grunberg = {
+	1797.11.16 = {
+		holder = hohenzollern_16	# Frederick William III
+	}
+	1840.6.7 = {
+		holder = hohenzollern_17	# Frederick William IV
+	}
+	1861.1.2 = {
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
+	}
+}
+c_sprottau = {
+	1797.11.16 = {
+		holder = hohenzollern_16	# Frederick William III
+	}
+	1840.6.7 = {
+		holder = hohenzollern_17	# Frederick William IV
+	}
+	1861.1.2 = {
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
+	}
+}
+c_przemkow = {
+	1797.11.16 = {
+		holder = hohenzollern_16	# Frederick William III
+	}
+	1840.6.7 = {
+		holder = hohenzollern_17	# Frederick William IV
+	}
+	1861.1.2 = {
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
+	}
+}
+c_legnica = {
+	1797.11.16 = {
+		holder = hohenzollern_16	# Frederick William III
+	}
+	1840.6.7 = {
+		holder = hohenzollern_17	# Frederick William IV
+	}
+	1861.1.2 = {
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
+	}
+}
+d_kuyavia = {
+	1814.6.9 = {
+		holder = 0
+		effect = { set_capital_county = title:c_leczycka }
+	}
+}
+c_kujawy = {
+	1809.1.1 = {	# Warsaw
+		holder = eur_04100	# Stanisław Kostka Potocki
+	}
+	1814.4.11 = {	# Prussia
+		de_jure_liege = d_wielkopolska
+		holder = hohenzollern_16	# Frederick William III
+	}
+#	1815.4.30 = {
+#		holder = 6480012
+#	}
+#	1830.1.1 = {
+#		holder = 6480013
+#	}
+	1840.6.7 = {
+		holder = hohenzollern_17	# Frederick William IV
+	}
+	1861.1.2 = {
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
+	}
+}
+c_dobrzynska = {
+	1809.1.1 = {	# Warsaw
+		holder = eur_04100	# Stanisław Kostka Potocki
+	}
+	1814.4.11 = {	# Prussia
+		de_jure_liege = d_wielkopolska
+		holder = hohenzollern_16	# Frederick William III
+	}
+#	1815.4.30 = {
+#		holder = 6480012
+#	}
+#	1830.1.1 = {
+#		holder = 6480013
+#	}
+	1840.6.7 = {
+		holder = hohenzollern_17	# Frederick William IV
+	}
+	1861.1.2 = {
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
+	}
+}
+c_leczycka = {
+	1809.1.1 = {	# Warsaw
+		holder = eur_04100	# Stanisław Kostka Potocki
+	}
+	1814.4.11 = {	# Russia
+		holder = romanov_6	# Alexander I
+	}
+	1825.12.1 = {
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_sieradzka = {
+	1809.1.1 = {	# Warsaw
+		holder = eur_04100	# Stanisław Kostka Potocki
+	}
+	1814.4.11 = {	# Russia
+		holder = romanov_6	# Alexander I
+	}
+	1825.12.1 = {
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_wielunska = {
+	1809.1.1 = {	# Warsaw
+		holder = eur_04100	# Stanisław Kostka Potocki
+	}
+	1814.4.11 = {	# Prussia
+		de_jure_liege = d_wielkopolska
+		holder = hohenzollern_16	# Frederick William III
+	}
+#	1815.4.30 = {
+#		holder = 6480012
+#	}
+#	1830.1.1 = {
+#		holder = 6480013
+#	}
+	1840.6.7 = {
+		holder = hohenzollern_17	# Frederick William IV
+	}
+	1861.1.2 = {
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.3.9 = {
+		holder = hohenzollern_19	# Frederick III
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
+	}
+}

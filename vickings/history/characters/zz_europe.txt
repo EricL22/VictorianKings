@@ -3,6 +3,7 @@
 # FRANCE           #
 # SPAIN            #
 # PORTUGAL         #
+# POLAND           #
 # SWITZERLAND      #
 ####################
 
@@ -530,6 +531,55 @@ eur_03500 = {
 		birth = yes
 	}
 	1917.3.5 = {
+		death = yes
+	}
+}
+####################
+
+
+
+####################
+# POLAND #
+####################
+# 1812 bookmark
+eur_04100 = {
+	name = "StanisL_aw"
+	#dynasty = "Potocki"
+	religion = catholic
+	culture = polish
+	1755.11.1 = {
+		birth = yes
+	}
+	1809.10.14 = {
+		create_alliance = character:bonaparte_2	# Napoleon
+	}
+	1821.9.14 = {
+		death = yes
+	}
+}
+
+# 1815 bookmark
+eur_04200 = {
+	name = "StanisL_aw"
+	religion = catholic
+	culture = polish
+	1764.7.27 = {
+		birth = yes
+	}
+	1843.3.14 = {
+		death = yes
+	}
+}
+
+# 1836 bookmark
+eur_04300 = {
+	name = "Kasper"
+	religion = catholic
+	culture = polish
+	1780.7.27 = {
+		birth = yes
+	}
+	1847.3.14 = {
 		death = yes
 	}
 }

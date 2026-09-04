@@ -1,0 +1,254 @@
+d_volhynia = {
+	1812.1.1 = {
+		holder = romanov_6	# Alexander I
+	}
+	1825.12.1 = {
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_volodymyr = {
+	1812.1.1 = {
+		holder = romanov_6	# Alexander I
+	}
+	1825.12.1 = {
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_peresopnytsia = {
+	1812.1.1 = {
+		holder = romanov_6	# Alexander I
+	}
+	1825.12.1 = {
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_berestye = {
+	1812.1.1 = {
+		holder = romanov_6	# Alexander I
+	}
+	1825.12.1 = {
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_dorohychyn = {
+	1812.1.1 = {
+		holder = romanov_6	# Alexander I
+	}
+	1825.12.1 = {
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+d_halych = {
+	1772.8.5 = {
+		de_jure_liege = k_lodomeria
+	}
+#	1810.4.3 = {
+#		holder = 6490001
+#		liege = k_lodomeria
+#	}
+#	1815.4.1 = {
+#		holder = 6490002
+#	}
+#	1832.9.1 = {
+#		holder = 6490003
+#	}
+	1810.4.3 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_halych = {
+#	1810.4.3 = {
+#		holder = 6490001
+#	}
+#	1815.4.1 = {
+#		holder = 6490002
+#	}
+#	1832.9.1 = {
+#		holder = 6490003
+#	}
+	1810.4.3 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_lviv = {
+#	1810.4.3 = {
+#		holder = 6490001
+#	}
+#	1815.4.1 = {
+#		holder = 6490002
+#	}
+#	1832.9.1 = {
+#		holder = 6490003
+#	}
+	1810.4.3 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_terebovl = {
+	1801.3.23 = {	# Russia
+		holder = romanov_6	# Alexander I
+	}
+#	1815.6.9 = {	# Austria
+#		holder = 6490002
+#	}
+#	1832.9.1 = {
+#		holder = 6490003
+#	}
+	1815.6.9 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_zaslavl = {
+	1772.8.5 = {
+		de_jure_liege = d_volhynia
+	}
+	1812.1.1 = {
+		holder = romanov_6	# Alexander I
+	}
+	1825.12.1 = {
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+#d_cherven_cities = {
+#}
+c_cherven = {
+	1812.1.1 = {
+		holder = romanov_6	# Alexander I
+	}
+	1825.12.1 = {
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_belz = {
+	1772.8.5 = {
+		de_jure_liege = d_halych
+	}
+#	1810.4.3 = {
+#		holder = 6490001
+#	}
+#	1815.4.1 = {
+#		holder = 6490002
+#	}
+#	1832.9.1 = {
+#		holder = 6490003
+#	}
+	1810.4.3 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_peremyshl = {
+	1772.8.5 = {
+		de_jure_liege = d_halych
+	}
+#	1810.4.3 = {
+#		holder = 6490001
+#	}
+#	1815.4.1 = {
+#		holder = 6490002
+#	}
+#	1832.9.1 = {
+#		holder = 6490003
+#	}
+	1810.4.3 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}

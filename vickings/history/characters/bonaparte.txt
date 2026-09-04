@@ -126,6 +126,12 @@ bonaparte_2 = {
 	1809.7.1 = {
 		#trait = excommunicated
 	}
+	1809.10.14 = {
+		add_opinion = {
+			modifier = perk_negotiated_alliance_opinion
+			target = character:eur_04100	# Stanisław Kostka Potocki
+		}
+	}
 	1810.1.10 = {
 		remove_spouse = eur_01010
 	}

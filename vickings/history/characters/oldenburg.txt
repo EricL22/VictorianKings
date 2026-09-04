@@ -655,3 +655,34 @@ oldenburg_43 = {
 		death = yes
 	}
 }
+
+## Romanov line
+oldenburg_50 = {
+	name = "Frederik"	# IV of Holstein-Gottorp
+	dynasty_house = house_hols_gott
+	religion = protestant
+	culture = saxon
+	father = oldenburg_23
+	1671.10.18 = {
+		birth = yes
+	}
+	1702.7.19 = {
+		death = yes
+	}
+}
+oldenburg_51 = {
+	name = "Karl Frederik"	# of Holstein-Gottorp
+	dynasty_house = house_hols_gott
+	religion = protestant
+	culture = saxon
+	father = oldenburg_50
+	1700.4.30 = {
+		birth = yes
+	}
+	1725.5.21 = {
+		add_matrilineal_spouse = romanov_3
+	}
+	1739.6.18 = {
+		death = yes
+	}
+}
