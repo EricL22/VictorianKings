@@ -76,6 +76,8 @@
  d_nf_bernadotte_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
  d_nf_braganza: "$dynn_Braganza$ Family"
  d_nf_braganza_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ d_nf_orange: "$dynn_Orange$ Family"
+ d_nf_orange_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
 
  d_nf_berryer: "$dynn_Berryer$ Family"
  d_nf_berryer_article: "$DEFAULT_TITLE_NAME_ARTICLE$"

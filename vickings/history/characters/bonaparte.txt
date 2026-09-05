@@ -118,10 +118,10 @@ bonaparte_2 = {
 			target = character:bourbon_36	# Ferdinand VII of Spain
 			type = house_arrest
 		}
-#		imprison = {
-#			target = character:9100022
-#			type = house_arrest
-#		}
+		imprison = {
+			target = character:eur_014101
+			type = house_arrest
+		}
 	}
 	1809.7.1 = {
 		#trait = excommunicated
@@ -191,7 +191,7 @@ bonaparte_4 = {
 	1768.1.7 = {
 		birth = yes
 	}
-	1804.5.18 = {
+	1804.5.19 = {
 		dynasty_house = house_bonaparte
 	}
 	1821.5.5 = {

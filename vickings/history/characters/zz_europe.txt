@@ -558,6 +558,19 @@ eur_04100 = {
 	}
 }
 
+# Dummy ruler for Napoleonic puppet state, if he wins Russian war
+eur_014101 = {
+	name = "StanisL_aw"
+	religion = catholic
+	culture = polish
+	1780.10.29 = {
+		birth = yes
+	}
+	1845.10.3 = {
+		death = yes
+	}
+}
+
 # 1815 bookmark
 eur_04200 = {
 	name = "StanisL_aw"

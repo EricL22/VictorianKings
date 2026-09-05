@@ -28,6 +28,10 @@ k_hanover = {
 		holder = hanover_3	# George III
 		succession_laws = { male_only_law }
 		de_jure_liege = e_germany
+		effect = {
+			set_personal_union_effect = { TITLE = title:k_hanover }
+			set_variable = { name = pu_target value = title:e_britannia }
+		}
 	}
 	1820.1.29 = {
 		holder = hanover_4	# George IV
@@ -37,6 +41,10 @@ k_hanover = {
 	}
 	1837.6.20 = {
 		holder = hanover_8	# Ernest Augustus
+		effect = {
+			clear_personal_union_effect = { TITLE = title:k_hanover }
+			remove_variable = pu_target
+		}
 	}
 	1851.11.18 = {
 		holder = hanover_9	# George V

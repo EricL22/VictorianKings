@@ -8,6 +8,10 @@ d_luxembourg = {
 	}
 	1814.4.11 = {	# Netherlands
 		holder = orange_0	# William I
+		effect = {
+			set_personal_union_effect = { TITLE = title:d_luxembourg }
+			set_variable = { name = pu_target value = title:k_frisia }
+		}
 	}
 	1840.10.7 = {
 		holder = orange_1	# William II
@@ -17,6 +21,10 @@ d_luxembourg = {
 	}
 	1890.11.23 = {	# Luxembourg
 		holder = nassau_1	# Adolphe
+		effect = {
+			clear_personal_union_effect = { TITLE = title:d_luxembourg }
+			remove_variable = pu_target
+		}
 	}
 	1905.11.17 = {
 		holder = nassau_2	# William IV

@@ -287,6 +287,47 @@ d_nf_braganza = {
 	}
 }
 
+d_nf_orange = {
+	1814.4.11 = {
+		liege = k_frisia
+		holder = orange_0	# William I
+		government = administrative_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1815.7.8 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1815.7.8 }
+		}
+	}
+	1836.1.1 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1836.1.1 }
+		}
+	}
+	1849.3.17 = {
+		liege = k_frisia
+		holder = orange_2	# William III
+		government = administrative_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1861.7.1 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1861.7.1 }
+		}
+	}
+	1890.11.23 = {
+		liege = k_frisia
+		holder = orange_3	# Wilhelmina
+		government = administrative_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1914.7.28 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1914.7.28 }
+		}
+	}
+}
+
 ### OTHER HISTORICAL CHARACTERS
 
 d_nf_berryer = {

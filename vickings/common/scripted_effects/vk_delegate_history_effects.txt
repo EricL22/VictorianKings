@@ -1,0 +1,58 @@
+﻿# generate governors for administrative governments
+auto_generate_vassals_at_game_start_effect = {
+	every_independent_ruler = {
+		limit = {
+			primary_title.tier > tier_duchy
+			has_government = administrative_government
+		}
+		save_temporary_scope_as = ruler
+		every_held_title = {
+			limit = {
+				tier = tier_duchy
+				NOT = { THIS = scope:ruler.capital_county.de_jure_liege }
+				NOT = { is_target_in_global_variable_list = { name = personal_union target = THIS } }
+			}
+			create_character = {
+				location = title_capital_county.title_province
+				culture = scope:ruler.culture
+				faith = scope:ruler.faith
+				gender_female_chance = 5
+				age = 32
+				save_scope_as = backup_character
+			}
+			create_title_and_vassal_change = {
+				type = granted
+				save_scope_as = change
+				add_claim_on_loss = no
+			}
+			every_de_jure_county = {
+				limit = { holder = scope:ruler }
+				change_title_holder = {
+					holder = scope:backup_character
+					change = scope:change
+				}
+			}
+			change_title_holder = {
+				holder = scope:backup_character
+				change = scope:change
+			}
+			resolve_title_and_vassal_change = scope:change
+		}
+	}
+}
+
+# mark a personal union title, which will gain independence from parent realm on succession if holder changes
+set_personal_union_effect = {
+	add_to_global_variable_list = {
+		name = personal_union
+		target = $TITLE$
+	}
+}
+
+# clear a personal union title, reverting back to default behavior on succession
+clear_personal_union_effect = {
+	remove_list_global_variable = {
+		name = personal_union
+		target = $TITLE$
+	}
+}

@@ -46,6 +46,10 @@ e_britannia = {
 					add_realm_law_skip_effects = crown_authority_1
 				}
 			}
+			set_variable = {
+				name = can_keep_realm_law
+				value = flag:equal_law
+			}
 		}
 	}
 	1820.1.29 = {
