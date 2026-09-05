@@ -203,12 +203,7 @@
 							NOT = { culture = { has_cultural_parameter = female_only_inheritance } }
 						}
 						primary_title.var:can_keep_realm_law ?= flag:equal_law
-						faith = {
-							OR = {
-								this = faith:protestant
-								this = faith:reformed
-							}
-						}
+						has_character_flag = force_equal_law	# CHANGED: added
 					}
 				}
 			}

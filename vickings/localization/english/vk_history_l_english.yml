@@ -24,3 +24,10 @@
  bookmark_william_desc:1 "William is an old monarch, but with no heirs of his own, the crown is destined to pass to his niece Victoria. A golden age for the Empire is about to dawn..."
  bookmark_victoria_1936:0 "Princess Victoria"
  BOOKMARK_RELATION_NIECE:0 "(Niece)"
+
+ war_1812_Russia_Invasion:0 "War of the Sixth Coalition"
+ war_Peninsular:0 "Peninsular War"
+ war_Carlist:0 "Carlist War"
+ war_1812_American:0 "War of 1812"
+ war_Texas_Rebellion:0 "Texas Revolution"
+ war_Californio_Rebellion:0 "Californio Revolt"
