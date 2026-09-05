@@ -193,6 +193,44 @@ e_russia = {
 	1721.11.2 = {
 		holder = romanov_0	# Peter I
 	}
+	1722.1.1 = {	# Table of Ranks
+		government = administrative_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					holder = { has_government = administrative_government }
+				}
+				set_state_faith = faith:orthodox
+				holder = {
+					add_realm_law_skip_effects = single_heir_succession_law
+					add_realm_law_skip_effects = imperial_bureaucracy_3
+					add_realm_law_skip_effects = male_only_law
+				}
+			}
+			if = {
+				limit = {
+					exists = holder
+					has_dlc_feature = royal_court
+				}
+				holder = {
+					set_court_type = court_administrative
+				}
+			}
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+					add_realm_law_skip_effects = single_heir_succession_law
+					add_realm_law_skip_effects = crown_authority_3
+					add_realm_law_skip_effects = male_only_law
+				}
+			}
+		}
+	}
 	1727.5.18 = {
 		holder = romanov_2	# Peter II
 	}

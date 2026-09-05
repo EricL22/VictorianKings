@@ -6,9 +6,8 @@ auto_generate_vassals_at_game_start_effect = {
 			has_government = administrative_government
 		}
 		save_temporary_scope_as = ruler
-		every_held_title = {
+		every_realm_de_jure_duchy = {
 			limit = {
-				tier = tier_duchy
 				NOT = { THIS = scope:ruler.capital_county.de_jure_liege }
 				NOT = { is_target_in_global_variable_list = { name = personal_union target = THIS } }
 			}
@@ -32,9 +31,12 @@ auto_generate_vassals_at_game_start_effect = {
 					change = scope:change
 				}
 			}
-			change_title_holder = {
-				holder = scope:backup_character
-				change = scope:change
+			if = {
+				limit = { holder = scope:ruler }
+				change_title_holder = {
+					holder = scope:backup_character
+					change = scope:change
+				}
 			}
 			resolve_title_and_vassal_change = scope:change
 		}

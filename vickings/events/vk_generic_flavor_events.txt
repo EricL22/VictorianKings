@@ -1,0 +1,42 @@
+﻿namespace = vk_flavor
+
+# Personal Union ended
+vk_flavor.1 = {
+	type = character_event
+	title = vk_flavor.1.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					scope:previous_holder = { is_alive = no }
+				}
+				desc = vk_flavor.1.start_dead.desc
+			}
+			desc = vk_flavor.1.start_alive.desc
+		}	
+		desc = vk_flavor.1.end.desc		
+	}
+	theme = realm
+	left_portrait = {
+		character = root
+		animation = idle
+	}
+
+	immediate = {
+		primary_title = {
+			if = { limit = { has_variable = can_keep_realm_law } }
+			remove_variable = can_keep_realm_law
+		}
+	}
+	
+	option = {
+		name = {
+			text = realm_maintenance.2001.a
+			trigger = { primary_title != title:e_britannia }
+		}
+		name = {
+			text = vk_flavor.1.a
+			trigger = { primary_title = title:e_britannia }
+		}
+	}
+}

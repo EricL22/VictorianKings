@@ -331,6 +331,9 @@ wettin_35 = {
 	1865.6.3 = {
 		birth = yes
 	}
+	1914.7.28 = {	# historically 1917.7.17, changed for gameplay purposes
+		dynasty_house = house_windsor
+	}
 	1936.1.20 = {
 		death = yes
 	}
@@ -507,6 +510,9 @@ wettin_51 = {
 	1894.6.23 = {
 		birth = yes
 	}
+	1914.7.28 = {
+		dynasty_house = house_windsor
+	}
 	1972.5.28 = {
 		death = yes
 	}
@@ -520,6 +526,9 @@ wettin_52 = {
 	father = wettin_35
 	1895.12.14 = {
 		birth = yes
+	}
+	1914.7.28 = {
+		dynasty_house = house_windsor
 	}
 	1952.2.6 = {
 		death = yes

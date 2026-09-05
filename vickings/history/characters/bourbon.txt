@@ -230,11 +230,6 @@ bourbon_16 = {
 	1755.11.17 = {
 		birth = yes
 	}
-	1814.4.11 = {
-		effect = {
-			add_realm_law_skip_effects = male_only_law
-		}
-	}
 	1824.9.16 = {
 		death = {
 			death_reason = death_obesity
@@ -342,11 +337,6 @@ bourbon_23 = {
 	}
 	1809.11.25 = {
 		add_spouse = bourbon_46	# Maria Amalia
-	}
-	1830.8.2 = {
-		effect = {
-			add_realm_law_skip_effects = male_only_law
-		}
 	}
 	1850.8.26 = {
 		death = {
@@ -565,7 +555,6 @@ bourbon_37 = {
 	1833.9.29 = {
 		effect = {
 			set_realm_capital = title:c_madrid
-			#add_realm_law_skip_effects = crown_authority_1
 			spawn_army = {
 				name = "Ejército Cristino del Centro"
 				men_at_arms = {

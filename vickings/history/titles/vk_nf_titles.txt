@@ -129,13 +129,7 @@ d_nf_bourbon_orleans = {
 	}
 }
 
-d_nf_saxe_coburg = {
-	1901.1.22 = {
-		liege = e_britannia
-		holder = wettin_34	# Edward VII
-		government = administrative_government
-		succession_laws = { noble_family_succession_law }
-	}
+d_nf_windsor = {
 	1910.5.6 = {
 		liege = e_britannia
 		holder = wettin_35	# George V
@@ -318,6 +312,88 @@ d_nf_orange = {
 	1890.11.23 = {
 		liege = k_frisia
 		holder = orange_3	# Wilhelmina
+		government = administrative_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1914.7.28 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1914.7.28 }
+		}
+	}
+}
+
+d_nf_saxe_coburg = {
+	1831.7.21 = {
+		liege = k_belgium
+		holder = wettin_40	# Leopold I
+		government = administrative_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1836.1.1 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1836.1.1 }
+		}
+	}
+	1861.7.1 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1861.7.1 }
+		}
+	}
+	1909.12.23 = {
+		liege = k_belgium
+		holder = wettin_43	# Albert I
+		government = administrative_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1914.7.28 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1914.7.28 }
+		}
+	}
+}
+
+d_nf_romanov = {
+	1801.3.23 = {
+		liege = e_russia
+		holder = romanov_6	# Alexander I
+		government = administrative_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1812.7.5 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1812.7.5 }
+		}
+	}
+	1815.7.8 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1815.7.8 }
+		}
+	}
+	1825.12.1 = {
+		liege = e_russia
+		holder = romanov_8	# Nicholas I
+		government = administrative_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1836.1.1 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1836.1.1 }
+		}
+	}
+	1855.3.2 = {
+		liege = e_russia
+		holder = romanov_9	# Alexander II
+		government = administrative_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1861.7.1 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1861.7.1 }
+		}
+	}
+	1894.11.1 = {
+		liege = e_russia
+		holder = romanov_11	# Nicholas II
 		government = administrative_government
 		succession_laws = { noble_family_succession_law }
 	}

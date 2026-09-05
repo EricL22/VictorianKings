@@ -11,8 +11,6 @@ common
 ...game_rules (clauses)
 ...landed_titles
 ......00_landed_titles.txt
-...laws
-......vk_laws_overwrite.txt (clauses)
 ...religion
 ......religion_types
 .........00_christianity.txt

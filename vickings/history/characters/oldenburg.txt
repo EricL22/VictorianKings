@@ -424,7 +424,6 @@ oldenburg_28 = {
 	}
 	1812.1.1 = {
 		effect = {
-			add_realm_law_skip_effects = crown_authority_1
 			add_trait_xp = { trait = infirm track = infirm value = 10 }
 		}
 		add_unpressed_claim = title:k_norway

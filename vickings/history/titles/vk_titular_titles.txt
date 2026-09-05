@@ -141,6 +141,40 @@ k_belgium = {
 	1831.7.21 = {
 		holder = wettin_40	# Leopold I
 		de_jure_liege = e_germany
+		government = administrative_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					holder = { has_government = administrative_government }
+				}
+				set_state_faith = faith:catholic
+				holder = {
+					add_realm_law_skip_effects = single_heir_succession_law
+					add_realm_law_skip_effects = imperial_bureaucracy_1
+				}
+			}
+			if = {
+				limit = {
+					exists = holder
+					has_dlc_feature = royal_court
+				}
+				holder = {
+					set_court_type = court_administrative
+				}
+			}
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+					add_realm_law_skip_effects = single_heir_succession_law
+					add_realm_law_skip_effects = crown_authority_1
+				}
+			}
+		}
 	}
 	1865.12.17 = {
 		holder = wettin_41	# Leopold II

@@ -60,7 +60,7 @@ d_nf_bourbon_orleans = {
 	ai_primary_priority = { add = @never_primary_score }
 }
 
-d_nf_saxe_coburg = {
+d_nf_windsor = {
 	color = { 100 100 100 }
 	capital = c_middlesex
 
@@ -153,6 +153,36 @@ d_nf_braganza = {
 d_nf_orange = {
 	color = { 100 100 100 }
 	capital = c_holland
+
+	definite_form = yes
+	landless = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+
+	ai_primary_priority = { add = @never_primary_score }
+}
+
+d_nf_saxe_coburg = {
+	color = { 100 100 100 }
+	capital = c_brabant
+
+	definite_form = yes
+	landless = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+
+	ai_primary_priority = { add = @never_primary_score }
+}
+
+d_nf_romanov = {
+	color = { 100 100 100 }
+	capital = c_vodi
 
 	definite_form = yes
 	landless = yes

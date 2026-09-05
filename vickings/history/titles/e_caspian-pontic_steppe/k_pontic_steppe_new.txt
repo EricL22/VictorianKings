@@ -1,0 +1,431 @@
+d_yedisan = {
+	1801.3.23 = {
+		holder = romanov_6	# Alexander I
+	}
+	1825.12.1 = {
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_cherkassy = {
+	1801.3.23 = {
+		holder = romanov_6	# Alexander I
+	}
+	1825.12.1 = {
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_ladyzyn = {
+	1801.3.23 = {
+		holder = romanov_6	# Alexander I
+	}
+	1825.12.1 = {
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_uman = {
+	1801.3.23 = {
+		holder = romanov_6	# Alexander I
+	}
+	1825.12.1 = {
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_dnipro = {
+	1801.3.23 = {
+		holder = romanov_6	# Alexander I
+	}
+	1825.12.1 = {
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+#d_kizilyedisan = {
+#}
+c_odessa = {
+	1801.3.23 = {
+		holder = romanov_6	# Alexander I
+	}
+	1825.12.1 = {
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_kherson = {
+	1801.3.23 = {
+		holder = romanov_6	# Alexander I
+	}
+	1825.12.1 = {
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_lower_dniepr = {
+	1801.3.23 = {
+		holder = romanov_6	# Alexander I
+	}
+	1825.12.1 = {
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+d_levedia = {
+	1801.3.23 = {
+		holder = romanov_6	# Alexander I
+	}
+	1825.12.1 = {
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_samar = {
+	1801.3.23 = {
+		holder = romanov_6	# Alexander I
+	}
+	1825.12.1 = {
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_bakhmut = {
+	1801.3.23 = {
+		holder = romanov_6	# Alexander I
+	}
+	1825.12.1 = {
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_lozova = {
+	1801.3.23 = {
+		holder = romanov_6	# Alexander I
+	}
+	1825.12.1 = {
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+#d_red_levedia = {
+#}
+c_khortytsia = {
+	1801.3.23 = {
+		holder = romanov_6	# Alexander I
+	}
+	1825.12.1 = {
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_oleshye = {
+	1801.3.23 = {
+		holder = romanov_6	# Alexander I
+	}
+	1825.12.1 = {
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+d_don_valley = {
+	1801.3.23 = {
+		holder = romanov_6	# Alexander I
+	}
+	1825.12.1 = {
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_sarysyn = {
+	1801.3.23 = {
+		holder = romanov_6	# Alexander I
+	}
+	1825.12.1 = {
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_golden_hills = {
+	1801.3.23 = {
+		holder = romanov_6	# Alexander I
+	}
+	1825.12.1 = {
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_kazanskaya = {
+	1801.3.23 = {
+		holder = romanov_6	# Alexander I
+	}
+	1825.12.1 = {
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_millerovo = {
+	1801.3.23 = {
+		holder = romanov_6	# Alexander I
+	}
+	1825.12.1 = {
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+#d_tana = {
+#}
+c_tana = {
+	1801.3.23 = {
+		holder = romanov_6	# Alexander I
+	}
+	1825.12.1 = {
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_kuzeytorg = {
+	1801.3.23 = {
+		holder = romanov_6	# Alexander I
+	}
+	1825.12.1 = {
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+d_crimea = {
+	1801.3.23 = {
+		holder = romanov_6	# Alexander I
+	}
+	1825.12.1 = {
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_kerch = {
+	1801.3.23 = {
+		holder = romanov_6	# Alexander I
+	}
+	1825.12.1 = {
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_kalos_limen = {
+	1801.3.23 = {
+		holder = romanov_6	# Alexander I
+	}
+	1825.12.1 = {
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_perekop = {
+	1801.3.23 = {
+		holder = romanov_6	# Alexander I
+	}
+	1825.12.1 = {
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}

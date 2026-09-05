@@ -98,8 +98,6 @@ romanov_6 = {
 	1703.5.27 = {
 		set_realm_capital = title:c_vodi
 		effect = {
-			add_realm_law_skip_effects = crown_authority_3
-			add_realm_law_skip_effects = male_only_law
 			add_character_flag = semi_salic_law
 		}
 	}
@@ -224,8 +222,6 @@ romanov_8 = {
 	1825.12.1 = {
 		set_realm_capital = title:c_vodi
 		effect = {
-			add_realm_law_skip_effects = crown_authority_3
-			add_realm_law_skip_effects = male_only_law
 			add_character_flag = semi_salic_law
 			add_prestige_experience = 100
 			add_gold = 5000
@@ -273,8 +269,6 @@ romanov_9 = {
 	1855.3.2 = {
 		set_realm_capital = title:c_vodi
 		effect = {
-			add_realm_law_skip_effects = crown_authority_3
-			add_realm_law_skip_effects = male_only_law
 			add_prestige_experience = 100
 			add_gold = 5000
 			#add_character_modifier = {

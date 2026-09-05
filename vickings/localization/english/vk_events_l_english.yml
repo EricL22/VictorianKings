@@ -1,0 +1,6 @@
+﻿l_english:
+ vk_flavor.1.t:0 "The Coronation of [ROOT.Char.GetTitledFirstNameNoTooltip]"
+ vk_flavor.1.start_dead.desc:0 "The [previous_holder.GetTitleAsNameNoTooltip] is dead."
+ vk_flavor.1.start_alive.desc:0 "The former [previous_holder.GetTitleAsNameNoTooltip] has vacated the throne."
+ vk_flavor.1.end.desc:0 "With the ascension of [previous_holder.GetHerHis] [previous_holder.Custom2('RelationToMe', ROOT.Char)] [ROOT.Char.GetFirstName], the realm rejoices and the crown of [title.GetNameNoTier] passes outside of [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip] control. Long may [ROOT.Char.GetSheHe] reign!"
+ vk_flavor.1.a:0 "God save the [ROOT.Char.GetTitleAsNameNoTooltip]!"

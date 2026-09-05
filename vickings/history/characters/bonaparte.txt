@@ -191,8 +191,8 @@ bonaparte_4 = {
 	1768.1.7 = {
 		birth = yes
 	}
-	1804.5.19 = {
-		dynasty_house = house_bonaparte
+	1804.5.19 = {	# workaround to prevent being set as house head
+		effect = { set_house = character:bonaparte_2.house }
 	}
 	1821.5.5 = {
 		effect = { dynasty = { add_dynasty_prestige = 10000 } }
