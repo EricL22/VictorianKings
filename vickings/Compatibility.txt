@@ -7,6 +7,8 @@ common
 .........00_bookmarks.txt
 ......groups
 .........00_bookmark_groups.txt
+...decisions
+......vk_overwrite_major_decisions_middle_europe.txt (clauses)
 ...defines (clauses)
 ...game_rules (clauses)
 ...landed_titles

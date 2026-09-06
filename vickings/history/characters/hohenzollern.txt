@@ -381,7 +381,7 @@ hohenzollern_22 = {
 
 
 ## Catholic Swabian branch
-7000026 = {
+hohenzollern_30 = {
 	name = "Friedrich"	# X of Hohenzollern
 	dynasty = 12476
 	religion = catholic
@@ -395,7 +395,7 @@ hohenzollern_22 = {
 	}
 }
 
-7000027 = {
+hohenzollern_31 = {
 	name = "Friedrich"	# XI of Hohenzollern
 	dynasty = 12476
 	religion = catholic
@@ -409,12 +409,12 @@ hohenzollern_22 = {
 	}
 }
 
-7000028 = {
+hohenzollern_32 = {
 	name = "Friedrich"	# XII of Hohenzollern
 	dynasty = 12476
 	religion = catholic
 	culture = swabian
-	father = 7000027
+	father = hohenzollern_31
 	1400.1.1 = {
 		birth = yes
 	}
@@ -423,12 +423,12 @@ hohenzollern_22 = {
 	}
 }
 
-7000029 = {
+hohenzollern_33 = {
 	name = "Eitel-Friedrich"	# I of Hohenzollern
 	dynasty = 12476
 	religion = catholic
 	culture = swabian
-	father = 7000027
+	father = hohenzollern_31
 	1404.1.1 = {
 		birth = yes
 	}
@@ -437,12 +437,12 @@ hohenzollern_22 = {
 	}
 }
 
-7000030 = {
+hohenzollern_34 = {
 	name = "Jobst-Nikolaus"	# I of Hohenzollern
 	dynasty = 12476
 	religion = catholic
 	culture = swabian
-	father = 7000029
+	father = hohenzollern_33
 	1433.1.1 = {
 		birth = yes
 	}
@@ -451,12 +451,12 @@ hohenzollern_22 = {
 	}
 }
 
-7000031 = {
+hohenzollern_35 = {
 	name = "Eitel-Friedrich"	# II of Hohenzollern
 	dynasty = 12476
 	religion = catholic
 	culture = swabian
-	father = 7000030
+	father = hohenzollern_34
 	1452.1.1 = {
 		birth = yes
 	}
@@ -465,12 +465,12 @@ hohenzollern_22 = {
 	}
 }
 
-7000032 = {
+hohenzollern_36 = {
 	name = "Eitel-Friedrich"	# III of Hohenzollern
 	dynasty = 12476
 	religion = catholic
 	culture = swabian
-	father = 7000031
+	father = hohenzollern_35
 	1494.1.1 = {
 		birth = yes
 	}
@@ -479,16 +479,218 @@ hohenzollern_22 = {
 	}
 }
 
-7000033 = {
+hohenzollern_37 = {
 	name = "Karl"	# I of Hohenzollern
 	dynasty = 12476
 	religion = catholic
 	culture = swabian
-	father = 7000032
+	father = hohenzollern_36
 	1516.1.1 = {
 		birth = yes
 	}
 	1576.3.18 = {
+		death = yes
+	}
+}
+
+hohenzollern_38 = {
+	name = "Karl"	# II of Hohenzollern-Sigmaringen
+	dynasty = 12476
+	religion = catholic
+	culture = swabian
+	father = hohenzollern_37
+	1547.1.1 = {
+		birth = yes
+	}
+	1576.1.1 = {
+		dynasty_house = house_hohen_sigmaringen
+	}
+	1606.4.8 = {
+		death = yes
+	}
+}
+
+hohenzollern_39 = {
+	name = "Johann"	# Prince of Hohenzollern-Sigmaringen
+	dynasty_house = house_hohen_sigmaringen
+	religion = catholic
+	culture = swabian
+	father = hohenzollern_38
+	1578.8.17 = {
+		birth = yes
+	}
+	1638.3.22 = {
+		death = yes
+	}
+}
+
+hohenzollern_40 = {
+	name = "Meinrad"	# I of Hohenzollern-Sigmaringen
+	dynasty_house = house_hohen_sigmaringen
+	religion = catholic
+	culture = swabian
+	father = hohenzollern_39
+	1605.1.1 = {
+		birth = yes
+	}
+	1681.1.30 = {
+		death = yes
+	}
+}
+
+hohenzollern_41 = {
+	name = "Maximilian"	# I of Hohenzollern-Sigmaringen
+	dynasty_house = house_hohen_sigmaringen
+	religion = catholic
+	culture = swabian
+	father = hohenzollern_40
+	1636.1.20 = {
+		birth = yes
+	}
+	1689.8.13 = {
+		death = yes
+	}
+}
+
+hohenzollern_42 = {
+	name = "Meinrad"	# II of Hohenzollern-Sigmaringen
+	dynasty_house = house_hohen_sigmaringen
+	religion = catholic
+	culture = swabian
+	father = hohenzollern_41
+	1673.11.1 = {
+		birth = yes
+	}
+	1715.10.20 = {
+		death = yes
+	}
+}
+
+hohenzollern_43 = {
+	name = "Joseph Friedrich Ernst"	# Prince of Hohenzollern-Sigmaringen
+	dynasty_house = house_hohen_sigmaringen
+	religion = catholic
+	culture = swabian
+	father = hohenzollern_42
+	1702.5.24 = {
+		birth = yes
+	}
+	1769.12.8 = {
+		death = yes
+	}
+}
+
+hohenzollern_44 = {
+	name = "Karl Friedrich"	# Prince of Hohenzollern-Sigmaringen
+	dynasty_house = house_hohen_sigmaringen
+	religion = catholic
+	culture = swabian
+	father = hohenzollern_43
+	1724.1.9 = {
+		birth = yes
+	}
+	1785.12.20 = {
+		death = yes
+	}
+}
+
+hohenzollern_45 = {
+	name = "Anton Aloys"	# Prince of Hohenzollern-Sigmaringen
+	dynasty_house = house_hohen_sigmaringen
+	religion = catholic
+	culture = swabian
+	father = hohenzollern_44
+	1762.6.20 = {
+		birth = yes
+	}
+	1831.10.17 = {
+		death = yes
+	}
+}
+
+hohenzollern_46 = {
+	name = "Karl"	# Prince of Hohenzollern-Sigmaringen
+	dynasty_house = house_hohen_sigmaringen
+	religion = catholic
+	culture = swabian
+	father = hohenzollern_45
+	1785.2.20 = {
+		birth = yes
+	}
+	1853.3.11 = {
+		death = yes
+	}
+}
+
+hohenzollern_47 = {
+	name = "Karl Anton"	# Prince of Hohenzollern
+	dynasty_house = house_hohen_sigmaringen
+	religion = catholic
+	culture = swabian
+	father = hohenzollern_46
+	1811.9.7 = {
+		birth = yes
+	}
+	1885.6.2 = {
+		death = yes
+	}
+}
+
+hohenzollern_48 = {
+	name = "Leopold"	# Prince of Hohenzollern
+	dynasty_house = house_hohen_sigmaringen
+	religion = catholic
+	culture = swabian
+	father = hohenzollern_47
+	1835.9.22 = {
+		birth = yes
+	}
+	1905.6.8 = {
+		death = yes
+	}
+}
+
+hohenzollern_49 = {
+	name = "Ferdinand"	# I of Romania
+	dynasty_house = house_hohen_sigmaringen
+	religion = catholic
+	culture = swabian
+	father = hohenzollern_48
+	1865.8.24 = {
+		birth = yes
+	}
+	1927.7.20 = {
+		death = yes
+	}
+}
+
+hohenzollern_50 = {
+	name = "Carol"	# II of Romania
+	dynasty_house = house_hohen_sigmaringen
+	religion = orthodox
+	culture = vlach
+	father = hohenzollern_49
+	1893.10.15 = {
+		birth = yes
+	}
+	1953.4.4 = {
+		death = yes
+	}
+}
+
+hohenzollern_51 = {
+	name = "Karl"
+	dynasty_house = house_hohen_sigmaringen
+	religion = catholic
+	culture = swabian
+	father = hohenzollern_47
+	1839.4.20 = {
+		birth = yes
+	}
+	1866.4.20 = {
+		name = "Carol"	# I of Romania
+	}
+	1914.10.10 = {
 		death = yes
 	}
 }

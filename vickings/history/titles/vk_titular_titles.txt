@@ -272,6 +272,15 @@ k_lodomeria = {
 	}
 }
 
+k_romania = {
+	20.1.1 = {
+		de_jure_liege = e_carpathia
+	}
+	1881.3.15 = {
+		holder = hohenzollern_51	# Carol I
+	}
+}
+
 d_berg = {
 	1809.3.3 = {
 		holder = bonaparte_8	# Napoleon-Louis

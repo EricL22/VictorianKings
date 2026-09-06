@@ -1,0 +1,305 @@
+k_moldavia = {
+	1793.1.1 = {
+		effect = { set_capital_county = title:c_iasi }
+	}
+	1807.8.4 = {
+		holder = moldavia_0	# Scarlat Callimachi
+		liege = e_turkey
+	}
+	1834.4.1 = {
+		holder = moldavia_1	# Mihail Sturdza
+	}
+	1859.1.5 = {
+		holder = moldavia_2	# Alexandru Ioan Cuza
+	}
+	1881.3.14 = {
+		holder = 0
+	}
+}
+d_bukovina = {
+	1881.3.15 = {
+		de_jure_liege = k_romania
+	}
+}
+c_suceava = {
+#	1810.4.3 = {
+#		holder = 6490001
+#	}
+#	1815.4.1 = {
+#		holder = 6490002
+#	}
+#	1832.9.1 = {
+#		holder = 6490003
+#	}
+	1810.4.3 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_neamnt = {
+	1807.8.4 = {
+		holder = moldavia_0	# Scarlat Callimachi
+	}
+	1834.4.1 = {
+		holder = moldavia_1	# Mihail Sturdza
+	}
+	1859.1.5 = {
+		holder = moldavia_2	# Alexandru Ioan Cuza
+	}
+	1881.3.15 = {
+		holder = hohenzollern_51	# Carol I
+	}
+}
+c_dorohoi = {
+	1807.8.4 = {
+		holder = moldavia_0	# Scarlat Callimachi
+	}
+	1834.4.1 = {
+		holder = moldavia_1	# Mihail Sturdza
+	}
+	1859.1.5 = {
+		holder = moldavia_2	# Alexandru Ioan Cuza
+	}
+	1881.3.15 = {
+		holder = hohenzollern_51	# Carol I
+	}
+}
+c_hotin = {
+	1801.3.23 = {
+		holder = romanov_6	# Alexander I
+	}
+	1825.12.1 = {
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_tetina = {
+	1801.3.23 = {	# Russia
+		holder = romanov_6	# Alexander I
+	}
+#	1815.6.9 = {	# Austria
+#		holder = 6490002
+#	}
+#	1832.9.1 = {
+#		holder = 6490003
+#	}
+	1815.6.9 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+d_moldova = {
+	1807.8.4 = {
+		liege = e_turkey
+		holder = moldavia_0	# Scarlat Callimachi
+	}
+	1834.4.1 = {
+		holder = moldavia_1	# Mihail Sturdza
+	}
+	1859.1.5 = {
+		holder = moldavia_2	# Alexandru Ioan Cuza
+	}
+	1881.3.15 = {
+		de_jure_liege = k_romania
+		holder = hohenzollern_51	# Carol I
+	}
+}
+c_iasi = {
+	1807.8.4 = {
+		holder = moldavia_0	# Scarlat Callimachi
+	}
+	1834.4.1 = {
+		holder = moldavia_1	# Mihail Sturdza
+	}
+	1859.1.5 = {
+		holder = moldavia_2	# Alexandru Ioan Cuza
+	}
+	1881.3.15 = {
+		holder = hohenzollern_51	# Carol I
+	}
+}
+c_orhei = {
+	1801.3.23 = {
+		holder = romanov_6	# Alexander I
+	}
+	1825.12.1 = {
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_soroca = {
+	1801.3.23 = {
+		holder = romanov_6	# Alexander I
+	}
+	1825.12.1 = {
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_barlad = {
+	1807.8.4 = {
+		holder = moldavia_0	# Scarlat Callimachi
+	}
+	1834.4.1 = {
+		holder = moldavia_1	# Mihail Sturdza
+	}
+	1859.1.5 = {
+		holder = moldavia_2	# Alexandru Ioan Cuza
+	}
+	1881.3.15 = {
+		holder = hohenzollern_51	# Carol I
+	}
+}
+c_galati = {
+	1807.8.4 = {
+		holder = moldavia_0	# Scarlat Callimachi
+	}
+	1834.4.1 = {
+		holder = moldavia_1	# Mihail Sturdza
+	}
+	1859.1.5 = {
+		holder = moldavia_2	# Alexandru Ioan Cuza
+	}
+	1881.3.15 = {
+		holder = hohenzollern_51	# Carol I
+	}
+}
+c_stoenesti = {
+	1807.8.4 = {
+		holder = moldavia_0	# Scarlat Callimachi
+	}
+	1834.4.1 = {
+		holder = moldavia_1	# Mihail Sturdza
+	}
+	1859.1.5 = {
+		holder = moldavia_2	# Alexandru Ioan Cuza
+	}
+	1881.3.15 = {
+		holder = hohenzollern_51	# Carol I
+	}
+}
+d_bugeac = {
+#	1808.7.28 = {	# Ottomans
+#		holder = 9000011
+#	}
+	1812.7.5 = {	# Russia
+		holder = romanov_6	# Alexander I
+	}
+	1825.12.1 = {
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1881.3.15 = {
+		de_jure_liege = k_romania
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_tigheci = {
+	1812.1.1 = {
+		holder = romanov_6	# Alexander I
+	}
+	1825.12.1 = {
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_cetatea_alba = {
+	1812.1.1 = {
+		holder = romanov_6	# Alexander I
+	}
+	1825.12.1 = {
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_chilia = {
+	1812.1.1 = {
+		holder = romanov_6	# Alexander I
+	}
+	1825.12.1 = {
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_lapusna = {
+	1812.1.1 = {
+		holder = romanov_6	# Alexander I
+	}
+	1825.12.1 = {
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}

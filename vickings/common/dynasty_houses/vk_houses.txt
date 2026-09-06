@@ -78,3 +78,8 @@ house_bourbon_parma = {
 	name = "dynn_Bb_Parma"
 	dynasty = 100146	# Bourbon
 }
+
+house_hohen_sigmaringen = {
+	name = "dynn_Hohen_Sigmaringen"
+	dynasty = 12476	# Hohenzollern
+}

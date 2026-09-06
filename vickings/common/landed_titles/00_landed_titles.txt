@@ -41254,6 +41254,10 @@ e_carpathia = {
 
 					color = { 205 192 10 }
 				}
+			}
+			c_tetina = {	# CHANGED: split from Hotin
+				color = { 205 192 10 }
+
 				b_tetina = {
 					province = 5041
 

@@ -1,0 +1,19 @@
+﻿callimachi = {
+	name = "dynn_Callimachi"
+	culture = "vlach"
+}
+
+sturdza = {
+	name = "dynn_Sturdza"
+	culture = "vlach"
+}
+
+cuza = {
+	name = "dynn_Cuza"
+	culture = "vlach"
+}
+
+ghica = {
+	name = "dynn_Ghica"
+	culture = "vlach"
+}

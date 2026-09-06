@@ -1,0 +1,130 @@
+﻿moldavia_0 = {
+	name = "Scarlat"
+	dynasty = callimachi
+	stewardship = 12
+	religion = orthodox
+	culture = vlach
+	1773.1.1 = {
+		birth = yes
+	}
+	1793.1.1 = {
+		set_realm_capital = title:c_iasi
+	}
+	1807.8.4 = {
+		effect = {
+			vassal_contract_set_obligation_level = {
+				type = religious_rights
+				level = 1	#religious_rights_protected
+			}
+			vassal_contract_set_obligation_level = {
+				type = title_revocation_rights
+				level = 1	#title_revocation_rights_protected
+			}
+		}
+	}
+	1821.12.12 = {
+		death = yes
+	}
+}
+moldavia_1 = {
+	name = "Mihail"
+	dynasty = sturdza
+	stewardship = 12
+	religion = orthodox
+	culture = vlach
+	1794.4.24 = {
+		birth = yes
+	}
+	1834.4.1 = {
+		set_realm_capital = title:c_iasi
+		effect = {
+			vassal_contract_set_obligation_level = {
+				type = religious_rights
+				level = 1	#religious_rights_protected
+			}
+			vassal_contract_set_obligation_level = {
+				type = title_revocation_rights
+				level = 1	#title_revocation_rights_protected
+			}
+		}
+	}
+	1884.5.8 = {
+		death = yes
+	}
+}
+moldavia_2 = {
+	name = "Alexandru Ioan"
+	dynasty = cuza
+	religion = orthodox
+	culture = vlach
+	1820.3.20 = {
+		birth = yes
+	}
+	1859.1.5 = {
+		effect = {
+			vassal_contract_set_obligation_level = {
+				type = religious_rights
+				level = 1	#religious_rights_protected
+			}
+			vassal_contract_set_obligation_level = {
+				type = title_revocation_rights
+				level = 1	#title_revocation_rights_protected
+			}
+		}
+	}
+	1873.5.15 = {
+		death = yes
+	}
+}
+
+
+wallachia_0 = {
+	name = "Ioan"
+	dynasty = 9580
+	stewardship = 12
+	religion = orthodox
+	culture = vlach
+	trait = education_stewardship_4
+	1754.1.1 = {
+		birth = yes
+	}
+	1812.7.5 = {
+		effect = {
+			vassal_contract_set_obligation_level = {
+				type = religious_rights
+				level = 1	#religious_rights_protected
+			}
+			vassal_contract_set_obligation_level = {
+				type = title_revocation_rights
+				level = 1	#title_revocation_rights_protected
+			}
+		}
+	}
+	1844.12.27 = {
+		death = yes
+	}
+}
+wallachia_1 = {
+	name = "Alexandru"
+	dynasty = ghica
+	religion = orthodox
+	culture = vlach
+	1796.5.1 = {
+		birth = yes
+	}
+	1834.4.1 = {
+		effect = {
+			vassal_contract_set_obligation_level = {
+				type = religious_rights
+				level = 1	#religious_rights_protected
+			}
+			vassal_contract_set_obligation_level = {
+				type = title_revocation_rights
+				level = 1	#title_revocation_rights_protected
+			}
+		}
+	}
+	1862.1.1 = {
+		death = yes
+	}
+}

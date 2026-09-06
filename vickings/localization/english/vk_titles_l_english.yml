@@ -44,6 +44,9 @@
  k_lodomeria:0 "Galicia and Lodomeria"
  k_lodomeria_adj:0 "Galician"
 
+ k_romania:0 "Romania"
+ k_romania_adj:0 "Romanian"
+
  d_berg:0 "Berg"
  d_berg_adj:0 "Berg"
 

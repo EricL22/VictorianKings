@@ -1,0 +1,201 @@
+k_dacia = {
+	1690.1.1 = {
+		effect = { set_capital_county = title:c_bucuresti }
+	}
+	1812.7.5 = {
+		holder = wallachia_0	# John Caradja
+		liege = e_turkey
+	}
+	1834.4.1 = {
+		holder = wallachia_1	# Alexandru II Ghica
+	}
+	1859.1.24 = {
+		holder = moldavia_2	# Alexandru Ioan Cuza
+	}
+	1881.3.14 = {
+		holder = 0
+	}
+}
+d_transylvanian_alps = {
+	1881.3.15 = {
+		de_jure_liege = k_romania
+	}
+}
+c_campulung = {
+	1812.7.5 = {
+		holder = wallachia_0	# John Caradja
+	}
+	1834.4.1 = {
+		holder = wallachia_1	# Alexandru II Ghica
+	}
+	1859.1.24 = {
+		holder = moldavia_2	# Alexandru Ioan Cuza
+	}
+	1881.3.15 = {
+		holder = hohenzollern_51	# Carol I
+	}
+}
+c_polovragi = {
+	1812.7.5 = {
+		holder = wallachia_0	# John Caradja
+	}
+	1834.4.1 = {
+		holder = wallachia_1	# Alexandru II Ghica
+	}
+	1859.1.24 = {
+		holder = moldavia_2	# Alexandru Ioan Cuza
+	}
+	1881.3.15 = {
+		holder = hohenzollern_51	# Carol I
+	}
+}
+c_tabla_butii = {
+	1812.7.5 = {
+		holder = wallachia_0	# John Caradja
+	}
+	1834.4.1 = {
+		holder = wallachia_1	# Alexandru II Ghica
+	}
+	1859.1.24 = {
+		holder = moldavia_2	# Alexandru Ioan Cuza
+	}
+	1881.3.15 = {
+		holder = hohenzollern_51	# Carol I
+	}
+}
+d_muntenia = {
+	1881.3.15 = {
+		de_jure_liege = k_romania
+	}
+}
+c_giurgiu = {
+	1812.7.5 = {
+		holder = wallachia_0	# John Caradja
+	}
+	1834.4.1 = {
+		holder = wallachia_1	# Alexandru II Ghica
+	}
+	1859.1.24 = {
+		holder = moldavia_2	# Alexandru Ioan Cuza
+	}
+	1881.3.15 = {
+		holder = hohenzollern_51	# Carol I
+	}
+}
+c_bucuresti = {
+	1812.7.5 = {
+		holder = wallachia_0	# John Caradja
+	}
+	1834.4.1 = {
+		holder = wallachia_1	# Alexandru II Ghica
+	}
+	1859.1.24 = {
+		holder = moldavia_2	# Alexandru Ioan Cuza
+	}
+	1881.3.15 = {
+		holder = hohenzollern_51	# Carol I
+	}
+}
+c_calarasi = {
+	1812.7.5 = {
+		holder = wallachia_0	# John Caradja
+	}
+	1834.4.1 = {
+		holder = wallachia_1	# Alexandru II Ghica
+	}
+	1859.1.24 = {
+		holder = moldavia_2	# Alexandru Ioan Cuza
+	}
+	1881.3.15 = {
+		holder = hohenzollern_51	# Carol I
+	}
+}
+c_buzau = {
+	1812.7.5 = {
+		holder = wallachia_0	# John Caradja
+	}
+	1834.4.1 = {
+		holder = wallachia_1	# Alexandru II Ghica
+	}
+	1859.1.24 = {
+		holder = moldavia_2	# Alexandru Ioan Cuza
+	}
+	1881.3.15 = {
+		holder = hohenzollern_51	# Carol I
+	}
+}
+c_braila = {
+	1812.7.5 = {
+		holder = wallachia_0	# John Caradja
+	}
+	1834.4.1 = {
+		holder = wallachia_1	# Alexandru II Ghica
+	}
+	1859.1.24 = {
+		holder = moldavia_2	# Alexandru Ioan Cuza
+	}
+	1881.3.15 = {
+		holder = hohenzollern_51	# Carol I
+	}
+}
+d_oltenia = {
+	1881.3.15 = {
+		de_jure_liege = k_romania
+	}
+}
+c_targu_jiu = {
+	1812.7.5 = {
+		holder = wallachia_0	# John Caradja
+	}
+	1834.4.1 = {
+		holder = wallachia_1	# Alexandru II Ghica
+	}
+	1859.1.24 = {
+		holder = moldavia_2	# Alexandru Ioan Cuza
+	}
+	1881.3.15 = {
+		holder = hohenzollern_51	# Carol I
+	}
+}
+c_severin = {
+	1812.7.5 = {
+		holder = wallachia_0	# John Caradja
+	}
+	1834.4.1 = {
+		holder = wallachia_1	# Alexandru II Ghica
+	}
+	1859.1.24 = {
+		holder = moldavia_2	# Alexandru Ioan Cuza
+	}
+	1881.3.15 = {
+		holder = hohenzollern_51	# Carol I
+	}
+}
+c_calafat = {
+	1812.7.5 = {
+		holder = wallachia_0	# John Caradja
+	}
+	1834.4.1 = {
+		holder = wallachia_1	# Alexandru II Ghica
+	}
+	1859.1.24 = {
+		holder = moldavia_2	# Alexandru Ioan Cuza
+	}
+	1881.3.15 = {
+		holder = hohenzollern_51	# Carol I
+	}
+}
+c_craiova = {
+	1812.7.5 = {
+		holder = wallachia_0	# John Caradja
+	}
+	1834.4.1 = {
+		holder = wallachia_1	# Alexandru II Ghica
+	}
+	1859.1.24 = {
+		holder = moldavia_2	# Alexandru Ioan Cuza
+	}
+	1881.3.15 = {
+		holder = hohenzollern_51	# Carol I
+	}
+}
