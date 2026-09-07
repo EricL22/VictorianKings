@@ -1,0 +1,140 @@
+﻿obrenovic_0 = {
+	name = "Visnja Urosevic"
+	religion = orthodox
+	culture = serbian
+	female = yes
+	1737.1.1 = {
+		birth = yes
+	}
+	1817.6.18 = {
+		death = yes
+	}
+}
+
+obrenovic_1 = {
+	name = "Milos"
+	dynasty = obrenovic
+	religion = orthodox
+	culture = serbian
+	trait = zealous
+	mother = obrenovic_0
+	1780.3.18 = {
+		birth = yes
+	}
+	1817.11.6 = {
+		effect = {
+			vassal_contract_set_obligation_level = {
+				type = jizya_special_rights
+				level = 1	#jizya_special_rights_granted
+			}
+			vassal_contract_set_obligation_level = {
+				type = special_contract
+				level = 1	#special_contract_scutage
+			}
+		}
+	}
+	1860.9.26 = {
+		death = yes
+	}
+}
+
+obrenovic_2 = {
+	name = "Milan"
+	dynasty = obrenovic
+	religion = orthodox
+	culture = serbian
+	father = obrenovic_1
+	trait = consumption
+	1819.10.21 = {
+		birth = yes
+	}
+	1839.7.8 = {
+		death = {
+			death_reason = death_consumption
+		}
+	}
+}
+
+obrenovic_3 = {
+	name = "Mihailo"
+	dynasty = obrenovic
+	religion = orthodox
+	culture = serbian
+	father = obrenovic_1
+	1823.9.16 = {
+		birth = yes
+	}
+	1860.9.26 = {
+		effect = {
+			vassal_contract_set_obligation_level = {
+				type = jizya_special_rights
+				level = 1	#jizya_special_rights_granted
+			}
+			vassal_contract_set_obligation_level = {
+				type = special_contract
+				level = 1	#special_contract_scutage
+			}
+		}
+	}
+	1868.6.10 = {
+		death = yes
+	}
+}
+
+obrenovic_4 = {
+	name = "Jevrem"
+	dynasty = obrenovic
+	religion = orthodox
+	culture = serbian
+	mother = obrenovic_0
+	1790.3.18 = {
+		birth = yes
+	}
+	1856.9.20 = {
+		death = yes
+	}
+}
+
+obrenovic_5 = {
+	name = "Milos"
+	dynasty = obrenovic
+	religion = orthodox
+	culture = serbian
+	father = obrenovic_4
+	1829.11.13 = {
+		birth = yes
+	}
+	1860.11.20 = {
+		death = yes
+	}
+}
+
+obrenovic_6 = {
+	name = "Milan"	# I of Serbia
+	dynasty = obrenovic
+	religion = orthodox
+	culture = serbian
+	father = obrenovic_5
+	1854.8.22 = {
+		birth = yes
+	}
+	1901.2.11 = {
+		death = yes
+	}
+}
+
+obrenovic_7 = {
+	name = "Alexander"	# I of Serbia
+	dynasty = obrenovic
+	religion = orthodox
+	culture = serbian
+	father = obrenovic_6
+	1876.8.14 = {
+		birth = yes
+	}
+	1903.6.11 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}

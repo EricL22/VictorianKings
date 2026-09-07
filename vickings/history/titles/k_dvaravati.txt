@@ -1,3 +1,27 @@
+﻿k_dvaravati = {
+	867.1.1 = {
+	government = mandala_government
+		holder = mon_lavo_01_fic	#fictional
+		liege = 0
+	}
+	1000.1.1 = {
+		holder = 0
+		government = mandala_government
+		#if = {
+		#	limit = {
+		#		exists = holder
+		#		NOT = { has_dlc_feature = tgp }
+		#	}
+		#	holder = {
+		#		change_government = feudal_government
+		#		add_realm_law_skip_effects = single_heir_succession_law
+		#	}
+		#}
+	}
+	1069.1.1 = {
+		holder = 0
+	}
+}
 d_lop_buri = {
 	#867
 	867.1.1. = {

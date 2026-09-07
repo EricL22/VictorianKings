@@ -1,0 +1,307 @@
+d_epirus = {
+#	1808.7.28 = {	# Ottomans
+#		holder = 8000014
+#	}
+	1808.7.28 = {
+		holder = ottoman_26	# Mahmud II
+	}
+	1839.7.1 = {
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+	1913.5.30 = {	# Greece
+		holder = oldenburg_61	# Constantine I
+	}
+}
+c_nicopolis = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1832.5.27 = {	# Greece
+		holder = wittelsbach_5	# Otto
+	}
+	1863.3.30 = {
+		holder = oldenburg_60	# George I
+	}
+	1913.3.18 = {
+		holder = oldenburg_61	# Constantine I
+	}
+}
+c_epeiros = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1839.7.1 = {
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+	1913.5.30 = {	# Greece
+		holder = oldenburg_61	# Constantine I
+	}
+}
+c_aetolia = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1832.5.27 = {	# Greece
+		holder = wittelsbach_5	# Otto
+	}
+	1863.3.30 = {
+		holder = oldenburg_60	# George I
+	}
+	1913.3.18 = {
+		holder = oldenburg_61	# Constantine I
+	}
+}
+c_metzovo = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1839.7.1 = {
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+	1913.5.30 = {	# Greece
+		holder = oldenburg_61	# Constantine I
+	}
+}
+d_dyrrachion = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1839.7.1 = {
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+	1914.2.21 = {	# Albania
+		holder = eur_05500	# Wilhelm
+	}
+}
+c_dyrrachion = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1839.7.1 = {
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+	1914.2.21 = {	# Albania
+		holder = eur_05500	# Wilhelm
+	}
+}
+c_arbanon = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1839.7.1 = {
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+	1914.2.21 = {	# Albania
+		holder = eur_05500	# Wilhelm
+	}
+}
+c_debar = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1839.7.1 = {
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+	1913.5.30 = {	# Serbia
+		holder = karadordevic_2	# Peter I
+	}
+}
+c_antipatreia = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1839.7.1 = {
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+	1914.2.21 = {	# Albania
+		holder = eur_05500	# Wilhelm
+	}
+}
+c_avlonas = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1839.7.1 = {
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+	1914.2.21 = {	# Albania
+		holder = eur_05500	# Wilhelm
+	}
+}
+d_cephalonia = {
+	1807.8.1 = {	# France
+		holder = bonaparte_2	# Napoleon
+	}
+	1814.5.30 = {	# United Kingdom
+		holder = hanover_3	# George III
+	}
+	1820.1.29 = {
+		holder = hanover_4	# George IV
+	}
+	1830.6.26 = {
+		holder = hanover_5	# William IV
+	}
+	1837.6.20 = {
+		holder = hanover_7	# Victoria
+	}
+	1864.5.21 = {	# Greece
+		holder = oldenburg_60	# George I
+	}
+	1913.3.18 = {
+		holder = oldenburg_61	# Constantine I
+	}
+}
+c_cephalonia = {
+	1807.8.1 = {	# France
+		holder = bonaparte_2	# Napoleon
+	}
+	1814.5.30 = {	# United Kingdom
+		holder = hanover_3	# George III
+	}
+	1820.1.29 = {
+		holder = hanover_4	# George IV
+	}
+	1830.6.26 = {
+		holder = hanover_5	# William IV
+	}
+	1837.6.20 = {
+		holder = hanover_7	# Victoria
+	}
+	1864.5.21 = {	# Greece
+		holder = oldenburg_60	# George I
+	}
+	1913.3.18 = {
+		holder = oldenburg_61	# Constantine I
+	}
+}
+c_buthrotum = {
+	1807.8.1 = {	# France
+		holder = bonaparte_2	# Napoleon
+	}
+	1814.5.30 = {	# United Kingdom
+		holder = hanover_3	# George III
+	}
+	1820.1.29 = {
+		holder = hanover_4	# George IV
+	}
+	1830.6.26 = {
+		holder = hanover_5	# William IV
+	}
+	1837.6.20 = {
+		holder = hanover_7	# Victoria
+	}
+	1864.5.21 = {	# Greece
+		holder = oldenburg_60	# George I
+	}
+	1913.3.18 = {
+		holder = oldenburg_61	# Constantine I
+	}
+}

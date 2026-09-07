@@ -1,3 +1,77 @@
+﻿k_balhae = {
+	867.1.1 = { change_development_level = 5 }
+	1066.1.1 = { change_development_level = 8 }
+	1178.1.1 = { change_development_level = 12 }
+	
+	867.1.1 = {
+		government = meritocratic_government
+		effect = {
+			if = { # Chinese influence on bureaucracy and literature
+				limit = {
+					exists = holder
+					has_dlc_feature = royal_court
+				}
+				holder = { set_court_language = language_chinese }
+			}
+		}
+	}
+	698.12.1 = {
+		holder = balhae_dae_1 # King Go
+	}
+	719.1.1 = {
+		holder = balhae_dae_2 # King Mu
+	}
+	737.1.1 = {
+		holder = balhae_dae_3 # King Mun
+	}
+	793.1.1 = {
+		holder = balhae_dae_4 # King Won_ui
+	}
+	793.6.1 = {
+		holder = balhae_dae_5 # King Seong
+	}
+	794.1.1 = {
+		holder = balhae_dae_6 # King Gang
+	}
+	809.1.1 = {
+		holder = balhae_dae_7 # King Jeong
+	}
+	812.1.1 = {
+		holder = balhae_dae_8 # King Hui
+	}
+	817.2.1 = {
+		holder = balhae_dae_9 # King Gan
+	}
+	818.1.1 = {
+		holder = balhae_dae_10 # King Seon
+	}
+	830.8.1 = {
+		holder = balhae_dae_11 # King I_jin
+	}
+	858.2.1 = {
+		holder = balhae_dae_12 # King Geon_hwang
+	}
+	871.1.1 = {
+		holder = balhae_dae_22 # King Hyeon_seok
+	}
+	894.1.1 = {
+		holder = balhae_dae_14 # King Wi_hae
+	}
+	906.1.1 = {
+		holder = balhae_dae_15 # King In_seon
+	}
+	926.1.1 = {
+		holder = 0
+	}
+	1066.1.1 = {
+		government = steppe_admin_government
+		holder = nn_yelu_alian
+		liege = e_great_liao
+	}
+	1087.7.1 = {
+		holder = 0
+	}
+}
 d_BAL_parhae = {
 	867.1.1 = {
 		government = meritocratic_government

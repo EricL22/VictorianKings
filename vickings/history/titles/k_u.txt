@@ -1,3 +1,46 @@
+﻿k_u = {
+	867.1.1 = { change_development_level = 5 }
+	1066.1.1 = { change_development_level = 8 }
+	1178.1.1 = { change_development_level = 14 }
+	
+	#Yarlung Kingdom
+	579.1.1={
+		holder = 247072
+	}
+	606.1.1={
+		holder = 247073
+	}
+	619.1.1={
+		liege = "e_tibet"
+		holder = 247075
+	}
+	643.1.1={
+		holder = 247088
+	}
+	649.1.1={
+		holder = 247075
+	}
+	650.1.1={
+		holder = 0
+	}
+
+	#Era of Fragmentation
+	842.1.1={
+		liege=0
+		holder = 247129
+	}#Regent
+	854.1.1={
+		holder = 247132
+	}
+	905.1.1={
+		holder = 0
+	} #After Yumtan, none claim the Imperial Throne
+
+	#Phagmodrupa Dynasty
+	1354.1.1={
+		holder = 247267
+	}
+}
 d_yarlung = {
 	#Yarlung Kingdom
 	42.1.1={

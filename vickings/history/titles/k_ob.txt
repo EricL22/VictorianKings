@@ -1,3 +1,8 @@
+﻿k_ob = {
+	867.1.1 = { change_development_level = 0 }
+	1066.1.1 = { change_development_level = 0 }
+	1178.1.1 = { change_development_level = 0 }
+}
 d_salair = {
 	#Kirghiz khanate
 

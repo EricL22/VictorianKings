@@ -1,0 +1,140 @@
+k_hellas = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1832.5.27 = {	# Greece
+		holder = wittelsbach_5	# Otto
+	}
+	1863.3.30 = {
+		holder = oldenburg_60	# George I
+	}
+	1913.3.18 = {
+		holder = oldenburg_61	# Constantine I
+	}
+}
+d_athens = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1832.5.27 = {	# Greece
+		holder = wittelsbach_5	# Otto
+	}
+	1863.3.30 = {
+		holder = oldenburg_60	# George I
+	}
+	1913.3.18 = {
+		holder = oldenburg_61	# Constantine I
+	}
+}
+c_attica = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1832.5.27 = {	# Greece
+		holder = wittelsbach_5	# Otto
+	}
+	1863.3.30 = {
+		holder = oldenburg_60	# George I
+	}
+	1913.3.18 = {
+		holder = oldenburg_61	# Constantine I
+	}
+}
+c_boeotia = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1832.5.27 = {	# Greece
+		holder = wittelsbach_5	# Otto
+	}
+	1863.3.30 = {
+		holder = oldenburg_60	# George I
+	}
+	1913.3.18 = {
+		holder = oldenburg_61	# Constantine I
+	}
+}
+c_euboea = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1832.5.27 = {	# Greece
+		holder = wittelsbach_5	# Otto
+	}
+	1863.3.30 = {
+		holder = oldenburg_60	# George I
+	}
+	1913.3.18 = {
+		holder = oldenburg_61	# Constantine I
+	}
+}
+d_achaia = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1832.5.27 = {	# Greece
+		holder = wittelsbach_5	# Otto
+	}
+	1863.3.30 = {
+		holder = oldenburg_60	# George I
+	}
+	1913.3.18 = {
+		holder = oldenburg_61	# Constantine I
+	}
+}
+c_achaia = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1832.5.27 = {	# Greece
+		holder = wittelsbach_5	# Otto
+	}
+	1863.3.30 = {
+		holder = oldenburg_60	# George I
+	}
+	1913.3.18 = {
+		holder = oldenburg_61	# Constantine I
+	}
+}
+c_korinthos = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1832.5.27 = {	# Greece
+		holder = wittelsbach_5	# Otto
+	}
+	1863.3.30 = {
+		holder = oldenburg_60	# George I
+	}
+	1913.3.18 = {
+		holder = oldenburg_61	# Constantine I
+	}
+}
+c_messenia = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1832.5.27 = {	# Greece
+		holder = wittelsbach_5	# Otto
+	}
+	1863.3.30 = {
+		holder = oldenburg_60	# George I
+	}
+	1913.3.18 = {
+		holder = oldenburg_61	# Constantine I
+	}
+}
+c_laconia = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1832.5.27 = {	# Greece
+		holder = wittelsbach_5	# Otto
+	}
+	1863.3.30 = {
+		holder = oldenburg_60	# George I
+	}
+	1913.3.18 = {
+		holder = oldenburg_61	# Constantine I
+	}
+}

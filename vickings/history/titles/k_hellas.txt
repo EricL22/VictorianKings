@@ -1,3 +1,10 @@
+﻿k_hellas = {
+	1178.1.1 = { change_development_level = 24 }
+
+	1066.1.1 = {
+		holder = 0
+	}
+}
 d_athens = {
 	867.1.1 = { change_development_level = 10 }
 	1066.1.1 = { change_development_level = 15 }

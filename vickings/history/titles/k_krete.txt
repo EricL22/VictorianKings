@@ -1,3 +1,10 @@
+﻿k_krete = {
+	1178.1.1 = { change_development_level = 24 }
+
+	1066.1.1 = {
+		holder = 0
+	}
+}
 d_krete = {
 	330.1.1 = {
 		government = administrative_government

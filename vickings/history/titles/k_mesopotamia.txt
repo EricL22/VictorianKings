@@ -1,3 +1,18 @@
+﻿k_mesopotamia = {
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+	1178.1.1 = { change_development_level = 14 }
+
+	1136.1.1 = {
+		holder = 144062
+	}
+	1160.1.1 = {
+		holder = 144063
+	}
+	1170.1.1 = {
+		holder = 144064 # al-Mustadi
+	}
+}
 d_samarra = {
 	867.1.1 = {	change_development_level = 8 }
 	1066.1.1 = { change_development_level = 12 }

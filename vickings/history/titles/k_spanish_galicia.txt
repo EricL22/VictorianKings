@@ -1,3 +1,27 @@
+﻿k_spanish_galicia = {
+	867.1.1 = { change_development_level = 5 }
+	1066.1.1 = { change_development_level = 8 }
+	1178.1.1 = { change_development_level = 24 }
+
+	1065.12.26 = {
+		insert_title_history = k_leon
+	}
+	1065.12.27 = {
+		holder = 109500 # García II Fernández
+	}
+	1071.10.1 = {
+		holder = 107500 # King Sancho II of Castille
+	}
+	1072.10.7 = {
+		holder = 108500 # King Alfonso VI of León
+	}
+	1109.6.30 = {
+		holder = 207500 # Alfonso VII de Borgoña
+	}
+	1111.9.17 = {
+		holder = 0
+	}
+}
 d_galicia = {
 	741.1.1 = {
 	}

@@ -1,3 +1,16 @@
+﻿k_pagan = {
+	867.1.1 = { change_development_level = 6 }
+	1066.1.1 = { change_development_level = 9 }
+	1178.1.1 = { change_development_level = 24 }
+	
+	1044.8.11 = {
+		holder = burman001 #Anawrahta - Founder of the Pagan Kingdom/Empire
+		government = mandala_government
+	}
+	1174.5.1 = {
+		holder = pagan_1
+	}
+}
 d_pagan = {
 	846.1.1 = {
 		government = mandala_government

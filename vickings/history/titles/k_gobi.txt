@@ -1,3 +1,15 @@
+﻿k_gobi = {
+	867.1.1 = { change_development_level = 0 }
+	1066.1.1 = { change_development_level = 0 }
+	1178.1.1 = { change_development_level = 0 }
+
+	1066.1.1 = {
+		holder = nn_yelu_zongyuan 
+	}
+	1072.1.1 = {
+		holder = 0
+	}
+}
 d_em_tataria = {
 	#867
 	867.1.1 = {

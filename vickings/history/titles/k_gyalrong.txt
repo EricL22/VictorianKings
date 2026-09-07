@@ -1,3 +1,8 @@
+﻿k_gyalrong = {
+	867.1.1 = { change_development_level = 5 }
+	1066.1.1 = { change_development_level = 8 }
+	1178.1.1 = { change_development_level = 14 }
+}
 d_gyalrong = {
 	#Qiang Tribes
 	634.1.1={

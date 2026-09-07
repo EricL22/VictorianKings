@@ -15,6 +15,12 @@
  e_austria:0 "Austrian Empire"
  e_austria_adj:0 "Austrian"
 
+ e_turkey:0 "Turkey"
+ e_turkey_adj:0 "Turkish"
+ OTTOMANEMP_article:0 "the "
+ OTTOMANEMP:0 "Ottoman Empire"
+ OTTOMANEMP_adj:0 "Ottoman"
+
  k_hanover:0 "Hanover"
  k_hanover_adj:0 "Hanoverian"
 

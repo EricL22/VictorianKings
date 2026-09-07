@@ -1,3 +1,5 @@
+﻿#k_khitan = {
+#}
 d_LIAO_linhuang = {
 	#867
 	867.1.1 = {

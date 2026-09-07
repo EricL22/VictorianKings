@@ -1,0 +1,54 @@
+﻿karadordevic_0 = {
+	name = "Djordje"
+	dynasty = karadordevic
+	religion = orthodox
+	culture = serbian
+	1768.11.14 = {
+		birth = yes
+	}
+	1817.7.25 = {
+		death = yes
+	}
+}
+
+karadordevic_1 = {
+	name = "Alexander"
+	dynasty = karadordevic
+	religion = orthodox
+	culture = serbian
+	father = karadordevic_0
+	1806.10.11 = {
+		birth = yes
+	}
+	1885.5.3 = {
+		death = yes
+	}
+}
+
+karadordevic_2 = {
+	name = "Petar"	# I of Serbia
+	dynasty = karadordevic
+	religion = orthodox
+	culture = serbian
+	father = karadordevic_1
+	1844.7.11 = {
+		birth = yes
+	}
+	1921.8.16 = {
+		death = yes
+	}
+}
+
+karadordevic_3 = {
+	name = "Alexander"	# I of Yugoslavia
+	dynasty = karadordevic
+	religion = orthodox
+	culture = serbian
+	father = karadordevic_2
+	1888.12.16 = {
+		birth = yes
+	}
+	1934.10.9 = {
+		death = yes
+	}
+}

@@ -1,3 +1,17 @@
+﻿k_pontus = {
+	20.1.1 = {
+		change_development_level = 6
+	}
+	
+	1000.1.1 = {
+		change_development_level = 9
+	}
+	
+	1100.1.1 = {
+		change_development_level = 14
+	}
+	1178.1.1 = { change_development_level = 14 }
+}
 d_paphlagonia = {
 	330.1.1 = {
 		government = administrative_government

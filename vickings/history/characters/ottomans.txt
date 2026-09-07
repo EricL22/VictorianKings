@@ -1,0 +1,540 @@
+﻿ottoman_0 = {
+	name = "Bayezid"	# I of the Ottoman Empire
+	dynasty = 7
+	religion = ashari
+	culture = turkish
+	father = 476502
+	1360.1.1 = {
+		birth = yes
+	}
+	1403.3.8 = {
+		death = yes
+	}
+}
+
+ottoman_1 = {
+	name = "Mehmed"	# I of the Ottoman Empire
+	dynasty = 7
+	religion = ashari
+	culture = turkish
+	father = ottoman_0
+	1386.1.1 = {
+		birth = yes
+	}
+	1421.5.26 = {
+		death = yes
+	}
+}
+
+ottoman_2 = {
+	name = "Murad"	# II of the Ottoman Empire
+	dynasty = 7
+	religion = ashari
+	culture = turkish
+	father = ottoman_1
+	1404.6.1 = {
+		birth = yes
+	}
+	1451.2.3 = {
+		death = yes
+	}
+}
+
+ottoman_3 = {
+	name = "Mehmed"	# II of the Ottoman Empire
+	dynasty = 7
+	religion = ashari
+	culture = turkish
+	father = ottoman_2
+	1432.3.30 = {
+		birth = yes
+	}
+	1453.5.29 = {
+		give_nickname = nick_the_conqueror
+	}
+	1481.5.3 = {
+		death = yes
+	}
+}
+
+ottoman_4 = {
+	name = "Bayezid"	# II of the Ottoman Empire
+	dynasty = 7
+	religion = ashari
+	culture = turkish
+	father = ottoman_3
+	1447.12.3 = {
+		birth = yes
+	}
+	1512.5.26 = {
+		death = yes
+	}
+}
+
+ottoman_5 = {
+	name = "Selim"	# I of the Ottoman Empire
+	dynasty = 7
+	religion = ashari
+	culture = turkish
+	father = ottoman_4
+	1470.10.10 = {
+		birth = yes
+	}
+	1520.9.22 = {
+		death = yes
+	}
+}
+
+ottoman_6 = {
+	name = "Suleyman"	# I of the Ottoman Empire
+	dynasty = 7
+	religion = maturidi
+	culture = turkish
+	father = ottoman_5
+	1494.11.6 = {
+		birth = yes
+	}
+	1566.9.6 = {
+		death = yes
+		give_nickname = nick_the_magnificent
+	}
+}
+
+ottoman_7 = {
+	name = "Selim"	# II of the Ottoman Empire
+	dynasty = 7
+	religion = maturidi
+	culture = turkish
+	father = ottoman_6
+	1524.5.28 = {
+		birth = yes
+	}
+	1574.12.15 = {
+		death = yes
+	}
+}
+
+ottoman_8 = {
+	name = "Murad"	# III of the Ottoman Empire
+	dynasty = 7
+	religion = maturidi
+	culture = turkish
+	father = ottoman_7
+	1546.7.4 = {
+		birth = yes
+	}
+	1595.1.16 = {
+		death = yes
+	}
+}
+
+ottoman_9 = {
+	name = "Mehmed"	# III of the Ottoman Empire
+	dynasty = 7
+	religion = maturidi
+	culture = turkish
+	father = ottoman_8
+	1566.5.26 = {
+		birth = yes
+	}
+	1603.12.22 = {
+		death = yes
+	}
+}
+
+ottoman_10 = {
+	name = "Ahmet"	# I of the Ottoman Empire
+	dynasty = 7
+	religion = maturidi
+	culture = turkish
+	father = ottoman_9
+	1590.4.18 = {
+		birth = yes
+	}
+	1617.11.22 = {
+		death = yes
+	}
+}
+
+ottoman_11 = {
+	name = "Mustafa"	# I of the Ottoman Empire
+	dynasty = 7
+	religion = maturidi
+	culture = turkish
+	father = ottoman_9
+	1591.1.1 = {
+		birth = yes
+	}
+	1639.1.20 = {
+		death = yes
+	}
+}
+
+ottoman_12 = {
+	name = "Osman"	# II of the Ottoman Empire
+	dynasty = 7
+	religion = maturidi
+	culture = turkish
+	father = ottoman_10
+	1604.11.3 = {
+		birth = yes
+	}
+	1622.5.20 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+
+ottoman_13 = {
+	name = "Murad"	# IV of the Ottoman Empire
+	dynasty = 7
+	religion = maturidi
+	culture = turkish
+	father = ottoman_10
+	1612.7.27 = {
+		birth = yes
+	}
+	1640.2.8 = {
+		death = yes
+	}
+}
+
+ottoman_14 = {
+	name = "Ibrahim"
+	dynasty = 7
+	religion = maturidi
+	culture = turkish
+	father = ottoman_10
+	1615.12.5 = {
+		birth = yes
+	}
+	1648.8.18 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+
+ottoman_15 = {
+	name = "Mehmed"	# IV of the Ottoman Empire
+	dynasty = 7
+	religion = maturidi
+	culture = turkish
+	father = ottoman_14
+	stewardship = 12
+	1642.1.2 = {
+		birth = yes
+	}
+	1693.1.6 = {
+		death = yes
+	}
+}
+
+ottoman_16 = {
+	name = "Suleyman"	# II of the Ottoman Empire
+	dynasty = 7
+	religion = maturidi
+	culture = turkish
+	father = ottoman_14
+	1642.4.15 = {
+		birth = yes
+	}
+	1691.6.22 = {
+		death = yes
+	}
+}
+
+ottoman_17 = {
+	name = "Ahmet"	# II of the Ottoman Empire
+	dynasty = 7
+	religion = maturidi
+	culture = turkish
+	father = ottoman_14
+	1643.2.25 = {
+		birth = yes
+	}
+	1695.2.6 = {
+		death = yes
+	}
+}
+
+ottoman_18 = {
+	name = "Mustafa"	# II of the Ottoman Empire
+	dynasty = 7
+	religion = maturidi
+	culture = turkish
+	father = ottoman_15
+	1664.2.6 = {
+		birth = yes
+	}
+	1703.12.29 = {
+		death = yes
+	}
+}
+
+ottoman_19 = {
+	name = "Ahmet"	# III of the Ottoman Empire
+	dynasty = 7
+	religion = maturidi
+	culture = turkish
+	father = ottoman_15
+	1673.12.30 = {
+		birth = yes
+	}
+	1736.7.1 = {
+		death = yes
+	}
+}
+
+ottoman_20 = {
+	name = "Mahmud"	# I of the Ottoman Empire
+	dynasty = 7
+	religion = maturidi
+	culture = turkish
+	father = ottoman_18
+	1696.8.2 = {
+		birth = yes
+	}
+	1754.12.13 = {
+		death = yes
+	}
+}
+
+ottoman_21 = {
+	name = "Osman"	# III of the Ottoman Empire
+	dynasty = 7
+	religion = maturidi
+	culture = turkish
+	father = ottoman_18
+	1699.1.2 = {
+		birth = yes
+	}
+	1757.10.30 = {
+		death = yes
+	}
+}
+
+ottoman_22 = {
+	name = "Mustafa"	# III of the Ottoman Empire
+	dynasty = 7
+	religion = maturidi
+	culture = turkish
+	father = ottoman_19
+	1717.1.28 = {
+		birth = yes
+	}
+	1774.1.21 = {
+		death = yes
+	}
+}
+
+ottoman_23 = {
+	name = "Abdulhamid"	# I of the Ottoman Empire
+	dynasty = 7
+	religion = maturidi
+	culture = turkish
+	father = ottoman_19
+	1725.3.20 = {
+		birth = yes
+	}
+	1789.4.7 = {
+		death = yes
+	}
+}
+
+ottoman_24 = {
+	name = "Selim"	# III of the Ottoman Empire
+	dynasty = 7
+	religion = maturidi
+	culture = turkish
+	father = ottoman_22
+	1761.12.24 = {
+		birth = yes
+	}
+	1808.7.28 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+
+ottoman_25 = {
+	name = "Mustafa"	# IV of the Ottoman Empire
+	dynasty = 7
+	religion = maturidi
+	culture = turkish
+	father = ottoman_23
+	1779.9.8 = {
+		birth = yes
+	}
+	1808.11.16 = {
+		death = {
+			death_reason = death_execution
+		}
+	}
+}
+
+ottoman_26 = {
+	name = "Mahmud"	# II of the Ottoman Empire
+	dynasty = 7
+	religion = maturidi
+	culture = turkish
+	sexuality = heterosexual
+	father = ottoman_23
+	1785.7.20 = {
+		birth = yes
+	}
+	1808.7.28 = {
+		add_realm_law_skip_effects = single_heir_dynasty_house
+		add_realm_law_skip_effects = crown_authority_3
+		every_vassal = {
+			limit = {
+				OR = {
+					is_powerful_vassal = yes
+					#this = character:turgov01
+					#this = character:8000014
+					#this = character:turgov12
+					#this = character:turgov14
+				}
+				#NOT = { this = character:9000020 }
+				#NOT = { this = character:9000021 }
+			}
+			character:ottoman_26 = {
+				add_hook = {
+					type = loyalty_hook
+					target = prev
+				}
+			}
+		}
+	}
+	1826.6.16 = {
+		effect = {
+			add_prestige = 4000
+			add_prestige_experience = 1000
+			add_gold = 1000
+
+			# Mansure Army
+			spawn_army = {
+				name = "Asakir-i Mansure-i Muhammediye"
+				levies = 8000
+				men_at_arms = {
+					type = house_guard
+					stacks = 90
+				}
+				men_at_arms = {
+					type = hussar
+					stacks = 2
+				}
+				men_at_arms = {
+					type = bombard
+					stacks = 30
+				}
+				location = province:496
+				origin = province:496
+				inheritable = yes
+			}
+		}
+	}
+	1839.7.1 = {
+		death = yes
+	}
+}
+
+ottoman_27 = {
+	name = "Abdulmejid"	# I of the Ottoman Empire
+	dynasty = 7
+	religion = maturidi
+	culture = turkish
+	father = ottoman_26
+	1823.4.25 = {
+		birth = yes
+	}
+	1861.6.25 = {
+		death = yes
+	}
+}
+
+ottoman_28 = {
+	name = "Abdulaziz"
+	dynasty = 7
+	religion = maturidi
+	culture = turkish
+	father = ottoman_26
+	1830.2.8 = {
+		birth = yes
+	}
+	1876.6.4 = {
+		death = yes
+	}
+}
+
+ottoman_29 = {
+	name = "Murad"	# V of the Ottoman Empire
+	dynasty = 7
+	religion = maturidi
+	culture = turkish
+	father = ottoman_27
+	1840.9.21 = {
+		birth = yes
+	}
+	1904.8.29 = {
+		death = yes
+	}
+}
+
+ottoman_30 = {
+	name = "Abdulhamid"	# II of the Ottoman Empire
+	dynasty = 7
+	religion = maturidi
+	culture = turkish
+	father = ottoman_27
+	1842.9.21 = {
+		birth = yes
+	}
+	1918.2.10 = {
+		death = yes
+	}
+}
+
+ottoman_31 = {
+	name = "Mehmed"	# V of the Ottoman Empire
+	dynasty = 7
+	religion = maturidi
+	culture = turkish
+	father = ottoman_27
+	1844.11.2 = {
+		birth = yes
+	}
+	1918.7.3 = {
+		death = yes
+	}
+}
+
+ottoman_32 = {
+	name = "Mehmed"	# VI of the Ottoman Empire
+	dynasty = 7
+	religion = maturidi
+	culture = turkish
+	father = ottoman_27
+	1861.1.14 = {
+		birth = yes
+	}
+	1926.5.16 = {
+		death = yes
+	}
+}
+
+ottoman_33 = {
+	name = "Abdulmejid"	# II of the Ottoman Empire
+	dynasty = 7
+	religion = maturidi
+	culture = turkish
+	father = ottoman_28
+	1868.5.30 = {
+		birth = yes
+	}
+	1944.8.23 = {
+		death = yes
+	}
+}

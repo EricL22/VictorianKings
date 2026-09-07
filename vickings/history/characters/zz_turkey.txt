@@ -13,12 +13,8 @@
 	1807.8.4 = {
 		effect = {
 			vassal_contract_set_obligation_level = {
-				type = religious_rights
-				level = 1	#religious_rights_protected
-			}
-			vassal_contract_set_obligation_level = {
-				type = title_revocation_rights
-				level = 1	#title_revocation_rights_protected
+				type = jizya_special_rights
+				level = 1	#jizya_special_rights_granted
 			}
 		}
 	}
@@ -39,12 +35,8 @@ moldavia_1 = {
 		set_realm_capital = title:c_iasi
 		effect = {
 			vassal_contract_set_obligation_level = {
-				type = religious_rights
-				level = 1	#religious_rights_protected
-			}
-			vassal_contract_set_obligation_level = {
-				type = title_revocation_rights
-				level = 1	#title_revocation_rights_protected
+				type = jizya_special_rights
+				level = 1	#jizya_special_rights_granted
 			}
 		}
 	}
@@ -63,12 +55,8 @@ moldavia_2 = {
 	1859.1.5 = {
 		effect = {
 			vassal_contract_set_obligation_level = {
-				type = religious_rights
-				level = 1	#religious_rights_protected
-			}
-			vassal_contract_set_obligation_level = {
-				type = title_revocation_rights
-				level = 1	#title_revocation_rights_protected
+				type = jizya_special_rights
+				level = 1	#jizya_special_rights_granted
 			}
 		}
 	}
@@ -91,12 +79,8 @@ wallachia_0 = {
 	1812.7.5 = {
 		effect = {
 			vassal_contract_set_obligation_level = {
-				type = religious_rights
-				level = 1	#religious_rights_protected
-			}
-			vassal_contract_set_obligation_level = {
-				type = title_revocation_rights
-				level = 1	#title_revocation_rights_protected
+				type = jizya_special_rights
+				level = 1	#jizya_special_rights_granted
 			}
 		}
 	}
@@ -115,12 +99,8 @@ wallachia_1 = {
 	1834.4.1 = {
 		effect = {
 			vassal_contract_set_obligation_level = {
-				type = religious_rights
-				level = 1	#religious_rights_protected
-			}
-			vassal_contract_set_obligation_level = {
-				type = title_revocation_rights
-				level = 1	#title_revocation_rights_protected
+				type = jizya_special_rights
+				level = 1	#jizya_special_rights_granted
 			}
 		}
 	}

@@ -1,3 +1,48 @@
+﻿k_ruthenia = {
+	867.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 7 }
+	1178.1.1 = { change_development_level = 24 }
+	
+	###Kievan Rus'
+	882.1.2 = {
+		holder = 40606	#Oleg/Helgi the Seer
+	}
+	912.1.2 = {
+		holder = 600	#Igor/Helgi, son of Rurik
+	}
+	945.1.2 = {
+		holder = 602	#Sviatoslav I, w/ some regency by St Olga
+	}
+	972.1.2 = {
+		holder = 604	#Yaropolk I
+	}
+	980.1.2 = {
+		holder = 608	#Vladimir the Great
+	}
+	1015.7.15 = {
+		holder = 610	#Sviatopolk the Accursed
+	}
+	1016.1.2 = {
+		holder = 612	#Yaroslav the Wise
+	}
+	1018.1.2 = {
+		holder = 610	#Sviatopolk the Accursed
+	}
+	1019.1.2 = {
+		holder = 612	#Yaroslav the Wise
+	}
+	1054.2.20 = {
+		holder = 626	#Iziaslav I Yaroslavich of Kiev
+	}
+	1068.9.14 = {
+		holder = 650	#Vseslav of Polotsk
+	}
+	
+	###Fragmentation of Kievan Rus'
+	1069.4.15 = {
+		holder = 0
+	}
+}
 d_kiev = {
 	###Pre-Kievan Rus'
 	579.1.2 = {

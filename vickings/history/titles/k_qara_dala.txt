@@ -1,3 +1,8 @@
+﻿k_qara_dala = {
+	867.1.1 = { change_development_level = 0 }
+	1066.1.1 = { change_development_level = 0 }
+	1178.1.1 = { change_development_level = 0 }
+}
 c_kurgan = {
 	#867
 	849.6.24 = {

@@ -4,6 +4,7 @@
 # SPAIN            #
 # PORTUGAL         #
 # POLAND           #
+# ALBANIA          #
 # SWITZERLAND      #
 ####################
 
@@ -593,6 +594,26 @@ eur_04300 = {
 		birth = yes
 	}
 	1847.3.14 = {
+		death = yes
+	}
+}
+####################
+
+
+
+####################
+# ALBANIA #
+####################
+# 1914 bookmark
+eur_05500 = {
+	name = "Wilhelm"
+	# dynasty = wied
+	religion = protestant
+	culture = german
+	1876.3.26 = {
+		birth = yes
+	}
+	1945.4.18 = {
 		death = yes
 	}
 }

@@ -1,0 +1,539 @@
+k_croatia = {
+	1557.1.1 = {
+		effect = { set_capital_county = title:c_zagreb }
+	}
+	1792.3.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+d_dalmatia = {
+	1809.1.1 = {	# France
+		holder = bonaparte_2	# Napoleon
+	}
+	1815.7.8 = {	# Austria
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_zadar = {
+	1809.1.1 = {	# France
+		holder = bonaparte_2	# Napoleon
+	}
+	1815.7.8 = {	# Austria
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_knin = {
+	1809.1.1 = {	# France
+		holder = bonaparte_2	# Napoleon
+	}
+	1815.7.8 = {	# Austria
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_cetina = {
+	1809.1.1 = {	# France
+		holder = bonaparte_2	# Napoleon
+	}
+	1815.7.8 = {	# Austria
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+d_croatia = {
+	1809.1.1 = {	# France
+		holder = bonaparte_2	# Napoleon
+	}
+#	1813.8.1 = {	# Austria
+#		holder = 6490008
+#		liege = k_croatia
+#	}
+#	1832.5.23 = {
+#		holder = 6490009
+#	}
+	1813.8.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_gacka = {
+	1809.1.1 = {	# France
+		holder = bonaparte_2	# Napoleon
+	}
+	1813.8.1 = {	# Austria
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_lika = {
+	1809.1.1 = {	# France
+		holder = bonaparte_2	# Napoleon
+	}
+	1813.8.1 = {	# Austria
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_cherso = {
+	1809.1.1 = {	# France
+		holder = bonaparte_2	# Napoleon
+	}
+	1813.8.1 = {	# Austria
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_modrus = {
+	1809.1.1 = {	# France
+		holder = bonaparte_2	# Napoleon
+	}
+	1813.8.1 = {	# Austria
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+d_slavonia = {
+	1792.3.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_zagreb = {
+	1792.3.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_zagorje = {
+	1792.3.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_pozega = {
+	1792.3.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_vukovar = {
+	1792.3.1 = {
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+d_bosna = {
+	1377.10.1 = {
+		de_jure_liege = k_bosnia
+	}
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1839.7.1 = {
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1908.10.7 = {	# Austria
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_rama = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1839.7.1 = {
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1908.10.7 = {	# Austria
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_donjikraji = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1839.7.1 = {
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1908.10.7 = {	# Austria
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_vhrbosna = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1839.7.1 = {
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1908.10.7 = {	# Austria
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_pset = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1839.7.1 = {
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1908.10.7 = {	# Austria
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+d_lower_bosna = {
+	1377.10.1 = {
+		de_jure_liege = k_bosnia
+	}
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1839.7.1 = {
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1908.10.7 = {	# Austria
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_soli = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1839.7.1 = {
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1908.10.7 = {	# Austria
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_usora = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1839.7.1 = {
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1908.10.7 = {	# Austria
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_vodica = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1839.7.1 = {
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1908.10.7 = {	# Austria
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_vrbas = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1839.7.1 = {
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1908.10.7 = {	# Austria
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+d_usora = {
+	1377.10.1 = {
+		de_jure_liege = k_bosnia
+	}
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1839.7.1 = {
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1908.10.7 = {	# Austria
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_zachlumia = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1839.7.1 = {
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1908.10.7 = {	# Austria
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_zelengora = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1839.7.1 = {
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1908.10.7 = {	# Austria
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_zavrsje = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1839.7.1 = {
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1908.10.7 = {	# Austria
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_pagania = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1839.7.1 = {
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1908.10.7 = {	# Austria
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+d_ragusa = {
+	1809.1.1 = {	# France
+		holder = bonaparte_2	# Napoleon
+	}
+	1815.7.8 = {	# Austria
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+c_ragusa = {
+	1809.1.1 = {	# France
+		holder = bonaparte_2	# Napoleon
+	}
+	1815.7.8 = {	# Austria
+		holder = habsburg_20	# Francis II
+	}
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
+	}
+}

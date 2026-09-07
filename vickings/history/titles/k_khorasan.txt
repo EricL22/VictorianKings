@@ -1,3 +1,35 @@
+﻿k_khorasan = {
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+	1178.1.1 = { change_development_level = 14 }
+	
+	856.1.1 = {
+		holder = 163100
+	}
+
+	1066.1.1 = {
+		liege = e_persia
+		holder = 3042
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					has_dlc_feature = royal_court
+				}
+				holder = {
+					set_court_language = language_iranian # Iranian was the official court language of the Seljuks
+					if = {
+						limit = { NOT = { knows_court_language_of = this } }
+						learn_court_language_of = this
+					}
+				}
+			}
+		}
+	}
+	1073.1.1 = {
+		holder = 0
+	}
+}
 d_nishapur = {
 	867.1.1 = {	change_development_level = 8 }
 	1066.1.1 = { change_development_level = 12 }

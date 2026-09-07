@@ -461,3 +461,148 @@ k_papal_state = {
 		holder = papal_49	# Pius X
 	}
 }
+
+# Ottoman state (before empire)
+k_ottoman = {
+	# Beylik
+	1299.1.1 = {
+		holder = 476501	# Osman I
+	}
+	1324.1.1 = {
+		holder = 476500	# Orhan
+	}
+	# Sultanate
+	1362.3.1 = {
+		holder = 476502	# Murad I
+	}
+	1389.6.15 = {
+		holder = ottoman_0	# Bayezid I
+	}
+	1413.7.5 = {
+		holder = ottoman_1	# Mehmed I
+	}
+	1421.6.25 = {
+		holder = ottoman_2	# Murad II
+	}
+	1444.8.1 = {
+		holder = ottoman_3	# Mehmed II
+	}
+	1446.9.1 = {
+		holder = ottoman_2
+	}
+	1451.2.3 = {
+		holder = ottoman_3
+	}
+	1453.5.30 = {
+		holder = 0
+	}
+}
+
+k_bosnia = {
+	#1463.5.25 conquered by Ottomans
+	1808.7.28 = {
+		holder = ottoman_26	# Mahmud II
+	}
+	1839.7.1 = {
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1908.10.7 = {	# Austria
+		holder = habsburg_23	# Franz Josef I
+	}
+}
+
+d_sunni = {
+	1517.1.22 = {
+		holder = ottoman_5	# Selim I
+	}
+	1520.9.30 = {
+		holder = ottoman_6	# Suleiman I
+	}
+	1566.9.7 = {
+		holder = ottoman_7	# Selim II
+	}
+	1574.12.27 = {
+		holder = ottoman_8	# Murad III
+	}
+	1595.1.16 = {
+		holder = ottoman_9	# Mehmed III
+	}
+	1603.12.22 = {
+		holder = ottoman_10	# Ahmed I
+	}
+	1617.11.22 = {
+		holder = ottoman_11	# Mustafa I
+	}
+	1618.2.26 = {
+		holder = ottoman_12	# Osman II
+	}
+	1622.5.20 = {
+		holder = ottoman_11
+	}
+	1623.9.10 = {
+		holder = ottoman_13	# Murad IV
+	}
+	1640.2.9 = {
+		holder = ottoman_14	# Ibrahim
+	}
+	1648.8.8 = {
+		holder = ottoman_15	# Mehmed IV
+	}
+	1687.11.8 = {
+		holder = ottoman_16	# Suleiman II
+	}
+	1691.6.22 = {
+		holder = ottoman_17	# Ahmed II
+	}
+	1695.2.6 = {
+		holder = ottoman_18	# Mustafa II
+	}
+	1703.8.22 = {
+		holder = ottoman_19	# Ahmed III
+	}
+	1730.9.20 = {
+		holder = ottoman_20	# Mahmud I
+	}
+	1754.12.13 = {
+		holder = ottoman_21	# Osman III
+	}
+	1757.10.30 = {
+		holder = ottoman_22	# Mustafa III
+	}
+	1774.1.21 = {
+		holder = ottoman_23	# Abdul Hamid I
+	}
+	1789.4.7 = {
+		holder = ottoman_24	# Selim III
+	}
+	1807.5.29 = {
+		holder = ottoman_25	# Mustafa IV
+	}
+	1808.7.28 = {
+		holder = ottoman_26	# Mahmud II
+	}
+	1839.7.1 = {
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+}

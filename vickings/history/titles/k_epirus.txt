@@ -206,18 +206,6 @@ c_metzovo = {
 d_dyrrachion = {
 	330.1.1 = {
 		government = administrative_government
-		effect = {
-			if = {
-				limit = {
-					exists = holder
-					NOT = { has_dlc_feature = roads_to_power }
-				}
-				holder = {
-					empty_treasury_when_abandoning_landed_life_effect = yes
-					change_government = feudal_government
-				}
-			}
-		}
 	}
 	759.1.1 = {
 	}
@@ -225,19 +213,7 @@ d_dyrrachion = {
 		government = feudal_government
 	}
 	865.1.1 = {
-		government = administrative_government
-		effect = {
-			if = {
-				limit = {
-					exists = holder
-					NOT = { has_dlc_feature = roads_to_power }
-				}
-				holder = {
-					empty_treasury_when_abandoning_landed_life_effect = yes
-					change_government = feudal_government
-				}
-			}
-		}
+		#government = administrative_government
 	}
 	896.1.1 = {
 	}

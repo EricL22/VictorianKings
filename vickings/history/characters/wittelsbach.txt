@@ -80,7 +80,7 @@ wittelsbach_4 = {
 	}
 }
 
-8000017 = {
+wittelsbach_5 = {
 	name = "Otto"	# of Greece
 	dynasty_house = house_wittelsbach
 	religion = catholic

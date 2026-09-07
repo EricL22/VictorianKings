@@ -685,3 +685,75 @@ oldenburg_51 = {
 		death = yes
 	}
 }
+
+## Greek line
+oldenburg_60 = {
+	name = "William"
+	dynasty_house = house_schles_hols_gluck
+	religion = protestant
+	culture = danish
+	father = oldenburg_38
+	1845.12.24 = {
+		birth = yes
+	}
+	1863.3.30 = {
+		name = "George"	# I of Greece
+	}
+	1913.3.18 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+oldenburg_61 = {
+	name = "Konstantinos"	# I of Greece
+	dynasty_house = house_schles_hols_gluck
+	religion = orthodox
+	culture = greek
+	father = oldenburg_60
+	1868.8.2 = {
+		birth = yes
+	}
+	1923.1.11 = {
+		death = yes
+	}
+}
+oldenburg_62 = {
+	name = "Georgios"	# II of Greece
+	dynasty_house = house_schles_hols_gluck
+	religion = orthodox
+	culture = greek
+	father = oldenburg_61
+	1890.7.19 = {
+		birth = yes
+	}
+	1947.4.1 = {
+		death = yes
+	}
+}
+oldenburg_63 = {
+	name = "Alexandros"	# of Greece
+	dynasty_house = house_schles_hols_gluck
+	religion = orthodox
+	culture = greek
+	father = oldenburg_61
+	1893.8.1 = {
+		birth = yes
+	}
+	1920.10.25 = {
+		death = yes
+	}
+}
+oldenburg_64 = {
+	name = "Pavlos"	# of Greece
+	dynasty_house = house_schles_hols_gluck
+	religion = orthodox
+	culture = greek
+	father = oldenburg_61
+	1901.12.14 = {
+		birth = yes
+	}
+	1964.3.6 = {
+		death = yes
+	}
+}

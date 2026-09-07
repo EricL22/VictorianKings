@@ -1,0 +1,328 @@
+k_serbia = {
+	1808.7.28 = {
+		holder = 0
+		effect = { set_capital_county = title:c_beograd }
+	}
+	1882.3.6 = {
+		holder = obrenovic_6	# Milan I
+	}
+	1889.3.6 = {
+		holder = obrenovic_7	# Alexander I
+	}
+	1903.6.15 = {
+		holder = karadordevic_2	# Peter I
+	}
+}
+d_rashka = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1839.7.1 = {
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+	1913.5.30 = {	# Serbia
+		holder = karadordevic_2	# Peter I
+	}
+}
+c_rashka = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1839.7.1 = {
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+	1913.5.30 = {	# Serbia
+		holder = karadordevic_2	# Peter I
+	}
+}
+c_zlatibor = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1839.7.1 = {
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+	1913.5.30 = {	# Serbia
+		holder = karadordevic_2	# Peter I
+	}
+}
+c_sumadija = {
+	1804.2.14 = {
+		holder = karadordevic_0	# Karađorđe
+	}
+	1815.4.23 = {
+		holder = obrenovic_1	# Miloš Obrenović
+	}
+	1839.6.25 = {
+		holder = obrenovic_2	# Milan Obrenović
+	}
+	1839.7.8 = {
+		holder = obrenovic_3	# Mihailo Obrenović
+	}
+	1842.9.14 = {
+		holder = karadordevic_1	# Alexander Karađorđević
+	}
+	1858.12.23 = {
+		holder = obrenovic_1
+	}
+	1860.9.26 = {
+		holder = obrenovic_3
+	}
+	1868.6.10 = {
+		holder = obrenovic_6	# Milan I
+	}
+	1889.3.6 = {
+		holder = obrenovic_7	# Alexander I
+	}
+	1903.6.15 = {
+		holder = karadordevic_2	# Peter I
+	}
+}
+c_podrinje = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1839.7.1 = {
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+	1913.5.30 = {	# Serbia
+		holder = karadordevic_2	# Peter I
+	}
+}
+c_hvosno = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1839.7.1 = {
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+	1913.5.30 = {	# Serbia
+		holder = karadordevic_2	# Peter I
+	}
+}
+d_macva = {
+	1804.2.14 = {
+		holder = karadordevic_0	# Karađorđe
+		liege = e_turkey
+	}
+	1815.4.23 = {
+		holder = obrenovic_1	# Miloš Obrenović
+	}
+	1839.6.25 = {
+		holder = obrenovic_2	# Milan Obrenović
+	}
+	1839.7.8 = {
+		holder = obrenovic_3	# Mihailo Obrenović
+	}
+	1842.9.14 = {
+		holder = karadordevic_1	# Alexander Karađorđević
+	}
+	1858.12.23 = {
+		holder = obrenovic_1
+	}
+	1860.9.26 = {
+		holder = obrenovic_3
+	}
+	1868.6.10 = {
+		holder = obrenovic_6	# Milan I
+	}
+	1889.3.6 = {
+		holder = obrenovic_7	# Alexander I
+	}
+	1903.6.15 = {
+		holder = karadordevic_2	# Peter I
+	}
+}
+c_macva = {
+	1804.2.14 = {
+		holder = karadordevic_0	# Karađorđe
+	}
+	1815.4.23 = {
+		holder = obrenovic_1	# Miloš Obrenović
+	}
+	1839.6.25 = {
+		holder = obrenovic_2	# Milan Obrenović
+	}
+	1839.7.8 = {
+		holder = obrenovic_3	# Mihailo Obrenović
+	}
+	1842.9.14 = {
+		holder = karadordevic_1	# Alexander Karađorđević
+	}
+	1858.12.23 = {
+		holder = obrenovic_1
+	}
+	1860.9.26 = {
+		holder = obrenovic_3
+	}
+	1868.6.10 = {
+		holder = obrenovic_6	# Milan I
+	}
+	1889.3.6 = {
+		holder = obrenovic_7	# Alexander I
+	}
+	1903.6.15 = {
+		holder = karadordevic_2	# Peter I
+	}
+}
+c_beograd = {
+	1804.2.14 = {
+		holder = karadordevic_0	# Karađorđe
+	}
+	1815.4.23 = {
+		holder = obrenovic_1	# Miloš Obrenović
+	}
+	1839.6.25 = {
+		holder = obrenovic_2	# Milan Obrenović
+	}
+	1839.7.8 = {
+		holder = obrenovic_3	# Mihailo Obrenović
+	}
+	1842.9.14 = {
+		holder = karadordevic_1	# Alexander Karađorđević
+	}
+	1858.12.23 = {
+		holder = obrenovic_1
+	}
+	1860.9.26 = {
+		holder = obrenovic_3
+	}
+	1868.6.10 = {
+		holder = obrenovic_6	# Milan I
+	}
+	1889.3.6 = {
+		holder = obrenovic_7	# Alexander I
+	}
+	1903.6.15 = {
+		holder = karadordevic_2	# Peter I
+	}
+}
+d_duklja = {
+	1784.1.1 = {
+		holder = petrovic_1	# Petar I
+		government = theocracy_government
+	}
+	1830.10.31 = {
+		holder = petrovic_3	# Petar II
+	}
+	1851.10.31 = {
+		holder = petrovic_6	# Danilo I
+	}
+	1852.3.13 = {
+		government = feudal_government
+	}
+	1860.8.13 = {
+		holder = petrovic_8	# Nicholas I
+	}
+}
+c_duklja = {
+	1784.1.1 = {
+		holder = petrovic_1	# Petar I
+	}
+	1830.10.31 = {
+		holder = petrovic_3	# Petar II
+	}
+	1851.10.31 = {
+		holder = petrovic_6	# Danilo I
+	}
+	1860.8.13 = {
+		holder = petrovic_8	# Nicholas I
+	}
+}
+c_pomorje = {
+	1784.1.1 = {
+		holder = petrovic_1	# Petar I
+	}
+	1830.10.31 = {
+		holder = petrovic_3	# Petar II
+	}
+	1851.10.31 = {
+		holder = petrovic_6	# Danilo I
+	}
+	1860.8.13 = {
+		holder = petrovic_8	# Nicholas I
+	}
+}
+c_travunia = {
+	1482.1.1 = {
+		de_jure_liege = d_usora
+	}
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1839.7.1 = {
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1908.10.7 = {	# Austria
+		holder = habsburg_23	# Franz Josef I
+	}
+}

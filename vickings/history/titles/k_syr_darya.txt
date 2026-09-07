@@ -1,3 +1,57 @@
+﻿k_syr_darya = {
+	867.1.1 = { change_development_level = 0 }
+	1066.1.1 = { change_development_level = 0 }
+	1178.1.1 = { change_development_level = 0 }
+
+	## Karakhanids pushed out of Transoxiana
+	1097.1.1 = {
+		holder = 144110 # Sulayman III
+	}
+	1097.6.1 = {
+		holder = karluk0043 # Mahmud I
+	}
+	1099.1.1 = {
+		holder  = 144109 # Jibrail
+	}
+	1102.1.1 = {
+		holder = 144111 # Muhammad II
+	}
+	1129.1.1 = {
+		holder = 144112 # Nasr II
+	}
+	1129.6.1 = {
+		holder = 144113 # Ahmad III
+	}
+	1130.1.1 = {
+		holder = 144116 # Hasan II
+	}
+	1132.1.1 = {
+		holder = 144117 # Ibrahim II
+	}
+	1132.6.1 = {
+		holder = 144118 # Mahmud II
+	}
+	1141.1.1 = {
+		holder = 144119 # Ibrahim III
+	}
+	1156.1.1 = {
+		holder = 144120 # Ali III
+	}
+	1161.1.1 = {
+		holder = 144121 # Masud II
+	}
+	1168.1.1 = {
+		holder = karakhanid_1 # Nasr III b. Husayn
+	}
+	1171.1.1 = {
+		holder = karakhanid_5 # Muhammad III
+	}
+	1178.1.1 = {
+		holder = 144122 # Ibrahim IV b. Husayn
+		liege = "e_kara_khitai"
+		de_jure_liege = e_kara_khitai
+	}
+}
 d_syr_darya = {
 	867.1.1 = { change_development_level = 2 }
 	1066.1.1 = { change_development_level = 4 }

@@ -1,3 +1,53 @@
+﻿k_sicily = {
+	867.1.1 = { change_development_level = 5 }
+	1066.1.1 = { change_development_level = 8 }
+	1178.1.1 = { change_development_level = 24 }
+	
+	1130.12.25 = {
+		holder = 211502 # Roger I de Hauteville
+		insert_title_history = d_sicily
+	}
+	1154.2.26 = {
+		holder = 211501 # William I
+	}
+	1166.5.7 = {
+		holder = 211500 # William II
+	}
+	1178.1.1 = {
+		de_jure_liege = e_italy
+	}
+	1189.11.11 = {
+		holder = 211509 # Tancred
+	}
+	1194.2.20 = {
+		holder = 211512 # William III
+	}
+	1194.10.1 = {
+		holder = 212507 # Heinrich VI of the Holy Roman Empire
+	}
+	1197.9.28 = {
+		holder = 212513 # Friedrich II of the Holy Roman Empire
+	}
+	1250.12.13 = {
+		holder = 30760 # Konrad III of the Holy Roman Empire
+	}
+	1254.5.21 = {
+		holder = 30785 # Konrad II 'Konradin'
+	}
+	1258.1.1 = {
+		holder = 7636 # Manfred
+	}
+	1266.2.26 = {
+		holder = 455406 # Charles I d'Anjou
+	}
+	1285.1.7 = {
+		holder = 461710 # Charles II
+	}
+	#Treaty of Caltabellotta
+	1302.8.31 = {
+		holder = 0
+	}
+}
 d_sicily = {
 	867.1.1 = { change_development_level = 8 }
 	1066.1.1 = { change_development_level = 11 }
@@ -240,19 +290,7 @@ c_messina = {
 }
 c_siracusa = {
 	536.1.1 = {
-#		government = administrative_government
-#		effect = {
-#			if = {
-#				limit = {
-#					exists = holder
-#					NOT = { has_dlc_feature = roads_to_power }
-#				}
-#				holder = {
-#					empty_treasury_when_abandoning_landed_life_effect = yes
-#					change_government = feudal_government
-#				}
-#			}
-#		}
+		government = administrative_government
 	}
 	756.1.1 = {
 	}
@@ -263,22 +301,7 @@ c_siracusa = {
 	878.5.21 = {
 	}
 	885.1.1 = {
-#		government = clan_government
-#		effect = {
-#			if = {
-#				limit = {
-#					exists = holder
-#					NOT = {
-#						holder = {
-#							has_government = clan_government
-#						}
-#					}
-#				}
-#				holder = {
-#					change_government = clan_government
-#				}
-#			}
-#		}
+		government = clan_government
 	}
 #	890.1.1 = {
 #	}
@@ -321,22 +344,7 @@ c_siracusa = {
 	1130.12.25 = {
 	}
 	1159.1.1 = {
-#		government = theocracy_government
-#		effect = {
-#			if = {
-#				limit = {
-#					exists = holder
-#					NOT = {
-#						holder = {
-#							has_government = theocracy_government
-#						}
-#					}
-#				}
-#				holder = {
-#					change_government = theocracy_government
-#				}
-#			}
-#		}
+		government = theocracy_government
 	}
 	1202.1.1 = {
 	}
@@ -1632,7 +1640,7 @@ c_salerno = {
 	1141.1.1 = {
 	}
 	1153.1.1 = {
-#		government = theocracy_government
+		government = theocracy_government
 	}
 	1189.11.11 = {
 	}

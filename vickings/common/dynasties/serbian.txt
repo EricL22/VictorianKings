@@ -1,0 +1,14 @@
+﻿obrenovic = {
+	name = "dynn_Obrenovic"
+	culture = "serbian"
+}
+
+karadordevic = {
+	name = "dynn_Karadordevic"
+	culture = "serbian"
+}
+
+petrovic = {
+	name = "dynn_Petrovic"
+	culture = "serbian"
+}
