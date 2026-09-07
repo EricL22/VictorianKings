@@ -257,6 +257,31 @@ e_russia = {
 	}
 }
 
+e_persia = {
+	#Qajar Dynasty
+	1794.3.20 = {
+		holder = qajar_1	# Agha Mohammad
+	}
+	1797.6.17 = {
+		holder = qajar_3	# Fath-Ali
+	}
+	1834.10.23 = {
+		holder = qajar_5	# Mohammad
+	}
+	1848.9.5 = {
+		holder = qajar_6	# Naser al-Din
+	}
+	1896.5.1 = {
+		holder = qajar_7	# Mozaffar ad-Din
+	}
+	1907.1.8 = {
+		holder = qajar_8	# Mohammad Ali
+	}
+	1909.7.16 = {
+		holder = qajar_9	# Ahmad
+	}
+}
+
 k_switzerland = {
 	1806.8.6 = {
 		de_jure_liege = e_germany

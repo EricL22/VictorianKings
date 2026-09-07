@@ -303,8 +303,6 @@ habsburg_20 = {
 		add_spouse = bourbon_44
 	}
 	1793.1.1 = {
-		add_realm_law_skip_effects = crown_authority_2
-		add_realm_law_skip_effects = male_only_law
 		effect = { add_character_flag = semi_salic_law }
 	}
 	1835.3.2 = {
@@ -335,7 +333,6 @@ habsburg_21 = {
 		}
 	}
 	1835.3.2 = {
-		add_realm_law_skip_effects = male_only_law
 		effect = { add_character_flag = semi_salic_law }
 	}
 	1875.6.29 = {

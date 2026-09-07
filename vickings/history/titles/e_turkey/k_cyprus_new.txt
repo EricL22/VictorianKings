@@ -1,0 +1,95 @@
+k_cyprus = {
+	1800.1.1 = {
+		de_jure_liege = e_turkey
+	}
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1839.7.1 = {
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+	1914.7.12 = {	# United Kingdom
+		holder = wettin_35	# George V
+	}
+}
+d_cyprus = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1839.7.1 = {
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+	1914.7.12 = {	# United Kingdom
+		holder = wettin_35	# George V
+	}
+}
+c_nicosia = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1839.7.1 = {
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+	1914.7.12 = {	# United Kingdom
+		holder = wettin_35	# George V
+	}
+}
+c_famagusta = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1839.7.1 = {
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+	1914.7.12 = {	# United Kingdom
+		holder = wettin_35	# George V
+	}
+}

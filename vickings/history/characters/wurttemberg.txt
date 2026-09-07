@@ -17,7 +17,7 @@ wurttemberg_1 = {
 	name = "Wilhelm"	# I of Wurttemberg
 	religion = catholic
 	culture = swabian
-	father = Wurttemberg_0
+	father = wurttemberg_0
 	1781.9.27 = {
 		birth = yes
 	}
@@ -30,7 +30,7 @@ wurttemberg_2 = {
 	name = "Karl"	# I of Wurttemberg
 	religion = catholic
 	culture = swabian
-	father = Wurttemberg_1
+	father = wurttemberg_1
 	1823.3.6 = {
 		birth = yes
 	}
@@ -43,7 +43,7 @@ wurttemberg_3 = {
 	name = "Paul"	# prince of Wurttemberg
 	religion = catholic
 	culture = swabian
-	father = Wurttemberg_0
+	father = wurttemberg_0
 	1785.1.19 = {
 		birth = yes
 	}
@@ -56,7 +56,7 @@ wurttemberg_4 = {
 	name = "Friedrich"	# prince of Wurttemberg
 	religion = catholic
 	culture = swabian
-	father = Wurttemberg_3
+	father = wurttemberg_3
 	1808.2.21 = {
 		birth = yes
 	}
@@ -69,7 +69,7 @@ wurttemberg_5 = {
 	name = "Wilhelm"	# II of Wurttemberg
 	religion = catholic
 	culture = swabian
-	father = Wurttemberg_4
+	father = wurttemberg_4
 	1848.2.25 = {
 		birth = yes
 	}

@@ -1,0 +1,288 @@
+k_armenia = {
+	1600.1.1 = {
+		de_jure_liege = e_turkey
+		holder = 0
+	}
+}
+d_mesopotamia = {
+	1808.7.28 = {
+		holder = ottoman_26	# Mahmud II
+	}
+	1839.7.1 = {
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+}
+c_theodosiopolis = {
+	1808.7.28 = {
+		holder = ottoman_26	# Mahmud II
+	}
+	1839.7.1 = {
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+}
+c_melitene = {
+	1808.7.28 = {
+		holder = ottoman_26	# Mahmud II
+	}
+	1839.7.1 = {
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+}
+c_mesopotamia = {
+	1808.7.28 = {
+		holder = ottoman_26	# Mahmud II
+	}
+	1839.7.1 = {
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+}
+d_vaspurakan = {
+	1808.7.28 = {
+		holder = ottoman_26	# Mahmud II
+	}
+	1839.7.1 = {
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+}
+c_vaspurakan = {
+	1808.7.28 = {
+		holder = ottoman_26	# Mahmud II
+	}
+	1839.7.1 = {
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+}
+c_turuberan = {
+	1808.7.28 = {
+		holder = ottoman_26	# Mahmud II
+	}
+	1839.7.1 = {
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+}
+c_apahunik = {
+	1808.7.28 = {
+		holder = ottoman_26	# Mahmud II
+	}
+	1839.7.1 = {
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+}
+#d_greater_armenia = {
+#}
+c_hayk = {
+	1808.7.28 = {
+		holder = ottoman_26	# Mahmud II
+	}
+	1839.7.1 = {
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+}
+c_bagrewand = {
+	1808.7.28 = {
+		holder = ottoman_26	# Mahmud II
+	}
+	1839.7.1 = {
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+}
+c_vanand = {
+	1808.7.28 = {
+		holder = ottoman_26	# Mahmud II
+	}
+	1839.7.1 = {
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+}
+c_khachen = {
+	1794.3.20 = {	# Persia
+		holder = qajar_1	# Agha Mohammad
+	}
+	1797.6.17 = {
+		holder = qajar_3	# Fath-Ali
+	}
+	1828.2.22 = {	# Russia
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_suenik = {
+	1794.3.20 = {	# Persia
+		holder = qajar_1	# Agha Mohammad
+	}
+	1797.6.17 = {
+		holder = qajar_3	# Fath-Ali
+	}
+	1828.2.22 = {	# Russia
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_dvin = {
+	1794.3.20 = {	# Persia
+		holder = qajar_1	# Agha Mohammad
+	}
+	1797.6.17 = {
+		holder = qajar_3	# Fath-Ali
+	}
+	1828.2.22 = {	# Russia
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}

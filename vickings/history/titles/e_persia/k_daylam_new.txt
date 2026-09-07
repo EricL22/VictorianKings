@@ -1,0 +1,397 @@
+#d_daylam = {
+#}
+c_gilan = {
+	1797.6.17 = {
+		holder = qajar_3	# Fath-Ali
+	}
+	1834.10.23 = {
+		holder = qajar_5	# Mohammad
+	}
+	1848.9.5 = {
+		holder = qajar_6	# Naser al-Din
+	}
+	1896.5.1 = {
+		holder = qajar_7	# Mozaffar ad-Din
+	}
+	1907.1.8 = {
+		holder = qajar_8	# Mohammad Ali
+	}
+	1909.7.16 = {
+		holder = qajar_9	# Ahmad
+	}
+}
+c_zanjan = {
+	1797.6.17 = {
+		holder = qajar_3	# Fath-Ali
+	}
+	1834.10.23 = {
+		holder = qajar_5	# Mohammad
+	}
+	1848.9.5 = {
+		holder = qajar_6	# Naser al-Din
+	}
+	1896.5.1 = {
+		holder = qajar_7	# Mozaffar ad-Din
+	}
+	1907.1.8 = {
+		holder = qajar_8	# Mohammad Ali
+	}
+	1909.7.16 = {
+		holder = qajar_9	# Ahmad
+	}
+}
+c_qazwin = {
+	1797.6.17 = {
+		holder = qajar_3	# Fath-Ali
+	}
+	1834.10.23 = {
+		holder = qajar_5	# Mohammad
+	}
+	1848.9.5 = {
+		holder = qajar_6	# Naser al-Din
+	}
+	1896.5.1 = {
+		holder = qajar_7	# Mozaffar ad-Din
+	}
+	1907.1.8 = {
+		holder = qajar_8	# Mohammad Ali
+	}
+	1909.7.16 = {
+		holder = qajar_9	# Ahmad
+	}
+}
+d_tabaristan = {
+	1797.6.17 = {
+		holder = qajar_3	# Fath-Ali
+	}
+	1834.10.23 = {
+		holder = qajar_5	# Mohammad
+	}
+	1848.9.5 = {
+		holder = qajar_6	# Naser al-Din
+	}
+	1896.5.1 = {
+		holder = qajar_7	# Mozaffar ad-Din
+	}
+	1907.1.8 = {
+		holder = qajar_8	# Mohammad Ali
+	}
+	1909.7.16 = {
+		holder = qajar_9	# Ahmad
+	}
+}
+c_mazandaran = {
+	1797.6.17 = {
+		holder = qajar_3	# Fath-Ali
+	}
+	1834.10.23 = {
+		holder = qajar_5	# Mohammad
+	}
+	1848.9.5 = {
+		holder = qajar_6	# Naser al-Din
+	}
+	1896.5.1 = {
+		holder = qajar_7	# Mozaffar ad-Din
+	}
+	1907.1.8 = {
+		holder = qajar_8	# Mohammad Ali
+	}
+	1909.7.16 = {
+		holder = qajar_9	# Ahmad
+	}
+}
+c_ruyan = {
+	1797.6.17 = {
+		holder = qajar_3	# Fath-Ali
+	}
+	1834.10.23 = {
+		holder = qajar_5	# Mohammad
+	}
+	1848.9.5 = {
+		holder = qajar_6	# Naser al-Din
+	}
+	1896.5.1 = {
+		holder = qajar_7	# Mozaffar ad-Din
+	}
+	1907.1.8 = {
+		holder = qajar_8	# Mohammad Ali
+	}
+	1909.7.16 = {
+		holder = qajar_9	# Ahmad
+	}
+}
+c_baduspan = {
+	1797.6.17 = {
+		holder = qajar_3	# Fath-Ali
+	}
+	1834.10.23 = {
+		holder = qajar_5	# Mohammad
+	}
+	1848.9.5 = {
+		holder = qajar_6	# Naser al-Din
+	}
+	1896.5.1 = {
+		holder = qajar_7	# Mozaffar ad-Din
+	}
+	1907.1.8 = {
+		holder = qajar_8	# Mohammad Ali
+	}
+	1909.7.16 = {
+		holder = qajar_9	# Ahmad
+	}
+}
+#d_gurgan = {
+#}
+c_gurgan = {
+	1797.6.17 = {
+		holder = qajar_3	# Fath-Ali
+	}
+	1834.10.23 = {
+		holder = qajar_5	# Mohammad
+	}
+	1848.9.5 = {
+		holder = qajar_6	# Naser al-Din
+	}
+	1896.5.1 = {
+		holder = qajar_7	# Mozaffar ad-Din
+	}
+	1907.1.8 = {
+		holder = qajar_8	# Mohammad Ali
+	}
+	1909.7.16 = {
+		holder = qajar_9	# Ahmad
+	}
+}
+c_dihistan = {
+	1797.6.17 = {
+		holder = qajar_3	# Fath-Ali
+	}
+	1834.10.23 = {
+		holder = qajar_5	# Mohammad
+	}
+	1848.9.5 = {
+		holder = qajar_6	# Naser al-Din
+	}
+	1896.5.1 = {
+		holder = qajar_7	# Mozaffar ad-Din
+	}
+	1907.1.8 = {
+		holder = qajar_8	# Mohammad Ali
+	}
+	1909.7.16 = {
+		holder = qajar_9	# Ahmad
+	}
+}
+d_azerbaijan = {
+	1797.6.17 = {
+		holder = qajar_3	# Fath-Ali
+	}
+	1834.10.23 = {
+		holder = qajar_5	# Mohammad
+	}
+	1848.9.5 = {
+		holder = qajar_6	# Naser al-Din
+	}
+	1896.5.1 = {
+		holder = qajar_7	# Mozaffar ad-Din
+	}
+	1907.1.8 = {
+		holder = qajar_8	# Mohammad Ali
+	}
+	1909.7.16 = {
+		holder = qajar_9	# Ahmad
+	}
+}
+c_tabriz = {
+	1797.6.17 = {
+		holder = qajar_3	# Fath-Ali
+	}
+	1834.10.23 = {
+		holder = qajar_5	# Mohammad
+	}
+	1848.9.5 = {
+		holder = qajar_6	# Naser al-Din
+	}
+	1896.5.1 = {
+		holder = qajar_7	# Mozaffar ad-Din
+	}
+	1907.1.8 = {
+		holder = qajar_8	# Mohammad Ali
+	}
+	1909.7.16 = {
+		holder = qajar_9	# Ahmad
+	}
+}
+c_talish = {
+	1797.6.17 = {
+		holder = qajar_3	# Fath-Ali
+	}
+	1834.10.23 = {
+		holder = qajar_5	# Mohammad
+	}
+	1848.9.5 = {
+		holder = qajar_6	# Naser al-Din
+	}
+	1896.5.1 = {
+		holder = qajar_7	# Mozaffar ad-Din
+	}
+	1907.1.8 = {
+		holder = qajar_8	# Mohammad Ali
+	}
+	1909.7.16 = {
+		holder = qajar_9	# Ahmad
+	}
+}
+c_ardabil = {
+	1797.6.17 = {
+		holder = qajar_3	# Fath-Ali
+	}
+	1834.10.23 = {
+		holder = qajar_5	# Mohammad
+	}
+	1848.9.5 = {
+		holder = qajar_6	# Naser al-Din
+	}
+	1896.5.1 = {
+		holder = qajar_7	# Mozaffar ad-Din
+	}
+	1907.1.8 = {
+		holder = qajar_8	# Mohammad Ali
+	}
+	1909.7.16 = {
+		holder = qajar_9	# Ahmad
+	}
+}
+c_maragha = {
+	1797.6.17 = {
+		holder = qajar_3	# Fath-Ali
+	}
+	1834.10.23 = {
+		holder = qajar_5	# Mohammad
+	}
+	1848.9.5 = {
+		holder = qajar_6	# Naser al-Din
+	}
+	1896.5.1 = {
+		holder = qajar_7	# Mozaffar ad-Din
+	}
+	1907.1.8 = {
+		holder = qajar_8	# Mohammad Ali
+	}
+	1909.7.16 = {
+		holder = qajar_9	# Ahmad
+	}
+}
+c_bailaqan = {
+	1797.6.17 = {
+		holder = qajar_3	# Fath-Ali
+	}
+	1834.10.23 = {
+		holder = qajar_5	# Mohammad
+	}
+	1848.9.5 = {
+		holder = qajar_6	# Naser al-Din
+	}
+	1896.5.1 = {
+		holder = qajar_7	# Mozaffar ad-Din
+	}
+	1907.1.8 = {
+		holder = qajar_8	# Mohammad Ali
+	}
+	1909.7.16 = {
+		holder = qajar_9	# Ahmad
+	}
+}
+c_urmiya = {
+	1797.6.17 = {
+		holder = qajar_3	# Fath-Ali
+	}
+	1834.10.23 = {
+		holder = qajar_5	# Mohammad
+	}
+	1848.9.5 = {
+		holder = qajar_6	# Naser al-Din
+	}
+	1896.5.1 = {
+		holder = qajar_7	# Mozaffar ad-Din
+	}
+	1907.1.8 = {
+		holder = qajar_8	# Mohammad Ali
+	}
+	1909.7.16 = {
+		holder = qajar_9	# Ahmad
+	}
+}
+#d_shirvan = {
+#}
+c_shirvan = {
+	1797.6.17 = {	# Persia
+		holder = qajar_3	# Fath-Ali
+	}
+	1828.2.22 = {	# Russia
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_shaki = {
+	1797.6.17 = {	# Persia
+		holder = qajar_3	# Fath-Ali
+	}
+	1828.2.22 = {	# Russia
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_aran = {
+	1797.6.17 = {	# Persia
+		holder = qajar_3	# Fath-Ali
+	}
+	1828.2.22 = {	# Russia
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_mugan = {
+	1797.6.17 = {
+		holder = qajar_3	# Fath-Ali
+	}
+	1834.10.23 = {
+		holder = qajar_5	# Mohammad
+	}
+	1848.9.5 = {
+		holder = qajar_6	# Naser al-Din
+	}
+	1896.5.1 = {
+		holder = qajar_7	# Mozaffar ad-Din
+	}
+	1907.1.8 = {
+		holder = qajar_8	# Mohammad Ali
+	}
+	1909.7.16 = {
+		holder = qajar_9	# Ahmad
+	}
+}

@@ -1,0 +1,141 @@
+﻿qajar_0 = {
+	name = "Mohammad Hasan"
+	dynasty = qajar
+	religion = imami
+	culture = persian
+	1715.1.1 = {
+		birth = yes
+	}
+	1759.2.13 = {
+		death = yes
+	}
+}
+
+qajar_1 = {
+	name = "Agha Mohammad"
+	dynasty = qajar
+	religion = imami
+	culture = persian
+	trait = beardless_eunuch
+	father = qajar_0
+	1742.3.14 = {
+		birth = yes
+	}
+	1797.6.17 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+
+qajar_2 = {
+	name = "Hossein Qoli"
+	dynasty = qajar
+	religion = imami
+	culture = persian
+	father = qajar_0
+	1751.1.1 = {
+		birth = yes
+	}
+	1777.1.1 = {
+		death = yes
+	}
+}
+
+qajar_3 = {
+	name = "Fath-Ali"
+	dynasty = qajar
+	religion = imami
+	culture = persian
+	father = qajar_2
+	1772.8.5 = {
+		birth = yes
+	}
+	1834.10.23 = {
+		death = yes
+	}
+}
+
+qajar_4 = {
+	name = "Abbas Mirza"
+	dynasty = qajar
+	religion = imami
+	culture = persian
+	father = qajar_3
+	1789.8.26 = {
+		birth = yes
+	}
+	1833.10.25 = {
+		death = yes
+	}
+}
+
+qajar_5 = {
+	name = "Mohammad"
+	dynasty = qajar
+	religion = imami
+	culture = persian
+	father = qajar_4
+	1805.1.5 = {
+		birth = yes
+	}
+	1848.9.5 = {
+		death = yes
+	}
+}
+
+qajar_6 = {
+	name = "Naser al-Din"
+	dynasty = qajar
+	religion = imami
+	culture = persian
+	father = qajar_5
+	1831.7.17 = {
+		birth = yes
+	}
+	1896.5.1 = {
+		death = yes
+	}
+}
+
+qajar_7 = {
+	name = "Mozaffar ad-Din"
+	dynasty = qajar
+	religion = imami
+	culture = persian
+	father = qajar_6
+	1853.3.23 = {
+		birth = yes
+	}
+	1907.1.8 = {
+		death = yes
+	}
+}
+
+qajar_8 = {
+	name = "Mohammad Ali"
+	dynasty = qajar
+	religion = imami
+	culture = persian
+	father = qajar_7
+	1872.6.21 = {
+		birth = yes
+	}
+	1925.4.5 = {
+		death = yes
+	}
+}
+
+qajar_9 = {
+	name = "Ahmad"
+	dynasty = qajar
+	religion = imami
+	culture = persian
+	father = qajar_8
+	1898.1.21 = {
+		birth = yes
+	}
+	1930.2.21 = {
+		death = yes
+	}
+}

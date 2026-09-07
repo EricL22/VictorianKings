@@ -421,8 +421,6 @@ wettin_41 = {
 	culture = french
 	father = wettin_40
 	mother = bourbon_33
-	trait = sadistic
-	trait = zealous
 	1835.4.9 = {
 		birth = yes
 	}
@@ -430,6 +428,10 @@ wettin_41 = {
 		effect = {
 			set_relation_guardian = character:bourbon_33
 		}
+	}
+	1851.4.9 = {
+		trait = sadistic
+		trait = zealous
 	}
 	1909.12.17 = {
 		death = yes
