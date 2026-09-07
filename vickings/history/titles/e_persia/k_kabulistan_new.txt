@@ -1,0 +1,404 @@
+k_kabulistan = {
+	1772.6.4 = {
+		holder = durrani_1	# Timur Shah Durrani
+	}
+	1793.5.18 = {
+		holder = durrani_2	# Zaman Shah Durrani
+	}
+	1801.7.25 = {
+		holder = durrani_3	# Mahmud Shah Durrani
+	}
+	1803.7.13 = {
+		holder = durrani_4	# Shuja Shah Durrani
+	}
+	1809.5.3 = {
+		holder = durrani_3
+	}
+	1818.1.1 = {
+		holder = durrani_5	# Ali Shah Durrani
+	}
+	1819.1.1 = {
+		holder = durrani_6	# Ayub Shah Durrani
+	}
+	1826.1.1 = {
+		holder = barakzai_1	# Dost Mohammad Khan Barakzai
+	}
+	1863.6.9 = {
+		holder = barakzai_3	# Sher Ali Khan Barakzai
+	}
+	1866.5.10 = {
+		holder = barakzai_4	# Mohammad Afzal Khan Barakzai
+	}
+	1867.10.7 = {
+		holder = barakzai_5	# Mohammad Azam Khan Barakzai
+	}
+	1868.9.8 = {
+		holder = barakzai_3
+	}
+	1879.2.21 = {
+		holder = barakzai_6	# Mohammad Yaqub Khan Barakzai
+	}
+	1879.10.19 = {
+		holder = barakzai_7	# Mohammad Musa Khan Barakzai
+	}
+	1880.8.11 = {
+		holder = barakzai_8	# Abdur Rahman Khan Barakzai
+	}
+	1901.10.1 = {
+		holder = barakzai_9	# Habibullah Khan Barakzai
+	}
+}
+d_kabul = {
+	1809.5.3 = {
+		holder = durrani_3
+	}
+	1818.1.1 = {
+		holder = durrani_5	# Ali Shah Durrani
+	}
+	1819.1.1 = {
+		holder = durrani_6	# Ayub Shah Durrani
+	}
+	1826.1.1 = {
+		holder = barakzai_1	# Dost Mohammad Khan Barakzai
+	}
+	1863.6.9 = {
+		holder = barakzai_3	# Sher Ali Khan Barakzai
+	}
+	1866.5.10 = {
+		holder = barakzai_4	# Mohammad Afzal Khan Barakzai
+	}
+	1867.10.7 = {
+		holder = barakzai_5	# Mohammad Azam Khan Barakzai
+	}
+	1868.9.8 = {
+		holder = barakzai_3
+	}
+	1879.2.21 = {
+		holder = barakzai_6	# Mohammad Yaqub Khan Barakzai
+	}
+	1879.10.19 = {
+		holder = barakzai_7	# Mohammad Musa Khan Barakzai
+	}
+	1880.8.11 = {
+		holder = barakzai_8	# Abdur Rahman Khan Barakzai
+	}
+	1901.10.1 = {
+		holder = barakzai_9	# Habibullah Khan Barakzai
+	}
+}
+c_kabul = {
+	1772.6.4 = {
+		holder = durrani_1	# Timur Shah Durrani
+	}
+	1793.5.18 = {
+		holder = durrani_2	# Zaman Shah Durrani
+	}
+	1801.7.25 = {
+		holder = durrani_3	# Mahmud Shah Durrani
+	}
+	1803.7.13 = {
+		holder = durrani_4	# Shuja Shah Durrani
+	}
+	1809.5.3 = {
+		holder = durrani_3
+	}
+	1818.1.1 = {
+		holder = durrani_5	# Ali Shah Durrani
+	}
+	1819.1.1 = {
+		holder = durrani_6	# Ayub Shah Durrani
+	}
+	1826.1.1 = {
+		holder = barakzai_1	# Dost Mohammad Khan Barakzai
+	}
+	1863.6.9 = {
+		holder = barakzai_3	# Sher Ali Khan Barakzai
+	}
+	1866.5.10 = {
+		holder = barakzai_4	# Mohammad Afzal Khan Barakzai
+	}
+	1867.10.7 = {
+		holder = barakzai_5	# Mohammad Azam Khan Barakzai
+	}
+	1868.9.8 = {
+		holder = barakzai_3
+	}
+	1879.2.21 = {
+		holder = barakzai_6	# Mohammad Yaqub Khan Barakzai
+	}
+	1879.10.19 = {
+		holder = barakzai_7	# Mohammad Musa Khan Barakzai
+	}
+	1880.8.11 = {
+		holder = barakzai_8	# Abdur Rahman Khan Barakzai
+	}
+	1901.10.1 = {
+		holder = barakzai_9	# Habibullah Khan Barakzai
+	}
+}
+c_bamian = {
+	1809.5.3 = {
+		holder = durrani_3
+	}
+	1818.1.1 = {
+		holder = durrani_5	# Ali Shah Durrani
+	}
+	1819.1.1 = {
+		holder = durrani_6	# Ayub Shah Durrani
+	}
+	1826.1.1 = {
+		holder = barakzai_1	# Dost Mohammad Khan Barakzai
+	}
+	1863.6.9 = {
+		holder = barakzai_3	# Sher Ali Khan Barakzai
+	}
+	1866.5.10 = {
+		holder = barakzai_4	# Mohammad Afzal Khan Barakzai
+	}
+	1867.10.7 = {
+		holder = barakzai_5	# Mohammad Azam Khan Barakzai
+	}
+	1868.9.8 = {
+		holder = barakzai_3
+	}
+	1879.2.21 = {
+		holder = barakzai_6	# Mohammad Yaqub Khan Barakzai
+	}
+	1879.10.19 = {
+		holder = barakzai_7	# Mohammad Musa Khan Barakzai
+	}
+	1880.8.11 = {
+		holder = barakzai_8	# Abdur Rahman Khan Barakzai
+	}
+	1901.10.1 = {
+		holder = barakzai_9	# Habibullah Khan Barakzai
+	}
+}
+c_chitral = {
+	1809.5.3 = {
+		holder = durrani_3
+	}
+	1818.1.1 = {
+		holder = durrani_5	# Ali Shah Durrani
+	}
+	1819.1.1 = {
+		holder = durrani_6	# Ayub Shah Durrani
+	}
+	1826.1.1 = {
+		holder = barakzai_1	# Dost Mohammad Khan Barakzai
+	}
+	1863.6.9 = {
+		holder = barakzai_3	# Sher Ali Khan Barakzai
+	}
+	1866.5.10 = {
+		holder = barakzai_4	# Mohammad Afzal Khan Barakzai
+	}
+	1867.10.7 = {
+		holder = barakzai_5	# Mohammad Azam Khan Barakzai
+	}
+	1868.9.8 = {
+		holder = barakzai_3
+	}
+	1879.2.21 = {
+		holder = barakzai_6	# Mohammad Yaqub Khan Barakzai
+	}
+	1879.10.19 = {
+		holder = barakzai_7	# Mohammad Musa Khan Barakzai
+	}
+	1880.8.11 = {
+		holder = barakzai_8	# Abdur Rahman Khan Barakzai
+	}
+	1901.10.1 = {
+		holder = barakzai_9	# Habibullah Khan Barakzai
+	}
+}
+d_zabulistan = {
+	1809.5.3 = {
+		holder = durrani_3
+	}
+	1818.1.1 = {
+		holder = durrani_5	# Ali Shah Durrani
+	}
+	1819.1.1 = {
+		holder = durrani_6	# Ayub Shah Durrani
+	}
+	1826.1.1 = {
+		holder = barakzai_1	# Dost Mohammad Khan Barakzai
+	}
+	1863.6.9 = {
+		holder = barakzai_3	# Sher Ali Khan Barakzai
+	}
+	1866.5.10 = {
+		holder = barakzai_4	# Mohammad Afzal Khan Barakzai
+	}
+	1867.10.7 = {
+		holder = barakzai_5	# Mohammad Azam Khan Barakzai
+	}
+	1868.9.8 = {
+		holder = barakzai_3
+	}
+	1879.2.21 = {
+		holder = barakzai_6	# Mohammad Yaqub Khan Barakzai
+	}
+	1879.10.19 = {
+		holder = barakzai_7	# Mohammad Musa Khan Barakzai
+	}
+	1880.8.11 = {
+		holder = barakzai_8	# Abdur Rahman Khan Barakzai
+	}
+	1901.10.1 = {
+		holder = barakzai_9	# Habibullah Khan Barakzai
+	}
+}
+c_ghazna = {
+	1809.5.3 = {
+		holder = durrani_3
+	}
+	1818.1.1 = {
+		holder = durrani_5	# Ali Shah Durrani
+	}
+	1819.1.1 = {
+		holder = durrani_6	# Ayub Shah Durrani
+	}
+	1826.1.1 = {
+		holder = barakzai_1	# Dost Mohammad Khan Barakzai
+	}
+	1863.6.9 = {
+		holder = barakzai_3	# Sher Ali Khan Barakzai
+	}
+	1866.5.10 = {
+		holder = barakzai_4	# Mohammad Afzal Khan Barakzai
+	}
+	1867.10.7 = {
+		holder = barakzai_5	# Mohammad Azam Khan Barakzai
+	}
+	1868.9.8 = {
+		holder = barakzai_3
+	}
+	1879.2.21 = {
+		holder = barakzai_6	# Mohammad Yaqub Khan Barakzai
+	}
+	1879.10.19 = {
+		holder = barakzai_7	# Mohammad Musa Khan Barakzai
+	}
+	1880.8.11 = {
+		holder = barakzai_8	# Abdur Rahman Khan Barakzai
+	}
+	1901.10.1 = {
+		holder = barakzai_9	# Habibullah Khan Barakzai
+	}
+}
+c_zamindawar = {
+	1809.5.3 = {
+		holder = durrani_3
+	}
+	1818.1.1 = {
+		holder = durrani_5	# Ali Shah Durrani
+	}
+	1819.1.1 = {
+		holder = durrani_6	# Ayub Shah Durrani
+	}
+	1826.1.1 = {
+		holder = barakzai_1	# Dost Mohammad Khan Barakzai
+	}
+	1863.6.9 = {
+		holder = barakzai_3	# Sher Ali Khan Barakzai
+	}
+	1866.5.10 = {
+		holder = barakzai_4	# Mohammad Afzal Khan Barakzai
+	}
+	1867.10.7 = {
+		holder = barakzai_5	# Mohammad Azam Khan Barakzai
+	}
+	1868.9.8 = {
+		holder = barakzai_3
+	}
+	1879.2.21 = {
+		holder = barakzai_6	# Mohammad Yaqub Khan Barakzai
+	}
+	1879.10.19 = {
+		holder = barakzai_7	# Mohammad Musa Khan Barakzai
+	}
+	1880.8.11 = {
+		holder = barakzai_8	# Abdur Rahman Khan Barakzai
+	}
+	1901.10.1 = {
+		holder = barakzai_9	# Habibullah Khan Barakzai
+	}
+}
+c_rukhaj = {
+	1809.5.3 = {
+		holder = durrani_3
+	}
+	1818.1.1 = {
+		holder = durrani_5	# Ali Shah Durrani
+	}
+	1819.1.1 = {
+		holder = durrani_6	# Ayub Shah Durrani
+	}
+	1826.1.1 = {
+		holder = barakzai_1	# Dost Mohammad Khan Barakzai
+	}
+	1863.6.9 = {
+		holder = barakzai_3	# Sher Ali Khan Barakzai
+	}
+	1866.5.10 = {
+		holder = barakzai_4	# Mohammad Afzal Khan Barakzai
+	}
+	1867.10.7 = {
+		holder = barakzai_5	# Mohammad Azam Khan Barakzai
+	}
+	1868.9.8 = {
+		holder = barakzai_3
+	}
+	1879.2.21 = {
+		holder = barakzai_6	# Mohammad Yaqub Khan Barakzai
+	}
+	1879.10.19 = {
+		holder = barakzai_7	# Mohammad Musa Khan Barakzai
+	}
+	1880.8.11 = {
+		holder = barakzai_8	# Abdur Rahman Khan Barakzai
+	}
+	1901.10.1 = {
+		holder = barakzai_9	# Habibullah Khan Barakzai
+	}
+}
+c_zabulistan = {
+	1809.5.3 = {
+		holder = durrani_3
+	}
+	1818.1.1 = {
+		holder = durrani_5	# Ali Shah Durrani
+	}
+	1819.1.1 = {
+		holder = durrani_6	# Ayub Shah Durrani
+	}
+	1826.1.1 = {
+		holder = barakzai_1	# Dost Mohammad Khan Barakzai
+	}
+	1863.6.9 = {
+		holder = barakzai_3	# Sher Ali Khan Barakzai
+	}
+	1866.5.10 = {
+		holder = barakzai_4	# Mohammad Afzal Khan Barakzai
+	}
+	1867.10.7 = {
+		holder = barakzai_5	# Mohammad Azam Khan Barakzai
+	}
+	1868.9.8 = {
+		holder = barakzai_3
+	}
+	1879.2.21 = {
+		holder = barakzai_6	# Mohammad Yaqub Khan Barakzai
+	}
+	1879.10.19 = {
+		holder = barakzai_7	# Mohammad Musa Khan Barakzai
+	}
+	1880.8.11 = {
+		holder = barakzai_8	# Abdur Rahman Khan Barakzai
+	}
+	1901.10.1 = {
+		holder = barakzai_9	# Habibullah Khan Barakzai
+	}
+}

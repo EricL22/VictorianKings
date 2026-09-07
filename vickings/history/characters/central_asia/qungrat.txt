@@ -1,0 +1,111 @@
+﻿## Khans of Khiva
+qungrat_0 = {
+	name = "Muhammad Rahim Bahadur"
+	dynasty = 1051125
+	religion = ashari
+	culture = turkish
+	1775.1.1 = {
+		birth = yes
+	}
+	1825.1.1 = {
+		death = yes
+	}
+}
+
+qungrat_1 = {
+	name = "Allah Quli Bahadur"
+	dynasty = 1051125
+	religion = ashari
+	culture = turkish
+	father = qungrat_0
+	1794.1.1 = {
+		birth = yes
+	}
+	1842.1.1 = {
+		death = yes
+	}
+}
+
+qungrat_2 = {
+	name = "Muhammad Rahim Quli"
+	dynasty = 1051125
+	religion = ashari
+	culture = turkish
+	father = qungrat_1
+	1810.1.1 = {
+		birth = yes
+	}
+	1846.1.1 = {
+		death = yes
+	}
+}
+
+qungrat_3 = {
+	name = "Muhammad Amin Bahadur"
+	dynasty = 1051125
+	religion = ashari
+	culture = turkish
+	father = qungrat_1
+	1817.1.1 = {
+		birth = yes
+	}
+	1855.3.19 = {
+		death = yes
+	}
+}
+
+qungrat_4 = {
+	name = "Sayyid Muhammad"
+	dynasty = 1051125
+	religion = ashari
+	culture = turkish
+	father = qungrat_0
+	1823.1.1 = {
+		birth = yes
+	}
+	1864.9.10 = {
+		death = yes
+	}
+}
+
+qungrat_5 = {
+	name = "Muhammad Rahim Bahadur"
+	dynasty = 1051125
+	religion = ashari
+	culture = turkish
+	father = qungrat_4
+	1847.1.1 = {
+		birth = yes
+	}
+	1910.9.1 = {
+		death = yes
+	}
+}
+
+qungrat_6 = {
+	name = "Isfandiyar Jurji Bahadur"
+	dynasty = 1051125
+	religion = ashari
+	culture = turkish
+	father = qungrat_5
+	1871.1.1 = {
+		birth = yes
+	}
+	1918.10.1 = {
+		death = yes
+	}
+}
+
+qungrat_7 = {
+	name = "Sayid Abdullah"
+	dynasty = 1051125
+	religion = ashari
+	culture = turkish
+	father = qungrat_5
+	1873.1.1 = {
+		birth = yes
+	}
+	1933.1.1 = {
+		death = yes
+	}
+}

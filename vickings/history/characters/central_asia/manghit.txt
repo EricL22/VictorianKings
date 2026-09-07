@@ -1,0 +1,69 @@
+﻿## Emirs of Bukhara
+manghit_0 = {
+	name = "Haydar Tora"	# Haydar bin Shahmurad
+	dynasty = 2001095
+	religion = ashari
+	culture = turkish
+	1775.1.30 = {
+		birth = yes
+	}
+	1826.11.12 = {
+		death = yes
+	}
+}
+
+manghit_1 = {
+	name = "Nasr-Allah"	# Nasrullah Khan
+	dynasty = 2001095
+	religion = ashari
+	culture = turkish
+	father = manghit_0
+	1806.1.1 = {
+		birth = yes
+	}
+	1860.10.20 = {
+		death = yes
+	}
+}
+
+manghit_2 = {
+	name = "Muzaffar"	# Muzaffar bin Nasrullah
+	dynasty = 2001095
+	religion = ashari
+	culture = turkish
+	father = manghit_1
+	1824.1.1 = {
+		birth = yes
+	}
+	1885.11.4 = {
+		death = yes
+	}
+}
+
+manghit_3 = {
+	name = "Abdul-Ahad"	# Abd al-Ahad Khan
+	dynasty = 2001095
+	religion = ashari
+	culture = turkish
+	father = manghit_2
+	1859.3.26 = {
+		birth = yes
+	}
+	1910.12.23 = {
+		death = yes
+	}
+}
+
+manghit_4 = {
+	name = "Muhammad Alim"	# Sayyid Mir Muhammad Alim Khan
+	dynasty = 2001095
+	religion = ashari
+	culture = turkish
+	father = manghit_3
+	1880.1.3 = {
+		birth = yes
+	}
+	1944.4.28 = {
+		death = yes
+	}
+}

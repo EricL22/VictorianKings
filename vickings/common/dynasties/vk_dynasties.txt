@@ -37,6 +37,21 @@ qajar = {
 	culture = persian
 }
 
+durrani = {
+	name = "dynn_Durrani"
+	culture = afghan
+}
+
+barakzai = {
+	name = "dynn_Barakzai"
+	culture = afghan
+}
+
+ahmadzai = {
+	name = "dynn_Ahmadzai"
+	culture = baloch
+}
+
 arriaga = {
     prefix = "dynnp_de"
     name = "dynn_Arriaga"

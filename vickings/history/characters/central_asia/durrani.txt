@@ -1,0 +1,113 @@
+﻿durrani_0 = {
+	name = "Ahmad"
+	dynasty = durrani
+	religion = ashari
+	culture = afghan
+	1721.1.1 = {
+		birth = yes
+	}
+	1772.10.17 = {
+		death = yes
+	}
+}
+
+durrani_1 = {
+	name = "Timur"
+	dynasty = durrani
+	religion = ashari
+	culture = afghan
+	father = durrani_0
+	1748.1.1 = {
+		birth = yes
+	}
+	1793.5.18 = {
+		death = yes
+	}
+}
+
+durrani_2 = {
+	name = "Zaman"
+	dynasty = durrani
+	religion = ashari
+	culture = afghan
+	father = durrani_1
+	1770.1.1 = {
+		birth = yes
+	}
+	1844.1.1 = {
+		death = yes
+	}
+}
+
+durrani_3 = {
+	name = "Mahmud"
+	dynasty = durrani
+	religion = ashari
+	culture = afghan
+	father = durrani_1
+	1769.1.1 = {
+		birth = yes
+	}
+	1829.4.18 = {
+		death = yes
+	}
+}
+
+durrani_4 = {
+	name = "Shuja"
+	dynasty = durrani
+	religion = ashari
+	culture = afghan
+	father = durrani_1
+	1785.11.4 = {
+		birth = yes
+	}
+	1809.5.3 = {
+		add_pressed_claim = title:k_kabulistan
+	}
+	1842.4.5 = {
+		death = yes
+	}
+}
+
+durrani_5 = {
+	name = "Ali"
+	dynasty = durrani
+	religion = ashari
+	culture = afghan
+	father = durrani_1
+	1780.1.1 = {
+		birth = yes
+	}
+	1819.1.1 = {
+		death = yes
+	}
+}
+
+durrani_6 = {
+	name = "Ayub"
+	dynasty = durrani
+	religion = ashari
+	culture = afghan
+	father = durrani_1
+	1780.1.1 = {
+		birth = yes
+	}
+	1837.10.1 = {
+		death = yes
+	}
+}
+
+durrani_7 = {
+	name = "Kamran Mirza"
+	dynasty = durrani
+	religion = ashari
+	culture = afghan
+	father = durrani_3
+	1790.1.1 = {	# unknown
+		birth = yes
+	}
+	1842.1.1 = {
+		death = yes
+	}
+}

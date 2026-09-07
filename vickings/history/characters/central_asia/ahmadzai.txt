@@ -1,0 +1,97 @@
+﻿## Khans of Kalat
+ahmadzai_0 = {
+	name = "Mahmud"
+	dynasty = ahmadzai
+	religion = ashari
+	culture = baloch
+	1770.1.1 = {
+		birth = yes
+	}
+	1817.1.1 = {
+		death = yes
+	}
+}
+
+ahmadzai_1 = {
+	name = "Mehrab"
+	dynasty = ahmadzai
+	religion = ashari
+	culture = baloch
+	father = ahmadzai_0
+	1790.1.1 = {
+		birth = yes
+	}
+	1839.1.1 = {
+		death = yes
+	}
+}
+
+ahmadzai_2 = {
+	name = "Nasir"
+	dynasty = ahmadzai
+	religion = ashari
+	culture = baloch
+	father = ahmadzai_1
+	1810.1.1 = {
+		birth = yes
+	}
+	1857.1.1 = {
+		death = yes
+	}
+}
+
+ahmadzai_3 = {
+	name = "Khudadad"
+	dynasty = ahmadzai
+	religion = ashari
+	culture = baloch
+	father = ahmadzai_2
+	1841.1.1 = {
+		birth = yes
+	}
+	1893.1.1 = {
+		death = yes
+	}
+}
+
+ahmadzai_4 = {
+	name = "Mahmud"
+	dynasty = ahmadzai
+	religion = ashari
+	culture = baloch
+	father = ahmadzai_3
+	1865.1.1 = {	# unknown
+		birth = yes
+	}
+	1931.11.3 = {
+		death = yes
+	}
+}
+
+ahmadzai_5 = {
+	name = "Mahmud"
+	dynasty = ahmadzai
+	religion = ashari
+	culture = baloch
+	father = ahmadzai_3
+	1870.1.1 = {
+		birth = yes
+	}
+	1933.9.10 = {
+		death = yes
+	}
+}
+
+ahmadzai_6 = {
+	name = "Ahmad"
+	dynasty = ahmadzai
+	religion = ashari
+	culture = baloch
+	father = ahmadzai_5
+	1902.1.1 = {
+		birth = yes
+	}
+	1979.1.1 = {
+		death = yes
+	}
+}

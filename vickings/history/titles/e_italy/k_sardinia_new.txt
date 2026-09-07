@@ -49,8 +49,14 @@ d_corsica = {
 	1830.8.2 = {
 		holder = bourbon_23 # Louis-Phillipe I
 	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
 	1861.1.1 = {
 		de_jure_liege = k_france
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
 	}
 }
 c_ajaccio = {
@@ -66,6 +72,12 @@ c_ajaccio = {
 	1830.8.2 = {
 		holder = bourbon_23 # Louis-Phillipe I
 	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
+	}
 }
 c_bastia = {
 	1804.5.18 = {
@@ -80,6 +92,12 @@ c_bastia = {
 	1830.8.2 = {
 		holder = bourbon_23 # Louis-Phillipe I
 	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
+	}
 }
 c_vecchio = {
 	1804.5.18 = {
@@ -93,6 +111,12 @@ c_vecchio = {
 	}
 	1830.8.2 = {
 		holder = bourbon_23 # Louis-Phillipe I
+	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
 	}
 }
 #d_sardinia = {

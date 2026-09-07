@@ -1,5 +1,6 @@
 ﻿obrenovic_0 = {
 	name = "Visnja Urosevic"
+	dynasty = obrenovic
 	religion = orthodox
 	culture = serbian
 	female = yes
@@ -63,18 +64,6 @@ obrenovic_3 = {
 	father = obrenovic_1
 	1823.9.16 = {
 		birth = yes
-	}
-	1860.9.26 = {
-		effect = {
-			vassal_contract_set_obligation_level = {
-				type = jizya_special_rights
-				level = 1	#jizya_special_rights_granted
-			}
-			vassal_contract_set_obligation_level = {
-				type = special_contract
-				level = 1	#special_contract_scutage
-			}
-		}
 	}
 	1868.6.10 = {
 		death = yes

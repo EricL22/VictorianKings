@@ -1,0 +1,211 @@
+﻿barakzai_0 = {
+	name = "Payandah"
+	dynasty = barakzai
+	religion = ashari
+	culture = afghan
+	1758.1.1 = {
+		birth = yes
+	}
+	1800.10.1 = {
+		death = {
+			death_reason = death_execution
+		}
+	}
+}
+
+barakzai_1 = {
+	name = "Dost Mohammad"
+	dynasty = barakzai
+	religion = ashari
+	culture = afghan
+	father = barakzai_0
+	1792.12.23 = {
+		birth = yes
+	}
+	1863.6.9 = {
+		death = yes
+	}
+}
+
+barakzai_2 = {
+	name = "Wazir Akbar"
+	dynasty = barakzai
+	religion = ashari
+	culture = afghan
+	father = barakzai_1
+	1816.1.1 = {
+		birth = yes
+	}
+	1845.1.1 = {
+		death = yes
+	}
+}
+
+barakzai_3 = {
+	name = "Sher Ali"
+	dynasty = barakzai
+	religion = ashari
+	culture = afghan
+	father = barakzai_1
+	1825.1.1 = {
+		birth = yes
+	}
+	1879.2.21 = {
+		death = yes
+	}
+}
+
+barakzai_4 = {
+	name = "Mohammad Afzal"
+	dynasty = barakzai
+	religion = ashari
+	culture = afghan
+	father = barakzai_1
+	1811.1.1 = {
+		birth = yes
+	}
+	1867.10.7 = {
+		death = yes
+	}
+}
+
+barakzai_5 = {
+	name = "Mohammad Azam"
+	dynasty = barakzai
+	religion = ashari
+	culture = afghan
+	father = barakzai_1
+	1813.1.1 = {
+		birth = yes
+	}
+	1868.2.21 = {
+		death = yes
+	}
+}
+
+barakzai_6 = {
+	name = "Mohammad Yaqub"
+	dynasty = barakzai
+	religion = ashari
+	culture = afghan
+	father = barakzai_3
+	1849.1.1 = {
+		birth = yes
+	}
+	1923.11.15 = {
+		death = yes
+	}
+}
+
+barakzai_7 = {
+	name = "Mohammad Musa"
+	dynasty = barakzai
+	religion = ashari
+	culture = afghan
+	father = barakzai_6
+	1868.1.1 = {
+		birth = yes
+	}
+	1955.1.1 = {
+		death = yes
+	}
+}
+
+barakzai_8 = {
+	name = "Abdur Rahman"
+	dynasty = barakzai
+	religion = ashari
+	culture = afghan
+	father = barakzai_4
+	1844.1.1 = {
+		birth = yes
+	}
+	1901.10.1 = {
+		death = yes
+	}
+}
+
+barakzai_9 = {
+	name = "Habibullah"
+	dynasty = barakzai
+	religion = ashari
+	culture = afghan
+	father = barakzai_8
+	1872.7.2 = {
+		birth = yes
+	}
+	1919.2.20 = {
+		death = yes
+	}
+}
+
+barakzai_10 = {
+	name = "Nasrullah"
+	dynasty = barakzai
+	religion = ashari
+	culture = afghan
+	father = barakzai_8
+	1875.4.7 = {
+		birth = yes
+	}
+	1920.5.31 = {
+		death = yes
+	}
+}
+
+barakzai_11 = {
+	name = "Amanullah"
+	dynasty = barakzai
+	religion = ashari
+	culture = afghan
+	father = barakzai_9
+	1892.6.1 = {
+		birth = yes
+	}
+	1960.4.26 = {
+		death = yes
+	}
+}
+
+## Rulers of Herat
+barakzai_20 = {
+	name = "Mohammad Azim"
+	dynasty = barakzai
+	religion = ashari
+	culture = afghan
+	father = barakzai_0
+	1785.1.1 = {
+		birth = yes
+	}
+	1823.1.1 = {
+		death = yes
+	}
+}
+
+barakzai_21 = {
+	name = "Ahmad"
+	dynasty = barakzai
+	religion = ashari
+	culture = afghan
+	father = barakzai_20
+	1818.1.1 = {
+		birth = yes
+	}
+	1863.3.6 = {
+		death = yes
+	}
+}
+
+barakzai_22 = {
+	name = "Nawaz"
+	dynasty = barakzai
+	religion = ashari
+	culture = afghan
+	father = barakzai_21
+	1840.1.1 = {	# unknown
+		birth = yes
+	}
+	1870.1.1 = {	# unknown
+		death = yes
+	}
+}

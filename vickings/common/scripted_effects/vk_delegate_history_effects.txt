@@ -1,9 +1,9 @@
-﻿# generate governors for administrative governments
+﻿# generate governors for large realms
 auto_generate_vassals_at_game_start_effect = {
 	every_independent_ruler = {
 		limit = {
 			primary_title.tier > tier_duchy
-			has_government = administrative_government
+			realm_size > 20
 		}
 		save_temporary_scope_as = ruler
 		every_realm_de_jure_duchy = {
@@ -56,5 +56,28 @@ clear_personal_union_effect = {
 	remove_list_global_variable = {
 		name = personal_union
 		target = $TITLE$
+	}
+}
+
+# The setup_tributaries_effect is invoked by on_game_start and should make calls to subsequent scripted effects.
+vk_setup_tributaries_effect = {
+   	if = {
+		limit = {
+			current_date = 1861.7.1
+		}
+		base_1861_tributary_setup_effect = yes
+	}
+}
+base_1861_tributary_setup_effect = {
+	character:ottoman_28 = { # Caliph Abdulaziz of the Ottoman Empire
+		save_scope_as = suzerain
+		character:moldavia_2 = { # Prince Alexandru Ioan Cuza of Moldavia and Wallachia
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+			tributary_contract_set_obligation_level = { type = default_tributary_taxes level = 1 }
+		}
+		character:obrenovic_3 = { # Prince Mihailo Obrenović of Serbia
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+			tributary_contract_set_obligation_level = { type = default_tributary_taxes level = 1 }
+		}
 	}
 }

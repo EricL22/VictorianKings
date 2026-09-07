@@ -52,14 +52,6 @@ moldavia_2 = {
 	1820.3.20 = {
 		birth = yes
 	}
-	1859.1.5 = {
-		effect = {
-			vassal_contract_set_obligation_level = {
-				type = jizya_special_rights
-				level = 1	#jizya_special_rights_granted
-			}
-		}
-	}
 	1873.5.15 = {
 		death = yes
 	}

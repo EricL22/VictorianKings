@@ -444,6 +444,7 @@ c_hamburg = {
 	1814.5.30 = {	# Free City of Hamburg
 		holder = hamburg_0	# Friedrich von Graffen
 		liege = 0
+		government = republic_government
 	}
 	1820.3.25 = {
 		holder = hamburg_1	# Johann Heinrich Bartels
@@ -542,6 +543,7 @@ c_lubeck = {
 	1814.5.30 = {	# Free City of Lübeck
 		holder = lubeck_0	# Christian Adolph Overbeck
 		liege = 0
+		government = republic_government
 	}
 	1821.3.9 = {
 		holder = lubeck_1	# Christian Heinrich Kindler
