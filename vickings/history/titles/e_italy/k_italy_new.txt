@@ -7,6 +7,40 @@ k_italy = {
 	}
 	1861.3.17 = {
 		holder = savoy_26	# Vittorio Emanuele II
+		government = administrative_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					holder = { has_government = administrative_government }
+				}
+				set_state_faith = faith:protestant
+				holder = {
+					add_realm_law_skip_effects = single_heir_succession_law
+					add_realm_law_skip_effects = imperial_bureaucracy_1
+				}
+			}
+			if = {
+				limit = {
+					exists = holder
+					has_dlc_feature = royal_court
+				}
+				holder = {
+					set_court_type = court_administrative
+				}
+			}
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+					add_realm_law_skip_effects = single_heir_succession_law
+					add_realm_law_skip_effects = crown_authority_1
+				}
+			}
+		}
 	}
 	1870.10.9 = {
 		effect = { set_capital_county = title:c_roma }
@@ -181,6 +215,9 @@ d_piedmonte = {
 	}
 	1849.3.23 = {
 		holder = savoy_26	# Vittorio Emanuele II
+	}
+	1861.3.17 = {
+		de_jure_liege = k_italy
 	}
 	1878.1.9 = {
 		holder = savoy_28	# Umberto I
@@ -517,6 +554,9 @@ c_tortona = {
 d_genoa = {
 	1815.6.9 = {
 		de_jure_liege = k_sardinia
+	}
+	1861.3.17 = {
+		de_jure_liege = k_italy
 	}
 }
 c_genoa = {

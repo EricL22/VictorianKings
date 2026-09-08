@@ -379,6 +379,20 @@ hohenzollern_22 = {
 	}
 }
 
+hohenzollern_23 = {
+	name = "Wilhelm"	# Crown Prince of Germany
+	dynasty = 12476
+	religion = protestant
+	culture = german
+	father = hohenzollern_20
+	1882.5.6 = {
+		birth = yes
+	}
+	1951.7.20 = {
+		death = yes
+	}
+}
+
 
 ## Catholic Swabian branch
 hohenzollern_30 = {

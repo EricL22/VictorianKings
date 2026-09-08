@@ -1,6 +1,8 @@
 TODOs:
 semi-salic succession law - LOCKS allowed gender laws to male-only or male-preference. if your character inherits a title with no dynastic heir on a male-only gender law, it automatically switches to male-preference until another male heir inherits. in the case of your heir dying leaving with you no dynastic heir, that is the ONLY instance you are allowed to change gender laws manually to male-preference, which is otherwise unselectable.
 Republics: Hamburg, Lubeck, France (1914), Portugal (1914)
+Avanti Italia/Italia Irredenta decision: shifts all completely controlled de jure duchies of e_italy into k_italy (repeatable as long as such duchies exist)
+Italian cultures may not create e_italy if they have discovered Nationalism innovation and exists de jure duchies in e_italy that do not belong to k_italy
 
 
 

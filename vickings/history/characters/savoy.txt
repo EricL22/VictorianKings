@@ -431,6 +431,9 @@ savoy_29 = {
 	1869.11.11 = {
 		birth = yes
 	}
+	1900.7.29 = {
+		set_realm_capital = title:c_roma
+	}
 	1947.12.28 = {
 		death = yes
 	}

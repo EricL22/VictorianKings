@@ -59,7 +59,7 @@ c_tao = {
 	}
 }
 c_klarjeti = {
-	1808.7.28 = {
+	1808.7.28 = {	# Ottomans
 		holder = ottoman_26	# Mahmud II
 	}
 	1839.7.1 = {
@@ -74,8 +74,14 @@ c_klarjeti = {
 	1876.8.31 = {
 		holder = ottoman_30	# Abdul Hamid II
 	}
-	1909.4.27 = {
-		holder = ottoman_31	# Mehmed V
+	1878.3.3 = {	# Russia
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
 	}
 }
 c_kartli = {

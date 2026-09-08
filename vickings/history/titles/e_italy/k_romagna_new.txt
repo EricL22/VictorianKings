@@ -285,7 +285,7 @@ c_fermo = {
 	}
 }
 d_spoleto = {
-	1860.12.17 = {
+	1861.3.17 = {
 		de_jure_liege = k_italy
 	}
 }

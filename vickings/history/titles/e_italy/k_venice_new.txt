@@ -33,6 +33,7 @@ d_venice = {
 	}
 	1866.10.3 = {	# Italy
 		holder = savoy_26	# Vittorio Emanuele II
+		de_jure_liege = k_italy
 	}
 	1878.1.9 = {
 		holder = savoy_28	# Umberto I

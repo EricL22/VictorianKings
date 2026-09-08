@@ -236,13 +236,19 @@ d_bugeac = {
 	}
 }
 c_tigheci = {
-	1812.1.1 = {
+	1812.1.1 = {	# Russia
 		holder = romanov_6	# Alexander I
 	}
 	1825.12.1 = {
 		holder = romanov_8	# Nicholas I
 	}
 	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1859.1.5 = {	# Moldavia
+		holder = moldavia_2	# Alexandru Ioan Cuza
+	}
+	1878.3.3 = {	# Russia
 		holder = romanov_9	# Alexander II
 	}
 	1881.3.13 = {
@@ -270,13 +276,19 @@ c_cetatea_alba = {
 	}
 }
 c_chilia = {
-	1812.1.1 = {
+	1812.1.1 = {	# Russia
 		holder = romanov_6	# Alexander I
 	}
 	1825.12.1 = {
 		holder = romanov_8	# Nicholas I
 	}
 	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1859.1.5 = {	# Moldavia
+		holder = moldavia_2	# Alexandru Ioan Cuza
+	}
+	1878.3.3 = {	# Russia
 		holder = romanov_9	# Alexander II
 	}
 	1881.3.13 = {

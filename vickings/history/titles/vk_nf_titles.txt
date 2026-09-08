@@ -450,6 +450,31 @@ d_nf_habsburg = {
 	}
 }
 
+d_nf_carignano = {
+	1861.3.17 = {
+		liege = k_italy
+		holder = savoy_26	# Vittorio Emanuele II
+		government = administrative_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1861.7.1 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1861.7.1 }
+		}
+	}
+	1900.7.29 = {
+		liege = k_italy
+		holder = savoy_29	# Vittorio Emanuele III
+		government = administrative_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1914.7.28 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1914.7.28 }
+		}
+	}
+}
+
 ### OTHER HISTORICAL CHARACTERS
 
 d_nf_berryer = {

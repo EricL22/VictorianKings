@@ -29,11 +29,8 @@ k_sardinia = {
 	1849.3.23 = {
 		holder = savoy_26	# Vittorio Emanuele II
 	}
-	1878.1.9 = {
-		holder = savoy_28	# Umberto I
-	}
-	1900.7.29 = {
-		holder = savoy_29	# Vittorio Emanuele III
+	1861.3.17 = {
+		holder = 0
 	}
 }
 d_corsica = {
@@ -119,8 +116,11 @@ c_vecchio = {
 		holder = eur_01500	# Raymond Poincaré
 	}
 }
-#d_sardinia = {
-#}
+d_sardinia = {
+	1861.3.17 = {
+		de_jure_liege = k_italy
+	}
+}
 c_cagliari = {
 	1802.6.4 = {
 		holder = savoy_18
