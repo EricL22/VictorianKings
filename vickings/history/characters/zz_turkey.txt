@@ -100,3 +100,17 @@ wallachia_1 = {
 		death = yes
 	}
 }
+
+
+libya_0 = {
+	name = "Yusuf"
+	dynasty = 12108
+	religion = ashari
+	culture = turkish
+	1766.1.1 = {
+		birth = yes
+	}
+	1838.1.1 = {
+		death = yes
+	}
+}

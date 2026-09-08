@@ -1,0 +1,159 @@
+﻿alawiyya_0 = {
+	name = "Muhammad Ali"
+	dynasty = alawiyya
+	religion = ashari
+	culture = egyptian
+	trait = brave
+	trait = ambitious
+	trait = gregarious
+	trait = education_martial_3
+	1769.3.4 = {
+		birth = yes
+	}
+	1805.5.17 = {
+		effect = {
+			add_realm_law_skip_effects = single_heir_dynasty_house
+			add_realm_law_skip_effects = crown_authority_2
+		}
+	}
+	1849.8.2 = {
+		death = yes
+	}
+}
+
+alawiyya_1 = {
+	name = "Ibrahim"
+	dynasty = alawiyya
+	religion = ashari
+	culture = egyptian
+	father = alawiyya_0
+	1789.1.1 = {
+		birth = yes
+	}
+	1848.11.10 = {
+		death = yes
+	}
+}
+
+alawiyya_2 = {
+	name = "Tusun"
+	dynasty = alawiyya
+	religion = ashari
+	culture = egyptian
+	father = alawiyya_0
+	1794.1.1 = {
+		birth = yes
+	}
+	1816.9.28 = {
+		death = yes
+	}
+}
+
+alawiyya_3 = {
+	name = "Abbas"
+	dynasty = alawiyya
+	religion = ashari
+	culture = egyptian
+	father = alawiyya_2
+	1812.7.1 = {
+		birth = yes
+	}
+	1854.7.13 = {
+		death = yes
+	}
+}
+
+alawiyya_4 = {
+	name = "Sa'id"
+	dynasty = alawiyya
+	religion = ashari
+	culture = egyptian
+	father = alawiyya_0
+	1822.3.17 = {
+		birth = yes
+	}
+	1854.7.13 = {
+		effect = {
+			add_realm_law_skip_effects = single_heir_dynasty_house
+			add_realm_law_skip_effects = crown_authority_1
+		}
+	}
+	1863.1.17 = {
+		death = yes
+	}
+}
+
+alawiyya_5 = {
+	name = "Isma'il"
+	dynasty = alawiyya
+	religion = ashari
+	culture = egyptian
+	father = alawiyya_1
+	1830.12.31 = {
+		birth = yes
+	}
+	1895.3.2 = {
+		death = yes
+	}
+}
+
+alawiyya_6 = {
+	name = "Tawfiq"
+	dynasty = alawiyya
+	religion = ashari
+	culture = egyptian
+	father = alawiyya_5
+	1852.11.15 = {
+		birth = yes
+	}
+	1892.1.7 = {
+		death = yes
+	}
+}
+
+alawiyya_7 = {
+	name = "Abbas"
+	dynasty = alawiyya
+	religion = ashari
+	culture = egyptian
+	father = alawiyya_6
+	1874.7.14 = {
+		birth = yes
+	}
+	1892.1.8 = {
+		effect = {
+			add_realm_law_skip_effects = single_heir_succession_law
+		}
+	}
+	1944.12.19 = {
+		death = yes
+	}
+}
+
+alawiyya_8 = {
+	name = "Hussein Kamel"
+	dynasty = alawiyya
+	religion = ashari
+	culture = egyptian
+	father = alawiyya_5
+	1853.11.21 = {
+		birth = yes
+	}
+	1917.10.9 = {
+		death = yes
+	}
+}
+
+alawiyya_9 = {
+	name = "Fuad"
+	dynasty = alawiyya
+	religion = ashari
+	culture = egyptian
+	father = alawiyya_5
+	1868.3.26 = {
+		birth = yes
+	}
+	1936.4.28 = {
+		death = yes
+	}
+}

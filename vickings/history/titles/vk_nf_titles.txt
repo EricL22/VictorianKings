@@ -631,3 +631,30 @@ d_nf_guizot = {
 		holder = 0
 	}
 }
+
+d_nf_metternich = {
+	1809.10.8 = {	# historically 1813, given earlier for gameplay purposes
+		liege = e_austria
+		holder = eur_06100	# Klemens von Metternich
+		government = administrative_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1812.7.5 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1812.7.5 }
+		}
+	}
+	1815.7.8 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1815.7.8 }
+		}
+	}
+	1836.1.1 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1836.1.1 }
+		}
+	}
+	1859.6.11 = {
+		holder = 0
+	}
+}

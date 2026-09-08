@@ -61,7 +61,6 @@ e_austria = {
 
 e_turkey = {
 	1300.1.1 = {
-		government = clan_government
 		name = OTTOMANEMP
 	}
 	1453.5.29 = {

@@ -5,6 +5,7 @@
 # PORTUGAL         #
 # POLAND           #
 # ALBANIA          #
+# AUSTRIA          #
 # SWITZERLAND      #
 ####################
 
@@ -614,6 +615,35 @@ eur_05500 = {
 		birth = yes
 	}
 	1945.4.18 = {
+		death = yes
+	}
+}
+####################
+
+
+
+####################
+# AUSTRIA #
+####################
+# 1812 bookmark
+eur_06100 = {
+	name = "Klemens"
+	dynasty = metternich
+	culture = bavarian
+	religion = catholic
+	trait = education_diplomacy_4
+	1778.5.15 = {
+		birth = yes
+	}
+	1809.10.8 = {
+		employer = habsburg_20	# Francis I
+		give_council_position = councillor_chancellor
+	}
+	1835.3.2 = {
+		employer = habsburg_21	# Ferdinand I
+		give_council_position = councillor_chancellor
+	}
+	1859.6.11 = {
 		death = yes
 	}
 }

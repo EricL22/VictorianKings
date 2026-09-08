@@ -8,7 +8,7 @@ d_krete = {
 		holder = ottoman_26	# Mahmud II
 	}
 	1826.8.28 = {	# Egypt
-		#liege = k_egypt
+		holder = alawiyya_0	# Muhammad Ali
 	}
 	1840.11.25 = {	# Ottomans
 		holder = ottoman_27	# Abdul Mejid I
@@ -34,7 +34,7 @@ c_chandax = {
 		holder = ottoman_26	# Mahmud II
 	}
 	1826.8.28 = {	# Egypt
-		#liege = k_egypt
+		holder = alawiyya_0	# Muhammad Ali
 	}
 	1840.11.25 = {	# Ottomans
 		holder = ottoman_27	# Abdul Mejid I
@@ -60,7 +60,7 @@ c_chania = {
 		holder = ottoman_26	# Mahmud II
 	}
 	1826.8.28 = {	# Egypt
-		#liege = k_egypt
+		holder = alawiyya_0	# Muhammad Ali
 	}
 	1840.11.25 = {	# Ottomans
 		holder = ottoman_27	# Abdul Mejid I

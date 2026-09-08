@@ -52,6 +52,11 @@ ahmadzai = {
 	culture = baloch
 }
 
+alawiyya = {
+	name = "dynn_Alawiyya"
+	culture = egyptian
+}
+
 arriaga = {
     prefix = "dynnp_de"
     name = "dynn_Arriaga"

@@ -1,107 +1,9 @@
-k_anatolia = {
+k_syria = {
 	1600.1.1 = {
 		de_jure_liege = e_turkey
 	}
-	1808.7.28 = {
-		holder = ottoman_26	# Mahmud II
-	}
-	1839.7.1 = {
-		holder = ottoman_27	# Abdul Mejid I
-	}
-	1861.6.25 = {
-		holder = ottoman_28	# Abdulaziz
-	}
-	1876.5.30 = {
-		holder = ottoman_29	# Murad V
-	}
-	1876.8.31 = {
-		holder = ottoman_30	# Abdul Hamid II
-	}
-	1909.4.27 = {
-		holder = ottoman_31	# Mehmed V
-	}
 }
-d_cilicia = {
-	1808.7.28 = {
-		holder = ottoman_26	# Mahmud II
-	}
-	1839.7.1 = {
-		holder = ottoman_27	# Abdul Mejid I
-	}
-	1861.6.25 = {
-		holder = ottoman_28	# Abdulaziz
-	}
-	1876.5.30 = {
-		holder = ottoman_29	# Murad V
-	}
-	1876.8.31 = {
-		holder = ottoman_30	# Abdul Hamid II
-	}
-	1909.4.27 = {
-		holder = ottoman_31	# Mehmed V
-	}
-}
-c_cilicia = {
-	1808.7.28 = {
-		holder = ottoman_26	# Mahmud II
-	}
-	1839.7.1 = {
-		holder = ottoman_27	# Abdul Mejid I
-	}
-	1861.6.25 = {
-		holder = ottoman_28	# Abdulaziz
-	}
-	1876.5.30 = {
-		holder = ottoman_29	# Murad V
-	}
-	1876.8.31 = {
-		holder = ottoman_30	# Abdul Hamid II
-	}
-	1909.4.27 = {
-		holder = ottoman_31	# Mehmed V
-	}
-}
-c_seleucia = {
-	1808.7.28 = {
-		holder = ottoman_26	# Mahmud II
-	}
-	1839.7.1 = {
-		holder = ottoman_27	# Abdul Mejid I
-	}
-	1861.6.25 = {
-		holder = ottoman_28	# Abdulaziz
-	}
-	1876.5.30 = {
-		holder = ottoman_29	# Murad V
-	}
-	1876.8.31 = {
-		holder = ottoman_30	# Abdul Hamid II
-	}
-	1909.4.27 = {
-		holder = ottoman_31	# Mehmed V
-	}
-}
-c_lycandus = {
-	1808.7.28 = {
-		holder = ottoman_26	# Mahmud II
-	}
-	1839.7.1 = {
-		holder = ottoman_27	# Abdul Mejid I
-	}
-	1861.6.25 = {
-		holder = ottoman_28	# Abdulaziz
-	}
-	1876.5.30 = {
-		holder = ottoman_29	# Murad V
-	}
-	1876.8.31 = {
-		holder = ottoman_30	# Abdul Hamid II
-	}
-	1909.4.27 = {
-		holder = ottoman_31	# Mehmed V
-	}
-}
-c_tall_hamid = {
+d_aleppo = {
 	1808.7.28 = {	# Ottomans
 		holder = ottoman_26	# Mahmud II
 	}
@@ -124,7 +26,53 @@ c_tall_hamid = {
 		holder = ottoman_31	# Mehmed V
 	}
 }
-d_cibyrrhaeot = {
+c_aleppo = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1833.5.6 = {	# Egypt
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1840.11.27 = {	# Ottomans
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+}
+c_suriya = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1833.5.6 = {	# Egypt
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1840.11.27 = {	# Ottomans
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+}
+c_syrrusafa = {
 	1808.7.28 = {
 		holder = ottoman_26	# Mahmud II
 	}
@@ -144,7 +92,30 @@ d_cibyrrhaeot = {
 		holder = ottoman_31	# Mehmed V
 	}
 }
-c_lycia = {
+c_qinnasrin = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1833.5.6 = {	# Egypt
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1840.11.27 = {	# Ottomans
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+}
+d_edessa = {
 	1808.7.28 = {
 		holder = ottoman_26	# Mahmud II
 	}
@@ -164,7 +135,7 @@ c_lycia = {
 		holder = ottoman_31	# Mehmed V
 	}
 }
-c_caria = {
+c_edessa = {
 	1808.7.28 = {
 		holder = ottoman_26	# Mahmud II
 	}
@@ -184,7 +155,7 @@ c_caria = {
 		holder = ottoman_31	# Mehmed V
 	}
 }
-c_pamphylia = {
+c_samosata = {
 	1808.7.28 = {
 		holder = ottoman_26	# Mahmud II
 	}
@@ -204,12 +175,7 @@ c_pamphylia = {
 		holder = ottoman_31	# Mehmed V
 	}
 }
-d_anatolia = {
-	1800.1.1 = {
-		de_jure_liege = k_anatolia
-	}
-}
-c_lycaonia = {
+c_marash = {
 	1808.7.28 = {
 		holder = ottoman_26	# Mahmud II
 	}
@@ -229,7 +195,421 @@ c_lycaonia = {
 		holder = ottoman_31	# Mehmed V
 	}
 }
-c_pacatiana = {
+c_aintab = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1833.5.6 = {	# Egypt
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1840.11.27 = {	# Ottomans
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+}
+d_homs = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1833.5.6 = {	# Egypt
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1840.11.27 = {	# Ottomans
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+}
+c_homs = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1833.5.6 = {	# Egypt
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1840.11.27 = {	# Ottomans
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+}
+c_shayzar = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1833.5.6 = {	# Egypt
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1840.11.27 = {	# Ottomans
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+}
+c_hama = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1833.5.6 = {	# Egypt
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1840.11.27 = {	# Ottomans
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+}
+d_antioch = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1833.5.6 = {	# Egypt
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1840.11.27 = {	# Ottomans
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+}
+c_antiocheia = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1833.5.6 = {	# Egypt
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1840.11.27 = {	# Ottomans
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+}
+c_alexandretta = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1833.5.6 = {	# Egypt
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1840.11.27 = {	# Ottomans
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+}
+d_lebanon = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1833.5.6 = {	# Egypt
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1840.11.27 = {	# Ottomans
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+}
+c_beirut = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1833.5.6 = {	# Egypt
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1840.11.27 = {	# Ottomans
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+}
+c_tripoli = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1833.5.6 = {	# Egypt
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1840.11.27 = {	# Ottomans
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+}
+d_damascus = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1833.5.6 = {	# Egypt
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1840.11.27 = {	# Ottomans
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+}
+c_damascus = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1833.5.6 = {	# Egypt
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1840.11.27 = {	# Ottomans
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+}
+c_juwair = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1833.5.6 = {	# Egypt
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1840.11.27 = {	# Ottomans
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+}
+c_baalbek = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1833.5.6 = {	# Egypt
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1840.11.27 = {	# Ottomans
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+}
+c_hauran = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1833.5.6 = {	# Egypt
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1840.11.27 = {	# Ottomans
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+}
+d_palmyra = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1833.5.6 = {	# Egypt
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1840.11.27 = {	# Ottomans
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+}
+c_palmyra = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1833.5.6 = {	# Egypt
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1840.11.27 = {	# Ottomans
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+}
+c_sukhna = {
 	1808.7.28 = {
 		holder = ottoman_26	# Mahmud II
 	}
@@ -249,233 +629,14 @@ c_pacatiana = {
 		holder = ottoman_31	# Mehmed V
 	}
 }
-c_pisidia = {
-	1808.7.28 = {
+c_qaryatan = {
+	1808.7.28 = {	# Ottomans
 		holder = ottoman_26	# Mahmud II
 	}
-	1839.7.1 = {
-		holder = ottoman_27	# Abdul Mejid I
+	1833.5.6 = {	# Egypt
+		holder = alawiyya_0	# Muhammad Ali
 	}
-	1861.6.25 = {
-		holder = ottoman_28	# Abdulaziz
-	}
-	1876.5.30 = {
-		holder = ottoman_29	# Murad V
-	}
-	1876.8.31 = {
-		holder = ottoman_30	# Abdul Hamid II
-	}
-	1909.4.27 = {
-		holder = ottoman_31	# Mehmed V
-	}
-}
-c_selge = {
-	1808.7.28 = {
-		holder = ottoman_26	# Mahmud II
-	}
-	1839.7.1 = {
-		holder = ottoman_27	# Abdul Mejid I
-	}
-	1861.6.25 = {
-		holder = ottoman_28	# Abdulaziz
-	}
-	1876.5.30 = {
-		holder = ottoman_29	# Murad V
-	}
-	1876.8.31 = {
-		holder = ottoman_30	# Abdul Hamid II
-	}
-	1909.4.27 = {
-		holder = ottoman_31	# Mehmed V
-	}
-}
-c_galatia_salutaris = {
-	1808.7.28 = {
-		holder = ottoman_26	# Mahmud II
-	}
-	1839.7.1 = {
-		holder = ottoman_27	# Abdul Mejid I
-	}
-	1861.6.25 = {
-		holder = ottoman_28	# Abdulaziz
-	}
-	1876.5.30 = {
-		holder = ottoman_29	# Murad V
-	}
-	1876.8.31 = {
-		holder = ottoman_30	# Abdul Hamid II
-	}
-	1909.4.27 = {
-		holder = ottoman_31	# Mehmed V
-	}
-}
-c_philomelium = {
-	1808.7.28 = {
-		holder = ottoman_26	# Mahmud II
-	}
-	1839.7.1 = {
-		holder = ottoman_27	# Abdul Mejid I
-	}
-	1861.6.25 = {
-		holder = ottoman_28	# Abdulaziz
-	}
-	1876.5.30 = {
-		holder = ottoman_29	# Murad V
-	}
-	1876.8.31 = {
-		holder = ottoman_30	# Abdul Hamid II
-	}
-	1909.4.27 = {
-		holder = ottoman_31	# Mehmed V
-	}
-}
-c_isauria = {
-	1808.7.28 = {
-		holder = ottoman_26	# Mahmud II
-	}
-	1839.7.1 = {
-		holder = ottoman_27	# Abdul Mejid I
-	}
-	1861.6.25 = {
-		holder = ottoman_28	# Abdulaziz
-	}
-	1876.5.30 = {
-		holder = ottoman_29	# Murad V
-	}
-	1876.8.31 = {
-		holder = ottoman_30	# Abdul Hamid II
-	}
-	1909.4.27 = {
-		holder = ottoman_31	# Mehmed V
-	}
-}
-d_cappadocia = {
-	1808.7.28 = {
-		holder = ottoman_26	# Mahmud II
-		de_jure_liege = k_anatolia
-	}
-	1839.7.1 = {
-		holder = ottoman_27	# Abdul Mejid I
-	}
-	1861.6.25 = {
-		holder = ottoman_28	# Abdulaziz
-	}
-	1876.5.30 = {
-		holder = ottoman_29	# Murad V
-	}
-	1876.8.31 = {
-		holder = ottoman_30	# Abdul Hamid II
-	}
-	1909.4.27 = {
-		holder = ottoman_31	# Mehmed V
-	}
-}
-c_cappadocia = {
-	1808.7.28 = {
-		holder = ottoman_26	# Mahmud II
-	}
-	1839.7.1 = {
-		holder = ottoman_27	# Abdul Mejid I
-	}
-	1861.6.25 = {
-		holder = ottoman_28	# Abdulaziz
-	}
-	1876.5.30 = {
-		holder = ottoman_29	# Murad V
-	}
-	1876.8.31 = {
-		holder = ottoman_30	# Abdul Hamid II
-	}
-	1909.4.27 = {
-		holder = ottoman_31	# Mehmed V
-	}
-}
-c_lower_galatia = {
-	1808.7.28 = {
-		holder = ottoman_26	# Mahmud II
-	}
-	1839.7.1 = {
-		holder = ottoman_27	# Abdul Mejid I
-	}
-	1861.6.25 = {
-		holder = ottoman_28	# Abdulaziz
-	}
-	1876.5.30 = {
-		holder = ottoman_29	# Murad V
-	}
-	1876.8.31 = {
-		holder = ottoman_30	# Abdul Hamid II
-	}
-	1909.4.27 = {
-		holder = ottoman_31	# Mehmed V
-	}
-}
-d_charsianon = {
-	1808.7.28 = {
-		holder = ottoman_26	# Mahmud II
-		de_jure_liege = k_anatolia
-	}
-	1839.7.1 = {
-		holder = ottoman_27	# Abdul Mejid I
-	}
-	1861.6.25 = {
-		holder = ottoman_28	# Abdulaziz
-	}
-	1876.5.30 = {
-		holder = ottoman_29	# Murad V
-	}
-	1876.8.31 = {
-		holder = ottoman_30	# Abdul Hamid II
-	}
-	1909.4.27 = {
-		holder = ottoman_31	# Mehmed V
-	}
-}
-c_charsianon = {
-	1808.7.28 = {
-		holder = ottoman_26	# Mahmud II
-	}
-	1839.7.1 = {
-		holder = ottoman_27	# Abdul Mejid I
-	}
-	1861.6.25 = {
-		holder = ottoman_28	# Abdulaziz
-	}
-	1876.5.30 = {
-		holder = ottoman_29	# Murad V
-	}
-	1876.8.31 = {
-		holder = ottoman_30	# Abdul Hamid II
-	}
-	1909.4.27 = {
-		holder = ottoman_31	# Mehmed V
-	}
-}
-c_kaisereia = {
-	1808.7.28 = {
-		holder = ottoman_26	# Mahmud II
-	}
-	1839.7.1 = {
-		holder = ottoman_27	# Abdul Mejid I
-	}
-	1861.6.25 = {
-		holder = ottoman_28	# Abdulaziz
-	}
-	1876.5.30 = {
-		holder = ottoman_29	# Murad V
-	}
-	1876.8.31 = {
-		holder = ottoman_30	# Abdul Hamid II
-	}
-	1909.4.27 = {
-		holder = ottoman_31	# Mehmed V
-	}
-}
-c_kyzistra = {
-	1808.7.28 = {
-		holder = ottoman_26	# Mahmud II
-	}
-	1839.7.1 = {
+	1840.11.27 = {	# Ottomans
 		holder = ottoman_27	# Abdul Mejid I
 	}
 	1861.6.25 = {

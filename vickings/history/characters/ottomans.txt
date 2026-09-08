@@ -464,6 +464,12 @@ ottoman_28 = {
 	1830.2.8 = {
 		birth = yes
 	}
+	1861.6.25 = {
+		effect = {
+			add_realm_law_skip_effects = single_heir_dynasty_house
+			add_realm_law_skip_effects = crown_authority_2
+		}
+	}
 	1876.6.4 = {
 		death = yes
 	}
@@ -505,6 +511,11 @@ ottoman_31 = {
 	father = ottoman_27
 	1844.11.2 = {
 		birth = yes
+	}
+	1909.4.27 = {
+		effect = {
+			add_realm_law_skip_effects = single_heir_dynasty_house
+		}
 	}
 	1918.7.3 = {
 		death = yes

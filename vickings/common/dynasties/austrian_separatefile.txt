@@ -1,0 +1,67 @@
+chotkow = {
+    prefix = "dynnp_von"
+    name = "dynn_Chotkow"
+    culture = "bavarian"
+}
+
+goess = {
+    prefix = "dynnp_von"
+    name = "dynn_Goess"
+    culture = "bavarian"
+}
+
+hauer = {
+    prefix = "dynnp_von"
+    name = "dynn_Hauer"
+    culture = "bavarian"
+}
+
+tomasic = {
+    name = "dynn_Tomasic"
+    culture = "croatian"
+}
+
+lilienberg = {
+    prefix = "dynnp_von"
+    name = "dynn_Lilienberg"
+    culture = "bavarian"
+}
+
+reuss_plauen = {
+    name = "dynn_Reuss_Plauen"
+    culture = "bavarian"
+}
+
+bellegarde  = {
+    prefix = "dynnp_von"
+    name = "dynn_Bellegarde"
+    culture = "bavarian"
+}
+
+gyulay = {
+    prefix = "dynnp_von"
+    name = "dynn_Gyulay"
+    culture = "hungarian"
+}
+
+vlasic = {
+    name = "dynn_Vlasic"
+    culture = "croatian"
+}
+
+banffy = {
+    name = "dynn_Banffy"
+    culture = "hungarian"
+}
+
+kolowrat = {
+    prefix = "dynnp_von"
+    name = "dynn_Kolowrat"
+    culture = "bavarian"
+}
+
+metternich = {
+    prefix = "dynnp_von"
+    name = "dynn_Metternich"
+    culture = "bavarian"
+}

@@ -1,0 +1,807 @@
+k_egypt = {
+	1805.5.17 = {
+		holder = alawiyya_0	# Muhammad Ali
+		liege = e_turkey
+	}
+	1833.5.6 = {
+		liege = 0
+	}
+	1848.7.20 = {
+		holder = alawiyya_1	# Ibrahim
+	}
+	1848.11.10 = {
+		holder = alawiyya_3	# Abbas I
+	}
+	1854.7.13 = {
+		holder = alawiyya_4	# Sa'id
+	}
+	1863.1.19 = {
+		holder = alawiyya_5	# Isma'il
+	}
+	1879.6.26 = {
+		holder = alawiyya_6	# Tewfik
+	}
+	1892.1.8 = {
+		holder = alawiyya_7	# Abbas II
+	}
+}
+d_cyrenaica = {
+	1805.5.17 = {
+		holder = 0
+	}
+}
+c_barqa = {
+	1795.6.11 = {	# Ottomans
+		holder = libya_0	# Yusuf Karamanli
+	}
+	1835.5.26 = {
+		holder = ottoman_26	# Mahmud II
+	}
+	1839.7.1 = {
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+	1912.10.18 = {	# Italy
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_awjila = {
+	1795.6.11 = {	# Ottomans
+		holder = libya_0	# Yusuf Karamanli
+	}
+	1835.5.26 = {
+		holder = ottoman_26	# Mahmud II
+	}
+	1839.7.1 = {
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+	1912.10.18 = {	# Italy
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_derna = {
+	1795.6.11 = {	# Ottomans
+		holder = libya_0	# Yusuf Karamanli
+	}
+	1835.5.26 = {
+		holder = ottoman_26	# Mahmud II
+	}
+	1839.7.1 = {
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+	1912.10.18 = {	# Italy
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_tobruk = {
+	1795.6.11 = {	# Ottomans
+		holder = libya_0	# Yusuf Karamanli
+	}
+	1835.5.26 = {
+		holder = ottoman_26	# Mahmud II
+	}
+	1839.7.1 = {
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+	1912.10.18 = {	# Italy
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+d_alexandria = {
+	1805.5.17 = {
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1848.7.20 = {
+		holder = alawiyya_1	# Ibrahim
+	}
+	1848.11.10 = {
+		holder = alawiyya_3	# Abbas I
+	}
+	1854.7.13 = {
+		holder = alawiyya_4	# Sa'id
+	}
+	1863.1.19 = {
+		holder = alawiyya_5	# Isma'il
+	}
+	1879.6.26 = {
+		holder = alawiyya_6	# Tewfik
+	}
+	1892.1.8 = {
+		holder = alawiyya_7	# Abbas II
+	}
+}
+c_alexandria = {
+	1805.5.17 = {
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1848.7.20 = {
+		holder = alawiyya_1	# Ibrahim
+	}
+	1848.11.10 = {
+		holder = alawiyya_3	# Abbas I
+	}
+	1854.7.13 = {
+		holder = alawiyya_4	# Sa'id
+	}
+	1863.1.19 = {
+		holder = alawiyya_5	# Isma'il
+	}
+	1879.6.26 = {
+		holder = alawiyya_6	# Tewfik
+	}
+	1892.1.8 = {
+		holder = alawiyya_7	# Abbas II
+	}
+}
+c_sullum = {
+	1805.5.17 = {
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1848.7.20 = {
+		holder = alawiyya_1	# Ibrahim
+	}
+	1848.11.10 = {
+		holder = alawiyya_3	# Abbas I
+	}
+	1854.7.13 = {
+		holder = alawiyya_4	# Sa'id
+	}
+	1863.1.19 = {
+		holder = alawiyya_5	# Isma'il
+	}
+	1879.6.26 = {
+		holder = alawiyya_6	# Tewfik
+	}
+	1892.1.8 = {
+		holder = alawiyya_7	# Abbas II
+	}
+}
+c_siwa = {
+	1805.5.17 = {
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1848.7.20 = {
+		holder = alawiyya_1	# Ibrahim
+	}
+	1848.11.10 = {
+		holder = alawiyya_3	# Abbas I
+	}
+	1854.7.13 = {
+		holder = alawiyya_4	# Sa'id
+	}
+	1863.1.19 = {
+		holder = alawiyya_5	# Isma'il
+	}
+	1879.6.26 = {
+		holder = alawiyya_6	# Tewfik
+	}
+	1892.1.8 = {
+		holder = alawiyya_7	# Abbas II
+	}
+}
+#d_delta = {
+#}
+c_damietta = {
+	1805.5.17 = {
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1848.7.20 = {
+		holder = alawiyya_1	# Ibrahim
+	}
+	1848.11.10 = {
+		holder = alawiyya_3	# Abbas I
+	}
+	1854.7.13 = {
+		holder = alawiyya_4	# Sa'id
+	}
+	1863.1.19 = {
+		holder = alawiyya_5	# Isma'il
+	}
+	1879.6.26 = {
+		holder = alawiyya_6	# Tewfik
+	}
+	1892.1.8 = {
+		holder = alawiyya_7	# Abbas II
+	}
+}
+c_al-buhaira = {
+	1805.5.17 = {
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1848.7.20 = {
+		holder = alawiyya_1	# Ibrahim
+	}
+	1848.11.10 = {
+		holder = alawiyya_3	# Abbas I
+	}
+	1854.7.13 = {
+		holder = alawiyya_4	# Sa'id
+	}
+	1863.1.19 = {
+		holder = alawiyya_5	# Isma'il
+	}
+	1879.6.26 = {
+		holder = alawiyya_6	# Tewfik
+	}
+	1892.1.8 = {
+		holder = alawiyya_7	# Abbas II
+	}
+}
+c_al-gharbiya = {
+	1805.5.17 = {
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1848.7.20 = {
+		holder = alawiyya_1	# Ibrahim
+	}
+	1848.11.10 = {
+		holder = alawiyya_3	# Abbas I
+	}
+	1854.7.13 = {
+		holder = alawiyya_4	# Sa'id
+	}
+	1863.1.19 = {
+		holder = alawiyya_5	# Isma'il
+	}
+	1879.6.26 = {
+		holder = alawiyya_6	# Tewfik
+	}
+	1892.1.8 = {
+		holder = alawiyya_7	# Abbas II
+	}
+}
+c_sharkiya = {
+	1805.5.17 = {
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1848.7.20 = {
+		holder = alawiyya_1	# Ibrahim
+	}
+	1848.11.10 = {
+		holder = alawiyya_3	# Abbas I
+	}
+	1854.7.13 = {
+		holder = alawiyya_4	# Sa'id
+	}
+	1863.1.19 = {
+		holder = alawiyya_5	# Isma'il
+	}
+	1879.6.26 = {
+		holder = alawiyya_6	# Tewfik
+	}
+	1892.1.8 = {
+		holder = alawiyya_7	# Abbas II
+	}
+}
+#d_cairo = {
+#}
+c_cairo = {
+	1805.5.17 = {
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1848.7.20 = {
+		holder = alawiyya_1	# Ibrahim
+	}
+	1848.11.10 = {
+		holder = alawiyya_3	# Abbas I
+	}
+	1854.7.13 = {
+		holder = alawiyya_4	# Sa'id
+	}
+	1863.1.19 = {
+		holder = alawiyya_5	# Isma'il
+	}
+	1879.6.26 = {
+		holder = alawiyya_6	# Tewfik
+	}
+	1892.1.8 = {
+		holder = alawiyya_7	# Abbas II
+	}
+}
+c_giza = {
+	1805.5.17 = {
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1848.7.20 = {
+		holder = alawiyya_1	# Ibrahim
+	}
+	1848.11.10 = {
+		holder = alawiyya_3	# Abbas I
+	}
+	1854.7.13 = {
+		holder = alawiyya_4	# Sa'id
+	}
+	1863.1.19 = {
+		holder = alawiyya_5	# Isma'il
+	}
+	1879.6.26 = {
+		holder = alawiyya_6	# Tewfik
+	}
+	1892.1.8 = {
+		holder = alawiyya_7	# Abbas II
+	}
+}
+c_fayyum = {
+	1805.5.17 = {
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1848.7.20 = {
+		holder = alawiyya_1	# Ibrahim
+	}
+	1848.11.10 = {
+		holder = alawiyya_3	# Abbas I
+	}
+	1854.7.13 = {
+		holder = alawiyya_4	# Sa'id
+	}
+	1863.1.19 = {
+		holder = alawiyya_5	# Isma'il
+	}
+	1879.6.26 = {
+		holder = alawiyya_6	# Tewfik
+	}
+	1892.1.8 = {
+		holder = alawiyya_7	# Abbas II
+	}
+}
+d_al-wahat = {
+	1805.5.17 = {
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1848.7.20 = {
+		holder = alawiyya_1	# Ibrahim
+	}
+	1848.11.10 = {
+		holder = alawiyya_3	# Abbas I
+	}
+	1854.7.13 = {
+		holder = alawiyya_4	# Sa'id
+	}
+	1863.1.19 = {
+		holder = alawiyya_5	# Isma'il
+	}
+	1879.6.26 = {
+		holder = alawiyya_6	# Tewfik
+	}
+	1892.1.8 = {
+		holder = alawiyya_7	# Abbas II
+	}
+}
+c_bahriya = {
+	1805.5.17 = {
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1848.7.20 = {
+		holder = alawiyya_1	# Ibrahim
+	}
+	1848.11.10 = {
+		holder = alawiyya_3	# Abbas I
+	}
+	1854.7.13 = {
+		holder = alawiyya_4	# Sa'id
+	}
+	1863.1.19 = {
+		holder = alawiyya_5	# Isma'il
+	}
+	1879.6.26 = {
+		holder = alawiyya_6	# Tewfik
+	}
+	1892.1.8 = {
+		holder = alawiyya_7	# Abbas II
+	}
+}
+c_farafra = {
+	1805.5.17 = {
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1848.7.20 = {
+		holder = alawiyya_1	# Ibrahim
+	}
+	1848.11.10 = {
+		holder = alawiyya_3	# Abbas I
+	}
+	1854.7.13 = {
+		holder = alawiyya_4	# Sa'id
+	}
+	1863.1.19 = {
+		holder = alawiyya_5	# Isma'il
+	}
+	1879.6.26 = {
+		holder = alawiyya_6	# Tewfik
+	}
+	1892.1.8 = {
+		holder = alawiyya_7	# Abbas II
+	}
+}
+c_dakhla = {
+	1805.5.17 = {
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1848.7.20 = {
+		holder = alawiyya_1	# Ibrahim
+	}
+	1848.11.10 = {
+		holder = alawiyya_3	# Abbas I
+	}
+	1854.7.13 = {
+		holder = alawiyya_4	# Sa'id
+	}
+	1863.1.19 = {
+		holder = alawiyya_5	# Isma'il
+	}
+	1879.6.26 = {
+		holder = alawiyya_6	# Tewfik
+	}
+	1892.1.8 = {
+		holder = alawiyya_7	# Abbas II
+	}
+}
+c_kharga = {
+	1805.5.17 = {
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1848.7.20 = {
+		holder = alawiyya_1	# Ibrahim
+	}
+	1848.11.10 = {
+		holder = alawiyya_3	# Abbas I
+	}
+	1854.7.13 = {
+		holder = alawiyya_4	# Sa'id
+	}
+	1863.1.19 = {
+		holder = alawiyya_5	# Isma'il
+	}
+	1879.6.26 = {
+		holder = alawiyya_6	# Tewfik
+	}
+	1892.1.8 = {
+		holder = alawiyya_7	# Abbas II
+	}
+}
+d_al-said = {
+	1805.5.17 = {
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1848.7.20 = {
+		holder = alawiyya_1	# Ibrahim
+	}
+	1848.11.10 = {
+		holder = alawiyya_3	# Abbas I
+	}
+	1854.7.13 = {
+		holder = alawiyya_4	# Sa'id
+	}
+	1863.1.19 = {
+		holder = alawiyya_5	# Isma'il
+	}
+	1879.6.26 = {
+		holder = alawiyya_6	# Tewfik
+	}
+	1892.1.8 = {
+		holder = alawiyya_7	# Abbas II
+	}
+}
+c_qus = {
+	1805.5.17 = {
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1848.7.20 = {
+		holder = alawiyya_1	# Ibrahim
+	}
+	1848.11.10 = {
+		holder = alawiyya_3	# Abbas I
+	}
+	1854.7.13 = {
+		holder = alawiyya_4	# Sa'id
+	}
+	1863.1.19 = {
+		holder = alawiyya_5	# Isma'il
+	}
+	1879.6.26 = {
+		holder = alawiyya_6	# Tewfik
+	}
+	1892.1.8 = {
+		holder = alawiyya_7	# Abbas II
+	}
+}
+c_bahnasa = {
+	1805.5.17 = {
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1848.7.20 = {
+		holder = alawiyya_1	# Ibrahim
+	}
+	1848.11.10 = {
+		holder = alawiyya_3	# Abbas I
+	}
+	1854.7.13 = {
+		holder = alawiyya_4	# Sa'id
+	}
+	1863.1.19 = {
+		holder = alawiyya_5	# Isma'il
+	}
+	1879.6.26 = {
+		holder = alawiyya_6	# Tewfik
+	}
+	1892.1.8 = {
+		holder = alawiyya_7	# Abbas II
+	}
+}
+c_ushmun = {
+	1805.5.17 = {
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1848.7.20 = {
+		holder = alawiyya_1	# Ibrahim
+	}
+	1848.11.10 = {
+		holder = alawiyya_3	# Abbas I
+	}
+	1854.7.13 = {
+		holder = alawiyya_4	# Sa'id
+	}
+	1863.1.19 = {
+		holder = alawiyya_5	# Isma'il
+	}
+	1879.6.26 = {
+		holder = alawiyya_6	# Tewfik
+	}
+	1892.1.8 = {
+		holder = alawiyya_7	# Abbas II
+	}
+}
+c_asyut = {
+	1805.5.17 = {
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1848.7.20 = {
+		holder = alawiyya_1	# Ibrahim
+	}
+	1848.11.10 = {
+		holder = alawiyya_3	# Abbas I
+	}
+	1854.7.13 = {
+		holder = alawiyya_4	# Sa'id
+	}
+	1863.1.19 = {
+		holder = alawiyya_5	# Isma'il
+	}
+	1879.6.26 = {
+		holder = alawiyya_6	# Tewfik
+	}
+	1892.1.8 = {
+		holder = alawiyya_7	# Abbas II
+	}
+}
+c_aswan = {
+	1805.5.17 = {
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1848.7.20 = {
+		holder = alawiyya_1	# Ibrahim
+	}
+	1848.11.10 = {
+		holder = alawiyya_3	# Abbas I
+	}
+	1854.7.13 = {
+		holder = alawiyya_4	# Sa'id
+	}
+	1863.1.19 = {
+		holder = alawiyya_5	# Isma'il
+	}
+	1879.6.26 = {
+		holder = alawiyya_6	# Tewfik
+	}
+	1892.1.8 = {
+		holder = alawiyya_7	# Abbas II
+	}
+}
+d_eastern_desert = {
+	1805.5.17 = {
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1848.7.20 = {
+		holder = alawiyya_1	# Ibrahim
+	}
+	1848.11.10 = {
+		holder = alawiyya_3	# Abbas I
+	}
+	1854.7.13 = {
+		holder = alawiyya_4	# Sa'id
+	}
+	1863.1.19 = {
+		holder = alawiyya_5	# Isma'il
+	}
+	1879.6.26 = {
+		holder = alawiyya_6	# Tewfik
+	}
+	1892.1.8 = {
+		holder = alawiyya_7	# Abbas II
+	}
+}
+c_qusayr = {
+	1805.5.17 = {
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1848.7.20 = {
+		holder = alawiyya_1	# Ibrahim
+	}
+	1848.11.10 = {
+		holder = alawiyya_3	# Abbas I
+	}
+	1854.7.13 = {
+		holder = alawiyya_4	# Sa'id
+	}
+	1863.1.19 = {
+		holder = alawiyya_5	# Isma'il
+	}
+	1879.6.26 = {
+		holder = alawiyya_6	# Tewfik
+	}
+	1892.1.8 = {
+		holder = alawiyya_7	# Abbas II
+	}
+}
+c_jabal_quzlum = {
+	1805.5.17 = {
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1848.7.20 = {
+		holder = alawiyya_1	# Ibrahim
+	}
+	1848.11.10 = {
+		holder = alawiyya_3	# Abbas I
+	}
+	1854.7.13 = {
+		holder = alawiyya_4	# Sa'id
+	}
+	1863.1.19 = {
+		holder = alawiyya_5	# Isma'il
+	}
+	1879.6.26 = {
+		holder = alawiyya_6	# Tewfik
+	}
+	1892.1.8 = {
+		holder = alawiyya_7	# Abbas II
+	}
+}
+d_sinai = {
+	1805.5.17 = {
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1848.7.20 = {
+		holder = alawiyya_1	# Ibrahim
+	}
+	1848.11.10 = {
+		holder = alawiyya_3	# Abbas I
+	}
+	1854.7.13 = {
+		holder = alawiyya_4	# Sa'id
+	}
+	1863.1.19 = {
+		holder = alawiyya_5	# Isma'il
+	}
+	1879.6.26 = {
+		holder = alawiyya_6	# Tewfik
+	}
+	1892.1.8 = {
+		holder = alawiyya_7	# Abbas II
+	}
+}
+c_farama = {
+	1805.5.17 = {
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1848.7.20 = {
+		holder = alawiyya_1	# Ibrahim
+	}
+	1848.11.10 = {
+		holder = alawiyya_3	# Abbas I
+	}
+	1854.7.13 = {
+		holder = alawiyya_4	# Sa'id
+	}
+	1863.1.19 = {
+		holder = alawiyya_5	# Isma'il
+	}
+	1879.6.26 = {
+		holder = alawiyya_6	# Tewfik
+	}
+	1892.1.8 = {
+		holder = alawiyya_7	# Abbas II
+	}
+}
+c_sinai = {
+	1805.5.17 = {
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1848.7.20 = {
+		holder = alawiyya_1	# Ibrahim
+	}
+	1848.11.10 = {
+		holder = alawiyya_3	# Abbas I
+	}
+	1854.7.13 = {
+		holder = alawiyya_4	# Sa'id
+	}
+	1863.1.19 = {
+		holder = alawiyya_5	# Isma'il
+	}
+	1879.6.26 = {
+		holder = alawiyya_6	# Tewfik
+	}
+	1892.1.8 = {
+		holder = alawiyya_7	# Abbas II
+	}
+}
+c_firaun = {
+	1805.5.17 = {
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1848.7.20 = {
+		holder = alawiyya_1	# Ibrahim
+	}
+	1848.11.10 = {
+		holder = alawiyya_3	# Abbas I
+	}
+	1854.7.13 = {
+		holder = alawiyya_4	# Sa'id
+	}
+	1863.1.19 = {
+		holder = alawiyya_5	# Isma'il
+	}
+	1879.6.26 = {
+		holder = alawiyya_6	# Tewfik
+	}
+	1892.1.8 = {
+		holder = alawiyya_7	# Abbas II
+	}
+}
