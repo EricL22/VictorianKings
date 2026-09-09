@@ -1,0 +1,54 @@
+﻿# Sultans of Mahra
+mahri_0 = {
+	name = "Sa'd"
+	# dynasty = mahri
+	religion = ashari
+	culture = bedouin
+	1775.1.1 = {	# unknown
+		birth = yes
+	}
+	1835.1.1 = {	# unknown
+		death = yes
+	}
+}
+
+mahri_1 = {
+	name = "Amir"
+	# dynasty = mahri
+	religion = ashari
+	culture = bedouin
+	father = mahri_0
+	1800.1.1 = {	# unknown
+		birth = yes
+	}
+	1860.1.1 = {	# unknown
+		death = yes
+	}
+}
+
+mahri_2 = {
+	name = "Abdullah"
+	# dynasty = mahri
+	religion = ashari
+	culture = bedouin
+	father = mahri_0
+	1840.1.1 = {	# unknown
+		birth = yes
+	}
+	1890.1.1 = {	# unknown
+		death = yes
+	}
+}
+
+mahri_3 = {
+	name = "Abdullah"
+	# dynasty = mahri
+	religion = ashari
+	culture = bedouin
+	1865.1.1 = {	# unknown
+		birth = yes
+	}
+	1932.1.6 = {
+		death = yes
+	}
+}

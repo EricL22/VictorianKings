@@ -57,6 +57,21 @@ alawiyya = {
 	culture = egyptian
 }
 
+saudi = {
+	name = "dynn_Saud"
+	culture = bedouin
+}
+
+rashidi = {
+	name = "dynn_Rashidi"
+	culture = bedouin
+}
+
+albusaid = {
+	name = "dynn_Al_Bu_Said"
+	culture = bedouin
+}
+
 arriaga = {
     prefix = "dynnp_de"
     name = "dynn_Arriaga"

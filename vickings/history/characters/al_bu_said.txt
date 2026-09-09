@@ -1,0 +1,96 @@
+﻿albusaid_0 = {
+	name = "Said"
+	dynasty = albusaid
+	religion = ashari
+	culture = bedouin
+	1791.6.5 = {
+		birth = yes
+	}
+	1856.10.19 = {
+		death = yes
+	}
+}
+
+albusaid_1 = {
+	name = "Thuwaini"
+	dynasty = albusaid
+	religion = ashari
+	culture = bedouin
+	father = albusaid_0
+	1821.1.1 = {
+		birth = yes
+	}
+	1866.2.11 = {
+		death = yes
+	}
+}
+
+albusaid_2 = {
+	name = "Salim"
+	dynasty = albusaid
+	religion = ashari
+	culture = bedouin
+	father = albusaid_1
+	1839.1.1 = {
+		birth = yes
+	}
+	1876.12.7 = {
+		death = yes
+	}
+}
+
+albusaid_3 = {
+	name = "Turki"
+	dynasty = albusaid
+	religion = ashari
+	culture = bedouin
+	father = albusaid_0
+	1832.1.1 = {
+		birth = yes
+	}
+	1888.6.4 = {
+		death = yes
+	}
+}
+
+albusaid_4 = {
+	name = "Faisal"
+	dynasty = albusaid
+	religion = ashari
+	culture = bedouin
+	father = albusaid_3
+	1864.6.8 = {
+		birth = yes
+	}
+	1913.10.4 = {
+		death = yes
+	}
+}
+
+albusaid_5 = {
+	name = "Taimur"
+	dynasty = albusaid
+	religion = ashari
+	culture = bedouin
+	father = albusaid_4
+	1886.1.1 = {
+		birth = yes
+	}
+	1965.1.28 = {
+		death = yes
+	}
+}
+
+albusaid_6 = {
+	name = "Said"
+	dynasty = albusaid
+	religion = ashari
+	culture = bedouin
+	father = albusaid_5
+	1910.8.13 = {
+		birth = yes
+	}
+	1972.10.19 = {
+		death = yes
+	}
+}

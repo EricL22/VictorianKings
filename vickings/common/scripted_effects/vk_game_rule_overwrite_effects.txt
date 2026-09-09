@@ -62,7 +62,7 @@ game_rule_exclave_independence_effect = {
 			
 			limit = {
 				trigger_if = {
-					limit = { scope:exclaver.primary_title.tier > tier_empire }
+					limit = { scope:exclaver.primary_title.tier >= tier_empire }
 					target_is_de_jure_liege_or_above = scope:exclaver.primary_title
 				}
 				trigger_else = {
@@ -1051,7 +1051,7 @@ game_rule_exclave_independence_effect = {
 			
 			limit = {
 				trigger_if = {
-					limit = { scope:exclaver.primary_title.tier > tier_empire }
+					limit = { scope:exclaver.primary_title.tier >= tier_empire }
 					target_is_de_jure_liege_or_above = scope:exclaver.primary_title
 				}
 				trigger_else = {

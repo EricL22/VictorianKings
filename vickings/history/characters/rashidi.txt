@@ -1,0 +1,103 @@
+﻿# Emirs of Jabal Shammar
+rashidi_0 = {
+	name = "Abdullah"
+	dynasty = rashidi
+	religion = ashari
+	culture = bedouin
+	1788.1.1 = {
+		birth = yes
+	}
+	1848.4.1 = {
+		death = yes
+	}
+}
+
+rashidi_1 = {
+	name = "Talal"
+	dynasty = rashidi
+	religion = ashari
+	culture = bedouin
+	father = rashidi_0
+	1823.1.1 = {
+		birth = yes
+	}
+	1868.3.11 = {
+		death = yes
+	}
+}
+
+rashidi_2 = {
+	name = "Mutaib"
+	dynasty = rashidi
+	religion = ashari
+	culture = bedouin
+	father = rashidi_0
+	1824.1.1 = {	# unknown
+		birth = yes
+	}
+	1869.1.1 = {
+		death = {
+			death_reason = death_murder_known
+			killer = rashidi_3
+		}
+	}
+}
+
+rashidi_3 = {
+	name = "Bandar"
+	dynasty = rashidi
+	religion = ashari
+	culture = bedouin
+	father = rashidi_1
+	1850.1.1 = {
+		birth = yes
+	}
+	1869.6.1 = {
+		death = {
+			death_reason = death_murder_known
+			killer = rashidi_4
+		}
+	}
+}
+
+rashidi_4 = {
+	name = "Muhammad"
+	dynasty = rashidi
+	religion = ashari
+	culture = bedouin
+	father = rashidi_0
+	1849.1.1 = {
+		birth = yes
+	}
+	1897.11.28 = {
+		death = yes
+	}
+}
+
+rashidi_5 = {
+	name = "Abdulaziz"
+	dynasty = rashidi
+	religion = ashari
+	culture = bedouin
+	father = rashidi_2
+	1870.1.1 = {
+		birth = yes
+	}
+	1906.4.12 = {
+		death = yes
+	}
+}
+
+rashidi_6 = {
+	name = "Saud"
+	dynasty = rashidi
+	religion = ashari
+	culture = bedouin
+	father = rashidi_5
+	1898.1.1 = {
+		birth = yes
+	}
+	1920.3.29 = {
+		death = yes
+	}
+}

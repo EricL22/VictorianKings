@@ -254,8 +254,36 @@ c_waqisa = {
 	1600.1.1 = {
 		de_jure_liege = d_jawf
 	}
-	1810.1.1 = {
+	1803.11.2 = {	# Najd
+		holder = saudi_2	# Saud bin Abdulaziz
+	}
+	1814.4.1 = {
+		holder = saudi_3	# Abdullah bin Saud
+	}
+	1818.4.1 = {
+		holder = tribals
 		liege = 0
+	}
+	1836.1.1 = {
+		holder = rashidi_0	# Abdullah bin Ali
+	}
+	1848.4.1 = {
+		holder = rashidi_1	# Talal bin Abdullah
+	}
+	1868.3.11 = {
+		holder = rashidi_2	# Mutaib bin Abdullah
+	}
+	1869.1.1 = {
+		holder = rashidi_3	# Bandar bin Talal
+	}
+	1869.6.1 = {
+		holder = rashidi_4	# Muhammad bin Abdullah
+	}
+	1897.11.28 = {
+		holder = rashidi_5	# Abdulaziz bin Mutaib
+	}
+	1908.9.13 = {
+		holder = rashidi_6	# Saud bin Abdulaziz
 	}
 }
 d_basra = {

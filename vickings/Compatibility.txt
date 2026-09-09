@@ -17,7 +17,7 @@ common
 ......religion_types
 .........00_christianity.txt
 ...scripted_effects
-......vk_game_rule_overwrite_effects.txt (clauses)
+......vk_[...]_overwrite_effects.txt (clauses)
 content_source
 ...map_objects
 fonts

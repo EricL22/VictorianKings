@@ -1,4 +1,4 @@
-chotkow = {
+﻿chotkow = {
     prefix = "dynnp_von"
     name = "dynn_Chotkow"
     culture = "bavarian"

@@ -51,24 +51,3 @@ empire_obscurity_requirement = {
 	
 	}
 }
-
-generate_families = {
-	
-	categories = {
-		tweaks flavor
-	}
-	
-	default = off_generate_families
-
-	on_generate_families = {
-	
-	}
-	
-	on_generate_families_ai_only = {
-	
-	}
-
-	off_generate_families = {
-	
-	}
-}

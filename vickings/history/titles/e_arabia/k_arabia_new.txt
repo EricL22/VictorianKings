@@ -1,0 +1,1273 @@
+d_jawf = {
+	1836.1.1 = {
+		holder = rashidi_0	# Abdullah bin Ali
+	}
+	1848.4.1 = {
+		holder = rashidi_1	# Talal bin Abdullah
+	}
+	1868.3.11 = {
+		holder = rashidi_2	# Mutaib bin Abdullah
+	}
+	1869.1.1 = {
+		holder = rashidi_3	# Bandar bin Talal
+	}
+	1869.6.1 = {
+		holder = rashidi_4	# Muhammad bin Abdullah
+	}
+	1897.11.28 = {
+		holder = rashidi_5	# Abdulaziz bin Mutaib
+	}
+	1908.9.13 = {
+		holder = rashidi_6	# Saud bin Abdulaziz
+	}
+}
+c_al_jawf = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1836.1.1 = {	# Jabal Shammar
+		holder = rashidi_0	# Abdullah bin Ali
+	}
+	1848.4.1 = {
+		holder = rashidi_1	# Talal bin Abdullah
+	}
+	1868.3.11 = {
+		holder = rashidi_2	# Mutaib bin Abdullah
+	}
+	1869.1.1 = {
+		holder = rashidi_3	# Bandar bin Talal
+	}
+	1869.6.1 = {
+		holder = rashidi_4	# Muhammad bin Abdullah
+	}
+	1897.11.28 = {
+		holder = rashidi_5	# Abdulaziz bin Mutaib
+	}
+	1908.9.13 = {
+		holder = rashidi_6	# Saud bin Abdulaziz
+	}
+}
+c_thalabiya = {
+	1803.11.2 = {	# Najd
+		holder = saudi_2	# Saud bin Abdulaziz
+	}
+	1814.4.1 = {
+		holder = saudi_3	# Abdullah bin Saud
+	}
+	1818.4.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1836.1.1 = {	# Jabal Shammar
+		holder = rashidi_0	# Abdullah bin Ali
+	}
+	1848.4.1 = {
+		holder = rashidi_1	# Talal bin Abdullah
+	}
+	1868.3.11 = {
+		holder = rashidi_2	# Mutaib bin Abdullah
+	}
+	1869.1.1 = {
+		holder = rashidi_3	# Bandar bin Talal
+	}
+	1869.6.1 = {
+		holder = rashidi_4	# Muhammad bin Abdullah
+	}
+	1897.11.28 = {
+		holder = rashidi_5	# Abdulaziz bin Mutaib
+	}
+	1908.9.13 = {
+		holder = rashidi_6	# Saud bin Abdulaziz
+	}
+}
+c_sirhan = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1836.1.1 = {	# Jabal Shammar
+		holder = rashidi_0	# Abdullah bin Ali
+	}
+	1848.4.1 = {
+		holder = rashidi_1	# Talal bin Abdullah
+	}
+	1868.3.11 = {
+		holder = rashidi_2	# Mutaib bin Abdullah
+	}
+	1869.1.1 = {
+		holder = rashidi_3	# Bandar bin Talal
+	}
+	1869.6.1 = {
+		holder = rashidi_4	# Muhammad bin Abdullah
+	}
+	1897.11.28 = {
+		holder = rashidi_5	# Abdulaziz bin Mutaib
+	}
+	1908.9.13 = {
+		holder = rashidi_6	# Saud bin Abdulaziz
+	}
+}
+d_amman = {
+	1600.1.1 = {
+		de_jure_liege = k_jerusalem
+	}
+}
+c_balqa = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1833.5.6 = {	# Egypt
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1840.11.27 = {	# Ottomans
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+}
+c_maab = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1833.5.6 = {	# Egypt
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1840.11.27 = {	# Ottomans
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+}
+c_jilat = {
+	1600.1.1 = {
+		de_jure_liege = d_jawf
+	}
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1836.1.1 = {	# Jabal Shammar
+		holder = rashidi_0
+	}
+	1848.4.1 = {
+		holder = rashidi_1	# Talal bin Abdullah
+	}
+	1868.3.11 = {
+		holder = rashidi_2	# Mutaib bin Abdullah
+	}
+	1869.1.1 = {
+		holder = rashidi_3	# Bandar bin Talal
+	}
+	1869.6.1 = {
+		holder = rashidi_4	# Muhammad bin Abdullah
+	}
+	1897.11.28 = {
+		holder = rashidi_5	# Abdulaziz bin Mutaib
+	}
+	1908.9.13 = {
+		holder = rashidi_6	# Saud bin Abdulaziz
+	}
+}
+d_shammar = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1833.5.6 = {	# Egypt
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1840.11.27 = {	# Ottomans
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+}
+c_tabuk = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1833.5.6 = {	# Egypt
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1840.11.27 = {	# Ottomans
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+}
+c_al_aqabah = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1833.5.6 = {	# Egypt
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1840.11.27 = {	# Ottomans
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+}
+c_maan = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1833.5.6 = {	# Egypt
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1840.11.27 = {	# Ottomans
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+}
+c_tayma = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1833.5.6 = {	# Egypt
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1840.11.27 = {	# Ottomans
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+}
+d_medina = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1833.5.6 = {	# Egypt
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1840.11.27 = {	# Ottomans
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+}
+c_medina = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1833.5.6 = {	# Egypt
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1840.11.27 = {	# Ottomans
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+}
+c_wajh = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1833.5.6 = {	# Egypt
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1840.11.27 = {	# Ottomans
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+}
+c_khaybar = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1833.5.6 = {	# Egypt
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1840.11.27 = {	# Ottomans
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+}
+c_yanbu = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1833.5.6 = {	# Egypt
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1840.11.27 = {	# Ottomans
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+}
+c_harrat_rahat = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1833.5.6 = {	# Egypt
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1840.11.27 = {	# Ottomans
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+}
+#d_mecca = {
+#}
+c_mecca = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1833.5.6 = {	# Egypt
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1840.11.27 = {	# Ottomans
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+}
+c_taif = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1833.5.6 = {	# Egypt
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1840.11.27 = {	# Ottomans
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+}
+c_tihama = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1833.5.6 = {	# Egypt
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1840.11.27 = {	# Ottomans
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+}
+c_bisha = {
+	1808.7.28 = {	# Ottomans
+		holder = ottoman_26	# Mahmud II
+	}
+	1833.5.6 = {	# Egypt
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1840.11.27 = {	# Ottomans
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+}
+d_asir = {
+	1833.1.1 = {
+		holder = asir_0	# Aidh bin Mar'i
+		government = clan_government
+	}
+	1857.1.1 = {
+		holder = asir_1	# Muhammad bin Aidh
+	}
+	1908.1.1 = {
+		holder = asir_3	# Hasan bin Ali
+	}
+}
+c_aqiq = {
+	1803.11.2 = {	# Najd
+		holder = saudi_2	# Saud bin Abdulaziz
+	}
+	1814.4.1 = {
+		holder = saudi_3	# Abdullah bin Saud
+	}
+	1818.4.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1833.1.1 = {	# Al Aidh
+		holder = asir_0	# Aidh bin Mar'i
+	}
+	1857.1.1 = {
+		holder = asir_1	# Muhammad bin Aidh
+	}
+	1908.1.1 = {
+		holder = asir_3	# Hasan bin Ali
+	}
+}
+c_asir = {
+	1803.11.2 = {	# Najd
+		holder = saudi_2	# Saud bin Abdulaziz
+	}
+	1814.4.1 = {
+		holder = saudi_3	# Abdullah bin Saud
+	}
+	1818.4.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1833.1.1 = {	# Al Aidh
+		holder = asir_0	# Aidh bin Mar'i
+	}
+	1857.1.1 = {
+		holder = asir_1	# Muhammad bin Aidh
+	}
+	1908.1.1 = {
+		holder = asir_3	# Hasan bin Ali
+	}
+}
+d_najd = {
+	1744.1.1 = {
+		holder = saudi_0	# Muhammad bin Saud
+		government = clan_government
+	}
+	1765.1.1 = {
+		holder = saudi_1	# Abdulaziz bin Muhammad
+	}
+	1803.11.2 = {
+		holder = saudi_2	# Saud bin Abdulaziz
+	}
+	1814.4.1 = {
+		holder = saudi_3	# Abdullah bin Saud
+	}
+	1818.4.1 = {
+		holder = 0
+	}
+	1824.1.1 = {
+		holder = saudi_5	# Turki bin Abdullah
+	}
+	1834.1.1 = {
+		holder = saudi_6	# Faisal bin Turki
+	}
+	1838.1.1 = {
+		holder = saudi_7	# Khalid bin Saud
+	}
+	1843.5.1 = {
+		holder = saudi_6
+	}
+	1865.12.1 = {
+		holder = saudi_8	# Abdullah bin Faisal
+	}
+	1873.1.1 = {
+		holder = saudi_9	# Saud bin Faisal
+	}
+	1875.1.1 = {
+		holder = saudi_10	# Abdul Rahman bin Faisal
+	}
+	1876.1.1 = {
+		holder = saudi_8
+	}
+	1889.12.2 = {
+		holder = saudi_10
+	}
+	1891.1.1 = {
+		holder = 0
+	}
+	1902.1.13 = {
+		holder = saudi_11	# Ibn Saud
+	}
+}
+c_sharaf = {
+	1803.11.2 = {
+		holder = saudi_2	# Saud bin Abdulaziz
+	}
+	1814.4.1 = {
+		holder = saudi_3	# Abdullah bin Saud
+	}
+	1824.1.1 = {
+		holder = saudi_5	# Turki bin Abdullah
+	}
+	1834.1.1 = {
+		holder = saudi_6	# Faisal bin Turki
+	}
+	1838.1.1 = {
+		holder = saudi_7	# Khalid bin Saud
+	}
+	1843.5.1 = {
+		holder = saudi_6
+	}
+	1865.12.1 = {
+		holder = saudi_8	# Abdullah bin Faisal
+	}
+	1873.1.1 = {
+		holder = saudi_9	# Saud bin Faisal
+	}
+	1875.1.1 = {
+		holder = saudi_10	# Abdul Rahman bin Faisal
+	}
+	1876.1.1 = {
+		holder = saudi_8
+	}
+	1889.12.2 = {
+		holder = saudi_10
+	}
+	1902.1.13 = {
+		holder = saudi_11	# Ibn Saud
+	}
+}
+c_subay = {
+	1803.11.2 = {
+		holder = saudi_2	# Saud bin Abdulaziz
+	}
+	1814.4.1 = {
+		holder = saudi_3	# Abdullah bin Saud
+	}
+	1824.1.1 = {
+		holder = saudi_5	# Turki bin Abdullah
+	}
+	1834.1.1 = {
+		holder = saudi_6	# Faisal bin Turki
+	}
+	1838.1.1 = {
+		holder = saudi_7	# Khalid bin Saud
+	}
+	1843.5.1 = {
+		holder = saudi_6
+	}
+	1865.12.1 = {
+		holder = saudi_8	# Abdullah bin Faisal
+	}
+	1873.1.1 = {
+		holder = saudi_9	# Saud bin Faisal
+	}
+	1875.1.1 = {
+		holder = saudi_10	# Abdul Rahman bin Faisal
+	}
+	1876.1.1 = {
+		holder = saudi_8
+	}
+	1889.12.2 = {
+		holder = saudi_10
+	}
+	1902.1.13 = {
+		holder = saudi_11	# Ibn Saud
+	}
+}
+c_hail = {
+	1803.11.2 = {
+		holder = saudi_2	# Saud bin Abdulaziz
+	}
+	1814.4.1 = {
+		holder = saudi_3	# Abdullah bin Saud
+	}
+	1824.1.1 = {
+		holder = saudi_5	# Turki bin Abdullah
+	}
+	1834.1.1 = {
+		holder = saudi_6	# Faisal bin Turki
+	}
+	1838.1.1 = {
+		holder = saudi_7	# Khalid bin Saud
+	}
+	1843.5.1 = {
+		holder = saudi_6
+	}
+	1865.12.1 = {
+		holder = saudi_8	# Abdullah bin Faisal
+	}
+	1873.1.1 = {
+		holder = saudi_9	# Saud bin Faisal
+	}
+	1875.1.1 = {
+		holder = saudi_10	# Abdul Rahman bin Faisal
+	}
+	1876.1.1 = {
+		holder = saudi_8
+	}
+	1889.12.2 = {
+		holder = saudi_10
+	}
+	1902.1.13 = {
+		holder = saudi_11	# Ibn Saud
+	}
+}
+c_shaqiq = {
+	1803.11.2 = {
+		holder = saudi_2	# Saud bin Abdulaziz
+	}
+	1814.4.1 = {
+		holder = saudi_3	# Abdullah bin Saud
+	}
+	1824.1.1 = {
+		holder = saudi_5	# Turki bin Abdullah
+	}
+	1834.1.1 = {
+		holder = saudi_6	# Faisal bin Turki
+	}
+	1838.1.1 = {
+		holder = saudi_7	# Khalid bin Saud
+	}
+	1843.5.1 = {
+		holder = saudi_6
+	}
+	1865.12.1 = {
+		holder = saudi_8	# Abdullah bin Faisal
+	}
+	1873.1.1 = {
+		holder = saudi_9	# Saud bin Faisal
+	}
+	1875.1.1 = {
+		holder = saudi_10	# Abdul Rahman bin Faisal
+	}
+	1876.1.1 = {
+		holder = saudi_8
+	}
+	1889.12.2 = {
+		holder = saudi_10
+	}
+	1902.1.13 = {
+		holder = saudi_11	# Ibn Saud
+	}
+}
+c_qasim = {
+	1803.11.2 = {
+		holder = saudi_2	# Saud bin Abdulaziz
+	}
+	1814.4.1 = {
+		holder = saudi_3	# Abdullah bin Saud
+	}
+	1824.1.1 = {
+		holder = saudi_5	# Turki bin Abdullah
+	}
+	1834.1.1 = {
+		holder = saudi_6	# Faisal bin Turki
+	}
+	1838.1.1 = {
+		holder = saudi_7	# Khalid bin Saud
+	}
+	1843.5.1 = {
+		holder = saudi_6
+	}
+	1865.12.1 = {
+		holder = saudi_8	# Abdullah bin Faisal
+	}
+	1873.1.1 = {
+		holder = saudi_9	# Saud bin Faisal
+	}
+	1875.1.1 = {
+		holder = saudi_10	# Abdul Rahman bin Faisal
+	}
+	1876.1.1 = {
+		holder = saudi_8
+	}
+	1889.12.2 = {
+		holder = saudi_10
+	}
+	1902.1.13 = {
+		holder = saudi_11	# Ibn Saud
+	}
+}
+c_surrah = {
+	1803.11.2 = {
+		holder = saudi_2	# Saud bin Abdulaziz
+	}
+	1814.4.1 = {
+		holder = saudi_3	# Abdullah bin Saud
+	}
+	1824.1.1 = {
+		holder = saudi_5	# Turki bin Abdullah
+	}
+	1834.1.1 = {
+		holder = saudi_6	# Faisal bin Turki
+	}
+	1838.1.1 = {
+		holder = saudi_7	# Khalid bin Saud
+	}
+	1843.5.1 = {
+		holder = saudi_6
+	}
+	1865.12.1 = {
+		holder = saudi_8	# Abdullah bin Faisal
+	}
+	1873.1.1 = {
+		holder = saudi_9	# Saud bin Faisal
+	}
+	1875.1.1 = {
+		holder = saudi_10	# Abdul Rahman bin Faisal
+	}
+	1876.1.1 = {
+		holder = saudi_8
+	}
+	1889.12.2 = {
+		holder = saudi_10
+	}
+	1902.1.13 = {
+		holder = saudi_11	# Ibn Saud
+	}
+}
+#d_yamama = {
+#}
+c_yamama = {
+	1803.11.2 = {	# Najd
+		holder = saudi_2	# Saud bin Abdulaziz
+	}
+	1814.4.1 = {
+		holder = saudi_3	# Abdullah bin Saud
+	}
+	1818.4.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1838.1.1 = {	# Najd
+		holder = saudi_7	# Khalid bin Saud
+	}
+	1843.5.1 = {
+		holder = saudi_6
+	}
+	1865.12.1 = {
+		holder = saudi_8	# Abdullah bin Faisal
+	}
+	1871.6.3 = {
+		holder = tribals
+	}
+	1902.1.13 = {	# Najd
+		holder = saudi_11	# Ibn Saud
+	}
+}
+c_al-arid = {
+	1803.11.2 = {	# Najd
+		holder = saudi_2	# Saud bin Abdulaziz
+	}
+	1814.4.1 = {
+		holder = saudi_3	# Abdullah bin Saud
+	}
+	1818.4.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1838.1.1 = {	# Najd
+		holder = saudi_7	# Khalid bin Saud
+	}
+	1843.5.1 = {
+		holder = saudi_6
+	}
+	1865.12.1 = {
+		holder = saudi_8	# Abdullah bin Faisal
+	}
+	1871.6.3 = {
+		holder = tribals
+	}
+	1902.1.13 = {	# Najd
+		holder = saudi_11	# Ibn Saud
+	}
+}
+c_falaj = {
+	1803.11.2 = {	# Najd
+		holder = saudi_2	# Saud bin Abdulaziz
+	}
+	1814.4.1 = {
+		holder = saudi_3	# Abdullah bin Saud
+	}
+	1818.4.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1838.1.1 = {	# Najd
+		holder = saudi_7	# Khalid bin Saud
+	}
+	1843.5.1 = {
+		holder = saudi_6
+	}
+	1865.12.1 = {
+		holder = saudi_8	# Abdullah bin Faisal
+	}
+	1871.6.3 = {
+		holder = tribals
+	}
+	1902.1.13 = {	# Najd
+		holder = saudi_11	# Ibn Saud
+	}
+}
+#d_al-hasa = {
+#}
+c_al-hasa = {
+	1803.11.2 = {	# Najd
+		holder = saudi_2	# Saud bin Abdulaziz
+	}
+	1814.4.1 = {
+		holder = saudi_3	# Abdullah bin Saud
+	}
+	1818.4.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1838.1.1 = {	# Najd
+		holder = saudi_7	# Khalid bin Saud
+	}
+	1843.5.1 = {
+		holder = saudi_6
+	}
+	1865.12.1 = {
+		holder = saudi_8	# Abdullah bin Faisal
+	}
+	1871.6.3 = {
+		holder = tribals
+	}
+	1913.5.6 = {	# Nejd and Hasa
+		holder = saudi_11	# Ibn Saud
+	}
+}
+c_dhafra = {
+	1803.11.2 = {	# Najd
+		holder = saudi_2	# Saud bin Abdulaziz
+	}
+	1814.4.1 = {
+		holder = saudi_3	# Abdullah bin Saud
+	}
+	1818.4.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1838.1.1 = {	# Najd
+		holder = saudi_7	# Khalid bin Saud
+	}
+	1843.5.1 = {
+		holder = saudi_6
+	}
+	1865.12.1 = {
+		holder = saudi_8	# Abdullah bin Faisal
+	}
+	1871.6.3 = {
+		holder = tribals
+	}
+}
+c_uqayr = {
+	1803.11.2 = {	# Najd
+		holder = saudi_2	# Saud bin Abdulaziz
+	}
+	1814.4.1 = {
+		holder = saudi_3	# Abdullah bin Saud
+	}
+	1818.4.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1838.1.1 = {	# Najd
+		holder = saudi_7	# Khalid bin Saud
+	}
+	1843.5.1 = {
+		holder = saudi_6
+	}
+	1865.12.1 = {
+		holder = saudi_8	# Abdullah bin Faisal
+	}
+	1871.6.3 = {
+		holder = tribals
+	}
+}
+c_yabrin = {
+	1803.11.2 = {	# Najd
+		holder = saudi_2	# Saud bin Abdulaziz
+	}
+	1814.4.1 = {
+		holder = saudi_3	# Abdullah bin Saud
+	}
+	1818.4.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1838.1.1 = {	# Najd
+		holder = saudi_7	# Khalid bin Saud
+	}
+	1843.5.1 = {
+		holder = saudi_6
+	}
+	1865.12.1 = {
+		holder = saudi_8	# Abdullah bin Faisal
+	}
+	1871.6.3 = {
+		holder = tribals
+	}
+	1913.5.6 = {	# Nejd and Hasa
+		holder = saudi_11	# Ibn Saud
+	}
+}
+#d_bahrain = {
+#	1810.1.1 = {
+#		holder = 0
+#	}
+#}
+c_qatif = {
+	1803.11.2 = {	# Najd
+		holder = saudi_2	# Saud bin Abdulaziz
+	}
+	1814.4.1 = {
+		holder = saudi_3	# Abdullah bin Saud
+	}
+	1818.4.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1838.1.1 = {	# Najd
+		holder = saudi_7	# Khalid bin Saud
+	}
+	1843.5.1 = {
+		holder = saudi_6
+	}
+	1865.12.1 = {
+		holder = saudi_8	# Abdullah bin Faisal
+	}
+	1871.6.3 = {
+		holder = tribals
+	}
+	1913.5.6 = {	# Nejd and Hasa
+		holder = saudi_11	# Ibn Saud
+	}
+}
+c_uwal = {
+	1803.11.2 = {	# Najd
+		holder = saudi_2	# Saud bin Abdulaziz
+	}
+	1814.4.1 = {
+		holder = saudi_3	# Abdullah bin Saud
+	}
+	1818.4.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1838.1.1 = {	# Najd
+		holder = saudi_7	# Khalid bin Saud
+	}
+	1843.5.1 = {
+		holder = saudi_6
+	}
+	1865.12.1 = {
+		holder = saudi_8	# Abdullah bin Faisal
+	}
+	1871.6.3 = {
+		holder = tribals
+	}
+	1913.5.6 = {	# Nejd and Hasa
+		holder = saudi_11	# Ibn Saud
+	}
+}
+c_samman = {
+	1803.11.2 = {	# Najd
+		holder = saudi_2	# Saud bin Abdulaziz
+	}
+	1814.4.1 = {
+		holder = saudi_3	# Abdullah bin Saud
+	}
+	1818.4.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1838.1.1 = {	# Najd
+		holder = saudi_7	# Khalid bin Saud
+	}
+	1843.5.1 = {
+		holder = saudi_6
+	}
+	1865.12.1 = {
+		holder = saudi_8	# Abdullah bin Faisal
+	}
+	1871.6.3 = {
+		holder = tribals
+	}
+	1913.5.6 = {	# Nejd and Hasa
+		holder = saudi_11	# Ibn Saud
+	}
+}
+d_oman = {
+	1804.11.1 = {
+		holder = albusaid_0	# Said bin Sultan
+	}
+	1856.10.19 = {
+		holder = albusaid_1	# Thuwaini bin Said
+	}
+	1866.2.11 = {
+		holder = albusaid_2	# Salim bin Thuwaini
+	}
+	1871.1.30 = {
+		holder = albusaid_3	# Turki bin Said
+	}
+	1888.6.4 = {
+		holder = albusaid_4	# Faisal bin Turki
+	}
+	1913.10.5 = {
+		holder = albusaid_5	# Taimur bin Faisal
+	}
+}
+c_nizwa = {
+	1804.11.1 = {
+		holder = albusaid_0	# Said bin Sultan
+	}
+	1856.10.19 = {
+		holder = albusaid_1	# Thuwaini bin Said
+	}
+	1866.2.11 = {
+		holder = albusaid_2	# Salim bin Thuwaini
+	}
+	1871.1.30 = {
+		holder = albusaid_3	# Turki bin Said
+	}
+	1888.6.4 = {
+		holder = albusaid_4	# Faisal bin Turki
+	}
+	1913.10.5 = {
+		holder = albusaid_5	# Taimur bin Faisal
+	}
+}
+c_julfar = {
+	1804.11.1 = {
+		holder = albusaid_0	# Said bin Sultan
+	}
+	1832.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+}
+c_batina = {
+	1804.11.1 = {
+		holder = albusaid_0	# Said bin Sultan
+	}
+	1856.10.19 = {
+		holder = albusaid_1	# Thuwaini bin Said
+	}
+	1866.2.11 = {
+		holder = albusaid_2	# Salim bin Thuwaini
+	}
+	1871.1.30 = {
+		holder = albusaid_3	# Turki bin Said
+	}
+	1888.6.4 = {
+		holder = albusaid_4	# Faisal bin Turki
+	}
+	1913.10.5 = {
+		holder = albusaid_5	# Taimur bin Faisal
+	}
+}
+c_az-dhahira = {
+	1804.11.1 = {
+		holder = albusaid_0	# Said bin Sultan
+	}
+	1856.10.19 = {
+		holder = albusaid_1	# Thuwaini bin Said
+	}
+	1866.2.11 = {
+		holder = albusaid_2	# Salim bin Thuwaini
+	}
+	1871.1.30 = {
+		holder = albusaid_3	# Turki bin Said
+	}
+	1888.6.4 = {
+		holder = albusaid_4	# Faisal bin Turki
+	}
+	1913.10.5 = {
+		holder = albusaid_5	# Taimur bin Faisal
+	}
+}
+c_muscat = {
+	1804.11.1 = {
+		holder = albusaid_0	# Said bin Sultan
+	}
+	1856.10.19 = {
+		holder = albusaid_1	# Thuwaini bin Said
+	}
+	1866.2.11 = {
+		holder = albusaid_2	# Salim bin Thuwaini
+	}
+	1871.1.30 = {
+		holder = albusaid_3	# Turki bin Said
+	}
+	1888.6.4 = {
+		holder = albusaid_4	# Faisal bin Turki
+	}
+	1913.10.5 = {
+		holder = albusaid_5	# Taimur bin Faisal
+	}
+}
+c_duqm = {
+	1804.11.1 = {
+		holder = albusaid_0	# Said bin Sultan
+	}
+	1856.10.19 = {
+		holder = albusaid_1	# Thuwaini bin Said
+	}
+	1866.2.11 = {
+		holder = albusaid_2	# Salim bin Thuwaini
+	}
+	1871.1.30 = {
+		holder = albusaid_3	# Turki bin Said
+	}
+	1888.6.4 = {
+		holder = albusaid_4	# Faisal bin Turki
+	}
+	1913.10.5 = {
+		holder = albusaid_5	# Taimur bin Faisal
+	}
+}

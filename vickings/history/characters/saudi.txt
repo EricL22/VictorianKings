@@ -1,0 +1,215 @@
+﻿# Emirs of Diriyah/Najd
+saudi_0 = {
+	name = "Muhammad bin Saud"
+	dynasty = saudi
+	religion = ashari
+	culture = bedouin
+	1685.1.1 = {
+		birth = yes
+	}
+	1765.1.1 = {
+		death = yes
+	}
+}
+
+saudi_1 = {
+	name = "Abdul-Aziz"
+	dynasty = saudi
+	religion = ashari
+	culture = bedouin
+	father = saudi_0
+	1730.1.1 = {
+		birth = yes
+	}
+	1803.11.12 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+
+saudi_2 = {
+	name = "Saud"
+	dynasty = saudi
+	religion = ashari
+	culture = bedouin
+	father = saudi_1
+	1748.1.1 = {
+		birth = yes
+	}
+	1814.4.1 = {
+		death = {
+			death_reason = death_ill
+		}
+	}
+}
+
+saudi_3 = {
+	name = "Abdullah"
+	dynasty = saudi
+	religion = ashari
+	culture = bedouin
+	father = saudi_2
+	1785.1.1 = {
+		birth = yes
+	}
+	1818.4.1 = {
+		death = {
+			death_reason = death_execution
+		}
+	}
+}
+
+saudi_4 = {
+	name = "Abdallah"
+	dynasty = saudi
+	religion = ashari
+	culture = bedouin
+	father = saudi_0
+	1725.1.1 = {
+		birth = yes
+	}
+	1812.1.1 = {
+		death = yes
+	}
+}
+
+saudi_5 = {
+	name = "Turki"
+	dynasty = saudi
+	religion = ashari
+	culture = bedouin
+	father = saudi_4
+	1755.1.1 = {
+		birth = yes
+	}
+	1834.1.1 = {
+		death = yes
+	}
+}
+
+saudi_6 = {
+	name = "Faisal"
+	dynasty = saudi
+	religion = ashari
+	culture = bedouin
+	father = saudi_5
+	1785.1.1 = {
+		birth = yes
+	}
+	1865.12.1 = {
+		death = yes
+	}
+}
+
+saudi_7 = {
+	name = "Khalid"
+	dynasty = saudi
+	religion = ashari
+	culture = bedouin
+	father = saudi_2
+	1811.1.1 = {
+		birth = yes
+	}
+	1865.1.1 = {
+		death = yes
+	}
+}
+
+saudi_8 = {
+	name = "Abdullah"
+	dynasty = saudi
+	religion = ashari
+	culture = bedouin
+	father = saudi_6
+	1831.1.1 = {
+		birth = yes
+	}
+	1889.12.2 = {
+		death = yes
+	}
+}
+
+saudi_9 = {
+	name = "Saud"
+	dynasty = saudi
+	religion = ashari
+	culture = bedouin
+	father = saudi_6
+	1833.1.1 = {
+		birth = yes
+	}
+	1875.1.1 = {
+		death = yes
+	}
+}
+
+saudi_10 = {
+	name = "Abdul Rahman"
+	dynasty = saudi
+	religion = ashari
+	culture = bedouin
+	father = saudi_6
+	1850.1.1 = {
+		birth = yes
+	}
+	1928.6.1 = {
+		death = yes
+	}
+}
+
+saudi_11 = {
+	name = "Abdulaziz"	# Ibn Saud
+	dynasty = saudi
+	religion = ashari
+	culture = bedouin
+	father = saudi_10
+	1876.1.15 = {
+		birth = yes
+	}
+	1953.11.9 = {
+		death = yes
+	}
+}
+
+saudi_12 = {
+	name = "Saud"
+	dynasty = saudi
+	religion = ashari
+	culture = bedouin
+	father = saudi_11
+	1902.1.15 = {
+		birth = yes
+	}
+	1969.2.23 = {
+		death = yes
+	}
+}
+
+saudi_13 = {
+	name = "Faisal"
+	dynasty = saudi
+	religion = ashari
+	culture = bedouin
+	father = saudi_11
+	1906.4.14 = {
+		birth = yes
+	}
+	1975.3.25 = {
+		death = yes
+	}
+}
+
+saudi_14 = {
+	name = "Khalid"
+	dynasty = saudi
+	religion = ashari
+	culture = bedouin
+	father = saudi_11
+	1913.2.13 = {
+		birth = yes
+	}
+	1982.6.13 = {
+		death = yes
+	}
+}

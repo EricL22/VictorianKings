@@ -1,0 +1,3 @@
+﻿# cleared to stop error spam. for some reason the bookmark checks are way too broad
+setup_tributaries_effect = {
+}

@@ -436,6 +436,11 @@ ottoman_26 = {
 			}
 		}
 	}
+	1833.5.6 = {
+		add_pressed_claim = title:d_shammar
+		add_pressed_claim = title:d_mecca
+		add_pressed_claim = title:d_medina
+	}
 	1839.7.1 = {
 		death = yes
 	}
