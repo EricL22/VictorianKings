@@ -1,0 +1,600 @@
+k_abyssinia = {
+	1344.1.1 = {
+		holder = 32260	# Newaya Krestos
+	}
+	1372.1.1 = {
+		holder = solomonid_0	# Newaya Maryam
+	}
+	1382.1.1 = {
+		holder = solomonid_1	# Dawit I
+	}
+	1413.10.6 = {
+		holder = solomonid_2	# Tewodros I
+	}
+	1414.7.2 = {
+		holder = solomonid_3	# Yeshaq I
+	}
+	1429.9.1 = {
+		holder = solomonid_4	# Andreyas
+	}
+	# omitted: Takla Maryam, Sarwe Iyasus, Amda Iyasus (1430-34)
+	1434.6.1 = {
+		holder = solomonid_5	# Zara Yaqob
+	}
+	1468.8.26 = {
+		holder = solomonid_6	# Baeda Maryam I
+	}
+	1478.11.8 = {
+		holder = solomonid_7	# Eskender
+	}
+	# 1494.5.7: Amda Seyon II
+	1494.10.26 = {
+		holder = solomonid_8	# Na'od
+	}
+	1507.7.31 = {
+		holder = solomonid_9	# Dawit II
+	}
+	# omitted: Gelawdewos, Menas and descendants (1540-1606)
+	1607.3.10 = {
+		holder = solomonid_12	# Susenyos I
+	}
+	1632.9.17 = {
+		holder = solomonid_13	# Fasilides
+	}
+	1667.10.18 = {
+		holder = solomonid_14	# Yohannes I
+	}
+	1682.7.19 = {
+		holder = solomonid_15	# Iyasu I
+	}
+	1706.10.13 = {
+		holder = solomonid_16	# Tekle Haymanot I
+	}
+	# omitted: Tewoflos and Yostos (1708-1716)
+	1716.2.8 = {
+		holder = solomonid_17	# Dawit III
+	}
+	1721.5.18 = {
+		holder = solomonid_18	# Bakaffa
+	}
+	1730.9.19 = {
+		holder = solomonid_19	# Iyasu II
+	}
+	1755.6.27 = {
+		holder = solomonid_20	# Iyoas I
+	}
+	# succession is very wonky for the next few decades... I'll just give the title once and leave it at that
+	1769.5.7 = {
+		holder = solomonid_21	# Yohannes II
+	}
+	1769.10.18 = {
+		holder = solomonid_22	# Tekle Haymanot II
+	}
+	1770.8.1 = {
+		holder = solomonid_23	# Susenyos II
+	}
+	1777.4.13 = {
+		holder = solomonid_25	# Salomon II
+	}
+	1779.7.20 = {
+		holder = solomonid_31	# Tekle Giyorgis I
+	}
+	1784.2.16 = {
+		holder = solomonid_28	# Iyasu III
+	}
+	1789.7.26 = {
+		holder = solomonid_33	# Hezqeyas
+	}
+	1795.4.15 = {
+		holder = solomonid_26	# Baeda Maryam II
+	}
+	1796.1.1 = {
+		holder = solomonid_29	# Salomon III
+	}
+	# 1797.8.18: Yonas
+	# 1799.7.25: Demetros
+	1801.6.1 = {
+		holder = solomonid_34	# Egwale Seyon
+	}
+	1818.6.14 = {
+		holder = solomonid_35	# Iyoas II
+	}
+	1821.6.3 = {
+		holder = solomonid_36	# Gigar
+	}
+	1830.6.18 = {
+		holder = salomonid_30	# Iyasu IV
+	}
+	1832.10.1 = {
+		holder = solomonid_42	# Sahle Dengel
+	}
+	1840.8.30 = {
+		holder = solomonid_32	# Yohannes III
+	}
+	1855.2.11 = {
+		holder = solomonid_50	# Tewodros II
+	}
+	# omitted: Tekle Giyorgis II and Yohannes IV (1868-89)
+	1889.3.11 = {
+		holder = solomonid_71	# Menelik II
+	}
+	1913.12.12 = {
+		holder = solomonid_74	# Lij Iyasu
+	}
+}
+d_aksum = {
+	1801.6.1 = {
+		holder = solomonid_34	# Egwale Seyon
+	}
+	1832.10.1 = {
+		holder = solomonid_42	# Sahle Dengel
+	}
+	1855.2.11 = {
+		holder = solomonid_50	# Tewodros II
+	}
+	1913.12.12 = {
+		holder = solomonid_74	# Lij Iyasu
+	}
+}
+c_tigre = {
+	1801.6.1 = {
+		holder = solomonid_34	# Egwale Seyon
+	}
+	1832.10.1 = {
+		holder = solomonid_42	# Sahle Dengel
+	}
+	1855.2.11 = {
+		holder = solomonid_50	# Tewodros II
+	}
+	1913.12.12 = {
+		holder = solomonid_74	# Lij Iyasu
+	}
+}
+c_serae = {
+	1801.6.1 = {	# Ethiopia
+		holder = solomonid_34	# Egwale Seyon
+	}
+	1832.10.1 = {
+		holder = solomonid_42	# Sahle Dengel
+	}
+	1855.2.11 = {
+		holder = solomonid_50	# Tewodros II
+	}
+	1889.3.2 = {	# Italy
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_intarta = {
+	1801.6.1 = {
+		holder = solomonid_34	# Egwale Seyon
+	}
+	1832.10.1 = {
+		holder = solomonid_42	# Sahle Dengel
+	}
+	1855.2.11 = {
+		holder = solomonid_50	# Tewodros II
+	}
+	1913.12.12 = {
+		holder = solomonid_74	# Lij Iyasu
+	}
+}
+d_dahlaks = {
+	1813.1.1 = {	# Egypt
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1848.7.20 = {
+		holder = alawiyya_1	# Ibrahim
+	}
+	1848.11.10 = {
+		holder = alawiyya_3	# Abbas I
+	}
+	1854.7.13 = {
+		holder = alawiyya_4	# Sa'id
+	}
+	1863.1.19 = {
+		holder = alawiyya_5	# Isma'il
+	}
+	1879.6.26 = {
+		holder = alawiyya_6	# Tewfik
+	}
+	1882.7.5 = {	# Italy
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_dahlak = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1813.1.1 = {	# Egypt
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1848.7.20 = {
+		holder = alawiyya_1	# Ibrahim
+	}
+	1848.11.10 = {
+		holder = alawiyya_3	# Abbas I
+	}
+	1854.7.13 = {
+		holder = alawiyya_4	# Sa'id
+	}
+	1863.1.19 = {
+		holder = alawiyya_5	# Isma'il
+	}
+	1879.6.26 = {
+		holder = alawiyya_6	# Tewfik
+	}
+	1882.7.5 = {	# Italy
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_massawa = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1813.1.1 = {	# Egypt
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1848.7.20 = {
+		holder = alawiyya_1	# Ibrahim
+	}
+	1848.11.10 = {
+		holder = alawiyya_3	# Abbas I
+	}
+	1854.7.13 = {
+		holder = alawiyya_4	# Sa'id
+	}
+	1863.1.19 = {
+		holder = alawiyya_5	# Isma'il
+	}
+	1879.6.26 = {
+		holder = alawiyya_6	# Tewfik
+	}
+	1882.7.5 = {	# Italy
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_bur = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1813.1.1 = {	# Egypt
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1848.7.20 = {
+		holder = alawiyya_1	# Ibrahim
+	}
+	1848.11.10 = {
+		holder = alawiyya_3	# Abbas I
+	}
+	1854.7.13 = {
+		holder = alawiyya_4	# Sa'id
+	}
+	1863.1.19 = {
+		holder = alawiyya_5	# Isma'il
+	}
+	1879.6.26 = {
+		holder = alawiyya_6	# Tewfik
+	}
+	1882.7.5 = {	# Italy
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+d_lasta = {
+	1801.6.1 = {
+		holder = solomonid_34	# Egwale Seyon
+	}
+	1832.10.1 = {
+		holder = solomonid_42	# Sahle Dengel
+	}
+	1855.2.11 = {
+		holder = solomonid_50	# Tewodros II
+	}
+	1913.12.12 = {
+		holder = solomonid_74	# Lij Iyasu
+	}
+}
+c_lasta = {
+	1801.6.1 = {
+		holder = solomonid_34	# Egwale Seyon
+	}
+	1832.10.1 = {
+		holder = solomonid_42	# Sahle Dengel
+	}
+	1855.2.11 = {
+		holder = solomonid_50	# Tewodros II
+	}
+	1913.12.12 = {
+		holder = solomonid_74	# Lij Iyasu
+	}
+}
+c_hayq = {
+	1801.6.1 = {
+		holder = solomonid_34	# Egwale Seyon
+	}
+	1832.10.1 = {
+		holder = solomonid_42	# Sahle Dengel
+	}
+	1855.2.11 = {
+		holder = solomonid_50	# Tewodros II
+	}
+	1913.12.12 = {
+		holder = solomonid_74	# Lij Iyasu
+	}
+}
+c_angot = {
+	1801.6.1 = {
+		holder = solomonid_34	# Egwale Seyon
+	}
+	1832.10.1 = {
+		holder = solomonid_42	# Sahle Dengel
+	}
+	1855.2.11 = {
+		holder = solomonid_50	# Tewodros II
+	}
+	1913.12.12 = {
+		holder = solomonid_74	# Lij Iyasu
+	}
+}
+c_amhara = {
+	1801.6.1 = {
+		holder = solomonid_34	# Egwale Seyon
+	}
+	1832.10.1 = {
+		holder = solomonid_42	# Sahle Dengel
+	}
+	1855.2.11 = {
+		holder = solomonid_50	# Tewodros II
+	}
+	1913.12.12 = {
+		holder = solomonid_74	# Lij Iyasu
+	}
+}
+d_gondar = {
+	1801.6.1 = {
+		holder = solomonid_34	# Egwale Seyon
+	}
+	1832.10.1 = {
+		holder = solomonid_42	# Sahle Dengel
+	}
+	1855.2.11 = {
+		holder = solomonid_50	# Tewodros II
+	}
+	1913.12.12 = {
+		holder = solomonid_74	# Lij Iyasu
+	}
+}
+c_dembiya = {
+	1801.6.1 = {
+		holder = solomonid_34	# Egwale Seyon
+	}
+	1832.10.1 = {
+		holder = solomonid_42	# Sahle Dengel
+	}
+	1855.2.11 = {
+		holder = solomonid_50	# Tewodros II
+	}
+	1913.12.12 = {
+		holder = solomonid_74	# Lij Iyasu
+	}
+}
+c_begemder = {
+	1801.6.1 = {
+		holder = solomonid_34	# Egwale Seyon
+	}
+	1832.10.1 = {
+		holder = solomonid_42	# Sahle Dengel
+	}
+	1855.2.11 = {
+		holder = solomonid_50	# Tewodros II
+	}
+	1913.12.12 = {
+		holder = solomonid_74	# Lij Iyasu
+	}
+}
+c_semien = {
+	1801.6.1 = {
+		holder = solomonid_34	# Egwale Seyon
+	}
+	1832.10.1 = {
+		holder = solomonid_42	# Sahle Dengel
+	}
+	1855.2.11 = {
+		holder = solomonid_50	# Tewodros II
+	}
+	1913.12.12 = {
+		holder = solomonid_74	# Lij Iyasu
+	}
+}
+d_gojjam = {
+	1801.6.1 = {
+		holder = solomonid_34	# Egwale Seyon
+	}
+	1832.10.1 = {
+		holder = solomonid_42	# Sahle Dengel
+	}
+	1855.2.11 = {
+		holder = solomonid_50	# Tewodros II
+	}
+	1913.12.12 = {
+		holder = solomonid_74	# Lij Iyasu
+	}
+}
+c_gojjam = {
+	1801.6.1 = {
+		holder = solomonid_34	# Egwale Seyon
+	}
+	1832.10.1 = {
+		holder = solomonid_42	# Sahle Dengel
+	}
+	1855.2.11 = {
+		holder = solomonid_50	# Tewodros II
+	}
+	1913.12.12 = {
+		holder = solomonid_74	# Lij Iyasu
+	}
+}
+c_gafat = {
+	1801.6.1 = {
+		holder = solomonid_34	# Egwale Seyon
+	}
+	1832.10.1 = {
+		holder = solomonid_42	# Sahle Dengel
+	}
+	1855.2.11 = {
+		holder = solomonid_50	# Tewodros II
+	}
+	1913.12.12 = {
+		holder = solomonid_74	# Lij Iyasu
+	}
+}
+c_agaw_meder = {
+	1801.6.1 = {
+		holder = solomonid_34	# Egwale Seyon
+	}
+	1832.10.1 = {
+		holder = solomonid_42	# Sahle Dengel
+	}
+	1855.2.11 = {
+		holder = solomonid_50	# Tewodros II
+	}
+	1913.12.12 = {
+		holder = solomonid_74	# Lij Iyasu
+	}
+}
+d_showa = {
+	1682.1.1 = {
+		holder = solomonid_63	# Nagasi Krestos
+		liege = k_abyssinia
+	}
+	1703.1.1 = {
+		holder = solomonid_64	# Sebestyanos
+	}
+	1718.1.1 = {
+		holder = solomonid_65	# Kidane Kale
+	}
+	1744.1.1 = {
+		holder = solomonid_66	# Amha Iyasus
+	}
+	1775.1.1 = {
+		holder = solomonid_67	# Asfaw Wossen
+	}
+	1808.1.1 = {
+		holder = solomonid_68	# Wossen Seged
+	}
+	1813.6.12 = {
+		holder = solomonid_69	# Sahle Selassie
+	}
+	1847.10.22 = {
+		holder = solomonid_70	# Haile Melekot
+	}
+	1855.10.22 = {
+		holder = solomonid_71	# Menelik II
+	}
+	1856.2.1 = {
+		holder = solomonid_50	# Tewodros II
+	}
+	1866.8.1 = {
+		holder = solomonid_71
+	}
+	1913.12.12 = {
+		holder = solomonid_74	# Lij Iyasu
+	}
+}
+c_showa = {
+	1808.1.1 = {
+		holder = solomonid_68	# Wossen Seged
+	}
+	1813.6.12 = {
+		holder = solomonid_69	# Sahle Selassie
+	}
+	1847.10.22 = {
+		holder = solomonid_70	# Haile Melekot
+	}
+	1856.2.1 = {
+		holder = solomonid_50	# Tewodros II
+	}
+	1866.8.1 = {
+		holder = solomonid_71
+	}
+	1913.12.12 = {
+		holder = solomonid_74	# Lij Iyasu
+	}
+}
+c_fetegar = {
+	1808.1.1 = {
+		holder = solomonid_68	# Wossen Seged
+	}
+	1813.6.12 = {
+		holder = solomonid_69	# Sahle Selassie
+	}
+	1847.10.22 = {
+		holder = solomonid_70	# Haile Melekot
+	}
+	1856.2.1 = {
+		holder = solomonid_50	# Tewodros II
+	}
+	1866.8.1 = {
+		holder = solomonid_71
+	}
+	1913.12.12 = {
+		holder = solomonid_74	# Lij Iyasu
+	}
+}
+c_waj = {
+	1808.1.1 = {
+		holder = solomonid_68	# Wossen Seged
+	}
+	1813.6.12 = {
+		holder = solomonid_69	# Sahle Selassie
+	}
+	1847.10.22 = {
+		holder = solomonid_70	# Haile Melekot
+	}
+	1856.2.1 = {
+		holder = solomonid_50	# Tewodros II
+	}
+	1866.8.1 = {
+		holder = solomonid_71
+	}
+	1913.12.12 = {
+		holder = solomonid_74	# Lij Iyasu
+	}
+}
+c_ifat = {
+	1808.1.1 = {
+		holder = solomonid_68	# Wossen Seged
+	}
+	1813.6.12 = {
+		holder = solomonid_69	# Sahle Selassie
+	}
+	1847.10.22 = {
+		holder = solomonid_70	# Haile Melekot
+	}
+	1856.2.1 = {
+		holder = solomonid_50	# Tewodros II
+	}
+	1866.8.1 = {
+		holder = solomonid_71
+	}
+	1913.12.12 = {
+		holder = solomonid_74	# Lij Iyasu
+	}
+}

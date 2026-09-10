@@ -1,0 +1,552 @@
+d_naqis = {
+	1821.1.1 = {	# Egypt
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1848.7.20 = {
+		holder = alawiyya_1	# Ibrahim
+	}
+	1848.11.10 = {
+		holder = alawiyya_3	# Abbas I
+	}
+	1854.7.13 = {
+		holder = alawiyya_4	# Sa'id
+	}
+	1863.1.19 = {
+		holder = alawiyya_5	# Isma'il
+	}
+	1879.6.26 = {
+		holder = alawiyya_6	# Tewfik
+	}
+	1892.1.8 = {
+		holder = alawiyya_7	# Abbas II
+	}
+	1899.6.19 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1901.1.22 = {
+		holder = wettin_34	# Edward VII
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_aydhab = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1813.1.1 = {	# Egypt
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1848.7.20 = {
+		holder = alawiyya_1	# Ibrahim
+	}
+	1848.11.10 = {
+		holder = alawiyya_3	# Abbas I
+	}
+	1854.7.13 = {
+		holder = alawiyya_4	# Sa'id
+	}
+	1863.1.19 = {
+		holder = alawiyya_5	# Isma'il
+	}
+	1879.6.26 = {
+		holder = alawiyya_6	# Tewfik
+	}
+	1892.1.8 = {
+		holder = alawiyya_7	# Abbas II
+	}
+	1899.6.19 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1901.1.22 = {
+		holder = wettin_34	# Edward VII
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_allaqi = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1821.1.1 = {	# Egypt
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1848.7.20 = {
+		holder = alawiyya_1	# Ibrahim
+	}
+	1848.11.10 = {
+		holder = alawiyya_3	# Abbas I
+	}
+	1854.7.13 = {
+		holder = alawiyya_4	# Sa'id
+	}
+	1863.1.19 = {
+		holder = alawiyya_5	# Isma'il
+	}
+	1879.6.26 = {
+		holder = alawiyya_6	# Tewfik
+	}
+	1892.1.8 = {
+		holder = alawiyya_7	# Abbas II
+	}
+	1899.6.19 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1901.1.22 = {
+		holder = wettin_34	# Edward VII
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_naqis = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1821.1.1 = {	# Egypt
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1848.7.20 = {
+		holder = alawiyya_1	# Ibrahim
+	}
+	1848.11.10 = {
+		holder = alawiyya_3	# Abbas I
+	}
+	1854.7.13 = {
+		holder = alawiyya_4	# Sa'id
+	}
+	1863.1.19 = {
+		holder = alawiyya_5	# Isma'il
+	}
+	1879.6.26 = {
+		holder = alawiyya_6	# Tewfik
+	}
+	1892.1.8 = {
+		holder = alawiyya_7	# Abbas II
+	}
+	1899.6.19 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1901.1.22 = {
+		holder = wettin_34	# Edward VII
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_wadi_amur = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1821.1.1 = {	# Egypt
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1848.7.20 = {
+		holder = alawiyya_1	# Ibrahim
+	}
+	1848.11.10 = {
+		holder = alawiyya_3	# Abbas I
+	}
+	1854.7.13 = {
+		holder = alawiyya_4	# Sa'id
+	}
+	1863.1.19 = {
+		holder = alawiyya_5	# Isma'il
+	}
+	1879.6.26 = {
+		holder = alawiyya_6	# Tewfik
+	}
+	1892.1.8 = {
+		holder = alawiyya_7	# Abbas II
+	}
+	1899.6.19 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1901.1.22 = {
+		holder = wettin_34	# Edward VII
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+d_bazin = {
+	1813.1.1 = {	# Egypt
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1848.7.20 = {
+		holder = alawiyya_1	# Ibrahim
+	}
+	1848.11.10 = {
+		holder = alawiyya_3	# Abbas I
+	}
+	1854.7.13 = {
+		holder = alawiyya_4	# Sa'id
+	}
+	1863.1.19 = {
+		holder = alawiyya_5	# Isma'il
+	}
+	1879.6.26 = {
+		holder = alawiyya_6	# Tewfik
+	}
+	1892.1.8 = {
+		holder = alawiyya_7	# Abbas II
+	}
+	1899.6.19 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1901.1.22 = {
+		holder = wettin_34	# Edward VII
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_bazin = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1813.1.1 = {	# Egypt
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1848.7.20 = {
+		holder = alawiyya_1	# Ibrahim
+	}
+	1848.11.10 = {
+		holder = alawiyya_3	# Abbas I
+	}
+	1854.7.13 = {
+		holder = alawiyya_4	# Sa'id
+	}
+	1863.1.19 = {
+		holder = alawiyya_5	# Isma'il
+	}
+	1879.6.26 = {
+		holder = alawiyya_6	# Tewfik
+	}
+	1892.1.8 = {
+		holder = alawiyya_7	# Abbas II
+	}
+	1899.6.19 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1901.1.22 = {
+		holder = wettin_34	# Edward VII
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_suakin = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1813.1.1 = {	# Egypt
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1848.7.20 = {
+		holder = alawiyya_1	# Ibrahim
+	}
+	1848.11.10 = {
+		holder = alawiyya_3	# Abbas I
+	}
+	1854.7.13 = {
+		holder = alawiyya_4	# Sa'id
+	}
+	1863.1.19 = {
+		holder = alawiyya_5	# Isma'il
+	}
+	1879.6.26 = {
+		holder = alawiyya_6	# Tewfik
+	}
+	1892.1.8 = {
+		holder = alawiyya_7	# Abbas II
+	}
+	1899.6.19 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1901.1.22 = {
+		holder = wettin_34	# Edward VII
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_badi = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1813.1.1 = {	# Egypt
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1848.7.20 = {
+		holder = alawiyya_1	# Ibrahim
+	}
+	1848.11.10 = {
+		holder = alawiyya_3	# Abbas I
+	}
+	1854.7.13 = {
+		holder = alawiyya_4	# Sa'id
+	}
+	1863.1.19 = {
+		holder = alawiyya_5	# Isma'il
+	}
+	1879.6.26 = {
+		holder = alawiyya_6	# Tewfik
+	}
+	1889.3.2 = {	# Italy
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+d_baqlin = {
+	1821.1.1 = {	# Egypt
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1848.7.20 = {
+		holder = alawiyya_1	# Ibrahim
+	}
+	1848.11.10 = {
+		holder = alawiyya_3	# Abbas I
+	}
+	1854.7.13 = {
+		holder = alawiyya_4	# Sa'id
+	}
+	1863.1.19 = {
+		holder = alawiyya_5	# Isma'il
+	}
+	1879.6.26 = {
+		holder = alawiyya_6	# Tewfik
+	}
+	1892.1.8 = {
+		holder = alawiyya_7	# Abbas II
+	}
+	1899.6.19 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1901.1.22 = {
+		holder = wettin_34	# Edward VII
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_baqlin = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1821.1.1 = {	# Egypt
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1848.7.20 = {
+		holder = alawiyya_1	# Ibrahim
+	}
+	1848.11.10 = {
+		holder = alawiyya_3	# Abbas I
+	}
+	1854.7.13 = {
+		holder = alawiyya_4	# Sa'id
+	}
+	1863.1.19 = {
+		holder = alawiyya_5	# Isma'il
+	}
+	1879.6.26 = {
+		holder = alawiyya_6	# Tewfik
+	}
+	1892.1.8 = {
+		holder = alawiyya_7	# Abbas II
+	}
+	1899.6.19 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1901.1.22 = {
+		holder = wettin_34	# Edward VII
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_djarin = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1821.1.1 = {	# Egypt
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1848.7.20 = {
+		holder = alawiyya_1	# Ibrahim
+	}
+	1848.11.10 = {
+		holder = alawiyya_3	# Abbas I
+	}
+	1854.7.13 = {
+		holder = alawiyya_4	# Sa'id
+	}
+	1863.1.19 = {
+		holder = alawiyya_5	# Isma'il
+	}
+	1879.6.26 = {
+		holder = alawiyya_6	# Tewfik
+	}
+	1892.1.8 = {
+		holder = alawiyya_7	# Abbas II
+	}
+	1899.6.19 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1901.1.22 = {
+		holder = wettin_34	# Edward VII
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_qataa = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1821.1.1 = {	# Egypt
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1848.7.20 = {
+		holder = alawiyya_1	# Ibrahim
+	}
+	1848.11.10 = {
+		holder = alawiyya_3	# Abbas I
+	}
+	1854.7.13 = {
+		holder = alawiyya_4	# Sa'id
+	}
+	1863.1.19 = {
+		holder = alawiyya_5	# Isma'il
+	}
+	1879.6.26 = {
+		holder = alawiyya_6	# Tewfik
+	}
+	1889.3.2 = {	# Italy
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_kassala = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1821.1.1 = {	# Egypt
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1848.7.20 = {
+		holder = alawiyya_1	# Ibrahim
+	}
+	1848.11.10 = {
+		holder = alawiyya_3	# Abbas I
+	}
+	1854.7.13 = {
+		holder = alawiyya_4	# Sa'id
+	}
+	1863.1.19 = {
+		holder = alawiyya_5	# Isma'il
+	}
+	1879.6.26 = {
+		holder = alawiyya_6	# Tewfik
+	}
+	1892.1.8 = {
+		holder = alawiyya_7	# Abbas II
+	}
+	1899.6.19 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1901.1.22 = {
+		holder = wettin_34	# Edward VII
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_showak = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1821.1.1 = {	# Egypt
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1848.7.20 = {
+		holder = alawiyya_1	# Ibrahim
+	}
+	1848.11.10 = {
+		holder = alawiyya_3	# Abbas I
+	}
+	1854.7.13 = {
+		holder = alawiyya_4	# Sa'id
+	}
+	1863.1.19 = {
+		holder = alawiyya_5	# Isma'il
+	}
+	1879.6.26 = {
+		holder = alawiyya_6	# Tewfik
+	}
+	1892.1.8 = {
+		holder = alawiyya_7	# Abbas II
+	}
+	1899.6.19 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1901.1.22 = {
+		holder = wettin_34	# Edward VII
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_wolqayt = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1821.1.1 = {	# Egypt
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1848.7.20 = {
+		holder = alawiyya_1	# Ibrahim
+	}
+	1848.11.10 = {
+		holder = alawiyya_3	# Abbas I
+	}
+	1854.7.13 = {
+		holder = alawiyya_4	# Sa'id
+	}
+	1863.1.19 = {
+		holder = alawiyya_5	# Isma'il
+	}
+	1879.6.26 = {
+		holder = alawiyya_6	# Tewfik
+	}
+	1892.1.8 = {
+		holder = alawiyya_7	# Abbas II
+	}
+	1899.6.19 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1901.1.22 = {
+		holder = wettin_34	# Edward VII
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}

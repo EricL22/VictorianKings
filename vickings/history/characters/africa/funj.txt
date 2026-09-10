@@ -1,0 +1,11 @@
+﻿funj_0 = {
+	name = "Badi"	# VII of the Funj Sultanate
+	religion = "ashari"
+	culture = "nubian"
+	1785.1.1 = {	# unknown
+		birth = yes
+	}
+	1821.6.14 = {
+		death = yes
+	}
+}

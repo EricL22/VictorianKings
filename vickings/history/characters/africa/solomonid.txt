@@ -1,0 +1,881 @@
+﻿solomonid_0 = {
+	name = "Niwaya Maryam"
+	dynasty = 7246
+	religion = "coptic"
+	culture = "ethiopian"
+	father = 32260
+	1350.1.1 = {	# unknown
+		birth = yes
+	}
+	1382.1.1 = {
+		death = yes
+	}
+}
+
+solomonid_1 = {
+	name = "Dawit"	# I of Ethiopia
+	dynasty = 7246
+	religion = "coptic"
+	culture = "ethiopian"
+	father = 32260
+	1355.1.1 = {	# unknown
+		birth = yes
+	}
+	1413.10.6 = {
+		death = yes
+	}
+}
+
+solomonid_2 = {
+	name = "Tewodros"	# I of Ethiopia
+	dynasty = 7246
+	religion = "coptic"
+	culture = "ethiopian"
+	father = solomonid_1
+	1375.1.1 = {	# unknown
+		birth = yes
+	}
+	1414.7.2 = {
+		death = yes
+	}
+}
+
+solomonid_3 = {
+	name = "Yeshaq"	# I of Ethiopia
+	dynasty = 7246
+	religion = "coptic"
+	culture = "ethiopian"
+	father = solomonid_1
+	1376.1.1 = {	# unknown
+		birth = yes
+	}
+	1429.9.1 = {
+		death = yes
+	}
+}
+
+solomonid_4 = {
+	name = "Andreyas"
+	dynasty = 7246
+	religion = "coptic"
+	culture = "ethiopian"
+	father = solomonid_3
+	1395.1.1 = {	# unknown
+		birth = yes
+	}
+	1430.3.1 = {
+		death = yes
+	}
+}
+
+solomonid_5 = {
+	name = "Zara Yaqob"
+	dynasty = 7246
+	religion = "coptic"
+	culture = "ethiopian"
+	father = solomonid_1
+	1399.1.1 = {
+		birth = yes
+	}
+	1468.8.26 = {
+		death = yes
+	}
+}
+
+solomonid_6 = {
+	name = "Baeda Maryam"	# I of Ethiopia
+	dynasty = 7246
+	religion = "coptic"
+	culture = "ethiopian"
+	father = solomonid_5
+	1448.1.1 = {
+		birth = yes
+	}
+	1478.11.8 = {
+		death = yes
+	}
+}
+
+solomonid_7 = {
+	name = "Eskender"
+	dynasty = 7246
+	religion = "coptic"
+	culture = "ethiopian"
+	father = solomonid_6
+	1471.7.15 = {
+		birth = yes
+	}
+	1494.5.7 = {
+		death = yes
+	}
+}
+
+solomonid_8 = {
+	name = "Na'od"
+	dynasty = 7246
+	religion = "coptic"
+	culture = "ethiopian"
+	father = solomonid_6
+	1473.1.1 = {
+		birth = yes
+	}
+	1507.7.31 = {
+		death = yes
+	}
+}
+
+solomonid_9 = {
+	name = "Dawit"	# II of Ethiopia
+	dynasty = 7246
+	religion = "coptic"
+	culture = "ethiopian"
+	father = solomonid_8
+	1496.1.1 = {
+		birth = yes
+	}
+	1540.9.2 = {
+		death = yes
+	}
+}
+
+solomonid_10 = {
+	name = "Yakob"	# Prince of Ethiopia
+	dynasty = 7246
+	religion = "coptic"
+	culture = "ethiopian"
+	father = solomonid_9
+	1538.1.1 = {	# unknown
+		birth = yes
+	}
+	1557.1.1 = {
+		death = yes
+	}
+}
+
+## Gondar line
+solomonid_11 = {
+	name = "Fasilidas"	# Prince of Ethiopia
+	dynasty = 7246
+	religion = "coptic"
+	culture = "ethiopian"
+	father = solomonid_10
+	1560.1.1 = {	# unknown
+		birth = yes
+	}
+	1600.1.1 = {	# unknown
+		death = yes
+	}
+}
+
+solomonid_12 = {
+	name = "Susenyos"	# I of Ethiopia
+	dynasty = 7246
+	religion = "coptic"
+	culture = "ethiopian"
+	father = solomonid_11
+	1572.1.1 = {
+		birth = yes
+	}
+	1622.1.1 = {
+		religion = catholic
+	}
+	1632.9.17 = {
+		death = yes
+	}
+}
+
+solomonid_13 = {
+	name = "Fasilides"
+	dynasty = 7246
+	religion = "coptic"
+	culture = "ethiopian"
+	father = solomonid_12
+	1603.11.20 = {
+		birth = yes
+	}
+	1667.10.18 = {
+		death = yes
+	}
+}
+
+solomonid_14 = {
+	name = "Yohannes"	# I of Ethiopia
+	dynasty = 7246
+	religion = "coptic"
+	culture = "ethiopian"
+	father = solomonid_13
+	1640.1.1 = {
+		birth = yes
+	}
+	1682.7.19 = {
+		death = yes
+	}
+}
+
+solomonid_15 = {
+	name = "Iyasu"	# I of Ethiopia
+	dynasty = 7246
+	religion = "coptic"
+	culture = "ethiopian"
+	father = solomonid_14
+	1654.1.1 = {
+		birth = yes
+	}
+	1706.10.13 = {
+		death = yes
+	}
+}
+
+solomonid_16 = {
+	name = "Tekle Haymanot"	# I of Ethiopia
+	dynasty = 7246
+	religion = "coptic"
+	culture = "ethiopian"
+	father = solomonid_15
+	1684.3.28 = {
+		birth = yes
+	}
+	1708.6.30 = {
+		death = yes
+	}
+}
+
+solomonid_17 = {
+	name = "Dawit"	# III of Ethiopia
+	dynasty = 7246
+	religion = "coptic"
+	culture = "ethiopian"
+	father = solomonid_15
+	1694.1.1 = {
+		birth = yes
+	}
+	1721.5.18 = {
+		death = yes
+	}
+}
+
+solomonid_18 = {
+	name = "Bakaffa"
+	dynasty = 7246
+	religion = "coptic"
+	culture = "ethiopian"
+	father = solomonid_15
+	1690.1.1 = {	# unknown
+		birth = yes
+	}
+	1730.9.19 = {
+		death = yes
+	}
+}
+
+solomonid_19 = {
+	name = "Iyasu"	# II of Ethiopia
+	dynasty = 7246
+	religion = "coptic"
+	culture = "ethiopian"
+	father = solomonid_18
+	1723.10.21 = {
+		birth = yes
+	}
+	1755.6.27 = {
+		death = yes
+	}
+}
+
+solomonid_20 = {
+	name = "Iyoas"	# I of Ethiopia
+	dynasty = 7246
+	religion = "coptic"
+	culture = "ethiopian"
+	father = solomonid_19
+	1754.1.1 = {
+		birth = yes
+	}
+	1769.5.14 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+
+solomonid_21 = {
+	name = "Yohannes"	# II of Ethiopia
+	dynasty = 7246
+	religion = "coptic"
+	culture = "ethiopian"
+	father = solomonid_15
+	1699.1.1 = {
+		birth = yes
+	}
+	1769.10.18 = {
+		death = yes
+	}
+}
+
+solomonid_22 = {
+	name = "Tekle Haymanot"	# II of Ethiopia
+	dynasty = 7246
+	religion = "coptic"
+	culture = "ethiopian"
+	father = solomonid_21
+	1754.1.1 = {
+		birth = yes
+	}
+	1777.9.7 = {
+		death = yes
+	}
+}
+
+solomonid_23 = {
+	name = "Susenyos"	# II of Ethiopia
+	dynasty = 7246
+	religion = "coptic"
+	culture = "ethiopian"
+	father = solomonid_19
+	trait = bastard
+	1753.1.1 = {	# unknown
+		birth = yes
+	}
+	1771.1.1 = {
+		death = yes
+	}
+}
+
+solomonid_24 = {
+	name = "Adigo"	# Prince of Ethiopia
+	dynasty = 7246
+	religion = "coptic"
+	culture = "ethiopian"
+	father = solomonid_19
+	1751.1.1 = {	# unknown
+		birth = yes
+	}
+	1771.1.1 = {	# unknown
+		death = yes
+	}
+}
+
+solomonid_25 = {
+	name = "Salomon"	# II of Ethiopia
+	dynasty = 7246
+	religion = "coptic"
+	culture = "ethiopian"
+	father = solomonid_24
+	1765.1.1 = {	# unknown
+		birth = yes
+	}
+	1779.7.20 = {
+		death = yes
+	}
+}
+
+solomonid_26 = {
+	name = "Baeda Maryam"	# II of Ethiopia
+	dynasty = 7246
+	religion = "coptic"
+	culture = "ethiopian"
+	father = solomonid_25
+	1780.1.1 = {	# unknown
+		birth = yes
+	}
+	1795.12.1 = {
+		death = yes
+	}
+}
+
+solomonid_27 = {
+	name = "Atsequ"	# Prince of Ethiopia
+	dynasty = 7246
+	religion = "coptic"
+	culture = "ethiopian"
+	father = solomonid_19
+	1752.1.1 = {	# unknown
+		birth = yes
+	}
+	1771.1.1 = {	# unknown
+		death = yes
+	}
+}
+
+solomonid_28 = {
+	name = "Iyasu"	# III of Ethiopia
+	dynasty = 7246
+	religion = "coptic"
+	culture = "ethiopian"
+	father = solomonid_27
+	1770.1.1 = {	# unknown
+		birth = yes
+	}
+	1788.4.24 = {
+		death = yes
+	}
+}
+
+solomonid_29 = {
+	name = "Salomon"	# III of Ethiopia
+	dynasty = 7246
+	religion = "coptic"
+	culture = "ethiopian"
+	father = solomonid_22
+	1770.1.1 = {	# unknown
+		birth = yes
+	}
+	1799.7.25 = {
+		death = yes
+	}
+}
+
+solomonid_30 = {
+	name = "Iyasu"	# IV of Ethiopia
+	dynasty = 7246
+	religion = "coptic"
+	culture = "ethiopian"
+	father = solomonid_29
+	1790.1.1 = {	# unknown
+		birth = yes
+	}
+	1832.3.18 = {
+		death = yes
+	}
+}
+
+solomonid_31 = {
+	name = "Tekle Giyorgis"	# I of Ethiopia
+	dynasty = 7246
+	religion = "coptic"
+	culture = "ethiopian"
+	father = solomonid_21
+	1751.1.1 = {
+		birth = yes
+	}
+	1817.12.12 = {
+		death = yes
+	}
+}
+
+solomonid_32 = {
+	name = "Yohannes"	# III of Ethiopia
+	dynasty = 7246
+	religion = "coptic"
+	culture = "ethiopian"
+	father = solomonid_31
+	1797.1.1 = {
+		birth = yes
+	}
+	1873.1.1 = {
+		death = yes
+	}
+}
+
+solomonid_33 = {
+	name = "Hezqeyas"
+	dynasty = 7246
+	religion = "coptic"
+	culture = "ethiopian"
+	father = solomonid_19
+	1755.1.1 = {	# unknown
+		birth = yes
+	}
+	1813.9.13 = {
+		death = yes
+	}
+}
+
+solomonid_34 = {
+	name = "Egwale Seyon"
+	dynasty = 7246
+	religion = "coptic"
+	culture = "ethiopian"
+	father = solomonid_33
+	1785.1.1 = {	# unknown
+		birth = yes
+	}
+	1818.6.12 = {
+		death = yes
+	}
+}
+
+solomonid_35 = {
+	name = "Iyoas"	# II of Ethiopia
+	dynasty = 7246
+	religion = "coptic"
+	culture = "ethiopian"
+	father = solomonid_33
+	1790.1.1 = {	# unknown
+		birth = yes
+	}
+	1821.6.3 = {
+		death = yes
+	}
+}
+
+solomonid_36 = {
+	name = "Gigar"
+	dynasty = 7246
+	religion = "coptic"
+	culture = "ethiopian"
+	father = solomonid_19
+	1745.1.1 = {
+		birth = yes
+	}
+	1832.11.26 = {
+		death = yes
+	}
+}
+
+# Sahle Dengel traced his descent through this line. Intervening generations are hypothetical.
+solomonid_37 = {
+	name = "Dawit"
+	dynasty = 7246
+	religion = "coptic"
+	culture = "ethiopian"
+	father = solomonid_13
+	1647.1.1 = {	# unknown
+		birth = yes
+	}
+	1666.1.1 = {	# unknown
+		death = yes
+	}
+}
+solomonid_38 = {
+	name = "Dawit"
+	dynasty = 7246
+	religion = "coptic"
+	culture = "ethiopian"
+	father = solomonid_37
+	1662.1.1 = {	# unknown
+		birth = yes
+	}
+	1725.1.1 = {	# unknown
+		death = yes
+	}
+}
+solomonid_39 = {
+	name = "Gabre Dawit"
+	dynasty = 7246
+	religion = "coptic"
+	culture = "ethiopian"
+	father = solomonid_38
+	1690.1.1 = {	# unknown
+		birth = yes
+	}
+	1755.1.1 = {	# unknown
+		death = yes
+	}
+}
+solomonid_40 = {
+	name = "Gabre Dawit"
+	dynasty = 7246
+	religion = "coptic"
+	culture = "ethiopian"
+	father = solomonid_39
+	1720.1.1 = {	# unknown
+		birth = yes
+	}
+	1780.1.1 = {	# unknown
+		death = yes
+	}
+}
+solomonid_41 = {
+	name = "Gabre Mesay"
+	dynasty = 7246
+	religion = "coptic"
+	culture = "ethiopian"
+	father = solomonid_40
+	1748.1.1 = {	# unknown
+		birth = yes
+	}
+	1833.1.1 = {	# unknown
+		death = yes
+	}
+}
+
+solomonid_42 = {
+	name = "Sahle Dengel"
+	dynasty = 7246
+	religion = "coptic"
+	culture = "ethiopian"
+	father = solomonid_41
+	1778.1.1 = {
+		birth = yes
+	}
+	1855.2.11 = {
+		death = yes
+	}
+}
+####################
+
+## Tewodros dynasty (descended cognatically from Solomonids)
+solomonid_50 = {
+	name = "Tewodros"
+	# dynasty = 7246
+	religion = "coptic"
+	culture = "ethiopian"
+	1818.1.1 = {
+		birth = yes
+	}
+	1856.2.1 = {
+		imprison = {
+			target = character:solomonid_71	# Menelik II
+			type = house_arrest
+		}
+	}
+	1868.4.15 = {
+		death = yes
+	}
+}
+
+solomonid_51 = {
+	name = "Alemayehu"
+	# dynasty = 7246
+	religion = "coptic"
+	culture = "ethiopian"
+	father = solomonid_50
+	1861.4.23 = {
+		birth = yes
+	}
+	1879.11.14 = {
+		death = yes
+	}
+}
+####################
+
+## Shewa line
+solomonid_60 = {
+	name = "Segwa Qal"	# Prince of Shewa
+	dynasty = 7246
+	religion = "coptic"
+	culture = "ethiopian"
+	father = solomonid_10
+	1565.1.1 = {	# unknown
+		birth = yes
+	}
+	1600.1.1 = {	# unknown
+		death = yes
+	}
+}
+solomonid_61 = {
+	name = "Warada Qal"	# Prince of Shewa
+	dynasty = 7246
+	religion = "coptic"
+	culture = "ethiopian"
+	father = solomonid_60
+	1590.1.1 = {	# unknown
+		birth = yes
+	}
+	1630.1.1 = {	# unknown
+		death = yes
+	}
+}
+solomonid_62 = {
+	name = "Lebsa Qal"	# Prince of Shewa
+	dynasty = 7246
+	religion = "coptic"
+	culture = "ethiopian"
+	father = solomonid_61
+	1610.1.1 = {	# unknown
+		birth = yes
+	}
+	1650.1.1 = {	# unknown
+		death = yes
+	}
+}
+solomonid_63 = {
+	name = "Negasi Krestos"	# Prince of Shewa
+	dynasty = 7246
+	religion = "coptic"
+	culture = "ethiopian"
+	father = solomonid_62
+	1640.1.1 = {	# unknown
+		birth = yes
+	}
+	1703.1.1 = {
+		death = yes
+	}
+}
+solomonid_64 = {
+	name = "Sebestyanos"	# Prince of Shewa
+	dynasty = 7246
+	religion = "coptic"
+	culture = "ethiopian"
+	father = solomonid_63
+	1660.1.1 = {	# unknown
+		birth = yes
+	}
+	1718.1.1 = {
+		death = yes
+	}
+}
+solomonid_65 = {
+	name = "Qedami Qal"	# Prince of Shewa
+	dynasty = 7246
+	religion = "coptic"
+	culture = "ethiopian"
+	father = solomonid_64
+	1690.1.1 = {	# unknown
+		birth = yes
+	}
+	1744.1.1 = {
+		death = yes
+	}
+}
+solomonid_66 = {
+	name = "Amha Iyasus"	# Prince of Shewa
+	dynasty = 7246
+	religion = "coptic"
+	culture = "ethiopian"
+	father = solomonid_65
+	1720.1.1 = {	# unknown
+		birth = yes
+	}
+	1775.1.1 = {
+		death = yes
+	}
+}
+solomonid_67 = {
+	name = "Asfaw Wossen"	# Prince of Shewa
+	dynasty = 7246
+	religion = "coptic"
+	culture = "ethiopian"
+	father = solomonid_66
+	1750.1.1 = {	# unknown
+		birth = yes
+	}
+	1808.1.1 = {
+		death = yes
+	}
+}
+solomonid_68 = {
+	name = "Wossen Seged"	# Prince of Shewa
+	dynasty = 7246
+	religion = "coptic"
+	culture = "ethiopian"
+	father = solomonid_67
+	1770.1.1 = {	# unknown
+		birth = yes
+	}
+	1813.6.12 = {
+		death = yes
+	}
+}
+solomonid_69 = {
+	name = "Sahle Selassie"	# King of Shewa
+	dynasty = 7246
+	religion = "coptic"
+	culture = "ethiopian"
+	father = solomonid_68
+	1795.1.1 = {
+		birth = yes
+	}
+	1847.10.22 = {
+		death = yes
+	}
+}
+solomonid_70 = {
+	name = "Haile Melekot"	# King of Shewa
+	dynasty = 7246
+	religion = "coptic"
+	culture = "ethiopian"
+	father = solomonid_69
+	1824.1.1 = {
+		birth = yes
+	}
+	1855.10.22 = {
+		death = yes
+	}
+}
+solomonid_71 = {
+	name = "Menelik"	# II of Ethiopia
+	dynasty = 7246
+	religion = "coptic"
+	culture = "ethiopian"
+	father = solomonid_70
+	1844.8.17 = {
+		birth = yes
+	}
+	1913.12.12 = {
+		death = yes
+	}
+}
+solomonid_72 = {
+	name = "Zewditu"
+	dynasty = 7246
+	religion = "coptic"
+	culture = "ethiopian"
+	father = solomonid_71
+	female = yes
+	1876.4.29 = {
+		birth = yes
+	}
+	1930.4.2 = {
+		death = yes
+	}
+}
+solomonid_73 = {
+	name = "Shoagarad"
+	dynasty = 7246
+	religion = "coptic"
+	culture = "ethiopian"
+	father = solomonid_71
+	female = yes
+	1867.1.1 = {
+		birth = yes
+	}
+	1897.12.1 = {
+		death = yes
+	}
+}
+solomonid_74 = {
+	name = "Iyasu"
+	dynasty = 7246
+	religion = "coptic"
+	culture = "ethiopian"
+	mother = solomonid_73
+	1895.2.4 = {
+		birth = yes
+	}
+	1935.11.25 = {
+		death = yes
+	}
+}
+solomonid_75 = {
+	name = "Tenagnework"
+	dynasty = 7246
+	religion = "coptic"
+	culture = "ethiopian"
+	father = solomonid_69
+	female = yes
+	1820.1.1 = {	# unknown
+		birth = yes
+	}
+	1860.1.1 = {	# unknown
+		death = yes
+	}
+}
+solomonid_76 = {
+	name = "Makonnen"
+	dynasty = 7246
+	religion = "coptic"
+	culture = "ethiopian"
+	mother = solomonid_75
+	1852.5.8 = {
+		birth = yes
+	}
+	1906.3.21 = {
+		death = yes
+	}
+}
+solomonid_77 = {
+	name = "Haile Selassie"
+	dynasty = 7246
+	religion = "coptic"
+	culture = "ethiopian"
+	father = solomonid_76
+	1892.7.23 = {
+		birth = yes
+	}
+	1975.8.27 = {
+		death = yes
+	}
+}
+####################

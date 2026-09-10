@@ -1,0 +1,156 @@
+d_damot = {
+	1898.1.1 = {
+		holder = solomonid_71	# Menelik II
+	}
+	1913.12.12 = {
+		holder = solomonid_74	# Lij Iyasu
+	}
+}
+c_damot = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1898.1.1 = {	# Ethiopia
+		holder = solomonid_71	# Menelik II
+	}
+	1913.12.12 = {
+		holder = solomonid_74	# Lij Iyasu
+	}
+}
+c_berta = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1898.1.1 = {	# Ethiopia
+		holder = solomonid_71	# Menelik II
+	}
+	1913.12.12 = {
+		holder = solomonid_74	# Lij Iyasu
+	}
+}
+c_wellega = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1898.1.1 = {	# Ethiopia
+		holder = solomonid_71	# Menelik II
+	}
+	1913.12.12 = {
+		holder = solomonid_74	# Lij Iyasu
+	}
+}
+c_innarya = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1898.1.1 = {	# Ethiopia
+		holder = solomonid_71	# Menelik II
+	}
+	1913.12.12 = {
+		holder = solomonid_74	# Lij Iyasu
+	}
+}
+d_kaffa = {
+	1898.1.1 = {
+		holder = solomonid_71	# Menelik II
+	}
+	1913.12.12 = {
+		holder = solomonid_74	# Lij Iyasu
+	}
+}
+c_kaffa = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1898.1.1 = {	# Ethiopia
+		holder = solomonid_71	# Menelik II
+	}
+	1913.12.12 = {
+		holder = solomonid_74	# Lij Iyasu
+	}
+}
+c_welamo = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1898.1.1 = {	# Ethiopia
+		holder = solomonid_71	# Menelik II
+	}
+	1913.12.12 = {
+		holder = solomonid_74	# Lij Iyasu
+	}
+}
+c_gamo = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1898.1.1 = {	# Ethiopia
+		holder = solomonid_71	# Menelik II
+	}
+	1913.12.12 = {
+		holder = solomonid_74	# Lij Iyasu
+	}
+}
+d_sharka = {
+	1898.1.1 = {
+		holder = solomonid_71	# Menelik II
+	}
+	1913.12.12 = {
+		holder = solomonid_74	# Lij Iyasu
+	}
+}
+c_sharka = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1898.1.1 = {	# Ethiopia
+		holder = solomonid_71	# Menelik II
+	}
+	1913.12.12 = {
+		holder = solomonid_74	# Lij Iyasu
+	}
+}
+c_burji = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1898.1.1 = {	# Ethiopia
+		holder = solomonid_71	# Menelik II
+	}
+	1913.12.12 = {
+		holder = solomonid_74	# Lij Iyasu
+	}
+}
+c_dara = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1898.1.1 = {	# Ethiopia
+		holder = solomonid_71	# Menelik II
+	}
+	1913.12.12 = {
+		holder = solomonid_74	# Lij Iyasu
+	}
+}
+c_hadya = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1898.1.1 = {	# Ethiopia
+		holder = solomonid_71	# Menelik II
+	}
+	1913.12.12 = {
+		holder = solomonid_74	# Lij Iyasu
+	}
+}

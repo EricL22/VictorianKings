@@ -1,0 +1,251 @@
+#d_dawaro = {
+#}
+c_dawaro = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1896.1.1 = {	# Ethiopia
+		holder = solomonid_71	# Menelik II
+	}
+	1913.12.12 = {
+		holder = solomonid_74	# Lij Iyasu
+	}
+}
+c_gabal = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1896.1.1 = {	# Ethiopia
+		holder = solomonid_71	# Menelik II
+	}
+	1913.12.12 = {
+		holder = solomonid_74	# Lij Iyasu
+	}
+}
+c_arusi = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1896.1.1 = {	# Ethiopia
+		holder = solomonid_71	# Menelik II
+	}
+	1913.12.12 = {
+		holder = solomonid_74	# Lij Iyasu
+	}
+}
+#d_adal = {
+#}
+c_dakkar = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1896.1.1 = {	# Ethiopia
+		holder = solomonid_71	# Menelik II
+	}
+	1913.12.12 = {
+		holder = solomonid_74	# Lij Iyasu
+	}
+}
+c_harar = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1896.1.1 = {	# Ethiopia
+		holder = solomonid_71	# Menelik II
+	}
+	1913.12.12 = {
+		holder = solomonid_74	# Lij Iyasu
+	}
+}
+c_hargaya = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1896.1.1 = {	# Ethiopia
+		holder = solomonid_71	# Menelik II
+	}
+	1913.12.12 = {
+		holder = solomonid_74	# Lij Iyasu
+	}
+}
+c_fafan = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1896.1.1 = {	# Ethiopia
+		holder = solomonid_71	# Menelik II
+	}
+	1913.12.12 = {
+		holder = solomonid_74	# Lij Iyasu
+	}
+}
+#d_mora = {
+#}
+c_awssa = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1889.3.11 = {	# Ethiopia
+		holder = solomonid_71	# Menelik II
+	}
+	1913.12.12 = {
+		holder = solomonid_74	# Lij Iyasu
+	}
+}
+c_sitti = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1889.3.11 = {	# Ethiopia
+		holder = solomonid_71	# Menelik II
+	}
+	1913.12.12 = {
+		holder = solomonid_74	# Lij Iyasu
+	}
+}
+d_danakil = {
+	1889.3.11 = {
+		holder = solomonid_71	# Menelik II
+	}
+	1913.12.12 = {
+		holder = solomonid_74	# Lij Iyasu
+	}
+}
+c_danakil = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1889.3.11 = {	# Ethiopia
+		holder = solomonid_71	# Menelik II
+	}
+	1913.12.12 = {
+		holder = solomonid_74	# Lij Iyasu
+	}
+}
+c_edd = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1882.7.5 = {	# Italy
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_afar = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1889.3.11 = {	# Ethiopia
+		holder = solomonid_71	# Menelik II
+	}
+	1913.12.12 = {
+		holder = solomonid_74	# Lij Iyasu
+	}
+}
+#d_zaila = {
+#}
+c_zaila = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	# 1884.5.20: France
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
+	}
+}
+c_tadjoura = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	# 1884.5.20: France
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
+	}
+}
+c_berbera = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1884.1.1 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1901.1.22 = {
+		holder = wettin_34	# Edward VII
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+d_sanaag = {
+	1884.1.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1901.1.22 = {
+		holder = wettin_34	# Edward VII
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_mait = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1884.1.1 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1901.1.22 = {
+		holder = wettin_34	# Edward VII
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_makhir = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1884.1.1 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1901.1.22 = {
+		holder = wettin_34	# Edward VII
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_busaso = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1884.1.1 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1901.1.22 = {
+		holder = wettin_34	# Edward VII
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
