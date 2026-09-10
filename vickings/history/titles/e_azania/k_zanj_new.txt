@@ -1,0 +1,240 @@
+#d_pate = {
+#}
+c_pate = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1895.7.1 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1901.1.22 = {
+		holder = wettin_34	# Edward VII
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_ewaso_ngiro = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1895.7.1 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1901.1.22 = {
+		holder = wettin_34	# Edward VII
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_lamu = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1895.7.1 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1901.1.22 = {
+		holder = wettin_34	# Edward VII
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+#d_mombasa = {
+#}
+c_mombasa = {
+	1804.11.1 = {	# Zanzibar
+		holder = albusaid_0	# Said bin Sultan
+	}
+	1856.10.19 = {
+		holder = albusaid_10	# Majid bin Said
+	}
+	1895.7.1 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1901.1.22 = {
+		holder = wettin_34	# Edward VII
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_malindi = {
+	1804.11.1 = {	# Zanzibar
+		holder = albusaid_0	# Said bin Sultan
+	}
+	1856.10.19 = {
+		holder = albusaid_10	# Majid bin Said
+	}
+	1895.7.1 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1901.1.22 = {
+		holder = wettin_34	# Edward VII
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+#d_bonde_la_ufa = {
+#}
+c_kirinyaga = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1895.7.1 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1901.1.22 = {
+		holder = wettin_34	# Edward VII
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_kilimanjaro = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1885.2.27 = {	# Germany
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
+	}
+}
+c_taveta = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1895.7.1 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1901.1.22 = {
+		holder = wettin_34	# Edward VII
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_mto_galana = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1895.7.1 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1901.1.22 = {
+		holder = wettin_34	# Edward VII
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_mto_tana = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1895.7.1 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1901.1.22 = {
+		holder = wettin_34	# Edward VII
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+d_zanzibar = {
+	1804.11.1 = {
+		holder = albusaid_0	# Said bin Sultan
+	}
+	1856.10.19 = {
+		holder = albusaid_10	# Majid bin Said
+	}
+	1870.10.17 = {
+		holder = albusaid_11	# Barghash bin Said
+	}
+	1888.3.26 = {
+		holder = albusaid_12	# Khalifah bin Said
+	}
+	1890.2.13 = {
+		holder = albusaid_13	# Ali bin Said
+	}
+	1893.3.5 = {
+		holder = albusaid_14	# Hamad bin Thuwaini
+	}
+	1896.8.25 = {
+		holder = albusaid_15	# Khalid bin Barghash
+	}
+	1896.8.27 = {
+		holder = albusaid_17	# Hamoud bin Mohammed
+		liege = e_britannia
+	}
+	1902.7.20 = {
+		holder = albusaid_18	# Ali bin Hamud
+	}
+	1911.12.9 = {
+		holder = albusaid_20	# Khalifa bin Harub
+	}
+}
+c_pemba = {
+	1804.11.1 = {
+		holder = albusaid_0	# Said bin Sultan
+	}
+	1856.10.19 = {
+		holder = albusaid_10	# Majid bin Said
+	}
+	1911.12.9 = {
+		holder = albusaid_20	# Khalifa bin Harub
+	}
+}
+c_tanga = {
+	1804.11.1 = {	# Zanzibar
+		holder = albusaid_0	# Said bin Sultan
+	}
+	1856.10.19 = {
+		holder = albusaid_10	# Majid bin Said
+	}
+	1885.2.27 = {	# Germany
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
+	}
+}
+c_zanzibar = {
+	1804.11.1 = {
+		holder = albusaid_0	# Said bin Sultan
+	}
+	1856.10.19 = {
+		holder = albusaid_10	# Majid bin Said
+	}
+	1911.12.9 = {
+		holder = albusaid_20	# Khalifa bin Harub
+	}
+}
+c_mrima = {
+	1804.11.1 = {	# Zanzibar
+		holder = albusaid_0	# Said bin Sultan
+	}
+	1856.10.19 = {
+		holder = albusaid_10	# Majid bin Said
+	}
+	1885.2.27 = {	# Germany
+		holder = hohenzollern_18	# Wilhelm I
+	}
+	1888.6.15 = {
+		holder = hohenzollern_20	# Wilhelm II
+	}
+}

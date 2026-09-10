@@ -94,3 +94,172 @@ albusaid_6 = {
 		death = yes
 	}
 }
+
+## Zanzibar line
+albusaid_10 = {
+	name = "Majid"
+	dynasty = albusaid
+	religion = ashari
+	culture = bedouin
+	father = albusaid_0
+	1834.1.1 = {
+		birth = yes
+	}
+	1870.10.7 = {
+		death = yes
+	}
+}
+
+albusaid_11 = {
+	name = "Barghash"
+	dynasty = albusaid
+	religion = ashari
+	culture = bedouin
+	father = albusaid_0
+	1836.1.1 = {
+		birth = yes
+	}
+	1888.3.26 = {
+		death = yes
+	}
+}
+
+albusaid_12 = {
+	name = "Khalifah"
+	dynasty = albusaid
+	religion = ashari
+	culture = bedouin
+	father = albusaid_0
+	1852.1.1 = {
+		birth = yes
+	}
+	1890.2.13 = {
+		death = yes
+	}
+}
+
+albusaid_13 = {
+	name = "Ali"
+	dynasty = albusaid
+	religion = ashari
+	culture = bedouin
+	father = albusaid_0
+	1854.1.1 = {
+		birth = yes
+	}
+	1893.3.5 = {
+		death = yes
+	}
+}
+
+albusaid_14 = {
+	name = "Hamad"
+	dynasty = albusaid
+	religion = ashari
+	culture = bedouin
+	father = albusaid_1
+	1857.1.1 = {
+		birth = yes
+	}
+	1896.8.25 = {
+		death = yes
+	}
+}
+
+albusaid_15 = {
+	name = "Khalid"
+	dynasty = albusaid
+	religion = ashari
+	culture = bedouin
+	father = albusaid_11
+	1874.1.1 = {
+		birth = yes
+	}
+	1927.3.19 = {
+		death = yes
+	}
+}
+
+albusaid_16 = {
+	name = "Muhammad"
+	dynasty = albusaid
+	religion = ashari
+	culture = bedouin
+	father = albusaid_0
+	1826.1.1 = {
+		birth = yes
+	}
+	1863.1.1 = {
+		death = yes
+	}
+}
+
+albusaid_17 = {
+	name = "Hamud"
+	dynasty = albusaid
+	religion = ashari
+	culture = bedouin
+	father = albusaid_16
+	1853.1.1 = {
+		birth = yes
+	}
+	1902.7.18 = {
+		death = yes
+	}
+}
+
+albusaid_18 = {
+	name = "Ali"
+	dynasty = albusaid
+	religion = ashari
+	culture = bedouin
+	father = albusaid_17
+	1884.6.7 = {
+		birth = yes
+	}
+	1918.12.20 = {
+		death = yes
+	}
+}
+
+albusaid_19 = {
+	name = "Harub"
+	dynasty = albusaid
+	religion = ashari
+	culture = bedouin
+	father = albusaid_1
+	1845.1.1 = {	# unknown
+		birth = yes
+	}
+	1900.1.1 = {	# unknown
+		death = yes
+	}
+}
+
+albusaid_20 = {
+	name = "Khalifa"
+	dynasty = albusaid
+	religion = ashari
+	culture = bedouin
+	father = albusaid_19
+	1879.8.26 = {
+		birth = yes
+	}
+	1960.10.9 = {
+		death = yes
+	}
+}
+
+albusaid_21 = {
+	name = "Abdullah"
+	dynasty = albusaid
+	religion = ashari
+	culture = bedouin
+	father = albusaid_20
+	1911.2.13 = {
+		birth = yes
+	}
+	1963.7.1 = {
+		death = yes
+	}
+}

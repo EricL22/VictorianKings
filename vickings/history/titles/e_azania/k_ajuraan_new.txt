@@ -1,0 +1,156 @@
+#d_hafun = {
+#}
+c_ras_hafun = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1889.1.7 = {	# Italy
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_barbacadle = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1889.1.7 = {	# Italy
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_nugaal = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+}
+c_mudug = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1889.1.7 = {	# Italy
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+#d_mogadishu = {
+#}
+c_mogadishu = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1889.1.7 = {	# Italy
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_hobyo = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1889.1.7 = {	# Italy
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_mareeg = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1889.1.7 = {	# Italy
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_hiraab = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1889.1.7 = {	# Italy
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+#d_west_ajuraan = {
+#}
+c_jubba = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1889.1.7 = {	# Italy
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_baydhabo = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1889.1.7 = {	# Italy
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_qalaafe = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1889.1.7 = {	# Italy
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_jilib = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1889.1.7 = {	# Italy
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_luuq = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1889.1.7 = {	# Italy
+		holder = savoy_28	# Umberto I
+	}
+	1900.7.29 = {
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
