@@ -114,3 +114,27 @@ libya_0 = {
 		death = yes
 	}
 }
+
+
+algiers_0 = {
+	name = "Haji Ali"
+	religion = ashari
+	culture = butr
+	1765.1.1 = {	# unknown
+		birth = yes
+	}
+	1815.3.21 = {
+		death = yes
+	}
+}
+algiers_1 = {
+	name = "Omar Agha"
+	religion = maturidi
+	culture = turkish
+	1773.1.1 = {
+		birth = yes
+	}
+	1817.9.8 = {
+		death = yes
+	}
+}

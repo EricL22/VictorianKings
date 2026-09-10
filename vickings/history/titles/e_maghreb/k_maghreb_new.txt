@@ -1,0 +1,410 @@
+k_maghreb = {
+	1757.11.10 = {
+		holder = alawi_0	# Muhammad bin Abdallah
+	}
+	1790.4.9 = {
+		holder = alawi_1	# Yazid bin Muhammad
+	}
+	1792.2.23 = {
+		holder = alawi_2	# Sulayman bin Muhammad
+	}
+	1822.11.28 = {
+		holder = alawi_4	# Abd al-Rahman bin Hisham
+	}
+	1859.8.28 = {
+		holder = alawi_5	# Muhammad bin Abd al-Rahman
+	}
+	1873.9.16 = {
+		holder = alawi_6	# Hassan I
+	}
+	1894.6.9 = {
+		holder = alawi_7	# Abdelaziz
+	}
+	1908.8.21 = {
+		holder = alawi_8	# Abd al-Hafid
+	}
+	1912.3.30 = {
+		liege = e_france
+	}
+	1912.8.13 = {
+		holder = alawi_9	# Yusef
+	}
+}
+d_marrakesh = {
+	1792.1.1 = {
+		holder = alawi_2	# Sulayman bin Muhammad
+	}
+	1822.11.28 = {
+		holder = alawi_4	# Abd al-Rahman bin Hisham
+	}
+	1859.8.28 = {
+		holder = alawi_5	# Muhammad bin Abd al-Rahman
+	}
+	1912.8.13 = {
+		holder = alawi_9	# Yusef
+	}
+}
+c_marrakesh = {
+	1792.1.1 = {
+		holder = alawi_2	# Sulayman bin Muhammad
+	}
+	1822.11.28 = {
+		holder = alawi_4	# Abd al-Rahman bin Hisham
+	}
+	1859.8.28 = {
+		holder = alawi_5	# Muhammad bin Abd al-Rahman
+	}
+	1912.8.13 = {
+		holder = alawi_9	# Yusef
+	}
+}
+c_tadla = {
+	1792.1.1 = {
+		holder = alawi_2	# Sulayman bin Muhammad
+	}
+	1822.11.28 = {
+		holder = alawi_4	# Abd al-Rahman bin Hisham
+	}
+	1859.8.28 = {
+		holder = alawi_5	# Muhammad bin Abd al-Rahman
+	}
+	1912.8.13 = {
+		holder = alawi_9	# Yusef
+	}
+}
+c_fazaz = {
+	1792.1.1 = {
+		holder = alawi_2	# Sulayman bin Muhammad
+	}
+	1822.11.28 = {
+		holder = alawi_4	# Abd al-Rahman bin Hisham
+	}
+	1859.8.28 = {
+		holder = alawi_5	# Muhammad bin Abd al-Rahman
+	}
+	1912.8.13 = {
+		holder = alawi_9	# Yusef
+	}
+}
+c_tamasna = {
+	1792.1.1 = {
+		holder = alawi_2	# Sulayman bin Muhammad
+	}
+	1822.11.28 = {
+		holder = alawi_4	# Abd al-Rahman bin Hisham
+	}
+	1859.8.28 = {
+		holder = alawi_5	# Muhammad bin Abd al-Rahman
+	}
+	1912.8.13 = {
+		holder = alawi_9	# Yusef
+	}
+}
+c_asfi = {
+	1792.1.1 = {
+		holder = alawi_2	# Sulayman bin Muhammad
+	}
+	1822.11.28 = {
+		holder = alawi_4	# Abd al-Rahman bin Hisham
+	}
+	1859.8.28 = {
+		holder = alawi_5	# Muhammad bin Abd al-Rahman
+	}
+	1912.8.13 = {
+		holder = alawi_9	# Yusef
+	}
+}
+c_tinmallal = {
+	1792.1.1 = {
+		holder = alawi_2	# Sulayman bin Muhammad
+	}
+	1822.11.28 = {
+		holder = alawi_4	# Abd al-Rahman bin Hisham
+	}
+	1859.8.28 = {
+		holder = alawi_5	# Muhammad bin Abd al-Rahman
+	}
+	1912.8.13 = {
+		holder = alawi_9	# Yusef
+	}
+}
+#d_sous = {
+#}
+c_sous = {
+	1792.1.1 = {
+		holder = alawi_2	# Sulayman bin Muhammad
+	}
+	1822.11.28 = {
+		holder = alawi_4	# Abd al-Rahman bin Hisham
+	}
+	1859.8.28 = {
+		holder = alawi_5	# Muhammad bin Abd al-Rahman
+	}
+	1912.8.13 = {
+		holder = alawi_9	# Yusef
+	}
+}
+c_agadir = {
+	1792.1.1 = {
+		holder = alawi_2	# Sulayman bin Muhammad
+	}
+	1822.11.28 = {
+		holder = alawi_4	# Abd al-Rahman bin Hisham
+	}
+	1859.8.28 = {
+		holder = alawi_5	# Muhammad bin Abd al-Rahman
+	}
+	1912.8.13 = {
+		holder = alawi_9	# Yusef
+	}
+}
+c_ifni = {
+	1792.1.1 = {
+		holder = alawi_2	# Sulayman bin Muhammad
+	}
+	1822.11.28 = {
+		holder = alawi_4	# Abd al-Rahman bin Hisham
+	}
+	1859.8.28 = {
+		holder = alawi_5	# Muhammad bin Abd al-Rahman
+	}
+	1912.8.13 = {
+		holder = alawi_9	# Yusef
+	}
+}
+c_draa = {
+	1792.1.1 = {
+		holder = alawi_2	# Sulayman bin Muhammad
+	}
+	1822.11.28 = {
+		holder = alawi_4	# Abd al-Rahman bin Hisham
+	}
+	1859.8.28 = {
+		holder = alawi_5	# Muhammad bin Abd al-Rahman
+	}
+	1912.8.13 = {
+		holder = alawi_9	# Yusef
+	}
+}
+#d_tafilalt = {
+#}
+c_sijilmasa = {
+	1792.1.1 = {
+		holder = alawi_2	# Sulayman bin Muhammad
+	}
+	1822.11.28 = {
+		holder = alawi_4	# Abd al-Rahman bin Hisham
+	}
+	1859.8.28 = {
+		holder = alawi_5	# Muhammad bin Abd al-Rahman
+	}
+	1912.8.13 = {
+		holder = alawi_9	# Yusef
+	}
+}
+c_tudgha = {
+	1792.1.1 = {
+		holder = alawi_2	# Sulayman bin Muhammad
+	}
+	1822.11.28 = {
+		holder = alawi_4	# Abd al-Rahman bin Hisham
+	}
+	1859.8.28 = {
+		holder = alawi_5	# Muhammad bin Abd al-Rahman
+	}
+	1912.8.13 = {
+		holder = alawi_9	# Yusef
+	}
+}
+c_ziz = {
+	1792.1.1 = {
+		holder = alawi_2	# Sulayman bin Muhammad
+	}
+	1822.11.28 = {
+		holder = alawi_4	# Abd al-Rahman bin Hisham
+	}
+	1859.8.28 = {
+		holder = alawi_5	# Muhammad bin Abd al-Rahman
+	}
+	1912.8.13 = {
+		holder = alawi_9	# Yusef
+	}
+}
+d_fes = {
+	1792.1.1 = {
+		holder = alawi_2	# Sulayman bin Muhammad
+	}
+	1822.11.28 = {
+		holder = alawi_4	# Abd al-Rahman bin Hisham
+	}
+	1859.8.28 = {
+		holder = alawi_5	# Muhammad bin Abd al-Rahman
+	}
+	1912.8.13 = {
+		holder = alawi_9	# Yusef
+	}
+}
+c_fes = {
+	1792.1.1 = {
+		holder = alawi_2	# Sulayman bin Muhammad
+	}
+	1822.11.28 = {
+		holder = alawi_4	# Abd al-Rahman bin Hisham
+	}
+	1859.8.28 = {
+		holder = alawi_5	# Muhammad bin Abd al-Rahman
+	}
+	1912.8.13 = {
+		holder = alawi_9	# Yusef
+	}
+}
+c_muluya = {
+	1792.1.1 = {
+		holder = alawi_2	# Sulayman bin Muhammad
+	}
+	1822.11.28 = {
+		holder = alawi_4	# Abd al-Rahman bin Hisham
+	}
+	1859.8.28 = {
+		holder = alawi_5	# Muhammad bin Abd al-Rahman
+	}
+	1912.8.13 = {
+		holder = alawi_9	# Yusef
+	}
+}
+c_taza = {
+	1792.1.1 = {
+		holder = alawi_2	# Sulayman bin Muhammad
+	}
+	1822.11.28 = {
+		holder = alawi_4	# Abd al-Rahman bin Hisham
+	}
+	1859.8.28 = {
+		holder = alawi_5	# Muhammad bin Abd al-Rahman
+	}
+	1912.8.13 = {
+		holder = alawi_9	# Yusef
+	}
+}
+c_meknes = {
+	1792.1.1 = {
+		holder = alawi_2	# Sulayman bin Muhammad
+	}
+	1822.11.28 = {
+		holder = alawi_4	# Abd al-Rahman bin Hisham
+	}
+	1859.8.28 = {
+		holder = alawi_5	# Muhammad bin Abd al-Rahman
+	}
+	1912.8.13 = {
+		holder = alawi_9	# Yusef
+	}
+}
+c_gharb = {
+	1792.1.1 = {
+		holder = alawi_2	# Sulayman bin Muhammad
+	}
+	1822.11.28 = {
+		holder = alawi_4	# Abd al-Rahman bin Hisham
+	}
+	1859.8.28 = {
+		holder = alawi_5	# Muhammad bin Abd al-Rahman
+	}
+	1912.8.13 = {
+		holder = alawi_9	# Yusef
+	}
+}
+#d_rif = {
+#}
+c_tangiers = {
+	1792.1.1 = {
+		holder = alawi_2	# Sulayman bin Muhammad
+	}
+	1822.11.28 = {
+		holder = alawi_4	# Abd al-Rahman bin Hisham
+	}
+	1859.8.28 = {
+		holder = alawi_5	# Muhammad bin Abd al-Rahman
+	}
+	1912.8.13 = {
+		holder = alawi_9	# Yusef
+	}
+}
+c_ceuta = {
+	1792.1.1 = {	# Morocco
+		holder = alawi_2	# Sulayman bin Muhammad
+	}
+	1822.11.28 = {
+		holder = alawi_4	# Abd al-Rahman bin Hisham
+	}
+	1859.8.28 = {
+		holder = alawi_5	# Muhammad bin Abd al-Rahman
+	}
+	1912.8.13 = {
+		holder = alawi_9	# Yusef
+	}
+	1912.11.27 = {	# Spain
+		holder = bourbon_42	# Alfonso XIII
+	}
+}
+c_melilla = {
+	1792.1.1 = {	# Morocco
+		holder = alawi_2	# Sulayman bin Muhammad
+	}
+	1822.11.28 = {
+		holder = alawi_4	# Abd al-Rahman bin Hisham
+	}
+	1859.8.28 = {
+		holder = alawi_5	# Muhammad bin Abd al-Rahman
+	}
+	1912.8.13 = {
+		holder = alawi_9	# Yusef
+	}
+	1912.11.27 = {	# Spain
+		holder = bourbon_42	# Alfonso XIII
+	}
+}
+#d_canarias = {
+#}
+c_canarias = {
+	1808.6.6 = {
+		holder = bonaparte_4	# Joseph I
+	}
+	1813.12.11 = {
+		holder = bourbon_36	# Ferdinand VII
+	}
+	1833.9.29 = {
+		holder = bourbon_37	# Isabella II
+	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
+	}
+}
+c_fuerteventura = {
+	1808.6.6 = {
+		holder = bonaparte_4	# Joseph I
+	}
+	1813.12.11 = {
+		holder = bourbon_36	# Ferdinand VII
+	}
+	1833.9.29 = {
+		holder = bourbon_37	# Isabella II
+	}
+	1886.5.17 = {
+		holder = bourbon_42	# Alfonso XIII
+	}
+}
+c_madeira = {
+	1786.5.25 = {
+		holder = braganza_7	# Maria I
+	}
+	1834.5.26 = {
+		holder = braganza_10	# Maria II
+	}
+	1853.11.15 = {
+		holder = braganza_12	# Peter V
+	}
+	1911.8.24 = {
+		holder = eur_03500	# Manuel de Arriaga
+	}
+}

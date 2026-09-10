@@ -1,0 +1,331 @@
+﻿# Beys of Tunis
+husainid_0 = {
+	name = "Sidi Ali"
+	dynasty = 101035
+	religion = maturidi
+	culture = turkish
+	1640.1.1 = {	# unknown
+		birth = yes
+	}
+	1676.1.1 = {
+		death = yes
+	}
+}
+
+husainid_1 = {
+	name = "Muhammad"
+	dynasty = 101035
+	religion = maturidi
+	culture = turkish
+	father = husainid_0
+	1665.1.1 = {
+		birth = yes
+	}
+	1735.1.1 = {
+		death = yes
+	}
+}
+
+husainid_2 = {
+	name = "Ali"	# I of Tunis
+	dynasty = 101035
+	religion = maturidi
+	culture = turkish
+	father = husainid_1
+	1688.6.30 = {
+		birth = yes
+	}
+	1756.9.22 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+
+husainid_3 = {
+	name = "Al-Husayn"	# I of Tunis
+	dynasty = 101035
+	religion = maturidi
+	culture = turkish
+	father = husainid_0
+	1675.1.1 = {
+		birth = yes
+	}
+	1740.9.13 = {
+		death = {
+			death_reason = death_execution
+		}
+	}
+}
+
+husainid_4 = {
+	name = "Muhammad"	# I of Tunis
+	dynasty = 101035
+	religion = maturidi
+	culture = turkish
+	father = husainid_3
+	1710.1.1 = {
+		birth = yes
+	}
+	1759.2.12 = {
+		death = yes
+	}
+}
+
+husainid_5 = {
+	name = "Ali"	# II of Tunis
+	dynasty = 101035
+	religion = maturidi
+	culture = turkish
+	father = husainid_3
+	1712.11.24 = {
+		birth = yes
+	}
+	1782.5.26 = {
+		death = yes
+	}
+}
+
+husainid_6 = {
+	name = "Hammuda"
+	dynasty = 101035
+	religion = ashari
+	culture = turkish
+	father = husainid_5
+	1759.12.9 = {
+		birth = yes
+	}
+	1782.5.26 = {
+		effect = {
+			add_realm_law_skip_effects = single_heir_dynasty_house
+		}
+	}
+	1814.9.15 = {
+		death = yes
+	}
+}
+
+husainid_7 = {
+	name = "Uthman"
+	dynasty = 101035
+	religion = maturidi
+	culture = turkish
+	father = husainid_5
+	1763.5.27 = {
+		birth = yes
+	}
+	1814.12.20 = {
+		death = yes
+	}
+}
+
+husainid_8 = {
+	name = "Mahmud"
+	dynasty = 101035
+	religion = maturidi
+	culture = turkish
+	father = husainid_4
+	1757.7.10 = {
+		birth = yes
+	}
+	1814.11.21 = {
+		effect = {
+			add_realm_law_skip_effects = single_heir_dynasty_house
+		}
+	}
+	1824.3.28 = {
+		death = yes
+	}
+}
+
+husainid_9 = {
+	name = "Al-Husayn"	# II of Tunis
+	dynasty = 101035
+	religion = maturidi
+	culture = turkish
+	father = husainid_8
+	1784.3.5 = {
+		birth = yes
+	}
+	1835.5.20 = {
+		death = yes
+	}
+}
+
+husainid_10 = {
+	name = "Mustafa"
+	dynasty = 101035
+	religion = maturidi
+	culture = turkish
+	father = husainid_8
+	1787.8.1 = {
+		birth = yes
+	}
+	1835.5.20 = {
+		effect = {
+			add_realm_law_skip_effects = single_heir_dynasty_house
+		}
+	}
+	1837.10.10 = {
+		death = yes
+	}
+}
+
+husainid_11 = {
+	name = "Ahmad"	# I of Tunis
+	dynasty = 101035
+	religion = maturidi
+	culture = turkish
+	father = husainid_10
+	1805.12.2 = {
+		birth = yes
+	}
+	1855.5.30 = {
+		death = yes
+	}
+}
+
+husainid_12 = {
+	name = "Muhammad"	# II of Tunis
+	dynasty = 101035
+	religion = maturidi
+	culture = turkish
+	father = husainid_9
+	1811.9.18 = {
+		birth = yes
+	}
+	1859.9.22 = {
+		death = yes
+	}
+}
+
+husainid_13 = {
+	name = "Muhammad"	# III of Tunis
+	dynasty = 101035
+	religion = maturidi
+	culture = turkish
+	father = husainid_9
+	1813.2.7 = {
+		birth = yes
+	}
+	1859.9.22 = {
+		effect = {
+			add_realm_law_skip_effects = single_heir_dynasty_house
+		}
+	}
+	1882.10.27 = {
+		death = yes
+	}
+}
+
+husainid_14 = {
+	name = "Ali"	# III of Tunis
+	dynasty = 101035
+	religion = maturidi
+	culture = turkish
+	father = husainid_9
+	1817.8.14 = {
+		birth = yes
+	}
+	1902.6.11 = {
+		death = yes
+	}
+}
+
+husainid_15 = {
+	name = "Muhammad"	# IV of Tunis
+	dynasty = 101035
+	religion = maturidi
+	culture = turkish
+	father = husainid_14
+	1855.6.24 = {
+		birth = yes
+	}
+	1906.5.11 = {
+		death = yes
+	}
+}
+
+husainid_16 = {
+	name = "Muhammad"	# V of Tunis
+	dynasty = 101035
+	religion = maturidi
+	culture = turkish
+	father = husainid_12
+	1855.7.14 = {
+		birth = yes
+	}
+	1922.7.8 = {
+		death = yes
+	}
+}
+
+husainid_17 = {
+	name = "Muhammad Mamun"	# Prince of Tunis
+	dynasty = 101035
+	religion = maturidi
+	culture = turkish
+	father = husainid_9
+	1819.1.1 = {
+		birth = yes
+	}
+	1861.1.1 = {
+		death = yes
+	}
+}
+
+husainid_18 = {
+	name = "Muhammad"	# VI of Tunis
+	dynasty = 101035
+	religion = maturidi
+	culture = turkish
+	father = husainid_17
+	1858.8.13 = {
+		birth = yes
+	}
+	1929.2.13 = {
+		death = yes
+	}
+}
+
+husainid_19 = {
+	name = "Ahmad"	# II of Tunis
+	dynasty = 101035
+	religion = maturidi
+	culture = turkish
+	father = husainid_14
+	1862.4.13 = {
+		birth = yes
+	}
+	1942.6.19 = {
+		death = yes
+	}
+}
+
+husainid_20 = {
+	name = "Muhammad"	# VII of Tunis
+	dynasty = 101035
+	religion = maturidi
+	culture = turkish
+	father = husainid_16
+	1881.3.4 = {
+		birth = yes
+	}
+	1948.9.1 = {
+		death = yes
+	}
+}
+
+husainid_21 = {
+	name = "Muhammad"	# VIII of Tunis
+	dynasty = 101035
+	religion = maturidi
+	culture = turkish
+	father = husainid_18
+	1881.9.4 = {
+		birth = yes
+	}
+	1962.9.30 = {
+		death = yes
+	}
+}

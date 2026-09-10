@@ -1,0 +1,496 @@
+k_africa = {
+	1800.1.1 = {
+		holder = 0
+	}
+}
+d_kairouan = {
+	1800.1.1 = {
+		holder = 0
+	}
+}
+c_kairwan = {
+	1782.1.1 = {
+		holder = husainid_6	# Hammud I
+	}
+	1814.12.20 = {
+		holder = husainid_8	# Mahmud I
+	}
+	1835.5.20 = {
+		holder = husainid_10	# Mustafa I
+	}
+	1859.9.22 = {
+		holder = husainid_13	# Muhammad III
+	}
+	1906.5.11 = {
+		holder = husainid_16	# Muhammad V
+	}
+}
+c_west_qamuda = {
+	1782.1.1 = {
+		holder = husainid_6	# Hammud I
+	}
+	1814.12.20 = {
+		holder = husainid_8	# Mahmud I
+	}
+	1835.5.20 = {
+		holder = husainid_10	# Mustafa I
+	}
+	1859.9.22 = {
+		holder = husainid_13	# Muhammad III
+	}
+	1906.5.11 = {
+		holder = husainid_16	# Muhammad V
+	}
+}
+c_tabassa = {
+	1575.1.1 = {
+		de_jure_liege = d_zab
+		liege = 0
+	}
+	1809.3.21 = {	# Ottomans
+		holder = algiers_0	# Haji Ali Dey
+	}
+	1815.4.11 = {
+		holder = algiers_1	# Omar Agha Dey
+	}
+	1830.7.7 = {
+		holder = tribals
+	}
+	1852.12.2 = {	# France
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
+	}
+}
+d_tunis = {
+	1705.7.12 = {
+		holder = husainid_3	# Hussein I
+		liege = e_turkey
+	}
+	1735.9.8 = {
+		holder = husainid_2	# Ali I
+	}
+	1756.9.22 = {
+		holder = husainid_4	# Muhammad I
+	}
+	1759.2.12 = {
+		holder = husainid_5	# Ali II
+	}
+	1782.5.26 = {
+		holder = husainid_6	# Hammud I
+	}
+	1814.9.15 = {
+		holder = husainid_7	# Uthman I
+	}
+	1814.12.20 = {
+		holder = husainid_8	# Mahmud I
+	}
+	1824.3.28 = {
+		holder = husainid_9	# Hussein II
+	}
+	1835.5.20 = {
+		holder = husainid_10	# Mustafa I
+	}
+	1837.10.10 = {
+		holder = husainid_11	# Ahmad I
+	}
+	1855.5.30 = {
+		holder = husainid_12	# Muhammad II
+	}
+	1859.9.22 = {
+		holder = husainid_13	# Muhammad III
+	}
+	1881.5.12 = {
+		liege = e_france
+	}
+	1882.10.27 = {
+		holder = husainid_14	# Ali III
+	}
+	1902.6.11 = {
+		holder = husainid_15	# Muhammad IV
+	}
+	1906.5.11 = {
+		holder = husainid_16	# Muhammad V
+	}
+}
+c_tunis = {
+	1782.1.1 = {
+		holder = husainid_6	# Hammud I
+	}
+	1814.12.20 = {
+		holder = husainid_8	# Mahmud I
+	}
+	1835.5.20 = {
+		holder = husainid_10	# Mustafa I
+	}
+	1859.9.22 = {
+		holder = husainid_13	# Muhammad III
+	}
+	1906.5.11 = {
+		holder = husainid_16	# Muhammad V
+	}
+}
+c_satfura = {
+	1782.1.1 = {
+		holder = husainid_6	# Hammud I
+	}
+	1814.12.20 = {
+		holder = husainid_8	# Mahmud I
+	}
+	1835.5.20 = {
+		holder = husainid_10	# Mustafa I
+	}
+	1859.9.22 = {
+		holder = husainid_13	# Muhammad III
+	}
+	1906.5.11 = {
+		holder = husainid_16	# Muhammad V
+	}
+}
+c_medjerda = {
+	1782.1.1 = {
+		holder = husainid_6	# Hammud I
+	}
+	1814.12.20 = {
+		holder = husainid_8	# Mahmud I
+	}
+	1835.5.20 = {
+		holder = husainid_10	# Mustafa I
+	}
+	1859.9.22 = {
+		holder = husainid_13	# Muhammad III
+	}
+	1906.5.11 = {
+		holder = husainid_16	# Muhammad V
+	}
+}
+c_mahdiya = {
+	1782.1.1 = {
+		holder = husainid_6	# Hammud I
+	}
+	1814.12.20 = {
+		holder = husainid_8	# Mahmud I
+	}
+	1835.5.20 = {
+		holder = husainid_10	# Mustafa I
+	}
+	1859.9.22 = {
+		holder = husainid_13	# Muhammad III
+	}
+	1906.5.11 = {
+		holder = husainid_16	# Muhammad V
+	}
+}
+#d_kroumerie = {
+#}
+c_constantine = {
+	1809.3.21 = {	# Ottomans
+		holder = algiers_0	# Haji Ali Dey
+	}
+	1815.4.11 = {
+		holder = algiers_1	# Omar Agha Dey
+	}
+	1830.7.7 = {	# France
+		holder = bourbon_17 # Charles X
+	}
+	1830.8.2 = {
+		holder = bourbon_23 # Louis-Phillipe I
+	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
+	}
+}
+c_annaba = {
+	1809.3.21 = {	# Ottomans
+		holder = algiers_0	# Haji Ali Dey
+	}
+	1815.4.11 = {
+		holder = algiers_1	# Omar Agha Dey
+	}
+	1830.7.7 = {	# France
+		holder = bourbon_17 # Charles X
+	}
+	1830.8.2 = {
+		holder = bourbon_23 # Louis-Phillipe I
+	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
+	}
+}
+#d_gabes = {
+#}
+c_gabes = {
+	1782.1.1 = {
+		holder = husainid_6	# Hammud I
+	}
+	1814.12.20 = {
+		holder = husainid_8	# Mahmud I
+	}
+	1835.5.20 = {
+		holder = husainid_10	# Mustafa I
+	}
+	1859.9.22 = {
+		holder = husainid_13	# Muhammad III
+	}
+	1906.5.11 = {
+		holder = husainid_16	# Muhammad V
+	}
+}
+c_sfax = {
+	1782.1.1 = {
+		holder = husainid_6	# Hammud I
+	}
+	1814.12.20 = {
+		holder = husainid_8	# Mahmud I
+	}
+	1835.5.20 = {
+		holder = husainid_10	# Mustafa I
+	}
+	1859.9.22 = {
+		holder = husainid_13	# Muhammad III
+	}
+	1906.5.11 = {
+		holder = husainid_16	# Muhammad V
+	}
+}
+d_jerid = {
+	1800.1.1 = {
+		holder = 0
+	}
+}
+c_qashtiliya = {
+	1782.1.1 = {
+		holder = husainid_6	# Hammud I
+	}
+	1814.12.20 = {
+		holder = husainid_8	# Mahmud I
+	}
+	1835.5.20 = {
+		holder = husainid_10	# Mustafa I
+	}
+	1859.9.22 = {
+		holder = husainid_13	# Muhammad III
+	}
+	1906.5.11 = {
+		holder = husainid_16	# Muhammad V
+	}
+}
+c_souf = {
+	1782.1.1 = {
+		holder = husainid_6	# Hammud I
+	}
+	1814.12.20 = {
+		holder = husainid_8	# Mahmud I
+	}
+	1835.5.20 = {
+		holder = husainid_10	# Mustafa I
+	}
+	1859.9.22 = {
+		holder = husainid_13	# Muhammad III
+	}
+	1906.5.11 = {
+		holder = husainid_16	# Muhammad V
+	}
+}
+c_bir_amir = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1912.10.18 = {	# Italy
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_ghadames = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1912.10.18 = {	# Italy
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+d_tripolitania = {
+	1795.6.11 = {	# Ottomans
+		holder = libya_0	# Yusuf Karamanli
+		liege = e_turkey
+	}
+	1835.5.26 = {
+		holder = ottoman_26	# Mahmud II
+	}
+	1839.7.1 = {
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+	1912.10.18 = {	# Italy
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_tripolitana = {
+	1795.6.11 = {	# Ottomans
+		holder = libya_0	# Yusuf Karamanli
+	}
+	1835.5.26 = {
+		holder = ottoman_26	# Mahmud II
+	}
+	1839.7.1 = {
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+	1912.10.18 = {	# Italy
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_djerba = {
+	1782.1.1 = {
+		holder = husainid_6	# Hammud I
+		de_jure_liege = d_gabes
+	}
+	1814.12.20 = {
+		holder = husainid_8	# Mahmud I
+	}
+	1835.5.20 = {
+		holder = husainid_10	# Mustafa I
+	}
+	1859.9.22 = {
+		holder = husainid_13	# Muhammad III
+	}
+	1906.5.11 = {
+		holder = husainid_16	# Muhammad V
+	}
+}
+c_jafara = {
+	1795.6.11 = {	# Ottomans
+		holder = libya_0	# Yusuf Karamanli
+	}
+	1835.5.26 = {
+		holder = ottoman_26	# Mahmud II
+	}
+	1839.7.1 = {
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+	1912.10.18 = {	# Italy
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+#d_syrte = {
+#}
+c_syrte = {
+	1795.6.11 = {	# Ottomans
+		holder = libya_0	# Yusuf Karamanli
+	}
+	1835.5.26 = {
+		holder = ottoman_26	# Mahmud II
+	}
+	1839.7.1 = {
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+	1912.10.18 = {	# Italy
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_labda = {
+	1795.6.11 = {	# Ottomans
+		holder = libya_0	# Yusuf Karamanli
+	}
+	1835.5.26 = {
+		holder = ottoman_26	# Mahmud II
+	}
+	1839.7.1 = {
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+	1912.10.18 = {	# Italy
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_waddan = {
+	1795.6.11 = {	# Ottomans
+		holder = libya_0	# Yusuf Karamanli
+	}
+	1835.5.26 = {
+		holder = ottoman_26	# Mahmud II
+	}
+	1839.7.1 = {
+		holder = ottoman_27	# Abdul Mejid I
+	}
+	1861.6.25 = {
+		holder = ottoman_28	# Abdulaziz
+	}
+	1876.5.30 = {
+		holder = ottoman_29	# Murad V
+	}
+	1876.8.31 = {
+		holder = ottoman_30	# Abdul Hamid II
+	}
+	1909.4.27 = {
+		holder = ottoman_31	# Mehmed V
+	}
+	1912.10.18 = {	# Italy
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}

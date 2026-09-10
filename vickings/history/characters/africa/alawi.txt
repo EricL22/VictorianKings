@@ -1,0 +1,153 @@
+﻿alawi_0 = {
+	name = "Muhammad"
+	dynasty = alawi
+	religion = ashari
+	culture = maghrebi
+	1710.1.1 = {
+		birth = yes
+	}
+	1790.4.9 = {
+		death = yes
+	}
+}
+
+alawi_1 = {
+	name = "Yazid"
+	dynasty = alawi
+	religion = ashari
+	culture = maghrebi
+	father = alawi_0
+	1750.5.6 = {
+		birth = yes
+	}
+	1792.2.23 = {
+		death = yes
+	}
+}
+
+alawi_2 = {
+	name = "Sulayman"
+	dynasty = alawi
+	religion = ashari
+	culture = maghrebi
+	trait = education_martial_3
+	father = alawi_0
+	1766.6.28 = {
+		birth = yes
+	}
+	1822.11.28 = {
+		death = yes
+	}
+}
+
+alawi_3 = {
+	name = "Hisham"
+	dynasty = alawi
+	religion = ashari
+	culture = maghrebi
+	father = alawi_0
+	1748.1.1 = {
+		birth = yes
+	}
+	1798.7.1 = {
+		death = yes
+	}
+}
+
+alawi_4 = {
+	name = "Abd al-Rahman"
+	dynasty = alawi
+	religion = ashari
+	culture = maghrebi
+	father = alawi_3
+	1778.2.19 = {
+		birth = yes
+	}
+	1859.8.28 = {
+		death = yes
+	}
+}
+
+alawi_5 = {
+	name = "Muhammad"
+	dynasty = alawi
+	religion = ashari
+	culture = maghrebi
+	father = alawi_4
+	1803.1.1 = {
+		birth = yes
+	}
+	1873.9.16 = {
+		death = yes
+	}
+}
+
+alawi_6 = {
+	name = "Hassan"
+	dynasty = alawi
+	religion = ashari
+	culture = maghrebi
+	father = alawi_5
+	1836.1.1 = {
+		birth = yes
+	}
+	1894.6.9 = {
+		death = yes
+	}
+}
+
+alawi_7 = {
+	name = "Abd al-Aziz"
+	dynasty = alawi
+	religion = ashari
+	culture = maghrebi
+	father = alawi_6
+	1878.2.24 = {
+		birth = yes
+	}
+	1943.6.10 = {
+		death = yes
+	}
+}
+
+alawi_8 = {
+	name = "Abd al-Hafid"
+	dynasty = alawi
+	religion = ashari
+	culture = maghrebi
+	father = alawi_6
+	1876.2.24 = {
+		birth = yes
+	}
+	1937.4.4 = {
+		death = yes
+	}
+}
+
+alawi_9 = {
+	name = "Yusef"
+	dynasty = alawi
+	religion = ashari
+	culture = maghrebi
+	father = alawi_6
+	1882.1.1 = {
+		birth = yes
+	}
+	1927.11.17 = {
+		death = yes
+	}
+}
+
+alawi_10 = {
+	name = "Muhammad"
+	dynasty = alawi
+	religion = ashari
+	culture = maghrebi
+	father = alawi_9
+	1909.8.10 = {
+		birth = yes
+	}
+	1961.2.26 = {
+		death = yes
+	}
+}

@@ -77,3 +77,8 @@ arriaga = {
     name = "dynn_Arriaga"
     culture = "portuguese"
 }
+
+alawi = {
+	name = "dynn_Alaouite"
+	culture = "maghrebi"
+}

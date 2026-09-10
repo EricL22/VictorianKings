@@ -1,0 +1,344 @@
+d_tlemcen = {
+	1800.1.1 = {
+		holder = 0
+	}
+}
+c_tlemcen = {
+	1809.3.21 = {	# Ottomans
+		holder = algiers_0	# Haji Ali Dey
+	}
+	1815.4.11 = {
+		holder = algiers_1	# Omar Agha Dey
+	}
+	1830.7.7 = {
+		holder = tribals
+	}
+	1852.12.2 = {	# France
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
+	}
+}
+c_wajda = {
+	1551.1.1 = {
+		de_jure_liege = d_fes
+	}
+	1792.1.1 = {
+		holder = alawi_2	# Sulayman bin Muhammad
+	}
+	1822.11.28 = {
+		holder = alawi_4	# Abd al-Rahman bin Hisham
+	}
+	1859.8.28 = {
+		holder = alawi_5	# Muhammad bin Abd al-Rahman
+	}
+	1912.8.13 = {
+		holder = alawi_9	# Yusef
+	}
+}
+c_orania = {
+	1809.3.21 = {	# Ottomans
+		holder = algiers_0	# Haji Ali Dey
+	}
+	1815.4.11 = {
+		holder = algiers_1	# Omar Agha Dey
+	}
+	1830.7.7 = {	# France
+		holder = bourbon_17 # Charles X
+	}
+	1830.8.2 = {
+		holder = bourbon_23 # Louis-Phillipe I
+	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
+	}
+}
+c_hunyan = {
+	1551.1.1 = {
+		de_jure_liege = d_rif
+	}
+	1792.1.1 = {
+		holder = alawi_2	# Sulayman bin Muhammad
+	}
+	1822.11.28 = {
+		holder = alawi_4	# Abd al-Rahman bin Hisham
+	}
+	1859.8.28 = {
+		holder = alawi_5	# Muhammad bin Abd al-Rahman
+	}
+	1912.8.13 = {
+		holder = alawi_9	# Yusef
+	}
+}
+#d_tahert = {
+#}
+c_tahert = {
+	1809.3.21 = {	# Ottomans
+		holder = algiers_0	# Haji Ali Dey
+	}
+	1815.4.11 = {
+		holder = algiers_1	# Omar Agha Dey
+	}
+	1830.7.7 = {
+		holder = tribals
+	}
+	1852.12.2 = {	# France
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
+	}
+}
+c_yalala = {
+	1809.3.21 = {	# Ottomans
+		holder = algiers_0	# Haji Ali Dey
+	}
+	1815.4.11 = {
+		holder = algiers_1	# Omar Agha Dey
+	}
+	1830.7.7 = {
+		holder = tribals
+	}
+	1852.12.2 = {	# France
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
+	}
+}
+c_ashir = {
+	1809.3.21 = {	# Ottomans
+		holder = algiers_0	# Haji Ali Dey
+	}
+	1815.4.11 = {
+		holder = algiers_1	# Omar Agha Dey
+	}
+	1830.7.7 = {
+		holder = tribals
+	}
+	1852.12.2 = {	# France
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
+	}
+}
+c_figuig = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1852.12.2 = {	# France
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
+	}
+}
+d_alger = {
+	1809.3.21 = {	# Ottomans
+		holder = algiers_0	# Haji Ali Dey
+		liege = e_turkey
+	}
+	1815.4.11 = {
+		holder = algiers_1	# Omar Agha Dey
+	}
+	1830.6.14 = {
+		liege = 0
+	}
+	1830.7.7 = {	# France
+		holder = bourbon_17 # Charles X
+	}
+	1830.8.2 = {
+		holder = bourbon_23 # Louis-Phillipe I
+	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
+	}
+}
+c_algier = {
+	1809.3.21 = {	# Ottomans
+		holder = algiers_0	# Haji Ali Dey
+	}
+	1815.4.11 = {
+		holder = algiers_1	# Omar Agha Dey
+	}
+	1830.7.7 = {	# France
+		holder = bourbon_17 # Charles X
+	}
+	1830.8.2 = {
+		holder = bourbon_23 # Louis-Phillipe I
+	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
+	}
+}
+c_tanas = {
+	1809.3.21 = {	# Ottomans
+		holder = algiers_0	# Haji Ali Dey
+	}
+	1815.4.11 = {
+		holder = algiers_1	# Omar Agha Dey
+	}
+	1830.7.7 = {	# France
+		holder = bourbon_17 # Charles X
+	}
+	1830.8.2 = {
+		holder = bourbon_23 # Louis-Phillipe I
+	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
+	}
+}
+#d_bejaia = {
+#}
+c_bejaia = {
+	1809.3.21 = {	# Ottomans
+		holder = algiers_0	# Haji Ali Dey
+	}
+	1815.4.11 = {
+		holder = algiers_1	# Omar Agha Dey
+	}
+	1830.7.7 = {	# France
+		holder = bourbon_17 # Charles X
+	}
+	1830.8.2 = {
+		holder = bourbon_23 # Louis-Phillipe I
+	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
+	}
+}
+c_satif = {
+	1809.3.21 = {	# Ottomans
+		holder = algiers_0	# Haji Ali Dey
+	}
+	1815.4.11 = {
+		holder = algiers_1	# Omar Agha Dey
+	}
+	1830.7.7 = {	# France
+		holder = bourbon_17 # Charles X
+	}
+	1830.8.2 = {
+		holder = bourbon_23 # Louis-Phillipe I
+	}
+	1852.12.2 = {
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
+	}
+}
+d_zab = {
+	1800.1.1 = {
+		holder = 0
+	}
+}
+c_hodna = {
+	1809.3.21 = {	# Ottomans
+		holder = algiers_0	# Haji Ali Dey
+	}
+	1815.4.11 = {
+		holder = algiers_1	# Omar Agha Dey
+	}
+	1830.7.7 = {
+		holder = tribals
+	}
+	1852.12.2 = {	# France
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
+	}
+}
+c_biskra = {
+	1809.3.21 = {	# Ottomans
+		holder = algiers_0	# Haji Ali Dey
+	}
+	1815.4.11 = {
+		holder = algiers_1	# Omar Agha Dey
+	}
+	1830.7.7 = {
+		holder = tribals
+	}
+	1852.12.2 = {	# France
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
+	}
+}
+c_bilizma = {
+	1809.3.21 = {	# Ottomans
+		holder = algiers_0	# Haji Ali Dey
+	}
+	1815.4.11 = {
+		holder = algiers_1	# Omar Agha Dey
+	}
+	1830.7.7 = {
+		holder = tribals
+	}
+	1852.12.2 = {	# France
+		holder = bonaparte_7	# Napoleon III
+	}
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
+	}
+}
+d_mzab = {
+	1800.1.1 = {
+		holder = 0
+	}
+}
+c_wargla = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1913.2.18 = {	# France
+		holder = eur_01500	# Raymond Poincaré
+	}
+}
+c_laghwat = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1913.2.18 = {	# France
+		holder = eur_01500	# Raymond Poincaré
+	}
+}
+c_ghardaia = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1913.2.18 = {	# France
+		holder = eur_01500	# Raymond Poincaré
+	}
+}
+c_arigh = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1913.2.18 = {	# France
+		holder = eur_01500	# Raymond Poincaré
+	}
+}
