@@ -291,3 +291,24 @@ k_spain = { #post-1715 Spain
 		}
 	}
 }
+
+k_sokoto = {
+	color = { 0 135 81 }
+
+	capital = c_sokoto
+	
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture = culture:pulaar
+			}
+			add = @correct_culture_primary_score
+		}
+		if = {
+			limit = {
+				culture = { has_cultural_pillar = heritage_senegambian }
+			}
+			add = @better_than_the_alternatives_score
+		}
+	}
+}

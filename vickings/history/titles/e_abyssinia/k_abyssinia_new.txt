@@ -41,6 +41,9 @@ k_abyssinia = {
 	1632.9.17 = {
 		holder = solomonid_13	# Fasilides
 	}
+	1636.1.1 = {
+		effect = { set_capital_county = title:c_dembiya }
+	}
 	1667.10.18 = {
 		holder = solomonid_14	# Yohannes I
 	}
@@ -113,10 +116,12 @@ k_abyssinia = {
 	}
 	1855.2.11 = {
 		holder = solomonid_50	# Tewodros II
+		effect = { set_capital_county = title:c_begemder }
 	}
 	# omitted: Tekle Giyorgis II and Yohannes IV (1868-89)
 	1889.3.11 = {
 		holder = solomonid_71	# Menelik II
+		effect = { set_capital_county = title:c_showa }
 	}
 	1913.12.12 = {
 		holder = solomonid_74	# Lij Iyasu

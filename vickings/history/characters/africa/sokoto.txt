@@ -1,0 +1,181 @@
+﻿sokoto_0 = {
+	name = "Usman dan Fodio"
+	#dynasty = 1030002
+	religion = ashari
+	culture = pulaar
+	trait = zealous
+	1754.12.15 = {
+		birth = yes
+	}
+	1817.4.20 = {
+		death = yes
+	}
+}
+
+sokoto_1 = {
+	name = "Muhammed Bello"
+	#dynasty = 1030002
+	religion = ashari
+	culture = pulaar
+	father = sokoto_0
+	1781.11.3 = {
+		birth = yes
+	}
+	1837.10.25 = {
+		death = yes
+	}
+}
+
+sokoto_2 = {
+	name = "Abu Bakr"	# I of Sokoto
+	#dynasty = 1030002
+	religion = ashari
+	culture = pulaar
+	father = sokoto_0
+	1782.1.1 = {
+		birth = yes
+	}
+	1842.11.23 = {
+		death = yes
+	}
+}
+
+sokoto_3 = {
+	name = "Ali Babba"
+	#dynasty = 1030002
+	religion = ashari
+	culture = pulaar
+	father = sokoto_1
+	1804.1.1 = {
+		birth = yes
+	}
+	1859.10.21 = {
+		death = yes
+	}
+}
+
+sokoto_4 = {
+	name = "Ahmadu"
+	#dynasty = 1030002
+	religion = ashari
+	culture = pulaar
+	father = sokoto_2
+	1807.1.1 = {
+		birth = yes
+	}
+	1866.11.2 = {
+		death = yes
+	}
+}
+
+sokoto_5 = {
+	name = "Aliyu Karami"
+	#dynasty = 1030002
+	religion = ashari
+	culture = pulaar
+	father = sokoto_1
+	1808.1.1 = {
+		birth = yes
+	}
+	1867.10.18 = {
+		death = yes
+	}
+}
+
+sokoto_6 = {
+	name = "Ahmadu Rufai"
+	#dynasty = 1030002
+	religion = ashari
+	culture = pulaar
+	father = sokoto_0
+	1814.1.1 = {
+		birth = yes
+	}
+	1873.3.12 = {
+		death = yes
+	}
+}
+
+sokoto_7 = {
+	name = "Abu Bakr"	# II of Sokoto
+	#dynasty = 1030002
+	religion = ashari
+	culture = pulaar
+	father = sokoto_1
+	1812.1.1 = {
+		birth = yes
+	}
+	1877.3.28 = {
+		death = yes
+	}
+}
+
+sokoto_8 = {
+	name = "Mu'azu"
+	#dynasty = 1030002
+	religion = ashari
+	culture = pulaar
+	father = sokoto_1
+	1816.1.1 = {
+		birth = yes
+	}
+	1881.9.26 = {
+		death = yes
+	}
+}
+
+sokoto_9 = {
+	name = "Umaru"
+	#dynasty = 1030002
+	religion = ashari
+	culture = pulaar
+	father = sokoto_3
+	1824.1.1 = {
+		birth = yes
+	}
+	1891.3.25 = {
+		death = yes
+	}
+}
+
+sokoto_10 = {
+	name = "Abdur Rahman"
+	#dynasty = 1030002
+	religion = ashari
+	culture = pulaar
+	father = sokoto_2
+	1828.1.1 = {
+		birth = yes
+	}
+	1902.10.10 = {
+		death = yes
+	}
+}
+
+sokoto_11 = {
+	name = "Muhammadu Attahiru"	# I of Sokoto
+	#dynasty = 1030002
+	religion = ashari
+	culture = pulaar
+	father = sokoto_4
+	1850.1.1 = {	# unknown
+		birth = yes
+	}
+	1903.8.1 = {
+		death = yes
+	}
+}
+
+sokoto_12 = {
+	name = "Muhammadu Maiturare"
+	#dynasty = 1030002
+	religion = ashari
+	culture = pulaar
+	father = sokoto_4
+	1854.1.1 = {
+		birth = yes
+	}
+	1924.1.1 = {
+		death = yes
+	}
+}

@@ -1,0 +1,105 @@
+d_kanem = {
+	1908.6.28 = {	# France
+		holder = france_equatorial_africa_0	# Martial Henri Merlin
+	}
+}
+c_kanem = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.6.28 = {	# France
+		holder = france_equatorial_africa_0	# Martial Henri Merlin
+	}
+}
+c_jimi = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.6.28 = {	# France
+		holder = france_equatorial_africa_0	# Martial Henri Merlin
+	}
+}
+#d_bornu = {
+#}
+c_bornu = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1914.1.1 = {	# United Kingdom
+		holder = british_nigeria_0	# Frederick Lugard
+	}
+}
+c_garumele = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.3.9 = {	# France
+		holder = france_west_africa_0	# William Merlaud-Ponty
+	}
+}
+c_yau = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1914.1.1 = {	# United Kingdom
+		holder = british_nigeria_0	# Frederick Lugard
+	}
+}
+c_munio = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.3.9 = {	# France
+		holder = france_west_africa_0	# William Merlaud-Ponty
+	}
+}
+#d_kagha = {
+#}
+c_kagha = {
+	1804.2.4 = {	# Sokoto
+		holder = sokoto_0	# Usman dan Fodio
+	}
+	1817.4.21 = {
+		holder = sokoto_1	# Muhammed Bello
+	}
+	1859.10.24 = {
+		holder = sokoto_4	# Ahmadu Atiku
+	}
+	1914.1.1 = {	# United Kingdom
+		holder = british_nigeria_0	# Frederick Lugard
+	}
+}
+c_fika = {
+	1804.2.4 = {	# Sokoto
+		holder = sokoto_0	# Usman dan Fodio
+	}
+	1817.4.21 = {
+		holder = sokoto_1	# Muhammed Bello
+	}
+	1859.10.24 = {
+		holder = sokoto_4	# Ahmadu Atiku
+	}
+	1914.1.1 = {	# United Kingdom
+		holder = british_nigeria_0	# Frederick Lugard
+	}
+}
+c_katagum = {
+	1804.2.4 = {	# Sokoto
+		holder = sokoto_0	# Usman dan Fodio
+	}
+	1817.4.21 = {
+		holder = sokoto_1	# Muhammed Bello
+	}
+	1859.10.24 = {
+		holder = sokoto_4	# Ahmadu Atiku
+	}
+	1914.1.1 = {	# United Kingdom
+		holder = british_nigeria_0	# Frederick Lugard
+	}
+}

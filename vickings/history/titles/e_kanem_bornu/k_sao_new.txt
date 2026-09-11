@@ -1,0 +1,126 @@
+d_baguirmi = {
+	1908.6.28 = {	# France
+		holder = france_equatorial_africa_0	# Martial Henri Merlin
+	}
+}
+c_baguirmi = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.6.28 = {	# France
+		holder = france_equatorial_africa_0	# Martial Henri Merlin
+	}
+}
+c_banre = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.6.28 = {	# France
+		holder = france_equatorial_africa_0	# Martial Henri Merlin
+	}
+}
+c_barma = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.6.28 = {	# France
+		holder = france_equatorial_africa_0	# Martial Henri Merlin
+	}
+}
+c_masa = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.6.28 = {	# France
+		holder = france_equatorial_africa_0	# Martial Henri Merlin
+	}
+}
+c_kuku = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.6.28 = {	# France
+		holder = france_equatorial_africa_0	# Martial Henri Merlin
+	}
+}
+c_tumak = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.6.28 = {	# France
+		holder = france_equatorial_africa_0	# Martial Henri Merlin
+	}
+}
+#d_salamat = {
+#}
+c_salamat = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.6.28 = {	# France
+		holder = france_equatorial_africa_0	# Martial Henri Merlin
+	}
+}
+c_dar_rashid = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.6.28 = {	# France
+		holder = france_equatorial_africa_0	# Martial Henri Merlin
+	}
+}
+#d_wandala = {
+#}
+c_wandala = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.6.28 = {	# France
+		holder = france_equatorial_africa_0	# Martial Henri Merlin
+	}
+}
+c_kotoko = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.6.28 = {	# France
+		holder = france_equatorial_africa_0	# Martial Henri Merlin
+	}
+}
+c_diamare = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.6.28 = {	# France
+		holder = france_equatorial_africa_0	# Martial Henri Merlin
+	}
+}
+c_garoua = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.6.28 = {	# France
+		holder = france_equatorial_africa_0	# Martial Henri Merlin
+	}
+}
+c_kera = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.6.28 = {	# France
+		holder = france_equatorial_africa_0	# Martial Henri Merlin
+	}
+}

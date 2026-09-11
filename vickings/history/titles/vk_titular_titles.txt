@@ -414,6 +414,48 @@ k_romania = {
 	}
 }
 
+k_sokoto = {
+	1804.2.4 = {
+		holder = sokoto_0	# Usman dan Fodio
+	}
+	1817.4.21 = {
+		holder = sokoto_1	# Muhammed Bello
+	}
+	1837.10.26 = {
+		holder = sokoto_2	# Abubakar I Atiku
+	}
+	1842.11.30 = {
+		holder = sokoto_3	# Ali Babba
+	}
+	1859.10.24 = {
+		holder = sokoto_4	# Ahmadu Atiku
+	}
+	1866.11.6 = {
+		holder = sokoto_5	# Aliyu Karami
+	}
+	1867.10.21 = {
+		holder = sokoto_6	# Ahmadu Rufai
+	}
+	1873.3.16 = {
+		holder = sokoto_7	# Abubakar II Atiku
+	}
+	1877.4.6 = {
+		holder = sokoto_8	# Mu'azu
+	}
+	1881.10.3 = {
+		holder = sokoto_9	# Umaru
+	}
+	1891.3.25 = {
+		holder = sokoto_10	# Abd al-Rahman
+	}
+	1902.10.13 = {
+		holder = sokoto_11	# Muhammadu Attahiru I
+	}
+	1903.3.15 = {
+		holder = 0
+	}
+}
+
 d_berg = {
 	1809.3.3 = {
 		holder = bonaparte_8	# Napoleon-Louis

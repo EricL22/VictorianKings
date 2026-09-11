@@ -2,3 +2,7 @@
 	name = "dynn_Wingate"
 	culture = "english"
 }
+lugard = {
+	name = "dynn_Lugard"
+	culture = "english"
+}

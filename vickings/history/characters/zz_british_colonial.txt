@@ -10,3 +10,17 @@
 		death = yes
 	}
 }
+
+
+british_nigeria_0 = {
+	name = "Frederick"
+	dynasty = lugard
+	religion = protestant
+	culture = english
+	1858.1.22 = {
+		birth = yes
+	}
+	1945.4.11 = {
+		death = yes
+	}
+}

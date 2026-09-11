@@ -1,0 +1,278 @@
+#d_darfur = {
+#}
+c_el_fasher = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1876.1.1 = {	# Egypt
+		holder = alawiyya_5	# Isma'il
+	}
+	1879.6.26 = {
+		holder = alawiyya_6	# Tewfik
+	}
+	1892.1.8 = {
+		holder = alawiyya_7	# Abbas II
+	}
+	1899.12.22 = {	# United Kingdom
+		holder = british_sudan_0	# Reginald Wingate
+	}
+}
+c_dar_al-said = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1876.1.1 = {	# Egypt
+		holder = alawiyya_5	# Isma'il
+	}
+	1879.6.26 = {
+		holder = alawiyya_6	# Tewfik
+	}
+	1892.1.8 = {
+		holder = alawiyya_7	# Abbas II
+	}
+	1899.12.22 = {	# United Kingdom
+		holder = british_sudan_0	# Reginald Wingate
+	}
+}
+c_dar-al-rih = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1876.1.1 = {	# Egypt
+		holder = alawiyya_5	# Isma'il
+	}
+	1879.6.26 = {
+		holder = alawiyya_6	# Tewfik
+	}
+	1892.1.8 = {
+		holder = alawiyya_7	# Abbas II
+	}
+	1899.12.22 = {	# United Kingdom
+		holder = british_sudan_0	# Reginald Wingate
+	}
+}
+c_east_darfur = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1876.1.1 = {	# Egypt
+		holder = alawiyya_5	# Isma'il
+	}
+	1879.6.26 = {
+		holder = alawiyya_6	# Tewfik
+	}
+	1892.1.8 = {
+		holder = alawiyya_7	# Abbas II
+	}
+	1899.12.22 = {	# United Kingdom
+		holder = british_sudan_0	# Reginald Wingate
+	}
+}
+#d_west_darfur = {
+#}
+c_ayn_farah = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1876.1.1 = {	# Egypt
+		holder = alawiyya_5	# Isma'il
+	}
+	1879.6.26 = {
+		holder = alawiyya_6	# Tewfik
+	}
+	1892.1.8 = {
+		holder = alawiyya_7	# Abbas II
+	}
+	1899.12.22 = {	# United Kingdom
+		holder = british_sudan_0	# Reginald Wingate
+	}
+}
+c_qimr = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1876.1.1 = {	# Egypt
+		holder = alawiyya_5	# Isma'il
+	}
+	1879.6.26 = {
+		holder = alawiyya_6	# Tewfik
+	}
+	1892.1.8 = {
+		holder = alawiyya_7	# Abbas II
+	}
+	1899.12.22 = {	# United Kingdom
+		holder = british_sudan_0	# Reginald Wingate
+	}
+}
+c_masalit = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1876.1.1 = {	# Egypt
+		holder = alawiyya_5	# Isma'il
+	}
+	1879.6.26 = {
+		holder = alawiyya_6	# Tewfik
+	}
+	1892.1.8 = {
+		holder = alawiyya_7	# Abbas II
+	}
+	1899.12.22 = {	# United Kingdom
+		holder = british_sudan_0	# Reginald Wingate
+	}
+}
+#d_wadai = {
+#}
+c_wadai = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.6.28 = {	# France
+		holder = france_equatorial_africa_0	# Martial Henri Merlin
+	}
+}
+c_dar_sila = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.6.28 = {	# France
+		holder = france_equatorial_africa_0	# Martial Henri Merlin
+	}
+}
+c_kadam = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.6.28 = {	# France
+		holder = france_equatorial_africa_0	# Martial Henri Merlin
+	}
+}
+c_fitri = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.6.28 = {	# France
+		holder = france_equatorial_africa_0	# Martial Henri Merlin
+	}
+}
+c_fellata = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.6.28 = {	# France
+		holder = france_equatorial_africa_0	# Martial Henri Merlin
+	}
+}
+c_ghazzal = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.6.28 = {	# France
+		holder = france_equatorial_africa_0	# Martial Henri Merlin
+	}
+}
+#d_kordofan = {
+#}
+c_kordofan = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1821.1.1 = {	# Egypt
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1848.7.20 = {
+		holder = alawiyya_1	# Ibrahim
+	}
+	1848.11.10 = {
+		holder = alawiyya_3	# Abbas I
+	}
+	1854.7.13 = {
+		holder = alawiyya_4	# Sa'id
+	}
+	1863.1.19 = {
+		holder = alawiyya_5	# Isma'il
+	}
+	1879.6.26 = {
+		holder = alawiyya_6	# Tewfik
+	}
+	1892.1.8 = {
+		holder = alawiyya_7	# Abbas II
+	}
+	1899.12.22 = {	# United Kingdom
+		holder = british_sudan_0	# Reginald Wingate
+	}
+}
+c_west_kordofan = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1821.1.1 = {	# Egypt
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1848.7.20 = {
+		holder = alawiyya_1	# Ibrahim
+	}
+	1848.11.10 = {
+		holder = alawiyya_3	# Abbas I
+	}
+	1854.7.13 = {
+		holder = alawiyya_4	# Sa'id
+	}
+	1863.1.19 = {
+		holder = alawiyya_5	# Isma'il
+	}
+	1879.6.26 = {
+		holder = alawiyya_6	# Tewfik
+	}
+	1892.1.8 = {
+		holder = alawiyya_7	# Abbas II
+	}
+	1899.12.22 = {	# United Kingdom
+		holder = british_sudan_0	# Reginald Wingate
+	}
+}
+c_south_kordofan = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1821.1.1 = {	# Egypt
+		holder = alawiyya_0	# Muhammad Ali
+	}
+	1848.7.20 = {
+		holder = alawiyya_1	# Ibrahim
+	}
+	1848.11.10 = {
+		holder = alawiyya_3	# Abbas I
+	}
+	1854.7.13 = {
+		holder = alawiyya_4	# Sa'id
+	}
+	1863.1.19 = {
+		holder = alawiyya_5	# Isma'il
+	}
+	1879.6.26 = {
+		holder = alawiyya_6	# Tewfik
+	}
+	1892.1.8 = {
+		holder = alawiyya_7	# Abbas II
+	}
+	1899.12.22 = {	# United Kingdom
+		holder = british_sudan_0	# Reginald Wingate
+	}
+}
