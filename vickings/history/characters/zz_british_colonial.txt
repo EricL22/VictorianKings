@@ -1,0 +1,12 @@
+﻿british_sudan_0 = {
+	name = "Reginald"
+	dynasty = wingate
+	religion = protestant
+	culture = english
+	1861.6.25 = {
+		birth = yes
+	}
+	1953.1.29 = {
+		death = yes
+	}
+}

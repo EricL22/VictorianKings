@@ -1,0 +1,23 @@
+﻿france_west_africa_0 = {
+	name = "William Merlaud-Ponty"
+	religion = catholic
+	culture = french
+	1866.2.4 = {
+		birth = yes
+	}
+	1915.6.13 = {
+		death = yes
+	}
+}
+
+france_equatorial_africa_0 = {
+	name = "Martial Henri Merlin"
+	religion = catholic
+	culture = french
+	1860.1.20 = {
+		birth = yes
+	}
+	1935.5.8 = {
+		death = yes
+	}
+}

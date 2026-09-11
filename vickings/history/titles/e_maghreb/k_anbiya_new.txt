@@ -1,0 +1,119 @@
+#d_zammour = {
+#}
+c_zammour = {
+	1792.1.1 = {
+		holder = alawi_2	# Sulayman bin Muhammad
+	}
+	1822.11.28 = {
+		holder = alawi_4	# Abd al-Rahman bin Hisham
+	}
+	1859.8.28 = {
+		holder = alawi_5	# Muhammad bin Abd al-Rahman
+	}
+	1886.5.17 = {	# Spain
+		holder = bourbon_42	# Alfonso XIII
+	}
+}
+c_tindouf = {
+	1792.1.1 = {
+		holder = alawi_2	# Sulayman bin Muhammad
+	}
+	1822.11.28 = {
+		holder = alawi_4	# Abd al-Rahman bin Hisham
+	}
+	1859.8.28 = {
+		holder = alawi_5	# Muhammad bin Abd al-Rahman
+	}
+	1913.2.18 = {	# France
+		holder = eur_01500	# Raymond Poincaré
+	}
+}
+c_tiris = {
+	1792.1.1 = {
+		holder = alawi_2	# Sulayman bin Muhammad
+	}
+	1822.11.28 = {
+		holder = alawi_4	# Abd al-Rahman bin Hisham
+	}
+	1859.8.28 = {
+		holder = alawi_5	# Muhammad bin Abd al-Rahman
+	}
+	1886.5.17 = {	# Spain
+		holder = bourbon_42	# Alfonso XIII
+	}
+}
+d_adrar = {
+	1804.2.4 = {
+		holder = 0
+	}
+}
+c_wadan = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.3.9 = {	# France
+		holder = france_west_africa_0	# William Merlaud-Ponty
+	}
+}
+c_azukki = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.3.9 = {	# France
+		holder = france_west_africa_0	# William Merlaud-Ponty
+	}
+}
+c_amatlus = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.3.9 = {	# France
+		holder = france_west_africa_0	# William Merlaud-Ponty
+	}
+}
+#d_touat = {
+#}
+c_touat = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1913.2.18 = {	# France
+		holder = eur_01500	# Raymond Poincaré
+	}
+}
+c_tamentit = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1913.2.18 = {	# France
+		holder = eur_01500	# Raymond Poincaré
+	}
+}
+d_taghaza = {
+	1800.1.1 = {
+		holder = 0
+	}
+}
+c_taghaza = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.3.9 = {	# France
+		holder = france_west_africa_0	# William Merlaud-Ponty
+	}
+}
+c_saoura = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1913.2.18 = {	# France
+		holder = eur_01500	# Raymond Poincaré
+	}
+}

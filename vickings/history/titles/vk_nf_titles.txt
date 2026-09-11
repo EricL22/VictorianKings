@@ -683,3 +683,17 @@ d_nf_metternich = {
 		holder = 0
 	}
 }
+
+d_nf_wingate = {
+	1899.12.22 = {	# historically 1920
+		liege = e_britannia
+		holder = british_sudan_0	# Reginald Wingate
+		government = administrative_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1914.7.28 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1914.7.28 }
+		}
+	}
+}

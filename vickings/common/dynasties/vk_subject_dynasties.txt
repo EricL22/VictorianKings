@@ -1,0 +1,4 @@
+﻿wingate = {
+	name = "dynn_Wingate"
+	culture = "english"
+}

@@ -1,0 +1,150 @@
+#d_tadmekka = {
+#}
+c_tadmekka = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.3.9 = {	# France
+		holder = france_west_africa_0	# William Merlaud-Ponty
+	}
+}
+c_tessalit = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1913.2.18 = {	# France
+		holder = eur_01500	# Raymond Poincaré
+	}
+}
+d_ghat = {
+	1800.1.1 = {
+		holder = 0
+	}
+}
+c_ghat = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1912.10.18 = {	# Italy
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_djanet = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1913.2.18 = {	# France
+		holder = eur_01500	# Raymond Poincaré
+	}
+}
+#d_air = {
+#}
+c_takkeda = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.3.9 = {	# France
+		holder = france_west_africa_0	# William Merlaud-Ponty
+	}
+}
+c_air = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.3.9 = {	# France
+		holder = france_west_africa_0	# William Merlaud-Ponty
+	}
+}
+#d_kawar = {
+#}
+c_bilma = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.3.9 = {	# France
+		holder = france_west_africa_0	# William Merlaud-Ponty
+	}
+}
+c_dirku = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.3.9 = {	# France
+		holder = france_west_africa_0	# William Merlaud-Ponty
+	}
+}
+c_djado = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.3.9 = {	# France
+		holder = france_west_africa_0	# William Merlaud-Ponty
+	}
+}
+#d_tibesti = {
+#}
+c_ain_galakka = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.6.28 = {	# France
+		holder = france_equatorial_africa_0	# Martial Henri Merlin
+	}
+}
+c_bodele = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.6.28 = {	# France
+		holder = france_equatorial_africa_0	# Martial Henri Merlin
+	}
+}
+c_tibesti = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.6.28 = {	# France
+		holder = france_equatorial_africa_0	# Martial Henri Merlin
+	}
+}
+#d_fezzan = {
+#}
+c_murzuk = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1912.10.18 = {	# Italy
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_zawila = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1912.10.18 = {	# Italy
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}
+c_germa = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1912.10.18 = {	# Italy
+		holder = savoy_29	# Vittorio Emanuele III
+	}
+}

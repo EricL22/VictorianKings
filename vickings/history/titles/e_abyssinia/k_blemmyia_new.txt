@@ -20,14 +20,8 @@ d_naqis = {
 	1892.1.8 = {
 		holder = alawiyya_7	# Abbas II
 	}
-	1899.6.19 = {	# United Kingdom
-		holder = hanover_7	# Victoria
-	}
-	1901.1.22 = {
-		holder = wettin_34	# Edward VII
-	}
-	1910.5.6 = {
-		holder = wettin_35	# George V
+	1899.12.22 = {	# United Kingdom
+		holder = british_sudan_0	# Reginald Wingate
 	}
 }
 c_aydhab = {
@@ -56,14 +50,8 @@ c_aydhab = {
 	1892.1.8 = {
 		holder = alawiyya_7	# Abbas II
 	}
-	1899.6.19 = {	# United Kingdom
-		holder = hanover_7	# Victoria
-	}
-	1901.1.22 = {
-		holder = wettin_34	# Edward VII
-	}
-	1910.5.6 = {
-		holder = wettin_35	# George V
+	1899.12.22 = {	# United Kingdom
+		holder = british_sudan_0	# Reginald Wingate
 	}
 }
 c_allaqi = {
@@ -92,14 +80,8 @@ c_allaqi = {
 	1892.1.8 = {
 		holder = alawiyya_7	# Abbas II
 	}
-	1899.6.19 = {	# United Kingdom
-		holder = hanover_7	# Victoria
-	}
-	1901.1.22 = {
-		holder = wettin_34	# Edward VII
-	}
-	1910.5.6 = {
-		holder = wettin_35	# George V
+	1899.12.22 = {	# United Kingdom
+		holder = british_sudan_0	# Reginald Wingate
 	}
 }
 c_naqis = {
@@ -128,14 +110,8 @@ c_naqis = {
 	1892.1.8 = {
 		holder = alawiyya_7	# Abbas II
 	}
-	1899.6.19 = {	# United Kingdom
-		holder = hanover_7	# Victoria
-	}
-	1901.1.22 = {
-		holder = wettin_34	# Edward VII
-	}
-	1910.5.6 = {
-		holder = wettin_35	# George V
+	1899.12.22 = {	# United Kingdom
+		holder = british_sudan_0	# Reginald Wingate
 	}
 }
 c_wadi_amur = {
@@ -164,14 +140,8 @@ c_wadi_amur = {
 	1892.1.8 = {
 		holder = alawiyya_7	# Abbas II
 	}
-	1899.6.19 = {	# United Kingdom
-		holder = hanover_7	# Victoria
-	}
-	1901.1.22 = {
-		holder = wettin_34	# Edward VII
-	}
-	1910.5.6 = {
-		holder = wettin_35	# George V
+	1899.12.22 = {	# United Kingdom
+		holder = british_sudan_0	# Reginald Wingate
 	}
 }
 d_bazin = {
@@ -196,14 +166,8 @@ d_bazin = {
 	1892.1.8 = {
 		holder = alawiyya_7	# Abbas II
 	}
-	1899.6.19 = {	# United Kingdom
-		holder = hanover_7	# Victoria
-	}
-	1901.1.22 = {
-		holder = wettin_34	# Edward VII
-	}
-	1910.5.6 = {
-		holder = wettin_35	# George V
+	1899.12.22 = {	# United Kingdom
+		holder = british_sudan_0	# Reginald Wingate
 	}
 }
 c_bazin = {
@@ -232,14 +196,8 @@ c_bazin = {
 	1892.1.8 = {
 		holder = alawiyya_7	# Abbas II
 	}
-	1899.6.19 = {	# United Kingdom
-		holder = hanover_7	# Victoria
-	}
-	1901.1.22 = {
-		holder = wettin_34	# Edward VII
-	}
-	1910.5.6 = {
-		holder = wettin_35	# George V
+	1899.12.22 = {	# United Kingdom
+		holder = british_sudan_0	# Reginald Wingate
 	}
 }
 c_suakin = {
@@ -268,14 +226,8 @@ c_suakin = {
 	1892.1.8 = {
 		holder = alawiyya_7	# Abbas II
 	}
-	1899.6.19 = {	# United Kingdom
-		holder = hanover_7	# Victoria
-	}
-	1901.1.22 = {
-		holder = wettin_34	# Edward VII
-	}
-	1910.5.6 = {
-		holder = wettin_35	# George V
+	1899.12.22 = {	# United Kingdom
+		holder = british_sudan_0	# Reginald Wingate
 	}
 }
 c_badi = {
@@ -330,14 +282,8 @@ d_baqlin = {
 	1892.1.8 = {
 		holder = alawiyya_7	# Abbas II
 	}
-	1899.6.19 = {	# United Kingdom
-		holder = hanover_7	# Victoria
-	}
-	1901.1.22 = {
-		holder = wettin_34	# Edward VII
-	}
-	1910.5.6 = {
-		holder = wettin_35	# George V
+	1899.12.22 = {	# United Kingdom
+		holder = british_sudan_0	# Reginald Wingate
 	}
 }
 c_baqlin = {
@@ -366,14 +312,8 @@ c_baqlin = {
 	1892.1.8 = {
 		holder = alawiyya_7	# Abbas II
 	}
-	1899.6.19 = {	# United Kingdom
-		holder = hanover_7	# Victoria
-	}
-	1901.1.22 = {
-		holder = wettin_34	# Edward VII
-	}
-	1910.5.6 = {
-		holder = wettin_35	# George V
+	1899.12.22 = {	# United Kingdom
+		holder = british_sudan_0	# Reginald Wingate
 	}
 }
 c_djarin = {
@@ -402,14 +342,8 @@ c_djarin = {
 	1892.1.8 = {
 		holder = alawiyya_7	# Abbas II
 	}
-	1899.6.19 = {	# United Kingdom
-		holder = hanover_7	# Victoria
-	}
-	1901.1.22 = {
-		holder = wettin_34	# Edward VII
-	}
-	1910.5.6 = {
-		holder = wettin_35	# George V
+	1899.12.22 = {	# United Kingdom
+		holder = british_sudan_0	# Reginald Wingate
 	}
 }
 c_qataa = {
@@ -468,14 +402,8 @@ c_kassala = {
 	1892.1.8 = {
 		holder = alawiyya_7	# Abbas II
 	}
-	1899.6.19 = {	# United Kingdom
-		holder = hanover_7	# Victoria
-	}
-	1901.1.22 = {
-		holder = wettin_34	# Edward VII
-	}
-	1910.5.6 = {
-		holder = wettin_35	# George V
+	1899.12.22 = {	# United Kingdom
+		holder = british_sudan_0	# Reginald Wingate
 	}
 }
 c_showak = {
@@ -504,14 +432,8 @@ c_showak = {
 	1892.1.8 = {
 		holder = alawiyya_7	# Abbas II
 	}
-	1899.6.19 = {	# United Kingdom
-		holder = hanover_7	# Victoria
-	}
-	1901.1.22 = {
-		holder = wettin_34	# Edward VII
-	}
-	1910.5.6 = {
-		holder = wettin_35	# George V
+	1899.12.22 = {	# United Kingdom
+		holder = british_sudan_0	# Reginald Wingate
 	}
 }
 c_wolqayt = {
@@ -540,13 +462,7 @@ c_wolqayt = {
 	1892.1.8 = {
 		holder = alawiyya_7	# Abbas II
 	}
-	1899.6.19 = {	# United Kingdom
-		holder = hanover_7	# Victoria
-	}
-	1901.1.22 = {
-		holder = wettin_34	# Edward VII
-	}
-	1910.5.6 = {
-		holder = wettin_35	# George V
+	1899.12.22 = {	# United Kingdom
+		holder = british_sudan_0	# Reginald Wingate
 	}
 }
