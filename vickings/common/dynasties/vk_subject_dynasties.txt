@@ -38,3 +38,11 @@ schnee = {
 	name = "dynn_Schnee"
 	culture = "german"
 }
+archer = {
+	name = "dynn_Archer"
+	culture = "english"
+}
+raggi = {
+	name = "dynn_Raggi"
+	culture = "italian"
+}

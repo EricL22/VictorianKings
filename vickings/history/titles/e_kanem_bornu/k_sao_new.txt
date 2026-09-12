@@ -84,6 +84,7 @@ c_wandala = {
 		holder = tribals
 		liege = 0
 	}
+	# TODO: replace with German Kamerun
 	1908.6.28 = {	# France
 		holder = france_equatorial_africa_0	# Martial Henri Merlin
 	}
@@ -93,6 +94,7 @@ c_kotoko = {
 		holder = tribals
 		liege = 0
 	}
+	# TODO: replace with German Kamerun
 	1908.6.28 = {	# France
 		holder = france_equatorial_africa_0	# Martial Henri Merlin
 	}
@@ -102,6 +104,7 @@ c_diamare = {
 		holder = tribals
 		liege = 0
 	}
+	# TODO: replace with German Kamerun
 	1908.6.28 = {	# France
 		holder = france_equatorial_africa_0	# Martial Henri Merlin
 	}
@@ -111,6 +114,7 @@ c_garoua = {
 		holder = tribals
 		liege = 0
 	}
+	# TODO: replace with German Kamerun
 	1908.6.28 = {	# France
 		holder = france_equatorial_africa_0	# Martial Henri Merlin
 	}
@@ -120,6 +124,7 @@ c_kera = {
 		holder = tribals
 		liege = 0
 	}
+	# TODO: replace with German Kamerun
 	1908.6.28 = {	# France
 		holder = france_equatorial_africa_0	# Martial Henri Merlin
 	}

@@ -1,0 +1,12 @@
+﻿italian_eritrea_0 = {
+	name = "Giuseppe"
+	dynasty = raggi
+	religion = catholic
+	culture = italian
+	1866.5.17 = {
+		birth = yes
+	}
+	1946.2.28 = {
+		death = yes
+	}
+}

@@ -112,3 +112,17 @@ british_gold_coast_2 = {
 		death = yes
 	}
 }
+
+
+british_somalia_0 = {
+	name = "Geoffrey"
+	dynasty = archer
+	culture = english
+	religion = protestant
+	1882.7.4 = {
+		birth = yes
+	}
+	1964.5.1 = {
+		death = yes
+	}
+}

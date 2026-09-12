@@ -140,8 +140,8 @@ c_edd = {
 	1882.7.5 = {	# Italy
 		holder = savoy_28	# Umberto I
 	}
-	1900.7.29 = {
-		holder = savoy_29	# Vittorio Emanuele III
+	1907.3.25 = {
+		holder = italian_eritrea_0	# Giuseppe Salvago Raggi
 	}
 }
 c_afar = {
@@ -189,8 +189,8 @@ c_berbera = {
 	1901.1.22 = {
 		holder = wettin_34	# Edward VII
 	}
-	1910.5.6 = {
-		holder = wettin_35	# George V
+	1914.5.1 = {
+		holder = british_somalia_0	# Geoffrey Archer
 	}
 }
 d_sanaag = {
@@ -200,8 +200,10 @@ d_sanaag = {
 	1901.1.22 = {
 		holder = wettin_34	# Edward VII
 	}
-	1910.5.6 = {
-		holder = wettin_35	# George V
+	1914.5.1 = {
+		holder = british_somalia_0	# Geoffrey Archer
+		government = administrative_government
+		liege = e_britannia
 	}
 }
 c_mait = {
@@ -215,8 +217,8 @@ c_mait = {
 	1901.1.22 = {
 		holder = wettin_34	# Edward VII
 	}
-	1910.5.6 = {
-		holder = wettin_35	# George V
+	1914.5.1 = {
+		holder = british_somalia_0	# Geoffrey Archer
 	}
 }
 c_makhir = {
@@ -230,8 +232,8 @@ c_makhir = {
 	1901.1.22 = {
 		holder = wettin_34	# Edward VII
 	}
-	1910.5.6 = {
-		holder = wettin_35	# George V
+	1914.5.1 = {
+		holder = british_somalia_0	# Geoffrey Archer
 	}
 }
 c_busaso = {
@@ -245,7 +247,7 @@ c_busaso = {
 	1901.1.22 = {
 		holder = wettin_34	# Edward VII
 	}
-	1910.5.6 = {
-		holder = wettin_35	# George V
+	1914.5.1 = {
+		holder = british_somalia_0	# Geoffrey Archer
 	}
 }

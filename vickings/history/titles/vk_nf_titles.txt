@@ -714,3 +714,31 @@ d_nf_faidherbe = {
 		holder = 0
 	}
 }
+
+d_nf_archer = {
+	1914.5.1 = {
+		liege = e_britannia
+		holder = british_somalia_0	# Geoffrey Archer
+		government = administrative_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1914.7.28 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1914.7.28 }
+		}
+	}
+}
+
+d_nf_raggi = {
+	1907.3.25 = {
+		liege = k_italy
+		holder = italian_eritrea_0	# Giuseppe Salvago Raggi
+		government = administrative_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1914.7.28 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1914.7.28 }
+		}
+	}
+}

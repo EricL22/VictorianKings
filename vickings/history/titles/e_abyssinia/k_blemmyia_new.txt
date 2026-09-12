@@ -256,8 +256,8 @@ c_badi = {
 	1889.3.2 = {	# Italy
 		holder = savoy_28	# Umberto I
 	}
-	1900.7.29 = {
-		holder = savoy_29	# Vittorio Emanuele III
+	1907.3.25 = {
+		holder = italian_eritrea_0	# Giuseppe Salvago Raggi
 	}
 }
 d_baqlin = {
@@ -372,8 +372,8 @@ c_qataa = {
 	1889.3.2 = {	# Italy
 		holder = savoy_28	# Umberto I
 	}
-	1900.7.29 = {
-		holder = savoy_29	# Vittorio Emanuele III
+	1907.3.25 = {
+		holder = italian_eritrea_0	# Giuseppe Salvago Raggi
 	}
 }
 c_kassala = {

@@ -128,3 +128,7 @@
  d_nf_wingate_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
  d_nf_faidherbe: "$dynn_Faidherbe$ Family"
  d_nf_faidherbe_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ d_nf_archer: "$dynn_Archer$ Family"
+ d_nf_archer_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ d_nf_raggi: "$dynn_Raggi$ Family"
+ d_nf_raggi_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
