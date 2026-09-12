@@ -6,3 +6,35 @@ lugard = {
 	name = "dynn_Lugard"
 	culture = "english"
 }
+maxwell = {
+	name = "dynn_Maxwell"
+	culture = "scottish"
+}
+campbell3 = {
+	name = "dynn_Campbell"
+	culture = "scottish"
+}
+maclean = {
+	name = "dynn_Maclean"
+	culture = "scottish"
+}
+hill = {
+	name = "dynn_Hill"
+	culture = "english"
+}
+merewether = {
+	name = "dynn_Merewether"
+	culture = "english"
+}
+andrews = {
+	name = "dynn_Andrews"
+	culture = "english"
+}
+clifford = {
+	name = "dynn_Clifford"
+	culture = "english"
+}
+schnee = {
+	name = "dynn_Schnee"
+	culture = "german"
+}

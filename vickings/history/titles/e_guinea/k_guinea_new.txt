@@ -1,0 +1,198 @@
+#d_sapi = {
+#}
+c_temne = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.3.9 = {	# France
+		holder = france_west_africa_0	# William Merlaud-Ponty
+	}
+}
+c_nalu = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.3.9 = {	# France
+		holder = france_west_africa_0	# William Merlaud-Ponty
+	}
+}
+c_tamiso = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.3.9 = {	# France
+		holder = france_west_africa_0	# William Merlaud-Ponty
+	}
+}
+c_sanda = {
+	1811.7.1 = {
+		holder = british_sierra_leone_0	# Charles William Maxwell
+		government = administrative_government
+		liege = e_britannia
+	}
+	1835.1.1 = {
+		holder = british_sierra_leone_1	# Henry Dundas Campbell
+	}
+	1854.1.1 = {
+		holder = british_sierra_leone_2	# Stephen John Hill
+	}
+	1911.3.8 = {
+		holder = british_sierra_leone_3	# Edward Merewether
+	}
+}
+#d_kono = {
+#}
+c_kono = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1911.6.1 = {	# United Kingdom
+		holder = british_sierra_leone_3	# Edward Merewether
+	}
+}
+c_sherbro = {
+	1811.7.1 = {
+		holder = british_sierra_leone_0	# Charles William Maxwell
+	}
+	1835.1.1 = {
+		holder = british_sierra_leone_1	# Henry Dundas Campbell
+	}
+	1854.1.1 = {
+		holder = british_sierra_leone_2	# Stephen John Hill
+	}
+	1911.3.8 = {
+		holder = british_sierra_leone_3	# Edward Merewether
+	}
+}
+c_gola = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+}
+#d_bassa = {
+#}
+c_bassa = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+}
+c_nuon = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+}
+c_man = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.3.9 = {	# France
+		holder = france_west_africa_0	# William Merlaud-Ponty
+	}
+}
+#d_toro = {
+#}
+c_toro = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.3.9 = {	# France
+		holder = france_west_africa_0	# William Merlaud-Ponty
+	}
+}
+c_kabarasana = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.3.9 = {	# France
+		holder = france_west_africa_0	# William Merlaud-Ponty
+	}
+}
+c_konyan = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.3.9 = {	# France
+		holder = france_west_africa_0	# William Merlaud-Ponty
+	}
+}
+c_mau = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.3.9 = {	# France
+		holder = france_west_africa_0	# William Merlaud-Ponty
+	}
+}
+c_toma = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.3.9 = {	# France
+		holder = france_west_africa_0	# William Merlaud-Ponty
+	}
+}
+#d_wenyon = {
+#}
+c_wenyon = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+}
+c_grebo = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+}
+#d_kru = {
+#}
+c_kru = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.3.9 = {	# France
+		holder = france_west_africa_0	# William Merlaud-Ponty
+	}
+}
+c_dibri = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.3.9 = {	# France
+		holder = france_west_africa_0	# William Merlaud-Ponty
+	}
+}
+c_lobo = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.3.9 = {	# France
+		holder = france_west_africa_0	# William Merlaud-Ponty
+	}
+}
+c_boubo = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.3.9 = {	# France
+		holder = france_west_africa_0	# William Merlaud-Ponty
+	}
+}

@@ -1,6 +1,6 @@
 ﻿# Master character for all tribals, territories shattered on game start
 tribals = {
-	name = "Abu-Bakr"
+	name = "Apu"
 	religion = ashari
 	culture = bedouin
 	1810.1.1 = {

@@ -1,0 +1,58 @@
+#d_jenne = {
+#}
+c_jenne = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.3.9 = {	# France
+		holder = france_west_africa_0	# William Merlaud-Ponty
+	}
+}
+c_dodugu = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.3.9 = {	# France
+		holder = france_west_africa_0	# William Merlaud-Ponty
+	}
+}
+c_bindugu = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.3.9 = {	# France
+		holder = france_west_africa_0	# William Merlaud-Ponty
+	}
+}
+c_kurmina = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.3.9 = {	# France
+		holder = france_west_africa_0	# William Merlaud-Ponty
+	}
+}
+#d_bobo = {
+#}
+c_sikasso = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.3.9 = {	# France
+		holder = france_west_africa_0	# William Merlaud-Ponty
+	}
+}
+c_bena = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.3.9 = {	# France
+		holder = france_west_africa_0	# William Merlaud-Ponty
+	}
+}

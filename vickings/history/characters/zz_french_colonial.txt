@@ -21,3 +21,16 @@ france_equatorial_africa_0 = {
 		death = yes
 	}
 }
+
+france_senegal_0 = {
+	name = "Louis"
+	dynasty = faidherbe
+	religion = catholic
+	culture = french
+	1818.6.3 = {
+		birth = yes
+	}
+	1889.9.29 = {
+		death = yes
+	}
+}

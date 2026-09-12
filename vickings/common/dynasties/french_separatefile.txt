@@ -33,3 +33,8 @@ poincare = {
     name = "dynn_PoincarE_"
     culture = "french"
 }
+
+faidherbe = {
+	name = "dynn_Faidherbe"
+	culture = "french"
+}

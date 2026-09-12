@@ -56,6 +56,9 @@
  k_sokoto: "Sokoto"
  k_sokoto_adj: "Sokoto"
 
+ senegal: "Senegal"
+ senegal_adj: "Senegalese"
+
  d_berg:0 "Berg"
  d_berg_adj:0 "Berg"
 
@@ -98,8 +101,6 @@
  d_nf_habsburg_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
  d_nf_carignano: "$dynn_Carignano$ Family"
  d_nf_carignano_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
- d_nf_wingate: "$dynn_Wingate$ Family"
- d_nf_wingate_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
 
  d_nf_berryer: "$dynn_Berryer$ Family"
  d_nf_berryer_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
@@ -121,3 +122,9 @@
  d_nf_broglie_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
  d_nf_guizot: "$dynn_Guizot$ Family"
  d_nf_guizot_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ d_nf_metternich: "$dynn_Metternich$ Family"
+ d_nf_metternich_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ d_nf_wingate: "$dynn_Wingate$ Family"
+ d_nf_wingate_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ d_nf_faidherbe: "$dynn_Faidherbe$ Family"
+ d_nf_faidherbe_article: "$DEFAULT_TITLE_NAME_ARTICLE$"

@@ -24,3 +24,91 @@ british_nigeria_0 = {
 		death = yes
 	}
 }
+
+
+british_sierra_leone_0 = {
+	name = "Charles"
+	dynasty = maxwell
+	culture = english
+	religion = protestant
+	1775.1.1 = {
+		birth = yes
+	}
+	1848.9.23 = {
+		death = yes
+	}
+}
+british_sierra_leone_1 = {
+	name = "Henry"
+	dynasty = campbell3
+	culture = english
+	religion = protestant
+	1798.7.8 = {
+		birth = yes
+	}
+	1872.4.1 = {
+		death = yes
+	}
+}
+british_sierra_leone_2 = {
+	name = "Stephen"
+	dynasty = hill
+	culture = english
+	religion = protestant
+	1809.6.10 = {
+		birth = yes
+	}
+	1891.10.20 = {
+		death = yes
+	}
+}
+british_sierra_leone_3 = {
+	name = "Edward"
+	dynasty = merewether
+	culture = english
+	religion = protestant
+	1858.9.9 = {
+		birth = yes
+	}
+	1938.12.28 = {
+		death = yes
+	}
+}
+
+
+british_gold_coast_0 = {
+	name = "George"
+	dynasty = maclean
+	culture = english
+	religion = protestant
+	1801.2.2 = {
+		birth = yes
+	}
+	1847.5.22 = {
+		death = yes
+	}
+}
+british_gold_coast_1 = {
+	name = "Edward"
+	dynasty = andrews
+	culture = english
+	religion = protestant
+	1810.1.1 = {	# unknown
+		birth = yes
+	}
+	1863.1.1 = {	# unknown
+		death = yes
+	}
+}
+british_gold_coast_2 = {
+	name = "Hugh"
+	dynasty = clifford
+	culture = english
+	religion = protestant
+	1866.3.5 = {
+		birth = yes
+	}
+	1941.12.18 = {
+		death = yes
+	}
+}

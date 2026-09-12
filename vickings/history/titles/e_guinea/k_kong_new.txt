@@ -1,0 +1,105 @@
+#d_worodugu = {
+#}
+c_worodugu = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.3.9 = {	# France
+		holder = france_west_africa_0	# William Merlaud-Ponty
+	}
+}
+c_tyendugu = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.3.9 = {	# France
+		holder = france_west_africa_0	# William Merlaud-Ponty
+	}
+}
+c_nyene = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.3.9 = {	# France
+		holder = france_west_africa_0	# William Merlaud-Ponty
+	}
+}
+#d_kong = {
+#}
+c_kong = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.3.9 = {	# France
+		holder = france_west_africa_0	# William Merlaud-Ponty
+	}
+}
+c_leraba = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.3.9 = {	# France
+		holder = france_west_africa_0	# William Merlaud-Ponty
+	}
+}
+c_boron = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.3.9 = {	# France
+		holder = france_west_africa_0	# William Merlaud-Ponty
+	}
+}
+c_nzi = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.3.9 = {	# France
+		holder = france_west_africa_0	# William Merlaud-Ponty
+	}
+}
+#d_lobi = {
+#}
+c_lobi = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.3.9 = {	# France
+		holder = france_west_africa_0	# William Merlaud-Ponty
+	}
+}
+c_loropeni = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.3.9 = {	# France
+		holder = france_west_africa_0	# William Merlaud-Ponty
+	}
+}
+c_dyulaso = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.3.9 = {	# France
+		holder = france_west_africa_0	# William Merlaud-Ponty
+	}
+}
+c_wa = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.3.9 = {	# France
+		holder = france_west_africa_0	# William Merlaud-Ponty
+	}
+}

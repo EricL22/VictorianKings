@@ -1,0 +1,135 @@
+k_takrur = {
+	1659.1.1 = {
+		name = senegal
+		effect = { set_capital_county = title:c_kayor }
+	}
+	1854.12.16 = {
+		holder = france_senegal_0	# Louis Faidherbe
+		liege = e_france
+	}
+	1908.3.9 = {
+		holder = france_west_africa_0	# William Merlaud-Ponty
+	}
+}
+#d_takrur = {
+#}
+c_takrur = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1861.1.1 = {	# France
+		holder = france_senegal_0	# Louis Faidherbe
+	}
+	1908.3.9 = {
+		holder = france_west_africa_0	# William Merlaud-Ponty
+	}
+}
+c_podor = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1861.1.1 = {	# France
+		holder = france_senegal_0	# Louis Faidherbe
+	}
+	1908.3.9 = {
+		holder = france_west_africa_0	# William Merlaud-Ponty
+	}
+}
+c_dhraina = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.3.9 = {	# France
+		holder = france_west_africa_0	# William Merlaud-Ponty
+	}
+}
+#d_silla = {
+#}
+c_silla = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1861.1.1 = {	# France
+		holder = france_senegal_0	# Louis Faidherbe
+	}
+	1908.3.9 = {
+		holder = france_west_africa_0	# William Merlaud-Ponty
+	}
+}
+c_jowol = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.3.9 = {	# France
+		holder = france_west_africa_0	# William Merlaud-Ponty
+	}
+}
+c_galam = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1861.1.1 = {	# France
+		holder = france_senegal_0	# Louis Faidherbe
+	}
+	1908.3.9 = {
+		holder = france_west_africa_0	# William Merlaud-Ponty
+	}
+}
+#d_djolof = {
+#}
+c_jolof = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1861.1.1 = {	# France
+		holder = france_senegal_0	# Louis Faidherbe
+	}
+	1908.3.9 = {
+		holder = france_west_africa_0	# William Merlaud-Ponty
+	}
+}
+c_namandiru = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1861.1.1 = {	# France
+		holder = france_senegal_0	# Louis Faidherbe
+	}
+	1908.3.9 = {
+		holder = france_west_africa_0	# William Merlaud-Ponty
+	}
+}
+c_kayor = {
+	1804.5.18 = {	# France
+		holder = bonaparte_2	# Napoleon I
+	}
+	1814.4.6 = {
+		holder = bourbon_16 # Louis XVIII
+	}
+	1830.8.2 = {
+		holder = bourbon_23 # Louis-Phillipe I
+	}
+	1854.12.16 = {
+		holder = france_senegal_0	# Louis Faidherbe
+	}
+	1908.3.9 = {
+		holder = france_west_africa_0	# William Merlaud-Ponty
+	}
+}
+c_baol = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.3.9 = {	# France
+		holder = france_west_africa_0	# William Merlaud-Ponty
+	}
+}

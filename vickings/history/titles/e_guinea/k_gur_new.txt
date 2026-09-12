@@ -1,0 +1,78 @@
+#d_dagomba = {
+#}
+c_dagomba = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1912.12.26 = {	# United Kingdom
+		holder = british_gold_coast_2	# Hugh Charles Clifford
+	}
+}
+c_gonja = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1912.12.26 = {	# United Kingdom
+		holder = british_gold_coast_2	# Hugh Charles Clifford
+	}
+}
+c_daboya = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1912.12.26 = {	# United Kingdom
+		holder = british_gold_coast_2	# Hugh Charles Clifford
+	}
+}
+#d_wagadugu = {
+#}
+c_wagadugu = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.3.9 = {	# France
+		holder = france_west_africa_0	# William Merlaud-Ponty
+	}
+}
+c_po = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.3.9 = {	# France
+		holder = france_west_africa_0	# William Merlaud-Ponty
+	}
+}
+#d_mamprusi = {
+#}
+c_mamprusi = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1912.12.26 = {	# United Kingdom
+		holder = british_gold_coast_2	# Hugh Charles Clifford
+	}
+}
+c_kuisugu = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1912.6.19 = {	# Germany
+		holder = mecklenburg_14	# Adolf Friedrich
+	}
+}
+c_pendjari = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.3.9 = {	# France
+		holder = france_west_africa_0	# William Merlaud-Ponty
+	}
+}

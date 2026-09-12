@@ -1,0 +1,88 @@
+d_borgu = {
+	1804.2.4 = {
+		holder = 0
+	}
+}
+c_nikki = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.3.9 = {	# France
+		holder = france_west_africa_0	# William Merlaud-Ponty
+	}
+}
+c_bussa = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1914.1.1 = {	# United Kingdom
+		holder = british_nigeria_0	# Frederick Lugard
+	}
+}
+c_ilo = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1914.1.1 = {	# United Kingdom
+		holder = british_nigeria_0	# Frederick Lugard
+	}
+}
+c_ilesa = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1914.1.1 = {	# United Kingdom
+		holder = british_nigeria_0	# Frederick Lugard
+	}
+}
+c_djugu = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.3.9 = {	# France
+		holder = france_west_africa_0	# William Merlaud-Ponty
+	}
+}
+#d_savalu = {
+#}
+c_savalu = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.3.9 = {	# France
+		holder = france_west_africa_0	# William Merlaud-Ponty
+	}
+}
+c_sokode = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1912.6.19 = {	# Germany
+		holder = mecklenburg_14	# Adolf Friedrich
+	}
+}
+c_todo = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1912.6.19 = {	# Germany
+		holder = mecklenburg_14	# Adolf Friedrich
+	}
+}
+c_shabe = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.3.9 = {	# France
+		holder = france_west_africa_0	# William Merlaud-Ponty
+	}
+}

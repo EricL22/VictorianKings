@@ -1,0 +1,12 @@
+﻿german_east_africa_0 = {
+	name = "Heinrich"
+	dynasty = schnee
+	religion = protestant
+	culture = german
+	1871.2.4 = {
+		birth = yes
+	}
+	1949.6.23 = {
+		death = yes
+	}
+}

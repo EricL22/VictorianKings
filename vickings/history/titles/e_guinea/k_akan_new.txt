@@ -1,0 +1,191 @@
+#d_ashanti = {
+#}
+c_kumasi = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1912.12.26 = {	# United Kingdom
+		holder = british_gold_coast_2	# Hugh Charles Clifford
+	}
+}
+c_adanse = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1912.12.26 = {	# United Kingdom
+		holder = british_gold_coast_2	# Hugh Charles Clifford
+	}
+}
+c_kwahu-akyem = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1830.2.19 = {	# United Kingdom
+		holder = british_gold_coast_0	# George Maclean
+		liege = e_britannia
+	}
+	1860.4.20 = {
+		holder = british_gold_coast_1	# Edward Bullock Andrews
+	}
+	1912.12.26 = {
+		holder = british_gold_coast_2	# Hugh Charles Clifford
+	}
+}
+c_fante = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1830.2.19 = {	# United Kingdom
+		holder = british_gold_coast_0	# George Maclean
+	}
+	1860.4.20 = {
+		holder = british_gold_coast_1	# Edward Bullock Andrews
+	}
+	1912.12.26 = {
+		holder = british_gold_coast_2	# Hugh Charles Clifford
+	}
+}
+c_wassa = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1830.2.19 = {	# United Kingdom
+		holder = british_gold_coast_0	# George Maclean
+	}
+	1860.4.20 = {
+		holder = british_gold_coast_1	# Edward Bullock Andrews
+	}
+	1912.12.26 = {
+		holder = british_gold_coast_2	# Hugh Charles Clifford
+	}
+}
+#d_adiukru = {
+#}
+c_attie = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.3.9 = {	# France
+		holder = france_west_africa_0	# William Merlaud-Ponty
+	}
+}
+c_dabou = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1860.11.10 = {	# France
+		holder = bonaparte_7	# Napoleon III
+	}
+	1908.3.9 = {
+		holder = france_west_africa_0	# William Merlaud-Ponty
+	}
+}
+c_aowin = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1860.11.10 = {	# France
+		holder = bonaparte_7	# Napoleon III
+	}
+	1908.3.9 = {
+		holder = france_west_africa_0	# William Merlaud-Ponty
+	}
+}
+#d_gyaman = {
+#}
+c_bonduku = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.3.9 = {	# France
+		holder = france_west_africa_0	# William Merlaud-Ponty
+	}
+}
+c_ndenye = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.3.9 = {	# France
+		holder = france_west_africa_0	# William Merlaud-Ponty
+	}
+}
+#d_brong = {
+#}
+c_bono = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1912.12.26 = {	# United Kingdom
+		holder = british_gold_coast_2	# Hugh Charles Clifford
+	}
+}
+c_begho = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1912.12.26 = {	# United Kingdom
+		holder = british_gold_coast_2	# Hugh Charles Clifford
+	}
+}
+c_upper_bono = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1912.12.26 = {	# United Kingdom
+		holder = british_gold_coast_2	# Hugh Charles Clifford
+	}
+}
+c_bonoso = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1912.12.26 = {	# United Kingdom
+		holder = british_gold_coast_2	# Hugh Charles Clifford
+	}
+}
+d_eweland = {
+	1800.1.1 = {
+		holder = 0
+	}
+}
+c_ewe = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1912.6.19 = {	# Germany
+		holder = mecklenburg_14	# Adolf Friedrich
+	}
+}
+c_afram = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1912.12.26 = {	# United Kingdom
+		holder = british_gold_coast_2	# Hugh Charles Clifford
+	}
+}
+c_nanumba = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1912.12.26 = {	# United Kingdom
+		holder = british_gold_coast_2	# Hugh Charles Clifford
+	}
+}

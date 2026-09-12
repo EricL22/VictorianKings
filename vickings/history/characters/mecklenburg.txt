@@ -194,6 +194,20 @@ mecklenburg_13 = {
 	}
 }
 
+mecklenburg_14 = {
+	name = "Adolf Friedrich"	# Duke of Mecklenburg, Governor of Togoland 1914
+	dynasty = 101893
+	religion = protestant
+	culture = german
+	father = mecklenburg_11
+	1873.10.10 = {
+		birth = yes
+	}
+	1969.8.5 = {
+		death = yes
+	}
+}
+
 ## Mecklenburg-Strelitz
 mecklenburg_20 = {
 	name = "Adolf Friedrich"	# II of Mecklenburg-Strelitz

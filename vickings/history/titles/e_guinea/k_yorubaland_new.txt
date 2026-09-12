@@ -1,0 +1,143 @@
+#d_ibadan = {
+#}
+c_ibadan = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1914.1.1 = {	# United Kingdom
+		holder = british_nigeria_0	# Frederick Lugard
+	}
+}
+c_abomey = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1908.3.9 = {	# France
+		holder = france_west_africa_0	# William Merlaud-Ponty
+	}
+}
+c_ifonyin = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1914.1.1 = {	# United Kingdom
+		holder = british_nigeria_0	# Frederick Lugard
+	}
+}
+c_ketu = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1914.1.1 = {	# United Kingdom
+		holder = british_nigeria_0	# Frederick Lugard
+	}
+}
+d_oyo = {
+	1914.1.1 = {	# United Kingdom
+		holder = british_nigeria_0	# Frederick Lugard
+	}
+}
+c_oyo = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1914.1.1 = {	# United Kingdom
+		holder = british_nigeria_0	# Frederick Lugard
+	}
+}
+c_igana = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1914.1.1 = {	# United Kingdom
+		holder = british_nigeria_0	# Frederick Lugard
+	}
+}
+c_ilorin = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1914.1.1 = {	# United Kingdom
+		holder = british_nigeria_0	# Frederick Lugard
+	}
+}
+c_igbomina = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1914.1.1 = {	# United Kingdom
+		holder = british_nigeria_0	# Frederick Lugard
+	}
+}
+c_yagba = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1914.1.1 = {	# United Kingdom
+		holder = british_nigeria_0	# Frederick Lugard
+	}
+}
+d_ife = {
+	1914.1.1 = {	# United Kingdom
+		holder = british_nigeria_0	# Frederick Lugard
+	}
+}
+c_ife = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1914.1.1 = {	# United Kingdom
+		holder = british_nigeria_0	# Frederick Lugard
+	}
+}
+c_ijebu = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1914.1.1 = {	# United Kingdom
+		holder = british_nigeria_0	# Frederick Lugard
+	}
+}
+c_owu = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1914.1.1 = {	# United Kingdom
+		holder = british_nigeria_0	# Frederick Lugard
+	}
+}
+d_benin = {
+	1914.1.1 = {	# United Kingdom
+		holder = british_nigeria_0	# Frederick Lugard
+	}
+}
+c_benin = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1914.1.1 = {	# United Kingdom
+		holder = british_nigeria_0	# Frederick Lugard
+	}
+}
+c_edo = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1914.1.1 = {	# United Kingdom
+		holder = british_nigeria_0	# Frederick Lugard
+	}
+}

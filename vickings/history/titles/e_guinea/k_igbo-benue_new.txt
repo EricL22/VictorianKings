@@ -1,0 +1,141 @@
+#d_igboland = {
+#}
+c_igbo = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1914.1.1 = {	# United Kingdom
+		holder = british_nigeria_0	# Frederick Lugard
+	}
+}
+c_idoma = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1914.1.1 = {	# United Kingdom
+		holder = british_nigeria_0	# Frederick Lugard
+	}
+}
+c_igala = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1914.1.1 = {	# United Kingdom
+		holder = british_nigeria_0	# Frederick Lugard
+	}
+}
+c_ijaw = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1914.1.1 = {	# United Kingdom
+		holder = british_nigeria_0	# Frederick Lugard
+	}
+}
+c_ibibo = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1914.1.1 = {	# United Kingdom
+		holder = british_nigeria_0	# Frederick Lugard
+	}
+}
+d_nupe = {
+	1859.10.24 = {	# Sokoto
+		holder = sokoto_4	# Ahmadu Atiku
+	}
+	1914.1.1 = {	# United Kingdom
+		holder = british_nigeria_0	# Frederick Lugard
+	}
+}
+c_nupe = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1859.10.24 = {	# Sokoto
+		holder = sokoto_4	# Ahmadu Atiku
+	}
+	1914.1.1 = {	# United Kingdom
+		holder = british_nigeria_0	# Frederick Lugard
+	}
+}
+c_guwari = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1859.10.24 = {	# Sokoto
+		holder = sokoto_4	# Ahmadu Atiku
+	}
+	1914.1.1 = {	# United Kingdom
+		holder = british_nigeria_0	# Frederick Lugard
+	}
+}
+c_opanda = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1859.10.24 = {	# Sokoto
+		holder = sokoto_4	# Ahmadu Atiku
+	}
+	1914.1.1 = {	# United Kingdom
+		holder = british_nigeria_0	# Frederick Lugard
+	}
+}
+c_kyadya = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1859.10.24 = {	# Sokoto
+		holder = sokoto_4	# Ahmadu Atiku
+	}
+	1914.1.1 = {	# United Kingdom
+		holder = british_nigeria_0	# Frederick Lugard
+	}
+}
+#d_kwararafa = {
+#}
+c_kwararafa = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1859.10.24 = {	# Sokoto
+		holder = sokoto_4	# Ahmadu Atiku
+	}
+	1914.1.1 = {	# United Kingdom
+		holder = british_nigeria_0	# Frederick Lugard
+	}
+}
+c_keffi = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1859.10.24 = {	# Sokoto
+		holder = sokoto_4	# Ahmadu Atiku
+	}
+	1914.1.1 = {	# United Kingdom
+		holder = british_nigeria_0	# Frederick Lugard
+	}
+}
+c_bauchi = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1859.10.24 = {	# Sokoto
+		holder = sokoto_4	# Ahmadu Atiku
+	}
+	1914.1.1 = {	# United Kingdom
+		holder = british_nigeria_0	# Frederick Lugard
+	}
+}

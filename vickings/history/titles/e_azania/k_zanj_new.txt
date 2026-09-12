@@ -106,8 +106,8 @@ c_kilimanjaro = {
 	1885.2.27 = {	# Germany
 		holder = hohenzollern_18	# Wilhelm I
 	}
-	1888.6.15 = {
-		holder = hohenzollern_20	# Wilhelm II
+	1912.4.22 = {
+		holder = german_east_africa_0	# Heinrich Schnee
 	}
 }
 c_taveta = {
@@ -209,8 +209,8 @@ c_tanga = {
 	1885.2.27 = {	# Germany
 		holder = hohenzollern_18	# Wilhelm I
 	}
-	1888.6.15 = {
-		holder = hohenzollern_20	# Wilhelm II
+	1912.4.22 = {
+		holder = german_east_africa_0	# Heinrich Schnee
 	}
 }
 c_zanzibar = {
@@ -234,7 +234,7 @@ c_mrima = {
 	1885.2.27 = {	# Germany
 		holder = hohenzollern_18	# Wilhelm I
 	}
-	1888.6.15 = {
-		holder = hohenzollern_20	# Wilhelm II
+	1912.4.22 = {
+		holder = german_east_africa_0	# Heinrich Schnee
 	}
 }
