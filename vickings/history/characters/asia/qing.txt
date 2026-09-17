@@ -1,0 +1,232 @@
+﻿qing_0 = {
+	name = "Nurhaci"
+	dynasty = aisin_gioro
+	culture = jurchen
+	religion = daoxue
+	1559.2.21 = {
+		birth = yes
+	}
+	1626.9.30 = {
+		death = yes
+	}
+}
+
+qing_1 = {
+	name = "Hong-Taiji"
+	dynasty = aisin_gioro
+	culture = jurchen
+	religion = daoxue
+	father = qing_0
+	1592.11.28 = {
+		birth = yes
+	}
+	1635.11.29 = {
+		culture = manchu # created hybrid culture
+	}
+	1643.9.21 = {
+		death = yes
+	}
+}
+
+qing_2 = {
+	name = "Fulin"
+	dynasty = aisin_gioro
+	culture = manchu
+	religion = daoxue
+	father = qing_1
+	1638.3.15 = {
+		birth = yes
+	}
+	1661.2.5 = {
+		death = yes
+	}
+}
+
+qing_3 = {
+	name = "Xuanye"
+	dynasty = aisin_gioro
+	culture = manchu
+	religion = daoxue
+	father = qing_2
+	1654.2.5 = {
+		birth = yes
+	}
+	1700.1.1 = {
+#		culture = han	# sinicization occured during his reign
+	}
+	1722.12.20 = {
+#		name = "Shengzu"
+		death = yes
+	}
+}
+
+qing_4 = {
+	name = "Yinzhen"
+	dynasty = aisin_gioro
+	culture = manchu
+	religion = daoxue
+	father = qing_3
+	1678.12.13 = {
+		birth = yes
+	}
+	1735.10.8 = {
+#		name = "Shizong"
+		death = yes
+	}
+}
+
+qing_5 = {
+	name = "Hongli"
+	dynasty = aisin_gioro
+	culture = manchu
+	religion = daoxue
+	father = qing_4
+	1711.9.25 = {
+		birth = yes
+	}
+	1799.2.7 = {
+#		name = "Gaozong"
+		death = yes
+	}
+}
+
+qing_6 = {
+	name = "Yongyan"
+	dynasty = aisin_gioro
+	culture = manchu
+	religion = daoxue
+	father = qing_5
+	1760.11.13 = {
+		birth = yes
+	}
+	1796.2.9 = {
+		add_realm_law_skip_effects = crown_authority_2
+		effect = {
+#			add_character_flag = temple_name_renzong
+			learn_language = language_tungusic
+			add_gold = 3000
+		}
+	}
+	1820.9.2 = {
+#		name = "Renzong"
+		death = yes
+	}
+}
+
+qing_7 = {
+	name = "Mianning"
+	dynasty = aisin_gioro
+	culture = manchu
+	religion = daoxue
+	father = qing_6
+	1782.9.16 = {
+		birth = yes
+	}
+	1812.1.1 = {
+		effect = {
+#			add_character_flag = temple_name_xuanzong
+			learn_language = language_tungusic
+		}
+	}
+	1820.9.2 = {
+		add_realm_law_skip_effects = crown_authority_1
+			add_gold = 3000
+	}
+	1850.2.26 = {
+#		name = "Xuanzong"
+		death = yes
+	}
+}
+
+qing_8 = {
+	name = "Yizhu"
+	dynasty = aisin_gioro
+	culture = manchu
+	religion = daoxue
+	father = qing_7
+	1831.7.17 = {
+		birth = yes
+	}
+	1836.1.1 = {
+		effect = {
+#			add_character_flag = temple_name_wenzong
+		}
+	}
+	1861.8.22 = {
+#		name = "Wenzong"
+		death = yes
+	}
+}
+
+qing_9 = {
+	name = "Zaichun"
+	dynasty = aisin_gioro
+	culture = manchu
+	religion = daoxue
+	father = qing_8
+	1856.4.27 = {
+		birth = yes
+	}
+	1875.1.12 = {
+#		name = "Muzong"
+		death = yes
+	}
+}
+
+qing_10 = {
+	name = "Zaitian"
+	dynasty = aisin_gioro
+	culture = manchu
+	religion = daoxue
+	father = qing_20
+	1871.8.14 = {
+		birth = yes
+	}
+	1908.11.14 = {
+#		name = "Dezong"
+		death = yes
+	}
+}
+
+qing_11 = {
+	name = "Puyi"
+	dynasty = aisin_gioro
+	culture = manchu
+	religion = daoxue
+	father = qing_21
+	1906.2.7 = {
+		birth = yes
+	}
+	1967.10.17 = {
+		death = yes
+	}
+}
+
+## Extended Family Members
+qing_20 = {
+	name = "Yixuan"
+	dynasty = aisin_gioro
+	culture = manchu
+	religion = daoxue
+	father = qing_7
+	1840.10.16 = {
+		birth = yes
+	}
+	1891.1.1 = {
+		death = yes
+	}
+}
+qing_21 = {
+	name = "Zaifeng"
+	dynasty = aisin_gioro
+	culture = manchu
+	religion = daoxue
+	father = qing_20
+	1883.2.12 = {
+		birth = yes
+	}
+	1951.2.3 = {
+		death = yes
+	}
+}
+####################

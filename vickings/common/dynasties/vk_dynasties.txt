@@ -82,3 +82,18 @@ alawi = {
 	name = "dynn_Alaouite"
 	culture = "maghrebi"
 }
+
+aisin_gioro = {
+	name = "dynn_Aisin_Gioro"
+	culture = jurchen
+}
+
+sun = {
+	name = "dynn_Sun_5B6B"
+	culture = han
+}
+
+yuan = {
+	name = "dynn_Yuan_48"
+	culture = han
+}

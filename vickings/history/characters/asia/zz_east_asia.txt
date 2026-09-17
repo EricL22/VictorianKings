@@ -1,0 +1,37 @@
+﻿##### CONTENTS #####
+# CHINA            #
+####################
+
+
+
+####################
+#  CHINA  #
+####################
+# 1914 bookmark
+# President of China, 1912
+eas_00500 = {
+	name = "Deming"
+	dynasty = sun
+	culture = han
+	religion = protestant
+	1866.11.12 = {
+		birth = yes
+	}
+	1925.3.12 = {
+		death = yes
+	}
+}
+# President cum Emperor of China, 1912-1916
+eas_00501 = {
+	name = "Shikai"
+	dynasty = yuan
+	culture = han
+	religion = jingxue
+	1859.9.16 = {
+		birth = yes
+	}
+	1916.6.6 = {
+		death = yes
+	}
+}
+####################

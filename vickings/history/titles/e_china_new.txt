@@ -1,0 +1,50 @@
+﻿h_china = {
+	1616.2.17 = {
+		holder = qing_0	# Nurhaci
+		effect = {
+			set_title_name = dynn_title_qing
+			set_title_color = { 255 206 30 }
+			set_capital_county = title:c_youzhou
+		}
+	}
+	1626.9.30 = {
+		holder = qing_1	# Hong Taiji
+	}
+	1643.9.21 = {
+		holder = qing_2	# Shunzhi of Qing
+	}
+	1661.2.5 = {
+		holder = qing_3	# Kangxi of Qing
+	}
+	1722.12.20 = {
+		holder = qing_4	# Yongzheng of Qing
+	}
+	1735.10.8 = {
+		holder = qing_5	# Qianlong of Qing
+	}
+	1799.2.7 = {
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1861.8.22 = {
+		holder = qing_9	# Tongzhi of Qing
+	}
+	1875.1.12 = {
+		holder = qing_10	# Guangxu of Qing
+	}
+	1908.11.14 = {
+		holder = qing_11	# Puyi
+	}
+	1912.2.12 = {
+		holder = eas_00500	# Sun Yat-sen
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+

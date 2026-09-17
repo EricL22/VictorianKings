@@ -1,0 +1,34 @@
+﻿manchu = {
+	color = { 122 139 101 }
+	
+	created = 1635.11.29
+	parents = { jurchen han }
+	
+	name_order_convention = dynasty_always_first
+	ethos = ethos_courtly
+	heritage = heritage_tungusic
+	language = language_chinese
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_highland_warriors
+		tradition_agrarian
+		tradition_horse_lords
+		tradition_horse_breeder
+		tradition_mystical_ancestors
+		tradition_court_eunuchs
+		tradition_philosopher_culture
+	}
+	
+	name_list = name_list_han
+	
+	coa_gfx = { mongol_coa_gfx steppe_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		10 = asian_manchu_korean
+		100 = asian_han_chinese
+	}
+}

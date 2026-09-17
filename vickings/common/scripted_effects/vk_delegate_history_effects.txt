@@ -65,7 +65,17 @@ shatter_tribals_at_game_start_effect = {
 				change = scope:change
 			}
 			resolve_title_and_vassal_change = scope:change
-			scope:backup_character = { change_government = tribal_government }
+			scope:backup_character = {
+				if = {
+					limit = {
+						NOR = {
+							has_government = tribal_government
+							has_government = wanua_government
+						}
+					}
+					change_government = tribal_government
+				}
+			}
 		}
 		death = natural
 	}
