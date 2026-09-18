@@ -68,7 +68,9 @@
  d_warsaw:0 "Warsaw"
  d_warsaw_adj:0 "Warszawan"
 
- c_faucigny:0 "Faucigny"
+ c_faucigny:0 "$b_faucigny$"
+
+ c_tetina:0 "$b_tetina$"
 
  # Noble families
  d_nf_hanover: "$dynn_Hanover$ Family"
