@@ -71743,11 +71743,6 @@ e_andong = {
     
                     color = { 125 25 125 }
                 }
-                b_Liao_Luzhou2 = {
-                    province = 11840
-    
-                    color = { 125 25 125 }
-                }
                 b_Liao_Fusong = {
                     province = 11835
     
@@ -71972,6 +71967,15 @@ e_andong = {
                     color = { 65 95 170 }
                 }
             }
+			c_kanggye = {	# CHANGED: split from East Yalu
+				color = { 70 168 175 }
+
+                b_Liao_Luzhou2 = {
+                    province = 11840
+    
+                    color = { 125 25 125 }
+                }
+			}
         }
 
 		d_LIAO_dongjing = {
@@ -73367,10 +73371,16 @@ e_andong = {
 
 					color = { 70 50 70 }
 				}
-				b_FIC_EMan_Bixinjiang = {
-					province = 11895
+				# b_FIC_EMan_Bixinjiang moved to c_eman_boli
+				b_fic_eman_nanshuian = {	# CHANGED: moved from c_eman_boli
+					province = 11866
 
-					color = { 70 50 70 }
+					color = { 20 110 90 }
+				}
+				b_fic_eman_alimenan = {	# CHANGED: moved from c_eman_boli
+					province = 11867
+
+					color = { 20 110 90 }
 				}
 			}
 		}
@@ -73951,20 +73961,17 @@ e_amur = {
 
 					color = { 20 110 90 }
 				}
-				b_fic_eman_nanshuian = {
-					province = 11866
-
-					color = { 20 110 90 }
-				}
-				b_fic_eman_alimenan = {
-					province = 11867
-
-					color = { 20 110 90 }
-				}
+				# b_fic_eman_nanshuian moved to c_BAL_east_hoewon
+				# b_fic_eman_alimenan moved to c_BAL_east_hoewon
 				b_fic_eman_khorhe = {
 					province = 11894
 
 					color = { 20 110 90 }
+				}
+				b_FIC_EMan_Bixinjiang = {	# CHANGED: moved from c_BAL_east_hoewon
+					province = 11895
+
+					color = { 70 50 70 }
 				}
 			}
 

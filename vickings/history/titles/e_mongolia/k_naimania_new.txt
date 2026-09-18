@@ -1,7 +1,7 @@
 #d_ovorkhangai = {
 #}
 c_tovkhon = {
-	1799.2.7 = {
+	1799.2.7 = {	# China
 		holder = qing_6	# Jiaqing of Qing
 	}
 	1820.9.2 = {
@@ -10,12 +10,12 @@ c_tovkhon = {
 	1850.2.26 = {
 		holder = qing_8	# Xianfeng of Qing
 	}
-	1912.3.10 = {
-		holder = eas_00501	# Yuan Shikai
+	1911.12.29 = {	# Mongolia
+		holder = eas_01500	# Bogd Khan
 	}
 }
 c_ongi = {
-	1799.2.7 = {
+	1799.2.7 = {	# China
 		holder = qing_6	# Jiaqing of Qing
 	}
 	1820.9.2 = {
@@ -24,12 +24,12 @@ c_ongi = {
 	1850.2.26 = {
 		holder = qing_8	# Xianfeng of Qing
 	}
-	1912.3.10 = {
-		holder = eas_00501	# Yuan Shikai
+	1911.12.29 = {	# Mongolia
+		holder = eas_01500	# Bogd Khan
 	}
 }
 c_ikh_bogd = {
-	1799.2.7 = {
+	1799.2.7 = {	# China
 		holder = qing_6	# Jiaqing of Qing
 	}
 	1820.9.2 = {
@@ -38,12 +38,12 @@ c_ikh_bogd = {
 	1850.2.26 = {
 		holder = qing_8	# Xianfeng of Qing
 	}
-	1912.3.10 = {
-		holder = eas_00501	# Yuan Shikai
+	1911.12.29 = {	# Mongolia
+		holder = eas_01500	# Bogd Khan
 	}
 }
 c_bombogor = {
-	1799.2.7 = {
+	1799.2.7 = {	# China
 		holder = qing_6	# Jiaqing of Qing
 	}
 	1820.9.2 = {
@@ -52,12 +52,12 @@ c_bombogor = {
 	1850.2.26 = {
 		holder = qing_8	# Xianfeng of Qing
 	}
-	1912.3.10 = {
-		holder = eas_00501	# Yuan Shikai
+	1911.12.29 = {	# Mongolia
+		holder = eas_01500	# Bogd Khan
 	}
 }
 c_khasagt_khairkhan = {
-	1799.2.7 = {
+	1799.2.7 = {	# China
 		holder = qing_6	# Jiaqing of Qing
 	}
 	1820.9.2 = {
@@ -66,12 +66,12 @@ c_khasagt_khairkhan = {
 	1850.2.26 = {
 		holder = qing_8	# Xianfeng of Qing
 	}
-	1912.3.10 = {
-		holder = eas_00501	# Yuan Shikai
+	1911.12.29 = {	# Mongolia
+		holder = eas_01500	# Bogd Khan
 	}
 }
 c_gobi_gurvan_saikhan = {
-	1799.2.7 = {
+	1799.2.7 = {	# China
 		holder = qing_6	# Jiaqing of Qing
 	}
 	1820.9.2 = {
@@ -80,14 +80,14 @@ c_gobi_gurvan_saikhan = {
 	1850.2.26 = {
 		holder = qing_8	# Xianfeng of Qing
 	}
-	1912.3.10 = {
-		holder = eas_00501	# Yuan Shikai
+	1911.12.29 = {	# Mongolia
+		holder = eas_01500	# Bogd Khan
 	}
 }
 #d_arkhangai = {
 #}
 c_tarvagatai = {
-	1799.2.7 = {
+	1799.2.7 = {	# China
 		holder = qing_6	# Jiaqing of Qing
 	}
 	1820.9.2 = {
@@ -96,12 +96,12 @@ c_tarvagatai = {
 	1850.2.26 = {
 		holder = qing_8	# Xianfeng of Qing
 	}
-	1912.3.10 = {
-		holder = eas_00501	# Yuan Shikai
+	1911.12.29 = {	# Mongolia
+		holder = eas_01500	# Bogd Khan
 	}
 }
 c_oigon = {
-	1799.2.7 = {
+	1799.2.7 = {	# China
 		holder = qing_6	# Jiaqing of Qing
 	}
 	1820.9.2 = {
@@ -110,12 +110,12 @@ c_oigon = {
 	1850.2.26 = {
 		holder = qing_8	# Xianfeng of Qing
 	}
-	1912.3.10 = {
-		holder = eas_00501	# Yuan Shikai
+	1911.12.29 = {	# Mongolia
+		holder = eas_01500	# Bogd Khan
 	}
 }
 c_telmen = {
-	1799.2.7 = {
+	1799.2.7 = {	# China
 		holder = qing_6	# Jiaqing of Qing
 	}
 	1820.9.2 = {
@@ -124,12 +124,12 @@ c_telmen = {
 	1850.2.26 = {
 		holder = qing_8	# Xianfeng of Qing
 	}
-	1912.3.10 = {
-		holder = eas_00501	# Yuan Shikai
+	1911.12.29 = {	# Mongolia
+		holder = eas_01500	# Bogd Khan
 	}
 }
 d_khovsgol = {
-	1799.2.7 = {
+	1799.2.7 = {	# China
 		holder = qing_6	# Jiaqing of Qing
 	}
 	1820.9.2 = {
@@ -138,12 +138,12 @@ d_khovsgol = {
 	1850.2.26 = {
 		holder = qing_8	# Xianfeng of Qing
 	}
-	1912.3.10 = {
-		holder = eas_00501	# Yuan Shikai
+	1911.12.29 = {	# Mongolia
+		holder = eas_01500	# Bogd Khan
 	}
 }
 c_darkhad_valley = {
-	1799.2.7 = {
+	1799.2.7 = {	# China
 		holder = qing_6	# Jiaqing of Qing
 	}
 	1820.9.2 = {
@@ -152,12 +152,12 @@ c_darkhad_valley = {
 	1850.2.26 = {
 		holder = qing_8	# Xianfeng of Qing
 	}
-	1912.3.10 = {
-		holder = eas_00501	# Yuan Shikai
+	1911.12.29 = {	# Mongolia
+		holder = eas_01500	# Bogd Khan
 	}
 }
 c_tomorbulag = {
-	1799.2.7 = {
+	1799.2.7 = {	# China
 		holder = qing_6	# Jiaqing of Qing
 	}
 	1820.9.2 = {
@@ -166,12 +166,12 @@ c_tomorbulag = {
 	1850.2.26 = {
 		holder = qing_8	# Xianfeng of Qing
 	}
-	1912.3.10 = {
-		holder = eas_00501	# Yuan Shikai
+	1911.12.29 = {	# Mongolia
+		holder = eas_01500	# Bogd Khan
 	}
 }
 c_ulantaiga = {
-	1799.2.7 = {
+	1799.2.7 = {	# China
 		holder = qing_6	# Jiaqing of Qing
 	}
 	1820.9.2 = {
@@ -180,12 +180,12 @@ c_ulantaiga = {
 	1850.2.26 = {
 		holder = qing_8	# Xianfeng of Qing
 	}
-	1912.3.10 = {
-		holder = eas_00501	# Yuan Shikai
+	1911.12.29 = {	# Mongolia
+		holder = eas_01500	# Bogd Khan
 	}
 }
 d_gobi_altai = {
-	1799.2.7 = {
+	1799.2.7 = {	# China
 		holder = qing_6	# Jiaqing of Qing
 	}
 	1820.9.2 = {
@@ -194,12 +194,12 @@ d_gobi_altai = {
 	1850.2.26 = {
 		holder = qing_8	# Xianfeng of Qing
 	}
-	1912.3.10 = {
-		holder = eas_00501	# Yuan Shikai
+	1911.12.29 = {	# Mongolia
+		holder = eas_01500	# Bogd Khan
 	}
 }
 c_tseel = {
-	1799.2.7 = {
+	1799.2.7 = {	# China
 		holder = qing_6	# Jiaqing of Qing
 	}
 	1820.9.2 = {
@@ -208,12 +208,12 @@ c_tseel = {
 	1850.2.26 = {
 		holder = qing_8	# Xianfeng of Qing
 	}
-	1912.3.10 = {
-		holder = eas_00501	# Yuan Shikai
+	1911.12.29 = {	# Mongolia
+		holder = eas_01500	# Bogd Khan
 	}
 }
 c_sharga = {
-	1799.2.7 = {
+	1799.2.7 = {	# China
 		holder = qing_6	# Jiaqing of Qing
 	}
 	1820.9.2 = {
@@ -222,12 +222,12 @@ c_sharga = {
 	1850.2.26 = {
 		holder = qing_8	# Xianfeng of Qing
 	}
-	1912.3.10 = {
-		holder = eas_00501	# Yuan Shikai
+	1911.12.29 = {	# Mongolia
+		holder = eas_01500	# Bogd Khan
 	}
 }
 c_zarman = {
-	1799.2.7 = {
+	1799.2.7 = {	# China
 		holder = qing_6	# Jiaqing of Qing
 	}
 	1820.9.2 = {
@@ -236,14 +236,14 @@ c_zarman = {
 	1850.2.26 = {
 		holder = qing_8	# Xianfeng of Qing
 	}
-	1912.3.10 = {
-		holder = eas_00501	# Yuan Shikai
+	1911.12.29 = {	# Mongolia
+		holder = eas_01500	# Bogd Khan
 	}
 }
 #d_ubsunur_hollow = {
 #}
 c_uvs_nuur = {
-	1799.2.7 = {
+	1799.2.7 = {	# China
 		holder = qing_6	# Jiaqing of Qing
 	}
 	1820.9.2 = {
@@ -252,12 +252,12 @@ c_uvs_nuur = {
 	1850.2.26 = {
 		holder = qing_8	# Xianfeng of Qing
 	}
-	1912.3.10 = {
-		holder = eas_00501	# Yuan Shikai
+	1911.12.29 = {	# Mongolia
+		holder = eas_01500	# Bogd Khan
 	}
 }
 c_ulaangom = {
-	1799.2.7 = {
+	1799.2.7 = {	# China
 		holder = qing_6	# Jiaqing of Qing
 	}
 	1820.9.2 = {
@@ -266,12 +266,12 @@ c_ulaangom = {
 	1850.2.26 = {
 		holder = qing_8	# Xianfeng of Qing
 	}
-	1912.3.10 = {
-		holder = eas_00501	# Yuan Shikai
+	1911.12.29 = {	# Mongolia
+		holder = eas_01500	# Bogd Khan
 	}
 }
 c_tesiin_gol = {
-	1799.2.7 = {
+	1799.2.7 = {	# China
 		holder = qing_6	# Jiaqing of Qing
 	}
 	1820.9.2 = {
@@ -280,14 +280,14 @@ c_tesiin_gol = {
 	1850.2.26 = {
 		holder = qing_8	# Xianfeng of Qing
 	}
-	1912.3.10 = {
-		holder = eas_00501	# Yuan Shikai
+	1911.12.29 = {	# Mongolia
+		holder = eas_01500	# Bogd Khan
 	}
 }
 #d_zavkhan = {
 #}
 c_uliastai = {
-	1799.2.7 = {
+	1799.2.7 = {	# China
 		holder = qing_6	# Jiaqing of Qing
 	}
 	1820.9.2 = {
@@ -296,12 +296,12 @@ c_uliastai = {
 	1850.2.26 = {
 		holder = qing_8	# Xianfeng of Qing
 	}
-	1912.3.10 = {
-		holder = eas_00501	# Yuan Shikai
+	1911.12.29 = {	# Mongolia
+		holder = eas_01500	# Bogd Khan
 	}
 }
 c_urgamal = {
-	1799.2.7 = {
+	1799.2.7 = {	# China
 		holder = qing_6	# Jiaqing of Qing
 	}
 	1820.9.2 = {
@@ -310,12 +310,12 @@ c_urgamal = {
 	1850.2.26 = {
 		holder = qing_8	# Xianfeng of Qing
 	}
-	1912.3.10 = {
-		holder = eas_00501	# Yuan Shikai
+	1911.12.29 = {	# Mongolia
+		holder = eas_01500	# Bogd Khan
 	}
 }
 c_khar_us = {
-	1799.2.7 = {
+	1799.2.7 = {	# China
 		holder = qing_6	# Jiaqing of Qing
 	}
 	1820.9.2 = {
@@ -324,14 +324,14 @@ c_khar_us = {
 	1850.2.26 = {
 		holder = qing_8	# Xianfeng of Qing
 	}
-	1912.3.10 = {
-		holder = eas_00501	# Yuan Shikai
+	1911.12.29 = {	# Mongolia
+		holder = eas_01500	# Bogd Khan
 	}
 }
 #d_khovd = {
 #}
 c_harhiraa = {
-	1799.2.7 = {
+	1799.2.7 = {	# China
 		holder = qing_6	# Jiaqing of Qing
 	}
 	1820.9.2 = {
@@ -340,12 +340,12 @@ c_harhiraa = {
 	1850.2.26 = {
 		holder = qing_8	# Xianfeng of Qing
 	}
-	1912.3.10 = {
-		holder = eas_00501	# Yuan Shikai
+	1911.12.29 = {	# Mongolia
+		holder = eas_01500	# Bogd Khan
 	}
 }
 c_tsambagarau = {
-	1799.2.7 = {
+	1799.2.7 = {	# China
 		holder = qing_6	# Jiaqing of Qing
 	}
 	1820.9.2 = {
@@ -354,7 +354,7 @@ c_tsambagarau = {
 	1850.2.26 = {
 		holder = qing_8	# Xianfeng of Qing
 	}
-	1912.3.10 = {
-		holder = eas_00501	# Yuan Shikai
+	1911.12.29 = {	# Mongolia
+		holder = eas_01500	# Bogd Khan
 	}
 }

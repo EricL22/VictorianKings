@@ -72,6 +72,8 @@
 
  c_tetina:0 "$b_tetina$"
 
+ c_kanggye:0 "Kanggye"
+
  # Noble families
  d_nf_hanover: "$dynn_Hanover$ Family"
  d_nf_hanover_article: "$DEFAULT_TITLE_NAME_ARTICLE$"

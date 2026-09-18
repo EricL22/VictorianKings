@@ -1,4 +1,4 @@
-k_dzungaria = {
+d_SW_qingxingan = {
 	1799.2.7 = {
 		holder = qing_6	# Jiaqing of Qing
 	}
@@ -12,7 +12,7 @@ k_dzungaria = {
 		holder = eas_00501	# Yuan Shikai
 	}
 }
-d_kara_khoja = {
+c_SW_huangtouguo = {
 	1799.2.7 = {
 		holder = qing_6	# Jiaqing of Qing
 	}
@@ -26,7 +26,7 @@ d_kara_khoja = {
 		holder = eas_00501	# Yuan Shikai
 	}
 }
-c_kara_khoja = {
+c_SW_xinghuangtou = {
 	1799.2.7 = {
 		holder = qing_6	# Jiaqing of Qing
 	}
@@ -40,7 +40,7 @@ c_kara_khoja = {
 		holder = eas_00501	# Yuan Shikai
 	}
 }
-c_barkul = {
+c_SW_nabeiguo = {
 	1799.2.7 = {
 		holder = qing_6	# Jiaqing of Qing
 	}
@@ -54,7 +54,7 @@ c_barkul = {
 		holder = eas_00501	# Yuan Shikai
 	}
 }
-c_chamil = {
+c_SW_xingnabei = {
 	1799.2.7 = {
 		holder = qing_6	# Jiaqing of Qing
 	}
@@ -68,7 +68,7 @@ c_chamil = {
 		holder = eas_00501	# Yuan Shikai
 	}
 }
-c_burgasutai = {
+c_SW_luotuoguo = {
 	1799.2.7 = {
 		holder = qing_6	# Jiaqing of Qing
 	}
@@ -82,9 +82,7 @@ c_burgasutai = {
 		holder = eas_00501	# Yuan Shikai
 	}
 }
-#d_beshbalik = {
-#}
-c_beshbalik = {
+d_SW_lingxiguo = {
 	1799.2.7 = {
 		holder = qing_6	# Jiaqing of Qing
 	}
@@ -98,7 +96,7 @@ c_beshbalik = {
 		holder = eas_00501	# Yuan Shikai
 	}
 }
-c_jimsar = {
+c_SW_lingxiguo = {
 	1799.2.7 = {
 		holder = qing_6	# Jiaqing of Qing
 	}
@@ -112,7 +110,7 @@ c_jimsar = {
 		holder = eas_00501	# Yuan Shikai
 	}
 }
-c_yangjibaliq = {
+c_SW_heiheguo = {
 	1799.2.7 = {
 		holder = qing_6	# Jiaqing of Qing
 	}
@@ -126,7 +124,7 @@ c_yangjibaliq = {
 		holder = eas_00501	# Yuan Shikai
 	}
 }
-c_bugur = {
+c_SW_powoguo = {
 	1799.2.7 = {
 		holder = qing_6	# Jiaqing of Qing
 	}
@@ -140,9 +138,7 @@ c_bugur = {
 		holder = eas_00501	# Yuan Shikai
 	}
 }
-#d_altay = {
-#}
-c_altay = {
+d_SW_ruzheguo = {
 	1799.2.7 = {
 		holder = qing_6	# Jiaqing of Qing
 	}
@@ -156,7 +152,7 @@ c_altay = {
 		holder = eas_00501	# Yuan Shikai
 	}
 }
-c_burqin = {
+c_SW_jiqin_hari = {
 	1799.2.7 = {
 		holder = qing_6	# Jiaqing of Qing
 	}
@@ -170,7 +166,7 @@ c_burqin = {
 		holder = eas_00501	# Yuan Shikai
 	}
 }
-c_qinggil = {
+c_SW_ruzhejiang = {
 	1799.2.7 = {
 		holder = qing_6	# Jiaqing of Qing
 	}
@@ -184,7 +180,7 @@ c_qinggil = {
 		holder = eas_00501	# Yuan Shikai
 	}
 }
-c_tengerge = {
+c_SW_dongruzhe = {
 	1799.2.7 = {
 		holder = qing_6	# Jiaqing of Qing
 	}
@@ -198,9 +194,7 @@ c_tengerge = {
 		holder = eas_00501	# Yuan Shikai
 	}
 }
-#d_akaltay = {
-#}
-c_agairik = {
+d_SW_puyudao = {
 	1799.2.7 = {
 		holder = qing_6	# Jiaqing of Qing
 	}
@@ -214,7 +208,7 @@ c_agairik = {
 		holder = eas_00501	# Yuan Shikai
 	}
 }
-c_narym_DZU = {
+c_SW_puyuzhou = {
 	1799.2.7 = {
 		holder = qing_6	# Jiaqing of Qing
 	}
@@ -228,7 +222,7 @@ c_narym_DZU = {
 		holder = eas_00501	# Yuan Shikai
 	}
 }
-c_torangy_kul = {
+c_SW_damoguo = {
 	1799.2.7 = {
 		holder = qing_6	# Jiaqing of Qing
 	}
@@ -242,7 +236,7 @@ c_torangy_kul = {
 		holder = eas_00501	# Yuan Shikai
 	}
 }
-d_gurbantunggut = {
+c_SW_shanbeiguo = {
 	1799.2.7 = {
 		holder = qing_6	# Jiaqing of Qing
 	}
@@ -256,7 +250,7 @@ d_gurbantunggut = {
 		holder = eas_00501	# Yuan Shikai
 	}
 }
-c_hoboksar = {
+c_SW_heilonghean = {
 	1799.2.7 = {
 		holder = qing_6	# Jiaqing of Qing
 	}
@@ -270,7 +264,7 @@ c_hoboksar = {
 		holder = eas_00501	# Yuan Shikai
 	}
 }
-c_kaerji = {
+d_SW_sushenguo = {
 	1799.2.7 = {
 		holder = qing_6	# Jiaqing of Qing
 	}
@@ -284,7 +278,7 @@ c_kaerji = {
 		holder = eas_00501	# Yuan Shikai
 	}
 }
-c_ulan_chuzir = {
+c_SW_suihua = {
 	1799.2.7 = {
 		holder = qing_6	# Jiaqing of Qing
 	}
@@ -298,7 +292,7 @@ c_ulan_chuzir = {
 		holder = eas_00501	# Yuan Shikai
 	}
 }
-c_jie_DZU = {
+c_SW_heilonglin = {
 	1799.2.7 = {
 		holder = qing_6	# Jiaqing of Qing
 	}
@@ -312,7 +306,63 @@ c_jie_DZU = {
 		holder = eas_00501	# Yuan Shikai
 	}
 }
-d_naiman_gobi = {
+c_SW_lupingyuan = {
+	1799.2.7 = {
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+c_SW_fancao = {
+	1799.2.7 = {
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+c_SW_gonghejiang = {
+	1799.2.7 = {
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+d_SW_heicheziguo = {
+	1799.2.7 = {
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+c_SW_zhongcheziguo = {
 	1799.2.7 = {	# China
 		holder = qing_6	# Jiaqing of Qing
 	}
@@ -326,8 +376,8 @@ d_naiman_gobi = {
 		holder = eas_01500	# Bogd Khan
 	}
 }
-c_balgun = {
-	1799.2.7 = {	# China
+c_SW_dongcheziguo = {
+	1799.2.7 = {
 		holder = qing_6	# Jiaqing of Qing
 	}
 	1820.9.2 = {
@@ -336,12 +386,12 @@ c_balgun = {
 	1850.2.26 = {
 		holder = qing_8	# Xianfeng of Qing
 	}
-	1911.12.29 = {	# Mongolia
-		holder = eas_01500	# Bogd Khan
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
-c_kabtag = {
-	1799.2.7 = {	# China
+c_SW_hulunbuir = {
+	1799.2.7 = {
 		holder = qing_6	# Jiaqing of Qing
 	}
 	1820.9.2 = {
@@ -350,12 +400,12 @@ c_kabtag = {
 	1850.2.26 = {
 		holder = qing_8	# Xianfeng of Qing
 	}
-	1911.12.29 = {	# Mongolia
-		holder = eas_01500	# Bogd Khan
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
-c_kara_asirgan = {
-	1799.2.7 = {	# China
+c_SW_hongxingan = {
+	1799.2.7 = {
 		holder = qing_6	# Jiaqing of Qing
 	}
 	1820.9.2 = {
@@ -364,11 +414,81 @@ c_kara_asirgan = {
 	1850.2.26 = {
 		holder = qing_8	# Xianfeng of Qing
 	}
-	1911.12.29 = {	# Mongolia
-		holder = eas_01500	# Bogd Khan
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
-c_boro_burgasu = {
+d_SW_dashiweiguo = {
+	1799.2.7 = {
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+c_SW_pibeihe = {
+	1799.2.7 = {
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+c_SW_mengwuo = {
+	1799.2.7 = {
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+c_SW_heiergun = {
+	1799.2.7 = {
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+c_SW_ergunia = {
+	1799.2.7 = {
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+c_SW_hailar = {
 	1799.2.7 = {
 		holder = qing_6	# Jiaqing of Qing
 	}

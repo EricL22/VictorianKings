@@ -97,3 +97,8 @@ yuan = {
 	name = "dynn_Yuan_48"
 	culture = han
 }
+
+oyun = {
+	name = "dynn_Oyun"
+	culture = uriankhai
+}

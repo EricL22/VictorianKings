@@ -1,0 +1,80 @@
+﻿##### CONTENTS #####
+# CHINA            #
+# MONGOLIA         #
+# TUVA             #
+####################
+
+
+
+####################
+#  CHINA  #
+####################
+# 1914 bookmark
+# President of China, 1912
+eas_00500 = {
+	name = "Deming"
+	dynasty = sun
+	culture = han
+	religion = protestant
+	1866.11.12 = {
+		birth = yes
+	}
+	1925.3.12 = {
+		death = yes
+	}
+}
+# President cum Emperor of China, 1912-1916
+eas_00501 = {
+	name = "Shikai"
+	dynasty = yuan
+	culture = han
+	religion = jingxue
+	1859.9.16 = {
+		birth = yes
+	}
+	1916.6.6 = {
+		death = yes
+	}
+}
+####################
+
+
+
+####################
+#  MONGOLIA  #
+####################
+# 1914 bookmark
+# Bogd Khan
+eas_01500 = {
+	name = "Bogd"
+	culture = mongol
+	religion = lamaism
+	1869.10.13 = {
+		birth = yes
+	}
+	1924.5.20 = {
+		death = yes
+	}
+}
+####################
+
+
+
+####################
+#  TUVA  #
+####################
+# 1914 bookmark
+# Ambyn–noyan of Tannu Uriankhai
+eas_02500 = {
+	name = "Kombu-Dorzhu"
+	dynasty = oyun
+	culture = uriankhai
+	religion = lamaism
+	1865.1.1 = {
+		birth = yes
+	}
+	1916.1.1 = {
+		death = yes
+	}
+}
+####################

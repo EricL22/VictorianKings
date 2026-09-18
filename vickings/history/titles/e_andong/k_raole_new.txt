@@ -1,9 +1,9 @@
-k_tuva = {
-	1899.1.1 = {
-		holder = eas_02500	# Oyun Kombu-Dorzhu
+k_raole = {
+	1800.1.1 = {
+		holder = 0
 	}
 }
-d_togina = {
+d_LIAO_zhongjing = {
 	1799.2.7 = {
 		holder = qing_6	# Jiaqing of Qing
 	}
@@ -13,11 +13,11 @@ d_togina = {
 	1850.2.26 = {
 		holder = qing_8	# Xianfeng of Qing
 	}
-	1899.1.1 = {
-		holder = eas_02500	# Oyun Kombu-Dorzhu
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
-c_arzhan = {
+c_LIAO_dading = {
 	1799.2.7 = {
 		holder = qing_6	# Jiaqing of Qing
 	}
@@ -27,11 +27,11 @@ c_arzhan = {
 	1850.2.26 = {
 		holder = qing_8	# Xianfeng of Qing
 	}
-	1899.1.1 = {
-		holder = eas_02500	# Oyun Kombu-Dorzhu
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
-c_tapsa = {
+c_lzj_chengdexi = {
 	1799.2.7 = {
 		holder = qing_6	# Jiaqing of Qing
 	}
@@ -41,11 +41,11 @@ c_tapsa = {
 	1850.2.26 = {
 		holder = qing_8	# Xianfeng of Qing
 	}
-	1899.1.1 = {
-		holder = eas_02500	# Oyun Kombu-Dorzhu
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
-c_azas = {
+c_lzj_chengde = {
 	1799.2.7 = {
 		holder = qing_6	# Jiaqing of Qing
 	}
@@ -55,11 +55,11 @@ c_azas = {
 	1850.2.26 = {
 		holder = qing_8	# Xianfeng of Qing
 	}
-	1899.1.1 = {
-		holder = eas_02500	# Oyun Kombu-Dorzhu
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
-d_tannu_ola = {
+c_lxj_yuyidong = {
 	1799.2.7 = {
 		holder = qing_6	# Jiaqing of Qing
 	}
@@ -69,11 +69,11 @@ d_tannu_ola = {
 	1850.2.26 = {
 		holder = qing_8	# Xianfeng of Qing
 	}
-	1899.1.1 = {
-		holder = eas_02500	# Oyun Kombu-Dorzhu
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
-c_eastern_tannu = {
+c_woye = {
 	1799.2.7 = {
 		holder = qing_6	# Jiaqing of Qing
 	}
@@ -83,11 +83,11 @@ c_eastern_tannu = {
 	1850.2.26 = {
 		holder = qing_8	# Xianfeng of Qing
 	}
-	1899.1.1 = {
-		holder = eas_02500	# Oyun Kombu-Dorzhu
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
-c_central_tannu = {
+c_liao_fengzhou = {
 	1799.2.7 = {
 		holder = qing_6	# Jiaqing of Qing
 	}
@@ -97,11 +97,11 @@ c_central_tannu = {
 	1850.2.26 = {
 		holder = qing_8	# Xianfeng of Qing
 	}
-	1899.1.1 = {
-		holder = eas_02500	# Oyun Kombu-Dorzhu
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
-c_western_tannu = {
+d_liaoxi = {
 	1799.2.7 = {
 		holder = qing_6	# Jiaqing of Qing
 	}
@@ -111,13 +111,11 @@ c_western_tannu = {
 	1850.2.26 = {
 		holder = qing_8	# Xianfeng of Qing
 	}
-	1899.1.1 = {
-		holder = eas_02500	# Oyun Kombu-Dorzhu
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
-#d_katu_yaryk = {
-#}
-c_katu_yaryk = {
+c_LIAO_chaoyang = {
 	1799.2.7 = {
 		holder = qing_6	# Jiaqing of Qing
 	}
@@ -127,11 +125,11 @@ c_katu_yaryk = {
 	1850.2.26 = {
 		holder = qing_8	# Xianfeng of Qing
 	}
-	1899.1.1 = {
-		holder = eas_02500	# Oyun Kombu-Dorzhu
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
-c_kara_khol = {
+c_lnj_liaoxi = {
 	1799.2.7 = {
 		holder = qing_6	# Jiaqing of Qing
 	}
@@ -141,11 +139,11 @@ c_kara_khol = {
 	1850.2.26 = {
 		holder = qing_8	# Xianfeng of Qing
 	}
-	1899.1.1 = {
-		holder = eas_02500	# Oyun Kombu-Dorzhu
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
-d_western_sayan = {
+c_lnj_liaoxibei = {
 	1799.2.7 = {
 		holder = qing_6	# Jiaqing of Qing
 	}
@@ -155,11 +153,11 @@ d_western_sayan = {
 	1850.2.26 = {
 		holder = qing_8	# Xianfeng of Qing
 	}
-	1899.1.1 = {
-		holder = eas_02500	# Oyun Kombu-Dorzhu
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
-c_stoyanka = {
+c_LIAO_jinzhou = {
 	1799.2.7 = {
 		holder = qing_6	# Jiaqing of Qing
 	}
@@ -169,11 +167,11 @@ c_stoyanka = {
 	1850.2.26 = {
 		holder = qing_8	# Xianfeng of Qing
 	}
-	1899.1.1 = {
-		holder = eas_02500	# Oyun Kombu-Dorzhu
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
-c_kantegir = {
+c_LIAO_liaozhou = {
 	1799.2.7 = {
 		holder = qing_6	# Jiaqing of Qing
 	}
@@ -183,11 +181,11 @@ c_kantegir = {
 	1850.2.26 = {
 		holder = qing_8	# Xianfeng of Qing
 	}
-	1899.1.1 = {
-		holder = eas_02500	# Oyun Kombu-Dorzhu
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
-c_sayanchu = {
+c_LIAO_xianzhou = {
 	1799.2.7 = {
 		holder = qing_6	# Jiaqing of Qing
 	}
@@ -197,7 +195,49 @@ c_sayanchu = {
 	1850.2.26 = {
 		holder = qing_8	# Xianfeng of Qing
 	}
-	1899.1.1 = {
-		holder = eas_02500	# Oyun Kombu-Dorzhu
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+d_yanyun_yuyi = {
+	1799.2.7 = {
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+c_lxj_huanzhou = {
+	1799.2.7 = {
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+c_lxj_yangchengzhou = {
+	1799.2.7 = {
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
