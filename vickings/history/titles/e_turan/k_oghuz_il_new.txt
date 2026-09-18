@@ -1,0 +1,444 @@
+#d_transcaspiana = {
+#}
+c_mangyshlak = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1847.1.1 = {	# Russia
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_buzachi = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1847.1.1 = {	# Russia
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_qaraustyurt = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1847.1.1 = {	# Russia
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_qyzylustyurt = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1847.1.1 = {	# Russia
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+#d_garabogazkol = {
+#}
+c_garabogazkol = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1847.1.1 = {	# Russia
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_bekdas = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1847.1.1 = {	# Russia
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_oglamych = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1847.1.1 = {	# Russia
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+#d_jemba = {
+#}
+c_qoshagyl = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1847.1.1 = {	# Russia
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_tengiz = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1847.1.1 = {	# Russia
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_akkityk = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1847.1.1 = {	# Russia
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_namastau = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1847.1.1 = {	# Russia
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_kos-buwak = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1847.1.1 = {	# Russia
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_churuk = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1847.1.1 = {	# Russia
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+#d_aral_il = {
+#}
+c_yangikent = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1847.1.1 = {	# Russia
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_raimskoe = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1847.1.1 = {	# Russia
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_kara-mugai = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1847.1.1 = {	# Russia
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_ak-dzulpas = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1847.1.1 = {	# Russia
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_aralkizil = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1847.1.1 = {	# Russia
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+#d_barsuki = {
+#}
+c_barsuki = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1847.1.1 = {	# Russia
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_airyuk = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1847.1.1 = {	# Russia
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_jamantau = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1847.1.1 = {	# Russia
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+#d_aral_karakum = {
+#}
+c_terekli = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1847.1.1 = {	# Russia
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_aral_karakum = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1847.1.1 = {	# Russia
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_chalkar = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1847.1.1 = {	# Russia
+		holder = romanov_8	# Nicholas I
+	}
+	1855.3.2 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}

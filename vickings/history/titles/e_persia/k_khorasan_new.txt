@@ -139,7 +139,7 @@ c_damghan = {
 	}
 }
 d_merv = {
-	1806.1.1 = {
+	1806.1.1 = {	# Khiva
 		holder = qungrat_0	# Muhammad Rahim Bahadur I
 		liege = 0
 	}
@@ -158,14 +158,19 @@ d_merv = {
 	1864.9.10 = {
 		holder = qungrat_5	# Muhammad Rahim Bahadur II
 	}
-	1910.9.1 = {
-		holder = qungrat_6	# Isfandiyar Jurji Bahadur
+	1873.6.14 = {	# Russia
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
 	}
 }
 c_merv = {
-	1806.1.1 = {
+	1806.1.1 = {	# Khiva
 		holder = qungrat_0	# Muhammad Rahim Bahadur I
-		liege = 0
 	}
 	1825.1.1 = {
 		holder = qungrat_1	# Allah Quli Bahadur
@@ -182,14 +187,19 @@ c_merv = {
 	1864.9.10 = {
 		holder = qungrat_5	# Muhammad Rahim Bahadur II
 	}
-	1910.9.1 = {
-		holder = qungrat_6	# Isfandiyar Jurji Bahadur
+	1873.6.14 = {	# Russia
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
 	}
 }
 c_sarakhs = {
-	1806.1.1 = {
+	1806.1.1 = {	# Khiva
 		holder = qungrat_0	# Muhammad Rahim Bahadur I
-		liege = 0
 	}
 	1825.1.1 = {
 		holder = qungrat_1	# Allah Quli Bahadur
@@ -206,14 +216,19 @@ c_sarakhs = {
 	1864.9.10 = {
 		holder = qungrat_5	# Muhammad Rahim Bahadur II
 	}
-	1910.9.1 = {
-		holder = qungrat_6	# Isfandiyar Jurji Bahadur
+	1873.6.14 = {	# Russia
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
 	}
 }
 c_marvarrud = {
-	1806.1.1 = {
+	1806.1.1 = {	# Khiva
 		holder = qungrat_0	# Muhammad Rahim Bahadur I
-		liege = 0
 	}
 	1825.1.1 = {
 		holder = qungrat_1	# Allah Quli Bahadur
@@ -227,17 +242,16 @@ c_marvarrud = {
 	1856.1.1 = {
 		holder = qungrat_4	# Sayyid Muhammad
 	}
-	1864.9.10 = {
-		holder = qungrat_5	# Muhammad Rahim Bahadur II
+	1863.5.27 = {	# Afghanistan
+		holder = barakzai_1	# Dost Mohammad Khan Barakzai
 	}
-	1910.9.1 = {
-		holder = qungrat_6	# Isfandiyar Jurji Bahadur
+	1901.10.1 = {
+		holder = barakzai_9	# Habibullah Khan Barakzai
 	}
 }
 c_rivsharan = {
-	1806.1.1 = {
+	1806.1.1 = {	# Khiva
 		holder = qungrat_0	# Muhammad Rahim Bahadur I
-		liege = 0
 	}
 	1825.1.1 = {
 		holder = qungrat_1	# Allah Quli Bahadur
@@ -251,17 +265,16 @@ c_rivsharan = {
 	1856.1.1 = {
 		holder = qungrat_4	# Sayyid Muhammad
 	}
-	1864.9.10 = {
-		holder = qungrat_5	# Muhammad Rahim Bahadur II
+	1863.5.27 = {	# Afghanistan
+		holder = barakzai_1	# Dost Mohammad Khan Barakzai
 	}
-	1910.9.1 = {
-		holder = qungrat_6	# Isfandiyar Jurji Bahadur
+	1901.10.1 = {
+		holder = barakzai_9	# Habibullah Khan Barakzai
 	}
 }
 c_guzgan = {
-	1806.1.1 = {
+	1806.1.1 = {	# Khiva
 		holder = qungrat_0	# Muhammad Rahim Bahadur I
-		liege = 0
 	}
 	1825.1.1 = {
 		holder = qungrat_1	# Allah Quli Bahadur
@@ -275,17 +288,16 @@ c_guzgan = {
 	1856.1.1 = {
 		holder = qungrat_4	# Sayyid Muhammad
 	}
-	1864.9.10 = {
-		holder = qungrat_5	# Muhammad Rahim Bahadur II
+	1863.5.27 = {	# Afghanistan
+		holder = barakzai_1	# Dost Mohammad Khan Barakzai
 	}
-	1910.9.1 = {
-		holder = qungrat_6	# Isfandiyar Jurji Bahadur
+	1901.10.1 = {
+		holder = barakzai_9	# Habibullah Khan Barakzai
 	}
 }
 c_amol = {
-	1806.1.1 = {
+	1806.1.1 = {	# Khiva
 		holder = qungrat_0	# Muhammad Rahim Bahadur I
-		liege = 0
 	}
 	1825.1.1 = {
 		holder = qungrat_1	# Allah Quli Bahadur
@@ -302,14 +314,19 @@ c_amol = {
 	1864.9.10 = {
 		holder = qungrat_5	# Muhammad Rahim Bahadur II
 	}
-	1910.9.1 = {
-		holder = qungrat_6	# Isfandiyar Jurji Bahadur
+	1873.6.14 = {	# Russia
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
 	}
 }
 c_zamm = {
-	1806.1.1 = {
+	1806.1.1 = {	# Khiva
 		holder = qungrat_0	# Muhammad Rahim Bahadur I
-		liege = 0
 	}
 	1825.1.1 = {
 		holder = qungrat_1	# Allah Quli Bahadur
@@ -326,8 +343,14 @@ c_zamm = {
 	1864.9.10 = {
 		holder = qungrat_5	# Muhammad Rahim Bahadur II
 	}
-	1910.9.1 = {
-		holder = qungrat_6	# Isfandiyar Jurji Bahadur
+	1873.6.14 = {	# Russia
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
 	}
 }
 d_ghur = {
@@ -734,54 +757,45 @@ c_zirkuh = {
 #d_balkh = {
 #}
 c_balkh = {
-	1800.1.1 = {
+	1800.1.1 = {	# Bukhara
 		holder = manghit_0	# Haydar bin Shahmurad
 	}
 	1827.4.24 = {
 		holder = manghit_1	# Nasr-Allah bin Haydar Tora
 	}
-	1860.10.20 = {
-		holder = manghit_2	# Muzaffar bin Nasrullah
+	1850.1.1 = {	# Afghanistan
+		holder = barakzai_1	# Dost Mohammad Khan Barakzai
 	}
-	1885.11.4 = {
-		holder = manghit_3	# Abdul-Ahad bin Muzaffar al-Din
-	}
-	1911.1.3 = {
-		holder = manghit_4	# Muhammad Alim Khan bin Abdul-Ahad
+	1901.10.1 = {
+		holder = barakzai_9	# Habibullah Khan Barakzai
 	}
 }
 c_west-tokharestan = {
-	1800.1.1 = {
+	1800.1.1 = {	# Bukhara
 		holder = manghit_0	# Haydar bin Shahmurad
 	}
 	1827.4.24 = {
 		holder = manghit_1	# Nasr-Allah bin Haydar Tora
 	}
-	1860.10.20 = {
-		holder = manghit_2	# Muzaffar bin Nasrullah
+	1850.1.1 = {	# Afghanistan
+		holder = barakzai_1	# Dost Mohammad Khan Barakzai
 	}
-	1885.11.4 = {
-		holder = manghit_3	# Abdul-Ahad bin Muzaffar al-Din
-	}
-	1911.1.3 = {
-		holder = manghit_4	# Muhammad Alim Khan bin Abdul-Ahad
+	1901.10.1 = {
+		holder = barakzai_9	# Habibullah Khan Barakzai
 	}
 }
 c_east-tokharestan = {
-	1800.1.1 = {
+	1800.1.1 = {	# Bukhara
 		holder = manghit_0	# Haydar bin Shahmurad
 	}
 	1827.4.24 = {
 		holder = manghit_1	# Nasr-Allah bin Haydar Tora
 	}
-	1860.10.20 = {
-		holder = manghit_2	# Muzaffar bin Nasrullah
+	1850.1.1 = {	# Afghanistan
+		holder = barakzai_1	# Dost Mohammad Khan Barakzai
 	}
-	1885.11.4 = {
-		holder = manghit_3	# Abdul-Ahad bin Muzaffar al-Din
-	}
-	1911.1.3 = {
-		holder = manghit_4	# Muhammad Alim Khan bin Abdul-Ahad
+	1901.10.1 = {
+		holder = barakzai_9	# Habibullah Khan Barakzai
 	}
 }
 #d_nasa = {

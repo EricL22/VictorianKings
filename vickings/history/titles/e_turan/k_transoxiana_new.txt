@@ -1,0 +1,666 @@
+d_soghd = {
+	1800.1.1 = {
+		holder = manghit_0	# Haydar bin Shahmurad
+	}
+	1827.4.24 = {
+		holder = manghit_1	# Nasr-Allah bin Haydar Tora
+	}
+	1860.10.20 = {
+		holder = manghit_2	# Muzaffar bin Nasrullah
+	}
+	1873.1.1 = {
+		liege = e_russia
+	}
+	1885.11.4 = {
+		holder = manghit_3	# Abdul-Ahad bin Muzaffar al-Din
+	}
+	1911.1.3 = {
+		holder = manghit_4	# Muhammad Alim Khan bin Abdul-Ahad
+	}
+}
+c_bukhara = {
+	1800.1.1 = {
+		holder = manghit_0	# Haydar bin Shahmurad
+	}
+	1827.4.24 = {
+		holder = manghit_1	# Nasr-Allah bin Haydar Tora
+	}
+	1860.10.20 = {
+		holder = manghit_2	# Muzaffar bin Nasrullah
+	}
+	1885.11.4 = {
+		holder = manghit_3	# Abdul-Ahad bin Muzaffar al-Din
+	}
+	1911.1.3 = {
+		holder = manghit_4	# Muhammad Alim Khan bin Abdul-Ahad
+	}
+}
+c_kishsh = {
+	1800.1.1 = {
+		holder = manghit_0	# Haydar bin Shahmurad
+	}
+	1827.4.24 = {
+		holder = manghit_1	# Nasr-Allah bin Haydar Tora
+	}
+	1860.10.20 = {
+		holder = manghit_2	# Muzaffar bin Nasrullah
+	}
+	1885.11.4 = {
+		holder = manghit_3	# Abdul-Ahad bin Muzaffar al-Din
+	}
+	1911.1.3 = {
+		holder = manghit_4	# Muhammad Alim Khan bin Abdul-Ahad
+	}
+}
+c_kalif = {
+	1800.1.1 = {
+		holder = manghit_0	# Haydar bin Shahmurad
+	}
+	1827.4.24 = {
+		holder = manghit_1	# Nasr-Allah bin Haydar Tora
+	}
+	1860.10.20 = {
+		holder = manghit_2	# Muzaffar bin Nasrullah
+	}
+	1885.11.4 = {
+		holder = manghit_3	# Abdul-Ahad bin Muzaffar al-Din
+	}
+	1911.1.3 = {
+		holder = manghit_4	# Muhammad Alim Khan bin Abdul-Ahad
+	}
+}
+c_nakhshab = {
+	1800.1.1 = {
+		holder = manghit_0	# Haydar bin Shahmurad
+	}
+	1827.4.24 = {
+		holder = manghit_1	# Nasr-Allah bin Haydar Tora
+	}
+	1860.10.20 = {
+		holder = manghit_2	# Muzaffar bin Nasrullah
+	}
+	1885.11.4 = {
+		holder = manghit_3	# Abdul-Ahad bin Muzaffar al-Din
+	}
+	1911.1.3 = {
+		holder = manghit_4	# Muhammad Alim Khan bin Abdul-Ahad
+	}
+}
+c_firabr = {
+	1800.1.1 = {
+		holder = manghit_0	# Haydar bin Shahmurad
+	}
+	1827.4.24 = {
+		holder = manghit_1	# Nasr-Allah bin Haydar Tora
+	}
+	1860.10.20 = {
+		holder = manghit_2	# Muzaffar bin Nasrullah
+	}
+	1885.11.4 = {
+		holder = manghit_3	# Abdul-Ahad bin Muzaffar al-Din
+	}
+	1911.1.3 = {
+		holder = manghit_4	# Muhammad Alim Khan bin Abdul-Ahad
+	}
+}
+c_dabusiya = {
+	1800.1.1 = {	# Bukhara
+		holder = manghit_0	# Haydar bin Shahmurad
+	}
+	1827.4.24 = {
+		holder = manghit_1	# Nasr-Allah bin Haydar Tora
+	}
+	1860.10.20 = {
+		holder = manghit_2	# Muzaffar bin Nasrullah
+	}
+	1868.5.20 = {	# Russia
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_samarkand = {
+	1800.1.1 = {	# Bukhara
+		holder = manghit_0	# Haydar bin Shahmurad
+	}
+	1827.4.24 = {
+		holder = manghit_1	# Nasr-Allah bin Haydar Tora
+	}
+	1860.10.20 = {
+		holder = manghit_2	# Muzaffar bin Nasrullah
+	}
+	1868.5.20 = {	# Russia
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+#d_badakhshan = {
+#}
+c_badakhshan = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1881.4.27 = {	# Afghanistan
+		holder = barakzai_8	# Abdur Rahman Khan Barakzai
+	}
+	1901.10.1 = {
+		holder = barakzai_9	# Habibullah Khan Barakzai
+	}
+}
+c_munjan = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1881.4.27 = {	# Afghanistan
+		holder = barakzai_8	# Abdur Rahman Khan Barakzai
+	}
+	1901.10.1 = {
+		holder = barakzai_9	# Habibullah Khan Barakzai
+	}
+}
+c_wakhan = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1881.4.27 = {	# Afghanistan
+		holder = barakzai_8	# Abdur Rahman Khan Barakzai
+	}
+	1901.10.1 = {
+		holder = barakzai_9	# Habibullah Khan Barakzai
+	}
+}
+c_shughnan = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1876.1.1 = {	# Russia
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_karran = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1876.1.1 = {	# Russia
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+d_khuttal = {
+	1876.1.1 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_khuttal = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1876.1.1 = {	# Russia
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_wakhsh = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1876.1.1 = {	# Russia
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_chaghaniyan = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1876.1.1 = {	# Russia
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_rasht = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1876.1.1 = {	# Russia
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+#d_osrushana = {
+#}
+c_oshrusana = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1876.1.1 = {	# Russia
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_zarafshan = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1876.1.1 = {	# Russia
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+#d_ferghana = {
+#}
+c_ferghana = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1876.1.1 = {	# Russia
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_khojand = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1876.1.1 = {	# Russia
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_isfara = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1876.1.1 = {	# Russia
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_nasaiya = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1876.1.1 = {	# Russia
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_nasrabad = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1876.1.1 = {	# Russia
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_uzgend = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1876.1.1 = {	# Russia
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+d_khorezm = {
+	1806.1.1 = {
+		holder = qungrat_0	# Muhammad Rahim Bahadur I
+	}
+	1825.1.1 = {
+		holder = qungrat_1	# Allah Quli Bahadur
+	}
+	1842.1.1 = {
+		holder = qungrat_2	# Muhammad Rahim Quli
+	}
+	1846.1.1 = {
+		holder = qungrat_3	# Muhammad Amin Bahadur
+	}
+	1856.1.1 = {
+		holder = qungrat_4	# Sayyid Muhammad
+	}
+	1864.9.10 = {
+		holder = qungrat_5	# Muhammad Rahim Bahadur II
+	}
+	1873.6.14 = {
+		liege = e_russia
+	}
+	1910.9.1 = {
+		holder = qungrat_6	# Isfandiyar Jurji Bahadur
+	}
+}
+c_gurganj = {
+	1806.1.1 = {
+		holder = qungrat_0	# Muhammad Rahim Bahadur I
+	}
+	1825.1.1 = {
+		holder = qungrat_1	# Allah Quli Bahadur
+	}
+	1842.1.1 = {
+		holder = qungrat_2	# Muhammad Rahim Quli
+	}
+	1846.1.1 = {
+		holder = qungrat_3	# Muhammad Amin Bahadur
+	}
+	1856.1.1 = {
+		holder = qungrat_4	# Sayyid Muhammad
+	}
+	1864.9.10 = {
+		holder = qungrat_5	# Muhammad Rahim Bahadur II
+	}
+	1910.9.1 = {
+		holder = qungrat_6	# Isfandiyar Jurji Bahadur
+	}
+}
+c_darghan = {
+	1806.1.1 = {
+		holder = qungrat_0	# Muhammad Rahim Bahadur I
+	}
+	1825.1.1 = {
+		holder = qungrat_1	# Allah Quli Bahadur
+	}
+	1842.1.1 = {
+		holder = qungrat_2	# Muhammad Rahim Quli
+	}
+	1846.1.1 = {
+		holder = qungrat_3	# Muhammad Amin Bahadur
+	}
+	1856.1.1 = {
+		holder = qungrat_4	# Sayyid Muhammad
+	}
+	1864.9.10 = {
+		holder = qungrat_5	# Muhammad Rahim Bahadur II
+	}
+	1910.9.1 = {
+		holder = qungrat_6	# Isfandiyar Jurji Bahadur
+	}
+}
+c_kath = {
+	1806.1.1 = {
+		holder = qungrat_0	# Muhammad Rahim Bahadur I
+	}
+	1825.1.1 = {
+		holder = qungrat_1	# Allah Quli Bahadur
+	}
+	1842.1.1 = {
+		holder = qungrat_2	# Muhammad Rahim Quli
+	}
+	1846.1.1 = {
+		holder = qungrat_3	# Muhammad Amin Bahadur
+	}
+	1856.1.1 = {
+		holder = qungrat_4	# Sayyid Muhammad
+	}
+	1864.9.10 = {
+		holder = qungrat_5	# Muhammad Rahim Bahadur II
+	}
+	1910.9.1 = {
+		holder = qungrat_6	# Isfandiyar Jurji Bahadur
+	}
+}
+c_ghardaman = {
+	1806.1.1 = {
+		holder = qungrat_0	# Muhammad Rahim Bahadur I
+	}
+	1825.1.1 = {
+		holder = qungrat_1	# Allah Quli Bahadur
+	}
+	1842.1.1 = {
+		holder = qungrat_2	# Muhammad Rahim Quli
+	}
+	1846.1.1 = {
+		holder = qungrat_3	# Muhammad Amin Bahadur
+	}
+	1856.1.1 = {
+		holder = qungrat_4	# Sayyid Muhammad
+	}
+	1864.9.10 = {
+		holder = qungrat_5	# Muhammad Rahim Bahadur II
+	}
+	1910.9.1 = {
+		holder = qungrat_6	# Isfandiyar Jurji Bahadur
+	}
+}
+c_khiva = {
+	1806.1.1 = {
+		holder = qungrat_0	# Muhammad Rahim Bahadur I
+	}
+	1825.1.1 = {
+		holder = qungrat_1	# Allah Quli Bahadur
+	}
+	1842.1.1 = {
+		holder = qungrat_2	# Muhammad Rahim Quli
+	}
+	1846.1.1 = {
+		holder = qungrat_3	# Muhammad Amin Bahadur
+	}
+	1856.1.1 = {
+		holder = qungrat_4	# Sayyid Muhammad
+	}
+	1864.9.10 = {
+		holder = qungrat_5	# Muhammad Rahim Bahadur II
+	}
+	1910.9.1 = {
+		holder = qungrat_6	# Isfandiyar Jurji Bahadur
+	}
+}
+c_zamakhshar = {
+	1806.1.1 = {
+		holder = qungrat_0	# Muhammad Rahim Bahadur I
+	}
+	1825.1.1 = {
+		holder = qungrat_1	# Allah Quli Bahadur
+	}
+	1842.1.1 = {
+		holder = qungrat_2	# Muhammad Rahim Quli
+	}
+	1846.1.1 = {
+		holder = qungrat_3	# Muhammad Amin Bahadur
+	}
+	1856.1.1 = {
+		holder = qungrat_4	# Sayyid Muhammad
+	}
+	1864.9.10 = {
+		holder = qungrat_5	# Muhammad Rahim Bahadur II
+	}
+	1910.9.1 = {
+		holder = qungrat_6	# Isfandiyar Jurji Bahadur
+	}
+}
+c_kurdar = {
+	1806.1.1 = {
+		holder = qungrat_0	# Muhammad Rahim Bahadur I
+	}
+	1825.1.1 = {
+		holder = qungrat_1	# Allah Quli Bahadur
+	}
+	1842.1.1 = {
+		holder = qungrat_2	# Muhammad Rahim Quli
+	}
+	1846.1.1 = {
+		holder = qungrat_3	# Muhammad Amin Bahadur
+	}
+	1856.1.1 = {
+		holder = qungrat_4	# Sayyid Muhammad
+	}
+	1864.9.10 = {
+		holder = qungrat_5	# Muhammad Rahim Bahadur II
+	}
+	1910.9.1 = {
+		holder = qungrat_6	# Isfandiyar Jurji Bahadur
+	}
+}
+d_uzboy = {
+	1873.6.14 = {
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_kurtysh = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1873.6.14 = {	# Russia
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_sarykamysh = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1873.6.14 = {	# Russia
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_uzboy = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1873.6.14 = {	# Russia
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_nebit_dag = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1873.6.14 = {	# Russia
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
