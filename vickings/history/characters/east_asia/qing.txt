@@ -114,7 +114,7 @@ qing_6 = {
 }
 
 qing_7 = {
-	name = "Mianning"
+	name = "Minning"
 	dynasty = aisin_gioro
 	culture = manchu
 	religion = daoxue
@@ -226,6 +226,22 @@ qing_21 = {
 		birth = yes
 	}
 	1951.2.3 = {
+		death = yes
+	}
+}
+qing_22 = {
+	name = "Yixin"	# Prince Gong
+	dynasty = aisin_gioro
+	culture = manchu
+	religion = daoxue
+	father = qing_7
+	1833.1.11 = {
+		birth = yes
+	}
+	1861.1.1 = {
+		give_council_position = councillor_chancellor
+	}
+	1898.5.29 = {
 		death = yes
 	}
 }

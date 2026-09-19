@@ -102,3 +102,8 @@ oyun = {
 	name = "dynn_Oyun"
 	culture = uriankhai
 }
+
+dong = {
+	name = "dynn_Dong_8463"
+	culture = han
+}

@@ -1,0 +1,465 @@
+k_xia = {
+	1800.1.1 = {
+		de_jure_liege = e_mongolia
+	}
+}
+d_shuofang = {
+	1800.1.1 = {
+		de_jure_liege = k_hexi
+	}
+}
+c_lingzhou = {
+	1810.1.1 = {
+		holder = shaangan_0	# Nayancheng
+	}
+	1814.3.1 = {
+		holder = shaangan_1	# Xianfu
+	}
+	1835.1.1 = {
+		holder = shaangan_2	# Husungge
+	}
+	1860.1.1 = {
+		holder = shaangan_3	# Yuebin
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+c_huaiyuan = {
+	1810.1.1 = {
+		holder = shaangan_0	# Nayancheng
+	}
+	1814.3.1 = {
+		holder = shaangan_1	# Xianfu
+	}
+	1835.1.1 = {
+		holder = shaangan_2	# Husungge
+	}
+	1860.1.1 = {
+		holder = shaangan_3	# Yuebin
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+c_weizhou_3 = {
+	1810.1.1 = {
+		holder = shaangan_0	# Nayancheng
+	}
+	1814.3.1 = {
+		holder = shaangan_1	# Xianfu
+	}
+	1835.1.1 = {
+		holder = shaangan_2	# Husungge
+	}
+	1860.1.1 = {
+		holder = shaangan_3	# Yuebin
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+c_wulan = {
+	1810.1.1 = {
+		holder = shaangan_0	# Nayancheng
+	}
+	1814.3.1 = {
+		holder = shaangan_1	# Xianfu
+	}
+	1835.1.1 = {
+		holder = shaangan_2	# Husungge
+	}
+	1860.1.1 = {
+		holder = shaangan_3	# Yuebin
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+c_xiongzhou = {
+	1810.1.1 = {
+		holder = shaangan_0	# Nayancheng
+	}
+	1814.3.1 = {
+		holder = shaangan_1	# Xianfu
+	}
+	1835.1.1 = {
+		holder = shaangan_2	# Husungge
+	}
+	1860.1.1 = {
+		holder = shaangan_3	# Yuebin
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+c_huizhou = {
+	1810.1.1 = {
+		holder = shaangan_0	# Nayancheng
+	}
+	1814.3.1 = {
+		holder = shaangan_1	# Xianfu
+	}
+	1835.1.1 = {
+		holder = shaangan_2	# Husungge
+	}
+	1860.1.1 = {
+		holder = shaangan_3	# Yuebin
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+d_xiasui = {
+	1800.1.1 = {
+		de_jure_liege = k_guannei
+	}
+	1810.1.1 = {
+		holder = shaangan_0	# Nayancheng
+	}
+	1814.3.1 = {
+		holder = shaangan_1	# Xianfu
+	}
+	1835.1.1 = {
+		holder = shaangan_2	# Husungge
+	}
+	1860.1.1 = {
+		holder = shaangan_3	# Yuebin
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+c_xiazhou = {
+	1810.1.1 = {
+		holder = shaangan_0	# Nayancheng
+	}
+	1814.3.1 = {
+		holder = shaangan_1	# Xianfu
+	}
+	1835.1.1 = {
+		holder = shaangan_2	# Husungge
+	}
+	1860.1.1 = {
+		holder = shaangan_3	# Yuebin
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+c_suizhou = {
+	1810.1.1 = {
+		holder = shaangan_0	# Nayancheng
+	}
+	1814.3.1 = {
+		holder = shaangan_1	# Xianfu
+	}
+	1835.1.1 = {
+		holder = shaangan_2	# Husungge
+	}
+	1860.1.1 = {
+		holder = shaangan_3	# Yuebin
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+c_yinzhou = {
+	1810.1.1 = {
+		holder = shaangan_0	# Nayancheng
+	}
+	1814.3.1 = {
+		holder = shaangan_1	# Xianfu
+	}
+	1835.1.1 = {
+		holder = shaangan_2	# Husungge
+	}
+	1860.1.1 = {
+		holder = shaangan_3	# Yuebin
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+c_wuyuan = {
+	1810.1.1 = {
+		holder = shaangan_0	# Nayancheng
+	}
+	1814.3.1 = {
+		holder = shaangan_1	# Xianfu
+	}
+	1835.1.1 = {
+		holder = shaangan_2	# Husungge
+	}
+	1860.1.1 = {
+		holder = shaangan_3	# Yuebin
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+c_youzhou_2 = {
+	1810.1.1 = {
+		holder = shaangan_0	# Nayancheng
+	}
+	1814.3.1 = {
+		holder = shaangan_1	# Xianfu
+	}
+	1835.1.1 = {
+		holder = shaangan_2	# Husungge
+	}
+	1860.1.1 = {
+		holder = shaangan_3	# Yuebin
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+c_quye = {
+	1810.1.1 = {
+		holder = shaangan_0	# Nayancheng
+	}
+	1814.3.1 = {
+		holder = shaangan_1	# Xianfu
+	}
+	1835.1.1 = {
+		holder = shaangan_2	# Husungge
+	}
+	1860.1.1 = {
+		holder = shaangan_3	# Yuebin
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+#d_tiande = {
+#}
+c_tiande = {
+	1799.2.7 = {
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+c_lxj_fengzhou = {
+	1799.2.7 = {
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+d_langshan = {
+	1799.2.7 = {
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+c_langshan = {
+	1799.2.7 = {
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+c_keyimen = {
+	1799.2.7 = {
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+c_hequ = {
+	1799.2.7 = {
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+d_xiutu = {
+	1800.1.1 = {
+		de_jure_liege = k_hexi
+	}
+	1810.1.1 = {
+		holder = shaangan_0	# Nayancheng
+	}
+	1814.3.1 = {
+		holder = shaangan_1	# Xianfu
+	}
+	1835.1.1 = {
+		holder = shaangan_2	# Husungge
+	}
+	1860.1.1 = {
+		holder = shaangan_3	# Yuebin
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+c_zhenfan = {
+	1810.1.1 = {
+		holder = shaangan_0	# Nayancheng
+	}
+	1814.3.1 = {
+		holder = shaangan_1	# Xianfu
+	}
+	1835.1.1 = {
+		holder = shaangan_2	# Husungge
+	}
+	1860.1.1 = {
+		holder = shaangan_3	# Yuebin
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+c_tengger = {
+	1810.1.1 = {
+		holder = shaangan_0	# Nayancheng
+	}
+	1814.3.1 = {
+		holder = shaangan_1	# Xianfu
+	}
+	1835.1.1 = {
+		holder = shaangan_2	# Husungge
+	}
+	1860.1.1 = {
+		holder = shaangan_3	# Yuebin
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+c_alxa = {
+	1799.2.7 = {
+		holder = qing_6	# Jiaqing of Qing
+		de_jure_liege = d_langshan
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+d_juyan = {
+	1799.2.7 = {
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+c_tongcheng = {
+	1799.2.7 = {
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+c_wentugaole = {
+	1799.2.7 = {
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+c_heihe = {
+	1800.1.1 = {
+		de_jure_liege = d_gansu
+	}
+	1810.1.1 = {
+		holder = shaangan_0	# Nayancheng
+	}
+	1814.3.1 = {
+		holder = shaangan_1	# Xianfu
+	}
+	1835.1.1 = {
+		holder = shaangan_2	# Husungge
+	}
+	1860.1.1 = {
+		holder = shaangan_3	# Yuebin
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+c_mazongshan = {
+	1799.2.7 = {
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
