@@ -1,0 +1,806 @@
+﻿e_goryeo = {
+	#Joseon Dynasty
+	1392.8.13 = {
+		holder = joseon_0	# Taejo
+ 		effect = {
+			set_title_name = "cn_joseon"
+			set_capital_county = title:c_gwangju
+ 		}
+	}
+	1398.10.22 = {
+		holder = joseon_1	# Jeongjong
+	}
+	1400.12.7 = {
+		holder = joseon_2	# Taejong
+	}
+	1418.9.18 = {
+		holder = joseon_3	# Sejong
+	}
+	1450.4.8 = {
+		holder = joseon_4	# Munjong
+	}
+	1452.6.10 = {
+		holder = joseon_5	# Danjong
+	}
+	1455.7.4 = {
+		holder = joseon_6	# Sejo
+	}
+	1468.10.1 = {
+		holder = joseon_7	# Yejong
+	}
+	1470.1.9 = {
+		holder = joseon_9	# Seongjong
+	}
+	1495.1.29 = {
+		holder = joseon_10	# Yeonsangun
+	}
+	1506.9.28 = {
+		holder = joseon_11	# Jungjong
+	}
+	1544.12.8 = {
+		holder = joseon_12	# Injong
+	}
+	1545.8.17 = {
+		holder = joseon_13	# Myeongjong
+	}
+	1567.8.12 = {
+		holder = joseon_15	# Seonjo
+	}
+	1608.3.16 = {
+		holder = joseon_16	# Gwanghaegun
+	}
+	1623.4.11 = {
+		holder = joseon_18	# Injo
+	}
+	1649.6.17 = {
+		holder = joseon_19	# Hyojong
+	}
+	1659.6.23 = {
+		holder = joseon_20	# Hyeonjong
+	}
+	1674.9.17 = {
+		holder = joseon_21	# Sukjong
+	}
+	1720.7.12 = {
+		holder = joseon_22	# Gyeongjong
+	}
+	1724.10.11 = {
+		holder = joseon_23	# Yeongjo
+	}
+	1776.4.27 = {
+		holder = joseon_25	# Jeongjo
+	}
+	1800.8.18 = {
+		holder = joseon_26	# Sunjo
+	}
+	1834.12.18 = {
+		holder = joseon_28	# Heonjong
+	}
+	1849.7.25 = {
+		holder = joseon_31	# Cheoljong
+	}
+	1864.1.21 = {
+		holder = joseon_41	# Gojong
+	}
+	# 1897.10.13: empire declared
+	1907.7.19 = {
+		holder = joseon_42	# Sunjong
+	}
+	1910.8.29 = {
+		holder = 0
+	}
+}
+
+k_yongson_throne = {
+	1270.1.1 = {
+		holder = 0
+	}
+}
+
+d_tamna = {
+	1800.8.18 = {	# Korea
+		holder = joseon_26	# Sunjo
+	}
+	1834.12.18 = {
+		holder = joseon_28	# Heonjong
+	}
+	1849.7.25 = {
+		holder = joseon_31	# Cheoljong
+	}
+}
+
+c_tamna = {
+	1800.8.18 = {	# Korea
+		holder = joseon_26	# Sunjo
+	}
+	1834.12.18 = {
+		holder = joseon_28	# Heonjong
+	}
+	1849.7.25 = {
+		holder = joseon_31	# Cheoljong
+	}
+}
+
+c_ulleong = {
+	1800.8.18 = {	# Korea
+		holder = joseon_26	# Sunjo
+	}
+	1834.12.18 = {
+		holder = joseon_28	# Heonjong
+	}
+	1849.7.25 = {
+		holder = joseon_31	# Cheoljong
+	}
+}
+
+# BUKGYE
+
+d_bukgye = {
+	1800.8.18 = {	# Korea
+		holder = joseon_26	# Sunjo
+	}
+	1834.12.18 = {
+		holder = joseon_28	# Heonjong
+	}
+	1849.7.25 = {
+		holder = joseon_31	# Cheoljong
+	}
+}
+
+c_yeongwon = {
+	1800.8.18 = {	# Korea
+		holder = joseon_26	# Sunjo
+	}
+	1834.12.18 = {
+		holder = joseon_28	# Heonjong
+	}
+	1849.7.25 = {
+		holder = joseon_31	# Cheoljong
+	}
+}
+
+c_seogyeong = {
+	1800.8.18 = {	# Korea
+		holder = joseon_26	# Sunjo
+	}
+	1834.12.18 = {
+		holder = joseon_28	# Heonjong
+	}
+	1849.7.25 = {
+		holder = joseon_31	# Cheoljong
+	}
+}
+
+c_seongju = {
+	1800.8.18 = {	# Korea
+		holder = joseon_26	# Sunjo
+	}
+	1834.12.18 = {
+		holder = joseon_28	# Heonjong
+	}
+	1849.7.25 = {
+		holder = joseon_31	# Cheoljong
+	}
+}
+
+# HAE_JU
+
+d_haeju = {
+	1800.8.18 = {	# Korea
+		holder = joseon_26	# Sunjo
+	}
+	1834.12.18 = {
+		holder = joseon_28	# Heonjong
+	}
+	1849.7.25 = {
+		holder = joseon_31	# Cheoljong
+	}
+}
+
+c_haeju = {
+	1800.8.18 = {	# Korea
+		holder = joseon_26	# Sunjo
+	}
+	1834.12.18 = {
+		holder = joseon_28	# Heonjong
+	}
+	1849.7.25 = {
+		holder = joseon_31	# Cheoljong
+	}
+}
+
+c_hwangju = {
+	1800.8.18 = {	# Korea
+		holder = joseon_26	# Sunjo
+	}
+	1834.12.18 = {
+		holder = joseon_28	# Heonjong
+	}
+	1849.7.25 = {
+		holder = joseon_31	# Cheoljong
+	}
+}
+
+c_pungju = {
+	1800.8.18 = {	# Korea
+		holder = joseon_26	# Sunjo
+	}
+	1834.12.18 = {
+		holder = joseon_28	# Heonjong
+	}
+	1849.7.25 = {
+		holder = joseon_31	# Cheoljong
+	}
+}
+
+# SANG_JU
+
+d_gyeongju = {
+	1800.8.18 = {	# Korea
+		holder = joseon_26	# Sunjo
+	}
+	1834.12.18 = {
+		holder = joseon_28	# Heonjong
+	}
+	1849.7.25 = {
+		holder = joseon_31	# Cheoljong
+	}
+}
+
+c_gyeongju = {
+	1800.8.18 = {	# Korea
+		holder = joseon_26	# Sunjo
+	}
+	1834.12.18 = {
+		holder = joseon_28	# Heonjong
+	}
+	1849.7.25 = {
+		holder = joseon_31	# Cheoljong
+	}
+}
+
+c_sangju = {
+	1800.8.18 = {	# Korea
+		holder = joseon_26	# Sunjo
+	}
+	1834.12.18 = {
+		holder = joseon_28	# Heonjong
+	}
+	1849.7.25 = {
+		holder = joseon_31	# Cheoljong
+	}
+}
+
+c_ilseon = {
+	1800.8.18 = {	# Korea
+		holder = joseon_26	# Sunjo
+	}
+	1834.12.18 = {
+		holder = joseon_28	# Heonjong
+	}
+	1849.7.25 = {
+		holder = joseon_31	# Cheoljong
+	}
+}
+
+c_andong = {
+	1800.8.18 = {	# Korea
+		holder = joseon_26	# Sunjo
+	}
+	1834.12.18 = {
+		holder = joseon_28	# Heonjong
+	}
+	1849.7.25 = {
+		holder = joseon_31	# Cheoljong
+	}
+}
+
+# JIN_JU
+
+d_jinju = {
+	1800.8.18 = {	# Korea
+		holder = joseon_26	# Sunjo
+	}
+	1834.12.18 = {
+		holder = joseon_28	# Heonjong
+	}
+	1849.7.25 = {
+		holder = joseon_31	# Cheoljong
+	}
+}
+
+c_ulju = {
+	1800.8.18 = {	# Korea
+		holder = joseon_26	# Sunjo
+	}
+	1834.12.18 = {
+		holder = joseon_28	# Heonjong
+	}
+	1849.7.25 = {
+		holder = joseon_31	# Cheoljong
+	}
+}
+
+c_hamyang = {
+	1800.8.18 = {	# Korea
+		holder = joseon_26	# Sunjo
+	}
+	1834.12.18 = {
+		holder = joseon_28	# Heonjong
+	}
+	1849.7.25 = {
+		holder = joseon_31	# Cheoljong
+	}
+}
+
+c_guemju = {
+	1800.8.18 = {	# Korea
+		holder = joseon_26	# Sunjo
+	}
+	1834.12.18 = {
+		holder = joseon_28	# Heonjong
+	}
+	1849.7.25 = {
+		holder = joseon_31	# Cheoljong
+	}
+}
+
+c_jinju = {
+	1800.8.18 = {	# Korea
+		holder = joseon_26	# Sunjo
+	}
+	1834.12.18 = {
+		holder = joseon_28	# Heonjong
+	}
+	1849.7.25 = {
+		holder = joseon_31	# Cheoljong
+	}
+}
+
+# JEON_JU
+
+d_jeonju = {
+	1800.8.18 = {	# Korea
+		holder = joseon_26	# Sunjo
+	}
+	1834.12.18 = {
+		holder = joseon_28	# Heonjong
+	}
+	1849.7.25 = {
+		holder = joseon_31	# Cheoljong
+	}
+}
+
+c_jeonju = {
+	1800.8.18 = {	# Korea
+		holder = joseon_26	# Sunjo
+	}
+	1834.12.18 = {
+		holder = joseon_28	# Heonjong
+	}
+	1849.7.25 = {
+		holder = joseon_31	# Cheoljong
+	}
+}
+
+c_jillye = {
+	1800.8.18 = {	# Korea
+		holder = joseon_26	# Sunjo
+	}
+	1834.12.18 = {
+		holder = joseon_28	# Heonjong
+	}
+	1849.7.25 = {
+		holder = joseon_31	# Cheoljong
+	}
+}
+
+c_namwon = {
+	1800.8.18 = {	# Korea
+		holder = joseon_26	# Sunjo
+	}
+	1834.12.18 = {
+		holder = joseon_28	# Heonjong
+	}
+	1849.7.25 = {
+		holder = joseon_31	# Cheoljong
+	}
+}
+
+# SEUNG_JU
+
+d_naju = {
+	1800.8.18 = {	# Korea
+		holder = joseon_26	# Sunjo
+	}
+	1834.12.18 = {
+		holder = joseon_28	# Heonjong
+	}
+	1849.7.25 = {
+		holder = joseon_31	# Cheoljong
+	}
+}
+
+c_naju = {
+	1800.8.18 = {	# Korea
+		holder = joseon_26	# Sunjo
+	}
+	1834.12.18 = {
+		holder = joseon_28	# Heonjong
+	}
+	1849.7.25 = {
+		holder = joseon_31	# Cheoljong
+	}
+}
+
+c_jangheung = {
+	1800.8.18 = {	# Korea
+		holder = joseon_26	# Sunjo
+	}
+	1834.12.18 = {
+		holder = joseon_28	# Heonjong
+	}
+	1849.7.25 = {
+		holder = joseon_31	# Cheoljong
+	}
+}
+
+c_boseong = {
+	1800.8.18 = {	# Korea
+		holder = joseon_26	# Sunjo
+	}
+	1834.12.18 = {
+		holder = joseon_28	# Heonjong
+	}
+	1849.7.25 = {
+		holder = joseon_31	# Cheoljong
+	}
+}
+
+# CHUNG_JU
+
+d_chungju = {
+	1800.8.18 = {	# Korea
+		holder = joseon_26	# Sunjo
+	}
+	1834.12.18 = {
+		holder = joseon_28	# Heonjong
+	}
+	1849.7.25 = {
+		holder = joseon_31	# Cheoljong
+	}
+}
+
+c_chungju = {
+	1800.8.18 = {	# Korea
+		holder = joseon_26	# Sunjo
+	}
+	1834.12.18 = {
+		holder = joseon_28	# Heonjong
+	}
+	1849.7.25 = {
+		holder = joseon_31	# Cheoljong
+	}
+}
+
+c_cheongju = {
+	1800.8.18 = {	# Korea
+		holder = joseon_26	# Sunjo
+	}
+	1834.12.18 = {
+		holder = joseon_28	# Heonjong
+	}
+	1849.7.25 = {
+		holder = joseon_31	# Cheoljong
+	}
+}
+
+c_gongju = {
+	1800.8.18 = {	# Korea
+		holder = joseon_26	# Sunjo
+	}
+	1834.12.18 = {
+		holder = joseon_28	# Heonjong
+	}
+	1849.7.25 = {
+		holder = joseon_31	# Cheoljong
+	}
+}
+
+c_hongju = {
+	1800.8.18 = {	# Korea
+		holder = joseon_26	# Sunjo
+	}
+	1834.12.18 = {
+		holder = joseon_28	# Heonjong
+	}
+	1849.7.25 = {
+		holder = joseon_31	# Cheoljong
+	}
+}
+
+# YUKJU
+
+d_yukju = {
+	1800.8.18 = {	# Korea
+		holder = joseon_26	# Sunjo
+	}
+	1834.12.18 = {
+		holder = joseon_28	# Heonjong
+	}
+	1849.7.25 = {
+		holder = joseon_31	# Cheoljong
+	}
+}
+
+c_jangjeong = {
+	1800.8.18 = {	# Korea
+		holder = joseon_26	# Sunjo
+	}
+	1834.12.18 = {
+		holder = joseon_28	# Heonjong
+	}
+	1849.7.25 = {
+		holder = joseon_31	# Cheoljong
+	}
+}
+
+c_uiju = {
+	1800.8.18 = {	# Korea
+		holder = joseon_26	# Sunjo
+	}
+	1834.12.18 = {
+		holder = joseon_28	# Heonjong
+	}
+	1849.7.25 = {
+		holder = joseon_31	# Cheoljong
+	}
+}
+
+c_gwiju = {
+	1800.8.18 = {	# Korea
+		holder = joseon_26	# Sunjo
+	}
+	1834.12.18 = {
+		holder = joseon_28	# Heonjong
+	}
+	1849.7.25 = {
+		holder = joseon_31	# Cheoljong
+	}
+}
+
+c_taeju = {
+	1800.8.18 = {	# Korea
+		holder = joseon_26	# Sunjo
+	}
+	1834.12.18 = {
+		holder = joseon_28	# Heonjong
+	}
+	1849.7.25 = {
+		holder = joseon_31	# Cheoljong
+	}
+}
+
+# GYOJU
+
+d_gyoju = {
+	1800.8.18 = {	# Korea
+		holder = joseon_26	# Sunjo
+	}
+	1834.12.18 = {
+		holder = joseon_28	# Heonjong
+	}
+	1849.7.25 = {
+		holder = joseon_31	# Cheoljong
+	}
+}
+
+c_inje = {
+	1800.8.18 = {	# Korea
+		holder = joseon_26	# Sunjo
+	}
+	1834.12.18 = {
+		holder = joseon_28	# Heonjong
+	}
+	1849.7.25 = {
+		holder = joseon_31	# Cheoljong
+	}
+}
+
+c_gyoju = {
+	1800.8.18 = {	# Korea
+		holder = joseon_26	# Sunjo
+	}
+	1834.12.18 = {
+		holder = joseon_28	# Heonjong
+	}
+	1849.7.25 = {
+		holder = joseon_31	# Cheoljong
+	}
+}
+
+c_dongju = {
+	1800.8.18 = {	# Korea
+		holder = joseon_26	# Sunjo
+	}
+	1834.12.18 = {
+		holder = joseon_28	# Heonjong
+	}
+	1849.7.25 = {
+		holder = joseon_31	# Cheoljong
+	}
+}
+
+c_chunju = {
+	1800.8.18 = {	# Korea
+		holder = joseon_26	# Sunjo
+	}
+	1834.12.18 = {
+		holder = joseon_28	# Heonjong
+	}
+	1849.7.25 = {
+		holder = joseon_31	# Cheoljong
+	}
+}
+
+# GWANGJU
+
+d_gwangju = {
+	1800.8.18 = {	# Korea
+		holder = joseon_26	# Sunjo
+	}
+	1834.12.18 = {
+		holder = joseon_28	# Heonjong
+	}
+	1849.7.25 = {
+		holder = joseon_31	# Cheoljong
+	}
+}
+
+c_gwangju = {
+	1800.8.18 = {	# Korea
+		holder = joseon_26	# Sunjo
+	}
+	1834.12.18 = {
+		holder = joseon_28	# Heonjong
+	}
+	1849.7.25 = {
+		holder = joseon_31	# Cheoljong
+	}
+}
+
+c_yangju = {
+	1800.8.18 = {	# Korea
+		holder = joseon_26	# Sunjo
+	}
+	1834.12.18 = {
+		holder = joseon_28	# Heonjong
+	}
+	1849.7.25 = {
+		holder = joseon_31	# Cheoljong
+	}
+}
+
+c_wonju = {
+	1800.8.18 = {	# Korea
+		holder = joseon_26	# Sunjo
+	}
+	1834.12.18 = {
+		holder = joseon_28	# Heonjong
+	}
+	1849.7.25 = {
+		holder = joseon_31	# Cheoljong
+	}
+}
+
+c_dangseong = {
+	1800.8.18 = {	# Korea
+		holder = joseon_26	# Sunjo
+	}
+	1834.12.18 = {
+		holder = joseon_28	# Heonjong
+	}
+	1849.7.25 = {
+		holder = joseon_31	# Cheoljong
+	}
+}
+
+# DONGGYE
+
+d_donggye = {
+	1800.8.18 = {	# Korea
+		holder = joseon_26	# Sunjo
+	}
+	1834.12.18 = {
+		holder = joseon_28	# Heonjong
+	}
+	1849.7.25 = {
+		holder = joseon_31	# Cheoljong
+	}
+}
+
+c_myeongju = {
+	1800.8.18 = {	# Korea
+		holder = joseon_26	# Sunjo
+	}
+	1834.12.18 = {
+		holder = joseon_28	# Heonjong
+	}
+	1849.7.25 = {
+		holder = joseon_31	# Cheoljong
+	}
+}
+
+c_goseong = {
+	1800.8.18 = {	# Korea
+		holder = joseon_26	# Sunjo
+	}
+	1834.12.18 = {
+		holder = joseon_28	# Heonjong
+	}
+	1849.7.25 = {
+		holder = joseon_31	# Cheoljong
+	}
+}
+
+c_deungju = {
+	1800.8.18 = {	# Korea
+		holder = joseon_26	# Sunjo
+	}
+	1834.12.18 = {
+		holder = joseon_28	# Heonjong
+	}
+	1849.7.25 = {
+		holder = joseon_31	# Cheoljong
+	}
+}
+
+# YANGJU
+
+d_gaeseong = {
+	1800.8.18 = {	# Korea
+		holder = joseon_26	# Sunjo
+	}
+	1834.12.18 = {
+		holder = joseon_28	# Heonjong
+	}
+	1849.7.25 = {
+		holder = joseon_31	# Cheoljong
+	}
+}
+
+c_gaeseong = {
+	1800.8.18 = {	# Korea
+		holder = joseon_26	# Sunjo
+	}
+	1834.12.18 = {
+		holder = joseon_28	# Heonjong
+	}
+	1849.7.25 = {
+		holder = joseon_31	# Cheoljong
+	}
+}
+
+c_pyeongju = {
+	1800.8.18 = {	# Korea
+		holder = joseon_26	# Sunjo
+	}
+	1834.12.18 = {
+		holder = joseon_28	# Heonjong
+	}
+	1849.7.25 = {
+		holder = joseon_31	# Cheoljong
+	}
+}
+
+c_gokju = {
+	1800.8.18 = {	# Korea
+		holder = joseon_26	# Sunjo
+	}
+	1834.12.18 = {
+		holder = joseon_28	# Heonjong
+	}
+	1849.7.25 = {
+		holder = joseon_31	# Cheoljong
+	}
+}

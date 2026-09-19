@@ -1,0 +1,709 @@
+﻿### Yi Dynasty (Joseon)
+
+joseon_0 = {
+	name = "Seong-gye"
+	dynasty = korean_i_jeonju
+	religion = daoxue
+	culture = goryeo
+	father = joseon_103
+	1335.11.4 = {
+		birth = yes
+	}
+	1408.6.27 = {
+#		name = "Taejo"
+		death = yes
+	}
+}
+
+joseon_1 = {
+	name = "Bang-gwa"
+	dynasty = korean_i_jeonju
+	religion = daoxue
+	culture = goryeo
+	father = joseon_0
+	1357.7.26 = {
+		birth = yes
+	}
+	1419.10.24 = {
+#		name = "Jeongjong"
+		death = yes
+	}
+}
+
+joseon_2 = {
+	name = "Bang-won"
+	dynasty = korean_i_jeonju
+	religion = daoxue
+	culture = goryeo
+	father = joseon_0
+	1367.6.21 = {
+		birth = yes
+	}
+	1422.6.8 = {
+#		name = "Taejong"
+		death = yes
+	}
+}
+
+joseon_3 = {
+	name = "Do"
+	dynasty = korean_i_jeonju
+	religion = daoxue
+	culture = goryeo
+	father = joseon_2
+	1397.5.15 = {
+		birth = yes
+	}
+	1450.4.8 = {
+#		name = "Sejong"
+		give_nickname = nick_the_great
+		death = yes
+	}
+}
+
+joseon_4 = {
+	name = "Hyang"
+	dynasty = korean_i_jeonju
+	religion = daoxue
+	culture = goryeo
+	father = joseon_3
+	1414.11.24 = {
+		birth = yes
+	}
+	1452.6.10 = {
+#		name = "Munjong"
+		death = yes
+	}
+}
+
+joseon_5 = {
+	name = "Hong-wi"
+	dynasty = korean_i_jeonju
+	religion = daoxue
+	culture = goryeo
+	father = joseon_4
+	1441.8.18 = {
+		birth = yes
+	}
+	1457.11.16 = {
+#		name = "Danjong"
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+
+joseon_6 = {
+	name = "Yu"
+	dynasty = korean_i_jeonju
+	religion = daoxue
+	culture = goryeo
+	father = joseon_3
+	1417.11.11 = {
+		birth = yes
+	}
+	1468.10.2 = {
+#		name = "Sejo"
+		death = yes
+	}
+}
+
+joseon_7 = {
+	name = "Hwang"
+	dynasty = korean_i_jeonju
+	religion = daoxue
+	culture = goryeo
+	father = joseon_6
+	1450.1.23 = {
+		birth = yes
+	}
+	1470.1.9 = {
+#		name = "Yejong"
+		death = yes
+	}
+}
+
+joseon_8 = {
+	name = "Chang"
+	dynasty = korean_i_jeonju
+	religion = daoxue
+	culture = goryeo
+	father = joseon_6
+	1438.10.12 = {
+		birth = yes
+	}
+	1457.9.29 = {
+#		name = "Uigyeong"
+		death = yes
+	}
+}
+
+joseon_9 = {
+	name = "Hyeol"
+	dynasty = korean_i_jeonju
+	religion = daoxue
+	culture = goryeo
+	father = joseon_8
+	1457.8.28 = {
+		birth = yes
+	}
+	1495.1.29 = {
+#		name = "Seongjong"
+		death = yes
+	}
+}
+
+joseon_10 = {
+	name = "Yung"
+	dynasty = korean_i_jeonju
+	religion = daoxue
+	culture = goryeo
+	father = joseon_9
+	1476.12.2 = {
+		birth = yes
+	}
+	1506.11.30 = {
+#		name = "Yeonsan"
+		death = yes
+	}
+}
+
+joseon_11 = {
+	name = "Yeok"
+	dynasty = korean_i_jeonju
+	religion = daoxue
+	culture = goryeo
+	father = joseon_9
+	1488.4.25 = {
+		birth = yes
+	}
+	1544.12.9 = {
+#		name = "Jungjong"
+		death = yes
+	}
+}
+
+joseon_12 = {
+	name = "Ho"
+	dynasty = korean_i_jeonju
+	religion = daoxue
+	culture = goryeo
+	father = joseon_11
+	1515.3.20 = {
+		birth = yes
+	}
+	1545.8.17 = {
+#		name = "Injong"
+		death = yes
+	}
+}
+
+joseon_13 = {
+	name = "Hwan"
+	dynasty = korean_i_jeonju
+	religion = daoxue
+	culture = goryeo
+	father = joseon_11
+	1534.7.13 = {
+		birth = yes
+	}
+	1567.8.12 = {
+#		name = "Myeongjong"
+		death = yes
+	}
+}
+
+joseon_14 = {
+	name = "Cho"
+	dynasty = korean_i_jeonju
+	religion = daoxue
+	culture = goryeo
+	father = joseon_11
+	1530.4.2 = {
+		birth = yes
+	}
+	1559.6.14 = {
+#		name = "Deokheung"
+		death = yes
+	}
+}
+
+joseon_15 = {
+	name = "Gyun"
+	dynasty = korean_i_jeonju
+	religion = daoxue
+	culture = goryeo
+	father = joseon_14
+	1552.12.6 = {
+		birth = yes
+	}
+	1608.3.16 = {
+#		name = "Seonjo"
+		death = yes
+	}
+}
+
+joseon_16 = {
+	name = "Hon"
+	dynasty = korean_i_jeonju
+	religion = daoxue
+	culture = goryeo
+	father = joseon_15
+	1575.6.14 = {
+		birth = yes
+	}
+	1641.8.7 = {
+#		name = "Gwanghae"
+		death = yes
+	}
+}
+
+joseon_17 = {
+	name = "Bu"
+	dynasty = korean_i_jeonju
+	religion = daoxue
+	culture = goryeo
+	father = joseon_15
+	1580.8.2 = {
+		birth = yes
+	}
+	1619.2.2 = {
+#		name = "Jeongwon"
+		death = yes
+	}
+}
+
+joseon_18 = {
+	name = "Jong"
+	dynasty = korean_i_jeonju
+	religion = daoxue
+	culture = goryeo
+	father = joseon_17
+	1595.12.7 = {
+		birth = yes
+	}
+	1649.6.17 = {
+#		name = "Injo"
+		death = yes
+	}
+}
+
+joseon_19 = {
+	name = "Ho"
+	dynasty = korean_i_jeonju
+	religion = daoxue
+	culture = goryeo
+	father = joseon_18
+	1619.7.3 = {
+		birth = yes
+	}
+	1659.6.23 = {
+#		name = "Hyojong"
+		death = yes
+	}
+}
+
+joseon_20 = {
+	name = "Yeon"
+	dynasty = korean_i_jeonju
+	religion = daoxue
+	culture = goryeo
+	father = joseon_19
+	1641.3.14 = {
+		birth = yes
+	}
+	1674.9.17 = {
+#		name = "Hyeonjong"
+		death = yes
+	}
+}
+
+joseon_21 = {
+	name = "Sun"
+	dynasty = korean_i_jeonju
+	religion = daoxue
+	culture = goryeo
+	father = joseon_20
+	1661.10.7 = {
+		birth = yes
+	}
+	1720.7.12 = {
+#		name = "Sukjong"
+		death = yes
+	}
+}
+
+joseon_22 = {
+	name = "Yun"
+	dynasty = korean_i_jeonju
+	religion = daoxue
+	culture = goryeo
+	father = joseon_21
+	1688.11.20 = {
+		birth = yes
+	}
+	1724.10.11 = {
+#		name = "Gyeongjong"
+		death = yes
+	}
+}
+
+joseon_23 = {
+	name = "Geum"
+	dynasty = korean_i_jeonju
+	religion = daoxue
+	culture = goryeo
+	father = joseon_21
+	1694.10.31 = {
+		birth = yes
+	}
+	1776.4.22 = {
+#		name = "Yeongjo"
+		death = yes
+	}
+}
+
+joseon_24 = {
+	name = "Seon"
+	dynasty = korean_i_jeonju
+	religion = daoxue
+	culture = goryeo
+	father = joseon_23
+	1735.2.13 = {
+		birth = yes
+	}
+	1762.7.12 = {
+#		name = "Sado"
+		death = {
+			death_reason = death_execution
+			killer = joseon_23
+		}
+	}
+}
+
+joseon_25 = {
+	name = "San"
+	dynasty = korean_i_jeonju
+	religion = daoxue
+	culture = goryeo
+	father = joseon_24
+	1752.10.28 = {
+		birth = yes
+	}
+	1800.8.18 = {
+#		name = "Jeongjo"
+		death = yes
+	}
+}
+
+joseon_26 = {
+	name = "Gong"
+	dynasty = korean_i_jeonju
+	religion = daoxue
+	culture = goryeo
+	father = joseon_25
+	1790.7.29 = {
+		birth = yes
+	}
+	1800.8.18 = {
+		effect = {
+#			add_character_flag = temple_name_chunzu
+		}
+	}
+	1834.12.13 = {
+#		name = "Sunjo"
+		death = yes
+	}
+}
+
+joseon_27 = {
+	name = "Yeong"	# Crown Prince Hyomyeong
+	dynasty = korean_i_jeonju
+	religion = daoxue
+	culture = goryeo
+	father = joseon_26
+	1809.9.18 = {
+		birth = yes
+	}
+	1830.6.25 = {
+		death = yes
+	}
+}
+
+joseon_28 = {
+	name = "Hwan"
+	dynasty = korean_i_jeonju
+	religion = daoxue
+	culture = goryeo
+	father = joseon_27
+	1827.9.8 = {
+		birth = yes
+	}
+	1830.8.18 = {
+		effect = {
+#			add_character_flag = temple_name_xianzong
+		}
+	}
+	1849.7.25 = {
+#		name = "Heonjong"
+		death = yes
+	}
+}
+
+joseon_29 = {
+	name = "In"	# Prince Euneon
+	dynasty = korean_i_jeonju
+	religion = daoxue
+	culture = goryeo
+	father = joseon_24
+	1754.5.29 = {
+		birth = yes
+	}
+	1801.6.30 = {
+		death = yes
+	}
+}
+
+joseon_30 = {
+	name = "Gwang"	# Grand Prince Jeon-gye
+	dynasty = korean_i_jeonju
+	religion = daoxue
+	culture = goryeo
+	father = joseon_29
+	1785.3.21 = {
+		birth = yes
+	}
+	1841.11.2 = {
+		death = yes
+	}
+}
+
+joseon_31 = {
+	name = "Won-beom"
+	dynasty = korean_i_jeonju
+	religion = daoxue
+	culture = goryeo
+	father = joseon_30
+	1831.7.25 = {
+		birth = yes
+	}
+	1831.8.18 = {
+		effect = {
+#			add_character_flag = temple_name_zhezong
+		}
+	}
+	1864.1.16 = {
+#		name = "Cheoljong"
+		death = yes
+	}
+}
+
+joseon_32 = {
+	name = "Haeng"	# Crown Prince Hyojang
+	dynasty = korean_i_jeonju
+	religion = daoxue
+	culture = goryeo
+	father = joseon_23
+	1719.2.15 = {
+		birth = yes
+	}
+	1728.11.16 = {
+		death = yes
+	}
+}
+
+joseon_33 = {
+	name = "Yo"	# Grand Prince Inpyeong
+	dynasty = korean_i_jeonju
+	religion = daoxue
+	culture = goryeo
+	father = joseon_18
+	1622.12.10 = {
+		birth = yes
+	}
+	1658.5.13 = {
+		death = yes
+	}
+}
+
+joseon_34 = {
+	name = "Uk"	# Prince Boknyeong
+	dynasty = korean_i_jeonju
+	religion = daoxue
+	culture = goryeo
+	father = joseon_33
+	1639.1.1 = {
+		birth = yes
+	}
+	1670.10.15 = {
+		death = yes
+	}
+}
+
+joseon_35 = {
+	name = "Hyeok"	# Prince Uiwon
+	dynasty = korean_i_jeonju
+	religion = daoxue
+	culture = goryeo
+	father = joseon_34
+	1661.6.13 = {
+		birth = yes
+	}
+	1722.11.12 = {
+		death = yes
+	}
+}
+
+joseon_36 = {
+	name = "Suk"	# Prince Anheung
+	dynasty = korean_i_jeonju
+	religion = daoxue
+	culture = goryeo
+	father = joseon_35
+	1693.10.9 = {
+		birth = yes
+	}
+	1768.4.7 = {
+		death = yes
+	}
+}
+
+joseon_37 = {
+	name = "Jin-ik"
+	dynasty = korean_i_jeonju
+	religion = daoxue
+	culture = goryeo
+	father = joseon_36
+	1728.9.25 = {
+		birth = yes
+	}
+	1796.4.26 = {
+		death = yes
+	}
+}
+
+joseon_38 = {
+	name = "Byeong-won"
+	dynasty = korean_i_jeonju
+	religion = daoxue
+	culture = goryeo
+	father = joseon_37
+	1752.4.6 = {
+		birth = yes
+	}
+	1822.11.11 = {
+		death = yes
+	}
+}
+
+joseon_39 = {
+	name = "Gu"	# Prince Nam-yeon
+	dynasty = korean_i_jeonju
+	religion = daoxue
+	culture = goryeo
+	father = joseon_38
+	1788.8.22 = {
+		birth = yes
+	}
+	1836.3.19 = {
+		death = yes
+	}
+}
+
+joseon_40 = {
+	name = "Ha-eung"	# Heungseon Daewongun
+	dynasty = korean_i_jeonju
+	religion = daoxue
+	culture = goryeo
+	father = joseon_39
+	1820.12.21 = {
+		birth = yes
+	}
+	1898.2.22 = {
+		death = yes
+	}
+}
+
+joseon_41 = {
+	name = "Jae-hwang"
+	dynasty = korean_i_jeonju
+	religion = daoxue
+	culture = goryeo
+	father = joseon_40
+	1852.9.8 = {
+		birth = yes
+	}
+	1919.1.21 = {
+#		name = "Gojong"
+		death = yes
+	}
+}
+
+joseon_42 = {
+	name = "Cheok"	# Sunjong of Korea
+	dynasty = korean_i_jeonju
+	religion = daoxue
+	culture = goryeo
+	father = joseon_41
+	1874.3.25 = {
+		birth = yes
+	}
+	1926.4.25 = {
+		death = yes
+	}
+}
+
+## Connectors
+joseon_100 = {
+	name = "An-sa"
+	dynasty = korean_i_jeonju
+	religion = avatamsaka
+	culture = goryeo
+	father = korean_i_jeonju_18
+	1204.1.1 = {
+		birth = yes
+	}
+	1274.3.3 = {
+		death = yes
+	}
+}
+joseon_101 = {
+	name = "Haeng-ni"
+	dynasty = korean_i_jeonju
+	religion = avatamsaka
+	culture = goryeo
+	father = joseon_100
+	1236.1.1 = {
+		birth = yes
+	}
+	1275.1.1 = {	# unknown
+		death = yes
+	}
+}
+joseon_102 = {
+	name = "Chun"
+	dynasty = korean_i_jeonju
+	religion = avatamsaka
+	culture = goryeo
+	father = joseon_101
+	1265.1.1 = {
+		birth = yes
+	}
+	1342.7.24 = {
+		death = yes
+	}
+}
+joseon_103 = {
+	name = "Cha-chun"
+	dynasty = korean_i_jeonju
+	religion = avatamsaka
+	culture = goryeo
+	father = joseon_102
+	1315.1.20 = {
+		birth = yes
+	}
+	1361.6.3 = {
+		death = yes
+	}
+}
+####################

@@ -99,11 +99,26 @@ clear_personal_union_effect = {
 
 # The setup_tributaries_effect is invoked by on_game_start and should make calls to subsequent scripted effects.
 vk_setup_tributaries_effect = {
+	if = {
+		limit = { has_tgp_dlc_trigger = yes }
+		if = {
+			limit = { current_date < 1914.7.28 }
+			tgp_pre_1914_tributary_setup_effect = yes
+		}
+	}
    	if = {
 		limit = {
 			current_date = 1861.7.1
 		}
 		base_1861_tributary_setup_effect = yes
+	}
+}
+tgp_pre_1914_tributary_setup_effect = {
+	title:h_china.holder = {
+		save_scope_as = suzerain
+		title:e_goryeo.holder = {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
 	}
 }
 base_1861_tributary_setup_effect = {

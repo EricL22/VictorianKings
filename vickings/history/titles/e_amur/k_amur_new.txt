@@ -1,0 +1,470 @@
+d_eman_boli = {
+	1799.2.7 = {	# China
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1860.11.14 = {	# Russia
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_eman_boli = {
+	1799.2.7 = {	# China
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1860.11.14 = {	# Russia
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_eman_molihewen = {
+	1799.2.7 = {	# China
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1860.11.14 = {	# Russia
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_eman_mohean = {
+	1799.2.7 = {	# China
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1860.11.14 = {	# Russia
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_eman_choripi = {
+	1799.2.7 = {	# China
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1858.6.1 = {	# Russia
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+#d_eman_sikhotebei = {
+#}
+c_eman_yerenhe = {
+	1799.2.7 = {	# China
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1860.11.14 = {	# Russia
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_eman_wuguihai = {
+	1799.2.7 = {	# China
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1860.11.14 = {	# Russia
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_eman_heishuiyang = {
+	1799.2.7 = {	# China
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1860.11.14 = {	# Russia
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_eman_beihean = {
+	1799.2.7 = {	# China
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1860.11.14 = {	# Russia
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+#d_eman_samagero = {
+#}
+c_eman_tudali = {
+	1799.2.7 = {	# China
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1858.6.1 = {	# Russia
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_eman_yam_alin = {
+	1799.2.7 = {	# China
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1858.6.1 = {	# Russia
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_eman_khadul = {
+	1799.2.7 = {	# China
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1858.6.1 = {	# Russia
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_eman_kerin = {
+	1799.2.7 = {	# China
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1858.6.1 = {	# Russia
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+#d_eman_nivkhia = {
+#}
+c_eman_nurgan = {
+	1799.2.7 = {	# China
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1860.11.14 = {	# Russia
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_eman_amgun = {
+	1799.2.7 = {	# China
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1858.6.1 = {	# Russia
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_eman_tugur = {
+	1799.2.7 = {	# China
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1858.6.1 = {	# Russia
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+#d_eman_amar = {
+#}
+c_eman_murkonno = {
+	1799.2.7 = {	# China
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1858.6.1 = {	# Russia
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_eman_urmi = {
+	1799.2.7 = {	# China
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1858.6.1 = {	# Russia
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_eman_vanda = {
+	1799.2.7 = {	# China
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1858.6.1 = {	# Russia
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_eman_nimen = {
+	1799.2.7 = {	# China
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1858.6.1 = {	# Russia
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+#d_eman_bureya = {
+#}
+c_eman_turma = {
+	1799.2.7 = {	# China
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1858.6.1 = {	# Russia
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_eman_birija = {
+	1799.2.7 = {	# China
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1858.6.1 = {	# Russia
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_eman_urehokto = {
+	1799.2.7 = {	# China
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1858.6.1 = {	# Russia
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}

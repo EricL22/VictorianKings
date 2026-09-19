@@ -1,0 +1,428 @@
+d_BAL_parhae = {
+	1799.2.7 = {
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+c_BAL_yongcheon = {
+	1799.2.7 = {
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+c_BAL_west_hyeondeok = {
+	1799.2.7 = {
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+c_BAL_east_hyeondeok = {
+	1799.2.7 = {
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+c_BAL_dongju = {
+	1799.2.7 = {
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+c_BAL_yeongju = {
+	1799.2.7 = {
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+d_BAL_moe_su = {
+	1799.2.7 = {
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+c_BAL_makhil = {
+	1799.2.7 = {
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+c_BAL_west_makhil = {
+	1799.2.7 = {
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+c_BAL_sokju = {
+	1799.2.7 = {
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+d_BAL_buyeo = {
+	1799.2.7 = {
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+c_BAL_changchun = {
+	1799.2.7 = {
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+c_BAL_fuzhou = {
+	1799.2.7 = {
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+c_BAL_yizhou = {
+	1799.2.7 = {
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+c_BAL_xinzhou = {
+	1799.2.7 = {
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+d_BAL_amnok_jangryeong = {
+	1799.2.7 = {
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+c_BAL_east_amnok = {
+	1799.2.7 = {
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+c_BAL_west_amnok = {
+	1799.2.7 = {
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+c_BAL_east_jangryeong = {
+	1799.2.7 = {
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+c_BAL_west_jangryeong = {
+	1799.2.7 = {
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+d_BAL_southern_balhae = {
+	1400.1.1 = {
+		de_jure_liege = k_goguryeo
+	}
+}
+c_BAL_namhae = {
+	1800.8.18 = {	# Korea
+		holder = joseon_26	# Sunjo
+	}
+	1834.12.18 = {
+		holder = joseon_28	# Heonjong
+	}
+	1849.7.25 = {
+		holder = joseon_31	# Cheoljong
+	}
+}
+c_BAL_fengzhou = {
+	1800.8.18 = {	# Korea
+		holder = joseon_26	# Sunjo
+	}
+	1834.12.18 = {
+		holder = joseon_28	# Heonjong
+	}
+	1849.7.25 = {
+		holder = joseon_31	# Cheoljong
+	}
+}
+c_BAL_southyongwon = {
+	1800.8.18 = {	# Korea
+		holder = joseon_26	# Sunjo
+	}
+	1834.12.18 = {
+		holder = joseon_28	# Heonjong
+	}
+	1849.7.25 = {
+		holder = joseon_31	# Cheoljong
+	}
+}
+c_BAL_northyongwon = {
+	1799.2.7 = {
+		holder = qing_6	# Jiaqing of Qing
+		de_jure_liege = d_BAL_parhae
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+c_kanggye = {
+	1800.8.18 = {	# Korea
+		holder = joseon_26	# Sunjo
+	}
+	1834.12.18 = {
+		holder = joseon_28	# Heonjong
+	}
+	1849.7.25 = {
+		holder = joseon_31	# Cheoljong
+	}
+}
+d_LIAO_dongjing = {
+	1799.2.7 = {
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+c_LIAO_shenyang = {
+	1799.2.7 = {
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+c_LIAO_yinzhou = {
+	1799.2.7 = {
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+c_LIAO_zhenzhou = {
+	1799.2.7 = {
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+c_LIAO_diezhou = {
+	1799.2.7 = {
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+c_LIAO_guidezhou = {
+	1799.2.7 = {
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}

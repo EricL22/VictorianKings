@@ -1,0 +1,34 @@
+﻿c_nf_yi_jeonju = {
+	1800.8.18 = {
+		holder = joseon_26	# Sunjo
+	}
+	1812.7.5 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1812.7.5 }
+		}
+	}
+	1815.7.8 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1815.7.8 }
+		}
+	}
+	1834.12.18 = {
+		holder = joseon_28	# Heonjong
+	}
+	1836.1.1 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1836.1.1 }
+		}
+	}
+	1849.7.25 = {
+		holder = joseon_31	# Cheoljong
+	}
+	1861.7.1 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1861.7.1 }
+		}
+	}
+	1910.8.29 = {
+		holder = 0
+	}
+}
