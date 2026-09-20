@@ -117,7 +117,7 @@ qing_6 = {
 }
 
 qing_7 = {
-	name = "Minning"
+	name = "Mianning"
 	dynasty = aisin_gioro
 	culture = manchu
 	religion = daoxue
@@ -135,6 +135,7 @@ qing_7 = {
 		add_realm_law_skip_effects = crown_authority_1
 		add_gold = 3000
 		set_realm_capital = title:c_youzhou
+		name = "Minning"
 	}
 	1850.2.26 = {
 #		name = "Xuanzong"

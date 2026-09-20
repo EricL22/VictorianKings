@@ -147,6 +147,81 @@ e_yongliang = {
 	}
 }
 
+e_jingyang = {
+	1647.1.1 = {
+		name = liangjiang
+	}
+	1811.7.27 = {
+		holder = liangjiang_0	# Bailing
+		liege = h_china
+	}
+	1830.10.11 = {
+		holder = liangjiang_1	# Tao Zhu
+	}
+	1860.8.10 = {
+		holder = liangjiang_2	# Zeng Guofan
+	}
+	1912.2.12 = {
+		holder = 0
+	}
+}
+
+e_lingnan = {
+	1644.1.1 = {
+		name = liangguang
+	}
+	1811.11.5 = {
+		holder = liangguang_0	# Jiang Youxian
+		liege = h_china
+	}
+	1835.10.15 = {
+		holder = liangguang_1	# Deng Tingzhen
+	}
+	1859.10.7 = {
+		holder = liangguang_2	# Lao Chongguang
+	}
+	1912.2.12 = {
+		holder = 0
+	}
+}
+
+e_liangyi = {
+	1644.1.1 = {
+		name = sichuan
+	}
+}
+
+e_minzhe = {
+	1645.1.1 = {
+		de_jure_liege = h_china
+	}
+}
+
+e_huguang = {
+	1644.1.1 = {
+		de_jure_liege = h_china
+	}
+	1810.9.1 = {
+		holder = huguang_0	# Ma Huiyu
+		liege = h_china
+	}
+	1832.1.1 = {
+		holder = huguang_1	# Nergingge
+	}
+	1855.6.1 = {
+		holder = huguang_2	# Guanwen
+	}
+	1912.2.12 = {
+		holder = 0
+	}
+}
+
+e_yungui = {
+	1659.1.1 = {
+		de_jure_liege = h_china
+	}
+}
+
 k_hedong = {
 	1640.1.1 = {
 		name = shanxi
@@ -168,68 +243,54 @@ k_hedong = {
 }
 
 k_jiangxi = {
-	867.1.1 = { change_development_level = 8 }
-	1066.1.1 = { change_development_level = 12 }
-	1178.1.1 = { change_development_level = 16 }
-
-	867.1.1 = {
-		holder = han_2796
-		liege = h_china
-		government = celestial_government
+	1811.7.27 = {
+		holder = liangjiang_0	# Bailing
 	}
-	1066.1.1 = {
-		holder = han_6747
-		liege = h_china
-		government = celestial_government
+	1830.10.11 = {
+		holder = liangjiang_1	# Tao Zhu
 	}
-	1178.1.1 = {
-		holder = han_11474
-		liege = h_china
-		government = celestial_government
+	1860.8.10 = {
+		holder = liangjiang_2	# Zeng Guofan
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 k_shannan = {
-	867.1.1 = { change_development_level = 8 }
-	1066.1.1 = { change_development_level = 12 }
-	1178.1.1 = { change_development_level = 16 }
-
-	867.1.1 = {
-		holder = han_2486
-		liege = h_china
-		government = celestial_government
+	1640.1.1 = {
+		name = hubei
+		de_jure_liege = e_huguang
 	}
-	1066.1.1 = {
-		holder = han_6442
-		liege = h_china
-		government = celestial_government
+	1810.9.1 = {
+		holder = huguang_0	# Ma Huiyu
 	}
-	1178.1.1 = {
-		holder = han_11204
-		liege = h_china
-		government = celestial_government
+	1832.1.1 = {
+		holder = huguang_1	# Nergingge
+	}
+	1855.6.1 = {
+		holder = huguang_2	# Guanwen
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 k_hunan = {
-	867.1.1 = { change_development_level = 8 }
-	1066.1.1 = { change_development_level = 12 }
-	1178.1.1 = { change_development_level = 16 }
-
-	867.1.1 = {
-		holder = han_2527
-		liege = h_china
-		government = celestial_government
+	1640.1.1 = {
+		de_jure_liege = e_huguang
 	}
-	1066.1.1 = {
-		holder = han_5253
-		liege = h_china
-		government = celestial_government
+	1810.9.1 = {
+		holder = huguang_0	# Ma Huiyu
 	}
-	1178.1.1 = {
-		holder = han_12371
-		liege = h_china
-		government = celestial_government
+	1832.1.1 = {
+		holder = huguang_1	# Nergingge
+	}
+	1855.6.1 = {
+		holder = huguang_2	# Guanwen
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
@@ -321,50 +382,46 @@ k_kuizhou = {
 	}
 }
 
-#k_qianzhong = {
-#}
+k_qianzhong = {
+	1640.1.1 = {
+		name = guizhou
+		de_jure_liege = e_yungui
+	}
+}
 
 k_lingnan = {
-	867.1.1 = { change_development_level = 8 }
-	1066.1.1 = { change_development_level = 8 }
-	1178.1.1 = { change_development_level = 16 }
-
-	867.1.1 = {
-		holder = han_2821
-		liege = h_china
-		government = celestial_government
+	1640.1.1 = {
+		name = guangdong
 	}
-	1066.1.1 = {
-		holder = han_6444
-		liege = h_china
-		government = celestial_government
+	1811.11.5 = {
+		holder = liangguang_0	# Jiang Youxian
 	}
-	1178.1.1 = {
-		holder = han_11544
-		liege = h_china
-		government = celestial_government
+	1835.10.15 = {
+		holder = liangguang_1	# Deng Tingzhen
+	}
+	1859.10.7 = {
+		holder = liangguang_2	# Lao Chongguang
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 k_lingxi = {
-	867.1.1 = { change_development_level = 8 }
-	1066.1.1 = { change_development_level = 8 }
-	1178.1.1 = { change_development_level = 16 }
-
-	867.1.1 = {
-		holder = han_2916
-		liege = h_china
-		government = celestial_government
+	1640.1.1 = {
+		name = guangxi
 	}
-	1066.1.1 = {
-		holder = han_6162
-		liege = h_china
-		government = celestial_government
+	1811.11.5 = {
+		holder = liangguang_0	# Jiang Youxian
 	}
-	1178.1.1 = {
-		holder = han_11293
-		liege = h_china
-		government = celestial_government
+	1835.10.15 = {
+		holder = liangguang_1	# Deng Tingzhen
+	}
+	1859.10.7 = {
+		holder = liangguang_2	# Lao Chongguang
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
@@ -376,68 +433,33 @@ k_daibei = {
 }
 
 k_jiangdong = {
-	867.1.1 = { change_development_level = 8 }
-	1066.1.1 = { change_development_level = 12 }
-	1178.1.1 = { change_development_level = 16 }
-
-	867.1.1 = {
-		holder = han_2766
-		liege = h_china
-		government = celestial_government
+	1666.1.1 = {
+		name = jiangsu
 	}
-	1066.1.1 = {
-		holder = han_6465
-		liege = h_china
-		government = celestial_government
+	1811.7.27 = {
+		holder = liangjiang_0	# Bailing
 	}
-	1178.1.1 = {
-		holder = han_11477
-		liege = h_china
-		government = celestial_government
+	1830.10.11 = {
+		holder = liangjiang_1	# Tao Zhu
+	}
+	1860.8.10 = {
+		holder = liangjiang_2	# Zeng Guofan
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 k_liangzhe = {
-	867.1.1 = { change_development_level = 8 }
-	1066.1.1 = { change_development_level = 12 }
-	1178.1.1 = { change_development_level = 16 }
-
-	867.1.1 = {
-		holder = han_3185
-		liege = h_china
-		government = celestial_government
-	}
-	1066.1.1 = {
-		holder = han_6963
-		liege = h_china
-		government = celestial_government
-	}
-	1178.1.1 = {
-		holder = han_11805
-		liege = h_china
-		government = celestial_government
+	1640.1.1 = {
+		name = zhejiang
+		de_jure_liege = e_minzhe
 	}
 }
 
 k_fujian = {
-	867.1.1 = { change_development_level = 8 }
-	1066.1.1 = { change_development_level = 12 }
-	1178.1.1 = { change_development_level = 16 }
-
-	867.1.1 = {
-		holder = han_2090
-		liege = h_china
-		government = celestial_government
-	}
-	1066.1.1 = {
-		holder = han_6547
-		liege = h_china
-		government = celestial_government
-	}
-	1178.1.1 = {
-		holder = han_11336
-		liege = h_china
-		government = celestial_government
+	1640.1.1 = {
+		de_jure_liege = e_minzhe
 	}
 }
 
@@ -447,6 +469,18 @@ k_huainan = {
 		effect = {
 			set_capital_county = title:c_shuzhou
 		}
+	}
+	1811.7.27 = {
+		holder = liangjiang_0	# Bailing
+	}
+	1830.10.11 = {
+		holder = liangjiang_1	# Tao Zhu
+	}
+	1860.8.10 = {
+		holder = liangjiang_2	# Zeng Guofan
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
@@ -538,22 +572,8 @@ k_hexi = {
 	}
 }
 
-k_raole = {
-	867.1.1 = { change_development_level = 4 }
-	1066.1.1 = { change_development_level = 6 }
-	1178.1.1 = { change_development_level = 8 }
-
-	1066.1.1 = {
-		holder = nn_yelu_liang
-		government = steppe_admin_government
-		liege = e_great_liao
-	}
-	1178.1.1 = {
-		holder = jurchen_administrator_4
-		government = steppe_admin_government
-		liege = e_jin
-	}
-}
+#k_raole = {
+#}
 
 k_youji = {
 	1800.1.1 = {
@@ -571,7 +591,7 @@ k_henan = {
 		holder = henan_1	# Fang Shouchou
 	}
 	1834.1.1 = {
-		holder = henan_2	# Guiliyang
+		holder = henan_2	# Guiliang
 	}
 	1861.1.1 = {
 		holder = henan_3	# Yan Shusen
@@ -589,7 +609,7 @@ d_dongji = {
 		holder = henan_1	# Fang Shouchou
 	}
 	1834.1.1 = {
-		holder = henan_2	# Guiliyang
+		holder = henan_2	# Guiliang
 	}
 	1861.1.1 = {
 		holder = henan_3	# Yan Shusen
@@ -607,7 +627,7 @@ c_henan = {
 		holder = henan_1	# Fang Shouchou
 	}
 	1834.1.1 = {
-		holder = henan_2	# Guiliyang
+		holder = henan_2	# Guiliang
 	}
 	1861.1.1 = {
 		holder = henan_3	# Yan Shusen
@@ -625,7 +645,7 @@ c_ruzhou = {
 		holder = henan_1	# Fang Shouchou
 	}
 	1834.1.1 = {
-		holder = henan_2	# Guiliyang
+		holder = henan_2	# Guiliang
 	}
 	1861.1.1 = {
 		holder = henan_3	# Yan Shusen
@@ -643,7 +663,7 @@ d_biansong = {
 		holder = henan_1	# Fang Shouchou
 	}
 	1834.1.1 = {
-		holder = henan_2	# Guiliyang
+		holder = henan_2	# Guiliang
 	}
 	1861.1.1 = {
 		holder = henan_3	# Yan Shusen
@@ -661,7 +681,7 @@ c_bianzhou = {
 		holder = henan_1	# Fang Shouchou
 	}
 	1834.1.1 = {
-		holder = henan_2	# Guiliyang
+		holder = henan_2	# Guiliang
 	}
 	1861.1.1 = {
 		holder = henan_3	# Yan Shusen
@@ -679,7 +699,7 @@ c_songzhou = {
 		holder = henan_1	# Fang Shouchou
 	}
 	1834.1.1 = {
-		holder = henan_2	# Guiliyang
+		holder = henan_2	# Guiliang
 	}
 	1861.1.1 = {
 		holder = henan_3	# Yan Shusen
@@ -697,7 +717,7 @@ c_shanzhou = {
 		holder = henan_1	# Fang Shouchou
 	}
 	1834.1.1 = {
-		holder = henan_2	# Guiliyang
+		holder = henan_2	# Guiliang
 	}
 	1861.1.1 = {
 		holder = henan_3	# Yan Shusen
@@ -715,7 +735,7 @@ c_bozhou = {
 		holder = henan_1	# Fang Shouchou
 	}
 	1834.1.1 = {
-		holder = henan_2	# Guiliyang
+		holder = henan_2	# Guiliang
 	}
 	1861.1.1 = {
 		holder = henan_3	# Yan Shusen
@@ -733,7 +753,7 @@ c_yingzhou = {
 		holder = henan_1	# Fang Shouchou
 	}
 	1834.1.1 = {
-		holder = henan_2	# Guiliyang
+		holder = henan_2	# Guiliang
 	}
 	1861.1.1 = {
 		holder = henan_3	# Yan Shusen
@@ -751,7 +771,7 @@ d_shanguo = {
 		holder = henan_1	# Fang Shouchou
 	}
 	1834.1.1 = {
-		holder = henan_2	# Guiliyang
+		holder = henan_2	# Guiliang
 	}
 	1861.1.1 = {
 		holder = henan_3	# Yan Shusen
@@ -769,7 +789,7 @@ c_shanzhou_2 = {
 		holder = henan_1	# Fang Shouchou
 	}
 	1834.1.1 = {
-		holder = henan_2	# Guiliyang
+		holder = henan_2	# Guiliang
 	}
 	1861.1.1 = {
 		holder = henan_3	# Yan Shusen
@@ -787,7 +807,7 @@ c_guozhou = {
 		holder = henan_1	# Fang Shouchou
 	}
 	1834.1.1 = {
-		holder = henan_2	# Guiliyang
+		holder = henan_2	# Guiliang
 	}
 	1861.1.1 = {
 		holder = henan_3	# Yan Shusen
@@ -805,7 +825,7 @@ d_zhenghua = {
 		holder = henan_1	# Fang Shouchou
 	}
 	1834.1.1 = {
-		holder = henan_2	# Guiliyang
+		holder = henan_2	# Guiliang
 	}
 	1861.1.1 = {
 		holder = henan_3	# Yan Shusen
@@ -823,7 +843,7 @@ c_huazhou = {
 		holder = henan_1	# Fang Shouchou
 	}
 	1834.1.1 = {
-		holder = henan_2	# Guiliyang
+		holder = henan_2	# Guiliang
 	}
 	1861.1.1 = {
 		holder = henan_3	# Yan Shusen
@@ -841,7 +861,7 @@ c_zhengzhou = {
 		holder = henan_1	# Fang Shouchou
 	}
 	1834.1.1 = {
-		holder = henan_2	# Guiliyang
+		holder = henan_2	# Guiliang
 	}
 	1861.1.1 = {
 		holder = henan_3	# Yan Shusen
@@ -859,7 +879,7 @@ d_chenxu = {
 		holder = henan_1	# Fang Shouchou
 	}
 	1834.1.1 = {
-		holder = henan_2	# Guiliyang
+		holder = henan_2	# Guiliang
 	}
 	1861.1.1 = {
 		holder = henan_3	# Yan Shusen
@@ -877,7 +897,7 @@ c_yingchuan = {
 		holder = henan_1	# Fang Shouchou
 	}
 	1834.1.1 = {
-		holder = henan_2	# Guiliyang
+		holder = henan_2	# Guiliang
 	}
 	1861.1.1 = {
 		holder = henan_3	# Yan Shusen
@@ -895,7 +915,7 @@ c_huaining = {
 		holder = henan_1	# Fang Shouchou
 	}
 	1834.1.1 = {
-		holder = henan_2	# Guiliyang
+		holder = henan_2	# Guiliang
 	}
 	1861.1.1 = {
 		holder = henan_3	# Yan Shusen
@@ -913,7 +933,7 @@ c_caizhou = {
 		holder = henan_1	# Fang Shouchou
 	}
 	1834.1.1 = {
-		holder = henan_2	# Guiliyang
+		holder = henan_2	# Guiliang
 	}
 	1861.1.1 = {
 		holder = henan_3	# Yan Shusen
@@ -931,7 +951,7 @@ c_shenzhou = {
 		holder = henan_1	# Fang Shouchou
 	}
 	1834.1.1 = {
-		holder = henan_2	# Guiliyang
+		holder = henan_2	# Guiliang
 	}
 	1861.1.1 = {
 		holder = henan_3	# Yan Shusen
@@ -1125,88 +1145,95 @@ c_haizhou = {
 	1800.1.1 = {
 		de_jure_liege = d_xusi
 	}
+	1811.7.27 = {
+		holder = liangjiang_0	# Bailing
+	}
+	1830.10.11 = {
+		holder = liangjiang_1	# Tao Zhu
+	}
+	1860.8.10 = {
+		holder = liangjiang_2	# Zeng Guofan
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
 }
 
 d_xusi = {
 	1800.1.1 = {
 		de_jure_liege = k_jiangdong
 	}
+	1811.7.27 = {
+		holder = liangjiang_0	# Bailing
+	}
+	1830.10.11 = {
+		holder = liangjiang_1	# Tao Zhu
+	}
+	1860.8.10 = {
+		holder = liangjiang_2	# Zeng Guofan
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
 }
 
 c_xuzhou_1 = {
-	867.1.1 = { change_development_level = 12 }
-	1066.1.1 = { change_development_level = 16 }
-
-	867.1.1 = {
-		holder = han_2528
-		liege = d_xusi
-		government = celestial_government
+	1811.7.27 = {
+		holder = liangjiang_0	# Bailing
 	}
-	1066.1.1 = {
-		holder = han_6286
-		liege = d_xusi
-		government = celestial_government
+	1830.10.11 = {
+		holder = liangjiang_1	# Tao Zhu
 	}
-	1178.1.1 = {
-		holder = jurchen_magistrate_fic_22
-		government = steppe_admin_government
+	1860.8.10 = {
+		holder = liangjiang_2	# Zeng Guofan
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_huaiyang = {
-	867.1.1 = {
-		holder = han_2528
-		liege = d_xusi
-		government = celestial_government
+	1811.7.27 = {
+		holder = liangjiang_0	# Bailing
 	}
-	1066.1.1 = {
-		holder = han_6392
-		liege = d_xusi
-		government = celestial_government
+	1830.10.11 = {
+		holder = liangjiang_1	# Tao Zhu
 	}
-	1178.1.1 = {
-		holder = jurchen_magistrate_fic_23
-		government = steppe_admin_government
-		liege = d_xusi
+	1860.8.10 = {
+		holder = liangjiang_2	# Zeng Guofan
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_suzhou = {
-	867.1.1 = { change_development_level = 12 }
-	1066.1.1 = { change_development_level = 16 }
-
-	867.1.1 = {
-		holder = han_2528
-		liege = d_xusi
-		government = celestial_government
+	1811.7.27 = {
+		holder = liangjiang_0	# Bailing
 	}
-	1066.1.1 = {
-		holder = han_6286
-		liege = d_xusi
-		government = celestial_government
+	1830.10.11 = {
+		holder = liangjiang_1	# Tao Zhu
 	}
-	1178.1.1 = {
-		holder = jurchen_magistrate_fic_76
-		government = steppe_admin_government
-		liege = d_xusi
+	1860.8.10 = {
+		holder = liangjiang_2	# Zeng Guofan
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_sizhou_2 = {
-	867.1.1 = {
-		holder = han_3024
-		liege = d_xusi
-		government = celestial_government
+	1811.7.27 = {
+		holder = liangjiang_0	# Bailing
 	}
-	1066.1.1 = {
-		holder = han_6432
-		liege = d_xusi
-		government = celestial_government
+	1830.10.11 = {
+		holder = liangjiang_1	# Tao Zhu
 	}
-	1178.1.1 = {
-		holder = jurchen_magistrate_fic_24
-		government = steppe_admin_government
-		liege = d_xusi
+	1860.8.10 = {
+		holder = liangjiang_2	# Zeng Guofan
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
@@ -3250,154 +3277,87 @@ c_ziting = {
 	}
 }
 
-d_aksay = {
-	867.1.1 = {
-		holder = tuyuhun0006
-	}
-	1066.1.1 = {
-		holder = 12204
-		liege = k_hexi
-	}
-	1178.1.1 = {
-		holder = tangut0014
-	}
-}
+#d_aksay = {
+#}
 
-c_aksay = {
-	867.1.1 = {
-		holder = tuyuhun0006
-		liege = d_aksay
-		government = celestial_government
-	}
-	1066.1.1 = {
-		holder = 12204
-		liege = d_aksay
-		government = meritocratic_government
-	}
-	1178.1.1 = {
-		holder = tangut0014
-	}
-}
+#c_aksay = {
+#}
 
-c_haltang = {
-	867.1.1 = {
-		holder = tuyuhun0006
-		liege = d_aksay
-		government = celestial_government
-	}
-	1066.1.1 = {
-		holder = 12204
-		liege = d_aksay
-		government = meritocratic_government
-	}
-	1178.1.1 = {
-		holder = tangut0014
-	}
-}
+#c_haltang = {
+#}
 
 d_jiangdong = {
-	867.1.1 = {
-		holder = han_2766
-		liege = k_jiangdong
-		government = celestial_government
+	1811.7.27 = {
+		holder = liangjiang_0	# Bailing
 	}
-	1066.1.1 = {
-		holder = han_6465
-		liege = k_jiangdong
-		government = celestial_government
+	1830.10.11 = {
+		holder = liangjiang_1	# Tao Zhu
 	}
-	1178.1.1 = {
-		holder = han_11477
-		liege = k_jiangdong
-		government = celestial_government
+	1860.8.10 = {
+		holder = liangjiang_2	# Zeng Guofan
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_jiangning = {
-	867.1.1 = { change_development_level = 16 }
-	1066.1.1 = { change_development_level = 20 }
-	1178.1.1 = { change_development_level = 40 }
-
-	867.1.1 = {
-		holder = han_2766
-		liege = d_jiangdong
-		government = celestial_government
+	1811.7.27 = {
+		holder = liangjiang_0	# Bailing
 	}
-	1066.1.1 = {
-		holder = han_6465
-		liege = d_jiangdong
-		government = celestial_government
+	1830.10.11 = {
+		holder = liangjiang_1	# Tao Zhu
 	}
-	1178.1.1 = {
-		holder = han_11477
-		liege = d_jiangdong
-		government = celestial_government
+	1860.8.10 = {
+		holder = liangjiang_2	# Zeng Guofan
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_runzhou = {
-	867.1.1 = { change_development_level = 16 }
-	1066.1.1 = { change_development_level = 14 }
-	1178.1.1 = { change_development_level = 40 }
-
-	867.1.1 = {
-		holder = han_2737
-		liege = d_jiangdong
-		government = celestial_government
+	1811.7.27 = {
+		holder = liangjiang_0	# Bailing
 	}
-	1066.1.1 = {
-		holder = han_7424
-		liege = d_jiangdong
-		government = celestial_government
+	1830.10.11 = {
+		holder = liangjiang_1	# Tao Zhu
 	}
-	1178.1.1 = {
-		holder = han_11473
-		liege = d_jiangdong
-		government = celestial_government
+	1860.8.10 = {
+		holder = liangjiang_2	# Zeng Guofan
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_changzhou = {
-	867.1.1 = { change_development_level = 16 }
-	1066.1.1 = { change_development_level = 14 }
-	1178.1.1 = { change_development_level = 40 }
-
-	867.1.1 = {
-		holder = han_2769
-		liege = d_jiangdong
-		government = celestial_government
+	1811.7.27 = {
+		holder = liangjiang_0	# Bailing
 	}
-	1066.1.1 = {
-		holder = han_7417
-		liege = d_jiangdong
-		government = celestial_government
+	1830.10.11 = {
+		holder = liangjiang_1	# Tao Zhu
 	}
-	1178.1.1 = {
-		holder = han_11469
-		liege = d_jiangdong
-		government = celestial_government
+	1860.8.10 = {
+		holder = liangjiang_2	# Zeng Guofan
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_suzhou_2 = {
-	867.1.1 = { change_development_level = 16 }
-	1066.1.1 = { change_development_level = 20 }
-	1178.1.1 = { change_development_level = 40 }
-
-	867.1.1 = {
-		holder = han_2756
-		liege = d_jiangdong
-		government = celestial_government
+	1811.7.27 = {
+		holder = liangjiang_0	# Bailing
 	}
-	1066.1.1 = {
-		holder = han_7375
-		liege = d_jiangdong
-		government = celestial_government
+	1830.10.11 = {
+		holder = liangjiang_1	# Tao Zhu
 	}
-	1178.1.1 = {
-		holder = han_11535
-		liege = d_jiangdong
-		government = celestial_government
+	1860.8.10 = {
+		holder = liangjiang_2	# Zeng Guofan
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
@@ -3405,91 +3365,77 @@ d_xuanshe = {
 	1800.1.1 = {
 		de_jure_liege = k_huainan
 	}
+	1811.7.27 = {
+		holder = liangjiang_0	# Bailing
+	}
+	1830.10.11 = {
+		holder = liangjiang_1	# Tao Zhu
+	}
+	1860.8.10 = {
+		holder = liangjiang_2	# Zeng Guofan
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
 }
 
 c_xuanzhou = {
-	867.1.1 = { change_development_level = 14 }
-	1178.1.1 = { change_development_level = 30 }
-	1178.1.1 = { change_development_level = 40 }
-
-	867.1.1 = {
-		holder = han_3081
-		liege = d_xuanshe
-		government = celestial_government
+	1811.7.27 = {
+		holder = liangjiang_0	# Bailing
 	}
-	1066.1.1 = {
-		holder = han_6434
-		liege = d_xuanshe
-		government = celestial_government
+	1830.10.11 = {
+		holder = liangjiang_1	# Tao Zhu
 	}
-	1178.1.1 = {
-		holder = han_11191
-		liege = d_xuanshe
-		government = celestial_government
+	1860.8.10 = {
+		holder = liangjiang_2	# Zeng Guofan
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_chizhou = {
-	867.1.1 = { change_development_level = 12 }
-	1066.1.1 = { change_development_level = 14 }
-	1178.1.1 = { change_development_level = 24 }
-
-	867.1.1 = {
-		holder = han_2750
-		liege = d_xuanshe
-		government = celestial_government
+	1811.7.27 = {
+		holder = liangjiang_0	# Bailing
 	}
-	1066.1.1 = {
-		holder = han_7374
-		liege = d_xuanshe
-		government = celestial_government
+	1830.10.11 = {
+		holder = liangjiang_1	# Tao Zhu
 	}
-	1178.1.1 = {
-		holder = han_11514
-		liege = d_xuanshe
-		government = celestial_government
+	1860.8.10 = {
+		holder = liangjiang_2	# Zeng Guofan
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_shezhou = {
-	1178.1.1 = { change_development_level = 24 }
-
-	867.1.1 = {
-		holder = han_3081
-		liege = d_xuanshe
-		government = celestial_government
+	1811.7.27 = {
+		holder = liangjiang_0	# Bailing
 	}
-	1066.1.1 = {
-		holder = han_6434
-		liege = d_xuanshe
-		government = celestial_government
+	1830.10.11 = {
+		holder = liangjiang_1	# Tao Zhu
 	}
-	1178.1.1 = {
-		holder = han_11513
-		liege = d_xuanshe
-		government = celestial_government
+	1860.8.10 = {
+		holder = liangjiang_2	# Zeng Guofan
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_guangde = {
-	867.1.1 = { change_development_level = 14 }
-	1066.1.1 = { change_development_level = 20 }
-	1178.1.1 = { change_development_level = 40 }
-
-	867.1.1 = {
-		holder = han_3081
-		liege = d_xuanshe
-		government = celestial_government
+	1811.7.27 = {
+		holder = liangjiang_0	# Bailing
 	}
-	1066.1.1 = {
-		holder = han_6352
-		liege = d_xuanshe
-		government = celestial_government
+	1830.10.11 = {
+		holder = liangjiang_1	# Tao Zhu
 	}
-	1178.1.1 = {
-		holder = han_11191
-		liege = d_xuanshe
-		government = celestial_government
+	1860.8.10 = {
+		holder = liangjiang_2	# Zeng Guofan
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
@@ -3994,1188 +3940,924 @@ d_huainan = {
 	1800.1.1 = {
 		de_jure_liege = k_jiangdong
 	}
+	1811.7.27 = {
+		holder = liangjiang_0	# Bailing
+	}
+	1830.10.11 = {
+		holder = liangjiang_1	# Tao Zhu
+	}
+	1860.8.10 = {
+		holder = liangjiang_2	# Zeng Guofan
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
 }
 
 c_yangzhou = {
-	1178.1.1 = { change_development_level = 20 }
-
-	867.1.1 = {
-		holder = han_2329
-		liege = d_huainan
-		government = celestial_government
+	1811.7.27 = {
+		holder = liangjiang_0	# Bailing
 	}
-	1066.1.1 = {
-		holder = han_6443
-		liege = d_huainan
-		government = celestial_government
+	1830.10.11 = {
+		holder = liangjiang_1	# Tao Zhu
 	}
-	1178.1.1 = {
-		holder = han_11673
-		liege = d_huainan
-		government = celestial_government
+	1860.8.10 = {
+		holder = liangjiang_2	# Zeng Guofan
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_taizhou_1 = {
-	1178.1.1 = { change_development_level = 20 }
-
-	867.1.1 = {
-		holder = han_2912
-		liege = d_huainan
-		government = celestial_government
+	1811.7.27 = {
+		holder = liangjiang_0	# Bailing
 	}
-	1066.1.1 = {
-		holder = han_6447
-		liege = d_huainan
-		government = celestial_government
+	1830.10.11 = {
+		holder = liangjiang_1	# Tao Zhu
 	}
-	1178.1.1 = {
-		holder = han_11673
-		liege = d_huainan
-		government = celestial_government
+	1860.8.10 = {
+		holder = liangjiang_2	# Zeng Guofan
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_chuzhou_1 = {
-	1178.1.1 = { change_development_level = 20 }
-
-	867.1.1 = {
-		holder = han_2909
-		liege = d_huainan
-		government = celestial_government
+	1811.7.27 = {
+		holder = liangjiang_0	# Bailing
 	}
-	1066.1.1 = {
-		holder = han_6510
-		liege = d_huainan
-		government = celestial_government
+	1830.10.11 = {
+		holder = liangjiang_1	# Tao Zhu
 	}
-	1178.1.1 = {
-		holder = han_11663
-		liege = d_huainan
-		government = celestial_government
+	1860.8.10 = {
+		holder = liangjiang_2	# Zeng Guofan
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_chuzhou_2 = {
-	1066.1.1 = { change_development_level = 14 }
-
-	867.1.1 = {
-		holder = han_2902
-		liege = d_huainan
-		government = celestial_government
+	1811.7.27 = {
+		holder = liangjiang_0	# Bailing
 	}
-	1066.1.1 = {
-		holder = han_6484
-		liege = d_huainan
-		government = celestial_government
+	1830.10.11 = {
+		holder = liangjiang_1	# Tao Zhu
 	}
-	1178.1.1 = {
-		holder = han_11662
-		liege = d_huainan
-		government = celestial_government
+	1860.8.10 = {
+		holder = liangjiang_2	# Zeng Guofan
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 d_huaixi = {
-	867.1.1 = {
-		holder = han_3116
-		liege = k_huainan
-		government = celestial_government
+	1811.7.27 = {
+		holder = liangjiang_0	# Bailing
 	}
-	1066.1.1 = {
-		holder = han_6490
-		liege = k_huainan
-		government = celestial_government
+	1830.10.11 = {
+		holder = liangjiang_1	# Tao Zhu
 	}
-	1178.1.1 = {
-		holder = han_11212
-		liege = k_huainan
-		government = celestial_government
+	1860.8.10 = {
+		holder = liangjiang_2	# Zeng Guofan
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_shouzhou = {
-	1066.1.1 = { change_development_level = 14 }
-	1178.1.1 = { change_development_level = 20 }
-
-	867.1.1 = {
-		holder = han_3116
-		liege = d_huaixi
-		government = celestial_government
+	1811.7.27 = {
+		holder = liangjiang_0	# Bailing
 	}
-	1066.1.1 = {
-		holder = han_6490
-		liege = d_huaixi
-		government = celestial_government
+	1830.10.11 = {
+		holder = liangjiang_1	# Tao Zhu
 	}
-	1178.1.1 = {
-		holder = han_11212
-		liege = d_huaixi
-		government = celestial_government
+	1860.8.10 = {
+		holder = liangjiang_2	# Zeng Guofan
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_lujiang = {
-	1066.1.1 = { change_development_level = 14 }
-
-	867.1.1 = {
-		holder = han_3116
-		liege = d_huaixi
-		government = celestial_government
+	1811.7.27 = {
+		holder = liangjiang_0	# Bailing
 	}
-	1066.1.1 = {
-		holder = han_6557
-		liege = d_huaixi
-		government = celestial_government
+	1830.10.11 = {
+		holder = liangjiang_1	# Tao Zhu
 	}
-	1178.1.1 = {
-		holder = han_11212
-		liege = d_huaixi
-		government = celestial_government
+	1860.8.10 = {
+		holder = liangjiang_2	# Zeng Guofan
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_liyang = {
-	1066.1.1 = { change_development_level = 16 }
-	1178.1.1 = { change_development_level = 30 }
-
-	867.1.1 = {
-		holder = han_2961
-		liege = d_jingnan
-		government = celestial_government
+	1810.9.1 = {
+		holder = huguang_0	# Ma Huiyu
 	}
-	1066.1.1 = {
-		holder = han_6555
-		liege = d_jingnan
-		government = celestial_government
+	1832.1.1 = {
+		holder = huguang_1	# Nergingge
 	}
-	1178.1.1 = {
-		holder = han_11655
-		liege = d_jingnan
-		government = celestial_government
+	1855.6.1 = {
+		holder = huguang_2	# Guanwen
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_haozhou = {
-	1066.1.1 = { change_development_level = 14 }
-
-	867.1.1 = {
-		holder = han_3116
-		liege = d_huaixi
-		government = celestial_government
+	1811.7.27 = {
+		holder = liangjiang_0	# Bailing
 	}
-	1066.1.1 = {
-		holder = han_6490
-		liege = d_huaixi
-		government = celestial_government
+	1830.10.11 = {
+		holder = liangjiang_1	# Tao Zhu
 	}
-	1178.1.1 = {
-		holder = han_11649
-		liege = d_huaixi
-		government = celestial_government
+	1860.8.10 = {
+		holder = liangjiang_2	# Zeng Guofan
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_guangzhou = {
-	867.1.1 = {
-		holder = han_2943
-		liege = d_huaixi
-		government = celestial_government
+	1811.7.27 = {
+		holder = liangjiang_0	# Bailing
 	}
-	1066.1.1 = {
-		holder = han_6554
-		liege = d_huaixi
-		government = celestial_government
+	1830.10.11 = {
+		holder = liangjiang_1	# Tao Zhu
 	}
-	1178.1.1 = {
-		holder = han_11703
-		liege = d_huaixi
-		government = celestial_government
+	1860.8.10 = {
+		holder = liangjiang_2	# Zeng Guofan
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_shuzhou = {
-	867.1.1 = {
-		holder = han_2939
-		liege = d_huaixi
-		government = celestial_government
+	1811.7.27 = {
+		holder = liangjiang_0	# Bailing
 	}
-	1066.1.1 = {
-		holder = han_6553
-		liege = d_huaixi
-		government = celestial_government
+	1830.10.11 = {
+		holder = liangjiang_1	# Tao Zhu
 	}
-	1178.1.1 = {
-		holder = han_11696
-		liege = d_huaixi
-		government = celestial_government
+	1860.8.10 = {
+		holder = liangjiang_2	# Zeng Guofan
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 d_jiangxi = {
-	867.1.1 = {
-		holder = han_2796
-		liege = k_jiangxi
-		government = celestial_government
+	1811.7.27 = {
+		holder = liangjiang_0	# Bailing
 	}
-	1066.1.1 = {
-		holder = han_6747
-		liege = k_jiangxi
-		government = celestial_government
+	1830.10.11 = {
+		holder = liangjiang_1	# Tao Zhu
 	}
-	1178.1.1 = {
-		holder = han_11474
-		liege = k_jiangxi
-		government = celestial_government
+	1860.8.10 = {
+		holder = liangjiang_2	# Zeng Guofan
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_hongzhou = {
-	1066.1.1 = { change_development_level = 14 }
-	1178.1.1 = { change_development_level = 30 }
-
-	867.1.1 = {
-		holder = han_2796
-		liege = d_jiangxi
-		government = celestial_government
+	1811.7.27 = {
+		holder = liangjiang_0	# Bailing
 	}
-	1066.1.1 = {
-		holder = han_6747
-		liege = d_jiangxi
-		government = celestial_government
+	1830.10.11 = {
+		holder = liangjiang_1	# Tao Zhu
 	}
-	1178.1.1 = {
-		holder = han_11474
-		liege = d_jiangxi
-		government = celestial_government
+	1860.8.10 = {
+		holder = liangjiang_2	# Zeng Guofan
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_yunzhou_2 = {
-	1066.1.1 = { change_development_level = 14 }
-	1178.1.1 = { change_development_level = 30 }
-
-	867.1.1 = {
-		holder = han_3125
-		liege = d_jiangxi
-		government = celestial_government
+	1811.7.27 = {
+		holder = liangjiang_0	# Bailing
 	}
-	1066.1.1 = {
-		holder = han_6556
-		liege = d_jiangxi
-		government = celestial_government
+	1830.10.11 = {
+		holder = liangjiang_1	# Tao Zhu
 	}
-	1178.1.1 = {
-		holder = han_11692
-		liege = d_jiangxi
-		government = celestial_government
+	1860.8.10 = {
+		holder = liangjiang_2	# Zeng Guofan
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_yuanzhou = {
-	1066.1.1 = { change_development_level = 14 }
-	1178.1.1 = { change_development_level = 24 }
-
-	867.1.1 = {
-		holder = han_2935
-		liege = d_jiangxi
-		government = celestial_government
+	1811.7.27 = {
+		holder = liangjiang_0	# Bailing
 	}
-	1066.1.1 = {
-		holder = han_6549
-		liege = d_jiangxi
-		government = celestial_government
+	1830.10.11 = {
+		holder = liangjiang_1	# Tao Zhu
 	}
-	1178.1.1 = {
-		holder = han_11690
-		liege = d_jiangxi
-		government = celestial_government
+	1860.8.10 = {
+		holder = liangjiang_2	# Zeng Guofan
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_fuzhou_2 = {
-	1178.1.1 = { change_development_level = 30 }
-
-	867.1.1 = {
-		holder = han_3125
-		liege = d_jiangxi
-		government = celestial_government
+	1811.7.27 = {
+		holder = liangjiang_0	# Bailing
 	}
-	1066.1.1 = {
-		holder = han_7561
-		liege = d_jiangxi
-		government = celestial_government
+	1830.10.11 = {
+		holder = liangjiang_1	# Tao Zhu
 	}
-	1178.1.1 = {
-		holder = han_11211
-		liege = d_jiangxi
-		government = celestial_government
+	1860.8.10 = {
+		holder = liangjiang_2	# Zeng Guofan
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_jianchang = {
-	867.1.1 = { change_development_level = 10 }
-	1178.1.1 = { change_development_level = 30 }
-
-	867.1.1 = {
-		holder = han_2977
-		liege = d_jiangxi
-		government = celestial_government
+	1811.7.27 = {
+		holder = liangjiang_0	# Bailing
 	}
-	1066.1.1 = {
-		holder = han_6590
-		liege = d_jiangxi
-		government = celestial_government
+	1830.10.11 = {
+		holder = liangjiang_1	# Tao Zhu
 	}
-	1178.1.1 = {
-		holder = han_11688
-		liege = d_jiangxi
-		government = celestial_government
+	1860.8.10 = {
+		holder = liangjiang_2	# Zeng Guofan
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_jizhou_3 = {
-	1066.1.1 = { change_development_level = 14 }
-	1178.1.1 = { change_development_level = 30 }
-
-	867.1.1 = {
-		holder = han_3030
-		liege = d_jiangxi
-		government = celestial_government
+	1811.7.27 = {
+		holder = liangjiang_0	# Bailing
 	}
-	1066.1.1 = {
-		holder = han_6589
-		liege = d_jiangxi
-		government = celestial_government
+	1830.10.11 = {
+		holder = liangjiang_1	# Tao Zhu
 	}
-	1178.1.1 = {
-		holder = han_11784
-		liege = d_jiangxi
-		government = celestial_government
+	1860.8.10 = {
+		holder = liangjiang_2	# Zeng Guofan
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_linjiang = {
-	1066.1.1 = { change_development_level = 14 }
-	1178.1.1 = { change_development_level = 30 }
-
-	867.1.1 = {
-		holder = han_3008
-		liege = d_jiangxi
-		government = celestial_government
+	1811.7.27 = {
+		holder = liangjiang_0	# Bailing
 	}
-	1066.1.1 = {
-		holder = han_6585
-		liege = d_jiangxi
-		government = celestial_government
+	1830.10.11 = {
+		holder = liangjiang_1	# Tao Zhu
 	}
-	1178.1.1 = {
-		holder = han_11781
-		liege = d_jiangxi
-		government = celestial_government
+	1860.8.10 = {
+		holder = liangjiang_2	# Zeng Guofan
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 d_dingjiang = {
-	867.1.1 = {
-		holder = han_3191
-		liege = k_jiangxi
-		government = celestial_government
+	1811.7.27 = {
+		holder = liangjiang_0	# Bailing
 	}
-	1066.1.1 = {
-		holder = han_6551
-		liege = k_jiangxi
-		government = celestial_government
+	1830.10.11 = {
+		holder = liangjiang_1	# Tao Zhu
 	}
-	1178.1.1 = {
-		holder = han_12044
-		liege = k_jiangxi
-		government = celestial_government
+	1860.8.10 = {
+		holder = liangjiang_2	# Zeng Guofan
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_yunyang = {
-	1066.1.1 = { change_development_level = 14 }
-	1178.1.1 = { change_development_level = 30 }
-
-	867.1.1 = {
-		holder = han_3191
-		liege = d_dingjiang
-		government = celestial_government
+	1811.7.27 = {
+		holder = liangjiang_0	# Bailing
 	}
-	1066.1.1 = {
-		holder = han_6551
-		liege = d_dingjiang
-		government = celestial_government
+	1830.10.11 = {
+		holder = liangjiang_1	# Tao Zhu
 	}
-	1178.1.1 = {
-		holder = han_12044
-		liege = d_dingjiang
-		government = celestial_government
+	1860.8.10 = {
+		holder = liangjiang_2	# Zeng Guofan
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_raozhou = {
-	867.1.1 = { change_development_level = 12 }
-	1178.1.1 = { change_development_level = 30 }
-
-	867.1.1 = {
-		holder = han_3003
-		liege = d_dingjiang
-		government = celestial_government
+	1811.7.27 = {
+		holder = liangjiang_0	# Bailing
 	}
-	1066.1.1 = {
-		holder = han_6580
-		liege = d_dingjiang
-		government = celestial_government
+	1830.10.11 = {
+		holder = liangjiang_1	# Tao Zhu
 	}
-	1178.1.1 = {
-		holder = han_11778
-		liege = d_dingjiang
-		government = celestial_government
+	1860.8.10 = {
+		holder = liangjiang_2	# Zeng Guofan
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_nankang = {
-	867.1.1 = { change_development_level = 12 }
-	1066.1.1 = { change_development_level = 14 }
-	1178.1.1 = { change_development_level = 30 }
-
-	867.1.1 = {
-		holder = han_3002
-		liege = d_dingjiang
-		government = celestial_government
+	1811.7.27 = {
+		holder = liangjiang_0	# Bailing
 	}
-	1066.1.1 = {
-		holder = han_6630
-		liege = d_dingjiang
-		government = celestial_government
+	1830.10.11 = {
+		holder = liangjiang_1	# Tao Zhu
 	}
-	1178.1.1 = {
-		holder = han_12044
-		liege = d_dingjiang
-		government = celestial_government
+	1860.8.10 = {
+		holder = liangjiang_2	# Zeng Guofan
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_xinhzou = {
-	867.1.1 = { change_development_level = 10 }
-	1178.1.1 = { change_development_level = 30 }
-
-	867.1.1 = {
-		holder = han_2997
-		liege = d_dingjiang
-		government = celestial_government
+	1811.7.27 = {
+		holder = liangjiang_0	# Bailing
 	}
-	1066.1.1 = {
-		holder = han_6626
-		liege = d_dingjiang
-		government = celestial_government
+	1830.10.11 = {
+		holder = liangjiang_1	# Tao Zhu
 	}
-	1178.1.1 = {
-		holder = han_12129
-		liege = d_dingjiang
-		government = celestial_government
+	1860.8.10 = {
+		holder = liangjiang_2	# Zeng Guofan
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 d_zhaoxin = {
-	867.1.1 = {
-		holder = han_2469
-		liege = k_jiangxi
-		government = celestial_government
+	1811.7.27 = {
+		holder = liangjiang_0	# Bailing
 	}
-	1066.1.1 = {
-		holder = han_6545
-		liege = k_jiangxi
-		government = celestial_government
+	1830.10.11 = {
+		holder = liangjiang_1	# Tao Zhu
 	}
-	1178.1.1 = {
-		holder = han_11237
-		liege = k_jiangxi
-		government = celestial_government
+	1860.8.10 = {
+		holder = liangjiang_2	# Zeng Guofan
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_qianzhou = {
-	1178.1.1 = { change_development_level = 20 }
-
-	867.1.1 = {
-		holder = han_2469
-		liege = d_zhaoxin
-		government = celestial_government
+	1811.7.27 = {
+		holder = liangjiang_0	# Bailing
 	}
-	1066.1.1 = {
-		holder = han_6545
-		liege = d_zhaoxin
-		government = celestial_government
+	1830.10.11 = {
+		holder = liangjiang_1	# Tao Zhu
 	}
-	1178.1.1 = {
-		holder = han_11237
-		liege = d_zhaoxin
-		government = celestial_government
+	1860.8.10 = {
+		holder = liangjiang_2	# Zeng Guofan
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_nanan = {
-	1066.1.1 = { change_development_level = 14 }
-	1178.1.1 = { change_development_level = 24 }
-
-	867.1.1 = {
-		holder = han_2469
-		liege = d_zhaoxin
-		government = celestial_government
+	1811.7.27 = {
+		holder = liangjiang_0	# Bailing
 	}
-	1066.1.1 = {
-		holder = han_6615
-		liege = d_zhaoxin
-		government = celestial_government
+	1830.10.11 = {
+		holder = liangjiang_1	# Tao Zhu
 	}
-	1178.1.1 = {
-		holder = han_11237
-		liege = d_zhaoxin
-		government = celestial_government
+	1860.8.10 = {
+		holder = liangjiang_2	# Zeng Guofan
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_shaozhou_1 = {
-	1178.1.1 = { change_development_level = 24 }
-
-	867.1.1 = {
-		holder = han_2469
-		liege = d_zhaoxin
-		government = celestial_government
+	1811.11.5 = {
+		holder = liangguang_0	# Jiang Youxian
 	}
-	1066.1.1 = {
-		holder = han_6545
-		liege = d_zhaoxin
-		government = celestial_government
+	1835.10.15 = {
+		holder = liangguang_1	# Deng Tingzhen
 	}
-	1178.1.1 = {
-		holder = han_11846
-		liege = d_zhaoxin
-		government = celestial_government
+	1859.10.7 = {
+		holder = liangguang_2	# Lao Chongguang
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 
 d_xiangdeng = {
-	867.1.1 = {
-		holder = han_2486
-		liege = k_shannan
-		government = celestial_government
+	1810.9.1 = {
+		holder = huguang_0	# Ma Huiyu
 	}
-	1066.1.1 = {
-		holder = han_6442
-		liege = k_shannan
-		government = celestial_government
+	1832.1.1 = {
+		holder = huguang_1	# Nergingge
 	}
-	1178.1.1 = {
-		holder = han_11204
-		liege = k_shannan
-		government = celestial_government
+	1855.6.1 = {
+		holder = huguang_2	# Guanwen
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_xiangyang = {
-	867.1.1 = {
-		holder = han_2486
-		liege = d_xiangdeng
-		government = celestial_government
+	1810.9.1 = {
+		holder = huguang_0	# Ma Huiyu
 	}
-	1066.1.1 = {
-		holder = han_6442
-		liege = d_xiangdeng
-		government = celestial_government
+	1832.1.1 = {
+		holder = huguang_1	# Nergingge
 	}
-	1178.1.1 = {
-		holder = han_11204
-		liege = d_xiangdeng
-		government = celestial_government
+	1855.6.1 = {
+		holder = huguang_2	# Guanwen
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_junzhou = {
-	867.1.1 = {
-		holder = han_2996
-		liege = d_xiangdeng
-		government = celestial_government
+	1810.9.1 = {
+		holder = huguang_0	# Ma Huiyu
 	}
-	1066.1.1 = {
-		holder = han_6613
-		liege = d_xiangdeng
-		government = celestial_government
+	1832.1.1 = {
+		holder = huguang_1	# Nergingge
 	}
-	1178.1.1 = {
-		holder = han_11821
-		liege = d_xiangdeng
-		government = celestial_government
+	1855.6.1 = {
+		holder = huguang_2	# Guanwen
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_fangzhou_1 = {
-	867.1.1 = {
-		holder = han_3055
-		liege = d_xiangdeng
-		government = celestial_government
+	1810.9.1 = {
+		holder = huguang_0	# Ma Huiyu
 	}
-	1066.1.1 = {
-		holder = han_6677
-		liege = d_xiangdeng
-		government = celestial_government
+	1832.1.1 = {
+		holder = huguang_1	# Nergingge
 	}
-	1178.1.1 = {
-		holder = han_11815
-		liege = d_xiangdeng
-		government = celestial_government
+	1855.6.1 = {
+		holder = huguang_2	# Guanwen
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_yingzhou_2 = {
-	1178.1.1 = { change_development_level = 20 }
-
-	867.1.1 = {
-		holder = han_3043
-		liege = d_xiangdeng
-		government = celestial_government
+	1810.9.1 = {
+		holder = huguang_0	# Ma Huiyu
 	}
-	1066.1.1 = {
-		holder = han_6672
-		liege = d_xiangdeng
-		government = celestial_government
+	1832.1.1 = {
+		holder = huguang_1	# Nergingge
 	}
-	1178.1.1 = {
-		holder = han_11809
-		liege = d_xiangdeng
-		government = celestial_government
+	1855.6.1 = {
+		holder = huguang_2	# Guanwen
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_suizhou_1 = {
-	867.1.1 = {
-		holder = han_3042
-		liege = d_xiangdeng
-		government = celestial_government
+	1810.9.1 = {
+		holder = huguang_0	# Ma Huiyu
 	}
-	1066.1.1 = {
-		holder = han_6665
-		liege = d_xiangdeng
-		government = celestial_government
+	1832.1.1 = {
+		holder = huguang_1	# Nergingge
 	}
-	1178.1.1 = {
-		holder = han_11892
-		liege = d_xiangdeng
-		government = celestial_government
+	1855.6.1 = {
+		holder = huguang_2	# Guanwen
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_dengzhou_1 = {
-	867.1.1 = {
-		holder = han_3034
-		liege = d_xiangdeng
-		government = celestial_government
+	1810.9.1 = {
+		holder = huguang_0	# Ma Huiyu
 	}
-	1066.1.1 = {
-		holder = han_6657
-		liege = d_xiangdeng
-		government = celestial_government
+	1832.1.1 = {
+		holder = huguang_1	# Nergingge
 	}
-	1178.1.1 = {
-		holder = jurchen_magistrate_fic_13
-		liege = d_jinshang
-		government = steppe_admin_government
+	1855.6.1 = {
+		holder = huguang_2	# Guanwen
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_tangzhou = {
-	867.1.1 = {
-		holder = han_3076
-		liege = d_xiangdeng
-		government = celestial_government
+	1810.9.1 = {
+		holder = huguang_0	# Ma Huiyu
 	}
-	1066.1.1 = {
-		holder = han_6725
-		liege = d_xiangdeng
-		government = celestial_government
+	1832.1.1 = {
+		holder = huguang_1	# Nergingge
 	}
-	1178.1.1 = {
-		holder = jurchen_magistrate_fic_13
-		liege = d_jinshang
-		government = steppe_admin_government
+	1855.6.1 = {
+		holder = huguang_2	# Guanwen
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 d_jingnan = {
-	867.1.1 = {
-		holder = han_3228
-		liege = k_shannan
-		government = celestial_government
+	1810.9.1 = {
+		holder = huguang_0	# Ma Huiyu
 	}
-	1066.1.1 = {
-		holder = han_7104
-		liege = k_shannan
-		government = celestial_government
+	1832.1.1 = {
+		holder = huguang_1	# Nergingge
 	}
-	1178.1.1 = {
-		holder = han_12313
-		liege = k_shannan
-		government = celestial_government
+	1855.6.1 = {
+		holder = huguang_2	# Guanwen
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_jiangling = {
-	867.1.1 = { change_development_level = 12 }
-	1178.1.1 = { change_development_level = 24 }
-
-	867.1.1 = {
-		holder = han_3228
-		liege = d_jingnan
-		government = celestial_government
+	1810.9.1 = {
+		holder = huguang_0	# Ma Huiyu
 	}
-	1066.1.1 = {
-		holder = han_7104
-		liege = d_jingnan
-		government = celestial_government
+	1832.1.1 = {
+		holder = huguang_1	# Nergingge
 	}
-	1178.1.1 = {
-		holder = han_12313
-		liege = d_jingnan
-		government = celestial_government
+	1855.6.1 = {
+		holder = huguang_2	# Guanwen
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_hanyang = {
-	867.1.1 = { change_development_level = 12 }
-	1178.1.1 = { change_development_level = 24 }
-
-	867.1.1 = {
-		holder = han_3073
-		liege = d_jingnan
-		government = celestial_government
+	1810.9.1 = {
+		holder = huguang_0	# Ma Huiyu
 	}
-	1066.1.1 = {
-		holder = han_6715
-		liege = d_jingnan
-		government = celestial_government
+	1832.1.1 = {
+		holder = huguang_1	# Nergingge
 	}
-	1178.1.1 = {
-		holder = han_11926
-		liege = d_jingnan
-		government = celestial_government
+	1855.6.1 = {
+		holder = huguang_2	# Guanwen
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_fuzhou_3 = {
-	867.1.1 = { change_development_level = 12 }
-	1178.1.1 = { change_development_level = 24 }
-
-	867.1.1 = {
-		holder = han_3228
-		liege = d_jingnan
-		government = celestial_government
+	1810.9.1 = {
+		holder = huguang_0	# Ma Huiyu
 	}
-	1066.1.1 = {
-		holder = han_7104
-		liege = d_jingnan
-		government = celestial_government
+	1832.1.1 = {
+		holder = huguang_1	# Nergingge
 	}
-	1178.1.1 = {
-		holder = han_12313
-		liege = d_jingnan
-		government = celestial_government
+	1855.6.1 = {
+		holder = huguang_2	# Guanwen
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_xiazhou_1 = {
-	867.1.1 = {
-		holder = han_3228
-		liege = d_jingnan
-		government = celestial_government
+	1810.9.1 = {
+		holder = huguang_0	# Ma Huiyu
 	}
-	1066.1.1 = {
-		holder = han_6707
-		liege = d_jingnan
-		government = celestial_government
+	1832.1.1 = {
+		holder = huguang_1	# Nergingge
 	}
-	1178.1.1 = {
-		holder = han_11920
-		liege = d_jingnan
-		government = celestial_government
+	1855.6.1 = {
+		holder = huguang_2	# Guanwen
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_guizhou = {
-	1066.1.1 = { change_development_level = 12 }
-
-	867.1.1 = {
-		holder = han_3068
-		liege = d_jingnan
-		government = celestial_government
+	1810.9.1 = {
+		holder = huguang_0	# Ma Huiyu
 	}
-	1066.1.1 = {
-		holder = han_6699
-		liege = d_jingnan
-		government = celestial_government
+	1832.1.1 = {
+		holder = huguang_1	# Nergingge
 	}
-	1178.1.1 = {
-		holder = han_11912
-		liege = d_jingnan
-		government = celestial_government
+	1855.6.1 = {
+		holder = huguang_2	# Guanwen
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_langzhou = {
-	867.1.1 = {
-		holder = han_3059
-		liege = d_jingnan
-		government = celestial_government
+	1800.1.1 = {
+		de_jure_liege = d_lingling
 	}
-	1066.1.1 = {
-		holder = han_6758
-		liege = d_jingnan
-		government = celestial_government
+	1810.9.1 = {
+		holder = huguang_0	# Ma Huiyu
 	}
-	1178.1.1 = {
-		holder = han_11909
-		liege = d_jingnan
-		government = celestial_government
+	1832.1.1 = {
+		holder = huguang_1	# Nergingge
+	}
+	1855.6.1 = {
+		holder = huguang_2	# Guanwen
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 d_eyue = {
-	867.1.1 = {
-		holder = han_3254
-		liege = k_shannan
-		government = celestial_government
+	1810.9.1 = {
+		holder = huguang_0	# Ma Huiyu
 	}
-	1066.1.1 = {
-		holder = han_6586
-		liege = k_shannan
-		government = celestial_government
+	1832.1.1 = {
+		holder = huguang_1	# Nergingge
 	}
-	1178.1.1 = {
-		holder = han_11862
-		liege = k_shannan
-		government = celestial_government
+	1855.6.1 = {
+		holder = huguang_2	# Guanwen
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_ezhou = {
-	1066.1.1 = { change_development_level = 16 }
-	1178.1.1 = { change_development_level = 30 }
-
-	867.1.1 = {
-		holder = han_3254
-		liege = d_eyue
-		government = celestial_government
+	1810.9.1 = {
+		holder = huguang_0	# Ma Huiyu
 	}
-	1066.1.1 = {
-		holder = han_6586
-		liege = d_eyue
-		government = celestial_government
+	1832.1.1 = {
+		holder = huguang_1	# Nergingge
 	}
-	1178.1.1 = {
-		holder = han_11862
-		liege = d_eyue
-		government = celestial_government
+	1855.6.1 = {
+		holder = huguang_2	# Guanwen
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_anzhou = {
-	1178.1.1 = { change_development_level = 20 }
-
-	867.1.1 = {
-		holder = han_3109
-		liege = d_eyue
-		government = celestial_government
+	1810.9.1 = {
+		holder = huguang_0	# Ma Huiyu
 	}
-	1066.1.1 = {
-		holder = han_6743
-		liege = d_eyue
-		government = celestial_government
+	1832.1.1 = {
+		holder = huguang_1	# Nergingge
 	}
-	1178.1.1 = {
-		holder = han_11908
-		liege = d_eyue
-		government = celestial_government
+	1855.6.1 = {
+		holder = huguang_2	# Guanwen
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_yuezhou_1 = {
-	867.1.1 = { change_development_level = 12 }
-	1066.1.1 = { change_development_level = 16 }
-	1178.1.1 = { change_development_level = 30 }
-
-	867.1.1 = {
-		holder = han_3254
-		liege = d_eyue
-		government = celestial_government
+	1800.1.1 = {
+		de_jure_liege = d_hunan
 	}
-	1066.1.1 = {
-		holder = han_6586
-		liege = d_eyue
-		government = celestial_government
+	1810.9.1 = {
+		holder = huguang_0	# Ma Huiyu
 	}
-	1178.1.1 = {
-		holder = han_11862
-		liege = d_eyue
-		government = celestial_government
+	1832.1.1 = {
+		holder = huguang_1	# Nergingge
+	}
+	1855.6.1 = {
+		holder = huguang_2	# Guanwen
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_huangzhou = {
-	867.1.1 = {
-		holder = han_3099
-		liege = d_eyue
-		government = celestial_government
+	1810.9.1 = {
+		holder = huguang_0	# Ma Huiyu
 	}
-	1066.1.1 = {
-		holder = han_6803
-		liege = d_eyue
-		government = celestial_government
+	1832.1.1 = {
+		holder = huguang_1	# Nergingge
 	}
-	1178.1.1 = {
-		holder = han_11964
-		liege = d_eyue
-		government = celestial_government
+	1855.6.1 = {
+		holder = huguang_2	# Guanwen
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_qizhou_1 = {
-	1178.1.1 = { change_development_level = 24 }
-
-	867.1.1 = {
-		holder = han_3122
-		liege = d_eyue
-		government = celestial_government
+	1810.9.1 = {
+		holder = huguang_0	# Ma Huiyu
 	}
-	1066.1.1 = {
-		holder = han_6792
-		liege = d_eyue
-		government = celestial_government
+	1832.1.1 = {
+		holder = huguang_1	# Nergingge
 	}
-	1178.1.1 = {
-		holder = han_11631
-		liege = d_eyue
-		government = celestial_government
+	1855.6.1 = {
+		holder = huguang_2	# Guanwen
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 d_hunan = {
-	867.1.1 = {
-		holder = han_2527
-		liege = k_hunan
-		government = celestial_government
+	1810.9.1 = {
+		holder = huguang_0	# Ma Huiyu
 	}
-	1066.1.1 = {
-		holder = han_5253
-		liege = k_hunan
-		government = celestial_government
+	1832.1.1 = {
+		holder = huguang_1	# Nergingge
 	}
-	1178.1.1 = {
-		holder = han_12371
-		liege = k_hunan
-		government = celestial_government
+	1855.6.1 = {
+		holder = huguang_2	# Guanwen
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_tanzhou = {
-	867.1.1 = { change_development_level = 12 }
-	1066.1.1 = { change_development_level = 16 }
-	1178.1.1 = { change_development_level = 24 }
-
-	867.1.1 = {
-		holder = han_2527
-		liege = d_hunan
-		government = celestial_government
+	1810.9.1 = {
+		holder = huguang_0	# Ma Huiyu
 	}
-	1066.1.1 = {
-		holder = han_5253
-		liege = d_hunan
-		government = celestial_government
+	1832.1.1 = {
+		holder = huguang_1	# Nergingge
 	}
-	1178.1.1 = {
-		holder = han_12371
-		liege = d_hunan
-		government = celestial_government
+	1855.6.1 = {
+		holder = huguang_2	# Guanwen
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_hengzhou = {
-	867.1.1 = { change_development_level = 12 }
-	1066.1.1 = { change_development_level = 16 }
-	1178.1.1 = { change_development_level = 24 }
-
-	867.1.1 = {
-		holder = han_3241
-		liege = d_hunan
-		government = celestial_government
+	1810.9.1 = {
+		holder = huguang_0	# Ma Huiyu
 	}
-	1066.1.1 = {
-		holder = han_6619
-		liege = d_hunan
-		government = celestial_government
+	1832.1.1 = {
+		holder = huguang_1	# Nergingge
 	}
-	1178.1.1 = {
-		holder = han_11258
-		liege = d_hunan
-		government = celestial_government
+	1855.6.1 = {
+		holder = huguang_2	# Guanwen
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_chenzhou_1 = {
-	1066.1.1 = { change_development_level = 16 }
-
-	867.1.1 = {
-		holder = han_3121
-		liege = d_hunan
-		government = celestial_government
+	1810.9.1 = {
+		holder = huguang_0	# Ma Huiyu
 	}
-	1066.1.1 = {
-		holder = han_6790
-		liege = d_hunan
-		government = celestial_government
+	1832.1.1 = {
+		holder = huguang_1	# Nergingge
 	}
-	1178.1.1 = {
-		holder = han_11946
-		liege = d_hunan
-		government = celestial_government
+	1855.6.1 = {
+		holder = huguang_2	# Guanwen
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_guiyang = {
-	1066.1.1 = { change_development_level = 14 }
-
-	867.1.1 = {
-		holder = han_3164
-		liege = d_hunan
-		government = celestial_government
+	1810.9.1 = {
+		holder = huguang_0	# Ma Huiyu
 	}
-	1066.1.1 = {
-		holder = han_6781
-		liege = d_hunan
-		government = celestial_government
+	1832.1.1 = {
+		holder = huguang_1	# Nergingge
 	}
-	1178.1.1 = {
-		holder = han_11989
-		liege = d_hunan
-		government = celestial_government
+	1855.6.1 = {
+		holder = huguang_2	# Guanwen
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_lianzhou = {
-	1066.1.1 = { change_development_level = 16 }
-
-	867.1.1 = {
-		holder = han_3160
-		liege = d_hunan
-		government = celestial_government
+	1810.9.1 = {
+		holder = huguang_0	# Ma Huiyu
 	}
-	1066.1.1 = {
-		holder = han_6858
-		liege = d_hunan
-		government = celestial_government
+	1832.1.1 = {
+		holder = huguang_1	# Nergingge
 	}
-	1178.1.1 = {
-		holder = han_12080
-		liege = d_hunan
-		government = celestial_government
+	1855.6.1 = {
+		holder = huguang_2	# Guanwen
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 d_lingling = {
-	867.1.1 = {
-		holder = han_2631
-		liege = k_hunan
-		government = celestial_government
+	1810.9.1 = {
+		holder = huguang_0	# Ma Huiyu
 	}
-	1066.1.1 = {
-		holder = han_7227
-		liege = k_hunan
-		government = celestial_government
+	1832.1.1 = {
+		holder = huguang_1	# Nergingge
 	}
-	1178.1.1 = {
-		holder = han_11252
-		liege = k_hunan
-		government = celestial_government
+	1855.6.1 = {
+		holder = huguang_2	# Guanwen
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_yongzhou = {
-	1178.1.1 = { change_development_level = 30 }
-
-	867.1.1 = {
-		holder = han_2631
-		liege = d_lingling
-		government = celestial_government
+	1810.9.1 = {
+		holder = huguang_0	# Ma Huiyu
 	}
-	1066.1.1 = {
-		holder = han_7227
-		liege = d_lingling
-		government = celestial_government
+	1832.1.1 = {
+		holder = huguang_1	# Nergingge
 	}
-	1178.1.1 = {
-		holder = han_11252
-		liege = d_lingling
-		government = celestial_government
+	1855.6.1 = {
+		holder = huguang_2	# Guanwen
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_quanzhou_2 = {
-	1178.1.1 = { change_development_level = 30 }
-
-	867.1.1 = {
-		holder = han_3151
-		liege = d_lingling
-		government = celestial_government
+	1810.9.1 = {
+		holder = huguang_0	# Ma Huiyu
 	}
-	1066.1.1 = {
-		holder = han_6845
-		liege = d_lingling
-		government = celestial_government
+	1832.1.1 = {
+		holder = huguang_1	# Nergingge
 	}
-	1178.1.1 = {
-		holder = han_11252
-		liege = d_lingling
-		government = celestial_government
+	1855.6.1 = {
+		holder = huguang_2	# Guanwen
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_shaozhou = {
-	1178.1.1 = { change_development_level = 30 }
-
-	867.1.1 = {
-		holder = han_2631
-		liege = d_lingling
-		government = celestial_government
+	1810.9.1 = {
+		holder = huguang_0	# Ma Huiyu
 	}
-	1066.1.1 = {
-		holder = han_7227
-		liege = d_lingling
-		government = celestial_government
+	1832.1.1 = {
+		holder = huguang_1	# Nergingge
 	}
-	1178.1.1 = {
-		holder = han_12071
-		liege = d_lingling
-		government = celestial_government
+	1855.6.1 = {
+		holder = huguang_2	# Guanwen
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_daozhou = {
-	867.1.1 = {
-		holder = han_2631
-		liege = d_lingling
-		government = celestial_government
+	1810.9.1 = {
+		holder = huguang_0	# Ma Huiyu
 	}
-	1066.1.1 = {
-		holder = han_6842
-		liege = d_lingling
-		government = celestial_government
+	1832.1.1 = {
+		holder = huguang_1	# Nergingge
 	}
-	1178.1.1 = {
-		holder = han_12067
-		liege = d_lingling
-		government = celestial_government
+	1855.6.1 = {
+		holder = huguang_2	# Guanwen
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
@@ -6259,52 +5941,20 @@ c_sizhou = {
 }
 
 c_bochuan = {
-	867.1.1 = {
-		holder = tribal_bozhou
-		liege = d_qianzhong
-		government = tribal_government
-	}
-	1066.1.1 = {
-		holder = tribal_bozhou_yang_1
-		government = tribal_government
-	}
-	1178.1.1 = {
-		holder = tribal_bozhou_yang_2
-		government = tribal_government
+	1800.1.1 = {
+		de_jure_liege = d_luodian
 	}
 }
 
 c_yizhou_3 = {
-	867.1.1 = {
-		holder = tribal_yizhou
-		liege = d_qianzhong
-		government = tribal_government
-	}
-	1066.1.1 = {
-		holder = tribal_yizhou_ren_1
-		government = tribal_government
-	}
-	1178.1.1 = {
-		holder = tribal_yizhou_ren_2
-		government = tribal_government
+	1800.1.1 = {
+		de_jure_liege = d_zangke
 	}
 }
 
 d_wuxi = {
-	867.1.1 = {
-		holder = han_2702
-		liege = k_kuizhou
-		government = celestial_government
-	}
-	1066.1.1 = {
-		holder = han_6744
-		liege = k_kuizhou
-		government = celestial_government
-	}
-	1178.1.1 = {
-		holder = han_11363
-		liege = k_kuizhou
-		government = celestial_government
+	1800.1.1 = {
+		de_jure_liege = k_hunan
 	}
 }
 
@@ -6391,18 +6041,8 @@ c_luyang = {
 }
 
 c_yezhou = {
-	867.1.1 = {
-		holder = tribal_yezhou
-		liege = d_wuxi
-		government = tribal_government
-	}
-	1066.1.1 = {
-		holder = tribal_sijin_tian_1
-		government = tribal_government
-	}
-	1178.1.1 = {
-		holder = tribal_sijin_tian_2
-		government = tribal_government
+	1800.1.1 = {
+		de_jure_liege = d_zangke
 	}
 }
 
@@ -6467,17 +6107,8 @@ c_yanzhou_3 = {
 }
 
 d_luoshi = {
-	867.1.1 = {
-		holder = tribal_lunan_dou_1
-		government = tribal_government
-	}
-	1066.1.1 = {
-		holder = tribal_lunan_dou_2
-		government = tribal_government
-	}
-	1178.1.1 = {
-		holder = tribal_lunan_dou_3
-		government = tribal_government
+	1800.1.1 = {
+		de_jure_liege = k_dongchuan
 	}
 }
 
@@ -6527,32 +6158,14 @@ c_zongzhou = {
 }
 
 c_shaoqing = {
-	867.1.1 = {
-		holder = tribal_kunmingyi_lulu
-		government = tribal_government
-	}
-	1066.1.1 = {
-		holder = tribal_luoshi_degai_1
-		government = tribal_government
-	}
-	1178.1.1 = {
-		holder = tribal_luoshi_degai_2
-		government = tribal_government
+	1800.1.1 = {
+		de_jure_liege = d_luodian
 	}
 }
 
 d_shimen = {
-	867.1.1 = {
-		holder = tribal_kunmingyi_lulu
-		government = tribal_government
-	}
-	1066.1.1 = {
-		holder = tribal_shimen_wumeng_1
-		government = tribal_government
-	}
-	1178.1.1 = {
-		holder = tribal_shimen_wumeng_2
-		government = tribal_government
+	1800.1.1 = {
+		de_jure_liege = k_xichuan
 	}
 }
 
@@ -6587,17 +6200,8 @@ c_jingzhou_2 = {
 }
 
 c_quzhou_1 = {
-	867.1.1 = {
-		holder = tribal_kunmingyi_lulu
-		government = tribal_government
-	}
-	1066.1.1 = {
-		holder = tribal_shimen_wumeng_1
-		government = tribal_government
-	}
-	1178.1.1 = {
-		holder = tribal_shimen_wumeng_2
-		government = tribal_government
+	1800.1.1 = {
+		de_jure_liege = d_tuodong
 	}
 }
 
@@ -6692,972 +6296,815 @@ c_guzhou = {
 }
 
 d_xiyuan = {
-	867.1.1 = {
-		holder = tribal_siyuanguicheng_nong_1
-		government = tribal_government
+	1800.1.1 = {
+		de_jure_liege = k_lingxi
 	}
-	1066.1.1 = {
-		holder = tribal_siyuanguicheng_nong_2
-		government = tribal_government
+	1811.11.5 = {
+		holder = liangguang_0	# Jiang Youxian
 	}
-	1178.1.1 = {
-		holder = tribal_siyuanguicheng_nong_3
-		government = tribal_government
+	1835.10.15 = {
+		holder = liangguang_1	# Deng Tingzhen
+	}
+	1859.10.7 = {
+		holder = liangguang_2	# Lao Chongguang
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_siyuan = {
-	867.1.1 = {
-		holder = tribal_siyuanguicheng_nong_1
-		government = tribal_government
+	1811.11.5 = {
+		holder = liangguang_0	# Jiang Youxian
 	}
-	1066.1.1 = {
-		holder = tribal_siyuanguicheng_nong_2
-		government = tribal_government
+	1835.10.15 = {
+		holder = liangguang_1	# Deng Tingzhen
 	}
-	1178.1.1 = {
-		holder = tribal_siyuanguicheng_nong_3
-		government = tribal_government
+	1859.10.7 = {
+		holder = liangguang_2	# Lao Chongguang
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_guile = {
-	867.1.1 = {
-		holder = tribal_tianguile_huang_1
-		government = tribal_government
+	1811.11.5 = {
+		holder = liangguang_0	# Jiang Youxian
 	}
-	1066.1.1 = {
-		holder = tribal_nandan_mo_1
-		government = tribal_government
+	1835.10.15 = {
+		holder = liangguang_1	# Deng Tingzhen
 	}
-	1178.1.1 = {
-		holder = tribal_nandan_mo_2
-		government = tribal_government
+	1859.10.7 = {
+		holder = liangguang_2	# Lao Chongguang
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_wulong = {
-	867.1.1 = {
-		holder = tribal_tianguile_huang_1
-		government = tribal_government
+	1811.11.5 = {
+		holder = liangguang_0	# Jiang Youxian
 	}
-	1066.1.1 = {
-		holder = tribal_siyuanguicheng_nong_2
-		government = tribal_government
+	1835.10.15 = {
+		holder = liangguang_1	# Deng Tingzhen
 	}
-	1178.1.1 = {
-		holder = tribal_siyuanguicheng_nong_3
-		government = tribal_government
+	1859.10.7 = {
+		holder = liangguang_2	# Lao Chongguang
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 d_lingnan = {
-	867.1.1 = {
-		holder = han_2821
-		liege = k_lingnan
-		government = celestial_government
+	1811.11.5 = {
+		holder = liangguang_0	# Jiang Youxian
 	}
-	1066.1.1 = {
-		holder = han_6444
-		liege = k_lingnan
-		government = celestial_government
+	1835.10.15 = {
+		holder = liangguang_1	# Deng Tingzhen
 	}
-	1178.1.1 = {
-		holder = han_11544
-		liege = k_lingnan
-		government = celestial_government
+	1859.10.7 = {
+		holder = liangguang_2	# Lao Chongguang
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_guangzhou_1 = {
-	867.1.1 = { change_development_level = 12 }
-	1066.1.1 = { change_development_level = 16 }
-	1178.1.1 = { change_development_level = 30 }
-
-	867.1.1 = {
-		holder = han_2821
-		liege = d_lingnan
-		government = celestial_government
+	1811.11.5 = {
+		holder = liangguang_0	# Jiang Youxian
 	}
-	1066.1.1 = {
-		holder = han_6444
-		liege = d_lingnan
-		government = celestial_government
+	1835.10.15 = {
+		holder = liangguang_1	# Deng Tingzhen
 	}
-	1178.1.1 = {
-		holder = han_11544
-		liege = d_lingnan
-		government = celestial_government
+	1859.10.7 = {
+		holder = liangguang_2	# Lao Chongguang
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_duanzhou = {
-	867.1.1 = {
-		holder = han_2821
-		liege = d_lingnan
-		government = celestial_government
+	1811.11.5 = {
+		holder = liangguang_0	# Jiang Youxian
 	}
-	1066.1.1 = {
-		holder = han_7379
-		liege = d_lingnan
-		government = celestial_government
+	1835.10.15 = {
+		holder = liangguang_1	# Deng Tingzhen
 	}
-	1178.1.1 = {
-		holder = han_11272
-		liege = d_lingnan
-		government = celestial_government
+	1859.10.7 = {
+		holder = liangguang_2	# Lao Chongguang
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_yingde = {
-	1178.1.1 = { change_development_level = 24 }
-
-	867.1.1 = {
-		holder = han_2821
-		liege = d_lingnan
-		government = celestial_government
+	1811.11.5 = {
+		holder = liangguang_0	# Jiang Youxian
 	}
-	1066.1.1 = {
-		holder = han_7433
-		liege = d_lingnan
-		government = celestial_government
+	1835.10.15 = {
+		holder = liangguang_1	# Deng Tingzhen
 	}
-	1178.1.1 = {
-		holder = han_11303
-		liege = d_lingnan
-		government = celestial_government
+	1859.10.7 = {
+		holder = liangguang_2	# Lao Chongguang
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_kangzhou = {
-	867.1.1 = {
-		holder = han_2821
-		liege = d_lingnan
-		government = celestial_government
+	1811.11.5 = {
+		holder = liangguang_0	# Jiang Youxian
 	}
-	1066.1.1 = {
-		holder = han_7431
-		liege = d_lingnan
-		government = celestial_government
+	1835.10.15 = {
+		holder = liangguang_1	# Deng Tingzhen
 	}
-	1178.1.1 = {
-		holder = han_11300
-		liege = d_lingnan
-		government = celestial_government
+	1859.10.7 = {
+		holder = liangguang_2	# Lao Chongguang
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_xinzhou_1 = {
-	867.1.1 = { change_development_level = 10 }
-
-	867.1.1 = {
-		holder = han_2821
-		liege = d_lingnan
-		government = celestial_government
+	1811.11.5 = {
+		holder = liangguang_0	# Jiang Youxian
 	}
-	1066.1.1 = {
-		holder = han_7430
-		liege = d_lingnan
-		government = celestial_government
+	1835.10.15 = {
+		holder = liangguang_1	# Deng Tingzhen
 	}
-	1178.1.1 = {
-		holder = han_11354
-		liege = d_lingnan
-		government = celestial_government
+	1859.10.7 = {
+		holder = liangguang_2	# Lao Chongguang
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_shuangzhou = {
-	867.1.1 = {
-		holder = han_2821
-		liege = d_lingnan
-		government = celestial_government
+	1811.11.5 = {
+		holder = liangguang_0	# Jiang Youxian
 	}
-	1066.1.1 = {
-		holder = han_7499
-		liege = d_lingnan
-		government = celestial_government
+	1835.10.15 = {
+		holder = liangguang_1	# Deng Tingzhen
 	}
-	1178.1.1 = {
-		holder = han_11339
-		liege = d_lingnan
-		government = celestial_government
+	1859.10.7 = {
+		holder = liangguang_2	# Lao Chongguang
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_chunzhou = {
-	867.1.1 = {
-		holder = han_2821
-		liege = d_lingnan
-		government = celestial_government
+	1811.11.5 = {
+		holder = liangguang_0	# Jiang Youxian
 	}
-	1066.1.1 = {
-		holder = han_7494
-		liege = d_lingnan
-		government = celestial_government
+	1835.10.15 = {
+		holder = liangguang_1	# Deng Tingzhen
 	}
-	1178.1.1 = {
-		holder = han_11327
-		liege = d_lingnan
-		government = celestial_government
+	1859.10.7 = {
+		holder = liangguang_2	# Lao Chongguang
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_enzhou = {
-	867.1.1 = {
-		holder = han_2821
-		liege = d_lingnan
-		government = celestial_government
+	1811.11.5 = {
+		holder = liangguang_0	# Jiang Youxian
 	}
-	1066.1.1 = {
-		holder = han_7476
-		liege = d_lingnan
-		government = celestial_government
+	1835.10.15 = {
+		holder = liangguang_1	# Deng Tingzhen
 	}
-	1178.1.1 = {
-		holder = han_11391
-		liege = d_lingnan
-		government = celestial_government
+	1859.10.7 = {
+		holder = liangguang_2	# Lao Chongguang
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 d_huixun = {
-	867.1.1 = {
-		holder = han_2748
-		liege = k_lingnan
-		government = celestial_government
+	1811.11.5 = {
+		holder = liangguang_0	# Jiang Youxian
 	}
-	1066.1.1 = {
-		holder = han_6069
-		liege = k_lingnan
-		government = celestial_government
+	1835.10.15 = {
+		holder = liangguang_1	# Deng Tingzhen
 	}
-	1178.1.1 = {
-		holder = han_11470
-		liege = k_lingnan
-		government = celestial_government
+	1859.10.7 = {
+		holder = liangguang_2	# Lao Chongguang
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_huizhou_1 = {
-	1178.1.1 = { change_development_level = 20 }
-
-	867.1.1 = {
-		holder = han_2748
-		liege = d_huixun
-		government = celestial_government
+	1811.11.5 = {
+		holder = liangguang_0	# Jiang Youxian
 	}
-	1066.1.1 = {
-		holder = han_6069
-		liege = d_huixun
-		government = celestial_government
+	1835.10.15 = {
+		holder = liangguang_1	# Deng Tingzhen
 	}
-	1178.1.1 = {
-		holder = han_11470
-		liege = d_huixun
-		government = celestial_government
+	1859.10.7 = {
+		holder = liangguang_2	# Lao Chongguang
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_xunzhou = {
-	867.1.1 = {
-		holder = han_2748
-		liege = d_huixun
-		government = celestial_government
+	1811.11.5 = {
+		holder = liangguang_0	# Jiang Youxian
 	}
-	1066.1.1 = {
-		holder = han_7474
-		liege = d_huixun
-		government = celestial_government
+	1835.10.15 = {
+		holder = liangguang_1	# Deng Tingzhen
 	}
-	1178.1.1 = {
-		holder = han_11377
-		liege = d_huixun
-		government = celestial_government
+	1859.10.7 = {
+		holder = liangguang_2	# Lao Chongguang
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_chaozhou = {
-	1178.1.1 = { change_development_level = 24 }
-
-	867.1.1 = {
-		holder = han_2748
-		liege = d_huixun
-		government = celestial_government
+	1811.11.5 = {
+		holder = liangguang_0	# Jiang Youxian
 	}
-	1066.1.1 = {
-		holder = han_7536
-		liege = d_huixun
-		government = celestial_government
+	1835.10.15 = {
+		holder = liangguang_1	# Deng Tingzhen
 	}
-	1178.1.1 = {
-		holder = han_11426
-		liege = d_huixun
-		government = celestial_government
+	1859.10.7 = {
+		holder = liangguang_2	# Lao Chongguang
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_meizhou_1 = {
-	867.1.1 = {
-		holder = han_2748
-		liege = d_huixun
-		government = celestial_government
+	1811.11.5 = {
+		holder = liangguang_0	# Jiang Youxian
 	}
-	1066.1.1 = {
-		holder = han_7534
-		liege = d_huixun
-		government = celestial_government
+	1835.10.15 = {
+		holder = liangguang_1	# Deng Tingzhen
 	}
-	1178.1.1 = {
-		holder = han_11412
-		liege = d_huixun
-		government = celestial_government
+	1859.10.7 = {
+		holder = liangguang_2	# Lao Chongguang
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_dongguan = {
-	1178.1.1 = { change_development_level = 24 }
-
-	867.1.1 = {
-		holder = han_2748
-		liege = d_huixun
-		government = celestial_government
+	1811.11.5 = {
+		holder = liangguang_0	# Jiang Youxian
 	}
-	1066.1.1 = {
-		holder = han_6069
-		liege = d_huixun
-		government = celestial_government
+	1835.10.15 = {
+		holder = liangguang_1	# Deng Tingzhen
 	}
-	1178.1.1 = {
-		holder = han_11470
-		liege = d_huixun
-		government = celestial_government
+	1859.10.7 = {
+		holder = liangguang_2	# Lao Chongguang
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 d_gaoliang = {
-	867.1.1 = {
-		holder = han_2776
-		liege = k_lingnan
-		government = celestial_government
+	1811.11.5 = {
+		holder = liangguang_0	# Jiang Youxian
 	}
-	1066.1.1 = {
-		holder = han_6059
-		liege = k_lingnan
-		government = celestial_government
+	1835.10.15 = {
+		holder = liangguang_1	# Deng Tingzhen
 	}
-	1178.1.1 = {
-		holder = han_11466
-		liege = k_lingnan
-		government = celestial_government
+	1859.10.7 = {
+		holder = liangguang_2	# Lao Chongguang
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_gaozhou = {
-	867.1.1 = {
-		holder = han_2776
-		liege = d_gaoliang
-		government = celestial_government
+	1811.11.5 = {
+		holder = liangguang_0	# Jiang Youxian
 	}
-	1066.1.1 = {
-		holder = han_6059
-		liege = d_gaoliang
-		government = celestial_government
+	1835.10.15 = {
+		holder = liangguang_1	# Deng Tingzhen
 	}
-	1178.1.1 = {
-		holder = han_11466
-		liege = d_gaoliang
-		government = celestial_government
+	1859.10.7 = {
+		holder = liangguang_2	# Lao Chongguang
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_leizhou = {
-	867.1.1 = {
-		holder = han_2776
-		liege = d_gaoliang
-		government = celestial_government
+	1811.11.5 = {
+		holder = liangguang_0	# Jiang Youxian
 	}
-	1066.1.1 = {
-		holder = han_7524
-		liege = d_gaoliang
-		government = celestial_government
+	1835.10.15 = {
+		holder = liangguang_1	# Deng Tingzhen
 	}
-	1178.1.1 = {
-		holder = han_11410
-		liege = d_gaoliang
-		government = celestial_government
+	1859.10.7 = {
+		holder = liangguang_2	# Lao Chongguang
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_luozhou = {
-	867.1.1 = {
-		holder = han_2776
-		liege = d_gaoliang
-		government = celestial_government
+	1811.11.5 = {
+		holder = liangguang_0	# Jiang Youxian
 	}
-	1066.1.1 = {
-		holder = han_6059
-		liege = d_gaoliang
-		government = celestial_government
+	1835.10.15 = {
+		holder = liangguang_1	# Deng Tingzhen
 	}
-	1178.1.1 = {
-		holder = han_11466
-		liege = d_gaoliang
-		government = celestial_government
+	1859.10.7 = {
+		holder = liangguang_2	# Lao Chongguang
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 d_qiongguan = {
-	867.1.1 = {
-		holder = han_2811
-		liege = k_lingnan
-		government = celestial_government
+	1811.11.5 = {
+		holder = liangguang_0	# Jiang Youxian
 	}
-	1066.1.1 = {
-		holder = han_7613
-		liege = k_lingnan
-		government = celestial_government
+	1835.10.15 = {
+		holder = liangguang_1	# Deng Tingzhen
 	}
-	1178.1.1 = {
-		holder = han_11408
-		liege = k_lingnan
-		government = celestial_government
+	1859.10.7 = {
+		holder = liangguang_2	# Lao Chongguang
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_yazhou = {
-	867.1.1 = {
-		holder = han_2811
-		liege = d_qiongguan
-		government = celestial_government
+	1811.11.5 = {
+		holder = liangguang_0	# Jiang Youxian
 	}
-	1066.1.1 = {
-		holder = han_7613
-		liege = d_qiongguan
-		government = celestial_government
+	1835.10.15 = {
+		holder = liangguang_1	# Deng Tingzhen
 	}
-	1178.1.1 = {
-		holder = han_11408
-		liege = d_qiongguan
-		government = celestial_government
+	1859.10.7 = {
+		holder = liangguang_2	# Lao Chongguang
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_danzhou_1 = {
-	867.1.1 = {
-		holder = han_2811
-		liege = d_qiongguan
-		government = celestial_government
+	1811.11.5 = {
+		holder = liangguang_0	# Jiang Youxian
 	}
-	1066.1.1 = {
-		holder = han_7587
-		liege = d_qiongguan
-		government = celestial_government
+	1835.10.15 = {
+		holder = liangguang_1	# Deng Tingzhen
 	}
-	1178.1.1 = {
-		holder = han_11464
-		liege = d_qiongguan
-		government = celestial_government
+	1859.10.7 = {
+		holder = liangguang_2	# Lao Chongguang
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_yazhou_1 = {
-	867.1.1 = {
-		holder = han_2811
-		liege = d_qiongguan
-		government = celestial_government
+	1811.11.5 = {
+		holder = liangguang_0	# Jiang Youxian
 	}
-	1066.1.1 = {
-		holder = han_7581
-		liege = d_qiongguan
-		government = celestial_government
+	1835.10.15 = {
+		holder = liangguang_1	# Deng Tingzhen
 	}
-	1178.1.1 = {
-		holder = han_11448
-		liege = d_qiongguan
-		government = celestial_government
+	1859.10.7 = {
+		holder = liangguang_2	# Lao Chongguang
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_wanan = {
-	867.1.1 = {
-		holder = han_2811
-		liege = d_qiongguan
-		government = celestial_government
+	1811.11.5 = {
+		holder = liangguang_0	# Jiang Youxian
 	}
-	1066.1.1 = {
-		holder = han_7575
-		liege = d_qiongguan
-		government = celestial_government
+	1835.10.15 = {
+		holder = liangguang_1	# Deng Tingzhen
 	}
-	1178.1.1 = {
-		holder = han_11445
-		liege = d_qiongguan
-		government = celestial_government
+	1859.10.7 = {
+		holder = liangguang_2	# Lao Chongguang
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_lidong = {
-	867.1.1 = {
-		holder = han_2811
-		liege = d_qiongguan
-		government = celestial_government
+	1811.11.5 = {
+		holder = liangguang_0	# Jiang Youxian
 	}
-	1066.1.1 = {
-		holder = han_7568
-		liege = d_qiongguan
-		government = celestial_government
+	1835.10.15 = {
+		holder = liangguang_1	# Deng Tingzhen
 	}
-	1178.1.1 = {
-		holder = han_11438
-		liege = d_qiongguan
-		government = celestial_government
+	1859.10.7 = {
+		holder = liangguang_2	# Lao Chongguang
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 d_guiguan = {
-	867.1.1 = {
-		holder = han_2916
-		liege = k_lingxi
-		government = celestial_government
+	1811.11.5 = {
+		holder = liangguang_0	# Jiang Youxian
 	}
-	1066.1.1 = {
-		holder = han_6162
-		liege = k_lingxi
-		government = celestial_government
+	1835.10.15 = {
+		holder = liangguang_1	# Deng Tingzhen
 	}
-	1178.1.1 = {
-		holder = han_11293
-		liege = k_lingxi
-		government = celestial_government
+	1859.10.7 = {
+		holder = liangguang_2	# Lao Chongguang
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_guizhou_1 = {
-	1178.1.1 = { change_development_level = 30 }
-
-	867.1.1 = {
-		holder = han_2916
-		liege = d_guiguan
-		government = celestial_government
+	1811.11.5 = {
+		holder = liangguang_0	# Jiang Youxian
 	}
-	1066.1.1 = {
-		holder = han_6162
-		liege = d_guiguan
-		government = celestial_government
+	1835.10.15 = {
+		holder = liangguang_1	# Deng Tingzhen
 	}
-	1178.1.1 = {
-		holder = han_11293
-		liege = d_guiguan
-		government = celestial_government
+	1859.10.7 = {
+		holder = liangguang_2	# Lao Chongguang
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_liuzhou = {
-	867.1.1 = {
-		holder = han_2916
-		liege = d_guiguan
-		government = celestial_government
+	1811.11.5 = {
+		holder = liangguang_0	# Jiang Youxian
 	}
-	1066.1.1 = {
-		holder = han_7652
-		liege = d_guiguan
-		government = celestial_government
+	1835.10.15 = {
+		holder = liangguang_1	# Deng Tingzhen
 	}
-	1178.1.1 = {
-		holder = han_11434
-		liege = d_guiguan
-		government = celestial_government
+	1859.10.7 = {
+		holder = liangguang_2	# Lao Chongguang
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_rongshui = {
-	867.1.1 = {
-		holder = han_2916
-		liege = d_guiguan
-		government = celestial_government
+	1811.11.5 = {
+		holder = liangguang_0	# Jiang Youxian
 	}
-	1066.1.1 = {
-		holder = han_7645
-		liege = d_guiguan
-		government = celestial_government
+	1835.10.15 = {
+		holder = liangguang_1	# Deng Tingzhen
 	}
-	1178.1.1 = {
-		holder = han_11498
-		liege = d_guiguan
-		government = celestial_government
+	1859.10.7 = {
+		holder = liangguang_2	# Lao Chongguang
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_xiangshan = {
-	867.1.1 = {
-		holder = han_2916
-		liege = d_guiguan
-		government = celestial_government
+	1811.11.5 = {
+		holder = liangguang_0	# Jiang Youxian
 	}
-	1066.1.1 = {
-		holder = han_7634
-		liege = d_guiguan
-		government = celestial_government
+	1835.10.15 = {
+		holder = liangguang_1	# Deng Tingzhen
 	}
-	1178.1.1 = {
-		holder = han_11495
-		liege = d_guiguan
-		government = celestial_government
+	1859.10.7 = {
+		holder = liangguang_2	# Lao Chongguang
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_qingyuan = {
-	867.1.1 = {
-		holder = han_2916
-		liege = d_guiguan
-		government = celestial_government
+	1811.11.5 = {
+		holder = liangguang_0	# Jiang Youxian
 	}
-	1066.1.1 = {
-		holder = han_5892
-		liege = d_guiguan
-		government = celestial_government
+	1835.10.15 = {
+		holder = liangguang_1	# Deng Tingzhen
 	}
-	1178.1.1 = {
-		holder = han_11490
-		liege = d_guiguan
-		government = celestial_government
+	1859.10.7 = {
+		holder = liangguang_2	# Lao Chongguang
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 d_jingjiang = {
-	867.1.1 = {
-		holder = han_2807
-		liege = k_lingxi
-		government = celestial_government
+	1811.11.5 = {
+		holder = liangguang_0	# Jiang Youxian
 	}
-	1066.1.1 = {
-		holder = han_6915
-		liege = k_lingxi
-		government = celestial_government
+	1835.10.15 = {
+		holder = liangguang_1	# Deng Tingzhen
 	}
-	1178.1.1 = {
-		holder = han_12084
-		liege = k_lingxi
-		government = celestial_government
+	1859.10.7 = {
+		holder = liangguang_2	# Lao Chongguang
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_zhaozhou_1 = {
-	867.1.1 = {
-		holder = han_2807
-		liege = d_jingjiang
-		government = celestial_government
+	1811.11.5 = {
+		holder = liangguang_0	# Jiang Youxian
 	}
-	1066.1.1 = {
-		holder = han_6915
-		liege = d_jingjiang
-		government = celestial_government
+	1835.10.15 = {
+		holder = liangguang_1	# Deng Tingzhen
 	}
-	1178.1.1 = {
-		holder = han_12084
-		liege = d_jingjiang
-		government = celestial_government
+	1859.10.7 = {
+		holder = liangguang_2	# Lao Chongguang
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_wuzhou_1 = {
-	867.1.1 = {
-		holder = han_2807
-		liege = d_jingjiang
-		government = celestial_government
+	1811.11.5 = {
+		holder = liangguang_0	# Jiang Youxian
 	}
-	1066.1.1 = {
-		holder = han_6915
-		liege = d_jingjiang
-		government = celestial_government
+	1835.10.15 = {
+		holder = liangguang_1	# Deng Tingzhen
 	}
-	1178.1.1 = {
-		holder = han_12084
-		liege = d_jingjiang
-		government = celestial_government
+	1859.10.7 = {
+		holder = liangguang_2	# Lao Chongguang
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_gongzhou = {
-	867.1.1 = {
-		holder = han_2807
-		liege = d_jingjiang
-		government = celestial_government
+	1811.11.5 = {
+		holder = liangguang_0	# Jiang Youxian
 	}
-	1066.1.1 = {
-		holder = han_7721
-		liege = d_jingjiang
-		government = celestial_government
+	1835.10.15 = {
+		holder = liangguang_1	# Deng Tingzhen
 	}
-	1178.1.1 = {
-		holder = han_11482
-		liege = d_jingjiang
-		government = celestial_government
+	1859.10.7 = {
+		holder = liangguang_2	# Lao Chongguang
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 d_rongguan = {
-	867.1.1 = {
-		holder = han_2893
-		liege = k_lingxi
-		government = celestial_government
+	1811.11.5 = {
+		holder = liangguang_0	# Jiang Youxian
 	}
-	1066.1.1 = {
-		holder = han_6886
-		liege = k_lingxi
-		government = celestial_government
+	1835.10.15 = {
+		holder = liangguang_1	# Deng Tingzhen
 	}
-	1178.1.1 = {
-		holder = han_11566
-		liege = k_lingxi
-		government = celestial_government
+	1859.10.7 = {
+		holder = liangguang_2	# Lao Chongguang
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_rongzhou_2 = {
-	867.1.1 = {
-		holder = han_2893
-		liege = d_rongguan
-		government = celestial_government
+	1811.11.5 = {
+		holder = liangguang_0	# Jiang Youxian
 	}
-	1066.1.1 = {
-		holder = han_6886
-		liege = d_rongguan
-		government = celestial_government
+	1835.10.15 = {
+		holder = liangguang_1	# Deng Tingzhen
 	}
-	1178.1.1 = {
-		holder = han_11566
-		liege = d_rongguan
-		government = celestial_government
+	1859.10.7 = {
+		holder = liangguang_2	# Lao Chongguang
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_tengzhou = {
-	867.1.1 = {
-		holder = han_2893
-		liege = d_rongguan
-		government = celestial_government
+	1811.11.5 = {
+		holder = liangguang_0	# Jiang Youxian
 	}
-	1066.1.1 = {
-		holder = han_7692
-		liege = d_rongguan
-		government = celestial_government
+	1835.10.15 = {
+		holder = liangguang_1	# Deng Tingzhen
 	}
-	1178.1.1 = {
-		holder = han_11481
-		liege = d_rongguan
-		government = celestial_government
+	1859.10.7 = {
+		holder = liangguang_2	# Lao Chongguang
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_lianzhou_1 = {
-	867.1.1 = {
-		holder = han_2893
-		liege = d_rongguan
-		government = celestial_government
+	1811.11.5 = {
+		holder = liangguang_0	# Jiang Youxian
 	}
-	1066.1.1 = {
-		holder = han_7691
-		liege = d_rongguan
-		government = celestial_government
+	1835.10.15 = {
+		holder = liangguang_1	# Deng Tingzhen
 	}
-	1178.1.1 = {
-		holder = han_11479
-		liege = d_rongguan
-		government = celestial_government
+	1859.10.7 = {
+		holder = liangguang_2	# Lao Chongguang
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_baizhou = {
-	867.1.1 = {
-		holder = han_2893
-		liege = d_rongguan
-		government = celestial_government
+	1811.11.5 = {
+		holder = liangguang_0	# Jiang Youxian
 	}
-	1066.1.1 = {
-		holder = han_7689
-		liege = d_rongguan
-		government = celestial_government
+	1835.10.15 = {
+		holder = liangguang_1	# Deng Tingzhen
 	}
-	1178.1.1 = {
-		holder = han_11566
-		liege = d_rongguan
-		government = celestial_government
+	1859.10.7 = {
+		holder = liangguang_2	# Lao Chongguang
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_yulin = {
-	867.1.1 = {
-		holder = han_2893
-		liege = d_rongguan
-		government = celestial_government
+	1811.11.5 = {
+		holder = liangguang_0	# Jiang Youxian
 	}
-	1066.1.1 = {
-		holder = han_6886
-		liege = d_rongguan
-		government = celestial_government
+	1835.10.15 = {
+		holder = liangguang_1	# Deng Tingzhen
 	}
-	1178.1.1 = {
-		holder = han_11476
-		liege = d_rongguan
-		government = celestial_government
+	1859.10.7 = {
+		holder = liangguang_2	# Lao Chongguang
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 d_yongguan = {
-	867.1.1 = {
-		holder = han_2870
-		liege = k_lingxi
-		government = celestial_government
+	1811.11.5 = {
+		holder = liangguang_0	# Jiang Youxian
 	}
-	1066.1.1 = {
-		holder = han_8709
-		liege = k_lingxi
-		government = celestial_government
+	1835.10.15 = {
+		holder = liangguang_1	# Deng Tingzhen
 	}
-	1178.1.1 = {
-		holder = han_11556
-		liege = k_lingxi
-		government = celestial_government
+	1859.10.7 = {
+		holder = liangguang_2	# Lao Chongguang
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_yongzhou_1 = {
-	867.1.1 = {
-		holder = han_2870
-		liege = d_yongguan
-		government = celestial_government
+	1811.11.5 = {
+		holder = liangguang_0	# Jiang Youxian
 	}
-	1066.1.1 = {
-		holder = han_8709
-		liege = d_yongguan
-		government = celestial_government
+	1835.10.15 = {
+		holder = liangguang_1	# Deng Tingzhen
 	}
-	1178.1.1 = {
-		holder = han_11556
-		liege = d_yongguan
-		government = celestial_government
+	1859.10.7 = {
+		holder = liangguang_2	# Lao Chongguang
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_binzhou_1 = {
-	867.1.1 = {
-		holder = han_2870
-		liege = d_yongguan
-		government = celestial_government
+	1811.11.5 = {
+		holder = liangguang_0	# Jiang Youxian
 	}
-	1066.1.1 = {
-		holder = han_6788
-		liege = d_yongguan
-		government = celestial_government
+	1835.10.15 = {
+		holder = liangguang_1	# Deng Tingzhen
 	}
-	1178.1.1 = {
-		holder = han_11467
-		liege = d_yongguan
-		government = celestial_government
+	1859.10.7 = {
+		holder = liangguang_2	# Lao Chongguang
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_hengzhou_1 = {
-	867.1.1 = {
-		holder = han_2870
-		liege = d_yongguan
-		government = celestial_government
+	1811.11.5 = {
+		holder = liangguang_0	# Jiang Youxian
 	}
-	1066.1.1 = {
-		holder = han_5930
-		liege = d_yongguan
-		government = celestial_government
+	1835.10.15 = {
+		holder = liangguang_1	# Deng Tingzhen
 	}
-	1178.1.1 = {
-		holder = han_11522
-		liege = d_yongguan
-		government = celestial_government
+	1859.10.7 = {
+		holder = liangguang_2	# Lao Chongguang
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_qinzhou_2 = {
-	867.1.1 = {
-		holder = han_2870
-		liege = d_yongguan
-		government = celestial_government
+	1811.11.5 = {
+		holder = liangguang_0	# Jiang Youxian
 	}
-	1066.1.1 = {
-		holder = han_6032
-		liege = d_yongguan
-		government = celestial_government
+	1835.10.15 = {
+		holder = liangguang_1	# Deng Tingzhen
 	}
-	1178.1.1 = {
-		holder = han_11520
-		liege = d_yongguan
-		government = celestial_government
+	1859.10.7 = {
+		holder = liangguang_2	# Lao Chongguang
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_rangzhou = {
-	867.1.1 = {
-		holder = han_2870
-		liege = d_yongguan
-		government = celestial_government
+	1811.11.5 = {
+		holder = liangguang_0	# Jiang Youxian
 	}
-	1066.1.1 = {
-		holder = han_6004
-		liege = d_yongguan
-		government = celestial_government
+	1835.10.15 = {
+		holder = liangguang_1	# Deng Tingzhen
 	}
-	1178.1.1 = {
-		holder = han_11515
-		liege = d_yongguan
-		government = celestial_government
+	1859.10.7 = {
+		holder = liangguang_2	# Lao Chongguang
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_xunzhou_2 = {
-	867.1.1 = {
-		holder = han_2870
-		liege = d_yongguan
-		government = celestial_government
+	1811.11.5 = {
+		holder = liangguang_0	# Jiang Youxian
 	}
-	1066.1.1 = {
-		holder = han_6047
-		liege = d_yongguan
-		government = celestial_government
+	1835.10.15 = {
+		holder = liangguang_1	# Deng Tingzhen
 	}
-	1178.1.1 = {
-		holder = han_11507
-		liege = d_yongguan
-		government = celestial_government
+	1859.10.7 = {
+		holder = liangguang_2	# Lao Chongguang
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_tianzhou = {
-	867.1.1 = {
-		holder = tribal_tianguile_huang_1
-		government = tribal_government
+	1811.11.5 = {
+		holder = liangguang_0	# Jiang Youxian
 	}
-	1066.1.1 = {
-		holder = tribal_tianguile_huang_2
-		government = tribal_government
+	1835.10.15 = {
+		holder = liangguang_1	# Deng Tingzhen
 	}
-	1178.1.1 = {
-		holder = tribal_tianguile_huang_3
-		government = tribal_government
+	1859.10.7 = {
+		holder = liangguang_2	# Lao Chongguang
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_shukunzhou = {
-	867.1.1 = {
-		holder = tribal_tianguile_huang_1
-		government = tribal_government
+	1811.11.5 = {
+		holder = liangguang_0	# Jiang Youxian
 	}
-	1066.1.1 = {
-		holder = tribal_tianguile_huang_2
-		government = tribal_government
+	1835.10.15 = {
+		holder = liangguang_1	# Deng Tingzhen
 	}
-	1178.1.1 = {
-		holder = tribal_tianguile_huang_3
-		government = tribal_government
+	1859.10.7 = {
+		holder = liangguang_2	# Lao Chongguang
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 
@@ -7744,41 +7191,31 @@ c_guizhou_2 = {
 	}
 }
 c_liyang_2 = {
-	1066.1.1 = { change_development_level = 14 }
-
-	867.1.1 = {
-		holder = han_3116
-		liege = d_huaixi
-		government = celestial_government
+	1811.7.27 = {
+		holder = liangjiang_0	# Bailing
 	}
-	1066.1.1 = {
-		holder = han_6490
-		liege = d_huaixi
-		government = celestial_government
+	1830.10.11 = {
+		holder = liangjiang_1	# Tao Zhu
 	}
-	1178.1.1 = {
-		holder = han_11212
-		liege = d_huaixi
-		government = celestial_government
+	1860.8.10 = {
+		holder = liangjiang_2	# Zeng Guofan
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 c_ningduzhou = {
-	1178.1.1 = { change_development_level = 20 }
-	
-	867.1.1 = {
-		holder = han_2889
-		liege = d_zhaoxin
-		government = celestial_government
+	1811.7.27 = {
+		holder = liangjiang_0	# Bailing
 	}
-	1066.1.1 = {
-		holder = han_6545
-		liege = d_zhaoxin
-		government = celestial_government
+	1830.10.11 = {
+		holder = liangjiang_1	# Tao Zhu
 	}
-	1178.1.1 = {
-		holder = han_11237
-		liege = d_zhaoxin
-		government = celestial_government
+	1860.8.10 = {
+		holder = liangjiang_2	# Zeng Guofan
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
 	}
 }
 c_yazhou_2 = {

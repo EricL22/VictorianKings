@@ -111,3 +111,35 @@ tan = {
 	name = "dynn_Tan_8B5A"
 	culture = han
 }
+zhang = {
+	name = "dynn_Zhang_5F20"
+	culture = han
+}
+tao = {
+	name = "dynn_Tao_9676"
+	culture = han
+}
+zeng = {
+	name = "dynn_Zeng"
+	culture = han
+}
+ma = {
+	name = "dynn_Ma_99AC"
+	culture = han
+}
+wanggiya = {
+	name = "dynn_Wanggiya"
+	culture = manchu
+}
+jiang = {
+	name = "dynn_Jiang_848B"
+	culture = han
+}
+deng = {
+	name = "dynn_Deng_9093"
+	culture = han
+}
+lao = {
+	name = "dynn_Lao_52DE"
+	culture = han
+}

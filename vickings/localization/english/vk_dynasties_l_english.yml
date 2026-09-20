@@ -60,6 +60,7 @@
  dynn_Sartuk: "Sartuk"
  dynn_Guwalgiya: "Guwalgiya"
  dynn_Niohuru: "Niohuru"
+ dynn_Wanggiya: "Wanggiya"
 
  dynn_PoincarE_: "Poincaré"
  dynn_Reinhard: "Reinhard"
@@ -67,6 +68,8 @@
  dynn_Pierre: "Pierre"
  dynn_Chambrier: "Chambrier"
  dynn_Arriaga: "Arriaga"
+
+ dynn_Lao_52DE: "Láo"
 
  # Mottos
  dynn_Bonaparte_motto:0 "Everything for the People"

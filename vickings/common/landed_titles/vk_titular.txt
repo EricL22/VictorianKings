@@ -312,3 +312,21 @@ k_sokoto = {
 		}
 	}
 }
+
+e_yungui = {
+	color = { 120 160 30 }
+
+	capital = c_shanchan
+}
+
+e_huguang = {
+	color = { 245 186 15 }
+
+	capital = c_hanyang
+}
+
+e_minzhe = {
+	color = { 235 206 80 }
+
+	capital = c_fuzhou_1
+}
