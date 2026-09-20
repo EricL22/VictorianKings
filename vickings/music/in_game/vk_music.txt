@@ -7,12 +7,12 @@ vk_mood_rachsymph2_3 = {
 	can_be_interrupted = yes
 }
 
-vk_mood_dvorsymph7_4 = {
-	music = "file:/sound/vk_music/dvorsymph7-4.mp3"
-	name = "vk_mood_dvorsymph7_4"
-	group = group_vickings
-	can_be_interrupted = yes
-}
+#vk_mood_dvorsymph7_4 = {
+#	music = "file:/sound/vk_music/dvorsymph7-4.mp3"
+#	name = "vk_mood_dvorsymph7_4"
+#	group = group_vickings
+#	can_be_interrupted = yes
+#}
 
 vk_mood_wienconcerto2 = {
 	music = "file:/sound/vk_music/wienconcerto2.mp3"
@@ -86,6 +86,20 @@ group_vickings = {
 	can_be_interrupted = yes
 	is_prioritized_mood = yes
 	pause_factor = 15
+}
+
+vk_mood_tchaisymph5_2 = {
+	music = "file:/sound/vk_music/tchaisymph5-2.mp3"
+	name = "vk_mood_tchaisymph5_2"
+	group = group_vickings
+	can_be_interrupted = yes
+}
+
+vk_mood_tchaisymph5_4 = {
+	music = "file:/sound/vk_music/tchaisymph5-4.mp3"
+	name = "vk_mood_tchaisymph5_4"
+	group = group_vickings
+	can_be_interrupted = yes
 }
 
 ##### MUSIC CUES
