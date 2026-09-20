@@ -59,7 +59,7 @@ shaangan_0 = {
 	}
 }
 shaangan_1 = {
-	name = "Xianfu"
+	name = "Xianfu"	# 先福
 	dynasty = namduru	# 那木都魯
 	religion = daoxue
 	culture = manchu
@@ -117,7 +117,7 @@ shaangan_2 = {
 	}
 }
 shaangan_3 = {
-	name = "Lebin"
+	name = "Lebin"	# 乐斌
 	dynasty = gioro	# 覚罗
 	religion = daoxue
 	culture = manchu
@@ -147,7 +147,7 @@ shaangan_3 = {
 }
 
 shanxi_0 = {
-	name = "Hengling"
+	name = "Hengling"	# 衡龄
 	dynasty = feimo	# 費莫
 	religion = daoxue
 	culture = manchu
@@ -205,7 +205,7 @@ shanxi_1 = {
 	}
 }
 shanxi_2 = {
-	name = "Yinggui"	
+	name = "Yinggui"	# 英桂
 	dynasty = heseri	# 赫舍哩
 	religion = daoxue
 	culture = manchu
@@ -235,7 +235,7 @@ shanxi_2 = {
 }
 
 henan_0 = {
-	name = "Changling"
+	name = "Changling"	# 长龄
 	dynasty = sartuk	# 萨尔图克
 	religion = daoxue
 	culture = manchu
@@ -293,7 +293,7 @@ henan_1 = {
 	}
 }
 henan_2 = {
-	name = "Guiliang"
+	name = "Guiliang"	# 桂良
 	dynasty = guwalgiya	# 瓜尔佳
 	religion = daoxue
 	culture = manchu
@@ -381,14 +381,14 @@ zhili_0 = {
 	}
 }
 zhili_1 = {
-	name = "Qishan"
+	name = "Keshen"
 	dynasty = 11100
 	religion = daoxue
 	culture = mongol
 	1786.1.18 = {
 		birth = yes
 	}
-	1831.1.1 = {
+	1806.1.1 = {
 		effect = {
 			add_character_flag = passed_provincial_exam
 			add_character_modifier = {
@@ -410,7 +410,7 @@ zhili_1 = {
 	}
 }
 zhili_2 = {
-	name = "Wenyu"	
+	name = "Wenyu"	# 文煜
 	dynasty = feimo	# 費莫
 	religion = daoxue
 	culture = manchu
@@ -440,7 +440,7 @@ zhili_2 = {
 }
 
 shandong_0 = {
-	name = "Tongxing"
+	name = "Tongxing"	# 同兴
 	dynasty = niohuru	# 鈕祜禄
 	religion = daoxue
 	culture = manchu
@@ -714,7 +714,7 @@ huguang_1 = {
 	}
 }
 huguang_2 = {
-	name = "Guanwen"
+	name = "Guanwen"	# 官文
 	dynasty = wanggiya	# 王佳
 	religion = daoxue
 	culture = manchu
@@ -830,6 +830,242 @@ liangguang_2 = {
 		}
 	}
 	1867.1.1 = {
+		death = yes
+	}
+}
+
+minzhe_0 = {
+	name = "Zhiyi"	# 志伊
+	dynasty = wang
+	religion = daoxue
+	culture = han
+	1743.1.1 = {
+		birth = yes
+	}
+	1810.1.1 = {
+		effect = {
+			add_character_flag = passed_provincial_exam
+			add_character_modifier = {
+				modifier = tgp_passed_provincial_exam_modifier
+			}
+			add_character_flag = passed_metropolitan_exam
+			add_character_modifier = {
+				modifier = tgp_passed_metropolitan_exam_modifier
+			}
+			add_character_flag = passed_palace_exam
+			add_character_modifier = {
+				modifier = tgp_passed_palace_exam_modifier
+			}
+			change_merit = 1000
+		}
+	}
+	1818.1.1 = {
+		death = yes
+	}
+}
+minzhe_1 = {
+	name = "Zuluo"	# 祖洛
+	dynasty = cheng
+	religion = daoxue
+	culture = han
+	1777.1.1 = {
+		birth = yes
+	}
+	1799.1.1 = {
+		effect = {
+			add_character_flag = passed_provincial_exam
+			add_character_modifier = {
+				modifier = tgp_passed_provincial_exam_modifier
+			}
+			add_character_flag = passed_metropolitan_exam
+			add_character_modifier = {
+				modifier = tgp_passed_metropolitan_exam_modifier
+			}
+			add_character_flag = passed_palace_exam
+			add_character_modifier = {
+				modifier = tgp_passed_palace_exam_modifier
+			}
+			change_merit = 1000
+		}
+	}
+	1848.1.1 = {
+		death = yes
+	}
+}
+minzhe_2 = {
+	name = "Qingduan"	# 庆端
+	dynasty = fuca	# 富察
+	religion = daoxue
+	culture = manchu
+	1815.1.1 = {	# unknown
+		birth = yes
+	}
+	1859.1.1 = {
+		effect = {
+			add_character_flag = passed_provincial_exam
+			add_character_modifier = {
+				modifier = tgp_passed_provincial_exam_modifier
+			}
+			add_character_flag = passed_metropolitan_exam
+			add_character_modifier = {
+				modifier = tgp_passed_metropolitan_exam_modifier
+			}
+			add_character_flag = passed_palace_exam
+			add_character_modifier = {
+				modifier = tgp_passed_palace_exam_modifier
+			}
+			change_merit = 1000
+		}
+	}
+	1870.1.1 = {	# unknown
+		death = yes
+	}
+}
+
+sichuan_0 = {
+	name = "Changming"	# 常明
+	dynasty = tonggiya	# 佟佳
+	religion = daoxue
+	culture = manchu
+	1750.1.1 = {	# unknown
+		birth = yes
+	}
+	1810.1.1 = {
+		effect = {
+			add_character_flag = passed_provincial_exam
+			add_character_modifier = {
+				modifier = tgp_passed_provincial_exam_modifier
+			}
+			add_character_flag = passed_metropolitan_exam
+			add_character_modifier = {
+				modifier = tgp_passed_metropolitan_exam_modifier
+			}
+			add_character_flag = passed_palace_exam
+			add_character_modifier = {
+				modifier = tgp_passed_palace_exam_modifier
+			}
+			change_merit = 1000
+		}
+	}
+	1817.10.22 = {
+		death = yes
+	}
+}
+sichuan_1 = {
+	name = "Oshan"
+	dynasty = 11100
+	religion = daoxue
+	culture = manchu
+	1772.1.1 = {
+		birth = yes
+	}
+	1816.1.1 = {
+		effect = {
+			add_character_flag = passed_provincial_exam
+			add_character_modifier = {
+				modifier = tgp_passed_provincial_exam_modifier
+			}
+			add_character_flag = passed_metropolitan_exam
+			add_character_modifier = {
+				modifier = tgp_passed_metropolitan_exam_modifier
+			}
+			add_character_flag = passed_palace_exam
+			add_character_modifier = {
+				modifier = tgp_passed_palace_exam_modifier
+			}
+			change_merit = 1000
+		}
+	}
+	1838.8.28 = {	# 道光十八年七月九日
+		death = yes
+	}
+}
+sichuan_2 = {
+	name = "Jun_4FCA"
+	dynasty = luo
+	religion = daoxue
+	culture = han
+	1793.1.9 = {
+		birth = yes
+	}
+	1832.1.1 = {
+		name = "Bingzhang"	# 秉章
+		effect = {
+			add_character_flag = passed_provincial_exam
+			add_character_modifier = {
+				modifier = tgp_passed_provincial_exam_modifier
+			}
+			add_character_flag = passed_metropolitan_exam
+			add_character_modifier = {
+				modifier = tgp_passed_metropolitan_exam_modifier
+			}
+			add_character_flag = passed_palace_exam
+			add_character_modifier = {
+				modifier = tgp_passed_palace_exam_modifier
+			}
+			change_merit = 1000
+		}
+	}
+	1867.9.1 = {
+		death = yes
+	}
+}
+
+yungui_0 = {
+	name = "Bolin"	# 伯麟
+	dynasty = husihari	# 瑚锡哈理
+	religion = daoxue
+	culture = manchu
+	1747.1.1 = {
+		birth = yes
+	}
+	1804.1.1 = {
+		effect = {
+			add_character_flag = passed_provincial_exam
+			add_character_modifier = {
+				modifier = tgp_passed_provincial_exam_modifier
+			}
+			add_character_flag = passed_metropolitan_exam
+			add_character_modifier = {
+				modifier = tgp_passed_metropolitan_exam_modifier
+			}
+			add_character_flag = passed_palace_exam
+			add_character_modifier = {
+				modifier = tgp_passed_palace_exam_modifier
+			}
+			change_merit = 1000
+		}
+	}
+	1823.1.1 = {
+		death = yes
+	}
+}
+yungui_1 = {
+	name = "Yuanhao"	# 源灝
+	dynasty = liu
+	religion = daoxue
+	culture = han
+	1796.1.1 = {
+		birth = yes
+	}
+	1823.1.1 = {
+		effect = {
+			add_character_flag = passed_provincial_exam
+			add_character_modifier = {
+				modifier = tgp_passed_provincial_exam_modifier
+			}
+			add_character_flag = passed_metropolitan_exam
+			add_character_modifier = {
+				modifier = tgp_passed_metropolitan_exam_modifier
+			}
+			add_character_flag = passed_palace_exam
+			add_character_modifier = {
+				modifier = tgp_passed_palace_exam_modifier
+			}
+			change_merit = 1000
+		}
+	}
+	1865.1.1 = {
 		death = yes
 	}
 }

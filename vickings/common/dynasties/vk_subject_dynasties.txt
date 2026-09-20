@@ -143,3 +143,31 @@ lao = {
 	name = "dynn_Lao_52DE"
 	culture = han
 }
+wang = {
+	name = "dynn_Wang_6C6A"
+	culture = han
+}
+cheng = {
+	name = "dynn_Cheng_7A0B"
+	culture = han
+}
+fuca = {
+	name = "dynn_Fuca"
+	culture = manchu
+}
+tonggiya = {
+	name = "dynn_Tonggiya"
+	culture = manchu
+}
+luo = {
+	name = "dynn_Luo_99F1"
+	culture = han
+}
+husihari = {
+	name = "dynn_Husihari"
+	culture = manchu
+}
+liu = {
+	name = "dynn_Liu_5218"
+	culture = han
+}

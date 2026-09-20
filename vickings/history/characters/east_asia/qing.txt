@@ -254,4 +254,34 @@ qing_22 = {
 		death = yes
 	}
 }
+
+qing_23 = {
+	name = "Ilibu"
+	dynasty = aisin_gioro	# descended from Bayara, a brother of Nurhaci
+	religion = daoxue
+	culture = manchu
+	1772.1.1 = {
+		birth = yes
+	}
+	1835.1.1 = {
+		effect = {
+			add_character_flag = passed_provincial_exam
+			add_character_modifier = {
+				modifier = tgp_passed_provincial_exam_modifier
+			}
+			add_character_flag = passed_metropolitan_exam
+			add_character_modifier = {
+				modifier = tgp_passed_metropolitan_exam_modifier
+			}
+			add_character_flag = passed_palace_exam
+			add_character_modifier = {
+				modifier = tgp_passed_palace_exam_modifier
+			}
+			change_merit = 1000
+		}
+	}
+	1843.3.4 = {
+		death = yes
+	}
+}
 ####################

@@ -283,6 +283,14 @@ e_persia = {
 }
 
 k_switzerland = {
+	1291.8.1 = {
+		effect = {
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_formed_switzerland_kingdom
+			}
+		}
+	}
 	1806.8.6 = {
 		de_jure_liege = e_germany
 	}
@@ -524,6 +532,14 @@ k_ottoman = {
 }
 
 k_bosnia = {
+	1377.10.26 = {
+		effect = {
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_founded_kingdom_of_bosnia
+			}
+		}
+	}
 	#1463.5.25 conquered by Ottomans
 	1808.7.28 = {
 		holder = ottoman_26	# Mahmud II

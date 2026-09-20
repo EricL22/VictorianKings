@@ -836,6 +836,11 @@ c_nf_janggiya = {
 			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1812.7.5 }
 		}
 	}
+	1815.7.8 = {
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1815.7.8 }
+		}
+	}
 	1833.1.1 = {
 		holder = 0
 	}
@@ -910,6 +915,28 @@ c_nf_feimo = {
 		}
 	}
 	1820.1.1 = {
+		liege = h_china
+		holder = huguang_1	# Nergingge
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1836.1.1 = {
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1836.1.1 }
+		}
+	}
+	1857.1.1 = {
+		liege = h_china
+		holder = zhili_2	# Wenyu
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1861.7.1 = {
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1861.7.1 }
+		}
+	}
+	1884.1.1 = {
 		holder = 0
 	}
 }
@@ -958,6 +985,16 @@ c_nf_sartuk = {
 	1812.7.5 = {
 		effect = {
 			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1812.7.5 }
+		}
+	}
+	1815.7.8 = {
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1815.7.8 }
+		}
+	}
+	1836.1.1 = {
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1836.1.1 }
 		}
 	}
 	1838.1.26 = {
@@ -1034,11 +1071,21 @@ c_nf_wen = {
 }
 
 c_nf_borjigin = {
-	1831.3.25 = {
+	1806.1.1 = {
 		liege = h_china
 		holder = zhili_1	# Qishan
 		government = celestial_government
 		succession_laws = { noble_family_succession_law }
+	}
+	1812.7.5 = {
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1812.7.5 }
+		}
+	}
+	1815.7.8 = {
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1815.7.8 }
+		}
 	}
 	1836.1.1 = {
 		effect = {
@@ -1147,6 +1194,16 @@ c_nf_tao = {
 		government = celestial_government
 		succession_laws = { noble_family_succession_law }
 	}
+	1812.7.5 = {
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1812.7.5 }
+		}
+	}
+	1815.7.8 = {
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1815.7.8 }
+		}
+	}
 	1836.1.1 = {
 		effect = {
 			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1836.1.1 }
@@ -1163,6 +1220,19 @@ c_nf_zeng = {
 		holder = liangjiang_2	# Zeng Guofan
 		government = celestial_government
 		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1812.7.5 }
+		}
+	}
+	1815.7.8 = {
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1815.7.8 }
+		}
+	}
+	1836.1.1 = {
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1836.1.1 }
+		}
 	}
 	1861.7.1 = {
 		effect = {
@@ -1265,6 +1335,160 @@ c_nf_lao = {
 		}
 	}
 	1867.1.1 = {
+		holder = 0
+	}
+}
+
+c_nf_wang = {
+	1810.1.1 = {
+		liege = h_china
+		holder = minzhe_0	# Wang Zhiyi
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1812.7.5 = {
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1812.7.5 }
+		}
+	}
+	1815.7.8 = {
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1815.7.8 }
+		}
+	}
+	1818.1.1 = {
+		holder = 0
+	}
+}
+
+c_nf_cheng = {
+	1799.1.1 = {
+		liege = h_china
+		holder = minzhe_1	# Cheng Zuluo
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1812.7.5 = {
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1812.7.5 }
+		}
+	}
+	1815.7.8 = {
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1815.7.8 }
+		}
+	}
+	1836.1.1 = {
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1836.1.1 }
+		}
+	}
+	1848.1.1 = {
+		holder = 0
+	}
+}
+
+c_nf_fuca = {
+	1859.1.1 = {
+		liege = h_china
+		holder = minzhe_2	# Qingduan
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1861.7.1 = {
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1861.7.1 }
+		}
+	}
+	1870.1.1 = {
+		holder = 0
+	}
+}
+
+c_nf_tonggiya = {
+	1810.3.16 = {
+		liege = h_china
+		holder = sichuan_0	# Changming
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1812.7.5 = {
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1812.7.5 }
+		}
+	}
+	1815.7.8 = {
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1815.7.8 }
+		}
+	}
+	1817.10.22 = {
+		holder = 0
+	}
+}
+
+c_nf_luo = {
+	1832.1.1 = {
+		liege = h_china
+		holder = sichuan_2	# Luo Bingzhang
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1836.1.1 = {
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1836.1.1 }
+		}
+	}
+	1861.7.1 = {
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1861.7.1 }
+		}
+	}
+	1867.9.1 = {
+		holder = 0
+	}
+}
+
+c_nf_husihari = {
+	1804.8.17 = {
+		liege = h_china
+		holder = yungui_0	# Bolin
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1812.7.5 = {
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1812.7.5 }
+		}
+	}
+	1815.7.8 = {
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1815.7.8 }
+		}
+	}
+	1823.1.1 = {
+		holder = 0
+	}
+}
+
+c_nf_liu = {
+	1823.1.1 = {
+		liege = h_china
+		holder = yungui_1	# Liu Yuanhao
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1836.1.1 = {
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1836.1.1 }
+		}
+	}
+	1861.7.1 = {
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1861.7.1 }
+		}
+	}
+	1865.1.1 = {
 		holder = 0
 	}
 }

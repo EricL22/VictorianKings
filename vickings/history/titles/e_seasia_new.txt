@@ -1,0 +1,877 @@
+﻿k_dali = {
+	1253.1.1 = {
+		name = yunnan
+	}
+	1640.1.1 = {
+		de_jure_liege = e_yungui
+	}
+	1804.8.17 = {
+		holder = yungui_0	# Bolin
+	}
+	1835.3.8 = {
+		holder = qing_23	# Ilibu
+	}
+	1860.11.14 = {
+		holder = yungui_1	# Liu Yuanhao
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+
+c_shicheng = {
+	1804.8.17 = {
+		holder = yungui_0	# Bolin
+	}
+	1835.3.8 = {
+		holder = qing_23	# Ilibu
+	}
+	1860.11.14 = {
+		holder = yungui_1	# Liu Yuanhao
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+
+d_nghe_an = {
+	1066.1.1 = {
+		holder = viet_ngo_4 # Thuong Kiet
+		liege = k_viet
+		government = meritocratic_government
+	}
+	1178.1.1 = {
+		holder = viet_tran_2
+	}
+}
+
+c_nghe_an = {
+	867.1.1 = { change_development_level = 4 }
+	1066.1.1 = { change_development_level = 8 }
+	1178.1.1 = { change_development_level = 15 }
+
+	867.1.1 = {
+		government = celestial_government
+		liege = k_viet
+		holder = han_vn_1
+	}
+	1066.1.1 = {
+		holder = viet_ngo_4
+		government = meritocratic_government
+	}
+	1178.1.1 = {
+		holder = viet_tran_2
+	}
+}
+c_nam_dinh = {
+	867.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 12 }
+	1178.1.1 = { change_development_level = 20 }
+
+	867.1.1 = {
+		government = celestial_government
+		liege = k_viet
+		holder = viet_dinh_11 # 
+	}
+	1066.1.1 = {
+		holder = viet_ngo_4 # Thuong_Kiet
+		government = meritocratic_government
+	}
+	1178.1.1 = {
+		holder = viet_tran_3 # Ly
+		liege = d_nghe_an
+	}
+}
+c_long_hung = {
+	867.1.1 = { change_development_level = 5 } 
+	1066.1.1 = { change_development_level = 9 } 
+	1178.1.1 = { change_development_level = 17 }
+
+	867.1.1 = {
+		government = celestial_government
+		liege = k_viet
+		holder = viet_khuc_1 # Thua_Du
+	}
+	1066.1.1 = {
+		holder = viet_ly_10
+		government = meritocratic_government
+	}
+	1178.1.1 = {
+		holder = viet_do_4 # An_Di
+	}
+}
+
+d_hai_dong = {
+	1066.1.1 = {
+		holder = viet_than_1 # Canh_Phuc
+		liege = k_viet
+		government = meritocratic_government
+	}
+	1178.1.1 = {
+		holder = viet_to_1
+	}
+}
+
+c_hai_dong = {
+	867.1.1 = { change_development_level = 6 } 
+	1066.1.1 = { change_development_level = 11 } 
+	1178.1.1 = { change_development_level = 19 }
+
+	867.1.1 = {
+		government = celestial_government
+		liege = k_viet
+		holder = viet_khuc_1
+	}
+	1066.1.1 = {
+		holder = viet_than_1
+		government = meritocratic_government
+	}
+	1178.1.1 = {
+		holder = viet_to_1
+	}
+}
+
+c_binh_nguyen = {
+	867.1.1 = { change_development_level = 4 } 
+	1066.1.1 = { change_development_level = 7 } 
+	1178.1.1 = { change_development_level = 12 }
+
+	867.1.1 = {
+		holder = tribal_siyuanguicheng_nong_1
+		government = tribal_government
+	}
+	1066.1.1 = {
+		holder = tribal_siyuanguicheng_nong_2
+		government = tribal_government
+	}
+	1178.1.1 = {
+		holder = tribal_siyuanguicheng_nong_3
+		government = tribal_government
+	}
+}
+
+d_lam_tay = {
+	1066.1.1 = {
+		holder = viet_ha_thuongoai_1 # Thien Lam
+		liege = k_viet
+		government = meritocratic_government
+	}
+	1178.1.1 = {
+		holder = viet_dam_1
+	}
+}
+
+c_lam_tay = {
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 6 }
+	1178.1.1 = { change_development_level = 10 }
+
+	867.1.1 = {
+		government = celestial_government
+		liege = k_viet
+		holder = viet_ngo_14
+	}
+	1066.1.1 = {
+		holder = viet_ly_34
+		government = meritocratic_government
+	}
+	1178.1.1 = {
+		holder = viet_dam_1
+	}
+}
+c_quoc_oai = {
+	867.1.1 = { change_development_level = 5 }
+	1066.1.1 = { change_development_level = 9 }
+	1178.1.1 = { change_development_level = 16 }
+
+	867.1.1 = {
+		government = celestial_government
+		holder = han_3310
+	}
+	1066.1.1 = {
+		liege = k_viet
+		holder = viet_ha_thuongoai_1 # Thien_Lam
+		government = meritocratic_government
+	}
+	1178.1.1 = {
+		holder = viet_dam_1
+	}
+}
+c_thang_long = {
+	867.1.1 = { change_development_level = 12 }
+	1066.1.1 = { change_development_level = 20 }
+	1178.1.1 = { change_development_level = 40 }
+
+	867.1.1 = {
+		government = celestial_government
+		holder = han_3310
+	}
+	1066.1.1 = {
+		holder = viet_ly_10
+		government = meritocratic_government
+	}
+	1178.1.1 = {
+		holder = viet_ly_25
+	}
+}
+c_dali = {
+	1804.8.17 = {
+		holder = yungui_0	# Bolin
+	}
+	1835.3.8 = {
+		holder = qing_23	# Ilibu
+	}
+	1860.11.14 = {
+		holder = yungui_1	# Liu Yuanhao
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+
+d_tuodong = {
+	1804.8.17 = {
+		holder = yungui_0	# Bolin
+	}
+	1835.3.8 = {
+		holder = qing_23	# Ilibu
+	}
+	1860.11.14 = {
+		holder = yungui_1	# Liu Yuanhao
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+
+c_dongchuan = {
+	1804.8.17 = {
+		holder = yungui_0	# Bolin
+	}
+	1835.3.8 = {
+		holder = qing_23	# Ilibu
+	}
+	1860.11.14 = {
+		holder = yungui_1	# Liu Yuanhao
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+
+d_jianchuan = {
+	1804.8.17 = {
+		holder = yungui_0	# Bolin
+	}
+	1835.3.8 = {
+		holder = qing_23	# Ilibu
+	}
+	1860.11.14 = {
+		holder = yungui_1	# Liu Yuanhao
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+
+c_chengji = {
+	1804.8.17 = {
+		holder = yungui_0	# Bolin
+	}
+	1835.3.8 = {
+		holder = qing_23	# Ilibu
+	}
+	1860.11.14 = {
+		holder = yungui_1	# Liu Yuanhao
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+
+d_huichuan = {
+	1800.1.1 = {
+		de_jure_liege = k_xichuan
+	}
+	1810.3.16 = {
+		holder = sichuan_0	# Changming
+	}
+	1831.3.25 = {
+		holder = sichuan_1	# Oshan
+	}
+	1861.7.1 = {
+		holder = sichuan_2	# Luo Bingzhang
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+
+c_jianchang_1 = {
+	1810.3.16 = {
+		holder = sichuan_0	# Changming
+	}
+	1831.3.25 = {
+		holder = sichuan_1	# Oshan
+	}
+	1861.7.1 = {
+		holder = sichuan_2	# Luo Bingzhang
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+c_xiangcheng = {
+	1800.1.1 = {
+		de_jure_liege = d_huichuan
+	}
+	1810.3.16 = {
+		holder = sichuan_0	# Changming
+	}
+	1831.3.25 = {
+		holder = sichuan_1	# Oshan
+	}
+	1861.7.1 = {
+		holder = sichuan_2	# Luo Bingzhang
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+
+d_yongchang = {
+	1804.8.17 = {
+		holder = yungui_0	# Bolin
+	}
+	1835.3.8 = {
+		holder = qing_23	# Ilibu
+	}
+	1860.11.14 = {
+		holder = yungui_1	# Liu Yuanhao
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+
+c_yongchang_jingmadian = {
+	1804.8.17 = {
+		holder = yungui_0	# Bolin
+	}
+	1835.3.8 = {
+		holder = qing_23	# Ilibu
+	}
+	1860.11.14 = {
+		holder = yungui_1	# Liu Yuanhao
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+c_yongchang_yongchang = {
+	1804.8.17 = {
+		holder = yungui_0	# Bolin
+	}
+	1835.3.8 = {
+		holder = qing_23	# Ilibu
+	}
+	1860.11.14 = {
+		holder = yungui_1	# Liu Yuanhao
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+c_buri = {
+	1804.8.17 = {
+		holder = yungui_0	# Bolin
+	}
+	1835.3.8 = {
+		holder = qing_23	# Ilibu
+	}
+	1860.11.14 = {
+		holder = yungui_1	# Liu Yuanhao
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+
+c_nyaungshwe = {
+	867.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 5 }
+	1178.1.1 = { change_development_level = 9 }
+
+	867.1.1 = {
+		#holder = haripunjaya_ruler_7
+		holder = tai_taunggyi_01_fic	#fictional
+		liege = 0
+	}
+	1066.1.1 = {
+		holder = tai_taunggyi_10_fic	#fictional
+		tributary_of = {
+			suzerain = k_pagan
+			contract_group = tributary_mandala
+		}
+	}
+	1178.1.1 = {
+		holder = tai_taunggyi_20_fic	#fictional
+		tributary_of = {
+			suzerain = k_pagan
+			contract_group = tributary_mandala
+		}
+	}
+}
+c_mongnai = {
+	867.1.1 = { change_development_level = 4 }
+	1066.1.1 = { change_development_level = 7 }
+	1178.1.1 = { change_development_level = 12 }
+
+	867.1.1 = {
+		#holder = haripunjaya_ruler_7
+		holder = tai_mongnai_01_fic	#fictional
+		liege = 0
+	}
+	1066.1.1 = {
+		holder = tai_mongnai_10_fic	#fictional
+	}
+	1178.1.1 = {
+		holder = tai_mongnai_20_fic	#fictional
+	}
+}
+c_hsenwi = {
+	867.1.1 = { change_development_level = 5 }
+	1066.1.1 = { change_development_level = 9 }
+	1178.1.1 = { change_development_level = 15 }
+
+	#867
+	825.1.1 = {
+		holder = tai_hsenwi_01	#possible
+		liege = 0
+	}
+	845.1.1 = {
+		holder = tai_hsenwi_02	#possible
+	}
+	915.1.1 = {
+		holder = tai_hsenwi_03	#possible
+	}
+	952.1.1 = {
+		holder = tai_hsenwi_04	#possible
+	}
+	975.1.1 = {
+		holder = tai_hsenwi_05	#possible
+	}
+	1019.1.1 = {
+		holder = tai_hsenwi_06	#possible
+	}
+	
+	#1066
+	1028.1.1 = {
+		holder = tai_hsenwi_07	#possible
+	}
+	1076.1.1 = {
+		holder = tai_hsenwi_08	#possible
+	}
+	1096.1.1 = {
+		holder = tai_hsenwi_09	#possible
+	}
+	1127.1.1 = {
+		holder = tai_hsenwi_10	#possible
+	}
+	
+	#1178
+	1152.1.1 = {
+		holder = tai_hsenwi_11	#possible
+	}
+}
+
+d_tengchong = {
+	867.1.1 = {
+		holder = bai_li_1
+		liege = k_dali
+		government = meritocratic_government
+	}
+	1066.1.1 = {
+		holder = dali_duan_8
+		liege = k_dali
+	}
+	1178.1.1 = {
+		holder = dali_gao_32
+	}
+}
+
+c_putao = {
+	867.1.1 = { change_development_level = 1 }
+	1066.1.1 = { change_development_level = 2 }
+	1178.1.1 = { change_development_level = 4 }
+
+	867.1.1 = {
+		holder = bai_li_1
+	}
+	1066.1.1 = {
+		holder = dali_duan_8
+		liege = k_dali
+	}
+	1178.1.1 = {
+		holder = dali_gao_32
+	}
+}
+c_monyin = {
+	867.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 3 }
+	1178.1.1 = { change_development_level = 6 }
+
+	867.1.1 = {
+		holder = bai_li_1
+	}
+	1066.1.1 = {
+		holder = dali_duan_8
+		liege = k_dali
+	}
+	1178.1.1 = {
+		holder = dali_gao_32
+	}
+}
+c_myitkyina = {
+	867.1.1 = { change_development_level = 1 }
+	1066.1.1 = { change_development_level = 2 }
+	1178.1.1 = { change_development_level = 5 }
+
+	867.1.1 = {
+		holder = bai_li_1
+	}
+	1066.1.1 = {
+		holder = dali_duan_8
+		liege = k_dali
+	}
+	1178.1.1 = {
+		holder = dali_gao_32
+	}
+}
+c_momauk = {
+	867.1.1 = { change_development_level = 4 }
+	1066.1.1 = { change_development_level = 7 }
+	1178.1.1 = { change_development_level = 11 }
+
+	867.1.1 = {
+		holder = bai_li_1
+	}
+	1066.1.1 = {
+		holder = dali_duan_8
+		liege = k_dali
+	}
+	1178.1.1 = {
+		holder = dali_gao_32
+	}
+}
+
+c_sam_nuea = {
+	867.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 4 }
+	1178.1.1 = { change_development_level = 8 }
+
+	867.1.1 = {
+		government = meritocratic_government
+		holder = han_3310
+	}
+	1066.1.1 = {
+		government = mandala_government
+		holder = nguu_hong_ruler_1
+	}
+	1178.1.1 = {
+		holder = viet_tran_2
+	}
+}
+
+d_tonghai = {
+	1804.8.17 = {
+		holder = yungui_0	# Bolin
+	}
+	1835.3.8 = {
+		holder = qing_23	# Ilibu
+	}
+	1860.11.14 = {
+		holder = yungui_1	# Liu Yuanhao
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+
+c_muze = {
+	1804.8.17 = {
+		holder = yungui_0	# Bolin
+	}
+	1835.3.8 = {
+		holder = qing_23	# Ilibu
+	}
+	1860.11.14 = {
+		holder = yungui_1	# Liu Yuanhao
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+c_moeng_laem = {
+	1804.8.17 = {
+		holder = yungui_0	# Bolin
+	}
+	1835.3.8 = {
+		holder = qing_23	# Ilibu
+	}
+	1860.11.14 = {
+		holder = yungui_1	# Liu Yuanhao
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+c_nandian = {
+	1804.8.17 = {
+		holder = yungui_0	# Bolin
+	}
+	1835.3.8 = {
+		holder = qing_23	# Ilibu
+	}
+	1860.11.14 = {
+		holder = yungui_1	# Liu Yuanhao
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+
+c_weiyuan = {
+	1804.8.17 = {
+		holder = yungui_0	# Bolin
+	}
+	1835.3.8 = {
+		holder = qing_23	# Ilibu
+	}
+	1860.11.14 = {
+		holder = yungui_1	# Liu Yuanhao
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+
+k_viet = {
+	866.1.1 = {
+		government = celestial_government
+		holder = han_3310 # Jinghai Circuit
+		liege = h_china
+		effect = {
+			if = { # Chinese influence on bureaucracy and literature
+				limit = {
+					exists = holder
+					has_dlc_feature = royal_court
+				}
+				holder = { set_court_language = language_chinese }
+			}
+ 		}
+	}
+	905.1.1 = {
+		holder = viet_khuc_1 # Khuc Thua Du
+	}
+	907.7.23 = {
+		holder = viet_khuc_2 # Khuc Hao
+	}
+	917.1.1 = {
+		holder = viet_khuc_3 # Khuc Thua My
+	}
+	930.1.1 = {
+		holder = viet_duong_2 # Duong Dinh Nghe
+	}
+	938.1.1 = {
+		holder = viet_ngo_3
+		government = meritocratic_government
+		liege = 0
+	}
+	944.2.14 = {
+		holder = viet_duong_1
+	}
+	950.1.1 = {
+		holder = viet_ngo_1 # Xuong_Van
+	}
+	951.1.1 = {
+		holder = viet_ngo_6
+	}
+	954.1.1 = {
+		holder = viet_ngo_1 # Xuong_Van
+	}
+	965.1.1 = {
+		holder = viet_ngo_2 # Xuong_Xi
+	}
+	968.1.1 = {
+		holder = viet_dinh_1 # King Bo_Linh
+	}
+	979.12.1 = {
+		holder = viet_dinh_4 # King Phe_De
+	}
+	980.1.1 = {
+		holder = viet_le_1 # Hoan
+	}
+	1005.1.1 = {
+		holder = viet_le_5 # King Trung Tong
+	}
+	1005.1.4 = {
+		holder = viet_le_6 # King Ngoa Trieu
+	}
+	1009.11.19 = {
+		holder = viet_ly_1 # King Thai_To / Cong_Uan
+	}
+	1028.4.1 = {
+		holder = viet_ly_2 # King Thai_Tong / Phat_Ma
+	}
+	1054.11.3 = {
+		holder = viet_ly_10 # King Thanh_Tong / Nhat_Ton
+	}
+	1072.2.3 = {
+		holder = viet_ly_15 # King Nhan_Tong / Can_Duc 
+	}
+	1128.1.15 = {
+		holder = viet_ly_20 # King Than_Tong / Duong_Hoan 
+	}
+	1138.1.1 = {
+		holder = viet_ly_22 # King Anh_Tong / Thien_To
+	}
+	1175.8.14 = {
+		holder = viet_ly_25 # King Cao_Tong / Long_Trat
+	}
+}
+
+c_nongdong = {
+	1804.8.17 = {
+		holder = yungui_0	# Bolin
+	}
+	1835.3.8 = {
+		holder = qing_23	# Ilibu
+	}
+	1860.11.14 = {
+		holder = yungui_1	# Liu Yuanhao
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+
+c_weichu = {
+	1804.8.17 = {
+		holder = yungui_0	# Bolin
+	}
+	1835.3.8 = {
+		holder = qing_23	# Ilibu
+	}
+	1860.11.14 = {
+		holder = yungui_1	# Liu Yuanhao
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+
+c_jianchuan = {
+	1804.8.17 = {
+		holder = yungui_0	# Bolin
+	}
+	1835.3.8 = {
+		holder = qing_23	# Ilibu
+	}
+	1860.11.14 = {
+		holder = yungui_1	# Liu Yuanhao
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+
+c_huichuan = {
+	1810.3.16 = {
+		holder = sichuan_0	# Changming
+	}
+	1831.3.25 = {
+		holder = sichuan_1	# Oshan
+	}
+	1861.7.1 = {
+		holder = sichuan_2	# Luo Bingzhang
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+
+d_yinsheng = {
+	1804.8.17 = {
+		holder = yungui_0	# Bolin
+	}
+	1835.3.8 = {
+		holder = qing_23	# Ilibu
+	}
+	1860.11.14 = {
+		holder = yungui_1	# Liu Yuanhao
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+
+c_yinsheng = {
+	1804.8.17 = {
+		holder = yungui_0	# Bolin
+	}
+	1835.3.8 = {
+		holder = qing_23	# Ilibu
+	}
+	1860.11.14 = {
+		holder = yungui_1	# Liu Yuanhao
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+
+c_shanchan = {
+	1804.8.17 = {
+		holder = yungui_0	# Bolin
+	}
+	1835.3.8 = {
+		holder = qing_23	# Ilibu
+	}
+	1860.11.14 = {
+		holder = yungui_1	# Liu Yuanhao
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+
+c_tonghai = {
+	1804.8.17 = {
+		holder = yungui_0	# Bolin
+	}
+	1835.3.8 = {
+		holder = qing_23	# Ilibu
+	}
+	1860.11.14 = {
+		holder = yungui_1	# Liu Yuanhao
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+
+c_zuining = {
+	1804.8.17 = {
+		holder = yungui_0	# Bolin
+	}
+	1835.3.8 = {
+		holder = qing_23	# Ilibu
+	}
+	1860.11.14 = {
+		holder = yungui_1	# Liu Yuanhao
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
