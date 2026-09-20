@@ -46,3 +46,68 @@ raggi = {
 	name = "dynn_Raggi"
 	culture = "italian"
 }
+
+janggiya = {
+	name = "dynn_Janggiya"
+	culture = manchu
+}
+namduru = {
+	name = "dynn_Namduru"
+	culture = manchu
+}
+bayote = {
+	name = "dynn_Bayote"
+	culture = manchu
+}
+gioro = {
+	name = "dynn_Gioro"
+	culture = manchu
+}
+feimo = {
+	name = "dynn_Feimo"
+	culture = manchu
+}
+shen = {
+	name = "dynn_Shen_7533"
+	culture = han
+}
+heseri = {
+	name = "dynn_Heseri"
+	culture = manchu
+}
+sartuk = {
+	name = "dynn_Sartuk"
+	culture = manchu
+}
+fang = {
+	name = "dynn_Fang_65B9"
+	culture = han
+}
+guwalgiya = {
+	name = "dynn_Guwalgiya"
+	culture = manchu
+}
+yan = {
+	name = "dynn_Yan_56B4"
+	culture = han
+}
+wen = {
+	name = "dynn_Wen_6E29"
+	culture = han
+}
+niohuru = {
+	name = "dynn_Niohuru"
+	culture = manchu
+}
+chen = {
+	name = "dynn_Chen_9648"
+	culture = han
+}
+yang = {
+	name = "dynn_Yang_6768"
+	culture = han
+}
+tan = {
+	name = "dynn_Tan_8B5A"
+	culture = han
+}

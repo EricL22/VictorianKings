@@ -1,9 +1,13 @@
 ﻿# generate governors for large realms
 auto_generate_vassals_at_game_start_effect = {
-	every_independent_ruler = {
+	every_ruler = {
 		limit = {
 			primary_title.tier > tier_duchy
-			realm_size > 20
+			sub_realm_size > 20
+			OR = {
+				is_independent_ruler = yes
+				primary_title.tier > tier_kingdom
+			}
 		}
 		save_temporary_scope_as = ruler
 		every_realm_de_jure_duchy = {

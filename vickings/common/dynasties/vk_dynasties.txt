@@ -107,3 +107,8 @@ dong = {
 	name = "dynn_Dong_8463"
 	culture = han
 }
+
+gogiya = {
+	name = "dynn_Gogiya"
+	culture = manchu
+}

@@ -107,6 +107,9 @@ qing_6 = {
 			add_gold = 3000
 		}
 	}
+	1799.2.7 = {
+		set_realm_capital = title:c_youzhou
+	}
 	1820.9.2 = {
 #		name = "Renzong"
 		death = yes
@@ -130,7 +133,8 @@ qing_7 = {
 	}
 	1820.9.2 = {
 		add_realm_law_skip_effects = crown_authority_1
-			add_gold = 3000
+		add_gold = 3000
+		set_realm_capital = title:c_youzhou
 	}
 	1850.2.26 = {
 #		name = "Xuanzong"
@@ -151,6 +155,10 @@ qing_8 = {
 		effect = {
 #			add_character_flag = temple_name_wenzong
 		}
+	}
+	1850.2.26 = {
+		set_realm_capital = title:c_youzhou
+		trait = consumption
 	}
 	1861.8.22 = {
 #		name = "Wenzong"
