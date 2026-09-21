@@ -123,6 +123,9 @@ tgp_pre_1914_tributary_setup_effect = {
 		title:e_goryeo.holder = {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
+		title:e_vietnam.holder = {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
 	}
 }
 base_1861_tributary_setup_effect = {

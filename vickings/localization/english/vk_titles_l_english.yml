@@ -97,6 +97,9 @@
  sichuan: "Sichuan"
  yunnan: "Yunnan"
 
+ e_vietnam:0 "Vietnam"
+ e_vietnam_adj:0 "Vietnamese"
+
  # Noble families
  d_nf_hanover: "$dynn_Hanover$ Family"
  d_nf_hanover_article: "$DEFAULT_TITLE_NAME_ARTICLE$"

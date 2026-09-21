@@ -1,0 +1,242 @@
+﻿### Nguyen Dynasty
+
+nguyen_0 = {
+	name = "Phuc_Anh"
+	dynasty = nguyen
+	religion = daoxue
+	culture = "viet"
+	trait = education_martial_4
+	trait = zealous	# strict orthodoxy
+	trait = diligent
+	1762.2.8 = {
+		birth = yes
+	}
+	1802.6.1 = {
+		effect = {
+#			add_character_flag = temple_name_shizu
+		}
+	}
+	1820.2.3 = {
+#		name = "The-To"
+		death = yes
+	}
+}
+
+nguyen_1 = {
+	name = "Phuc_Dam"
+	dynasty = nguyen
+	religion = daoxue
+	culture = "viet"
+	trait = education_martial_3
+	father = nguyen_0
+	1791.5.25 = {
+		birth = yes
+	}
+	1812.6.1 = {
+		effect = {
+#			add_character_flag = temple_name_shengzu
+		}
+	}
+	1841.1.20 = {
+#		name = "Thanh-To"
+		death = yes
+	}
+}
+
+nguyen_2 = {
+	name = "Phuc_Mien_Tong"
+	dynasty = nguyen
+	religion = daoxue
+	culture = "viet"
+	father = nguyen_1
+	1807.6.16 = {
+		birth = yes
+	}
+	1812.6.1 = {
+		effect = {
+#			add_character_flag = temple_name_xianzu
+		}
+	}
+	1847.10.4 = {
+#		name = "Hien-To"
+		death = yes
+	}
+}
+
+nguyen_3 = {
+	name = "Phuc_Hong_Nham"
+	dynasty = nguyen
+	religion = daoxue
+	culture = "viet"
+	father = nguyen_2
+	1829.9.22 = {
+		birth = yes
+	}
+	1836.1.1 = {
+		effect = {
+#			add_character_flag = temple_name_yizong
+		}
+	}
+	1883.7.19 = {
+#		name = "Duc-Tong"
+		death = yes
+	}
+}
+
+nguyen_4 = {
+	name = "Phuc_Hong_Y"
+	dynasty = nguyen
+	religion = daoxue
+	culture = "viet"
+	father = nguyen_2
+	1833.9.11 = {
+		birth = yes
+	}
+	1877.2.23 = {
+		death = yes
+	}
+}
+
+nguyen_5 = {
+	name = "Phuc_Ung_Ai"
+	dynasty = nguyen
+	religion = daoxue
+	culture = "viet"
+	father = nguyen_4
+	1852.2.23 = {
+		birth = yes
+	}
+	1883.10.6 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+
+nguyen_6 = {
+	name = "Phuc_Hong_Dat"
+	dynasty = nguyen
+	religion = daoxue
+	culture = "viet"
+	father = nguyen_2
+	1847.11.1 = {
+		birth = yes
+	}
+	1883.11.29 = {
+		death = {
+			death_reason = death_suicide
+		}
+	}
+}
+
+nguyen_7 = {
+	name = "Phuc_Hong_Cai"
+	dynasty = nguyen
+	religion = daoxue
+	culture = "viet"
+	father = nguyen_2
+	1845.12.13 = {
+		birth = yes
+	}
+	1876.5.15 = {
+		death = yes
+	}
+}
+
+nguyen_8 = {
+	name = "Phuc_Ung_Dang"
+	dynasty = nguyen
+	religion = daoxue
+	culture = "viet"
+	father = nguyen_7
+	1869.2.12 = {
+		birth = yes
+	}
+	1884.7.31 = {
+		death = yes
+	}
+}
+
+nguyen_9 = {
+	name = "Phuc_Ung_Lich"
+	dynasty = nguyen
+	religion = daoxue
+	culture = "viet"
+	father = nguyen_7
+	1871.8.3 = {
+		birth = yes
+	}
+	1944.1.14 = {
+		death = yes
+	}
+}
+
+nguyen_10 = {
+	name = "Phuc_Ung_Ky"
+	dynasty = nguyen
+	religion = daoxue
+	culture = "viet"
+	father = nguyen_7
+	1864.2.19 = {
+		birth = yes
+	}
+	1889.1.28 = {
+		death = yes
+	}
+}
+
+nguyen_11 = {
+	name = "Phuc_Buu_Lan"
+	dynasty = nguyen
+	religion = daoxue
+	culture = "viet"
+	father = nguyen_5
+	1879.3.14 = {
+		birth = yes
+	}
+	1954.3.20 = {
+		death = yes
+	}
+}
+
+nguyen_12 = {
+	name = "Phuc_Vinh_San"
+	dynasty = nguyen
+	religion = daoxue
+	culture = "viet"
+	father = nguyen_11
+	1900.9.19 = {
+		birth = yes
+	}
+	1945.12.26 = {
+		death = yes
+	}
+}
+
+nguyen_13 = {
+	name = "Phuc_Buu_Dao"	# Khai Dinh
+	dynasty = nguyen
+	religion = daoxue
+	culture = "viet"
+	father = nguyen_10
+	1885.10.8 = {
+		birth = yes
+	}
+	1925.11.6 = {
+		death = yes
+	}
+}
+
+nguyen_14 = {
+	name = "Phuc_Vinh_Thuy"	# Bao Dai
+	dynasty = nguyen
+	religion = daoxue
+	culture = "viet"
+	father = nguyen_13
+	1913.10.22 = {
+		birth = yes
+	}
+	1997.7.31 = {
+		death = yes
+	}
+}

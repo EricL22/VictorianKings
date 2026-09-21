@@ -112,3 +112,9 @@ gogiya = {
 	name = "dynn_Gogiya"
 	culture = manchu
 }
+
+
+nguyen = {
+	name = "dynn_Nguyen_962E"
+	culture = viet
+}
