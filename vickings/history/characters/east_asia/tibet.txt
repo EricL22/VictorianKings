@@ -1,0 +1,50 @@
+﻿tibet_0 = {
+	name = "Lungtok Gyatso"
+	religion = lamaism
+	culture = bodpa
+	trait = content
+	1805.1.1 = {
+		birth = yes
+	}
+	1816.3.29 = {
+		death = yes
+	}
+}
+
+tibet_1 = {
+	name = "Tsultrim Gyatso"
+	religion = lamaism
+	culture = bodpa
+	trait = content
+	1816.3.29 = {
+		birth = yes
+	}
+	1837.9.30 = {
+		death = yes
+	}
+}
+
+tibet_2 = {
+	name = "Trinley Gyatso"
+	religion = lamaism
+	culture = bodpa
+	trait = content
+	1856.12.28 = {
+		birth = yes
+	}
+	1875.4.25 = {
+		death = yes
+	}
+}
+
+tibet_3 = {
+	name = "Thubten Gyatso"
+	religion = lamaism
+	culture = bodpa
+	1876.2.12 = {
+		birth = yes
+	}
+	1933.12.17 = {
+		death = yes
+	}
+}

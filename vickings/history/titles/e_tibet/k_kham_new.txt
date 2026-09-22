@@ -1,0 +1,519 @@
+k_kham = {
+	1805.1.1 = {
+		holder = tibet_0	# Lungtok Gyatso
+		liege = h_china
+	}
+	1822.1.1 = {
+		holder = tibet_1	# Tsultrim Gyatso
+	}
+	1860.1.1 = {
+		holder = tibet_2	# Trinley Gyatso
+	}
+	1879.7.31 = {
+		holder = tibet_3	# Thubten Gyatso
+	}
+}
+d_qamdo = {
+	1805.1.1 = {
+		holder = tibet_0	# Lungtok Gyatso
+	}
+	1822.1.1 = {
+		holder = tibet_1	# Tsultrim Gyatso
+	}
+	1860.1.1 = {
+		holder = tibet_2	# Trinley Gyatso
+	}
+	1879.7.31 = {
+		holder = tibet_3	# Thubten Gyatso
+	}
+}
+c_qamdo = {
+	1805.1.1 = {
+		holder = tibet_0	# Lungtok Gyatso
+	}
+	1822.1.1 = {
+		holder = tibet_1	# Tsultrim Gyatso
+	}
+	1860.1.1 = {
+		holder = tibet_2	# Trinley Gyatso
+	}
+	1879.7.31 = {
+		holder = tibet_3	# Thubten Gyatso
+	}
+}
+c_dengqen = {
+	1805.1.1 = {
+		holder = tibet_0	# Lungtok Gyatso
+	}
+	1822.1.1 = {
+		holder = tibet_1	# Tsultrim Gyatso
+	}
+	1860.1.1 = {
+		holder = tibet_2	# Trinley Gyatso
+	}
+	1879.7.31 = {
+		holder = tibet_3	# Thubten Gyatso
+	}
+}
+c_baqen = {
+	1805.1.1 = {
+		holder = tibet_0	# Lungtok Gyatso
+	}
+	1822.1.1 = {
+		holder = tibet_1	# Tsultrim Gyatso
+	}
+	1860.1.1 = {
+		holder = tibet_2	# Trinley Gyatso
+	}
+	1879.7.31 = {
+		holder = tibet_3	# Thubten Gyatso
+	}
+}
+c_sog = {
+	1805.1.1 = {
+		holder = tibet_0	# Lungtok Gyatso
+	}
+	1822.1.1 = {
+		holder = tibet_1	# Tsultrim Gyatso
+	}
+	1860.1.1 = {
+		holder = tibet_2	# Trinley Gyatso
+	}
+	1879.7.31 = {
+		holder = tibet_3	# Thubten Gyatso
+	}
+}
+c_banbar = {
+	1805.1.1 = {
+		holder = tibet_0	# Lungtok Gyatso
+	}
+	1822.1.1 = {
+		holder = tibet_1	# Tsultrim Gyatso
+	}
+	1860.1.1 = {
+		holder = tibet_2	# Trinley Gyatso
+	}
+	1879.7.31 = {
+		holder = tibet_3	# Thubten Gyatso
+	}
+}
+d_boyul = {
+	1805.1.1 = {
+		holder = tibet_0	# Lungtok Gyatso
+	}
+	1822.1.1 = {
+		holder = tibet_1	# Tsultrim Gyatso
+	}
+	1860.1.1 = {
+		holder = tibet_2	# Trinley Gyatso
+	}
+	1879.7.31 = {
+		holder = tibet_3	# Thubten Gyatso
+	}
+}
+c_bome = {
+	1805.1.1 = {
+		holder = tibet_0	# Lungtok Gyatso
+	}
+	1822.1.1 = {
+		holder = tibet_1	# Tsultrim Gyatso
+	}
+	1860.1.1 = {
+		holder = tibet_2	# Trinley Gyatso
+	}
+	1879.7.31 = {
+		holder = tibet_3	# Thubten Gyatso
+	}
+}
+c_baxoi = {
+	1805.1.1 = {
+		holder = tibet_0	# Lungtok Gyatso
+	}
+	1822.1.1 = {
+		holder = tibet_1	# Tsultrim Gyatso
+	}
+	1860.1.1 = {
+		holder = tibet_2	# Trinley Gyatso
+	}
+	1879.7.31 = {
+		holder = tibet_3	# Thubten Gyatso
+	}
+}
+c_zogang = {
+	1805.1.1 = {
+		holder = tibet_0	# Lungtok Gyatso
+	}
+	1822.1.1 = {
+		holder = tibet_1	# Tsultrim Gyatso
+	}
+	1860.1.1 = {
+		holder = tibet_2	# Trinley Gyatso
+	}
+	1879.7.31 = {
+		holder = tibet_3	# Thubten Gyatso
+	}
+}
+d_nyingchi = {
+	1805.1.1 = {
+		holder = tibet_0	# Lungtok Gyatso
+	}
+	1822.1.1 = {
+		holder = tibet_1	# Tsultrim Gyatso
+	}
+	1860.1.1 = {
+		holder = tibet_2	# Trinley Gyatso
+	}
+	1879.7.31 = {
+		holder = tibet_3	# Thubten Gyatso
+	}
+}
+c_nyingchi = {
+	1805.1.1 = {
+		holder = tibet_0	# Lungtok Gyatso
+	}
+	1822.1.1 = {
+		holder = tibet_1	# Tsultrim Gyatso
+	}
+	1860.1.1 = {
+		holder = tibet_2	# Trinley Gyatso
+	}
+	1879.7.31 = {
+		holder = tibet_3	# Thubten Gyatso
+	}
+}
+c_gongbo = {
+	1805.1.1 = {
+		holder = tibet_0	# Lungtok Gyatso
+	}
+	1822.1.1 = {
+		holder = tibet_1	# Tsultrim Gyatso
+	}
+	1860.1.1 = {
+		holder = tibet_2	# Trinley Gyatso
+	}
+	1879.7.31 = {
+		holder = tibet_3	# Thubten Gyatso
+	}
+}
+d_nangqen = {
+	1805.1.1 = {
+		holder = tibet_0	# Lungtok Gyatso
+	}
+	1822.1.1 = {
+		holder = tibet_1	# Tsultrim Gyatso
+	}
+	1860.1.1 = {
+		holder = tibet_2	# Trinley Gyatso
+	}
+	1879.7.31 = {
+		holder = tibet_3	# Thubten Gyatso
+	}
+}
+c_nangqen = {
+	1805.1.1 = {
+		holder = tibet_0	# Lungtok Gyatso
+	}
+	1822.1.1 = {
+		holder = tibet_1	# Tsultrim Gyatso
+	}
+	1860.1.1 = {
+		holder = tibet_2	# Trinley Gyatso
+	}
+	1879.7.31 = {
+		holder = tibet_3	# Thubten Gyatso
+	}
+}
+c_gyegumdo = {
+	1805.1.1 = {
+		holder = tibet_0	# Lungtok Gyatso
+	}
+	1822.1.1 = {
+		holder = tibet_1	# Tsultrim Gyatso
+	}
+	1860.1.1 = {
+		holder = tibet_2	# Trinley Gyatso
+	}
+	1879.7.31 = {
+		holder = tibet_3	# Thubten Gyatso
+	}
+}
+d_lhatok = {
+	1805.1.1 = {
+		holder = tibet_0	# Lungtok Gyatso
+	}
+	1822.1.1 = {
+		holder = tibet_1	# Tsultrim Gyatso
+	}
+	1860.1.1 = {
+		holder = tibet_2	# Trinley Gyatso
+	}
+	1879.7.31 = {
+		holder = tibet_3	# Thubten Gyatso
+	}
+}
+c_lhatok = {
+	1805.1.1 = {
+		holder = tibet_0	# Lungtok Gyatso
+	}
+	1822.1.1 = {
+		holder = tibet_1	# Tsultrim Gyatso
+	}
+	1860.1.1 = {
+		holder = tibet_2	# Trinley Gyatso
+	}
+	1879.7.31 = {
+		holder = tibet_3	# Thubten Gyatso
+	}
+}
+c_zhagyab = {
+	1805.1.1 = {
+		holder = tibet_0	# Lungtok Gyatso
+	}
+	1822.1.1 = {
+		holder = tibet_1	# Tsultrim Gyatso
+	}
+	1860.1.1 = {
+		holder = tibet_2	# Trinley Gyatso
+	}
+	1879.7.31 = {
+		holder = tibet_3	# Thubten Gyatso
+	}
+}
+c_gonjo = {
+	1805.1.1 = {
+		holder = tibet_0	# Lungtok Gyatso
+	}
+	1822.1.1 = {
+		holder = tibet_1	# Tsultrim Gyatso
+	}
+	1860.1.1 = {
+		holder = tibet_2	# Trinley Gyatso
+	}
+	1879.7.31 = {
+		holder = tibet_3	# Thubten Gyatso
+	}
+}
+d_lingtsang = {
+	1805.1.1 = {
+		holder = tibet_0	# Lungtok Gyatso
+	}
+	1822.1.1 = {
+		holder = tibet_1	# Tsultrim Gyatso
+	}
+	1860.1.1 = {
+		holder = tibet_2	# Trinley Gyatso
+	}
+	1879.7.31 = {
+		holder = tibet_3	# Thubten Gyatso
+	}
+}
+c_lingtsang = {
+	1805.1.1 = {
+		holder = tibet_0	# Lungtok Gyatso
+	}
+	1822.1.1 = {
+		holder = tibet_1	# Tsultrim Gyatso
+	}
+	1860.1.1 = {
+		holder = tibet_2	# Trinley Gyatso
+	}
+	1879.7.31 = {
+		holder = tibet_3	# Thubten Gyatso
+	}
+}
+c_ariksar = {
+	1805.1.1 = {
+		holder = tibet_0	# Lungtok Gyatso
+	}
+	1822.1.1 = {
+		holder = tibet_1	# Tsultrim Gyatso
+	}
+	1860.1.1 = {
+		holder = tibet_2	# Trinley Gyatso
+	}
+	1879.7.31 = {
+		holder = tibet_3	# Thubten Gyatso
+	}
+}
+d_dege = {
+	1805.1.1 = {
+		holder = tibet_0	# Lungtok Gyatso
+	}
+	1822.1.1 = {
+		holder = tibet_1	# Tsultrim Gyatso
+	}
+	1860.1.1 = {
+		holder = tibet_2	# Trinley Gyatso
+	}
+	1879.7.31 = {
+		holder = tibet_3	# Thubten Gyatso
+	}
+}
+c_dege = {
+	1805.1.1 = {
+		holder = tibet_0	# Lungtok Gyatso
+	}
+	1822.1.1 = {
+		holder = tibet_1	# Tsultrim Gyatso
+	}
+	1860.1.1 = {
+		holder = tibet_2	# Trinley Gyatso
+	}
+	1879.7.31 = {
+		holder = tibet_3	# Thubten Gyatso
+	}
+}
+c_pelyul = {
+	1805.1.1 = {
+		holder = tibet_0	# Lungtok Gyatso
+	}
+	1822.1.1 = {
+		holder = tibet_1	# Tsultrim Gyatso
+	}
+	1860.1.1 = {
+		holder = tibet_2	# Trinley Gyatso
+	}
+	1879.7.31 = {
+		holder = tibet_3	# Thubten Gyatso
+	}
+}
+c_garze = {
+	1805.1.1 = {
+		holder = tibet_0	# Lungtok Gyatso
+	}
+	1822.1.1 = {
+		holder = tibet_1	# Tsultrim Gyatso
+	}
+	1860.1.1 = {
+		holder = tibet_2	# Trinley Gyatso
+	}
+	1879.7.31 = {
+		holder = tibet_3	# Thubten Gyatso
+	}
+}
+d_batang = {
+	1805.1.1 = {
+		holder = tibet_0	# Lungtok Gyatso
+	}
+	1822.1.1 = {
+		holder = tibet_1	# Tsultrim Gyatso
+	}
+	1860.1.1 = {
+		holder = tibet_2	# Trinley Gyatso
+	}
+	1879.7.31 = {
+		holder = tibet_3	# Thubten Gyatso
+	}
+}
+c_batang = {
+	1805.1.1 = {
+		holder = tibet_0	# Lungtok Gyatso
+	}
+	1822.1.1 = {
+		holder = tibet_1	# Tsultrim Gyatso
+	}
+	1860.1.1 = {
+		holder = tibet_2	# Trinley Gyatso
+	}
+	1879.7.31 = {
+		holder = tibet_3	# Thubten Gyatso
+	}
+}
+c_markam = {
+	1805.1.1 = {
+		holder = tibet_0	# Lungtok Gyatso
+	}
+	1822.1.1 = {
+		holder = tibet_1	# Tsultrim Gyatso
+	}
+	1860.1.1 = {
+		holder = tibet_2	# Trinley Gyatso
+	}
+	1879.7.31 = {
+		holder = tibet_3	# Thubten Gyatso
+	}
+}
+c_deqen = {
+	1805.1.1 = {
+		holder = tibet_0	# Lungtok Gyatso
+	}
+	1822.1.1 = {
+		holder = tibet_1	# Tsultrim Gyatso
+	}
+	1860.1.1 = {
+		holder = tibet_2	# Trinley Gyatso
+	}
+	1879.7.31 = {
+		holder = tibet_3	# Thubten Gyatso
+	}
+}
+c_gyaitang = {
+	1805.1.1 = {
+		holder = tibet_0	# Lungtok Gyatso
+	}
+	1822.1.1 = {
+		holder = tibet_1	# Tsultrim Gyatso
+	}
+	1860.1.1 = {
+		holder = tibet_2	# Trinley Gyatso
+	}
+	1879.7.31 = {
+		holder = tibet_3	# Thubten Gyatso
+	}
+}
+d_litang = {
+	1805.1.1 = {
+		holder = tibet_0	# Lungtok Gyatso
+	}
+	1822.1.1 = {
+		holder = tibet_1	# Tsultrim Gyatso
+	}
+	1860.1.1 = {
+		holder = tibet_2	# Trinley Gyatso
+	}
+	1879.7.31 = {
+		holder = tibet_3	# Thubten Gyatso
+	}
+}
+c_litang = {
+	1805.1.1 = {
+		holder = tibet_0	# Lungtok Gyatso
+	}
+	1822.1.1 = {
+		holder = tibet_1	# Tsultrim Gyatso
+	}
+	1860.1.1 = {
+		holder = tibet_2	# Trinley Gyatso
+	}
+	1879.7.31 = {
+		holder = tibet_3	# Thubten Gyatso
+	}
+}
+c_lenggu = {
+	1805.1.1 = {
+		holder = tibet_0	# Lungtok Gyatso
+	}
+	1822.1.1 = {
+		holder = tibet_1	# Tsultrim Gyatso
+	}
+	1860.1.1 = {
+		holder = tibet_2	# Trinley Gyatso
+	}
+	1879.7.31 = {
+		holder = tibet_3	# Thubten Gyatso
+	}
+}
+c_nyagrong = {
+	1805.1.1 = {
+		holder = tibet_0	# Lungtok Gyatso
+	}
+	1822.1.1 = {
+		holder = tibet_1	# Tsultrim Gyatso
+	}
+	1860.1.1 = {
+		holder = tibet_2	# Trinley Gyatso
+	}
+	1879.7.31 = {
+		holder = tibet_3	# Thubten Gyatso
+	}
+}

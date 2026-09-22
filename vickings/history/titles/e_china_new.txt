@@ -7196,3 +7196,39 @@ c_yongxing = {
 		holder = eas_00501	# Yuan Shikai
 	}
 }
+
+c_qilin = {
+	1810.1.1 = {
+		holder = shaangan_0	# Nayancheng
+	}
+	1814.3.1 = {
+		holder = shaangan_1	# Xianfu
+	}
+	1835.1.1 = {
+		holder = shaangan_2	# Husungge
+	}
+	1860.1.1 = {
+		holder = shaangan_3	# Lebin
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
+
+c_yalong = {
+	1810.1.1 = {
+		holder = shaangan_0	# Nayancheng
+	}
+	1814.3.1 = {
+		holder = shaangan_1	# Xianfu
+	}
+	1835.1.1 = {
+		holder = shaangan_2	# Husungge
+	}
+	1860.1.1 = {
+		holder = shaangan_3	# Lebin
+	}
+	1912.3.10 = {
+		holder = eas_00501	# Yuan Shikai
+	}
+}
