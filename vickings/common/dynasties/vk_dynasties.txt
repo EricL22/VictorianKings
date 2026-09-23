@@ -118,3 +118,18 @@ nguyen = {
 	name = "dynn_Nguyen_962E"
 	culture = viet
 }
+
+wangchuck = {
+	name = "dynn_Wangchuck"
+	culture = lhomon
+}
+
+namgyal = {
+	name = "dynn_Namgyal"
+	culture = bodpa
+}
+
+namgyal_chogyal = {
+	name = "dynn_Namgyal_Chogyal"
+	culture = bodpa
+}

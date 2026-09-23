@@ -6,6 +6,23 @@
 	1740.1.1 = {
 		birth = yes
 	}
+	1762.1.1 = {
+		effect = {
+			add_character_flag = passed_provincial_exam
+			add_character_modifier = {
+				modifier = tgp_passed_provincial_exam_modifier
+			}
+			add_character_flag = passed_metropolitan_exam
+			add_character_modifier = {
+				modifier = tgp_passed_metropolitan_exam_modifier
+			}
+			add_character_flag = passed_palace_exam
+			add_character_modifier = {
+				modifier = tgp_passed_palace_exam_modifier
+			}
+			change_merit = 12000
+		}
+	}
 	1812.1.1 = {
 		give_council_position = councillor_chancellor
 	}
@@ -20,6 +37,23 @@ qing_chancellor_1 = {
 	culture = manchu
 	1782.1.1 = {
 		birth = yes
+	}
+	1805.1.1 = {
+		effect = {
+			add_character_flag = passed_provincial_exam
+			add_character_modifier = {
+				modifier = tgp_passed_provincial_exam_modifier
+			}
+			add_character_flag = passed_metropolitan_exam
+			add_character_modifier = {
+				modifier = tgp_passed_metropolitan_exam_modifier
+			}
+			add_character_flag = passed_palace_exam
+			add_character_modifier = {
+				modifier = tgp_passed_palace_exam_modifier
+			}
+			change_merit = 12000
+		}
 	}
 	1836.1.1 = {
 		give_council_position = councillor_chancellor
@@ -51,7 +85,7 @@ shaangan_0 = {
 			add_character_modifier = {
 				modifier = tgp_passed_palace_exam_modifier
 			}
-			change_merit = 1000
+			change_merit = 12000
 		}
 	}
 	1833.1.1 = {
@@ -80,7 +114,7 @@ shaangan_1 = {
 			add_character_modifier = {
 				modifier = tgp_passed_palace_exam_modifier
 			}
-			change_merit = 1000
+			change_merit = 12000
 		}
 	}
 	1821.1.1 = {
@@ -109,7 +143,7 @@ shaangan_2 = {
 			add_character_modifier = {
 				modifier = tgp_passed_palace_exam_modifier
 			}
-			change_merit = 1000
+			change_merit = 12000
 		}
 	}
 	1847.1.1 = {
@@ -138,7 +172,7 @@ shaangan_3 = {
 			add_character_modifier = {
 				modifier = tgp_passed_palace_exam_modifier
 			}
-			change_merit = 1000
+			change_merit = 12000
 		}
 	}
 	1875.1.1 = {
@@ -168,7 +202,7 @@ shanxi_0 = {
 			add_character_modifier = {
 				modifier = tgp_passed_palace_exam_modifier
 			}
-			change_merit = 1000
+			change_merit = 12000
 		}
 	}
 	1820.1.1 = {	# unknown
@@ -197,7 +231,7 @@ shanxi_1 = {
 			add_character_modifier = {
 				modifier = tgp_passed_palace_exam_modifier
 			}
-			change_merit = 1000
+			change_merit = 12000
 		}
 	}
 	1839.1.1 = {
@@ -226,7 +260,7 @@ shanxi_2 = {
 			add_character_modifier = {
 				modifier = tgp_passed_palace_exam_modifier
 			}
-			change_merit = 1000
+			change_merit = 12000
 		}
 	}
 	1879.1.1 = {
@@ -256,7 +290,7 @@ henan_0 = {
 			add_character_modifier = {
 				modifier = tgp_passed_palace_exam_modifier
 			}
-			change_merit = 1000
+			change_merit = 12000
 		}
 	}
 	1838.1.26 = {
@@ -285,7 +319,7 @@ henan_1 = {
 			add_character_modifier = {
 				modifier = tgp_passed_palace_exam_modifier
 			}
-			change_merit = 1000
+			change_merit = 12000
 		}
 	}
 	1822.1.1 = {
@@ -314,7 +348,7 @@ henan_2 = {
 			add_character_modifier = {
 				modifier = tgp_passed_palace_exam_modifier
 			}
-			change_merit = 1000
+			change_merit = 12000
 		}
 	}
 	1862.1.1 = {
@@ -343,7 +377,7 @@ henan_3 = {
 			add_character_modifier = {
 				modifier = tgp_passed_palace_exam_modifier
 			}
-			change_merit = 1000
+			change_merit = 12000
 		}
 	}
 	1876.4.9 = {
@@ -373,7 +407,7 @@ zhili_0 = {
 			add_character_modifier = {
 				modifier = tgp_passed_palace_exam_modifier
 			}
-			change_merit = 1000
+			change_merit = 12000
 		}
 	}
 	1832.1.1 = {
@@ -402,7 +436,7 @@ zhili_1 = {
 			add_character_modifier = {
 				modifier = tgp_passed_palace_exam_modifier
 			}
-			change_merit = 1000
+			change_merit = 12000
 		}
 	}
 	1854.8.3 = {
@@ -431,7 +465,7 @@ zhili_2 = {
 			add_character_modifier = {
 				modifier = tgp_passed_palace_exam_modifier
 			}
-			change_merit = 1000
+			change_merit = 12000
 		}
 	}
 	1884.1.1 = {
@@ -461,7 +495,7 @@ shandong_0 = {
 			add_character_modifier = {
 				modifier = tgp_passed_palace_exam_modifier
 			}
-			change_merit = 1000
+			change_merit = 12000
 		}
 	}
 	1827.1.1 = {
@@ -490,7 +524,7 @@ shandong_1 = {
 			add_character_modifier = {
 				modifier = tgp_passed_palace_exam_modifier
 			}
-			change_merit = 1000
+			change_merit = 12000
 		}
 	}
 	1823.1.1 = {
@@ -519,7 +553,7 @@ shandong_2 = {
 			add_character_modifier = {
 				modifier = tgp_passed_palace_exam_modifier
 			}
-			change_merit = 1000
+			change_merit = 12000
 		}
 	}
 	1849.1.1 = {
@@ -548,7 +582,7 @@ shandong_3 = {
 			add_character_modifier = {
 				modifier = tgp_passed_palace_exam_modifier
 			}
-			change_merit = 1000
+			change_merit = 12000
 		}
 	}
 	1870.1.1 = {
@@ -578,7 +612,7 @@ liangjiang_0 = {
 			add_character_modifier = {
 				modifier = tgp_passed_palace_exam_modifier
 			}
-			change_merit = 1000
+			change_merit = 12000
 		}
 	}
 	1816.12.25 = {
@@ -607,7 +641,7 @@ liangjiang_1 = {
 			add_character_modifier = {
 				modifier = tgp_passed_palace_exam_modifier
 			}
-			change_merit = 1000
+			change_merit = 12000
 		}
 	}
 	1839.7.12 = {
@@ -634,6 +668,7 @@ liangjiang_2 = {
 			add_character_modifier = {
 				modifier = tgp_passed_provincial_exam_modifier
 			}
+			change_merit = 1000
 		}
 	}
 	1838.1.1 = {
@@ -647,7 +682,7 @@ liangjiang_2 = {
 			add_character_modifier = {
 				modifier = tgp_passed_palace_exam_modifier
 			}
-			change_merit = 1000
+			change_merit = 12000
 		}
 	}
 	1872.3.12 = {
@@ -677,7 +712,7 @@ huguang_0 = {
 			add_character_modifier = {
 				modifier = tgp_passed_palace_exam_modifier
 			}
-			change_merit = 1000
+			change_merit = 12000
 		}
 	}
 	1816.10.13 = {
@@ -706,7 +741,7 @@ huguang_1 = {
 			add_character_modifier = {
 				modifier = tgp_passed_palace_exam_modifier
 			}
-			change_merit = 1000
+			change_merit = 12000
 		}
 	}
 	1857.1.1 = {
@@ -738,7 +773,7 @@ huguang_2 = {
 			add_character_modifier = {
 				modifier = tgp_passed_palace_exam_modifier
 			}
-			change_merit = 1000
+			change_merit = 12000
 		}
 	}
 	1871.1.1 = {
@@ -768,7 +803,7 @@ liangguang_0 = {
 			add_character_modifier = {
 				modifier = tgp_passed_palace_exam_modifier
 			}
-			change_merit = 1000
+			change_merit = 12000
 		}
 	}
 	1830.1.1 = {
@@ -797,7 +832,7 @@ liangguang_1 = {
 			add_character_modifier = {
 				modifier = tgp_passed_palace_exam_modifier
 			}
-			change_merit = 1000
+			change_merit = 12000
 		}
 	}
 	1846.1.1 = {
@@ -826,7 +861,7 @@ liangguang_2 = {
 			add_character_modifier = {
 				modifier = tgp_passed_palace_exam_modifier
 			}
-			change_merit = 1000
+			change_merit = 12000
 		}
 	}
 	1867.1.1 = {
@@ -856,7 +891,7 @@ minzhe_0 = {
 			add_character_modifier = {
 				modifier = tgp_passed_palace_exam_modifier
 			}
-			change_merit = 1000
+			change_merit = 12000
 		}
 	}
 	1818.1.1 = {
@@ -885,7 +920,7 @@ minzhe_1 = {
 			add_character_modifier = {
 				modifier = tgp_passed_palace_exam_modifier
 			}
-			change_merit = 1000
+			change_merit = 12000
 		}
 	}
 	1848.1.1 = {
@@ -914,7 +949,7 @@ minzhe_2 = {
 			add_character_modifier = {
 				modifier = tgp_passed_palace_exam_modifier
 			}
-			change_merit = 1000
+			change_merit = 12000
 		}
 	}
 	1870.1.1 = {	# unknown
@@ -944,7 +979,7 @@ sichuan_0 = {
 			add_character_modifier = {
 				modifier = tgp_passed_palace_exam_modifier
 			}
-			change_merit = 1000
+			change_merit = 12000
 		}
 	}
 	1817.10.22 = {
@@ -973,7 +1008,7 @@ sichuan_1 = {
 			add_character_modifier = {
 				modifier = tgp_passed_palace_exam_modifier
 			}
-			change_merit = 1000
+			change_merit = 12000
 		}
 	}
 	1838.8.28 = {	# 道光十八年七月九日
@@ -1003,7 +1038,7 @@ sichuan_2 = {
 			add_character_modifier = {
 				modifier = tgp_passed_palace_exam_modifier
 			}
-			change_merit = 1000
+			change_merit = 12000
 		}
 	}
 	1867.9.1 = {
@@ -1033,7 +1068,7 @@ yungui_0 = {
 			add_character_modifier = {
 				modifier = tgp_passed_palace_exam_modifier
 			}
-			change_merit = 1000
+			change_merit = 12000
 		}
 	}
 	1823.1.1 = {
@@ -1062,7 +1097,7 @@ yungui_1 = {
 			add_character_modifier = {
 				modifier = tgp_passed_palace_exam_modifier
 			}
-			change_merit = 1000
+			change_merit = 12000
 		}
 	}
 	1865.1.1 = {

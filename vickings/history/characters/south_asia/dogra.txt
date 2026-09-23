@@ -1,0 +1,69 @@
+﻿### Dogra Dynasty (Jammu and Kashmir)
+dogra_0 = {
+	name = "Gulab Singh"
+	dynasty = punjabi_dogra_dynasty
+	religion = vaishnavism
+	culture = punjabi
+	1792.10.21 = {
+		birth = yes
+	}
+	1857.6.30 = {
+		death = yes
+	}
+}
+
+dogra_1 = {
+	name = "Ranbir Singh"
+	dynasty = punjabi_dogra_dynasty
+	religion = vaishnavism
+	culture = punjabi
+	father = dogra_0
+	1830.8.1 = {
+		birth = yes
+	}
+	1885.9.12 = {
+		death = yes
+	}
+}
+
+dogra_2 = {
+	name = "Pratap Singh"
+	dynasty = punjabi_dogra_dynasty
+	religion = vaishnavism
+	culture = punjabi
+	father = dogra_1
+	1848.7.18 = {
+		birth = yes
+	}
+	1925.9.23 = {
+		death = yes
+	}
+}
+
+dogra_3 = {
+	name = "Amar Singh"
+	dynasty = punjabi_dogra_dynasty
+	religion = vaishnavism
+	culture = punjabi
+	father = dogra_1
+	1864.1.14 = {
+		birth = yes
+	}
+	1909.3.26 = {
+		death = yes
+	}
+}
+
+dogra_4 = {
+	name = "Hari Singh"
+	dynasty = punjabi_dogra_dynasty
+	religion = vaishnavism
+	culture = punjabi
+	father = dogra_3
+	1895.9.1 = {
+		birth = yes
+	}
+	1961.4.26 = {
+		death = yes
+	}
+}

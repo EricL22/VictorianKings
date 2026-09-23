@@ -1,5 +1,5 @@
 ﻿solomonid_0 = {
-	name = "Niwaya Maryam"
+	name = "niwaya_maryam"
 	dynasty = 7246
 	religion = "coptic"
 	culture = "ethiopian"
@@ -69,7 +69,7 @@ solomonid_4 = {
 }
 
 solomonid_5 = {
-	name = "Zara Yaqob"
+	name = "zara_yaqob"
 	dynasty = 7246
 	religion = "coptic"
 	culture = "ethiopian"
@@ -83,7 +83,7 @@ solomonid_5 = {
 }
 
 solomonid_6 = {
-	name = "Baeda Maryam"	# I of Ethiopia
+	name = "baeda_maryam"	# I of Ethiopia
 	dynasty = 7246
 	religion = "coptic"
 	culture = "ethiopian"
@@ -227,7 +227,7 @@ solomonid_15 = {
 }
 
 solomonid_16 = {
-	name = "Tekle Haymanot"	# I of Ethiopia
+	name = "tekle_haymanot"	# I of Ethiopia
 	dynasty = 7246
 	religion = "coptic"
 	culture = "ethiopian"
@@ -313,7 +313,7 @@ solomonid_21 = {
 }
 
 solomonid_22 = {
-	name = "Tekle Haymanot"	# II of Ethiopia
+	name = "tekle_haymanot"	# II of Ethiopia
 	dynasty = 7246
 	religion = "coptic"
 	culture = "ethiopian"
@@ -370,7 +370,7 @@ solomonid_25 = {
 }
 
 solomonid_26 = {
-	name = "Baeda Maryam"	# II of Ethiopia
+	name = "baeda_maryam"	# II of Ethiopia
 	dynasty = 7246
 	religion = "coptic"
 	culture = "ethiopian"
@@ -440,7 +440,7 @@ solomonid_30 = {
 }
 
 solomonid_31 = {
-	name = "Tekle Giyorgis"	# I of Ethiopia
+	name = "tekle_giyorgis"	# I of Ethiopia
 	dynasty = 7246
 	religion = "coptic"
 	culture = "ethiopian"
@@ -482,7 +482,7 @@ solomonid_33 = {
 }
 
 solomonid_34 = {
-	name = "Egwale Seyon"
+	name = "egwale_seyon"
 	dynasty = 7246
 	religion = "coptic"
 	culture = "ethiopian"
@@ -591,7 +591,7 @@ solomonid_41 = {
 }
 
 solomonid_42 = {
-	name = "Sahle Dengel"
+	name = "sahle_dengel"
 	dynasty = 7246
 	religion = "coptic"
 	culture = "ethiopian"

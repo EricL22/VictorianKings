@@ -1,0 +1,61 @@
+﻿### Druk Desi (Bhutan)
+bhutan_0 = {
+	name = "yeshey_gyaltshen"
+	religion = lamaism
+	culture = lhomon
+	1781.1.1 = {
+		birth = yes
+	}
+	1830.1.1 = {
+		death = yes
+	}
+}
+bhutan_1 = {
+	name = "chhoki_gyaltshen"
+	religion = lamaism
+	culture = lhomon
+	1793.1.1 = {		# dates are completely guesswork
+		birth = yes
+	}
+	1850.1.1 = {
+		death = yes
+	}
+}
+bhutan_2 = {
+	name = "phuntsho_namgyel"
+	religion = lamaism
+	culture = lhomon
+	1805.1.1 = {		# dates are completely guesswork
+		birth = yes
+	}
+	1870.1.1 = {
+		death = yes
+	}
+}
+
+### Wangchuck dynasty
+bhutan_10 = {
+	name = "Ugyen"
+	dynasty = wangchuck
+	religion = lamaism
+	culture = lhomon
+	1862.6.11 = {
+		birth = yes
+	}
+	1926.8.26 = {
+		death = yes
+	}
+}
+bhutan_11 = {
+	name = "Jigme"
+	dynasty = wangchuck
+	religion = lamaism
+	culture = lhomon
+	father = bhutan_10
+	1905.1.1 = {
+		birth = yes
+	}
+	1952.3.30 = {
+		death = yes
+	}
+}

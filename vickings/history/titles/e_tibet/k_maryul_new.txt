@@ -1,37 +1,202 @@
-#k_maryul = {
-#}
-#d_ladakh = {
-#}
-#c_leh = {
-#}
-#c_demchok = {
-#}
-#c_diskit = {
-#}
-#d_zanskar = {
-#}
-#c_padum = {
-#}
-#c_darcha = {
-#}
-#c_purig = {
-#}
-#d_baltiyul = {
-#}
-#c_skardu = {
-#}
-#c_shigar = {
-#}
-#c_khaplu = {
-#}
-#d_aksai_chin = {
-#}
-#c_khurnak = {
-#}
-#c_thaldat = {
-#}
-#c_sumdo = {
-#}
+k_maryul = {
+	1753.1.1 = {	# Ladakh
+		holder = ladakh_0	# Tsewang Namgyal II
+	}
+	1782.1.1 = {
+		holder = ladakh_1	# Tseten Namgyal
+	}
+	1802.1.1 = {
+		holder = ladakh_2	# Tsepal Dondup Namgyal
+	}
+	1840.1.1 = {
+		holder = ladakh_4	# Kunga Namgyal II
+	}
+	1846.3.16 = {	# Jammu and Kashmir
+		holder = dogra_0	# Gulab Singh
+	}
+	1856.2.20 = {
+		holder = dogra_1	# Ranbir Singh
+	}
+	1885.9.12 = {
+		holder = dogra_2	# Pratap Singh
+	}
+}
+d_ladakh = {
+	1802.1.1 = {	# Ladakh
+		holder = ladakh_2	# Tsepal Dondup Namgyal
+	}
+	1856.2.20 = {	# Jammu and Kashmir
+		holder = dogra_1	# Ranbir Singh
+	}
+	1885.9.12 = {
+		holder = dogra_2	# Pratap Singh
+	}
+}
+c_leh = {
+	1802.1.1 = {	# Ladakh
+		holder = ladakh_2	# Tsepal Dondup Namgyal
+	}
+	1856.2.20 = {	# Jammu and Kashmir
+		holder = dogra_1	# Ranbir Singh
+	}
+	1885.9.12 = {
+		holder = dogra_2	# Pratap Singh
+	}
+}
+c_demchok = {
+	1802.1.1 = {	# Ladakh
+		holder = ladakh_2	# Tsepal Dondup Namgyal
+	}
+	1856.2.20 = {	# Jammu and Kashmir
+		holder = dogra_1	# Ranbir Singh
+	}
+	1885.9.12 = {
+		holder = dogra_2	# Pratap Singh
+	}
+}
+c_diskit = {
+	1802.1.1 = {	# Ladakh
+		holder = ladakh_2	# Tsepal Dondup Namgyal
+	}
+	1856.2.20 = {	# Jammu and Kashmir
+		holder = dogra_1	# Ranbir Singh
+	}
+	1885.9.12 = {
+		holder = dogra_2	# Pratap Singh
+	}
+}
+d_zanskar = {
+	1802.1.1 = {	# Ladakh
+		holder = ladakh_2	# Tsepal Dondup Namgyal
+	}
+	1856.2.20 = {	# Jammu and Kashmir
+		holder = dogra_1	# Ranbir Singh
+	}
+	1885.9.12 = {
+		holder = dogra_2	# Pratap Singh
+	}
+}
+c_padum = {
+	1802.1.1 = {	# Ladakh
+		holder = ladakh_2	# Tsepal Dondup Namgyal
+	}
+	1856.2.20 = {	# Jammu and Kashmir
+		holder = dogra_1	# Ranbir Singh
+	}
+	1885.9.12 = {
+		holder = dogra_2	# Pratap Singh
+	}
+}
+c_darcha = {
+	1802.1.1 = {	# Ladakh
+		holder = ladakh_2	# Tsepal Dondup Namgyal
+	}
+	1856.2.20 = {	# Jammu and Kashmir
+		holder = dogra_1	# Ranbir Singh
+	}
+	1885.9.12 = {
+		holder = dogra_2	# Pratap Singh
+	}
+}
+c_purig = {
+	1802.1.1 = {	# Ladakh
+		holder = ladakh_2	# Tsepal Dondup Namgyal
+	}
+	1856.2.20 = {	# Jammu and Kashmir
+		holder = dogra_1	# Ranbir Singh
+	}
+	1885.9.12 = {
+		holder = dogra_2	# Pratap Singh
+	}
+}
+d_baltiyul = {
+	1802.1.1 = {	# Ladakh
+		holder = ladakh_2	# Tsepal Dondup Namgyal
+	}
+	1856.2.20 = {	# Jammu and Kashmir
+		holder = dogra_1	# Ranbir Singh
+	}
+	1885.9.12 = {
+		holder = dogra_2	# Pratap Singh
+	}
+}
+c_skardu = {
+	1802.1.1 = {	# Ladakh
+		holder = ladakh_2	# Tsepal Dondup Namgyal
+	}
+	1856.2.20 = {	# Jammu and Kashmir
+		holder = dogra_1	# Ranbir Singh
+	}
+	1885.9.12 = {
+		holder = dogra_2	# Pratap Singh
+	}
+}
+c_shigar = {
+	1802.1.1 = {	# Ladakh
+		holder = ladakh_2	# Tsepal Dondup Namgyal
+	}
+	1856.2.20 = {	# Jammu and Kashmir
+		holder = dogra_1	# Ranbir Singh
+	}
+	1885.9.12 = {
+		holder = dogra_2	# Pratap Singh
+	}
+}
+c_khaplu = {
+	1802.1.1 = {	# Ladakh
+		holder = ladakh_2	# Tsepal Dondup Namgyal
+	}
+	1856.2.20 = {	# Jammu and Kashmir
+		holder = dogra_1	# Ranbir Singh
+	}
+	1885.9.12 = {
+		holder = dogra_2	# Pratap Singh
+	}
+}
+d_aksai_chin = {
+	1802.1.1 = {	# Ladakh
+		holder = ladakh_2	# Tsepal Dondup Namgyal
+	}
+	1856.2.20 = {	# Jammu and Kashmir
+		holder = dogra_1	# Ranbir Singh
+	}
+	1885.9.12 = {
+		holder = dogra_2	# Pratap Singh
+	}
+}
+c_khurnak = {
+	1802.1.1 = {	# Ladakh
+		holder = ladakh_2	# Tsepal Dondup Namgyal
+	}
+	1856.2.20 = {	# Jammu and Kashmir
+		holder = dogra_1	# Ranbir Singh
+	}
+	1885.9.12 = {
+		holder = dogra_2	# Pratap Singh
+	}
+}
+c_thaldat = {
+	1802.1.1 = {	# Ladakh
+		holder = ladakh_2	# Tsepal Dondup Namgyal
+	}
+	1856.2.20 = {	# Jammu and Kashmir
+		holder = dogra_1	# Ranbir Singh
+	}
+	1885.9.12 = {
+		holder = dogra_2	# Pratap Singh
+	}
+}
+c_sumdo = {
+	1802.1.1 = {	# Ladakh
+		holder = ladakh_2	# Tsepal Dondup Namgyal
+	}
+	1856.2.20 = {	# Jammu and Kashmir
+		holder = dogra_1	# Ranbir Singh
+	}
+	1885.9.12 = {
+		holder = dogra_2	# Pratap Singh
+	}
+}
 d_rutog = {
 	1685.1.1 = {
 		de_jure_liege = k_guge

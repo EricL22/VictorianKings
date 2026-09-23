@@ -109,6 +109,7 @@ qing_6 = {
 	}
 	1799.2.7 = {
 		set_realm_capital = title:c_youzhou
+		add_legitimacy = 1000
 	}
 	1820.9.2 = {
 #		name = "Renzong"
@@ -135,6 +136,7 @@ qing_7 = {
 		add_realm_law_skip_effects = crown_authority_1
 		add_gold = 3000
 		set_realm_capital = title:c_youzhou
+		add_legitimacy = 1000
 		name = "Minning"
 	}
 	1850.2.26 = {
@@ -248,6 +250,21 @@ qing_22 = {
 		birth = yes
 	}
 	1861.1.1 = {
+		effect = {
+			add_character_flag = passed_provincial_exam
+			add_character_modifier = {
+				modifier = tgp_passed_provincial_exam_modifier
+			}
+			add_character_flag = passed_metropolitan_exam
+			add_character_modifier = {
+				modifier = tgp_passed_metropolitan_exam_modifier
+			}
+			add_character_flag = passed_palace_exam
+			add_character_modifier = {
+				modifier = tgp_passed_palace_exam_modifier
+			}
+			change_merit = 12000
+		}
 		give_council_position = councillor_chancellor
 	}
 	1898.5.29 = {
@@ -277,7 +294,7 @@ qing_23 = {
 			add_character_modifier = {
 				modifier = tgp_passed_palace_exam_modifier
 			}
-			change_merit = 1000
+			change_merit = 12000
 		}
 	}
 	1843.3.4 = {

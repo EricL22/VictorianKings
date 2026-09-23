@@ -456,6 +456,40 @@ k_sokoto = {
 	}
 }
 
+k_sikkim = {
+	1642.1.1 = {
+		de_jure_liege = e_tibet
+		holder = sikkim_0	# Phuntsog Namgyal I
+	}
+	1670.1.1 = {
+		holder = sikkim_1	# Tensung Namgyal
+	}
+	1700.1.1 = {
+		holder = sikkim_2	# Chakdor Namgyal
+	}
+	1717.1.1 = {
+		holder = sikkim_3	# Gyurmed Namgyal
+	}
+	1733.1.1 = {
+		holder = sikkim_4	# Phuntsog Namgyal II
+	}
+	1780.1.1 = {
+		holder = sikkim_5	# Tenzing Namgyal
+	}
+	1793.1.1 = {
+		holder = sikkim_6	# Tsugphud Namgyal
+	}
+	1863.1.1 = {
+		holder = sikkim_7	# Sidkeong Namgyal
+	}
+	1874.1.1 = {
+		holder = sikkim_8	# Thutob Namgyal
+	}
+	1914.2.11 = {
+		holder = sikkim_9	# Sidkeong Tulku Namgyal
+	}
+}
+
 d_berg = {
 	1809.3.3 = {
 		holder = bonaparte_8	# Napoleon-Louis

@@ -1,20 +1,150 @@
-k_guge = {
-	1805.1.1 = {
-		holder = tibet_0	# Lungtok Gyatso
-		liege = h_china
+k_lhomon = {
+	1635.1.1 = {
+		effect = { set_capital_county = title:c_punakha }
+	}
+	1811.1.1 = {
+		holder = bhutan_0	# Yeshey Gyaltshen
 		government = theocracy_government
 	}
-	1822.1.1 = {
-		holder = tibet_1	# Tsultrim Gyatso
+	#1815 end of reign
+	1823.1.1 = {
+		holder = bhutan_1	# Chhoki Gyaltshen
 	}
+	#1831 end of first reign
+	#1835 begin second reign
+	#1838 end of second reign
 	1860.1.1 = {
-		holder = tibet_2	# Trinley Gyatso
+		holder = bhutan_2	# Phuntsho Namgyel
 	}
-	1879.7.31 = {
-		holder = tibet_3	# Thubten Gyatso
+	1907.12.17 = {
+		holder = bhutan_10	# Ugyen
+		government = feudal_government
 	}
 }
-d_ngari = {
+d_bumthang = {
+	1811.1.1 = {
+		holder = bhutan_0	# Yeshey Gyaltshen
+	}
+	1823.1.1 = {
+		holder = bhutan_1	# Chhoki Gyaltshen
+	}
+	1860.1.1 = {
+		holder = bhutan_2	# Phuntsho Namgyel
+	}
+	1907.12.17 = {
+		holder = bhutan_10	# Ugyen
+	}
+}
+c_bumthang = {
+	1811.1.1 = {
+		holder = bhutan_0	# Yeshey Gyaltshen
+	}
+	1823.1.1 = {
+		holder = bhutan_1	# Chhoki Gyaltshen
+	}
+	1860.1.1 = {
+		holder = bhutan_2	# Phuntsho Namgyel
+	}
+	1907.12.17 = {
+		holder = bhutan_10	# Ugyen
+	}
+}
+c_kurmaed = {
+	1811.1.1 = {
+		holder = bhutan_0	# Yeshey Gyaltshen
+	}
+	1823.1.1 = {
+		holder = bhutan_1	# Chhoki Gyaltshen
+	}
+	1860.1.1 = {
+		holder = bhutan_2	# Phuntsho Namgyel
+	}
+	1907.12.17 = {
+		holder = bhutan_10	# Ugyen
+	}
+}
+c_trongsa = {
+	1811.1.1 = {
+		holder = bhutan_0	# Yeshey Gyaltshen
+	}
+	1823.1.1 = {
+		holder = bhutan_1	# Chhoki Gyaltshen
+	}
+	1860.1.1 = {
+		holder = bhutan_2	# Phuntsho Namgyel
+	}
+	1907.12.17 = {
+		holder = bhutan_10	# Ugyen
+	}
+}
+d_paro = {
+	1811.1.1 = {
+		holder = bhutan_0	# Yeshey Gyaltshen
+	}
+	1823.1.1 = {
+		holder = bhutan_1	# Chhoki Gyaltshen
+	}
+	1860.1.1 = {
+		holder = bhutan_2	# Phuntsho Namgyel
+	}
+	1907.12.17 = {
+		holder = bhutan_10	# Ugyen
+	}
+}
+c_paro = {
+	1811.1.1 = {
+		holder = bhutan_0	# Yeshey Gyaltshen
+	}
+	1823.1.1 = {
+		holder = bhutan_1	# Chhoki Gyaltshen
+	}
+	1860.1.1 = {
+		holder = bhutan_2	# Phuntsho Namgyel
+	}
+	1907.12.17 = {
+		holder = bhutan_10	# Ugyen
+	}
+}
+c_punakha = {
+	1811.1.1 = {
+		holder = bhutan_0	# Yeshey Gyaltshen
+	}
+	1823.1.1 = {
+		holder = bhutan_1	# Chhoki Gyaltshen
+	}
+	1860.1.1 = {
+		holder = bhutan_2	# Phuntsho Namgyel
+	}
+	1907.12.17 = {
+		holder = bhutan_10	# Ugyen
+	}
+}
+c_daramdin = {
+	1642.1.1 = {
+		de_jure_liege = d_sikkim
+	}
+	1793.1.1 = {
+		holder = sikkim_6	# Tsugphud Namgyal
+	}
+	1914.2.11 = {
+		holder = sikkim_9	# Sidkeong Tulku Namgyal
+	}
+}
+c_chungthang = {
+	1642.1.1 = {
+		de_jure_liege = d_sikkim
+	}
+	1793.1.1 = {
+		holder = sikkim_6	# Tsugphud Namgyal
+	}
+	1914.2.11 = {
+		holder = sikkim_9	# Sidkeong Tulku Namgyal
+	}
+}
+d_monyul = {
+	1700.1.1 = {
+		de_jure_liege = k_u
+	}
 	1805.1.1 = {
 		holder = tibet_0	# Lungtok Gyatso
 	}
@@ -28,7 +158,7 @@ d_ngari = {
 		holder = tibet_3	# Thubten Gyatso
 	}
 }
-c_tsaparang = {
+c_tawang = {
 	1805.1.1 = {
 		holder = tibet_0	# Lungtok Gyatso
 	}
@@ -42,7 +172,7 @@ c_tsaparang = {
 		holder = tibet_3	# Thubten Gyatso
 	}
 }
-c_kyunglung = {
+c_cona = {
 	1805.1.1 = {
 		holder = tibet_0	# Lungtok Gyatso
 	}
@@ -56,7 +186,7 @@ c_kyunglung = {
 		holder = tibet_3	# Thubten Gyatso
 	}
 }
-c_gar = {
+c_lhunze = {
 	1805.1.1 = {
 		holder = tibet_0	# Lungtok Gyatso
 	}
@@ -70,7 +200,10 @@ c_gar = {
 		holder = tibet_3	# Thubten Gyatso
 	}
 }
-c_gegyai = {
+d_lhoyul = {
+	1700.1.1 = {
+		de_jure_liege = k_kham
+	}
 	1805.1.1 = {
 		holder = tibet_0	# Lungtok Gyatso
 	}
@@ -84,7 +217,7 @@ c_gegyai = {
 		holder = tibet_3	# Thubten Gyatso
 	}
 }
-c_gerze = {
+c_itanagar = {
 	1805.1.1 = {
 		holder = tibet_0	# Lungtok Gyatso
 	}
@@ -98,7 +231,7 @@ c_gerze = {
 		holder = tibet_3	# Thubten Gyatso
 	}
 }
-c_gomoco = {
+c_along = {
 	1805.1.1 = {
 		holder = tibet_0	# Lungtok Gyatso
 	}
@@ -112,25 +245,7 @@ c_gomoco = {
 		holder = tibet_3	# Thubten Gyatso
 	}
 }
-d_kinnaur = {
-	1800.1.1 = {
-		de_jure_liege = k_himalaya
-	}
-#	1816.3.4 = {
-#		holder = 9100039
-#	}
-#	1823.8.1 = {
-#		holder = 9100040
-#	}
-#	1828.7.4 = {
-#		holder = 8000038
-#	}
-}
-#c_kamru = {
-#}
-#c_dhankar = {
-#}
-d_purang = {
+c_mainling = {
 	1805.1.1 = {
 		holder = tibet_0	# Lungtok Gyatso
 	}
@@ -144,7 +259,7 @@ d_purang = {
 		holder = tibet_3	# Thubten Gyatso
 	}
 }
-c_purang = {
+c_pemako = {
 	1805.1.1 = {
 		holder = tibet_0	# Lungtok Gyatso
 	}
@@ -158,7 +273,10 @@ c_purang = {
 		holder = tibet_3	# Thubten Gyatso
 	}
 }
-c_cuonaco = {
+d_dzayul = {
+	1700.1.1 = {
+		de_jure_liege = k_kham
+	}
 	1805.1.1 = {
 		holder = tibet_0	# Lungtok Gyatso
 	}
@@ -172,7 +290,7 @@ c_cuonaco = {
 		holder = tibet_3	# Thubten Gyatso
 	}
 }
-c_lunggar = {
+c_rima = {
 	1805.1.1 = {
 		holder = tibet_0	# Lungtok Gyatso
 	}
@@ -186,7 +304,7 @@ c_lunggar = {
 		holder = tibet_3	# Thubten Gyatso
 	}
 }
-c_zhongba = {
+c_golag = {
 	1805.1.1 = {
 		holder = tibet_0	# Lungtok Gyatso
 	}
@@ -200,7 +318,7 @@ c_zhongba = {
 		holder = tibet_3	# Thubten Gyatso
 	}
 }
-c_manthang = {
+c_roing = {
 	1805.1.1 = {
 		holder = tibet_0	# Lungtok Gyatso
 	}
@@ -214,7 +332,7 @@ c_manthang = {
 		holder = tibet_3	# Thubten Gyatso
 	}
 }
-c_coqen = {
+c_tezu = {
 	1805.1.1 = {
 		holder = tibet_0	# Lungtok Gyatso
 	}

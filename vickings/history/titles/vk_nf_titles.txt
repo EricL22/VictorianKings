@@ -810,7 +810,7 @@ c_nf_dong = {
 }
 
 c_nf_gogiya = {
-	1836.1.1 = {
+	1805.1.1 = {
 		liege = h_china
 		holder = qing_chancellor_1	# Mujangga
 		government = celestial_government
