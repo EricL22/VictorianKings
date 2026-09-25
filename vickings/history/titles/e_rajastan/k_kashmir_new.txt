@@ -1,0 +1,128 @@
+k_kashmir = {
+	1800.1.1 = {
+		holder = 0
+	}
+	1846.3.16 = {
+		holder = dogra_0	# Gulab Singh
+		liege = e_britannia
+		government = feudal_government
+	}
+	1856.2.20 = {
+		holder = dogra_1	# Ranbir Singh
+	}
+	1885.9.12 = {
+		holder = dogra_2	# Pratap Singh
+	}
+}
+d_kasmira = {
+	1801.4.12 = {	# Sikh Empire
+		holder = sikh_0 # Ranjit Singh
+	}
+	1846.3.16 = {	# Jammu and Kashmir
+		holder = dogra_0	# Gulab Singh
+	}
+	1856.2.20 = {
+		holder = dogra_1	# Ranbir Singh
+	}
+	1885.9.12 = {
+		holder = dogra_2	# Pratap Singh
+	}
+}
+c_kasmira = {
+	1801.4.12 = {	# Sikh Empire
+		holder = sikh_0 # Ranjit Singh
+	}
+	1846.3.16 = {	# Jammu and Kashmir
+		holder = dogra_0	# Gulab Singh
+	}
+	1856.2.20 = {
+		holder = dogra_1	# Ranbir Singh
+	}
+	1885.9.12 = {
+		holder = dogra_2	# Pratap Singh
+	}
+}
+c_allai = {
+	1801.4.12 = {	# Sikh Empire
+		holder = sikh_0 # Ranjit Singh
+	}
+	1846.3.16 = {	# Jammu and Kashmir
+		holder = dogra_0	# Gulab Singh
+	}
+	1856.2.20 = {
+		holder = dogra_1	# Ranbir Singh
+	}
+	1885.9.12 = {
+		holder = dogra_2	# Pratap Singh
+	}
+}
+c_astore = {
+	1801.4.12 = {	# Sikh Empire
+		holder = sikh_0 # Ranjit Singh
+	}
+	1846.3.16 = {	# Jammu and Kashmir
+		holder = dogra_0	# Gulab Singh
+	}
+	1856.2.20 = {
+		holder = dogra_1	# Ranbir Singh
+	}
+	1885.9.12 = {
+		holder = dogra_2	# Pratap Singh
+	}
+}
+d_pamir = {
+	1801.4.12 = {	# Sikh Empire
+		holder = sikh_0 # Ranjit Singh
+	}
+	1846.3.16 = {	# Jammu and Kashmir
+		holder = dogra_0	# Gulab Singh
+	}
+	1856.2.20 = {
+		holder = dogra_1	# Ranbir Singh
+	}
+	1885.9.12 = {
+		holder = dogra_2	# Pratap Singh
+	}
+}
+c_gilgit = {
+	1801.4.12 = {	# Sikh Empire
+		holder = sikh_0 # Ranjit Singh
+	}
+	1846.3.16 = {	# Jammu and Kashmir
+		holder = dogra_0	# Gulab Singh
+	}
+	1856.2.20 = {
+		holder = dogra_1	# Ranbir Singh
+	}
+	1885.9.12 = {
+		holder = dogra_2	# Pratap Singh
+	}
+}
+c_yasin = {
+	1801.4.12 = {	# Sikh Empire
+		holder = sikh_0 # Ranjit Singh
+	}
+	1846.3.16 = {	# Jammu and Kashmir
+		holder = dogra_0	# Gulab Singh
+	}
+	1856.2.20 = {
+		holder = dogra_1	# Ranbir Singh
+	}
+	1885.9.12 = {
+		holder = dogra_2	# Pratap Singh
+	}
+}
+c_golaghmuli = {
+	1801.4.12 = {	# Sikh Empire
+		holder = sikh_0 # Ranjit Singh
+	}
+	1846.3.16 = {	# Jammu and Kashmir
+		holder = dogra_0	# Gulab Singh
+	}
+	1856.2.20 = {
+		holder = dogra_1	# Ranbir Singh
+	}
+	1885.9.12 = {
+		holder = dogra_2	# Pratap Singh
+	}
+}

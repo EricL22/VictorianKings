@@ -1,0 +1,75 @@
+﻿sikh_0 = {
+	name = "Ranjit Singh"
+	dynasty = sikh
+	religion = vaishnavism
+	culture = punjabi
+	1780.11.13 = {
+		birth = yes
+	}
+	1839.6.27 = {
+		death = yes
+	}
+}
+
+sikh_1 = {
+	name = "Kharak Singh"
+	dynasty = sikh
+	religion = vaishnavism
+	culture = punjabi
+	father = sikh_0
+	trait = reveler_3
+	trait = gluttonous
+	trait = brave
+	1801.2.22 = {
+		birth = yes
+	}
+	1840.11.5 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+
+sikh_2 = {
+	name = "Nau-Nihal Singh"
+	dynasty = sikh
+	religion = vaishnavism
+	culture = punjabi
+	father = sikh_1
+	1821.2.11 = {
+		birth = yes
+	}
+	1840.11.5 = {
+		death = yes
+	}
+}
+
+sikh_3 = {
+	name = "Sher Singh"
+	dynasty = sikh
+	religion = vaishnavism
+	culture = punjabi
+	father = sikh_0
+	1807.12.4 = {
+		birth = yes
+	}
+	1843.9.15 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+
+sikh_4 = {
+	name = "Duleep Singh"
+	dynasty = sikh
+	religion = vaishnavism
+	culture = punjabi
+	father = sikh_0
+	1838.9.6 = {
+		birth = yes
+	}
+	1893.10.22 = {
+		death = yes
+	}
+}

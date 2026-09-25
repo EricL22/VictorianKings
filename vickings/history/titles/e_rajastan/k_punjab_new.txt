@@ -1,0 +1,318 @@
+k_punjab = {
+	1801.4.12 = {	# Sikh Empire
+		holder = sikh_0 # Ranjit Singh
+		liege = 0
+	}
+	1839.6.27 = {
+		holder = sikh_1	# Kharak Singh
+	}
+	1839.10.8 = {
+		holder = sikh_2	# Nau Nihal Singh
+	}
+	1841.1.18 = {
+		holder = sikh_3	# Sher Singh
+	}
+	1843.9.15 = {
+		holder = sikh_4	# Duleep Singh
+	}
+	1849.3.29 = {
+		holder = 0
+	}
+}
+d_multan = {
+	1809.5.3 = {	# Afghanistan
+		holder = durrani_3	# Mahmud Shah Durrani
+	}
+	1818.1.1 = {
+		holder = 0
+	}
+	1858.11.1 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_multan = {
+	1809.5.3 = {	# Afghanistan
+		holder = durrani_3	# Mahmud Shah Durrani
+	}
+	1818.1.1 = {	# Sikh Empire
+		holder = sikh_0 # Ranjit Singh
+	}
+	1858.11.1 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_kafirkot = {
+	1809.5.3 = {	# Afghanistan
+		holder = durrani_3	# Mahmud Shah Durrani
+	}
+	1818.1.1 = {	# Sikh Empire
+		holder = sikh_0 # Ranjit Singh
+	}
+	1858.11.1 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_uch = {
+	1809.5.3 = {	# Afghanistan
+		holder = durrani_3	# Mahmud Shah Durrani
+	}
+	1818.1.1 = {	# Sikh Empire
+		holder = sikh_0 # Ranjit Singh
+	}
+	1858.11.1 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_karur = {
+	1809.5.3 = {	# Afghanistan
+		holder = durrani_3	# Mahmud Shah Durrani
+	}
+	1818.1.1 = {	# Sikh Empire
+		holder = sikh_0 # Ranjit Singh
+	}
+	1858.11.1 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_karor = {
+	1809.5.3 = {	# Afghanistan
+		holder = durrani_3	# Mahmud Shah Durrani
+	}
+	1818.1.1 = {	# Sikh Empire
+		holder = sikh_0 # Ranjit Singh
+	}
+	1858.11.1 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_kalat = {	# interestingly enough, this is geographically too far north to be part of Kalat Khanate
+	1809.5.3 = {	# Afghanistan
+		holder = durrani_3	# Mahmud Shah Durrani
+	}
+	1818.1.1 = {	# Sikh Empire
+		holder = sikh_0 # Ranjit Singh
+	}
+	1858.11.1 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+d_lahore = {
+	1801.4.12 = {	# Sikh Empire
+		holder = sikh_0 # Ranjit Singh
+	}
+	1858.11.1 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_lahur = {
+	1801.4.12 = {	# Sikh Empire
+		holder = sikh_0 # Ranjit Singh
+	}
+	1858.11.1 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_dipalpur = {
+	1801.4.12 = {	# Sikh Empire
+		holder = sikh_0 # Ranjit Singh
+	}
+	1858.11.1 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_bhera = {
+	1801.4.12 = {	# Sikh Empire
+		holder = sikh_0 # Ranjit Singh
+	}
+	1858.11.1 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_shorkot = {
+	1801.4.12 = {	# Sikh Empire
+		holder = sikh_0 # Ranjit Singh
+	}
+	1858.11.1 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_sakala = {
+	1812.1.1 = {	# Sikh Empire
+		holder = sikh_0 # Ranjit Singh
+	}
+	1822.6.16 = {	# Jammu
+		holder = dogra_0	# Gulab Singh
+		liege = d_lahore
+	}
+	1856.2.20 = {
+		holder = dogra_1	# Ranbir Singh
+	}
+	1885.9.12 = {
+		holder = dogra_2	# Pratap Singh
+	}
+}
+c_trigarta = {
+	#1803.12.30 - ceded to british
+	1807.7.31 = {
+		holder = british_east_india_0	# Gilbert Elliot-Murray-Kynynmound
+	}
+	1813.10.4 = {
+		holder = british_east_india_1	# Francis Rawdon-Hastings
+	}
+	1835.3.20 = {
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_kangra = {
+	1801.4.12 = {	# Sikh Empire
+		holder = sikh_0 # Ranjit Singh
+	}
+	1858.11.1 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_gurjaratra = {
+	1812.1.1 = {	# Sikh Empire
+		holder = sikh_0 # Ranjit Singh
+	}
+	1822.6.16 = {	# Jammu
+		holder = dogra_0	# Gulab Singh
+		liege = d_lahore
+	}
+	1856.2.20 = {
+		holder = dogra_1	# Ranbir Singh
+	}
+	1885.9.12 = {
+		holder = dogra_2	# Pratap Singh
+	}
+}
+d_gandhara = {
+	1809.5.3 = {
+		holder = durrani_3	# Mahmud Shah Durrani
+	}
+	1818.1.1 = {
+		holder = durrani_5	# Ali Shah Durrani
+	}
+	1819.1.1 = {
+		holder = 0
+	}
+	1858.11.1 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_udabhanda = {
+	1809.5.3 = {	# Afghanistan
+		holder = durrani_3	# Mahmud Shah Durrani
+	}
+	1819.1.1 = {	# Sikh Empire
+		holder = sikh_0 # Ranjit Singh
+	}
+	1858.11.1 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_purushapura = {
+	1809.5.3 = {	# Afghanistan
+		holder = durrani_3	# Mahmud Shah Durrani
+	}
+	1819.1.1 = {	# Sikh Empire
+		holder = sikh_0 # Ranjit Singh
+	}
+	1858.11.1 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_nandana = {
+	1809.5.3 = {	# Afghanistan
+		holder = durrani_3	# Mahmud Shah Durrani
+	}
+	1819.1.1 = {	# Sikh Empire
+		holder = sikh_0 # Ranjit Singh
+	}
+	1858.11.1 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_bannu = {
+	1809.5.3 = {	# Afghanistan
+		holder = durrani_3	# Mahmud Shah Durrani
+	}
+	1819.1.1 = {	# Sikh Empire
+		holder = sikh_0 # Ranjit Singh
+	}
+	1858.11.1 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_urgun = {
+	1809.5.3 = {
+		holder = durrani_3	# Mahmud Shah Durrani
+	}
+	1826.1.1 = {
+		holder = barakzai_1	# Dost Mohammad Khan Barakzai
+		de_jure_liege = d_zabulistan
+	}
+	1901.10.1 = {
+		holder = barakzai_9	# Habibullah Khan Barakzai
+	}
+}

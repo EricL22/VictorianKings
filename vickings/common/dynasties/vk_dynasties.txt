@@ -133,3 +133,8 @@ namgyal_chogyal = {
 	name = "dynn_Namgyal_Chogyal"
 	culture = bodpa
 }
+
+sikh = {
+	name = "dynn_Sandhawalia"
+	culture = "punjabi"
+}

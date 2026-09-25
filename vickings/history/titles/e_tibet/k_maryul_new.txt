@@ -11,14 +11,8 @@ k_maryul = {
 	1840.1.1 = {
 		holder = ladakh_4	# Kunga Namgyal II
 	}
-	1846.3.16 = {	# Jammu and Kashmir
-		holder = dogra_0	# Gulab Singh
-	}
-	1856.2.20 = {
-		holder = dogra_1	# Ranbir Singh
-	}
-	1885.9.12 = {
-		holder = dogra_2	# Pratap Singh
+	1846.3.16 = {
+		holder = 0
 	}
 }
 d_ladakh = {
