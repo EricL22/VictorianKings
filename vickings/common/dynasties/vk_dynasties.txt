@@ -138,3 +138,8 @@ sikh = {
 	name = "dynn_Sandhawalia"
 	culture = "punjabi"
 }
+
+talpur = {
+	name = "dynn_Talpur"
+	culture = baloch
+}

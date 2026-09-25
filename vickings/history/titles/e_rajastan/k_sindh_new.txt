@@ -1,0 +1,189 @@
+k_sindh = {
+	1783.1.1 = {
+		holder = talpur_0	# Sohrab Khan Talpur
+		liege = 0
+	}
+	1830.1.1 = {
+		holder = talpur_1	# Rustam Ali Khan Talpur
+	}
+	1842.1.1 = {
+		holder = talpur_2	# Ali Murad Khan Talpur
+	}
+	1843.2.17 = {
+		holder = 0
+	}
+}
+#d_sauvira = {
+#}
+c_debul = {
+	1783.1.1 = {	# Sindh
+		holder = talpur_0	# Sohrab Khan Talpur
+	}
+	1830.1.1 = {
+		holder = talpur_1	# Rustam Ali Khan Talpur
+	}
+	1842.1.1 = {
+		holder = talpur_2	# Ali Murad Khan Talpur
+	}
+	1858.11.1 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_sonda = {
+	1783.1.1 = {	# Sindh
+		holder = talpur_0	# Sohrab Khan Talpur
+	}
+	1830.1.1 = {
+		holder = talpur_1	# Rustam Ali Khan Talpur
+	}
+	1842.1.1 = {
+		holder = talpur_2	# Ali Murad Khan Talpur
+	}
+	1858.11.1 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_mansura = {
+	1783.1.1 = {	# Sindh
+		holder = talpur_0	# Sohrab Khan Talpur
+	}
+	1830.1.1 = {
+		holder = talpur_1	# Rustam Ali Khan Talpur
+	}
+	1842.1.1 = {
+		holder = talpur_2	# Ali Murad Khan Talpur
+	}
+	1858.11.1 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_ranikot = {
+	1783.1.1 = {	# Sindh
+		holder = talpur_0	# Sohrab Khan Talpur
+	}
+	1830.1.1 = {
+		holder = talpur_1	# Rustam Ali Khan Talpur
+	}
+	1842.1.1 = {
+		holder = talpur_2	# Ali Murad Khan Talpur
+	}
+	1858.11.1 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_siwistan = {
+	1783.1.1 = {	# Sindh
+		holder = talpur_0	# Sohrab Khan Talpur
+	}
+	1830.1.1 = {
+		holder = talpur_1	# Rustam Ali Khan Talpur
+	}
+	1842.1.1 = {
+		holder = talpur_2	# Ali Murad Khan Talpur
+	}
+	1858.11.1 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+#d_bhakkar = {
+#}
+c_bhakkar = {
+	1783.1.1 = {	# Sindh
+		holder = talpur_0	# Sohrab Khan Talpur
+	}
+	1830.1.1 = {
+		holder = talpur_1	# Rustam Ali Khan Talpur
+	}
+	1842.1.1 = {
+		holder = talpur_2	# Ali Murad Khan Talpur
+	}
+	1858.11.1 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_aror = {
+	1783.1.1 = {	# Sindh
+		holder = talpur_0	# Sohrab Khan Talpur
+	}
+	1830.1.1 = {
+		holder = talpur_1	# Rustam Ali Khan Talpur
+	}
+	1842.1.1 = {
+		holder = talpur_2	# Ali Murad Khan Talpur
+	}
+	1843.2.17 = {
+		liege = k_sindh
+	}
+	1909.3.6 = {
+		holder = talpur_4	# Imam Bakhsh Khan Talpur
+	}
+}
+c_rajanpur = {
+	1783.1.1 = {	# Sindh
+		holder = talpur_0	# Sohrab Khan Talpur
+	}
+	1830.1.1 = {
+		holder = talpur_1	# Rustam Ali Khan Talpur
+	}
+	1842.1.1 = {
+		holder = talpur_2	# Ali Murad Khan Talpur
+	}
+	1858.11.1 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_vijnot = {
+	1783.1.1 = {	# Sindh
+		holder = talpur_0	# Sohrab Khan Talpur
+	}
+	1830.1.1 = {
+		holder = talpur_1	# Rustam Ali Khan Talpur
+	}
+	1842.1.1 = {
+		holder = talpur_2	# Ali Murad Khan Talpur
+	}
+	1858.11.1 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_sibi = {
+	1783.1.1 = {	# Sindh
+		holder = talpur_0	# Sohrab Khan Talpur
+	}
+	1830.1.1 = {
+		holder = talpur_1	# Rustam Ali Khan Talpur
+	}
+	1842.1.1 = {
+		holder = talpur_2	# Ali Murad Khan Talpur
+	}
+	1858.11.1 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}

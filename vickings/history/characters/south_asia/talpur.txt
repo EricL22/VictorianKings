@@ -1,0 +1,96 @@
+﻿talpur_0 = {
+	name = "Sohrab"
+	dynasty = talpur
+	religion = imami
+	culture = baloch
+	1745.1.1 = {
+		birth = yes
+	}
+	1830.1.1 = {
+		death = yes
+	}
+}
+
+talpur_1 = {
+	name = "Rustam Ali"
+	dynasty = talpur
+	religion = imami
+	culture = baloch
+	father = talpur_0
+	1800.1.1 = {
+		birth = yes
+	}
+	1842.1.1 = {
+		death = yes
+	}
+}
+
+talpur_2 = {
+	name = "Ali Murad"
+	dynasty = talpur
+	religion = imami
+	culture = baloch
+	father = talpur_0
+	1815.6.28 = {
+		birth = yes
+	}
+	1894.4.2 = {
+		death = yes
+	}
+}
+
+talpur_3 = {
+	name = "Faiz Muhammad"
+	dynasty = talpur
+	religion = imami
+	culture = baloch
+	father = talpur_2
+	1835.1.1 = {
+		birth = yes
+	}
+	1909.3.6 = {
+		death = yes
+	}
+}
+
+talpur_4 = {
+	name = "Imam Bakhsh"
+	dynasty = talpur
+	religion = imami
+	culture = baloch
+	father = talpur_3
+	1860.12.1 = {
+		birth = yes
+	}
+	1921.2.8 = {
+		death = yes
+	}
+}
+
+talpur_5 = {
+	name = "Ali Nawaz"
+	dynasty = talpur
+	religion = imami
+	culture = baloch
+	father = talpur_4
+	1884.8.9 = {
+		birth = yes
+	}
+	1935.12.25 = {
+		death = yes
+	}
+}
+
+talpur_6 = {
+	name = "Faiz Muhammad"	# II of Khairpur
+	dynasty = talpur
+	religion = imami
+	culture = baloch
+	father = talpur_4
+	1913.1.4 = {
+		birth = yes
+	}
+	1954.1.1 = {
+		death = yes
+	}
+}
