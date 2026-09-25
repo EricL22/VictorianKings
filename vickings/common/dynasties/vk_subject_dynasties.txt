@@ -171,3 +171,16 @@ liu = {
 	name = "dynn_Liu_5218"
 	culture = han
 }
+
+elliot_mk = {
+	name = "dynn_Elliot_MK"
+	culture = "english"
+}
+rawdon_hastings = {
+	name = "dynn_Rawdon_Hastings"
+	culture = "english"
+}
+eden = {
+	name = "dynn_Eden"
+	culture = "english"
+}

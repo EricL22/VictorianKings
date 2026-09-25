@@ -1,0 +1,300 @@
+k_himalaya = {
+	1799.3.8 = {
+		holder = shah_0	# Girvan Yuddha Bikram Shah
+	}
+	1816.11.20 = {
+		holder = shah_1	# Rajendra Bikram Shah
+	}
+	1847.5.12 = {
+		holder = shah_2	# Surendra Bikram Shah
+	}
+	1881.5.17 = {
+		holder = shah_4	# Prithvi Bir Bikram Shah
+	}
+	1911.12.12 = {
+		holder = shah_5	# Tribhuvan
+	}
+}
+d_kurmanchal = {
+	1799.3.8 = {	# Nepal
+		holder = shah_0	# Girvan Yuddha Bikram Shah
+	}
+	1816.3.4 = {	# United Kingdom
+		holder = british_east_india_1	# Francis Rawdon-Hastings
+	}
+	1835.3.20 = {
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_kumaon = {
+	1799.3.8 = {	# Nepal
+		holder = shah_0	# Girvan Yuddha Bikram Shah
+	}
+	1816.3.4 = {	# United Kingdom
+		holder = british_east_india_1	# Francis Rawdon-Hastings
+	}
+	1835.3.20 = {
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_garwhal = {
+	1799.3.8 = {	# Nepal
+		holder = shah_0	# Girvan Yuddha Bikram Shah
+	}
+	1816.3.4 = {	# United Kingdom
+		holder = british_east_india_1	# Francis Rawdon-Hastings
+	}
+	1835.3.20 = {
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_kali_kumaon = {
+	1799.3.8 = {	# Nepal
+		holder = shah_0	# Girvan Yuddha Bikram Shah
+	}
+	1816.3.4 = {	# United Kingdom
+		holder = british_east_india_1	# Francis Rawdon-Hastings
+	}
+	1835.3.20 = {
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_doti = {
+	1800.1.1 = {
+		de_jure_liege = d_khasa
+	}
+	1799.3.8 = {
+		holder = shah_0	# Girvan Yuddha Bikram Shah
+	}
+	1816.11.20 = {
+		holder = shah_1	# Rajendra Bikram Shah
+	}
+	1847.5.12 = {
+		holder = shah_2	# Surendra Bikram Shah
+	}
+	1911.12.12 = {
+		holder = shah_5	# Tribhuvan
+	}
+}
+d_khasa = {
+	1799.3.8 = {
+		holder = shah_0	# Girvan Yuddha Bikram Shah
+	}
+	1816.11.20 = {
+		holder = shah_1	# Rajendra Bikram Shah
+	}
+	1847.5.12 = {
+		holder = shah_2	# Surendra Bikram Shah
+	}
+	1911.12.12 = {
+		holder = shah_5	# Tribhuvan
+	}
+}
+c_jumla = {
+	1799.3.8 = {
+		holder = shah_0	# Girvan Yuddha Bikram Shah
+	}
+	1816.11.20 = {
+		holder = shah_1	# Rajendra Bikram Shah
+	}
+	1847.5.12 = {
+		holder = shah_2	# Surendra Bikram Shah
+	}
+	1911.12.12 = {
+		holder = shah_5	# Tribhuvan
+	}
+}
+c_bajura = {
+	1799.3.8 = {
+		holder = shah_0	# Girvan Yuddha Bikram Shah
+	}
+	1816.11.20 = {
+		holder = shah_1	# Rajendra Bikram Shah
+	}
+	1847.5.12 = {
+		holder = shah_2	# Surendra Bikram Shah
+	}
+	1911.12.12 = {
+		holder = shah_5	# Tribhuvan
+	}
+}
+c_jagatipur = {
+	1799.3.8 = {
+		holder = shah_0	# Girvan Yuddha Bikram Shah
+	}
+	1816.11.20 = {
+		holder = shah_1	# Rajendra Bikram Shah
+	}
+	1847.5.12 = {
+		holder = shah_2	# Surendra Bikram Shah
+	}
+	1911.12.12 = {
+		holder = shah_5	# Tribhuvan
+	}
+}
+c_dang = {
+	1799.3.8 = {
+		holder = shah_0	# Girvan Yuddha Bikram Shah
+	}
+	1816.11.20 = {
+		holder = shah_1	# Rajendra Bikram Shah
+	}
+	1847.5.12 = {
+		holder = shah_2	# Surendra Bikram Shah
+	}
+	1911.12.12 = {
+		holder = shah_5	# Tribhuvan
+	}
+}
+c_lumbini = {
+	1799.3.8 = {
+		holder = shah_0	# Girvan Yuddha Bikram Shah
+	}
+	1816.11.20 = {
+		holder = shah_1	# Rajendra Bikram Shah
+	}
+	1847.5.12 = {
+		holder = shah_2	# Surendra Bikram Shah
+	}
+	1911.12.12 = {
+		holder = shah_5	# Tribhuvan
+	}
+}
+c_kaski = {
+	1799.3.8 = {
+		holder = shah_0	# Girvan Yuddha Bikram Shah
+	}
+	1816.11.20 = {
+		holder = shah_1	# Rajendra Bikram Shah
+	}
+	1847.5.12 = {
+		holder = shah_2	# Surendra Bikram Shah
+	}
+	1911.12.12 = {
+		holder = shah_5	# Tribhuvan
+	}
+}
+d_nepal = {
+	1799.3.8 = {
+		holder = shah_0	# Girvan Yuddha Bikram Shah
+	}
+	1816.11.20 = {
+		holder = shah_1	# Rajendra Bikram Shah
+	}
+	1847.5.12 = {
+		holder = shah_2	# Surendra Bikram Shah
+	}
+	1911.12.12 = {
+		holder = shah_5	# Tribhuvan
+	}
+}
+c_kathmandu = {
+	1799.3.8 = {
+		holder = shah_0	# Girvan Yuddha Bikram Shah
+	}
+	1816.11.20 = {
+		holder = shah_1	# Rajendra Bikram Shah
+	}
+	1847.5.12 = {
+		holder = shah_2	# Surendra Bikram Shah
+	}
+	1911.12.12 = {
+		holder = shah_5	# Tribhuvan
+	}
+}
+c_bhaktapur = {
+	1799.3.8 = {
+		holder = shah_0	# Girvan Yuddha Bikram Shah
+	}
+	1816.11.20 = {
+		holder = shah_1	# Rajendra Bikram Shah
+	}
+	1847.5.12 = {
+		holder = shah_2	# Surendra Bikram Shah
+	}
+	1911.12.12 = {
+		holder = shah_5	# Tribhuvan
+	}
+}
+c_janakpur = {
+	1799.3.8 = {
+		holder = shah_0	# Girvan Yuddha Bikram Shah
+	}
+	1816.11.20 = {
+		holder = shah_1	# Rajendra Bikram Shah
+	}
+	1847.5.12 = {
+		holder = shah_2	# Surendra Bikram Shah
+	}
+	1911.12.12 = {
+		holder = shah_5	# Tribhuvan
+	}
+}
+#d_limbuwan = {
+#}
+c_ilam = {
+	1799.3.8 = {
+		holder = shah_0	# Girvan Yuddha Bikram Shah
+	}
+	1816.11.20 = {
+		holder = shah_1	# Rajendra Bikram Shah
+	}
+	1847.5.12 = {
+		holder = shah_2	# Surendra Bikram Shah
+	}
+	1911.12.12 = {
+		holder = shah_5	# Tribhuvan
+	}
+}
+c_yangwarok = {
+	1799.3.8 = {
+		holder = shah_0	# Girvan Yuddha Bikram Shah
+	}
+	1816.11.20 = {
+		holder = shah_1	# Rajendra Bikram Shah
+	}
+	1847.5.12 = {
+		holder = shah_2	# Surendra Bikram Shah
+	}
+	1911.12.12 = {
+		holder = shah_5	# Tribhuvan
+	}
+}
+c_khotang = {
+	1799.3.8 = {
+		holder = shah_0	# Girvan Yuddha Bikram Shah
+	}
+	1816.11.20 = {
+		holder = shah_1	# Rajendra Bikram Shah
+	}
+	1847.5.12 = {
+		holder = shah_2	# Surendra Bikram Shah
+	}
+	1911.12.12 = {
+		holder = shah_5	# Tribhuvan
+	}
+}

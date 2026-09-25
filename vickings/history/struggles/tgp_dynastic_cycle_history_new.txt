@@ -1,0 +1,66 @@
+﻿###################
+# DYNASTIC CYCLE  #
+###################
+1644.4.25 = {
+	effect = {
+		if = {
+			limit = { 
+				has_tgp_dlc_trigger = yes 
+			}
+			situation:dynastic_cycle = {
+				record_situation_special_event = {
+					key = cycle_history_key_rise_of_the_qing
+					phase = situation_dynastic_cycle_phase_instability_conquest
+				}
+			}
+		}
+	}
+}
+
+1683.9.5 = {
+	effect = {
+		if = {
+			limit = { 
+				has_tgp_dlc_trigger = yes 
+			}
+			situation:dynastic_cycle = {
+				record_situation_special_event = {
+					key = cycle_history_key_fall_of_tungning
+					phase = situation_dynastic_cycle_phase_stability_expansion
+				}
+			}
+		}
+	}
+}
+
+1796.1.1 = {
+	effect = {
+		if = {
+			limit = { 
+				has_tgp_dlc_trigger = yes 
+			}
+			situation:dynastic_cycle = {
+				record_situation_special_event = {
+					key = cycle_history_key_white_lotus_rebellion
+					phase = situation_dynastic_cycle_phase_instability
+				}
+			}
+		}
+	}
+}
+
+1842.8.29 = {
+	effect = {
+		if = {
+			limit = { 
+				has_tgp_dlc_trigger = yes 
+			}
+			situation:dynastic_cycle = {
+				record_situation_special_event = {
+					key = cycle_history_key_first_opium_war
+					phase = situation_dynastic_cycle_phase_instability
+				}
+			}
+		}
+	}
+}

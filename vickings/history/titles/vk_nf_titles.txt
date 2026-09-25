@@ -1492,3 +1492,57 @@ c_nf_liu = {
 		holder = 0
 	}
 }
+
+d_nf_elliot_mk = {
+	1797.1.1 = {
+		liege = e_britannia
+		holder = british_east_india_0	# Gilbert Elliot-Murray-Kynynmound
+		government = administrative_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1812.7.5 = {
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1812.7.5 }
+		}
+	}
+	1814.6.21 = {
+		holder = 0
+	}
+}
+
+d_nf_rawdon_hastings = {
+	1790.1.1 = {
+		liege = e_britannia
+		holder = british_east_india_1	# Francis Rawdon-Hastings
+		government = administrative_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1812.7.5 = {
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1812.7.5 }
+		}
+	}
+	1815.7.8 = {
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1815.7.8 }
+		}
+	}
+	1826.11.28 = {
+		holder = 0
+	}
+}
+
+d_nf_eden = {
+	1836.1.1 = {	# historically 1838
+		liege = e_britannia
+		holder = british_east_india_2	# George Eden
+		government = administrative_government
+		succession_laws = { noble_family_succession_law }
+		effect = {
+			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1836.1.1 }
+		}
+	}
+	1849.1.1 = {
+		holder = 0
+	}
+}

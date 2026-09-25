@@ -96,6 +96,10 @@ qing_6 = {
 	culture = manchu
 	religion = daoxue
 	father = qing_5
+	trait = diligent
+	trait = temperate
+	trait = just
+	trait = education_stewardship_3
 	1760.11.13 = {
 		birth = yes
 	}
@@ -110,6 +114,7 @@ qing_6 = {
 	1799.2.7 = {
 		set_realm_capital = title:c_youzhou
 		add_legitimacy = 1000
+		change_influence = 1000
 	}
 	1820.9.2 = {
 #		name = "Renzong"
@@ -123,6 +128,9 @@ qing_7 = {
 	culture = manchu
 	religion = daoxue
 	father = qing_6
+	trait = temperate
+	trait = diligent
+	trait = education_stewardship_2
 	1782.9.16 = {
 		birth = yes
 	}
@@ -137,6 +145,7 @@ qing_7 = {
 		add_gold = 3000
 		set_realm_capital = title:c_youzhou
 		add_legitimacy = 1000
+		change_influence = 1000
 		name = "Minning"
 	}
 	1850.2.26 = {

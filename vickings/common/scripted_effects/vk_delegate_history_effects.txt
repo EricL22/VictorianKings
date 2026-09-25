@@ -50,7 +50,11 @@ auto_generate_vassals_at_game_start_effect = {
 					add_character_modifier = {
 						modifier = tgp_passed_provincial_exam_modifier
 					}
-					change_merit = 2000
+					add_character_flag = passed_metropolitan_exam
+					add_character_modifier = {
+						modifier = tgp_passed_metropolitan_exam_modifier
+					}
+					change_merit = 5000
 				}
 			}
 		}

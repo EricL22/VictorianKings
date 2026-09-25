@@ -490,6 +490,27 @@ k_sikkim = {
 	}
 }
 
+k_british_east_indies = {
+	1600.12.31 = {
+		de_jure_liege = e_britannia
+	}
+	1707.5.1 = {
+		liege = e_britannia
+	}
+	1807.7.31 = {
+		holder = british_east_india_0	# Gilbert Elliot-Murray-Kynynmound
+	}
+	1813.10.4 = {
+		holder = british_east_india_1	# Francis Rawdon-Hastings
+	}
+	1835.3.20 = {	# formally took office 1836.3.4
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = 0
+	}
+}
+
 d_berg = {
 	1809.3.3 = {
 		holder = bonaparte_8	# Napoleon-Louis

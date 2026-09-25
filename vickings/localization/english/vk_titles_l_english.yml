@@ -59,6 +59,12 @@
  k_sikkim:0 "Sikkim"
  d_sikkim:0 "Sikkim"
 
+ k_british_east_indies_article:0 "the "
+ k_british_east_indies:0 "East India Company"
+ k_british_east_indies_adj:0 "British"
+ director:0 "General"
+ directress:0 "Lady"
+
  senegal: "Senegal"
  senegal_adj: "Senegalese"
 
@@ -235,3 +241,9 @@
  c_nf_husihari_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
  c_nf_liu: "$dynn_Liu_5218$ Family"
  c_nf_liu_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ d_nf_elliot_mk: "$dynn_Elliot_MK$ Family"
+ d_nf_elliot_mk_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ d_nf_rawdon_hastings: "$dynn_Rawdon_Hastings$ Family"
+ d_nf_rawdon_hastings_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ d_nf_eden: "$dynn_Eden$ Family"
+ d_nf_eden_article: "$DEFAULT_TITLE_NAME_ARTICLE$"

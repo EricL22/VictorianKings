@@ -119,7 +119,7 @@ bonaparte_2 = {
 			type = house_arrest
 		}
 		imprison = {
-			target = character:eur_014101
+			target = character:eur_014101	# Stanisław Sołtan
 			type = house_arrest
 		}
 	}

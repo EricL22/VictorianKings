@@ -1,0 +1,85 @@
+﻿## Kings of Nepal
+shah_0 = {
+	name = "Girvan Yuddha Bikram"
+	dynasty = 2003035
+	religion = shaivism
+	culture = nepali
+	1797.10.19 = {
+		birth = yes
+	}
+	1816.11.20 = {
+		death = {
+			death_reason = death_smallpox
+		}
+	}
+}
+
+shah_1 = {
+	name = "Rajendra Bikram"
+	dynasty = 2003035
+	religion = shaivism
+	culture = nepali
+	father = shah_0
+	1813.12.3 = {
+		birth = yes
+	}
+	1881.7.10 = {
+		death = yes
+	}
+}
+
+shah_2 = {
+	name = "Surendra Bikram"
+	dynasty = 2003035
+	religion = shaivism
+	culture = nepali
+	father = shah_1
+	1829.10.20 = {
+		birth = yes
+	}
+	1881.5.17 = {
+		death = yes
+	}
+}
+
+shah_3 = {
+	name = "Trailokya"
+	dynasty = 2003035
+	religion = shaivism
+	culture = nepali
+	father = shah_2
+	1847.11.30 = {
+		birth = yes
+	}
+	1878.3.30 = {
+		death = yes
+	}
+}
+
+shah_4 = {
+	name = "Prithvi Bir Bikram"
+	dynasty = 2003035
+	religion = shaivism
+	culture = nepali
+	father = shah_3
+	1875.8.18 = {
+		birth = yes
+	}
+	1911.12.11 = {
+		death = yes
+	}
+}
+
+shah_5 = {
+	name = "Tribhuvan"
+	dynasty = 2003035
+	religion = shaivism
+	culture = nepali
+	father = shah_4
+	1906.6.30 = {
+		birth = yes
+	}
+	1955.3.13 = {
+		death = yes
+	}
+}

@@ -126,3 +126,167 @@ british_somalia_0 = {
 		death = yes
 	}
 }
+
+
+british_east_india_0 = {
+	name = "Gilbert"
+	dynasty = elliot_mk
+	religion = protestant
+	culture = english
+	1751.4.23 = {
+		birth = yes
+	}
+	1807.7.31 = {
+		effect = {
+		#	vassal_contract_set_obligation_level = {
+		#		type = special_contract
+		#		level = 4	#trade_company
+		#	}
+		#	add_realm_law_skip_effects = city_succession_law
+
+			# Bengal Army
+			spawn_army = {
+				name = "Bengal Army"
+				levies = 6000
+				men_at_arms = {
+					type = armored_footmen
+					stacks = 5
+				}
+				men_at_arms = {
+					type = light_footmen
+					stacks = 75
+				}
+				men_at_arms = {
+					type = horse_archers
+					stacks = 18
+				}
+				men_at_arms = {
+					type = bombard
+					stacks = 38
+				}
+				men_at_arms = {
+					type = armored_horsemen
+					stacks = 4
+				}
+				men_at_arms = {
+					type = light_horsemen
+					stacks = 10
+				}
+				location = province:1233
+				origin = province:1233
+				inheritable = yes
+			}
+		}
+	}
+	1814.6.21 = {
+		death = yes
+	}
+}
+british_east_india_1 = {
+	name = "Francis"
+	dynasty = rawdon_hastings
+	religion = protestant
+	culture = english
+	1754.12.9 = {
+		birth = yes
+	}
+	1813.10.4 = {
+		effect = {
+		#	vassal_contract_set_obligation_level = {
+		#		type = special_contract
+		#		level = 4	#trade_company
+		#	}
+		#	add_realm_law_skip_effects = city_succession_law
+
+			# Bengal Army
+			spawn_army = {
+				name = "Bengal Army"
+				levies = 6000
+				men_at_arms = {
+					type = armored_footmen
+					stacks = 5
+				}
+				men_at_arms = {
+					type = light_footmen
+					stacks = 75
+				}
+				men_at_arms = {
+					type = horse_archers
+					stacks = 18
+				}
+				men_at_arms = {
+					type = bombard
+					stacks = 38
+				}
+				men_at_arms = {
+					type = armored_horsemen
+					stacks = 4
+				}
+				men_at_arms = {
+					type = light_horsemen
+					stacks = 10
+				}
+				location = province:1233
+				origin = province:1233
+				inheritable = yes
+			}
+		}
+	}
+	1826.11.28 = {
+		death = yes
+	}
+}
+british_east_india_2 = {
+	name = "George"
+	dynasty = eden
+	religion = protestant
+	culture = english
+	1784.8.25 = {
+		birth = yes
+	}
+	1835.3.20 = {
+		effect = {
+		#	vassal_contract_set_obligation_level = {
+		#		type = special_contract
+		#		level = 4	#trade_company
+		#	}
+		#	add_realm_law_skip_effects = city_succession_law
+
+			# Bengal Army
+			spawn_army = {
+				name = "Bengal Army"
+				levies = 6000
+				men_at_arms = {
+					type = armored_footmen
+					stacks = 5
+				}
+				men_at_arms = {
+					type = light_footmen
+					stacks = 75
+				}
+				men_at_arms = {
+					type = horse_archers
+					stacks = 18
+				}
+				men_at_arms = {
+					type = bombard
+					stacks = 38
+				}
+				men_at_arms = {
+					type = armored_horsemen
+					stacks = 4
+				}
+				men_at_arms = {
+					type = light_horsemen
+					stacks = 10
+				}
+				location = province:1233
+				origin = province:1233
+				inheritable = yes
+			}
+		}
+	}
+	1849.1.1 = {
+		death = yes
+	}
+}

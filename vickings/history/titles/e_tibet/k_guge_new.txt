@@ -116,20 +116,47 @@ d_kinnaur = {
 	1800.1.1 = {
 		de_jure_liege = k_himalaya
 	}
-#	1816.3.4 = {
-#		holder = 9100039
-#	}
-#	1823.8.1 = {
-#		holder = 9100040
-#	}
-#	1828.7.4 = {
-#		holder = 8000038
-#	}
+	1816.3.4 = {	# United Kingdom
+		holder = british_east_india_1	# Francis Rawdon-Hastings
+	}
+	1835.3.20 = {
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
 }
-#c_kamru = {
-#}
-#c_dhankar = {
-#}
+c_kamru = {
+	1816.3.4 = {	# United Kingdom
+		holder = british_east_india_1	# Francis Rawdon-Hastings
+	}
+	1835.3.20 = {
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_dhankar = {
+	1816.3.4 = {	# United Kingdom
+		holder = british_east_india_1	# Francis Rawdon-Hastings
+	}
+	1835.3.20 = {
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
 d_purang = {
 	1805.1.1 = {
 		holder = tibet_0	# Lungtok Gyatso
