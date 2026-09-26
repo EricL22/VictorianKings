@@ -1,0 +1,333 @@
+k_bihar = {
+	1800.1.1 = {
+		holder = 0
+	}
+}
+d_magadha = {
+	1807.7.31 = {
+		holder = british_east_india_0	# Gilbert Elliot-Murray-Kynynmound
+	}
+	1813.10.4 = {
+		holder = british_east_india_1	# Francis Rawdon-Hastings
+	}
+	1835.3.20 = {
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_magadha = {
+	1807.7.31 = {
+		holder = british_east_india_0	# Gilbert Elliot-Murray-Kynynmound
+	}
+	1813.10.4 = {
+		holder = british_east_india_1	# Francis Rawdon-Hastings
+	}
+	1835.3.20 = {
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_mudgagiri = {
+	1807.7.31 = {
+		holder = british_east_india_0	# Gilbert Elliot-Murray-Kynynmound
+	}
+	1813.10.4 = {
+		holder = british_east_india_1	# Francis Rawdon-Hastings
+	}
+	1835.3.20 = {
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_gaya = {
+	1807.7.31 = {
+		holder = british_east_india_0	# Gilbert Elliot-Murray-Kynynmound
+	}
+	1813.10.4 = {
+		holder = british_east_india_1	# Francis Rawdon-Hastings
+	}
+	1835.3.20 = {
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_sasaram = {
+	1807.7.31 = {
+		holder = british_east_india_0	# Gilbert Elliot-Murray-Kynynmound
+	}
+	1813.10.4 = {
+		holder = british_east_india_1	# Francis Rawdon-Hastings
+	}
+	1835.3.20 = {
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+d_tirabhukti = {
+	1807.7.31 = {
+		holder = british_east_india_0	# Gilbert Elliot-Murray-Kynynmound
+	}
+	1813.10.4 = {
+		holder = british_east_india_1	# Francis Rawdon-Hastings
+	}
+	1835.3.20 = {
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_mithila = {
+	1807.7.31 = {
+		holder = british_east_india_0	# Gilbert Elliot-Murray-Kynynmound
+	}
+	1813.10.4 = {
+		holder = british_east_india_1	# Francis Rawdon-Hastings
+	}
+	1835.3.20 = {
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_simaramapura = {
+	1807.7.31 = {
+		holder = british_east_india_0	# Gilbert Elliot-Murray-Kynynmound
+	}
+	1813.10.4 = {
+		holder = british_east_india_1	# Francis Rawdon-Hastings
+	}
+	1835.3.20 = {
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_kusinagara = {
+	1807.7.31 = {
+		holder = british_east_india_0	# Gilbert Elliot-Murray-Kynynmound
+	}
+	1813.10.4 = {
+		holder = british_east_india_1	# Francis Rawdon-Hastings
+	}
+	1835.3.20 = {
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_bangaon = {
+	1807.7.31 = {
+		holder = british_east_india_0	# Gilbert Elliot-Murray-Kynynmound
+	}
+	1813.10.4 = {
+		holder = british_east_india_1	# Francis Rawdon-Hastings
+	}
+	1835.3.20 = {
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+d_kasi = {
+	1798.1.21 = {
+		holder = nishapuri_0	# Saadat Ali Khan
+	}
+	1814.7.11 = {
+		holder = nishapuri_1	# Ghazi-ud-Din Haidar Shah
+	}
+	1827.10.19 = {
+		holder = nishapuri_2	# Nasir-ud-Din Haidar Shah
+	}
+	# 1856.2.11: United Kingdom
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_jaunpur = {
+	1798.1.21 = {
+		holder = nishapuri_0	# Saadat Ali Khan
+	}
+	1814.7.11 = {
+		holder = nishapuri_1	# Ghazi-ud-Din Haidar Shah
+	}
+	1827.10.19 = {
+		holder = nishapuri_2	# Nasir-ud-Din Haidar Shah
+	}
+	# 1856.2.11: United Kingdom
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_varanasi = {
+	1798.1.21 = {
+		holder = nishapuri_0	# Saadat Ali Khan
+	}
+	1814.7.11 = {
+		holder = nishapuri_1	# Ghazi-ud-Din Haidar Shah
+	}
+	1827.10.19 = {
+		holder = nishapuri_2	# Nasir-ud-Din Haidar Shah
+	}
+	# 1856.2.11: United Kingdom
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_chunar = {
+	1807.7.31 = {
+		holder = british_east_india_0	# Gilbert Elliot-Murray-Kynynmound
+	}
+	1813.10.4 = {
+		holder = british_east_india_1	# Francis Rawdon-Hastings
+	}
+	1835.3.20 = {
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+#d_jharkand = {
+#}
+c_munda = {
+	1808.5.3 = {	# Maratha Empire
+		holder = 9000049	# Pratap Singh
+	}
+	1818.6.3 = {	# United Kingdom
+		holder = british_east_india_1	# Francis Rawdon-Hastings
+	}
+	1835.3.20 = {
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_jharkand = {
+	1808.5.3 = {	# Maratha Empire
+		holder = 9000049	# Pratap Singh
+	}
+	1818.6.3 = {	# United Kingdom
+		holder = british_east_india_1	# Francis Rawdon-Hastings
+	}
+	1835.3.20 = {
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_rothas = {
+	1807.7.31 = {
+		holder = british_east_india_0	# Gilbert Elliot-Murray-Kynynmound
+	}
+	1813.10.4 = {
+		holder = british_east_india_1	# Francis Rawdon-Hastings
+	}
+	1835.3.20 = {
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_rajrappa = {
+	1807.7.31 = {
+		holder = british_east_india_0	# Gilbert Elliot-Murray-Kynynmound
+	}
+	1813.10.4 = {
+		holder = british_east_india_1	# Francis Rawdon-Hastings
+	}
+	1835.3.20 = {
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_damin_i_koh = {
+	1807.7.31 = {
+		holder = british_east_india_0	# Gilbert Elliot-Murray-Kynynmound
+	}
+	1813.10.4 = {
+		holder = british_east_india_1	# Francis Rawdon-Hastings
+	}
+	1835.3.20 = {
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}

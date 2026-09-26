@@ -1,0 +1,269 @@
+#d_kanyakubja = {
+#}
+c_kanyakubja = {
+	1807.7.31 = {
+		holder = british_east_india_0	# Gilbert Elliot-Murray-Kynynmound
+	}
+	1813.10.4 = {
+		holder = british_east_india_1	# Francis Rawdon-Hastings
+	}
+	1835.3.20 = {
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_lakhnau = {
+	1798.1.21 = {
+		holder = nishapuri_0	# Saadat Ali Khan
+	}
+	1814.7.11 = {
+		holder = nishapuri_1	# Ghazi-ud-Din Haidar Shah
+	}
+	1827.10.19 = {
+		holder = nishapuri_2	# Nasir-ud-Din Haidar Shah
+	}
+	# 1856.2.11: United Kingdom
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_kalpi = {
+	1807.7.31 = {
+		holder = british_east_india_0	# Gilbert Elliot-Murray-Kynynmound
+	}
+	1813.10.4 = {
+		holder = british_east_india_1	# Francis Rawdon-Hastings
+	}
+	1835.3.20 = {
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_manikpur = {
+	1798.1.21 = {
+		holder = nishapuri_0	# Saadat Ali Khan
+	}
+	1814.7.11 = {
+		holder = nishapuri_1	# Ghazi-ud-Din Haidar Shah
+	}
+	1827.10.19 = {
+		holder = nishapuri_2	# Nasir-ud-Din Haidar Shah
+	}
+	# 1856.2.11: United Kingdom
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_asni = {
+	1807.7.31 = {
+		holder = british_east_india_0	# Gilbert Elliot-Murray-Kynynmound
+	}
+	1813.10.4 = {
+		holder = british_east_india_1	# Francis Rawdon-Hastings
+	}
+	1835.3.20 = {
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_prayaga = {
+	1807.7.31 = {
+		holder = british_east_india_0	# Gilbert Elliot-Murray-Kynynmound
+	}
+	1813.10.4 = {
+		holder = british_east_india_1	# Francis Rawdon-Hastings
+	}
+	1835.3.20 = {
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+d_saryupara = {
+	1798.1.21 = {
+		holder = nishapuri_0	# Saadat Ali Khan
+	}
+	1814.7.11 = {
+		holder = nishapuri_1	# Ghazi-ud-Din Haidar Shah
+	}
+	1827.10.19 = {
+		holder = nishapuri_2	# Nasir-ud-Din Haidar Shah
+	}
+	# 1856.2.11: United Kingdom
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_ayodhya = {
+	1798.1.21 = {
+		holder = nishapuri_0	# Saadat Ali Khan
+	}
+	1814.7.11 = {
+		holder = nishapuri_1	# Ghazi-ud-Din Haidar Shah
+	}
+	1827.10.19 = {
+		holder = nishapuri_2	# Nasir-ud-Din Haidar Shah
+	}
+	# 1856.2.11: United Kingdom
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_naimisa = {
+	1798.1.21 = {
+		holder = nishapuri_0	# Saadat Ali Khan
+	}
+	1814.7.11 = {
+		holder = nishapuri_1	# Ghazi-ud-Din Haidar Shah
+	}
+	1827.10.19 = {
+		holder = nishapuri_2	# Nasir-ud-Din Haidar Shah
+	}
+	# 1856.2.11: United Kingdom
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_sravasti = {
+	1798.1.21 = {
+		holder = nishapuri_0	# Saadat Ali Khan
+	}
+	1814.7.11 = {
+		holder = nishapuri_1	# Ghazi-ud-Din Haidar Shah
+	}
+	1827.10.19 = {
+		holder = nishapuri_2	# Nasir-ud-Din Haidar Shah
+	}
+	# 1856.2.11: United Kingdom
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+d_jejakabhukti = {
+	1810.1.1 = {
+		holder = pawar_0	# Ramchandra Raje II Pawar
+		liege = e_maratha
+	}
+	1819.1.10 = {
+		liege = e_britannia
+		government = feudal_government
+		effect = {
+			holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = religious_rights
+					level = 1	#religious_rights_protected
+				}
+			#	vassal_contract_set_obligation_level = {
+			#		type = special_contract
+			#		level = 5	#princely_state
+			#	}
+				vassal_contract_set_obligation_level = {
+					type = title_revocation_rights
+					level = 1	#title_revocation_rights_protected
+				}
+			}
+		}
+	}
+	1834.4.21 = {
+		holder = pawar_2	# Yeshwant Raje II Pawar
+	}
+	1857.5.23 = {
+		holder = pawar_3	# Anand Raje III Pawar
+	}
+	1898.7.29 = {
+		holder = pawar_5	# Udaji Raje II Pawar
+	}
+}
+c_mahoba = {
+	1810.1.1 = {
+		holder = pawar_0	# Ramchandra Raje II Pawar
+	}
+	1834.4.21 = {
+		holder = pawar_2	# Yeshwant Raje II Pawar
+	}
+	1857.5.23 = {
+		holder = pawar_3	# Anand Raje III Pawar
+	}
+	1898.7.29 = {
+		holder = pawar_5	# Udaji Raje II Pawar
+	}
+}
+c_kalanjara = {
+	1810.1.1 = {
+		holder = pawar_0	# Ramchandra Raje II Pawar
+	}
+	1834.4.21 = {
+		holder = pawar_2	# Yeshwant Raje II Pawar
+	}
+	1857.5.23 = {
+		holder = pawar_3	# Anand Raje III Pawar
+	}
+	1898.7.29 = {
+		holder = pawar_5	# Udaji Raje II Pawar
+	}
+}
+c_damoh = {
+	1810.1.1 = {
+		holder = pawar_0	# Ramchandra Raje II Pawar
+	}
+	1834.4.21 = {
+		holder = pawar_2	# Yeshwant Raje II Pawar
+	}
+	1857.5.23 = {
+		holder = pawar_3	# Anand Raje III Pawar
+	}
+	1898.7.29 = {
+		holder = pawar_5	# Udaji Raje II Pawar
+	}
+}
+c_gurgi = {
+	1810.1.1 = {
+		holder = pawar_0	# Ramchandra Raje II Pawar
+	}
+	1834.4.21 = {
+		holder = pawar_2	# Yeshwant Raje II Pawar
+	}
+	1857.5.23 = {
+		holder = pawar_3	# Anand Raje III Pawar
+	}
+	1898.7.29 = {
+		holder = pawar_5	# Udaji Raje II Pawar
+	}
+}

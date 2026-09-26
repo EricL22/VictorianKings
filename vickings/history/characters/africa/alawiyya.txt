@@ -1,5 +1,5 @@
 ﻿alawiyya_0 = {
-	name = "Muhammad Ali"
+	name = "muhammad_ali"
 	dynasty = alawiyya
 	religion = ashari
 	culture = egyptian

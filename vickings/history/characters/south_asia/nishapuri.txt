@@ -1,0 +1,84 @@
+﻿nishapuri_0 = {
+	name = "saadat_ali"
+	dynasty = nishapuri
+	religion = imami
+	culture = hindustani
+	1750.1.1 = {
+		birth = yes
+	}
+	1814.7.11 = {
+		death = yes
+	}
+}
+
+nishapuri_1 = {
+	name = "ghazi_ud_din_haidar"
+	dynasty = nishapuri
+	religion = imami
+	culture = hindustani
+	father = nishapuri_0
+	1769.1.1 = {
+		birth = yes
+	}
+	1827.10.19 = {
+		death = yes
+	}
+}
+
+nishapuri_2 = {
+	name = "nasir_ud_din_haidar"
+	dynasty = nishapuri
+	religion = imami
+	culture = hindustani
+	father = nishapuri_1
+	1803.9.9 = {
+		birth = yes
+	}
+	1837.7.7 = {
+		death = {
+			death_reason = death_poison
+		}
+	}
+}
+
+nishapuri_3 = {
+	name = "muhammad_ali"
+	dynasty = nishapuri
+	religion = imami
+	culture = hindustani
+	father = nishapuri_0
+	1774.1.1 = {
+		birth = yes
+	}
+	1842.5.7 = {
+		death = yes
+	}
+}
+
+nishapuri_4 = {
+	name = "amjad_ali"
+	dynasty = nishapuri
+	religion = imami
+	culture = hindustani
+	father = nishapuri_3
+	1800.1.1 = {
+		birth = yes
+	}
+	1847.2.13 = {
+		death = yes
+	}
+}
+
+nishapuri_5 = {
+	name = "wajid_ali"
+	dynasty = nishapuri
+	religion = imami
+	culture = hindustani
+	father = nishapuri_4
+	1822.7.30 = {
+		birth = yes
+	}
+	1887.9.1 = {
+		death = yes
+	}
+}

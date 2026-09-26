@@ -73,6 +73,9 @@
  k_gwalior: "$c_gwalior$"
  k_gwalior_adj: "$c_gwalior_adj$"
 
+ k_oudh:0 "Oudh"
+ k_oudh_adj:0 "Oudh"
+
  senegal: "Senegal"
  senegal_adj: "Senegalese"
 

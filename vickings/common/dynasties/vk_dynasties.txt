@@ -168,3 +168,13 @@ gaekwad = {
 	name = "dynn_Gaekwad"
 	culture = marathi
 }
+
+nishapuri = {
+	name = "dynn_Nishapuri"
+	culture = hindustani
+}
+
+pawar = {
+	name = "dynn_Pawar"
+	culture = hindustani
+}
