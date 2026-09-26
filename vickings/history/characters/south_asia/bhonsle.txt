@@ -1,0 +1,70 @@
+﻿9000049 = {
+	name = "Pratap Singh"
+	dynasty = bhonsle
+	culture = marathi
+	religion = vaishnavism
+	1793.1.18 = {
+		birth = yes
+	}
+	1818.6.3 = {
+		effect = {
+			vassal_contract_set_obligation_level = {
+				type = religious_rights
+				level = 1	#religious_rights_protected
+			}
+		#	vassal_contract_set_obligation_level = {
+		#		type = special_contract
+		#		level = 5	#princely_state
+		#	}
+			vassal_contract_set_obligation_level = {
+				type = title_revocation_rights
+				level = 1	#title_revocation_rights_protected
+			}
+		}
+	}
+	1847.10.14 = {
+		death = yes
+	}
+}
+
+9000050 = {
+	name = "Raghoji"	# II of Nagpur
+	dynasty = bhonsle
+	culture = marathi
+	religion = vaishnavism
+	1772.1.1 = {
+		birth = yes
+	}
+	1816.3.22 = {
+		death = yes
+	}
+}
+
+8000048 = {
+	name = "Raghoji"	# III of Nagpur
+	dynasty = bhonsle
+	culture = marathi
+	religion = vaishnavism
+	1808.1.1 = {
+		birth = yes
+	}
+	1818.6.26 = {
+		effect = {
+			vassal_contract_set_obligation_level = {
+				type = religious_rights
+				level = 1	#religious_rights_protected
+			}
+		#	vassal_contract_set_obligation_level = {
+		#		type = special_contract
+		#		level = 5	#princely_state
+		#	}
+			vassal_contract_set_obligation_level = {
+				type = title_revocation_rights
+				level = 1	#title_revocation_rights_protected
+			}
+		}
+	}
+	1853.12.11 = {
+		death = yes
+	}
+}

@@ -1,0 +1,97 @@
+﻿# source: https://rajputs.net/view/jaisalmer
+bhati_0 = {
+	name = "Mulraja"
+	dynasty = 1042091
+	religion = kalikula_shaktism
+	culture = rajput
+	1745.1.1 = {
+		birth = yes
+	}
+	1819.10.8 = {
+		death = yes
+	}
+}
+
+bhati_1 = {
+	name = "Jait Singh"
+	dynasty = 1042091
+	religion = kalikula_shaktism
+	culture = rajput
+	father = bhati_0
+	1765.1.1 = {
+		birth = yes
+	}
+	1830.1.1 = {
+		death = yes
+	}
+}
+
+bhati_2 = {
+	name = "Maha Singh"
+	dynasty = 1042091
+	religion = kalikula_shaktism
+	culture = rajput
+	father = bhati_1
+	1785.1.1 = {
+		birth = yes
+	}
+	1820.1.1 = {
+		death = yes
+	}
+}
+
+bhati_3 = {
+	name = "Gaj Singh"
+	dynasty = 1042091
+	religion = kalikula_shaktism
+	culture = rajput
+	father = bhati_2
+	1800.1.1 = {
+		birth = yes
+	}
+	1846.11.11 = {
+		death = yes
+	}
+}
+
+bhati_4 = {
+	name = "Kesari Singh"
+	dynasty = 1042091
+	religion = kalikula_shaktism
+	culture = rajput
+	father = bhati_2
+	1800.1.1 = {
+		birth = yes
+	}
+	1860.1.1 = {
+		death = yes
+	}
+}
+
+bhati_5 = {
+	name = "Ranjit Singh"
+	dynasty = 1042091
+	religion = kalikula_shaktism
+	culture = rajput
+	father = bhati_4
+	1840.1.1 = {	# unknown
+		birth = yes
+	}
+	1864.1.1 = {
+		death = yes
+	}
+}
+
+bhati_6 = {
+	name = "Bairi Sal"
+	dynasty = 1042091
+	religion = kalikula_shaktism
+	culture = rajput
+	father = bhati_4
+	1848.1.1 = {
+		birth = yes
+	}
+	1891.3.10 = {
+		death = yes
+	}
+}

@@ -83,3 +83,13 @@ house_hohen_sigmaringen = {
 	name = "dynn_Hohen_Sigmaringen"
 	dynasty = 12476	# Hohenzollern
 }
+
+house_bikawat_rathore = {
+	name = "dynn_Bikawat_Rathore"
+	dynasty = 1044388	# Rathore
+}
+
+house_mughal = {
+	name = "dynn_Mughal"
+	dynasty = timurid
+}

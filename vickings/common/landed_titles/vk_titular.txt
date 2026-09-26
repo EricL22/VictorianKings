@@ -336,3 +336,9 @@ e_vietnam = {
 
 	capital = c_simhapura
 }
+
+k_gwalior = {
+	color = { 153 237 145 }
+
+	capital = c_gwalior
+}

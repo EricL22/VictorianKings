@@ -1,0 +1,53 @@
+﻿mughal_0 = {
+	name = "Akbar"
+	dynasty_house = house_mughal
+	religion = ashari
+	culture = hindustani
+	1760.4.22 = {
+		birth = yes
+	}
+	1837.9.28 = {
+		death = yes
+	}
+}
+
+mughal_1 = {
+	name = "Bahadur"
+	dynasty_house = house_mughal
+	religion = ashari
+	culture = hindustani
+	father = mughal_0
+	1775.10.24 = {
+		birth = yes
+	}
+	1862.11.7 = {
+		death = yes
+	}
+}
+
+timurid_0 = {	# to initialize the parent dynasty house
+	name = "Timur"
+	dynasty = timurid
+	religion = ashari
+	culture = mongol
+	martial = 12
+	diplomacy = 8
+	stewardship = 9
+	intrigue = 9
+	learning = 6
+	health = 6
+	fertility = 0.8
+	trait = education_martial_4
+	trait = diligent
+	trait = ambitious
+	trait = arrogant
+	trait = intellect_good_1
+	trait = clubfooted
+	#trait = adventurer
+	1320.1.1 = {
+		birth = yes
+	}
+	1405.2.18 = {
+		death = yes
+	}
+}

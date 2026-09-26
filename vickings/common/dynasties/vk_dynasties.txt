@@ -143,3 +143,28 @@ talpur = {
 	name = "dynn_Talpur"
 	culture = baloch
 }
+
+timurid = {
+	name = "dynn_Timurid"
+	culture = hindustani
+}
+
+scindia = {
+	name = "dynn_Shinde"
+	culture = marathi
+}
+
+holkar = {
+	name = "dynn_Holkar"
+	culture = marathi
+}
+
+bhonsle = {
+	name = "dynn_Bhonsle"
+	culture = marathi
+}
+
+gaekwad = {
+	name = "dynn_Gaekwad"
+	culture = marathi
+}

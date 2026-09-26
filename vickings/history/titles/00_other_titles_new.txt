@@ -282,6 +282,19 @@ e_persia = {
 	}
 }
 
+e_rajastan = {
+	1806.11.19 = {
+		#government = feudal_government
+		holder = mughal_0	# Akbar II
+	}
+	1837.9.28 = {
+		holder = mughal_1	# Bahadur Shah Zafar
+	}
+	1857.9.21 = {
+		holder = 0
+	}
+}
+
 k_switzerland = {
 	1291.8.1 = {
 		effect = {

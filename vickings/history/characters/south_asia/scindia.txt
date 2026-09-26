@@ -1,0 +1,81 @@
+﻿scindia_0 = {
+	name = "Daulat Rao"
+	dynasty = scindia
+	culture = marathi
+	religion = vaishnavism
+	1779.1.1 = {
+		birth = yes
+	}
+	1827.3.21 = {
+		death = yes
+	}
+}
+
+scindia_1 = {
+	name = "Patloji Rao"
+	dynasty = scindia
+	culture = marathi
+	religion = vaishnavism
+	1775.1.1 = {	# unknown
+		birth = yes
+	}
+	1820.1.1 = {	# unknown
+		death = yes
+	}
+}
+
+scindia_2 = {
+	name = "Jankoji Rao"
+	dynasty = scindia
+	culture = marathi
+	religion = vaishnavism
+	father = scindia_1
+	1805.1.1 = {
+		birth = yes
+	}
+	1843.2.7 = {
+		death = yes
+	}
+}
+
+scindia_3 = {
+	name = "Hanuvant Rao"
+	dynasty = scindia
+	culture = marathi
+	religion = vaishnavism
+	father = scindia_1
+	1809.1.1 = {	# unknown
+		birth = yes
+	}
+	1842.1.1 = {	# unknown
+		death = yes
+	}
+}
+
+scindia_4 = {
+	name = "Jayaji Rao"
+	dynasty = scindia
+	culture = marathi
+	religion = vaishnavism
+	father = scindia_3
+	1834.1.19 = {
+		birth = yes
+	}
+	1886.6.20 = {
+		death = yes
+	}
+}
+
+scindia_5 = {
+	name = "Madho Rao"
+	dynasty = scindia
+	culture = marathi
+	religion = vaishnavism
+	father = scindia_4
+	1876.10.20 = {
+		birth = yes
+	}
+	1925.6.5 = {
+		death = yes
+	}
+}

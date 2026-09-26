@@ -1,0 +1,100 @@
+﻿jadeja_0 = {
+	name = "Rayadhan"	# III of Cutch
+	dynasty = 1042085
+	religion = kalikula_shaktism
+	culture = gujarati
+	1763.1.1 = {
+		birth = yes
+	}
+	1778.1.1 = {
+		religion = maturidi
+		trait = zealous	# became a religious fanatic
+	}
+	1813.10.30 = {
+		death = yes
+	}
+}
+
+jadeja_1 = {
+	name = "Bharmalji"	# II of Cutch
+	dynasty = 1042085
+	religion = kalikula_shaktism
+	culture = gujarati
+	father = jadeja_0
+	1798.1.1 = {
+		birth = yes
+	}
+	1846.1.1 = {
+		death = yes
+	}
+}
+
+jadeja_2 = {
+	name = "Deshalji"	# II of Cutch
+	dynasty = 1042085
+	religion = kalikula_shaktism
+	culture = gujarati
+	father = jadeja_1
+	1814.6.20 = {
+		birth = yes
+	}
+	1860.7.26 = {
+		death = yes
+	}
+}
+
+jadeja_3 = {
+	name = "Pragmalji"	# II of Cutch
+	dynasty = 1042085
+	religion = kalikula_shaktism
+	culture = gujarati
+	father = jadeja_2
+	1839.1.1 = {
+		birth = yes
+	}
+	1875.12.19 = {
+		death = yes
+	}
+}
+
+jadeja_4 = {
+	name = "Khengarji"	# III of Cutch
+	dynasty = 1042085
+	religion = kalikula_shaktism
+	culture = gujarati
+	father = jadeja_3
+	1866.8.23 = {
+		birth = yes
+	}
+	1942.1.15 = {
+		death = yes
+	}
+}
+
+jadeja_5 = {
+	name = "Vijayarajaji"
+	dynasty = 1042085
+	religion = kalikula_shaktism
+	culture = gujarati
+	father = jadeja_4
+	1885.9.2 = {
+		birth = yes
+	}
+	1948.2.26 = {
+		death = yes
+	}
+}
+
+jadeja_6 = {
+	name = "Madansinhji"
+	dynasty = 1042085
+	religion = kalikula_shaktism
+	culture = gujarati
+	father = jadeja_5
+	1909.10.12 = {
+		birth = yes
+	}
+	1991.6.21 = {
+		death = yes
+	}
+}

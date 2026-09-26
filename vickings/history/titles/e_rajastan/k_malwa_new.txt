@@ -1,0 +1,269 @@
+k_malwa = {
+	1800.1.1 = {
+		holder = 0
+	}
+}
+d_dadhipadra = {
+	1794.2.12 = {
+		holder = scindia_0	# Daulat Rao Sindhia
+	}
+	1827.3.21 = {
+		holder = scindia_2	# Jankoji Rao Scindia II
+	}
+	1843.2.7 = {
+		holder = scindia_4	# Jayajirao Scindia
+	}
+	1886.6.20 = {
+		holder = scindia_5	# Madho Rao
+	}
+}
+c_ujjayini = {
+	1794.2.12 = {
+		holder = scindia_0	# Daulat Rao Sindhia
+	}
+	1827.3.21 = {
+		holder = scindia_2	# Jankoji Rao Scindia II
+	}
+	1843.2.7 = {
+		holder = scindia_4	# Jayajirao Scindia
+	}
+	1886.6.20 = {
+		holder = scindia_5	# Madho Rao
+	}
+}
+c_dadhipadra = {
+	1794.2.12 = {
+		holder = scindia_0	# Daulat Rao Sindhia
+	}
+	1827.3.21 = {
+		holder = scindia_2	# Jankoji Rao Scindia II
+	}
+	1843.2.7 = {
+		holder = scindia_4	# Jayajirao Scindia
+	}
+	1886.6.20 = {
+		holder = scindia_5	# Madho Rao
+	}
+}
+c_dhara = {
+	1794.2.12 = {
+		holder = scindia_0	# Daulat Rao Sindhia
+	}
+	1827.3.21 = {
+		holder = scindia_2	# Jankoji Rao Scindia II
+	}
+	1843.2.7 = {
+		holder = scindia_4	# Jayajirao Scindia
+	}
+	1886.6.20 = {
+		holder = scindia_5	# Madho Rao
+	}
+}
+c_dasapura = {
+	1794.2.12 = {
+		holder = scindia_0	# Daulat Rao Sindhia
+	}
+	1827.3.21 = {
+		holder = scindia_2	# Jankoji Rao Scindia II
+	}
+	1843.2.7 = {
+		holder = scindia_4	# Jayajirao Scindia
+	}
+	1886.6.20 = {
+		holder = scindia_5	# Madho Rao
+	}
+}
+d_akara_dasarna = {
+	1811.10.27 = {
+		holder = holkar_0	# Malhar Rao Holkar III
+		liege = e_maratha
+	}
+	1818.1.6 = {
+		liege = e_britannia
+		government = feudal_government
+		effect = {
+			holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = religious_rights
+					level = 1	#religious_rights_protected
+				}
+			#	vassal_contract_set_obligation_level = {
+			#		type = special_contract
+			#		level = 5	#princely_state
+			#	}
+				vassal_contract_set_obligation_level = {
+					type = title_revocation_rights
+					level = 1	#title_revocation_rights_protected
+				}
+			}
+		}
+	}
+	1833.10.27 = {
+		holder = holkar_1	# Marthand Rao Holkar
+	}
+	1834.4.17 = {
+		holder = holkar_2	# Hari Rao Holkar
+	}
+	1844.6.23 = {
+		holder = holkar_3	# Tukojirao Holkar II
+	}
+	1886.6.17 = {
+		holder = holkar_4	# Shivajirao Holkar
+	}
+	1903.1.31 = {
+		holder = holkar_5	# Tukojirao Holkar III
+	}
+}
+c_vidisa = {
+	1811.10.27 = {
+		holder = holkar_0	# Malhar Rao Holkar III
+	}
+	1833.10.27 = {
+		holder = holkar_1	# Marthand Rao Holkar
+	}
+	1834.4.17 = {
+		holder = holkar_2	# Hari Rao Holkar
+	}
+	1844.6.23 = {
+		holder = holkar_3	# Tukojirao Holkar II
+	}
+	1903.1.31 = {
+		holder = holkar_5	# Tukojirao Holkar III
+	}
+}
+c_sarangpur = {
+	1811.10.27 = {
+		holder = holkar_0	# Malhar Rao Holkar III
+	}
+	1833.10.27 = {
+		holder = holkar_1	# Marthand Rao Holkar
+	}
+	1834.4.17 = {
+		holder = holkar_2	# Hari Rao Holkar
+	}
+	1844.6.23 = {
+		holder = holkar_3	# Tukojirao Holkar II
+	}
+	1903.1.31 = {
+		holder = holkar_5	# Tukojirao Holkar III
+	}
+}
+c_chanderi = {
+	1811.10.27 = {
+		holder = holkar_0	# Malhar Rao Holkar III
+	}
+	1833.10.27 = {
+		holder = holkar_1	# Marthand Rao Holkar
+	}
+	1834.4.17 = {
+		holder = holkar_2	# Hari Rao Holkar
+	}
+	1844.6.23 = {
+		holder = holkar_3	# Tukojirao Holkar II
+	}
+	1903.1.31 = {
+		holder = holkar_5	# Tukojirao Holkar III
+	}
+}
+c_candhoba = {
+	1811.10.27 = {
+		holder = holkar_0	# Malhar Rao Holkar III
+	}
+	1833.10.27 = {
+		holder = holkar_1	# Marthand Rao Holkar
+	}
+	1834.4.17 = {
+		holder = holkar_2	# Hari Rao Holkar
+	}
+	1844.6.23 = {
+		holder = holkar_3	# Tukojirao Holkar II
+	}
+	1903.1.31 = {
+		holder = holkar_5	# Tukojirao Holkar III
+	}
+}
+d_anupa = {
+	1808.5.3 = {	# Maratha Empire
+		holder = 9000049	# Pratap Singh
+	}
+	1818.6.3 = {	# United Kingdom
+		holder = british_east_india_1	# Francis Rawdon-Hastings
+	}
+	1835.3.20 = {
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_mandapika = {
+	1808.5.3 = {	# Maratha Empire
+		holder = 9000049	# Pratap Singh
+	}
+	1818.6.3 = {	# United Kingdom
+		holder = british_east_india_1	# Francis Rawdon-Hastings
+	}
+	1835.3.20 = {
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_asirgarh = {
+	1808.5.3 = {	# Maratha Empire
+		holder = 9000049	# Pratap Singh
+	}
+	1818.6.3 = {	# United Kingdom
+		holder = british_east_india_1	# Francis Rawdon-Hastings
+	}
+	1835.3.20 = {
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_burhanpur = {
+	1808.5.3 = {	# Maratha Empire
+		holder = 9000049	# Pratap Singh
+	}
+	1818.6.3 = {	# United Kingdom
+		holder = british_east_india_1	# Francis Rawdon-Hastings
+	}
+	1835.3.20 = {
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_thalner = {
+	1808.5.3 = {	# Maratha Empire
+		holder = 9000049	# Pratap Singh
+	}
+	1818.6.3 = {	# United Kingdom
+		holder = british_east_india_1	# Francis Rawdon-Hastings
+	}
+	1835.3.20 = {
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}

@@ -1,0 +1,319 @@
+d_maru = {
+	1803.10.19 = {
+		holder = rathore_0	# Man Singh
+	}
+	1818.1.6 = {
+		liege = e_britannia
+		government = feudal_government
+		effect = {
+			holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = religious_rights
+					level = 1	#religious_rights_protected
+				}
+			#	vassal_contract_set_obligation_level = {
+			#		type = special_contract
+			#		level = 5	#princely_state
+			#	}
+				vassal_contract_set_obligation_level = {
+					type = title_revocation_rights
+					level = 1	#title_revocation_rights_protected
+				}
+			}
+		}
+	}
+	1843.9.4 = {
+		holder = rathore_1	# Takht Singh
+	}
+	1873.2.14 = {
+		holder = rathore_2	# Jaswant Singh II
+	}
+	1895.10.11 = {
+		holder = rathore_3	# Sardar Singh
+	}
+	1911.3.20 = {
+		holder = rathore_4	# Sumer Singh
+	}
+}
+c_mandavyapura = {
+	1803.10.19 = {
+		holder = rathore_0	# Man Singh
+	}
+	1843.9.4 = {
+		holder = rathore_1	# Takht Singh
+	}
+	1911.3.20 = {
+		holder = rathore_4	# Sumer Singh
+	}
+}
+c_medantaka = {
+	1803.10.19 = {
+		holder = rathore_0	# Man Singh
+	}
+	1843.9.4 = {
+		holder = rathore_1	# Takht Singh
+	}
+	1911.3.20 = {
+		holder = rathore_4	# Sumer Singh
+	}
+}
+c_godwad = {
+	1803.10.19 = {
+		holder = rathore_0	# Man Singh
+	}
+	1843.9.4 = {
+		holder = rathore_1	# Takht Singh
+	}
+	1911.3.20 = {
+		holder = rathore_4	# Sumer Singh
+	}
+}
+c_naddula = {
+	1803.10.19 = {
+		holder = rathore_0	# Man Singh
+	}
+	1843.9.4 = {
+		holder = rathore_1	# Takht Singh
+	}
+	1911.3.20 = {
+		holder = rathore_4	# Sumer Singh
+	}
+}
+d_jangladesh = {
+	1787.10.9 = {
+		holder = rathore_10	# Surat Singh
+	}
+	1818.3.9 = {
+		liege = e_britannia
+		government = feudal_government
+		effect = {
+			holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = religious_rights
+					level = 1	#religious_rights_protected
+				}
+			#	vassal_contract_set_obligation_level = {
+			#		type = special_contract
+			#		level = 5	#princely_state
+			#	}
+				vassal_contract_set_obligation_level = {
+					type = title_revocation_rights
+					level = 1	#title_revocation_rights_protected
+				}
+			}
+		}
+	}
+	1828.3.25 = {
+		holder = rathore_11	# Ratan Singh
+	}
+	1851.8.7 = {
+		holder = rathore_12	# Sardar Singh
+	}
+	1872.5.16 = {
+		holder = rathore_14	# Dungar Singh
+	}
+	1888.12.16 = {
+		holder = rathore_15	# Ganga Singh
+	}
+}
+c_nagauda = {
+	1787.10.9 = {
+		holder = rathore_10	# Surat Singh
+	}
+	1828.3.25 = {
+		holder = rathore_11	# Ratan Singh
+	}
+	1851.8.7 = {
+		holder = rathore_12	# Sardar Singh
+	}
+	1888.12.16 = {
+		holder = rathore_15	# Ganga Singh
+	}
+}
+c_vikramapura = {
+	1787.10.9 = {
+		holder = rathore_10	# Surat Singh
+	}
+	1828.3.25 = {
+		holder = rathore_11	# Ratan Singh
+	}
+	1851.8.7 = {
+		holder = rathore_12	# Sardar Singh
+	}
+	1888.12.16 = {
+		holder = rathore_15	# Ganga Singh
+	}
+}
+c_reni = {
+	1787.10.9 = {
+		holder = rathore_10	# Surat Singh
+	}
+	1828.3.25 = {
+		holder = rathore_11	# Ratan Singh
+	}
+	1851.8.7 = {
+		holder = rathore_12	# Sardar Singh
+	}
+	1888.12.16 = {
+		holder = rathore_15	# Ganga Singh
+	}
+}
+d_stravani = {
+	1762.1.1 = {
+		holder = 0
+	}
+}
+c_ludrava = {
+	1762.1.1 = {
+		holder = bhati_0	# Mulraja II
+	}
+	1820.2.18 = {
+		holder = bhati_3	# Gaj Singh
+	}
+	1846.11.11 = {
+		holder = bhati_5	# Ranjit Singh
+	}
+	1864.1.1 = {
+		holder = bhati_6	# Bairi Sal
+	}
+	# 1914.6.26: Jawahir Singh (TODO)
+}
+c_satyapura = {
+	1803.10.19 = {
+		holder = rathore_0	# Man Singh
+	}
+	1843.9.4 = {
+		holder = rathore_1	# Takht Singh
+	}
+	1911.3.20 = {
+		holder = rathore_4	# Sumer Singh
+	}
+}
+d_medapata = {
+	1794.2.12 = {
+		holder = scindia_0	# Daulat Rao Sindhia
+	}
+	1827.3.21 = {
+		holder = scindia_2	# Jankoji Rao Scindia II
+	}
+	1843.2.7 = {
+		holder = scindia_4	# Jayajirao Scindia
+	}
+	1886.6.20 = {
+		holder = scindia_5	# Madho Rao
+	}
+}
+c_medapata = {
+	1794.2.12 = {
+		holder = scindia_0	# Daulat Rao Sindhia
+	}
+	1827.3.21 = {
+		holder = scindia_2	# Jankoji Rao Scindia II
+	}
+	1843.2.7 = {
+		holder = scindia_4	# Jayajirao Scindia
+	}
+	1886.6.20 = {
+		holder = scindia_5	# Madho Rao
+	}
+}
+c_chitrakut = {
+	1794.2.12 = {
+		holder = scindia_0	# Daulat Rao Sindhia
+	}
+	1827.3.21 = {
+		holder = scindia_2	# Jankoji Rao Scindia II
+	}
+	1843.2.7 = {
+		holder = scindia_4	# Jayajirao Scindia
+	}
+	1886.6.20 = {
+		holder = scindia_5	# Madho Rao
+	}
+}
+c_kota = {
+	1794.2.12 = {
+		holder = scindia_0	# Daulat Rao Sindhia
+	}
+	1827.3.21 = {
+		holder = scindia_2	# Jankoji Rao Scindia II
+	}
+	1843.2.7 = {
+		holder = scindia_4	# Jayajirao Scindia
+	}
+	1886.6.20 = {
+		holder = scindia_5	# Madho Rao
+	}
+}
+#d_ajmer = {
+#	1818.2.1 = {
+#		holder = 0
+#	}
+#}
+c_ajayameru = {
+	1794.2.12 = {	# Gwalior
+		holder = scindia_0
+	}
+	1818.6.25 = {	# United Kingdom
+		holder = british_east_india_1	# Francis Rawdon-Hastings
+	}
+	1835.3.20 = {
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_ranthambore = {
+	1803.8.3 = {
+		holder = kachhwaha_0	# Jagat Singh II
+	}
+	1819.4.25 = {
+		holder = kachhwaha_1	# Jai Singh III
+	}
+	1835.2.6 = {
+		holder = kachhwaha_2	# Ram Singh II
+	}
+	# 1880.9.18: Madho Singh II (TODO)
+}
+c_vairata = {
+	1803.8.3 = {
+		holder = kachhwaha_0	# Jagat Singh II
+	}
+	1819.4.25 = {
+		holder = kachhwaha_1	# Jai Singh III
+	}
+	1835.2.6 = {
+		holder = kachhwaha_2	# Ram Singh II
+	}
+	# 1880.9.18: Madho Singh II (TODO)
+}
+c_gwalior = {
+	1794.2.12 = {
+		holder = scindia_0	# Daulat Rao Sindhia
+	}
+	1827.3.21 = {
+		holder = scindia_2	# Jankoji Rao Scindia II
+	}
+	1843.2.7 = {
+		holder = scindia_4	# Jayajirao Scindia
+	}
+	1886.6.20 = {
+		holder = scindia_5	# Madho Rao
+	}
+}
+c_sakarai = {
+	1803.8.3 = {
+		holder = kachhwaha_0	# Jagat Singh II
+	}
+	1819.4.25 = {
+		holder = kachhwaha_1	# Jai Singh III
+	}
+	1835.2.6 = {
+		holder = kachhwaha_2	# Ram Singh II
+	}
+	# 1880.9.18: Madho Singh II (TODO)
+}

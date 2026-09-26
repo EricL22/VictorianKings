@@ -1,0 +1,181 @@
+﻿## Rathore Dynasty of Jodhpur
+rathore_0 = {
+	name = "Man Singh"
+	dynasty = 1044388
+	religion = vaishnavism
+	culture = rajput
+	1783.2.3 = {
+		birth = yes
+	}
+	1843.9.4 = {
+		death = yes
+	}
+}
+
+rathore_1 = {
+	name = "Takht Singh"
+	dynasty = 1044388
+	religion = vaishnavism
+	culture = rajput
+	1819.6.6 = {
+		birth = yes
+	}
+	1873.2.13 = {
+		death = yes
+	}
+}
+
+rathore_2 = {
+	name = "Jaswant Singh"	# II of Jodhpur
+	dynasty = 1044388
+	religion = vaishnavism
+	culture = rajput
+	father = rathore_1
+	1838.6.6 = {
+		birth = yes
+	}
+	1895.10.11 = {
+		death = yes
+	}
+}
+
+rathore_3 = {
+	name = "Sardar Singh"
+	dynasty = 1044388
+	religion = vaishnavism
+	culture = rajput
+	father = rathore_2
+	1880.2.11 = {
+		birth = yes
+	}
+	1911.3.21 = {
+		death = yes
+	}
+}
+
+rathore_4 = {
+	name = "Sumer Singh"
+	dynasty = 1044388
+	religion = vaishnavism
+	culture = rajput
+	father = rathore_3
+	1898.1.14 = {
+		birth = yes
+	}
+	1918.10.3 = {
+		death = yes
+	}
+}
+
+rathore_5 = {
+	name = "Umaid Singh"
+	dynasty = 1044388
+	religion = vaishnavism
+	culture = rajput
+	father = rathore_3
+	1903.7.8 = {
+		birth = yes
+	}
+	1947.6.9 = {
+		death = yes
+	}
+}
+####################
+
+## Rathore Dynasty of Bikaner
+rathore_10 = {
+	name = "Surat Singh"
+	dynasty_house = house_bikawat_rathore
+	religion = srikula_shaktism
+	culture = rajput
+	1766.1.1 = {
+		birth = yes
+	}
+	1828.3.25 = {
+		death = yes
+	}
+}
+
+rathore_11 = {
+	name = "Ratan Singh"
+	dynasty_house = house_bikawat_rathore
+	religion = srikula_shaktism
+	culture = rajput
+	father = rathore_10
+	1790.1.1 = {
+		birth = yes
+	}
+	1851.8.7 = {
+		death = yes
+	}
+}
+
+rathore_12 = {
+	name = "Sardar Singh"
+	dynasty_house = house_bikawat_rathore
+	religion = srikula_shaktism
+	culture = rajput
+	father = rathore_11
+	1818.9.18 = {
+		birth = yes
+	}
+	1872.5.16 = {
+		death = yes
+	}
+}
+
+rathore_13 = {
+	name = "Lal Singh"
+	dynasty_house = house_bikawat_rathore
+	religion = srikula_shaktism
+	culture = rajput
+	1831.12.16 = {
+		birth = yes
+	}
+	1887.9.17 = {
+		death = yes
+	}
+}
+
+rathore_14 = {
+	name = "Dungar Singh"
+	dynasty_house = house_bikawat_rathore
+	religion = srikula_shaktism
+	culture = rajput
+	father = rathore_13
+	1854.8.22 = {
+		birth = yes
+	}
+	1887.8.19 = {
+		death = yes
+	}
+}
+
+rathore_15 = {
+	name = "Ganga Singh"
+	dynasty_house = house_bikawat_rathore
+	religion = srikula_shaktism
+	culture = rajput
+	father = rathore_13
+	1880.10.13 = {
+		birth = yes
+	}
+	1943.2.2 = {
+		death = yes
+	}
+}
+
+rathore_16 = {
+	name = "Sadul Singh"
+	dynasty_house = house_bikawat_rathore
+	religion = srikula_shaktism
+	culture = rajput
+	father = rathore_15
+	1902.9.7 = {
+		birth = yes
+	}
+	1950.9.25 = {
+		death = yes
+	}
+}
+####################

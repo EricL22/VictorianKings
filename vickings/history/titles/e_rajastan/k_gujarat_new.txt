@@ -1,0 +1,295 @@
+k_gujarat = {
+	1800.1.1 = {
+		holder = 0
+	}
+}
+d_gurjara_mandala = {
+	1808.5.3 = {
+		holder = 0
+	}
+}
+c_sarasvata_mandala = {
+	1808.5.3 = {	# Maratha Empire
+		holder = 9000049	# Pratap Singh
+	}
+	1818.6.3 = {	# United Kingdom
+		holder = british_east_india_1	# Francis Rawdon-Hastings
+	}
+	1835.3.20 = {
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_khetaka = {
+	1800.9.19 = {
+		holder = gaekwad_1	# Anand Rao Gaekwad
+	}
+	1819.10.2 = {
+		holder = gaekwad_2	# Sayajirao Gaekwad II
+	}
+	1856.11.19 = {
+		holder = gaekwad_4	# Khanderao II Gaekwad
+	}
+	# 1875.4.10: Sayajirao Gaekwad III (TODO)
+}
+c_mohadavasaka = {
+	1808.5.3 = {	# Maratha Empire
+		holder = 9000049	# Pratap Singh
+	}
+	1818.6.3 = {	# United Kingdom
+		holder = british_east_india_1	# Francis Rawdon-Hastings
+	}
+	1835.3.20 = {
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+#d_anartta = {
+#}
+c_dvaraka = {
+	1807.7.31 = {
+		holder = british_east_india_0	# Gilbert Elliot-Murray-Kynynmound
+	}
+	1813.10.4 = {
+		holder = british_east_india_1	# Francis Rawdon-Hastings
+	}
+	1835.3.20 = {
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_dhamalpur = {
+	1807.7.31 = {
+		holder = british_east_india_0	# Gilbert Elliot-Murray-Kynynmound
+	}
+	1813.10.4 = {
+		holder = british_east_india_1	# Francis Rawdon-Hastings
+	}
+	1835.3.20 = {
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_kutch = {
+	1801.1.1 = {
+		holder = jadeja_0	# Rayadhan III
+		liege = 0
+	}
+	1814.1.13 = {
+		holder = jadeja_1	# Bharmalji II
+	}
+	1819.3.25 = {
+		holder = jadeja_2	# Deshalji II
+		liege = e_britannia
+		government = feudal_government
+		effect = {
+			holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = religious_rights
+					level = 1	#religious_rights_protected
+				}
+			#	vassal_contract_set_obligation_level = {
+			#		type = special_contract
+			#		level = 5	#princely_state
+			#	}
+				vassal_contract_set_obligation_level = {
+					type = title_revocation_rights
+					level = 1	#title_revocation_rights_protected
+				}
+			}
+		}
+	}
+	1860.7.26 = {
+		holder = jadeja_3	# Pragmalji II
+	}
+	1875.12.19 = {
+		holder = jadeja_4	# Khengarji III
+	}
+}
+d_saurashtra = {
+	1807.7.31 = {
+		holder = british_east_india_0	# Gilbert Elliot-Murray-Kynynmound
+	}
+	1813.10.4 = {
+		holder = british_east_india_1	# Francis Rawdon-Hastings
+	}
+	1835.3.20 = {
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_bhumilka = {
+	1807.7.31 = {
+		holder = british_east_india_0	# Gilbert Elliot-Murray-Kynynmound
+	}
+	1813.10.4 = {
+		holder = british_east_india_1	# Francis Rawdon-Hastings
+	}
+	1835.3.20 = {
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_somnath = {
+	1807.7.31 = {
+		holder = british_east_india_0	# Gilbert Elliot-Murray-Kynynmound
+	}
+	1813.10.4 = {
+		holder = british_east_india_1	# Francis Rawdon-Hastings
+	}
+	1835.3.20 = {
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_vardhamana = {
+	1807.7.31 = {
+		holder = british_east_india_0	# Gilbert Elliot-Murray-Kynynmound
+	}
+	1813.10.4 = {
+		holder = british_east_india_1	# Francis Rawdon-Hastings
+	}
+	1835.3.20 = {
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_valabhi = {
+	1807.7.31 = {
+		holder = british_east_india_0	# Gilbert Elliot-Murray-Kynynmound
+	}
+	1813.10.4 = {
+		holder = british_east_india_1	# Francis Rawdon-Hastings
+	}
+	1835.3.20 = {
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+d_lata = {
+	1793.8.1 = {
+		holder = gaekwad_0	# Govind Rao Gaekwad
+	}
+	1800.9.19 = {
+		holder = gaekwad_1	# Anand Rao Gaekwad
+	}
+	1805.1.1 = {
+		liege = e_britannia
+		government = feudal_government
+		effect = {
+			holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = religious_rights
+					level = 1	#religious_rights_protected
+				}
+			#	vassal_contract_set_obligation_level = {
+			#		type = special_contract
+			#		level = 5	#princely_state
+			#	}
+				vassal_contract_set_obligation_level = {
+					type = title_revocation_rights
+					level = 1	#title_revocation_rights_protected
+				}
+			}
+		}
+	}
+	1819.10.2 = {
+		holder = gaekwad_2	# Sayajirao Gaekwad II
+	}
+	1847.12.28 = {
+		holder = gaekwad_3	# Ganpat Rao Gaekwad
+	}
+	1856.11.19 = {
+		holder = gaekwad_4	# Khanderao II Gaekwad
+	}
+	1870.11.28 = {
+		holder = gaekwad_5	# Malhar Rao Gaekwad
+	}
+	# 1875.4.10: Sayajirao Gaekwad III (TODO)
+}
+c_vadodara = {
+	1800.9.19 = {
+		holder = gaekwad_1	# Anand Rao Gaekwad
+	}
+	1819.10.2 = {
+		holder = gaekwad_2	# Sayajirao Gaekwad II
+	}
+	1856.11.19 = {
+		holder = gaekwad_4	# Khanderao II Gaekwad
+	}
+	# 1875.4.10: Sayajirao Gaekwad III (TODO)
+}
+c_navasarika = {
+	1800.9.19 = {
+		holder = gaekwad_1	# Anand Rao Gaekwad
+	}
+	1819.10.2 = {
+		holder = gaekwad_2	# Sayajirao Gaekwad II
+	}
+	1856.11.19 = {
+		holder = gaekwad_4	# Khanderao II Gaekwad
+	}
+	# 1875.4.10: Sayajirao Gaekwad III (TODO)
+}
+c_daman = {
+	1808.5.3 = {	# Maratha Empire
+		holder = 9000049	# Pratap Singh
+	}
+	1818.6.3 = {	# United Kingdom
+		holder = british_east_india_1	# Francis Rawdon-Hastings
+	}
+	1835.3.20 = {
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}

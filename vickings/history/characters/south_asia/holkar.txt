@@ -1,0 +1,93 @@
+﻿holkar_0 = {
+	name = "Malhar Rao"	# III of Indore
+	dynasty = holkar
+	culture = marathi
+	religion = vaishnavism
+	1806.1.1 = {
+		birth = yes
+	}
+	1833.10.27 = {
+		death = yes
+	}
+}
+
+holkar_1 = {
+	name = "Marthand Rao"
+	dynasty = holkar
+	culture = marathi
+	religion = vaishnavism
+	1830.1.1 = {
+		birth = yes
+	}
+	1849.6.2 = {
+		death = yes
+	}
+}
+
+holkar_2 = {
+	name = "Hari Rao"
+	dynasty = holkar
+	culture = marathi
+	religion = vaishnavism
+	1795.1.1 = {
+		birth = yes
+	}
+	1843.10.24 = {
+		death = yes
+	}
+}
+
+holkar_3 = {
+	name = "Tukoji Rao"	# II of Indore
+	dynasty = holkar
+	culture = marathi
+	religion = vaishnavism
+	1835.5.3 = {
+		birth = yes
+	}
+	1886.6.17 = {
+		death = yes
+	}
+}
+
+holkar_4 = {
+	name = "Shivaji Rao"
+	dynasty = holkar
+	culture = marathi
+	religion = vaishnavism
+	father = holkar_3
+	1859.11.11 = {
+		birth = yes
+	}
+	1908.10.13 = {
+		death = yes
+	}
+}
+
+holkar_5 = {
+	name = "Tukoji Rao"	# III of Indore
+	dynasty = holkar
+	culture = marathi
+	religion = vaishnavism
+	father = holkar_4
+	1890.11.26 = {
+		birth = yes
+	}
+	1978.5.21 = {
+		death = yes
+	}
+}
+
+holkar_6 = {
+	name = "Yashwant Rao"	# II of Indore
+	dynasty = holkar
+	culture = marathi
+	religion = vaishnavism
+	father = holkar_5
+	1908.9.6 = {
+		birth = yes
+	}
+	1961.12.5 = {
+		death = yes
+	}
+}

@@ -57,13 +57,21 @@
  k_sokoto_adj: "Sokoto"
 
  k_sikkim:0 "Sikkim"
- d_sikkim:0 "Sikkim"
 
  k_british_east_indies_article:0 "the "
  k_british_east_indies:0 "East India Company"
  k_british_east_indies_adj:0 "British"
  director:0 "General"
  directress:0 "Lady"
+
+ k_jaisalmer:0 "Jaisalmer"
+ k_jaisalmer_adj:0 "Jaisalmer"
+
+ k_jaipur:0 "Jaipur"
+ k_jaipur_adj:0 "Jaipur"
+
+ k_gwalior: "$c_gwalior$"
+ k_gwalior_adj: "$c_gwalior_adj$"
 
  senegal: "Senegal"
  senegal_adj: "Senegalese"

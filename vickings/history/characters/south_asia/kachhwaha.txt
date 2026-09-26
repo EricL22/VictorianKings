@@ -1,0 +1,42 @@
+﻿kachhwaha_0 = {
+	name = "Jagat Singh"	# II of Jaipur
+	dynasty = 1044383
+	religion = vaishnavism
+	culture = rajput
+	1786.1.1 = {
+		birth = yes
+	}
+	1818.11.21 = {
+		death = yes
+	}
+}
+
+kachhwaha_1 = {
+	name = "Jai Singh"	# III of Jaipur
+	dynasty = 1044383
+	religion = vaishnavism
+	culture = rajput
+	father = kachhwaha_0
+	1819.4.25 = {
+		birth = yes
+	}
+	1835.2.6 = {
+		death = {
+			death_reason = death_poison
+		}
+	}
+}
+
+kachhwaha_2 = {
+	name = "Ram Singh"	# II of Jaipur
+	dynasty = 1044383
+	religion = vaishnavism
+	culture = rajput
+	father = kachhwaha_1
+	1834.1.1 = {
+		birth = yes
+	}
+	1880.9.17 = {
+		death = yes
+	}
+}

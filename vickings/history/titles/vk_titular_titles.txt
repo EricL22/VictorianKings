@@ -511,6 +511,108 @@ k_british_east_indies = {
 	}
 }
 
+k_jaisalmer = {
+	1762.10.22 = {
+		holder = bhati_0	# Mulraja II
+	}
+	1818.12.11 = {
+		liege = e_britannia
+		government = feudal_government
+		effect = {
+			holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = religious_rights
+					level = 1	#religious_rights_protected
+				}
+				vassal_contract_set_obligation_level = {
+					type = title_revocation_rights
+					level = 1	#title_revocation_rights_protected
+				}
+			}
+		}
+	}
+	1820.2.18 = {
+		holder = bhati_3	# Gaj Singh
+	}
+	1846.11.11 = {
+		holder = bhati_5	# Ranjit Singh
+	}
+	1864.1.1 = {
+		holder = bhati_6	# Bairi Sal
+	}
+	# 1891.3.10: Shalivahan Singh
+	# 1914.6.26: Jawahir Singh (TODO)
+}
+
+k_gwalior = {
+	1794.2.12 = {
+		holder = scindia_0	# Daulat Rao Sindhia
+		liege = e_maratha
+	}
+	1817.11.5 = {
+		liege = e_britannia
+		government = feudal_government
+		effect = {
+			holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = religious_rights
+					level = 1	#religious_rights_protected
+				}
+			#	vassal_contract_set_obligation_level = {
+			#		type = special_contract
+			#		level = 5	#princely_state
+			#	}
+				vassal_contract_set_obligation_level = {
+					type = title_revocation_rights
+					level = 1	#title_revocation_rights_protected
+				}
+			}
+		}
+	}
+	1827.3.21 = {
+		holder = scindia_2	# Jankoji Rao Scindia II
+	}
+	1843.2.7 = {
+		holder = scindia_4	# Jayajirao Scindia
+	}
+	1886.6.20 = {
+		holder = scindia_5	# Madho Rao
+	}
+}
+
+k_jaipur = {
+	1803.8.3 = {
+		holder = kachhwaha_0	# Jagat Singh II
+	}
+	1818.2.1 = {
+		liege = e_britannia
+		government = feudal_government
+		effect = {
+			holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = religious_rights
+					level = 1	#religious_rights_protected
+				}
+			#	vassal_contract_set_obligation_level = {
+			#		type = special_contract
+			#		level = 5	#princely_state
+			#	}
+				vassal_contract_set_obligation_level = {
+					type = title_revocation_rights
+					level = 1	#title_revocation_rights_protected
+				}
+			}
+		}
+	}
+	1819.4.25 = {
+		holder = kachhwaha_1	# Jai Singh III
+	}
+	1835.2.6 = {
+		holder = kachhwaha_2	# Ram Singh II
+	}
+	# 1880.9.18: Madho Singh II (TODO)
+}
+
 d_berg = {
 	1809.3.3 = {
 		holder = bonaparte_8	# Napoleon-Louis
