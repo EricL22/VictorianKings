@@ -1502,7 +1502,7 @@ d_nf_elliot_mk = {
 	}
 	1812.7.5 = {
 		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1812.7.5 }
+			destroy_landless_title_no_dlc_effect = { DATE = 1812.7.5 }
 		}
 	}
 	1814.6.21 = {
@@ -1519,12 +1519,12 @@ d_nf_rawdon_hastings = {
 	}
 	1812.7.5 = {
 		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1812.7.5 }
+			destroy_landless_title_no_dlc_effect = { DATE = 1812.7.5 }
 		}
 	}
 	1815.7.8 = {
 		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1815.7.8 }
+			destroy_landless_title_no_dlc_effect = { DATE = 1815.7.8 }
 		}
 	}
 	1826.11.28 = {
@@ -1539,10 +1539,122 @@ d_nf_eden = {
 		government = administrative_government
 		succession_laws = { noble_family_succession_law }
 		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1836.1.1 }
+			destroy_landless_title_no_dlc_effect = { DATE = 1836.1.1 }
 		}
 	}
 	1849.1.1 = {
+		holder = 0
+	}
+}
+
+d_nf_rouvroy = {
+	1835.5.3 = {
+		liege = e_france
+		holder = france_india_0	# Henri Jean de Rouvroy
+		government = administrative_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1836.1.1 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1836.1.1 }
+		}
+	}
+	1861.7.1 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1861.7.1 }
+		}
+	}
+	1865.3.18 = {
+		holder = 0
+	}
+}
+
+d_nf_ubraye = {
+	1857.4.1 = {
+		liege = e_france
+		holder = france_india_1	# Alexandre Durand d'Ubraye
+		government = administrative_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1861.7.1 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1861.7.1 }
+		}
+	}
+	1864.8.3 = {
+		holder = 0
+	}
+}
+
+d_nf_brownrigg = {
+	1812.3.11 = {
+		liege = e_britannia
+		holder = british_ceylon_0	# Robert Brownrigg
+		government = administrative_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1812.7.5 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1812.7.5 }
+		}
+	}
+	1815.7.8 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1815.7.8 }
+		}
+	}
+	1833.4.27 = {
+		holder = 0
+	}
+}
+
+d_nf_wilmot_horton = {
+	1831.10.23 = {
+		liege = e_britannia
+		holder = british_ceylon_1	# Robert Wilmot-Horton
+		government = administrative_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1836.1.1 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1836.1.1 }
+		}
+	}
+	1841.5.31 = {
+		holder = 0
+	}
+}
+
+d_nf_maccarthy = {
+	1860.10.22 = {
+		liege = e_britannia
+		holder = british_ceylon_2	# Charles Justin MacCarthy
+		government = administrative_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1861.7.1 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1861.7.1 }
+		}
+	}
+	1864.8.15 = {
+		holder = 0
+	}
+}
+
+d_nf_chalmers = {
+	1913.10.18 = {
+		liege = e_britannia
+		holder = british_ceylon_3	# Robert Chalmers
+		government = administrative_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1914.7.28 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1914.7.28 }
+		}
+	}
+	1938.11.17 = {
 		holder = 0
 	}
 }

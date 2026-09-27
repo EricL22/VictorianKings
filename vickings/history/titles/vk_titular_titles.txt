@@ -730,6 +730,46 @@ k_hyderabad = {
 	}
 }
 
+k_travancore = {
+	1795.1.1 = {
+		liege = e_britannia
+		de_jure_liege = e_deccan
+		government = feudal_government
+		effect = {
+			holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = religious_rights
+					level = 1	#religious_rights_protected
+				}
+			#	vassal_contract_set_obligation_level = {
+			#		type = special_contract
+			#		level = 5	#princely_state
+			#	}
+				vassal_contract_set_obligation_level = {
+					type = title_revocation_rights
+					level = 1	#title_revocation_rights_protected
+				}
+			}
+		}
+	}
+	1810.11.7 = {
+		holder = chera_0	# Gowri Lakshmi Bayi
+	}
+	1815.1.1 = {
+		holder = chera_1	# Swathi Thirunal Rama Varma
+	}
+	1846.12.27 = {
+		holder = chera_2	# Marthanda Varma II
+	}
+	1860.8.18 = {
+		holder = chera_4	# Ayilyam Thirunal
+	}
+	1880.5.30 = {
+		holder = chera_5	# Visakham Thirunal
+	}
+	# 1885.8.4: Moolam Thirunal (TODO)
+}
+
 d_berg = {
 	1809.3.3 = {
 		holder = bonaparte_8	# Napoleon-Louis
@@ -791,5 +831,37 @@ d_warsaw = {
 	}
 	1815.6.9 = {
 		holder = 0
+	}
+}
+
+d_maldives = {
+	1798.1.1 = {
+		holder = huraa_0	# Muhammad Mueenuddeen I
+		liege = k_lanka
+		effect = {
+			holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = religious_rights
+					level = 1	#religious_rights_protected
+				}
+				vassal_contract_set_obligation_level = {
+					type = title_revocation_rights
+					level = 1	#title_revocation_rights_protected
+				}
+			}
+		}
+	}
+	1835.1.1 = {
+		holder = huraa_1	# Muhammad Imaaduddeen IV
+	}
+	1882.1.1 = {
+		holder = huraa_2	# Ibrahim Nooraddeen
+	}
+	# 1887.12.16: UK protectorate
+	1892.11.29 = {
+		holder = huraa_3	# Muhammad Imaaduddeen V
+	}
+	1893.5.7 = {
+		holder = huraa_4	# Muhammad Shamsuddeen III
 	}
 }

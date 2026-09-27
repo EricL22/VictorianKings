@@ -1,0 +1,84 @@
+﻿chera_0 = {
+	name = "Gowri Lakshmi Bayi"
+	dynasty = 1043010
+	religion = vaishnavism
+	culture = tamil
+	female = yes
+	1791.1.1 = {
+		birth = yes
+	}
+	1815.1.1 = {
+		death = yes
+	}
+}
+
+chera_1 = {
+	name = "Svati Tirunal Rama Varma"
+	dynasty = 1043010
+	religion = vaishnavism
+	culture = tamil
+	mother = chera_0
+	1813.4.16 = {
+		birth = yes
+	}
+	1846.12.27 = {
+		death = yes
+	}
+}
+
+chera_2 = {
+	name = "Marthanda Varma"	# II of Travancore
+	dynasty = 1043010
+	religion = vaishnavism
+	culture = tamil
+	mother = chera_0
+	1814.9.26 = {
+		birth = yes
+	}
+	1860.8.18 = {
+		death = yes
+	}
+}
+
+chera_3 = {
+	name = "Gowri Rukmini Bayi"
+	dynasty = 1043010
+	religion = vaishnavism
+	culture = tamil
+	mother = chera_0
+	female = yes
+	1809.1.1 = {
+		birth = yes
+	}
+	1837.1.1 = {
+		death = yes
+	}
+}
+
+chera_4 = {
+	name = "Ayilyam Thirunal"
+	dynasty = 1043010
+	religion = vaishnavism
+	culture = tamil
+	mother = chera_3
+	1832.3.14 = {
+		birth = yes
+	}
+	1880.5.30 = {
+		death = yes
+	}
+}
+
+chera_5 = {
+	name = "Visakham Thirunal"
+	dynasty = 1043010
+	religion = vaishnavism
+	culture = tamil
+	mother = chera_3
+	1837.5.19 = {
+		birth = yes
+	}
+	1885.8.4 = {
+		death = yes
+	}
+}

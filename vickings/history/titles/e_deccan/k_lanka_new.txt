@@ -1,0 +1,173 @@
+k_lanka = {
+	1812.3.11 = {
+		holder = british_ceylon_0	# Robert Brownrigg
+		liege = e_britannia
+	}
+	1831.10.23 = {
+		holder = british_ceylon_1	# Robert Wilmot-Horton
+	}
+	1860.10.22 = {
+		holder = british_ceylon_2	# Charles Justin MacCarthy
+	}
+	1913.10.18 = {
+		holder = british_ceylon_3	# Robert Chalmers
+	}
+}
+d_dakhina_desa = {
+	1812.3.11 = {
+		holder = british_ceylon_0	# Robert Brownrigg
+	}
+	1831.10.23 = {
+		holder = british_ceylon_1	# Robert Wilmot-Horton
+	}
+	1860.10.22 = {
+		holder = british_ceylon_2	# Charles Justin MacCarthy
+	}
+	1913.10.18 = {
+		holder = british_ceylon_3	# Robert Chalmers
+	}
+}
+c_dakhina_desa = {
+	1812.3.11 = {
+		holder = british_ceylon_0	# Robert Brownrigg
+	}
+	1831.10.23 = {
+		holder = british_ceylon_1	# Robert Wilmot-Horton
+	}
+	1860.10.22 = {
+		holder = british_ceylon_2	# Charles Justin MacCarthy
+	}
+	1913.10.18 = {
+		holder = british_ceylon_3	# Robert Chalmers
+	}
+}
+c_kandy = {
+	1798.7.26 = {	# Kandy
+		holder = kandy_0	# Sri Vikrama Rajasinha
+		liege = 0
+	}
+	1815.2.10 = {	# United Kingdom
+		holder = british_ceylon_0	# Robert Brownrigg
+	}
+	1831.10.23 = {
+		holder = british_ceylon_1	# Robert Wilmot-Horton
+	}
+	1860.10.22 = {
+		holder = british_ceylon_2	# Charles Justin MacCarthy
+	}
+	1913.10.18 = {
+		holder = british_ceylon_3	# Robert Chalmers
+	}
+}
+d_ruhunu = {
+	1812.3.11 = {
+		holder = british_ceylon_0	# Robert Brownrigg
+	}
+	1831.10.23 = {
+		holder = british_ceylon_1	# Robert Wilmot-Horton
+	}
+	1860.10.22 = {
+		holder = british_ceylon_2	# Charles Justin MacCarthy
+	}
+	1913.10.18 = {
+		holder = british_ceylon_3	# Robert Chalmers
+	}
+}
+c_rohana = {
+	1812.3.11 = {
+		holder = british_ceylon_0	# Robert Brownrigg
+	}
+	1831.10.23 = {
+		holder = british_ceylon_1	# Robert Wilmot-Horton
+	}
+	1860.10.22 = {
+		holder = british_ceylon_2	# Charles Justin MacCarthy
+	}
+	1913.10.18 = {
+		holder = british_ceylon_3	# Robert Chalmers
+	}
+}
+c_batticaloa = {
+	1812.3.11 = {
+		holder = british_ceylon_0	# Robert Brownrigg
+	}
+	1831.10.23 = {
+		holder = british_ceylon_1	# Robert Wilmot-Horton
+	}
+	1860.10.22 = {
+		holder = british_ceylon_2	# Charles Justin MacCarthy
+	}
+	1913.10.18 = {
+		holder = british_ceylon_3	# Robert Chalmers
+	}
+}
+d_sinhala = {
+	1812.3.11 = {
+		holder = british_ceylon_0	# Robert Brownrigg
+	}
+	1831.10.23 = {
+		holder = british_ceylon_1	# Robert Wilmot-Horton
+	}
+	1860.10.22 = {
+		holder = british_ceylon_2	# Charles Justin MacCarthy
+	}
+	1913.10.18 = {
+		holder = british_ceylon_3	# Robert Chalmers
+	}
+}
+c_phiti = {
+	1812.3.11 = {
+		holder = british_ceylon_0	# Robert Brownrigg
+	}
+	1831.10.23 = {
+		holder = british_ceylon_1	# Robert Wilmot-Horton
+	}
+	1860.10.22 = {
+		holder = british_ceylon_2	# Charles Justin MacCarthy
+	}
+	1913.10.18 = {
+		holder = british_ceylon_3	# Robert Chalmers
+	}
+}
+c_trincomalee = {
+	1812.3.11 = {
+		holder = british_ceylon_0	# Robert Brownrigg
+	}
+	1831.10.23 = {
+		holder = british_ceylon_1	# Robert Wilmot-Horton
+	}
+	1860.10.22 = {
+		holder = british_ceylon_2	# Charles Justin MacCarthy
+	}
+	1913.10.18 = {
+		holder = british_ceylon_3	# Robert Chalmers
+	}
+}
+c_jaffna = {
+	1812.3.11 = {
+		holder = british_ceylon_0	# Robert Brownrigg
+	}
+	1831.10.23 = {
+		holder = british_ceylon_1	# Robert Wilmot-Horton
+	}
+	1860.10.22 = {
+		holder = british_ceylon_2	# Charles Justin MacCarthy
+	}
+	1913.10.18 = {
+		holder = british_ceylon_3	# Robert Chalmers
+	}
+}
+c_kotte = {
+	1812.3.11 = {
+		holder = british_ceylon_0	# Robert Brownrigg
+	}
+	1831.10.23 = {
+		holder = british_ceylon_1	# Robert Wilmot-Horton
+	}
+	1860.10.22 = {
+		holder = british_ceylon_2	# Charles Justin MacCarthy
+	}
+	1913.10.18 = {
+		holder = british_ceylon_3	# Robert Chalmers
+	}
+}

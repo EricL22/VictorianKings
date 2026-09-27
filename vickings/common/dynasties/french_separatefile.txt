@@ -38,3 +38,20 @@ faidherbe = {
 	name = "dynn_Faidherbe"
 	culture = "french"
 }
+
+rouvroy = {
+    prefix = "dynnp_de"
+    name = "dynn_Rouvroy"
+    culture = "french"
+}
+
+ubraye = {
+    prefix = "dynnp_d_"
+    name = "dynn_Ubraye"
+    culture = "french"
+}
+
+martineau = {
+	name = "dynn_Martineau"
+	culture = "french"
+}

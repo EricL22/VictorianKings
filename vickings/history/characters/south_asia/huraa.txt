@@ -1,0 +1,68 @@
+﻿huraa_0 = {
+	name = "Muhammad Mueenuddeen"	# I of Maldives
+	dynasty = huraa
+	religion = ashari
+	culture = sinhala
+	1785.1.1 = {	# unknown
+		birth = yes
+	}
+	1835.1.1 = {
+		death = yes
+	}
+}
+
+huraa_1 = {
+	name = "Muhammad Imaaduddeen"	# IV of Maldives
+	dynasty = huraa
+	religion = ashari
+	culture = sinhala
+	father = huraa_0
+	1815.1.1 = {	# unknown
+		birth = yes
+	}
+	1882.1.1 = {
+		death = yes
+	}
+}
+
+huraa_2 = {
+	name = "Ibrahim Nooraddeen"
+	dynasty = huraa
+	religion = ashari
+	culture = sinhala
+	father = huraa_1
+	1835.1.1 = {	# unknown
+		birth = yes
+	}
+	1892.11.29 = {
+		death = yes
+	}
+}
+
+huraa_3 = {
+	name = "Muhammad Imaaduddeen"	# V of Maldives
+	dynasty = huraa
+	religion = ashari
+	culture = sinhala
+	father = huraa_2
+	1884.1.1 = {
+		birth = yes
+	}
+	1920.1.1 = {
+		death = yes
+	}
+}
+
+huraa_4 = {
+	name = "Muhammad Shamsuddeen"	# III of Maldives
+	dynasty = huraa
+	religion = ashari
+	culture = sinhala
+	father = huraa_2
+	1879.10.20 = {
+		birth = yes
+	}
+	1935.3.12 = {
+		death = yes
+	}
+}

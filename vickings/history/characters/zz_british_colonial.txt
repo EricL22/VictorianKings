@@ -290,3 +290,52 @@ british_east_india_2 = {
 		death = yes
 	}
 }
+
+british_ceylon_0 = {
+	name = "Robert"
+	dynasty = brownrigg
+	religion = protestant
+	culture = english
+	1758.2.8 = {
+		birth = yes
+	}
+	1833.4.27 = {
+		death = yes
+	}
+}
+british_ceylon_1 = {
+	name = "Robert"
+	dynasty = wilmot_horton
+	religion = protestant
+	culture = english
+	1784.12.21 = {
+		birth = yes
+	}
+	1841.5.31 = {
+		death = yes
+	}
+}
+british_ceylon_2 = {
+	name = "Charles"
+	dynasty = maccarthy
+	religion = protestant
+	culture = english
+	1811.1.1 = {
+		birth = yes
+	}
+	1864.8.15 = {
+		death = yes
+	}
+}
+british_ceylon_3 = {
+	name = "Robert"
+	dynasty = chalmers
+	religion = protestant
+	culture = english
+	1858.8.18 = {
+		birth = yes
+	}
+	1938.11.17 = {
+		death = yes
+	}
+}

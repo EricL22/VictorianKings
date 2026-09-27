@@ -183,3 +183,8 @@ asaf_jah = {
 	name = "dynn_Asaf_Jah"
 	culture = kannada
 }
+
+huraa = {
+	name = "dynn_Huraa"
+	culture = sinhala
+}

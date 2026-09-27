@@ -83,6 +83,9 @@
  k_hyderabad:0 "Hyderabad"
  k_hyderabad_adj:0 "Hyderabad"
 
+ k_travancore:0 "Travancore"
+ k_travancore_adj:0 "Travancore"
+
  senegal: "Senegal"
  senegal_adj: "Senegalese"
 
@@ -94,6 +97,12 @@
 
  d_warsaw:0 "Warsaw"
  d_warsaw_adj:0 "Warszawan"
+
+ d_puducherry:0 "Puducherry"
+ c_pondicherry:0 "Pondicherry"
+
+ d_maldives:0 "Maldives"
+ d_maldives_adj:0 "Maldivian"
 
  c_faucigny:0 "$b_faucigny$"
 
@@ -265,3 +274,15 @@
  d_nf_rawdon_hastings_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
  d_nf_eden: "$dynn_Eden$ Family"
  d_nf_eden_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ d_nf_rouvroy: "$dynn_Rouvroy$ Family"
+ d_nf_rouvroy_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ d_nf_ubraye: "$dynn_Ubraye$ Family"
+ d_nf_ubraye_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ d_nf_brownrigg: "$dynn_Brownrigg$ Family"
+ d_nf_brownrigg_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ d_nf_wilmot_horton: "$dynn_Wilmot_Horton$ Family"
+ d_nf_wilmot_horton_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ d_nf_maccarthy: "$dynn_Maccarthy$ Family"
+ d_nf_maccarthy_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ d_nf_chalmers: "$dynn_Chalmers$ Family"
+ d_nf_chalmers_article: "$DEFAULT_TITLE_NAME_ARTICLE$"

@@ -67158,12 +67158,22 @@ e_deccan = {
 
 					color = { 175 50 90 }
 				}
+			}
+			c_pondicherry = {	# CHANGED: split from Tiruvannamalai
+				color = { 175 50 90 }
+
 				b_jinji = {
 					province = 7832
 
 					color = { 175 50 90 }
 				}
 			}
+		}
+
+		d_puducherry = {	# CHANGED: title added
+			color = { 130 80 180 }
+			
+			capital = c_pondicherry
 		}
 
 		d_chera_nadu = {

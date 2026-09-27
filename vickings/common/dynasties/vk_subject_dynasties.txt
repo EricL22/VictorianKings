@@ -184,3 +184,19 @@ eden = {
 	name = "dynn_Eden"
 	culture = "english"
 }
+brownrigg = {
+	name = "dynn_Brownrigg"
+	culture = "english"
+}
+wilmot_horton = {
+	name = "dynn_Wilmot_Horton"
+	culture = "english"
+}
+maccarthy = {
+	name = "dynn_Maccarthy"
+	culture = "english"
+}
+chalmers = {
+	name = "dynn_Chalmers"
+	culture = "english"
+}
