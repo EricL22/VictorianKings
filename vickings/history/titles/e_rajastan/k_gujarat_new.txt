@@ -10,7 +10,7 @@ d_gurjara_mandala = {
 }
 c_sarasvata_mandala = {
 	1808.5.3 = {	# Maratha Empire
-		holder = 9000049	# Pratap Singh
+		holder = bhonsle_2	# Pratap Singh
 	}
 	1818.6.3 = {	# United Kingdom
 		holder = british_east_india_1	# Francis Rawdon-Hastings
@@ -39,7 +39,7 @@ c_khetaka = {
 }
 c_mohadavasaka = {
 	1808.5.3 = {	# Maratha Empire
-		holder = 9000049	# Pratap Singh
+		holder = bhonsle_2	# Pratap Singh
 	}
 	1818.6.3 = {	# United Kingdom
 		holder = british_east_india_1	# Francis Rawdon-Hastings
@@ -278,7 +278,7 @@ c_navasarika = {
 }
 c_daman = {
 	1808.5.3 = {	# Maratha Empire
-		holder = 9000049	# Pratap Singh
+		holder = bhonsle_2	# Pratap Singh
 	}
 	1818.6.3 = {	# United Kingdom
 		holder = british_east_india_1	# Francis Rawdon-Hastings

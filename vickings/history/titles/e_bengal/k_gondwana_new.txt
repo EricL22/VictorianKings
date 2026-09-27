@@ -1,0 +1,91 @@
+d_dahala = {
+	1808.5.3 = {
+		holder = bhonsle_2	# Pratap Singh
+	}
+	1818.6.3 = {
+		holder = 0
+	}
+}
+c_tripuri = {
+	1808.5.3 = {	# Maratha Empire
+		holder = bhonsle_2	# Pratap Singh
+	}
+	1818.6.3 = {	# Nagpur
+		holder = bhonsle_11	# Raghuji III
+	}
+	# 1853.12.11: United Kingdom
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_chauragarh = {
+	1808.5.3 = {	# Maratha Empire
+		holder = bhonsle_2	# Pratap Singh
+	}
+	1818.6.3 = {	# Nagpur
+		holder = bhonsle_11	# Raghuji III
+	}
+	# 1853.12.11: United Kingdom
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+d_ratanpur = {
+	1808.5.3 = {
+		holder = bhonsle_2	# Pratap Singh
+	}
+	1818.6.3 = {
+		holder = 0
+	}
+}
+c_ratanpur = {
+	1808.5.3 = {	# Maratha Empire
+		holder = bhonsle_2	# Pratap Singh
+	}
+	1818.6.3 = {	# Nagpur
+		holder = bhonsle_11	# Raghuji III
+	}
+	# 1853.12.11: United Kingdom
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_tummana = {
+	1808.5.3 = {	# Maratha Empire
+		holder = bhonsle_2	# Pratap Singh
+	}
+	1818.6.3 = {	# Nagpur
+		holder = bhonsle_11	# Raghuji III
+	}
+	# 1853.12.11: United Kingdom
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_bandhugadha = {
+	1808.5.3 = {	# Maratha Empire
+		holder = bhonsle_2	# Pratap Singh
+	}
+	1818.6.3 = {	# Nagpur
+		holder = bhonsle_11	# Raghuji III
+	}
+	# 1853.12.11: United Kingdom
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}

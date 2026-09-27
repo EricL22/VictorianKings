@@ -1,0 +1,371 @@
+k_maharastra = {
+	1800.1.1 = {
+		holder = 0
+	}
+}
+#d_devagiri = {
+#}
+c_devagiri = {
+	1803.8.6 = {
+		holder = asaf_jah_0	# Sikander Jah
+	}
+	1829.5.24 = {
+		holder = asaf_jah_1	# Nasir-ud-Daulah
+	}
+	1857.5.16 = {
+		holder = asaf_jah_2	# Afzal-ud-Daulah
+	}
+	1911.8.29 = {
+		holder = asaf_jah_4	# Osman Ali Khan
+	}
+}
+c_mulaka = {
+	1803.8.6 = {
+		holder = asaf_jah_0	# Sikander Jah
+	}
+	1829.5.24 = {
+		holder = asaf_jah_1	# Nasir-ud-Daulah
+	}
+	1857.5.16 = {
+		holder = asaf_jah_2	# Afzal-ud-Daulah
+	}
+	1911.8.29 = {
+		holder = asaf_jah_4	# Osman Ali Khan
+	}
+}
+c_vatsagulma = {
+	1803.8.6 = {
+		holder = asaf_jah_0	# Sikander Jah
+	}
+	1829.5.24 = {
+		holder = asaf_jah_1	# Nasir-ud-Daulah
+	}
+	#Berar Province - de facto British 1853
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+d_vidharba = {
+	1788.5.19 = {
+		holder = bhonsle_10	# Raghoji II
+		liege = e_maratha
+	}
+	1817.11.26 = {
+		liege = e_britannia
+		government = feudal_government
+		effect = {
+			holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = religious_rights
+					level = 1	#religious_rights_protected
+				}
+			#	vassal_contract_set_obligation_level = {
+			#		type = special_contract
+			#		level = 5	#princely_state
+			#	}
+				vassal_contract_set_obligation_level = {
+					type = title_revocation_rights
+					level = 1	#title_revocation_rights_protected
+				}
+			}
+		}
+	}
+	1818.6.26 = {
+		holder = bhonsle_11	# Raghuji III
+	}
+	# 1853.12.11: United Kingdom
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_acalapura = {
+	1803.8.6 = {
+		holder = asaf_jah_0	# Sikander Jah
+	}
+	1829.5.24 = {
+		holder = asaf_jah_1	# Nasir-ud-Daulah
+	}
+	#Berar Province - de facto British 1853
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_ramagiri = {
+	1788.5.19 = {
+		holder = bhonsle_10	# Raghoji II
+	}
+	1818.6.26 = {
+		holder = bhonsle_11	# Raghuji III
+	}
+	# 1853.12.11: United Kingdom
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_canda = {
+	1788.5.19 = {
+		holder = bhonsle_10	# Raghoji II
+	}
+	1818.6.26 = {
+		holder = bhonsle_11	# Raghuji III
+	}
+	# 1853.12.11: United Kingdom
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_vairagara = {
+	1788.5.19 = {
+		holder = bhonsle_10	# Raghoji II
+	}
+	1818.6.26 = {
+		holder = bhonsle_11	# Raghuji III
+	}
+	# 1853.12.11: United Kingdom
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+d_konkana = {
+	1808.5.3 = {	# Maratha Empire
+		holder = bhonsle_2	# Pratap Singh
+	}
+	1818.6.3 = {	# United Kingdom
+		holder = british_east_india_1	# Francis Rawdon-Hastings
+	}
+	1835.3.20 = {
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_surparaka = {
+	1808.5.3 = {	# Maratha Empire
+		holder = bhonsle_2	# Pratap Singh
+	}
+	1818.6.3 = {	# United Kingdom
+		holder = british_east_india_1	# Francis Rawdon-Hastings
+	}
+	1835.3.20 = {
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_panaji = {
+	1808.5.3 = {	# Maratha Empire
+		holder = bhonsle_2	# Pratap Singh
+	}
+	1818.6.3 = {	# United Kingdom
+		holder = british_east_india_1	# Francis Rawdon-Hastings
+	}
+	1835.3.20 = {
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_kanara = {
+	1808.5.3 = {	# Maratha Empire
+		holder = bhonsle_2	# Pratap Singh
+	}
+	1818.6.3 = {	# United Kingdom
+		holder = british_east_india_1	# Francis Rawdon-Hastings
+	}
+	1835.3.20 = {
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+d_nasikya = {
+	1808.5.3 = {	# Maratha Empire
+		holder = bhonsle_2	# Pratap Singh
+	}
+	1818.6.3 = {	# United Kingdom
+		holder = british_east_india_1	# Francis Rawdon-Hastings
+	}
+	1835.3.20 = {
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_kondana = {
+	1808.5.3 = {	# Maratha Empire
+		holder = bhonsle_2	# Pratap Singh
+	}
+	1818.6.3 = {	# United Kingdom
+		holder = british_east_india_1	# Francis Rawdon-Hastings
+	}
+	1835.3.20 = {
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_trikuta = {
+	1808.5.3 = {	# Maratha Empire
+		holder = bhonsle_2	# Pratap Singh
+	}
+	1818.6.3 = {	# United Kingdom
+		holder = british_east_india_1	# Francis Rawdon-Hastings
+	}
+	1835.3.20 = {
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+d_rattapadi = {
+	1818.6.3 = {
+		holder = bhonsle_2	# Pratap Singh
+		liege = e_britannia
+		government = feudal_government
+		effect = {
+			holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = religious_rights
+					level = 1	#religious_rights_protected
+				}
+			#	vassal_contract_set_obligation_level = {
+			#		type = special_contract
+			#		level = 5	#princely_state
+			#	}
+				vassal_contract_set_obligation_level = {
+					type = title_revocation_rights
+					level = 1	#title_revocation_rights_protected
+				}
+			}
+		}
+	}
+	1839.9.5 = {
+		holder = bhonsle_3	# Shahaji
+	}
+	# 1848.4.5: United Kingdom
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_karahataka = {
+	1808.5.3 = {
+		holder = bhonsle_2	# Pratap Singh
+	}
+	1839.9.5 = {
+		holder = bhonsle_3	# Shahaji
+	}
+	# 1848.4.5: United Kingdom
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_taradavadi = {
+	1808.5.3 = {
+		holder = bhonsle_2	# Pratap Singh
+	}
+	1839.9.5 = {
+		holder = bhonsle_3	# Shahaji
+	}
+	# 1848.4.5: United Kingdom
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_ashmaka = {
+	1803.8.6 = {
+		holder = asaf_jah_0	# Sikander Jah
+	}
+	1829.5.24 = {
+		holder = asaf_jah_1	# Nasir-ud-Daulah
+	}
+	1857.5.16 = {
+		holder = asaf_jah_2	# Afzal-ud-Daulah
+	}
+	1911.8.29 = {
+		holder = asaf_jah_4	# Osman Ali Khan
+	}
+}
+c_naldurg = {
+	1803.8.6 = {
+		holder = asaf_jah_0	# Sikander Jah
+	}
+	1829.5.24 = {
+		holder = asaf_jah_1	# Nasir-ud-Daulah
+	}
+	1857.5.16 = {
+		holder = asaf_jah_2	# Afzal-ud-Daulah
+	}
+	1911.8.29 = {
+		holder = asaf_jah_4	# Osman Ali Khan
+	}
+}
+c_kolhapur = {
+	1808.5.3 = {
+		holder = bhonsle_2	# Pratap Singh
+	}
+	1839.9.5 = {
+		holder = bhonsle_3	# Shahaji
+	}
+	# 1848.4.5: United Kingdom
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}

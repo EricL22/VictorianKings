@@ -156,6 +156,21 @@ e_turkey = {
 	}
 }
 
+e_maratha = {
+	1749.12.15 = {
+		holder = bhonsle_0	# Rajaram II
+	}
+	1777.12.11 = {
+		holder = bhonsle_1	# Shahu II
+	}
+	1808.5.3 = {
+		holder = bhonsle_2	# Pratap Singh
+	}
+	1818.6.3 = {
+		holder = 0
+	}
+}
+
 k_hanover = {
 	1814.10.12 = {
 		holder = hanover_3	# George III
@@ -672,6 +687,46 @@ k_oudh = {
 	}
 	1856.2.11 = {
 		holder = 0
+	}
+}
+
+k_hyderabad = {
+	1724.1.1 = {
+		#government = feudal_government
+	}
+	1798.1.1 = {
+		liege = e_britannia
+		effect = {
+			holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = religious_rights
+					level = 1	#religious_rights_protected
+				}
+			#	vassal_contract_set_obligation_level = {
+			#		type = special_contract
+			#		level = 5	#princely_state
+			#	}
+				vassal_contract_set_obligation_level = {
+					type = title_revocation_rights
+					level = 1	#title_revocation_rights_protected
+				}
+			}
+		}
+	}
+	1803.8.6 = {
+		holder = asaf_jah_0	# Sikander Jah
+	}
+	1829.5.24 = {
+		holder = asaf_jah_1	# Nasir-ud-Daulah
+	}
+	1857.5.16 = {
+		holder = asaf_jah_2	# Afzal-ud-Daulah
+	}
+	1869.2.26 = {
+		holder = asaf_jah_3	# Mahboob Ali Khan
+	}
+	1911.8.29 = {
+		holder = asaf_jah_4	# Osman Ali Khan
 	}
 }
 

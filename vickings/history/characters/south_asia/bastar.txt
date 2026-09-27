@@ -1,0 +1,63 @@
+﻿# source: https://rajputs.net/view/bastar
+bastar_0 = {
+	name = "Daryao"
+	religion = srikula_shaktism
+	culture = oriya
+	1750.1.1 = {	# unknown
+		birth = yes
+	}
+	1819.1.1 = {
+		death = yes
+	}
+}
+
+bastar_1 = {
+	name = "Mahipal"
+	religion = srikula_shaktism
+	culture = oriya
+	1778.1.1 = {	# unknown
+		birth = yes
+	}
+	1830.1.1 = {
+		death = yes
+	}
+}
+
+bastar_2 = {
+	name = "Bhopal"
+	religion = srikula_shaktism
+	culture = oriya
+	father = bastar_1
+	1810.1.1 = {	# unknown
+		birth = yes
+	}
+	1853.8.27 = {
+		death = yes
+	}
+}
+
+bastar_3 = {
+	name = "Bhairam"
+	religion = srikula_shaktism
+	culture = oriya
+	father = bastar_2
+	1839.5.21 = {
+		birth = yes
+	}
+	1891.7.28 = {
+		death = yes
+	}
+}
+
+bastar_4 = {
+	name = "Rudra Pratap"
+	religion = srikula_shaktism
+	culture = oriya
+	father = bastar_3
+	1885.3.5 = {
+		birth = yes
+	}
+	1921.1.1 = {
+		death = yes
+	}
+}

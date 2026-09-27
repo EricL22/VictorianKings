@@ -1,0 +1,224 @@
+k_karnata = {
+	1799.6.30 = {
+		holder = wadiyar_0	# Krishnaraja Wodeyar III
+		liege = e_britannia
+		government = feudal_government
+		effect = {
+			holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = religious_rights
+					level = 1	#religious_rights_protected
+				}
+			#	vassal_contract_set_obligation_level = {
+			#		type = special_contract
+			#		level = 5	#princely_state
+			#	}
+				vassal_contract_set_obligation_level = {
+					type = title_revocation_rights
+					level = 1	#title_revocation_rights_protected
+				}
+			}
+		}
+	}
+	1868.9.23 = {
+		holder = wadiyar_2	# Chamarajendra Wadiyar X
+	}
+	1902.2.8 = {
+		holder = wadiyar_3	# Krishna Raja Wadiyar IV
+	}
+}
+#d_kalyani = {
+#}
+c_kalyani = {
+	1803.8.6 = {
+		holder = asaf_jah_0	# Sikander Jah
+	}
+	1829.5.24 = {
+		holder = asaf_jah_1	# Nasir-ud-Daulah
+	}
+	1857.5.16 = {
+		holder = asaf_jah_2	# Afzal-ud-Daulah
+	}
+	1911.8.29 = {
+		holder = asaf_jah_4	# Osman Ali Khan
+	}
+}
+c_sagar = {
+	1808.5.3 = {	# Maratha Empire
+		holder = bhonsle_2	# Pratap Singh
+	}
+	1818.6.3 = {	# United Kingdom
+		holder = british_east_india_1	# Francis Rawdon-Hastings
+	}
+	1835.3.20 = {
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+#d_gangavadi = {
+#}
+c_srirangapatna = {
+	1799.6.30 = {
+		holder = wadiyar_0	# Krishnaraja Wodeyar III
+	}
+	1902.2.8 = {
+		holder = wadiyar_3	# Krishna Raja Wadiyar IV
+	}
+}
+c_mahishaka = {
+	1799.6.30 = {
+		holder = wadiyar_0	# Krishnaraja Wodeyar III
+	}
+	1902.2.8 = {
+		holder = wadiyar_3	# Krishna Raja Wadiyar IV
+	}
+}
+c_talakad = {
+	1807.7.31 = {
+		holder = british_east_india_0	# Gilbert Elliot-Murray-Kynynmound
+	}
+	1813.10.4 = {
+		holder = british_east_india_1	# Francis Rawdon-Hastings
+	}
+	1835.3.20 = {
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+#d_nulambavadi = {
+#}
+c_uchangidurga = {
+	1799.6.30 = {
+		holder = wadiyar_0	# Krishnaraja Wodeyar III
+	}
+	1902.2.8 = {
+		holder = wadiyar_3	# Krishna Raja Wadiyar IV
+	}
+}
+c_gutti = {
+	1807.7.31 = {
+		holder = british_east_india_0	# Gilbert Elliot-Murray-Kynynmound
+	}
+	1813.10.4 = {
+		holder = british_east_india_1	# Francis Rawdon-Hastings
+	}
+	1835.3.20 = {
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_parivi = {
+	1799.6.30 = {
+		holder = wadiyar_0	# Krishnaraja Wodeyar III
+	}
+	1902.2.8 = {
+		holder = wadiyar_3	# Krishna Raja Wadiyar IV
+	}
+}
+c_adoni = {
+	1807.7.31 = {
+		holder = british_east_india_0	# Gilbert Elliot-Murray-Kynynmound
+	}
+	1813.10.4 = {
+		holder = british_east_india_1	# Francis Rawdon-Hastings
+	}
+	1835.3.20 = {
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_banavasi = {
+	1799.6.30 = {
+		holder = wadiyar_0	# Krishnaraja Wodeyar III
+	}
+	1902.2.8 = {
+		holder = wadiyar_3	# Krishna Raja Wadiyar IV
+	}
+}
+#d_raichur_doab = {
+#}
+c_idatarainadu = {
+	1803.8.6 = {
+		holder = asaf_jah_0	# Sikander Jah
+	}
+	1829.5.24 = {
+		holder = asaf_jah_1	# Nasir-ud-Daulah
+	}
+	1857.5.16 = {
+		holder = asaf_jah_2	# Afzal-ud-Daulah
+	}
+	1911.8.29 = {
+		holder = asaf_jah_4	# Osman Ali Khan
+	}
+}
+c_vatapi = {
+	1808.5.3 = {	# Maratha Empire
+		holder = bhonsle_2	# Pratap Singh
+	}
+	1818.6.3 = {	# United Kingdom
+		holder = british_east_india_1	# Francis Rawdon-Hastings
+	}
+	1835.3.20 = {
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_vaijayanti = {
+	1808.5.3 = {	# Maratha Empire
+		holder = bhonsle_2	# Pratap Singh
+	}
+	1818.6.3 = {	# United Kingdom
+		holder = british_east_india_1	# Francis Rawdon-Hastings
+	}
+	1835.3.20 = {
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_koppam = {
+	1808.5.3 = {	# Maratha Empire
+		holder = bhonsle_2	# Pratap Singh
+	}
+	1818.6.3 = {	# United Kingdom
+		holder = british_east_india_1	# Francis Rawdon-Hastings
+	}
+	1835.3.20 = {
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}

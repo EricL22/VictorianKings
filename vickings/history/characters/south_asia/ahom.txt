@@ -1,0 +1,641 @@
+﻿### Ahom dynasty
+# most birthdates after this point are completely guesswork due to lack of info
+ahom_0 = {
+	name = "Sudangpha"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = 191573
+	1382.1.1 = {
+		birth = yes
+	}
+	1407.1.1 = {
+		death = yes
+	}
+}
+ahom_1 = {
+	name = "Sujangpha"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = ahom_0
+	1400.1.1 = {
+		birth = yes
+	}
+	1422.1.1 = {
+		death = yes
+	}
+}
+ahom_2 = {
+	name = "Suphakpha"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = ahom_1
+	1420.1.1 = {
+		birth = yes
+	}
+	1439.1.1 = {
+		death = yes
+	}
+}
+ahom_3 = {
+	name = "Susenpha"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = ahom_2
+	trait = education_stewardship_3
+	1435.1.1 = {
+		birth = yes
+	}
+	1488.1.1 = {
+		death = yes
+	}
+}
+ahom_4 = {
+	name = "Suhenpha"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = ahom_3
+	1455.1.1 = {
+		birth = yes
+	}
+	1493.1.1 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+ahom_5 = {
+	name = "Supimpha"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = ahom_4
+	trait = vengeful
+	1475.1.1 = {
+		birth = yes
+	}
+	1497.1.1 = {
+		death = yes
+	}
+}
+ahom_6 = {
+	name = "Suhungmung"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = ahom_5
+	1495.1.1 = {
+		birth = yes
+	}
+	1539.1.1 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+ahom_7 = {
+	name = "Suklenmung"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = ahom_6
+	1520.1.1 = {
+		birth = yes
+	}
+	1552.1.1 = {
+		death = yes
+	}
+}
+ahom_8 = {
+	name = "Sukhaampha"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = ahom_7
+	1540.1.1 = {
+		birth = yes
+	}
+	1603.1.1 = {
+		death = yes
+	}
+}
+ahom_9 = {
+	name = "Susenghpha"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = ahom_8
+	1560.1.1 = {
+		birth = yes
+	}
+	1641.1.1 = {
+		death = yes
+	}
+}
+ahom_10 = {
+	name = "Surampha"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = ahom_9
+	1580.1.1 = {
+		birth = yes
+	}
+	1644.1.1 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+ahom_11 = {
+	name = "Sutingpha"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = ahom_9
+	1585.1.1 = {
+		birth = yes
+	}
+	1648.1.1 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+ahom_12 = {
+	name = "Sutamla"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = ahom_11
+	1610.1.1 = {
+		birth = yes
+	}
+	1663.1.1 = {
+		death = yes
+	}
+}
+ahom_13 = {
+	name = "Supangmung"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = ahom_41
+	1653.1.1 = {
+		birth = yes
+	}
+	1670.1.1 = {
+		death = yes
+	}
+}
+ahom_14 = {
+	name = "Sunyatpha"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = ahom_41
+	1654.1.1 = {
+		birth = yes
+	}
+	1672.1.1 = {
+		death = {
+			death_reason = death_execution
+		}
+	}
+}
+ahom_15 = {
+	name = "Suklampha"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = ahom_41
+	1655.1.1 = {
+		birth = yes
+	}
+	1674.1.1 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+ahom_16 = {
+	name = "Suhung"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = ahom_43
+	1655.1.1 = {
+		birth = yes
+	}
+	1675.1.1 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+ahom_17 = {
+	name = "Gobar-Roja"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = ahom_45
+	1655.1.1 = {
+		birth = yes
+	}
+	1675.5.23 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+ahom_18 = {
+	name = "Sujinpha"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = ahom_9
+	1650.1.1 = {
+		birth = yes
+	}
+	1677.1.1 = {
+		death = {
+			death_reason = death_suicide
+		}
+	}
+}
+ahom_19 = {
+	name = "Sudoipha"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = ahom_50
+	1620.1.1 = {
+		birth = yes
+	}
+	1679.1.1 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+ahom_20 = {
+	name = "Sulikpha"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	#father = descendant from Samaguria
+	1650.1.1 = {
+		birth = yes
+	}
+	1681.1.1 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+ahom_21 = {
+	name = "Supaatpha"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = ahom_17
+	1675.1.1 = {
+		birth = yes
+	}
+	1696.1.1 = {
+		death = yes
+	}
+}
+ahom_22 = {
+	name = "Sukhrungpha"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = ahom_21
+	1692.1.1 = {
+		birth = yes
+	}
+	1714.1.1 = {
+		death = yes
+	}
+}
+ahom_23 = {
+	name = "Sutanpha"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = ahom_22
+	1712.1.1 = {
+		birth = yes
+	}
+	1744.1.1 = {
+		death = yes
+	}
+}
+ahom_24 = {
+	name = "Sunenpha"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = ahom_22
+	1713.1.1 = {
+		birth = yes
+	}
+	1751.1.1 = {
+		death = yes
+	}
+}
+ahom_25 = {
+	name = "Surempha"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = ahom_22
+	1714.1.1 = {
+		birth = yes
+	}
+	1769.1.1 = {
+		death = yes
+	}
+}
+ahom_26 = {
+	name = "Sunyeopha"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = ahom_22
+	1715.1.1 = {
+		birth = yes
+	}
+	1780.1.1 = {
+		death = yes
+	}
+}
+ahom_27 = {
+	name = "Suhitpangpha"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = ahom_26
+	1735.1.1 = {
+		birth = yes
+	}
+	1795.1.1 = {
+		death = yes
+	}
+}
+ahom_28 = {
+	name = "Suklingpha"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = ahom_48
+	1763.1.1 = {
+		birth = yes
+	}
+	1811.1.17 = {
+		death = {
+			death_reason = death_smallpox
+		}
+	}
+}
+ahom_29 = {
+	name = "Sudingpha"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = ahom_48
+	1797.1.1 = {
+		birth = yes
+	}
+	1839.1.1 = {
+		death = yes
+	}
+}
+ahom_30 = {
+	name = "Purandar-Singha"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = ahom_52
+	1807.1.1 = {
+		birth = yes
+	}
+	1846.10.1 = {
+		death = yes
+	}
+}
+ahom_31 = {
+	name = "Jogeswar-Singha"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = ahom_54
+	1765.1.1 = {
+		birth = yes
+	}
+	1825.1.1 = {
+		death = yes
+	}
+}
+
+# Ahom extended family - all birth and death dates are made up
+ahom_40 = {
+	name = "Suleng"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = ahom_6
+	1521.1.1 = {
+		birth = yes
+	}
+	1550.1.1 = {
+		death = yes
+	}
+}
+ahom_41 = {
+	name = "Namrupia-Raja"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = ahom_40
+	1537.1.1 = {
+		birth = yes
+	}
+	1600.1.1 = {
+		death = yes
+	}
+}
+ahom_42 = {
+	name = "Samaguria"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = ahom_6
+	1537.1.1 = {
+		birth = yes
+	}
+	1600.1.1 = {
+		death = yes
+	}
+}
+ahom_43 = {
+	name = "Samagur"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = ahom_42
+	1560.1.1 = {
+		birth = yes
+	}
+	1660.1.1 = {
+		death = yes
+	}
+}
+ahom_44 = {
+	name = "Suten"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = ahom_6
+	1538.1.1 = {
+		birth = yes
+	}
+	1600.1.1 = {
+		death = yes
+	}
+}
+ahom_45 = {
+	name = "Saranga"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = ahom_44
+	1560.1.1 = {
+		birth = yes
+	}
+	1660.1.1 = {
+		death = yes
+	}
+}
+ahom_46 = {
+	name = "Namrupian-Gohain"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = ahom_44
+	1610.1.1 = {
+		birth = yes
+	}
+	1660.1.1 = {
+		death = yes
+	}
+}
+ahom_47 = {
+	name = "Lechai"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = ahom_21
+	1693.1.1 = {
+		birth = yes
+	}
+	1760.1.1 = {
+		death = yes
+	}
+}
+ahom_48 = {
+	name = "Kadamdighala-Gohain"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = ahom_47
+	1743.1.1 = {
+		birth = yes
+	}
+	1800.1.1 = {
+		death = yes
+	}
+}
+ahom_49 = {
+	name = "Suteng"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = ahom_6
+	1522.1.1 = {
+		birth = yes
+	}
+	1600.1.1 = {
+		death = yes
+	}
+}
+ahom_50 = {
+	name = "Parvatia-Deka-Raja"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = ahom_49
+	1572.1.1 = {
+		birth = yes
+	}
+	1642.1.1 = {
+		death = yes
+	}
+}
+ahom_51 = {
+	name = "Ratneswar-Saru-Gohain"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = ahom_25
+	1734.1.1 = {
+		birth = yes
+	}
+	1780.1.1 = {
+		death = yes
+	}
+}
+ahom_52 = {
+	name = "Bijoy-Barmura-Gohain"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = ahom_51
+	1750.1.1 = {
+		birth = yes
+	}
+	1810.1.1 = {
+		death = yes
+	}
+}
+ahom_53 = {
+	name = "Jambar-Gohain"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = ahom_17
+	1675.1.1 = {
+		birth = yes
+	}
+	1720.1.1 = {
+		death = yes
+	}
+}
+ahom_54 = {
+	name = "Bagakonwar-Tipam-Raja"
+	dynasty = 1044361	#Ahom
+	religion = "shaivism"
+	culture = "assamese"
+	father = ahom_53
+	1700.1.1 = {
+		birth = yes
+	}
+	1775.1.1 = {
+		death = yes
+	}
+}

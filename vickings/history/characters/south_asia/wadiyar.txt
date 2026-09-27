@@ -1,0 +1,55 @@
+﻿wadiyar_0 = {
+	name = "Krishnaraja"	# III of Mysore
+	dynasty = 12326
+	culture = kannada
+	religion = shaivism
+	1794.7.14 = {
+		birth = yes
+	}
+	1868.3.27 = {
+		death = yes
+	}
+}
+
+wadiyar_1 = {
+	name = "Putammani Devi"
+	dynasty = 12326
+	culture = kannada
+	religion = shaivism
+	father = wadiyar_0
+	female = yes
+	1835.1.1 = {	# unknown
+		birth = yes
+	}
+	1865.1.1 = {	# unknown
+		death = yes
+	}
+}
+
+wadiyar_2 = {
+	name = "Chamarajendra"
+	dynasty = 12326
+	culture = kannada
+	religion = shaivism
+	mother = wadiyar_1
+	1863.2.22 = {
+		birth = yes
+	}
+	1894.12.28 = {
+		death = yes
+	}
+}
+
+wadiyar_3 = {
+	name = "Krishnaraja"	# IV of Mysore
+	dynasty = 12326
+	culture = kannada
+	religion = shaivism
+	father = wadiyar_2
+	1884.6.4 = {
+		birth = yes
+	}
+	1940.8.3 = {
+		death = yes
+	}
+}

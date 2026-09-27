@@ -1,0 +1,82 @@
+﻿asaf_jah_0 = {
+	name = "Sikandar"
+	dynasty = asaf_jah
+	culture = kannada
+	religion = ashari
+	1768.11.11 = {
+		birth = yes
+	}
+	1829.5.21 = {
+		death = yes
+	}
+}
+
+asaf_jah_1 = {
+	name = "Farqunda Ali"
+	dynasty = asaf_jah
+	culture = kannada
+	religion = ashari
+	father = asaf_jah_0
+	1794.4.25 = {
+		birth = yes
+	}
+	1857.5.16 = {
+		death = yes
+	}
+}
+
+asaf_jah_2 = {
+	name = "Tahniyat Ali"
+	dynasty = asaf_jah
+	culture = kannada
+	religion = ashari
+	father = asaf_jah_1
+	1827.10.11 = {
+		birth = yes
+	}
+	1869.2.26 = {
+		death = yes
+	}
+}
+
+asaf_jah_3 = {
+	name = "Mahboob Ali"
+	dynasty = asaf_jah
+	culture = kannada
+	religion = ashari
+	father = asaf_jah_2
+	1866.8.17 = {
+		birth = yes
+	}
+	1911.8.29 = {
+		death = yes
+	}
+}
+
+asaf_jah_4 = {
+	name = "Osman Ali"
+	dynasty = asaf_jah
+	culture = kannada
+	religion = ashari
+	father = asaf_jah_3
+	1886.4.5 = {
+		birth = yes
+	}
+	1967.2.24 = {
+		death = yes
+	}
+}
+
+asaf_jah_5 = {
+	name = "Azam Jah"
+	dynasty = asaf_jah
+	culture = kannada
+	religion = ashari
+	father = asaf_jah_4
+	1907.2.22 = {
+		birth = yes
+	}
+	1970.10.7 = {
+		death = yes
+	}
+}

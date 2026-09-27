@@ -178,3 +178,8 @@ pawar = {
 	name = "dynn_Pawar"
 	culture = hindustani
 }
+
+asaf_jah = {
+	name = "dynn_Asaf_Jah"
+	culture = kannada
+}

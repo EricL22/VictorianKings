@@ -1,0 +1,131 @@
+k_telingana = {
+	1800.1.1 = {
+		holder = 0
+	}
+}
+d_warangal = {
+	1803.8.6 = {
+		holder = asaf_jah_0	# Sikander Jah
+	}
+	1829.5.24 = {
+		holder = asaf_jah_1	# Nasir-ud-Daulah
+	}
+	1857.5.16 = {
+		holder = asaf_jah_2	# Afzal-ud-Daulah
+	}
+	1911.8.29 = {
+		holder = asaf_jah_4	# Osman Ali Khan
+	}
+}
+c_orangallu = {
+	1803.8.6 = {
+		holder = asaf_jah_0	# Sikander Jah
+	}
+	1829.5.24 = {
+		holder = asaf_jah_1	# Nasir-ud-Daulah
+	}
+	1857.5.16 = {
+		holder = asaf_jah_2	# Afzal-ud-Daulah
+	}
+	1911.8.29 = {
+		holder = asaf_jah_4	# Osman Ali Khan
+	}
+}
+c_mahur = {
+	1803.8.6 = {
+		holder = asaf_jah_0	# Sikander Jah
+	}
+	1829.5.24 = {
+		holder = asaf_jah_1	# Nasir-ud-Daulah
+	}
+	1857.5.16 = {
+		holder = asaf_jah_2	# Afzal-ud-Daulah
+	}
+	1911.8.29 = {
+		holder = asaf_jah_4	# Osman Ali Khan
+	}
+}
+c_kambampet = {
+	1803.8.6 = {
+		holder = asaf_jah_0	# Sikander Jah
+	}
+	1829.5.24 = {
+		holder = asaf_jah_1	# Nasir-ud-Daulah
+	}
+	1857.5.16 = {
+		holder = asaf_jah_2	# Afzal-ud-Daulah
+	}
+	1911.8.29 = {
+		holder = asaf_jah_4	# Osman Ali Khan
+	}
+}
+c_balkonda = {
+	1803.8.6 = {
+		holder = asaf_jah_0	# Sikander Jah
+	}
+	1829.5.24 = {
+		holder = asaf_jah_1	# Nasir-ud-Daulah
+	}
+	1857.5.16 = {
+		holder = asaf_jah_2	# Afzal-ud-Daulah
+	}
+	1911.8.29 = {
+		holder = asaf_jah_4	# Osman Ali Khan
+	}
+}
+c_katukuru = {
+	1803.8.6 = {
+		holder = asaf_jah_0	# Sikander Jah
+	}
+	1829.5.24 = {
+		holder = asaf_jah_1	# Nasir-ud-Daulah
+	}
+	1857.5.16 = {
+		holder = asaf_jah_2	# Afzal-ud-Daulah
+	}
+	1911.8.29 = {
+		holder = asaf_jah_4	# Osman Ali Khan
+	}
+}
+d_racakonda = {
+	1803.8.6 = {
+		holder = asaf_jah_0	# Sikander Jah
+	}
+	1829.5.24 = {
+		holder = asaf_jah_1	# Nasir-ud-Daulah
+	}
+	1857.5.16 = {
+		holder = asaf_jah_2	# Afzal-ud-Daulah
+	}
+	1911.8.29 = {
+		holder = asaf_jah_4	# Osman Ali Khan
+	}
+}
+c_racakonda = {
+	1803.8.6 = {
+		holder = asaf_jah_0	# Sikander Jah
+	}
+	1829.5.24 = {
+		holder = asaf_jah_1	# Nasir-ud-Daulah
+	}
+	1857.5.16 = {
+		holder = asaf_jah_2	# Afzal-ud-Daulah
+	}
+	1911.8.29 = {
+		holder = asaf_jah_4	# Osman Ali Khan
+	}
+}
+c_pannagallu = {
+	1803.8.6 = {
+		holder = asaf_jah_0	# Sikander Jah
+	}
+	1829.5.24 = {
+		holder = asaf_jah_1	# Nasir-ud-Daulah
+	}
+	1857.5.16 = {
+		holder = asaf_jah_2	# Afzal-ud-Daulah
+	}
+	1911.8.29 = {
+		holder = asaf_jah_4	# Osman Ali Khan
+	}
+}

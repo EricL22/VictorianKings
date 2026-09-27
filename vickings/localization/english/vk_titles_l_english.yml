@@ -21,6 +21,10 @@
  OTTOMANEMP:0 "Ottoman Empire"
  OTTOMANEMP_adj:0 "Ottoman"
 
+ e_maratha_article:0 "the "
+ e_maratha:0 "Maratha Empire"
+ e_maratha_adj:0 "Maratha"
+
  k_hanover:0 "Hanover"
  k_hanover_adj:0 "Hanoverian"
 
@@ -75,6 +79,9 @@
 
  k_oudh:0 "Oudh"
  k_oudh_adj:0 "Oudh"
+
+ k_hyderabad:0 "Hyderabad"
+ k_hyderabad_adj:0 "Hyderabad"
 
  senegal: "Senegal"
  senegal_adj: "Senegalese"

@@ -1,0 +1,328 @@
+k_kamarupa = {
+	1397.1.1 = {
+		holder = ahom_0	# Sudangpha
+	}
+	1407.1.1 = {
+		holder = ahom_1	# Sujangpha
+	}
+	1422.1.1 = {
+		holder = ahom_2	# Suphakpha
+	}
+	1439.1.1 = {
+		holder = ahom_3	# Susenpha
+	}
+	1488.1.1 = {
+		holder = ahom_4	# Suhenpha
+	}
+	1493.1.1 = {
+		holder = ahom_5	# Supimpha
+	}
+	1497.1.1 = {
+		holder = ahom_6	# Suhungmung
+	}
+	1539.1.1 = {
+		holder = ahom_7	# Suklenmung
+	}
+	1552.1.1 = {
+		holder = ahom_8	# Sukhaampha
+	}
+	1603.1.1 = {
+		holder = ahom_9	# Susenghpha
+	}
+	1641.1.1 = {
+		holder = ahom_10	# Surampha
+	}
+	1644.1.1 = {
+		holder = ahom_11	# Sutingpha
+	}
+	1648.1.1 = {
+		holder = ahom_12	# Sutamla
+	}
+	1663.1.1 = {
+		holder = ahom_13	# Supangmung
+	}
+	1670.1.1 = {
+		holder = ahom_14	# Sunyatpha
+	}
+	1672.1.1 = {
+		holder = ahom_15	# Suklampha
+	}
+	1674.1.1 = {
+		holder = ahom_16	# Suhung
+	}
+	1675.1.1 = {
+		holder = ahom_17	# Gobar-Roja
+	}
+	1675.5.23 = {
+		holder = ahom_18	# Sujinpha
+	}
+	1677.1.1 = {
+		holder = ahom_19	# Sudoipha
+	}
+	1679.1.1 = {
+		holder = ahom_20	# Sulikpha
+	}
+	1681.1.1 = {
+		holder = ahom_21	# Supaatpha
+	}
+	1696.1.1 = {
+		holder = ahom_22	# Sukhrungpha
+	}
+	1714.1.1 = {
+		holder = ahom_23	# Sutanpha
+	}
+	1744.1.1 = {
+		holder = ahom_24	# Sunenpha
+	}
+	1751.1.1 = {
+		holder = ahom_25	# Surempha
+	}
+	1769.1.1 = {
+		holder = ahom_26	# Sunyeopha
+	}
+	1780.1.1 = {
+		holder = ahom_27	# Suhitpangpha
+	}
+	1795.1.1 = {
+		holder = ahom_28	# Suklingpha
+	}
+	1811.1.17 = {
+		holder = ahom_29	# Sudingpha
+	}
+	1818.2.1 = {
+		holder = ahom_30	# Purandar-Singha
+	}
+	1819.6.1 = {
+		holder = ahom_29
+	}
+	1821.1.1 = {
+		holder = ahom_31	# Jogeswar-Singha
+	}
+	1822.1.1 = {
+		holder = 0
+	}
+	1833.4.1 = {
+		holder = ahom_30
+		liege = e_britannia
+		government = feudal_government
+		effect = {
+			holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = religious_rights
+					level = 1	#religious_rights_protected
+				}
+				vassal_contract_set_obligation_level = {
+					type = title_revocation_rights
+					level = 1	#title_revocation_rights_protected
+				}
+			}
+		}
+	}
+	1838.9.1 = {
+		holder = 0
+	}
+}
+d_kamarupanagara = {
+	1811.1.17 = {	# Ahom
+		holder = ahom_29	# Sudingpha
+	}
+	1833.4.1 = {
+		holder = ahom_30	# Purandar-Singha
+	}
+	1838.9.1 = {	# United Kingdom
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_kamarupanagara = {
+	1811.1.17 = {	# Ahom
+		holder = ahom_29	# Sudingpha
+	}
+	1833.4.1 = {
+		holder = ahom_30	# Purandar-Singha
+	}
+	1838.9.1 = {	# United Kingdom
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_kamatapur = {
+	1811.1.17 = {	# Ahom
+		holder = ahom_29	# Sudingpha
+	}
+	1833.4.1 = {
+		holder = ahom_30	# Purandar-Singha
+	}
+	1838.9.1 = {	# United Kingdom
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+d_sutiya = {
+	1811.1.17 = {	# Ahom
+		holder = ahom_29	# Sudingpha
+	}
+	1833.4.1 = {
+		holder = ahom_30	# Purandar-Singha
+	}
+	1838.9.1 = {	# United Kingdom
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_haruppeswara = {
+	1811.1.17 = {	# Ahom
+		holder = ahom_29	# Sudingpha
+	}
+	1833.4.1 = {
+		holder = ahom_30	# Purandar-Singha
+	}
+	1838.9.1 = {	# United Kingdom
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_charaideo = {
+	1811.1.17 = {	# Ahom
+		holder = ahom_29	# Sudingpha
+	}
+	1833.4.1 = {
+		holder = ahom_30	# Purandar-Singha
+	}
+	1838.9.1 = {	# United Kingdom
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_kundina = {
+	1811.1.17 = {	# Ahom
+		holder = ahom_29	# Sudingpha
+	}
+	1833.4.1 = {
+		holder = ahom_30	# Purandar-Singha
+	}
+	1838.9.1 = {	# United Kingdom
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+d_para_lauhitya = {
+	1807.7.31 = {
+		holder = british_east_india_0	# Gilbert Elliot-Murray-Kynynmound
+	}
+	1813.10.4 = {
+		holder = british_east_india_1	# Francis Rawdon-Hastings
+	}
+	1835.3.20 = {
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_goalpara = {
+	1807.7.31 = {
+		holder = british_east_india_0	# Gilbert Elliot-Murray-Kynynmound
+	}
+	1813.10.4 = {
+		holder = british_east_india_1	# Francis Rawdon-Hastings
+	}
+	1835.3.20 = {
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_dimapur = {
+	1807.7.31 = {
+		holder = british_east_india_0	# Gilbert Elliot-Murray-Kynynmound
+	}
+	1813.10.4 = {
+		holder = british_east_india_1	# Francis Rawdon-Hastings
+	}
+	1835.3.20 = {
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_srihatta = {
+	1807.7.31 = {
+		holder = british_east_india_0	# Gilbert Elliot-Murray-Kynynmound
+	}
+	1813.10.4 = {
+		holder = british_east_india_1	# Francis Rawdon-Hastings
+	}
+	1835.3.20 = {
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_manipur = {
+	1807.7.31 = {
+		holder = british_east_india_0	# Gilbert Elliot-Murray-Kynynmound
+	}
+	1813.10.4 = {
+		holder = british_east_india_1	# Francis Rawdon-Hastings
+	}
+	1835.3.20 = {
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}

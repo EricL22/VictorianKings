@@ -184,7 +184,7 @@ c_candhoba = {
 }
 d_anupa = {
 	1808.5.3 = {	# Maratha Empire
-		holder = 9000049	# Pratap Singh
+		holder = bhonsle_2	# Pratap Singh
 	}
 	1818.6.3 = {	# United Kingdom
 		holder = british_east_india_1	# Francis Rawdon-Hastings
@@ -201,7 +201,7 @@ d_anupa = {
 }
 c_mandapika = {
 	1808.5.3 = {	# Maratha Empire
-		holder = 9000049	# Pratap Singh
+		holder = bhonsle_2	# Pratap Singh
 	}
 	1818.6.3 = {	# United Kingdom
 		holder = british_east_india_1	# Francis Rawdon-Hastings
@@ -218,7 +218,7 @@ c_mandapika = {
 }
 c_asirgarh = {
 	1808.5.3 = {	# Maratha Empire
-		holder = 9000049	# Pratap Singh
+		holder = bhonsle_2	# Pratap Singh
 	}
 	1818.6.3 = {	# United Kingdom
 		holder = british_east_india_1	# Francis Rawdon-Hastings
@@ -235,7 +235,7 @@ c_asirgarh = {
 }
 c_burhanpur = {
 	1808.5.3 = {	# Maratha Empire
-		holder = 9000049	# Pratap Singh
+		holder = bhonsle_2	# Pratap Singh
 	}
 	1818.6.3 = {	# United Kingdom
 		holder = british_east_india_1	# Francis Rawdon-Hastings
@@ -252,7 +252,7 @@ c_burhanpur = {
 }
 c_thalner = {
 	1808.5.3 = {	# Maratha Empire
-		holder = 9000049	# Pratap Singh
+		holder = bhonsle_2	# Pratap Singh
 	}
 	1818.6.3 = {	# United Kingdom
 		holder = british_east_india_1	# Francis Rawdon-Hastings
