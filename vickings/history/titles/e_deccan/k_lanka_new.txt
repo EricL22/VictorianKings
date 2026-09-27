@@ -6,6 +6,9 @@ k_lanka = {
 	1831.10.23 = {
 		holder = british_ceylon_1	# Robert Wilmot-Horton
 	}
+	1858.11.1 = {
+		de_jure_liege = e_india
+	}
 	1860.10.22 = {
 		holder = british_ceylon_2	# Charles Justin MacCarthy
 	}

@@ -116,11 +116,8 @@ c_vecchio = {
 		holder = eur_01500	# Raymond Poincaré
 	}
 }
-d_sardinia = {
-	1861.3.17 = {
-		de_jure_liege = k_italy
-	}
-}
+#d_sardinia = {
+#}
 c_cagliari = {
 	1802.6.4 = {
 		holder = savoy_18

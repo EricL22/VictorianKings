@@ -188,3 +188,8 @@ huraa = {
 	name = "dynn_Huraa"
 	culture = sinhala
 }
+
+konbaung = {
+	name = "dynn_Konbaung"
+	culture = burmese
+}

@@ -2,6 +2,9 @@ k_gujarat = {
 	1800.1.1 = {
 		holder = 0
 	}
+	1858.11.1 = {
+		de_jure_liege = e_india
+	}
 }
 d_gurjara_mandala = {
 	1808.5.3 = {

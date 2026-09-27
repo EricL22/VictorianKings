@@ -171,6 +171,28 @@ e_maratha = {
 	}
 }
 
+e_india = {
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+		effect = {
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:empress_of_india
+			}
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:become_chakravarti_decision
+			}
+		}
+	}
+	1901.1.22 = {
+		holder = wettin_34	# Edward VII
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+
 k_hanover = {
 	1814.10.12 = {
 		holder = hanover_3	# George III
@@ -760,6 +782,9 @@ k_travancore = {
 	}
 	1846.12.27 = {
 		holder = chera_2	# Marthanda Varma II
+	}
+	1858.11.1 = {
+		de_jure_liege = e_india
 	}
 	1860.8.18 = {
 		holder = chera_4	# Ayilyam Thirunal

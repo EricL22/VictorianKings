@@ -42,7 +42,6 @@ d_romagna = {
 	}
 	1860.12.17 = {	# Italy
 		holder = savoy_26	# Vittorio Emanuele II
-		de_jure_liege = k_italy
 	}
 	1878.1.9 = {
 		holder = savoy_28	# Umberto I
@@ -188,7 +187,6 @@ d_ancona = {
 	}
 	1860.12.17 = {	# Italy
 		holder = savoy_26	# Vittorio Emanuele II
-		de_jure_liege = k_italy
 	}
 	1878.1.9 = {
 		holder = savoy_28	# Umberto I
@@ -284,11 +282,8 @@ c_fermo = {
 		holder = savoy_29	# Vittorio Emanuele III
 	}
 }
-d_spoleto = {
-	1861.3.17 = {
-		de_jure_liege = k_italy
-	}
-}
+#d_spoleto = {
+#}
 c_spoleto = {
 	1804.5.18 = {	# France
 		holder = bonaparte_2	# Napoleon
@@ -428,11 +423,8 @@ c_abruzzi = {
 		holder = savoy_29	# Vittorio Emanuele III
 	}
 }
-d_latium = {
-	1870.10.9 = {
-		de_jure_liege = k_italy
-	}
-}
+#d_latium = {
+#}
 c_roma = {
 	1804.5.18 = {	# France
 		holder = bonaparte_2	# Napoleon

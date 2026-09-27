@@ -121,6 +121,9 @@ k_kamarupa = {
 	1838.9.1 = {
 		holder = 0
 	}
+	1858.11.1 = {
+		de_jure_liege = e_india
+	}
 }
 d_kamarupanagara = {
 	1811.1.17 = {	# Ahom

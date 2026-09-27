@@ -18,6 +18,9 @@ k_punjab = {
 	1849.3.29 = {
 		holder = 0
 	}
+	1858.11.1 = {
+		de_jure_liege = e_india
+	}
 }
 d_multan = {
 	1809.5.3 = {	# Afghanistan

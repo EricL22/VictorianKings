@@ -1,0 +1,99 @@
+﻿konbaung_0 = {
+	name = "Bodawpaya"
+	dynasty = konbaung
+	religion = theravada
+	culture = burmese
+	1745.3.11 = {
+		birth = yes
+	}
+	1819.6.5 = {
+		death = yes
+	}
+}
+
+konbaung_1 = {
+	name = "Thado Minsaw"
+	dynasty = konbaung
+	religion = theravada
+	culture = burmese
+	father = konbaung_0
+	1762.6.15 = {
+		birth = yes
+	}
+	1808.4.9 = {
+		death = yes
+	}
+}
+
+konbaung_2 = {
+	name = "Bagyidaw"
+	dynasty = konbaung
+	religion = theravada
+	culture = burmese
+	father = konbaung_1
+	1784.7.23 = {
+		birth = yes
+	}
+	1833.1.1 = {
+		trait = depressed_1
+	}
+	1846.10.15 = {
+		death = yes
+	}
+}
+
+konbaung_3 = {
+	name = "Tharrawaddy"
+	dynasty = konbaung
+	religion = theravada
+	culture = burmese
+	father = konbaung_1
+	1787.3.14 = {
+		birth = yes
+	}
+	1846.11.17 = {
+		death = yes
+	}
+}
+
+konbaung_4 = {
+	name = "Pagan"
+	dynasty = konbaung
+	religion = theravada
+	culture = burmese
+	father = konbaung_3
+	1811.6.21 = {
+		birth = yes
+	}
+	1880.3.14 = {
+		death = yes
+	}
+}
+
+konbaung_5 = {
+	name = "Mindon"
+	dynasty = konbaung
+	religion = theravada
+	culture = burmese
+	father = konbaung_3
+	1808.7.8 = {
+		birth = yes
+	}
+	1878.10.1 = {
+		death = yes
+	}
+}
+
+konbaung_6 = {
+	name = "Thibaw"
+	dynasty = konbaung
+	religion = theravada
+	culture = burmese
+	father = konbaung_5
+	1859.1.1 = {
+		birth = yes
+	}
+	1916.12.16 = {
+		death = yes
+	}
+}

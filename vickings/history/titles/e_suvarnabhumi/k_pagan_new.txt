@@ -1,0 +1,687 @@
+k_pagan = {
+	1782.2.11 = {
+		holder = konbaung_0	# Bodawpaya
+		effect = { set_capital_county = title:c_ava }
+	}
+	1819.6.5 = {
+		holder = konbaung_2	# Bagyidaw
+	}
+	1837.4.30 = {
+		holder = konbaung_3	# Tharrawaddy Min
+	}
+	1846.11.17 = {
+		holder = konbaung_4	# Pagan Min
+	}
+	1853.2.18 = {
+		holder = konbaung_5	# Mindon Min
+	}
+	1878.10.1 = {
+		holder = konbaung_6	# Thibaw Min
+	}
+	1885.11.29 = {
+		holder = 0
+	}
+}
+d_pagan = {
+	1782.2.11 = {	# Burma
+		holder = konbaung_0	# Bodawpaya
+	}
+	1819.6.5 = {
+		holder = konbaung_2	# Bagyidaw
+	}
+	1853.2.18 = {
+		holder = konbaung_5	# Mindon Min
+	}
+	1886.1.1 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_pagan = {
+	1782.2.11 = {	# Burma
+		holder = konbaung_0	# Bodawpaya
+	}
+	1819.6.5 = {
+		holder = konbaung_2	# Bagyidaw
+	}
+	1853.2.18 = {
+		holder = konbaung_5	# Mindon Min
+	}
+	1886.1.1 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_ava = {
+	1782.2.11 = {	# Burma
+		holder = konbaung_0	# Bodawpaya
+	}
+	1819.6.5 = {
+		holder = konbaung_2	# Bagyidaw
+	}
+	1853.2.18 = {
+		holder = konbaung_5	# Mindon Min
+	}
+	1886.1.1 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_kyaukse = {
+	1782.2.11 = {	# Burma
+		holder = konbaung_0	# Bodawpaya
+	}
+	1819.6.5 = {
+		holder = konbaung_2	# Bagyidaw
+	}
+	1853.2.18 = {
+		holder = konbaung_5	# Mindon Min
+	}
+	1886.1.1 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_minbu = {
+	1782.2.11 = {	# Burma
+		holder = konbaung_0	# Bodawpaya
+	}
+	1819.6.5 = {
+		holder = konbaung_2	# Bagyidaw
+	}
+	1853.2.18 = {
+		holder = konbaung_5	# Mindon Min
+	}
+	1886.1.1 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_sagaing = {
+	1782.2.11 = {	# Burma
+		holder = konbaung_0	# Bodawpaya
+	}
+	1819.6.5 = {
+		holder = konbaung_2	# Bagyidaw
+	}
+	1853.2.18 = {
+		holder = konbaung_5	# Mindon Min
+	}
+	1886.1.1 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_yamethin = {
+	1782.2.11 = {	# Burma
+		holder = konbaung_0	# Bodawpaya
+	}
+	1819.6.5 = {
+		holder = konbaung_2	# Bagyidaw
+	}
+	1853.2.18 = {
+		holder = konbaung_5	# Mindon Min
+	}
+	1886.1.1 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+d_tagaung = {
+	1782.2.11 = {	# Burma
+		holder = konbaung_0	# Bodawpaya
+	}
+	1819.6.5 = {
+		holder = konbaung_2	# Bagyidaw
+	}
+	1853.2.18 = {
+		holder = konbaung_5	# Mindon Min
+	}
+	1886.1.1 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_takon = {
+	1782.2.11 = {	# Burma
+		holder = konbaung_0	# Bodawpaya
+	}
+	1819.6.5 = {
+		holder = konbaung_2	# Bagyidaw
+	}
+	1853.2.18 = {
+		holder = konbaung_5	# Mindon Min
+	}
+	1886.1.1 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_madaya = {
+	1782.2.11 = {	# Burma
+		holder = konbaung_0	# Bodawpaya
+	}
+	1819.6.5 = {
+		holder = konbaung_2	# Bagyidaw
+	}
+	1853.2.18 = {
+		holder = konbaung_5	# Mindon Min
+	}
+	1886.1.1 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_hanlan = {
+	1782.2.11 = {	# Burma
+		holder = konbaung_0	# Bodawpaya
+	}
+	1819.6.5 = {
+		holder = konbaung_2	# Bagyidaw
+	}
+	1853.2.18 = {
+		holder = konbaung_5	# Mindon Min
+	}
+	1886.1.1 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_kale = {
+	1782.2.11 = {	# Burma
+		holder = konbaung_0	# Bodawpaya
+	}
+	1819.6.5 = {
+		holder = konbaung_2	# Bagyidaw
+	}
+	1853.2.18 = {
+		holder = konbaung_5	# Mindon Min
+	}
+	1886.1.1 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+d_sriksetra = {
+	1782.2.11 = {
+		holder = konbaung_0	# Bodawpaya
+	}
+	1819.6.5 = {
+		holder = konbaung_2	# Bagyidaw
+	}
+	1837.4.30 = {
+		holder = konbaung_3	# Tharrawaddy Min
+	}
+	1846.11.17 = {
+		holder = konbaung_4	# Pagan Min
+	}
+	# 1853.1.20: United Kingdom
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_sriksetra = {
+	1782.2.11 = {
+		holder = konbaung_0	# Bodawpaya
+	}
+	1819.6.5 = {
+		holder = konbaung_2	# Bagyidaw
+	}
+	1837.4.30 = {
+		holder = konbaung_3	# Tharrawaddy Min
+	}
+	1846.11.17 = {
+		holder = konbaung_4	# Pagan Min
+	}
+	# 1853.1.20: United Kingdom
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_magwe = {
+	1782.2.11 = {	# Burma
+		holder = konbaung_0	# Bodawpaya
+	}
+	1819.6.5 = {
+		holder = konbaung_2	# Bagyidaw
+	}
+	1853.2.18 = {
+		holder = konbaung_5	# Mindon Min
+	}
+	1886.1.1 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_hinthada = {
+	1782.2.11 = {
+		holder = konbaung_0	# Bodawpaya
+	}
+	1819.6.5 = {
+		holder = konbaung_2	# Bagyidaw
+	}
+	1837.4.30 = {
+		holder = konbaung_3	# Tharrawaddy Min
+	}
+	1846.11.17 = {
+		holder = konbaung_4	# Pagan Min
+	}
+	# 1853.1.20: United Kingdom
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_toungoo = {
+	1782.2.11 = {
+		holder = konbaung_0	# Bodawpaya
+	}
+	1819.6.5 = {
+		holder = konbaung_2	# Bagyidaw
+	}
+	1837.4.30 = {
+		holder = konbaung_3	# Tharrawaddy Min
+	}
+	1846.11.17 = {
+		holder = konbaung_4	# Pagan Min
+	}
+	# 1853.1.20: United Kingdom
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+d_arakan = {
+	1782.2.11 = {
+		holder = konbaung_0	# Bodawpaya
+	}
+	# 1826.2.24: United Kingdom
+	1835.3.20 = {
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_vaisali = {
+	1782.2.11 = {
+		holder = konbaung_0	# Bodawpaya
+	}
+	# 1826.2.24: United Kingdom
+	1835.3.20 = {
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_ramu = {
+	1782.2.11 = {
+		holder = konbaung_0	# Bodawpaya
+	}
+	# 1826.2.24: United Kingdom
+	1835.3.20 = {
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_thabeik_taung = {
+	1782.2.11 = {
+		holder = konbaung_0	# Bodawpaya
+	}
+	# 1826.2.24: United Kingdom
+	1835.3.20 = {
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_sandoway = {
+	1782.2.11 = {
+		holder = konbaung_0	# Bodawpaya
+	}
+	# 1826.2.24: United Kingdom
+	1835.3.20 = {
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+d_ramannadesa = {
+	1782.2.11 = {
+		holder = konbaung_0	# Bodawpaya
+	}
+	1819.6.5 = {
+		holder = konbaung_2	# Bagyidaw
+	}
+	1837.4.30 = {
+		holder = konbaung_3	# Tharrawaddy Min
+	}
+	1846.11.17 = {
+		holder = konbaung_4	# Pagan Min
+	}
+	# 1853.1.20: United Kingdom
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_thaton = {
+	1782.2.11 = {
+		holder = konbaung_0	# Bodawpaya
+	}
+	# 1826.2.24: United Kingdom
+	1835.3.20 = {
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_sittaung = {
+	1782.2.11 = {
+		holder = konbaung_0	# Bodawpaya
+	}
+	1819.6.5 = {
+		holder = konbaung_2	# Bagyidaw
+	}
+	1837.4.30 = {
+		holder = konbaung_3	# Tharrawaddy Min
+	}
+	1846.11.17 = {
+		holder = konbaung_4	# Pagan Min
+	}
+	# 1853.1.20: United Kingdom
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_pegu = {
+	1782.2.11 = {
+		holder = konbaung_0	# Bodawpaya
+	}
+	1819.6.5 = {
+		holder = konbaung_2	# Bagyidaw
+	}
+	1837.4.30 = {
+		holder = konbaung_3	# Tharrawaddy Min
+	}
+	1846.11.17 = {
+		holder = konbaung_4	# Pagan Min
+	}
+	# 1853.1.20: United Kingdom
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_dagon = {
+	1782.2.11 = {
+		holder = konbaung_0	# Bodawpaya
+	}
+	1819.6.5 = {
+		holder = konbaung_2	# Bagyidaw
+	}
+	1837.4.30 = {
+		holder = konbaung_3	# Tharrawaddy Min
+	}
+	1846.11.17 = {
+		holder = konbaung_4	# Pagan Min
+	}
+	# 1853.1.20: United Kingdom
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_kusumi = {
+	1782.2.11 = {
+		holder = konbaung_0	# Bodawpaya
+	}
+	1819.6.5 = {
+		holder = konbaung_2	# Bagyidaw
+	}
+	1837.4.30 = {
+		holder = konbaung_3	# Tharrawaddy Min
+	}
+	1846.11.17 = {
+		holder = konbaung_4	# Pagan Min
+	}
+	# 1853.1.20: United Kingdom
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+d_mongnai = {
+	1782.2.11 = {	# Burma
+		holder = konbaung_0	# Bodawpaya
+	}
+	1819.6.5 = {
+		holder = konbaung_2	# Bagyidaw
+	}
+	1853.2.18 = {
+		holder = konbaung_5	# Mindon Min
+	}
+	1886.1.1 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_mongnai = {
+	1782.2.11 = {	# Burma
+		holder = konbaung_0	# Bodawpaya
+	}
+	1819.6.5 = {
+		holder = konbaung_2	# Bagyidaw
+	}
+	1853.2.18 = {
+		holder = konbaung_5	# Mindon Min
+	}
+	1886.1.1 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_hsenwi = {
+	1782.2.11 = {	# Burma
+		holder = konbaung_0	# Bodawpaya
+	}
+	1819.6.5 = {
+		holder = konbaung_2	# Bagyidaw
+	}
+	1853.2.18 = {
+		holder = konbaung_5	# Mindon Min
+	}
+	1886.1.1 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_nyaungshwe = {
+	1782.2.11 = {	# Burma
+		holder = konbaung_0	# Bodawpaya
+	}
+	1819.6.5 = {
+		holder = konbaung_2	# Bagyidaw
+	}
+	1853.2.18 = {
+		holder = konbaung_5	# Mindon Min
+	}
+	1886.1.1 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+#d_yongchang = {	-> e_seasia_new.txt
+#}
+#c_yongchang_yongchang = {
+#}
+#c_yongchang_jingmadian = {
+#}
+#c_moeng_laem = {
+#}
+d_tengchong = {
+	1782.2.11 = {	# Burma
+		holder = konbaung_0	# Bodawpaya
+	}
+	1819.6.5 = {
+		holder = konbaung_2	# Bagyidaw
+	}
+	1853.2.18 = {
+		holder = konbaung_5	# Mindon Min
+	}
+	1886.1.1 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_momauk = {
+	1782.2.11 = {	# Burma
+		holder = konbaung_0	# Bodawpaya
+	}
+	1819.6.5 = {
+		holder = konbaung_2	# Bagyidaw
+	}
+	1853.2.18 = {
+		holder = konbaung_5	# Mindon Min
+	}
+	1886.1.1 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_myitkyina = {
+	1782.2.11 = {	# Burma
+		holder = konbaung_0	# Bodawpaya
+	}
+	1819.6.5 = {
+		holder = konbaung_2	# Bagyidaw
+	}
+	1853.2.18 = {
+		holder = konbaung_5	# Mindon Min
+	}
+	1886.1.1 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_monyin = {
+	1782.2.11 = {	# Burma
+		holder = konbaung_0	# Bodawpaya
+	}
+	1819.6.5 = {
+		holder = konbaung_2	# Bagyidaw
+	}
+	1853.2.18 = {
+		holder = konbaung_5	# Mindon Min
+	}
+	1886.1.1 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_putao = {
+	1782.2.11 = {	# Burma
+		holder = konbaung_0	# Bodawpaya
+	}
+	1819.6.5 = {
+		holder = konbaung_2	# Bagyidaw
+	}
+	1853.2.18 = {
+		holder = konbaung_5	# Mindon Min
+	}
+	1886.1.1 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+#c_nandian = {	-> e_seasia_new.txt
+#}

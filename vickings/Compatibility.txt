@@ -49,8 +49,8 @@ gfx
 history
 ...cultures
 ...titles
-......(all file names of the form k_[a-zA-Z]+.txt)
-......(all file names ending with _new.txt) (clauses)
+......k_[...].txt
+......[...]_new.txt (clauses)
 map_data
 music
 ...in_game

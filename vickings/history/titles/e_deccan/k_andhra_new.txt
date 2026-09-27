@@ -1,3 +1,8 @@
+k_andhra = {
+	1858.11.1 = {
+		de_jure_liege = e_india
+	}
+}
 d_udayagiri = {
 	1807.7.31 = {
 		holder = british_east_india_0	# Gilbert Elliot-Murray-Kynynmound

@@ -20,6 +20,9 @@ k_karnata = {
 			}
 		}
 	}
+	1858.11.1 = {
+		de_jure_liege = e_india
+	}
 	1868.9.23 = {
 		holder = wadiyar_2	# Chamarajendra Wadiyar X
 	}

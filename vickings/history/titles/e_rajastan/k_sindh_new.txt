@@ -12,6 +12,9 @@ k_sindh = {
 	1843.2.17 = {
 		holder = 0
 	}
+	1858.11.1 = {
+		de_jure_liege = e_india
+	}
 }
 d_sauvira = {
 	1858.11.1 = {

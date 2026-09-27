@@ -16,6 +16,12 @@ k_sicily = {
 	}
 	1816.12.12 = {
 		name = k_tts
+		effect = {
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:unite_the_two_sicilies_decision
+			}
+		}
 	}
 	1817.1.1 = {
 		effect = { set_capital_county = title:c_napoli }
@@ -51,7 +57,6 @@ d_sicily = {
 	}
 	1861.3.17 = {	# Italy
 		holder = savoy_26	# Vittorio Emanuele II
-		de_jure_liege = k_italy
 	}
 	1878.1.9 = {
 		holder = savoy_28	# Umberto I
@@ -209,7 +214,6 @@ d_benevento = {
 	}
 	1861.3.17 = {	# Italy
 		holder = savoy_26	# Vittorio Emanuele II
-		de_jure_liege = k_italy
 	}
 	1878.1.9 = {
 		holder = savoy_28	# Umberto I
@@ -274,9 +278,6 @@ d_capua = {
 	1816.12.12 = {
 		de_jure_liege = k_sicily
 	}
-	1861.3.17 = {
-		de_jure_liege = k_italy
-	}
 }
 c_capua = {
 	1808.8.1 = {
@@ -333,9 +334,6 @@ c_napoli = {
 d_apulia = {
 	1816.12.12 = {
 		de_jure_liege = k_sicily
-	}
-	1861.3.17 = {
-		de_jure_liege = k_italy
 	}
 }
 c_apulia = {
@@ -420,9 +418,6 @@ d_salerno = {
 	1816.12.12 = {
 		de_jure_liege = k_sicily
 	}
-	1861.3.17 = {
-		de_jure_liege = k_italy
-	}
 }
 c_salerno = {
 	1808.8.1 = {
@@ -497,7 +492,6 @@ d_calabria = {
 	}
 	1861.3.17 = {	# Italy
 		holder = savoy_26	# Vittorio Emanuele II
-		de_jure_liege = k_italy
 	}
 	1878.1.9 = {
 		holder = savoy_28	# Umberto I

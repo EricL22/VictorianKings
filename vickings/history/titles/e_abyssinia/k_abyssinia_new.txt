@@ -210,7 +210,7 @@ d_dahlaks = {
 	}
 	1907.3.25 = {
 		holder = italian_eritrea_0	# Giuseppe Salvago Raggi
-		liege = k_italy
+		liege = e_italy
 	}
 }
 c_dahlak = {

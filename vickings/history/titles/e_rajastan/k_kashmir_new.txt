@@ -10,6 +10,9 @@ k_kashmir = {
 	1856.2.20 = {
 		holder = dogra_1	# Ranbir Singh
 	}
+	1858.11.1 = {
+		de_jure_liege = e_india
+	}
 	1885.9.12 = {
 		holder = dogra_2	# Pratap Singh
 	}

@@ -342,3 +342,18 @@ k_gwalior = {
 
 	capital = c_gwalior
 }
+
+e_india = {		# Titular, created by special decision only if entire India is united
+	color = { 255 110 0 }
+
+	capital = c_delhi
+	
+	ai_primary_priority = {
+		if = {
+			limit = {
+				NOT = { has_primary_title = title:e_britannia }
+			}
+			add = @always_primary_score
+		}
+	}
+}

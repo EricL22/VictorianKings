@@ -452,7 +452,7 @@ d_nf_habsburg = {
 
 d_nf_carignano = {
 	1861.3.17 = {
-		liege = k_italy
+		liege = e_italy
 		holder = savoy_26	# Vittorio Emanuele II
 		government = administrative_government
 		succession_laws = { noble_family_succession_law }
@@ -463,7 +463,7 @@ d_nf_carignano = {
 		}
 	}
 	1900.7.29 = {
-		liege = k_italy
+		liege = e_italy
 		holder = savoy_29	# Vittorio Emanuele III
 		government = administrative_government
 		succession_laws = { noble_family_succession_law }
@@ -775,7 +775,7 @@ d_nf_archer = {
 
 d_nf_raggi = {
 	1907.3.25 = {
-		liege = k_italy
+		liege = e_italy
 		holder = italian_eritrea_0	# Giuseppe Salvago Raggi
 		government = administrative_government
 		succession_laws = { noble_family_succession_law }

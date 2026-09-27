@@ -95,6 +95,7 @@ romanov_6 = {
 	culture = russian
 	father = romanov_5
 #	dna = 9000014_alexander_romanov
+	trait = fickle
 	1703.5.27 = {
 		set_realm_capital = title:c_vodi
 		effect = {

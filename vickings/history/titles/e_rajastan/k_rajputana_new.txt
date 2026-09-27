@@ -1,3 +1,8 @@
+k_rajputana = {
+	1858.11.1 = {
+		de_jure_liege = e_india
+	}
+}
 d_maru = {
 	1803.10.19 = {
 		holder = rathore_0	# Man Singh

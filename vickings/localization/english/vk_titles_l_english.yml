@@ -25,6 +25,10 @@
  e_maratha:0 "Maratha Empire"
  e_maratha_adj:0 "Maratha"
 
+ e_india: "$h_india$"
+ e_india_adj: "$h_india_adj$"
+ e_india_pre: "$h_india_pre$"
+
  k_hanover:0 "Hanover"
  k_hanover_adj:0 "Hanoverian"
 
