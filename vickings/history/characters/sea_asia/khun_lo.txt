@@ -163,39 +163,86 @@ khun_lo_11 = {
 	}
 }
 
-# Vientiane
-6200050 = {
+## Vientiane line
+khun_lo_20 = {
+	name = "Sumangala Kumari"
+	dynasty = khun_lo
+	religion = theravada
+	culture = lao
+	father = khun_lo_0
+	female = yes
+	1665.1.1 = {	# unknown
+		birth = yes
+	}
+	1710.1.1 = {	# unknown
+		death = yes
+	}
+}
+
+khun_lo_21 = {
+	name = "Setthathirath"
+	dynasty = khun_lo
+	religion = theravada
+	culture = lao
+	mother = khun_lo_20
+	1685.1.1 = {
+		birth = yes
+	}
+	1735.1.1 = {
+		death = yes
+	}
+}
+
+khun_lo_22 = {
+	name = "Ong Boun"
+	dynasty = khun_lo
+	religion = theravada
+	culture = lao
+	father = khun_lo_21
+	1710.1.1 = {	# unknown
+		birth = yes
+	}
+	1781.11.21 = {
+		death = yes
+	}
+}
+
+khun_lo_23 = {
 	name = "Anouvong"
 	dynasty = khun_lo
 	religion = theravada
 	culture = lao
+	father = khun_lo_22
 	1767.1.1 = {
 		birth = yes
+	}
+	1805.2.7 = {
+		set_realm_capital = title:c_vien_chan
 	}
 	1828.11.12 = {
 		death = yes
 	}
 }
-6200051 = {
+khun_lo_24 = {
 	name = "Ngao"
 	dynasty = khun_lo
 	religion = theravada
 	culture = lao
-	father = 6200050
+	father = khun_lo_23
 	1802.1.1 = {
 		birth = yes
 	}
-	1830.1.1 = {
+	1830.1.1 = {	# unknown
 		death = yes
 	}
 }
-6200052 = {
+khun_lo_25 = {
 	name = "Nyô"
 	dynasty = khun_lo
 	religion = theravada
 	culture = lao
-	father = 6200050
-	1804.1.1 = {
+	father = khun_lo_23
+	1804.1.1 = {	# unknown
 		birth = yes
 	}
 	1828.1.1 = {

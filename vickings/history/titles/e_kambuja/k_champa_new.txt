@@ -1,0 +1,118 @@
+k_champa = {
+	1800.1.1 = {
+		holder = 0
+		de_jure_liege = e_vietnam
+	}
+}
+d_indrapura = {
+	1802.6.1 = {
+		holder = nguyen_0	# Gia Long
+	}
+	1820.2.14 = {
+		holder = nguyen_1	# Minh Mang
+	}
+	1847.10.5 = {
+		holder = nguyen_3	# Tu Duc
+	}
+	1907.9.5 = {
+		holder = nguyen_12	# Duy Tan
+	}
+}
+c_indrapura = {
+	1802.6.1 = {
+		holder = nguyen_0	# Gia Long
+	}
+	1820.2.14 = {
+		holder = nguyen_1	# Minh Mang
+	}
+	1847.10.5 = {
+		holder = nguyen_3	# Tu Duc
+	}
+	1907.9.5 = {
+		holder = nguyen_12	# Duy Tan
+	}
+}
+c_simhapura = {
+	1802.6.1 = {
+		holder = nguyen_0	# Gia Long
+	}
+	1820.2.14 = {
+		holder = nguyen_1	# Minh Mang
+	}
+	1847.10.5 = {
+		holder = nguyen_3	# Tu Duc
+	}
+	1907.9.5 = {
+		holder = nguyen_12	# Duy Tan
+	}
+}
+c_ma_linh = {
+	1802.6.1 = {
+		holder = nguyen_0	# Gia Long
+	}
+	1820.2.14 = {
+		holder = nguyen_1	# Minh Mang
+	}
+	1847.10.5 = {
+		holder = nguyen_3	# Tu Duc
+	}
+	1907.9.5 = {
+		holder = nguyen_12	# Duy Tan
+	}
+}
+d_vijaya = {
+	1802.6.1 = {
+		holder = nguyen_0	# Gia Long
+	}
+	1820.2.14 = {
+		holder = nguyen_1	# Minh Mang
+	}
+	1847.10.5 = {
+		holder = nguyen_3	# Tu Duc
+	}
+	1907.9.5 = {
+		holder = nguyen_12	# Duy Tan
+	}
+}
+c_vijaya = {
+	1802.6.1 = {
+		holder = nguyen_0	# Gia Long
+	}
+	1820.2.14 = {
+		holder = nguyen_1	# Minh Mang
+	}
+	1847.10.5 = {
+		holder = nguyen_3	# Tu Duc
+	}
+	1907.9.5 = {
+		holder = nguyen_12	# Duy Tan
+	}
+}
+c_kauthara = {
+	1802.6.1 = {
+		holder = nguyen_0	# Gia Long
+	}
+	1820.2.14 = {
+		holder = nguyen_1	# Minh Mang
+	}
+	1847.10.5 = {
+		holder = nguyen_3	# Tu Duc
+	}
+	1907.9.5 = {
+		holder = nguyen_12	# Duy Tan
+	}
+}
+c_panduranga = {
+	1802.6.1 = {
+		holder = nguyen_0	# Gia Long
+	}
+	1820.2.14 = {
+		holder = nguyen_1	# Minh Mang
+	}
+	1847.10.5 = {
+		holder = nguyen_3	# Tu Duc
+	}
+	1907.9.5 = {
+		holder = nguyen_12	# Duy Tan
+	}
+}

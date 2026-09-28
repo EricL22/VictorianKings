@@ -1,0 +1,163 @@
+k_chenla = {
+	1707.1.1 = {
+		name = vientiane
+		holder = khun_lo_21	# Setthathirath II
+		effect = { set_capital_county = title:c_vien_chan }
+	}
+	# 1735: Ong Long
+	1767.1.1 = {
+		holder = khun_lo_22	# Ong Boun
+	}
+	# 1781.11.21: Nanthasen
+	# 1795.2.2: Inthavong
+	1805.2.7 = {
+		holder = khun_lo_23	# Anouvong
+	}
+	1828.11.12 = {
+		holder = 0
+	}
+}
+d_phonsavan = {
+	1805.2.7 = {	# Vientiane
+		holder = khun_lo_23	# Anouvong
+	}
+	1828.11.12 = {	# Siam
+		holder = chakri_2	# Rama III
+	}
+	1851.4.2 = {
+		holder = chakri_3	# Rama IV
+	}
+	# 1893.10.3: France
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
+	}
+}
+c_sanasomboon = {
+	1805.2.7 = {	# Vientiane
+		holder = khun_lo_23	# Anouvong
+	}
+	1828.11.12 = {	# Siam
+		holder = chakri_2	# Rama III
+	}
+	1851.4.2 = {
+		holder = chakri_3	# Rama IV
+	}
+	# 1893.10.3: France
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
+	}
+}
+c_vien_chan = {
+	1805.2.7 = {	# Vientiane
+		holder = khun_lo_23	# Anouvong
+	}
+	1828.11.12 = {	# Siam
+		holder = chakri_2	# Rama III
+	}
+	1851.4.2 = {
+		holder = chakri_3	# Rama IV
+	}
+	# 1893.10.3: France
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
+	}
+}
+c_salo_tai = {
+	1805.2.7 = {	# Vientiane
+		holder = khun_lo_23	# Anouvong
+	}
+	1828.11.12 = {	# Siam
+		holder = chakri_2	# Rama III
+	}
+	1851.4.2 = {
+		holder = chakri_3	# Rama IV
+	}
+	# 1893.10.3: France
+	1913.2.18 = {
+		holder = eur_01500	# Raymond Poincaré
+	}
+}
+d_mukdahan = {
+	1805.2.7 = {	# Vientiane
+		holder = khun_lo_23	# Anouvong
+	}
+	1828.11.12 = {	# Siam
+		holder = chakri_2	# Rama III
+	}
+	1851.4.2 = {
+		holder = chakri_3	# Rama IV
+	}
+	1910.10.23 = {
+		holder = chakri_5	# Rama VI
+	}
+}
+c_canasha = {
+	1809.9.7 = {
+		holder = chakri_1	# Rama II
+	}
+	1824.7.21 = {
+		holder = chakri_2	# Rama III
+	}
+	1851.4.2 = {
+		holder = chakri_3	# Rama IV
+	}
+	1910.10.23 = {
+		holder = chakri_5	# Rama VI
+	}
+}
+c_ku_kaeo = {
+	1805.2.7 = {	# Vientiane
+		holder = khun_lo_23	# Anouvong
+	}
+	1828.11.12 = {	# Siam
+		holder = chakri_2	# Rama III
+	}
+	1851.4.2 = {
+		holder = chakri_3	# Rama IV
+	}
+	1910.10.23 = {
+		holder = chakri_5	# Rama VI
+	}
+}
+c_mukdahan = {
+	1805.2.7 = {	# Vientiane
+		holder = khun_lo_23	# Anouvong
+	}
+	1828.11.12 = {	# Siam
+		holder = chakri_2	# Rama III
+	}
+	1851.4.2 = {
+		holder = chakri_3	# Rama IV
+	}
+	1910.10.23 = {
+		holder = chakri_5	# Rama VI
+	}
+}
+c_ubon_ratchathani = {
+	1805.2.7 = {	# Vientiane
+		holder = khun_lo_23	# Anouvong
+	}
+	1828.11.12 = {	# Siam
+		holder = chakri_2	# Rama III
+	}
+	1851.4.2 = {
+		holder = chakri_3	# Rama IV
+	}
+	1910.10.23 = {
+		holder = chakri_5	# Rama VI
+	}
+}
+c_muang_fa_daet = {
+	1805.2.7 = {	# Vientiane
+		holder = khun_lo_23	# Anouvong
+	}
+	1828.11.12 = {	# Siam
+		holder = chakri_2	# Rama III
+	}
+	1851.4.2 = {
+		holder = chakri_3	# Rama IV
+	}
+	1910.10.23 = {
+		holder = chakri_5	# Rama VI
+	}
+}

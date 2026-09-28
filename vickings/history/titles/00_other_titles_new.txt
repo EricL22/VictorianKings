@@ -631,6 +631,8 @@ k_siam = {
 				name = unavailable_unique_decisions
 				target = flag:flag_created_siam_kingdom
 			}
+			set_capital_county = title:c_nakhon_pathom
+			holder ?= { set_realm_capital = title:c_nakhon_pathom }
 		}
 	}
 	1809.9.7 = {
