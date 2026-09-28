@@ -92,6 +92,8 @@
 
  k_luang_prabang:0 "$b_luang_prabang$"
  vientiane: "Vientiane"
+ k_champasak:0 "Champasak"
+ cambodia: "Cambodia"
 
  senegal: "Senegal"
  senegal_adj: "Senegalese"
@@ -116,6 +118,8 @@
  c_tetina:0 "$b_tetina$"
 
  c_kanggye:0 "Kanggye"
+
+ c_battambang:0 "$b_battambang$"
 
  cn_joseon: "Joseon"
 

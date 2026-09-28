@@ -250,24 +250,97 @@ khun_lo_25 = {
 	}
 }
 
-# Champasak - some dates are guesswork due to lack of information
-6200100 = {
-	name = "No Muong"
+# Champasak line
+khun_lo_30 = {
+	name = "Nokasad"
+	dynasty = khun_lo
 	religion = theravada
 	culture = lao
-	1792.1.1 = {
+	mother = khun_lo_20
+	1690.1.1 = {	# unknown
 		birth = yes
 	}
-	1813.1.1 = {
+	1737.1.1 = {
 		death = yes
 	}
 }
-# Grandfather: https://de.wikipedia.org/wiki/Tammatevo_Pudisatkhattinarat
-6200101 = {
+khun_lo_31 = {
+	name = "Sayakumane"
+	dynasty = khun_lo
+	religion = theravada
+	culture = lao
+	mother = khun_lo_30
+	1720.1.1 = {	# unknown
+		birth = yes
+	}
+	1791.1.1 = {
+		death = yes
+	}
+}
+
+khun_lo_32 = {
+	name = "Suriyo"
+	dynasty = khun_lo
+	religion = theravada
+	culture = lao
+	father = khun_lo_30
+	1725.1.1 = {	# unknown
+		birth = yes
+	}
+	1778.1.1 = {
+		death = yes
+	}
+}
+
+khun_lo_33 = {
+	name = "Manoi"
+	dynasty = khun_lo
+	religion = theravada
+	culture = lao
+	father = khun_lo_32
+	1775.1.1 = {	# unknown
+		birth = yes
+	}
+	1820.1.1 = {
+		death = yes
+	}
+}
+
+# https://de.wikipedia.org/wiki/Tammatevo_Pudisatkhattinarat
+khun_lo_34 = {
+	name = "Tammatevo"
+	dynasty = khun_lo
+	religion = theravada
+	culture = lao
+	father = khun_lo_31
+	1740.1.1 = {	# unknown
+		birth = yes
+	}
+	1768.1.1 = {
+		death = yes
+	}
+}
+
+khun_lo_35 = {
+	name = "Unga"
+	dynasty = khun_lo
+	religion = theravada
+	culture = lao
+	father = khun_lo_34
+	1760.1.1 = {	# unknown
+		birth = yes
+	}
+	1781.1.1 = {
+		death = yes
+	}
+}
+
+khun_lo_36 = {
 	name = "Huy"
 	dynasty = khun_lo
 	religion = theravada
 	culture = lao
+	father = khun_lo_35
 	1780.1.1 = {
 		birth = yes
 	}
@@ -275,15 +348,59 @@ khun_lo_25 = {
 		death = yes
 	}
 }
-6200102 = {
-	name = "Manoi"
+
+khun_lo_37 = {
+	name = "Nark"
 	dynasty = khun_lo
 	religion = theravada
 	culture = lao
-	1792.1.1 = {
+	father = khun_lo_35
+	1785.1.1 = {	# unknown
 		birth = yes
 	}
-	1820.1.1 = {
+	1851.1.1 = {
+		death = yes
+	}
+}
+
+khun_lo_38 = {
+	name = "Boua"
+	dynasty = khun_lo
+	religion = theravada
+	culture = lao
+	father = khun_lo_36
+	1800.1.1 = {	# unknown
+		birth = yes
+	}
+	1853.1.1 = {
+		death = yes
+	}
+}
+
+khun_lo_39 = {
+	name = "Kham Nai"
+	dynasty = khun_lo
+	religion = theravada
+	culture = lao
+	father = khun_lo_36
+	1830.1.1 = {
+		birth = yes
+	}
+	1858.1.1 = {
+		death = yes
+	}
+}
+
+khun_lo_40 = {
+	name = "Kham Souk"
+	dynasty = khun_lo
+	religion = theravada
+	culture = lao
+	father = khun_lo_36
+	1839.1.1 = {
+		birth = yes
+	}
+	1899.1.1 = {
 		death = yes
 	}
 }

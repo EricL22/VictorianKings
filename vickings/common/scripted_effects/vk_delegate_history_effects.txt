@@ -120,6 +120,10 @@ vk_setup_tributaries_effect = {
 	if = {
 		limit = { has_tgp_dlc_trigger = yes }
 		if = {
+			limit = { current_date < 1836.1.1 }
+			tgp_pre_1836_tributary_setup_effect = yes
+		}
+		if = {
 			limit = { current_date < 1914.7.28 }
 			tgp_pre_1914_tributary_setup_effect = yes
 		}
@@ -129,6 +133,20 @@ vk_setup_tributaries_effect = {
 			current_date = 1861.7.1
 		}
 		base_1861_tributary_setup_effect = yes
+	}
+}
+tgp_pre_1836_tributary_setup_effect = {
+	title:k_siam.holder = {
+		save_scope_as = suzerain
+		title:k_chenla.holder = {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
+	title:e_vietnam.holder = {
+		save_scope_as = suzerain
+		title:k_funan.holder = {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
 	}
 }
 tgp_pre_1914_tributary_setup_effect = {
@@ -149,12 +167,9 @@ tgp_pre_1914_tributary_setup_effect = {
 		title:k_luang_prabang.holder = {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
-		title:k_chenla.holder ?= {
+		title:k_champasak.holder = {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
-	#	title:k_champasak.holder = {
-	#		break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-	#	}
 	}
 }
 base_1861_tributary_setup_effect = {

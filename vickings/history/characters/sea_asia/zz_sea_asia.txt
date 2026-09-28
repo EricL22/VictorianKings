@@ -1,0 +1,24 @@
+﻿##### CONTENTS #####
+# LAOS            #
+####################
+
+
+
+####################
+#  LAOS  #
+####################
+# 1812 bookmark
+# King of Champasak, 1811-1813
+sea_00100 = {
+	name = "No Muong"
+	# dynasty = suwanpangkham
+	religion = theravada
+	culture = lao
+	1792.1.1 = {
+		birth = yes
+	}
+	1813.1.1 = {
+		death = yes
+	}
+}
+####################

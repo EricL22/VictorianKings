@@ -1,0 +1,118 @@
+﻿### Varman Dynasty
+varman_0 = {
+	name = "Eng"
+	dynasty_house = house_ang
+	religion = theravada
+	culture = khmer
+	1773.1.1 = {
+		birth = yes
+	}
+	1779.8.1 = {
+		name = "Neareay-Reachea"	# III of Cambodia
+	}
+	1796.5.5 = {
+		death = yes
+	}
+}
+varman_1 = {
+	name = "Chan"	# II of Cambodia
+	dynasty_house = house_ang
+	religion = theravada
+	culture = khmer
+	father = varman_0
+	1791.1.1 = {
+		birth = yes
+	}
+	1797.11.18 = {
+		name = "Outey-Reachea"	# III of Cambodia
+		effect = {
+			dynasty = { add_dynasty_prestige = 4000 }
+		}
+	}
+	1835.1.7 = {
+		death = yes
+	}
+}
+varman_2 = {
+	name = "Mey"
+	dynasty_house = house_ang
+	religion = theravada
+	culture = khmer
+	father = varman_1
+	female = yes
+	1815.1.1 = {
+		birth = yes
+	}
+	1835.1.9 = {
+		effect = {
+			dynasty = { add_dynasty_prestige = 4000 }
+		}
+	}
+	1874.12.1 = {
+		death = yes
+	}
+}
+varman_3 = {
+	name = "Duong"
+	dynasty_house = house_ang
+	religion = theravada
+	culture = khmer
+	father = varman_0
+	1796.6.12 = {
+		birth = yes
+	}
+	1848.1.1 = {
+		name = "Harihak-Reamea"
+	}
+	1860.10.19 = {
+		death = yes
+	}
+}
+varman_4 = {
+	name = "Voddey"
+	dynasty_house = house_ang
+	religion = theravada
+	culture = khmer
+	father = varman_3
+	1834.2.3 = {
+		birth = yes
+	}
+	1860.10.19 = {
+		name = "Norodom"
+	}
+	1904.4.24 = {
+		death = yes
+	}
+}
+varman_5 = {
+	name = "Sar"
+	dynasty_house = house_ang
+	religion = theravada
+	culture = khmer
+	father = varman_3
+	1840.9.7 = {
+		birth = yes
+	}
+	1904.4.27 = {
+		name = "Sisowath"
+	}
+	1927.8.9 = {
+		death = yes
+	}
+}
+
+## Extended Family
+varman_50 = {
+	name = "Em"
+	dynasty_house = house_ang
+	religion = theravada
+	culture = khmer
+	father = varman_0
+	1794.1.1 = {
+		birth = yes
+	}
+	1843.1.1 = {
+		death = yes
+	}
+}
+####################

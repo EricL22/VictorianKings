@@ -93,3 +93,8 @@ house_mughal = {
 	name = "dynn_Mughal"
 	dynasty = timurid
 }
+
+house_ang = {
+	name = "dynn_Ang"
+	dynasty = khmer_varman
+}

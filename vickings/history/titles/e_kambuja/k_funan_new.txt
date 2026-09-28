@@ -1,0 +1,327 @@
+k_funan = {
+	1779.8.1 = {
+		holder = varman_0	# Ang Eng
+		name = cambodia
+		effect = {
+			set_capital_county = title:c_pursat
+			holder ?= { set_realm_capital = title:c_pursat }
+		}
+	}
+	1796.5.5 = {
+		holder = varman_1	# Ang Chan II
+	}
+	1835.1.9 = {
+		holder = varman_2	# Ang Mey
+		liege = e_vietnam
+	}
+	1848.1.1 = {
+		holder = varman_3	# Ang Duong
+		liege = 0
+	}
+	1860.10.19 = {
+		holder = varman_4	# Norodom
+	}
+	1904.4.27 = {
+		holder = varman_5	# Sisowath
+	}
+}
+d_baigaur = {
+	1800.1.1 = {
+		de_jure_liege = k_champa
+	}
+}
+c_ca_mau = {
+	1802.6.1 = {
+		holder = nguyen_0	# Gia Long
+	}
+	1820.2.14 = {
+		holder = nguyen_1	# Minh Mang
+	}
+	1847.10.5 = {
+		holder = nguyen_3	# Tu Duc
+	}
+	1907.9.5 = {
+		holder = nguyen_12	# Duy Tan
+	}
+}
+c_binh_dai = {
+	1802.6.1 = {
+		holder = nguyen_0	# Gia Long
+	}
+	1820.2.14 = {
+		holder = nguyen_1	# Minh Mang
+	}
+	1847.10.5 = {
+		holder = nguyen_3	# Tu Duc
+	}
+	1907.9.5 = {
+		holder = nguyen_12	# Duy Tan
+	}
+}
+c_baigaur = {
+	1802.6.1 = {
+		holder = nguyen_0	# Gia Long
+	}
+	1820.2.14 = {
+		holder = nguyen_1	# Minh Mang
+	}
+	1847.10.5 = {
+		holder = nguyen_3	# Tu Duc
+	}
+	1907.9.5 = {
+		holder = nguyen_12	# Duy Tan
+	}
+}
+d_vyadhapura = {
+	1800.1.1 = {
+		holder = 0
+	}
+}
+c_binh_long = {
+	1796.5.5 = {	# Cambodia
+		holder = varman_1	# Ang Chan II
+	}
+	1820.2.14 = {	# Vietnam
+		holder = nguyen_1	# Minh Mang
+	}
+	1847.10.5 = {
+		holder = nguyen_3	# Tu Duc
+	}
+	1907.9.5 = {
+		holder = nguyen_12	# Duy Tan
+	}
+}
+c_vyadhapura = {
+	1796.5.5 = {
+		holder = varman_1	# Ang Chan II
+	}
+	1835.1.9 = {
+		holder = varman_2	# Ang Mey
+	}
+	1860.10.19 = {
+		holder = varman_4	# Norodom
+	}
+	1904.4.27 = {
+		holder = varman_5	# Sisowath
+	}
+}
+c_kracheh_nokor = {
+	1796.5.5 = {
+		holder = varman_1	# Ang Chan II
+	}
+	1835.1.9 = {
+		holder = varman_2	# Ang Mey
+	}
+	1860.10.19 = {
+		holder = varman_4	# Norodom
+	}
+	1904.4.27 = {
+		holder = varman_5	# Sisowath
+	}
+}
+d_angkor = {
+	1800.1.1 = {
+		holder = 0
+	}
+}
+c_angkor = {
+	1809.9.7 = {
+		holder = chakri_1	# Rama II
+	}
+	1824.7.21 = {
+		holder = chakri_2	# Rama III
+	}
+	1851.4.2 = {
+		holder = chakri_3	# Rama IV
+	}
+	1910.10.23 = {
+		holder = chakri_5	# Rama VI
+	}
+}
+c_dong_si_mahosot = {
+	1809.9.7 = {
+		holder = chakri_1	# Rama II
+	}
+	1824.7.21 = {
+		holder = chakri_2	# Rama III
+	}
+	1851.4.2 = {
+		holder = chakri_3	# Rama IV
+	}
+	1910.10.23 = {
+		holder = chakri_5	# Rama VI
+	}
+}
+c_sambhupura = {
+	1796.5.5 = {
+		holder = varman_1	# Ang Chan II
+	}
+	1835.1.9 = {
+		holder = varman_2	# Ang Mey
+	}
+	1860.10.19 = {
+		holder = varman_4	# Norodom
+	}
+	1904.4.27 = {
+		holder = varman_5	# Sisowath
+	}
+}
+c_prea_vihear = {
+	1811.1.1 = {
+		holder = sea_00100	# No Muong
+	}
+	1813.1.1 = {
+		holder = khun_lo_33	# Manoi
+	}
+	1828.1.1 = {
+		holder = khun_lo_36	# Huy
+	}
+	1858.1.1 = {
+		holder = khun_lo_40	# Kham Souk
+	}
+}
+c_koh_ker = {
+	1796.5.5 = {
+		holder = varman_1	# Ang Chan II
+	}
+	1835.1.9 = {
+		holder = varman_2	# Ang Mey
+	}
+	1860.10.19 = {
+		holder = varman_4	# Norodom
+	}
+	1904.4.27 = {
+		holder = varman_5	# Sisowath
+	}
+}
+#d_ratanakiri = {
+#}
+c_ratanakiri = {
+	1811.1.1 = {
+		holder = sea_00100	# No Muong
+	}
+	1813.1.1 = {
+		holder = khun_lo_33	# Manoi
+	}
+	1828.1.1 = {
+		holder = khun_lo_36	# Huy
+	}
+	1858.1.1 = {
+		holder = khun_lo_40	# Kham Souk
+	}
+}
+c_stung_treng = {
+	1796.5.5 = {
+		holder = varman_1	# Ang Chan II
+	}
+	1835.1.9 = {
+		holder = varman_2	# Ang Mey
+	}
+	1860.10.19 = {
+		holder = varman_4	# Norodom
+	}
+	1904.4.27 = {
+		holder = varman_5	# Sisowath
+	}
+}
+c_pleiku = {
+	1811.1.1 = {	# Champasak
+		holder = sea_00100	# No Muong
+	}
+	1813.1.1 = {
+		holder = khun_lo_33	# Manoi
+	}
+	1820.2.14 = {	# Vietnam
+		holder = nguyen_1	# Minh Mang
+	}
+	1847.10.5 = {
+		holder = nguyen_3	# Tu Duc
+	}
+	1907.9.5 = {
+		holder = nguyen_12	# Duy Tan
+	}
+}
+d_angkor_borey = {
+	1796.5.5 = {
+		holder = varman_1	# Ang Chan II
+	}
+	1835.1.9 = {
+		holder = varman_2	# Ang Mey
+	}
+	1860.10.19 = {
+		holder = varman_4	# Norodom
+	}
+	1904.4.27 = {
+		holder = varman_5	# Sisowath
+	}
+}
+c_angkor_borey = {
+	1796.5.5 = {
+		holder = varman_1	# Ang Chan II
+	}
+	1835.1.9 = {
+		holder = varman_2	# Ang Mey
+	}
+	1860.10.19 = {
+		holder = varman_4	# Norodom
+	}
+	1904.4.27 = {
+		holder = varman_5	# Sisowath
+	}
+}
+c_botum_sakor = {
+	1796.5.5 = {
+		holder = varman_1	# Ang Chan II
+	}
+	1835.1.9 = {
+		holder = varman_2	# Ang Mey
+	}
+	1860.10.19 = {
+		holder = varman_4	# Norodom
+	}
+	1904.4.27 = {
+		holder = varman_5	# Sisowath
+	}
+}
+c_pursat = {
+	1796.5.5 = {
+		holder = varman_1	# Ang Chan II
+	}
+	1835.1.9 = {
+		holder = varman_2	# Ang Mey
+	}
+	1860.10.19 = {
+		holder = varman_4	# Norodom
+	}
+	1904.4.27 = {
+		holder = varman_5	# Sisowath
+	}
+}
+c_battambang = {
+	1809.9.7 = {
+		holder = chakri_1	# Rama II
+	}
+	1824.7.21 = {
+		holder = chakri_2	# Rama III
+	}
+	1851.4.2 = {
+		holder = chakri_3	# Rama IV
+	}
+	1910.10.23 = {
+		holder = chakri_5	# Rama VI
+	}
+}
+c_mueang_phra_rot = {
+	1809.9.7 = {
+		holder = chakri_1	# Rama II
+	}
+	1824.7.21 = {
+		holder = chakri_2	# Rama III
+	}
+	1851.4.2 = {
+		holder = chakri_3	# Rama IV
+	}
+	1910.10.23 = {
+		holder = chakri_5	# Rama VI
+	}
+}

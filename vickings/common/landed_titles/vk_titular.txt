@@ -363,3 +363,9 @@ k_luang_prabang = {
 
 	capital = c_luang_prabang
 }
+
+k_champasak = {
+	color = { 30 80 280 }
+
+	capital = c_prea_vihear
+}

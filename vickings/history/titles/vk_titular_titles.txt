@@ -830,6 +830,40 @@ k_luang_prabang = {
 	}
 }
 
+k_champasak = {
+	1713.1.1 = {
+		holder = khun_lo_30	# Nokasad
+		de_jure_liege = e_kambuja
+	}
+	1737.1.1 = {
+		holder = khun_lo_31	# Sayakumane
+	}
+	1811.1.1 = {
+		holder = sea_00100	# No Muong
+	}
+	1813.1.1 = {
+		holder = khun_lo_33	# Manoi
+	}
+	1828.1.1 = {
+		holder = khun_lo_36	# Huy
+	}
+	1841.1.1 = {
+		holder = khun_lo_37	# Nark
+	}
+	1851.1.1 = {
+		holder = khun_lo_38	# Boua
+	}
+	1856.1.1 = {
+		holder = khun_lo_39	# Kham Nai
+	}
+	1858.1.1 = {
+		holder = khun_lo_40	# Kham Souk
+	}
+	1904.11.22 = {
+		holder = 0
+	}
+}
+
 d_berg = {
 	1809.3.3 = {
 		holder = bonaparte_8	# Napoleon-Louis
