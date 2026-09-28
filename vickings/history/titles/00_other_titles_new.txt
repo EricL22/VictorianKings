@@ -621,6 +621,35 @@ k_bosnia = {
 	}
 }
 
+k_siam = {
+	#Chakri Dynasty
+	1782.4.6 = {
+		#name = RATTANAKOSIN
+		holder = chakri_0	# Rama I
+		effect = {
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_created_siam_kingdom
+			}
+		}
+	}
+	1809.9.7 = {
+		holder = chakri_1	# Rama II
+	}
+	1824.7.21 = {
+		holder = chakri_2	# Rama III
+	}
+	1851.4.2 = {
+		holder = chakri_3	# Rama IV
+	}
+	1868.10.1 = {
+		holder = chakri_4	# Rama V
+	}
+	1910.10.23 = {
+		holder = chakri_5	# Rama VI
+	}
+}
+
 d_sunni = {
 	1517.1.22 = {
 		holder = ottoman_5	# Selim I

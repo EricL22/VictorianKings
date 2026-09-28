@@ -357,3 +357,9 @@ e_india = {		# Titular, created by special decision only if entire India is unit
 		}
 	}
 }
+
+k_luang_prabang = {
+	color = { 30 280 80 }
+
+	capital = c_luang_prabang
+}

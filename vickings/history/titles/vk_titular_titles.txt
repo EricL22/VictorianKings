@@ -795,6 +795,41 @@ k_travancore = {
 	# 1885.8.4: Moolam Thirunal (TODO)
 }
 
+k_luang_prabang = {
+	1707.1.1 = {
+		holder = khun_lo_2	# Kingkitsarat
+		de_jure_liege = e_suvarnabhumi
+	}
+	# 1713: Ong Kham
+	1723.1.1 = {
+		holder = khun_lo_3	# Inthasom
+	}
+	# 1749: Inthaphom
+	# 1750: Sotikakumman
+	# 1771: Surinyavong II
+	1792.2.3 = {
+		holder = khun_lo_4	# Anurutha
+	}
+	1819.12.31 = {
+		holder = khun_lo_5	# Manthaturath
+	}
+	1837.3.7 = {
+		holder = khun_lo_6	# Sukkhasoem
+	}
+	1850.9.23 = {
+		holder = khun_lo_7	# Chantharath
+	}
+	1868.10.1 = {
+		holder = khun_lo_8	# Oun Kham
+	}
+	1895.12.15 = {
+		holder = khun_lo_9	# Zakarine
+	}
+	1904.4.28 = {
+		holder = khun_lo_10	# Sisavang Vong
+	}
+}
+
 d_berg = {
 	1809.3.3 = {
 		holder = bonaparte_8	# Napoleon-Louis

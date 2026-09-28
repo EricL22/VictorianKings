@@ -1,0 +1,28 @@
+﻿lao = {
+	color = { 100 85 0 }
+		
+	ethos = ethos_courtly
+	heritage = heritage_tai
+	language = language_tai
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_jungle_warriors
+		tradition_fervent_temple_builders
+		tradition_festivities
+		tradition_religion_blending
+	}
+	
+	name_list = name_list_lao
+	
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { southeast_asian_building_gfx }
+	clothing_gfx = { tai_clothing_gfx southeast_asian_clothing_gfx }
+	unit_gfx = { southeast_asian_unit_gfx indian_unit_gfx }
+
+	#castes = yes
+		
+	ethnicities = {
+		100 = asian_malay
+	}
+}

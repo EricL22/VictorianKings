@@ -1,0 +1,104 @@
+﻿### Chakri Dynasty (Rattanakosin)
+chakri_0 = {
+	name = "Thongduang"
+	dynasty = chakri
+	religion = theravada
+	culture = tai
+	1737.3.20 = {
+		birth = yes
+	}
+	1809.9.7 = {
+		death = yes
+	}
+}
+chakri_1 = {
+	name = "Chim"
+	dynasty = chakri
+	religion = theravada
+	culture = tai
+	father = chakri_0
+	1767.2.24 = {
+		birth = yes
+	}
+	1824.7.21 = {
+		death = yes
+	}
+}
+chakri_2 = {
+	name = "Nangklao"
+	dynasty = chakri
+	religion = theravada
+	culture = tai
+	father = chakri_1
+	1788.3.31 = {
+		birth = yes
+	}
+	1851.4.2 = {
+		death = yes
+	}
+}
+chakri_3 = {
+	name = "Mongkut"
+	dynasty = chakri
+	religion = theravada
+	culture = tai
+	father = chakri_1
+	1804.10.18 = {
+		birth = yes
+	}
+	1868.10.1 = {
+		death = yes
+	}
+}
+chakri_4 = {
+	name = "Chulalongkorn"
+	dynasty = chakri
+	religion = theravada
+	culture = tai
+	father = chakri_3
+	1853.9.20 = {
+		birth = yes
+	}
+	1910.10.23 = {
+		death = yes
+	}
+}
+chakri_5 = {
+	name = "Vajiravudh"
+	dynasty = chakri
+	religion = theravada
+	culture = tai
+	father = chakri_4
+	1880.1.1 = {
+		birth = yes
+	}
+	1925.11.26 = {
+		death = yes
+	}
+}
+chakri_6 = {
+	name = "Prajadhipok"
+	dynasty = chakri
+	religion = theravada
+	culture = tai
+	father = chakri_4
+	1893.11.8 = {
+		birth = yes
+	}
+	1941.5.30 = {
+		death = yes
+	}
+}
+chakri_7 = {
+	name = "Mahidol Adulyadej"
+	dynasty = chakri
+	religion = theravada
+	culture = tai
+	father = chakri_4
+	1892.1.1 = {
+		birth = yes
+	}
+	1929.9.24 = {
+		death = yes
+	}
+}

@@ -1,0 +1,371 @@
+d_lop_buri = {
+	1782.4.6 = {
+		holder = chakri_0	# Rama I
+		de_jure_liege = k_siam
+	}
+	1809.9.7 = {
+		holder = chakri_1	# Rama II
+	}
+	1824.7.21 = {
+		holder = chakri_2	# Rama III
+	}
+	1851.4.2 = {
+		holder = chakri_3	# Rama IV
+	}
+	1910.10.23 = {
+		holder = chakri_5	# Rama VI
+	}
+}
+c_lop_buri = {
+	1782.4.6 = {
+		holder = chakri_0	# Rama I
+	}
+	1809.9.7 = {
+		holder = chakri_1	# Rama II
+	}
+	1824.7.21 = {
+		holder = chakri_2	# Rama III
+	}
+	1851.4.2 = {
+		holder = chakri_3	# Rama IV
+	}
+	1910.10.23 = {
+		holder = chakri_5	# Rama VI
+	}
+}
+c_khu_bua = {
+	1782.4.6 = {
+		holder = chakri_0	# Rama I
+	}
+	1809.9.7 = {
+		holder = chakri_1	# Rama II
+	}
+	1824.7.21 = {
+		holder = chakri_2	# Rama III
+	}
+	1851.4.2 = {
+		holder = chakri_3	# Rama IV
+	}
+	1910.10.23 = {
+		holder = chakri_5	# Rama VI
+	}
+}
+c_nakhon_pathom = {
+	1782.4.6 = {
+		holder = chakri_0	# Rama I
+	}
+	1809.9.7 = {
+		holder = chakri_1	# Rama II
+	}
+	1824.7.21 = {
+		holder = chakri_2	# Rama III
+	}
+	1851.4.2 = {
+		holder = chakri_3	# Rama IV
+	}
+	1910.10.23 = {
+		holder = chakri_5	# Rama VI
+	}
+}
+d_muang_sua = {
+	1792.2.3 = {
+		de_jure_liege = k_luang_prabang
+	}
+}
+c_luang_prabang = {
+	1792.2.3 = {
+		holder = khun_lo_4	# Anurutha
+	}
+	1819.12.31 = {
+		holder = khun_lo_5	# Manthaturath
+	}
+	1850.9.23 = {
+		holder = khun_lo_7	# Chantharath
+	}
+	1904.4.28 = {
+		holder = khun_lo_10	# Sisavang Vong
+	}
+}
+c_chiang_khaeng = {
+	1792.2.3 = {
+		holder = khun_lo_4	# Anurutha
+	}
+	1819.12.31 = {
+		holder = khun_lo_5	# Manthaturath
+	}
+	1850.9.23 = {
+		holder = khun_lo_7	# Chantharath
+	}
+	1904.4.28 = {
+		holder = khun_lo_10	# Sisavang Vong
+	}
+}
+c_nan_asia = {
+	1792.2.3 = {
+		holder = khun_lo_4	# Anurutha
+	}
+	1819.12.31 = {
+		holder = khun_lo_5	# Manthaturath
+	}
+	1850.9.23 = {
+		holder = khun_lo_7	# Chantharath
+	}
+	1904.4.28 = {
+		holder = khun_lo_10	# Sisavang Vong
+	}
+}
+c_ngoenyang = {
+	1782.4.6 = {
+		holder = chakri_0	# Rama I
+		de_jure_liege = d_haripunjaya
+	}
+	1809.9.7 = {
+		holder = chakri_1	# Rama II
+	}
+	1824.7.21 = {
+		holder = chakri_2	# Rama III
+	}
+	1851.4.2 = {
+		holder = chakri_3	# Rama IV
+	}
+	1910.10.23 = {
+		holder = chakri_5	# Rama VI
+	}
+}
+d_sukhothai = {
+	1782.4.6 = {
+		holder = chakri_0	# Rama I
+		de_jure_liege = k_siam
+	}
+	1809.9.7 = {
+		holder = chakri_1	# Rama II
+	}
+	1824.7.21 = {
+		holder = chakri_2	# Rama III
+	}
+	1851.4.2 = {
+		holder = chakri_3	# Rama IV
+	}
+	1910.10.23 = {
+		holder = chakri_5	# Rama VI
+	}
+}
+c_chakangrao = {
+	1782.4.6 = {
+		holder = chakri_0	# Rama I
+	}
+	1809.9.7 = {
+		holder = chakri_1	# Rama II
+	}
+	1824.7.21 = {
+		holder = chakri_2	# Rama III
+	}
+	1851.4.2 = {
+		holder = chakri_3	# Rama IV
+	}
+	1910.10.23 = {
+		holder = chakri_5	# Rama VI
+	}
+}
+c_phetchabun = {
+	1782.4.6 = {
+		holder = chakri_0	# Rama I
+	}
+	1809.9.7 = {
+		holder = chakri_1	# Rama II
+	}
+	1824.7.21 = {
+		holder = chakri_2	# Rama III
+	}
+	1851.4.2 = {
+		holder = chakri_3	# Rama IV
+	}
+	1910.10.23 = {
+		holder = chakri_5	# Rama VI
+	}
+}
+c_sukhothai = {
+	1782.4.6 = {
+		holder = chakri_0	# Rama I
+	}
+	1809.9.7 = {
+		holder = chakri_1	# Rama II
+	}
+	1824.7.21 = {
+		holder = chakri_2	# Rama III
+	}
+	1851.4.2 = {
+		holder = chakri_3	# Rama IV
+	}
+	1910.10.23 = {
+		holder = chakri_5	# Rama VI
+	}
+}
+c_lampang = {
+	1782.4.6 = {
+		holder = chakri_0	# Rama I
+	}
+	1809.9.7 = {
+		holder = chakri_1	# Rama II
+	}
+	1824.7.21 = {
+		holder = chakri_2	# Rama III
+	}
+	1851.4.2 = {
+		holder = chakri_3	# Rama IV
+	}
+	1910.10.23 = {
+		holder = chakri_5	# Rama VI
+	}
+}
+d_tun_sun = {
+	1794.1.1 = {
+		de_jure_liege = k_pagan
+		effect = { set_capital_county = title:c_THAI_tenasserim }
+	}
+}
+c_THAI_phetchaburi = {
+	1782.4.6 = {
+		holder = chakri_0	# Rama I
+		de_jure_liege = d_lop_buri
+	}
+	1809.9.7 = {
+		holder = chakri_1	# Rama II
+	}
+	1824.7.21 = {
+		holder = chakri_2	# Rama III
+	}
+	1851.4.2 = {
+		holder = chakri_3	# Rama IV
+	}
+	1910.10.23 = {
+		holder = chakri_5	# Rama VI
+	}
+}
+c_THAI_tenasserim = {
+	1782.2.11 = {
+		holder = konbaung_0	# Bodawpaya
+	}
+	# 1826.2.24: United Kingdom
+	1835.3.20 = {
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_thanbyuzayat = {
+	1782.2.11 = {
+		holder = konbaung_0	# Bodawpaya
+	}
+	# 1826.2.24: United Kingdom
+	1835.3.20 = {
+		holder = british_east_india_2	# George Eden
+	}
+	1858.11.1 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+d_haripunjaya = {
+	1782.4.6 = {
+		holder = chakri_0	# Rama I
+		de_jure_liege = k_siam
+	}
+	1809.9.7 = {
+		holder = chakri_1	# Rama II
+	}
+	1824.7.21 = {
+		holder = chakri_2	# Rama III
+	}
+	1851.4.2 = {
+		holder = chakri_3	# Rama IV
+	}
+	1910.10.23 = {
+		holder = chakri_5	# Rama VI
+	}
+}
+c_hlaingbwe = {
+	1782.4.6 = {
+		holder = chakri_0	# Rama I
+	}
+	1809.9.7 = {
+		holder = chakri_1	# Rama II
+	}
+	1824.7.21 = {
+		holder = chakri_2	# Rama III
+	}
+	1851.4.2 = {
+		holder = chakri_3	# Rama IV
+	}
+	1910.10.23 = {
+		holder = chakri_5	# Rama VI
+	}
+}
+c_haripunjaya = {
+	1782.4.6 = {
+		holder = chakri_0	# Rama I
+	}
+	1809.9.7 = {
+		holder = chakri_1	# Rama II
+	}
+	1824.7.21 = {
+		holder = chakri_2	# Rama III
+	}
+	1851.4.2 = {
+		holder = chakri_3	# Rama IV
+	}
+	1910.10.23 = {
+		holder = chakri_5	# Rama VI
+	}
+}
+c_mae_hong_son = {
+	1782.4.6 = {
+		holder = chakri_0	# Rama I
+	}
+	1809.9.7 = {
+		holder = chakri_1	# Rama II
+	}
+	1824.7.21 = {
+		holder = chakri_2	# Rama III
+	}
+	1851.4.2 = {
+		holder = chakri_3	# Rama IV
+	}
+	1910.10.23 = {
+		holder = chakri_5	# Rama VI
+	}
+}
+d_sipsongpanna = {
+	1800.1.1 = {
+		de_jure_liege = k_pagan
+	}
+}
+c_chiang_rung = {
+	1800.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+}
+c_moeng_long = {
+	1800.1.1 = {
+		de_jure_liege = d_muang_sua
+	}
+	1792.2.3 = {
+		holder = khun_lo_4	# Anurutha
+	}
+	1819.12.31 = {
+		holder = khun_lo_5	# Manthaturath
+	}
+	1850.9.23 = {
+		holder = khun_lo_7	# Chantharath
+	}
+	1904.4.28 = {
+		holder = khun_lo_10	# Sisavang Vong
+	}
+}

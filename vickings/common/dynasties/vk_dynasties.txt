@@ -193,3 +193,13 @@ konbaung = {
 	name = "dynn_Konbaung"
 	culture = burmese
 }
+
+chakri = {
+	name = "dynn_Chakri"
+	culture = tai
+}
+
+khun_lo = {
+	name = "dynn_Khun"
+	culture = lao
+}
