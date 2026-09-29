@@ -25,5 +25,59 @@ vk_initialize_history_rules_effects = {
 			limit = { has_game_rule = bd_occurrence_historical }
 			set_global_variable = black_death_happened
 		}
+		### TGP SETUP ###
+		if = {
+			limit = { has_tgp_dlc_trigger = yes }
+
+			### MANDALA
+
+			#Starting Mandala Temple Complexes
+			#Pagan
+			province:9550 = {
+				ruin_great_building = yes
+			}
+			#Angkor
+			province:10816 = {
+				ruin_great_building = yes
+			}
+			#Vijaya
+			province:10827 = {
+				ruin_great_building = yes
+			}
+
+			## 19th century Mandala Capitals
+			#Ava
+			province:9556 = {
+				add_great_building = mandala_capital_03
+				add_to_global_variable_list = { # Add to list so it can be found by the PoI
+					name = mandala_poi_list
+					target = this
+				}
+			}
+			#Vien Chan
+			province:10820 = {
+				add_great_building = mandala_capital_02
+				add_to_global_variable_list = { # Add to list so it can be found by the PoI
+					name = mandala_poi_list
+					target = this
+				}
+			}
+			#Nakhon Pathom
+			province:10911 = {
+				add_great_building = mandala_capital_02
+				add_to_global_variable_list = { # Add to list so it can be found by the PoI
+					name = mandala_poi_list
+					target = this
+				}
+			}
+			#Pursat
+			province:10927 = {
+				add_great_building = mandala_capital_02
+				add_to_global_variable_list = { # Add to list so it can be found by the PoI
+					name = mandala_poi_list
+					target = this
+				}
+			}
+		}
 	}
 }

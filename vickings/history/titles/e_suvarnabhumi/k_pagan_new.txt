@@ -1,7 +1,10 @@
 k_pagan = {
 	1782.2.11 = {
 		holder = konbaung_0	# Bodawpaya
-		effect = { set_capital_county = title:c_ava }
+		effect = {
+			set_capital_county = title:c_ava
+			holder ?= { set_realm_capital = title:c_ava }
+		}
 	}
 	1819.6.5 = {
 		holder = konbaung_2	# Bagyidaw

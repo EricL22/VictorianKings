@@ -35,3 +35,17 @@ war = {
 	attackers = { bourbon_40 eur_02302 eur_02303 }
 	defenders = { bourbon_37 }
 }
+
+# Cambodian conflict
+war = {
+	name = "war_Cambodian"
+	start_date = 1812.1.15
+	end_date = 1813.5.14
+	targeted_titles = {
+		k_funan
+	}
+	casus_belli = claim_cb
+	attackers = { chakri_1 }
+	defenders = { varman_1 nguyen_0 }
+	claimant = varman_51
+}

@@ -115,4 +115,21 @@ varman_50 = {
 		death = yes
 	}
 }
+
+varman_51 = {
+	name = "Sngoun"
+	dynasty_house = house_ang
+	religion = theravada
+	culture = khmer
+	father = varman_0
+	1794.1.1 = {
+		birth = yes
+	}
+	1810.1.1 = {
+		employer = chakri_1	# Rama II
+	}
+	1822.1.1 = {
+		death = yes
+	}
+}
 ####################
