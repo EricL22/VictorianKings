@@ -3,7 +3,10 @@ auto_generate_vassals_at_game_start_effect = {
 	every_ruler = {
 		limit = {
 			primary_title.tier > tier_duchy
-			sub_realm_size > 20
+			OR = {
+				sub_realm_size > 20
+				primary_title = title:k_funan	# temp fix for claimant war bug
+			}
 			OR = {
 				is_independent_ruler = yes
 				primary_title.tier > tier_kingdom

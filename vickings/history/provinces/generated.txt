@@ -1,0 +1,7609 @@
+# This is an AUTO-GENERATED file.
+# Do not edit it manually.
+
+2 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+3 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+4 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+5 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+6 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+7 = {
+	1800.1.1 = {
+		culture = scottish
+		religion = reformed
+	}
+}
+8 = {
+	1800.1.1 = {
+		culture = scottish
+		religion = reformed
+	}
+}
+9 = {
+	1800.1.1 = {
+		culture = irish
+		religion = catholic
+	}
+}
+15 = {
+	1800.1.1 = {
+		culture = scottish
+		religion = protestant
+	}
+}
+18 = {
+	1800.1.1 = {
+		culture = irish
+		religion = catholic
+	}
+}
+20 = {
+	1800.1.1 = {
+		culture = irish
+		religion = catholic
+	}
+}
+24 = {
+	1800.1.1 = {
+		culture = irish
+		religion = catholic
+	}
+}
+28 = {
+	1800.1.1 = {
+		culture = irish
+		religion = catholic
+	}
+}
+34 = {
+	1800.1.1 = {
+		culture = irish
+		religion = catholic
+	}
+}
+37 = {
+	1800.1.1 = {
+		culture = irish
+		religion = catholic
+	}
+}
+43 = {
+	1800.1.1 = {
+		culture = irish
+		religion = catholic
+	}
+}
+45 = {
+	1800.1.1 = {
+		culture = irish
+		religion = catholic
+	}
+}
+46 = {
+	1800.1.1 = {
+		culture = irish
+		religion = catholic
+	}
+}
+49 = {
+	1800.1.1 = {
+		culture = irish
+		religion = catholic
+	}
+}
+52 = {
+	1800.1.1 = {
+		culture = irish
+		religion = catholic
+	}
+}
+56 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+57 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+59 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+60 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+62 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+63 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+65 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+67 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+70 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+74 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+77 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+78 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+81 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+82 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+88 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+92 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+94 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+98 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+99 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+102 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+103 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+104 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+108 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+110 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+114 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+115 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+118 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+120 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+124 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+127 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+133 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+136 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+141 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+145 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+153 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+154 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+156 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+161 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+166 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+169 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+172 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+174 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+175 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+179 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+182 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+185 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+190 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+192 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+195 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+198 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+205 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+207 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+211 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+213 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+216 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+219 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+229 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+234 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+236 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+238 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+239 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+241 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+245 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+248 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+249 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+252 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+257 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+260 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+265 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+268 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+270 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+277 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+280 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+286 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+289 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+291 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+301 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+302 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+307 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+314 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+317 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+321 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+323 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+327 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+330 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+332 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+335 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+339 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+341 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+346 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+350 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+351 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+354 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+360 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+361 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+366 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+369 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+373 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+374 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+380 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+384 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+385 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+386 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+389 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+390 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+391 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+393 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+396 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+397 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+409 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+410 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+413 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+414 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+417 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+419 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+421 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+422 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+425 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+428 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+430 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+439 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+442 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+444 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+449 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+450 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+454 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+458 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+461 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+464 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+465 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+466 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+468 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+469 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+470 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+471 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+472 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+473 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+474 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+475 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+476 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+479 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+480 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+481 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+482 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+483 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+484 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+485 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+486 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+487 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+488 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+489 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+490 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+491 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+492 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+493 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+494 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+495 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+496 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+497 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+498 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+499 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+500 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+501 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+502 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+505 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+506 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+507 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+510 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+511 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+512 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+513 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+515 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+516 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+517 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+518 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+519 = {
+	1800.1.1 = {
+		religion = reformed
+	}
+}
+520 = {
+	1800.1.1 = {
+		religion = reformed
+	}
+}
+521 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+523 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+524 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+525 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+527 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+528 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+529 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+530 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+531 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+532 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+533 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+534 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+535 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+536 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+537 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+538 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+539 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+540 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+541 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+543 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+544 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+545 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+546 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+547 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+548 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+549 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+550 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+552 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+554 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+555 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+556 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+557 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+558 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+562 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+564 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+566 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+567 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+568 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+572 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+575 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+580 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+581 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+582 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+584 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+587 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+588 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+589 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+590 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+592 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+593 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+595 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+596 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+597 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+598 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+599 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+603 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+605 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+607 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+608 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+609 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+610 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+611 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+614 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+615 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+616 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+617 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+618 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+620 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+621 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+622 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+623 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+624 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+625 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+627 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+669 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+674 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+702 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+705 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+706 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+707 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+735 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+736 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+737 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+739 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+740 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+742 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+745 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+750 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+753 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+754 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+757 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+758 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+759 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+760 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+761 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+886 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+888 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+889 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+895 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+896 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+900 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+901 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+933 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+934 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+1137 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+1138 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+1151 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+1175 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+1178 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+1180 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+1181 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+1186 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+1191 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+1236 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+1242 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+1243 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+1273 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+1297 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+1303 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+1318 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+1319 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+1323 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+1333 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+1336 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+1337 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+1338 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+1339 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+1340 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+1342 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+1375 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+1423 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+1424 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+1431 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+1434 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+1438 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+1439 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+1440 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+1441 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+1445 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+1449 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+1502 = {
+	1800.1.1 = {
+		culture = english
+		religion = reformed
+	}
+}
+1506 = {
+	1800.1.1 = {
+		culture = english
+		religion = reformed
+	}
+}
+1510 = {
+	1800.1.1 = {
+		culture = english
+		religion = reformed
+	}
+}
+1514 = {
+	1800.1.1 = {
+		culture = english
+		religion = protestant
+	}
+}
+1518 = {
+	1800.1.1 = {
+		culture = english
+		religion = protestant
+	}
+}
+1522 = {
+	1800.1.1 = {
+		culture = english
+		religion = reformed
+	}
+}
+1527 = {
+	1800.1.1 = {
+		culture = english
+		religion = protestant
+	}
+}
+1531 = {
+	1800.1.1 = {
+		culture = english
+		religion = protestant
+	}
+}
+1534 = {
+	1800.1.1 = {
+		culture = english
+		religion = protestant
+	}
+}
+1538 = {
+	1800.1.1 = {
+		culture = english
+		religion = protestant
+	}
+}
+1541 = {
+	1800.1.1 = {
+		culture = english
+		religion = protestant
+	}
+}
+1544 = {
+	1800.1.1 = {
+		culture = english
+		religion = protestant
+	}
+}
+1549 = {
+	1800.1.1 = {
+		culture = english
+		religion = protestant
+	}
+}
+1551 = {
+	1800.1.1 = {
+		culture = english
+		religion = protestant
+	}
+}
+1555 = {
+	1800.1.1 = {
+		culture = english
+		religion = reformed
+	}
+}
+1558 = {
+	1800.1.1 = {
+		culture = english
+		religion = protestant
+	}
+}
+1561 = {
+	1800.1.1 = {
+		culture = english
+		religion = protestant
+	}
+}
+1565 = {
+	1800.1.1 = {
+		culture = english
+		religion = protestant
+	}
+}
+1569 = {
+	1800.1.1 = {
+		culture = english
+		religion = reformed
+	}
+}
+1573 = {
+	1800.1.1 = {
+		culture = english
+		religion = reformed
+	}
+}
+1576 = {
+	1800.1.1 = {
+		culture = english
+		religion = protestant
+	}
+}
+1580 = {
+	1800.1.1 = {
+		culture = english
+		religion = protestant
+	}
+}
+1583 = {
+	1800.1.1 = {
+		culture = english
+		religion = protestant
+	}
+}
+1588 = {
+	1800.1.1 = {
+		culture = english
+		religion = protestant
+	}
+}
+1591 = {
+	1800.1.1 = {
+		culture = english
+		religion = protestant
+	}
+}
+1595 = {
+	1800.1.1 = {
+		culture = english
+		religion = protestant
+	}
+}
+1600 = {
+	1800.1.1 = {
+		culture = english
+		religion = protestant
+	}
+}
+1603 = {
+	1800.1.1 = {
+		culture = english
+		religion = protestant
+	}
+}
+1606 = {
+	1800.1.1 = {
+		culture = english
+		religion = protestant
+	}
+}
+1609 = {
+	1800.1.1 = {
+		culture = english
+		religion = protestant
+	}
+}
+1615 = {
+	1800.1.1 = {
+		culture = english
+		religion = reformed
+	}
+}
+1618 = {
+	1800.1.1 = {
+		culture = english
+		religion = reformed
+	}
+}
+1621 = {
+	1800.1.1 = {
+		culture = english
+		religion = reformed
+	}
+}
+1624 = {
+	1800.1.1 = {
+		culture = english
+		religion = protestant
+	}
+}
+1627 = {
+	1800.1.1 = {
+		culture = english
+		religion = reformed
+	}
+}
+1630 = {
+	1800.1.1 = {
+		culture = english
+		religion = reformed
+	}
+}
+1632 = {
+	1800.1.1 = {
+		culture = english
+		religion = reformed
+	}
+}
+1635 = {
+	1800.1.1 = {
+		culture = english
+		religion = protestant
+	}
+}
+1637 = {
+	1800.1.1 = {
+		culture = english
+		religion = catholic
+	}
+}
+1639 = {
+	1800.1.1 = {
+		culture = english
+		religion = catholic
+	}
+}
+1643 = {
+	1800.1.1 = {
+		culture = english
+		religion = catholic
+	}
+}
+1646 = {
+	1800.1.1 = {
+		culture = english
+		religion = reformed
+	}
+}
+1649 = {
+	1800.1.1 = {
+		culture = welsh
+		religion = reformed
+	}
+}
+1652 = {
+	1800.1.1 = {
+		culture = welsh
+		religion = protestant
+	}
+}
+1654 = {
+	1800.1.1 = {
+		culture = english
+		religion = protestant
+	}
+}
+1657 = {
+	1800.1.1 = {
+		culture = welsh
+		religion = protestant
+	}
+}
+1659 = {
+	1800.1.1 = {
+		culture = welsh
+		religion = protestant
+	}
+}
+1661 = {
+	1800.1.1 = {
+		culture = welsh
+		religion = protestant
+	}
+}
+1663 = {
+	1800.1.1 = {
+		culture = welsh
+		religion = protestant
+	}
+}
+1665 = {
+	1800.1.1 = {
+		culture = welsh
+		religion = protestant
+	}
+}
+1667 = {
+	1800.1.1 = {
+		culture = welsh
+		religion = protestant
+	}
+}
+1670 = {
+	1800.1.1 = {
+		culture = welsh
+		religion = protestant
+	}
+}
+1673 = {
+	1800.1.1 = {
+		culture = welsh
+		religion = protestant
+	}
+}
+1676 = {
+	1800.1.1 = {
+		culture = scottish
+		religion = reformed
+	}
+}
+1677 = {
+	1800.1.1 = {
+		culture = scottish
+		religion = reformed
+	}
+}
+1679 = {
+	1800.1.1 = {
+		culture = scottish
+		religion = reformed
+	}
+}
+1680 = {
+	1800.1.1 = {
+		culture = scottish
+		religion = reformed
+	}
+}
+1682 = {
+	1800.1.1 = {
+		culture = scottish
+		religion = reformed
+	}
+}
+1686 = {
+	1800.1.1 = {
+		culture = scottish
+		religion = reformed
+	}
+}
+1689 = {
+	1800.1.1 = {
+		culture = scottish
+		religion = reformed
+	}
+}
+1692 = {
+	1800.1.1 = {
+		culture = gaelic
+		religion = reformed
+	}
+}
+1695 = {
+	1800.1.1 = {
+		culture = scottish
+		religion = reformed
+	}
+}
+1698 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+1700 = {
+	1800.1.1 = {
+		culture = scottish
+		religion = reformed
+	}
+}
+1703 = {
+	1800.1.1 = {
+		culture = gaelic
+		religion = reformed
+	}
+}
+1705 = {
+	1800.1.1 = {
+		culture = gaelic
+		religion = reformed
+	}
+}
+1707 = {
+	1800.1.1 = {
+		culture = scottish
+		religion = reformed
+	}
+}
+1709 = {
+	1800.1.1 = {
+		culture = gaelic
+		religion = reformed
+	}
+}
+1712 = {
+	1800.1.1 = {
+		culture = scottish
+		religion = reformed
+	}
+}
+1715 = {
+	1800.1.1 = {
+		culture = scottish
+		religion = reformed
+	}
+}
+1718 = {
+	1800.1.1 = {
+		culture = scottish
+		religion = reformed
+	}
+}
+1720 = {
+	1800.1.1 = {
+		culture = scottish
+		religion = reformed
+	}
+}
+1724 = {
+	1800.1.1 = {
+		culture = scottish
+		religion = reformed
+	}
+}
+1727 = {
+	1800.1.1 = {
+		culture = scottish
+		religion = reformed
+	}
+}
+1731 = {
+	1800.1.1 = {
+		culture = scottish
+		religion = reformed
+	}
+}
+1734 = {
+	1800.1.1 = {
+		culture = scottish
+		religion = reformed
+	}
+}
+1737 = {
+	1800.1.1 = {
+		culture = scottish
+		religion = reformed
+	}
+}
+1741 = {
+	1800.1.1 = {
+		culture = scottish
+		religion = reformed
+	}
+}
+1743 = {
+	1800.1.1 = {
+		culture = scottish
+		religion = reformed
+	}
+}
+1747 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1748 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1752 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1754 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1758 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1759 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1760 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1763 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1769 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1773 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1776 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1777 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1784 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1785 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1787 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1795 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1797 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1801 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1803 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1805 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1806 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1807 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1811 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1814 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1816 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1818 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1821 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1826 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1831 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1834 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1835 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1837 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1843 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1845 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1846 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1849 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1852 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1853 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1854 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1855 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1857 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1860 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1862 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1864 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1866 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1868 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1872 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1873 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1878 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1881 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1887 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1892 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1894 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1897 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1901 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1902 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1906 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1912 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1913 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1915 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1919 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1923 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1924 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1932 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1935 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1936 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1937 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1947 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1949 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1952 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1954 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1960 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1963 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1967 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1977 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1978 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1979 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1981 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1987 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1991 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1995 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+1996 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2000 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2002 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2006 = {
+	1800.1.1 = {
+		culture = occitan
+		religion = catholic
+	}
+}
+2009 = {
+	1800.1.1 = {
+		culture = occitan
+		religion = catholic
+	}
+}
+2010 = {
+	1800.1.1 = {
+		culture = occitan
+		religion = catholic
+	}
+}
+2012 = {
+	1800.1.1 = {
+		culture = occitan
+		religion = catholic
+	}
+}
+2013 = {
+	1800.1.1 = {
+		culture = occitan
+		religion = catholic
+	}
+}
+2015 = {
+	1800.1.1 = {
+		culture = occitan
+		religion = catholic
+	}
+}
+2017 = {
+	1800.1.1 = {
+		culture = occitan
+		religion = catholic
+	}
+}
+2019 = {
+	1800.1.1 = {
+		culture = occitan
+		religion = catholic
+	}
+}
+2021 = {
+	1800.1.1 = {
+		culture = occitan
+		religion = catholic
+	}
+}
+2030 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2031 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2035 = {
+	1800.1.1 = {
+		religion = reformed
+	}
+}
+2039 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2040 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2041 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2043 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2046 = {
+	1800.1.1 = {
+		religion = reformed
+	}
+}
+2049 = {
+	1800.1.1 = {
+		religion = reformed
+	}
+}
+2051 = {
+	1800.1.1 = {
+		religion = reformed
+	}
+}
+2053 = {
+	1800.1.1 = {
+		religion = reformed
+	}
+}
+2055 = {
+	1800.1.1 = {
+		religion = reformed
+	}
+}
+2057 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2061 = {
+	1800.1.1 = {
+		culture = occitan
+		religion = catholic
+	}
+}
+2063 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2065 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2071 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2076 = {
+	1800.1.1 = {
+		culture = french
+		religion = catholic
+	}
+}
+2082 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2083 = {
+	1800.1.1 = {
+		religion = reformed
+	}
+}
+2084 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+2088 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2091 = {
+	1800.1.1 = {
+		culture = french
+		religion = catholic
+	}
+}
+2092 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2097 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2098 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2099 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2104 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2105 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2106 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2112 = {
+	1800.1.1 = {
+		religion = reformed
+	}
+}
+2115 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2117 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2118 = {
+	1800.1.1 = {
+		culture = french
+		religion = catholic
+	}
+}
+2125 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2126 = {
+	1800.1.1 = {
+		culture = french
+		religion = catholic
+	}
+}
+2130 = {
+	1800.1.1 = {
+		culture = french
+		religion = catholic
+	}
+}
+2132 = {
+	1800.1.1 = {
+		culture = french
+		religion = catholic
+	}
+}
+2142 = {
+	1800.1.1 = {
+		culture = french
+		religion = catholic
+	}
+}
+2147 = {
+	1800.1.1 = {
+		culture = french
+		religion = catholic
+	}
+}
+2150 = {
+	1800.1.1 = {
+		culture = french
+		religion = catholic
+	}
+}
+2152 = {
+	1800.1.1 = {
+		culture = french
+		religion = catholic
+	}
+}
+2154 = {
+	1800.1.1 = {
+		culture = breton
+		religion = catholic
+	}
+}
+2156 = {
+	1800.1.1 = {
+		culture = breton
+		religion = catholic
+	}
+}
+2157 = {
+	1800.1.1 = {
+		culture = breton
+		religion = catholic
+	}
+}
+2162 = {
+	1800.1.1 = {
+		culture = breton
+		religion = catholic
+	}
+}
+2165 = {
+	1800.1.1 = {
+		culture = french
+		religion = catholic
+	}
+}
+2167 = {
+	1800.1.1 = {
+		culture = french
+		religion = catholic
+	}
+}
+2170 = {
+	1800.1.1 = {
+		culture = french
+		religion = catholic
+	}
+}
+2174 = {
+	1800.1.1 = {
+		culture = french
+		religion = catholic
+	}
+}
+2178 = {
+	1800.1.1 = {
+		culture = french
+		religion = catholic
+	}
+}
+2179 = {
+	1800.1.1 = {
+		culture = french
+		religion = catholic
+	}
+}
+2184 = {
+	1800.1.1 = {
+		culture = french
+		religion = catholic
+	}
+}
+2189 = {
+	1800.1.1 = {
+		culture = french
+		religion = catholic
+	}
+}
+2190 = {
+	1800.1.1 = {
+		culture = french
+		religion = catholic
+	}
+}
+2193 = {
+	1800.1.1 = {
+		culture = occitan
+		religion = catholic
+	}
+}
+2196 = {
+	1800.1.1 = {
+		culture = occitan
+		religion = catholic
+	}
+}
+2199 = {
+	1800.1.1 = {
+		culture = occitan
+		religion = catholic
+	}
+}
+2201 = {
+	1800.1.1 = {
+		culture = occitan
+		religion = catholic
+	}
+}
+2209 = {
+	1800.1.1 = {
+		culture = occitan
+		religion = catholic
+	}
+}
+2214 = {
+	1800.1.1 = {
+		culture = occitan
+		religion = catholic
+	}
+}
+2215 = {
+	1800.1.1 = {
+		culture = occitan
+		religion = catholic
+	}
+}
+2217 = {
+	1800.1.1 = {
+		culture = occitan
+		religion = catholic
+	}
+}
+2222 = {
+	1800.1.1 = {
+		culture = occitan
+		religion = catholic
+	}
+}
+2223 = {
+	1800.1.1 = {
+		culture = occitan
+		religion = catholic
+	}
+}
+2225 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2226 = {
+	1800.1.1 = {
+		culture = occitan
+		religion = catholic
+	}
+}
+2231 = {
+	1800.1.1 = {
+		culture = occitan
+		religion = catholic
+	}
+}
+2232 = {
+	1800.1.1 = {
+		culture = occitan
+		religion = catholic
+	}
+}
+2237 = {
+	1800.1.1 = {
+		culture = occitan
+		religion = catholic
+	}
+}
+2241 = {
+	1800.1.1 = {
+		culture = french
+		religion = catholic
+	}
+}
+2244 = {
+	1800.1.1 = {
+		culture = french
+		religion = catholic
+	}
+}
+2248 = {
+	1800.1.1 = {
+		culture = occitan
+		religion = catholic
+	}
+}
+2249 = {
+	1800.1.1 = {
+		culture = french
+		religion = catholic
+	}
+}
+2252 = {
+	1800.1.1 = {
+		culture = french
+		religion = catholic
+	}
+}
+2257 = {
+	1800.1.1 = {
+		culture = french
+		religion = catholic
+	}
+}
+2261 = {
+	1800.1.1 = {
+		culture = french
+		religion = catholic
+	}
+}
+2264 = {
+	1800.1.1 = {
+		culture = french
+		religion = catholic
+	}
+}
+2267 = {
+	1800.1.1 = {
+		culture = french
+		religion = catholic
+	}
+}
+2270 = {
+	1800.1.1 = {
+		culture = french
+		religion = catholic
+	}
+}
+2274 = {
+	1800.1.1 = {
+		culture = french
+		religion = catholic
+	}
+}
+2278 = {
+	1800.1.1 = {
+		culture = french
+		religion = catholic
+	}
+}
+2280 = {
+	1800.1.1 = {
+		culture = french
+		religion = catholic
+	}
+}
+2283 = {
+	1800.1.1 = {
+		culture = french
+		religion = catholic
+	}
+}
+2284 = {
+	1800.1.1 = {
+		culture = french
+		religion = catholic
+	}
+}
+2285 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2289 = {
+	1800.1.1 = {
+		culture = occitan
+		religion = catholic
+	}
+}
+2294 = {
+	1800.1.1 = {
+		culture = occitan
+		religion = catholic
+	}
+}
+2297 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2299 = {
+	1800.1.1 = {
+		culture = occitan
+		religion = catholic
+	}
+}
+2302 = {
+	1800.1.1 = {
+		culture = french
+		religion = catholic
+	}
+}
+2309 = {
+	1800.1.1 = {
+		culture = french
+		religion = catholic
+	}
+}
+2310 = {
+	1800.1.1 = {
+		culture = french
+		religion = catholic
+	}
+}
+2314 = {
+	1800.1.1 = {
+		culture = french
+		religion = catholic
+	}
+}
+2319 = {
+	1800.1.1 = {
+		culture = french
+		religion = catholic
+	}
+}
+2325 = {
+	1800.1.1 = {
+		culture = french
+		religion = catholic
+	}
+}
+2329 = {
+	1800.1.1 = {
+		culture = french
+		religion = catholic
+	}
+}
+2331 = {
+	1800.1.1 = {
+		culture = french
+		religion = catholic
+	}
+}
+2333 = {
+	1800.1.1 = {
+		culture = french
+		religion = catholic
+	}
+}
+2338 = {
+	1800.1.1 = {
+		culture = french
+		religion = catholic
+	}
+}
+2339 = {
+	1800.1.1 = {
+		culture = french
+		religion = catholic
+	}
+}
+2343 = {
+	1800.1.1 = {
+		culture = french
+		religion = catholic
+	}
+}
+2346 = {
+	1800.1.1 = {
+		culture = french
+		religion = catholic
+	}
+}
+2348 = {
+	1800.1.1 = {
+		culture = french
+		religion = catholic
+	}
+}
+2349 = {
+	1800.1.1 = {
+		culture = french
+		religion = catholic
+	}
+}
+2351 = {
+	1800.1.1 = {
+		culture = french
+		religion = catholic
+	}
+}
+2352 = {
+	1800.1.1 = {
+		culture = french
+		religion = catholic
+	}
+}
+2354 = {
+	1800.1.1 = {
+		culture = french
+		religion = catholic
+	}
+}
+2358 = {
+	1800.1.1 = {
+		culture = french
+		religion = catholic
+	}
+}
+2359 = {
+	1800.1.1 = {
+		culture = french
+		religion = catholic
+	}
+}
+2363 = {
+	1800.1.1 = {
+		culture = french
+		religion = catholic
+	}
+}
+2371 = {
+	1800.1.1 = {
+		culture = french
+		religion = catholic
+	}
+}
+2374 = {
+	1800.1.1 = {
+		culture = french
+		religion = catholic
+	}
+}
+2380 = {
+	1800.1.1 = {
+		culture = french
+		religion = catholic
+	}
+}
+2384 = {
+	1800.1.1 = {
+		culture = french
+		religion = catholic
+	}
+}
+2387 = {
+	1800.1.1 = {
+		culture = french
+		religion = catholic
+	}
+}
+2388 = {
+	1800.1.1 = {
+		culture = french
+		religion = catholic
+	}
+}
+2390 = {
+	1800.1.1 = {
+		culture = french
+		religion = catholic
+	}
+}
+2391 = {
+	1800.1.1 = {
+		culture = french
+		religion = catholic
+	}
+}
+2392 = {
+	1800.1.1 = {
+		culture = french
+		religion = catholic
+	}
+}
+2397 = {
+	1800.1.1 = {
+		culture = french
+		religion = catholic
+	}
+}
+2405 = {
+	1800.1.1 = {
+		religion = reformed
+	}
+}
+2406 = {
+	1800.1.1 = {
+		religion = reformed
+	}
+}
+2413 = {
+	1800.1.1 = {
+		religion = reformed
+	}
+}
+2414 = {
+	1800.1.1 = {
+		religion = reformed
+	}
+}
+2417 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2418 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+2421 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2424 = {
+	1800.1.1 = {
+		religion = reformed
+	}
+}
+2428 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2429 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2433 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2438 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+2440 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2446 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2450 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2458 = {
+	1800.1.1 = {
+		culture = french
+		religion = catholic
+	}
+}
+2460 = {
+	1800.1.1 = {
+		religion = reformed
+	}
+}
+2466 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2469 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2471 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2475 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2477 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2482 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2483 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2491 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2494 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2497 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2499 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2501 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2503 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2505 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2506 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2508 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2512 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2516 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2517 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2518 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2521 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2525 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2527 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2531 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2532 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2536 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2537 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2540 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2542 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2543 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2546 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2553 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2554 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2555 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2560 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2568 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2569 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2572 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2575 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2585 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2589 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2594 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2596 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2598 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2600 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2604 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2606 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2608 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2609 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2610 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2612 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2619 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2623 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2627 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2628 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2629 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2631 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2633 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2635 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2638 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2640 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2646 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2647 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2650 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2652 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2653 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2656 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2658 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2659 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2662 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2670 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2673 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2679 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2680 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+2689 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+2694 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+2704 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+2706 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2708 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2709 = {
+	1800.1.1 = {
+		religion = reformed
+	}
+}
+2710 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2717 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2721 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2729 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+2731 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+2732 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+2737 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+2739 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2745 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2746 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+2748 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+2757 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2759 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+2763 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2768 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2773 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2777 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2778 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2782 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2783 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2786 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2793 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+2795 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+2797 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+2802 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+2804 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+2807 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+2809 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+2811 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+2812 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+2814 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+2817 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+2818 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+2823 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+2826 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+2827 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+2830 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+2835 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+2838 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+2844 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+2846 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+2847 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2850 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+2852 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+2855 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+2859 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+2860 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+2862 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2870 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2874 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+2875 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+2877 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+2878 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2883 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+2886 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2889 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+2893 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+2894 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+2898 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+2900 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+2901 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+2906 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+2913 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+2916 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+2918 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+2919 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+2924 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2927 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2932 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+2935 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+2936 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+2942 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2945 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2949 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2950 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2955 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2956 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2957 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2959 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2960 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2964 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2971 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2975 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2977 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2980 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2987 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2989 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2990 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+2998 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+3003 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+3005 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+3010 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+3012 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+3020 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+3021 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+3023 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+3025 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+3027 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+3030 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+3039 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+3040 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+3042 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+3044 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+3045 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+3048 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+3049 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+3052 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+3058 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+3061 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+3064 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+3067 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+3068 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+3073 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+3081 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+3086 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+3088 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+3089 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+3092 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+3093 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+3096 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+3099 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+3100 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+3105 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+3109 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+3117 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+3121 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+3125 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+3128 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+3131 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+3134 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+3135 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+3140 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+3143 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+3145 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+3149 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+3152 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+3154 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+3158 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+3160 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+3166 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+3168 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+3173 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+3180 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+3181 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+3187 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+3190 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+3196 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+3198 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+3204 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+3208 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+3212 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+3214 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+3216 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+3218 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+3220 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+3501 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+3507 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+3510 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+3513 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+3516 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+3519 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+3522 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+3527 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+3529 = {
+	1800.1.1 = {
+		religion = reformed
+	}
+}
+3539 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+3543 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+3548 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+3551 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+3555 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+3560 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+3567 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+3572 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+3575 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+3583 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+3591 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+3596 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+3598 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+3604 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+3610 = {
+	1800.1.1 = {
+		religion = reformed
+	}
+}
+3617 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+3618 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+3628 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+3632 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+3636 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+3643 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+3650 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+3653 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+3656 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+3658 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+3664 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+3678 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+3689 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+3691 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+3702 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+3708 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+3711 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+3713 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+3720 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+3724 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+3728 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+3733 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+3736 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+3739 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+3771 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+3784 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+3793 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+3797 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+3803 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+3805 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+3808 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+3809 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+3811 = {
+	1800.1.1 = {
+		religion = reformed
+	}
+}
+3815 = {
+	1800.1.1 = {
+		religion = reformed
+	}
+}
+3817 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+3820 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+3823 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+3826 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+3827 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+3831 = {
+	1800.1.1 = {
+		religion = reformed
+	}
+}
+3835 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+3839 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+3842 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+3846 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+3848 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+3854 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+3856 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+3862 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+3863 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+3865 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+3870 = {
+	1800.1.1 = {
+		religion = reformed
+	}
+}
+3873 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+3877 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+3882 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+3885 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+3889 = {
+	1800.1.1 = {
+		religion = reformed
+	}
+}
+3897 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+3903 = {
+	1800.1.1 = {
+		religion = reformed
+	}
+}
+3905 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+3907 = {
+	1800.1.1 = {
+		religion = reformed
+	}
+}
+3919 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+3924 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+3931 = {
+	1800.1.1 = {
+		religion = reformed
+	}
+}
+3940 = {
+	1800.1.1 = {
+		religion = reformed
+	}
+}
+3942 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+4001 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+4005 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+4007 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4012 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4017 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+4019 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+4022 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4026 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4029 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+4032 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4036 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4039 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4044 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4046 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+4047 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+4053 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+4057 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+4062 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+4068 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+4073 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+4076 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+4083 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4088 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4089 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4093 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4096 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+4103 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+4106 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+4109 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+4112 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+4116 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+4118 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+4122 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+4125 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+4129 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+4136 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+4138 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+4145 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+4147 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+4154 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+4161 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+4162 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+4165 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+4166 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+4168 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+4171 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4177 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+4182 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+4184 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+4185 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4191 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4193 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+4195 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+4201 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4203 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4204 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4210 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4212 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4215 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4221 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4223 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4225 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4231 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4238 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4240 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4247 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4251 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4256 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+4261 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+4265 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4268 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4274 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4277 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4283 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4285 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4289 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4299 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4305 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+4308 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+4312 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+4316 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+4319 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+4323 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+4325 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+4332 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+4333 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+4335 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4341 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4343 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4351 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4369 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4376 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4378 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4383 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4384 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4388 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4390 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4393 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4394 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4402 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4404 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4409 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4414 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4418 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4422 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4429 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4432 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4438 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4441 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4447 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4448 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4452 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4455 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4456 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4460 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4465 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4471 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4477 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4479 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4484 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4489 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4499 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4500 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4504 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4507 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4513 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4515 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4517 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4521 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4524 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4528 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4530 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4533 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4534 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+4537 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+4543 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+4545 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+4767 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+4771 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+4781 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+4787 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+4788 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+4797 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+4800 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+4803 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+4805 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+4820 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+4821 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+4828 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+4829 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+4830 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+4835 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+4869 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4893 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4894 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4896 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+4900 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+4905 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+4909 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+4912 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+4915 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+4918 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+4922 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+4924 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+4931 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+4940 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+4943 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+4946 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+4951 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+4953 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+4957 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+4965 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+4978 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+4981 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+4985 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+4989 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+4990 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+4995 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+4997 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5000 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5003 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5005 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5012 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5015 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5017 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5019 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5021 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5029 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5031 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5038 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5040 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5041 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5044 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+5051 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5057 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+5063 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5070 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5073 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+5077 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+5087 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5091 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5095 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5098 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5104 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5109 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5114 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5117 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5119 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5127 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5129 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5134 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5136 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+5137 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5143 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5146 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5150 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5153 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5156 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5159 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5161 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5164 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5168 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5170 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5173 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5181 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5185 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5189 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5193 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5196 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5203 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5206 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5209 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5212 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5215 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5217 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5221 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5231 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5239 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5247 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5250 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5257 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5260 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5263 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5269 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5272 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5274 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5276 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+5286 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5287 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5290 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5296 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+5299 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5303 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5305 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+5309 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+5311 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5313 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+5319 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5320 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+5326 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5328 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+5330 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+5343 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+5349 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+5350 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5353 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5356 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5357 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+5359 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5362 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5366 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5371 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5374 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5377 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5383 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5384 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5388 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5390 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5396 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5399 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5403 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5408 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+5412 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5418 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+5420 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+5422 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+5426 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5431 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5432 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5437 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5441 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5445 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5449 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5455 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5461 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5463 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5466 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5470 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5475 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5479 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5481 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5483 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5487 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+5490 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+5494 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+5497 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+5501 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5504 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5509 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5519 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5525 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5526 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5531 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+5536 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+5539 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+5546 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+5548 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+5552 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+5561 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+5565 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+5569 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+5574 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+5581 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+5584 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+5590 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+5594 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+5598 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+5602 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+5604 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+5617 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+5623 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+5632 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+5637 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+5642 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+5647 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+5651 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+5654 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+5657 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+5664 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+5672 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+5681 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5703 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+5771 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+5777 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+5790 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+5798 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5803 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5807 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5811 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5814 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5817 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5820 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5824 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5829 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5832 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5835 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5838 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5842 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5845 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5849 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+5892 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+5893 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+5900 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+5991 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+5993 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+5994 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+6001 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+6003 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+6005 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+6011 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+6014 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+6017 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+6019 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+6020 = {
+	1800.1.1 = {
+		religion = imami
+	}
+}
+7020 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7025 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7026 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7035 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7036 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7038 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7042 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7065 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7068 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7070 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7073 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7076 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7077 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7078 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7085 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7088 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7094 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7096 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7099 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7103 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7104 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7105 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7111 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7112 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7121 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7123 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7125 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7129 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7133 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7141 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7142 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7151 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7154 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7157 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7162 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7163 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7164 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7168 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7173 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7177 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7178 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7181 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7183 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7185 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7187 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7192 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7194 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7197 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7199 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7202 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7203 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7218 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+7221 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7224 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7227 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7230 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7233 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7238 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7239 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7242 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7247 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+7248 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+7251 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7252 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7256 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7257 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7261 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7263 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7266 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7267 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7270 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7272 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7274 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7275 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7277 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7282 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7287 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7290 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7293 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7294 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7297 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7299 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7300 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7304 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7305 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7310 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7311 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7314 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7316 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7322 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7324 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7327 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7330 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7332 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7333 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7334 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7338 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7340 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7342 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7343 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7346 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7349 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7355 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7356 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7357 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7459 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7465 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7483 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7486 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7489 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7492 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7495 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7496 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7499 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7967 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7969 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+8717 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+8719 = {
+	1800.1.1 = {
+		religion = reformed
+	}
+}
+8723 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+8727 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+8731 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+8735 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+8745 = {
+	1800.1.1 = {
+		culture = irish
+		religion = catholic
+	}
+}
+8755 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+8782 = {
+	1800.1.1 = {
+		religion = protestant
+	}
+}
+8789 = {
+	1800.1.1 = {
+		religion = orthodox
+	}
+}
+8795 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+8799 = {
+	1800.1.1 = {
+		religion = catholic
+	}
+}
+9576 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+9581 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+9583 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+9585 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+9606 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+9608 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+9616 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+11213 = {
+	1800.1.1 = {
+		religion = reformed
+	}
+}
+11217 = {
+	1800.1.1 = {
+		religion = reformed
+	}
+}
+11218 = {
+	1800.1.1 = {
+		religion = reformed
+	}
+}

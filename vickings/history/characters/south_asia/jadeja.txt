@@ -7,7 +7,7 @@
 		birth = yes
 	}
 	1778.1.1 = {
-		religion = maturidi
+		religion = imami
 		trait = zealous	# became a religious fanatic
 	}
 	1813.10.30 = {
