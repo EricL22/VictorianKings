@@ -652,6 +652,12 @@ k_siam = {
 	}
 }
 
+k_genoa = {
+	1805.6.4 = {
+		holder = 0
+	}
+}
+
 d_sunni = {
 	1517.1.22 = {
 		holder = ottoman_5	# Selim I
