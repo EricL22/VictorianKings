@@ -638,11 +638,11 @@ eur_06100 = {
 		birth = yes
 	}
 	1809.10.8 = {
-		employer = habsburg_20	# Francis I
+		#employer = habsburg_20	# Francis I
 		give_council_position = councillor_chancellor
 	}
 	1835.3.2 = {
-		employer = habsburg_21	# Ferdinand I
+		#employer = habsburg_21	# Ferdinand I
 		give_council_position = councillor_chancellor
 	}
 	1859.6.11 = {

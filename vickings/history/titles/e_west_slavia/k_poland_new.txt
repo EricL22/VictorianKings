@@ -534,11 +534,13 @@ c_nysa = {
 }
 c_cieszyn = {
 	1792.3.1 = {
-		holder = 9000012
-		de_jure_liege = d_moravia
+		holder = habsburg_20	# Francis II
 	}
 	1835.3.2 = {
-		holder = 9177200
+		holder = habsburg_21	# Ferdinand I
+	}
+	1848.12.2 = {
+		holder = habsburg_23	# Franz Josef I
 	}
 }
 c_ratibor = {

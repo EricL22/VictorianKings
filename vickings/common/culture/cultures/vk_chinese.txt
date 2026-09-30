@@ -19,6 +19,11 @@
 		tradition_court_eunuchs
 		tradition_philosopher_culture
 	}
+	dlc_tradition = {
+		trait = tradition_tgp_art_of_war
+		requires_dlc_flag = all_under_heaven
+		fallback = tradition_formation_fighting
+	}
 	
 	name_list = name_list_han
 	

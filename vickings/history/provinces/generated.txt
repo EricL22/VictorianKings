@@ -1691,6 +1691,16 @@
 		religion = maturidi
 	}
 }
+1442 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+1444 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
 1445 = {
 	1800.1.1 = {
 		religion = maturidi
@@ -2650,21 +2660,25 @@
 }
 2030 = {
 	1800.1.1 = {
+		culture = french
 		religion = catholic
 	}
 }
 2031 = {
 	1800.1.1 = {
+		culture = french
 		religion = catholic
 	}
 }
 2035 = {
 	1800.1.1 = {
+		culture = french
 		religion = reformed
 	}
 }
 2039 = {
 	1800.1.1 = {
+		culture = french
 		religion = catholic
 	}
 }
@@ -2685,31 +2699,37 @@
 }
 2046 = {
 	1800.1.1 = {
+		culture = swabian
 		religion = reformed
 	}
 }
 2049 = {
 	1800.1.1 = {
+		culture = swabian
 		religion = reformed
 	}
 }
 2051 = {
 	1800.1.1 = {
+		culture = swabian
 		religion = reformed
 	}
 }
 2053 = {
 	1800.1.1 = {
+		culture = swabian
 		religion = reformed
 	}
 }
 2055 = {
 	1800.1.1 = {
+		culture = swabian
 		religion = reformed
 	}
 }
 2057 = {
 	1800.1.1 = {
+		culture = swabian
 		religion = catholic
 	}
 }
@@ -2721,16 +2741,19 @@
 }
 2063 = {
 	1800.1.1 = {
+		culture = french
 		religion = catholic
 	}
 }
 2065 = {
 	1800.1.1 = {
+		culture = french
 		religion = catholic
 	}
 }
 2071 = {
 	1800.1.1 = {
+		culture = french
 		religion = catholic
 	}
 }
@@ -2742,16 +2765,19 @@
 }
 2082 = {
 	1800.1.1 = {
+		culture = franconian
 		religion = catholic
 	}
 }
 2083 = {
 	1800.1.1 = {
+		culture = franconian
 		religion = reformed
 	}
 }
 2084 = {
 	1800.1.1 = {
+		culture = franconian
 		religion = protestant
 	}
 }
@@ -3009,6 +3035,7 @@
 }
 2225 = {
 	1800.1.1 = {
+		culture = french
 		religion = catholic
 	}
 }
@@ -3128,6 +3155,7 @@
 }
 2285 = {
 	1800.1.1 = {
+		culture = french
 		religion = catholic
 	}
 }
@@ -3145,6 +3173,7 @@
 }
 2297 = {
 	1800.1.1 = {
+		culture = french
 		religion = catholic
 	}
 }
@@ -3423,6 +3452,7 @@
 }
 2460 = {
 	1800.1.1 = {
+		culture = swabian
 		religion = reformed
 	}
 }
@@ -3803,106 +3833,132 @@
 }
 2694 = {
 	1800.1.1 = {
+		culture = franconian
 		religion = protestant
 	}
 }
 2704 = {
 	1800.1.1 = {
+		culture = franconian
 		religion = protestant
 	}
 }
 2706 = {
 	1800.1.1 = {
+		culture = french
 		religion = catholic
 	}
 }
 2708 = {
 	1800.1.1 = {
+		culture = franconian
 		religion = catholic
 	}
 }
 2709 = {
 	1800.1.1 = {
+		culture = french
 		religion = reformed
 	}
 }
 2710 = {
 	1800.1.1 = {
+		culture = franconian
 		religion = catholic
 	}
 }
 2717 = {
 	1800.1.1 = {
+		culture = swabian
 		religion = catholic
 	}
 }
 2721 = {
 	1800.1.1 = {
+		culture = swabian
 		religion = catholic
 	}
 }
 2729 = {
 	1800.1.1 = {
+		culture = franconian
 		religion = protestant
 	}
 }
 2731 = {
 	1800.1.1 = {
+		culture = franconian
 		religion = protestant
 	}
 }
 2732 = {
 	1800.1.1 = {
+		culture = franconian
 		religion = protestant
 	}
 }
 2737 = {
 	1800.1.1 = {
+		culture = franconian
 		religion = protestant
 	}
 }
 2739 = {
 	1800.1.1 = {
+		culture = franconian
 		religion = catholic
 	}
 }
 2745 = {
 	1800.1.1 = {
+		culture = franconian
 		religion = catholic
 	}
 }
 2746 = {
 	1800.1.1 = {
+		culture = swabian
 		religion = protestant
 	}
 }
 2748 = {
 	1800.1.1 = {
+		culture = swabian
 		religion = protestant
+	}
+}
+2751 = {
+	1800.1.1 = {
+		culture = swabian
 	}
 }
 2757 = {
 	1800.1.1 = {
+		culture = swabian
 		religion = catholic
 	}
 }
 2759 = {
 	1800.1.1 = {
+		culture = swabian
 		religion = protestant
 	}
 }
 2763 = {
 	1800.1.1 = {
+		culture = swabian
 		religion = catholic
 	}
 }
 2768 = {
 	1800.1.1 = {
+		culture = swabian
 		religion = catholic
 	}
 }
 2773 = {
 	1800.1.1 = {
+		culture = swabian
 		religion = catholic
 	}
 }
@@ -4048,6 +4104,7 @@
 }
 2855 = {
 	1800.1.1 = {
+		culture = franconian
 		religion = protestant
 	}
 }
@@ -4063,6 +4120,7 @@
 }
 2862 = {
 	1800.1.1 = {
+		culture = franconian
 		religion = catholic
 	}
 }
@@ -7078,6 +7136,7 @@
 }
 7154 = {
 	1800.1.1 = {
+		culture = karluk
 		religion = maturidi
 	}
 }
@@ -7138,21 +7197,25 @@
 }
 7187 = {
 	1800.1.1 = {
+		culture = uyghur
 		religion = maturidi
 	}
 }
 7192 = {
 	1800.1.1 = {
+		culture = uyghur
 		religion = maturidi
 	}
 }
 7194 = {
 	1800.1.1 = {
+		culture = uyghur
 		religion = maturidi
 	}
 }
 7197 = {
 	1800.1.1 = {
+		culture = uyghur
 		religion = maturidi
 	}
 }
@@ -7496,13 +7559,25 @@
 		religion = maturidi
 	}
 }
+7980 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
+7999 = {
+	1800.1.1 = {
+		religion = maturidi
+	}
+}
 8717 = {
 	1800.1.1 = {
+		culture = french
 		religion = catholic
 	}
 }
 8719 = {
 	1800.1.1 = {
+		culture = french
 		religion = reformed
 	}
 }
@@ -7557,6 +7632,31 @@
 		religion = catholic
 	}
 }
+9476 = {
+	1800.1.1 = {
+		culture = han
+	}
+}
+9518 = {
+	1800.1.1 = {
+		culture = han
+	}
+}
+9533 = {
+	1800.1.1 = {
+		culture = han
+	}
+}
+9537 = {
+	1800.1.1 = {
+		culture = mongol
+	}
+}
+9538 = {
+	1800.1.1 = {
+		culture = mongol
+	}
+}
 9576 = {
 	1800.1.1 = {
 		religion = maturidi
@@ -7592,6 +7692,257 @@
 		religion = maturidi
 	}
 }
+9702 = {
+	1800.1.1 = {
+		culture = han
+	}
+}
+10059 = {
+	1800.1.1 = {
+		culture = han
+	}
+}
+10062 = {
+	1800.1.1 = {
+		culture = han
+	}
+}
+10064 = {
+	1800.1.1 = {
+		culture = han
+	}
+}
+10068 = {
+	1800.1.1 = {
+		culture = han
+	}
+}
+10079 = {
+	1800.1.1 = {
+		culture = han
+	}
+}
+10080 = {
+	1800.1.1 = {
+		culture = han
+	}
+}
+10088 = {
+	1800.1.1 = {
+		culture = han
+	}
+}
+10091 = {
+	1800.1.1 = {
+		culture = han
+	}
+}
+10093 = {
+	1800.1.1 = {
+		culture = mongol
+	}
+}
+10094 = {
+	1800.1.1 = {
+		culture = han
+	}
+}
+10099 = {
+	1800.1.1 = {
+		culture = mongol
+	}
+}
+10102 = {
+	1800.1.1 = {
+		culture = mongol
+	}
+}
+10106 = {
+	1800.1.1 = {
+		culture = mongol
+	}
+}
+10107 = {
+	1800.1.1 = {
+		culture = mongol
+	}
+}
+10109 = {
+	1800.1.1 = {
+		culture = mongol
+	}
+}
+10110 = {
+	1800.1.1 = {
+		culture = mongol
+	}
+}
+10141 = {
+	1800.1.1 = {
+		culture = mongol
+	}
+}
+10455 = {
+	1800.1.1 = {
+		culture = mongol
+	}
+}
+10493 = {
+	1800.1.1 = {
+		culture = manchu
+	}
+}
+10495 = {
+	1800.1.1 = {
+		culture = manchu
+	}
+}
+10802 = {
+	1800.1.1 = {
+		religion = theravada
+	}
+}
+10804 = {
+	1800.1.1 = {
+		religion = theravada
+	}
+}
+10811 = {
+	1800.1.1 = {
+		religion = theravada
+	}
+}
+10816 = {
+	1800.1.1 = {
+		religion = theravada
+	}
+}
+10820 = {
+	1800.1.1 = {
+		culture = lao
+		religion = theravada
+	}
+}
+10821 = {
+	1800.1.1 = {
+		culture = tai
+		religion = theravada
+	}
+}
+10822 = {
+	1800.1.1 = {
+		culture = tai
+		religion = theravada
+	}
+}
+10823 = {
+	1800.1.1 = {
+		religion = theravada
+	}
+}
+10893 = {
+	1800.1.1 = {
+		culture = khmu
+		religion = theravada
+	}
+}
+10894 = {
+	1800.1.1 = {
+		culture = shan
+	}
+}
+10897 = {
+	1800.1.1 = {
+		culture = shan
+	}
+}
+10898 = {
+	1800.1.1 = {
+		religion = theravada
+	}
+}
+10908 = {
+	1800.1.1 = {
+		religion = theravada
+	}
+}
+10909 = {
+	1800.1.1 = {
+		religion = theravada
+	}
+}
+10911 = {
+	1800.1.1 = {
+		culture = tai
+		religion = theravada
+	}
+}
+10927 = {
+	1800.1.1 = {
+		religion = theravada
+	}
+}
+10932 = {
+	1800.1.1 = {
+		culture = khmer
+		religion = theravada
+	}
+}
+10935 = {
+	1800.1.1 = {
+		culture = tai
+		religion = theravada
+	}
+}
+10940 = {
+	1800.1.1 = {
+		culture = lao
+		religion = theravada
+	}
+}
+10941 = {
+	1800.1.1 = {
+		culture = lao
+		religion = theravada
+	}
+}
+10952 = {
+	1800.1.1 = {
+		religion = theravada
+	}
+}
+10956 = {
+	1800.1.1 = {
+		culture = tai
+		religion = theravada
+	}
+}
+10960 = {
+	1800.1.1 = {
+		religion = theravada
+	}
+}
+10961 = {
+	1800.1.1 = {
+		culture = tai
+		religion = theravada
+	}
+}
+10970 = {
+	1800.1.1 = {
+		culture = shan
+	}
+}
+10976 = {
+	1800.1.1 = {
+		culture = shan
+	}
+}
+10995 = {
+	1800.1.1 = {
+		religion = theravada
+	}
+}
 11213 = {
 	1800.1.1 = {
 		religion = reformed
@@ -7605,5 +7956,679 @@
 11218 = {
 	1800.1.1 = {
 		religion = reformed
+	}
+}
+11432 = {
+	1800.1.1 = {
+		religion = theravada
+	}
+}
+11437 = {
+	1800.1.1 = {
+		culture = tai
+		religion = theravada
+	}
+}
+11440 = {
+	1800.1.1 = {
+		culture = lao
+	}
+}
+11441 = {
+	1800.1.1 = {
+		religion = theravada
+	}
+}
+11443 = {
+	1800.1.1 = {
+		religion = theravada
+	}
+}
+11449 = {
+	1800.1.1 = {
+		religion = theravada
+	}
+}
+11465 = {
+	1800.1.1 = {
+		culture = lao
+		religion = theravada
+	}
+}
+11472 = {
+	1800.1.1 = {
+		culture = shan
+	}
+}
+11482 = {
+	1800.1.1 = {
+		culture = khmu
+	}
+}
+11485 = {
+	1800.1.1 = {
+		culture = khmu
+	}
+}
+11608 = {
+	1800.1.1 = {
+		culture = manchu
+	}
+}
+11609 = {
+	1800.1.1 = {
+		culture = manchu
+	}
+}
+11627 = {
+	1800.1.1 = {
+		culture = manchu
+	}
+}
+11631 = {
+	1800.1.1 = {
+		culture = manchu
+	}
+}
+11632 = {
+	1800.1.1 = {
+		culture = manchu
+	}
+}
+11638 = {
+	1800.1.1 = {
+		culture = manchu
+	}
+}
+11640 = {
+	1800.1.1 = {
+		culture = manchu
+	}
+}
+11642 = {
+	1800.1.1 = {
+		culture = manchu
+	}
+}
+11647 = {
+	1800.1.1 = {
+		culture = manchu
+	}
+}
+11650 = {
+	1800.1.1 = {
+		culture = manchu
+	}
+}
+11654 = {
+	1800.1.1 = {
+		culture = mongol
+	}
+}
+11657 = {
+	1800.1.1 = {
+		culture = manchu
+	}
+}
+11661 = {
+	1800.1.1 = {
+		culture = manchu
+	}
+}
+11665 = {
+	1800.1.1 = {
+		culture = manchu
+	}
+}
+11671 = {
+	1800.1.1 = {
+		culture = manchu
+	}
+}
+11674 = {
+	1800.1.1 = {
+		culture = manchu
+	}
+}
+11680 = {
+	1800.1.1 = {
+		culture = manchu
+	}
+}
+11682 = {
+	1800.1.1 = {
+		culture = manchu
+	}
+}
+11683 = {
+	1800.1.1 = {
+		culture = manchu
+	}
+}
+11688 = {
+	1800.1.1 = {
+		culture = manchu
+	}
+}
+11690 = {
+	1800.1.1 = {
+		culture = manchu
+	}
+}
+11691 = {
+	1800.1.1 = {
+		culture = manchu
+	}
+}
+11695 = {
+	1800.1.1 = {
+		culture = manchu
+	}
+}
+11696 = {
+	1800.1.1 = {
+		culture = manchu
+	}
+}
+11699 = {
+	1800.1.1 = {
+		culture = manchu
+	}
+}
+11702 = {
+	1800.1.1 = {
+		culture = manchu
+	}
+}
+11703 = {
+	1800.1.1 = {
+		culture = mongol
+	}
+}
+11709 = {
+	1800.1.1 = {
+		culture = mongol
+	}
+}
+11712 = {
+	1800.1.1 = {
+		culture = mongol
+	}
+}
+11713 = {
+	1800.1.1 = {
+		culture = mongol
+	}
+}
+11716 = {
+	1800.1.1 = {
+		culture = han
+	}
+}
+11721 = {
+	1800.1.1 = {
+		culture = han
+	}
+}
+11725 = {
+	1800.1.1 = {
+		culture = mongol
+	}
+}
+11733 = {
+	1800.1.1 = {
+		culture = mongol
+	}
+}
+11735 = {
+	1800.1.1 = {
+		culture = mongol
+	}
+}
+11736 = {
+	1800.1.1 = {
+		culture = manchu
+	}
+}
+11739 = {
+	1800.1.1 = {
+		culture = mongol
+	}
+}
+11746 = {
+	1800.1.1 = {
+		culture = manchu
+	}
+}
+11752 = {
+	1800.1.1 = {
+		culture = manchu
+	}
+}
+11754 = {
+	1800.1.1 = {
+		culture = han
+	}
+}
+11756 = {
+	1800.1.1 = {
+		culture = mongol
+	}
+}
+11759 = {
+	1800.1.1 = {
+		culture = han
+	}
+}
+11762 = {
+	1800.1.1 = {
+		culture = han
+	}
+}
+11765 = {
+	1800.1.1 = {
+		culture = han
+	}
+}
+11769 = {
+	1800.1.1 = {
+		culture = mongol
+	}
+}
+11773 = {
+	1800.1.1 = {
+		culture = han
+	}
+}
+11779 = {
+	1800.1.1 = {
+		culture = mongol
+	}
+}
+11782 = {
+	1800.1.1 = {
+		culture = han
+	}
+}
+11785 = {
+	1800.1.1 = {
+		culture = han
+	}
+}
+11790 = {
+	1800.1.1 = {
+		culture = han
+	}
+}
+11794 = {
+	1800.1.1 = {
+		culture = han
+	}
+}
+11799 = {
+	1800.1.1 = {
+		culture = han
+	}
+}
+11802 = {
+	1800.1.1 = {
+		culture = manchu
+	}
+}
+11806 = {
+	1800.1.1 = {
+		culture = goryeo
+	}
+}
+11808 = {
+	1800.1.1 = {
+		culture = manchu
+	}
+}
+11809 = {
+	1800.1.1 = {
+		culture = manchu
+	}
+}
+11812 = {
+	1800.1.1 = {
+		culture = manchu
+	}
+}
+11813 = {
+	1800.1.1 = {
+		culture = manchu
+	}
+}
+11816 = {
+	1800.1.1 = {
+		culture = manchu
+	}
+}
+11817 = {
+	1800.1.1 = {
+		culture = manchu
+	}
+}
+11821 = {
+	1800.1.1 = {
+		culture = manchu
+	}
+}
+11828 = {
+	1800.1.1 = {
+		culture = manchu
+	}
+}
+11830 = {
+	1800.1.1 = {
+		culture = goryeo
+	}
+}
+11834 = {
+	1800.1.1 = {
+		culture = manchu
+	}
+}
+11839 = {
+	1800.1.1 = {
+		culture = goryeo
+	}
+}
+11840 = {
+	1800.1.1 = {
+		culture = goryeo
+	}
+}
+11842 = {
+	1800.1.1 = {
+		culture = goryeo
+	}
+}
+11844 = {
+	1800.1.1 = {
+		culture = goryeo
+	}
+}
+11848 = {
+	1800.1.1 = {
+		culture = goryeo
+	}
+}
+11849 = {
+	1800.1.1 = {
+		culture = manchu
+	}
+}
+11854 = {
+	1800.1.1 = {
+		culture = manchu
+	}
+}
+11858 = {
+	1800.1.1 = {
+		culture = manchu
+	}
+}
+11864 = {
+	1800.1.1 = {
+		culture = manchu
+	}
+}
+11868 = {
+	1800.1.1 = {
+		culture = manchu
+	}
+}
+11870 = {
+	1800.1.1 = {
+		culture = manchu
+	}
+}
+11871 = {
+	1800.1.1 = {
+		culture = manchu
+	}
+}
+11876 = {
+	1800.1.1 = {
+		culture = manchu
+	}
+}
+11877 = {
+	1800.1.1 = {
+		culture = manchu
+	}
+}
+11881 = {
+	1800.1.1 = {
+		culture = manchu
+	}
+}
+11883 = {
+	1800.1.1 = {
+		culture = manchu
+	}
+}
+11884 = {
+	1800.1.1 = {
+		culture = manchu
+	}
+}
+11887 = {
+	1800.1.1 = {
+		culture = manchu
+	}
+}
+11890 = {
+	1800.1.1 = {
+		culture = manchu
+	}
+}
+11892 = {
+	1800.1.1 = {
+		culture = manchu
+	}
+}
+11893 = {
+	1800.1.1 = {
+		culture = manchu
+	}
+}
+11896 = {
+	1800.1.1 = {
+		culture = manchu
+	}
+}
+11899 = {
+	1800.1.1 = {
+		culture = manchu
+	}
+}
+11902 = {
+	1800.1.1 = {
+		culture = manchu
+	}
+}
+11905 = {
+	1800.1.1 = {
+		culture = manchu
+	}
+}
+11911 = {
+	1800.1.1 = {
+		culture = manchu
+	}
+}
+11913 = {
+	1800.1.1 = {
+		culture = manchu
+	}
+}
+12174 = {
+	1800.1.1 = {
+		culture = han
+	}
+}
+12352 = {
+	1800.1.1 = {
+		culture = han
+	}
+}
+12391 = {
+	1800.1.1 = {
+		culture = mongol
+	}
+}
+12393 = {
+	1800.1.1 = {
+		culture = mongol
+	}
+}
+12394 = {
+	1800.1.1 = {
+		culture = mongol
+	}
+}
+12406 = {
+	1800.1.1 = {
+		culture = mongol
+	}
+}
+12411 = {
+	1800.1.1 = {
+		culture = mongol
+	}
+}
+12413 = {
+	1800.1.1 = {
+		culture = mongol
+	}
+}
+12417 = {
+	1800.1.1 = {
+		culture = han
+	}
+}
+12422 = {
+	1800.1.1 = {
+		culture = han
+	}
+}
+12424 = {
+	1800.1.1 = {
+		culture = han
+	}
+}
+12428 = {
+	1800.1.1 = {
+		culture = han
+	}
+}
+12437 = {
+	1800.1.1 = {
+		culture = manchu
+	}
+}
+12439 = {
+	1800.1.1 = {
+		culture = manchu
+	}
+}
+12467 = {
+	1800.1.1 = {
+		culture = manchu
+	}
+}
+12469 = {
+	1800.1.1 = {
+		culture = manchu
+	}
+}
+12472 = {
+	1800.1.1 = {
+		culture = manchu
+	}
+}
+12474 = {
+	1800.1.1 = {
+		culture = manchu
+	}
+}
+12478 = {
+	1800.1.1 = {
+		culture = manchu
+	}
+}
+12481 = {
+	1800.1.1 = {
+		culture = manchu
+	}
+}
+12502 = {
+	1800.1.1 = {
+		culture = khmu
+		religion = theravada
+	}
+}
+12504 = {
+	1800.1.1 = {
+		culture = tai
+		religion = theravada
+	}
+}
+12511 = {
+	1800.1.1 = {
+		religion = theravada
+	}
+}
+12512 = {
+	1800.1.1 = {
+		religion = theravada
+	}
+}
+12572 = {
+	1800.1.1 = {
+		culture = mongol
+	}
+}
+12960 = {
+	1800.1.1 = {
+		culture = han
+	}
+}
+12962 = {
+	1800.1.1 = {
+		culture = han
+	}
+}
+12974 = {
+	1800.1.1 = {
+		culture = mongol
+	}
+}
+13044 = {
+	1800.1.1 = {
+		culture = han
+	}
+}
+13080 = {
+	1800.1.1 = {
+		culture = mongol
+	}
+}
+13082 = {
+	1800.1.1 = {
+		culture = han
+	}
+}
+13126 = {
+	1800.1.1 = {
+		culture = mongol
+	}
+}
+13139 = {
+	1800.1.1 = {
+		culture = mongol
 	}
 }

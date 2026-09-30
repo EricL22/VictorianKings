@@ -1,0 +1,6 @@
+﻿#c_battambang
+10932 = {
+	1800.1.1 = {
+		holding = temple_citadel_holding
+	}
+}
