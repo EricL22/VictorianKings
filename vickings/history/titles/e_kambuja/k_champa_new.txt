@@ -1,7 +1,7 @@
 k_champa = {
 	1800.1.1 = {
 		holder = 0
-		de_jure_liege = e_vietnam
+		de_jure_liege = e_viet
 	}
 }
 d_indrapura = {

@@ -7,6 +7,6 @@ tags={
 }
 name="Victorian Kings"
 picture="thumbnail.png"
-supported_version="1.19.*"
+supported_version="1.20.*"
 path="mod/vickings"
 remote_file_id="2453195387"

@@ -1,7 +1,8 @@
-﻿e_vietnam = {
+﻿e_viet = {
 	#Nguyen Dynasty
 	1802.6.1 = {
 		holder = nguyen_0	# Gia Long
+		name = e_vietnam
 		effect = {
 			if = { # Chinese influence on bureaucracy and literature
 				limit = {
@@ -10,6 +11,12 @@
 				}
 				holder = { set_court_language = language_chinese }
 			}
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_created_dai_viet_empire
+			}
+			set_capital_county = title:c_simhapura
+			holder ?= { set_realm_capital = title:c_simhapura }
  		}
 		government = meritocratic_government
 	}
@@ -533,7 +540,7 @@ c_weiyuan = {
 
 k_viet = {
 	1802.6.1 = {
-		de_jure_liege = e_vietnam
+		de_jure_liege = e_viet
 		holder = 0
 	}
 }

@@ -1,7 +1,7 @@
 ﻿## The Papacy
 papal_0 = {
 	name = "Pierre Roger"
-	religion = catholic
+	rite = roman_rite
 	culture = italian
 	1291.1.1 = {
 		birth = yes
@@ -16,7 +16,7 @@ papal_0 = {
 
 papal_1 = {
 	name = "Etienne Aubert"
-	religion = catholic
+	rite = roman_rite
 	culture = italian
 	1282.1.1 = {
 		birth = yes
@@ -31,7 +31,7 @@ papal_1 = {
 
 papal_2 = {
 	name = "Guillaume"
-	religion = catholic
+	rite = roman_rite
 	culture = italian
 	1310.1.1 = {
 		birth = yes
@@ -46,7 +46,7 @@ papal_2 = {
 
 papal_3 = {
 	name = "Pierre Roger"
-	religion = catholic
+	rite = roman_rite
 	culture = italian
 	1329.1.1 = {
 		birth = yes
@@ -61,7 +61,7 @@ papal_3 = {
 
 papal_4 = {
 	name = "Bartolomeo Prignano"
-	religion = catholic
+	rite = roman_rite
 	culture = italian
 	1318.1.1 = {
 		birth = yes
@@ -76,7 +76,7 @@ papal_4 = {
 
 papal_5 = {
 	name = "Cosimo"
-	religion = catholic
+	rite = roman_rite
 	culture = italian
 	1339.1.1 = {
 		birth = yes
@@ -91,7 +91,7 @@ papal_5 = {
 
 papal_6 = {
 	name = "Angelo"
-	religion = catholic
+	rite = roman_rite
 	culture = italian
 	1327.1.1 = {
 		birth = yes
@@ -106,7 +106,7 @@ papal_6 = {
 
 papal_7 = {
 	name = "Oddone"
-	religion = catholic
+	rite = roman_rite
 	culture = italian
 	1369.2.1 = {
 		birth = yes
@@ -121,7 +121,7 @@ papal_7 = {
 
 papal_8 = {
 	name = "Gabriele"
-	religion = catholic
+	rite = roman_rite
 	culture = italian
 	1383.1.1 = {
 		birth = yes
@@ -136,7 +136,7 @@ papal_8 = {
 
 papal_9 = {
 	name = "Tommaso"
-	religion = catholic
+	rite = roman_rite
 	culture = italian
 	1397.11.15 = {
 		birth = yes
@@ -151,7 +151,7 @@ papal_9 = {
 
 papal_10 = {
 	name = "Alfons"
-	religion = catholic
+	rite = roman_rite
 	culture = italian
 	1378.12.31 = {
 		birth = yes
@@ -166,7 +166,7 @@ papal_10 = {
 
 papal_11 = {
 	name = "Enea Silvio Bartolomeo"
-	religion = catholic
+	rite = roman_rite
 	culture = italian
 	1405.10.18 = {
 		birth = yes
@@ -181,7 +181,7 @@ papal_11 = {
 
 papal_12 = {
 	name = "Giovanni"
-	religion = catholic
+	rite = roman_rite
 	culture = italian
 	1432.11.5 = {
 		birth = yes
@@ -196,7 +196,7 @@ papal_12 = {
 
 papal_13 = {
 	name = "Roderic"
-	religion = catholic
+	rite = roman_rite
 	culture = italian
 	1431.1.1 = {
 		birth = yes
@@ -211,7 +211,7 @@ papal_13 = {
 
 papal_14 = {
 	name = "Francesco"
-	religion = catholic
+	rite = roman_rite
 	culture = italian
 	1439.5.9 = {
 		birth = yes
@@ -226,7 +226,7 @@ papal_14 = {
 
 papal_15 = {
 	name = "Giovanni"
-	religion = catholic
+	rite = roman_rite
 	culture = italian
 	1475.12.11 = {
 		birth = yes
@@ -241,7 +241,7 @@ papal_15 = {
 
 papal_16 = {
 	name = "Adriaan"
-	religion = catholic
+	rite = roman_rite
 	culture = italian
 	1459.3.2 = {
 		birth = yes
@@ -256,7 +256,7 @@ papal_16 = {
 
 papal_17 = {
 	name = "Giulio"
-	religion = catholic
+	rite = roman_rite
 	culture = italian
 	1478.5.26 = {
 		birth = yes
@@ -271,7 +271,7 @@ papal_17 = {
 
 papal_18 = {
 	name = "Giovanni"
-	religion = catholic
+	rite = roman_rite
 	culture = italian
 	1499.3.31 = {
 		birth = yes
@@ -286,7 +286,7 @@ papal_18 = {
 
 papal_19 = {
 	name = "Antonio"
-	religion = catholic
+	rite = roman_rite
 	culture = italian
 	1504.1.17 = {
 		birth = yes
@@ -301,7 +301,7 @@ papal_19 = {
 
 papal_20 = {
 	name = "Ugo"
-	religion = catholic
+	rite = roman_rite
 	culture = italian
 	1502.1.7 = {
 		birth = yes
@@ -316,7 +316,7 @@ papal_20 = {
 
 papal_21 = {
 	name = "Giovanni"
-	religion = catholic
+	rite = roman_rite
 	culture = italian
 	1521.8.4 = {
 		birth = yes
@@ -331,7 +331,7 @@ papal_21 = {
 
 papal_22 = {
 	name = "Niccolo"
-	religion = catholic
+	rite = roman_rite
 	culture = italian
 	1535.2.11 = {
 		birth = yes
@@ -346,7 +346,7 @@ papal_22 = {
 
 papal_23 = {
 	name = "Giovanni"
-	religion = catholic
+	rite = roman_rite
 	culture = italian
 	1519.7.20 = {
 		birth = yes
@@ -361,7 +361,7 @@ papal_23 = {
 
 papal_24 = {
 	name = "Ippolito"
-	religion = catholic
+	rite = roman_rite
 	culture = italian
 	1536.2.24 = {
 		birth = yes
@@ -376,7 +376,7 @@ papal_24 = {
 
 papal_25 = {
 	name = "Alessandro"
-	religion = catholic
+	rite = roman_rite
 	culture = italian
 	1535.6.2 = {
 		birth = yes
@@ -391,7 +391,7 @@ papal_25 = {
 
 papal_26 = {
 	name = "Alessandro"
-	religion = catholic
+	rite = roman_rite
 	culture = italian
 	1554.1.9 = {
 		birth = yes
@@ -406,7 +406,7 @@ papal_26 = {
 
 papal_27 = {
 	name = "Maffeo"
-	religion = catholic
+	rite = roman_rite
 	culture = italian
 	1568.4.5 = {
 		birth = yes
@@ -421,7 +421,7 @@ papal_27 = {
 
 papal_28 = {
 	name = "Giovanni"
-	religion = catholic
+	rite = roman_rite
 	culture = italian
 	1574.5.7 = {
 		birth = yes
@@ -436,7 +436,7 @@ papal_28 = {
 
 papal_29 = {
 	name = "Fabio"
-	religion = catholic
+	rite = roman_rite
 	culture = italian
 	1599.2.13 = {
 		birth = yes
@@ -451,7 +451,7 @@ papal_29 = {
 
 papal_30 = {
 	name = "Giulio"
-	religion = catholic
+	rite = roman_rite
 	culture = italian
 	1600.1.28 = {
 		birth = yes
@@ -466,7 +466,7 @@ papal_30 = {
 
 papal_31 = {
 	name = "Emilio"
-	religion = catholic
+	rite = roman_rite
 	culture = italian
 	1590.7.13 = {
 		birth = yes
@@ -481,7 +481,7 @@ papal_31 = {
 
 papal_32 = {
 	name = "Benedetto"
-	religion = catholic
+	rite = roman_rite
 	culture = italian
 	1611.5.16 = {
 		birth = yes
@@ -496,7 +496,7 @@ papal_32 = {
 
 papal_33 = {
 	name = "Pietro"
-	religion = catholic
+	rite = roman_rite
 	culture = italian
 	1610.4.22 = {
 		birth = yes
@@ -511,7 +511,7 @@ papal_33 = {
 
 papal_34 = {
 	name = "Antonio"
-	religion = catholic
+	rite = roman_rite
 	culture = italian
 	1615.3.13 = {
 		birth = yes
@@ -526,7 +526,7 @@ papal_34 = {
 
 papal_35 = {
 	name = "Giovanni"
-	religion = catholic
+	rite = roman_rite
 	culture = italian
 	1649.7.23 = {
 		birth = yes
@@ -541,7 +541,7 @@ papal_35 = {
 
 papal_36 = {
 	name = "Michelangelo"
-	religion = catholic
+	rite = roman_rite
 	culture = italian
 	1655.5.13 = {
 		birth = yes
@@ -556,7 +556,7 @@ papal_36 = {
 
 papal_37 = {
 	name = "Pierfrancesco"
-	religion = catholic
+	rite = roman_rite
 	culture = italian
 	1649.2.2 = {
 		birth = yes
@@ -571,7 +571,7 @@ papal_37 = {
 
 papal_38 = {
 	name = "Lorenzo"
-	religion = catholic
+	rite = roman_rite
 	culture = italian
 	1652.4.7 = {
 		birth = yes
@@ -586,7 +586,7 @@ papal_38 = {
 
 papal_39 = {
 	name = "Prospero"
-	religion = catholic
+	rite = roman_rite
 	culture = italian
 	1675.3.31 = {
 		birth = yes
@@ -601,7 +601,7 @@ papal_39 = {
 
 papal_40 = {
 	name = "Carlo"
-	religion = catholic
+	rite = roman_rite
 	culture = italian
 	1693.3.7 = {
 		birth = yes
@@ -616,7 +616,7 @@ papal_40 = {
 
 papal_41 = {
 	name = "Giovanni"
-	religion = catholic
+	rite = roman_rite
 	culture = italian
 	1705.10.31 = {
 		birth = yes
@@ -631,7 +631,7 @@ papal_41 = {
 
 papal_42 = {
 	name = "Angelo"
-	religion = catholic
+	rite = roman_rite
 	culture = italian
 	1717.12.25 = {
 		birth = yes
@@ -647,7 +647,7 @@ papal_42 = {
 papal_43 = {
 	name = "Barnaba"
 	dynasty = 65
-	religion = catholic
+	rite = roman_rite
 	culture = italian
 	1742.8.14 = {
 		birth = yes
@@ -668,7 +668,7 @@ papal_43 = {
 
 papal_44 = {
 	name = "Annibale"
-	religion = catholic
+	rite = roman_rite
 	culture = italian
 	1760.8.2 = {
 		birth = yes
@@ -684,7 +684,7 @@ papal_44 = {
 papal_45 = {
 	name = "Francesco"
 	dynasty = 13050
-	religion = catholic
+	rite = roman_rite
 	culture = italian
 	1761.11.20 = {
 		birth = yes
@@ -699,7 +699,7 @@ papal_45 = {
 
 papal_46 = {
 	name = "Bartolomeo"
-	religion = catholic
+	rite = roman_rite
 	culture = italian
 	1765.9.18 = {
 		birth = yes
@@ -714,7 +714,7 @@ papal_46 = {
 
 papal_47 = {
 	name = "Giovanni"
-	religion = catholic
+	rite = roman_rite
 	culture = italian
 	1792.5.13 = {
 		birth = yes
@@ -729,7 +729,7 @@ papal_47 = {
 
 papal_48 = {
 	name = "Gioacchino"
-	religion = catholic
+	rite = roman_rite
 	culture = italian
 	1810.3.2 = {
 		birth = yes
@@ -744,7 +744,7 @@ papal_48 = {
 
 papal_49 = {
 	name = "Giuseppe"
-	religion = catholic
+	rite = roman_rite
 	culture = italian
 	1835.6.2 = {
 		birth = yes

@@ -1,6 +1,6 @@
 ﻿wurttemberg_0 = {
 	name = "Friedrich"	# I of Wurttemberg
-	religion = catholic
+	rite = roman_rite
 	culture = swabian
 	trait = giant
 	1754.11.6 = {
@@ -15,7 +15,7 @@
 
 wurttemberg_1 = {
 	name = "Wilhelm"	# I of Wurttemberg
-	religion = catholic
+	rite = roman_rite
 	culture = swabian
 	father = wurttemberg_0
 	1781.9.27 = {
@@ -28,7 +28,7 @@ wurttemberg_1 = {
 
 wurttemberg_2 = {
 	name = "Karl"	# I of Wurttemberg
-	religion = catholic
+	rite = roman_rite
 	culture = swabian
 	father = wurttemberg_1
 	1823.3.6 = {
@@ -41,7 +41,7 @@ wurttemberg_2 = {
 
 wurttemberg_3 = {
 	name = "Paul"	# prince of Wurttemberg
-	religion = catholic
+	rite = roman_rite
 	culture = swabian
 	father = wurttemberg_0
 	1785.1.19 = {
@@ -54,7 +54,7 @@ wurttemberg_3 = {
 
 wurttemberg_4 = {
 	name = "Friedrich"	# prince of Wurttemberg
-	religion = catholic
+	rite = roman_rite
 	culture = swabian
 	father = wurttemberg_3
 	1808.2.21 = {
@@ -67,7 +67,7 @@ wurttemberg_4 = {
 
 wurttemberg_5 = {
 	name = "Wilhelm"	# II of Wurttemberg
-	religion = catholic
+	rite = roman_rite
 	culture = swabian
 	father = wurttemberg_4
 	1848.2.25 = {

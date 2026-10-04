@@ -1,0 +1,5 @@
+﻿shia = {
+    1200.1.1 = {
+        main_rite = imami
+    }
+}

@@ -320,12 +320,6 @@ e_minzhe = {
 	capital = c_fuzhou_1
 }
 
-e_vietnam = {
-	color = { 70 173 0 }
-
-	capital = c_simhapura
-}
-
 k_gwalior = {
 	color = { 153 237 145 }
 

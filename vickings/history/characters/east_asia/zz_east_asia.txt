@@ -15,7 +15,7 @@ eas_00500 = {
 	name = "Deming"
 	dynasty = sun
 	culture = han
-	religion = protestant
+	rite = lutheran_rite
 	1866.11.12 = {
 		birth = yes
 	}
@@ -28,7 +28,7 @@ eas_00501 = {
 	name = "Shikai"
 	dynasty = yuan
 	culture = han
-	religion = jingxue
+	rite = jingxue
 	1859.9.16 = {
 		birth = yes
 	}
@@ -48,7 +48,7 @@ eas_00501 = {
 eas_01500 = {
 	name = "Bogd"
 	culture = mongol
-	religion = lamaism
+	rite = lamaism
 	1869.10.13 = {
 		birth = yes
 	}
@@ -69,7 +69,7 @@ eas_02500 = {
 	name = "Kombu-Dorzhu"
 	dynasty = oyun
 	culture = uriankhai
-	religion = lamaism
+	rite = lamaism
 	1865.1.1 = {
 		birth = yes
 	}

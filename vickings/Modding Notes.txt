@@ -1,10 +1,25 @@
 TODOs:
+HIGH Priority ---
 Game Rules: generate family for Sweden in 1812 and matrilineal marriage for Victoria in 1861
+Flavorize e_italy as a kingdom for italian cultures
+
+LOW Priority ----
 semi-salic succession law - LOCKS allowed gender laws to male-only or male-preference. if your character inherits a title with no dynastic heir on a male-only gender law, it automatically switches to male-preference until another male heir inherits. in the case of your heir dying leaving with you no dynastic heir, that is the ONLY instance you are allowed to change gender laws manually to male-preference, which is otherwise unselectable.
 Republics: France (1914), Portugal (1914)
 Protectorates: Zanzibar, Khiva, Bukhara
-Flavorize e_italy as a kingdom for italian cultures
 
+
+
+Faith -> Rite Replacements (1.20):
+catholic -> roman_rite
+coptic -> coptic_rite
+orthodox -> slavic_rite
+ashari -> maliki (North & West Africa, Sudan (Central/Western), Eastern Arabian Peninsula (Kuwait, Bahrain))
+	  shafii (Asia & Southeast Asia, Lower Egypt, Western Levant (Palestine/Syria), Yemen, Somalia, Coastal Kenya, Tanzania (Zanzibar))
+maturidi -> hanafi
+imamism -> mainline rite
+protestant -> lutheran_rite
+reformed -> reformed_rite
 
 
 

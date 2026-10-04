@@ -13,6 +13,7 @@ common
 ...game_rules (clauses)
 ...landed_titles
 ......00_landed_titles.txt
+......03_seasia.txt
 ...religion
 ......religion_types
 .........00_christianity.txt
@@ -48,6 +49,11 @@ gfx
 ......water
 history
 ...cultures
+...faiths
+......00_islam_new.txt (clauses)
+...provinces
+......generated.txt (clauses)
+......vanilla_holdings.txt (clauses)
 ...titles
 ......k_[...].txt
 ......[...]_new.txt (clauses)

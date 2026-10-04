@@ -1,7 +1,7 @@
 ﻿german_east_africa_0 = {
 	name = "Heinrich"
 	dynasty = schnee
-	religion = protestant
+	rite = lutheran_rite
 	culture = german
 	1871.2.4 = {
 		birth = yes

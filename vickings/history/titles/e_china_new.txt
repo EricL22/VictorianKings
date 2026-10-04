@@ -56,29 +56,8 @@ e_minister_chancellor = { # requires give_council_position = councillor_chancell
 		}
 		holder = qing_chancellor_0	# Dong Gao
 	}
-	1812.7.5 = {
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1812.7.5 }
-		}
-	}
-	1815.7.8 = {
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1815.7.8 }
-		}
-	}
-	1836.1.1 = {
-		holder = qing_chancellor_1	# Mujangga
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1836.1.1 }
-		}
-	}
 	1861.1.1 = {
 		holder = qing_22	# Prince Gong
-	}
-	1861.7.1 = {
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1861.7.1 }
-		}
 	}
 	1912.3.10 = {
 		holder = 0	# abolished by the republic

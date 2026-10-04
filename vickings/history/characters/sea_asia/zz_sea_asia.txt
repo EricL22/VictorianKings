@@ -12,7 +12,7 @@
 sea_00100 = {
 	name = "No Muong"
 	# dynasty = suwanpangkham
-	religion = theravada
+	rite = theravada
 	culture = lao
 	1792.1.1 = {
 		birth = yes

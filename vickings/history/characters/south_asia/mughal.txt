@@ -1,7 +1,7 @@
 ﻿mughal_0 = {
 	name = "Akbar"
 	dynasty_house = house_mughal
-	religion = ashari
+	rite = hanafi
 	culture = hindustani
 	1760.4.22 = {
 		birth = yes
@@ -14,7 +14,7 @@
 mughal_1 = {
 	name = "Bahadur"
 	dynasty_house = house_mughal
-	religion = ashari
+	rite = hanafi
 	culture = hindustani
 	father = mughal_0
 	1775.10.24 = {
@@ -28,7 +28,7 @@ mughal_1 = {
 timurid_0 = {	# to initialize the parent dynasty house
 	name = "Timur"
 	dynasty = timurid
-	religion = ashari
+	rite = hanafi
 	culture = mongol
 	martial = 12
 	diplomacy = 8

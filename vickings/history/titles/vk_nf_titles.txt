@@ -7,37 +7,17 @@ d_nf_hanover = {
 		government = administrative_government
 		succession_laws = { noble_family_succession_law }
 	}
-	1812.7.5 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1812.7.5 }
-		}
-	}
-	1815.7.8 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1815.7.8 }
-		}
-	}
 	1830.6.26 = {
 		liege = e_britannia
 		holder = hanover_5	# William IV
 		government = administrative_government
 		succession_laws = { noble_family_succession_law }
 	}
-	1836.1.1 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1836.1.1 }
-		}
-	}
 	1837.6.20 = {
 		liege = e_britannia
 		holder = hanover_7	# Victoria
 		government = administrative_government
 		succession_laws = { noble_family_succession_law }
-	}
-	1861.7.1 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1861.7.1 }
-		}
 	}
 	1901.1.22 = {
 		holder = 0
@@ -50,11 +30,6 @@ d_nf_bonaparte = {
 		holder = bonaparte_2	# Napoleon
 		government = administrative_government
 		succession_laws = { noble_family_succession_law }
-	}
-	1812.7.5 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1812.7.5 }
-		}
 	}
 	1815.7.8 = {
 		holder = 0	# Bonapartes forced into exile
@@ -77,11 +52,6 @@ d_nf_bourbon = {
 		government = administrative_government
 		succession_laws = { noble_family_succession_law }
 	}
-	1815.7.8 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1815.7.8 }
-		}
-	}
 	1834.4.10 = {	# Royal Statute of 1834 forms administrative gov't in Spanish branch
 		liege = k_spain
 		holder = bourbon_37	# Isabella II
@@ -89,26 +59,11 @@ d_nf_bourbon = {
 		succession_laws = { noble_family_succession_law }
 		effect = { set_capital_county = title:c_madrid }
 	}
-	1836.1.1 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1836.1.1 }
-		}
-	}
-	1861.7.1 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1861.7.1 }
-		}
-	}
 	1886.5.17 = {
 		liege = k_spain
 		holder = bourbon_42	# Alfonso XIII
 		government = administrative_government
 		succession_laws = { noble_family_succession_law }
-	}
-	1914.7.28 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1914.7.28 }
-		}
 	}
 }
 
@@ -118,11 +73,6 @@ d_nf_bourbon_orleans = {
 		holder = bourbon_23 # Louis-Phillipe I
 		government = administrative_government
 		succession_laws = { noble_family_succession_law }
-	}
-	1836.1.1 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1836.1.1 }
-		}
 	}
 	1848.2.24 = {
 		holder = 0	# republic established
@@ -136,11 +86,6 @@ d_nf_windsor = {
 		government = administrative_government
 		succession_laws = { noble_family_succession_law }
 	}
-	1914.7.28 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1914.7.28 }
-		}
-	}
 }
 
 d_nf_oldenburg = {
@@ -150,31 +95,11 @@ d_nf_oldenburg = {
 		government = administrative_government
 		succession_laws = { noble_family_succession_law }
 	}
-	1812.7.5 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1812.7.5 }
-		}
-	}
-	1815.7.8 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1815.7.8 }
-		}
-	}
-	1836.1.1 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1836.1.1 }
-		}
-	}
 	1848.1.20 = {
 		liege = k_denmark
 		holder = oldenburg_18	# Frederick VII
 		government = administrative_government
 		succession_laws = { noble_family_succession_law }
-	}
-	1861.7.1 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1861.7.1 }
-		}
 	}
 	1863.11.15 = {
 		holder = 0
@@ -188,11 +113,6 @@ d_nf_schles_hols_gluck = {
 		government = administrative_government
 		succession_laws = { noble_family_succession_law }
 	}
-	1914.7.28 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1914.7.28 }
-		}
-	}
 }
 
 d_nf_hols_gott = {
@@ -201,16 +121,6 @@ d_nf_hols_gott = {
 		holder = oldenburg_28	# Charles XIII
 		government = administrative_government
 		succession_laws = { noble_family_succession_law }
-	}
-	1812.7.5 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1812.7.5 }
-		}
-	}
-	1815.7.8 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1815.7.8 }
-		}
 	}
 	1818.2.5 = {
 		holder = 0
@@ -224,32 +134,17 @@ d_nf_bernadotte = {
 		government = administrative_government
 		succession_laws = { noble_family_succession_law }
 	}
-	1836.1.1 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1836.1.1 }
-		}
-	}
 	1859.7.8 = {
 		liege = k_sweden
 		holder = bernadotte_2	# Charles XV
 		government = administrative_government
 		succession_laws = { noble_family_succession_law }
 	}
-	1861.7.1 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1861.7.1 }
-		}
-	}
 	1907.12.8 = {
 		liege = k_sweden
 		holder = bernadotte_4	# Gustaf V
 		government = administrative_government
 		succession_laws = { noble_family_succession_law }
-	}
-	1914.7.28 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1914.7.28 }
-		}
 	}
 }
 
@@ -260,21 +155,11 @@ d_nf_braganza = {
 		government = administrative_government
 		succession_laws = { noble_family_succession_law }
 	}
-	1836.1.1 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1836.1.1 }
-		}
-	}
 	1853.11.15 = {
 		liege = k_portugal
 		holder = braganza_12	# Peter V
 		government = administrative_government
 		succession_laws = { noble_family_succession_law }
-	}
-	1861.7.1 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1861.7.1 }
-		}
 	}
 	1910.10.5 = {
 		holder = 0	# republic established
@@ -288,37 +173,17 @@ d_nf_orange = {
 		government = administrative_government
 		succession_laws = { noble_family_succession_law }
 	}
-	1815.7.8 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1815.7.8 }
-		}
-	}
-	1836.1.1 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1836.1.1 }
-		}
-	}
 	1849.3.17 = {
 		liege = k_frisia
 		holder = orange_2	# William III
 		government = administrative_government
 		succession_laws = { noble_family_succession_law }
 	}
-	1861.7.1 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1861.7.1 }
-		}
-	}
 	1890.11.23 = {
 		liege = k_frisia
 		holder = orange_3	# Wilhelmina
 		government = administrative_government
 		succession_laws = { noble_family_succession_law }
-	}
-	1914.7.28 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1914.7.28 }
-		}
 	}
 }
 
@@ -329,26 +194,11 @@ d_nf_saxe_coburg = {
 		government = administrative_government
 		succession_laws = { noble_family_succession_law }
 	}
-	1836.1.1 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1836.1.1 }
-		}
-	}
-	1861.7.1 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1861.7.1 }
-		}
-	}
 	1909.12.23 = {
 		liege = k_belgium
 		holder = wettin_43	# Albert I
 		government = administrative_government
 		succession_laws = { noble_family_succession_law }
-	}
-	1914.7.28 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1914.7.28 }
-		}
 	}
 }
 
@@ -359,26 +209,11 @@ d_nf_romanov = {
 		government = administrative_government
 		succession_laws = { noble_family_succession_law }
 	}
-	1812.7.5 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1812.7.5 }
-		}
-	}
-	1815.7.8 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1815.7.8 }
-		}
-	}
 	1825.12.1 = {
 		liege = e_russia
 		holder = romanov_8	# Nicholas I
 		government = administrative_government
 		succession_laws = { noble_family_succession_law }
-	}
-	1836.1.1 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1836.1.1 }
-		}
 	}
 	1855.3.2 = {
 		liege = e_russia
@@ -386,21 +221,11 @@ d_nf_romanov = {
 		government = administrative_government
 		succession_laws = { noble_family_succession_law }
 	}
-	1861.7.1 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1861.7.1 }
-		}
-	}
 	1894.11.1 = {
 		liege = e_russia
 		holder = romanov_11	# Nicholas II
 		government = administrative_government
 		succession_laws = { noble_family_succession_law }
-	}
-	1914.7.28 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1914.7.28 }
-		}
 	}
 }
 
@@ -411,42 +236,17 @@ d_nf_habsburg = {
 		government = administrative_government
 		succession_laws = { noble_family_succession_law }
 	}
-	1812.7.5 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1812.7.5 }
-		}
-	}
-	1815.7.8 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1815.7.8 }
-		}
-	}
 	1835.3.2 = {
 		liege = e_austria
 		holder = habsburg_21	# Ferdinand I
 		government = administrative_government
 		succession_laws = { noble_family_succession_law }
 	}
-	1836.1.1 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1836.1.1 }
-		}
-	}
 	1848.12.2 = {
 		liege = e_austria
 		holder = habsburg_23	# Franz Josef I
 		government = administrative_government
 		succession_laws = { noble_family_succession_law }
-	}
-	1861.7.1 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1861.7.1 }
-		}
-	}
-	1914.7.28 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1914.7.28 }
-		}
 	}
 }
 
@@ -457,21 +257,11 @@ d_nf_carignano = {
 		government = administrative_government
 		succession_laws = { noble_family_succession_law }
 	}
-	1861.7.1 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1861.7.1 }
-		}
-	}
 	1900.7.29 = {
 		liege = e_italy
 		holder = savoy_29	# Vittorio Emanuele III
 		government = administrative_government
 		succession_laws = { noble_family_succession_law }
-	}
-	1914.7.28 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1914.7.28 }
-		}
 	}
 }
 
@@ -482,37 +272,17 @@ c_nf_aisin_gioro = {
 		government = celestial_government
 		succession_laws = { noble_family_succession_law }
 	}
-	1812.7.5 = {
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1812.7.5 }
-		}
-	}
-	1815.7.8 = {
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1815.7.8 }
-		}
-	}
 	1820.9.2 = {
 		liege = h_china
 		holder = qing_7	# Daoguang
 		government = celestial_government
 		succession_laws = { noble_family_succession_law }
 	}
-	1836.1.1 = {
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1836.1.1 }
-		}
-	}
 	1850.2.26 = {
 		liege = h_china
 		holder = qing_8	# Xianfeng
 		government = celestial_government
 		succession_laws = { noble_family_succession_law }
-	}
-	1861.7.1 = {
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1861.7.1 }
-		}
 	}
 	1901.1.22 = {
 		holder = 0
@@ -528,11 +298,6 @@ d_nf_berryer = {
 		government = administrative_government
 		succession_laws = { noble_family_succession_law }
 	}
-	1836.1.1 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1836.1.1 }
-		}
-	}
 	1848.2.24 = {
 		holder = 0	# republic established
 	}
@@ -544,11 +309,6 @@ d_nf_thiers = {
 		holder = eur_01302	# Adolphe Thiers
 		government = administrative_government
 		succession_laws = { noble_family_succession_law }
-	}
-	1836.1.1 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1836.1.1 }
-		}
 	}
 	1848.2.24 = {
 		holder = 0	# republic established
@@ -562,11 +322,6 @@ d_nf_mendizabal = {
 		government = administrative_government
 		succession_laws = { noble_family_succession_law }
 	}
-	1836.1.1 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1836.1.1 }
-		}
-	}
 	1853.11.3 = {
 		holder = 0
 	}
@@ -578,11 +333,6 @@ d_nf_la_rosa = {
 		holder = eur_02305	# Francisco Martínez de la Rosa
 		government = administrative_government
 		succession_laws = { noble_family_succession_law }
-	}
-	1836.1.1 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1836.1.1 }
-		}
 	}
 	1862.2.7 = {
 		holder = 0
@@ -596,11 +346,6 @@ d_nf_isturiz = {
 		government = administrative_government
 		succession_laws = { noble_family_succession_law }
 	}
-	1836.1.1 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1836.1.1 }
-		}
-	}
 	1871.4.2 = {
 		holder = 0
 	}
@@ -612,21 +357,6 @@ d_nf_wellesley = {
 		holder = eur_00110	# Duke of Wellington
 		government = administrative_government
 		succession_laws = { noble_family_succession_law }
-	}
-	1812.7.5 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1812.7.5 }
-		}
-	}
-	1815.7.8 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1815.7.8 }
-		}
-	}
-	1836.1.1 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1836.1.1 }
-		}
 	}
 	1852.9.14 = {
 		holder = 0
@@ -640,11 +370,6 @@ d_nf_ledru_rollin = {
 		government = administrative_government
 		succession_laws = { noble_family_succession_law }
 	}
-	1836.1.1 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1836.1.1 }
-		}
-	}
 	1874.12.31 = {
 		holder = 0
 	}
@@ -656,11 +381,6 @@ d_nf_mole = {
 		holder = eur_01301	# Louis-Mathieu Molé
 		government = administrative_government
 		succession_laws = { noble_family_succession_law }
-	}
-	1836.1.1 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1836.1.1 }
-		}
 	}
 	1855.11.23 = {
 		holder = 0
@@ -674,11 +394,6 @@ d_nf_broglie = {
 		government = administrative_government
 		succession_laws = { noble_family_succession_law }
 	}
-	1836.1.1 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1836.1.1 }
-		}
-	}
 	1870.1.25 = {
 		holder = 0
 	}
@@ -690,11 +405,6 @@ d_nf_guizot = {
 		holder = eur_01305	# François Guizot
 		government = administrative_government
 		succession_laws = { noble_family_succession_law }
-	}
-	1836.1.1 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1836.1.1 }
-		}
 	}
 	1874.9.12 = {
 		holder = 0
@@ -708,21 +418,6 @@ d_nf_metternich = {
 		government = administrative_government
 		succession_laws = { noble_family_succession_law }
 	}
-	1812.7.5 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1812.7.5 }
-		}
-	}
-	1815.7.8 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1815.7.8 }
-		}
-	}
-	1836.1.1 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1836.1.1 }
-		}
-	}
 	1859.6.11 = {
 		holder = 0
 	}
@@ -735,11 +430,6 @@ d_nf_wingate = {
 		government = administrative_government
 		succession_laws = { noble_family_succession_law }
 	}
-	1914.7.28 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1914.7.28 }
-		}
-	}
 }
 
 d_nf_faidherbe = {
@@ -748,11 +438,6 @@ d_nf_faidherbe = {
 		holder = france_senegal_0	# Louis Faidherbe
 		government = administrative_government
 		succession_laws = { noble_family_succession_law }
-	}
-	1861.7.1 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1861.7.1 }
-		}
 	}
 	1889.9.29 = {
 		holder = 0
@@ -766,11 +451,6 @@ d_nf_archer = {
 		government = administrative_government
 		succession_laws = { noble_family_succession_law }
 	}
-	1914.7.28 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1914.7.28 }
-		}
-	}
 }
 
 d_nf_raggi = {
@@ -780,11 +460,6 @@ d_nf_raggi = {
 		government = administrative_government
 		succession_laws = { noble_family_succession_law }
 	}
-	1914.7.28 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1914.7.28 }
-		}
-	}
 }
 
 c_nf_dong = {
@@ -793,16 +468,6 @@ c_nf_dong = {
 		holder = qing_chancellor_0	# Dong Gao
 		government = celestial_government
 		succession_laws = { noble_family_succession_law }
-	}
-	1812.7.5 = {
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1812.7.5 }
-		}
-	}
-	1815.7.8 = {
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1815.7.8 }
-		}
 	}
 	1818.1.1 = {
 		holder = 0
@@ -815,9 +480,6 @@ c_nf_gogiya = {
 		holder = qing_chancellor_1	# Mujangga
 		government = celestial_government
 		succession_laws = { noble_family_succession_law }
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1836.1.1 }
-		}
 	}
 	1856.1.1 = {
 		holder = 0
@@ -831,16 +493,6 @@ c_nf_janggiya = {
 		government = celestial_government
 		succession_laws = { noble_family_succession_law }
 	}
-	1812.7.5 = {
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1812.7.5 }
-		}
-	}
-	1815.7.8 = {
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1815.7.8 }
-		}
-	}
 	1833.1.1 = {
 		holder = 0
 	}
@@ -852,11 +504,6 @@ c_nf_namduru = {
 		holder = shaangan_1	# Xianfu
 		government = celestial_government
 		succession_laws = { noble_family_succession_law }
-	}
-	1815.7.8 = {
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1815.7.8 }
-		}
 	}
 	1821.1.1 = {
 		holder = 0
@@ -870,11 +517,6 @@ c_nf_bayote = {
 		government = celestial_government
 		succession_laws = { noble_family_succession_law }
 	}
-	1836.1.1 = {
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1836.1.1 }
-		}
-	}
 	1847.1.1 = {
 		holder = 0
 	}
@@ -886,11 +528,6 @@ c_nf_gioro = {
 		holder = shaangan_3	# Lebin
 		government = celestial_government
 		succession_laws = { noble_family_succession_law }
-	}
-	1861.7.1 = {
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1861.7.1 }
-		}
 	}
 	1875.1.1 = {
 		holder = 0
@@ -904,37 +541,17 @@ c_nf_feimo = {
 		government = celestial_government
 		succession_laws = { noble_family_succession_law }
 	}
-	1812.7.5 = {
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1812.7.5 }
-		}
-	}
-	1815.7.8 = {
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1815.7.8 }
-		}
-	}
 	1820.1.1 = {
 		liege = h_china
 		holder = huguang_1	# Nergingge
 		government = celestial_government
 		succession_laws = { noble_family_succession_law }
 	}
-	1836.1.1 = {
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1836.1.1 }
-		}
-	}
 	1857.1.1 = {
 		liege = h_china
 		holder = zhili_2	# Wenyu
 		government = celestial_government
 		succession_laws = { noble_family_succession_law }
-	}
-	1861.7.1 = {
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1861.7.1 }
-		}
 	}
 	1884.1.1 = {
 		holder = 0
@@ -948,11 +565,6 @@ c_nf_shen = {
 		government = celestial_government
 		succession_laws = { noble_family_succession_law }
 	}
-	1836.1.1 = {
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1836.1.1 }
-		}
-	}
 	1839.1.1 = {
 		holder = 0
 	}
@@ -964,11 +576,6 @@ c_nf_heseri = {
 		holder = shanxi_2	# Yinggui
 		government = celestial_government
 		succession_laws = { noble_family_succession_law }
-	}
-	1861.7.1 = {
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1861.7.1 }
-		}
 	}
 	1879.1.1 = {
 		holder = 0
@@ -982,21 +589,6 @@ c_nf_sartuk = {
 		government = celestial_government
 		succession_laws = { noble_family_succession_law }
 	}
-	1812.7.5 = {
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1812.7.5 }
-		}
-	}
-	1815.7.8 = {
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1815.7.8 }
-		}
-	}
-	1836.1.1 = {
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1836.1.1 }
-		}
-	}
 	1838.1.26 = {
 		holder = 0
 	}
@@ -1008,11 +600,6 @@ c_nf_fang = {
 		holder = henan_1	# Fang Shouchou
 		government = celestial_government
 		succession_laws = { noble_family_succession_law }
-	}
-	1815.7.8 = {
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1815.7.8 }
-		}
 	}
 	1822.1.1 = {
 		holder = 0
@@ -1026,11 +613,6 @@ c_nf_guwalgiya = {
 		government = celestial_government
 		succession_laws = { noble_family_succession_law }
 	}
-	1836.1.1 = {
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1836.1.1 }
-		}
-	}
 	1862.1.1 = {
 		holder = 0
 	}
@@ -1042,11 +624,6 @@ c_nf_yan = {
 		holder = henan_3	# Yan Shusen
 		government = celestial_government
 		succession_laws = { noble_family_succession_law }
-	}
-	1861.7.1 = {
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1861.7.1 }
-		}
 	}
 	1876.4.9 = {
 		holder = 0
@@ -1060,11 +637,6 @@ c_nf_wen = {
 		government = celestial_government
 		succession_laws = { noble_family_succession_law }
 	}
-	1812.7.5 = {
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1812.7.5 }
-		}
-	}
 	1832.1.1 = {
 		holder = 0
 	}
@@ -1076,21 +648,6 @@ c_nf_borjigin = {
 		holder = zhili_1	# Qishan
 		government = celestial_government
 		succession_laws = { noble_family_succession_law }
-	}
-	1812.7.5 = {
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1812.7.5 }
-		}
-	}
-	1815.7.8 = {
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1815.7.8 }
-		}
-	}
-	1836.1.1 = {
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1836.1.1 }
-		}
 	}
 	1854.8.3 = {
 		holder = 0
@@ -1104,11 +661,6 @@ c_nf_niohuru = {
 		government = celestial_government
 		succession_laws = { noble_family_succession_law }
 	}
-	1812.7.5 = {
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1812.7.5 }
-		}
-	}
 	1827.1.1 = {
 		holder = 0
 	}
@@ -1120,11 +672,6 @@ c_nf_chen = {
 		holder = shandong_1	# Chen Yu
 		government = celestial_government
 		succession_laws = { noble_family_succession_law }
-	}
-	1815.7.8 = {
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1815.7.8 }
-		}
 	}
 	1823.1.1 = {
 		holder = 0
@@ -1138,11 +685,6 @@ c_nf_yang = {
 		government = celestial_government
 		succession_laws = { noble_family_succession_law }
 	}
-	1836.1.1 = {
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1836.1.1 }
-		}
-	}
 	1849.1.1 = {
 		holder = 0
 	}
@@ -1154,11 +696,6 @@ c_nf_tan = {
 		holder = shandong_3	# Tan Tingxiang
 		government = celestial_government
 		succession_laws = { noble_family_succession_law }
-	}
-	1861.7.1 = {
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1861.7.1 }
-		}
 	}
 	1870.1.1 = {
 		holder = 0
@@ -1172,16 +709,6 @@ c_nf_zhang = {
 		government = celestial_government
 		succession_laws = { noble_family_succession_law }
 	}
-	1812.7.5 = {
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1812.7.5 }
-		}
-	}
-	1815.7.8 = {
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1815.7.8 }
-		}
-	}
 	1816.12.25 = {
 		holder = 0
 	}
@@ -1194,21 +721,6 @@ c_nf_tao = {
 		government = celestial_government
 		succession_laws = { noble_family_succession_law }
 	}
-	1812.7.5 = {
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1812.7.5 }
-		}
-	}
-	1815.7.8 = {
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1815.7.8 }
-		}
-	}
-	1836.1.1 = {
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1836.1.1 }
-		}
-	}
 	1839.7.12 = {
 		holder = 0
 	}
@@ -1220,24 +732,6 @@ c_nf_zeng = {
 		holder = liangjiang_2	# Zeng Guofan
 		government = celestial_government
 		succession_laws = { noble_family_succession_law }
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1812.7.5 }
-		}
-	}
-	1815.7.8 = {
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1815.7.8 }
-		}
-	}
-	1836.1.1 = {
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1836.1.1 }
-		}
-	}
-	1861.7.1 = {
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1861.7.1 }
-		}
 	}
 	1872.3.12 = {
 		holder = 0
@@ -1251,16 +745,6 @@ c_nf_ma = {
 		government = celestial_government
 		succession_laws = { noble_family_succession_law }
 	}
-	1812.7.5 = {
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1812.7.5 }
-		}
-	}
-	1815.7.8 = {
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1815.7.8 }
-		}
-	}
 	1816.10.13 = {
 		holder = 0
 	}
@@ -1272,11 +756,6 @@ c_nf_wanggiya = {
 		holder = liangjiang_2	# Zeng Guofan
 		government = celestial_government
 		succession_laws = { noble_family_succession_law }
-	}
-	1861.7.1 = {
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1861.7.1 }
-		}
 	}
 	1871.1.1 = {
 		holder = 0
@@ -1290,16 +769,6 @@ c_nf_jiang = {
 		government = celestial_government
 		succession_laws = { noble_family_succession_law }
 	}
-	1812.7.5 = {
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1812.7.5 }
-		}
-	}
-	1815.7.8 = {
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1815.7.8 }
-		}
-	}
 	1830.1.1 = {
 		holder = 0
 	}
@@ -1311,11 +780,6 @@ c_nf_deng = {
 		holder = liangguang_1	# Deng Tingzhen
 		government = celestial_government
 		succession_laws = { noble_family_succession_law }
-	}
-	1836.1.1 = {
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1836.1.1 }
-		}
 	}
 	1846.1.1 = {
 		holder = 0
@@ -1329,11 +793,6 @@ c_nf_lao = {
 		government = celestial_government
 		succession_laws = { noble_family_succession_law }
 	}
-	1861.7.1 = {
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1861.7.1 }
-		}
-	}
 	1867.1.1 = {
 		holder = 0
 	}
@@ -1345,16 +804,6 @@ c_nf_wang = {
 		holder = minzhe_0	# Wang Zhiyi
 		government = celestial_government
 		succession_laws = { noble_family_succession_law }
-	}
-	1812.7.5 = {
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1812.7.5 }
-		}
-	}
-	1815.7.8 = {
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1815.7.8 }
-		}
 	}
 	1818.1.1 = {
 		holder = 0
@@ -1368,21 +817,6 @@ c_nf_cheng = {
 		government = celestial_government
 		succession_laws = { noble_family_succession_law }
 	}
-	1812.7.5 = {
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1812.7.5 }
-		}
-	}
-	1815.7.8 = {
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1815.7.8 }
-		}
-	}
-	1836.1.1 = {
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1836.1.1 }
-		}
-	}
 	1848.1.1 = {
 		holder = 0
 	}
@@ -1394,11 +828,6 @@ c_nf_fuca = {
 		holder = minzhe_2	# Qingduan
 		government = celestial_government
 		succession_laws = { noble_family_succession_law }
-	}
-	1861.7.1 = {
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1861.7.1 }
-		}
 	}
 	1870.1.1 = {
 		holder = 0
@@ -1412,16 +841,6 @@ c_nf_tonggiya = {
 		government = celestial_government
 		succession_laws = { noble_family_succession_law }
 	}
-	1812.7.5 = {
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1812.7.5 }
-		}
-	}
-	1815.7.8 = {
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1815.7.8 }
-		}
-	}
 	1817.10.22 = {
 		holder = 0
 	}
@@ -1433,16 +852,6 @@ c_nf_luo = {
 		holder = sichuan_2	# Luo Bingzhang
 		government = celestial_government
 		succession_laws = { noble_family_succession_law }
-	}
-	1836.1.1 = {
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1836.1.1 }
-		}
-	}
-	1861.7.1 = {
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1861.7.1 }
-		}
 	}
 	1867.9.1 = {
 		holder = 0
@@ -1456,16 +865,6 @@ c_nf_husihari = {
 		government = celestial_government
 		succession_laws = { noble_family_succession_law }
 	}
-	1812.7.5 = {
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1812.7.5 }
-		}
-	}
-	1815.7.8 = {
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1815.7.8 }
-		}
-	}
 	1823.1.1 = {
 		holder = 0
 	}
@@ -1477,16 +876,6 @@ c_nf_liu = {
 		holder = yungui_1	# Liu Yuanhao
 		government = celestial_government
 		succession_laws = { noble_family_succession_law }
-	}
-	1836.1.1 = {
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1836.1.1 }
-		}
-	}
-	1861.7.1 = {
-		effect = {
-			destroy_landless_title_no_tgp_dlc_effect = { DATE = 1861.7.1 }
-		}
 	}
 	1865.1.1 = {
 		holder = 0
@@ -1500,11 +889,6 @@ d_nf_elliot_mk = {
 		government = administrative_government
 		succession_laws = { noble_family_succession_law }
 	}
-	1812.7.5 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1812.7.5 }
-		}
-	}
 	1814.6.21 = {
 		holder = 0
 	}
@@ -1517,16 +901,6 @@ d_nf_rawdon_hastings = {
 		government = administrative_government
 		succession_laws = { noble_family_succession_law }
 	}
-	1812.7.5 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1812.7.5 }
-		}
-	}
-	1815.7.8 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1815.7.8 }
-		}
-	}
 	1826.11.28 = {
 		holder = 0
 	}
@@ -1538,9 +912,6 @@ d_nf_eden = {
 		holder = british_east_india_2	# George Eden
 		government = administrative_government
 		succession_laws = { noble_family_succession_law }
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1836.1.1 }
-		}
 	}
 	1849.1.1 = {
 		holder = 0
@@ -1554,16 +925,6 @@ d_nf_rouvroy = {
 		government = administrative_government
 		succession_laws = { noble_family_succession_law }
 	}
-	1836.1.1 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1836.1.1 }
-		}
-	}
-	1861.7.1 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1861.7.1 }
-		}
-	}
 	1865.3.18 = {
 		holder = 0
 	}
@@ -1575,11 +936,6 @@ d_nf_ubraye = {
 		holder = france_india_1	# Alexandre Durand d'Ubraye
 		government = administrative_government
 		succession_laws = { noble_family_succession_law }
-	}
-	1861.7.1 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1861.7.1 }
-		}
 	}
 	1864.8.3 = {
 		holder = 0
@@ -1593,16 +949,6 @@ d_nf_brownrigg = {
 		government = administrative_government
 		succession_laws = { noble_family_succession_law }
 	}
-	1812.7.5 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1812.7.5 }
-		}
-	}
-	1815.7.8 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1815.7.8 }
-		}
-	}
 	1833.4.27 = {
 		holder = 0
 	}
@@ -1614,11 +960,6 @@ d_nf_wilmot_horton = {
 		holder = british_ceylon_1	# Robert Wilmot-Horton
 		government = administrative_government
 		succession_laws = { noble_family_succession_law }
-	}
-	1836.1.1 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1836.1.1 }
-		}
 	}
 	1841.5.31 = {
 		holder = 0
@@ -1632,11 +973,6 @@ d_nf_maccarthy = {
 		government = administrative_government
 		succession_laws = { noble_family_succession_law }
 	}
-	1861.7.1 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1861.7.1 }
-		}
-	}
 	1864.8.15 = {
 		holder = 0
 	}
@@ -1648,11 +984,6 @@ d_nf_chalmers = {
 		holder = british_ceylon_3	# Robert Chalmers
 		government = administrative_government
 		succession_laws = { noble_family_succession_law }
-	}
-	1914.7.28 = {
-		effect = {
-			destroy_landless_title_no_dlc_effect = { DATE = 1914.7.28 }
-		}
 	}
 	1938.11.17 = {
 		holder = 0

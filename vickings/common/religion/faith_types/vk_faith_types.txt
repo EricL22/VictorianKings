@@ -1,0 +1,28 @@
+﻿protestant = {
+	main_rite = lutheran_rite
+	faith_details = {
+		religion = christianity_religion
+		color = { 0.7 0.7 0.8 }
+		icon = protestant
+		graphical_faith = "catholic_gfx"
+	}
+
+	eminent_holy_sites = {
+		jerusalem
+	}
+
+	holy_sites = {
+		cologne
+		holland
+	}
+
+	doctrines = {
+		special_doctrine_ecumenical_christian
+		doctrine_no_head
+		doctrine_consanguinity_cousins
+		doctrine_clerical_marriage_allowed
+		doctrine_clerical_succession_temporal_fixed_appointment
+	}
+
+	#localization = { }
+}

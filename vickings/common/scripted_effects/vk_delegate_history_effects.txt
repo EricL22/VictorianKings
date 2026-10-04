@@ -68,6 +68,7 @@ auto_generate_vassals_at_game_start_effect = {
 shatter_tribals_at_game_start_effect = {
 	character:tribals = {
 		every_held_title = {
+			limit = { tier = tier_county }
 			create_character = {
 				location = title_province
 				culture = title_province.culture
@@ -145,7 +146,7 @@ tgp_pre_1836_tributary_setup_effect = {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 	}
-	title:e_vietnam.holder = {
+	title:e_viet.holder = {
 		save_scope_as = suzerain
 		title:k_funan.holder = {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
@@ -158,7 +159,7 @@ tgp_pre_1914_tributary_setup_effect = {
 		title:e_goryeo.holder = {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
-		title:e_vietnam.holder = {
+		title:e_viet.holder = {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 		title:c_chiang_rung.holder = {

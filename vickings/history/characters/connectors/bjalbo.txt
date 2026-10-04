@@ -1,7 +1,7 @@
 ﻿bjalbo_0 = {
 	name = "HA_kan"	# VI of Norway
 	dynasty = 155
-	religion = catholic
+	rite = roman_rite
 	culture = swedish
 	father = 450500
 	1340.8.15 = {
@@ -15,7 +15,7 @@
 bjalbo_1 = {
 	name = "O_lafr"	# IV of Norway
 	dynasty = 155
-	religion = catholic
+	rite = roman_rite
 	culture = norwegian
 	father = bjalbo_0
 	1370.12.1 = {

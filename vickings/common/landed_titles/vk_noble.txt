@@ -12,6 +12,8 @@ d_nf_hanover = {
 	noble_family = yes
 	destroy_if_invalid_heir = yes
 
+	dlc_feature = roads_to_power
+
 	ai_primary_priority = { add = @never_primary_score }
 }
 
@@ -26,6 +28,8 @@ d_nf_bonaparte = {
 	no_automatic_claims = yes
 	noble_family = yes
 	destroy_if_invalid_heir = yes
+
+	dlc_feature = roads_to_power
 
 	ai_primary_priority = { add = @never_primary_score }
 }
@@ -42,6 +46,8 @@ d_nf_bourbon = {
 	noble_family = yes
 	destroy_if_invalid_heir = yes
 
+	dlc_feature = roads_to_power
+
 	ai_primary_priority = { add = @never_primary_score }
 }
 
@@ -56,6 +62,8 @@ d_nf_bourbon_orleans = {
 	no_automatic_claims = yes
 	noble_family = yes
 	destroy_if_invalid_heir = yes
+
+	dlc_feature = roads_to_power
 
 	ai_primary_priority = { add = @never_primary_score }
 }
@@ -72,6 +80,8 @@ d_nf_windsor = {
 	noble_family = yes
 	destroy_if_invalid_heir = yes
 
+	dlc_feature = roads_to_power
+
 	ai_primary_priority = { add = @never_primary_score }
 }
 
@@ -86,6 +96,8 @@ d_nf_oldenburg = {
 	no_automatic_claims = yes
 	noble_family = yes
 	destroy_if_invalid_heir = yes
+
+	dlc_feature = roads_to_power
 
 	ai_primary_priority = { add = @never_primary_score }
 }
@@ -102,6 +114,8 @@ d_nf_schles_hols_gluck = {
 	noble_family = yes
 	destroy_if_invalid_heir = yes
 
+	dlc_feature = roads_to_power
+
 	ai_primary_priority = { add = @never_primary_score }
 }
 
@@ -116,6 +130,8 @@ d_nf_hols_gott = {
 	no_automatic_claims = yes
 	noble_family = yes
 	destroy_if_invalid_heir = yes
+
+	dlc_feature = roads_to_power
 
 	ai_primary_priority = { add = @never_primary_score }
 }
@@ -132,6 +148,8 @@ d_nf_bernadotte = {
 	noble_family = yes
 	destroy_if_invalid_heir = yes
 
+	dlc_feature = roads_to_power
+
 	ai_primary_priority = { add = @never_primary_score }
 }
 
@@ -146,6 +164,8 @@ d_nf_braganza = {
 	no_automatic_claims = yes
 	noble_family = yes
 	destroy_if_invalid_heir = yes
+
+	dlc_feature = roads_to_power
 
 	ai_primary_priority = { add = @never_primary_score }
 }
@@ -162,6 +182,8 @@ d_nf_orange = {
 	noble_family = yes
 	destroy_if_invalid_heir = yes
 
+	dlc_feature = roads_to_power
+
 	ai_primary_priority = { add = @never_primary_score }
 }
 
@@ -176,6 +198,8 @@ d_nf_saxe_coburg = {
 	no_automatic_claims = yes
 	noble_family = yes
 	destroy_if_invalid_heir = yes
+
+	dlc_feature = roads_to_power
 
 	ai_primary_priority = { add = @never_primary_score }
 }
@@ -192,6 +216,8 @@ d_nf_romanov = {
 	noble_family = yes
 	destroy_if_invalid_heir = yes
 
+	dlc_feature = roads_to_power
+
 	ai_primary_priority = { add = @never_primary_score }
 }
 
@@ -206,6 +232,8 @@ d_nf_habsburg = {
 	no_automatic_claims = yes
 	noble_family = yes
 	destroy_if_invalid_heir = yes
+
+	dlc_feature = roads_to_power
 
 	ai_primary_priority = { add = @never_primary_score }
 }
@@ -222,6 +250,8 @@ d_nf_carignano = {
 	noble_family = yes
 	destroy_if_invalid_heir = yes
 
+	dlc_feature = roads_to_power
+
 	ai_primary_priority = { add = @never_primary_score }
 }
 
@@ -236,6 +266,8 @@ c_nf_aisin_gioro = {
 	no_automatic_claims = yes
 	noble_family = yes
 	destroy_if_invalid_heir = yes
+
+	dlc_feature = all_under_heaven
 
 	ai_primary_priority = { add = @never_primary_score }
 }
@@ -254,6 +286,8 @@ d_nf_berryer = {
 	noble_family = yes
 	destroy_if_invalid_heir = yes
 
+	dlc_feature = roads_to_power
+
 	ai_primary_priority = { add = @never_primary_score }
 }
 
@@ -268,6 +302,8 @@ d_nf_thiers = {
 	no_automatic_claims = yes
 	noble_family = yes
 	destroy_if_invalid_heir = yes
+
+	dlc_feature = roads_to_power
 
 	ai_primary_priority = { add = @never_primary_score }
 }
@@ -284,6 +320,8 @@ d_nf_mendizabal = {
 	noble_family = yes
 	destroy_if_invalid_heir = yes
 
+	dlc_feature = roads_to_power
+
 	ai_primary_priority = { add = @never_primary_score }
 }
 
@@ -298,6 +336,8 @@ d_nf_la_rosa = {
 	no_automatic_claims = yes
 	noble_family = yes
 	destroy_if_invalid_heir = yes
+
+	dlc_feature = roads_to_power
 
 	ai_primary_priority = { add = @never_primary_score }
 }
@@ -314,6 +354,8 @@ d_nf_isturiz = {
 	noble_family = yes
 	destroy_if_invalid_heir = yes
 
+	dlc_feature = roads_to_power
+
 	ai_primary_priority = { add = @never_primary_score }
 }
 
@@ -328,6 +370,8 @@ d_nf_wellesley = {
 	no_automatic_claims = yes
 	noble_family = yes
 	destroy_if_invalid_heir = yes
+
+	dlc_feature = roads_to_power
 
 	ai_primary_priority = { add = @never_primary_score }
 }
@@ -344,6 +388,8 @@ d_nf_ledru_rollin = {
 	noble_family = yes
 	destroy_if_invalid_heir = yes
 
+	dlc_feature = roads_to_power
+
 	ai_primary_priority = { add = @never_primary_score }
 }
 
@@ -358,6 +404,8 @@ d_nf_mole = {
 	no_automatic_claims = yes
 	noble_family = yes
 	destroy_if_invalid_heir = yes
+
+	dlc_feature = roads_to_power
 
 	ai_primary_priority = { add = @never_primary_score }
 }
@@ -374,6 +422,8 @@ d_nf_broglie = {
 	noble_family = yes
 	destroy_if_invalid_heir = yes
 
+	dlc_feature = roads_to_power
+
 	ai_primary_priority = { add = @never_primary_score }
 }
 
@@ -388,6 +438,8 @@ d_nf_guizot = {
 	no_automatic_claims = yes
 	noble_family = yes
 	destroy_if_invalid_heir = yes
+
+	dlc_feature = roads_to_power
 
 	ai_primary_priority = { add = @never_primary_score }
 }
@@ -404,6 +456,8 @@ d_nf_metternich = {
 	noble_family = yes
 	destroy_if_invalid_heir = yes
 
+	dlc_feature = roads_to_power
+
 	ai_primary_priority = { add = @never_primary_score }
 }
 
@@ -418,6 +472,8 @@ d_nf_wingate = {
 	no_automatic_claims = yes
 	noble_family = yes
 	destroy_if_invalid_heir = yes
+
+	dlc_feature = roads_to_power
 
 	ai_primary_priority = { add = @never_primary_score }
 }
@@ -434,6 +490,8 @@ d_nf_faidherbe = {
 	noble_family = yes
 	destroy_if_invalid_heir = yes
 
+	dlc_feature = roads_to_power
+
 	ai_primary_priority = { add = @never_primary_score }
 }
 
@@ -448,6 +506,8 @@ d_nf_archer = {
 	no_automatic_claims = yes
 	noble_family = yes
 	destroy_if_invalid_heir = yes
+
+	dlc_feature = roads_to_power
 
 	ai_primary_priority = { add = @never_primary_score }
 }
@@ -464,6 +524,8 @@ d_nf_raggi = {
 	noble_family = yes
 	destroy_if_invalid_heir = yes
 
+	dlc_feature = roads_to_power
+
 	ai_primary_priority = { add = @never_primary_score }
 }
 
@@ -478,6 +540,8 @@ c_nf_dong = {
 	no_automatic_claims = yes
 	noble_family = yes
 	destroy_if_invalid_heir = yes
+
+	dlc_feature = all_under_heaven
 
 	ai_primary_priority = { add = @never_primary_score }
 }
@@ -494,6 +558,8 @@ c_nf_gogiya = {
 	noble_family = yes
 	destroy_if_invalid_heir = yes
 
+	dlc_feature = all_under_heaven
+
 	ai_primary_priority = { add = @never_primary_score }
 }
 
@@ -508,6 +574,8 @@ c_nf_janggiya = {
 	no_automatic_claims = yes
 	noble_family = yes
 	destroy_if_invalid_heir = yes
+
+	dlc_feature = all_under_heaven
 
 	ai_primary_priority = { add = @never_primary_score }
 }
@@ -524,6 +592,8 @@ c_nf_namduru = {
 	noble_family = yes
 	destroy_if_invalid_heir = yes
 
+	dlc_feature = all_under_heaven
+
 	ai_primary_priority = { add = @never_primary_score }
 }
 
@@ -538,6 +608,8 @@ c_nf_bayote = {
 	no_automatic_claims = yes
 	noble_family = yes
 	destroy_if_invalid_heir = yes
+
+	dlc_feature = all_under_heaven
 
 	ai_primary_priority = { add = @never_primary_score }
 }
@@ -554,6 +626,8 @@ c_nf_gioro = {
 	noble_family = yes
 	destroy_if_invalid_heir = yes
 
+	dlc_feature = all_under_heaven
+
 	ai_primary_priority = { add = @never_primary_score }
 }
 
@@ -568,6 +642,8 @@ c_nf_feimo = {
 	no_automatic_claims = yes
 	noble_family = yes
 	destroy_if_invalid_heir = yes
+
+	dlc_feature = all_under_heaven
 
 	ai_primary_priority = { add = @never_primary_score }
 }
@@ -584,6 +660,8 @@ c_nf_shen = {
 	noble_family = yes
 	destroy_if_invalid_heir = yes
 
+	dlc_feature = all_under_heaven
+
 	ai_primary_priority = { add = @never_primary_score }
 }
 
@@ -598,6 +676,8 @@ c_nf_heseri = {
 	no_automatic_claims = yes
 	noble_family = yes
 	destroy_if_invalid_heir = yes
+
+	dlc_feature = all_under_heaven
 
 	ai_primary_priority = { add = @never_primary_score }
 }
@@ -614,6 +694,8 @@ c_nf_sartuk = {
 	noble_family = yes
 	destroy_if_invalid_heir = yes
 
+	dlc_feature = all_under_heaven
+
 	ai_primary_priority = { add = @never_primary_score }
 }
 
@@ -628,6 +710,8 @@ c_nf_fang = {
 	no_automatic_claims = yes
 	noble_family = yes
 	destroy_if_invalid_heir = yes
+
+	dlc_feature = all_under_heaven
 
 	ai_primary_priority = { add = @never_primary_score }
 }
@@ -644,6 +728,8 @@ c_nf_guwalgiya = {
 	noble_family = yes
 	destroy_if_invalid_heir = yes
 
+	dlc_feature = all_under_heaven
+
 	ai_primary_priority = { add = @never_primary_score }
 }
 
@@ -658,6 +744,8 @@ c_nf_yan = {
 	no_automatic_claims = yes
 	noble_family = yes
 	destroy_if_invalid_heir = yes
+
+	dlc_feature = all_under_heaven
 
 	ai_primary_priority = { add = @never_primary_score }
 }
@@ -674,6 +762,8 @@ c_nf_wen = {
 	noble_family = yes
 	destroy_if_invalid_heir = yes
 
+	dlc_feature = all_under_heaven
+
 	ai_primary_priority = { add = @never_primary_score }
 }
 
@@ -688,6 +778,8 @@ c_nf_borjigin = {
 	no_automatic_claims = yes
 	noble_family = yes
 	destroy_if_invalid_heir = yes
+
+	dlc_feature = all_under_heaven
 
 	ai_primary_priority = { add = @never_primary_score }
 }
@@ -704,6 +796,8 @@ c_nf_niohuru = {
 	noble_family = yes
 	destroy_if_invalid_heir = yes
 
+	dlc_feature = all_under_heaven
+
 	ai_primary_priority = { add = @never_primary_score }
 }
 
@@ -718,6 +812,8 @@ c_nf_chen = {
 	no_automatic_claims = yes
 	noble_family = yes
 	destroy_if_invalid_heir = yes
+
+	dlc_feature = all_under_heaven
 
 	ai_primary_priority = { add = @never_primary_score }
 }
@@ -734,6 +830,8 @@ c_nf_yang = {
 	noble_family = yes
 	destroy_if_invalid_heir = yes
 
+	dlc_feature = all_under_heaven
+
 	ai_primary_priority = { add = @never_primary_score }
 }
 
@@ -748,6 +846,8 @@ c_nf_tan = {
 	no_automatic_claims = yes
 	noble_family = yes
 	destroy_if_invalid_heir = yes
+
+	dlc_feature = all_under_heaven
 
 	ai_primary_priority = { add = @never_primary_score }
 }
@@ -764,6 +864,8 @@ c_nf_zhang = {
 	noble_family = yes
 	destroy_if_invalid_heir = yes
 
+	dlc_feature = all_under_heaven
+
 	ai_primary_priority = { add = @never_primary_score }
 }
 
@@ -778,6 +880,8 @@ c_nf_tao = {
 	no_automatic_claims = yes
 	noble_family = yes
 	destroy_if_invalid_heir = yes
+
+	dlc_feature = all_under_heaven
 
 	ai_primary_priority = { add = @never_primary_score }
 }
@@ -794,6 +898,8 @@ c_nf_zeng = {
 	noble_family = yes
 	destroy_if_invalid_heir = yes
 
+	dlc_feature = all_under_heaven
+
 	ai_primary_priority = { add = @never_primary_score }
 }
 
@@ -808,6 +914,8 @@ c_nf_ma = {
 	no_automatic_claims = yes
 	noble_family = yes
 	destroy_if_invalid_heir = yes
+
+	dlc_feature = all_under_heaven
 
 	ai_primary_priority = { add = @never_primary_score }
 }
@@ -824,6 +932,8 @@ c_nf_wanggiya = {
 	noble_family = yes
 	destroy_if_invalid_heir = yes
 
+	dlc_feature = all_under_heaven
+
 	ai_primary_priority = { add = @never_primary_score }
 }
 
@@ -838,6 +948,8 @@ c_nf_jiang = {
 	no_automatic_claims = yes
 	noble_family = yes
 	destroy_if_invalid_heir = yes
+
+	dlc_feature = all_under_heaven
 
 	ai_primary_priority = { add = @never_primary_score }
 }
@@ -854,6 +966,8 @@ c_nf_deng = {
 	noble_family = yes
 	destroy_if_invalid_heir = yes
 
+	dlc_feature = all_under_heaven
+
 	ai_primary_priority = { add = @never_primary_score }
 }
 
@@ -868,6 +982,8 @@ c_nf_lao = {
 	no_automatic_claims = yes
 	noble_family = yes
 	destroy_if_invalid_heir = yes
+
+	dlc_feature = all_under_heaven
 
 	ai_primary_priority = { add = @never_primary_score }
 }
@@ -884,6 +1000,8 @@ c_nf_wang = {
 	noble_family = yes
 	destroy_if_invalid_heir = yes
 
+	dlc_feature = all_under_heaven
+
 	ai_primary_priority = { add = @never_primary_score }
 }
 
@@ -898,6 +1016,8 @@ c_nf_cheng = {
 	no_automatic_claims = yes
 	noble_family = yes
 	destroy_if_invalid_heir = yes
+
+	dlc_feature = all_under_heaven
 
 	ai_primary_priority = { add = @never_primary_score }
 }
@@ -914,6 +1034,8 @@ c_nf_fuca = {
 	noble_family = yes
 	destroy_if_invalid_heir = yes
 
+	dlc_feature = all_under_heaven
+
 	ai_primary_priority = { add = @never_primary_score }
 }
 
@@ -928,6 +1050,8 @@ c_nf_tonggiya = {
 	no_automatic_claims = yes
 	noble_family = yes
 	destroy_if_invalid_heir = yes
+
+	dlc_feature = all_under_heaven
 
 	ai_primary_priority = { add = @never_primary_score }
 }
@@ -944,6 +1068,8 @@ c_nf_luo = {
 	noble_family = yes
 	destroy_if_invalid_heir = yes
 
+	dlc_feature = all_under_heaven
+
 	ai_primary_priority = { add = @never_primary_score }
 }
 
@@ -958,6 +1084,8 @@ c_nf_husihari = {
 	no_automatic_claims = yes
 	noble_family = yes
 	destroy_if_invalid_heir = yes
+
+	dlc_feature = all_under_heaven
 
 	ai_primary_priority = { add = @never_primary_score }
 }
@@ -974,6 +1102,8 @@ c_nf_liu = {
 	noble_family = yes
 	destroy_if_invalid_heir = yes
 
+	dlc_feature = all_under_heaven
+
 	ai_primary_priority = { add = @never_primary_score }
 }
 
@@ -988,6 +1118,8 @@ d_nf_elliot_mk = {	# Earl of Minto
 	no_automatic_claims = yes
 	noble_family = yes
 	destroy_if_invalid_heir = yes
+
+	dlc_feature = roads_to_power
 
 	ai_primary_priority = { add = @never_primary_score }
 }
@@ -1004,6 +1136,8 @@ d_nf_rawdon_hastings = {
 	noble_family = yes
 	destroy_if_invalid_heir = yes
 
+	dlc_feature = roads_to_power
+
 	ai_primary_priority = { add = @never_primary_score }
 }
 
@@ -1018,6 +1152,8 @@ d_nf_eden = {
 	no_automatic_claims = yes
 	noble_family = yes
 	destroy_if_invalid_heir = yes
+
+	dlc_feature = roads_to_power
 
 	ai_primary_priority = { add = @never_primary_score }
 }
@@ -1034,6 +1170,8 @@ d_nf_rouvroy = {
 	noble_family = yes
 	destroy_if_invalid_heir = yes
 
+	dlc_feature = roads_to_power
+
 	ai_primary_priority = { add = @never_primary_score }
 }
 
@@ -1048,6 +1186,8 @@ d_nf_ubraye = {
 	no_automatic_claims = yes
 	noble_family = yes
 	destroy_if_invalid_heir = yes
+
+	dlc_feature = roads_to_power
 
 	ai_primary_priority = { add = @never_primary_score }
 }
@@ -1064,6 +1204,8 @@ d_nf_brownrigg = {
 	noble_family = yes
 	destroy_if_invalid_heir = yes
 
+	dlc_feature = roads_to_power
+
 	ai_primary_priority = { add = @never_primary_score }
 }
 
@@ -1078,6 +1220,8 @@ d_nf_wilmot_horton = {
 	no_automatic_claims = yes
 	noble_family = yes
 	destroy_if_invalid_heir = yes
+
+	dlc_feature = roads_to_power
 
 	ai_primary_priority = { add = @never_primary_score }
 }
@@ -1094,6 +1238,8 @@ d_nf_maccarthy = {
 	noble_family = yes
 	destroy_if_invalid_heir = yes
 
+	dlc_feature = roads_to_power
+
 	ai_primary_priority = { add = @never_primary_score }
 }
 
@@ -1108,6 +1254,8 @@ d_nf_chalmers = {
 	no_automatic_claims = yes
 	noble_family = yes
 	destroy_if_invalid_heir = yes
+
+	dlc_feature = roads_to_power
 
 	ai_primary_priority = { add = @never_primary_score }
 }

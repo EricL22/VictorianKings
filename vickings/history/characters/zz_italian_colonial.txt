@@ -1,7 +1,7 @@
 ﻿italian_eritrea_0 = {
 	name = "Giuseppe"
 	dynasty = raggi
-	religion = catholic
+	rite = roman_rite
 	culture = italian
 	1866.5.17 = {
 		birth = yes

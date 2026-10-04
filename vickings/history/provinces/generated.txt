@@ -3,3931 +3,3852 @@
 
 2 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 3 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 4 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 5 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 6 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 7 = {
 	1800.1.1 = {
 		culture = scottish
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 8 = {
 	1800.1.1 = {
 		culture = scottish
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 9 = {
 	1800.1.1 = {
 		culture = irish
-		religion = catholic
+		rite = roman_rite
 	}
 }
 15 = {
 	1800.1.1 = {
 		culture = scottish
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 18 = {
 	1800.1.1 = {
 		culture = irish
-		religion = catholic
+		rite = roman_rite
 	}
 }
 20 = {
 	1800.1.1 = {
 		culture = irish
-		religion = catholic
+		rite = roman_rite
 	}
 }
 24 = {
 	1800.1.1 = {
 		culture = irish
-		religion = catholic
+		rite = roman_rite
 	}
 }
 28 = {
 	1800.1.1 = {
 		culture = irish
-		religion = catholic
+		rite = roman_rite
 	}
 }
 34 = {
 	1800.1.1 = {
 		culture = irish
-		religion = catholic
+		rite = roman_rite
 	}
 }
 37 = {
 	1800.1.1 = {
 		culture = irish
-		religion = catholic
+		rite = roman_rite
 	}
 }
 43 = {
 	1800.1.1 = {
 		culture = irish
-		religion = catholic
+		rite = roman_rite
 	}
 }
 45 = {
 	1800.1.1 = {
 		culture = irish
-		religion = catholic
+		rite = roman_rite
 	}
 }
 46 = {
 	1800.1.1 = {
 		culture = irish
-		religion = catholic
+		rite = roman_rite
 	}
 }
 49 = {
 	1800.1.1 = {
 		culture = irish
-		religion = catholic
+		rite = roman_rite
 	}
 }
 52 = {
 	1800.1.1 = {
 		culture = irish
-		religion = catholic
+		rite = roman_rite
 	}
 }
 56 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 57 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 59 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 60 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 62 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 63 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 65 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 67 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 70 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 74 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 77 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 78 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 81 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 82 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 88 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 92 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 94 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 98 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 99 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 102 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 103 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 104 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 108 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 110 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 114 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 115 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 118 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 120 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 124 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 127 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 133 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 136 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 141 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 145 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 153 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 154 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 156 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 161 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 166 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 169 = {
 	1800.1.1 = {
-		religion = orthodox
+		culture = russian
+		rite = slavic_rite
 	}
 }
 172 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 174 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 175 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 179 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 182 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 185 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 190 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 192 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 195 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 198 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 205 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 207 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 211 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 213 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 216 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 219 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 229 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 234 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 236 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 238 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 239 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 241 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 245 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 248 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 249 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 252 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 257 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 260 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 265 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 268 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 270 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 277 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 280 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 286 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 289 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 291 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 301 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 302 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 307 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 314 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 317 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 321 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 323 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 327 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 330 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 332 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 335 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 339 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 341 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 346 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 350 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 351 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 354 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 360 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 361 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 366 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 369 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 373 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 374 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 380 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 384 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 385 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 386 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 389 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 390 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 391 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 393 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 396 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 397 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 409 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 410 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 413 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 414 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 417 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 419 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 421 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 422 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 425 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 428 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 430 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 439 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 442 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 444 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 449 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 450 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 454 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 458 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 461 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 464 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 465 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 466 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 468 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 469 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 470 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 471 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 472 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 473 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 474 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 475 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 476 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 479 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 480 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 481 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 482 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 483 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 484 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 485 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 486 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 487 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 488 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 489 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 490 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 491 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 492 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 493 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 494 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 495 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 496 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 497 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 498 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 499 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 500 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 501 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 502 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 505 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 506 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 507 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 510 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 511 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 512 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 513 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 515 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 516 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 517 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 518 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 519 = {
 	1800.1.1 = {
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 520 = {
 	1800.1.1 = {
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 521 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 523 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 524 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 525 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 527 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 528 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 529 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 530 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 531 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 532 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 533 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 534 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 535 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 536 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 537 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 538 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 539 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 540 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 541 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 543 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 544 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 545 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 546 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 547 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 548 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 549 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 550 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 552 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 554 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 555 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 556 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 557 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 558 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 562 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 564 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 566 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 567 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 568 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 572 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 575 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 580 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 581 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 582 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 584 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 587 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 588 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 589 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 590 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 592 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 593 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 595 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 596 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 597 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 598 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 599 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 603 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 605 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 607 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 608 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 609 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 610 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 611 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 614 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 615 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 616 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 617 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 618 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 620 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 621 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 622 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 623 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 624 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 625 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 627 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 669 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 674 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 702 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 705 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 706 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 707 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 735 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 736 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 737 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 739 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 740 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 742 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
+	}
+}
+744 = {
+	1800.1.1 = {
+		rite = hanafi
 	}
 }
 745 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 750 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 753 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 754 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 757 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 758 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 759 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 760 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 761 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 886 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 888 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 889 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 895 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 896 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 900 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 901 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 933 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 934 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 1137 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 1138 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 1151 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 1175 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 1178 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 1180 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 1181 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 1186 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 1191 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 1236 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 1242 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 1243 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 1273 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 1297 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 1303 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 1318 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 1319 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 1323 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 1333 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 1336 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 1337 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 1338 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 1339 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 1340 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 1342 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 1375 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 1423 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 1424 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 1431 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 1434 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 1438 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 1439 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 1440 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 1441 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 1442 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 1444 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 1445 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 1449 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 1502 = {
 	1800.1.1 = {
 		culture = english
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 1506 = {
 	1800.1.1 = {
 		culture = english
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 1510 = {
 	1800.1.1 = {
 		culture = english
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 1514 = {
 	1800.1.1 = {
 		culture = english
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 1518 = {
 	1800.1.1 = {
 		culture = english
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 1522 = {
 	1800.1.1 = {
 		culture = english
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 1527 = {
 	1800.1.1 = {
 		culture = english
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 1531 = {
 	1800.1.1 = {
 		culture = english
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 1534 = {
 	1800.1.1 = {
 		culture = english
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 1538 = {
 	1800.1.1 = {
 		culture = english
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 1541 = {
 	1800.1.1 = {
 		culture = english
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 1544 = {
 	1800.1.1 = {
 		culture = english
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 1549 = {
 	1800.1.1 = {
 		culture = english
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 1551 = {
 	1800.1.1 = {
 		culture = english
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 1555 = {
 	1800.1.1 = {
 		culture = english
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 1558 = {
 	1800.1.1 = {
 		culture = english
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 1561 = {
 	1800.1.1 = {
 		culture = english
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 1565 = {
 	1800.1.1 = {
 		culture = english
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 1569 = {
 	1800.1.1 = {
 		culture = english
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 1573 = {
 	1800.1.1 = {
 		culture = english
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 1576 = {
 	1800.1.1 = {
 		culture = english
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 1580 = {
 	1800.1.1 = {
 		culture = english
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 1583 = {
 	1800.1.1 = {
 		culture = english
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 1588 = {
 	1800.1.1 = {
 		culture = english
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 1591 = {
 	1800.1.1 = {
 		culture = english
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 1595 = {
 	1800.1.1 = {
 		culture = english
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 1600 = {
 	1800.1.1 = {
 		culture = english
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 1603 = {
 	1800.1.1 = {
 		culture = english
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 1606 = {
 	1800.1.1 = {
 		culture = english
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 1609 = {
 	1800.1.1 = {
 		culture = english
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 1615 = {
 	1800.1.1 = {
 		culture = english
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 1618 = {
 	1800.1.1 = {
 		culture = english
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 1621 = {
 	1800.1.1 = {
 		culture = english
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 1624 = {
 	1800.1.1 = {
 		culture = english
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 1627 = {
 	1800.1.1 = {
 		culture = english
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 1630 = {
 	1800.1.1 = {
 		culture = english
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 1632 = {
 	1800.1.1 = {
 		culture = english
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 1635 = {
 	1800.1.1 = {
 		culture = english
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 1637 = {
 	1800.1.1 = {
 		culture = english
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1639 = {
 	1800.1.1 = {
 		culture = english
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1643 = {
 	1800.1.1 = {
 		culture = english
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1646 = {
 	1800.1.1 = {
 		culture = english
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 1649 = {
 	1800.1.1 = {
 		culture = welsh
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 1652 = {
 	1800.1.1 = {
 		culture = welsh
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 1654 = {
 	1800.1.1 = {
 		culture = english
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 1657 = {
 	1800.1.1 = {
 		culture = welsh
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 1659 = {
 	1800.1.1 = {
 		culture = welsh
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 1661 = {
 	1800.1.1 = {
 		culture = welsh
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 1663 = {
 	1800.1.1 = {
 		culture = welsh
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 1665 = {
 	1800.1.1 = {
 		culture = welsh
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 1667 = {
 	1800.1.1 = {
 		culture = welsh
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 1670 = {
 	1800.1.1 = {
 		culture = welsh
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 1673 = {
 	1800.1.1 = {
 		culture = welsh
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 1676 = {
 	1800.1.1 = {
 		culture = scottish
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 1677 = {
 	1800.1.1 = {
 		culture = scottish
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 1679 = {
 	1800.1.1 = {
 		culture = scottish
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 1680 = {
 	1800.1.1 = {
 		culture = scottish
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 1682 = {
 	1800.1.1 = {
 		culture = scottish
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 1686 = {
 	1800.1.1 = {
 		culture = scottish
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 1689 = {
 	1800.1.1 = {
 		culture = scottish
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 1692 = {
 	1800.1.1 = {
 		culture = gaelic
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 1695 = {
 	1800.1.1 = {
 		culture = scottish
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 1698 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 1700 = {
 	1800.1.1 = {
 		culture = scottish
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 1703 = {
 	1800.1.1 = {
 		culture = gaelic
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 1705 = {
 	1800.1.1 = {
 		culture = gaelic
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 1707 = {
 	1800.1.1 = {
 		culture = scottish
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 1709 = {
 	1800.1.1 = {
 		culture = gaelic
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 1712 = {
 	1800.1.1 = {
 		culture = scottish
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 1715 = {
 	1800.1.1 = {
 		culture = scottish
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 1718 = {
 	1800.1.1 = {
 		culture = scottish
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 1720 = {
 	1800.1.1 = {
 		culture = scottish
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 1724 = {
 	1800.1.1 = {
 		culture = scottish
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 1727 = {
 	1800.1.1 = {
 		culture = scottish
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 1731 = {
 	1800.1.1 = {
 		culture = scottish
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 1734 = {
 	1800.1.1 = {
 		culture = scottish
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 1737 = {
 	1800.1.1 = {
 		culture = scottish
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 1741 = {
 	1800.1.1 = {
 		culture = scottish
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 1743 = {
 	1800.1.1 = {
 		culture = scottish
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 1747 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1748 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1752 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1754 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1758 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1759 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1760 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1763 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1769 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1773 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1776 = {
 	1800.1.1 = {
 		culture = portuguese
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1777 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1784 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1785 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1787 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1795 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1797 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1801 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1803 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1805 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1806 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1807 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1811 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1814 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1816 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1818 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1821 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1826 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1831 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1834 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1835 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1837 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1843 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1845 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1846 = {
 	1800.1.1 = {
 		culture = castilian
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1849 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1852 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1853 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1854 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1855 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1857 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1860 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1862 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1864 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1866 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1868 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1872 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1873 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1878 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1881 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1887 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1892 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1894 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1897 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1901 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1902 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1906 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1912 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1913 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1915 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1919 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1923 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1924 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1932 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1935 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1936 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1937 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1947 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1949 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1952 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1954 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1960 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1963 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1967 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1977 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1978 = {
 	1800.1.1 = {
 		culture = castilian
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1979 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1981 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1987 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1991 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1995 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 1996 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2000 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2002 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2006 = {
 	1800.1.1 = {
 		culture = occitan
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2009 = {
 	1800.1.1 = {
 		culture = occitan
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2010 = {
 	1800.1.1 = {
 		culture = occitan
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2012 = {
 	1800.1.1 = {
 		culture = occitan
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2013 = {
 	1800.1.1 = {
 		culture = occitan
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2015 = {
 	1800.1.1 = {
 		culture = occitan
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2017 = {
 	1800.1.1 = {
 		culture = occitan
-		religion = catholic
 	}
 }
 2019 = {
 	1800.1.1 = {
 		culture = occitan
-		religion = catholic
 	}
 }
 2021 = {
 	1800.1.1 = {
 		culture = occitan
-		religion = catholic
 	}
 }
 2030 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
 	}
 }
 2031 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
 	}
 }
 2035 = {
 	1800.1.1 = {
 		culture = french
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 2039 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
-	}
-}
-2040 = {
-	1800.1.1 = {
-		religion = catholic
-	}
-}
-2041 = {
-	1800.1.1 = {
-		religion = catholic
-	}
-}
-2043 = {
-	1800.1.1 = {
-		religion = catholic
 	}
 }
 2046 = {
 	1800.1.1 = {
 		culture = swabian
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 2049 = {
 	1800.1.1 = {
 		culture = swabian
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 2051 = {
 	1800.1.1 = {
 		culture = swabian
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 2053 = {
 	1800.1.1 = {
 		culture = swabian
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 2055 = {
 	1800.1.1 = {
 		culture = swabian
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 2057 = {
 	1800.1.1 = {
 		culture = swabian
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2061 = {
 	1800.1.1 = {
 		culture = occitan
-		religion = catholic
 	}
 }
 2063 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
 	}
 }
 2065 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
 	}
 }
 2071 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2076 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2082 = {
 	1800.1.1 = {
 		culture = franconian
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2083 = {
 	1800.1.1 = {
 		culture = franconian
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 2084 = {
 	1800.1.1 = {
 		culture = franconian
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 2088 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2091 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2092 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2097 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2098 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2099 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2104 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2105 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2106 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2112 = {
 	1800.1.1 = {
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 2115 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2117 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2118 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2125 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2126 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2130 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2132 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2142 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2147 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2150 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2152 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2154 = {
 	1800.1.1 = {
 		culture = breton
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2156 = {
 	1800.1.1 = {
 		culture = breton
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2157 = {
 	1800.1.1 = {
 		culture = breton
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2162 = {
 	1800.1.1 = {
 		culture = breton
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2165 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2167 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2170 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2174 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2178 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2179 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2184 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2189 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2190 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2193 = {
 	1800.1.1 = {
 		culture = occitan
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2196 = {
 	1800.1.1 = {
 		culture = occitan
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2199 = {
 	1800.1.1 = {
 		culture = occitan
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2201 = {
 	1800.1.1 = {
 		culture = occitan
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2209 = {
 	1800.1.1 = {
 		culture = occitan
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2214 = {
 	1800.1.1 = {
 		culture = occitan
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2215 = {
 	1800.1.1 = {
 		culture = occitan
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2217 = {
 	1800.1.1 = {
 		culture = occitan
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2222 = {
 	1800.1.1 = {
 		culture = occitan
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2223 = {
 	1800.1.1 = {
 		culture = occitan
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2225 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2226 = {
 	1800.1.1 = {
 		culture = occitan
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2231 = {
 	1800.1.1 = {
 		culture = occitan
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2232 = {
 	1800.1.1 = {
 		culture = occitan
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2237 = {
 	1800.1.1 = {
 		culture = occitan
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2241 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2244 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2248 = {
 	1800.1.1 = {
 		culture = occitan
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2249 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2252 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2257 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2261 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2264 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2267 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2270 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2274 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2278 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2280 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2283 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2284 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2285 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2289 = {
 	1800.1.1 = {
 		culture = occitan
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2294 = {
 	1800.1.1 = {
 		culture = occitan
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2297 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
 	}
 }
 2299 = {
 	1800.1.1 = {
 		culture = occitan
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2302 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2309 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2310 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2314 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2319 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2325 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2329 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2331 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2333 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2338 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2339 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2343 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2346 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2348 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2349 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2351 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2352 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2354 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2358 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2359 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2363 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2371 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2374 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2380 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2384 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2387 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2388 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2390 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2391 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2392 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2397 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2405 = {
 	1800.1.1 = {
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 2406 = {
 	1800.1.1 = {
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 2413 = {
 	1800.1.1 = {
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 2414 = {
 	1800.1.1 = {
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 2417 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2418 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 2421 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2424 = {
 	1800.1.1 = {
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 2428 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2429 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2433 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2438 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 2440 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2446 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2450 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2458 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2460 = {
 	1800.1.1 = {
 		culture = swabian
-		religion = reformed
-	}
-}
-2466 = {
-	1800.1.1 = {
-		religion = catholic
-	}
-}
-2469 = {
-	1800.1.1 = {
-		religion = catholic
-	}
-}
-2471 = {
-	1800.1.1 = {
-		religion = catholic
-	}
-}
-2475 = {
-	1800.1.1 = {
-		religion = catholic
-	}
-}
-2477 = {
-	1800.1.1 = {
-		religion = catholic
-	}
-}
-2482 = {
-	1800.1.1 = {
-		religion = catholic
-	}
-}
-2483 = {
-	1800.1.1 = {
-		religion = catholic
-	}
-}
-2491 = {
-	1800.1.1 = {
-		religion = catholic
-	}
-}
-2494 = {
-	1800.1.1 = {
-		religion = catholic
+		rite = reformed_rite
 	}
 }
 2497 = {
 	1800.1.1 = {
-		religion = catholic
-	}
-}
-2499 = {
-	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2501 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2503 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2505 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2506 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2508 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2512 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2516 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2517 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2518 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2521 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2525 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2527 = {
 	1800.1.1 = {
-		religion = catholic
-	}
-}
-2531 = {
-	1800.1.1 = {
-		religion = catholic
-	}
-}
-2532 = {
-	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2536 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2537 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2540 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2542 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2543 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2546 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2553 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2554 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2555 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2560 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2568 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2569 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2572 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2575 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2585 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2589 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2594 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2596 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2598 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2600 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2604 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2606 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2608 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2609 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2610 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2612 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2619 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2623 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2627 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2628 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2629 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2631 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2633 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2635 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2638 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2640 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2646 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2647 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2650 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2652 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2653 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2656 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2658 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2659 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2662 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2670 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2673 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2679 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2680 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 2689 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 2694 = {
 	1800.1.1 = {
 		culture = franconian
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 2704 = {
 	1800.1.1 = {
 		culture = franconian
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 2706 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2708 = {
 	1800.1.1 = {
 		culture = franconian
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2709 = {
 	1800.1.1 = {
 		culture = french
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 2710 = {
 	1800.1.1 = {
 		culture = franconian
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2717 = {
 	1800.1.1 = {
 		culture = swabian
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2721 = {
 	1800.1.1 = {
 		culture = swabian
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2729 = {
 	1800.1.1 = {
 		culture = franconian
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 2731 = {
 	1800.1.1 = {
 		culture = franconian
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 2732 = {
 	1800.1.1 = {
 		culture = franconian
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 2737 = {
 	1800.1.1 = {
 		culture = franconian
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 2739 = {
 	1800.1.1 = {
 		culture = franconian
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2745 = {
 	1800.1.1 = {
 		culture = franconian
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2746 = {
 	1800.1.1 = {
 		culture = swabian
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 2748 = {
 	1800.1.1 = {
 		culture = swabian
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 2751 = {
@@ -3938,4084 +3859,4085 @@
 2757 = {
 	1800.1.1 = {
 		culture = swabian
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2759 = {
 	1800.1.1 = {
 		culture = swabian
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 2763 = {
 	1800.1.1 = {
 		culture = swabian
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2768 = {
 	1800.1.1 = {
 		culture = swabian
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2773 = {
 	1800.1.1 = {
 		culture = swabian
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2777 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2778 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2782 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2783 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2786 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2793 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 2795 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 2797 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 2802 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 2804 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 2807 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 2809 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 2811 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 2812 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 2814 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 2817 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 2818 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 2823 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 2826 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 2827 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 2830 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 2835 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 2838 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 2844 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 2846 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 2847 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2850 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 2852 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 2855 = {
 	1800.1.1 = {
 		culture = franconian
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 2859 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 2860 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 2862 = {
 	1800.1.1 = {
 		culture = franconian
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2870 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2874 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 2875 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 2877 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 2878 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2883 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 2886 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2889 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 2893 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 2894 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 2898 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 2900 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 2901 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 2906 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 2913 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 2916 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 2918 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 2919 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 2924 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2927 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2932 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 2935 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 2936 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 2942 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2945 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2949 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2950 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2955 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2956 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2957 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2959 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2960 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2964 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2971 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2975 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2977 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2980 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2987 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2989 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2990 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2998 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 3003 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 3005 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 3010 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 3012 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 3020 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 3021 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 3023 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 3025 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 3027 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 3030 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 3039 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 3040 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 3042 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 3044 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 3045 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 3048 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 3049 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 3052 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 3058 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 3061 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 3064 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 3067 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 3068 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 3073 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 3081 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 3086 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 3088 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 3089 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 3092 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 3093 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 3096 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 3099 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 3100 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 3105 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 3109 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 3117 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 3121 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 3125 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 3128 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 3131 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 3134 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 3135 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 3140 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 3143 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 3145 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 3149 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 3152 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 3154 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 3158 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 3160 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 3166 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 3168 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 3173 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 3180 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 3181 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 3187 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 3190 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 3196 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 3198 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 3204 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 3208 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 3212 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 3214 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 3216 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 3218 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 3220 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 3501 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 3507 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 3510 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 3513 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 3516 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 3519 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 3522 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 3527 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 3529 = {
 	1800.1.1 = {
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 3539 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 3543 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 3548 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 3551 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 3555 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 3560 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 3567 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 3572 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 3575 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 3583 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 3591 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 3596 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 3598 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 3604 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 3610 = {
 	1800.1.1 = {
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 3617 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 3618 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 3628 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 3632 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 3636 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 3643 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 3650 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 3653 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 3656 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 3658 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 3664 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 3678 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 3689 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 3691 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 3702 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 3708 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 3711 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 3713 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 3720 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 3724 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 3728 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 3733 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 3736 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 3739 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 3771 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 3784 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 3793 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 3797 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 3803 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 3805 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 3808 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 3809 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 3811 = {
 	1800.1.1 = {
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 3815 = {
 	1800.1.1 = {
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 3817 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 3820 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 3823 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 3826 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 3827 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 3831 = {
 	1800.1.1 = {
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 3835 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 3839 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 3842 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 3846 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 3848 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 3854 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 3856 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 3862 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 3863 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 3865 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 3870 = {
 	1800.1.1 = {
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 3873 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 3877 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 3882 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 3885 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 3889 = {
 	1800.1.1 = {
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 3897 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 3903 = {
 	1800.1.1 = {
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 3905 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 3907 = {
 	1800.1.1 = {
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 3919 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 3924 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 3931 = {
 	1800.1.1 = {
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 3940 = {
 	1800.1.1 = {
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 3942 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 4001 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 4005 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 4007 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4012 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4017 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 4019 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 4022 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4026 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4029 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 4032 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4036 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4039 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4044 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4046 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 4047 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 4053 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 4057 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 4062 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 4068 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 4073 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 4076 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 4083 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4088 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4089 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4093 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4096 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 4103 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 4106 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 4109 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 4112 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 4116 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 4118 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 4122 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 4125 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 4129 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 4136 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 4138 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 4145 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 4147 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 4154 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 4161 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 4162 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 4165 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 4166 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 4168 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 4171 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4177 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 4182 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 4184 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 4185 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4191 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4193 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 4195 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 4201 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4203 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4204 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4210 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4212 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4215 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4221 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4223 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4225 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4231 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4238 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4240 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4247 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4251 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4256 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 4261 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 4265 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4268 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4274 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4277 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4283 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4285 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4289 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4299 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4305 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 4308 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 4312 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 4316 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 4319 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 4323 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 4325 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 4332 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 4333 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 4335 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4341 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4343 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4351 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4369 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4376 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4378 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4383 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4384 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4388 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4390 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4393 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4394 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4402 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4404 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4409 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4414 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4418 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4422 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4429 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4432 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4438 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4441 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4447 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4448 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4452 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4455 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4456 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4460 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4465 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4471 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4477 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4479 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4484 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4489 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4499 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4500 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4504 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4507 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4513 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4515 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4517 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4521 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4524 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4528 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4530 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4533 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4534 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 4537 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 4543 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 4545 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 4552 = {
 	1800.1.1 = {
-		religion = ashari
+		rite = maliki
 	}
 }
 4556 = {
 	1800.1.1 = {
-		religion = ashari
+		rite = maliki
 	}
 }
 4557 = {
 	1800.1.1 = {
-		religion = ashari
+		rite = maliki
 	}
 }
 4561 = {
 	1800.1.1 = {
-		religion = ashari
+		rite = maliki
 	}
 }
 4562 = {
 	1800.1.1 = {
-		religion = ashari
+		rite = maliki
 	}
 }
 4563 = {
 	1800.1.1 = {
-		religion = ashari
+		rite = maliki
 	}
 }
 4573 = {
 	1800.1.1 = {
-		religion = ashari
+		rite = maliki
 	}
 }
 4575 = {
 	1800.1.1 = {
-		religion = ashari
+		rite = maliki
 	}
 }
 4578 = {
 	1800.1.1 = {
-		religion = ashari
+		rite = maliki
 	}
 }
 4582 = {
 	1800.1.1 = {
-		religion = ashari
+		rite = maliki
 	}
 }
 4585 = {
 	1800.1.1 = {
-		religion = ashari
+		rite = maliki
 	}
 }
 4588 = {
 	1800.1.1 = {
-		religion = ashari
+		rite = maliki
 	}
 }
 4589 = {
 	1800.1.1 = {
-		religion = ashari
+		rite = maliki
 	}
 }
 4594 = {
 	1800.1.1 = {
-		religion = ashari
+		rite = maliki
 	}
 }
 4598 = {
 	1800.1.1 = {
-		religion = ashari
+		rite = maliki
 	}
 }
 4601 = {
 	1800.1.1 = {
-		religion = ashari
+		rite = maliki
 	}
 }
 4604 = {
 	1800.1.1 = {
-		religion = ashari
+		rite = maliki
 	}
 }
 4609 = {
 	1800.1.1 = {
-		religion = ibadi
+		rite = ibadi
 	}
 }
 4615 = {
 	1800.1.1 = {
-		religion = ibadi
+		rite = ibadi
 	}
 }
 4616 = {
 	1800.1.1 = {
-		religion = ibadi
+		rite = ibadi
 	}
 }
 4619 = {
 	1800.1.1 = {
-		religion = ibadi
+		rite = ibadi
 	}
 }
 4621 = {
 	1800.1.1 = {
-		religion = ashari
+		rite = maliki
 	}
 }
 4623 = {
 	1800.1.1 = {
-		religion = ashari
+		rite = maliki
 	}
 }
 4631 = {
 	1800.1.1 = {
-		religion = ashari
+		rite = maliki
 	}
 }
 4634 = {
 	1800.1.1 = {
-		religion = ashari
+		rite = maliki
 	}
 }
 4637 = {
 	1800.1.1 = {
-		religion = ashari
+		rite = maliki
 	}
 }
 4639 = {
 	1800.1.1 = {
-		religion = ashari
+		rite = maliki
 	}
 }
 4644 = {
 	1800.1.1 = {
-		religion = ashari
+		rite = maliki
 	}
 }
 4647 = {
 	1800.1.1 = {
-		religion = ashari
+		rite = maliki
 	}
 }
 4650 = {
 	1800.1.1 = {
-		religion = ashari
+		rite = maliki
 	}
 }
 4653 = {
 	1800.1.1 = {
-		religion = ashari
+		rite = maliki
 	}
 }
 4655 = {
 	1800.1.1 = {
-		religion = ashari
+		rite = maliki
 	}
 }
 4659 = {
 	1800.1.1 = {
-		religion = ashari
+		rite = maliki
 	}
 }
 4666 = {
 	1800.1.1 = {
-		religion = ashari
+		rite = maliki
 	}
 }
 4669 = {
 	1800.1.1 = {
-		religion = ashari
+		rite = maliki
 	}
 }
 4672 = {
 	1800.1.1 = {
-		religion = ashari
+		rite = maliki
 	}
 }
 4674 = {
 	1800.1.1 = {
-		religion = ashari
+		rite = maliki
 	}
 }
 4677 = {
 	1800.1.1 = {
-		religion = ashari
+		rite = maliki
 	}
 }
 4678 = {
 	1800.1.1 = {
-		religion = ashari
+		rite = maliki
 	}
 }
 4682 = {
 	1800.1.1 = {
-		religion = ashari
+		rite = maliki
 	}
 }
 4683 = {
 	1800.1.1 = {
-		religion = ashari
+		rite = maliki
 	}
 }
 4694 = {
 	1800.1.1 = {
-		religion = ashari
+		rite = maliki
 	}
 }
 4699 = {
 	1800.1.1 = {
-		religion = ashari
+		rite = maliki
 	}
 }
 4700 = {
 	1800.1.1 = {
-		religion = ashari
+		rite = maliki
 	}
 }
 4703 = {
 	1800.1.1 = {
-		religion = ashari
+		rite = maliki
 	}
 }
 4706 = {
 	1800.1.1 = {
-		religion = ashari
+		rite = maliki
 	}
 }
 4709 = {
 	1800.1.1 = {
-		religion = ashari
+		rite = maliki
 	}
 }
 4716 = {
 	1800.1.1 = {
-		religion = ashari
+		rite = maliki
 	}
 }
 4718 = {
 	1800.1.1 = {
-		religion = ashari
+		rite = maliki
 	}
 }
 4720 = {
 	1800.1.1 = {
-		religion = ashari
+		rite = maliki
 	}
 }
 4723 = {
 	1800.1.1 = {
-		religion = ashari
+		rite = maliki
 	}
 }
 4724 = {
 	1800.1.1 = {
-		religion = ashari
+		rite = maliki
 	}
 }
 4727 = {
 	1800.1.1 = {
-		religion = ashari
+		rite = maliki
 	}
 }
 4735 = {
 	1800.1.1 = {
-		religion = ashari
+		rite = maliki
 	}
 }
 4736 = {
 	1800.1.1 = {
-		religion = ashari
+		rite = maliki
 	}
 }
 4737 = {
 	1800.1.1 = {
-		religion = ashari
+		rite = maliki
 	}
 }
 4739 = {
 	1800.1.1 = {
-		religion = ashari
+		rite = maliki
 	}
 }
 4745 = {
 	1800.1.1 = {
-		religion = ashari
+		rite = maliki
 	}
 }
 4749 = {
 	1800.1.1 = {
-		religion = ashari
+		rite = maliki
 	}
 }
 4760 = {
 	1800.1.1 = {
-		religion = ashari
+		rite = maliki
 	}
 }
 4767 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 4771 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 4781 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 4787 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 4788 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 4797 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 4800 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 4803 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 4805 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 4820 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 4821 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 4828 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 4829 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 4830 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 4835 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 4869 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4893 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4894 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4896 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 4900 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 4905 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 4909 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 4912 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 4915 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 4918 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 4922 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 4924 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 4931 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 4940 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 4943 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 4946 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 4951 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 4953 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 4957 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 4965 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 4978 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 4981 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 4985 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 4989 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 4990 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 4995 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 4997 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 5000 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 5003 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 5005 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 5012 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 5015 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 5017 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 5019 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 5021 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 5029 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 5031 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 5038 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 5040 = {
 	1800.1.1 = {
-		religion = orthodox
+		culture = russian
+		rite = byzantine_rite
 	}
 }
 5041 = {
 	1800.1.1 = {
-		religion = orthodox
+		culture = russian
+		rite = byzantine_rite
 	}
 }
 5044 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 5051 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5057 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 5063 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5070 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5073 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 5077 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 5087 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5091 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5095 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5098 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5104 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5109 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5114 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5117 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5119 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5127 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5129 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5134 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5136 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 5137 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5143 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5146 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5150 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5153 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5156 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5159 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5161 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5164 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5168 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5170 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5173 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5181 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5185 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5189 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5193 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5196 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5203 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5206 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5209 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5212 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5215 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5217 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5221 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5231 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5239 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5247 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5250 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5257 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5260 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5263 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5269 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5272 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5274 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5276 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 5286 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5287 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5290 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5296 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 5299 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5303 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5305 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 5309 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 5311 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5313 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 5319 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5320 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 5326 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5328 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 5330 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 5343 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 5349 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 5350 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5353 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5356 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5357 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 5359 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5362 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5366 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5371 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5374 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5377 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5383 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5384 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5388 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5390 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5396 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5399 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5403 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5408 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 5412 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5418 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 5420 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 5422 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 5426 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5431 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5432 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5437 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5441 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5445 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5449 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5455 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5461 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5463 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5466 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5470 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5475 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5479 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5481 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5483 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5487 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 5490 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 5494 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 5497 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 5501 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5504 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5509 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5519 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5525 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5526 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5531 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 5536 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 5539 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 5546 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 5548 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 5552 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 5561 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 5565 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 5569 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 5574 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 5581 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 5584 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 5590 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 5594 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 5598 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 5602 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 5604 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 5617 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 5623 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 5632 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 5637 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 5642 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 5647 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 5651 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 5654 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 5657 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 5664 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 5672 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 5681 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 5703 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 5771 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 5777 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 5790 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 5798 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5803 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5807 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5811 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5814 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5817 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5820 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5824 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5829 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5832 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5835 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5838 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5842 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5845 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5849 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 5892 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 5893 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 5900 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 5991 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 5993 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 5994 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 6001 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 6003 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 6005 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 6011 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 6014 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 6017 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 6019 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 6020 = {
 	1800.1.1 = {
-		religion = imami
+		rite = imami
 	}
 }
 6053 = {
 	1800.1.1 = {
-		religion = ashari
+		rite = maliki
 	}
 }
 6060 = {
 	1800.1.1 = {
-		religion = ashari
+		rite = maliki
 	}
 }
 6093 = {
 	1800.1.1 = {
-		religion = ashari
+		rite = maliki
 	}
 }
 6097 = {
 	1800.1.1 = {
-		religion = ashari
+		rite = maliki
 	}
 }
 6466 = {
 	1800.1.1 = {
-		religion = ashari
+		rite = maliki
 	}
 }
 6467 = {
 	1800.1.1 = {
-		religion = ashari
+		rite = maliki
 	}
 }
 6469 = {
 	1800.1.1 = {
-		religion = ashari
+		rite = maliki
 	}
 }
 6470 = {
 	1800.1.1 = {
-		religion = ashari
+		rite = maliki
 	}
 }
 6472 = {
 	1800.1.1 = {
-		religion = ashari
+		rite = maliki
 	}
 }
 6473 = {
 	1800.1.1 = {
-		religion = ashari
+		rite = maliki
 	}
 }
 6475 = {
 	1800.1.1 = {
-		religion = ashari
+		rite = maliki
 	}
 }
 6476 = {
 	1800.1.1 = {
-		religion = ashari
+		rite = maliki
 	}
 }
 6481 = {
 	1800.1.1 = {
-		religion = ashari
+		rite = maliki
 	}
 }
 7020 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7025 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7026 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7035 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7036 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7038 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7042 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7065 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7068 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7070 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7073 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7076 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7077 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7078 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7085 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7088 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7094 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7096 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7099 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7103 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7104 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7105 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7111 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7112 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7121 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7123 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7125 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7129 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7133 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7141 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7142 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7151 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7154 = {
 	1800.1.1 = {
 		culture = karluk
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7157 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7162 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7163 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7164 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7168 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7173 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7177 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7178 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7181 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7183 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7185 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7187 = {
 	1800.1.1 = {
 		culture = uyghur
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7192 = {
 	1800.1.1 = {
 		culture = uyghur
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7194 = {
 	1800.1.1 = {
 		culture = uyghur
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7197 = {
 	1800.1.1 = {
 		culture = uyghur
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7199 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7202 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7203 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7218 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 7221 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7224 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7227 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7230 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7233 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7238 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7239 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7242 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7247 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 7248 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 7251 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7252 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7256 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7257 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7261 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7263 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7266 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7267 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7270 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7272 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7274 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7275 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7277 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7282 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7287 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7290 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7293 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7294 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7297 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7299 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7300 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7304 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7305 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7310 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7311 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7314 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7316 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7322 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7324 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7327 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7330 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7332 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7333 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7334 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7338 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7340 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7342 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7343 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7346 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7349 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7355 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7356 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7357 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7459 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7465 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7483 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7486 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7489 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7492 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7495 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7496 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7499 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7967 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7969 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7980 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 7999 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 8713 = {
 	1800.1.1 = {
 		culture = castilian
-		religion = catholic
+		rite = roman_rite
 	}
 }
 8714 = {
 	1800.1.1 = {
 		culture = castilian
-		religion = catholic
+		rite = roman_rite
 	}
 }
 8716 = {
 	1800.1.1 = {
 		culture = portuguese
-		religion = catholic
+		rite = roman_rite
 	}
 }
 8717 = {
 	1800.1.1 = {
 		culture = french
-		religion = catholic
 	}
 }
 8719 = {
 	1800.1.1 = {
 		culture = french
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 8723 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 8727 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 8731 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 8735 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 8745 = {
 	1800.1.1 = {
 		culture = irish
-		religion = catholic
+		rite = roman_rite
 	}
 }
 8755 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 8782 = {
 	1800.1.1 = {
-		religion = protestant
+		rite = lutheran_rite
 	}
 }
 8789 = {
 	1800.1.1 = {
-		religion = orthodox
+		rite = slavic_rite
 	}
 }
 8795 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 8799 = {
 	1800.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 9476 = {
@@ -8045,42 +7967,262 @@
 }
 9576 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 9581 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 9583 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 9585 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 9606 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 9608 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 9616 = {
 	1800.1.1 = {
-		religion = maturidi
+		rite = hanafi
 	}
 }
 9702 = {
 	1800.1.1 = {
 		culture = han
+	}
+}
+9856 = {
+	1800.1.1 = {
+		rite = daoxue
+	}
+}
+9858 = {
+	1800.1.1 = {
+		rite = daoxue
+	}
+}
+9862 = {
+	1800.1.1 = {
+		rite = daoxue
+	}
+}
+9865 = {
+	1800.1.1 = {
+		rite = daoxue
+	}
+}
+9869 = {
+	1800.1.1 = {
+		rite = daoxue
+	}
+}
+9870 = {
+	1800.1.1 = {
+		rite = daoxue
+	}
+}
+9873 = {
+	1800.1.1 = {
+		rite = daoxue
+	}
+}
+9879 = {
+	1800.1.1 = {
+		rite = daoxue
+	}
+}
+9880 = {
+	1800.1.1 = {
+		rite = daoxue
+	}
+}
+9883 = {
+	1800.1.1 = {
+		rite = daoxue
+	}
+}
+9887 = {
+	1800.1.1 = {
+		rite = daoxue
+	}
+}
+9889 = {
+	1800.1.1 = {
+		rite = daoxue
+	}
+}
+9891 = {
+	1800.1.1 = {
+		rite = daoxue
+	}
+}
+9894 = {
+	1800.1.1 = {
+		rite = daoxue
+	}
+}
+9899 = {
+	1800.1.1 = {
+		rite = daoxue
+	}
+}
+9902 = {
+	1800.1.1 = {
+		rite = daoxue
+	}
+}
+9906 = {
+	1800.1.1 = {
+		rite = daoxue
+	}
+}
+9911 = {
+	1800.1.1 = {
+		rite = daoxue
+	}
+}
+9912 = {
+	1800.1.1 = {
+		rite = daoxue
+	}
+}
+9916 = {
+	1800.1.1 = {
+		rite = daoxue
+	}
+}
+9919 = {
+	1800.1.1 = {
+		rite = daoxue
+	}
+}
+9922 = {
+	1800.1.1 = {
+		rite = daoxue
+	}
+}
+9925 = {
+	1800.1.1 = {
+		rite = daoxue
+	}
+}
+9926 = {
+	1800.1.1 = {
+		rite = daoxue
+	}
+}
+9933 = {
+	1800.1.1 = {
+		rite = daoxue
+	}
+}
+9936 = {
+	1800.1.1 = {
+		rite = daoxue
+	}
+}
+9937 = {
+	1800.1.1 = {
+		rite = daoxue
+	}
+}
+9939 = {
+	1800.1.1 = {
+		rite = daoxue
+	}
+}
+9943 = {
+	1800.1.1 = {
+		rite = daoxue
+	}
+}
+9946 = {
+	1800.1.1 = {
+		rite = daoxue
+	}
+}
+9949 = {
+	1800.1.1 = {
+		rite = daoxue
+	}
+}
+9953 = {
+	1800.1.1 = {
+		rite = daoxue
+	}
+}
+9954 = {
+	1800.1.1 = {
+		rite = daoxue
+	}
+}
+9958 = {
+	1800.1.1 = {
+		rite = daoxue
+	}
+}
+9961 = {
+	1800.1.1 = {
+		rite = daoxue
+	}
+}
+9964 = {
+	1800.1.1 = {
+		rite = daoxue
+	}
+}
+9973 = {
+	1800.1.1 = {
+		rite = daoxue
+	}
+}
+9974 = {
+	1800.1.1 = {
+		rite = daoxue
+	}
+}
+9979 = {
+	1800.1.1 = {
+		rite = daoxue
+	}
+}
+9981 = {
+	1800.1.1 = {
+		rite = daoxue
+	}
+}
+9984 = {
+	1800.1.1 = {
+		rite = daoxue
+	}
+}
+9987 = {
+	1800.1.1 = {
+		rite = daoxue
+	}
+}
+9991 = {
+	1800.1.1 = {
+		rite = daoxue
+	}
+}
+9995 = {
+	1800.1.1 = {
+		rite = daoxue
 	}
 }
 10059 = {
@@ -8185,51 +8327,51 @@
 }
 10802 = {
 	1800.1.1 = {
-		religion = theravada
+		rite = theravada
 	}
 }
 10804 = {
 	1800.1.1 = {
-		religion = theravada
+		rite = theravada
 	}
 }
 10811 = {
 	1800.1.1 = {
-		religion = theravada
+		rite = theravada
 	}
 }
 10816 = {
 	1800.1.1 = {
-		religion = theravada
+		rite = theravada
 	}
 }
 10820 = {
 	1800.1.1 = {
 		culture = lao
-		religion = theravada
+		rite = theravada
 	}
 }
 10821 = {
 	1800.1.1 = {
 		culture = tai
-		religion = theravada
+		rite = theravada
 	}
 }
 10822 = {
 	1800.1.1 = {
 		culture = tai
-		religion = theravada
+		rite = theravada
 	}
 }
 10823 = {
 	1800.1.1 = {
-		religion = theravada
+		rite = theravada
 	}
 }
 10893 = {
 	1800.1.1 = {
 		culture = khmu
-		religion = theravada
+		rite = theravada
 	}
 }
 10894 = {
@@ -8244,74 +8386,74 @@
 }
 10898 = {
 	1800.1.1 = {
-		religion = theravada
+		rite = theravada
 	}
 }
 10908 = {
 	1800.1.1 = {
-		religion = theravada
+		rite = theravada
 	}
 }
 10909 = {
 	1800.1.1 = {
-		religion = theravada
+		rite = theravada
 	}
 }
 10911 = {
 	1800.1.1 = {
 		culture = tai
-		religion = theravada
+		rite = theravada
 	}
 }
 10927 = {
 	1800.1.1 = {
-		religion = theravada
+		rite = theravada
 	}
 }
 10932 = {
 	1800.1.1 = {
 		culture = khmer
-		religion = theravada
+		rite = theravada
 	}
 }
 10935 = {
 	1800.1.1 = {
 		culture = tai
-		religion = theravada
+		rite = theravada
 	}
 }
 10940 = {
 	1800.1.1 = {
 		culture = lao
-		religion = theravada
+		rite = theravada
 	}
 }
 10941 = {
 	1800.1.1 = {
 		culture = lao
-		religion = theravada
+		rite = theravada
 	}
 }
 10952 = {
 	1800.1.1 = {
-		religion = theravada
+		rite = theravada
 	}
 }
 10956 = {
 	1800.1.1 = {
 		culture = tai
-		religion = theravada
+		rite = theravada
 	}
 }
 10960 = {
 	1800.1.1 = {
-		religion = theravada
+		rite = theravada
 	}
 }
 10961 = {
 	1800.1.1 = {
 		culture = tai
-		religion = theravada
+		rite = theravada
 	}
 }
 10970 = {
@@ -8326,33 +8468,33 @@
 }
 10995 = {
 	1800.1.1 = {
-		religion = theravada
+		rite = theravada
 	}
 }
 11213 = {
 	1800.1.1 = {
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 11217 = {
 	1800.1.1 = {
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 11218 = {
 	1800.1.1 = {
-		religion = reformed
+		rite = reformed_rite
 	}
 }
 11432 = {
 	1800.1.1 = {
-		religion = theravada
+		rite = theravada
 	}
 }
 11437 = {
 	1800.1.1 = {
 		culture = tai
-		religion = theravada
+		rite = theravada
 	}
 }
 11440 = {
@@ -8362,23 +8504,23 @@
 }
 11441 = {
 	1800.1.1 = {
-		religion = theravada
+		rite = theravada
 	}
 }
 11443 = {
 	1800.1.1 = {
-		religion = theravada
+		rite = theravada
 	}
 }
 11449 = {
 	1800.1.1 = {
-		religion = theravada
+		rite = theravada
 	}
 }
 11465 = {
 	1800.1.1 = {
 		culture = lao
-		religion = theravada
+		rite = theravada
 	}
 }
 11472 = {
@@ -8724,21 +8866,25 @@
 11840 = {
 	1800.1.1 = {
 		culture = goryeo
+		rite = daoxue
 	}
 }
 11842 = {
 	1800.1.1 = {
 		culture = goryeo
+		rite = daoxue
 	}
 }
 11844 = {
 	1800.1.1 = {
 		culture = goryeo
+		rite = daoxue
 	}
 }
 11848 = {
 	1800.1.1 = {
 		culture = goryeo
+		rite = daoxue
 	}
 }
 11849 = {
@@ -8954,23 +9100,23 @@
 12502 = {
 	1800.1.1 = {
 		culture = khmu
-		religion = theravada
+		rite = theravada
 	}
 }
 12504 = {
 	1800.1.1 = {
 		culture = tai
-		religion = theravada
+		rite = theravada
 	}
 }
 12511 = {
 	1800.1.1 = {
-		religion = theravada
+		rite = theravada
 	}
 }
 12512 = {
 	1800.1.1 = {
-		religion = theravada
+		rite = theravada
 	}
 }
 12572 = {

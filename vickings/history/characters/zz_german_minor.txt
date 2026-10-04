@@ -1,6 +1,6 @@
 ﻿lubeck_0 = {
 	name = "Christian Adolph Overbeck"
-	religion = protestant
+	rite = lutheran_rite
 	culture = saxon
 	1755.8.21 = {
 		birth = yes
@@ -11,7 +11,7 @@
 }
 lubeck_1 = {
 	name = "Christian Heinrich Kindler"
-	religion = protestant
+	rite = lutheran_rite
 	culture = saxon
 	1762.8.28 = {
 		birth = yes
@@ -22,7 +22,7 @@ lubeck_1 = {
 }
 lubeck_2 = {
 	name = "Heinrich Brehmer"
-	religion = protestant
+	rite = lutheran_rite
 	culture = saxon
 	1800.6.22 = {
 		birth = yes
@@ -33,7 +33,7 @@ lubeck_2 = {
 }
 lubeck_3 = {
 	name = "Johann Georg Eschenburg"
-	religion = protestant
+	rite = lutheran_rite
 	culture = saxon
 	1844.4.1 = {
 		birth = yes
@@ -46,7 +46,7 @@ lubeck_3 = {
 
 hamburg_0 = {
 	name = "Friedrich von Graffen"
-	religion = protestant
+	rite = lutheran_rite
 	culture = saxon
 	1745.11.7 = {
 		birth = yes
@@ -57,7 +57,7 @@ hamburg_0 = {
 }
 hamburg_1 = {
 	name = "Johann Heinrich Bartels"
-	religion = protestant
+	rite = lutheran_rite
 	culture = saxon
 	1761.5.20 = {
 		birth = yes
@@ -68,7 +68,7 @@ hamburg_1 = {
 }
 hamburg_2 = {
 	name = "Friedrich Sieveking"
-	religion = protestant
+	rite = lutheran_rite
 	culture = saxon
 	1798.4.28 = {
 		birth = yes
@@ -79,7 +79,7 @@ hamburg_2 = {
 }
 hamburg_3 = {
 	name = "Max Predöhl"
-	religion = protestant
+	rite = lutheran_rite
 	culture = saxon
 	1854.3.29 = {
 		birth = yes
@@ -92,7 +92,7 @@ hamburg_3 = {
 
 brunswick_0 = {
 	name = "Friedrich Wilhelm"	# Duke of Brunswick
-	religion = protestant
+	rite = lutheran_rite
 	culture = saxon
 	1771.10.9 = {
 		birth = yes
@@ -103,7 +103,7 @@ brunswick_0 = {
 }
 brunswick_1 = {
 	name = "Charles"	# II of Brunswick
-	religion = protestant
+	rite = lutheran_rite
 	culture = saxon
 	father = brunswick_0
 	1804.10.30 = {
@@ -115,7 +115,7 @@ brunswick_1 = {
 }
 brunswick_2 = {
 	name = "Wilhelm"	# Duke of Brunswick
-	religion = protestant
+	rite = lutheran_rite
 	culture = saxon
 	father = brunswick_0
 	1806.4.25 = {
@@ -130,7 +130,7 @@ brunswick_2 = {
 cdr_0 = {
 	name = "Karl Theodor"	# Prince-Primate of the Rhine Confederation
 	dynasty = eur_41C2_0
-	religion = catholic
+	rite = roman_rite
 	culture = franconian
 	trait = just
 	trait = compassionate

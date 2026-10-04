@@ -1,7 +1,7 @@
 ﻿kachhwaha_0 = {
 	name = "Jagat Singh"	# II of Jaipur
 	dynasty = 1044383
-	religion = vaishnavism
+	rite = vaishnavism
 	culture = rajput
 	1786.1.1 = {
 		birth = yes
@@ -14,7 +14,7 @@
 kachhwaha_1 = {
 	name = "Jai Singh"	# III of Jaipur
 	dynasty = 1044383
-	religion = vaishnavism
+	rite = vaishnavism
 	culture = rajput
 	father = kachhwaha_0
 	1819.4.25 = {
@@ -30,7 +30,7 @@ kachhwaha_1 = {
 kachhwaha_2 = {
 	name = "Ram Singh"	# II of Jaipur
 	dynasty = 1044383
-	religion = vaishnavism
+	rite = vaishnavism
 	culture = rajput
 	father = kachhwaha_1
 	1834.1.1 = {

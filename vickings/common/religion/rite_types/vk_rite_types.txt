@@ -1,0 +1,52 @@
+﻿lutheran_rite = {
+	name = lutheran_rite
+	desc = lutheran_rite_desc
+	faith = protestant
+
+	color = { 0.7 0.7 0.8 }
+	icon = protestant
+
+	tenets = {
+		tenet_communal_identity
+		tenet_literalism
+		tenet_mendicant_preachers
+	}
+
+	doctrines = {
+		special_doctrine_ecumenical_christian
+		doctrine_no_head
+		doctrine_consanguinity_cousins
+		doctrine_clerical_marriage_allowed
+		doctrine_clerical_succession_temporal_fixed_appointment
+		doctrine_monasticism_absent
+	}
+
+	#localization = { }
+}
+
+reformed_rite = {
+	name = reformed_rite
+	desc = reformed_rite_desc
+	faith = protestant
+
+	color = { 0.4 0.4 0.6 }
+	icon = adamites
+
+	tenets = {
+		tenet_communal_identity
+		tenet_aniconism
+		tenet_literalism
+	}
+
+	doctrines = {
+		special_doctrine_ecumenical_christian
+		doctrine_no_head
+		doctrine_pluralism_pluralistic
+		doctrine_consanguinity_cousins
+		doctrine_clerical_marriage_allowed
+		doctrine_clerical_succession_temporal_fixed_appointment
+		doctrine_monasticism_forbidden
+	}
+
+	#localization = { }
+}

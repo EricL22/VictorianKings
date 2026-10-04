@@ -20,7 +20,7 @@ e_britannia = {
 					exists = holder
 					holder = { has_government = administrative_government }
 				}
-				set_state_faith = faith:protestant
+				set_state_rite = rite:lutheran_rite
 				holder = {
 					add_realm_law_skip_effects = single_heir_succession_law
 					add_realm_law_skip_effects = imperial_bureaucracy_1
@@ -79,7 +79,7 @@ e_france = {
 					exists = holder
 					holder = { has_government = administrative_government }
 				}
-				set_state_faith = faith:catholic
+				set_state_rite = rite:roman_rite
 				holder = {
 					add_realm_law_skip_effects = single_heir_succession_law
 					add_realm_law_skip_effects = imperial_bureaucracy_2
@@ -201,7 +201,7 @@ e_russia = {
 					exists = holder
 					holder = { has_government = administrative_government }
 				}
-				set_state_faith = faith:orthodox
+				set_state_rite = rite:slavic_rite
 				holder = {
 					add_realm_law_skip_effects = single_heir_succession_law
 					add_realm_law_skip_effects = imperial_bureaucracy_3
@@ -268,7 +268,7 @@ e_italy = {
 					exists = holder
 					holder = { has_government = administrative_government }
 				}
-				set_state_faith = faith:protestant
+				set_state_rite = rite:lutheran_rite
 				holder = {
 					add_realm_law_skip_effects = single_heir_succession_law
 					add_realm_law_skip_effects = imperial_bureaucracy_1
