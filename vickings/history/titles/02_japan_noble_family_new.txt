@@ -1,0 +1,11 @@
+﻿### JAPANESE NOBLE FAMILIES
+
+# YAMATO
+
+c_nf_yamato = { # Yamato
+	1762.9.15 = { holder = yamato_42 }	# Go-Sakuramachi
+	1813.12.24 = { holder = yamato_46 }	# Kōkaku
+	1840.12.11 = { holder = yamato_47 }	# Ninkō
+	1846.3.10 = { holder = yamato_48 }	# Kōmei
+	1912.7.29 = { holder = yamato_50 } 	# Taishō
+}

@@ -1,0 +1,798 @@
+﻿yamato_0 = { # Emperor Tsuchimikado
+	name = "Tamehito"	# 为仁
+	dynasty = japanese_yamato
+	rite = pundarika
+	culture = japanese
+	father = japanese_yamato_57 # Emperor Go-Toba
+	1196.1.3 = {
+		birth = yes
+	}
+	1231.11.6 = {
+		name = "Tsuchimikado" # Posthumous name
+		death = yes
+	}
+}
+
+yamato_1 = { # Emperor Juntoku
+	name = "Morinari"	# 守成
+	dynasty = japanese_yamato
+	rite = pundarika
+	culture = japanese
+	father = japanese_yamato_57 # Emperor Go-Toba
+	1197.10.22 = {
+		birth = yes
+	}
+	1242.10.7 = {
+		name = "Juntoku" # Posthumous name
+		death = yes
+	}
+}
+
+yamato_2 = { # Emperor Chūkyō
+	name = "Kanenari"	# 怀成
+	dynasty = japanese_yamato
+	rite = pundarika
+	culture = japanese
+	father = yamato_1
+	1218.10.30 = {
+		birth = yes
+	}
+	1234.6.18 = {
+		name = "ChU_kyO_" # Posthumous name
+		death = yes
+	}
+}
+
+yamato_3 = { # Emperor Go-Horikawa
+	name = "Yutahito"	# 茂仁
+	dynasty = japanese_yamato
+	rite = pundarika
+	culture = japanese
+	father = japanese_yamato_59 # Prince Morisada
+	1212.3.22 = {
+		birth = yes
+	}
+	1234.8.31 = {
+		name = "Go_Horikawa" # Posthumous name
+		death = yes
+	}
+}
+
+yamato_4 = { # Emperor Shijō
+	name = "Mitsuhito"	# 秀仁
+	dynasty = japanese_yamato
+	rite = pundarika
+	culture = japanese
+	father = yamato_3
+	1231.3.17 = {
+		birth = yes
+	}
+	1242.2.10 = {
+		name = "ShijO_" # Posthumous name
+		death = yes
+	}
+}
+
+yamato_5 = { # Emperor Go-Saga
+	name = "Kunihito"	# 邦仁
+	dynasty = japanese_yamato
+	rite = pundarika
+	culture = japanese
+	father = yamato_0
+	1220.4.1 = {
+		birth = yes
+	}
+	1272.3.17 = {
+		name = "Go_Saga" # Posthumous name
+		death = yes
+	}
+}
+
+yamato_6 = { # Emperor Go-Fukakusa
+	name = "Hisahito"	# 久仁
+	dynasty = japanese_yamato
+	rite = pundarika
+	culture = japanese
+	father = yamato_5
+	1243.6.28 = {
+		birth = yes
+	}
+	1304.8.17 = {
+		name = "Go_Fukakusa" # Posthumous name
+		death = yes
+	}
+}
+
+yamato_7 = { # Emperor Kameyama
+	name = "Tsunehito"	# 恒仁
+	dynasty = japanese_yamato
+	rite = pundarika
+	culture = japanese
+	father = yamato_5
+	1249.7.9 = {
+		birth = yes
+	}
+	1305.10.4 = {
+		name = "Kameyama" # Posthumous name
+		death = yes
+	}
+}
+
+yamato_8 = { # Emperor Go-Uda
+	name = "Yohito"	# 世仁
+	dynasty = japanese_yamato
+	rite = pundarika
+	culture = japanese
+	father = yamato_7
+	1267.12.17 = {
+		birth = yes
+	}
+	1324.7.16 = {
+		name = "Go_Uda" # Posthumous name
+		death = yes
+	}
+}
+
+yamato_9 = { # Emperor Fushimi
+	name = "Hirohito"	# 熙仁
+	dynasty = japanese_yamato
+	rite = pundarika
+	culture = japanese
+	father = yamato_6
+	1265.5.10 = {
+		birth = yes
+	}
+	1317.10.8 = {
+		name = "Fushimi" # Posthumous name
+		death = yes
+	}
+}
+
+yamato_10 = { # Emperor Go-Fushimi
+	name = "Tanehito"	# 胤仁
+	dynasty = japanese_yamato
+	rite = pundarika
+	culture = japanese
+	father = yamato_9
+	1288.4.5 = {
+		birth = yes
+	}
+	1336.5.17 = {
+		name = "Go_Fushimi" # Posthumous name
+		death = yes
+	}
+}
+
+yamato_11 = { # Emperor Go-Nijō
+	name = "Kuniharu"	# 邦治
+	dynasty = japanese_yamato
+	rite = shinto
+	culture = japanese
+	father = yamato_8
+	1285.3.9 = {
+		birth = yes
+	}
+	1308.9.10 = {
+		name = "Go_NijO_" # Posthumous name
+		death = yes
+	}
+}
+
+yamato_12 = { # Emperor Hanazono
+	name = "Tomihito"	# 富仁
+	dynasty = japanese_yamato
+	rite = pundarika
+	culture = japanese
+	father = yamato_9
+	1297.8.14 = {
+		birth = yes
+	}
+	1348.12.2 = {
+		name = "Hanazono" # Posthumous name
+		death = yes
+	}
+}
+
+yamato_13 = { # Emperor Go-Daigo
+	name = "Takaharu"	# 尊治
+	dynasty = japanese_yamato
+	rite = pundarika
+	culture = japanese
+	father = yamato_8
+	1288.11.26 = {
+		birth = yes
+	}
+	1339.9.19 = {
+		name = "Go_Daigo" # Posthumous name
+		death = yes
+	}
+}
+
+yamato_14 = { # Emperor Go-Murakami
+	name = "Noriyoshi"	# 义良
+	dynasty = japanese_yamato
+	rite = pundarika
+	culture = japanese
+	father = yamato_13
+	1328.1.1 = {
+		birth = yes
+	}
+	1368.3.29 = {
+		name = "Go_Murakami" # Posthumous name
+		death = yes
+	}
+}
+
+yamato_15 = { # Emperor Chōkei
+	name = "Yutanari"	# 寬成
+	dynasty = japanese_yamato
+	rite = pundarika
+	culture = japanese
+	father = yamato_14
+	1343.1.1 = {
+		birth = yes
+	}
+	1394.8.27 = {
+		name = "ChO_kei" # Posthumous name
+		death = yes
+	}
+}
+
+yamato_16 = { # Emperor Go-Kameyama
+	name = "Hironari"	# 熙成
+	dynasty = japanese_yamato
+	rite = pundarika
+	culture = japanese
+	father = yamato_14
+	1347.1.1 = {
+		birth = yes
+	}
+	1424.5.10 = {
+		name = "Go_Kameyama" # Posthumous name
+		death = yes
+	}
+}
+
+yamato_17 = { # Emperor Kōgon
+	name = "Kazuhito"	# 量仁
+	dynasty = japanese_yamato
+	rite = pundarika
+	culture = japanese
+	father = yamato_10
+	1313.8.1 = {
+		birth = yes
+	}
+	1364.8.5 = {
+		death = yes
+	}
+}
+
+yamato_18 = { # Emperor Kōmyō
+	name = "Yutahito"	# 丰仁
+	dynasty = japanese_yamato
+	rite = pundarika
+	culture = japanese
+	father = yamato_10
+	1322.1.11 = {
+		birth = yes
+	}
+	1380.7.26 = {
+		death = yes
+	}
+}
+
+yamato_19 = { # Emperor Sukō
+	name = "Masuhito"	# 益仁
+	dynasty = japanese_yamato
+	rite = pundarika
+	culture = japanese
+	father = yamato_17
+	1334.5.25 = {
+		birth = yes
+	}
+	1398.1.31 = {
+		death = yes
+	}
+}
+
+yamato_20 = { # Emperor Go-Kōgon
+	name = "Iyahito"	# 弥仁
+	dynasty = japanese_yamato
+	rite = pundarika
+	culture = japanese
+	father = yamato_17
+	1338.3.23 = {
+		birth = yes
+	}
+	1374.3.12 = {
+		death = yes
+	}
+}
+
+yamato_21 = { # Emperor Go-En'yū
+	name = "Ohito"	# 緒仁
+	dynasty = japanese_yamato
+	rite = pundarika
+	culture = japanese
+	father = yamato_20
+	1359.1.11 = {
+		birth = yes
+	}
+	1393.6.6 = {
+		death = yes
+	}
+}
+
+yamato_22 = { # Emperor Go-Komatsu
+	name = "Motohito"	# 幹仁
+	dynasty = japanese_yamato
+	rite = pundarika
+	culture = japanese
+	father = yamato_21
+	1377.8.1 = {
+		birth = yes
+	}
+	1433.12.1 = {
+		name = "Go_Komatsu" # Posthumous name
+		death = yes
+	}
+}
+
+yamato_23 = { # Emperor Shōkō
+	name = "Mihito"	# 躬仁
+	dynasty = japanese_yamato
+	rite = pundarika
+	culture = japanese
+	father = yamato_22
+	1401.5.12 = {
+		birth = yes
+	}
+	1428.8.30 = {
+		name = "ShO_kO_" # Posthumous name
+		death = yes
+	}
+}
+
+yamato_24 = {
+	name = "Yoshihito"	# 榮仁
+	dynasty = japanese_yamato
+	rite = pundarika
+	culture = japanese
+	father = yamato_19
+	1352.1.1 = {
+		birth = yes
+	}
+	1416.12.9 = {
+		death = yes
+	}
+}
+
+yamato_25 = {
+	name = "Sadafusa"	# 貞成
+	dynasty = japanese_yamato
+	rite = pundarika
+	culture = japanese
+	father = yamato_19
+	1372.4.9 = {
+		birth = yes
+	}
+	1456.9.28 = {
+		death = yes
+	}
+}
+
+yamato_26 = { # Emperor Go-Hanazono
+	name = "Hikohito"	# 彦仁
+	dynasty = japanese_yamato
+	rite = pundarika
+	culture = japanese
+	father = yamato_25
+	1419.7.10 = {
+		birth = yes
+	}
+	1471.1.18 = {
+		name = "Go_Hanazono" # Posthumous name
+		death = yes
+	}
+}
+
+yamato_27 = { # Emperor Go-Tsuchimikado
+	name = "Fusahito"	# 成仁
+	dynasty = japanese_yamato
+	rite = pundarika
+	culture = japanese
+	father = yamato_26
+	1442.7.3 = {
+		birth = yes
+	}
+	1500.10.21 = {
+		name = "Go_Tsuchimikado" # Posthumous name
+		death = yes
+	}
+}
+
+yamato_28 = { # Emperor Go-Kashiwabara
+	name = "Katsuhito"	# 勝仁
+	dynasty = japanese_yamato
+	rite = pundarika
+	culture = japanese
+	father = yamato_27
+	1462.11.19 = {
+		birth = yes
+	}
+	1526.5.18 = {
+		name = "Go_Kashiwabara" # Posthumous name
+		death = yes
+	}
+}
+
+yamato_29 = { # Emperor Go-Nara
+	name = "Tomohito"	# 知仁
+	dynasty = japanese_yamato
+	rite = pundarika
+	culture = japanese
+	father = yamato_28
+	1495.1.26 = {
+		birth = yes
+	}
+	1557.9.27 = {
+		name = "Go_Nara" # Posthumous name
+		death = yes
+	}
+}
+
+yamato_30 = { # Emperor Ōgimachi
+	name = "Michihito"	# 方仁
+	dynasty = japanese_yamato
+	rite = pundarika
+	culture = japanese
+	father = yamato_29
+	1517.6.18 = {
+		birth = yes
+	}
+	1593.2.6 = {
+		name = "O_gimachi" # Posthumous name
+		death = yes
+	}
+}
+
+yamato_31 = {
+	name = "Masahito"	# 誠仁
+	dynasty = japanese_yamato
+	rite = pundarika
+	culture = japanese
+	father = yamato_30
+	1552.5.16 = {
+		birth = yes
+	}
+	1586.9.7 = {
+		death = yes
+	}
+}
+
+yamato_32 = { # Emperor Go-Yōzei
+	name = "Katahito"	# 周仁
+	dynasty = japanese_yamato
+	rite = pundarika
+	culture = japanese
+	father = yamato_31
+	1571.12.31 = {
+		birth = yes
+	}
+	1617.9.25 = {
+		name = "Go_YO_zei" # Posthumous name
+		death = yes
+	}
+}
+
+yamato_33 = { # Emperor Go-Mizunō
+	name = "Kotohito"	# 政仁
+	dynasty = japanese_yamato
+	rite = pundarika
+	culture = japanese
+	father = yamato_32
+	1596.6.29 = {
+		birth = yes
+	}
+	1680.9.11 = {
+		name = "Go_MizunO_" # Posthumous name
+		death = yes
+	}
+}
+
+yamato_34 = { # Empress Meishō
+	name = "Okiko"	# 兴子
+	dynasty = japanese_yamato
+	rite = pundarika
+	culture = japanese
+	father = yamato_33
+	female = yes
+	1624.1.9 = {
+		birth = yes
+	}
+	1696.12.4 = {
+		name = "MeishO_" # Posthumous name
+		death = yes
+	}
+}
+
+yamato_35 = { # Emperor Go-Kōmyō
+	name = "Tsuguhito"	# 紹仁
+	dynasty = japanese_yamato
+	rite = pundarika
+	culture = japanese
+	father = yamato_33
+	1633.4.20 = {
+		birth = yes
+	}
+	1654.10.30 = {
+		name = "Go_KO_myO_" # Posthumous name
+		death = yes
+	}
+}
+
+yamato_36 = { # Emperor Go-Sai
+	name = "Nagahito"	# 良仁
+	dynasty = japanese_yamato
+	rite = pundarika
+	culture = japanese
+	father = yamato_33
+	1638.1.1 = {
+		birth = yes
+	}
+	1685.3.26 = {
+		name = "Go_Sai" # Posthumous name
+		death = yes
+	}
+}
+
+yamato_37 = { # Emperor Reigen
+	name = "Satohito"	# 䛊仁
+	dynasty = japanese_yamato
+	rite = pundarika
+	culture = japanese
+	father = yamato_33
+	1654.7.9 = {
+		birth = yes
+	}
+	1732.9.24 = {
+		name = "Reigen" # Posthumous name
+		death = yes
+	}
+}
+
+yamato_38 = { # Emperor Higashiyama
+	name = "Asahito"	# 朝仁
+	dynasty = japanese_yamato
+	rite = pundarika
+	culture = japanese
+	father = yamato_37
+	1675.10.21 = {
+		birth = yes
+	}
+	1710.1.16 = {
+		name = "Higashiyama" # Posthumous name
+		death = yes
+	}
+}
+
+yamato_39 = { # Emperor Nakamikado
+	name = "Yasuhito"	# 庆仁
+	dynasty = japanese_yamato
+	rite = pundarika
+	culture = japanese
+	father = yamato_38
+	1702.1.14 = {
+		birth = yes
+	}
+	1737.5.10 = {
+		name = "Nakamikado" # Posthumous name
+		death = yes
+	}
+}
+
+yamato_40 = { # Emperor Sakuramachi
+	name = "Teruhito"	# 昭仁
+	dynasty = japanese_yamato
+	rite = pundarika
+	culture = japanese
+	father = yamato_39
+	1720.2.8 = {
+		birth = yes
+	}
+	1750.5.28 = {
+		name = "Sakuramachi" # Posthumous name
+		death = yes
+	}
+}
+
+yamato_41 = { # Emperor Momozono
+	name = "TO_hito"	# 遐仁
+	dynasty = japanese_yamato
+	rite = pundarika
+	culture = japanese
+	father = yamato_40
+	1741.4.14 = {
+		birth = yes
+	}
+	1762.8.31 = {
+		name = "Momozono" # Posthumous name
+		death = yes
+	}
+}
+
+yamato_42 = { # Empress Go-Sakuramachi
+	name = "Toshiko"	# 智子
+	dynasty = japanese_yamato
+	rite = pundarika
+	culture = japanese
+	father = yamato_40
+	female = yes
+	1740.9.23 = {
+		birth = yes
+	}
+	1771.1.9 = {
+		trait = former_emperor
+		name = "Go_Sakuramachi" # Posthumous name
+		effect = { add_character_flag = joko_flag }
+	}
+	1813.12.24 = {
+		death = yes
+	}
+}
+
+yamato_43 = { # Emperor Go-Momozono
+	name = "Hidehito"	# 英仁
+	dynasty = japanese_yamato
+	rite = pundarika
+	culture = japanese
+	father = yamato_41
+	1758.8.5 = {
+		birth = yes
+	}
+	1779.12.16 = {
+		name = "Go_Momozono" # Posthumous name
+		death = yes
+	}
+}
+
+yamato_44 = {
+	name = "Naohito"	# 直仁
+	dynasty = japanese_yamato
+	rite = pundarika
+	culture = japanese
+	father = yamato_38
+	1704.10.7 = {
+		birth = yes
+	}
+	1753.7.3 = {
+		death = yes
+	}
+}
+
+yamato_45 = {
+	name = "Sukehito"	# 典仁
+	dynasty = japanese_yamato
+	rite = pundarika
+	culture = japanese
+	father = yamato_44
+	1733.4.1 = {
+		birth = yes
+	}
+	1794.8.1 = {
+		death = yes
+	}
+}
+
+yamato_46 = {
+	name = "Morohito"	# 师仁
+	dynasty = japanese_yamato
+	rite = pundarika
+	culture = japanese
+	father = yamato_45
+	1771.9.23 = {
+		birth = yes
+	}
+	1780.1.1 = {
+		effect = {
+			#add_character_flag = post_name_kokaku
+			dynasty = { add_dynasty_prestige = 5000 }
+		}
+	}
+	1817.5.7 = {
+		trait = former_emperor
+		name = "KO_kaku"
+		effect = { add_character_flag = joko_flag }
+	}
+	1840.12.11 = {
+		death = yes
+	}
+}
+
+yamato_47 = {
+	name = "Ayahito"	# 惠仁
+	dynasty = japanese_yamato
+	rite = pundarika
+	culture = japanese
+	father = yamato_46
+	1800.3.16 = {
+		birth = yes
+	}
+	1812.6.1 = {
+		effect = {
+			#add_character_flag = post_name_ninko
+		}
+	}
+	1846.2.21 = {
+		name = "NinkO_"
+		death = yes
+	}
+}
+
+yamato_48 = {
+	name = "Osahito"	# 統仁
+	dynasty = japanese_yamato
+	rite = pundarika
+	culture = japanese
+	father = yamato_47
+	1831.7.22 = {
+		birth = yes
+	}
+	1836.1.1 = {
+		effect = {
+			#add_character_flag = post_name_komei
+		}
+	}
+	1867.1.30 = {
+		name = "KO_mei"
+		death = yes
+	}
+}
+
+yamato_49 = {
+	name = "Mutsuhito"	# 睦仁
+	dynasty = japanese_yamato
+	rite = pundarika
+	culture = japanese
+	father = yamato_48
+	1852.11.3 = {
+		birth = yes
+	}
+	1867.1.30 = {
+		rite = shinto
+	}
+	1912.7.29 = {
+		name = "Meiji"
+		death = yes
+	}
+}
+
+yamato_50 = {
+	name = "Yoshihito"	# 嘉仁
+	dynasty = japanese_yamato
+	rite = shinto
+	culture = japanese
+	father = yamato_49
+	1879.8.31 = {
+		birth = yes
+	}
+	1926.12.25 = {
+		name = "TaishO_"
+		death = yes
+	}
+}
+
+yamato_51 = {
+	name = "Hirohito"	# 裕仁
+	dynasty = japanese_yamato
+	rite = shinto
+	culture = japanese
+	father = yamato_50
+	1901.4.29 = {
+		birth = yes
+	}
+	1989.1.7 = {
+		name = "ShO_wa"
+		death = yes
+	}
+}

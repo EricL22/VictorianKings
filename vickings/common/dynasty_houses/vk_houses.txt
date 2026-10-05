@@ -98,3 +98,28 @@ house_ang = {
 	name = "dynn_Ang"
 	dynasty = khmer_varman
 }
+
+house_sarada = {
+	name = "dynn_Sarada"
+	dynasty = japanese_minamoto_seiwa # Seiwa Minamoto
+}
+
+house_tokugawa = {
+	name = "dynn_Tokugawa"
+	dynasty = matsudaira
+}
+
+house_tokugawa_kishu = {
+	name = "dynn_Tokugawa_Kishu"
+	dynasty = matsudaira
+}
+
+house_tokugawa_owari = {
+	name = "dynn_Tokugawa_Owari"
+	dynasty = matsudaira
+}
+
+house_tokugawa_mito = {
+	name = "dynn_Tokugawa_Mito"
+	dynasty = matsudaira
+}

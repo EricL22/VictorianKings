@@ -1,0 +1,179 @@
+﻿matsudaira = {
+	name = "dynn_Matsudaira"
+	culture = japanese
+}
+
+174871 = {
+	name = "dynn_Aoyama"
+	culture = japanese
+}
+
+141647 = {
+	name = "dynn_Sakai"
+	culture = japanese
+}
+
+161969 = {
+	name = "dynn_Ii"
+	culture = japanese
+}
+
+151200 = {
+	name = "dynn_Yanagisawa"
+	culture = japanese
+}
+
+168018 = {
+	name = "dynn_Nagai"
+	culture = japanese
+}
+
+156125 = {
+	name = "dynn_Okabe"
+	culture = japanese
+}
+
+850880 = {
+	name = "dynn_Hachisuka"
+	culture = japanese
+}
+
+160068 = {
+	name = "dynn_Yamauchi"
+	culture = japanese
+}
+
+158350 = {
+	name = "dynn_Sengoku"
+	culture = japanese
+}
+
+112128 = {
+	name = "dynn_Ikeda"
+	culture = japanese
+}
+
+156181 = {
+	name = "dynn_Itakura"
+	culture = japanese
+}
+
+794185 = {
+	name = "dynn_Abe"
+	culture = japanese
+}
+
+122168 = {
+	name = "dynn_Asano"
+	culture = japanese
+}
+
+153086 = {
+	name = "dynn_Mori"
+	culture = japanese
+}
+
+119647 = {
+	name = "dynn_Shimazu"
+	culture = japanese
+}
+
+143114 = {
+	name = "dynn_Naitou"
+	culture = japanese
+}
+
+160067 = {
+	name = "dynn_Ogasawara"
+	culture = japanese
+}
+
+199293 = {
+	name = "dynn_Nakagawa"
+	culture = japanese
+}
+
+406016 = {
+	name = "dynn_Kuroda"
+	culture = japanese
+}
+
+941873 = {
+	name = "dynn_Arima"
+	culture = japanese
+}
+
+120067 = {
+	name = "dynn_Matsuura"
+	culture = japanese
+}
+
+201315 = {
+	name = "dynn_Hosokawa"
+	culture = japanese
+}
+
+131987 = {
+	name = "dynn_Sou"
+	culture = japanese
+}
+
+158571 = {
+	name = "dynn_Todo"
+	culture = japanese
+}
+
+146986 = {
+	name = "dynn_Inagaki"
+	culture = japanese
+}
+
+123006 = {
+	name = "dynn_Toda"
+	culture = japanese
+}
+
+161547 = {
+	name = "dynn_Sanada"
+	culture = japanese
+}
+
+118971 = {
+	name = "dynn_Date"
+	culture = japanese
+}
+
+700868 = {
+	name = "dynn_Nanbu"
+	culture = japanese
+}
+
+159073 = {
+	name = "dynn_Tsugaru"
+	culture = japanese
+}
+
+121873 = {
+	name = "dynn_Satake"
+	culture = japanese
+}
+
+186850 = {
+	name = "dynn_Maeda"
+	culture = japanese
+}
+
+915841 = {
+	name = "dynn_Sakakibara"
+	culture = japanese
+}
+
+159078 = {
+	name = "dynn_Matsumae"
+	culture = japanese
+}
+
+146979 = {
+	name = "dynn_Shou"
+	culture = japanese
+}

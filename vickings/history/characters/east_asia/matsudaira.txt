@@ -1,0 +1,116 @@
+﻿## Progenitors
+matsudaira_0 = {
+	name = "Chikauji"	# 亲氏
+	dynasty = matsudaira
+	rite = mantrayana
+	culture = japanese
+	father = sarada_6	# claimed by Tokugawa Shogunate
+	1360.1.1 = {	# unknown
+		birth = yes
+	}
+	1393.1.1 = {
+		death = yes
+	}
+}
+
+matsudaira_1 = {
+	name = "Yasuchika"	# 泰亲
+	dynasty = matsudaira
+	rite = mantrayana
+	culture = japanese
+	father = matsudaira_0	# claimed by Tokugawa Shogunate
+	1380.1.1 = {	# unknown
+		birth = yes
+	}
+	1410.1.1 = {	# unknown
+		death = yes
+	}
+}
+
+matsudaira_2 = {
+	name = "Nobumitsu"	# 信光
+	dynasty = matsudaira
+	rite = mantrayana
+	culture = japanese
+	father = matsudaira_1	# claimed by Tokugawa Shogunate
+	1404.1.1 = {
+		birth = yes
+	}
+	1488.8.29 = {
+		death = yes
+	}
+}
+
+matsudaira_3 = {
+	name = "Chikatada"	# 亲忠
+	dynasty = matsudaira
+	rite = mantrayana
+	culture = japanese
+	father = matsudaira_2
+	1431.1.1 = {
+		birth = yes
+	}
+	1501.9.22 = {
+		death = yes
+	}
+}
+
+matsudaira_4 = {
+	name = "Nagachika"	# 长亲
+	dynasty = matsudaira
+	rite = mantrayana
+	culture = japanese
+	father = matsudaira_3
+	1455.1.1 = {
+		birth = yes
+	}
+	1544.9.9 = {
+		death = yes
+	}
+}
+
+matsudaira_5 = {
+	name = "Nobutada"	# 信忠
+	dynasty = matsudaira
+	rite = mantrayana
+	culture = japanese
+	father = matsudaira_4
+	1490.1.1 = {
+		birth = yes
+	}
+	1531.9.8 = {
+		death = yes
+	}
+}
+
+matsudaira_6 = {
+	name = "Kiyoyasu"	# 清康
+	dynasty = matsudaira
+	rite = mantrayana
+	culture = japanese
+	father = matsudaira_5
+	1511.9.28 = {
+		birth = yes
+	}
+	1535.11.29 = {
+		death = yes
+	}
+}
+
+matsudaira_7 = {
+	name = "Hirotada"	# 广忠
+	dynasty = matsudaira
+	rite = mantrayana
+	culture = japanese
+	father = matsudaira_6
+	1526.6.9 = {
+		birth = yes
+	}
+	1549.4.3 = {
+		death = yes
+	}
+}
+
+# Tokugawa Main Line and houses in separate file
+####################
+

@@ -1,0 +1,98 @@
+﻿# Ancestors of Matsudaira
+sarada_0 = {
+	name = "Yoriji"	# 賴氏
+	dynasty_house = house_sarada
+	rite = mantrayana
+	culture = japanese
+	father = japanese_minamoto_seiwa_202 # Yoshisue
+	1180.1.1 = {	# unknown
+		birth = yes
+	}
+	1272.6.1 = {
+		death = yes
+	}
+}
+
+sarada_1 = {
+	name = "Noriji"	# 教氏
+	dynasty_house = house_sarada
+	rite = mantrayana
+	culture = japanese
+	father = sarada_0
+	1220.1.1 = {	# unknown
+		birth = yes
+	}
+	1280.1.1 = {	# unknown
+		death = yes
+	}
+}
+
+sarada_2 = {
+	name = "Ietoki"	# 家时
+	dynasty_house = house_sarada
+	rite = mantrayana
+	culture = japanese
+	father = sarada_1
+	1240.1.1 = {	# unknown
+		birth = yes
+	}
+	1300.1.1 = {	# unknown
+		death = yes
+	}
+}
+
+sarada_3 = {
+	name = "Mitsuyoshi"	# 满义
+	dynasty_house = house_sarada
+	rite = mantrayana
+	culture = japanese
+	father = sarada_2
+	1260.1.1 = {	# unknown
+		birth = yes
+	}
+	1320.1.1 = {	# unknown
+		death = yes
+	}
+}
+
+sarada_4 = {
+	name = "Masayoshi"	# 政义
+	dynasty_house = house_sarada
+	rite = mantrayana
+	culture = japanese
+	father = sarada_3
+	1300.1.1 = {	# unknown
+		birth = yes
+	}
+	1360.1.1 = {	# unknown
+		death = yes
+	}
+}
+
+sarada_5 = {
+	name = "Chikaki"	# 亲季
+	dynasty_house = house_sarada
+	rite = mantrayana
+	culture = japanese
+	father = sarada_4
+	1320.1.1 = {	# unknown
+		birth = yes
+	}
+	1385.1.1 = {
+		death = yes
+	}
+}
+
+sarada_6 = {
+	name = "Arichika"	# 有亲
+	dynasty_house = house_sarada
+	rite = mantrayana
+	culture = japanese
+	father = sarada_5
+	1340.1.1 = {	# unknown
+		birth = yes
+	}
+	1400.1.1 = {	# unknown
+		death = yes
+	}
+}

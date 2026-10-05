@@ -1,0 +1,418 @@
+﻿tokugawa_0 = {
+	name = "Ieyasu"	# 家康
+	dynasty_house = house_tokugawa
+	rite = mantrayana
+	culture = japanese
+	father = matsudaira_7
+	1543.1.31 = {
+		birth = yes
+	}
+	1616.6.1 = {
+		death = yes
+	}
+}
+
+tokugawa_1 = {
+	name = "Hidetada"	# 秀忠
+	dynasty_house = house_tokugawa
+	rite = mantrayana
+	culture = japanese
+	father = tokugawa_0
+	1579.5.2 = {
+		birth = yes
+	}
+	1632.3.14 = {
+		death = yes
+	}
+}
+
+tokugawa_2 = {
+	name = "Iemitsu"	# 家光
+	dynasty_house = house_tokugawa
+	rite = mantrayana
+	culture = japanese
+	father = tokugawa_1
+	1604.8.12 = {
+		birth = yes
+	}
+	1651.6.8 = {
+		death = yes
+	}
+}
+
+tokugawa_3 = {
+	name = "Ietsuna"	# 家䋄
+	dynasty_house = house_tokugawa
+	rite = mantrayana
+	culture = japanese
+	father = tokugawa_2
+	1641.9.7 = {
+		birth = yes
+	}
+	1680.6.4 = {
+		death = yes
+	}
+}
+
+tokugawa_4 = {
+	name = "Tsunayoshi"	# 䋄吉
+	dynasty_house = house_tokugawa
+	rite = mantrayana
+	culture = japanese
+	father = tokugawa_2
+	1646.2.23 = {
+		birth = yes
+	}
+	1709.2.19 = {
+		death = yes
+	}
+}
+
+tokugawa_5 = {
+	name = "Tsunashige"	# 䋄重
+	dynasty_house = house_tokugawa
+	rite = mantrayana
+	culture = japanese
+	father = tokugawa_2
+	1644.6.28 = {
+		birth = yes
+	}
+	1678.10.29 = {
+		death = yes
+	}
+}
+
+tokugawa_6 = {
+	name = "Ienobu"	# 家宣
+	dynasty_house = house_tokugawa
+	rite = mantrayana
+	culture = japanese
+	father = tokugawa_5
+	1662.6.15 = {
+		birth = yes
+	}
+	1712.11.12 = {
+		death = yes
+	}
+}
+
+tokugawa_7 = {
+	name = "Ietsugu"	# 家継
+	dynasty_house = house_tokugawa
+	rite = mantrayana
+	culture = japanese
+	father = tokugawa_6
+	1709.8.8 = {
+		birth = yes
+	}
+	1716.6.19 = {
+		death = yes
+	}
+}
+
+tokugawa_8 = {
+	name = "Yoshimune"	# 吉宗
+	dynasty_house = house_tokugawa
+	rite = mantrayana
+	culture = japanese
+	father = tokugawa_21
+	1684.11.27 = {
+		birth = yes
+	}
+	1751.7.12 = {
+		death = yes
+	}
+}
+
+tokugawa_9 = {
+	name = "Ieshige"	# 家重
+	dynasty_house = house_tokugawa
+	rite = mantrayana
+	culture = japanese
+	father = tokugawa_8
+	1712.1.28 = {
+		birth = yes
+	}
+	1761.7.13 = {
+		death = yes
+	}
+}
+
+tokugawa_10 = {
+	name = "Ieharu"	# 家治
+	dynasty_house = house_tokugawa
+	rite = mantrayana
+	culture = japanese
+	father = tokugawa_9
+	1737.6.20 = {
+		birth = yes
+	}
+	1786.9.17 = {
+		death = yes
+	}
+}
+
+tokugawa_11 = {
+	name = "Munetada"	# 宗尹
+	dynasty_house = house_tokugawa
+	rite = mantrayana
+	culture = japanese
+	father = tokugawa_8
+	1721.9.7 = {
+		birth = yes
+	}
+	1765.1.13 = {
+		death = yes
+	}
+}
+
+tokugawa_12 = {
+	name = "Harusada"	# 治济
+	dynasty_house = house_tokugawa
+	rite = mantrayana
+	culture = japanese
+	father = tokugawa_11
+	1751.12.23 = {
+		birth = yes
+	}
+	1827.3.17 = {
+		death = yes
+	}
+}
+
+tokugawa_13 = {
+	name = "Ienari"	# 家齐
+	dynasty_house = house_tokugawa
+	rite = mantrayana
+	culture = japanese
+	father = tokugawa_12
+	1773.11.18 = {
+		birth = yes
+	}
+	1787.4.23 = {
+		effect = { add_character_flag = shogun_flag }
+	}
+	1841.3.22 = {
+		death = yes
+	}
+}
+
+tokugawa_14 = {
+	name = "Ieyoshi"	# 家庆
+	dynasty_house = house_tokugawa
+	rite = mantrayana
+	culture = japanese
+	father = tokugawa_13
+	1793.6.22 = {
+		birth = yes
+	}
+	1837.9.4 = {
+		effect = { add_character_flag = shogun_flag }
+	}
+	1853.7.27 = {
+		death = yes
+	}
+}
+
+tokugawa_15 = {
+	name = "Iesada"	# 家定
+	dynasty_house = house_tokugawa
+	rite = mantrayana
+	culture = japanese
+	father = tokugawa_14
+	1824.5.6 = {
+		birth = yes
+	}
+	1858.8.14 = {
+		death = yes
+	}
+}
+
+tokugawa_16 = {
+	name = "Iemochi"	# 家茂
+	dynasty_house = house_tokugawa
+	rite = mantrayana
+	culture = japanese
+	father = tokugawa_27
+	1846.7.17 = {
+		birth = yes
+	}
+	1858.8.14 = {
+		effect = { add_character_flag = shogun_flag }
+	}
+	1866.8.29 = {
+		death = yes
+	}
+}
+
+## Kishu line
+tokugawa_20 = {
+	name = "Yorinobu"	# 賴信
+	dynasty_house = house_tokugawa_kishu
+	rite = mantrayana
+	culture = japanese
+	father = tokugawa_0
+	1602.4.28 = {
+		birth = yes
+	}
+	1671.2.19 = {
+		death = yes
+	}
+}
+tokugawa_21 = {
+	name = "Mitsusada"	# 光貞
+	dynasty_house = house_tokugawa_kishu
+	rite = mantrayana
+	culture = japanese
+	father = tokugawa_20
+	1627.1.28 = {
+		birth = yes
+	}
+	1705.9.25 = {
+		death = yes
+	}
+}
+tokugawa_22 = {
+	name = "Yorizumi"	# 賴純
+	dynasty_house = house_tokugawa_kishu
+	rite = mantrayana
+	culture = japanese
+	father = tokugawa_20
+	1641.2.13 = {
+		birth = yes
+	}
+	1711.11.16 = {
+		death = yes
+	}
+}
+tokugawa_23 = {
+	name = "Munenao"	# 宗直
+	dynasty_house = house_tokugawa_kishu
+	rite = mantrayana
+	culture = japanese
+	father = tokugawa_22
+	1682.8.27 = {
+		birth = yes
+	}
+	1757.8.16 = {
+		death = yes
+	}
+}
+tokugawa_24 = {
+	name = "Munenobu"	# 宗将
+	dynasty_house = house_tokugawa_kishu
+	rite = mantrayana
+	culture = japanese
+	father = tokugawa_23
+	1720.4.7 = {
+		birth = yes
+	}
+	1765.4.14 = {
+		death = yes
+	}
+}
+tokugawa_25 = {
+	name = "Shigenori"	# 重伦
+	dynasty_house = house_tokugawa_kishu
+	rite = mantrayana
+	culture = japanese
+	father = tokugawa_24
+	1746.4.18 = {
+		birth = yes
+	}
+	1829.7.2 = {
+		death = yes
+	}
+}
+tokugawa_26 = {
+	name = "Harutomi"	# 治宝
+	dynasty_house = house_tokugawa_kishu
+	rite = mantrayana
+	culture = japanese
+	father = tokugawa_25
+	1771.7.29 = {
+		birth = yes
+	}
+	1853.1.16 = {
+		death = yes
+	}
+}
+tokugawa_27 = {
+	name = "Nariyuki"	# 齐之
+	dynasty_house = house_tokugawa
+	rite = mantrayana
+	culture = japanese
+	father = tokugawa_13
+	1801.10.16 = {
+		birth = yes
+	}
+	1846.3.31 = {
+		death = yes
+	}
+}
+tokugawa_28 = {
+	name = "Narikatsu"	# 齐强
+	dynasty_house = house_tokugawa
+	rite = mantrayana
+	culture = japanese
+	father = tokugawa_13
+	1820.6.8 = {
+		birth = yes
+	}
+	1849.3.24 = {
+		death = yes
+	}
+}
+tokugawa_29 = {
+	name = "Yorikata"	# 賴謙
+	dynasty_house = house_tokugawa_kishu
+	rite = mantrayana
+	culture = japanese
+	father = tokugawa_24
+	1755.4.18 = {
+		birth = yes
+	}
+	1806.10.13 = {
+		death = yes
+	}
+}
+tokugawa_30 = {
+	name = "Yoriyuki"	# 賴启
+	dynasty_house = house_tokugawa_kishu
+	rite = mantrayana
+	culture = japanese
+	father = tokugawa_29
+	1785.2.2 = {
+		birth = yes
+	}
+	1848.8.7 = {
+		death = yes
+	}
+}
+tokugawa_31 = {
+	name = "Yorisato"	# 賴学
+	dynasty_house = house_tokugawa_kishu
+	rite = mantrayana
+	culture = japanese
+	father = tokugawa_30
+	1809.1.18 = {
+		birth = yes
+	}
+	1865.10.3 = {
+		death = yes
+	}
+}
+tokugawa_32 = {
+	name = "Mochitsugu"	# 茂承
+	dynasty_house = house_tokugawa_kishu
+	rite = mantrayana
+	culture = japanese
+	father = tokugawa_31
+	1844.3.1 = {
+		birth = yes
+	}
+	1906.8.20 = {
+		death = yes
+	}
+}
+####################
