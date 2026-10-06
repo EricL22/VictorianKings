@@ -114,3 +114,414 @@ matsudaira_7 = {
 # Tokugawa Main Line and houses in separate file
 ####################
 
+## Miyazu Domain - Honjō-Matsudaira (biologically Ōkōchi-Matsudaira, an adoptive collateral branch)
+matsudaira_10 = {
+	name = "Suketsuge"	# 資承
+	dynasty_house = house_matsudaira_honjo
+	rite = mantrayana
+	culture = japanese
+	1749.12.8 = {
+		birth = yes
+	}
+	1800.10.6 = {
+		death = yes
+	}
+}
+matsudaira_11 = {
+	name = "Muneakira"	# 宗发
+	dynasty_house = house_matsudaira_honjo
+	rite = mantrayana
+	culture = japanese
+	father = matsudaira_10
+	1782.8.10 = {
+		birth = yes
+	}
+	1840.9.20 = {
+		death = yes
+	}
+}
+matsudaira_12 = {
+	name = "Munetada"	# 宗允
+	dynasty_house = house_matsudaira_honjo
+	rite = mantrayana
+	culture = japanese
+	father = matsudaira_10
+	1780.7.31 = {
+		birth = yes
+	}
+	1816.7.8 = {
+		death = yes
+	}
+}
+matsudaira_13 = {
+	name = "Munehide"	# 宗秀
+	dynasty_house = house_matsudaira_honjo
+	rite = mantrayana
+	culture = japanese
+	father = matsudaira_12
+	1809.10.21 = {
+		birth = yes
+	}
+	1873.12.20 = {
+		death = yes
+	}
+}
+matsudaira_14 = {
+	name = "Munetake"	# 宗武
+	dynasty_house = house_matsudaira_honjo
+	rite = mantrayana
+	culture = japanese
+	father = matsudaira_13
+	1846.7.31 = {
+		birth = yes
+	}
+	1893.4.28 = {
+		death = yes
+	}
+}
+####################
+
+# Takamatsu Domain
+matsudaira_20 = {
+	name = "Yorishige"	# 賴重
+	dynasty = matsudaira
+	rite = mantrayana
+	culture = japanese
+	father = tokugawa_50
+	1622.8.7 = {
+		birth = yes
+	}
+	1695.5.24 = {
+		death = yes
+	}
+}
+matsudaira_21 = {
+	name = "Yoritoshi"	# 賴侯
+	dynasty = matsudaira
+	rite = mantrayana
+	culture = japanese
+	father = matsudaira_20
+	1661.8.9 = {
+		birth = yes
+	}
+	1687.7.31 = {
+		death = yes
+	}
+}
+matsudaira_22 = {
+	name = "Yoritoyo"	# 賴丰
+	dynasty = matsudaira
+	rite = mantrayana
+	culture = japanese
+	father = matsudaira_21
+	1680.10.12 = {
+		birth = yes
+	}
+	1735.12.4 = {
+		death = yes
+	}
+}
+matsudaira_23 = {
+	name = "Yorimoto"	# 賴元
+	dynasty = matsudaira
+	rite = mantrayana
+	culture = japanese
+	father = tokugawa_50
+	1629.9.1 = {
+		birth = yes
+	}
+	1693.6.1 = {
+		death = yes
+	}
+}
+matsudaira_24 = {
+	name = "Yorisada"	# 賴貞
+	dynasty = matsudaira
+	rite = mantrayana
+	culture = japanese
+	father = matsudaira_23
+	1664.2.21 = {
+		birth = yes
+	}
+	1744.9.9 = {
+		death = yes
+	}
+}
+matsudaira_25 = {
+	name = "Yoritaka"	# 賴恭
+	dynasty = matsudaira
+	rite = mantrayana
+	culture = japanese
+	father = matsudaira_24
+	1711.7.5 = {
+		birth = yes
+	}
+	1771.8.28 = {
+		death = yes
+	}
+}
+matsudaira_26 = {
+	name = "Yorizane"	# 賴真
+	dynasty = matsudaira
+	rite = mantrayana
+	culture = japanese
+	father = matsudaira_25
+	1743.2.17 = {
+		birth = yes
+	}
+	1780.4.14 = {
+		death = yes
+	}
+}
+matsudaira_27 = {
+	name = "Yorinori"	# 賴仪
+	dynasty = matsudaira
+	rite = mantrayana
+	culture = japanese
+	father = matsudaira_26
+	1775.12.4 = {
+		birth = yes
+	}
+	1829.9.22 = {
+		death = yes
+	}
+}
+matsudaira_28 = {
+	name = "Yorihiro"	# 賴恕
+	dynasty = matsudaira
+	rite = mantrayana
+	culture = japanese
+	father = tokugawa_57
+	1798.8.4 = {
+		birth = yes
+	}
+	1842.5.25 = {
+		death = yes
+	}
+}
+matsudaira_29 = {
+	name = "Yoritane"	# 賴胤
+	dynasty = matsudaira
+	rite = mantrayana
+	culture = japanese
+	father = matsudaira_27
+	1811.1.16 = {
+		birth = yes
+	}
+	1877.12.30 = {
+		death = yes
+	}
+}
+matsudaira_30 = {
+	name = "Yoritoshi"	# 賴聪
+	dynasty = matsudaira
+	rite = mantrayana
+	culture = japanese
+	father = matsudaira_28
+	1834.9.6 = {
+		birth = yes
+	}
+	1903.10.17 = {
+		death = yes
+	}
+}
+
+# Iyo-Matsuyama Domain
+6320033 = {
+	name = "Sadamichi"
+	dynasty = matsudaira
+	rite = mantrayana
+	culture = japanese
+	1805.1.9 = {
+		birth = yes
+	}
+	1835.6.24 = {
+		death = yes
+	}
+}
+6320034 = {
+	name = "Katsuyoshi"
+	dynasty = matsudaira
+	rite = mantrayana
+	culture = japanese
+	father = 6320033	# adopted
+	1817.8.11 = {
+		birth = yes
+	}
+	1856.9.9 = {
+		death = yes
+	}
+}
+6320035 = {
+	name = "Katsushige"
+	dynasty = matsudaira
+	rite = mantrayana
+	culture = japanese
+	father = matsudaira_28
+	1832.7.21 = {
+		birth = yes
+	}
+	1912.2.8 = {
+		death = yes
+	}
+}
+
+# Matsue Domain
+6320041 = {
+	name = "Naritsune"
+	dynasty = matsudaira
+	rite = mantrayana
+	culture = japanese
+	1791.10.3 = {
+		birth = yes
+	}
+	1822.5.12 = {
+		death = yes
+	}
+}
+6320042 = {
+	name = "Naritoki"
+	dynasty = matsudaira
+	rite = mantrayana
+	culture = japanese
+	father = 6320041
+	1815.4.27 = {
+		birth = yes
+	}
+	1863.5.1 = {
+		death = yes
+	}
+}
+
+# Hamada Domain
+6320043 = {
+	name = "Yasuto"
+	dynasty = matsudaira
+	rite = mantrayana
+	culture = japanese
+	1780.6.20 = {
+		birth = yes
+	}
+	1841.9.7 = {
+		death = yes
+	}
+}
+6320044 = {
+	name = "Yasutaka"
+	dynasty = matsudaira
+	rite = mantrayana
+	culture = japanese
+	father = 6320043
+	1810.7.7 = {
+		birth = yes
+	}
+	1868.6.27 = {
+		death = yes
+	}
+}
+
+# Tsuyama Domain
+6320049 = {
+	name = "Naritaka"
+	dynasty = matsudaira
+	rite = mantrayana
+	culture = japanese
+	1788.2.9 = {
+		birth = yes
+	}
+	1838.2.26 = {
+		death = yes
+	}
+}
+6320050 = {
+	name = "Naritami"
+	dynasty = matsudaira	# adopted
+	rite = mantrayana
+	culture = japanese
+	father = tokugawa_13
+	1814.9.12 = {
+		birth = yes
+	}
+	1891.3.23 = {
+		death = yes
+	}
+}
+6320051 = {
+	name = "Yoshitomo"
+	dynasty = matsudaira
+	rite = mantrayana
+	culture = japanese
+	father = 6320049
+	1827.7.28 = {
+		birth = yes
+	}
+	1871.9.10 = {
+		death = yes
+	}
+}
+
+# Aizu Domain
+6320108 = {
+	name = "Katahiro"
+	dynasty = matsudaira
+	rite = mantrayana
+	culture = japanese
+	1803.10.30 = {
+		birth = yes
+	}
+	1822.4.20 = {
+		death = yes
+	}
+}
+6320109 = {
+	name = "Katataka"
+	dynasty = matsudaira
+	rite = mantrayana
+	culture = japanese
+	1806.6.14 = {
+		birth = yes
+	}
+	1852.2.29 = {
+		death = yes
+	}
+}
+
+# Fukui Domain
+6320124 = {
+	name = "Haruyoshi"
+	dynasty = matsudaira
+	rite = mantrayana
+	culture = japanese
+	1768.5.11 = {
+		birth = yes
+	}
+	1826.1.8 = {
+		death = yes
+	}
+}
+6320125 = {
+	name = "Naritsugu"
+	dynasty = matsudaira
+	rite = mantrayana
+	culture = japanese
+	father = 6320124
+	1811.3.5 = {
+		birth = yes
+	}
+	1835.7.27 = {
+		death = yes
+	}
+}
+6320126 = {
+	name = "Narisawa"
+	dynasty = matsudaira	# adopted
+	rite = mantrayana
+	culture = japanese
+	father = 6310000
+	1820.10.31 = {
+		birth = yes
+	}
+	1838.9.15 = {
+		death = yes
+	}
+}

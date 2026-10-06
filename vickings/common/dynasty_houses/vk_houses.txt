@@ -123,3 +123,8 @@ house_tokugawa_mito = {
 	name = "dynn_Tokugawa_Mito"
 	dynasty = matsudaira
 }
+
+house_matsudaira_honjo = {
+	name = "dynn_HonjO_"
+	dynasty = matsudaira
+}

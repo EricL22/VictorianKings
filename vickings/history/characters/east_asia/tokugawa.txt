@@ -416,3 +416,246 @@ tokugawa_32 = {
 	}
 }
 ####################
+
+## Owari line
+tokugawa_40 = {
+	name = "Harukuni"	# 治国
+	dynasty_house = house_tokugawa_owari
+	rite = mantrayana
+	culture = japanese
+	father = tokugawa_12
+	1776.6.26 = {
+		birth = yes
+	}
+	1793.5.17 = {
+		death = yes
+	}
+}
+tokugawa_41 = {
+	name = "Naritomo"	# 齐朝
+	dynasty_house = house_tokugawa_owari
+	rite = mantrayana
+	culture = japanese
+	father = tokugawa_40
+	1793.9.27 = {
+		birth = yes
+	}
+	1850.5.11 = {
+		death = yes
+	}
+}
+tokugawa_42 = {
+	name = "Nariharu"	# 齐温
+	dynasty_house = house_tokugawa
+	rite = mantrayana
+	culture = japanese
+	father = tokugawa_13
+	1819.7.20 = {
+		birth = yes
+	}
+	1839.5.3 = {
+		death = yes
+	}
+}
+tokugawa_43 = {
+	name = "Naritaka"	# 齐庄
+	dynasty_house = house_tokugawa
+	rite = mantrayana
+	culture = japanese
+	father = tokugawa_13
+	1810.7.14 = {
+		birth = yes
+	}
+	1845.8.8 = {
+		death = yes
+	}
+}
+tokugawa_44 = {
+	name = "Yoshiyori"	# 义和
+	dynasty_house = house_tokugawa_mito
+	rite = mantrayana
+	culture = japanese
+	father = tokugawa_56
+	1776.9.26 = {
+		birth = yes
+	}
+	1832.2.16 = {
+		death = yes
+	}
+}
+tokugawa_45 = {
+	name = "Yoshitatsu"	# 义建
+	dynasty_house = house_tokugawa_mito
+	rite = mantrayana
+	culture = japanese
+	father = tokugawa_44
+	1800.1.7 = {
+		birth = yes
+	}
+	1862.9.13 = {
+		death = yes
+	}
+}
+tokugawa_46 = {
+	name = "Yoshikatsu"	# 庆勝
+	dynasty_house = house_tokugawa_owari	# adopted
+	rite = mantrayana
+	culture = japanese
+	father = tokugawa_45
+	1824.4.14 = {
+		birth = yes
+	}
+	1883.8.1 = {
+		death = yes
+	}
+}
+tokugawa_47 = {
+	name = "Mochinaga"	# 茂德
+	dynasty_house = house_tokugawa_owari	# adopted
+	rite = mantrayana
+	culture = japanese
+	father = tokugawa_45
+	1831.6.11 = {
+		birth = yes
+	}
+	1884.3.6 = {
+		death = yes
+	}
+}
+tokugawa_48 = {
+	name = "Yoshinori"	# 义宜
+	dynasty_house = house_tokugawa_owari
+	rite = mantrayana
+	culture = japanese
+	father = tokugawa_46
+	1858.7.4 = {
+		birth = yes
+	}
+	1875.11.24 = {
+		death = yes
+	}
+}
+####################
+
+## Mito line
+tokugawa_50 = {
+	name = "Yorifusa"	# 賴房
+	dynasty_house = house_tokugawa_mito
+	rite = mantrayana
+	culture = japanese
+	father = tokugawa_0
+	1603.9.15 = {
+		birth = yes
+	}
+	1661.8.23 = {
+		death = yes
+	}
+}
+# tokugawa_51 -> matsudaira_20
+# tokugawa_52 -> matsudaira_21
+# tokugawa_53 -> matsudaira_22
+tokugawa_54 = {
+	name = "Munetaka"	# 宗尧
+	dynasty_house = house_tokugawa_mito
+	rite = mantrayana
+	culture = japanese
+	father = matsudaira_22
+	1705.8.29 = {
+		birth = yes
+	}
+	1730.5.23 = {
+		death = yes
+	}
+}
+tokugawa_55 = {
+	name = "Munemoto"	# 宗翰
+	dynasty_house = house_tokugawa_mito
+	rite = mantrayana
+	culture = japanese
+	father = tokugawa_54
+	1728.9.3 = {
+		birth = yes
+	}
+	1766.3.24 = {
+		death = yes
+	}
+}
+tokugawa_56 = {
+	name = "Harumori"	# 治保
+	dynasty_house = house_tokugawa_mito
+	rite = mantrayana
+	culture = japanese
+	father = tokugawa_55
+	1751.10.5 = {
+		birth = yes
+	}
+	1805.12.21 = {
+		death = yes
+	}
+}
+tokugawa_57 = {
+	name = "Harutoshi"	# 治紀
+	dynasty_house = house_tokugawa_mito
+	rite = mantrayana
+	culture = japanese
+	father = tokugawa_56
+	1773.12.7 = {
+		birth = yes
+	}
+	1816.10.10 = {
+		death = yes
+	}
+}
+tokugawa_58 = {
+	name = "Narinobu"	# 齐脩
+	dynasty_house = house_tokugawa_mito
+	rite = mantrayana
+	culture = japanese
+	father = tokugawa_57
+	1797.4.12 = {
+		birth = yes
+	}
+	1829.10.31 = {
+		death = yes
+	}
+}
+tokugawa_59 = {
+	name = "Nariaki"	# 齐昭
+	dynasty_house = house_tokugawa_mito
+	rite = mantrayana
+	culture = japanese
+	father = tokugawa_57
+	1800.4.4 = {
+		birth = yes
+	}
+	1860.9.29 = {
+		death = yes
+	}
+}
+tokugawa_60 = {
+	name = "Yoshiatsu"	# 庆篤
+	dynasty_house = house_tokugawa_mito
+	rite = mantrayana
+	culture = japanese
+	father = tokugawa_59
+	1832.6.1 = {
+		birth = yes
+	}
+	1868.4.27 = {
+		death = yes
+	}
+}
+tokugawa_61 = {
+	name = "Akitake"	# 昭武
+	dynasty_house = house_tokugawa_mito
+	rite = mantrayana
+	culture = japanese
+	father = tokugawa_59
+	1853.10.26 = {
+		birth = yes
+	}
+	1910.7.3 = {
+		death = yes
+	}
+}
+####################
