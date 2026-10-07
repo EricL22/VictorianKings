@@ -684,63 +684,59 @@ c_inaba = { # Inaba
 	1160.1.1 = { holder = japanese_fujiwara_888 } # Nobutaka
 	1178.1.1 = { holder = japanese_fujiwara_600 } # Takasue
 }
-c_iwami = { # Iwami
-	867.1.1 = { change_development_level = 5 }
-	1066.1.1 = { change_development_level = 8 }
-	1178.1.1 = { change_development_level = 13 }
-
-	700.1.1 = {
-		liege = e_japan
-		government = japan_administrative_government
+c_iwami = { # Iwami (Hamada Domain)
+	1807.4.30 = {
+		holder = matsui_0	# Yasuto
+		government = japan_feudal_government
 	}
-	785.8.14 = { holder = japanese_fujiwara_416 } # Masaka
-	845.1.13 = { holder = japanese_kibi_3 } # Matatsugu - Kami
-	866.1.13 = { holder = japanese_tachibana_117 } # Tadamune - Kami
-	990.1.1 = { holder = japanese_tachibana_176 } # Yoshinobu_7 - Kami (date unknown)
-	1019.1.1 = { holder = japanese_minamoto_seiwa_4 } # Yorinobu
-	1066.1.1 = { holder = japanese_fujiwara_1142 } # Kuninaka - placeholder
-	1116.1.1 = { holder = japanese_fujiwara_1143 } # Morishige - Kami
-	1178.1.1 = { holder = japanese_fujiwara_776 } # Mitsumasa
+	1835.12.9 = {
+		holder = matsui_1	# Yasutaka
+	}
+	1847.11.29 = {
+		holder = matsudaira_60	# Takeakira
+	}
+	1871.7.15 = {
+		holder = yamato_49	# Meiji
+	}
+	1912.7.29 = {
+		holder = yamato_50	# Taishō
+	}
 }
-c_izumo = { # Izumo
-	867.1.1 = { change_development_level = 6 }
-	1066.1.1 = { change_development_level = 11 }
-	1178.1.1 = { change_development_level = 17 }
-
-	700.1.1 = {
-		liege = e_japan
-		government = japan_administrative_government
+c_izumo = { # Izumo (Matsue Domain)
+	1806.3.11 = {
+		holder = matsudaira_57	# Naritsune
+		government = japan_feudal_government
 	}
-	746.1.1 = { holder = japanese_tomo_25 } # Koshibi - Kami
-	750.3.12 = { holder = japanese_kudara_17 } # KO_chU_
-	849.2.27 = { holder = japanese_kiyotaki_2 } # Fujine - Kami
-	851.1.11 = { holder = japanese_kamitsukeno_1 } # Tsunanushi - Kami
-	859.1.13 = { holder = japanese_fujiwara_1181 } # Kazumori - Kami
-	859.2.13 = { holder = japanese_mihara_3 } # Nagamichi
-	864.3.8 = { holder = japanese_miyako_1 } # Mitori
-	1053.6.20 = { holder = japanese_fujiwara_384 } # Akihira - Mi no Kami
-	1066.1.1 = { holder = japanese_fujiwara_1937 } # Akitoshi_3 - Kami
-	1077.10.1 = { holder = japanese_minamoto_daigo_63 } # Tsunenaka
-	1082.1.1 = { holder = japanese_fujiwara_204 } # Kanehira
-	1146.12.29 = { holder = japanese_fujiwara_1155 } # Tsunetaka
-	1174.1.1 = { holder = japanese_fujiwara_1147 } # Nobumori
-	1176.1.30 = { holder = japanese_fujiwara_626 } # Yorisada
-	1178.1.1 = { holder = japanese_fujiwara_1263 } # Tomokata
+	1822.5.12 = {
+		holder = matsudaira_58	# Naritoki
+	}
+	1853.9.5 = {
+		holder = matsudaira_59	# Sadayasu
+	}
+	1871.7.14 = {
+		holder = yamato_49	# Meiji
+	}
+	1912.7.29 = {
+		holder = yamato_50	# Taishō
+	}
 }
 c_oki = { # Oki
-	867.1.1 = { change_development_level = 4 }
-	1066.1.1 = { change_development_level = 7 }
-	1178.1.1 = { change_development_level = 11 }
-
-	700.1.1 = {
-		liege = e_japan
-		government = japan_administrative_government
+	1806.3.11 = {
+		holder = matsudaira_57	# Naritsune
+		government = japan_feudal_government
 	}
-	867.1.1 = { holder = japanese_ochi_1 } # Sada_atsu - Kami (date unknown)
-	1013.1.1 = { holder = japanese_fujiwara_143 } # Masanori
-	1066.1.1 = { holder = japanese_nakahara_5 } # Morohira - placeholder
-	1130.1.5 = { holder = japanese_nakahara_6 } # Michihiro
-	1178.1.1 = { holder = japanese_fujiwara_511 } # Motofusa
+	1822.5.12 = {
+		holder = matsudaira_58	# Naritoki
+	}
+	1853.9.5 = {
+		holder = matsudaira_59	# Sadayasu
+	}
+	1871.7.14 = {
+		holder = yamato_49	# Meiji
+	}
+	1912.7.29 = {
+		holder = yamato_50	# Taishō
+	}
 }
 c_tajima = { # Tajima
 	867.1.1 = { change_development_level = 5 }
@@ -989,27 +985,23 @@ c_harima = { # Harima - 播磨 (播州)
 		government = japan_feudal_government
 	}
 }
-c_mimasaka = { # Mimasaka
-	867.1.1 = { change_development_level = 6 }
-	1066.1.1 = { change_development_level = 10 }
-	1178.1.1 = { change_development_level = 16 }
-
-	700.1.1 = {
-		liege = e_japan
-		government = japan_administrative_government
+c_mimasaka = { # Mimasaka (Tsuyama Domain)
+	1805.8.7 = {
+		holder = matsudaira_76	# Naritaka
+		government = japan_feudal_government
 	}
-	790.2.27 = { holder = japanese_fujiwara_92 } # Suemochi_2 - Kami
-	862.1.1 = { holder = japanese_yoshimine_2 } # Kiyokaze
-	867.1.1 = { holder = japanese_minamoto_ninmyo_12 } # Prince Hikaru - ~870
-	1006.1.28 = { holder = japanese_minamoto_murakami_92 } # Yorisada_2 - Kami
-	1045.4.8 = { holder = japanese_fujiwara_123 } # Motosada
-	1050.2.2 = { holder = japanese_fujiwara_87 } # Nagafusa
-	1053.1.1 = { holder = japanese_fujiwara_2095 } # Kuninari - Kami
-	1058.1.1 = { holder = japanese_fujiwara_244 } # Sanetsuna
-	1066.8.2 = { holder = japanese_fujiwara_244 } # Sanetsuna
-	1072.12.29 = { holder = japanese_takashina_11 } # Tameie - Mi no Kami
-	1168.1.1 = { holder = japanese_taira_kanmu_64 } # Munemori
-	1178.1.1 = { holder = japanese_fujiwara_514 } # Kujo Kanezane
+	1831.11.22 = {
+		holder = matsudaira_77	# Naritami
+	}
+	1855.5.3 = {
+		holder = matsudaira_78	# Yoshitomo
+	}
+	1871.7.15 = {
+		holder = yamato_49	# Meiji
+	}
+	1912.7.29 = {
+		holder = yamato_50	# Taishō
+	}
 }
 c_nagato = { # Nagato
 	867.1.1 = { change_development_level = 6 }
@@ -1371,33 +1363,24 @@ c_musashi = { # Musashi
 		holder = yamato_50	# Taishō
 	}
 }
-c_echizen = { # Echizen
-	867.1.1 = { change_development_level = 7 }
-	1066.1.1 = { change_development_level = 12 }
-	1178.1.1 = { change_development_level = 19 }
-
-	700.1.1 = {
-		liege = e_japan
-		government = japan_administrative_government
+c_echizen = { # Echizen (Fukui Domain)
+	1799.1.1 = {
+		holder = matsudaira_92	# Haruyoshi
 	}
-	759.11.5 = { holder = japanese_fujiwara_1450 } # Hiroo
-	764.1.21 = { holder = japanese_fujiwara_1452 } # Karakachi
-	826.1.21 = { holder = japanese_funya_22 } # Naoyo
-	840.1.30 = { holder = japanese_kiyohara_17 } # Ario
-	860.11.27 = { holder = japanese_kiyotaki_2 } # Fujine - Kami
-	869.2.16 = { holder = japanese_minamoto_saga_5 } # Hiraku, Kami
-	870.1.25 = { holder = japanese_kiyotaki_2 } # Fujine - Kami
-	948.1.1 = { holder = japanese_fujiwara_1491 } # Moriyoshi
-	1048.1.1 = { holder = japanese_minamoto_daigo_89 } # Tadatoshi
-	1059.11.1 = { holder = japanese_fujiwara_815 } # Sadanari
-	1063.1.1 = { holder = japanese_minamoto_murakami_9 } # Yorinari - Kami
-	1113.1.28 = { holder = japanese_fujiwara_1411 } # Nagatada
-	1144.12.30 = { holder = japanese_fujiwara_644 } # Toshimori - Kami
-	1162.1.27 = { holder = japanese_nakahara_7 } # Moromoto
-	1168.1.1 = { holder = japanese_taira_kanmu_64 } # Munemori
-	1178.1.1 = {
-		holder = japanese_taira_kanmu_65 # Shigemori
-		government = japan_feudal_government
+	1826.1.8 = {
+		holder = matsudaira_93	# Naritsugu
+	}
+	1835.7.27 = {
+		holder = matsudaira_94	# Narisawa
+	}
+	1858.7.5 = {
+		holder = matsudaira_95	# Mochiaki
+	}
+	1871.7.14 = {
+		holder = yamato_49	# Meiji
+	}
+	1912.7.29 = {
+		holder = yamato_50	# Taishō
 	}
 }
 c_omi = { # Omi
@@ -1773,25 +1756,22 @@ c_korehari = { # Korehari/Taga c_taga
 	#1170.7.10 = { holder = japanese_fujiwara_497 } # Hidehira - Chinjufu Shogun
 	#1176.1.1 = { holder = japanese_fujiwara_981 } # Noriyuki
 }
-c_iwase = { # Iwase
-	867.1.1 = { change_development_level = 4 }
-	1066.1.1 = { change_development_level = 7 }
-	1178.1.1 = { change_development_level = 11 }
-
-	700.1.1 = {
+c_iwase = { # Iwase (Aizu Domain)
+	1806.2.15 = {
+		holder = matsudaira_85	# Katahiro
 		liege = e_japan
-		government = japan_administrative_government
 	}
-	867.1.1 = {
-		holder = japanese_minamoto_saga_28 # TO_ru - needs to be landed, past Mutsu-Dewa Azechi
+	1822.4.20 = {
+		holder = matsudaira_86	# Katataka
 	}
-	1066.1.1 = {
-		holder = japanese_minamoto_seiwa_66 # Yoritoshi - Kami (1067)
-		government = japan_feudal_government # Yamato fief
+	1852.2.29 = {
+		holder = matsudaira_87	# Katamori
 	}
-	1178.1.1 = {
-		holder = japanese_sato_1 # Motoharu
-		government = japan_feudal_government # Sato fief
+	1869.9.22 = {
+		holder = yamato_49	# Meiji
+	}
+	1912.7.29 = {
+		holder = yamato_50	# Taishō
 	}
 }
 c_iwaki = { # Iwaki

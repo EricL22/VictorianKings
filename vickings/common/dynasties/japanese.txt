@@ -3,6 +3,11 @@
 	culture = japanese
 }
 
+matsui = {
+	name = "dynn_Matsui"
+	culture = japanese
+}
+
 174871 = {
 	name = "dynn_Aoyama"
 	culture = japanese

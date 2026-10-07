@@ -1097,3 +1097,54 @@ c_nf_shimazu = {
 		holder = shimazu_24	# Tadayoshi
 	}
 }
+
+c_nf_matsui = {
+	1807.4.30 = {
+		liege = e_japan
+		holder = matsui_0	# Yasuto
+		government = japan_feudal_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1835.12.9 = {
+		holder = matsui_1	# Yasutaka
+	}
+}
+
+c_nf_matsudaira_ochi = {
+	1847.11.29 = {
+		liege = e_japan
+		holder = matsudaira_60	# Takeakira
+		government = japan_feudal_government
+		succession_laws = { noble_family_succession_law }
+	}
+}
+
+c_nf_matsudaira_yuki = {
+	1805.8.7 = {
+		liege = e_japan
+		holder = matsudaira_76	# Naritaka
+		government = japan_feudal_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1831.11.22 = {
+		holder = matsudaira_77	# Naritami
+	}
+	1855.5.3 = {
+		holder = matsudaira_78	# Yoshitomo
+	}
+}
+
+c_nf_matsudaira_hoshina = {
+	1806.2.15 = {
+		liege = e_japan
+		holder = matsudaira_85	# Katahiro
+		government = japan_feudal_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1822.4.20 = {
+		holder = matsudaira_86	# Katataka
+	}
+	1852.2.29 = {
+		holder = matsudaira_87	# Katamori
+	}
+}

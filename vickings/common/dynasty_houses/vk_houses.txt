@@ -138,3 +138,18 @@ house_matsudaira_hisamatsu = {
 	name = "dynn_Matsudaira_Hisamatsu"
 	dynasty = matsudaira
 }
+
+house_matsudaira_yuki = {
+	name = "dynn_YU_ki"
+	dynasty = matsudaira
+}
+
+house_matsudaira_ochi = {
+	name = "dynn_Ochi"
+	dynasty = matsudaira
+}
+
+house_matsudaira_hoshina = {
+	name = "dynn_Hoshina"
+	dynasty = matsudaira
+}

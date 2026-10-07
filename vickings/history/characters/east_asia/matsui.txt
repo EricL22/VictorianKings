@@ -1,0 +1,26 @@
+﻿# Hamada Domain
+matsui_0 = {
+	name = "Yasuto"	# 康任
+	dynasty = matsui	# honorifically Matsudaira
+	rite = mantrayana
+	culture = japanese
+	1780.6.20 = {
+		birth = yes
+	}
+	1841.9.7 = {
+		death = yes
+	}
+}
+matsui_1 = {
+	name = "Yasutaka"	# 康爵
+	dynasty = matsui	# honorifically Matsudaira
+	rite = mantrayana
+	culture = japanese
+	father = matsui_0
+	1810.7.7 = {
+		birth = yes
+	}
+	1868.6.27 = {
+		death = yes
+	}
+}
