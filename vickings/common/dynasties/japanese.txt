@@ -73,7 +73,7 @@
 	culture = japanese
 }
 
-119647 = {
+shimazu = {
 	name = "dynn_Shimazu"
 	culture = japanese
 }

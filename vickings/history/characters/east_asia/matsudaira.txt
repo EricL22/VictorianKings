@@ -181,10 +181,10 @@ matsudaira_14 = {
 }
 ####################
 
-# Takamatsu Domain
+## Takamatsu Domain
 matsudaira_20 = {
 	name = "Yorishige"	# 賴重
-	dynasty = matsudaira
+	dynasty_house = house_matsudaira_takamatsu
 	rite = mantrayana
 	culture = japanese
 	father = tokugawa_50
@@ -197,7 +197,7 @@ matsudaira_20 = {
 }
 matsudaira_21 = {
 	name = "Yoritoshi"	# 賴侯
-	dynasty = matsudaira
+	dynasty_house = house_matsudaira_takamatsu
 	rite = mantrayana
 	culture = japanese
 	father = matsudaira_20
@@ -210,7 +210,7 @@ matsudaira_21 = {
 }
 matsudaira_22 = {
 	name = "Yoritoyo"	# 賴丰
-	dynasty = matsudaira
+	dynasty_house = house_matsudaira_takamatsu
 	rite = mantrayana
 	culture = japanese
 	father = matsudaira_21
@@ -223,7 +223,7 @@ matsudaira_22 = {
 }
 matsudaira_23 = {
 	name = "Yorimoto"	# 賴元
-	dynasty = matsudaira
+	dynasty_house = house_matsudaira_takamatsu
 	rite = mantrayana
 	culture = japanese
 	father = tokugawa_50
@@ -236,7 +236,7 @@ matsudaira_23 = {
 }
 matsudaira_24 = {
 	name = "Yorisada"	# 賴貞
-	dynasty = matsudaira
+	dynasty_house = house_matsudaira_takamatsu
 	rite = mantrayana
 	culture = japanese
 	father = matsudaira_23
@@ -249,7 +249,7 @@ matsudaira_24 = {
 }
 matsudaira_25 = {
 	name = "Yoritaka"	# 賴恭
-	dynasty = matsudaira
+	dynasty_house = house_matsudaira_takamatsu
 	rite = mantrayana
 	culture = japanese
 	father = matsudaira_24
@@ -262,7 +262,7 @@ matsudaira_25 = {
 }
 matsudaira_26 = {
 	name = "Yorizane"	# 賴真
-	dynasty = matsudaira
+	dynasty_house = house_matsudaira_takamatsu
 	rite = mantrayana
 	culture = japanese
 	father = matsudaira_25
@@ -275,7 +275,7 @@ matsudaira_26 = {
 }
 matsudaira_27 = {
 	name = "Yorinori"	# 賴仪
-	dynasty = matsudaira
+	dynasty_house = house_matsudaira_takamatsu
 	rite = mantrayana
 	culture = japanese
 	father = matsudaira_26
@@ -288,7 +288,7 @@ matsudaira_27 = {
 }
 matsudaira_28 = {
 	name = "Yorihiro"	# 賴恕
-	dynasty = matsudaira
+	dynasty_house = house_matsudaira_takamatsu	# adopted
 	rite = mantrayana
 	culture = japanese
 	father = tokugawa_57
@@ -301,7 +301,7 @@ matsudaira_28 = {
 }
 matsudaira_29 = {
 	name = "Yoritane"	# 賴胤
-	dynasty = matsudaira
+	dynasty_house = house_matsudaira_takamatsu
 	rite = mantrayana
 	culture = japanese
 	father = matsudaira_27
@@ -314,7 +314,7 @@ matsudaira_29 = {
 }
 matsudaira_30 = {
 	name = "Yoritoshi"	# 賴聪
-	dynasty = matsudaira
+	dynasty_house = house_matsudaira_takamatsu
 	rite = mantrayana
 	culture = japanese
 	father = matsudaira_28
@@ -325,13 +325,41 @@ matsudaira_30 = {
 		death = yes
 	}
 }
+####################
 
-# Iyo-Matsuyama Domain
-6320033 = {
-	name = "Sadamichi"
-	dynasty = matsudaira
+## Iyo-Matsuyama Domain
+matsudaira_40 = {
+	name = "Sadakuni"	# 定国
+	dynasty_house = house_matsudaira_hisamatsu
 	rite = mantrayana
 	culture = japanese
+	father = tokugawa_70
+	1757.7.28 = {
+		birth = yes
+	}
+	1804.7.22 = {
+		death = yes
+	}
+}
+matsudaira_41 = {
+	name = "Sadanori"	# 定則
+	dynasty_house = house_matsudaira_hisamatsu
+	rite = mantrayana
+	culture = japanese
+	father = matsudaira_40
+	1793.9.2 = {
+		birth = yes
+	}
+	1809.8.15 = {
+		death = yes
+	}
+}
+matsudaira_42 = {
+	name = "Sadamichi"	# 定通
+	dynasty_house = house_matsudaira_hisamatsu
+	rite = mantrayana
+	culture = japanese
+	father = matsudaira_40
 	1805.1.9 = {
 		birth = yes
 	}
@@ -339,12 +367,12 @@ matsudaira_30 = {
 		death = yes
 	}
 }
-6320034 = {
-	name = "Katsuyoshi"
-	dynasty = matsudaira
+matsudaira_43 = {
+	name = "Katsuyoshi"	# 勝善
+	dynasty_house = house_matsudaira_hisamatsu	# adopted
 	rite = mantrayana
 	culture = japanese
-	father = 6320033	# adopted
+	father = shimazu_20
 	1817.8.11 = {
 		birth = yes
 	}
@@ -352,9 +380,9 @@ matsudaira_30 = {
 		death = yes
 	}
 }
-6320035 = {
-	name = "Katsushige"
-	dynasty = matsudaira
+matsudaira_44 = {
+	name = "Katsushige"	# 勝成
+	dynasty_house = house_matsudaira_hisamatsu	# adopted
 	rite = mantrayana
 	culture = japanese
 	father = matsudaira_28
@@ -365,8 +393,9 @@ matsudaira_30 = {
 		death = yes
 	}
 }
+####################
 
-# Matsue Domain
+## Matsue Domain
 6320041 = {
 	name = "Naritsune"
 	dynasty = matsudaira
@@ -392,8 +421,9 @@ matsudaira_30 = {
 		death = yes
 	}
 }
+####################
 
-# Hamada Domain
+## Hamada Domain
 6320043 = {
 	name = "Yasuto"
 	dynasty = matsudaira
@@ -419,8 +449,9 @@ matsudaira_30 = {
 		death = yes
 	}
 }
+####################
 
-# Tsuyama Domain
+## Tsuyama Domain
 6320049 = {
 	name = "Naritaka"
 	dynasty = matsudaira
@@ -459,8 +490,9 @@ matsudaira_30 = {
 		death = yes
 	}
 }
+####################
 
-# Aizu Domain
+## Aizu Domain
 6320108 = {
 	name = "Katahiro"
 	dynasty = matsudaira
@@ -485,8 +517,9 @@ matsudaira_30 = {
 		death = yes
 	}
 }
+####################
 
-# Fukui Domain
+## Fukui Domain
 6320124 = {
 	name = "Haruyoshi"
 	dynasty = matsudaira
@@ -525,3 +558,4 @@ matsudaira_30 = {
 		death = yes
 	}
 }
+####################

@@ -659,3 +659,19 @@ tokugawa_61 = {
 	}
 }
 ####################
+
+## Tayasu-Tokugawa
+tokugawa_70 = {
+	name = "Munetake"	# 宗武
+	dynasty_house = house_tokugawa
+	rite = mantrayana
+	culture = japanese
+	father = tokugawa_8
+	1716.1.21 = {
+		birth = yes
+	}
+	1771.7.15 = {
+		death = yes
+	}
+}
+####################

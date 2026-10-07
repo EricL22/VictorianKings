@@ -1,0 +1,326 @@
+﻿# Satsuma Domain
+shimazu_0 = {
+	name = "Tadatoki"	# 忠时
+	dynasty = shimazu
+	rite = mantrayana
+	culture = japanese
+	father = japanese_koremune_4 # Tadahisa
+	1202.1.1 = {
+		birth = yes
+	}
+	1272.5.8 = {
+		death = yes
+	}
+}
+shimazu_1 = {
+	name = "Hisatsune"	# 久經
+	dynasty = shimazu
+	rite = mantrayana
+	culture = japanese
+	father = shimazu_0
+	1225.1.1 = {
+		birth = yes
+	}
+	1284.5.7 = {
+		death = yes
+	}
+}
+shimazu_2 = {
+	name = "Tadamune"	# 忠宗
+	dynasty = shimazu
+	rite = mantrayana
+	culture = japanese
+	father = shimazu_1
+	1251.1.1 = {
+		birth = yes
+	}
+	1325.12.17 = {
+		death = yes
+	}
+}
+shimazu_3 = {
+	name = "Sadahisa"	# 貞久
+	dynasty = shimazu
+	rite = mantrayana
+	culture = japanese
+	father = shimazu_2
+	1269.5.10 = {
+		birth = yes
+	}
+	1363.8.12 = {
+		death = yes
+	}
+}
+shimazu_4 = {
+	name = "Ujihisa"	# 氏久
+	dynasty = shimazu
+	rite = mantrayana
+	culture = japanese
+	father = shimazu_3
+	1328.5.21 = {
+		birth = yes
+	}
+	1387.6.20 = {
+		death = yes
+	}
+}
+shimazu_5 = {
+	name = "Hisatoyo"	# 久丰
+	dynasty = shimazu
+	rite = mantrayana
+	culture = japanese
+	father = shimazu_4
+	1375.1.1 = {
+		birth = yes
+	}
+	1425.2.9 = {
+		death = yes
+	}
+}
+shimazu_6 = {
+	name = "Tadakuni"	# 忠国
+	dynasty = shimazu
+	rite = mantrayana
+	culture = japanese
+	father = shimazu_5
+	1403.5.22 = {
+		birth = yes
+	}
+	1470.2.21 = {
+		death = yes
+	}
+}
+shimazu_7 = {
+	name = "Hisayasu"	# 久逸
+	dynasty = shimazu
+	rite = mantrayana
+	culture = japanese
+	father = shimazu_6
+	1441.1.1 = {
+		birth = yes
+	}
+	1500.12.2 = {
+		death = yes
+	}
+}
+shimazu_8 = {
+	name = "Yoshihisa"	# 善久
+	dynasty = shimazu
+	rite = mantrayana
+	culture = japanese
+	father = shimazu_7
+	1468.1.1 = {
+		birth = yes
+	}
+	1494.5.22 = {
+		death = yes
+	}
+}
+shimazu_9 = {
+	name = "Tadayoshi"	# 忠良
+	dynasty = shimazu
+	rite = mantrayana
+	culture = japanese
+	father = shimazu_8
+	1492.10.14 = {
+		birth = yes
+	}
+	1568.12.31 = {
+		death = yes
+	}
+}
+shimazu_10 = {
+	name = "Takahisa"	# 貴久
+	dynasty = shimazu
+	rite = mantrayana
+	culture = japanese
+	father = shimazu_9
+	1514.5.28 = {
+		birth = yes
+	}
+	1571.7.15 = {
+		death = yes
+	}
+}
+shimazu_11 = {
+	name = "Yoshihiro"	# 义弘
+	dynasty = shimazu
+	rite = mantrayana
+	culture = japanese
+	father = shimazu_10
+	1535.8.21 = {
+		birth = yes
+	}
+	1619.8.30 = {
+		death = yes
+	}
+}
+shimazu_12 = {
+	name = "Tadatsune"	# 忠恒
+	dynasty = shimazu
+	rite = mantrayana
+	culture = japanese
+	father = shimazu_11
+	1576.11.27 = {
+		birth = yes
+	}
+	1638.4.7 = {
+		death = yes
+	}
+}
+shimazu_13 = {
+	name = "Mitsuhisa"	# 光久
+	dynasty = shimazu
+	rite = mantrayana
+	culture = japanese
+	father = shimazu_12
+	1616.7.15 = {
+		birth = yes
+	}
+	1695.1.14 = {
+		death = yes
+	}
+}
+shimazu_14 = {
+	name = "Tsunahisa"	# 䋄久
+	dynasty = shimazu
+	rite = mantrayana
+	culture = japanese
+	father = shimazu_13
+	1632.5.19 = {
+		birth = yes
+	}
+	1673.4.6 = {
+		death = yes
+	}
+}
+shimazu_15 = {
+	name = "Tsunataka"	# 䋄貴
+	dynasty = shimazu
+	rite = mantrayana
+	culture = japanese
+	father = shimazu_14
+	1650.11.17 = {
+		birth = yes
+	}
+	1704.10.17 = {
+		death = yes
+	}
+}
+shimazu_16 = {
+	name = "Yoshitaka"	# 吉貴
+	dynasty = shimazu
+	rite = mantrayana
+	culture = japanese
+	father = shimazu_15
+	1675.11.4 = {
+		birth = yes
+	}
+	1747.11.12 = {
+		death = yes
+	}
+}
+shimazu_17 = {
+	name = "Tsugutoyo"	# 継丰
+	dynasty = shimazu
+	rite = mantrayana
+	culture = japanese
+	father = shimazu_16
+	1702.1.19 = {
+		birth = yes
+	}
+	1760.10.28 = {
+		death = yes
+	}
+}
+shimazu_18 = {
+	name = "Shigetoshi"	# 重年
+	dynasty = shimazu
+	rite = mantrayana
+	culture = japanese
+	father = shimazu_17
+	1729.3.10 = {
+		birth = yes
+	}
+	1755.7.24 = {
+		death = yes
+	}
+}
+shimazu_19 = {
+	name = "Shigehide"	# 重豪
+	dynasty = shimazu
+	rite = mantrayana
+	culture = japanese
+	father = shimazu_18
+	1745.11.29 = {
+		birth = yes
+	}
+	1833.3.6 = {
+		death = yes
+	}
+}
+shimazu_20 = {
+	name = "Narinobu"	# 齐宣
+	dynasty = shimazu
+	rite = mantrayana
+	culture = japanese
+	father = shimazu_19
+	1774.1.17 = {
+		birth = yes
+	}
+	1841.12.6 = {
+		death = yes
+	}
+}
+shimazu_21 = {
+	name = "Narioki"	# 齐兴
+	dynasty = shimazu
+	rite = mantrayana
+	culture = japanese
+	father = shimazu_20
+	1791.12.1 = {
+		birth = yes
+	}
+	1859.10.7 = {
+		death = yes
+	}
+}
+shimazu_22 = {
+	name = "Nariakira"	# 齐彬
+	dynasty = shimazu
+	rite = mantrayana
+	culture = japanese
+	father = shimazu_21
+	1809.4.28 = {
+		birth = yes
+	}
+	1858.8.24 = {
+		death = yes
+	}
+}
+shimazu_23 = {
+	name = "Hisamitsu"	# 久光
+	dynasty = shimazu
+	rite = mantrayana
+	culture = japanese
+	father = shimazu_21
+	1817.11.28 = {
+		birth = yes
+	}
+	1887.12.6 = {
+		death = yes
+	}
+}
+shimazu_24 = {
+	name = "Tadayoshi"	# 忠义
+	dynasty = shimazu
+	rite = mantrayana
+	culture = japanese
+	father = shimazu_23
+	1840.5.22 = {
+		birth = yes
+	}
+	1897.12.26 = {
+		death = yes
+	}
+}

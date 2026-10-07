@@ -989,3 +989,111 @@ d_nf_chalmers = {
 		holder = 0
 	}
 }
+
+c_nf_tokugawa = {
+	1787.4.23 = {
+		liege = e_japan
+		holder = tokugawa_13	# Ienari
+		government = japan_feudal_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1837.9.4 = {
+		holder = tokugawa_14	# Ieyoshi
+	}
+	1858.8.14 = {
+		holder = tokugawa_16	# Iemochi
+	}
+}
+
+c_nf_tokugawa_kishu = {
+	1789.12.2 = {
+		liege = e_japan
+		holder = tokugawa_26	# Harutomi
+		government = japan_feudal_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1858.6.25 = {
+		holder = tokugawa_32	# Mochitsugu
+	}
+}
+
+c_nf_tokugawa_owari = {
+	1799.9.11 = {
+		liege = e_japan
+		holder = tokugawa_41	# Naritomo
+		government = japan_feudal_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1858.7.1 = {
+		holder = tokugawa_47	# Mochinaga
+	}
+}
+
+c_nf_tokugawa_mito = {
+	1805.12.21 = {
+		liege = e_japan
+		holder = tokugawa_57	# Harutoshi
+		government = japan_feudal_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1829.10.31 = {
+		holder = tokugawa_59	# Nariaki
+	}
+	1844.1.1 = {
+		holder = tokugawa_60	# Yoshiatsu
+	}
+}
+
+c_nf_matsudaira_honjo = {
+	1808.1.1 = {
+		liege = e_japan
+		holder = matsudaira_11	# Muneakira
+		government = japan_feudal_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1841.11.4 = {
+		holder = matsudaira_13	# Munehide
+	}
+}
+
+c_nf_matsudaira_takamatsu = {
+	1792.1.1 = {
+		liege = e_japan
+		holder = matsudaira_27	# Yorinori
+		government = japan_feudal_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1821.1.1 = {
+		holder = matsudaira_28	# Yorihiro
+	}
+	1842.5.25 = {
+		holder = matsudaira_29	# Yoritane
+	}
+}
+
+c_nf_matsudaira_hisamatsu = {
+	1809.1.1 = {
+		liege = e_japan
+		holder = matsudaira_42	# Sadamichi
+		government = japan_feudal_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1835.6.24 = {
+		holder = matsudaira_43	# Katsuyoshi
+	}
+	1856.9.9 = {
+		holder = matsudaira_44	# Katsushige
+	}
+}
+
+c_nf_shimazu = {
+	1809.6.1 = {
+		liege = e_japan
+		holder = shimazu_21	# Narioki
+		government = japan_feudal_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1858.12.28 = {
+		holder = shimazu_24	# Tadayoshi
+	}
+}
