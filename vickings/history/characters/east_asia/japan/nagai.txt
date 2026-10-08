@@ -1,0 +1,40 @@
+﻿# Takatsuki Domain
+# claimed descent from japanese_taira_kanmu_405 (Taira no Munetsune) and Emperor Go-Daigo
+nagai_0 = {
+	name = "Naonobu"	# 直進
+	dynasty = nagai
+	rite = mantrayana
+	culture = japanese
+	1761.1.1 = {
+		birth = yes
+	}
+	1835.3.12 = {
+		death = yes
+	}
+}
+nagai_1 = {
+	name = "Naotomo"	# 直与
+	dynasty = nagai
+	rite = mantrayana
+	culture = japanese
+	father = nagai_0
+	1785.6.4 = {
+		birth = yes
+	}
+	1846.8.28 = {
+		death = yes
+	}
+}
+nagai_2 = {
+	name = "Naoteru"	# 直輝
+	dynasty = nagai
+	rite = mantrayana
+	culture = japanese
+	father = nagai_1
+	1827.7.22 = {
+		birth = yes
+	}
+	1874.6.1 = {
+		death = yes
+	}
+}

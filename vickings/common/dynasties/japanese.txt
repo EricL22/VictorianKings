@@ -8,7 +8,7 @@ matsui = {
 	culture = japanese
 }
 
-174871 = {
+aoyama = {
 	name = "dynn_Aoyama"
 	culture = japanese
 }
@@ -18,22 +18,17 @@ matsui = {
 	culture = japanese
 }
 
-161969 = {
-	name = "dynn_Ii"
-	culture = japanese
-}
-
-151200 = {
+yanagisawa = {
 	name = "dynn_Yanagisawa"
 	culture = japanese
 }
 
-168018 = {
+nagai = {
 	name = "dynn_Nagai"
 	culture = japanese
 }
 
-156125 = {
+okabe = {
 	name = "dynn_Okabe"
 	culture = japanese
 }

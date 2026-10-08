@@ -1,0 +1,40 @@
+﻿# Koriyama Domain
+# claimed descent from japanese_minamoto_seiwa_157 (Takeda Nobumitsu)
+yanagisawa_0 = {
+	name = "Yasuhiro"	# 保泰
+	dynasty = yanagisawa
+	rite = mantrayana
+	culture = japanese
+	1783.1.25 = {
+		birth = yes
+	}
+	1838.7.16 = {
+		death = yes
+	}
+}
+yanagisawa_1 = {
+	name = "Yasuoki"	# 保兴
+	dynasty = yanagisawa
+	rite = mantrayana
+	culture = japanese
+	father = yanagisawa_0
+	1815.7.23 = {
+		birth = yes
+	}
+	1848.9.18 = {
+		death = yes
+	}
+}
+yanagisawa_2 = {
+	name = "Yasunobu"	# 保申
+	dynasty = yanagisawa
+	rite = mantrayana
+	culture = japanese
+	father = yanagisawa_1
+	1846.4.21 = {
+		birth = yes
+	}
+	1893.10.2 = {
+		death = yes
+	}
+}

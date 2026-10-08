@@ -727,7 +727,7 @@ c_nf_tao = {
 }
 
 c_nf_zeng = {
-	1812.7.5 = {	# he's a special historical character, so give it to him early...
+	1833.1.1 = {
 		liege = h_china
 		holder = liangjiang_2	# Zeng Guofan
 		government = celestial_government
@@ -1146,5 +1146,80 @@ c_nf_matsudaira_hoshina = {
 	}
 	1852.2.29 = {
 		holder = matsudaira_87	# Katamori
+	}
+}
+
+c_nf_aoyama = {
+	1785.1.1 = {
+		liege = e_japan
+		holder = aoyama_0	# Tadahiro
+		government = japan_feudal_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1835.1.1 = {
+		holder = aoyama_1	# Tadanaga
+	}
+	1862.2.29 = {
+		holder = aoyama_2	# Tadayuki
+	}
+}
+
+c_nf_ii = {
+	1812.2.3 = {
+		liege = e_japan
+		holder = ii_18	# Naoaki
+		government = japan_feudal_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1850.11.21 = {
+		holder = ii_19	# Naosuke
+	}
+	1860.4.28 = {
+		holder = ii_20	# Naonori
+	}
+}
+
+c_nf_yanagisawa = {
+	1811.1.1 = {
+		liege = e_japan
+		holder = yanagisawa_0	# Yasuhiro
+		government = japan_feudal_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1838.7.16 = {
+		holder = yanagisawa_1	# Yasuoki
+	}
+	1848.9.18 = {
+		holder = yanagisawa_2	# Yasunobu
+	}
+}
+
+c_nf_nagai = {
+	1809.8.23 = {
+		liege = e_japan
+		holder = nagai_1	# Naotomo
+		government = japan_feudal_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1842.11.18 = {
+		holder = nagai_2	# Naoteru
+	}
+}
+
+c_nf_okabe = {
+	1803.1.1 = {
+		liege = e_japan
+		holder = okabe_19	# Nagachika
+		government = japan_feudal_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1833.11.24 = {
+		holder = okabe_20	# Nagayori
+	}
+	1850.10.29 = {
+		holder = okabe_21	# Nagayuki
+	}
+	1855.3.21 = {
+		holder = okabe_22	# Nagahiro
 	}
 }

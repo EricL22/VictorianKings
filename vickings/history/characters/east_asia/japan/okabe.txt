@@ -1,0 +1,313 @@
+﻿# Kishiwada Domain
+okabe_0 = {
+	name = "Ietsuna"	# 家䋄
+	dynasty = okabe
+	rite = mantrayana
+	culture = japanese
+	father = japanese_kudo_58
+	1230.1.1 = {	# unknown
+		birth = yes
+	}
+	1290.1.1 = {	# unknown
+		death = yes
+	}
+}
+okabe_1 = {
+	name = "Yasutsuna"	# 康䋄
+	dynasty = okabe
+	rite = mantrayana
+	culture = japanese
+	father = okabe_0
+	1260.1.1 = {	# unknown
+		birth = yes
+	}
+	1320.1.1 = {	# unknown
+		death = yes
+	}
+}
+okabe_2 = {
+	name = "Terusuna"	# 照䋄
+	dynasty = okabe
+	rite = mantrayana
+	culture = japanese
+	father = okabe_1
+	1290.1.1 = {	# unknown
+		birth = yes
+	}
+	1350.1.1 = {	# unknown
+		death = yes
+	}
+}
+okabe_3 = {
+	name = "Tokitsuna"	# 时䋄
+	dynasty = okabe
+	rite = mantrayana
+	culture = japanese
+	father = okabe_2
+	1320.1.1 = {	# unknown
+		birth = yes
+	}
+	1380.1.1 = {	# unknown
+		death = yes
+	}
+}
+okabe_4 = {
+	name = "Nagatsuna"	# 永䋄
+	dynasty = okabe
+	rite = mantrayana
+	culture = japanese
+	father = okabe_3
+	1350.1.1 = {	# unknown
+		birth = yes
+	}
+	1410.1.1 = {	# unknown
+		death = yes
+	}
+}
+okabe_5 = {
+	name = "Yoshiki"	# 良喜
+	dynasty = okabe
+	rite = mantrayana
+	culture = japanese
+	father = okabe_4
+	1380.1.1 = {	# unknown
+		birth = yes
+	}
+	1440.1.1 = {	# unknown
+		death = yes
+	}
+}
+okabe_6 = {
+	name = "Yoshitsuna"	# 良䋄
+	dynasty = okabe
+	rite = mantrayana
+	culture = japanese
+	father = okabe_5
+	1410.1.1 = {	# unknown
+		birth = yes
+	}
+	1470.1.1 = {	# unknown
+		death = yes
+	}
+}
+okabe_7 = {
+	name = "Nakatsuna"	# 仲䋄
+	dynasty = okabe
+	rite = mantrayana
+	culture = japanese
+	father = okabe_6
+	1440.1.1 = {	# unknown
+		birth = yes
+	}
+	1500.1.1 = {	# unknown
+		death = yes
+	}
+}
+okabe_8 = {
+	name = "Chikatsuna"	# 亲䋄
+	dynasty = okabe
+	rite = mantrayana
+	culture = japanese
+	father = okabe_7
+	1470.1.1 = {	# unknown
+		birth = yes
+	}
+	1562.1.1 = {
+		death = yes
+	}
+}
+okabe_9 = {
+	name = "Hisatsuna"	# 久䋄
+	dynasty = okabe
+	rite = mantrayana
+	culture = japanese
+	father = okabe_8
+	1500.1.1 = {	# unknown
+		birth = yes
+	}
+	1547.1.1 = {
+		death = yes
+	}
+}
+okabe_10 = {
+	name = "Masatsuna"	# 正䋄
+	dynasty = okabe
+	rite = mantrayana
+	culture = japanese
+	father = okabe_9
+	1542.1.1 = {
+		birth = yes
+	}
+	1584.1.20 = {
+		death = yes
+	}
+}
+okabe_11 = {
+	name = "Nagamori"	# 长盛
+	dynasty = okabe
+	rite = mantrayana
+	culture = japanese
+	father = okabe_10
+	1568.1.1 = {
+		birth = yes
+	}
+	1632.12.13 = {
+		death = yes
+	}
+}
+okabe_12 = {
+	name = "Nobukatsu"	# 宣勝
+	dynasty = okabe
+	rite = mantrayana
+	culture = japanese
+	father = okabe_11
+	1597.1.1 = {
+		birth = yes
+	}
+	1668.11.23 = {
+		death = yes
+	}
+}
+okabe_13 = {
+	name = "Yukitaka"	# 行隆
+	dynasty = okabe
+	rite = mantrayana
+	culture = japanese
+	father = okabe_12
+	1617.1.1 = {
+		birth = yes
+	}
+	1688.1.27 = {
+		death = yes
+	}
+}
+okabe_14 = {
+	name = "Nagayasu"	# 长泰
+	dynasty = okabe
+	rite = mantrayana
+	culture = japanese
+	father = okabe_13
+	1650.5.8 = {
+		birth = yes
+	}
+	1724.9.4 = {
+		death = yes
+	}
+}
+okabe_15 = {
+	name = "Nagataka"	# 长敬
+	dynasty = okabe
+	rite = mantrayana
+	culture = japanese
+	father = okabe_14
+	1680.11.23 = {
+		birth = yes
+	}
+	1724.9.12 = {
+		death = yes
+	}
+}
+okabe_16 = {
+	name = "Nagaakira"	# 长著
+	dynasty = okabe
+	rite = mantrayana
+	culture = japanese
+	father = okabe_15
+	1712.2.2 = {
+		birth = yes
+	}
+	1756.6.30 = {
+		death = yes
+	}
+}
+okabe_17 = {
+	name = "Naganao"	# 长修
+	dynasty = okabe
+	rite = mantrayana
+	culture = japanese
+	father = okabe_16
+	1746.5.19 = {
+		birth = yes
+	}
+	1796.1.4 = {
+		death = yes
+	}
+}
+okabe_18 = {
+	name = "Nagatomo"	# 长俻
+	dynasty = okabe
+	rite = mantrayana
+	culture = japanese
+	father = okabe_17
+	1763.4.16 = {
+		birth = yes
+	}
+	1803.12.18 = {
+		death = yes
+	}
+}
+okabe_19 = {
+	name = "Nagachika"	# 长慎
+	dynasty = okabe
+	rite = mantrayana
+	culture = japanese
+	father = okabe_18
+	1787.4.17 = {
+		birth = yes
+	}
+	1859.1.28 = {
+		death = yes
+	}
+}
+okabe_20 = {
+	name = "Nagayori"	# 长和
+	dynasty = okabe
+	rite = mantrayana
+	culture = japanese
+	father = okabe_19
+	1807.8.6 = {
+		birth = yes
+	}
+	1850.10.29 = {
+		death = yes
+	}
+}
+okabe_21 = {
+	name = "Nagayuki"	# 长发
+	dynasty = okabe
+	rite = mantrayana
+	culture = japanese
+	father = okabe_19
+	1834.10.23 = {
+		birth = yes
+	}
+	1855.3.21 = {
+		death = yes
+	}
+}
+okabe_22 = {
+	name = "Nagahiro"	# 长寬
+	dynasty = okabe
+	rite = mantrayana
+	culture = japanese
+	father = okabe_19
+	1809.4.27 = {
+		birth = yes
+	}
+	1887.2.3 = {
+		death = yes
+	}
+}
+okabe_23 = {
+	name = "Nagamoto"	# 长职
+	dynasty = okabe
+	rite = mantrayana
+	culture = japanese
+	father = okabe_21
+	1855.1.4 = {
+		birth = yes
+	}
+	1925.12.27 = {
+		death = yes
+	}
+}

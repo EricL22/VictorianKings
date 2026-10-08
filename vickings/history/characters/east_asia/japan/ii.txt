@@ -1,0 +1,274 @@
+﻿# Hikone Domain
+ii_0 = {
+	name = "Morinao"	# 盛直
+	dynasty = japanese_ii
+	rite = mantrayana
+	culture = japanese
+	father = japanese_ii_7
+	1200.1.1 = {	# unknown
+		birth = yes
+	}
+	1245.1.1 = {	# unknown
+		death = yes
+	}
+}
+ii_1 = {
+	name = "Yoshinao"	# 良直
+	dynasty = japanese_ii
+	rite = mantrayana
+	culture = japanese
+	father = ii_0
+	1220.1.1 = {	# unknown
+		birth = yes
+	}
+	1265.1.1 = {	# unknown
+		death = yes
+	}
+}
+ii_2 = {
+	name = "Yanonao"	# 弥直
+	dynasty = japanese_ii
+	rite = mantrayana
+	culture = japanese
+	father = ii_1
+	1240.1.1 = {	# unknown
+		birth = yes
+	}
+	1285.1.1 = {	# unknown
+		death = yes
+	}
+}
+ii_3 = {
+	name = "Yasunao"	# 泰直
+	dynasty = japanese_ii
+	rite = mantrayana
+	culture = japanese
+	father = ii_2
+	1270.1.1 = {	# unknown
+		birth = yes
+	}
+	1315.1.1 = {	# unknown
+		death = yes
+	}
+}
+ii_4 = {
+	name = "Yukinao"	# 行直
+	dynasty = japanese_ii
+	rite = mantrayana
+	culture = japanese
+	father = ii_3
+	1309.1.1 = {
+		birth = yes
+	}
+	1354.1.1 = {
+		death = yes
+	}
+}
+ii_5 = {
+	name = "Kagenao"	# 景直
+	dynasty = japanese_ii
+	rite = mantrayana
+	culture = japanese
+	father = ii_4
+	1340.1.1 = {	# unknown
+		birth = yes
+	}
+	1390.1.1 = {	# unknown
+		death = yes
+	}
+}
+ii_6 = {
+	name = "Tadanao"	# 忠直
+	dynasty = japanese_ii
+	rite = mantrayana
+	culture = japanese
+	father = ii_5
+	1370.1.1 = {	# unknown
+		birth = yes
+	}
+	1430.1.1 = {	# unknown
+		death = yes
+	}
+}
+ii_7 = {
+	name = "Naouji"	# 直氏
+	dynasty = japanese_ii
+	rite = mantrayana
+	culture = japanese
+	father = ii_6
+	1410.1.1 = {	# unknown
+		birth = yes
+	}
+	1480.1.1 = {	# unknown
+		death = yes
+	}
+}
+ii_8 = {
+	name = "Naohira"	# 直平
+	dynasty = japanese_ii
+	rite = mantrayana
+	culture = japanese
+	father = ii_7
+	1479.1.1 = {
+		birth = yes
+	}
+	1563.10.5 = {
+		death = yes
+	}
+}
+ii_9 = {
+	name = "Naomitsu"	# 直满
+	dynasty = japanese_ii
+	rite = mantrayana
+	culture = japanese
+	father = ii_8
+	1500.1.1 = {	# unknown
+		birth = yes
+	}
+	1545.2.4 = {
+		death = yes
+	}
+}
+ii_10 = {
+	name = "Naochika"	# 直亲
+	dynasty = japanese_ii
+	rite = mantrayana
+	culture = japanese
+	father = ii_9
+	1536.1.1 = {
+		birth = yes
+	}
+	1563.1.8 = {
+		death = yes
+	}
+}
+ii_11 = {
+	name = "Naomasa"	# 直政
+	dynasty = japanese_ii
+	rite = mantrayana
+	culture = japanese
+	father = ii_10
+	1561.3.4 = {
+		birth = yes
+	}
+	1602.3.24 = {
+		death = yes
+	}
+}
+ii_12 = {
+	name = "Naotaka"	# 直孝
+	dynasty = japanese_ii
+	rite = mantrayana
+	culture = japanese
+	father = ii_11
+	1590.3.16 = {
+		birth = yes
+	}
+	1659.8.16 = {
+		death = yes
+	}
+}
+ii_13 = {
+	name = "Naotsuna"	# 直䋲
+	dynasty = japanese_ii
+	rite = mantrayana
+	culture = japanese
+	father = ii_12
+	1622.1.1 = {
+		birth = yes
+	}
+	1658.5.22 = {
+		death = yes
+	}
+}
+ii_14 = {
+	name = "Naooki"	# 直兴
+	dynasty = japanese_ii
+	rite = mantrayana
+	culture = japanese
+	father = ii_13
+	1656.3.31 = {
+		birth = yes
+	}
+	1717.5.30 = {
+		death = yes
+	}
+}
+ii_15 = {
+	name = "Naonobu"	# 直惟
+	dynasty = japanese_ii
+	rite = mantrayana
+	culture = japanese
+	father = ii_14
+	1700.6.17 = {
+		birth = yes
+	}
+	1736.7.12 = {
+		death = yes
+	}
+}
+ii_16 = {
+	name = "Naohide"	# 直幸
+	dynasty = japanese_ii
+	rite = mantrayana
+	culture = japanese
+	father = ii_15
+	1731.8.23 = {
+		birth = yes
+	}
+	1789.3.22 = {
+		death = yes
+	}
+}
+ii_17 = {
+	name = "Naonaka"	# 直中
+	dynasty = japanese_ii
+	rite = mantrayana
+	culture = japanese
+	father = ii_16
+	1766.7.17 = {
+		birth = yes
+	}
+	1831.7.4 = {
+		death = yes
+	}
+}
+ii_18 = {
+	name = "Naoaki"	# 直亮
+	dynasty = japanese_ii
+	rite = mantrayana
+	culture = japanese
+	father = ii_17
+	1794.7.7 = {
+		birth = yes
+	}
+	1850.11.4 = {
+		death = yes
+	}
+}
+ii_19 = {
+	name = "Naosuke"	# 直弼
+	dynasty = japanese_ii
+	rite = mantrayana
+	culture = japanese
+	father = ii_17
+	1814.11.29 = {
+		birth = yes
+	}
+	1860.3.24 = {
+		death = yes
+	}
+}
+ii_20 = {
+	name = "Naonori"	# 直宪
+	dynasty = japanese_ii
+	rite = mantrayana
+	culture = japanese
+	father = ii_19
+	1848.5.22 = {
+		birth = yes
+	}
+	1904.1.9 = {
+		death = yes
+	}
+}

@@ -1,0 +1,39 @@
+﻿# Sasayama Domain
+aoyama_0 = {
+	name = "Tadahiro"	# 忠裕
+	dynasty = aoyama
+	rite = mantrayana
+	culture = japanese
+	1768.6.22 = {
+		birth = yes
+	}
+	1836.5.12 = {
+		death = yes
+	}
+}
+aoyama_1 = {
+	name = "Tadanaga"	# 忠良
+	dynasty = aoyama
+	rite = mantrayana
+	culture = japanese
+	father = aoyama_0
+	1806.5.27 = {
+		birth = yes
+	}
+	1864.12.13 = {
+		death = yes
+	}
+}
+aoyama_2 = {
+	name = "Tadayuki"	# 忠敏
+	dynasty = aoyama
+	rite = mantrayana
+	culture = japanese
+	father = aoyama_1
+	1834.3.30 = {
+		birth = yes
+	}
+	1873.3.21 = {
+		death = yes
+	}
+}
