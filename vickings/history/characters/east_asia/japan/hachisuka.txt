@@ -1,0 +1,53 @@
+﻿# Tokushima Domain
+# claimed descent from japanese_minamoto_seiwa_451 (Ashikaga Yoshiuji)
+hachisuka_0 = {
+	name = "Haruaki"	# 治昭
+	dynasty = hachisuka
+	rite = mantrayana
+	culture = japanese
+	1758.1.3 = {
+		birth = yes
+	}
+	1814.5.13 = {
+		death = yes
+	}
+}
+hachisuka_1 = {
+	name = "Narimasa"	# 齐昌
+	dynasty = hachisuka
+	rite = mantrayana
+	culture = japanese
+	father = hachisuka_0
+	1795.8.24 = {
+		birth = yes
+	}
+	1859.10.8 = {
+		death = yes
+	}
+}
+hachisuka_2 = {
+	name = "Narihiro"	# 齐裕
+	dynasty = hachisuka	# adopted
+	rite = mantrayana
+	culture = japanese
+	father = tokugawa_13
+	1821.10.14 = {
+		birth = yes
+	}
+	1868.1.30 = {
+		death = yes
+	}
+}
+hachisuka_3 = {
+	name = "Mochiaki"	# 茂韶
+	dynasty = hachisuka
+	rite = mantrayana
+	culture = japanese
+	father = hachisuka_2
+	1846.9.28 = {
+		birth = yes
+	}
+	1918.2.10 = {
+		death = yes
+	}
+}

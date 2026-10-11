@@ -33,23 +33,13 @@ okabe = {
 	culture = japanese
 }
 
-850880 = {
+hachisuka = {
 	name = "dynn_Hachisuka"
 	culture = japanese
 }
 
-160068 = {
-	name = "dynn_Yamauchi"
-	culture = japanese
-}
-
-158350 = {
+sengoku = {
 	name = "dynn_Sengoku"
-	culture = japanese
-}
-
-112128 = {
-	name = "dynn_Ikeda"
 	culture = japanese
 }
 

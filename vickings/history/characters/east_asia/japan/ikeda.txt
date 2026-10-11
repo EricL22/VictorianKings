@@ -1,0 +1,356 @@
+﻿# claimed descent from japanese_ikeda_24 (Ikeda Yasunaga)
+ikeda_0 = {
+	name = "Tsunetoshi"	# 恒利
+	dynasty = japanese_ikeda
+	rite = pundarika
+	culture = japanese
+	1509.1.1 = {
+		birth = yes
+	}
+	1538.4.28 = {
+		death = yes
+	}
+}
+ikeda_1 = {
+	name = "Tsuneoki"	# 恒兴
+	dynasty = japanese_ikeda
+	rite = pundarika
+	culture = japanese
+	father = ikeda_0
+	1536.1.1 = {
+		birth = yes
+	}
+	1584.5.18 = {
+		death = yes
+	}
+}
+ikeda_2 = {
+	name = "Terumasa"	# 輝政
+	dynasty = japanese_ikeda
+	rite = pundarika
+	culture = japanese
+	father = ikeda_1
+	1565.1.31 = {
+		birth = yes
+	}
+	1613.3.16 = {
+		death = yes
+	}
+}
+ikeda_3 = {
+	name = "Toshitaka"	# 利隆
+	dynasty = japanese_ikeda
+	rite = pundarika
+	culture = japanese
+	father = ikeda_2
+	1584.10.10 = {
+		birth = yes
+	}
+	1616.7.26 = {
+		death = yes
+	}
+}
+ikeda_4 = {
+	name = "Tadakatsu"	# 忠雄
+	dynasty = japanese_ikeda
+	rite = pundarika
+	culture = japanese
+	father = ikeda_2
+	1602.12.11 = {
+		birth = yes
+	}
+	1632.5.21 = {
+		death = yes
+	}
+}
+
+## Okayama Domain
+ikeda_10 = {
+	name = "Mitsumasa"	# 光政
+	dynasty = japanese_ikeda
+	rite = pundarika
+	culture = japanese
+	father = ikeda_3
+	1609.5.10 = {
+		birth = yes
+	}
+	1682.6.27 = {
+		death = yes
+	}
+}
+ikeda_11 = {
+	name = "Tsunamasa"	# 䋄政
+	dynasty = japanese_ikeda
+	rite = pundarika
+	culture = japanese
+	father = ikeda_10
+	1638.2.18 = {
+		birth = yes
+	}
+	1714.12.5 = {
+		death = yes
+	}
+}
+ikeda_12 = {
+	name = "Tsugumasa"	# 継政
+	dynasty = japanese_ikeda
+	rite = pundarika
+	culture = japanese
+	father = ikeda_11
+	1702.9.8 = {
+		birth = yes
+	}
+	1776.3.27 = {
+		death = yes
+	}
+}
+ikeda_13 = {
+	name = "Munemasa"	# 宗政
+	dynasty = japanese_ikeda
+	rite = pundarika
+	culture = japanese
+	father = ikeda_12
+	1727.8.11 = {
+		birth = yes
+	}
+	1764.4.14 = {
+		death = yes
+	}
+}
+ikeda_14 = {
+	name = "Harumasa"	# 治政
+	dynasty = japanese_ikeda
+	rite = pundarika
+	culture = japanese
+	father = ikeda_13
+	1750.2.16 = {
+		birth = yes
+	}
+	1819.1.14 = {
+		death = yes
+	}
+}
+ikeda_15 = {
+	name = "Narimasa"	# 齐政
+	dynasty = japanese_ikeda
+	rite = pundarika
+	culture = japanese
+	father = ikeda_14
+	1773.5.28 = {
+		birth = yes
+	}
+	1833.8.11 = {
+		death = yes
+	}
+}
+ikeda_16 = {
+	name = "Naritoshi"	# 齐敏
+	dynasty = japanese_ikeda	# adopted
+	rite = pundarika
+	culture = japanese
+	father = shimazu_21
+	1811.5.29 = {
+		birth = yes
+	}
+	1842.3.11 = {
+		death = yes
+	}
+}
+ikeda_17 = {
+	name = "Yoshimasa"	# 庆政
+	dynasty = japanese_ikeda	# adopted
+	rite = pundarika
+	culture = japanese
+	1823.8.10 = {
+		birth = yes
+	}
+	1893.3.4 = {
+		death = yes
+	}
+}
+####################
+
+## Tottori Domain
+ikeda_20 = {
+	name = "Mitsunaka"	# 光仲
+	dynasty_house = house_ikeda_tottori
+	rite = pundarika
+	culture = japanese
+	father = ikeda_4
+	1630.7.27 = {
+		birth = yes
+	}
+	1693.8.8 = {
+		death = yes
+	}
+}
+ikeda_21 = {
+	name = "Tsunakiyo"	# 䋄清
+	dynasty_house = house_ikeda_tottori
+	rite = pundarika
+	culture = japanese
+	father = ikeda_20
+	1648.1.18 = {
+		birth = yes
+	}
+	1711.8.17 = {
+		death = yes
+	}
+}
+ikeda_22 = {
+	name = "Nakasumi"	# 仲澄
+	dynasty_house = house_ikeda_tottori
+	rite = pundarika
+	culture = japanese
+	father = ikeda_20
+	1650.11.4 = {
+		birth = yes
+	}
+	1722.7.14 = {
+		death = yes
+	}
+}
+ikeda_23 = {
+	name = "Yoshiyasu"	# 吉泰
+	dynasty_house = house_ikeda_tottori
+	rite = pundarika
+	culture = japanese
+	father = ikeda_22
+	1687.8.1 = {
+		birth = yes
+	}
+	1739.8.27 = {
+		death = yes
+	}
+}
+ikeda_24 = {
+	name = "Muneyasu"	# 宗泰
+	dynasty_house = house_ikeda_tottori
+	rite = pundarika
+	culture = japanese
+	father = ikeda_23
+	1717.3.25 = {
+		birth = yes
+	}
+	1747.9.25 = {
+		death = yes
+	}
+}
+ikeda_25 = {
+	name = "Shigenobu"	# 重寬
+	dynasty_house = house_ikeda_tottori
+	rite = pundarika
+	culture = japanese
+	father = ikeda_24
+	1746.8.27 = {
+		birth = yes
+	}
+	1783.11.6 = {
+		death = yes
+	}
+}
+ikeda_26 = {
+	name = "Harumichi"	# 治道
+	dynasty_house = house_ikeda_tottori
+	rite = pundarika
+	culture = japanese
+	father = ikeda_25
+	1768.4.26 = {
+		birth = yes
+	}
+	1798.6.19 = {
+		death = yes
+	}
+}
+ikeda_27 = {
+	name = "Narikuni"	# 齐邦
+	dynasty_house = house_ikeda_tottori
+	rite = pundarika
+	culture = japanese
+	father = ikeda_26
+	1787.4.6 = {
+		birth = yes
+	}
+	1807.8.12 = {
+		death = yes
+	}
+}
+ikeda_28 = {
+	name = "Naritoshi"	# 齐稷
+	dynasty_house = house_ikeda_tottori
+	rite = pundarika
+	culture = japanese
+	father = ikeda_26
+	1788.8.11 = {
+		birth = yes
+	}
+	1830.6.22 = {
+		death = yes
+	}
+}
+ikeda_29 = {
+	name = "Narimichi"	# 齐訓
+	dynasty_house = house_ikeda_tottori
+	rite = pundarika
+	culture = japanese
+	father = ikeda_28
+	1820.9.2 = {
+		birth = yes
+	}
+	1841.7.4 = {
+		death = yes
+	}
+}
+ikeda_30 = {
+	name = "Nakamasa"	# 仲雅
+	dynasty_house = house_ikeda_tottori
+	rite = pundarika
+	culture = japanese
+	father = ikeda_25
+	1780.5.25 = {
+		birth = yes
+	}
+	1841.8.10 = {
+		death = yes
+	}
+}
+ikeda_31 = {
+	name = "Nakanori"	# 仲律
+	dynasty_house = house_ikeda_tottori
+	rite = pundarika
+	culture = japanese
+	father = ikeda_30
+	1805.7.22 = {
+		birth = yes
+	}
+	1850.4.22 = {
+		death = yes
+	}
+}
+ikeda_32 = {
+	name = "Yoshiyuki"	# 庆行
+	dynasty_house = house_ikeda_tottori
+	rite = pundarika
+	culture = japanese
+	father = ikeda_31
+	1832.5.24 = {
+		birth = yes
+	}
+	1848.7.13 = {
+		death = yes
+	}
+}
+ikeda_33 = {
+	name = "Yoshinori"	# 庆德
+	dynasty_house = house_ikeda_tottori	# adopted
+	rite = pundarika
+	culture = japanese
+	father = tokugawa_59
+	1837.8.13 = {
+		birth = yes
+	}
+	1877.8.2 = {
+		death = yes
+	}
+}
+####################

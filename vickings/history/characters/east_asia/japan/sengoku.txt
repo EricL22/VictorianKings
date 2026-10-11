@@ -1,0 +1,40 @@
+﻿# Izushi Domain
+# claimed descent from japanese_goto dynasty
+sengoku_0 = {
+	name = "Hisamichi"	# 久道
+	dynasty = sengoku
+	rite = pundarika
+	culture = japanese
+	1774.6.20 = {
+		birth = yes
+	}
+	1834.10.6 = {
+		death = yes
+	}
+}
+sengoku_1 = {
+	name = "Masayoshi"	# 政美
+	dynasty = sengoku
+	rite = pundarika
+	culture = japanese
+	father = sengoku_0
+	1797.11.17 = {
+		birth = yes
+	}
+	1824.5.30 = {
+		death = yes
+	}
+}
+sengoku_2 = {
+	name = "Hisatoshi"	# 久利
+	dynasty = sengoku
+	rite = pundarika
+	culture = japanese
+	father = sengoku_0
+	1820.4.5 = {
+		birth = yes
+	}
+	1897.6.6 = {
+		death = yes
+	}
+}

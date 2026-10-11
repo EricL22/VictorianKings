@@ -1,0 +1,287 @@
+﻿# Tosa Domain
+yamauchi_0 = {
+	name = "Munetoshi"	# 宗俊
+	dynasty = japanese_yamauchi
+	rite = pundarika
+	culture = japanese
+	father = japanese_yamauchi_6 # Shigetoshi
+	1200.1.1 = {	# unknown
+		birth = yes
+	}
+	1260.1.1 = {	# unknown
+		death = yes
+	}
+}
+yamauchi_1 = {
+	name = "Toshiie"	# 俊家
+	dynasty = japanese_yamauchi
+	rite = pundarika
+	culture = japanese
+	father = yamauchi_0
+	1230.1.1 = {	# unknown
+		birth = yes
+	}
+	1290.1.1 = {	# unknown
+		death = yes
+	}
+}
+yamauchi_2 = {
+	name = "MoritoO_"	# 盛远
+	dynasty = japanese_yamauchi
+	rite = pundarika
+	culture = japanese
+	father = yamauchi_1
+	1260.1.1 = {	# unknown
+		birth = yes
+	}
+	1320.1.1 = {	# unknown
+		death = yes
+	}
+}
+yamauchi_3 = {
+	name = "Soregashi"	# 某 - name unknown
+	dynasty = japanese_yamauchi
+	rite = pundarika
+	culture = japanese
+	father = yamauchi_2
+	1290.1.1 = {	# unknown
+		birth = yes
+	}
+	1350.1.1 = {	# unknown
+		death = yes
+	}
+}
+yamauchi_4 = {
+	name = "Sadamichi"	# 貞通
+	dynasty = japanese_yamauchi
+	rite = pundarika
+	culture = japanese
+	father = yamauchi_3
+	1320.1.1 = {	# unknown
+		birth = yes
+	}
+	1380.1.1 = {	# unknown
+		death = yes
+	}
+}
+yamauchi_5 = {
+	name = "Morimichi"	# 盛通
+	dynasty = japanese_yamauchi
+	rite = pundarika
+	culture = japanese
+	father = yamauchi_4
+	1350.1.1 = {	# unknown
+		birth = yes
+	}
+	1410.1.1 = {	# unknown
+		death = yes
+	}
+}
+yamauchi_6 = {
+	name = "Moritoyo"	# 盛丰
+	dynasty = japanese_yamauchi
+	rite = pundarika
+	culture = japanese
+	father = yamauchi_5
+	1380.1.1 = {	# unknown
+		birth = yes
+	}
+	1440.1.1 = {	# unknown
+		death = yes
+	}
+}
+yamauchi_7 = {
+	name = "Sanetoyo"	# 實丰
+	dynasty = japanese_yamauchi
+	rite = pundarika
+	culture = japanese
+	father = yamauchi_6
+	1410.1.1 = {	# unknown
+		birth = yes
+	}
+	1470.1.1 = {	# unknown
+		death = yes
+	}
+}
+yamauchi_8 = {
+	name = "Hisatoyo"	# 久丰
+	dynasty = japanese_yamauchi
+	rite = pundarika
+	culture = japanese
+	father = yamauchi_7
+	1450.1.1 = {	# unknown
+		birth = yes
+	}
+	1510.1.1 = {	# unknown
+		death = yes
+	}
+}
+yamauchi_9 = {
+	name = "Moritoyo"	# 盛丰
+	dynasty = japanese_yamauchi
+	rite = pundarika
+	culture = japanese
+	father = yamauchi_8
+	1510.1.1 = {
+		birth = yes
+	}
+	1557.1.1 = {
+		death = yes
+	}
+}
+yamauchi_10 = {
+	name = "Yasutoyo"	# 康丰
+	dynasty = japanese_yamauchi
+	rite = pundarika
+	culture = japanese
+	father = yamauchi_9
+	1549.1.1 = {
+		birth = yes
+	}
+	1625.9.30 = {
+		death = yes
+	}
+}
+yamauchi_11 = {
+	name = "Shigemasa"	# 重昌
+	dynasty = japanese_yamauchi	# adopted by Fukao clan
+	rite = pundarika
+	culture = japanese
+	father = yamauchi_10
+	1598.1.1 = {
+		birth = yes
+	}
+	1672.10.15 = {
+		death = yes
+	}
+}
+yamauchi_12 = {
+	name = "Shigeteru"	# 重照
+	dynasty = japanese_yamauchi	# adopted by Fukao clan
+	rite = pundarika
+	culture = japanese
+	father = yamauchi_11
+	1619.1.1 = {
+		birth = yes
+	}
+	1689.2.21 = {
+		death = yes
+	}
+}
+yamauchi_13 = {
+	name = "Shigenao"	# 重直
+	dynasty = japanese_yamauchi
+	rite = pundarika
+	culture = japanese
+	father = yamauchi_12
+	1659.1.1 = {
+		birth = yes
+	}
+	1690.6.4 = {
+		death = yes
+	}
+}
+yamauchi_14 = {
+	name = "Norishige"	# 規重
+	dynasty = japanese_yamauchi
+	rite = pundarika
+	culture = japanese
+	father = yamauchi_13
+	1682.1.1 = {
+		birth = yes
+	}
+	1721.10.19 = {
+		death = yes
+	}
+}
+yamauchi_15 = {
+	name = "Toyonobu"	# 丰敷
+	dynasty = japanese_yamauchi
+	rite = pundarika
+	culture = japanese
+	father = yamauchi_14
+	1712.7.11 = {
+		birth = yes
+	}
+	1768.1.8 = {
+		death = yes
+	}
+}
+yamauchi_16 = {
+	name = "Toyochika"	# 丰雍
+	dynasty = japanese_yamauchi
+	rite = pundarika
+	culture = japanese
+	father = yamauchi_15
+	1750.2.12 = {
+		birth = yes
+	}
+	1789.10.12 = {
+		death = yes
+	}
+}
+yamauchi_17 = {
+	name = "Toyokazu"	# 丰策
+	dynasty = japanese_yamauchi
+	rite = pundarika
+	culture = japanese
+	father = yamauchi_16
+	1773.6.5 = {
+		birth = yes
+	}
+	1825.9.15 = {
+		death = yes
+	}
+}
+yamauchi_18 = {
+	name = "Toyosuke"	# 丰資
+	dynasty = japanese_yamauchi
+	rite = pundarika
+	culture = japanese
+	father = yamauchi_17
+	1794.11.9 = {
+		birth = yes
+	}
+	1872.2.12 = {
+		death = yes
+	}
+}
+yamauchi_19 = {
+	name = "Toyoteru"	# 丰熙
+	dynasty = japanese_yamauchi
+	rite = pundarika
+	culture = japanese
+	father = yamauchi_18
+	1815.4.8 = {
+		birth = yes
+	}
+	1848.8.8 = {
+		death = yes
+	}
+}
+yamauchi_20 = {
+	name = "Toyoatsu"	# 丰惇
+	dynasty = japanese_yamauchi
+	rite = pundarika
+	culture = japanese
+	father = yamauchi_18
+	1824.7.2 = {
+		birth = yes
+	}
+	1848.10.14 = {
+		death = yes
+	}
+}
+yamauchi_21 = {
+	name = "Toyonori"	# 丰範
+	dynasty = japanese_yamauchi
+	rite = pundarika
+	culture = japanese
+	father = yamauchi_18
+	1846.5.10 = {
+		birth = yes
+	}
+	1886.7.13 = {
+		death = yes
+	}
+}
