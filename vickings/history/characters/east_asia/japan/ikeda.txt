@@ -145,12 +145,16 @@ ikeda_15 = {
 }
 ikeda_16 = {
 	name = "Naritoshi"	# 齐敏
-	dynasty = japanese_ikeda	# adopted
+	dynasty = shimazu
 	rite = pundarika
 	culture = japanese
 	father = shimazu_21
 	1811.5.29 = {
 		birth = yes
+	}
+	1826.10.1 = {
+		dynasty = japanese_ikeda	# adopted
+		# adoptive father = ikeda_15
 	}
 	1842.3.11 = {
 		death = yes
@@ -163,6 +167,9 @@ ikeda_17 = {
 	culture = japanese
 	1823.8.10 = {
 		birth = yes
+	}
+	1833.1.1 = {
+		# adoptive father = ikeda_16
 	}
 	1893.3.4 = {
 		death = yes
@@ -342,14 +349,35 @@ ikeda_32 = {
 }
 ikeda_33 = {
 	name = "Yoshinori"	# 庆德
-	dynasty_house = house_ikeda_tottori	# adopted
+	dynasty_house = house_tokugawa_mito
 	rite = pundarika
 	culture = japanese
 	father = tokugawa_59
 	1837.8.13 = {
 		birth = yes
 	}
+	1850.12.2 = {
+		dynasty_house = house_ikeda_tottori	# adopted
+		# adoptive father = ikeda_34
+	}
 	1877.8.2 = {
+		death = yes
+	}
+}
+ikeda_34 = {
+	name = "Yoshitaka"	# 庆榮
+	dynasty = maeda
+	rite = pundarika
+	culture = japanese
+	father = maeda_1
+	1834.5.1 = {
+		birth = yes
+	}
+	1848.7.13 = {
+		dynasty_house = house_ikeda_tottori	# adopted
+		# adoptive father = ikeda_32
+	}
+	1850.7.2 = {
 		death = yes
 	}
 }

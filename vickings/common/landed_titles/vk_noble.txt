@@ -1600,7 +1600,7 @@ c_nf_sengoku = {
 	ai_primary_priority = { add = @never_primary_score }
 }
 
-c_nf_ikeda = {
+c_nf_ikeda_tottori = {
 	color = { 100 100 100 }
 	capital = c_yamashiro
 
@@ -1617,7 +1617,7 @@ c_nf_ikeda = {
 	ai_primary_priority = { add = @never_primary_score }
 }
 
-c_nf_ikeda_tottori = {
+c_nf_maeda = {
 	color = { 100 100 100 }
 	capital = c_yamashiro
 

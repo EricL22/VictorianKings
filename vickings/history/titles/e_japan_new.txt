@@ -1086,70 +1086,56 @@ c_kozuke = { # Kozuke
 	}
 }
 c_noto = { # Noto
-	867.1.1 = { change_development_level = 5 }
-	1066.1.1 = { change_development_level = 8 }
-	1178.1.1 = { change_development_level = 13 }
-
-	700.1.1 = {
-		liege = e_japan
-		government = japan_administrative_government
+	1802.1.1 = {
+		holder = maeda_0	# Narinaga
 	}
-	848.8.26 = { holder = japanese_tachibana_115 } # Harunari - Kami
-	865.1.1 = { holder = japanese_funya_14 } # Yoshio - Kami
-	869.1.13 = { holder = japanese_abe_noto_1 } # Takasada
-	980.9.3 = { holder = japanese_takashina_7 } # Shigetada
-	1020.1.1 = { holder = japanese_fujiwara_1068 } # Noriaki # ?
-	1066.1.1 = { holder = japanese_minamoto_sanjo_6 } # Nobumune - placeholder for his wife's father, Norikiyo (Kami)
-	1126.2.24 = { holder = japanese_fujiwara_836 } # Tokikane - Kami
-	1176.3.1 = { holder = japanese_taira_kanmu_83 } # Tadafusa
-	1178.1.1 = {
-		holder = japanese_taira_kanmu_37 # Norimori
-		government = japan_feudal_government
+	1822.1.1 = {
+		holder = maeda_1	# Nariyasu
+	}
+	1866.4.4 = {
+		holder = maeda_2	# Yoshiyasu
+	}
+	1871.7.14 = {
+		holder = yamato_49	# Meiji
+	}
+	1912.7.29 = {
+		holder = yamato_50	# Taishō
 	}
 }
 c_etchu = { # Etchu
-	867.1.1 = { change_development_level = 6 }
-	1066.1.1 = { change_development_level = 10 }
-	1178.1.1 = { change_development_level = 16 }
-
-	700.1.1 = {
-		liege = e_japan
-		government = japan_administrative_government
+	1802.1.1 = {
+		holder = maeda_0	# Narinaga
 	}
-	852.8.7 = { holder = japanese_minaga_1 } # Chikahito_2 - Kami
-	856.1.12 = { holder = japanese_minamoto_saga_5 } # Hiraku - Kami
-	#865.1.1 = { holder = japanese_koga_2 } # Mitsune
-	865.1.1 = { holder = japanese_yamato_329 } # Prince Munesada_2 - Kami
-	1033.1.1 = { holder = japanese_tachibana_119 } # Norinaga_2 - Kami
-	1060.1.1 = { holder = japanese_fujiwara_240 } # Masaie - Kami (date unknown)
-	#1061.12.1 = { holder = japanese_minamoto_daigo_80 } # Iemasa - Gon no Kami
-	1066.1.1 = { holder = japanese_fujiwara_1820 } # Kanetada_3 - Kami (date unknown)
-	1175.1.1 = {
-		holder = japanese_taira_kanmu_320 # Moritoshi
-		government = japan_feudal_government
+	1822.1.1 = {
+		holder = maeda_1	# Nariyasu
+	}
+	1866.4.4 = {
+		holder = maeda_2	# Yoshiyasu
+	}
+	1871.7.14 = {
+		holder = yamato_49	# Meiji
+	}
+	1912.7.29 = {
+		holder = yamato_50	# Taishō
 	}
 }
 c_kaga = { # Kaga
-	867.1.1 = { change_development_level = 6 }
-	1066.1.1 = { change_development_level = 11 }
-	1178.1.1 = { change_development_level = 17 }
-
-	700.1.1 = {
-		liege = e_japan
-		government = japan_administrative_government
+	1802.1.1 = {
+		holder = maeda_0	# Narinaga
+		government = japan_feudal_government
 	}
-	859.1.13 = { holder = japanese_minamoto_saga_5 } # Hiraku - Kami
-	862.2.11 = { holder = japanese_fujiwara_1024 } # Motoo
-	866.1.13 = { holder = japanese_yamato_165 } # Yoshiari - Kami
-	908.1.12 = { holder = japanese_taira_koko_2 } # Atsuyuki_3
-	#1040.4.9 = { holder = japanese_fujiwara_723 } # Norisuke - Mi no Kami
-	#1047.2.7 = { holder = japanese_minamoto_daigo_56 } # Takafusa_2 - Mi no Kami
-	1058.1.1 = { holder = japanese_fujiwara_243 } # Sanemasa
-	1061.1.1 = { holder = japanese_minamoto_daigo_25 } # Toshiaki
-	1114.1.1 = { holder = japanese_fujiwara_834 } # Atsukane - Kami
-	1121.1.1 = { holder = japanese_fujiwara_639 } # Toshiaki
-	1175.12.29 = { holder = japanese_fujiwara_1109 } # Morotaka
-	1178.1.1 = { holder = japanese_taira_kanmu_310 } # Chikamune
+	1822.1.1 = {
+		holder = maeda_1	# Nariyasu
+	}
+	1866.4.4 = {
+		holder = maeda_2	# Yoshiyasu
+	}
+	1871.7.14 = {
+		holder = yamato_49	# Meiji
+	}
+	1912.7.29 = {
+		holder = yamato_50	# Taishō
+	}
 }
 c_kai = { # Kai
 	867.1.1 = { change_development_level = 6 }

@@ -1,0 +1,40 @@
+﻿# Kaga Domain
+# claimed descent from japanese_sugawara dynasty
+maeda_0 = {
+	name = "Narinaga"	# 齐广
+	dynasty = maeda
+	rite = pundarika
+	culture = japanese
+	1782.9.5 = {
+		birth = yes
+	}
+	1824.8.4 = {
+		death = yes
+	}
+}
+maeda_1 = {
+	name = "Nariyasu"	# 齐泰
+	dynasty = maeda
+	rite = pundarika
+	culture = japanese
+	father = maeda_0
+	1811.8.28 = {
+		birth = yes
+	}
+	1884.1.16 = {
+		death = yes
+	}
+}
+maeda_2 = {
+	name = "Yoshiyasu"	# 庆宁
+	dynasty = maeda
+	rite = pundarika
+	culture = japanese
+	father = maeda_1
+	1830.6.24 = {
+		birth = yes
+	}
+	1874.5.22 = {
+		death = yes
+	}
+}

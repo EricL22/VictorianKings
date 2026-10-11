@@ -338,13 +338,17 @@ tokugawa_26 = {
 	}
 }
 tokugawa_27 = {
-	name = "Nariyuki"	# 齐之
+	name = "Nariyuki"	# 齐順
 	dynasty_house = house_tokugawa
 	rite = mantrayana
 	culture = japanese
 	father = tokugawa_13
 	1801.10.16 = {
 		birth = yes
+	}
+	1816.6.3 = {
+		dynasty_house = house_tokugawa_kishu	# adopted
+		# adoptive father = tokugawa_26
 	}
 	1846.3.31 = {
 		death = yes
@@ -358,6 +362,10 @@ tokugawa_28 = {
 	father = tokugawa_13
 	1820.6.8 = {
 		birth = yes
+	}
+	1846.3.31 = {
+		dynasty_house = house_tokugawa_kishu	# adopted
+		# adoptive father = tokugawa_27
 	}
 	1849.3.24 = {
 		death = yes
@@ -449,9 +457,13 @@ tokugawa_42 = {
 	dynasty_house = house_tokugawa
 	rite = mantrayana
 	culture = japanese
-	father = tokugawa_13
+	# birth father = tokugawa_13
+	father = tokugawa_41
 	1819.7.20 = {
 		birth = yes
+	}
+	1822.6.13 = {
+		dynasty_house = house_tokugawa_owari	# adopted
 	}
 	1839.5.3 = {
 		death = yes
@@ -465,6 +477,10 @@ tokugawa_43 = {
 	father = tokugawa_13
 	1810.7.14 = {
 		birth = yes
+	}
+	1839.5.3 = {
+		dynasty_house = house_tokugawa_owari	# adopted
+		# adoptive father = tokugawa_42
 	}
 	1845.8.8 = {
 		death = yes
@@ -498,12 +514,15 @@ tokugawa_45 = {
 }
 tokugawa_46 = {
 	name = "Yoshikatsu"	# 庆勝
-	dynasty_house = house_tokugawa_owari	# adopted
+	dynasty_house = house_tokugawa_mito
 	rite = mantrayana
 	culture = japanese
 	father = tokugawa_45
 	1824.4.14 = {
 		birth = yes
+	}
+	1849.1.1 = {
+		dynasty_house = house_tokugawa_owari	# adopted
 	}
 	1883.8.1 = {
 		death = yes
@@ -511,12 +530,15 @@ tokugawa_46 = {
 }
 tokugawa_47 = {
 	name = "Mochinaga"	# 茂德
-	dynasty_house = house_tokugawa_owari	# adopted
+	dynasty_house = house_tokugawa_mito
 	rite = mantrayana
 	culture = japanese
 	father = tokugawa_45
 	1831.6.11 = {
 		birth = yes
+	}
+	1858.1.1 = {
+		dynasty_house = house_tokugawa_owari	# adopted
 	}
 	1884.3.6 = {
 		death = yes

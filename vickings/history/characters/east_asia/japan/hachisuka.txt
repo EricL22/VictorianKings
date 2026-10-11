@@ -27,12 +27,16 @@ hachisuka_1 = {
 }
 hachisuka_2 = {
 	name = "Narihiro"	# 齐裕
-	dynasty = hachisuka	# adopted
+	dynasty_house = house_tokugawa
 	rite = mantrayana
 	culture = japanese
 	father = tokugawa_13
 	1821.10.14 = {
 		birth = yes
+	}
+	1827.6.3 = {
+		dynasty = hachisuka	# adopted
+		# adoptive father = hachisuka_1
 	}
 	1868.1.30 = {
 		death = yes

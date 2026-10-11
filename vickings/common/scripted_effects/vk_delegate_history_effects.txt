@@ -196,3 +196,44 @@ base_1861_tributary_setup_effect = {
 		}
 	}
 }
+
+# vanilla uses set_father effects in character files to handle adoptions, but it doesn't persist after character death
+vk_history_setup_persistent_adoption_effect = {
+   	if = {
+		limit = { current_date >= 1812.7.5 }	# 1812 and later
+		character:matsudaira_86 = { set_father = character:matsudaira_85 }
+	}
+   	if = {
+		limit = { current_date > 1812.7.5 }	# 1815 and later
+		character:matsudaira_28 = { set_father = character:matsudaira_27 }
+	}
+   	if = {
+		limit = { current_date > 1815.7.8 }	# 1836 and later
+		character:matsudaira_43 = { set_father = character:matsudaira_42 }
+		character:matsudaira_77 = { set_father = character:matsudaira_76 }
+		character:matsudaira_94 = { set_father = character:matsudaira_93 }
+
+		character:ikeda_16 = { set_father = character:ikeda_15 }
+		character:ikeda_17 = { set_father = character:ikeda_16 }
+
+		character:tokugawa_27 = { set_father = character:tokugawa_26 }
+
+		character:hachisuka_2 = { set_father = character:hachisuka_1 }
+	}
+   	if = {
+		limit = { current_date > 1836.1.1 }	# 1861 and later
+		character:matsudaira_44 = { set_father = character:matsudaira_43 }
+		character:matsudaira_87 = { set_father = character:matsudaira_86 }
+		character:matsudaira_95 = { set_father = character:matsudaira_94 }
+
+		character:ikeda_33 = { set_father = character:ikeda_34 }
+		character:ikeda_34 = { set_father = character:ikeda_32 }
+
+		character:tokugawa_28 = { set_father = character:tokugawa_27 }
+		# character:tokugawa_43 = { set_father = character:tokugawa_42 }
+	}
+   	if = {
+		limit = { current_date > 1861.7.1 }	# 1914 and later
+		character:matsudaira_88 = { set_father = character:matsudaira_87 }
+	}
+}

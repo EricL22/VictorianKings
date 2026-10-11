@@ -1012,6 +1012,12 @@ c_nf_tokugawa_kishu = {
 		government = japan_feudal_government
 		succession_laws = { noble_family_succession_law }
 	}
+	1816.6.3 = {
+		holder = tokugawa_27	# Nariyuki
+	}
+	1846.5.1 = {
+		holder = tokugawa_28	# Narikatsu
+	}
 	1858.6.25 = {
 		holder = tokugawa_32	# Mochitsugu
 	}
@@ -1023,6 +1029,12 @@ c_nf_tokugawa_owari = {
 		holder = tokugawa_41	# Naritomo
 		government = japan_feudal_government
 		succession_laws = { noble_family_succession_law }
+	}
+	1827.8.15 = {
+		holder = tokugawa_42	# Nariharu
+	}
+	1839.5.3 = {
+		holder = tokugawa_43	# Naritaka
 	}
 	1858.7.1 = {
 		holder = tokugawa_47	# Mochinaga
@@ -1269,21 +1281,6 @@ c_nf_sengoku = {
 	}
 }
 
-c_nf_ikeda = {
-	1794.3.8 = {
-		liege = e_japan
-		holder = ikeda_15	# Narimasa
-		government = japan_feudal_government
-		succession_laws = { noble_family_succession_law }
-	}
-	1829.3.11 = {
-		holder = ikeda_16	# Naritoshi
-	}
-	1842.3.11 = {
-		holder = ikeda_17	# Yoshimasa
-	}
-}
-
 c_nf_ikeda_tottori = {
 	1807.8.12 = {
 		liege = e_japan
@@ -1296,5 +1293,20 @@ c_nf_ikeda_tottori = {
 	}
 	1850.12.2 = {
 		holder = ikeda_33	# Yoshinori
+	}
+}
+
+c_nf_maeda = {
+	1802.1.1 = {
+		liege = e_japan
+		holder = maeda_0	# Narinaga
+		government = japan_feudal_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1822.1.1 = {
+		holder = maeda_1	# Nariyasu
+	}
+	1866.4.4 = {
+		holder = maeda_2	# Yoshiyasu
 	}
 }
