@@ -13,7 +13,7 @@ aoyama = {
 	culture = japanese
 }
 
-141647 = {
+sakai = {
 	name = "dynn_Sakai"
 	culture = japanese
 }

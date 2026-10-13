@@ -457,13 +457,13 @@ tokugawa_42 = {
 	dynasty_house = house_tokugawa
 	rite = mantrayana
 	culture = japanese
-	# birth father = tokugawa_13
-	father = tokugawa_41
+	father = tokugawa_13
 	1819.7.20 = {
 		birth = yes
 	}
 	1822.6.13 = {
 		dynasty_house = house_tokugawa_owari	# adopted
+		# adoptive father = tokugawa_41
 	}
 	1839.5.3 = {
 		death = yes

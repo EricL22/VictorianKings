@@ -217,6 +217,7 @@ vk_history_setup_persistent_adoption_effect = {
 		character:ikeda_17 = { set_father = character:ikeda_16 }
 
 		character:tokugawa_27 = { set_father = character:tokugawa_26 }
+		character:tokugawa_42 = { set_father = character:tokugawa_41 }
 
 		character:hachisuka_2 = { set_father = character:hachisuka_1 }
 	}
@@ -231,6 +232,8 @@ vk_history_setup_persistent_adoption_effect = {
 
 		character:tokugawa_28 = { set_father = character:tokugawa_27 }
 		# character:tokugawa_43 = { set_father = character:tokugawa_42 }
+
+		# character:sakai_56 = { set_father = character:sakai_61 }
 	}
    	if = {
 		limit = { current_date > 1861.7.1 }	# 1914 and later

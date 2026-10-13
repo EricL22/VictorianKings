@@ -158,3 +158,8 @@ house_ikeda_tottori = {
 	name = "dynn_Ikeda_Tottori"
 	dynasty = japanese_ikeda
 }
+
+house_sakai_himeji = {
+	name = "dynn_Sakai_Himeji"
+	dynasty = sakai
+}

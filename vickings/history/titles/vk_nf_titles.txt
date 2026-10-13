@@ -1310,3 +1310,33 @@ c_nf_maeda = {
 		holder = maeda_2	# Yoshiyasu
 	}
 }
+
+c_nf_sakai = {
+	1805.9.25 = {
+		liege = e_japan
+		holder = sakai_16	# Tadakata
+		government = japan_feudal_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1842.4.14 = {
+		holder = sakai_17	# Tadaaki
+	}
+}
+
+c_nf_sakai_himeji = {
+	1790.8.27 = {
+		liege = e_japan
+		holder = sakai_43	# Tadamichi
+		government = japan_feudal_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1814.1.1 = {
+		holder = sakai_44	# Tadamitsu
+	}
+	1835.4.27 = {
+		holder = sakai_45	# Tadanori
+	}
+	1861.1.19 = {
+		holder = sakai_56	# Tadashige
+	}
+}

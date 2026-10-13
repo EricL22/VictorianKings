@@ -1,0 +1,729 @@
+﻿sakai_0 = {
+	name = "Hirochika"	# 广亲
+	dynasty = sakai
+	rite = mantrayana
+	culture = japanese
+	father = matsudaira_0
+	1380.1.1 = {	# unknown
+		birth = yes
+	}
+	1430.1.1 = {	# unknown
+		death = yes
+	}
+}
+sakai_1 = {
+	name = "Ujitada"	# 氏忠
+	dynasty = sakai
+	rite = mantrayana
+	culture = japanese
+	father = sakai_0
+	1400.1.1 = {	# unknown
+		birth = yes
+	}
+	1470.11.3 = {
+		death = yes
+	}
+}
+sakai_2 = {
+	name = "Tadakatsu"	# 忠勝
+	dynasty = sakai
+	rite = mantrayana
+	culture = japanese
+	father = sakai_1
+	1420.1.1 = {	# unknown
+		birth = yes
+	}
+	1480.1.1 = {	# unknown
+		death = yes
+	}
+}
+sakai_3 = {
+	name = "Yasutada"	# 康忠
+	dynasty = sakai
+	rite = mantrayana
+	culture = japanese
+	father = sakai_2
+	1440.1.1 = {	# unknown
+		birth = yes
+	}
+	1500.1.1 = {	# unknown
+		death = yes
+	}
+}
+sakai_4 = {
+	name = "Tadachika"	# 忠亲
+	dynasty = sakai
+	rite = mantrayana
+	culture = japanese
+	father = sakai_3
+	1463.2.26 = {
+		birth = yes
+	}
+	1536.4.28 = {
+		death = yes
+	}
+}
+sakai_5 = {
+	name = "Tadatsugu"	# 忠次
+	dynasty = sakai
+	rite = mantrayana
+	culture = japanese
+	father = sakai_4
+	1527.1.1 = {
+		birth = yes
+	}
+	1596.12.17 = {
+		death = yes
+	}
+}
+sakai_6 = {
+	name = "Ietsugu"	# 家次
+	dynasty = sakai
+	rite = mantrayana
+	culture = japanese
+	father = sakai_5
+	1564.1.1 = {
+		birth = yes
+	}
+	1618.4.10 = {
+		death = yes
+	}
+}
+
+## Shonai Domain
+sakai_10 = {
+	name = "Tadakatsu"	# 忠勝
+	dynasty = sakai
+	rite = mantrayana
+	culture = japanese
+	father = sakai_6
+	1594.1.1 = {
+		birth = yes
+	}
+	1647.11.13 = {
+		death = yes
+	}
+}
+sakai_11 = {
+	name = "Tadatsune"	# 忠恒
+	dynasty = sakai
+	rite = mantrayana
+	culture = japanese
+	father = sakai_10
+	1639.9.5 = {
+		birth = yes
+	}
+	1675.9.25 = {
+		death = yes
+	}
+}
+sakai_12 = {
+	name = "Tadayasu"	# 忠予
+	dynasty = sakai
+	rite = mantrayana
+	culture = japanese
+	father = sakai_11
+	1657.9.22 = {
+		birth = yes
+	}
+	1736.1.28 = {
+		death = yes
+	}
+}
+sakai_13 = {
+	name = "Tadayori"	# 忠寄
+	dynasty = sakai
+	rite = mantrayana
+	culture = japanese
+	father = sakai_12
+	1704.9.9 = {
+		birth = yes
+	}
+	1766.5.8 = {
+		death = yes
+	}
+}
+sakai_14 = {
+	name = "Tadaatsu"	# 忠温
+	dynasty = sakai
+	rite = mantrayana
+	culture = japanese
+	father = sakai_13
+	1732.9.5 = {
+		birth = yes
+	}
+	1767.2.14 = {
+		death = yes
+	}
+}
+sakai_15 = {
+	name = "Tadaari"	# 忠德
+	dynasty = sakai
+	rite = mantrayana
+	culture = japanese
+	father = sakai_14
+	1755.11.5 = {
+		birth = yes
+	}
+	1812.10.22 = {
+		death = yes
+	}
+}
+sakai_16 = {
+	name = "Tadakata"	# 忠器
+	dynasty = sakai
+	rite = mantrayana
+	culture = japanese
+	father = sakai_15
+	1790.4.2 = {
+		birth = yes
+	}
+	1854.4.17 = {
+		death = yes
+	}
+}
+sakai_17 = {
+	name = "Tadaaki"	# 忠发
+	dynasty = sakai
+	rite = mantrayana
+	culture = japanese
+	father = sakai_16
+	1812.10.17 = {
+		birth = yes
+	}
+	1876.2.12 = {
+		death = yes
+	}
+}
+sakai_18 = {
+	name = "Tadatomo"	# 忠寬
+	dynasty = sakai
+	rite = mantrayana
+	culture = japanese
+	father = sakai_16
+	1839.4.2 = {
+		birth = yes
+	}
+	1862.11.8 = {
+		death = yes
+	}
+}
+sakai_19 = {
+	name = "Tadazumi"	# 忠篤
+	dynasty = sakai
+	rite = mantrayana
+	culture = japanese
+	father = sakai_17
+	1853.3.22 = {
+		birth = yes
+	}
+	1915.6.6 = {
+		death = yes
+	}
+}
+sakai_20 = {
+	name = "Tadamichi"	# 忠宝
+	dynasty = sakai
+	rite = mantrayana
+	culture = japanese
+	father = sakai_17
+	1856.7.14 = {
+		birth = yes
+	}
+	1921.9.17 = {
+		death = yes
+	}
+}
+####################
+
+## Uta-no-kami line (Himeji/Obama Domains)
+sakai_30 = {
+	name = "Ietada"	# 家忠
+	dynasty = sakai
+	rite = mantrayana
+	culture = japanese
+	father = sakai_0
+	1410.1.1 = {	# unknown
+		birth = yes
+	}
+	1460.1.1 = {	# unknown
+		death = yes
+	}
+}
+sakai_31 = {
+	name = "Nobuchika"	# 信亲
+	dynasty = sakai
+	rite = mantrayana
+	culture = japanese
+	father = sakai_30
+	1440.1.1 = {	# unknown
+		birth = yes
+	}
+	1490.1.1 = {	# unknown
+		death = yes
+	}
+}
+sakai_32 = {
+	name = "Ietsugu"	# 家次
+	dynasty = sakai
+	rite = mantrayana
+	culture = japanese
+	father = sakai_31
+	1470.1.1 = {	# unknown
+		birth = yes
+	}
+	1520.1.1 = {	# unknown
+		death = yes
+	}
+}
+sakai_33 = {
+	name = "Kiyohide"	# 清秀
+	dynasty = sakai
+	rite = mantrayana
+	culture = japanese
+	father = sakai_32
+	1500.1.1 = {	# unknown
+		birth = yes
+	}
+	1550.1.1 = {	# unknown
+		death = yes
+	}
+}
+sakai_34 = {
+	name = "Masachika"	# 正亲
+	dynasty = sakai
+	rite = mantrayana
+	culture = japanese
+	father = sakai_33
+	1521.1.1 = {
+		birth = yes
+	}
+	1576.7.2 = {
+		death = yes
+	}
+}
+sakai_35 = {
+	name = "Tadatoshi"	# 忠利
+	dynasty = sakai
+	rite = mantrayana
+	culture = japanese
+	father = sakai_34
+	1559.1.1 = {
+		birth = yes
+	}
+	1627.12.21 = {
+		death = yes
+	}
+}
+sakai_36 = {
+	name = "Tadakatsu"	# 忠勝
+	dynasty = sakai
+	rite = mantrayana
+	culture = japanese
+	father = sakai_35
+	1587.7.21 = {
+		birth = yes
+	}
+	1662.8.25 = {
+		death = yes
+	}
+}
+sakai_37 = {
+	name = "Tadanao"	# 忠直
+	dynasty = sakai
+	rite = mantrayana
+	culture = japanese
+	father = sakai_36
+	1630.5.5 = {
+		birth = yes
+	}
+	1682.8.12 = {
+		death = yes
+	}
+}
+sakai_38 = {
+	name = "Tadashige"	# 忠稠
+	dynasty = sakai
+	rite = mantrayana
+	culture = japanese
+	father = sakai_37
+	1653.4.27 = {
+		birth = yes
+	}
+	1706.7.12 = {
+		death = yes
+	}
+}
+sakai_39 = {
+	name = "Tadakiku"	# 忠菊
+	dynasty = sakai
+	rite = mantrayana
+	culture = japanese
+	father = sakai_38
+	1679.10.27 = {
+		birth = yes
+	}
+	1722.3.22 = {
+		death = yes
+	}
+}
+sakai_40 = {
+	name = "Tadazumi"	# 忠恭
+	dynasty_house = house_sakai_himeji
+	rite = mantrayana
+	culture = japanese
+	father = sakai_39
+	1710.6.8 = {
+		birth = yes
+	}
+	1772.8.11 = {
+		death = yes
+	}
+}
+sakai_41 = {
+	name = "Tadamochi"	# 忠仰
+	dynasty_house = house_sakai_himeji
+	rite = mantrayana
+	culture = japanese
+	father = sakai_40
+	1735.1.1 = {
+		birth = yes
+	}
+	1767.9.12 = {
+		death = yes
+	}
+}
+sakai_42 = {
+	name = "Tadazane"	# 忠以
+	dynasty_house = house_sakai_himeji
+	rite = mantrayana
+	culture = japanese
+	father = sakai_41
+	1756.1.24 = {
+		birth = yes
+	}
+	1790.8.27 = {
+		death = yes
+	}
+}
+sakai_43 = {
+	name = "Tadamichi"	# 忠道
+	dynasty_house = house_sakai_himeji
+	rite = mantrayana
+	culture = japanese
+	father = sakai_42
+	1777.10.10 = {
+		birth = yes
+	}
+	1837.8.23 = {
+		death = yes
+	}
+}
+sakai_44 = {
+	name = "Tadamitsu"	# 忠實
+	dynasty_house = house_sakai_himeji
+	rite = mantrayana
+	culture = japanese
+	father = sakai_42
+	1779.11.20 = {
+		birth = yes
+	}
+	1848.6.27 = {
+		death = yes
+	}
+}
+sakai_45 = {
+	name = "Tadanori"	# 忠学
+	dynasty_house = house_sakai_himeji
+	rite = mantrayana
+	culture = japanese
+	father = sakai_43
+	1809.1.2 = {
+		birth = yes
+	}
+	1844.11.19 = {
+		death = yes
+	}
+}
+sakai_46 = {
+	name = "Shigetada"	# 重忠
+	dynasty = sakai
+	rite = mantrayana
+	culture = japanese
+	father = sakai_34
+	1549.1.1 = {
+		birth = yes
+	}
+	1617.8.22 = {
+		death = yes
+	}
+}
+# https://nakuyo-neuneu.com/keizu/264007001/
+sakai_47 = {
+	name = "Tadamasa"	# 忠正
+	dynasty = sakai
+	rite = mantrayana
+	culture = japanese
+	father = sakai_46
+	1595.1.1 = {
+		birth = yes
+	}
+	1655.1.1 = {
+		death = yes
+	}
+}
+sakai_48 = {
+	name = "Tadahiro"	# 忠洪
+	dynasty = sakai
+	rite = mantrayana
+	culture = japanese
+	father = sakai_47
+	1629.1.1 = {
+		birth = yes
+	}
+	1705.1.1 = {
+		death = yes
+	}
+}
+sakai_49 = {
+	name = "Tadateru"	# 忠英
+	dynasty = sakai
+	rite = mantrayana
+	culture = japanese
+	father = sakai_48
+	1661.1.1 = {
+		birth = yes
+	}
+	1750.1.1 = {
+		death = yes
+	}
+}
+sakai_50 = {
+	name = "Tadayoshi"	# 忠佳
+	dynasty = sakai
+	rite = mantrayana
+	culture = japanese
+	father = sakai_49
+	1686.1.1 = {
+		birth = yes
+	}
+	1769.1.1 = {
+		death = yes
+	}
+}
+sakai_51 = {
+	name = "Tadakimi"	# 忠侯
+	dynasty = sakai
+	rite = mantrayana
+	culture = japanese
+	father = sakai_50
+	1715.1.1 = {
+		birth = yes
+	}
+	1745.1.1 = {
+		death = yes
+	}
+}
+sakai_52 = {
+	name = "Tadakazu"	# 忠和
+	dynasty = sakai
+	rite = mantrayana
+	culture = japanese
+	father = sakai_51
+	1741.1.1 = {
+		birth = yes
+	}
+	1786.1.1 = {
+		death = yes
+	}
+}
+sakai_53 = {
+	name = "Tadatoki"	# 忠善
+	dynasty = sakai
+	rite = mantrayana
+	culture = japanese
+	father = sakai_52
+	1774.1.1 = {
+		birth = yes
+	}
+	1825.1.1 = {	# unknown
+		death = yes
+	}
+}
+sakai_54 = {
+	name = "Yamon"	# 弥門
+	dynasty = sakai
+	rite = mantrayana
+	culture = japanese
+	father = sakai_53
+	1790.1.1 = {	# unknown
+		birth = yes
+	}
+	1840.1.1 = {	# unknown
+		death = yes
+	}
+}
+sakai_55 = {
+	name = "Tadamichi"	# 忠誨
+	dynasty = sakai
+	rite = mantrayana
+	culture = japanese
+	father = sakai_54
+	1810.1.1 = {	# unknown
+		birth = yes
+	}
+	1860.1.1 = {	# unknown
+		death = yes
+	}
+}
+sakai_56 = {
+	name = "Tadashige"	# 忠績
+	dynasty = sakai
+	rite = mantrayana
+	culture = japanese
+	father = sakai_55
+	1827.7.12 = {
+		birth = yes
+	}
+	1860.1.1 = {
+		dynasty_house = house_sakai_himeji	# adopted
+	}
+	1895.11.30 = {
+		death = yes
+	}
+}
+sakai_57 = {
+	name = "Tadatoshi"	# 忠惇
+	dynasty = sakai
+	rite = mantrayana
+	culture = japanese
+	father = sakai_55
+	1839.9.5 = {
+		birth = yes
+	}
+	1864.8.6 = {
+		dynasty_house = house_sakai_himeji	# adopted
+	}
+	1907.11.10 = {
+		death = yes
+	}
+}
+# https://archive.library.metro.tokyo.lg.jp/da/detail?tilcod=0000000017-00085766
+sakai_58 = {
+	name = "Tadanao"	# 忠讜
+	dynasty_house = house_sakai_himeji
+	rite = mantrayana
+	culture = japanese
+	father = sakai_44
+	1810.1.1 = {
+		birth = yes
+	}
+	1840.1.1 = {	# unknown
+		death = yes
+	}
+}
+sakai_59 = {
+	name = "Tadatomi"	# 忠宝
+	dynasty_house = house_sakai_himeji
+	rite = mantrayana
+	culture = japanese
+	father = sakai_58
+	1829.1.1 = {
+		birth = yes
+	}
+	1853.9.12 = {
+		death = yes
+	}
+}
+sakai_60 = {
+	name = "Yasunao"	# 康直
+	dynasty_house = house_sakai_himeji	# adopted by Miyake clan
+	rite = mantrayana
+	culture = japanese
+	father = sakai_44
+	1811.9.11 = {
+		birth = yes
+	}
+	1893.8.9 = {
+		death = yes
+	}
+}
+sakai_61 = {
+	name = "Tadateru"	# 忠显
+	dynasty_house = house_sakai_himeji
+	rite = mantrayana
+	culture = japanese
+	father = sakai_60
+	1836.1.1 = {
+		birth = yes
+	}
+	1860.1.26 = {
+		death = yes
+	}
+}
+sakai_62 = {
+	name = "Tadaharu"	# 忠温
+	dynasty_house = house_sakai_himeji	# adopted by Isesaki branch
+	rite = mantrayana
+	culture = japanese
+	father = sakai_40
+	1737.5.30 = {
+		birth = yes
+	}
+	1801.2.17 = {
+		death = yes
+	}
+}
+sakai_63 = {
+	name = "Tadaakira"	# 忠哲
+	dynasty_house = house_sakai_himeji	# Isesaki
+	rite = mantrayana
+	culture = japanese
+	father = sakai_62
+	1770.1.20 = {
+		birth = yes
+	}
+	1819.9.8 = {
+		death = yes
+	}
+}
+sakai_64 = {
+	name = "Tadayoshi"	# 忠宁
+	dynasty_house = house_sakai_himeji	# Isesaki
+	rite = mantrayana
+	culture = japanese
+	father = sakai_63
+	1789.2.20 = {
+		birth = yes
+	}
+	1817.9.26 = {
+		death = yes
+	}
+}
+sakai_65 = {
+	name = "Tadatsune"	# 忠恒
+	dynasty_house = house_sakai_himeji	# Isesaki
+	rite = mantrayana
+	culture = japanese
+	father = sakai_64
+	1811.11.30 = {
+		birth = yes
+	}
+	1868.8.2 = {
+		death = yes
+	}
+}
+sakai_66 = {
+	name = "Tadakuni"	# 忠邦
+	dynasty_house = house_sakai_himeji
+	rite = mantrayana
+	culture = japanese
+	father = sakai_65
+	1854.2.12 = {
+		birth = yes
+	}
+	1879.3.25 = {
+		death = yes
+	}
+}
+####################
