@@ -1,0 +1,262 @@
+﻿# Kurume Domain
+arima_0 = {
+	name = "Yoshisuke"	# 义祐
+	dynasty = arima
+	rite = mantrayana
+	culture = japanese
+	father = akamatsu_4
+	1350.1.1 = {	# unknown
+		birth = yes
+	}
+	1421.10.22 = {
+		death = yes
+	}
+}
+arima_1 = {
+	name = "Mochiie"	# 持家
+	dynasty = arima
+	rite = mantrayana
+	culture = japanese
+	father = arima_0
+	1396.1.1 = {
+		birth = yes
+	}
+	1450.1.1 = {
+		death = yes
+	}
+}
+arima_2 = {
+	name = "Motoie"	# 元家
+	dynasty = arima
+	rite = mantrayana
+	culture = japanese
+	father = arima_1
+	1420.1.1 = {	# unknown
+		birth = yes
+	}
+	1469.1.1 = {
+		death = yes
+	}
+}
+arima_3 = {
+	name = "Norihide"	# 則秀
+	dynasty = arima
+	rite = mantrayana
+	culture = japanese
+	father = arima_2
+	1445.1.1 = {	# unknown
+		birth = yes
+	}
+	1505.1.1 = {	# unknown
+		death = yes
+	}
+}
+arima_4 = {
+	name = "Suminori"	# 澄則
+	dynasty = arima
+	rite = mantrayana
+	culture = japanese
+	father = arima_3
+	1465.1.1 = {	# unknown
+		birth = yes
+	}
+	1530.1.1 = {	# unknown
+		death = yes
+	}
+}
+arima_5 = {
+	name = "Norikage"	# 則景
+	dynasty = arima
+	rite = mantrayana
+	culture = japanese
+	father = arima_4
+	1485.1.1 = {	# unknown
+		birth = yes
+	}
+	1555.1.1 = {	# unknown
+		death = yes
+	}
+}
+arima_6 = {
+	name = "Shigenori"	# 重則
+	dynasty = arima
+	rite = mantrayana
+	culture = japanese
+	father = arima_5
+	1505.1.1 = {	# unknown
+		birth = yes
+	}
+	1558.1.1 = {
+		death = yes
+	}
+}
+arima_7 = {
+	name = "Noriyori"	# 則賴
+	dynasty = arima
+	rite = mantrayana
+	culture = japanese
+	father = arima_6
+	1533.3.18 = {
+		birth = yes
+	}
+	1602.9.13 = {
+		death = yes
+	}
+}
+arima_8 = {
+	name = "Nanigashi"	# 某 - name unknown
+	dynasty = arima
+	rite = mantrayana
+	culture = japanese
+	father = arima_7
+	female = yes
+	1553.1.1 = {	# unknown
+		birth = yes
+	}
+	1606.1.1 = {	# unknown
+		death = yes
+	}
+}
+arima_9 = {
+	name = "Soregashi"	# 某 - name unknown
+	dynasty = arima	# Ishino
+	rite = mantrayana
+	culture = japanese
+	mother = arima_8
+	1571.1.1 = {	# unknown
+		birth = yes
+	}
+	1642.1.1 = {	# unknown
+		death = yes
+	}
+}
+arima_10 = {
+	name = "Soregashi"	# 某 - name unknown
+	dynasty = arima	# Ishino
+	rite = mantrayana
+	culture = japanese
+	father = arima_9
+	1603.1.1 = {	# unknown
+		birth = yes
+	}
+	1655.1.1 = {	# unknown
+		death = yes
+	}
+}
+arima_11 = {
+	name = "Soregashi"	# 某 - name unknown
+	dynasty = arima	# Ishino
+	rite = mantrayana
+	culture = japanese
+	father = arima_10
+	1654.1.1 = {	# unknown
+		birth = yes
+	}
+	1705.1.1 = {	# unknown
+		death = yes
+	}
+}
+arima_12 = {
+	name = "Norikazu"	# 則員
+	dynasty = arima
+	rite = mantrayana
+	culture = japanese
+	father = arima_11
+	1685.1.1 = {	# unknown
+		birth = yes
+	}
+	1706.1.1 = {	# unknown
+		death = yes
+	}
+}
+arima_13 = {
+	name = "Norifusa"	# 則維
+	dynasty = arima
+	rite = mantrayana
+	culture = japanese
+	father = arima_12
+	1674.4.8 = {
+		birth = yes
+	}
+	1738.5.19 = {
+		death = yes
+	}
+}
+arima_14 = {
+	name = "Yoriyuki"	# 賴徸
+	dynasty = arima
+	rite = mantrayana
+	culture = japanese
+	father = arima_13
+	1714.12.31 = {
+		birth = yes
+	}
+	1783.12.16 = {
+		death = yes
+	}
+}
+arima_15 = {
+	name = "Yoritaka"	# 賴貴
+	dynasty = arima
+	rite = mantrayana
+	culture = japanese
+	father = arima_14
+	1746.5.21 = {
+		birth = yes
+	}
+	1812.3.15 = {
+		death = yes
+	}
+}
+arima_16 = {
+	name = "Yorinao"	# 賴端
+	dynasty = arima
+	rite = mantrayana
+	culture = japanese
+	father = arima_15
+	1779.8.9 = {
+		birth = yes
+	}
+	1805.1.22 = {
+		death = yes
+	}
+}
+arima_17 = {
+	name = "Yorinori"	# 賴德
+	dynasty = arima
+	rite = mantrayana
+	culture = japanese
+	father = arima_16
+	1797.7.16 = {
+		birth = yes
+	}
+	1844.5.19 = {
+		death = yes
+	}
+}
+arima_18 = {
+	name = "YoritO_"	# 賴永
+	dynasty = arima
+	rite = mantrayana
+	culture = japanese
+	father = arima_17
+	1822.5.15 = {
+		birth = yes
+	}
+	1846.8.24 = {
+		death = yes
+	}
+}
+arima_19 = {
+	name = "Yorishige"	# 賴咸
+	dynasty = arima
+	rite = mantrayana
+	culture = japanese
+	father = arima_17
+	1828.8.27 = {
+		birth = yes
+	}
+	1881.5.21 = {
+		death = yes
+	}
+}

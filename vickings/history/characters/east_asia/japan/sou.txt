@@ -1,0 +1,66 @@
+﻿# Tsushima Domain
+# claimed descent from japanese_taira_kanmu_67 (Taira no Tomomori) and japanese_koremune dynasty
+sou_0 = {
+	name = "Yoshikatsu"	# 义功
+	dynasty = sou
+	rite = pundarika
+	culture = japanese
+	1773.3.21 = {
+		birth = yes
+	}
+	1813.6.15 = {
+		death = yes
+	}
+}
+sou_1 = {
+	name = "Yoshikata"	# 义貭
+	dynasty = sou
+	rite = pundarika
+	culture = japanese
+	father = sou_0
+	1800.8.22 = {
+		birth = yes
+	}
+	1838.9.27 = {
+		death = yes
+	}
+}
+sou_2 = {
+	name = "Yoshiaya"	# 义章
+	dynasty = sou
+	rite = pundarika
+	culture = japanese
+	father = sou_1
+	1818.1.2 = {
+		birth = yes
+	}
+	1842.7.7 = {
+		death = yes
+	}
+}
+sou_3 = {
+	name = "Yoshiyori"	# 义和
+	dynasty = sou
+	rite = pundarika
+	culture = japanese
+	father = sou_1
+	1818.9.4 = {
+		birth = yes
+	}
+	1890.8.13 = {
+		death = yes
+	}
+}
+sou_4 = {
+	name = "Yoshiakira"	# 义达
+	dynasty = sou
+	rite = pundarika
+	culture = japanese
+	father = sou_3
+	1847.12.13 = {
+		birth = yes
+	}
+	1902.5.25 = {
+		death = yes
+	}
+}

@@ -1,0 +1,66 @@
+﻿# ancestors of (Settsu) Arima clan
+akamatsu_0 = {
+	name = "Ienori"	# 家範
+	dynasty_house = house_akamatsu
+	rite = mantrayana
+	culture = japanese
+	father = japanese_minamoto_murakami_156
+	1197.1.1 = {	# unknown
+		birth = yes
+	}
+	1260.1.1 = {	# unknown
+		death = yes
+	}
+}
+akamatsu_1 = {
+	name = "Hisanori"	# 久範
+	dynasty_house = house_akamatsu
+	rite = mantrayana
+	culture = japanese
+	father = akamatsu_0
+	1222.1.1 = {	# unknown
+		birth = yes
+	}
+	1280.1.1 = {	# unknown
+		death = yes
+	}
+}
+akamatsu_2 = {
+	name = "Shigenori"	# 茂則
+	dynasty_house = house_akamatsu
+	rite = mantrayana
+	culture = japanese
+	father = akamatsu_1
+	1247.1.1 = {	# unknown
+		birth = yes
+	}
+	1305.1.1 = {	# unknown
+		death = yes
+	}
+}
+akamatsu_3 = {
+	name = "Norimura"	# 則村
+	dynasty_house = house_akamatsu
+	rite = mantrayana
+	culture = japanese
+	father = akamatsu_2
+	1277.1.1 = {
+		birth = yes
+	}
+	1350.2.18 = {
+		death = yes
+	}
+}
+akamatsu_4 = {
+	name = "Norisuke"	# 則祐
+	dynasty_house = house_akamatsu
+	rite = mantrayana
+	culture = japanese
+	father = akamatsu_3
+	1314.1.1 = {
+		birth = yes
+	}
+	1372.1.13 = {
+		death = yes
+	}
+}

@@ -912,3 +912,32 @@ matsudaira_95 = {
 	}
 }
 ####################
+
+## Other Hisamatsu
+matsudaira_100 = {
+	name = "Sadanobu"	# 定信
+	dynasty_house = house_matsudaira_hisamatsu
+	rite = mantrayana
+	culture = japanese
+	father = tokugawa_70
+	1759.1.25 = {
+		birth = yes
+	}
+	1829.6.14 = {
+		death = yes
+	}
+}
+matsudaira_101 = {
+	name = "Sadanaga"	# 定永
+	dynasty_house = house_matsudaira_hisamatsu
+	rite = mantrayana
+	culture = japanese
+	father = matsudaira_100
+	1791.10.10 = {
+		birth = yes
+	}
+	1838.12.4 = {
+		death = yes
+	}
+}
+####################

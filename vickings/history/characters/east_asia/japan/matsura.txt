@@ -1,0 +1,52 @@
+﻿# Hirado Domain
+matsura_0 = {
+	name = "Hiromu"	# 熙
+	dynasty = japanese_matsura
+	rite = mantrayana
+	culture = japanese
+	1791.5.13 = {
+		birth = yes
+	}
+	1867.7.28 = {
+		death = yes
+	}
+}
+matsura_1 = {
+	name = "Terasu"	# 曜
+	dynasty = japanese_matsura
+	rite = mantrayana
+	culture = japanese
+	father = matsura_0
+	1812.9.26 = {
+		birth = yes
+	}
+	1858.8.5 = {
+		death = yes
+	}
+}
+matsura_2 = {
+	name = "Aki"	# 秋
+	dynasty = japanese_matsura
+	rite = mantrayana
+	culture = japanese
+	father = matsura_0
+	1815.1.1 = {	# unknown
+		birth = yes
+	}
+	1850.1.1 = {	# unknown
+		death = yes
+	}
+}
+matsura_3 = {
+	name = "Akira"	# 詮
+	dynasty = japanese_matsura
+	rite = mantrayana
+	culture = japanese
+	father = matsura_2
+	1840.11.11 = {
+		birth = yes
+	}
+	1908.4.13 = {
+		death = yes
+	}
+}

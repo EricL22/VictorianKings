@@ -1,0 +1,313 @@
+﻿# Choshu Domain
+mori_0 = {
+	name = "Suemitsu"	# 季光
+	dynasty = mori
+	rite = pundarika
+	culture = japanese
+	father = japanese_oe_26
+	1202.1.1 = {
+		birth = yes
+	}
+	1247.7.8 = {
+		death = yes
+	}
+}
+mori_1 = {
+	name = "Tsunemitsu"	# 經光
+	dynasty = mori
+	rite = pundarika
+	culture = japanese
+	father = mori_0
+	1240.1.1 = {	# unknown
+		birth = yes
+	}
+	1300.1.1 = {	# unknown
+		death = yes
+	}
+}
+mori_2 = {
+	name = "Tokichika"	# 时亲
+	dynasty = mori
+	rite = pundarika
+	culture = japanese
+	father = mori_1
+	1260.1.1 = {	# unknown
+		birth = yes
+	}
+	1341.8.26 = {
+		death = yes
+	}
+}
+mori_3 = {
+	name = "Sadachika"	# 貞亲
+	dynasty = mori
+	rite = pundarika
+	culture = japanese
+	father = mori_2
+	1280.1.1 = {	# unknown
+		birth = yes
+	}
+	1351.1.1 = {
+		death = yes
+	}
+}
+mori_4 = {
+	name = "Chikahira"	# 亲衡
+	dynasty = mori
+	rite = pundarika
+	culture = japanese
+	father = mori_3
+	1300.1.1 = {	# unknown
+		birth = yes
+	}
+	1375.8.1 = {
+		death = yes
+	}
+}
+mori_5 = {
+	name = "Motoharu"	# 元春
+	dynasty = mori
+	rite = pundarika
+	culture = japanese
+	father = mori_4
+	1323.1.1 = {
+		birth = yes
+	}
+	1380.1.1 = {	# unknown
+		death = yes
+	}
+}
+mori_6 = {
+	name = "Hirofusa"	# 广房
+	dynasty = mori
+	rite = pundarika
+	culture = japanese
+	father = mori_5
+	1347.1.1 = {
+		birth = yes
+	}
+	1385.1.1 = {
+		death = yes
+	}
+}
+mori_7 = {
+	name = "Mitsufusa"	# 光房
+	dynasty = mori
+	rite = pundarika
+	culture = japanese
+	father = mori_6
+	1386.1.1 = {
+		birth = yes
+	}
+	1436.1.1 = {
+		death = yes
+	}
+}
+mori_8 = {
+	name = "Hiromoto"	# 熙元
+	dynasty = mori
+	rite = pundarika
+	culture = japanese
+	father = mori_7
+	1410.1.1 = {	# unknown
+		birth = yes
+	}
+	1464.3.12 = {
+		death = yes
+	}
+}
+mori_9 = {
+	name = "Toyomoto"	# 丰元
+	dynasty = mori
+	rite = pundarika
+	culture = japanese
+	father = mori_8
+	1444.1.1 = {
+		birth = yes
+	}
+	1476.6.19 = {
+		death = yes
+	}
+}
+mori_10 = {
+	name = "Hiromoto"	# 弘元
+	dynasty = mori
+	rite = pundarika
+	culture = japanese
+	father = mori_9
+	1468.1.1 = {
+		birth = yes
+	}
+	1506.2.13 = {
+		death = yes
+	}
+}
+mori_11 = {
+	name = "Motonari"	# 元就
+	dynasty = mori
+	rite = pundarika
+	culture = japanese
+	father = mori_10
+	1497.4.16 = {
+		birth = yes
+	}
+	1571.7.6 = {
+		death = yes
+	}
+}
+mori_12 = {
+	name = "Motokiyo"	# 元清
+	dynasty = mori
+	rite = pundarika
+	culture = japanese
+	father = mori_11
+	1551.1.1 = {
+		birth = yes
+	}
+	1597.8.21 = {
+		death = yes
+	}
+}
+mori_13 = {
+	name = "Hidemoto"	# 秀元
+	dynasty = mori
+	rite = pundarika
+	culture = japanese
+	father = mori_12
+	1579.11.25 = {
+		birth = yes
+	}
+	1650.11.26 = {
+		death = yes
+	}
+}
+mori_14 = {
+	name = "Mototomo"	# 元知
+	dynasty = mori
+	rite = pundarika
+	culture = japanese
+	father = mori_13
+	1631.7.21 = {
+		birth = yes
+	}
+	1683.7.8 = {
+		death = yes
+	}
+}
+mori_15 = {
+	name = "Masahiro"	# 匡广
+	dynasty = mori
+	rite = pundarika
+	culture = japanese
+	father = mori_14
+	1675.12.27 = {
+		birth = yes
+	}
+	1729.10.11 = {
+		death = yes
+	}
+}
+mori_16 = {
+	name = "Shigetaka"	# 重就
+	dynasty = mori
+	rite = pundarika
+	culture = japanese
+	father = mori_15
+	1725.10.15 = {
+		birth = yes
+	}
+	1789.11.23 = {
+		death = yes
+	}
+}
+mori_17 = {
+	name = "Haruchika"	# 治亲
+	dynasty = mori
+	rite = pundarika
+	culture = japanese
+	father = mori_16
+	1754.8.3 = {
+		birth = yes
+	}
+	1791.7.12 = {
+		death = yes
+	}
+}
+mori_18 = {
+	name = "Narifusa"	# 齐房
+	dynasty = mori
+	rite = pundarika
+	culture = japanese
+	father = mori_17
+	1782.12.24 = {
+		birth = yes
+	}
+	1809.3.29 = {
+		death = yes
+	}
+}
+mori_19 = {
+	name = "Narihiro"	# 齐熙
+	dynasty = mori
+	rite = pundarika
+	culture = japanese
+	father = mori_17
+	1784.1.1 = {
+		birth = yes
+	}
+	1836.6.27 = {
+		death = yes
+	}
+}
+mori_20 = {
+	name = "Chikaaki"	# 亲著
+	dynasty = mori
+	rite = pundarika
+	culture = japanese
+	father = mori_16
+	1766.1.1 = {
+		birth = yes
+	}
+	1800.1.1 = {
+		death = yes
+	}
+}
+mori_21 = {
+	name = "Narimoto"	# 齐元
+	dynasty = mori
+	rite = pundarika
+	culture = japanese
+	father = mori_20
+	1794.4.23 = {
+		birth = yes
+	}
+	1836.10.17 = {
+		death = yes
+	}
+}
+mori_22 = {
+	name = "NaritO_"	# 齐广
+	dynasty = mori
+	rite = pundarika
+	culture = japanese
+	father = mori_19
+	1814.7.3 = {
+		birth = yes
+	}
+	1837.2.4 = {
+		death = yes
+	}
+}
+mori_23 = {
+	name = "Takachika"	# 敬亲
+	dynasty = mori
+	rite = pundarika
+	culture = japanese
+	father = mori_21
+	1819.3.5 = {
+		birth = yes
+	}
+	1871.5.17 = {
+		death = yes
+	}
+}

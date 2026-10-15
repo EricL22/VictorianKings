@@ -1,0 +1,46 @@
+﻿# Fukuoka Domain
+# claimed descent from japanese_minamoto_uda_33 (Sasaki Hideyoshi)
+# biologically adopted from Tokugawa clan (1775)
+kuroda_0 = {
+	name = "Naritaka"	# 齐隆
+	dynasty = kuroda
+	rite = mantrayana
+	culture = japanese
+	father = tokugawa_12
+	1777.10.21 = {
+		birth = yes
+	}
+	1795.8.7 = {
+		death = yes
+	}
+}
+kuroda_1 = {
+	name = "Narikiyo"	# 齐清
+	dynasty = kuroda
+	rite = mantrayana
+	culture = japanese
+	father = kuroda_0
+	1795.3.26 = {
+		birth = yes
+	}
+	1851.2.26 = {
+		death = yes
+	}
+}
+kuroda_2 = {
+	name = "Nagahiro"	# 长溥
+	dynasty = shimazu
+	rite = mantrayana
+	culture = japanese
+	father = shimazu_19
+	1811.4.23 = {
+		birth = yes
+	}
+	1822.12.21 = {
+		dynasty = kuroda	# adopted
+		# adoptive father = kuroda_1
+	}
+	1887.3.7 = {
+		death = yes
+	}
+}

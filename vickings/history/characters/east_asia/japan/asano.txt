@@ -1,0 +1,80 @@
+﻿# Hiroshima Domain
+# originally claimed descent from japanese_minamoto_seiwa_255 (Asano Mitsutoki)
+# biologically adopted from the house_taira_hatakeyama descended from japanese_minamoto_seiwa_149 (Ashikaga Yoshikane)
+asano_0 = {
+	name = "Shigeakira"	# 重晟
+	dynasty = asano
+	rite = mantrayana
+	culture = japanese
+	1743.12.2 = {
+		birth = yes
+	}
+	1814.1.4 = {
+		death = yes
+	}
+}
+asano_1 = {
+	name = "Narikata"	# 齐䝨
+	dynasty = asano
+	rite = mantrayana
+	culture = japanese
+	father = asano_0
+	1773.11.5 = {
+		birth = yes
+	}
+	1831.1.4 = {
+		death = yes
+	}
+}
+asano_2 = {
+	name = "Naritaka"	# 齐肃
+	dynasty = asano
+	rite = mantrayana
+	culture = japanese
+	father = asano_1
+	1817.11.7 = {
+		birth = yes
+	}
+	1868.2.5 = {
+		death = yes
+	}
+}
+asano_3 = {
+	name = "Yoshiteru"	# 庆炽
+	dynasty = asano
+	rite = mantrayana
+	culture = japanese
+	father = asano_2
+	1836.12.19 = {
+		birth = yes
+	}
+	1858.10.16 = {
+		death = yes
+	}
+}
+asano_4 = {
+	name = "Nagatoshi"	# 长懋
+	dynasty = asano
+	rite = mantrayana
+	culture = japanese
+	father = asano_0
+	1787.1.1 = {
+		birth = yes
+	}
+	1836.1.1 = {
+		death = yes
+	}
+}
+asano_5 = {
+	name = "Nagamichi"	# 长訓
+	dynasty = asano
+	rite = mantrayana
+	culture = japanese
+	father = asano_4
+	1812.9.4 = {
+		birth = yes
+	}
+	1872.8.29 = {
+		death = yes
+	}
+}

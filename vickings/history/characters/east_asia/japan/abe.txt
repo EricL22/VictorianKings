@@ -1,0 +1,65 @@
+﻿# Fukuyama Domain
+abe_0 = {
+	name = "Masakiyo"	# 正精
+	dynasty = japanese_abe
+	rite = pundarika
+	culture = japanese
+	1775.1.25 = {
+		birth = yes
+	}
+	1826.7.24 = {
+		death = yes
+	}
+}
+abe_1 = {
+	name = "Masayasu"	# 正宁
+	dynasty = japanese_abe
+	rite = pundarika
+	culture = japanese
+	father = abe_0
+	1809.12.1 = {
+		birth = yes
+	}
+	1870.7.28 = {
+		death = yes
+	}
+}
+abe_2 = {
+	name = "Masahiro"	# 正弘
+	dynasty = japanese_abe
+	rite = pundarika
+	culture = japanese
+	father = abe_0
+	1819.12.3 = {
+		birth = yes
+	}
+	1857.8.6 = {
+		death = yes
+	}
+}
+abe_3 = {
+	name = "Masanori"	# 正教
+	dynasty = japanese_abe
+	rite = pundarika
+	culture = japanese
+	father = abe_1
+	1840.1.21 = {
+		birth = yes
+	}
+	1861.7.4 = {
+		death = yes
+	}
+}
+abe_4 = {
+	name = "Masakata"	# 正方
+	dynasty = japanese_abe
+	rite = pundarika
+	culture = japanese
+	father = abe_1
+	1848.9.18 = {
+		birth = yes
+	}
+	1867.12.17 = {
+		death = yes
+	}
+}

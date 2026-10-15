@@ -1,0 +1,31 @@
+﻿# Bitchu-Matsuyama Domain
+itakura_0 = {
+	name = "Katsutsune"	# 勝职
+	dynasty = itakura
+	rite = mantrayana
+	culture = japanese
+	1803.8.17 = {
+		birth = yes
+	}
+	1849.10.9 = {
+		death = yes
+	}
+}
+
+itakura_1 = {
+	name = "Katsukiyo"	# 勝静
+	dynasty_house = house_matsudaira_hisamatsu
+	rite = mantrayana
+	culture = japanese
+	father = matsudaira_101
+	1823.2.14 = {
+		birth = yes
+	}
+	1842.1.1 = {
+		dynasty = itakura	# adopted
+		# adoptive father = itakura_0
+	}
+	1889.4.6 = {
+		death = yes
+	}
+}

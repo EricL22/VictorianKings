@@ -1,0 +1,79 @@
+﻿# Kumamoto Domain
+# claimed descent from japanese_minamoto_seiwa_152 (Hirosawa Yoshizane)
+hosokawa_0 = {
+	name = "Narishige"	# 齐兹
+	dynasty = hosokawa
+	rite = mantrayana
+	culture = japanese
+	1755.7.5 = {
+		birth = yes
+	}
+	1835.12.12 = {
+		death = yes
+	}
+}
+hosokawa_1 = {
+	name = "Naritatsu"	# 齐树
+	dynasty = hosokawa
+	rite = mantrayana
+	culture = japanese
+	father = hosokawa_0
+	1797.2.9 = {
+		birth = yes
+	}
+	1826.3.20 = {
+		death = yes
+	}
+}
+hosokawa_2 = {
+	name = "Tatsuyuki"	# 立之
+	dynasty = hosokawa
+	rite = mantrayana
+	culture = japanese
+	father = hosokawa_0
+	1784.7.1 = {
+		birth = yes
+	}
+	1818.7.20 = {
+		death = yes
+	}
+}
+hosokawa_3 = {
+	name = "Narimori"	# 齐护
+	dynasty = hosokawa
+	rite = mantrayana
+	culture = japanese
+	father = hosokawa_2
+	1804.10.19 = {
+		birth = yes
+	}
+	1860.6.6 = {
+		death = yes
+	}
+}
+hosokawa_4 = {
+	name = "Yoshikuni"	# 韶邦
+	dynasty = hosokawa
+	rite = mantrayana
+	culture = japanese
+	father = hosokawa_3
+	1835.7.23 = {
+		birth = yes
+	}
+	1876.10.23 = {
+		death = yes
+	}
+}
+hosokawa_5 = {
+	name = "Morihisa"	# 护久
+	dynasty = hosokawa
+	rite = mantrayana
+	culture = japanese
+	father = hosokawa_3
+	1839.4.14 = {
+		birth = yes
+	}
+	1893.9.1 = {
+		death = yes
+	}
+}

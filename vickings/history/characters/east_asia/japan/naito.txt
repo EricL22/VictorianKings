@@ -1,0 +1,44 @@
+﻿# Nobeoka Domain
+# claimed descent from japanese_fujiwara_327 (Fujiwara no Hidesato)
+naito_0 = {
+	name = "Masayori"	# 政順
+	dynasty = naito
+	rite = pundarika
+	culture = japanese
+	1796.3.23 = {
+		birth = yes
+	}
+	1834.9.23 = {
+		death = yes
+	}
+}
+naito_1 = {
+	name = "Masayoshi"	# 政义
+	dynasty = japanese_ii
+	rite = pundarika
+	culture = japanese
+	father = ii_17
+	1820.4.15 = {
+		birth = yes
+	}
+	1834.7.1 = {
+		dynasty = naito	# adopted
+		# adoptive father = naito_0
+	}
+	1888.11.18 = {
+		death = yes
+	}
+}
+naito_2 = {
+	name = "Masataka"	# 政举
+	dynasty = naito	# adopted from Ōta clan (1860)
+	rite = pundarika
+	culture = japanese
+	father = naito_1	# adoptive
+	1852.6.27 = {
+		birth = yes
+	}
+	1927.5.23 = {
+		death = yes
+	}
+}

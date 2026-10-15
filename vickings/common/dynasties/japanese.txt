@@ -43,23 +43,18 @@ sengoku = {
 	culture = japanese
 }
 
-156181 = {
+itakura = {
 	name = "dynn_Itakura"
 	culture = japanese
 }
 
-794185 = {
-	name = "dynn_Abe"
-	culture = japanese
-}
-
-122168 = {
+asano = {
 	name = "dynn_Asano"
 	culture = japanese
 }
 
-153086 = {
-	name = "dynn_Mori"
+mori = {
+	name = "dynn_MO_ri"
 	culture = japanese
 }
 
@@ -68,48 +63,43 @@ shimazu = {
 	culture = japanese
 }
 
-143114 = {
-	name = "dynn_Naitou"
+naito = {
+	name = "dynn_NaitO_"
 	culture = japanese
 }
 
-160067 = {
+ogasawara = {
 	name = "dynn_Ogasawara"
 	culture = japanese
 }
 
-199293 = {
+nakagawa = {
 	name = "dynn_Nakagawa"
 	culture = japanese
 }
 
-406016 = {
+kuroda = {
 	name = "dynn_Kuroda"
 	culture = japanese
 }
 
-941873 = {
+arima = {
 	name = "dynn_Arima"
 	culture = japanese
 }
 
-120067 = {
-	name = "dynn_Matsuura"
-	culture = japanese
-}
-
-201315 = {
+hosokawa = {
 	name = "dynn_Hosokawa"
 	culture = japanese
 }
 
-131987 = {
-	name = "dynn_Sou"
+sou = {
+	name = "dynn_SO_"
 	culture = japanese
 }
 
-158571 = {
-	name = "dynn_Todo"
+todo = {
+	name = "dynn_TO_dO_"
 	culture = japanese
 }
 

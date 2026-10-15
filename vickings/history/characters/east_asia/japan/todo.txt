@@ -1,0 +1,39 @@
+﻿# Tsu Domain
+todo_0 = {
+	name = "Takasawa"	# 高兑
+	dynasty = todo
+	rite = shinto
+	culture = japanese
+	1781.4.25 = {
+		birth = yes
+	}
+	1825.2.4 = {
+		death = yes
+	}
+}
+todo_1 = {
+	name = "Takayuki"	# 高猷
+	dynasty = todo
+	rite = shinto
+	culture = japanese
+	father = todo_0
+	1813.3.11 = {
+		birth = yes
+	}
+	1895.2.9 = {
+		death = yes
+	}
+}
+todo_2 = {
+	name = "Takakiyo"	# 高洁
+	dynasty = todo
+	rite = shinto
+	culture = japanese
+	father = todo_1
+	1837.10.19 = {
+		birth = yes
+	}
+	1889.11.18 = {
+		death = yes
+	}
+}

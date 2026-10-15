@@ -1,0 +1,352 @@
+﻿# Kokura Domain
+ogasawara_0 = {
+	name = "Nagatsune"	# 长經
+	dynasty = ogasawara
+	rite = mantrayana
+	culture = japanese
+	father = japanese_minamoto_seiwa_192
+	1179.6.23 = {
+		birth = yes
+	}
+	1247.12.3 = {
+		death = yes
+	}
+}
+ogasawara_1 = {
+	name = "Nagatada"	# 长忠
+	dynasty = ogasawara
+	rite = mantrayana
+	culture = japanese
+	father = ogasawara_0
+	1202.5.19 = {
+		birth = yes
+	}
+	1264.11.23 = {
+		death = yes
+	}
+}
+ogasawara_2 = {
+	name = "Nagamasa"	# 长政
+	dynasty = ogasawara
+	rite = mantrayana
+	culture = japanese
+	father = ogasawara_1
+	1230.1.1 = {	# unknown
+		birth = yes
+	}
+	1294.1.1 = {
+		death = yes
+	}
+}
+ogasawara_3 = {
+	name = "Nagauji"	# 长氏
+	dynasty = ogasawara
+	rite = mantrayana
+	culture = japanese
+	father = ogasawara_2
+	1250.1.1 = {	# unknown
+		birth = yes
+	}
+	1310.1.1 = {	# unknown
+		death = yes
+	}
+}
+ogasawara_4 = {
+	name = "Munenaga"	# 宗长
+	dynasty = ogasawara
+	rite = mantrayana
+	culture = japanese
+	father = ogasawara_3
+	1273.1.3 = {
+		birth = yes
+	}
+	1330.10.26 = {
+		death = yes
+	}
+}
+ogasawara_5 = {
+	name = "Sadamune"	# 貞宗
+	dynasty = ogasawara
+	rite = mantrayana
+	culture = japanese
+	father = ogasawara_4
+	1292.4.30 = {
+		birth = yes
+	}
+	1347.7.5 = {
+		death = yes
+	}
+}
+ogasawara_6 = {
+	name = "Masanaga"	# 政长
+	dynasty = ogasawara
+	rite = mantrayana
+	culture = japanese
+	father = ogasawara_5
+	1319.7.28 = {
+		birth = yes
+	}
+	1365.4.12 = {
+		death = yes
+	}
+}
+ogasawara_7 = {
+	name = "Nagamoto"	# 长基
+	dynasty = ogasawara
+	rite = mantrayana
+	culture = japanese
+	father = ogasawara_6
+	1347.3.9 = {
+		birth = yes
+	}
+	1407.11.5 = {
+		death = yes
+	}
+}
+ogasawara_8 = {
+	name = "Nagamasa"	# 长将
+	dynasty = ogasawara
+	rite = mantrayana
+	culture = japanese
+	father = ogasawara_7
+	1370.1.1 = {	# unknown
+		birth = yes
+	}
+	1430.1.1 = {	# unknown
+		death = yes
+	}
+}
+ogasawara_9 = {
+	name = "Mochinaga"	# 持长
+	dynasty = ogasawara
+	rite = mantrayana
+	culture = japanese
+	father = ogasawara_8
+	1396.7.27 = {
+		birth = yes
+	}
+	1462.7.21 = {
+		death = yes
+	}
+}
+ogasawara_10 = {
+	name = "Kiyomune"	# 清宗
+	dynasty = ogasawara
+	rite = mantrayana
+	culture = japanese
+	father = ogasawara_9
+	1417.2.2 = {
+		birth = yes
+	}
+	1478.3.22 = {
+		death = yes
+	}
+}
+ogasawara_11 = {
+	name = "Nagatomo"	# 长朝
+	dynasty = ogasawara
+	rite = mantrayana
+	culture = japanese
+	father = ogasawara_10
+	1443.11.25 = {
+		birth = yes
+	}
+	1501.9.24 = {
+		death = yes
+	}
+}
+ogasawara_12 = {
+	name = "Sadatomo"	# 貞朝
+	dynasty = ogasawara
+	rite = mantrayana
+	culture = japanese
+	father = ogasawara_11
+	1461.10.21 = {
+		birth = yes
+	}
+	1515.7.14 = {
+		death = yes
+	}
+}
+ogasawara_13 = {
+	name = "Nagamune"	# 长棟
+	dynasty = ogasawara
+	rite = mantrayana
+	culture = japanese
+	father = ogasawara_12
+	1492.4.15 = {
+		birth = yes
+	}
+	1542.11.14 = {
+		death = yes
+	}
+}
+ogasawara_14 = {
+	name = "Nagatoki"	# 长时
+	dynasty = ogasawara
+	rite = mantrayana
+	culture = japanese
+	father = ogasawara_13
+	1514.11.9 = {
+		birth = yes
+	}
+	1583.4.17 = {
+		death = yes
+	}
+}
+ogasawara_15 = {
+	name = "Sadayoshi"	# 貞庆
+	dynasty = ogasawara
+	rite = mantrayana
+	culture = japanese
+	father = ogasawara_14
+	1546.9.6 = {
+		birth = yes
+	}
+	1595.6.17 = {
+		death = yes
+	}
+}
+ogasawara_16 = {
+	name = "Hidemasa"	# 秀政
+	dynasty = ogasawara
+	rite = mantrayana
+	culture = japanese
+	father = ogasawara_15
+	1569.4.7 = {
+		birth = yes
+	}
+	1615.6.3 = {
+		death = yes
+	}
+}
+ogasawara_17 = {
+	name = "Tadazane"	# 忠真
+	dynasty = ogasawara
+	rite = mantrayana
+	culture = japanese
+	father = ogasawara_16
+	1596.3.26 = {
+		birth = yes
+	}
+	1667.12.3 = {
+		death = yes
+	}
+}
+ogasawara_18 = {
+	name = "Tadataka"	# 忠雄
+	dynasty = ogasawara
+	rite = mantrayana
+	culture = japanese
+	father = ogasawara_17
+	1647.6.22 = {
+		birth = yes
+	}
+	1725.8.6 = {
+		death = yes
+	}
+}
+ogasawara_19 = {
+	name = "Tadamoto"	# 忠基
+	dynasty = ogasawara
+	rite = mantrayana
+	culture = japanese
+	father = ogasawara_18
+	1682.8.6 = {
+		birth = yes
+	}
+	1752.3.20 = {
+		death = yes
+	}
+}
+ogasawara_20 = {
+	name = "Nagamichi"	# 长逵
+	dynasty = ogasawara
+	rite = mantrayana
+	culture = japanese
+	father = ogasawara_19
+	1713.3.11 = {
+		birth = yes
+	}
+	1770.10.6 = {
+		death = yes
+	}
+}
+ogasawara_21 = {
+	name = "Nagatame"	# 长为
+	dynasty = ogasawara
+	rite = mantrayana
+	culture = japanese
+	father = ogasawara_20
+	1745.7.28 = {
+		birth = yes
+	}
+	1782.3.25 = {
+		death = yes
+	}
+}
+ogasawara_22 = {
+	name = "Tadakata"	# 忠固
+	dynasty = ogasawara
+	rite = mantrayana
+	culture = japanese
+	father = ogasawara_21
+	1770.10.22 = {
+		birth = yes
+	}
+	1843.6.9 = {
+		death = yes
+	}
+}
+ogasawara_23 = {
+	name = "Tadaakira"	# 忠征
+	dynasty = ogasawara
+	rite = mantrayana
+	culture = japanese
+	father = ogasawara_22
+	1808.11.29 = {
+		birth = yes
+	}
+	1856.6.14 = {
+		death = yes
+	}
+}
+ogasawara_24 = {
+	name = "Nagayoshi"	# 长禎
+	dynasty = ogasawara
+	rite = mantrayana
+	culture = japanese
+	father = ogasawara_21
+	1781.6.11 = {
+		birth = yes
+	}
+	1825.7.6 = {
+		death = yes
+	}
+}
+ogasawara_25 = {
+	name = "Nagatake"	# 长武
+	dynasty = ogasawara
+	rite = mantrayana
+	culture = japanese
+	father = ogasawara_24
+	1809.6.28 = {
+		birth = yes
+	}
+	1839.9.28 = {
+		death = yes
+	}
+}
+ogasawara_26 = {
+	name = "Tadayoshi"	# 忠幹
+	dynasty = ogasawara
+	rite = mantrayana
+	culture = japanese
+	father = ogasawara_25
+	1827.11.3 = {
+		birth = yes
+	}
+	1865.10.25 = {
+		death = yes
+	}
+}

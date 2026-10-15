@@ -1340,3 +1340,153 @@ c_nf_sakai_himeji = {
 		holder = sakai_56	# Tadashige
 	}
 }
+
+c_nf_itakura = {
+	1804.9.4 = {
+		liege = e_japan
+		holder = itakura_0	# Katsutsune
+		government = japan_feudal_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1849.5.27 = {
+		holder = itakura_1	# Katsukiyo
+	}
+}
+
+c_nf_asano = {
+	1799.8.21 = {
+		liege = e_japan
+		holder = asano_1	# Narikata
+		government = japan_feudal_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1831.1.4 = {
+		holder = asano_2	# Naritaka
+	}
+	1858.11.4 = {
+		holder = asano_5	# Nagamichi
+	}
+}
+
+c_nf_mori = {
+	1809.3.29 = {
+		liege = e_japan
+		holder = mori_19	# Narihiro
+		government = japan_feudal_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1824.2.27 = {
+		holder = mori_21	# Narimoto
+	}
+	1837.1.1 = {
+		holder = mori_23	# Takachika
+	}
+}
+
+c_nf_naito = {
+	1806.11.26 = {
+		liege = e_japan
+		holder = naito_0	# Masayori
+		government = japan_feudal_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1834.9.23 = {
+		holder = naito_1	# Masayoshi
+	}
+}
+
+c_nf_ogasawara = {
+	1804.7.20 = {
+		liege = e_japan
+		holder = ogasawara_22	# Tadakata
+		government = japan_feudal_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1843.6.9 = {
+		holder = ogasawara_23	# Tadaakira
+	}
+	1860.11.6 = {
+		holder = ogasawara_26	# Tadayoshi
+	}
+}
+
+c_nf_nakagawa = {
+	1798.11.29 = {
+		liege = e_japan
+		holder = nakagawa_0	# Hisataka
+		government = japan_feudal_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1815.6.1 = {
+		holder = nakagawa_1	# Hisanori
+	}
+	1840.10.23 = {
+		holder = nakagawa_2	# Hisaaki
+	}
+}
+
+c_nf_todo = {
+	1806.10.7 = {
+		liege = e_japan
+		holder = todo_0	# Takasawa
+		government = japan_feudal_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1825.2.4 = {
+		holder = todo_1	# Takayuki
+	}
+}
+
+c_nf_kuroda = {
+	1795.11.17 = {
+		liege = e_japan
+		holder = kuroda_1	# Narikiyo
+		government = japan_feudal_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1834.11.6 = {
+		holder = kuroda_2	# Nagahiro
+	}
+}
+
+c_nf_arima = {
+	1812.3.15 = {
+		liege = e_japan
+		holder = arima_17	# Yorinori
+		government = japan_feudal_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1846.8.24 = {
+		holder = arima_19	# Yorishige
+	}
+}
+
+c_nf_hosokawa = {
+	1810.11.10 = {
+		liege = e_japan
+		holder = hosokawa_1	# Naritatsu
+		government = japan_feudal_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1826.3.20 = {
+		holder = hosokawa_3	# Narimori
+	}
+	1860.6.6 = {
+		holder = hosokawa_4	# Yoshikuni
+	}
+}
+
+c_nf_sou = {
+	1785.8.12 = {
+		liege = e_japan
+		holder = sou_0	# Yoshikatsu
+		government = japan_feudal_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1812.10.2 = {
+		holder = sou_1	# Yoshikatsu
+	}
+	1842.7.7 = {
+		holder = sou_3	# Yoshiyori
+	}
+}

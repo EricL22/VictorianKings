@@ -1,0 +1,49 @@
+﻿# Oka Domain
+# claimed descent from japanese_minamoto_seiwa_22 (Minamoto no Yorimitsu)
+nakagawa_0 = {
+	name = "Hisataka"	# 久貴
+	dynasty = nakagawa
+	rite = pundarika
+	culture = japanese
+	1787.5.18 = {
+		birth = yes
+	}
+	1824.12.10 = {
+		death = yes
+	}
+}
+nakagawa_1 = {
+	name = "Hisanori"	# 久教
+	dynasty = japanese_ii
+	rite = pundarika
+	culture = japanese
+	father = ii_17
+	1800.8.20 = {
+		birth = yes
+	}
+	1815.1.29 = {
+		dynasty = nakagawa	# adopted
+		# adoptive father = nakagawa_0
+	}
+	1840.10.23 = {
+		death = yes
+	}
+}
+nakagawa_2 = {
+	name = "Hisaaki"	# 久昭
+	dynasty = todo
+	rite = shinto
+	culture = japanese
+	father = todo_0
+	1820.5.15 = {
+		birth = yes
+	}
+	1840.1.1 = {
+		dynasty = nakagawa	# adopted
+		# adoptive father = nakagawa_1
+		rite = pundarika
+	}
+	1889.11.30 = {
+		death = yes
+	}
+}

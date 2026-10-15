@@ -102,6 +102,11 @@
  dynn_Maeda:0 "Maeda"	# 前田
  dynn_Sakai:0 "Sakai"	# 酒井
  dynn_Sakai_Himeji: "Sakai-Himeji"
+ dynn_MO_ri: "Mōri"	# 毛利
+ dynn_NaitO_: "Naitō"	# 内藤
+ dynn_TO_dO_: "Tōdō"	# 藤堂
+ dynn_Kuroda:0 "Kuroda"	# 黑田
+ dynn_Arima:0 "Arima"	# 有馬
 
  dynn_PoincarE_: "Poincaré"
  dynn_Reinhard: "Reinhard"

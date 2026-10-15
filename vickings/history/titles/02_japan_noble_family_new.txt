@@ -1,7 +1,7 @@
 ﻿### JAPANESE NOBLE FAMILIES
 
 c_nf_yamato = { # Yamato
-	1762.9.15 = { holder = yamato_42 }	# Go-Sakuramachi
+	1762.9.15 = { holder = yamato_42 government = japan_feudal_government }	# Go-Sakuramachi
 	1813.12.24 = { holder = yamato_46 }	# Kōkaku
 	1840.12.11 = { holder = yamato_47 }	# Ninkō
 	1846.3.10 = { holder = yamato_48 }	# Kōmei
@@ -17,5 +17,29 @@ c_nf_ikeda = { # Ikeda
 	}
 	1842.3.11 = {
 		holder = ikeda_17	# Yoshimasa
+	}
+}
+
+c_nf_abe = { # Abe
+	1803.1.1 = {
+		liege = e_japan
+		holder = abe_0	# Masakiyo
+		government = japan_feudal_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1826.7.24 = {
+		holder = abe_1	# Masayasu
+	}
+	1857.8.6 = {
+		holder = abe_3	# Masanori
+	}
+}
+
+c_nf_matsura = { # Matsura
+	1806.11.1 = {
+		holder = matsura_0	# Hiromu
+	}
+	1858.9.10 = {
+		holder = matsura_3	# Akira
 	}
 }
