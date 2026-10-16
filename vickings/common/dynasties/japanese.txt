@@ -103,10 +103,10 @@ todo = {
 	culture = japanese
 }
 
-146986 = {
-	name = "dynn_Inagaki"
-	culture = japanese
-}
+#146986 = {
+#	name = "dynn_Inagaki"
+#	culture = japanese
+#}
 
 toda = {
 	name = "dynn_Toda"
@@ -148,12 +148,12 @@ sakakibara = {
 	culture = japanese
 }
 
-159078 = {
+matsumae = {
 	name = "dynn_Matsumae"
 	culture = japanese
 }
 
-146979 = {
-	name = "dynn_Shou"
-	culture = japanese
+shou = {
+	name = "dynn_ShO_"
+	culture = ryukyuan
 }

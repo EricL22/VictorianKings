@@ -10,6 +10,12 @@ vk_initialize_history_effects = {
 		shatter_tribals_at_game_start_effect = yes
 		vk_setup_tributaries_effect = yes
 		vk_history_setup_persistent_adoption_effect = yes
+
+		culture:japanese = {
+			if = { limit = { has_cultural_tradition = tradition_tgp_imperial_peace } }
+			remove_culture_tradition = tradition_tgp_imperial_peace
+			add_culture_tradition = tradition_tgp_bushido
+		}
 	}
 }
 

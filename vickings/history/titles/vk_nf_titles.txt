@@ -1592,3 +1592,18 @@ c_nf_sakakibara = {
 		holder = sakakibara_2	# Masachika
 	}
 }
+
+c_nf_matsumae = {
+	1792.10.28 = {
+		liege = e_japan
+		holder = matsumae_10	# Akihiro
+		government = japan_feudal_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1833.11.6 = {
+		holder = matsumae_12	# Yoshihiro
+	}
+	1849.6.9 = {
+		holder = matsumae_14	# Takahiro
+	}
+}

@@ -1,0 +1,220 @@
+#d_sahaliyan = {
+#}
+c_kusunkotan = {
+	1799.2.7 = {	# China
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1860.11.14 = {	# Russia
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_pogibi = {
+	1799.2.7 = {	# China
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1860.11.14 = {	# Russia
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+c_tarayka = {
+	1799.2.7 = {	# China
+		holder = qing_6	# Jiaqing of Qing
+	}
+	1820.9.2 = {
+		holder = qing_7	# Daoguang of Qing
+	}
+	1850.2.26 = {
+		holder = qing_8	# Xianfeng of Qing
+	}
+	1860.11.14 = {	# Russia
+		holder = romanov_9	# Alexander II
+	}
+	1881.3.13 = {
+		holder = romanov_10	# Alexander III
+	}
+	1894.11.1 = {
+		holder = romanov_11	# Nicholas II
+	}
+}
+#d_menas = {
+#}
+c_simenas = {
+	1787.4.23 = {
+		holder = tokugawa_13	# Ienari
+	}
+	1837.9.4 = {
+		holder = tokugawa_14	# Ieyoshi
+	}
+	1858.8.14 = {
+		holder = tokugawa_16	# Iemochi
+	}
+	1912.7.29 = {
+		holder = yamato_50	# Taishō
+	}
+}
+c_menas = {
+	1787.4.23 = {
+		holder = tokugawa_13	# Ienari
+	}
+	1837.9.4 = {
+		holder = tokugawa_14	# Ieyoshi
+	}
+	1858.8.14 = {
+		holder = tokugawa_16	# Iemochi
+	}
+	1912.7.29 = {
+		holder = yamato_50	# Taishō
+	}
+}
+c_soya = {
+	1807.1.1 = {
+		holder = tokugawa_13	# Ienari
+	}
+	1833.11.6 = {
+		holder = matsumae_12	# Yoshihiro
+	}
+	# 1855.2.22: Tokugawa
+	1858.8.14 = {
+		holder = tokugawa_16	# Iemochi
+	}
+	1871.7.14 = {
+		holder = yamato_49	# Meiji
+	}
+	1912.7.29 = {
+		holder = yamato_50	# Taishō
+	}
+}
+c_chupka = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+}
+d_sum = {
+	1792.10.28 = {
+		holder = matsumae_10	# Akihiro
+		liege = e_japan
+		government = japan_feudal_government
+	}
+	1807.1.1 = {
+		holder = tokugawa_13	# Ienari
+	}
+	1821.1.1 = {
+		holder = matsumae_10	# Akihiro
+	}
+	1833.11.6 = {
+		holder = matsumae_12	# Yoshihiro
+	}
+	1839.10.1 = {
+		holder = matsumae_13	# Masahiro
+	}
+	# 1855.2.22: Tokugawa
+	1858.8.14 = {
+		holder = tokugawa_16	# Iemochi
+	}
+	1871.7.14 = {
+		holder = 0
+	}
+	1886.1.26 = {
+		holder = yamato_49	# Meiji
+	}
+	1912.7.29 = {
+		holder = yamato_50	# Taishō
+	}
+}
+c_uskes = {
+	1807.1.1 = {
+		holder = tokugawa_13	# Ienari
+	}
+	1833.11.6 = {
+		holder = matsumae_12	# Yoshihiro
+	}
+	1849.6.9 = {
+		holder = matsumae_14	# Takahiro
+		government = japan_feudal_government
+	}
+	1871.7.14 = {
+		holder = yamato_49	# Meiji
+	}
+	1912.7.29 = {
+		holder = yamato_50	# Taishō
+	}
+}
+c_ioci = {
+	1807.1.1 = {
+		holder = tokugawa_13	# Ienari
+	}
+	1833.11.6 = {
+		holder = matsumae_12	# Yoshihiro
+	}
+	# 1855.2.22: Tokugawa
+	1858.8.14 = {
+		holder = tokugawa_16	# Iemochi
+	}
+	1871.7.14 = {
+		holder = yamato_49	# Meiji
+	}
+	1912.7.29 = {
+		holder = yamato_50	# Taishō
+	}
+}
+c_iskar = {
+	1807.1.1 = {
+		holder = tokugawa_13	# Ienari
+	}
+	1833.11.6 = {
+		holder = matsumae_12	# Yoshihiro
+	}
+	# 1855.2.22: Tokugawa
+	1858.8.14 = {
+		holder = tokugawa_16	# Iemochi
+	}
+	1871.7.14 = {
+		holder = yamato_49	# Meiji
+	}
+	1912.7.29 = {
+		holder = yamato_50	# Taishō
+	}
+}
+c_sum = {
+	1807.1.1 = {
+		holder = tokugawa_13	# Ienari
+	}
+	1833.11.6 = {
+		holder = matsumae_12	# Yoshihiro
+	}
+	# 1855.2.22: Tokugawa
+	1858.8.14 = {
+		holder = tokugawa_16	# Iemochi
+	}
+	1871.7.14 = {
+		holder = yamato_49	# Meiji
+	}
+	1912.7.29 = {
+		holder = yamato_50	# Taishō
+	}
+}

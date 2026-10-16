@@ -1,0 +1,131 @@
+﻿# ancestors of Matsumae
+takeda_0 = {
+	name = "Nobumasa"	# 信政
+	dynasty_house = house_minamoto_kai
+	rite = mantrayana
+	culture = japanese
+	father = japanese_minamoto_seiwa_157
+	1196.2.15 = {
+		birth = yes
+	}
+	1265.1.24 = {
+		death = yes
+	}
+}
+takeda_1 = {
+	name = "Nobutoki"	# 信时
+	dynasty_house = house_minamoto_kai
+	rite = mantrayana
+	culture = japanese
+	father = takeda_0
+	1220.6.19 = {
+		birth = yes
+	}
+	1289.3.2 = {
+		death = yes
+	}
+}
+takeda_2 = {
+	name = "Tokitsuna"	# 时䋄
+	dynasty_house = house_minamoto_kai
+	rite = mantrayana
+	culture = japanese
+	father = takeda_1
+	1245.2.1 = {
+		birth = yes
+	}
+	1307.8.1 = {
+		death = yes
+	}
+}
+takeda_3 = {
+	name = "Nobumune"	# 信宗
+	dynasty_house = house_minamoto_kai
+	rite = mantrayana
+	culture = japanese
+	father = takeda_2
+	1269.8.29 = {
+		birth = yes
+	}
+	1330.12.19 = {
+		death = yes
+	}
+}
+takeda_4 = {
+	name = "Nobutake"	# 信武
+	dynasty_house = house_minamoto_kai
+	rite = mantrayana
+	culture = japanese
+	father = takeda_3
+	1292.5.22 = {
+		birth = yes
+	}
+	1359.8.7 = {
+		death = yes
+	}
+}
+takeda_5 = {
+	name = "Ujinobu"	# 氏信
+	dynasty_house = house_minamoto_kai
+	rite = mantrayana
+	culture = japanese
+	father = takeda_4
+	1312.2.9 = {
+		birth = yes
+	}
+	1380.6.11 = {
+		death = yes
+	}
+}
+takeda_6 = {
+	name = "Nobuari"	# 信在
+	dynasty_house = house_minamoto_kai
+	rite = mantrayana
+	culture = japanese
+	father = takeda_5
+	1352.1.1 = {
+		birth = yes
+	}
+	1403.1.1 = {
+		death = yes
+	}
+}
+takeda_7 = {
+	name = "Nobushige"	# 信繁
+	dynasty_house = house_minamoto_kai
+	rite = mantrayana
+	culture = japanese
+	father = takeda_6
+	1390.1.1 = {
+		birth = yes
+	}
+	1465.11.28 = {
+		death = yes
+	}
+}
+takeda_8 = {
+	name = "Nobukata"	# 信䝨
+	dynasty_house = house_minamoto_kai
+	rite = mantrayana
+	culture = japanese
+	father = takeda_7
+	1420.1.1 = {
+		birth = yes
+	}
+	1471.6.20 = {
+		death = yes
+	}
+}
+takeda_9 = {
+	name = "Nobuhiro"	# 信广
+	dynasty_house = house_minamoto_kai
+	rite = mantrayana
+	culture = japanese
+	father = takeda_8
+	1431.3.3 = {
+		birth = yes
+	}
+	1494.6.23 = {
+		death = yes
+	}
+}

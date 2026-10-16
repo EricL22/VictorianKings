@@ -1,0 +1,218 @@
+﻿# Matsumae Domain
+matsumae_0 = {
+	name = "Mitsuhiro"	# 光广
+	dynasty = matsumae	# Kakizaki
+	rite = mantrayana
+	culture = japanese
+	father = takeda_9
+	1456.1.1 = {
+		birth = yes
+	}
+	1518.8.18 = {
+		death = yes
+	}
+}
+matsumae_1 = {
+	name = "Yoshihiro"	# 义广
+	dynasty = matsumae	# Kakizaki
+	rite = mantrayana
+	culture = japanese
+	father = matsumae_0
+	1479.1.1 = {
+		birth = yes
+	}
+	1545.9.24 = {
+		death = yes
+	}
+}
+matsumae_2 = {
+	name = "Suehiro"	# 季广
+	dynasty = matsumae	# Kakizaki
+	rite = mantrayana
+	culture = japanese
+	father = matsumae_1
+	1507.1.1 = {
+		birth = yes
+	}
+	1595.5.29 = {
+		death = yes
+	}
+}
+matsumae_3 = {
+	name = "Yoshihiro"	# 庆广
+	dynasty = matsumae
+	rite = mantrayana
+	culture = japanese
+	father = matsumae_2
+	1548.10.4 = {
+		birth = yes
+	}
+	1616.11.20 = {
+		death = yes
+	}
+}
+matsumae_4 = {
+	name = "Tadahiro"	# 忠广
+	dynasty = matsumae
+	rite = mantrayana
+	culture = japanese
+	father = matsumae_3
+	1580.1.1 = {
+		birth = yes
+	}
+	1617.8.30 = {
+		death = yes
+	}
+}
+# https://rekimoku.xsrv.jp/103-bunkazai-kanseichosyukafu1.html?page=1263
+matsumae_5 = {
+	name = "Naohiro"	# 直广
+	dynasty = matsumae
+	rite = mantrayana
+	culture = japanese
+	father = matsumae_4
+	1611.1.1 = {
+		birth = yes
+	}
+	1658.6.17 = {
+		death = yes
+	}
+}
+matsumae_6 = {
+	name = "Motohiro"	# 本广
+	dynasty = matsumae
+	rite = mantrayana
+	culture = japanese
+	father = matsumae_5
+	1647.1.1 = {
+		birth = yes
+	}
+	1720.4.23 = {
+		death = yes
+	}
+}
+matsumae_7 = {
+	name = "Kunihiro"	# 邦广
+	dynasty = matsumae
+	rite = mantrayana
+	culture = japanese
+	father = matsumae_6
+	1705.1.1 = {
+		birth = yes
+	}
+	1743.5.31 = {
+		death = yes
+	}
+}
+matsumae_8 = {
+	name = "Sukehiro"	# 資广
+	dynasty = matsumae
+	rite = mantrayana
+	culture = japanese
+	father = matsumae_7
+	1726.10.24 = {
+		birth = yes
+	}
+	1765.5.8 = {
+		death = yes
+	}
+}
+matsumae_9 = {
+	name = "Michihiro"	# 道广
+	dynasty = matsumae
+	rite = mantrayana
+	culture = japanese
+	father = matsumae_8
+	1754.2.8 = {
+		birth = yes
+	}
+	1832.7.17 = {
+		death = yes
+	}
+}
+matsumae_10 = {
+	name = "Akihiro"	# 章广
+	dynasty = matsumae
+	rite = mantrayana
+	culture = japanese
+	father = matsumae_9
+	1775.8.25 = {
+		birth = yes
+	}
+	1833.11.6 = {
+		death = yes
+	}
+}
+matsumae_11 = {
+	name = "Chikahiro"	# 見广
+	dynasty = matsumae
+	rite = mantrayana
+	culture = japanese
+	father = matsumae_10
+	1805.1.1 = {
+		birth = yes
+	}
+	1827.9.20 = {
+		death = yes
+	}
+}
+matsumae_12 = {
+	name = "Yoshihiro"	# 良广
+	dynasty = matsumae
+	rite = mantrayana
+	culture = japanese
+	father = matsumae_11
+	1823.7.1 = {
+		birth = yes
+	}
+	1833.11.6 = {
+		effect = {
+			vassal_contract_set_obligation_level = {
+				type = special_contract
+				level = 2	#special_contract_march
+			}
+		}
+	}
+	1839.10.1 = {
+		death = yes
+	}
+}
+matsumae_13 = {
+	name = "Masahiro"	# 昌广
+	dynasty = matsumae
+	rite = mantrayana
+	culture = japanese
+	father = matsumae_11
+	1825.10.9 = {
+		birth = yes
+	}
+	1853.9.10 = {
+		death = yes
+	}
+}
+matsumae_14 = {
+	name = "Takahiro"	# 崇广
+	dynasty = matsumae
+	rite = mantrayana
+	culture = japanese
+	father = matsumae_10
+	1829.12.10 = {
+		birth = yes
+	}
+	1866.6.9 = {
+		death = yes
+	}
+}
+matsumae_15 = {
+	name = "Norihiro"	# 德广
+	dynasty = matsumae
+	rite = mantrayana
+	culture = japanese
+	father = matsumae_13
+	1844.5.1 = {
+		birth = yes
+	}
+	1869.1.11 = {
+		death = yes
+	}
+}

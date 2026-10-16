@@ -79,11 +79,8 @@ d_hitakami = { # Hitakami/Mutsu
 d_nushiro = { # Nushiro/Dewa
 	1800.1.1 = { holder = 0 }
 }
-d_ruucuu = { # Ruucuu/Ryukyu
-	700.1.1 = {
-		liege = 0
-	}
-}
+#d_ruucuu = { # Ruucuu/Ryukyu
+#}
 
 # Counties / Provinces
 
@@ -1192,30 +1189,22 @@ c_iwase = { # Iwase (Aizu Domain)
 		holder = yamato_50	# Taishō
 	}
 }
-c_iwaki = { # Iwaki
-	867.1.1 = { change_development_level = 5 }
-	1066.1.1 = { change_development_level = 9 }
-	1178.1.1 = { change_development_level = 14 }
-
-	700.1.1 = {
+c_iwaki = { # Iwaki (Yanagawa 梁川 Domain)
+	1807.1.1 = {
+		holder = matsumae_10	# Akihiro
 		liege = e_japan
-		government = japan_administrative_government
 	}
-	867.1.1 = {
-		liege = d_hitakami
-		holder = japanese_oono_9 # Harutaka, fictional to make Ono landed
+	1821.1.1 = {
+		holder = tokugawa_13	# Ienari
 	}
-	1044.1.1 = { holder = japanese_fujiwara_336 } # Tsunekiyo
-	1062.10.22 = {
-		holder = japanese_minamoto_seiwa_67 # Arimitsu
-		government = japan_feudal_government # Ishikawa fief
+	1837.9.4 = {
+		holder = tokugawa_14	# Ieyoshi
 	}
-	1086.11.10 = { holder = japanese_minamoto_seiwa_290 } # Motomitsu
-	1099.9.20 = { holder = japanese_minamoto_seiwa_292 } # Mitsuyoshi
-	1121.4.1 = { holder = japanese_minamoto_seiwa_293 } # Yoshisue
-	1177.8.1 = {
-		liege = e_japan
-		holder = japanese_minamoto_seiwa_294 # Motomitsu
+	1858.8.14 = {
+		holder = tokugawa_16	# Iemochi
+	}
+	1912.7.29 = {
+		holder = yamato_50	# Taishō
 	}
 }
 c_nushiro = { # Nushiro/Akita (Kubota Domain)
@@ -1256,18 +1245,35 @@ c_tokisara = { # Tokisara/Dewa (Shōnai Domain)
 
 # RYUKYU
 k_ruucuu = {
-	1066.1.1 = { holder = 0 }
+	1804.1.1 = {
+		holder = shou_0	# Shō Kō
+	}
+	1828.1.1 = {
+		holder = shou_1	# Shō Iku
+	}
+	1848.6.8 = {
+		holder = shou_2	# Shō Tai
+	}
+	1879.3.27 = {
+		holder = 0
+	}
 }
 c_ucinaa = {
-	867.1.1 = { change_development_level = 4 }
-	1066.1.1 = { change_development_level = 7 }
-	1178.1.1 = { change_development_level = 11 }
-	700.1.1 = {
-		government = tribal_government
+	1804.1.1 = {
+		holder = shou_0	# Shō Kō
 	}
-	867.1.1 = { holder = ryukyuan_ucinaa_1 }
-	1066.1.1 = { holder = ryukyuan_ucinaa_8 }
-	1178.1.1 = { holder = ryukyu_tinsun_1 } # Umikanimaci
+	1828.1.1 = {
+		holder = shou_1	# Shō Iku
+	}
+	1848.6.8 = {
+		holder = shou_2	# Shō Tai
+	}
+	1879.3.27 = {
+		holder = yamato_49	# Meiji
+	}
+	1912.7.29 = {
+		holder = yamato_50	# Taishō
+	}
 }
 c_amami = {
 	1809.6.1 = {

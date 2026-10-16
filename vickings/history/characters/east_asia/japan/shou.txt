@@ -1,0 +1,39 @@
+﻿### Kings of Ryukyu
+shou_0 = {
+	name = "KO_"	# 灝
+	dynasty = shou
+	rite = utaki
+	culture = ryukyuan
+	1787.7.14 = {
+		birth = yes
+	}
+	1834.7.5 = {
+		death = yes
+	}
+}
+shou_1 = {
+	name = "Iku"	# 育
+	dynasty = shou
+	rite = utaki
+	culture = ryukyuan
+	father = shou_0
+	1813.8.19 = {
+		birth = yes
+	}
+	1847.10.25 = {
+		death = yes
+	}
+}
+shou_2 = {
+	name = "Tai"	# 泰
+	dynasty = shou
+	rite = utaki
+	culture = ryukyuan
+	father = shou_1
+	1843.8.3 = {
+		birth = yes
+	}
+	1901.8.19 = {
+		death = yes
+	}
+}
