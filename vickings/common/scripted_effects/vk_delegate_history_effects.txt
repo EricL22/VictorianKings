@@ -226,6 +226,10 @@ vk_history_setup_persistent_adoption_effect = {
 		character:naito_1 = { set_father = character:naito_0 }
 
 		character:kuroda_2 = { set_father = character:kuroda_1 }
+
+		character:sanada_1 = { set_father = character:sanada_0 }
+
+		character:tsugaru_4 = { set_father = character:tsugaru_3 }
 	}
    	if = {
 		limit = { current_date > 1836.1.1 }	# 1861 and later
@@ -244,6 +248,8 @@ vk_history_setup_persistent_adoption_effect = {
 		character:itakura_1 = { set_father = character:itakura_0 }
 
 		character:nakagawa_2 = { set_father = character:nakagawa_1 }
+
+		character:tsugaru_5 = { set_father = character:tsugaru_4 }
 	}
    	if = {
 		limit = { current_date > 1861.7.1 }	# 1914 and later

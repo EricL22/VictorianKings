@@ -1490,3 +1490,105 @@ c_nf_sou = {
 		holder = sou_3	# Yoshiyori
 	}
 }
+
+c_nf_toda = {
+	1806.6.11 = {
+		liege = e_japan
+		holder = toda_0	# Ujitsune
+		government = japan_feudal_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1856.10.25 = {
+		holder = toda_2	# Ujiakira
+	}
+}
+
+c_nf_sanada = {
+	1798.8.21 = {
+		liege = e_japan
+		holder = sanada_0	# Yukitaka
+		government = japan_feudal_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1823.8.20 = {
+		holder = sanada_1	# Yukitsura
+	}
+	1852.5.6 = {
+		holder = sanada_3	# Yukinori
+	}
+}
+
+c_nf_date = {
+	1812.6.3 = {
+		liege = e_japan
+		holder = date_21	# Narimune
+		government = japan_feudal_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1828.1.13 = {
+		holder = date_26	# Narikuni
+	}
+	1841.9.9 = {
+		holder = date_27	# Yoshikuni
+	}
+}
+
+c_nf_nanbu = {
+	1784.6.22 = {
+		liege = e_japan
+		holder = nanbu_18	# Toshitaka
+		government = japan_feudal_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1825.8.21 = {
+		holder = nanbu_27	# Toshitada
+	}
+	1848.1.1 = {
+		holder = nanbu_29	# Toshihisa
+	}
+}
+
+c_nf_tsugaru = {
+	1791.7.22 = {
+		liege = e_japan
+		holder = tsugaru_0	# Yasuchika
+		government = japan_feudal_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1825.1.1 = {
+		holder = tsugaru_1	# Nobuyuki
+	}
+	1859.2.7 = {
+		holder = tsugaru_5	# Tsuguakira
+	}
+}
+
+c_nf_satake = {
+	1785.7.6 = {
+		liege = e_japan
+		holder = satake_8	# Yoshimasa
+		government = japan_feudal_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1815.8.12 = {
+		holder = satake_9	# Yoshihiro
+	}
+	1857.8.20 = {
+		holder = satake_19	# Yoshitaka
+	}
+}
+
+c_nf_sakakibara = {
+	1810.1.1 = {
+		liege = e_japan
+		holder = sakakibara_0	# Masanori
+		government = japan_feudal_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1827.1.1 = {
+		holder = sakakibara_1	# Masakiyo
+	}
+	1839.1.1 = {
+		holder = sakakibara_2	# Masachika
+	}
+}

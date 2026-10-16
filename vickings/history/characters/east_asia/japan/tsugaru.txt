@@ -1,0 +1,87 @@
+﻿# Hirosaki Domain
+tsugaru_0 = {
+	name = "Yasuchika"	# 宁亲
+	dynasty = tsugaru
+	rite = mantrayana
+	culture = japanese
+	trait = lifestyle_poet
+	1765.3.8 = {
+		birth = yes
+	}
+	1833.7.30 = {
+		death = yes
+	}
+}
+tsugaru_1 = {
+	name = "Nobuyuki"	# 信順
+	dynasty = tsugaru
+	rite = mantrayana
+	culture = japanese
+	father = tsugaru_0
+	1800.4.18 = {
+		birth = yes
+	}
+	1862.12.5 = {
+		death = yes
+	}
+}
+tsugaru_2 = {
+	name = "Tsunetoshi"	# 典晓
+	dynasty = tsugaru
+	rite = mantrayana
+	culture = japanese
+	father = tsugaru_0
+	1789.11.2 = {
+		birth = yes
+	}
+	1805.8.31 = {
+		death = yes
+	}
+}
+tsugaru_3 = {
+	name = "Chikatari"	# 亲足
+	dynasty = tsugaru	# adopted from Kuroda clan (1806)
+	rite = mantrayana
+	culture = japanese
+	father = tsugaru_0	# supposed to be tsugaru_2 but the game doesn't allow that...
+	1788.9.28 = {
+		birth = yes
+	}
+	1849.9.16 = {
+		death = yes
+	}
+}
+tsugaru_4 = {
+	name = "Yukitsugu"	# 順承
+	dynasty_house = house_matsudaira_okochi
+	rite = mantrayana
+	culture = japanese
+	father = matsudaira_114
+	1800.2.6 = {
+		birth = yes
+	}
+	1821.6.5 = {
+		dynasty = tsugaru	# adopted
+		# adoptive father = tsugaru_3
+	}
+	1865.3.2 = {
+		death = yes
+	}
+}
+tsugaru_5 = {
+	name = "Tsuguakira"	# 承昭
+	dynasty = hosokawa
+	rite = mantrayana
+	culture = japanese
+	father = hosokawa_3
+	1840.9.7 = {
+		birth = yes
+	}
+	1857.6.28 = {
+		dynasty = tsugaru	# adopted
+		# adoptive father = tsugaru_4
+	}
+	1916.7.19 = {
+		death = yes
+	}
+}

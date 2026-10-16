@@ -168,3 +168,8 @@ house_akamatsu = {
 	name = "dynn_Akamatsu"
 	dynasty = japanese_minamoto_murakami # Murakami Minamoto
 }
+
+house_matsudaira_okochi = {
+	name = "dynn_O_kO_chi"
+	dynasty = matsudaira
+}

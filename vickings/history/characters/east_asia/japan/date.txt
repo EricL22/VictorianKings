@@ -1,0 +1,365 @@
+﻿# Sendai Domain
+date_0 = {
+	name = "Yoshihiro"	# 义广
+	dynasty = date
+	rite = mantrayana
+	culture = japanese
+	father = japanese_fujiwara_1105
+	1185.1.1 = {
+		birth = yes
+	}
+	1256.10.12 = {
+		death = yes
+	}
+}
+date_1 = {
+	name = "Masayori"	# 政依
+	dynasty = date
+	rite = mantrayana
+	culture = japanese
+	father = date_0
+	1227.1.1 = {
+		birth = yes
+	}
+	1301.8.13 = {
+		death = yes
+	}
+}
+date_2 = {
+	name = "Munetsuna"	# 宗䋄
+	dynasty = date
+	rite = mantrayana
+	culture = japanese
+	father = date_1
+	1254.1.1 = {
+		birth = yes
+	}
+	1317.3.20 = {
+		death = yes
+	}
+}
+date_3 = {
+	name = "Motomune"	# 基宗
+	dynasty = date
+	rite = mantrayana
+	culture = japanese
+	father = date_2
+	1275.1.1 = {	# unknown
+		birth = yes
+	}
+	1335.8.28 = {
+		death = yes
+	}
+}
+date_4 = {
+	name = "Yukitomo"	# 行朝
+	dynasty = date
+	rite = mantrayana
+	culture = japanese
+	father = date_3
+	1291.1.1 = {
+		birth = yes
+	}
+	1348.6.6 = {
+		death = yes
+	}
+}
+date_5 = {
+	name = "MunetO__2"	# 宗远
+	dynasty = date
+	rite = mantrayana
+	culture = japanese
+	father = date_4
+	1324.1.1 = {
+		birth = yes
+	}
+	1385.6.28 = {
+		death = yes
+	}
+}
+date_6 = {
+	name = "Masamune"	# 政宗
+	dynasty = date
+	rite = mantrayana
+	culture = japanese
+	father = date_5
+	1353.1.1 = {
+		birth = yes
+	}
+	1405.10.7 = {
+		death = yes
+	}
+}
+date_7 = {
+	name = "Ujimune"	# 氏宗
+	dynasty = date
+	rite = mantrayana
+	culture = japanese
+	father = date_6
+	1371.1.1 = {
+		birth = yes
+	}
+	1412.8.24 = {
+		death = yes
+	}
+}
+date_8 = {
+	name = "Mochimune"	# 持宗
+	dynasty = date
+	rite = mantrayana
+	culture = japanese
+	father = date_7
+	1393.1.1 = {
+		birth = yes
+	}
+	1469.2.19 = {
+		death = yes
+	}
+}
+date_9 = {
+	name = "Shigemune"	# 成宗
+	dynasty = date
+	rite = mantrayana
+	culture = japanese
+	father = date_8
+	1435.1.1 = {
+		birth = yes
+	}
+	1487.10.11 = {
+		death = yes
+	}
+}
+date_10 = {
+	name = "Hisamune"	# 尚宗
+	dynasty = date
+	rite = mantrayana
+	culture = japanese
+	father = date_9
+	1453.1.1 = {
+		birth = yes
+	}
+	1514.5.28 = {
+		death = yes
+	}
+}
+date_11 = {
+	name = "Tanemune"	# 稙宗
+	dynasty = date
+	rite = mantrayana
+	culture = japanese
+	father = date_10
+	1488.1.1 = {
+		birth = yes
+	}
+	1565.7.16 = {
+		death = yes
+	}
+}
+date_12 = {
+	name = "Harumune"	# 晴宗
+	dynasty = date
+	rite = mantrayana
+	culture = japanese
+	father = date_11
+	1519.1.1 = {
+		birth = yes
+	}
+	1578.1.12 = {
+		death = yes
+	}
+}
+date_13 = {
+	name = "Terumune"	# 輝宗
+	dynasty = date
+	rite = mantrayana
+	culture = japanese
+	father = date_12
+	1544.1.1 = {
+		birth = yes
+	}
+	1585.11.29 = {
+		death = yes
+	}
+}
+date_14 = {
+	name = "Masamune"	# 政宗
+	dynasty = date
+	rite = mantrayana
+	culture = japanese
+	father = date_13
+	1567.9.5 = {
+		birth = yes
+	}
+	1636.6.27 = {
+		death = yes
+	}
+}
+date_15 = {
+	name = "Tadamune"	# 忠宗
+	dynasty = date
+	rite = mantrayana
+	culture = japanese
+	father = date_14
+	1600.1.23 = {
+		birth = yes
+	}
+	1658.8.10 = {
+		death = yes
+	}
+}
+date_16 = {
+	name = "Munefusa"	# 宗房
+	dynasty = date
+	rite = mantrayana
+	culture = japanese
+	father = date_15
+	1646.9.14 = {
+		birth = yes
+	}
+	1686.2.5 = {
+		death = yes
+	}
+}
+date_17 = {
+	name = "Yoshimura"	# 吉村
+	dynasty = date
+	rite = mantrayana
+	culture = japanese
+	father = date_16
+	1680.7.23 = {
+		birth = yes
+	}
+	1752.2.8 = {
+		death = yes
+	}
+}
+date_18 = {
+	name = "Munemura"	# 宗村
+	dynasty = date
+	rite = mantrayana
+	culture = japanese
+	father = date_17
+	1718.6.25 = {
+		birth = yes
+	}
+	1756.6.21 = {
+		death = yes
+	}
+}
+date_19 = {
+	name = "Shigemura"	# 重村
+	dynasty = date
+	rite = mantrayana
+	culture = japanese
+	father = date_18
+	1742.5.23 = {
+		birth = yes
+	}
+	1796.5.27 = {
+		death = yes
+	}
+}
+date_20 = {
+	name = "Narimura"	# 齐村
+	dynasty = date
+	rite = mantrayana
+	culture = japanese
+	father = date_19
+	1775.1.6 = {
+		birth = yes
+	}
+	1796.8.29 = {
+		death = yes
+	}
+}
+date_21 = {
+	name = "Narimune"	# 齐宗
+	dynasty = date
+	rite = mantrayana
+	culture = japanese
+	father = date_20
+	1796.10.15 = {
+		birth = yes
+	}
+	1819.7.15 = {
+		death = yes
+	}
+}
+date_22 = {
+	name = "Murayoshi"	# 村良
+	dynasty = date
+	rite = mantrayana
+	culture = japanese
+	father = date_17
+	1743.5.22 = {
+		birth = yes
+	}
+	1787.1.20 = {
+		death = yes
+	}
+}
+date_23 = {
+	name = "Murasuke"	# 村資
+	dynasty = date	# adopted by Tamura clan
+	rite = mantrayana
+	culture = japanese
+	father = date_22
+	1763.2.15 = {
+		birth = yes
+	}
+	1808.12.14 = {
+		death = yes
+	}
+}
+date_24 = {
+	name = "Nariyoshi"	# 齐义
+	dynasty = date
+	rite = mantrayana
+	culture = japanese
+	father = date_23
+	1798.4.22 = {
+		birth = yes
+	}
+	1828.1.13 = {
+		death = yes
+	}
+}
+date_25 = {
+	name = "Munemitsu"	# 宗充
+	dynasty = date
+	rite = mantrayana
+	culture = japanese
+	father = date_22
+	1787.1.1 = {
+		birth = yes
+	}
+	1843.7.8 = {
+		death = yes
+	}
+}
+date_26 = {
+	name = "Narikuni"	# 齐邦
+	dynasty = date
+	rite = mantrayana
+	culture = japanese
+	father = date_25
+	1817.11.6 = {
+		birth = yes
+	}
+	1841.9.9 = {
+		death = yes
+	}
+}
+date_27 = {
+	name = "Yoshikuni"	# 庆邦
+	dynasty = date
+	rite = mantrayana
+	culture = japanese
+	father = date_24
+	1825.10.17 = {
+		birth = yes
+	}
+	1874.7.12 = {
+		death = yes
+	}
+}

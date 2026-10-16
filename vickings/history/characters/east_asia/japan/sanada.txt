@@ -1,0 +1,60 @@
+﻿# Matsushiro Domain
+# claimed descent from Seiwa Genji but this is likely fabricated
+sanada_0 = {
+	name = "Yukitaka"	# 幸専
+	dynasty = sanada
+	rite = mantrayana
+	culture = japanese
+	1770.1.1 = {
+		birth = yes
+	}
+	1828.8.27 = {
+		death = yes
+	}
+}
+sanada_1 = {
+	name = "Yukitsura"	# 幸貫
+	dynasty_house = house_matsudaira_hisamatsu
+	rite = mantrayana
+	culture = japanese
+	father = matsudaira_100
+	1791.9.29 = {
+		birth = yes
+	}
+	1815.1.1 = {
+		dynasty = sanada	# adopted
+		# adoptive father = sanada_0
+	}
+	1852.7.24 = {
+		death = yes
+	}
+}
+sanada_2 = {
+	name = "Yukiyoshi"	# 幸良
+	dynasty_house = house_matsudaira_hisamatsu
+	rite = mantrayana
+	culture = japanese
+	father = sanada_1	# officially, matsudaira_100
+	1814.12.9 = {
+		birth = yes
+	}
+	1815.1.1 = {
+		dynasty = sanada	# adopted
+	}
+	1844.3.25 = {
+		death = yes
+	}
+}
+sanada_3 = {
+	name = "Yukinori"	# 幸教
+	dynasty = sanada
+	rite = mantrayana
+	culture = japanese
+	father = sanada_2
+	1836.1.30 = {
+		birth = yes
+	}
+	1869.11.21 = {
+		death = yes
+	}
+}

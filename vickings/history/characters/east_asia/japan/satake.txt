@@ -1,0 +1,289 @@
+﻿# Kubota Domain
+# originally descended from japanese_minamoto_seiwa_317 (Satake Hideyoshi)
+# biologically adopted from the Uesugi clan
+satake_0 = {
+	name = "Yoshishige"	# 义重
+	dynasty = satake
+	rite = mantrayana
+	culture = japanese
+	1547.3.7 = {
+		birth = yes
+	}
+	1612.5.19 = {
+		death = yes
+	}
+}
+satake_1 = {
+	name = "Nanigashi"	# 某 - name unknown
+	dynasty = satake
+	rite = mantrayana
+	culture = japanese
+	father = satake_0
+	female = yes
+	1592.1.1 = {	# unknown
+		birth = yes
+	}
+	1664.1.1 = {	# unknown
+		death = yes
+	}
+}
+satake_2 = {
+	name = "Yoshichika"	# 义隣
+	dynasty = satake
+	rite = mantrayana
+	culture = japanese
+	mother = satake_1
+	1619.7.21 = {
+		birth = yes
+	}
+	1702.12.15 = {
+		death = yes
+	}
+}
+satake_3 = {
+	name = "Yoshihide"	# 义秀
+	dynasty = satake
+	rite = mantrayana
+	culture = japanese
+	father = satake_2
+	1646.1.1 = {
+		birth = yes
+	}
+	1721.9.24 = {
+		death = yes
+	}
+}
+satake_4 = {
+	name = "Yoshimoto"	# 义本
+	dynasty = satake
+	rite = mantrayana
+	culture = japanese
+	father = satake_3
+	1675.11.13 = {
+		birth = yes
+	}
+	1752.12.18 = {
+		death = yes
+	}
+}
+satake_5 = {
+	name = "Yoshimichi"	# 义道
+	dynasty = satake
+	rite = mantrayana
+	culture = japanese
+	father = satake_4
+	1702.8.18 = {
+		birth = yes
+	}
+	1765.1.27 = {
+		death = yes
+	}
+}
+satake_6 = {
+	name = "Yoshiharu"	# 义明
+	dynasty = satake
+	rite = mantrayana
+	culture = japanese
+	father = satake_5
+	1723.12.2 = {
+		birth = yes
+	}
+	1758.4.25 = {
+		death = yes
+	}
+}
+satake_7 = {
+	name = "Yoshiatsu"	# 义敦
+	dynasty = satake
+	rite = mantrayana
+	culture = japanese
+	father = satake_6
+	1748.11.24 = {
+		birth = yes
+	}
+	1785.7.6 = {
+		death = yes
+	}
+}
+satake_8 = {
+	name = "Yoshimasa"	# 义和
+	dynasty = satake
+	rite = mantrayana
+	culture = japanese
+	father = satake_7
+	1775.1.31 = {
+		birth = yes
+	}
+	1815.8.12 = {
+		death = yes
+	}
+}
+satake_9 = {
+	name = "Yoshihiro"	# 义厚
+	dynasty = satake
+	rite = mantrayana
+	culture = japanese
+	father = satake_8
+	1812.8.23 = {
+		birth = yes
+	}
+	1846.10.27 = {
+		death = yes
+	}
+}
+satake_10 = {
+	name = "Yoshichika"	# 义睦
+	dynasty = satake
+	rite = mantrayana
+	culture = japanese
+	father = satake_9
+	1839.7.2 = {
+		birth = yes
+	}
+	1857.8.20 = {
+		death = yes
+	}
+}
+satake_11 = {
+	name = "Sadataka"	# 貞隆
+	dynasty = satake	# adopted by Iwaki clan
+	rite = mantrayana
+	culture = japanese
+	father = satake_0
+	1583.1.1 = {
+		birth = yes
+	}
+	1620.11.13 = {
+		death = yes
+	}
+}
+satake_12 = {
+	name = "Yoshitaka"	# 义隆
+	dynasty = satake
+	rite = mantrayana
+	culture = japanese
+	father = satake_11
+	1609.2.18 = {
+		birth = yes
+	}
+	1672.1.4 = {
+		death = yes
+	}
+}
+satake_13 = {
+	name = "Yoshizumi"	# 义処
+	dynasty = satake
+	rite = mantrayana
+	culture = japanese
+	father = satake_12
+	1637.10.9 = {
+		birth = yes
+	}
+	1703.8.5 = {
+		death = yes
+	}
+}
+satake_14 = {
+	name = "Nobutane"	# 叙胤
+	dynasty = satake	# adopted by Sōma clan
+	rite = mantrayana
+	culture = japanese
+	father = satake_13
+	1677.5.5 = {
+		birth = yes
+	}
+	1711.6.6 = {
+		death = yes
+	}
+}
+satake_15 = {
+	name = "Noritane"	# 德胤
+	dynasty = satake	# Sōma
+	rite = mantrayana
+	culture = japanese
+	father = satake_14
+	1702.3.21 = {
+		birth = yes
+	}
+	1752.6.24 = {
+		death = yes
+	}
+}
+satake_16 = {
+	name = "Morotane"	# 恕胤
+	dynasty = satake	# Sōma
+	rite = mantrayana
+	culture = japanese
+	father = satake_15
+	1734.11.29 = {
+		birth = yes
+	}
+	1791.9.11 = {
+		death = yes
+	}
+}
+satake_17 = {
+	name = "Yoshitane"	# 祥胤
+	dynasty = satake	# Sōma
+	rite = mantrayana
+	culture = japanese
+	father = satake_16
+	1765.7.20 = {
+		birth = yes
+	}
+	1816.7.14 = {
+		death = yes
+	}
+}
+satake_18 = {
+	name = "Masutane"	# 益胤
+	dynasty = satake	# Sōma
+	rite = mantrayana
+	culture = japanese
+	father = satake_17
+	1796.2.18 = {
+		birth = yes
+	}
+	1845.7.15 = {
+		death = yes
+	}
+}
+satake_19 = {
+	name = "Yoshitaka"	# 义尧
+	dynasty = satake
+	rite = mantrayana
+	culture = japanese
+	father = satake_18
+	1825.9.9 = {
+		birth = yes
+	}
+	1884.10.23 = {
+		death = yes
+	}
+}
+satake_20 = {
+	name = "Yoshitsuma"	# 义諶
+	dynasty = satake
+	rite = mantrayana
+	culture = japanese
+	father = satake_18
+	1837.2.9 = {
+		birth = yes
+	}
+	1870.5.16 = {
+		death = yes
+	}
+}
+satake_21 = {
+	name = "Yoshinao"	# 义脩
+	dynasty = satake
+	rite = mantrayana
+	culture = japanese
+	father = satake_20
+	1854.7.25 = {
+		birth = yes
+	}
+	1893.12.22 = {
+		death = yes
+	}
+}

@@ -1,0 +1,409 @@
+﻿# Morioka Domain
+nanbu_0 = {
+	name = "Sanemitsu"	# 實光
+	dynasty = nanbu
+	rite = mantrayana
+	culture = japanese
+	father = japanese_minamoto_seiwa_186
+	1181.1.1 = {
+		birth = yes
+	}
+	1255.2.3 = {
+		death = yes
+	}
+}
+nanbu_1 = {
+	name = "Tokizane"	# 时實
+	dynasty = nanbu
+	rite = mantrayana
+	culture = japanese
+	father = nanbu_0
+	1200.1.1 = {	# unknown
+		birth = yes
+	}
+	1270.1.1 = {	# unknown
+		death = yes
+	}
+}
+nanbu_2 = {
+	name = "Yoshimoto"	# 义元
+	dynasty = nanbu
+	rite = mantrayana
+	culture = japanese
+	father = nanbu_1
+	1270.1.1 = {	# unknown
+		birth = yes
+	}
+	1350.7.17 = {
+		death = yes
+	}
+}
+nanbu_3 = {
+	name = "Yoshiyuki"	# 义行
+	dynasty = nanbu
+	rite = mantrayana
+	culture = japanese
+	father = nanbu_2
+	1290.1.1 = {	# unknown
+		birth = yes
+	}
+	1330.1.1 = {	# unknown
+		death = yes
+	}
+}
+nanbu_4 = {
+	name = "Nobunaga"	# 信长
+	dynasty = nanbu
+	rite = mantrayana
+	culture = japanese
+	father = nanbu_3
+	1310.1.1 = {	# unknown
+		birth = yes
+	}
+	1350.1.1 = {	# unknown
+		death = yes
+	}
+}
+nanbu_5 = {
+	name = "Masayuki"	# 政行
+	dynasty = nanbu
+	rite = mantrayana
+	culture = japanese
+	father = nanbu_4
+	1328.1.1 = {
+		birth = yes
+	}
+	1388.11.17 = {
+		death = yes
+	}
+}
+nanbu_6 = {
+	name = "Moriyuki"	# 守行
+	dynasty = nanbu
+	rite = mantrayana
+	culture = japanese
+	father = nanbu_5
+	1359.1.1 = {
+		birth = yes
+	}
+	1437.5.13 = {
+		death = yes
+	}
+}
+nanbu_7 = {
+	name = "Sukemasa"	# 助政
+	dynasty = nanbu
+	rite = mantrayana
+	culture = japanese
+	father = nanbu_6
+	1397.1.1 = {
+		birth = yes
+	}
+	1448.1.1 = {
+		death = yes
+	}
+}
+nanbu_8 = {
+	name = "Nobutoki"	# 信时
+	dynasty = nanbu
+	rite = mantrayana
+	culture = japanese
+	father = nanbu_7
+	1442.1.1 = {
+		birth = yes
+	}
+	1502.1.11 = {
+		death = yes
+	}
+}
+nanbu_9 = {
+	name = "Masayasu"	# 政康
+	dynasty = nanbu
+	rite = mantrayana
+	culture = japanese
+	father = nanbu_8
+	1461.1.1 = {
+		birth = yes
+	}
+	1507.3.23 = {
+		death = yes
+	}
+}
+nanbu_10 = {
+	name = "Takanobu"	# 高信
+	dynasty = nanbu
+	rite = mantrayana
+	culture = japanese
+	father = nanbu_9
+	1495.1.1 = {
+		birth = yes
+	}
+	1571.5.28 = {
+		death = yes
+	}
+}
+nanbu_11 = {
+	name = "Nobunao"	# 信直
+	dynasty = nanbu
+	rite = mantrayana
+	culture = japanese
+	father = nanbu_10
+	1546.4.1 = {
+		birth = yes
+	}
+	1599.11.22 = {
+		death = yes
+	}
+}
+nanbu_12 = {
+	name = "Toshinao"	# 利直
+	dynasty = nanbu
+	rite = mantrayana
+	culture = japanese
+	father = nanbu_11
+	1576.4.13 = {
+		birth = yes
+	}
+	1632.10.1 = {
+		death = yes
+	}
+}
+nanbu_13 = {
+	name = "Shigenobu"	# 重信
+	dynasty = nanbu
+	rite = mantrayana
+	culture = japanese
+	father = nanbu_12
+	1616.6.28 = {
+		birth = yes
+	}
+	1702.7.12 = {
+		death = yes
+	}
+}
+nanbu_14 = {
+	name = "Yukinobu"	# 行信
+	dynasty = nanbu
+	rite = mantrayana
+	culture = japanese
+	father = nanbu_13
+	1642.9.11 = {
+		birth = yes
+	}
+	1702.11.29 = {
+		death = yes
+	}
+}
+nanbu_15 = {
+	name = "Nobuoki"	# 信恩
+	dynasty = nanbu
+	rite = mantrayana
+	culture = japanese
+	father = nanbu_14
+	1678.11.6 = {
+		birth = yes
+	}
+	1707.12.31 = {
+		death = yes
+	}
+}
+nanbu_16 = {
+	name = "Toshimi"	# 利視
+	dynasty = nanbu
+	rite = mantrayana
+	culture = japanese
+	father = nanbu_15
+	1708.6.14 = {
+		birth = yes
+	}
+	1752.5.11 = {
+		death = yes
+	}
+}
+nanbu_17 = {
+	name = "Toshimasa"	# 利正
+	dynasty = nanbu
+	rite = mantrayana
+	culture = japanese
+	father = nanbu_16
+	1752.4.22 = {
+		birth = yes
+	}
+	1784.6.22 = {
+		death = yes
+	}
+}
+nanbu_18 = {
+	name = "Toshitaka"	# 利敬
+	dynasty = nanbu
+	rite = mantrayana
+	culture = japanese
+	father = nanbu_17
+	1782.11.4 = {
+		birth = yes
+	}
+	1820.7.12 = {
+		death = yes
+	}
+}
+nanbu_19 = {
+	name = "Nobuoki"	# 信居
+	dynasty = nanbu
+	rite = mantrayana
+	culture = japanese
+	father = nanbu_16
+	1753.1.1 = {	# unknown
+		birth = yes
+	}
+	1785.1.1 = {	# unknown
+		death = yes
+	}
+}
+nanbu_20 = {
+	name = "Nobusuke"	# 信丞
+	dynasty = nanbu
+	rite = mantrayana
+	culture = japanese
+	father = nanbu_19
+	1770.1.1 = {	# unknown
+		birth = yes
+	}
+	1810.1.1 = {	# unknown
+		death = yes
+	}
+}
+nanbu_21 = {
+	name = "Toshimochi"	# 利用
+	dynasty = nanbu
+	rite = mantrayana
+	culture = japanese
+	father = nanbu_20
+	1808.1.16 = {
+		birth = yes
+	}
+	1821.9.17 = {
+		death = {
+			death_reason = death_snapped_neck_climbing_tree
+		}
+	}
+}
+nanbu_22 = {
+	name = "Nobutoro"	# 信净
+	dynasty = nanbu
+	rite = mantrayana
+	culture = japanese
+	father = nanbu_19
+	1771.1.1 = {	# unknown
+		birth = yes
+	}
+	1811.1.1 = {	# unknown
+		death = yes
+	}
+}
+nanbu_23 = {
+	name = "KitarO_"	# 善太郎
+	dynasty = nanbu
+	rite = mantrayana
+	culture = japanese
+	father = nanbu_22
+	1803.12.19 = {
+		birth = yes
+	}
+	1821.9.17 = {
+		name = "Toshimochi"	# assumed identity of his cousin
+	}
+	1825.8.21 = {
+		death = yes
+	}
+}
+nanbu_24 = {
+	name = "Toshimoto"	# 利幹
+	dynasty = nanbu
+	rite = mantrayana
+	culture = japanese
+	father = nanbu_14
+	1689.3.11 = {
+		birth = yes
+	}
+	1725.7.13 = {
+		death = yes
+	}
+}
+nanbu_25 = {
+	name = "Toshikatsu"	# 利雄
+	dynasty = nanbu
+	rite = mantrayana
+	culture = japanese
+	father = nanbu_24
+	1725.7.20 = {
+		birth = yes
+	}
+	1780.1.11 = {
+		death = yes
+	}
+}
+nanbu_26 = {
+	name = "Toshinori"	# 利謹
+	dynasty = nanbu
+	rite = mantrayana
+	culture = japanese
+	father = nanbu_25
+	1746.9.30 = {
+		birth = yes
+	}
+	1814.12.30 = {
+		death = yes
+	}
+}
+nanbu_27 = {
+	name = "Toshitada"	# 利济
+	dynasty = nanbu
+	rite = mantrayana
+	culture = japanese
+	father = nanbu_26
+	1797.10.18 = {
+		birth = yes
+	}
+	1855.5.29 = {
+		death = yes
+	}
+}
+nanbu_28 = {
+	name = "Toshitomo"	# 利义
+	dynasty = nanbu
+	rite = mantrayana
+	culture = japanese
+	father = nanbu_27
+	1824.1.12 = {
+		birth = yes
+	}
+	1888.8.21 = {
+		death = yes
+	}
+}
+nanbu_29 = {
+	name = "Toshihisa"	# 利刚
+	dynasty = nanbu
+	rite = mantrayana
+	culture = japanese
+	father = nanbu_27
+	1826.1.25 = {
+		birth = yes
+	}
+	1896.10.30 = {
+		death = yes
+	}
+}
+nanbu_30 = {
+	name = "Toshiyuki"	# 利恭
+	dynasty = nanbu
+	rite = mantrayana
+	culture = japanese
+	father = nanbu_29
+	1855.11.18 = {
+		birth = yes
+	}
+	1903.10.9 = {
+		death = yes
+	}
+}

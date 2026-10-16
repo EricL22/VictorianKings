@@ -1,0 +1,67 @@
+﻿# Takada Domain
+# claimed descent from Seiwa Genji via Nitsuki clan
+sakakibara_0 = {
+	name = "Masanori"	# 政令
+	dynasty = sakakibara
+	rite = sukhavati
+	culture = japanese
+	trait = education_stewardship_4
+	1776.4.26 = {
+		birth = yes
+	}
+	1861.8.5 = {
+		death = yes
+	}
+}
+sakakibara_1 = {
+	name = "Masakiyo"	# 政养
+	dynasty = sakakibara
+	rite = sukhavati
+	culture = japanese
+	father = sakakibara_0
+	1798.4.10 = {
+		birth = yes
+	}
+	1846.10.11 = {
+		death = yes
+	}
+}
+sakakibara_2 = {
+	name = "Masachika"	# 政愛
+	dynasty = sakakibara
+	rite = sukhavati
+	culture = japanese
+	father = sakakibara_0
+	1814.2.5 = {
+		birth = yes
+	}
+	1861.9.16 = {
+		death = yes
+	}
+}
+sakakibara_3 = {
+	name = "Masanori"	# 政礼
+	dynasty = sakakibara
+	rite = sukhavati
+	culture = japanese
+	father = sakakibara_0
+	1806.3.30 = {
+		birth = yes
+	}
+	1868.10.29 = {
+		death = yes
+	}
+}
+sakakibara_4 = {
+	name = "Masataka"	# 政敬
+	dynasty = sakakibara
+	rite = sukhavati
+	culture = japanese
+	father = sakakibara_3
+	1843.3.4 = {
+		birth = yes
+	}
+	1927.3.7 = {
+		death = yes
+	}
+}

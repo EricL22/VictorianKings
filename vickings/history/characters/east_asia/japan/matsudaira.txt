@@ -120,6 +120,7 @@ matsudaira_10 = {
 	dynasty_house = house_matsudaira_honjo
 	rite = mantrayana
 	culture = japanese
+	father = matsudaira_111
 	1749.12.8 = {
 		birth = yes
 	}
@@ -937,6 +938,73 @@ matsudaira_101 = {
 		birth = yes
 	}
 	1838.12.4 = {
+		death = yes
+	}
+}
+####################
+
+## Other Ōkōchi
+matsudaira_110 = {
+	name = "Nobutoki"	# 信祝
+	dynasty_house = house_matsudaira_okochi
+	rite = mantrayana
+	culture = japanese
+	1683.12.23 = {
+		birth = yes
+	}
+	1744.5.29 = {
+		death = yes
+	}
+}
+matsudaira_111 = {
+	name = "Masaharu"	# 正温
+	dynasty_house = house_matsudaira_okochi
+	rite = mantrayana
+	culture = japanese
+	father = matsudaira_110
+	1725.4.2 = {
+		birth = yes
+	}
+	1782.12.6 = {
+		death = yes
+	}
+}
+matsudaira_112 = {
+	name = "Nobunao"	# 信复
+	dynasty_house = house_matsudaira_okochi
+	rite = mantrayana
+	culture = japanese
+	father = matsudaira_110
+	1719.5.22 = {
+		birth = yes
+	}
+	1768.10.29 = {
+		death = yes
+	}
+}
+matsudaira_113 = {
+	name = "Nobuuya"	# 信礼
+	dynasty_house = house_matsudaira_okochi
+	rite = mantrayana
+	culture = japanese
+	father = matsudaira_112
+	1737.9.5 = {
+		birth = yes
+	}
+	1770.7.8 = {
+		death = yes
+	}
+}
+matsudaira_114 = {
+	name = "Nobuakira"	# 信明
+	dynasty_house = house_matsudaira_okochi
+	rite = mantrayana
+	culture = japanese
+	father = matsudaira_113
+	1763.3.24 = {
+		birth = yes
+	}
+	1817.9.26 = {
 		death = yes
 	}
 }

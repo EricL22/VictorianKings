@@ -1,0 +1,53 @@
+﻿# Ogaki Domain
+# claimed descent from japanese_minamoto_seiwa_6 (Minamoto no Yoshiie) or japanese_fujiwara_654 (Sanjō Sanefusa)
+toda_0 = {
+	name = "Ujitsune"	# 氏庸
+	dynasty = toda
+	rite = mantrayana
+	culture = japanese
+	1780.5.6 = {
+		birth = yes
+	}
+	1841.5.9 = {
+		death = yes
+	}
+}
+toda_1 = {
+	name = "Ujimasa"	# 氏正
+	dynasty = toda
+	rite = mantrayana
+	culture = japanese
+	father = toda_0
+	1814.1.9 = {
+		birth = yes
+	}
+	1876.6.28 = {
+		death = yes
+	}
+}
+toda_2 = {
+	name = "Ujiakira"	# 氏彬
+	dynasty = toda
+	rite = mantrayana
+	culture = japanese
+	father = toda_1
+	1831.6.20 = {
+		birth = yes
+	}
+	1865.9.27 = {
+		death = yes
+	}
+}
+toda_3 = {
+	name = "Ujitaka"	# 氏共
+	dynasty = toda
+	rite = mantrayana
+	culture = japanese
+	father = toda_1
+	1854.7.23 = {
+		birth = yes
+	}
+	1936.2.17 = {
+		death = yes
+	}
+}
