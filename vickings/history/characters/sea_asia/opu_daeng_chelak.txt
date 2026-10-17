@@ -1,0 +1,97 @@
+﻿# Selangor Sultanate
+opu_daeng_chelak_0 = {
+	name = "Salehuddin"
+	dynasty = opu_daeng_chelak
+	rite = shafii
+	culture = malay
+	1705.1.1 = {
+		birth = yes
+	}
+	1782.1.1 = {
+		death = yes
+	}
+}
+
+opu_daeng_chelak_1 = {
+	name = "Ibrahim"
+	dynasty = opu_daeng_chelak
+	rite = shafii
+	culture = malay
+	father = opu_daeng_chelak_0
+	1736.1.1 = {
+		birth = yes
+	}
+	1826.10.27 = {
+		death = yes
+	}
+}
+
+opu_daeng_chelak_2 = {
+	name = "Muhammad"
+	dynasty = opu_daeng_chelak
+	rite = shafii
+	culture = malay
+	father = opu_daeng_chelak_1
+	1772.1.1 = {
+		birth = yes
+	}
+	1857.1.6 = {
+		death = yes
+	}
+}
+
+opu_daeng_chelak_3 = {
+	name = "Bendahara Abdullah"
+	dynasty = opu_daeng_chelak
+	rite = shafii
+	culture = malay
+	father = opu_daeng_chelak_1
+	1780.1.1 = {	# unknown
+		birth = yes
+	}
+	1826.1.1 = {
+		death = yes
+	}
+}
+
+opu_daeng_chelak_4 = {
+	name = "Abdul Samad"
+	dynasty = opu_daeng_chelak
+	rite = shafii
+	culture = malay
+	father = opu_daeng_chelak_3
+	1804.1.1 = {
+		birth = yes
+	}
+	1898.2.6 = {
+		death = yes
+	}
+}
+
+opu_daeng_chelak_5 = {
+	name = "Muda Musa"
+	dynasty = opu_daeng_chelak
+	rite = shafii
+	culture = malay
+	father = opu_daeng_chelak_4
+	1844.1.1 = {
+		birth = yes
+	}
+	1884.1.1 = {
+		death = yes
+	}
+}
+
+opu_daeng_chelak_6 = {
+	name = "Sulaiman"
+	dynasty = opu_daeng_chelak
+	rite = shafii
+	culture = malay
+	father = opu_daeng_chelak_5
+	1863.9.11 = {
+		birth = yes
+	}
+	1938.3.31 = {
+		death = yes
+	}
+}

@@ -1,0 +1,152 @@
+﻿long_yunus_0 = {
+	name = "Long Yunus"
+	dynasty = long_yunus
+	rite = shafii
+	culture = malay
+	1720.1.1 = {	# unknown
+		birth = yes
+	}
+	1795.7.15 = {
+		death = yes
+	}
+}
+
+long_yunus_1 = {
+	name = "Muhammad"	# I of Kelantan
+	dynasty = long_yunus
+	rite = shafii
+	culture = malay
+	father = long_yunus_0
+	1742.1.1 = {	# or 1776, depending on the source
+		birth = yes
+	}
+	1835.1.26 = {
+		death = yes
+	}
+}
+
+long_yunus_2 = {
+	name = "Long Zainal"
+	dynasty = long_yunus
+	rite = shafii
+	culture = malay
+	father = long_yunus_0
+	1760.1.1 = {	# unknown
+		birth = yes
+	}
+	1845.1.1 = {
+		death = yes
+	}
+}
+
+long_yunus_3 = {
+	name = "Long Tan"
+	dynasty = long_yunus
+	rite = shafii
+	culture = malay
+	father = long_yunus_0
+	1740.1.1 = {	# unknown
+		birth = yes
+	}
+	1800.1.1 = {	# unknown
+		death = yes
+	}
+}
+
+long_yunus_4 = {
+	name = "Muhammad"	# II of Kelantan
+	dynasty = long_yunus
+	rite = shafii
+	culture = malay
+	father = long_yunus_3
+	1794.1.1 = {
+		birth = yes
+	}
+	1886.10.30 = {
+		death = yes
+	}
+}
+
+long_yunus_5 = {
+	name = "Ahmad"
+	dynasty = long_yunus
+	rite = shafii
+	culture = malay
+	father = long_yunus_4
+	1820.1.1 = {	# unknown
+		birth = yes
+	}
+	1890.3.8 = {
+		death = yes
+	}
+}
+
+long_yunus_6 = {
+	name = "Muhammad"	# III of Kelantan
+	dynasty = long_yunus
+	rite = shafii
+	culture = malay
+	father = long_yunus_5
+	1845.1.1 = {
+		birth = yes
+	}
+	1891.5.11 = {
+		death = yes
+	}
+}
+
+long_yunus_7 = {
+	name = "Mansur"
+	dynasty = long_yunus
+	rite = shafii
+	culture = malay
+	father = long_yunus_5
+	1870.1.1 = {
+		birth = yes
+	}
+	1900.2.9 = {
+		death = yes
+	}
+}
+
+long_yunus_8 = {
+	name = "Muhammad"	# IV of Kelantan
+	dynasty = long_yunus
+	rite = shafii
+	culture = malay
+	father = long_yunus_6
+	1870.5.23 = {
+		birth = yes
+	}
+	1920.12.23 = {
+		death = yes
+	}
+}
+
+long_yunus_9 = {
+	name = "Ismail"
+	dynasty = long_yunus
+	rite = shafii
+	culture = malay
+	father = long_yunus_8
+	1880.8.20 = {
+		birth = yes
+	}
+	1944.6.20 = {
+		death = yes
+	}
+}
+
+long_yunus_10 = {
+	name = "Ibrahim"
+	dynasty = long_yunus
+	rite = shafii
+	culture = malay
+	father = long_yunus_8
+	1897.10.9 = {
+		birth = yes
+	}
+	1960.7.9 = {
+		death = yes
+	}
+}

@@ -200,3 +200,15 @@ chalmers = {
 	name = "dynn_Chalmers"
 	culture = "english"
 }
+raffles = {
+	name = "dynn_Raffles"
+	culture = "english"
+}
+baud = {
+	name = "dynn_Baud"
+	culture = "dutch"
+}
+pahud = {
+	name = "dynn_Pahud"
+	culture = "dutch"
+}

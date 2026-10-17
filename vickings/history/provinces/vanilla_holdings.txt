@@ -9,3 +9,15 @@
 		holding = temple_citadel_holding
 	}
 }
+#c_singapore
+11398 = {	#b_MAL_Johor
+	1800.1.1 = {
+		holding = castle_holding
+	}
+}
+#c_MAL_sungei_ujong
+11422 = {	#b_MAL_Sungei_Ujong
+	1800.1.1 = {
+		holding = castle_holding
+	}
+}

@@ -95,6 +95,10 @@
  k_champasak:0 "Champasak"
  cambodia: "Cambodia"
 
+ k_dutch_east_indies_article: "the "
+ k_dutch_east_indies: "Dutch East Indies"
+ k_dutch_east_indies_adj: "Dutch"
+
  senegal: "Senegal"
  senegal_adj: "Senegalese"
 
@@ -120,6 +124,9 @@
  c_kanggye:0 "Kanggye"
 
  c_battambang:0 "$b_battambang$"
+
+ c_MAL_sungei_ujong: "$b_MAL_Sungei_Ujong$"
+ c_singapore: "Singapore"
 
  cn_joseon: "Joseon"
 

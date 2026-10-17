@@ -296,6 +296,7 @@ k_sokoto = {
 	color = { 0 135 81 }
 
 	capital = c_sokoto
+	ignore_titularity_for_title_weighting = yes
 	
 	ai_primary_priority = {
 		add = @always_primary_score
@@ -351,4 +352,12 @@ k_champasak = {
 	color = { 30 80 280 }
 
 	capital = c_prea_vihear
+}
+
+k_dutch_east_indies = {
+	color = { 20 80 80 }
+	
+	capital = c_JAV_sunda
+	definite_form = yes
+	ignore_titularity_for_title_weighting = yes
 }

@@ -90,17 +90,17 @@ shatter_tribals_at_game_start_effect = {
 				change = scope:change
 			}
 			resolve_title_and_vassal_change = scope:change
-			scope:backup_character = {
-				if = {
-					limit = {
-						NOR = {
-							has_government = tribal_government
-							has_government = wanua_government
-						}
-					}
-					change_government = tribal_government
-				}
-			}
+		#	scope:backup_character = {
+		#		if = {
+		#			limit = {
+		#				NOR = {
+		#					has_government = tribal_government
+		#					has_government = wanua_government
+		#				}
+		#			}
+		#			change_government = tribal_government
+		#		}
+		#	}
 		}
 		death = natural
 	}
@@ -134,6 +134,12 @@ vk_setup_tributaries_effect = {
 			limit = { current_date < 1914.7.28 }
 			tgp_pre_1914_tributary_setup_effect = yes
 		}
+	}
+	if = {
+		limit = {
+			current_date > 1812.7.5
+		}
+		base_post_1812_tributary_setup_effect = yes
 	}
    	if = {
 		limit = {
@@ -178,6 +184,14 @@ tgp_pre_1914_tributary_setup_effect = {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 		title:k_champasak.holder = {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
+}
+base_post_1812_tributary_setup_effect = {
+	title:k_frisia.holder = {
+		save_scope_as = suzerain
+		title:k_dutch_east_indies.holder = {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 	}

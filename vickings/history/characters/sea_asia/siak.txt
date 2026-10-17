@@ -1,0 +1,125 @@
+﻿# Sultanate of Siak Sri Indrapura
+siak_0 = {
+	name = "Osman"
+	dynasty = siak
+	rite = shafii
+	culture = malay
+	1720.1.1 = {	# unknown
+		birth = yes
+	}
+	1780.1.1 = {	# unknown
+		death = yes
+	}
+}
+
+siak_1 = {
+	name = "Ali"
+	dynasty = siak
+	rite = shafii
+	culture = malay
+	father = siak_0
+	1755.1.1 = {	# unknown
+		birth = yes
+	}
+	1811.1.1 = {
+		death = yes
+	}
+}
+
+siak_2 = {
+	name = "Ibrahim"
+	dynasty = siak
+	rite = shafii
+	culture = malay
+	father = siak_1
+	1780.1.1 = {	# unknown
+		birth = yes
+	}
+	1827.1.1 = {
+		death = yes
+	}
+}
+
+siak_3 = {
+	name = "Ahmad"
+	dynasty = siak
+	rite = shafii
+	culture = malay
+	father = siak_0
+	1760.1.1 = {	# unknown
+		birth = yes
+	}
+	1820.1.1 = {	# unknown
+		death = yes
+	}
+}
+
+siak_4 = {
+	name = "Muhammad"
+	dynasty = siak
+	rite = shafii
+	culture = malay
+	father = siak_3
+	1790.1.1 = {	# unknown
+		birth = yes
+	}
+	1840.1.1 = {	# unknown
+		death = yes
+	}
+}
+
+siak_5 = {
+	name = "Ismail"
+	dynasty = siak
+	rite = shafii
+	culture = malay
+	father = siak_4
+	1810.1.1 = {	# unknown
+		birth = yes
+	}
+	1864.1.1 = {
+		death = yes
+	}
+}
+
+siak_6 = {
+	name = "Kasim"	# I of Siak
+	dynasty = siak
+	rite = shafii
+	culture = malay
+	father = siak_4
+	1825.1.1 = {	# unknown
+		birth = yes
+	}
+	1889.1.1 = {
+		death = yes
+	}
+}
+
+siak_7 = {
+	name = "Hasyim"
+	dynasty = siak
+	rite = shafii
+	culture = malay
+	father = siak_6
+	1850.1.1 = {	# unknown
+		birth = yes
+	}
+	1908.4.2 = {
+		death = yes
+	}
+}
+
+siak_8 = {
+	name = "Kasim"	# II of Siak
+	dynasty = siak
+	rite = shafii
+	culture = malay
+	father = siak_7
+	1893.12.1 = {
+		birth = yes
+	}
+	1968.4.23 = {
+		death = yes
+	}
+}

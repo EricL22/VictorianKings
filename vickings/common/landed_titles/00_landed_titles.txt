@@ -77204,16 +77204,8 @@ e_srivijaya = {
 
 					color = { 30 112 121 }
 				}
-				b_MAL_Bujang = {
-					province = 11418
-
-					color = { 21 135 134 }
-				}
-				b_MAL_Bukit_Batu_Pahat = {
-					province = 11419
-
-					color = { 57 149 132 }
-				}
+				# b_MAL_Bujang moved to c_MAL_gangganegara
+				# b_MAL_Bukit_Batu_Pahat moved to c_MAL_gangganegara
 			}
 
 			c_THAI_tambralinga = {
@@ -77325,11 +77317,6 @@ e_srivijaya = {
 			c_MAL_johor = {
 				color = { 0 91 179 }
 
-				b_MAL_Tumasik = {
-					province = 11397
-
-					color = { 22 104 138 }
-				}
 				b_MAL_Johor = {
 					province = 11398
 
@@ -77339,6 +77326,16 @@ e_srivijaya = {
 					province = 11399
 
 					color = { 0 103 199 }
+				}
+			}
+
+			c_singapore = {	# CHANGED: split from Johor
+				color = { 0 91 179 }
+
+				b_MAL_Tumasik = {
+					province = 11397
+
+					color = { 22 104 138 }
 				}
 			}
 
@@ -77362,15 +77359,30 @@ e_srivijaya = {
 
 					color = { 39 107 132 }
 				}
-				b_MAL_Kelang = {
-					province = 11421
+				b_MAL_Bujang = {	# CHANGED: moved from c_MAL_kedah
+					province = 11418
 
-					color = { 29 88 146 }
+					color = { 21 135 134 }
 				}
+				b_MAL_Bukit_Batu_Pahat = {	# CHANGED: moved from c_MAL_kedah
+					province = 11419
+
+					color = { 57 149 132 }
+				}
+			}
+
+			c_MAL_sungei_ujong = {	# CHANGED: split from Gangganegara
+				color = { 0 105 193 }
+
 				b_MAL_Sungei_Ujong = {
 					province = 11422
 
 					color = { 0 105 193 }
+				}
+				b_MAL_Kelang = {
+					province = 11421
+
+					color = { 29 88 146 }
 				}
 			}
 

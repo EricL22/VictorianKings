@@ -2703,7 +2703,7 @@
 		rite = reformed_rite
 	}
 }
-2053 = {
+2054 = {
 	1800.1.1 = {
 		culture = swabian
 		rite = reformed_rite
@@ -3856,16 +3856,16 @@
 		culture = swabian
 	}
 }
-2757 = {
-	1800.1.1 = {
-		culture = swabian
-		rite = roman_rite
-	}
-}
 2759 = {
 	1800.1.1 = {
 		culture = swabian
 		rite = lutheran_rite
+	}
+}
+2762 = {
+	1800.1.1 = {
+		culture = swabian
+		rite = roman_rite
 	}
 }
 2763 = {
@@ -8486,6 +8486,61 @@
 		rite = reformed_rite
 	}
 }
+11397 = {
+	1800.1.1 = {
+		culture = malay
+		rite = shafii
+	}
+}
+11398 = {
+	1800.1.1 = {
+		culture = malay
+		rite = shafii
+	}
+}
+11402 = {
+	1800.1.1 = {
+		culture = malay
+		rite = shafii
+	}
+}
+11406 = {
+	1800.1.1 = {
+		rite = shafii
+	}
+}
+11408 = {
+	1800.1.1 = {
+		rite = shafii
+	}
+}
+11412 = {
+	1800.1.1 = {
+		rite = shafii
+	}
+}
+11414 = {
+	1800.1.1 = {
+		rite = shafii
+	}
+}
+11417 = {
+	1800.1.1 = {
+		rite = shafii
+	}
+}
+11420 = {
+	1800.1.1 = {
+		culture = senoi
+		rite = shafii
+	}
+}
+11422 = {
+	1800.1.1 = {
+		culture = senoi
+		rite = shafii
+	}
+}
 11432 = {
 	1800.1.1 = {
 		rite = theravada
@@ -9117,6 +9172,11 @@
 12512 = {
 	1800.1.1 = {
 		rite = theravada
+	}
+}
+12526 = {
+	1800.1.1 = {
+		rite = shafii
 	}
 }
 12572 = {

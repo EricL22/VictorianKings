@@ -1,0 +1,97 @@
+﻿# house of Wajoq-Aceh
+aceh_0 = {
+	name = "Jauhar ul-Alam"
+	# dynasty = aceh
+	rite = shafii
+	culture = acehnese
+	1786.1.1 = {
+		birth = yes
+	}
+	1823.12.1 = {
+		death = yes
+	}
+}
+
+aceh_1 = {
+	name = "Muhammad Da'ud"	# I of Aceh
+	# dynasty = aceh
+	rite = shafii
+	culture = acehnese
+	father = aceh_0
+	1802.1.1 = {
+		birth = yes
+	}
+	1838.1.1 = {
+		death = yes
+	}
+}
+
+aceh_2 = {
+	name = "Sulaiman"
+	# dynasty = aceh
+	rite = shafii
+	culture = acehnese
+	father = aceh_1
+	1820.1.1 = {	# unknown
+		birth = yes
+	}
+	1857.1.1 = {
+		death = yes
+	}
+}
+
+aceh_3 = {
+	name = "Ibrahim Mansur"
+	# dynasty = aceh
+	rite = shafii
+	culture = acehnese
+	father = aceh_0
+	1808.1.1 = {
+		birth = yes
+	}
+	1870.1.1 = {
+		death = yes
+	}
+}
+
+aceh_4 = {
+	name = "Mahmud"	# II of Aceh
+	# dynasty = aceh
+	rite = shafii
+	culture = acehnese
+	father = aceh_2
+	1840.1.1 = {	# unknown
+		birth = yes
+	}
+	1874.1.28 = {
+		death = yes
+	}
+}
+
+aceh_5 = {
+	name = "Tuanku Zainul"
+	# dynasty = aceh
+	rite = shafii
+	culture = acehnese
+	father = aceh_3
+	1840.1.1 = {	# unknown
+		birth = yes
+	}
+	1870.1.1 = {	# unknown
+		death = yes
+	}
+}
+
+aceh_6 = {
+	name = "Muhammad Da'ud"	# II of Aceh
+	# dynasty = aceh
+	rite = shafii
+	culture = acehnese
+	father = aceh_5
+	1864.1.1 = {
+		birth = yes
+	}
+	1939.2.6 = {
+		death = yes
+	}
+}

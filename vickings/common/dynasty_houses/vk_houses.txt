@@ -173,3 +173,8 @@ house_matsudaira_okochi = {
 	name = "dynn_O_kO_chi"
 	dynasty = matsudaira
 }
+
+house_temenggong = {
+	name = "dynn_Temenggong"
+	dynasty = bendahara
+}

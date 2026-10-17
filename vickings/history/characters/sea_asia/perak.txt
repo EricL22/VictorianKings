@@ -1,0 +1,195 @@
+﻿# house of Siak-Perak
+perak_0 = {
+	name = "Ahmaddin"
+	dynasty = perak
+	rite = shafii
+	culture = malay
+	1740.1.1 = {	# unknown
+		birth = yes
+	}
+	1806.1.1 = {
+		death = yes
+	}
+}
+
+perak_1 = {
+	name = "Abdul Malik"
+	dynasty = perak
+	rite = shafii
+	culture = malay
+	father = perak_0
+	1760.1.1 = {	# unknown
+		birth = yes
+	}
+	1825.8.18 = {
+		death = yes
+	}
+}
+
+perak_2 = {
+	name = "Abdullah Mu'azzam"
+	dynasty = perak
+	rite = shafii
+	culture = malay
+	father = perak_1
+	1780.1.1 = {	# unknown
+		birth = yes
+	}
+	1830.12.20 = {
+		death = yes
+	}
+}
+
+perak_3 = {
+	name = "Inu Muhammad"
+	dynasty = perak
+	rite = shafii
+	culture = malay
+	father = perak_0
+	1770.1.1 = {	# unknown
+		birth = yes
+	}
+	1830.1.1 = {	# unknown
+		death = yes
+	}
+}
+
+perak_4 = {
+	name = "Shahabuddin"
+	dynasty = perak
+	rite = shafii
+	culture = malay
+	father = perak_3
+	1790.1.1 = {	# unknown
+		birth = yes
+	}
+	1851.1.1 = {
+		death = yes
+	}
+}
+
+perak_5 = {
+	name = "Abdul_Rahman"
+	dynasty = perak
+	rite = shafii
+	culture = malay
+	father = perak_0
+	1780.1.1 = {	# unknown
+		birth = yes
+	}
+	1850.1.1 = {	# unknown
+		death = yes
+	}
+}
+
+perak_6 = {
+	name = "Abdullah Muhammad"	# I of Perak
+	dynasty = perak
+	rite = shafii
+	culture = malay
+	father = perak_5
+	1800.1.1 = {	# unknown
+		birth = yes
+	}
+	1857.1.1 = {
+		death = yes
+	}
+}
+
+perak_7 = {
+	name = "Ahmad"
+	dynasty = perak
+	rite = shafii
+	culture = malay
+	father = perak_1
+	1790.1.1 = {	# unknown
+		birth = yes
+	}
+	1850.1.1 = {	# unknown
+		death = yes
+	}
+}
+
+perak_8 = {
+	name = "Ja'afar Mu'azzam"
+	dynasty = perak
+	rite = shafii
+	culture = malay
+	father = perak_7
+	1810.1.1 = {	# unknown
+		birth = yes
+	}
+	1865.3.20 = {
+		death = yes
+	}
+}
+
+perak_9 = {
+	name = "Ali Al-Mukammal"
+	dynasty = perak
+	rite = shafii
+	culture = malay
+	father = perak_4
+	1810.1.1 = {	# unknown
+		birth = yes
+	}
+	1871.5.25 = {
+		death = yes
+	}
+}
+
+perak_10 = {
+	name = "Abdullah Muhammad"	# II of Perak
+	dynasty = perak
+	rite = shafii
+	culture = malay
+	father = perak_8
+	1842.9.21 = {
+		birth = yes
+	}
+	1922.12.22 = {
+		death = yes
+	}
+}
+
+perak_11 = {
+	name = "Yusuf Sharifuddin"
+	dynasty = perak
+	rite = shafii
+	culture = malay
+	father = perak_6
+	1830.1.1 = {
+		birth = yes
+	}
+	1887.7.26 = {
+		death = yes
+	}
+}
+
+perak_12 = {
+	name = "Alang Iskandar"
+	dynasty = perak
+	rite = shafii
+	culture = malay
+	father = perak_7
+	1820.1.1 = {	# unknown
+		birth = yes
+	}
+	1880.1.1 = {	# unknown
+		death = yes
+	}
+}
+
+perak_13 = {
+	name = "Idris"	# I of Perak
+	dynasty = perak
+	rite = shafii
+	culture = malay
+	father = perak_12
+	1849.6.19 = {
+		birth = yes
+	}
+	1916.1.14 = {
+		death = yes
+	}
+}

@@ -1,0 +1,365 @@
+d_SUM_palembang = {
+	1804.4.12 = {	# Palembang
+		holder = azmatkhan_1	# Mahmud Badaruddin II
+	}
+	# 1823: Dutch East Indies
+	1833.7.2 = {
+		holder = dutch_east_indies_0	# Jean Chrétien Baud
+	}
+	1856.5.22 = {
+		holder = dutch_east_indies_1	# Charles Ferdinand Pahud
+	}
+}
+c_SUM_palembang = {
+	1804.4.12 = {	# Palembang
+		holder = azmatkhan_1	# Mahmud Badaruddin II
+	}
+	# 1823: Dutch East Indies
+	1833.7.2 = {
+		holder = dutch_east_indies_0	# Jean Chrétien Baud
+	}
+	1856.5.22 = {
+		holder = dutch_east_indies_1	# Charles Ferdinand Pahud
+	}
+}
+c_SUM_lampung = {
+	1811.9.18 = {
+		holder = british_east_indies_0	# Stamford Raffles
+	}
+	1833.7.2 = {
+		holder = dutch_east_indies_0	# Jean Chrétien Baud
+	}
+	1856.5.22 = {
+		holder = dutch_east_indies_1	# Charles Ferdinand Pahud
+	}
+}
+c_SUM_bangka-belitung = {
+	1811.9.18 = {
+		holder = british_east_indies_0	# Stamford Raffles
+	}
+	1833.7.2 = {
+		holder = dutch_east_indies_0	# Jean Chrétien Baud
+	}
+	1856.5.22 = {
+		holder = dutch_east_indies_1	# Charles Ferdinand Pahud
+	}
+}
+c_SUM_pasemah = {
+	1804.4.12 = {	# Palembang
+		holder = azmatkhan_1	# Mahmud Badaruddin II
+	}
+	# 1823: Dutch East Indies
+	1833.7.2 = {
+		holder = dutch_east_indies_0	# Jean Chrétien Baud
+	}
+	1856.5.22 = {
+		holder = dutch_east_indies_1	# Charles Ferdinand Pahud
+	}
+}
+c_SUM_east_sumatra = {
+	1804.4.12 = {	# Palembang
+		holder = azmatkhan_1	# Mahmud Badaruddin II
+	}
+	# 1823: Dutch East Indies
+	1833.7.2 = {
+		holder = dutch_east_indies_0	# Jean Chrétien Baud
+	}
+	1856.5.22 = {
+		holder = dutch_east_indies_1	# Charles Ferdinand Pahud
+	}
+}
+d_SUM_jambi = {
+	1812.1.1 = {
+		holder = jambi_0	# Agung Seri Ingologo
+	}
+	1833.1.1 = {
+		holder = jambi_1	# Muhammad Fakhruddin
+	}
+	1835.1.1 = {
+		liege = k_dutch_east_indies
+	}
+	1841.1.1 = {
+		holder = jambi_2	# Abdul Rahman Nazaruddin
+	}
+	1855.1.1 = {
+		holder = jambi_3	# Thaha Syaifuddin
+	}
+	1858.11.2 = {
+		holder = jambi_4	# Ahmad Nazaruddin
+	}
+}
+c_SUM_jambi = {
+	1812.1.1 = {
+		holder = jambi_0	# Agung Seri Ingologo
+	}
+	1833.1.1 = {
+		holder = jambi_1	# Muhammad Fakhruddin
+	}
+	1858.11.2 = {
+		holder = jambi_4	# Ahmad Nazaruddin
+	}
+}
+c_SUM_dharmasraya = {
+	1812.1.1 = {
+		holder = jambi_0	# Agung Seri Ingologo
+	}
+	1833.1.1 = {
+		holder = jambi_1	# Muhammad Fakhruddin
+	}
+	1858.11.2 = {
+		holder = jambi_4	# Ahmad Nazaruddin
+	}
+}
+c_SUM_indragiri = {
+	1811.1.1 = {
+		holder = siak_2	# Ibrahim
+	}
+	1827.1.1 = {
+		holder = siak_5	# Ismail
+	}
+	1908.4.2 = {
+		holder = siak_8	# Kasim II
+	}
+}
+c_SUM_lingga = {
+	1811.1.1 = {
+		holder = bendahara_10	# Abdul Rahman Muazzam Shah
+	}
+	1832.8.9 = {
+		holder = bendahara_11	# Muhammad II Muazzam Shah
+	}
+	1857.10.7 = {
+		holder = bendahara_13	# Sulaiman II Badrul Alam Shah
+	}
+}
+c_SUM_karang_brahi = {
+	1812.1.1 = {
+		holder = jambi_0	# Agung Seri Ingologo
+	}
+	1833.1.1 = {
+		holder = jambi_1	# Muhammad Fakhruddin
+	}
+	1858.11.2 = {
+		holder = jambi_4	# Ahmad Nazaruddin
+	}
+}
+d_SUM_riau = {
+	1791.1.1 = {
+		holder = siak_1	# Ali
+	}
+	1811.1.1 = {
+		holder = siak_2	# Ibrahim
+	}
+	1827.1.1 = {
+		holder = siak_5	# Ismail
+	}
+	1864.1.1 = {
+		holder = siak_6	# Kasim I
+	}
+	1889.1.1 = {
+		holder = siak_7	# Hasyim
+	}
+	1908.4.2 = {
+		holder = siak_8	# Kasim II
+	}
+}
+c_SUM_muara_takus = {
+	1811.1.1 = {
+		holder = siak_2	# Ibrahim
+	}
+	1827.1.1 = {
+		holder = siak_5	# Ismail
+	}
+	1908.4.2 = {
+		holder = siak_8	# Kasim II
+	}
+}
+c_SUM_kampar = {
+	1811.1.1 = {
+		holder = siak_2	# Ibrahim
+	}
+	1827.1.1 = {
+		holder = siak_5	# Ismail
+	}
+	1908.4.2 = {
+		holder = siak_8	# Kasim II
+	}
+}
+c_SUM_rokan = {
+	1811.1.1 = {
+		holder = siak_2	# Ibrahim
+	}
+	1827.1.1 = {
+		holder = siak_5	# Ismail
+	}
+	1908.4.2 = {
+		holder = siak_8	# Kasim II
+	}
+}
+c_SUM_pekanbaru = {
+	1811.1.1 = {
+		holder = siak_2	# Ibrahim
+	}
+	1827.1.1 = {
+		holder = siak_5	# Ismail
+	}
+	1908.4.2 = {
+		holder = siak_8	# Kasim II
+	}
+}
+c_SUM_meranti = {
+	1811.1.1 = {
+		holder = siak_2	# Ibrahim
+	}
+	1827.1.1 = {
+		holder = siak_5	# Ismail
+	}
+	1908.4.2 = {
+		holder = siak_8	# Kasim II
+	}
+}
+d_SUM_aceh = {
+	1795.1.1 = {
+		holder = aceh_0	# Jauhar ul-Alam Syah
+	}
+	1823.12.1 = {
+		holder = aceh_1	# Muhammad Da'ud Syah I
+	}
+	1838.1.1 = {
+		holder = aceh_2	# Sulaiman Ali Iskandar Syah
+	}
+	1857.1.1 = {
+		holder = aceh_3	# Ibrahim Mansur Syah
+	}
+}
+c_SUM_lambri = {
+	1795.1.1 = {
+		holder = aceh_0	# Jauhar ul-Alam Syah
+	}
+	1823.12.1 = {
+		holder = aceh_1	# Muhammad Da'ud Syah I
+	}
+	1857.1.1 = {
+		holder = aceh_3	# Ibrahim Mansur Syah
+	}
+}
+c_SUM_barus = {
+	1795.1.1 = {
+		holder = aceh_0	# Jauhar ul-Alam Syah
+	}
+	1823.12.1 = {
+		holder = aceh_1	# Muhammad Da'ud Syah I
+	}
+	1857.1.1 = {
+		holder = aceh_3	# Ibrahim Mansur Syah
+	}
+}
+c_SUM_panai = {
+	1795.1.1 = {
+		holder = aceh_0	# Jauhar ul-Alam Syah
+	}
+	1823.12.1 = {
+		holder = aceh_1	# Muhammad Da'ud Syah I
+	}
+	1857.1.1 = {
+		holder = aceh_3	# Ibrahim Mansur Syah
+	}
+}
+c_SUM_perlak = {
+	1795.1.1 = {
+		holder = aceh_0	# Jauhar ul-Alam Syah
+	}
+	1823.12.1 = {
+		holder = aceh_1	# Muhammad Da'ud Syah I
+	}
+	1857.1.1 = {
+		holder = aceh_3	# Ibrahim Mansur Syah
+	}
+}
+#d_SUM_minangkabau = {
+#}
+c_SUM_minangkabau = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	# 1838: Netherlands
+	1856.5.22 = {
+		holder = dutch_east_indies_1	# Charles Ferdinand Pahud
+	}
+}
+c_SUM_bengkulu = {
+	1811.9.18 = {
+		holder = british_east_indies_0	# Stamford Raffles
+	}
+	1833.7.2 = {
+		holder = dutch_east_indies_0	# Jean Chrétien Baud
+	}
+	1856.5.22 = {
+		holder = dutch_east_indies_1	# Charles Ferdinand Pahud
+	}
+}
+c_SUM_riak_nan_berbedur = {
+	1811.9.18 = {
+		holder = british_east_indies_0	# Stamford Raffles
+	}
+	1833.7.2 = {
+		holder = dutch_east_indies_0	# Jean Chrétien Baud
+	}
+	1856.5.22 = {
+		holder = dutch_east_indies_1	# Charles Ferdinand Pahud
+	}
+}
+#d_nias = {
+#}
+c_nias = {
+	1795.1.1 = {
+		holder = aceh_0	# Jauhar ul-Alam Syah
+	}
+	1823.12.1 = {
+		holder = aceh_1	# Muhammad Da'ud Syah I
+	}
+	1857.1.1 = {
+		holder = aceh_3	# Ibrahim Mansur Syah
+	}
+}
+c_mentawai = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+}
+#d_handumans = {
+#}
+c_andamans = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1858.11.1 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_nakkavaram = {
+	1808.3.13 = {	# Denmark
+		holder = oldenburg_15	# Frederick VI
+	}
+	1839.12.3 = {
+		holder = oldenburg_17	# Christian VIII
+	}
+	1848.1.20 = {
+		holder = oldenburg_18	# Frederick VII
+	}
+	1863.11.15 = {
+		holder = oldenburg_38	# Christian IX
+	}
+	1868.10.16 = {	# United Kingdom
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}

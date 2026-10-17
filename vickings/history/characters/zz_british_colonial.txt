@@ -339,3 +339,16 @@ british_ceylon_3 = {
 		death = yes
 	}
 }
+
+british_east_indies_0 = {
+	name = "Stamford"
+	dynasty = raffles
+	rite = lutheran_rite
+	culture = english
+	1781.7.5 = {
+		birth = yes
+	}
+	1826.7.5 = {
+		death = yes
+	}
+}

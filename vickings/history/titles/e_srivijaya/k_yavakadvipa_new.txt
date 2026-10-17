@@ -1,0 +1,142 @@
+d_JAV_mataram = {
+	1811.9.18 = {
+		holder = british_east_indies_0	# Stamford Raffles
+	}
+	1833.7.2 = {
+		holder = dutch_east_indies_0	# Jean Chrétien Baud
+	}
+	1856.5.22 = {
+		holder = dutch_east_indies_1	# Charles Ferdinand Pahud
+	}
+}
+c_JAV_mataram = {
+	1811.9.18 = {
+		holder = british_east_indies_0	# Stamford Raffles
+	}
+	1833.7.2 = {
+		holder = dutch_east_indies_0	# Jean Chrétien Baud
+	}
+	1856.5.22 = {
+		holder = dutch_east_indies_1	# Charles Ferdinand Pahud
+	}
+}
+c_JAV_kalingga = {
+	1811.9.18 = {
+		holder = british_east_indies_0	# Stamford Raffles
+	}
+	1833.7.2 = {
+		holder = dutch_east_indies_0	# Jean Chrétien Baud
+	}
+	1856.5.22 = {
+		holder = dutch_east_indies_1	# Charles Ferdinand Pahud
+	}
+}
+c_JAV_janggala = {
+	1811.9.18 = {
+		holder = british_east_indies_0	# Stamford Raffles
+	}
+	1833.7.2 = {
+		holder = dutch_east_indies_0	# Jean Chrétien Baud
+	}
+	1856.5.22 = {
+		holder = dutch_east_indies_1	# Charles Ferdinand Pahud
+	}
+}
+c_JAV_lumajang = {
+	1811.9.18 = {
+		holder = british_east_indies_0	# Stamford Raffles
+	}
+	1833.7.2 = {
+		holder = dutch_east_indies_0	# Jean Chrétien Baud
+	}
+	1856.5.22 = {
+		holder = dutch_east_indies_1	# Charles Ferdinand Pahud
+	}
+}
+d_JAV_taruma = {
+	1811.9.18 = {
+		holder = british_east_indies_0	# Stamford Raffles
+	}
+	1833.7.2 = {
+		holder = dutch_east_indies_0	# Jean Chrétien Baud
+	}
+	1856.5.22 = {
+		holder = dutch_east_indies_1	# Charles Ferdinand Pahud
+	}
+}
+c_JAV_sunda = {
+	1811.9.18 = {
+		holder = british_east_indies_0	# Stamford Raffles
+	}
+	1833.7.2 = {
+		holder = dutch_east_indies_0	# Jean Chrétien Baud
+	}
+	1856.5.22 = {
+		holder = dutch_east_indies_1	# Charles Ferdinand Pahud
+	}
+}
+c_JAV_galuh = {
+	1811.9.18 = {
+		holder = british_east_indies_0	# Stamford Raffles
+	}
+	1833.7.2 = {
+		holder = dutch_east_indies_0	# Jean Chrétien Baud
+	}
+	1856.5.22 = {
+		holder = dutch_east_indies_1	# Charles Ferdinand Pahud
+	}
+}
+c_JAV_cimanuk = {
+	1811.9.18 = {
+		holder = british_east_indies_0	# Stamford Raffles
+	}
+	1833.7.2 = {
+		holder = dutch_east_indies_0	# Jean Chrétien Baud
+	}
+	1856.5.22 = {
+		holder = dutch_east_indies_1	# Charles Ferdinand Pahud
+	}
+}
+d_IDO_bali = {
+	1811.9.18 = {
+		holder = british_east_indies_0	# Stamford Raffles
+	}
+	1833.7.2 = {
+		holder = dutch_east_indies_0	# Jean Chrétien Baud
+	}
+	1856.5.22 = {
+		holder = dutch_east_indies_1	# Charles Ferdinand Pahud
+	}
+}
+c_IDO_bali = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	# 1840s: Netherlands
+	1856.5.22 = {
+		holder = dutch_east_indies_1	# Charles Ferdinand Pahud
+	}
+}
+c_JAV_madura = {
+	1811.9.18 = {
+		holder = british_east_indies_0	# Stamford Raffles
+	}
+	1833.7.2 = {
+		holder = dutch_east_indies_0	# Jean Chrétien Baud
+	}
+	1856.5.22 = {
+		holder = dutch_east_indies_1	# Charles Ferdinand Pahud
+	}
+}
+c_IDO_lombok_and_sumbawa = {
+	1811.9.18 = {
+		holder = british_east_indies_0	# Stamford Raffles
+	}
+	1833.7.2 = {
+		holder = dutch_east_indies_0	# Jean Chrétien Baud
+	}
+	1856.5.22 = {
+		holder = dutch_east_indies_1	# Charles Ferdinand Pahud
+	}
+}

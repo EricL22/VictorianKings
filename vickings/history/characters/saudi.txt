@@ -145,7 +145,7 @@ saudi_9 = {
 }
 
 saudi_10 = {
-	name = "Abdul Rahman"
+	name = "Abdul_Rahman"
 	dynasty = saudi
 	rite = hanbali
 	culture = bedouin

@@ -1,0 +1,256 @@
+k_hujung_medini = {
+	1699.1.1 = {
+		holder = bendahara_0	# Abdul Jalil Shah IV
+		name = c_MAL_johor
+	}
+	1722.1.1 = {
+		holder = bendahara_1	# Sulaiman Badrul Alam Shah
+		effect = {
+			set_capital_county = title:c_riau
+			holder ?= { set_realm_capital = title:c_riau }
+		}
+	}
+	1760.8.20 = {
+		holder = bendahara_2	# Abdul Jalil Muazzam Shah
+	}
+	# 1761: Ahmad Riayat Shah
+	1770.1.1 = {
+		holder = bendahara_3	# Mahmud Shah III
+	}
+	1811.1.1 = {
+		holder = bendahara_10	# Abdul Rahman Muazzam Shah
+	}
+	1819.1.29 = {	# (recognized as Sultan by the British)
+		holder = bendahara_4	# Hussein Shah
+		effect = {
+			set_capital_county = title:c_MAL_johor
+			holder ?= { set_realm_capital = title:c_MAL_johor }
+		}
+	}
+	1835.9.5 = {
+		holder = bendahara_5	# Ali Iskandar
+	}
+	# 1855.3.10: (control of kingdom handed to Temenggong)
+}
+d_MAL_langkasuka = {
+	1800.1.1 = {
+		de_jure_liege = k_siam
+	}
+}
+c_MAL_patani = {
+	1782.4.6 = {
+		holder = chakri_0	# Rama I
+	}
+	1809.9.7 = {
+		holder = chakri_1	# Rama II
+	}
+	1824.7.21 = {
+		holder = chakri_2	# Rama III
+	}
+	1851.4.2 = {
+		holder = chakri_3	# Rama IV
+	}
+	1910.10.23 = {
+		holder = chakri_5	# Rama VI
+	}
+}
+c_MAL_kelantan = {
+	1763.7.12 = {
+		holder = long_yunus_0	# Long Yunus
+	}
+	1801.11.17 = {
+		holder = long_yunus_1	# Muhammad I
+	}
+	1835.1.26 = {
+		holder = long_yunus_4	# Muhammad II
+	}
+	1886.10.30 = {
+		holder = long_yunus_5	# Ahmad
+	}
+	1890.3.8 = {
+		holder = long_yunus_6	# Muhammad III
+	}
+	1891.5.11 = {
+		holder = long_yunus_7	# Mansur
+	}
+	1900.2.9 = {
+		holder = long_yunus_8	# Muhammad IV
+	}
+}
+c_MAL_kedah = {
+	1782.4.6 = {
+		holder = chakri_0	# Rama I
+	}
+	1809.9.7 = {
+		holder = chakri_1	# Rama II
+	}
+	1824.7.21 = {
+		holder = chakri_2	# Rama III
+	}
+	1851.4.2 = {
+		holder = chakri_3	# Rama IV
+	}
+	1910.10.23 = {
+		holder = chakri_5	# Rama VI
+	}
+}
+c_THAI_tambralinga = {
+	1782.4.6 = {
+		holder = chakri_0	# Rama I
+	}
+	1809.9.7 = {
+		holder = chakri_1	# Rama II
+	}
+	1824.7.21 = {
+		holder = chakri_2	# Rama III
+	}
+	1851.4.2 = {
+		holder = chakri_3	# Rama IV
+	}
+	1910.10.23 = {
+		holder = chakri_5	# Rama VI
+	}
+}
+c_THAI_takua_pa = {
+	1782.4.6 = {
+		holder = chakri_0	# Rama I
+	}
+	1809.9.7 = {
+		holder = chakri_1	# Rama II
+	}
+	1824.7.21 = {
+		holder = chakri_2	# Rama III
+	}
+	1851.4.2 = {
+		holder = chakri_3	# Rama IV
+	}
+	1910.10.23 = {
+		holder = chakri_5	# Rama VI
+	}
+}
+d_MAL_pahang = {
+	1770.1.1 = {
+		holder = bendahara_20	# Tun Abdul Majid
+		liege = k_hujung_medini
+	}
+	# 1802: Tun Muhammad
+	1803.1.1 = {
+		holder = bendahara_21	# Tun Koris
+	}
+	1806.3.11 = {
+		holder = bendahara_22	# Tun Ali
+	}
+	1853.1.1 = {
+		liege = 0
+	}
+	1858.10.1 = {
+		holder = bendahara_23	# Tun Mutahir
+	}
+	1863.6.10 = {
+		holder = bendahara_24	# Ahmad Mu'azzam
+	}
+	1914.5.29 = {
+		holder = bendahara_25	# Mahmud Shah II
+	}
+}
+c_MAL_pahang = {
+	1806.3.11 = {
+		holder = bendahara_22	# Tun Ali
+	}
+	1858.10.1 = {
+		holder = bendahara_23	# Tun Mutahir
+	}
+	1914.5.29 = {
+		holder = bendahara_25	# Mahmud Shah II
+	}
+}
+c_MAL_gelanggi = {
+	1811.1.1 = {
+		holder = bendahara_10	# Abdul Rahman Muazzam Shah
+	}
+	1819.1.29 = {
+		holder = bendahara_4	# Hussein Shah
+	}
+	1835.9.5 = {
+		holder = bendahara_5	# Ali Iskandar
+	}
+}
+c_MAL_johor = {
+	1811.1.1 = {
+		holder = bendahara_10	# Abdul Rahman Muazzam Shah
+	}
+	1819.1.29 = {
+		holder = bendahara_4	# Hussein Shah
+	}
+	1835.9.5 = {
+		holder = bendahara_5	# Ali Iskandar
+	}
+}
+c_singapore = {
+	1811.1.1 = {
+		holder = bendahara_10	# Abdul Rahman Muazzam Shah
+	}
+	# 1819.1.29: United Kingdom
+	1830.6.26 = {
+		holder = hanover_5	# William IV
+	}
+	1837.6.20 = {
+		holder = hanover_7	# Victoria
+	}
+	1910.5.6 = {
+		holder = wettin_35	# George V
+	}
+}
+c_riau = {
+	1811.1.1 = {
+		holder = bendahara_10	# Abdul Rahman Muazzam Shah
+	}
+	1824.6.2 = {
+		liege = k_dutch_east_indies
+	}
+	1832.8.9 = {
+		holder = bendahara_11	# Muhammad II Muazzam Shah
+	}
+	1857.10.7 = {
+		holder = bendahara_13	# Sulaiman II Badrul Alam Shah
+	}
+}
+c_MAL_gangganegara = {	# Perak
+	1806.1.1 = {
+		holder = perak_1	# Abdul Malik
+	}
+	1830.12.20 = {
+		holder = perak_4	# Shahabuddin
+	}
+	1857.1.1 = {
+		holder = perak_8	# Ja'afar Mu'azzam
+	}
+	1887.7.26 = {
+		holder = perak_13	# Idris I
+	}
+}
+c_MAL_sungei_ujong = {	# Selangor
+	1782.1.1 = {
+		holder = opu_daeng_chelak_1	# Ibrahim Shah
+	}
+	1826.10.27 = {
+		holder = opu_daeng_chelak_2	# Muhammad Shah
+	}
+	1857.1.6 = {
+		holder = opu_daeng_chelak_4	# Abdul Samad
+	}
+	1898.2.17 = {
+		holder = opu_daeng_chelak_6	# Sulaiman
+	}
+}
+c_MAL_semantan = {
+	1811.1.1 = {
+		holder = bendahara_10	# Abdul Rahman Muazzam Shah
+	}
+	1819.1.29 = {
+		holder = bendahara_4	# Hussein Shah
+	}
+	1835.9.5 = {
+		holder = bendahara_5	# Ali Iskandar
+	}
+}

@@ -4,11 +4,11 @@
 
 }
 
-bm_congress = {
-	start_date = 1815.7.8
-	is_playable = yes
-	
-}
+#bm_congress = {
+#	start_date = 1815.7.8
+#	is_playable = yes
+#	
+#}
 
 bm_victoria = {
 	start_date = 1836.1.1
@@ -21,7 +21,7 @@ bm_acw = {
 	is_playable = yes
 }
 
-bm_ww1 = {
-	start_date = 1914.7.28
-	is_playable = yes
-}
+#bm_ww1 = {
+#	start_date = 1914.7.28
+#	is_playable = yes
+#}

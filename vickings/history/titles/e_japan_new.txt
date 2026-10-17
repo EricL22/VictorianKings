@@ -1247,6 +1247,7 @@ c_tokisara = { # Tokisara/Dewa (Shōnai Domain)
 k_ruucuu = {
 	1804.1.1 = {
 		holder = shou_0	# Shō Kō
+		de_jure_liege = e_japan
 	}
 	1828.1.1 = {
 		holder = shou_1	# Shō Iku

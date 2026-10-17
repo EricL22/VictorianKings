@@ -1,0 +1,82 @@
+﻿jambi_0 = {
+	name = "Agung"
+	# dynasty = jambi
+	rite = shafii
+	culture = malay
+	1770.1.1 = {	# unknown
+		birth = yes
+	}
+	1833.1.1 = {
+		death = yes
+	}
+}
+
+jambi_1 = {
+	name = "Muhammad"
+	# dynasty = jambi
+	rite = shafii
+	culture = malay
+	father = jambi_0
+	1790.1.1 = {	# unknown
+		birth = yes
+	}
+	1841.1.1 = {
+		death = yes
+	}
+}
+
+jambi_2 = {
+	name = "Abdul_Rahman"
+	# dynasty = jambi
+	rite = shafii
+	culture = malay
+	father = jambi_0
+	1795.1.1 = {	# unknown
+		birth = yes
+	}
+	1855.1.1 = {
+		death = yes
+	}
+}
+
+jambi_3 = {
+	name = "Thaha"
+	# dynasty = jambi
+	rite = shafii
+	culture = malay
+	father = jambi_1
+	1816.1.1 = {
+		birth = yes
+	}
+	1904.4.26 = {
+		death = yes
+	}
+}
+
+jambi_4 = {
+	name = "Ahmad"
+	# dynasty = jambi
+	rite = shafii
+	culture = malay
+	father = jambi_0
+	1800.1.1 = {	# unknown
+		birth = yes
+	}
+	1881.1.1 = {
+		death = yes
+	}
+}
+
+jambi_5 = {
+	name = "Muhilluddin"
+	# dynasty = jambi
+	rite = shafii
+	culture = malay
+	father = jambi_2
+	1820.1.1 = {	# unknown
+		birth = yes
+	}
+	1885.1.1 = {
+		death = yes
+	}
+}

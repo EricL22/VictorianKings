@@ -1,0 +1,24 @@
+﻿dutch_east_indies_0 = {
+	name = "Jean"
+	dynasty = baud
+	rite = reformed_rite
+	culture = dutch
+	1789.10.23 = {
+		birth = yes
+	}
+	1859.6.27 = {
+		death = yes
+	}
+}
+dutch_east_indies_1 = {
+	name = "Charles"
+	dynasty = pahud
+	rite = reformed_rite
+	culture = dutch
+	1803.4.18 = {
+		birth = yes
+	}
+	1873.8.31 = {
+		death = yes
+	}
+}

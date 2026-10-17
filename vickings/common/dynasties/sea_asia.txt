@@ -1,0 +1,29 @@
+﻿long_yunus = {
+	name = "dynn_Long_Yunus"
+	culture = malay
+}
+
+opu_daeng_chelak = {
+	name = "dynn_Opu_Daeng_Chelak"
+	culture = malay
+}
+
+bendahara = {
+	name = "dynn_Bendahara"
+	culture = malay
+}
+
+perak = {
+	name = "dynn_Perak"
+	culture = malay
+}
+
+siak = {
+	name = "dynn_Siak"
+	culture = malay
+}
+
+azmatkhan = {
+	name = "dynn_Azmatkhan"
+	culture = malay
+}
