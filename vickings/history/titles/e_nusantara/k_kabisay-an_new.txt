@@ -1,0 +1,182 @@
+d_PHI_visayas = {
+	1800.1.1 = {
+		de_jure_liege = k_lusung
+	}
+}
+c_PHI_panay = {
+	1810.3.4 = {
+		holder = spanish_philippines_0	# Manuel González de Aguilar
+	}
+	1835.9.9 = {
+		holder = spanish_philippines_1	# Pedro Antonio Salazar y Salazar
+	}
+	1861.2.2 = {
+		holder = spanish_philippines_2	# José Lémery e Ibarrola
+	}
+}
+c_PHI_buglas = {
+	1810.3.4 = {
+		holder = spanish_philippines_0	# Manuel González de Aguilar
+	}
+	1835.9.9 = {
+		holder = spanish_philippines_1	# Pedro Antonio Salazar y Salazar
+	}
+	1861.2.2 = {
+		holder = spanish_philippines_2	# José Lémery e Ibarrola
+	}
+}
+c_PHI_bool_and_cebu = {
+	1810.3.4 = {
+		holder = spanish_philippines_0	# Manuel González de Aguilar
+	}
+	1835.9.9 = {
+		holder = spanish_philippines_1	# Pedro Antonio Salazar y Salazar
+	}
+	1861.2.2 = {
+		holder = spanish_philippines_2	# José Lémery e Ibarrola
+	}
+}
+c_PHI_tandaya = {
+	1810.3.4 = {
+		holder = spanish_philippines_0	# Manuel González de Aguilar
+	}
+	1835.9.9 = {
+		holder = spanish_philippines_1	# Pedro Antonio Salazar y Salazar
+	}
+	1861.2.2 = {
+		holder = spanish_philippines_2	# José Lémery e Ibarrola
+	}
+}
+c_PHI_samar = {
+	1810.3.4 = {
+		holder = spanish_philippines_0	# Manuel González de Aguilar
+	}
+	1835.9.9 = {
+		holder = spanish_philippines_1	# Pedro Antonio Salazar y Salazar
+	}
+	1861.2.2 = {
+		holder = spanish_philippines_2	# José Lémery e Ibarrola
+	}
+}
+d_PHI_maguindanao = {
+	1800.1.1 = {
+		de_jure_liege = k_lusung
+	}
+	1805.1.1 = {
+		holder = kudarat_1	# Kawasa Anwar Ud-din
+	}
+	1830.1.1 = {
+		holder = kudarat_4	# Iskandar Qudrallah
+	}
+	1854.1.1 = {
+		holder = kudarat_6	# Muhammad Makakwa
+	}
+}
+c_PHI_lanao = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+}
+c_PHI_cotabato = {
+	1805.1.1 = {
+		holder = kudarat_1	# Kawasa Anwar Ud-din
+	}
+	1830.1.1 = {
+		holder = kudarat_4	# Iskandar Qudrallah
+	}
+	1854.1.1 = {
+		holder = kudarat_6	# Muhammad Makakwa
+	}
+}
+c_PHI_zamboanga = {
+	1805.1.1 = {
+		holder = kudarat_1	# Kawasa Anwar Ud-din
+	}
+	1830.1.1 = {
+		holder = kudarat_4	# Iskandar Qudrallah
+	}
+	1854.1.1 = {
+		holder = kudarat_6	# Muhammad Makakwa
+	}
+}
+c_PHI_maguindanao = {
+	1805.1.1 = {
+		holder = kudarat_1	# Kawasa Anwar Ud-din
+	}
+	1830.1.1 = {
+		holder = kudarat_4	# Iskandar Qudrallah
+	}
+	1854.1.1 = {
+		holder = kudarat_6	# Muhammad Makakwa
+	}
+}
+c_PHI_sulu = {
+	1808.1.1 = {
+		holder = adinda_2	# Aliyud-Din
+	}
+	1823.1.1 = {
+		holder = adinda_4	# Jamalul Kiram I
+	}
+	1842.1.1 = {
+		holder = adinda_5	# Mohammad Pulalun Kiram
+	}
+}
+d_PHI_butuan = {
+	1800.1.1 = {
+		de_jure_liege = k_lusung
+	}
+	1810.3.4 = {
+		holder = spanish_philippines_0	# Manuel González de Aguilar
+	}
+	1835.9.9 = {
+		holder = spanish_philippines_1	# Pedro Antonio Salazar y Salazar
+	}
+	1861.2.2 = {
+		holder = spanish_philippines_2	# José Lémery e Ibarrola
+	}
+}
+c_PHI_butuan = {
+	1810.3.4 = {
+		holder = spanish_philippines_0	# Manuel González de Aguilar
+	}
+	1835.9.9 = {
+		holder = spanish_philippines_1	# Pedro Antonio Salazar y Salazar
+	}
+	1861.2.2 = {
+		holder = spanish_philippines_2	# José Lémery e Ibarrola
+	}
+}
+c_PHI_calagan = {
+	1810.3.4 = {
+		holder = spanish_philippines_0	# Manuel González de Aguilar
+	}
+	1835.9.9 = {
+		holder = spanish_philippines_1	# Pedro Antonio Salazar y Salazar
+	}
+	1861.2.2 = {
+		holder = spanish_philippines_2	# José Lémery e Ibarrola
+	}
+}
+c_PHI_mandaya = {
+	1810.3.4 = {
+		holder = spanish_philippines_0	# Manuel González de Aguilar
+	}
+	1835.9.9 = {
+		holder = spanish_philippines_1	# Pedro Antonio Salazar y Salazar
+	}
+	1861.2.2 = {
+		holder = spanish_philippines_2	# José Lémery e Ibarrola
+	}
+}
+c_PHI_sarangani = {
+	1805.1.1 = {
+		holder = kudarat_1	# Kawasa Anwar Ud-din
+	}
+	1830.1.1 = {
+		holder = kudarat_4	# Iskandar Qudrallah
+	}
+	1854.1.1 = {
+		holder = kudarat_6	# Muhammad Makakwa
+	}
+}

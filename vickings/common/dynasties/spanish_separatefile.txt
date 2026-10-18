@@ -20,3 +20,19 @@ espartero = {
     culture = "castilian"
 }
 
+aguilar = {
+    prefix = "dynnp_de"
+    name = "dynn_Aguilar"
+    culture = "castilian"
+}
+
+salazar = {
+    name = "dynn_Salazar"
+    culture = "castilian"
+}
+
+lemery = {
+    name = "dynn_LE_mery"
+    culture = "castilian"
+}
+

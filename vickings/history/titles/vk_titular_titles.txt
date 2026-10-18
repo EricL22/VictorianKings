@@ -876,6 +876,15 @@ k_dutch_east_indies = {
 	}
 }
 
+k_banjar = {
+	1801.4.19 = {
+		holder = banjarmasin_0	# Sulaiman
+	}
+	1825.6.3 = {
+		holder = 0
+	}
+}
+
 d_berg = {
 	1809.3.3 = {
 		holder = bonaparte_8	# Napoleon-Louis

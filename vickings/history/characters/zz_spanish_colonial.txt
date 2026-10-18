@@ -1,0 +1,36 @@
+﻿spanish_philippines_0 = {
+	name = "Manuel"
+	dynasty = aguilar
+	rite = roman_rite
+	culture = castilian
+	1756.1.1 = {
+		birth = yes
+	}
+	1820.1.1 = {	# unknown
+		death = yes
+	}
+}
+spanish_philippines_1 = {
+	name = "Pedro"
+	dynasty = salazar
+	rite = roman_rite
+	culture = castilian
+	1782.2.19 = {
+		birth = yes
+	}
+	1861.4.11 = {
+		death = yes
+	}
+}
+spanish_philippines_2 = {
+	name = "JosE_"
+	dynasty = lemery
+	rite = roman_rite
+	culture = castilian
+	1811.12.2 = {
+		birth = yes
+	}
+	1886.4.11 = {
+		death = yes
+	}
+}

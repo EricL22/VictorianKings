@@ -143,9 +143,21 @@ vk_setup_tributaries_effect = {
 	}
    	if = {
 		limit = {
+			current_date < 1861.7.1
+		}
+		base_pre_1861_tributary_setup_effect = yes
+	}
+   	if = {
+		limit = {
 			current_date = 1861.7.1
 		}
 		base_1861_tributary_setup_effect = yes
+	}
+   	if = {
+		limit = {
+			current_date < 1914.7.28
+		}
+		base_pre_1914_tributary_setup_effect = yes
 	}
 }
 tgp_pre_1836_tributary_setup_effect = {
@@ -196,6 +208,20 @@ base_post_1812_tributary_setup_effect = {
 		}
 	}
 }
+base_pre_1861_tributary_setup_effect = {
+	title:k_portugal.holder = {
+		save_scope_as = suzerain
+		title:c_IDO_nusa_nipa.holder = {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
+	title:c_PHI_sulu.holder = {
+		save_scope_as = suzerain
+		title:c_BOR_menjelutung.holder = {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
+}
 base_1861_tributary_setup_effect = {
 	character:ottoman_28 = { # Caliph Abdulaziz of the Ottoman Empire
 		save_scope_as = suzerain
@@ -210,6 +236,20 @@ base_1861_tributary_setup_effect = {
 		character:alawiyya_4 = { # Mohamed Sa'id Pasha of Egypt
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 			tributary_contract_set_obligation_level = { type = default_tributary_taxes level = 1 }
+		}
+	}
+	title:k_dutch_east_indies.holder = {
+		save_scope_as = suzerain
+		title:c_IDO_nusa_nipa.holder = {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
+}
+base_pre_1914_tributary_setup_effect = {
+	title:k_spain.holder = {
+		save_scope_as = suzerain
+		title:k_lusung.holder = {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 	}
 }

@@ -1,0 +1,68 @@
+﻿banjarmasin_0 = {
+	name = "Sulaiman"
+	dynasty = banjarmasin
+	rite = shafii
+	culture = malay
+	1761.1.16 = {
+		birth = yes
+	}
+	1825.6.3 = {
+		death = yes
+	}
+}
+
+banjarmasin_1 = {
+	name = "Adam"
+	dynasty = banjarmasin
+	rite = shafii
+	culture = malay
+	father = banjarmasin_0
+	1776.1.1 = {
+		birth = yes
+	}
+	1857.11.1 = {
+		death = yes
+	}
+}
+
+banjarmasin_2 = {
+	name = "Abdur Rahman"
+	dynasty = banjarmasin
+	rite = shafii
+	culture = malay
+	father = banjarmasin_1
+	1800.1.1 = {	# unknown
+		birth = yes
+	}
+	1850.11.10 = {	# unknown
+		death = yes
+	}
+}
+
+banjarmasin_3 = {
+	name = "Tamjidillah"	# II of Banjar
+	dynasty = banjarmasin
+	rite = shafii
+	culture = malay
+	father = banjarmasin_2
+	1819.1.1 = {
+		birth = yes
+	}
+	1863.1.1 = {	# unknown
+		death = yes
+	}
+}
+
+banjarmasin_4 = {
+	name = "Hidayatullah"	# II of Banjar
+	dynasty = banjarmasin
+	rite = shafii
+	culture = malay
+	father = banjarmasin_2
+	1822.1.1 = {
+		birth = yes
+	}
+	1904.11.24 = {
+		death = yes
+	}
+}

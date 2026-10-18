@@ -1,0 +1,268 @@
+d_BOR_tanjungpura = {
+	1856.5.22 = {
+		holder = dutch_east_indies_1	# Charles Ferdinand Pahud
+	}
+}
+c_BOR_sambas = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1856.5.22 = {	# Netherlands
+		holder = dutch_east_indies_1	# Charles Ferdinand Pahud
+	}
+}
+c_BOR_sukadana = {
+	1811.9.18 = {
+		holder = british_east_indies_0	# Stamford Raffles
+	}
+	1833.7.2 = {
+		holder = dutch_east_indies_0	# Jean Chrétien Baud
+	}
+	1856.5.22 = {
+		holder = dutch_east_indies_1	# Charles Ferdinand Pahud
+	}
+}
+c_BOR_sintang = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1856.5.22 = {	# Netherlands
+		holder = dutch_east_indies_1	# Charles Ferdinand Pahud
+	}
+}
+c_BOR_waringin = {
+	1811.9.18 = {
+		holder = british_east_indies_0	# Stamford Raffles
+	}
+	1833.7.2 = {
+		holder = dutch_east_indies_0	# Jean Chrétien Baud
+	}
+	1856.5.22 = {
+		holder = dutch_east_indies_1	# Charles Ferdinand Pahud
+	}
+}
+d_BOR_barune = {
+	1368.1.1 = {
+		de_jure_liege = k_brunei
+	}
+}
+c_BOR_brunei = {
+	1807.2.11 = {
+		holder = bolkiah_3	# Muhammad Kanzul Alam
+	}
+	1828.1.1 = {
+		holder = bolkiah_5	# Omar Ali Saifuddin II
+	}
+	1852.11.18 = {
+		holder = bolkiah_7	# Abdul Momin
+	}
+}
+c_BOR_kudat = {
+	1808.1.1 = {
+		holder = adinda_2	# Aliyud-Din
+	}
+	1823.1.1 = {
+		holder = adinda_4	# Jamalul Kiram I
+	}
+	1842.1.1 = {
+		holder = adinda_5	# Mohammad Pulalun Kiram
+	}
+}
+c_BOR_lahad_datu = {
+	1808.1.1 = {
+		holder = adinda_2	# Aliyud-Din
+	}
+	1823.1.1 = {
+		holder = adinda_4	# Jamalul Kiram I
+	}
+	1842.1.1 = {
+		holder = adinda_5	# Mohammad Pulalun Kiram
+	}
+}
+c_BOR_menjelutung = {
+	1777.1.1 = {
+		holder = bulungan_0	# Aji Ali
+	}
+	1817.1.1 = {
+		holder = bulungan_1	# Aji Muhammad
+	}
+}
+c_BOR_nabawan = {
+	1777.1.1 = {
+		holder = bulungan_0	# Aji Ali
+	}
+	1817.1.1 = {
+		holder = bulungan_1	# Aji Muhammad
+	}
+}
+d_BOR_santubong = {
+	1368.1.1 = {
+		de_jure_liege = k_brunei
+	}
+}
+c_BOR_santubong = {
+	1807.2.11 = {	# Brunei
+		holder = bolkiah_3	# Muhammad Kanzul Alam
+	}
+	1828.1.1 = {
+		holder = bolkiah_5	# Omar Ali Saifuddin II
+	}
+	1842.8.18 = {	# Sarawak
+		holder = brooke_0	# James Brooke
+	}
+}
+c_BOR_iban = {
+	1807.2.11 = {
+		holder = bolkiah_3	# Muhammad Kanzul Alam
+	}
+	1828.1.1 = {
+		holder = bolkiah_5	# Omar Ali Saifuddin II
+	}
+	1852.11.18 = {
+		holder = bolkiah_7	# Abdul Momin
+	}
+}
+c_BOR_rajang = {
+	1807.2.11 = {
+		holder = bolkiah_3	# Muhammad Kanzul Alam
+	}
+	1828.1.1 = {
+		holder = bolkiah_5	# Omar Ali Saifuddin II
+	}
+	1852.11.18 = {
+		holder = bolkiah_7	# Abdul Momin
+	}
+}
+c_BOR_tanah_taman = {
+	1810.1.1 = {
+		holder = tribals
+		liege = 0
+	}
+	1856.5.22 = {	# Netherlands
+		holder = dutch_east_indies_1	# Charles Ferdinand Pahud
+	}
+}
+d_BOR_nan_sarunai = {
+	1801.4.19 = {
+		holder = banjarmasin_0	# Sulaiman
+	}
+	1825.6.3 = {
+		holder = banjarmasin_1	# Adam
+		liege = k_dutch_east_indies
+	}
+	1857.11.3 = {
+		holder = banjarmasin_2	# Tamjidillah II
+	}
+	1859.9.1 = {
+		holder = banjarmasin_3	# Hidayatullah II
+		liege = 0
+	}
+}
+c_BOR_banjar = {
+	1801.4.19 = {
+		holder = banjarmasin_0	# Sulaiman
+	}
+	1825.6.3 = {
+		holder = banjarmasin_1	# Adam
+	}
+	1859.9.1 = {
+		holder = banjarmasin_3	# Hidayatullah II
+	}
+}
+c_BOR_tabalung = {
+	1801.4.19 = {
+		holder = banjarmasin_0	# Sulaiman
+	}
+	1825.6.3 = {
+		holder = banjarmasin_1	# Adam
+	}
+	1859.9.1 = {
+		holder = banjarmasin_3	# Hidayatullah II
+	}
+}
+c_BOR_taiao = {
+	1801.4.19 = {
+		holder = banjarmasin_0	# Sulaiman
+	}
+	1825.6.3 = {
+		holder = banjarmasin_1	# Adam
+	}
+	1859.9.1 = {
+		holder = banjarmasin_3	# Hidayatullah II
+	}
+}
+c_BOR_sampit = {
+	1801.4.19 = {
+		holder = banjarmasin_0	# Sulaiman
+	}
+	1825.6.3 = {
+		holder = banjarmasin_1	# Adam
+	}
+	1859.9.1 = {
+		holder = banjarmasin_3	# Hidayatullah II
+	}
+}
+d_BOR_kutai = {
+	1780.1.1 = {
+		holder = kutai_0	# Aji Muhammad Muslihuddin
+	}
+	1802.1.1 = {
+		liege = k_banjar
+	}
+	1816.1.1 = {
+		holder = kutai_1	# Aji Muhammad Salehuddin I
+	}
+	1845.7.23 = {
+		holder = kutai_2	# Aji Muhammad Sulaiman
+		liege = k_dutch_east_indies
+	}
+}
+c_BOR_martapura = {
+	1780.1.1 = {
+		holder = kutai_0	# Aji Muhammad Muslihuddin
+	}
+	1816.1.1 = {
+		holder = kutai_1	# Aji Muhammad Salehuddin I
+	}
+	1845.7.23 = {
+		holder = kutai_2	# Aji Muhammad Sulaiman
+	}
+}
+c_BOR_kutai_utara = {
+	1780.1.1 = {
+		holder = kutai_0	# Aji Muhammad Muslihuddin
+	}
+	1816.1.1 = {
+		holder = kutai_1	# Aji Muhammad Salehuddin I
+	}
+	1845.7.23 = {
+		holder = kutai_2	# Aji Muhammad Sulaiman
+	}
+}
+c_BOR_berau = {
+	1368.1.1 = {
+		de_jure_liege = d_BOR_barune
+	}
+	1780.1.1 = {
+		holder = kutai_0	# Aji Muhammad Muslihuddin
+	}
+	1816.1.1 = {
+		holder = kutai_1	# Aji Muhammad Salehuddin I
+	}
+	1845.7.23 = {
+		holder = kutai_2	# Aji Muhammad Sulaiman
+	}
+}
+c_BOR_kutai_jauh = {
+	1780.1.1 = {
+		holder = kutai_0	# Aji Muhammad Muslihuddin
+	}
+	1816.1.1 = {
+		holder = kutai_1	# Aji Muhammad Salehuddin I
+	}
+	1845.7.23 = {
+		holder = kutai_2	# Aji Muhammad Sulaiman
+	}
+}

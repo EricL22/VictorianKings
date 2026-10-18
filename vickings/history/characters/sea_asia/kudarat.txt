@@ -1,0 +1,111 @@
+﻿# Sultanate of Maguindanao
+kudarat_0 = {
+	name = "Kibad Sahriyal"
+	dynasty = kudarat
+	rite = shafii
+	culture = bisayan
+	1750.1.1 = {	# unknown
+		birth = yes
+	}
+	1805.1.1 = {
+		death = yes
+	}
+}
+
+kudarat_1 = {
+	name = "Kawasa Anwaruddin"
+	dynasty = kudarat
+	rite = shafii
+	culture = bisayan
+	father = kudarat_0
+	1780.1.1 = {	# unknown
+		birth = yes
+	}
+	1830.1.1 = {
+		death = yes
+	}
+}
+
+kudarat_2 = {
+	name = "Alamansa"
+	dynasty = kudarat
+	rite = shafii
+	culture = bisayan
+	father = kudarat_0
+	1785.1.1 = {	# unknown
+		birth = yes
+	}
+	1810.1.1 = {	# unknown
+		death = yes
+	}
+}
+
+kudarat_3 = {
+	name = "Tuwa"
+	dynasty = kudarat
+	rite = shafii
+	culture = bisayan
+	father = kudarat_2
+	1805.1.1 = {	# unknown
+		birth = yes
+	}
+	1840.1.1 = {	# unknown
+		death = yes
+	}
+}
+
+kudarat_4 = {
+	name = "Kudaratullah Untong"
+	dynasty = kudarat
+	rite = shafii
+	culture = bisayan
+	father = kudarat_3
+	1825.1.1 = {	# unknown
+		birth = yes
+	}
+	1854.1.1 = {
+		death = yes
+	}
+}
+
+kudarat_5 = {
+	name = "Amirul"
+	dynasty = kudarat
+	rite = shafii
+	culture = bisayan
+	father = kudarat_1
+	1800.1.1 = {	# unknown
+		birth = yes
+	}
+	1840.1.1 = {	# unknown
+		death = yes
+	}
+}
+
+kudarat_6 = {
+	name = "Muhammad Makakwa"
+	dynasty = kudarat
+	rite = shafii
+	culture = bisayan
+	father = kudarat_5
+	1820.1.1 = {	# unknown
+		birth = yes
+	}
+	1884.1.1 = {
+		death = yes
+	}
+}
+
+kudarat_7 = {
+	name = "Muhammad Jalaluddin"
+	dynasty = kudarat
+	rite = shafii
+	culture = bisayan
+	father = kudarat_6
+	1840.1.1 = {	# unknown
+		birth = yes
+	}
+	1888.1.1 = {
+		death = yes
+	}
+}

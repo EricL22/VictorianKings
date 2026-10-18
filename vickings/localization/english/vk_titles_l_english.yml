@@ -99,6 +99,12 @@
  k_dutch_east_indies: "Dutch East Indies"
  k_dutch_east_indies_adj: "Dutch"
 
+ k_banjar: "$c_BOR_banjar$"
+
+ k_lusung_article: "the "	# so it shows up in non-definitive form
+ philippines: "Philippines"
+ philippines_adj: "Philippine"
+
  senegal: "Senegal"
  senegal_adj: "Senegalese"
 

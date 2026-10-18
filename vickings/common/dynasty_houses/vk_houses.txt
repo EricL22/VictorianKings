@@ -178,3 +178,8 @@ house_temenggong = {
 	name = "dynn_Temenggong"
 	dynasty = bendahara
 }
+
+house_kiram = {
+	name = "dynn_Kiram"
+	dynasty = adinda
+}

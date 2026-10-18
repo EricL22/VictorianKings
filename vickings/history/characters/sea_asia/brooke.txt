@@ -1,0 +1,12 @@
+﻿brooke_0 = {
+	name = "James"
+	dynasty = brooke
+	rite = lutheran_rite
+	culture = english
+	1803.4.29 = {
+		birth = yes
+	}
+	1868.6.11 = {
+		death = yes
+	}
+}

@@ -1,0 +1,124 @@
+﻿adinda_0 = {
+	name = "Muhammad Israil"
+	dynasty = adinda
+	rite = shafii
+	culture = bisayan
+	1720.1.1 = {	# unknown
+		birth = yes
+	}
+	1778.1.1 = {
+		death = yes
+	}
+}
+
+adinda_1 = {
+	name = "Azim ud-Din"	# III of Sulu
+	dynasty = adinda
+	rite = shafii
+	culture = bisayan
+	father = adinda_0
+	1750.1.1 = {	# unknown
+		birth = yes
+	}
+	1805.1.1 = {
+		death = yes
+	}
+}
+
+adinda_2 = {
+	name = "Aliyud-Din"	# I of Sulu
+	dynasty = adinda
+	rite = shafii
+	culture = bisayan
+	father = adinda_0
+	1760.1.1 = {	# unknown
+		birth = yes
+	}
+	1821.1.1 = {
+		death = yes
+	}
+}
+
+adinda_3 = {
+	name = "Shakirullah"
+	dynasty = adinda
+	rite = shafii
+	culture = bisayan
+	father = adinda_0
+	1765.1.1 = {	# unknown
+		birth = yes
+	}
+	1823.1.1 = {
+		death = yes
+	}
+}
+
+adinda_4 = {
+	name = "Jamalul Kiram"	# I of Sulu
+	dynasty_house = house_kiram
+	rite = shafii
+	culture = bisayan
+	father = adinda_1
+	1780.1.1 = {	# unknown
+		birth = yes
+	}
+	1844.1.1 = {
+		death = yes
+	}
+}
+
+adinda_5 = {
+	name = "Mohammad Pulalun"
+	dynasty_house = house_kiram
+	rite = shafii
+	culture = bisayan
+	father = adinda_4
+	1810.1.1 = {	# unknown
+		birth = yes
+	}
+	1862.9.24 = {
+		death = yes
+	}
+}
+
+adinda_6 = {
+	name = "Jamal ul-Azam"
+	dynasty_house = house_kiram
+	rite = shafii
+	culture = bisayan
+	father = adinda_5
+	1830.1.1 = {	# unknown
+		birth = yes
+	}
+	1881.4.8 = {
+		death = yes
+	}
+}
+
+adinda_7 = {
+	name = "Badarud-Din"	# II of Sulu
+	dynasty_house = house_kiram
+	rite = shafii
+	culture = bisayan
+	father = adinda_6
+	1850.1.1 = {	# unknown
+		birth = yes
+	}
+	1884.2.22 = {
+		death = yes
+	}
+}
+
+adinda_8 = {
+	name = "Jamalul Kiram"	# II of Sulu
+	dynasty_house = house_kiram
+	rite = shafii
+	culture = bisayan
+	father = adinda_6
+	1868.3.27 = {
+		birth = yes
+	}
+	1936.6.7 = {
+		death = yes
+	}
+}

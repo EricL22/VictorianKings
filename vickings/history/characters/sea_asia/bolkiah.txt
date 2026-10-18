@@ -1,0 +1,138 @@
+﻿bolkiah_0 = {
+	name = "Omar_Ali_Saifuddin"	# I of Brunei
+	dynasty = bolkiah
+	rite = shafii
+	culture = malay
+	1730.1.1 = {	# unknown
+		birth = yes
+	}
+	1795.7.10 = {
+		death = yes
+	}
+}
+
+bolkiah_1 = {
+	name = "Muhammad_Tajuddin"
+	dynasty = bolkiah
+	rite = shafii
+	culture = malay
+	father = bolkiah_0
+	1750.1.1 = {	# unknown
+		birth = yes
+	}
+	1807.1.1 = {
+		death = yes
+	}
+}
+
+bolkiah_2 = {
+	name = "Muhammad_Jamalul_Alam"	# I of Brunei
+	dynasty = bolkiah
+	rite = shafii
+	culture = malay
+	father = bolkiah_1
+	1772.1.1 = {	# unknown
+		birth = yes
+	}
+	1804.11.10 = {
+		death = yes
+	}
+}
+
+bolkiah_3 = {
+	name = "Muhammad_Kanzul_Alam"
+	dynasty = bolkiah
+	rite = shafii
+	culture = malay
+	father = bolkiah_0
+	1760.1.1 = {	# unknown
+		birth = yes
+	}
+	1826.1.1 = {
+		death = yes
+	}
+}
+
+bolkiah_4 = {
+	name = "Muhammad_Alam"
+	dynasty = bolkiah
+	rite = shafii
+	culture = malay
+	father = bolkiah_3
+	1780.1.1 = {	# unknown
+		birth = yes
+	}
+	1828.1.1 = {
+		death = yes
+	}
+}
+
+bolkiah_5 = {
+	name = "Omar_Ali_Saifuddin"	# II of Brunei
+	dynasty = bolkiah
+	rite = shafii
+	culture = malay
+	father = bolkiah_2
+	1804.1.1 = {
+		birth = yes
+	}
+	1852.11.18 = {
+		death = yes
+	}
+}
+
+bolkiah_6 = {
+	name = "Abdul_Wahab"
+	dynasty = bolkiah
+	rite = shafii
+	culture = malay
+	father = bolkiah_0
+	1765.1.1 = {	# unknown
+		birth = yes
+	}
+	1830.1.1 = {	# unknown
+		death = yes
+	}
+}
+
+bolkiah_7 = {
+	name = "Abdul_Momin"
+	dynasty = bolkiah
+	rite = shafii
+	culture = malay
+	father = bolkiah_6
+	1785.1.1 = {
+		birth = yes
+	}
+	1885.5.30 = {
+		death = yes
+	}
+}
+
+bolkiah_8 = {
+	name = "Hashim_Jalilul"
+	dynasty = bolkiah
+	rite = shafii
+	culture = malay
+	father = bolkiah_5
+	1825.1.1 = {
+		birth = yes
+	}
+	1906.5.10 = {
+		death = yes
+	}
+}
+
+bolkiah_9 = {
+	name = "Muhammad_Jamalul_Alam"	# II of Brunei
+	dynasty = bolkiah
+	rite = shafii
+	culture = malay
+	father = bolkiah_8
+	1889.1.1 = {
+		birth = yes
+	}
+	1924.9.19 = {
+		death = yes
+	}
+}

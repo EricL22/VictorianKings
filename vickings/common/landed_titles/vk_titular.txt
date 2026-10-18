@@ -361,3 +361,9 @@ k_dutch_east_indies = {
 	definite_form = yes
 	ignore_titularity_for_title_weighting = yes
 }
+
+k_banjar = {
+	color = { 171 175 40 }
+
+	capital = c_BOR_banjar
+}

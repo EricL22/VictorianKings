@@ -27,3 +27,28 @@ azmatkhan = {
 	name = "dynn_Azmatkhan"
 	culture = malay
 }
+
+adinda = {
+	name = "dynn_Adinda"
+	culture = bisayan
+}
+
+kudarat = {
+	name = "dynn_Kudarat"
+	culture = bisayan
+}
+
+bolkiah = {
+	name = "dynn_Bolkiah"
+	culture = malay
+}
+
+banjarmasin = {
+	name = "dynn_Banjarmasin"
+	culture = malay
+}
+
+brooke = {
+	name = "dynn_Brooke"
+	culture = english
+}

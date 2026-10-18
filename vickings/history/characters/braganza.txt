@@ -69,7 +69,7 @@ braganza_4 = {
 }
 
 braganza_5 = {
-	name = "Jose"	# I of Portugal
+	name = "JosE_"	# I of Portugal
 	dynasty_house = house_braganza
 	rite = roman_rite
 	culture = portuguese

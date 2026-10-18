@@ -1,0 +1,41 @@
+﻿# Sultanate of Maguindanao
+bulungan_0 = {
+	name = "Aji Ali"
+	# dynasty = bulungan
+	rite = shafii
+	culture = dayak
+	1750.1.1 = {	# unknown
+		birth = yes
+	}
+	1817.1.1 = {
+		death = yes
+	}
+}
+
+bulungan_1 = {
+	name = "Aji Muhammad"
+	# dynasty = bulungan
+	rite = shafii
+	culture = dayak
+	father = bulungan_0	# needs to be verified
+	1790.1.1 = {	# unknown
+		birth = yes
+	}
+	1873.1.1 = {
+		death = yes
+	}
+}
+
+bulungan_2 = {
+	name = "Si Kidding"
+	# dynasty = bulungan
+	rite = shafii
+	culture = dayak
+	father = bulungan_1
+	1810.1.1 = {	# unknown
+		birth = yes
+	}
+	1866.1.1 = {
+		death = yes
+	}
+}

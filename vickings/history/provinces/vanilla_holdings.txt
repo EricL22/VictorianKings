@@ -9,6 +9,18 @@
 		holding = temple_citadel_holding
 	}
 }
+###c_PHI_tondo
+11021 = {	#b_PHI_Tondo
+	1800.1.1 = {
+		holding = castle_holding
+	}
+}
+###c_JAV_sunda
+11330 = {	#b_JAV_Pakuan_Pajajaran
+	1800.1.1 = {
+		holding = castle_holding
+	}
+}
 #c_singapore
 11398 = {	#b_MAL_Johor
 	1800.1.1 = {
