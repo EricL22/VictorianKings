@@ -696,6 +696,42 @@ k_brunei = {
 	}
 }
 
+k_orthodox = {
+	1453.5.29 = {
+		liege = e_turkey
+	}
+	1789.5.12 = {
+		holder = orthodox_0	# Neophytus VII
+	} # 1st reign
+	1797.4.30 = {
+		holder = orthodox_1	# Gregory V
+	} # 1st reign
+	1798.12.30 = {
+		holder = orthodox_0
+	} # 2nd reign
+	1801.6.29 = {
+		holder = orthodox_2	# Callinicus V
+	} # 1st reign
+	1806.1.1 = {
+		holder = orthodox_1
+	} # 2nd reign
+	1808.1.1 = {
+		holder = orthodox_2
+	} # 2nd reign
+	1809.4.23 = {
+		holder = orthodox_3	# Jeremias IV
+	}
+	1818.12.13 = {
+		holder = orthodox_1
+	} # 3rd reign
+	1835.9.26 = {
+		holder = orthodox_4	# Gregory VI
+	}
+	1860.10.4 = {
+		holder = orthodox_5	# Joachim II
+	}
+}
+
 d_sunni = {
 	1517.1.22 = {
 		holder = ottoman_5	# Selim I

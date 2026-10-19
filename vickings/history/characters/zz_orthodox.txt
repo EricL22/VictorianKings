@@ -1,0 +1,75 @@
+﻿## The Ecumenical Patriarchate
+orthodox_0 = {
+	name = "Neophytus"
+	rite = byzantine_rite
+	culture = greek
+	1748.1.1 = {
+		birth = yes
+	}
+	# he actually resigned, but history view looks nicer if he died here
+	1801.6.29 = {	
+		death = yes
+	}
+}
+
+orthodox_1 = {
+	name = "Gregorios"
+	rite = byzantine_rite
+	culture = greek
+	1746.1.1 = {
+		birth = yes
+	}
+	1821.4.22 = {
+		death = {
+			death_reason = death_execution
+		}
+	}
+}
+
+orthodox_2 = {
+	name = "Callinicus"
+	rite = byzantine_rite
+	culture = greek
+	1748.1.1 = {
+		birth = yes
+	}
+	1809.4.23 = {
+		death = yes
+	}
+}
+
+orthodox_3 = {
+	name = "Jeremias"
+	rite = byzantine_rite
+	culture = greek
+	1753.1.1 = {
+		birth = yes
+	}
+	1824.1.1 = {
+		death = yes
+	}
+}
+
+orthodox_4 = {
+	name = "Gregorios"
+	rite = byzantine_rite
+	culture = greek
+	1798.3.1 = {
+		birth = yes
+	}
+	1881.6.8 = {
+		death = yes
+	}
+}
+
+orthodox_5 = {
+	name = "Ioakeim"
+	rite = byzantine_rite
+	culture = greek
+	1802.1.1 = {
+		birth = yes
+	}
+	1878.8.4 = {
+		death = yes
+	}
+}
