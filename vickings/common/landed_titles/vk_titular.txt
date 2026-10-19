@@ -367,3 +367,21 @@ k_banjar = {
 
 	capital = c_BOR_banjar
 }
+
+k_liberia = {
+	color = { 193 138 83 }
+
+	capital = c_bassa
+
+	d_liberia = {
+		color = { 193 166 83 }
+
+		capital = c_bassa
+	}
+
+	d_maryland_in_africa = {
+		color = { 166 193 97 }
+
+		capital = c_grebo
+	}
+}

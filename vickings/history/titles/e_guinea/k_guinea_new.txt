@@ -73,6 +73,12 @@ c_gola = {
 		holder = tribals
 		liege = 0
 	}
+	1835.8.12 = {
+		holder = liberia_0	# Ezekiel Skinner
+	}
+	1856.1.7 = {
+		holder = liberia_1	# Stephen Allen Benson
+	}
 }
 #d_bassa = {
 #}
@@ -80,6 +86,12 @@ c_bassa = {
 	1810.1.1 = {
 		holder = tribals
 		liege = 0
+	}
+	1835.8.12 = {
+		holder = liberia_0	# Ezekiel Skinner
+	}
+	1856.1.7 = {
+		holder = liberia_1	# Stephen Allen Benson
 	}
 }
 c_nuon = {
@@ -156,6 +168,12 @@ c_grebo = {
 	1810.1.1 = {
 		holder = tribals
 		liege = 0
+	}
+	1834.2.12 = {
+		holder = african_maryland_0	# James Hall
+	}
+	1856.1.7 = {
+		holder = liberia_1	# Stephen Allen Benson
 	}
 }
 #d_kru = {

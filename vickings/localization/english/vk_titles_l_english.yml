@@ -105,6 +105,12 @@
  philippines: "Philippines"
  philippines_adj: "Philippine"
 
+ k_liberia: "Liberia"
+ k_liberia_adj: "Liberian"
+ d_liberia: "$k_liberia$"
+ d_liberia_adj: "$k_liberia_adj$"
+ d_maryland_in_africa: "Maryland-in-Africa"
+
  senegal: "Senegal"
  senegal_adj: "Senegalese"
 

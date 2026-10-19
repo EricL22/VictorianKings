@@ -885,6 +885,13 @@ k_banjar = {
 	}
 }
 
+k_liberia = {
+	1856.1.7 = {
+		holder = liberia_1	# Stephen Allen Benson
+		government = republic_government
+	}
+}
+
 d_berg = {
 	1809.3.3 = {
 		holder = bonaparte_8	# Napoleon-Louis
@@ -979,4 +986,20 @@ d_maldives = {
 	1893.5.7 = {
 		holder = huraa_4	# Muhammad Shamsuddeen III
 	}
+}
+
+d_liberia = {
+	1835.8.12 = {
+		holder = liberia_0	# Ezekiel Skinner
+		government = republic_government
+	}
+	1847.7.26 = { holder = 0 }
+}
+
+d_maryland_in_africa = {
+	1834.2.12 = {
+		holder = african_maryland_0	# James Hall
+		government = republic_government
+	}
+	1857.3.18 = { holder = 0 }
 }

@@ -1,0 +1,12 @@
+﻿skinner = {
+	name = "dynn_Skinner"
+	culture = "english"
+}
+benson = {
+	name = "dynn_Benson"
+	culture = "english"
+}
+hall = {
+	name = "dynn_Hall"
+	culture = "english"
+}

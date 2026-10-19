@@ -1,0 +1,9 @@
+﻿heritage_african_diaspora = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_african_diaspora
+		}
+	}
+	audio_parameter = mena
+}

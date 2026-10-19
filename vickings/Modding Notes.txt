@@ -1,6 +1,6 @@
 TODOs:
 HIGH Priority ---
-Liberia, Circassia, Orthodox HoF, Taiping (1861)
+Circassia, Orthodox HoF, Taiping (1861)
 Game Rules: generate family for Sweden in 1812 and matrilineal marriage for Victoria in 1861
 Flavorize e_italy as a kingdom for italian cultures
 Fix Nassau dynasty
@@ -8,8 +8,6 @@ Add tribal Qing generated vassals
 
 LOW Priority ----
 semi-salic succession law - LOCKS allowed gender laws to male-only or male-preference. if your character inherits a title with no dynastic heir on a male-only gender law, it automatically switches to male-preference until another male heir inherits. in the case of your heir dying leaving with you no dynastic heir, that is the ONLY instance you are allowed to change gender laws manually to male-preference, which is otherwise unselectable.
-Republics: France (1914), Portugal (1914)
-Protectorates: Zanzibar, Khiva, Bukhara
 
 
 
@@ -46,3 +44,9 @@ Localization
 A bookmark WILL NOT LOAD if it has any character/title history errors.
 
 -debug_mode -develop
+
+
+
+1914
+Republics: France, Portugal
+Protectorates: Zanzibar, Khiva, Bukhara
