@@ -203,3 +203,13 @@ khun_lo = {
 	name = "dynn_Khun"
 	culture = lao
 }
+
+shupako = {
+	name = "dynn_Shupako"
+	culture = alan
+}
+
+berzeg = {
+	name = "dynn_Berzeg"
+	culture = alan
+}

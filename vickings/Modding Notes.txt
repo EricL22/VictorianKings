@@ -1,10 +1,13 @@
 TODOs:
 HIGH Priority ---
-Circassia, Taiping (1861)
+Taiping (1861)
 Game Rules: generate family for Sweden in 1812 and matrilineal marriage for Victoria in 1861
 Flavorize e_italy as a kingdom for italian cultures
 Fix Nassau dynasty
 Add tribal Qing generated vassals
+Colonial tributary type
+Administrative governments for Prussia and Greece
+Russian Siberia map extension
 
 LOW Priority ----
 semi-salic succession law - LOCKS allowed gender laws to male-only or male-preference. if your character inherits a title with no dynastic heir on a male-only gender law, it automatically switches to male-preference until another male heir inherits. in the case of your heir dying leaving with you no dynastic heir, that is the ONLY instance you are allowed to change gender laws manually to male-preference, which is otherwise unselectable.

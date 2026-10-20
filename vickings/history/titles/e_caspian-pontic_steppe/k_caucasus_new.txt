@@ -86,10 +86,10 @@ d_azov = {
 	}
 }
 c_tmutarakan = {
-	1801.3.23 = {
-		holder = romanov_6	# Alexander I
+	1807.1.1 = {	# Circassia
+		holder = shupako_0	# Qalebatuqo Hatuqay
 	}
-	1825.12.1 = {
+	1825.12.1 = {	# Russia
 		holder = romanov_8	# Nicholas I
 	}
 	1855.3.2 = {
@@ -137,15 +137,16 @@ c_azov = {
 	}
 }
 d_alania = {
-	1801.3.23 = {
-		holder = romanov_6	# Alexander I
+	1807.1.1 = {	# Circassia
+		holder = shupako_0	# Qalebatuqo Hatuqay
 	}
-	1825.12.1 = {
-		holder = romanov_8	# Nicholas I
+	1827.1.1 = {
+		holder = berzeg_1	# Yismel Berzeg
 	}
-	1855.3.2 = {
-		holder = romanov_9	# Alexander II
+	1860.6.25 = {
+		holder = berzeg_3	# Gerandiqo Berzeg
 	}
+	# 1864.6.5: Russian Empire
 	1881.3.13 = {
 		holder = romanov_10	# Alexander III
 	}
@@ -154,15 +155,16 @@ d_alania = {
 	}
 }
 c_maghas = {
-	1801.3.23 = {
-		holder = romanov_6	# Alexander I
+	1807.1.1 = {	# Circassia
+		holder = shupako_0	# Qalebatuqo Hatuqay
 	}
-	1825.12.1 = {
-		holder = romanov_8	# Nicholas I
+	1827.1.1 = {
+		holder = berzeg_1	# Yismel Berzeg
 	}
-	1855.3.2 = {
-		holder = romanov_9	# Alexander II
+	1860.6.25 = {
+		holder = berzeg_3	# Gerandiqo Berzeg
 	}
+	# 1864.6.5: Russian Empire
 	1881.3.13 = {
 		holder = romanov_10	# Alexander III
 	}
@@ -205,10 +207,10 @@ c_besinada = {
 	}
 }
 c_zichia = {
-	1801.3.23 = {
-		holder = romanov_6	# Alexander I
+	1807.1.1 = {	# Circassia
+		holder = shupako_0	# Qalebatuqo Hatuqay
 	}
-	1825.12.1 = {
+	1825.12.1 = {	# Russia
 		holder = romanov_8	# Nicholas I
 	}
 	1855.3.2 = {

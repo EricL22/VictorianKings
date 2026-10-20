@@ -98,9 +98,9 @@ romanov_6 = {
 	trait = fickle
 	1703.5.27 = {
 		set_realm_capital = title:c_vodi
-		effect = {
-			add_character_flag = semi_salic_law
-		}
+#		effect = {
+#			add_character_flag = semi_salic_law
+#		}
 	}
 	1777.12.23 = {
 		birth = yes
@@ -223,7 +223,7 @@ romanov_8 = {
 	1825.12.1 = {
 		set_realm_capital = title:c_vodi
 		effect = {
-			add_character_flag = semi_salic_law
+			#add_character_flag = semi_salic_law
 			add_prestige_experience = 100
 			add_gold = 5000
 			#add_character_modifier = {

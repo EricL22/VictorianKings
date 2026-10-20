@@ -1,0 +1,12 @@
+﻿shupako_0 = {
+	name = "Hatuqay"
+	dynasty = shupako
+	rite = hanafi
+	culture = alan
+	1770.1.1 = {	# unknown
+		birth = yes
+	}
+	1827.1.1 = {	# unknown
+		death = yes
+	}
+}

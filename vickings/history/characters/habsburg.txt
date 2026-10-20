@@ -303,7 +303,7 @@ habsburg_20 = {
 		add_spouse = bourbon_44
 	}
 	1793.1.1 = {
-		effect = { add_character_flag = semi_salic_law }
+#		effect = { add_character_flag = semi_salic_law }
 	}
 	1835.3.2 = {
 		death = yes
@@ -333,7 +333,7 @@ habsburg_21 = {
 		}
 	}
 	1835.3.2 = {
-		effect = { add_character_flag = semi_salic_law }
+#		effect = { add_character_flag = semi_salic_law }
 	}
 	1875.6.29 = {
 		death = yes
