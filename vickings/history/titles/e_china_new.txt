@@ -3277,61 +3277,61 @@ c_ziting = {
 #}
 
 d_jiangdong = {
-	1811.7.27 = {
+	1811.7.27 = {	# China
 		holder = liangjiang_0	# Bailing
 	}
 	1830.10.11 = {
 		holder = liangjiang_1	# Tao Zhu
 	}
-	1860.8.10 = {
-		holder = liangjiang_2	# Zeng Guofan
+	1860.1.1 = {	# Taiping
+		holder = taiping_0	# Hong Xiuquan
 	}
-	1912.3.10 = {
+	1912.3.10 = {	# China
 		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_jiangning = {
-	1811.7.27 = {
+	1811.7.27 = {	# China
 		holder = liangjiang_0	# Bailing
 	}
 	1830.10.11 = {
 		holder = liangjiang_1	# Tao Zhu
 	}
-	1860.8.10 = {
-		holder = liangjiang_2	# Zeng Guofan
+	1860.1.1 = {	# Taiping
+		holder = taiping_0	# Hong Xiuquan
 	}
-	1912.3.10 = {
+	1912.3.10 = {	# China
 		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_runzhou = {
-	1811.7.27 = {
+	1811.7.27 = {	# China
 		holder = liangjiang_0	# Bailing
 	}
 	1830.10.11 = {
 		holder = liangjiang_1	# Tao Zhu
 	}
-	1860.8.10 = {
-		holder = liangjiang_2	# Zeng Guofan
+	1860.1.1 = {	# Taiping
+		holder = taiping_0	# Hong Xiuquan
 	}
-	1912.3.10 = {
+	1912.3.10 = {	# China
 		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_changzhou = {
-	1811.7.27 = {
+	1811.7.27 = {	# China
 		holder = liangjiang_0	# Bailing
 	}
 	1830.10.11 = {
 		holder = liangjiang_1	# Tao Zhu
 	}
-	1860.8.10 = {
-		holder = liangjiang_2	# Zeng Guofan
+	1860.1.1 = {	# Taiping
+		holder = taiping_0	# Hong Xiuquan
 	}
-	1912.3.10 = {
+	1912.3.10 = {	# China
 		holder = eas_00501	# Yuan Shikai
 	}
 }
@@ -3355,181 +3355,181 @@ d_xuanshe = {
 	1800.1.1 = {
 		de_jure_liege = k_huainan
 	}
-	1811.7.27 = {
+	1811.7.27 = {	# China
 		holder = liangjiang_0	# Bailing
 	}
 	1830.10.11 = {
 		holder = liangjiang_1	# Tao Zhu
 	}
-	1860.8.10 = {
-		holder = liangjiang_2	# Zeng Guofan
+	1860.1.1 = {	# Taiping
+		holder = taiping_0	# Hong Xiuquan
 	}
-	1912.3.10 = {
+	1912.3.10 = {	# China
 		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_xuanzhou = {
-	1811.7.27 = {
+	1811.7.27 = {	# China
 		holder = liangjiang_0	# Bailing
 	}
 	1830.10.11 = {
 		holder = liangjiang_1	# Tao Zhu
 	}
-	1860.8.10 = {
-		holder = liangjiang_2	# Zeng Guofan
+	1860.1.1 = {	# Taiping
+		holder = taiping_0	# Hong Xiuquan
 	}
-	1912.3.10 = {
+	1912.3.10 = {	# China
 		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_chizhou = {
-	1811.7.27 = {
+	1811.7.27 = {	# China
 		holder = liangjiang_0	# Bailing
 	}
 	1830.10.11 = {
 		holder = liangjiang_1	# Tao Zhu
 	}
-	1860.8.10 = {
-		holder = liangjiang_2	# Zeng Guofan
+	1860.1.1 = {	# Taiping
+		holder = taiping_0	# Hong Xiuquan
 	}
-	1912.3.10 = {
+	1912.3.10 = {	# China
 		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_shezhou = {
-	1811.7.27 = {
+	1811.7.27 = {	# China
 		holder = liangjiang_0	# Bailing
 	}
 	1830.10.11 = {
 		holder = liangjiang_1	# Tao Zhu
 	}
-	1860.8.10 = {
-		holder = liangjiang_2	# Zeng Guofan
+	1860.1.1 = {	# Taiping
+		holder = taiping_0	# Hong Xiuquan
 	}
-	1912.3.10 = {
+	1912.3.10 = {	# China
 		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_guangde = {
-	1811.7.27 = {
+	1811.7.27 = {	# China
 		holder = liangjiang_0	# Bailing
 	}
 	1830.10.11 = {
 		holder = liangjiang_1	# Tao Zhu
 	}
-	1860.8.10 = {
-		holder = liangjiang_2	# Zeng Guofan
+	1860.1.1 = {	# Taiping
+		holder = taiping_0	# Hong Xiuquan
 	}
-	1912.3.10 = {
+	1912.3.10 = {	# China
 		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 d_zhexi = {
-	1810.1.1 = {
+	1810.1.1 = {	# China
 		holder = minzhe_0	# Wang Zhiyi
 	}
 	1832.1.1 = {
 		holder = minzhe_1	# Cheng Zuluo
 	}
-	1859.1.1 = {
-		holder = minzhe_2	# Qingduan
+	1860.1.1 = {	# Taiping
+		holder = taiping_0	# Hong Xiuquan
 	}
-	1912.3.10 = {
+	1912.3.10 = {	# China
 		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_hangzhou = {
-	1810.1.1 = {
+	1810.1.1 = {	# China
 		holder = minzhe_0	# Wang Zhiyi
 	}
 	1832.1.1 = {
 		holder = minzhe_1	# Cheng Zuluo
 	}
-	1859.1.1 = {
-		holder = minzhe_2	# Qingduan
+	1860.1.1 = {	# Taiping
+		holder = taiping_0	# Hong Xiuquan
 	}
-	1912.3.10 = {
+	1912.3.10 = {	# China
 		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_xiuzhou = {
-	1810.1.1 = {
+	1810.1.1 = {	# China
 		holder = minzhe_0	# Wang Zhiyi
 	}
 	1832.1.1 = {
 		holder = minzhe_1	# Cheng Zuluo
 	}
-	1859.1.1 = {
-		holder = minzhe_2	# Qingduan
+	1860.1.1 = {	# Taiping
+		holder = taiping_0	# Hong Xiuquan
 	}
-	1912.3.10 = {
+	1912.3.10 = {	# China
 		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_huzhou = {
-	1810.1.1 = {
+	1810.1.1 = {	# China
 		holder = minzhe_0	# Wang Zhiyi
 	}
 	1832.1.1 = {
 		holder = minzhe_1	# Cheng Zuluo
 	}
-	1859.1.1 = {
-		holder = minzhe_2	# Qingduan
+	1860.1.1 = {	# Taiping
+		holder = taiping_0	# Hong Xiuquan
 	}
-	1912.3.10 = {
+	1912.3.10 = {	# China
 		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_muzhou = {
-	1810.1.1 = {
+	1810.1.1 = {	# China
 		holder = minzhe_0	# Wang Zhiyi
 	}
 	1832.1.1 = {
 		holder = minzhe_1	# Cheng Zuluo
 	}
-	1859.1.1 = {
-		holder = minzhe_2	# Qingduan
+	1860.1.1 = {	# Taiping
+		holder = taiping_0	# Hong Xiuquan
 	}
-	1912.3.10 = {
+	1912.3.10 = {	# China
 		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 d_zhedong = {
-	1810.1.1 = {
+	1810.1.1 = {	# China
 		holder = minzhe_0	# Wang Zhiyi
 	}
 	1832.1.1 = {
 		holder = minzhe_1	# Cheng Zuluo
 	}
-	1859.1.1 = {
-		holder = minzhe_2	# Qingduan
+	1860.1.1 = {	# Taiping
+		holder = taiping_0	# Hong Xiuquan
 	}
-	1912.3.10 = {
+	1912.3.10 = {	# China
 		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_yuezhou = {
-	1810.1.1 = {
+	1810.1.1 = {	# China
 		holder = minzhe_0	# Wang Zhiyi
 	}
 	1832.1.1 = {
 		holder = minzhe_1	# Cheng Zuluo
 	}
-	1859.1.1 = {
-		holder = minzhe_2	# Qingduan
+	1860.1.1 = {	# Taiping
+		holder = taiping_0	# Hong Xiuquan
 	}
-	1912.3.10 = {
+	1912.3.10 = {	# China
 		holder = eas_00501	# Yuan Shikai
 	}
 }
@@ -3550,76 +3550,76 @@ c_mingzhou_1 = {
 }
 
 c_wuzhou = {
-	1810.1.1 = {
+	1810.1.1 = {	# China
 		holder = minzhe_0	# Wang Zhiyi
 	}
 	1832.1.1 = {
 		holder = minzhe_1	# Cheng Zuluo
 	}
-	1859.1.1 = {
-		holder = minzhe_2	# Qingduan
+	1860.1.1 = {	# Taiping
+		holder = taiping_0	# Hong Xiuquan
 	}
-	1912.3.10 = {
+	1912.3.10 = {	# China
 		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_taizhou = {
-	1810.1.1 = {
+	1810.1.1 = {	# China
 		holder = minzhe_0	# Wang Zhiyi
 	}
 	1832.1.1 = {
 		holder = minzhe_1	# Cheng Zuluo
 	}
-	1859.1.1 = {
-		holder = minzhe_2	# Qingduan
+	1860.1.1 = {	# Taiping
+		holder = taiping_0	# Hong Xiuquan
 	}
-	1912.3.10 = {
+	1912.3.10 = {	# China
 		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_chuzhou = {
-	1810.1.1 = {
+	1810.1.1 = {	# China
 		holder = minzhe_0	# Wang Zhiyi
 	}
 	1832.1.1 = {
 		holder = minzhe_1	# Cheng Zuluo
 	}
-	1859.1.1 = {
-		holder = minzhe_2	# Qingduan
+	1860.1.1 = {	# Taiping
+		holder = taiping_0	# Hong Xiuquan
 	}
-	1912.3.10 = {
+	1912.3.10 = {	# China
 		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_xin_an = {
-	1810.1.1 = {
+	1810.1.1 = {	# China
 		holder = minzhe_0	# Wang Zhiyi
 	}
 	1832.1.1 = {
 		holder = minzhe_1	# Cheng Zuluo
 	}
-	1859.1.1 = {
-		holder = minzhe_2	# Qingduan
+	1860.1.1 = {	# Taiping
+		holder = taiping_0	# Hong Xiuquan
 	}
-	1912.3.10 = {
+	1912.3.10 = {	# China
 		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_wenzhou_2 = {
-	1810.1.1 = {
+	1810.1.1 = {	# China
 		holder = minzhe_0	# Wang Zhiyi
 	}
 	1832.1.1 = {
 		holder = minzhe_1	# Cheng Zuluo
 	}
-	1859.1.1 = {
-		holder = minzhe_2	# Qingduan
+	1860.1.1 = {	# Taiping
+		holder = taiping_0	# Hong Xiuquan
 	}
-	1912.3.10 = {
+	1912.3.10 = {	# China
 		holder = eas_00501	# Yuan Shikai
 	}
 }
@@ -3808,76 +3808,76 @@ d_huainan = {
 	1800.1.1 = {
 		de_jure_liege = k_jiangdong
 	}
-	1811.7.27 = {
+	1811.7.27 = {	# China
 		holder = liangjiang_0	# Bailing
 	}
 	1830.10.11 = {
 		holder = liangjiang_1	# Tao Zhu
 	}
-	1860.8.10 = {
-		holder = liangjiang_2	# Zeng Guofan
+	1860.1.1 = {	# Taiping
+		holder = taiping_0	# Hong Xiuquan
 	}
-	1912.3.10 = {
+	1912.3.10 = {	# China
 		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_yangzhou = {
-	1811.7.27 = {
+	1811.7.27 = {	# China
 		holder = liangjiang_0	# Bailing
 	}
 	1830.10.11 = {
 		holder = liangjiang_1	# Tao Zhu
 	}
-	1860.8.10 = {
-		holder = liangjiang_2	# Zeng Guofan
+	1860.1.1 = {	# Taiping
+		holder = taiping_0	# Hong Xiuquan
 	}
-	1912.3.10 = {
+	1912.3.10 = {	# China
 		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_taizhou_1 = {
-	1811.7.27 = {
+	1811.7.27 = {	# China
 		holder = liangjiang_0	# Bailing
 	}
 	1830.10.11 = {
 		holder = liangjiang_1	# Tao Zhu
 	}
-	1860.8.10 = {
-		holder = liangjiang_2	# Zeng Guofan
+	1860.1.1 = {	# Taiping
+		holder = taiping_0	# Hong Xiuquan
 	}
-	1912.3.10 = {
+	1912.3.10 = {	# China
 		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_chuzhou_1 = {
-	1811.7.27 = {
+	1811.7.27 = {	# China
 		holder = liangjiang_0	# Bailing
 	}
 	1830.10.11 = {
 		holder = liangjiang_1	# Tao Zhu
 	}
-	1860.8.10 = {
-		holder = liangjiang_2	# Zeng Guofan
+	1860.1.1 = {	# Taiping
+		holder = taiping_0	# Hong Xiuquan
 	}
-	1912.3.10 = {
+	1912.3.10 = {	# China
 		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_chuzhou_2 = {
-	1811.7.27 = {
+	1811.7.27 = {	# China
 		holder = liangjiang_0	# Bailing
 	}
 	1830.10.11 = {
 		holder = liangjiang_1	# Tao Zhu
 	}
-	1860.8.10 = {
-		holder = liangjiang_2	# Zeng Guofan
+	1860.1.1 = {	# Taiping
+		holder = taiping_0	# Hong Xiuquan
 	}
-	1912.3.10 = {
+	1912.3.10 = {	# China
 		holder = eas_00501	# Yuan Shikai
 	}
 }
@@ -3913,16 +3913,16 @@ c_shouzhou = {
 }
 
 c_lujiang = {
-	1811.7.27 = {
+	1811.7.27 = {	# China
 		holder = liangjiang_0	# Bailing
 	}
 	1830.10.11 = {
 		holder = liangjiang_1	# Tao Zhu
 	}
-	1860.8.10 = {
-		holder = liangjiang_2	# Zeng Guofan
+	1860.1.1 = {	# Taiping
+		holder = taiping_0	# Hong Xiuquan
 	}
-	1912.3.10 = {
+	1912.3.10 = {	# China
 		holder = eas_00501	# Yuan Shikai
 	}
 }
@@ -3973,16 +3973,16 @@ c_guangzhou = {
 }
 
 c_shuzhou = {
-	1811.7.27 = {
+	1811.7.27 = {	# China
 		holder = liangjiang_0	# Bailing
 	}
 	1830.10.11 = {
 		holder = liangjiang_1	# Tao Zhu
 	}
-	1860.8.10 = {
-		holder = liangjiang_2	# Zeng Guofan
+	1860.1.1 = {	# Taiping
+		holder = taiping_0	# Hong Xiuquan
 	}
-	1912.3.10 = {
+	1912.3.10 = {	# China
 		holder = eas_00501	# Yuan Shikai
 	}
 }
@@ -4108,76 +4108,76 @@ c_linjiang = {
 }
 
 d_dingjiang = {
-	1811.7.27 = {
+	1811.7.27 = {	# China
 		holder = liangjiang_0	# Bailing
 	}
 	1830.10.11 = {
 		holder = liangjiang_1	# Tao Zhu
 	}
-	1860.8.10 = {
-		holder = liangjiang_2	# Zeng Guofan
+	1860.1.1 = {	# Taiping
+		holder = taiping_0	# Hong Xiuquan
 	}
-	1912.3.10 = {
+	1912.3.10 = {	# China
 		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_yunyang = {
-	1811.7.27 = {
+	1811.7.27 = {	# China
 		holder = liangjiang_0	# Bailing
 	}
 	1830.10.11 = {
 		holder = liangjiang_1	# Tao Zhu
 	}
-	1860.8.10 = {
-		holder = liangjiang_2	# Zeng Guofan
+	1860.1.1 = {	# Taiping
+		holder = taiping_0	# Hong Xiuquan
 	}
-	1912.3.10 = {
+	1912.3.10 = {	# China
 		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_raozhou = {
-	1811.7.27 = {
+	1811.7.27 = {	# China
 		holder = liangjiang_0	# Bailing
 	}
 	1830.10.11 = {
 		holder = liangjiang_1	# Tao Zhu
 	}
-	1860.8.10 = {
-		holder = liangjiang_2	# Zeng Guofan
+	1860.1.1 = {	# Taiping
+		holder = taiping_0	# Hong Xiuquan
 	}
-	1912.3.10 = {
+	1912.3.10 = {	# China
 		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_nankang = {
-	1811.7.27 = {
+	1811.7.27 = {	# China
 		holder = liangjiang_0	# Bailing
 	}
 	1830.10.11 = {
 		holder = liangjiang_1	# Tao Zhu
 	}
-	1860.8.10 = {
-		holder = liangjiang_2	# Zeng Guofan
+	1860.1.1 = {	# Taiping
+		holder = taiping_0	# Hong Xiuquan
 	}
-	1912.3.10 = {
+	1912.3.10 = {	# China
 		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_xinhzou = {
-	1811.7.27 = {
+	1811.7.27 = {	# China
 		holder = liangjiang_0	# Bailing
 	}
 	1830.10.11 = {
 		holder = liangjiang_1	# Tao Zhu
 	}
-	1860.8.10 = {
-		holder = liangjiang_2	# Zeng Guofan
+	1860.1.1 = {	# Taiping
+		holder = taiping_0	# Hong Xiuquan
 	}
-	1912.3.10 = {
+	1912.3.10 = {	# China
 		holder = eas_00501	# Yuan Shikai
 	}
 }
@@ -4487,16 +4487,16 @@ d_eyue = {
 }
 
 c_ezhou = {
-	1810.9.1 = {
+	1810.9.1 = {	# China
 		holder = huguang_0	# Ma Huiyu
 	}
 	1832.1.1 = {
 		holder = huguang_1	# Nergingge
 	}
-	1855.6.1 = {
-		holder = huguang_2	# Guanwen
+	1860.1.1 = {	# Taiping
+		holder = taiping_0	# Hong Xiuquan
 	}
-	1912.3.10 = {
+	1912.3.10 = {	# China
 		holder = eas_00501	# Yuan Shikai
 	}
 }
@@ -4535,31 +4535,31 @@ c_yuezhou_1 = {
 }
 
 c_huangzhou = {
-	1810.9.1 = {
+	1810.9.1 = {	# China
 		holder = huguang_0	# Ma Huiyu
 	}
 	1832.1.1 = {
 		holder = huguang_1	# Nergingge
 	}
-	1855.6.1 = {
-		holder = huguang_2	# Guanwen
+	1860.1.1 = {	# Taiping
+		holder = taiping_0	# Hong Xiuquan
 	}
-	1912.3.10 = {
+	1912.3.10 = {	# China
 		holder = eas_00501	# Yuan Shikai
 	}
 }
 
 c_qizhou_1 = {
-	1810.9.1 = {
+	1810.9.1 = {	# China
 		holder = huguang_0	# Ma Huiyu
 	}
 	1832.1.1 = {
 		holder = huguang_1	# Nergingge
 	}
-	1855.6.1 = {
-		holder = huguang_2	# Guanwen
+	1860.1.1 = {	# Taiping
+		holder = taiping_0	# Hong Xiuquan
 	}
-	1912.3.10 = {
+	1912.3.10 = {	# China
 		holder = eas_00501	# Yuan Shikai
 	}
 }
@@ -6894,16 +6894,16 @@ c_guizhou_2 = {
 	}
 }
 c_liyang_2 = {
-	1811.7.27 = {
+	1811.7.27 = {	# China
 		holder = liangjiang_0	# Bailing
 	}
 	1830.10.11 = {
 		holder = liangjiang_1	# Tao Zhu
 	}
-	1860.8.10 = {
-		holder = liangjiang_2	# Zeng Guofan
+	1860.1.1 = {	# Taiping
+		holder = taiping_0	# Hong Xiuquan
 	}
-	1912.3.10 = {
+	1912.3.10 = {	# China
 		holder = eas_00501	# Yuan Shikai
 	}
 }

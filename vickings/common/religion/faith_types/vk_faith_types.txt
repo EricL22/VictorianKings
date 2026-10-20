@@ -26,3 +26,41 @@
 
 	#localization = { }
 }
+
+godworship = {
+	main_rite = godworship
+	faith_details = {
+		religion = christianity_religion
+		color = { 0.6 0.4 0.4 }
+		icon = custom_faith_4
+		graphical_faith = "catholic_gfx"
+		religious_head = k_taiping
+	}
+
+	eminent_holy_sites = {
+		jerusalem
+	}
+
+	holy_sites = {
+		cologne
+		holland
+	}
+
+	doctrines = {
+		doctrine_temporal_head
+		doctrine_pluralism_fundamentalist
+		doctrine_theocracy_lay_clergy
+		doctrine_concubines
+		doctrine_consanguinity_restricted
+		doctrine_homosexuality_crime
+		doctrine_adultery_men_crime
+		doctrine_clerical_succession_temporal_appointment
+		doctrine_monasticism_absent
+	}
+
+	localization = {
+		ReligiousHeadName = godworship_religious_head_title
+		ReligiousHeadNameFemale = godworship_religious_head_title_female
+		ReligiousHeadTitleName = godworship_religious_head_title_name
+	}
+}

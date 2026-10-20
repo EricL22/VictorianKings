@@ -49,3 +49,13 @@ war = {
 	defenders = { varman_1 nguyen_0 }
 	claimant = varman_51
 }
+
+# Taiping Rebellion
+war = {
+	name = "war_Taiping"
+	start_date = 1851.1.11
+	end_date = 1864.11.18
+	casus_belli = annexation_war
+	attackers = { taiping_0 }
+	defenders = { qing_8 }
+}

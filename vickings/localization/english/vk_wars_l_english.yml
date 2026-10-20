@@ -5,3 +5,9 @@
  congress_of_vienna_war_desc:1 "Depending on the victors' choice, one of these will happen:\n$EFFECT_LIST_BULLET$[attacker.GetShortUIName|U] will cede all lands east of the Rhine River and the Alps, and south of the Pyrenees.\n$EFFECT_LIST_BULLET$[attacker.GetShortUIName|U] will abdicate and cede the above lands.\n$EFFECT_LIST_BULLET$[attacker.GetShortUIName|U] will abdicate to a Bourbon claimant and the 1792 French borders will be restored. The empire is forfeit and downgraded to a kingdom."
  frankfurt_treaty_desc:1 "[defender.GetTitledFirstName] will cede all lands east of the Rhine River and the Alps, and south of the Pyrenees."
  paris_treaty_desc:1 "In addition to the below lands ceded, France shall be restored to its borders as they existed in 1792. [bourbon.GetFullName] will be recognized as the new King of France."
+
+ annexation_war: "Annexation"
+ annexation_war_victory_desc_attacker: "You seize all titles within [defender.GetShortUINamePossessive] realm."
+ annexation_war_victory_desc: "[attacker.GetShortUIName|U] seizes all titles within [defender.GetShortUINamePossessive] realm."
+ annexation_war_defeat_desc_defender: "You seize all titles within [attacker.GetShortUINamePossessive] realm."
+ annexation_war_defeat_desc: "[defender.GetShortUIName|U] seizes all titles within [attacker.GetShortUINamePossessive] realm."

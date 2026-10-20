@@ -213,3 +213,8 @@ berzeg = {
 	name = "dynn_Berzeg"
 	culture = alan
 }
+
+hong = {
+	name = "dynn_Hong"
+	culture = han
+}

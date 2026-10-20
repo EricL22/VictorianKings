@@ -385,3 +385,16 @@ k_liberia = {
 		capital = c_grebo
 	}
 }
+
+k_taiping = {
+	color = { 100 150 20 }
+	definite_form = yes
+	ruler_uses_title_name = no
+	no_automatic_claims = yes
+	always_follows_primary_heir = yes
+	destroy_if_invalid_heir = yes
+	can_be_named_after_dynasty = no
+	can_use_nomadic_naming = no
+
+	capital = c_jiangning
+}

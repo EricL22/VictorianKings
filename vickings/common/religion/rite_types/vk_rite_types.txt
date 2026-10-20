@@ -50,3 +50,30 @@ reformed_rite = {
 
 	#localization = { }
 }
+
+godworship = {
+	faith = godworship
+
+	color = { 0.6 0.4 0.4 }
+	icon = custom_faith_4
+
+	tenets = {
+		tenet_communal_identity
+		tenet_warmonger
+		tenet_literalism
+	}
+
+	doctrines = {
+		doctrine_temporal_head
+		doctrine_pluralism_fundamentalist
+		doctrine_theocracy_lay_clergy
+		doctrine_concubines
+		doctrine_consanguinity_restricted
+		doctrine_homosexuality_crime
+		doctrine_adultery_men_crime
+		doctrine_clerical_succession_temporal_appointment
+		doctrine_monasticism_absent
+	}
+
+	#localization = { }
+}

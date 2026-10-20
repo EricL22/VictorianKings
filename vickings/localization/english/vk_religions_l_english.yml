@@ -15,6 +15,15 @@
  reformed_adherent_plural:0 "Calvinists"
  reformed_rite_desc:0 "Reformed covers a wide range of religious traditions inspired by men such as Jean Calvin or John Knox. Appearing later than the Protestant faiths, the Reformed religion also rejects papal authority and want to return to the rules of the scriptures but unlike the Protestants they embrace a number of perceived more hard-line ideas such as predestination and iconoclasm and will not form state Churches."
 
+ godworship: "God-Worship"
+ godworship_adj: "God-Worship"
+ godworship_adherent: "God-Worshipper"
+ godworship_adherent_plural: "God-Worshippers"
+ godworship_desc: "The God-Worshipping Society is a nontrinitarian Christian syncretist movement founded by Hong Xiuquan, who proclaimed himself the younger brother of Jesus Christ. It emphasizes a highly strict moral code, the abolition of idols, and the concept of an egalitarian, communal society."
+ godworship_religious_head_title: "Heavenly King"
+ godworship_religious_head_title_female: "Heavenly Queen"
+ godworship_religious_head_title_name: "Heavenly Kingdom"
+
  #Holy Sites
  holy_site_holland_name:0 "Holland"
  holy_site_holland_effect_name:0 "From [holy_site|E] #weak ($holy_site_rome_name$)#!"

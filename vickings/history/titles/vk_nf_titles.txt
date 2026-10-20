@@ -753,7 +753,7 @@ c_nf_ma = {
 c_nf_wanggiya = {
 	1855.6.1 = {
 		liege = h_china
-		holder = liangjiang_2	# Zeng Guofan
+		holder = huguang_2	# Guanwen
 		government = celestial_government
 		succession_laws = { noble_family_succession_law }
 	}
@@ -1605,5 +1605,20 @@ c_nf_matsumae = {
 	}
 	1849.6.9 = {
 		holder = matsumae_14	# Takahiro
+	}
+}
+
+c_nf_hong = {
+	1851.1.11 = {
+		liege = k_taiping
+		holder = taiping_0	# Hong Xiuquan
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1864.6.2 = {
+		holder = taiping_1	# Hong Tianguifu
+	}
+	1864.11.18 = {
+		holder = 0
 	}
 }

@@ -1,0 +1,33 @@
+﻿taiping_0 = {
+	name = "Huoxiu"	# 火秀
+	dynasty = hong
+	culture = han
+	rite = godworship
+	1814.1.1 = {
+		birth = yes
+	}
+	1830.1.1 = {
+		trait = zealous
+		trait = education_learning_1
+	}
+	1837.1.1 = {
+		name = "Xiuquan"	# 秀全
+	}
+	1864.6.1 = {
+		death = yes
+	}
+}
+
+taiping_1 = {
+	name = "Tianguifu"	# 天貴福
+	dynasty = hong
+	culture = han
+	rite = godworship
+	father = taiping_0
+	1849.11.23 = {
+		birth = yes
+	}
+	1864.11.18 = {
+		death = yes
+	}
+}

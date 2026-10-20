@@ -892,6 +892,19 @@ k_liberia = {
 	}
 }
 
+k_taiping = {
+	1851.1.11 = {
+		holder = taiping_0	# Hong Xiuquan
+		government = celestial_government
+	}
+	1864.6.2 = {
+		holder = taiping_1	# Hong Tianguifu
+	}
+	1864.11.18 = {
+		holder = 0
+	}
+}
+
 d_berg = {
 	1809.3.3 = {
 		holder = bonaparte_8	# Napoleon-Louis

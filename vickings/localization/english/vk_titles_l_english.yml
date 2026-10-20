@@ -111,6 +111,10 @@
  d_liberia_adj: "$k_liberia_adj$"
  d_maryland_in_africa: "Maryland-in-Africa"
 
+ k_taiping_article: "the "
+ k_taiping: "Taiping Heavenly Kingdom"
+ k_taiping_adj: "Taiping"
+
  senegal: "Senegal"
  senegal_adj: "Senegalese"
 
@@ -402,3 +406,5 @@
  c_nf_sakakibara_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
  c_nf_matsumae: "$dynn_Matsumae$ Family"
  c_nf_matsumae_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ c_nf_hong: "$dynn_Hong$ Family"
+ c_nf_hong_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
