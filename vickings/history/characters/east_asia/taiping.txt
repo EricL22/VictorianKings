@@ -3,6 +3,7 @@
 	dynasty = hong
 	culture = han
 	rite = godworship
+	learning = 4
 	1814.1.1 = {
 		birth = yes
 	}
@@ -12,6 +13,9 @@
 	}
 	1837.1.1 = {
 		name = "Xiuquan"	# 秀全
+	}
+	1851.1.11 = {
+		add_legitimacy = 100
 	}
 	1864.6.1 = {
 		death = yes

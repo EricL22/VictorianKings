@@ -172,6 +172,12 @@ qing_8 = {
 		set_realm_capital = title:c_youzhou
 		trait = consumption
 	}
+	1852.6.14 = {
+		add_spouse = qing_101	# Ci'an
+	}
+	1852.6.26 = {
+		add_concubine = qing_100	# Cixi
+	}
 	1861.8.22 = {
 #		name = "Wenzong"
 		death = yes
@@ -184,6 +190,8 @@ qing_9 = {
 	culture = manchu
 	rite = daoxue
 	father = qing_8
+	mother = qing_100
+	trait = child_of_concubine_female
 	1856.4.27 = {
 		birth = yes
 	}
@@ -307,6 +315,47 @@ qing_23 = {
 		}
 	}
 	1843.3.4 = {
+		death = yes
+	}
+}
+####################
+
+## Non-Aisin-Gioro Family Members
+qing_100 = {
+	name = "Xingzhen"	# 杏貞
+	dynasty = nara
+	culture = manchu
+	rite = daoxue
+	female = yes
+	1835.11.29 = {
+		birth = yes
+	}
+	1851.11.29 = {
+		trait = ambitious
+		trait = deceitful
+		trait = education_intrigue_4
+	}
+	1861.1.1 = {
+		name = "Cixi"	# 慈禧
+	}
+	1908.11.15 = {
+		death = yes
+	}
+}
+qing_101 = {
+	name = "Ci'an"	# 慈安
+	dynasty = niohuru
+	culture = manchu
+	rite = daoxue
+	trait = calm
+	trait = trusting
+	trait = temperate
+	trait = education_learning_3
+	female = yes
+	1837.8.12 = {
+		birth = yes
+	}
+	1881.4.8 = {
 		death = yes
 	}
 }

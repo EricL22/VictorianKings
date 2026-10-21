@@ -433,6 +433,20 @@ oldenburg_28 = {
 	}
 }
 
+oldenburg_29 = {
+	name = "Georg Ludwig"	# Prince of Holstein-Gottorp
+	dynasty_house = house_hols_gott
+	rite = lutheran_rite
+	culture = saxon
+	father = oldenburg_24
+	1719.3.16 = {
+		birth = yes
+	}
+	1763.9.7 = {
+		death = yes
+	}
+}
+
 ## Schleswig-Holstein
 oldenburg_30 = {
 	name = "Johann"	# of Schleswig-Holstein-Sonderburg
@@ -754,6 +768,50 @@ oldenburg_64 = {
 		birth = yes
 	}
 	1964.3.6 = {
+		death = yes
+	}
+}
+
+## Additional Holstein-Gottorp
+oldenburg_70 = {
+	name = "Peter"	# I of Oldenburg
+	dynasty_house = house_hols_gott
+	rite = lutheran_rite
+	culture = saxon
+	father = oldenburg_29
+	1755.1.17 = {
+		birth = yes
+	}
+	1829.5.21 = {
+		death = yes
+	}
+}
+
+oldenburg_71 = {
+	name = "August"	# I of Oldenburg
+	dynasty_house = house_hols_gott
+	rite = lutheran_rite
+	culture = saxon
+	father = oldenburg_70
+	1783.7.13 = {
+		birth = yes
+	}
+	1853.2.27 = {
+		death = yes
+	}
+}
+
+oldenburg_72 = {
+	name = "Amalia"	# Queen of Greece
+	dynasty_house = house_hols_gott
+	rite = lutheran_rite
+	culture = saxon
+	father = oldenburg_71
+	female = yes
+	1818.12.21 = {
+		birth = yes
+	}
+	1875.5.20 = {
 		death = yes
 	}
 }

@@ -289,6 +289,33 @@ c_nf_aisin_gioro = {
 	}
 }
 
+d_nf_wittelsbach = {
+	1806.7.12 = {
+		liege = k_bavaria
+		holder = wittelsbach_0	# Maximilian I Joseph
+		government = administrative_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1825.10.13 = {
+		holder = wittelsbach_1	# Ludwig I
+	}
+	1848.3.20 = {
+		holder = wittelsbach_2	# Maximilian II
+	}
+}
+
+d_nf_hohenzollern = {
+	1797.11.16 = {
+		liege = k_prussia
+		holder = hohenzollern_16	# Frederick William III
+		government = administrative_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1861.1.2 = {
+		holder = hohenzollern_18	# Wilhelm I
+	}
+}
+
 ### OTHER HISTORICAL CHARACTERS
 
 d_nf_berryer = {

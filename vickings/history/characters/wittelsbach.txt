@@ -94,6 +94,9 @@ wittelsbach_5 = {
 	1832.5.27 = {
 		trait = disinherited	# Prevented from inheriting Bavaria by Congress
 	}
+	1836.12.22 = {
+		add_spouse = oldenburg_72	# Amalia of Oldenburg
+	}
 	1867.7.26 = {
 		death = yes
 	}
