@@ -8325,6 +8325,11 @@
 		culture = manchu
 	}
 }
+10497 = {
+	1800.1.1 = {
+		culture = manchu
+	}
+}
 10802 = {
 	1800.1.1 = {
 		rite = theravada
@@ -9235,6 +9240,16 @@
 12428 = {
 	1800.1.1 = {
 		culture = han
+	}
+}
+12433 = {
+	1800.1.1 = {
+		culture = manchu
+	}
+}
+12435 = {
+	1800.1.1 = {
+		culture = manchu
 	}
 }
 12437 = {

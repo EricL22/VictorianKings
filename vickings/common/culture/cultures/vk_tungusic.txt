@@ -1,0 +1,27 @@
+﻿evenk = {
+	color = { 140 110 35 }
+
+	ethos = ethos_communal
+	heritage = heritage_tungusic
+	language = language_tungusic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_hunters
+		tradition_forest_folk
+		tradition_forest_fighters
+	}
+
+	name_list = name_list_evenk
+
+	coa_gfx = { mongol_coa_gfx steppe_coa_gfx }
+	building_gfx = { amuric_building_gfx steppe_building_gfx }
+	clothing_gfx = { nivkh_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+	house_coa_frame = house_frame_14
+
+	ethnicities = {
+		100 = asian_manchu_korean
+	}
+}

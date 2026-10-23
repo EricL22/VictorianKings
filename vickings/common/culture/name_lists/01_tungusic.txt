@@ -1,0 +1,28 @@
+﻿name_list_evenk = {	
+
+	dynasty_name_first = yes
+	dynasty_names = {
+		"dynn_Bulagat"
+		"dynn_Ekhirit"
+		"dynn_Khongodor"
+	}
+	cadet_dynasty_names = {
+		"dynn_Bulagat"
+		"dynn_Ekhirit"
+		"dynn_Khongodor"
+	}
+	
+	male_names = {			
+		Agbarjin Adai Altan Arigaba Arugtai Ayurparibhadra Bodi Bek Bahamu Bars Buyan BiligtU_ Dayan Darayisung 
+		Delbeg Ejei Elbeg Engke GU_yU_k GU_n Gulichi Irinchibal Jorightu Kublai KO_ke Ligdan MarkO_rgis MO_ngke Mulan 
+		Manduulun O_ljei O_rU_g Oyiradai O_gO_dei Qayshan Qoshila Sayn Suddhipala Tayisung Temujin TemU_r Toghun TU_men 
+		Tolui Toq Uskhal YesU_n Ariq Batu Eljigidei Joichi
+	}
+	female_names = {			
+		Naryiaana Aiyyna Kydaana Tuskulaana Khaarchaana TemU_len BO_rte Mandukhai Samar Zaufishan
+	}
+	
+	dynasty_of_location_prefix = "dynnp_of"
+	founder_named_dynasties = yes	
+	house_based_map_names = yes
+}

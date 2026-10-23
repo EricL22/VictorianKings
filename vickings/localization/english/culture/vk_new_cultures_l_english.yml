@@ -42,6 +42,11 @@
  afro_american_collective_noun: "Afro-Americans"
  afro_american_prefix: "Afro-Anglo"
 
+ evenk: "Evenk"
+ evenk_collective_noun: "Evenks"
+ evenk_prefix: "Evenki"
+ evenk_list_inuit: "Evenk"
+
  name_list_dutch_expanded:0 "Dutch"
  name_list_belgian:0 "Belgian"
  name_list_luxembourg:0 "Luxembourgish"

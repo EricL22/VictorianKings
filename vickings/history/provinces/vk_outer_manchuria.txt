@@ -1,0 +1,191 @@
+13272 = {	# b_yaksa
+	culture = evenk
+	rite = shamanism
+	holding = tribal_holding
+}
+13273 = {	# b_keverdene
+	holding = none
+}
+13274 = {	# b_chichatka
+	holding = none
+}
+13275 = {	# b_emuri
+	culture = evenk
+	rite = shamanism
+	holding = tribal_holding
+}
+13276 = {	# b_amazar
+	holding = none
+}
+13277 = {	# b_mogocha
+	holding = none
+}
+13278 = {	# b_taldan
+	culture = evenk
+	rite = shamanism
+	holding = tribal_holding
+}
+13279 = {	# b_oldoy
+	holding = none
+}
+13280 = {	# b_tygda
+	holding = none
+}
+13281 = {	# b_urkan
+	culture = evenk
+	rite = shamanism
+	holding = tribal_holding
+}
+13282 = {	# b_ovsyanka
+	holding = none
+}
+13283 = {	# b_solon
+	holding = none
+}
+13284 = {	# b_tynda
+	culture = evenk
+	rite = shamanism
+	holding = tribal_holding
+}
+13285 = {	# b_kuvanhta
+	holding = none
+}
+13286 = {	# b_dyaltula
+	holding = none
+}
+13287 = {	# b_gilyuy
+	culture = evenk
+	rite = shamanism
+	holding = tribal_holding
+}
+13288 = {	# b_marevyy
+	holding = none
+}
+13289 = {	# b_taaga
+	holding = none
+}
+13290 = {	# b_gorny
+	culture = evenk
+	rite = shamanism
+	holding = tribal_holding
+}
+13291 = {	# b_bomnak
+	holding = none
+}
+13292 = {	# b_toko_stanovik
+	holding = none
+}
+13293 = {	# b_hailanboo
+	culture = evenk
+	rite = shamanism
+	holding = tribal_holding
+}
+13294 = {	# b_svobodny
+	holding = none
+}
+13295 = {	# b_uglegorsk
+	holding = none
+}
+13296 = {	# b_sivaki
+	holding = none
+}
+13297 = {	# b_sian
+	holding = none
+}
+13298 = {	# b_argi
+	culture = evenk
+	rite = shamanism
+	holding = tribal_holding
+}
+13299 = {	# b_snezhnogorsky
+	holding = none
+}
+13300 = {	# b_gamikan
+	holding = none
+}
+13301 = {	# b_zarechnaya
+	holding = none
+}
+13302 = {	# b_ogoron
+	culture = evenk
+	rite = shamanism
+	holding = tribal_holding
+}
+13303 = {	# b_unga
+	holding = none
+}
+13304 = {	# b_tungala
+	holding = none
+}
+13305 = {	# b_gramatukha
+	culture = evenk
+	rite = shamanism
+	holding = tribal_holding
+}
+13306 = {	# b_uralovka
+	holding = none
+}
+13307 = {	# b_dep
+	holding = none
+}
+13308 = {	# b_mamyn
+	holding = none
+}
+13309 = {	# b_nora
+	culture = evenk
+	rite = shamanism
+	holding = tribal_holding
+}
+13310 = {	# b_maysky
+	holding = none
+}
+13311 = {	# b_dugda
+	holding = none
+}
+13312 = {	# b_zavitaya
+	culture = evenk
+	rite = shamanism
+	holding = tribal_holding
+}
+13313 = {	# b_gorbyl
+	holding = none
+}
+13314 = {	# b_romny
+	holding = none
+}
+13315 = {	# b_dim
+	culture = evenk
+	rite = shamanism
+	holding = tribal_holding
+}
+13316 = {	# b_gilchin
+	holding = none
+}
+13317 = {	# b_budunda
+	holding = none
+}
+13318 = {	# b_varvarovka
+	holding = none
+}
+13319 = {	# b_taskino
+	culture = evenk
+	rite = shamanism
+	holding = tribal_holding
+}
+13320 = {	# b_limannoye
+	holding = none
+}
+13321 = {	# b_ulma
+	holding = none
+}
+13322 = {	# b_byssa
+	culture = evenk
+	rite = shamanism
+	holding = tribal_holding
+}
+13323 = {	# b_etyrken
+	holding = none
+}
+13324 = {	# b_selemdzha
+	holding = none
+}

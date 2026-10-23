@@ -1,0 +1,106 @@
+﻿13272=forest
+13272 = { winter_severity_bias = 1.0 }
+13273=hills
+13273 = { winter_severity_bias = 1.0 }
+13274=hills
+13274 = { winter_severity_bias = 1.0 }
+13275=forest
+13275 = { winter_severity_bias = 1.0 }
+13276=hills
+13276 = { winter_severity_bias = 1.0 }
+13277=hills
+13277 = { winter_severity_bias = 1.0 }
+13278=forest
+13278 = { winter_severity_bias = 1.0 }
+13279=forest
+13279 = { winter_severity_bias = 1.0 }
+13280=forest
+13280 = { winter_severity_bias = 1.0 }
+13281=hills
+13281 = { winter_severity_bias = 1.0 }
+13282=forest
+13282 = { winter_severity_bias = 1.0 }
+13283=mountains
+13283 = { winter_severity_bias = 1.0 }
+13284=hills
+13284 = { winter_severity_bias = 1.0 }
+13285=mountains
+13285 = { winter_severity_bias = 1.0 }
+13286=mountains
+13286 = { winter_severity_bias = 1.0 }
+13287=forest
+13287 = { winter_severity_bias = 1.0 }
+13288=forest
+13288 = { winter_severity_bias = 1.0 }
+13289=hills
+13289 = { winter_severity_bias = 1.0 }
+13290=forest
+13290 = { winter_severity_bias = 1.0 }
+13291=mountains
+13291 = { winter_severity_bias = 1.0 }
+13292=mountains
+13292 = { winter_severity_bias = 1.0 }
+13293=forest
+13293 = { winter_severity_bias = 1.0 }
+13294=forest
+13294 = { winter_severity_bias = 1.0 }
+13295=forest
+13295 = { winter_severity_bias = 1.0 }
+13296=forest
+13296 = { winter_severity_bias = 1.0 }
+13297=forest
+13297 = { winter_severity_bias = 1.0 }
+13298=forest
+13298 = { winter_severity_bias = 1.0 }
+13299=forest
+13299 = { winter_severity_bias = 1.0 }
+13300=forest
+13300 = { winter_severity_bias = 1.0 }
+13301=mountains
+13301 = { winter_severity_bias = 1.0 }
+13302=hills
+13302 = { winter_severity_bias = 1.0 }
+13303=mountains
+13303 = { winter_severity_bias = 1.0 }
+13304=forest
+13304 = { winter_severity_bias = 1.0 }
+13305=forest
+13305 = { winter_severity_bias = 1.0 }
+13306=forest
+13306 = { winter_severity_bias = 1.0 }
+13307=forest
+13307 = { winter_severity_bias = 1.0 }
+13308=forest
+13308 = { winter_severity_bias = 1.0 }
+13309=forest
+13309 = { winter_severity_bias = 1.0 }
+13310=forest
+13310 = { winter_severity_bias = 1.0 }
+13311=forest
+13311 = { winter_severity_bias = 1.0 }
+13312=forest
+13312 = { winter_severity_bias = 1.0 }
+13313=forest
+13313 = { winter_severity_bias = 1.0 }
+13314=forest
+13314 = { winter_severity_bias = 1.0 }
+13315=forest
+13315 = { winter_severity_bias = 1.0 }
+13316=forest
+13316 = { winter_severity_bias = 1.0 }
+13317=forest
+13317 = { winter_severity_bias = 1.0 }
+13318=forest
+13318 = { winter_severity_bias = 1.0 }
+13319=forest
+13319 = { winter_severity_bias = 1.0 }
+13320=forest
+13320 = { winter_severity_bias = 1.0 }
+13321=forest
+13321 = { winter_severity_bias = 1.0 }
+13322=forest
+13322 = { winter_severity_bias = 1.0 }
+13323=forest
+13323 = { winter_severity_bias = 1.0 }
+13324=forest
+13324 = { winter_severity_bias = 1.0 }
