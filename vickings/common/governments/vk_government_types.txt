@@ -14,6 +14,7 @@
 		treasury_vassal_development = yes
 		replace_gold_cost_by_treasury = yes
 		allow_accolades = yes
+		disable_regnal_numbers = yes
 	}
 
 	royal_court = none

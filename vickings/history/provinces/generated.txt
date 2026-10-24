@@ -8373,6 +8373,48 @@
 		rite = theravada
 	}
 }
+10825 = {
+	1800.1.1 = {
+		culture = viet
+		rite = mahayana
+	}
+}
+10826 = {
+	1800.1.1 = {
+		culture = viet
+		rite = mahayana
+	}
+}
+10827 = {
+	1800.1.1 = {
+		culture = viet
+		rite = mahayana
+	}
+}
+10828 = {
+	1800.1.1 = {
+		culture = viet
+		rite = mahayana
+	}
+}
+10830 = {
+	1800.1.1 = {
+		culture = viet
+		rite = mahayana
+	}
+}
+10835 = {
+	1800.1.1 = {
+		culture = viet
+		rite = mahayana
+	}
+}
+10836 = {
+	1800.1.1 = {
+		culture = viet
+		rite = mahayana
+	}
+}
 10893 = {
 	1800.1.1 = {
 		culture = khmu
@@ -8408,6 +8450,18 @@
 	1800.1.1 = {
 		culture = tai
 		rite = theravada
+	}
+}
+10912 = {
+	1800.1.1 = {
+		culture = viet
+		rite = mahayana
+	}
+}
+10914 = {
+	1800.1.1 = {
+		culture = viet
+		rite = mahayana
 	}
 }
 10927 = {
@@ -8611,7 +8665,117 @@
 		rite = shafii
 	}
 }
+11267 = {
+	1800.1.1 = {
+		rite = shafii
+	}
+}
+11269 = {
+	1800.1.1 = {
+		rite = shafii
+	}
+}
+11270 = {
+	1800.1.1 = {
+		rite = shafii
+	}
+}
+11272 = {
+	1800.1.1 = {
+		rite = shafii
+	}
+}
+11274 = {
+	1800.1.1 = {
+		rite = shafii
+	}
+}
+11278 = {
+	1800.1.1 = {
+		rite = shafii
+	}
+}
+11282 = {
+	1800.1.1 = {
+		rite = shafii
+	}
+}
+11285 = {
+	1800.1.1 = {
+		rite = shafii
+	}
+}
+11291 = {
+	1800.1.1 = {
+		rite = shafii
+	}
+}
+11294 = {
+	1800.1.1 = {
+		rite = shafii
+	}
+}
+11296 = {
+	1800.1.1 = {
+		rite = shafii
+	}
+}
+11300 = {
+	1800.1.1 = {
+		rite = shafii
+	}
+}
+11305 = {
+	1800.1.1 = {
+		rite = shafii
+	}
+}
+11306 = {
+	1800.1.1 = {
+		rite = shafii
+	}
+}
 11318 = {
+	1800.1.1 = {
+		rite = shafii
+	}
+}
+11322 = {
+	1800.1.1 = {
+		rite = shafii
+	}
+}
+11330 = {
+	1800.1.1 = {
+		rite = shafii
+	}
+}
+11335 = {
+	1800.1.1 = {
+		rite = shafii
+	}
+}
+11337 = {
+	1800.1.1 = {
+		rite = shafii
+	}
+}
+11343 = {
+	1800.1.1 = {
+		rite = shafii
+	}
+}
+11344 = {
+	1800.1.1 = {
+		rite = shafii
+	}
+}
+11356 = {
+	1800.1.1 = {
+		rite = shafii
+	}
+}
+11361 = {
 	1800.1.1 = {
 		rite = shafii
 	}
@@ -8669,6 +8833,16 @@
 	1800.1.1 = {
 		culture = senoi
 		rite = shafii
+	}
+}
+11424 = {
+	1800.1.1 = {
+		rite = theravada
+	}
+}
+11429 = {
+	1800.1.1 = {
+		rite = theravada
 	}
 }
 11432 = {

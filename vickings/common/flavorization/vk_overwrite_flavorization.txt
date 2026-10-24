@@ -91,3 +91,14 @@ spouse_administrative_female = {
 		top_liege = no
 	}
 }
+
+####################
+archduchy = {
+	type = title
+	tier = kingdom
+	titles = { k_austria }
+	priority = 107
+	flavourization_rules = { 
+		top_liege = no
+	}
+}

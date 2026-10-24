@@ -1,11 +1,11 @@
 TODOs:
 HIGH Priority ---
 Game Rules: generate family for Sweden in 1812 and matrilineal marriage for Victoria in 1861
-Flavorize e_italy as a kingdom for italian cultures
 Fix Nassau dynasty
 Add tribal Qing generated vassals
-Princely State vassal contract
 Allow Prussia and Austria to join the Sixth Coalition war
+Decisions/events: Congress of Vienna, British Raj, Dissolve EIC, Two Sicilies, Convention of Peking/Treaty of Tarbagatai
+Anglican rite
 
 DEFERRED Priority ---
 Russian Siberia map extension

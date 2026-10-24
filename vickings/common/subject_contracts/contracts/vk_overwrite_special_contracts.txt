@@ -290,6 +290,49 @@ special_contract = {
 			ai_subject_desire = @ai_standard_vassal_desire
 		}
 		# CHANGED: added
+		princely_state = {
+			is_valid = {
+				scope:liege.culture = {
+					has_innovation = innovation_divine_right
+				}
+				scope:vassal.primary_title.tier >= tier_duchy
+				NOT = {
+					scope:liege = { has_government = republic_government }
+				}
+			}
+			parent = special_contract_none
+			position = { 2 2 }
+			
+			tax_factor = palatinate_contract_taxes
+			levies_factor = palatinate_contract_levies
+			
+			liege_modifier = {
+				monthly_prestige_gain_mult = 0.1
+			}
+			
+			subject_modifier = {
+				monthly_prestige_gain_mult = 0.4
+				fellow_vassal_opinion = 15
+				opinion_of_liege = 100
+				men_at_arms_cap = -10
+			}
+			
+			flag = has_princely_contract
+			
+			ai_liege_desire =  {
+				value = 0
+				if = {
+					limit = {
+						scope:vassal = {
+							capital_province = {
+								geographical_region = world_india
+							}
+						}
+					}
+					add = @ai_standard_liege_desire
+				}
+			}
+		}
 	}
 }
 

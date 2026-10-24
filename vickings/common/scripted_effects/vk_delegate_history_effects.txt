@@ -10,6 +10,7 @@ auto_generate_vassals_at_game_start_effect = {
 			OR = {
 				is_independent_ruler = yes
 				primary_title.tier > tier_kingdom
+				primary_title = title:k_british_east_indies	# exception to help manage India
 			}
 			NOT = { primary_title = title:e_japan }
 		}

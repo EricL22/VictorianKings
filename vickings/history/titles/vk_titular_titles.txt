@@ -650,10 +650,10 @@ k_gwalior = {
 					type = religious_rights
 					level = 1	#religious_rights_protected
 				}
-			#	vassal_contract_set_obligation_level = {
-			#		type = special_contract
-			#		level = 5	#princely_state
-			#	}
+				vassal_contract_set_obligation_level = {
+					type = special_contract
+					level = 5	#princely_state
+				}
 				vassal_contract_set_obligation_level = {
 					type = title_revocation_rights
 					level = 1	#title_revocation_rights_protected
@@ -685,10 +685,10 @@ k_jaipur = {
 					type = religious_rights
 					level = 1	#religious_rights_protected
 				}
-			#	vassal_contract_set_obligation_level = {
-			#		type = special_contract
-			#		level = 5	#princely_state
-			#	}
+				vassal_contract_set_obligation_level = {
+					type = special_contract
+					level = 5	#princely_state
+				}
 				vassal_contract_set_obligation_level = {
 					type = title_revocation_rights
 					level = 1	#title_revocation_rights_protected
@@ -723,10 +723,10 @@ k_oudh = {
 					type = religious_rights
 					level = 1	#religious_rights_protected
 				}
-			#	vassal_contract_set_obligation_level = {
-			#		type = special_contract
-			#		level = 5	#princely_state
-			#	}
+				vassal_contract_set_obligation_level = {
+					type = special_contract
+					level = 5	#princely_state
+				}
 				vassal_contract_set_obligation_level = {
 					type = title_revocation_rights
 					level = 1	#title_revocation_rights_protected
@@ -763,10 +763,10 @@ k_hyderabad = {
 					type = religious_rights
 					level = 1	#religious_rights_protected
 				}
-			#	vassal_contract_set_obligation_level = {
-			#		type = special_contract
-			#		level = 5	#princely_state
-			#	}
+				vassal_contract_set_obligation_level = {
+					type = special_contract
+					level = 5	#princely_state
+				}
 				vassal_contract_set_obligation_level = {
 					type = title_revocation_rights
 					level = 1	#title_revocation_rights_protected
@@ -802,10 +802,10 @@ k_travancore = {
 					type = religious_rights
 					level = 1	#religious_rights_protected
 				}
-			#	vassal_contract_set_obligation_level = {
-			#		type = special_contract
-			#		level = 5	#princely_state
-			#	}
+				vassal_contract_set_obligation_level = {
+					type = special_contract
+					level = 5	#princely_state
+				}
 				vassal_contract_set_obligation_level = {
 					type = title_revocation_rights
 					level = 1	#title_revocation_rights_protected

@@ -1,4 +1,108 @@
-﻿# Colonial
+﻿prince_primate = {
+	type = character
+	gender = male
+	special = holder
+	priority = 147
+	titles = { e_cdr }
+	flavourization_rules = { 
+		top_liege = no
+	}
+}
+princess_primate = {
+	type = character
+	gender = female
+	special = holder
+	priority = 147
+	titles = { e_cdr }
+	flavourization_rules = { 
+		top_liege = no
+	}
+}
+
+director = {
+	type = character
+	gender = male
+	special = holder
+	priority = 147
+	titles = { k_british_east_indies }
+	flavourization_rules = { 
+		top_liege = no
+	}
+}
+directress = {
+	type = character
+	gender = female
+	special = holder
+	priority = 147
+	titles = { k_british_east_indies }
+	flavourization_rules = { 
+		top_liege = no
+	}
+}
+
+king_feudal_male_uk = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 146
+	governments = { feudal_government administrative_government }
+	titles = { e_britannia }
+	flavourization_rules = { 
+		top_liege = no
+	}
+}
+king_feudal_female_uk = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 146
+	governments = { feudal_government administrative_government }
+	titles = { e_britannia }
+	flavourization_rules = { 
+		top_liege = no
+	}
+}
+king_feudal_male_italia = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 146
+	governments = { feudal_government administrative_government }
+	titles = { e_italy }
+	heritages = { heritage_latin }
+	flavourization_rules = { 
+		top_liege = no
+	}
+}
+king_feudal_female_italia = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 146
+	governments = { feudal_government administrative_government }
+	titles = { e_italy }
+	heritages = { heritage_latin }
+	flavourization_rules = { 
+		top_liege = no
+	}
+}
+kingdom_unified_italia = {
+	type = title
+	tier = empire
+	priority = 108
+	governments = { feudal_government administrative_government }
+	titles = { e_italy }
+	heritages = { heritage_latin }
+	flavourization_rules = {
+		top_liege = no
+	}
+}
+
+# Colonial
 
 kingdom_colonial = {
 	type = title

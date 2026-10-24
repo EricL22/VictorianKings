@@ -25,3 +25,7 @@
  emperor_colonial_female_castilian: "$king_administrative_female$"
  emperor_colonial_female_governor: "$spouse_celestial_governor_female$"
  emperor_colonial_male_governess: "$spouse_celestial_governor_male$"
+
+ princely_state:0 "Princely State"
+ princely_state_short:0 "Princely State"
+ princely_state_desc:0 "#flavor The Princely State is an upgrade of the Palatinate, providing double prestige to both liege and vassal and improving relations. Great for the conquest of foreign territories.#!"
