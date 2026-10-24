@@ -1,0 +1,10 @@
+﻿# Called from code once a year for "playable" (count+) characters.
+# Root is the character
+yearly_playable_pulse = {
+	events = {
+		vk_flavor.2	# Dismantle Colonial Administration
+	}
+#	on_actions = {
+#		vk_yearly_playable_pulse_effects
+#	}
+}

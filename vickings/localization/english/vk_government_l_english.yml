@@ -1,0 +1,27 @@
+﻿l_english:
+ colonial_government: "Colonial Administrative"
+ colonial_government_with_icon: "@government_type_administrative! $colonial_government$"
+ colonial_government_adjective: "Colonial Administrative"
+ colonial_government_realm: "Colonial Administrative Realm"
+ colonial_government_desc: "\n#F A variant of Administrative government designed for looking after a mother country's overseas possessions. As the power of the nobility is highly curtailed, noble families will not take root here.#!"
+
+ tributary_colonial: "Colony"
+ tributary_colonial_desc: "A Colonial [tributary|E] provides their [suzerain|E] with [gold|E] and [prestige|E] on a regular basis. If the Tributary is attacked, their Suzerain may even come to their aid."
+
+ kingdom_colonial: "Colony"
+ king_colonial_male: "Governor-General"
+ king_colonial_female: "$king_colonial_male$"
+ kingdom_colonial_castilian: "Captaincy General"
+ king_colonial_male_castilian: "Captain-General"
+ king_colonial_female_castilian: "$king_colonial_male_castilian$"
+ king_colonial_female_governor: "$spouse_celestial_governor_female$"
+ king_colonial_male_governess: "$spouse_celestial_governor_male$"
+
+ empire_colonial: "Dominion"
+ emperor_colonial_male: "$king_colonial_male$"
+ emperor_colonial_female: "$king_colonial_male$"
+ empire_colonial_castilian: "$kingdom_administrative$"
+ emperor_colonial_male_castilian: "$king_administrative_male$"
+ emperor_colonial_female_castilian: "$king_administrative_female$"
+ emperor_colonial_female_governor: "$spouse_celestial_governor_female$"
+ emperor_colonial_male_governess: "$spouse_celestial_governor_male$"

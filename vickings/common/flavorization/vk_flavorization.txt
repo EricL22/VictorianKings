@@ -1,0 +1,217 @@
+﻿# Colonial
+
+kingdom_colonial = {
+	type = title
+	tier = kingdom
+	priority = 73
+	governments = { colonial_government }
+	flavourization_rules = {
+		top_liege = yes
+		ignore_top_liege_government = yes #In an administrative realm all governors vassals will use the titles of the top liege - this ensures it is only the governors that do, and not also feudal vassals, republican vassals, etc.
+	}
+}
+king_colonial_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 74
+	governments = { colonial_government }
+
+	flavourization_rules = {
+		top_liege = yes
+		ignore_top_liege_government = yes #In an administrative realm all governors vassals will use the titles of the top liege - this ensures it is only the governors that do, and not also feudal vassals, republican vassals, etc.
+	}
+}
+king_colonial_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 73
+	governments = { colonial_government }
+
+	flavourization_rules = {
+		top_liege = yes
+		ignore_top_liege_government = yes #In an administrative realm all governors vassals will use the titles of the top liege - this ensures it is only the governors that do, and not also feudal vassals, republican vassals, etc. 
+		spouse_takes_title = no
+	}
+}
+
+kingdom_colonial_castilian = {
+	type = title
+	tier = kingdom
+	priority = 76
+	governments = { colonial_government }
+	name_lists = { name_list_castilian }
+	flavourization_rules = {
+		top_liege = yes
+		ignore_top_liege_government = yes #In an administrative realm all governors vassals will use the titles of the top liege - this ensures it is only the governors that do, and not also feudal vassals, republican vassals, etc.
+	}
+}
+king_colonial_male_castilian = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 76
+	governments = { colonial_government }
+	name_lists = { name_list_castilian }
+
+	flavourization_rules = {
+		top_liege = yes
+		ignore_top_liege_government = yes #In an administrative realm all governors vassals will use the titles of the top liege - this ensures it is only the governors that do, and not also feudal vassals, republican vassals, etc. 
+		spouse_takes_title = no
+	}
+}
+king_colonial_female_castilian = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 76
+	governments = { colonial_government }
+	name_lists = { name_list_castilian }
+
+	flavourization_rules = {
+		top_liege = yes
+		ignore_top_liege_government = yes #In an administrative realm all governors vassals will use the titles of the top liege - this ensures it is only the governors that do, and not also feudal vassals, republican vassals, etc. 
+		spouse_takes_title = no
+	}
+}
+
+king_colonial_male_governess = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 74
+	governments = { colonial_government }
+	flavourization_rules = {
+		only_holder = no
+		spouse_takes_title = yes
+		top_liege = no
+	}
+}
+king_colonial_female_governor = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 74
+	governments = { colonial_government }
+	flavourization_rules = {
+		only_holder = no
+		spouse_takes_title = yes
+		top_liege = no
+	}
+}
+
+
+
+empire_colonial = {
+	type = title
+	tier = empire
+	priority = 102
+	governments = { colonial_government }
+	flavourization_rules = {
+		top_liege = yes
+		ignore_top_liege_government = yes #In an administrative realm all governors vassals will use the titles of the top liege - this ensures it is only the governors that do, and not also feudal vassals, republican vassals, etc.
+	}
+}
+emperor_colonial_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 104
+	governments = { colonial_government }
+
+	flavourization_rules = {
+		top_liege = yes
+		ignore_top_liege_government = yes #In an administrative realm all governors vassals will use the titles of the top liege - this ensures it is only the governors that do, and not also feudal vassals, republican vassals, etc.
+	}
+}
+emperor_colonial_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 103
+	governments = { colonial_government }
+
+	flavourization_rules = {
+		top_liege = yes
+		ignore_top_liege_government = yes #In an administrative realm all governors vassals will use the titles of the top liege - this ensures it is only the governors that do, and not also feudal vassals, republican vassals, etc. 
+		spouse_takes_title = no
+	}
+}
+
+empire_colonial_castilian = {
+	type = title
+	tier = empire
+	priority = 106
+	governments = { colonial_government }
+	name_lists = { name_list_castilian }
+	flavourization_rules = {
+		top_liege = yes
+		ignore_top_liege_government = yes #In an administrative realm all governors vassals will use the titles of the top liege - this ensures it is only the governors that do, and not also feudal vassals, republican vassals, etc.
+	}
+}
+emperor_colonial_male_castilian = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 106
+	governments = { colonial_government }
+	name_lists = { name_list_castilian }
+
+	flavourization_rules = {
+		top_liege = yes
+		ignore_top_liege_government = yes #In an administrative realm all governors vassals will use the titles of the top liege - this ensures it is only the governors that do, and not also feudal vassals, republican vassals, etc. 
+		spouse_takes_title = no
+	}
+}
+emperor_colonial_female_castilian = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 106
+	governments = { colonial_government }
+	name_lists = { name_list_castilian }
+
+	flavourization_rules = {
+		top_liege = yes
+		ignore_top_liege_government = yes #In an administrative realm all governors vassals will use the titles of the top liege - this ensures it is only the governors that do, and not also feudal vassals, republican vassals, etc. 
+		spouse_takes_title = no
+	}
+}
+
+emperor_colonial_male_governess = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 187
+	governments = { colonial_government }
+	flavourization_rules = {
+		only_holder = no
+		spouse_takes_title = yes
+		top_liege = no
+	}
+}
+emperor_colonial_female_governor = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 187
+	governments = { colonial_government }
+	flavourization_rules = {
+		only_holder = no
+		spouse_takes_title = yes
+		top_liege = no
+	}
+}

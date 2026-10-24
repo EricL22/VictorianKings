@@ -1,0 +1,114 @@
+﻿### Return Rome ###
+return_rome_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_personal_religious.dds"
+	}
+	decision_group_type = religious
+	desc = return_rome_decision_desc
+	selection_tooltip = return_rome_decision_tooltip
+
+	is_shown = {
+		top_liege ?= this
+		exists = faith.religious_head
+		faith ?= faith:catholic
+		any_sub_realm_county = {
+			this = title:c_roma
+		}
+		root != root.faith.religious_head
+		NAND = {
+			is_ai = no
+			NOT = {
+				any_sub_realm_county = {
+					NOT = {
+						this = title:c_roma
+					}
+				}
+			}
+		}
+		faith.religious_head ?= {
+			OR = {
+				NOT = {
+					any_liege_or_above = {
+						this = root
+					}
+				}
+				top_liege ?= this
+			}
+		}
+	}
+
+	effect = {
+		create_title_and_vassal_change = {
+			type = returned
+			save_scope_as = change
+			add_claim_on_loss = no
+		}
+		title:c_roma = {
+			change_title_holder = {
+				holder = root.faith.religious_head
+				change = scope:change
+			}
+		}
+		resolve_title_and_vassal_change = scope:change
+
+		add_piety = major_piety_value
+		if = {
+			limit = {
+				faith.religious_head ?= {
+					this != root
+				}
+			}
+			faith.religious_head = {
+				add_opinion = {
+					target = root
+					modifier = grateful_opinion
+					opinion = 20
+				}
+			}
+		}
+
+		stress_and_fulfillment_impact = {
+			cynical = medium_stress_impact_gain
+			ambitious = minor_stress_impact_gain
+		}
+	}
+
+	ai_check_interval_by_tier = {
+		barony = 0
+		county = 12
+		duchy = 12
+		kingdom = 12
+		empire = 12
+		hegemony = 12
+	}
+
+	ai_potential = {
+		is_at_war = no
+		top_liege = this
+		faith = faith:catholic
+		ai_zeal > very_high_negative_ai_value
+		title:c_roma = {
+			holder = {
+				is_ai = yes
+			}
+		}
+	}
+
+	ai_will_do = {
+		base = 100
+
+		modifier = { # If you fought the pope to get rome, don't immediately hand it back
+			factor = 0
+			faith.religious_head = {
+				has_opinion_modifier = {
+					target = root
+					modifier = declared_war
+				}
+			}
+		}
+		modifier = {	# CHANGED: added
+			factor = 0
+			has_title = title:e_italy
+		}
+	}
+}

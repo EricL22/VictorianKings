@@ -4,3 +4,8 @@
  vk_flavor.1.start_alive.desc:0 "The former [previous_holder.GetTitleAsNameNoTooltip] has vacated the throne."
  vk_flavor.1.end.desc:0 "With the ascension of [previous_holder.GetHerHis] [previous_holder.Custom2('RelationToMe', ROOT.Char)] [ROOT.Char.GetFirstName], the realm rejoices and the crown of [title.GetNameNoTier] passes outside of [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip] control. Long may [ROOT.Char.GetSheHe] reign!"
  vk_flavor.1.a:0 "God save the [ROOT.Char.GetTitleAsNameNoTooltip]!"
+
+ vk_flavor.2.t: "End of the Colonial Administration"
+ vk_flavor.2.overlord.desc: "With the newfound independence from [former_overlord.GetNameNoTier], the [former_overlord.GetAdjectiveNoTooltip] has been completely dismantled. I look on in pleasure as the last symbols of the old rule are removed, and I finally take my throne as legitimate ruler of the realm."
+ vk_flavor.2.desc: "With the newfound independence from our former colonial overlord, the colonial administration has been completely dismantled. I look on in pleasure as the last symbols of the old rule are removed, and I finally take my throne as legitimate ruler of the realm."
+ vk_flavor.2.a: "May our reign last a thousand years!"

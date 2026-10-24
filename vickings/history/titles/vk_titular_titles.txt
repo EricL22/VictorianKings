@@ -906,9 +906,46 @@ k_champasak = {
 k_dutch_east_indies = {
 	1811.9.18 = {
 		holder = british_east_indies_0	# Stamford Raffles
+		government = colonial_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					holder = { has_government = colonial_government }
+				}
+				set_state_rite = rite:reformed_rite
+				holder = {
+					add_realm_law_skip_effects = acclamation_succession_law
+					add_realm_law_skip_effects = imperial_bureaucracy_1
+					add_realm_law_skip_effects = male_only_law
+				}
+			}
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+					add_realm_law_skip_effects = single_heir_succession_law
+					add_realm_law_skip_effects = crown_authority_1
+					add_realm_law_skip_effects = male_only_law
+				}
+			}
+			set_variable = {
+				name = colonial_overlord
+				value = title:e_britannia
+			}
+		}
 	}
 	1833.7.2 = {
 		holder = dutch_east_indies_0	# Jean Chrétien Baud
+		effect = {
+			set_variable = {
+				name = colonial_overlord
+				value = title:k_frisia
+			}
+		}
 	}
 	1856.5.22 = {
 		holder = dutch_east_indies_1	# Charles Ferdinand Pahud

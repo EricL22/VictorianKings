@@ -40,3 +40,54 @@ vk_flavor.1 = {
 		}
 	}
 }
+
+# Dismantle Colonial Administration
+vk_flavor.2 = {
+	type = character_event
+	title = vk_flavor.2.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					exists = scope:former_overlord
+				}
+				desc = vk_flavor.2.overlord.desc
+			}
+			desc = vk_flavor.2.desc
+		}
+	}
+	theme = realm
+	left_portrait = {
+		character = root
+		animation = idle
+	}
+
+	trigger = {
+		has_government = colonial_government
+		is_independent_ruler = yes
+		is_tributary = no
+	}
+
+	immediate = {
+		random_held_title = {
+			limit = { has_variable = colonial_overlord }
+			save_scope_as = former_overlord
+		}
+	}
+	
+	option = {
+		name = vk_flavor.2.a
+		assign_feudal_governments_effect = yes
+		every_vassal_or_below = {
+			limit = { has_government = colonial_government }
+			assign_feudal_governments_effect = yes
+		}
+		scope:former_overlord ?= {
+			remove_variable = colonial_overlord
+		}
+		if = {	# Destroy titular colonial titles.
+			limit = { has_title = title:k_dutch_east_indies }
+			destroy_title = title:k_dutch_east_indies
+		}
+	}
+}

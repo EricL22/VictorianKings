@@ -137,6 +137,12 @@ vk_setup_tributaries_effect = {
 	}
 	if = {
 		limit = {
+			current_date = 1812.7.5
+		}
+		base_1812_tributary_setup_effect = yes
+	}
+	if = {
+		limit = {
 			current_date > 1812.7.5
 		}
 		base_post_1812_tributary_setup_effect = yes
@@ -200,11 +206,29 @@ tgp_pre_1914_tributary_setup_effect = {
 		}
 	}
 }
+base_1812_tributary_setup_effect = {
+	title:e_britannia.holder = {
+		save_scope_as = suzerain
+		title:k_dutch_east_indies.holder = {
+			start_tributary = {
+				contract_group = tributary_colonial
+				suzerain = scope:suzerain
+			}
+			tributary_contract_set_obligation_level = { type = suzerain_war_participation_guarantee level = 1 }
+			tributary_contract_set_obligation_level = { type = tributary_war_participation_obligation level = 1 }
+		}
+	}
+}
 base_post_1812_tributary_setup_effect = {
 	title:k_frisia.holder = {
 		save_scope_as = suzerain
 		title:k_dutch_east_indies.holder = {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+			start_tributary = {
+				contract_group = tributary_colonial
+				suzerain = scope:suzerain
+			}
+			tributary_contract_set_obligation_level = { type = suzerain_war_participation_guarantee level = 1 }
+			tributary_contract_set_obligation_level = { type = tributary_war_participation_obligation level = 1 }
 		}
 	}
 }
@@ -249,7 +273,12 @@ base_pre_1914_tributary_setup_effect = {
 	title:k_spain.holder = {
 		save_scope_as = suzerain
 		title:k_lusung.holder = {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+			start_tributary = {
+				contract_group = tributary_colonial
+				suzerain = scope:suzerain
+			}
+			tributary_contract_set_obligation_level = { type = suzerain_war_participation_guarantee level = 1 }
+			tributary_contract_set_obligation_level = { type = tributary_war_participation_obligation level = 1 }
 		}
 	}
 }

@@ -8,3 +8,29 @@ NJominiMap = {
 	WORLD_EXTENTS_Z = 6143
 	WATERLEVEL = 3.8
 }
+
+NGovernment = {
+	GOVERNMENT_TYPES = {
+		"feudal_government"
+		"republic_government"
+		"theocracy_government"
+		"clan_government"
+		"tribal_government"
+		"mercenary_government"
+		"holy_order_government"
+		"monastic_holy_order_government"
+		"administrative_government"
+		"landless_adventurer_government"
+		"nomad_government"
+		"herder_government"
+		"celestial_government"
+		"japan_administrative_government"
+		"japan_feudal_government"
+		"mandala_government"
+		"wanua_government"
+		"meritocratic_government"
+		"steppe_admin_government"
+		"ecclesiastical_government"
+		"colonial_government"
+	}
+}

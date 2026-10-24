@@ -71,6 +71,7 @@
 1400.1.1 = {
 	discover_innovation = innovation_currency_04
 	discover_innovation = innovation_primogeniture
+	discover_innovation = innovation_gunpowder
 }
 
 1581.7.26 = {

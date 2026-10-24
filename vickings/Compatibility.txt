@@ -9,6 +9,7 @@ common
 .........00_bookmark_groups.txt
 ...decisions
 ......vk_overwrite_major_decisions_middle_europe.txt (clauses)
+......vk_overwrite_religious_decisions.txt (clauses)
 ...defines (clauses)
 ...game_rules (clauses)
 ...landed_titles
@@ -19,6 +20,9 @@ common
 .........00_christianity.txt
 ...scripted_effects
 ......vk_[...]_overwrite_effects.txt (clauses)
+...subject_contracts
+......contracts
+.........vk_overwrite_special_contracts.txt (clauses)
 content_source
 ...map_objects
 fonts

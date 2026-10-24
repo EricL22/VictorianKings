@@ -2,6 +2,37 @@ k_lusung = {
 	1810.3.4 = {
 		holder = spanish_philippines_0	# Manuel González de Aguilar
 		name = philippines
+		government = colonial_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					holder = { has_government = colonial_government }
+				}
+				set_state_rite = rite:reformed_rite
+				holder = {
+					add_realm_law_skip_effects = acclamation_succession_law
+					add_realm_law_skip_effects = imperial_bureaucracy_1
+					add_realm_law_skip_effects = male_only_law
+				}
+			}
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+					add_realm_law_skip_effects = single_heir_succession_law
+					add_realm_law_skip_effects = crown_authority_1
+					add_realm_law_skip_effects = male_only_law
+				}
+			}
+			set_variable = {
+				name = colonial_overlord
+				value = title:k_spain
+			}
+		}
 	}
 	1835.9.9 = {
 		holder = spanish_philippines_1	# Pedro Antonio Salazar y Salazar
