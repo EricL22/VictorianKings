@@ -8,7 +8,7 @@
 
 	tenets = {
 		tenet_communal_identity
-		tenet_literalism
+		tenet_protestant_literalism
 		tenet_mendicant_preachers
 	}
 
@@ -35,7 +35,7 @@ reformed_rite = {
 	tenets = {
 		tenet_communal_identity
 		tenet_aniconism
-		tenet_literalism
+		tenet_protestant_literalism
 	}
 
 	doctrines = {

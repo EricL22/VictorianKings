@@ -7,12 +7,14 @@
  protestant_desc:0 "Protestantism covers a wide range of religious traditions starting with the teachings of Martin Luther during the reformation. They react against a number of the conventions that over time have developed in the Catholic church and the idea of a pope itself."
  lutheran_rite: "Lutheran"
  lutheran_rite_adj: "Lutheran"
+ lutheran_rite_adherent: "Lutheran"
+ lutheran_rite_adherent_plural: "Lutherans"
  lutheran_rite_desc: "A mainline Protestant denomination following Luther's original teachings, in particular, the belief in ultimate salvation through faith and faith alone."
 
  reformed_rite:0 "Reformed"
  reformed_rite_adj:0 "Reformed"
- reformed_adherent:0 "Calvinist"
- reformed_adherent_plural:0 "Calvinists"
+ reformed_rite_adherent:0 "Calvinist"
+ reformed_rite_adherent_plural:0 "Calvinists"
  reformed_rite_desc:0 "Reformed covers a wide range of religious traditions inspired by men such as Jean Calvin or John Knox. Appearing later than the Protestant faiths, the Reformed religion also rejects papal authority and want to return to the rules of the scriptures but unlike the Protestants they embrace a number of perceived more hard-line ideas such as predestination and iconoclasm and will not form state Churches."
 
  godworship: "God-Worship"
@@ -27,3 +29,9 @@
  #Holy Sites
  holy_site_holland_name:0 "Holland"
  holy_site_holland_effect_name:0 "From [holy_site|E] #weak ($holy_site_rome_name$)#!"
+
+ #Tenets
+ tenet_protestant_literalism_name: "Sola Scriptura"
+ tenet_protestant_literalism_desc: "Our holy texts clearly state divine intent. Though interpretations may differ, the faithful regard a return to Scripture as essential to the renewal and preservation of the true faith."
+ INCOMPATIBLE_TENET_PROTESTANT_LITERALISM_TRIGGER: "Incompatible with the [core_tenet|E] [GetTenetType('tenet_protestant_literalism').GetName( GetPlayer.GetRite )]"
+ INCOMPATIBLE_TENET_LITERALISM_TRIGGER: "Incompatible with the [core_tenet|E] [GetTenetType('tenet_literalism').GetName( GetPlayer.GetRite )]"

@@ -71,7 +71,7 @@ vk_initialize_history_rules_effects = {
 			}
 			#Nakhon Pathom
 			province:10911 = {
-				add_great_building = mandala_capital_02
+				add_great_building = mandala_capital_03
 				add_to_global_variable_list = { # Add to list so it can be found by the PoI
 					name = mandala_poi_list
 					target = this

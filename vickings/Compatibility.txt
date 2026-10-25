@@ -25,6 +25,8 @@ common
 ...religion
 ......religion_types
 .........00_christianity.txt
+......tenet_types
+.........vk_overwrite_tenets.txt (clauses)
 ...scripted_effects
 ......vk_[...]_overwrite_effects.txt (clauses)
 ...subject_contracts

@@ -1,0 +1,65 @@
+﻿# Literalism
+tenet_literalism = {
+	icon = tenet_literalism
+
+	piety_cost = {
+		if = {
+			limit = {
+				OR = {
+					rite_religion_tag = islam_religion
+					rite_religion_tag = judaism_religion
+				}
+			}
+			value = faith_tenet_cost_low
+		}
+		else = {
+			value = faith_tenet_cost_mid
+		}
+
+		# Multiplier for keeping same tenet
+		if = {
+			limit = { rite_has_tenet = tenet_literalism }
+			multiply = faith_unchanged_doctrine_cost_mult
+		}
+
+		if = {
+			limit = { NOT = { rite_has_doctrine = abrahamic_hostility_doctrine } }
+			multiply = 1.5
+			round = yes
+		}
+	}
+
+	can_pick = {	# CHANGED: added
+		custom_description = {
+			text = incompatible_tenet_protestant_literalism_trigger
+			NOT = { tenet:tenet_protestant_literalism = { is_in_list = selected_doctrines } }
+		}
+	}
+
+	traits = {
+		virtues = {
+			education_learning_5 = { weight = 15 scale = 1 }
+			stubborn = { weight = 20 scale = 1 }
+		}
+		sins = {
+			fickle = { weight = 20 scale = 1 }
+		}
+	}
+	
+	character_modifier = {
+		monthly_merit_mult = 0.1
+		advantage_against_coreligionists = 5
+	}
+
+	parameters = {
+		literalist_debate_enabled
+		tenet_literalism_conversion_resistance
+		literalism_holy_war_cb_active
+	}
+
+	personal_tenet_parameters = {
+		tenet_literalism_debate_experience
+		tenet_literalism_scholar_conversion
+		tenet_literalism_scholar_trait
+	}
+}

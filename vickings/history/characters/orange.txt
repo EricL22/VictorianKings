@@ -6,6 +6,11 @@
 	1772.8.24 = {
 		birth = yes
 	}
+	1812.1.1 = {
+		effect = {
+			dynasty = { add_dynasty_prestige = 2000 }
+		}
+	}
 	1843.12.12 = {
 		death = yes
 	}
