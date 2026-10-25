@@ -226,7 +226,7 @@
  d_nf_wellesley_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
  d_nf_ledru_rollin: "$dynn_Ledru_Rollin$ Family"
  d_nf_ledru_rollin_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
- d_nf_mole: "$dynn_Mole$ Family"
+ d_nf_mole: "$dynn_MolE_$ Family"
  d_nf_mole_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
  d_nf_broglie: "$dynn_Broglie$ Family"
  d_nf_broglie_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
@@ -416,3 +416,7 @@
  c_nf_matsumae_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
  c_nf_hong: "$dynn_Hong$ Family"
  c_nf_hong_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+
+ # Tooltips
+ personal_union.tt.forbid_title_destruction: "This [title|E] cannot be destroyed while it is the junior partner in a [personal_union|E]"
+ GRANT_TITLES_ITEM_CANT_GIVE_PU: "[puppet_or_actor.GetShortUIName|U] cannot give away a [title|E] that is the junior partner in a [personal_union|E]"

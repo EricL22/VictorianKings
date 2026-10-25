@@ -4,55 +4,58 @@ evaluate_personal_union_independence_effect = {
 		limit = {
 			is_target_in_global_variable_list = { name = personal_union target = scope:title }
 			scope:title = { has_variable = pu_target }
-		#	OR = {
-		#		scope:transfer_type = flag:inheritance
-		#		scope:transfer_type = flag:abdication
-		#		scope:transfer_type = flag:appointment
-		#	}
-		#	any_held_title = { target_is_de_jure_liege_or_above = scope:title.var:pu_target }
-			exists = scope:title.var:pu_target.holder
 			NOT = { has_title = scope:title.var:pu_target }
 		}
-		create_title_and_vassal_change = {
-			type = independency
-			save_scope_as = change
-		}
-#		every_held_title = {
-#			limit = {
-#				tier > tier_barony
-#				target_is_de_jure_liege_or_above = scope:title.var:pu_target
-#			}
-#			add_to_temporary_list = major_titles
-#		}
-#		every_in_list = {
-#			list = major_titles
-#			change_title_holder = {
-#				holder = scope:title.var:pu_target.holder
-#				change = scope:change
-#			}
-#		}
-		scope:title = {
-			every_in_de_jure_hierarchy = {
-				limit = {
-					tier > tier_barony
-					exists = holder
-					holder.top_liege = scope:title.var:pu_target.holder
-				}
-				add_to_temporary_list = major_titles
+		# For regular inheritances, the junior partner becomes the vassal of the senior.
+		# Otherwise, the PU has not been broken through inheritance and the title transfer/notification is suppressed.
+		if = {
+			limit = {
+				exists = scope:title.var:pu_target.holder
+				top_liege = scope:title.var:pu_target.holder
 			}
-		}
-		every_in_list = {
-			list = major_titles
-			change_title_holder = {
-				holder = scope:title.holder
+			create_title_and_vassal_change = {
+				type = independency
+				save_scope_as = change
+			}
+#			every_held_title = {
+#				limit = {
+#					tier > tier_barony
+#					target_is_de_jure_liege_or_above = scope:title.var:pu_target
+#				}
+#				add_to_temporary_list = major_titles
+#			}
+#			every_in_list = {
+#				list = major_titles
+#				change_title_holder = {
+#					holder = scope:title.var:pu_target.holder
+#					change = scope:change
+#				}
+#			}
+			# Every title de jure part of the junior partner that is part of the senior's realm is transferred.
+			scope:title = {
+				every_in_de_jure_hierarchy = {
+					limit = {
+						tier > tier_barony
+						exists = holder
+						holder.top_liege = scope:title.var:pu_target.holder
+					}
+					add_to_temporary_list = major_titles
+				}
+			}
+			every_in_list = {
+				list = major_titles
+				change_title_holder = {
+					holder = scope:title.holder
+					change = scope:change
+				}
+			}
+			becomes_independent = {
 				change = scope:change
 			}
+			resolve_title_and_vassal_change = scope:change
+			scope:title.var:pu_target.holder = { trigger_event = { id = vk_flavor.1 days = 2 } }
 		}
-		becomes_independent = {
-			change = scope:change
-		}
-		resolve_title_and_vassal_change = scope:change
-		scope:title.var:pu_target.holder = { trigger_event = { id = vk_flavor.1 days = 2 } }
+
 		clear_personal_union_effect = { TITLE = scope:title }
 		scope:title = { remove_variable = pu_target }
 	}

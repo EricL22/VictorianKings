@@ -6334,6 +6334,13 @@ e_germany = {
 
 			capital = c_luxembourg #Luxembourg
 
+			can_destroy = {
+				custom_tooltip = {
+					text = personal_union.tt.forbid_title_destruction
+					NOT = { is_target_in_global_variable_list = { name = personal_union target = title:d_luxembourg } }
+				}
+			}
+
 			c_luxembourg = {
 				color = { 100 120 155 }
 

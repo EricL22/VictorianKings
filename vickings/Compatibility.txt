@@ -7,6 +7,8 @@ common
 .........00_bookmarks.txt
 ......groups
 .........00_bookmark_groups.txt
+...character_interactions
+......00_grant_titles_interaction.txt
 ...culture
 ......name_equivalency
 .........modern_names.txt (clauses)

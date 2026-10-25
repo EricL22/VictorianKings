@@ -116,6 +116,13 @@ k_hanover = {
 	color = { 164  217  127 }
 
 	capital = c_hannover
+
+	can_destroy = {
+		custom_tooltip = {
+			text = personal_union.tt.forbid_title_destruction
+			NOT = { is_target_in_global_variable_list = { name = personal_union target = title:k_hanover } }
+		}
+	}
 }
 
 k_belgium = {
