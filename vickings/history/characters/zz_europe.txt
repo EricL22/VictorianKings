@@ -22,7 +22,7 @@
 eur_00110 = {
 	name = "Arthur"
 	dynasty = eur_006E_0
-	rite = lutheran_rite
+	rite = anglican_rite
 	culture = english
 	trait = education_martial_3
 	trait = unyielding_defender

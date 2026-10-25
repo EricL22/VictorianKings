@@ -17,6 +17,12 @@
  reformed_rite_adherent_plural:0 "Calvinists"
  reformed_rite_desc:0 "Reformed covers a wide range of religious traditions inspired by men such as Jean Calvin or John Knox. Appearing later than the Protestant faiths, the Reformed religion also rejects papal authority and want to return to the rules of the scriptures but unlike the Protestants they embrace a number of perceived more hard-line ideas such as predestination and iconoclasm and will not form state Churches."
 
+ anglican_rite: "Anglican"
+ anglican_rite_adj: "Anglican"
+ anglican_rite_adherent: "Anglican"
+ anglican_rite_adherent_plural: "Anglicans"
+ anglican_rite_desc: "Originally formed when the King of England declared himself religious head of all Catholics in his realm, the Church of England has since adopted numerous Protestant practices in the wake of the Reformation. It presents itself as a #italic via media#! (middle way) between Catholicism and mainline Protestantism."
+
  godworship: "God-Worship"
  godworship_adj: "God-Worship"
  godworship_adherent: "God-Worshipper"

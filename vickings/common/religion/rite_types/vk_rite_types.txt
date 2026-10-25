@@ -51,6 +51,34 @@ reformed_rite = {
 	#localization = { }
 }
 
+anglican_rite = {
+	name = anglican_rite
+	desc = anglican_rite_desc
+	faith = protestant
+
+	color = { 135 77 255 }
+	icon = christianity_canterbury_cross_01
+
+	tenets = {
+		tenet_mendicant_preachers
+		tenet_legalism
+		tenet_protestant_literalism
+	}
+
+	doctrines = {
+		special_doctrine_ecumenical_christian
+		doctrine_no_head
+		doctrine_pluralism_pluralistic
+		doctrine_consanguinity_cousins
+		doctrine_clerical_function_alms_and_pacification
+		doctrine_clerical_marriage_allowed
+		doctrine_clerical_succession_temporal_fixed_appointment
+		doctrine_monasticism_absent
+	}
+
+	#localization = { }
+}
+
 godworship = {
 	faith = godworship
 

@@ -1738,13 +1738,13 @@
 1514 = {
 	1800.1.1 = {
 		culture = english
-		rite = lutheran_rite
+		rite = anglican_rite
 	}
 }
 1518 = {
 	1800.1.1 = {
 		culture = english
-		rite = lutheran_rite
+		rite = reformed_rite
 	}
 }
 1522 = {
@@ -1756,7 +1756,7 @@
 1527 = {
 	1800.1.1 = {
 		culture = english
-		rite = lutheran_rite
+		rite = anglican_rite
 	}
 }
 1531 = {
@@ -1786,19 +1786,19 @@
 1544 = {
 	1800.1.1 = {
 		culture = english
-		rite = lutheran_rite
+		rite = anglican_rite
 	}
 }
 1549 = {
 	1800.1.1 = {
 		culture = english
-		rite = lutheran_rite
+		rite = anglican_rite
 	}
 }
 1551 = {
 	1800.1.1 = {
 		culture = english
-		rite = lutheran_rite
+		rite = anglican_rite
 	}
 }
 1555 = {
@@ -1810,19 +1810,19 @@
 1558 = {
 	1800.1.1 = {
 		culture = english
-		rite = lutheran_rite
+		rite = anglican_rite
 	}
 }
 1561 = {
 	1800.1.1 = {
 		culture = english
-		rite = lutheran_rite
+		rite = anglican_rite
 	}
 }
 1565 = {
 	1800.1.1 = {
 		culture = english
-		rite = lutheran_rite
+		rite = anglican_rite
 	}
 }
 1569 = {
@@ -1846,7 +1846,7 @@
 1580 = {
 	1800.1.1 = {
 		culture = english
-		rite = lutheran_rite
+		rite = anglican_rite
 	}
 }
 1583 = {
@@ -1858,19 +1858,19 @@
 1588 = {
 	1800.1.1 = {
 		culture = english
-		rite = lutheran_rite
+		rite = anglican_rite
 	}
 }
 1591 = {
 	1800.1.1 = {
 		culture = english
-		rite = lutheran_rite
+		rite = anglican_rite
 	}
 }
 1595 = {
 	1800.1.1 = {
 		culture = english
-		rite = lutheran_rite
+		rite = anglican_rite
 	}
 }
 1600 = {
@@ -1882,7 +1882,7 @@
 1603 = {
 	1800.1.1 = {
 		culture = english
-		rite = lutheran_rite
+		rite = anglican_rite
 	}
 }
 1606 = {
@@ -1918,7 +1918,7 @@
 1624 = {
 	1800.1.1 = {
 		culture = english
-		rite = lutheran_rite
+		rite = anglican_rite
 	}
 }
 1627 = {
@@ -1978,61 +1978,61 @@
 1652 = {
 	1800.1.1 = {
 		culture = welsh
-		rite = lutheran_rite
+		rite = anglican_rite
 	}
 }
 1654 = {
 	1800.1.1 = {
 		culture = english
-		rite = lutheran_rite
+		rite = anglican_rite
 	}
 }
 1657 = {
 	1800.1.1 = {
 		culture = welsh
-		rite = lutheran_rite
+		rite = anglican_rite
 	}
 }
 1659 = {
 	1800.1.1 = {
 		culture = welsh
-		rite = lutheran_rite
+		rite = anglican_rite
 	}
 }
 1661 = {
 	1800.1.1 = {
 		culture = welsh
-		rite = lutheran_rite
+		rite = anglican_rite
 	}
 }
 1663 = {
 	1800.1.1 = {
 		culture = welsh
-		rite = lutheran_rite
+		rite = anglican_rite
 	}
 }
 1665 = {
 	1800.1.1 = {
 		culture = welsh
-		rite = lutheran_rite
+		rite = anglican_rite
 	}
 }
 1667 = {
 	1800.1.1 = {
 		culture = welsh
-		rite = lutheran_rite
+		rite = anglican_rite
 	}
 }
 1670 = {
 	1800.1.1 = {
 		culture = welsh
-		rite = lutheran_rite
+		rite = anglican_rite
 	}
 }
 1673 = {
 	1800.1.1 = {
 		culture = welsh
-		rite = lutheran_rite
+		rite = anglican_rite
 	}
 }
 1676 = {

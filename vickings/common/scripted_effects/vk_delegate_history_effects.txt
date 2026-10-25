@@ -6,6 +6,10 @@ auto_generate_vassals_at_game_start_effect = {
 			OR = {
 				sub_realm_size > 20
 				primary_title = title:k_funan	# fix for claimant war bug
+				AND = {
+					sub_realm_size > 10
+					has_government = colonial_government
+				}
 			}
 			OR = {
 				is_independent_ruler = yes
