@@ -1,0 +1,37 @@
+﻿#generate_families_1812_sweden = {
+#	
+#	categories = {
+#		tweaks historicity
+#	}
+#	
+#	default = on_generate_families_1812_sweden_player_only
+#	
+#	on_generate_families_1812_sweden = {
+#	
+#	}
+#	
+#	on_generate_families_1812_sweden_player_only = {
+#	
+#	}
+#	
+#	off_generate_families_1812_sweden = {
+#	
+#	}
+#}
+
+matrilineal_marriages_1861_victoria = {
+	
+	categories = {
+		tweaks historicity
+	}
+	
+	default = on_matrilineal_marriages_1861_victoria
+
+	on_matrilineal_marriages_1861_victoria = {
+	
+	}
+	
+	off_matrilineal_marriages_1861_victoria = {
+	
+	}
+}

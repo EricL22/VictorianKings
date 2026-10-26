@@ -1,5 +1,5 @@
 ﻿zahringen_0 = {
-	name = "Karl Friedrich"	# of Baden
+	name = "Karl_Friedrich"	# of Baden
 	dynasty_house = house_zahringen
 	rite = roman_rite
 	culture = swabian
@@ -12,7 +12,7 @@
 }
 
 zahringen_1 = {
-	name = "Karl Ludwig"	# of Baden
+	name = "Karl_Ludwig"	# of Baden
 	dynasty_house = house_zahringen
 	rite = roman_rite
 	culture = swabian

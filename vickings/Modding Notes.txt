@@ -1,7 +1,5 @@
 TODOs:
 HIGH Priority ---
-Game Rules: generate family for Sweden in 1812 and matrilineal marriage for Victoria in 1861
-Fix Nassau dynasty
 Allow Prussia and Austria to join the Sixth Coalition war
 Decisions/events: Congress of Vienna, British Raj, Dissolve EIC, Two Sicilies, Convention of Peking/Treaty of Tarbagatai
 

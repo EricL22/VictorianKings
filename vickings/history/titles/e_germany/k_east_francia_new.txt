@@ -468,11 +468,11 @@ c_fulda = {
 }
 c_nassau = {
 	1806.8.30 = {
-		holder = 9000034	# Frederick Augustus
+		holder = nassau_21	# Frederick Augustus
 		liege = e_cdr
 	}
 	1816.3.24 = {
-		holder = 8000024	# William
+		holder = nassau_0	# William
 	}
 	1839.8.20 = {
 		holder = nassau_1	# Adolphe

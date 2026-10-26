@@ -63,7 +63,7 @@ hesse_4 = {
 }
 
 hesse_5 = {
-	name = "Ernst Ludwig"		# of Hesse
+	name = "Ernst_Ludwig"		# of Hesse
 	rite = lutheran_rite
 	culture = franconian
 	father = hesse_4
@@ -150,7 +150,7 @@ hesse_14 = {
 }
 
 hesse_15 = {
-	name = "Friedrich Wilhelm" 	# Elector of Hesse
+	name = "Friedrich_Wilhelm" 	# Elector of Hesse
 	rite = reformed_rite
 	culture = franconian
 	father = hesse_14
@@ -164,7 +164,7 @@ hesse_15 = {
 
 # Mother of Christian IX (Denmark)
 hesse_16 = {
-	name = "Luise Karoline"
+	name = "Luise_Karoline"
 	rite = lutheran_rite
 	culture = german
 	father = hesse_11

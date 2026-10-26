@@ -239,7 +239,7 @@ habsburg_16 = {
 }
 
 habsburg_17 = {
-	name = "Maria Theresa"	# Holy Roman Empress
+	name = "Maria_Theresa"	# Holy Roman Empress
 	dynasty_house = house_habsburg
 	rite = roman_rite
 	culture = bavarian
@@ -341,7 +341,7 @@ habsburg_21 = {
 }
 
 habsburg_22 = {
-	name = "Franz Karl"
+	name = "Franz_Karl"
 	dynasty_house = house_habsburg
 	rite = roman_rite
 	culture = bavarian
@@ -366,7 +366,7 @@ habsburg_22 = {
 }
 
 habsburg_23 = {
-	name = "Franz Josef"	# I of Austria
+	name = "Franz_Josef"	# I of Austria
 	dynasty_house = house_habsburg
 	rite = roman_rite
 	culture = bavarian
@@ -396,7 +396,7 @@ habsburg_24 = {
 }
 
 habsburg_25 = {
-	name = "Karl Ludwig"
+	name = "Karl_Ludwig"
 	dynasty_house = house_habsburg
 	rite = roman_rite
 	culture = bavarian
@@ -410,7 +410,7 @@ habsburg_25 = {
 }
 
 habsburg_26 = {
-	name = "Franz Ferdinand"
+	name = "Franz_Ferdinand"
 	dynasty_house = house_habsburg
 	rite = roman_rite
 	culture = bavarian
@@ -426,7 +426,7 @@ habsburg_26 = {
 }
 
 habsburg_27 = {
-	name = "Otto Franz Josef"
+	name = "Otto_Franz_Josef"
 	dynasty_house = house_habsburg
 	rite = roman_rite
 	culture = bavarian
@@ -484,7 +484,7 @@ habsburg_30 = {
 }
 
 habsburg_31 = {
-	name = "Marie Anne"
+	name = "Maria_Anna"
 	dynasty_house = house_habsburg
 	rite = roman_rite
 	culture = bavarian
@@ -503,7 +503,7 @@ habsburg_31 = {
 
 # Second Wife of Napoleon
 habsburg_32 = {
-	name = "Marie Louise"
+	name = "Maria_Ludovica"	# commonly known by French name Marie-Louise
 	dynasty_house = house_habsburg
 	rite = roman_rite
 	culture = bavarian
@@ -622,7 +622,7 @@ habsburg_42 = {
 
 ## Habsburg-Este
 habsburg_50 = {
-	name = "Ferdinand Karl"
+	name = "Ferdinand_Karl"
 	dynasty_house = house_habsburg
 	rite = roman_rite
 	culture = bavarian
@@ -668,7 +668,7 @@ habsburg_52 = {
 }
 
 habsburg_53 = {
-	name = "Ferdinand Karl"	# Governor of Galicia
+	name = "Ferdinand_Karl"	# Governor of Galicia
 	dynasty_house = house_habs_este
 	culture = bavarian
 	rite = roman_rite

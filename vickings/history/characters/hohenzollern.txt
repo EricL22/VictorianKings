@@ -87,7 +87,7 @@ hohenzollern_5 = {
 }
 
 hohenzollern_6 = {
-	name = "Johann Georg"	# of Brandenburg
+	name = "Johann_Georg"	# of Brandenburg
 	dynasty = 12476
 	rite = lutheran_rite
 	culture = franconian
@@ -115,7 +115,7 @@ hohenzollern_7 = {
 }
 
 hohenzollern_8 = {
-	name = "Johann Sigismund"	# of Brandenburg-Prussia
+	name = "Johann_Sigismund"	# of Brandenburg-Prussia
 	dynasty = 12476
 	rite = lutheran_rite
 	culture = franconian
@@ -132,7 +132,7 @@ hohenzollern_8 = {
 }
 
 hohenzollern_9 = {
-	name = "Georg Wilhelm"	# of Brandenburg-Prussia
+	name = "Georg_Wilhelm"	# of Brandenburg-Prussia
 	dynasty = 12476
 	rite = reformed_rite
 	culture = german
@@ -146,7 +146,7 @@ hohenzollern_9 = {
 }
 
 hohenzollern_10 = {
-	name = "Friedrich-Wilhelm"	# of Brandenburg-Prussia
+	name = "Friedrich_Wilhelm"	# of Brandenburg-Prussia
 	dynasty = 12476
 	rite = reformed_rite
 	culture = german
@@ -177,7 +177,7 @@ hohenzollern_11 = {
 }
 
 hohenzollern_12 = {
-	name = "Friedrich-Wilhelm"	# I of Prussia
+	name = "Friedrich_Wilhelm"	# I of Prussia
 	dynasty = 12476
 	rite = reformed_rite
 	culture = german
@@ -208,7 +208,7 @@ hohenzollern_13 = {
 }
 
 hohenzollern_14 = {
-	name = "August Wilhelm"	# Prince of Prussia
+	name = "August_Wilhelm"	# Prince of Prussia
 	dynasty = 12476
 	rite = reformed_rite
 	culture = german
@@ -222,7 +222,7 @@ hohenzollern_14 = {
 }
 
 hohenzollern_15 = {
-	name = "Friedrich-Wilhelm"	# II of Prussia
+	name = "Friedrich_Wilhelm"	# II of Prussia
 	dynasty = 12476
 	rite = reformed_rite
 	culture = german
@@ -236,7 +236,7 @@ hohenzollern_15 = {
 }
 
 hohenzollern_16 = {
-	name = "Friedrich-Wilhelm"	# III of Prussia
+	name = "Friedrich_Wilhelm"	# III of Prussia
 	dynasty = 12476
 	rite = reformed_rite
 	culture = german
@@ -285,7 +285,7 @@ hohenzollern_16 = {
 }
 
 hohenzollern_17 = {
-	name = "Friedrich-Wilhelm"	# IV of Prussia
+	name = "Friedrich_Wilhelm"	# IV of Prussia
 	dynasty = 12476
 	rite = lutheran_rite
 	culture = german
@@ -581,7 +581,7 @@ hohenzollern_42 = {
 }
 
 hohenzollern_43 = {
-	name = "Joseph Friedrich Ernst"	# Prince of Hohenzollern-Sigmaringen
+	name = "Joseph_Friedrich_Ernst"	# Prince of Hohenzollern-Sigmaringen
 	dynasty_house = house_hohen_sigmaringen
 	rite = roman_rite
 	culture = swabian
@@ -595,7 +595,7 @@ hohenzollern_43 = {
 }
 
 hohenzollern_44 = {
-	name = "Karl Friedrich"	# Prince of Hohenzollern-Sigmaringen
+	name = "Karl_Friedrich"	# Prince of Hohenzollern-Sigmaringen
 	dynasty_house = house_hohen_sigmaringen
 	rite = roman_rite
 	culture = swabian
@@ -609,7 +609,7 @@ hohenzollern_44 = {
 }
 
 hohenzollern_45 = {
-	name = "Anton Aloys"	# Prince of Hohenzollern-Sigmaringen
+	name = "Anton_Aloys"	# Prince of Hohenzollern-Sigmaringen
 	dynasty_house = house_hohen_sigmaringen
 	rite = roman_rite
 	culture = swabian
@@ -637,7 +637,7 @@ hohenzollern_46 = {
 }
 
 hohenzollern_47 = {
-	name = "Karl Anton"	# Prince of Hohenzollern
+	name = "Karl_Anton"	# Prince of Hohenzollern
 	dynasty_house = house_hohen_sigmaringen
 	rite = roman_rite
 	culture = swabian

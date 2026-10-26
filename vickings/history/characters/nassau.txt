@@ -1,21 +1,9 @@
-﻿9000034 = {
-	name = "Friedrich August"	# of Nassau
-	dynasty = 263
-	rite = lutheran_rite
-	culture = franconian
-	1738.4.23 = {
-		birth = yes
-	}
-	1816.3.24 = {
-		death = yes
-	}
-}
-
-8000024 = {
+﻿nassau_0 = {
 	name = "Wilhelm"	# of Nassau
 	dynasty = 263
 	rite = lutheran_rite
 	culture = franconian
+	father = nassau_27
 	1792.6.14 = {
 		birth = yes
 	}
@@ -29,7 +17,7 @@ nassau_1 = {
 	dynasty = 263
 	rite = lutheran_rite
 	culture = franconian
-	father = 8000024
+	father = nassau_0
 	1817.7.24 = {
 		birth = yes
 	}
@@ -81,3 +69,412 @@ nassau_4 = {
 		death = yes
 	}
 }
+
+## Connectors
+nassau_10 = {
+	name = "Philipp"	# I of Nassau-Weilburg
+	dynasty = 263
+	rite = roman_rite
+	culture = franconian
+	father = 462366
+	1368.1.1 = {
+		birth = yes
+	}
+	1429.7.2 = {
+		death = yes
+	}
+}
+
+nassau_11 = {
+	name = "Philipp"	# II of Nassau-Weilburg
+	dynasty = 263
+	rite = roman_rite
+	culture = franconian
+	father = nassau_10
+	1418.3.14 = {
+		birth = yes
+	}
+	1492.3.19 = {
+		death = yes
+	}
+}
+
+nassau_12 = {
+	name = "Johann"	# III of Nassau-Weilburg
+	dynasty = 263
+	rite = roman_rite
+	culture = franconian
+	father = nassau_11
+	1441.6.27 = {
+		birth = yes
+	}
+	1480.7.15 = {
+		death = yes
+	}
+}
+
+nassau_13 = {
+	name = "Ludwig"	# I of Nassau-Weilburg
+	dynasty = 263
+	rite = roman_rite
+	culture = franconian
+	father = nassau_12
+	1473.1.1 = {
+		birth = yes
+	}
+	1523.5.28 = {
+		death = yes
+	}
+}
+
+nassau_14 = {
+	name = "Philipp"	# III of Nassau-Weilburg
+	dynasty = 263
+	rite = lutheran_rite
+	culture = franconian
+	father = nassau_13
+	1504.9.20 = {
+		birth = yes
+	}
+	1559.10.4 = {
+		death = yes
+	}
+}
+
+nassau_15 = {
+	name = "Albrecht"	# Count of Nassau-Weilburg
+	dynasty = 263
+	rite = lutheran_rite
+	culture = franconian
+	father = nassau_14
+	1537.12.26 = {
+		birth = yes
+	}
+	1593.11.11 = {
+		death = yes
+	}
+}
+
+nassau_16 = {
+	name = "Ludwig"	# II of Nassau-Weilburg
+	dynasty = 263
+	rite = lutheran_rite
+	culture = franconian
+	father = nassau_15
+	1565.8.9 = {
+		birth = yes
+	}
+	1627.11.8 = {
+		death = yes
+	}
+}
+
+nassau_17 = {
+	name = "Wilhelm_Ludwig"	# Count of Nassau-Saarbrücken
+	dynasty = 263
+	rite = lutheran_rite
+	culture = franconian
+	father = nassau_16
+	1590.12.18 = {
+		birth = yes
+	}
+	1640.8.22 = {
+		death = yes
+	}
+}
+
+nassau_18 = {
+	name = "Walrad"	# Prince of Nassau-Usingen
+	dynasty = 263
+	rite = lutheran_rite
+	culture = franconian
+	father = nassau_17
+	1636.2.25 = {
+		birth = yes
+	}
+	1702.10.17 = {
+		death = yes
+	}
+}
+
+nassau_19 = {
+	name = "Wilhelm_Heinrich"	# Prince of Nassau-Usingen
+	dynasty = 263
+	rite = lutheran_rite
+	culture = franconian
+	father = nassau_18
+	1684.5.2 = {
+		birth = yes
+	}
+	1718.2.14 = {
+		death = yes
+	}
+}
+
+nassau_20 = {
+	name = "Karl"	# Prince of Nassau-Usingen
+	dynasty = 263
+	rite = lutheran_rite
+	culture = franconian
+	father = nassau_19
+	1712.12.31 = {
+		birth = yes
+	}
+	1775.6.21 = {
+		death = yes
+	}
+}
+
+nassau_21 = {
+	name = "Friedrich_August"	# of Nassau
+	dynasty = 263
+	rite = lutheran_rite
+	culture = franconian
+	father = nassau_20
+	1738.4.23 = {
+		birth = yes
+	}
+	1816.3.24 = {
+		death = yes
+	}
+}
+
+nassau_22 = {
+	name = "Ernst_Casimir"	# Count of Nassau-Weilburg
+	dynasty = 263
+	rite = lutheran_rite
+	culture = franconian
+	father = nassau_16
+	1607.11.15 = {
+		birth = yes
+	}
+	1655.4.16 = {
+		death = yes
+	}
+}
+
+nassau_23 = {
+	name = "Friedrich"	# Count of Nassau-Weilburg
+	dynasty = 263
+	rite = lutheran_rite
+	culture = franconian
+	father = nassau_22
+	1640.4.26 = {
+		birth = yes
+	}
+	1675.9.8 = {
+		death = yes
+	}
+}
+
+nassau_24 = {
+	name = "Johann_Ernst"	# Count of Nassau-Weilburg
+	dynasty = 263
+	rite = lutheran_rite
+	culture = franconian
+	father = nassau_23
+	1664.6.13 = {
+		birth = yes
+	}
+	1719.2.27 = {
+		death = yes
+	}
+}
+
+nassau_25 = {
+	name = "Karl_August"	# Prince of Nassau-Weilburg
+	dynasty = 263
+	rite = lutheran_rite
+	culture = franconian
+	father = nassau_24
+	1685.9.17 = {
+		birth = yes
+	}
+	1753.11.9 = {
+		death = yes
+	}
+}
+
+nassau_26 = {
+	name = "Karl_Christian"	# Prince of Nassau-Weilburg
+	dynasty = 263
+	rite = lutheran_rite
+	culture = franconian
+	father = nassau_25
+	1735.1.16 = {
+		birth = yes
+	}
+	1788.11.28 = {
+		death = yes
+	}
+}
+
+nassau_27 = {
+	name = "Friedrich_Wilhelm"	# Prince of Nassau-Weilburg
+	dynasty = 263
+	rite = lutheran_rite
+	culture = franconian
+	father = nassau_26
+	1768.10.25 = {
+		birth = yes
+	}
+	1816.1.9 = {
+		death = yes
+	}
+}
+
+# Ottonian branch (ancestors of Nassau-Orange)
+nassau_30 = {
+	name = "Heinrich"	# I of Nassau-Siegen
+	dynasty = 263
+	rite = roman_rite
+	culture = franconian
+	father = 30711
+	1270.1.1 = {
+		birth = yes
+	}
+	1343.8.14 = {
+		death = yes
+	}
+}
+
+nassau_31 = {
+	name = "Otto"	# II of Nassau-Siegen
+	dynasty = 263
+	rite = roman_rite
+	culture = franconian
+	father = nassau_30
+	1305.1.1 = {
+		birth = yes
+	}
+	1351.1.25 = {
+		death = yes
+	}
+}
+
+nassau_32 = {
+	name = "Johann"	# I of Nassau-Siegen
+	dynasty = 263
+	rite = roman_rite
+	culture = franconian
+	father = nassau_31
+	1339.1.1 = {
+		birth = yes
+	}
+	1416.9.4 = {
+		death = yes
+	}
+}
+
+nassau_33 = {
+	name = "Engelbert"	# I of Nassau
+	dynasty = 263
+	rite = roman_rite
+	culture = franconian
+	father = nassau_32
+	1370.1.1 = {
+		birth = yes
+	}
+	1442.5.3 = {
+		death = yes
+	}
+}
+
+nassau_34 = {
+	name = "Johann"	# IV of Nassau-Siegen
+	dynasty = 263
+	rite = roman_rite
+	culture = franconian
+	father = nassau_33
+	1410.8.1 = {
+		birth = yes
+	}
+	1475.2.3 = {
+		death = yes
+	}
+}
+
+nassau_35 = {
+	name = "Johann"	# V of Nassau-Siegen
+	dynasty = 263
+	rite = roman_rite
+	culture = franconian
+	father = nassau_34
+	1455.11.9 = {
+		birth = yes
+	}
+	1516.7.30 = {
+		death = yes
+	}
+}
+
+nassau_36 = {
+	name = "Wilhelm"	# I of Nassau-Siegen
+	dynasty = 263
+	rite = lutheran_rite
+	culture = franconian
+	father = nassau_35
+	1487.4.10 = {
+		birth = yes
+	}
+	1559.10.6 = {
+		death = yes
+	}
+}
+
+nassau_37 = {
+	name = "Johann"	# VI of Nassau-Dillenburg
+	dynasty = 263
+	rite = reformed_rite
+	culture = franconian
+	father = nassau_36
+	1536.11.22 = {
+		birth = yes
+	}
+	1606.10.8 = {
+		death = yes
+	}
+}
+
+nassau_38 = {
+	name = "Ernst_Casimir"	# Count of Nassau-Dietz
+	dynasty = 263
+	rite = reformed_rite
+	culture = franconian
+	father = nassau_37
+	1573.12.22 = {
+		birth = yes
+	}
+	1632.6.2 = {
+		death = yes
+	}
+}
+
+nassau_39 = {
+	name = "Wilhelm_Friedrich"	# Prince of Nassau-Dietz
+	dynasty = 263
+	rite = reformed_rite
+	culture = franconian
+	father = nassau_38
+	1613.8.7 = {
+		birth = yes
+	}
+	1664.10.31 = {
+		death = yes
+	}
+}
+
+nassau_40 = {
+	name = "Heinrich_Casimir"	# II of Nassau-Dietz
+	dynasty = 263
+	rite = reformed_rite
+	culture = franconian
+	father = nassau_39
+	1657.1.18 = {
+		birth = yes
+	}
+	1696.3.25 = {
+		death = yes
+	}
+}
+# house of Orange-Nassau in separate file

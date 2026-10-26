@@ -183,3 +183,8 @@ house_kiram = {
 	name = "dynn_Kiram"
 	dynasty = adinda
 }
+
+house_orange_nassau = {
+	name = "dynn_Orange_Nassau"
+	dynasty = 263	# Nassau
+}

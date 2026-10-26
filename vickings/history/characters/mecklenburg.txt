@@ -1,6 +1,6 @@
 ﻿## Mecklenburg-Schwerin
 mecklenburg_0 = {
-	name = "Adolf Friedrich"	# I of Mecklenburg
+	name = "Adolf_Friedrich"	# I of Mecklenburg
 	dynasty = 101893
 	rite = lutheran_rite
 	culture = german
@@ -13,7 +13,7 @@ mecklenburg_0 = {
 }
 
 mecklenburg_1 = {
-	name = "Christian Ludwig"	# I of Mecklenburg
+	name = "Christian_Ludwig"	# I of Mecklenburg
 	dynasty = 101893
 	rite = lutheran_rite
 	culture = german
@@ -41,7 +41,7 @@ mecklenburg_2 = {
 }
 
 mecklenburg_3 = {
-	name = "Friedrich Wilhelm"	# of Mecklenburg
+	name = "Friedrich_Wilhelm"	# of Mecklenburg
 	dynasty = 101893
 	rite = lutheran_rite
 	culture = german
@@ -55,7 +55,7 @@ mecklenburg_3 = {
 }
 
 mecklenburg_4 = {
-	name = "Karl Leopold"	# of Mecklenburg
+	name = "Karl_Leopold"	# of Mecklenburg
 	dynasty = 101893
 	rite = lutheran_rite
 	culture = german
@@ -69,7 +69,7 @@ mecklenburg_4 = {
 }
 
 mecklenburg_5 = {
-	name = "Christian Ludwig"	# II of Mecklenburg
+	name = "Christian_Ludwig"	# II of Mecklenburg
 	dynasty = 101893
 	rite = lutheran_rite
 	culture = german
@@ -111,7 +111,7 @@ mecklenburg_7 = {
 }
 
 mecklenburg_8 = {
-	name = "Friedrich Franz"	# I of Mecklenburg
+	name = "Friedrich_Franz"	# I of Mecklenburg
 	dynasty = 101893
 	rite = lutheran_rite
 	culture = german
@@ -125,7 +125,7 @@ mecklenburg_8 = {
 }
 
 mecklenburg_9 = {
-	name = "Friedrich Ludwig"	# prince of Mecklenburg
+	name = "Friedrich_Ludwig"	# prince of Mecklenburg
 	dynasty = 101893
 	rite = lutheran_rite
 	culture = german
@@ -139,7 +139,7 @@ mecklenburg_9 = {
 }
 
 mecklenburg_10 = {
-	name = "Paul Friedrich"	# of Mecklenburg
+	name = "Paul_Friedrich"	# of Mecklenburg
 	dynasty = 101893
 	rite = lutheran_rite
 	culture = german
@@ -153,7 +153,7 @@ mecklenburg_10 = {
 }
 
 mecklenburg_11 = {
-	name = "Friedrich Franz"	# II of Mecklenburg
+	name = "Friedrich_Franz"	# II of Mecklenburg
 	dynasty = 101893
 	rite = lutheran_rite
 	culture = german
@@ -167,7 +167,7 @@ mecklenburg_11 = {
 }
 
 mecklenburg_12 = {
-	name = "Friedrich Franz"	# III of Mecklenburg
+	name = "Friedrich_Franz"	# III of Mecklenburg
 	dynasty = 101893
 	rite = lutheran_rite
 	culture = german
@@ -181,7 +181,7 @@ mecklenburg_12 = {
 }
 
 mecklenburg_13 = {
-	name = "Friedrich Franz"	# IV of Mecklenburg
+	name = "Friedrich_Franz"	# IV of Mecklenburg
 	dynasty = 101893
 	rite = lutheran_rite
 	culture = german
@@ -195,7 +195,7 @@ mecklenburg_13 = {
 }
 
 mecklenburg_14 = {
-	name = "Adolf Friedrich"	# Duke of Mecklenburg, Governor of Togoland 1914
+	name = "Adolf_Friedrich"	# Duke of Mecklenburg, Governor of Togoland 1914
 	dynasty = 101893
 	rite = lutheran_rite
 	culture = german
@@ -210,7 +210,7 @@ mecklenburg_14 = {
 
 ## Mecklenburg-Strelitz
 mecklenburg_20 = {
-	name = "Adolf Friedrich"	# II of Mecklenburg-Strelitz
+	name = "Adolf_Friedrich"	# II of Mecklenburg-Strelitz
 	dynasty = 101893
 	rite = lutheran_rite
 	culture = german
@@ -227,7 +227,7 @@ mecklenburg_20 = {
 }
 
 mecklenburg_21 = {
-	name = "Karl Ludwig Friedrich"	# of Mecklenburg-Strelitz
+	name = "Karl_Ludwig_Friedrich"	# of Mecklenburg-Strelitz
 	dynasty_house = house_meck_strelitz
 	rite = lutheran_rite
 	culture = german

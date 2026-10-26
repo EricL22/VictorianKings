@@ -310,7 +310,7 @@ oldenburg_20 = {
 }
 
 oldenburg_21 = {
-	name = "Johann Adolf"
+	name = "Johann_Adolf"
 	dynasty_house = house_hols_gott
 	rite = lutheran_rite
 	culture = saxon
@@ -338,7 +338,7 @@ oldenburg_22 = {
 }
 
 oldenburg_23 = {
-	name = "Christian Albrecht"
+	name = "Christian_Albrecht"
 	dynasty_house = house_hols_gott
 	rite = lutheran_rite
 	culture = saxon
@@ -352,7 +352,7 @@ oldenburg_23 = {
 }
 
 oldenburg_24 = {
-	name = "Christian August"	# Prince of Eutin
+	name = "Christian_August"	# Prince of Eutin
 	dynasty_house = house_hols_gott
 	rite = lutheran_rite
 	culture = saxon
@@ -366,7 +366,7 @@ oldenburg_24 = {
 }
 
 oldenburg_25 = {
-	name = "Adolf Frederik"	# of Sweden
+	name = "Adolf_Frederik"	# of Sweden
 	dynasty_house = house_hols_gott
 	rite = lutheran_rite
 	culture = saxon
@@ -434,7 +434,7 @@ oldenburg_28 = {
 }
 
 oldenburg_29 = {
-	name = "Georg Ludwig"	# Prince of Holstein-Gottorp
+	name = "Georg_Ludwig"	# Prince of Holstein-Gottorp
 	dynasty_house = house_hols_gott
 	rite = lutheran_rite
 	culture = saxon
@@ -481,7 +481,7 @@ oldenburg_31 = {
 }
 
 oldenburg_32 = {
-	name = "August Philipp"	# of Schleswig-Holstein-Sonderburg-Beck
+	name = "August_Philipp"	# of Schleswig-Holstein-Sonderburg-Beck
 	dynasty_house = house_schles_hols_sonder
 	rite = lutheran_rite
 	culture = saxon
@@ -498,7 +498,7 @@ oldenburg_32 = {
 }
 
 oldenburg_33 = {
-	name = "Frederik Ludwig"	# of Schleswig-Holstein-Sonderburg-Beck
+	name = "Frederik_Ludwig"	# of Schleswig-Holstein-Sonderburg-Beck
 	dynasty_house = house_schles_hols_beck
 	rite = lutheran_rite
 	culture = saxon
@@ -512,7 +512,7 @@ oldenburg_33 = {
 }
 
 oldenburg_34 = {
-	name = "Peter August"	# of Schleswig-Holstein-Sonderburg-Beck
+	name = "Peter_August"	# of Schleswig-Holstein-Sonderburg-Beck
 	dynasty_house = house_schles_hols_beck
 	rite = lutheran_rite
 	culture = saxon
@@ -526,7 +526,7 @@ oldenburg_34 = {
 }
 
 oldenburg_35 = {
-	name = "Karl Anton August"	# of Schleswig-Holstein-Sonderburg-Beck
+	name = "Karl_Anton_August"	# of Schleswig-Holstein-Sonderburg-Beck
 	dynasty_house = house_schles_hols_beck
 	rite = lutheran_rite
 	culture = saxon
@@ -540,7 +540,7 @@ oldenburg_35 = {
 }
 
 oldenburg_36 = {
-	name = "Friedrich Karl Ludwig"	# of Schleswig-Holstein-Sonderburg-Beck
+	name = "Friedrich_Karl_Ludwig"	# of Schleswig-Holstein-Sonderburg-Beck
 	dynasty_house = house_schles_hols_beck
 	rite = lutheran_rite
 	culture = saxon
@@ -554,7 +554,7 @@ oldenburg_36 = {
 }
 
 oldenburg_37 = {
-	name = "Friedrich Wilhelm"
+	name = "Friedrich_Wilhelm"
 	dynasty_house = house_schles_hols_beck
 	rite = lutheran_rite
 	culture = saxon
@@ -684,7 +684,7 @@ oldenburg_50 = {
 	}
 }
 oldenburg_51 = {
-	name = "Karl Frederik"	# of Holstein-Gottorp
+	name = "Karl_Frederik"	# of Holstein-Gottorp
 	dynasty_house = house_hols_gott
 	rite = lutheran_rite
 	culture = saxon

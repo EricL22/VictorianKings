@@ -1,5 +1,5 @@
 ﻿wittelsbach_0 = {
-	name = "Maximilian Joseph"	# of Bavaria
+	name = "Maximilian_Joseph"	# of Bavaria
 	dynasty_house = house_wittelsbach
 	rite = roman_rite
 	culture = bavarian

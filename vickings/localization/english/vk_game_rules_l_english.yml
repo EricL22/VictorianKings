@@ -1,0 +1,14 @@
+﻿l_english:
+ rule_generate_families_1812_sweden: "Generate Family for King Charles XIII"
+ setting_on_generate_families_1812_sweden: "#high Always#!"
+ setting_on_generate_families_1812_sweden_desc: "To prevent early game-over, Charles XIII, the King of Sweden in 1812, will always have a family generated for him if the Generate Families game rule is enabled."
+ setting_on_generate_families_1812_sweden_player_only: "Player Only"
+ setting_on_generate_families_1812_sweden_player_only_desc: "To prevent early game-over, Charles XIII, the King of Sweden in 1812, will have a family generated for him if the Generate Families game rule is enabled and he is controlled by a player."
+ setting_off_generate_families_1812_sweden: "#high Never#!"
+ setting_off_generate_families_1812_sweden_desc: "Charles XIII, the King of Sweden in 1812, will retain Jean-Baptiste Bernadotte as his heir."
+
+ rule_matrilineal_marriages_1861_victoria: "Matrilineal Marriage for Queen Victoria"
+ setting_on_matrilineal_marriages_1861_victoria: "Player Only"
+ setting_on_matrilineal_marriages_1861_victoria_desc: "To prevent early game-over, Victoria, the Queen of the United Kingdom in 1861, will be in a matrilineal marriage if controlled by a player. She and her existing children will change to the same dynasty house, Windsor."
+ setting_off_matrilineal_marriages_1861_victoria: "#high Off#!"
+ setting_off_matrilineal_marriages_1861_victoria_desc: "Victoria, the Queen of the United Kingdom in 1861, will retain her historical succession by the house of Saxe-Coburg and Gotha."

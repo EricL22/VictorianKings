@@ -1,5 +1,5 @@
 ﻿wettin_0 = {
-	name = "Frederik Christian"	# Elector of Saxony
+	name = "Frederik_Christian"	# Elector of Saxony
 	dynasty_house = house_wettin
 	rite = roman_rite
 	culture = saxon
@@ -13,7 +13,7 @@
 }
 
 wettin_1 = {
-	name = "Frederik August"	# I of Saxony
+	name = "Frederik_August"	# I of Saxony
 	dynasty_house = house_wettin
 	rite = roman_rite
 	culture = saxon
@@ -56,7 +56,7 @@ wettin_3 = {
 	}
 }
 wettin_4 = {
-	name = "Frederik August"	# II of Saxony
+	name = "Frederik_August"	# II of Saxony
 	dynasty_house = house_wettin
 	rite = roman_rite
 	culture = saxon
@@ -108,7 +108,7 @@ wettin_7 = {
 	}
 }
 wettin_8 = {
-	name = "Frederik August"	# III of Saxony
+	name = "Frederik_August"	# III of Saxony
 	dynasty_house = house_wettin
 	rite = roman_rite
 	culture = saxon
@@ -136,7 +136,7 @@ wettin_9 = {
 }
 
 wettin_10 = {
-	name = "Frederik August"	# Elector of Saxony
+	name = "Frederik_August"	# Elector of Saxony
 	dynasty_house = house_wettin
 	rite = roman_rite
 	culture = saxon
@@ -149,7 +149,7 @@ wettin_10 = {
 }
 
 wettin_11 = {
-	name = "Maria Josepha"	# Dauphine of France
+	name = "Maria_Josepha"	# Dauphine of France
 	dynasty_house = house_wettin
 	rite = roman_rite
 	culture = saxon
@@ -164,7 +164,7 @@ wettin_11 = {
 }
 
 wettin_20 = {
-	name = "Karl August"	# of Saxe-Weimar-Eisenach
+	name = "Karl_August"	# of Saxe-Weimar-Eisenach
 	dynasty_house = house_saxe_weimar
 	rite = lutheran_rite
 	culture = saxon
@@ -177,7 +177,7 @@ wettin_20 = {
 }
 
 wettin_21 = {
-	name = "Karl Friedrich"	# of Saxe-Weimar-Eisenach
+	name = "Karl_Friedrich"	# of Saxe-Weimar-Eisenach
 	dynasty_house = house_saxe_weimar
 	rite = lutheran_rite
 	culture = saxon
@@ -191,7 +191,7 @@ wettin_21 = {
 }
 
 wettin_22 = {
-	name = "Karl Alexander"	# of Saxe-Weimar-Eisenach
+	name = "Karl_Alexander"	# of Saxe-Weimar-Eisenach
 	dynasty_house = house_saxe_weimar
 	rite = lutheran_rite
 	culture = saxon
@@ -205,7 +205,7 @@ wettin_22 = {
 }
 
 wettin_23 = {
-	name = "Karl August"	# of Saxe-Weimar-Eisenach
+	name = "Karl_August"	# of Saxe-Weimar-Eisenach
 	dynasty_house = house_saxe_weimar
 	rite = lutheran_rite
 	culture = saxon
@@ -219,7 +219,7 @@ wettin_23 = {
 }
 
 wettin_24 = {
-	name = "Wilhelm Ernst"	# of Saxe-Weimar-Eisenach
+	name = "Wilhelm_Ernst"	# of Saxe-Weimar-Eisenach
 	dynasty_house = house_saxe_weimar
 	rite = lutheran_rite
 	culture = saxon
@@ -233,7 +233,7 @@ wettin_24 = {
 }
 
 wettin_25 = {
-	name = "Karl August"	# of Saxe-Weimar-Eisenach
+	name = "Karl_August"	# of Saxe-Weimar-Eisenach
 	dynasty_house = house_saxe_weimar
 	rite = lutheran_rite
 	culture = saxon
@@ -385,7 +385,7 @@ wettin_38 = {
 }
 
 wettin_39 = {
-	name = "Johann Leopold"	# prince of Saxe-Coburg and Gotha
+	name = "Johann_Leopold"	# prince of Saxe-Coburg and Gotha
 	dynasty_house = house_saxe_coburg
 	rite = lutheran_rite
 	culture = franconian
