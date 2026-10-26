@@ -7,12 +7,12 @@ vk_mood_rachsymph2_3 = {
 	can_be_interrupted = yes
 }
 
-#vk_mood_dvorsymph7_4 = {
-#	music = "file:/sound/vk_music/dvorsymph7-4.mp3"
-#	name = "vk_mood_dvorsymph7_4"
-#	group = group_vickings
-#	can_be_interrupted = yes
-#}
+vk_mood_bruchconcerto1_3 = {
+	music = "file:/sound/vk_music/bruchconcerto1-3.mp3"
+	name = "vk_mood_bruchconcerto1_3"
+	group = group_vickings
+	can_be_interrupted = yes
+}
 
 vk_mood_wienconcerto2 = {
 	music = "file:/sound/vk_music/wienconcerto2.mp3"

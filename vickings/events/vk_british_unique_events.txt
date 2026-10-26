@@ -80,6 +80,9 @@ vk_british.1 = {
 			hidden_effect = {
 			tributary_contract_set_obligation_level = { type = suzerain_war_participation_guarantee level = 1 }
 			tributary_contract_set_obligation_level = { type = tributary_war_participation_obligation level = 1 }
+				add_realm_law_skip_effects = acclamation_succession_law
+				add_realm_law_skip_effects = imperial_bureaucracy_1
+				add_realm_law_skip_effects = male_only_law
 			}
 		}
 
