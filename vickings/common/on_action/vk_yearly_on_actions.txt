@@ -8,3 +8,43 @@ yearly_playable_pulse = {
 #		vk_yearly_playable_pulse_effects
 #	}
 }
+
+# Called from code once a quarter for "playable" (count+) characters.
+# Root is the character
+# scope:quarter is which quarter it's for, from 1 to 4. Note that scope:quarter = 1 isn't necessarily in Q1 by calendar time
+quarterly_playable_pulse = {
+	on_actions = {
+		vk_quarterly_playable_pulse_effects
+	}
+}
+vk_quarterly_playable_pulse_effects = {
+	effect = {
+		# Prussia/Austria join Sixth Coalition
+		if = {
+			limit = {
+				OR = {
+					has_title = title:k_prussia
+					has_title = title:e_austria
+				}
+				exists = title:e_france.holder
+				title:e_france.holder = {
+					any_character_war = {
+						using_cb = napoleon_invasion_cb
+						attacker_war_score < 0
+					}
+				}
+				NOR = {
+					is_at_war_with = title:e_france.holder
+					has_character_flag = refused_sixth_coalition_war
+				}
+			}
+			title:e_france.holder = {
+				random_character_war = {
+					limit = { using_cb = napoleon_invasion_cb }
+					save_scope_as = sixth_coalition_war
+				}
+			}
+			trigger_event = vk_napoleon.1
+		}
+	}
+}

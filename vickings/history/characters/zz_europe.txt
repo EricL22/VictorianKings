@@ -6,6 +6,7 @@
 # POLAND           #
 # ALBANIA          #
 # AUSTRIA          #
+# PRUSSIA          #
 # SWITZERLAND      #
 ####################
 
@@ -70,6 +71,20 @@ eur_01010 = {
 }
 
 # 1812 bookmark
+eur_01100 = {
+	name = "Charles-Maurice"
+	dynasty = talleyrand
+	rite = roman_rite
+	culture = french
+	trait = gregarious
+	trait = education_diplomacy_4
+	1754.2.2 = {
+		birth = yes
+	}
+	1838.5.17 = {
+		death = yes
+	}
+}
 
 # 1815 bookmark
 # 1836 bookmark
@@ -646,6 +661,30 @@ eur_06100 = {
 		give_council_position = councillor_chancellor
 	}
 	1859.6.11 = {
+		death = yes
+	}
+}
+####################
+
+
+
+####################
+# PRUSSIA #
+####################
+# 1812 bookmark
+eur_07100 = {
+	name = "Karl_August"
+	dynasty = hardenberg
+	culture = franconian
+	rite = lutheran_rite
+	trait = education_diplomacy_3
+	1750.5.31 = {
+		birth = yes
+	}
+	1810.6.6 = {
+		give_council_position = councillor_chancellor
+	}
+	1822.11.26 = {
 		death = yes
 	}
 }

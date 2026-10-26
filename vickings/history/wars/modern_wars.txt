@@ -9,7 +9,6 @@ war = {
 	casus_belli = napoleon_invasion_cb
 	attackers = { bonaparte_2 bonaparte_4 bonaparte_30 bonaparte_5 }
 	defenders = { romanov_6 hanover_3 bourbon_43 }
-	claimant = eur_014101
 }
 
 # The Peninsular War
@@ -17,13 +16,12 @@ war = {
 	name = "war_Peninsular"
 	start_date = 1808.5.2
 	end_date = 1814.4.17
-	targeted_titles={
+	targeted_titles = {
 		k_spain
 	}
 	casus_belli = peninsular_cb
 	attackers = { eur_02100 braganza_7 hanover_3 }
 	defenders = { bonaparte_4 bonaparte_2 bonaparte_30 }
-	claimant = bourbon_36
 }
 
 # First Carlist War

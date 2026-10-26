@@ -313,7 +313,7 @@ bendahara_31 = {
 }
 
 bendahara_32 = {
-	name = "Abdul Rahman"
+	name = "Abdul_Rahman"
 	dynasty_house = house_temenggong
 	rite = shafii
 	culture = malay

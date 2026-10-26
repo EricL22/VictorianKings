@@ -18,6 +18,7 @@ k_bavaria = {
 				holder = {
 					add_realm_law_skip_effects = single_heir_succession_law
 					add_realm_law_skip_effects = imperial_bureaucracy_1
+					add_realm_law_skip_effects = province_war_law_1
 				}
 			}
 			if = {

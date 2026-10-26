@@ -1,9 +1,14 @@
 1.0------------
-Completely rebuilt the mod from the ground up:
--- administrative and celestial governments implemented in the appropriate places
--- redid the paper map graphics which should now look much more "paper"-like
--- completely finished all title histories from 1812 to 1914 for the old world (new world coming soon...)
--- general code cleanup and refactoring
+Completely rebuilt the mod from the ground up. Note that most gameplay features that were present in earlier versions have been removed, outside of a small set of events/decisions.
+Fixed compatibility for the 1.20 update and ported over the updated vanilla map
+An 1861 bookmark has been added, along with hundreds of historical characters that link prominent dynasties with their medieval ancestors. Many historical inaccuracies have also been corrected.
+Protestant faith has been slightly reworked for the new rite mechanic. Two new rites have been added: Anglican and (Taiping) God-Worship.
+Added colonial administrative government and tributary type
+Redid the paper map graphics which should now look much more "paper"-like
+1815 bookmark has been removed
+The Americas have been removed, pending further rework
+Fix the Napoleonic War claimant exploit for good this time
+General code cleanup and refactoring
 0.5------------ (unreleased)
 Government rework:
 -- A separate Legislature exists in constitutional monarchies and republics. It is elected depending on your voting franchise and checks the power of the sovereign/executive, voting on most issues.

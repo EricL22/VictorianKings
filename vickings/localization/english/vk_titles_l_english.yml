@@ -416,6 +416,8 @@
  c_nf_matsumae_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
  c_nf_hong: "$dynn_Hong$ Family"
  c_nf_hong_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ d_nf_hardenberg: "$dynn_Hardenberg$ Family"
+ d_nf_hardenberg_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
 
  # Tooltips
  personal_union.tt.forbid_title_destruction: "This [title|E] cannot be destroyed while it is the junior partner in a [personal_union|E]"

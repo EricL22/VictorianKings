@@ -1,7 +1,6 @@
 TODOs:
 HIGH Priority ---
-Allow Prussia and Austria to join the Sixth Coalition war
-Decisions/events: Congress of Vienna, British Raj, Dissolve EIC, Two Sicilies, Convention of Peking/Treaty of Tarbagatai
+Decisions/events: British Raj, Dissolve EIC, Two Sicilies, Convention of Peking/Treaty of Tarbagatai
 
 DEFERRED Priority ---
 Russian Siberia map extension

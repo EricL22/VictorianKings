@@ -894,21 +894,25 @@
 }
 494 = {
 	1800.1.1 = {
-		rite = byzantine_rite
+		culture = turkish
+		rite = hanafi
 	}
 }
 495 = {
 	1800.1.1 = {
+		culture = turkish
 		rite = hanafi
 	}
 }
 496 = {
 	1800.1.1 = {
+		culture = turkish
 		rite = hanafi
 	}
 }
 497 = {
 	1800.1.1 = {
+		culture = turkish
 		rite = hanafi
 	}
 }
@@ -1169,6 +1173,7 @@
 }
 562 = {
 	1800.1.1 = {
+		culture = cuman
 		rite = hanafi
 	}
 }
@@ -1382,6 +1387,11 @@
 		rite = imami
 	}
 }
+678 = {
+	1800.1.1 = {
+		culture = turkish
+	}
+}
 702 = {
 	1800.1.1 = {
 		rite = hanafi
@@ -1389,11 +1399,13 @@
 }
 705 = {
 	1800.1.1 = {
+		culture = turkish
 		rite = hanafi
 	}
 }
 706 = {
 	1800.1.1 = {
+		culture = turkish
 		rite = hanafi
 	}
 }
@@ -1409,6 +1421,7 @@
 }
 736 = {
 	1800.1.1 = {
+		culture = turkish
 		rite = hanafi
 	}
 }
@@ -1419,16 +1432,19 @@
 }
 739 = {
 	1800.1.1 = {
+		culture = turkish
 		rite = hanafi
 	}
 }
 740 = {
 	1800.1.1 = {
+		culture = turkish
 		rite = hanafi
 	}
 }
 742 = {
 	1800.1.1 = {
+		culture = turkish
 		rite = hanafi
 	}
 }
@@ -1444,16 +1460,19 @@
 }
 750 = {
 	1800.1.1 = {
+		culture = turkish
 		rite = hanafi
 	}
 }
 753 = {
 	1800.1.1 = {
+		culture = turkish
 		rite = hanafi
 	}
 }
 754 = {
 	1800.1.1 = {
+		culture = turkish
 		rite = hanafi
 	}
 }
@@ -1464,11 +1483,13 @@
 }
 758 = {
 	1800.1.1 = {
+		culture = turkish
 		rite = hanafi
 	}
 }
 759 = {
 	1800.1.1 = {
+		culture = turkish
 		rite = hanafi
 	}
 }
@@ -1479,6 +1500,7 @@
 }
 761 = {
 	1800.1.1 = {
+		culture = turkish
 		rite = hanafi
 	}
 }
@@ -6105,6 +6127,7 @@
 }
 4896 = {
 	1800.1.1 = {
+		culture = turkish
 		rite = hanafi
 	}
 }
@@ -6897,71 +6920,85 @@
 }
 5536 = {
 	1800.1.1 = {
+		culture = turkish
 		rite = hanafi
 	}
 }
 5539 = {
 	1800.1.1 = {
+		culture = turkish
 		rite = hanafi
 	}
 }
 5546 = {
 	1800.1.1 = {
+		culture = turkish
 		rite = hanafi
 	}
 }
 5548 = {
 	1800.1.1 = {
+		culture = turkish
 		rite = hanafi
 	}
 }
 5552 = {
 	1800.1.1 = {
+		culture = turkish
 		rite = hanafi
 	}
 }
 5561 = {
 	1800.1.1 = {
+		culture = turkish
 		rite = hanafi
 	}
 }
 5565 = {
 	1800.1.1 = {
+		culture = turkish
 		rite = hanafi
 	}
 }
 5569 = {
 	1800.1.1 = {
+		culture = turkish
 		rite = hanafi
 	}
 }
 5574 = {
 	1800.1.1 = {
+		culture = turkish
 		rite = hanafi
 	}
 }
 5581 = {
 	1800.1.1 = {
+		culture = turkish
 		rite = hanafi
 	}
 }
 5584 = {
 	1800.1.1 = {
+		culture = turkish
 		rite = hanafi
 	}
 }
 5590 = {
 	1800.1.1 = {
+		culture = turkish
 		rite = hanafi
 	}
 }
 5594 = {
 	1800.1.1 = {
+		culture = turkish
 		rite = hanafi
 	}
 }
 5598 = {
 	1800.1.1 = {
+		culture = turkish
 		rite = hanafi
 	}
 }
@@ -6992,41 +7029,49 @@
 }
 5637 = {
 	1800.1.1 = {
+		culture = turkish
 		rite = hanafi
 	}
 }
 5642 = {
 	1800.1.1 = {
+		culture = turkish
 		rite = hanafi
 	}
 }
 5647 = {
 	1800.1.1 = {
+		culture = turkish
 		rite = hanafi
 	}
 }
 5651 = {
 	1800.1.1 = {
+		culture = turkish
 		rite = hanafi
 	}
 }
 5654 = {
 	1800.1.1 = {
+		culture = turkish
 		rite = hanafi
 	}
 }
 5657 = {
 	1800.1.1 = {
+		culture = turkish
 		rite = hanafi
 	}
 }
 5664 = {
 	1800.1.1 = {
+		culture = turkish
 		rite = hanafi
 	}
 }
 5672 = {
 	1800.1.1 = {
+		culture = turkish
 		rite = hanafi
 	}
 }

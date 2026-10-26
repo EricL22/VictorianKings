@@ -9,3 +9,22 @@
  vk_flavor.2.overlord.desc: "With the newfound independence from [former_overlord.GetNameNoTier], the [former_overlord.GetAdjectiveNoTooltip] has been completely dismantled. I look on in pleasure as the last symbols of the old rule are removed, and I finally take my throne as legitimate ruler of the realm."
  vk_flavor.2.desc: "With the newfound independence from our former colonial overlord, the colonial administration has been completely dismantled. I look on in pleasure as the last symbols of the old rule are removed, and I finally take my throne as legitimate ruler of the realm."
  vk_flavor.2.a: "May our reign last a thousand years!"
+
+ vk_napoleon.1.t: "To Vanquish an Emperor"
+ vk_napoleon.1.desc: "For years, [napoleon.GetTitledFirstName] has spread terror throughout all of Europe, taking down kings and uprooting the old order, and drowning battlefields in the blood of our countrymen.\n\nBut, at the moment, it does appear that [napoleon.GetHerHis] luck has seemingly run out. Faced with disastrous defeats in Russia and elsewhere, [napoleon.GetFirstNameNoTooltip] has been put on the defensive, [napoleon.GetHerHis] empire teetering on the brink of instability. Now is our chance to drive the Sixth Coalition's advantage home and take down this tyrant forever!"
+ vk_napoleon.1.a: "Onwards to victory!"
+ vk_napoleon.1.b: "I couldn't care less."
+
+ vk_british.1.t: "End of the British Occupation"
+ vk_british.1.desc: "With the victory of the Sixth Coalition in Europe, the throne of the Netherlands has been restored, and the British are handing the colony of the East Indies back to the Dutch government."
+ vk_british.1.a: "And the Dutch are here to stay!"
+
+ congress_of_vienna.1.name:0 "The Congress of Vienna"
+ congress_of_vienna.1.desc:0 "With the defeat of [main_attacker.GetTitledFirstName], the Napoleonic Wars which have ravaged Europe for so long have come to an end. The victors are meeting in Vienna, a neutral location to discuss peace terms. What shall we do with the French Emperor?"
+ congress_of_vienna.1.a:0 "Cede all lands outside of France's natural borders."
+ congress_of_vienna.1.b:0 "Force him to abdicate."
+ congress_of_vienna.1.c:0 "Restore the Bourbon monarchy."
+
+ congress_of_vienna.6.name:0 "The Congress of Vienna - Resolution"
+ congress_of_vienna.6.desc:0 "The monarchs in Vienna have successfully concluded their redrawing of Europe. They have decided that I should be deposed and sent to an island in the middle of nowhere to live out the rest of my days!"
+ congress_of_vienna.6.a:0 "How the mighty have fallen..."

@@ -26,6 +26,7 @@ e_austria = {
 					add_realm_law_skip_effects = single_heir_succession_law
 					add_realm_law_skip_effects = imperial_bureaucracy_2
 					add_realm_law_skip_effects = male_only_law
+					add_realm_law_skip_effects = province_war_law_2
 				}
 			}
 			if = {
@@ -274,6 +275,7 @@ k_spain = {
 				holder = {
 					add_realm_law_skip_effects = single_heir_succession_law
 					add_realm_law_skip_effects = imperial_bureaucracy_1
+					add_realm_law_skip_effects = province_war_law_1
 				}
 			}
 			if = {
@@ -325,6 +327,7 @@ k_belgium = {
 				holder = {
 					add_realm_law_skip_effects = single_heir_succession_law
 					add_realm_law_skip_effects = imperial_bureaucracy_1
+					add_realm_law_skip_effects = province_war_law_1
 				}
 			}
 			if = {
@@ -412,6 +415,7 @@ k_prussia = {
 				holder = {
 					add_realm_law_skip_effects = single_heir_succession_law
 					add_realm_law_skip_effects = imperial_bureaucracy_1
+					add_realm_law_skip_effects = province_war_law_1
 				}
 			}
 			if = {

@@ -1,6 +1,11 @@
 ﻿l_english:
  peninsular_cb:0 "Reclaim Spanish Throne"
+ peninsular_cb_victory_desc_attacker: "The Rightful Spanish King gains the contested [title|E]."
+ peninsular_cb_victory_desc: "The Rightful Spanish King gains the contested [title|E]."
+
  napoleon_invasion_cb:0 "Napoleonic Invasion"
+ napoleon_invasion_cb_victory_desc_attacker: "You establish governance within the contested [titles|E]."
+ napoleon_invasion_cb_victory_desc: "[attacker.GetShortUIName|U] establishes governance within the contested [titles|E]."
 
  congress_of_vienna_war_desc:1 "Depending on the victors' choice, one of these will happen:\n$EFFECT_LIST_BULLET$[attacker.GetShortUIName|U] will cede all lands east of the Rhine River and the Alps, and south of the Pyrenees.\n$EFFECT_LIST_BULLET$[attacker.GetShortUIName|U] will abdicate and cede the above lands.\n$EFFECT_LIST_BULLET$[attacker.GetShortUIName|U] will abdicate to a Bourbon claimant and the 1792 French borders will be restored. The empire is forfeit and downgraded to a kingdom."
  frankfurt_treaty_desc:1 "[defender.GetTitledFirstName] will cede all lands east of the Rhine River and the Alps, and south of the Pyrenees."
