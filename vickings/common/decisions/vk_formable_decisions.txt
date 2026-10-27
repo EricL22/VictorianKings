@@ -1,0 +1,91 @@
+﻿unite_the_two_sicilies_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_realm.dds"
+	}
+	decision_group_type = major
+	ai_check_interval = 12
+	desc = unite_the_two_sicilies_decision_desc
+
+	is_shown = {
+		culture = { has_cultural_pillar = heritage_latin }
+		game_start_date >= 1800.1.1
+		title:k_naples = { any_in_de_jure_hierarchy = { tier = tier_county } }
+		OR = {
+			title:k_sicily = { any_in_de_jure_hierarchy = { tier = tier_county } }
+			title:k_trinacria = { any_in_de_jure_hierarchy = { tier = tier_county } }
+		}
+		NOT = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:unite_the_two_sicilies_decision
+			}
+		}
+		highest_held_title_tier < tier_empire
+	}
+
+	is_valid = {
+		culture = { has_cultural_pillar = heritage_latin }
+		has_title = title:k_sicily
+		has_title = title:k_naples
+		trigger_if = {
+			limit = { title:k_sicily = { any_in_de_jure_hierarchy = { tier = tier_county } } } #Has de jure land
+			completely_controls = title:c_messina
+			completely_controls = title:c_palermo
+			completely_controls = title:c_agrigento
+			completely_controls = title:c_siracusa
+		}
+		trigger_if = {
+			limit = { title:k_naples = { any_in_de_jure_hierarchy = { tier = tier_county } } } #Has de jure land
+			completely_controls = title:k_naples
+		}
+		trigger_if = {
+			limit = { title:k_trinacria = { any_in_de_jure_hierarchy = { tier = tier_county } } } #Has de jure land
+			completely_controls = title:c_messina
+			completely_controls = title:c_palermo
+			completely_controls = title:c_agrigento
+			completely_controls = title:c_siracusa
+		}
+		OR = {
+			has_primary_title = title:k_sicily
+			has_primary_title = title:k_naples
+		}
+		prestige >= massive_prestige_value
+	}
+
+	is_valid_showing_failures_only = {
+		OR = {
+			has_primary_title = title:k_sicily
+			has_primary_title = title:k_naples
+		}
+	}
+
+	effect = {
+		save_scope_as = sicilies_uniter
+
+		show_as_tooltip = { unite_the_two_sicilies_decision_effects = yes } #Show effects of vk_formables.1
+
+		#Events
+		trigger_event = vk_formables.1
+		every_player = {
+			limit = {
+				NOT = { this = scope:sicilies_uniter }
+				in_diplomatic_range = scope:sicilies_uniter
+			}
+			trigger_event = vk_formables.2
+		}
+
+		#Can only be done once
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:unite_the_two_sicilies_decision
+		}
+	}
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}

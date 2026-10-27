@@ -1,0 +1,50 @@
+﻿namespace = vk_formables
+
+#I have united the Two Sicilies!
+vk_formables.1 = {
+	type = character_event
+	title = vk_formables.1.t
+	desc = vk_formables.1.desc
+	theme = realm
+	left_portrait = {
+		character = scope:sicilies_uniter
+		animation = personality_bold
+	}
+
+	immediate = {
+		play_music_cue = "mx_cue_positive_effect"
+		unite_the_two_sicilies_decision_effects = yes
+	}
+	
+	option = {
+		name = vk_formables.1.a
+	}
+}
+
+#Someone united the Two Sicilies!
+vk_formables.2 = {
+	type = character_event
+	title = vk_formables.1.t
+	desc = {
+		desc = vk_formables.2.start.desc
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					has_RelationToMe_relation = { CHARACTER = scope:sicilies_uniter }
+				}
+				desc = vk_formables.2.relation_former.desc
+			}
+			desc = vk_formables.2.former.desc
+		}	
+		desc = vk_formables.2.end.desc		
+	}
+	theme = realm
+	left_portrait = {
+		character = scope:sicilies_uniter
+		animation = personality_bold
+	}
+	
+	option = {
+		name = name_i_see
+	}
+}

@@ -56,6 +56,7 @@ vk_british.1 = {
 					}
 				}
 				resolve_title_and_vassal_change = scope:change
+				if = { limit = { is_landed = no } add_to_list = repatriated }
 			}
 		}
 		create_title_and_vassal_change = {
@@ -86,11 +87,93 @@ vk_british.1 = {
 			}
 		}
 
-		#save_scope_as = bei_governor
-		#title:e_britannia.holder ?= { trigger_event = { id = vk_british.2 days = 5 } }
+		save_scope_as = bei_governor
+		add_to_list = repatriated
+		title:e_britannia.holder ?= { trigger_event = { id = vk_british.2 days = 5 } }
 		if = {
 			limit = { is_ai = no }
 			set_player_character = scope:new_governor
 		}
+	}
+}
+
+# Notify UK of the returning governors
+vk_british.2 = {
+	type = character_event
+	title = vk_british.2.t
+	desc = vk_british.2.desc
+	theme = realm
+	left_portrait = {
+		character = root
+		animation = idle
+	}
+	right_portrait = {
+		character = scope:bei_governor
+		animation = idle
+	}
+
+	immediate = {
+		title:k_dutch_east_indies = { save_scope_as = target_title }
+		every_in_list = {
+			list = repatriated
+			ROOT = { add_courtier = PREV }
+		}
+	}
+	
+	option = {
+		name = vk_british.2.a
+	}
+}
+
+## TRIGGERED THRU DECISION
+#I united India
+vk_british.100 = {
+	type = character_event
+	title = vk_british.100.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { has_trait = lunatic }
+				desc = vk_british.100.l.desc
+			}
+			desc = vk_british.100.desc
+		}
+	}
+	theme = realm
+	left_portrait = {
+		character = root
+		animation = personality_bold
+	}
+	
+	immediate = {
+		play_music_cue = "mx_cue_epic_sacral_moment"
+		british_raj_decision_effect = yes
+	}
+
+	option = {
+		name = vk_british.100.a
+		add_prestige = 200
+		add_prestige_level = 2
+	}
+}
+
+
+#My ruler united India
+vk_british.101 = {
+	type = character_event
+	title = vk_british.101.t
+	desc = vk_british.101.desc
+	theme = realm
+	left_portrait = {
+		character = scope:british_chakravarti
+		animation = personality_bold
+	}
+	
+	immediate = {
+		play_music_cue = "mx_cue_epic_sacral_moment"
+	}
+
+	option = {
+		name = vk_british.101.a
 	}
 }

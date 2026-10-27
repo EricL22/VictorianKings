@@ -1,0 +1,23 @@
+﻿l_english:
+ unite_the_two_sicilies_decision:0 "Unite the Two Sicilies"
+ unite_the_two_sicilies_decision_desc:0 "With the addition of the throne of Naples to my realm, I now control all of Southern Italy. It is time to declare the Kingdom of Two Sicilies, to reflect my greater territorial extent."
+ unite_the_two_sicilies_decision_confirm:0 "Finally, a grander status!"
+ unite_the_two_sicilies_decision_tooltip:0 "Unite the Two Sicilies"
+ unite_the_two_sicilies_decision_titles_tt:1 "Every Sicilian [kingdom|E] [title|E] you own (except your [primary_title|E]) will be destroyed and their territories will become [de_jure|E] of your Primary Title ([THIS.Char.GetPrimaryTitle.GetNameNoTier])"
+
+ crown_empress_of_india_decision:0 "The Empire of India"
+ crown_empress_of_india_desc:0 "With the fall of the Mughals and almost complete British domination of the subcontinent, I can declare myself the rightful monarch of all India and successor to the Mughal throne. Establishing the British Raj in India will ensure a Place in the Sun for The British Empire!"
+ crown_empress_of_india_decision_confirm:0 "India, united once more..."
+ crown_empress_of_india_decision_tooltip:0 "Establish the British Raj"
+
+ dissolve_india_company_decision:0 "Dissolve the East India Company"
+ dissolve_india_company_desc:0 "The British East India Company, or at least its Governor General, has de facto broken free of British rule, and is no longer accepting jurisdiction of the Directors in London. Under the terms of the Company charter, the Company will no longer receive the backing of the crown and thus, it shall be formally dissolved."
+ dissolve_india_company_decision_confirm:0 "Liquidate all assets."
+ dissolve_india_company_decision_tooltip:0 "Dissolve the East India Company"
+
+ peking_convention_decision:0 "The Peking Convention"
+ peking_convention_desc:0 "Since the Treaty of Nerchinsk (1689), the Russian Empire has recognized the Argun river and the Stanovoy mountains as the natural frontiers between Russia and China.  In the mid 19th century the Russians would expand beyond this border to seize the vast lands between the Stanovoy Mountains and the Amur River. The Western Allies would later bring the Second Opium War to a conclusion by burning the Chinese Emperor's summer palaces, and entering Beijing. A cunning major general named Nikolay Ignatiev was able to convinced the Chinese that only Russian support would cause the allies to evacuate Peking. The price for this support was the Convention of Peking, which confirmed Muravyov's gains and, additionally, ceded territory between the Ussuri River and the Pacific to Russia. Thus, Russia had gained some 350,000 square miles of territory without firing a single shot."
+ peking_convention_decision_confirm:0 "Sign the treaty"
+ peking_convention_decision_tooltip:0 "Annex Outer Manchuria"
+ peking_convention_decision_rq_tt: "The Emperor of China must be currently losing a war"
+ peking_convention_decision_effect_tt: "You send an ultimatum to the Chinese Emperor to demand Outer Manchurian concessions"

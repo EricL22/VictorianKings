@@ -1,0 +1,125 @@
+﻿crown_empress_of_india_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_realm.dds"
+	}
+	decision_group_type = major
+	ai_check_interval = 12
+	desc = crown_empress_of_india_desc
+
+	is_shown = {
+		has_title = title:e_britannia
+		NOT = {  #Can only do it once.
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:empress_of_india
+			}
+		}
+	}
+
+	is_valid = {
+		OR = {
+			#culture = { has_innovation = innovation_nationalism_n_imperialism }
+			current_date > 1850.1.1	# placeholder until we add innovations
+			AND = {
+				is_ai = yes
+				current_date > 1876.1.1
+			}
+		}
+		prestige >= 400
+		completely_controls = title:d_kalinga
+		completely_controls = title:c_tagadur
+		completely_controls = title:d_vanga
+		completely_controls = title:d_gurjara_mandala
+		completely_controls = title:c_delhi
+		completely_controls = title:d_konkana
+		completely_controls = title:d_lahore
+	}
+
+	effect = {
+		random_vassal = {
+			limit = {
+				has_title = title:k_british_east_indies
+			}
+			hidden_effect = {
+				vassal_contract_set_obligation_level = {
+					type = special_contract
+					level = 0	#special_contract_none
+				}
+			}
+			destroy_title = title:k_british_east_indies
+			hidden_effect = {
+				every_held_title = {
+					limit = {
+						tier = tier_kingdom
+					}
+					root = { destroy_title = prev }
+				}
+			}
+		}
+
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:empress_of_india
+		}
+
+		#India is united, so Chakravarti decision should not be available
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:become_chakravarti_decision
+		}
+
+		custom_tooltip = become_chakravarti_decision_indian_empires_unite_effect
+		show_as_tooltip = {
+			add_prestige = 200
+			add_prestige_level = 2
+		}
+
+		save_scope_as = british_chakravarti
+
+		trigger_event = vk_british.100 #I became the Emperor of India
+
+		every_vassal_or_below = {
+			trigger_event = vk_british.101 #My ruler created the Emperor of India
+		}
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+
+dissolve_india_company_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_realm.dds"
+	}
+	decision_group_type = major
+	ai_check_interval = 2
+	desc = dissolve_india_company_desc
+
+	is_shown = {
+		has_title = title:e_britannia
+		exists = title:k_british_east_indies.holder
+		NOT = {
+			title:k_british_east_indies.holder = {
+				is_vassal_of = root
+			}
+		}
+	}
+
+	is_valid = {
+		prestige >= 100
+	}
+
+	effect = {
+		random_ruler = {
+			limit = {
+				has_title = title:k_british_east_indies
+			}
+			destroy_title = title:k_british_east_indies
+		}
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}

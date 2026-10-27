@@ -19,6 +19,49 @@
  vk_british.1.desc: "With the victory of the Sixth Coalition in Europe, the throne of the Netherlands has been restored, and the British are handing the colony of the East Indies back to the Dutch government."
  vk_british.1.a: "And the Dutch are here to stay!"
 
+ vk_british.2.t: "End of the British Occupation"
+ vk_british.2.desc: "With the victory of the Sixth Coalition in Europe, the throne of the Netherlands has been restored, and [target_title.GetName] has returned to their control. A slew of fresh administrators joins my court, ready for their next assignment."
+ vk_british.2.a: "How swell!"
+
+ vk_british.100.t:0 "The British Raj"
+ vk_british.100.l.desc:0 "Crowds chant my name as I am purified in the waters of the heavenly springs. I rise as [british_chakravarti.GetTitledFirstName], rightful and benevolent ruler of India.\n\nWith the destruction of the East India Company and all of its rotten scoundrels I want to finally rest in peace. But I know that won't be possible until Britannia rules the waves... and I become [british_chakravarti.GetLadyLord] of all the 6000000000000000 lands."
+ vk_british.100.desc: "The proclamation is received with due ceremony as I am formally declared sovereign of India in front of a large gathering of nobles. At last, my authority given the recognition it deserves! With the end of the East India Company's misguided management I can use my newfound direct rule to bring stability and justice back to India. But peace and security in my dominion may not come easy... there is much still to be done."
+ vk_british.100.a:0 "India truly is the Jewel of the Empire."
+
+ vk_british.101.t:0 "The British Raj"
+ vk_british.101.desc:0 "With the near total unification of India under the British crown, my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('british_chakravarti'))] has declared [british_chakravarti.GetHerselfHimself] the [british_chakravarti.GetPrimaryTitle.GetTitleTierName] of India. With this development comes the abolition of the East India Company which has monopolized the subcontinent for decades, firmly cementing the rule of the new regime."
+ vk_british.101.a:0 "What else awaits the Empire?"
+
+ vk_russia.100.t:0 "The Convention of Peking"
+ vk_russia.100.desc:0 "The Russians have demanded that we acquiesce to their theft of our rightful territory. This is outrageous, but we may have no recourse but to accept their demands. If we do, they shall help ensure our sovereignty vis-à-vis the other Europeans. Also, we may be incapable of defeating them if the Russians decide to resolve this issue by force, and opening up a second front can prove disastrous for our failing war effort."
+ vk_russia.100.a:0 "We have no choice, sign their treaty."
+ vk_russia.100.b:0 "The Czar can go to hell!"
+ vk_russia.101.t:0 "China rejects the Convention"
+ vk_russia.101.desc:0 "The ungrateful Chinese would rather watch their cities burn than agree to our rightful demands. We may just have to accommodate the desires of our wayward Asiatic neighbors."
+ vk_russia.101.a:0 "Where once the Russian flag is raised, it must not be lowered!"
+
+ vk_russia.102.t:0 "The Treaty of Tarbagatai"
+ vk_russia.102.desc:0 "Pursuant to Article III of the Treaty of Peking, we have been forced to define the boundaries of our western territories. If we refuse to grant the Russians any land, war is most certainly going to follow."
+ vk_russia.102.a:0 "Agree to the Russian demands."
+ vk_russia.102.b:0 "No, we shall not bend to foreign invaders!"
+
+ vk_russia.103.t:0 "The Treaty of Tarbagatai - Demands Accepted"
+ vk_russia.103.desc:0 "Pursuant to Article III of the Treaty of Peking, the Chinese have agreed to delimit their western territories in our favor, gaining us a new foothold in Central Asia."
+ vk_russia.103.a:0 "Let's put this land to good use!"
+
+ vk_russia.104.t:0 "The Treaty of Tarbagatai - Demands Refused"
+ vk_russia.104.desc:0 "In complete defiance of the Treaty of Peking, the Chinese have refused to grant us any concessions in Central Asia!"
+ vk_russia.104.a:0 "This slight must be repaid with blood!"
+ 
+ vk_formables.1.t:0 "The Two Sicilies"
+ vk_formables.1.desc:0 "Now that I control all of southern Italy, I have declared myself to be King of Two Sicilies, the ruler of the South."
+ vk_formables.1.a:0 "Finally, Southern Italy is united!"
+
+ vk_formables.2.start.desc:0 "One after one, the Sicilian Kingdoms have fallen under the rule of [sicilies_uniter.GetPrimaryTitle.GetNameNoTier]."
+ vk_formables.2.relation_former.desc:0 "My [ROOT.Char.Custom2('RelationToMe', sicilies_uniter)] [sicilies_uniter.GetTitledFirstName]"
+ vk_formables.2.former.desc:0 "[sicilies_uniter.GetTitledFirstName]"
+ vk_formables.2.end.desc:0 "has declared [sicilies_uniter.GetHerselfHimself] 'the King of the Two Sicilies.'\n\n[sicilies_uniter.GetHerHis|U] name will surely live on for centuries, but will [sicilies_uniter.GetSheHe] be remembered as a hero or a tyrant? Only [ROOT.Char.GetFaith.FateGodName] knows."
+
  congress_of_vienna.1.name:0 "The Congress of Vienna"
  congress_of_vienna.1.desc:0 "With the defeat of [main_attacker.GetTitledFirstName], the Napoleonic Wars which have ravaged Europe for so long have come to an end. The victors are meeting in Vienna, a neutral location to discuss peace terms. What shall we do with the French Emperor?"
  congress_of_vienna.1.a:0 "Cede all lands outside of France's natural borders."

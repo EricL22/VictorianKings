@@ -1,6 +1,7 @@
 TODOs:
 HIGH Priority ---
-Decisions/events: British Raj, Dissolve EIC, Two Sicilies, Convention of Peking/Treaty of Tarbagatai
+Historical armies
+Bookmark/paper map graphics
 
 DEFERRED Priority ---
 Russian Siberia map extension

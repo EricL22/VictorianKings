@@ -1,0 +1,66 @@
+﻿peking_convention_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_realm.dds"
+	}
+	decision_group_type = major
+	ai_check_interval = 2
+	desc = peking_convention_desc
+
+	is_shown = {
+		has_title = title:e_russia
+		exists = title:h_china.holder
+		NOT = {
+			is_at_war_with = title:h_china.holder
+		}
+		NOT = {  #Can only do it once.
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:peking_convention
+			}
+		}
+		any_realm_county = {
+			any_neighboring_county = {
+				title_province = {
+					geographical_region = dlc_mpo_steppe_e_amur_expansion
+				}
+				holder = {
+					target_is_same_character_or_above = title:h_china.holder
+				}
+			}
+		}
+	}
+	
+	is_valid = {
+		custom_tooltip = {
+			text = peking_convention_decision_rq_tt
+			title:h_china.holder = {
+				any_character_war = {
+					is_defender = title:h_china.holder
+					is_war_leader = title:h_china.holder
+					defender_war_score <= -20
+				}
+			}
+		}
+		current_date > 1850.1.1	# TODO: replace with innovation check
+	}
+	
+	effect = {
+		#Can only be done once
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:peking_convention
+		}
+
+		custom_tooltip = {
+			text = peking_convention_decision_effect_tt
+			title:h_china.holder = {
+				trigger_event = vk_russia.100
+			}
+		}
+		add_prestige = 200
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}

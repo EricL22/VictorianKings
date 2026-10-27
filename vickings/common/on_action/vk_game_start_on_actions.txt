@@ -46,6 +46,19 @@ vk_initialize_history_rules_effects = {
 				every_child = { set_house = house:house_windsor }
 			}
 		}
+		#Set starting cultural acceptance
+		culture:manchu = {
+			change_cultural_acceptance = {
+				target = culture:han
+				value = 60
+				desc = cultural_acceptance_historical_relations
+			}
+			change_cultural_acceptance = {
+				target = culture:mongol
+				value = 60
+				desc = cultural_acceptance_historical_relations
+			}
+		}
 		### TGP SETUP ###
 		if = {
 			limit = { has_tgp_dlc_trigger = yes }

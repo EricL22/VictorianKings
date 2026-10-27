@@ -10,6 +10,16 @@ d_eman_boli = {
 	}
 	1860.11.14 = {	# Russia
 		holder = romanov_9	# Alexander II
+		effect = {
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:peking_convention
+			}
+			set_global_variable = {
+				name = waiting_for_tarbagatai
+				value = yes
+			}
+		}
 	}
 	1881.3.13 = {
 		holder = romanov_10	# Alexander III

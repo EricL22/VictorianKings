@@ -48,3 +48,12 @@ vk_quarterly_playable_pulse_effects = {
 		}
 	}
 }
+
+# Called from code once a year for all "playable" characters, at a random point that year (individually for each character). Different time from the random_yearly_everyone_pulse (coincides by random 1 time out of 365)
+# Root is the character
+random_yearly_playable_pulse = {
+	random_events = {
+		300 = 0
+		100 = vk_russia.102	# Treaty of Tarbagatai
+	}
+}

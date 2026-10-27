@@ -1,0 +1,250 @@
+﻿namespace = vk_russia
+
+## TRIGGERED THRU DECISION
+## Peking-Tarbagatai event chain
+# Convention of Peking
+vk_russia.100 = {
+	type = character_event
+	title = vk_russia.100.t
+	desc = vk_russia.100.desc
+	theme = diplomacy
+	left_portrait = {
+		character = title:e_russia.holder
+		animation = personality_bold
+	}
+	right_portrait = {
+		character = root
+		animation = fear
+	}
+	
+	option = {
+		name = vk_russia.100.a
+		create_title_and_vassal_change = {
+			type = conquest
+			save_scope_as = change
+			add_claim_on_loss = no
+		}
+		every_realm_county = {
+			limit = {
+				OR = {
+					target_is_de_jure_liege_or_above = title:k_upper_amur
+					target_is_de_jure_liege_or_above = title:k_amur
+					target_is_de_jure_liege_or_above = title:k_aynumosir
+					target_is_de_jure_liege_or_above = title:d_BAL_anwon
+					target_is_de_jure_liege_or_above = title:d_BAL_yeojintang
+				}
+			}
+			change_title_holder = {
+				holder = title:e_russia.holder
+				change = scope:change
+			}
+		}
+		resolve_title_and_vassal_change = scope:change
+		#trigger_event = { id = vk_russia.102 months = 48 }
+		set_global_variable = {
+			name = waiting_for_tarbagatai
+			value = yes
+		}
+		ai_chance = {
+			base = 90
+		}
+	}
+	
+	option = {
+		name = vk_russia.100.b
+		title:e_russia.holder = {
+			trigger_event = vk_russia.101
+		}
+		ai_chance = {
+			base = 10
+		}
+	}
+}
+
+# China refuses
+vk_russia.101 = {
+	type = character_event
+	title = vk_russia.101.t
+	desc = vk_russia.101.desc
+	theme = diplomacy
+	left_portrait = {
+		character = title:h_china.holder
+		animation = personality_bold
+	}
+	right_portrait = {
+		character = root
+		animation = anger
+	}
+	
+	option = {
+		name = vk_russia.101.a
+		reverse_add_opinion = {
+			target = title:h_china.holder
+			modifier = insult_opinion
+			opinion = very_high_negative_opinion
+		}
+		title:h_china.holder = {
+			every_realm_county = {
+				limit = {
+					OR = {
+						target_is_de_jure_liege_or_above = title:k_upper_amur
+						target_is_de_jure_liege_or_above = title:k_amur
+						target_is_de_jure_liege_or_above = title:k_aynumosir
+						target_is_de_jure_liege_or_above = title:d_BAL_anwon
+						target_is_de_jure_liege_or_above = title:d_BAL_yeojintang
+					}
+				}
+				ROOT = { add_pressed_claim = PREV }
+			}
+		}
+	}
+}
+
+# Treaty of Tarbagatai (triggered thru on-action, condition set by above events)
+vk_russia.102 = {
+	type = character_event
+	title = vk_russia.102.t
+	desc = vk_russia.102.desc
+	theme = diplomacy
+	left_portrait = {
+		character = title:e_russia.holder
+		animation = personality_bold
+	}
+	right_portrait = {
+		character = root
+		animation = fear
+	}
+
+	trigger = {
+		has_global_variable = waiting_for_tarbagatai
+		has_title = title:h_china
+		any_realm_county = {
+			OR = {
+				target_is_de_jure_liege_or_above = title:d_zhetysu
+				target_is_de_jure_liege_or_above = title:d_alakol
+			}
+		}
+	}
+
+	immediate = {
+		remove_global_variable = waiting_for_tarbagatai
+	}
+	
+	option = {
+		name = vk_russia.102.a
+		create_title_and_vassal_change = {
+			type = conquest
+			save_scope_as = change
+			add_claim_on_loss = no
+		}
+		every_realm_county = {
+			limit = {
+				OR = {
+					target_is_de_jure_liege_or_above = title:d_zhetysu
+					target_is_de_jure_liege_or_above = title:d_alakol
+					target_is_de_jure_liege_or_above = title:k_saryarka
+					target_is_de_jure_liege_or_above = title:k_cuman
+					target_is_de_jure_liege_or_above = title:k_kipchak
+					target_is_de_jure_liege_or_above = title:k_syr_darya
+				}
+			}
+			change_title_holder = {
+				holder = title:e_russia.holder
+				change = scope:change
+			}
+		}
+		if = {
+			limit = {
+				exists = title:k_zhetysu.holder
+			}
+			destroy_title = title:k_zhetysu
+		}
+		resolve_title_and_vassal_change = scope:change
+		title:e_russia.holder = {
+			if = {
+				limit = {
+					is_ai = no
+				}
+				trigger_event = vk_russia.103
+			}
+		}
+		ai_chance = {
+			base = 90
+		}
+	}
+
+	option = {
+		name = vk_russia.102.b
+		every_realm_county = {
+			limit = {
+				OR = {
+					target_is_de_jure_liege_or_above = title:d_zhetysu
+					target_is_de_jure_liege_or_above = title:d_alakol
+					target_is_de_jure_liege_or_above = title:k_saryarka
+					target_is_de_jure_liege_or_above = title:k_cuman
+					target_is_de_jure_liege_or_above = title:k_kipchak
+					target_is_de_jure_liege_or_above = title:k_syr_darya
+				}
+			}
+			title:e_russia.holder = {
+				add_pressed_claim = PREV
+			}
+		}
+		title:e_russia.holder = {
+			add_opinion = {
+				target = title:h_china.holder
+				modifier = insult_opinion
+				opinion = very_high_negative_opinion
+			}
+			if = {
+				limit = {
+					is_ai = no
+				}
+				trigger_event = vk_russia.104
+			}
+		}
+		ai_chance = {
+			base = 10
+		}
+	}
+}
+
+# Treaty of Tarbagatai - Russia player notification
+vk_russia.103 = {
+	type = character_event
+	title = vk_russia.103.t
+	desc = vk_russia.103.desc
+	theme = diplomacy
+	left_portrait = {
+		character = root
+		animation = personality_bold
+	}
+	right_portrait = {
+		character = title:h_china.holder
+		animation = fear
+	}
+	
+	option = {
+		name = vk_russia.103.a
+	}
+}
+
+# Treaty of Tarbagatai - China refuses
+vk_russia.104 = {
+	type = character_event
+	title = vk_russia.104.t
+	desc = vk_russia.104.desc
+	theme = diplomacy
+	left_portrait = {
+		character = title:h_china.holder
+		animation = personality_bold
+	}
+	right_portrait = {
+		character = root
+		animation = anger
+	}
+	
+	option = {
+		name = vk_russia.104.a
+	}
+}
