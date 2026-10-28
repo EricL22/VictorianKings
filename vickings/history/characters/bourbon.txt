@@ -571,7 +571,7 @@ bourbon_37 = {
 			#		stacks = 30
 			#	}
 				men_at_arms = {
-					type = light_horsemen
+					type = caballero
 					stacks = 12
 				}
 				men_at_arms = {

@@ -221,3 +221,7 @@ hardenberg = {
 	name = "dynn_Hardenberg"
 	culture = franconian
 }
+taiping_li = {
+	name = "dynn_Li_674E"
+	culture = han
+}

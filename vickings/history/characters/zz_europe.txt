@@ -264,7 +264,7 @@ eur_02100 = {
 				name = army_of_the_center
 				levies = 48000
 				men_at_arms = {
-					type = light_horsemen
+					type = caballero
 					stacks = 60
 				}
 				location = province:1995

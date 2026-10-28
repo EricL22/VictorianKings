@@ -17,6 +17,38 @@
 	1851.1.11 = {
 		add_legitimacy = 100
 	}
+	1861.7.1 = {
+		effect = {
+			# Eastern Expeditionary Army
+			spawn_army = {
+				name = eastern_expeditionary_army
+				levies = 25000	# more historical number: 100000
+				men_at_arms = {
+					type = light_footmen
+					stacks = 10
+				}
+				men_at_arms = {
+					type = handgunners
+					stacks = 3
+				}
+				men_at_arms = {
+					type = light_horsemen
+					stacks = 20
+				}
+				men_at_arms = {
+					type = bombard
+					stacks = 1
+				}
+				location = province:8825
+				origin = province:10331
+				inheritable = yes
+				save_temporary_scope_as = new_armee
+			}
+			scope:new_armee = {
+				assign_commander = character:taiping_10	# Li Xiucheng
+			}
+		}
+	}
 	1864.6.1 = {
 		death = yes
 	}
@@ -32,6 +64,27 @@ taiping_1 = {
 		birth = yes
 	}
 	1864.11.18 = {
+		death = yes
+	}
+}
+
+# Allies
+taiping_10 = {
+	name = "Yiwen"	# 以文
+	dynasty = taiping_li
+	culture = han
+	rite = daoxue
+	1823.1.1 = {
+		birth = yes
+	}
+	1839.1.1 = {
+		trait = education_martial_3
+	}
+	1849.1.1 = {
+		name = "Xiucheng"	# 秀成
+		rite = godworship
+	}
+	1864.8.7 = {
 		death = yes
 	}
 }

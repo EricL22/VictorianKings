@@ -418,6 +418,8 @@
  c_nf_hong_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
  d_nf_hardenberg: "$dynn_Hardenberg$ Family"
  d_nf_hardenberg_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ c_nf_taiping_li: "$dynn_Li_674E$ Family"
+ c_nf_taiping_li_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
 
  # Tooltips
  personal_union.tt.forbid_title_destruction: "This [title|E] cannot be destroyed while it is the junior partner in a [personal_union|E]"

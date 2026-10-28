@@ -600,7 +600,7 @@ k_british_east_indies = {
 				# Bengal Army
 				spawn_army = {
 					name = bengal_army
-					levies = 96000
+					levies = 16000	# more historical number: 96000
 					men_at_arms = {
 						type = handgunners
 						stacks = 20

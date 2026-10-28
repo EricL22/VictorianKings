@@ -1661,3 +1661,15 @@ d_nf_hardenberg = {
 		holder = 0
 	}
 }
+
+c_nf_taiping_li = {
+	1852.1.1 = {
+		liege = k_taiping
+		holder = taiping_10	# Li Xiucheng
+		government = celestial_government
+		succession_laws = { noble_family_succession_law }
+	}
+	1864.8.7 = {
+		holder = 0
+	}
+}

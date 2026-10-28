@@ -479,7 +479,7 @@ ottoman_28 = {
 			# Mansure Army
 			spawn_army = {
 				name = nizami_ordu
-				levies = 100000
+				levies = 25000	# more historical number: 100000
 				men_at_arms = {
 					type = house_guard
 					stacks = 30

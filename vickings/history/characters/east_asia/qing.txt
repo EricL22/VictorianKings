@@ -178,6 +178,38 @@ qing_8 = {
 	1852.6.26 = {
 		add_concubine = qing_100	# Cixi
 	}
+	1861.7.1 = {
+		effect = {
+			# Xiang Army
+			spawn_army = {
+				name = xiang_army
+				levies = 15000
+				men_at_arms = {
+					type = light_footmen
+					stacks = 4
+				}
+				men_at_arms = {
+					type = handgunners
+					stacks = 6
+				}
+				men_at_arms = {
+					type = light_horsemen
+					stacks = 20
+				}
+				men_at_arms = {
+					type = bombard
+					stacks = 5
+				}
+				location = province:10251
+				origin = province:10331
+				inheritable = yes
+				save_temporary_scope_as = new_armee
+			}
+			scope:new_armee = {
+				assign_commander = character:liangjiang_2	# Zeng Guofan
+			}
+		}
+	}
 	1861.8.22 = {
 #		name = "Wenzong"
 		death = yes
