@@ -50,12 +50,17 @@ vk_initialize_history_rules_effects = {
 		culture:manchu = {
 			change_cultural_acceptance = {
 				target = culture:han
-				value = 60
+				value = 50
 				desc = cultural_acceptance_historical_relations
 			}
 			change_cultural_acceptance = {
 				target = culture:mongol
-				value = 60
+				value = 50
+				desc = cultural_acceptance_historical_relations
+			}
+			change_cultural_acceptance = {
+				target = culture:bai
+				value = 30
 				desc = cultural_acceptance_historical_relations
 			}
 		}

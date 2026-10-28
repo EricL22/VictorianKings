@@ -397,8 +397,10 @@ ottoman_26 = {
 					#this = character:turgov12
 					#this = character:turgov14
 				}
-				#NOT = { this = character:9000020 }
-				#NOT = { this = character:9000021 }
+				NOR = {
+					this = character:moldavia_0	# Scarlat Callimachi
+					this = character:alawiyya_0	# Muhammad Ali
+				}
 			}
 			character:ottoman_26 = {
 				add_hook = {
@@ -416,19 +418,19 @@ ottoman_26 = {
 
 			# Mansure Army
 			spawn_army = {
-				name = "Asakir-i Mansure-i Muhammediye"
-				levies = 8000
+				name = mansure_army_name
+				levies = 20000
 				men_at_arms = {
 					type = house_guard
-					stacks = 90
+					stacks = 25
 				}
 				men_at_arms = {
-					type = hussar
-					stacks = 2
+					type = light_horsemen
+					stacks = 10
 				}
 				men_at_arms = {
 					type = bombard
-					stacks = 30
+					stacks = 5
 				}
 				location = province:496
 				origin = province:496
@@ -473,6 +475,27 @@ ottoman_28 = {
 		effect = {
 			add_realm_law_skip_effects = single_heir_dynasty_house
 			add_realm_law_skip_effects = crown_authority_2
+
+			# Mansure Army
+			spawn_army = {
+				name = nizami_ordu
+				levies = 100000
+				men_at_arms = {
+					type = house_guard
+					stacks = 30
+				}
+				men_at_arms = {
+					type = light_horsemen
+					stacks = 20
+				}
+				men_at_arms = {
+					type = bombard
+					stacks = 5
+				}
+				location = province:496
+				origin = province:496
+				inheritable = yes
+			}
 		}
 	}
 	1876.6.4 = {

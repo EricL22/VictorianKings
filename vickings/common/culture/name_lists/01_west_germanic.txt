@@ -59,7 +59,7 @@
 	}
 	
 	male_names = {
-			Abraham Aaron Alexander Atticus August Andrew Anthony Angus Allen Asa Alvin Albert Ambrose Arthur
+			Abraham Aaron Alexander Atticus August Andrew Anthony_regnal Angus Allen Asa Alvin Albert Ambrose Arthur
 			Buford Benjamin Benedict Bartholomew Brigham Braxton Barnabas
 			Cyrus Charles Cyril Christopher Casey Clarence Clark Calvin Chester
 			David Donald Daniel Duncan

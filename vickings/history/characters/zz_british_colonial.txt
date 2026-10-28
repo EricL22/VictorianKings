@@ -143,39 +143,6 @@ british_east_india_0 = {
 		#		level = 4	#trade_company
 		#	}
 		#	add_realm_law_skip_effects = city_succession_law
-
-			# Bengal Army
-			spawn_army = {
-				name = "Bengal Army"
-				levies = 6000
-				men_at_arms = {
-					type = armored_footmen
-					stacks = 5
-				}
-				men_at_arms = {
-					type = light_footmen
-					stacks = 75
-				}
-				men_at_arms = {
-					type = horse_archers
-					stacks = 18
-				}
-				men_at_arms = {
-					type = bombard
-					stacks = 38
-				}
-				men_at_arms = {
-					type = armored_horsemen
-					stacks = 4
-				}
-				men_at_arms = {
-					type = light_horsemen
-					stacks = 10
-				}
-				location = province:1233
-				origin = province:1233
-				inheritable = yes
-			}
 		}
 	}
 	1814.6.21 = {
@@ -197,39 +164,6 @@ british_east_india_1 = {
 		#		level = 4	#trade_company
 		#	}
 		#	add_realm_law_skip_effects = city_succession_law
-
-			# Bengal Army
-			spawn_army = {
-				name = "Bengal Army"
-				levies = 6000
-				men_at_arms = {
-					type = armored_footmen
-					stacks = 5
-				}
-				men_at_arms = {
-					type = light_footmen
-					stacks = 75
-				}
-				men_at_arms = {
-					type = horse_archers
-					stacks = 18
-				}
-				men_at_arms = {
-					type = bombard
-					stacks = 38
-				}
-				men_at_arms = {
-					type = armored_horsemen
-					stacks = 4
-				}
-				men_at_arms = {
-					type = light_horsemen
-					stacks = 10
-				}
-				location = province:1233
-				origin = province:1233
-				inheritable = yes
-			}
 		}
 	}
 	1826.11.28 = {
@@ -251,39 +185,6 @@ british_east_india_2 = {
 		#		level = 4	#trade_company
 		#	}
 		#	add_realm_law_skip_effects = city_succession_law
-
-			# Bengal Army
-			spawn_army = {
-				name = "Bengal Army"
-				levies = 6000
-				men_at_arms = {
-					type = armored_footmen
-					stacks = 5
-				}
-				men_at_arms = {
-					type = light_footmen
-					stacks = 75
-				}
-				men_at_arms = {
-					type = horse_archers
-					stacks = 18
-				}
-				men_at_arms = {
-					type = bombard
-					stacks = 38
-				}
-				men_at_arms = {
-					type = armored_horsemen
-					stacks = 4
-				}
-				men_at_arms = {
-					type = light_horsemen
-					stacks = 10
-				}
-				location = province:1233
-				origin = province:1233
-				inheritable = yes
-			}
 		}
 	}
 	1849.1.1 = {

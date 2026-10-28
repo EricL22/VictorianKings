@@ -177,3 +177,27 @@ vk_british.101 = {
 		name = vk_british.101.a
 	}
 }
+
+# East India Company dissolved! (fire for EIC)
+vk_british.102 = {
+	type = character_event
+	title = vk_british.102.t
+	desc = vk_british.102.desc
+	theme = realm
+	left_portrait = {
+		character = title:e_britannia.holder
+		animation = personality_vengeful
+	}
+	right_portrait = {
+		character = root
+		animation = dismissal
+	}
+
+	immediate = {
+		destroy_title = title:k_british_east_indies
+	}
+	
+	option = {
+		name = vk_british.102.a
+	}
+}

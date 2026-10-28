@@ -32,6 +32,10 @@
  vk_british.101.desc:0 "With the near total unification of India under the British crown, my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('british_chakravarti'))] has declared [british_chakravarti.GetHerselfHimself] the [british_chakravarti.GetPrimaryTitle.GetTitleTierName] of India. With this development comes the abolition of the East India Company which has monopolized the subcontinent for decades, firmly cementing the rule of the new regime."
  vk_british.101.a:0 "What else awaits the Empire?"
 
+ vk_british.102.t:0 "East India Company Dissolved!"
+ vk_british.102.desc:0 "After declaring my flagrant disregard for British authority on account of my independence, the Board of Directors has seen fit to formally relieve me of my title as Governor-General in India. All Company property and interest in the region has likewise been forfeit."
+ vk_british.102.a:0 "I don't need the British anyway"
+
  vk_russia.100.t:0 "The Convention of Peking"
  vk_russia.100.desc:0 "The Russians have demanded that we acquiesce to their theft of our rightful territory. This is outrageous, but we may have no recourse but to accept their demands. If we do, they shall help ensure our sovereignty vis-à-vis the other Europeans. Also, we may be incapable of defeating them if the Russians decide to resolve this issue by force, and opening up a second front can prove disastrous for our failing war effort."
  vk_russia.100.a:0 "We have no choice, sign their treaty."

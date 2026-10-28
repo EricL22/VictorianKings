@@ -595,6 +595,30 @@ k_british_east_indies = {
 	}
 	1807.7.31 = {
 		holder = british_east_india_0	# Gilbert Elliot-Murray-Kynynmound
+		effect = {
+			holder ?= {
+				# Bengal Army
+				spawn_army = {
+					name = bengal_army
+					levies = 96000
+					men_at_arms = {
+						type = handgunners
+						stacks = 20
+					}
+					men_at_arms = {
+						type = bombard
+						stacks = 5
+					}
+					men_at_arms = {
+						type = light_horsemen
+						stacks = 18
+					}
+					location = province:1233
+					origin = province:1233
+					inheritable = yes
+				}
+			}
+		}
 	}
 	1813.10.4 = {
 		holder = british_east_india_1	# Francis Rawdon-Hastings

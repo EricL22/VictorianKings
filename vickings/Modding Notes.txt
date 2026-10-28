@@ -1,6 +1,5 @@
 TODOs:
 HIGH Priority ---
-Historical armies
 Bookmark/paper map graphics
 
 DEFERRED Priority ---
@@ -51,3 +50,10 @@ A bookmark WILL NOT LOAD if it has any character/title history errors.
 1914
 Republics: France, Portugal
 Protectorates: Zanzibar, Khiva, Bukhara
+
+
+historical army - men at arms
+cuirassier - armored horsemen
+dragoon + lancer - half armored horsemen, half light horsemen (if odd then favor light)
+hussar - light horsemen
+horse artillery - bombard (note these with comments because we might make a dedicated maa later)

@@ -261,7 +261,7 @@ eur_02100 = {
 		effect = {
 			# Spanish Army
 			spawn_army = {
-				name = "Army of the Center"
+				name = army_of_the_center
 				levies = 48000
 				men_at_arms = {
 					type = light_horsemen
@@ -276,7 +276,7 @@ eur_02100 = {
 				assign_commander = character:eur_02101
 			}
 			spawn_army = {
-				name = "Army of the Left"
+				name = army_of_the_left
 				levies = 40000
 				location = province:1816
 				origin = province:1787
@@ -406,7 +406,7 @@ eur_02303 = {
 	1833.9.29 = {
 		effect = {
 			spawn_army = {
-				name = "3rd Carlist Army"
+				name = third_carlist_army
 				levies = 6000
 				men_at_arms = {
 					type = armored_footmen
@@ -417,7 +417,7 @@ eur_02303 = {
 				inheritable = no
 			}
 			spawn_army = {
-				name = "4th Carlist Army"
+				name = fourth_carlist_army
 				levies = 3000
 				men_at_arms = {
 					type = armored_footmen

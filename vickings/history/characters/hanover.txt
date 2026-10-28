@@ -69,7 +69,7 @@ hanover_3 = {
 
 			# Anglo-Portuguese Army
 			spawn_army = {
-				name = "Anglo-Portuguese Army"
+				name = anglo_portuguese_army
 				levies = 40000
 				men_at_arms = {
 					type = armored_horsemen
@@ -85,7 +85,7 @@ hanover_3 = {
 				}
 				men_at_arms = {
 					type = bombard
-					stacks = 12
+					stacks = 12	# 3 horse artillery
 				}
 				men_at_arms = {
 					type = light_horsemen

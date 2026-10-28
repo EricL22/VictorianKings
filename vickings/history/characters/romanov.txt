@@ -123,10 +123,10 @@ romanov_6 = {
 
 			# First Western Army
 			spawn_army = {
-				name = "First Western Army"
+				name = first_western_army
 				levies = 90000
 				men_at_arms = {
-					type = light_footmen
+					type = handgunners
 					stacks = 70
 				}
 				men_at_arms = {
@@ -142,10 +142,10 @@ romanov_6 = {
 
 			# Second Western Army
 			spawn_army = {
-				name = "Second Western Army"
+				name = second_western_army
 				levies = 23200
 				men_at_arms = {
-					type = light_footmen
+					type = handgunners
 					stacks = 46
 				}
 				men_at_arms = {
@@ -163,10 +163,10 @@ romanov_6 = {
 			# Third Western Army - Third Reserve Army of Observation merged with the Army of the Danube
 			# 30 September 1812
 			spawn_army = {
-				name = "Third Western Army"
+				name = third_western_army
 				levies = 66100
 				men_at_arms = {
-					type = light_footmen
+					type = handgunners
 					stacks = 134	#74 from danube
 				}
 				men_at_arms = {
@@ -229,27 +229,6 @@ romanov_8 = {
 			#add_character_modifier = {
 			#	modifier = emperor_of_russia_modifier
 			#}
-
-			# Imperial Guard
-			spawn_army = {
-				name = "Imperial Guard"
-				levies = 30000
-				men_at_arms = {
-					type = light_footmen
-					stacks = 18
-				}
-				men_at_arms = {
-					type = light_horsemen
-					stacks = 12
-				}
-				men_at_arms = {
-					type = druzhina
-					stacks = 20
-				}
-				location = province:169
-				origin = province:169
-				inheritable = yes
-			}
 		}
 	}
 	1855.3.2 = {
@@ -275,27 +254,6 @@ romanov_9 = {
 			#add_character_modifier = {
 			#	modifier = emperor_of_russia_modifier
 			#}
-
-			# Imperial Guard
-			spawn_army = {
-				name = "Imperial Guard"
-				levies = 30000
-				men_at_arms = {
-					type = light_footmen
-					stacks = 18
-				}
-				men_at_arms = {
-					type = light_horsemen
-					stacks = 12
-				}
-				men_at_arms = {
-					type = druzhina
-					stacks = 20
-				}
-				location = province:169
-				origin = province:169
-				inheritable = yes
-			}
 		}
 	}
 	1881.3.13 = {

@@ -248,6 +248,34 @@ e_russia = {
 	}
 	1825.12.1 = {
 		holder = romanov_8	# Nicholas I
+		effect = {
+			holder ?= {
+				# Imperial Guard
+				spawn_army = {
+					name = imperial_guard
+					levies = 40000
+					men_at_arms = {
+						type = handgunners
+						stacks = 14
+					}
+					men_at_arms = {
+						type = light_horsemen
+						stacks = 4
+					}
+					men_at_arms = {
+						type = druzhina
+						stacks = 6
+					}
+					men_at_arms = {
+						type = bombard
+						stacks = 13	# 4 horse artillery
+					}
+					location = province:169
+					origin = province:169
+					inheritable = yes
+				}
+			}
+		}
 	}
 	1855.3.2 = {
 		holder = romanov_9	# Alexander II
@@ -360,6 +388,10 @@ k_switzerland = {
 	}
 	1803.1.1 = {
 		holder = swiss_0	# Hans von Reinhard
+		succession_laws = {
+			feudal_elective_succession_law
+			male_only_law
+		}
 	}
 	1814.12.16 = {
 		holder = swiss_1	# David von Wyss II

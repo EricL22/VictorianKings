@@ -115,7 +115,8 @@ dissolve_india_company_decision = {
 			limit = {
 				has_title = title:k_british_east_indies
 			}
-			destroy_title = title:k_british_east_indies
+			show_as_tooltip = { destroy_title = title:k_british_east_indies }
+			trigger_event = vk_british.102
 		}
 	}
 

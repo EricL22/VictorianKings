@@ -73,11 +73,11 @@ bonaparte_2 = {
 
 				# Grande Armée - It is only a quarter of its real size to due OPness
 				spawn_army = {
-					name = "Grande Armée"
+					name = grande_armee
 					levies = 100000
 					# all men-at-arms quarter size except horse archers
 					men_at_arms = {
-						type = armored_footmen
+						type = handgunners
 						stacks = 100
 					}
 					men_at_arms = {
@@ -90,11 +90,7 @@ bonaparte_2 = {
 					}
 					men_at_arms = {
 						type = bombard
-						stacks = 4	# halved from 7
-					}
-					men_at_arms = {
-						type = horse_archers	# supposed to represent horse artillery
-						stacks = 1
+						stacks = 5	# halved from 7, then add 1 horse artillery
 					}
 					location = province:156
 					origin = province:2333

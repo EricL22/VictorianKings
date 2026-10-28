@@ -556,28 +556,33 @@ bourbon_37 = {
 		effect = {
 			set_realm_capital = title:c_madrid
 			spawn_army = {
-				name = "Ejército Cristino del Centro"
+				name = ejercito_cristino_del_centro
+				levies = 10000
 				men_at_arms = {
-					type = armored_footmen
-					stacks = 60	# reduced from 150
+					type = handgunners
+					stacks = 40
+				}
+				men_at_arms = {
+					type = bombard
+					stacks = 15	# 12 horse artillery
 				}
 			#	men_at_arms = {
-			#		type = bombard
+			#		type = house_guard
 			#		stacks = 30
 			#	}
 				men_at_arms = {
-					type = house_guard
-					stacks = 30
+					type = light_horsemen
+					stacks = 12
 				}
 				men_at_arms = {
-					type = light_horsemen
-					stacks = 90
+					type = armored_horsemen
+					stacks = 6
 				}
 				location = province:1923
 				origin = province:1923
 			}
 			spawn_army = {
-				name = "Ejército del Norte"
+				name = ejercito_del_norte
 				men_at_arms = {
 					type = armored_footmen
 					stacks = 120
@@ -646,7 +651,7 @@ bourbon_40 = {
 
 			# Carlist Army
 			spawn_army = {
-				name = "1st Carlist Army"
+				name = first_carlist_army
 				levies = 9000
 				men_at_arms = {
 					type = armored_footmen
@@ -656,7 +661,7 @@ bourbon_40 = {
 				origin = province:1806
 			}
 			spawn_army = {
-				name = "2nd Carlist Army"
+				name = second_carlist_army
 				levies = 6000
 				men_at_arms = {
 					type = armored_footmen
