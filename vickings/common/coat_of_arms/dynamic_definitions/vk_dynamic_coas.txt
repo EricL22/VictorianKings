@@ -1,0 +1,19 @@
+﻿k_france = {
+	item = {
+		trigger = {
+			exists = holder
+			holder = { has_government = republic_government }
+		}
+		coat_of_arms = k_france_republic
+	}
+}
+
+e_france = {
+	item = {
+		trigger = {
+			exists = holder
+			holder = { has_government = republic_government }
+		}
+		coat_of_arms = k_france_republic
+	}
+}

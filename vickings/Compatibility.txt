@@ -9,6 +9,9 @@ common
 .........00_bookmark_groups.txt
 ...character_interactions
 ......00_grant_titles_interaction.txt
+...coat_of_arms
+......coat_of_arms
+......modern_[...].txt (clauses)
 ...culture
 ......name_equivalency
 .........modern_names.txt (clauses)
@@ -20,13 +23,12 @@ common
 ...defines (clauses)
 ...flavorization
 ......vk_overwrite_flavorization.txt (clauses)
-...game_rules (clauses)
+...game_rules
+......vk_default_game_rules.txt (clauses)
 ...landed_titles
 ......00_landed_titles.txt
 ......03_seasia.txt
 ...religion
-......religion_types
-.........00_christianity.txt
 ......tenet_types
 .........vk_overwrite_tenets.txt (clauses)
 ...scripted_effects

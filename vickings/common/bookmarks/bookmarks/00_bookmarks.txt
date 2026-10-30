@@ -2,6 +2,66 @@
 	start_date = 1812.7.5
 	is_playable = yes
 
+
+	#  Napoleon ID: bonaparte_2
+	character = {
+		name = "bookmark_napole" # Napoleon
+		dynasty_house = house_bonaparte
+		dynasty_splendor_level = 3
+		type = male
+		history_id = bonaparte_2
+		birth = 1769.8.15
+		title = e_france
+		government = administrative_government
+		fallback_government = feudal_government
+		culture = french
+		religion = roman_rite
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		position = { 600 450 }
+		
+		animation = personality_bold
+
+	}
+
+	#  Alexander ID: romanov_6
+	character = {
+		name = "bookmark_alexander" # Alexander
+		dynasty = 100397
+		dynasty_splendor_level = 3
+		type = male
+		history_id = romanov_6
+		birth = 1777.12.23
+		title = e_russia
+		government = administrative_government
+		fallback_government = feudal_government
+		culture = russian
+		religion = slavic_rite
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		position = { 1200 400 }
+		
+		animation = personality_vengeful
+
+	}
+
+
+	#  Joseph ID: bonaparte_4
+	character = {
+		name = "bookmark_joseph" # Joseph
+		dynasty_house = house_bonaparte
+		dynasty_splendor_level = 3
+		type = male
+		history_id = bonaparte_4
+		birth = 1768.1.7
+		title = k_spain
+		government = feudal_government
+		culture = french
+		religion = roman_rite
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		position = { 500 800 }
+		
+		animation = personality_coward
+
+	}
 }
 
 #bm_congress = {
@@ -14,11 +74,104 @@ bm_victoria = {
 	start_date = 1836.1.1
 	is_playable = yes
 
+
+	#  Muhammad Ali ID: alawiyya_0
+	character = {
+		name = "bookmark_muhammad_ali" # Muhammad Ali
+		dynasty = alawiyya
+		dynasty_splendor_level = 2
+		type = male
+		history_id = alawiyya_0
+		birth = 1769.3.4
+		title = k_egypt
+		government = clan_government
+		culture = egyptian
+		religion = hanafi
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		position = { 1350 800 }
+		
+		animation = personality_bold
+
+	}
+
+	#  William of Hanover ID: hanover_5
+	character = {
+		name = "bookmark_william" # William of Hanover
+		dynasty = 2001107
+		dynasty_splendor_level = 2
+		type = male
+		history_id = hanover_5
+		birth = 1765.8.21
+		title = e_britannia
+		government = administrative_government
+		fallback_government = feudal_government
+		culture = english
+		religion = anglican_rite
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		position = { 600 200 }
+		
+		animation = personality_bold
+
+		#Sidekick: Princess Victoria, niece and heir (ID: hanover_7)
+		character = {
+			name = "bookmark_victoria_1936"
+			relation = "BOOKMARK_RELATION_NIECE"
+			dynasty = 2001107
+			type = female
+			birth = 1819.5.24
+			#title = e_britannia
+			#government = feudal_government
+			culture = english
+			religion = anglican_rite
+			history_id = hanover_7
+		}
+	}
+
+
+	#  Charles Albert ID: savoy_25
+	character = {
+		name = "bookmark_charles_albert" # Charles Albert
+		dynasty_house = house_carignano
+		dynasty_splendor_level = 1
+		type = male
+		history_id = savoy_25
+		birth = 1798.10.2
+		title = k_sardinia
+		government = feudal_government
+		culture = italian
+		religion = roman_rite
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		position = { 500 750 }
+		
+		animation = personality_coward
+
+	}
 }
 
 bm_acw = {
 	start_date = 1861.7.1
 	is_playable = yes
+
+
+	#  William ID: hohenzollern_18
+	character = {
+		name = "bookmark_wilhelm" # William I of Prussia
+		dynasty = 12476
+		dynasty_splendor_level = 2
+		type = male
+		history_id = hohenzollern_18
+		birth = 1797.3.22
+		title = k_prussia
+		government = administrative_government
+		fallback_government = feudal_government
+		culture = german
+		religion = lutheran_rite
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		position = { 1150 400 }
+		
+		animation = personality_bold
+
+	}
 }
 
 #bm_ww1 = {

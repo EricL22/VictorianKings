@@ -153,10 +153,10 @@ d_BOR_nan_sarunai = {
 		liege = k_dutch_east_indies
 	}
 	1857.11.3 = {
-		holder = banjarmasin_2	# Tamjidillah II
+		holder = banjarmasin_3	# Tamjidillah II
 	}
 	1859.9.1 = {
-		holder = banjarmasin_3	# Hidayatullah II
+		holder = banjarmasin_4	# Hidayatullah II
 		liege = 0
 	}
 }
@@ -168,7 +168,7 @@ c_BOR_banjar = {
 		holder = banjarmasin_1	# Adam
 	}
 	1859.9.1 = {
-		holder = banjarmasin_3	# Hidayatullah II
+		holder = banjarmasin_4	# Hidayatullah II
 	}
 }
 c_BOR_tabalung = {
@@ -179,7 +179,7 @@ c_BOR_tabalung = {
 		holder = banjarmasin_1	# Adam
 	}
 	1859.9.1 = {
-		holder = banjarmasin_3	# Hidayatullah II
+		holder = banjarmasin_4	# Hidayatullah II
 	}
 }
 c_BOR_taiao = {
@@ -190,7 +190,7 @@ c_BOR_taiao = {
 		holder = banjarmasin_1	# Adam
 	}
 	1859.9.1 = {
-		holder = banjarmasin_3	# Hidayatullah II
+		holder = banjarmasin_4	# Hidayatullah II
 	}
 }
 c_BOR_sampit = {
@@ -201,7 +201,7 @@ c_BOR_sampit = {
 		holder = banjarmasin_1	# Adam
 	}
 	1859.9.1 = {
-		holder = banjarmasin_3	# Hidayatullah II
+		holder = banjarmasin_4	# Hidayatullah II
 	}
 }
 d_BOR_kutai = {

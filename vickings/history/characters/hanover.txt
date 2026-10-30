@@ -277,7 +277,7 @@ hanover_7 = {
 
 ## Hanoverian branch
 hanover_8 = {
-	name = "Ernest Augustus"
+	name = "Ernest_Augustus"
 	dynasty = 2001107
 	rite = anglican_rite
 	culture = english
@@ -317,7 +317,7 @@ hanover_9 = {
 # hanover_11 -> wettin_35
 
 hanover_12 = {
-	name = "Ernest Augustus"
+	name = "Ernest_Augustus"
 	dynasty = 2001107
 	rite = lutheran_rite
 	culture = english
@@ -331,7 +331,7 @@ hanover_12 = {
 }
 
 hanover_13 = {
-	name = "Ernest Augustus"
+	name = "Ernest_Augustus"
 	dynasty = 2001107
 	rite = lutheran_rite
 	culture = english

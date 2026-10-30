@@ -1,5 +1,5 @@
 ﻿alawiyya_0 = {
-	name = "muhammad_ali"
+	name = "Muhammad_Ali"
 	dynasty = alawiyya
 	rite = hanafi
 	culture = egyptian
@@ -131,7 +131,7 @@ alawiyya_7 = {
 }
 
 alawiyya_8 = {
-	name = "Hussein Kamel"
+	name = "Hussein_Kamel"
 	dynasty = alawiyya
 	rite = hanafi
 	culture = egyptian

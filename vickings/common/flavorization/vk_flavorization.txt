@@ -4,7 +4,7 @@
 	special = holder
 	priority = 147
 	titles = { e_cdr }
-	flavourization_rules = { 
+	flavourization_rules = {
 		top_liege = no
 	}
 }
@@ -14,7 +14,7 @@ princess_primate = {
 	special = holder
 	priority = 147
 	titles = { e_cdr }
-	flavourization_rules = { 
+	flavourization_rules = {
 		top_liege = no
 	}
 }
@@ -25,7 +25,7 @@ director = {
 	special = holder
 	priority = 137
 	titles = { k_british_east_indies }
-	flavourization_rules = { 
+	flavourization_rules = {
 		top_liege = no
 	}
 }
@@ -35,7 +35,7 @@ directress = {
 	special = holder
 	priority = 137
 	titles = { k_british_east_indies }
-	flavourization_rules = { 
+	flavourization_rules = {
 		top_liege = no
 	}
 }
@@ -48,7 +48,7 @@ king_feudal_male_uk = {
 	priority = 146
 	governments = { feudal_government administrative_government }
 	titles = { e_britannia }
-	flavourization_rules = { 
+	flavourization_rules = {
 		top_liege = no
 	}
 }
@@ -60,7 +60,7 @@ king_feudal_female_uk = {
 	priority = 146
 	governments = { feudal_government administrative_government }
 	titles = { e_britannia }
-	flavourization_rules = { 
+	flavourization_rules = {
 		top_liege = no
 	}
 }
@@ -73,7 +73,7 @@ king_feudal_male_italia = {
 	governments = { feudal_government administrative_government }
 	titles = { e_italy }
 	heritages = { heritage_latin }
-	flavourization_rules = { 
+	flavourization_rules = {
 		top_liege = no
 	}
 }
@@ -86,7 +86,7 @@ king_feudal_female_italia = {
 	governments = { feudal_government administrative_government }
 	titles = { e_italy }
 	heritages = { heritage_latin }
-	flavourization_rules = { 
+	flavourization_rules = {
 		top_liege = no
 	}
 }

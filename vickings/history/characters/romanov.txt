@@ -96,12 +96,16 @@ romanov_6 = {
 	father = romanov_5
 #	dna = 9000014_alexander_romanov
 	trait = fickle
-	1703.5.27 = {
-		set_realm_capital = title:c_vodi
+	portrait_override = {
+		portrait_modifier_overrides = {
+			beards = has_no_beard
+		}
+	}
+#	1703.5.27 = {
 #		effect = {
 #			add_character_flag = semi_salic_law
 #		}
-	}
+#	}
 	1777.12.23 = {
 		birth = yes
 	}
@@ -221,7 +225,6 @@ romanov_8 = {
 		add_spouse = hohenzollern_22	# Charlotte of Prussia
 	}
 	1825.12.1 = {
-		set_realm_capital = title:c_vodi
 		effect = {
 			#add_character_flag = semi_salic_law
 			add_prestige_experience = 100
@@ -247,7 +250,6 @@ romanov_9 = {
 		birth = yes
 	}
 	1855.3.2 = {
-		set_realm_capital = title:c_vodi
 		effect = {
 			add_prestige_experience = 100
 			add_gold = 5000

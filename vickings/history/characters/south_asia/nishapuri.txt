@@ -1,5 +1,5 @@
 ﻿nishapuri_0 = {
-	name = "saadat_ali"
+	name = "Saadat_Ali"
 	dynasty = nishapuri
 	rite = imami
 	culture = hindustani
@@ -12,7 +12,7 @@
 }
 
 nishapuri_1 = {
-	name = "ghazi_ud_din_haidar"
+	name = "Ghazi_ud_Din_Haidar"
 	dynasty = nishapuri
 	rite = imami
 	culture = hindustani
@@ -26,7 +26,7 @@ nishapuri_1 = {
 }
 
 nishapuri_2 = {
-	name = "nasir_ud_din_haidar"
+	name = "Nasir_ud_Din_Haidar"
 	dynasty = nishapuri
 	rite = imami
 	culture = hindustani
@@ -42,7 +42,7 @@ nishapuri_2 = {
 }
 
 nishapuri_3 = {
-	name = "muhammad_ali"
+	name = "Muhammad_Ali"
 	dynasty = nishapuri
 	rite = imami
 	culture = hindustani
@@ -56,7 +56,7 @@ nishapuri_3 = {
 }
 
 nishapuri_4 = {
-	name = "amjad_ali"
+	name = "Amjad_Ali"
 	dynasty = nishapuri
 	rite = imami
 	culture = hindustani
@@ -70,7 +70,7 @@ nishapuri_4 = {
 }
 
 nishapuri_5 = {
-	name = "wajid_ali"
+	name = "Wajid_Ali"
 	dynasty = nishapuri
 	rite = imami
 	culture = hindustani

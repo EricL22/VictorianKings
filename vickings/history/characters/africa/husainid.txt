@@ -1,6 +1,6 @@
 ﻿# Beys of Tunis
 husainid_0 = {
-	name = "Sidi Ali"
+	name = "Sidi_Ali"
 	dynasty = 101035
 	rite = hanafi
 	culture = turkish
@@ -261,7 +261,7 @@ husainid_16 = {
 }
 
 husainid_17 = {
-	name = "Muhammad Mamun"	# Prince of Tunis
+	name = "Muhammad_Mamun"	# Prince of Tunis
 	dynasty = 101035
 	rite = hanafi
 	culture = turkish

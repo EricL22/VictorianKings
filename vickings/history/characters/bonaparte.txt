@@ -49,11 +49,6 @@ bonaparte_2 = {
 	father = bonaparte_0
 	mother = bonaparte_1
 	sexuality = heterosexual
-	portrait_override = {
-		portrait_modifier_overrides = {
-			beards = has_no_beard
-		}
-	}
 
 	1769.8.15 = {
 		birth = yes
@@ -184,6 +179,11 @@ bonaparte_4 = {
 	trait = education_diplomacy_3
 	father = bonaparte_0
 	mother = bonaparte_1
+	portrait_override = {
+		portrait_modifier_overrides = {
+			beards = has_no_beard
+		}
+	}
 	1768.1.7 = {
 		birth = yes
 	}

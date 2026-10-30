@@ -1,6 +1,6 @@
 ﻿### Druk Desi (Bhutan)
 bhutan_0 = {
-	name = "yeshey_gyaltshen"
+	name = "Yeshey_Gyaltshen"
 	rite = lamaism
 	culture = lhomon
 	1781.1.1 = {
@@ -11,7 +11,7 @@ bhutan_0 = {
 	}
 }
 bhutan_1 = {
-	name = "chhoki_gyaltshen"
+	name = "Chhoki_Gyaltshen"
 	rite = lamaism
 	culture = lhomon
 	1793.1.1 = {		# dates are completely guesswork
@@ -22,7 +22,7 @@ bhutan_1 = {
 	}
 }
 bhutan_2 = {
-	name = "phuntsho_namgyel"
+	name = "Phuntsho_Namgyel"
 	rite = lamaism
 	culture = lhomon
 	1805.1.1 = {		# dates are completely guesswork

@@ -39,7 +39,7 @@
 					type = bombard
 					stacks = 1
 				}
-				location = province:8825
+				location = province:10325
 				origin = province:10331
 				inheritable = yes
 				save_temporary_scope_as = new_armee

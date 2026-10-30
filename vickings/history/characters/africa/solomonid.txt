@@ -1,5 +1,5 @@
 ﻿solomonid_0 = {
-	name = "niwaya_maryam"
+	name = "Niwaya_Maryam"
 	dynasty = 7246
 	rite = "coptic_rite"
 	culture = "ethiopian"
@@ -69,7 +69,7 @@ solomonid_4 = {
 }
 
 solomonid_5 = {
-	name = "zara_yaqob"
+	name = "Zara_Yaqob"
 	dynasty = 7246
 	rite = "coptic_rite"
 	culture = "ethiopian"
@@ -83,7 +83,7 @@ solomonid_5 = {
 }
 
 solomonid_6 = {
-	name = "baeda_maryam"	# I of Ethiopia
+	name = "Baeda_Maryam"	# I of Ethiopia
 	dynasty = 7246
 	rite = "coptic_rite"
 	culture = "ethiopian"
@@ -227,7 +227,7 @@ solomonid_15 = {
 }
 
 solomonid_16 = {
-	name = "tekle_haymanot"	# I of Ethiopia
+	name = "Tekle_Haymanot"	# I of Ethiopia
 	dynasty = 7246
 	rite = "coptic_rite"
 	culture = "ethiopian"
@@ -313,7 +313,7 @@ solomonid_21 = {
 }
 
 solomonid_22 = {
-	name = "tekle_haymanot"	# II of Ethiopia
+	name = "Tekle_Haymanot"	# II of Ethiopia
 	dynasty = 7246
 	rite = "coptic_rite"
 	culture = "ethiopian"
@@ -370,7 +370,7 @@ solomonid_25 = {
 }
 
 solomonid_26 = {
-	name = "baeda_maryam"	# II of Ethiopia
+	name = "Baeda_Maryam"	# II of Ethiopia
 	dynasty = 7246
 	rite = "coptic_rite"
 	culture = "ethiopian"
@@ -440,7 +440,7 @@ solomonid_30 = {
 }
 
 solomonid_31 = {
-	name = "tekle_giyorgis"	# I of Ethiopia
+	name = "Tekle_Giyorgis"	# I of Ethiopia
 	dynasty = 7246
 	rite = "coptic_rite"
 	culture = "ethiopian"
@@ -482,7 +482,7 @@ solomonid_33 = {
 }
 
 solomonid_34 = {
-	name = "egwale_seyon"
+	name = "Egwale_Seyon"
 	dynasty = 7246
 	rite = "coptic_rite"
 	culture = "ethiopian"
@@ -551,7 +551,7 @@ solomonid_38 = {
 	}
 }
 solomonid_39 = {
-	name = "Gabre Dawit"
+	name = "Gabre"
 	dynasty = 7246
 	rite = "coptic_rite"
 	culture = "ethiopian"
@@ -564,7 +564,7 @@ solomonid_39 = {
 	}
 }
 solomonid_40 = {
-	name = "Gabre Dawit"
+	name = "Gabre"
 	dynasty = 7246
 	rite = "coptic_rite"
 	culture = "ethiopian"
@@ -577,7 +577,7 @@ solomonid_40 = {
 	}
 }
 solomonid_41 = {
-	name = "Gabre Mesay"
+	name = "Gabre_Mesay"
 	dynasty = 7246
 	rite = "coptic_rite"
 	culture = "ethiopian"
@@ -591,7 +591,7 @@ solomonid_41 = {
 }
 
 solomonid_42 = {
-	name = "sahle_dengel"
+	name = "Sahle_Dengel"
 	dynasty = 7246
 	rite = "coptic_rite"
 	culture = "ethiopian"
@@ -642,7 +642,7 @@ solomonid_51 = {
 
 ## Shewa line
 solomonid_60 = {
-	name = "Segwa Qal"	# Prince of Shewa
+	name = "Segwa_Qal"	# Prince of Shewa
 	dynasty = 7246
 	rite = "coptic_rite"
 	culture = "ethiopian"
@@ -655,7 +655,7 @@ solomonid_60 = {
 	}
 }
 solomonid_61 = {
-	name = "Warada Qal"	# Prince of Shewa
+	name = "Warada_Qal"	# Prince of Shewa
 	dynasty = 7246
 	rite = "coptic_rite"
 	culture = "ethiopian"
@@ -668,7 +668,7 @@ solomonid_61 = {
 	}
 }
 solomonid_62 = {
-	name = "Lebsa Qal"	# Prince of Shewa
+	name = "Lebsa_Qal"	# Prince of Shewa
 	dynasty = 7246
 	rite = "coptic_rite"
 	culture = "ethiopian"
@@ -681,7 +681,7 @@ solomonid_62 = {
 	}
 }
 solomonid_63 = {
-	name = "Negasi Krestos"	# Prince of Shewa
+	name = "Negasi_Krestos"	# Prince of Shewa
 	dynasty = 7246
 	rite = "coptic_rite"
 	culture = "ethiopian"
@@ -707,7 +707,7 @@ solomonid_64 = {
 	}
 }
 solomonid_65 = {
-	name = "Qedami Qal"	# Prince of Shewa
+	name = "Qedami_Qal"	# Prince of Shewa
 	dynasty = 7246
 	rite = "coptic_rite"
 	culture = "ethiopian"
@@ -720,7 +720,7 @@ solomonid_65 = {
 	}
 }
 solomonid_66 = {
-	name = "Amha Iyasus"	# Prince of Shewa
+	name = "Amha_Iyasus"	# Prince of Shewa
 	dynasty = 7246
 	rite = "coptic_rite"
 	culture = "ethiopian"
@@ -733,7 +733,7 @@ solomonid_66 = {
 	}
 }
 solomonid_67 = {
-	name = "Asfaw Wossen"	# Prince of Shewa
+	name = "Asfaw_Wossen"	# Prince of Shewa
 	dynasty = 7246
 	rite = "coptic_rite"
 	culture = "ethiopian"
@@ -746,7 +746,7 @@ solomonid_67 = {
 	}
 }
 solomonid_68 = {
-	name = "Wossen Seged"	# Prince of Shewa
+	name = "Wossen_Seged"	# Prince of Shewa
 	dynasty = 7246
 	rite = "coptic_rite"
 	culture = "ethiopian"
@@ -759,7 +759,7 @@ solomonid_68 = {
 	}
 }
 solomonid_69 = {
-	name = "Sahle Selassie"	# King of Shewa
+	name = "Sahle_Selassie"	# King of Shewa
 	dynasty = 7246
 	rite = "coptic_rite"
 	culture = "ethiopian"
@@ -772,7 +772,7 @@ solomonid_69 = {
 	}
 }
 solomonid_70 = {
-	name = "Haile Melekot"	# King of Shewa
+	name = "Haile_Melekot"	# King of Shewa
 	dynasty = 7246
 	rite = "coptic_rite"
 	culture = "ethiopian"
@@ -866,7 +866,7 @@ solomonid_76 = {
 	}
 }
 solomonid_77 = {
-	name = "Haile Selassie"
+	name = "Haile_Selassie"
 	dynasty = 7246
 	rite = "coptic_rite"
 	culture = "ethiopian"

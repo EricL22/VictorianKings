@@ -371,7 +371,7 @@ wettin_37 = {
 }
 
 wettin_38 = {
-	name = "Charles Edward"	# of Saxe-Coburg and Gotha
+	name = "Charles_Edward"	# of Saxe-Coburg and Gotha
 	dynasty_house = house_saxe_coburg
 	rite = lutheran_rite
 	culture = english

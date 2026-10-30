@@ -26,24 +26,41 @@
  Phuc_Buu_Dao: "Phúc Bửu Đảo"
  Phuc_Vinh_Thuy: "Phúc Vĩnh Thuỵ"
 
- yeshey_gyaltshen: "Yeshey Gyaltshen"
- chhoki_gyaltshen: "Chhoki Gyaltshen"
- phuntsho_namgyel: "Phuntsho Namgyel"
+ Yeshey_Gyaltshen: "Yeshey Gyaltshen"
+ Chhoki_Gyaltshen: "Chhoki Gyaltshen"
+ Phuntsho_Namgyel: "Phuntsho Namgyel"
  
- niwaya_maryam: "Niwaya Maryam"
- zara_yaqob: "Zara Yaqob"
- baeda_maryam: "Baeda Maryam"
- tekle_haymanot: "Tekle Haymanot"
- tekle_giyorgis: "Tekle Giyorgis"
- egwale_seyon: "Egwale Seyon"
- sahle_dengel: "Sahle Dengel"
+ Niwaya_Maryam: "Niwaya Maryam"
+ Zara_Yaqob: "Zara Yaqob"
+ Baeda_Maryam: "Baeda Maryam"
+ Tekle_Haymanot: "Tekle Haymanot"
+ Tekle_Giyorgis: "Tekle Giyorgis"
+ Egwale_Seyon: "Egwale Seyon"
+ Gabre_Mesay: "Gabre Mesay"
+ Sahle_Dengel: "Sahle Dengel"
+ Segwa_Qal: "Segwa Qal"
+ Warada_Qal: "Warada Qal"
+ Lebsa_Qal: "Lebsa Qal"
+ Negasi_Krestos: "Negasi Krestos"
+ Qedami_Qal: "Qedami Qal"
+ Amha_Iyasus: "Amha Iyasus"
+ Asfaw_Wossen: "Asfaw Wossen"
+ Wossen_Seged: "Wossen Seged"
+ Sahle_Selassie: "Sahle Selassie"
+ Haile_Melekot: "Haile Melekot"
+ Haile_Selassie: "Haile Selassie"
  
- saadat_ali: "Saadat Ali"
- ghazi_ud_din_haidar: "Ghazi-ud-Din Haidar"
- nasir_ud_din_haidar: "Nasir-ud-Din Haidar"
- muhammad_ali: "Muhammad Ali"
- amjad_ali: "Amjad Ali"
- wajid_ali: "Wajid Ali"
+ Saadat_Ali: "Saadat Ali"
+ Ghazi_ud_Din_Haidar: "Ghazi-ud-Din Haidar"
+ Nasir_ud_Din_Haidar: "Nasir-ud-Din Haidar"
+ Muhammad_Ali: "Muhammad Ali"
+ Amjad_Ali: "Amjad Ali"
+ Wajid_Ali: "Wajid Ali"
+ 
+ Hussein_Kamel: "Hussein Kamel"
+ 
+ Sidi_Ali: "Sidi Ali"
+ Muhammad_Mamun: "Muhammad Mamun"
 
  ChU_kyO_: "Chūkyō"
  Go_Horikawa: "Go-Horikawa"
@@ -85,6 +102,7 @@
  Abdul_Momin: "Abdul Momin"
  Hashim_Jalilul: "Hashim Jalilul"
 
+ Carlos: "Carlos"
  JosE_: "José"
 
  Gowri_Lakshmi_Bayi: "Gowri Lakshmi Bayi"
@@ -161,4 +179,9 @@
  
  # Dutch
  Johan_Willem_Friso: "Johan Willem Friso"
+ 
+ ## West German compound names
+ # English
+ Charles_Edward: "Charles Edward"
+ Ernest_Augustus: "Ernest Augustus"
  

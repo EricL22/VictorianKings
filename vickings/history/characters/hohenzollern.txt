@@ -309,6 +309,49 @@ hohenzollern_18 = {
 	1797.3.22 = {
 		birth = yes
 	}
+	1813.3.22 = {
+		trait = education_martial_2
+	}
+	1861.7.1 = {
+		effect = {
+			spawn_army = {
+				name = "Garde-Korps"
+				men_at_arms = {
+					type = house_guard
+					stacks = 9
+				}
+				men_at_arms = {
+					type = light_horsemen
+					stacks = 3
+				}
+				location = province:3158
+				origin = province:3158
+				inheritable = yes
+			}
+			spawn_army = {
+				name = "Armee-Korps"
+				men_at_arms = {
+					type = handgunners
+					stacks = 56
+				}
+				men_at_arms = {
+					type = bombard
+					stacks = 26
+				}
+				men_at_arms = {
+					type = light_horsemen
+					stacks = 6
+				}
+				men_at_arms = {
+					type = armored_horsemen
+					stacks = 6
+				}
+				location = province:3158
+				origin = province:3158
+				inheritable = yes
+			}
+		}
+	}
 	1888.3.9 = {
 		death = yes
 	}
