@@ -8,8 +8,9 @@ Redid the paper map graphics which should now look much more "paper"-like
 Congress of Vienna improvements: Prussia and Austria may now join the war if Napoleon is losing, and any player who is a great power can get the peace deal event
 1815 bookmark has been removed
 The Americas have been removed, pending further rework
+Playable republics have been removed in light of the upcoming DLC. The mod will use Paradox's implementation once that is released.
 Fix the Napoleonic War claimant exploit for good this time
-A dynamic Personal Union mechanic replaces the formerly hardcoded Hanoverian Succession
+A more flexible Personal Union mechanic replaces the formerly hardcoded Hanoverian Succession
 General code cleanup and refactoring
 0.5------------ (unreleased)
 Government rework:

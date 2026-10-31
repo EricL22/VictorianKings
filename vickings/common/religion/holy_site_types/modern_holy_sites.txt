@@ -10,7 +10,38 @@ holland = {
 	county = c_holland
 	
 	county_holder_character_modifier = {
-		name = holy_site_holland_effect_name
 		stewardship = 4
+	}
+
+	faith_character_modifier = {
+		tax_mult = 0.05
+	}
+}
+
+# God-Worship
+
+nanjing = {
+	county = c_jiangning
+
+	county_holder_character_modifier = {
+		legitimacy_gain_mult = 0.05
+	}
+
+	faith_character_modifier = {
+		legitimacy_gain_mult = 0.1
+		monthly_merit_mult = 0.05
+	}
+}
+
+guangzhou = {
+	county = c_guangzhou_1
+
+	county_holder_character_modifier = {
+		stewardship = 4
+	}
+
+	faith_character_modifier = {
+		legitimacy_gain_mult = 0.05
+		county_opinion_add = 1
 	}
 }

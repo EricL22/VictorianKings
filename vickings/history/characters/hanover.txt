@@ -270,6 +270,39 @@ hanover_7 = {
 		trait = diligent
 		trait = education_diplomacy_3
 	}
+	1861.7.1 = {
+		effect = {
+			spawn_army = {
+				name = royal_army
+				men_at_arms = {
+					type = house_guard
+					stacks = 6
+				}
+				men_at_arms = {
+					type = light_horsemen
+					stacks = 6
+				}
+				location = province:1527
+				origin = province:1527
+				inheritable = yes
+			}
+			spawn_army = {
+				name = home_army
+				levies = 6000
+				men_at_arms = {
+					type = handgunners
+					stacks = 160
+				}
+				men_at_arms = {
+					type = bombard
+					stacks = 20
+				}
+				location = province:1527
+				origin = province:1527
+				inheritable = yes
+			}
+		}
+	}
 	1901.1.22 = {
 		death = yes
 	}

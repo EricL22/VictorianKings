@@ -34,7 +34,8 @@
 
  #Holy Sites
  holy_site_holland_name:0 "Holland"
- holy_site_holland_effect_name:0 "From [holy_site|E] #weak ($holy_site_rome_name$)#!"
+ holy_site_nanjing_name: "Nanjing"
+ holy_site_guangzhou_name: "Guangzhou"
 
  #Tenets
  tenet_protestant_literalism_name: "Sola Scriptura"

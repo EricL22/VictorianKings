@@ -555,6 +555,7 @@ bourbon_37 = {
 	1833.9.29 = {
 		effect = {
 			set_realm_capital = title:c_madrid
+			random_character_war = { save_scope_as = history_war }
 			spawn_army = {
 				name = ejercito_cristino_del_centro
 				levies = 10000
@@ -581,19 +582,23 @@ bourbon_37 = {
 				location = province:1923
 				origin = province:1923
 			}
-			spawn_army = {
-				name = ejercito_del_norte
-				men_at_arms = {
-					type = armored_footmen
-					stacks = 120
+			if = {
+				limit = { exists = scope:history_war }
+				spawn_army = {
+					name = ejercito_del_norte
+					men_at_arms = {
+						type = armored_footmen
+						stacks = 120
+					}
+					men_at_arms = {
+						type = bombard
+						stacks = 300
+					}
+					location = province:1862
+					origin = province:1862
+					inheritable = no
+					war = scope:history_war
 				}
-				men_at_arms = {
-					type = bombard
-					stacks = 300
-				}
-				location = province:1862
-				origin = province:1862
-				inheritable = no
 			}
 		}
 	}

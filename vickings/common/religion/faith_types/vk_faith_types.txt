@@ -42,8 +42,8 @@ godworship = {
 	}
 
 	holy_sites = {
-		cologne
-		holland
+		nanjing
+		guangzhou
 	}
 
 	doctrines = {
