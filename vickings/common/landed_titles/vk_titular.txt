@@ -110,6 +110,7 @@ d_warsaw = {
 	color = { 150 23 23 }
 	
 	capital = c_czerska
+	ignore_titularity_for_title_weighting = yes
 }
 
 k_hanover = {
