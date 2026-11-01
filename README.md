@@ -10,4 +10,4 @@ This repository is open to any Github user to create issues, forks, and pull req
 2. Comment on the issue or notify me through any means that you want to work on the issue, and I'll assign it to you.
 3. Fork the repo, and create a new personal branch to implement the issue. My own convention is to use the naming scheme `issue_[issue number]`.
 4. Once you have committed to the branch and are satisfied with it, you may create a [pull request](https://github.com/EricL22/VictorianKings/pulls) and link it to your issue.
-5. I will personally review any open pull requests and merge them.
+5. I will personally review any open pull requests and merge them. I may suggest edits to your PR to make them more in line with the mod's established coding conventions.
