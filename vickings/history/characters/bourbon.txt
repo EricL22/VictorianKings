@@ -824,11 +824,19 @@ bourbon_48 = {
 	1810.1.12 = {
 		birth = yes
 	}
+	1826.1.12 = {
+		trait = arrogant
+		trait = arbitrary
+		trait = diligent
+	}
 	1830.11.8 = {
 		effect = {
 			add_realm_law_skip_effects = crown_authority_1
 			add_realm_law_skip_effects = male_only_law
 		}
+	}
+	1832.11.21 = {
+		add_spouse = savoy_32	# Maria Cristina of Savoy
 	}
 	1859.5.22 = {
 		death = yes
@@ -841,6 +849,7 @@ bourbon_49 = {
 	rite = roman_rite
 	culture = sicilian
 	father = bourbon_48
+	mother = savoy_32
 	1836.1.16 = {
 		birth = yes
 	}

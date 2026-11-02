@@ -7,6 +7,7 @@
 # ALBANIA          #
 # AUSTRIA          #
 # PRUSSIA          #
+# SWEDEN           #
 # SWITZERLAND      #
 ####################
 
@@ -685,6 +686,27 @@ eur_07100 = {
 		give_council_position = councillor_chancellor
 	}
 	1822.11.26 = {
+		death = yes
+	}
+}
+####################
+
+
+
+####################
+# SWEDEN #
+####################
+# 1812 bookmark
+eur_08100 = {
+	name = "DE_sirE_e"
+	dynasty = clary
+	culture = french
+	rite = roman_rite
+	female = yes
+	1777.11.8 = {
+		birth = yes
+	}
+	1860.12.17 = {
 		death = yes
 	}
 }

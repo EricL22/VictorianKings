@@ -394,3 +394,68 @@ vk_history_setup_persistent_adoption_effect = {
 		character:matsudaira_88 = { set_father = character:matsudaira_87 }
 	}
 }
+
+# Setup historical pregnancy outcome with time to birth and outcome bias (called from mother's scope)
+# (note that the actual character creation is handled in the historical_pregnancy_effect)
+vk_history_pregnancy_random_birth_effect = {
+	random_list = {
+		200 = { #All goes smoothly!
+			add_character_flag = {
+				flag = birth_will_go_smoothly
+				days = 270
+			}
+			trigger_event = {
+				id = birth.0001
+				days = $DAYS$
+			}
+		}
+		3 = { #Child dies during delivery
+			random_dummy_gender_effect = yes
+			trigger_event = {
+				id = birth.3001
+				days = $DAYS$
+			}
+		}
+		2 = { #Mother dies
+			modifier = {
+				factor = var:historical_pregnancy_bias_mother_death
+				has_variable = historical_pregnancy_bias_mother_death
+			}
+			add_character_flag = {
+				flag = birth_mother_will_die
+				days = 270
+			}
+			trigger_event = {
+				id = birth.3011
+				days = $DAYS$
+			}
+		}
+		2 = { #Mother and child dies
+			random_dummy_gender_effect = yes
+			trigger_event = {
+				id = birth.3021
+				days = $DAYS$
+			}
+		}
+		10 = { #Sickly child
+			add_character_flag = {
+				flag = birth_child_will_become_sickly
+				days = 270
+			}
+			trigger_event = {
+				id = birth.0001
+				days = $DAYS$
+			}
+		}
+		5 = { #Ill mother
+			add_character_flag = {
+				flag = birth_mother_will_become_ill
+				days = 270
+			}
+			trigger_event = {
+				id = birth.0001
+				days = $DAYS$
+			}
+		}
+	}
+}

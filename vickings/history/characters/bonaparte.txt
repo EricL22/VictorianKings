@@ -43,6 +43,7 @@ bonaparte_2 = {
 	culture = french
 	trait = just
 	trait = ambitious
+	trait = brave
 	trait = intellect_good_1
 	trait = education_martial_4
 	trait = organizer

@@ -61,3 +61,8 @@ talleyrand = {
 	name = "dynn_Talleyrand_PE_rigord"
 	culture = "french"
 }
+
+clary = {
+	name = "dynn_Clary"
+	culture = "french"
+}

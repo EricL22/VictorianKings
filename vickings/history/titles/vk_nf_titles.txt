@@ -187,7 +187,7 @@ d_nf_orange = {
 	}
 }
 
-d_nf_saxe_coburg = {
+d_nf_saxe_coburg_belgium = {
 	1831.7.21 = {
 		liege = k_belgium
 		holder = wettin_40	# Leopold I

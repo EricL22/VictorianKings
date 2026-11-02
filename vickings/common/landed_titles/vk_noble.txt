@@ -187,7 +187,7 @@ d_nf_orange = {
 	ai_primary_priority = { add = @never_primary_score }
 }
 
-d_nf_saxe_coburg = {
+d_nf_saxe_coburg_belgium = {
 	color = { 100 100 100 }
 	capital = c_brabant
 

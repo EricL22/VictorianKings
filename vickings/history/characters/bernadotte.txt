@@ -6,6 +6,9 @@
 	1763.1.26 = {
 		birth = yes
 	}
+	1798.8.17 = {
+		add_spouse = eur_08100	# Désirée Clary
+	}
 	1810.11.2 = {
 		employer = oldenburg_28	# Charles XIII of Sweden
 	}
@@ -29,6 +32,7 @@ bernadotte_1 = {
 	rite = roman_rite
 	culture = french
 	father = bernadotte_0
+	mother = eur_08100
 	1799.7.4 = {
 		birth = yes
 	}

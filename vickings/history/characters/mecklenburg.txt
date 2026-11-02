@@ -4,6 +4,7 @@ mecklenburg_0 = {
 	dynasty = 101893
 	rite = lutheran_rite
 	culture = german
+	father = mecklenburg_36
 	1588.12.15 = {
 		birth = yes
 	}
@@ -266,6 +267,105 @@ mecklenburg_23 = {
 		birth = yes
 	}
 	1810.7.19 = {
+		death = yes
+	}
+}
+
+## Connectors
+mecklenburg_30 = {
+	name = "Magnus"	# I of Mecklenburg
+	dynasty = 101893
+	rite = roman_rite
+	culture = saxon
+	father = 451980
+	1345.1.1 = {
+		birth = yes
+	}
+	1384.9.1 = {
+		death = yes
+	}
+}
+
+mecklenburg_31 = {
+	name = "Johann"	# IV of Mecklenburg
+	dynasty = 101893
+	rite = roman_rite
+	culture = saxon
+	father = mecklenburg_30
+	1370.1.1 = {
+		birth = yes
+	}
+	1422.10.16 = {
+		death = yes
+	}
+}
+
+mecklenburg_32 = {
+	name = "Hinrik"	# IV of Mecklenburg
+	dynasty = 101893
+	rite = roman_rite
+	culture = saxon
+	father = mecklenburg_31
+	1417.1.1 = {
+		birth = yes
+	}
+	1477.3.9 = {
+		death = yes
+	}
+}
+
+mecklenburg_33 = {
+	name = "Magnus"	# II of Mecklenburg
+	dynasty = 101893
+	rite = roman_rite
+	culture = saxon
+	father = mecklenburg_32
+	1441.1.1 = {
+		birth = yes
+	}
+	1503.11.20 = {
+		death = yes
+	}
+}
+
+mecklenburg_34 = {
+	name = "Albrecht"	# VII of Mecklenburg
+	dynasty = 101893
+	rite = roman_rite
+	culture = saxon
+	father = mecklenburg_33
+	1486.7.25 = {
+		birth = yes
+	}
+	1547.1.5 = {
+		death = yes
+	}
+}
+
+mecklenburg_35 = {
+	name = "Johann_Albrecht"	# I of Mecklenburg
+	dynasty = 101893
+	rite = lutheran_rite
+	culture = german
+	father = mecklenburg_34
+	1525.12.23 = {
+		birth = yes
+	}
+	1576.2.12 = {
+		death = yes
+	}
+}
+
+mecklenburg_36 = {
+	name = "Johann"	# VII of Mecklenburg
+	dynasty = 101893
+	rite = lutheran_rite
+	culture = german
+	father = mecklenburg_35
+	1558.3.7 = {
+		birth = yes
+	}
+	1592.3.22 = {
 		death = yes
 	}
 }

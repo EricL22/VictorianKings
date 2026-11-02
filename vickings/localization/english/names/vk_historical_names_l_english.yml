@@ -151,6 +151,7 @@
  Friedrich_Franz: "Friedrich Franz"
  Friedrich_Ludwig: "Friedrich Ludwig"
  Georg_Wilhelm: "Georg Wilhelm"
+ Johann_Albrecht: "Johann Albrecht"
  Karl_Leopold: "Karl Leopold"
  Karl_Ludwig_Friedrich: "Karl Ludwig Friedrich"
  Luise_Karoline: "Luise Karoline"
@@ -193,5 +194,9 @@
 
  ## Latin compound names
  # Italian
+ Maria_Cristina: "Maria Cristina"
  Maria_Teresa: "Maria Teresa"
+
+ # French
+ DE_sirE_e: "Désirée"
  

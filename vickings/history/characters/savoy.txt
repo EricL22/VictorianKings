@@ -468,3 +468,43 @@ savoy_31 = {
 		death = yes
 	}
 }
+
+savoy_32 = {
+	name = "Maria_Cristina"	# Queen of the Two Sicilies
+	dynasty = 240
+	rite = roman_rite
+	culture = italian
+	father = savoy_18
+	female = yes
+	trait = shy
+	trait = temperate
+	trait = humble
+	1812.11.14 = {
+		birth = yes
+	}
+	1836.1.1 = {
+		trait = pregnant	# was with child in 1836 bookmark
+		effect = {
+			set_variable = {
+				name = historical_pregnancy_start
+				value = 669954 # ~1835.4.11
+			}
+			set_variable = {
+				name = historical_pregnancy
+				value = flag:francis
+				years = 1 # fallback cleanup
+			}
+			set_variable = {
+				name = historical_pregnancy_bias_mother_death
+				value = 50
+				years = 1 # fallback cleanup
+			}
+			vk_history_pregnancy_random_birth_effect = { DAYS = 15 } # 1836.1.16
+		}
+	}
+	1836.1.31 = {
+		death = {
+			death_reason = death_childbirth
+		}
+	}
+}

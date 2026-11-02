@@ -403,7 +403,7 @@ wettin_39 = {
 
 wettin_40 = {
 	name = "Leopold"	# I of Belgium
-	dynasty_house = house_saxe_coburg
+	dynasty_house = house_saxe_coburg_belgium
 	rite = lutheran_rite
 	culture = franconian
 	father = wettin_30
@@ -420,7 +420,7 @@ wettin_40 = {
 
 wettin_41 = {
 	name = "Leopold"	# II of Belgium
-	dynasty_house = house_saxe_coburg
+	dynasty_house = house_saxe_coburg_belgium
 	rite = roman_rite
 	culture = french
 	father = wettin_40
@@ -444,7 +444,7 @@ wettin_41 = {
 
 wettin_42 = {
 	name = "Philippe"	# Count of Flanders
-	dynasty_house = house_saxe_coburg
+	dynasty_house = house_saxe_coburg_belgium
 	rite = roman_rite
 	culture = french
 	father = wettin_40
@@ -459,7 +459,7 @@ wettin_42 = {
 
 wettin_43 = {
 	name = "Albert"	# I of Belgium
-	dynasty_house = house_saxe_coburg
+	dynasty_house = house_saxe_coburg_belgium
 	rite = roman_rite
 	culture = french
 	father = wettin_42
@@ -473,7 +473,7 @@ wettin_43 = {
 
 wettin_44 = {
 	name = "Leopold"	# III of Belgium
-	dynasty_house = house_saxe_coburg
+	dynasty_house = house_saxe_coburg_belgium
 	rite = roman_rite
 	culture = french
 	father = wettin_43
