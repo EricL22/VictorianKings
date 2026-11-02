@@ -436,6 +436,21 @@ hohenzollern_23 = {
 	}
 }
 
+hohenzollern_24 = {
+	name = "Wilhelmine"	# Queen of the Netherlands
+	dynasty = 12476
+	rite = reformed_rite
+	culture = german
+	father = hohenzollern_15
+	female = yes
+	1774.11.18 = {
+		birth = yes
+	}
+	1837.10.12 = {
+		death = yes
+	}
+}
+####################
 
 ## Catholic Swabian branch
 hohenzollern_30 = {

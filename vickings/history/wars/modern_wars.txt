@@ -29,9 +29,13 @@ war = {
 	name = "war_Carlist"
 	start_date = 1833.9.29
 	end_date = 1840.7.6
-	casus_belli = depose_war
+	targeted_titles = {
+		k_spain
+	}
+	casus_belli = claim_cb
 	attackers = { bourbon_40 eur_02302 eur_02303 }
 	defenders = { bourbon_37 }
+	claimant = bourbon_40
 }
 
 # Cambodian conflict

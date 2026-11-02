@@ -114,8 +114,11 @@
  
  ## Central German compound names
  # Franconian
+ Anton_Ulrich: "Anton Ulrich"
  Ernst_Casimir: "Ernst Casimir"
+ Ernst_Friedrich: "Ernst Friedrich"
  Ernst_Ludwig: "Ernst Ludwig"
+ Franz_Josias: "Franz Josias"
  Friedrich_August: "Friedrich August"
  Friedrich_Wilhelm: "Friedrich Wilhelm"
  Heinrich_Casimir: "Heinrich Casimir"
@@ -164,12 +167,15 @@
  August_Philipp: "August Philipp"
  Christian_Albrecht: "Christian Albrecht"
  Christian_August: "Christian August"
- Frederik_August: "Frederik_August"
+ Ernst_August: "Ernst August"
+ Frederik_August: "Frederik August"
  Frederik_Christian: "Frederik Christian"
  Frederik_Ludwig: "Frederik Ludwig"
  Friedrich_Karl_Ludwig: "Friedrich Karl Ludwig"
  Georg_Ludwig: "Georg Ludwig"
  Johann_Adolf: "Johann Adolf"
+ Johann_Frederik: "Johann Frederik"
+ Johann_Wilhelm: "Johann Wilhelm"
  Karl_Alexander: "Karl Alexander"
  Karl_Anton_August: "Karl Anton August"
  Karl_Frederik: "Karl Frederik"
@@ -184,4 +190,8 @@
  # English
  Charles_Edward: "Charles Edward"
  Ernest_Augustus: "Ernest Augustus"
+
+ ## Latin compound names
+ # Italian
+ Maria_Teresa: "Maria Teresa"
  

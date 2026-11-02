@@ -1,4 +1,7 @@
 d_meissen = {
+	1694.4.27 = {
+		holder = wettin_137	# Augustus II the Strong
+	}
 	1733.2.1 = {
 		holder = wettin_10	# Augustus III of Poland
 	}

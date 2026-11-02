@@ -739,7 +739,7 @@ bourbon_43 = {
 }
 
 bourbon_44 = {
-	name = "Maria Teresa"	# of naples and sicily, Holy Roman Empress
+	name = "Maria_Teresa"	# of naples and sicily, Holy Roman Empress
 	dynasty_house = house_tts
 	rite = roman_rite
 	culture = sicilian
@@ -936,6 +936,21 @@ bourbon_55 = {
 		death = yes
 	}
 }
+
+bourbon_56 = {
+	name = "Luisa"	# Infanta of Spain
+	dynasty = 100146
+	rite = roman_rite
+	culture = castilian
+	father = bourbon_36
+	female = yes
+	1832.1.30 = {
+		birth = yes
+	}
+	1897.2.2 = {
+		death = yes
+	}
+}
 ####################
 
 ## Bourbon-Parma
@@ -1011,6 +1026,56 @@ bourbon_64 = {
 		birth = yes
 	}
 	1907.11.16 = {
+		death = yes
+	}
+}
+####################
+
+## Orleans continued
+bourbon_70 = {
+	name = "Antoine"	# Duke of Montpensier
+	dynasty_house = house_orleans_4
+	rite = roman_rite
+	culture = french
+	father = bourbon_23
+	mother = bourbon_46
+	1824.7.31 = {
+		birth = yes
+	}
+	1846.10.10 = {
+		add_spouse = bourbon_56	# Infanta Luisa Fernanda of Spain
+	}
+	1890.2.4 = {
+		death = yes
+	}
+}
+
+bourbon_71 = {
+	name = "FranC_ois"	# Prince of Joinville
+	dynasty_house = house_orleans_4
+	rite = roman_rite
+	culture = french
+	father = bourbon_23
+	mother = bourbon_46
+	1818.8.14 = {
+		birth = yes
+	}
+	1900.6.16 = {
+		death = yes
+	}
+}
+
+bourbon_72 = {
+	name = "Henri"	# Duke of Aumale
+	dynasty_house = house_orleans_4
+	rite = roman_rite
+	culture = french
+	father = bourbon_23
+	mother = bourbon_46
+	1822.1.16 = {
+		birth = yes
+	}
+	1897.5.7 = {
 		death = yes
 	}
 }

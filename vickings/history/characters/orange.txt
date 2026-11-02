@@ -7,6 +7,9 @@
 	1772.8.24 = {
 		birth = yes
 	}
+	1791.10.1 = {
+		add_spouse = hohenzollern_24	# Wilhelmine of Prussia
+	}
 	1812.1.1 = {
 		effect = {
 			dynasty = { add_dynasty_prestige = 2000 }
@@ -23,6 +26,7 @@ orange_1 = {
 	rite = reformed_rite
 	culture = dutch
 	father = orange_0
+	mother = hohenzollern_24
 	1792.12.6 = {
 		birth = yes
 	}
@@ -71,6 +75,21 @@ orange_4 = {
 		birth = yes
 	}
 	2004.3.20 = {
+		death = yes
+	}
+}
+
+orange_5 = {
+	name = "Frederik"	# Prince of the Netherlands
+	dynasty_house = house_orange_nassau
+	rite = reformed_rite
+	culture = dutch
+	father = orange_0
+	mother = hohenzollern_24
+	1797.2.28 = {
+		birth = yes
+	}
+	1881.9.8 = {
 		death = yes
 	}
 }

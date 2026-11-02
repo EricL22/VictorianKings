@@ -618,6 +618,21 @@ habsburg_42 = {
 		death = yes
 	}
 }
+
+habsburg_43 = {
+	name = "Maria_Teresa"	# Queen of Sardinia
+	dynasty_house = house_habsburg
+	rite = roman_rite
+	culture = italian
+	father = habsburg_40
+	female = yes
+	1801.3.21 = {
+		birth = yes
+	}
+	1855.1.12 = {
+		death = yes
+	}
+}
 ####################
 
 ## Habsburg-Este

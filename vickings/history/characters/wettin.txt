@@ -136,10 +136,11 @@ wettin_9 = {
 }
 
 wettin_10 = {
-	name = "Frederik_August"	# Elector of Saxony
+	name = "Frederik_August"	# II, Elector of Saxony
 	dynasty_house = house_wettin
 	rite = roman_rite
 	culture = saxon
+	father = wettin_137
 	1696.10.17 = {
 		birth = yes
 	}
@@ -168,6 +169,7 @@ wettin_20 = {
 	dynasty_house = house_saxe_weimar
 	rite = lutheran_rite
 	culture = saxon
+	father = wettin_111
 	1757.9.3 = {
 		birth = yes
 	}
@@ -251,6 +253,7 @@ wettin_30 = {
 	dynasty_house = house_saxe_coburg
 	rite = lutheran_rite
 	culture = franconian
+	father = wettin_115
 	1750.7.15 = {
 		birth = yes
 	}
@@ -487,7 +490,8 @@ wettin_50 = {
 	name = "Adelheid"
 	dynasty_house = house_saxe_meiningen
 	rite = lutheran_rite
-	culture = saxon
+	culture = franconian
+	father = wettin_118
 	female = yes
 	1792.8.13 = {
 		birth = yes
@@ -543,7 +547,8 @@ wettin_60 = {
 	name = "Therese"
 	dynasty_house = house_wettin
 	rite = lutheran_rite
-	culture = saxon
+	culture = franconian
+	father = wettin_123
 	female = yes
 	1792.7.8 = {
 		birth = yes
@@ -626,6 +631,433 @@ wettin_74 = {
 		birth = yes
 	}
 	1948.9.10 = {
+		death = yes
+	}
+}
+
+## Connectors
+wettin_100 = {
+	name = "Frederik"	# I, Elector of Saxony
+	dynasty_house = house_wettin
+	rite = roman_rite
+	culture = saxon
+	father = 462403
+	1370.4.11 = {
+		birth = yes
+	}
+	1428.1.4 = {
+		death = yes
+	}
+}
+
+wettin_101 = {
+	name = "Frederik"	# II, Elector of Saxony
+	dynasty_house = house_wettin
+	rite = roman_rite
+	culture = saxon
+	father = wettin_100
+	1412.8.22 = {
+		birth = yes
+	}
+	1464.9.7 = {
+		death = yes
+	}
+}
+
+# Ernestine branch
+wettin_102 = {
+	name = "Ernst"	# Elector of Saxony
+	dynasty_house = house_wettin
+	rite = roman_rite
+	culture = saxon
+	father = wettin_101
+	1441.3.24 = {
+		birth = yes
+	}
+	1486.8.26 = {
+		death = yes
+	}
+}
+# (to Saxe-Weimar)
+wettin_103 = {
+	name = "Johann"	# Elector of Saxony
+	dynasty_house = house_wettin
+	rite = lutheran_rite
+	culture = saxon
+	father = wettin_102
+	1468.6.30 = {
+		birth = yes
+	}
+	1532.8.16 = {
+		death = yes
+	}
+}
+wettin_104 = {
+	name = "Johann_Frederik"	# Elector of Saxony
+	dynasty_house = house_wettin
+	rite = lutheran_rite
+	culture = saxon
+	father = wettin_103
+	1503.6.30 = {
+		birth = yes
+	}
+	1554.3.3 = {
+		death = yes
+	}
+}
+wettin_105 = {
+	name = "Johann_Wilhelm"	# Duke of Saxe-Weimar
+	dynasty_house = house_wettin
+	rite = lutheran_rite
+	culture = saxon
+	father = wettin_104
+	1530.3.11 = {
+		birth = yes
+	}
+	1573.3.2 = {
+		death = yes
+	}
+}
+wettin_106 = {
+	name = "Johann"	# II of Saxe-Weimar
+	dynasty_house = house_wettin
+	rite = lutheran_rite
+	culture = saxon
+	father = wettin_105
+	1570.5.22 = {
+		birth = yes
+	}
+	1605.7.18 = {
+		death = yes
+	}
+}
+wettin_107 = {
+	name = "Wilhelm"	# Duke of Saxe-Weimar
+	dynasty_house = house_wettin
+	rite = lutheran_rite
+	culture = saxon
+	father = wettin_106
+	1598.4.11 = {
+		birth = yes
+	}
+	1662.5.17 = {
+		death = yes
+	}
+}
+wettin_108 = {
+	name = "Johann_Ernst"	# II of Saxe-Weimar
+	dynasty_house = house_wettin
+	rite = lutheran_rite
+	culture = saxon
+	father = wettin_107
+	1627.9.11 = {
+		birth = yes
+	}
+	1683.5.15 = {
+		death = yes
+	}
+}
+wettin_109 = {
+	name = "Johann_Ernst"	# III of Saxe-Weimar
+	dynasty_house = house_wettin
+	rite = lutheran_rite
+	culture = saxon
+	father = wettin_108
+	1664.6.22 = {
+		birth = yes
+	}
+	1707.5.10 = {
+		death = yes
+	}
+}
+wettin_110 = {
+	name = "Ernst_August"	# I of Saxe-Weimar-Eisenach
+	dynasty_house = house_wettin
+	rite = lutheran_rite
+	culture = saxon
+	father = wettin_109
+	1688.4.19 = {
+		birth = yes
+	}
+	1748.1.19 = {
+		death = yes
+	}
+}
+wettin_111 = {
+	name = "Ernst_August"	# II of Saxe-Weimar-Eisenach
+	dynasty_house = house_wettin
+	rite = lutheran_rite
+	culture = saxon
+	father = wettin_110
+	1737.6.2 = {
+		birth = yes
+	}
+	1758.5.28 = {
+		death = yes
+	}
+}
+# (to Saxe-Coburg)
+wettin_112 = {
+	name = "Ernst"	# I of Saxe-Gotha
+	dynasty_house = house_wettin
+	rite = lutheran_rite
+	culture = saxon
+	father = wettin_106
+	1601.12.25 = {
+		birth = yes
+	}
+	1675.3.26 = {
+		death = yes
+	}
+}
+wettin_113 = {
+	name = "Johann_Ernst"	# IV of Saxe-Coburg-Saalfeld
+	dynasty_house = house_saxe_coburg
+	rite = lutheran_rite
+	culture = franconian
+	father = wettin_112
+	1658.8.22 = {
+		birth = yes
+	}
+	1729.2.17 = {
+		death = yes
+	}
+}
+wettin_114 = {
+	name = "Franz_Josias"	# Duke of Saxe-Coburg-Saalfeld
+	dynasty_house = house_saxe_coburg
+	rite = lutheran_rite
+	culture = franconian
+	father = wettin_113
+	1697.9.25 = {
+		birth = yes
+	}
+	1764.9.16 = {
+		death = yes
+	}
+}
+wettin_115 = {
+	name = "Ernst_Friedrich"	# Duke of Saxe-Coburg-Saalfeld
+	dynasty_house = house_saxe_coburg
+	rite = lutheran_rite
+	culture = franconian
+	father = wettin_114
+	1724.3.8 = {
+		birth = yes
+	}
+	1800.9.8 = {
+		death = yes
+	}
+}
+# (to Saxe-Meiningen)
+wettin_116 = {
+	name = "Bernhard"	# I of Saxe-Meiningen
+	dynasty_house = house_saxe_meiningen
+	rite = lutheran_rite
+	culture = franconian
+	father = wettin_112
+	1649.9.10 = {
+		birth = yes
+	}
+	1706.4.27 = {
+		death = yes
+	}
+}
+wettin_117 = {
+	name = "Anton_Ulrich"	# Duke of Saxe-Meiningen
+	dynasty_house = house_saxe_meiningen
+	rite = lutheran_rite
+	culture = franconian
+	father = wettin_116
+	1687.10.22 = {
+		birth = yes
+	}
+	1763.1.27 = {
+		death = yes
+	}
+}
+wettin_118 = {
+	name = "Georg"	# I of Saxe-Meiningen
+	dynasty_house = house_saxe_meiningen
+	rite = lutheran_rite
+	culture = franconian
+	father = wettin_117
+	1761.2.4 = {
+		birth = yes
+	}
+	1803.12.24 = {
+		death = yes
+	}
+}
+# (to Saxe-Hildburghausen)
+wettin_119 = {
+	name = "Ernst"	# Duke of Saxe-Hildburghausen
+	dynasty_house = house_wettin
+	rite = lutheran_rite
+	culture = franconian
+	father = wettin_112
+	1655.6.12 = {
+		birth = yes
+	}
+	1715.10.17 = {
+		death = yes
+	}
+}
+wettin_120 = {
+	name = "Ernst_Friedrich"	# I of Saxe-Hildburghausen
+	dynasty_house = house_wettin
+	rite = lutheran_rite
+	culture = franconian
+	father = wettin_119
+	1681.8.21 = {
+		birth = yes
+	}
+	1724.3.9 = {
+		death = yes
+	}
+}
+wettin_121 = {
+	name = "Ernst_Friedrich"	# II of Saxe-Hildburghausen
+	dynasty_house = house_wettin
+	rite = lutheran_rite
+	culture = franconian
+	father = wettin_120
+	1707.12.17 = {
+		birth = yes
+	}
+	1745.8.13 = {
+		death = yes
+	}
+}
+wettin_122 = {
+	name = "Ernst_Friedrich"	# III of Saxe-Hildburghausen
+	dynasty_house = house_wettin
+	rite = lutheran_rite
+	culture = franconian
+	father = wettin_121
+	1727.6.10 = {
+		birth = yes
+	}
+	1780.9.23 = {
+		death = yes
+	}
+}
+wettin_123 = {
+	name = "Friedrich"	# Duke of Saxe-Altenburg
+	dynasty_house = house_wettin
+	rite = lutheran_rite
+	culture = franconian
+	father = wettin_122
+	1763.4.29 = {
+		birth = yes
+	}
+	1834.9.29 = {
+		death = yes
+	}
+}
+
+# Albertine branch
+wettin_130 = {
+	name = "Albrecht"	# III of Saxony
+	dynasty_house = house_wettin
+	rite = roman_rite
+	culture = saxon
+	father = wettin_101
+	1443.7.31 = {
+		birth = yes
+	}
+	1500.9.12 = {
+		death = yes
+	}
+}
+wettin_131 = {
+	name = "Heimrich"	# IV of Saxony
+	dynasty_house = house_wettin
+	rite = roman_rite
+	culture = saxon
+	father = wettin_130
+	1473.3.16 = {
+		birth = yes
+	}
+	1541.8.18 = {
+		death = yes
+	}
+}
+wettin_132 = {
+	name = "August"	# Elector of Saxony
+	dynasty_house = house_wettin
+	rite = roman_rite
+	culture = saxon
+	father = wettin_131
+	1526.7.31 = {
+		birth = yes
+	}
+	1586.2.11 = {
+		death = yes
+	}
+}
+wettin_133 = {
+	name = "Christian"	# I of Saxony
+	dynasty_house = house_wettin
+	rite = roman_rite
+	culture = saxon
+	father = wettin_132
+	1560.10.29 = {
+		birth = yes
+	}
+	1591.9.25 = {
+		death = yes
+	}
+}
+wettin_134 = {
+	name = "Johann_Georg"	# I of Saxony
+	dynasty_house = house_wettin
+	rite = roman_rite
+	culture = saxon
+	father = wettin_133
+	1585.3.5 = {
+		birth = yes
+	}
+	1656.10.8 = {
+		death = yes
+	}
+}
+wettin_135 = {
+	name = "Johann_Georg"	# II of Saxony
+	dynasty_house = house_wettin
+	rite = roman_rite
+	culture = saxon
+	father = wettin_134
+	1613.5.31 = {
+		birth = yes
+	}
+	1680.8.22 = {
+		death = yes
+	}
+}
+wettin_136 = {
+	name = "Johann_Georg"	# III of Saxony
+	dynasty_house = house_wettin
+	rite = roman_rite
+	culture = saxon
+	father = wettin_135
+	1647.6.20 = {
+		birth = yes
+	}
+	1691.9.12 = {
+		death = yes
+	}
+}
+wettin_137 = {
+	name = "Frederik_August"	# I, Elector of Saxony
+	dynasty_house = house_wettin
+	rite = roman_rite
+	culture = saxon
+	father = wettin_136
+	1670.5.12 = {
+		birth = yes
+	}
+	1733.2.1 = {
 		death = yes
 	}
 }

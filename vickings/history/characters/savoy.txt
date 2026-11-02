@@ -375,6 +375,9 @@ savoy_25 = {
 	1798.10.2 = {
 		birth = yes
 	}
+	1817.9.30 = {
+		add_spouse = habsburg_43	# Maria Theresa of Tuscany
+	}
 	1849.10.14 = {
 		death = yes
 	}
@@ -386,6 +389,7 @@ savoy_26 = {
 	rite = roman_rite
 	culture = italian
 	father = savoy_25
+	mother = habsburg_43
 	1820.3.14 = {
 		birth = yes
 	}
@@ -395,11 +399,12 @@ savoy_26 = {
 }
 
 savoy_27 = {
-	name = "Ferdinando"
+	name = "Ferdinando"	# Duke of Genoa
 	dynasty_house = house_carignano
 	rite = roman_rite
 	culture = italian
 	father = savoy_25
+	mother = habsburg_43
 	1822.11.15 = {
 		birth = yes
 	}
