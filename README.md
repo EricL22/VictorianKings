@@ -6,7 +6,7 @@ The file vk\_changelist.txt contains an exhaustive documentation of every change
 
 ## How to Contribute
 This repository is open to any Github user to create issues, forks, and pull requests. The workflow is as follows:
-1. Create an [issue](https://github.com/EricL22/VictorianKings/issues) describing a specific bug you'd like to fix, or a feature you'd like to add. Remember to assign the correct labels for ease of searching.
+1. Create an [issue](https://github.com/EricL22/VictorianKings/issues) describing a specific bug you'd like to fix, or a feature you'd like to add.
 2. Comment on the issue or notify me through any means that you want to work on the issue, and I'll assign it to you. You may claim any open issue, including the ones you have created, as long as you comment on them.
 3. Fork the repo, and create a new personal branch to implement the issue. My own convention is to use the naming scheme `issue_[issue number]`.
 4. Once you have committed to the branch and are satisfied with it, you may create a [pull request](https://github.com/EricL22/VictorianKings/pulls) to the `main` branch and link it to your issue.
