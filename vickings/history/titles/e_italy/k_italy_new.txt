@@ -1,6 +1,9 @@
 k_italy = {
 	1805.6.5 = {
 		holder = bonaparte_30	# Eugene de Beauharnais
+		effect = {
+			update_dynamic_coa = yes
+		}
 	}
 	1814.4.11 = {
 		holder = 0

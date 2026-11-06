@@ -283,7 +283,7 @@ nanbu_21 = {
 	}
 	1821.9.17 = {
 		death = {
-			death_reason = death_snapped_neck_climbing_tree
+			death_reason = death_fall
 		}
 	}
 }

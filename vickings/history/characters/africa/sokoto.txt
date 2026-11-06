@@ -1,9 +1,10 @@
 ﻿sokoto_0 = {
-	name = "Usman dan Fodio"
+	name = "Usman_dan_Fodio"
 	#dynasty = 1030002
 	rite = maliki
 	culture = pulaar
 	trait = zealous
+	trait = education_learning_4
 	1754.12.15 = {
 		birth = yes
 	}
@@ -13,11 +14,12 @@
 }
 
 sokoto_1 = {
-	name = "Muhammed Bello"
+	name = "Muhammed_Bello"
 	#dynasty = 1030002
 	rite = maliki
 	culture = pulaar
 	father = sokoto_0
+	trait = education_stewardship_4
 	1781.11.3 = {
 		birth = yes
 	}
@@ -27,7 +29,7 @@ sokoto_1 = {
 }
 
 sokoto_2 = {
-	name = "Abu Bakr"	# I of Sokoto
+	name = "Abu_Bakr"	# I of Sokoto
 	#dynasty = 1030002
 	rite = maliki
 	culture = pulaar
@@ -41,7 +43,7 @@ sokoto_2 = {
 }
 
 sokoto_3 = {
-	name = "Ali Babba"
+	name = "Ali_Babba"
 	#dynasty = 1030002
 	rite = maliki
 	culture = pulaar
@@ -69,7 +71,7 @@ sokoto_4 = {
 }
 
 sokoto_5 = {
-	name = "Aliyu Karami"
+	name = "Aliyu_Karami"
 	#dynasty = 1030002
 	rite = maliki
 	culture = pulaar
@@ -83,7 +85,7 @@ sokoto_5 = {
 }
 
 sokoto_6 = {
-	name = "Ahmadu Rufai"
+	name = "Ahmadu_Rufai"
 	#dynasty = 1030002
 	rite = maliki
 	culture = pulaar
@@ -97,7 +99,7 @@ sokoto_6 = {
 }
 
 sokoto_7 = {
-	name = "Abu Bakr"	# II of Sokoto
+	name = "Abu_Bakr"	# II of Sokoto
 	#dynasty = 1030002
 	rite = maliki
 	culture = pulaar
@@ -139,7 +141,7 @@ sokoto_9 = {
 }
 
 sokoto_10 = {
-	name = "Abdur Rahman"
+	name = "Abdur_Rahman"
 	#dynasty = 1030002
 	rite = maliki
 	culture = pulaar
@@ -153,7 +155,7 @@ sokoto_10 = {
 }
 
 sokoto_11 = {
-	name = "Muhammadu Attahiru"	# I of Sokoto
+	name = "Muhammadu_Attahiru"	# I of Sokoto
 	#dynasty = 1030002
 	rite = maliki
 	culture = pulaar
@@ -167,7 +169,7 @@ sokoto_11 = {
 }
 
 sokoto_12 = {
-	name = "Muhammadu Maiturare"
+	name = "Muhammadu_Maiturare"
 	#dynasty = 1030002
 	rite = maliki
 	culture = pulaar

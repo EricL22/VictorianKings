@@ -1,0 +1,152 @@
+﻿jenkinson = {
+    name = "dynn_Jenkinson"
+    culture = "english"
+}
+
+grenville = {
+    name = "dynn_Grenville"
+    culture = "english"
+}
+
+bentham = {
+    name = "dynn_Bentham"
+    culture = "english"
+}
+
+grey = {
+    name = "dynn_Grey"
+    culture = "english"
+}
+
+lamb = {
+    name = "dynn_Lamb"
+    culture = "english"
+}
+
+peel = {
+    name = "dynn_Peel"
+    culture = "english"
+}
+
+molesworth = {
+    name = "dynn_Molesworth"
+    culture = "english"
+}
+
+petty = {
+    name = "dynn_Petty"
+    culture = "english"
+}
+
+stewart = {
+    name = "dynn_Stewart"
+    culture = "english"
+}
+
+#1861
+
+temple = {
+    name = "dynn_Temple"
+    culture = "english"
+}
+
+russell = {
+    name = "dynn_Russell"
+    culture = "english"
+}
+
+disraeli = {
+    name = "dynn_Disraeli"
+    culture = "english"
+}
+
+cecil = {
+    name = "dynn_Cecil"
+    culture = "english"
+}
+
+#Scottish
+
+campbell4 = {
+    name = "dynn_Campbell"
+    culture = "scottish"
+}
+
+lennox = {
+    name = "dynn_Lennox"
+    culture = "scottish"
+}
+
+# Additional subject dynasties
+wingate = {
+	name = "dynn_Wingate"
+	culture = "english"
+}
+lugard = {
+	name = "dynn_Lugard"
+	culture = "english"
+}
+maxwell = {
+	name = "dynn_Maxwell"
+	culture = "scottish"
+}
+campbell3 = {
+	name = "dynn_Campbell"
+	culture = "scottish"
+}
+maclean = {
+	name = "dynn_Maclean"
+	culture = "scottish"
+}
+hill = {
+	name = "dynn_Hill"
+	culture = "english"
+}
+merewether = {
+	name = "dynn_Merewether"
+	culture = "english"
+}
+andrews = {
+	name = "dynn_Andrews"
+	culture = "english"
+}
+clifford = {
+	name = "dynn_Clifford"
+	culture = "english"
+}
+archer = {
+	name = "dynn_Archer"
+	culture = "english"
+}
+elliot_mk = {
+	name = "dynn_Elliot_MK"
+	culture = "english"
+}
+rawdon_hastings = {
+	name = "dynn_Rawdon_Hastings"
+	culture = "english"
+}
+eden = {
+	name = "dynn_Eden"
+	culture = "english"
+}
+brownrigg = {
+	name = "dynn_Brownrigg"
+	culture = "english"
+}
+wilmot_horton = {
+	name = "dynn_Wilmot_Horton"
+	culture = "english"
+}
+maccarthy = {
+	name = "dynn_Maccarthy"
+	culture = "english"
+}
+chalmers = {
+	name = "dynn_Chalmers"
+	culture = "english"
+}
+raffles = {
+	name = "dynn_Raffles"
+	culture = "english"
+}

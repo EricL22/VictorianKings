@@ -17,3 +17,28 @@ e_france = {
 		coat_of_arms = k_france_republic
 	}
 }
+
+k_italy = {
+	item = {
+		trigger = {
+			exists = holder
+			holder.culture = culture:french
+			exists = title:e_france.holder
+			OR = {
+				holder.top_liege = title:e_france.holder
+				holder = { is_independent_ruler = yes }
+			}
+		}
+		coat_of_arms = k_italy_napoleonic
+	}
+}
+
+e_italy = {
+	item = {
+		trigger = {
+			exists = holder
+			holder.culture = { has_cultural_pillar = heritage_latin }
+		}
+		coat_of_arms = e_italy_unified
+	}
+}

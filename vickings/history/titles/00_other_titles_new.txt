@@ -295,6 +295,7 @@ e_italy = {
 		insert_title_history = k_sardinia
 		government = administrative_government
 		effect = {
+			update_dynamic_coa = yes
 			if = {
 				limit = {
 					exists = holder

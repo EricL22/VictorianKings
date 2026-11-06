@@ -141,7 +141,10 @@ romanov_6 = {
 				origin = province:169
 				inheritable = yes
 				uses_supply = no
-				#save_temporary_scope_as = new_armee
+				save_temporary_scope_as = new_armee
+			}
+			scope:new_armee = {
+				assign_commander = character:eur_09100	# Mikhail Kutuzov
 			}
 
 			# Second Western Army
@@ -161,7 +164,10 @@ romanov_6 = {
 				inheritable = no
 				uses_supply = no
 				war = scope:history_war
-				#save_temporary_scope_as = new_armee
+				save_temporary_scope_as = new_armee
+			}
+			scope:new_armee = {
+				assign_commander = character:eur_09101	# Pyotr Bagration
 			}
 
 			# Third Western Army - Third Reserve Army of Observation merged with the Army of the Danube

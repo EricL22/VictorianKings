@@ -1,15 +1,4 @@
 ﻿l_english:
- Qizheng:0 "Narimasa"
- Qimin:0 "Naritoshi"
- Qisu:0 "Naritaka"
- Changpu:0 "Nagahiro"
- Laide:0 "Yorinori"
- Qizhuang:0 "Naritaka"
- Zhongqi:0 "Tadakata"
- Zhongfa:0 "Tadaaki"
- Zhengyang:0 "Masakiyo"
- Changguang:0 "Masahiro"
-
  Phuc_Anh:0 "Phúc Ánh"
  Phuc_Dam:0 "Phúc Đảm"
  Phuc_Mien_Tong:0 "Phúc Miên Tông"
@@ -104,6 +93,8 @@
 
  Carlos: "Carlos"
  JosE_: "José"
+ 
+ Nikolay: "Nikolay"
 
  Gowri_Lakshmi_Bayi: "Gowri Lakshmi Bayi"
  Svati_Tirunal_Rama_Varma: "Svati Tirunal Rama Varma"
@@ -111,6 +102,15 @@
  Gowri_Rukmini_Bayi: "Gowri Rukmini Bayi"
  Ayilyam_Thirunal: "Ayilyam Thirunal"
  Visakham_Thirunal: "Visakham Thirunal"
+ 
+ Usman_dan_Fodio: "Usman dan Fodio"
+ Muhammed_Bello: "Muhammed Bello"
+ Ali_Babba: "Ali Babba"
+ Aliyu_Karami: "Aliyu Karami"
+ Ahmadu_Rufai: "Ahmadu Rufai"
+ Abdur_Rahman: "Abdur Rahman"
+ Muhammadu_Attahiru: "Muhammadu Attahiru"
+ Muhammadu_Maiturare: "Muhammadu Maiturare"
  
  ## Central German compound names
  # Franconian

@@ -112,7 +112,7 @@ barakzai_7 = {
 }
 
 barakzai_8 = {
-	name = "Abdur Rahman"
+	name = "Abdur_Rahman"
 	dynasty = barakzai
 	rite = hanafi
 	culture = afghan

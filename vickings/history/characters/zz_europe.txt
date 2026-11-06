@@ -8,6 +8,7 @@
 # AUSTRIA          #
 # PRUSSIA          #
 # SWEDEN           #
+# RUSSIA           #
 # SWITZERLAND      #
 ####################
 
@@ -737,6 +738,53 @@ eur_08100 = {
 		birth = yes
 	}
 	1860.12.17 = {
+		death = yes
+	}
+}
+####################
+
+
+
+####################
+# RUSSIA #
+####################
+# 1812 bookmark
+eur_09100 = {
+	name = "Mikhail"
+	dynasty = kutuzov
+	culture = russian
+	rite = slavic_rite
+	trait = brave
+	trait = patient
+	trait = gregarious
+	trait = education_martial_3
+	trait = flexible_leader
+	trait = shrewd
+	trait = strong
+	1745.9.16 = {
+		birth = yes
+	}
+	1813.4.28 = {
+		death = yes
+	}
+}
+eur_09101 = {
+	name = "Pyotr"
+	dynasty = 507
+	culture = georgian
+	rite = slavic_rite
+	trait = brave
+	trait = calm
+	trait = stubborn
+	trait = education_martial_3
+	trait = organizer
+	1765.7.10 = {
+		birth = yes
+	}
+	1802.1.1 = {
+		employer = romanov_6	# Alexander I
+	}
+	1812.9.24 = {
 		death = yes
 	}
 }
