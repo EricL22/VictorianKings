@@ -1,3 +1,7 @@
+1.0.1----------
+Added historical special buildings: London Bridge, the Forbidden City, Alcázar of Segovia, Notre-Dame
+Expanded historical dynasties: the Wettins, Niklotids, and European Queens
+Fix an edge case regarding personal union independence when the inheritor is unlanded
 1.0------------
 Completely rebuilt the mod from the ground up. Note that most gameplay features that were present in earlier versions have been removed, outside of a small set of events/decisions.
 Fixed compatibility for the 1.20 update and ported over the updated vanilla map

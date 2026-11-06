@@ -1,0 +1,64 @@
+﻿# character just about to die in root scope
+# if a killer is know, it's set as scope:killer
+#Triggered by code
+
+on_death = {
+	on_actions = {
+		vk_on_death_effects
+	}
+}
+vk_on_death_effects = {
+	effect = {
+		# Fix for when a PU title should gain independence but no inheritable county to land the title's heir
+		# It gives the heir a single county title to make them landed before executing the main transfer logic
+		# in evaluate_personal_union_independence_effect
+		if = {
+			limit = {
+				# a personal union title has a different heir than the primary one
+				any_heir = {
+					NOT = { is_primary_heir_of = root }
+					any_heir_title = {
+						save_temporary_scope_as = pu_title
+						is_target_in_global_variable_list = { name = personal_union target = this }
+						has_variable = pu_target
+					}
+				}
+				NOT = {
+					any_realm_county = {
+						target_is_de_jure_liege_or_above = scope:pu_title
+						holder = root
+					}
+				}
+			}
+			random_heir = {
+				limit = {
+					NOT = { is_primary_heir_of = root }
+					any_heir_title = {
+						is_target_in_global_variable_list = { name = personal_union target = this }
+						has_variable = pu_target
+					}
+				}
+				save_temporary_scope_as = pu_heir
+				random_heir_title = {
+					limit = {
+						is_target_in_global_variable_list = { name = personal_union target = this }
+						has_variable = pu_target
+					}
+					save_temporary_scope_as = pu_title
+				}
+			}
+			create_title_and_vassal_change = {
+				type = usurped
+				save_scope_as = change
+			}
+			random_realm_county = {
+				limit = { target_is_de_jure_liege_or_above = scope:pu_title }
+				change_title_holder = {
+					holder = scope:pu_heir
+					change = scope:change
+				}
+			}
+			resolve_title_and_vassal_change = scope:change
+		}
+	}
+}

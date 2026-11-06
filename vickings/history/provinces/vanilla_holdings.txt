@@ -1,4 +1,18 @@
-﻿10774 = { # MATOMAI
+﻿###c_middlesex
+1526 = {	#Southwark
+	1209.1.1 = {
+		special_building = london_bridge_01
+	}
+}
+###c_cuellar
+1924 = {	# SEGOVIA
+	1587.1.1 = { special_building = alcazar_of_segovia_01 }
+}
+###c_ile_de_france
+2333 = {	#PARIS
+	1345.1.1 = { special_building = notre_dame_01 }
+}
+10774 = { # MATOMAI
 	1606.1.1 = {
 		holding = castle_holding
 	}

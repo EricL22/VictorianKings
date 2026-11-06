@@ -71,6 +71,20 @@ eur_01010 = {
 	}
 }
 
+# Patriarch of Clary family
+eur_01011 = {
+	name = "FranC_ois"
+	dynasty = clary
+	culture = french
+	rite = roman_rite
+	1725.2.24 = {
+		birth = yes
+	}
+	1794.1.20 = {
+		death = yes
+	}
+}
+
 # 1812 bookmark
 eur_01100 = {
 	name = "Charles-Maurice"
@@ -328,6 +342,21 @@ eur_02102 = {
 		employer = eur_02100
 	}
 	1847.2.15 = {
+		death = yes
+	}
+}
+
+eur_02103 = {
+	name = "Julie"
+	dynasty = clary
+	culture = french
+	rite = roman_rite
+	father = eur_01011
+	female = yes
+	1771.12.26 = {
+		birth = yes
+	}
+	1845.4.7 = {
 		death = yes
 	}
 }
@@ -702,6 +731,7 @@ eur_08100 = {
 	dynasty = clary
 	culture = french
 	rite = roman_rite
+	father = eur_01011
 	female = yes
 	1777.11.8 = {
 		birth = yes

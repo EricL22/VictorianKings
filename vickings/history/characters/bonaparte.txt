@@ -188,6 +188,9 @@ bonaparte_4 = {
 	1768.1.7 = {
 		birth = yes
 	}
+	1794.8.1 = {
+		add_spouse = eur_02103	# Julie Clary
+	}
 	1804.5.19 = {	# workaround to prevent being set as house head
 		effect = { set_house = character:bonaparte_2.house }
 	}

@@ -68,6 +68,8 @@ vk_initialize_history_rules_effects = {
 		if = {
 			limit = { has_tgp_dlc_trigger = yes }
 
+			title:b_ji.title_province = { add_great_building = forbidden_city_01 }
+
 			### MANDALA
 
 			#Starting Mandala Temple Complexes
