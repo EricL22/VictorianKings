@@ -2368,6 +2368,33 @@ Sim_Sang-gyu = {
 	}
 }
 
+Sim_Neung-ak = {
+	name = "Neung-ak"
+	dynasty = korean_sim_cheongsong
+	rite = daoxue
+	culture = goryeo
+	1766.1.1 = {
+		birth = yes
+	}
+	1844.1.1 = {
+		death = yes
+	}
+}
+
+Sim_Ui-sin = {
+	name = "Ui-sin"
+	dynasty = korean_sim_cheongsong
+	rite = daoxue
+	culture = goryeo
+	father = Sim_Neung-ak
+	1791.1.1 = {
+		birth = yes
+	}
+	1845.1.1 = {
+		death = yes
+	}
+}
+
 #Pungcheon No Clan
 No_Ik-dong = {
 	name = "Ik-dong"
