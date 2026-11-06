@@ -45,6 +45,117 @@ joseon_2 = {
 	}
 }
 
+Yi_Si-seo = {
+	name = "Si-seo"
+	dynasty = korean_i_jeonju
+	rite = daoxue
+	culture = goryeo
+	1706.1.1 = {
+		birth = yes
+	}
+	1756.1.1 = {
+		death = yes
+	}
+}
+
+Yi_Deuk-il = {
+	name = "Deuk-il"
+	dynasty = korean_i_jeonju
+	rite = daoxue
+	culture = goryeo
+	father = Yi_Si-seo
+	1726.1.1 = {
+		birth = yes
+	}
+	1774.1.1 = {
+		death = yes
+	}
+}
+
+Yi_Sang-hwang = {
+	name = "Sang-hwang"
+	dynasty = korean_i_jeonju
+	rite = daoxue
+	culture = goryeo
+	father = Yi_Deuk-il
+	1763.1.1 = {
+		birth = yes
+	}
+	1841.1.1 = {
+		death = yes
+	}
+}
+
+Yi_Mun-yeong = {
+	name = "Mun-yeong"
+	dynasty = korean_i_jeonju
+	rite = daoxue
+	culture = goryeo
+	father = Yi_Sang-hwang
+	1788.1.1 = {
+		birth = yes
+	}
+	1850.1.1 = {
+		death = yes
+	}
+}
+
+Yi_Min-yeong = {
+	name = "Min-yeong"
+	dynasty = korean_i_jeonju
+	rite = daoxue
+	culture = goryeo
+	father = Yi_Sang-hwang
+	1790.1.1 = {
+		birth = yes
+	}
+	1852.1.1 = {
+		death = yes
+	}
+}
+
+Yi_Gye-yeong = {
+	name = "Gye-yeong"
+	dynasty = korean_i_jeonju
+	rite = daoxue
+	culture = goryeo
+	father = Yi_Sang-hwang
+	1812.1.1 = {
+		birth = yes
+	}
+	1832.1.1 = {
+		death = yes
+	}
+}
+
+Yi_Chi-u = {
+	name = "Chi-u"
+	dynasty = korean_i_jeonju
+	rite = daoxue
+	culture = goryeo
+	father = Yi_Sang-hwang
+	1827.1.1 = {
+		birth = yes
+	}
+	1871.1.1 = {
+		death = yes
+	}
+}
+
+Yi_Gyu-ui = {
+	name = "Gyu-ui"
+	dynasty = korean_i_jeonju
+	rite = daoxue
+	culture = goryeo
+	father = Yi_Chi-u
+	1848.1.1 = {
+		birth = yes
+	}
+	1880.1.1 = {
+		death = yes
+	}
+}
+
 joseon_3 = {
 	name = "Do"
 	dynasty = korean_i_jeonju
@@ -1880,15 +1991,379 @@ Min_Chi-gu_3rd_daughter = {
 }
 
 #Cheongsong Sim Clan
+Sim_Sun-mun = {
+	name = "Sun-mun"
+	dynasty = korean_sim_cheongsong
+	rite = daoxue
+	culture = goryeo
+	1465.1.1 = {
+		birth = yes
+	}
+	1504.1.1 = {
+		death = yes
+	}
+}
+
+Sim_Yeon-won = {
+	name = "Yeon-won"
+	dynasty = korean_sim_cheongsong
+	rite = daoxue
+	culture = goryeo
+	father = Sim_Sun-mun
+	1491.1.1 = {
+		birth = yes
+	}
+	1558.1.1 = {
+		death = yes
+	}
+}
+
+Sim_Gang = {
+	name = "Gang"
+	dynasty = korean_sim_cheongsong
+	rite = daoxue
+	culture = goryeo
+	father = Sim_Yeon-won
+	1517.1.1 = {
+		birth = yes
+	}
+	1567.1.1 = {
+		death = yes
+	}
+}
+
+Sim_Ui-gyeom = {
+	name = "Ui-gyeom"
+	dynasty = korean_sim_cheongsong
+	rite = daoxue
+	culture = goryeo
+	father = Sim_Gang
+	1535.1.1 = {
+		birth = yes
+	}
+	1587.1.1 = {
+		death = yes
+	}
+}
+
+Sim_Eom = {
+	name = "Eom"
+	dynasty = korean_sim_cheongsong
+	rite = daoxue
+	culture = goryeo
+	father = Sim_Ui-gyeom
+	1563.1.1 = {
+		birth = yes
+	}
+	1624.1.1 = {
+		death = yes
+	}
+}
+
+Sim_Gwang-se = {
+	name = "Gwang-se"
+	dynasty = korean_sim_cheongsong
+	rite = daoxue
+	culture = goryeo
+	father = Sim_Eom
+	1577.1.1 = {
+		birth = yes
+	}
+	1624.1.1 = {
+		death = yes
+	}
+}
+
+Sim_Eun = {
+	name = "Eun"
+	dynasty = korean_sim_cheongsong
+	rite = daoxue
+	culture = goryeo
+	father = Sim_Gwang-se
+	1595.1.1 = {
+		birth = yes
+	}
+	1626.1.1 = {
+		death = yes
+	}
+}
+
+Sim_Yak-myeong = {
+	name = "Yak-myeong"
+	dynasty = korean_sim_cheongsong
+	rite = daoxue
+	culture = goryeo
+	father = Sim_Eun
+	1621.1.1 = {
+		birth = yes
+	}
+	1671.1.1 = {
+		death = yes
+	}
+}
+
+Sim_Sok = {
+	name = "Sok"
+	dynasty = korean_sim_cheongsong
+	rite = daoxue
+	culture = goryeo
+	father = Sim_Yak-myeong
+	1653.1.1 = {
+		birth = yes
+	}
+	1693.1.1 = {
+		death = yes
+	}
+}
+
+Sim_Deuk-hyeon = {
+	name = "Deuk-hyeon"
+	dynasty = korean_sim_cheongsong
+	rite = daoxue
+	culture = goryeo
+	father = Sim_Sok
+	1682.1.1 = {
+		birth = yes
+	}
+	1755.1.1 = {
+		death = yes
+	}
+}
+
+Sim_Gwan = {
+	name = "Gwan"
+	dynasty = korean_sim_cheongsong
+	rite = daoxue
+	culture = goryeo
+	father = Sim_Deuk-hyeon
+	1711.1.1 = {
+		birth = yes
+	}
+	1756.1.1 = {
+		death = yes
+	}
+}
+
+Sim_Ik-ji = {
+	name = "Ik-ji"
+	dynasty = korean_sim_cheongsong
+	rite = daoxue
+	culture = goryeo
+	father = Sim_Gwan
+	1749.1.1 = {
+		birth = yes
+	}
+	1779.1.1 = {
+		death = yes
+	}
+}
+
+Sim_Neung-jik = {
+	name = "Neung-jik"
+	dynasty = korean_sim_cheongsong
+	rite = daoxue
+	culture = goryeo
+	father = Sim_Ik-ji
+	1770.1.1 = {
+		birth = yes
+	}
+	1825.1.1 = {
+		death = yes
+	}
+}
+
+Sim_Ui-pil = {
+	name = "Ui-pil"
+	dynasty = korean_sim_cheongsong
+	rite = daoxue
+	culture = goryeo
+	father = Sim_Neung-jik
+	1791.1.1 = {
+		birth = yes
+	}
+	1831.1.1 = {
+		death = yes
+	}
+}
+
 Sim_Eung-taek = {
 	name = "Eung-taek"
 	dynasty = korean_sim_cheongsong
 	rite = daoxue
 	culture = goryeo
+	father = Sim_Ui-pil
 	1815.1.1 = {
 		birth = yes
 	}
 	1880.1.1 = {
+		death = yes
+	}
+}
+
+Sim_Dal-won = {
+	name = "Dal-wonn"
+	dynasty = korean_sim_cheongsong
+	rite = daoxue
+	culture = goryeo
+	father = Sim_Sun-mun
+	1494.1.1 = {
+		birth = yes
+	}
+	1535.1.1 = {
+		death = yes
+	}
+}
+
+Sim_Ja = {
+	name = "Ja"
+	dynasty = korean_sim_cheongsong
+	rite = daoxue
+	culture = goryeo
+	father = Sim_Dal-won
+	1518.1.1 = {
+		birth = yes
+	}
+	1578.1.1 = {
+		death = yes
+	}
+}
+
+Sim_U-jeong = {
+	name = "U-jeong"
+	dynasty = korean_sim_cheongsong
+	rite = daoxue
+	culture = goryeo
+	father = Sim_Ja
+	1546.1.1 = {
+		birth = yes
+	}
+	1599.1.1 = {
+		death = yes
+	}
+}
+
+Sim_Jip = {
+	name = "Jip"
+	dynasty = korean_sim_cheongsong
+	rite = daoxue
+	culture = goryeo
+	father = Sim_U-jeong
+	1569.1.1 = {
+		birth = yes
+	}
+	1644.1.1 = {
+		death = yes
+	}
+}
+
+Sim_Dong-gwi = {
+	name = "Dong-gwi"
+	dynasty = korean_sim_cheongsong
+	rite = daoxue
+	culture = goryeo
+	father = Sim_U-jeong
+	1594.1.1 = {
+		birth = yes
+	}
+	1660.1.1 = {
+		death = yes
+	}
+}
+
+Sim_Yu = {
+	name = "Yu"
+	dynasty = korean_sim_cheongsong
+	rite = daoxue
+	culture = goryeo
+	father = Sim_Dong-gwi
+	1620.1.1 = {
+		birth = yes
+	}
+	1688.1.1 = {
+		death = yes
+	}
+}
+
+Sim_Han-ju = {
+	name = "Han-ju"
+	dynasty = korean_sim_cheongsong
+	rite = daoxue
+	culture = goryeo
+	father = Sim_Yu
+	1646.1.1 = {
+		birth = yes
+	}
+	1714.1.1 = {
+		death = yes
+	}
+}
+
+Sim_Bong-hwi = {
+	name = "Bong-hwi"
+	dynasty = korean_sim_cheongsong
+	rite = daoxue
+	culture = goryeo
+	father = Sim_Han-ju
+	1666.1.1 = {
+		birth = yes
+	}
+	1734.1.1 = {
+		death = yes
+	}
+}
+
+Sim_Seong-hui = {
+	name = "Seong-hui"
+	dynasty = korean_sim_cheongsong
+	rite = daoxue
+	culture = goryeo
+	father = Sim_Bong-hwi
+	1684.1.1 = {
+		birth = yes
+	}
+	1747.1.1 = {
+		death = yes
+	}
+}
+
+Sim_Gong-heon = {
+	name = "Gong-heon"
+	dynasty = korean_sim_cheongsong
+	rite = daoxue
+	culture = goryeo
+	father = Sim_Seong-hui
+	1710.1.1 = {
+		birth = yes
+	}
+	1742.1.1 = {
+		death = yes
+	}
+}
+
+Sim_Yeom-jo = {
+	name = "Yeom-jo"
+	dynasty = korean_sim_cheongsong
+	rite = daoxue
+	culture = goryeo
+	father = Sim_Gong-heon
+	1734.1.1 = {
+		birth = yes
+	}
+	1783.1.1 = {
+		death = yes
+	}
+}
+
+Sim_Sang-gyu = {
+	name = "Sang-gyu"
+	dynasty = korean_sim_cheongsong
+	rite = daoxue
+	culture = goryeo
+	father = Sim_Yeom-jo
+	1766.1.1 = {
+		birth = yes
+	}
+	1838.1.1 = {
 		death = yes
 	}
 }
