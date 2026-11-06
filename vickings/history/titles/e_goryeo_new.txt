@@ -98,13 +98,17 @@ k_yongson_throne = {
 }
 
 c_tamna = {
-	1800.8.18 = {	# Korea
+	1834.7.1 = {
 		holder = Bak_Jang-bok
 		liege = d_naju
 	}
 }
 
 c_ulleong = {
+	1836.1.1 = {
+		holder = Im_Jang-hui
+		liege = d_donggye
+	}
 }
 
 # BUKGYE
@@ -150,15 +154,27 @@ d_gyeongju = {
 }
 
 c_gyeongju = {
+	1834.7.1 = {
+		holder = Yun_Chi-gyeom
+	}
 }
 
 c_sangju = {
+	1835.1.1 = {
+		holder = Yi_Chwi-jae
+	}
 }
 
 c_ilseon = {
+	1834.12.1 = {
+		holder = Jo_Byeong-hyeon
+	}
 }
 
 c_andong = {
+	1833.12.27 = {
+		holder = Yi_Yak-u
+	}
 }
 
 # JIN_JU
@@ -170,15 +186,27 @@ d_jinju = {
 }
 
 c_ulju = {
+	1835.9.1 = {
+		holder = Min_Yeong-hun
+	}
 }
 
 c_hamyang = {
+	1834.1.1 = {
+		holder = Hong_Jang-seop
+	}
 }
 
 c_guemju = {
+	1834.1.1 = {
+		holder = Sin_Jae-geon
+	}
 }
 
 c_jinju = {
+	1835.1.1 = {
+		holder = Bak_Je-sang
+	}
 }
 
 # JEON_JU
@@ -327,4 +355,22 @@ c_pyeongju = {
 }
 
 c_gokju = {
+}
+
+d_BAL_southern_balhae = {
+	1835.1.1 = {
+		holder = Hong_Gyeong-mo
+	}
+}
+
+c_BAL_namhae = {
+}
+
+c_BAL_fengzhou = {
+}
+
+c_BAL_southyongwon = {	
+}
+
+c_BAL_northyongwon = {
 }
