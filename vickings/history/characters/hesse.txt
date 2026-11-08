@@ -1,7 +1,9 @@
 ﻿hesse_0 = {
 	name = "Ludwig"		# I of Hesse
+	dynasty_house = house_hesse_darmstadt
 	rite = lutheran_rite
 	culture = franconian
+	father = hesse_37
 	1753.6.14 = {
 		birth = yes
 	}
@@ -12,6 +14,7 @@
 
 hesse_1 = {
 	name = "Ludwig"		# II of Hesse
+	dynasty_house = house_hesse_darmstadt
 	rite = lutheran_rite
 	culture = franconian
 	father = hesse_0
@@ -25,6 +28,7 @@ hesse_1 = {
 
 hesse_2 = {
 	name = "Ludwig"		# III of Hesse
+	dynasty_house = house_hesse_darmstadt
 	rite = lutheran_rite
 	culture = franconian
 	father = hesse_1
@@ -38,6 +42,7 @@ hesse_2 = {
 
 hesse_3 = {
 	name = "Karl"		# prince of Hesse
+	dynasty_house = house_hesse_darmstadt
 	rite = lutheran_rite
 	culture = franconian
 	father = hesse_1
@@ -51,6 +56,7 @@ hesse_3 = {
 
 hesse_4 = {
 	name = "Ludwig"		# IV of Hesse
+	dynasty_house = house_hesse_darmstadt
 	rite = lutheran_rite
 	culture = franconian
 	father = hesse_3
@@ -64,6 +70,7 @@ hesse_4 = {
 
 hesse_5 = {
 	name = "Ernst_Ludwig"		# of Hesse
+	dynasty_house = house_hesse_darmstadt
 	rite = lutheran_rite
 	culture = franconian
 	father = hesse_4
@@ -75,11 +82,32 @@ hesse_5 = {
 	}
 }
 
+hesse_6 = {
+	name = "Maria"		# princess of Hesse
+	dynasty_house = house_hesse_darmstadt
+	rite = lutheran_rite
+	culture = franconian
+	father = hesse_1
+	female = yes
+	1824.8.8 = {
+		birth = yes
+	}
+	1841.4.28 = {
+		rite = slavic_rite
+		culture = russian
+	}
+	1880.6.3 = {
+		death = yes
+	}
+}
+####################
 
 hesse_10 = {
 	name = "Friedrich"	# II of Hesse-Kassel
+	dynasty_house = house_hesse_kassel
 	rite = reformed_rite
 	culture = franconian
+	father = hesse_30
 	1720.8.14 = {
 		birth = yes
 	}
@@ -93,6 +121,7 @@ hesse_10 = {
 
 hesse_11 = {
 	name = "Karl"	# of Hesse-Kassel
+	dynasty_house = house_hesse_kassel
 	rite = lutheran_rite
 	culture = danish
 	father = hesse_10
@@ -110,6 +139,7 @@ hesse_11 = {
 # Wife of Frederick VI (Denmark)
 hesse_12 = {
 	name = "Maria"	# of Hesse-Kassel
+	dynasty_house = house_hesse_kassel
 	rite = lutheran_rite
 	culture = danish
 	father = hesse_11
@@ -125,6 +155,7 @@ hesse_12 = {
 
 hesse_13 = {
 	name = "Wilhelm" 	# I, Elector of Hesse
+	dynasty_house = house_hesse_kassel
 	rite = reformed_rite
 	culture = franconian
 	father =  hesse_10
@@ -138,6 +169,7 @@ hesse_13 = {
 
 hesse_14 = {
 	name = "Wilhelm" 	# II, Elector of Hesse
+	dynasty_house = house_hesse_kassel
 	rite = reformed_rite
 	culture = franconian
 	father = hesse_13
@@ -151,6 +183,7 @@ hesse_14 = {
 
 hesse_15 = {
 	name = "Friedrich_Wilhelm" 	# Elector of Hesse
+	dynasty_house = house_hesse_kassel
 	rite = reformed_rite
 	culture = franconian
 	father = hesse_14
@@ -165,6 +198,7 @@ hesse_15 = {
 # Mother of Christian IX (Denmark)
 hesse_16 = {
 	name = "Luise_Karoline"
+	dynasty_house = house_hesse_kassel
 	rite = lutheran_rite
 	culture = german
 	father = hesse_11
@@ -177,3 +211,263 @@ hesse_16 = {
 		death = yes
 	}
 }
+####################
+
+## Connectors
+hesse_20 = {
+	name = "Hermann" 	# II of Hesse
+	dynasty = 7198
+	rite = roman_rite
+	culture = franconian
+	father = 33403
+	1342.1.1 = {
+		birth = yes
+	}
+	1413.6.10 = {
+		death = yes
+	}
+}
+
+hesse_21 = {
+	name = "Ludwig" 	# I, Landgrave of Hesse
+	dynasty = 7198
+	rite = roman_rite
+	culture = franconian
+	father = hesse_20
+	1402.2.6 = {
+		birth = yes
+	}
+	1458.1.17 = {
+		death = yes
+	}
+}
+
+hesse_22 = {
+	name = "Ludwig" 	# II of Lower Hesse
+	dynasty = 7198
+	rite = roman_rite
+	culture = franconian
+	father = hesse_21
+	1438.9.7 = {
+		birth = yes
+	}
+	1471.11.8 = {
+		death = yes
+	}
+}
+
+hesse_23 = {
+	name = "Wilhelm" 	# II, Landgrave of Hesse
+	dynasty = 7198
+	rite = roman_rite
+	culture = franconian
+	father = hesse_22
+	1469.4.29 = {
+		birth = yes
+	}
+	1509.7.11 = {
+		death = yes
+	}
+}
+
+hesse_24 = {
+	name = "Philipp" 	# I of Hesse
+	dynasty = 7198
+	rite = lutheran_rite
+	culture = franconian
+	father = hesse_23
+	1504.11.13 = {
+		birth = yes
+	}
+	1567.3.31 = {
+		death = yes
+	}
+}
+
+# (to Hesse-Kassel)
+hesse_25 = {
+	name = "Wilhelm" 	# IV of Hesse-Kassel
+	dynasty_house = house_hesse_kassel
+	rite = lutheran_rite
+	culture = franconian
+	father = hesse_24
+	1532.6.24 = {
+		birth = yes
+	}
+	1592.8.25 = {
+		death = yes
+	}
+}
+
+hesse_26 = {
+	name = "Moritz" 	# Landgrave of Hesse-Kassel
+	dynasty_house = house_hesse_kassel
+	rite = lutheran_rite
+	culture = franconian
+	father = hesse_25
+	1572.5.25 = {
+		birth = yes
+	}
+	1605.1.1 = {
+		rite = reformed_rite
+	}
+	1632.3.15 = {
+		death = yes
+	}
+}
+
+hesse_27 = {
+	name = "Wilhelm" 	# V of Hesse-Kassel
+	dynasty_house = house_hesse_kassel
+	rite = reformed_rite
+	culture = franconian
+	father = hesse_26
+	1602.2.13 = {
+		birth = yes
+	}
+	1637.9.21 = {
+		death = yes
+	}
+}
+
+hesse_28 = {
+	name = "Wilhelm" 	# VI of Hesse-Kassel
+	dynasty_house = house_hesse_kassel
+	rite = reformed_rite
+	culture = franconian
+	father = hesse_27
+	1629.5.23 = {
+		birth = yes
+	}
+	1663.7.16 = {
+		death = yes
+	}
+}
+
+hesse_29 = {
+	name = "Karl" 	# I of Hesse-Kassel
+	dynasty_house = house_hesse_kassel
+	rite = reformed_rite
+	culture = franconian
+	father = hesse_28
+	1654.8.3 = {
+		birth = yes
+	}
+	1730.3.23 = {
+		death = yes
+	}
+}
+
+hesse_30 = {
+	name = "Wilhelm" 	# VIII of Hesse-Kassel
+	dynasty_house = house_hesse_kassel
+	rite = reformed_rite
+	culture = franconian
+	father = hesse_29
+	1682.3.10 = {
+		birth = yes
+	}
+	1760.2.1 = {
+		death = yes
+	}
+}
+
+# (to Hesse-Darmstadt)
+hesse_31 = {
+	name = "Georg" 	# I of Hesse-Darmstadt
+	dynasty_house = house_hesse_darmstadt
+	rite = lutheran_rite
+	culture = franconian
+	father = hesse_24
+	1547.9.10 = {
+		birth = yes
+	}
+	1596.2.7 = {
+		death = yes
+	}
+}
+
+hesse_32 = {
+	name = "Ludwig" 	# V of Hesse-Darmstadt
+	dynasty_house = house_hesse_darmstadt
+	rite = lutheran_rite
+	culture = franconian
+	father = hesse_31
+	1577.9.24 = {
+		birth = yes
+	}
+	1626.7.27 = {
+		death = yes
+	}
+}
+
+hesse_33 = {
+	name = "Georg" 	# II of Hesse-Darmstadt
+	dynasty_house = house_hesse_darmstadt
+	rite = lutheran_rite
+	culture = franconian
+	father = hesse_32
+	1605.3.17 = {
+		birth = yes
+	}
+	1661.6.11 = {
+		death = yes
+	}
+}
+
+hesse_34 = {
+	name = "Ludwig" 	# VI of Hesse-Darmstadt
+	dynasty_house = house_hesse_darmstadt
+	rite = lutheran_rite
+	culture = franconian
+	father = hesse_33
+	1630.1.25 = {
+		birth = yes
+	}
+	1678.4.24 = {
+		death = yes
+	}
+}
+
+hesse_35 = {
+	name = "Ernst_Ludwig" 	# Landgrave of Hesse-Darmstadt
+	dynasty_house = house_hesse_darmstadt
+	rite = lutheran_rite
+	culture = franconian
+	father = hesse_34
+	1667.12.15 = {
+		birth = yes
+	}
+	1739.9.12 = {
+		death = yes
+	}
+}
+
+hesse_36 = {
+	name = "Ludwig" 	# VIII of Hesse-Darmstadt
+	dynasty_house = house_hesse_darmstadt
+	rite = lutheran_rite
+	culture = franconian
+	father = hesse_35
+	1691.4.5 = {
+		birth = yes
+	}
+	1768.10.17 = {
+		death = yes
+	}
+}
+
+hesse_37 = {
+	name = "Ludwig" 	# IX of Hesse-Darmstadt
+	dynasty_house = house_hesse_darmstadt
+	rite = lutheran_rite
+	culture = franconian
+	father = hesse_36
+	1719.12.15 = {
+		birth = yes
+	}
+	1790.4.6 = {
+		death = yes
+	}
+}
+####################

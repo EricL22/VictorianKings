@@ -85,6 +85,7 @@ house_bourbon_parma = {
 }
 
 house_hohen_sigmaringen = {
+	prefix = "dynnp_von"
 	name = "dynn_Hohen_Sigmaringen"
 	dynasty = 12476	# Hohenzollern
 }
@@ -190,6 +191,19 @@ house_kiram = {
 }
 
 house_orange_nassau = {
+	prefix = "dynnp_van"
 	name = "dynn_Orange_Nassau"
 	dynasty = 263	# Nassau
+}
+
+house_hesse_darmstadt = {
+	prefix = "dynnp_von"
+	name = "dynn_Hesse_Darmstadt"
+	dynasty = 7198#Reginar
+}
+
+house_hesse_kassel = {
+	prefix = "dynnp_von"
+	name = "dynn_Hesse_Kassel"
+	dynasty = 7198#Reginar
 }

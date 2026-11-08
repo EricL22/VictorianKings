@@ -238,6 +238,20 @@ eur_01305 = {
 }
 
 # 1861 bookmark
+eur_01400 = {
+	name = "Eugenia"
+	dynasty = montijo
+	culture = castilian
+	rite = roman_rite
+	female = yes
+	1826.5.5 = {
+		birth = yes
+	}
+	1920.7.11 = {
+		death = yes
+	}
+}
+
 # 1914 bookmark
 
 # President of France, 1913-1920

@@ -341,8 +341,11 @@ peninsular_cb = {
 		}
 
 		scope:claimant = {
-			if = { limit = { is_imprisoned = yes }
-			release_from_prison = yes }
+			if = {
+				limit = { is_imprisoned = yes }
+				release_from_prison = yes
+			}
+			add_legitimacy = 500
 		}
 
 		title:k_lusung.holder ?= {

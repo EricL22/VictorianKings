@@ -312,6 +312,9 @@ hohenzollern_18 = {
 	1813.3.22 = {
 		trait = education_martial_2
 	}
+	1829.6.11 = {
+		add_spouse = wettin_26	# Augusta of Saxe-Weimar-Eisenach
+	}
 	1861.7.1 = {
 		effect = {
 			spawn_army = {
@@ -332,7 +335,7 @@ hohenzollern_18 = {
 				name = "Armee-Korps"
 				men_at_arms = {
 					type = handgunners
-					stacks = 56
+					stacks = 112
 				}
 				men_at_arms = {
 					type = bombard
@@ -340,11 +343,11 @@ hohenzollern_18 = {
 				}
 				men_at_arms = {
 					type = light_horsemen
-					stacks = 6
+					stacks = 60
 				}
 				men_at_arms = {
 					type = armored_horsemen
-					stacks = 6
+					stacks = 60
 				}
 				location = province:3158
 				origin = province:3158
@@ -363,8 +366,12 @@ hohenzollern_19 = {
 	rite = lutheran_rite
 	culture = german
 	father = hohenzollern_18
+	mother = wettin_26
 	1831.10.18 = {
 		birth = yes
+	}
+	1858.1.25 = {
+		add_spouse = wettin_53	# Victoria, Princess Royal
 	}
 	1888.6.15 = {
 		death = yes
@@ -377,6 +384,7 @@ hohenzollern_20 = {
 	rite = lutheran_rite
 	culture = german
 	father = hohenzollern_19
+	mother = wettin_53
 	1859.1.27 = {
 		birth = yes
 	}
@@ -447,6 +455,22 @@ hohenzollern_24 = {
 		birth = yes
 	}
 	1837.10.12 = {
+		death = yes
+	}
+}
+
+hohenzollern_25 = {
+	name = "Charlotte"
+	dynasty = 12476
+	rite = lutheran_rite
+	culture = german
+	father = hohenzollern_19
+	mother = wettin_53
+	female = yes
+	1860.7.24 = {
+		birth = yes
+	}
+	1919.10.1 = {
 		death = yes
 	}
 }

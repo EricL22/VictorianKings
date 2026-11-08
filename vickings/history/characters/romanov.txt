@@ -255,6 +255,9 @@ romanov_9 = {
 	1818.4.29 = {
 		birth = yes
 	}
+	1841.4.28 = {
+		add_spouse = hesse_6	# Marie of Hesse
+	}
 	1855.3.2 = {
 		effect = {
 			add_prestige_experience = 100
@@ -275,6 +278,7 @@ romanov_10 = {
 	rite = slavic_rite
 	culture = russian
 	father = romanov_9
+	mother = hesse_6
 	1845.3.10 = {
 		birth = yes
 	}
@@ -356,6 +360,66 @@ romanov_15 = {
 	}
 }
 
+romanov_16 = {
+	name = "Nikolay"	# Tsesarevich of Russia
+	dynasty = 100397
+	rite = slavic_rite
+	culture = russian
+	father = romanov_9
+	mother = hesse_6
+	1843.9.20 = {
+		birth = yes
+	}
+	1865.4.24 = {
+		death = yes
+	}
+}
+
+romanov_17 = {
+	name = "Vladimir"	# Grand Duke of Russia
+	dynasty = 100397
+	rite = slavic_rite
+	culture = russian
+	father = romanov_9
+	mother = hesse_6
+	1847.4.22 = {
+		birth = yes
+	}
+	1909.2.17 = {
+		death = yes
+	}
+}
+
+romanov_18 = {
+	name = "Alexei"	# Grand Duke of Russia
+	dynasty = 100397
+	rite = slavic_rite
+	culture = russian
+	father = romanov_9
+	mother = hesse_6
+	1850.1.14 = {
+		birth = yes
+	}
+	1908.11.14 = {
+		death = yes
+	}
+}
+
+romanov_19 = {
+	name = "Sergei"	# Grand Duke of Russia
+	dynasty = 100397
+	rite = slavic_rite
+	culture = russian
+	father = romanov_9
+	mother = hesse_6
+	1857.5.11 = {
+		birth = yes
+	}
+	1905.2.17 = {
+		death = yes
+	}
+}
+
 # Maria Naryshkina, mistress of Alexander I
 romanov_20 = {
 	name = "Maria"
@@ -383,6 +447,21 @@ romanov_21 = {
 		birth = yes
 	}
 	1824.6.18 = {
+		death = yes
+	}
+}
+
+romanov_30 = {
+	name = "Pavel"	# Grand Duke of Russia
+	dynasty = 100397
+	rite = slavic_rite
+	culture = russian
+	father = romanov_9
+	mother = hesse_6
+	1860.10.3 = {
+		birth = yes
+	}
+	1919.1.28 = {
 		death = yes
 	}
 }

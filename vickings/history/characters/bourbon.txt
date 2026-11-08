@@ -688,6 +688,7 @@ bourbon_41 = {
 	dynasty = 100146
 	rite = roman_rite
 	culture = castilian
+	father = bourbon_51
 	mother = bourbon_37
 	1857.11.28 = {
 		birth = yes
@@ -882,6 +883,9 @@ bourbon_51 = {
 	father = bourbon_50
 	1822.5.13 = {
 		birth = yes
+	}
+	1846.10.10 = {
+		add_spouse = bourbon_37	# Isabella II
 	}
 	1902.4.17 = {
 		death = yes

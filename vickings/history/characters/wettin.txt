@@ -248,6 +248,22 @@ wettin_25 = {
 	}
 }
 
+# Queen of Prussia, 1861
+wettin_26 = {
+	name = "Augusta"	# of Saxe-Weimar-Eisenach
+	dynasty_house = house_saxe_weimar
+	rite = lutheran_rite
+	culture = saxon
+	father = wettin_21
+	female = yes
+	1811.9.30 = {
+		birth = yes
+	}
+	1890.1.7 = {
+		death = yes
+	}
+}
+
 wettin_30 = {
 	name = "Francis"
 	dynasty_house = house_saxe_coburg
@@ -538,6 +554,22 @@ wettin_52 = {
 		dynasty_house = house_windsor
 	}
 	1952.2.6 = {
+		death = yes
+	}
+}
+
+wettin_53 = {
+	name = "Victoria"	# Princess Royal
+	dynasty_house = house_saxe_coburg
+	rite = anglican_rite
+	culture = english
+	father = wettin_33
+	mother = hanover_7
+	female = yes
+	1840.11.21 = {
+		birth = yes
+	}
+	1901.8.5 = {
 		death = yes
 	}
 }

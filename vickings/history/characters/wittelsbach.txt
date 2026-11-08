@@ -1,8 +1,9 @@
 ﻿wittelsbach_0 = {
-	name = "Maximilian_Joseph"	# of Bavaria
+	name = "Maximilian"	# I Joseph of Bavaria
 	dynasty_house = house_wittelsbach
 	rite = roman_rite
 	culture = bavarian
+	father = wittelsbach_20
 	1756.5.27 = {
 		birth = yes
 	}
@@ -145,3 +146,247 @@ wittelsbach_8 = {
 		death = yes
 	}
 }
+
+## Connectors
+wittelsbach_10 = {
+	name = "Ruprecht"	# King of the Romans
+	dynasty_house = house_wittelsbach
+	rite = roman_rite
+	culture = bavarian
+	father = 462739
+	1352.5.5 = {
+		birth = yes
+	}
+	1410.5.18 = {
+		death = yes
+	}
+}
+
+wittelsbach_11 = {
+	name = "Stephan"	# Count Palatine of Simmern-Zweibrücken
+	dynasty_house = house_wittelsbach
+	rite = roman_rite
+	culture = bavarian
+	father = wittelsbach_10
+	1385.6.23 = {
+		birth = yes
+	}
+	1459.2.14 = {
+		death = yes
+	}
+}
+
+wittelsbach_12 = {
+	name = "Ludwig"	# I, Count Palatine of Zweibrücken
+	dynasty_house = house_wittelsbach
+	rite = roman_rite
+	culture = bavarian
+	father = wittelsbach_11
+	1424.1.1 = {
+		birth = yes
+	}
+	1489.7.19 = {
+		death = yes
+	}
+}
+
+wittelsbach_13 = {
+	name = "Alexander"	# Count Palatine of Zweibrücken
+	dynasty_house = house_wittelsbach
+	rite = roman_rite
+	culture = bavarian
+	father = wittelsbach_12
+	1462.11.26 = {
+		birth = yes
+	}
+	1514.10.21 = {
+		death = yes
+	}
+}
+
+wittelsbach_14 = {
+	name = "Ludwig"	# II, Count Palatine of Zweibrücken
+	dynasty_house = house_wittelsbach
+	rite = roman_rite
+	culture = bavarian
+	father = wittelsbach_13
+	1502.9.14 = {
+		birth = yes
+	}
+	1532.12.3 = {
+		death = yes
+	}
+}
+
+wittelsbach_15 = {
+	name = "Wolfgang"	# Count Palatine of Zweibrücken
+	dynasty_house = house_wittelsbach
+	rite = roman_rite
+	culture = bavarian
+	father = wittelsbach_14
+	1526.9.26 = {
+		birth = yes
+	}
+	1569.6.11 = {
+		death = yes
+	}
+}
+
+wittelsbach_16 = {
+	name = "Karl"	# I, Count Palatine of Zweibrücken-Birkenfeld
+	dynasty_house = house_wittelsbach
+	rite = roman_rite
+	culture = bavarian
+	father = wittelsbach_15
+	1560.9.4 = {
+		birth = yes
+	}
+	1600.12.16 = {
+		death = yes
+	}
+}
+
+wittelsbach_17 = {
+	name = "Christian"	# I, Count Palatine of Birkenfeld-Bischweiler
+	dynasty_house = house_wittelsbach
+	rite = roman_rite
+	culture = bavarian
+	father = wittelsbach_16
+	1598.11.3 = {
+		birth = yes
+	}
+	1654.9.6 = {
+		death = yes
+	}
+}
+
+wittelsbach_18 = {
+	name = "Christian"	# II, Count Palatine of Zweibrücken-Birkenfeld
+	dynasty_house = house_wittelsbach
+	rite = roman_rite
+	culture = bavarian
+	father = wittelsbach_17
+	1637.6.22 = {
+		birth = yes
+	}
+	1717.4.26 = {
+		death = yes
+	}
+}
+
+wittelsbach_19 = {
+	name = "Christian"	# III, Count Palatine of Zweibrücken
+	dynasty_house = house_wittelsbach
+	rite = roman_rite
+	culture = bavarian
+	father = wittelsbach_18
+	1674.11.7 = {
+		birth = yes
+	}
+	1735.2.3 = {
+		death = yes
+	}
+}
+
+wittelsbach_20 = {
+	name = "Friedrich_Michael"	# Count Palatine of Zweibrücken
+	dynasty_house = house_wittelsbach
+	rite = roman_rite
+	culture = bavarian
+	father = wittelsbach_19
+	1724.2.27 = {
+		birth = yes
+	}
+	1767.8.15 = {
+		death = yes
+	}
+}
+####################
+
+## Gelnhausen branch, later styled "Dukes in Bavaria"
+wittelsbach_30 = {
+	name = "Johann_Karl"	# Count Palatine of Gelnhausen
+	dynasty_house = house_wittelsbach
+	rite = roman_rite
+	culture = bavarian
+	father = wittelsbach_17
+	1638.10.17 = {
+		birth = yes
+	}
+	1704.2.21 = {
+		death = yes
+	}
+}
+
+wittelsbach_31 = {
+	name = "Johann"	# Count Palatine of Gelnhausen
+	dynasty_house = house_wittelsbach
+	rite = roman_rite
+	culture = bavarian
+	father = wittelsbach_30
+	1698.5.24 = {
+		birth = yes
+	}
+	1780.2.10 = {
+		death = yes
+	}
+}
+
+wittelsbach_32 = {
+	name = "Wilhelm"	# Duke in Bavaria
+	dynasty_house = house_wittelsbach
+	rite = roman_rite
+	culture = bavarian
+	father = wittelsbach_31
+	1752.11.10 = {
+		birth = yes
+	}
+	1837.1.8 = {
+		death = yes
+	}
+}
+
+wittelsbach_33 = {
+	name = "Pius_August"	# Duke in Bavaria
+	dynasty_house = house_wittelsbach
+	rite = roman_rite
+	culture = bavarian
+	father = wittelsbach_32
+	1786.8.1 = {
+		birth = yes
+	}
+	1837.8.3 = {
+		death = yes
+	}
+}
+
+wittelsbach_34 = {
+	name = "Maximilian_Joseph"	# Duke in Bavaria
+	dynasty_house = house_wittelsbach
+	rite = roman_rite
+	culture = bavarian
+	father = wittelsbach_33
+	1808.12.4 = {
+		birth = yes
+	}
+	1888.11.15 = {
+		death = yes
+	}
+}
+
+# Empress of Austria, 1861
+wittelsbach_35 = {
+	name = "Elisabeth"	# Duchess in Bavaria
+	dynasty_house = house_wittelsbach
+	rite = roman_rite
+	culture = bavarian
+	father = wittelsbach_34
+	female = yes
+	1837.12.24 = {
+		birth = yes
+	}
+	1898.9.10 = {
+		death = yes
+	}
+}
+####################

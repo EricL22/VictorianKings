@@ -270,6 +270,15 @@ bonaparte_7 = {
 	1826.4.20 = {
 		trait = education_diplomacy_3
 	}
+	1852.12.2 = {
+		effect = {
+			add_legitimacy = 1000
+			dynasty = { add_dynasty_prestige = 10000 }
+		}
+	}
+	1853.1.30 = {
+		add_spouse = eur_01400	# Eugénie de Montijo
+	}
 	1873.1.9 = {
 		death = yes
 	}
@@ -370,6 +379,7 @@ bonaparte_13 = {
 	rite = roman_rite
 	culture = french
 	father = bonaparte_7
+	mother = eur_01400
 	1856.3.16 = {
 		birth = yes
 	}

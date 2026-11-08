@@ -108,7 +108,10 @@ return_rome_decision = {
 		}
 		modifier = {	# CHANGED: added
 			factor = 0
-			has_title = title:e_italy
+			OR = {
+				has_title = title:e_italy
+				has_title = title:e_france
+			}
 		}
 	}
 }

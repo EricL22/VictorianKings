@@ -54,6 +54,9 @@ bernadotte_2 = {
 	1826.5.3 = {
 		birth = yes
 	}
+	1850.6.19 = {
+		add_spouse = orange_6	# Louise of the Netherlands
+	}
 	1872.9.18 = {
 		death = yes
 	}
@@ -68,6 +71,9 @@ bernadotte_3 = {
 	1829.1.21 = {
 		birth = yes
 	}
+	1857.6.6 = {
+		add_spouse = nassau_5	# Sophia of Nassau
+	}
 	1907.12.8 = {
 		death = yes
 	}
@@ -79,6 +85,7 @@ bernadotte_4 = {
 	rite = lutheran_rite
 	culture = swedish
 	father = bernadotte_3
+	mother = nassau_5
 	1858.6.16 = {
 		birth = yes
 	}

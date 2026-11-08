@@ -374,6 +374,9 @@ habsburg_23 = {
 	1830.8.18 = {
 		birth = yes
 	}
+	1854.4.24 = {
+		add_spouse = wittelsbach_35	# Duchess Elisabeth in Bavaria
+	}
 	1916.11.21 = {
 		death = yes
 	}
@@ -473,6 +476,7 @@ habsburg_30 = {
 	rite = roman_rite
 	culture = bavarian
 	father = habsburg_23
+	mother = wittelsbach_35
 	1858.8.21 = {
 		birth = yes
 	}

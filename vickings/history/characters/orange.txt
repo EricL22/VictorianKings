@@ -94,6 +94,22 @@ orange_5 = {
 	}
 }
 
+# Queen of Sweden and Norway, 1861
+orange_6 = {
+	name = "Louise"
+	dynasty_house = house_orange_nassau
+	rite = reformed_rite
+	culture = dutch
+	father = orange_5
+	female = yes
+	1828.8.5 = {
+		birth = yes
+	}
+	1871.3.30 = {
+		death = yes
+	}
+}
+
 ## Connectors
 orange_10 = {
 	name = "Johan_Willem_Friso"

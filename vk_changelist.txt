@@ -1,9 +1,11 @@
 1.0.1----------
 Added historical special buildings: London Bridge, the Forbidden City, Alcázar of Segovia, Notre-Dame
-Expanded historical dynasties: the Wettins, Niklotids, European Queens, and Russian commanders
+Expanded historical dynasties: the Wettins, Niklotids, Wittelsbachs, Hessians, European Queens, Russian commanders
 Changed Solomonids to follow Ge'ez rite
 Fix an edge case regarding personal union independence when the inheritor is unlanded
 Modified the COA for Italy to distinguish the Napoleonic kingdom from the unified kingdom
+Buffed the Prussians in 1861
+Fix Austrian border in Croatia
 1.0------------
 Completely rebuilt the mod from the ground up. Note that most gameplay features that were present in earlier versions have been removed, outside of a small set of events/decisions.
 Fixed compatibility for the 1.20 update and ported over the updated vanilla map

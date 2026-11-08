@@ -490,22 +490,17 @@ c_zavrsje = {
 	}
 }
 c_pagania = {
-	1808.7.28 = {	# Ottomans
-		holder = ottoman_26	# Mahmud II
+	1800.1.1 = { de_jure_liege = d_dalmatia }
+	1809.1.1 = {	# France
+		holder = bonaparte_2	# Napoleon
 	}
-	1839.7.1 = {
-		holder = ottoman_27	# Abdul Mejid I
+	1815.7.8 = {	# Austria
+		holder = habsburg_20	# Francis II
 	}
-	1861.6.25 = {
-		holder = ottoman_28	# Abdulaziz
+	1835.3.2 = {
+		holder = habsburg_21	# Ferdinand I
 	}
-	1876.5.30 = {
-		holder = ottoman_29	# Murad V
-	}
-	1876.8.31 = {
-		holder = ottoman_30	# Abdul Hamid II
-	}
-	1908.10.7 = {	# Austria
+	1848.12.2 = {
 		holder = habsburg_23	# Franz Josef I
 	}
 }
