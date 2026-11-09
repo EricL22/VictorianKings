@@ -64,3 +64,27 @@ godworship = {
 		ReligiousHeadTitleName = godworship_religious_head_title_name
 	}
 }
+
+sikhism = {
+	main_rite = sikhism
+	faith_details = {
+		religion = sikhism_religion
+		color = { 0 0.6 0.6 }
+		icon = khanda
+	}
+
+	eminent_holy_sites = {
+		lahore
+	}
+
+	holy_sites = {
+		anandpur
+		bathinda
+		patna
+		nanded
+	}
+
+	#doctrines = { }
+
+	#localization = { }
+}

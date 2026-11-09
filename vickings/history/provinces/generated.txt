@@ -1594,6 +1594,11 @@
 		rite = hanafi
 	}
 }
+1192 = {
+	1800.1.1 = {
+		rite = sikhism
+	}
+}
 1236 = {
 	1800.1.1 = {
 		rite = hanafi
@@ -1669,9 +1674,34 @@
 		rite = hanafi
 	}
 }
+1341 = {
+	1800.1.1 = {
+		rite = sikhism
+	}
+}
 1342 = {
 	1800.1.1 = {
 		rite = imami
+	}
+}
+1352 = {
+	1800.1.1 = {
+		rite = sikhism
+	}
+}
+1362 = {
+	1800.1.1 = {
+		rite = sikhism
+	}
+}
+1364 = {
+	1800.1.1 = {
+		rite = sikhism
+	}
+}
+1366 = {
+	1800.1.1 = {
+		rite = sikhism
 	}
 }
 1375 = {
@@ -4603,6 +4633,16 @@
 3220 = {
 	1800.1.1 = {
 		rite = lutheran_rite
+	}
+}
+3421 = {
+	1800.1.1 = {
+		rite = sikhism
+	}
+}
+3427 = {
+	1800.1.1 = {
+		rite = sikhism
 	}
 }
 3501 = {

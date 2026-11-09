@@ -45,3 +45,81 @@ guangzhou = {
 		county_opinion_add = 1
 	}
 }
+
+#############
+# Sikh #
+#############
+
+lahore = { # Harmandir Sahib and Akal Takht Sahib
+	county = c_lahur
+
+	county_holder_character_modifier = {
+		diplomacy = 2
+		learning = 1
+		vassal_opinion = 5
+	}
+
+	faith_character_modifier = {
+		monthly_piety_gain_mult = 0.1
+		same_faith_opinion = 5
+	}
+}
+
+anandpur = { # Takht Sri Kesgarh Sahib
+	county = c_trigarta
+	barony = b_rahon
+
+	county_holder_character_modifier = {
+		martial = 2
+		prowess = 2
+	}
+
+	faith_character_modifier = {
+		knight_effectiveness_mult = 0.05
+		martial_per_piety_level = 1
+	}
+}
+
+bathinda = { # Takht Sri Damdama Sahib
+	county = c_tribandapura
+
+	county_holder_character_modifier = {
+		learning = 2
+		monthly_lifestyle_xp_gain_mult = 0.1
+	}
+
+	faith_character_modifier = {
+		learning = 1
+		monthly_piety_gain_mult = 0.05
+	}
+}
+
+patna = { # Takht Sri Patna Sahib
+	county = c_magadha
+
+	county_holder_character_modifier = {
+		diplomacy = 2
+		monthly_prestige_gain_mult = 0.1
+	}
+
+	faith_character_modifier = {
+		monthly_prestige_gain_mult = 0.05
+		monthly_piety_gain_mult = 0.05
+	}
+}
+
+nanded = { # Takht Sri Hazur Sahib
+	county = c_ashmaka
+	barony = b_nanded
+
+	county_holder_character_modifier = {
+		learning = 2
+		monthly_piety_gain_mult = 0.1
+		clergy_opinion = 5
+	}
+
+	faith_character_modifier = {
+		learning = 1
+		monthly_piety_gain_mult = 0.1
+	}
+}

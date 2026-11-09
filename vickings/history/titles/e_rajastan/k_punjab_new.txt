@@ -2,6 +2,9 @@ k_punjab = {
 	1801.4.12 = {	# Sikh Empire
 		holder = sikh_0 # Ranjit Singh
 		liege = 0
+		effect = {
+			holder ?= { add_realm_law_skip_effects = male_only_law }
+		}
 	}
 	1839.6.27 = {
 		holder = sikh_1	# Kharak Singh

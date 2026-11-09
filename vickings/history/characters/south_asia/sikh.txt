@@ -1,7 +1,7 @@
 ﻿sikh_0 = {
-	name = "Ranjit Singh"
+	name = "Ranjit_Singh"
 	dynasty = sikh
-	rite = vaishnavism
+	rite = sikhism
 	culture = punjabi
 	1780.11.13 = {
 		birth = yes
@@ -12,9 +12,9 @@
 }
 
 sikh_1 = {
-	name = "Kharak Singh"
+	name = "Kharak_Singh"
 	dynasty = sikh
-	rite = vaishnavism
+	rite = sikhism
 	culture = punjabi
 	father = sikh_0
 	trait = lifestyle_reveler
@@ -31,9 +31,9 @@ sikh_1 = {
 }
 
 sikh_2 = {
-	name = "Nau-Nihal Singh"
+	name = "Nau_Nihal_Singh"
 	dynasty = sikh
-	rite = vaishnavism
+	rite = sikhism
 	culture = punjabi
 	father = sikh_1
 	1821.2.11 = {
@@ -45,9 +45,9 @@ sikh_2 = {
 }
 
 sikh_3 = {
-	name = "Sher Singh"
+	name = "Sher_Singh"
 	dynasty = sikh
-	rite = vaishnavism
+	rite = sikhism
 	culture = punjabi
 	father = sikh_0
 	1807.12.4 = {
@@ -61,9 +61,9 @@ sikh_3 = {
 }
 
 sikh_4 = {
-	name = "Duleep Singh"
+	name = "Duleep_Singh"
 	dynasty = sikh
-	rite = vaishnavism
+	rite = sikhism
 	culture = punjabi
 	father = sikh_0
 	1838.9.6 = {

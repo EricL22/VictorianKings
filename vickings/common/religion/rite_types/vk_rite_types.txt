@@ -105,3 +105,18 @@ godworship = {
 
 	#localization = { }
 }
+
+sikhism = {
+	faith = sikhism
+
+	color = { 0 0.6 0.6 }
+	icon = khanda
+
+	tenets = {
+		tenet_unrelenting_faith
+		tenet_adaptive
+		tenet_communal_identity
+	}
+
+	#doctrines = { }
+}
