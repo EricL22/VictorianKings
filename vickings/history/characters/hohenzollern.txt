@@ -343,11 +343,11 @@ hohenzollern_18 = {
 				}
 				men_at_arms = {
 					type = light_horsemen
-					stacks = 60
+					stacks = 30
 				}
 				men_at_arms = {
 					type = armored_horsemen
-					stacks = 60
+					stacks = 30
 				}
 				location = province:3158
 				origin = province:3158

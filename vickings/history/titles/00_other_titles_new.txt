@@ -235,11 +235,23 @@ e_russia = {
 			}
 		}
 	}
+	1725.2.8 = {
+		holder = romanov_26	# Catherine I
+	}
 	1727.5.18 = {
 		holder = romanov_2	# Peter II
 	}
+	1730.2.26 = {
+		holder = romanov_27	# Anna
+	}
+	1741.12.6 = {
+		holder = romanov_28	# Elizabeth
+	}
 	1762.1.9 = {
 		holder = romanov_4	# Peter III
+	}
+	1762.7.9 = {
+		holder = ascania_25	# Catherine II
 	}
 	1796.11.17 = {
 		holder = romanov_5	# Paul I

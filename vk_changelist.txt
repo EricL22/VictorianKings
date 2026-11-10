@@ -1,6 +1,6 @@
 1.0.1----------
 Added historical special buildings: London Bridge, the Forbidden City, Alcázar of Segovia, Notre-Dame
-Expanded historical dynasties: the Wettins, Niklotids, Wittelsbachs, Hessians, European Queens, Russian commanders
+Expanded historical dynasties: the Wettins, Niklotids, Wittelsbachs, Hessians, Romanovs, Ascanians, European Queens, Russian commanders
 Changed Solomonids to follow Ge'ez rite
 The Sikh Empire now follows Sikh religion
 Fix an edge case regarding personal union independence when the inheritor is unlanded

@@ -3,6 +3,7 @@
 	dynasty = 226
 	rite = lutheran_rite
 	culture = saxon
+	father = ascania_20
 	1740.8.10 = {
 		birth = yes
 	}
@@ -64,5 +65,239 @@ ascania_4 = {
 	}
 	1918.4.21 = {
 		death = yes
+	}
+}
+
+## Connectors
+ascania_10 = {
+	name = "Johann"	# II of Anhalt-Zerbst
+	dynasty = 226
+	rite = roman_rite
+	culture = saxon
+	father = 462126
+	1341.1.1 = {
+		birth = yes
+	}
+	1382.4.11 = {
+		death = yes
+	}
+}
+
+ascania_11 = {
+	name = "Sigismund"	# I of Anhalt-Dessau
+	dynasty = 226
+	rite = roman_rite
+	culture = saxon
+	father = ascania_10
+	1368.1.1 = {
+		birth = yes
+	}
+	1405.1.19 = {
+		death = yes
+	}
+}
+
+ascania_12 = {
+	name = "Georg"	# I of Anhalt-Dessau
+	dynasty = 226
+	rite = roman_rite
+	culture = saxon
+	father = ascania_11
+	1390.1.1 = {
+		birth = yes
+	}
+	1474.9.21 = {
+		death = yes
+	}
+}
+
+ascania_13 = {
+	name = "Ernst"	# I of Anhalt-Dessau
+	dynasty = 226
+	rite = roman_rite
+	culture = saxon
+	father = ascania_12
+	1454.1.1 = {
+		birth = yes
+	}
+	1516.6.12 = {
+		death = yes
+	}
+}
+
+ascania_14 = {
+	name = "Johann"	# V of Anhalt-Zerbst
+	dynasty = 226
+	rite = lutheran_rite
+	culture = saxon
+	father = ascania_13
+	1504.9.4 = {
+		birth = yes
+	}
+	1551.2.4 = {
+		death = yes
+	}
+}
+
+ascania_15 = {
+	name = "Jochim_Ernst"	# Prince of Anhalt
+	dynasty = 226
+	rite = reformed_rite
+	culture = saxon
+	father = ascania_14
+	1536.10.21 = {
+		birth = yes
+	}
+	1586.12.6 = {
+		death = yes
+	}
+}
+
+# (to Anhalt-Dessau)
+ascania_16 = {
+	name = "Johann_Georg"	# I of Anhalt-Dessau
+	dynasty = 226
+	rite = reformed_rite
+	culture = saxon
+	father = ascania_15
+	1567.5.9 = {
+		birth = yes
+	}
+	1618.5.24 = {
+		death = yes
+	}
+}
+
+ascania_17 = {
+	name = "Johann_Kasimir"	# Prince of Anhalt-Dessau
+	dynasty = 226
+	rite = reformed_rite
+	culture = saxon
+	father = ascania_16
+	1596.12.17 = {
+		birth = yes
+	}
+	1660.9.15 = {
+		death = yes
+	}
+}
+
+ascania_18 = {
+	name = "Johann_Georg"	# II of Anhalt-Dessau
+	dynasty = 226
+	rite = reformed_rite
+	culture = saxon
+	father = ascania_17
+	1627.11.17 = {
+		birth = yes
+	}
+	1693.8.7 = {
+		death = yes
+	}
+}
+
+ascania_19 = {
+	name = "Leopold"	# I of Anhalt-Dessau
+	dynasty = 226
+	rite = reformed_rite
+	culture = saxon
+	father = ascania_18
+	1676.7.3 = {
+		birth = yes
+	}
+	1747.4.7 = {
+		death = yes
+	}
+}
+
+ascania_20 = {
+	name = "Leopold"	# II of Anhalt-Dessau
+	dynasty = 226
+	rite = reformed_rite
+	culture = saxon
+	father = ascania_19
+	1700.12.25 = {
+		birth = yes
+	}
+	1751.12.16 = {
+		death = yes
+	}
+}
+
+# (Anhalt-Zerbst)
+ascania_21 = {
+	name = "Rudolf"	# Prince of Anhalt-Zerbst
+	dynasty = 226
+	rite = reformed_rite
+	culture = saxon
+	father = ascania_15
+	1576.10.28 = {
+		birth = yes
+	}
+	1621.7.30 = {
+		death = yes
+	}
+}
+
+ascania_22 = {
+	name = "Johann"	# VI of Anhalt-Zerbst
+	dynasty = 226
+	rite = lutheran_rite
+	culture = saxon
+	father = ascania_21
+	1621.3.24 = {
+		birth = yes
+	}
+	1667.7.4 = {
+		death = yes
+	}
+}
+
+ascania_23 = {
+	name = "Johann_Ludwig"	# I of Anhalt-Dornburg
+	dynasty = 226
+	rite = lutheran_rite
+	culture = saxon
+	father = ascania_22
+	1656.5.4 = {
+		birth = yes
+	}
+	1704.11.1 = {
+		death = yes
+	}
+}
+
+ascania_24 = {
+	name = "Christian_August"	# Prince of Anhalt-Zerbst
+	dynasty = 226
+	rite = lutheran_rite
+	culture = saxon
+	father = ascania_23
+	1690.11.29 = {
+		birth = yes
+	}
+	1747.3.16 = {
+		death = yes
+	}
+}
+
+ascania_25 = {
+	name = "Sophia"
+	dynasty = 226
+	rite = lutheran_rite
+	culture = saxon
+	father = ascania_24
+	female = yes
+	1729.5.2 = {
+		birth = yes
+	}
+	1745.8.21 = {
+		name = "Yekaterina"	# II of Russia
+		rite = slavic_rite
+		culture = russian
+	}
+	1796.11.17 = {
+		death = yes
+		give_nickname = nick_the_great
 	}
 }

@@ -31,6 +31,7 @@ congress_of_vienna.1 = {
 					limit = {
 						is_adult = yes
 						has_culture = culture:french
+						is_male = yes
 					}
 					order_by = age
 					position = 0

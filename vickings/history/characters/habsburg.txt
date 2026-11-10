@@ -360,6 +360,10 @@ habsburg_22 = {
 			}
 		}
 	}
+	1818.12.17 = {
+		trait = content
+		trait = trusting
+	}
 	1878.3.8 = {
 		death = yes
 	}
