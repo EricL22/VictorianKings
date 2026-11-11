@@ -6,6 +6,7 @@ The Sikh Empire now follows Sikh religion
 Fix an edge case regarding personal union independence when the inheritor is unlanded
 Modified the COA for Italy to distinguish the Napoleonic kingdom from the unified kingdom
 Buffed the Prussians in 1861
+Buffed Colonial government to reduce incredibly strong popular revolts
 Fix Austrian border in Croatia
 Fix state religion of the UK
 1.0------------

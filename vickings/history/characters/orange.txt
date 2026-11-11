@@ -4,6 +4,10 @@
 	rite = reformed_rite
 	culture = dutch
 	father = orange_12
+	trait = ambitious
+	trait = diligent
+	trait = stubborn
+	trait = education_stewardship_4
 	1772.8.24 = {
 		birth = yes
 	}
@@ -27,6 +31,10 @@ orange_1 = {
 	culture = dutch
 	father = orange_0
 	mother = hohenzollern_24
+	trait = brave
+	trait = generous
+	trait = fickle
+	trait = education_martial_3
 	1792.12.6 = {
 		birth = yes
 	}
@@ -45,6 +53,10 @@ orange_2 = {
 	culture = dutch
 	father = orange_1
 	mother = romanov_31
+	trait = wrathful
+	trait = stubborn
+	trait = arbitrary
+	trait = education_diplomacy_2
 	1817.2.19 = {
 		birth = yes
 	}

@@ -4712,7 +4712,7 @@
 }
 3555 = {
 	1800.1.1 = {
-		rite = hanafi
+		rite = roman_rite
 	}
 }
 3560 = {

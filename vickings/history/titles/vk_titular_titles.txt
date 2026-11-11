@@ -964,6 +964,7 @@ k_dutch_east_indies = {
 				name = colonial_overlord
 				value = title:e_britannia
 			}
+			holder ?= { add_gold = 2000 }
 		}
 	}
 	1833.7.2 = {

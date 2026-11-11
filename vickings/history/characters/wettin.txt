@@ -419,12 +419,15 @@ wettin_39 = {
 
 wettin_40 = {
 	name = "Leopold"	# I of Belgium
-	dynasty_house = house_saxe_coburg_belgium
+	dynasty_house = house_saxe_coburg
 	rite = lutheran_rite
 	culture = franconian
 	father = wettin_30
 	1790.12.16 = {
 		birth = yes
+	}
+	1831.7.21 = {
+		dynasty_house = house_saxe_coburg_belgium
 	}
 	1832.8.9 = {
 		add_spouse = bourbon_33	# Louise of Orléans

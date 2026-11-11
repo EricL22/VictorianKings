@@ -37,7 +37,7 @@ d_finland = {
 	1158.1.1 = {
 	}
 	1284.1.1 = {
-		effect = { reset_coa = THIS }
+		effect = { reset_coa = yes }
 	}
 	1291.5.25 = {
 	}
