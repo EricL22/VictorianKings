@@ -44,8 +44,6 @@
 	}
 
 	character_modifier = {
-		colonial_government_tax_contribution_mult = 0.5
-		colonial_government_levy_contribution_mult = 0.5
 		feudal_government_tax_contribution_mult = -0.5
 		feudal_government_levy_contribution_mult = -0.5
 		clan_government_tax_contribution_mult = -0.5
@@ -56,11 +54,10 @@
 		vassal_limit = 100
 		accolades = -1
 		title_creation_cost_mult = -0.5
-		mercenary_hire_cost_mult = -0.25	# cheaper than importing manpower from home country
+		mercenary_hire_cost_mult = -0.5	# cheaper than importing manpower from home country
 		men_at_arms_maintenance = 0.5
 		monthly_county_control_growth_factor = 0.5
 		county_opinion_add = 20
-		army_maintenance_mult = -0.1
 
 		# Vassals get Treasury income that is this percentage less than their taxes to their liege
 		monthly_treasury_from_liege_mult = -0.15
