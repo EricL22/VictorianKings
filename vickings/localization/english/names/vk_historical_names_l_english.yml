@@ -146,12 +146,13 @@
  Friedrich_Michael: "Friedrich Michael"
  Johann_Karl: "Johann Karl"
  Karl_Ludwig: "Karl Ludwig"
- Maria_Anna: "Maria Anna"
- Maria_Ludovica: "Maria Ludovica"
- Maria_Theresa: "Maria Theresa"
  Maximilian_Joseph: "Maximilian Joseph"
  Otto_Franz_Josef: "Otto Franz Josef"
  Pius_August: "Pius August"
+ 
+ Maria_Anna: "Maria Anna"
+ Maria_Ludovica: "Maria Ludovica"
+ Maria_Theresa: "Maria Theresa"
  
  # German
  Adolf_Friedrich: "Adolf Friedrich"
@@ -163,8 +164,9 @@
  Johann_Albrecht: "Johann Albrecht"
  Karl_Leopold: "Karl Leopold"
  Karl_Ludwig_Friedrich: "Karl Ludwig Friedrich"
- Luise_Karoline: "Luise Karoline"
  Paul_Friedrich: "Paul Friedrich"
+ 
+ Luise_Karoline: "Luise Karoline"
  
  # Swabian
  Anton_Aloys: "Anton Aloys"
@@ -192,9 +194,10 @@
  Karl_Alexander: "Karl Alexander"
  Karl_Anton_August: "Karl Anton August"
  Karl_Frederik: "Karl Frederik"
- Maria_Josepha: "Maria Josepha"
  Peter_August: "Peter August"
  Wilhelm_Ernst: "Wilhelm Ernst"
+ 
+ Maria_Josepha: "Maria Josepha"
  
  # Dutch
  Johan_Willem_Friso: "Johan Willem Friso"

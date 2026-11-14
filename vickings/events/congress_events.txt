@@ -25,6 +25,32 @@ congress_of_vienna.1 = {
 				save_scope_as = bourbon
 			}
 		}
+		else_if = {
+			limit = {
+				dynasty:100146 = {
+					any_dynasty_member = {
+						any_ancestor = {
+							even_if_dead = yes
+							THIS = character:bourbon_13
+						}
+						is_male = yes
+					}
+				}
+			}
+			dynasty:100146 = {
+				ordered_dynasty_member = {
+					order_by = age
+					limit = {
+						any_ancestor = {
+							even_if_dead = yes
+							THIS = character:bourbon_13
+						}
+						is_male = yes
+					}
+					save_scope_as = bourbon
+				}
+			}
+		}
 		else = {
 			dynasty:100146 = {
 				ordered_dynasty_member = {

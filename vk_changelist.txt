@@ -1,3 +1,6 @@
+1.1------------
+Bourbon-Condé branch
+Male-only law for Sardinia/Italy
 1.0.1----------
 Added historical special buildings: London Bridge, the Forbidden City, Alcázar of Segovia, Notre-Dame
 Expanded historical dynasties: the Wettins, Niklotids, Wittelsbachs, Hessians, Romanovs, Ascanians, European Queens, Russian commanders

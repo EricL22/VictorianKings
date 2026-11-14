@@ -802,6 +802,21 @@ eur_09101 = {
 		death = yes
 	}
 }
+eur_09102 = {
+	name = "Dmitriy"
+	dynasty = naryshkin
+	culture = russian
+	rite = slavic_rite
+	1764.6.25 = {
+		birth = yes
+	}
+	1795.1.1 = {
+		add_spouse = romanov_20	# Maria Naryshkina
+	}
+	1838.4.12 = {
+		death = yes
+	}
+}
 ####################
 
 

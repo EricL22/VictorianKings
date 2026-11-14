@@ -1,0 +1,14 @@
+﻿# Used to restrict a character from destroying titles, in addition to any title-specific limitation from the can_destroy block in the title definition.
+# For modder usage; new general title destruction requirements in vanilla should be done in code.
+#
+# Supported scopes:
+#	root ( character )
+#		the ruler that might destroy a title
+#	scope:title ( title )
+#		the title to destroy or not
+can_destroy_title = {
+	custom_tooltip = {
+		text = personal_union.tt.forbid_title_destruction
+		NOT = { is_target_in_global_variable_list = { name = personal_union target = scope:title } }
+	}
+}

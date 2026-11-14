@@ -1092,3 +1092,131 @@ bourbon_72 = {
 		death = yes
 	}
 }
+####################
+
+## Bourbon-Condé
+bourbon_80 = {
+	name = "Louis"	# I, Prince of Condé
+	dynasty_house = house_bourbon_conde
+	rite = roman_rite
+	culture = french
+	father = bourbon_4
+	1530.5.7 = {
+		birth = yes
+	}
+	1558.1.1 = {
+		rite = reformed_rite
+	}
+	1569.3.13 = {
+		death = yes
+	}
+}
+bourbon_81 = {
+	name = "Henri"	# I, Prince of Condé
+	dynasty_house = house_bourbon_conde
+	rite = roman_rite
+	culture = french
+	father = bourbon_80
+	1552.12.29 = {
+		birth = yes
+	}
+	1558.1.1 = {
+		rite = reformed_rite
+	}
+	1588.3.5 = {
+		death = yes
+	}
+}
+bourbon_82 = {
+	name = "Henri"	# II, Prince of Condé
+	dynasty_house = house_bourbon_conde
+	rite = roman_rite
+	culture = french
+	father = bourbon_81
+	1588.9.1 = {
+		birth = yes
+	}
+	1646.12.26 = {
+		death = yes
+	}
+}
+bourbon_83 = {
+	name = "Louis"	# II "le Grand Condé"
+	dynasty_house = house_bourbon_conde
+	rite = roman_rite
+	culture = french
+	father = bourbon_82
+	trait = education_military_3
+	1621.9.8 = {
+		birth = yes
+	}
+	1686.12.11 = {
+		death = yes
+	}
+}
+bourbon_84 = {
+	name = "Henri"	# III Jules, Prince of Condé
+	dynasty_house = house_bourbon_conde
+	rite = roman_rite
+	culture = french
+	father = bourbon_83
+	1643.7.29 = {
+		birth = yes
+	}
+	1709.4.1 = {
+		death = yes
+	}
+}
+bourbon_85 = {
+	name = "Louis"	# III, Prince of Condé
+	dynasty_house = house_bourbon_conde
+	rite = roman_rite
+	culture = french
+	father = bourbon_84
+	1668.11.10 = {
+		birth = yes
+	}
+	1710.3.4 = {
+		death = yes
+	}
+}
+bourbon_86 = {
+	name = "Louis"	# IV Henri, Prince of Condé
+	dynasty_house = house_bourbon_conde
+	rite = roman_rite
+	culture = french
+	father = bourbon_85
+	1692.8.18 = {
+		birth = yes
+	}
+	1740.1.27 = {
+		death = yes
+	}
+}
+bourbon_87 = {
+	name = "Louis"	# V Joseph, Prince of Condé
+	dynasty_house = house_bourbon_conde
+	rite = roman_rite
+	culture = french
+	father = bourbon_86
+	1736.8.9 = {
+		birth = yes
+	}
+	1818.5.13 = {
+		death = yes
+	}
+}
+bourbon_88 = {
+	name = "Louis"	# VI Henri, Prince of Condé
+	dynasty_house = house_bourbon_conde
+	rite = roman_rite
+	culture = french
+	father = bourbon_87
+	1756.4.13 = {
+		birth = yes
+	}
+	1830.8.30 = {
+		death = yes
+	}
+}
+####################

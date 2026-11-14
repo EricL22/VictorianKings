@@ -2,6 +2,7 @@ k_sardinia = {
 	# de Savoie
 	1720.2.17 = {
 		holder = savoy_14 # Vittorio Amedeo II
+		effect = { holder ?= { add_realm_law_skip_effects = male_only_law } }
 	}
 	1730.9.3 = {
 		holder = savoy_15 # Carlo Emanuele III

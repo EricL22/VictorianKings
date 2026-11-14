@@ -5,7 +5,14 @@
 }
 
 house_orleans_4 = {
+	prefix = "dynnp_de"
 	name = "dynn_Bb_Orleans"
+	dynasty = 100146	# Bourbon
+}
+
+house_bourbon_conde = {
+	prefix = "dynnp_de"
+	name = "dynn_Bb_Conde"
 	dynasty = 100146	# Bourbon
 }
 
@@ -25,6 +32,7 @@ house_carignano = {
 }
 
 house_tts = {
+	prefix = "dynnp_di"
 	name = "dynn_Bb_Sicilies"
 	dynasty = 100146	# Bourbon
 }
@@ -80,6 +88,7 @@ house_schles_hols_gluck = {
 }
 
 house_bourbon_parma = {
+	prefix = "dynnp_di"
 	name = "dynn_Bb_Parma"
 	dynasty = 100146	# Bourbon
 }

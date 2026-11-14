@@ -65,8 +65,8 @@
  k_romania:0 "Romania"
  k_romania_adj:0 "Romanian"
 
- k_sokoto: "Sokoto"
- k_sokoto_adj: "Sokoto"
+ k_sokoto: "$c_sokoto$"
+ k_sokoto_adj: "$c_sokoto_adj$"
 
  k_sikkim:0 "Sikkim"
 

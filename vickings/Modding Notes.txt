@@ -1,10 +1,13 @@
 TODOs:
 HIGH Priority ---
-
-DEFERRED Priority ---
+Radical faction
 Cultural innovations
 Province development/buildings
 Russian Siberia map extension
+1848 revolutions (event chain?) -> national unification situations
+
+DEFERRED Priority ---
+Colonization mechanic - admin govt use this against tribes and they can NEVER declare war against tribes (show player tooltip)
 
 LOW Priority ----
 semi-salic succession law - LOCKS allowed gender laws to male-only or male-preference. if your character inherits a title with no dynastic heir on a male-only gender law, it automatically switches to male-preference until another male heir inherits. in the case of your heir dying leaving with you no dynastic heir, that is the ONLY instance you are allowed to change gender laws manually to male-preference, which is otherwise unselectable.
@@ -51,6 +54,10 @@ A bookmark WILL NOT LOAD if it has any character/title history errors.
 
 -debug_mode -develop
 
+
+innovation evolution: late medieval -> renaissance -> industrial -> modern
+handgunner -> matchlock -> flint/percussion cap lock -> breech-loading
+bombard -> smoothbore -> horse artillery -> field artillery
 
 
 1914

@@ -33,6 +33,8 @@ common
 .........vk_overwrite_tenets.txt (clauses)
 ...scripted_effects
 ......vk_[...]_overwrite_effects.txt (clauses)
+...scripted_rules
+......vk_rules.txt (clauses)
 ...subject_contracts
 ......contracts
 .........vk_overwrite_special_contracts.txt (clauses)

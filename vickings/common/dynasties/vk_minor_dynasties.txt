@@ -1,0 +1,4 @@
+﻿naryshkin = {
+	name = "dynn_Naryshkin"
+	culture = russian
+}

@@ -22,7 +22,6 @@ romanov_1 = {
 	rite = slavic_rite
 	culture = russian
 	father = romanov_0
-	mother = romanov_26
 	1690.2.28 = {
 		birth = yes
 	}
@@ -108,6 +107,7 @@ romanov_6 = {
 	father = romanov_5
 #	dna = 9000014_alexander_romanov
 	trait = fickle
+	trait = adulterer
 	portrait_override = {
 		portrait_modifier_overrides = {
 			beards = has_no_beard
@@ -125,12 +125,19 @@ romanov_6 = {
 		add_spouse = zahringen_10	# Elizabeth Alexeievna (Louise of Baden)
 	}
 	1799.1.1 = {
-		set_relation_lover = { reason = lover_history target = character:romanov_20 }	# Maria Naryshkina
+		effect = {
+			set_relation_lover = { reason = lover_history target = character:romanov_20 }	# Maria Naryshkina
+			every_known_secret = {
+				limit = { secret_type = secret_lover }
+				remove_secret = yes
+			}
+		}
 	}
 	1810.1.1 = {
 		effect = {
 			add_prestige_experience = 1000
 			add_gold = 1000
+			add_legitimacy = 500
 			#add_character_modifier = {
 			#	modifier = emperor_of_russia_modifier
 			#}
@@ -260,6 +267,7 @@ romanov_8 = {
 			#add_character_flag = semi_salic_law
 			add_prestige_experience = 100
 			add_gold = 5000
+			add_legitimacy = 500
 			#add_character_modifier = {
 			#	modifier = emperor_of_russia_modifier
 			#}
@@ -287,6 +295,7 @@ romanov_9 = {
 		effect = {
 			add_prestige_experience = 100
 			add_gold = 5000
+			add_legitimacy = 500
 			#add_character_modifier = {
 			#	modifier = emperor_of_russia_modifier
 			#}
@@ -452,6 +461,8 @@ romanov_20 = {
 	rite = slavic_rite
 	culture = polish
 	female = yes
+	trait = beauty_good_1
+	trait = adulterer
 	1779.1.1 = {
 		birth = yes
 	}
@@ -461,15 +472,16 @@ romanov_20 = {
 }
 romanov_21 = {
 	name = "Sophia"
-	dynasty = 100397
+	dynasty = naryshkin
 	rite = slavic_rite
-	culture = polish
+	culture = russian
 	female = yes
-	trait = bastard
+	trait = disputed_heritage
 	mother = romanov_20
-	father = romanov_6
+	father = eur_09102
 	1805.10.1 = {
 		birth = yes
+		effect = { set_real_father = character:romanov_6 }
 	}
 	1824.6.18 = {
 		death = yes

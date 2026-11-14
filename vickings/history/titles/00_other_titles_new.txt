@@ -318,6 +318,7 @@ e_italy = {
 					add_realm_law_skip_effects = single_heir_succession_law
 					add_realm_law_skip_effects = imperial_bureaucracy_1
 					add_realm_law_skip_effects = province_war_law_1
+					add_realm_law_skip_effects = male_only_law
 				}
 			}
 			if = {
@@ -338,6 +339,7 @@ e_italy = {
 					change_government = feudal_government
 					add_realm_law_skip_effects = single_heir_succession_law
 					add_realm_law_skip_effects = crown_authority_1
+					add_realm_law_skip_effects = male_only_law
 				}
 			}
 		}
